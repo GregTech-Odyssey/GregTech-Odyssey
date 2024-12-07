@@ -1710,7 +1710,7 @@ ServerEvents.recipes(event => {
             .EUt(GTValues.VA[GTValues.UXV])
             .CWUt(1024))
 
-    gtr.assembly_line("gtocore:a_mass_fabricator")
+    gtr.assembly_line("gtocore:advanced_mass_fabricator")
         .itemInputs("16x gtceu:active_transformer",
             "4x gtocore:mass_fabricator",
             "4x gtocore:cosmic_processing_core",
@@ -1726,7 +1726,7 @@ ServerEvents.recipes(event => {
             "32x gtceu:double_vibranium_plate",
             "32x gtceu:double_arceusalloy2b_plate")
         .inputFluids("gtceu:uruium 5760", "gtceu:zeron_100 2880", "gtceu:maraging_steel_300 2880", "gtceu:hastelloy_c_276 2880")
-        .itemOutputs("gtocore:a_mass_fabricator")
+        .itemOutputs("gtocore:advanced_mass_fabricator")
         .EUt(GTValues.VA[GTValues.UIV])
         .duration(1800)
         .stationResearch(b => b.researchStack(Registries.getItemStack("gtocore:mass_fabricator"))
@@ -1760,7 +1760,7 @@ ServerEvents.recipes(event => {
             .EUt(GTValues.VA[GTValues.UHV])
             .CWUt(128))
 
-    gtr.assembly_line("gtocore:cooling_tower")
+    gtr.assembly_line("gtocore:compound_extreme_cooling_unit")
         .itemInputs("64x gtceu:hsse_frame",
             "16x gtocore:plasma_condenser",
             "16x gtceu:mega_vacuum_freezer",
@@ -1778,7 +1778,7 @@ ServerEvents.recipes(event => {
             "64x gtceu:double_nickel_zinc_ferrite_plate",
             "64x gtceu:double_ruridit_plate")
         .inputFluids("gtceu:hafnium 5760", "gtceu:indium 5760", "gtceu:nobelium 5760", "gtceu:lawrencium 5760")
-        .itemOutputs("gtocore:cooling_tower")
+        .itemOutputs("gtocore:compound_extreme_cooling_unit")
         .EUt(GTValues.VA[GTValues.UHV])
         .duration(1200)
         .stationResearch(b => b.researchStack(Registries.getItemStack("gtceu:vacuum_freezer"))
