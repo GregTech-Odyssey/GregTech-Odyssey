@@ -1111,4 +1111,69 @@ ServerEvents.recipes(event => {
         C: "gtceu:lead_normal_fluid_pipe",
         D: "gtceu:double_steel_plate"
     })
+
+    event.shaped("gtocore:uev_thread_hatch", [
+        "ABA",
+        "CDC",
+        "EFE"
+    ], {
+        A: "#gtceu:circuits/uiv",
+        B: "gtceu:uev_robot_arm",
+        C: "gtceu:uev_conveyor_module",
+        D: "gtceu:uev_parallel_hatch",
+        E: "gtceu:enderite_hex_wire",
+        F: "gtceu:uev_field_generator"
+    })
+
+    event.shaped("gtocore:uiv_thread_hatch", [
+        "ABA",
+        "CDC",
+        "EFE"
+    ], {
+        A: "#gtceu:circuits/uxv",
+        B: "gtceu:uiv_robot_arm",
+        C: "gtceu:uiv_conveyor_module",
+        D: "gtceu:uiv_parallel_hatch",
+        E: "gtceu:echoite_hex_wire",
+        F: "gtceu:uiv_field_generator"
+    })
+
+    event.shaped("gtocore:uxv_thread_hatch", [
+        "ABA",
+        "CDC",
+        "EFE"
+    ], {
+        A: "#gtceu:circuits/opv",
+        B: "gtceu:uxv_robot_arm",
+        C: "gtceu:uxv_conveyor_module",
+        D: "gtceu:uxv_parallel_hatch",
+        E: "gtceu:legendarium_hex_wire",
+        F: "gtceu:uxv_field_generator"
+    })
+
+    event.shaped("gtocore:opv_thread_hatch", [
+        "ABA",
+        "CDC",
+        "EFE"
+    ], {
+        A: "#gtceu:circuits/max",
+        B: "gtceu:opv_robot_arm",
+        C: "gtceu:opv_conveyor_module",
+        D: "gtceu:opv_parallel_hatch",
+        E: "gtceu:awakened_draconium_hex_wire",
+        F: "gtceu:opv_field_generator"
+    })
+
+    event.shaped("gtocore:max_thread_hatch", [
+        "ABA",
+        "CDC",
+        "EFE"
+    ], {
+        A: "gtocore:suprachronal_circuit_max",
+        B: "gtocore:max_robot_arm",
+        C: "gtocore:max_conveyor_module",
+        D: "gtceu:max_parallel_hatch",
+        E: "gtceu:hypogen_hex_wire",
+        F: "gtocore:max_field_generator"
+    })
 })
