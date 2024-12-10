@@ -52,7 +52,7 @@
 	titleBreak = true
 	#True to exactly position tooltip to pixel grid, smoother movement.
 	exactPositioning = true
-	#The tooltip background color in #RRGGBB or #AARRGGBB format. Default: #E0000000
+	#The tooltip background color in #RRGGBB or #AARRGGBB format. Default: #E6000000
 	#Can be one to four values representing top left, top right, bottom right and bottom left color.
 	#Multiple values produce a gradient effect, whereas one value produces a solid color.
 	#If less than 4 are provided, repeat the last value.

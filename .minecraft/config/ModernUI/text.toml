@@ -86,6 +86,12 @@
 	#Control the minimum pixel density for SDF text and text in 3D world rendering.
 	#This value will be no less than current GUI scale.
 	#Recommend setting a higher value on high-res monitor and powerful PC hardware.
-	#Range: 4 ~ 8
+	#Range: 4 ~ 10
 	minPixelDensityForSDF = 4
+	#When enabled, the outline of the experience level text will be tweaked.
+	tweakExperienceText = true
+	#Enable linear sampling for A8 font atlases with mipmaps, mag filter will be always NEAREST.
+	#We prefer computeDeviceFontSize and allowSDFTextIn2D, then setting this to false can improve performance.
+	#If either of the above two is false or Shaders are active, then setting this to true can improve quality.
+	linearSamplingA8Atlas = false
 
