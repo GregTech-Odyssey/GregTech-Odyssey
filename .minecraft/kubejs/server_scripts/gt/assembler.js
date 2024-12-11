@@ -1064,8 +1064,9 @@ ServerEvents.recipes(event => {
 
     gtr.assembler("gtocore:sterile_casing")
         .itemInputs("gtceu:wood_frame")
+        .itemInputs("4x gtceu:treated_wood_planks")
         .itemInputs("8x gtceu:brass_screw")
-        .itemInputs("6x gtceu:brass_plate")
+        .itemInputs("2x gtceu:brass_plate")
         .itemOutputs("2x gtocore:sterile_casing")
         .circuit(6)
         .EUt(16)

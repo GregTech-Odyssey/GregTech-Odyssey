@@ -15,7 +15,7 @@ earlyWindowMaximized = false
 #Default config path for servers
 defaultConfigPath = "defaultconfigs"
 #Disables Optimized DFU client-side - already disabled on servers
-disableOptimizedDFU = false
+disableOptimizedDFU = true
 #Skip specific GL versions, may help with buggy graphics card drivers
 earlyWindowSkipGLVersions = []
 #Whether to log a help message on first attempt, to aid troubleshooting. This setting should automatically disable itself after a successful launch
