@@ -150,7 +150,7 @@ ServerEvents.recipes(event => {
         .duration(9600)
 
     gtr.sps_crafting("gtocore:cosmic_fabric")
-        .notConsumable("gtceu:cosmic_neutronium_nanoswarm")
+        .notConsumable("gtceu:cosmic_neutronium_nanites")
         .inputFluids("gtceu:mana 1000", "gtceu:enriched_xenoxene 1000", "gtceu:liquid_cosmic_mesh 100")
         .itemInputs("gtceu:rubber_foil", "gtocore:amorphous_matter")
         .itemOutputs("gtocore:cosmic_fabric")

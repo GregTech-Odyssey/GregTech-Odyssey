@@ -26,8 +26,8 @@ ServerEvents.recipes(event => {
         .duration(8000)
 
     gtr.quantum_force_transformer("gtocore:spacetime_single_wire")
-        .notConsumable("gtceu:spacetime_nanoswarm")
-        .notConsumable("gtceu:transcendent_metal_nanoswarm")
+        .notConsumable("gtceu:spacetime_nanites")
+        .notConsumable("gtceu:transcendent_metal_nanites")
         .itemInputs("gtceu:infinity_single_wire")
         .inputFluids("gtceu:spacetime 100", "gtceu:rhugnor 100")
         .itemOutputs("gtceu:spacetime_single_wire")
@@ -35,8 +35,8 @@ ServerEvents.recipes(event => {
         .duration(400)
 
     gtr.quantum_force_transformer("gtocore:spacetime_double_wire")
-        .notConsumable("4x gtceu:spacetime_nanoswarm")
-        .notConsumable("4x gtceu:transcendent_metal_nanoswarm")
+        .notConsumable("4x gtceu:spacetime_nanites")
+        .notConsumable("4x gtceu:transcendent_metal_nanites")
         .itemInputs("2x gtceu:spacetime_single_wire")
         .inputFluids("gtceu:rhugnor 200")
         .itemOutputs("gtceu:spacetime_double_wire")
@@ -44,8 +44,8 @@ ServerEvents.recipes(event => {
         .duration(800)
 
     gtr.quantum_force_transformer("gtocore:spacetime_quadruple_wire")
-        .notConsumable("8x gtceu:spacetime_nanoswarm")
-        .notConsumable("8x gtceu:transcendent_metal_nanoswarm")
+        .notConsumable("8x gtceu:spacetime_nanites")
+        .notConsumable("8x gtceu:transcendent_metal_nanites")
         .itemInputs("2x gtceu:spacetime_double_wire")
         .inputFluids("gtceu:rhugnor 400")
         .itemOutputs("gtceu:spacetime_quadruple_wire")
@@ -53,8 +53,8 @@ ServerEvents.recipes(event => {
         .duration(1600)
 
     gtr.quantum_force_transformer("gtocore:spacetime_octal_wire")
-        .notConsumable("16x gtceu:spacetime_nanoswarm")
-        .notConsumable("16x gtceu:transcendent_metal_nanoswarm")
+        .notConsumable("16x gtceu:spacetime_nanites")
+        .notConsumable("16x gtceu:transcendent_metal_nanites")
         .itemInputs("2x gtceu:spacetime_quadruple_wire")
         .inputFluids("gtceu:rhugnor 800")
         .itemOutputs("gtceu:spacetime_octal_wire")
@@ -62,8 +62,8 @@ ServerEvents.recipes(event => {
         .duration(3200)
 
     gtr.quantum_force_transformer("gtocore:spacetime_hex_wire")
-        .notConsumable("32x gtceu:spacetime_nanoswarm")
-        .notConsumable("32x gtceu:transcendent_metal_nanoswarm")
+        .notConsumable("32x gtceu:spacetime_nanites")
+        .notConsumable("32x gtceu:transcendent_metal_nanites")
         .itemInputs("2x gtceu:spacetime_octal_wire")
         .inputFluids("gtceu:rhugnor 1600")
         .itemOutputs("gtceu:spacetime_hex_wire")
@@ -128,7 +128,7 @@ ServerEvents.recipes(event => {
         .duration(600)
 
     gtr.quantum_force_transformer("gtocore:quantum_anomaly")
-        .chancedInput("gtceu:draconium_nanoswarm", 100, 0)
+        .chancedInput("gtceu:draconium_nanites", 100, 0)
         .itemInputs("gtocore:entangled_singularity")
         .inputFluids("gtceu:duranium 144", "gtceu:exciteddtec 100")
         .chancedOutput("gtocore:quantum_anomaly", 1000, 0)
@@ -144,7 +144,7 @@ ServerEvents.recipes(event => {
         .duration(400)
 
     gtr.quantum_force_transformer("gtocore:hyper_stable_self_healing_adhesive")
-        .chancedInput("gtceu:uruium_nanoswarm", 500, 0)
+        .chancedInput("gtceu:uruium_nanites", 500, 0)
         .itemInputs("64x gtceu:activated_carbon_dust", "64x gtceu:bismuth_dust")
         .inputFluids("gtceu:oxygen 20000", "gtceu:hydrogen 20000")
         .chancedOutput("gtocore:hyper_stable_self_healing_adhesive", 2000, 0)
@@ -152,7 +152,7 @@ ServerEvents.recipes(event => {
         .duration(20)
 
     gtr.quantum_force_transformer("gtocore:black_body_naquadria_supersolid")
-        .chancedInput("gtceu:uruium_nanoswarm", 500, 0)
+        .chancedInput("gtceu:uruium_nanites", 500, 0)
         .itemInputs("64x gtceu:naquadria_dust", "64x gtceu:magnesium_dust")
         .inputFluids("gtceu:phosphoric_acid 20000", "gtceu:sulfuric_acid 20000")
         .chancedOutput("gtocore:black_body_naquadria_supersolid", 2000, 0)
@@ -160,7 +160,7 @@ ServerEvents.recipes(event => {
         .duration(20)
 
     gtr.quantum_force_transformer("gtocore:fullerene_polymer_matrix_pulp_dust")
-        .notConsumable("gtceu:starmetal_nanoswarm")
+        .notConsumable("gtceu:starmetal_nanites")
         .itemInputs("16x gtceu:fullerene_dust", "8x gtceu:palladium_dust")
         .inputFluids("gtceu:nitrogen 15000", "gtceu:hydrogen 73000", "gtceu:oxygen 13000")
         .itemOutputs("16x gtceu:fullerene_polymer_matrix_pulp_dust")
@@ -176,8 +176,8 @@ ServerEvents.recipes(event => {
         .duration(1600)
 
     gtr.quantum_force_transformer("gtocore:timepiece")
-        .notConsumable("gtceu:white_dwarf_mtter_nanoswarm")
-        .notConsumable("gtceu:black_dwarf_mtter_nanoswarm")
+        .notConsumable("gtceu:white_dwarf_mtter_nanites")
+        .notConsumable("gtceu:black_dwarf_mtter_nanites")
         .chancedInput("gtceu:spacetime_hex_wire", 1, 0)
         .chancedOutput("gtocore:timepiece", 2500, 0)
         .inputFluids("gtceu:cosmic_element 100")
@@ -185,7 +185,7 @@ ServerEvents.recipes(event => {
         .duration(200)
 
     gtr.quantum_force_transformer("gtocore:cosmic_ingot")
-        .notConsumable("gtceu:cosmic_neutronium_nanoswarm")
+        .notConsumable("gtceu:cosmic_neutronium_nanites")
         .chancedInput("gtocore:cosmic_singularity", 1000, 0)
         .itemInputs("gtocore:hypercube", "avaritia:infinity_ingot")
         .inputFluids("gtceu:white_dwarf_mtter 576", "gtceu:black_dwarf_mtter 576", "gtceu:primordialmatter 500")

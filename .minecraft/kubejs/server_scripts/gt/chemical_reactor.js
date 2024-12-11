@@ -753,7 +753,7 @@ ServerEvents.recipes(event => {
         .cleanroom(CleanroomType.CLEANROOM)
 
     gtr.large_chemical_reactor("gtocore:optical_wafer")
-        .itemInputs("2x gtceu:francium_caesium_cadmium_bromide_dust", "gtocore:photon_carrying_wafer", "gtceu:glowstone_nanoswarm")
+        .itemInputs("2x gtceu:francium_caesium_cadmium_bromide_dust", "gtocore:photon_carrying_wafer", "gtceu:glowstone_nanites")
         .inputFluids("gtceu:seaborgium_doped_nanotubes 144", "gtceu:carbon_nanotubes 144")
         .itemOutputs("gtocore:optical_wafer")
         .EUt(GTValues.VA[GTValues.UHV])
@@ -806,7 +806,7 @@ ServerEvents.recipes(event => {
         .duration(160)
 
     gtr.large_chemical_reactor("gtocore:cosmic_computing_mixture")
-        .notConsumable("gtceu:vibranium_nanoswarm")
+        .notConsumable("gtceu:vibranium_nanites")
         .inputFluids("gtceu:gluons 1000", "gtceu:heavy_quarks 1000", "gtceu:heavy_lepton_mixture 1000")
         .outputFluids("gtceu:cosmic_computing_mixture 3000")
         .EUt(24000000)
@@ -1344,7 +1344,7 @@ ServerEvents.recipes(event => {
         .cleanroom(GTOCleanroomType.LAW_CLEANROOM)
 
     gtr.large_chemical_reactor("gtocore:charged_lepton_trap_crystal")
-        .notConsumable("gtceu:starmetal_nanoswarm")
+        .notConsumable("gtceu:starmetal_nanites")
         .itemInputs("gtocore:lepton_trap_crystal", "2x gtceu:small_vibranium_dust")
         .inputFluids("gtceu:free_electron_gas 1000", "gtceu:heavy_lepton_mixture 1000")
         .itemOutputs("gtocore:charged_lepton_trap_crystal")

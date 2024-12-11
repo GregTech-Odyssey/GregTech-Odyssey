@@ -94,7 +94,7 @@ ServerEvents.recipes(event => {
         .blastFurnaceTemp(12400)
 
     gtr.atomic_energy_excitation("gtocore:naquadah_fuel")
-        .notConsumable("gtceu:orichalcum_nanoswarm")
+        .notConsumable("gtceu:orichalcum_nanites")
         .itemInputs("16x gtceu:naquadah_dust")
         .inputFluids("gtceu:hydrogen 30000", "gtceu:nitrogen 15000", "gtceu:fluorine 8000", "gtceu:nitric_acid 8000")
         .outputFluids("gtceu:naquadah_fuel 20000")
@@ -103,7 +103,7 @@ ServerEvents.recipes(event => {
         .blastFurnaceTemp(12000)
 
     gtr.atomic_energy_excitation("gtocore:enriched_naquadah_fuel")
-        .notConsumable("gtceu:vibranium_nanoswarm")
+        .notConsumable("gtceu:vibranium_nanites")
         .notConsumableFluid("gtceu:caesium_fluoride 1000")
         .itemInputs("16x gtceu:enriched_naquadah_dust", "4x gtceu:antimony_dust")
         .inputFluids("gtceu:hydrogen 48000", "gtceu:nitrogen 30000", "gtceu:fluorine 12000", "gtceu:xenon 8000", "gtceu:radon 6000")
@@ -145,7 +145,7 @@ ServerEvents.recipes(event => {
         .blastFurnaceTemp(18000)
 
     gtr.atomic_energy_excitation("gtocore:concentration_mixing_hyper_fuel_1")
-        .notConsumable("gtceu:white_dwarf_mtter_nanoswarm")
+        .notConsumable("gtceu:white_dwarf_mtter_nanites")
         .itemInputs("4x gtocore:resonating_gem", "16x gtceu:hassium_dust")
         .inputFluids("gtceu:hyper_fuel_4 8000", "gtceu:helium_plasma 6000", "gtceu:nickel_plasma 6000", "gtceu:oganesson 1152", "gtceu:naquadriatictaranium 2304", "gtceu:plutonium_241 864")
         .outputFluids("gtceu:concentration_mixing_hyper_fuel_1 12000", "gtceu:hyper_fuel_4 1500")
@@ -154,7 +154,7 @@ ServerEvents.recipes(event => {
         .blastFurnaceTemp(18800)
 
     gtr.atomic_energy_excitation("gtocore:concentration_mixing_hyper_fuel_2")
-        .notConsumable("gtceu:black_dwarf_mtter_nanoswarm")
+        .notConsumable("gtceu:black_dwarf_mtter_nanites")
         .itemInputs("16x gtceu:draconium_dust", "18x gtceu:starmetal_dust")
         .inputFluids("gtceu:concentration_mixing_hyper_fuel_1 6000", "gtceu:cosmic_element 60000", "gtceu:oxygen_plasma 6000", "gtceu:argon_plasma 6000", "gtceu:iron_plasma 6000", "gtceu:nitrogen_plasma 6000")
         .outputFluids("gtceu:concentration_mixing_hyper_fuel_2 12000", "gtceu:concentration_mixing_hyper_fuel_1 2000")

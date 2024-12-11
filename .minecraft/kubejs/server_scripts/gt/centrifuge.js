@@ -114,7 +114,7 @@ ServerEvents.recipes(event => {
         .duration(200)
 
     gtr.centrifuge("gtocore:neutronium_block")
-        .notConsumable("gtceu:neutronium_nanoswarm")
+        .notConsumable("gtceu:neutronium_nanites")
         .itemInputs("avaritia:neutron")
         .itemOutputs("9x gtceu:naquadah_dust", "9x gtceu:neutronium_dust")
         .EUt(GTValues.VA[GTValues.UIV])

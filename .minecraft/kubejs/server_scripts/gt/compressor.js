@@ -167,7 +167,7 @@ ServerEvents.recipes(event => {
     implosion_compressor_add(["2x minecraft:chest", "2x ae2:smooth_sky_stone_chest"], "avaritia:compressed_chest", 1)
 
     gtr.electric_implosion_compressor("avaritia:eternal_singularity")
-        .notConsumable("16x gtceu:eternity_nanoswarm")
+        .notConsumable("16x gtceu:eternity_nanites")
         .itemInputs("gtceu:spacetime_dust")
         .itemOutputs("avaritia:eternal_singularity")
         .EUt(GTValues.VA[GTValues.MAX])

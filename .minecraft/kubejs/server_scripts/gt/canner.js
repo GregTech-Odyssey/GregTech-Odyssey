@@ -2,7 +2,7 @@ ServerEvents.recipes(event => {
     const gtr = event.recipes.gtceu
 
     gtr.canner("gtocore:rhenium_plasma_containment_cell")
-        .notConsumable("gtceu:naquadah_nanoswarm")
+        .notConsumable("gtceu:naquadah_nanites")
         .itemInputs("gtocore:plasma_containment_cell")
         .itemOutputs("gtocore:rhenium_plasma_containment_cell")
         .inputFluids("gtceu:degenerate_rhenium_plasma 1000")
@@ -11,7 +11,7 @@ ServerEvents.recipes(event => {
         .cleanroom(CleanroomType.CLEANROOM)
 
     gtr.canner("gtocore:charged_triplet_neutronium_sphere")
-        .notConsumable("gtceu:neutronium_nanoswarm")
+        .notConsumable("gtceu:neutronium_nanites")
         .itemInputs("gtocore:triplet_neutronium_sphere")
         .inputFluids("gtceu:free_alpha_gas 1000")
         .itemOutputs("gtocore:charged_triplet_neutronium_sphere")
@@ -20,7 +20,7 @@ ServerEvents.recipes(event => {
         .cleanroom(CleanroomType.CLEANROOM)
 
     gtr.canner("gtocore:awakened_draconium_plasma_containment_cell")
-        .notConsumable("gtceu:draconium_nanoswarm")
+        .notConsumable("gtceu:draconium_nanites")
         .inputFluids("gtceu:awakened_draconium_plasma 1000")
         .itemInputs("gtocore:plasma_containment_cell")
         .itemOutputs("gtocore:awakened_draconium_plasma_containment_cell")
@@ -29,7 +29,7 @@ ServerEvents.recipes(event => {
         .cleanroom(CleanroomType.CLEANROOM)
 
     gtr.canner("gtocore:dense_neutron_plasma_cell")
-        .notConsumable("gtceu:neutronium_nanoswarm")
+        .notConsumable("gtceu:neutronium_nanites")
         .inputFluids("gtceu:dense_neutron_plasma 1000")
         .itemInputs("gtocore:extremely_durable_plasma_cell")
         .itemOutputs("gtocore:dense_neutron_plasma_cell")
@@ -38,7 +38,7 @@ ServerEvents.recipes(event => {
         .cleanroom(CleanroomType.CLEANROOM)
 
     gtr.canner("gtocore:chaos_containment_unit")
-        .notConsumable("gtceu:cosmic_neutronium_nanoswarm")
+        .notConsumable("gtceu:cosmic_neutronium_nanites")
         .inputFluids("gtceu:chaos_plasma 1000")
         .itemInputs("gtocore:time_dilation_containment_unit")
         .itemOutputs("gtocore:chaos_containment_unit")
@@ -55,7 +55,7 @@ ServerEvents.recipes(event => {
         .cleanroom(GTOCleanroomType.LAW_CLEANROOM)
 
     gtr.canner("gtocore:cosmic_mesh_containment_unit")
-        .notConsumable("gtceu:uruium_nanoswarm")
+        .notConsumable("gtceu:uruium_nanites")
         .itemInputs("gtocore:time_dilation_containment_unit")
         .inputFluids("gtceu:cosmic_mesh_plasma 1000")
         .itemOutputs("gtocore:cosmic_mesh_containment_unit")
@@ -63,7 +63,7 @@ ServerEvents.recipes(event => {
         .duration(20)
 
     gtr.canner("gtocore:bose_einstein_cooling_container")
-        .notConsumable("gtceu:iridium_nanoswarm")
+        .notConsumable("gtceu:iridium_nanites")
         .inputFluids("gtceu:rubidium 288")
         .itemInputs("gtocore:empty_laser_cooling_container")
         .itemOutputs("gtocore:bose_einstein_cooling_container")
@@ -79,7 +79,7 @@ ServerEvents.recipes(event => {
         .duration(600)
 
     gtr.canner("gtocore:crystal_matrix_plasma_containment_cell")
-        .notConsumable("gtceu:enderium_nanoswarm")
+        .notConsumable("gtceu:enderium_nanites")
         .inputFluids("gtceu:crystal_matrix_plasma 1000")
         .itemInputs("gtocore:plasma_containment_cell")
         .itemOutputs("gtocore:crystal_matrix_plasma_containment_cell")
@@ -88,7 +88,7 @@ ServerEvents.recipes(event => {
         .cleanroom(CleanroomType.CLEANROOM)
 
     gtr.canner("gtocore:actinium_superhydride_plasma_containment_cell")
-        .notConsumable("gtceu:infuscolium_nanoswarm")
+        .notConsumable("gtceu:infuscolium_nanites")
         .inputFluids("gtceu:actinium_superhydride_plasma 1000")
         .itemInputs("gtocore:plasma_containment_cell")
         .itemOutputs("gtocore:actinium_superhydride_plasma_containment_cell")

@@ -112,8 +112,8 @@ ServerEvents.recipes(event => {
         .duration(800)
 
     gtr.plasma_condenser("gtocore:quantumchromodynamic_protective_plating")
-        .notConsumable("gtceu:vibranium_nanoswarm")
-        .notConsumable("gtceu:infuscolium_nanoswarm")
+        .notConsumable("gtceu:vibranium_nanites")
+        .notConsumable("gtceu:infuscolium_nanites")
         .inputFluids("gtceu:liquid_helium 10000", "gtceu:high_energy_quark_gluon_plasma 100")
         .outputFluids("gtceu:helium 10000")
         .itemOutputs("gtocore:quantumchromodynamic_protective_plating")

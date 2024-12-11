@@ -107,6 +107,7 @@
     "part_name": true
   },
   "gtocore": {
+    "accelerate_provider": false,
     "mana_container_provider": true,
     "wireless_data_hatch_provider": true
   }

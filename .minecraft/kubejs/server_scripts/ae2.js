@@ -298,7 +298,7 @@ ServerEvents.recipes((event) => {
 
     gtr.assembler("gtocore:fishbig_frame")
         .circuit(6)
-        .itemInputs("64x gtceu:cosmic_plate", "64x gtceu:eternity_nanoswarm", "64x gtceu:long_cosmic_rod", "64x gtceu:infinity_frame", "64x gtceu:long_transcendent_metal_rod",
+        .itemInputs("64x gtceu:cosmic_plate", "64x gtceu:eternity_nanites", "64x gtceu:long_cosmic_rod", "64x gtceu:infinity_frame", "64x gtceu:long_transcendent_metal_rod",
             "64x gtceu:long_cosmic_neutronium_rod", "64x gtceu:magneto_hydro_dynamically_con_strained_star_matter_frame", "64x gtceu:long_magmatter_rod",)
         .inputFluids("gtceu:shirabon 18432")
         .itemOutputs("gtocore:fishbig_frame")
