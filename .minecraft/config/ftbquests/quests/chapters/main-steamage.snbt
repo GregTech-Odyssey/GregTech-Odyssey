@@ -1,0 +1,1433 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "main-steamage"
+	group: "54AAB0D04131CFAA"
+	hide_quest_until_deps_complete: true
+	icon: "gtceu:bronze_ingot"
+	id: "03DB642475239221"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["14A66BA5BC9DB220"]
+			description: [
+				"GregTech Odessey中，蒸汽时代的内容一部分被优化与拓展"
+				"在蒸汽的驱动下，很多需要动手的配方可以被更先进的方式替代"
+				"开始你的青铜大迭代吧"
+			]
+			icon: "gtceu:bronze_ingot"
+			id: "07C627559961CFEC"
+			rewards: [{
+				count: 64
+				id: "19A3356D74B6543E"
+				item: "gtceu:bronze_ingot"
+				type: "item"
+			}]
+			size: 3.0d
+			subtitle: "&o隐入蒸汽"
+			tasks: [{
+				id: "56FC9161247C8B28"
+				type: "checkmark"
+			}]
+			title: "欢迎来到蒸汽时代"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["07C627559961CFEC"]
+			description: [
+				"原始水泵需要防腐木框架与水泵盖板来完成搭建"
+				""
+				"将会以一定的速度在水泵仓中生产水"
+				""
+				"生产的具体速率取决于水泵所在的生物群系"
+				""
+				"水泵仓在此结构的中间位置，它的朝向是可以由扳手更改的；水泵仓会将水自动朝外输出，如果不能输出不妨试试用扳手调一调"
+			]
+			id: "580B0E53E53BB762"
+			rewards: [
+				{
+					count: 24
+					id: "636E7FEF320C2BDF"
+					item: "gtceu:bronze_large_fluid_pipe"
+					type: "item"
+				}
+				{
+					id: "04E3FEAB172E6C22"
+					type: "xp"
+					xp: 3
+				}
+			]
+			size: 1.5d
+			subtitle: "经验+3"
+			tasks: [
+				{
+					id: "62346A7F2166D5FF"
+					item: "gtceu:primitive_pump"
+					type: "item"
+				}
+				{
+					id: "704703B212DA58F5"
+					item: "gtceu:pump_hatch"
+					type: "item"
+				}
+			]
+			title: "水！快来水!"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"07C627559961CFEC"
+				"580B0E53E53BB762"
+			]
+			description: [
+				"生产蒸汽的机器一般有低压与高压两种"
+				"依照你的产能需求与允许条件妥善选择吧"
+				""
+				"无论是需要何种燃料的锅炉，都需要水的稳定供应"
+				""
+				"如果没用水通入而干烧锅炉，这时再通入水它将会爆炸"
+			]
+			icon: "minecraft:netherite_upgrade_smithing_template"
+			id: "2D1B696FE016D507"
+			rewards: [{
+				count: 16
+				id: "1E00BA4705D3C45C"
+				item: "minecraft:coal"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "生产力的提升往往伴随着消耗的提升"
+			tasks: [{
+				id: "0B9EAC879025AF64"
+				title: "高级蒸汽工程师"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["07C627559961CFEC"]
+			description: [
+				"对于焦炉，我们可以让它四台共用，这样就可以节省大量IO仓室和你的物流方块所需的数量"
+				""
+				"焦炉仓是经过修改的，它可以通过漏斗向内输入物品，还会自动将流体，物品产物输出至朝向的容器中（如摆在地上的木桶，青铜桶）"
+				""
+				"查看emi中焦炉配方的输入与输出，开始基础的自动化吧"
+			]
+			icon: "minecraft:hopper"
+			id: "01382DED4BAF3366"
+			rewards: [{
+				count: 8
+				id: "09B7AAB2452EC9E9"
+				item: "gtceu:coke_block"
+				type: "item"
+			}]
+			subtitle: "漏斗加储罐"
+			tasks: [{
+				count: 16L
+				id: "096B6B889E543541"
+				item: "gtceu:coke_gem"
+				type: "item"
+			}]
+			title: "自动化.v1"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["32A6D6405EEDF912"]
+			description: ["烧蒸汽的熔炼装置，拥有8并行"]
+			id: "448204E20481D089"
+			rewards: [{
+				count: 16
+				id: "51F71C0DAD6580C7"
+				item: "minecraft:coal_block"
+				type: "item"
+			}]
+			subtitle: "仍然可以被升级"
+			tasks: [{
+				id: "6CD8F5DE52939536"
+				item: "gtceu:steam_oven"
+				type: "item"
+			}]
+			title: "大火做饭"
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["580B0E53E53BB762"]
+			description: [
+				"对于更先进的材料——合金"
+				"我们需要更先进的机器来获取它"
+				""
+				"它可以将两种不同的材料以某些比例融合成新材料"
+				"也可以配合模具用来制造某些形状的金属，橡胶片"
+			]
+			id: "25F3A2E242870491"
+			rewards: [{
+				count: 24
+				id: "574E564E233E90C8"
+				item: "gtceu:bronze_large_fluid_pipe"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "最基础的一款"
+			tasks: [{
+				id: "5F98D6BE248A6779"
+				item: "gtceu:lp_steam_alloy_smelter"
+				type: "item"
+			}]
+			title: "1+1=?"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["25F3A2E242870491"]
+			description: [
+				"铜与红石的合金，是电子元件与导电材料的重要构成"
+				"对红石的产能有一定要求"
+			]
+			id: "752695ED68BEEDAF"
+			rewards: [{
+				count: 64
+				id: "6CD5C8C928D94571"
+				item: "gtceu:red_alloy_dust"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "基础合金"
+			tasks: [{
+				id: "763569DD409AA69C"
+				item: "gtceu:red_alloy_ingot"
+				type: "item"
+			}]
+			title: "合金之力！"
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["752695ED68BEEDAF"]
+			description: [
+				"Gto中，金属材料块形态的工作台配方被删除"
+				"你只能使用压缩机来制作"
+				""
+				"向着高炉进发！"
+			]
+			id: "6196655E39393EEF"
+			rewards: [{
+				count: 16
+				id: "26F980F6757E6598"
+				item: "minecraft:clay_ball"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "经典款"
+			tasks: [{
+				id: "44A0ACD84A7CB66E"
+				item: "gtceu:lp_steam_compressor"
+				type: "item"
+			}]
+			title: "挤！呀！挤！"
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6196655E39393EEF"]
+			description: [
+				"制作高炉不可缺的一部分"
+				""
+				"砖粉如果用研钵，你会亏掉3份砖粉"
+				"造个研磨机吧，它会很有用的"
+			]
+			id: "408AD34CDEC5ED91"
+			rewards: [{
+				count: 16
+				id: "45B87C844603E612"
+				item: "gtceu:firebricks"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "砖胚"
+			tasks: [{
+				id: "781FDCFDC3420BFD"
+				item: "gtceu:fireclay_dust"
+				type: "item"
+			}]
+			title: "聚沙成塔"
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["408AD34CDEC5ED91"]
+			description: [
+				"土高炉结构简单，没有io仓室，可以多台共用"
+				""
+				"使用焦煤块炼制钢块以节省大量时间"
+				""
+				"或者用其他的配方，也是没问题的"
+			]
+			id: "02057C8E83055FB8"
+			rewards: [{
+				count: 64
+				id: "7B6F0BF056C416FF"
+				item: "gtceu:firebricks"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "钢铁在这里炼成的"
+			tasks: [{
+				id: "3221A9A7F61445B4"
+				item: "gtceu:primitive_blast_furnace"
+				type: "item"
+			}]
+			title: "土办法，大道理"
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["02057C8E83055FB8"]
+			description: [
+				"需要大批量生产的重要原材料"
+				"如果产能跟不上，可以试试跃进一号高炉"
+			]
+			hide_dependency_lines: false
+			id: "0B58F90B21DD4534"
+			rewards: [{
+				count: 16
+				id: "31D2CF29FA61A503"
+				item: "ad_astra:steel_ingot"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 3.0d
+			subtitle: "重要工业原料"
+			tasks: [{
+				id: "2420DEE91E909643"
+				item: "ad_astra:steel_ingot"
+				type: "item"
+			}]
+			title: "钢铁之躯"
+			x: 21.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"0B58F90B21DD4534"
+				"560CEE88344918A5"
+			]
+			description: [
+				"远古反应核能够让你去一个全新的维度，带来一些主世界无法获取的矿石"
+				""
+				"它的使用方法是将反应核摆在地上，以它为中心"
+				"同平面里，四角钢块，四周绿宝石块"
+				"然后空手右键它即可"
+			]
+			id: "7D149018DF8411B9"
+			size: 1.5d
+			subtitle: "八度空间"
+			tasks: [{
+				id: "334BE236592D25E6"
+				item: "gtocore:reactor_core"
+				type: "item"
+			}]
+			title: "回到过去"
+			x: 12.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"7D149018DF8411B9"
+				"37EF8172E52B01E2"
+			]
+			description: [
+				"在这里，你会发现一些来自原版下界的矿石"
+				""
+				"绿宝石/铍矿脉为你带来大量的铍资源"
+				""
+				"赛特斯石英矿脉会提供下界石英，ae2原材料的良好来源"
+				""
+				"硝石矿脉是钾的良好来源"
+				""
+				"蓝黄玉是氟的重要来源，不要错过"
+			]
+			id: "0F695176DD36C2BD"
+			shape: "square"
+			size: 1.5d
+			subtitle: "回溯"
+			tasks: [{
+				dimension: "gtocore:ancient_world"
+				id: "41EC9EF7FFD93137"
+				type: "dimension"
+			}]
+			title: "欢迎来到旧世界"
+			x: 15.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0F695176DD36C2BD"]
+			description: ["两种石英都挺有用，找到了就带着吧"]
+			id: "2D505EF0432F1E29"
+			rewards: [{
+				id: "432E623BDF02CAC0"
+				item: "ae2:crank"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "正统AE2矿脉"
+			tasks: [
+				{
+					id: "1FAC669122D1083D"
+					item: "gtceu:raw_certus_quartz"
+					type: "item"
+				}
+				{
+					id: "7F89C2F35A87A19A"
+					item: "gtceu:raw_nether_quartz"
+					type: "item"
+				}
+			]
+			title: "哦吼！闪闪发亮！"
+			x: 18.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2D505EF0432F1E29"]
+			description: [
+				"将普通的赛特斯石英水晶放进充能器，然后供电"
+				""
+				"充能器可以被两个漏斗简单自动化，一上一下即可"
+			]
+			id: "01F3DFBFCF775DED"
+			rewards: [{
+				count: 16
+				id: "776EA1A9709B4DE8"
+				item: "ae2:charged_certus_quartz_crystal"
+				type: "item"
+			}]
+			subtitle: "充电"
+			tasks: [{
+				id: "6E7DAB09E0CA11E2"
+				item: "ae2:charged_certus_quartz_crystal"
+				type: "item"
+			}]
+			title: "摇啊摇"
+			x: 21.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["01F3DFBFCF775DED"]
+			description: [
+				"在水中投入三种原料："
+				"充能赛特斯石英水晶，红石粉，下界石英"
+				""
+				"一份原料出两份福鲁伊克斯水晶"
+			]
+			id: "20CA715F8DA1CCBF"
+			rewards: [{
+				count: 32
+				id: "420477684398B4F2"
+				item: "ae2:charged_certus_quartz_crystal"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.5d
+			subtitle: "先进材料"
+			tasks: [{
+				id: "7473BB861089BC9E"
+				item: "ae2:fluix_crystal"
+				type: "item"
+			}]
+			title: "奇妙的反应"
+			x: 24.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2D505EF0432F1E29"]
+			description: [
+				"在主世界，你可以找到一些不太常见的陨石；内含一个装有四个模板的方块"
+				""
+				"陨石内还有一些赛特斯石英母岩，记得用精准采集的工具把它们带回来一些，这样可以生产一点赛特斯石英"
+				""
+				"如果实在找不到的话，制作一个充能器，木制曲柄；将它摆下来再做一个指南针放进充能器里，转动曲柄给充能器发电，你就能获得一个陨石罗盘；它会指向最近的一块陨石"
+			]
+			id: "3079E08FF630928E"
+			rewards: [
+				{
+					id: "7C38299EE9F0D7A8"
+					item: "ae2:inscriber"
+					type: "item"
+				}
+				{
+					id: "39E892E8D195E086"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:silk_touch"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "外星科技"
+			tasks: [
+				{
+					id: "205AB9D36AE0AEFB"
+					item: "ae2:silicon_press"
+					type: "item"
+				}
+				{
+					id: "13C98FCAD6FF96CD"
+					item: "ae2:calculation_processor_press"
+					type: "item"
+				}
+				{
+					id: "68F87CB9DA50C7B8"
+					item: "ae2:logic_processor_press"
+					type: "item"
+				}
+				{
+					id: "4BCFE9E13FF15839"
+					item: "ae2:engineering_processor_press"
+					type: "item"
+				}
+			]
+			title: "天降陨石！"
+			x: 18.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"25F3A2E242870491"
+				"4514B4B5C9008CEC"
+			]
+			description: ["需要一些用来制作远古反应核"]
+			hide_dependency_lines: false
+			id: "560CEE88344918A5"
+			rewards: [{
+				count: 16
+				id: "2EA87D8CB9117BAF"
+				item: "gtceu:pulsating_alloy_dust"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "末影之力在其中波动"
+			tasks: [{
+				id: "25B61E448470017B"
+				item: "enderio:pulsating_alloy_ingot"
+				type: "item"
+			}]
+			title: "绿绿的家伙"
+			x: 9.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["580B0E53E53BB762"]
+			description: [
+				"基础流体储罐，拥有16B的容量"
+				"破坏后可以保留液体"
+			]
+			id: "75EF55400DC4C69F"
+			rewards: [{
+				count: 16
+				id: "2215691017139714"
+				item: "gtceu:bronze_large_fluid_pipe"
+				type: "item"
+			}]
+			subtitle: "来自末影接口"
+			tasks: [{
+				id: "4BCA9E92A95BB688"
+				item: "enderio:fluid_tank"
+				type: "item"
+			}]
+			title: "大号保温杯"
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2D1B696FE016D507"]
+			description: [
+				"好好珍惜，后面的太阳能就是无法触及的存在了"
+				""
+				"&8&m&o你可能需要带着墨镜来阅读这个任务，小心眼睛被刺眼的阳光烧伤呢"
+			]
+			id: "12AEDC5B26756936"
+			rewards: [{
+				count: 16
+				id: "1A7C721CB61D44CD"
+				item: "gtceu:bronze_ingot"
+				type: "item"
+			}]
+			subtitle: "“啊，恩情一辈子也还不完！！！”"
+			tasks: [{
+				id: "0645696065067663"
+				item: "gtceu:lp_steam_solar_boiler"
+				type: "item"
+			}]
+			title: "来自朝鲜的力量"
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"19913DE6136D4B58"
+				"10D1A198DA9F8189"
+			]
+			description: ["需要钢，但是蒸汽产量更高"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "609B5208B8F30761"
+			rewards: [{
+				id: "46706A737EE33BD2"
+				item: "minecraft:lava_bucket"
+				type: "item"
+			}]
+			subtitle: "高压液体燃料锅炉"
+			tasks: [{
+				id: "7C94A6A36FD54C76"
+				item: "gtceu:hp_steam_liquid_boiler"
+				optional_task: true
+				type: "item"
+			}]
+			title: "加大马力"
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"0B58F90B21DD4534"
+				"6196655E39393EEF"
+			]
+			description: ["踏入远古世界的一步"]
+			hide_dependent_lines: true
+			id: "37EF8172E52B01E2"
+			rewards: [{
+				count: 4
+				id: "2AB2B682B2A8A15A"
+				item: "minecraft:coal_block"
+				type: "item"
+			}]
+			subtitle: "需要摆放"
+			tasks: [{
+				id: "1E6254ECEA08732C"
+				item: "ad_astra:steel_block"
+				type: "item"
+			}]
+			title: "钢块"
+			x: 16.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["01382DED4BAF3366"]
+			description: [
+				"土高炉是没有IO仓室的，你需要手动放入拿出东西"
+				""
+				"你目前的自动化手段寥寥无几，最多用到的基本就是半自动；不过不要着急，EnderIO在不远处等着你"
+				"但你现在可以做储罐跟流体导管来设置自动取出流体。"
+			]
+			icon: "gtceu:steam_bucket"
+			id: "5A410CA2927E1B11"
+			rewards: [{
+				count: 32
+				id: "45A53AB1B9F7857B"
+				item: "gtceu:coke_block"
+				type: "item"
+			}]
+			subtitle: "半自动"
+			tasks: [{
+				count: 16L
+				id: "73AD7C0375DE3A07"
+				item: "ad_astra:steel_ingot"
+				type: "item"
+			}]
+			title: "自动化.v2"
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["07C627559961CFEC"]
+			description: ["烧蒸汽的熔炼装置，没有并行"]
+			id: "32A6D6405EEDF912"
+			rewards: [{
+				count: 16
+				id: "5798F38FC70FBA18"
+				item: "minecraft:chest"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "可以被升级"
+			tasks: [{
+				id: "0CE00157EC3BC6DA"
+				item: "gtceu:lp_steam_furnace"
+				type: "item"
+			}]
+			title: "蒸汽烹饪时代"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["448204E20481D089"]
+			description: ["烧蒸汽的熔炼装置，拥有32并行"]
+			id: "6D56A81383EAB6CF"
+			rewards: [{
+				count: 32
+				id: "12B65912E3215F26"
+				item: "minecraft:coal_block"
+				type: "item"
+			}]
+			subtitle: "最终形态？"
+			tasks: [{
+				id: "51D5F3CD70C34927"
+				item: "gtocore:large_steam_furnace"
+				type: "item"
+			}]
+			title: "砖窑"
+			x: -9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["580B0E53E53BB762"]
+			description: ["自动锻打机，但没有并行"]
+			id: "17396F2039D6E893"
+			rewards: [{
+				id: "587DBC5BB1F31403"
+				item: {
+					Count: 1
+					id: "gtceu:damascus_steel_hammer"
+					tag: {
+						DisallowContainerItem: 0b
+						Enchantments: [{
+							id: "minecraft:fortune"
+							lvl: 3s
+						}]
+						GT.Behaviours: { }
+						GT.Tool: {
+							Damage: 0
+							HarvestLevel: 3
+							MaxDamage: 1023
+							ToolSpeed: 10.0f
+						}
+						HideFlags: 2
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "可以被升级"
+			tasks: [{
+				id: "2B4988F4827B6773"
+				item: "gtceu:lp_steam_forge_hammer"
+				type: "item"
+			}]
+			title: "大锤80，小锤40！"
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["17396F2039D6E893"]
+			description: ["自动锻打机，自带8并行"]
+			id: "49EBC9EFBB3B5195"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "多方块锻造锤"
+			tasks: [{
+				id: "6D38B21B8073D110"
+				item: "gtocore:steam_piston_hammer"
+				type: "item"
+			}]
+			title: "重！拳！出！击！"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["07C627559961CFEC"]
+			description: [
+				"挖些沙子，为你的玻璃管做准备"
+				"直接去海边一顿连锁就完事了"
+			]
+			hide_dependency_lines: true
+			id: "3C3F4900602CD894"
+			rewards: [{
+				count: 256
+				id: "5F5F3EE78FDDF3BB"
+				item: "minecraft:sand"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "铲子地狱"
+			tasks: [{
+				count: 64L
+				id: "50B667814B369D22"
+				item: "minecraft:sand"
+				type: "item"
+			}]
+			title: "好多沙子啊"
+			x: 30.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3C3F4900602CD894"]
+			description: [
+				"在GTO中，玻璃生产被复杂化了"
+				""
+				"烧炼并不能将沙子直接变成玻璃，你需要将沙子研磨成石英砂，然后与燧石混合获得玻璃粉，最后塞到合金炉里面与块模具炼制成玻璃"
+			]
+			id: "662A59F1760BB4D7"
+			rewards: [{
+				count: 64
+				id: "31B564CCA3026055"
+				item: "minecraft:glass"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "玻璃窑"
+			tasks: [{
+				id: "407566DC4CB7344D"
+				item: "minecraft:glass"
+				type: "item"
+			}]
+			title: "玻璃是怎么炼成的"
+			x: 27.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["662A59F1760BB4D7"]
+			description: ["制作真空管的倒数第二步"]
+			id: "61F8EC76837A47DE"
+			rewards: [{
+				count: 16
+				id: "3AC4743CEB5DA0E5"
+				item: "gtceu:glass_tube"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "融化后可以被密封"
+			tasks: [{
+				id: "4D426E84A2777A7D"
+				item: "gtceu:glass_tube"
+				type: "item"
+			}]
+			title: "吹玻璃匠"
+			x: 24.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"0B58F90B21DD4534"
+				"61F8EC76837A47DE"
+				"5498DD8F2C8AA79A"
+			]
+			description: ["钢、红色合金、玻璃。最终，你终于拿到了这个古老却又先进的半成品电子元件"]
+			id: "57EA0C718FA35A32"
+			rewards: [
+				{
+					count: 64
+					id: "4C790B453C3E3BB6"
+					item: "minecraft:glass"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "129BAAD52B4F81EF"
+					item: "ad_astra:steel_ingot"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "0DE0000E6313B140"
+					item: "gtceu:red_alloy_ingot"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			subtitle: "并未真空"
+			tasks: [{
+				id: "7BEA5E52FB7666FD"
+				item: "gtocore:raw_vacuum_tube"
+				type: "item"
+			}]
+			title: "真空管？"
+			x: 21.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"17396F2039D6E893"
+				"32A6D6405EEDF912"
+			]
+			description: [
+				"使用熔炉处理铁锭，得到热铁锭"
+				"锻打获得锻铁，再次锻打得到锻铁板"
+				""
+				"但是这个过程中会有一半的折损"
+				"蒸汽锻造锤可以让你的锻打损耗不那么大"
+			]
+			id: "358960E02BEF0718"
+			rewards: [{
+				count: 16
+				id: "31BF8EA6AE6191C9"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			subtitle: "更便宜的板"
+			tasks: [{
+				id: "697E42C03CE67BC3"
+				item: "gtceu:wrought_iron_plate"
+				type: "item"
+			}]
+			title: "打折时刻！"
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["358960E02BEF0718"]
+			dependency_requirement: "one_completed"
+			description: [
+				"ulv时期只能采用蒸汽锻造锤来节省耗材"
+				"这些损耗还是相当可观的"
+			]
+			hide_dependent_lines: true
+			id: "5424B2BA6D69535C"
+			rewards: [{
+				count: 16
+				id: "4D28C1E865195607"
+				item: "gtceu:wrought_iron_ingot"
+				type: "item"
+			}]
+			subtitle: "ulv重要的一部分"
+			tasks: [{
+				id: "14E6F2C083D8ECB8"
+				item: "gtceu:ulv_machine_casing"
+				type: "item"
+			}]
+			title: "曙光？"
+			x: 4.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["6196655E39393EEF"]
+			description: ["木板的制作还是以往的简单，缓慢"]
+			id: "10D7653C83737CAC"
+			rewards: [{
+				count: 64
+				id: "03CD84B06BADF9A5"
+				item: "gtceu:wood_dust"
+				type: "item"
+			}]
+			subtitle: "它会含甲醛吗"
+			tasks: [{
+				id: "6CC3943EF5583FC2"
+				item: "gtceu:wood_plate"
+				type: "item"
+			}]
+			title: "你的课桌"
+			x: 13.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["25F3A2E242870491"]
+			description: [
+				"橡胶的制作略显复杂，现在的配方只要橡胶末和一些硫"
+				"-------------------------------------------------------------------"
+				"橡胶末可制作提取机增产，硫可以去寻找矿石的副产物"
+				"虽然有点昂贵，但也是很多东西必须的一环"
+			]
+			id: "1A0074C7D299DBD5"
+			rewards: [{
+				count: 64
+				id: "33496373D8800319"
+				item: "gtceu:sticky_resin"
+				type: "item"
+			}]
+			subtitle: "给线缆降低电阻"
+			tasks: [{
+				id: "466CAD5A97DBC688"
+				item: "gtceu:rubber_plate"
+				type: "item"
+			}]
+			title: "绝缘覆层"
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"57EA0C718FA35A32"
+				"5498DD8F2C8AA79A"
+			]
+			description: ["终于，你做出了最简单的电路——ulv电路"]
+			id: "7FC875F617D01CD9"
+			size: 1.5d
+			subtitle: "电子革命"
+			tasks: [{
+				id: "43642842E50F7A8C"
+				item: "gtceu:vacuum_tube"
+				type: "item"
+			}]
+			title: "计算机的前身"
+			x: 21.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"7FC875F617D01CD9"
+				"20CA715F8DA1CCBF"
+				"2CD2AA80CC800504"
+				"5424B2BA6D69535C"
+				"509D62EB93F48AB4"
+			]
+			description: ["那么，你准备好进入超低压时代了吗？"]
+			hide_until_deps_complete: true
+			icon: "gtocore:combined_singularity_4"
+			id: "04E85ED0A747E3B4"
+			rewards: [{
+				count: 64
+				id: "085366A35DCF12EC"
+				item: "gtceu:tin_single_wire"
+				type: "item"
+			}]
+			size: 5.0d
+			subtitle: "准备进入ULV"
+			tasks: [{
+				id: "0CCF55873159F252"
+				type: "checkmark"
+			}]
+			title: "法拉第的梦想"
+			x: 21.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["0B58F90B21DD4534"]
+			id: "40D6D91DFEC6B132"
+			rewards: [{
+				count: 16
+				id: "442543B637554E00"
+				item: "gtceu:coke_block"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 4.0d
+			subtitle: "产能跃进"
+			tasks: [{
+				id: "7C3767E0AC9AE53E"
+				item: "gtocore:leap_forward_one_blast_furnace"
+				type: "item"
+			}]
+			x: 30.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["07C627559961CFEC"]
+			description: [
+				"4个红石加上一根铁杆，在制作台制作出一根磁化铁杆"
+				"相对你现在的产能有点贵？"
+				"你可能还必须做些，拿来制造ULV时期的电动马达"
+				""
+				"&8&o但后面会有办法让它便宜下来的&r&r"
+			]
+			id: "1F745D01094FD640"
+			rewards: [{
+				count: 64
+				id: "30CA9556B44C0A64"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			subtitle: "必要的浪费"
+			tasks: [{
+				id: "6F03A913F0FFCF76"
+				item: "gtceu:magnetic_iron_rod"
+				type: "item"
+			}]
+			title: "手工磁化"
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1F745D01094FD640"]
+			description: [
+				"消耗一些基础材料，拿到GTO之旅的第一个部件"
+				"你说有点复杂？"
+				"哦亲爱的你总得学会适应手搓点这玩意儿"
+				"既是产物，也是进阶部件非常重要的原料"
+			]
+			hide_dependent_lines: true
+			id: "2CD2AA80CC800504"
+			rewards: [{
+				count: 64
+				id: "3E957756A5012D32"
+				item: "enderio:powdered_copper"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "手绕线圈"
+			tasks: [{
+				id: "18D9E018AAD57FFC"
+				item: "gtocore:ulv_electric_motor"
+				type: "item"
+			}]
+			title: "原始科技！"
+			x: 6.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"2D1B696FE016D507"
+				"75EF55400DC4C69F"
+			]
+			id: "19913DE6136D4B58"
+			rewards: [{
+				id: "2207BEBA404D3AD8"
+				item: {
+					Count: 1
+					id: "gtceu:steel_fluid_cell"
+					tag: {
+						Fluid: {
+							Amount: 8000
+							FluidName: "gtceu:creosote"
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "液体燃料锅炉"
+			tasks: [{
+				id: "2D19975CDC440D96"
+				item: "gtceu:lp_steam_liquid_boiler"
+				type: "item"
+			}]
+			title: "原来你也可以烧"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"2D1B696FE016D507"
+				"10D1A198DA9F8189"
+			]
+			description: ["需要钢，但是蒸汽产量更高"]
+			hide_dependency_lines: true
+			id: "223E8E53A0ED3DFC"
+			rewards: [{
+				count: 16
+				id: "1D64668F0C7394E2"
+				item: "minecraft:coal_block"
+				type: "item"
+			}]
+			subtitle: "高压固体燃料锅炉"
+			tasks: [{
+				id: "56E7611CDFF0CAB7"
+				item: "gtceu:hp_steam_solid_boiler"
+				type: "item"
+			}]
+			title: "厨师长"
+			x: -3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"12AEDC5B26756936"
+				"10D1A198DA9F8189"
+			]
+			description: ["需要钢，但是蒸汽产量更高"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "3078AB69D2E96AC4"
+			rewards: [{
+				count: 64
+				id: "5933639E507609C2"
+				item: "gtceu:bronze_ingot"
+				type: "item"
+			}]
+			subtitle: "高压太阳能锅炉"
+			tasks: [{
+				id: "0968C777E817C506"
+				item: "gtceu:hp_steam_solar_boiler"
+				type: "item"
+			}]
+			title: "三日凌空！"
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["75EF55400DC4C69F"]
+			description: [
+				"便宜的大型流体储罐，拥有I/O仓室"
+				"无论是拿来装什么，都很不错"
+			]
+			id: "5A313EDF7B98609A"
+			rewards: [{
+				count: 16
+				id: "6BFA5BD3E6BDBD1B"
+				item: "gtceu:bronze_large_fluid_pipe"
+				type: "item"
+			}]
+			subtitle: "更大，更好"
+			tasks: [{
+				id: "1E1B4228FB283332"
+				item: "gtceu:wooden_multiblock_tank"
+				type: "item"
+			}]
+			title: "超大杯"
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["752695ED68BEEDAF"]
+			description: ["并非完美的超导，如果你愿意选的话可以去试试脉冲合金怎么样，它们都是ulv超导"]
+			id: "6414E4F1692F29E2"
+			rewards: [{
+				count: 64
+				id: "0010937C2695DD8A"
+				item: "gtceu:red_alloy_ingot"
+				type: "item"
+			}]
+			subtitle: "ulv超导"
+			tasks: [{
+				id: "573205C23E608A0A"
+				item: "gtceu:red_alloy_single_cable"
+				type: "item"
+			}]
+			title: "超！导！体！"
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["08C6B20FCFAF8377"]
+			description: [
+				"这个合金炉与格雷科技的并不相同"
+				"它能运行的配方是Enderio材料的配方，比如导电铁"
+				"可以先用着，无限粉可以解锁它的升级"
+				"燃烧固体燃料供能"
+			]
+			id: "4514B4B5C9008CEC"
+			rewards: [{
+				count: 16
+				id: "28F1C84A6A179F3D"
+				item: "minecraft:coal_block"
+				type: "item"
+			}]
+			subtitle: "来自EnderIO的合金设备"
+			tasks: [{
+				id: "0537137732BA17E1"
+				item: "enderio:primitive_alloy_smelter"
+				type: "item"
+			}]
+			title: "合金窑"
+			x: 9.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"07C627559961CFEC"
+				"61F8EC76837A47DE"
+			]
+			description: ["玻璃管需要真空环境才可以变成真空管，你现在可能不太需要它"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "5498DD8F2C8AA79A"
+			subtitle: "只能提供低真空等级"
+			tasks: [{
+				id: "192326376ED78CD6"
+				item: "gtocore:lp_steam_vacuum_pump"
+				type: "item"
+			}]
+			title: "抽干一切！"
+			x: 22.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0B58F90B21DD4534"]
+			description: ["LV机器外壳会很需要它的，还有部分蒸汽设备"]
+			id: "10D1A198DA9F8189"
+			rewards: [{
+				count: 64
+				id: "021569C28EC34FED"
+				item: "ad_astra:steel_plate"
+				type: "item"
+			}]
+			subtitle: "钢的一种形态"
+			tasks: [{
+				id: "17B22C8E0D2E7512"
+				item: "ad_astra:steel_plate"
+				type: "item"
+			}]
+			title: "扁平化"
+			x: 19.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["10D1A198DA9F8189"]
+			description: [
+				"合金炉伴侣"
+				"反正可以准备一些，后面是需要用的，尤其是在各种生产机器中"
+			]
+			id: "509D62EB93F48AB4"
+			rewards: [{
+				count: 4
+				id: "482753E218E59E84"
+				item: "gtceu:empty_mold"
+				type: "item"
+			}]
+			size: 2.0d
+			subtitle: "凹版雕刻"
+			tasks: [{
+				id: "779FA1058D87B914"
+				item: "gtceu:empty_mold"
+				type: "item"
+			}]
+			title: "力大出奇迹"
+			x: 18.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"609B5208B8F30761"
+				"223E8E53A0ED3DFC"
+				"3078AB69D2E96AC4"
+				"12AEDC5B26756936"
+				"19913DE6136D4B58"
+			]
+			description: [
+				"哦？看来你把所有的蒸汽小炉子都做完了？"
+				"那么就送你这个蒸汽爱好者一点小东西吧！"
+			]
+			hide_dependent_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "gtceu:white_lamp"
+				tag: {
+					bloom: 1b
+					inverted: 1b
+					lit: 1b
+				}
+			}
+			id: "3B564DFDA22EF91F"
+			rewards: [{
+				id: "0EC5893F4F45E633"
+				item: {
+					Count: 1
+					id: "gtceu:tungstensteel_fluid_cell"
+					tag: {
+						Fluid: {
+							Amount: 512000
+							FluidName: "gtceu:steam"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "heart"
+			size: 2.0d
+			subtitle: "“其实我就是多做了几个锅炉”"
+			tasks: [{
+				id: "38662324E4C16956"
+				type: "checkmark"
+			}]
+			title: "蒸汽爱好者"
+			x: -6.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["07C627559961CFEC"]
+			description: [
+				"首先你得造一个砂轮出来"
+				"其次你需要左手持深板岩原石，右手持砂砾"
+				"最后右键砂轮"
+			]
+			hide_dependency_lines: true
+			id: "08C6B20FCFAF8377"
+			rewards: [{
+				count: 16
+				id: "0096B4661EA8019F"
+				item: "enderio:grains_of_infinity"
+				type: "item"
+			}]
+			subtitle: "爱来自EnderIO"
+			tasks: [{
+				id: "4E846B3AC825CEDA"
+				item: "enderio:grains_of_infinity"
+				type: "item"
+			}]
+			title: "无限粉"
+			x: 9.0d
+			y: -9.0d
+		}
+		{
+			dependencies: [
+				"5A410CA2927E1B11"
+				"560CEE88344918A5"
+				"25F3A2E242870491"
+			]
+			description: [
+				"你现在需要大规模的自动化生产焦煤，总不能继续拿手搬来搬去吧？"
+				"看看EMI，你现在可以造物品导管了。"
+				"享受一下EnderIO的管道吧，虽然速度不是很快但应付现在的情况足够了。"
+				"至于存储？现在就拿板条箱跟捅凑合一下吧。"
+			]
+			hide_dependent_lines: true
+			icon: "avaritia:neutron_gear"
+			id: "1880688007B45125"
+			rewards: [
+				{
+					id: "64B0619AC0DC72D5"
+					item: "gtceu:bronze_crate"
+					type: "item"
+				}
+				{
+					id: "0F1960F8EADAC2CC"
+					item: "gtceu:bronze_drum"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "末影科技！"
+			tasks: [{
+				count: 16L
+				id: "3D6004087D87743B"
+				item: { Count: 16, id: "enderio:item_conduit" }
+				type: "item"
+			}]
+			title: "自动化.v3"
+			x: 0.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["6196655E39393EEF"]
+			id: "2DB0D89EBE338C78"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "升级版本"
+			tasks: [{
+				id: "65DC1A2592189854"
+				item: "gtceu:hp_steam_compressor"
+				type: "item"
+			}]
+			title: "更高效压缩"
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["07C627559961CFEC"]
+			description: ["蒸汽机器都有排气孔，不要堵塞了，要不然是不会运行的。"]
+			icon: "gtceu:void_hazard_sign_block"
+			id: "37C63219F2958F1F"
+			shape: "gear"
+			size: 1.5d
+			subtitle: "废气，放行！"
+			tasks: [{
+				id: "3AD750DF805A72E0"
+				title: "为什么我的蒸汽机器不动了？"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: -4.0d
+		}
+	]
+	title: "蒸汽时代"
+}

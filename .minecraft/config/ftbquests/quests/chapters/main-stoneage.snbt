@@ -1,0 +1,1539 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "main-stoneage"
+	group: "54AAB0D04131CFAA"
+	hide_quest_until_deps_complete: true
+	icon: "minecraft:grass_block"
+	id: "2F98FBAEECC4F940"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"欢迎来到GregTech:Odyssey！"
+				"也许可能你可能从未了解过格雷科技系列，也有可能是格雷科技的资深老玩家，但本任务书将深入浅出地带你了解这个整合包。"
+				"本整合包较原版格雷科技系列有流程上的较大改动，所以跟着任务书走也不妨是一个不错的选择。"
+				"（至少任务书会带你把主要的里程碑内容做完）"
+				"所以最开始该干嘛呢？先把旁边几个小指引任务看看，然后找到一片靠近水源的地方作为早期发展的基地。"
+				"按tab可以随时随地打开任务书，大多数任务都是完成了上一个任务之后才可以看见的。"
+				"&o&m以及有一些隐藏彩蛋任务"
+				"&r&4切勿&r熬夜爆肝，身体是革命的本钱！！"
+				"&o我们的旅程是星辰大海&r"
+			]
+			hide_dependency_lines: false
+			icon: "minecraft:grass_block"
+			id: "3BC9246D8FD4B649"
+			rewards: [{
+				id: "1376CEF60AD57267"
+				item: {
+					Count: 1
+					id: "gtceu:ultimet_shovel"
+					tag: {
+						DisallowContainerItem: 0b
+						GT.Behaviours: { }
+						GT.Tool: {
+							Damage: 0
+							HarvestLevel: 4
+							MaxDamage: 2047
+							ToolSpeed: 14.0f
+						}
+						HideFlags: 2
+					}
+				}
+				type: "item"
+			}]
+			size: 3.0d
+			subtitle: "Everything starts here......"
+			tasks: [{
+				id: "0BEDFF9D52A0D34C"
+				title: "Hello World！"
+				type: "checkmark"
+			}]
+			title: "Hello World"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3BC9246D8FD4B649"]
+			description: [
+				"众所周知Minecraft有区块加载机制，当玩家离开区块一段时间之后区块就会暂停加载——"
+				"那机器也就没法持续运行了"
+				"所以为了你的基地的正常运行，确保你用了FTBU将你的基地区块全部认领且&c强制加载&r"
+				""
+				"{@pagebreak}"
+				""
+				"具体操作办法："
+				"按&eM&r打开地图，然后点击或者用右键框选你附近的区块，按下一个认领区块按钮。"
+				"再选择你的区块，右键选择强制加载即可。"
+			]
+			hide_dependency_lines: false
+			hide_until_deps_complete: true
+			icon: "minecraft:clock"
+			id: "1777A96F556AE0F6"
+			rewards: [{
+				id: "0EB25545D5B7402F"
+				item: "minecraft:clock"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "裂变反应堆的一生之敌——区块加载"
+			tasks: [{
+				id: "6F242F9CB13444F7"
+				type: "checkmark"
+			}]
+			title: "他们是不是在偷懒？"
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3BC9246D8FD4B649"]
+			description: [
+				"主要流程"
+				"蒸汽ULV：  收集基础资源，更大更强蒸汽机器，炼钢，超维度泥土锻炉"
+				"低压LV：     基础电力机器，电力高炉，GT版数字采矿机"
+				"中压MV： &e   硅晶体&r，石油处理，燃油发电，升级机器"
+				"高压HV： &e    处理器&r，大化反，一阶火箭登月，蒸馏塔，钛，虚空采矿机"
+				"超高压EV： &e 纳米处理器&r，二三四阶火箭，钨，铂系金属"
+				"强导压IV：&e量子处理器&r，合金冶炼炉，五阶火箭，大型机器，装配线，数据库"
+				"剧差压LUV：&b晶体处理器&r，硅岩，六阶火箭，核聚变MK1，计算机，研究站"
+				"零点压ZPM：&4湿件处理器&r，核聚变MK2，七阶火箭，硅岩反应堆"
+				"极限压UV：&a生物活性处理器&r，核聚变MK3，深度处理稀土，电路装配线，太空电梯"
+				"极高压UHV：&e光学处理器&r，恒星锻炉，超能硅岩爆弹，超能反应堆"
+				"极超压UEV：&d奇异处理器&r，超临界合成，基岩处理，精金"
+				"极巨压UIV：&0寰宇处理器&r，宇宙探测，质量发生器，夸克"
+				"极顶压UXV：&4超因果处理器&r，龙，宇宙中子素，无尽，超维度锻炉"
+				"过载压OPV：&4超时空电路&r，宇宙模拟，时空，奇点，永恒"
+				"上限压MAX：&4创造物品合成&r"
+			]
+			hide_until_deps_complete: true
+			icon: "gtceu:portable_debug_scanner"
+			id: "5C4137F64F9ADA50"
+			min_width: 350
+			size: 1.5d
+			subtitle: "电压等级对应的主要内容"
+			tasks: [{
+				id: "2E7AE829275616F9"
+				title: "关于内容"
+				type: "checkmark"
+			}]
+			x: -6.75d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3BC9246D8FD4B649"]
+			description: [
+				"将鼠标移动到你想要查询合成表/被合成的物品上"
+				""
+				"按下&4R&r或者&4鼠标左键&r查询合成表"
+				"(即此物品怎么才能获取) "
+				"按下&4U&r或者&4鼠标右键&r查询被合成表"
+				"(即此物品可以用来合成哪些物品)"
+				""
+				"打开界面后上面有两个带箭头的行"
+				"第一行和最上的图标一样可以切换合成工具"
+				"（点击这一行的文字可以查看这种方式的所有合成表）"
+				"第二行可以翻页"
+				"（很多物品有大量的合成方法，请仔细浏览，尤其是多方块机器的仓室摆放位置）"
+			]
+			hide_until_deps_complete: true
+			icon: "ad_astra:gravity_normalizer"
+			id: "567EBE02182A8505"
+			size: 1.5d
+			subtitle: "集大成者"
+			tasks: [{
+				id: "7A93CF2EDC72A8FF"
+				title: "EMI小课堂"
+				type: "checkmark"
+			}]
+			x: -6.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"3BC9246D8FD4B649"
+				"567EBE02182A8505"
+			]
+			description: [
+				"然后你必须要检查一下你的快捷键绑定是否存在冲突"
+				"以下是几个最关键的&4快捷键："
+				"默认M打开地图，按T可以传送至鼠标指向的地点"
+				"界面左上角可以认领与加载区块"
+				"按住～键可以启用连锁"
+				"默认TAB键快速打开任务"
+				"更详细的提示可在&b&l提示章节&r查看"
+				"默认关闭了飞行惯性，可在GT配置-游戏玩法找到"
+				"用shift+X来重置飞行速度"
+			]
+			hide_until_deps_complete: true
+			id: "3AC0703D45900817"
+			rewards: [{
+				id: "400EF599DA44D4BC"
+				item: {
+					Count: 1
+					id: "minecraft:leather_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "（真）寸步难行 "
+			tasks: [{
+				id: "134F5CBDDADC5489"
+				title: "这都是啥按键啊！"
+				type: "checkmark"
+			}]
+			title: "这都是啥按键啊？"
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"43D37FAEE15EE972"
+				"78A394F6AE731B50"
+			]
+			description: [
+				"拿起你的铲子，找到燧石，开挖！"
+				"至于你要问为什么不是先砍树——你砍得动吗？"
+				"制造一把燧石斧，放开了去砍吧！"
+			]
+			hide_until_deps_complete: true
+			id: "00FC570B313227A1"
+			rewards: [{
+				count: 32
+				id: "1C8E29E6FAA6034B"
+				item: "minecraft:flint"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "欢迎来到西部大开发（不是）"
+			tasks: [{
+				count: 64L
+				id: "754B7DBB3F865931"
+				item: "minecraft:gravel"
+				type: "item"
+			}]
+			title: "淘金客"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3BC9246D8FD4B649"]
+			dependency_requirement: "all_started"
+			description: [
+				"所有的木质和石质工具都被ban了，所以你得从燧石工具开始做起。"
+				"&m（但是铁质工具没有ban）&r&o"
+				"你需要做出第一个燧石斧才能砍树"
+				"而不用工作台做的燧石斧只有16的耐久"
+				""
+				""
+				"&o&8tips：用刀打草有概率生成植物纤维，空手摧毁树叶有概率得到木棍"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:wooden_axe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "43D37FAEE15EE972"
+			rewards: [{
+				id: "069F1A91D7379780"
+				item: {
+					Count: 1
+					id: "gtceu:flint_knife"
+					tag: {
+						DisallowContainerItem: 0b
+						Enchantments: [{
+							id: "minecraft:fire_aspect"
+							lvl: 2s
+						}]
+						GT.Behaviours: { }
+						GT.Tool: {
+							AttackDamage: 1.0f
+							AttackSpeed: 3.0f
+							Damage: 0
+							MaxDamage: 63
+						}
+						HideFlags: 2
+					}
+				}
+				type: "item"
+			}]
+			size: 1.0d
+			subtitle: "唉......"
+			tasks: [{
+				id: "7DC5C93453D7A86A"
+				type: "checkmark"
+			}]
+			title: "我的工具呢？"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["00FC570B313227A1"]
+			description: ["有木头才能继续推进流程，如果你发现你砍不了树，不妨去看看其他的任务？"]
+			icon: "minecraft:oak_log"
+			id: "7D6FCF32575CB7DA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "744C29061D27E75E"
+				type: "choice"
+			}]
+			size: 1.5d
+			subtitle: "有种熟悉的感觉"
+			tasks: [{
+				count: 64L
+				id: "3B114172D1AD4D70"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				match_nbt: true
+				title: "任意原木"
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "想致富，先撸树！"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7D6FCF32575CB7DA"]
+			description: [
+				"你需要收集这些植物来为后续发展打下基础"
+				"1.橡胶树跟工业2版本的有很大区别，树脂是随着木头或树叶一起掉落的。"
+				"2.甘蔗主要用于造纸，当然在GTO内造纸可跟原版Minecraft有很大区别。"
+				"建议先划分一块地方来种植这些作物。"
+			]
+			id: "2ABA8FC7FEAF1926"
+			rewards: [{
+				count: 64
+				id: "0F0D0E25DEDBD630"
+				item: "minecraft:bone_meal"
+				type: "item"
+			}]
+			size: 1.0d
+			subtitle: "“不过就是做了一些该做的事情嘛”"
+			tasks: [
+				{
+					count: 16L
+					id: "323E4B12DE914D8D"
+					item: "minecraft:sugar_cane"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "61680DCF9B5BA814"
+					item: "gtceu:rubber_sapling"
+					type: "item"
+				}
+			]
+			title: "沾花惹草"
+			x: 7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7D6FCF32575CB7DA"]
+			description: [
+				"FTBU的连锁挖掘功能是消耗饱食度的，所以吃饱肚子还是很关键的。"
+				"搞点简单的农业产出是个很不错的选择。"
+				"建议这个也要划一片地，因为其实还是有不小的食物需求的。"
+				"至于耕种工具？用燧石锄嘛！"
+				"&m&8(村民：我没意见）&r"
+				"任意选择一项提交即可"
+			]
+			id: "734195C86A471D24"
+			rewards: [
+				{
+					count: 32
+					id: "6413B83906128BBB"
+					item: "minecraft:bread"
+					type: "item"
+				}
+				{
+					id: "37E16B67CAAEC60A"
+					item: {
+						Count: 1
+						id: "gtceu:sterling_silver_sword"
+						tag: {
+							DisallowContainerItem: 0b
+							Enchantments: [{
+								id: "minecraft:smite"
+								lvl: 3s
+							}]
+							GT.Behaviours: { }
+							GT.Tool: {
+								AttackDamage: 11.0f
+								AttackSpeed: -2.1000001f
+								Damage: 0
+								MaxDamage: 767
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			subtitle: "民以食为天"
+			tasks: [
+				{
+					count: 64L
+					id: "0F9E250FC6792BCB"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:crops"
+						}
+					}
+					title: "任意作物*64"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "40E4D58C5A884749"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:seeds"
+						}
+					}
+					title: "任意种子*32"
+					type: "item"
+				}
+			]
+			title: "吃饱饭才有动力"
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7D6FCF32575CB7DA"]
+			description: ["兜兜转转大半天可能还是去获取点肉来能填饱肚子"]
+			icon: "minecraft:beef"
+			id: "368F06963D54EFCA"
+			rewards: [{
+				count: 64
+				id: "646F1FD0A4ED39E2"
+				item: "minecraft:cooked_beef"
+				type: "item"
+			}]
+			size: 1.0d
+			subtitle: "岷叔最不喜欢的一集"
+			tasks: [{
+				count: 16L
+				id: "25E5CEE949B9EC7A"
+				item: "minecraft:beef"
+				type: "item"
+			}]
+			title: "至于动物？我祝他们一切安好"
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7D6FCF32575CB7DA"]
+			description: ["这可能是你发现的第一个彩蛋任务"]
+			id: "3CF903DBC993F284"
+			invisible: true
+			rewards: [{
+				id: "606D21EC577CFC41"
+				item: {
+					Count: 1
+					id: "gtceu:diamond_axe"
+					tag: {
+						DisallowContainerItem: 0b
+						GT.Behaviours: {
+							DisableShields: 1b
+							TreeFelling: 1b
+						}
+						GT.Tool: {
+							Damage: 0
+							HarvestLevel: 3
+							MaxDamage: 767
+							ToolSpeed: 8.0f
+						}
+						HideFlags: 2
+					}
+				}
+				type: "item"
+			}]
+			size: 1.0d
+			subtitle: "这里是彩蛋"
+			tasks: [{
+				count: 256L
+				id: "250D5035EB285F6A"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				title: "任意原木"
+				type: "item"
+			}]
+			title: "下班甜点~"
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7D6FCF32575CB7DA"]
+			description: [
+				"来制作你的第一个工作台！"
+				"它的配方可跟原版Minecraft有着截然不同的差距，你需要用两个燧石替换掉原合成配方中的两个原木。"
+				"当然也可以查看EMI来获得合成配方，然后在材料充足的情况下点击加号来自动合成。"
+				""
+				"&8&o所以为什么不试试看EMI呢&r&r"
+			]
+			icon: "minecraft:crafting_table"
+			id: "561D79DE960A034D"
+			rewards: [{
+				count: 64
+				id: "07AA65931017D21B"
+				item: "minecraft:torch"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "为什么这个工作台的配方这么奇怪"
+			tasks: [{
+				id: "793E95D3E03B6A85"
+				item: "minecraft:crafting_table"
+				type: "item"
+			}]
+			title: "大人！时代变了！"
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["561D79DE960A034D"]
+			description: [
+				"精妙背包！"
+				"当然一开始你做的版本也装不了多少东西，"
+				"&m更有可能是你还压根做不了&r，"
+				"但也比装在物品栏里好得多。"
+				"建造多方块结构的时候可以把装不下的方块仓室什么的放到背包里面，然后再用终端成型。"
+				"后续可以在支线任务摩登时代处继续寻找升级的方式。"
+				"现在就送你一个啦！"
+			]
+			icon: "sophisticatedbackpacks:backpack"
+			id: "4DC482C16035F261"
+			rewards: [{
+				id: "3E53B62A939B6B6C"
+				item: "sophisticatedbackpacks:backpack"
+				type: "item"
+			}]
+			subtitle: "容纳万物"
+			tasks: [{
+				count: 128L
+				id: "6269945097D6567E"
+				item: "minecraft:dirt"
+				type: "item"
+			}]
+			title: "背背背起了行囊"
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4DC482C16035F261"]
+			description: [
+				"恭喜你又发现了一个彩蛋任务！"
+				"探矿仪在后面的游玩阶段可以制作更高级的版本。"
+				"暂时充不了电，需要到LV阶段才行。"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:stone_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2403CDCD080D34B1"
+			invisible: true
+			rewards: [{
+				id: "29DBD179D9F536BE"
+				item: "gtceu:prospector.lv"
+				type: "item"
+			}]
+			size: 1.0d
+			subtitle: "这里是彩蛋"
+			tasks: [{
+				count: 256L
+				id: "3EAEDC3B520E6E13"
+				item: "minecraft:cobblestone"
+				type: "item"
+			}]
+			title: "挖穿地心！"
+			x: 9.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["45C8A2DF9C0E5473"]
+			description: [
+				"好吧，你现在需要去搞点黏土了。"
+				"你需要一些黏土去制作后面几个大家伙。"
+				"那么黏土去哪找呢？去河流边上，或者直接点，繁茂洞穴。"
+				"开挖！"
+			]
+			id: "664BDC18052B54FC"
+			rewards: [{
+				count: 64
+				id: "3F0876A57E3A4664"
+				item: "minecraft:clay"
+				type: "item"
+			}]
+			subtitle: "只不过是轻轻动了动黏土而已"
+			tasks: [{
+				count: 64L
+				id: "677A831E0B32880F"
+				item: "minecraft:clay_ball"
+				type: "item"
+			}]
+			title: "洞穴毁灭者"
+			x: 9.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["561D79DE960A034D"]
+			description: [
+				"格雷科技的矿石都是以矿脉形式生成的，每个矿脉都有特定的矿石"
+				"&eJEI可查看矿脉生成信息&r"
+				"具体矿脉内容可到《矿石生成》查看，连锁可以采集相应数量的矿石"
+				""
+				"&o你能连锁的上限取决于你的工具等级，等级越高能连锁的方块也就越多，如果能通电则能连锁更多的方块"
+				""
+				"[ \"你现在可以看到\", { \"text\": \"《矿石生成》\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6A7E63F4019046EC\" } }, \"章节内主世界矿物的分布了\" ]"
+			]
+			icon: {
+				Count: 1
+				id: "avaritia:infinity_pickaxe"
+				tag: { }
+			}
+			id: "45C8A2DF9C0E5473"
+			rewards: [{
+				id: "32E7E5E3F7D49030"
+				item: {
+					Count: 1
+					id: "gtceu:iron_mining_hammer"
+					tag: {
+						DisallowContainerItem: 0b
+						Enchantments: [
+							{
+								id: "minecraft:unbreaking"
+								lvl: 2s
+							}
+							{
+								id: "minecraft:efficiency"
+								lvl: 3s
+							}
+						]
+						GT.Behaviours: {
+							AoEColumn: 1
+							AoELayer: 0
+							AoERow: 1
+							MaxAoEColumn: 1
+							MaxAoELayer: 0
+							MaxAoERow: 1
+							TorchPlacing: 1b
+						}
+						GT.Tool: {
+							Damage: 0
+							HarvestLevel: 2
+							MaxDamage: 767
+							ToolSpeed: 4.8f
+						}
+						HideFlags: 2
+						RepairCost: 3
+					}
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "该来的还是要来"
+			tasks: [{
+				id: "08F6C967231B2EA4"
+				title: "那么该去下矿了！"
+				type: "checkmark"
+			}]
+			title: "下矿时间到！"
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["664BDC18052B54FC"]
+			description: [
+				"你需要这个小家伙来帮助你平稳度过现在的阶段"
+				"有些东西你可能暂时做不了，没关系，去挖点矿再回来做也不迟"
+				"焦炉是个3*3*3的中空多方块结构，记得中间一定要留空"
+				"预留好输出的焦炉仓，要不然你还得来回舀"
+				"多方块结构一般都可以共用一些方块，比如说焦炉A的一面墙同时也可以作为焦炉B的一面墙"
+				"但有些方块是不可以共用的，这些方块都会在提示页面用红色标记出来"
+				"焦炉产出的焦煤是正常煤炭燃烧时间的两倍，同时产出的杂酚油有后续作用"
+				"焦炉仓可以同时作为输入和输出，输入的时候它不会自动抓取物体。（比如说你在一个焦炉仓面前摆了一个装满原材料的箱子，它是不会主动获取箱子里的材料的）所以你需要一点小自动化把东西导进去，很简单，用原版的东西就行了。"
+				"输出的时候焦炉仓可以同时输出固体和液体，但整个焦炉无论你在哪放下的仓室都是共享数据的。（比如说你焦炉里面有三个焦炉仓，总共有60000ml的杂酚油，那三个焦炉仓总共就只能导出共计6000ml的杂酚油，如果是两个焦炉仓同理）"
+				""
+				"&o&8一定要多堆点焦炉，这样你才不会缺燃料使用"
+			]
+			icon: "gtceu:coke_oven"
+			id: "10C397237163BFFC"
+			rewards: [
+				{
+					count: 32
+					id: "03EE0F53DB647AA7"
+					item: "gtceu:bronze_small_fluid_pipe"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "07203CC8CDAE0926"
+					item: "gtceu:coke_oven_bricks"
+					type: "item"
+				}
+				{
+					id: "09379C2F08937566"
+					item: "gtceu:bronze_drum"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "470E157B4F623700"
+					item: "gtceu:coke_oven_hatch"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "225C0AD70BA63112"
+					item: "gtceu:nickel_small_item_pipe"
+					type: "item"
+				}
+				{
+					id: "121ACEAA45BFD679"
+					item: "gtceu:bronze_crate"
+					type: "item"
+				}
+			]
+			subtitle: "你的第一个多方块机器"
+			tasks: [{
+				id: "0B82C2B805642447"
+				item: "gtceu:coke_oven"
+				type: "item"
+			}]
+			title: "焦炉"
+			x: 9.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["45C8A2DF9C0E5473"]
+			description: [
+				"恭喜你遇到了原油，现在请你离开这个即将属于美国陆军的地方（不是）"
+				"拿桶或者单元舀一点吧，现在可能用不上但后面会需要用到的。"
+				"等到了LV阶段你就可以用电动泵来获取原油了。"
+				"再晚点你会需要搭建石化产线，那个时候获取原油的办法可就不是手动了。"
+				""
+				"&m&o&8除非你有尼哥"
+			]
+			icon: "gtceu:oil_bucket"
+			id: "4F77CB97CE068D7F"
+			rewards: [{
+				count: 4
+				id: "74FD9D147B637AAF"
+				item: "minecraft:bucket"
+				type: "item"
+			}]
+			subtitle: "是美军吸引器"
+			tasks: [{
+				id: "2C355D7B87AE6CE4"
+				title: "这黑乎乎的是什么啊"
+				type: "checkmark"
+			}]
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"10C397237163BFFC"
+				"45C8A2DF9C0E5473"
+				"227F19741A364889"
+			]
+			description: [
+				"你需要大量的燃料来处理掉现在挖出来的矿石，对吧，而我的手上有一些更强大的燃料和更厉害的炉子，来做个交换吧！"
+				"你需要用你的焦炉来制作一些焦煤，焦煤的燃烧时间更长。"
+				"高炉你马上就可以做了，建议多做点加快一下速度，毕竟确实需要不少矿物。"
+			]
+			icon: "gtocore:the_fire_of_inferno"
+			id: "2EA8DC57A61690C2"
+			rewards: [
+				{
+					count: 128
+					id: "2B95D9B90AD070AE"
+					item: "minecraft:coal_block"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "3410E1A8B0C3D9EA"
+					item: "minecraft:blast_furnace"
+					type: "item"
+				}
+			]
+			subtitle: "有关燃料的二三事"
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "551FD48B07C31F4C"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:coals"
+					}
+				}
+				title: "Any #minecraft:coals"
+				type: "item"
+			}]
+			title: "添柴加火"
+			x: 12.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["45C8A2DF9C0E5473"]
+			description: [
+				"铜矿，你当前最重要的矿。"
+				"地表上会有矿脉对应的小搓矿粉，可以注意观察一下。"
+				"如果附近没有的需要走远点看看，这个阶段挖掉一整个含铜矿脉应该是够用了。"
+			]
+			id: "0EFC6C245CC001CB"
+			rewards: [{
+				id: "6E62C5DDF0F99CBC"
+				item: {
+					Count: 1
+					id: "gtceu:damascus_steel_pickaxe"
+					tag: {
+						DisallowContainerItem: 0b
+						Enchantments: [{
+							id: "minecraft:fortune"
+							lvl: 3s
+						}]
+						GT.Behaviours: {
+							TorchPlacing: 1b
+						}
+						GT.Tool: {
+							Damage: 0
+							HarvestLevel: 3
+							MaxDamage: 1023
+							ToolSpeed: 10.0f
+						}
+						HideFlags: 2
+					}
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "前期特别重要的矿石"
+			tasks: [{
+				id: "3CF0E83449269635"
+				item: "minecraft:raw_copper"
+				type: "item"
+			}]
+			title: "史蒂夫去哪儿？"
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0EFC6C245CC001CB"]
+			description: [
+				"这些就是其他优先级也很高的矿石了，建议多挖些。"
+				"注意一下开采工具等级，别把好的矿物给拍碎了。"
+				"用连锁挖掘的话注意一下自己的饱食度，带点吃的在身上。"
+			]
+			id: "67264EF0565CC030"
+			rewards: [
+				{
+					id: "2C96DA8AF36132D9"
+					item: {
+						Count: 1
+						id: "gtceu:diamond_mining_hammer"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								AoEColumn: 1
+								AoELayer: 0
+								AoERow: 1
+								MaxAoEColumn: 1
+								MaxAoELayer: 0
+								MaxAoERow: 1
+								TorchPlacing: 1b
+							}
+							GT.Tool: {
+								Damage: 0
+								HarvestLevel: 3
+								MaxDamage: 2303
+								ToolSpeed: 6.4f
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "6EFAC6F29537C1E9"
+					item: "minecraft:chest"
+					type: "item"
+				}
+			]
+			size: 2.0d
+			subtitle: "当前重要的矿石"
+			tasks: [
+				{
+					count: 64L
+					id: "53206BA5B86E618F"
+					item: "minecraft:raw_copper"
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "637AFE077E68161F"
+					item: "minecraft:raw_iron"
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "4BB99FFF2A6C3EC6"
+					item: "gtceu:raw_tin"
+					type: "item"
+				}
+			]
+			title: "愚公移山"
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0EFC6C245CC001CB"]
+			description: ["这里有你其他需要挖的矿物，现阶段不是那么紧要，先备着些。"]
+			id: "4993AFF5280AC837"
+			rewards: [{
+				id: "3CDADBE0ABEF1EEF"
+				item: {
+					Count: 1
+					id: "gtceu:diamond_pickaxe"
+					tag: {
+						DisallowContainerItem: 0b
+						GT.Behaviours: {
+							TorchPlacing: 1b
+						}
+						GT.Tool: {
+							Damage: 0
+							HarvestLevel: 3
+							MaxDamage: 767
+							ToolSpeed: 10.0f
+						}
+						HideFlags: 2
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "其他需要挖的矿石"
+			tasks: [
+				{
+					count: 64L
+					id: "11BF37BFDD13C0F9"
+					item: "minecraft:raw_gold"
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "570AAF6384F7ADE8"
+					item: "gtceu:raw_lead"
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "17707C1238386AD9"
+					item: "gtceu:raw_redstone"
+					type: "item"
+				}
+			]
+			title: "区块破坏者"
+			x: 15.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0EFC6C245CC001CB"]
+			description: ["煤炭和木炭都是很好的燃烧原料，整多点，因为你需要烧很多很多的矿石。"]
+			id: "227F19741A364889"
+			subtitle: "在原版也是很正确的燃料"
+			tasks: [{
+				count: 64L
+				id: "7640079A190B5CD8"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:coals"
+					}
+				}
+				title: "Any #minecraft:coals"
+				type: "item"
+			}]
+			title: "正确的燃料"
+			x: 15.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["67264EF0565CC030"]
+			description: [
+				"这些工具都是主要用于工作台合成的。"
+				"大多数使用工具的配方到后面你都能用机器干，而且更加节省资源。但到那一步之前你得先手动合成一些东西。"
+				"提供一些你现在能合成的工具，换一些好一点的工具。"
+			]
+			id: "73479CC3BADD15F1"
+			rewards: [
+				{
+					id: "731C85A14B81CDD4"
+					item: {
+						Count: 1
+						id: "gtceu:tungsten_steel_hammer"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								Damage: 0
+								HarvestLevel: 4
+								MaxDamage: 2047
+								ToolSpeed: 13.0f
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5C6B557EE2475059"
+					item: {
+						Count: 1
+						id: "gtceu:ultimet_file"
+						tag: {
+							DisallowContainerItem: 0b
+							Enchantments: [{
+								id: "minecraft:unbreaking"
+								lvl: 3s
+							}]
+							GT.Behaviours: { }
+							GT.Tool: {
+								AttackDamage: 0.0f
+								AttackSpeed: -2.3000002f
+								Damage: 0
+								HarvestLevel: 4
+								MaxDamage: 2047
+							}
+							HideFlags: 2
+							RepairCost: 1
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "64DB980F04B8099F"
+					item: {
+						Count: 1
+						id: "gtceu:cobalt_brass_mortar"
+						tag: {
+							DisallowContainerItem: 0b
+							Enchantments: [{
+								id: "minecraft:unbreaking"
+								lvl: 3s
+							}]
+							GT.Behaviours: { }
+							GT.Tool: {
+								AttackDamage: 0.0f
+								AttackSpeed: -2.6000001f
+								Damage: 0
+								HarvestLevel: 2
+								MaxDamage: 1023
+							}
+							HideFlags: 2
+							RepairCost: 1
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			subtitle: "......必先利其器"
+			tasks: [
+				{
+					consume_items: true
+					id: "320E71D29C48085D"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:tools/hammers"
+						}
+					}
+					title: "任意锻造锤"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "2D27A609A4B2B6BF"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:tools/files"
+						}
+					}
+					title: "任意锉"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "47AED98A684D43EA"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:tools/mortars"
+						}
+					}
+					title: "任意研钵"
+					type: "item"
+				}
+			]
+			title: "工欲善其事......"
+			x: 18.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["67264EF0565CC030"]
+			description: [
+				"扳手右键点击可以&9&l设置GT机器的端口&r，而潜行右键点击可以&9&l旋转机器&r，也可以代替镐子破坏机器"
+				"螺丝刀可以&9&l打开机器覆盖板"
+				"撬棍可以&9&l拆下覆盖板&r&r"
+				"剪线钳可以&9&l连接线缆"
+				"{@pagebreak}"
+				"扳手："
+				"手持扳手对准可使用扳手的方块时，方块各面会显示出九宫格，："
+				"其中中心的最多，棱其次，角最小。"
+				"当右键机器面的中心时，则可将正面旋转到该面（仅有面区分的非GT机器）或将输出口调到该面（对于GT机器）；当右键棱时，则将面旋转到相应棱方向的面；右键角时，则将面旋转到右击面的对面。但如果右键的是无面的区分的非GT机器，则以上操作均拆卸下机器。当Shift右键面中心时，则可将正面旋转到该面（对于所有机器），其他对于棱和角一样。对于无面的区分的非GT机器，则以上操作均拆卸下机器。"
+				"右击管道的面的中心时，无变化；但右键棱则可连接/断开相应棱方向的管道；右键角则连接/断开对面方向的管道。Shift右键则可以控制是否输入相应面。"
+				"右键原木、干草块、比较器、中继器、南瓜、南瓜灯、活塞、粘性活塞、投掷器、发射器、熔炉、箱子、陷阱箱、末影箱、漏斗的非正面时，可以转向；"
+				"右键工作台、书架、南瓜、南瓜灯、活塞、粘性活塞、投掷器、发射器、熔炉、箱子、陷阱箱、末影箱、漏斗的正面时，可以拆卸。"
+				"但是除了这些，类似拉杆、铁轨之类的方块仍然可以被旋转或拆卸。"
+				"{@pagebreak}"
+				"软锤："
+				"右键可开启/关闭机器。"
+				"右键点亮的红石灯，可以将其熄灭，反之亦然。"
+				"右键动力铁轨，可以直接激活，反之亦然。"
+				"右键原木、干草块、活塞、粘性活塞、投掷器、发射器、南瓜、南瓜灯、熔炉、箱子、陷阱箱或漏斗，可以将方块转向；"
+				""
+				"螺丝刀："
+				"用于调整各种输出口和合成零件。"
+				"右击机器的正面及输出口时，可以调整是否允许从输出面输入。"
+				"注：虽然手持螺丝刀对着导线和管道确实会有九宫格，但是实测却无作用。"
+				"正确说法：如果九宫格对应的面可以被螺丝刀操控，则相当于直接操控该面；如果不能，则无效果。且操作规律同扳手。"
+				"右键比较器、中继器时，可以转向。"
+				""
+				"撬棍："
+				"用于撬动铁轨和撬开各种板条箱，以及拆卸覆盖板。"
+			]
+			id: "30D4CC9142D59DBD"
+			rewards: [
+				{
+					id: "6D4A67B556605860"
+					item: {
+						Count: 1
+						id: "gtceu:ultimet_wrench"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								Mode: 2b
+							}
+							GT.Tool: {
+								Damage: 0
+								HarvestLevel: 4
+								MaxDamage: 2047
+								ToolSpeed: 14.0f
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "26B24A8D605D69AC"
+					item: {
+						Count: 1
+						id: "gtceu:ultimet_screwdriver"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								Damage: 0
+								MaxDamage: 2047
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0682E79B2DF6D543"
+					item: {
+						Count: 1
+						id: "gtceu:ultimet_crowbar"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								Damage: 0
+								HarvestLevel: 4
+								MaxDamage: 2047
+								ToolSpeed: 14.0f
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "35FBA0DF9FD10F19"
+					item: {
+						Count: 1
+						id: "gtceu:ultimet_wire_cutter"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								Damage: 0
+								HarvestLevel: 4
+								MaxDamage: 2047
+								ToolSpeed: 14.0f
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1B9088A5F05F80E5"
+					item: {
+						Count: 1
+						id: "gtceu:polybenzimidazole_mallet"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								Damage: 0
+								MaxDamage: 1023
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "787527213CDB31A3"
+					item: {
+						Count: 1
+						id: "gtceu:ultimet_knife"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								AttackDamage: 7.0f
+								AttackSpeed: 3.1f
+								Damage: 0
+								MaxDamage: 2047
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3E193D7ED45C92C3"
+					item: {
+						Count: 1
+						id: "gtceu:ultimet_saw"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								HarvestIce: 1b
+							}
+							GT.Tool: {
+								Damage: 0
+								MaxDamage: 2047
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			subtitle: "真是个十八般兵器全上阵"
+			tasks: [
+				{
+					id: "5799A21FFA3196A3"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:tools/wrenches"
+						}
+					}
+					title: "Any #forge:tools/wrenches"
+					type: "item"
+				}
+				{
+					id: "644999670E6CC430"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:tools/screwdrivers"
+						}
+					}
+					title: "Any #forge:tools/screwdrivers"
+					type: "item"
+				}
+				{
+					id: "4915E867C41B7510"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:tools/crowbars"
+						}
+					}
+					title: "Any #forge:tools/crowbars"
+					type: "item"
+				}
+				{
+					id: "45E7D50B99727539"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:tools/wire_cutters"
+						}
+					}
+					title: "Any #forge:tools/wire_cutters"
+					type: "item"
+				}
+				{
+					id: "0F1A15F7905E633A"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:tools/mallets"
+						}
+					}
+					title: "Any #forge:tools/mallets"
+					type: "item"
+				}
+				{
+					id: "1F4884593BDF6DC8"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:tools/knives"
+						}
+					}
+					title: "Any #forge:tools/knives"
+					type: "item"
+				}
+				{
+					id: "6CE2DBFF30D17E11"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:tools/saws"
+						}
+					}
+					title: "Any #forge:tools/saws"
+					type: "item"
+				}
+			]
+			title: "琳琅满目"
+			x: 18.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"73479CC3BADD15F1"
+				"30D4CC9142D59DBD"
+			]
+			description: [
+				"——就是把他们烧掉。"
+				"现在你没办法获得矿物的副产物。"
+				"等时机成熟，我会带你搭建一套简易的产线。"
+				""
+				"用你的一个熔炉换取九个高炉，在这个阶段应该是够用了。"
+			]
+			id: "15C69E5AE559EE9B"
+			rewards: [{
+				count: 9
+				id: "4B490BBC953B6545"
+				item: "minecraft:blast_furnace"
+				type: "item"
+			}]
+			subtitle: "你现在最好的矿物处理方式——"
+			tasks: [{
+				consume_items: true
+				id: "136504DEEDA033D7"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
+			title: "996"
+			x: 21.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"73479CC3BADD15F1"
+				"67264EF0565CC030"
+				"15C69E5AE559EE9B"
+			]
+			description: [
+				"把铁锭丢到炉子里面烧成热铁锭，然后在工作台上用锤子把它打成锻铁锭就行了。"
+				"你在下一个阶段会大量需要它的。"
+			]
+			id: "12116F27AB89BB58"
+			rewards: [{
+				count: 9
+				id: "3587CD8658AA21D0"
+				item: "gtceu:wrought_iron_ingot"
+				type: "item"
+			}]
+			size: 2.5d
+			subtitle: "千锤百炼"
+			tasks: [{
+				id: "5A648B6D0EC4427E"
+				item: "gtceu:wrought_iron_ingot"
+				type: "item"
+			}]
+			title: "古法炼钢"
+			x: 21.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["73479CC3BADD15F1"]
+			description: [
+				"将三个铜粉和一个锡粉放置在工作台上即可完成合成。"
+				"这个配方是无序合成的，意味着你想把粉放在哪个格子都行。"
+				"后面有其他的机器就不用手搓了。"
+				"放进熔炉或者高炉里进行熔炼"
+			]
+			id: "0F7F02C261EF18FA"
+			rewards: [{
+				count: 16
+				id: "37C1A24CA1179A15"
+				item: "gtceu:bronze_dust"
+				type: "item"
+			}]
+			subtitle: "可惜不能搓青铜面具"
+			tasks: [{
+				id: "31061F6404E7D1F4"
+				item: "gtceu:bronze_dust"
+				type: "item"
+			}]
+			title: "三星堆人"
+			x: 21.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"12116F27AB89BB58"
+				"0F7F02C261EF18FA"
+			]
+			description: [
+				"到这了？如果是你一直在玩的话可以去休息会。"
+				"你需要做一个低压固体燃料熔炉，这东西是最简陋的蒸汽炉。"
+				"但你终于可以开始运用蒸汽来做点事了。"
+				"继续前进，路还很长呢。"
+			]
+			id: "14A66BA5BC9DB220"
+			rewards: [{
+				id: "69C1838C97BE66E1"
+				item: "avaritia:star_fuel"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 3.0d
+			subtitle: "那么，蒸汽时代的大门马上就要打开了"
+			tasks: [{
+				id: "0836277400399D72"
+				item: "gtceu:lp_steam_solid_boiler"
+				type: "item"
+			}]
+			title: "继续前进！"
+			x: 24.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["14A66BA5BC9DB220"]
+			description: [
+				"你可能注意到了任务完成会送你一些钱币"
+				"你可以拿它们去商场里换一些东西"
+				"强力的装备以及一些重复性高的材料都可以去那买"
+			]
+			icon: "gtceu:chocolate_coin"
+			id: "1F4C27113660F6B5"
+			rewards: [{
+				count: 16
+				id: "67761ABE1F3C1494"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "我的商城在哪里？"
+			title: "这些闪闪发光的东西有什么用呢"
+			x: 24.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["3BC9246D8FD4B649"]
+			description: ["整点泥土来，木棍收好嗷"]
+			id: "78A394F6AE731B50"
+			rewards: [{
+				count: 16
+				id: "109F50EE4350CB89"
+				item: "minecraft:stick"
+				type: "item"
+			}]
+			subtitle: "小福利"
+			tasks: [{
+				count: 16L
+				id: "3FE1F5058F3122B6"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:dirt"
+					}
+				}
+				title: "任意泥土*16"
+				type: "item"
+			}]
+			title: "啊，那木棍怎么来呢"
+			x: 0.0d
+			y: 1.5d
+		}
+	]
+	title: "由此开始"
+}

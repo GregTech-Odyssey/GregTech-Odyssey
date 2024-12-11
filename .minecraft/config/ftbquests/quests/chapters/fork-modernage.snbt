@@ -1,0 +1,169 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "fork-modernage"
+	group: "54AAB0D04131CFAA"
+	hide_quest_until_deps_complete: true
+	icon: "avaritia:endest_pearl"
+	id: "38FE3C8DAB85C510"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4DC482C16035F261"]
+			description: [
+				"你需要把你的背包慢慢升级"
+				"背包来装多方块的方块去部署多方块机器很方便"
+			]
+			id: "16A3D809E48E245C"
+			tasks: [{
+				id: "7020344306746E2A"
+				title: "欢迎来到摩登时代"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["16A3D809E48E245C"]
+			description: [
+				"你需要先把背包本身做得更好点，对吧？"
+				"你可以先合成铜制背包再做铁质背包，或者直接铁质背包一步到位都行。"
+			]
+			id: "25046FFF52726119"
+			rewards: [{
+				count: 8
+				id: "5EE9704F5DF47102"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			subtitle: "最开始的第一步"
+			tasks: [{
+				id: "301A6935D2CEEF51"
+				item: "sophisticatedbackpacks:iron_backpack"
+				type: "item"
+			}]
+			title: "更好的背包"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["16A3D809E48E245C"]
+			description: [
+				"是时候了，该升级你的背包了"
+				"把你的铁质背包覆盖上满满的黄金板，一个金光闪闪的背包就完成了！"
+			]
+			id: "3DD2577F75AC11AD"
+			rewards: [{
+				count: 8
+				id: "47095BA9A8B20483"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			subtitle: "再次升级！"
+			tasks: [{
+				id: "2E92B2BE3F0F134B"
+				item: "sophisticatedbackpacks:gold_backpack"
+				type: "item"
+			}]
+			title: "耀眼的背包"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["25046FFF52726119"]
+			description: ["安装好模块之后，右键容器即可将物品存入背包"]
+			id: "5B8F905343EDD763"
+			subtitle: "打包带走"
+			tasks: [{
+				id: "092686CC6035E8F0"
+				item: "sophisticatedbackpacks:restock_upgrade"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["25046FFF52726119"]
+			description: ["用于快速卸下物品，如矿石"]
+			id: "526397D39799D25E"
+			subtitle: "一键倾倒"
+			tasks: [{
+				id: "3376F81B290FD1CD"
+				item: "sophisticatedbackpacks:deposit_upgrade"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5B8F905343EDD763"]
+			description: [
+				"可以过滤要拿取什么物品"
+				"但标签模式能设置标签的物品有点少"
+			]
+			id: "62137B8068C03354"
+			subtitle: "过滤输入"
+			tasks: [{
+				id: "78BA36C0E5DDE16E"
+				item: "sophisticatedbackpacks:advanced_restock_upgrade"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["526397D39799D25E"]
+			description: ["设置过滤输出的，可以在背包里预留一些需要的物品比如食物镐子等"]
+			id: "6F7EB102C239838F"
+			subtitle: "噢不不不 ，这东西我需要"
+			tasks: [{
+				id: "17CDC205B96D8A8F"
+				item: "sophisticatedbackpacks:advanced_deposit_upgrade"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["25046FFF52726119"]
+			description: ["临时接走一些液体存起来"]
+			id: "09F307579FDB3941"
+			subtitle: "油罐车"
+			tasks: [{
+				id: "54B399F93DB2201D"
+				item: "sophisticatedbackpacks:tank_upgrade"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["25046FFF52726119"]
+			description: ["省时省力"]
+			id: "4BE88FF4266414E1"
+			subtitle: "这东西背着不热吗"
+			tasks: [{
+				id: "05192D2D19AAF348"
+				item: "sophisticatedbackpacks:smelting_upgrade"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4BE88FF4266414E1"]
+			description: ["更快速地烧东西"]
+			id: "42AA71AEE72ECF2B"
+			subtitle: "高速冶炼"
+			tasks: [{
+				id: "6EE8BCD5D7FA5D3D"
+				item: "sophisticatedbackpacks:blasting_upgrade"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 4.5d
+		}
+	]
+	title: "摩登时代"
+}
