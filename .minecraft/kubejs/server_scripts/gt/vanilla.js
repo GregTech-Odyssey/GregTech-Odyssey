@@ -1176,4 +1176,27 @@ ServerEvents.recipes(event => {
         E: "gtceu:hypogen_hex_wire",
         F: "gtocore:max_field_generator"
     })
+
+    event.shaped("gtocore:large_steam_furnace", [
+        "ABA",
+        "CDC",
+        "EBE"
+    ], {
+        A: "gtceu:long_potin_rod",
+        B: "gtocore:precision_steam_mechanism",
+        C: "enderio:reinforced_obsidian_block",
+        D: "gtceu:steam_oven",
+        E: "gtceu:potin_huge_fluid_pipe"
+    })
+
+    event.shaped("gtocore:leap_forward_one_blast_furnace", [
+        "ABA",
+        "BCB",
+        "DDD"
+    ], {
+        A: "gtceu:wrought_iron_foil",
+        B: "ad_astra:airlock",
+        C: "gtceu:primitive_blast_furnace",
+        D: "gtceu:firebrick"
+    })
 })

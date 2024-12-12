@@ -59,7 +59,7 @@
 			description: [
 				"众所周知Minecraft有区块加载机制，当玩家离开区块一段时间之后区块就会暂停加载——"
 				"那机器也就没法持续运行了"
-				"所以为了你的基地的正常运行，确保你用了FTBU将你的基地区块全部认领且&c强制加载&r"
+				"所以为了你的基地的正常运行，确保你的基地区块全部认领且&c强制加载&r"
 				""
 				"{@pagebreak}"
 				""
@@ -88,24 +88,7 @@
 		}
 		{
 			dependencies: ["3BC9246D8FD4B649"]
-			description: [
-				"主要流程"
-				"蒸汽ULV：  收集基础资源，更大更强蒸汽机器，炼钢，超维度泥土锻炉"
-				"低压LV：     基础电力机器，电力高炉，GT版数字采矿机"
-				"中压MV： &e   硅晶体&r，石油处理，燃油发电，升级机器"
-				"高压HV： &e    处理器&r，大化反，一阶火箭登月，蒸馏塔，钛，虚空采矿机"
-				"超高压EV： &e 纳米处理器&r，二三四阶火箭，钨，铂系金属"
-				"强导压IV：&e量子处理器&r，合金冶炼炉，五阶火箭，大型机器，装配线，数据库"
-				"剧差压LUV：&b晶体处理器&r，硅岩，六阶火箭，核聚变MK1，计算机，研究站"
-				"零点压ZPM：&4湿件处理器&r，核聚变MK2，七阶火箭，硅岩反应堆"
-				"极限压UV：&a生物活性处理器&r，核聚变MK3，深度处理稀土，电路装配线，太空电梯"
-				"极高压UHV：&e光学处理器&r，恒星锻炉，超能硅岩爆弹，超能反应堆"
-				"极超压UEV：&d奇异处理器&r，超临界合成，基岩处理，精金"
-				"极巨压UIV：&0寰宇处理器&r，宇宙探测，质量发生器，夸克"
-				"极顶压UXV：&4超因果处理器&r，龙，宇宙中子素，无尽，超维度锻炉"
-				"过载压OPV：&4超时空电路&r，宇宙模拟，时空，奇点，永恒"
-				"上限压MAX：&4创造物品合成&r"
-			]
+			description: ["主要流程"]
 			hide_until_deps_complete: true
 			icon: "gtceu:portable_debug_scanner"
 			id: "5C4137F64F9ADA50"
@@ -229,7 +212,7 @@
 				"而不用工作台做的燧石斧只有16的耐久"
 				""
 				""
-				"&o&8tips：用刀打草有概率生成植物纤维，空手摧毁树叶有概率得到木棍"
+				"&o&8tips：打草有概率生成植物纤维，空手摧毁树叶有概率得到木棍"
 			]
 			icon: {
 				Count: 1
@@ -1228,13 +1211,13 @@
 					id: "1B9088A5F05F80E5"
 					item: {
 						Count: 1
-						id: "gtceu:polybenzimidazole_mallet"
+						id: "gtceu:silicone_rubber_mallet"
 						tag: {
 							DisallowContainerItem: 0b
 							GT.Behaviours: { }
 							GT.Tool: {
 								Damage: 0
-								MaxDamage: 1023
+								MaxDamage: 511
 							}
 							HideFlags: 2
 						}

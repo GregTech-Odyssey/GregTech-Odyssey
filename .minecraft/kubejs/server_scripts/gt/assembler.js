@@ -1109,6 +1109,14 @@ ServerEvents.recipes(event => {
         .EUt(16)
         .duration(50)
 
+    gtr.assembler("gtocore:industrial_steam_casing")
+        .itemInputs("gtceu:bronze_frame")
+        .itemInputs("6x gtceu:brass_plate")
+        .itemOutputs("2x gtceu:industrial_steam_casing")
+        .circuit(6)
+        .EUt(16)
+        .duration(50)
+
     gtr.assembler("gtocore:cooler")
         .itemInputs("gtocore:fission_reactor_casing", "2x gtceu:annealed_copper_hex_wire", "8x gtceu:vanadium_steel_tiny_fluid_pipe", "4x gtceu:stainless_steel_plate")
         .inputFluids("gtceu:soldering_alloy 288")

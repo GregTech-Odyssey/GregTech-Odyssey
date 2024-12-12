@@ -46,19 +46,11 @@
 				"水泵仓在此结构的中间位置，它的朝向是可以由扳手更改的；水泵仓会将水自动朝外输出，如果不能输出不妨试试用扳手调一调"
 			]
 			id: "580B0E53E53BB762"
-			rewards: [
-				{
-					count: 24
-					id: "636E7FEF320C2BDF"
-					item: "gtceu:bronze_large_fluid_pipe"
-					type: "item"
-				}
-				{
-					id: "04E3FEAB172E6C22"
-					type: "xp"
-					xp: 3
-				}
-			]
+			rewards: [{
+				id: "04E3FEAB172E6C22"
+				type: "xp"
+				xp: 3
+			}]
 			size: 1.5d
 			subtitle: "经验+3"
 			tasks: [
@@ -120,7 +112,7 @@
 			icon: "minecraft:hopper"
 			id: "01382DED4BAF3366"
 			rewards: [{
-				count: 8
+				count: 4
 				id: "09B7AAB2452EC9E9"
 				item: "gtceu:coke_block"
 				type: "item"
@@ -141,7 +133,7 @@
 			description: ["烧蒸汽的熔炼装置，拥有8并行"]
 			id: "448204E20481D089"
 			rewards: [{
-				count: 16
+				count: 4
 				id: "51F71C0DAD6580C7"
 				item: "minecraft:coal_block"
 				type: "item"
@@ -633,7 +625,7 @@
 			icon: "gtceu:steam_bucket"
 			id: "5A410CA2927E1B11"
 			rewards: [{
-				count: 32
+				count: 8
 				id: "45A53AB1B9F7857B"
 				item: "gtceu:coke_block"
 				type: "item"
@@ -675,7 +667,7 @@
 			description: ["烧蒸汽的熔炼装置，拥有32并行"]
 			id: "6D56A81383EAB6CF"
 			rewards: [{
-				count: 32
+				count: 16
 				id: "12B65912E3215F26"
 				item: "minecraft:coal_block"
 				type: "item"
@@ -1205,9 +1197,9 @@
 			]
 			id: "4514B4B5C9008CEC"
 			rewards: [{
-				count: 16
-				id: "28F1C84A6A179F3D"
-				item: "minecraft:coal_block"
+				count: 32
+				id: "232D00C932B3B3D0"
+				item: "minecraft:ender_pearl"
 				type: "item"
 			}]
 			subtitle: "来自EnderIO的合金设备"
