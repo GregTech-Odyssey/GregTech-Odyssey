@@ -1,0 +1,24 @@
+{
+	id: "2EC56857E6DDD0F5"
+	loot_size: 1
+	order_index: 4
+	rewards: [
+		{ count: 64, item: "minecraft:white_dye" }
+		{ count: 64, item: "minecraft:light_gray_dye" }
+		{ count: 64, item: "minecraft:gray_dye" }
+		{ count: 64, item: "minecraft:black_dye" }
+		{ count: 64, item: "minecraft:brown_dye" }
+		{ count: 64, item: "minecraft:red_dye" }
+		{ count: 64, item: "minecraft:orange_dye" }
+		{ count: 64, item: "minecraft:yellow_dye" }
+		{ count: 64, item: "minecraft:lime_dye" }
+		{ count: 64, item: "minecraft:green_dye" }
+		{ count: 64, item: "minecraft:cyan_dye" }
+		{ count: 64, item: "minecraft:light_blue_dye" }
+		{ count: 64, item: "minecraft:blue_dye" }
+		{ count: 64, item: "minecraft:purple_dye" }
+		{ count: 64, item: "minecraft:magenta_dye" }
+		{ count: 64, item: "minecraft:pink_dye" }
+	]
+	title: "多彩世界"
+}

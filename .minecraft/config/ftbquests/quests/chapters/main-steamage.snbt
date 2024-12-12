@@ -975,12 +975,34 @@
 			hide_until_deps_complete: true
 			icon: "gtocore:combined_singularity_4"
 			id: "04E85ED0A747E3B4"
-			rewards: [{
-				count: 64
-				id: "085366A35DCF12EC"
-				item: "gtceu:tin_single_wire"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 64
+					id: "085366A35DCF12EC"
+					item: "gtceu:tin_single_wire"
+					type: "item"
+				}
+				{
+					command: "/ftbquests change_progress @p reset 58652B9C74A5BA07"
+					elevate_perms: true
+					exclude_from_claim_all: true
+					id: "19261781F68D17C0"
+					ignore_reward_blocking: true
+					silent: true
+					title: "关闭蒸汽时代"
+					type: "command"
+				}
+				{
+					command: "/ftbquests change_progress @p reset 7D3F77CF4D525814"
+					elevate_perms: true
+					exclude_from_claim_all: true
+					id: "7A03D7E1A229B2EF"
+					ignore_reward_blocking: true
+					silent: true
+					title: "开启ULV时代"
+					type: "command"
+				}
+			]
 			size: 5.0d
 			subtitle: "准备进入ULV"
 			tasks: [{
@@ -1328,8 +1350,8 @@
 			dependencies: ["07C627559961CFEC"]
 			description: [
 				"首先你得造一个砂轮出来"
-				"其次你需要左手持深板岩原石，右手持砂砾"
-				"最后右键砂轮"
+				"其次你需要左手持深板岩原石，右手持燧石"
+				"最后在潜行状态下右键砂轮"
 			]
 			hide_dependency_lines: true
 			id: "08C6B20FCFAF8377"

@@ -262,7 +262,9 @@
 			id: "7D6FCF32575CB7DA"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "744C29061D27E75E"
+				id: "4CDDE8131D022FAA"
+				table_id: 7220137926571062997L
+				title: "任意木板*64"
 				type: "choice"
 			}]
 			size: 1.5d
@@ -540,11 +542,19 @@
 			}
 			id: "2403CDCD080D34B1"
 			invisible: true
-			rewards: [{
-				id: "29DBD179D9F536BE"
-				item: "gtceu:prospector.lv"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "29DBD179D9F536BE"
+					item: "gtceu:prospector.lv"
+					type: "item"
+				}
+				{
+					count: 9
+					id: "0BAE7E8F346FD37D"
+					item: "minecraft:furnace"
+					type: "item"
+				}
+			]
 			size: 1.0d
 			subtitle: "这里是彩蛋"
 			tasks: [{
@@ -786,7 +796,10 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["45C8A2DF9C0E5473"]
+			dependencies: [
+				"45C8A2DF9C0E5473"
+				"2DE2787EA5C4080A"
+			]
 			description: [
 				"铜矿，你当前最重要的矿。"
 				"地表上会有矿脉对应的小搓矿粉，可以注意观察一下。"
@@ -1050,6 +1063,7 @@
 				}
 			]
 			shape: "gear"
+			size: 1.75d
 			subtitle: "......必先利其器"
 			tasks: [
 				{
@@ -1170,25 +1184,6 @@
 					type: "item"
 				}
 				{
-					id: "0682E79B2DF6D543"
-					item: {
-						Count: 1
-						id: "gtceu:ultimet_crowbar"
-						tag: {
-							DisallowContainerItem: 0b
-							GT.Behaviours: { }
-							GT.Tool: {
-								Damage: 0
-								HarvestLevel: 4
-								MaxDamage: 2047
-								ToolSpeed: 14.0f
-							}
-							HideFlags: 2
-						}
-					}
-					type: "item"
-				}
-				{
 					id: "35FBA0DF9FD10F19"
 					item: {
 						Count: 1
@@ -1264,9 +1259,11 @@
 				}
 			]
 			shape: "gear"
+			size: 1.75d
 			subtitle: "真是个十八般兵器全上阵"
 			tasks: [
 				{
+					consume_items: true
 					id: "5799A21FFA3196A3"
 					item: {
 						Count: 1
@@ -1275,10 +1272,11 @@
 							value: "forge:tools/wrenches"
 						}
 					}
-					title: "Any #forge:tools/wrenches"
+					title: "任意扳手"
 					type: "item"
 				}
 				{
+					consume_items: true
 					id: "644999670E6CC430"
 					item: {
 						Count: 1
@@ -1287,22 +1285,11 @@
 							value: "forge:tools/screwdrivers"
 						}
 					}
-					title: "Any #forge:tools/screwdrivers"
+					title: "任意螺丝刀"
 					type: "item"
 				}
 				{
-					id: "4915E867C41B7510"
-					item: {
-						Count: 1
-						id: "itemfilters:tag"
-						tag: {
-							value: "forge:tools/crowbars"
-						}
-					}
-					title: "Any #forge:tools/crowbars"
-					type: "item"
-				}
-				{
+					consume_items: true
 					id: "45E7D50B99727539"
 					item: {
 						Count: 1
@@ -1311,10 +1298,11 @@
 							value: "forge:tools/wire_cutters"
 						}
 					}
-					title: "Any #forge:tools/wire_cutters"
+					title: "任意剪线钳"
 					type: "item"
 				}
 				{
+					consume_items: true
 					id: "0F1A15F7905E633A"
 					item: {
 						Count: 1
@@ -1323,10 +1311,11 @@
 							value: "forge:tools/mallets"
 						}
 					}
-					title: "Any #forge:tools/mallets"
+					title: "任意软锤"
 					type: "item"
 				}
 				{
+					consume_items: true
 					id: "1F4884593BDF6DC8"
 					item: {
 						Count: 1
@@ -1335,10 +1324,11 @@
 							value: "forge:tools/knives"
 						}
 					}
-					title: "Any #forge:tools/knives"
+					title: "任意小刀"
 					type: "item"
 				}
 				{
+					consume_items: true
 					id: "6CE2DBFF30D17E11"
 					item: {
 						Count: 1
@@ -1347,7 +1337,7 @@
 							value: "forge:tools/saws"
 						}
 					}
-					title: "Any #forge:tools/saws"
+					title: "任意锯子"
 					type: "item"
 				}
 			]
@@ -1367,6 +1357,7 @@
 				""
 				"用你的一个熔炉换取九个高炉，在这个阶段应该是够用了。"
 			]
+			icon: "minecraft:blast_furnace"
 			id: "15C69E5AE559EE9B"
 			rewards: [{
 				count: 9
@@ -1374,6 +1365,7 @@
 				item: "minecraft:blast_furnace"
 				type: "item"
 			}]
+			size: 2.0d
 			subtitle: "你现在最好的矿物处理方式——"
 			tasks: [{
 				consume_items: true
@@ -1383,14 +1375,10 @@
 			}]
 			title: "996"
 			x: 21.0d
-			y: -3.0d
+			y: 0.0d
 		}
 		{
-			dependencies: [
-				"73479CC3BADD15F1"
-				"67264EF0565CC030"
-				"15C69E5AE559EE9B"
-			]
+			dependencies: ["15C69E5AE559EE9B"]
 			description: [
 				"把铁锭丢到炉子里面烧成热铁锭，然后在工作台上用锤子把它打成锻铁锭就行了。"
 				"你在下一个阶段会大量需要它的。"
@@ -1410,11 +1398,11 @@
 				type: "item"
 			}]
 			title: "古法炼钢"
-			x: 21.0d
-			y: 0.0d
+			x: 25.0d
+			y: -1.25d
 		}
 		{
-			dependencies: ["73479CC3BADD15F1"]
+			dependencies: ["15C69E5AE559EE9B"]
 			description: [
 				"将三个铜粉和一个锡粉放置在工作台上即可完成合成。"
 				"这个配方是无序合成的，意味着你想把粉放在哪个格子都行。"
@@ -1428,6 +1416,7 @@
 				item: "gtceu:bronze_dust"
 				type: "item"
 			}]
+			size: 2.5d
 			subtitle: "可惜不能搓青铜面具"
 			tasks: [{
 				id: "31061F6404E7D1F4"
@@ -1435,8 +1424,8 @@
 				type: "item"
 			}]
 			title: "三星堆人"
-			x: 21.0d
-			y: 3.0d
+			x: 25.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -1450,11 +1439,23 @@
 				"继续前进，路还很长呢。"
 			]
 			id: "14A66BA5BC9DB220"
-			rewards: [{
-				id: "69C1838C97BE66E1"
-				item: "avaritia:star_fuel"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "69C1838C97BE66E1"
+					item: "avaritia:star_fuel"
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					command: "/ftbquests change_progress @p complete 58652B9C74A5BA07"
+					exclude_from_claim_all: true
+					id: "0AA72BCA4C614677"
+					ignore_reward_blocking: true
+					silent: true
+					title: "开启蒸汽时代"
+					type: "command"
+				}
+			]
 			shape: "gear"
 			size: 3.0d
 			subtitle: "那么，蒸汽时代的大门马上就要打开了"
@@ -1464,14 +1465,14 @@
 				type: "item"
 			}]
 			title: "继续前进！"
-			x: 24.0d
+			x: 30.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["14A66BA5BC9DB220"]
 			description: [
 				"你可能注意到了任务完成会送你一些钱币"
-				"你可以拿它们去商场里换一些东西"
+				"你可以拿它们去《格雷科技会员店》里换一些东西"
 				"强力的装备以及一些重复性高的材料都可以去那买"
 			]
 			icon: "gtceu:chocolate_coin"
@@ -1485,8 +1486,12 @@
 			shape: "rsquare"
 			size: 2.0d
 			subtitle: "我的商城在哪里？"
+			tasks: [{
+				id: "11B0CF5FED2E9244"
+				type: "checkmark"
+			}]
 			title: "这些闪闪发光的东西有什么用呢"
-			x: 24.0d
+			x: 30.0d
 			y: 6.5d
 		}
 		{
@@ -1515,6 +1520,29 @@
 			}]
 			title: "啊，那木棍怎么来呢"
 			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["45C8A2DF9C0E5473"]
+			description: [
+				"你也没别的办法快速烧制矿石了对吧"
+				"这确实是个好东西"
+			]
+			id: "2DE2787EA5C4080A"
+			rewards: [{
+				count: 9
+				id: "16A487054B661EF4"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
+			shape: "gear"
+			subtitle: "你可靠的伴侣"
+			tasks: [{
+				id: "0EE0B15949CA20BD"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
+			x: 13.5d
 			y: 1.5d
 		}
 	]
