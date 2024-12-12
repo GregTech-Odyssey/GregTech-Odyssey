@@ -49,6 +49,7 @@ ServerEvents.recipes(event => {
     event.remove({ id: "enderio:dark_bimetal_gear" })
     event.remove({ id: "enderio:pulsating_crystal" })
     event.remove({ id: "enderio:vibrant_crystal" })
+    event.remove({ id: "enderio:stick" })
     event.remove({ id: "enderio:sag_milling/ender_crystal" })
     event.remove({ id: "enderio:sag_milling/precient_crystal" })
     event.remove({ id: "enderio:sag_milling/pulsating_crystal" })
