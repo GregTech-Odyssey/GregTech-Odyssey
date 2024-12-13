@@ -4,7 +4,6 @@
 	default_quest_shape: ""
 	filename: "main-stoneage"
 	group: "54AAB0D04131CFAA"
-	hide_quest_until_deps_complete: true
 	icon: "minecraft:grass_block"
 	id: "2F98FBAEECC4F940"
 	order_index: 0
@@ -69,7 +68,6 @@
 				"再选择你的区块，右键选择强制加载即可。"
 			]
 			hide_dependency_lines: false
-			hide_until_deps_complete: true
 			icon: "minecraft:clock"
 			id: "1777A96F556AE0F6"
 			rewards: [{
@@ -90,7 +88,6 @@
 		{
 			dependencies: ["3BC9246D8FD4B649"]
 			description: ["主要流程"]
-			hide_until_deps_complete: true
 			icon: "gtceu:portable_debug_scanner"
 			id: "5C4137F64F9ADA50"
 			min_width: 350
@@ -120,7 +117,6 @@
 				"第二行可以翻页"
 				"（很多物品有大量的合成方法，请仔细浏览，尤其是多方块机器的仓室摆放位置）"
 			]
-			hide_until_deps_complete: true
 			icon: "ad_astra:gravity_normalizer"
 			id: "567EBE02182A8505"
 			size: 1.5d
@@ -149,7 +145,6 @@
 				"默认关闭了飞行惯性，可在GT配置-游戏玩法找到"
 				"用shift+X来重置飞行速度"
 			]
-			hide_until_deps_complete: true
 			id: "3AC0703D45900817"
 			rewards: [{
 				id: "400EF599DA44D4BC"
@@ -183,7 +178,6 @@
 				"至于你要问为什么不是先砍树——你砍得动吗？"
 				"制造一把燧石斧，放开了去砍吧！"
 			]
-			hide_until_deps_complete: true
 			id: "00FC570B313227A1"
 			rewards: [{
 				count: 32
@@ -427,7 +421,6 @@
 			dependencies: ["7D6FCF32575CB7DA"]
 			description: ["这可能是你发现的第一个彩蛋任务"]
 			id: "3CF903DBC993F284"
-			invisible: true
 			rewards: [{
 				id: "606D21EC577CFC41"
 				item: {

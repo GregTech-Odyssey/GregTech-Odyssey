@@ -4,7 +4,6 @@
 	default_quest_shape: ""
 	filename: "main-steamage"
 	group: "54AAB0D04131CFAA"
-	hide_quest_until_deps_complete: true
 	icon: "gtceu:bronze_ingot"
 	id: "03DB642475239221"
 	order_index: 1

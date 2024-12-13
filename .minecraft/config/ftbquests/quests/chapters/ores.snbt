@@ -1,10 +1,9 @@
 {
-	autofocus_id: "1B00375B2479BAC5"
+	autofocus_id: "6A7E63F4019046EC"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "ores"
 	group: "54AAB0D04131CFAA"
-	hide_quest_until_deps_complete: true
 	icon: "minecraft:diamond_ore"
 	id: "6A809CAE287B97BA"
 	order_index: 3
@@ -1236,7 +1235,6 @@
 			dependencies: ["6A7E63F4019046EC"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
-			hide_until_deps_complete: true
 			id: "1B00375B2479BAC5"
 			tasks: [{
 				id: "1EA5CE97FA330054"
