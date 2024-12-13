@@ -8,7 +8,7 @@ ServerEvents.recipes(event => {
         .itemOutputs("64x gtocore:max_electric_motor")
         .EUt(GTValues.VA[GTValues.MAX])
         .duration(12000)
-        .addData("component_assembly_casing_tier", 14)
+        .addData(GTOValue.COMPONENT_ASSEMBLY_CASING_TIER, 14)
 
     gtr.component_assembly("gtocore:max_electric_pump")
         .circuit(3)
@@ -17,7 +17,7 @@ ServerEvents.recipes(event => {
         .itemOutputs("64x gtocore:max_electric_pump")
         .EUt(GTValues.VA[GTValues.MAX])
         .duration(12000)
-        .addData("component_assembly_casing_tier", 14)
+        .addData(GTOValue.COMPONENT_ASSEMBLY_CASING_TIER, 14)
 
     gtr.component_assembly("gtocore:max_conveyor_module")
         .circuit(5)
@@ -26,7 +26,7 @@ ServerEvents.recipes(event => {
         .itemOutputs("64x gtocore:max_conveyor_module")
         .EUt(GTValues.VA[GTValues.MAX])
         .duration(12000)
-        .addData("component_assembly_casing_tier", 14)
+        .addData(GTOValue.COMPONENT_ASSEMBLY_CASING_TIER, 14)
 
     gtr.component_assembly("gtocore:max_electric_piston")
         .circuit(2)
@@ -35,7 +35,7 @@ ServerEvents.recipes(event => {
         .itemOutputs("64x gtocore:max_electric_piston")
         .EUt(GTValues.VA[GTValues.MAX])
         .duration(12000)
-        .addData("component_assembly_casing_tier", 14)
+        .addData(GTOValue.COMPONENT_ASSEMBLY_CASING_TIER, 14)
 
     gtr.component_assembly("gtocore:max_robot_arm")
         .circuit(4)
@@ -44,7 +44,7 @@ ServerEvents.recipes(event => {
         .itemOutputs("64x gtocore:max_robot_arm")
         .EUt(GTValues.VA[GTValues.MAX])
         .duration(12000)
-        .addData("component_assembly_casing_tier", 14)
+        .addData(GTOValue.COMPONENT_ASSEMBLY_CASING_TIER, 14)
 
     gtr.component_assembly("gtocore:max_field_generator")
         .itemInputs("288x gtceu:double_chaos_plate", "96x #gtceu:circuits/max", "96x gtocore:max_emitter", "192x gtocore:nuclear_star", "48x gtceu:infinity_frame", "3072x gtceu:fine_cosmic_wire", "96x gtceu:cosmic_neutronium_hex_cable")
@@ -52,7 +52,7 @@ ServerEvents.recipes(event => {
         .itemOutputs("64x gtocore:max_field_generator")
         .EUt(GTValues.VA[GTValues.MAX])
         .duration(12000)
-        .addData("component_assembly_casing_tier", 14)
+        .addData(GTOValue.COMPONENT_ASSEMBLY_CASING_TIER, 14)
 
     gtr.component_assembly("gtocore:max_emitter")
         .circuit(6)
@@ -61,7 +61,7 @@ ServerEvents.recipes(event => {
         .itemOutputs("64x gtocore:max_emitter")
         .EUt(GTValues.VA[GTValues.MAX])
         .duration(12000)
-        .addData("component_assembly_casing_tier", 14)
+        .addData(GTOValue.COMPONENT_ASSEMBLY_CASING_TIER, 14)
 
     gtr.component_assembly("gtocore:max_sensor")
         .circuit(7)
@@ -70,7 +70,7 @@ ServerEvents.recipes(event => {
         .itemOutputs("64x gtocore:max_sensor")
         .EUt(GTValues.VA[GTValues.MAX])
         .duration(12000)
-        .addData("component_assembly_casing_tier", 14)
+        .addData(GTOValue.COMPONENT_ASSEMBLY_CASING_TIER, 14)
 
     gtr.assembler_module("gtocore:scintillator")
         .itemInputs("12x gtceu:high_durability_compound_steel_screw", "12x gtceu:fine_cinobite_wire", "6x gtceu:zylon_foil", "4x gtceu:cinobite_plate", "4x gtceu:echoite_plate", "gtocore:scintillator_crystal", "gtocore:separation_electromagnet", "gtceu:double_astral_titanium_plate")
@@ -78,7 +78,7 @@ ServerEvents.recipes(event => {
         .inputFluids("gtceu:trinium_titanium 432", "gtceu:soldering_alloy 288", "gtceu:mutated_living_solder 144")
         .EUt(GTValues.VA[GTValues.UEV])
         .duration(400)
-        .addData("power_module_tier", 2)
+        .addData(GTOValue.POWER_MODULE_TIER, 2)
 
     gtr.assembler_module("gtocore:relativistic_spinorial_memory_system")
         .itemInputs("2x gtceu:neutron_reflector", "gtocore:rydberg_spinorial_assembly", "4x gtocore:charged_lepton_trap_crystal", "2x gtceu:legendarium_single_wire", "gtceu:uhv_field_generator", "gtceu:uiv_sensor", "gtceu:fusion_coil")
@@ -86,7 +86,7 @@ ServerEvents.recipes(event => {
         .itemOutputs("gtocore:relativistic_spinorial_memory_system")
         .EUt(GTValues.VA[GTValues.UXV])
         .duration(800)
-        .addData("power_module_tier", 4)
+        .addData(GTOValue.POWER_MODULE_TIER, 4)
 
     gtr.assembler_module("gtocore:microwormhole_generator")
         .itemInputs("2x gtceu:zpm_emitter", "2x gtceu:enriched_naquadah_trinium_europium_duranide_single_wire", "2x gtceu:neutronium_plate", "gtceu:zpm_field_generator", "gtocore:contained_kerr_singularity", "gtocore:void_matter", "gtceu:enderium_nanites", "2x gtceu:celestial_tungsten_plate")
@@ -94,7 +94,7 @@ ServerEvents.recipes(event => {
         .itemOutputs("gtocore:microwormhole_generator")
         .EUt(100000)
         .duration(200)
-        .addData("power_module_tier", 4)
+        .addData(GTOValue.POWER_MODULE_TIER, 4)
 
     gtr.assembler_module("gtocore:nuclear_clock")
         .itemInputs("2x gtceu:uiv_sensor", "2x gtocore:ultrashort_pulse_laser", "2x gtceu:neutronium_plate", "gtocore:scintillator", "gtocore:bose_einstein_cooling_container", "gtceu:iron_nanites", "gtceu:uv_naquadria_battery", "2x gtceu:double_rhodium_plate")
@@ -102,7 +102,7 @@ ServerEvents.recipes(event => {
         .itemOutputs("gtocore:nuclear_clock")
         .EUt(33550000)
         .duration(1600)
-        .addData("power_module_tier", 3)
+        .addData(GTOValue.POWER_MODULE_TIER, 3)
 
     gtr.assembler_module("gtocore:macrowormhole_generator")
         .itemInputs("4x gtceu:uv_emitter", "4x gtceu:uv_sensor", "2x gtceu:uv_field_generator", "gtocore:contained_high_density_protonic_matter", "gtocore:microwormhole_generator", "gtocore:contained_kerr_singularity", "gtceu:zpm_naquadria_battery", "gtocore:kinetic_matter")
@@ -110,7 +110,7 @@ ServerEvents.recipes(event => {
         .itemOutputs("gtocore:macrowormhole_generator")
         .EUt(1000000)
         .duration(400)
-        .addData("power_module_tier", 4)
+        .addData(GTOValue.POWER_MODULE_TIER, 4)
 
     gtr.assembler_module("gtocore:stabilized_wormhole_generator")
         .itemInputs("4x gtceu:uev_emitter", "4x gtceu:uev_sensor", "2x gtceu:uev_field_generator", "gtocore:contained_exotic_matter", "gtocore:macrowormhole_generator", "gtocore:contained_kerr_singularity", "gtceu:energy_cluster", "gtocore:omni_matter")
@@ -118,7 +118,7 @@ ServerEvents.recipes(event => {
         .itemOutputs("gtocore:stabilized_wormhole_generator")
         .EUt(10000000)
         .duration(800)
-        .addData("power_module_tier", 4)
+        .addData(GTOValue.POWER_MODULE_TIER, 4)
 
     gtr.assembler_module("gtocore:ctc_computational_unit_container")
         .itemInputs("36x gtceu:enriched_naquadah_plate", "36x gtceu:fullerene_polymer_matrix_pulp_plate", "6x gtceu:heavy_quark_degenerate_matter_plate", "3x gtceu:uhv_field_generator", "2x gtceu:taranium_plate", "gtocore:ctc_guidance_unit", "gtocore:manifold_oscillatory_power_cell", "4x gtceu:double_uranium_plate", "gtceu:dense_darmstadtium_plate", "gtceu:neutronium_frame", "gtocore:time_dilation_containment_unit", "gtocore:stabilized_wormhole_generator", "2x gtocore:dark_matter", "gtceu:starmetal_nanites", "8x gtceu:double_black_dwarf_mtter_plate", "8x gtceu:double_trinium_plate")
@@ -126,7 +126,7 @@ ServerEvents.recipes(event => {
         .itemOutputs("gtocore:ctc_computational_unit_container")
         .EUt(GTValues.VA[GTValues.UXV])
         .duration(800)
-        .addData("power_module_tier", 5)
+        .addData(GTOValue.POWER_MODULE_TIER, 5)
 
     gtr.assembler_module("gtocore:space_probe_mk1")
         .itemInputs("gtceu:energy_module",
@@ -139,7 +139,7 @@ ServerEvents.recipes(event => {
         .itemOutputs("gtocore:space_probe_mk1")
         .EUt(GTValues.VA[GTValues.UIV])
         .duration(400)
-        .addData("power_module_tier", 3)
+        .addData(GTOValue.POWER_MODULE_TIER, 3)
 
     gtr.assembler_module("gtocore:space_probe_mk2")
         .itemInputs("gtceu:energy_cluster",
@@ -153,7 +153,7 @@ ServerEvents.recipes(event => {
         .itemOutputs("gtocore:space_probe_mk2")
         .EUt(GTValues.VA[GTValues.UXV])
         .duration(400)
-        .addData("power_module_tier", 4)
+        .addData(GTOValue.POWER_MODULE_TIER, 4)
 
     gtr.assembler_module("gtocore:space_probe_mk3")
         .itemInputs("gtceu:max_battery",
@@ -167,7 +167,7 @@ ServerEvents.recipes(event => {
         .itemOutputs("gtocore:space_probe_mk3")
         .EUt(GTValues.VA[GTValues.OpV])
         .duration(400)
-        .addData("power_module_tier", 5)
+        .addData(GTOValue.POWER_MODULE_TIER, 5)
 
     gtr.assembler_module("gtocore:space_drone_mk1")
         .itemInputs("gtceu:titanium_drill_head",
@@ -190,7 +190,7 @@ ServerEvents.recipes(event => {
         .itemOutputs("gtocore:space_drone_mk1")
         .EUt(GTValues.VA[GTValues.UV])
         .duration(600)
-        .addData("power_module_tier", 1)
+        .addData(GTOValue.POWER_MODULE_TIER, 1)
 
     gtr.assembler_module("gtocore:space_drone_mk2")
         .itemInputs("gtceu:ultimet_drill_head",
@@ -213,7 +213,7 @@ ServerEvents.recipes(event => {
         .itemOutputs("gtocore:space_drone_mk2")
         .EUt(GTValues.VA[GTValues.UHV])
         .duration(600)
-        .addData("power_module_tier", 1)
+        .addData(GTOValue.POWER_MODULE_TIER, 1)
 
     gtr.assembler_module("gtocore:space_drone_mk3")
         .itemInputs("gtceu:hsse_drill_head",
@@ -236,7 +236,7 @@ ServerEvents.recipes(event => {
         .itemOutputs("gtocore:space_drone_mk3")
         .EUt(GTValues.VA[GTValues.UEV])
         .duration(600)
-        .addData("power_module_tier", 2)
+        .addData(GTOValue.POWER_MODULE_TIER, 2)
 
     gtr.assembler_module("gtocore:space_drone_mk4")
         .itemInputs("gtceu:naquadah_alloy_drill_head",
@@ -259,7 +259,7 @@ ServerEvents.recipes(event => {
         .itemOutputs("gtocore:space_drone_mk4")
         .EUt(GTValues.VA[GTValues.UIV])
         .duration(600)
-        .addData("power_module_tier", 3)
+        .addData(GTOValue.POWER_MODULE_TIER, 3)
 
     gtr.assembler_module("gtocore:space_drone_mk5")
         .itemInputs("gtceu:duranium_drill_head",
@@ -282,7 +282,7 @@ ServerEvents.recipes(event => {
         .itemOutputs("gtocore:space_drone_mk5")
         .EUt(GTValues.VA[GTValues.UXV])
         .duration(600)
-        .addData("power_module_tier", 4)
+        .addData(GTOValue.POWER_MODULE_TIER, 4)
 
     gtr.assembler_module("gtocore:space_drone_mk6")
         .itemInputs("gtceu:neutronium_drill_head",
@@ -305,7 +305,7 @@ ServerEvents.recipes(event => {
         .itemOutputs("gtocore:space_drone_mk6")
         .EUt(GTValues.VA[GTValues.OpV])
         .duration(600)
-        .addData("power_module_tier", 5)
+        .addData(GTOValue.POWER_MODULE_TIER, 5)
 
     gtr.circuit_assembler("gtocore:magneto_resonatic_circuit_ulv")
         .itemInputs("4x gtceu:tantalum_capacitor", "4x gtceu:resistor", "4x gtceu:inductor", "gtocore:imprinted_resonatic_circuit_board", "gtceu:magneto_resonatic_gem", "gtceu:vacuum_tube")
@@ -2462,4 +2462,15 @@ ServerEvents.recipes(event => {
         .inputFluids("gtceu:hastelloy_n_75 1296")
         .EUt(1920)
         .duration(800)
+
+    gtr.assembler("gtocore:large_steam_storage_tank")
+        .itemInputs("gtceu:steel_multiblock_tank")
+        .itemInputs("16x gtceu:curved_cobalt_plate")
+        .itemInputs("4x gtceu:brass_turbine_blade")
+        .itemInputs("2x gtceu:long_brass_rod")
+        .itemInputs("4x gtceu:steel_drum")
+        .itemInputs("4x gtocore:ulv_electric_pump")
+        .itemOutputs("gtocore:large_steam_storage_tank")
+        .EUt(30)
+        .duration(200)
 })

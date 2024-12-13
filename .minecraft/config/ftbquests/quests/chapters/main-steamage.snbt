@@ -1,4 +1,5 @@
 {
+	autofocus_id: "07C627559961CFEC"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "main-steamage"
@@ -313,7 +314,7 @@
 				"远古反应核能够让你去一个全新的维度，带来一些主世界无法获取的矿石"
 				""
 				"它的使用方法是将反应核摆在地上，以它为中心"
-				"同平面里，四角钢块，四周绿宝石块"
+				"同平面里，四周钢块，四角钻石块"
 				"然后空手右键它即可"
 			]
 			id: "7D149018DF8411B9"

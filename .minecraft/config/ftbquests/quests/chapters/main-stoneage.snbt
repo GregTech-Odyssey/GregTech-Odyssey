@@ -1,4 +1,5 @@
 {
+	autofocus_id: "3BC9246D8FD4B649"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "main-stoneage"
@@ -1368,9 +1369,8 @@
 			size: 2.0d
 			subtitle: "你现在最好的矿物处理方式——"
 			tasks: [{
-				consume_items: true
-				id: "136504DEEDA033D7"
-				item: "minecraft:furnace"
+				id: "26443F6A26F55D7A"
+				item: "minecraft:blast_furnace"
 				type: "item"
 			}]
 			title: "996"

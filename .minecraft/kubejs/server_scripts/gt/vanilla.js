@@ -1199,4 +1199,18 @@ ServerEvents.recipes(event => {
         C: "gtceu:primitive_blast_furnace",
         D: "gtceu:firebrick"
     })
+
+    event.shaped("gtocore:thermal_power_pump", [
+        "ABA",
+        "GDC",
+        "EFE"
+    ], {
+        A: "gtceu:copper_small_fluid_pipe",
+        B: "gtceu:hp_steam_compressor",
+        C: "gtceu:pump_hatch",
+        D: "gtceu:primitive_pump",
+        E: "gtceu:brass_plate",
+        F: "gtceu:hp_steam_extractor",
+        G: "gtocore:reinforced_wood_casing"
+    })
 })
