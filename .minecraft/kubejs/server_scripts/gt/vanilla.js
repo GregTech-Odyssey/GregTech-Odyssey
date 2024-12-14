@@ -110,7 +110,7 @@ ServerEvents.recipes(event => {
         "ACA"
     ], {
         A: "gtocore:precision_steam_mechanism",
-        B: "gtceu:stainless_steel_tiny_fluid_pipe",
+        B: "gtceu:titanium_tiny_fluid_pipe",
         C: "enderio:vibrant_crystal",
         D: "gtceu:steam_input_hatch"
     })
@@ -647,18 +647,19 @@ ServerEvents.recipes(event => {
         A: "gtceu:bronze_gearbox",
         B: "gtceu:bronze_block",
         C: "gtceu:curved_bronze_plate",
-        D: "gtceu:small_iron_gear"
+        D: "gtceu:rubber_gear"
     })
 
     event.shaped("gtocore:steam_mixer", [
-        "ABA",
+        "AEA",
         "BCB",
-        "DBD"
+        "DED"
     ], {
         A: "gtceu:bronze_normal_fluid_pipe",
         B: "gtceu:bronze_plate",
         C: "gtceu:bronze_pipe_casing",
-        D: "gtceu:bronze_gear"
+        D: "gtceu:bronze_gear",
+        E: "ad_astra:steel_rod"
     })
 
     event.shaped("gtocore:steam_bath", [
@@ -666,7 +667,7 @@ ServerEvents.recipes(event => {
         "BCB",
         "DBD"
     ], {
-        A: "gtceu:bronze_rod",
+        A: "gtceu:rubber_screw",
         B: "gtceu:bronze_plate",
         C: "gtceu:bronze_pipe_casing",
         D: "gtceu:bronze_gear"
@@ -677,7 +678,7 @@ ServerEvents.recipes(event => {
         "BCB",
         "DBD"
     ], {
-        A: "gtceu:bronze_rod",
+        A: "gtceu:rubber_screw",
         B: "ad_astra:steel_plate",
         C: "gtceu:bronze_pipe_casing",
         D: "gtceu:potin_gear"

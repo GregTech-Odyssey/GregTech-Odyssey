@@ -1,0 +1,21 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "iv"
+	group: "2A1218851E38A2EE"
+	icon: "gtceu:assembly_line"
+	id: "3F8D9D2B382EE265"
+	order_index: 7
+	quest_links: [ ]
+	quests: [{
+		id: "7360300731761665"
+		tasks: [{
+			id: "50938B35E6EE37FA"
+			item: "gtceu:iv_machine_hull"
+			type: "item"
+		}]
+		x: 0.5d
+		y: 1.0d
+	}]
+	title: "强导压"
+}

@@ -1,4 +1,5 @@
 {
+	always_invisible: true
 	autofocus_id: "3BC9246D8FD4B649"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
@@ -87,7 +88,7 @@
 		}
 		{
 			dependencies: ["3BC9246D8FD4B649"]
-			description: ["主要流程"]
+			description: ["开发中"]
 			icon: "gtceu:portable_debug_scanner"
 			id: "5C4137F64F9ADA50"
 			min_width: 350
@@ -421,6 +422,7 @@
 			dependencies: ["7D6FCF32575CB7DA"]
 			description: ["这可能是你发现的第一个彩蛋任务"]
 			id: "3CF903DBC993F284"
+			invisible: true
 			rewards: [{
 				id: "606D21EC577CFC41"
 				item: {
@@ -670,42 +672,11 @@
 			]
 			icon: "gtceu:coke_oven"
 			id: "10C397237163BFFC"
-			rewards: [
-				{
-					count: 32
-					id: "03EE0F53DB647AA7"
-					item: "gtceu:bronze_small_fluid_pipe"
-					type: "item"
-				}
-				{
-					count: 32
-					id: "07203CC8CDAE0926"
-					item: "gtceu:coke_oven_bricks"
-					type: "item"
-				}
-				{
-					id: "09379C2F08937566"
-					item: "gtceu:bronze_drum"
-					type: "item"
-				}
-				{
-					count: 2
-					id: "470E157B4F623700"
-					item: "gtceu:coke_oven_hatch"
-					type: "item"
-				}
-				{
-					count: 32
-					id: "225C0AD70BA63112"
-					item: "gtceu:nickel_small_item_pipe"
-					type: "item"
-				}
-				{
-					id: "121ACEAA45BFD679"
-					item: "gtceu:bronze_crate"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "4CAB4AB4963A08F9"
+				item: "gtceu:wood_drum"
+				type: "item"
+			}]
 			subtitle: "你的第一个多方块机器"
 			tasks: [{
 				id: "0B82C2B805642447"
@@ -756,20 +727,11 @@
 			]
 			icon: "gtocore:the_fire_of_inferno"
 			id: "2EA8DC57A61690C2"
-			rewards: [
-				{
-					count: 128
-					id: "2B95D9B90AD070AE"
-					item: "minecraft:coal_block"
-					type: "item"
-				}
-				{
-					count: 4
-					id: "3410E1A8B0C3D9EA"
-					item: "minecraft:blast_furnace"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "4829BCF4756E116F"
+				item: "minecraft:coal"
+				type: "item"
+			}]
 			subtitle: "有关燃料的二三事"
 			tasks: [{
 				consume_items: true

@@ -1,0 +1,21 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "uev"
+	group: "2A1218851E38A2EE"
+	icon: "gtocore:sps_crafting"
+	id: "6FF8BEC3E0C25C4C"
+	order_index: 12
+	quest_links: [ ]
+	quests: [{
+		id: "48151A0D9EA1E4D7"
+		tasks: [{
+			id: "77EA340767268378"
+			item: "gtceu:uev_machine_hull"
+			type: "item"
+		}]
+		x: -1.0d
+		y: 0.0d
+	}]
+	title: "极超压"
+}

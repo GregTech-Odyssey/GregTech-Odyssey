@@ -1,0 +1,21 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "zpm"
+	group: "2A1218851E38A2EE"
+	icon: "gtocore:nano_forge"
+	id: "7D815C5C7CE4821E"
+	order_index: 9
+	quest_links: [ ]
+	quests: [{
+		id: "1F50407EF935C0DC"
+		tasks: [{
+			id: "64B9A1FA5BE07E07"
+			item: "gtceu:zpm_machine_hull"
+			type: "item"
+		}]
+		x: -1.0d
+		y: -1.0d
+	}]
+	title: "零点压"
+}

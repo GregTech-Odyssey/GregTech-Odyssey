@@ -482,4 +482,11 @@ ServerEvents.recipes(event => {
         .itemOutputs("6x gtceu:sodium_aluminium_hydride_dust")
         .EUt(30)
         .duration(190)
+
+    gtr.mixer("gtocore:tin_alloy")
+        .itemInputs("enderio:powdered_iron")
+        .inputFluids("gtceu:tin 144")
+        .outputFluids("gtceu:tin_alloy 288")
+        .EUt(30)
+        .duration(200)
 })

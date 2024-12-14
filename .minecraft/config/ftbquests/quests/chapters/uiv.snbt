@@ -1,0 +1,21 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "uiv"
+	group: "2A1218851E38A2EE"
+	icon: "gtocore:magnetic_confinement_dimensionality_shock_device"
+	id: "2B75F8656F77957E"
+	order_index: 13
+	quest_links: [ ]
+	quests: [{
+		id: "3A3EFA3BBDB1D3D5"
+		tasks: [{
+			id: "1B2DF6EF52C682D9"
+			item: "gtceu:uiv_machine_hull"
+			type: "item"
+		}]
+		x: -1.0d
+		y: -0.5d
+	}]
+	title: "极巨压"
+}

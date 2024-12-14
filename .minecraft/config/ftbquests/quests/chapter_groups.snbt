@@ -1,3 +1,6 @@
 {
-	chapter_groups: [{ id: "54AAB0D04131CFAA", title: "重置任务系列" }]
+	chapter_groups: [
+		{ id: "2A1218851E38A2EE", title: "主线" }
+		{ id: "54AAB0D04131CFAA", title: "弃用" }
+	]
 }

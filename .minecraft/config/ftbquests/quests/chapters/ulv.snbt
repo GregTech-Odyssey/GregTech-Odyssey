@@ -1,0 +1,281 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ulv"
+	group: "2A1218851E38A2EE"
+	icon: "gtocore:primitive_distillation_tower"
+	id: "7EE10B51F068F7FB"
+	order_index: 2
+	quest_links: [{
+		id: "5A5D92BE0837322B"
+		linked_quest: "58B19A3954527732"
+		x: 0.5d
+		y: 2.5d
+	}]
+	quests: [
+		{
+			dependencies: ["61702BEADCE91863"]
+			id: "300B64E908723A50"
+			tasks: [{
+				id: "02032694FF7ED849"
+				item: "gtceu:ulv_machine_hull"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["300B64E908723A50"]
+			id: "2B8A3EDB4C466DFB"
+			tasks: [
+				{
+					id: "0C675ABC7759BBBB"
+					item: "gtocore:ulv_electric_motor"
+					type: "item"
+				}
+				{
+					id: "4698330259671356"
+					item: "gtocore:ulv_electric_piston"
+					type: "item"
+				}
+				{
+					id: "439AC8BB77D33B41"
+					item: "gtocore:ulv_robot_arm"
+					type: "item"
+				}
+				{
+					id: "0FB804D3346A47AD"
+					item: "gtocore:ulv_conveyor_module"
+					type: "item"
+				}
+				{
+					id: "5678B16E04C18588"
+					item: "gtocore:ulv_electric_pump"
+					type: "item"
+				}
+				{
+					id: "24E763297AD27C40"
+					item: "gtocore:ulv_fluid_regulator"
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2B8A3EDB4C466DFB"]
+			id: "3791F49E789E7673"
+			optional: true
+			tasks: [{
+				id: "6A13C40FABCAD89C"
+				item: "gtocore:ulv_semi_fluid"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2B8A3EDB4C466DFB"]
+			id: "11FC35FC0409E3AC"
+			optional: true
+			tasks: [{
+				id: "76AE3F639115F08C"
+				item: "gtocore:ulv_thermal_generator"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2B8A3EDB4C466DFB"]
+			id: "1CA6E1AD1909373A"
+			tasks: [{
+				id: "60367C7A1C461705"
+				item: "gtocore:ulv_assembler"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1CA6E1AD1909373A"]
+			description: ["方便配方"]
+			id: "26C9C65E15B341A6"
+			tasks: [{
+				id: "68415E0B812AF7DC"
+				item: "gtceu:vacuum_tube"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["11FC35FC0409E3AC"]
+			id: "76B352DA96B91E6E"
+			optional: true
+			rewards: [{
+				id: "51456B4186EF349B"
+				item: {
+					Count: 1
+					id: "gtocore:wood_rotor"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6FA072BD07623E24"
+				item: "gtocore:ulv_wind_mill_turbine"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["67C9AF6521C378E9"]
+			id: "0861FADA4103BCA5"
+			tasks: [{
+				id: "0BF38B527AFB1389"
+				item: "gtceu:oil_bucket"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2B8A3EDB4C466DFB"]
+			id: "498D24745D509B73"
+			tasks: [{
+				id: "75B4981C6345DD37"
+				item: "gtocore:steam_cracker"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"300B64E908723A50"
+				"0861FADA4103BCA5"
+			]
+			id: "561F5AACF437E7C5"
+			tasks: [{
+				id: "1E546B913C7F7A60"
+				item: "gtocore:primitive_distillation_tower"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2B8A3EDB4C466DFB"]
+			id: "35926F43AF33BB41"
+			tasks: [{
+				id: "071924CE35F306EC"
+				item: "gtocore:ulv_chemical_reactor"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2B8A3EDB4C466DFB"]
+			id: "76259357A13F3B1E"
+			tasks: [{
+				id: "6180660635C1D52B"
+				item: "gtocore:ulv_fluid_solidifier"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"561F5AACF437E7C5"
+				"76259357A13F3B1E"
+			]
+			id: "03BB5A5C084F5194"
+			tasks: [{
+				id: "545ED00874DB1E00"
+				item: "gtceu:polyethylene_plate"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["27F4D9739FE33A02"]
+			id: "1CDBE91D2ACD9111"
+			tasks: [{
+				id: "0961EA8680E8D70C"
+				item: "gtocore:air_vent"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"2B8A3EDB4C466DFB"
+				"5EAB776CB6CFC91C"
+			]
+			id: "4E0B6C5CE3808705"
+			tasks: [{
+				id: "5131D0A9C6B238E5"
+				item: "gtocore:ulv_packer"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["07EA49FD73BCF45F"]
+			id: "5EAB776CB6CFC91C"
+			tasks: [{
+				id: "7624367D92EA7611"
+				item: "gtceu:resistor"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"5EAB776CB6CFC91C"
+				"53109F7472C0B443"
+			]
+			id: "0FBE7318DFBA700E"
+			tasks: [{
+				id: "7038301353A30474"
+				item: "gtceu:basic_electronic_circuit"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4E0B6C5CE3808705"]
+			id: "4C1AA691B0A8EC24"
+			tasks: [{
+				id: "58ABEF332F1C76E6"
+				item: "gtceu:tin_single_cable"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0FBE7318DFBA700E"]
+			id: "6D86CEB34F76644B"
+			tasks: [{
+				id: "7FD0D944AE2158D6"
+				item: "gtceu:bronze_large_boiler"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.5d
+		}
+	]
+	title: "超低压"
+}

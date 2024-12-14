@@ -1,0 +1,21 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "luv"
+	group: "2A1218851E38A2EE"
+	icon: "gtceu:luv_fusion_reactor"
+	id: "19CB76240F7730C8"
+	order_index: 8
+	quest_links: [ ]
+	quests: [{
+		id: "1DBEFF391461F921"
+		tasks: [{
+			id: "02DFE6593291216F"
+			item: "gtceu:luv_machine_hull"
+			type: "item"
+		}]
+		x: -1.0d
+		y: 0.0d
+	}]
+	title: "剧差压"
+}

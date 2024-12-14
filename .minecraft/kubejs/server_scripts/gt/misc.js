@@ -513,12 +513,6 @@ ServerEvents.recipes(event => {
         .outputFluids("gtceu:tin 72")
         .duration(5)
 
-    gtr.large_boiler("gtocore:tin_alloy_ingot")
-        .itemInputs("gtceu:tin_alloy_ingot")
-        .inputFluids("minecraft:lava 100")
-        .outputFluids("gtceu:tin_alloy 72")
-        .duration(5)
-
     gtr.desulfurizer("gtocore:light_fuel")
         .inputFluids("gtceu:sulfuric_light_fuel 12000")
         .outputFluids("gtceu:light_fuel 12000")

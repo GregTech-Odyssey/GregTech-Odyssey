@@ -1,0 +1,21 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "opv"
+	group: "2A1218851E38A2EE"
+	icon: "gtocore:eye_of_harmony"
+	id: "3DFCE3F1A26BC0A8"
+	order_index: 15
+	quest_links: [ ]
+	quests: [{
+		id: "414BDE8728E3CE36"
+		tasks: [{
+			id: "2316350A777AF486"
+			item: "gtceu:opv_machine_hull"
+			type: "item"
+		}]
+		x: -0.5d
+		y: 0.0d
+	}]
+	title: "过载压"
+}

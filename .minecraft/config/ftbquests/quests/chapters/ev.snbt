@@ -1,0 +1,21 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ev"
+	group: "2A1218851E38A2EE"
+	icon: "gtceu:alloy_blast_smelter"
+	id: "54FF22C8E901E6B9"
+	order_index: 6
+	quest_links: [ ]
+	quests: [{
+		id: "3147146C9A70D77F"
+		tasks: [{
+			id: "5DBF7972A66C3901"
+			item: "gtceu:ev_machine_hull"
+			type: "item"
+		}]
+		x: 0.5d
+		y: 1.0d
+	}]
+	title: "超高压"
+}
