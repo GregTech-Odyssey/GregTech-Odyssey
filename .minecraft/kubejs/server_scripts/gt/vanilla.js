@@ -3,7 +3,6 @@ ServerEvents.recipes(event => {
 
     event.shapeless(Registries.getItemStack("gtceu:small_flint_dust", 3), "gtceu:flint_dust")
     event.shapeless(Registries.getItemStack("gtceu:tiny_flint_dust", 2), "gtceu:small_flint_dust")
-    event.shapeless("gtocore:cfg_copy", "minecraft:writable_book")
     event.shapeless("gtocore:suprachronal_assembly_line_module", "gtocore:suprachronal_assembly_line")
     event.shapeless("gtocore:suprachronal_assembly_line", "gtocore:suprachronal_assembly_line_module")
     event.shapeless("gtceu:spacetime_small_fluid_pipe", ["gtceu:spacetime_tiny_fluid_pipe", "gtceu:spacetime_tiny_fluid_pipe"])
