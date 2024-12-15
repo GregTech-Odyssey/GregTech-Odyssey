@@ -9,12 +9,13 @@
 	quest_links: [{
 		id: "7E7992CD3A6DBEA9"
 		linked_quest: "300B64E908723A50"
-		x: 9.5d
-		y: 4.0d
+		shape: "rsquare"
+		size: 3.0d
+		x: -1.5d
+		y: 7.5d
 	}]
 	quests: [
 		{
-			dependencies: ["436992C2BB62C019"]
 			description: [
 				"GregTech Odessey中，蒸汽时代的内容一部分被优化与拓展"
 				"在蒸汽的驱动下，很多需要动手的配方可以被更先进的方式替代"
@@ -68,8 +69,8 @@
 				item: "gtceu:primitive_pump"
 				type: "item"
 			}]
-			x: 0.5d
-			y: -3.0d
+			x: -1.5d
+			y: -4.5d
 		}
 		{
 			dependencies: [
@@ -82,30 +83,31 @@
 				item: "gtceu:lp_steam_alloy_smelter"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 2.5d
 			y: -1.0d
 		}
 		{
-			dependencies: ["49DD88ED42099A8E"]
 			hide_dependency_lines: false
 			id: "4A9E47C3F8DF24A3"
+			shape: "diamond"
 			tasks: [{
 				id: "5701706956B3E4CD"
 				item: "enderio:primitive_alloy_smelter"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -2.0d
+			x: 2.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["05F4015974079225"]
 			id: "604FA0DDAD1979A1"
+			size: 1.0d
 			tasks: [{
 				id: "3D876C2520DAB94B"
 				item: "gtceu:red_alloy_ingot"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 4.5d
 			y: -1.0d
 		}
 		{
@@ -116,7 +118,7 @@
 				item: "minecraft:piston"
 				type: "item"
 			}]
-			x: 3.5d
+			x: 6.5d
 			y: -1.0d
 		}
 		{
@@ -128,8 +130,8 @@
 				item: "gtceu:lp_steam_macerator"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 0.0d
+			x: 6.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["17408BBD93A18AEC"]
@@ -139,8 +141,8 @@
 				item: "gtceu:lp_steam_compressor"
 				type: "item"
 			}]
-			x: 4.5d
-			y: 0.0d
+			x: 8.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["17408BBD93A18AEC"]
@@ -150,8 +152,8 @@
 				item: "gtceu:lp_steam_forge_hammer"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 0.0d
+			x: 4.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["7EA48CCB9B8FEC5D"]
@@ -162,7 +164,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 0.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["7E8B76C8CC341F51"]
@@ -173,7 +175,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 1.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["72C6B40B38D542BF"]
@@ -183,8 +185,8 @@
 				item: "gtceu:lp_steam_extractor"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 3.0d
+			x: 4.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["017D4D369784454E"]
@@ -194,8 +196,8 @@
 				item: "gtceu:compressed_fireclay"
 				type: "item"
 			}]
-			x: 5.5d
-			y: 0.0d
+			x: 8.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["7FECE5A33D1D3AF7"]
@@ -205,8 +207,8 @@
 				item: "gtceu:primitive_blast_furnace"
 				type: "item"
 			}]
-			x: 5.5d
-			y: 1.0d
+			x: 8.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["6E2614839731BF0D"]
@@ -216,8 +218,8 @@
 				item: "gtceu:steam_grinder"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 1.0d
+			x: 6.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["7BE51B4BC36F8B7B"]
@@ -227,8 +229,8 @@
 				item: "gtocore:steam_piston_hammer"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 1.0d
+			x: 4.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["05F4015974079225"]
@@ -238,8 +240,8 @@
 				item: "gtocore:steam_foundry"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 0.0d
+			x: 2.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["017D4D369784454E"]
@@ -249,19 +251,21 @@
 				item: "gtocore:steam_pressor"
 				type: "item"
 			}]
-			x: 4.5d
-			y: 1.0d
+			x: 8.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["32A39A427D4A3AC2"]
 			id: "27F4D9739FE33A02"
+			shape: "rsquare"
+			size: 2.0d
 			tasks: [{
 				id: "555B0222E8133F88"
 				item: "ad_astra:steel_ingot"
 				type: "item"
 			}]
 			x: 6.5d
-			y: 1.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["27F4D9739FE33A02"]
@@ -271,8 +275,8 @@
 				item: "gtceu:empty_mold"
 				type: "item"
 			}]
-			x: 6.5d
-			y: 2.0d
+			x: 4.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["7F1CF6D7C0CA4DB2"]
@@ -282,8 +286,8 @@
 				item: "gtceu:glass_dust"
 				type: "item"
 			}]
-			x: 6.5d
-			y: 3.0d
+			x: 2.5d
+			y: 4.5d
 		}
 		{
 			dependencies: [
@@ -296,12 +300,13 @@
 				item: "minecraft:glass"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 2.0d
+			x: 4.5d
+			y: 4.5d
 		}
 		{
-			dependencies: ["67C9AF6521C378E9"]
 			id: "7F1CF6D7C0CA4DB2"
+			shape: "diamond"
+			size: 1.5d
 			tasks: [
 				{
 					id: "08F1D06B219C8919"
@@ -314,8 +319,8 @@
 					type: "item"
 				}
 			]
-			x: 5.5d
-			y: 3.0d
+			x: 0.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["431D763E6303976B"]
@@ -325,8 +330,8 @@
 				item: "gtceu:raw_rubber_dust"
 				type: "item"
 			}]
-			x: 8.5d
-			y: 3.0d
+			x: 2.5d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -335,13 +340,15 @@
 			]
 			hide_dependency_lines: false
 			id: "043FCD7B759853EA"
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "56BAACDD642EA086"
 				item: "gtceu:rubber_ingot"
 				type: "item"
 			}]
-			x: 9.5d
-			y: 2.0d
+			x: 2.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["298BEC345930429A"]
@@ -352,8 +359,8 @@
 				item: "gtceu:sulfur_dust"
 				type: "item"
 			}]
-			x: 8.5d
-			y: 2.0d
+			x: 6.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["4F1FEB6CE7C64D14"]
@@ -364,8 +371,8 @@
 				title: "远古世界"
 				type: "dimension"
 			}]
-			x: 8.5d
-			y: 1.0d
+			x: 6.5d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -392,8 +399,8 @@
 					type: "item"
 				}
 			]
-			x: 7.5d
-			y: 1.0d
+			x: 6.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["6AB9089FDE595716"]
@@ -404,7 +411,7 @@
 				type: "item"
 			}]
 			x: 7.5d
-			y: 0.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["27F4D9739FE33A02"]
@@ -420,8 +427,8 @@
 				item: "gtocore:steam_mixer"
 				type: "item"
 			}]
-			x: 6.5d
-			y: 0.0d
+			x: 8.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["043FCD7B759853EA"]
@@ -431,8 +438,8 @@
 				item: "gtceu:red_alloy_single_cable"
 				type: "item"
 			}]
-			x: 9.5d
-			y: 3.0d
+			x: 0.5d
+			y: 7.5d
 		}
 		{
 			dependencies: [
@@ -445,8 +452,8 @@
 				item: "gtceu:glass_tube"
 				type: "item"
 			}]
-			x: 6.5d
-			y: 4.0d
+			x: 2.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["0E4FE30F5B178EDD"]
@@ -456,8 +463,8 @@
 				item: "gtocore:raw_vacuum_tube"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 4.0d
+			x: 0.5d
+			y: 2.5d
 		}
 		{
 			dependencies: [
@@ -465,25 +472,29 @@
 				"21D331D7F4F8862C"
 			]
 			id: "53109F7472C0B443"
+			shape: "rsquare"
+			size: 2.0d
 			tasks: [{
 				id: "0A2DD6AFE2645AA8"
 				item: "gtceu:vacuum_tube"
 				type: "item"
 			}]
-			x: 8.5d
-			y: 4.0d
+			x: -1.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["7EA48CCB9B8FEC5D"]
 			hide_dependency_lines: true
 			id: "21D331D7F4F8862C"
+			shape: "diamond"
+			size: 1.5d
 			tasks: [{
 				id: "6D9D8E445BD7DAA3"
 				item: "gtocore:lp_steam_vacuum_pump"
 				type: "item"
 			}]
-			x: 8.5d
-			y: 5.0d
+			x: 0.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["043FCD7B759853EA"]
@@ -493,8 +504,8 @@
 				item: "gtocore:steam_separator"
 				type: "item"
 			}]
-			x: 9.5d
-			y: 1.0d
+			x: 2.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["043FCD7B759853EA"]
@@ -504,8 +515,8 @@
 				item: "gtocore:steam_bath"
 				type: "item"
 			}]
-			x: 10.5d
-			y: 1.0d
+			x: 4.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["043FCD7B759853EA"]
@@ -515,8 +526,8 @@
 				item: "gtocore:steam_ore_washer"
 				type: "item"
 			}]
-			x: 10.5d
-			y: 2.0d
+			x: 0.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["411686C01CB6045F"]
@@ -526,8 +537,19 @@
 				item: "minecraft:paper"
 				type: "item"
 			}]
-			x: 10.5d
-			y: 0.0d
+			x: 6.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["27F4D9739FE33A02"]
+			id: "5660509FA09D2239"
+			tasks: [{
+				id: "17454D8B9CB1AE31"
+				item: "gtocore:steam_crusher"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.5d
 		}
 	]
 	title: "蒸汽时代"

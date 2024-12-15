@@ -7,15 +7,1011 @@
 	id: "54FF22C8E901E6B9"
 	order_index: 6
 	quest_links: [ ]
-	quests: [{
-		id: "3147146C9A70D77F"
-		tasks: [{
-			id: "5DBF7972A66C3901"
-			item: "gtceu:ev_machine_hull"
-			type: "item"
-		}]
-		x: 0.5d
-		y: 1.0d
-	}]
+	quests: [
+		{
+			dependencies: ["1EC6366E9611F2AD"]
+			hide_dependent_lines: true
+			id: "1E7344C133C99565"
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "0FE962C1CB148B15"
+				title: "超高压EV"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"环氧树脂是一种高分子化合物，具有环氧基团（-O-）的结构特征。它通常是由环氧单体与固化剂反应而成的高性能热固性塑料。环氧树脂具有良好的机械性能、电气绝缘性能、化学稳定性和粘接性能，广泛应用于涂料、胶粘剂、电子封装、建筑加固、复合材料等领域。"
+				""
+				"推荐重度蒸汽裂化石脑油获得丙烷（当然如果你石化产线完全建好了就最好了）"
+			]
+			id: "10CD26CBAC242280"
+			rewards: [{
+				id: "4972B8DA5FCD6499"
+				item: "gtceu:platinum_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "28291FD78E676C6E"
+				item: "gtceu:epoxy_plate"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"2712564DCCFD49B7"
+				"413B25F5BA2BA39D"
+				"47E43471E5E79714"
+			]
+			id: "56F6FC6F9E106A2F"
+			rewards: [{
+				id: "7BC9A3DB6303A906"
+				item: "gtceu:platinum_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3C8EE662094AB2C0"
+				item: "gtceu:nano_processor"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["56F6FC6F9E106A2F"]
+			id: "17F141D39F0AFD77"
+			rewards: [{
+				id: "43FC825F07EA8DD0"
+				item: "gtceu:platinum_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6A3BC4FC52F1FADA"
+				item: "gtceu:nano_processor_assembly"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"17F141D39F0AFD77"
+				"7DE362B6EF9C3800"
+			]
+			id: "5000DCB028460D47"
+			rewards: [{
+				id: "2CB7CF9A6E16C95A"
+				item: "gtceu:osmium_credit"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "13452B1A4ADEC0C0"
+				item: "gtceu:nano_processor_computer"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["5000DCB028460D47"]
+			id: "25F272243EB904D5"
+			rewards: [{
+				id: "40925897A5C74B62"
+				item: "gtceu:naquadah_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "04673B16EBC35BA5"
+				item: "gtceu:nano_processor_mainframe"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 8.0d
+		}
+		{
+			description: ["你需要高压釜"]
+			id: "1D96227373B962A2"
+			rewards: [{
+				id: "5D54D4EA65D60C8F"
+				item: "gtceu:platinum_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2D8F5CCC1E6D6900"
+				item: "gtceu:carbon_fibers"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["10CD26CBAC242280"]
+			id: "2712564DCCFD49B7"
+			rewards: [{
+				id: "34B5A2CF18571DAA"
+				item: "gtceu:platinum_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "48C2953073A1862C"
+				item: "gtceu:epoxy_printed_circuit_board"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5F11D5C61F8897B9"]
+			description: ["可以塞进通用组装厂（这个可以双仓升压的）"]
+			id: "413B25F5BA2BA39D"
+			rewards: [{
+				id: "00E2A12C21199267"
+				item: "gtceu:platinum_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "187833AFC6C1317A"
+				item: "gtceu:ev_circuit_assembler"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4DDFAAF4A8E0622A"]
+			id: "5F11D5C61F8897B9"
+			rewards: [{
+				id: "3AC7FE180A495EAF"
+				item: "gtceu:platinum_credit"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "636B36914936E6C0"
+					item: "gtceu:ev_emitter"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "203510BB9519CB94"
+					item: "gtceu:ev_sensor"
+					type: "item"
+				}
+			]
+			title: "EV发射器与传感器"
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"2CAC63F25BAF50B3"
+				"7DD918C8416C6C63"
+			]
+			id: "4DDFAAF4A8E0622A"
+			rewards: [{
+				id: "3155DA55DF30A8F6"
+				item: "gtceu:platinum_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "330AF88DBC8438B7"
+				item: "gtceu:quantum_eye"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"7C8C2A0E5791E884"
+				"5CE474BD971D9A4B"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"你可以用铀和钚得到"
+				"你也可以在火星直接采到"
+			]
+			id: "2CAC63F25BAF50B3"
+			rewards: [{
+				id: "138FCFDBEF7F8A39"
+				item: "gtceu:platinum_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "22C6A2D312ADEA71"
+				item: "gtceu:radon_bucket"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			id: "7C8C2A0E5791E884"
+			rewards: [{
+				id: "6B5BBC55BCEFE146"
+				item: "gtceu:platinum_credit"
+				type: "item"
+			}]
+			subtitle: "你在月球挖到的，还记得吗"
+			tasks: [{
+				id: "74CC5D9E1BD475A8"
+				item: "gtceu:plutonium_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["506DFA831FEBD175"]
+			id: "7DE362B6EF9C3800"
+			rewards: [{
+				id: "73EA0D5311505816"
+				item: "gtceu:platinum_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0DFA20F7635647A6"
+				item: "gtceu:nor_memory_chip"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["4FD556B867463D30"]
+			id: "5CE474BD971D9A4B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "01D07F31696FB693"
+					table_id: 6225023274141477362L
+					type: "loot"
+				}
+				{
+					id: "11F528FB3633E7D5"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			tasks: [
+				{
+					id: "37F1A09D5A9029ED"
+					item: "ad_astra:tier_2_rocket"
+					type: "item"
+				}
+				{
+					id: "0BE392422AAD0E47"
+					item: "gtceu:rocket_fuel_rp_1_bucket"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1E7344C133C99565"]
+			id: "4FD556B867463D30"
+			rewards: [{
+				id: "1FF9DBDFDD2696F0"
+				item: "gtceu:platinum_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "53DF1E96A14ADB76"
+				item: "gtceu:ev_mixer"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5CE474BD971D9A4B"]
+			id: "7DEEB07D0598019A"
+			rewards: [{
+				id: "6D67F24B06010900"
+				item: "gtceu:platinum_credit"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4A25A688CC27F15F"
+					item: "gtceu:raw_scheelite"
+					type: "item"
+				}
+				{
+					id: "5CCAA1F4ECAD2C50"
+					item: "gtceu:raw_tungstate"
+					type: "item"
+				}
+			]
+			title: "钨矿"
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"7DEEB07D0598019A"
+				"11E1183E0FE07737"
+			]
+			id: "128C3126D5B5DCF3"
+			rewards: [{
+				id: "728EAD50A9488177"
+				item: "gtceu:platinum_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2E65F7BAF19E2FB1"
+				item: "gtceu:tungstic_acid_dust"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["759F26B57097602E"]
+			description: [
+				"如果你看到了这个粉是可以从矿物中获取的，请不要去寻找"
+				"这些矿物是后面通过虚空采矿机获取的"
+			]
+			id: "3A8A37094C997BF8"
+			rewards: [{
+				id: "32F4ACB50913382B"
+				item: "gtceu:platinum_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "245282DDDEF735E7"
+				item: "gtceu:tungsten_dust"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3A8A37094C997BF8"]
+			description: [""]
+			id: "101EBAF218B980A1"
+			rewards: [{
+				id: "59D8861D0338EEC4"
+				item: "gtceu:platinum_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6936718EAE7C6669"
+				item: "gtceu:tungsten_steel_dust"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["101EBAF218B980A1"]
+			id: "5B65662B72C369E7"
+			rewards: [{
+				id: "552799C641212C2F"
+				item: "gtceu:osmium_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4788048543923466"
+				item: "gtceu:tungsten_steel_ingot"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5B65662B72C369E7"]
+			id: "14D60DF010FF0396"
+			rewards: [
+				{
+					id: "1DEBD71F9A11431E"
+					item: "gtceu:platinum_credit"
+					type: "item"
+				}
+				{
+					id: "11D804FAA8BBE25E"
+					item: {
+						Count: 1
+						id: "ad_astra:netherite_space_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "14117A0A06359A24"
+					item: {
+						Count: 1
+						id: "ad_astra:netherite_space_suit"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2584A81443277BA0"
+					item: {
+						Count: 1
+						id: "ad_astra:netherite_space_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "061D5A698148A2A1"
+					item: {
+						Count: 1
+						id: "ad_astra:netherite_space_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1A8B984603BF45D4"
+					item: "gtceu:dense_hydrazine_fuel_mixture_bucket"
+					type: "item"
+				}
+				{
+					id: "00ACD41B8ABD498C"
+					item: "ad_astra:tier_3_rocket"
+					type: "item"
+				}
+			]
+			title: "三阶火箭"
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5CE474BD971D9A4B"]
+			id: "04FD2A25CAC86CAB"
+			rewards: [{
+				id: "29A595C203E1C556"
+				item: "gtceu:platinum_credit"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1DF3D481E9C34BA9"
+					item: "gtceu:platinum_ingot"
+					type: "item"
+				}
+				{
+					id: "6C4C0A26FB276390"
+					item: "gtceu:palladium_ingot"
+					type: "item"
+				}
+			]
+			title: "铂与钯"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"5B65662B72C369E7"
+				"1CF3B9952010D033"
+			]
+			id: "42129A63D97DDF28"
+			rewards: [{
+				id: "318C5EA24BC6F21D"
+				item: "gtceu:platinum_credit"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "5999E5B6C7681080"
+				item: "gtceu:iv_machine_hull"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["11186961491B1773"]
+			id: "1CF3B9952010D033"
+			rewards: [{
+				id: "3F6EE2E900833F74"
+				item: "gtceu:platinum_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2D75941AFBC0524D"
+				item: "gtceu:polytetrafluoroethylene_plate"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 6.0d
+		}
+		{
+			id: "54ECD518FCACE649"
+			rewards: [{
+				id: "62272FE4D7AD9C46"
+				item: "gtceu:platinum_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5A48271C145C99C3"
+				item: "gtceu:rtm_alloy_dust"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"54ECD518FCACE649"
+				"69B1CEE8D556E84C"
+			]
+			id: "1EA6BA3CBF4BE5DB"
+			rewards: [{
+				id: "49F4342C238A2FD9"
+				item: "gtceu:platinum_credit"
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "2BCD06157F405040"
+				item: "gtceu:rtm_alloy_coil_block"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"69B1CEE8D556E84C"
+				"65D09ACC43B7AF20"
+				"4CFA7C2E9E272741"
+			]
+			id: "4C43D30FD9B89965"
+			rewards: [{
+				id: "492C6A47DC96FE4E"
+				item: "gtceu:osmium_credit"
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "070B9F71E727217E"
+				item: "gtceu:ev_energy_input_hatch"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"69B1CEE8D556E84C"
+				"5B65662B72C369E7"
+			]
+			id: "4CFA7C2E9E272741"
+			rewards: [{
+				id: "2D8893150287FA6C"
+				item: "gtceu:platinum_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5EBB46733AD7811E"
+				item: "gtceu:ev_voltage_coil"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1E7344C133C99565"]
+			id: "69B1CEE8D556E84C"
+			rewards: [{
+				id: "6465147B834EAB04"
+				item: "gtceu:platinum_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7180CF7C7A3C3771"
+				item: "gtceu:ev_assembler"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["70907ED7A5445C16"]
+			id: "65D09ACC43B7AF20"
+			rewards: [{
+				id: "5593C5C5687CB119"
+				item: "gtceu:platinum_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3493076AF127B678"
+				item: "gtceu:mpic_chip"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1E7344C133C99565"]
+			id: "70907ED7A5445C16"
+			rewards: [{
+				id: "040878D48A639B2E"
+				item: "gtceu:platinum_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3AD96D33A3A4AC4B"
+				item: "gtceu:ev_cutter"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"00ACD41B8ABD498C"
+				"14D60DF010FF0396"
+			]
+			id: "7AEC0D308494C0F8"
+			rewards: [{
+				id: "079C2ECD4F827B41"
+				item: "gtceu:platinum_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "50CF22DC1B6C3E56"
+				item: "ad_astra:raw_desh"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7AEC0D308494C0F8"
+				"0375D068023B13D7"
+			]
+			id: "0889DB18E2C68D67"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3FDCE86B8215BC89"
+					table_id: 6225023274141477362L
+					type: "loot"
+				}
+				{
+					id: "662FBC35F98E5D21"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			tasks: [
+				{
+					id: "0CEFB603A42AEFD8"
+					item: "gtceu:rocket_fuel_cn3h7o3_bucket"
+					type: "item"
+				}
+				{
+					id: "65C057BCA5809552"
+					item: "ad_astra:tier_4_rocket"
+					type: "item"
+				}
+			]
+			title: "四阶火箭"
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4DDFAAF4A8E0622A"]
+			description: [
+				"非常好的虚采，效率很高，但是需要做宝石浆液产线，可以大幅减少你下矿的时间（有超级连锁其实下矿时间不多）"
+				"你可以拖到下个电压甚至更后面"
+			]
+			id: "5CCD191A904B528A"
+			rewards: [{
+				id: "39100B470D76E9EE"
+				item: "gtceu:osmium_credit"
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "05372C97F5667E15"
+				item: "gtocore:void_miner"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1EA6BA3CBF4BE5DB"]
+			id: "7852E4465B3CAF80"
+			rewards: [{
+				id: "379C58C619F20529"
+				item: "gtceu:platinum_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "77EDD867889A3EA6"
+				item: "gtceu:uranium_triplatinum_ingot"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"7852E4465B3CAF80"
+				"631707E722744406"
+			]
+			id: "0375D068023B13D7"
+			rewards: [{
+				id: "7A3B69AFC8217DF8"
+				item: "gtceu:platinum_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "14874859671EC41A"
+				item: "gtceu:ev_field_generator"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0375D068023B13D7"]
+			id: "650980AB3D2A6AF6"
+			tasks: [{
+				id: "7D1205F365E0C204"
+				item: "gtocore:large_gas_collector"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5CE474BD971D9A4B"]
+			id: "1D247D35BFB55469"
+			tasks: [
+				{
+					id: "2516A6D15A1040C4"
+					item: "gtceu:raw_cooperite"
+					type: "item"
+				}
+				{
+					id: "4AC20884A08A352C"
+					item: "gtceu:raw_bornite"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4C43D30FD9B89965"]
+			id: "31C3D49708342998"
+			rewards: [{
+				id: "6A762837D30479F9"
+				item: "gtceu:platinum_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "56FE7D6E7709860F"
+				item: "gtocore:ev_64a_wireless_energy_input_hatch"
+				type: "item"
+			}]
+			title: "EV 64安 无限能源接收器"
+			x: 18.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"128C3126D5B5DCF3"
+				"2E910F4C45003592"
+			]
+			id: "759F26B57097602E"
+			tasks: [{
+				id: "2C889814346AC9A0"
+				item: "gtceu:tungsten_trioxide_dust"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1D96227373B962A2"]
+			id: "47E43471E5E79714"
+			tasks: [{
+				id: "54946020B9728E09"
+				item: "gtceu:nano_cpu_chip"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0931ECBAAD9252C7"]
+			description: [
+				"从现在开始你的部分东西需要无重力条件，你需要前往太空站进行制作。"
+				"地球空间站是一个好选择"
+			]
+			id: "7DD918C8416C6C63"
+			tasks: [{
+				id: "58D4A11DCEC97B63"
+				title: "无重力条件"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4DDFAAF4A8E0622A"]
+			id: "423E927A2EE3A956"
+			tasks: [{
+				id: "419403958F14AB71"
+				item: "ae2:creative_energy_cell"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			id: "056D5A2274001900"
+			tasks: [{
+				id: "3BA644F108FC3339"
+				item: "gtceu:nitric_acid_bucket"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"056D5A2274001900"
+				"4D14C432E11EC9AB"
+			]
+			hide_dependent_lines: true
+			id: "668BDF2093A9291B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3C8E473E9E540AD4"
+					table_id: 6225023274141477362L
+					type: "loot"
+				}
+				{
+					id: "37B6B95E9F63ACB8"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				id: "284C18263BB214FF"
+				item: "gtceu:aqua_regia_bucket"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 1.5d
+		}
+		{
+			description: ["你也可以用凋零骷髅头和灵魂沙组装"]
+			id: "631707E722744406"
+			tasks: [{
+				id: "5F92475B90FE1AF2"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 2.0d
+		}
+		{
+			id: "2E910F4C45003592"
+			tasks: [{
+				id: "00BCFB175F3BC87F"
+				item: "gtocore:hv_dehydrator"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			id: "11E1183E0FE07737"
+			tasks: [{
+				id: "1073EC62F6FB1848"
+				item: "gtceu:ev_chemical_bath"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["14D60DF010FF0396"]
+			description: ["去地狱干什么呢，挖点灵魂沙远古残骸"]
+			id: "6C458862EEAB2F03"
+			tasks: [{
+				id: "0D5CEA70737F2D5B"
+				title: "地狱"
+				type: "checkmark"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			id: "4D14C432E11EC9AB"
+			tasks: [{
+				id: "2675ED7FFC241CC6"
+				item: "gtceu:hydrochloric_acid_bucket"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			id: "2FB55033636102A9"
+			tasks: [{
+				id: "75BEB6671092437B"
+				item: "gtceu:sulfuric_acid_bucket"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"056D5A2274001900"
+				"2FB55033636102A9"
+			]
+			id: "7711157A43DC1394"
+			tasks: [{
+				id: "125A41A672E1AF6B"
+				item: "gtceu:nitration_mixture_bucket"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7AEC0D308494C0F8"]
+			id: "79AEF94C9E242133"
+			tasks: [
+				{
+					id: "0FA53A1B35BE795A"
+					item: "kubejs:space_fermium_helmet"
+					type: "item"
+				}
+				{
+					id: "624AF2D64295669D"
+					item: "kubejs:space_fermium_chestplate"
+					type: "item"
+				}
+				{
+					id: "7AD3CF5080452352"
+					item: "kubejs:space_fermium_leggings"
+					type: "item"
+				}
+				{
+					id: "09329A74A89BE20F"
+					item: "kubejs:space_fermium_boots"
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: 0.0d
+		}
+	]
+	subtitle: ["Tier4-EV"]
 	title: "超高压"
 }

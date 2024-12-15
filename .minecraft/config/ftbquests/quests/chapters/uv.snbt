@@ -6,16 +6,640 @@
 	icon: "gtocore:space_elevator"
 	id: "366A2FFB50EF9456"
 	order_index: 10
-	quest_links: [ ]
-	quests: [{
-		id: "1A0CD06EA1895AC7"
-		tasks: [{
-			id: "7E8899FD46897903"
-			item: "gtceu:uv_machine_hull"
-			type: "item"
-		}]
-		x: -1.0d
-		y: 0.0d
-	}]
+	quest_links: [
+		{
+			id: "23C44004B0D7572C"
+			linked_quest: "73C70C42B7EF5D4F"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			id: "3F71D8E597D26019"
+			linked_quest: "7C23CC6ADDC33EA0"
+			shape: "rsquare"
+			size: 2.0d
+			x: 0.0d
+			y: 2.0d
+		}
+	]
+	quests: [
+		{
+			dependencies: [
+				"0A2D46609F5C3CAB"
+				"7C4C11E7C931C01B"
+				"73C70C42B7EF5D4F"
+				"2719D88ECD353F24"
+			]
+			description: [""]
+			id: "6C4F1C87F08F38AC"
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "1A869FB7AB0C0536"
+				item: "gtceu:uv_fusion_reactor"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6C4F1C87F08F38AC"]
+			description: [
+				"UHV的基础材料"
+				"这个需求量很大，制作速度慢"
+			]
+			id: "035C470213E8B4DB"
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "39B8A1A88BE55729"
+				item: "gtceu:neutronium_ingot"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["035C470213E8B4DB"]
+			description: ["更高级的单晶硅"]
+			id: "264EA49453E188C4"
+			tasks: [{
+				id: "0DAE2E307ACAD4E6"
+				item: "gtceu:neutronium_boule"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1223F5F9BF7FF37F"]
+			id: "4D8E0C0295DB26EF"
+			tasks: [{
+				id: "381C8725FC2BBC19"
+				item: "gtceu:highly_advanced_soc"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["24B011E770B7DF3F"]
+			description: ["后面的电路每种都有对应的贴片"]
+			id: "2810CED22A6AD31A"
+			tasks: [
+				{
+					id: "7D4B60D506FF83C0"
+					item: "gtocore:smd_capacitor_bioware"
+					type: "item"
+				}
+				{
+					id: "796C0C67C3F01F7B"
+					item: "gtocore:smd_diode_bioware"
+					type: "item"
+				}
+				{
+					id: "7980D10B3CF288A4"
+					item: "gtocore:smd_resistor_bioware"
+					type: "item"
+				}
+				{
+					id: "36CB0E3E237EC422"
+					item: "gtocore:smd_transistor_bioware"
+					type: "item"
+				}
+				{
+					id: "43093BDBA607AFB5"
+					item: "gtocore:smd_inductor_bioware"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"4D8E0C0295DB26EF"
+				"43A7282802A06626"
+				"4F87B7DA47087F97"
+			]
+			description: ["它使用微型生态系统模拟计算，并将结果转化为综合解决方案。是高速、高吞吐量的计算设备。"]
+			id: "5E7F20C5F8530E1E"
+			tasks: [{
+				id: "2A747FECF6A9366B"
+				item: "gtocore:bioware_processor"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"5E7F20C5F8530E1E"
+				"1385E89DD3FD663B"
+				"53EB6E99F976AF31"
+			]
+			id: "76C32ADCD71DE8B8"
+			tasks: [{
+				id: "3EDE41255F7E04E7"
+				item: "gtocore:bioware_assembly"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["76C32ADCD71DE8B8"]
+			id: "2AA1E574BA4327F8"
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "648367DCA2352C63"
+				item: "gtocore:bioware_computer"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"2AA1E574BA4327F8"
+				"1DFC7DC123A3D830"
+				"09537D159735D297"
+			]
+			id: "7204F1B6BCC74F1C"
+			tasks: [{
+				id: "1E35DC7EF8C5881E"
+				item: "gtocore:bioware_mainframe"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["035C470213E8B4DB"]
+			description: ["UHV超导体"]
+			id: "1DFC7DC123A3D830"
+			tasks: [{
+				id: "396FE1151A63CF4A"
+				item: "gtceu:ruthenium_trinium_americium_neutronate_ingot"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			description: ["聚酰亚胺是一种特种工程材料，广泛应用在航空、航天、微电子、纳米、液晶、分离膜、激光等领域"]
+			icon: "gtceu:polyimide_bucket"
+			id: "24B011E770B7DF3F"
+			tasks: [{
+				id: "62A6274CE1A1FF7A"
+				title: "聚酰亚胺"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["59CA7B4A4A417B53"]
+			hide_dependent_lines: true
+			id: "1FA9E56114BFABF5"
+			tasks: [{
+				id: "6A73DF3A0B7C1184"
+				item: "gtceu:pikyonium_ingot"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["1FA9E56114BFABF5"]
+			id: "53EB6E99F976AF31"
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "2E802CA66A25BB20"
+				item: "gtocore:circuit_assembly_line"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["7204F1B6BCC74F1C"]
+			description: ["使用激光高速冷凝等离子体"]
+			id: "71D029B59C690121"
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "50C209A33583AD73"
+				item: "gtocore:plasma_condenser"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"21CF5BE902E89B8A"
+				"2810CED22A6AD31A"
+				"583079AD88755662"
+			]
+			id: "43A7282802A06626"
+			tasks: [{
+				id: "1763964DDAF2AECC"
+				item: "gtocore:bioware_processing_core"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"2A0269009ABF1414"
+				"64EAB77978C87CE9"
+				"1B548589C6044A63"
+				"1223F5F9BF7FF37F"
+				"333B741B06E49CE8"
+			]
+			id: "21CF5BE902E89B8A"
+			tasks: [{
+				id: "708ED67D28AAA758"
+				item: "gtocore:bioware_boule"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["7A7C73D046390488"]
+			description: ["需要提供算力"]
+			id: "31EDE3D976DE5A33"
+			tasks: [{
+				id: "194425B2D808120E"
+				item: "gtocore:assembler_module"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7A7C73D046390488"]
+			description: ["随着无人机的解锁，你可以跳过各种产线直接获得资源"]
+			id: "7ADB50ACF5AE1D13"
+			tasks: [{
+				id: "53E8538031BAE9E9"
+				item: "gtocore:resource_collection_module"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["31EDE3D976DE5A33"]
+			id: "6D83BAAC7DB34D51"
+			tasks: [{
+				id: "54ED6D9B82E6A10E"
+				item: "gtocore:space_drone_mk1"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7A7C73D046390488"]
+			description: ["去巴纳德C用集气室搜集"]
+			id: "12F8275FC06FCFEE"
+			tasks: [{
+				id: "3B3096FCBB8D2FE6"
+				item: "gtceu:abyssalalloy_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["12F8275FC06FCFEE"]
+			id: "3EA935A712FA0EBE"
+			tasks: [{
+				id: "1D87EC0E1793346B"
+				item: "gtocore:abyssalalloy_coil_block"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"3EA935A712FA0EBE"
+				"0DC5BFACB3D4BC95"
+			]
+			id: "702EFE9BA62A8CDA"
+			tasks: [{
+				id: "3D65AB47A9ADAD4F"
+				item: "gtceu:high_durability_compound_steel_ingot"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"6C4F1C87F08F38AC"
+				"2802E34A99CE1D79"
+			]
+			description: ["新的魔幻金属"]
+			hide_dependent_lines: true
+			id: "776563C5BA327495"
+			tasks: [
+				{
+					id: "55625B7675054641"
+					item: "gtceu:orichalcum_ingot"
+					type: "item"
+				}
+				{
+					id: "09537D159735D297"
+					item: "gtceu:mithril_ingot"
+					type: "item"
+				}
+			]
+			title: "山铜与秘银"
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"7ADB50ACF5AE1D13"
+				"6D83BAAC7DB34D51"
+			]
+			description: ["外星生命"]
+			id: "1B548589C6044A63"
+			tasks: [{
+				id: "74AD31D4642ED7CF"
+				item: "gtocore:tcetieseaweedextract"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"1FA9E56114BFABF5"
+				"2802E34A99CE1D79"
+			]
+			description: ["这是T8火箭，解锁巴纳德C"]
+			id: "7A7C73D046390488"
+			rewards: [
+				{
+					id: "680C703A77E766E4"
+					item: "avaritia:infinity_helmet"
+					type: "item"
+				}
+				{
+					id: "253A05AC70840061"
+					item: "avaritia:infinity_chestplate"
+					type: "item"
+				}
+				{
+					id: "377492F72A4F19D0"
+					item: "avaritia:infinity_pants"
+					type: "item"
+				}
+				{
+					id: "50FC070B92E66FE7"
+					item: "avaritia:infinity_boots"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "2E049D2A5A1162D8"
+				item: "gtocore:space_elevator"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"051792ED136C96D0"
+				"4A058FA1859A00D1"
+			]
+			description: ["和湿件很像"]
+			id: "583079AD88755662"
+			tasks: [{
+				id: "6B65C07BCA6CC667"
+				item: "gtocore:bioware_printed_circuit_board"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["264EA49453E188C4"]
+			id: "1223F5F9BF7FF37F"
+			tasks: [{
+				id: "3DA4F596F8B93303"
+				item: "gtceu:neutronium_wafer"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1DFC7DC123A3D830"]
+			id: "41C7A298C421C65D"
+			tasks: [{
+				id: "113219BE64EFCAB0"
+				item: "gtceu:mega_blast_furnace"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1DFC7DC123A3D830"]
+			id: "4500AC22EE5C09F0"
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				id: "1B9D3E6BA58D1E74"
+				item: "gtceu:mega_vacuum_freezer"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"237F6A0B77986D56"
+				"41C7A298C421C65D"
+				"7204F1B6BCC74F1C"
+			]
+			description: ["有些贵，但能用激光"]
+			id: "1FCD63F77E978107"
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				id: "67242CD537B6FEC1"
+				item: "gtocore:super_blast_smelter"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1DFC7DC123A3D830"]
+			id: "237F6A0B77986D56"
+			tasks: [{
+				id: "2E4DE5399833ED46"
+				item: "gtocore:mega_alloy_blast_smelter"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6D83BAAC7DB34D51"]
+			description: [
+				"未知的液体，可以培养出新生命"
+				"也可以选择去巴纳德C开采"
+			]
+			icon: "gtceu:unknowwater_bucket"
+			id: "333B741B06E49CE8"
+			tasks: [{
+				id: "51F32C7FCCFA73A7"
+				title: "不明液体"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7C23CC6ADDC33EA0"]
+			id: "2719D88ECD353F24"
+			tasks: [{
+				id: "6BA667DA94DDC286"
+				item: "gtceu:uv_energy_input_hatch"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"2802E34A99CE1D79"
+				"035C470213E8B4DB"
+			]
+			id: "24585C3114095227"
+			tasks: [{
+				id: "65B817A00EF55E55"
+				item: "gtocore:pellet_antimatter"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["035C470213E8B4DB"]
+			id: "07A5A5AD37710056"
+			tasks: [{
+				id: "7039AA556E4A462A"
+				item: "gtocore:gravity_hatch"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["035C470213E8B4DB"]
+			id: "7597D3F42E7E8515"
+			tasks: [{
+				id: "3141E059533F43EE"
+				item: "gtocore:infinity_fluid_drilling_rig"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"02F523E003E1C93D"
+				"035C470213E8B4DB"
+			]
+			description: ["优化你的产线"]
+			id: "16C93F76F74CB8DB"
+			tasks: [{
+				id: "7007F62D44E4FDA8"
+				item: "gtocore:nanites_integrated_processing_center"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"0A2D46609F5C3CAB"
+				"4F87B7DA47087F97"
+			]
+			description: ["电解机、电磁选矿机和两极磁化机的激光版本"]
+			id: "3565D2D5E0A2CEDF"
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				id: "30D756E7388280AB"
+				item: "gtocore:superconducting_electromagnetism"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["0A2D46609F5C3CAB"]
+			description: ["后面的电路装配线要使用"]
+			id: "1385E89DD3FD663B"
+			tasks: [{
+				id: "68A5969FB9056BA3"
+				item: "gtocore:precision_circuit_assembly_robot_mk1"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 12.0d
+		}
+		{
+			id: "4F87B7DA47087F97"
+			tasks: [{
+				id: "5AD3E4D68E41CC30"
+				item: "gtceu:mutated_living_solder_bucket"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["7C23CC6ADDC33EA0"]
+			description: ["大硅岩~~狠狠发电~~"]
+			id: "09E013C97E05C052"
+			tasks: [{
+				id: "6D5ADEFDD6695856"
+				item: "gtocore:large_naquadah_reactor"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7204F1B6BCC74F1C"]
+			id: "08AE0A1611F218F7"
+			tasks: [{
+				id: "0E400941044F8EC7"
+				item: "gtocore:component_assembly_line"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 6.0d
+		}
+	]
+	subtitle: ["Tier8-UV"]
 	title: "极限压"
 }

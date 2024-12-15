@@ -6,16 +6,327 @@
 	icon: "gtocore:create_aggregation"
 	id: "390F373F0824A54C"
 	order_index: 16
-	quest_links: [ ]
-	quests: [{
-		id: "7A63A4571EE76F73"
-		tasks: [{
-			id: "0746569C4152293A"
-			item: "gtceu:max_machine_hull"
-			type: "item"
-		}]
-		x: -1.5d
-		y: -0.5d
+	quest_links: [{
+		id: "2B20C263CB41DBAD"
+		linked_quest: "296DE95F3BE7DC54"
+		x: -1.0d
+		y: 2.5d
 	}]
+	quests: [
+		{
+			dependencies: ["48925ECBCC5D268D"]
+			description: ["借助了命令方块的力量"]
+			id: "67A81E3F7E247521"
+			tasks: [
+				{
+					id: "15D75BB0BB713D68"
+					item: {
+						Count: 1
+						id: "kubejs:magneto_hydro_dynamically_con_strained_star_matter_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "052DD5E4314038CA"
+					item: {
+						Count: 1
+						id: "kubejs:magneto_hydro_dynamically_con_strained_star_matter_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "414803F9595967FD"
+					item: {
+						Count: 1
+						id: "kubejs:magneto_hydro_dynamically_con_strained_star_matter_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "633F0A3296C38CD5"
+					item: {
+						Count: 1
+						id: "kubejs:magneto_hydro_dynamically_con_strained_star_matter_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["67A81E3F7E247521"]
+			description: ["未知之地"]
+			id: "1416EAE88C9030C8"
+			tasks: [{
+				dimension: "gtocore:create"
+				id: "533527A60F7C2024"
+				type: "dimension"
+			}]
+			x: 7.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["296DE95F3BE7DC54"]
+			description: ["交易获得的物品，但不知道如何使用"]
+			id: "470DDCCD8E017A4F"
+			tasks: [{
+				id: "6C1581BB60019E84"
+				item: "minecraft:command_block"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1416EAE88C9030C8"]
+			description: ["包含多维空间的所有能量"]
+			id: "5AFEAD001EDA612D"
+			tasks: [{
+				id: "318A4B7F9925680F"
+				item: "gtocore:create_ultimate_battery"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"0BF48314F3323108"
+				"38FFB6D2003C7EB4"
+			]
+			description: ["二维展开"]
+			id: "1EB9F1815EB656B0"
+			tasks: [{
+				id: "453883277EF4A1B6"
+				item: "gtocore:two_way_foil"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"470DDCCD8E017A4F"
+				"1EB9F1815EB656B0"
+			]
+			description: ["打开命令方块后获得的物品"]
+			id: "48925ECBCC5D268D"
+			tasks: [{
+				id: "3DFC2C88970DA844"
+				item: "gtocore:command_block_core"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["48925ECBCC5D268D"]
+			description: [
+				"你可以放下和打破命令方块了，但还是不知道如何使用"
+				"只能放置在稳定核心上方"
+			]
+			id: "34DB07A64CD1439C"
+			tasks: [{
+				id: "7BD60E6DCA58004A"
+				item: "gtocore:command_wand"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["48925ECBCC5D268D"]
+			id: "338F629A694C7556"
+			tasks: [{
+				id: "16C8AA0E8A7E6784"
+				item: "gtocore:create_casing"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["338F629A694C7556"]
+			id: "7C4AD33299386B47"
+			tasks: [{
+				id: "29CE180A8857179D"
+				item: "gtocore:gravitation_shockburst"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7C4AD33299386B47"]
+			id: "4C37CB772835CFD0"
+			tasks: [{
+				id: "3456609519072452"
+				item: "gtocore:command_block_broken"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["48925ECBCC5D268D"]
+			id: "30907D7231913ACB"
+			tasks: [{
+				id: "46A19A3E3D3CF4A9"
+				item: "gtocore:create_computation"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["30907D7231913ACB"]
+			id: "429AEBE4BF55B1FF"
+			tasks: [{
+				id: "77BD91BF9EFBE178"
+				item: "gtocore:chain_command_block_core"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"429AEBE4BF55B1FF"
+				"338F629A694C7556"
+			]
+			description: [
+				"耗能固定为4A MAX"
+				"核心放入输入总线，方块放机器正中间"
+			]
+			id: "2F9392EF05DB11EF"
+			tasks: [{
+				id: "7AB830407E68C7F1"
+				item: "gtocore:create_aggregation"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"2F9392EF05DB11EF"
+				"4C37CB772835CFD0"
+			]
+			description: ["使用命令权杖潜行右键来打破"]
+			id: "2D1F2793A396B322"
+			tasks: [{
+				id: "4C7140E1B28862FE"
+				item: "minecraft:chain_command_block"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["429AEBE4BF55B1FF"]
+			id: "5BA55D56C47EA2C4"
+			tasks: [{
+				id: "3C8BF60743D0FB97"
+				item: "gtocore:repeating_command_block_core"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"5BA55D56C47EA2C4"
+				"435394EAA6536AA9"
+			]
+			id: "75CE99CD1614FB64"
+			tasks: [{
+				id: "065BE74992505A08"
+				item: "minecraft:repeating_command_block"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2D1F2793A396B322"]
+			id: "435394EAA6536AA9"
+			tasks: [{
+				id: "5321FDC4FAA49862"
+				item: "gtocore:chain_command_block_broken"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5AFEAD001EDA612D"]
+			id: "2A19E7C6DC247B90"
+			tasks: [{
+				id: "00F2D831815D719F"
+				item: "gtocore:chaotic_energy_core"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["75CE99CD1614FB64"]
+			id: "31B4B834D5DD87DB"
+			tasks: [{
+				id: "6D68D65E443AE5FE"
+				item: "gtceu:creative_data_access_hatch"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"2A19E7C6DC247B90"
+				"2D1F2793A396B322"
+			]
+			id: "5F145D9019C4BC48"
+			tasks: [{
+				id: "02CCDE9B8302A71A"
+				item: "gtmthings:creative_laser_hatch"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"5F145D9019C4BC48"
+				"31B4B834D5DD87DB"
+			]
+			id: "2C8028746220AEBA"
+			rewards: [{
+				id: "7DC22D8C70A5FD74"
+				item: "minecraft:grass"
+				type: "item"
+			}]
+			tasks: [{
+				id: "51FC498DB7A8FE4B"
+				title: "未完待续"
+				type: "checkmark"
+			}]
+			x: 15.0d
+			y: 2.5d
+		}
+	]
+	subtitle: ["Tier14-MAX"]
 	title: "上限压"
 }

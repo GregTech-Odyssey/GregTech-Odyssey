@@ -7,19 +7,872 @@
 	id: "7C6B0DA4DF5D00E3"
 	order_index: 4
 	quest_links: [ ]
-	quests: [{
-		dependencies: [
-			"68EFF1609132BDD4"
-			"2D5A5D2DE390665C"
-		]
-		id: "037EDA97744A909E"
-		tasks: [{
-			id: "2654D1A389BD5943"
-			item: "gtceu:mv_machine_hull"
-			type: "item"
-		}]
-		x: 0.0d
-		y: 0.5d
-	}]
+	quests: [
+		{
+			dependencies: ["4D1BC2AB844CC2AA"]
+			id: "7296C57805F5DC96"
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "0A5103D6EA070927"
+				title: "中压MV"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["17E9AB180BA36353"]
+			id: "2C75EB0628CB491A"
+			rewards: [{
+				id: "0164BB31168BC82E"
+				item: "gtceu:platinum_credit"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "04521EB6735C042B"
+				item: "gtceu:hv_machine_hull"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"27C18D37D5E19043"
+				"56EA21AD61D2ACB1"
+			]
+			id: "17E9AB180BA36353"
+			rewards: [{
+				id: "3A4DBEDE4E62E01E"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4CD859B6C985E070"
+				item: "gtceu:stainless_steel_ingot"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"59C94B44DB70D37C"
+				"37AFFAE651A5BE21"
+			]
+			id: "56EA21AD61D2ACB1"
+			rewards: [{
+				id: "1A9B0D64B46287AF"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "37F8AFE5ABB2868B"
+				item: "gtceu:mv_energy_input_hatch"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"06B0D98F33A4AEB1"
+				"37E3699028B55610"
+			]
+			id: "27C18D37D5E19043"
+			rewards: [{
+				id: "197A426005CE4E3C"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "09CA8849D3D6202F"
+				item: "gtceu:stainless_steel_dust"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4C2AD408BAB73087"]
+			id: "06B0D98F33A4AEB1"
+			rewards: [{
+				id: "002780B60B282682"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4F19271529F6C575"
+				item: "gtceu:mv_mixer"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["541275BC83188F74"]
+			description: ["铬粉来自与红宝石，锰来自于软锰矿"]
+			id: "37E3699028B55610"
+			rewards: [{
+				id: "7596212455CD444B"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "651E93C39534F75C"
+					item: "gtceu:chromium_dust"
+					type: "item"
+				}
+				{
+					id: "58B258DDDD8C19D0"
+					item: "gtceu:manganese_dust"
+					type: "item"
+				}
+			]
+			title: "铬粉与锰粉"
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["7296C57805F5DC96"]
+			hide_dependent_lines: true
+			id: "4C2AD408BAB73087"
+			rewards: [{
+				id: "669CDB86BAB4E4F6"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "20491923B509B98F"
+					item: "gtceu:mv_electric_motor"
+					type: "item"
+				}
+				{
+					id: "54B208132E12FE5C"
+					item: "gtceu:mv_electric_piston"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "55DB2487A4FD6A0B"
+					item: "gtceu:mv_conveyor_module"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1F2B8D99F937C4C1"
+					item: "gtceu:mv_robot_arm"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "33430709F94AA176"
+					item: "gtceu:mv_electric_pump"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "MV不得不做的五样东西"
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["128671E4DC47EF55"]
+			id: "59C94B44DB70D37C"
+			rewards: [{
+				id: "32DDF5AD9B72B61F"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "53F5F042D84BDAC6"
+				item: "gtceu:mv_voltage_coil"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4691BAFF9456938A"]
+			id: "37AFFAE651A5BE21"
+			rewards: [{
+				id: "2697BD241776F3F1"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5DDAE9B27590BFDB"
+				item: "gtceu:ulpic_chip"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"46035DDD3D8A4966"
+				"535D45580FBDE02B"
+			]
+			id: "4691BAFF9456938A"
+			rewards: [{
+				id: "0225BA7394A8AD51"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3E2E9CEC1EAB4992"
+				item: "gtceu:ulpic_wafer"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"402C76093CA517F1"
+				"1DD87D3E0ABFCEC4"
+			]
+			id: "46035DDD3D8A4966"
+			rewards: [{
+				id: "265E2175643B5E20"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4F9D5F3F34D92B95"
+				item: "gtceu:silicon_wafer"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["541275BC83188F74"]
+			hide_dependency_lines: true
+			id: "402C76093CA517F1"
+			rewards: [{
+				id: "6CEE77032B6230CB"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6FB8A19B895A786C"
+				item: "gtceu:silicon_boule"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"46035DDD3D8A4966"
+				"535D45580FBDE02B"
+			]
+			id: "35687FC065DB2F00"
+			rewards: [{
+				id: "44E37B56496F1319"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0C9BED64B42BA79E"
+					item: "gtceu:ram_wafer"
+					type: "item"
+				}
+				{
+					id: "799EA152067F44B0"
+					item: "gtceu:ilc_wafer"
+					type: "item"
+				}
+			]
+			title: "RAM和ILC晶圆"
+			x: 10.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["35687FC065DB2F00"]
+			id: "124D7427DC8E501E"
+			rewards: [{
+				id: "1827822D8F7BEBCA"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2C511BA0574876A0"
+					item: "gtceu:ilc_chip"
+					type: "item"
+				}
+				{
+					id: "11CA952AD79E6CC3"
+					item: "gtceu:ram_chip"
+					type: "item"
+				}
+			]
+			title: "RAM和IC芯片"
+			x: 10.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4C2AD408BAB73087"]
+			id: "128671E4DC47EF55"
+			tasks: [{
+				id: "3A330A7C83F4A2CC"
+				item: "gtceu:mv_assembler"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["79382D841C3CEB78"]
+			id: "1DD87D3E0ABFCEC4"
+			rewards: [{
+				id: "2250BC3A1CD8389B"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "72F47377801EA0AB"
+				item: "gtceu:mv_cutter"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5F77B034EC3FA6D3"]
+			id: "79382D841C3CEB78"
+			rewards: [{
+				id: "6F011ED17D7051E1"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "474DC2227C435ACF"
+				item: "gtceu:vanadium_steel_ingot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["750D2CE269C7068D"]
+			id: "535D45580FBDE02B"
+			rewards: [{
+				id: "7718318270416295"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "22033355187C3C14"
+				item: "gtceu:mv_laser_engraver"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3B47FC6D8D2065F3"]
+			id: "750D2CE269C7068D"
+			rewards: [{
+				id: "03CF145F01AD9B42"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3D0F94AA32BBFDC8"
+					item: "gtceu:mv_sensor"
+					type: "item"
+				}
+				{
+					id: "5D3A6DCBFD624AD2"
+					item: "gtceu:mv_emitter"
+					type: "item"
+				}
+			]
+			title: "传感器与发射器"
+			x: 10.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["1F2E7A99C7F1E199"]
+			id: "3B47FC6D8D2065F3"
+			rewards: [{
+				id: "62695C43C2C4F027"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1DE93ED869CB2A25"
+				item: "gtceu:flawless_emerald_gem"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["4C2AD408BAB73087"]
+			id: "1F2E7A99C7F1E199"
+			rewards: [{
+				id: "646ACFFBDD0D76D5"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "57D7EE4152E1B3F5"
+				item: "gtceu:mv_sifter"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["4C2AD408BAB73087"]
+			description: ["大部分的矿物在MV都可以进行电解，通过电解粘土粉获得铝粉和硅粉"]
+			id: "541275BC83188F74"
+			rewards: [{
+				id: "26F6385F02461E66"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "56F6B38403F40E3F"
+				item: "gtceu:mv_electrolyzer"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["06B0D98F33A4AEB1"]
+			id: "5F77B034EC3FA6D3"
+			rewards: [{
+				id: "7951D7376F89BAF0"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "16ED60A2F8082F61"
+				item: "gtceu:vanadium_steel_dust"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"554D9DF1365F857C"
+				"55AB003495D2CCE9"
+			]
+			description: ["第3台电路组装，继续铭刻"]
+			id: "66DC60EABAAE0619"
+			rewards: [{
+				id: "244FAF6A2D2B4398"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "43981A0E5471F967"
+				item: "gtceu:advanced_integrated_circuit"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4AEBF1743DC2C92C"]
+			id: "554D9DF1365F857C"
+			rewards: [{
+				id: "520F0A9536AE7438"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "45E791F7E5FFEDB1"
+				item: "gtceu:good_integrated_circuit"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["124D7427DC8E501E"]
+			dependency_requirement: "one_completed"
+			id: "4AEBF1743DC2C92C"
+			rewards: [{
+				id: "1EE37E574D37B9A1"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "47C4401B5934BEA4"
+				item: "gtceu:basic_integrated_circuit"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1648F829649D4300"]
+			id: "55AB003495D2CCE9"
+			rewards: [{
+				id: "5CABF4A4FC60EA72"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "63ADA10902E04916"
+				item: "gtceu:transistor"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["58B03CD99B6C3A8B"]
+			description: ["用水给热锭降温"]
+			id: "65B89B0B9AEFDE00"
+			rewards: [{
+				id: "4F6074DD52C4EF52"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "54BF488BF5529328"
+				item: "gtceu:mv_chemical_bath"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["06B0D98F33A4AEB1"]
+			id: "58B03CD99B6C3A8B"
+			rewards: [{
+				id: "003053A8F6AF6EDD"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3864E2C8C6EACDB1"
+				item: "gtceu:kanthal_dust"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["65B89B0B9AEFDE00"]
+			id: "3E2F61B1A26AD378"
+			rewards: [{
+				id: "4C5A07460B528E86"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "26BC0F11B36A6722"
+				item: "gtceu:kanthal_ingot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3E2F61B1A26AD378"]
+			id: "79AE49C5DE7900FF"
+			rewards: [{
+				id: "14D7A9D5021B36AB"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "7DEB147BF481A274"
+				item: "gtceu:kanthal_coil_block"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["79AE49C5DE7900FF"]
+			id: "1648F829649D4300"
+			rewards: [{
+				id: "1F448D23874F2FE8"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "720C914C91C6C7A5"
+				item: "gtceu:silicon_ingot"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7296C57805F5DC96"]
+			description: ["生化线的起点"]
+			hide_dependency_lines: true
+			id: "66060C8BB69F1AD9"
+			rewards: [{
+				id: "59A610D0DBED02E1"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "653A8C3A0132C035"
+				item: "gtocore:greenhouse"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["7296C57805F5DC96"]
+			description: ["生化线还有一些杂七杂八的东西"]
+			hide_dependency_lines: true
+			id: "06D1ABE453F52DF1"
+			rewards: [{
+				id: "0FB4E8525644D620"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3F82567D39D93499"
+				item: "gtceu:pyrolyse_oven"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["128671E4DC47EF55"]
+			description: ["利用这个东西从虚空流体矿脉中采流体"]
+			hide_dependency_lines: true
+			id: "4AF1D57BE5C49B3E"
+			rewards: [{
+				id: "2AA29207574FB5C1"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "30E289B545587E51"
+				item: "gtceu:mv_fluid_drilling_rig"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["128671E4DC47EF55"]
+			description: [
+				"高效的生产机器，放入小机器就可以运行对应配方"
+				"配方等级计算与其他多方块一样"
+			]
+			hide_dependency_lines: true
+			id: "2F5CB842110A5DB2"
+			rewards: [{
+				id: "72C938CBB89284AC"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "7390800A5A8E273A"
+				item: "gtocore:processing_plant"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7296C57805F5DC96"]
+			description: [
+				"必备"
+				"搭配通用厂使用（请打开总线隔离）"
+			]
+			hide_dependency_lines: true
+			id: "6B09F1B78A5FCF7D"
+			rewards: [{
+				id: "53478885AF4B4433"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "22DE2B728BF46F3E"
+				item: "gtceu:mv_extruder"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"79AE49C5DE7900FF"
+				"56EA21AD61D2ACB1"
+			]
+			description: ["蚀刻产量是普通单晶硅的4倍，有了HV激光蚀刻机后才能使用"]
+			hide_dependency_lines: true
+			id: "506DFA831FEBD175"
+			rewards: [{
+				id: "12D42A6709F71234"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "00F2B98E327F18B6"
+				item: "gtceu:phosphorus_boule"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["56EA21AD61D2ACB1"]
+			description: [
+				"2个普通能源仓有4A功率，但会将配方等级提升，从而导致如通用工厂机器需要更高的条件来运行，"
+				"但如果只放一个4A能源仓，那么机器将只会提升功率而不提升配方等级，可以让通用工厂用MV机器跑出HV的速度，如果你放2个4A，那么机器也会提升配方等级，和普通的相比多了1倍功率，这不会带来超频效果，但是如果机器可以并行，那么将会比普通仓获得更多并行"
+			]
+			hide_dependency_lines: true
+			id: "58723DA3E76316E6"
+			rewards: [{
+				id: "6DA6F56950BF9713"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "71B4A10905B2A6BA"
+				item: "gtocore:mv_energy_input_hatch_4a"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["58723DA3E76316E6"]
+			description: ["正如4A的特性，这个可以让你用MV小机器使用EV级功率"]
+			id: "2C27BE2FD2AA1ACA"
+			rewards: [{
+				id: "01C3F65E1CDFAFCF"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1478049EA53577F1"
+				item: "gtocore:mv_energy_input_hatch_16a"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["7296C57805F5DC96"]
+			id: "13B7ED783EFDB8CB"
+			rewards: [{
+				id: "3BD014F27E6FD860"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7DA67D952D5C9607"
+				item: "enderio:energetic_alloy_ingot"
+				type: "item"
+			}]
+			title: "MV的便宜超导"
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["66DC60EABAAE0619"]
+			description: ["用于后续电路制作，并解锁更便宜电路"]
+			id: "3ED55B31EAE8EC1E"
+			tasks: [{
+				id: "3824D8A54883C5BD"
+				item: "gtceu:mv_circuit_assembler"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3ED55B31EAE8EC1E"]
+			description: ["更加便宜的基础电路"]
+			id: "224989EB21C4663A"
+			tasks: [
+				{
+					id: "5D032517366434AF"
+					item: "gtceu:nand_chip"
+					type: "item"
+				}
+				{
+					id: "23F88BCC009EEF22"
+					item: "gtceu:microchip_processor"
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["128671E4DC47EF55"]
+			id: "033DE57F0D91698C"
+			optional: true
+			tasks: [{
+				id: "139820782C4C2E96"
+				item: "ae2:blank_pattern"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["128671E4DC47EF55"]
+			id: "067B0F1DDF78E699"
+			rewards: [{
+				id: "5F4427BCB2185E33"
+				item: {
+					Count: 1
+					id: "gtceu:prospector.hv"
+					tag: {
+						Charge: 1600000L
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "687887CBAFD684BB"
+				item: "gtceu:mv_bedrock_ore_miner"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["033DE57F0D91698C"]
+			id: "270E9AB8AFD6729B"
+			tasks: [{
+				id: "034BCF2E30F0B47F"
+				item: {
+					Count: 1
+					id: "gtocore:virtual_item_provider"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 11.5d
+		}
+	]
+	subtitle: ["Tier2-MV"]
 	title: "中压"
 }

@@ -6,12 +6,7 @@
 	icon: "gtceu:electric_blast_furnace"
 	id: "4015C56C0D562D25"
 	order_index: 3
-	quest_links: [{
-		id: "1F2F99B69512E05E"
-		linked_quest: "037EDA97744A909E"
-		x: 3.5d
-		y: 1.0d
-	}]
+	quest_links: [ ]
 	quests: [
 		{
 			dependencies: [
@@ -411,6 +406,90 @@
 			}]
 			x: 1.5d
 			y: 0.0d
+		}
+		{
+			dependencies: ["29896685477AA469"]
+			description: ["仅前期使用，产出的资源在后面都有高效的替代方法"]
+			id: "509DE5B500CC1C0B"
+			tasks: [{
+				id: "027E38A4FA80EC88"
+				item: "gtocore:slaughterhouse"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["23676FA19C92EE5E"]
+			id: "29896685477AA469"
+			tasks: [{
+				id: "3604117704374463"
+				item: "gtceu:lv_field_generator"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["06534664971F6E68"]
+			id: "23676FA19C92EE5E"
+			rewards: [{
+				count: 4
+				id: "48C02A5C0A817973"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7BB25CE809198F09"
+				item: "gtceu:manganese_phosphide_ingot"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["33B01E889EE7E990"]
+			id: "4C535A516D8551F5"
+			tasks: [{
+				id: "47984D9F50F2EB59"
+				item: "gtocore:large_steam_storage_tank"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6AB9089FDE595716"]
+			description: ["这个是lv阶段的超导材料"]
+			hide_dependency_lines: true
+			id: "0DF27446EE5DB28F"
+			rewards: [{
+				id: "25DC2A5FCC2F640F"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "275918DEA077C630"
+				item: "enderio:conductive_alloy_ingot"
+				type: "item"
+			}]
+			title: "LV超导"
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"68EFF1609132BDD4"
+				"2D5A5D2DE390665C"
+			]
+			id: "4D1BC2AB844CC2AA"
+			tasks: [{
+				id: "4CB76F9A7E0EEFA8"
+				item: "gtceu:mv_machine_hull"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.0d
 		}
 	]
 	title: "低压"

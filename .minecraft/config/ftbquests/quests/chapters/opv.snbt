@@ -6,16 +6,359 @@
 	icon: "gtocore:eye_of_harmony"
 	id: "3DFCE3F1A26BC0A8"
 	order_index: 15
-	quest_links: [ ]
-	quests: [{
-		id: "414BDE8728E3CE36"
-		tasks: [{
-			id: "2316350A777AF486"
-			item: "gtceu:opv_machine_hull"
-			type: "item"
-		}]
-		x: -0.5d
-		y: 0.0d
+	quest_links: [{
+		id: "14F40CE0FBA07270"
+		linked_quest: "00A227F06D7F109E"
+		x: -5.0d
+		y: -5.0d
 	}]
+	quests: [
+		{
+			dependencies: [
+				"6EEB0B79543E2948"
+				"0BF48314F3323108"
+				"32186EFF7020D432"
+			]
+			id: "3E5EBC2B23A503C1"
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "75AE43EB6B5AC68F"
+				item: "gtocore:eye_of_harmony"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3E5EBC2B23A503C1"]
+			icon: "gtceu:spacetime_bucket"
+			id: "365548266DF60F91"
+			tasks: [{
+				id: "60B2586AFFEC5E77"
+				title: "时空"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"365548266DF60F91"
+				"77A53FAAC098F859"
+			]
+			id: "45C3486A3F0EE7FB"
+			tasks: [{
+				id: "5B7BBBB311822D83"
+				item: "gtocore:spacetime_catalyst"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3E5EBC2B23A503C1"]
+			icon: "gtceu:raw_star_matter_plasma_bucket"
+			id: "165C5D3656C33A89"
+			tasks: [{
+				id: "36EAA11DF2D78C96"
+				title: "恒星物质"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"365548266DF60F91"
+				"45C3486A3F0EE7FB"
+				"11A7CCFCEAB722F3"
+			]
+			id: "63998161D9D731E7"
+			tasks: [{
+				id: "21C930811EE5218B"
+				item: "gtceu:transcendent_metal_ingot"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"2880531AF7540B24"
+				"5A61ABB6E4917C6C"
+			]
+			id: "11A7CCFCEAB722F3"
+			tasks: [{
+				id: "3DCC1C5866480D9F"
+				item: "gtocore:hypercube"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"74D84A4928FA0A35"
+				"5A61ABB6E4917C6C"
+			]
+			description: ["这样的外观阻力更小，因其内部可以存储大量能量，所以设可以计成这样，无需太阳帆"]
+			id: "77CADF4536151255"
+			tasks: [{
+				id: "53C4E2DE954FFFFC"
+				item: "gtocore:space_probe_mk3"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"63998161D9D731E7"
+				"67EF7F1C6AE2A6C9"
+			]
+			id: "736395E39993F727"
+			tasks: [{
+				id: "7268B313B5D29DE8"
+				item: "gtocore:hyperdimensional_drone"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["736395E39993F727"]
+			description: ["可大批量生产"]
+			id: "414F9C645C799FAE"
+			tasks: [{
+				id: "1F4CE7BD2782BBA9"
+				item: "gtocore:suprachronal_circuit_max"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"5A6EA61F3E61D086"
+				"2A29DA4239E6BA44"
+				"3FBFE193579C28E3"
+			]
+			id: "0A6C5B3C148A5743"
+			tasks: [{
+				id: "702BFEED1422D1D6"
+				item: "avaritia:eternal_singularity"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"0A6C5B3C148A5743"
+				"622395061792FB5E"
+			]
+			id: "04420B8E0278D7AD"
+			tasks: [{
+				id: "3E9CC39D122292BB"
+				item: "gtceu:eternity_ingot"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"04420B8E0278D7AD"
+				"45C3486A3F0EE7FB"
+			]
+			id: "2AFCDC0CA3205903"
+			tasks: [{
+				id: "470C4F62160DE7DA"
+				item: "gtocore:eternity_catalyst"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["00A227F06D7F109E"]
+			id: "622395061792FB5E"
+			tasks: [{
+				id: "049F132CCC5B262C"
+				item: "gtocore:infinity_coil_block"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["30AEBB08CE6C88BA"]
+			id: "2C3C46AC660CC54E"
+			tasks: [{
+				id: "6FB785AF530B06F6"
+				item: "gtocore:suprachronal_mainframe_complex"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2AFCDC0CA3205903"]
+			icon: "gtceu:magneto_hydro_dynamically_con_strained_star_matter_bucket"
+			id: "30AEBB08CE6C88BA"
+			tasks: [{
+				id: "51AE436C94A547DC"
+				title: "磁流体约束恒星物质"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["11A7CCFCEAB722F3"]
+			description: ["可以把你的最高级别激光仓填满"]
+			id: "0610CD9378D8B0AD"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "50D76B27937DC429"
+				item: "gtocore:annihilate_generator"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["63998161D9D731E7"]
+			hide_dependency_lines: false
+			id: "5A6EA61F3E61D086"
+			shape: "gear"
+			tasks: [{
+				id: "6DA1FC65BA6A379B"
+				item: "gtocore:max_neutron_compressor"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"2C3C46AC660CC54E"
+				"3F2335911E21E042"
+				"51D5E14423F35E6F"
+			]
+			description: ["耗能固定为4A MAX"]
+			id: "296DE95F3BE7DC54"
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "68BE29A496275699"
+				item: "gtocore:door_of_create"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["414F9C645C799FAE"]
+			description: ["你也可以不用这个电路"]
+			id: "3F2335911E21E042"
+			tasks: [{
+				id: "331D93B6C432E57A"
+				item: "gtocore:dimension_creation_casing"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"437E5E4108228333"
+				"74186877DB7DBE4D"
+			]
+			id: "57B09C66B637C894"
+			tasks: [{
+				id: "3AE47388659309DE"
+				item: "gtocore:chaos_shard"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["57B09C66B637C894"]
+			id: "0BF48314F3323108"
+			tasks: [{
+				id: "30E236F44664C3D0"
+				item: "gtceu:chaos_ingot"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["77CADF4536151255"]
+			icon: "gtceu:cosmic_element_bucket"
+			id: "6EEB0B79543E2948"
+			tasks: [{
+				id: "35F42293D17D0715"
+				title: "宇宙素"
+				type: "checkmark"
+			}]
+			x: -11.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"365548266DF60F91"
+				"165C5D3656C33A89"
+			]
+			icon: "gtceu:primordialmatter_bucket"
+			id: "34609EBF66099F47"
+			tasks: [{
+				id: "7BDA9A31E7DB3847"
+				title: "流体本源物质"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["165C5D3656C33A89"]
+			id: "3FBFE193579C28E3"
+			tasks: [{
+				id: "2F40321BC69FDF56"
+				item: "gtceu:dimensionallytranscendentstellarcatalyst_bucket"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["32186EFF7020D432"]
+			description: ["非常的贵"]
+			id: "67EF7F1C6AE2A6C9"
+			tasks: [{
+				id: "0E0235D9CF0EAA5F"
+				item: "gtocore:draconic_energy_core"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["30AEBB08CE6C88BA"]
+			id: "51D5E14423F35E6F"
+			tasks: [{
+				id: "3A41AFEDD43994E6"
+				item: "gtceu:cosmic_ingot"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+	]
+	subtitle: ["Tier13-OpV"]
 	title: "过载压"
 }

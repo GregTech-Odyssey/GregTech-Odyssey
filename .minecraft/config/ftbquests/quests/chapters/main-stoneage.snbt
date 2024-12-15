@@ -1,10 +1,9 @@
 {
-	always_invisible: true
 	autofocus_id: "3BC9246D8FD4B649"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "main-stoneage"
-	group: "54AAB0D04131CFAA"
+	group: "2A1218851E38A2EE"
 	icon: "minecraft:grass_block"
 	id: "2F98FBAEECC4F940"
 	order_index: 0
@@ -26,20 +25,12 @@
 			icon: "minecraft:grass_block"
 			id: "3BC9246D8FD4B649"
 			rewards: [{
-				id: "1376CEF60AD57267"
+				id: "4E02802C52E67903"
 				item: {
 					Count: 1
-					id: "gtceu:ultimet_shovel"
+					id: "minecraft:stone_shovel"
 					tag: {
-						DisallowContainerItem: 0b
-						GT.Behaviours: { }
-						GT.Tool: {
-							Damage: 0
-							HarvestLevel: 4
-							MaxDamage: 2047
-							ToolSpeed: 14.0f
-						}
-						HideFlags: 2
+						Damage: 0
 					}
 				}
 				type: "item"
@@ -99,7 +90,7 @@
 				title: "关于内容"
 				type: "checkmark"
 			}]
-			x: -6.75d
+			x: -5.25d
 			y: -3.0d
 		}
 		{
@@ -127,7 +118,7 @@
 				title: "EMI小课堂"
 				type: "checkmark"
 			}]
-			x: -6.5d
+			x: -5.25d
 			y: 3.0d
 		}
 		{
@@ -143,8 +134,6 @@
 				"按住～键可以启用连锁"
 				"默认TAB键快速打开任务"
 				"更详细的提示可在&b&l提示章节&r查看"
-				"默认关闭了飞行惯性，可在GT配置-游戏玩法找到"
-				"用shift+X来重置飞行速度"
 			]
 			id: "3AC0703D45900817"
 			rewards: [{
@@ -195,7 +184,7 @@
 				type: "item"
 			}]
 			title: "淘金客"
-			x: 3.0d
+			x: 0.75d
 			y: 0.0d
 		}
 		{
@@ -219,26 +208,8 @@
 			}
 			id: "43D37FAEE15EE972"
 			rewards: [{
-				id: "069F1A91D7379780"
-				item: {
-					Count: 1
-					id: "gtceu:flint_knife"
-					tag: {
-						DisallowContainerItem: 0b
-						Enchantments: [{
-							id: "minecraft:fire_aspect"
-							lvl: 2s
-						}]
-						GT.Behaviours: { }
-						GT.Tool: {
-							AttackDamage: 1.0f
-							AttackSpeed: 3.0f
-							Damage: 0
-							MaxDamage: 63
-						}
-						HideFlags: 2
-					}
-				}
+				id: "75FF3B8B0F890C84"
+				item: "minecraft:bread"
 				type: "item"
 			}]
 			size: 1.0d
@@ -248,8 +219,8 @@
 				type: "checkmark"
 			}]
 			title: "我的工具呢？"
-			x: 0.0d
-			y: -1.5d
+			x: -0.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["00FC570B313227A1"]
@@ -281,7 +252,7 @@
 				weak_nbt_match: true
 			}]
 			title: "想致富，先撸树！"
-			x: 6.0d
+			x: 3.0d
 			y: 0.0d
 		}
 		{
@@ -316,8 +287,8 @@
 				}
 			]
 			title: "沾花惹草"
-			x: 7.5d
-			y: -3.0d
+			x: 4.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["7D6FCF32575CB7DA"]
@@ -392,8 +363,8 @@
 				}
 			]
 			title: "吃饱饭才有动力"
-			x: 7.5d
-			y: 3.0d
+			x: 4.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["7D6FCF32575CB7DA"]
@@ -410,13 +381,13 @@
 			subtitle: "岷叔最不喜欢的一集"
 			tasks: [{
 				count: 16L
-				id: "25E5CEE949B9EC7A"
-				item: "minecraft:beef"
+				id: "63FE2FB46A81B5C5"
+				item: "minecraft:leather"
 				type: "item"
 			}]
 			title: "至于动物？我祝他们一切安好"
-			x: 4.5d
-			y: 3.0d
+			x: 1.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["7D6FCF32575CB7DA"]
@@ -424,23 +395,12 @@
 			id: "3CF903DBC993F284"
 			invisible: true
 			rewards: [{
-				id: "606D21EC577CFC41"
+				id: "0FD5C706556792C2"
 				item: {
 					Count: 1
-					id: "gtceu:diamond_axe"
+					id: "minecraft:iron_axe"
 					tag: {
-						DisallowContainerItem: 0b
-						GT.Behaviours: {
-							DisableShields: 1b
-							TreeFelling: 1b
-						}
-						GT.Tool: {
-							Damage: 0
-							HarvestLevel: 3
-							MaxDamage: 767
-							ToolSpeed: 8.0f
-						}
-						HideFlags: 2
+						Damage: 0
 					}
 				}
 				type: "item"
@@ -461,8 +421,8 @@
 				type: "item"
 			}]
 			title: "下班甜点~"
-			x: 4.5d
-			y: -3.0d
+			x: 1.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["7D6FCF32575CB7DA"]
@@ -490,7 +450,7 @@
 				type: "item"
 			}]
 			title: "大人！时代变了！"
-			x: 9.0d
+			x: 6.0d
 			y: 0.0d
 		}
 		{
@@ -507,20 +467,19 @@
 			icon: "sophisticatedbackpacks:backpack"
 			id: "4DC482C16035F261"
 			rewards: [{
-				id: "3E53B62A939B6B6C"
+				id: "34B42898A35F1402"
 				item: "sophisticatedbackpacks:backpack"
 				type: "item"
 			}]
 			subtitle: "容纳万物"
 			tasks: [{
-				count: 128L
-				id: "6269945097D6567E"
-				item: "minecraft:dirt"
+				id: "43315D2EEA370DCC"
+				item: "sophisticatedbackpacks:backpack"
 				type: "item"
 			}]
 			title: "背背背起了行囊"
-			x: 9.0d
-			y: 3.0d
+			x: 6.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["4DC482C16035F261"]
@@ -538,19 +497,17 @@
 			}
 			id: "2403CDCD080D34B1"
 			invisible: true
-			rewards: [
-				{
-					id: "29DBD179D9F536BE"
-					item: "gtceu:prospector.lv"
-					type: "item"
+			rewards: [{
+				id: "6577CF8AF9888CE4"
+				item: {
+					Count: 1
+					id: "gtceu:prospector.lv"
+					tag: {
+						Charge: 100000L
+					}
 				}
-				{
-					count: 9
-					id: "0BAE7E8F346FD37D"
-					item: "minecraft:furnace"
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			size: 1.0d
 			subtitle: "这里是彩蛋"
 			tasks: [{
@@ -560,8 +517,8 @@
 				type: "item"
 			}]
 			title: "挖穿地心！"
-			x: 9.0d
-			y: 6.0d
+			x: 6.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["45C8A2DF9C0E5473"]
@@ -586,8 +543,8 @@
 				type: "item"
 			}]
 			title: "洞穴毁灭者"
-			x: 9.0d
-			y: -3.0d
+			x: 7.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["561D79DE960A034D"]
@@ -652,7 +609,7 @@
 				type: "checkmark"
 			}]
 			title: "下矿时间到！"
-			x: 12.0d
+			x: 9.5d
 			y: 0.0d
 		}
 		{
@@ -684,8 +641,8 @@
 				type: "item"
 			}]
 			title: "焦炉"
-			x: 9.0d
-			y: -6.0d
+			x: 9.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["45C8A2DF9C0E5473"]
@@ -711,8 +668,8 @@
 				title: "这黑乎乎的是什么啊"
 				type: "checkmark"
 			}]
-			x: 12.0d
-			y: 3.0d
+			x: 7.5d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -748,8 +705,8 @@
 				type: "item"
 			}]
 			title: "添柴加火"
-			x: 12.0d
-			y: -3.0d
+			x: 11.5d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -795,7 +752,7 @@
 				type: "item"
 			}]
 			title: "史蒂夫去哪儿？"
-			x: 15.0d
+			x: 13.5d
 			y: 0.0d
 		}
 		{
@@ -864,8 +821,8 @@
 				}
 			]
 			title: "愚公移山"
-			x: 18.0d
-			y: 0.0d
+			x: 13.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["0EFC6C245CC001CB"]
@@ -914,8 +871,8 @@
 				}
 			]
 			title: "区块破坏者"
-			x: 15.0d
-			y: 3.0d
+			x: 15.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["0EFC6C245CC001CB"]
@@ -936,8 +893,8 @@
 				type: "item"
 			}]
 			title: "正确的燃料"
-			x: 15.0d
-			y: -3.0d
+			x: 13.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["67264EF0565CC030"]
@@ -1063,8 +1020,8 @@
 				}
 			]
 			title: "工欲善其事......"
-			x: 18.0d
-			y: 3.0d
+			x: 11.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["67264EF0565CC030"]
@@ -1298,8 +1255,8 @@
 				}
 			]
 			title: "琳琅满目"
-			x: 18.0d
-			y: -3.0d
+			x: 13.5d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -1329,8 +1286,8 @@
 				type: "item"
 			}]
 			title: "996"
-			x: 21.0d
-			y: 0.0d
+			x: 11.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["15C69E5AE559EE9B"]
@@ -1345,7 +1302,7 @@
 				item: "gtceu:wrought_iron_ingot"
 				type: "item"
 			}]
-			size: 2.5d
+			size: 1.5d
 			subtitle: "千锤百炼"
 			tasks: [{
 				id: "5A648B6D0EC4427E"
@@ -1353,8 +1310,8 @@
 				type: "item"
 			}]
 			title: "古法炼钢"
-			x: 25.0d
-			y: -1.25d
+			x: 9.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["15C69E5AE559EE9B"]
@@ -1371,7 +1328,7 @@
 				item: "gtceu:bronze_dust"
 				type: "item"
 			}]
-			size: 2.5d
+			size: 1.5d
 			subtitle: "可惜不能搓青铜面具"
 			tasks: [{
 				id: "31061F6404E7D1F4"
@@ -1379,8 +1336,8 @@
 				type: "item"
 			}]
 			title: "三星堆人"
-			x: 25.0d
-			y: 2.0d
+			x: 9.5d
+			y: 5.0d
 		}
 		{
 			dependencies: [
@@ -1394,23 +1351,11 @@
 				"继续前进，路还很长呢。"
 			]
 			id: "14A66BA5BC9DB220"
-			rewards: [
-				{
-					id: "69C1838C97BE66E1"
-					item: "avaritia:star_fuel"
-					type: "item"
-				}
-				{
-					auto: "invisible"
-					command: "/ftbquests change_progress @p complete 58652B9C74A5BA07"
-					exclude_from_claim_all: true
-					id: "0AA72BCA4C614677"
-					ignore_reward_blocking: true
-					silent: true
-					title: "开启蒸汽时代"
-					type: "command"
-				}
-			]
+			rewards: [{
+				id: "69C1838C97BE66E1"
+				item: "avaritia:star_fuel"
+				type: "item"
+			}]
 			shape: "gear"
 			size: 3.0d
 			subtitle: "那么，蒸汽时代的大门马上就要打开了"
@@ -1420,8 +1365,8 @@
 				type: "item"
 			}]
 			title: "继续前进！"
-			x: 30.0d
-			y: 0.0d
+			x: 6.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["14A66BA5BC9DB220"]
@@ -1446,8 +1391,8 @@
 				type: "checkmark"
 			}]
 			title: "这些闪闪发光的东西有什么用呢"
-			x: 30.0d
-			y: 6.5d
+			x: 3.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["3BC9246D8FD4B649"]
@@ -1474,8 +1419,8 @@
 				type: "item"
 			}]
 			title: "啊，那木棍怎么来呢"
-			x: 0.0d
-			y: 1.5d
+			x: -0.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["45C8A2DF9C0E5473"]
@@ -1483,6 +1428,8 @@
 				"你也没别的办法快速烧制矿石了对吧"
 				"这确实是个好东西"
 			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
 			id: "2DE2787EA5C4080A"
 			rewards: [{
 				count: 9
@@ -1497,8 +1444,8 @@
 				item: "minecraft:furnace"
 				type: "item"
 			}]
-			x: 13.5d
-			y: 1.5d
+			x: 11.5d
+			y: 0.0d
 		}
 	]
 	title: "由此开始"

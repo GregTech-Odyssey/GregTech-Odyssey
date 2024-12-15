@@ -6,16 +6,671 @@
 	icon: "gtocore:sps_crafting"
 	id: "6FF8BEC3E0C25C4C"
 	order_index: 12
-	quest_links: [ ]
-	quests: [{
-		id: "48151A0D9EA1E4D7"
-		tasks: [{
-			id: "77EA340767268378"
-			item: "gtceu:uev_machine_hull"
-			type: "item"
-		}]
-		x: -1.0d
-		y: 0.0d
-	}]
+	quest_links: [
+		{
+			id: "10C4932409BC9EF8"
+			linked_quest: "5CD56CD71662D4A7"
+			shape: "rsquare"
+			size: 2.0d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "662A44313552F6C7"
+			linked_quest: "713FF88279AD9A31"
+			shape: "rsquare"
+			size: 2.0d
+			x: 0.0d
+			y: -4.0d
+		}
+	]
+	quests: [
+		{
+			dependencies: [
+				"5CD56CD71662D4A7"
+				"23B418803D455368"
+			]
+			description: [
+				"使用一种特殊的仪式消耗能量来收集周围的魔力"
+				"这里的魔力相当于一种原材料"
+				"蜡烛可以用石油制作黑色的，然后染色"
+			]
+			id: "22053B1292EE07C9"
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "62BD5C7471D8A9DB"
+				item: "gtocore:magic_manufacturer"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"34D6F0DF329B1877"
+				"369DCD1E26334632"
+				"2858C1A89BAF2624"
+				"24585C3114095227"
+			]
+			description: ["该阶段的核心机器"]
+			id: "7523FB4AAB1F89C3"
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "244F8871BA1B7E34"
+				item: "gtocore:sps_crafting"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"22053B1292EE07C9"
+				"78350872B1ACF525"
+			]
+			id: "34D6F0DF329B1877"
+			tasks: [{
+				id: "18706EDCE5C2C70A"
+				item: "gtceu:infuscolium_ingot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"26EB204E456E609A"
+				"07B45AA08AA91467"
+				"01268072B19FA1C9"
+				"477C3F64F4CAA009"
+				"021401D3D29EBC87"
+				"2E05225ADF4D7D31"
+			]
+			id: "792A351AAA2A4F2B"
+			tasks: [{
+				id: "6496D870388FBB8D"
+				item: "gtocore:exotic_processing_core"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"2DD8E128C6E3E41D"
+				"1F5B121C6647E2CA"
+				"2F02BC009330F5CB"
+				"348787ECA57EA11C"
+			]
+			id: "26EB204E456E609A"
+			tasks: [{
+				id: "648B8707BFCB8059"
+				item: "gtocore:rydberg_spinorial_assembly"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"22053B1292EE07C9"
+				"61B5CBFAACE6010D"
+			]
+			hide_dependent_lines: true
+			id: "78350872B1ACF525"
+			tasks: [{
+				id: "540D06A0A84A3BAA"
+				item: "gtceu:adamantine_ingot"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			id: "61B5CBFAACE6010D"
+			tasks: [{
+				id: "1D18BBEC7C609BF5"
+				item: "gtceu:naquadah_contain_rare_earth_dust"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["78350872B1ACF525"]
+			id: "1AA874C1351E4A0D"
+			tasks: [{
+				id: "1932A8FC6815B114"
+				item: "gtocore:adamantine_coil_block"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["792A351AAA2A4F2B"]
+			description: ["直接操纵里德堡原子的波函数来进行计算 "]
+			id: "48E77454D1CD87CD"
+			tasks: [{
+				id: "4244DC73F0D8DA55"
+				item: "gtocore:exotic_processor"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"48E77454D1CD87CD"
+				"2AA6041AC73CD47E"
+			]
+			id: "025FA532523BF33B"
+			tasks: [{
+				id: "2860A4E1E332B23C"
+				item: "gtocore:exotic_assembly"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"025FA532523BF33B"
+				"588C2C0BED069F41"
+			]
+			id: "140CE2AEC7015CAB"
+			tasks: [{
+				id: "2F5461C2A1F31B6E"
+				item: "gtocore:exotic_computer"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"140CE2AEC7015CAB"
+				"28E04C03DD2C0854"
+			]
+			id: "39F73A63746EE6E8"
+			tasks: [{
+				id: "02A3997B96CC0AEC"
+				item: "gtocore:exotic_mainframe"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7523FB4AAB1F89C3"]
+			id: "61F8C5AA6DEB30D6"
+			tasks: [{
+				id: "78A6560A02FCD3E9"
+				item: "gtceu:bedrock_dust"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"23B418803D455368"
+				"78350872B1ACF525"
+			]
+			hide_dependency_lines: true
+			id: "26607B94D873E07A"
+			tasks: [{
+				id: "10B8C317B5D6DFD0"
+				item: "gtceu:vibranium_ingot"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"4F0F175ACFF363F0"
+				"1AA874C1351E4A0D"
+			]
+			id: "6BB5ED6ECC43E30C"
+			tasks: [{
+				id: "2BF3713C3B23B0D0"
+				item: "gtceu:taranium_ingot"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["61F8C5AA6DEB30D6"]
+			id: "4F0F175ACFF363F0"
+			tasks: [{
+				id: "0641A1FEEC679E7C"
+				item: "gtceu:metal_residue_dust"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7523FB4AAB1F89C3"
+				"42A3F72D88E25018"
+			]
+			description: ["很坚硬"]
+			id: "2641CC6BC33F6A31"
+			tasks: [{
+				id: "2F9E606799202DC9"
+				item: "gtceu:echoite_ingot"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			description: ["使用催发体循环"]
+			id: "42A3F72D88E25018"
+			tasks: [
+				{
+					id: "38C1386CB0AF51BD"
+					item: "minecraft:echo_shard"
+					type: "item"
+				}
+				{
+					id: "3CBB798C2D565597"
+					item: "minecraft:sculk_catalyst"
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4D8E0C0295DB26EF"]
+			id: "1F5B121C6647E2CA"
+			tasks: [{
+				id: "02C4C3897AB62269"
+				item: "gtocore:exotic_chip"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"335A02C9498DCBB0"
+				"348787ECA57EA11C"
+				"09210B5E086F6E1A"
+				"281B6C20538A3CBA"
+			]
+			id: "07B45AA08AA91467"
+			tasks: [{
+				id: "68E24C35E921D70B"
+				item: "gtocore:x_ray_laser"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2641CC6BC33F6A31"]
+			hide_dependency_lines: true
+			id: "335A02C9498DCBB0"
+			tasks: [{
+				id: "4F89800700465811"
+				item: "gtocore:microfocus_x_ray_tube"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1AA874C1351E4A0D"]
+			id: "477C3F64F4CAA009"
+			tasks: [{
+				id: "46CA7F0E9FBD3DE6"
+				item: "gtceu:cinobite_ingot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["78350872B1ACF525"]
+			id: "588C2C0BED069F41"
+			tasks: [{
+				id: "7045DA087F52FA80"
+				item: "gtocore:unstable_star"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["39F73A63746EE6E8"]
+			id: "33390417E8A0AB88"
+			shape: "gear"
+			size: 1.0d
+			tasks: [{
+				id: "7AB2A11AD97054E2"
+				item: "gtocore:advanced_sps_crafting"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"77BE1524AABF6003"
+				"22053B1292EE07C9"
+			]
+			id: "369DCD1E26334632"
+			tasks: [{
+				id: "1758AC8CF4E9EC2B"
+				item: "gtceu:attuned_tengam_ingot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["55C57FADEE874B97"]
+			id: "348787ECA57EA11C"
+			tasks: [{
+				id: "1C064C1F74BB23C2"
+				item: "gtceu:fullerene_polymer_matrix_pulp_dust"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["42A3F72D88E25018"]
+			description: ["高效率生产回响"]
+			id: "127B8396034C0F34"
+			tasks: [
+				{
+					id: "669890BC5869D144"
+					item: "minecraft:sculk_shrieker"
+					type: "item"
+				}
+				{
+					id: "4F2634989CD39932"
+					item: "minecraft:sculk_sensor"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["26607B94D873E07A"]
+			id: "01268072B19FA1C9"
+			tasks: [{
+				id: "0D6AF6925DC299F6"
+				item: "gtocore:exotic_printed_circuit_board"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["30C1D7DEFB3B18BD"]
+			id: "2AA6041AC73CD47E"
+			tasks: [{
+				id: "1D9CEEE0C21C135E"
+				item: "gtocore:draconic_core"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"192B626CF217FDBC"
+				"71CB57064256F904"
+				"63F90FA0F85804B8"
+			]
+			id: "30C1D7DEFB3B18BD"
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "185FF9B96D2E6DA0"
+				item: "gtocore:aggregation_device"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3063F232F801D089"]
+			id: "192B626CF217FDBC"
+			tasks: [{
+				id: "529CC0E222436601"
+				item: "gtocore:draconium_dust"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["09210B5E086F6E1A"]
+			description: ["使用小堆粉磁化"]
+			id: "77BE1524AABF6003"
+			tasks: [{
+				id: "226943A2546478B5"
+				item: "gtceu:small_purified_tengam_dust"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["606C81F449ABCE5B"]
+			id: "021401D3D29EBC87"
+			tasks: [{
+				id: "2D6BFFABEF72FB06"
+				item: "gtocore:high_precision_crystal_soc"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5CD56CD71662D4A7"]
+			description: ["有点复杂"]
+			hide_dependency_lines: true
+			icon: "gtceu:euv_photoresist_bucket"
+			id: "606C81F449ABCE5B"
+			tasks: [{
+				id: "011EBE67C0D8E442"
+				title: "EUV光刻胶"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7C23CC6ADDC33EA0"]
+			icon: "gtceu:californium_cyclopentadienide_bucket"
+			id: "281B6C20538A3CBA"
+			tasks: [{
+				id: "0B10159A50C58ACF"
+				title: "环戊二烯锎"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["021401D3D29EBC87"]
+			description: ["不用堆大量计算机了"]
+			id: "181A1B6F5AD15F52"
+			shape: "gear"
+			size: 1.0d
+			tasks: [{
+				id: "5EBD9582ED477D88"
+				item: "gtocore:super_computation"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6BB5ED6ECC43E30C"]
+			id: "678E707F85CD2071"
+			tasks: [{
+				id: "44B32E745AA622FE"
+				item: "gtocore:taranium_boule"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"369DCD1E26334632"
+				"34D6F0DF329B1877"
+			]
+			description: ["绝对干净"]
+			id: "67D93082DA7185CC"
+			tasks: [{
+				id: "6791BE188E97863E"
+				item: "gtocore:law_filter_casing"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["68FBE0346D15916B"]
+			id: "2F02BC009330F5CB"
+			tasks: [{
+				id: "6D489E30E36B6957"
+				item: "gtocore:cryogenic_interface"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			id: "68FBE0346D15916B"
+			tasks: [{
+				id: "296E4F77EC25E3C2"
+				item: "gtceu:zylon_dust"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"606C81F449ABCE5B"
+				"678E707F85CD2071"
+			]
+			id: "71CB57064256F904"
+			tasks: [{
+				id: "5DA669EA8A10856E"
+				item: "gtocore:pm_chip"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"2641CC6BC33F6A31"
+				"67D93082DA7185CC"
+			]
+			id: "63F90FA0F85804B8"
+			tasks: [{
+				id: "4463009D8015AD7E"
+				item: "gtocore:reinforced_echo_shard"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"63F90FA0F85804B8"
+				"61F8C5AA6DEB30D6"
+			]
+			description: ["高效率生产基岩"]
+			id: "3968C254B6AC9B9D"
+			shape: "gear"
+			size: 1.0d
+			tasks: [{
+				id: "0F05C8DA47EB7768"
+				item: "gtocore:bedrock_drilling_rig"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["713FF88279AD9A31"]
+			id: "2DE2948B2148AEBF"
+			tasks: [{
+				id: "57830B3E0BF08FF8"
+				item: "gtceu:uev_energy_input_hatch"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"2DD8E128C6E3E41D"
+				"1F5B121C6647E2CA"
+				"2F02BC009330F5CB"
+				"348787ECA57EA11C"
+			]
+			hide_dependency_lines: true
+			id: "2858C1A89BAF2624"
+			tasks: [{
+				id: "41832AD8FA67EE4C"
+				item: "gtocore:rydberg_spinorial_assembly"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["588C2C0BED069F41"]
+			id: "0ED237B0CE3DDF59"
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "3D1314CB02CBCEAC"
+				item: "gtocore:uev_fusion_reactor"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["192B626CF217FDBC"]
+			description: ["模拟方块转换"]
+			id: "364D5117A21641FB"
+			tasks: [
+				{
+					id: "3D017A561051FC7D"
+					item: "gtocore:conversion_simulate_card"
+					type: "item"
+				}
+				{
+					id: "195E4181C9AC3059"
+					item: "gtocore:block_bus"
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: -2.0d
+		}
+	]
+	subtitle: ["Tier10-UEV"]
 	title: "极超压"
 }

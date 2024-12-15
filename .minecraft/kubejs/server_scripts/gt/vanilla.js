@@ -716,7 +716,7 @@ ServerEvents.recipes(event => {
         D: "minecraft:daylight_detector"
     })
 
-    event.shaped("gtocore:coking_tower", [
+    event.shaped("gtocore:large_pyrolyse_oven", [
         "BCB",
         "DAD",
         "BCB"

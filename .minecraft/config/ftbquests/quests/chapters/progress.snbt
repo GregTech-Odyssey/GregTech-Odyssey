@@ -1,0 +1,568 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "progress"
+	group: ""
+	icon: "gtceu:nan_certificate"
+	id: "508EE47AA8D412FC"
+	order_index: 0
+	quest_links: [
+		{
+			id: "5C15BF156B1CB4CA"
+			linked_quest: "31AC84CBD7C26566"
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			id: "0934DCFE34C0EB27"
+			linked_quest: "3F0D5B17665DF1CE"
+			x: 3.0d
+			y: 6.5d
+		}
+		{
+			id: "5DA9258B92B47CCB"
+			linked_quest: "506BE1A622532375"
+			x: 3.0d
+			y: 8.0d
+		}
+		{
+			id: "61CCF9581AE042E4"
+			linked_quest: "4E1A28AFF661CED0"
+			x: 3.0d
+			y: 9.5d
+		}
+		{
+			id: "6E590792C82012FC"
+			linked_quest: "5BB55AABB91EEF9D"
+			x: 4.5d
+			y: 6.5d
+		}
+		{
+			id: "76A014290697FD0A"
+			linked_quest: "3DCB5E7F69CE5F7F"
+			x: 4.5d
+			y: 8.0d
+		}
+		{
+			id: "26BFD5996F940D29"
+			linked_quest: "09856E59E52AEE7D"
+			x: 4.5d
+			y: 9.5d
+		}
+		{
+			id: "0EF990A033590F41"
+			linked_quest: "233CA36D529EC3FB"
+			x: 4.5d
+			y: 11.0d
+		}
+		{
+			id: "200444EB08F04263"
+			linked_quest: "425D7CD010B9C90E"
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			id: "56465A40D74E77F6"
+			linked_quest: "582AFD622AA67792"
+			x: 6.0d
+			y: 9.5d
+		}
+		{
+			id: "26605629B69E3FC6"
+			linked_quest: "7CF037F2C4BF55B5"
+			x: 6.0d
+			y: 11.0d
+		}
+		{
+			id: "3874CBBDC0A9F8EA"
+			linked_quest: "0A2D46609F5C3CAB"
+			x: 6.0d
+			y: 12.5d
+		}
+		{
+			id: "323C31E9D56C1E45"
+			linked_quest: "5E7F20C5F8530E1E"
+			x: 7.5d
+			y: 9.5d
+		}
+		{
+			id: "31DFD7F72FA801E6"
+			linked_quest: "76C32ADCD71DE8B8"
+			x: 7.5d
+			y: 11.0d
+		}
+		{
+			id: "69181F24F3E54DD6"
+			linked_quest: "2AA1E574BA4327F8"
+			x: 7.5d
+			y: 12.5d
+		}
+		{
+			id: "25694B6A104E4A94"
+			linked_quest: "7204F1B6BCC74F1C"
+			x: 7.5d
+			y: 14.0d
+		}
+		{
+			id: "04780ABC02DF0090"
+			linked_quest: "460277B62B964613"
+			x: 9.0d
+			y: 11.0d
+		}
+		{
+			id: "3C21EE527A246E76"
+			linked_quest: "5B1757594AE08A2A"
+			x: 9.0d
+			y: 12.5d
+		}
+		{
+			id: "0C62BF49AF9A3348"
+			linked_quest: "362C5064150C4F26"
+			x: 9.0d
+			y: 14.0d
+		}
+		{
+			id: "6064B6AE88D49FB1"
+			linked_quest: "783379F3A7557CEE"
+			x: 9.0d
+			y: 15.5d
+		}
+		{
+			id: "3BCF9F2F1C1BD78A"
+			linked_quest: "48E77454D1CD87CD"
+			x: 10.5d
+			y: 12.5d
+		}
+		{
+			id: "0F8C8A80D4AADB10"
+			linked_quest: "025FA532523BF33B"
+			x: 10.5d
+			y: 14.0d
+		}
+		{
+			id: "1EA2C3577D09D935"
+			linked_quest: "140CE2AEC7015CAB"
+			x: 10.5d
+			y: 15.5d
+		}
+		{
+			id: "764A08544BE96E88"
+			linked_quest: "39F73A63746EE6E8"
+			x: 10.5d
+			y: 17.0d
+		}
+		{
+			id: "4F44775FB9E394D3"
+			linked_quest: "596E4662227F4E38"
+			x: 12.0d
+			y: 14.0d
+		}
+		{
+			id: "074EC5101C936571"
+			linked_quest: "3569AD043F42762A"
+			x: 12.0d
+			y: 15.5d
+		}
+		{
+			id: "49F73129EC03231F"
+			linked_quest: "37C0845F870CC835"
+			x: 12.0d
+			y: 17.0d
+		}
+		{
+			id: "361AFF2A20DE431C"
+			linked_quest: "6C6A3B91957A0B7B"
+			x: 12.0d
+			y: 18.5d
+		}
+		{
+			id: "3334BBE8E7BF8818"
+			linked_quest: "2895FBB66750C0DF"
+			x: 13.5d
+			y: 15.5d
+		}
+		{
+			id: "6D57DFF46BEFD4DA"
+			linked_quest: "44F9AF619F87974F"
+			x: 13.5d
+			y: 17.0d
+		}
+		{
+			id: "43190A682FC8BDC0"
+			linked_quest: "6E3F07B3E9AB5882"
+			x: -7.5d
+			y: 18.5d
+		}
+		{
+			id: "66E262911956043F"
+			linked_quest: "0CCE2A9119B2B1C4"
+			x: -7.5d
+			y: 17.0d
+		}
+		{
+			id: "11BF09DE6CAC6D94"
+			linked_quest: "1AA874C1351E4A0D"
+			x: -7.5d
+			y: 15.5d
+		}
+		{
+			id: "6C04B359DD1E68E5"
+			linked_quest: "13BBF0FF3267BFDB"
+			x: -7.5d
+			y: 8.0d
+		}
+		{
+			id: "7792B7BE27D4AE71"
+			linked_quest: "7DCA0B7C9F3C3ACF"
+			x: -7.5d
+			y: 6.5d
+		}
+		{
+			id: "2ECC534CAE891724"
+			linked_quest: "23B23867F311BF51"
+			x: -7.5d
+			y: 9.5d
+		}
+		{
+			id: "7A18EBF92A038B76"
+			linked_quest: "59CA7B4A4A417B53"
+			x: -7.5d
+			y: 11.0d
+		}
+		{
+			id: "329A13A0E3831FB9"
+			linked_quest: "32A49A2CBFC934C8"
+			x: -7.5d
+			y: 14.0d
+		}
+		{
+			id: "60CF20C5344E7DDE"
+			linked_quest: "3EA935A712FA0EBE"
+			x: -7.5d
+			y: 12.5d
+		}
+		{
+			id: "5901E68D530F8201"
+			linked_quest: "622395061792FB5E"
+			x: -7.5d
+			y: 20.0d
+		}
+		{
+			id: "3665E019AA6AB846"
+			linked_quest: "68A3D32BFF9BF7F3"
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			id: "6796AAE9CCD710F7"
+			linked_quest: "7F649184083236E1"
+			x: 4.5d
+			y: 5.0d
+		}
+		{
+			id: "7AA0EDC6CAAF289C"
+			linked_quest: "46855799A4471E34"
+			x: 6.0d
+			y: 6.5d
+		}
+		{
+			id: "73B2A6DB11F16EB6"
+			linked_quest: "43A7282802A06626"
+			x: 7.5d
+			y: 8.0d
+		}
+		{
+			id: "1591B8B14CA8599C"
+			linked_quest: "2711E6516920E825"
+			x: 9.0d
+			y: 9.5d
+		}
+		{
+			id: "087058E648713910"
+			linked_quest: "792A351AAA2A4F2B"
+			x: 10.5d
+			y: 11.0d
+		}
+		{
+			id: "4C80768654DB9C1B"
+			linked_quest: "28E91E5A98E3A8DD"
+			x: 12.0d
+			y: 12.5d
+		}
+		{
+			id: "20ABC7BCAB6ED34D"
+			linked_quest: "7843B0B9DF3F6FB3"
+			x: 13.5d
+			y: 14.0d
+		}
+		{
+			id: "302636A3604E4D3F"
+			linked_quest: "30AC80FE245A38E0"
+			x: 13.5d
+			y: 18.5d
+		}
+		{
+			id: "540B1D69F69E641D"
+			linked_quest: "32186EFF7020D432"
+			x: 13.5d
+			y: 20.0d
+		}
+		{
+			id: "4D90905A4748686C"
+			linked_quest: "25F272243EB904D5"
+			x: 1.5d
+			y: 8.0d
+		}
+		{
+			id: "5F454CE171D395B5"
+			linked_quest: "5000DCB028460D47"
+			x: 1.5d
+			y: 6.5d
+		}
+		{
+			id: "1CEB76A61044100F"
+			linked_quest: "17F141D39F0AFD77"
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			id: "54135C129384E89A"
+			linked_quest: "56F6FC6F9E106A2F"
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			id: "15919328FD8E84AB"
+			linked_quest: "2712564DCCFD49B7"
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			id: "30EEA441980E81C6"
+			linked_quest: "3461BF0D74E5E8DF"
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			id: "1A6FC359DBD99F58"
+			linked_quest: "1C320B245EAC8D14"
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			id: "43A62D4F05CA3C0C"
+			linked_quest: "18CA398800CC2E1B"
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			id: "5FA0E975286CBE68"
+			linked_quest: "3FCF807491579B94"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			id: "19163A3E2B7F5F89"
+			linked_quest: "0243CEA5EE705EB0"
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			id: "66313E2FF0DF8D12"
+			linked_quest: "66DC60EABAAE0619"
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			id: "56072BCD3C9E7177"
+			linked_quest: "554D9DF1365F857C"
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			id: "2A499DA6638DB5FB"
+			linked_quest: "4AEBF1743DC2C92C"
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			id: "4C537BA6E481E528"
+			linked_quest: "124D7427DC8E501E"
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			id: "30D989870D84ACF8"
+			linked_quest: "79AE49C5DE7900FF"
+			x: -7.5d
+			y: 2.0d
+		}
+		{
+			id: "757C573F8FCF380F"
+			linked_quest: "42E88FC72902FC0B"
+			x: -7.5d
+			y: 3.5d
+		}
+		{
+			id: "308E0B082B5F6B33"
+			linked_quest: "1EA6BA3CBF4BE5DB"
+			x: -7.5d
+			y: 5.0d
+		}
+		{
+			id: "6DEC67DB8168BE7B"
+			linked_quest: "224989EB21C4663A"
+			x: -3.0d
+			y: -1.0d
+		}
+	]
+	quests: [
+		{
+			dependencies: [
+				"7ADB50ACF5AE1D13"
+				"34D6F0DF329B1877"
+			]
+			description: ["安装在超维度等离子锻炉上才能发挥作用"]
+			id: "11D8044BD0401E53"
+			tasks: [{
+				id: "20F532379723D90D"
+				item: "gtocore:uruium_coil_block"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -1.0d
+		}
+		{
+			id: "6FDC282122A5B02C"
+			tasks: [{
+				id: "6B6EC87CDD8D05E2"
+				item: "gtocore:magneto_resonatic_circuit_ulv"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6FDC282122A5B02C"]
+			id: "646C1CCEB181849D"
+			tasks: [{
+				id: "05ED3909F6DF2267"
+				item: "gtocore:magneto_resonatic_circuit_lv"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["646C1CCEB181849D"]
+			id: "2AC1D8E0FE210ECA"
+			tasks: [{
+				id: "0883B3B82134C146"
+				item: "gtocore:magneto_resonatic_circuit_mv"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2AC1D8E0FE210ECA"]
+			id: "592112D25203587D"
+			tasks: [{
+				id: "3EABC2D14C1D7929"
+				item: "gtocore:magneto_resonatic_circuit_hv"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["592112D25203587D"]
+			id: "014F144FE1D44D76"
+			tasks: [{
+				id: "32F9802B6D740EB8"
+				item: "gtocore:magneto_resonatic_circuit_ev"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["014F144FE1D44D76"]
+			id: "538AD958004C9735"
+			tasks: [{
+				id: "420D7E2027220B0C"
+				item: "gtocore:magneto_resonatic_circuit_iv"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["538AD958004C9735"]
+			id: "72B2B688F850153C"
+			tasks: [{
+				id: "2ABE84510F3A9EDA"
+				item: "gtocore:magneto_resonatic_circuit_luv"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["72B2B688F850153C"]
+			id: "2345247068AC8E96"
+			tasks: [{
+				id: "4205CF48C71A3DC8"
+				item: "gtocore:magneto_resonatic_circuit_zpm"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["2345247068AC8E96"]
+			id: "37F21A829C79917A"
+			tasks: [{
+				id: "6816D41E49BBC5C0"
+				item: "gtocore:magneto_resonatic_circuit_uv"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["37F21A829C79917A"]
+			id: "4E5FE0D4C86C6EC3"
+			tasks: [{
+				id: "7AC9602F29EA48BF"
+				item: "gtocore:magneto_resonatic_circuit_uhv"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["4E5FE0D4C86C6EC3"]
+			id: "7D6D4939A8E1DE7C"
+			tasks: [{
+				id: "3AFBEEF7BC30F4CA"
+				item: "gtocore:magneto_resonatic_circuit_uev"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["7D6D4939A8E1DE7C"]
+			id: "19E4FA7B41F44BDC"
+			tasks: [{
+				id: "5942973187EA50BD"
+				item: "gtocore:magneto_resonatic_circuit_uiv"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 15.5d
+		}
+	]
+	title: "进度"
+}

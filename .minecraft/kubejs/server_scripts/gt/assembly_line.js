@@ -2708,10 +2708,10 @@ ServerEvents.recipes(event => {
             .EUt(GTValues.VA[GTValues.UEV])
             .CWUt(600))
 
-    gtr.assembly_line("gtocore:mega_distillery")
+    gtr.assembly_line("gtocore:compound_distillation_fractionator")
         .itemInputs("16x gtceu:distillation_tower", "16x gtceu:evaporation_plant", "8x gtceu:tungsten_steel_huge_fluid_pipe", "16x gtceu:uhv_electric_pump", "4x gtceu:uev_sensor", "4x #gtceu:circuits/uiv", "32x gtceu:annealed_copper_hex_wire", "32x gtceu:watertight_steel_plate")
         .inputFluids("gtceu:soldering_alloy 1152", "gtceu:indalloy_140 1152", "gtceu:stainless_steel 2304", "gtceu:polyvinyl_chloride 2880")
-        .itemOutputs("gtocore:mega_distillery")
+        .itemOutputs("gtocore:compound_distillation_fractionator")
         .EUt(GTValues.VA[GTValues.UHV])
         .duration(800)
         .stationResearch(b => b.researchStack(Registries.getItemStack("gtceu:large_distillery"))

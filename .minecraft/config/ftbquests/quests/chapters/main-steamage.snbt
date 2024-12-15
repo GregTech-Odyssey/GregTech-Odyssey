@@ -7,7 +7,7 @@
 	group: "54AAB0D04131CFAA"
 	icon: "gtceu:bronze_ingot"
 	id: "03DB642475239221"
-	order_index: 1
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
@@ -1405,7 +1405,7 @@
 			tasks: [{
 				count: 16L
 				id: "3D6004087D87743B"
-				item: { Count: 16, id: "enderio:item_conduit" }
+				item: "enderio:item_conduit"
 				type: "item"
 			}]
 			title: "自动化.v3"

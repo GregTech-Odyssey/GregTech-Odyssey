@@ -7,15 +7,767 @@
 	id: "3F8D9D2B382EE265"
 	order_index: 7
 	quest_links: [ ]
-	quests: [{
-		id: "7360300731761665"
-		tasks: [{
-			id: "50938B35E6EE37FA"
-			item: "gtceu:iv_machine_hull"
-			type: "item"
-		}]
-		x: 0.5d
-		y: 1.0d
-	}]
+	quests: [
+		{
+			dependencies: ["148A5C927A0DCED1"]
+			description: ["可以是最后一种搅拌机"]
+			hide_dependent_lines: true
+			id: "0526B4AC0CAF99A5"
+			tasks: [{
+				id: "5F54118CC67D850B"
+				item: "gtceu:iv_mixer"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0526B4AC0CAF99A5"]
+			description: ["来了一堆锭"]
+			id: "4058D1416D94BABB"
+			tasks: [
+				{
+					id: "3721A749B9944105"
+					item: "gtceu:tantalum_carbide_ingot"
+					type: "item"
+				}
+				{
+					id: "3D4368BF854766C4"
+					item: "gtceu:tungsten_carbide_ingot"
+					type: "item"
+				}
+				{
+					id: "5B71A05490BD6C07"
+					item: "gtceu:titanium_carbide_ingot"
+					type: "item"
+				}
+				{
+					id: "24CD9EC3BF9BC94C"
+					item: "gtceu:molybdenum_disilicide_ingot"
+					type: "item"
+				}
+				{
+					id: "0654B52D0046F9EA"
+					item: "gtceu:hsla_steel_ingot"
+					type: "item"
+				}
+			]
+			title: "各种锭"
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4058D1416D94BABB"]
+			description: [
+				"合金冶炼炉产出熔融流体,如果配方足够对应材料有热锭的话.这些流体需要用真空冷冻机进行冷却"
+				"不要被长时间的熔炼时间吓到.这台机器将搅拌机的配方直接融入熔炼配方中,并且实际上比高炉中熔炼粉要省时得多并且单次生产的数量为投料的总数"
+				"几乎每种材料都可以在这台机器中生产,因此,如果您在查找搅拌机配方时遇到麻烦,请寻找熔融流体!"
+			]
+			icon: "gtceu:alloy_blast_smelter"
+			id: "1F0956C3BD4745A1"
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [
+				{
+					id: "369FD15BD477C9E7"
+					item: "gtceu:alloy_blast_smelter"
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "2035A4EF9D87ACD7"
+					item: "gtceu:heat_vent"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1F0956C3BD4745A1"]
+			description: ["现在可以制作单方块机器的大型版本，能更好的升压超频，同时支持并行"]
+			icon: "gtceu:large_material_press"
+			id: "1FACFECB6C5962E3"
+			size: 2.0d
+			tasks: [
+				{
+					id: "2F1127262F7ACA6C"
+					title: "大型机器"
+					type: "checkmark"
+				}
+				{
+					id: "28CA024A75969F52"
+					item: "gtceu:iv_parallel_hatch"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"0526B4AC0CAF99A5"
+				"15580C25FF239402"
+			]
+			description: ["LuV阶段主要材料"]
+			hide_dependent_lines: true
+			id: "4BFA114E12BCB163"
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "121BAC69F16DF2AF"
+				item: "gtceu:rhodium_plated_palladium_ingot"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["38480A52A13DA157"]
+			description: ["可以用磷化铟，也可以用量子之眼"]
+			id: "68A3D32BFF9BF7F3"
+			tasks: [{
+				id: "05E8D6C7043D0BCD"
+				item: "gtceu:qbit_cpu_chip"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["38480A52A13DA157"]
+			description: ["高速钢(HSS)是更耐磨的钢合金"]
+			id: "62B67704211A105D"
+			tasks: [{
+				id: "75763C7F36454825"
+				item: "gtceu:hssg_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"62B67704211A105D"
+				"079CD9FD65CB2ED2"
+			]
+			id: "7DCA0B7C9F3C3ACF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "273DB45DA0D168E0"
+				table_id: 6225023274141477362L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "0D25CA72C05B394F"
+				item: "gtceu:hssg_coil_block"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7DCA0B7C9F3C3ACF"]
+			id: "2A81EA75E3DD41A3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5E31C69FE3BA229B"
+				table_id: 6225023274141477362L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "3F58471B4B491DD6"
+					item: "gtceu:hsse_ingot"
+					type: "item"
+				}
+				{
+					id: "061B78C4A8F3772C"
+					item: "gtceu:hsss_ingot"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"2A81EA75E3DD41A3"
+				"079CD9FD65CB2ED2"
+				"7531D52AF313CEEB"
+			]
+			description: ["IV阶段的电路可以不用"]
+			id: "4604207A60F04214"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "26673EC4D33E3E35"
+				table_id: 6225023274141477362L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "54EBA1E915CCDDAC"
+					item: "gtceu:advanced_smd_transistor"
+					type: "item"
+				}
+				{
+					id: "1743212DEA6120B0"
+					item: "gtceu:advanced_smd_resistor"
+					type: "item"
+				}
+				{
+					id: "7C65FDD089837CA1"
+					item: "gtceu:advanced_smd_capacitor"
+					type: "item"
+				}
+				{
+					id: "38EF641F76BC06F9"
+					item: "gtceu:advanced_smd_diode"
+					type: "item"
+				}
+				{
+					id: "17178C475BF5FB0D"
+					item: "gtceu:advanced_smd_inductor"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["38480A52A13DA157"]
+			hide_dependent_lines: true
+			id: "079CD9FD65CB2ED2"
+			tasks: [{
+				id: "6C5DFE407694E794"
+				item: "gtceu:iv_assembler"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["38480A52A13DA157"]
+			description: [
+				"PBI新的塑料"
+				"比较麻烦,且后期需求量很大"
+			]
+			hide_dependent_lines: true
+			id: "7531D52AF313CEEB"
+			tasks: [{
+				id: "647AACA023F507D1"
+				item: "gtceu:polybenzimidazole_plate"
+				type: "item"
+			}]
+			title: "新的塑料"
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"68A3D32BFF9BF7F3"
+				"027B25761BD830C8"
+				"22795A09A3BD7344"
+			]
+			description: ["量子处理器是使用量子位作为信息的基本单位，能够同时处于0和1的叠加状态，使得量子计算机能够执行复杂的计算任务。"]
+			id: "31AC84CBD7C26566"
+			tasks: [{
+				id: "30125C65F7525965"
+				item: "gtceu:quantum_processor"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["31AC84CBD7C26566"]
+			id: "3F0D5B17665DF1CE"
+			tasks: [{
+				id: "77F7DCDCA5B2558E"
+				item: "gtceu:quantum_processor_assembly"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3F0D5B17665DF1CE"]
+			id: "506BE1A622532375"
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "4A198917EC175743"
+				item: "gtceu:quantum_processor_computer"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["506BE1A622532375"]
+			id: "4E1A28AFF661CED0"
+			tasks: [{
+				id: "0851DE42F4AC5E9C"
+				item: "gtceu:quantum_processor_mainframe"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["631707E722744406"]
+			id: "0FCA3B71669C8122"
+			tasks: [{
+				id: "431CBC4C1A32BCEC"
+				item: "gtceu:quantum_star"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0FCA3B71669C8122"]
+			id: "27BA6EBA81622516"
+			tasks: [
+				{
+					id: "67E0235F740E8863"
+					item: "gtceu:iv_emitter"
+					type: "item"
+				}
+				{
+					id: "755A3CDD5C7A1643"
+					item: "gtceu:iv_sensor"
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"148A5C927A0DCED1"
+				"3AD2F40B030A6BC8"
+				"382F3E7588A0AD5E"
+				"2CE5738B7A8225A6"
+			]
+			description: [
+				"小贵，但IV之后必备。"
+				"需要装配线数据来运行。"
+				"需有序输入，"
+				"只能使用ULV总线"
+				""
+				"你最短需要十格长的，"
+				"但我还是建议十七格长一步到位"
+			]
+			id: "7F8C2ECC7CE2BF20"
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "07456C679DEEEE04"
+				item: "gtceu:assembly_line"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["27BA6EBA81622516"]
+			id: "027B25761BD830C8"
+			tasks: [{
+				id: "57AB73EF21D31E54"
+				item: "gtceu:iv_circuit_assembler"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["027B25761BD830C8"]
+			description: ["不能使用2能源仓升压"]
+			id: "30A0D221474FB44A"
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				id: "074FB16F523697D0"
+				item: "gtceu:large_circuit_assembler"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3B79A329196883EF"]
+			id: "15F08D296DE33A44"
+			tasks: [{
+				id: "7472EEF5D4982552"
+				item: "gtceu:hpic_chip"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"15F08D296DE33A44"
+				"079CD9FD65CB2ED2"
+			]
+			description: ["升级"]
+			id: "15580C25FF239402"
+			tasks: [{
+				id: "1C9F7F0D50ED81F7"
+				item: "gtceu:iv_energy_input_hatch"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"7DCA0B7C9F3C3ACF"
+				"0526B4AC0CAF99A5"
+				"3ECA33037D940EAB"
+			]
+			description: ["IV超导体"]
+			id: "02D426BE0947F123"
+			tasks: [{
+				id: "4FD9779EEB7F7F57"
+				item: "gtceu:samarium_iron_arsenic_oxide_ingot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["02D426BE0947F123"]
+			id: "0F22A8CE63F369CA"
+			tasks: [{
+				id: "611CC6E7E5FEEA67"
+				item: "gtceu:iv_field_generator"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1E7344C133C99565"]
+			description: [
+				"扫描是研究的第一步，将JEI中显示的物品与一个闪存一起放置以进行扫描，这将消耗该物品并将数据放入闪存中。"
+				"稍后，配方将需要不同的数据存储物品进行研究，例如数据球，这个过程将保持不变，但将使用不同的数据存储物品。"
+			]
+			id: "2CE5738B7A8225A6"
+			tasks: [{
+				id: "67F4026A97AD2839"
+				item: "gtceu:data_access_hatch"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"7F8C2ECC7CE2BF20"
+				"2CEEFDACE7B13D5A"
+			]
+			description: ["大容量数据存储，并且可以为多个装配线提供数据"]
+			id: "5F0A175D6704A8D0"
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				id: "488C1A3FC0D7CCB6"
+				item: "gtceu:data_bank"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["148A5C927A0DCED1"]
+			description: ["可以是最后一种切割机"]
+			id: "3B79A329196883EF"
+			tasks: [{
+				id: "3F7925F1D16C107A"
+				item: "gtceu:iv_cutter"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["38480A52A13DA157"]
+			description: ["更高级的玻璃"]
+			hide_dependent_lines: true
+			id: "148A5C927A0DCED1"
+			tasks: [{
+				id: "62F5055E01F9396B"
+				item: "gtceu:laminated_glass"
+				type: "item"
+			}]
+			title: "新的玻璃"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["38480A52A13DA157"]
+			id: "22795A09A3BD7344"
+			tasks: [{
+				id: "7117E2CF984E0BF0"
+				item: "gtceu:fiber_reinforced_printed_circuit_board"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0F22A8CE63F369CA"]
+			description: ["64并行高炉"]
+			id: "52070757274DC2B4"
+			shape: "circle"
+			size: 2.0d
+			tasks: [{
+				id: "2C69C2E860BDFB1B"
+				item: "gtocore:blaze_blast_furnace"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"7DCA0B7C9F3C3ACF"
+				"02D426BE0947F123"
+			]
+			id: "00E7CB7CD9296B1A"
+			tasks: [{
+				id: "2FB73F086EA348D8"
+				item: "ad_astra:ostrum_ingot"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"0F22A8CE63F369CA"
+				"00E7CB7CD9296B1A"
+			]
+			id: "36F5A40D3976E512"
+			rewards: [{
+				id: "4A04C411F24ADCCC"
+				item: "avaritia:cosmic_meatballs"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7F18BB34CB3491CD"
+					item: {
+						Count: 1
+						id: "ad_astra_rocketed:tier_5_rocket"
+						tag: {
+							BotariumData: {
+								StoredFluids: [{
+									Amount: 0L
+									Fluid: "minecraft:empty"
+								}]
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "450378C22CA36060"
+					item: "gtceu:rocket_fuel_h8n4c2o4_bucket"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1F0956C3BD4745A1"]
+			description: ["高温用于发电，低温用于生产资源"]
+			id: "365298DB6520227A"
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "2599970FD2D9C38B"
+				item: "gtocore:fission_reactor"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7D8241E627194099"]
+			id: "3AD2F40B030A6BC8"
+			tasks: [{
+				id: "311C889A68CDBC37"
+				item: "gtceu:assembly_line_unit"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0526B4AC0CAF99A5"]
+			id: "7D8241E627194099"
+			tasks: [{
+				id: "21095623F1E9DBD4"
+				item: "gtceu:ruridit_ingot"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"27BA6EBA81622516"
+				"15F08D296DE33A44"
+			]
+			hide_dependency_lines: true
+			id: "382F3E7588A0AD5E"
+			tasks: [{
+				id: "330473DB377410CA"
+				item: "gtceu:assembly_line_casing"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2CE5738B7A8225A6"]
+			description: ["装配线的配方需要扫描过的闪存"]
+			id: "7A4A5E773AC5C003"
+			tasks: [{
+				id: "04B8AC9FE06215AC"
+				item: "gtceu:iv_scanner"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["38480A52A13DA157"]
+			description: ["你的线缆得开始用更高级的橡胶了"]
+			id: "7794BE986C48C92D"
+			tasks: [
+				{
+					id: "3BC56557E74FF20C"
+					item: "gtceu:silicone_rubber_plate"
+					type: "item"
+				}
+				{
+					id: "3BD63C09996689EA"
+					item: "gtceu:styrene_butadiene_rubber_plate"
+					type: "item"
+				}
+			]
+			title: "新的橡胶"
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"42129A63D97DDF28"
+				"4C43D30FD9B89965"
+			]
+			description: ["这个阶段我推荐你沉淀一下，用大机器重构你的ae下单，选择一种新的发电方式"]
+			hide_dependent_lines: true
+			id: "38480A52A13DA157"
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "01068F963A96E633"
+				title: "强导压IV"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["27BA6EBA81622516"]
+			description: ["64并行冷冻机"]
+			id: "4C4081C79D227D1F"
+			size: 2.0d
+			tasks: [{
+				id: "7066CF4FFEA3FD14"
+				item: "gtocore:cold_ice_freezer"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 2.0d
+		}
+		{
+			id: "3ECA33037D940EAB"
+			tasks: [{
+				id: "7778FF7D320A8783"
+				item: "gtceu:samarium_dust"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["38480A52A13DA157"]
+			description: ["新的材料"]
+			id: "076BD82842C349A3"
+			tasks: [{
+				id: "464C4FCFEC9CD809"
+				item: "gtceu:polyphenylene_sulfide_foil"
+				type: "item"
+			}]
+			title: "新的树脂"
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1E7344C133C99565"]
+			id: "29D4D49428BF7FF4"
+			tasks: [
+				{
+					id: "756B1B977B98059B"
+					item: "gtocore:digestion_tank"
+					type: "item"
+				}
+				{
+					id: "6B43A7F342845658"
+					item: "gtocore:dissolving_tank"
+					type: "item"
+				}
+			]
+			title: "镧系两件套"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["365298DB6520227A"]
+			description: ["使用超临界钠钾合金将蒸馏水转变为超临界蒸汽，用于给超临界蒸汽涡轮发电，或者使用热钠钾合金消耗水产生大量蒸汽"]
+			id: "24CE67689DD540B7"
+			optional: true
+			tasks: [{
+				id: "4B207AC62685A5B5"
+				item: "gtocore:heat_exchanger"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["7F8C2ECC7CE2BF20"]
+			description: [
+				"让机器五倍速运行"
+				"超净也有对应版本"
+			]
+			id: "6AC86ADD1841074B"
+			tasks: [{
+				id: "4473B8A88F7AF26E"
+				item: "gtocore:auto_configuration_maintenance_hatch"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 8.0d
+		}
+	]
+	subtitle: ["Tier5-IV"]
 	title: "强导压"
 }

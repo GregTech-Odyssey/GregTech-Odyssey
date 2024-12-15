@@ -63,7 +63,7 @@ ServerEvents.recipes(event => {
         .EUt(480)
         .duration(150)
 
-    gtr.chemical_reactor("gtocore:hydroquinone")
+    gtr.large_chemical_reactor("gtocore:hydroquinone")
         .inputFluids("gtceu:benzene 2000", "gtceu:oxygen 5000", "gtceu:propene 1000")
         .outputFluids("gtceu:hydroquinone 1000", "gtceu:resorcinol 1000", "gtceu:acetone 1000")
         .EUt(1920)
@@ -297,7 +297,7 @@ ServerEvents.recipes(event => {
         .EUt(1920)
         .duration(40)
 
-    gtr.chemical_reactor("gtocore:tetraacetyldinitrosohexaazaisowurtzitane_dust")
+    gtr.large_chemical_reactor("gtocore:tetraacetyldinitrosohexaazaisowurtzitane_dust")
         .inputFluids("minecraft:water 14000")
         .itemInputs("70x gtceu:dibenzyltetraacetylhexaazaisowurtzitane_dust", "42x gtceu:nitrosonium_tetrafluoroborate_dust")
         .itemOutputs("46x gtceu:tetraacetyldinitrosohexaazaisowurtzitane_dust")

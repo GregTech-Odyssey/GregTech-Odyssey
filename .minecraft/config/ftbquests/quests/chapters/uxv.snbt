@@ -6,16 +6,654 @@
 	icon: "gtocore:quantum_force_transformer"
 	id: "637B1B1C9A1A92EC"
 	order_index: 14
-	quest_links: [ ]
-	quests: [{
-		id: "44A51175EEBD5D59"
-		tasks: [{
-			id: "382FE11F520C620B"
-			item: "gtceu:uxv_machine_hull"
-			type: "item"
-		}]
-		x: -0.5d
-		y: 0.5d
-	}]
+	quest_links: [
+		{
+			id: "266F13D1E89B47C1"
+			linked_quest: "559836CC234447C0"
+			shape: "rsquare"
+			size: 2.0d
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			id: "7ED0015FCA833C34"
+			linked_quest: "26607B94D873E07A"
+			shape: "rsquare"
+			size: 2.0d
+			x: 0.0d
+			y: -8.0d
+		}
+	]
+	quests: [
+		{
+			dependencies: [
+				"1F1FCB0CA5696FF1"
+				"63C77EE3C70E20E7"
+			]
+			id: "1433920A4DDCE2B5"
+			tasks: [{
+				id: "2034E44DBD7BF004"
+				item: "gtocore:contained_high_density_protonic_matter"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1433920A4DDCE2B5"]
+			id: "49ED5C32664DDF6C"
+			tasks: [{
+				id: "0EB25857226F98DD"
+				item: "avaritia:crystal_matrix_ingot"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"55458BD1EFC248C8"
+				"687FA1A8A6443436"
+			]
+			description: ["星辰之力"]
+			id: "7B46E8DE77D0BE8F"
+			tasks: [{
+				id: "73B1CA578DA24E93"
+				item: "gtceu:starmetal_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"7B46E8DE77D0BE8F"
+				"49ED5C32664DDF6C"
+			]
+			id: "6E3F07B3E9AB5882"
+			tasks: [{
+				id: "013D66093320BE17"
+				item: "gtocore:starmetal_coil_block"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"5E223597F71DB81D"
+				"4A1F4AAAABC1DE23"
+			]
+			description: ["高纯龙素"]
+			id: "6A1F7D407BE033A9"
+			tasks: [{
+				id: "65FF8A6173E91F9E"
+				item: "gtceu:draconium_dust"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"6A1F7D407BE033A9"
+				"6E3F07B3E9AB5882"
+			]
+			description: ["龙之力量"]
+			id: "108792B10FDEC848"
+			tasks: [{
+				id: "73F908E584D4518A"
+				item: "gtceu:draconium_ingot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["63C77EE3C70E20E7"]
+			id: "2E8DB6C5B61682C2"
+			tasks: [{
+				id: "098F3ABC24B16631"
+				item: "gtocore:contained_reissner_nordstrom_singularity"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"2E8DB6C5B61682C2"
+				"1F1FCB0CA5696FF1"
+			]
+			id: "30C7E9FE04629708"
+			tasks: [{
+				id: "0968342DC438273D"
+				item: "gtocore:contained_kerr_newmann_singularity"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["30C7E9FE04629708"]
+			id: "5EEF654D4CD2168F"
+			tasks: [{
+				id: "1B0100A2DA661C34"
+				item: "gtocore:contained_kerr_singularity"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"2E8DB6C5B61682C2"
+				"43CEF1808795ECAD"
+				"1E2191E5E31DC8B0"
+			]
+			id: "5A4208D724465B97"
+			tasks: [{
+				id: "3B1FF91246454F05"
+				item: "gtocore:graviton_transducer"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"30C7E9FE04629708"
+				"1E2191E5E31DC8B0"
+				"43CEF1808795ECAD"
+			]
+			id: "0E69D0896D0218E3"
+			tasks: [{
+				id: "3A838D5524A952C3"
+				item: "gtocore:topological_manipulator_unit"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5EEF654D4CD2168F"]
+			id: "1E2191E5E31DC8B0"
+			tasks: [{
+				id: "4B942195EDD70FD6"
+				item: "gtocore:microwormhole_generator"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"5A4208D724465B97"
+				"0E69D0896D0218E3"
+				"2667AA2D0C0929B3"
+				"437E5E4108228333"
+				"583D5AF26EDAF7DF"
+			]
+			id: "7843B0B9DF3F6FB3"
+			tasks: [{
+				id: "393B897D7AB83DD9"
+				item: "gtocore:supracausal_processing_core"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"7843B0B9DF3F6FB3"
+				"1BA07BC3DBFFF3E6"
+			]
+			description: ["利用虫洞，准确地在问题提出的时刻开始计算，以便在问题被问出时得到答案。"]
+			id: "2895FBB66750C0DF"
+			tasks: [{
+				id: "5D7AD7E0AEDFAC06"
+				item: "gtocore:supracausal_processor"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"2895FBB66750C0DF"
+				"41A24F250D9C582A"
+				"042FBA3AE7DE9957"
+				"4C667361F07F4243"
+			]
+			id: "44F9AF619F87974F"
+			tasks: [{
+				id: "489CB00F1158C54B"
+				item: "gtocore:supracausal_assembly"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2F82F4BCC261723A"]
+			hide_dependent_lines: true
+			id: "63C77EE3C70E20E7"
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "4A48DFBBFE8F0E83"
+				item: "gtocore:neutronium_sphere"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["1433920A4DDCE2B5"]
+			icon: "gtceu:free_proton_gas_bucket"
+			id: "55458BD1EFC248C8"
+			tasks: [{
+				id: "34A01704D8875A2F"
+				title: "自由质子"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["559836CC234447C0"]
+			id: "41B4A5048EBCE287"
+			tasks: [{
+				id: "3D5673DC2CDD9216"
+				item: "gtocore:space_probe_mk2"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["41B4A5048EBCE287"]
+			icon: "gtceu:liquid_starlight_bucket"
+			id: "6FF53B92BA6D2370"
+			tasks: [{
+				id: "3A5F5C774EE47FD2"
+				title: "星能液"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6FF53B92BA6D2370"]
+			id: "687FA1A8A6443436"
+			tasks: [{
+				id: "0FCC5549E1E17DF9"
+				item: "gtocore:resonating_gem"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"108792B10FDEC848"
+				"1F1FCB0CA5696FF1"
+			]
+			id: "74186877DB7DBE4D"
+			tasks: [{
+				id: "68FDD4F89178DC73"
+				item: "gtocore:quantum_chromodynamic_charge"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"74186877DB7DBE4D"
+				"6D6BE75CB79C7901"
+			]
+			id: "43CEF1808795ECAD"
+			tasks: [{
+				id: "163852661E3ED688"
+				item: "gtocore:quantumchromodynamic_protective_plating"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["64441B6414C20A57"]
+			id: "2667AA2D0C0929B3"
+			tasks: [{
+				id: "26EB8AC36A5784A4"
+				item: "gtocore:relativistic_spinorial_memory_system"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["559836CC234447C0"]
+			hide_dependency_lines: true
+			id: "1BA07BC3DBFFF3E6"
+			tasks: [{
+				id: "1359A5CB71BF3AC9"
+				item: "gtocore:manifold_oscillatory_power_cell"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1E2191E5E31DC8B0"]
+			id: "15A1DA0756AD0044"
+			tasks: [{
+				id: "13D35A9347B57438"
+				item: "gtocore:macrowormhole_generator"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["15A1DA0756AD0044"]
+			id: "41A24F250D9C582A"
+			tasks: [{
+				id: "27F3C5C31B10F0B5"
+				item: "gtocore:recursively_folded_negative_space"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1433920A4DDCE2B5"]
+			id: "042FBA3AE7DE9957"
+			tasks: [{
+				id: "4DF8BA0CEEDEAE11"
+				item: "gtocore:contained_exotic_matter"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"41A24F250D9C582A"
+				"2E46491F39351B94"
+			]
+			id: "76C086C1C346355A"
+			tasks: [{
+				id: "64FA91CB818D7F89"
+				item: "gtocore:eigenfolded_kerr_manifold"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["559836CC234447C0"]
+			description: ["需被动自动化"]
+			hide_dependency_lines: true
+			id: "4A1F4AAAABC1DE23"
+			shape: "gear"
+			tasks: [{
+				id: "3E7381E30A07D91A"
+				item: "gtocore:dragon_egg_copier"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["2A29DA4239E6BA44"]
+			description: ["有点混乱"]
+			icon: "gtceu:radox_bucket"
+			id: "437E5E4108228333"
+			tasks: [{
+				id: "60C93B3E6EDB5E0B"
+				title: "拉多X"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6C6A3B91957A0B7B"]
+			description: ["很贵的机器"]
+			id: "2A29DA4239E6BA44"
+			shape: "gear"
+			size: 1.0d
+			tasks: [{
+				id: "7D27B0B3479513F2"
+				item: "gtocore:quantum_force_transformer"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["15A1DA0756AD0044"]
+			id: "2E46491F39351B94"
+			tasks: [{
+				id: "141EA89CD2B703FA"
+				item: "gtocore:stabilized_wormhole_generator"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"0FB0AFA8DD71B19F"
+				"2F82F4BCC261723A"
+			]
+			id: "64441B6414C20A57"
+			tasks: [{
+				id: "4E6808ACDDA056DD"
+				item: "gtocore:charged_lepton_trap_crystal"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"76C086C1C346355A"
+				"44F9AF619F87974F"
+				"6F7D79B8EA4FBF46"
+			]
+			id: "30AC80FE245A38E0"
+			tasks: [{
+				id: "41E02527C8CF211E"
+				item: "gtocore:supracausal_computer"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -1.9499999999999993d
+		}
+		{
+			dependencies: [
+				"30AC80FE245A38E0"
+				"1291AD37204E4960"
+				"38FFB6D2003C7EB4"
+			]
+			description: ["电路的顶点"]
+			id: "32186EFF7020D432"
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "27BE9064DAF5CCF3"
+				item: "gtocore:supracausal_mainframe"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -1.9499999999999993d
+		}
+		{
+			dependencies: [
+				"76C086C1C346355A"
+				"72EDAF2AFEF2827C"
+			]
+			id: "1291AD37204E4960"
+			tasks: [{
+				id: "5BA2D936168F00E3"
+				item: "gtocore:ctc_computational_unit"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2E46491F39351B94"]
+			id: "72EDAF2AFEF2827C"
+			tasks: [{
+				id: "3A4819805B21E8A5"
+				item: "gtocore:ctc_computational_unit_container"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"7819969E76A18F15"
+				"106303E7A3296E76"
+			]
+			id: "583D5AF26EDAF7DF"
+			tasks: [{
+				id: "2722C3C695B1ED2E"
+				item: "gtocore:nuclear_clock"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["00A227F06D7F109E"]
+			id: "6F7D79B8EA4FBF46"
+			tasks: [{
+				id: "6F01212E598DF915"
+				item: "gtocore:nuclear_star"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 0.05000000000000071d
+		}
+		{
+			dependencies: [
+				"5A61ABB6E4917C6C"
+				"0ED237B0CE3DDF59"
+			]
+			description: ["无尽之力"]
+			id: "00A227F06D7F109E"
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "4551291536D7C6FC"
+				item: "avaritia:infinity_ingot"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"00A227F06D7F109E"
+				"042FBA3AE7DE9957"
+			]
+			id: "77A53FAAC098F859"
+			tasks: [{
+				id: "4ED6698376CC0B5A"
+				item: "avaritia:infinity_catalyst"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["01EE0F4156F0578B"]
+			id: "5A61ABB6E4917C6C"
+			tasks: [{
+				id: "3BDF193D7E2C7B39"
+				item: "gtceu:cosmic_neutronium_ingot"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["29A581C935A339DD"]
+			id: "01EE0F4156F0578B"
+			tasks: [{
+				id: "1CF19DFA270D37F3"
+				item: "gtceu:periodicium_ingot"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5A61ABB6E4917C6C"]
+			id: "233C152024BACC4E"
+			tasks: [{
+				id: "0DD7CD386050EFC7"
+				item: "gtocore:highly_dense_polymer_plate"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["233C152024BACC4E"]
+			id: "38FFB6D2003C7EB4"
+			tasks: [{
+				id: "0B788414AD9CB8B4"
+				item: "gtocore:cosmic_fabric"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 0.05000000000000071d
+		}
+		{
+			dependencies: ["375DD76CAEAD2CE1"]
+			id: "4C667361F07F4243"
+			tasks: [{
+				id: "16E54E03B44B51AF"
+				item: "gtocore:awakened_core"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"108792B10FDEC848"
+				"0ED237B0CE3DDF59"
+			]
+			hide_dependency_lines: true
+			id: "375DD76CAEAD2CE1"
+			tasks: [{
+				id: "530622EE4C092735"
+				item: "gtceu:awakened_draconium_ingot"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["26607B94D873E07A"]
+			id: "17F6AFC430A15CDA"
+			tasks: [{
+				id: "4100140D3535F108"
+				item: "gtceu:uxv_energy_input_hatch"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -8.0d
+		}
+	]
+	subtitle: ["Tier12-UXV"]
 	title: "极顶压"
 }

@@ -6,16 +6,673 @@
 	icon: "gtocore:stellar_forge"
 	id: "552DDE11AB825B8C"
 	order_index: 11
-	quest_links: [ ]
-	quests: [{
-		id: "19BB4ED2A072F5EE"
-		tasks: [{
-			id: "22A8C37809CE4811"
-			item: "gtceu:uhv_machine_hull"
-			type: "item"
-		}]
-		x: -0.5d
-		y: -0.5d
-	}]
+	quest_links: [
+		{
+			id: "22199DF737024CBD"
+			linked_quest: "776563C5BA327495"
+			shape: "rsquare"
+			size: 2.0d
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			id: "7F9C7923EEED3AD7"
+			linked_quest: "035C470213E8B4DB"
+			shape: "rsquare"
+			size: 2.0d
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+	quests: [
+		{
+			dependencies: [
+				"7204F1B6BCC74F1C"
+				"3008FED65F71C459"
+				"702EFE9BA62A8CDA"
+			]
+			description: [
+				"后面阶段的核心材料生产机器"
+				"第一次做会有些贵"
+			]
+			id: "433793B7470FAA09"
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "02412DC87B9DA266"
+				item: "gtocore:stellar_forge"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3063F232F801D089"]
+			id: "76BAF48FA9D845C6"
+			tasks: [{
+				id: "16C7DE1FF416631A"
+				item: "gtceu:dubnium_ingot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3063F232F801D089"]
+			hide_dependency_lines: true
+			id: "5CD56CD71662D4A7"
+			tasks: [{
+				id: "393B76A2C2075C2D"
+				item: "gtceu:seaborgium_ingot"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"3008FED65F71C459"
+				"0936769874A5F740"
+			]
+			id: "3063F232F801D089"
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "6A331B95C454D30D"
+				item: "gtocore:uhv_fusion_reactor"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["44126973CFF5550D"]
+			id: "506E6C56FF4B5C0B"
+			tasks: [{
+				id: "22A861F44023FD98"
+				item: "gtceu:carbon_nanotubes_ingot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"11E334686F113560"
+				"38CD9E5F805E3CF3"
+				"10B0D1A4D9551754"
+				"158711C338008AF3"
+				"43C8DF0B0D87F834"
+				"7334C4D477F91296"
+			]
+			id: "2711E6516920E825"
+			tasks: [{
+				id: "6596739A0934A935"
+				item: "gtocore:optical_processing_core"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2711E6516920E825"]
+			description: ["使用光来以最快的速度传递信息，通过调整频率来执行模拟计算。"]
+			id: "460277B62B964613"
+			tasks: [{
+				id: "361E652DBDE8C652"
+				item: "gtocore:optical_processor"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["460277B62B964613"]
+			id: "5B1757594AE08A2A"
+			tasks: [{
+				id: "635363238E37429D"
+				item: "gtocore:optical_assembly"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"5B1757594AE08A2A"
+				"5CD56CD71662D4A7"
+			]
+			id: "362C5064150C4F26"
+			tasks: [{
+				id: "4656D43F66C740C6"
+				item: "gtocore:optical_computer"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"362C5064150C4F26"
+				"6B990D7D964DF559"
+			]
+			id: "783379F3A7557CEE"
+			tasks: [{
+				id: "30416700DDAFB1E4"
+				item: "gtocore:optical_mainframe"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["76BAF48FA9D845C6"]
+			id: "11E334686F113560"
+			tasks: [
+				{
+					id: "6D049619508BA8B3"
+					item: "gtocore:low_frequency_laser"
+					type: "item"
+				}
+				{
+					id: "5B5107A72FF57A66"
+					item: "gtocore:medium_frequency_laser"
+					type: "item"
+				}
+				{
+					id: "6F17764F565B9198"
+					item: "gtocore:high_frequency_laser"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"035C470213E8B4DB"
+				"7204F1B6BCC74F1C"
+			]
+			description: ["将废料转化"]
+			id: "2FBCD8BCE586ADB8"
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				id: "1E707BD4FE3FEA6B"
+				item: "gtocore:matter_fabricator"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["384CC871242ECF6E"]
+			id: "164C87812A3A465C"
+			tasks: [{
+				id: "32508D6A4ABB9745"
+				item: "gtocore:optical_slice"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"164C87812A3A465C"
+				"5FDC7B6B4A2B24F9"
+			]
+			id: "38CD9E5F805E3CF3"
+			tasks: [{
+				id: "4FF5602FE4DEBD74"
+				item: "gtocore:optical_soc"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3BA7B0BA435252E0"]
+			description: ["电路基板材料"]
+			id: "7B8FEC11FCC03D9A"
+			tasks: [{
+				id: "6442C4D80672144D"
+				item: "gtceu:kevlar_plate"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"7204F1B6BCC74F1C"
+				"3B098EA4601A7827"
+			]
+			description: ["精密电路基板专用生产机器"]
+			id: "0CF40DD5F6239209"
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				id: "65BF39050B7B60AD"
+				item: "gtocore:pcb_factory"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"0CF40DD5F6239209"
+				"7B8FEC11FCC03D9A"
+			]
+			id: "10B0D1A4D9551754"
+			tasks: [{
+				id: "1B03550B8A3A4EAD"
+				item: "gtocore:optical_printed_circuit_board"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"776563C5BA327495"
+				"7204F1B6BCC74F1C"
+				"7EAED8E6D66C24D2"
+			]
+			description: ["需要光刻胶和算力来进行精密联合激光蚀刻"]
+			id: "42081F59690E6469"
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "6B6EF476B6430A90"
+				item: "gtocore:engraving_laser_plant"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["42081F59690E6469"]
+			hide_dependency_lines: true
+			id: "5BFA4802D228358C"
+			tasks: [{
+				id: "7D3290423A198D18"
+				item: "gtocore:raw_photon_carrying_wafer"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"42081F59690E6469"
+				"01433D78C43AD215"
+			]
+			id: "3008FED65F71C459"
+			tasks: [{
+				id: "7AC4A6AA9FC19537"
+				item: "gtocore:nm_chip"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7C23CC6ADDC33EA0"]
+			description: ["先进的材料"]
+			id: "55C57FADEE874B97"
+			tasks: [{
+				id: "637385F4CC2A5DD4"
+				item: "gtceu:fullerene_dust"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7C23CC6ADDC33EA0"]
+			icon: "gtceu:cycloparaphenylene_bucket"
+			id: "44126973CFF5550D"
+			tasks: [{
+				id: "627E2BBAD46042E6"
+				title: "环对苯撑"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4BFA114E12BCB163"]
+			icon: "gtceu:polyurethaneresin_bucket"
+			id: "3BA7B0BA435252E0"
+			tasks: [{
+				id: "498EA9D0F4BBAF8B"
+				title: "聚氨脂树脂"
+				type: "checkmark"
+			}]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"5BFA4802D228358C"
+				"506E6C56FF4B5C0B"
+			]
+			id: "384CC871242ECF6E"
+			tasks: [{
+				id: "16B3499EBAEFA108"
+				item: "gtocore:optical_wafer"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["035C470213E8B4DB"]
+			id: "0936769874A5F740"
+			tasks: [{
+				id: "1557E8CF828FFBEA"
+				item: "gtceu:uhv_energy_input_hatch"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["776563C5BA327495"]
+			description: ["UEV的基础材料"]
+			id: "713FF88279AD9A31"
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "4FAE8DB663013B5C"
+				item: "gtceu:quantanium_ingot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7AE40ADC74AAA54B"]
+			description: ["新的单晶硅，目前不需要"]
+			id: "01433D78C43AD215"
+			tasks: [{
+				id: "4F8AB9CCDC8174BC"
+				item: "gtocore:rutherfordium_neutronium_boule"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["53DEE1A65051E06F"]
+			description: ["衰变锕"]
+			id: "7AE40ADC74AAA54B"
+			tasks: [{
+				id: "0EB322451B4A8795"
+				item: "gtceu:rutherfordium_dust"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"056569C44B1B5E25"
+				"5D4131C48F9BAE46"
+			]
+			description: ["不要去找矿石，衰变镭获取"]
+			id: "53DEE1A65051E06F"
+			tasks: [{
+				id: "7A9EEB0C236E8FE7"
+				item: "gtceu:actinium_dust"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			description: [
+				"从铀矿中获取（硫酸铀废液）"
+				"或者凯金化合物处理"
+			]
+			id: "056569C44B1B5E25"
+			tasks: [
+				{
+					id: "549B46CC775A28DF"
+					item: "gtceu:radium_dust"
+					type: "item"
+				}
+				{
+					id: "08E004FFFF2D9262"
+					item: "gtceu:tiny_radium_dust"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			id: "7EAED8E6D66C24D2"
+			tasks: [{
+				id: "502C400FF6B77FF5"
+				item: "gtceu:photoresist_bucket"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["55C57FADEE874B97"]
+			id: "158711C338008AF3"
+			tasks: [{
+				id: "63ACD7EDCABF66F7"
+				item: "gtceu:fullerene_doped_nanotubes_bucket"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["713FF88279AD9A31"]
+			id: "43C8DF0B0D87F834"
+			tasks: [
+				{
+					id: "4BB6C8C7F799BA54"
+					item: "gtocore:smd_capacitor_optical"
+					type: "item"
+				}
+				{
+					id: "4C378FC825DD0489"
+					item: "gtocore:smd_diode_optical"
+					type: "item"
+				}
+				{
+					id: "7EE67405A48BE7C4"
+					item: "gtocore:smd_resistor_optical"
+					type: "item"
+				}
+				{
+					id: "2BB911E50D820726"
+					item: "gtocore:smd_transistor_optical"
+					type: "item"
+				}
+				{
+					id: "7C5E8090CCD6058B"
+					item: "gtocore:smd_inductor_optical"
+					type: "item"
+				}
+			]
+			title: "光学贴片"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"09210B5E086F6E1A"
+				"2FBCD8BCE586ADB8"
+			]
+			hide_dependent_lines: true
+			id: "32A49A2CBFC934C8"
+			tasks: [{
+				id: "0B1D64CEDCD5AB9B"
+				item: "gtocore:titansteel_coil_block"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7370721CB75472C1"]
+			description: ["外星矿石"]
+			id: "09210B5E086F6E1A"
+			tasks: [{
+				id: "1434A7DE9BCD942E"
+				item: "gtceu:jasper_ore"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"12F8275FC06FCFEE"
+				"776563C5BA327495"
+			]
+			id: "7370721CB75472C1"
+			tasks: [{
+				id: "532AAB28A3CC8CD1"
+				item: "gtocore:space_drone_mk2"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3B098EA4601A7827"]
+			id: "7334C4D477F91296"
+			tasks: [{
+				id: "4DE4F39A6FE6C589"
+				item: "gtocore:bose_einstein_cooling_container"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0936769874A5F740"]
+			description: ["更简单的稀土"]
+			hide_dependency_lines: true
+			id: "5A1D557267CF4329"
+			tasks: [{
+				id: "56B353D318EB790D"
+				item: "gtocore:rare_earth_centrifugal"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7C23CC6ADDC33EA0"]
+			description: ["比较复杂的合成"]
+			id: "1F2A80B39AEA7BE3"
+			tasks: [{
+				id: "5EBA80D415BA1587"
+				item: "gtceu:hexanitrohexaaxaisowurtzitane_dust"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"1F2A80B39AEA7BE3"
+				"433793B7470FAA09"
+			]
+			description: ["还需要UIV能源仓才能用"]
+			id: "2DD8E128C6E3E41D"
+			tasks: [{
+				id: "078D60E2A5552DED"
+				item: "gtocore:naquadria_charge"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			id: "5FDC7B6B4A2B24F9"
+			tasks: [{
+				id: "2F6C3B9BD6E9DA74"
+				item: "gtocore:optical_soc_containment_housing"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2DD8E128C6E3E41D"]
+			id: "5E223597F71DB81D"
+			tasks: [{
+				id: "4AEC015F52D69587"
+				item: "gtceu:enderium_ingot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"5E223597F71DB81D"
+				"32A49A2CBFC934C8"
+			]
+			description: ["UEV超导体"]
+			hide_dependent_lines: true
+			id: "6B990D7D964DF559"
+			tasks: [{
+				id: "7681E9EB89F79679"
+				item: "gtceu:enderite_ingot"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"2DD8E128C6E3E41D"
+				"1FE5F8D737ADB1B8"
+			]
+			id: "23B418803D455368"
+			tasks: [{
+				id: "12A595464E70C437"
+				item: "gtceu:adamantium_ingot"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["32A49A2CBFC934C8"]
+			id: "1FE5F8D737ADB1B8"
+			tasks: [{
+				id: "1D082DFC064E38EA"
+				item: "gtocore:space_drone_mk3"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["2DD8E128C6E3E41D"]
+			id: "2E05225ADF4D7D31"
+			tasks: [{
+				id: "02C39E225C1D5ECD"
+				item: "gtceu:degenerate_rhenium_plate"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 9.5d
+		}
+	]
+	subtitle: ["Tier9-UHV"]
 	title: "极高压"
 }

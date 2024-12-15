@@ -7,15 +7,847 @@
 	id: "737F81E21C442B4F"
 	order_index: 5
 	quest_links: [ ]
-	quests: [{
-		id: "3C49351C10BC371B"
-		tasks: [{
-			id: "20E813A2F6FB8F84"
-			item: "gtceu:hv_machine_hull"
-			type: "item"
-		}]
-		x: 0.5d
-		y: 0.5d
-	}]
+	quests: [
+		{
+			dependencies: ["2C75EB0628CB491A"]
+			hide_dependent_lines: true
+			id: "1A48D2DB936FF632"
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "2F52039C169285CF"
+				title: "HV"
+				type: "checkmark"
+			}]
+			title: "高压HV"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["74D9136DE32F9129"]
+			id: "1EC6366E9611F2AD"
+			rewards: [{
+				id: "797DDD6D591D0FFA"
+				item: "gtceu:osmium_credit"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "0B078D6B5E8ADED5"
+				item: "gtceu:ev_machine_hull"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"26FA6E064EF9FF5B"
+				"1C320B245EAC8D14"
+			]
+			description: ["制作下个阶段的电路"]
+			id: "4DDF10E2B541BCBF"
+			rewards: [{
+				id: "3815B8B981E6F460"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "054FD71E04CD34FC"
+				item: "gtceu:hv_circuit_assembler"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4302F67F2B0B22D0"]
+			id: "26FA6E064EF9FF5B"
+			rewards: [{
+				id: "16C2721F050EF032"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1A199FD6643AADF7"
+					item: "gtceu:hv_emitter"
+					type: "item"
+				}
+				{
+					id: "49F6D41F68C1CA45"
+					item: "gtceu:hv_sensor"
+					type: "item"
+				}
+			]
+			title: "HV发射器与传感器"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"3E9C078C4BABAE3B"
+				"6B416753B41DE9D3"
+				"4967FCD7B2675E94"
+			]
+			id: "4302F67F2B0B22D0"
+			rewards: [{
+				id: "775860DEC4147D06"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "009EE8D1C5AC4CBD"
+				item: "minecraft:ender_eye"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["61049DA87C6DEFC6"]
+			id: "3E9C078C4BABAE3B"
+			rewards: [{
+				id: "45A95ECC52A47B8B"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0AA5FB1BA702DF77"
+				item: "minecraft:blaze_powder"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1A48D2DB936FF632"]
+			id: "61049DA87C6DEFC6"
+			rewards: [{
+				id: "28784D8A493C03B3"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "388AD19F722DB366"
+				item: "gtceu:hv_chemical_reactor"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			description: ["用聚爆压缩机，不过用屠宰场更方便"]
+			id: "6B416753B41DE9D3"
+			rewards: [{
+				id: "241C9174A4E2AE10"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "575D1DBEC4A5CC60"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0243CEA5EE705EB0"]
+			dependency_requirement: "one_started"
+			description: ["该淘汰旧系列电路了，推荐铭刻这一系列电路，ULV,LV使用芯片电路"]
+			id: "3FCF807491579B94"
+			rewards: [{
+				id: "62693CFE4D386654"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1259CD7048B5DE84"
+				item: "gtceu:micro_processor"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3FCF807491579B94"]
+			id: "18CA398800CC2E1B"
+			rewards: [{
+				id: "68D0EF3FC6EEA6B9"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2C8B079C13E74751"
+				item: "gtceu:micro_processor_assembly"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"18CA398800CC2E1B"
+				"46C791B2130A833B"
+			]
+			dependency_requirement: "one_completed"
+			description: ["EV电路组装前的唯一EV级电路"]
+			id: "1C320B245EAC8D14"
+			min_required_dependencies: 1
+			rewards: [{
+				id: "6B1C840CF7158D92"
+				item: "gtceu:platinum_credit"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "759C0F5C1FCC6D04"
+				item: "gtceu:micro_processor_computer"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4DDF10E2B541BCBF"]
+			id: "3461BF0D74E5E8DF"
+			rewards: [{
+				id: "4785F0739BD9FEF4"
+				item: "gtceu:osmium_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4C4E9514C39EE1F0"
+				item: "gtceu:micro_processor_mainframe"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"314E6600CD806FA0"
+				"027197A71E630966"
+			]
+			description: ["更方便"]
+			hide_dependent_lines: true
+			id: "5E9EA7E22BE663AF"
+			rewards: [{
+				id: "3AAB5D8903AA730D"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0106634910539280"
+				item: "gtceu:cleaning_maintenance_hatch"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1A48D2DB936FF632"]
+			id: "314E6600CD806FA0"
+			rewards: [{
+				id: "2D1F7CCE2173A794"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "51A8847E7B6D06D3"
+					item: "gtceu:auto_maintenance_hatch"
+					type: "item"
+				}
+				{
+					id: "5486AA825E0EE11B"
+					item: "gtceu:configurable_maintenance_hatch"
+					type: "item"
+				}
+			]
+			title: "维护两种高级仓"
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5EECD56BF0EC1539"]
+			id: "0243CEA5EE705EB0"
+			rewards: [{
+				id: "147065FBB37624B6"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0843D22E4B02D63E"
+				item: "gtceu:plastic_printed_circuit_board"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1C320B245EAC8D14"]
+			description: ["前往探索宇宙章节了解更多"]
+			id: "0931ECBAAD9252C7"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5C6C59F17A03D91D"
+					table_id: 6225023274141477362L
+					type: "loot"
+				}
+				{
+					id: "4BD4380EB0FC775D"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			tasks: [
+				{
+					id: "5A00D926C53F953B"
+					item: "ad_astra:tier_1_rocket"
+					type: "item"
+				}
+				{
+					id: "390740DDE22D203F"
+					item: "gtceu:rocket_fuel_bucket"
+					type: "item"
+				}
+				{
+					id: "0465905F269ED873"
+					item: "ad_astra:launch_pad"
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1A48D2DB936FF632"]
+			id: "5EECD56BF0EC1539"
+			rewards: [{
+				id: "57F8326FBE7A9BD0"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5009E0AA80514313"
+				item: "gtceu:plastic_circuit_board"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["26FA6E064EF9FF5B"]
+			id: "6F85AB2294DA3310"
+			rewards: [{
+				id: "02DA5E6725FF070A"
+				item: "gtceu:ancient_gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0E4B176D3DF3D8F5"
+				item: "gtocore:fishing_ground"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1C320B245EAC8D14"]
+			description: ["在EV的时候你就需要大量的奇奇怪怪的化工原料，现在不把石化生化联合产线搭好，后面EV会非常坐牢"]
+			id: "2EAAF5A6510D0EFE"
+			rewards: [{
+				id: "5BAC2973956359FC"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1A9ABA22BF878A3D"
+					item: "gtceu:distillation_tower"
+					type: "item"
+				}
+				{
+					id: "466980CCE6FBFDF7"
+					item: "gtceu:cracker"
+					type: "item"
+				}
+				{
+					id: "44B80ADCCEE1ECE4"
+					item: "gtceu:pyrolyse_oven"
+					type: "item"
+				}
+			]
+			title: "石化生化产线"
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1C320B245EAC8D14"]
+			id: "027197A71E630966"
+			rewards: [{
+				id: "32C398A7D50E0057"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "67020EF8AE962E62"
+				item: "gtceu:vacuum_freezer"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["027197A71E630966"]
+			description: ["可以从空气中获得氦气和氩气都是烧制更高级金属的保护气"]
+			id: "2610283E00EC04E4"
+			rewards: [{
+				id: "31410A08F07C9CC3"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "438ED371C645C82D"
+				item: "gtceu:liquid_air_bucket"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1A48D2DB936FF632"]
+			id: "06F68B574AC84B7B"
+			rewards: [{
+				id: "6AA3BA15A6AB3C7C"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "13A390535ABFA12A"
+				item: "gtceu:hv_assembler"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"676D1982102F4E79"
+				"06F68B574AC84B7B"
+			]
+			id: "75DAAFAD21F1451C"
+			rewards: [{
+				id: "4BA99C2D7D2D3D75"
+				item: "gtceu:platinum_credit"
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "14FEB5E23CFFB069"
+				item: "gtceu:hv_energy_input_hatch"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0BE334D9B0575DCD"]
+			id: "0A8178183C888BE0"
+			rewards: [{
+				id: "47533DAABD2949AB"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3E9AD74BC94DB5D5"
+				item: "gtceu:hv_cutter"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"0A8178183C888BE0"
+				"5E9EA7E22BE663AF"
+			]
+			dependency_requirement: "one_completed"
+			description: ["你得把切割机放在通用加工厂，然后装上超净维护仓"]
+			id: "676D1982102F4E79"
+			min_required_dependencies: 1
+			rewards: [{
+				id: "73D294571F48A5E9"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6B2D53D953086706"
+				item: "gtceu:lpic_chip"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["47E43CE78A75BB63"]
+			id: "0BE334D9B0575DCD"
+			rewards: [{
+				id: "4987CEA2B2050E6C"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4394414AFDD8E56B"
+				item: "gtceu:lpic_wafer"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4967FCD7B2675E94"]
+			id: "47E43CE78A75BB63"
+			rewards: [{
+				id: "5C692C08A161917E"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "45AA5B60D5D7B721"
+				item: "gtceu:orange_glass_lens"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1A48D2DB936FF632"]
+			id: "4967FCD7B2675E94"
+			rewards: [{
+				id: "488F9C493B727D21"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "27DFEA3AEE09C688"
+				item: "gtceu:hv_chemical_bath"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["06F68B574AC84B7B"]
+			id: "157A951DA379C259"
+			rewards: [{
+				id: "22590F01A2B5B20C"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "00D5736963F13047"
+					item: "gtceu:smd_resistor"
+					type: "item"
+				}
+				{
+					id: "444F63C98C574053"
+					item: "gtceu:smd_capacitor"
+					type: "item"
+				}
+				{
+					id: "7CAE6607D1EA81D0"
+					item: "gtceu:smd_diode"
+					type: "item"
+				}
+				{
+					id: "4DDE442739B2FDC1"
+					item: "gtceu:smd_inductor"
+					type: "item"
+				}
+				{
+					id: "0CDB1B3E7BB73C38"
+					item: "gtceu:smd_transistor"
+					type: "item"
+				}
+			]
+			title: "贴片"
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["61049DA87C6DEFC6"]
+			dependency_requirement: "one_completed"
+			description: ["聚四氟乙烯，简称PTFE是一种独特的塑料材料，具有卓越的化学稳定性、耐热性、低摩擦系数和非粘性表面，用作化学加工设备的零件、电子绝缘材料、泵和阀门的密封件。"]
+			id: "11186961491B1773"
+			rewards: [{
+				id: "50D9BD8E2FED65CF"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3E80F0C58C4A3699"
+				item: "gtceu:polytetrafluoroethylene_ingot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["11186961491B1773"]
+			id: "29450DC426C4E2D6"
+			rewards: [{
+				id: "50F14222E01C7EAC"
+				item: "gtceu:platinum_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "42EC7CCD50B1D828"
+				item: "gtceu:large_chemical_reactor"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["027197A71E630966"]
+			description: ["这种合金具有优异的耐腐蚀性、耐高温性和机械性能，常用于制造耐热、耐腐蚀的设备和部件。"]
+			id: "6843AB3573F42310"
+			rewards: [{
+				id: "4521C94E7C8BF69B"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "07F31D51E577D06C"
+				item: "gtceu:nichrome_ingot"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6843AB3573F42310"]
+			id: "42E88FC72902FC0B"
+			rewards: [{
+				id: "6C2BC13971660863"
+				item: "gtceu:platinum_credit"
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "25491710B97DE83B"
+				item: "gtceu:nichrome_coil_block"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["0931ECBAAD9252C7"]
+			id: "360787FE602FBF66"
+			rewards: [{
+				id: "2E4680FA75010FFB"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6FE53B164E07E8FA"
+				item: "gtceu:rutile_dust"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["360787FE602FBF66"]
+			id: "1AC5A3B5522F78D9"
+			rewards: [{
+				id: "41EF6A90661DE31D"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "07BD08C2A849233A"
+				item: "gtceu:titanium_tetrachloride_bucket"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"1AC5A3B5522F78D9"
+				"027197A71E630966"
+			]
+			id: "74D9136DE32F9129"
+			rewards: [{
+				count: 16
+				id: "65B9C09608A9769E"
+				item: {
+					Count: 1
+					id: "gtceu:stainless_steel_fluid_cell"
+					tag: {
+						Fluid: {
+							Amount: 64000
+							FluidName: "gtceu:titanium_tetrachloride"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "18D78F45AECF373E"
+				item: "gtceu:titanium_ingot"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1A48D2DB936FF632"]
+			description: ["终于可以获得研磨的副产物了"]
+			id: "24A12D2F592DC50D"
+			rewards: [{
+				id: "5AD386A16F67A37E"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "68B4BAC1D648029B"
+				item: "gtceu:hv_macerator"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1A48D2DB936FF632"]
+			description: ["可能已经用不上了"]
+			id: "46BFDB71190C1F49"
+			rewards: [{
+				id: "21D42C7B4D0E84C3"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6B080AA23948E527"
+				item: "enderio:vibrant_alloy_ingot"
+				type: "item"
+			}]
+			title: "HV的便宜超导"
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1A48D2DB936FF632"]
+			id: "05360F828860DB6F"
+			rewards: [{
+				id: "700022A87BC01B7D"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3743494D34E98762"
+				item: "gtceu:infinite_water_cover"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1A48D2DB936FF632"]
+			id: "58936CEB6176A18B"
+			rewards: [{
+				id: "1E0838EEE472F554"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "456C48E25C1F5649"
+				item: "gtceu:implosion_compressor"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["26FA6E064EF9FF5B"]
+			description: ["你可以开始用无线电了，这样就不用为怎么连电线而烦恼了"]
+			hide_dependency_lines: true
+			id: "29BB35C725BE7D96"
+			rewards: [{
+				id: "1CEFD1341263DF3A"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [
+				{
+					id: "2B9FEFA298FDF501"
+					item: "gtmthings:wireless_energy_monitor"
+					type: "item"
+				}
+				{
+					id: "79980EFF7C9A22C5"
+					item: "gtmthings:wireless_energy_interface"
+					type: "item"
+				}
+			]
+			title: "无线传电"
+			x: -2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1A48D2DB936FF632"]
+			description: ["查看控制器描述"]
+			id: "46C791B2130A833B"
+			rewards: [{
+				count: 64
+				id: "7D16EBA9FE10BE1A"
+				item: "gtceu:plascrete"
+				type: "item"
+			}]
+			tasks: [{
+				id: "58D9C40EEF22D487"
+				item: "gtceu:cleanroom"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1A48D2DB936FF632"]
+			description: ["玩具"]
+			id: "0752A7F2C67CDF76"
+			tasks: [{
+				id: "44035FCFBB02978D"
+				item: "gtocore:desulfurizer"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["75DAAFAD21F1451C"]
+			description: ["无线电"]
+			id: "5ED5057E6BE19AC1"
+			tasks: [{
+				id: "4C0D340D9569E671"
+				item: "gtmthings:hv_2a_wireless_energy_input_hatch"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+	]
+	subtitle: ["Tier3-HV"]
 	title: "高压"
 }

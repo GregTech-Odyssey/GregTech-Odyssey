@@ -6,16 +6,656 @@
 	icon: "gtocore:nano_forge"
 	id: "7D815C5C7CE4821E"
 	order_index: 9
-	quest_links: [ ]
-	quests: [{
-		id: "1F50407EF935C0DC"
-		tasks: [{
-			id: "64B9A1FA5BE07E07"
-			item: "gtceu:zpm_machine_hull"
-			type: "item"
-		}]
-		x: -1.0d
-		y: -1.0d
-	}]
+	quest_links: [
+		{
+			id: "5EEBF7A4BECF0BAA"
+			linked_quest: "0B89B3108EB4A01F"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			id: "0A5828AFCC7D442F"
+			linked_quest: "0485D45408234C99"
+			shape: "rsquare"
+			size: 2.0d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "46BFC6BCC3440819"
+			linked_quest: "4A058FA1859A00D1"
+			x: 0.0d
+			y: 4.0d
+		}
+	]
+	quests: [
+		{
+			dependencies: [
+				"38D23D186C444492"
+				"5E9E2F25AE1EC731"
+			]
+			description: ["适合做生物研究"]
+			id: "04B1D03A3FE114F1"
+			tasks: [
+				{
+					id: "42A2A3DE0D71F79C"
+					item: "gtceu:sterilizing_filter_casing"
+					type: "item"
+				}
+				{
+					id: "42A0398691BDA897"
+					item: "gtocore:sterile_cleaning_maintenance_hatch"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"4DD127E33DCEC616"
+				"0B89B3108EB4A01F"
+				"233CA36D529EC3FB"
+				"4ECACC2A6159D332"
+				"298369255C8130F7"
+				"4A058FA1859A00D1"
+				"52DF531AFB3A07CE"
+				"5D980DBF92017008"
+			]
+			description: ["更进一步"]
+			id: "77759D1FE48F958B"
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "00D112DFCD012D77"
+				item: "gtceu:zpm_fusion_reactor"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"77759D1FE48F958B"
+				"6A59FA11D10C648A"
+			]
+			id: "38D23D186C444492"
+			tasks: [{
+				id: "33183645B439CFDB"
+				item: "gtceu:tritanium_ingot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["503C03C654730F65"]
+			description: ["制作方式变了"]
+			id: "051792ED136C96D0"
+			tasks: [{
+				id: "7DFA913411D706CB"
+				item: "gtceu:wetware_circuit_board"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["04B1D03A3FE114F1"]
+			icon: "gtceu:bacteria_bucket"
+			id: "503C03C654730F65"
+			tasks: [{
+				id: "67D7250ABEBDE5E2"
+				title: "细菌产线"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"503C03C654730F65"
+				"079FEA1875012A69"
+			]
+			id: "64EAB77978C87CE9"
+			tasks: [{
+				id: "6B0EF909ED8DFCFD"
+				item: "gtceu:stem_cells"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"64EAB77978C87CE9"
+				"7EFC2C7FF6FFF1F7"
+			]
+			id: "46855799A4471E34"
+			tasks: [{
+				id: "0623E66A9C488A49"
+				item: "gtceu:neuro_processing_unit"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["46855799A4471E34"]
+			description: ["使用有机培养的干细胞与电子刺激相互作用，快速执行大规模计算。"]
+			id: "425D7CD010B9C90E"
+			tasks: [{
+				id: "1C1B32F4B3E713A2"
+				item: "gtceu:wetware_processor"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["425D7CD010B9C90E"]
+			id: "582AFD622AA67792"
+			tasks: [{
+				id: "63AC52623C55FBD6"
+				item: "gtceu:wetware_processor_assembly"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["582AFD622AA67792"]
+			id: "7CF037F2C4BF55B5"
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "5E77549BE2B175D2"
+				item: "gtceu:wetware_processor_computer"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["77759D1FE48F958B"]
+			id: "7C23CC6ADDC33EA0"
+			tasks: [{
+				id: "68B49A32B28AECEA"
+				item: "gtceu:darmstadtium_ingot"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["77759D1FE48F958B"]
+			id: "73C70C42B7EF5D4F"
+			tasks: [{
+				id: "1E7062E4355C5661"
+				item: "gtceu:americium_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["38D23D186C444492"]
+			id: "59CA7B4A4A417B53"
+			tasks: [{
+				id: "660C7300DF6A9A97"
+				item: "gtceu:tritanium_coil_block"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"59CA7B4A4A417B53"
+				"52DF531AFB3A07CE"
+				"6A59FA11D10C648A"
+			]
+			description: ["UV超导体"]
+			id: "62D2B830A98424BB"
+			tasks: [{
+				id: "188D424E2FE3A663"
+				item: "gtceu:enriched_naquadah_trinium_europium_duranide_ingot"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"7CF037F2C4BF55B5"
+				"5E86110BBAEA92BA"
+			]
+			id: "0A2D46609F5C3CAB"
+			tasks: [{
+				id: "31A360FB27D6251A"
+				item: "gtceu:wetware_processor_mainframe"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["7C23CC6ADDC33EA0"]
+			description: ["在下个阶段需要很多"]
+			id: "5D4131C48F9BAE46"
+			shape: "rsquare"
+			tasks: [{
+				id: "271AD42D98889163"
+				item: "gtocore:decay_hastener"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"5B01312E34A3AD60"
+				"0F22A8CE63F369CA"
+				"52DF531AFB3A07CE"
+				"4172820CE8E15F90"
+			]
+			id: "4DD127E33DCEC616"
+			tasks: [{
+				id: "5E1809039C58C20B"
+				item: "gtceu:fusion_coil"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0A2D46609F5C3CAB"]
+			description: ["更快，物品需有序输入，每个输入总线只能包含一个物品"]
+			id: "172FC2F2B20CD187"
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				id: "1F71F073D091459C"
+				item: "gtocore:advanced_assembly_line"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"38D23D186C444492"
+				"62D2B830A98424BB"
+			]
+			description: [
+				"一台计算机提供的算力是不够的，如果要合并算力就需要这台机器"
+				"在使用前确保计算机上安装了桥接组件"
+			]
+			id: "5E86110BBAEA92BA"
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "1DF9E2E28B0FC970"
+				item: "gtceu:network_switch"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"5D4131C48F9BAE46"
+				"7C4C11E7C931C01B"
+			]
+			description: ["以后需要"]
+			id: "2802E34A99CE1D79"
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				id: "30BC4BA2F6A606D5"
+				item: "gtocore:super_particle_collider"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"0507FDF7BECE29AF"
+				"52DF531AFB3A07CE"
+			]
+			id: "5E9E2F25AE1EC731"
+			tasks: [{
+				id: "3C99AB623FB588D4"
+				item: "gtceu:zpm_emitter"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"0B89B3108EB4A01F"
+				"5E9E2F25AE1EC731"
+			]
+			hide_dependent_lines: true
+			id: "7C4C11E7C931C01B"
+			tasks: [{
+				id: "1A1852A8E4DD94CF"
+				item: "gtceu:zpm_field_generator"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0A2D46609F5C3CAB"]
+			description: ["OP"]
+			id: "35C61EF7C0FBD32F"
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				id: "64C7755B5517C918"
+				item: "gtocore:integrated_ore_processor"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["0A2D46609F5C3CAB"]
+			description: ["输入石油，输出产物"]
+			id: "61838E13426B2B88"
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				id: "6FEB78AB1D5BDDCA"
+				item: "gtocore:petrochemical_plant"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"7C4C11E7C931C01B"
+				"04B1D03A3FE114F1"
+			]
+			description: ["前往太阳系之外"]
+			id: "7FD1D1D8ED72D40C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4A3E3E76042A9371"
+					table_id: 6225023274141477362L
+					type: "loot"
+				}
+				{
+					id: "6F94E7148AB739BF"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			tasks: [
+				{
+					id: "50DBDD703AB9CE43"
+					item: {
+						Count: 1
+						id: "ad_astra_rocketed:tier_7_rocket"
+						tag: {
+							BotariumData: {
+								StoredFluids: [{
+									Amount: 0L
+									Fluid: "minecraft:empty"
+								}]
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0B69AA49652FBF95"
+					item: "gtceu:stellar_energy_rocket_fuel_bucket"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7FD1D1D8ED72D40C"]
+			description: ["打开实体模式来提高概率"]
+			id: "079FEA1875012A69"
+			tasks: [
+				{
+					count: 4L
+					id: "32F1F3F299981C4F"
+					item: "gtocore:glacio_spirit"
+					type: "item"
+				}
+				{
+					id: "45AEED77FD63ABEE"
+					item: {
+						Count: 1
+						id: "enderio:powered_spawner"
+						tag: {
+							BlockEntityTag: {
+								EntityStorage: {
+									Entity: {
+										id: "ad_astra:glacian_ram"
+									}
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["64EAB77978C87CE9"]
+			description: ["纳米机器人"]
+			id: "02F523E003E1C93D"
+			tasks: [{
+				id: "7DB73D0297CC571A"
+				item: "gtceu:carbon_nanites"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["02F523E003E1C93D"]
+			description: ["大批量纳米机器人生产"]
+			id: "3B098EA4601A7827"
+			tasks: [{
+				id: "429C36800C493E79"
+				item: "gtocore:nano_forge"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5E9E2F25AE1EC731"]
+			id: "6C24E5BA18FE8CF5"
+			tasks: [
+				{
+					id: "230E8001CE426D4F"
+					item: "gtmthings:wireless_computation_transmitter_hatch"
+					type: "item"
+				}
+				{
+					id: "3536A2F8BBFA6517"
+					item: "gtmthings:wireless_computation_receiver_hatch"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0485D45408234C99"]
+			id: "5D980DBF92017008"
+			tasks: [{
+				id: "1E867C12E424C07B"
+				item: "gtceu:zpm_energy_input_hatch"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			can_repeat: false
+			dependencies: ["051792ED136C96D0"]
+			id: "7EFC2C7FF6FFF1F7"
+			tasks: [{
+				id: "1BB25071E7E00C66"
+				item: "gtceu:wetware_printed_circuit_board"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7EFC2C7FF6FFF1F7"]
+			id: "5C4B11CEA53D5B78"
+			tasks: [{
+				id: "4B5ADAE9ED77C366"
+				item: "gtceu:data_module"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5C4B11CEA53D5B78"]
+			description: ["含有无法挖掘的矿物"]
+			id: "6DDE77C23FC5D067"
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				id: "0F730F8E535FA432"
+				item: "gtocore:large_void_miner"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5C4B11CEA53D5B78"]
+			description: ["效率更高"]
+			id: "52980D117AB477B2"
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				id: "2E8C86DE512279CC"
+				item: "gtocore:void_fluid_drilling_rig"
+				type: "item"
+			}]
+			title: "来自虚空"
+			x: 12.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"53D0B2B73387C7CE"
+				"042A0E98DC1084B3"
+			]
+			description: [" 磁共振电路！启动！"]
+			id: "0DC5BFACB3D4BC95"
+			tasks: [{
+				id: "4A9623D2D33B88B9"
+				item: "gtceu:magneto_resonatic_dust"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6DDE77C23FC5D067"]
+			description: ["锆在木卫三，另一个只能虚空采矿了"]
+			id: "042A0E98DC1084B3"
+			tasks: [
+				{
+					id: "0B436E19F0479E87"
+					item: "gtceu:zirconium_dust"
+					type: "item"
+				}
+				{
+					id: "3EE902C024F94F0D"
+					item: "gtceu:tellurium_dust"
+					type: "item"
+				}
+			]
+			title: "锆与碲"
+			x: 14.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0485D45408234C99"]
+			description: ["这个时候你也可以做大型的"]
+			hide_dependency_lines: true
+			id: "41201C74CC5F7B90"
+			tasks: [{
+				id: "569902AC45012A06"
+				item: "gtocore:block_conversion_room"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["41201C74CC5F7B90"]
+			id: "35D158AD5036923D"
+			tasks: [{
+				id: "7A39828F0956F250"
+				item: "gtocore:essence"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["35D158AD5036923D"]
+			description: ["各种矿脉精华用于大型虚空采矿场的精准模式"]
+			id: "68D3E6670941A3F5"
+			tasks: [
+				{
+					id: "158FBB1423A51456"
+					title: "各种的矿脉精华"
+					type: "checkmark"
+				}
+				{
+					id: "7F6335B6B66015CD"
+					item: "gtocore:incubator"
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0485D45408234C99"]
+			description: [
+				"保证机器总辐射量在配方需要量的+-5范围内"
+				"辐射量会随时间降低，最低为初始的一半，可以使用多个放射仓来获得恒定的辐射量"
+				"可以调节抑制量来降低辐射，实际辐射=辐射-抑制"
+			]
+			hide_dependency_lines: true
+			id: "70DD3C9831060B3A"
+			ignore_reward_blocking: true
+			tasks: [{
+				id: "2B7A9EAF5ACEC0E3"
+				item: "gtocore:radiation_hatch"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 8.0d
+		}
+	]
+	subtitle: ["Tier7-ZPM"]
 	title: "零点压"
 }

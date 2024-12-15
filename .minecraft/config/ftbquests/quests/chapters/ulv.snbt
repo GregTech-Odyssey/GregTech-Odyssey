@@ -9,24 +9,29 @@
 	quest_links: [{
 		id: "5A5D92BE0837322B"
 		linked_quest: "58B19A3954527732"
-		x: 0.5d
-		y: 2.5d
+		shape: "rsquare"
+		size: 2.0d
+		x: -1.0d
+		y: 1.5d
 	}]
 	quests: [
 		{
 			dependencies: ["61702BEADCE91863"]
 			id: "300B64E908723A50"
+			size: 2.0d
 			tasks: [{
 				id: "02032694FF7ED849"
 				item: "gtceu:ulv_machine_hull"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -0.5d
+			x: -4.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["300B64E908723A50"]
 			id: "2B8A3EDB4C466DFB"
+			shape: "square"
+			size: 1.5d
 			tasks: [
 				{
 					id: "0C675ABC7759BBBB"
@@ -59,8 +64,8 @@
 					type: "item"
 				}
 			]
-			x: -0.5d
-			y: -0.5d
+			x: -1.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["2B8A3EDB4C466DFB"]
@@ -71,8 +76,8 @@
 				item: "gtocore:ulv_semi_fluid"
 				type: "item"
 			}]
-			x: 0.5d
-			y: -1.5d
+			x: -1.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["2B8A3EDB4C466DFB"]
@@ -83,8 +88,8 @@
 				item: "gtocore:ulv_thermal_generator"
 				type: "item"
 			}]
-			x: -0.5d
-			y: -1.5d
+			x: -2.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["2B8A3EDB4C466DFB"]
@@ -95,19 +100,21 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: -0.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["1CA6E1AD1909373A"]
 			description: ["方便配方"]
 			id: "26C9C65E15B341A6"
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "68415E0B812AF7DC"
 				item: "gtceu:vacuum_tube"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -0.5d
+			x: 2.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["11FC35FC0409E3AC"]
@@ -129,19 +136,19 @@
 				item: "gtocore:ulv_wind_mill_turbine"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -1.5d
+			x: -4.0d
+			y: -4.5d
 		}
 		{
-			dependencies: ["67C9AF6521C378E9"]
 			id: "0861FADA4103BCA5"
+			shape: "diamond"
 			tasks: [{
 				id: "0BF38B527AFB1389"
 				item: "gtceu:oil_bucket"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 0.5d
+			x: -5.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["2B8A3EDB4C466DFB"]
@@ -151,8 +158,8 @@
 				item: "gtocore:steam_cracker"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 0.5d
+			x: 0.5d
+			y: -4.5d
 		}
 		{
 			dependencies: [
@@ -165,8 +172,8 @@
 				item: "gtocore:primitive_distillation_tower"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 0.5d
+			x: -4.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["2B8A3EDB4C466DFB"]
@@ -176,8 +183,8 @@
 				item: "gtocore:ulv_chemical_reactor"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 1.5d
+			x: -1.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["2B8A3EDB4C466DFB"]
@@ -187,8 +194,8 @@
 				item: "gtocore:ulv_fluid_solidifier"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 2.5d
+			x: -2.5d
+			y: -0.5d
 		}
 		{
 			dependencies: [
@@ -201,8 +208,8 @@
 				item: "gtceu:polyethylene_plate"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 2.5d
+			x: -2.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["27F4D9739FE33A02"]
@@ -212,8 +219,8 @@
 				item: "gtocore:air_vent"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 2.5d
+			x: -4.0d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -227,18 +234,20 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 0.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["07EA49FD73BCF45F"]
 			id: "5EAB776CB6CFC91C"
+			shape: "diamond"
+			size: 1.5d
 			tasks: [{
 				id: "7624367D92EA7611"
 				item: "gtceu:resistor"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 0.5d
+			x: 2.5d
+			y: -0.5d
 		}
 		{
 			dependencies: [
@@ -246,12 +255,14 @@
 				"53109F7472C0B443"
 			]
 			id: "0FBE7318DFBA700E"
+			shape: "rsquare"
+			size: 2.0d
 			tasks: [{
 				id: "7038301353A30474"
 				item: "gtceu:basic_electronic_circuit"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 2.5d
 			y: 1.5d
 		}
 		{
@@ -273,8 +284,8 @@
 				item: "gtceu:bronze_large_boiler"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 2.5d
+			x: 4.5d
+			y: 1.5d
 		}
 	]
 	title: "超低压"

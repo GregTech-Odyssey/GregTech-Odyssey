@@ -841,20 +841,6 @@ ServerEvents.recipes(event => {
             .duration(400)
     })
 
-    gtr.assembler("gtocore:ulv_huge_item_import_bus")
-        .inputFluids("gtceu:soldering_alloy 144")
-        .itemInputs("gtceu:ulv_input_bus", "gtocore:ulv_robot_arm", "gtceu:bronze_crate", "4x #gtceu:circuits/ulv", "4x gtceu:wrought_iron_plate")
-        .itemOutputs("gtmthings:ulv_huge_item_import_bus")
-        .EUt(7)
-        .duration(200)
-
-    gtr.assembler("gtocore:ulv_huge_item_export_bus")
-        .inputFluids("gtceu:soldering_alloy 144")
-        .itemInputs("gtceu:ulv_output_bus", "gtocore:ulv_robot_arm", "gtceu:bronze_crate", "4x #gtceu:circuits/ulv", "4x gtceu:wrought_iron_plate")
-        .itemOutputs("gtmthings:ulv_huge_item_export_bus")
-        .EUt(7)
-        .duration(200)
-
     gtr.assembler("gtocore:magneto_hydro_dynamically_con_strained_star_matter_helmet")
         .notConsumable("gtceu:spacetime_nanites")
         .notConsumable("gtceu:cosmic_neutronium_nanites")
