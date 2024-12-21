@@ -25,6 +25,7 @@
 .minecraft/*.json
 .minecraft/config/oculus.properties
 .minecraft/config/xaerominimap_entities.json
+.minecraft/config/spark
 .minecraft/mods/.index/
 .minecraft/kubejs/jsconfig.json
 .minecraft/kubejs/config/probejs.json

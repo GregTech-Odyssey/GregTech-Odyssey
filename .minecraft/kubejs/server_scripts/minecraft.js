@@ -121,7 +121,7 @@ ServerEvents.recipes((event) => {
     gtr.arc_generator("gtocore:nether_star_dust")
         .itemInputs("gtceu:diamond_dust", "gtceu:iridium_dust")
         .inputFluids("gtceu:rocket_fuel 1000", "gtceu:nether_air 8000")
-        .itemOutputs("gtceu:nether_star_dust")
+        .itemOutputs("3x gtceu:nether_star_dust")
         .duration(200)
         .EUt(480)
         .addCondition(new GravityCondition(true))
@@ -237,10 +237,9 @@ ServerEvents.recipes((event) => {
         .cleanroom(CleanroomType.CLEANROOM)
 
     gtr.assembler("gtocore:netherite_upgrade_smithing_template")
-        .circuit(2)
-        .notConsumable("minecraft:netherite_upgrade_smithing_template")
+        .itemInputs("minecraft:netherite_upgrade_smithing_template")
         .itemInputs("7x gtceu:diamond_dust", "minecraft:netherrack")
-        .itemOutputs("minecraft:netherite_upgrade_smithing_template")
+        .itemOutputs("2x minecraft:netherite_upgrade_smithing_template")
         .EUt(480)
         .duration(200)
 

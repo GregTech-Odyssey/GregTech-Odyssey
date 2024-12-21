@@ -333,7 +333,7 @@ ServerEvents.recipes(event => {
     ], {
         A: "gtceu:electric_blast_furnace",
         C: "gtceu:iv_field_generator",
-        D: "gtocore:blaze_blast_furnace_casing"
+        D: "gtocore:blaze_casing"
     })
 
     event.shaped("gtocore:large_cracker", [

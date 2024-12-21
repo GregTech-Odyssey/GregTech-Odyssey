@@ -286,10 +286,10 @@ ServerEvents.recipes(event => {
         .duration(2000)
         .blastFurnaceTemp(8000)
 
-    gtr.reaction_furnace("gtocore:blaze_blast_furnace_casing")
+    gtr.reaction_furnace("gtocore:blaze_casing")
         .itemInputs("gtceu:high_temperature_smelting_casing", "32x gtceu:tin_foil")
         .inputFluids("gtceu:blaze 1440", "gtceu:gallium_arsenide 576", "gtceu:vanadium_gallium 288")
-        .itemOutputs("gtocore:blaze_blast_furnace_casing")
+        .itemOutputs("gtocore:blaze_casing")
         .EUt(1920)
         .duration(900)
         .blastFurnaceTemp(4500)

@@ -93,7 +93,7 @@ ServerEvents.recipes((event) => {
     gtr.forming_press("gtocore:logic_processor")
         .notConsumable("ae2:silicon_press")
         .notConsumable("ae2:logic_processor_press")
-        .itemInputs("gtceu:gold_plate", "ae2:silicon","gtceu:redstone_plate")
+        .itemInputs("gtceu:gold_plate", "ae2:silicon", "gtceu:redstone_plate")
         .itemOutputs("ae2:logic_processor")
         .duration(200)
         .EUt(30)
@@ -109,7 +109,7 @@ ServerEvents.recipes((event) => {
     gtr.forming_press("gtocore:calculation_processor")
         .notConsumable("ae2:silicon_press")
         .notConsumable("ae2:calculation_processor_press")
-        .itemInputs("gtceu:certus_quartz_plate", "ae2:silicon","gtceu:redstone_plate")
+        .itemInputs("gtceu:certus_quartz_plate", "ae2:silicon", "gtceu:redstone_plate")
         .itemOutputs("ae2:calculation_processor")
         .duration(200)
         .EUt(30)
@@ -139,7 +139,7 @@ ServerEvents.recipes((event) => {
         .EUt(480)
 
     gtr.mixer("gtocore:fluix_dust")
-        .itemInputs("gtceu:nether_quartz_dust","ae2:certus_quartz_dust","minecraft:redstone")
+        .itemInputs("gtceu:nether_quartz_dust", "ae2:certus_quartz_dust", "minecraft:redstone")
         .itemOutputs("3x ae2:fluix_dust")
         .duration(200)
         .EUt(16)
@@ -180,21 +180,10 @@ ServerEvents.recipes((event) => {
     gtr.assembler("gtocore:blank_pattern")
         .itemInputs(
             "3x ad_astra:steel_plate",
-            "2x gtceu:polyethylene_plate",
+            "2x gtceu:polyvinyl_chloride_plate",
             "4x gtceu:red_alloy_plate",
             "#gtceu:circuits/hv")
         .itemOutputs("ae2:blank_pattern")
-        .inputFluids("gtceu:glass 144")
-        .duration(200)
-        .EUt(120)
-
-    gtr.assembler("gtocore:blank_pattern_good")
-        .itemInputs(
-            "3x ad_astra:steel_plate",
-            "2x gtceu:polyvinyl_chloride_plate",
-            "4x gtceu:red_alloy_plate",
-            "#gtceu:circuits/ev")
-        .itemOutputs("4x ae2:blank_pattern")
         .inputFluids("gtceu:glass 288")
         .duration(200)
         .EUt(120)
@@ -204,8 +193,8 @@ ServerEvents.recipes((event) => {
             "3x ad_astra:steel_plate",
             "2x gtceu:polytetrafluoroethylene_plate",
             "4x gtceu:red_alloy_plate",
-            "#gtceu:circuits/iv")
-        .itemOutputs("16x ae2:blank_pattern")
+            "#gtceu:circuits/ev")
+        .itemOutputs("2x ae2:blank_pattern")
         .inputFluids("gtceu:glass 576")
         .duration(200)
         .EUt(480)
@@ -215,11 +204,11 @@ ServerEvents.recipes((event) => {
             "3x ad_astra:steel_plate",
             "2x gtceu:polybenzimidazole_plate",
             "4x gtceu:red_alloy_plate",
-            "#gtceu:circuits/luv")
-        .itemOutputs("64x ae2:blank_pattern")
+            "#gtceu:circuits/iv")
+        .itemOutputs("8x ae2:blank_pattern")
         .inputFluids("gtceu:glass 1152")
         .duration(200)
-        .EUt(480)
+        .EUt(1920)
 
     gtr.macerator("gtocore:sky_dust")
         .itemInputs("ae2:sky_stone_block")
