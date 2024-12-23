@@ -1,7 +1,7 @@
 {
 	id: "64331530B697F6D5"
 	loot_size: 1
-	order_index: 5
+	order_index: 4
 	rewards: [
 		{ count: 64, item: "minecraft:oak_planks" }
 		{ count: 64, item: "minecraft:spruce_planks" }

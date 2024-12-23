@@ -1112,6 +1112,19 @@ ServerEvents.recipes(event => {
         D: "gtceu:double_steel_plate"
     })
 
+    event.shaped("gtocore:uhv_thread_hatch", [
+        "ABA",
+        "CDC",
+        "EFE"
+    ], {
+        A: "#gtceu:circuits/uev",
+        B: "gtceu:uhv_robot_arm",
+        C: "gtceu:uhv_conveyor_module",
+        D: "gtceu:uhv_parallel_hatch",
+        E: "gtceu:ruthenium_trinium_americium_neutronate_hex_wire",
+        F: "gtceu:uhv_field_generator"
+    })
+
     event.shaped("gtocore:uev_thread_hatch", [
         "ABA",
         "CDC",
