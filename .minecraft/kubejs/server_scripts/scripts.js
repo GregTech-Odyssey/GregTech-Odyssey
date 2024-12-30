@@ -274,7 +274,7 @@ ServerEvents.recipes(event => {
         "AAA"
     ], {
         A: "ae2:dense_energy_cell",
-        D: "gtceu:hv_field_generator"
+        D: "gtceu:uv_field_generator"
     })
 
     event.shaped("ae2:crafting_unit", [
