@@ -1,5 +1,5 @@
 ItemEvents.armorTierRegistry(event => {
-    event.add("magneto_hydro_dynamically_con_strained_star_matter", tier => {
+    event.add("magnetohydrodynamically_constrained_star_matter", tier => {
         tier.durabilityMultiplier = -1
         tier.slotProtections = [0, 0, 0, 0]
         tier.enchantmentValue = 10
@@ -25,17 +25,17 @@ ItemEvents.armorTierRegistry(event => {
     })
 })
 StartupEvents.registry("item", event => {
-    event.create("magneto_hydro_dynamically_con_strained_star_matter_helmet", "helmet")
-        .tier("magneto_hydro_dynamically_con_strained_star_matter")
+    event.create("magnetohydrodynamically_constrained_star_matter_helmet", "helmet")
+        .tier("magnetohydrodynamically_constrained_star_matter")
         .tag("gtceu:ppe_armor")
-    event.create("magneto_hydro_dynamically_con_strained_star_matter_chestplate", "chestplate")
-        .tier("magneto_hydro_dynamically_con_strained_star_matter")
+    event.create("magnetohydrodynamically_constrained_star_matter_chestplate", "chestplate")
+        .tier("magnetohydrodynamically_constrained_star_matter")
         .tag("gtceu:ppe_armor")
-    event.create("magneto_hydro_dynamically_con_strained_star_matter_leggings", "leggings")
-        .tier("magneto_hydro_dynamically_con_strained_star_matter")
+    event.create("magnetohydrodynamically_constrained_star_matter_leggings", "leggings")
+        .tier("magnetohydrodynamically_constrained_star_matter")
         .tag("gtceu:ppe_armor")
-    event.create("magneto_hydro_dynamically_con_strained_star_matter_boots", "boots")
-        .tier("magneto_hydro_dynamically_con_strained_star_matter")
+    event.create("magnetohydrodynamically_constrained_star_matter_boots", "boots")
+        .tier("magnetohydrodynamically_constrained_star_matter")
         .tag("gtceu:ppe_armor")
     event.create("fermium_helmet", "helmet")
         .tier("fermium")

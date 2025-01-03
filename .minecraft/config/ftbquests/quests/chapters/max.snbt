@@ -1,4 +1,5 @@
 {
+	always_invisible: true
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "max"
@@ -17,52 +18,11 @@
 			dependencies: ["48925ECBCC5D268D"]
 			description: ["借助了命令方块的力量"]
 			id: "67A81E3F7E247521"
-			tasks: [
-				{
-					id: "15D75BB0BB713D68"
-					item: {
-						Count: 1
-						id: "kubejs:magneto_hydro_dynamically_con_strained_star_matter_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "052DD5E4314038CA"
-					item: {
-						Count: 1
-						id: "kubejs:magneto_hydro_dynamically_con_strained_star_matter_chestplate"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "414803F9595967FD"
-					item: {
-						Count: 1
-						id: "kubejs:magneto_hydro_dynamically_con_strained_star_matter_leggings"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "633F0A3296C38CD5"
-					item: {
-						Count: 1
-						id: "kubejs:magneto_hydro_dynamically_con_strained_star_matter_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "531519D42146B59F"
+				item: "kubejs:magnetohydrodynamically_constrained_star_matter_helmet"
+				type: "item"
+			}]
 			x: 5.0d
 			y: 0.5d
 		}
