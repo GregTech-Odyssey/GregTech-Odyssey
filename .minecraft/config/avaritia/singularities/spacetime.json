@@ -9,13 +9,13 @@
     {
       "type": "forge:not",
       "value": {
-        "tag": "forge:ingots/spacetime",
+        "tag": "forge:gt_ingots/spacetime",
         "type": "forge:tag_empty"
       }
     }
   ],
   "ingredient": {
-    "tag": "forge:ingots/spacetime"
+    "tag": "forge:gt_ingots/spacetime"
   },
   "enabled": true,
   "recipeDisabled": false

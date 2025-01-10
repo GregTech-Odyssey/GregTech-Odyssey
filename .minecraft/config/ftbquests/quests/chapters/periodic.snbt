@@ -24,7 +24,7 @@
 			id: "23E60BBE7A49F66E"
 			tasks: [{
 				amount: 1000L
-				fluid: "gtceu:hydrogen"
+				fluid: "minecraft:water"
 				id: "3211D3C2975EE569"
 				type: "fluid"
 			}]
@@ -536,7 +536,7 @@
 			id: "034D7244E46B496D"
 			tasks: [{
 				amount: 1000L
-				fluid: "gtceu:oxygen"
+				fluid: "minecraft:water"
 				id: "760F96EEA1DC17BE"
 				type: "fluid"
 			}]

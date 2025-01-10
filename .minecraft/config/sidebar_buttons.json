@@ -6,10 +6,10 @@
 		"quests": true
 	},
 	"ftblibrary": {
-		"toggle.gamemode": false,
-		"toggle.rain": false,
-		"toggle.day": false,
-		"toggle.night": false
+		"toggle.gamemode": true,
+		"toggle.rain": true,
+		"toggle.day": true,
+		"toggle.night": true
 	},
 	"ftbessentials": {
 		"trash_can": true

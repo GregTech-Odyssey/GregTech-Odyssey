@@ -1,4 +1,3 @@
 ServerEvents.recipes(event => {
-    const gtr = event.recipes.gtceu
-    // 导出的配方
+    // 存放导出的GT配方
 })
