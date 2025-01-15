@@ -1,0 +1,30 @@
+
+[general]
+	toggle = false
+	rightClickToEdit = false
+	releaseToSelect = false
+	menuAnimation = true
+	menuButtonIcon = "minecraft:stone"
+
+[visual]
+
+	[visual.menu]
+		#Range: 0 ~ 255
+		alpha = 153
+		#Range: 0 ~ 255
+		red = 0
+		#Range: 0 ~ 255
+		green = 0
+		#Range: 0 ~ 255
+		blue = 0
+
+	[visual.select]
+		#Range: 0 ~ 255
+		alpha = 153
+		#Range: 0 ~ 255
+		red = 255
+		#Range: 0 ~ 255
+		green = 0
+		#Range: 0 ~ 255
+		blue = 0
+
