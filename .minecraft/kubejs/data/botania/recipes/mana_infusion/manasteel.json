@@ -1,0 +1,10 @@
+{
+  "type": "botania:mana_infusion",
+  "input": {
+    "item": "ad_astra:steel_ingot"
+  },
+  "mana": 3000,
+  "output": {
+    "item": "botania:manasteel_ingot"
+  }
+}

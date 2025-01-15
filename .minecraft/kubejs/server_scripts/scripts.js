@@ -630,16 +630,6 @@ ServerEvents.recipes(event => {
         C: "minecraft:stick"
     })
 
-    event.shaped("gtocore:warped_ender_pearl", [
-        "ABA",
-        "BDB",
-        "ABA"
-    ], {
-        A: "minecraft:bone_meal",
-        B: "minecraft:blaze_powder",
-        D: "minecraft:ender_pearl"
-    })
-
     event.shaped("gtocore:command_wand", [
         "  A",
         " B ",

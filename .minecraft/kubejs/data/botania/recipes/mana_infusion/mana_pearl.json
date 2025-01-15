@@ -1,0 +1,10 @@
+{
+  "type": "botania:mana_infusion",
+  "input": {
+    "item": "torchmaster:frozen_pearl"
+  },
+  "mana": 6000,
+  "output": {
+    "item": "botania:mana_pearl"
+  }
+}
