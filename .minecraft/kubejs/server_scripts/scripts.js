@@ -1,31 +1,3 @@
-ServerEvents.tags("item", event => {
-
-    const space_suit_items = ["ad_astra:netherite_space_suit_items",
-        "ad_astra:freeze_resistant_armor",
-        "ad_astra:heat_resistant_armor",
-        "ad_astra:space_suit_items"]
-
-    space_suit_items.forEach(ssitem => {
-        event.add(ssitem, ["gtceu:quarktech_chestplate",
-            "gtceu:quarktech_leggings",
-            "gtceu:quarktech_boots",
-            "gtceu:advanced_quarktech_chestplate",
-            "gtceu:quarktech_helmet",
-            "avaritia:infinity_helmet",
-            "avaritia:infinity_chestplate",
-            "avaritia:infinity_pants",
-            "avaritia:infinity_boots",
-            "kubejs:space_fermium_helmet",
-            "kubejs:space_fermium_chestplate",
-            "kubejs:space_fermium_leggings",
-            "kubejs:space_fermium_boots",
-            "kubejs:magneto_hydro_dynamically_con_strained_star_matter_helmet",
-            "kubejs:magneto_hydro_dynamically_con_strained_star_matter_chestplate",
-            "kubejs:magneto_hydro_dynamically_con_strained_star_matter_leggings",
-            "kubejs:magneto_hydro_dynamically_con_strained_star_matter_boots"])
-    })
-})
-
 ServerEvents.tags("fluid", event => {
     event.removeAll("ad_astra:tier_1_rocket_fuel")
     event.removeAll("ad_astra:tier_2_rocket_fuel")
