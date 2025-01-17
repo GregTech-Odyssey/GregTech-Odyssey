@@ -18,4 +18,6 @@ disableItemRender = false
 	#Size multiplier of oversize interface
 	#Range: 2 ~ 4096
 	oversize_interface_multiplier = 4096
+	#Set multiplier for specific AEKeyType in oversize interface
+	custom_oversize_interface_multiplier = ["appbot:mana 2", "appflux:flux 4"]
 
