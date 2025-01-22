@@ -43,12 +43,12 @@ ServerEvents.recipes(event => {
     event.shapeless(Item.of("gtceu:tiny_flint_dust", 2), "gtceu:small_flint_dust")
     event.shapeless("gtocore:suprachronal_assembly_line_module", "gtocore:suprachronal_assembly_line")
     event.shapeless("gtocore:suprachronal_assembly_line", "gtocore:suprachronal_assembly_line_module")
-    event.shapeless("gtceu:spacetime_small_fluid_pipe", ["gtceu:spacetime_tiny_fluid_pipe", "gtceu:spacetime_tiny_fluid_pipe"])
-    event.shapeless("gtceu:spacetime_normal_fluid_pipe", ["gtceu:spacetime_small_fluid_pipe", "gtceu:spacetime_small_fluid_pipe"])
-    event.shapeless("gtceu:spacetime_quadruple_fluid_pipe", ["gtceu:spacetime_small_fluid_pipe", "gtceu:spacetime_small_fluid_pipe", "gtceu:spacetime_small_fluid_pipe", "gtceu:spacetime_small_fluid_pipe"])
-    event.shapeless("gtceu:spacetime_nonuple_fluid_pipe", ["gtceu:spacetime_small_fluid_pipe", "gtceu:spacetime_small_fluid_pipe", "gtceu:spacetime_small_fluid_pipe", "gtceu:spacetime_small_fluid_pipe", "gtceu:spacetime_small_fluid_pipe", "gtceu:spacetime_small_fluid_pipe", "gtceu:spacetime_small_fluid_pipe", "gtceu:spacetime_small_fluid_pipe", "gtceu:spacetime_small_fluid_pipe"])
-    event.shapeless("gtceu:spacetime_large_fluid_pipe", ["gtceu:spacetime_normal_fluid_pipe", "gtceu:spacetime_normal_fluid_pipe"])
-    event.shapeless("gtceu:spacetime_huge_fluid_pipe", ["gtceu:spacetime_large_fluid_pipe", "gtceu:spacetime_large_fluid_pipe"])
+    event.shapeless("gtocore:spacetime_small_fluid_pipe", ["gtocore:spacetime_tiny_fluid_pipe", "gtocore:spacetime_tiny_fluid_pipe"])
+    event.shapeless("gtocore:spacetime_normal_fluid_pipe", ["gtocore:spacetime_small_fluid_pipe", "gtocore:spacetime_small_fluid_pipe"])
+    event.shapeless("gtocore:spacetime_quadruple_fluid_pipe", ["gtocore:spacetime_small_fluid_pipe", "gtocore:spacetime_small_fluid_pipe", "gtocore:spacetime_small_fluid_pipe", "gtocore:spacetime_small_fluid_pipe"])
+    event.shapeless("gtocore:spacetime_nonuple_fluid_pipe", ["gtocore:spacetime_small_fluid_pipe", "gtocore:spacetime_small_fluid_pipe", "gtocore:spacetime_small_fluid_pipe", "gtocore:spacetime_small_fluid_pipe", "gtocore:spacetime_small_fluid_pipe", "gtocore:spacetime_small_fluid_pipe", "gtocore:spacetime_small_fluid_pipe", "gtocore:spacetime_small_fluid_pipe", "gtocore:spacetime_small_fluid_pipe"])
+    event.shapeless("gtocore:spacetime_large_fluid_pipe", ["gtocore:spacetime_normal_fluid_pipe", "gtocore:spacetime_normal_fluid_pipe"])
+    event.shapeless("gtocore:spacetime_huge_fluid_pipe", ["gtocore:spacetime_large_fluid_pipe", "gtocore:spacetime_large_fluid_pipe"])
 
     event.smithing("gtocore:create_hpca_component", "gtocore:command_block_core", "gtocore:super_computation_component", "gtocore:suprachronal_mainframe_complex")
     event.smithing("gtocore:create_computation", "gtocore:command_block_core", "gtceu:high_performance_computation_array", "gtocore:suprachronal_mainframe_complex")
@@ -242,354 +242,8 @@ ServerEvents.recipes(event => {
         B: "gtceu:hv_emitter",
         C: "minecraft:redstone_torch",
         D: "avaritia:compressed_crafting_table",
-        E: "gtceu:steel_block",
+        E: "ad_astra:steel_block",
         F: "gtceu:double_steel_plate"
-    })
-
-    event.custom({
-        "type": "ad_astra:nasa_workbench",
-        "ingredients": [
-            {
-                "item": "ad_astra:rocket_nose_cone"
-            },
-            {
-                "item": "gtocore:heavy_duty_plate_1"
-            },
-            {
-                "item": "gtocore:heavy_duty_plate_1"
-            },
-            {
-                "item": "gtocore:heavy_duty_plate_1"
-            },
-            {
-                "item": "gtocore:heavy_duty_plate_1"
-            },
-            {
-                "item": "gtocore:heavy_duty_plate_1"
-            },
-            {
-                "item": "gtocore:heavy_duty_plate_1"
-            },
-            {
-                "item": "ad_astra:rocket_fin"
-            },
-            {
-                "item": "ad_astra:steel_tank"
-            },
-            {
-                "item": "ad_astra:steel_tank"
-            },
-            {
-                "item": "ad_astra:rocket_fin"
-            },
-            {
-                "item": "ad_astra:rocket_fin"
-            },
-            {
-                "item": "ad_astra:steel_engine"
-            },
-            {
-                "item": "ad_astra:rocket_fin"
-            }
-        ],
-        "result": {
-            "count": 1,
-            "id": "ad_astra:tier_1_rocket"
-        }
-    })
-
-    event.custom({
-        "type": "ad_astra:nasa_workbench",
-        "ingredients": [
-            {
-                "item": "ad_astra:rocket_nose_cone"
-            },
-            {
-                "item": "gtocore:heavy_duty_plate_2"
-            },
-            {
-                "item": "gtocore:heavy_duty_plate_2"
-            },
-            {
-                "item": "gtocore:heavy_duty_plate_2"
-            },
-            {
-                "item": "gtocore:heavy_duty_plate_2"
-            },
-            {
-                "item": "gtocore:heavy_duty_plate_2"
-            },
-            {
-                "item": "gtocore:heavy_duty_plate_2"
-            },
-            {
-                "item": "ad_astra:rocket_fin"
-            },
-            {
-                "item": "ad_astra:steel_tank"
-            },
-            {
-                "item": "ad_astra:steel_tank"
-            },
-            {
-                "item": "ad_astra:rocket_fin"
-            },
-            {
-                "item": "ad_astra:rocket_fin"
-            },
-            {
-                "item": "ad_astra:steel_engine"
-            },
-            {
-                "item": "ad_astra:rocket_fin"
-            }
-        ],
-        "result": {
-            "count": 1,
-            "id": "ad_astra:tier_2_rocket"
-        }
-    })
-
-    event.custom({
-        "type": "ad_astra:nasa_workbench",
-        "ingredients": [
-            {
-                "item": "ad_astra:rocket_nose_cone"
-            },
-            {
-                "item": "gtocore:heavy_duty_plate_3"
-            },
-            {
-                "item": "gtocore:heavy_duty_plate_3"
-            },
-            {
-                "item": "gtocore:heavy_duty_plate_3"
-            },
-            {
-                "item": "gtocore:heavy_duty_plate_3"
-            },
-            {
-                "item": "gtocore:heavy_duty_plate_3"
-            },
-            {
-                "item": "gtocore:heavy_duty_plate_3"
-            },
-            {
-                "item": "ad_astra:rocket_fin"
-            },
-            {
-                "item": "ad_astra:steel_tank"
-            },
-            {
-                "item": "ad_astra:steel_tank"
-            },
-            {
-                "item": "ad_astra:rocket_fin"
-            },
-            {
-                "item": "ad_astra:rocket_fin"
-            },
-            {
-                "item": "ad_astra:steel_engine"
-            },
-            {
-                "item": "ad_astra:rocket_fin"
-            }
-        ],
-        "result": {
-            "count": 1,
-            "id": "ad_astra:tier_3_rocket"
-        }
-    })
-
-    event.custom({
-        "type": "ad_astra:nasa_workbench",
-        "ingredients": [
-            {
-                "item": "ad_astra:rocket_nose_cone"
-            },
-            {
-                "item": "gtceu:dense_desh_plate"
-            },
-            {
-                "item": "gtceu:dense_desh_plate"
-            },
-            {
-                "item": "gtceu:dense_desh_plate"
-            },
-            {
-                "item": "gtceu:dense_desh_plate"
-            },
-            {
-                "item": "gtceu:dense_desh_plate"
-            },
-            {
-                "item": "gtceu:dense_desh_plate"
-            },
-            {
-                "item": "ad_astra:rocket_fin"
-            },
-            {
-                "item": "ad_astra:desh_tank"
-            },
-            {
-                "item": "ad_astra:desh_tank"
-            },
-            {
-                "item": "ad_astra:rocket_fin"
-            },
-            {
-                "item": "ad_astra:rocket_fin"
-            },
-            {
-                "item": "ad_astra:desh_engine"
-            },
-            {
-                "item": "ad_astra:rocket_fin"
-            }
-        ],
-        "result": {
-            "count": 1,
-            "id": "ad_astra:tier_4_rocket"
-        }
-    })
-
-    event.custom({
-        "type": "ad_astra:nasa_workbench",
-        "ingredients": [
-            {
-                "item": "ad_astra:rocket_nose_cone"
-            },
-            {
-                "item": "gtceu:dense_ostrum_plate"
-            },
-            {
-                "item": "gtceu:dense_ostrum_plate"
-            },
-            {
-                "item": "gtceu:dense_ostrum_plate"
-            },
-            {
-                "item": "gtceu:dense_ostrum_plate"
-            },
-            {
-                "item": "gtceu:dense_ostrum_plate"
-            },
-            {
-                "item": "gtceu:dense_ostrum_plate"
-            },
-            {
-                "item": "ad_astra:rocket_fin"
-            },
-            {
-                "item": "ad_astra:ostrum_tank"
-            },
-            {
-                "item": "ad_astra:ostrum_tank"
-            },
-            {
-                "item": "ad_astra:rocket_fin"
-            },
-            {
-                "item": "ad_astra:rocket_fin"
-            },
-            {
-                "item": "ad_astra:ostrum_engine"
-            },
-            {
-                "item": "ad_astra:rocket_fin"
-            }
-        ],
-        "result": {
-            "count": 1,
-            "id": "ad_astra_rocketed:tier_5_rocket"
-        }
-    })
-
-    event.custom({
-        "type": "ad_astra:nasa_workbench",
-        "ingredients": [
-            {
-                "item": "ad_astra:rocket_nose_cone"
-            },
-            {
-                "item": "gtceu:dense_calorite_plate"
-            },
-            {
-                "item": "gtceu:dense_calorite_plate"
-            },
-            {
-                "item": "gtceu:dense_calorite_plate"
-            },
-            {
-                "item": "gtceu:dense_calorite_plate"
-            },
-            {
-                "item": "gtceu:dense_calorite_plate"
-            },
-            {
-                "item": "gtceu:dense_calorite_plate"
-            },
-            {
-                "item": "ad_astra:rocket_fin"
-            },
-            {
-                "item": "ad_astra:calorite_tank"
-            },
-            {
-                "item": "ad_astra:calorite_tank"
-            },
-            {
-                "item": "ad_astra:rocket_fin"
-            },
-            {
-                "item": "ad_astra:rocket_fin"
-            },
-            {
-                "item": "ad_astra:calorite_engine"
-            },
-            {
-                "item": "ad_astra:rocket_fin"
-            }
-        ],
-        "result": {
-            "count": 1,
-            "id": "ad_astra_rocketed:tier_6_rocket"
-        }
-    })
-
-    const machine_materials = [
-        ["uhv", "neutronium", "europium", "abyssalalloy", "uev", "1966080", "uv", "128", "gtocore:smd_diode_bioware"],
-        ["uev", "quantanium", "mithril", "titansteel", "uiv", "7864320", "uhv", "256", "gtocore:smd_diode_optical"],
-        ["uiv", "adamantium", "neutronium", "adamantine", "uxv", "31457280", "uev", "512", "gtocore:smd_diode_exotic"],
-        ["uxv", "vibranium", "taranium", "naquadriatictaranium", "opv", "125829120", "uiv", "1024", "gtocore:smd_diode_cosmic"],
-        ["opv", "draconium", "crystal_matrix", "starmetal", "max", "503316480", "uxv", "2048", "gtocore:smd_diode_supracausal"]
-    ]
-    machine_materials.forEach((machine_material) => {
-        event.shaped("gtceu:" + machine_material[0] + "_circuit_assembler", [
-            "ECF",
-            "DAD",
-            "BCB"
-        ], {
-            A: "gtceu:" + machine_material[0] + "_machine_hull",
-            B: "gtceu:" + machine_material[2] + "_single_cable",
-            C: "#gtceu:circuits/" + machine_material[4],
-            D: "gtceu:" + machine_material[0] + "_conveyor_module",
-            E: "gtceu:" + machine_material[0] + "_robot_arm",
-            F: "gtceu:" + machine_material[0] + "_emitter"
-        })
-
-        event.shaped("gtceu:" + machine_material[0] + "_scanner", [
-            "CEC",
-            "BAB",
-            "CDC"
-        ], {
-            A: "gtceu:" + machine_material[0] + "_machine_hull",
-            B: "gtceu:" + machine_material[2] + "_single_cable",
-            D: "gtceu:" + machine_material[0] + "_sensor",
-            C: "#gtceu:circuits/" + machine_material[0],
-            E: "gtceu:" + machine_material[0] + "_emitter"
-        })
     })
 
     event.shaped(Item.of("gtceu:flint_axe", "{DisallowContainerItem:0b,GT.Behaviours:{DisableShields:1b},GT.Tool:{AttackDamage:6.0f,AttackSpeed:-3.2f,Damage:0,HarvestLevel:2,MaxDamage:16,ToolSpeed:3.5f},HideFlags:2}"), [
@@ -608,7 +262,7 @@ ServerEvents.recipes(event => {
         "B  "
     ], {
         A: "gtocore:command_block_core",
-        B: "gtceu:eternity_rod"
+        B: "gtocore:eternity_rod"
     })
 
     event.shaped("avaritia:extreme_crafting_table", [
@@ -719,61 +373,13 @@ ServerEvents.recipes(event => {
         F: "#gtceu:circuits/zpm"
     })
 
-    event.shaped("gtceu:mv_solar_panel", [
-        "ABA",
-        "CDC",
-        "E E"
-    ], {
-        A: "gtceu:neutronium_wafer",
-        B: "gtceu:laminated_glass",
-        C: "#gtceu:circuits/uv",
-        D: "gtceu:mithril_quadruple_wire",
-        E: "gtceu:double_indium_gallium_phosphide_plate"
-    })
-
-    event.shaped("gtceu:hv_solar_panel", [
-        "ABA",
-        "CDC",
-        "E E"
-    ], {
-        A: "gtocore:rutherfordium_neutronium_wafer",
-        B: "gtceu:laminated_glass",
-        C: "#gtceu:circuits/uev",
-        D: "gtceu:mithril_hex_wire",
-        E: "gtceu:double_germanium_tungsten_nitride_plate"
-    })
-
-    event.shaped("gtceu:ev_solar_panel", [
-        "ABA",
-        "CDC",
-        "E E"
-    ], {
-        A: "gtocore:taranium_wafer",
-        B: "gtceu:laminated_glass",
-        C: "#gtceu:circuits/uxv",
-        D: "gtceu:taranium_quadruple_wire",
-        E: "gtceu:double_uruium_plate"
-    })
-
-    event.shaped("gtceu:iv_solar_panel", [
-        "ABA",
-        "CDC",
-        "E E"
-    ], {
-        A: "gtocore:pm_wafer",
-        B: "gtceu:fusion_glass",
-        C: "#gtceu:circuits/max",
-        D: "gtceu:taranium_hex_wire",
-        E: "gtceu:double_oganesson_plate"
-    })
-
     event.shaped("gtocore:max_neutron_compressor", [
         "ECE",
         "DAD",
         "BCB"
     ], {
         A: "gtceu:max_machine_hull",
-        B: "gtceu:cosmic_neutronium_single_cable",
+        B: "gtocore:cosmic_neutronium_single_cable",
         C: "#gtceu:circuits/max",
         D: "gtocore:max_electric_piston",
         E: "gtocore:max_electric_pump"
@@ -892,7 +498,7 @@ ServerEvents.recipes(event => {
         "DAD",
         "BCB"
     ], {
-        A: "gtceu:mithril_frame",
+        A: "gtocore:mithril_frame",
         B: "gtceu:uev_emitter",
         C: "gtceu:sterilizing_filter_casing",
         D: "gtceu:uev_muffler_hatch"
@@ -924,7 +530,7 @@ ServerEvents.recipes(event => {
         "BCB"
     ], {
         A: "gtceu:advanced_data_access_hatch",
-        B: "gtceu:double_chaos_plate",
+        B: "gtocore:double_chaos_plate",
         C: "minecraft:repeating_command_block"
     })
 
@@ -1341,7 +947,7 @@ ServerEvents.recipes(event => {
     ], {
         A: "gtceu:mv_electric_piston",
         B: "gtceu:mv_electric_motor",
-        C: "gtceu:eglin_steel_gear",
+        C: "gtocore:eglin_steel_gear",
         D: "#gtceu:circuits/mv",
         E: "gtceu:mv_machine_hull",
         F: "gtceu:annealed_copper_double_cable"
@@ -1367,7 +973,7 @@ ServerEvents.recipes(event => {
     ], {
         A: "gtceu:ev_electric_piston",
         B: "gtceu:ev_electric_motor",
-        C: "gtceu:inconel_792_gear",
+        C: "gtocore:inconel_792_gear",
         D: "#gtceu:circuits/ev",
         E: "gtceu:ev_machine_hull",
         F: "gtceu:nichrome_double_cable"
@@ -1462,7 +1068,7 @@ ServerEvents.recipes(event => {
         "CDC",
         "ABA"
     ], {
-        A: "gtceu:pikyonium_plate",
+        A: "gtocore:pikyonium_plate",
         B: "gtceu:hssg_gear",
         C: "gtceu:luv_robot_arm",
         D: "gtceu:ruridit_frame"
@@ -1473,7 +1079,7 @@ ServerEvents.recipes(event => {
         "BDB",
         "ABA"
     ], {
-        A: "gtceu:attuned_tengam_ingot",
+        A: "gtocore:attuned_tengam_ingot",
         B: "gtocore:infused_obsidian",
         D: "gtocore:magic_core"
     })
@@ -1483,7 +1089,7 @@ ServerEvents.recipes(event => {
         "BDB",
         "ABA"
     ], {
-        A: "gtceu:double_infuscolium_plate",
+        A: "gtocore:double_infuscolium_plate",
         B: "gtceu:long_neutronium_rod",
         D: "gtocore:time_dilation_containment_unit"
     })
@@ -1493,8 +1099,8 @@ ServerEvents.recipes(event => {
         "BDB",
         "ABA"
     ], {
-        A: "gtceu:double_draconium_plate",
-        B: "gtceu:long_cosmic_neutronium_rod",
+        A: "gtocore:double_draconium_plate",
+        B: "gtocore:long_cosmic_neutronium_rod",
         D: "gtocore:stabilizer_core"
     })
 
@@ -1663,7 +1269,7 @@ ServerEvents.recipes(event => {
         B: "gtceu:uev_robot_arm",
         C: "gtceu:uev_conveyor_module",
         D: "gtceu:uev_parallel_hatch",
-        E: "gtceu:enderite_hex_wire",
+        E: "gtocore:enderite_hex_wire",
         F: "gtceu:uev_field_generator"
     })
 
@@ -1676,7 +1282,7 @@ ServerEvents.recipes(event => {
         B: "gtceu:uiv_robot_arm",
         C: "gtceu:uiv_conveyor_module",
         D: "gtceu:uiv_parallel_hatch",
-        E: "gtceu:echoite_hex_wire",
+        E: "gtocore:echoite_hex_wire",
         F: "gtceu:uiv_field_generator"
     })
 
@@ -1689,7 +1295,7 @@ ServerEvents.recipes(event => {
         B: "gtceu:uxv_robot_arm",
         C: "gtceu:uxv_conveyor_module",
         D: "gtceu:uxv_parallel_hatch",
-        E: "gtceu:legendarium_hex_wire",
+        E: "gtocore:legendarium_hex_wire",
         F: "gtceu:uxv_field_generator"
     })
 
@@ -1702,7 +1308,7 @@ ServerEvents.recipes(event => {
         B: "gtceu:opv_robot_arm",
         C: "gtceu:opv_conveyor_module",
         D: "gtceu:opv_parallel_hatch",
-        E: "gtceu:awakened_draconium_hex_wire",
+        E: "gtocore:awakened_draconium_hex_wire",
         F: "gtceu:opv_field_generator"
     })
 
@@ -1715,7 +1321,7 @@ ServerEvents.recipes(event => {
         B: "gtocore:max_robot_arm",
         C: "gtocore:max_conveyor_module",
         D: "gtceu:max_parallel_hatch",
-        E: "gtceu:hypogen_hex_wire",
+        E: "gtocore:hypogen_hex_wire",
         F: "gtocore:max_field_generator"
     })
 

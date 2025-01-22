@@ -1,9 +1,10 @@
 # Default config file that will be copied to saves/新的世界/serverconfig/ftbultimine-server.snbt if it doesn't exist!
 # Just copy any values you wish to override in here!
 
-{ max_blocks: 32768
-merge_tags: [
+{ 
+	max_blocks: 32768
+	merge_tags: [
 		"minecraft:base_stone_overworld"
 		"forge:ores"
-	]}
-Item.of('gtceu:enderium_vajra', '{Charge:2147483647L,DisallowContainerItem:0b,GT.Behaviours:{DisableShields:1b,Mode:2b,RelocateMinedBlocks:1b,RelocateMobDrops:1b,TreeFelling:1b},GT.Tool:{AttackDamage:110.0f,AttackSpeed:2.0f,Damage:0,HarvestLevel:6,MaxDamage:0,ToolSpeed:10.0f},HideFlags:2,MaxCharge:2147483647L,Unbreakable:1b}')
+	]
+}

@@ -21,4 +21,6 @@
 	calculateAllNormals = false
 	#When enabled, a slightly biased Direction#getNearest calculation will be used to prevent normal fighting on 45 degree angle faces.
 	stabilizeDirectionGetNearest = true
+	#When enabled, Forge will allow mipmaps to be lowered in real-time. This is the default behavior in vanilla. Use this if you experience issues with resource packs that use textures lower than 8x8.
+	allowMipmapLowering = false
 
