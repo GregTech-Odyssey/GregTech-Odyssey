@@ -7,7 +7,6 @@
 .minecraft/saves/
 .minecraft/screenshots/
 .minecraft/shaderpacks/
-.minecraft/.vscode/
 .minecraft/*-natives/
 .minecraft/natives-*/
 .minecraft/coremods/
@@ -27,9 +26,9 @@
 .minecraft/config/xaerominimap_entities.json
 .minecraft/config/spark
 .minecraft/mods/.index/
-.minecraft/kubejs/jsconfig.json
-.minecraft/kubejs/config/probejs.json
 .minecraft/gtceu/
+.minecraft/patchouli_books/
+.minecraft/minemenu/
 .minecraft/icon.png
 .minecraft/knownkeys.txt
 .minecraft/options.txt

@@ -47,7 +47,7 @@
     "show_fps": false,
     "show_f_p_s_extended": true,
     "show_coords": false,
-    "reduce_resolution_on_mac": true,
+    "reduce_resolution_on_mac": false,
     "use_adaptive_sync": false,
     "cloud_height": 192,
     "cloud_distance": 100,
