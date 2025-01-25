@@ -33,8 +33,6 @@ ServerEvents.blockLootTables(event => {
 })
 
 ServerEvents.recipes(event => {
-    event.replaceInput({ id: "gtceu:shaped/steam_alloy_smelter_bronze" }, "minecraft:furnace", "enderio:primitive_alloy_smelter")
-
     event.shapeless("gtocore:item_infinity_cell", ["ae2:item_cell_housing", "gtocore:infinite_cell_component"])
     event.shapeless("gtocore:fluid_infinity_cell", ["ae2:fluid_cell_housing", "gtocore:infinite_cell_component"])
     event.shapeless("gtocore:pattern_modifier", "expatternprovider:pattern_modifier")
