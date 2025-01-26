@@ -1,37 +1,3 @@
-ServerEvents.tags("fluid", event => {
-    event.removeAll("ad_astra:tier_1_rocket_fuel")
-    event.removeAll("ad_astra:tier_2_rocket_fuel")
-    event.removeAll("ad_astra:tier_3_rocket_fuel")
-    event.removeAll("ad_astra:tier_4_rocket_fuel")
-    event.removeAll("ad_astra_rocketed:tier_5_rocket_fuel")
-    event.removeAll("ad_astra_rocketed:tier_6_rocket_fuel")
-    event.removeAll("ad_astra_rocketed:tier_7_rocket_fuel")
-    event.add("ad_astra:tier_1_rocket_fuel", "enderio:rocket_fuel")
-    event.add("ad_astra:tier_2_rocket_fuel", "gtceu:rocket_fuel_rp_1")
-    event.add("ad_astra:tier_3_rocket_fuel", "gtceu:dense_hydrazine_fuel_mixture")
-    event.add("ad_astra:tier_4_rocket_fuel", "gtceu:rocket_fuel_cn3h7o3")
-    event.add("ad_astra_rocketed:tier_5_rocket_fuel", "gtceu:rocket_fuel_h8n4c2o4")
-    event.add("ad_astra_rocketed:tier_6_rocket_fuel", "ad_astra:cryo_fuel")
-    event.add("ad_astra_rocketed:tier_7_rocket_fuel", "gtceu:stellar_energy_rocket_fuel")
-})
-
-ServerEvents.entityLootTables(event => {
-    event.addEntity("ad_astra:glacian_ram", l => {
-        l.addPool(p => {
-            p.addItem("gtocore:glacio_spirit").weight(1)
-            p.addItem("ad_astra:ice_shard").weight(999)
-        })
-    })
-})
-
-ServerEvents.blockLootTables(event => {
-    event.addBlock("minecraft:grass", b => {
-        b.addPool(p => {
-            p.addItem("gtocore:plant_fiber").randomChance(0.05)
-        })
-    })
-})
-
 ServerEvents.recipes(event => {
     event.shapeless("gtocore:item_infinity_cell", ["ae2:item_cell_housing", "gtocore:infinite_cell_component"])
     event.shapeless("gtocore:fluid_infinity_cell", ["ae2:fluid_cell_housing", "gtocore:infinite_cell_component"])
