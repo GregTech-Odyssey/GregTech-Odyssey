@@ -41,6 +41,14 @@
 	#Growth soul farmland rate
 	#Range: 0.0 ~ 1.0
 	"Growth soul farmland rate" = 0.8
+	#Damage of BladeSlash for Crystal Sword
+	#Range: > 0
+	"BladeSlash Damage" = 200
+	#Radius of BladeSlash for Crystal Sword
+	#Range: 5 ~ 100
+	"BladeSlash Radius" = 10
+	#Is InfinityCatalyst Craft use all Singularity
+	"Internal InfinityCatalyst Craft" = true
 
 [emc]
 	#Emc of Neutron Pile
@@ -49,7 +57,9 @@
 	#Emc of Totem Of Undying
 	#Range: > 0
 	"Vanilla Totem Emc" = 1000
-	#Emc of Blaze Cube
-	#Range: > 0
-	"Blaze Cube Emc" = 100
+
+[storage]
+	#Define the maximum number of item .types. that can be stored in a Infinity Chest.
+	#Range: > 2048
+	"Chest Max ItemSize" = 32768
 

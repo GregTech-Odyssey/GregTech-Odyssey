@@ -52,7 +52,7 @@
     "cloud_height": 192,
     "cloud_distance": 100,
     "toasts": true,
-    "advancement_toast": true,
+    "advancement_toast": false,
     "recipe_toast": false,
     "system_toast": true,
     "tutorial_toast": false,
