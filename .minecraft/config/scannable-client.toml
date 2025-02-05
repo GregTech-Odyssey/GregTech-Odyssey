@@ -1,0 +1,15 @@
+#The colors for blocks used when rendering their result bounding box
+#by block name. Each entry must be a key-value pair separated by a `=`,
+#with the key being the tag name and the value being the hexadecimal
+#RGB value of the color.
+blockColors = []
+#The colors for blocks used when rendering their result bounding box
+#by block tag. See `blockColors` for format entries have to be in.
+blockTagColors = ["forge:ores/silver=0x999999", "forge:ores/platinum=0xd1b1a1", "forge:ores/lead=0x4c3e5c", "forge:ores/diamond=0x5cdbd5", "forge:ores/iron=0x664c33", "forge:ores/redstone=0x993333", "forge:ores/emerald=0xd93a", "forge:ores/coal=0x4c4c4c", "forge:ores/gold=0xfaee4d", "forge:ores/lapis=0x4a80ff", "forge:ores/quartz=0xfffcf5", "forge:ores/nickel=0x6699d8", "forge:ores/mithril=0x7f3fb2", "forge:ores/tin=0x4c7f99", "forge:ores/copper=0x9f5224"]
+#The colors for fluids used when rendering their result bounding box
+#by fluid name. See `blockColors` for format entries have to be in.
+fluidColors = []
+#The colors for fluids used when rendering their result bounding box
+#by fluid tag. See `blockColors` for format entries have to be in.
+fluidTagColors = ["minecraft:lava=0x9f5224", "minecraft:water=0x4040ff"]
+

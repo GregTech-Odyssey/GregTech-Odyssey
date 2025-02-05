@@ -1,0 +1,96 @@
+
+[energy]
+	#Whether to consume energy when performing a scan. Will make the scanner a chargeable item.
+	useEnergy = true
+	#Amount of energy that can be stored in a scanner.
+	#Range: > 0
+	energyCapacityScanner = 5000
+	#Amount of energy used by the range module per scan.
+	#Range: > 0
+	energyCostModuleRange = 100
+	#Amount of energy used by the animal module per scan.
+	#Range: > 0
+	energyCostModuleAnimal = 25
+	#Amount of energy used by the monster module per scan.
+	#Range: > 0
+	energyCostModuleMonster = 50
+	#Amount of energy used by the common ore module per scan.
+	#Range: > 0
+	energyCostModuleOreCommon = 75
+	#Amount of energy used by the rare ore module per scan.
+	#Range: > 0
+	energyCostModuleOreRare = 100
+	#Amount of energy used by the block module per scan.
+	#Range: > 0
+	energyCostModuleBlock = 100
+	#Amount of energy used by the fluid module per scan.
+	#Range: > 0
+	energyCostModuleFluid = 50
+	#Amount of energy used by the entity module per scan.
+	#Range: > 0
+	energyCostModuleEntity = 75
+	#Amount of energy used by the chest module per scan.
+	#Range: > 0
+	energyCostModuleChest = 100
+
+[range]
+	#Relative amount of base scan radius added by each installed range module.
+	#Range: 0.0 ~ 1.0
+	rangeModifierModuleRange = 0.5
+	#Relative effective range of the common ore module.
+	#Range: 0.0 ~ 1.0
+	rangeModifierModuleOreCommon = 0.25
+	#Relative effective range of the rare ore module.
+	#Range: 0.0 ~ 1.0
+	rangeModifierModuleOreRare = 0.25
+	#Relative effective range of the block module.
+	#Range: 0.0 ~ 1.0
+	rangeModifierModuleBlock = 0.5
+	#Relative effective range of the fluid module.
+	#Range: 0.0 ~ 1.0
+	rangeModifierModuleFluid = 0.5
+	#Relative effective range of the chest module.
+	#Range: 0.0 ~ 1.0
+	rangeModifierModuleChest = 0.25
+
+[general]
+	#The basic scan radius without range modules. Higher values mean more computational
+	#overhead and thus potentially worse performance while scanning.
+	#Range: 16 ~ 128
+	baseScanRadius = 64
+	#How long the results from a scan should remain visible, in milliseconds.
+	#Range: 1000 ~ 300000
+	scanStayDuration = 10000
+
+[blocks]
+	#Registry names of blocks that should be ignored.
+	#Blocks in this list will be excluded from the default ore list based on the forge:ores
+	#tag and it will be impossible to tune the entity module to this block.
+	ignoredBlocks = ["minecraft:command_block"]
+	#Tag names of block tags that should be ignored.
+	#Blocks matching a tag in this list will be excluded from the default ore list based on the
+	#forge:ores tag and it will be impossible to tune the entity module to this block.
+	ignoredBlockTags = []
+
+[ores]
+	#Registry names of blocks considered 'common ores', requiring the common ore scanner module.
+	commonOreBlocks = ["minecraft:clay"]
+	#Block tags of blocks considered 'common ores', requiring the common ore scanner module.
+	commonOreBlockTags = ["forge:ores/iron", "forge:ores/redstone", "forge:ores/coal", "forge:ores/quartz", "forge:ores/tin", "forge:ores/copper"]
+	#Registry names of blocks considered 'rare ores', requiring the rare ore scanner module.
+	rareOreBlocks = ["minecraft:glowstone"]
+	#Block tags of blocks considered 'rare ores', requiring the common ore scanner module.
+	#Any block with the forge:ores tag is implicitly in this list, unless the block also
+	#matches an ignored or common ore block tag, or is an ignored or common block.
+	rareOreBlockTags = []
+
+[fluids]
+	#Fluid tags of fluids that should be ignored.
+	ignoredFluidTags = []
+
+[chests]
+	#Registry names of blocks considered 'chests', requiring the chest scanner module.
+	commonChestBlocks = []
+	#Registry names of blocks considered 'chests', requiring the chest scanner module.
+	commonChestTags = ["forge:barrels", "forge:chests", "minecraft:shulker_boxes"]
+

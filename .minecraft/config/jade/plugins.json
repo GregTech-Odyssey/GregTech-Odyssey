@@ -82,6 +82,10 @@
     "registry_name": "OFF",
     "mod_name": true
   },
+  "apotheosis": {
+    "adventure": true,
+    "ench": true
+  },
   "ae2": {
     "part_icon": true,
     "charger": true,
