@@ -13,18 +13,27 @@
 				"4C1AA691B0A8EC24"
 				"03BB5A5C084F5194"
 			]
+			description: [
+				"那么欢迎来到低压时代"
+				"在这个阶段你需要准备的物品仍然跟上个阶段相似，但需要更多"
+				"AE系统的搭建可以开始了"
+			]
 			id: "58B19A3954527732"
+			subtitle: "你需要绝对天马行空的想象力！"
 			tasks: [{
 				id: "3D89DD902A619819"
 				item: "gtceu:lv_machine_hull"
 				type: "item"
 			}]
 			x: -1.5d
-			y: -1.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["733C4A68EC2FA1ED"]
+			description: ["五件套的合成方式改了，多看看EMI吧"]
 			id: "0A5206C9BA94B12A"
+			size: 2.0d
+			subtitle: "LV阶段的标志"
 			tasks: [
 				{
 					id: "368ED9240EABBFC5"
@@ -52,7 +61,8 @@
 					type: "item"
 				}
 			]
-			x: 0.5d
+			title: "五件套"
+			x: 1.5d
 			y: -1.0d
 		}
 		{
@@ -60,31 +70,48 @@
 				"58B19A3954527732"
 				"1EFAEF7D0E6700A9"
 			]
+			description: [
+				"磁化铁杆可以手动合成，但磁化钢杆起就不行了"
+				"之后的磁化物质都需要通过它来制作"
+			]
 			id: "733C4A68EC2FA1ED"
+			subtitle: "拯救你的红石"
 			tasks: [{
 				id: "4CCDB348C39022C8"
 				item: "gtceu:lv_polarizer"
 				type: "item"
 			}]
+			title: "自动磁化！"
 			x: -0.5d
-			y: -1.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["300B64E908723A50"]
+			description: [
+				"你可以用它把高电压转换成低电压，反之亦然"
+				"使用螺丝刀来改变它的工作方式"
+				"其中的一个面会与其他的五个面不尽相同，这个就是转换之后的输出端，其他均为输入端"
+			]
 			id: "1EFAEF7D0E6700A9"
+			subtitle: "万能的转换器"
 			tasks: [{
 				id: "146ADCB0A93C988D"
 				item: "gtceu:ulv_transformer_1a"
 				type: "item"
 			}]
 			x: -0.5d
-			y: -2.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["0A5206C9BA94B12A"]
-			description: ["均可使用"]
+			description: [
+				"LV时代的小发电机们"
+				"输出均相等"
+				"建议选用基础蒸汽轮机，原材料来源最简单方便"
+			]
 			id: "3F111CD442E53CE0"
 			optional: true
+			subtitle: "通往罗马的路不止一条"
 			tasks: [
 				{
 					id: "06C78C3B9BB52E36"
@@ -107,25 +134,33 @@
 					type: "item"
 				}
 			]
+			title: "小发电机"
 			x: 1.5d
-			y: -2.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["0A5206C9BA94B12A"]
-			description: ["抽石油"]
+			description: ["可以抽世界中生成的实体流体比如水和岩浆，当然最推荐抽石油"]
 			id: "03703EA18C3C67A8"
+			subtitle: "终于可以不用桶了"
 			tasks: [{
 				id: "0DEB9B2B852B3B6E"
 				item: "gtceu:lv_pump"
 				type: "item"
 			}]
 			x: 0.5d
-			y: -2.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["0A5206C9BA94B12A"]
+			description: [
+				"通过调整电路，辊压机可以让你的锭变成单层板或者双层板"
+				"多辊式轧机可以让你的单层板变成箔"
+				"卷板机可以让你的长杆变成弹簧，短杆变成环，板变成弯曲板，以及合成特殊的空单元"
+			]
 			hide_dependency_lines: false
 			id: "460CEBB1B6A2DB4C"
+			subtitle: "各显神通"
 			tasks: [
 				{
 					id: "5198F4D5E88A3514"
@@ -143,12 +178,18 @@
 					type: "item"
 				}
 			]
-			x: 2.5d
-			y: -1.0d
+			title: "液压机的传说"
+			x: 3.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["0A5206C9BA94B12A"]
+			description: [
+				"线材轧机可以更便宜地让你把锭变成对应的细导线和1x导线"
+				"织布机可以让你把1x导线合成更粗的导线"
+			]
 			id: "08967488920D4413"
+			subtitle: "节省材料"
 			tasks: [
 				{
 					id: "7F34EBAA8EA0D38A"
@@ -161,145 +202,269 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
-			y: -1.0d
+			title: "更便宜的线材获取方式"
+			x: 2.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["0A5206C9BA94B12A"]
+			description: [
+				"用车床可以让你以一个锭的代价生产两个对应的杆"
+				"除此之外车床还可以加工螺栓成螺丝"
+				"加工材料粒成材料滚珠"
+				"加工齿轮成锯片"
+				"加工精致宝石和宝石板成透镜"
+			]
 			id: "0D761DF6EE1B3602"
+			subtitle: "高效生产"
 			tasks: [{
 				id: "24E9408D200E7CA2"
 				item: "gtceu:lv_lathe"
 				type: "item"
 			}]
+			title: "多面手"
 			x: 3.5d
-			y: -1.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["0A5206C9BA94B12A"]
+			description: [
+				"大量的配方都需要组装机完成。"
+				"确实有些配方是可以既在合成台完成也可以在组装机完成，但还是推荐都在组装机完成，后面的材料需求量分子装配室的并行太小了。"
+				"同理，多起几台。"
+			]
 			id: "33B01E889EE7E990"
+			size: 1.5d
+			subtitle: "复仇者，集结！"
 			tasks: [{
 				id: "2D9D857305C12E6B"
 				item: "gtceu:lv_assembler"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 0.0d
+			title: "组装一切"
+			x: 1.0714285714285694d
+			y: 1.1785714285714306d
 		}
 		{
 			dependencies: [
 				"33B01E889EE7E990"
 				"7C0B37FD464985AC"
 			]
+			description: [
+				"线圈方块在很多多方块机器内都会使用到。"
+				"更高级的线圈方块有更多更好的增益。"
+				"所以在升级多方块机器的时候，除了能源仓剩下就要着重升级线圈方块。"
+			]
 			id: "021F533355CCBABA"
+			subtitle: "特斯拉并没有发明这个"
 			tasks: [{
 				id: "580C766FEB158918"
 				item: "gtceu:cupronickel_coil_block"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 1.0d
+			title: "线圈方块"
+			x: 0.5357142857142847d
+			y: 3.0d
 		}
 		{
 			dependencies: ["6D86CEB34F76644B"]
+			description: ["你的第一桶液态锡是来源于锡锭和岩浆在大型青铜锅炉内燃烧之后得到的。"]
 			id: "460804A73862A336"
+			subtitle: "你的第一桶液态金属"
 			tasks: [{
 				id: "5F1D2FF891A53A0B"
 				item: "gtceu:tin_bucket"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 1.0d
+			title: "液态锡"
+			x: -2.5d
+			y: 3.0d
 		}
 		{
 			dependencies: [
 				"2C9031FA63A5278B"
 				"460804A73862A336"
 			]
+			description: [
+				"将锡粉与液态锡放置在搅拌机内搅拌即可获得。"
+				"后面还有其他的合成方式。"
+			]
 			id: "7C0B37FD464985AC"
+			subtitle: "你的第一桶液态合金"
 			tasks: [{
 				id: "530F72289B7EE4A3"
 				item: "gtceu:tin_alloy_bucket"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 1.0d
+			title: "液态锡铁合金"
+			x: -1.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["0A5206C9BA94B12A"]
+			description: [
+				"你需要用搅拌机来执行液态锡铁合金的配方"
+				"后面搅拌机会用得非常多，为了避免串配方，整多几个总不是坏事。"
+				""
+				" tips：可以点击机器左下角的《锁定配方》按钮，这样机器就只会执行最后一个执行过的配方，可以在一定程度上减少卡顿。"
+			]
 			id: "2C9031FA63A5278B"
+			subtitle: "这可不是洗衣机"
 			tasks: [{
 				id: "70EFC96331292826"
 				item: "gtceu:lv_mixer"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 0.0d
+			title: "搅啊搅"
+			x: -1.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["021F533355CCBABA"]
+			description: [
+				"你可以在这个小家伙里面完成锭的液态提取。"
+				"等后面的阶段有条件上并行仓了一定记得要补上。"
+			]
 			id: "2D899AFE07E20FEF"
+			subtitle: "提取机的假日"
 			tasks: [{
 				id: "2B32486AC0FC1B45"
 				item: "gtocore:liquefaction_furnace"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 2.0d
+			x: -2.0d
+			y: 5.0d
 		}
 		{
-			dependencies: ["021F533355CCBABA"]
+			dependencies: [
+				"021F533355CCBABA"
+				"23A116C4BAE96979"
+				"6465CCE684E0DD3B"
+				"58434872C6EC4E32"
+			]
+			description: [
+				"上面列出了你完成一个完整的电力高炉所需要的全部材料。"
+				"随着游戏进程的发展，你会制造更为强大的机器，但他们的基础材料来源都是电力高炉。"
+			]
+			icon: "gtceu:electric_blast_furnace"
 			id: "06534664971F6E68"
-			tasks: [{
-				id: "04F55DCBD82CABF1"
-				item: "gtceu:electric_blast_furnace"
-				type: "item"
-			}]
-			x: 1.5d
-			y: 1.0d
+			shape: "octagon"
+			size: 2.5d
+			subtitle: "千里之行，始于足下"
+			tasks: [
+				{
+					id: "04F55DCBD82CABF1"
+					item: "gtceu:electric_blast_furnace"
+					type: "item"
+				}
+				{
+					id: "01E78C25128A0601"
+					item: "gtceu:lv_input_bus"
+					type: "item"
+				}
+				{
+					id: "280D0B5D4340A2C2"
+					item: "gtceu:lv_output_bus"
+					type: "item"
+				}
+				{
+					id: "0613053A038D110B"
+					item: "gtceu:lv_output_hatch"
+					type: "item"
+				}
+				{
+					id: "586E35F590FCDFA9"
+					item: "gtceu:lv_input_hatch"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "3F69126361FD6C28"
+					item: { Count: 16, id: "gtceu:cupronickel_coil_block" }
+					type: "item"
+				}
+				{
+					id: "3414BAE3B5080C73"
+					item: "gtceu:maintenance_hatch"
+					type: "item"
+				}
+				{
+					id: "196C000927F09794"
+					item: "gtceu:lv_muffler_hatch"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "4048820E2CF19011"
+					item: { Count: 10, id: "gtceu:heatproof_machine_casing" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "061105DAFBBA2FED"
+					item: { Count: 2, id: "gtocore:lv_energy_input_hatch_16a" }
+					type: "item"
+				}
+			]
+			title: "电力高炉：一切的开端"
+			x: 2.142857142857146d
+			y: 3.0d
 		}
 		{
 			dependencies: [
 				"06534664971F6E68"
 				"422259B2C415401D"
 			]
+			description: ["MV阶段的重要材料，大量准备，请。"]
 			id: "68EFF1609132BDD4"
+			subtitle: "新家伙"
 			tasks: [{
 				id: "4FC6935FB0B9F601"
 				item: "gtceu:aluminium_ingot"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 1.0d
+			x: 3.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["0A5206C9BA94B12A"]
+			description: ["所有的线缆合成都需要在过胶机内完成"]
 			id: "5B8151CC61AAAE12"
+			subtitle: "给你的导线洗个澡"
 			tasks: [{
 				id: "3727C561E7DC1878"
 				item: "gtocore:lv_laminator"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 0.0d
+			title: "橡胶泡澡机"
+			x: 3.5d
+			y: 1.0d
 		}
 		{
 			dependencies: [
 				"5B8151CC61AAAE12"
 				"7A1442B2BADD8D46"
 			]
+			description: ["[ \"铜线缆的作用也仅仅只是合成罢了，为什么不去看看这个阶段的\", { \"text\": \"超导体\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0DF27446EE5DB28F\" } }, \"呢？\" ]"]
 			id: "2D5A5D2DE390665C"
+			subtitle: "但实际上是作为合成材料"
 			tasks: [{
 				id: "1A6DEE5A73A5B10C"
 				item: "gtceu:copper_single_cable"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 0.0d
+			title: "你的第一条线缆"
+			x: 4.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["7E061DC16432D549"]
+			description: [
+				"你可能已经在前面的章节做过了橡胶条，但生产线缆是需要液态橡胶的"
+				"在化学反应釜里完成它吧"
+			]
 			id: "7A1442B2BADD8D46"
+			subtitle: "线缆的重要组成部分"
 			tasks: [{
 				id: "778452F2B156D11A"
 				item: "gtceu:rubber_bucket"
@@ -310,69 +475,94 @@
 		}
 		{
 			dependencies: ["0A5206C9BA94B12A"]
+			description: ["绝大多数的化学反应都在这里进行"]
 			id: "7E061DC16432D549"
+			subtitle: "伟大，无需多言"
 			tasks: [{
 				id: "0520326A0658F3D5"
 				item: "gtceu:lv_chemical_reactor"
 				type: "item"
 			}]
-			x: 4.5d
-			y: -1.0d
+			title: "黑盒反应器"
+			x: 3.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["33B01E889EE7E990"]
+			description: [
+				"主要是砷化镓比较麻烦。"
+				"砷粉来自于雄黄粉离心，而镓粉来自于电解闪锌矿粉，供给LV电压的情况下产出镓粉的概率是5%。而随着电压的提升这个概率会逐步上升。"
+			]
 			id: "745B1AE1F523FD78"
+			subtitle: "其貌不扬"
 			tasks: [{
 				id: "54E3FE49B44651DA"
 				item: "gtceu:diode"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 2.0d
+			x: 0.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["745B1AE1F523FD78"]
+			description: [
+				"这是你的第二块电路板。"
+				"现在是只能手工合成，但是到了后面会有这个等级（MV）的替代电路。"
+			]
 			id: "6BB3386725B228D5"
+			subtitle: "更上一层楼"
 			tasks: [{
 				id: "0BB67BB62513F7CD"
 				item: "gtceu:good_electronic_circuit"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 3.0d
+			x: 0.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["6BB3386725B228D5"]
+			description: [
+				"从现在起你后面的几乎所有的电路都需要在电路组装机上组装，直到电路装配线。"
+				"而有的配方中需要额外的环境，这些都需要满足，否则电路组装机是不会执行配方的。"
+			]
 			id: "16D0242E72E868B2"
+			subtitle: "电路自动化！！"
 			tasks: [{
 				id: "664AC9F5FEE1CA35"
 				item: "gtceu:lv_circuit_assembler"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 4.0d
+			x: 0.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["06534664971F6E68"]
+			description: ["有了它之后就可以制作精密蒸汽构件了。"]
 			id: "0D26129C7015E4D1"
+			subtitle: "爱来自EIO"
 			tasks: [{
 				id: "4269A9E3E5D38BF6"
 				item: "enderio:dark_steel_ingot"
 				type: "item"
 			}]
 			x: 1.5d
-			y: 2.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["0D26129C7015E4D1"]
+			description: [
+				"可以制作大型蒸汽机器了。"
+				"能极大地提升你的效率。"
+			]
 			id: "268C28F66FA4C91F"
+			subtitle: "大蒸汽时代！"
 			tasks: [{
 				id: "6DF99BFD9101B32B"
 				item: "gtocore:precision_steam_mechanism"
 				type: "item"
 			}]
 			x: 1.5d
-			y: 3.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["268C28F66FA4C91F"]
@@ -383,55 +573,73 @@
 				type: "checkmark"
 			}]
 			x: 1.5d
-			y: 4.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["268C28F66FA4C91F"]
+			description: [
+				"这个大家伙可以做到四倍的产出，但它只能执行一种配方。"
+				"使用前需要铭刻电路，即在它的输入总线里面放置一个电路板，然后打开主方块的GUI并且按下铭刻电路即可。"
+			]
 			id: "12FEAB1A9AA1BCA6"
+			subtitle: "生产力的跃升"
 			tasks: [{
 				id: "0339AD6ACDF5DD49"
 				item: "gtocore:large_steam_circuit_assembler"
 				type: "item"
 			}]
 			x: 2.5d
-			y: 3.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["0A5206C9BA94B12A"]
+			description: [
+				"现阶段做电解机的主要用途就是电解蓝宝石粉来获取铝粉"
+				"这是你唯一能在LV阶段获取到铝粉的办法"
+			]
 			id: "422259B2C415401D"
+			subtitle: "需要来给你电一下"
 			tasks: [{
 				id: "703EB635E18DD303"
 				item: "gtceu:lv_electrolyzer"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 0.0d
+			title: "POWER!"
+			x: 2.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["29896685477AA469"]
 			description: ["仅前期使用，产出的资源在后面都有高效的替代方法"]
 			id: "509DE5B500CC1C0B"
+			subtitle: "众生平息"
 			tasks: [{
 				id: "027E38A4FA80EC88"
 				item: "gtocore:slaughterhouse"
 				type: "item"
 			}]
 			x: 4.5d
-			y: 2.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["23676FA19C92EE5E"]
+			description: [
+				"这东西做起来确实很麻烦，但等到有自动化手段了其实也能接受。"
+				"建议做四个，刚好做工业屠宰场。"
+			]
 			id: "29896685477AA469"
+			subtitle: "最麻烦的零部件"
 			tasks: [{
 				id: "3604117704374463"
 				item: "gtceu:lv_field_generator"
 				type: "item"
 			}]
 			x: 3.5d
-			y: 2.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["06534664971F6E68"]
+			description: ["格雷的超导是需要下一级电压才能制作的，所以大规模在当前阶段应用格雷科技的超导线缆是不现实的。"]
 			id: "23676FA19C92EE5E"
 			rewards: [{
 				count: 4
@@ -439,28 +647,36 @@
 				item: "minecraft:ender_pearl"
 				type: "item"
 			}]
+			subtitle: "来自格雷科技的超导"
 			tasks: [{
 				id: "7BB25CE809198F09"
 				item: "gtceu:manganese_phosphide_ingot"
 				type: "item"
 			}]
+			title: "LV超导"
 			x: 2.5d
-			y: 2.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["33B01E889EE7E990"]
+			description: [
+				"这个大家伙的输出跟输出都只能通过钢制储罐阀门来进行。"
+				"钢制储罐阀门的自动输出是需要开口向下，但大型蒸汽储罐是没有地方可以让钢制储罐阀门是向下开口的，所以你需要用电动泵加管道的形式将蒸汽从储罐内取出。"
+			]
 			id: "4C535A516D8551F5"
+			subtitle: "你最想要的缓存"
 			tasks: [{
 				id: "47984D9F50F2EB59"
 				item: "gtocore:large_steam_storage_tank"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 0.0d
+			title: "更大的热水壶"
+			x: 0.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["6AB9089FDE595716"]
-			description: ["这个是lv阶段的超导材料"]
+			description: ["这个是LV阶段的超导材料"]
 			hide_dependency_lines: true
 			id: "0DF27446EE5DB28F"
 			rewards: [{
@@ -475,21 +691,118 @@
 			}]
 			title: "LV超导"
 			x: -1.5d
-			y: -2.0d
+			y: -3.0d
 		}
 		{
 			dependencies: [
 				"68EFF1609132BDD4"
 				"2D5A5D2DE390665C"
 			]
+			description: ["到这就可以开始准备MV阶段的东西了，首先是看发电量是否足够，在满足前者的情况下可以将多方块机器的能源仓升级，大幅增加效率。"]
 			id: "4D1BC2AB844CC2AA"
+			subtitle: "你需要绝对天马行空的想象力"
 			tasks: [{
 				id: "4CB76F9A7E0EEFA8"
 				item: "gtceu:mv_machine_hull"
 				type: "item"
 			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0A5206C9BA94B12A"]
+			description: [
+				"用激光焊接机可以自动化并节省你制作各种部件外壳的材料。"
+				"推荐多做几个。"
+			]
+			id: "2316EB804D47C3A4"
+			subtitle: "拯救你的材料"
+			tasks: [{
+				id: "2DAF2017EF0E4188"
+				item: "gtocore:lv_laser_welder"
+				type: "item"
+			}]
+			title: "激光之力！"
 			x: 3.5d
-			y: 1.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"输入仓/输出仓是用于给多方块机器输入/输出流体，"
+				"输入总线/输出总线是用于给多方块机器输入/输出物品。"
+				"在输入/输出总成可合成之前都必须保持这个组合。"
+				""
+				"请注意：如果没有配方对应的输出，机器是不会执行配方的。"
+				"exp：如果你的高炉没有放置输出总线，那它就不会执行烧制铝锭的配方。"
+			]
+			id: "6465CCE684E0DD3B"
+			subtitle: "关系到你的产物"
+			tasks: [
+				{
+					id: "4378852FF1AACACB"
+					item: "gtceu:lv_input_hatch"
+					type: "item"
+				}
+				{
+					id: "2C64648E547081AC"
+					item: "gtceu:lv_output_hatch"
+					type: "item"
+				}
+				{
+					id: "20AC2E43E9B6A8BE"
+					item: "gtceu:lv_input_bus"
+					type: "item"
+				}
+				{
+					id: "0ED7AB693FAD2D4F"
+					item: "gtceu:lv_output_bus"
+					type: "item"
+				}
+			]
+			title: "材料的输入与输出"
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			description: [
+				"本质上多方块机器的工作速度取决于能源仓所能提供的电功率大小，"
+				"所以想加快处理速度有两个办法：增加电压和增加电流。"
+				""
+				"在电力高炉上你需要安装两个LV级能源仓升压来烧制铝锭。"
+			]
+			id: "23A116C4BAE96979"
+			subtitle: "直接影响你配方的执行速度"
+			tasks: [{
+				id: "219C151A73A735B5"
+				item: "gtceu:lv_energy_input_hatch"
+				type: "item"
+			}]
+			title: "能源仓"
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			description: [
+				"严禁共用维护仓！"
+				"消声仓前方必须无遮挡！(包括管道）"
+			]
+			id: "58434872C6EC4E32"
+			subtitle: "其余琐碎"
+			tasks: [
+				{
+					id: "2AB3C91B6EBA9869"
+					item: "gtceu:maintenance_hatch"
+					type: "item"
+				}
+				{
+					id: "0638239E1B55C743"
+					item: "gtceu:lv_muffler_hatch"
+					type: "item"
+				}
+			]
+			title: "功能性仓室"
+			x: 3.5d
+			y: 4.0d
 		}
 	]
 	title: "低压"

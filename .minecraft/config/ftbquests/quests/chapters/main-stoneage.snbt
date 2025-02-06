@@ -651,10 +651,8 @@
 				"拿桶或者单元舀一点吧，现在可能用不上但后面会需要用到的。"
 				"等到了LV阶段你就可以用电动泵来获取原油了。"
 				"再晚点你会需要搭建石化产线，那个时候获取原油的办法可就不是手动了。"
-				""
-				"&m&o&8除非你有尼哥"
 			]
-			icon: "gtceu:oil_bucket"
+			icon: "gtceu:oil_medium_bucket"
 			id: "4F77CB97CE068D7F"
 			rewards: [{
 				count: 4
@@ -682,7 +680,7 @@
 				"你需要用你的焦炉来制作一些焦煤，焦煤的燃烧时间更长。"
 				"高炉你马上就可以做了，建议多做点加快一下速度，毕竟确实需要不少矿物。"
 			]
-			icon: "gtocore:the_fire_of_inferno"
+			icon: "minecraft:campfire"
 			id: "2EA8DC57A61690C2"
 			rewards: [{
 				id: "4829BCF4756E116F"
@@ -925,31 +923,6 @@
 					type: "item"
 				}
 				{
-					id: "5C6B557EE2475059"
-					item: {
-						Count: 1
-						id: "gtceu:ultimet_file"
-						tag: {
-							DisallowContainerItem: 0b
-							Enchantments: [{
-								id: "minecraft:unbreaking"
-								lvl: 3s
-							}]
-							GT.Behaviours: { }
-							GT.Tool: {
-								AttackDamage: 0.0f
-								AttackSpeed: -2.3000002f
-								Damage: 0
-								HarvestLevel: 4
-								MaxDamage: 2047
-							}
-							HideFlags: 2
-							RepairCost: 1
-						}
-					}
-					type: "item"
-				}
-				{
 					id: "64DB980F04B8099F"
 					item: {
 						Count: 1
@@ -970,6 +943,23 @@
 							}
 							HideFlags: 2
 							RepairCost: 1
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "65EB7C1905A2D1DA"
+					item: {
+						Count: 1
+						id: "gtceu:tungsten_steel_file"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								Damage: 0
+								MaxDamage: 2047
+							}
+							HideFlags: 2
 						}
 					}
 					type: "item"
@@ -1059,20 +1049,24 @@
 			id: "30D4CC9142D59DBD"
 			rewards: [
 				{
-					id: "6D4A67B556605860"
+					id: "47CB4368AEE0D63A"
 					item: {
 						Count: 1
-						id: "gtceu:ultimet_wrench"
+						id: "gtceu:damascus_steel_wrench"
 						tag: {
 							DisallowContainerItem: 0b
+							Enchantments: [{
+								id: "minecraft:fortune"
+								lvl: 3s
+							}]
 							GT.Behaviours: {
 								Mode: 2b
 							}
 							GT.Tool: {
 								Damage: 0
-								HarvestLevel: 4
-								MaxDamage: 2047
-								ToolSpeed: 14.0f
+								HarvestLevel: 3
+								MaxDamage: 1023
+								ToolSpeed: 10.0f
 							}
 							HideFlags: 2
 						}
@@ -1080,16 +1074,16 @@
 					type: "item"
 				}
 				{
-					id: "26B24A8D605D69AC"
+					id: "285E5AA2C1E430B4"
 					item: {
 						Count: 1
-						id: "gtceu:ultimet_screwdriver"
+						id: "gtceu:damascus_steel_screwdriver"
 						tag: {
 							DisallowContainerItem: 0b
 							GT.Behaviours: { }
 							GT.Tool: {
 								Damage: 0
-								MaxDamage: 2047
+								MaxDamage: 1023
 							}
 							HideFlags: 2
 						}
@@ -1097,18 +1091,22 @@
 					type: "item"
 				}
 				{
-					id: "35FBA0DF9FD10F19"
+					id: "5A0ACADCB34D28A6"
 					item: {
 						Count: 1
-						id: "gtceu:ultimet_wire_cutter"
+						id: "gtceu:damascus_steel_wire_cutter"
 						tag: {
 							DisallowContainerItem: 0b
+							Enchantments: [{
+								id: "minecraft:fortune"
+								lvl: 3s
+							}]
 							GT.Behaviours: { }
 							GT.Tool: {
 								Damage: 0
-								HarvestLevel: 4
-								MaxDamage: 2047
-								ToolSpeed: 14.0f
+								HarvestLevel: 3
+								MaxDamage: 1023
+								ToolSpeed: 10.0f
 							}
 							HideFlags: 2
 						}
@@ -1116,7 +1114,7 @@
 					type: "item"
 				}
 				{
-					id: "1B9088A5F05F80E5"
+					id: "512A3DCCA9D0124F"
 					item: {
 						Count: 1
 						id: "gtceu:silicone_rubber_mallet"
@@ -1133,18 +1131,22 @@
 					type: "item"
 				}
 				{
-					id: "787527213CDB31A3"
+					id: "30B0DA72995E07B9"
 					item: {
 						Count: 1
-						id: "gtceu:ultimet_knife"
+						id: "gtceu:damascus_steel_knife"
 						tag: {
 							DisallowContainerItem: 0b
+							Enchantments: [{
+								id: "minecraft:looting"
+								lvl: 3s
+							}]
 							GT.Behaviours: { }
 							GT.Tool: {
-								AttackDamage: 7.0f
-								AttackSpeed: 3.1f
+								AttackDamage: 4.0f
+								AttackSpeed: 3.3f
 								Damage: 0
-								MaxDamage: 2047
+								MaxDamage: 1023
 							}
 							HideFlags: 2
 						}
@@ -1152,10 +1154,10 @@
 					type: "item"
 				}
 				{
-					id: "3E193D7ED45C92C3"
+					id: "1F0F1C5751FAA9FF"
 					item: {
 						Count: 1
-						id: "gtceu:ultimet_saw"
+						id: "gtceu:damascus_steel_saw"
 						tag: {
 							DisallowContainerItem: 0b
 							GT.Behaviours: {
@@ -1163,7 +1165,7 @@
 							}
 							GT.Tool: {
 								Damage: 0
-								MaxDamage: 2047
+								MaxDamage: 1023
 							}
 							HideFlags: 2
 						}
@@ -1445,6 +1447,46 @@
 				type: "item"
 			}]
 			x: 11.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			id: "65B1BCEF5C5FE120"
+			rewards: [
+				{
+					id: "5EFDB7C64283F468"
+					item: {
+						Count: 1
+						id: "gtceu:prospector.luv"
+						tag: {
+							Charge: 1000000000L
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1EE64A75DDAC335A"
+					item: "minecraft:crying_obsidian"
+					type: "item"
+				}
+				{
+					id: "723BCDAB12AA744A"
+					item: {
+						Count: 1
+						id: "gtceu:zero_point_module"
+						tag: {
+							Charge: 2000000000000L
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3F5013EE787CBF10"
+				type: "checkmark"
+			}]
+			title: "测试专用"
+			x: -5.5d
 			y: 0.0d
 		}
 	]
