@@ -17,3 +17,7 @@ eioFluidRate: 16
 breakBlocksBlackList:
   - ae2:cable_bus
 
+enableAnimalsAreAfraidToEatTheirMeat: true
+
+enableAnimalsAreAfraidToEatTheirMeatRange: 12
+
