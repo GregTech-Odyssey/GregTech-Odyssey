@@ -9,10 +9,10 @@
 	quest_links: [{
 		id: "7E7992CD3A6DBEA9"
 		linked_quest: "300B64E908723A50"
-		shape: "rsquare"
-		size: 3.0d
-		x: -1.5d
-		y: 7.5d
+		shape: "circle"
+		size: 0.0d
+		x: 0.0d
+		y: 2.25d
 	}]
 	quests: [
 		{
@@ -29,40 +29,28 @@
 				item: "gtceu:bronze_ingot"
 				type: "item"
 			}]
-			size: 3.0d
-			subtitle: "&o隐入蒸汽"
+			size: 1.5d
+			subtitle: "&o污染，隐入蒸汽"
 			tasks: [{
 				id: "447ABD40E69F10DA"
 				type: "checkmark"
 			}]
-			title: "欢迎来到蒸汽时代"
+			title: "扬雾运动"
 			x: -1.5d
 			y: -1.0d
 		}
 		{
-			dependencies: ["24C53B5FF515ACAC"]
-			id: "7EA48CCB9B8FEC5D"
-			tasks: [{
-				id: "2A0C1BB96B1A0A1B"
-				item: "gtceu:lp_steam_solid_boiler"
-				type: "item"
-			}]
-			x: 0.5d
-			y: -1.0d
-		}
-		{
-			dependencies: ["24C53B5FF515ACAC"]
 			id: "052880B5D03CAF7D"
 			tasks: [{
 				id: "46C3A0652DFB2889"
 				item: "gtceu:coke_oven"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -3.0d
+			x: -4.0d
+			y: -3.5d
 		}
 		{
-			dependencies: ["052880B5D03CAF7D"]
+			dependencies: ["24C53B5FF515ACAC"]
 			id: "2D630430259F9131"
 			tasks: [{
 				id: "6DC00D5FF11E0368"
@@ -70,12 +58,12 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: -4.5d
+			y: 0.5d
 		}
 		{
 			dependencies: [
 				"4A9E47C3F8DF24A3"
-				"7EA48CCB9B8FEC5D"
+				"24C53B5FF515ACAC"
 			]
 			id: "05F4015974079225"
 			tasks: [{
@@ -83,7 +71,7 @@
 				item: "gtceu:lp_steam_alloy_smelter"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 0.0d
 			y: -1.0d
 		}
 		{
@@ -95,7 +83,7 @@
 				item: "enderio:primitive_alloy_smelter"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 0.0d
 			y: 0.5d
 		}
 		{
@@ -107,7 +95,7 @@
 				item: "gtceu:red_alloy_ingot"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 1.5d
 			y: -1.0d
 		}
 		{
@@ -118,7 +106,7 @@
 				item: "minecraft:piston"
 				type: "item"
 			}]
-			x: 6.5d
+			x: 3.0d
 			y: -1.0d
 		}
 		{
@@ -130,8 +118,8 @@
 				item: "gtceu:lp_steam_macerator"
 				type: "item"
 			}]
-			x: 6.5d
-			y: -3.0d
+			x: 4.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["17408BBD93A18AEC"]
@@ -141,41 +129,43 @@
 				item: "gtceu:lp_steam_compressor"
 				type: "item"
 			}]
-			x: 8.5d
+			x: 4.5d
 			y: -1.0d
 		}
 		{
-			dependencies: ["17408BBD93A18AEC"]
+			dependencies: ["2D630430259F9131"]
 			id: "7BE51B4BC36F8B7B"
 			tasks: [{
 				id: "2C2F5FDA5CFDD8E9"
 				item: "gtceu:lp_steam_forge_hammer"
 				type: "item"
 			}]
-			x: 4.5d
-			y: -3.0d
+			title: "大锤80，小锤40"
+			x: -1.5d
+			y: 2.0d
 		}
 		{
-			dependencies: ["7EA48CCB9B8FEC5D"]
+			dependencies: ["24C53B5FF515ACAC"]
 			id: "7E8B76C8CC341F51"
 			tasks: [{
 				id: "43EF8564E06F93FE"
 				item: "gtceu:lp_steam_furnace"
 				type: "item"
 			}]
-			x: 0.5d
-			y: -3.0d
+			x: -3.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["7E8B76C8CC341F51"]
 			id: "70166E7FA6559076"
+			shape: "pentagon"
 			tasks: [{
 				id: "3B72AB2D01E23DBE"
 				item: "gtceu:steam_oven"
 				type: "item"
 			}]
-			x: 0.5d
-			y: -4.5d
+			x: -3.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["72C6B40B38D542BF"]
@@ -186,18 +176,18 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 6.0d
+			y: 5.0d
 		}
 		{
-			dependencies: ["017D4D369784454E"]
+			dependencies: ["55AAF11E1101F10F"]
 			id: "7FECE5A33D1D3AF7"
 			tasks: [{
 				id: "55374E1A65784850"
 				item: "gtceu:compressed_fireclay"
 				type: "item"
 			}]
-			x: 8.5d
-			y: 0.5d
+			x: 7.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["7FECE5A33D1D3AF7"]
@@ -207,8 +197,8 @@
 				item: "gtceu:primitive_blast_furnace"
 				type: "item"
 			}]
-			x: 8.5d
-			y: 2.5d
+			x: 7.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["6E2614839731BF0D"]
@@ -218,30 +208,32 @@
 				item: "gtceu:steam_grinder"
 				type: "item"
 			}]
-			x: 6.5d
-			y: -4.5d
+			x: 4.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["7BE51B4BC36F8B7B"]
 			id: "7AEE9F9ADE58612F"
+			shape: "pentagon"
 			tasks: [{
 				id: "6D29A1A8D24D20AE"
 				item: "gtocore:steam_piston_hammer"
 				type: "item"
 			}]
-			x: 4.5d
-			y: -4.5d
+			x: -3.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["05F4015974079225"]
 			id: "4C94E56A9270EFFB"
+			shape: "pentagon"
 			tasks: [{
 				id: "4282FEF2344D7095"
 				item: "gtocore:steam_foundry"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -3.0d
+			x: 1.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["017D4D369784454E"]
@@ -251,32 +243,32 @@
 				item: "gtocore:steam_pressor"
 				type: "item"
 			}]
-			x: 8.5d
-			y: -2.5d
+			x: 6.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["32A39A427D4A3AC2"]
 			id: "27F4D9739FE33A02"
-			shape: "rsquare"
-			size: 2.0d
+			shape: "octagon"
+			size: 1.0d
 			tasks: [{
 				id: "555B0222E8133F88"
 				item: "ad_astra:steel_ingot"
 				type: "item"
 			}]
-			x: 6.5d
-			y: 2.5d
+			x: 7.5d
+			y: 2.0d
 		}
 		{
-			dependencies: ["27F4D9739FE33A02"]
+			dependencies: ["13FBF05133D59CDC"]
 			id: "1C3278A0FFAE9915"
 			tasks: [{
 				id: "60240DC6E9C596FF"
 				item: "gtceu:empty_mold"
 				type: "item"
 			}]
-			x: 4.5d
-			y: 2.5d
+			x: 6.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["7F1CF6D7C0CA4DB2"]
@@ -286,8 +278,8 @@
 				item: "gtceu:glass_dust"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 4.5d
+			x: 4.5d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -301,12 +293,11 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 4.5d
+			y: 3.5d
 		}
 		{
 			id: "7F1CF6D7C0CA4DB2"
 			shape: "diamond"
-			size: 1.5d
 			tasks: [
 				{
 					id: "08F1D06B219C8919"
@@ -319,19 +310,22 @@
 					type: "item"
 				}
 			]
-			x: 0.5d
-			y: 4.5d
+			x: 6.0d
+			y: 2.0d
 		}
 		{
-			dependencies: ["431D763E6303976B"]
+			dependencies: [
+				"431D763E6303976B"
+				"1449A2A27F34E8CF"
+			]
 			id: "4B03D68C7C9FAA8C"
 			tasks: [{
 				id: "48BAFE7EF51B3BBC"
 				item: "gtceu:raw_rubber_dust"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 6.0d
+			x: 1.5d
+			y: 3.5d
 		}
 		{
 			dependencies: [
@@ -341,14 +335,13 @@
 			hide_dependency_lines: false
 			id: "043FCD7B759853EA"
 			shape: "rsquare"
-			size: 1.5d
 			tasks: [{
 				id: "56BAACDD642EA086"
 				item: "gtceu:rubber_ingot"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 7.5d
+			x: 1.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["298BEC345930429A"]
@@ -359,8 +352,8 @@
 				item: "gtceu:sulfur_dust"
 				type: "item"
 			}]
-			x: 6.5d
-			y: 7.5d
+			x: 3.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["4F1FEB6CE7C64D14"]
@@ -371,13 +364,14 @@
 				title: "远古世界"
 				type: "dimension"
 			}]
-			x: 6.5d
-			y: 6.0d
+			x: 3.0d
+			y: 3.5d
 		}
 		{
 			dependencies: [
 				"27F4D9739FE33A02"
 				"0DCA3A96184C9EAC"
+				"017D4D369784454E"
 			]
 			id: "4F1FEB6CE7C64D14"
 			tasks: [
@@ -399,19 +393,19 @@
 					type: "item"
 				}
 			]
-			x: 6.5d
-			y: 4.5d
+			x: 3.0d
+			y: 2.0d
 		}
 		{
-			dependencies: ["6AB9089FDE595716"]
+			dependencies: ["05F4015974079225"]
 			id: "0DCA3A96184C9EAC"
 			tasks: [{
 				id: "068641109A5FCEAD"
 				item: "enderio:pulsating_alloy_ingot"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 4.5d
+			x: 3.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["27F4D9739FE33A02"]
@@ -427,19 +421,8 @@
 				item: "gtocore:steam_mixer"
 				type: "item"
 			}]
-			x: 8.5d
-			y: 4.5d
-		}
-		{
-			dependencies: ["043FCD7B759853EA"]
-			id: "61702BEADCE91863"
-			tasks: [{
-				id: "0A657BAE25FDFF15"
-				item: "gtceu:red_alloy_single_cable"
-				type: "item"
-			}]
-			x: 0.5d
-			y: 7.5d
+			x: 9.0d
+			y: 3.5d
 		}
 		{
 			dependencies: [
@@ -452,49 +435,50 @@
 				item: "gtceu:glass_tube"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 2.5d
+			x: 6.0d
+			y: 5.0d
 		}
 		{
-			dependencies: ["0E4FE30F5B178EDD"]
+			dependencies: [
+				"0E4FE30F5B178EDD"
+				"0A812AD86FC580EF"
+			]
 			id: "7E046341CF58BB22"
 			tasks: [{
 				id: "11D7D6A824986B3B"
 				item: "gtocore:raw_vacuum_tube"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 2.5d
+			x: 7.5d
+			y: 5.0d
 		}
 		{
 			dependencies: [
 				"7E046341CF58BB22"
 				"21D331D7F4F8862C"
+				"0A812AD86FC580EF"
 			]
 			id: "53109F7472C0B443"
-			shape: "rsquare"
-			size: 2.0d
+			shape: "circle"
 			tasks: [{
 				id: "0A2DD6AFE2645AA8"
 				item: "gtceu:vacuum_tube"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 2.5d
+			x: 9.0d
+			y: 5.0d
 		}
 		{
-			dependencies: ["7EA48CCB9B8FEC5D"]
 			hide_dependency_lines: true
 			id: "21D331D7F4F8862C"
 			shape: "diamond"
-			size: 1.5d
 			tasks: [{
 				id: "6D9D8E445BD7DAA3"
 				item: "gtocore:lp_steam_vacuum_pump"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 0.5d
+			x: 9.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["043FCD7B759853EA"]
@@ -504,8 +488,8 @@
 				item: "gtocore:steam_separator"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 9.0d
+			x: 0.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["043FCD7B759853EA"]
@@ -515,8 +499,8 @@
 				item: "gtocore:steam_bath"
 				type: "item"
 			}]
-			x: 4.5d
-			y: 9.0d
+			x: 0.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["043FCD7B759853EA"]
@@ -526,19 +510,8 @@
 				item: "gtocore:steam_ore_washer"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 9.0d
-		}
-		{
-			dependencies: ["411686C01CB6045F"]
-			id: "07EA49FD73BCF45F"
-			tasks: [{
-				id: "0AFE59765E64C2A4"
-				item: "minecraft:paper"
-				type: "item"
-			}]
-			x: 6.5d
-			y: 9.0d
+			x: 0.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["27F4D9739FE33A02"]
@@ -548,8 +521,251 @@
 				item: "gtocore:steam_crusher"
 				type: "item"
 			}]
-			x: 6.5d
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"24C53B5FF515ACAC"
+				"2D630430259F9131"
+			]
+			id: "31BB738542229A88"
+			rewards: [
+				{
+					count: 16
+					id: "3E39F2D707463F19"
+					item: "gtceu:coke_gem"
+					type: "item"
+				}
+				{
+					id: "7A7E89E9A1DB5439"
+					item: "minecraft:hopper"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "051514632B472FE0"
+				title: "自动化"
+				type: "checkmark"
+			}]
+			title: "半自动化"
+			x: -3.0d
 			y: 0.5d
+		}
+		{
+			dependencies: ["31BB738542229A88"]
+			id: "7BCD49717F8FAD65"
+			rewards: [{
+				id: "56C68B9B7297B606"
+				item: "gtceu:steam_bucket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "512FC1623520AB38"
+				title: "蒸汽自动化"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["70166E7FA6559076"]
+			id: "505255992D2436B7"
+			tasks: [{
+				id: "099FFE15F0F06904"
+				item: "minecraft:dirt"
+				type: "item"
+			}]
+			title: "原始人的第一个巨构"
+			x: -4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["604FA0DDAD1979A1"]
+			id: "765331BCA77E436E"
+			rewards: [{
+				count: 64
+				id: "20E809E394F2AF20"
+				item: "gtceu:wood_dust"
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				id: "40FD86531791EF0C"
+				item: { Count: 16, id: "gtceu:wood_plate" }
+				type: "item"
+			}]
+			title: "你的课桌"
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7BE51B4BC36F8B7B"]
+			id: "402F27D382D05FAA"
+			rewards: [{
+				count: 16
+				id: "3875E3D31A3F7C39"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "20BD325F3109C979"
+				item: { Count: 16, id: "gtceu:wrought_iron_plate" }
+				type: "item"
+			}]
+			title: "打折时刻！爆爆爆！"
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["402F27D382D05FAA"]
+			id: "30DFC599CF10D3CB"
+			rewards: [{
+				count: 8
+				id: "7F016F9ECBA231C8"
+				item: "gtceu:wrought_iron_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "512030FA9AE95CBC"
+				item: "gtceu:ulv_machine_casing"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["24C53B5FF515ACAC"]
+			id: "62CDF0053EFFEDA7"
+			subtitle: "我就是瓦特！"
+			tasks: [{
+				id: "19DF9FE22EE14EB9"
+				title: "高级蒸汽工程师"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"604FA0DDAD1979A1"
+				"043FCD7B759853EA"
+			]
+			id: "53A8535B07FE3958"
+			rewards: [{
+				count: 7
+				id: "20B6F1F4B5E36276"
+				item: "gtceu:red_alloy_single_cable"
+				type: "item"
+			}]
+			tasks: [{
+				id: "369F4DFA3722CE01"
+				item: "gtceu:red_alloy_single_cable"
+				type: "item"
+			}]
+			title: "超导体"
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["017D4D369784454E"]
+			id: "55AAF11E1101F10F"
+			tasks: [{
+				id: "1536A22D0368A036"
+				item: "gtceu:fireclay_dust"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["017D4D369784454E"]
+			id: "7A91B781F7D7A9BA"
+			tasks: [{
+				id: "738609AAA7B72E07"
+				item: "minecraft:sand"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			id: "0D813877B877D795"
+			tasks: [{
+				id: "255F34475C3CD1DF"
+				item: "gtceu:magnetic_iron_rod"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["27F4D9739FE33A02"]
+			id: "13FBF05133D59CDC"
+			tasks: [{
+				id: "21B831E45B1D76EA"
+				item: "ad_astra:steel_plate"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 3.5d
+		}
+		{
+			id: "58BC92D62A2D9933"
+			tasks: [{
+				id: "71A506A35601A2C7"
+				item: "gtceu:rubber_sapling"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["58BC92D62A2D9933"]
+			id: "1449A2A27F34E8CF"
+			tasks: [{
+				id: "719E329CBE800FDF"
+				item: "gtceu:sticky_resin"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"53A8535B07FE3958"
+				"30DFC599CF10D3CB"
+			]
+			id: "216967716BA7FAD0"
+			tasks: [{
+				id: "1DD2F09945303E8B"
+				item: "gtceu:ulv_machine_hull"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			id: "223B6094ADE1EB6F"
+			tasks: [{
+				id: "5ADD1A60A49504E6"
+				item: "ad_astra:steel_rod"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["223B6094ADE1EB6F"]
+			id: "0A812AD86FC580EF"
+			tasks: [{
+				id: "34D60CE332D5AE96"
+				item: "gtceu:steel_bolt"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 6.5d
 		}
 	]
 	title: "蒸汽时代"

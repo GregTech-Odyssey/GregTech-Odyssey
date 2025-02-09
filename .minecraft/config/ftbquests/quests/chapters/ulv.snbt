@@ -16,7 +16,6 @@
 	}]
 	quests: [
 		{
-			dependencies: ["61702BEADCE91863"]
 			id: "300B64E908723A50"
 			size: 2.0d
 			tasks: [{
@@ -237,7 +236,6 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["07EA49FD73BCF45F"]
 			id: "5EAB776CB6CFC91C"
 			shape: "diamond"
 			size: 1.5d
