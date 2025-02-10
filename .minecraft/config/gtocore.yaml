@@ -1,13 +1,22 @@
+# Prevent cheating
 selfRestraint: false
 
+# Enabled, no mining required
 enablePrimitiveVoidOre: false
 
+# Check for conflicts between recipes
+recipeCheck: false
+
+# Reduce resource usage for the MultiBlock page (Reduce memory usage, improve startup speed, only on the client side)
 disableMultiBlockPage: false
 
+# Remove unnecessary loading
 fastMultiBlockPage: true
 
-recipeLogicCheckInterval: 20
+# The interval increases gradually when the machine cannot find a recipe; this is the maximum interval.
+recipeMaxCheckInterval: 80
 
+# Ore product multiplier
 oreMultiplier: 4
 
 spacetimePip: 2147483647
