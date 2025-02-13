@@ -133,6 +133,11 @@
 					item: "gtocore:lv_semi_fluid"
 					type: "item"
 				}
+				{
+					id: "2A6C8B1687AFDC10"
+					item: "gtocore:lv_thermal_generator"
+					type: "item"
+				}
 			]
 			title: "小发电机"
 			x: 1.5d
