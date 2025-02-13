@@ -826,27 +826,6 @@
 			dependencies: ["0EFC6C245CC001CB"]
 			description: ["这里有你其他需要挖的矿物，现阶段不是那么紧要，先备着些。"]
 			id: "4993AFF5280AC837"
-			rewards: [{
-				id: "3CDADBE0ABEF1EEF"
-				item: {
-					Count: 1
-					id: "gtceu:diamond_pickaxe"
-					tag: {
-						DisallowContainerItem: 0b
-						GT.Behaviours: {
-							TorchPlacing: 1b
-						}
-						GT.Tool: {
-							Damage: 0
-							HarvestLevel: 3
-							MaxDamage: 767
-							ToolSpeed: 10.0f
-						}
-						HideFlags: 2
-					}
-				}
-				type: "item"
-			}]
 			subtitle: "其他需要挖的矿石"
 			tasks: [
 				{
@@ -1488,6 +1467,17 @@
 			title: "测试专用"
 			x: -5.5d
 			y: 0.0d
+		}
+		{
+			dependencies: ["561D79DE960A034D"]
+			id: "2E05753AF03C5608"
+			tasks: [{
+				id: "5EBE3AE9D2431AF9"
+				item: "craftingstation:crafting_station"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.5d
 		}
 	]
 	title: "由此开始"

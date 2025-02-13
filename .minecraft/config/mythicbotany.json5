@@ -1,0 +1,171 @@
+{
+  // Whether to add an extra ring slot to curios.
+  "addExtraRingSlot": true,
+  
+  // Whether the alfheim dimension is enabled. When this is set to false, you'll still be able to use
+  // the mead of kvasir as usual but the portal to alfheim will not work.
+  "enableAlfheim": true,
+  
+  // Whether players that manage to get to alfheim via another mod but have not drunk the mead of kvasir
+  // should get a blindness effect.
+  "lockAlfheim": true,
+  
+  // Whether to replace the recipe for the Gaia Pylon with a recipe that requires Alfsteel.
+  "replaceGaiaRecipe": true,
+  
+  "alftools": {
+  
+    // Jump boost modifier for the alfsteel boots
+    // Minimum: 0.0
+    "jump_modifier": 0.025,
+    
+    // Knockback resistance modifier for the alfsteel chestplate
+    // Minimum: 0.0
+    "knockback_resistance_modifier": 1,
+    
+    // Reach distance modifier for the alfsteel helmet
+    // Minimum: 0.0
+    "reach_modifier": 2,
+    
+    // Speed modifier for the alfsteel leggings
+    // Minimum: 0.0
+    "speed_modifier": 0.05,
+    
+    // Armor stats for alfsteel armor.
+    "armor_values": {
+    
+      "boots": {
+        "defense": 3,
+        "toughness": 3
+      },
+      "chestplate": {
+        "defense": 8,
+        "toughness": 3
+      },
+      "helmet": {
+        "defense": 3,
+        "toughness": 3
+      },
+      "leggings": {
+        "defense": 6,
+        "toughness": 3
+      }
+    },
+    
+    // Durability stats for alfsteel tools.
+    //   max_durability      is the maximum durability, a tool has
+    //   mana_per_durability is the amount of mana consumed per durability loss
+    "durability": {
+    
+      "armor": {
+        "max_durability": 5200,
+        "mana_per_durability": 100
+      },
+      "axe": {
+        "max_durability": 4600,
+        "mana_per_durability": 200
+      },
+      "pickaxe": {
+        "max_durability": 4600,
+        "mana_per_durability": 200
+      },
+      "sword": {
+        "max_durability": 4600,
+        "mana_per_durability": 200
+      }
+    },
+    
+    "tool_values": {
+    
+      // The attack damage dealt by the alf blade
+      "sword_damage": 12,
+      
+      // The attack speed modifier for the alf blade
+      "sword_speed": 2.4
+    }
+  },
+  
+  "flowers": {
+  
+    // How much mana a wither aconite should generate per nether star.
+    // Minimum: 1
+    "witherAconiteMana": 1200000,
+    
+    // Can be used to tweak the multipliers for the raindeletia. All matching values are multiplied
+    // The result is the mana generated per tick.
+    "raindeletia": {
+    
+      // Base modifier. This one will always be applied
+      // Minimum: 0.0
+      "base": 5,
+      
+      // Modifier for dry grass
+      // Minimum: 0.0
+      "dry_grass": 0.5,
+      
+      // Modifier for enchanted soil
+      // Minimum: 0.0
+      "enchanted_soil": 5,
+      
+      // Modifier for normal rain, not for thunder
+      // Minimum: 0.0
+      "rain": 0.09,
+      
+      // Modifier for thundering
+      // Minimum: 0.0
+      "thunder": 3,
+      
+      // Modifier for vivid grass
+      // Minimum: 0.0
+      "vivid_grass": 2
+    }
+  },
+  
+  "mjoellnir": {
+  
+    // The amount the attack speed increases per level of hammer mobility.
+    // Minimum: 0.0
+    "attack_speed_multiplier": 0.2,
+    
+    // The base attack speed attribute for mjoellnir.
+    "base_attack_speed": -3.5,
+    
+    // The base damage for melee attacks.
+    // Minimum: 1.0
+    "base_damage_melee": 25,
+    
+    // The base damage for the main target on ranged attacks.
+    // Minimum: 1.0
+    "base_damage_ranged": 25,
+    
+    // Enchantment multiplier for sharpness and power enchantments.
+    // Minimum: 1.0
+    "enchantment_multiplier": 5,
+    
+    // The cooldown in ticks after a ranged attack, before mjoellnir can be thrown again.
+    // Minimum: 0
+    "ranged_cooldown": 120,
+    
+    // What is required for a player to hold mjoellnir.
+    // nothing  - Players will always be able to hold mjoellnir.
+    // effect   - Players need the absorption effect to hold mjoellnir.
+    // hearts   - Players need absorption hearts to hold mjoellnir.
+    //            If they run out of golden hearts but still have the effect, mjoellnir is dropped.
+    // Allowed values: nothing, effect, hearts
+    "requirement": "effect",
+    
+    // What is required for a player that holds the ring of thor to hold mjoellnir.
+    // If a player holds the ring of thor, this OR `mjoellnir.requirement` must be met.
+    // Allowed values: nothing, effect, hearts
+    "requirement_thor": "nothing",
+    
+    // The chance for secondary targets to get lightning effects applied as well on ranged attacks.
+    // Range: 0.0 - 1.0
+    "secondary_lightning_chance": 0.25,
+    
+    // The damage dealt to secondary targets on ranged attacks.
+    // This value is multiplied with the damage to the main target.
+    // Range: 0.0 - 1.0
+    "secondary_target_multiplier": 0.4
+  }
+}

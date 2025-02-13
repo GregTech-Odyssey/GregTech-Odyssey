@@ -1,0 +1,5 @@
+#Set to false to disable particles from the mythicbotany rings for your own player. You'll still see them from other players.
+ring_particles = true
+#Set to false to disable the background on Botania HUDs.
+hud_backgrounds = true
+
