@@ -40,16 +40,6 @@
 			y: -1.0d
 		}
 		{
-			id: "052880B5D03CAF7D"
-			tasks: [{
-				id: "46C3A0652DFB2889"
-				item: "gtceu:coke_oven"
-				type: "item"
-			}]
-			x: -4.0d
-			y: -3.5d
-		}
-		{
 			dependencies: ["24C53B5FF515ACAC"]
 			id: "2D630430259F9131"
 			tasks: [{
@@ -569,18 +559,6 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["70166E7FA6559076"]
-			id: "505255992D2436B7"
-			tasks: [{
-				id: "099FFE15F0F06904"
-				item: "minecraft:dirt"
-				type: "item"
-			}]
-			title: "原始人的第一个巨构"
-			x: -4.5d
-			y: -2.5d
-		}
-		{
 			dependencies: ["604FA0DDAD1979A1"]
 			id: "765331BCA77E436E"
 			rewards: [{
@@ -634,18 +612,6 @@
 			}]
 			x: -1.5d
 			y: 5.0d
-		}
-		{
-			dependencies: ["24C53B5FF515ACAC"]
-			id: "62CDF0053EFFEDA7"
-			subtitle: "我就是瓦特！"
-			tasks: [{
-				id: "19DF9FE22EE14EB9"
-				title: "高级蒸汽工程师"
-				type: "checkmark"
-			}]
-			x: -3.0d
-			y: -4.0d
 		}
 		{
 			dependencies: [

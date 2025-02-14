@@ -1,5 +1,4 @@
 {
-	always_invisible: true
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "mv"
@@ -756,7 +755,7 @@
 				item: "gtocore:mv_energy_input_hatch_4a"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 13.5d
 			y: 12.0d
 		}
 		{
@@ -859,18 +858,14 @@
 			y: 10.0d
 		}
 		{
-			dependencies: ["033DE57F0D91698C"]
-			id: "270E9AB8AFD6729B"
+			dependencies: ["750D2CE269C7068D"]
+			id: "2ABDD1F2A0D4A038"
 			tasks: [{
-				id: "034BCF2E30F0B47F"
-				item: {
-					Count: 1
-					id: "gtocore:virtual_item_provider"
-					tag: { }
-				}
+				id: "26A1C2F70D9229F9"
+				item: "gtocore:component_assembler"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 10.0d
 			y: 11.5d
 		}
 	]

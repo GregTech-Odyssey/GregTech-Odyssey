@@ -810,6 +810,77 @@
 			x: 3.5d
 			y: 4.0d
 		}
+		{
+			dependencies: ["509DE5B500CC1C0B"]
+			description: ["无线电网中大量使用"]
+			id: "4578DA0FAD0465B6"
+			tasks: [{
+				id: "6DE37056817F8210"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4578DA0FAD0465B6"]
+			description: ["单元越多，额外容量越大"]
+			id: "7A8ABFDC21204F72"
+			rewards: [{
+				count: 4
+				id: "0DD03D3E5C3DB925"
+				item: "gtocore:lv_wireless_energy_unit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "09AA825459AE5ECF"
+				item: "gtocore:wireless_energy_substation"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"4578DA0FAD0465B6"
+				"655C830A16826640"
+			]
+			id: "5B61123EB41E7A1D"
+			tasks: [{
+				id: "7986029CB9C9C3C5"
+				item: "gtmthings:wireless_energy_interface"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0C5F6BCA89E31C98"]
+			description: [
+				"绑定你的电池箱或以后的电容库，根据内部的电池决定电网传输上限。"
+				"这个传输上限指单上限而不是总和"
+			]
+			id: "655C830A16826640"
+			tasks: [{
+				id: "62D9AD35639500F8"
+				item: "gtmthings:wireless_energy_binding_tool"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["33B01E889EE7E990"]
+			hide_dependency_lines: true
+			id: "0C5F6BCA89E31C98"
+			tasks: [{
+				id: "069BE382F401BF74"
+				item: "gtceu:lv_scanner"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 4.0d
+		}
 	]
 	title: "低压"
 }
