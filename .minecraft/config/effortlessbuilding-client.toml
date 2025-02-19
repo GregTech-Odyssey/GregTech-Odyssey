@@ -1,0 +1,18 @@
+
+[Visuals]
+	#Show previews of the blocks while placing them
+	showBlockPreviews = true
+	#Show block previews only when actively using a build mode
+	onlyShowBlockPreviewsWhenBuilding = true
+	#Don't show block previews when placing more than this many blocks. The outline will always be rendered.
+	#Range: 0 ~ 5000
+	maxBlockPreviews = 400
+	#How long it takes for a block to appear when placed in ticks.
+	#Set to 0 to disable animation.
+	#Range: 0 ~ 100
+	appearAnimationLength = 5
+	#How long the break animation is in ticks.
+	#Set to 0 to disable animation.
+	#Range: 0 ~ 100
+	breakAnimationLength = 10
+

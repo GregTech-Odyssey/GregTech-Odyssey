@@ -32,6 +32,8 @@
 .minecraft/icon.png
 .minecraft/knownkeys.txt
 .minecraft/options.txt
+.minecraft/data/
+.minecraft/resourcepacks/
 .idea/
 .DS_Store
 instance.cfg
