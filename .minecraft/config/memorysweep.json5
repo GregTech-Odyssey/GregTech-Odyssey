@@ -1,0 +1,32 @@
+{
+	// Whether to enable MemorySweep.
+	"memorySweep": true,
+	/* 
+	   Memory will be cleaned up at all times, even if the world is not entered.
+	   This option is invalid on the server because... you know.
+	*/
+	"autoSweep": false,
+	/* 
+	   Base Config.
+	*/
+	"baseCfg": {
+		/* 
+		   The interval time of memory cleaning.
+		   Unit: seconds.
+		*/
+		"sweepInterval": 600,
+		/* 
+		   The minimum memory occupancy rate that triggers memory cleaning.
+		   Calculated based on the average value in ten seconds.
+		   Since the memory usage is calculated based on a 10-second interval, for stronger cleaning effects, please set a lower value.
+		   Unit: percentage.
+		*/
+		"minMemoryUsage": 75,
+		/* 
+		   Silent memory cleaning.
+		   This will not display memory cleaning information.
+		   But it will still be displayed in the log.
+		*/
+		"silent": false
+	}
+}

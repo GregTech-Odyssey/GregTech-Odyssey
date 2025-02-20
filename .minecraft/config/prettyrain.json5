@@ -1,0 +1,74 @@
+{
+	"maxParticleAmount": 1500,
+	"particleDensity": 100,
+	"particleStormDensity": 200,
+	"particleRadius": 25,
+	"doRainParticles": true,
+	"doSplashParticles": true,
+	"doSmokeParticles": true,
+	"doRippleParticles": true,
+	"doStreakParticles": true,
+	"doSnowParticles": true,
+	"doSandParticles": true,
+	"doShrubParticles": true,
+	"doFogParticles": false,
+	"doGroundFogParticles": false,
+	"doRainSounds": true,
+	"doSnowSounds": true,
+	"doSandSounds": true,
+	"rain": {
+		"density": 100,
+		"gravity": 1.0,
+		"windStrength": 0.30000001192092896,
+		"stormWindStrength": 0.5,
+		"opacity": 100,
+		"splashDensity": 5,
+		"size": 2.0
+	},
+	"snow": {
+		"density": 40,
+		"gravity": 0.07999999821186066,
+		"rotationAmount": 0.029999999329447746,
+		"stormRotationAmount": 0.05000000074505806,
+		"windStrength": 1.0,
+		"stormWindStrength": 3.0,
+		"size": 2.0
+	},
+	"sand": {
+		"density": 80,
+		"gravity": 0.20000000298023224,
+		"windStrength": 0.30000001192092896,
+		"moteSize": 0.10000000149011612,
+		"size": 2.0,
+		"spawnOnGround": true,
+		"matchTags": "minecraft:sand"
+	},
+	"shrub": {
+		"density": 2,
+		"gravity": 0.20000000298023224,
+		"rotationAmount": 0.20000000298023224,
+		"bounciness": 0.20000000298023224
+	},
+	"ripple": {
+		"resolution": 16,
+		"useResourcepackResolution": true
+	},
+	"fog": {
+		"density": 20,
+		"gravity": 0.20000000298023224,
+		"size": 0.5
+	},
+	"groundFog": {
+		"density": 20,
+		"spawnHeight": 64,
+		"size": 8.0
+	},
+	"renderVanillaWeather": false,
+	"tickVanillaWeather": false,
+	"biomeTint": true,
+	"tintMix": 50,
+	"spawnAboveClouds": false,
+	"cloudHeight": 191,
+	"alwaysRaining": false,
+	"yLevelWindAdjustment": true
+}

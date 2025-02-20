@@ -1,0 +1,5 @@
+
+[logbegone]
+	regex = []
+	phrases = ["Loaded entity", "Insufficient number", "MixinTaintDetector", "enum_values"]
+

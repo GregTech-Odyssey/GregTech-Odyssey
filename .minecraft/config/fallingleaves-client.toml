@@ -1,0 +1,25 @@
+#modifies the size of the leaves
+#Range: 1 ~ 20
+leafSize = 4
+#modifies how long it takes for the leaves to disappear
+#Values over 2000 are not recommend
+#Range: > 100
+leafLifespan = 200
+#modifies the amount of leaves that are spawning
+#Values over 10000 are not recommend
+#Range: > 0
+leafSpawnRate = 10
+#modifier the amount of leaves are spawning from conifer trees
+#Values over 10000 are not recommend
+#Range: > 0
+coniferLeafSpawnRate = 2
+#whether player placed blocks should also drop leaves
+dropFromPlayerPlacedBlocks = true
+#how much room below the leaves block is needed for the leaves to spawn
+#Range: 1 ~ 20
+minimumFreeSpaceBelow = 1
+#disable wind effects
+disableWind = false
+#windless dimensions
+windlessDimension = ["minecraft:the_nether", "minecraft:the_end"]
+
