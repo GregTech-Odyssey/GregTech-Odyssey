@@ -24,7 +24,8 @@
 .minecraft/*.json
 .minecraft/config/oculus.properties
 .minecraft/config/xaerominimap_entities.json
-.minecraft/config/spark
+.minecraft/config/spark/
+.minecraft/config/fabric
 .minecraft/mods/.index/
 .minecraft/gtceu/
 .minecraft/patchouli_books/
