@@ -1,0 +1,15 @@
+
+[nether]
+	#The weighting of bop biome regions in the nether.
+	bop_nether_region_weight = 13
+	#The weighting of rare bop biome regions in the nether.
+	bop_nether_rare_region_weight = 2
+
+[overworld]
+	#The weighting of primary bop biome regions in the overworld.
+	bop_primary_overworld_region_weight = 10
+	#The weighting of rare bop biome regions in the overworld.
+	bop_overworld_rare_region_weight = 2
+	#The weighting of secondary bop biome regions in the overworld.
+	bop_secondary_overworld_region_weight = 8
+
