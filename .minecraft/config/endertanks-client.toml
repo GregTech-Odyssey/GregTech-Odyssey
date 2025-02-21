@@ -1,0 +1,44 @@
+#Delay, in milliseconds, before a multi-line tank info request will display the next line
+#Range: 250 ~ 10000
+info_line_change_delay = 1500
+
+#Color Values for Bands,
+#Format: Decimal Values (0 to 16,777,215)
+#You can use this website to get the decimal value of any color:
+#http://www.colorhexa.com
+#Or by using the Color Mixer from this website:
+#http://www.mathsisfun.com/hexadecimal-decimal-colors.html
+[color_values]
+	#Range: 0 ~ 16777215
+	white = 16777215
+	#Range: 0 ~ 16777215
+	orange = 14517579
+	#Range: 0 ~ 16777215
+	magenta = 12411333
+	#Range: 0 ~ 16777215
+	light_blue = 8296912
+	#Range: 0 ~ 16777215
+	yellow = 12892206
+	#Range: 0 ~ 16777215
+	lime = 4832573
+	#Range: 0 ~ 16777215
+	pink = 14195370
+	#Range: 0 ~ 16777215
+	gray = 4605510
+	#Range: 0 ~ 16777215
+	light_gray = 11120559
+	#Range: 0 ~ 16777215
+	cyan = 3373205
+	#Range: 0 ~ 16777215
+	purple = 8996546
+	#Range: 0 ~ 16777215
+	blue = 3292826
+	#Range: 0 ~ 16777215
+	brown = 5650466
+	#Range: 0 ~ 16777215
+	green = 3821086
+	#Range: 0 ~ 16777215
+	red = 10828341
+	#Range: 0 ~ 16777215
+	black = 2500134
+
