@@ -14,7 +14,7 @@
 		   The interval time of memory cleaning.
 		   Unit: seconds.
 		*/
-		"sweepInterval": 600,
+		"sweepInterval": 30000,
 		/* 
 		   The minimum memory occupancy rate that triggers memory cleaning.
 		   Calculated based on the average value in ten seconds.
