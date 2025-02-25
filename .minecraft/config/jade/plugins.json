@@ -101,6 +101,7 @@
   "gtocore": {
     "accelerate_provider": false,
     "mana_container_provider": true,
-    "vacuum_tier_provider": true
+    "vacuum_tier_provider": true,
+    "temperature_provider": true
   }
 }

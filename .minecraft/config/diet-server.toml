@@ -1,0 +1,26 @@
+#The minimum percentage that diet groups can be reduced to upon death.
+#Range: 0 ~ 100
+deathPenaltyMin = 0
+#The reduction in percentage applied to all diet groups upon death.
+#Range: 0 ~ 100
+deathPenaltyLoss = 100
+#The method to apply for losses due to death penalties.
+#AMOUNT = Reduce by a flat percentage amount
+#PERCENT = Reduce by a percent of the current value
+#RESET = Reset value to defaults
+#Allowed Values: AMOUNT, PERCENT, RESET
+deathPenaltyMethod = "AMOUNT"
+#The percentage reduction in total gain for each diet group consumed at once.
+#Range: 0 ~ 100
+gainPenaltyPerGroup = 15
+#The percentage reduction in total decay for each diet group decayed at once.
+#Range: 0 ~ 100
+decayPenaltyPerGroup = 15
+#List of food quality overrides for diet gain values.
+#Format: "modid:name;quality"
+foodOverrides = []
+#If enabled, food groups are assigned to unclassified items based on ingredients.
+generateGroupsForEmptyItems = true
+#If enabled, food group tooltips are hidden until player has eaten that type of item.
+hideTooltipsUntilEaten = false
+

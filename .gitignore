@@ -35,6 +35,7 @@
 .minecraft/options.txt
 .minecraft/data/
 .minecraft/resourcepacks/
+.minecraft/shaderpacks/*.txt
 .idea/
 .DS_Store
 instance.cfg

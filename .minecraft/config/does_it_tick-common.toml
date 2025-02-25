@@ -4,9 +4,9 @@
 	#If you disable this, entities will not stop ticking when they'are far from you, this mod may be useless for you too
 	OptimizeEntitiesTicking = true
 	#Range: > 1
-	LivingEntitiesMaxHorizontalTickDistance = 64
+	LivingEntitiesMaxHorizontalTickDistance = 128
 	#Range: > 1
-	LivingEntitiesMaxVerticalTickDistance = 32
+	LivingEntitiesMaxVerticalTickDistance = 64
 	#If you don't want an entity to be affected by the optimization, you can write its registry name down here.
 	EntitiesWhitelist = ["minecraft:ender_dragon", "minecraft:ghast", "minecraft:wither", "minecraft:player"]
 	#If you don't want entities of a mod to be affected by the optimization, you can write its modid down here

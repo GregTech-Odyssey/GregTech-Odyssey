@@ -1,0 +1,11 @@
+#If enabled, a button to the Diet GUI appears in player inventories.
+addButton = true
+#The x-position of the Diet GUI button in player inventories.
+#Range: -10000 ~ 10000
+buttonX = 126
+#The y-position of the Diet GUI button in player inventories.
+#Range: -10000 ~ 10000
+buttonY = -22
+#The primary text color of the Diet GUI, as an integer or hexadecimal.
+textColor = "4210752"
+
