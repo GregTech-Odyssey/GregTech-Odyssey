@@ -197,7 +197,7 @@
 				"而不用工作台做的燧石斧只有16的耐久"
 				""
 				""
-				"&o&8tips：打草有概率生成植物纤维，空手摧毁树叶有概率得到木棍"
+				"tips:用小刀打草有概率生成植物纤维，空手摧毁树叶有概率得到木棍"
 			]
 			icon: {
 				Count: 1
@@ -309,24 +309,12 @@
 					type: "item"
 				}
 				{
-					id: "37E16B67CAAEC60A"
+					id: "62F39BB594A0B676"
 					item: {
 						Count: 1
-						id: "gtceu:sterling_silver_sword"
+						id: "ae2:fluix_sword"
 						tag: {
-							DisallowContainerItem: 0b
-							Enchantments: [{
-								id: "minecraft:smite"
-								lvl: 3s
-							}]
-							GT.Behaviours: { }
-							GT.Tool: {
-								AttackDamage: 11.0f
-								AttackSpeed: -2.1000001f
-								Damage: 0
-								MaxDamage: 767
-							}
-							HideFlags: 2
+							Damage: 0
 						}
 					}
 					type: "item"
@@ -763,12 +751,22 @@
 			id: "67264EF0565CC030"
 			rewards: [
 				{
-					id: "2C96DA8AF36132D9"
+					count: 16
+					id: "6EFAC6F29537C1E9"
+					item: "minecraft:chest"
+					type: "item"
+				}
+				{
+					id: "2AE2BF882BC208D3"
 					item: {
 						Count: 1
-						id: "gtceu:diamond_mining_hammer"
+						id: "gtceu:damascus_steel_mining_hammer"
 						tag: {
 							DisallowContainerItem: 0b
+							Enchantments: [{
+								id: "minecraft:fortune"
+								lvl: 3s
+							}]
 							GT.Behaviours: {
 								AoEColumn: 1
 								AoELayer: 0
@@ -781,18 +779,12 @@
 							GT.Tool: {
 								Damage: 0
 								HarvestLevel: 3
-								MaxDamage: 2303
+								MaxDamage: 3071
 								ToolSpeed: 6.4f
 							}
 							HideFlags: 2
 						}
 					}
-					type: "item"
-				}
-				{
-					count: 16
-					id: "6EFAC6F29537C1E9"
-					item: "minecraft:chest"
 					type: "item"
 				}
 			]
@@ -1457,6 +1449,55 @@
 							Charge: 2000000000000L
 						}
 					}
+					type: "item"
+				}
+				{
+					id: "4A1F3C1C31ECFDAB"
+					item: {
+						Count: 1
+						id: "gtocore:enderium_vajra"
+						tag: {
+							Charge: 2147483647L
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								DisableShields: 1b
+								Mode: 2b
+								RelocateMinedBlocks: 1b
+								RelocateMobDrops: 1b
+							}
+							GT.Tool: {
+								AttackDamage: 3010.0f
+								AttackSpeed: 2.0f
+								Damage: 0
+								HarvestLevel: 6
+								MaxDamage: 99
+								ToolSpeed: 1004.0f
+							}
+							HideFlags: 2
+							MaxCharge: 2147483647L
+							Unbreakable: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2845D80B0073047E"
+					item: "avaritia:infinity_helmet"
+					type: "item"
+				}
+				{
+					id: "33298327AFEF9C0D"
+					item: "avaritia:infinity_chestplate"
+					type: "item"
+				}
+				{
+					id: "15954560DEBDA7D8"
+					item: "avaritia:infinity_pants"
+					type: "item"
+				}
+				{
+					id: "10BE450A3F323A62"
+					item: "avaritia:infinity_boots"
 					type: "item"
 				}
 			]

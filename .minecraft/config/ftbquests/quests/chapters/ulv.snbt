@@ -12,25 +12,36 @@
 		shape: "rsquare"
 		size: 2.0d
 		x: -1.0d
-		y: 1.5d
+		y: 2.5d
 	}]
 	quests: [
 		{
+			description: [
+				"欢迎来到超低压时代。"
+				"哪怕是再微弱的电那都是电，所以注意不要被裸露的导线电死了。"
+			]
 			id: "300B64E908723A50"
 			size: 2.0d
+			subtitle: "终于有电了"
 			tasks: [{
 				id: "02032694FF7ED849"
 				item: "gtceu:ulv_machine_hull"
 				type: "item"
 			}]
+			title: "欢迎来到超低压"
 			x: -4.0d
 			y: -2.5d
 		}
 		{
 			dependencies: ["300B64E908723A50"]
+			description: [
+				"超低压的时代的六件套主要是需要铜和锡来制造。也是蒸汽时代的主要材料的延续。"
+				"随着科技发展这些配方会变得更便宜，当然你现在只能手搓。"
+			]
 			id: "2B8A3EDB4C466DFB"
 			shape: "square"
 			size: 1.5d
+			subtitle: "原始F4"
 			tasks: [
 				{
 					id: "0C675ABC7759BBBB"
@@ -43,11 +54,6 @@
 					type: "item"
 				}
 				{
-					id: "439AC8BB77D33B41"
-					item: "gtocore:ulv_robot_arm"
-					type: "item"
-				}
-				{
 					id: "0FB804D3346A47AD"
 					item: "gtocore:ulv_conveyor_module"
 					type: "item"
@@ -57,56 +63,74 @@
 					item: "gtocore:ulv_electric_pump"
 					type: "item"
 				}
-				{
-					id: "24E763297AD27C40"
-					item: "gtocore:ulv_fluid_regulator"
-					type: "item"
-				}
 			]
+			title: "四件套"
 			x: -1.0d
 			y: -2.5d
 		}
 		{
 			dependencies: ["2B8A3EDB4C466DFB"]
+			description: [
+				"另一种发电方式，可以让你直接使用石化燃料发电。"
+				"产能略微比原始热力发电机大。"
+			]
 			id: "3791F49E789E7673"
 			optional: true
+			subtitle: "实际上什么油都能烧"
 			tasks: [{
 				id: "6A13C40FABCAD89C"
 				item: "gtocore:ulv_semi_fluid"
 				type: "item"
 			}]
+			title: "这是内燃机"
 			x: -1.0d
 			y: -4.5d
 		}
 		{
 			dependencies: ["2B8A3EDB4C466DFB"]
+			description: [
+				"顾名思义，烧东西来发电。"
+				"（本质上就是一个小型的火力发电机）"
+			]
 			id: "11FC35FC0409E3AC"
 			optional: true
+			rewards: [{
+				count: 16
+				id: "49ABF191A007338E"
+				item: "minecraft:coal"
+				type: "item"
+			}]
+			subtitle: "以热生电"
 			tasks: [{
 				id: "76AE3F639115F08C"
 				item: "gtocore:ulv_thermal_generator"
 				type: "item"
 			}]
+			title: "最原始的发电机"
 			x: -2.5d
 			y: -4.5d
 		}
 		{
 			dependencies: ["2B8A3EDB4C466DFB"]
+			description: ["仅能处理小部分配方。"]
 			id: "1CA6E1AD1909373A"
+			subtitle: "反正能把它们组装在一起就行了"
 			tasks: [{
 				id: "60367C7A1C461705"
 				item: "gtocore:ulv_assembler"
 				type: "item"
 			}]
+			title: "原始拼接"
 			x: 0.5d
 			y: -2.5d
 		}
 		{
 			dependencies: ["1CA6E1AD1909373A"]
-			description: ["方便配方"]
+			description: ["方便配方，需要将真空泵贴紧组装机以提供真空环境。"]
 			id: "26C9C65E15B341A6"
 			shape: "rsquare"
 			size: 1.5d
+			subtitle: "批量生产"
 			tasks: [{
 				id: "68415E0B812AF7DC"
 				item: "gtceu:vacuum_tube"
@@ -117,6 +141,11 @@
 		}
 		{
 			dependencies: ["11FC35FC0409E3AC"]
+			description: [
+				"风力跟高度（Y值）直接相关，在Y值低于0的地方是没有风力来发电的。"
+				"转子前不能有任何遮挡，包括生物实体和方块。"
+				"被转子打到是会扣血的。"
+			]
 			id: "76B352DA96B91E6E"
 			optional: true
 			rewards: [{
@@ -130,161 +159,249 @@
 				}
 				type: "item"
 			}]
+			subtitle: "清洁能源"
 			tasks: [{
 				id: "6FA072BD07623E24"
 				item: "gtocore:ulv_wind_mill_turbine"
 				type: "item"
 			}]
+			title: "这是大风车"
 			x: -4.0d
 			y: -4.5d
 		}
 		{
-			description: ["到处都是"]
+			dependencies: ["4F77CB97CE068D7F"]
+			description: [
+				"这种黑色的液体会生成在地表以及地下，粘稠状，掉入其中就像掉到水里一样会扣减氧气。"
+				"一桶只能舀走1B，所以如果你想一次性带走更多原油就需要更大的单元。"
+				"幸好我这里有，送你一个。"
+			]
 			id: "0861FADA4103BCA5"
+			rewards: [{
+				id: "525DC53DB6E58404"
+				item: "gtceu:aluminium_fluid_cell"
+				type: "item"
+			}]
 			shape: "diamond"
+			subtitle: "打包带回家"
 			tasks: [{
 				id: "407D7D7216484DA8"
 				item: "gtceu:oil_medium_bucket"
 				type: "item"
 			}]
+			title: "一桶原油"
 			x: -5.5d
 			y: -0.5d
 		}
 		{
-			dependencies: ["2B8A3EDB4C466DFB"]
+			dependencies: [
+				"4E0B6C5CE3808705"
+				"561F5AACF437E7C5"
+				"3F774833BA2ED7A1"
+			]
+			description: ["蒸汽裂化机只能处理四种基础含硫油的配方。"]
 			id: "498D24745D509B73"
+			subtitle: "似曾相识故人来"
 			tasks: [{
 				id: "75B4981C6345DD37"
 				item: "gtocore:steam_cracker"
 				type: "item"
 			}]
-			x: 0.5d
-			y: -4.5d
+			title: "原始手段，原始配方"
+			x: -4.0d
+			y: 1.0d
 		}
 		{
 			dependencies: [
 				"300B64E908723A50"
 				"0861FADA4103BCA5"
 			]
+			description: [
+				"具体的机器机制看主方块描述，以及这个机器是免不了要造两台的。"
+				"玩得开心^^"
+			]
 			id: "561F5AACF437E7C5"
+			rewards: [
+				{
+					count: 2
+					id: "26B00A9D1F328AA4"
+					item: "gtocore:ulv_fluid_regulator"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7ED8195444B1E879"
+					item: "gtocore:ulv_electric_pump"
+					type: "item"
+				}
+			]
+			subtitle: "我的妈这是什么东西..."
 			tasks: [{
 				id: "1E546B913C7F7A60"
 				item: "gtocore:primitive_distillation_tower"
 				type: "item"
 			}]
+			title: "来点原始人的石化处理"
 			x: -4.0d
 			y: -0.5d
 		}
 		{
-			dependencies: ["2B8A3EDB4C466DFB"]
+			dependencies: [
+				"498D24745D509B73"
+				"1CDBE91D2ACD9111"
+			]
+			description: [
+				"由于电压过低，实际上也只能处理那么几个配方。"
+				"聚乙烯是你必须要处理的配方。"
+			]
 			id: "35926F43AF33BB41"
+			subtitle: "能力有限"
 			tasks: [{
 				id: "071924CE35F306EC"
 				item: "gtocore:ulv_chemical_reactor"
 				type: "item"
 			}]
-			x: -1.0d
-			y: -0.5d
+			title: "初代大乱炖"
+			x: -4.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["2B8A3EDB4C466DFB"]
+			description: [
+				"同样的问题，电压过低，所以就处理几个关键配方就行了。"
+				"你需要制作聚乙烯片。"
+			]
 			id: "76259357A13F3B1E"
+			subtitle: "让它冷却下来"
 			tasks: [{
 				id: "6180660635C1D52B"
 				item: "gtocore:ulv_fluid_solidifier"
 				type: "item"
 			}]
+			title: "固化成型"
 			x: -2.5d
 			y: -0.5d
 		}
 		{
 			dependencies: [
-				"561F5AACF437E7C5"
 				"76259357A13F3B1E"
+				"35926F43AF33BB41"
+				"3528806A9F4D4E7E"
 			]
+			description: ["在超低压时代先造一些凑活用点，后面电压上去了一定要换其他的机器来制作它。"]
 			id: "03BB5A5C084F5194"
+			subtitle: "千辛万苦"
 			tasks: [{
 				id: "545ED00874DB1E00"
 				item: "gtceu:polyethylene_plate"
 				type: "item"
 			}]
+			title: "塑料片"
 			x: -2.5d
-			y: 1.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["27F4D9739FE33A02"]
+			description: [
+				"通风板需要安装在小机器的任意一个侧面，在这个侧面不被阻挡的情况下可以以1秒200mb的速度抽入空气。"
+				"注：可以安装在多个侧面，可并行增加抽入速度。"
+			]
 			id: "1CDBE91D2ACD9111"
+			subtitle: "疯狂吸入"
 			tasks: [{
 				id: "0961EA8680E8D70C"
 				item: "gtocore:air_vent"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 1.5d
+			title: "空气从哪来？"
+			x: -5.5d
+			y: 2.5d
 		}
 		{
 			dependencies: [
 				"2B8A3EDB4C466DFB"
 				"5EAB776CB6CFC91C"
+				"3F774833BA2ED7A1"
 			]
+			description: ["仅能处理少量配方，比如锡线缆，以及多重管道。"]
 			id: "4E0B6C5CE3808705"
+			subtitle: "就是把它们挤在一起"
 			tasks: [{
 				id: "5131D0A9C6B238E5"
 				item: "gtocore:ulv_packer"
 				type: "item"
 			}]
+			title: "原始人的打包办法"
 			x: 0.5d
-			y: -0.5d
+			y: 1.0d
 		}
 		{
+			description: ["有多种配方，可自行选择。"]
 			id: "5EAB776CB6CFC91C"
 			shape: "diamond"
 			size: 1.5d
+			subtitle: "来点熟悉的东西"
 			tasks: [{
 				id: "7624367D92EA7611"
 				item: "gtceu:resistor"
 				type: "item"
 			}]
 			x: 2.5d
-			y: -0.5d
+			y: 1.0d
 		}
 		{
 			dependencies: [
 				"5EAB776CB6CFC91C"
 				"53109F7472C0B443"
+				"26C9C65E15B341A6"
+			]
+			description: [
+				"那么我们终于走到了这一步，开始用电路板了。"
+				"一般来说新一级电压带来的新电路板都会比上一级电压的电路板便宜。"
+				"记得做好更新迭代。"
 			]
 			id: "0FBE7318DFBA700E"
 			shape: "rsquare"
 			size: 2.0d
+			subtitle: "你的第一块电路板"
 			tasks: [{
 				id: "7038301353A30474"
 				item: "gtceu:basic_electronic_circuit"
 				type: "item"
 			}]
+			title: "基础电子电路"
 			x: 2.5d
-			y: 1.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["4E0B6C5CE3808705"]
+			description: [
+				"线缆可以让你不会因为触电而扣血。"
+				"但依然不能突破传输上限，否则会导致导线融毁。"
+			]
 			id: "4C1AA691B0A8EC24"
+			subtitle: "终于不会被电了"
 			tasks: [{
 				id: "58ABEF332F1C76E6"
 				item: "gtceu:tin_single_cable"
 				type: "item"
 			}]
+			title: "你的第一条线缆"
 			x: 0.5d
-			y: 1.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["0FBE7318DFBA700E"]
+			description: ["惨遭NERF，但依然坚挺可用。"]
 			id: "6D86CEB34F76644B"
+			subtitle: "那些产蒸汽的大家伙"
 			tasks: [{
 				id: "7FD0D944AE2158D6"
 				item: "gtceu:bronze_large_boiler"
 				type: "item"
 			}]
 			x: 4.5d
-			y: 1.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["1CA6E1AD1909373A"]
@@ -293,6 +410,7 @@
 				"通电后自动刷新神化boss，推荐搭建一个牢房。"
 			]
 			id: "6EEEF20760158257"
+			subtitle: "请确保你能干碎他们"
 			tasks: [
 				{
 					id: "392FFF20B3F662B7"
@@ -307,6 +425,45 @@
 			]
 			x: 2.0d
 			y: -4.0d
+		}
+		{
+			dependencies: ["1C3278A0FFAE9915"]
+			description: [
+				"让流体变成对应的板。"
+				""
+				"注：现阶段模具和模头都没有耐久值，不排除将来可能会存在机制变更。"
+			]
+			id: "3528806A9F4D4E7E"
+			subtitle: "让流体定向固化"
+			tasks: [{
+				id: "7EF6796F57F2B1C6"
+				item: "gtceu:plate_casting_mold"
+				type: "item"
+			}]
+			title: "让它变成板"
+			x: -2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["26C9C65E15B341A6"]
+			description: ["这些稍微复杂一点点的组件可以让你制作一些其他的机器。"]
+			id: "3F774833BA2ED7A1"
+			subtitle: "本质上是需要真空管"
+			tasks: [
+				{
+					id: "3D7E4FA2C5181589"
+					item: "gtocore:ulv_robot_arm"
+					type: "item"
+				}
+				{
+					id: "0392B2B9A8BBEB75"
+					item: "gtocore:ulv_fluid_regulator"
+					type: "item"
+				}
+			]
+			title: "更高级的二人组"
+			x: 1.5d
+			y: -0.5d
 		}
 	]
 	title: "超低压"

@@ -363,26 +363,34 @@
 				"0DCA3A96184C9EAC"
 				"017D4D369784454E"
 			]
+			description: [
+				"用这些材料摆一个3*3的平面结构。"
+				"四角为钻石，边上正中间为钢块，正中心放置远古反应核。"
+				"右键远古反应核即可前往远古世界。"
+			]
+			icon: "gtocore:ancient_reactor_core"
 			id: "4F1FEB6CE7C64D14"
+			subtitle: "《回到过去》"
 			tasks: [
 				{
-					id: "1F1546BE9D1F80EE"
-					item: "gtocore:reactor_core"
+					id: "661541813273F69E"
+					item: "gtocore:ancient_reactor_core"
 					type: "item"
 				}
 				{
 					count: 4L
-					id: "48D7DF137A0BC16D"
-					item: "ad_astra:steel_block"
+					id: "4540F2B56CB906D5"
+					item: { Count: 4, id: "ad_astra:steel_block" }
 					type: "item"
 				}
 				{
 					count: 4L
-					id: "0C37B3CE23F521E5"
-					item: "minecraft:diamond_block"
+					id: "73B78D8601B11A62"
+					item: { Count: 4, id: "minecraft:diamond_block" }
 					type: "item"
 				}
 			]
+			title: "远古反应堆"
 			x: 3.0d
 			y: 2.0d
 		}
@@ -732,6 +740,35 @@
 			}]
 			x: 7.5d
 			y: 6.5d
+		}
+		{
+			dependencies: ["05F4015974079225"]
+			description: [
+				"首先你需要在锅炉边上摆放加热器，然后往加热器里面提供燃料，再往锅炉里面加水，当温度符合要求时即可产出蒸汽。"
+				"贴着锅炉多摆几个加热器可以让温度上升得更快。"
+				"生产蒸汽的时候会消耗温度。"
+				"以下几个情况会发生爆炸："
+				"1.加热器的温度达到800K"
+				"2.锅炉的温度达到600K"
+				"3.锅炉内蒸汽满了没有及时排出"
+			]
+			id: "5859702A2DF96727"
+			subtitle: "更高效也更危险的办法"
+			tasks: [
+				{
+					id: "498CA6E7FC43432E"
+					item: "gtocore:heater"
+					type: "item"
+				}
+				{
+					id: "51702333E68A898B"
+					item: "gtocore:boiler"
+					type: "item"
+				}
+			]
+			title: "另辟蹊径"
+			x: 0.0d
+			y: -2.5d
 		}
 	]
 	title: "蒸汽时代"
