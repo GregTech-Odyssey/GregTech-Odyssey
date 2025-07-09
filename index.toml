@@ -810,7 +810,7 @@ hash = "fbd4e0422dae23735e68a15f71c21156f50d2f3f23340a05425a081ce14de134"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/main-stoneage.snbt"
-hash = "f3e1485551050c6c083ccac59bfedd54d7a8c4ec8a344acdac0d843e87428bea"
+hash = "cf337bf6e07d8679885317c90010a81cd01c06fa730698cc3e4d5ad56b3b06de"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/massive-manufacturing.snbt"
@@ -1105,8 +1105,152 @@ file = "config/openloader/advanced_options.json"
 hash = "d08c3a750d2f50f0d6e66217e92bbbecc102ad91f66b8a263e48d1b6388bba3e"
 
 [[files]]
-file = "config/openloader/data/data.zip"
-hash = "517d3b018a47078b8da5d8105561f3e2195bec186d89c102a857bc487a098091"
+file = "config/openloader/data/data/data/ad_astra/loot_tables/chests/village/moon/blacksmith.json"
+hash = "fb7a6bb83bed83f3d97820640dcf697633b10f9da2c982c1d7f1ea9776f1e709"
+
+[[files]]
+file = "config/openloader/data/data/data/ad_astra/loot_tables/chests/village/moon/house.json"
+hash = "5d005008cbed36ad538f57d0bf268868a165635b125ba7bf9094b8542a7ffb23"
+
+[[files]]
+file = "config/openloader/data/data/data/ad_astra/planets/glacio.json"
+hash = "26325b84f5ca48a958866aa5b5dafa2d127dd642e54af0552ba53fe9798d76b0"
+
+[[files]]
+file = "config/openloader/data/data/data/ad_astra/planets/glacio_orbit.json"
+hash = "bcad6519500c494e53b4d4d0bd2a758a951377ebc7d91692b7f4441c85ef0ef4"
+
+[[files]]
+file = "config/openloader/data/data/data/ad_astra/recipes/space_station/earth_orbit_space_station.json"
+hash = "b815c2fc38eb5fbf0551c71e7f18037fb4b35922b6e4c98ffa4b823abf9cd1b0"
+
+[[files]]
+file = "config/openloader/data/data/data/ad_astra/tags/fluids/efficient_fuel.json"
+hash = "33975eff3c2c6cf9000bce7825e1256f756eb8a353be7e9b7011bb4298f97a65"
+
+[[files]]
+file = "config/openloader/data/data/data/ad_astra/tags/fluids/tier_1_rocket_fuel.json"
+hash = "e21eb68a8648c094fb8034eff910dd63c347675367f334baf2ec96d094d62041"
+
+[[files]]
+file = "config/openloader/data/data/data/ad_astra/tags/fluids/tier_1_rover_fuel.json"
+hash = "1570ba26caab4ba707f7c22fd40478dcb19cb1f74c07b77cf6e914346c91cc4a"
+
+[[files]]
+file = "config/openloader/data/data/data/ad_astra/tags/fluids/tier_2_rocket_fuel.json"
+hash = "99d442ec716a8e0fba801f999ecd83a3ec222b06e9582ac06338f84eee1b3a86"
+
+[[files]]
+file = "config/openloader/data/data/data/ad_astra/tags/fluids/tier_3_rocket_fuel.json"
+hash = "7306936ae537a4cfd0bfa80398724199aaf1a3ff993f0d9a15d94632a88af705"
+
+[[files]]
+file = "config/openloader/data/data/data/ad_astra/tags/fluids/tier_4_rocket_fuel.json"
+hash = "0f47c485c702bf4cce88da6b45001c5f864aba9633a128a13460d0751672f8fe"
+
+[[files]]
+file = "config/openloader/data/data/data/ad_astra/tags/worldgen/biome/has_structure/meteor_biomes.json"
+hash = "19697430c4a3627dbde71596b4d0e9c64340499b83725de98538c94633163daa"
+
+[[files]]
+file = "config/openloader/data/data/data/ad_astra_rocketed/tags/fluids/tier_5_rocket_fuel.json"
+hash = "332a1d3cb7c7c18d00b86d6c1e5001c7ff7395e718dda652d71e3ce7fae5a2fb"
+
+[[files]]
+file = "config/openloader/data/data/data/ad_astra_rocketed/tags/fluids/tier_6_rocket_fuel.json"
+hash = "0a768abbc43ede6bc2ca7ae8887de4e7f940fbe3f3523e3891538d774a3361d2"
+
+[[files]]
+file = "config/openloader/data/data/data/ad_astra_rocketed/tags/fluids/tier_7_rocket_fuel.json"
+hash = "9a998aa4524f3b7fccbced649c65e3ff05db97cce72791e1225fd433f0db653d"
+
+[[files]]
+file = "config/openloader/data/data/data/dungeons_arise/worldgen/structure_set/major_structures.json"
+hash = "6257bad69d544ff5027733111c4a7ff81a49c9a503c3d2c753ab8e24a47d9027"
+
+[[files]]
+file = "config/openloader/data/data/data/dungeons_arise/worldgen/structure_set/minor_structures.json"
+hash = "141b315808e36ba5d86c52755c278e2edc47d83437944d8a4b3fbd801352f5f6"
+
+[[files]]
+file = "config/openloader/data/data/data/firework/functions/launch.mcfunction"
+hash = "0c70b24cb735b9387876f78ac264887b9f8af0f1e843bc59b1aa4658d700422a"
+
+[[files]]
+file = "config/openloader/data/data/data/firework/functions/launch1.mcfunction"
+hash = "d8f91ff41b609be460f5c287aa4ca6c222f53bad7131da5069c60193161a1e3d"
+
+[[files]]
+file = "config/openloader/data/data/data/firework/functions/launch2.mcfunction"
+hash = "1b7edb7e62f5fb4fbfa2c5fdde2b45b522e4d4d6e06cb358abc9dfed5ec2f899"
+
+[[files]]
+file = "config/openloader/data/data/data/firework/functions/launch3.mcfunction"
+hash = "f5fbe28afacacbe94c9aee7dcee7da11effc80d7983a9d562c5edde83d056ffd"
+
+[[files]]
+file = "config/openloader/data/data/data/firework/functions/stonelaunch.mcfunction"
+hash = "97d157c66f6d3ffe41f50984896cea66bf2f0b5decf82aeb32a678f955d5d74e"
+
+[[files]]
+file = "config/openloader/data/data/data/forge/tags/items/dough.json"
+hash = "82b67aedba00f66909c51c1086c3c230e7b0351564aa7291c2c4522b21b36d2c"
+
+[[files]]
+file = "config/openloader/data/data/data/minecraft/loot_tables/blocks/grass.json"
+hash = "bffc75f87e70c413c7f88b18382b6e6c2961f690683850dbad6e6072272afb8a"
+
+[[files]]
+file = "config/openloader/data/data/data/minecraft/tags/blocks/replaceable.json"
+hash = "8364f2d4e0717ac080f2cea1a8003b350d6e3e3dbed07ccf580c543ba23bb393"
+
+[[files]]
+file = "config/openloader/data/data/data/minecraft/tags/worldgen/biome/has_structure/ruined_portal_desert.json"
+hash = "19697430c4a3627dbde71596b4d0e9c64340499b83725de98538c94633163daa"
+
+[[files]]
+file = "config/openloader/data/data/data/minecraft/tags/worldgen/biome/has_structure/ruined_portal_jungle.json"
+hash = "19697430c4a3627dbde71596b4d0e9c64340499b83725de98538c94633163daa"
+
+[[files]]
+file = "config/openloader/data/data/data/minecraft/tags/worldgen/biome/has_structure/ruined_portal_mountain.json"
+hash = "19697430c4a3627dbde71596b4d0e9c64340499b83725de98538c94633163daa"
+
+[[files]]
+file = "config/openloader/data/data/data/minecraft/tags/worldgen/biome/has_structure/ruined_portal_ocean.json"
+hash = "19697430c4a3627dbde71596b4d0e9c64340499b83725de98538c94633163daa"
+
+[[files]]
+file = "config/openloader/data/data/data/minecraft/tags/worldgen/biome/has_structure/ruined_portal_standard.json"
+hash = "19697430c4a3627dbde71596b4d0e9c64340499b83725de98538c94633163daa"
+
+[[files]]
+file = "config/openloader/data/data/data/minecraft/tags/worldgen/biome/has_structure/ruined_portal_swamp.json"
+hash = "19697430c4a3627dbde71596b4d0e9c64340499b83725de98538c94633163daa"
+
+[[files]]
+file = "config/openloader/data/data/data/sophisticatedbackpacks/recipes/copper_backpack.json"
+hash = "9680326c3db9492256101dcfb0daa2fe65108a6bfef0a0ff3bf4955a5603e150"
+
+[[files]]
+file = "config/openloader/data/data/data/sophisticatedbackpacks/recipes/diamond_backpack.json"
+hash = "2223084f8488f0216326aa80f3d0d65a19db2eaf375d9007a4527c1df5edb830"
+
+[[files]]
+file = "config/openloader/data/data/data/sophisticatedbackpacks/recipes/gold_backpack.json"
+hash = "4f5b667d16281c282fdab46b3ff0c1e4e4580acc9992b4e5896cd4952feddb18"
+
+[[files]]
+file = "config/openloader/data/data/data/sophisticatedbackpacks/recipes/iron_backpack.json"
+hash = "2880766093ccb3b82538ff646bff637f64e41a61ae3e60014dffd02484e7583b"
+
+[[files]]
+file = "config/openloader/data/data/data/sophisticatedbackpacks/recipes/iron_backpack_from_copper.json"
+hash = "fadf7ae17b855fc9754376eaed355ae223b7e28d48f1e38f2145edd00d7fd3c1"
+
+[[files]]
+file = "config/openloader/data/data/pack.mcmeta"
+hash = "c1f4096060432fc606b51342f6479e5bad701fe36dcea1db5b793cc047b255f4"
 
 [[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/en_us.json"
