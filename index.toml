@@ -1753,6 +1753,11 @@ hash = "a493627793300933efdc88070b3090b93c74a9649f8c4fdeb71c3e8965c0a726"
 metafile = true
 
 [[files]]
+file = "mods/event-wrapper.pw.toml"
+hash = "f71e2983fbb44b99b5eeea76415877c11cbe8957617d9080c3deed8c30e5838a"
+metafile = true
+
+[[files]]
 file = "mods/ex-pattern-provider.pw.toml"
 hash = "5dd87764b5c75976d171c15bb044c133164e6221573391a1118009e0f8bf649d"
 metafile = true
@@ -1760,6 +1765,11 @@ metafile = true
 [[files]]
 file = "mods/explorers-compass.pw.toml"
 hash = "ca14247f3d1f6212c888b02bd3834d0dc0ea5283ed225851f8094dc1a013e329"
+metafile = true
+
+[[files]]
+file = "mods/extrabotany-reburn.pw.toml"
+hash = "3374651ad30ac07623d352c257905fd320cc77e484e4ef088f2a7a9a25372174"
 metafile = true
 
 [[files]]

@@ -1,0 +1,13 @@
+name = "Event Wrapper"
+filename = "eventwrapper-forge-1.20.1-1.1.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "609ea58d5f89dc5e6212dd0b7cfd81097290a866"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6705170
+project-id = 1256971
