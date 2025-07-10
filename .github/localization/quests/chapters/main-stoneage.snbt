@@ -1351,8 +1351,8 @@
 				type: "item"
 			}]
 			title: "{gto.main-stoneage.quests.14A66BA5BC9DB220.title}"
-			x: 3.5d
-			y: 5.0d
+			x: 3.500000000000007d
+			y: 7.250000000000007d
 		}
 		{
 			dependencies: ["3BC9246D8FD4B649"]
@@ -1901,6 +1901,85 @@
 			title: "{gto.main-stoneage.quests.244DAB0EE8479CAC.title}"
 			x: 4.5d
 			y: -5.0d
+		}
+		{
+			dependencies: ["12116F27AB89BB58"]
+			description: [
+				"{gto.main-stoneage.quests.07C8D75D90114580.description0}"
+				""
+				"{gto.main-stoneage.quests.07C8D75D90114580.description1}"
+				"{gto.main-stoneage.quests.07C8D75D90114580.description2}"
+				"{gto.main-stoneage.quests.07C8D75D90114580.description3}"
+			]
+			id: "07C8D75D90114580"
+			rewards: [{
+				auto: "invisible"
+				command: "/playsound minecraft:ui.toast.challenge_complete master @s ~ ~ ~ 1"
+				id: "5C3B510CCF25EDF5"
+				silent: true
+				type: "command"
+			}]
+			shape: "pentagon"
+			size: 2.0d
+			subtitle: "{gto.main-stoneage.quests.07C8D75D90114580.subtitle}"
+			tasks: [{
+				id: "35961EF03AF8A124"
+				item: "gtceu:terminal"
+				type: "item"
+			}]
+			title: "{gto.main-stoneage.quests.07C8D75D90114580.title}"
+			x: 3.500000000000007d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"07C8D75D90114580"
+				"27F4D9739FE33A02"
+			]
+			description: [
+				"{gto.main-stoneage.quests.06FE84E75DBE704A.description0}"
+				""
+				"{gto.main-stoneage.quests.06FE84E75DBE704A.description1}"
+				""
+				"{gto.main-stoneage.quests.06FE84E75DBE704A.description2}"
+				"{gto.main-stoneage.quests.06FE84E75DBE704A.description3}"
+				""
+				"{gto.main-stoneage.quests.06FE84E75DBE704A.description4}"
+				"{gto.main-stoneage.quests.06FE84E75DBE704A.description5}"
+				""
+				"{gto.main-stoneage.quests.06FE84E75DBE704A.description6}"
+				""
+				"{gto.main-stoneage.quests.06FE84E75DBE704A.description7}"
+			]
+			id: "06FE84E75DBE704A"
+			rewards: [{
+				auto: "invisible"
+				command: "/playsound minecraft:ui.toast.challenge_complete master @s ~ ~ ~ 1"
+				id: "06E74F392DC76DCC"
+				silent: true
+				type: "command"
+			}]
+			shape: "pentagon"
+			size: 2.0d
+			subtitle: "{gto.main-stoneage.quests.06FE84E75DBE704A.subtitle}"
+			tasks: [{
+				id: "53F78DFB0490C85C"
+				item: {
+					Count: 1
+					id: "gtmthings:advanced_terminal"
+					tag: {
+						CoilTier: 0
+						IsUseAE: 0
+						NoHatchMode: 0
+						RepeatCount: 0
+						ReplaceCoilMode: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{gto.main-stoneage.quests.06FE84E75DBE704A.title}"
+			x: 0.0d
+			y: 5.0d
 		}
 	]
 	subtitle: ["{gto.main-stoneage.subtitle0}"]
