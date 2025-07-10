@@ -1351,8 +1351,8 @@
 				type: "item"
 			}]
 			title: "继续前进！"
-			x: 3.5d
-			y: 5.0d
+			x: 3.500000000000007d
+			y: 7.250000000000007d
 		}
 		{
 			dependencies: ["3BC9246D8FD4B649"]
@@ -1895,6 +1895,85 @@
 			title: "永无止境"
 			x: 4.5d
 			y: -5.0d
+		}
+		{
+			dependencies: ["12116F27AB89BB58"]
+			description: [
+				"多方块需要手撘？不不不，终端会帮你搞定一切"
+				""
+				"你只需要确保在背包内有多方块所需要的方块的情况下"
+				"蹲下对着多方块的主机右键即可搭建多方块"
+				"当然多方块的成型判定会有一定延迟"
+			]
+			id: "07C8D75D90114580"
+			rewards: [{
+				auto: "invisible"
+				command: "/playsound minecraft:ui.toast.challenge_complete master @s ~ ~ ~ 1"
+				id: "5C3B510CCF25EDF5"
+				silent: true
+				type: "command"
+			}]
+			shape: "pentagon"
+			size: 2.0d
+			subtitle: "你会需要它的"
+			tasks: [{
+				id: "35961EF03AF8A124"
+				item: "gtceu:terminal"
+				type: "item"
+			}]
+			title: "多方块帮手"
+			x: 3.500000000000007d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"07C8D75D90114580"
+				"27F4D9739FE33A02"
+			]
+			description: [
+				"高级终端功能极其强大，蹲下并右键可以看到详细的设置，这里将一一详细介绍："
+				""
+				"&c线圈等级：&r影响多方块的线圈，从0开始到17，分别是18种不同的线圈，特别注意的是17号线圈是超级热容线圈。具体的等级划分可以从里程碑章节查看"
+				""
+				"&5重复结构次数：&r影响多方块的重复结构层数，例如装配线的长度，中子活化器的高度等。"
+				"eg.在搭建装配线的时候选择了重复结构15，则自动搭建合成配方16格的装配线"
+				""
+				"&e无仓室模式：&r在这个模式开启之后，可在该多方块上放置多个的功能性仓室将不会被放置，而唯一的功能性仓室则不受影响。"
+				"eg.在电力高炉上开启该模式后放置时，只会放置消声仓而不会放置输入输出仓等"
+				""
+				"&a线圈替换模式：&r模式开启后，对现有的多方块使用的时候会尝试使用背包或者AE内的符合“线圈等级”的线圈方块来进行替换"
+				""
+				"&b使用AE物品：&r顾名思义会使用AE的物品，前提是你身上有终端并且终端通过无线链接到了你的ME存储"
+			]
+			id: "06FE84E75DBE704A"
+			rewards: [{
+				auto: "invisible"
+				command: "/playsound minecraft:ui.toast.challenge_complete master @s ~ ~ ~ 1"
+				id: "06E74F392DC76DCC"
+				silent: true
+				type: "command"
+			}]
+			shape: "pentagon"
+			size: 2.0d
+			subtitle: "无与伦比"
+			tasks: [{
+				id: "53F78DFB0490C85C"
+				item: {
+					Count: 1
+					id: "gtmthings:advanced_terminal"
+					tag: {
+						CoilTier: 0
+						IsUseAE: 0
+						NoHatchMode: 0
+						RepeatCount: 0
+						ReplaceCoilMode: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "更强更大"
+			x: 0.0d
+			y: 5.0d
 		}
 	]
 	subtitle: ["Hello World!"]
