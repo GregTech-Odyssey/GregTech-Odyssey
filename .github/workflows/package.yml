@@ -9,7 +9,6 @@ on:
       - 'mods/**'
       - 'pack.toml'
       - 'index.toml'
-  pull_request:
   workflow_dispatch:
     inputs:
       tag_name:
