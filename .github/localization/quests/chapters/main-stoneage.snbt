@@ -508,7 +508,7 @@
 				""
 				"{gto.main-stoneage.quests.45C8A2DF9C0E5473.description2}"
 				""
-				"[ \"你现在可以看到\", { \"text\": \"矿石生成\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6A7E63F4019046EC\" } }, \"章节内主世界矿物的分布了\" ]"
+				"[ \"你现在可以看到\", { \"text\": \"矿石生成\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"23DF7BAC762AF885\" } }, \"章节内主世界矿物的分布了\" ]"
 			]
 			icon: {
 				Count: 1
