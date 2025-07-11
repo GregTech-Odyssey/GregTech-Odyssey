@@ -1,0 +1,261 @@
+
+[server]
+
+	[server.telemetry]
+		#我们使用遥测数据来提供更好的游玩体验。
+		#以下数据在您的游玩过程中将被收集：
+		#	- 盖亚三通过率
+		#	- 其他...
+		#
+		#您可以在 https://github.com/Lounode/Extrabotany 上找到更多
+		#如果您不想被收集这些数据，在下方将配置项改为 false
+		#
+		#We use telemetry data to provide a better gameplay experience.
+		#The following data will be collected during your play session:
+		#	- Gaia III completion rate
+		#	- etc...
+		#
+		#Find more on: https://github.com/Lounode/Extrabotany
+		#If you prefer not to participate, set the option below to false
+		enableTelemetry = false
+		#遥测数据UUID
+		#The UUID of the telemetry data
+		telemetryUUID = "b6039e19-1c80-4b45-878e-bb72fb75f61f"
+
+	[server.gaia]
+		#设为 true 来禁用盖亚的缴械技能
+		#Set true to disable Gaia's disarm
+		disableGaiaDisarm = false
+
+	[server.fakePlayer]
+		#假玩家ID（用于权限配置）
+		#Fake Player ID (for permission configuration)
+		fakePlayerId = "[Extrabotany]"
+
+	[server.flower]
+
+		#商友兰
+		#Trade Orchid
+		[server.flower.tradeOrchid]
+			#最大魔力值
+			#Maximum mana
+			#Range: > 0
+			maxMana = 10000
+			#每只村民消耗的魔力量
+			#Mana cost per villager
+			#Range: > 0
+			manaCost = 1000
+			#冷却时间(ticks)
+			#Cooldown time in ticks
+			#Range: > 0
+			cooldown = 40
+			#折扣百分比(仅支持精确到两位小数)
+			#(例如：0.85 = 八五折)
+			#Discount percentage (max precision: 0.01)
+			#(e.g., 0.85 = 15% off)
+			#Range: 0.0 ~ 1.0
+			discountPercentage = 0.5
+
+		#伐木花
+		#Woodienia
+		[server.flower.woodienia]
+			#最大魔力
+			#Maximum Mana
+			#Range: > 0
+			maxMana = 10000
+			#破坏原木的魔力消耗
+			#Cost when break Logs
+			#Range: > 0
+			workManaCost = 200
+			#以自身为中心的工作范围（±X轴，+Y轴，±Z轴）
+			#Working range centered on self (±X axis, +Y axis, ±Z axis)
+			range = [8, 16, 8]
+			#工作间隔
+			#Cooldown interval
+			#Range: > 0
+			cooldown = 10
+
+		#雷卡兰
+		#Reikarlily
+		[server.flower.reikarlily]
+			#最大魔力
+			#Maximum Mana
+			#Range: > 0
+			maxMana = 12000
+			#雷击后再次产出魔力的冷却时间
+			#Cooldown time for regenerating mana after a lightning strike
+			#Range: > 0
+			produceCooldown = 3600
+			#雷击生成的魔力量
+			#Mana generated per lightning strike
+			#Range: > 0
+			produceMana = 12000
+			#雷击后被动生成魔力的时间
+			#Passive mana generation duration after lightning strike
+			#Range: > 0
+			passiveGenerateTime = 1500
+			#雷击后每Tick被动生成的魔力量
+			#Mana generated per passive tick
+			#Range: > 0
+			passiveGenerateMana = 45
+			#雨天生成闪电的冷却时间
+			#Cooldown for spawning lightning when raining
+			#Range: > 0
+			spawnLightningCooldown = 3600
+
+		#风铃草
+		#Bellflower
+		[server.flower.bellflower]
+			#最大魔力值
+			#Maximum mana
+			#Range: > 0
+			maxMana = 300
+			#魔力生成修正值
+			#Mana generation modifier
+			#Range: 0.0 ~ 2.147483647E9
+			generateModify = 1.0
+
+		#神烦花
+		#Annoying Flower
+		[server.flower.annoyingflower]
+			#最大魔力值
+			#Maximum mana
+			#Range: > 0
+			maxMana = 1000
+			#钓鱼消耗的魔力量
+			#Mana cost per fishing
+			#Range: > 0
+			fishingCost = 300
+			#工作冷却时间(ticks)
+			#Cooldown time in ticks
+			#Range: > 0
+			cooldown = 900
+			#最大食物加成次数
+			#Maximum food boost
+			#Range: > 0
+			foodBoostMax = 12
+			#每次进食增加的次数
+			#Boost added per food consumed
+			#Range: > 0
+			foodBoostPerEat = 3
+			#食物加成时的冷却时间乘数
+			#Cooldown multiplier when food boosted
+			#Range: 0.0 ~ 1.0
+			foodBoostCooldownMultiplier = 0.4
+
+		#石中姬
+		#Stonesia
+		[server.flower.stonesia]
+			#最大魔力值
+			#Maximum mana
+			#Range: > 0
+			maxMana = 3200
+			#冷却时间(ticks)
+			#Cooldown time in ticks
+			#Range: > 0
+			cooldown = 40
+
+		#雪绒花
+		#Edelweiss
+		[server.flower.edelweiss]
+			#最大魔力值
+			#Maximum mana
+			#Range: > 0
+			maxMana = 12800
+			#冷却时间(ticks)
+			#Cooldown time in ticks
+			#Range: > 0
+			cooldown = 40
+
+		#回音花
+		#Resoncund
+		[server.flower.resoncund]
+			#最大魔力值
+			#Maximum mana
+			#Range: > 0
+			maxMana = 1200
+			#同种声音重复听到后的魔力生产衰减
+			#Mana produce decreases per same sound heard
+			#Range: > 0
+			lossPerHeard = 50
+
+		#日曜百合
+		#Sunshine Lily
+		[server.flower.sunshineLily]
+			#最大魔力值
+			#Maximum mana
+			#Range: > 0
+			maxMana = 200
+			#每次生成的魔力量
+			#Mana generated per produce
+			#Range: > 0
+			produceMana = 2
+
+		#月耀百合
+		#Moonlight Lily
+		[server.flower.moonlightLily]
+			#最大魔力值
+			#Maximum mana
+			#Range: > 0
+			maxMana = 200
+			#每次生成的魔力量
+			#Mana generated per produce
+			#Range: > 0
+			produceMana = 1
+
+		#双子兰
+		#Twinstar
+		[server.flower.twinstar]
+			#最大魔力值
+			#Maximum mana
+			#Range: > 0
+			maxMana = 1000
+			#最大接受流体温度
+			#Maximum accepted temperature cap for liquid
+			#Range: > 0
+			maxTemperatureCap = 2147483647
+			#最低接受流体温度
+			#Minimum accepted temperature cap for liquid
+			#Range: > 0
+			minTemperatureCap = 0
+
+		#全知瑾
+		#Omniviolet
+		[server.flower.omniviolet]
+			#最大魔力值
+			#Maximum mana
+			#Range: > 0
+			maxMana = 1500
+
+		#叮当花
+		#Tinkle
+		[server.flower.tinkle]
+			#最大魔力值
+			#Maximum mana
+			#Range: > 0
+			maxMana = 1000
+			#每次生成的魔力量
+			#Mana generated per produce
+			#Range: > 0
+			produceMana = 100
+
+		#鲜血妖姬
+		#Blood Enchantress
+		[server.flower.bloodEnchantress]
+			#最大魔力值
+			#Maximum mana
+			#Range: > 0
+			maxMana = 800
+			#每次生成的魔力量
+			#Mana generated per produce
+			#Range: > 0
+			produceMana = 22
+
+		#永寂龙胆
+		#Serenitian
+		[server.flower.serenitian]
+			#作用范围(方块半径)
+			#Working range in blocks
+			#Range: 1 ~ 16
+			range = 3
+
