@@ -418,32 +418,16 @@
 				}
 			}
 			id: "2403CDCD080D34B1"
-			rewards: [
-				{
-					count: 4
-					id: "158B77C0A91C16F6"
-					item: {
-						Count: 1
-						id: "scannable:scanner"
-						tag: {
-							energy: 5000
-						}
-					}
-					type: "item"
+			rewards: [{
+				id: "7D09F18A3B2CD310"
+				item: {
+					Count: 1
+					id: "gtocore:prospector.mana_ulv"
+					tag: { }
 				}
-				{
-					id: "360CFDD79C4076E1"
-					item: "scannable:block_module"
-					type: "item"
-				}
-				{
-					id: "0BE79AD962351FAD"
-					item: "scannable:fluid_module"
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			size: 1.0d
-			subtitle: "{gto.main-stoneage.quests.2403CDCD080D34B1.subtitle}"
 			tasks: [{
 				consume_items: true
 				count: 256L
@@ -1831,54 +1815,6 @@
 			y: 6.0d
 		}
 		{
-			can_repeat: true
-			dependencies: [
-				"244DAB0EE8479CAC"
-				"2403CDCD080D34B1"
-			]
-			description: ["{gto.main-stoneage.quests.40FB6A425E420616.description0}"]
-			hide_until_deps_visible: true
-			id: "40FB6A425E420616"
-			rewards: [{
-				id: "6023C154B72DE1C4"
-				item: {
-					Count: 1
-					id: "scannable:scanner"
-					tag: {
-						energy: 5000
-					}
-				}
-				type: "item"
-			}]
-			subtitle: "{gto.main-stoneage.quests.40FB6A425E420616.subtitle}"
-			tasks: [
-				{
-					consume_items: true
-					id: "2EA61F7668307AFD"
-					item: {
-						Count: 1
-						id: "scannable:scanner"
-						tag: { }
-					}
-					type: "item"
-					weak_nbt_match: true
-				}
-				{
-					consume_items: true
-					count: 64L
-					id: "04DCF259EE575165"
-					item: {
-						Count: 64
-						id: "minecraft:redstone"
-					}
-					type: "item"
-				}
-			]
-			title: "{gto.main-stoneage.quests.40FB6A425E420616.title}"
-			x: 6.0d
-			y: -5.0d
-		}
-		{
 			dependencies: ["2403CDCD080D34B1"]
 			id: "244DAB0EE8479CAC"
 			invisible: true
@@ -1899,7 +1835,7 @@
 				type: "item"
 			}]
 			title: "{gto.main-stoneage.quests.244DAB0EE8479CAC.title}"
-			x: 4.5d
+			x: 6.0d
 			y: -5.0d
 		}
 		{
