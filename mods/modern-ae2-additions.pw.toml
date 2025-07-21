@@ -1,13 +1,13 @@
 name = "Modern AE2 Additions"
-filename = "mae2-1.6.1.jar"
+filename = "mae2-2.0.0-beta.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "d8fc5e41e4fc1e6d696ea00625de9829399bc68f"
+hash = "7b7ce453ac0fbcca17e01504fca7ef42796cdead"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6751148
+file-id = 6785486
 project-id = 1028068

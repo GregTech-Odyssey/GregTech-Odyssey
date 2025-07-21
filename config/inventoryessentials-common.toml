@@ -14,4 +14,6 @@ enableSingleTransfer = true
 enableBulkTransfer = true
 #Should shift-ctrl-drop-clicking drop all items of the same type at once?
 enableBulkDrop = true
+#Should control-space-clicking an item move one of each item from that inventory at once?
+enableBulkTransferSingle = true
 

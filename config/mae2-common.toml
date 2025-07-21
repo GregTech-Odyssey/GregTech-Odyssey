@@ -1,5 +1,23 @@
 
 [Parts]
-	#Whether the EU P2P is enabled
+	#Whether the EU P2P is enabled, !!Requires Game Restart!!
 	euP2P = true
+	#Minimum tick rate for FE Multi P2P Tunnels
+	#Range: > 1
+	feMinRate = 1
+	#Max tick rate for FE Multi P2P Tunnels
+	#Range: > 1
+	feMaxRate = 1
+	#Minimum tick rate for EU Multi P2P Tunnels
+	#Range: > 1
+	euMinRate = 1
+	#Max tick rate for EU Multi P2P Tunnels
+	#Range: > 1
+	euMaxRate = 1
+	#Minimum tick rate for Pattern (Multi) P2P Tunnels
+	#Range: > 1
+	patternMinRate = 5
+	#Max tick rate for Pattern (Multi) P2P Tunnels
+	#Range: > 1
+	patternMaxRate = 120
 
