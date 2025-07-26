@@ -316,9 +316,15 @@
 		}
 		{
 			dependencies: ["32A39A427D4A3AC2"]
+			description: [
+				"在这个阶段，我建议你使用&a煤炭及其衍生物&r来生产钢"
+				"因为这种方式下的副产物可以获取&e碳粉&r"
+				"也是前期&4唯一&r的获取方式"
+			]
 			id: "27F4D9739FE33A02"
 			shape: "gear"
 			size: 2.0d
+			subtitle: "真正的生产力大跃进"
 			tasks: [{
 				id: "555B0222E8133F88"
 				item: "ad_astra:steel_ingot"
@@ -1081,8 +1087,8 @@
 			shape: "diamond"
 			size: 1.5d
 			tasks: [{
-				id: "2C08ED81A19230C3"
-				item: "gtocore:large_steam_furnace"
+				id: "0DEF95210647E5A3"
+				item: "gtocore:large_steam_bath"
 				type: "item"
 			}]
 			x: 5.25d
