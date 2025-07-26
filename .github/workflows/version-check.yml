@@ -56,7 +56,41 @@ jobs:
               console.log(`Using hardcoded current version: ${currentVersion}`);
             }
             
-            // 获取允许的版本号列表函数
+            // 版本比较函数
+            function compareVersions(version1, version2) {
+              function parseVersion(versionStr) {
+                const parts = versionStr.split('-');
+                const versionParts = parts[0].split('.').map(Number);
+                return {
+                  major: versionParts[0] || 0,
+                  minor: versionParts[1] || 0,
+                  patch: versionParts[2] || 0,
+                  suffix: parts[1] || '',
+                  full: versionStr
+                };
+              }
+              
+              const v1 = parseVersion(version1);
+              const v2 = parseVersion(version2);
+              
+              if (v1.major !== v2.major) return v1.major - v2.major;
+              if (v1.minor !== v2.minor) return v1.minor - v2.minor;
+              if (v1.patch !== v2.patch) return v1.patch - v2.patch;
+              
+              // 处理后缀比较（beta < 正式版）
+              if (v1.suffix && !v2.suffix) return -1;
+              if (!v1.suffix && v2.suffix) return 1;
+              if (v1.suffix && v2.suffix) return v1.suffix.localeCompare(v2.suffix);
+              
+              return 0;
+            }
+            
+            // 检查版本是否比当前版本更新
+            function isNewerVersion(reportedVer, currentVer) {
+              return compareVersions(reportedVer, currentVer) > 0;
+            }
+            
+            // 获取允许的版本号列表函数（仅用于显示支持的版本）
             function getAllowedVersions(currentVer, gap) {
               function parseVersion(versionStr) {
                 const parts = versionStr.split('-');
@@ -108,10 +142,28 @@ jobs:
               return allowedVersions;
             }
             
-            // 格式化允许版本号的列表
+            // 检查版本是否在允许范围内（包括当前版本、较早版本和更新版本）
+            function isVersionAllowed(reportedVer, currentVer, gap) {
+              const allowedVersions = getAllowedVersions(currentVer, gap);
+              
+              // 检查是否在允许的版本列表中
+              if (allowedVersions.includes(reportedVer)) {
+                return true;
+              }
+              
+              // 检查是否是更新的版本
+              if (isNewerVersion(reportedVer, currentVer)) {
+                console.log(`Version ${reportedVer} is newer than current ${currentVer}, allowing it.`);
+                return true;
+              }
+              
+              return false;
+            }
+            
+            // 格式化允许版本号的列表（仅显示支持的版本，不包括未来版本）
             const allowedVersions = getAllowedVersions(currentVersion, VERSION_GAP);
             const formattedAllowedVersions = allowedVersions.map(v => `\`${v}\``).join(', ');
-            console.log(`Allowed versions: ${JSON.stringify(allowedVersions)}`);
+            console.log(`Displayed allowed versions: ${JSON.stringify(allowedVersions)}`);
             
             // 获取所有 bot 之前的评论
             const comments = await github.rest.issues.listComments({
@@ -190,8 +242,8 @@ jobs:
             const reportedVersion = match[1];
             console.log(`Reported version: ${reportedVersion}`);
             
-            // 检查版本是否在允许的范围内
-            if (allowedVersions.includes(reportedVersion)) {
+            // 检查版本是否在允许的范围内（包括更新版本）
+            if (isVersionAllowed(reportedVersion, currentVersion, VERSION_GAP)) {
               console.log('Version is within allowed range. No action needed.');
               
               // 如果 issue 被标记为过时版本或无效格式，但现在版本正确，移除这些标签并重新打开 issue
@@ -225,11 +277,16 @@ jobs:
                   state: 'open'
                 });
                 
+                // 为更新版本添加特殊提示
+                const isNewer = isNewerVersion(reportedVersion, currentVersion);
+                const versionNote = isNewer ? 
+                  `\n\n**注意:** 您使用的版本 (\`${reportedVersion}\`) 比当前仓库版本更新，我们已接受此报告。\n\n**Note:** You're using a version (\`${reportedVersion}\`) that's newer than the current repository version, and we've accepted this report.` : '';
+                
                 await github.rest.issues.createComment({
                   owner: context.repo.owner,
                   repo: context.repo.repo,
                   issue_number: issue.number,
-                  body: `## 版本验证通过，问题已重新打开 / Version Verified, Issue Reopened\n\n非常感谢您更新了问题报告！您现在使用的版本 (\`${reportedVersion}\`) 是受支持的版本，我们已自动重新打开这个问题。我们的团队将尽快查看并处理您的反馈。\n\n感谢您对 GTO 项目的支持与贡献！\n\n---\n\nThank you for updating your report! The version you're using now (\`${reportedVersion}\`) is supported, and we've automatically reopened this issue. Our team will review and address your feedback as soon as possible.\n\nWe appreciate your support and contributions to the GTO project!`
+                  body: `## 版本验证通过，问题已重新打开 / Version Verified, Issue Reopened\n\n非常感谢您更新了问题报告！您现在使用的版本 (\`${reportedVersion}\`) 是受支持的版本，我们已自动重新打开这个问题。我们的团队将尽快查看并处理您的反馈。${versionNote}\n\n感谢您对 GTO 项目的支持与贡献！\n\n---\n\nThank you for updating your report! The version you're using now (\`${reportedVersion}\`) is supported, and we've automatically reopened this issue. Our team will review and address your feedback as soon as possible.${versionNote}\n\nWe appreciate your support and contributions to the GTO project!`
                 });
               }
               
