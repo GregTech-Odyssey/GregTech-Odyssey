@@ -770,7 +770,7 @@ hash = "54ee0c000e4ea69927f5504382d4e4823df9267745b5b014f06a2337443350dd"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/arsbotania.snbt"
-hash = "3da471d3c1e477eee89f0f53e8f107b95f35523c8f8a75a03d2ff26a36d44215"
+hash = "df215af97911e817e9da46a5c4e0e5b09c0581710d07a6c2eecda9fab387f7db"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/backpack.snbt"
@@ -822,7 +822,7 @@ hash = "a151e0f90de34d5231ab956736928cb83d17f0a71df3a12922759569e74369db"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/main-stoneage.snbt"
-hash = "40b0f80651ea9b433a9d587bb05725427d80f7703ddd97be1eb02addc47fd1d0"
+hash = "86cff6d19a83ff3c3aed5837fc2d5dc8416044f9321358a7d870e038bd8fde16"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/massive-manufacturing.snbt"
@@ -890,7 +890,7 @@ hash = "45a03d6d0be772a54a64d00b50adc0baf009982c7e095d8d2a6ddabf514177f3"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/wireless-energy.snbt"
-hash = "6caa0d0b107e6b2e5aac7a9ed1e8328635087871bbb149d7d7dd47c54a92dd7a"
+hash = "3c9e8a8152daf0005c76ddf9bab6ba87f508b4dd08e102e0d1ac6d865a930274"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/zpm.snbt"
@@ -1134,11 +1134,11 @@ hash = "45a4fdb1c4b73a1ffb3922062aa37a457b1305f1ee64d92dd90095d9948655d7"
 
 [[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/zh_cn.json"
-hash = "98ae8f641c8c6bbcb97c0d4ff2acba0b4fb09fe1f592e528dc67a87c5b3d445c"
+hash = "03239d70540e924b832976edec0b7c7089ae136f6ce54138101036c2bad8a21c"
 
 [[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/zh_tw.json"
-hash = "3d5ad50c685e48e634195ed373fd2c673516646d305155774a91715d60e73b7b"
+hash = "25a48749c6bb0256d1ce54d5e862e856b15f2f98398cda63c849d43009a5423a"
 
 [[files]]
 file = "config/openloader/resources/quests/pack.mcmeta"
@@ -1469,11 +1469,6 @@ hash = "605d1f1ae3de3633229406d58ebff0fc51b159a9d6107cdf30a48d80ad9746b2"
 metafile = true
 
 [[files]]
-file = "mods/carry-on.pw.toml"
-hash = "9f3b027d3254c1bcc6fcce7864c4c725124c2c10c58d1919956d7b042b9748a5"
-metafile = true
-
-[[files]]
 file = "mods/chisel-reborn.pw.toml"
 hash = "31c82d3e61be27a9539985ced36f3fea88414956cc03b470020827453182237b"
 metafile = true
@@ -1785,12 +1780,12 @@ metafile = true
 
 [[files]]
 file = "mods/gtmthings.pw.toml"
-hash = "998441b04cf85cd3409e80c666fbdef2906a77817dfefb29734101ce44095527"
+hash = "9a8b08fcdf158630569ec5bb9aa1da61a700076d4caf0493901b80368927c30c"
 metafile = true
 
 [[files]]
 file = "mods/gtocore-0.3.3.jar"
-hash = "ac3cbc1bb7b438adde73a31475567f44fb3010b3de5f075e45a15c07680f279d"
+hash = "1e16b442672112d243e60fade1f43f6894b9d63eb5ad59b4687a6be0bd966c77"
 
 [[files]]
 file = "mods/guideme.pw.toml"

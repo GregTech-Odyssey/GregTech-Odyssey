@@ -5138,40 +5138,6 @@
 			x: 35.0d
 			y: -1.5d
 		}
-		{
-			dependencies: ["70C5A902C0D26628"]
-			id: "7C0D9192A09F326F"
-			tasks: [{
-				id: "23147DCADEC1D6DF"
-				item: {
-					Count: 1
-					id: "gtocore:organ_part_fragile_and_contaminated_mana_steel_wing"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 12.75d
-			y: 4.5d
-		}
-		{
-			dependencies: ["763545268A59C6DE"]
-			id: "43CF580ADB7DF32E"
-			tasks: [{
-				id: "6FCA3E4AB385F640"
-				item: {
-					Count: 1
-					id: "gtocore:organ_part_fairy_wing"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 29.0d
-			y: -3.0d
-		}
 	]
 	title: "{gto.arsbotania.title}"
 }

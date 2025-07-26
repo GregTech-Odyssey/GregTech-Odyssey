@@ -1378,8 +1378,8 @@
 			size: 1.5d
 			subtitle: "{gto.main-stoneage.quests.2E05753AF03C5608.subtitle}"
 			tasks: [{
-				id: "5EBE3AE9D2431AF9"
-				item: "craftingstation:crafting_station"
+				id: "60A8CE735A142D85"
+				item: "gtocore:simple_crafting_terminal"
 				type: "item"
 			}]
 			x: 6.0d
