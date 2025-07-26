@@ -231,9 +231,6 @@ machines:
   # Default: true
   gt6StylePipesCables: true
 
-  # Whether the machine's circuit slot need to be inserted a real circuit.
-  ghostCircuit: true
-
   # Whether to add a "Bedrock Ore Miner" (also enables bedrock ore generation)
   # Default: false
   doBedrockOres: false

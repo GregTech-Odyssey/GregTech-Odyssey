@@ -1371,15 +1371,15 @@
 		}
 		{
 			dependencies: ["561D79DE960A034D"]
-			description: ["&6合成站&r可以取出相邻容器的物品，当作前期的合成终端"]
+			description: ["&6合成终端&r可以取出相邻容器的物品，当作前期的AE"]
 			hide_dependency_lines: false
 			id: "2E05753AF03C5608"
 			shape: "diamond"
 			size: 1.5d
 			subtitle: "合成站"
 			tasks: [{
-				id: "5EBE3AE9D2431AF9"
-				item: "craftingstation:crafting_station"
+				id: "60A8CE735A142D85"
+				item: "gtocore:simple_crafting_terminal"
 				type: "item"
 			}]
 			x: 6.0d

@@ -1,12 +1,13 @@
 name = "Default Options"
-filename = "defaultoptions-forge-1.20-18.0.1.jar"
+filename = "defaultoptions-forge-1.20.1-18.0.3.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "d19f874852def4ef73b32caf3f218e6423d51677"
-url = "https://edge.forgecdn.net/files/4635/878/defaultoptions-forge-1.20-18.0.1.jar"
+hash = "a7bffd6bd5cff19793cede8c1b8bb0450eb25059"
+mode = "metadata:curseforge"
 
+[update]
 [update.curseforge]
-file-id = 4635878
+file-id = 6804680
 project-id = 232131

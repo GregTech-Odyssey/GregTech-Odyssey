@@ -938,7 +938,7 @@ hash = "8ca69d8240f29625a9589cb7701942ca9a29e02404fd5a3ecaefce454d951b62"
 
 [[files]]
 file = "config/gtceu.yaml"
-hash = "aa82c28dacbf8aaadab87176274ab2fa459d7b2804d4c3ba3a9018c29b6672c8"
+hash = "3b4de1bf08bb2fa9362351578dbd4211c09bd1f574edb9a39f92315baf84b36b"
 
 [[files]]
 file = "config/gtmthings.yaml"
@@ -1410,7 +1410,7 @@ metafile = true
 
 [[files]]
 file = "mods/asyncparticles.pw.toml"
-hash = "550bf2a57418076a7bbd85dfa366457d8b675d3cb093d2533033dafcfeb42cf7"
+hash = "95746266bd739a4cbf5dd5aba05b5984bc1a0b791133f7f73d25e7d458d02544"
 metafile = true
 
 [[files]]
@@ -1529,11 +1529,6 @@ hash = "d08fd987ef286e74a4666cc5359c3adfdd6f86335ae321251997419bd920f93d"
 metafile = true
 
 [[files]]
-file = "mods/crafting-station-improved.pw.toml"
-hash = "2280f4db67a42c81e6618b7dc30c4bdc598579aeb4be617b968bdc33e66fb1c8"
-metafile = true
-
-[[files]]
 file = "mods/crafting-tweaks.pw.toml"
 hash = "e392ff51b7a6280006d633dde678e5ced8ae5a65035a42c213dd6386d234c394"
 metafile = true
@@ -1570,7 +1565,7 @@ metafile = true
 
 [[files]]
 file = "mods/default-options.pw.toml"
-hash = "82c3046309258474aed1336e931ff57b360a48a493e8ac35f9a134608997d41a"
+hash = "28c55ef9f5218480df984ad56a5c84b89c4ed144387c5dd7a7e0c7019c9947f7"
 metafile = true
 
 [[files]]
@@ -1740,7 +1735,7 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-library-forge.pw.toml"
-hash = "1db480166e12fa1186172947f40c00ead1303d1cc62892de52f852c0ff247cba"
+hash = "691798dd9acfd386bc9332249cd4c1291c646af4d97999090ec0528d9bb35c88"
 metafile = true
 
 [[files]]
@@ -1790,12 +1785,12 @@ metafile = true
 
 [[files]]
 file = "mods/gtmthings.pw.toml"
-hash = "9a8b08fcdf158630569ec5bb9aa1da61a700076d4caf0493901b80368927c30c"
+hash = "998441b04cf85cd3409e80c666fbdef2906a77817dfefb29734101ce44095527"
 metafile = true
 
 [[files]]
-file = "mods/gtocore-0.3.2.jar"
-hash = "424c7716bd3b73fce57b3ef8b50087c069d3a55e0e5a9d3aeab841df8b7b1dd1"
+file = "mods/gtocore-0.3.3.jar"
+hash = "ac3cbc1bb7b438adde73a31475567f44fb3010b3de5f075e45a15c07680f279d"
 
 [[files]]
 file = "mods/guideme.pw.toml"
@@ -2054,7 +2049,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "f13b1a634b1e821070711549e50159733b747bb208801ec8411816e1b77a534a"
+hash = "adbb2ddf9185252400d28d0f936d590032ada420a6158cfb65ed975ded5e4e88"
 metafile = true
 
 [[files]]
