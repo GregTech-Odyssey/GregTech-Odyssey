@@ -316,9 +316,15 @@
 		}
 		{
 			dependencies: ["32A39A427D4A3AC2"]
+			description: [
+				"{gto.steam.quests.27F4D9739FE33A02.description0}"
+				"{gto.steam.quests.27F4D9739FE33A02.description1}"
+				"{gto.steam.quests.27F4D9739FE33A02.description2}"
+			]
 			id: "27F4D9739FE33A02"
 			shape: "gear"
 			size: 2.0d
+			subtitle: "{gto.steam.quests.27F4D9739FE33A02.subtitle}"
 			tasks: [{
 				id: "555B0222E8133F88"
 				item: "ad_astra:steel_ingot"
@@ -1081,8 +1087,8 @@
 			shape: "diamond"
 			size: 1.5d
 			tasks: [{
-				id: "2C08ED81A19230C3"
-				item: "gtocore:large_steam_furnace"
+				id: "0971BE2E86BE323A"
+				item: "gtocore:large_steam_bath"
 				type: "item"
 			}]
 			x: 5.25d
