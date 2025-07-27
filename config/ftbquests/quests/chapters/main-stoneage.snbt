@@ -419,11 +419,13 @@
 			}
 			id: "2403CDCD080D34B1"
 			rewards: [{
-				id: "7D09F18A3B2CD310"
+				id: "0CFF180C7CFA484B"
 				item: {
 					Count: 1
 					id: "gtocore:prospector.mana_ulv"
-					tag: { }
+					tag: {
+						mana: 500000
+					}
 				}
 				type: "item"
 			}]
