@@ -23,7 +23,7 @@ jobs:
             const issue = context.payload.issue;
             
             // 配置区域
-            const VERSION_GAP = 1; // 允许的版本差距：0=必须最新，1=允许差一个小版本
+            const VERSION_GAP = 0; // 允许的版本差距：0=必须最新，1=允许差一个小版本
             const HARDCODED_VERSION = "0.0.9-beta"; // 备用硬编码版本号
             
             // 检查是否有错误 bug 标签
