@@ -640,14 +640,21 @@
 		}
 		{
 			dependencies: ["27F4D9739FE33A02"]
-			description: ["{gto.ulv.quests.5CFDAB8B03980F9D.description0}"]
+			description: [
+				"{gto.ulv.quests.5CFDAB8B03980F9D.description0}"
+				""
+				""
+				"{gto.ulv.quests.5CFDAB8B03980F9D.description1}"
+			]
 			id: "5CFDAB8B03980F9D"
 			shape: "gear"
+			subtitle: "{gto.ulv.quests.5CFDAB8B03980F9D.subtitle}"
 			tasks: [{
 				id: "6692EFF7A36E5403"
 				item: "gtocore:hp_steam_vacuum_pump"
 				type: "item"
 			}]
+			title: "{gto.ulv.quests.5CFDAB8B03980F9D.title}"
 			x: 3.0d
 			y: -2.0d
 		}
