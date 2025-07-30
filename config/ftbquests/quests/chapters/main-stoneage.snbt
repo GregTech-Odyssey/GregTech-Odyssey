@@ -61,6 +61,12 @@
 					id: "7599F8899D9783E6"
 					type: "command"
 				}
+				{
+					count: 16
+					id: "4A94831824613F91"
+					item: "gtocore:copper_coin"
+					type: "item"
+				}
 			]
 			shape: "hexagon"
 			size: 3.0d
@@ -409,7 +415,11 @@
 		}
 		{
 			dependencies: ["4DC482C16035F261"]
-			description: ["找找看附近有趣的东西"]
+			description: [
+				"找找看附近有趣的东西，记得用魔力充能嗷！"
+				""
+				"可以去会员店买多一个，如果有需要的话"
+			]
 			icon: {
 				Count: 1
 				id: "minecraft:stone_pickaxe"
@@ -430,6 +440,7 @@
 				type: "item"
 			}]
 			size: 1.0d
+			subtitle: "麻雀虽小"
 			tasks: [{
 				consume_items: true
 				count: 256L
@@ -1471,6 +1482,11 @@
 			]
 			description: ["用小刀打草概率掉落植物纤维，空手破坏树叶概率掉落木棍"]
 			id: "114AB458EFA11202"
+			rewards: [{
+				id: "79759C2E953E8028"
+				item: "gtocore:copper_coin"
+				type: "item"
+			}]
 			subtitle: "樵夫乐事"
 			tasks: [{
 				id: "4BD8C011608A16D2"

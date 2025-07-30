@@ -263,8 +263,8 @@
 				type: "checkmark"
 			}]
 			title: "自我约束模式"
-			x: 1.0d
-			y: 2.5d
+			x: 2.25d
+			y: 2.25d
 		}
 		{
 			dependencies: [
@@ -350,8 +350,8 @@
 				}
 			]
 			title: "建造提示"
-			x: -1.0d
-			y: 2.5d
+			x: -2.25d
+			y: 2.25d
 		}
 		{
 			dependencies: ["79646E8E449D8A1A"]
@@ -373,6 +373,76 @@
 			}]
 			x: 1.5d
 			y: -4.5d
+		}
+		{
+			dependencies: ["79646E8E449D8A1A"]
+			description: [
+				"欢迎加入GTO寰宇重工集团·Alpha部门：927923997"
+				""
+			]
+			icon: "avaritia:enhancement_core"
+			id: "14BCF41FB8DAD531"
+			rewards: [{
+				id: "70C98E9EFF9C11F9"
+				item: "gtocore:gto_overseer_coke_ulv"
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "群U永远是你最坚实的后盾"
+			tasks: [{
+				id: "67EAF46F204E995C"
+				title: "这当然是官方群"
+				type: "checkmark"
+			}]
+			title: "我们需要交流！"
+			x: 0.0d
+			y: -5.25d
+		}
+		{
+			dependencies: ["79646E8E449D8A1A"]
+			description: [
+				"有几种覆盖板是GTO新增加的，在这里一一介绍一下："
+				""
+				""
+				" &b       无线传输覆盖板&r：分为&4无线物品传输覆盖板&r和&4无线流体覆盖板&r及其&d进阶版&r；"
+				"         用法：主手拿着覆盖板对任一容器如超级箱，超级缸，ME接口等，蹲下右键绑定，随后将覆盖板贴到小机器输出口或大机器输出舱室，即可无线传输物品/流体；"
+				"        特点：可进行跨维度传输；进阶版可以安装&e过滤卡&r;"
+				"{@pagebreak}"
+				" &b       无线充能覆盖板："
+				"&r        用法：在搭建无线充能器结构后，给其供电，在主机中放置&4HV及以上等级的力场发生器&r后，可以给无线充能覆盖板所贴方块内的物品充电；如给原木拟生场中的链锯充电；"
+				"        特点：可以安装在板条箱和&e部分&r机器主机上；"
+				"{@pagebreak}"
+				" &b       可编程覆盖板："
+				"&r        用法：在&d小机器&r上安装可编程覆盖板，就可在写样板时，加入虚拟物品;"
+				"        特点：&c单台&r小机器即可运行不同电路或者模具的配方;"
+				"{@pagebreak}"
+				" &b       存储覆盖板：&r"
+				"        用法：在&4小机器&r上安装即可；"
+				"        特点：为单台小机器额外提供在gui内可以打开的18格存储空间，物品&4不可堆叠&r；"
+				"{@pagebreak}"
+				" &b       机器控制覆盖板：&r"
+				"        用法：在小机器，机器主机或输入舱室任意一面安装即可；通过设置&4红石信号&r和普通/反相模式控制机器开关；"
+				"        特点：若安装的方块上还有电动泵，传送带等物流覆盖板，则机器控制覆盖板可以设置为对物流覆盖板进行控制；机器控制覆盖板可被强/弱充能方块激活；"
+			]
+			icon: "gtocore:wireless_charger_cover"
+			id: "5C62ECF9AC84E023"
+			rewards: [{
+				count: 64
+				id: "09063634654E3057"
+				item: "gtocore:copper_coin"
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "新鲜事简单报"
+			tasks: [{
+				id: "6F25CA3019D8D976"
+				type: "checkmark"
+			}]
+			title: "无形的大板"
+			x: 0.0d
+			y: 3.0d
 		}
 	]
 	subtitle: ["Tips and Tricks"]
