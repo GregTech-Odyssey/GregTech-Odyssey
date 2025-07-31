@@ -765,6 +765,10 @@ file = "config/ftbquests/quests/chapter_groups.snbt"
 hash = "36edba5bcfbabf479e0ffdf35de56fe0b91b80dd27f1b9706ad420a2e124e068"
 
 [[files]]
+file = "config/ftbquests/quests/chapters/39E07AEC9BF826C0.snbt"
+hash = "d6c9c93bd4b86c203cd17e236bdc9a1b7905c4739fe3fa121b093703bd658fde"
+
+[[files]]
 file = "config/ftbquests/quests/chapters/ae.snbt"
 hash = "54ee0c000e4ea69927f5504382d4e4823df9267745b5b014f06a2337443350dd"
 
@@ -822,7 +826,7 @@ hash = "a151e0f90de34d5231ab956736928cb83d17f0a71df3a12922759569e74369db"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/main-stoneage.snbt"
-hash = "9c62ef73efbd5298c80d310593e9f979f4d0c6c5c8966a97ba5152419da4e1b9"
+hash = "e7710c9f215b400a2fb09414345ba8a9d62ef645e862850a14e76ef0a78bfbb9"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/massive-manufacturing.snbt"
@@ -858,7 +862,7 @@ hash = "03202b6d599f36edb05cf3dfde9393e3cb8e39a3c1e7537828f67f0cb17e48ca"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tips.snbt"
-hash = "7d1f9a669672dab0a1dd29cdaaa260d5cb9306c1fa72a16fd1e0ada54e35c58c"
+hash = "859ee0f75102146dc68dbb6e3b62f2e9f42f785211fc84aa39edfab3b0bdfb32"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/uev.snbt"
@@ -874,7 +878,7 @@ hash = "42174b8a25124f7af107470c2285e7202607322c7d6670bd060f9bc91565a739"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ulv.snbt"
-hash = "76677072a208c45f42f9cae25be9c07fb647130467f22450df0249e901d639a1"
+hash = "c931eec8f99ea2bf1321b966be91a35a773ae299ef990aaa8b1bf529e08f261e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/util.snbt"
@@ -906,7 +910,7 @@ hash = "55a454d884546fb0e347522f211ae58eb4284bfc1b089e63bc69bc826f7379a7"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/64331530b697f6d5.snbt"
-hash = "4d6fc21144fdc2eb4eae89746ac65aae02c2b26bad4ac8905285d2c8e871a07b"
+hash = "e7343a253bb52b6e0438caae39794ec6aa867bf05f60023d9912f0d9a3fb4d2e"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/7db5b0b64f6a7e4f.snbt"
@@ -919,6 +923,10 @@ hash = "cfacdefe9dbcba289e087d9aa77ea2fed1360c2da70ca01878f281b418c96fce"
 [[files]]
 file = "config/ftbquests/quests/reward_tables/mvhv.snbt"
 hash = "82c82e1aefe6f70006b5a0063d7e74e68095efe643dbab02c3282e4d5b5a7d49"
+
+[[files]]
+file = "config/ftbquests/quests/reward_tables/ulv.snbt"
+hash = "d99b7dd1f02ac37693bb01a40cb22a206377792fa21bdd3934c260c67e3ebaac"
 
 [[files]]
 file = "config/ftbxmodcompat.snbt"
@@ -1130,15 +1138,15 @@ hash = "17983456d844658bfd226edaf39a48f54dfe38c50b7f69b28d5eed242cf784e0"
 
 [[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/en_us.json"
-hash = "06a2b7083937d824098094b6973488a388c06689eba72f0eb2dbf22f7c0c21b9"
+hash = "9f9ac06ca16bd4ac7d786abf0b9fec8c4b230fab0b85a6769fd961102d5d7f1f"
 
 [[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/zh_cn.json"
-hash = "165ca8b655c8befc739c27a350096d96b5ba73cda1470795a5a031e0ee9dd40a"
+hash = "9c4f867cad99aafdfd61e04c645a5dc0ea71cd897f674bfaaa2776fea473b333"
 
 [[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/zh_tw.json"
-hash = "4e58e12381b53f5251dd9373f02a09e7bbfd8e91def6104741a101b365224182"
+hash = "5ce362345d95432bced3c179f1d4a45640ed96c94a08440b9fd7097e134cd605"
 
 [[files]]
 file = "config/openloader/resources/quests/pack.mcmeta"
