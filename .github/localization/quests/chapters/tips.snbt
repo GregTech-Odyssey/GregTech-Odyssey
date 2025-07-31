@@ -282,6 +282,7 @@
 			id: "20BC48DF78F11B24"
 			shape: "pentagon"
 			size: 1.5d
+			subtitle: "{gto.tips.quests.20BC48DF78F11B24.subtitle}"
 			tasks: [{
 				id: "20E2BED5FB9E1A0B"
 				type: "checkmark"

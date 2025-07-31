@@ -391,6 +391,7 @@
 			id: "408CD587E28DFDCA"
 			shape: "gear"
 			size: 2.0d
+			subtitle: "{gto.hv.quests.408CD587E28DFDCA.subtitle}"
 			tasks: [{
 				id: "51B82E4D5DC97658"
 				item: {
@@ -475,6 +476,7 @@
 			]
 			shape: "gear"
 			size: 2.0d
+			subtitle: "{gto.hv.quests.7A7DC6205DED9BF3.subtitle}"
 			tasks: [{
 				id: "58E5AD0766D349F7"
 				type: "checkmark"
@@ -495,6 +497,8 @@
 				"{gto.hv.quests.310210D2AD9515E3.description1}"
 				""
 				"{gto.hv.quests.310210D2AD9515E3.description2}"
+				""
+				"{gto.hv.quests.310210D2AD9515E3.description3}"
 			]
 			id: "310210D2AD9515E3"
 			rewards: [{
@@ -509,6 +513,7 @@
 				type: "item"
 			}]
 			shape: "hexagon"
+			subtitle: "{gto.hv.quests.310210D2AD9515E3.subtitle}"
 			tasks: [{
 				dimension: "ad_astra:moon"
 				id: "6A35D51A8BE1AB7D"
@@ -516,7 +521,7 @@
 				type: "dimension"
 			}]
 			title: "{gto.hv.quests.310210D2AD9515E3.title}"
-			x: 11.0d
+			x: 11.5d
 			y: 1.0d
 		}
 		{
@@ -532,11 +537,14 @@
 				item: "gtceu:raw_bauxite"
 				type: "item"
 			}]
-			x: 13.0d
-			y: 1.0d
+			x: 13.5d
+			y: 0.0d
 		}
 		{
-			dependencies: ["74349E8491A86E55"]
+			dependencies: [
+				"74349E8491A86E55"
+				"2047831C46210E9C"
+			]
 			id: "6FC9EDD193E0BCE7"
 			tasks: [{
 				id: "4FED5CCF723D7B2B"
@@ -882,6 +890,7 @@
 			hide_dependency_lines: true
 			id: "4AED8DE6D6175D97"
 			min_required_dependencies: 1
+			subtitle: "{gto.hv.quests.4AED8DE6D6175D97.subtitle}"
 			tasks: [{
 				id: "0DC3A2EE264A753C"
 				item: "enderio:rocket_fuel_bucket"
@@ -1001,7 +1010,7 @@
 				}
 			]
 			title: "{gto.hv.quests.4331EEF3BA9799FD.title}"
-			x: 11.0d
+			x: 11.5d
 			y: -1.0d
 		}
 		{
@@ -1277,7 +1286,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 11.0d
+			x: 11.5d
 			y: 3.5d
 		}
 		{
@@ -1421,6 +1430,32 @@
 			}]
 			x: 2.5d
 			y: -1.0d
+		}
+		{
+			id: "06E8CF5F701850A1"
+			tasks: [{
+				id: "1527CD1ED0E171F7"
+				item: "gtocore:tier_1_eye"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["310210D2AD9515E3"]
+			description: [
+				"{gto.hv.quests.2047831C46210E9C.description0}"
+				""
+				"{gto.hv.quests.2047831C46210E9C.description1}"
+			]
+			id: "2047831C46210E9C"
+			tasks: [{
+				id: "4770D7BDF837DDDA"
+				item: "gtceu:raw_ilmenite"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 2.0d
 		}
 	]
 	subtitle: ["{gto.hv.subtitle0}"]
