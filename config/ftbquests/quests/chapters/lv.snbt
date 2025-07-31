@@ -1689,8 +1689,8 @@
 				item: "gtocore:lv_accelerate_hatch"
 				type: "item"
 			}]
-			x: 6.5d
-			y: -1.5d
+			x: 7.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["6A9DFD965CA33D75"]

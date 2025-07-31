@@ -86,6 +86,11 @@
 			icon: "gtceu:portable_debug_scanner"
 			id: "5C4137F64F9ADA50"
 			min_width: 350
+			rewards: [{
+				id: "3CDBF3DDD07DC90A"
+				item: "botania:mana_cookie"
+				type: "item"
+			}]
 			shape: "pentagon"
 			size: 2.0d
 			subtitle: "电压等级对应的主要内容"
@@ -101,14 +106,23 @@
 			dependencies: ["3BC9246D8FD4B649"]
 			description: ["你要问为什么不是先砍树——你砍得动吗？"]
 			id: "00FC570B313227A1"
-			rewards: [{
-				count: 32
-				id: "1C8E29E6FAA6034B"
-				item: "minecraft:flint"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 32
+					id: "1C8E29E6FAA6034B"
+					item: "minecraft:flint"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "6087D3176B3D352B"
+					item: "gtocore:copper_coin"
+					type: "item"
+				}
+			]
 			shape: "hexagon"
 			size: 1.5d
+			subtitle: "西部大开发"
 			tasks: [{
 				count: 64L
 				id: "754B7DBB3F865931"
@@ -157,13 +171,21 @@
 			description: ["有木头才能继续推进流程，如果你发现你砍不了树，不妨去看看前置任务"]
 			icon: "minecraft:oak_log"
 			id: "7D6FCF32575CB7DA"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "4CDDE8131D022FAA"
-				table_id: 7220137926571062997L
-				title: "任意木板*64"
-				type: "choice"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4CDDE8131D022FAA"
+					table_id: 7220137926571062997L
+					title: "任意木板*64"
+					type: "choice"
+				}
+				{
+					count: 16
+					id: "7E6C40799AF543E7"
+					item: "gtocore:copper_coin"
+					type: "item"
+				}
+			]
 			shape: "hexagon"
 			size: 1.5d
 			subtitle: "有种熟悉的感觉"
@@ -305,6 +327,7 @@
 				type: "item"
 			}]
 			size: 1.0d
+			subtitle: "是的，我肚子饿了"
 			tasks: [{
 				count: 16L
 				id: "63FE2FB46A81B5C5"
@@ -360,12 +383,20 @@
 			]
 			icon: "minecraft:crafting_table"
 			id: "561D79DE960A034D"
-			rewards: [{
-				count: 64
-				id: "07AA65931017D21B"
-				item: "minecraft:torch"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 64
+					id: "07AA65931017D21B"
+					item: "minecraft:torch"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "4FEA73914CE99DC1"
+					item: "gtocore:copper_coin"
+					type: "item"
+				}
+			]
 			shape: "hexagon"
 			size: 2.0d
 			subtitle: "制作你的第一个工作台"
@@ -561,6 +592,8 @@
 				""
 				"焦炉产出的焦煤是正常煤炭燃烧时间的两倍，同时产出的杂酚油用来制作蒸汽时代的设备"
 				""
+				"[ \"我建议你用\", { \"text\": \"终端\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"07C8D75D90114580\" } }, \"来帮助你搭建\" ]"
+				""
 				"&o&8一定要多堆点焦炉，要炼钢一台可不够。"
 			]
 			icon: "gtceu:coke_oven"
@@ -754,6 +787,12 @@
 					}
 					type: "item"
 				}
+				{
+					count: 16
+					id: "09C7119FEC8147C1"
+					item: "gtocore:copper_coin"
+					type: "item"
+				}
 			]
 			shape: "hexagon"
 			size: 1.5d
@@ -899,6 +938,12 @@
 							HideFlags: 2
 						}
 					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "22CF301DFA63F4B8"
+					item: "gtocore:copper_coin"
 					type: "item"
 				}
 			]
@@ -1240,12 +1285,20 @@
 			]
 			icon: "minecraft:blast_furnace"
 			id: "15C69E5AE559EE9B"
-			rewards: [{
-				count: 9
-				id: "4B490BBC953B6545"
-				item: "minecraft:blast_furnace"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 9
+					id: "4B490BBC953B6545"
+					item: "minecraft:blast_furnace"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "27EDBB4C843D8FA2"
+					item: "gtocore:copper_coin"
+					type: "item"
+				}
+			]
 			shape: "hexagon"
 			size: 1.5d
 			subtitle: "你现在最好的矿物处理方式——"
@@ -1265,12 +1318,20 @@
 				"你在下一个阶段会&5大量&r需要它的"
 			]
 			id: "12116F27AB89BB58"
-			rewards: [{
-				count: 9
-				id: "3587CD8658AA21D0"
-				item: "gtceu:wrought_iron_ingot"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 9
+					id: "3587CD8658AA21D0"
+					item: "gtceu:wrought_iron_ingot"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "14C77686B4EF5728"
+					item: "gtocore:copper_coin"
+					type: "item"
+				}
+			]
 			shape: "hexagon"
 			size: 1.5d
 			subtitle: "千锤百炼"
@@ -1295,12 +1356,20 @@
 			]
 			icon: "gtceu:bronze_dust"
 			id: "0F7F02C261EF18FA"
-			rewards: [{
-				count: 16
-				id: "37C1A24CA1179A15"
-				item: "gtceu:bronze_dust"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 16
+					id: "37C1A24CA1179A15"
+					item: "gtceu:bronze_dust"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "0938396D8880B322"
+					item: "gtocore:copper_coin"
+					type: "item"
+				}
+			]
 			shape: "hexagon"
 			size: 1.5d
 			subtitle: "可惜不能搓青铜面具"
@@ -1482,11 +1551,6 @@
 			]
 			description: ["用小刀打草概率掉落植物纤维，空手破坏树叶概率掉落木棍"]
 			id: "114AB458EFA11202"
-			rewards: [{
-				id: "79759C2E953E8028"
-				item: "gtocore:copper_coin"
-				type: "item"
-			}]
 			subtitle: "樵夫乐事"
 			tasks: [{
 				id: "4BD8C011608A16D2"
@@ -1507,6 +1571,7 @@
 			description: ["你需要收集一些"]
 			id: "1D2340E3912053DA"
 			shape: "circle"
+			subtitle: "这可不能做成蓑衣"
 			tasks: [{
 				id: "687702C617CBCB1B"
 				item: "gtocore:plant_fiber"
@@ -1520,6 +1585,7 @@
 			description: ["制造一把&6燧石斧&r，放开了去砍吧！"]
 			id: "21C33087531A293F"
 			shape: "circle"
+			subtitle: "燧石大力量"
 			tasks: [{
 				id: "42EAEBF2E11AFC57"
 				item: {
@@ -1546,8 +1612,9 @@
 		}
 		{
 			dependencies: ["6D4B71E543059C19"]
-			description: ["你需要116x焦炉砖以搭建一个最简可用焦炉"]
+			description: ["你需要合成焦炉砖块，当然手搓是更快的"]
 			id: "39A6C5524A2490C5"
+			subtitle: "需要点火"
 			tasks: [{
 				consume_items: false
 				id: "4A7356E1096054EF"
@@ -1562,8 +1629,15 @@
 				"664BDC18052B54FC"
 				"4920255C0FDE6187"
 			]
-			description: ["你需要116x焦炉砖以搭建一个最简可用焦炉"]
+			description: [
+				"你需要116x&6焦炉砖&r以搭建一个最简可用焦炉"
+				""
+				"所以你需要搓116个压缩&6焦黏土&r"
+				""
+				"对的，专家模式下会更难"
+			]
 			id: "6D4B71E543059C19"
+			subtitle: "然后我们需要把这堆东西挤进来"
 			tasks: [{
 				id: "24EA2D701E78667F"
 				item: "gtceu:compressed_coke_clay"
@@ -1673,6 +1747,7 @@
 			id: "77EE7D3484410CE3"
 			shape: "hexagon"
 			size: 1.5d
+			subtitle: "高科技时间折跃装置"
 			tasks: [{
 				id: "61DC9BC9B2E28B5D"
 				item: {
@@ -1714,8 +1789,14 @@
 		}
 		{
 			dependencies: ["561D79DE960A034D"]
+			description: [
+				"软锤不仅可以作为合成材料，也可以作为工具"
+				""
+				"&8&o指可以开关机器&r&8&r"
+			]
 			id: "20AE5EDFB6C59021"
 			optional: true
+			subtitle: "其实是个开关"
 			tasks: [{
 				id: "06F876B3B51390F7"
 				item: {
@@ -1738,7 +1819,9 @@
 		}
 		{
 			dependencies: ["30D4CC9142D59DBD"]
+			description: ["这东西在接下来的合成中是可以重复利用的，所以造一个就好了"]
 			id: "4920255C0FDE6187"
+			subtitle: "可重复"
 			tasks: [{
 				id: "3D98DFA0F224B508"
 				item: "gtceu:brick_wooden_form"
@@ -1758,6 +1841,7 @@
 			]
 			id: "6BA5DA36E8163809"
 			shape: "diamond"
+			subtitle: "我们需要自动化！"
 			tasks: [{
 				id: "54186B8884FF0220"
 				item: "gtceu:coke_oven_hatch"
@@ -1770,6 +1854,7 @@
 			dependencies: ["67264EF0565CC030"]
 			description: ["销毁你的垃圾"]
 			id: "36ABEC62B0F6C71D"
+			subtitle: "别丢错东西了"
 			tasks: [
 				{
 					id: "5F095539B1E545E4"
@@ -1790,6 +1875,7 @@
 			dependencies: ["561D79DE960A034D"]
 			description: ["右击&6草&r极大概率掉落小麦种子，有小概率掉落胡萝卜等农作物"]
 			id: "3E80C257F74352D0"
+			subtitle: "又名种子收割刀"
 			tasks: [{
 				id: "60E24C1973632EE2"
 				item: {
@@ -1809,6 +1895,7 @@
 			description: ["你可以使用&e农夫乐事&r模组的&6砧板&r获得它，在这里你不能徒手分解花朵！"]
 			hide_dependency_lines: true
 			id: "07169625BC595BD3"
+			subtitle: "拒绝辣手摧花"
 			tasks: [
 				{
 					id: "3BFACC07CC05C8F1"
@@ -1831,27 +1918,6 @@
 			title: "需要染料？"
 			x: 12.5d
 			y: 6.0d
-		}
-		{
-			dependencies: ["2403CDCD080D34B1"]
-			id: "244DAB0EE8479CAC"
-			invisible: true
-			rewards: [{
-				count: 3
-				id: "755BEC4F997CE6E7"
-				item: "minecraft:bread"
-				type: "item"
-			}]
-			subtitle: "不知道要挖多少石头呢"
-			tasks: [{
-				count: 1024L
-				id: "67A20CADF1650632"
-				item: { Count: 1024, id: "minecraft:cobblestone" }
-				type: "item"
-			}]
-			title: "永无止境"
-			x: 6.0d
-			y: -5.0d
 		}
 		{
 			dependencies: ["12116F27AB89BB58"]
