@@ -14,11 +14,12 @@ body:
   - type: "dropdown"
     id: "thermos"
     attributes:
-      label: "Server Type / 服务器类型"
-      description: "Please indicate the type of server environment where the issue occurs. / 请指明发生问题的服务器环境类型。"
+      label: "Play Environment / 游戏环境"
+      description: "Please assist in testing the type of game environment where the issue occurred. / 请协助测试发生问题的游戏环境类型。"
       options:
-        - "Client / 客户端"
-        - "Server / 服务器"
+        - "Single Player / 单人游戏"
+        - "Multi Player / 多人游戏"
+        - "Both / 同时"
     validations:
       required: true
   - type: "textarea"
@@ -57,3 +58,4 @@ body:
           required: true
         - label: "I understand that due to the rapid updates of the integration package, errors in non latest or extremely similar versions are highly likely to have been fixed, and their reports will be closed without investigation. / 我理解因整合包飞速地更新，非最新版本或极其相近的版本的错误极大可能已经修复，其报告将被关闭而不进行调查。"
           required: true
+        
