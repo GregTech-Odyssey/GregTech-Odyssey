@@ -490,28 +490,46 @@
 				"7A7DC6205DED9BF3"
 				"4AED8DE6D6175D97"
 				"4331EEF3BA9799FD"
+				"06E8CF5F701850A1"
 			]
 			description: [
-				"现在，朝着亲爱的月球进发？不不不，还有几件事需要你再确认一下："
+				"现在，朝着亲爱的月球进发？不不不，还有几件事需要你&4再确认一下&r："
 				""
-				"首先在出发之前，要穿戴好宇航服装，以及把你身上的器官都强化到Tire1"
+				"首先在出发之前，要穿戴好宇航服装，以及把你身上的&6器官&r都强化到&4Tier1"
 				""
-				"其次把你的背包腾出一定的空间，记住公司派你去月球是去挖矿的，不是旅游的"
+				"&r其次把你的背包腾出一定的空间，记住公司派你去月球是去挖矿的，不是旅游的"
 				""
 				"最后着陆前注意提前&e打开助推器减速&r，否则在有不幸的事情发生前就会&4&n有更不幸的事情发生&r&r"
 			]
 			id: "310210D2AD9515E3"
-			rewards: [{
-				id: "606F980D21B6DDAE"
-				item: {
-					Count: 1
-					id: "gtceu:prospector.hv"
-					tag: {
-						Charge: 1600000L
+			rewards: [
+				{
+					id: "606F980D21B6DDAE"
+					item: {
+						Count: 1
+						id: "gtceu:prospector.hv"
+						tag: {
+							Charge: 1600000L
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "679F3B93D7B00914"
+					item: {
+						Count: 1
+						id: "avaritia:infinity_totem"
+						tag: {
+							Damage: 98
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"员工生活质量保障证(一次性)\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "hexagon"
 			subtitle: "格雷科技的一大步"
 			tasks: [{
@@ -953,9 +971,11 @@
 		{
 			dependencies: ["7A7DC6205DED9BF3"]
 			description: [
-				"月球缺少大气环境"
+				"月球&4缺少&r大气环境"
 				""
 				"你必须身着宇航套装，&n不然会有不幸的事情发生&r"
+				""
+				"以及必须往宇航服内通入氧气——就把&6航天服&r当成桶，从AE里面舀就行了"
 				""
 				"&2宇&6航&9服&e可&d以&b染&4色&r，不会影响任务提交"
 			]
@@ -1268,16 +1288,25 @@
 				"&6轨道空间站&r具有&d无重力环境&r"
 				""
 				"不但如此，&e光伏电站&r在&6轨道空间站&r能得到最高的发电量"
+				""
+				"我建议你建造一个环绕&b地球&r的近地轨道空间站，所需要的材料在下一页"
+				""
+				"以及，在空间站内活动仍需穿航天服以提供氧气"
+				"{@pagebreak}"
+				"钢锭 *64"
+				"EV电路 * 16"
+				"铁板 * 1"
+				"钢引擎 * 1"
 			]
 			icon: "gtocore:space_probe_mk1"
 			id: "21624A4965D8D2D7"
 			shape: "hexagon"
+			subtitle: "地轨道长期驻留"
 			tasks: [
 				{
 					dimension: "ad_astra:earth_orbit"
 					icon: "gtocore:space_probe_mk1"
 					id: "3DD2A9B564DE322C"
-					optional_task: true
 					title: "造访轨道空间站"
 					type: "dimension"
 				}
@@ -1286,6 +1315,7 @@
 					type: "checkmark"
 				}
 			]
+			title: "我们需要一个在太空中的房子"
 			x: 11.5d
 			y: 3.5d
 		}
@@ -1432,12 +1462,71 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["7A7DC6205DED9BF3"]
+			description: [
+				"你需要把你的身体的各个器官都强化到&4Tier1&r之后才能抵御星际乱流的影响"
+				""
+				"用&6器官修改器&r来把各个器官部件装进你的身体里面"
+				""
+				"当然以后你每去一个新地方都需要查看自己身上的器官是不是已经强化到对应的阶级了"
+				""
+				"&o&8自己给自己在清醒时做手术，可真的是有点惊悚呢&r&r"
+			]
 			id: "06E8CF5F701850A1"
-			tasks: [{
-				id: "1527CD1ED0E171F7"
-				item: "gtocore:tier_1_eye"
+			rewards: [{
+				id: "0B901E3B9C37558A"
+				item: "gtocore:organ_modifier"
 				type: "item"
 			}]
+			subtitle: "我们终将决定我们自己的进化道路"
+			tasks: [
+				{
+					id: "1527CD1ED0E171F7"
+					item: "gtocore:tier_1_eye"
+					type: "item"
+				}
+				{
+					id: "02DACE16540F3950"
+					item: "gtocore:tier_1_spine"
+					type: "item"
+				}
+				{
+					id: "4D0B02A57E230452"
+					item: "gtocore:tier_1_lung"
+					type: "item"
+				}
+				{
+					id: "300387F47666DD1B"
+					item: "gtocore:tier_1_liver"
+					type: "item"
+				}
+				{
+					id: "4C7C34B4D8A9810C"
+					item: "gtocore:tier_1_heart"
+					type: "item"
+				}
+				{
+					id: "0C3B32392E9028AE"
+					item: "gtocore:tier_1_left_arm"
+					type: "item"
+				}
+				{
+					id: "0C59D037800BD887"
+					item: "gtocore:tier_1_right_arm"
+					type: "item"
+				}
+				{
+					id: "41F1043CBE279630"
+					item: "gtocore:tier_1_left_leg"
+					type: "item"
+				}
+				{
+					id: "26211367AB393E8D"
+					item: "gtocore:tier_1_right_leg"
+					type: "item"
+				}
+			]
+			title: "血肉苦弱，机械飞升！"
 			x: 10.5d
 			y: 2.5d
 		}

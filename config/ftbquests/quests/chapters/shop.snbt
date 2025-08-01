@@ -322,7 +322,7 @@
 				item: { Count: 128, id: "gtocore:copper_coin" }
 				type: "item"
 			}]
-			title: "建筑手杖套装"
+			title: "建筑大师套装"
 			x: 8.0d
 			y: -3.0d
 		}
@@ -372,6 +372,7 @@
 			y: -4.5d
 		}
 		{
+			icon: "gtceu:bronze_block"
 			id: "50259ED5714DCF72"
 			rewards: [{
 				count: 8
@@ -385,10 +386,12 @@
 				item: { Count: 64, id: "gtocore:copper_coin" }
 				type: "item"
 			}]
+			title: "青铜块"
 			x: -8.0d
 			y: -1.0d
 		}
 		{
+			icon: "gtocore:precision_steam_mechanism"
 			id: "60F54941B9E0EF4F"
 			rewards: [{
 				id: "2783A08DB3270653"
@@ -401,8 +404,28 @@
 				item: { Count: 128, id: "gtocore:copper_coin" }
 				type: "item"
 			}]
+			title: "精密蒸汽构件"
 			x: -6.0d
 			y: -1.0d
+		}
+		{
+			icon: "gtceu:wrought_iron_ingot"
+			id: "49EC161973D2DDF9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2D38DCF94737CA21"
+				table_id: 9145890164438890432L
+				type: "choice"
+			}]
+			tasks: [{
+				count: 16L
+				id: "7E070BF50F5560C7"
+				item: { Count: 16, id: "gtocore:copper_coin" }
+				type: "item"
+			}]
+			title: "ULV矿石补给包"
+			x: 9.5d
+			y: -3.0d
 		}
 	]
 	title: "格雷科技™员工会员店"

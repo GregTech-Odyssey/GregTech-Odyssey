@@ -41,31 +41,26 @@
 				{
 					id: "06C78C3B9BB52E36"
 					item: "gtceu:lv_steam_turbine"
-					optional_task: true
 					type: "item"
 				}
 				{
 					id: "128FCC2E64E4A8CC"
 					item: "gtceu:lv_combustion"
-					optional_task: true
 					type: "item"
 				}
 				{
 					id: "33E7946932FCDBFE"
 					item: "gtceu:lv_gas_turbine"
-					optional_task: true
 					type: "item"
 				}
 				{
 					id: "6C5968CA995F5BE0"
 					item: "gtocore:lv_semi_fluid"
-					optional_task: true
 					type: "item"
 				}
 				{
 					id: "2A6C8B1687AFDC10"
 					item: "gtocore:lv_thermal_generator"
-					optional_task: true
 					type: "item"
 				}
 				{

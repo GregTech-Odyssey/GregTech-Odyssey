@@ -201,25 +201,21 @@
 				{
 					id: "6FD75F04B64A6752"
 					item: "gtceu:oil_medium_bucket"
-					optional_task: true
 					type: "item"
 				}
 				{
 					id: "53F81A18896A1E0E"
 					item: "gtceu:oil_heavy_bucket"
-					optional_task: true
 					type: "item"
 				}
 				{
 					id: "49639C03F7559653"
 					item: "gtceu:oil_light_bucket"
-					optional_task: true
 					type: "item"
 				}
 				{
 					id: "47FF6C3C9395C55C"
 					item: "ad_astra:oil_bucket"
-					optional_task: true
 					type: "item"
 				}
 				{
@@ -300,13 +296,11 @@
 				{
 					id: "67BCD51B84D817B3"
 					item: "gtceu:diesel_bucket"
-					optional_task: true
 					type: "item"
 				}
 				{
 					id: "1031CD1FCDFA0F7C"
 					item: "gtceu:tetranitromethane_bucket"
-					optional_task: true
 					type: "item"
 				}
 				{
@@ -337,7 +331,6 @@
 				{
 					id: "4E1F3B1A3E2D9B2F"
 					item: "gtceu:octane_bucket"
-					optional_task: true
 					type: "item"
 				}
 			]
@@ -740,13 +733,11 @@
 				{
 					id: "7B73A046D8E73B6E"
 					item: "gtocore:pre_zylon_dust"
-					optional_task: true
 					type: "item"
 				}
 				{
 					id: "26CECBB647952899"
 					item: "gtocore:zylon_dust"
-					optional_task: true
 					type: "item"
 				}
 				{

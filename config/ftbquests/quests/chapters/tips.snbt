@@ -280,11 +280,17 @@
 			]
 			icon: "gtceu:gold_indicator"
 			id: "20BC48DF78F11B24"
+			rewards: [{
+				id: "6CA75B35251901DF"
+				item: "gtocore:copper_coin"
+				type: "item"
+			}]
 			shape: "pentagon"
 			size: 1.5d
 			subtitle: "告诉我他们在哪？"
 			tasks: [{
 				id: "20E2BED5FB9E1A0B"
+				title: "我爱挖矿！"
 				type: "checkmark"
 			}]
 			title: "矿石与矿脉"
@@ -444,6 +450,279 @@
 			title: "有形的小板"
 			x: 0.0d
 			y: 3.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "gtceu:nanomuscle_helmet"
+				tag: { }
+			}
+			id: "226B4BF9F95A3C30"
+			invisible: true
+			rewards: [
+				{
+					auto: "enabled"
+					id: "6A3FC73ED9CF201B"
+					item: {
+						Count: 1
+						id: "minecraft:golden_helmet"
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									id: "minecraft:protection"
+									lvl: 3s
+								}
+								{
+									id: "minecraft:projectile_protection"
+									lvl: 5s
+								}
+							]
+							RepairCost: 7
+							Trim: {
+								material: "minecraft:redstone"
+								pattern: "minecraft:host"
+							}
+							display: {
+								Name: "{\"text\":\"员工头盔\"}"
+							}
+						}
+					}
+					team_reward: false
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					id: "66C9DFA30CE07AE1"
+					item: {
+						Count: 1
+						id: "minecraft:leather_chestplate"
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									id: "minecraft:thorns"
+									lvl: 3s
+								}
+								{
+									id: "minecraft:blast_protection"
+									lvl: 2s
+								}
+							]
+							RepairCost: 3
+							Trim: {
+								material: "minecraft:redstone"
+								pattern: "minecraft:host"
+							}
+							display: {
+								Name: "{\"text\":\"员工劳保服\"}"
+							}
+						}
+					}
+					team_reward: false
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					id: "15474BB65597BDB4"
+					item: {
+						Count: 1
+						id: "minecraft:chainmail_leggings"
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									id: "apotheosis:rebounding"
+									lvl: 1s
+								}
+								{
+									id: "minecraft:unbreaking"
+									lvl: 2s
+								}
+							]
+							RepairCost: 7
+							Trim: {
+								material: "minecraft:redstone"
+								pattern: "minecraft:host"
+							}
+							display: {
+								Name: "{\"text\":\"员工劳动裤\"}"
+							}
+						}
+					}
+					team_reward: false
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					id: "68F87F686933EB25"
+					item: {
+						Count: 1
+						id: "minecraft:iron_boots"
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									id: "minecraft:fire_protection"
+									lvl: 5s
+								}
+								{
+									id: "minecraft:feather_falling"
+									lvl: 1s
+								}
+							]
+							RepairCost: 3
+							Trim: {
+								material: "minecraft:redstone"
+								pattern: "minecraft:host"
+							}
+							display: {
+								Name: "{\"text\":\"员工劳保靴\"}"
+							}
+						}
+					}
+					team_reward: false
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "29034BFBCFA2BA4C"
+				stat: "minecraft:deaths"
+				type: "stat"
+				value: 1
+			}]
+			title: "劳保服套装"
+			x: -4.0d
+			y: 4.5d
+		}
+		{
+			icon: "ars_nouveau:blank_parchment"
+			id: "2ABDF1C7B4E1B44A"
+			invisible: true
+			rewards: [{
+				auto: "enabled"
+				id: "0B71079726A3B338"
+				item: {
+					Count: 1
+					id: "avaritia:infinity_totem"
+					tag: {
+						Damage: 98
+						RepairCost: 0
+						display: {
+							Name: "{\"text\":\"员工生活质量保障证(一次性)\"}"
+						}
+					}
+				}
+				team_reward: false
+				type: "item"
+			}]
+			tasks: [{
+				id: "2C57CE49C88CC412"
+				stat: "minecraft:deaths"
+				type: "stat"
+				value: 5
+			}]
+			title: "开路护符"
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			id: "3C10974F3E128ECA"
+			invisible: true
+			rewards: [{
+				auto: "enabled"
+				id: "698673E0044DB840"
+				item: {
+					Count: 1
+					id: "minecraft:netherite_sword"
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								id: "minecraft:sharpness"
+								lvl: 5s
+							}
+							{
+								id: "minecraft:smite"
+								lvl: 6s
+							}
+						]
+						RepairCost: 3
+						display: {
+							Name: "{\"text\":\"员工基础生活保障剑\"}"
+						}
+					}
+				}
+				team_reward: false
+				type: "item"
+			}]
+			tasks: [{
+				id: "14F7B7C471B635D0"
+				stat: "minecraft:deaths"
+				type: "stat"
+				value: 10
+			}]
+			title: "冲锋之剑"
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			icon: "avaritia:infinity_bow"
+			id: "71F8C203B6B0257D"
+			invisible: true
+			rewards: [
+				{
+					auto: "enabled"
+					id: "25972D9AB4F7C50A"
+					item: {
+						Count: 1
+						id: "minecraft:bow"
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									id: "minecraft:infinity"
+									lvl: 1s
+								}
+								{
+									id: "minecraft:flame"
+									lvl: 1s
+								}
+								{
+									id: "minecraft:punch"
+									lvl: 3s
+								}
+								{
+									id: "minecraft:power"
+									lvl: 2s
+								}
+							]
+							RepairCost: 31
+							display: {
+								Name: "{\"text\":\"员工清扫弓\"}"
+							}
+						}
+					}
+					team_reward: false
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					id: "54421F296F91773F"
+					item: "minecraft:arrow"
+					team_reward: false
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2A22E196E25424F7"
+				stat: "minecraft:deaths"
+				type: "stat"
+				value: 15
+			}]
+			title: "秩序之弓"
+			x: 4.0d
+			y: 4.5d
 		}
 	]
 	subtitle: ["Tips and Tricks"]
