@@ -114,7 +114,6 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["52CBB90352DCD66C"]
 			description: ["{gto.shop.quests.2C7AD7D1D548EB0E.description0}"]
 			icon: "ad_astra:etrium_nugget"
 			id: "2C7AD7D1D548EB0E"
@@ -334,6 +333,7 @@
 							wand_options: { }
 						}
 					}
+					only_one: true
 					type: "item"
 				}
 				{
@@ -362,7 +362,11 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["20AC600A32D51156"]
+			dependencies: [
+				"20AC600A32D51156"
+				"619EE8C56F705241"
+			]
+			dependency_requirement: "one_completed"
 			id: "49FE915485277EA3"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -388,7 +392,11 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["20AC600A32D51156"]
+			dependencies: [
+				"20AC600A32D51156"
+				"619EE8C56F705241"
+			]
+			dependency_requirement: "one_completed"
 			icon: "factory_blocks:factory"
 			id: "1EBE4BC172EFA13E"
 			rewards: [{
