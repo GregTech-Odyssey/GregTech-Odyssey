@@ -1085,10 +1085,6 @@ file = "config/lootbag-common.toml"
 hash = "7f808c48b3c9cef5fa6728b65f6909d8c6c3865c8cc06c19f9bec364b26c6691"
 
 [[files]]
-file = "config/mae2-common.toml"
-hash = "15b65d97480b6366350da282bae604c4c5eb60f5a98ffe36154e93693b06b120"
-
-[[files]]
 file = "config/mafglib.json"
 hash = "a4976d6a5206a02939ee0ad164b06eb0bd0530dc5ffff42c9372327d1f5e5b64"
 
@@ -1118,7 +1114,7 @@ hash = "fad9aea710ec3508eab562cd8f2b5f8e2dda6ee1c5fb1fe818f90ce253017f66"
 
 [[files]]
 file = "config/modernfix-mixins.properties"
-hash = "007e333ec63b628e883298e7d00a5ab1d6715f57b54fb5e33b6f915ac157be9f"
+hash = "f40db40dc41ba14ca23fb15aee2ad345c6d84379c5796f01a9418a2f9e9a67ef"
 
 [[files]]
 file = "config/morered-client.toml"
@@ -1218,7 +1214,7 @@ hash = "47b287f97fc61a322d7a19087bc9e9696de5b8f6060a5a2eda73d3d4ab3805c2"
 
 [[files]]
 file = "config/sidebar_buttons.json"
-hash = "f37500e8d3440dc1da3307f0fbbb3a0c181794c844efab9cfeb16564b4f22f3d"
+hash = "c0a2342ab1d042cec98799321a196d4b9ef958d6fdd59869c905226e71c5c8b2"
 
 [[files]]
 file = "config/solcarrot-client.toml"
@@ -1413,7 +1409,7 @@ metafile = true
 
 [[files]]
 file = "mods/applied-energistics-2.pw.toml"
-hash = "1893b852a0c3873315691c133f68fc175f50b7cf9ad46c88c989913237f2c401"
+hash = "174749a5b3eaf31ca1a53ad8a748a9662f65fcc834bbd1aa1ce0eb104768e411"
 metafile = true
 
 [[files]]
@@ -1438,7 +1434,7 @@ metafile = true
 
 [[files]]
 file = "mods/asyncparticles.pw.toml"
-hash = "7ddfbf9b91743776306d2a6032743753b46d3097a4314e87e19dcc6c02629655"
+hash = "9855aabd8fe5bb57d59e01a29726b28cd363d7656ac49927ca33bf070435bfde"
 metafile = true
 
 [[files]]
@@ -1608,7 +1604,7 @@ metafile = true
 
 [[files]]
 file = "mods/easy-villagers.pw.toml"
-hash = "8479572c817ca5529f14395a64ab761fb5aeb4dbe7f9a52af334189cd55d4d1c"
+hash = "4bbca555ac14d8b40bfea21ee96c4a8a6c5e7494203dea0a861322eaa9e71467"
 metafile = true
 
 [[files]]
@@ -1763,7 +1759,7 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-quests-forge.pw.toml"
-hash = "2ec083ed1872a8886a63c8f112958fdda1cf802d01c90400272e0d95a82c976d"
+hash = "218ceb46f632cbcdef9f1156c9d138ac7ad52e387f7d1cf2fac92952f92f8fd1"
 metafile = true
 
 [[files]]
@@ -1812,8 +1808,8 @@ hash = "9a8b08fcdf158630569ec5bb9aa1da61a700076d4caf0493901b80368927c30c"
 metafile = true
 
 [[files]]
-file = "mods/gtocore-0.3.5.jar"
-hash = "8c798abfefc1f344d910f2136ca8a5655ec905d2d9bfd015475b799eabad0ce7"
+file = "mods/gtocore-0.3.6.jar"
+hash = "4c3e0d26633821437ecef677d23bc02741e6b1eae9e06b30d68d7e9176cb020f"
 
 [[files]]
 file = "mods/guideme.pw.toml"
@@ -1913,11 +1909,6 @@ metafile = true
 [[files]]
 file = "mods/model-gap-fix.pw.toml"
 hash = "067c23fcc8a6ff8455b9c599892bd76a6f0c3ebe4d83fbb19f8e2c6564396561"
-metafile = true
-
-[[files]]
-file = "mods/modern-ae2-additions.pw.toml"
-hash = "ace502aab2db2f29dbf49df9aba37348091e2a322a9f0731e09e7c26d885c1cd"
 metafile = true
 
 [[files]]
@@ -2067,12 +2058,12 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "e7cc88d71d6511a48b6dabf167032ff4f279f1aa61254d1e595bf543614769c8"
+hash = "3db2bafb0b84a6abb3b0e56bcdbd772c0bfe9a171f2df8c6293236a6ddb2cbed"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "06e36faed348504854eab93e873b1232158fc9ff1e08aa8f3dd614b2c067f58b"
+hash = "bca498a73d554610d0429f255e8b02c661b8d46dacb956be3bc7cf849299b455"
 metafile = true
 
 [[files]]

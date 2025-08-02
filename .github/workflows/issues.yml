@@ -1,0 +1,35 @@
+name: Close Completed Issues
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'pack.toml'
+
+jobs:
+  close-completed-issues:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    
+    steps:
+    - name: Close completed issues
+      uses: actions/github-script@v6
+      with:
+        script: |
+          const issues = await github.rest.issues.listForRepo({
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            state: 'open',
+            labels: '已完成 completed'
+          });
+
+          for (const issue of issues.data) {
+            await github.rest.issues.update({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: issue.number,
+              state: 'closed'
+            });
+          }

@@ -10,6 +10,10 @@ permissions:
 
 jobs:
   check-version:
+    if: |
+      github.event_name == 'issues' && 
+      (github.event.action == 'opened' || 
+      (github.event.action == 'edited' && github.event.changes.body))
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
