@@ -238,8 +238,14 @@
 				"{gto.steam.quests.32A39A427D4A3AC2.description1}"
 			]
 			id: "32A39A427D4A3AC2"
+			rewards: [{
+				id: "48BB564E8232C86F"
+				item: "minecraft:coal_block"
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 2.0d
+			subtitle: "{gto.steam.quests.32A39A427D4A3AC2.subtitle}"
 			tasks: [
 				{
 					id: "106FC1C3BB945BA0"

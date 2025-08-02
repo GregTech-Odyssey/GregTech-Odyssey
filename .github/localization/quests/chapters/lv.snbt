@@ -41,31 +41,37 @@
 				{
 					id: "06C78C3B9BB52E36"
 					item: "gtceu:lv_steam_turbine"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "128FCC2E64E4A8CC"
 					item: "gtceu:lv_combustion"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "33E7946932FCDBFE"
 					item: "gtceu:lv_gas_turbine"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "6C5968CA995F5BE0"
 					item: "gtocore:lv_semi_fluid"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "2A6C8B1687AFDC10"
 					item: "gtocore:lv_thermal_generator"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "15E53A65CC553FCE"
 					item: "gtocore:lv_wind_mill_turbine"
+					optional_task: true
 					type: "item"
 				}
 			]
@@ -1678,12 +1684,19 @@
 			y: -8.5d
 		}
 		{
+			description: [
+				"{gto.lv.quests.7F65A1C533ED1C3B.description0}"
+				""
+				"{gto.lv.quests.7F65A1C533ED1C3B.description1}"
+			]
 			id: "7F65A1C533ED1C3B"
+			subtitle: "{gto.lv.quests.7F65A1C533ED1C3B.subtitle}"
 			tasks: [{
 				id: "53A559CA4372D14E"
 				item: "gtocore:lv_accelerate_hatch"
 				type: "item"
 			}]
+			title: "{gto.lv.quests.7F65A1C533ED1C3B.title}"
 			x: 7.0d
 			y: -1.0d
 		}
@@ -1691,6 +1704,7 @@
 			dependencies: ["6A9DFD965CA33D75"]
 			description: ["{gto.lv.quests.1FCF7BF494F483B4.description0}"]
 			id: "1FCF7BF494F483B4"
+			subtitle: "{gto.lv.quests.1FCF7BF494F483B4.subtitle}"
 			tasks: [{
 				id: "0258F66F419777E0"
 				item: "gtocore:lv_power_amplifiers"

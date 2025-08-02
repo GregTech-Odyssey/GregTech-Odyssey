@@ -1,0 +1,21 @@
+{
+	icon: "minecraft:furnace"
+	id: "5BD17FEBF957A121"
+	loot_size: 1
+	order_index: 9
+	rewards: [
+		{
+			count: 27
+			item: "minecraft:furnace"
+		}
+		{
+			count: 8
+			item: "jumbofurnace:jumbo_furnace"
+		}
+		{
+			count: 128
+			item: "minecraft:coal"
+		}
+	]
+	title: "{gto.5bd17febf957a121.title}"
+}

@@ -16,6 +16,10 @@
 			count: 64
 			item: "gtceu:tin_ore"
 		}
+		{
+			count: 64
+			item: "gtceu:coal_ore"
+		}
 	]
 	title: "{gto.ulv_3.title}"
 }

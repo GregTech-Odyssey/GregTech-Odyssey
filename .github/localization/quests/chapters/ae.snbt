@@ -32,11 +32,13 @@
 				{
 					id: "58F72893817AA19C"
 					item: "ae2:controller"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "6574ED322216F0C0"
 					item: "ae2:creative_energy_cell"
+					optional_task: true
 					type: "item"
 				}
 			]
@@ -431,6 +433,7 @@
 				{
 					id: "47FA7AF380A56CBB"
 					item: "ae2:flawless_budding_quartz"
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -894,8 +897,21 @@
 		}
 		{
 			dependencies: ["77D4250DECB277BD"]
-			description: ["{gto.ae.quests.430034AB98D8453B.description0}"]
+			description: [
+				"{gto.ae.quests.430034AB98D8453B.description0}"
+				""
+				"{gto.ae.quests.430034AB98D8453B.description1}"
+				"{gto.ae.quests.430034AB98D8453B.description2}"
+				""
+				"{gto.ae.quests.430034AB98D8453B.description3}"
+				""
+				"{gto.ae.quests.430034AB98D8453B.description4}"
+				"{gto.ae.quests.430034AB98D8453B.description5}"
+				""
+				"{gto.ae.quests.430034AB98D8453B.description6}"
+			]
 			id: "430034AB98D8453B"
+			subtitle: "{gto.ae.quests.430034AB98D8453B.subtitle}"
 			tasks: [
 				{
 					id: "116B0FBE8F914A59"
@@ -905,6 +921,11 @@
 				{
 					id: "1949328EC7B7239A"
 					item: "gtocore:me_storage_access_hatch"
+					type: "item"
+				}
+				{
+					id: "49EAFB7B2838999A"
+					item: "gtocore:me_storage_access_proxy"
 					type: "item"
 				}
 			]

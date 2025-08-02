@@ -38,8 +38,8 @@
 				type: "item"
 			}]
 			title: "{gto.shop.quests.52CBB90352DCD66C.title}"
-			x: -8.0d
-			y: -3.0d
+			x: -11.5d
+			y: 3.5d
 		}
 		{
 			icon: "functionalstorage:fluid_1"
@@ -56,8 +56,8 @@
 				type: "item"
 			}]
 			title: "{gto.shop.quests.3EA452F60E60C8F6.title}"
-			x: -6.0d
-			y: -3.0d
+			x: -9.5d
+			y: 3.5d
 		}
 		{
 			icon: {
@@ -89,8 +89,8 @@
 				type: "item"
 			}]
 			title: "{gto.shop.quests.37BDC691AE637B25.title}"
-			x: -4.0d
-			y: -3.0d
+			x: -7.5d
+			y: 3.5d
 		}
 		{
 			icon: "gtceu:lv_super_tank"
@@ -110,8 +110,8 @@
 				type: "item"
 			}]
 			title: "{gto.shop.quests.1582FEAB70E4AADD.title}"
-			x: 0.0d
-			y: -3.0d
+			x: -3.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["52CBB90352DCD66C"]
@@ -151,8 +151,8 @@
 				}
 			]
 			title: "{gto.shop.quests.2C7AD7D1D548EB0E.title}"
-			x: -8.0d
-			y: -4.5d
+			x: -11.5d
+			y: 2.0d
 		}
 		{
 			icon: "gtocore:gto_overseer_coke_ulv"
@@ -173,8 +173,8 @@
 				type: "item"
 			}]
 			title: "{gto.shop.quests.77D7AF6D8806AFBF.title}"
-			x: 2.0d
-			y: -3.0d
+			x: -1.5d
+			y: 3.5d
 		}
 		{
 			can_repeat: false
@@ -192,21 +192,29 @@
 					type: "item"
 				}
 				{
-					count: 16
+					count: 64
 					id: "071922CBF4DF5B00"
 					item: "gtocore:copper_coin"
 					type: "item"
+				}
+				{
+					auto: "invisible"
+					command: "/function firework:launch"
+					id: "6DC58298580CE0CC"
+					silent: true
+					type: "command"
 				}
 			]
 			size: 3.0d
 			subtitle: "{gto.shop.quests.1CF16D3C2338C2D2.subtitle}"
 			tasks: [{
 				id: "469EEABCFA185166"
+				title: "{gto.shop.quests.1CF16D3C2338C2D2.tasks.469EEABCFA185166.title}"
 				type: "checkmark"
 			}]
 			title: "{gto.shop.quests.1CF16D3C2338C2D2.title}"
-			x: -2.0d
-			y: -6.5d
+			x: -1.5d
+			y: 0.0d
 		}
 		{
 			icon: {
@@ -238,8 +246,8 @@
 				type: "item"
 			}]
 			title: "{gto.shop.quests.5348790CE93A1BD0.title}"
-			x: -2.0d
-			y: -3.0d
+			x: -5.5d
+			y: 3.5d
 		}
 		{
 			icon: "minecraft:ender_pearl"
@@ -259,8 +267,8 @@
 				type: "item"
 			}]
 			title: "{gto.shop.quests.3DCF45A0081D0CD6.title}"
-			x: 4.0d
-			y: -3.0d
+			x: 0.5d
+			y: 3.5d
 		}
 		{
 			icon: "botania:green_mystical_flower"
@@ -281,8 +289,8 @@
 				type: "item"
 			}]
 			title: "{gto.shop.quests.40C9BD72468AF243.title}"
-			x: 6.0d
-			y: -3.0d
+			x: 2.5d
+			y: 3.5d
 		}
 		{
 			id: "7245205D2C902DFC"
@@ -304,8 +312,8 @@
 				type: "item"
 			}]
 			title: "{gto.shop.quests.7245205D2C902DFC.title}"
-			x: -10.0d
-			y: -3.0d
+			x: -13.5d
+			y: 3.5d
 		}
 		{
 			icon: {
@@ -350,8 +358,8 @@
 				type: "item"
 			}]
 			title: "{gto.shop.quests.20AC600A32D51156.title}"
-			x: 8.0d
-			y: -3.0d
+			x: 10.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["20AC600A32D51156"]
@@ -376,8 +384,8 @@
 				type: "item"
 			}]
 			title: "{gto.shop.quests.49FE915485277EA3.title}"
-			x: 8.0d
-			y: -4.5d
+			x: 11.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["20AC600A32D51156"]
@@ -396,7 +404,7 @@
 			}]
 			title: "{gto.shop.quests.1EBE4BC172EFA13E.title}"
 			x: 9.5d
-			y: -4.5d
+			y: 2.0d
 		}
 		{
 			icon: "gtceu:bronze_block"
@@ -417,8 +425,8 @@
 				type: "item"
 			}]
 			title: "{gto.shop.quests.50259ED5714DCF72.title}"
-			x: -8.0d
-			y: -1.0d
+			x: -11.5d
+			y: 5.5d
 		}
 		{
 			icon: "gtocore:precision_steam_mechanism"
@@ -438,8 +446,8 @@
 				type: "item"
 			}]
 			title: "{gto.shop.quests.60F54941B9E0EF4F.title}"
-			x: -6.0d
-			y: -1.0d
+			x: -9.5d
+			y: 5.5d
 		}
 		{
 			icon: "gtceu:wrought_iron_ingot"
@@ -451,17 +459,183 @@
 				type: "choice"
 			}]
 			tasks: [{
-				count: 16L
+				count: 20L
 				id: "7E070BF50F5560C7"
+				item: "gtocore:copper_coin"
+				type: "item"
+			}]
+			title: "{gto.shop.quests.49EC161973D2DDF9.title}"
+			x: 8.5d
+			y: 3.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "minecraft:netherite_sword"
+				tag: {
+					Damage: 0
+					Enchantments: [
+						{
+							id: "minecraft:smite"
+							lvl: 7s
+						}
+						{
+							id: "minecraft:looting"
+							lvl: 3s
+						}
+						{
+							id: "minecraft:mending"
+							lvl: 1s
+						}
+						{
+							id: "minecraft:sharpness"
+							lvl: 7s
+						}
+					]
+					RepairCost: 31
+					display: {
+						Name: "{\"text\":\"勇气之剑\"}"
+					}
+				}
+			}
+			id: "24A1AC1F3A2BD4CB"
+			rewards: [{
+				exclude_from_claim_all: true
+				icon: {
+					Count: 1
+					id: "minecraft:netherite_sword"
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								id: "minecraft:smite"
+								lvl: 7s
+							}
+							{
+								id: "minecraft:looting"
+								lvl: 3s
+							}
+							{
+								id: "minecraft:mending"
+								lvl: 1s
+							}
+							{
+								id: "minecraft:sharpness"
+								lvl: 7s
+							}
+						]
+						RepairCost: 31
+						display: {
+							Name: "{\"text\":\"勇气之剑\"}"
+						}
+					}
+				}
+				id: "563031085CE11738"
+				table_id: 6074492011312888839L
+				title: "{gto.shop.quests.24A1AC1F3A2BD4CB.rewards.563031085CE11738.title}"
+				type: "all_table"
+			}]
+			tasks: [{
+				count: 64L
+				id: "0C47A05AA09E21A4"
+				item: {
+					Count: 64
+					id: "gtocore:copper_coin"
+				}
+				type: "item"
+			}]
+			title: "{gto.shop.quests.24A1AC1F3A2BD4CB.title}"
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			icon: "minecraft:furnace"
+			id: "0F8A3921C987D1F3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5159B7FEF4FDAA52"
+				table_id: 6616209979061281057L
+				title: "{gto.shop.quests.0F8A3921C987D1F3.rewards.5159B7FEF4FDAA52.title}"
+				type: "all_table"
+			}]
+			tasks: [{
+				count: 32L
+				id: "28970BA6DFC1B52F"
+				item: {
+					Count: 32
+					id: "gtocore:copper_coin"
+				}
+				type: "item"
+			}]
+			title: "{gto.shop.quests.0F8A3921C987D1F3.title}"
+			x: 6.5d
+			y: 3.5d
+		}
+		{
+			icon: "minecraft:clay"
+			id: "0C0A2C3CC7BE0749"
+			rewards: [{
+				count: 64
+				id: "2BD253DEF8597E72"
+				item: "minecraft:clay"
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "197C8DB4F6DCA346"
+				item: {
+					Count: 8
+					id: "gtocore:copper_coin"
+				}
+				type: "item"
+			}]
+			title: "{gto.shop.quests.0C0A2C3CC7BE0749.title}"
+			x: 12.5d
+			y: 3.5d
+		}
+		{
+			icon: "gtceu:sticky_resin"
+			id: "68F6E43F473E9C78"
+			rewards: [{
+				count: 16
+				id: "39A175E04345B495"
+				item: "gtceu:sticky_resin"
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "659B5A1993A48349"
+				item: {
+					Count: 4
+					id: "gtocore:copper_coin"
+				}
+				type: "item"
+			}]
+			title: "{gto.shop.quests.68F6E43F473E9C78.title}"
+			x: -7.5d
+			y: 5.5d
+		}
+		{
+			icon: "apotheosis:gem_dust"
+			id: "044EF1DC83BCCC63"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7E4D913CF7A0BE63"
+				table_id: 8591535891516071874L
+				type: "choice"
+			}]
+			tasks: [{
+				count: 48L
+				id: "2583E7DE25E4A111"
 				item: {
 					Count: 16
 					id: "gtocore:copper_coin"
 				}
 				type: "item"
 			}]
-			title: "{gto.shop.quests.49EC161973D2DDF9.title}"
-			x: 9.5d
-			y: -3.0d
+			title: "{gto.shop.quests.044EF1DC83BCCC63.title}"
+			x: 14.5d
+			y: 3.5d
 		}
 	]
 	title: "{gto.shop.title}"

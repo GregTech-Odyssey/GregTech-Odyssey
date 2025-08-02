@@ -527,7 +527,7 @@
 				""
 				"{gto.main-stoneage.quests.664BDC18052B54FC.description1}"
 				""
-				"{gto.main-stoneage.quests.664BDC18052B54FC.description2}"
+				"[ \"那么黏土去哪找呢？去河流边上，或者直接点，繁茂洞穴，或者再直接点，\", { \"text\": \"去买点\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0C0A2C3CC7BE0749\" } } ]"
 			]
 			hide_dependency_lines: true
 			icon: "minecraft:clay_ball"
@@ -1541,7 +1541,11 @@
 		}
 		{
 			dependencies: ["561D79DE960A034D"]
-			description: ["{gto.main-stoneage.quests.2E05753AF03C5608.description0}"]
+			description: [
+				"{gto.main-stoneage.quests.2E05753AF03C5608.description0}"
+				""
+				"{gto.main-stoneage.quests.2E05753AF03C5608.description1}"
+			]
 			hide_dependency_lines: false
 			id: "2E05753AF03C5608"
 			rewards: [{
