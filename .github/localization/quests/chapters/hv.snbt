@@ -391,6 +391,7 @@
 			id: "408CD587E28DFDCA"
 			shape: "gear"
 			size: 2.0d
+			subtitle: "{gto.hv.quests.408CD587E28DFDCA.subtitle}"
 			tasks: [{
 				id: "51B82E4D5DC97658"
 				item: {
@@ -475,6 +476,7 @@
 			]
 			shape: "gear"
 			size: 2.0d
+			subtitle: "{gto.hv.quests.7A7DC6205DED9BF3.subtitle}"
 			tasks: [{
 				id: "58E5AD0766D349F7"
 				type: "checkmark"
@@ -488,6 +490,7 @@
 				"7A7DC6205DED9BF3"
 				"4AED8DE6D6175D97"
 				"4331EEF3BA9799FD"
+				"06E8CF5F701850A1"
 			]
 			description: [
 				"{gto.hv.quests.310210D2AD9515E3.description0}"
@@ -495,20 +498,40 @@
 				"{gto.hv.quests.310210D2AD9515E3.description1}"
 				""
 				"{gto.hv.quests.310210D2AD9515E3.description2}"
+				""
+				"{gto.hv.quests.310210D2AD9515E3.description3}"
 			]
 			id: "310210D2AD9515E3"
-			rewards: [{
-				id: "606F980D21B6DDAE"
-				item: {
-					Count: 1
-					id: "gtceu:prospector.hv"
-					tag: {
-						Charge: 1600000L
+			rewards: [
+				{
+					id: "606F980D21B6DDAE"
+					item: {
+						Count: 1
+						id: "gtceu:prospector.hv"
+						tag: {
+							Charge: 1600000L
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "679F3B93D7B00914"
+					item: {
+						Count: 1
+						id: "avaritia:infinity_totem"
+						tag: {
+							Damage: 98
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"员工生活质量保障证(一次性)\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "hexagon"
+			subtitle: "{gto.hv.quests.310210D2AD9515E3.subtitle}"
 			tasks: [{
 				dimension: "ad_astra:moon"
 				id: "6A35D51A8BE1AB7D"
@@ -516,7 +539,7 @@
 				type: "dimension"
 			}]
 			title: "{gto.hv.quests.310210D2AD9515E3.title}"
-			x: 11.0d
+			x: 11.5d
 			y: 1.0d
 		}
 		{
@@ -532,11 +555,14 @@
 				item: "gtceu:raw_bauxite"
 				type: "item"
 			}]
-			x: 13.0d
-			y: 1.0d
+			x: 13.5d
+			y: 0.0d
 		}
 		{
-			dependencies: ["74349E8491A86E55"]
+			dependencies: [
+				"74349E8491A86E55"
+				"2047831C46210E9C"
+			]
 			id: "6FC9EDD193E0BCE7"
 			tasks: [{
 				id: "4FED5CCF723D7B2B"
@@ -882,6 +908,7 @@
 			hide_dependency_lines: true
 			id: "4AED8DE6D6175D97"
 			min_required_dependencies: 1
+			subtitle: "{gto.hv.quests.4AED8DE6D6175D97.subtitle}"
 			tasks: [{
 				id: "0DC3A2EE264A753C"
 				item: "enderio:rocket_fuel_bucket"
@@ -949,6 +976,8 @@
 				"{gto.hv.quests.4331EEF3BA9799FD.description1}"
 				""
 				"{gto.hv.quests.4331EEF3BA9799FD.description2}"
+				""
+				"{gto.hv.quests.4331EEF3BA9799FD.description3}"
 			]
 			hide_dependency_lines: true
 			id: "4331EEF3BA9799FD"
@@ -1001,7 +1030,7 @@
 				}
 			]
 			title: "{gto.hv.quests.4331EEF3BA9799FD.title}"
-			x: 11.0d
+			x: 11.5d
 			y: -1.0d
 		}
 		{
@@ -1259,16 +1288,27 @@
 				"{gto.hv.quests.21624A4965D8D2D7.description0}"
 				""
 				"{gto.hv.quests.21624A4965D8D2D7.description1}"
+				""
+				"{gto.hv.quests.21624A4965D8D2D7.description2}"
+				""
+				"{gto.hv.quests.21624A4965D8D2D7.description3}"
+				"{@pagebreak}"
+				"{gto.hv.quests.21624A4965D8D2D7.description4}"
+				""
+				"{gto.hv.quests.21624A4965D8D2D7.description5}"
+				"{gto.hv.quests.21624A4965D8D2D7.description6}"
+				"{gto.hv.quests.21624A4965D8D2D7.description7}"
+				"{gto.hv.quests.21624A4965D8D2D7.description8}"
 			]
 			icon: "gtocore:space_probe_mk1"
 			id: "21624A4965D8D2D7"
 			shape: "hexagon"
+			subtitle: "{gto.hv.quests.21624A4965D8D2D7.subtitle}"
 			tasks: [
 				{
 					dimension: "ad_astra:earth_orbit"
 					icon: "gtocore:space_probe_mk1"
 					id: "3DD2A9B564DE322C"
-					optional_task: true
 					title: "{gto.hv.quests.21624A4965D8D2D7.tasks.3DD2A9B564DE322C.title}"
 					type: "dimension"
 				}
@@ -1277,7 +1317,8 @@
 					type: "checkmark"
 				}
 			]
-			x: 11.0d
+			title: "{gto.hv.quests.21624A4965D8D2D7.title}"
+			x: 11.5d
 			y: 3.5d
 		}
 		{
@@ -1421,6 +1462,91 @@
 			}]
 			x: 2.5d
 			y: -1.0d
+		}
+		{
+			dependencies: ["7A7DC6205DED9BF3"]
+			description: [
+				"{gto.hv.quests.06E8CF5F701850A1.description0}"
+				""
+				"{gto.hv.quests.06E8CF5F701850A1.description1}"
+				""
+				"{gto.hv.quests.06E8CF5F701850A1.description2}"
+				""
+				"{gto.hv.quests.06E8CF5F701850A1.description3}"
+			]
+			id: "06E8CF5F701850A1"
+			rewards: [{
+				id: "0B901E3B9C37558A"
+				item: "gtocore:organ_modifier"
+				type: "item"
+			}]
+			subtitle: "{gto.hv.quests.06E8CF5F701850A1.subtitle}"
+			tasks: [
+				{
+					id: "1527CD1ED0E171F7"
+					item: "gtocore:tier_1_eye"
+					type: "item"
+				}
+				{
+					id: "02DACE16540F3950"
+					item: "gtocore:tier_1_spine"
+					type: "item"
+				}
+				{
+					id: "4D0B02A57E230452"
+					item: "gtocore:tier_1_lung"
+					type: "item"
+				}
+				{
+					id: "300387F47666DD1B"
+					item: "gtocore:tier_1_liver"
+					type: "item"
+				}
+				{
+					id: "4C7C34B4D8A9810C"
+					item: "gtocore:tier_1_heart"
+					type: "item"
+				}
+				{
+					id: "0C3B32392E9028AE"
+					item: "gtocore:tier_1_left_arm"
+					type: "item"
+				}
+				{
+					id: "0C59D037800BD887"
+					item: "gtocore:tier_1_right_arm"
+					type: "item"
+				}
+				{
+					id: "41F1043CBE279630"
+					item: "gtocore:tier_1_left_leg"
+					type: "item"
+				}
+				{
+					id: "26211367AB393E8D"
+					item: "gtocore:tier_1_right_leg"
+					type: "item"
+				}
+			]
+			title: "{gto.hv.quests.06E8CF5F701850A1.title}"
+			x: 10.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["310210D2AD9515E3"]
+			description: [
+				"{gto.hv.quests.2047831C46210E9C.description0}"
+				""
+				"{gto.hv.quests.2047831C46210E9C.description1}"
+			]
+			id: "2047831C46210E9C"
+			tasks: [{
+				id: "4770D7BDF837DDDA"
+				item: "gtceu:raw_ilmenite"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 2.0d
 		}
 	]
 	subtitle: ["{gto.hv.subtitle0}"]

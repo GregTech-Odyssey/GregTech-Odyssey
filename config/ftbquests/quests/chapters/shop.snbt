@@ -1,0 +1,602 @@
+{
+	consume_items: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	default_repeatable_quest: true
+	filename: "shop"
+	group: ""
+	icon: "gtocore:infinity_coin"
+	id: "39E07AEC9BF826C0"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "gtocore:prospector.mana_ulv"
+				tag: {
+					mana: 500000
+				}
+			}
+			id: "52CBB90352DCD66C"
+			rewards: [{
+				id: "576EEB61257B8344"
+				item: {
+					Count: 1
+					id: "gtocore:prospector.mana_ulv"
+					tag: {
+						mana: 500000
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				id: "5FB8DC87DB7E931D"
+				item: "gtocore:copper_coin"
+				type: "item"
+			}]
+			title: "魔力钢探矿仪"
+			x: -11.5d
+			y: 3.5d
+		}
+		{
+			icon: "functionalstorage:fluid_1"
+			id: "3EA452F60E60C8F6"
+			rewards: [{
+				id: "5715A73ACD094B0B"
+				item: "functionalstorage:fluid_1"
+				type: "item"
+			}]
+			tasks: [{
+				count: 32L
+				id: "7A4575C33160DD34"
+				item: "gtocore:copper_coin"
+				type: "item"
+			}]
+			title: "流体抽屉(1x1)"
+			x: -9.5d
+			y: 3.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ae2:portable_item_cell_16k"
+				tag: {
+					internalCurrentPower: 20000.0d
+				}
+			}
+			id: "37BDC691AE637B25"
+			rewards: [{
+				id: "1D264C36F5F5D424"
+				item: {
+					Count: 1
+					id: "ae2:portable_item_cell_16k"
+					tag: {
+						internalCurrentPower: 20000.0d
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 128L
+				id: "0BE945924290A44B"
+				item: { Count: 128, id: "gtocore:copper_coin" }
+				type: "item"
+			}]
+			title: "16k便携物品原件"
+			x: -7.5d
+			y: 3.5d
+		}
+		{
+			icon: "gtceu:lv_super_tank"
+			id: "1582FEAB70E4AADD"
+			rewards: [{
+				id: "527F80A614ACFDA3"
+				item: "gtceu:lv_super_tank"
+				type: "item"
+			}]
+			tasks: [{
+				count: 32L
+				id: "1FF0E92D02D011BD"
+				item: { Count: 32, id: "gtocore:copper_coin" }
+				type: "item"
+			}]
+			title: "超级缸 I"
+			x: -3.5d
+			y: 3.5d
+		}
+		{
+			description: ["建议完全用完了魔力再来这里兑换，当然如果你有自己的植物魔法产线就最好了"]
+			icon: "ad_astra:etrium_nugget"
+			id: "2C7AD7D1D548EB0E"
+			rewards: [{
+				id: "2A06060775769B68"
+				item: {
+					Count: 1
+					id: "gtocore:prospector.mana_ulv"
+					tag: {
+						mana: 500000
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "概不退换"
+			tasks: [
+				{
+					id: "6A4F950106092AE5"
+					item: {
+						Count: 1
+						id: "gtocore:prospector.mana_ulv"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "5064EFB566424A32"
+					item: { Count: 64, id: "gtceu:bronze_ingot" }
+					type: "item"
+				}
+			]
+			title: "充电-魔力钢探矿仪"
+			x: -11.5d
+			y: 2.0d
+		}
+		{
+			icon: "gtocore:gto_overseer_coke_ulv"
+			id: "77D7AF6D8806AFBF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "014D1E6ADF956BA6"
+				table_id: 78280643691329842L
+				type: "random"
+			}]
+			tasks: [{
+				count: 16L
+				id: "662FE8DFA0279A77"
+				item: { Count: 16, id: "gtocore:copper_coin" }
+				type: "item"
+			}]
+			title: "可乐箱 I"
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			can_repeat: false
+			description: [
+				"以后会添加更多购买项以及钱币获取途径"
+				""
+				"&o&7这个饼（我画的）就送给你啦&r&r"
+			]
+			icon: "botania:mana_cookie"
+			id: "1CF16D3C2338C2D2"
+			rewards: [
+				{
+					id: "1663DF63C03A11C4"
+					item: "botania:mana_cookie"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "071922CBF4DF5B00"
+					item: "gtocore:copper_coin"
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					command: "/function firework:launch"
+					id: "6DC58298580CE0CC"
+					silent: true
+					type: "command"
+				}
+			]
+			size: 3.0d
+			subtitle: "希望你喜欢"
+			tasks: [{
+				id: "469EEABCFA185166"
+				title: "欢迎光临！"
+				type: "checkmark"
+			}]
+			title: "欢迎来到格雷科技™会员专卖店"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ae2:portable_fluid_cell_16k"
+				tag: {
+					internalCurrentPower: 20000.0d
+				}
+			}
+			id: "5348790CE93A1BD0"
+			rewards: [{
+				id: "6C572AE0EE835BFD"
+				item: {
+					Count: 1
+					id: "ae2:portable_fluid_cell_16k"
+					tag: {
+						internalCurrentPower: 20000.0d
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				id: "2C24F64DE66519FA"
+				item: { Count: 16, id: "gtocore:copper_coin" }
+				type: "item"
+			}]
+			title: "16k便携流体原件"
+			x: -5.5d
+			y: 3.5d
+		}
+		{
+			icon: "minecraft:ender_pearl"
+			id: "3DCF45A0081D0CD6"
+			rewards: [{
+				id: "2286B3030D852516"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "1C433FCC7391C03E"
+				item: { Count: 32, id: "gtocore:copper_coin" }
+				type: "item"
+			}]
+			title: "末影珍珠"
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			icon: "botania:green_mystical_flower"
+			id: "40C9BD72468AF243"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0415CDD5B4EF4496"
+				table_id: 8093198991011892943L
+				type: "choice"
+			}]
+			tasks: [{
+				count: 32L
+				id: "24CB932A768F839C"
+				item: { Count: 32, id: "gtocore:copper_coin" }
+				type: "item"
+			}]
+			title: "花朵组合包"
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			id: "7245205D2C902DFC"
+			rewards: [{
+				icon: "botania:dice"
+				id: "6B46A796E0A7CD1C"
+				table_id: 1748896780408879257L
+				title: "一念之间"
+				type: "random"
+			}]
+			subtitle: "切勿沉迷"
+			tasks: [{
+				count: 32L
+				id: "465B412E0E9BDA8B"
+				item: { Count: 32, id: "gtocore:copper_coin" }
+				type: "item"
+			}]
+			title: "今日手气如何？"
+			x: -13.5d
+			y: 3.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "constructionwand:infinity_wand"
+				tag: {
+					wand_options: { }
+				}
+			}
+			id: "20AC600A32D51156"
+			rewards: [
+				{
+					id: "4236B916DEDA9010"
+					item: {
+						Count: 1
+						id: "constructionwand:infinity_wand"
+						tag: {
+							wand_options: { }
+						}
+					}
+					only_one: true
+					type: "item"
+				}
+				{
+					id: "3C0FBB91ECFD6303"
+					item: "constructionwand:core_angel"
+					type: "item"
+				}
+				{
+					id: "32ADC526F29FBF3E"
+					item: "constructionwand:core_destruction"
+					type: "item"
+				}
+			]
+			subtitle: "成为建筑大师的必经之路"
+			tasks: [{
+				count: 128L
+				id: "2E4C1E9292645A55"
+				item: { Count: 128, id: "gtocore:copper_coin" }
+				type: "item"
+			}]
+			title: "建筑大师套装"
+			x: 10.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"20AC600A32D51156"
+				"619EE8C56F705241"
+			]
+			dependency_requirement: "one_completed"
+			id: "49FE915485277EA3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "450362F38985C084"
+				table_id: 9058340522588536399L
+				type: "choice"
+			}]
+			subtitle: "免费续杯"
+			tasks: [{
+				id: "348A8326B667407D"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "c:shulker_boxes"
+					}
+				}
+				title: "任意潜影盒"
+				type: "item"
+			}]
+			title: "建筑材料"
+			x: 11.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"20AC600A32D51156"
+				"619EE8C56F705241"
+			]
+			dependency_requirement: "one_completed"
+			icon: "factory_blocks:factory"
+			id: "1EBE4BC172EFA13E"
+			rewards: [{
+				count: 64
+				id: "487F0AD52849AEA5"
+				item: "factory_blocks:factory"
+				type: "item"
+			}]
+			tasks: [{
+				id: "61F66675B80327AD"
+				title: "再来一组"
+				type: "checkmark"
+			}]
+			title: "工厂方块"
+			x: 9.5d
+			y: 2.0d
+		}
+		{
+			icon: "gtceu:bronze_block"
+			id: "50259ED5714DCF72"
+			rewards: [{
+				count: 8
+				id: "6C5AEB8FAD01D400"
+				item: "gtceu:bronze_block"
+				type: "item"
+			}]
+			tasks: [{
+				count: 64L
+				id: "40BD3FFB46185729"
+				item: { Count: 64, id: "gtocore:copper_coin" }
+				type: "item"
+			}]
+			title: "青铜块"
+			x: -11.5d
+			y: 5.5d
+		}
+		{
+			icon: "gtocore:precision_steam_mechanism"
+			id: "60F54941B9E0EF4F"
+			rewards: [{
+				id: "2783A08DB3270653"
+				item: "gtocore:precision_steam_mechanism"
+				type: "item"
+			}]
+			tasks: [{
+				count: 128L
+				id: "7DD0D3B7A7B80734"
+				item: { Count: 128, id: "gtocore:copper_coin" }
+				type: "item"
+			}]
+			title: "精密蒸汽构件"
+			x: -9.5d
+			y: 5.5d
+		}
+		{
+			icon: "gtceu:wrought_iron_ingot"
+			id: "49EC161973D2DDF9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2D38DCF94737CA21"
+				table_id: 9145890164438890432L
+				type: "choice"
+			}]
+			tasks: [{
+				count: 20L
+				id: "7E070BF50F5560C7"
+				item: "gtocore:copper_coin"
+				type: "item"
+			}]
+			title: "ULV矿石补给包"
+			x: 8.5d
+			y: 3.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "minecraft:netherite_sword"
+				tag: {
+					Damage: 0
+					Enchantments: [
+						{
+							id: "minecraft:smite"
+							lvl: 7s
+						}
+						{
+							id: "minecraft:looting"
+							lvl: 3s
+						}
+						{
+							id: "minecraft:mending"
+							lvl: 1s
+						}
+						{
+							id: "minecraft:sharpness"
+							lvl: 7s
+						}
+					]
+					RepairCost: 31
+					display: {
+						Name: "{\"text\":\"勇气之剑\"}"
+					}
+				}
+			}
+			id: "24A1AC1F3A2BD4CB"
+			rewards: [{
+				exclude_from_claim_all: true
+				icon: {
+					Count: 1
+					id: "minecraft:netherite_sword"
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								id: "minecraft:smite"
+								lvl: 7s
+							}
+							{
+								id: "minecraft:looting"
+								lvl: 3s
+							}
+							{
+								id: "minecraft:mending"
+								lvl: 1s
+							}
+							{
+								id: "minecraft:sharpness"
+								lvl: 7s
+							}
+						]
+						RepairCost: 31
+						display: {
+							Name: "{\"text\":\"勇气之剑\"}"
+						}
+					}
+				}
+				id: "563031085CE11738"
+				table_id: 6074492011312888839L
+				title: "地牢猎手套装"
+				type: "all_table"
+			}]
+			tasks: [{
+				count: 64L
+				id: "0C47A05AA09E21A4"
+				item: { Count: 64, id: "gtocore:copper_coin" }
+				type: "item"
+			}]
+			title: "地牢猎手套装"
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			icon: "minecraft:furnace"
+			id: "0F8A3921C987D1F3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5159B7FEF4FDAA52"
+				table_id: 6616209979061281057L
+				title: "炼金大师套装"
+				type: "all_table"
+			}]
+			tasks: [{
+				count: 32L
+				id: "28970BA6DFC1B52F"
+				item: { Count: 32, id: "gtocore:copper_coin" }
+				type: "item"
+			}]
+			title: "炼金大师套装"
+			x: 6.5d
+			y: 3.5d
+		}
+		{
+			icon: "minecraft:clay"
+			id: "0C0A2C3CC7BE0749"
+			rewards: [{
+				count: 64
+				id: "2BD253DEF8597E72"
+				item: "minecraft:clay"
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "197C8DB4F6DCA346"
+				item: { Count: 8, id: "gtocore:copper_coin" }
+				type: "item"
+			}]
+			title: "黏土一组"
+			x: 12.5d
+			y: 3.5d
+		}
+		{
+			icon: "gtceu:sticky_resin"
+			id: "68F6E43F473E9C78"
+			rewards: [{
+				count: 16
+				id: "39A175E04345B495"
+				item: "gtceu:sticky_resin"
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "659B5A1993A48349"
+				item: { Count: 4, id: "gtocore:copper_coin" }
+				type: "item"
+			}]
+			title: "黏性树脂"
+			x: -7.5d
+			y: 5.5d
+		}
+		{
+			icon: "apotheosis:gem_dust"
+			id: "044EF1DC83BCCC63"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7E4D913CF7A0BE63"
+				table_id: 8591535891516071874L
+				type: "choice"
+			}]
+			tasks: [{
+				count: 48L
+				id: "2583E7DE25E4A111"
+				item: { Count: 16, id: "gtocore:copper_coin" }
+				type: "item"
+			}]
+			title: "神化组合包"
+			x: 14.5d
+			y: 3.5d
+		}
+	]
+	title: "格雷科技™员工会员店"
+}

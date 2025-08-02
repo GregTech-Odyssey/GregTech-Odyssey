@@ -49,6 +49,12 @@
 			description: [""]
 			icon: "minecraft:writable_book"
 			id: "79646E8E449D8A1A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0C36971E7B58EC83"
+				table_id: 78280643691329842L
+				type: "random"
+			}]
 			shape: "pentagon"
 			size: 2.0d
 			subtitle: "我还以为你从来都不会选我呢"
@@ -263,8 +269,8 @@
 				type: "checkmark"
 			}]
 			title: "自我约束模式"
-			x: 1.0d
-			y: 2.5d
+			x: 2.25d
+			y: 2.25d
 		}
 		{
 			dependencies: [
@@ -280,10 +286,17 @@
 			]
 			icon: "gtceu:gold_indicator"
 			id: "20BC48DF78F11B24"
+			rewards: [{
+				id: "6CA75B35251901DF"
+				item: "gtocore:copper_coin"
+				type: "item"
+			}]
 			shape: "pentagon"
 			size: 1.5d
+			subtitle: "告诉我他们在哪？"
 			tasks: [{
 				id: "20E2BED5FB9E1A0B"
+				title: "我爱挖矿！"
 				type: "checkmark"
 			}]
 			title: "矿石与矿脉"
@@ -350,8 +363,8 @@
 				}
 			]
 			title: "建造提示"
-			x: -1.0d
-			y: 2.5d
+			x: -2.25d
+			y: 2.25d
 		}
 		{
 			dependencies: ["79646E8E449D8A1A"]
@@ -373,6 +386,349 @@
 			}]
 			x: 1.5d
 			y: -4.5d
+		}
+		{
+			dependencies: ["79646E8E449D8A1A"]
+			description: [
+				"欢迎加入GTO寰宇重工集团·Alpha部门：927923997"
+				""
+			]
+			icon: "avaritia:enhancement_core"
+			id: "14BCF41FB8DAD531"
+			rewards: [{
+				id: "70C98E9EFF9C11F9"
+				item: "gtocore:gto_overseer_coke_ulv"
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "群U永远是你最坚实的后盾"
+			tasks: [{
+				id: "67EAF46F204E995C"
+				title: "这当然是官方群"
+				type: "checkmark"
+			}]
+			title: "我们需要交流！"
+			x: 0.0d
+			y: -5.25d
+		}
+		{
+			dependencies: ["79646E8E449D8A1A"]
+			description: [
+				"有几种覆盖板是GTO新增加的，在这里一一介绍一下："
+				""
+				""
+				" &b       无线传输覆盖板&r：分为&4无线物品传输覆盖板&r和&4无线流体覆盖板&r及其&d进阶版&r；"
+				"         用法：主手拿着覆盖板对任一容器如超级箱，超级缸，ME接口等，蹲下右键绑定，随后将覆盖板贴到小机器输出口或大机器输出舱室，即可无线传输物品/流体；"
+				"        特点：可进行跨维度传输；进阶版可以安装&e过滤卡&r;"
+				"{@pagebreak}"
+				" &b       无线充能覆盖板："
+				"&r        用法：在搭建无线充能器结构后，给其供电，在主机中放置&4HV及以上等级的力场发生器&r后，可以给无线充能覆盖板所贴方块内的物品充电；如给原木拟生场中的链锯充电；"
+				"        特点：可以安装在板条箱和&e部分&r机器主机上；"
+				"{@pagebreak}"
+				" &b       可编程覆盖板："
+				"&r        用法：在&d小机器&r上安装可编程覆盖板，就可在写样板时，加入虚拟物品;"
+				"        特点：&c单台&r小机器即可运行不同电路或者模具的配方;"
+				"{@pagebreak}"
+				" &b       存储覆盖板：&r"
+				"        用法：在&4小机器&r上安装即可；"
+				"        特点：为单台小机器额外提供在gui内可以打开的18格存储空间，物品&4不可堆叠&r；"
+				"{@pagebreak}"
+				" &b       机器控制覆盖板：&r"
+				"        用法：在小机器，机器主机或输入舱室任意一面安装即可；通过设置&4红石信号&r和普通/反相模式控制机器开关；"
+				"        特点：若安装的方块上还有电动泵，传送带等物流覆盖板，则机器控制覆盖板可以设置为对物流覆盖板进行控制；机器控制覆盖板可被强/弱充能方块激活；"
+			]
+			icon: "gtocore:wireless_charger_cover"
+			id: "5C62ECF9AC84E023"
+			rewards: [{
+				count: 64
+				id: "09063634654E3057"
+				item: "gtocore:copper_coin"
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "新鲜事简单报"
+			tasks: [{
+				id: "6F25CA3019D8D976"
+				type: "checkmark"
+			}]
+			title: "有形的小板"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "gtceu:nanomuscle_helmet"
+				tag: { }
+			}
+			id: "226B4BF9F95A3C30"
+			invisible: true
+			rewards: [
+				{
+					auto: "enabled"
+					id: "6A3FC73ED9CF201B"
+					item: {
+						Count: 1
+						id: "minecraft:golden_helmet"
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									id: "minecraft:protection"
+									lvl: 3s
+								}
+								{
+									id: "minecraft:projectile_protection"
+									lvl: 5s
+								}
+							]
+							RepairCost: 7
+							Trim: {
+								material: "minecraft:redstone"
+								pattern: "minecraft:host"
+							}
+							display: {
+								Name: "{\"text\":\"员工头盔\"}"
+							}
+						}
+					}
+					team_reward: false
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					id: "66C9DFA30CE07AE1"
+					item: {
+						Count: 1
+						id: "minecraft:leather_chestplate"
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									id: "minecraft:thorns"
+									lvl: 3s
+								}
+								{
+									id: "minecraft:blast_protection"
+									lvl: 2s
+								}
+							]
+							RepairCost: 3
+							Trim: {
+								material: "minecraft:redstone"
+								pattern: "minecraft:host"
+							}
+							display: {
+								Name: "{\"text\":\"员工劳保服\"}"
+							}
+						}
+					}
+					team_reward: false
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					id: "15474BB65597BDB4"
+					item: {
+						Count: 1
+						id: "minecraft:chainmail_leggings"
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									id: "apotheosis:rebounding"
+									lvl: 1s
+								}
+								{
+									id: "minecraft:unbreaking"
+									lvl: 2s
+								}
+							]
+							RepairCost: 7
+							Trim: {
+								material: "minecraft:redstone"
+								pattern: "minecraft:host"
+							}
+							display: {
+								Name: "{\"text\":\"员工劳动裤\"}"
+							}
+						}
+					}
+					team_reward: false
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					id: "68F87F686933EB25"
+					item: {
+						Count: 1
+						id: "minecraft:iron_boots"
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									id: "minecraft:fire_protection"
+									lvl: 5s
+								}
+								{
+									id: "minecraft:feather_falling"
+									lvl: 1s
+								}
+							]
+							RepairCost: 3
+							Trim: {
+								material: "minecraft:redstone"
+								pattern: "minecraft:host"
+							}
+							display: {
+								Name: "{\"text\":\"员工劳保靴\"}"
+							}
+						}
+					}
+					team_reward: false
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "29034BFBCFA2BA4C"
+				stat: "minecraft:deaths"
+				type: "stat"
+				value: 1
+			}]
+			title: "劳保服套装"
+			x: -4.0d
+			y: 4.5d
+		}
+		{
+			icon: "ars_nouveau:blank_parchment"
+			id: "2ABDF1C7B4E1B44A"
+			invisible: true
+			rewards: [{
+				auto: "enabled"
+				id: "0B71079726A3B338"
+				item: {
+					Count: 1
+					id: "avaritia:infinity_totem"
+					tag: {
+						Damage: 98
+						RepairCost: 0
+						display: {
+							Name: "{\"text\":\"员工生活质量保障证(一次性)\"}"
+						}
+					}
+				}
+				team_reward: false
+				type: "item"
+			}]
+			tasks: [{
+				id: "2C57CE49C88CC412"
+				stat: "minecraft:deaths"
+				type: "stat"
+				value: 5
+			}]
+			title: "开路护符"
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			id: "3C10974F3E128ECA"
+			invisible: true
+			rewards: [{
+				auto: "enabled"
+				id: "698673E0044DB840"
+				item: {
+					Count: 1
+					id: "minecraft:netherite_sword"
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								id: "minecraft:sharpness"
+								lvl: 5s
+							}
+							{
+								id: "minecraft:smite"
+								lvl: 6s
+							}
+						]
+						RepairCost: 3
+						display: {
+							Name: "{\"text\":\"员工基础生活保障剑\"}"
+						}
+					}
+				}
+				team_reward: false
+				type: "item"
+			}]
+			tasks: [{
+				id: "14F7B7C471B635D0"
+				stat: "minecraft:deaths"
+				type: "stat"
+				value: 10
+			}]
+			title: "冲锋之剑"
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			icon: "avaritia:infinity_bow"
+			id: "71F8C203B6B0257D"
+			invisible: true
+			rewards: [
+				{
+					auto: "enabled"
+					id: "25972D9AB4F7C50A"
+					item: {
+						Count: 1
+						id: "minecraft:bow"
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									id: "minecraft:infinity"
+									lvl: 1s
+								}
+								{
+									id: "minecraft:flame"
+									lvl: 1s
+								}
+								{
+									id: "minecraft:punch"
+									lvl: 3s
+								}
+								{
+									id: "minecraft:power"
+									lvl: 2s
+								}
+							]
+							RepairCost: 31
+							display: {
+								Name: "{\"text\":\"员工清扫弓\"}"
+							}
+						}
+					}
+					team_reward: false
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					id: "54421F296F91773F"
+					item: "minecraft:arrow"
+					team_reward: false
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2A22E196E25424F7"
+				stat: "minecraft:deaths"
+				type: "stat"
+				value: 15
+			}]
+			title: "秩序之弓"
+			x: 4.0d
+			y: 4.5d
 		}
 	]
 	subtitle: ["Tips and Tricks"]

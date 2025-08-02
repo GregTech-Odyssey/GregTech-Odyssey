@@ -285,7 +285,6 @@
 				{
 					id: "026E9C5051920DB6"
 					item: "gtceu:epoxy_bucket"
-					optional_task: true
 					type: "item"
 				}
 				{
@@ -517,7 +516,6 @@
 				{
 					id: "1B47D28C38356572"
 					item: "gtocore:filtered_water_bucket"
-					optional_task: true
 					type: "item"
 				}
 				{
@@ -653,7 +651,6 @@
 				{
 					id: "55E9D5CC32E222D4"
 					item: "gtceu:radon_bucket"
-					optional_task: true
 					type: "item"
 				}
 				{
@@ -789,7 +786,6 @@
 				{
 					id: "048B2C25DB06308B"
 					item: "gtocore:dense_hydrazine_fuel_mixture_bucket"
-					optional_task: true
 					type: "item"
 				}
 				{
@@ -809,7 +805,6 @@
 				{
 					id: "48161A1D2AE0A2DF"
 					item: "gtocore:rocket_fuel_cn3h7o3_bucket"
-					optional_task: true
 					type: "item"
 				}
 				{
@@ -829,7 +824,6 @@
 				{
 					id: "7FDB4FE75E8EA037"
 					item: "gtocore:rocket_fuel_rp_1_bucket"
-					optional_task: true
 					type: "item"
 				}
 				{
@@ -980,7 +974,6 @@
 				{
 					id: "79F12733032D85F4"
 					item: "gtceu:enriched_uranium_hexafluoride_bucket"
-					optional_task: true
 					type: "item"
 				}
 				{
@@ -1000,7 +993,6 @@
 				{
 					id: "20E6582B7DFB9FF7"
 					item: "gtceu:depleted_uranium_hexafluoride_bucket"
-					optional_task: true
 					type: "item"
 				}
 				{

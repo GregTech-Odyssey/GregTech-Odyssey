@@ -71,6 +71,7 @@
 				{
 					id: "15E53A65CC553FCE"
 					item: "gtocore:lv_wind_mill_turbine"
+					optional_task: true
 					type: "item"
 				}
 			]
@@ -1683,19 +1684,27 @@
 			y: -8.5d
 		}
 		{
+			description: [
+				"{gto.lv.quests.7F65A1C533ED1C3B.description0}"
+				""
+				"{gto.lv.quests.7F65A1C533ED1C3B.description1}"
+			]
 			id: "7F65A1C533ED1C3B"
+			subtitle: "{gto.lv.quests.7F65A1C533ED1C3B.subtitle}"
 			tasks: [{
 				id: "53A559CA4372D14E"
 				item: "gtocore:lv_accelerate_hatch"
 				type: "item"
 			}]
-			x: 6.5d
-			y: -1.5d
+			title: "{gto.lv.quests.7F65A1C533ED1C3B.title}"
+			x: 7.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["6A9DFD965CA33D75"]
 			description: ["{gto.lv.quests.1FCF7BF494F483B4.description0}"]
 			id: "1FCF7BF494F483B4"
+			subtitle: "{gto.lv.quests.1FCF7BF494F483B4.subtitle}"
 			tasks: [{
 				id: "0258F66F419777E0"
 				item: "gtocore:lv_power_amplifiers"

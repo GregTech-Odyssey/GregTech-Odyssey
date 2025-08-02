@@ -198,7 +198,6 @@
 				{
 					id: "0FBD21C1E0F2FE40"
 					item: "gtocore:heat_sensor"
-					optional_task: true
 					type: "item"
 				}
 			]
@@ -483,7 +482,6 @@
 				{
 					id: "14ED6E3DF5DCC073"
 					item: "gtocore:coal_slurry_bucket"
-					optional_task: true
 					type: "item"
 				}
 				{
@@ -511,7 +509,6 @@
 				{
 					id: "10A943C41F1E6D06"
 					item: "gtocore:water_gas_bucket"
-					optional_task: true
 					type: "item"
 				}
 				{
@@ -535,7 +532,6 @@
 				{
 					id: "3474A540300FD5B9"
 					item: "ad_astra:hydrogen_bucket"
-					optional_task: true
 					type: "item"
 				}
 				{
@@ -562,7 +558,6 @@
 				{
 					id: "29C4756721A734ED"
 					item: "gtceu:polyethylene_bucket"
-					optional_task: true
 					type: "item"
 				}
 				{
@@ -640,14 +635,21 @@
 		}
 		{
 			dependencies: ["27F4D9739FE33A02"]
-			description: ["{gto.ulv.quests.5CFDAB8B03980F9D.description0}"]
+			description: [
+				"{gto.ulv.quests.5CFDAB8B03980F9D.description0}"
+				""
+				""
+				"{gto.ulv.quests.5CFDAB8B03980F9D.description1}"
+			]
 			id: "5CFDAB8B03980F9D"
 			shape: "gear"
+			subtitle: "{gto.ulv.quests.5CFDAB8B03980F9D.subtitle}"
 			tasks: [{
 				id: "6692EFF7A36E5403"
 				item: "gtocore:hp_steam_vacuum_pump"
 				type: "item"
 			}]
+			title: "{gto.ulv.quests.5CFDAB8B03980F9D.title}"
 			x: 3.0d
 			y: -2.0d
 		}
@@ -784,7 +786,6 @@
 				{
 					id: "53CC5DD1F0ECC450"
 					item: "gtceu:ethylene_bucket"
-					optional_task: true
 					type: "item"
 				}
 				{
@@ -804,7 +805,6 @@
 				{
 					id: "25C5BED6BAD3EA6E"
 					item: "gtceu:sulfuric_gas_bucket"
-					optional_task: true
 					type: "item"
 				}
 				{
@@ -823,7 +823,6 @@
 				{
 					id: "4E3BF820C3D53502"
 					item: "gtceu:sulfuric_naphtha_bucket"
-					optional_task: true
 					type: "item"
 				}
 				{
@@ -842,7 +841,6 @@
 				{
 					id: "1327710C1C36C1B1"
 					item: "gtceu:sulfuric_light_fuel_bucket"
-					optional_task: true
 					type: "item"
 				}
 				{
@@ -861,7 +859,6 @@
 				{
 					id: "7C2C5FBF8CA7458E"
 					item: "gtceu:sulfuric_heavy_fuel_bucket"
-					optional_task: true
 					type: "item"
 				}
 				{
@@ -885,13 +882,11 @@
 				{
 					id: "06E768A41044B82A"
 					item: "gtceu:lightly_steam_cracked_naphtha_bucket"
-					optional_task: true
 					type: "item"
 				}
 				{
 					id: "38369744B3EB590D"
 					item: "gtceu:severely_steam_cracked_naphtha_bucket"
-					optional_task: true
 					type: "item"
 				}
 				{

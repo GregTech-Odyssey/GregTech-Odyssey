@@ -238,8 +238,14 @@
 				"产出的黑色灰烬不要扔了，后面可能有用"
 			]
 			id: "32A39A427D4A3AC2"
+			rewards: [{
+				id: "48BB564E8232C86F"
+				item: "minecraft:coal_block"
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 2.0d
+			subtitle: "准备好了吗？"
 			tasks: [
 				{
 					id: "106FC1C3BB945BA0"
@@ -317,7 +323,7 @@
 		{
 			dependencies: ["32A39A427D4A3AC2"]
 			description: [
-				"在这个阶段，我建议你使用&a煤炭及其衍生物&r来生产钢"
+				"在这个阶段，我建议你使用&a煤炭块&r来生产钢"
 				"因为这种方式下生产的副产物可以生成&e碳粉&r"
 				"也是碳粉前期&4唯一&r的获取途径"
 			]
@@ -972,7 +978,7 @@
 			description: [
 				"虽然很酷，但这不是你现在能想的机器"
 				""
-				"准备11组钢锭再来看看吧"
+				"准备&411组钢锭&r再来看看吧"
 			]
 			id: "15C001AF6C76B490"
 			shape: "diamond"

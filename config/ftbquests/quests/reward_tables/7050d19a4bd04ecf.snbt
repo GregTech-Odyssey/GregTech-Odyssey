@@ -1,0 +1,24 @@
+{
+	id: "7050D19A4BD04ECF"
+	loot_size: 1
+	order_index: 5
+	rewards: [
+		{ count: 16, item: "botania:white_mystical_flower" }
+		{ count: 16, item: "botania:light_gray_mystical_flower" }
+		{ count: 16, item: "botania:gray_mystical_flower" }
+		{ count: 16, item: "botania:black_mystical_flower" }
+		{ count: 16, item: "botania:brown_mystical_flower" }
+		{ count: 16, item: "botania:red_mystical_flower" }
+		{ count: 16, item: "botania:orange_mystical_flower" }
+		{ count: 16, item: "botania:yellow_mystical_flower" }
+		{ count: 16, item: "botania:lime_mystical_flower" }
+		{ count: 16, item: "botania:green_mystical_flower" }
+		{ count: 16, item: "botania:cyan_mystical_flower" }
+		{ count: 16, item: "botania:light_blue_mystical_flower" }
+		{ count: 16, item: "botania:blue_mystical_flower" }
+		{ count: 16, item: "botania:purple_mystical_flower" }
+		{ count: 16, item: "botania:magenta_mystical_flower" }
+		{ count: 16, item: "botania:pink_mystical_flower" }
+	]
+	title: "花朵组合包"
+}

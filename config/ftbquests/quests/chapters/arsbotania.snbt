@@ -4741,7 +4741,6 @@
 				{
 					id: "45D039ED5F5FAF15"
 					item: "gtocore:fractal_petal_solvent_bucket"
-					optional_task: true
 					type: "item"
 				}
 				{
@@ -4846,31 +4845,26 @@
 				{
 					id: "431E0907CC499B77"
 					item: "gtocore:aether_bucket"
-					optional_task: true
 					type: "item"
 				}
 				{
 					id: "330A2DCF80536248"
 					item: "gtocore:salamander_bucket"
-					optional_task: true
 					type: "item"
 				}
 				{
 					id: "200B16BAE7BE9625"
 					item: "gtocore:undine_bucket"
-					optional_task: true
 					type: "item"
 				}
 				{
 					id: "4F5E8B6DF51F62E4"
 					item: "gtocore:sylph_bucket"
-					optional_task: true
 					type: "item"
 				}
 				{
 					id: "4FE0DE11DAED2B31"
 					item: "gtocore:gnome_bucket"
-					optional_task: true
 					type: "item"
 				}
 				{

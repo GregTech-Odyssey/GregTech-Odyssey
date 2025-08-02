@@ -1,0 +1,33 @@
+{
+	icon: "botania:dice"
+	id: "1845545B11187899"
+	loot_size: 1
+	order_index: 6
+	rewards: [
+		{
+			count: 16
+			item: "gtocore:copper_coin"
+			weight: 75.0f
+		}
+		{
+			count: 32
+			item: "gtocore:copper_coin"
+			weight: 15.0f
+		}
+		{
+			count: 64
+			item: "gtocore:copper_coin"
+			weight: 9.0f
+		}
+		{
+			count: 640
+			item: "gtocore:copper_coin"
+		}
+		{
+			count: 6400
+			item: "gtocore:copper_coin"
+			weight: 0.001f
+		}
+	]
+	title: "{gto.ulv_2.title}"
+}

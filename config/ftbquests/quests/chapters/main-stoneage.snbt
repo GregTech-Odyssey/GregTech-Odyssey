@@ -61,6 +61,12 @@
 					id: "7599F8899D9783E6"
 					type: "command"
 				}
+				{
+					count: 16
+					id: "4A94831824613F91"
+					item: "gtocore:copper_coin"
+					type: "item"
+				}
 			]
 			shape: "hexagon"
 			size: 3.0d
@@ -80,6 +86,11 @@
 			icon: "gtceu:portable_debug_scanner"
 			id: "5C4137F64F9ADA50"
 			min_width: 350
+			rewards: [{
+				id: "3CDBF3DDD07DC90A"
+				item: "botania:mana_cookie"
+				type: "item"
+			}]
 			shape: "pentagon"
 			size: 2.0d
 			subtitle: "电压等级对应的主要内容"
@@ -95,14 +106,23 @@
 			dependencies: ["3BC9246D8FD4B649"]
 			description: ["你要问为什么不是先砍树——你砍得动吗？"]
 			id: "00FC570B313227A1"
-			rewards: [{
-				count: 32
-				id: "1C8E29E6FAA6034B"
-				item: "minecraft:flint"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 32
+					id: "1C8E29E6FAA6034B"
+					item: "minecraft:flint"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "6087D3176B3D352B"
+					item: "gtocore:copper_coin"
+					type: "item"
+				}
+			]
 			shape: "hexagon"
 			size: 1.5d
+			subtitle: "西部大开发"
 			tasks: [{
 				count: 64L
 				id: "754B7DBB3F865931"
@@ -130,11 +150,19 @@
 				}
 			}
 			id: "43D37FAEE15EE972"
-			rewards: [{
-				id: "75FF3B8B0F890C84"
-				item: "minecraft:bread"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "75FF3B8B0F890C84"
+					item: "minecraft:bread"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6FA2B1DE8BB30587"
+					item: "gtocore:copper_coin"
+					type: "item"
+				}
+			]
 			shape: "pentagon"
 			size: 1.0d
 			subtitle: "唉......"
@@ -151,13 +179,21 @@
 			description: ["有木头才能继续推进流程，如果你发现你砍不了树，不妨去看看前置任务"]
 			icon: "minecraft:oak_log"
 			id: "7D6FCF32575CB7DA"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "4CDDE8131D022FAA"
-				table_id: 7220137926571062997L
-				title: "任意木板*64"
-				type: "choice"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4CDDE8131D022FAA"
+					table_id: 7220137926571062997L
+					title: "任意木板*64"
+					type: "choice"
+				}
+				{
+					count: 16
+					id: "7E6C40799AF543E7"
+					item: "gtocore:copper_coin"
+					type: "item"
+				}
+			]
 			shape: "hexagon"
 			size: 1.5d
 			subtitle: "有种熟悉的感觉"
@@ -248,6 +284,11 @@
 					}
 					type: "item"
 				}
+				{
+					id: "737C2609BC7F9684"
+					item: "gtocore:copper_coin"
+					type: "item"
+				}
 			]
 			size: 1.0d
 			subtitle: "民以食为天"
@@ -292,13 +333,21 @@
 			description: ["兜兜转转大半天可能还是去获取点肉来能填饱肚子"]
 			icon: "minecraft:beef"
 			id: "368F06963D54EFCA"
-			rewards: [{
-				count: 64
-				id: "646F1FD0A4ED39E2"
-				item: "minecraft:cooked_beef"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 64
+					id: "646F1FD0A4ED39E2"
+					item: "minecraft:cooked_beef"
+					type: "item"
+				}
+				{
+					id: "2449A35CFB2EB13D"
+					item: "gtocore:copper_coin"
+					type: "item"
+				}
+			]
 			size: 1.0d
+			subtitle: "是的，我肚子饿了"
 			tasks: [{
 				count: 16L
 				id: "63FE2FB46A81B5C5"
@@ -312,20 +361,29 @@
 		{
 			dependencies: ["7D6FCF32575CB7DA"]
 			description: ["这可能是你发现的第一个彩蛋任务"]
+			hide_dependency_lines: true
 			icon: "minecraft:spruce_wood"
 			id: "3CF903DBC993F284"
 			invisible: true
-			rewards: [{
-				id: "0FD5C706556792C2"
-				item: {
-					Count: 1
-					id: "minecraft:iron_axe"
-					tag: {
-						Damage: 0
+			rewards: [
+				{
+					id: "0FD5C706556792C2"
+					item: {
+						Count: 1
+						id: "minecraft:iron_axe"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					count: 64
+					id: "65D8682097868BF8"
+					item: "gtocore:copper_coin"
+					type: "item"
+				}
+			]
 			size: 1.0d
 			subtitle: "彩蛋 #1"
 			tasks: [{
@@ -354,12 +412,20 @@
 			]
 			icon: "minecraft:crafting_table"
 			id: "561D79DE960A034D"
-			rewards: [{
-				count: 64
-				id: "07AA65931017D21B"
-				item: "minecraft:torch"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 64
+					id: "07AA65931017D21B"
+					item: "minecraft:torch"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "4FEA73914CE99DC1"
+					item: "gtocore:copper_coin"
+					type: "item"
+				}
+			]
 			shape: "hexagon"
 			size: 2.0d
 			subtitle: "制作你的第一个工作台"
@@ -383,11 +449,19 @@
 			]
 			icon: "sophisticatedbackpacks:backpack"
 			id: "4DC482C16035F261"
-			rewards: [{
-				id: "34B42898A35F1402"
-				item: "sophisticatedbackpacks:backpack"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "34B42898A35F1402"
+					item: "sophisticatedbackpacks:backpack"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "4478B90684E9A721"
+					item: "gtocore:copper_coin"
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			size: 1.5d
 			subtitle: "精妙背包"
@@ -409,7 +483,11 @@
 		}
 		{
 			dependencies: ["4DC482C16035F261"]
-			description: ["找找看附近有趣的东西"]
+			description: [
+				"找找看附近有趣的东西，记得用魔力充能嗷！"
+				""
+				"可以去会员店买多一个，如果有需要的话"
+			]
 			icon: {
 				Count: 1
 				id: "minecraft:stone_pickaxe"
@@ -430,6 +508,7 @@
 				type: "item"
 			}]
 			size: 1.0d
+			subtitle: "麻雀虽小"
 			tasks: [{
 				consume_items: true
 				count: 256L
@@ -448,17 +527,24 @@
 				""
 				"你需要一些黏土去制作后面几个大家伙"
 				""
-				"那么黏土去哪找呢？去河流边上，或者直接点，繁茂洞穴"
+				"[ \"那么黏土去哪找呢？去河流边上，或者直接点，繁茂洞穴，或者再直接点，\", { \"text\": \"去买点\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0C0A2C3CC7BE0749\" } } ]"
 			]
 			hide_dependency_lines: true
 			icon: "minecraft:clay_ball"
 			id: "664BDC18052B54FC"
-			rewards: [{
-				count: 64
-				id: "3F0876A57E3A4664"
-				item: "minecraft:clay"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 64
+					id: "3F0876A57E3A4664"
+					item: "minecraft:clay"
+					type: "item"
+				}
+				{
+					id: "09448634A78D9845"
+					item: "gtocore:copper_coin"
+					type: "item"
+				}
+			]
 			subtitle: "只不过是轻轻动了动黏土而已"
 			tasks: [
 				{
@@ -502,33 +588,41 @@
 				tag: { }
 			}
 			id: "45C8A2DF9C0E5473"
-			rewards: [{
-				id: "464628FAC1E23EEF"
-				item: {
-					Count: 1
-					id: "gtceu:hsse_mining_hammer"
-					tag: {
-						DisallowContainerItem: 0b
-						GT.Behaviours: {
-							AoEColumn: 1
-							AoELayer: 0
-							AoERow: 1
-							MaxAoEColumn: 1
-							MaxAoELayer: 0
-							MaxAoERow: 1
-							TorchPlacing: 1b
+			rewards: [
+				{
+					id: "464628FAC1E23EEF"
+					item: {
+						Count: 1
+						id: "gtceu:hsse_mining_hammer"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								AoEColumn: 1
+								AoELayer: 0
+								AoERow: 1
+								MaxAoEColumn: 1
+								MaxAoELayer: 0
+								MaxAoERow: 1
+								TorchPlacing: 1b
+							}
+							GT.Tool: {
+								Damage: 0
+								HarvestLevel: 4
+								MaxDamage: 9215
+								ToolSpeed: 6.0f
+							}
+							HideFlags: 2
 						}
-						GT.Tool: {
-							Damage: 0
-							HarvestLevel: 4
-							MaxDamage: 9215
-							ToolSpeed: 6.0f
-						}
-						HideFlags: 2
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					count: 16
+					id: "65A3C1C57CCBC9E8"
+					item: "gtocore:copper_coin"
+					type: "item"
+				}
+			]
 			shape: "circle"
 			size: 1.5d
 			subtitle: "该来的还是要来"
@@ -550,15 +644,25 @@
 				""
 				"焦炉产出的焦煤是正常煤炭燃烧时间的两倍，同时产出的杂酚油用来制作蒸汽时代的设备"
 				""
+				"[ \"我建议你用\", { \"text\": \"终端\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"07C8D75D90114580\" } }, \"来帮助你搭建\" ]"
+				""
 				"&o&8一定要多堆点焦炉，要炼钢一台可不够。"
 			]
 			icon: "gtceu:coke_oven"
 			id: "10C397237163BFFC"
-			rewards: [{
-				id: "4CAB4AB4963A08F9"
-				item: "gtceu:wood_drum"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "4CAB4AB4963A08F9"
+					item: "gtceu:wood_drum"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "09E70832F1FEE647"
+					item: "gtocore:copper_coin"
+					type: "item"
+				}
+			]
 			shape: "hexagon"
 			size: 2.0d
 			subtitle: "你的第一个多方块结构"
@@ -590,25 +694,25 @@
 			]
 			icon: "gtceu:oil_medium_bucket"
 			id: "4F77CB97CE068D7F"
-			rewards: [{
-				count: 4
-				id: "74FD9D147B637AAF"
-				item: "minecraft:bucket"
-				type: "item"
-			}]
-			subtitle: "是美军吸引器"
-			tasks: [
+			rewards: [
 				{
-					id: "2C355D7B87AE6CE4"
-					title: "这黑乎乎的是什么？"
-					type: "checkmark"
+					count: 4
+					id: "74FD9D147B637AAF"
+					item: "minecraft:bucket"
+					type: "item"
 				}
 				{
-					id: "1C0C9ED28756C725"
-					item: "gtceu:oil_medium_bucket"
+					id: "2C2143E5269282DD"
+					item: "gtocore:copper_coin"
 					type: "item"
 				}
 			]
+			subtitle: "是美军吸引器"
+			tasks: [{
+				id: "1C0C9ED28756C725"
+				item: "gtceu:oil_medium_bucket"
+				type: "item"
+			}]
 			x: 12.0d
 			y: -2.0d
 		}
@@ -620,31 +724,39 @@
 				"如果附近没有的需要走远点看看，这个阶段挖掉一整个矿脉应该是够用了"
 			]
 			id: "0EFC6C245CC001CB"
-			rewards: [{
-				id: "6E62C5DDF0F99CBC"
-				item: {
-					Count: 1
-					id: "gtceu:damascus_steel_pickaxe"
-					tag: {
-						DisallowContainerItem: 0b
-						Enchantments: [{
-							id: "minecraft:fortune"
-							lvl: 3s
-						}]
-						GT.Behaviours: {
-							TorchPlacing: 1b
+			rewards: [
+				{
+					id: "6E62C5DDF0F99CBC"
+					item: {
+						Count: 1
+						id: "gtceu:damascus_steel_pickaxe"
+						tag: {
+							DisallowContainerItem: 0b
+							Enchantments: [{
+								id: "minecraft:fortune"
+								lvl: 3s
+							}]
+							GT.Behaviours: {
+								TorchPlacing: 1b
+							}
+							GT.Tool: {
+								Damage: 0
+								HarvestLevel: 3
+								MaxDamage: 1023
+								ToolSpeed: 10.0f
+							}
+							HideFlags: 2
 						}
-						GT.Tool: {
-							Damage: 0
-							HarvestLevel: 3
-							MaxDamage: 1023
-							ToolSpeed: 10.0f
-						}
-						HideFlags: 2
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					count: 16
+					id: "494CB35CAFB509C4"
+					item: "gtocore:copper_coin"
+					type: "item"
+				}
+			]
 			shape: "hexagon"
 			size: 1.5d
 			subtitle: "前期特别重要的矿石"
@@ -743,6 +855,12 @@
 					}
 					type: "item"
 				}
+				{
+					count: 16
+					id: "09C7119FEC8147C1"
+					item: "gtocore:copper_coin"
+					type: "item"
+				}
 			]
 			shape: "hexagon"
 			size: 1.5d
@@ -762,6 +880,11 @@
 			description: ["这里有你其他需要挖的矿物，现阶段不是那么紧要，先备着些"]
 			icon: "minecraft:raw_gold"
 			id: "4993AFF5280AC837"
+			rewards: [{
+				id: "2B140068212E4ED7"
+				item: "gtocore:copper_coin"
+				type: "item"
+			}]
 			subtitle: "也来点"
 			tasks: [
 				{
@@ -888,6 +1011,12 @@
 							HideFlags: 2
 						}
 					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "22CF301DFA63F4B8"
+					item: "gtocore:copper_coin"
 					type: "item"
 				}
 			]
@@ -1229,12 +1358,20 @@
 			]
 			icon: "minecraft:blast_furnace"
 			id: "15C69E5AE559EE9B"
-			rewards: [{
-				count: 9
-				id: "4B490BBC953B6545"
-				item: "minecraft:blast_furnace"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 9
+					id: "4B490BBC953B6545"
+					item: "minecraft:blast_furnace"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "27EDBB4C843D8FA2"
+					item: "gtocore:copper_coin"
+					type: "item"
+				}
+			]
 			shape: "hexagon"
 			size: 1.5d
 			subtitle: "你现在最好的矿物处理方式——"
@@ -1254,12 +1391,20 @@
 				"你在下一个阶段会&5大量&r需要它的"
 			]
 			id: "12116F27AB89BB58"
-			rewards: [{
-				count: 9
-				id: "3587CD8658AA21D0"
-				item: "gtceu:wrought_iron_ingot"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 9
+					id: "3587CD8658AA21D0"
+					item: "gtceu:wrought_iron_ingot"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "14C77686B4EF5728"
+					item: "gtocore:copper_coin"
+					type: "item"
+				}
+			]
 			shape: "hexagon"
 			size: 1.5d
 			subtitle: "千锤百炼"
@@ -1284,12 +1429,20 @@
 			]
 			icon: "gtceu:bronze_dust"
 			id: "0F7F02C261EF18FA"
-			rewards: [{
-				count: 16
-				id: "37C1A24CA1179A15"
-				item: "gtceu:bronze_dust"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 16
+					id: "37C1A24CA1179A15"
+					item: "gtceu:bronze_dust"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "0938396D8880B322"
+					item: "gtocore:copper_coin"
+					type: "item"
+				}
+			]
 			shape: "hexagon"
 			size: 1.5d
 			subtitle: "可惜不能搓青铜面具"
@@ -1323,11 +1476,19 @@
 				"&2继续前进，路还很长呢。&r"
 			]
 			id: "14A66BA5BC9DB220"
-			rewards: [{
-				id: "69C1838C97BE66E1"
-				item: "avaritia:star_fuel"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "69C1838C97BE66E1"
+					item: "avaritia:star_fuel"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "23DF2EDECC7E3B4B"
+					item: "gtocore:copper_coin"
+					type: "item"
+				}
+			]
 			shape: "gear"
 			size: 3.0d
 			subtitle: "你终于可以开始用蒸汽做点事了"
@@ -1345,12 +1506,19 @@
 			description: ["整点泥土来，木棍收好嗷"]
 			icon: "minecraft:dirt"
 			id: "78A394F6AE731B50"
-			rewards: [{
-				count: 16
-				id: "109F50EE4350CB89"
-				item: "minecraft:stick"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 16
+					id: "109F50EE4350CB89"
+					item: "minecraft:stick"
+					type: "item"
+				}
+				{
+					id: "0EF7BCA9B4830895"
+					item: "gtocore:copper_coin"
+					type: "item"
+				}
+			]
 			shape: "circle"
 			size: 1.5d
 			subtitle: "小福利"
@@ -1373,9 +1541,19 @@
 		}
 		{
 			dependencies: ["561D79DE960A034D"]
-			description: ["&6合成终端&r可以取出相邻容器的物品，当作前期的AE"]
+			description: [
+				"&6简易合成终端&r可以取出相邻容器的物品，当作前期的AE"
+				""
+				"但是这个合成终端&c无法链接多个容器&r"
+			]
 			hide_dependency_lines: false
 			id: "2E05753AF03C5608"
+			rewards: [{
+				count: 8
+				id: "024BEB1CD9253176"
+				item: "gtocore:copper_coin"
+				type: "item"
+			}]
 			shape: "diamond"
 			size: 1.5d
 			subtitle: "合成站"
@@ -1395,6 +1573,12 @@
 			]
 			icon: "minecraft:writable_book"
 			id: "19EFE14C82DDAB67"
+			rewards: [{
+				id: "52494ADABA776912"
+				team_reward: false
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			shape: "pentagon"
 			size: 2.0d
 			subtitle: "我无法拒绝..."
@@ -1416,12 +1600,19 @@
 				"&7&o注意石油和原油的区别，你应该会查看EMI&r&r"
 			]
 			id: "514A8AAF7CF7D673"
-			rewards: [{
-				count: 4
-				id: "738DF7C0291B67CD"
-				item: "minecraft:bucket"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "738DF7C0291B67CD"
+					item: "minecraft:bucket"
+					type: "item"
+				}
+				{
+					id: "55048F9C729A6260"
+					item: "gtocore:copper_coin"
+					type: "item"
+				}
+			]
 			subtitle: "谁才是真正的“油”戏王？"
 			tasks: [{
 				icon: "ad_astra:oil_bucket"
@@ -1471,6 +1662,11 @@
 			]
 			description: ["用小刀打草概率掉落植物纤维，空手破坏树叶概率掉落木棍"]
 			id: "114AB458EFA11202"
+			rewards: [{
+				id: "77E10F9B82239EEF"
+				item: "gtocore:copper_coin"
+				type: "item"
+			}]
 			subtitle: "樵夫乐事"
 			tasks: [{
 				id: "4BD8C011608A16D2"
@@ -1490,7 +1686,13 @@
 			dependencies: ["114AB458EFA11202"]
 			description: ["你需要收集一些"]
 			id: "1D2340E3912053DA"
+			rewards: [{
+				id: "6C85FAC2E8DFC2FA"
+				item: "gtocore:copper_coin"
+				type: "item"
+			}]
 			shape: "circle"
+			subtitle: "这可不能做成蓑衣"
 			tasks: [{
 				id: "687702C617CBCB1B"
 				item: "gtocore:plant_fiber"
@@ -1503,7 +1705,13 @@
 			dependencies: ["1D2340E3912053DA"]
 			description: ["制造一把&6燧石斧&r，放开了去砍吧！"]
 			id: "21C33087531A293F"
+			rewards: [{
+				id: "5D9A323D13C684BC"
+				item: "gtocore:copper_coin"
+				type: "item"
+			}]
 			shape: "circle"
+			subtitle: "燧石大力量"
 			tasks: [{
 				id: "42EAEBF2E11AFC57"
 				item: {
@@ -1530,8 +1738,14 @@
 		}
 		{
 			dependencies: ["6D4B71E543059C19"]
-			description: ["你需要116x焦炉砖以搭建一个最简可用焦炉"]
+			description: ["你需要合成焦炉砖块，当然手搓是更快的"]
 			id: "39A6C5524A2490C5"
+			rewards: [{
+				id: "2E3290F368E29335"
+				item: "gtocore:copper_coin"
+				type: "item"
+			}]
+			subtitle: "需要点火"
 			tasks: [{
 				consume_items: false
 				id: "4A7356E1096054EF"
@@ -1546,12 +1760,23 @@
 				"664BDC18052B54FC"
 				"4920255C0FDE6187"
 			]
-			description: ["你需要116x焦炉砖以搭建一个最简可用焦炉"]
+			description: [
+				"你需要116x&6焦炉砖&r以搭建一个最简可用焦炉"
+				""
+				"所以你需要搓116个压缩&6焦黏土&r"
+				""
+				"对的，专家模式下会更难"
+			]
 			id: "6D4B71E543059C19"
+			rewards: [{
+				id: "2EF86F324481E26B"
+				item: "gtocore:copper_coin"
+				type: "item"
+			}]
+			subtitle: "然后我们需要把这堆东西挤进来"
 			tasks: [{
 				id: "24EA2D701E78667F"
 				item: "gtceu:compressed_coke_clay"
-				optional_task: true
 				type: "item"
 			}]
 			x: 11.0d
@@ -1587,6 +1812,12 @@
 					}
 					type: "item"
 				}
+				{
+					count: 64
+					id: "119000A19D221EE3"
+					item: "gtocore:copper_coin"
+					type: "item"
+				}
 			]
 			subtitle: "彩蛋 #2"
 			tasks: [{
@@ -1608,6 +1839,7 @@
 		}
 		{
 			dependencies: ["67264EF0565CC030"]
+			description: ["也许你需要准备一个小牧场来产出食物"]
 			hide_dependency_lines: true
 			icon: {
 				Count: 1
@@ -1630,6 +1862,11 @@
 			}
 			id: "5A8040869C6ECADD"
 			optional: true
+			rewards: [{
+				id: "169E0F62065BD2C2"
+				item: "gtocore:copper_coin"
+				type: "item"
+			}]
 			subtitle: "免费的抢夺Ⅲ"
 			tasks: [{
 				id: "5C7445702C185723"
@@ -1657,6 +1894,7 @@
 			id: "77EE7D3484410CE3"
 			shape: "hexagon"
 			size: 1.5d
+			subtitle: "高科技时间折跃装置"
 			tasks: [{
 				id: "61DC9BC9B2E28B5D"
 				item: {
@@ -1698,8 +1936,19 @@
 		}
 		{
 			dependencies: ["561D79DE960A034D"]
+			description: [
+				"软锤不仅可以作为合成材料，也可以作为工具"
+				""
+				"&8&o指可以开关机器&r&8&r"
+			]
 			id: "20AE5EDFB6C59021"
 			optional: true
+			rewards: [{
+				id: "7BABD8A6E27B7279"
+				item: "gtocore:copper_coin"
+				type: "item"
+			}]
+			subtitle: "其实是个开关"
 			tasks: [{
 				id: "06F876B3B51390F7"
 				item: {
@@ -1722,7 +1971,14 @@
 		}
 		{
 			dependencies: ["30D4CC9142D59DBD"]
+			description: ["这东西在接下来的合成中是可以重复利用的，所以造一个就好了"]
 			id: "4920255C0FDE6187"
+			rewards: [{
+				id: "260460DB71687420"
+				item: "gtocore:copper_coin"
+				type: "item"
+			}]
+			subtitle: "可重复"
 			tasks: [{
 				id: "3D98DFA0F224B508"
 				item: "gtceu:brick_wooden_form"
@@ -1741,7 +1997,14 @@
 				"焦炉仓与主方块共享内容物"
 			]
 			id: "6BA5DA36E8163809"
+			rewards: [{
+				count: 8
+				id: "5AAD8C51892D560C"
+				item: "gtocore:copper_coin"
+				type: "item"
+			}]
 			shape: "diamond"
+			subtitle: "我们需要自动化！"
 			tasks: [{
 				id: "54186B8884FF0220"
 				item: "gtceu:coke_oven_hatch"
@@ -1754,6 +2017,12 @@
 			dependencies: ["67264EF0565CC030"]
 			description: ["销毁你的垃圾"]
 			id: "36ABEC62B0F6C71D"
+			rewards: [{
+				id: "70C0F724F8EF2B79"
+				item: "gtocore:copper_coin"
+				type: "item"
+			}]
+			subtitle: "别丢错东西了"
 			tasks: [
 				{
 					id: "5F095539B1E545E4"
@@ -1774,6 +2043,12 @@
 			dependencies: ["561D79DE960A034D"]
 			description: ["右击&6草&r极大概率掉落小麦种子，有小概率掉落胡萝卜等农作物"]
 			id: "3E80C257F74352D0"
+			rewards: [{
+				id: "53ADB34F72908866"
+				item: "gtocore:copper_coin"
+				type: "item"
+			}]
+			subtitle: "又名种子收割刀"
 			tasks: [{
 				id: "60E24C1973632EE2"
 				item: {
@@ -1793,6 +2068,12 @@
 			description: ["你可以使用&e农夫乐事&r模组的&6砧板&r获得它，在这里你不能徒手分解花朵！"]
 			hide_dependency_lines: true
 			id: "07169625BC595BD3"
+			rewards: [{
+				id: "7E7B07ABA6D95255"
+				item: "gtocore:copper_coin"
+				type: "item"
+			}]
+			subtitle: "拒绝辣手摧花"
 			tasks: [
 				{
 					id: "3BFACC07CC05C8F1"
@@ -1817,27 +2098,6 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["2403CDCD080D34B1"]
-			id: "244DAB0EE8479CAC"
-			invisible: true
-			rewards: [{
-				count: 3
-				id: "755BEC4F997CE6E7"
-				item: "minecraft:bread"
-				type: "item"
-			}]
-			subtitle: "不知道要挖多少石头呢"
-			tasks: [{
-				count: 1024L
-				id: "67A20CADF1650632"
-				item: { Count: 1024, id: "minecraft:cobblestone" }
-				type: "item"
-			}]
-			title: "永无止境"
-			x: 6.0d
-			y: -5.0d
-		}
-		{
 			dependencies: ["12116F27AB89BB58"]
 			description: [
 				"多方块需要手撘？不不不，终端会帮你搞定一切"
@@ -1847,13 +2107,21 @@
 				"当然多方块的成型判定会有一定延迟"
 			]
 			id: "07C8D75D90114580"
-			rewards: [{
-				auto: "invisible"
-				command: "/playsound minecraft:ui.toast.challenge_complete master @s ~ ~ ~ 1"
-				id: "5C3B510CCF25EDF5"
-				silent: true
-				type: "command"
-			}]
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/playsound minecraft:ui.toast.challenge_complete master @s ~ ~ ~ 1"
+					id: "5C3B510CCF25EDF5"
+					silent: true
+					type: "command"
+				}
+				{
+					count: 4
+					id: "3DAAB7C66E02580F"
+					item: "gtocore:copper_coin"
+					type: "item"
+				}
+			]
 			shape: "pentagon"
 			size: 2.0d
 			subtitle: "你会需要它的"
@@ -1887,13 +2155,21 @@
 				"&b使用AE物品：&r顾名思义会使用AE的物品，前提是你身上有终端并且终端通过无线链接到了你的ME存储"
 			]
 			id: "06FE84E75DBE704A"
-			rewards: [{
-				auto: "invisible"
-				command: "/playsound minecraft:ui.toast.challenge_complete master @s ~ ~ ~ 1"
-				id: "06E74F392DC76DCC"
-				silent: true
-				type: "command"
-			}]
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/playsound minecraft:ui.toast.challenge_complete master @s ~ ~ ~ 1"
+					id: "06E74F392DC76DCC"
+					silent: true
+					type: "command"
+				}
+				{
+					count: 4
+					id: "7512A0EC8A616C48"
+					item: "gtocore:copper_coin"
+					type: "item"
+				}
+			]
 			shape: "pentagon"
 			size: 2.0d
 			subtitle: "无与伦比"

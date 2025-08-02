@@ -71,6 +71,7 @@
 				{
 					id: "15E53A65CC553FCE"
 					item: "gtocore:lv_wind_mill_turbine"
+					optional_task: true
 					type: "item"
 				}
 			]
@@ -1683,19 +1684,27 @@
 			y: -8.5d
 		}
 		{
+			description: [
+				"按照比例缩短&6多方块机器&r的配方处理时间"
+				""
+				"当加速仓等级&b低于&r配方等级时，加速效果将&4大幅度&r减弱"
+			]
 			id: "7F65A1C533ED1C3B"
+			subtitle: "狠狠地加速！"
 			tasks: [{
 				id: "53A559CA4372D14E"
 				item: "gtocore:lv_accelerate_hatch"
 				type: "item"
 			}]
-			x: 6.5d
-			y: -1.5d
+			title: "让时间变得快起来"
+			x: 7.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["6A9DFD965CA33D75"]
 			description: ["可以安装在任意单方块机器上，以额外的能耗为代价换取更低的配方耗时"]
 			id: "1FCF7BF494F483B4"
+			subtitle: "力大砖飞"
 			tasks: [{
 				id: "0258F66F419777E0"
 				item: "gtocore:lv_power_amplifiers"

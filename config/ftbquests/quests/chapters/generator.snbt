@@ -118,7 +118,6 @@
 							Damage: 0
 						}
 					}
-					optional_task: true
 					type: "item"
 				}
 				{
@@ -130,7 +129,6 @@
 							Damage: 0
 						}
 					}
-					optional_task: true
 					type: "item"
 				}
 				{
@@ -142,7 +140,6 @@
 							Damage: 0
 						}
 					}
-					optional_task: true
 					type: "item"
 				}
 				{
@@ -154,7 +151,6 @@
 							Damage: 0
 						}
 					}
-					optional_task: true
 					type: "item"
 				}
 			]
