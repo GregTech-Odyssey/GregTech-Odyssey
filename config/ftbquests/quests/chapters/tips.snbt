@@ -49,6 +49,12 @@
 			description: [""]
 			icon: "minecraft:writable_book"
 			id: "79646E8E449D8A1A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0C36971E7B58EC83"
+				table_id: 78280643691329842L
+				type: "random"
+			}]
 			shape: "pentagon"
 			size: 2.0d
 			subtitle: "我还以为你从来都不会选我呢"

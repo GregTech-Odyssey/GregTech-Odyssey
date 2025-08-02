@@ -7,6 +7,7 @@
 		{ count: 64, item: "minecraft:iron_ore" }
 		{ count: 64, item: "minecraft:copper_ore" }
 		{ count: 64, item: "gtceu:tin_ore" }
+		{ count: 64, item: "gtceu:coal_ore" }
 	]
 	title: "ULV矿石补给包"
 }

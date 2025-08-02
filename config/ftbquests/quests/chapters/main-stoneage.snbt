@@ -527,7 +527,7 @@
 				""
 				"你需要一些黏土去制作后面几个大家伙"
 				""
-				"那么黏土去哪找呢？去河流边上，或者直接点，繁茂洞穴"
+				"[ \"那么黏土去哪找呢？去河流边上，或者直接点，繁茂洞穴，或者再直接点，\", { \"text\": \"去买点\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0C0A2C3CC7BE0749\" } } ]"
 			]
 			hide_dependency_lines: true
 			icon: "minecraft:clay_ball"
@@ -1541,7 +1541,11 @@
 		}
 		{
 			dependencies: ["561D79DE960A034D"]
-			description: ["&6合成终端&r可以取出相邻容器的物品，当作前期的AE"]
+			description: [
+				"&6简易合成终端&r可以取出相邻容器的物品，当作前期的AE"
+				""
+				"但是这个合成终端&c无法链接多个容器&r"
+			]
 			hide_dependency_lines: false
 			id: "2E05753AF03C5608"
 			rewards: [{

@@ -1,0 +1,101 @@
+{
+	icon: {
+		Count: 1
+		id: "minecraft:netherite_sword"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "544CEE4CDD40BC07"
+	loot_size: 1
+	order_index: 8
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "minecraft:netherite_sword"
+				tag: {
+					Damage: 0
+					Enchantments: [
+						{
+							id: "minecraft:smite"
+							lvl: 7s
+						}
+						{
+							id: "minecraft:looting"
+							lvl: 3s
+						}
+						{
+							id: "minecraft:mending"
+							lvl: 1s
+						}
+						{
+							id: "minecraft:sharpness"
+							lvl: 7s
+						}
+					]
+					RepairCost: 31
+					display: {
+						Name: "{\"text\":\"勇气之剑\"}"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:shield"
+				tag: {
+					Damage: 0
+					Enchantments: [
+						{
+							id: "minecraft:unbreaking"
+							lvl: 5s
+						}
+						{
+							id: "apotheosis:reflective"
+							lvl: 7s
+						}
+					]
+					RepairCost: 3
+					display: {
+						Name: "{\"text\":\"豪迈之盾\"}"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:bow"
+				tag: {
+					Damage: 0
+					Enchantments: [
+						{
+							id: "minecraft:power"
+							lvl: 8s
+						}
+						{
+							id: "minecraft:infinity"
+							lvl: 1s
+						}
+						{
+							id: "minecraft:flame"
+							lvl: 1s
+						}
+						{
+							id: "minecraft:punch"
+							lvl: 3s
+						}
+					]
+					RepairCost: 15
+					display: {
+						Name: "{\"text\":\"无畏之弓\"}"
+					}
+				}
+			}
+		}
+		{ item: "minecraft:arrow" }
+	]
+	title: " 地牢猎手套装"
+}
