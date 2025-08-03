@@ -75,8 +75,9 @@
 				"{gto.tips.quests.567EBE02182A8505.description2}"
 				"{gto.tips.quests.567EBE02182A8505.description3}"
 				"{gto.tips.quests.567EBE02182A8505.description4}"
-				""
+				"{@pagebreak}"
 				"{gto.tips.quests.567EBE02182A8505.description5}"
+				""
 				"{gto.tips.quests.567EBE02182A8505.description6}"
 				"{gto.tips.quests.567EBE02182A8505.description7}"
 				"{gto.tips.quests.567EBE02182A8505.description8}"
@@ -108,6 +109,7 @@
 			]
 			icon: "minecraft:chain"
 			id: "23D070BB1157701F"
+			min_width: 240
 			shape: "pentagon"
 			size: 1.5d
 			subtitle: "{gto.tips.quests.23D070BB1157701F.subtitle}"
@@ -309,8 +311,6 @@
 				"{gto.tips.quests.1786BB8F04B92CB3.description0}"
 				""
 				"{gto.tips.quests.1786BB8F04B92CB3.description1}"
-				""
-				"{gto.tips.quests.1786BB8F04B92CB3.description2}"
 			]
 			icon: "minecraft:beef"
 			id: "1786BB8F04B92CB3"
@@ -416,7 +416,6 @@
 			dependencies: ["79646E8E449D8A1A"]
 			description: [
 				"{gto.tips.quests.5C62ECF9AC84E023.description0}"
-				""
 				""
 				"{gto.tips.quests.5C62ECF9AC84E023.description1}"
 				"{gto.tips.quests.5C62ECF9AC84E023.description2}"
