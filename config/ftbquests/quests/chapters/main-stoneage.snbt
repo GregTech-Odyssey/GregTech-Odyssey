@@ -2081,12 +2081,12 @@
 					type: "item"
 				}
 				{
-					id: "5EF82DFFB5E35CBF"
+					id: "377170224E4EC88E"
 					item: {
 						Count: 1
 						id: "itemfilters:tag"
 						tag: {
-							value: "c:dyes"
+							value: "gt:dyes"
 						}
 					}
 					title: "任意染料"
@@ -2191,6 +2191,16 @@
 			title: "更强更大"
 			x: 0.0d
 			y: 5.0d
+		}
+		{
+			id: "74F203912A74CAC3"
+			tasks: [{
+				id: "1A2A5FA578093968"
+				item: "ars_nouveau:worn_notebook"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 1.5d
 		}
 	]
 	subtitle: ["Hello World!"]
