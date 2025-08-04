@@ -1,0 +1,25 @@
+{
+	icon: "gtceu:wrought_iron_ingot"
+	id: "7EECBAA5C61E77C0"
+	loot_size: 1
+	order_index: 7
+	rewards: [
+		{
+			count: 64
+			item: "minecraft:iron_ore"
+		}
+		{
+			count: 64
+			item: "minecraft:copper_ore"
+		}
+		{
+			count: 64
+			item: "gtceu:tin_ore"
+		}
+		{
+			count: 64
+			item: "gtceu:coal_ore"
+		}
+	]
+	title: "{gto.rewardtable_ulv_3.title}"
+}
