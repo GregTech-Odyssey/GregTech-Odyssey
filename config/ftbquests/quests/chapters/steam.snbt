@@ -43,6 +43,7 @@
 			subtitle: "隐入蒸汽"
 			tasks: [{
 				id: "447ABD40E69F10DA"
+				title: "前进，前进！"
 				type: "checkmark"
 			}]
 			title: "扬雾运动"
@@ -99,7 +100,10 @@
 			y: -2.25d
 		}
 		{
-			dependencies: ["24C53B5FF515ACAC"]
+			dependencies: [
+				"24C53B5FF515ACAC"
+				"4A9E47C3F8DF24A3"
+			]
 			description: [
 				"合金炉，将&6三铜一锡&r熔铸四个&6青铜锭&r，现在能够高效生产各种能在LV制造的合金锭"
 				""
@@ -117,9 +121,8 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["24C53B5FF515ACAC"]
+			dependencies: ["6B2CA9AF06284789"]
 			description: ["Ender IO 的起点"]
-			hide_dependency_lines: true
 			id: "4A9E47C3F8DF24A3"
 			rewards: [{
 				count: 16
@@ -1293,6 +1296,27 @@
 			title: "更猛的机器们"
 			x: 7.0d
 			y: 5.0d
+		}
+		{
+			dependencies: ["24C53B5FF515ACAC"]
+			description: [
+				"点开&6无限粉&r的EMI就能看到制作方式："
+				""
+				"1. &b主手&r持&6深板岩原石&r或&6深板岩&r，&b副手&r持&6燧石&r"
+				"2. 蹲下右键&6黑曜石&r，&6哭泣的黑曜石&r或&6砂轮&r"
+				""
+				"你前期需要生产一些用作&4原始合金炉&r的制作，当然你很快就能换装&d蒸汽合金炉&r了"
+			]
+			id: "6B2CA9AF06284789"
+			subtitle: "应该称之为原始粉"
+			tasks: [{
+				id: "11775FE409428F82"
+				item: "enderio:grains_of_infinity"
+				type: "item"
+			}]
+			title: "并不无限的粉"
+			x: -1.8571428571428612d
+			y: 1.4761904761904745d
 		}
 	]
 	subtitle: ["Tier0-Steam"]

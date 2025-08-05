@@ -317,11 +317,6 @@
 					item: "constructionwand:core_angel"
 					type: "item"
 				}
-				{
-					id: "32ADC526F29FBF3E"
-					item: "constructionwand:core_destruction"
-					type: "item"
-				}
 			]
 			subtitle: "成为建筑大师的必经之路"
 			tasks: [{
