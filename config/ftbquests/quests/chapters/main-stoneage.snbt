@@ -2081,12 +2081,12 @@
 					type: "item"
 				}
 				{
-					id: "5EF82DFFB5E35CBF"
+					id: "377170224E4EC88E"
 					item: {
 						Count: 1
 						id: "itemfilters:tag"
 						tag: {
-							value: "c:dyes"
+							value: "gt:dyes"
 						}
 					}
 					title: "任意染料"

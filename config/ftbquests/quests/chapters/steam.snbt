@@ -43,6 +43,7 @@
 			subtitle: "隐入蒸汽"
 			tasks: [{
 				id: "447ABD40E69F10DA"
+				title: "前进，前进！"
 				type: "checkmark"
 			}]
 			title: "扬雾运动"
@@ -54,16 +55,22 @@
 			description: [
 				"手动运水——终于受够了，我只需要一点杂酚油来造一台&6原始水泵&r"
 				""
-				"&7它不需要放在水上&r"
+				"&7它不需要放在水上&r，不过&e下雨&r的时候会给予&b1.5倍&r的产出"
 				""
 				"&o&e右击&r或&e[U]&r键主方块查看多方块结构&r"
 				""
 				"用&6任意流体管道&r来运输流体，但是注意&6木制管道&r不能运输&6蒸汽&r"
+				"{@pagebreak}"
+				"将原始水泵放置在不同的群系内会获得不同的产出速率，这里提供部分数据："
+				"海洋/河流群系：1000mb/s"
+				"沼泽：800mb/s"
+				"平原/森林：250mb/s"
 			]
 			icon: "gtceu:primitive_pump"
 			id: "2D630430259F9131"
 			shape: "hexagon"
 			size: 1.5d
+			subtitle: "所处皆为井"
 			tasks: [
 				{
 					id: "6DC00D5FF11E0368"
@@ -88,11 +95,15 @@
 					type: "item"
 				}
 			]
+			title: "望泵止渴"
 			x: -6.0d
 			y: -2.25d
 		}
 		{
-			dependencies: ["24C53B5FF515ACAC"]
+			dependencies: [
+				"24C53B5FF515ACAC"
+				"4A9E47C3F8DF24A3"
+			]
 			description: [
 				"合金炉，将&6三铜一锡&r熔铸四个&6青铜锭&r，现在能够高效生产各种能在LV制造的合金锭"
 				""
@@ -110,9 +121,8 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["24C53B5FF515ACAC"]
+			dependencies: ["6B2CA9AF06284789"]
 			description: ["Ender IO 的起点"]
-			hide_dependency_lines: true
 			id: "4A9E47C3F8DF24A3"
 			rewards: [{
 				count: 16
@@ -195,26 +205,45 @@
 		}
 		{
 			dependencies: ["24C53B5FF515ACAC"]
+			description: [
+				"小蒸汽机器必须通入&6蒸汽&r才能运转，而且&2排气口&r&4不能&r被阻挡（包括管道）"
+				""
+				"[ \"什么，你问我怎么调整排气口的位置？那你肯定是没仔细看\", { \"text\": \"使用手册\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1A0EA7A29CFD830D\" } } ]"
+			]
 			id: "7E8B76C8CC341F51"
+			subtitle: "最大程度节省你的燃料"
 			tasks: [{
 				id: "43EF8564E06F93FE"
 				item: "gtceu:lp_steam_furnace"
 				type: "item"
 			}]
+			title: "蒸汽能做饭吗？"
 			x: -3.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["7E8B76C8CC341F51"]
-			description: ["你应该第一个想办法造出它"]
+			description: [
+				"如果你觉得你的低压蒸汽熔炉还不够，在此隆重介绍：&6蒸汽熔炼熔炉&r！"
+				""
+				"它有&48并行&r，换而言之就是可以同时运行&58个相同的配方&r，但它并没有&e跨配方&r的功能"
+				""
+				"即便单个配方的处理时间是小机器的1.2倍，但速度依然&a非常快&r！"
+				""
+				"记得及时导出产物，&a尤其是&r某些配方的产出，可能会直接把输出总线撑爆"
+				""
+				"&8&m记得大幅度提升你的蒸汽产能先&r&r"
+			]
 			id: "70166E7FA6559076"
 			shape: "diamond"
 			size: 1.5d
+			subtitle: "作用可不止大了一点"
 			tasks: [{
 				id: "3B72AB2D01E23DBE"
 				item: "gtceu:steam_oven"
 				type: "item"
 			}]
+			title: "更大一点的炉"
 			x: -3.0d
 			y: -3.75d
 		}
@@ -591,14 +620,23 @@
 		}
 		{
 			dependencies: ["043FCD7B759853EA"]
+			description: [
+				"哦？你准备用这个大家伙了吗？"
+				""
+				"有些配方无法执行的话记得看看EMI，看看配方的条件要多少&a空气"
+				"&r"
+				"ULV级别的输入仓只能支持&48B&r的空气输入，所以如果你需要更大的空气输入有两种办法：使用更多的&6输入仓&r或者制作&6无限进气仓&r"
+			]
 			id: "020E8B707A8CF794"
 			shape: "diamond"
 			size: 1.5d
+			subtitle: "FFF机器"
 			tasks: [{
 				id: "47638A0672B0CFEA"
 				item: "gtocore:steam_separator"
 				type: "item"
 			}]
+			title: "离心吗？"
 			x: 3.0d
 			y: 9.75d
 		}
@@ -1119,20 +1157,24 @@
 		{
 			dependencies: ["70166E7FA6559076"]
 			description: [
-				"8并行不够用？这是32并行版本！"
+				"天空传来一声巨响，&6大型青铜熔炉&r闪亮登场！！"
 				""
-				"这可能足以让你用到HV阶段，直到&6工业熔炉&r的并行数超过它并足以执行多次超频"
+				"之前的&d8并行&r不够用？那这是&432并行&r版本！"
 				""
-				"注意有1.5倍处理耗时惩罚"
+				"&6大型青铜熔炉&r足以让你用到&fHV&r阶段，直到&6工业熔炉&r的并行数超过它并足以执行多次超频"
+				""
+				"即便有1.5倍处理耗时惩罚，但在当前阶段它就是&e绝对&r无敌的存在"
 			]
 			id: "713A10C0905402EB"
 			shape: "diamond"
 			size: 1.5d
+			subtitle: "以前都过的是什么苦日子？"
 			tasks: [{
 				id: "0938A17F3C7F5500"
 				item: "gtocore:large_steam_furnace"
 				type: "item"
 			}]
+			title: "把所有的玩意儿全丢进去烧了"
 			x: -3.0d
 			y: -5.25d
 		}
@@ -1186,9 +1228,14 @@
 		}
 		{
 			dependencies: ["13FBF05133D59CDC"]
-			description: ["有了钢锭，你现在可以制作高压蒸汽机器，它们的效率是低压版本的2倍，但同时也消耗更多蒸汽"]
+			description: [
+				"有了钢锭，你现在可以制作&a高压蒸汽机器&r，它们的效率是低压版本的&c2倍&r，但同时也消耗更多&6蒸汽&r"
+				""
+				"而&6高压锅炉&r可以获得比&6普通锅炉&r更高的产出，从2倍到3倍不止，建议查看EMI以及个人基地的&1实际情况&r进行考量"
+			]
 			id: "524B8340450628A3"
 			shape: "diamond"
+			subtitle: "Work！Work！"
 			tasks: [{
 				id: "41CA757DDA6AB954"
 				item: {
@@ -1246,8 +1293,30 @@
 				title: "高压蒸汽机器"
 				type: "item"
 			}]
+			title: "更猛的机器们"
 			x: 7.0d
 			y: 5.0d
+		}
+		{
+			dependencies: ["24C53B5FF515ACAC"]
+			description: [
+				"点开&6无限粉&r的EMI就能看到制作方式："
+				""
+				"1. &b主手&r持&6深板岩原石&r或&6深板岩&r，&b副手&r持&6燧石&r"
+				"2. 蹲下右键&6黑曜石&r，&6哭泣的黑曜石&r或&6砂轮&r"
+				""
+				"你前期需要生产一些用作&4原始合金炉&r的制作，当然你很快就能换装&d蒸汽合金炉&r了"
+			]
+			id: "6B2CA9AF06284789"
+			subtitle: "应该称之为原始粉"
+			tasks: [{
+				id: "11775FE409428F82"
+				item: "enderio:grains_of_infinity"
+				type: "item"
+			}]
+			title: "并不无限的粉"
+			x: -1.8571428571428612d
+			y: 1.4761904761904745d
 		}
 	]
 	subtitle: ["Tier0-Steam"]

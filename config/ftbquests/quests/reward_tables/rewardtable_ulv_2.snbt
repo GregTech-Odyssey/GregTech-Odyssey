@@ -4,11 +4,11 @@
 	loot_size: 1
 	order_index: 6
 	rewards: [
-		{ count: 16, item: "gtocore:copper_coin", weight: 75.0f }
-		{ count: 32, item: "gtocore:copper_coin", weight: 15.0f }
-		{ count: 64, item: "gtocore:copper_coin", weight: 9.0f }
-		{ count: 640, item: "gtocore:copper_coin" }
-		{ count: 6400, item: "gtocore:copper_coin", weight: 0.001f }
+		{ count: 16, item: "gtocore:copper_coin", weight: 85.0f }
+		{ count: 32, item: "gtocore:copper_coin", weight: 10.0f }
+		{ count: 64, item: "gtocore:copper_coin", weight: 4.89f }
+		{ count: 640, item: "gtocore:copper_coin", weight: 0.1f }
+		{ count: 6400, item: "gtocore:copper_coin", weight: 1.00000005E-4f }
 	]
 	title: "ULV摇奖"
 }
