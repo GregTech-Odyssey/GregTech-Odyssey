@@ -2192,16 +2192,6 @@
 			x: 0.0d
 			y: 5.0d
 		}
-		{
-			id: "74F203912A74CAC3"
-			tasks: [{
-				id: "1A2A5FA578093968"
-				item: "ars_nouveau:worn_notebook"
-				type: "item"
-			}]
-			x: -9.0d
-			y: 1.5d
-		}
 	]
 	subtitle: ["{gto.main-stoneage.subtitle0}"]
 	title: "{gto.main-stoneage.title}"

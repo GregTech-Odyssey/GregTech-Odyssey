@@ -43,6 +43,7 @@
 			subtitle: "{gto.steam.quests.24C53B5FF515ACAC.subtitle}"
 			tasks: [{
 				id: "447ABD40E69F10DA"
+				title: "{gto.steam.quests.24C53B5FF515ACAC.tasks.447ABD40E69F10DA.title}"
 				type: "checkmark"
 			}]
 			title: "{gto.steam.quests.24C53B5FF515ACAC.title}"
@@ -99,7 +100,10 @@
 			y: -2.25d
 		}
 		{
-			dependencies: ["24C53B5FF515ACAC"]
+			dependencies: [
+				"24C53B5FF515ACAC"
+				"4A9E47C3F8DF24A3"
+			]
 			description: [
 				"{gto.steam.quests.05F4015974079225.description0}"
 				""
@@ -117,9 +121,8 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["24C53B5FF515ACAC"]
+			dependencies: ["6B2CA9AF06284789"]
 			description: ["{gto.steam.quests.4A9E47C3F8DF24A3.description0}"]
-			hide_dependency_lines: true
 			id: "4A9E47C3F8DF24A3"
 			rewards: [{
 				count: 16
@@ -1293,6 +1296,27 @@
 			title: "{gto.steam.quests.524B8340450628A3.title}"
 			x: 7.0d
 			y: 5.0d
+		}
+		{
+			dependencies: ["24C53B5FF515ACAC"]
+			description: [
+				"{gto.steam.quests.6B2CA9AF06284789.description0}"
+				""
+				"{gto.steam.quests.6B2CA9AF06284789.description1}"
+				"{gto.steam.quests.6B2CA9AF06284789.description2}"
+				""
+				"{gto.steam.quests.6B2CA9AF06284789.description3}"
+			]
+			id: "6B2CA9AF06284789"
+			subtitle: "{gto.steam.quests.6B2CA9AF06284789.subtitle}"
+			tasks: [{
+				id: "11775FE409428F82"
+				item: "enderio:grains_of_infinity"
+				type: "item"
+			}]
+			title: "{gto.steam.quests.6B2CA9AF06284789.title}"
+			x: -1.8571428571428612d
+			y: 1.4761904761904745d
 		}
 	]
 	subtitle: ["{gto.steam.subtitle0}"]

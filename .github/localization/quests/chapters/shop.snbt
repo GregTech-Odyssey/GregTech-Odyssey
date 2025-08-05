@@ -341,11 +341,6 @@
 					item: "constructionwand:core_angel"
 					type: "item"
 				}
-				{
-					id: "32ADC526F29FBF3E"
-					item: "constructionwand:core_destruction"
-					type: "item"
-				}
 			]
 			subtitle: "{gto.shop.quests.20AC600A32D51156.subtitle}"
 			tasks: [{

@@ -646,7 +646,8 @@
 		}
 		{
 			dependencies: ["6834E0CEC40F4286"]
-			icon: "ae2:4k_crafting_storage"
+			description: ["{gto.ae.quests.1403D3FC3E9A50E4.description0}"]
+			icon: "ae2:256k_crafting_storage"
 			id: "1403D3FC3E9A50E4"
 			subtitle: "{gto.ae.quests.1403D3FC3E9A50E4.subtitle}"
 			tasks: [
@@ -794,12 +795,12 @@
 		{
 			dependencies: ["6834E0CEC40F4286"]
 			description: ["{gto.ae.quests.5F522D73AF5F1B2F.description0}"]
-			icon: "mae2:pattern_p2p_tunnel"
+			icon: "gtocore:tesseract_generator"
 			id: "5F522D73AF5F1B2F"
 			subtitle: "{gto.ae.quests.5F522D73AF5F1B2F.subtitle}"
 			tasks: [{
-				id: "53358D9067CCC13C"
-				item: "mae2:pattern_p2p_tunnel"
+				id: "1E4C54B4C81BC629"
+				item: "gtocore:tesseract_generator"
 				type: "item"
 			}]
 			title: "{gto.ae.quests.5F522D73AF5F1B2F.title}"
@@ -884,16 +885,6 @@
 			}]
 			x: 5.5d
 			y: -7.5d
-		}
-		{
-			id: "49331E2CD0BEFDA0"
-			tasks: [{
-				id: "571E958B379B5DCC"
-				item: "gtocore:crafting_storage_max"
-				type: "item"
-			}]
-			x: 5.5d
-			y: -6.0d
 		}
 		{
 			dependencies: ["77D4250DECB277BD"]
