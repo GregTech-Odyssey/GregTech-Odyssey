@@ -453,8 +453,8 @@
 				item: "apotheosis:gem_cutting_table"
 				type: "item"
 			}]
-			x: -11.0d
-			y: -6.0d
+			x: -11.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["398D2331C3239A4A"]
@@ -470,8 +470,8 @@
 				item: "apotheosis:augmenting_table"
 				type: "item"
 			}]
-			x: -2.0d
-			y: -6.0d
+			x: -5.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["4AFDE77764237236"]
@@ -731,8 +731,8 @@
 				item: "minecraft:smithing_table"
 				type: "item"
 			}]
-			x: -11.0d
-			y: -3.0d
+			x: -11.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["2717094F5E3D8797"]
@@ -830,7 +830,7 @@
 				type: "item"
 			}]
 			x: -11.5d
-			y: 4.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["427DC8785355B089"]
@@ -842,7 +842,7 @@
 				type: "item"
 			}]
 			x: -10.0d
-			y: 4.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["71C0BA4A90C25568"]
@@ -854,7 +854,7 @@
 				type: "item"
 			}]
 			x: -8.5d
-			y: 4.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["1701B29C238BD80F"]
@@ -866,7 +866,7 @@
 				type: "item"
 			}]
 			x: -7.0d
-			y: 4.5d
+			y: 5.0d
 		}
 		{
 			id: "5B7DAE6B911E8A5C"
@@ -876,7 +876,7 @@
 				item: "apotheosis:filtering_shelf"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -2.0d
 			y: 2.0d
 		}
 		{
@@ -915,7 +915,7 @@
 				item: "apotheosis:echoing_deepshelf"
 				type: "item"
 			}]
-			x: -2.5d
+			x: -1.5d
 			y: 5.0d
 		}
 		{
@@ -939,7 +939,7 @@
 				item: "apotheosis:soul_touched_deepshelf"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 0.5d
 			y: 3.5d
 		}
 		{
@@ -982,7 +982,7 @@
 				item: "apotheosis:draconic_endshelf"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 5.5d
 			y: 3.5d
 		}
 		{
@@ -994,7 +994,7 @@
 				item: "apotheosis:pearl_endshelf"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 5.5d
 			y: 5.5d
 		}
 		{
@@ -1005,7 +1005,7 @@
 				item: "apotheosis:melonshelf"
 				type: "item"
 			}]
-			x: 0.0d
+			x: -0.5d
 			y: -1.0d
 		}
 		{
@@ -1016,7 +1016,7 @@
 				item: "apotheosis:beeshelf"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 1.0d
 			y: -1.0d
 		}
 		{
@@ -1027,7 +1027,7 @@
 				item: "apotheosis:rectifier"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -2.0d
 			y: 0.5d
 		}
 		{
@@ -1038,7 +1038,7 @@
 				item: "apotheosis:rectifier_t2"
 				type: "item"
 			}]
-			x: 0.0d
+			x: -0.5d
 			y: 0.5d
 		}
 		{
@@ -1049,7 +1049,7 @@
 				item: "apotheosis:rectifier_t3"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 1.0d
 			y: 0.5d
 		}
 		{
@@ -1060,7 +1060,7 @@
 				item: "apotheosis:stoneshelf"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -2.0d
 			y: -1.0d
 		}
 		{
@@ -1071,7 +1071,7 @@
 				item: "apotheosis:treasure_shelf"
 				type: "item"
 			}]
-			x: 0.0d
+			x: -0.5d
 			y: 2.0d
 		}
 		{
@@ -1082,7 +1082,7 @@
 				item: "apotheosis:ender_library"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 1.0d
 			y: 2.0d
 		}
 		{
@@ -1092,7 +1092,7 @@
 				type: "checkmark"
 			}]
 			title: "负值调节"
-			x: -3.0d
+			x: -3.5d
 			y: -1.0d
 		}
 		{
@@ -1102,7 +1102,7 @@
 				type: "checkmark"
 			}]
 			title: "校准调节"
-			x: -3.0d
+			x: -3.5d
 			y: 0.5d
 		}
 		{
@@ -1184,7 +1184,7 @@
 				type: "checkmark"
 			}]
 			title: "特殊书架"
-			x: -3.0d
+			x: -3.5d
 			y: 2.0d
 		}
 		{
@@ -1216,7 +1216,16 @@
 				"546C9693355DEC53"
 				"7A73559789867BF5"
 			]
-			description: ["&6恭喜你达到这一步，相信你已经构建了属于自己的完美附魔&r"]
+			description: [
+				"&6恭喜你达到这一步，相信你已经构建了属于自己的完美附魔&r"
+				""
+				"&2什么？还没有？&r"
+				""
+				"这有一套&9方案&r："
+				"水之过滤海洋书架*1，巨龙末地书架*1，精湛视界书架*1，末地聚合书架*4，  回响幽匿书架*4，璀璨末地书架*4 ，灵魂触摸幽匿书架*2，任意头颅*2"
+				""
+				"这套方案能够&a提供：&r50位阶，100%量子化，100%阿卡那，100%校准，和7魔咒线索"
+			]
 			id: "0C99B615FA9FA075"
 			shape: "gear"
 			tasks: [{
@@ -1224,7 +1233,7 @@
 				type: "checkmark"
 			}]
 			title: "完美附魔"
-			x: 6.5d
+			x: 7.0d
 			y: 4.5d
 		}
 		{
