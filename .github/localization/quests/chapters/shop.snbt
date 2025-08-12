@@ -341,11 +341,6 @@
 					item: "constructionwand:core_angel"
 					type: "item"
 				}
-				{
-					id: "32ADC526F29FBF3E"
-					item: "constructionwand:core_destruction"
-					type: "item"
-				}
 			]
 			subtitle: "{gto.shop.quests.20AC600A32D51156.subtitle}"
 			tasks: [{
@@ -367,25 +362,19 @@
 				"619EE8C56F705241"
 			]
 			dependency_requirement: "one_completed"
+			icon: "minecraft:shulker_box"
 			id: "49FE915485277EA3"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "450362F38985C084"
-				table_id: 9058340522588536399L
+				id: "6BE264408CCD624C"
+				table_id: 4782461671412595558L
 				type: "choice"
 			}]
 			subtitle: "{gto.shop.quests.49FE915485277EA3.subtitle}"
 			tasks: [{
-				id: "348A8326B667407D"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "c:shulker_boxes"
-					}
-				}
-				title: "{gto.shop.quests.49FE915485277EA3.tasks.348A8326B667407D.title}"
-				type: "item"
+				id: "318450403537DABA"
+				title: "{gto.shop.quests.49FE915485277EA3.tasks.318450403537DABA.title}"
+				type: "checkmark"
 			}]
 			title: "{gto.shop.quests.49FE915485277EA3.title}"
 			x: 11.5d

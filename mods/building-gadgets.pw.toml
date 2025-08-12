@@ -1,12 +1,13 @@
 name = "Building Gadgets"
-filename = "buildinggadgets2-1.0.7.jar"
+filename = "buildinggadgets2-1.0.8.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "466c8cf2a45d878a224a77525b254b044aba3bd2"
-url = "https://edge.forgecdn.net/files/5144/161/buildinggadgets2-1.0.7.jar"
+hash = "d06a806e8ca84a9e96a69c32da4b43226a51e0c9"
+mode = "metadata:curseforge"
 
+[update]
 [update.curseforge]
-file-id = 5144161
+file-id = 6850495
 project-id = 298187

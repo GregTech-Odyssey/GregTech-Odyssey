@@ -1,0 +1,72 @@
+{
+	id: "425EB78D3477FB66"
+	loot_size: 1
+	order_index: 11
+	rewards: [
+		{
+			count: 640
+			item: "minecraft:white_concrete"
+		}
+		{
+			count: 640
+			item: "minecraft:magenta_concrete"
+		}
+		{
+			count: 640
+			item: "minecraft:light_blue_concrete"
+		}
+		{
+			count: 640
+			item: "minecraft:yellow_concrete"
+		}
+		{
+			count: 640
+			item: "minecraft:lime_concrete"
+		}
+		{
+			count: 640
+			item: "minecraft:pink_concrete"
+		}
+		{
+			count: 640
+			item: "minecraft:cyan_concrete"
+		}
+		{
+			count: 640
+			item: "minecraft:purple_concrete"
+		}
+		{
+			count: 640
+			item: "minecraft:blue_concrete"
+		}
+		{
+			count: 640
+			item: "minecraft:brown_concrete"
+		}
+		{
+			count: 640
+			item: "minecraft:green_concrete"
+		}
+		{
+			count: 640
+			item: "minecraft:red_concrete"
+		}
+		{
+			count: 640
+			item: "minecraft:black_concrete"
+		}
+		{
+			count: 640
+			item: "minecraft:orange_concrete"
+		}
+		{
+			count: 640
+			item: "minecraft:light_gray_concrete"
+		}
+		{
+			count: 640
+			item: "minecraft:gray_concrete"
+		}
+	]
+	title: "{gto.rewardtable_concrete.title}"
+}

@@ -2081,15 +2081,15 @@
 					type: "item"
 				}
 				{
-					id: "5EF82DFFB5E35CBF"
+					id: "377170224E4EC88E"
 					item: {
 						Count: 1
 						id: "itemfilters:tag"
 						tag: {
-							value: "c:dyes"
+							value: "gt:dyes"
 						}
 					}
-					title: "{gto.main-stoneage.quests.07169625BC595BD3.tasks.5EF82DFFB5E35CBF.title}"
+					title: "{gto.main-stoneage.quests.07169625BC595BD3.tasks.377170224E4EC88E.title}"
 					type: "item"
 				}
 			]

@@ -46,12 +46,6 @@
 			id: "619EE8C56F705241"
 			invisible_until_tasks: 9999
 			progression_mode: "flexible"
-			rewards: [{
-				auto: "no_toast"
-				id: "0E35001385BD15A9"
-				item: "minecraft:shulker_box"
-				type: "item"
-			}]
 			tasks: [{
 				consume_items: false
 				id: "3E7E91883ACE5876"
