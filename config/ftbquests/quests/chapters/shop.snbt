@@ -85,7 +85,7 @@
 				item: { Count: 128, id: "gtocore:copper_coin" }
 				type: "item"
 			}]
-			title: "16k便携物品原件"
+			title: "16k便携物品元件"
 			x: -7.5d
 			y: 3.5d
 		}
@@ -229,7 +229,7 @@
 				item: { Count: 16, id: "gtocore:copper_coin" }
 				type: "item"
 			}]
-			title: "16k便携流体原件"
+			title: "16k便携流体元件"
 			x: -5.5d
 			y: 3.5d
 		}

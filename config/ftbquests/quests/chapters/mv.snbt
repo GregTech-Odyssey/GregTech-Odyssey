@@ -274,8 +274,9 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["58FBD21AFE9272CA"]
+			dependencies: ["307586CBEE0B955E"]
 			description: ["制造涡轮转子、锯片、工具的优良材料"]
+			hide_dependency_lines: true
 			id: "752E02060595192D"
 			subtitle: "超坚硬、超耐磨"
 			tasks: [{
@@ -377,7 +378,7 @@
 		}
 		{
 			dependencies: ["030007178B83809E"]
-			description: ["有了&6坎塔尔合金线圈&r你才能烧制出&6硅锭&r和&6钒钢锭&r"]
+			description: ["有了&6坎塔尔合金线圈&r你才能烧制出&6硅锭&r"]
 			id: "58FBD21AFE9272CA"
 			shape: "hexagon"
 			tasks: [{
