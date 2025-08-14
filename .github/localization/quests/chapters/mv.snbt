@@ -274,8 +274,9 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["58FBD21AFE9272CA"]
+			dependencies: ["307586CBEE0B955E"]
 			description: ["{gto.mv.quests.752E02060595192D.description0}"]
+			hide_dependency_lines: true
 			id: "752E02060595192D"
 			subtitle: "{gto.mv.quests.752E02060595192D.subtitle}"
 			tasks: [{

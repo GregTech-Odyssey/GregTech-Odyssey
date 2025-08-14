@@ -85,7 +85,7 @@
 				item: { Count: 128, id: "gtocore:copper_coin" }
 				type: "item"
 			}]
-			title: "16k便携物品原件"
+			title: "16k便携物品元件"
 			x: -7.5d
 			y: 3.5d
 		}
@@ -224,12 +224,12 @@
 				type: "item"
 			}]
 			tasks: [{
-				count: 16L
+				count: 128L
 				id: "2C24F64DE66519FA"
-				item: { Count: 16, id: "gtocore:copper_coin" }
+				item: { Count: 128, id: "gtocore:copper_coin" }
 				type: "item"
 			}]
-			title: "16k便携流体原件"
+			title: "16k便携流体元件"
 			x: -5.5d
 			y: 3.5d
 		}
