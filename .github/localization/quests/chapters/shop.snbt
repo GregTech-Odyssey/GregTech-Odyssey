@@ -236,10 +236,10 @@
 				type: "item"
 			}]
 			tasks: [{
-				count: 16L
+				count: 128L
 				id: "2C24F64DE66519FA"
 				item: {
-					Count: 16
+					Count: 128
 					id: "gtocore:copper_coin"
 				}
 				type: "item"
