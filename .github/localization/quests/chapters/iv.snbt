@@ -811,8 +811,8 @@
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
-				dimension: "gtocore:enceladus"
-				icon: "gtocore:enceladus_stone"
+				dimension: "gtocore:io"
+				icon: "gtocore:io_stone"
 				id: "1FAA893329885B46"
 				title: "{gto.iv.quests.335934E09401C67B.tasks.1FAA893329885B46.title}"
 				type: "dimension"
