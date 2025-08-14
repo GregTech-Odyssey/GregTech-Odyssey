@@ -1,0 +1,31 @@
+{
+  "type": "ad_astra:space_station_recipe",
+  "dimension": "ad_astra:earth_orbit",
+  "ingredients": [
+    {
+      "count": 64,
+      "ingredient": {
+        "tag": "forge:ingots/steel"
+      }
+    },
+    {
+      "count": 16,
+      "ingredient": {
+        "tag": "gtceu:circuits/ev"
+      }
+    },
+    {
+      "count": 16,
+      "ingredient": {
+        "item": "ad_astra:iron_plate"
+      }
+    },
+    {
+      "count": 1,
+      "ingredient": {
+        "item": "ad_astra:steel_engine"
+      }
+    }
+  ],
+  "structure": "ad_astra:space_station"
+}
