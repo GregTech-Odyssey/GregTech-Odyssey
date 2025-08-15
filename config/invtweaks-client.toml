@@ -60,6 +60,10 @@
 		containerClass = "com.lowdragmc.lowdraglib.gui.modular.ModularUIGuiContainer"
 		sortRange = ""
 
+  	[[sorting.containerOverrides]]
+		containerClass = "com.gtolib.ae2.me2in1.*"
+		sortRange = ""
+
 	#Categor(y/ies) for sorting
 	#
 	#name: the name of the category
@@ -129,4 +133,5 @@
 	enableSort = 3
 	#Enable a quick view of how many items that you're currently holding exists in your inventory by displaying it next your hotbar.
 	quickView = true
+
 
