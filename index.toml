@@ -1157,8 +1157,144 @@ file = "config/openloader/advanced_options.json"
 hash = "d08c3a750d2f50f0d6e66217e92bbbecc102ad91f66b8a263e48d1b6388bba3e"
 
 [[files]]
-file = "config/openloader/data/data.zip"
-hash = "17983456d844658bfd226edaf39a48f54dfe38c50b7f69b28d5eed242cf784e0"
+file = "config/openloader/data/data/data/ad_astra/loot_tables/chests/village/moon/blacksmith.json"
+hash = "fb7a6bb83bed83f3d97820640dcf697633b10f9da2c982c1d7f1ea9776f1e709"
+
+[[files]]
+file = "config/openloader/data/data/data/ad_astra/loot_tables/chests/village/moon/house.json"
+hash = "5d005008cbed36ad538f57d0bf268868a165635b125ba7bf9094b8542a7ffb23"
+
+[[files]]
+file = "config/openloader/data/data/data/ad_astra/planets/glacio.json"
+hash = "26325b84f5ca48a958866aa5b5dafa2d127dd642e54af0552ba53fe9798d76b0"
+
+[[files]]
+file = "config/openloader/data/data/data/ad_astra/planets/glacio_orbit.json"
+hash = "bcad6519500c494e53b4d4d0bd2a758a951377ebc7d91692b7f4441c85ef0ef4"
+
+[[files]]
+file = "config/openloader/data/data/data/ad_astra/recipes/space_station/earth_orbit_space_station.json"
+hash = "b815c2fc38eb5fbf0551c71e7f18037fb4b35922b6e4c98ffa4b823abf9cd1b0"
+
+[[files]]
+file = "config/openloader/data/data/data/ad_astra/tags/fluids/efficient_fuel.json"
+hash = "33975eff3c2c6cf9000bce7825e1256f756eb8a353be7e9b7011bb4298f97a65"
+
+[[files]]
+file = "config/openloader/data/data/data/ad_astra/tags/fluids/tier_1_rocket_fuel.json"
+hash = "e21eb68a8648c094fb8034eff910dd63c347675367f334baf2ec96d094d62041"
+
+[[files]]
+file = "config/openloader/data/data/data/ad_astra/tags/fluids/tier_1_rover_fuel.json"
+hash = "1570ba26caab4ba707f7c22fd40478dcb19cb1f74c07b77cf6e914346c91cc4a"
+
+[[files]]
+file = "config/openloader/data/data/data/ad_astra/tags/fluids/tier_2_rocket_fuel.json"
+hash = "99d442ec716a8e0fba801f999ecd83a3ec222b06e9582ac06338f84eee1b3a86"
+
+[[files]]
+file = "config/openloader/data/data/data/ad_astra/tags/fluids/tier_3_rocket_fuel.json"
+hash = "7306936ae537a4cfd0bfa80398724199aaf1a3ff993f0d9a15d94632a88af705"
+
+[[files]]
+file = "config/openloader/data/data/data/ad_astra/tags/fluids/tier_4_rocket_fuel.json"
+hash = "0f47c485c702bf4cce88da6b45001c5f864aba9633a128a13460d0751672f8fe"
+
+[[files]]
+file = "config/openloader/data/data/data/ad_astra/tags/worldgen/biome/has_structure/meteor_biomes.json"
+hash = "19697430c4a3627dbde71596b4d0e9c64340499b83725de98538c94633163daa"
+
+[[files]]
+file = "config/openloader/data/data/data/ad_astra_rocketed/tags/fluids/tier_5_rocket_fuel.json"
+hash = "332a1d3cb7c7c18d00b86d6c1e5001c7ff7395e718dda652d71e3ce7fae5a2fb"
+
+[[files]]
+file = "config/openloader/data/data/data/ad_astra_rocketed/tags/fluids/tier_6_rocket_fuel.json"
+hash = "0a768abbc43ede6bc2ca7ae8887de4e7f940fbe3f3523e3891538d774a3361d2"
+
+[[files]]
+file = "config/openloader/data/data/data/ad_astra_rocketed/tags/fluids/tier_7_rocket_fuel.json"
+hash = "9a998aa4524f3b7fccbced649c65e3ff05db97cce72791e1225fd433f0db653d"
+
+[[files]]
+file = "config/openloader/data/data/data/firework/functions/launch.mcfunction"
+hash = "0c70b24cb735b9387876f78ac264887b9f8af0f1e843bc59b1aa4658d700422a"
+
+[[files]]
+file = "config/openloader/data/data/data/firework/functions/launch1.mcfunction"
+hash = "d8f91ff41b609be460f5c287aa4ca6c222f53bad7131da5069c60193161a1e3d"
+
+[[files]]
+file = "config/openloader/data/data/data/firework/functions/launch2.mcfunction"
+hash = "1b7edb7e62f5fb4fbfa2c5fdde2b45b522e4d4d6e06cb358abc9dfed5ec2f899"
+
+[[files]]
+file = "config/openloader/data/data/data/firework/functions/launch3.mcfunction"
+hash = "f5fbe28afacacbe94c9aee7dcee7da11effc80d7983a9d562c5edde83d056ffd"
+
+[[files]]
+file = "config/openloader/data/data/data/firework/functions/stonelaunch.mcfunction"
+hash = "97d157c66f6d3ffe41f50984896cea66bf2f0b5decf82aeb32a678f955d5d74e"
+
+[[files]]
+file = "config/openloader/data/data/data/forge/tags/items/dough.json"
+hash = "82b67aedba00f66909c51c1086c3c230e7b0351564aa7291c2c4522b21b36d2c"
+
+[[files]]
+file = "config/openloader/data/data/data/minecraft/loot_tables/blocks/grass.json"
+hash = "bffc75f87e70c413c7f88b18382b6e6c2961f690683850dbad6e6072272afb8a"
+
+[[files]]
+file = "config/openloader/data/data/data/minecraft/tags/blocks/replaceable.json"
+hash = "8364f2d4e0717ac080f2cea1a8003b350d6e3e3dbed07ccf580c543ba23bb393"
+
+[[files]]
+file = "config/openloader/data/data/data/minecraft/tags/worldgen/biome/has_structure/ruined_portal_desert.json"
+hash = "19697430c4a3627dbde71596b4d0e9c64340499b83725de98538c94633163daa"
+
+[[files]]
+file = "config/openloader/data/data/data/minecraft/tags/worldgen/biome/has_structure/ruined_portal_jungle.json"
+hash = "19697430c4a3627dbde71596b4d0e9c64340499b83725de98538c94633163daa"
+
+[[files]]
+file = "config/openloader/data/data/data/minecraft/tags/worldgen/biome/has_structure/ruined_portal_mountain.json"
+hash = "19697430c4a3627dbde71596b4d0e9c64340499b83725de98538c94633163daa"
+
+[[files]]
+file = "config/openloader/data/data/data/minecraft/tags/worldgen/biome/has_structure/ruined_portal_ocean.json"
+hash = "19697430c4a3627dbde71596b4d0e9c64340499b83725de98538c94633163daa"
+
+[[files]]
+file = "config/openloader/data/data/data/minecraft/tags/worldgen/biome/has_structure/ruined_portal_standard.json"
+hash = "19697430c4a3627dbde71596b4d0e9c64340499b83725de98538c94633163daa"
+
+[[files]]
+file = "config/openloader/data/data/data/minecraft/tags/worldgen/biome/has_structure/ruined_portal_swamp.json"
+hash = "19697430c4a3627dbde71596b4d0e9c64340499b83725de98538c94633163daa"
+
+[[files]]
+file = "config/openloader/data/data/data/sophisticatedbackpacks/recipes/copper_backpack.json"
+hash = "9680326c3db9492256101dcfb0daa2fe65108a6bfef0a0ff3bf4955a5603e150"
+
+[[files]]
+file = "config/openloader/data/data/data/sophisticatedbackpacks/recipes/diamond_backpack.json"
+hash = "2223084f8488f0216326aa80f3d0d65a19db2eaf375d9007a4527c1df5edb830"
+
+[[files]]
+file = "config/openloader/data/data/data/sophisticatedbackpacks/recipes/gold_backpack.json"
+hash = "4f5b667d16281c282fdab46b3ff0c1e4e4580acc9992b4e5896cd4952feddb18"
+
+[[files]]
+file = "config/openloader/data/data/data/sophisticatedbackpacks/recipes/iron_backpack.json"
+hash = "2880766093ccb3b82538ff646bff637f64e41a61ae3e60014dffd02484e7583b"
+
+[[files]]
+file = "config/openloader/data/data/data/sophisticatedbackpacks/recipes/iron_backpack_from_copper.json"
+hash = "fadf7ae17b855fc9754376eaed355ae223b7e28d48f1e38f2145edd00d7fd3c1"
+
+[[files]]
+file = "config/openloader/data/data/pack.mcmeta"
+hash = "c1f4096060432fc606b51342f6479e5bad701fe36dcea1db5b793cc047b255f4"
 
 [[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/en_us.json"
@@ -1177,8 +1313,700 @@ file = "config/openloader/resources/quests/pack.mcmeta"
 hash = "74f2d797b0fbd6405998031cd10c30193f4b53bb3ad96d2aa9b31ad5ded26191"
 
 [[files]]
-file = "config/openloader/resources/resources.zip"
-hash = "3ba451737098eb0393307ec0261c564c3c28cbb39bfa28c9eb37a98a7b2bb083"
+file = "config/openloader/resources/resources/assets/ad_astra/textures/item/calorite_plate.png"
+hash = "179e1a298b6bae128580a210de636a755b78f3474dd2d36d4b7ba0f98226145b"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/ad_astra/textures/item/desh_plate.png"
+hash = "c58dd1d29510725695b8697c1819d8b431b2c428936cc3dd276c068b62bfc54c"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/ad_astra/textures/item/iron_plate.png"
+hash = "29a72723c8be677a9f774790d9f1d84c1c37064541463964fff57050b8f57b56"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/ad_astra/textures/item/iron_rod.png"
+hash = "f3f928aaeb83a4da83ba9ddd74909023320a19e585259222bd6634307d297425"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/ad_astra/textures/item/ostrum_plate.png"
+hash = "22fe3469ee5be7cb497328159752d017f5f1f3fb7b0292d7bbbf14159c305445"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/ad_astra/textures/item/steel_plate.png"
+hash = "5e5fcf6b336f45be1503d787d276ee66ea70b545e2de892fb0ff69e77161ba52"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/ad_astra/textures/item/steel_rod.png"
+hash = "452494d2f83da06b6fd4ed63b595990bf1223633ce6f64752372e6621ea83851"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/ad_astra_rocketed/lang/zh_cn.json"
+hash = "daaf259ba7aa25bc17970646bd8239791baf3a6ba0ad6658285f9e992b907693"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/ae2/textures/guis/pattern_modes.png"
+hash = "de819a4207ff5c67cb6b3d74b7614529fed4fc9f5b274b92e27b9e601065e726"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/ae2insertexportcard/lang/zh_cn.json"
+hash = "e8dc9bc1a7b939c79953c452d7f20f89c11dc530ea89c80ae46ca7f74148d92d"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/appbot/lang/zh_cn.json"
+hash = "0471ace0b329b7cae31a1368e4da91e843b772d8a06ece914da66041c579bb90"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/arseng/lang/zh_cn.json"
+hash = "1539646621c9072dd90aff4e1ef85ea8dc3502e4fd5c53934f0168ae27de256d"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/chisel/lang/zh_cn.json"
+hash = "aad5dc200645865874bffeddd56c2bf18efef3e2a5501ec927598eed2bd1a21e"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/craftingstation/lang/zh_cn.json"
+hash = "beb24a761956d23cb922a506607258a7fb56f2299fa74c063b4e51eded87ecc6"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/effortlessbuilding/lang/zh_cn.json"
+hash = "68b66e22dda95b7ce4c60172b7fea1069dee7c4bff6cb0ff3b12874a667d334b"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/emi/lang/en_us.json"
+hash = "4dc30d3cff7bcfcf90352ae69ae908bb4480f40400865c39b2c11edb18388995"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/emi/lang/zh_cn.json"
+hash = "b518ca8e321baf941eb799d7d270b209945f60ed1a7b1ae55d3fe91ec16ce22d"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/factory_blocks/lang/zh_cn.json"
+hash = "b868579684fa2988f8da485d62c42953824489c5765391baad400b061fe430df"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/farmersrespite/lang/zh_cn.json"
+hash = "4a8b7ee900e7d4711c3cc21b1dc415d6efadf7e8a9c6d6c81c9e22443dc18f82"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/ftbessentials/lang/zh_cn.json"
+hash = "a2fa9b89d49442b31303160be265568b7f303c63ee7b7a32db6cf00048c046c0"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/ftblibrary/lang/zh_cn.json"
+hash = "4303250ae4555305b6b83673292f39063e68a3219b70e869b2f9ab051d8771b4"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/ftbquests/lang/zh_cn.json"
+hash = "c62dbd86b3650599d70ef61f72b4214189322da005d24a35a6a915916dc0b80d"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/ftbteams/lang/zh_cn.json"
+hash = "ee0b2c8f2745cc6881188a10a2b09f70800dc4248ac9ed9773fdcd8c42244fb9"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/ftbultimine/lang/zh_cn.json"
+hash = "50db468a93b8328b22c5e441101ee3b4b374b0b664477414aa4c1f0436cfac20"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/gtceu/lang/en_us.json"
+hash = "85f4a1defb66e8e279c3665372fd74ba60ebc12a4c496704a38a554daeece82d"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/gtceu/lang/zh_cn.json"
+hash = "247082a74f62f3f15aa074bc64cee2ac97bc81eb97e95258433db796b10ce34f"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/gtceu/lang/zh_tw.json"
+hash = "f24e61b374f17b35496ace9fb6d230fc9ac601016b4b2f50ce51b5bf9e08bbf9"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/gtceu/textures/block/multiblock/electric_blast_furnace/overlay_front.png"
+hash = "881896f97903630bfcc3d49e7fc0cbab365d3e4d052b7eaca297d7321da56d00"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/gtceu/textures/block/multiblock/electric_blast_furnace/overlay_front_active.png"
+hash = "441128e676ba9e3ba1363b4a191c13983e0859298885a97dce60329d0cbe199b"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/gtceu/textures/block/multiblock/electric_blast_furnace/overlay_front_active_emissive.png"
+hash = "db1d92a553accfd60ba952ac87235f98d63df0d297f35e24f2f2b54ddf14bb33"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/gtceu/textures/block/multiblock/electric_blast_furnace/overlay_front_emissive.png"
+hash = "e7d050a86da7573b50e032c72b533e0677163e69db9b37c9e7b4efafc8d5233f"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/gtceu/textures/block/multiblock/electric_blast_furnace/overlay_front_paused.png"
+hash = "d3386e5892d0b533702f1d1d17108647111bc551c6052b5199a0eb47101b9164"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/gtceu/textures/block/multiblock/electric_blast_furnace/overlay_front_paused_emissive.png"
+hash = "0adc059a95267b09d3e73d327d1845651d2be6669bc7a5ce3d2a13509074a0ac"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/littletiles/lang/zh_cn.json"
+hash = "40525b8b7421f80528898f836e0d9baea3c5c71d7c84b59e0a7781c2a3f1e070"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/mae2/ae2guide/_zh_cn/faulty_card.md"
+hash = "dd0b3ac21a55dc34ba2edadd6f3eed2291c54226969e14fbd68548f69dac88fd"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/mae2/ae2guide/_zh_cn/multi_p2p_tunnels.md"
+hash = "4e94585e7c6c85c42259f778625494e11ee105fc6126f1cdc1280041a89aafe7"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/mae2/ae2guide/_zh_cn/pattern_p2p_tunnel.md"
+hash = "afc4e6d298804f050d226a34dc695f78e36edb18eb7b3698a9412d4386e9f031"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/mae2/ae2guide/_zh_cn/semivibrant_glass.md"
+hash = "53e312b7c9153105b72c1e3d016bcdc29a810aa8f5a6d2df3c9d41ab0f662531"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/mae2/lang/zh_cn.json"
+hash = "c193b484b7a5dc83fd3399f944f8858eb02272b22dff2fc9e9720e7eae6bdc09"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/blockstates/black_stained_glass.json"
+hash = "2e5ca9895aaa982ba7f198703d8eb5f37a8c9d2844720139d78fc4cdb567dd27"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/blockstates/black_stained_glass_pane.json"
+hash = "8c9c41e866bb966fec39b3b1c156f8b3b011b3f269a1d54b8d915f07d15d76da"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/blockstates/blue_stained_glass.json"
+hash = "4f5bfc098ec02dc400d04ab22f6ac8dc26bffb42fb87b1ec9dc30b47d1335a4a"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/blockstates/blue_stained_glass_pane.json"
+hash = "e95aba5595517d8bd9b3de3091a7ea1b0a3fc16bc5668318eaa9d011840de899"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/blockstates/brown_stained_glass.json"
+hash = "a81a07135acdf42f44133ba38db33de132722cedf935fb1a8313bcf7450e8f18"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/blockstates/brown_stained_glass_pane.json"
+hash = "e3d72528bba5faaf16ea53e1deefaf7961a8d7e341317ee872818913930a96ac"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/blockstates/cyan_stained_glass.json"
+hash = "9cfc30bcafa8fa9174fff84001df7d08663262ff160da40a32f879cde85848ff"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/blockstates/cyan_stained_glass_pane.json"
+hash = "fb260de47e06c6c34cf23f1ab662f1e6dedb261a925e13562efd78db510dcaaa"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/blockstates/glass.json"
+hash = "c7786458cc9e4136b03e790be85ab7e99ea54d316a6d0cfe9c751401715f0777"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/blockstates/glass_pane.json"
+hash = "5df5c0a2da9b5b350f38988a92daf914a90d7485c6247f96f3aec98afc5d296b"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/blockstates/gray_stained_glass.json"
+hash = "bddbb9e4c3b4fe37fc1b18807e95133afa81cee94e3604abd05e6583d061e4c9"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/blockstates/gray_stained_glass_pane.json"
+hash = "2480c6ea55b144b585a61ecdc43de476176032470ba48861db4cab0611ec0265"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/blockstates/green_stained_glass.json"
+hash = "94b0d8d2d0c45a12bb2d296ceb66b8f25db5b64c0a774ad2f2486503c5a50fc7"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/blockstates/green_stained_glass_pane.json"
+hash = "1ee3a0411d43b47312326e15db00412190255b1ed1dd009176878a93dee2f51a"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/blockstates/light_blue_stained_glass.json"
+hash = "af96e74c1a69b69267ec80c1c4f2088f31ccd7130a0c1a7078e1433cb69bc3b9"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/blockstates/light_blue_stained_glass_pane.json"
+hash = "c53f9df0c202fe0db7dfb10b0c4553eadaa2bfd9437b01cd65e70b780150d925"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/blockstates/light_gray_stained_glass.json"
+hash = "cf2a5fa6945da226ae84c26b5f6f11fde89c5fabe26798a44e431d803cbe2393"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/blockstates/light_gray_stained_glass_pane.json"
+hash = "aede6cee65556499b8d44648dc5967f3c7afc11aca9c427301b9e25b79b2c54f"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/blockstates/lime_stained_glass.json"
+hash = "8f17c30a978c13db26df82f6c2e2a979896bd1498a9323734e3d7e17a993f53e"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/blockstates/lime_stained_glass_pane.json"
+hash = "ed618e72f8fd7db5d3b6eb197dbe03f20fd5f49c4428d2941dc4fca57ff7dfb3"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/blockstates/magenta_stained_glass.json"
+hash = "8ba98dd00683c1a2ede8eed9e1553052ab11a0c54ef260d1ed74b288dc7105bc"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/blockstates/magenta_stained_glass_pane.json"
+hash = "238728927d1579aa4817130b8d72a1f25c3ed7a7a368b2865f079788ba70ba6b"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/blockstates/orange_stained_glass.json"
+hash = "ebe9b7fa83116de1d17375fad457a3b4db9804af8605ac9c3b7f4f5e75c6a7a4"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/blockstates/orange_stained_glass_pane.json"
+hash = "264a6dfd7e158e7da7d86fe0841c62b7f49e13589cd801f627ff15eac9ba28c6"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/blockstates/pink_stained_glass.json"
+hash = "a7bc79c86f99e89782881b118aca6423b583729f29e802b002cbbecdb2ea6ee4"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/blockstates/pink_stained_glass_pane.json"
+hash = "057f21106dd318c8bef2d10c9b800ffd3932e2ace6af9f4f7c5e022b20c0d138"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/blockstates/purple_stained_glass.json"
+hash = "46a646a03fbd61709b2378a0514cc535b51380e05b22dca17e4e8fc08c586a9e"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/blockstates/purple_stained_glass_pane.json"
+hash = "2709820b1629bb9cb64e47837171e3ba75909ec9a423118d0a6b3f43e406777c"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/blockstates/red_sandstone.json"
+hash = "d6d4e1419e728561e1b6c667178c322781513625c2fb61b003d270f84e261992"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/blockstates/red_stained_glass.json"
+hash = "5c1de5ad838a776b855a59f88245718d4539197ef3d9381e538730199b44b9c6"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/blockstates/red_stained_glass_pane.json"
+hash = "def816eb1e6094b44294af803d89fd86057ede9259889a0c1221a52030020f99"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/blockstates/sandstone.json"
+hash = "87f6645b8bb2b27441fc68fc80c665883884be3b4ad4a2fc2cc9c5706637effc"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/blockstates/tinted_glass.json"
+hash = "6bca2fc3fddc6287d222cc89dd70d83ad177470c1e259da051cdbc40ddc90955"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/blockstates/white_stained_glass.json"
+hash = "f903e4be505da22db1b05976e0cc030c60f2a2394f1ff91faa7d7dbd11931081"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/blockstates/white_stained_glass_pane.json"
+hash = "2d0a90681c165e8e9be7b331b051f35c0154bfa2ae832e9c662bf6899ec7be40"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/blockstates/yellow_stained_glass.json"
+hash = "4973145d57865a78f08280f6b1305d3ebd5e1def1d5b7c94555c1cf71a2d37b6"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/blockstates/yellow_stained_glass_pane.json"
+hash = "4b31cd424be28ee933b4392216c3b1c85ca922b18f66524e0cb7390c3b052807"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/textures/block/ctm/glass/0-1.png"
+hash = "b28d873dacfe902433c2860dd67b6c7db2d997694507c03e446b4b5bfb8f6d59"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/textures/block/ctm/glass/0-2.png"
+hash = "420fdeb743e74ad91e8a9de9bd43c080a69c2e7a45a7d3f76d6ce8baa334530b"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/textures/block/ctm/glass/0-3.png"
+hash = "8e1ff1a2d3b1f96d1a335bd49d6238cb6234a4194b144caa7c25fa23fb4817f5"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/textures/block/ctm/glass/0-4.png"
+hash = "cb89c706dce86eac3123cef087d359b5f23098b658a468fb91662b4a9922bcd0"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/textures/block/ctm/glass/0-5.png"
+hash = "061e2333047c9a57202e8d7730825a02838ce1c534964d64d27e7a80afcb5596"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/textures/block/ctm/glass/1-1.png"
+hash = "0c5a00dac18907526a88ddfbc86740506713278cc85179511b0f89c24ee7bb9b"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/textures/block/ctm/glass/1-2.png"
+hash = "c9e462b0cd7d8c6d2c2eecb012690d8bccf75eeeacc107fcf3140152eec4034a"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/textures/block/ctm/glass/1-3.png"
+hash = "0f34635935dc67f24a425f3dff54db76b60f8342036af9eec5bde9f0162cddc3"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/textures/block/ctm/glass/1-4.png"
+hash = "c05b4138b96551d63357ec3845911ef3848cbbd76957ac1aa1ae4003b113c75f"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/textures/block/ctm/glass/1-5.png"
+hash = "11966e9c2b7e8d3dfd2e711b86ec0a2e70bb981e167ec9de03193e3ba4e619a7"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/textures/block/ctm/glass/10-1.png"
+hash = "0f9e978adf8724be61db86d1bb0a1741a82217408bf857f94fb05019abfc7e4f"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/textures/block/ctm/glass/10-2.png"
+hash = "446a21e115c1dc48784ea94dd45d9d993d3ed2554e1cdac6541d436d5f5723f4"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/textures/block/ctm/glass/10-3.png"
+hash = "7a2dc3ff443995a5c2d27fbe0d7294ef6cafe6909d46240febe4b93541104a7f"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/textures/block/ctm/glass/10-4.png"
+hash = "be07ea9fb37ff7f8c94945570c2ea2864a7080bcf16aeef7decea7479d9c73e4"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/textures/block/ctm/glass/10-5.png"
+hash = "33bfb6c4cd1b09745eb8135317ab7a77728c95ea99570bc07cf6104253536004"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/textures/block/ctm/glass/11-1.png"
+hash = "1446a6e6b2d2715d1145a76f729e9f2882641b0642ae089609488bcb743a3f98"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/textures/block/ctm/glass/11-2.png"
+hash = "c232e90e0d1c4d461885430dd8af9da2a5050cb63a5c03909349d1303e17e8e2"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/textures/block/ctm/glass/11-3.png"
+hash = "e408762522cddd8ca40f50f888d9636e8fe81e74fc01defd24253abf32fa397c"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/textures/block/ctm/glass/11-4.png"
+hash = "136ad613ee1da3520bc980cc8376abd3cf1dddb886cf89eaf37820ca051711ab"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/textures/block/ctm/glass/11-5.png"
+hash = "3128ca54c11a4ff4be8fa07af5981d305b49c24d2233a3f63621ae030fa5a295"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/textures/block/ctm/glass/12-1.png"
+hash = "ae0eb19ef9cdca7b55d718db1893ddea4935fe7b7a87bf5e178568db8e14c7a9"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/textures/block/ctm/glass/12-2.png"
+hash = "6c936b15fe314bd6a1513b851b12988be74abe96f5f0bdc53ed7fd02fcdbb248"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/textures/block/ctm/glass/12-3.png"
+hash = "91b20f67f7c7848d35d073dd611dd5e41f638481a33ad3f52269fee4cf671d06"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/textures/block/ctm/glass/12-4.png"
+hash = "f0ec69c010c1483ede08e4f97366f265e4955907f74b7df8ebb3f3c94b01d025"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/textures/block/ctm/glass/12-5.png"
+hash = "8af9ed51289daef927d38575e2bdd56e6fce157edd1aca2ef818744fa3b7fe84"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/textures/block/ctm/glass/13-1.png"
+hash = "f87099222f0b93d11eab5999bda80839a0d4c915bd53f8a6115ad7d658b24abf"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/textures/block/ctm/glass/13-2.png"
+hash = "d0cdee9d8d7507b08842c8dea01b7c1ac6432bf996f04b4abf3eb539f2fd39dc"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/textures/block/ctm/glass/13-3.png"
+hash = "befd8318f41fb2f5117c77d96c9b3785a6f0a17a6f6296f73a7f6777b9880f63"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/textures/block/ctm/glass/13-4.png"
+hash = "da79fb23035869e65ebddf329c2f05b49217c30f6bf68d69e6488b2ca7630734"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/textures/block/ctm/glass/13-5.png"
+hash = "d6515bf1b78f21e9ccd3243876c382b7d97c56189bcf885953691c4992acd82f"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/textures/block/ctm/glass/14-1.png"
+hash = "39ad93643a2c9812790f14f95f844a9daa3958612d8b02d2ba79c27501749c19"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/textures/block/ctm/glass/14-2.png"
+hash = "73708a06931ff804ba5b77698c09e2bb8b03156bd5f3992317197ccce0ffa7d1"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/textures/block/ctm/glass/14-3.png"
+hash = "e45423084da4e16fbea8cba7f2c8a24798c7c783bbebe88b805364319b368f49"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/textures/block/ctm/glass/14-4.png"
+hash = "bc2b8b14463483715ff4f5bfa43eaba657a41d376435f0c46a265452bc4c543e"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/textures/block/ctm/glass/14-5.png"
+hash = "b7dd11bf50f59d4cef5690ad80b6d48e8a0f02e779b6bf44f8e14e89a29e66fa"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/textures/block/ctm/glass/15-1.png"
+hash = "79c24b17fc634efefc25097c668f2777377e17ecd238f81e088caf0e4c2ad6e0"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/textures/block/ctm/glass/15-2.png"
+hash = "df65829e9de9251fc765421e2d2f42cb9c75fdbce1b07c5b3f6ed9dd21c8a8e5"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/textures/block/ctm/glass/15-3.png"
+hash = "cc58a7ab9ceea7a4eb9a4ae6f51593a2c16f87b455341cd3aa8f1150dde9c583"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/textures/block/ctm/glass/15-4.png"
+hash = "696d5d7f921d0e39889c3e051e2cb9b1e740cbf9c1468ab8ff31bde854721693"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/textures/block/ctm/glass/15-5.png"
+hash = "0912994b90251539fb36968b640481596b688fd7c6a56a035bda1473405e82f0"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/textures/block/ctm/glass/16-1.png"
+hash = "25a067a48ae91db869abbfaa2d911125b77a271ba33639a6ba1a4266798922ff"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/textures/block/ctm/glass/16-2.png"
+hash = "a84273cf24610c5fa4148933167fda6808dc1c8e586a06ac61f9bffce3ca58bb"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/textures/block/ctm/glass/16-3.png"
+hash = "16fc6255c5616e1bac5952433139ae920f703684443b15d00716250b52e7a82a"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/textures/block/ctm/glass/16-4.png"
+hash = "3ed8187f87a5725f1ae3052b38248aa16ddf9af11afd6760beb51c357c36cae9"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/textures/block/ctm/glass/16-5.png"
+hash = "ee854b7c17be0f81ae52f94b67a6cab4847103f1856570a4417409251dd5b63a"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/textures/block/ctm/glass/2-1.png"
+hash = "8c3e62b63b7b3a8fada1d567460edc6c25078a0cd75b438b6239923a1cd2c149"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/textures/block/ctm/glass/2-2.png"
+hash = "4152992d47637d4879741f4927a791db68212bd1f1ca2526cc87c266b7796959"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/textures/block/ctm/glass/2-3.png"
+hash = "6ab5eac45bd5b1d3d2a2bcb18ee419bec4c45e112e5ff6a0a58693bf80083745"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/textures/block/ctm/glass/2-4.png"
+hash = "7e5a10997341d041c091cd6bd7fdc150a18e510075bf2803d79540bd8c620290"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/textures/block/ctm/glass/2-5.png"
+hash = "26bc5c17aefe0f95966cc5f17558ccacad6cbe2e08d72d3f55d95239b5c4a1ba"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/textures/block/ctm/glass/3-1.png"
+hash = "8ec72cf85f94756d7fc927c7d39b46e718b672de8748f5ca1faa3ad282a1cfc8"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/textures/block/ctm/glass/3-2.png"
+hash = "4100a993e7341e07abe8c2b96a2946901c22f9e408c188e5f635c3adea9d7595"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/textures/block/ctm/glass/3-3.png"
+hash = "e5d23b414eab4ae7f7b8b1966532605616f7368a9931554502e657f7cc3cf52d"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/textures/block/ctm/glass/3-4.png"
+hash = "1d835741ad220db343a3469f0c9ec07fe701c974bc97f62aab50fe158fb13a81"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/textures/block/ctm/glass/3-5.png"
+hash = "159799cbfa90f5cfa9e3f1d62f2624188a3de75b51aafb9ff7a44f8f8c989c00"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/textures/block/ctm/glass/4-1.png"
+hash = "ec32cffd53bc9a58e314701f56d7e97e3f0dc8b0eac8c5e9c6a33b685a8df74e"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/textures/block/ctm/glass/4-2.png"
+hash = "2c76e008e0f616f0ed5bdf6debb78acd0915b8adc681f9f5b84b991ad7b9c670"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/textures/block/ctm/glass/4-3.png"
+hash = "4ee38fc632e8e6bd187c479d24bf34e7b157108c256b3d3069fe35eb856ff965"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/textures/block/ctm/glass/4-4.png"
+hash = "28588faae6c5287a863a77310253e4a836192c13e1f46c0d369075e0576234e4"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/textures/block/ctm/glass/4-5.png"
+hash = "5a592c96ee4afbfc266fc4d514a71f8bc9b1dcce4845a2f03d9d54905aa342b7"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/textures/block/ctm/glass/5-1.png"
+hash = "a459e30bc7dbda64b48deca42e9cceba98f101af2b35b29a9074fe78d704ef47"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/textures/block/ctm/glass/5-2.png"
+hash = "9588b6a79da74d39896fda8e049dea6cfd217e76c821a7722332e1e0755a9aaf"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/textures/block/ctm/glass/5-3.png"
+hash = "cc104f03480bd5425c0e5235173ccfa12b00b5cc27e59302cc52b62f08e13b0d"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/textures/block/ctm/glass/5-4.png"
+hash = "ef63e3fa74f2dda2c65c0946698493e063f42f4b9f411abaa03b98ea57499e6d"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/textures/block/ctm/glass/5-5.png"
+hash = "33eb942ac9577002560cdc796a7bf52544a01983f2863c44d1c4c57f5ae38a5a"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/textures/block/ctm/glass/6-1.png"
+hash = "90affae21cbd4205effaf13c713b68db500523f1f89367b27fb671cb2446f02a"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/textures/block/ctm/glass/6-2.png"
+hash = "3913c7d5e428861fa6f78053994aae59e22f0548f65bd4ae35370377e3a8835d"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/textures/block/ctm/glass/6-3.png"
+hash = "407252ff5fde101e77c107964703519ab2efc2202b3185078b3b1104c81b151e"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/textures/block/ctm/glass/6-4.png"
+hash = "dc82be445bd9c7cf158bd57651d51bfef400310f2ad4937fe1e5b1c60b4f5916"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/textures/block/ctm/glass/6-5.png"
+hash = "edeaa88d1ee1e3d99b7d45c2f0750519044946f26a966e7815c0317b94359a4a"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/textures/block/ctm/glass/7-1.png"
+hash = "e2a2b6761b37e0b6b6bdfd585525f643adf8a39faa896a33faa0d808709f8891"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/textures/block/ctm/glass/7-2.png"
+hash = "4d6e4e9d7c08e12a465f5075f43102691bf086d7129588a82e209569f0909519"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/textures/block/ctm/glass/7-3.png"
+hash = "5630fe5ed8e73f10ce114cca338f3f1a1aec80c47fd8f75c1a1e57d5779a16ea"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/textures/block/ctm/glass/7-4.png"
+hash = "9e42d238c974136ca7c16ff434c825064b78a4d82341708638a76ffd844c544f"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/textures/block/ctm/glass/7-5.png"
+hash = "df3545f49269b94451091fbc7af5acbe72a3139dff5bb365e105e2f63624a091"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/textures/block/ctm/glass/8-1.png"
+hash = "40ca3be92d08017ae8e41ff7a9bee265e137acc91e21cf2213c47a45e61fe819"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/textures/block/ctm/glass/8-2.png"
+hash = "04a1053fc7a673285bf1c596bfb8f131a890f583a5bd78559e61ee1bbab02c02"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/textures/block/ctm/glass/8-3.png"
+hash = "64dd26d25cd9c6eedef952843be703630f3f3f9c2f0c379eaf616df8f308b219"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/textures/block/ctm/glass/8-4.png"
+hash = "be543d3ad17a329c69b7496bb45ab5ee34d6cb174b35a50c72a871dc45caf1e8"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/textures/block/ctm/glass/8-5.png"
+hash = "0f7bede5b8c62409eb523aa93cddac0bc5c7c252b49044e5cbd80b7beb69811b"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/textures/block/ctm/glass/9-1.png"
+hash = "c3ca77b48deb24ffdfca2e646ccfa62d9aafe0386bed1cd0dafc4e4086960e6e"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/textures/block/ctm/glass/9-2.png"
+hash = "332165cf42913f501ab954757f428c11fdb99e38bce1c3a45c634218865a45e2"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/textures/block/ctm/glass/9-3.png"
+hash = "ad112376b54126d3050b98e063baed772d1fea2e9b7eddb0b6bfbe670cd872b7"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/textures/block/ctm/glass/9-4.png"
+hash = "dd7e27b22c7318ee27bc3eca7686a1eb9d960b25a9c723793555cb8e3ca7b69e"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/textures/block/ctm/glass/9-5.png"
+hash = "099eaa1076aafd106682890fcf8ffd5450007cfd41030503344cd53ef8eec9be"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/textures/block/ctm/glass/a-1.png"
+hash = "9be130e1688ede1fae0788935a15ad449e00aa3ca448617791d955101b12fe73"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/textures/block/ctm/glass/a-2.png"
+hash = "5ca536f7c3b5f812469c8e2fce932bac187945fa330e91629513346e1320f065"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/textures/block/ctm/glass/a-3.png"
+hash = "6258d0bd8708388b03c9d397f97f1f932151f4a7620f6bda8b8176c643a03f94"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/textures/block/ctm/glass/a-4.png"
+hash = "952be5587f213aaac8bc93c2159dadfff2beb9c7b4cd5acc270c8a011632d950"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/minecraft/textures/block/ctm/glass/a-5.png"
+hash = "bbf53b95cf08483e2fcf7f90f1e606713d70c5a514f67f9dab76975053a8941a"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/openpartiesandclaims/lang/zh_cn.json"
+hash = "d41a5129477d6cebd1d47b2335ca15fa172e8f28474114ceedaed016a0ee9b54"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/shrink/lang/zh_cn.json"
+hash = "bccd49f38f55b3d5665e310aca3ea72486213ec2f0e33066b1b01a90d3752e9a"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/sodium/lang/zh_cn.json"
+hash = "196c8fd93363111eaeaec61867b77f9a1e60cf7050622b59076ece107bbbe5c5"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/solclassic/lang/zh_cn.json"
+hash = "93b61440e55ebbbb93ed7816863077798f3c816501faa08c171bc364e8c18920"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/terrific_trash_cans/lang/zh_cn.json"
+hash = "45348b0eb9757ed7808bb5d41a0acb32fe90d91d2f57fbcb489ca3198aabe853"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/usclb/lang/zh_cn.json"
+hash = "823b9f7fae4a77c8eae3e0783dcb9666c05dd27c5912a1293c93f00eb25a866f"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/xaeroworldmap/lang/zh_cn.json"
+hash = "7ed31d109a6cbe82e894eb82431e69a503c8e11fe1e376d2d6dfdc3fffc99214"
+
+[[files]]
+file = "config/openloader/resources/resources/pack.mcmeta"
+hash = "cb0b687b2f7bb64968ef940e3e6b1cf0227d1104d429ed34b515581eeaacb4de"
 
 [[files]]
 file = "config/patchouli-client.toml"
