@@ -705,6 +705,10 @@ file = "config/extrabotany-common.toml"
 hash = "c6dd843c7e9bac5ae2fefa39a9d9e1274f7bbd20628fea5cf649d6bddf299e13"
 
 [[files]]
+file = "config/extremesoundmuffler-client.toml"
+hash = "7ecfa3371fcc60bf07d40954c061d3dc4ec647806a9250e9cc391c35b220107d"
+
+[[files]]
 file = "config/fallingleaves-client.toml"
 hash = "2cd017af6632239398b694fadf8191d6073cf39585549876cc682843f521ecb3"
 
@@ -726,7 +730,7 @@ hash = "76a5d47ca4e918446d37edf7d09196af462f7e78aff8c2aa507d2b151117356b"
 
 [[files]]
 file = "config/fastquit.toml"
-hash = "e85f39867513fe26179ba3cf7a00d343e9642ceaa96e7ea3cde6a1c3aa69dd4e"
+hash = "fbdfff0d6ff4c2ca863895c6ad091e1170f4fb841bfe72981a4d5ff223639bf2"
 
 [[files]]
 file = "config/fastsuite.cfg"
@@ -775,6 +779,10 @@ hash = "36edba5bcfbabf479e0ffdf35de56fe0b91b80dd27f1b9706ad420a2e124e068"
 [[files]]
 file = "config/ftbquests/quests/chapters/ae.snbt"
 hash = "288bf973bc4fef1412c0d72f643f6a706830e197b8304fdd0b2817b65c504bb9"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/apotheosis.snbt"
+hash = "6e8d592325572bd53a5ada490c2cfa9064374018f7e8955762f31acac580ec71"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/arsbotania.snbt"
@@ -1298,15 +1306,15 @@ hash = "c1f4096060432fc606b51342f6479e5bad701fe36dcea1db5b793cc047b255f4"
 
 [[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/en_us.json"
-hash = "cc24de8ddcc706a139213b0dde2b745d9a97f724deaec783d519bcaf4feab71f"
+hash = "c35724467efcfd2db29cbff0a9ecabacd908aac0427880fe40291dd5ce6aa216"
 
 [[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/zh_cn.json"
-hash = "46ec3c77ed8ff36e71ed1202aa4db05091adf1922acc29452b1729e76d69bd26"
+hash = "1f2e6d2591defdbd6310d92a392b2a968a8e727ad8f08dbd06cfa4aa21c6773d"
 
 [[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/zh_tw.json"
-hash = "1684cdb4fdd6aa49ed5ec7f1e3a13649af1ed12e2b8b7a1b4d052a8a1293c7e6"
+hash = "486260db068512da77cb512758ac6a4697bb15e4ef81ed60972bf7e0d170aa46"
 
 [[files]]
 file = "config/openloader/resources/quests/pack.mcmeta"
@@ -2189,7 +2197,7 @@ metafile = true
 
 [[files]]
 file = "mods/advancementnomore.pw.toml"
-hash = "1a4c73128011d0ff48cd3440c92d065e669077a0c7264f8b7885b5747f23cac6"
+hash = "e4564f276b8b791dc88790d5edd7654b649e50e2be59bc264986b38d70118b79"
 metafile = true
 
 [[files]]
@@ -2509,7 +2517,7 @@ metafile = true
 
 [[files]]
 file = "mods/extreme-sound-muffler.pw.toml"
-hash = "f516cd414020a90cc732d3fb9b69d375c8f21b8e0acb95fb620420ab3dc7287d"
+hash = "83857cf5a2022e66a9c25497cb20e8d962ea8040475ebba1cd4d016c13629b95"
 metafile = true
 
 [[files]]
@@ -2549,7 +2557,7 @@ metafile = true
 
 [[files]]
 file = "mods/fastquit-forge.pw.toml"
-hash = "04098eb2029459b6d7164ac5b6a888cac67ac80d754866a05e0bc52aaf32e6b3"
+hash = "78a7ba5fece17b4afd6c267a13a259092d4ca85d10acd73162ca025889827895"
 metafile = true
 
 [[files]]
@@ -2654,7 +2662,7 @@ metafile = true
 
 [[files]]
 file = "mods/gtocore-0.4.0.jar"
-hash = "456138eccc424a2a866fbb67a1ded9ed777a83dd649ca10df4669651b9caf10d"
+hash = "cba895807d8017281e11f8cf62251304c3e59d88bff8bf6c44a6817881fae7b2"
 
 [[files]]
 file = "mods/guideme.pw.toml"
@@ -2903,7 +2911,7 @@ metafile = true
 
 [[files]]
 file = "mods/spark.pw.toml"
-hash = "d0e1a79dbcda8499e0f12f4adaa5503f9bbc84a6274ce07b3a3839476622e8e5"
+hash = "5d8b9ff36213e2dc0b0b4c9a6deeee9d11305e90d604d4af128989580f3e84ca"
 metafile = true
 
 [[files]]
