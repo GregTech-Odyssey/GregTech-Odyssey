@@ -725,6 +725,10 @@ file = "config/fastbench.cfg"
 hash = "76a5d47ca4e918446d37edf7d09196af462f7e78aff8c2aa507d2b151117356b"
 
 [[files]]
+file = "config/fastquit.toml"
+hash = "e85f39867513fe26179ba3cf7a00d343e9642ceaa96e7ea3cde6a1c3aa69dd4e"
+
+[[files]]
 file = "config/fastsuite.cfg"
 hash = "4d26b4c93838e3e912a8e09f9be0395cd0b7a264f250ea8aa72d68507ce12250"
 
@@ -2184,6 +2188,11 @@ hash = "cbc8db716459ff5804441400382314acc303919f6357ec09c708e4cb75efe9cc"
 metafile = true
 
 [[files]]
+file = "mods/advancementnomore.pw.toml"
+hash = "1a4c73128011d0ff48cd3440c92d065e669077a0c7264f8b7885b5747f23cac6"
+metafile = true
+
+[[files]]
 file = "mods/ae2-crafting-tree.pw.toml"
 hash = "207a3548f31976bc53725837d9da8d56bb4a72b2f1a3731f5c7f09d68d635f2a"
 metafile = true
@@ -2499,6 +2508,11 @@ hash = "f3540ef9498647e52bb21a47f1a51698c8cdc34a084880a0d86d53eebb879edc"
 metafile = true
 
 [[files]]
+file = "mods/extreme-sound-muffler.pw.toml"
+hash = "f516cd414020a90cc732d3fb9b69d375c8f21b8e0acb95fb620420ab3dc7287d"
+metafile = true
+
+[[files]]
 file = "mods/factory-blocks.pw.toml"
 hash = "388c389edf2f41bc21ad7811472963e80530980bc3752edaf81b8da987be5e92"
 metafile = true
@@ -2531,6 +2545,11 @@ metafile = true
 [[files]]
 file = "mods/fastfurnace.pw.toml"
 hash = "9a748a2bfac6e79e42d49380148594b706371172e9137889663c214cfceaa973"
+metafile = true
+
+[[files]]
+file = "mods/fastquit-forge.pw.toml"
+hash = "04098eb2029459b6d7164ac5b6a888cac67ac80d754866a05e0bc52aaf32e6b3"
 metafile = true
 
 [[files]]
@@ -2635,7 +2654,7 @@ metafile = true
 
 [[files]]
 file = "mods/gtocore-0.4.0.jar"
-hash = "3ac9f7284a5d551e8644942520f974ddf8f4082bdaf62cc942828b4216beec09"
+hash = "456138eccc424a2a866fbb67a1ded9ed777a83dd649ca10df4669651b9caf10d"
 
 [[files]]
 file = "mods/guideme.pw.toml"
@@ -2880,6 +2899,11 @@ metafile = true
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
 hash = "c926446d83c568b4863f6bd15a4e022c5247739a0afa9a4fd49856c2f254f8a6"
+metafile = true
+
+[[files]]
+file = "mods/spark.pw.toml"
+hash = "d0e1a79dbcda8499e0f12f4adaa5503f9bbc84a6274ce07b3a3839476622e8e5"
 metafile = true
 
 [[files]]
