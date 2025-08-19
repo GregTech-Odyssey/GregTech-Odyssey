@@ -1,0 +1,10 @@
+{
+  "block.craftingstation.crafting_station": "合成站",
+  "block.craftingstation.crafting_station_slab": "合成站半砖",
+  "title.crafting_station": "合成站",
+  "text.crafting_station.error": "发现错误的配方%s,请查看日志以获取详细信息",
+  "text.crafting_station.clear": "清除合成网格\n（按住 Shift 键以优先清除侧边栏库存）",
+  "text.crafting_station.connected_resources.true": "使用连接资源：是",
+  "text.crafting_station.connected_resources.false": "使用连接资源：否",
+  "text.crafting_station.jei_nopull_output": "此容器中的槽位已锁定！\nEMI 无法再从仅输出槽位（例如熔炉的输出结果槽位）中提取资源。\n\n请将这些物品移动到普通存储槽位以使用！"
+}

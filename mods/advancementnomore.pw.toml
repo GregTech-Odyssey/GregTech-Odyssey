@@ -1,0 +1,13 @@
+name = "AdvancementNoMore"
+filename = "advancementnomore-1.20.1-1.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "a234140b4b4318c9f7a9afc7cd240dc640758642"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6824124
+project-id = 1315943
