@@ -58,11 +58,6 @@
             name = "gregtech-odyssey";
             # packwiz may record file metadata that not gets managed by git
             allowMissingFile = true;
-
-            buildPhase = ''
-              rm -rf config/ftbquests/quests
-              cp -r .github/localization/quests config/ftbquests/quests
-            '';
           };
 
           modpack-client = buildPackwizModpack {
@@ -71,11 +66,6 @@
             # packwiz may record file metadata that not gets managed by git
             allowMissingFile = true;
             side = "client";
-
-            buildPhase = ''
-              rm -rf config/ftbquests/quests
-              cp -r .github/localization/quests config/ftbquests/quests
-            '';
           };
 
           server = let inherit (self.packages.${system}) forge modpack;
