@@ -1381,6 +1381,10 @@ file = "config/openloader/resources/resources/assets/emi/lang/zh_cn.json"
 hash = "b518ca8e321baf941eb799d7d270b209945f60ed1a7b1ae55d3fe91ec16ce22d"
 
 [[files]]
+file = "config/openloader/resources/resources/assets/enderio/lang/en_us.json"
+hash = "f220fa4cb6bf6ea3248fe36b02bd00c7612b44f0e394ee82a082e4a73bfda100"
+
+[[files]]
 file = "config/openloader/resources/resources/assets/factory_blocks/lang/zh_cn.json"
 hash = "b868579684fa2988f8da485d62c42953824489c5765391baad400b061fe430df"
 
