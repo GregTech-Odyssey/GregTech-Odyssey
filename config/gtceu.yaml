@@ -481,14 +481,6 @@ gameplay:
   # Default: true
   hazardsEnabled: true
 
-  # Whether environmental hazards like pollution or radiation are active
-  # Default: false
-  environmentalHazards: false
-
-  # How much environmental hazards decay per chunk, per tick.
-  # Default: 0.001
-  environmentalHazardDecayRate: 0.001
-
 # Config options for Mod Compatibility
 compat:
   # Config options regarding GTEU compatibility with other energy systems
