@@ -794,12 +794,15 @@
 		}
 		{
 			dependencies: ["6834E0CEC40F4286"]
-			description: ["和纠缠方块类似，相当于隔空操作方块"]
+			description: [
+				"和纠缠方块类似，相当于隔空操作方块"
+				"进阶版本可同时绑定20个目标，螺丝刀点击可切换轮询模式"
+			]
 			icon: "gtocore:tesseract_generator"
 			id: "5F522D73AF5F1B2F"
 			subtitle: "比镜像更好"
 			tasks: [{
-				id: "1E4C54B4C81BC629"
+				id: "0BDCC9DBE42F86B1"
 				item: "gtocore:tesseract_generator"
 				type: "item"
 			}]
@@ -896,9 +899,6 @@
 				""
 				"通过&6ME存储访问仓&r来读取物品"
 				""
-				"&6ME存储访问代理&r可以让你在&9&r读取到&6ME存储器&r的内容"
-				"你需要先蹲下并且用一个&4空的闪存&r右键&6ME存储访问仓&r，然后闪存右键&6ME存储访问代理&r即可让&6ME存储访问代理&r读取内容"
-				""
 				"&7&m记得供电&r"
 			]
 			id: "430034AB98D8453B"
@@ -912,11 +912,6 @@
 				{
 					id: "1949328EC7B7239A"
 					item: "gtocore:me_storage_access_hatch"
-					type: "item"
-				}
-				{
-					id: "49EAFB7B2838999A"
-					item: "gtocore:me_storage_access_proxy"
 					type: "item"
 				}
 			]

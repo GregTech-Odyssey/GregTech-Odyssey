@@ -43,14 +43,14 @@
 
           forge = let
             minecraftVersion = "1.20.1";
-            forgeVersion = "47.4.1";
+            forgeVersion = "47.4.6";
             version = "${minecraftVersion}-${forgeVersion}";
           in pkgs.runCommandNoCC "forge-${version}" {
             inherit version;
             nativeBuildInputs = with pkgs; [ cacert curl jre_headless ];
 
             outputHashMode = "recursive";
-            outputHash = "sha256-xObsID3NwcvfvplT7y2jdl/LLkCK3UgNd/lP1a5Bhhk=";
+            outputHash = "sha256-tW4cI1Sry8G6V6k6jvXxzadyIGmf6ttga+K2Biq2Kgg=";
           } ''
             mkdir -p "$out"
 
