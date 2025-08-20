@@ -730,7 +730,7 @@ hash = "76a5d47ca4e918446d37edf7d09196af462f7e78aff8c2aa507d2b151117356b"
 
 [[files]]
 file = "config/fastquit.toml"
-hash = "fbdfff0d6ff4c2ca863895c6ad091e1170f4fb841bfe72981a4d5ff223639bf2"
+hash = "e85f39867513fe26179ba3cf7a00d343e9642ceaa96e7ea3cde6a1c3aa69dd4e"
 
 [[files]]
 file = "config/fastsuite.cfg"
@@ -778,7 +778,7 @@ hash = "36edba5bcfbabf479e0ffdf35de56fe0b91b80dd27f1b9706ad420a2e124e068"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ae.snbt"
-hash = "288bf973bc4fef1412c0d72f643f6a706830e197b8304fdd0b2817b65c504bb9"
+hash = "40fa16efc5b903cf176cec5220b01996614bc262bcc59132c2b5c5bc30a9298e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/apotheosis.snbt"
@@ -838,7 +838,7 @@ hash = "58a6860814d46c7b9a28750f5eee8d26e1f4e7f24770cbb14b4ccd98f1f974b5"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/main-stoneage.snbt"
-hash = "ae82b7d955581df380dd8b229d72049350c7ae313e36e0f1f9168bf05dce9411"
+hash = "943cb4ed418ba4a3e147fca17f117a44d81ca9961b85d5fb68ad146ffbee1b61"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/massive-manufacturing.snbt"
@@ -922,7 +922,7 @@ hash = "cb6041174344f97ec6439d5e0fbdf6a70521ded51f415f3450902980c5449d7d"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/rewardtable_apotheosis.snbt"
-hash = "053dcba3422d3d75d881f2f7dac3db8993638264f4c5c9214419322f7e4ef5f8"
+hash = "dc8ade280fef64e2d5256d1ae5c06ff4ebd8b0d1f7960106baec677654bb95a2"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/rewardtable_building.snbt"
@@ -1306,15 +1306,15 @@ hash = "c1f4096060432fc606b51342f6479e5bad701fe36dcea1db5b793cc047b255f4"
 
 [[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/en_us.json"
-hash = "c35724467efcfd2db29cbff0a9ecabacd908aac0427880fe40291dd5ce6aa216"
+hash = "f92c55a3c32987515a60d2e0029b4c0bdf27ef6e7f1a680d9009f923e69b651e"
 
 [[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/zh_cn.json"
-hash = "1f2e6d2591defdbd6310d92a392b2a968a8e727ad8f08dbd06cfa4aa21c6773d"
+hash = "fd9e20e8a9e57053b24f8875640b2193f4636c2a1c9d4e9b949abf431760c937"
 
 [[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/zh_tw.json"
-hash = "486260db068512da77cb512758ac6a4697bb15e4ef81ed60972bf7e0d170aa46"
+hash = "7abdd9d0eae62d9b2b3d340be4ea4f1c9885373cadc4054229c0efa27548bd4d"
 
 [[files]]
 file = "config/openloader/resources/quests/pack.mcmeta"
@@ -2062,7 +2062,7 @@ hash = "47b287f97fc61a322d7a19087bc9e9696de5b8f6060a5a2eda73d3d4ab3805c2"
 
 [[files]]
 file = "config/sidebar_buttons.json"
-hash = "f37500e8d3440dc1da3307f0fbbb3a0c181794c844efab9cfeb16564b4f22f3d"
+hash = "c0a2342ab1d042cec98799321a196d4b9ef958d6fdd59869c905226e71c5c8b2"
 
 [[files]]
 file = "config/solcarrot-client.toml"
@@ -2661,8 +2661,8 @@ hash = "477c0165ac7a3d521157a8fa69fd5335804383fc04459e0ee7a2ce799a08c568"
 metafile = true
 
 [[files]]
-file = "mods/gtocore-0.4.0.jar"
-hash = "cba895807d8017281e11f8cf62251304c3e59d88bff8bf6c44a6817881fae7b2"
+file = "mods/gtocore-0.4.1.jar"
+hash = "3d738b14ef51729cb2c847486dc79f081ed60c56b3eb758b816c7820081e80bf"
 
 [[files]]
 file = "mods/guideme.pw.toml"

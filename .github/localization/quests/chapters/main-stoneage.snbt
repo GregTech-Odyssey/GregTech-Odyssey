@@ -502,7 +502,7 @@
 					Count: 1
 					id: "gtocore:prospector.mana_ulv"
 					tag: {
-						mana: 500000
+						mana: 100000
 					}
 				}
 				type: "item"
