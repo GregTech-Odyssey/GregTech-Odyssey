@@ -107,22 +107,34 @@
 			description: [
 				"合金炉，将&6三铜一锡&r熔铸四个&6青铜锭&r，现在能够高效生产各种能在LV制造的合金锭"
 				""
-				"尽管如此，低压版本的蒸汽单方块的效率依然不能满足你的后续发展需要，你应该尽快升级到&6铸造炉&r"
+				"尽管如此，低压版本的蒸汽单方块的效率依然不能满足你的后续发展需要，你应该尽快升级到&6蒸汽铸造炉&r、"
+				""
+				"以及，不要堵塞&4排气口&r，用你的扳手调整它"
+				""
+				"&416mb/t&r的&6蒸汽&r就足够了"
 			]
 			id: "05F4015974079225"
 			shape: "hexagon"
 			size: 1.5d
+			subtitle: "Fusion UP!"
 			tasks: [{
 				id: "10C7B141FC60FEE4"
 				item: "gtceu:lp_steam_alloy_smelter"
 				type: "item"
 			}]
+			title: "融合之力"
 			x: -0.75d
 			y: 0.0d
 		}
 		{
 			dependencies: ["6B2CA9AF06284789"]
-			description: ["Ender IO 的起点"]
+			description: [
+				"Ender IO 的起点，也是&6蒸汽铸造炉&r的前置工作"
+				""
+				"当然你可以用&6原始合金炉&r烧点合金以备前期工作，但我还是强烈建议你拿它去合成&6蒸汽合金炉&r"
+				""
+				"原始合金炉有一些&d专属的Ender IO&r的配方，记得查看一下"
+			]
 			id: "4A9E47C3F8DF24A3"
 			rewards: [{
 				count: 16
@@ -132,74 +144,113 @@
 			}]
 			shape: "hexagon"
 			size: 1.5d
+			subtitle: "看上去就很原始！"
 			tasks: [{
 				id: "5701706956B3E4CD"
 				item: "enderio:primitive_alloy_smelter"
 				type: "item"
 			}]
+			title: "真正的原始人炉子"
 			x: -0.75d
 			y: 3.0d
 		}
 		{
 			dependencies: ["05F4015974079225"]
-			description: ["ULV时代重要的超导体，现在先用来制作活塞"]
+			description: [
+				"&2ULV&r时代重要的超导体，现在先用来制作&6活塞"
+				"&r"
+				"当然还有&5非常重要&r的&4超导线&r，你必然不会想错过它的吧？"
+			]
 			id: "604FA0DDAD1979A1"
 			shape: "hexagon"
 			size: 1.5d
+			subtitle: "Ver.0"
 			tasks: [{
 				id: "3D876C2520DAB94B"
 				item: "gtceu:red_alloy_ingot"
 				type: "item"
 			}]
+			title: "超！导！体！"
 			x: 1.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["604FA0DDAD1979A1"]
+			description: ["特供版活塞，具有&b格&r&e雷&r&b主&r&e义&r的合成方式，敬请享用"]
 			id: "17408BBD93A18AEC"
+			subtitle: "妈妈，我不要这种合成方式！"
 			tasks: [{
 				id: "7103C89F66A4DAB9"
 				item: "minecraft:piston"
 				type: "item"
 			}]
+			title: "活...塞？"
 			x: 3.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["17408BBD93A18AEC"]
+			description: [
+				"通入&6蒸汽&r，即可粉碎矿石或者是其他零零碎碎的东西"
+				""
+				"什么，你问为什么没有如EMI所示出产那么多的产物？"
+				""
+				"拜托看看EMI上面配方标注的&4电压&r吧，想要破碎矿石出产副产物需要&eLV级&r的破碎机，而蒸汽明显达不到这个等级"
+			]
 			hide_dependency_lines: false
 			id: "6E2614839731BF0D"
+			subtitle: "拯救你的研钵"
 			tasks: [{
 				id: "0C0BEB294A94D280"
 				item: "gtceu:lp_steam_macerator"
 				type: "item"
 			}]
+			title: "打碎它们！"
 			x: 3.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["17408BBD93A18AEC"]
+			description: [
+				"想要炼钢，就要有个能炼钢的炉子，想要有能承受足够高炉温的炉子，就需要足够优秀的外壳材料，那么就需要一个&e强力的机器(?)&r来生产这种材料了"
+				""
+				"很明显&6低压蒸汽压缩机&r会比你手动压缩更加强力...吧？"
+				""
+				"不管怎么说，你需要&6低压蒸汽压缩机&r来帮你完成耐火砖的准备，而这是建造&6土高炉&r所必须的"
+			]
 			id: "017D4D369784454E"
 			shape: "hexagon"
 			size: 1.5d
+			subtitle: "瘦身之旅"
 			tasks: [{
 				id: "0B32F6BF2C932F33"
 				item: "gtceu:lp_steam_compressor"
 				type: "item"
 			}]
+			title: "挤！呀！挤！"
 			x: 4.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["24C53B5FF515ACAC"]
+			description: [
+				"不仅仅是用于节省你的工具耐久，更是节省原料"
+				""
+				"用锻造锤制造1个金属板只需要1.5个锭(&c3个锭制造2个板&r)"
+				""
+				"不要堵塞&4蒸汽排气口&r(再一次提醒！！！！)"
+				""
+				"&416mb/t&r的&6蒸汽&r就足够它跑满了"
+			]
 			id: "7BE51B4BC36F8B7B"
 			size: 1.5d
+			subtitle: "这不是林永健的家"
 			tasks: [{
 				id: "2C2F5FDA5CFDD8E9"
 				item: "gtceu:lp_steam_forge_hammer"
 				type: "item"
 			}]
-			title: "大锤80，小锤40"
+			title: "大锤80，小锤40！"
 			x: -3.0d
 			y: 3.0d
 		}
@@ -228,7 +279,7 @@
 				""
 				"它有&48并行&r，换而言之就是可以同时运行&58个相同的配方&r，但它并没有&e跨配方&r的功能"
 				""
-				"即便单个配方的处理时间是小机器的1.2倍，但速度依然&a非常快&r！"
+				"即便单个配方的处理时间是小机器的1.5倍，但速度依然&a非常快&r！"
 				""
 				"记得及时导出产物，&a尤其是&r某些配方的产出，可能会直接把输出总线撑爆"
 				""
@@ -249,22 +300,33 @@
 		}
 		{
 			dependencies: ["72C6B40B38D542BF"]
+			description: [
+				"当前阶段你需要这个家伙来帮助你完成&6橡胶&r的制作"
+				""
+				"我建议你留着&d橡胶原木&r，因为一来它的产出并不多，二来它能在&6离心机&r里产出&6胶水&r"
+			]
 			id: "431D763E6303976B"
 			size: 1.5d
+			subtitle: "但其实也没什么区别不是吗"
 			tasks: [{
 				id: "772F6D2A3276D535"
 				item: "gtceu:lp_steam_extractor"
 				type: "item"
 			}]
+			title: "提取机，不是榨汁机！"
 			x: 9.0d
 			y: 9.0d
 		}
 		{
 			dependencies: ["55AAF11E1101F10F"]
 			description: [
-				"土高炉能够像焦炉一样自动化了，试试看吧"
+				"&6土高炉&r能够像&6焦炉&r一样&d自&r&e动&r&b化&r了，试试看吧"
 				""
-				"产出的黑色灰烬不要扔了，后面可能有用"
+				"&8&m终于不用手搬来搬去的了&r&r"
+				""
+				"具体的多方块结构参考EMI的“&2多方块结构信息&r”选项"
+				""
+				"以及，土高炉运作的时候中间那块岩浆是&4有伤害的&r"
 			]
 			id: "32A39A427D4A3AC2"
 			rewards: [{
@@ -298,55 +360,88 @@
 		}
 		{
 			dependencies: ["6E2614839731BF0D"]
+			description: [
+				"这个家伙具有&48并行&r，但跟它的小机器版本一样，&4没有副产物产出&r"
+				""
+				"单个配方具有&41.5倍&r的用时惩罚，但依然是一个非常优秀的选择"
+			]
 			id: "35AC53D6E8EE6796"
 			shape: "diamond"
 			size: 1.5d
+			subtitle: "效率这一块"
 			tasks: [{
 				id: "38743784DD5F77E6"
 				item: "gtceu:steam_grinder"
 				type: "item"
 			}]
+			title: "更大的自动研钵"
 			x: 3.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["7BE51B4BC36F8B7B"]
+			description: [
+				"&48并行&r的&6多方块蒸汽锻造锤&r"
+				""
+				"当然你需要先做出&6蒸汽压缩机&r来制造锻铁块，以及&6蒸汽合金炉&r用于制作活塞等等"
+				""
+				"&o&8总归是要一步一步慢慢来的嘛&r"
+				""
+				"&r跟其他的蒸汽小机器升级版多方块一样，差不多&4250mb/t&r的&6蒸汽&r就足够它跑满并行了"
+			]
 			id: "7AEE9F9ADE58612F"
 			shape: "pentagon"
 			size: 1.5d
+			subtitle: "这一下可不止80"
 			tasks: [{
 				id: "6D29A1A8D24D20AE"
 				item: "gtocore:steam_piston_hammer"
 				type: "item"
 			}]
+			title: "大锤落下！"
 			x: -6.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["05F4015974079225"]
-			description: ["8并行合金炉"]
+			description: [
+				"这是一个拥有&a8并行&r的&6蒸汽合金炉&r"
+				""
+				"当然你需要足够的蒸汽，大概是&c250mb/t&r就足够了，要不然没办法满功率运作它"
+				""
+				"记得千万别站在&4蒸汽排气口&r面前，喷出蒸汽的时候是&5有伤害的&r，也要注意&4蒸汽排气口&r是否有被&a阻挡&r"
+			]
 			id: "4C94E56A9270EFFB"
 			shape: "diamond"
 			size: 1.5d
+			subtitle: "但这口锅够大"
 			tasks: [{
 				id: "4282FEF2344D7095"
 				item: "gtocore:steam_foundry"
 				type: "item"
 			}]
+			title: "一锅乱炖"
 			x: -0.75d
 			y: -2.25d
 		}
 		{
 			dependencies: ["017D4D369784454E"]
+			description: [
+				"&48并行&r，如同之前的其他小机器升级版本一样，也有&41.5倍&r的配方时间惩罚"
+				""
+				"当然你现在这个阶段做这个东西肯定是为了做更多的&6土高炉&r，对吧？"
+			]
 			id: "3841BCAE03DB0E94"
 			shape: "diamond"
 			size: 1.5d
+			subtitle: "我们需要更多的土高炉！"
 			tasks: [{
 				id: "19B53A668B4D1512"
 				item: "gtocore:steam_pressor"
 				type: "item"
 			}]
-			x: 6.0d
+			title: "这可不是液压机"
+			x: 4.5d
 			y: -1.5d
 		}
 		{
@@ -371,12 +466,19 @@
 		}
 		{
 			dependencies: ["7F1CF6D7C0CA4DB2"]
+			description: [
+				"对的，你最开始的&6玻璃粉&r就是需要&a工作台&r手动组装"
+				""
+				"等到你有条件使用&6搅拌机&r了，也就可以省点事了，但你距离能使用&6蒸汽搅拌机&r还有一定的距离，所以短时间内你还是得在&a工作台&r上手动组装&6玻璃粉&r"
+			]
 			id: "60396728B5CD98F7"
+			subtitle: "手动拼接？"
 			tasks: [{
 				id: "1CB748D23AA7080F"
 				item: "gtceu:glass_dust"
 				type: "item"
 			}]
+			title: "制备玻璃......第二步！"
 			x: 13.5d
 			y: 9.0d
 		}
@@ -385,19 +487,41 @@
 				"60396728B5CD98F7"
 				"0019A5EEEE514539"
 			]
-			description: ["用&6合金炉&r和特定形状的&6模具&r来塑形玻璃，此类配方你将来会遇到很多"]
+			description: [
+				"用&6合金炉&r和&6模具(块)&r来塑形玻璃，这是最后一步"
+				""
+				"累了要休息下吗？不妨听听后续的改进建议："
+				""
+				"当然你要想让&6玻璃制造&r变得更简单，还有办法，让&a玻璃粉&r由&6搅拌机&r生产是其中之一；而用提取机提取&d石英岩&r得到的&a液态玻璃&r直接在&6流体固化器&r内用&6模具(块)&r则可以更加简便地生产玻璃"
+				""
+				"另还有将&d液态玻璃&r与&e沙子&r在&6电弧炉&r内反应的办法；以及使用&6冲压机床&r生产，节省1/3的时间"
+				""
+				"至于后续如何选择，取决于你"
+			]
 			id: "72C6B40B38D542BF"
+			subtitle: "熔炼成块！"
 			tasks: [{
 				id: "0CB91090B120A01D"
 				item: "minecraft:glass"
 				type: "item"
 			}]
+			title: "制备玻璃......第三步！"
 			x: 11.5d
 			y: 9.0d
 		}
 		{
+			description: [
+				"&e石英砂&r可以通过研钵在工作台上生产，但&a燧石粉&r就不行了，你必须要在&6研磨机&r内完成"
+				""
+				"那既然如此，为什么不都在&6研磨机&r内生产呢？"
+				""
+				"无论如何你都需要准备多点&e石英砂&r，因为&d玻璃粉&r的制作配方里面&e石英砂&r需要更多"
+				""
+				"你的第一份&d玻璃粉&r肯定是工作台配方，而后面你就可以使用&6搅拌机&r来生产玻璃粉了"
+			]
 			id: "7F1CF6D7C0CA4DB2"
 			shape: "diamond"
+			subtitle: "保护你的研钵！！"
 			tasks: [
 				{
 					id: "08F1D06B219C8919"
@@ -410,6 +534,7 @@
 					type: "item"
 				}
 			]
+			title: "制备玻璃......第一步！"
 			x: 13.5d
 			y: 10.5d
 		}
@@ -418,12 +543,23 @@
 				"431D763E6303976B"
 				"1449A2A27F34E8CF"
 			]
+			description: [
+				"你在查EMI吗？我来直接告诉你吧：你现在只能用&6蒸汽提取机&r来提取生橡胶末"
+				""
+				"如果你提取的是粘性树脂，那你一次可以提取&a三个&r生橡胶末；如果是橡胶原木则一次性只能产出&a一个&r"
+				""
+				"记得整个容器来自动容纳产物，提取的流程很漫长而且容易&c堵塞产物&r"
+				""
+				"当然你有&6蒸汽分离机&r了就可以用其他办法来制造生橡胶末了"
+			]
 			id: "4B03D68C7C9FAA8C"
+			subtitle: "提取的产物"
 			tasks: [{
 				id: "48BAFE7EF51B3BBC"
 				item: "gtceu:raw_rubber_dust"
 				type: "item"
 			}]
+			title: "青涩的橡胶"
 			x: 9.0d
 			y: 7.5d
 		}
@@ -432,41 +568,78 @@
 				"4B03D68C7C9FAA8C"
 				"2012FF7B348CC62B"
 			]
+			description: [
+				"将你得到的&3生橡胶末&r和&e硫粉&r在&6合金炉&r内反应即可生成&6橡胶条&r"
+				""
+				"当然这种方式的速度是比较慢的，等你到了LV阶段的时候你就可以使用&6化学反应釜&r来制&6液态橡胶&r，并且通过&6流体固化器&r来固化成你想要的任何形状的&d橡胶&r"
+				""
+				"但距离LV还是有一定距离的，你还是需要先提升一下你当前阶段的生产力"
+			]
 			hide_dependency_lines: false
 			id: "043FCD7B759853EA"
 			shape: "rsquare"
 			size: 1.5d
+			subtitle: "千辛万苦"
 			tasks: [{
 				id: "56BAACDD642EA086"
 				item: "gtceu:rubber_ingot"
 				type: "item"
 			}]
+			title: "橡胶，终于"
 			x: 6.75d
 			y: 7.5d
 		}
 		{
 			dependencies: ["298BEC345930429A"]
+			description: [
+				"硫粉，主世界并不直接产出，但经常作为各种矿物处理中的副产物产出"
+				""
+				"不过上述的处理大多数时候都是需要&2更高的电压&r才能完成"
+				""
+				"而更直接的来源是去远古世界挖掘&5硫矿脉"
+				""
+				"&r你需要准备多点，因为你需要&4很多的&r&6橡胶&r"
+			]
 			hide_dependency_lines: false
 			id: "2012FF7B348CC62B"
+			subtitle: "不行，一股臭鸡蛋味儿"
 			tasks: [{
 				id: "2B5C76FE13BCA512"
 				item: "gtceu:sulfur_dust"
 				type: "item"
 			}]
+			title: "它能拿来美容吗"
 			x: 4.5d
 			y: 7.5d
 		}
 		{
 			dependencies: ["4F1FEB6CE7C64D14"]
+			description: [
+				"&4远古世界&r中会生成一些有别于&9主世界&r的矿脉："
+				""
+				"&b蓝黄玉矿脉&r(这是你前期&b氟&r的主要来源，其中的辉铜矿是铂处理产线的原材料之一)"
+				""
+				"&2硝石矿脉&r(一个&3钾&r和&5氮&r的优秀来源)"
+				""
+				"&d赛特斯石英/石英矿脉&r(石英的主要来源，以及&4AE&r的核心基础材料)"
+				""
+				"&c黝铜矿脉&r(黝铜矿是铂处理的另一种原材料，而其中的&6辉锑矿&r是产出&6锑&r的核心来源)"
+				""
+				"&e硫矿脉&r(大量获取&e硫&r的途径，其中的&9闪锌矿&r离心处理可以获得&9镓粉&r，这是前期&4唯一&r的获取途径)"
+				""
+				"以及有一些特殊的配方需要在远古世界中进行，比如&a大马士革钢&r的相关配方"
+			]
 			id: "298BEC345930429A"
 			shape: "hexagon"
 			size: 1.5d
+			subtitle: "似曾相识！"
 			tasks: [{
 				dimension: "gtocore:ancient_world"
 				id: "5B30F60802E761DB"
 				title: "远古世界"
 				type: "dimension"
 			}]
+			title: "回到过去？"
 			x: 4.5d
 			y: 5.5d
 		}
@@ -479,11 +652,13 @@
 			description: [
 				"用这些材料摆一个3x3的平面结构"
 				""
-				"关于结构：&6远古反应核&r置于中心，相邻4个方块为&6钢块&r，角落4个方块为钻石块&6，平放"
+				"关于结构：&6远古反应核&r置于中心，相邻4个方块为&6钢块&r，角落4个方块为钻石块，&6平放"
 				""
 				"右键远古反应核即可前往远古世界"
 				""
 				"[ \"建议带个\", { \"text\": \"飞机\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1CE2E908034CC401\" } } ,\" ，点击查看该章节\"]"
+				""
+				"&6MAN!&r&m&o别&6坠&r&r&m&5机&r&m了&r&r"
 			]
 			icon: "gtocore:ancient_reactor_core"
 			id: "4F1FEB6CE7C64D14"
@@ -515,19 +690,35 @@
 		}
 		{
 			dependencies: ["4A9E47C3F8DF24A3"]
+			description: [
+				"这也是一种&4超导体&r，只是需要&b魔力灌注&r"
+				""
+				"但是需要到&eULV电压&r才能开始制作它的导线"
+				""
+				"所以在制作超导线如果觉得有困难的话，不如尝试一下&1魔法的力量&r"
+			]
 			id: "0DCA3A96184C9EAC"
 			shape: "hexagon"
 			size: 1.5d
+			subtitle: "噢！是魔法超导体！"
 			tasks: [{
 				id: "068641109A5FCEAD"
 				item: "enderio:pulsating_alloy_ingot"
 				type: "item"
 			}]
+			title: "嗯？怎么你也？"
 			x: 1.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["27F4D9739FE33A02"]
+			description: [
+				"榨汁机，哦不，是&6搅拌机&r，会帮你把多种粉进行&a混合&r，常见于&b制造合金&r等"
+				""
+				"当然配方可能会串，遇到多种相似原料的一定要&d谨慎输入&r"
+				""
+				"蒸汽需求量、并行数和debuff都跟其他的&6蒸汽多方块&r相似，这里就不加赘述了"
+			]
 			id: "6AB9089FDE595716"
 			rewards: [{
 				count: 32
@@ -537,11 +728,13 @@
 			}]
 			shape: "diamond"
 			size: 1.5d
+			subtitle: "它会帮我混合火药吗"
 			tasks: [{
 				id: "4EAD04C4589D27DC"
 				item: "gtocore:steam_mixer"
 				type: "item"
 			}]
+			title: "搅拌机，蒸汽驱动版"
 			x: 10.5d
 			y: 3.75d
 		}
@@ -550,24 +743,37 @@
 				"60396728B5CD98F7"
 				"0019A5EEEE514539"
 			]
-			description: ["使用&6合金炉&r和特定形状的&6模具&r来塑形玻璃，此类配方你将来会遇到很多"]
+			description: [
+				"使用&6合金炉&r和特定形状的&6模具&r来塑形玻璃，此类配方你将来会遇到很多"
+				""
+				"当然合金炉只是目前的处理办法，你后面用&6流体固化机&r或者&6压模器&r都是一个&a更好的&r选择"
+			]
 			id: "0E4FE30F5B178EDD"
+			subtitle: "让合金炉来！"
 			tasks: [{
 				id: "562A6E44DCEDD89D"
 				item: "gtceu:glass_tube"
 				type: "item"
 			}]
+			title: "吹个玻璃泡泡"
 			x: 13.5d
 			y: 5.0d
 		}
 		{
 			dependencies: ["0E4FE30F5B178EDD"]
+			description: [
+				"在你制作出第一个电路之前，你需要做一个它的前身，那就是&6粗真空管"
+				"&r"
+				"这东西&e只有&r工作台的配方，所以我希望你准备好了足够多的材料，然后在工作台上大闹一番吧"
+			]
 			id: "7E046341CF58BB22"
+			subtitle: "工作台要搓冒烟了！"
 			tasks: [{
 				id: "11D7D6A824986B3B"
 				item: "gtocore:raw_vacuum_tube"
 				type: "item"
 			}]
+			title: "并非电子管"
 			x: 13.5d
 			y: 3.0d
 		}
@@ -592,17 +798,29 @@
 				item: "gtceu:vacuum_tube"
 				type: "item"
 			}]
+			title: "原始电路板？"
 			x: 13.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["24C53B5FF515ACAC"]
-			description: [""]
+			description: [
+				"这里就要介绍一下GTO所设立的新机制：&5真空等级&r"
+				""
+				"部分配方需要&5真空等级&r才能运行，而你将要制作的&6真空管&r就是其中之一"
+				""
+				"在小机器上添加&5真空条件&r需要将&6真空泵&r&e紧贴&r在小机器的情况下，正确运行对应&b等级&r真空泵的&a配方&r"
+				""
+				"高等级的真空等级条件可以执行低等级的真空等级配方，反之不然&8&m(废话)"
+				""
+				"&r&r低级的真空泵只需要&6蒸汽&r即可运行，而高级的真空泵则需要&6电力&r，太空环境则无条件提供&5四级真空&r，多方块机器由&6真空仓&r来提供&5四级真空&r"
+			]
 			hide_dependency_lines: true
 			icon: "gtocore:lp_steam_vacuum_pump"
 			id: "21D331D7F4F8862C"
 			shape: "hexagon"
 			size: 1.5d
+			subtitle: "真不是吸尘器！"
 			tasks: [
 				{
 					id: "6D9D8E445BD7DAA3"
@@ -615,6 +833,7 @@
 					type: "item"
 				}
 			]
+			title: "能抽真空的小家伙"
 			x: 13.5d
 			y: -2.25d
 		}
@@ -642,41 +861,65 @@
 		}
 		{
 			dependencies: ["043FCD7B759853EA"]
+			description: [
+				"它有两个用处："
+				""
+				"一是用特殊的液体处理特殊的矿物中间产物得到一些中间产物，比如&d金红石粉和&e铂粉&r等"
+				""
+				"二是处理一些&b化学浸洗&r的配方"
+				""
+				"后续的使用量会很大，所以你肯定会需要这个&48并行&r的版本的"
+			]
 			id: "411686C01CB6045F"
 			shape: "diamond"
 			size: 1.5d
+			subtitle: "并不会淹死人"
 			tasks: [{
 				id: "25253DCA694B9E65"
 				item: "gtocore:steam_bath"
 				type: "item"
 			}]
+			title: "大泳池"
 			x: 5.25d
 			y: 9.75d
 		}
 		{
 			dependencies: ["043FCD7B759853EA"]
+			description: [
+				"注意看EMI的配方，不同的配方需要&4不同的电路&r，对应需要的液体也会&c有所不同&r，但需要在洗矿机内执行的含液体配方无非就是&1水&r和&b蒸馏水&r二选一"
+				""
+				"&48并行&r的版本足够你应付目前的部分处理配方的，只要你不手欠处理了&4红石&r和&b青金石&r等配方..."
+			]
 			id: "7ADAA0DA032918C5"
 			shape: "diamond"
 			size: 1.5d
+			subtitle: "然而并不能完全洗干净"
 			tasks: [{
 				id: "0DC6FDB9429A0695"
 				item: "gtocore:steam_ore_washer"
 				type: "item"
 			}]
+			title: "滚筒洗衣机，矿物专用"
 			x: 7.5d
 			y: 9.75d
 		}
 		{
 			dependencies: ["27F4D9739FE33A02"]
-			description: ["在&nGregTech:Odyssey&r&r中，矿石不再能够直接通过研磨机直接粉碎，而是通过&6矿石破碎机&r进行处理"]
+			description: [
+				"原矿石不能够直接通过研磨机直接粉碎，而是通过&6矿石破碎机&r进行处理"
+				""
+				"处理某些矿(如粗红石)时很可能会因为产率过高而阻塞输出口，所以你可以选择设置&6两个&r输出口或者在输出口之前增设一个&d存储&r"
+			]
 			id: "5660509FA09D2239"
 			shape: "diamond"
 			size: 1.5d
+			subtitle: "然而它并不能粉碎原石"
 			tasks: [{
 				id: "17454D8B9CB1AE31"
 				item: "gtocore:steam_crusher"
 				type: "item"
 			}]
+			title: "原矿粉碎者"
 			x: 10.5d
 			y: 2.25d
 		}
@@ -690,6 +933,7 @@
 				""
 				"在你找到大量燃料供应前，这足够你渡过炼钢前的时期"
 			]
+			icon: "gtocore:ulv_conveyor_module"
 			id: "31BB738542229A88"
 			rewards: [
 				{
@@ -715,13 +959,19 @@
 		}
 		{
 			dependencies: ["31BB738542229A88"]
-			description: ["关键是提供稳定的燃料来源，以及注意供应足够多的水"]
+			description: [
+				"关键是提供稳定的燃料来源，以及注意供应足够多的水"
+				""
+				"再次强调一点，在任何锅炉温度&4不为常温&r且干烧的情况下通入&b水&r都会&4爆炸&r"
+			]
+			icon: "gtceu:high_pressure_hazard_sign_block"
 			id: "7BCD49717F8FAD65"
 			rewards: [{
 				id: "56C68B9B7297B606"
 				item: "gtceu:steam_bucket"
 				type: "item"
 			}]
+			subtitle: "必要的决策"
 			tasks: [{
 				id: "512FC1623520AB38"
 				title: "蒸汽自动化"
@@ -729,25 +979,6 @@
 			}]
 			x: -7.5d
 			y: 0.0d
-		}
-		{
-			dependencies: ["017D4D369784454E"]
-			id: "765331BCA77E436E"
-			rewards: [{
-				count: 64
-				id: "20E809E394F2AF20"
-				item: "gtceu:wood_dust"
-				type: "item"
-			}]
-			tasks: [{
-				count: 16L
-				id: "40FD86531791EF0C"
-				item: "gtceu:wood_plate"
-				type: "item"
-			}]
-			title: "你的课桌"
-			x: 4.5d
-			y: -1.5d
 		}
 		{
 			dependencies: ["7BE51B4BC36F8B7B"]
@@ -773,7 +1004,13 @@
 				"4CC934314D14A5EA"
 				"29A2859398D5B252"
 			]
-			description: ["唯二你能手动合成的线缆之一"]
+			description: [
+				"唯二你能手动合成的线缆之一，在你做出&6原始打包机&r之后就可以不用手动合成了"
+				""
+				"当然只能合成1x的线缆，即该线缆只能支持&41A&r的电流上限，&4电流再大就要烧导线了！！&r"
+				""
+				"不过合成导线的方式&e不止一条&r，多看看EMI吧！"
+			]
 			hide_dependent_lines: true
 			id: "53A8535B07FE3958"
 			rewards: [{
@@ -784,6 +1021,7 @@
 			}]
 			shape: "gear"
 			size: 2.0d
+			subtitle: "线靠衣装"
 			tasks: [{
 				id: "369F4DFA3722CE01"
 				item: "gtceu:red_alloy_single_cable"
@@ -795,40 +1033,64 @@
 		}
 		{
 			dependencies: ["017D4D369784454E"]
+			description: [
+				"为了制造一个完整的&6土高炉&r，你需要准备总共&4528个&r黏土粉，希望你已经找到了一个&d庞大&r的&c繁茂洞穴&r"
+				""
+				"你需要通过将黏土球压缩成黏土，再将黏土粉碎才能得到&6黏土粉&r"
+				""
+				"砖粉则可以通过直接烧制黏土球变成红砖，再将其在合成台上组装成红砖之后粉碎获得"
+				""
+				"希望你的&6半自动粉碎系统&r已经准备好了，要不然就老费劲了"
+			]
 			id: "55AAF11E1101F10F"
+			subtitle: "麻烦吗，麻烦就对了！"
 			tasks: [{
 				id: "1536A22D0368A036"
 				item: "gtceu:fireclay_dust"
 				type: "item"
 			}]
+			title: "看上去有点麻烦的材料"
 			x: 6.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["27F4D9739FE33A02"]
+			description: [
+				"希望你这时没有在使用工作台加锤子的组合来制作钢板了"
+				""
+				"你需要节省材料和时间"
+			]
 			id: "13FBF05133D59CDC"
+			subtitle: "三维变二维？"
 			tasks: [{
 				id: "21B831E45B1D76EA"
 				item: "ad_astra:steel_plate"
 				type: "item"
 			}]
+			title: "形态变化！"
 			x: 8.0d
 			y: 5.0d
 		}
 		{
 			dependencies: ["24C53B5FF515ACAC"]
 			description: [
-				"如果没有注意到初章的任务，你现在将尴尬地等待橡胶树生长"
+				"希望你注意到了&6橡胶树&r并且把它们带回了家，如果没有注意到初章的任务你现在将尴尬地等待橡胶树生长"
 				""
-				"应该尽快种起来"
+				"&8&m公司警告你禁止摸鱼&r"
+				""
+				"&r应该尽快种起来，&e种多点肯定是没错的&r"
+				""
+				"然后用连锁功能把橡胶原木批量砍下来就行了，粘性树脂会随机掉落"
 			]
 			hide_dependency_lines: true
 			id: "1449A2A27F34E8CF"
+			subtitle: "并不需要木龙头"
 			tasks: [{
 				id: "719E329CBE800FDF"
 				item: "gtceu:sticky_resin"
 				type: "item"
 			}]
+			title: "橡胶树的宝贝产物"
 			x: 10.5d
 			y: 7.5d
 		}
@@ -895,47 +1157,85 @@
 		}
 		{
 			dependencies: ["13FBF05133D59CDC"]
-			description: ["你会需要两个"]
+			description: [
+				"你会需要三个，一个用于制作&6模具(球)&r，一个用于制作&6模具(块)&r，最后一个用于制作&6模具(板)&r"
+				""
+				"&6模具&r都是不会消耗的，意思就是你做一个出来那你就可以一直用到&b宇&r&e宙&r&2终&r&c结"
+				""
+				"&r而&6模板&r也可以制作&6模头&r，但使用&6模头&r的&c压模器配方&r起码都是LV级别起步的，绝大多数配方在LV是&4无法使用的&r"
+				""
+				"&4所以看清楚了，你要制作的是模具，不是模头！！！&r"
+			]
 			id: "0019A5EEEE514539"
+			subtitle: "但好事成三"
 			tasks: [{
 				count: 2L
 				id: "38EFA245E5DAF1C9"
 				item: "gtceu:empty_mold"
 				type: "item"
 			}]
+			title: "模具的前身"
 			x: 11.5d
 			y: 5.0d
 		}
 		{
 			dependencies: ["043FCD7B759853EA"]
-			description: ["用&6合金炉&r和&6板模具&r将&6橡胶条&r塑形为&6橡胶片&r"]
+			description: [
+				"用&6合金炉&r和&6板模具&r将&6橡胶条&r塑形为&6橡胶片&r"
+				""
+				"很明显的这是&6合金炉&r的配方，你肯定需要多一台&6合金炉&r"
+				"[ \"或者一个\", { \"text\": \"多方块合金炉\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4C94E56A9270EFFB\" } }, \"的\" ]"
+			]
 			id: "4CC934314D14A5EA"
 			shape: "hexagon"
+			subtitle: "我需要多一台合金炉！"
 			tasks: [{
 				id: "151646E9CFE3E3A1"
 				item: "gtceu:rubber_plate"
 				type: "item"
 			}]
+			title: "片状的橡胶才是好橡胶"
 			x: 6.0d
 			y: 6.0d
 		}
 		{
 			dependencies: ["604FA0DDAD1979A1"]
+			description: [
+				"无电阻的一类导线统称为&6超导线&r"
+				""
+				"只要超导线接受的电流和电压&e小于&r它所能承载的&d电流或电压上限&r，它就是绝对安全的"
+				""
+				"&8eg.这个任务指引你做的超导线承载力上限是1A/ULV，则在接受2A/ULV或1A/LV的电情况下导线会烧毁&r"
+				""
+				"&o意味着你可以在导线上&a跳&r&6来&r&e跳&r&b去&r"
+				""
+				"&r当然如果你让超导线接收了过大的电流，它就会&4起火&r并且在一段时间后&4烧毁&r，如果电流远大于承载上限，则会&4直接烧毁&r"
+			]
 			id: "29A2859398D5B252"
 			shape: "hexagon"
+			subtitle: "Another Ver. 0"
 			tasks: [{
 				id: "139B0E823D37AFF9"
 				item: "gtceu:red_alloy_single_wire"
 				type: "item"
 			}]
+			title: "你可以贴贴的导线"
 			x: 1.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["4A9E47C3F8DF24A3"]
+			description: [
+				"纯净玻璃&d有且仅有&r通过Ender IO的合金炉和原始合金炉产出"
+				""
+				"慢是必然的，堆点量吧"
+				""
+				"当然等你有&d更大&r的纯净玻璃需求时你也会有&2更好的选择&r了"
+			]
 			icon: "enderio:clear_glass"
 			id: "3405FBC1B0CD80AD"
 			size: 1.0d
+			subtitle: "烧烤玻璃"
 			tasks: [{
 				id: "1B71AF690B18B55C"
 				item: {
@@ -948,45 +1248,64 @@
 				title: "纯净玻璃"
 				type: "item"
 			}]
+			title: "让我们把玻璃擦干净点"
 			x: -0.75d
 			y: 5.5d
 		}
 		{
 			dependencies: ["78F56076EB6961EE"]
-			description: ["前期优秀的自动化管道，支持多点输入输出，适合布置紧凑产线"]
+			description: ["&e物品导管&r是前期优秀的自动化管道，支持多点输入输出，适合布置紧凑产线"]
 			id: "353DB5059C50932E"
 			shape: "diamond"
 			size: 1.5d
+			subtitle: "并非传送带"
 			tasks: [{
 				id: "4ECA6BF79C09EDD9"
 				item: "enderio:item_conduit"
 				type: "item"
 			}]
+			title: "让物品动起来"
 			x: 1.5d
 			y: 5.5d
 		}
 		{
 			dependencies: ["24C53B5FF515ACAC"]
+			description: [
+				"去挖点&6砂砾&r、&e沙子&r和&c黏土&r就行了"
+				""
+				"需要在工作台上合成，但一次能合成不少呢"
+			]
 			hide_dependency_lines: true
 			id: "275F142925816979"
 			size: 1.0d
+			subtitle: "并非来点胶水"
 			tasks: [{
 				id: "00EC47D9D8B9D99B"
 				item: "enderio:conduit_binder_composite"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 7.5d
+			title: "把管道密封好"
+			x: 2.642857142857146d
+			y: 7.499999999999993d
 		}
 		{
 			dependencies: ["275F142925816979"]
+			description: [
+				"那么，你需要把&6导管粘合剂复合材料&r在熔炉里面加热成为&6导管粘合剂&r"
+				""
+				"它是制作Ender IO的物品和流体导管的&4必备材料&r"
+				""
+				"所以可以稍微多做一些，并且用它们作为前期的管道，功能性强大且节省空间（&e三种管道可以共存于一格空间内&r）"
+			]
 			id: "78F56076EB6961EE"
 			size: 1.0d
+			subtitle: "千万别漏了"
 			tasks: [{
 				id: "028A111FD54A8A95"
 				item: "enderio:conduit_binder"
 				type: "item"
 			}]
+			title: "泥水匠"
 			x: 1.5d
 			y: 7.5d
 		}
@@ -998,16 +1317,20 @@
 			description: [
 				"&e流体导管&r，带有主动抽取和输出，但不能多点输入输出"
 				""
+				"以及它支持&4红石信号&r控制"
+				""
 				"&bMV阶段&r你能够制作更好用的&6末影流体导管&r"
 			]
 			id: "23118466181C773C"
 			shape: "diamond"
 			size: 1.5d
+			subtitle: "它居然能听懂红石在说什么哦"
 			tasks: [{
 				id: "0458A0CE873814FC"
 				item: "enderio:fluid_conduit"
 				type: "item"
 			}]
+			title: "另一种流体传输方式"
 			x: -0.75d
 			y: 7.5d
 		}
@@ -1036,14 +1359,23 @@
 				"35AC53D6E8EE6796"
 				"268C28F66FA4C91F"
 			]
+			description: [
+				"这个大家伙不仅具有&e32并行&r，而且还可以通过升级蒸汽输入仓来产出&4副产物"
+				"&r"
+				"但很明显的，&a大型蒸汽输入仓&r你现在是获取不了的，不过到了能获取它的时候，&6大型蒸汽破碎机&r依然很强力"
+				""
+				"&8&8记得准备一个足够大的输出总线&r&r"
+			]
 			id: "5F192882CBB16A9A"
 			shape: "diamond"
 			size: 1.5d
+			subtitle: "搅碎万物...吗？"
 			tasks: [{
 				id: "0F84DA23AF506329"
 				item: "gtocore:large_steam_macerator"
 				type: "item"
 			}]
+			title: "蒸汽之力"
 			x: 3.0d
 			y: -4.5d
 		}
@@ -1052,14 +1384,23 @@
 				"6AB9089FDE595716"
 				"268C28F66FA4C91F"
 			]
+			description: [
+				"我认为你并不会在这个阶段需要它，不过你在这个阶段也造不出这个大家伙"
+				""
+				"跟其他进阶蒸汽多方块一样的&d并行、蒸汽消耗和debuff&r"
+				""
+				"当然可能存在&6液体&r参与搅拌的配方，你需要有个&d输入仓&r来输入液体"
+			]
 			id: "2A107C5DD4BC53A3"
 			shape: "diamond"
 			size: 1.5d
+			subtitle: "并没有在制作魔法药水"
 			tasks: [{
 				id: "03C1D260B5CFB2AD"
 				item: "gtocore:large_steam_mixer"
 				type: "item"
 			}]
+			title: "更大的锅与更大的搅拌棍"
 			x: 12.0d
 			y: 3.75d
 		}
@@ -1068,14 +1409,23 @@
 				"020E8B707A8CF794"
 				"268C28F66FA4C91F"
 			]
+			description: [
+				"它能处理的是&d洁净矿粉&r，由&6研磨机&r处理纯净矿石而来"
+				""
+				"一般来说这条处理方式并不常见，所以一般情况下它是用于处理其他配方而并非着眼于矿物处理产线的"
+				""
+				"[ \"尤其要注意你的产物是由离心机还是\", { \"text\": \"热力离心机\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1CF899F39CC99A07\" } }, \"生产而成，两字之差距离远矣\" ]"
+			]
 			id: "1FEF25B6BDBC00D7"
 			shape: "diamond"
 			size: 1.5d
+			subtitle: "头晕了吗？"
 			tasks: [{
 				id: "32F4C71310CC1F7D"
 				item: "gtocore:large_steam_centrifuge"
 				type: "item"
 			}]
+			title: "用力摇！"
 			x: 3.0d
 			y: 12.0d
 		}
@@ -1084,14 +1434,21 @@
 				"268C28F66FA4C91F"
 				"020E8B707A8CF794"
 			]
+			description: [
+				"它能处理的是&d粉碎矿石&r和&e纯净矿石&r，前者是直接由&6研磨机&r生产完成，后者是&6洗矿机&r处理完毕的"
+				""
+				"[ \"尤其要注意你的产物是由\", { \"text\": \"离心机\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1FEF25B6BDBC00D7\" } }, \"还是热力离心机生产而成，两字之差距离远矣\" ]"
+			]
 			id: "1CF899F39CC99A07"
 			shape: "diamond"
 			size: 1.5d
+			subtitle: "离心机异父异母的兄弟"
 			tasks: [{
 				id: "6B662D66EAF8C624"
 				item: "gtocore:large_steam_thermal_centrifuge"
 				type: "item"
 			}]
+			title: "不仅离心，还要有点热"
 			x: 0.75d
 			y: 9.75d
 		}
@@ -1100,14 +1457,25 @@
 				"7ADAA0DA032918C5"
 				"268C28F66FA4C91F"
 			]
+			description: [
+				"你肯定已经发现了，卡住你矿物处理流程的最关键一环就是&6洗矿&r的流程"
+				""
+				"那么你肯定想整这个大家伙，并且让它满功率运行"
+				""
+				"然而我告诉你满功率你需要的&6蒸汽&r你目前绝无可能达成，所以还是不超频来运转吧"
+				""
+				"&432并行&r已经很够了，注意&d输出大小&r，太小的话是没办法执行某些配方的"
+			]
 			id: "241806C710FDAC27"
 			shape: "diamond"
 			size: 1.5d
+			subtitle: "我的蒸汽都去哪了"
 			tasks: [{
 				id: "6CE077C797332677"
 				item: "gtocore:large_steam_ore_washer"
 				type: "item"
 			}]
+			title: "更大的滚筒洗衣机"
 			x: 7.5d
 			y: 12.0d
 		}
@@ -1116,14 +1484,23 @@
 				"411686C01CB6045F"
 				"268C28F66FA4C91F"
 			]
+			description: [
+				"[ \"用法和配置需求都跟\", { \"text\": \"右边那个家伙\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"241806C710FDAC27\" } }, \"是一样的，甚至长得也很像\" ]"
+				""
+				"不过你肯定是用来处理&6矿物&r的，其他的配方你也不会用到的"
+				""
+				"跟所有的大型蒸汽多方块一样，都是有着&432并行&r"
+			]
 			id: "0CFABBAD568B3178"
 			shape: "diamond"
 			size: 1.5d
+			subtitle: "跟隔壁那个家伙怎么这么像"
 			tasks: [{
 				id: "0971BE2E86BE323A"
 				item: "gtocore:large_steam_bath"
 				type: "item"
 			}]
+			title: "大泳池，大容量"
 			x: 5.25d
 			y: 12.0d
 		}
@@ -1132,14 +1509,23 @@
 				"5660509FA09D2239"
 				"268C28F66FA4C91F"
 			]
+			description: [
+				"&432并行&r的多方块大机器，仅有&e1.2倍&r的处理时长惩罚，并且可通过替换&6蒸汽输入仓&r来实现处理电压的&5升级"
+				"&r"
+				"&4那么古尔丹，代价是什么呢？&r"
+				""
+				"在你使用蒸汽输入仓的情况下需要提供&41000mb/t&r的蒸汽来维持满并行处理"
+			]
 			id: "740983360C14D97F"
 			shape: "diamond"
 			size: 1.5d
+			subtitle: "这位爷，这边先请"
 			tasks: [{
 				id: "51D770B38F9704A2"
 				item: "gtocore:large_steam_crusher"
 				type: "item"
 			}]
+			title: "敲碎他们！"
 			x: 12.0d
 			y: 2.25d
 		}
@@ -1152,7 +1538,7 @@
 				""
 				"&6大型青铜熔炉&r足以让你用到&fHV&r阶段，直到&6工业熔炉&r的并行数超过它并足以执行多次超频"
 				""
-				"即便有1.5倍处理耗时惩罚，但在当前阶段它就是&e绝对&r无敌的存在"
+				"即便有1.2倍处理耗时惩罚，但在当前阶段它就是&e绝对&r无敌的存在"
 			]
 			id: "713A10C0905402EB"
 			shape: "diamond"
@@ -1191,27 +1577,49 @@
 		}
 		{
 			dependencies: ["13FBF05133D59CDC"]
+			description: [
+				"你需要更多的焦煤和杂酚油吗？来，让这个大家伙满足你！"
+				""
+				"&6大型焦炉&r有&58并行&r，而且最多可以安装&95个&r&6焦炉仓&r来进行交互，绝对可以满足你的需求"
+				""
+				"当然也别&4盲目追求&r&a半流质发电&r，该进行技术革新的时候就要果断进行"
+				""
+				"&8&m要不然就会跟某个堆了32个大型焦炉的玩家一样苦恼于如何处理它们&r&r"
+			]
 			id: "5E630E41CA4A363A"
 			shape: "diamond"
 			size: 1.5d
+			subtitle: "大大大大大大！"
 			tasks: [{
 				id: "652BDE513B76C239"
 				item: "gtocore:large_coke_oven"
 				type: "item"
 			}]
+			title: "焦炉Pro Max版"
 			x: 9.75d
 			y: 6.5d
 		}
 		{
 			dependencies: ["13FBF05133D59CDC"]
+			description: [
+				"你可以通过&6钢制储罐阀门&r来控制流体的输入和输出，如果你把阀门向下摆，则可以&a自动&r输出流体"
+				""
+				"里面可以塞很多东西，比如&6蒸汽&r和&6杂酚油&r等等"
+				""
+				"为什么存&6蒸汽&r？你得确保有些大胃袋机器能临时跑得起来"
+				""
+				"至于&6杂酚油&r，前期发电的好东西"
+			]
 			id: "159B8E40B78A9D4D"
 			shape: "diamond"
 			size: 1.5d
+			subtitle: "装点热水？"
 			tasks: [{
 				id: "31F740DE4F900F04"
 				item: "gtceu:steel_multiblock_tank"
 				type: "item"
 			}]
+			title: "更大的保温杯"
 			x: 8.0d
 			y: 6.5d
 		}
