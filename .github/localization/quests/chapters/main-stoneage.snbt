@@ -502,7 +502,7 @@
 					Count: 1
 					id: "gtocore:prospector.mana_ulv"
 					tag: {
-						mana: 100000
+						mana: 500000
 					}
 				}
 				type: "item"
@@ -2105,6 +2105,8 @@
 				"{gto.main-stoneage.quests.07C8D75D90114580.description1}"
 				"{gto.main-stoneage.quests.07C8D75D90114580.description2}"
 				"{gto.main-stoneage.quests.07C8D75D90114580.description3}"
+				""
+				"{gto.main-stoneage.quests.07C8D75D90114580.description4}"
 			]
 			id: "07C8D75D90114580"
 			rewards: [
@@ -2190,6 +2192,34 @@
 			}]
 			title: "{gto.main-stoneage.quests.06FE84E75DBE704A.title}"
 			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"73479CC3BADD15F1"
+				"30D4CC9142D59DBD"
+			]
+			description: [
+				"{gto.main-stoneage.quests.1ACA0000AE7FC80A.description0}"
+				""
+				"{gto.main-stoneage.quests.1ACA0000AE7FC80A.description1}"
+				""
+				"{gto.main-stoneage.quests.1ACA0000AE7FC80A.description2}"
+			]
+			id: "1ACA0000AE7FC80A"
+			rewards: [{
+				id: "762358C3DBE707D5"
+				item: "gtocore:copper_coin"
+				type: "item"
+			}]
+			subtitle: "{gto.main-stoneage.quests.1ACA0000AE7FC80A.subtitle}"
+			tasks: [{
+				id: "15C02C37D1266918"
+				item: "avaritia:compressed_chest"
+				type: "item"
+			}]
+			title: "{gto.main-stoneage.quests.1ACA0000AE7FC80A.title}"
+			x: 10.0d
 			y: 5.0d
 		}
 	]
