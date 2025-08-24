@@ -502,7 +502,7 @@
 					Count: 1
 					id: "gtocore:prospector.mana_ulv"
 					tag: {
-						mana: 100000
+						mana: 500000
 					}
 				}
 				type: "item"
@@ -2105,6 +2105,8 @@
 				"你只需要确保在背包内有多方块所需要的方块的情况下"
 				"蹲下对着多方块的主机右键即可搭建多方块"
 				"当然多方块的成型判定会有一定延迟"
+				""
+				"&8&o这个任务放在这里是为了提醒你要做这东西，并不是意味着你要在当前阶段就把它搓出来（你也搓不出来）&r&r"
 			]
 			id: "07C8D75D90114580"
 			rewards: [
@@ -2190,6 +2192,34 @@
 			}]
 			title: "更强更大"
 			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"73479CC3BADD15F1"
+				"30D4CC9142D59DBD"
+			]
+			description: [
+				"在你有多方块板条箱之前，这个小家伙&d绝对&r是一个非常优秀的存储容器"
+				""
+				"当然你需要用你刚刚获得的那些工具来制造它"
+				""
+				"来吧，&b动&r&e手&r&c试&r&a试&r"
+			]
+			id: "1ACA0000AE7FC80A"
+			rewards: [{
+				id: "762358C3DBE707D5"
+				item: "gtocore:copper_coin"
+				type: "item"
+			}]
+			subtitle: "0/243"
+			tasks: [{
+				id: "15C02C37D1266918"
+				item: "avaritia:compressed_chest"
+				type: "item"
+			}]
+			title: "能容万物"
+			x: 10.0d
 			y: 5.0d
 		}
 	]
