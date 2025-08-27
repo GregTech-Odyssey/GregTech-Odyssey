@@ -794,12 +794,15 @@
 		}
 		{
 			dependencies: ["6834E0CEC40F4286"]
-			description: ["{gto.ae.quests.5F522D73AF5F1B2F.description0}"]
+			description: [
+				"{gto.ae.quests.5F522D73AF5F1B2F.description0}"
+				"{gto.ae.quests.5F522D73AF5F1B2F.description1}"
+			]
 			icon: "gtocore:tesseract_generator"
 			id: "5F522D73AF5F1B2F"
 			subtitle: "{gto.ae.quests.5F522D73AF5F1B2F.subtitle}"
 			tasks: [{
-				id: "1E4C54B4C81BC629"
+				id: "0BDCC9DBE42F86B1"
 				item: "gtocore:tesseract_generator"
 				type: "item"
 			}]
@@ -897,9 +900,6 @@
 				"{gto.ae.quests.430034AB98D8453B.description3}"
 				""
 				"{gto.ae.quests.430034AB98D8453B.description4}"
-				"{gto.ae.quests.430034AB98D8453B.description5}"
-				""
-				"{gto.ae.quests.430034AB98D8453B.description6}"
 			]
 			id: "430034AB98D8453B"
 			subtitle: "{gto.ae.quests.430034AB98D8453B.subtitle}"
@@ -912,11 +912,6 @@
 				{
 					id: "1949328EC7B7239A"
 					item: "gtocore:me_storage_access_hatch"
-					type: "item"
-				}
-				{
-					id: "49EAFB7B2838999A"
-					item: "gtocore:me_storage_access_proxy"
 					type: "item"
 				}
 			]

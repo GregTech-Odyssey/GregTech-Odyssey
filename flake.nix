@@ -16,6 +16,10 @@
         pkgs = nixpkgs.legacyPackages.${system};
         pack = builtins.fromTOML (builtins.readFile ./pack.toml);
         inherit (packwiz2nix.packages.${system}) buildPackwizModpack;
+        patchFilesCommon = ''
+          rm -rf config/ftbquests/quests
+          cp -r .github/localization/quests config/ftbquests/quests
+        '';
       in {
         devShells.default =
           pkgs.mkShell { packages = with pkgs; [ packwiz yq ]; };
@@ -28,6 +32,7 @@
             buildInputs = with pkgs; [ packwiz ];
             phases = [ "unpackPhase" "buildPhase" "installPhase" ];
             buildPhase = ''
+              ${patchFilesCommon}
               packwiz cf export
             '';
             installPhase = ''
@@ -38,14 +43,14 @@
 
           forge = let
             minecraftVersion = "1.20.1";
-            forgeVersion = "47.4.1";
+            forgeVersion = "47.4.6";
             version = "${minecraftVersion}-${forgeVersion}";
           in pkgs.runCommandNoCC "forge-${version}" {
             inherit version;
             nativeBuildInputs = with pkgs; [ cacert curl jre_headless ];
 
             outputHashMode = "recursive";
-            outputHash = "sha256-xObsID3NwcvfvplT7y2jdl/LLkCK3UgNd/lP1a5Bhhk=";
+            outputHash = "sha256-tW4cI1Sry8G6V6k6jvXxzadyIGmf6ttga+K2Biq2Kgg=";
           } ''
             mkdir -p "$out"
 
@@ -60,8 +65,7 @@
             allowMissingFile = true;
 
             buildPhase = ''
-              rm -rf config/ftbquests/quests
-              cp -r .github/localization/quests config/ftbquests/quests
+              ${patchFilesCommon}
             '';
           };
 
@@ -73,8 +77,7 @@
             side = "client";
 
             buildPhase = ''
-              rm -rf config/ftbquests/quests
-              cp -r .github/localization/quests config/ftbquests/quests
+              ${patchFilesCommon}
             '';
           };
 

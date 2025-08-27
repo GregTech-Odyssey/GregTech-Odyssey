@@ -1,6 +1,7 @@
 import json
 import os
 from pathlib import Path
+import shutil
 
 import ftb_snbt_lib as snbt
 from ftb_snbt_lib.tag import Compound, List, String
@@ -8,7 +9,8 @@ from ftb_snbt_lib.tag import Compound, List, String
 QUEST_PATH = Path('config/ftbquests/quests')
 
 QUEST_LOCALIZED_PATH = Path('.github/localization/quests')
-QUEST_LOCALIZED_PATH.mkdir(exist_ok=True)
+shutil.rmtree(QUEST_LOCALIZED_PATH, ignore_errors=True)
+QUEST_LOCALIZED_PATH.mkdir()
 
 LANG_FILE_PATH = Path('config/openloader/resources/quests/assets/gto/lang')
 os.makedirs(LANG_FILE_PATH, exist_ok=True)

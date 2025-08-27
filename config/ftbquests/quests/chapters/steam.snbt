@@ -1096,17 +1096,6 @@
 			y: 9.75d
 		}
 		{
-			id: "639F7F4B7937C6EB"
-			size: 1.5d
-			tasks: [{
-				id: "3CCE7975D500B618"
-				item: "gtocore:large_steam_bath"
-				type: "item"
-			}]
-			x: 3.0d
-			y: 25.0d
-		}
-		{
 			dependencies: [
 				"7ADAA0DA032918C5"
 				"268C28F66FA4C91F"

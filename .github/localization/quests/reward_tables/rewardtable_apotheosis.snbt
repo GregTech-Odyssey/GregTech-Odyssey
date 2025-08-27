@@ -22,6 +22,10 @@
 			count: 8
 			item: "minecraft:glow_ink_sac"
 		}
+		{
+			item: "apotheosis:mythic_material"
+			weight: 0.01f
+		}
 	]
 	title: "{gto.rewardtable_apotheosis.title}"
 }
