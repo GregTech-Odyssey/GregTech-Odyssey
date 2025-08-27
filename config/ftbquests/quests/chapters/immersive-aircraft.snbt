@@ -12,8 +12,8 @@
 		image: "immersive_aircraft:item/biplane"
 		rotation: 0.0d
 		width: 10.0d
-		x: 0.0d
-		y: 3.0d
+		x: 0.5d
+		y: 2.0d
 	}]
 	order_index: 1
 	quest_links: [ ]
@@ -22,6 +22,12 @@
 			dependencies: ["16F5A8D72B39E6B2"]
 			id: "66B986C9FA7C249C"
 			optional: true
+			rewards: [{
+				count: 128
+				id: "0032F3733D1EE5F3"
+				item: "gtocore:copper_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "17CBFB2BFE75DC43"
 				item: "immersive_aircraft:eco_engine"
@@ -34,6 +40,12 @@
 			dependencies: ["16F5A8D72B39E6B2"]
 			id: "43174AF9A74A256E"
 			optional: true
+			rewards: [{
+				count: 64
+				id: "339E84285208EAC4"
+				item: "gtocore:copper_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7FF6FBD3E013C1EC"
 				item: "immersive_aircraft:nether_engine"
@@ -45,6 +57,20 @@
 		{
 			dependencies: ["1CE2E908034CC401"]
 			id: "16F5A8D72B39E6B2"
+			rewards: [
+				{
+					count: 8
+					id: "03218659130A5509"
+					item: "gtceu:red_alloy_ingot"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "3306A4D828B49BA1"
+					item: "gtocore:copper_coin"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "5357DFDEC59E300B"
 				item: "immersive_aircraft:engine"
@@ -56,6 +82,20 @@
 		{
 			dependencies: ["1CE2E908034CC401"]
 			id: "3EC23F598AA41F85"
+			rewards: [
+				{
+					count: 8
+					id: "3909A820CB12F4BB"
+					item: "gtocore:copper_coin"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "57BF09912AC30AE3"
+					item: "gtceu:bronze_ingot"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "0704230CD0CEB497"
 				item: "immersive_aircraft:hull"
@@ -67,6 +107,19 @@
 		{
 			dependencies: ["1CE2E908034CC401"]
 			id: "26C280503591A9D7"
+			rewards: [
+				{
+					id: "09C76A8BE2A11FB4"
+					item: "gtocore:copper_coin"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6F8AA130B88CD5FE"
+					item: "minecraft:white_wool"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "4FFA3BA9F9DBEA53"
 				item: "immersive_aircraft:sail"
@@ -78,6 +131,20 @@
 		{
 			dependencies: ["1CE2E908034CC401"]
 			id: "56396B3BAD9141A4"
+			rewards: [
+				{
+					count: 8
+					id: "2905F5583C5560CD"
+					item: "gtocore:copper_coin"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "379A5B953F961FD6"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "476097EC5FA65805"
 				item: "immersive_aircraft:propeller"
@@ -89,6 +156,12 @@
 		{
 			dependencies: ["16F5A8D72B39E6B2"]
 			id: "7E89145137E54591"
+			rewards: [{
+				count: 16
+				id: "711D4C9161DC41B9"
+				item: "gtocore:copper_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "53E1237F77E53F00"
 				item: "immersive_aircraft:airship"
@@ -100,6 +173,12 @@
 		{
 			dependencies: ["7E89145137E54591"]
 			id: "123024A1AC5BA67E"
+			rewards: [{
+				count: 16
+				id: "3C2DE35E27BBFC41"
+				item: "gtocore:copper_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4DCAAED2147895EB"
 				item: "immersive_aircraft:cargo_airship"
@@ -111,6 +190,12 @@
 		{
 			dependencies: ["123024A1AC5BA67E"]
 			id: "61B28143F7FB2220"
+			rewards: [{
+				count: 16
+				id: "5B80AAEE9283FD75"
+				item: "gtocore:copper_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "00BC5A4989E0AAE1"
 				item: "immersive_aircraft:warship"
@@ -123,6 +208,12 @@
 			dependencies: ["16F5A8D72B39E6B2"]
 			id: "5E7118B5A54A510E"
 			optional: true
+			rewards: [{
+				count: 8
+				id: "64AD8809CFD62AEA"
+				item: "gtocore:copper_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5E195D14FB8E1B26"
 				item: "immersive_aircraft:biplane"
@@ -134,6 +225,12 @@
 		{
 			id: "5DBACA4CAEDF73AB"
 			optional: true
+			rewards: [{
+				count: 8
+				id: "4FDB063DF47416AD"
+				item: "gtocore:copper_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "00BE649A885853DC"
 				item: "immersive_aircraft:gyrodyne"
@@ -146,6 +243,12 @@
 			dependencies: ["16F5A8D72B39E6B2"]
 			id: "57349A7FC231CB46"
 			optional: true
+			rewards: [{
+				count: 8
+				id: "3AF40D414477F7A2"
+				item: "gtocore:copper_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7CD023B1452787C1"
 				item: "immersive_aircraft:quadrocopter"
@@ -157,6 +260,20 @@
 		{
 			id: "630AAD8C35FEC542"
 			optional: true
+			rewards: [
+				{
+					count: 8
+					id: "59BCEDF6E9DDB35F"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "424C1B2720CAA84F"
+					item: "gtocore:copper_coin"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "76004ADF4587F521"
 				item: "immersive_aircraft:rotary_cannon"
@@ -168,6 +285,12 @@
 		{
 			id: "7F78260FFC8EA1AB"
 			optional: true
+			rewards: [{
+				count: 8
+				id: "306AE6023CB255F5"
+				item: "gtocore:copper_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2C401269BDEA3D69"
 				item: "immersive_aircraft:heavy_crossbow"
@@ -179,6 +302,12 @@
 		{
 			id: "096243AE2228F632"
 			optional: true
+			rewards: [{
+				count: 8
+				id: "14A8D7E5FACF2A15"
+				item: "gtocore:copper_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3B758CBC42AA4E78"
 				item: "immersive_aircraft:telescope"
@@ -190,6 +319,20 @@
 		{
 			id: "20F402B63C4F4F3E"
 			optional: true
+			rewards: [
+				{
+					count: 4
+					id: "2126E4B0C192FDE0"
+					item: "ad_astra:steel_ingot"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "0CF31BDB04FFFAA4"
+					item: "gtocore:copper_coin"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "2E9C6FA85BEF5FF9"
 				item: "immersive_aircraft:bomb_bay"
@@ -201,6 +344,20 @@
 		{
 			id: "6D5E89ECBC86853C"
 			optional: true
+			rewards: [
+				{
+					count: 8
+					id: "38E8B3C784C48764"
+					item: "gtocore:copper_coin"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "641F815D007EEB44"
+					item: "gtceu:bronze_ingot"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "5CB6A679C660EA83"
 				item: "immersive_aircraft:enhanced_propeller"
@@ -212,6 +369,20 @@
 		{
 			id: "0AB9A2D867084B6D"
 			optional: true
+			rewards: [
+				{
+					count: 8
+					id: "0A4CC6A45DBE9A40"
+					item: "ad_astra:steel_ingot"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "23E55BA9FA4DB1C6"
+					item: "gtocore:copper_coin"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "76F787399C518B8F"
 				item: "immersive_aircraft:steel_boiler"
@@ -223,6 +394,20 @@
 		{
 			id: "252615C78C5BF37D"
 			optional: true
+			rewards: [
+				{
+					count: 8
+					id: "6EF942A6A8FEE38B"
+					item: "gtceu:bronze_ingot"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "19EF608B95485FE1"
+					item: "gtocore:copper_coin"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "588CD1ED1269D082"
 				item: "immersive_aircraft:industrial_gears"
@@ -234,6 +419,20 @@
 		{
 			id: "6967B3C78849CAD3"
 			optional: true
+			rewards: [
+				{
+					count: 32
+					id: "2F0AB45CBF4B3438"
+					item: "gtocore:copper_coin"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "6A13D7593A3BCA44"
+					item: "ad_astra:steel_ingot"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "5AB50A90B86ED5CF"
 				item: "immersive_aircraft:sturdy_pipes"
@@ -245,6 +444,12 @@
 		{
 			id: "21B75AFB30490761"
 			optional: true
+			rewards: [{
+				count: 8
+				id: "013939A2339A1706"
+				item: "gtocore:copper_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "25FFABF45F1FFBD2"
 				item: "immersive_aircraft:gyroscope"
@@ -256,6 +461,20 @@
 		{
 			id: "417DB91AD8D58320"
 			optional: true
+			rewards: [
+				{
+					count: 8
+					id: "0250EA47A0A9AE74"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "7150AE35566153F8"
+					item: "gtocore:copper_coin"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "55DF4AE6EE2C358F"
 				item: "immersive_aircraft:hull_reinforcement"
@@ -267,6 +486,20 @@
 		{
 			id: "5518D0ADC254D5A4"
 			optional: true
+			rewards: [
+				{
+					count: 8
+					id: "7DAF741F7971BE6C"
+					item: "gtceu:invar_ingot"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "664D3042ECB0A54C"
+					item: "gtocore:copper_coin"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "3F9DF606293CBC95"
 				item: "immersive_aircraft:improved_landing_gear"
@@ -279,6 +512,12 @@
 			description: ["本章节只是为了展示该模组的独特物品"]
 			icon: "immersive_aircraft:biplane"
 			id: "1CE2E908034CC401"
+			rewards: [{
+				count: 8
+				id: "167206CA8BC8857D"
+				item: "gtocore:copper_coin"
+				type: "item"
+			}]
 			size: 2.0d
 			tasks: [{
 				id: "42AEC37BF2CBE837"
