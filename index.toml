@@ -782,7 +782,7 @@ hash = "40fa16efc5b903cf176cec5220b01996614bc262bcc59132c2b5c5bc30a9298e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/apotheosis.snbt"
-hash = "6e8d592325572bd53a5ada490c2cfa9064374018f7e8955762f31acac580ec71"
+hash = "20065c5f4c9b0ffaac4b94a2a8c7527868e2e6e4885a0465a8658addd545d233"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/arsbotania.snbt"
@@ -822,7 +822,7 @@ hash = "f9072e78ab795e8387c85f4e59e6193be9f6395707dc9e5f1137b0eda63f512b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/immersive-aircraft.snbt"
-hash = "5ad3d776d8a64549a69a2fda9379d8c31051f131ca475b300ae5e89894ad48a1"
+hash = "2b28cda356be93f4df4644dee208b9b47003237e0c712903ddd89c4d17be6a01"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/iv.snbt"
@@ -838,7 +838,7 @@ hash = "58a6860814d46c7b9a28750f5eee8d26e1f4e7f24770cbb14b4ccd98f1f974b5"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/main-stoneage.snbt"
-hash = "48787caeb2fca10182fba1ad973e95b6181a772c915a578084cc1e2da325c56b"
+hash = "943cb4ed418ba4a3e147fca17f117a44d81ca9961b85d5fb68ad146ffbee1b61"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/massive-manufacturing.snbt"
@@ -874,7 +874,7 @@ hash = "a2851f294f9480b93384fad7b75e49749b7053648a8e53221190bda56d0f2684"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/steam.snbt"
-hash = "2d6818429674a21ba77029d89d7ccdb0474f204fe5324aa1eff1457e5fdde34e"
+hash = "cb7902fa21576befac2aae2b468f9908906900e76e59a35db47897b0d6b09c7a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tips.snbt"
@@ -1306,15 +1306,15 @@ hash = "c1f4096060432fc606b51342f6479e5bad701fe36dcea1db5b793cc047b255f4"
 
 [[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/en_us.json"
-hash = "6292c3b600bddb35c89cfd5bb1381bc47406ce454b4e8d793dd8aa2a77d4a7cc"
+hash = "fcf29e2978b885e9f3196d2c8a4ab372f081e79f073fb6072048048fca6bd4b8"
 
 [[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/zh_cn.json"
-hash = "14e541ea2cf1f34e554e2a5d1e96bfa310a88c0a4fe4df3dc1ff501a6008f6ab"
+hash = "70ed02f309885061b54126437b02eb39cd2dca25af88d7918948c49894d11213"
 
 [[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/zh_tw.json"
-hash = "f843aedd41e679060bb9c406a58ebd402d63abc481d83ae00c21c69e5c1c0cae"
+hash = "faa0b0bcfb45cec9e7543974e90f80242fb4f0e5bc6d622815fcc34160e45e53"
 
 [[files]]
 file = "config/openloader/resources/quests/pack.mcmeta"

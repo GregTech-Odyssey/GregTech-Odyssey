@@ -3,200 +3,55 @@
 	default_quest_shape: ""
 	filename: "apotheosis"
 	group: "48D03BA483B3FA87"
-	icon: "apotheosis:augmenting_table"
 	id: "377B5361DA79AF97"
 	images: [
-		{
-			height: 1.0d
-			image: "minecraft:block/enchanting_table_top"
-			rotation: 0.0d
-			width: 1.0d
-			x: -24.0d
-			y: -4.0d
-		}
-		{
-			height: 1.0d
-			image: "minecraft:block/bookshelf"
-			rotation: 0.0d
-			width: 1.0d
-			x: -26.0d
-			y: -6.0d
-		}
-		{
-			height: 1.0d
-			image: "minecraft:block/bookshelf"
-			rotation: 0.0d
-			width: 1.0d
-			x: -24.0d
-			y: -6.0d
-		}
-		{
-			height: 1.0d
-			image: "minecraft:block/bookshelf"
-			rotation: 0.0d
-			width: 1.0d
-			x: -25.0d
-			y: -6.0d
-		}
-		{
-			height: 1.0d
-			image: "minecraft:block/bookshelf"
-			rotation: 0.0d
-			width: 1.0d
-			x: -26.0d
-			y: -4.0d
-		}
-		{
-			height: 1.0d
-			image: "minecraft:block/bookshelf"
-			rotation: 0.0d
-			width: 1.0d
-			x: -26.0d
-			y: -5.0d
-		}
-		{
-			height: 1.0d
-			image: "minecraft:block/bookshelf"
-			rotation: 0.0d
-			width: 1.0d
-			x: -26.0d
-			y: -3.0d
-		}
-		{
-			height: 1.0d
-			image: "minecraft:block/bookshelf"
-			rotation: 0.0d
-			width: 1.0d
-			x: -22.0d
-			y: -4.0d
-		}
-		{
-			height: 1.0d
-			image: "minecraft:block/bookshelf"
-			rotation: 0.0d
-			width: 1.0d
-			x: -23.0d
-			y: -2.0d
-		}
-		{
-			height: 1.0d
-			image: "minecraft:block/bookshelf"
-			rotation: 0.0d
-			width: 1.0d
-			x: -23.0d
-			y: -6.0d
-		}
-		{
-			height: 1.0d
-			image: "minecraft:block/bookshelf"
-			rotation: 0.0d
-			width: 1.0d
-			x: -22.0d
-			y: -6.0d
-		}
-		{
-			height: 1.0d
-			image: "minecraft:block/bookshelf"
-			rotation: 0.0d
-			width: 1.0d
-			x: -22.0d
-			y: -5.0d
-		}
-		{
-			height: 1.0d
-			image: "minecraft:block/bookshelf"
-			rotation: 0.0d
-			width: 1.0d
-			x: -22.0d
-			y: -3.0d
-		}
-		{
-			height: 1.0d
-			image: "minecraft:block/bookshelf"
-			rotation: 0.0d
-			width: 1.0d
-			x: -26.0d
-			y: -2.0d
-		}
-		{
-			height: 1.0d
-			image: "minecraft:block/bookshelf"
-			rotation: 0.0d
-			width: 1.0d
-			x: -25.0d
-			y: -2.0d
-		}
-		{
-			height: 1.0d
-			image: "minecraft:block/bookshelf"
-			rotation: 0.0d
-			width: 1.0d
-			x: -22.0d
-			y: -2.0d
-		}
-		{
-			height: 2.0d
-			image: "apotheosis:blocks/reforging/table_top"
-			rotation: 0.0d
-			width: 2.0d
-			x: -6.5d
-			y: -4.5d
-		}
 		{
 			height: 1.0d
 			image: "apotheosis:items/sigils/enhancement"
 			rotation: 0.0d
 			width: 1.0d
-			x: 1.5d
-			y: -8.0d
+			x: -5.0d
+			y: -7.0d
 		}
 		{
 			height: 1.0d
 			image: "apotheosis:items/sigils/rebirth"
 			rotation: 0.0d
 			width: 1.0d
-			x: 0.5d
-			y: -8.0d
+			x: -6.0d
+			y: -7.0d
 		}
 		{
 			height: 1.0d
 			image: "apotheosis:items/sigils/socketing"
 			rotation: 0.0d
 			width: 1.0d
-			x: 1.5d
-			y: -9.0d
+			x: -5.0d
+			y: -8.0d
 		}
 		{
 			height: 1.0d
 			image: "apotheosis:items/sigils/unnaming"
 			rotation: 0.0d
 			width: 1.0d
-			x: 2.5d
-			y: -8.0d
+			x: -4.0d
+			y: -7.0d
 		}
 		{
 			height: 1.0d
 			image: "apotheosis:items/sigils/withdrawal"
 			rotation: 0.0d
 			width: 1.0d
-			x: 1.5d
-			y: -7.0d
-		}
-		{
-			height: 3.0d
-			image: "apotheosis:items/gems/mageslayer"
-			rotation: 0.0d
-			width: 3.0d
-			x: -14.0d
-			y: -6.5d
+			x: -5.0d
+			y: -6.0d
 		}
 		{
 			height: 3.0d
 			image: "apotheosis:blocks/blazing_hellshelf"
 			rotation: 0.0d
 			width: 3.0d
-			x: -19.0d
-			y: 3.0d
+			x: -17.0d
+			y: -1.5d
 		}
 	]
 	order_index: 5
@@ -210,33 +65,65 @@
 				"{gto.apotheosis.quests.4AFDE77764237236.description1}"
 				""
 				"{gto.apotheosis.quests.4AFDE77764237236.description2}"
+				""
+				"{gto.apotheosis.quests.4AFDE77764237236.description3}"
+				"{gto.apotheosis.quests.4AFDE77764237236.description4}"
+				"{gto.apotheosis.quests.4AFDE77764237236.description5}"
 			]
 			icon: "minecraft:enchanting_table"
 			id: "4AFDE77764237236"
 			progression_mode: "flexible"
+			rewards: [{
+				id: "7336ACDC68B93E12"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			shape: "hexagon"
+			size: 3.0d
+			subtitle: "{gto.apotheosis.quests.4AFDE77764237236.subtitle}"
 			tasks: [{
 				id: "31B365D65348CBAF"
 				item: "minecraft:enchanting_table"
 				type: "item"
 			}]
 			title: "{gto.apotheosis.quests.4AFDE77764237236.title}"
-			x: -19.0d
-			y: -4.5d
+			x: -21.0d
+			y: -1.5d
 		}
 		{
+			dependencies: ["4AFDE77764237236"]
+			description: [
+				"{gto.apotheosis.quests.26ADEFA5357DD47A.description0}"
+				""
+				"{gto.apotheosis.quests.26ADEFA5357DD47A.description1}"
+			]
 			id: "26ADEFA5357DD47A"
+			rewards: [
+				{
+					count: 3
+					id: "48342821941A475A"
+					item: "minecraft:book"
+					type: "item"
+				}
+				{
+					id: "01F0EB319D51CE0D"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			shape: "hexagon"
+			size: 2.0d
+			subtitle: "{gto.apotheosis.quests.26ADEFA5357DD47A.subtitle}"
 			tasks: [{
 				id: "5724EBACEC22DE74"
 				item: "minecraft:bookshelf"
 				type: "item"
 			}]
-			x: -16.5d
-			y: 3.0d
+			x: -17.0d
+			y: 2.0d
 		}
 		{
-			dependencies: ["4AFDE77764237236"]
+			dependencies: ["136FD8A5D591D934"]
 			description: [
 				"{gto.apotheosis.quests.1B569C1F72A6C4FD.description0}"
 				""
@@ -251,8 +138,8 @@
 				type: "item"
 			}]
 			title: "{gto.apotheosis.quests.1B569C1F72A6C4FD.title}"
-			x: -16.5d
-			y: -4.5d
+			x: -28.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["1B569C1F72A6C4FD"]
@@ -280,8 +167,8 @@
 				type: "checkmark"
 			}]
 			title: "{gto.apotheosis.quests.0704DC1FFC920D51.title}"
-			x: -17.5d
-			y: -3.0d
+			x: -30.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["1B569C1F72A6C4FD"]
@@ -309,8 +196,8 @@
 				type: "checkmark"
 			}]
 			title: "{gto.apotheosis.quests.42A1F57A29017157.title}"
-			x: -15.5d
-			y: -3.0d
+			x: -30.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["553A52E72E178CAC"]
@@ -320,105 +207,169 @@
 				"{gto.apotheosis.quests.4BB95D23CD1C4ECE.description1}"
 			]
 			id: "4BB95D23CD1C4ECE"
+			rewards: [
+				{
+					count: 2
+					id: "7E8DFE05810484BB"
+					item: "apotheosis:gem_dust"
+					type: "item"
+				}
+				{
+					id: "2700C57264C7DE42"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			shape: "hexagon"
+			subtitle: "{gto.apotheosis.quests.4BB95D23CD1C4ECE.subtitle}"
 			tasks: [{
 				id: "6222B7631917EB23"
 				item: "apotheosis:simple_reforging_table"
 				type: "item"
 			}]
-			x: -9.0d
-			y: -4.5d
+			x: -12.0d
+			y: -4.0d
 		}
 		{
-			dependencies: ["4BB95D23CD1C4ECE"]
+			dependencies: ["553A52E72E178CAC"]
 			description: ["{gto.apotheosis.quests.31A1C244434CC66D.description0}"]
 			id: "31A1C244434CC66D"
+			rewards: [
+				{
+					id: "55C5FB0716EB0B07"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					id: "1EE7C6DCD271881E"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			shape: "hexagon"
+			subtitle: "{gto.apotheosis.quests.31A1C244434CC66D.subtitle}"
 			tasks: [{
 				id: "6D898690ADA20D9E"
 				item: "apotheosis:reforging_table"
 				type: "item"
 			}]
-			x: -6.5d
-			y: -4.5d
+			x: -12.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["4AF39FF336EA1BF4"]
 			description: ["{gto.apotheosis.quests.04602A7D1B14E292.description0}"]
 			id: "04602A7D1B14E292"
+			rewards: [{
+				id: "4C4D397052415A37"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			shape: "hexagon"
 			tasks: [{
 				id: "7EAEAF82C1284A71"
 				item: "apotheosis:common_material"
 				type: "item"
 			}]
-			x: -3.5d
-			y: -2.5d
+			x: -2.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["4AF39FF336EA1BF4"]
 			description: ["{gto.apotheosis.quests.1BB3FCBC4C9163CE.description0}"]
 			id: "1BB3FCBC4C9163CE"
+			rewards: [{
+				id: "6B4681BFEFC4E0C8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			shape: "hexagon"
 			tasks: [{
 				id: "7CD3154359A439B0"
 				item: "apotheosis:uncommon_material"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -2.5d
+			x: 0.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["4AF39FF336EA1BF4"]
 			description: ["{gto.apotheosis.quests.5AD1A44C0FCCE03C.description0}"]
 			id: "5AD1A44C0FCCE03C"
+			rewards: [{
+				id: "291AA90293646C0A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			shape: "hexagon"
 			tasks: [{
 				id: "1C59D31803889E3D"
 				item: "apotheosis:rare_material"
 				type: "item"
 			}]
-			x: -4.0d
-			y: -4.5d
+			x: -2.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["4AF39FF336EA1BF4"]
 			description: ["{gto.apotheosis.quests.514D1EFD82491836.description0}"]
 			id: "514D1EFD82491836"
+			rewards: [{
+				id: "2C9E4767A44901D6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			shape: "hexagon"
 			tasks: [{
 				id: "48928438A5E6F83D"
 				item: "apotheosis:epic_material"
 				type: "item"
 			}]
-			x: -1.0d
-			y: -4.5d
+			x: 0.5d
+			y: -3.5d
 		}
 		{
 			description: ["{gto.apotheosis.quests.398D2331C3239A4A.description0}"]
 			id: "398D2331C3239A4A"
+			rewards: [
+				{
+					id: "7B269220A4AB3E23"
+					item: "apotheosis:mythic_material"
+					type: "item"
+				}
+				{
+					id: "651DB137EB7BCAB4"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "060C4B6440084AB2"
 				item: "apotheosis:mythic_material"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -6.0d
+			x: -1.0d
+			y: -4.5d
 		}
 		{
-			dependencies: ["398D2331C3239A4A"]
 			description: ["{gto.apotheosis.quests.4AF39FF336EA1BF4.description0}"]
 			id: "4AF39FF336EA1BF4"
+			rewards: [{
+				id: "0F67638014E942B2"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
 			shape: "gear"
 			size: 2.0d
+			subtitle: "{gto.apotheosis.quests.4AF39FF336EA1BF4.subtitle}"
 			tasks: [{
 				id: "14F98DACC1663B02"
 				item: "gtocore:rarity_forge"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -4.0d
+			x: -1.0d
+			y: -2.5d
 		}
 		{
 			dependencies: [
@@ -427,62 +378,122 @@
 			]
 			description: ["{gto.apotheosis.quests.32C5818B8403A6C9.description0}"]
 			id: "32C5818B8403A6C9"
+			rewards: [
+				{
+					id: "5E76E8E56EDB5847"
+					item: "apotheosis:sigil_of_rebirth"
+					type: "item"
+				}
+				{
+					id: "7EEA014E0C28AFD9"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "0B1CF133D0146CC7"
 				item: "apotheosis:sigil_of_rebirth"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -7.0d
+			x: 0.0d
+			y: -6.5d
 		}
 		{
 			dependencies: [
 				"45C23F153013C21A"
 				"398D2331C3239A4A"
 			]
-			description: [""]
+			description: ["{gto.apotheosis.quests.7E685D749D739401.description0}"]
 			id: "7E685D749D739401"
+			rewards: [
+				{
+					id: "03B21CD56CF219C6"
+					item: "apotheosis:sigil_of_enhancement"
+					type: "item"
+				}
+				{
+					id: "129F6436C647A8FE"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "6F1E884938F8F658"
 				item: "apotheosis:sigil_of_enhancement"
 				type: "item"
 			}]
-			x: -3.5d
-			y: -7.0d
+			x: -2.0d
+			y: -6.5d
 		}
 		{
 			id: "45C23F153013C21A"
+			rewards: [
+				{
+					id: "5BA54495A614C601"
+					item: "apotheosis:gem_fused_slate"
+					type: "item"
+				}
+				{
+					id: "359F77CFAB8DAF5F"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "60C425983B12B7A3"
 				item: "apotheosis:gem_fused_slate"
 				type: "item"
 			}]
-			x: -2.5d
+			x: -1.0d
 			y: -8.0d
 		}
 		{
 			dependencies: ["45C23F153013C21A"]
 			description: ["{gto.apotheosis.quests.1B8664B0DC7AEA98.description0}"]
 			id: "1B8664B0DC7AEA98"
+			rewards: [
+				{
+					id: "74F74E9D88051A6B"
+					item: "apotheosis:sigil_of_socketing"
+					type: "item"
+				}
+				{
+					id: "0372B244B33DA886"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "1377A7CE606A1926"
 				item: "apotheosis:sigil_of_socketing"
 				type: "item"
 			}]
-			x: -1.0d
-			y: -8.5d
+			x: 0.5d
+			y: -8.0d
 		}
 		{
 			dependencies: ["45C23F153013C21A"]
 			description: ["{gto.apotheosis.quests.047560A29D61F406.description0}"]
 			id: "047560A29D61F406"
+			rewards: [
+				{
+					id: "411334448B36C0C3"
+					item: "apotheosis:sigil_of_withdrawal"
+					type: "item"
+				}
+				{
+					id: "495CF95F71BA18CD"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "2C4EE15CD330CF27"
 				item: "apotheosis:sigil_of_withdrawal"
 				type: "item"
 			}]
-			x: -4.0d
-			y: -8.5d
+			x: -2.5d
+			y: -8.0d
 		}
 		{
 			dependencies: ["45C23F153013C21A"]
@@ -492,12 +503,24 @@
 				"{gto.apotheosis.quests.29C3DD34CA09C335.description1}"
 			]
 			id: "29C3DD34CA09C335"
+			rewards: [
+				{
+					id: "6A866F820677FCE9"
+					item: "apotheosis:sigil_of_unnaming"
+					type: "item"
+				}
+				{
+					id: "303BC3B2E88FF75F"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "0E5753002715313E"
 				item: "apotheosis:sigil_of_unnaming"
 				type: "item"
 			}]
-			x: -2.5d
+			x: -1.0d
 			y: -9.5d
 		}
 		{
@@ -508,13 +531,27 @@
 				"{gto.apotheosis.quests.6B1AEF55BB23CA53.description1}"
 			]
 			id: "6B1AEF55BB23CA53"
+			rewards: [
+				{
+					count: 2
+					id: "2746821656A2E6D2"
+					item: "apotheosis:gem_dust"
+					type: "item"
+				}
+				{
+					id: "628F4A925BF58AAC"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			shape: "hexagon"
+			subtitle: "{gto.apotheosis.quests.6B1AEF55BB23CA53.subtitle}"
 			tasks: [{
 				id: "2436FE48FC427D66"
 				item: "apotheosis:gem_cutting_table"
 				type: "item"
 			}]
-			x: -10.0d
+			x: -12.0d
 			y: -6.0d
 		}
 		{
@@ -525,23 +562,37 @@
 				"{gto.apotheosis.quests.17C114C2879A280E.description1}"
 			]
 			id: "17C114C2879A280E"
+			rewards: [
+				{
+					id: "3C9F2A89840FE575"
+					item: "minecraft:nether_star"
+					type: "item"
+				}
+				{
+					id: "3A49E79AEDFFD1FB"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
 			shape: "hexagon"
+			subtitle: "{gto.apotheosis.quests.17C114C2879A280E.subtitle}"
 			tasks: [{
 				id: "029F4A00A4004D77"
 				item: "apotheosis:augmenting_table"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -7.0d
+			x: -1.0d
+			y: -6.5d
 		}
 		{
-			dependencies: ["4AFDE77764237236"]
+			dependencies: ["136FD8A5D591D934"]
+			dependency_requirement: "all_started"
 			description: [
 				"{gto.apotheosis.quests.2717094F5E3D8797.description0}"
 				""
 				"{gto.apotheosis.quests.2717094F5E3D8797.description1}"
 			]
-			icon: "minecraft:spawner"
+			icon: "apotheosis:boss_summoner"
 			id: "2717094F5E3D8797"
 			shape: "pentagon"
 			tasks: [{
@@ -549,10 +600,11 @@
 				type: "checkmark"
 			}]
 			title: "{gto.apotheosis.quests.2717094F5E3D8797.title}"
-			x: -19.0d
-			y: -6.0d
+			x: -26.5d
+			y: -4.5d
 		}
 		{
+			dependencies: ["136FD8A5D591D934"]
 			description: ["{gto.apotheosis.quests.193061E4948D3F33.description0}"]
 			id: "193061E4948D3F33"
 			shape: "pentagon"
@@ -562,22 +614,45 @@
 				type: "item"
 			}]
 			title: "{gto.apotheosis.quests.193061E4948D3F33.title}"
-			x: -25.5d
-			y: 3.0d
+			x: -26.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["193061E4948D3F33"]
-			icon: "apotheosis:chestplate_tome"
 			id: "727B29A348C7D055"
 			shape: "diamond"
 			tasks: [{
-				id: "2FCAE19A70DE9C42"
-				item: "apotheosis:chestplate_tome"
+				id: "0CDFDBC946AF1980"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "apotheosis:helmet_tome"
+							}
+							{
+								Count: 1b
+								id: "apotheosis:chestplate_tome"
+							}
+							{
+								Count: 1b
+								id: "apotheosis:leggings_tome"
+							}
+							{
+								Count: 1b
+								id: "apotheosis:boots_tome"
+							}
+						]
+					}
+				}
+				title: "{gto.apotheosis.quests.727B29A348C7D055.tasks.0CDFDBC946AF1980.title}"
 				type: "item"
 			}]
 			title: "{gto.apotheosis.quests.727B29A348C7D055.title}"
-			x: -26.5d
-			y: 2.0d
+			x: -28.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["193061E4948D3F33"]
@@ -590,22 +665,37 @@
 				type: "item"
 			}]
 			title: "{gto.apotheosis.quests.59FB8C61D2E48F01.title}"
-			x: -24.5d
-			y: 4.0d
+			x: -25.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["193061E4948D3F33"]
-			icon: "apotheosis:weapon_tome"
 			id: "06721D2A8713B59A"
 			shape: "diamond"
 			tasks: [{
-				id: "079A2D7E52EB4149"
-				item: "apotheosis:weapon_tome"
+				id: "586ACE2C041DE3F5"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "apotheosis:weapon_tome"
+							}
+							{
+								Count: 1b
+								id: "apotheosis:bow_tome"
+							}
+						]
+					}
+				}
+				title: "{gto.apotheosis.quests.06721D2A8713B59A.tasks.586ACE2C041DE3F5.title}"
 				type: "item"
 			}]
 			title: "{gto.apotheosis.quests.06721D2A8713B59A.title}"
-			x: -26.5d
-			y: 4.0d
+			x: -27.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["193061E4948D3F33"]
@@ -617,7 +707,7 @@
 				type: "item"
 			}]
 			x: -24.5d
-			y: 2.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["193061E4948D3F33"]
@@ -633,8 +723,8 @@
 				item: "apotheosis:scrap_tome"
 				type: "item"
 			}]
-			x: -25.5d
-			y: 5.0d
+			x: -26.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["5F2F02D45B520615"]
@@ -646,8 +736,8 @@
 				item: "apotheosis:improved_scrap_tome"
 				type: "item"
 			}]
-			x: -25.5d
-			y: 6.5d
+			x: -26.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["0AC5B26563FA8886"]
@@ -659,137 +749,211 @@
 				item: "apotheosis:extraction_tome"
 				type: "item"
 			}]
-			x: -25.5d
-			y: 8.0d
-		}
-		{
-			dependencies: ["7F42805D741CB738"]
-			description: ["{gto.apotheosis.quests.4BE8CC026E4A2B08.description0}"]
-			icon: "minecraft:enchanting_table"
-			id: "4BE8CC026E4A2B08"
-			shape: "gear"
-			tasks: [{
-				id: "7BCA53C67D4AAB57"
-				type: "checkmark"
-			}]
-			title: "{gto.apotheosis.quests.4BE8CC026E4A2B08.title}"
-			x: -13.5d
-			y: 3.0d
+			x: -26.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["26ADEFA5357DD47A"]
-			id: "7F42805D741CB738"
-			shape: "hexagon"
-			tasks: [{
-				id: "1301369F82CDCD09"
-				item: "minecraft:lapis_lazuli"
-				type: "item"
-			}]
-			x: -15.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["4BE8CC026E4A2B08"]
 			id: "1BE348BC7D3D91DD"
+			rewards: [
+				{
+					id: "55B85F96BD7FD3A5"
+					item: "apotheosis:hellshelf"
+					type: "item"
+				}
+				{
+					id: "3FFF79F8589055A6"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "4F8A7C7899F6450D"
 				item: "apotheosis:hellshelf"
 				type: "item"
 			}]
-			x: -11.5d
-			y: 1.0d
+			x: -14.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["1BE348BC7D3D91DD"]
 			id: "4C9E93FDF2AD2B29"
+			rewards: [
+				{
+					id: "2AD549DCD546A9F1"
+					item: "apotheosis:infused_hellshelf"
+					type: "item"
+				}
+				{
+					id: "4914278CA7B3181E"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "6E6BE5D257CEB48C"
 				item: "apotheosis:infused_hellshelf"
 				type: "item"
 			}]
-			x: -10.0d
-			y: 1.0d
+			x: -13.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["4C9E93FDF2AD2B29"]
 			id: "548E7211AAE80D69"
+			rewards: [
+				{
+					id: "73D45E64CCA136B3"
+					item: "apotheosis:blazing_hellshelf"
+					type: "item"
+				}
+				{
+					id: "368ABAD663724CC3"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "0A9EDB6F81A667C6"
 				item: "apotheosis:blazing_hellshelf"
 				type: "item"
 			}]
-			x: -8.5d
-			y: 1.0d
+			x: -11.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["548E7211AAE80D69"]
 			id: "5580E3F2E1D72A38"
+			rewards: [
+				{
+					id: "40795D5F0C2F41D7"
+					item: "apotheosis:glowing_hellshelf"
+					type: "item"
+				}
+				{
+					id: "6B347F8FBAA4893D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "3EA0D924DE5C42E1"
 				item: "apotheosis:glowing_hellshelf"
 				type: "item"
 			}]
-			x: -7.0d
-			y: 1.0d
+			x: -10.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["4C9E93FDF2AD2B29"]
 			id: "707EDBB8ADB0049C"
+			rewards: [
+				{
+					id: "15BDD532127BD6FA"
+					item: "minecraft:ender_eye"
+					type: "item"
+				}
+				{
+					id: "465AEB7C5C887BDB"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "10A2BFC7C341AC57"
 				item: "apotheosis:sightshelf"
 				type: "item"
 			}]
-			x: -10.5d
-			y: 0.0d
+			x: -12.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["4C9E93FDF2AD2B29"]
 			id: "24FB820D764F3DF9"
+			rewards: [
+				{
+					id: "4E5B7CD37419DBAB"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					id: "02DBB21E049D5322"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "007649A5B882C39F"
 				item: "apotheosis:sightshelf_t2"
 				type: "item"
 			}]
-			x: -9.5d
-			y: 0.0d
+			x: -13.5d
+			y: -1.0d
 		}
 		{
-			dependencies: ["1B569C1F72A6C4FD"]
+			dependencies: ["5F0A2C9D163B57FE"]
 			description: [
 				"{gto.apotheosis.quests.553A52E72E178CAC.description0}"
 				""
 				"{gto.apotheosis.quests.553A52E72E178CAC.description1}"
 			]
 			id: "553A52E72E178CAC"
+			rewards: [
+				{
+					count: 2
+					id: "57F513647C8C4BC7"
+					item: "apotheosis:gem_dust"
+					type: "item"
+				}
+				{
+					id: "7859B536CF1DAA06"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			shape: "hexagon"
+			subtitle: "{gto.apotheosis.quests.553A52E72E178CAC.subtitle}"
 			tasks: [{
 				id: "13D6277AAAC852CC"
 				item: "apotheosis:gem_dust"
 				type: "item"
 			}]
 			title: "{gto.apotheosis.quests.553A52E72E178CAC.title}"
-			x: -11.5d
-			y: -4.5d
+			x: -14.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["553A52E72E178CAC"]
 			description: ["{gto.apotheosis.quests.6B4E1CD13BB19BE5.description0}"]
 			id: "6B4E1CD13BB19BE5"
+			rewards: [
+				{
+					count: 2
+					id: "6B996119580D1805"
+					item: "ad_astra:steel_ingot"
+					type: "item"
+				}
+				{
+					id: "6F7F3BB9EC825871"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			shape: "hexagon"
+			subtitle: "{gto.apotheosis.quests.6B4E1CD13BB19BE5.subtitle}"
 			tasks: [{
 				id: "29FC50FD0B5E0A67"
 				item: "minecraft:smithing_table"
 				type: "item"
 			}]
-			x: -10.0d
-			y: -3.0d
+			x: -12.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["2717094F5E3D8797"]
@@ -814,8 +978,8 @@
 				type: "checkmark"
 			}]
 			title: "{gto.apotheosis.quests.75AFFF430F0A340A.title}"
-			x: -19.0d
-			y: -7.5d
+			x: -28.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["2717094F5E3D8797"]
@@ -828,7 +992,7 @@
 				""
 				"{gto.apotheosis.quests.60A41C1F285F31EB.description3}"
 			]
-			icon: "minecraft:skeleton_skull"
+			icon: "minecraft:wither_skeleton_skull"
 			id: "60A41C1F285F31EB"
 			shape: "pentagon"
 			tasks: [{
@@ -836,16 +1000,12 @@
 				type: "checkmark"
 			}]
 			title: "{gto.apotheosis.quests.60A41C1F285F31EB.title}"
-			x: -20.5d
+			x: -25.0d
 			y: -6.0d
 		}
 		{
 			dependencies: ["2717094F5E3D8797"]
-			description: [
-				"{gto.apotheosis.quests.0C092A02A8733EDD.description0}"
-				""
-				"{gto.apotheosis.quests.0C092A02A8733EDD.description1}"
-			]
+			description: ["{gto.apotheosis.quests.0C092A02A8733EDD.description0}"]
 			icon: "minecraft:beacon"
 			id: "0C092A02A8733EDD"
 			shape: "pentagon"
@@ -854,11 +1014,11 @@
 				type: "checkmark"
 			}]
 			title: "{gto.apotheosis.quests.0C092A02A8733EDD.title}"
-			x: -17.5d
-			y: -6.0d
+			x: -26.5d
+			y: -6.5d
 		}
 		{
-			dependencies: ["4AFDE77764237236"]
+			dependencies: ["136FD8A5D591D934"]
 			description: [
 				"{gto.apotheosis.quests.1F4F230255F0789C.description0}"
 				""
@@ -874,67 +1034,104 @@
 				type: "checkmark"
 			}]
 			title: "{gto.apotheosis.quests.1F4F230255F0789C.title}"
-			x: -19.0d
-			y: -3.0d
+			x: -24.0d
+			y: -1.0d
 		}
 		{
-			dependencies: ["4BE8CC026E4A2B08"]
+			dependencies: ["26ADEFA5357DD47A"]
 			id: "427DC8785355B089"
+			rewards: [
+				{
+					id: "384A0687A399FF97"
+					item: "apotheosis:seashelf"
+					type: "item"
+				}
+				{
+					id: "2D973DB9AA0E02EA"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "7AFA92B1212D8E92"
 				item: "apotheosis:seashelf"
 				type: "item"
 			}]
-			x: -11.5d
-			y: 5.0d
+			x: -14.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["427DC8785355B089"]
 			id: "71C0BA4A90C25568"
+			rewards: [
+				{
+					id: "7E11D0E57AE59807"
+					item: "apotheosis:infused_seashelf"
+					type: "item"
+				}
+				{
+					id: "49D3AD59C40DBF8F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "4CD8904B402BAD38"
 				item: "apotheosis:infused_seashelf"
 				type: "item"
 			}]
-			x: -10.0d
-			y: 5.0d
+			x: -13.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["71C0BA4A90C25568"]
 			id: "1701B29C238BD80F"
+			rewards: [
+				{
+					id: "150454FFC97863BE"
+					item: "apotheosis:crystal_seashelf"
+					type: "item"
+				}
+				{
+					id: "6A6B44D4870FBD62"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "61D5647495B48905"
 				item: "apotheosis:crystal_seashelf"
 				type: "item"
 			}]
-			x: -8.5d
-			y: 5.0d
+			x: -11.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["1701B29C238BD80F"]
 			id: "12B692B72854B3B6"
+			rewards: [
+				{
+					id: "7AB28AA354891521"
+					item: "apotheosis:heart_seashelf"
+					type: "item"
+				}
+				{
+					id: "685049B2ADF09F96"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "77F88449BAB1C4DA"
 				item: "apotheosis:heart_seashelf"
 				type: "item"
 			}]
-			x: -7.0d
-			y: 5.0d
-		}
-		{
-			id: "5B7DAE6B911E8A5C"
-			shape: "pentagon"
-			tasks: [{
-				id: "35C0CD96A8C5D4FA"
-				item: "apotheosis:filtering_shelf"
-				type: "item"
-			}]
-			x: -2.0d
-			y: 2.0d
+			x: -10.0d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -942,306 +1139,197 @@
 				"12B692B72854B3B6"
 			]
 			id: "0EE3D780F96C29AD"
+			rewards: [
+				{
+					id: "4C2DD2C12DA46C44"
+					item: "apotheosis:dormant_deepshelf"
+					type: "item"
+				}
+				{
+					id: "2621F267EF9DBD6F"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "47206B32C9ABA09D"
 				item: "apotheosis:dormant_deepshelf"
 				type: "item"
 			}]
-			x: -3.5d
-			y: 3.5d
+			x: -8.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["0EE3D780F96C29AD"]
 			id: "61C2144A3857AA68"
+			rewards: [
+				{
+					id: "78C316ECE7A44EB6"
+					item: "apotheosis:deepshelf"
+					type: "item"
+				}
+				{
+					id: "415EE802F1DE77F7"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "6B5F9140A56B1392"
 				item: "apotheosis:deepshelf"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 3.5d
+			x: -6.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["61C2144A3857AA68"]
 			id: "020603C5D0AB1DBF"
+			rewards: [
+				{
+					id: "5416CBC21672030A"
+					item: "apotheosis:echoing_deepshelf"
+					type: "item"
+				}
+				{
+					id: "05B1490964666CB7"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "02CEE3165FA28A1E"
 				item: "apotheosis:echoing_deepshelf"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 5.0d
+			x: -6.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["020603C5D0AB1DBF"]
 			id: "66978F6539462FBF"
+			rewards: [
+				{
+					id: "4ECA1BE71125EDA5"
+					item: "apotheosis:echoing_sculkshelf"
+					type: "item"
+				}
+				{
+					id: "179F6D05F459ADF4"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "6E808608A66060D1"
 				item: "apotheosis:echoing_sculkshelf"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 5.0d
+			x: -4.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["61C2144A3857AA68"]
 			id: "665FB4F9FC30823D"
+			rewards: [
+				{
+					id: "55A23599051662F6"
+					item: "apotheosis:soul_touched_deepshelf"
+					type: "item"
+				}
+				{
+					id: "080F5DC532C0B12F"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "7C49101970D5FAF2"
 				item: "apotheosis:soul_touched_deepshelf"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 3.5d
+			x: -4.0d
+			y: 2.0d
 		}
 		{
-			dependencies: ["1F4F230255F0789C"]
-			description: [
-				"{gto.apotheosis.quests.4D158EE6C2C9DB4B.description0}"
-				""
-				"{gto.apotheosis.quests.4D158EE6C2C9DB4B.description1}"
-			]
-			icon: "minecraft:sugar_cane"
-			id: "4D158EE6C2C9DB4B"
-			shape: "pentagon"
-			tasks: [{
-				id: "7871B5AB4C87E999"
-				item: "minecraft:sugar_cane"
-				type: "item"
-			}]
-			title: "{gto.apotheosis.quests.4D158EE6C2C9DB4B.title}"
-			x: -19.0d
-			y: -1.5d
-		}
-		{
-			dependencies: ["50D67DD8904529B1"]
+			dependencies: ["59B0DFA9260857DE"]
 			id: "3AC0B1C71891C002"
+			rewards: [
+				{
+					id: "21081C9D5F8E9D39"
+					item: "apotheosis:endshelf"
+					type: "item"
+				}
+				{
+					id: "0DC0A16058988839"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "1A8953FDB71D7DB5"
 				item: "apotheosis:endshelf"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 4.5d
+			x: -0.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["3AC0B1C71891C002"]
 			id: "546C9693355DEC53"
+			rewards: [
+				{
+					id: "0B6EA765DD47BB1C"
+					item: "apotheosis:draconic_endshelf"
+					type: "item"
+				}
+				{
+					id: "3BB0352200D59940"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "28ADFB92FB35D917"
 				item: "apotheosis:draconic_endshelf"
 				type: "item"
 			}]
-			x: 5.5d
-			y: 3.5d
+			x: 1.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["3AC0B1C71891C002"]
 			id: "7A73559789867BF5"
+			rewards: [
+				{
+					id: "14454EBC9D71B1EE"
+					item: "apotheosis:pearl_endshelf"
+					type: "item"
+				}
+				{
+					id: "58477206E6BCC833"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "369F8767C18AB896"
 				item: "apotheosis:pearl_endshelf"
 				type: "item"
 			}]
-			x: 5.5d
-			y: 5.5d
-		}
-		{
-			id: "516B0A8A53ADB35E"
-			shape: "pentagon"
-			tasks: [{
-				id: "311DA571F4F3CD6D"
-				item: "apotheosis:melonshelf"
-				type: "item"
-			}]
-			x: -0.5d
-			y: -1.0d
-		}
-		{
-			id: "121BEC0FC3378C8A"
-			shape: "pentagon"
-			tasks: [{
-				id: "356F19ABA2B314E4"
-				item: "apotheosis:beeshelf"
-				type: "item"
-			}]
 			x: 1.0d
-			y: -1.0d
+			y: 4.0d
 		}
 		{
-			id: "509F35B7A1F9A220"
-			shape: "pentagon"
-			tasks: [{
-				id: "02E165C8B2D6E902"
-				item: "apotheosis:rectifier"
-				type: "item"
-			}]
-			x: -2.0d
-			y: 0.5d
-		}
-		{
-			id: "1C28036E3C98E0C0"
-			shape: "pentagon"
-			tasks: [{
-				id: "56E04DB5C9F4C5CC"
-				item: "apotheosis:rectifier_t2"
-				type: "item"
-			}]
-			x: -0.5d
-			y: 0.5d
-		}
-		{
-			id: "6C0FA78E0FF5EE86"
-			shape: "pentagon"
-			tasks: [{
-				id: "07E25DEB7E1743DF"
-				item: "apotheosis:rectifier_t3"
-				type: "item"
-			}]
-			x: 1.0d
-			y: 0.5d
-		}
-		{
-			id: "28AB85B88A680E21"
-			shape: "pentagon"
-			tasks: [{
-				id: "1B651FA76228F710"
-				item: "apotheosis:stoneshelf"
-				type: "item"
-			}]
-			x: -2.0d
-			y: -1.0d
-		}
-		{
-			id: "0FE5C080F5A3652D"
-			shape: "pentagon"
-			tasks: [{
-				id: "5F0E663BD11B627B"
-				item: "apotheosis:treasure_shelf"
-				type: "item"
-			}]
-			x: -0.5d
-			y: 2.0d
-		}
-		{
-			id: "0EF5D720D3659AB9"
-			shape: "pentagon"
-			tasks: [{
-				id: "2A6F4A0CEE38606E"
-				item: "apotheosis:ender_library"
-				type: "item"
-			}]
-			x: 1.0d
-			y: 2.0d
-		}
-		{
-			id: "6FD2B174BD7FF418"
-			tasks: [{
-				id: "5F34B52C1A49E278"
-				type: "checkmark"
-			}]
-			title: "{gto.apotheosis.quests.6FD2B174BD7FF418.title}"
-			x: -3.5d
-			y: -1.0d
-		}
-		{
-			id: "4DF5BA67CA1CE7AC"
-			tasks: [{
-				id: "1A260BC949A06F8F"
-				type: "checkmark"
-			}]
-			title: "{gto.apotheosis.quests.4DF5BA67CA1CE7AC.title}"
-			x: -3.5d
-			y: 0.5d
-		}
-		{
-			dependencies: ["4BE8CC026E4A2B08"]
-			description: [
-				"{gto.apotheosis.quests.68C4C6573BC66BC3.description0}"
-				""
-				"{gto.apotheosis.quests.68C4C6573BC66BC3.description1}"
-			]
-			id: "68C4C6573BC66BC3"
-			tasks: [{
-				id: "2FA454CCB9CBD64F"
-				type: "checkmark"
-			}]
-			title: "{gto.apotheosis.quests.68C4C6573BC66BC3.title}"
-			x: -11.5d
-			y: 3.0d
-		}
-		{
-			dependencies: ["4BE8CC026E4A2B08"]
-			description: [
-				"{gto.apotheosis.quests.4F6FFACA6EAB1809.description0}"
-				""
-				"{gto.apotheosis.quests.4F6FFACA6EAB1809.description1}"
-			]
-			id: "4F6FFACA6EAB1809"
-			tasks: [{
-				id: "621F063F52378559"
-				type: "checkmark"
-			}]
-			title: "{gto.apotheosis.quests.4F6FFACA6EAB1809.title}"
-			x: -8.5d
-			y: 3.0d
-		}
-		{
-			dependencies: ["4BE8CC026E4A2B08"]
-			description: ["{gto.apotheosis.quests.6B72BFA4DAB46217.description0}"]
-			id: "6B72BFA4DAB46217"
-			tasks: [{
-				id: "50B28CAC70F0F435"
-				type: "checkmark"
-			}]
-			title: "{gto.apotheosis.quests.6B72BFA4DAB46217.title}"
-			x: -10.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["4BE8CC026E4A2B08"]
-			description: ["{gto.apotheosis.quests.4881A9BB07FF8894.description0}"]
-			id: "4881A9BB07FF8894"
-			tasks: [{
-				id: "16C24CCBA7959BD5"
-				type: "checkmark"
-			}]
-			title: "{gto.apotheosis.quests.4881A9BB07FF8894.title}"
-			x: -5.5d
-			y: 3.0d
-		}
-		{
-			dependencies: ["4BE8CC026E4A2B08"]
-			description: ["{gto.apotheosis.quests.43CB3BD9D8CC36A8.description0}"]
-			id: "43CB3BD9D8CC36A8"
-			tasks: [{
-				id: "138C439BD0DAA28C"
-				type: "checkmark"
-			}]
-			title: "{gto.apotheosis.quests.43CB3BD9D8CC36A8.title}"
-			x: -7.0d
-			y: 3.0d
-		}
-		{
-			id: "264427F1ED5E6E06"
-			tasks: [{
-				id: "7C6BB1CC547F88FE"
-				type: "checkmark"
-			}]
-			title: "{gto.apotheosis.quests.264427F1ED5E6E06.title}"
-			x: -3.5d
-			y: 2.0d
-		}
-		{
-			dependencies: ["4D158EE6C2C9DB4B"]
+			dependencies: ["136FD8A5D591D934"]
 			description: [
 				"{gto.apotheosis.quests.571EA614A7259A2D.description0}"
 				""
@@ -1261,8 +1349,8 @@
 				}
 				type: "item"
 			}]
-			x: -19.0d
-			y: 0.0d
+			x: -24.0d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -1282,31 +1370,23 @@
 				"{gto.apotheosis.quests.0C99B615FA9FA075.description5}"
 			]
 			id: "0C99B615FA9FA075"
+			rewards: [{
+				id: "38881C64E3280D0A"
+				type: "xp_levels"
+				xp_levels: 30
+			}]
 			shape: "gear"
+			subtitle: "{gto.apotheosis.quests.0C99B615FA9FA075.subtitle}"
 			tasks: [{
 				id: "09C92AFFF4AF0C60"
 				type: "checkmark"
 			}]
 			title: "{gto.apotheosis.quests.0C99B615FA9FA075.title}"
-			x: 7.0d
-			y: 4.5d
-		}
-		{
-			dependencies: [
-				"665FB4F9FC30823D"
-				"66978F6539462FBF"
-			]
-			id: "50D67DD8904529B1"
-			tasks: [{
-				id: "2DF6485723936EB7"
-				item: "apotheosis:infused_breath"
-				type: "item"
-			}]
 			x: 2.5d
-			y: 4.5d
+			y: 3.0d
 		}
 		{
-			dependencies: ["1B569C1F72A6C4FD"]
+			dependencies: ["4AFDE77764237236"]
 			description: ["{gto.apotheosis.quests.5F0A2C9D163B57FE.description0}"]
 			icon: {
 				Count: 1
@@ -1315,29 +1395,280 @@
 					affix_data: {
 						rarity: "apotheosis:ancient"
 					}
-					gem: "apotheosis:core/breach"
+					gem: "apotheosis:the_end/mageslayer"
 				}
 			}
 			id: "5F0A2C9D163B57FE"
+			rewards: [{
+				id: "5E20FBF3D8CA7447"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "{gto.apotheosis.quests.5F0A2C9D163B57FE.subtitle}"
 			tasks: [{
 				id: "28FA343FE94E0802"
 				type: "checkmark"
 			}]
 			title: "{gto.apotheosis.quests.5F0A2C9D163B57FE.title}"
-			x: -14.0d
-			y: -4.5d
+			x: -17.0d
+			y: -5.0d
 		}
 		{
 			description: ["{gto.apotheosis.quests.1A00DF4BC5C15459.description0}"]
 			id: "1A00DF4BC5C15459"
+			rewards: [{
+				id: "725D5BEEB8A2FD5B"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
 			shape: "gear"
 			size: 2.0d
+			subtitle: "{gto.apotheosis.quests.1A00DF4BC5C15459.subtitle}"
 			tasks: [{
 				id: "471C300CE3130F9E"
 				item: "gtocore:boss_summoner"
 				type: "item"
 			}]
-			x: 2.0d
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			description: [""]
+			icon: "botania:cosmetic_questgiver_mark"
+			id: "136FD8A5D591D934"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "10BBC28DB122AA05"
+				title: "{gto.apotheosis.quests.136FD8A5D591D934.tasks.10BBC28DB122AA05.title}"
+				type: "checkmark"
+			}]
+			title: "{gto.apotheosis.quests.136FD8A5D591D934.title}"
+			x: -26.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["553A52E72E178CAC"]
+			description: ["{gto.apotheosis.quests.42A4D1CE6C047992.description0}"]
+			id: "42A4D1CE6C047992"
+			rewards: [
+				{
+					id: "4ABEC74DB0372473"
+					item: "apotheosis:gem_dust"
+					type: "item"
+				}
+				{
+					id: "5F6CB8EDE5980E56"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			shape: "hexagon"
+			subtitle: "{gto.apotheosis.quests.42A4D1CE6C047992.subtitle}"
+			tasks: [{
+				id: "274F2B6F1F75F94A"
+				item: "apotheosis:salvaging_table"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["136FD8A5D591D934"]
+			description: [
+				"{gto.apotheosis.quests.6CF962B9A66C0BFA.description0}"
+				""
+				"{gto.apotheosis.quests.6CF962B9A66C0BFA.description1}"
+			]
+			id: "6CF962B9A66C0BFA"
+			shape: "pentagon"
+			tasks: [{
+				id: "7F904566FF1448EB"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "minecraft:cobweb"
+							}
+							{
+								Count: 1b
+								id: "apotheosis:prismatic_web"
+							}
+						]
+					}
+				}
+				title: "{gto.apotheosis.quests.6CF962B9A66C0BFA.tasks.7F904566FF1448EB.title}"
+				type: "item"
+			}]
+			title: "{gto.apotheosis.quests.6CF962B9A66C0BFA.title}"
+			x: -24.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"665FB4F9FC30823D"
+				"66978F6539462FBF"
+			]
+			dependency_requirement: "all_started"
+			id: "59B0DFA9260857DE"
+			rewards: [
+				{
+					id: "063573365EF91018"
+					item: "apotheosis:soul_touched_sculkshelf"
+					type: "item"
+				}
+				{
+					id: "0D08F65C3B387FFC"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			tasks: [{
+				id: "0E49064A02D1227E"
+				item: "apotheosis:soul_touched_sculkshelf"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["26ADEFA5357DD47A"]
+			id: "0D889D2C4108548D"
+			rewards: [{
+				id: "2CA3BDFAD222E7CD"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7FD113E076DC5A66"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "apotheosis:beeshelf"
+							}
+							{
+								Count: 1b
+								id: "apotheosis:melonshelf"
+							}
+							{
+								Count: 1b
+								id: "apotheosis:stoneshelf"
+							}
+						]
+					}
+				}
+				title: "{gto.apotheosis.quests.0D889D2C4108548D.tasks.7FD113E076DC5A66.title}"
+				type: "item"
+			}]
+			title: "{gto.apotheosis.quests.0D889D2C4108548D.title}"
+			x: -14.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["26ADEFA5357DD47A"]
+			id: "591B73B075123565"
+			rewards: [{
+				id: "4E1A565FD4CFC5D9"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1D3C38684A0AC0BB"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "apotheosis:rectifier"
+							}
+							{
+								Count: 1b
+								id: "apotheosis:rectifier_t2"
+							}
+							{
+								Count: 1b
+								id: "apotheosis:rectifier_t3"
+							}
+						]
+					}
+				}
+				title: "{gto.apotheosis.quests.591B73B075123565.tasks.1D3C38684A0AC0BB.title}"
+				type: "item"
+			}]
+			title: "{gto.apotheosis.quests.591B73B075123565.title}"
+			x: -13.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["26ADEFA5357DD47A"]
+			id: "314E168D572BB4FF"
+			rewards: [{
+				id: "38490B62F9614F93"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "16481067D14F0C0F"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "apotheosis:filtering_shelf"
+							}
+							{
+								Count: 1b
+								id: "apotheosis:treasure_shelf"
+							}
+							{
+								Count: 1b
+								id: "apotheosis:ender_library"
+							}
+						]
+					}
+				}
+				title: "{gto.apotheosis.quests.314E168D572BB4FF.tasks.16481067D14F0C0F.title}"
+				type: "item"
+			}]
+			title: "{gto.apotheosis.quests.314E168D572BB4FF.title}"
+			x: -11.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["136FD8A5D591D934"]
+			description: [
+				"{gto.apotheosis.quests.64D800CE0962D4A3.description0}"
+				""
+				"{gto.apotheosis.quests.64D800CE0962D4A3.description1}"
+				""
+				"{gto.apotheosis.quests.64D800CE0962D4A3.description2}"
+			]
+			icon: "minecraft:allay_spawn_egg"
+			id: "64D800CE0962D4A3"
+			shape: "pentagon"
+			tasks: [{
+				id: "17381E614436D13F"
+				title: "{gto.apotheosis.quests.64D800CE0962D4A3.tasks.17381E614436D13F.title}"
+				type: "checkmark"
+			}]
+			title: "{gto.apotheosis.quests.64D800CE0962D4A3.title}"
+			x: -24.0d
 			y: -4.0d
 		}
 	]
