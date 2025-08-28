@@ -69,3 +69,8 @@ full_stack_linking = true
 	#While true only a team member can use the chest
 	team_use_lock = false
 
+#Mod integration can be disabled to solve compatibility issues, remove unwanted/unneeded features, etc.
+[integration]
+	#EnderBag and EnderPouch will function while equipped as a Curio
+	curios = true
+

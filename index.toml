@@ -90,7 +90,7 @@ hash = "dea4d260e6eac868297c0f9cd80545fd6b54f7344c678b89edda980a3fc5e8cf"
 
 [[files]]
 file = "config/apotheosis/names.cfg"
-hash = "0098bdf16398ef45d2d914a8ddf7a8c22cb250057571e3d96c73e5072cf2c6b0"
+hash = "e1898c6270ffce5625d96ab6f459a0607c5bacd9f99987cb14311945f7beebd8"
 
 [[files]]
 file = "config/apotheosis/potion.cfg"
@@ -650,7 +650,7 @@ hash = "272e486d7a4deec3077c417e61f729da7af0097d48322b56a8352d1f467c440a"
 
 [[files]]
 file = "config/enderchests.toml"
-hash = "8d18a30114181fe2fcf85792169eeecca5af7775fae7862ae37e98911098cd9f"
+hash = "2b5c670fe982e67ffbbf0b4f766ea4cb641ecbecfc8aedc2642faa48861ef339"
 
 [[files]]
 file = "config/enderio/armory-common.toml"
@@ -2227,7 +2227,7 @@ metafile = true
 
 [[files]]
 file = "mods/alltheleaks.pw.toml"
-hash = "fd2fdb3da53dff2cb463625ce20c7471cbd074382b3c3e8ff65834690451c912"
+hash = "e583c503ddd9c0730bad91ec6978471f05da5d7f7bd534a4ea8ee07c0867e2c7"
 metafile = true
 
 [[files]]
@@ -2287,7 +2287,7 @@ metafile = true
 
 [[files]]
 file = "mods/asyncparticles.pw.toml"
-hash = "2d537ee6d1e35d28dbdad4ba9ac935389da85941bd3d5030963fdceaa1d0a06e"
+hash = "316f83ae884e0b66286f77ff8c2c09884abc16fbc5f2b5802028d7b1cf17e53c"
 metafile = true
 
 [[files]]
@@ -2477,17 +2477,17 @@ metafile = true
 
 [[files]]
 file = "mods/ender-io.pw.toml"
-hash = "8372c25607298b03f797861deefa5e4ed1cf511d9823caec1c99728504b272b6"
+hash = "04e8c125cbd85f3376311743a2678db5f610b39a58622afd74645da30e1526a9"
 metafile = true
 
 [[files]]
 file = "mods/enderchests.pw.toml"
-hash = "3be94799bafd3231fc4e2f6e0dd4a560f851bba4646baa15c8acf1863c81c977"
+hash = "fa5fef8289f0d109665556cd79e9eb49c908931e1d7bc2637d04a4cba5a962ae"
 metafile = true
 
 [[files]]
 file = "mods/endertanks.pw.toml"
-hash = "21270130d95831f2b75487ecc3e822f44bfa20025780b3b7644d35dbc7e8cfc3"
+hash = "44b9b79812f7b495daed814dd4403564708b66791fd205a8187e0c671da3e570"
 metafile = true
 
 [[files]]
@@ -2532,7 +2532,7 @@ metafile = true
 
 [[files]]
 file = "mods/farmers-delight.pw.toml"
-hash = "fa6e35c376181fa82ad33b9cb4c20382a0effd7eb09a06107dcc884b98f49ff2"
+hash = "067fc433511066d18b1795b86c9856246a8da7f9a4316afd6b25e5eee181f660"
 metafile = true
 
 [[files]]
@@ -2642,7 +2642,7 @@ metafile = true
 
 [[files]]
 file = "mods/geckolib.pw.toml"
-hash = "3e1eb9740fada46d463ae8f5e1f2cf24d5a85532356f7d5173a7c23a0dd8fb53"
+hash = "cdb49cbc2bf1bd15a0be40373b6bc5c4cbd550d78896ab9317f72ce72858f712"
 metafile = true
 
 [[files]]
@@ -2661,8 +2661,8 @@ hash = "477c0165ac7a3d521157a8fa69fd5335804383fc04459e0ee7a2ce799a08c568"
 metafile = true
 
 [[files]]
-file = "mods/gtocore-0.4.1.5.jar"
-hash = "a2c688b63a8d58ab197cdb83d6ef1ace2bdba7a308b7aaa1632424620111342b"
+file = "mods/gtocore-0.4.2.jar"
+hash = "68fd7240c615fbf7d2d7ea70c10a54383a081f8edc08ab51c1c9672a964fdf85"
 
 [[files]]
 file = "mods/guideme.pw.toml"
@@ -2891,7 +2891,7 @@ metafile = true
 
 [[files]]
 file = "mods/shetiphiancore.pw.toml"
-hash = "c0b0f06ea4d2bb765bfe38ea223bacd695dacb9b5f311aaac8a7fe188e6789e3"
+hash = "7b74687503a817ae7e7a8145996f0a09ddab38933af1e244b324083aeed2fa16"
 metafile = true
 
 [[files]]
@@ -2901,12 +2901,12 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "211c3a72fb3085e2356214da945bbe46c0dd045a6e27929b5c162ba58bc40962"
+hash = "23063695dff072c1785d0de63884b3db2b38e6f2fcaf816968b9d453eafe4350"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "c926446d83c568b4863f6bd15a4e022c5247739a0afa9a4fd49856c2f254f8a6"
+hash = "026f2625feac6e7c44899cdf4c47d7779aa0e5be034ab80964c366a080ee5f07"
 metafile = true
 
 [[files]]
@@ -2932,11 +2932,6 @@ metafile = true
 [[files]]
 file = "mods/terrablenderfix.pw.toml"
 hash = "decd4bdf5fcea790dfe75bf35184bc2100361849487aa73996d6576c1e9a0143"
-metafile = true
-
-[[files]]
-file = "mods/terrific-trash-cans.pw.toml"
-hash = "7b96bd6fdf6bbb111a6c24651c64862a1126ccfe3cff861b1c9441389ba5bd42"
 metafile = true
 
 [[files]]
