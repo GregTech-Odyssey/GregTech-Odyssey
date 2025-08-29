@@ -446,11 +446,7 @@
 		}
 		{
 			dependencies: ["32A39A427D4A3AC2"]
-			description: [
-				"在这个阶段，我建议你使用&a煤炭块&r来生产钢"
-				"因为这种方式下生产的副产物可以生成&e碳粉&r"
-				"也是碳粉前期&4唯一&r的获取途径"
-			]
+			description: ["在这个阶段，建议你使用&a煤炭块&r来生产钢，因为这种方式下生产的副产物可以生成&e碳粉&r，这也是碳粉前期&4唯一&r的获取途径"]
 			id: "27F4D9739FE33A02"
 			shape: "gear"
 			size: 2.0d
@@ -736,7 +732,7 @@
 			}]
 			title: "搅拌机，蒸汽驱动版"
 			x: 10.5d
-			y: 3.75d
+			y: 2.25d
 		}
 		{
 			dependencies: [
@@ -921,7 +917,7 @@
 			}]
 			title: "原矿粉碎者"
 			x: 10.5d
-			y: 2.25d
+			y: 0.75d
 		}
 		{
 			dependencies: [
@@ -1201,7 +1197,7 @@
 		{
 			dependencies: ["604FA0DDAD1979A1"]
 			description: [
-				"无电阻的一类导线统称为&6超导线&r"
+				"无电阻的一类导线统称为&6超导线&r，你需要再加一层包层才能让红色合金变成超导"
 				""
 				"只要超导线接受的电流和电压&e小于&r它所能承载的&d电流或电压上限&r，它就是绝对安全的"
 				""
@@ -1402,7 +1398,7 @@
 			}]
 			title: "更大的锅与更大的搅拌棍"
 			x: 12.0d
-			y: 3.75d
+			y: 2.25d
 		}
 		{
 			dependencies: [
@@ -1527,7 +1523,7 @@
 			}]
 			title: "敲碎他们！"
 			x: 12.0d
-			y: 2.25d
+			y: 0.75d
 		}
 		{
 			dependencies: ["70166E7FA6559076"]
@@ -1597,7 +1593,7 @@
 			}]
 			title: "焦炉Pro Max版"
 			x: 9.75d
-			y: 6.5d
+			y: 3.75d
 		}
 		{
 			dependencies: ["13FBF05133D59CDC"]
@@ -1714,6 +1710,26 @@
 			title: "并不无限的粉"
 			x: -1.8571428571428612d
 			y: 1.4761904761904745d
+		}
+		{
+			dependencies: ["13FBF05133D59CDC"]
+			description: [
+				"能存放大量物品的大箱子！"
+				""
+				"你可以用&6简易合成终端&r直接贴在上面来访问里面内容并方便合成！"
+			]
+			id: "4FB81705461DCCD6"
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "比背包更好"
+			tasks: [{
+				id: "54A62D20B5F4E4D7"
+				item: "gtocore:multiblock_crate"
+				type: "item"
+			}]
+			title: "更大的箱子"
+			x: 9.5d
+			y: 6.5d
 		}
 	]
 	subtitle: ["Tier0-Steam"]
