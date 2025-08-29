@@ -523,12 +523,20 @@
 			dependencies: ["2F03D93AC7DBE58D"]
 			description: ["可以替代铕作为芯片增殖的原料"]
 			hide_dependency_lines: true
+			icon: "gtceu:bacterial_sludge_bucket"
 			id: "31D3C88D38170932"
-			tasks: [{
-				id: "2382D49A394DEDE0"
-				item: "gtceu:bacterial_sludge_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2382D49A394DEDE0"
+					item: "gtceu:bacterial_sludge_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0565F96E21DAF0ED"
+					type: "checkmark"
+				}
+			]
 			x: 13.0d
 			y: -4.0d
 		}
@@ -647,7 +655,7 @@
 			description: [
 				"碲是一种半金属元素，它们在世界分布松散，需要用虚空采矿才能找到"
 				""
-				"碲和若干碲化物是半导体材料，你未来的共振紫晶会用到它的"
+				"碲和若干碲化物是优良的磁共振半导体材料，你未来的共振紫晶会用到它的"
 			]
 			id: "40F9120E5CDC0002"
 			tasks: [{
@@ -661,7 +669,7 @@
 		{
 			dependencies: ["6CF8EB50958B959D"]
 			description: [
-				"第一次见可能觉得有些贵，但随着不断升级电路板，磁共振的造价优势会越发的显著！"
+				"第一次见可能觉得有些贵，但随着不断升级电路板，磁共振的造价优势会越发显著！"
 				""
 				"你现在就可以做出最高LuV级别的磁共振电路"
 			]
@@ -670,13 +678,65 @@
 			size: 1.25d
 			subtitle: "性价比之王！"
 			tasks: [{
-				id: "23E2F87A5ABBAB26"
-				item: "gtocore:magneto_resonatic_circuit_ulv"
+				id: "2A4EA12F2A1A397D"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtocore:magneto_resonatic_circuit_ulv"
+							}
+							{
+								Count: 1b
+								id: "gtocore:magneto_resonatic_circuit_lv"
+							}
+							{
+								Count: 1b
+								id: "gtocore:magneto_resonatic_circuit_mv"
+							}
+							{
+								Count: 1b
+								id: "gtocore:magneto_resonatic_circuit_hv"
+							}
+							{
+								Count: 1b
+								id: "gtocore:magneto_resonatic_circuit_ev"
+							}
+							{
+								Count: 1b
+								id: "gtocore:magneto_resonatic_circuit_iv"
+							}
+							{
+								Count: 1b
+								id: "gtocore:magneto_resonatic_circuit_luv"
+							}
+							{
+								Count: 1b
+								id: "gtocore:magneto_resonatic_circuit_uv"
+							}
+							{
+								Count: 1b
+								id: "gtocore:magneto_resonatic_circuit_uhv"
+							}
+							{
+								Count: 1b
+								id: "gtocore:magneto_resonatic_circuit_uev"
+							}
+							{
+								Count: 1b
+								id: "gtocore:magneto_resonatic_circuit_uiv"
+							}
+						]
+					}
+				}
+				title: "磁共振电路系列"
 				type: "item"
 			}]
 			title: "磁共振电路系列"
-			x: 19.0d
-			y: 3.0d
+			x: 21.25d
+			y: 1.0d
 		}
 		{
 			dependencies: ["2F03D93AC7DBE58D"]
@@ -687,7 +747,7 @@
 				item: "gtocore:polyurethaneresin_bucket"
 				type: "item"
 			}]
-			x: 19.0d
+			x: 17.0d
 			y: -1.0d
 		}
 		{
@@ -698,7 +758,7 @@
 				item: "gtocore:silicon_nitride_ceramic_flake"
 				type: "item"
 			}]
-			x: 17.0d
+			x: 19.0d
 			y: -1.0d
 		}
 		{
@@ -709,13 +769,14 @@
 				item: "gtocore:magneto_resonatic_dust"
 				type: "item"
 			}]
-			x: 17.0d
-			y: 1.0d
+			x: 19.0d
+			y: 3.0d
 		}
 		{
 			dependencies: [
 				"2913274AA224CBB7"
 				"0EC4AD403151E0AA"
+				"5DC92641E94C560D"
 			]
 			id: "6CF8EB50958B959D"
 			tasks: [{
@@ -772,6 +833,17 @@
 			}]
 			x: 1.0d
 			y: -4.5d
+		}
+		{
+			dependencies: ["40F9120E5CDC0002"]
+			id: "5DC92641E94C560D"
+			tasks: [{
+				id: "60C9C18238D23BE6"
+				item: "gtocore:circuit_compound_dust"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 1.0d
 		}
 	]
 	subtitle: ["Tier6-LuV"]
