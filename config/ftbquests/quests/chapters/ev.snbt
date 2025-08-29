@@ -150,7 +150,11 @@
 		}
 		{
 			dependencies: ["249A4B2F900AA6F1"]
-			description: [""]
+			description: [
+				"欢迎！你已经解锁了GTO的一条新的支线——净化水"
+				""
+				"随着芯片制作越发精密，普通的蒸馏水已经不能满足切割晶圆的需要。净化水厂是整个净化水网络的核心！"
+			]
 			id: "3EDC674F36EDC52E"
 			shape: "hexagon"
 			size: 1.5d
@@ -164,7 +168,11 @@
 		}
 		{
 			dependencies: ["2F6C81E3B10365E8"]
-			description: ["你需要投入你所有的铂金属来源：&6斑铜矿、黝铜矿、辉铜矿、谢尔顿矿&r"]
+			description: [
+				"你需要投入你所有的铂金属来源：&6斑铜矿、黝铜矿、辉铜矿、谢尔顿矿&r"
+				""
+				"希望你享受铂族处理！"
+			]
 			hide_dependency_lines: true
 			id: "033815C0756BAE1F"
 			tasks: [{
@@ -359,7 +367,11 @@
 				"553B055E72DF5B91"
 				"261AF5AAE0576A3B"
 			]
-			description: ["检查清单：电阻、电容、晶体管，都是贴片版本"]
+			description: [
+				"在你后续加工新的电路板时，切记要优化一下之前的配方。现在你可以使用更加廉价的贴片系列！"
+				""
+				"检查清单：电阻，电容，晶体管是否是贴片版本"
+			]
 			id: "7D8D340B336E38F7"
 			shape: "hexagon"
 			size: 1.0d
@@ -395,7 +407,7 @@
 				"7D8D340B336E38F7"
 				"0DA8792DBD69AD9D"
 			]
-			description: ["检查清单：晶体管，同样是贴片版本"]
+			description: ["检查清单：电感，电容，同样是贴片版本"]
 			id: "4BCAA414BA1AE5FD"
 			shape: "hexagon"
 			size: 1.0d
@@ -566,7 +578,7 @@
 				""
 				"熔融态合金与工业高炉产出的热锭类似，需要经过&6真空冷冻机&r冷却才能进一步加工"
 				""
-				"当你后续看到新合金锭，你可以直接去尝试查找其熔融形态的合金冶炼炉配方"
+				"当你后续看到新合金锭，你可以直接去尝试查找其熔融形态的合金冶炼炉配方，它一般要比搅拌后再用高炉去烧速度要快上不少"
 			]
 			hide_dependency_lines: true
 			id: "32B3E6812521AB70"
@@ -1130,7 +1142,7 @@
 		}
 		{
 			dependencies: ["08891CB1BAFA5515"]
-			description: ["它可以为多方块机器提供超净间环境"]
+			description: ["它可以为多方块机器提供超净间环境，但不支持通用工厂"]
 			id: "5B12999747D6C776"
 			shape: "diamond"
 			size: 1.5d
@@ -1152,6 +1164,18 @@
 			}]
 			x: 3.5d
 			y: -2.5d
+		}
+		{
+			dependencies: ["2F6C81E3B10365E8"]
+			id: "031BBC8B522A562F"
+			subtitle: "很多很多水！"
+			tasks: [{
+				id: "00B102B22581C0AB"
+				item: "gtceu:reservoir_hatch"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -10.0d
 		}
 	]
 	subtitle: ["Tier4-EV"]

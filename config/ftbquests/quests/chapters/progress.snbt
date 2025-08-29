@@ -257,9 +257,9 @@
 			y: -8.5d
 		}
 		{
-			description: ["这里的旅途，EV后再来踏入吧。"]
+			description: ["你必须要解锁大型虚空采矿场才可以解锁这里的电路！"]
 			id: "049355F1732A9C99"
-			subtitle: "请EV后再来探索吧"
+			subtitle: "请LuV后再来探索吧"
 			tasks: [{
 				id: "5A76ED5AE2A992D2"
 				item: "gtocore:magneto_resonatic_circuit_ulv"

@@ -55,7 +55,7 @@
 		}
 		{
 			dependencies: ["5CB9B68188A45C6B"]
-			description: [""]
+			description: ["你必须研磨来获得第一批石墨烯，此后你可以使用分子重组仪"]
 			id: "4A26D81CF8BCC810"
 			tasks: [{
 				id: "4F477DC2230C6178"
@@ -114,7 +114,7 @@
 		}
 		{
 			dependencies: ["1E239C34C36FAD60"]
-			description: [""]
+			description: ["为你的大机器提供并行！"]
 			id: "156E62719405A609"
 			shape: "diamond"
 			size: 1.5d
@@ -158,6 +158,7 @@
 				"41BB6C297657D442"
 			]
 			id: "76A2C71F8131E9BE"
+			shape: "hexagon"
 			subtitle: "更便宜的EV级电路"
 			tasks: [{
 				id: "2350A8896AB00AAB"
@@ -169,8 +170,8 @@
 		}
 		{
 			dependencies: ["76A2C71F8131E9BE"]
-			description: [""]
 			id: "54AC456E31D64E42"
+			shape: "hexagon"
 			subtitle: "更便宜的IV级电路"
 			tasks: [{
 				id: "5BBE027B85572681"
@@ -183,6 +184,7 @@
 		{
 			dependencies: ["54AC456E31D64E42"]
 			id: "72C2E41EC2ACF82E"
+			shape: "hexagon"
 			subtitle: "更便宜的LuV级电路"
 			tasks: [{
 				id: "50C5B60AA6C4846C"
@@ -194,8 +196,9 @@
 		}
 		{
 			dependencies: ["72C2E41EC2ACF82E"]
-			description: [""]
 			id: "1D413C9604012CBA"
+			shape: "gear"
+			size: 1.5d
 			subtitle: "第一个ZPM电路"
 			tasks: [{
 				id: "16CF88CD1D82721D"
@@ -375,17 +378,17 @@
 		}
 		{
 			dependencies: ["0C6A00536686D9F5"]
-			hide_dependency_lines: true
+			description: ["更高效的电力高炉，具有最高64并行，同时对你的能源供应也提出了更高的要求"]
 			id: "5244C8FF8BF3BCED"
-			shape: "hexagon"
+			shape: "diamond"
 			size: 1.5d
 			tasks: [{
 				id: "07CF20E52A0BCECB"
 				item: "gtocore:blaze_blast_furnace"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -6.0d
+			x: 14.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["0C6A00536686D9F5"]
@@ -399,7 +402,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: -7.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["761587B546E4158C"]
@@ -431,7 +434,7 @@
 		}
 		{
 			dependencies: ["251002F2103BDA84"]
-			description: ["比普通的调节范围大一倍"]
+			description: ["比普通的调节范围大一倍，且可以无条件地提升机器的速度和减慢发电机的燃料消耗速度！"]
 			id: "56E262C94F46A592"
 			optional: true
 			shape: "diamond"
@@ -493,7 +496,7 @@
 		}
 		{
 			dependencies: ["251002F2103BDA84"]
-			description: ["可以安装催化剂仓"]
+			description: ["比一般的反应釜有线圈加成，还可以安装催化剂仓"]
 			id: "1B8F815BF14E7AE8"
 			shape: "hexagon"
 			size: 1.5d
@@ -671,7 +674,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: -9.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["02C299889115BADD"]
@@ -697,6 +700,7 @@
 		}
 		{
 			dependencies: ["1CF7845875EEFA3B"]
+			description: ["夹层玻璃所需"]
 			hide_dependency_lines: true
 			id: "761587B546E4158C"
 			tasks: [{
@@ -801,8 +805,8 @@
 					type: "checkmark"
 				}
 			]
-			x: 13.5d
-			y: -13.5d
+			x: 12.0d
+			y: -12.0d
 		}
 		{
 			dependencies: ["4CD7E4E23FCD3D84"]
@@ -941,8 +945,8 @@
 				item: "gtceu:polyphenylene_sulfide_foil"
 				type: "item"
 			}]
-			x: 10.0d
-			y: -13.5d
+			x: 8.5d
+			y: -12.0d
 		}
 		{
 			dependencies: ["23DB14B3093506B8"]
@@ -954,6 +958,65 @@
 			}]
 			x: 8.5d
 			y: -3.5d
+		}
+		{
+			dependencies: ["251002F2103BDA84"]
+			description: ["你可以用这个来代替过去的存储总线方案"]
+			id: "029CAD5FD378D3E1"
+			subtitle: "轮椅自动化"
+			tasks: [{
+				id: "3CDD1FE8E3131DE2"
+				item: "gtocore:advanced_tesseract_generator"
+				type: "item"
+			}]
+			x: 22.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1B8F815BF14E7AE8"]
+			description: ["催化剂仓允许你重复利用催化剂，每次使用只会消耗1点耐久而非消耗"]
+			id: "09C9709EE53D0022"
+			tasks: [
+				{
+					id: "233E499D7363EB83"
+					item: "gtocore:catalyst_hatch"
+					type: "item"
+				}
+				{
+					id: "7F6D8CF00B70612C"
+					item: "gtocore:advanced_catalyst_hatch"
+					type: "item"
+				}
+			]
+			x: 22.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["2BD46F9D8A842B4A"]
+			id: "0CB4E535EACE80FA"
+			subtitle: "真正意义上的无限水！"
+			tasks: [{
+				id: "3373E13C70B01E61"
+				item: "gtocore:infinite_water_hatch"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["1CF7845875EEFA3B"]
+			description: ["跨纬度传无线电"]
+			hide_dependency_lines: true
+			id: "388D743C6BA5D995"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "3F3435A0F2EFDC66"
+				item: "gtocore:wireless_dimension_repeater"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -9.0d
 		}
 	]
 	subtitle: ["Tier5-IV"]
