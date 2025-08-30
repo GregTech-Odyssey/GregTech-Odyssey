@@ -19,9 +19,8 @@
 			id: "0DAFE054BF92FA6E"
 			linked_quest: "0BC456B4331C09F5"
 			shape: "diamond"
-			size: 1.5d
-			x: 1.0d
-			y: -8.5d
+			x: 0.5d
+			y: -7.0d
 		}
 	]
 	quests: [
@@ -39,7 +38,7 @@
 		{
 			dependencies: [
 				"0985154AE9169549"
-				"09AA2D72115BE708"
+				"3DA166631D597693"
 			]
 			id: "459F5A53179FAC2A"
 			shape: "hexagon"
@@ -119,9 +118,11 @@
 		}
 		{
 			dependencies: ["2BF339EE989F9A8E"]
+			description: ["这一章节你将体验到一门独特的产线——生物线"]
 			id: "3490AACD4AA62C5D"
 			shape: "gear"
 			size: 2.0d
+			subtitle: "你需要天马行空般的想象力"
 			tasks: [{
 				id: "78CEB67F88F86158"
 				item: "gtceu:zpm_machine_hull"
@@ -182,7 +183,7 @@
 				item: "gtceu:trinium_coil_block"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 4.0d
 			y: -1.5d
 		}
 		{
@@ -197,7 +198,7 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: 3.0d
+			y: 7.0d
 		}
 		{
 			dependencies: [
@@ -205,10 +206,12 @@
 				"4F8C4FDB670405D1"
 				"4A5C6525DD244359"
 			]
+			description: ["需要攒够一定的能量才能开机，如果停止运行会慢慢冷却，需要下一次攒够能量才会运行"]
 			hide_dependency_lines: false
 			id: "11CF6F5DE4A3CC4F"
 			shape: "gear"
 			size: 2.0d
+			subtitle: "甜甜圈"
 			tasks: [{
 				id: "5CA9E2FA6D01B599"
 				item: "gtceu:luv_fusion_reactor"
@@ -219,7 +222,6 @@
 		}
 		{
 			dependencies: ["20F6B937CF470863"]
-			description: [""]
 			id: "3A8BF759CDBFB672"
 			shape: "hexagon"
 			subtitle: "3级“污染水”"
@@ -255,13 +257,14 @@
 		}
 		{
 			dependencies: ["485CB37F35E28C97"]
+			description: ["很贵，在你有更高的电压等级后有更加节省凯金的配方"]
 			id: "6DE5BDC408EC8DD4"
 			tasks: [{
 				id: "1BE5066925D5D287"
 				item: "gtceu:superconducting_coil"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 9.0d
 			y: -3.0d
 		}
 		{
@@ -275,7 +278,7 @@
 				item: "gtocore:energy_injector"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 9.0d
 			y: -1.5d
 		}
 		{
@@ -310,6 +313,7 @@
 		}
 		{
 			dependencies: ["11CF6F5DE4A3CC4F"]
+			description: ["速度很慢，你可能需要挂机来获得你的第一批&a铕&r"]
 			id: "7E1C35C2DE805E6B"
 			shape: "hexagon"
 			tasks: [{
@@ -379,7 +383,7 @@
 				"228B283B5477879B"
 			]
 			id: "1156B92F11DA73B6"
-			shape: "hexagon"
+			shape: "gear"
 			size: 2.0d
 			subtitle: "第一个UV级电路"
 			tasks: [{
@@ -427,8 +431,8 @@
 				item: "gtceu:naquadria_ingot"
 				type: "item"
 			}]
-			x: 4.5d
-			y: -0.5d
+			x: 5.5d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -436,6 +440,8 @@
 				"0BB1BDBE8BB307E4"
 			]
 			id: "722C24B0C50641D1"
+			shape: "hexagon"
+			size: 1.5d
 			tasks: [{
 				id: "643ECC8A03CDDDAE"
 				item: "gtocore:precision_assembler"
@@ -446,9 +452,10 @@
 		}
 		{
 			dependencies: ["722C24B0C50641D1"]
-			description: ["可持续性发电机，LuV激光仓+氖等离子=UEV输出功率"]
+			description: ["可持续性发电机，在MK I阶段你可以使用氖等离子体作为原料"]
 			id: "3E24EF8FE7A0619D"
-			shape: "hexagon"
+			shape: "diamond"
+			size: 1.5d
 			tasks: [{
 				id: "0F0FDE7249F8F817"
 				item: "gtocore:magnetic_fluid_generator"
@@ -459,8 +466,9 @@
 		}
 		{
 			dependencies: ["722C24B0C50641D1"]
+			description: ["并行版本的超强聚变堆！"]
 			id: "5548E798636F52B2"
-			shape: "hexagon"
+			shape: "diamond"
 			size: 2.0d
 			tasks: [{
 				id: "18493B4F8D6A5E45"
@@ -482,23 +490,7 @@
 				type: "item"
 			}]
 			x: 11.0d
-			y: 7.0d
-		}
-		{
-			dependencies: [
-				"251002F2103BDA84"
-				"10F52803BCD77DA0"
-			]
-			id: "23B5C79E392C3286"
-			shape: "diamond"
-			size: 1.5d
-			tasks: [{
-				id: "54317AC46FF050E0"
-				item: "gtocore:me_programmable_pattern_buffer"
-				type: "item"
-			}]
-			x: 0.75d
-			y: -6.75d
+			y: 2.0d
 		}
 		{
 			dependencies: ["2F03D93AC7DBE58D"]
@@ -529,13 +521,22 @@
 		}
 		{
 			dependencies: ["2F03D93AC7DBE58D"]
+			description: ["可以替代铕作为芯片增殖的原料"]
 			hide_dependency_lines: true
+			icon: "gtceu:bacterial_sludge_bucket"
 			id: "31D3C88D38170932"
-			tasks: [{
-				id: "2382D49A394DEDE0"
-				item: "gtceu:bacterial_sludge_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2382D49A394DEDE0"
+					item: "gtceu:bacterial_sludge_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0565F96E21DAF0ED"
+					type: "checkmark"
+				}
+			]
 			x: 13.0d
 			y: -4.0d
 		}
@@ -552,36 +553,38 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: 7.0d
-		}
-		{
-			dependencies: ["0985154AE9169549"]
-			id: "09AA2D72115BE708"
-			tasks: [{
-				id: "56D60FBB511430F4"
-				item: "gtceu:tiny_polonium_dust"
-				type: "item"
-			}]
-			x: 1.0d
-			y: -4.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["63773B34911D0234"]
 			description: [
-				"艾萨线，这是一条新的矿物处理线"
+				"艾萨线，这是一条新的矿物处理线，你需要大量的松油和乙醇来搭建这条产线"
 				""
-				"产出铂处（没有钌），稀土，硅岩等一些稀有的粉"
+				"可以跳过繁杂的产线直接产出铂处（没有钌），稀土，硅岩等一些稀有的粉"
 				""
 				"现在你有了两条矿物处理线，也许你需要想办法改进你的自动化来自动分流你的矿物！"
 			]
 			id: "3E34FFB5E5A60909"
-			tasks: [{
-				id: "32FF7BBB4FFEC930"
-				title: "艾萨矿物处理线"
-				type: "checkmark"
-			}]
-			x: 9.0d
-			y: 8.5d
+			tasks: [
+				{
+					id: "308A057FC7DD2C02"
+					item: "gtocore:isa_mill"
+					type: "item"
+				}
+				{
+					id: "5B11577724B06BAE"
+					item: "gtocore:industrial_flotation_cell"
+					type: "item"
+				}
+				{
+					id: "4BC5059DC413DF9D"
+					item: "gtocore:vacuum_drying_furnace"
+					type: "item"
+				}
+			]
+			title: "艾萨产线"
+			x: 11.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["20F6B937CF470863"]
@@ -597,6 +600,7 @@
 		}
 		{
 			dependencies: ["05EB6CDF13762280"]
+			description: ["你需要自循环来实现晶体芯片的增殖"]
 			id: "438181EE52AE8BC2"
 			tasks: [{
 				id: "731F5630FD25B11D"
@@ -631,6 +635,215 @@
 			}]
 			x: 2.5d
 			y: 3.0d
+		}
+		{
+			dependencies: ["1156B92F11DA73B6"]
+			description: ["大型虚空采矿能挖到一些你见不到的矿脉，用你的钻进液来换取它们吧！"]
+			id: "6692B5CD632BB74F"
+			shape: "hexagon"
+			subtitle: "不仅仅是虚空"
+			tasks: [{
+				id: "678E7DD1C701D654"
+				item: "gtocore:large_void_miner"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6692B5CD632BB74F"]
+			description: [
+				"碲是一种半金属元素，它们在世界分布松散，需要用虚空采矿才能找到"
+				""
+				"碲和若干碲化物是优良的磁共振半导体材料，你未来的共振紫晶会用到它的"
+			]
+			id: "40F9120E5CDC0002"
+			tasks: [{
+				id: "2C3F379147B91A37"
+				item: "gtceu:tellurium_dust"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6CF8EB50958B959D"]
+			description: [
+				"第一次见可能觉得有些贵，但随着不断升级电路板，磁共振的造价优势会越发显著！"
+				""
+				"你现在就可以做出最高LuV级别的磁共振电路"
+			]
+			id: "68A3CE3A60F11C88"
+			shape: "gear"
+			size: 1.25d
+			subtitle: "性价比之王！"
+			tasks: [{
+				id: "2A4EA12F2A1A397D"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtocore:magneto_resonatic_circuit_ulv"
+							}
+							{
+								Count: 1b
+								id: "gtocore:magneto_resonatic_circuit_lv"
+							}
+							{
+								Count: 1b
+								id: "gtocore:magneto_resonatic_circuit_mv"
+							}
+							{
+								Count: 1b
+								id: "gtocore:magneto_resonatic_circuit_hv"
+							}
+							{
+								Count: 1b
+								id: "gtocore:magneto_resonatic_circuit_ev"
+							}
+							{
+								Count: 1b
+								id: "gtocore:magneto_resonatic_circuit_iv"
+							}
+							{
+								Count: 1b
+								id: "gtocore:magneto_resonatic_circuit_luv"
+							}
+							{
+								Count: 1b
+								id: "gtocore:magneto_resonatic_circuit_uv"
+							}
+							{
+								Count: 1b
+								id: "gtocore:magneto_resonatic_circuit_uhv"
+							}
+							{
+								Count: 1b
+								id: "gtocore:magneto_resonatic_circuit_uev"
+							}
+							{
+								Count: 1b
+								id: "gtocore:magneto_resonatic_circuit_uiv"
+							}
+						]
+					}
+				}
+				title: "磁共振电路系列"
+				type: "item"
+			}]
+			title: "磁共振电路系列"
+			x: 21.25d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2F03D93AC7DBE58D"]
+			hide_dependency_lines: true
+			id: "0FD2B76B1608F4FA"
+			tasks: [{
+				id: "21080DB88B17D322"
+				item: "gtocore:polyurethaneresin_bucket"
+				type: "item"
+			}]
+			x: 17.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0FD2B76B1608F4FA"]
+			id: "0EC4AD403151E0AA"
+			tasks: [{
+				id: "23DDC0D9ED9AAC99"
+				item: "gtocore:silicon_nitride_ceramic_flake"
+				type: "item"
+			}]
+			x: 19.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["40F9120E5CDC0002"]
+			id: "2913274AA224CBB7"
+			tasks: [{
+				id: "56ECB1779F7A229E"
+				item: "gtocore:magneto_resonatic_dust"
+				type: "item"
+			}]
+			x: 19.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"2913274AA224CBB7"
+				"0EC4AD403151E0AA"
+				"5DC92641E94C560D"
+			]
+			id: "6CF8EB50958B959D"
+			tasks: [{
+				id: "0C0BA00902FDACF5"
+				item: "gtocore:imprinted_resonatic_circuit_board"
+				type: "item"
+			}]
+			x: 19.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1156B92F11DA73B6"]
+			id: "6925C0D55D578A9A"
+			tasks: [{
+				id: "335A69E2488138E8"
+				item: "gtocore:large_crystallization_chamber"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1156B92F11DA73B6"]
+			id: "68E77C6A173235DB"
+			shape: "hexagon"
+			tasks: [{
+				id: "55C371B8CEED2B3F"
+				item: "gtocore:super_particle_collider"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["31F90B973A779017"]
+			id: "49EECA793E1FF66F"
+			shape: "hexagon"
+			tasks: [{
+				id: "5DDDA7609E78FB32"
+				item: "gtocore:decay_hastener"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0985154AE9169549"]
+			description: ["你需要用核废料产物来获得一点点的钋"]
+			id: "3DA166631D597693"
+			tasks: [{
+				id: "7BD96C865097337B"
+				item: "gtceu:tiny_polonium_dust"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["40F9120E5CDC0002"]
+			id: "5DC92641E94C560D"
+			tasks: [{
+				id: "60C9C18238D23BE6"
+				item: "gtocore:circuit_compound_dust"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 1.0d
 		}
 	]
 	subtitle: ["Tier6-LuV"]

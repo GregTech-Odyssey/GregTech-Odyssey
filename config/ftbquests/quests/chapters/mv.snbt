@@ -85,7 +85,7 @@
 		}
 		{
 			dependencies: ["3899164922A734D8"]
-			description: ["陶瓷线的重要机器！"]
+			description: ["陶瓷线的重要机器！加装模块升级后支持&e并行&r"]
 			hide_dependency_lines: true
 			id: "012118C898D7889A"
 			shape: "hexagon"
@@ -175,7 +175,6 @@
 				"555F4F7869ADAE13"
 				"52C68358D6E375AD"
 			]
-			description: [""]
 			id: "0EE9737781747575"
 			shape: "hexagon"
 			size: 1.5d
@@ -373,7 +372,7 @@
 				item: "gtocore:coolant_liquid_bucket"
 				type: "item"
 			}]
-			x: -8.0d
+			x: -6.5d
 			y: 3.0d
 		}
 		{
@@ -502,7 +501,6 @@
 				"464BDF98D4BF7B90"
 				"643FB27409911116"
 			]
-			description: [""]
 			id: "76DC4303228D42CE"
 			subtitle: "眼看它长成参天大树"
 			tasks: [{

@@ -736,7 +736,7 @@
 			dependencies: ["7B3FAF5CA4DD217C"]
 			description: ["&c火红莲&r会吸收附近掉落的可燃物品/方块(逐个吸收),通过焚烧这些材料来生成&b魔力&r."]
 			id: "177658CA70DB0C89"
-			shape: "square"
+			shape: "circle"
 			size: 1.5d
 			tasks: [{
 				id: "0F3DB7859AC1FA8A"
@@ -1703,8 +1703,9 @@
 		}
 		{
 			dependencies: ["263A1421C0F789E9"]
-			description: ["制作&a泰拉钢&r需先搭建多方块结构.第一步是合成&9泰拉凝聚板&r."]
+			description: ["以棋盘格形式摆放5块活石与4块青金石，将凝聚板置于中央活石上即可完成构建"]
 			id: "65238A6DCDDDFA0D"
+			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
 				id: "76F8BB9B8C181006"
@@ -1717,13 +1718,9 @@
 		{
 			dependencies: ["65238A6DCDDDFA0D"]
 			description: [
-				"现在需要为&9泰拉凝聚板&r搭建平台."
+				"泰拉钢合成需海量魔力，须使用&9火花&r系统。在&a魔力池&f上方布置若干火花，再于凝聚板上方安置火花引导魔力"
 				""
-				"平台需以棋盘格形式摆放5块活石与4块青金石.将锻板置于中央活石上即完成构筑."
-				""
-				"泰拉钢合成需海量魔力,须使用&9火花&r系统.在&a魔力池&f上方布置若干火花,再于凝聚板上方安置火花引导魔力."
-				""
-				"平台就绪后,向凝聚板投入输入物品即可开始合成."
+				"平台就绪后，向凝聚板投入输入物品即可开始合成"
 			]
 			id: "23A2865FBE7831AB"
 			shape: "rsquare"
@@ -1741,8 +1738,8 @@
 				}
 			]
 			title: "&a合成&r &d泰拉钢 神秘&r"
-			x: 26.0d
-			y: -1.5d
+			x: 24.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["3A20210242A1C865"]
@@ -1795,15 +1792,16 @@
 		{
 			dependencies: ["1EF7664F5D8C5FF1"]
 			description: [
-				"虽然无法进入&d精灵传送门&r,但可通过向门内投掷特定物品进行&2精灵交易&f.每次交易均会消耗魔力!"
+				"虽然无法进入&d精灵传送门&r，但可通过向门内投掷特定物品进行&2精灵交易&f，每次交易均会消耗魔力!"
 				""
-				"所得材料可用于升级装备,例如制作&2精灵魔力发射器&f."
+				"材料可用于升级装备，例如制作&2精灵魔力发射器&f"
 				""
-				"将&a植物魔法辞典&f投入传送门可升级为附有&e精灵学&f的版本,获取更多&d植物魔法&f进阶知识."
+				"将&a植物魔法辞典&f投入传送门可升级为附有&e精灵学&f的版本，获取更多&d植物魔法&f进阶知识"
 			]
 			icon: "botania:dragonstone"
 			id: "3A20210242A1C865"
 			min_width: 300
+			subtitle: "不要向里面投喂面包！"
 			tasks: [
 				{
 					id: "6A9E12C2483D4883"
@@ -1848,7 +1846,6 @@
 		}
 		{
 			dependencies: ["23A2865FBE7831AB"]
-			description: [""]
 			id: "1EF7664F5D8C5FF1"
 			shape: "octagon"
 			tasks: [
@@ -1912,7 +1909,7 @@
 		}
 		{
 			dependencies: ["0331107259F7B68C"]
-			description: ["将&2&a精灵魔力发射器&f&r与龙晶之力及&e&a盖亚魂&f&r结合,可打造最顶级的&a魔力发射器&f."]
+			description: ["将&2&a精灵魔力发射器&f&r与龙晶之力及&e&a盖亚魂&f&r结合，可打造最顶级的&a盖亚魔力发射器&f"]
 			hide_until_deps_visible: false
 			id: "4E03AC9D56202353"
 			tasks: [{
@@ -1926,9 +1923,9 @@
 		{
 			dependencies: ["04CE14D92603FC7A"]
 			description: [
-				"击败&9&a盖亚守护者&f&r后,您将获得&e&a盖亚魂&f&r作为战利品."
+				"击败&9&a盖亚守护者&f&r后，你将获得&e&a盖亚魂&f&r作为战利品"
 				""
-				"游戏难度与参与仪式的人数将共同影响战利品的数量."
+				"游戏难度与参与仪式的人数将共同影响战利品的数量"
 			]
 			icon: "botania:gaia_head"
 			id: "0331107259F7B68C"
@@ -1955,12 +1952,13 @@
 		{
 			dependencies: ["0331107259F7B68C"]
 			description: [
-				"你需要更多&e&a盖亚魂&f&r！！"
+				"将4个&a盖亚魂&f与泰拉钢锭结合，用于激活盖亚的魔法仪式吧 :)"
 				""
-				"将4个&a盖亚魂&f与泰拉钢锭结合,用于激活盖亚的&a魔法仪式&f吧 :)"
+				"盖亚2.0将比1.0难度更高，但也会带来更加丰富的奖励"
 			]
 			hide_until_deps_visible: false
 			id: "27CD17C4B3613171"
+			subtitle: "你需要更多&e&a盖亚魂&f&r！！"
 			tasks: [{
 				id: "3DE2A054C6F00FBE"
 				item: "botania:gaia_ingot"
@@ -1972,7 +1970,7 @@
 		}
 		{
 			dependencies: ["27CD17C4B3613171"]
-			description: ["使用盖亚锭召唤强化版&5&a盖亚守护者&f&r可获取更多&e&a盖亚魂&f&r,同时守护者还有概率掉落&e&a命运骰子&f&r."]
+			description: ["使用盖亚锭召唤强化版&5&a盖亚守护者&f&r可获取更多&e&a盖亚魂&f&r，同时还有概率掉落&e&a命运骰子&f&r"]
 			id: "50A2D68A83A50F47"
 			shape: "gear"
 			size: 3.0d
@@ -2644,7 +2642,7 @@
 		}
 		{
 			dependencies: ["3A20210242A1C865"]
-			description: ["击杀猪灵蛮兵可以获得下界合金锭"]
+			description: ["如果需要，击杀猪灵蛮兵可以获得下界合金锭"]
 			id: "26B836339560E939"
 			shape: "octagon"
 			tasks: [{
@@ -4681,6 +4679,7 @@
 		}
 		{
 			dependencies: ["0631F054A9B97A40"]
+			description: ["希望你玩的开心"]
 			id: "263A1421C0F789E9"
 			tasks: [{
 				id: "4B29F9E1F4FC05AA"
@@ -4726,7 +4725,7 @@
 				item: "gtocore:alchemy_cauldron"
 				type: "item"
 			}]
-			x: 24.5d
+			x: 26.0d
 			y: -4.5d
 		}
 		{
@@ -4734,9 +4733,11 @@
 				"16CE6D6560F6B36F"
 				"1128C7807582111A"
 			]
+			description: ["炼药锅的概率机制是一个复杂的函数，不过你只需要几次持续的配方运作就能获得溶剂"]
 			hide_dependency_lines: true
 			icon: "gtocore:fractal_petal_solvent_bucket"
 			id: "2AB5A33EC30AEA86"
+			subtitle: "并不是0.1%"
 			tasks: [
 				{
 					id: "45D039ED5F5FAF15"
@@ -4748,7 +4749,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 26.0d
+			x: 27.5d
 			y: -4.5d
 		}
 		{
@@ -4797,7 +4798,7 @@
 				}
 			]
 			title: "元素魔晶"
-			x: 23.0d
+			x: 24.5d
 			y: -3.0d
 		}
 		{
@@ -4831,7 +4832,7 @@
 				}
 			]
 			title: "魔晶粉"
-			x: 24.5d
+			x: 26.0d
 			y: -3.0d
 		}
 		{
@@ -4839,6 +4840,7 @@
 				"171A10E6B65F087D"
 				"2AB5A33EC30AEA86"
 			]
+			description: ["以太蒸汽你会用到很多"]
 			icon: "gtocore:aether_bucket"
 			id: "4E9804ED6DE64BDF"
 			tasks: [
@@ -4873,13 +4875,13 @@
 				}
 			]
 			title: "元素蒸汽们"
-			x: 26.0d
+			x: 27.5d
 			y: -3.0d
 		}
 		{
 			dependencies: [
-				"2A5BA479E707034B"
 				"3A20210242A1C865"
+				"4E9804ED6DE64BDF"
 			]
 			id: "331A6633436ED5AA"
 			tasks: [{
@@ -4931,7 +4933,7 @@
 				}
 			]
 			title: "各种精华们"
-			x: 27.5d
+			x: 29.0d
 			y: -3.0d
 		}
 		{
@@ -5009,7 +5011,7 @@
 				type: "item"
 			}]
 			x: 36.0d
-			y: 1.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["527EBA90163F6108"]
@@ -5034,7 +5036,7 @@
 			]
 			title: "盖亚魂循环"
 			x: 36.0d
-			y: 3.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["542C6D76B579886C"]
@@ -5121,6 +5123,98 @@
 				type: "item"
 			}]
 			x: 35.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["18E4BD0C2EDCBDF2"]
+			description: [
+				"或许你要...备份一下？"
+				""
+				"区域破坏者并不会产生爆炸，而是清空方块，也许能作为平地的好帮手"
+			]
+			hide_dependency_lines: true
+			id: "02835A9B717F47AC"
+			subtitle: "人畜无害"
+			tasks: [{
+				id: "711669C3E3D52687"
+				item: "gtocore:area_destruction_tools"
+				type: "item"
+			}]
+			x: 37.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["27CD17C4B3613171"]
+			id: "18E4BD0C2EDCBDF2"
+			subtitle: "凝聚了盖亚的心血"
+			tasks: [{
+				id: "3AD9C8D4702ABCC3"
+				item: "extrabotany:orichalcos_ingot"
+				type: "item"
+			}]
+			x: 35.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["27CD17C4B3613171"]
+			description: [
+				"GTO集团汲取盖亚的能量，研发出了跳跃时间的技术，就汇聚在这一个小小的瓶子中。"
+				""
+				"时间扭曲者可以快速地加速机器的加工进程，但你需要保证电网足够，你也不希望看到机器全面跳电罢工吧！"
+			]
+			hide_dependency_lines: true
+			id: "041B3B6736C62F82"
+			subtitle: "比床更加黑科技的时间机器"
+			tasks: [{
+				id: "4D062AB9FB3A95D3"
+				item: "gtocore:time_twister"
+				type: "item"
+			}]
+			x: 37.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7B3FAF5CA4DD217C"]
+			description: ["如果你已经有光伏电站，打开UI放入一组太阳花，你就可以使用它来简易快速地获取魔力！"]
+			id: "60778D26C539B172"
+			size: 1.5d
+			tasks: [{
+				count: 64L
+				id: "64ADD704A4E2B648"
+				item: { Count: 64, id: "botania:daybloom_motif" }
+				type: "item"
+			}]
+			x: 5.25d
+			y: 6.0d
+		}
+		{
+			dependencies: ["70C5A902C0D26628"]
+			description: [
+				"火花的替代品"
+				""
+				"本包内也有无线魔力网络，且储量无限！"
+			]
+			id: "705706C604CECF1D"
+			shape: "diamond"
+			tasks: [{
+				id: "410F31F1E5E7E9A4"
+				item: "gtocore:base_mana_distributor"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["23A2865FBE7831AB"]
+			description: ["火花的更强替代品"]
+			id: "5E14716ECDAF9B1C"
+			shape: "diamond"
+			tasks: [{
+				id: "5501AAE743102934"
+				item: "gtocore:advanced_mana_distributor"
+				type: "item"
+			}]
+			x: 26.0d
 			y: -1.5d
 		}
 	]

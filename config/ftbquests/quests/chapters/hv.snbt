@@ -643,9 +643,11 @@
 		}
 		{
 			dependencies: ["6A8869A6275ECA3E"]
+			description: ["简单的冷却浸洗已经不再能承受其他热锭的高温，你需要一个真正的冷冻机"]
 			id: "5F5B9F256A751484"
 			shape: "hexagon"
 			size: 1.5d
+			subtitle: "真正的冰箱"
 			tasks: [{
 				id: "20BA69BC1C87E76F"
 				item: "gtceu:vacuum_freezer"
@@ -656,11 +658,6 @@
 		}
 		{
 			dependencies: ["5F5B9F256A751484"]
-			description: [
-				"是时候升级你的&6电力高炉&r了"
-				""
-				"&6镍铬合金线圈&r的基础热容刚好能使高炉获得一次额外的&d无损超频&r"
-			]
 			id: "768BCE7842E31597"
 			tasks: [{
 				id: "7FEED9BB9102DC99"
@@ -673,13 +670,14 @@
 		{
 			dependencies: ["768BCE7842E31597"]
 			description: [
-				"升级&6镍铬合金线圈&r，高炉可获得一次无损超频"
+				"&6镍铬合金线圈&r的基础热容刚好能使高炉在烧铝和不锈钢时获得一次额外的&d无损超频&r"
 				""
 				"除了电力高炉能获得其增益，许多带有&e线圈结构方块&r的多方块机器都能一步步升级线圈获得更高的生产力"
 			]
 			id: "31C82EC18535B9B9"
 			shape: "hexagon"
 			size: 1.5d
+			subtitle: "是时候升级你的&6电力高炉&r了"
 			tasks: [{
 				id: "58DEE41E59680161"
 				item: "gtceu:nichrome_coil_block"
@@ -709,7 +707,7 @@
 		}
 		{
 			dependencies: ["4BA890971C18F938"]
-			description: ["高效部件外壳生产"]
+			description: ["一步完成外壳生产，也可以用来做一次性工具"]
 			id: "686D81CACEC8506F"
 			shape: "hexagon"
 			size: 1.5d
@@ -1381,7 +1379,7 @@
 		}
 		{
 			dependencies: ["47E810FD91649121"]
-			description: ["你可以无需经过&e铂处理&r，从化学浸洗过的镍矿中直接获得&6铂粉&r"]
+			description: ["你可以无需经过&e铂处理&r，从化学浸洗过的镍矿中获得&6铂金属粉&r"]
 			id: "5559EBCB8F2C4296"
 			tasks: [{
 				id: "7399BFE90A39A251"

@@ -70,7 +70,7 @@
 				"68AB0026ACD5103E"
 				"13A73FA0625AC68F"
 			]
-			description: ["仅能处理小部分配方。"]
+			description: ["仅能处理小部分配方"]
 			id: "1CA6E1AD1909373A"
 			rewards: [{
 				id: "05A79431EC56D73D"
@@ -153,7 +153,7 @@
 		}
 		{
 			dependencies: ["4ED89021AC92A0AE"]
-			description: ["蒸汽裂化机只能处理四种基础含硫油的配方，但是它可以将基础油直接裂化为&6蒸汽裂化油&r"]
+			description: ["蒸汽裂化机只能处理四种基础含硫油的配方，尽管产量偏低，但是它可以将基础油直接裂化为&6蒸汽裂化油&r"]
 			id: "498D24745D509B73"
 			rewards: [{
 				id: "4C50916429573FD8"
@@ -174,7 +174,9 @@
 		{
 			dependencies: ["0861FADA4103BCA5"]
 			description: [
-				"原始人对蒸馏塔的仿制版本，由于材料受限，温度过高会导致&4爆炸&r，你需要用水给机器降温，你不会想知道它的威力的"
+				"原始人对蒸馏塔的仿制版本，由于机体材料受限，温度过高会导致内部压力超出容限从而发生&4爆炸&r"
+				""
+				"你需要用&e煤炭/煤粉/煤炭块&r来给机器加热，还要用水给机器降温，你不会想知道它的威力的"
 				""
 				"流体校准器可以精确控制输入水的&6速率&r与被覆盖&6容器内流体容量&r，避免降温过快无法&c升温&r"
 				""
@@ -655,7 +657,6 @@
 		}
 		{
 			dependencies: ["6C328AB57C610EF9"]
-			description: [""]
 			icon: "gtceu:resin_circuit_board"
 			id: "134DA399427DD1A5"
 			tasks: [{
@@ -875,7 +876,7 @@
 				"03A894C7D1178791"
 				"498D24745D509B73"
 			]
-			description: ["建议使用重度蒸汽裂化石脑油"]
+			description: ["重度蒸汽裂化石脑油分解更彻底，具有更高的产率"]
 			icon: "gtceu:severely_steam_cracked_naphtha_bucket"
 			id: "01C0AEA051760CE5"
 			tasks: [
