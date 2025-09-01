@@ -175,7 +175,6 @@
 				"555F4F7869ADAE13"
 				"52C68358D6E375AD"
 			]
-			description: [""]
 			id: "0EE9737781747575"
 			shape: "hexagon"
 			size: 1.5d
@@ -373,7 +372,7 @@
 				item: "gtocore:coolant_liquid_bucket"
 				type: "item"
 			}]
-			x: -8.0d
+			x: -6.5d
 			y: 3.0d
 		}
 		{
@@ -502,7 +501,6 @@
 				"464BDF98D4BF7B90"
 				"643FB27409911116"
 			]
-			description: [""]
 			id: "76DC4303228D42CE"
 			subtitle: "{gto.mv.quests.76DC4303228D42CE.subtitle}"
 			tasks: [{
