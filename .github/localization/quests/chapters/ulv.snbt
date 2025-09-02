@@ -70,7 +70,11 @@
 				"68AB0026ACD5103E"
 				"13A73FA0625AC68F"
 			]
-			description: ["{gto.ulv.quests.1CA6E1AD1909373A.description0}"]
+			description: [
+				"{gto.ulv.quests.1CA6E1AD1909373A.description0}"
+				""
+				"{gto.ulv.quests.1CA6E1AD1909373A.description1}"
+			]
 			id: "1CA6E1AD1909373A"
 			rewards: [{
 				id: "05A79431EC56D73D"
@@ -236,6 +240,8 @@
 				"{gto.ulv.quests.76259357A13F3B1E.description0}"
 				""
 				"{gto.ulv.quests.76259357A13F3B1E.description1}"
+				""
+				"{gto.ulv.quests.76259357A13F3B1E.description2}"
 			]
 			id: "76259357A13F3B1E"
 			rewards: [{
@@ -304,7 +310,11 @@
 				"13A73FA0625AC68F"
 				"206990570B2743AE"
 			]
-			description: ["{gto.ulv.quests.4E0B6C5CE3808705.description0}"]
+			description: [
+				"{gto.ulv.quests.4E0B6C5CE3808705.description0}"
+				""
+				"{gto.ulv.quests.4E0B6C5CE3808705.description1}"
+			]
 			hide_dependency_lines: true
 			id: "4E0B6C5CE3808705"
 			rewards: [{
@@ -336,8 +346,6 @@
 				"{gto.ulv.quests.0FBE7318DFBA700E.description0}"
 				""
 				"{gto.ulv.quests.0FBE7318DFBA700E.description1}"
-				""
-				"{gto.ulv.quests.0FBE7318DFBA700E.description2}"
 			]
 			id: "0FBE7318DFBA700E"
 			rewards: [{
@@ -572,6 +580,11 @@
 		}
 		{
 			dependencies: ["0859B24E8AF3303F"]
+			description: [
+				"{gto.ulv.quests.03B5D54A3BB46B18.description0}"
+				""
+				"{gto.ulv.quests.03B5D54A3BB46B18.description1}"
+			]
 			id: "03B5D54A3BB46B18"
 			rewards: [{
 				id: "2E8FFC78733AF1DA"
@@ -639,7 +652,6 @@
 			dependencies: ["27F4D9739FE33A02"]
 			description: [
 				"{gto.ulv.quests.5CFDAB8B03980F9D.description0}"
-				""
 				""
 				"{gto.ulv.quests.5CFDAB8B03980F9D.description1}"
 			]
@@ -771,6 +783,7 @@
 			]
 			description: ["{gto.ulv.quests.6E3C93AC06BB6F31.description0}"]
 			id: "6E3C93AC06BB6F31"
+			subtitle: "{gto.ulv.quests.6E3C93AC06BB6F31.subtitle}"
 			tasks: [{
 				id: "417A3F6AA48CF609"
 				title: "{gto.ulv.quests.6E3C93AC06BB6F31.tasks.417A3F6AA48CF609.title}"
@@ -917,6 +930,7 @@
 		}
 		{
 			dependencies: ["6E3C93AC06BB6F31"]
+			description: ["{gto.ulv.quests.0B7EC948A9BA56EF.description0}"]
 			id: "0B7EC948A9BA56EF"
 			shape: "circle"
 			tasks: [{
@@ -929,6 +943,11 @@
 		}
 		{
 			dependencies: ["6E3C93AC06BB6F31"]
+			description: [
+				"{gto.ulv.quests.206990570B2743AE.description0}"
+				""
+				"{gto.ulv.quests.206990570B2743AE.description1}"
+			]
 			id: "206990570B2743AE"
 			shape: "circle"
 			tasks: [{
@@ -1004,6 +1023,11 @@
 		}
 		{
 			dependencies: ["03BB5A5C084F5194"]
+			description: [
+				"{gto.ulv.quests.507807175748245C.description0}"
+				""
+				"{gto.ulv.quests.507807175748245C.description1}"
+			]
 			icon: "gtceu:lv_machine_hull"
 			id: "507807175748245C"
 			rewards: [{
@@ -1014,6 +1038,7 @@
 			}]
 			shape: "gear"
 			size: 2.0d
+			subtitle: "{gto.ulv.quests.507807175748245C.subtitle}"
 			tasks: [{
 				id: "2C08278994181AE9"
 				item: "gtceu:lv_machine_hull"
@@ -1062,7 +1087,11 @@
 		}
 		{
 			dependencies: ["2EE92A46E52B0565"]
-			description: ["{gto.ulv.quests.3BE44DC31F4047B9.description0}"]
+			description: [
+				"{gto.ulv.quests.3BE44DC31F4047B9.description0}"
+				""
+				"{gto.ulv.quests.3BE44DC31F4047B9.description1}"
+			]
 			id: "3BE44DC31F4047B9"
 			shape: "hexagon"
 			tasks: [{

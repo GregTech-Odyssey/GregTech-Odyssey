@@ -44,6 +44,7 @@
 		}
 		{
 			dependencies: ["09C2AF1A68A06D69"]
+			description: ["{gto.iv.quests.5CB9B68188A45C6B.description0}"]
 			id: "5CB9B68188A45C6B"
 			tasks: [{
 				id: "0F08286FDB0CAB60"
@@ -266,6 +267,7 @@
 		}
 		{
 			dependencies: ["13FEF91314898EB1"]
+			description: ["{gto.iv.quests.251002F2103BDA84.description0}"]
 			id: "251002F2103BDA84"
 			shape: "gear"
 			size: 2.0d
@@ -467,8 +469,6 @@
 				"{gto.iv.quests.2F03D93AC7DBE58D.description0}"
 				""
 				"{gto.iv.quests.2F03D93AC7DBE58D.description1}"
-				""
-				"{gto.iv.quests.2F03D93AC7DBE58D.description2}"
 			]
 			id: "2F03D93AC7DBE58D"
 			shape: "gear"
@@ -479,6 +479,7 @@
 				item: "gtceu:luv_machine_hull"
 				type: "item"
 			}]
+			title: "{gto.iv.quests.2F03D93AC7DBE58D.title}"
 			x: 10.0d
 			y: -12.0d
 		}
@@ -495,7 +496,10 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["251002F2103BDA84"]
+			dependencies: [
+				"251002F2103BDA84"
+				"2C9C7F2B5A15B845"
+			]
 			description: ["{gto.iv.quests.1B8F815BF14E7AE8.description0}"]
 			id: "1B8F815BF14E7AE8"
 			shape: "hexagon"
@@ -505,7 +509,7 @@
 				item: "gtocore:chemical_plant"
 				type: "item"
 			}]
-			x: 22.0d
+			x: 22.5d
 			y: -6.5d
 		}
 		{
@@ -642,6 +646,7 @@
 				"0F6181E3AF0A0791"
 				"159FD72C1F0AD3A0"
 			]
+			description: ["{gto.iv.quests.7E7B941FF52CC0F2.description0}"]
 			id: "7E7B941FF52CC0F2"
 			shape: "hexagon"
 			size: 1.5d
@@ -976,7 +981,7 @@
 				type: "item"
 			}]
 			x: 22.0d
-			y: -4.5d
+			y: -8.5d
 		}
 		{
 			dependencies: ["1B8F815BF14E7AE8"]
@@ -994,8 +999,8 @@
 					type: "item"
 				}
 			]
-			x: 22.0d
-			y: -8.5d
+			x: 24.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["2BD46F9D8A842B4A"]
@@ -1023,6 +1028,27 @@
 			}]
 			x: 3.0d
 			y: -9.0d
+		}
+		{
+			dependencies: [
+				"2964D4005BFFFADF"
+				"251002F2103BDA84"
+			]
+			description: [
+				"{gto.iv.quests.2C9C7F2B5A15B845.description0}"
+				""
+				"{gto.iv.quests.2C9C7F2B5A15B845.description1}"
+				""
+				"{gto.iv.quests.2C9C7F2B5A15B845.description2}"
+			]
+			id: "2C9C7F2B5A15B845"
+			tasks: [{
+				id: "119A64F2F907B638"
+				item: "gtceu:data_access_hatch"
+				type: "item"
+			}]
+			x: 22.0d
+			y: -4.5d
 		}
 	]
 	subtitle: ["{gto.iv.subtitle0}"]

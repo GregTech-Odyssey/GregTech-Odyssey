@@ -7,7 +7,14 @@
 	icon: "gtceu:electric_blast_furnace"
 	id: "4015C56C0D562D25"
 	order_index: 2
-	quest_links: [ ]
+	quest_links: [{
+		id: "455E3F6F33BD24B6"
+		linked_quest: "507807175748245C"
+		shape: "gear"
+		size: 1.5d
+		x: 0.5d
+		y: -6.5d
+	}]
 	quests: [
 		{
 			dependencies: ["507807175748245C"]
@@ -332,7 +339,7 @@
 			]
 			id: "68EFF1609132BDD4"
 			shape: "gear"
-			size: 2.0d
+			size: 1.0d
 			subtitle: "{gto.lv.quests.68EFF1609132BDD4.subtitle}"
 			tasks: [{
 				id: "4FC6935FB0B9F601"
@@ -672,9 +679,8 @@
 				"{gto.lv.quests.6465CCE684E0DD3B.description2}"
 				""
 				"{gto.lv.quests.6465CCE684E0DD3B.description3}"
-				"{gto.lv.quests.6465CCE684E0DD3B.description4}"
 				""
-				"{gto.lv.quests.6465CCE684E0DD3B.description5}"
+				"{gto.lv.quests.6465CCE684E0DD3B.description4}"
 			]
 			hide_dependency_lines: true
 			id: "6465CCE684E0DD3B"
@@ -922,7 +928,7 @@
 				"6BB3386725B228D5"
 				"12F3FAEB69397980"
 			]
-			description: [""]
+			description: ["{gto.lv.quests.7FD151D808A41D6C.description0}"]
 			hide_dependency_lines: true
 			id: "7FD151D808A41D6C"
 			shape: "hexagon"
@@ -1191,6 +1197,7 @@
 		}
 		{
 			dependencies: ["507807175748245C"]
+			hide_dependency_lines: true
 			id: "7F4F5999F7A65E0F"
 			tasks: [{
 				id: "428AB01EAAFD1B6F"
@@ -1764,6 +1771,27 @@
 			title: "{gto.lv.quests.39879EA8A9F79913.title}"
 			x: 1.5d
 			y: 1.5d
+		}
+		{
+			dependencies: ["68EFF1609132BDD4"]
+			description: [
+				"{gto.lv.quests.3D1E66868544975F.description0}"
+				""
+				"{gto.lv.quests.3D1E66868544975F.description1}"
+				""
+				"{gto.lv.quests.3D1E66868544975F.description2}"
+			]
+			id: "3D1E66868544975F"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "{gto.lv.quests.3D1E66868544975F.subtitle}"
+			tasks: [{
+				id: "314B51C49770F63A"
+				item: "gtceu:mv_machine_hull"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.5d
 		}
 	]
 	subtitle: ["{gto.lv.subtitle0}"]

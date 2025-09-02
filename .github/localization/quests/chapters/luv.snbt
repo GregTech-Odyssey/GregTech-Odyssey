@@ -118,7 +118,13 @@
 		}
 		{
 			dependencies: ["2BF339EE989F9A8E"]
-			description: ["{gto.luv.quests.3490AACD4AA62C5D.description0}"]
+			description: [
+				"{gto.luv.quests.3490AACD4AA62C5D.description0}"
+				""
+				"{gto.luv.quests.3490AACD4AA62C5D.description1}"
+				""
+				"{gto.luv.quests.3490AACD4AA62C5D.description2}"
+			]
 			id: "3490AACD4AA62C5D"
 			shape: "gear"
 			size: 2.0d
@@ -128,6 +134,7 @@
 				item: "gtceu:zpm_machine_hull"
 				type: "item"
 			}]
+			title: "{gto.luv.quests.3490AACD4AA62C5D.title}"
 			x: 9.0d
 			y: -4.5d
 		}
@@ -146,10 +153,19 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["7C9C5AA8812891CC"]
+			dependencies: [
+				"7C9C5AA8812891CC"
+				"7EA0644BB352BBB5"
+			]
+			description: [
+				"{gto.luv.quests.7AD94105147C5940.description0}"
+				""
+				"{gto.luv.quests.7AD94105147C5940.description1}"
+			]
 			id: "7AD94105147C5940"
 			shape: "hexagon"
 			size: 1.5d
+			subtitle: "{gto.luv.quests.7AD94105147C5940.subtitle}"
 			tasks: [{
 				id: "7EA058E5B97398AA"
 				item: "gtceu:data_bank"
@@ -162,10 +178,17 @@
 			dependencies: [
 				"742A167FA252AC44"
 				"7AD94105147C5940"
+				"777A7D91695E8720"
+			]
+			description: [
+				"{gto.luv.quests.228B283B5477879B.description0}"
+				""
+				"{gto.luv.quests.228B283B5477879B.description1}"
 			]
 			id: "228B283B5477879B"
 			shape: "hexagon"
 			size: 1.5d
+			subtitle: "{gto.luv.quests.228B283B5477879B.subtitle}"
 			tasks: [{
 				id: "2BF4F6E27DA97C52"
 				item: "gtceu:research_station"
@@ -197,7 +220,7 @@
 				item: "gtceu:uranium_rhodium_dinaquadide_ingot"
 				type: "item"
 			}]
-			x: 9.0d
+			x: 10.5d
 			y: 7.0d
 		}
 		{
@@ -206,7 +229,13 @@
 				"4F8C4FDB670405D1"
 				"4A5C6525DD244359"
 			]
-			description: ["{gto.luv.quests.11CF6F5DE4A3CC4F.description0}"]
+			description: [
+				"{gto.luv.quests.11CF6F5DE4A3CC4F.description0}"
+				""
+				"{gto.luv.quests.11CF6F5DE4A3CC4F.description1}"
+				""
+				"{gto.luv.quests.11CF6F5DE4A3CC4F.description2}"
+			]
 			hide_dependency_lines: false
 			id: "11CF6F5DE4A3CC4F"
 			shape: "gear"
@@ -382,6 +411,7 @@
 				"5A3B1B492A49AB29"
 				"228B283B5477879B"
 			]
+			description: ["{gto.luv.quests.1156B92F11DA73B6.description0}"]
 			id: "1156B92F11DA73B6"
 			shape: "gear"
 			size: 2.0d
@@ -420,8 +450,8 @@
 					type: "item"
 				}
 			]
-			x: 5.5d
-			y: 2.5d
+			x: 0.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["61A6D0112B0446AA"]
@@ -844,6 +874,91 @@
 			}]
 			x: 17.0d
 			y: 1.0d
+		}
+		{
+			dependencies: ["57D5AF62A5ADAF60"]
+			description: ["{gto.luv.quests.4EC4E151D57351F6.description0}"]
+			id: "4EC4E151D57351F6"
+			subtitle: "{gto.luv.quests.4EC4E151D57351F6.subtitle}"
+			tasks: [{
+				id: "55D19A2DF65BE511"
+				item: "gtocore:simple_fiber_optic_rough"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["2F03D93AC7DBE58D"]
+			hide_dependency_lines: true
+			id: "57D5AF62A5ADAF60"
+			shape: "rsquare"
+			tasks: [{
+				id: "78E5BA799D7F4099"
+				item: "gtocore:drawing_tower"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["7EA0644BB352BBB5"]
+			description: [
+				"{gto.luv.quests.777A7D91695E8720.description0}"
+				""
+				"{gto.luv.quests.777A7D91695E8720.description1}"
+			]
+			id: "777A7D91695E8720"
+			rewards: [{
+				id: "28096F1A6396DEA0"
+				item: "gtceu:pcb_coolant_bucket"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{gto.luv.quests.777A7D91695E8720.subtitle}"
+			tasks: [{
+				id: "769ED527F4AE5C0D"
+				item: "gtceu:high_performance_computation_array"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["4EC4E151D57351F6"]
+			description: ["{gto.luv.quests.7EA0644BB352BBB5.description0}"]
+			id: "7EA0644BB352BBB5"
+			subtitle: "{gto.luv.quests.7EA0644BB352BBB5.subtitle}"
+			tasks: [{
+				id: "063519DAB63EFE0A"
+				item: {
+					Count: 64
+					id: "gtceu:normal_optical_pipe"
+				}
+				type: "item"
+			}]
+			x: 5.25d
+			y: 7.0d
+		}
+		{
+			dependencies: ["7AD94105147C5940"]
+			id: "7FBA4F73F200F0D5"
+			tasks: [
+				{
+					id: "150C0D6C1F9BA6F7"
+					item: "gtceu:computation_transmitter_hatch"
+					type: "item"
+				}
+				{
+					id: "4C2312EE8EB61098"
+					item: "gtceu:computation_receiver_hatch"
+					type: "item"
+				}
+			]
+			title: "{gto.luv.quests.7FBA4F73F200F0D5.title}"
+			x: 5.25d
+			y: 3.0d
 		}
 	]
 	subtitle: ["{gto.luv.subtitle0}"]

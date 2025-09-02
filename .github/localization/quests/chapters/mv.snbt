@@ -7,12 +7,24 @@
 	icon: "gtocore:processing_plant"
 	id: "7C6B0DA4DF5D00E3"
 	order_index: 3
-	quest_links: [ ]
+	quest_links: [{
+		id: "112AADE317BB4B64"
+		linked_quest: "3D1E66868544975F"
+		shape: "gear"
+		size: 1.5d
+		x: -12.0d
+		y: 3.0d
+	}]
 	quests: [
 		{
 			dependencies: [
 				"7C30575AACA9FE5B"
 				"26484E626E859718"
+			]
+			description: [
+				"{gto.mv.quests.5D828A5258BFF11F.description0}"
+				""
+				"{gto.mv.quests.5D828A5258BFF11F.description1}"
 			]
 			id: "5D828A5258BFF11F"
 			shape: "gear"
@@ -23,6 +35,7 @@
 				item: "gtceu:hv_machine_hull"
 				type: "item"
 			}]
+			title: "{gto.mv.quests.5D828A5258BFF11F.title}"
 			x: 10.5d
 			y: 4.5d
 		}
@@ -229,7 +242,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["6A457FDF694A81DA"]
 			description: ["{gto.mv.quests.7C30575AACA9FE5B.description0}"]
 			hide_dependency_lines: true
 			id: "7C30575AACA9FE5B"
@@ -287,7 +299,7 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["6A457FDF694A81DA"]
+			dependencies: ["3D1E66868544975F"]
 			description: [
 				"{gto.mv.quests.307586CBEE0B955E.description0}"
 				""
@@ -314,7 +326,7 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["6A457FDF694A81DA"]
+			dependencies: ["3D1E66868544975F"]
 			description: [
 				"{gto.mv.quests.3899164922A734D8.description0}"
 				""
@@ -676,29 +688,6 @@
 			y: -0.25d
 		}
 		{
-			dependencies: [
-				"68EFF1609132BDD4"
-				"6BB3386725B228D5"
-			]
-			description: [
-				"{gto.mv.quests.6A457FDF694A81DA.description0}"
-				""
-				"{gto.mv.quests.6A457FDF694A81DA.description1}"
-			]
-			id: "6A457FDF694A81DA"
-			shape: "gear"
-			size: 2.0d
-			subtitle: "{gto.mv.quests.6A457FDF694A81DA.subtitle}"
-			tasks: [{
-				id: "358D4563A7119768"
-				item: "gtceu:mv_machine_hull"
-				type: "item"
-			}]
-			title: "{gto.mv.quests.6A457FDF694A81DA.title}"
-			x: -12.0d
-			y: 3.0d
-		}
-		{
 			dependencies: ["3899164922A734D8"]
 			id: "1B8CED7CD486A455"
 			tasks: [{
@@ -726,8 +715,8 @@
 				title: "{gto.mv.quests.66FE671D7F2BFDD7.tasks.4E286369A1435709.title}"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 3.0d
+			x: 9.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -830,7 +819,7 @@
 			y: -5.0d
 		}
 		{
-			dependencies: ["6A457FDF694A81DA"]
+			dependencies: ["3D1E66868544975F"]
 			description: [
 				"{gto.mv.quests.46354D0766391D92.description0}"
 				""
@@ -866,7 +855,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["6A457FDF694A81DA"]
+			dependencies: ["3D1E66868544975F"]
 			description: [
 				"{gto.mv.quests.24E0E3D10308B17D.description0}"
 				""
@@ -887,7 +876,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["6A457FDF694A81DA"]
+			dependencies: ["3D1E66868544975F"]
 			description: ["{gto.mv.quests.4D0710E1E75F0C59.description0}"]
 			icon: "gtceu:mv_gas_turbine"
 			id: "4D0710E1E75F0C59"
@@ -930,7 +919,7 @@
 			y: 5.25d
 		}
 		{
-			dependencies: ["6A457FDF694A81DA"]
+			dependencies: ["3D1E66868544975F"]
 			description: ["{gto.mv.quests.49B8588D38683C71.description0}"]
 			hide_dependency_lines: true
 			id: "49B8588D38683C71"
@@ -944,7 +933,7 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["6A457FDF694A81DA"]
+			dependencies: ["3D1E66868544975F"]
 			description: ["{gto.mv.quests.447F113C4C105195.description0}"]
 			hide_dependency_lines: true
 			id: "447F113C4C105195"
@@ -958,7 +947,7 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["6A457FDF694A81DA"]
+			dependencies: ["3D1E66868544975F"]
 			description: [
 				"{gto.mv.quests.2B4C8EDEF659A21B.description0}"
 				""
@@ -994,7 +983,7 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["6A457FDF694A81DA"]
+			dependencies: ["3D1E66868544975F"]
 			description: ["{gto.mv.quests.5C7D1845F91043DC.description0}"]
 			hide_dependency_lines: true
 			id: "5C7D1845F91043DC"
@@ -1008,7 +997,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["6A457FDF694A81DA"]
+			dependencies: ["3D1E66868544975F"]
 			description: [
 				"[ \"如\", { \"text\": \"上一章节\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4FC3EC9C6C25633F\" } }, \"所述，它拥有更高的净化能力和净化范围\" ]"
 				""
@@ -1026,7 +1015,7 @@
 			y: 0.75d
 		}
 		{
-			dependencies: ["6A457FDF694A81DA"]
+			dependencies: ["3D1E66868544975F"]
 			description: ["{gto.mv.quests.495BD5C6C0CB69DF.description0}"]
 			hide_dependency_lines: true
 			id: "495BD5C6C0CB69DF"
@@ -1040,7 +1029,7 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["6A457FDF694A81DA"]
+			dependencies: ["3D1E66868544975F"]
 			description: ["{gto.mv.quests.4A1E1FDEF6F9FFED.description0}"]
 			hide_dependency_lines: true
 			id: "4A1E1FDEF6F9FFED"
@@ -1054,7 +1043,7 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["6A457FDF694A81DA"]
+			dependencies: ["3D1E66868544975F"]
 			description: [
 				"{gto.mv.quests.51179D5DAF67715A.description0}"
 				""
@@ -1075,7 +1064,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["6A457FDF694A81DA"]
+			dependencies: ["3D1E66868544975F"]
 			description: ["{gto.mv.quests.42F3629A1149D58D.description0}"]
 			hide_dependency_lines: true
 			id: "42F3629A1149D58D"
@@ -1089,7 +1078,7 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["6A457FDF694A81DA"]
+			dependencies: ["3D1E66868544975F"]
 			description: ["{gto.mv.quests.18ECBDF3C6975985.description0}"]
 			hide_dependency_lines: true
 			id: "18ECBDF3C6975985"
@@ -1147,7 +1136,6 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["6A457FDF694A81DA"]
 			hide_dependency_lines: true
 			id: "1DBBBBC4F368466E"
 			tasks: [{
@@ -1160,7 +1148,7 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["6A457FDF694A81DA"]
+			dependencies: ["3D1E66868544975F"]
 			description: [
 				"{gto.mv.quests.2386117F9423A54E.description0}"
 				""

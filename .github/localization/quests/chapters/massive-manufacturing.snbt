@@ -167,6 +167,11 @@
 			y: -3.0d
 		}
 		{
+			description: [
+				"{gto.massive-manufacturing.quests.68C24A1ED361D607.description0}"
+				""
+				"{gto.massive-manufacturing.quests.68C24A1ED361D607.description1}"
+			]
 			id: "68C24A1ED361D607"
 			tasks: [{
 				id: "7A37E1C952905A4C"

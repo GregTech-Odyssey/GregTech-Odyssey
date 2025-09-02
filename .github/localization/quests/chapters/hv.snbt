@@ -40,10 +40,6 @@
 				"{gto.hv.quests.2F6C81E3B10365E8.description0}"
 				""
 				"{gto.hv.quests.2F6C81E3B10365E8.description1}"
-				""
-				"{gto.hv.quests.2F6C81E3B10365E8.description2}"
-				""
-				"{gto.hv.quests.2F6C81E3B10365E8.description3}"
 			]
 			id: "2F6C81E3B10365E8"
 			shape: "gear"
@@ -54,6 +50,7 @@
 				item: "gtceu:ev_machine_hull"
 				type: "item"
 			}]
+			title: "{gto.hv.quests.2F6C81E3B10365E8.title}"
 			x: 18.0d
 			y: -3.0d
 		}

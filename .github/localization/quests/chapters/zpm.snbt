@@ -97,6 +97,7 @@
 			]
 			id: "1DE0A599F076C31A"
 			shape: "hexagon"
+			subtitle: "{gto.zpm.quests.1DE0A599F076C31A.subtitle}"
 			tasks: [{
 				id: "71419E9374165D99"
 				item: "gtceu:zpm_fusion_reactor"
@@ -197,6 +198,7 @@
 		{
 			dependencies: ["19127B42AB919C11"]
 			id: "28265843939C1503"
+			shape: "hexagon"
 			tasks: [{
 				id: "31FA202B3B09CB69"
 				item: "gtceu:tritanium_coil_block"
@@ -274,6 +276,11 @@
 		}
 		{
 			dependencies: ["0B7A508B2670C9C2"]
+			description: [
+				"{gto.zpm.quests.256F90AFB461107E.description0}"
+				""
+				"{gto.zpm.quests.256F90AFB461107E.description1}"
+			]
 			hide_dependency_lines: false
 			id: "256F90AFB461107E"
 			shape: "gear"
@@ -284,6 +291,7 @@
 				item: "gtceu:uv_machine_hull"
 				type: "item"
 			}]
+			title: "{gto.zpm.quests.256F90AFB461107E.title}"
 			x: -3.0d
 			y: -3.0d
 		}
@@ -461,6 +469,7 @@
 		}
 		{
 			dependencies: ["3490AACD4AA62C5D"]
+			description: ["{gto.zpm.quests.06DF372F16F1A5CA.description0}"]
 			hide_dependency_lines: true
 			id: "06DF372F16F1A5CA"
 			shape: "hexagon"
@@ -531,6 +540,7 @@
 			dependencies: ["44B34806DA0FEA9A"]
 			description: ["{gto.zpm.quests.67050CC889ABB614.description0}"]
 			id: "67050CC889ABB614"
+			subtitle: "{gto.zpm.quests.67050CC889ABB614.subtitle}"
 			tasks: [{
 				id: "33E5DBCF497F513E"
 				item: "gtocore:wetware_soc"
@@ -542,6 +552,7 @@
 		{
 			dependencies: ["502F7DD0C930D5BF"]
 			id: "44B34806DA0FEA9A"
+			subtitle: "{gto.zpm.quests.44B34806DA0FEA9A.subtitle}"
 			tasks: [{
 				id: "4758CF4632B286F7"
 				item: "gtocore:super_cerebrum"
@@ -584,7 +595,7 @@
 				type: "item"
 			}]
 			x: -10.5d
-			y: 4.5d
+			y: 0.75d
 		}
 		{
 			dependencies: ["590D044B9C85B84A"]
@@ -656,12 +667,63 @@
 			dependencies: ["67050CC889ABB614"]
 			description: ["{gto.zpm.quests.6E17BDF52855CA6A.description0}"]
 			id: "6E17BDF52855CA6A"
+			subtitle: "{gto.zpm.quests.6E17BDF52855CA6A.subtitle}"
 			tasks: [{
 				id: "438136BDBD08FBCA"
 				item: "gtocore:supercomputing_center"
 				type: "item"
 			}]
 			x: -4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["19B07E541BE74686"]
+			description: [
+				"{gto.zpm.quests.6DC73D6C2AD17444.description0}"
+				""
+				"{gto.zpm.quests.6DC73D6C2AD17444.description1}"
+				""
+				"{gto.zpm.quests.6DC73D6C2AD17444.description2}"
+			]
+			id: "6DC73D6C2AD17444"
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "{gto.zpm.quests.6DC73D6C2AD17444.subtitle}"
+			tasks: [{
+				id: "0D60F984E24013D9"
+				item: "gtocore:advanced_assembly_line"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6DC73D6C2AD17444"]
+			description: [
+				"{gto.zpm.quests.34E06CBE6931518C.description0}"
+				""
+				"{gto.zpm.quests.34E06CBE6931518C.description1}"
+			]
+			id: "34E06CBE6931518C"
+			subtitle: "{gto.zpm.quests.34E06CBE6931518C.subtitle}"
+			tasks: [{
+				id: "30FF199FF0329827"
+				item: "gtceu:name_casting_mold"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["19B07E541BE74686"]
+			description: ["{gto.zpm.quests.0CBF5FDD07337CE1.description0}"]
+			id: "0CBF5FDD07337CE1"
+			tasks: [{
+				id: "038D5413A06693F0"
+				item: "gtocore:petrochemical_plant"
+				type: "item"
+			}]
+			x: -9.0d
 			y: 4.5d
 		}
 	]
