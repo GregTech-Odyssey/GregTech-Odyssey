@@ -118,16 +118,23 @@
 		}
 		{
 			dependencies: ["2BF339EE989F9A8E"]
-			description: ["这一章节你将体验到一门独特的产线——生物线"]
+			description: [
+				"这一章节你将体验到一门独特的产线——&a生&r&2物&r&a线&r"
+				""
+				"普通的晶体处理器已经接近无机物的极限... 或许菌群可以帮我们做些计算？"
+				""
+				"在GT，所有的科技就像&a魔&r&2法&r一样"
+			]
 			id: "3490AACD4AA62C5D"
 			shape: "gear"
 			size: 2.0d
-			subtitle: "你需要天马行空般的想象力"
+			subtitle: "&c你需要天马行空般的想象力"
 			tasks: [{
 				id: "78CEB67F88F86158"
 				item: "gtceu:zpm_machine_hull"
 				type: "item"
 			}]
+			title: "欢迎来到&c零点压&r阶段"
 			x: 9.0d
 			y: -4.5d
 		}
@@ -146,10 +153,19 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["7C9C5AA8812891CC"]
+			dependencies: [
+				"7C9C5AA8812891CC"
+				"7EA0644BB352BBB5"
+			]
+			description: [
+				"装配线上直接放一个数据仓显然不能满足这么多配方的需要，因此我们提供了&e数据库&r..."
+				""
+				"数据库可以放很多数据仓，只要提供能源，都可以通过算力数据仓给装配线提供数据！"
+			]
 			id: "7AD94105147C5940"
 			shape: "hexagon"
 			size: 1.5d
+			subtitle: "并不是基于SQL"
 			tasks: [{
 				id: "7EA058E5B97398AA"
 				item: "gtceu:data_bank"
@@ -162,10 +178,17 @@
 			dependencies: [
 				"742A167FA252AC44"
 				"7AD94105147C5940"
+				"777A7D91695E8720"
+			]
+			description: [
+				"把待研究物品放入转子支架即可开始研究"
+				""
+				"你需要注意研究所需电压和算力！"
 			]
 			id: "228B283B5477879B"
 			shape: "hexagon"
 			size: 1.5d
+			subtitle: "比学校机房更耐用"
 			tasks: [{
 				id: "2BF4F6E27DA97C52"
 				item: "gtceu:research_station"
@@ -197,7 +220,7 @@
 				item: "gtceu:uranium_rhodium_dinaquadide_ingot"
 				type: "item"
 			}]
-			x: 9.0d
+			x: 10.5d
 			y: 7.0d
 		}
 		{
@@ -206,7 +229,13 @@
 				"4F8C4FDB670405D1"
 				"4A5C6525DD244359"
 			]
-			description: ["需要攒够一定的能量才能开机，如果停止运行会慢慢冷却，需要下一次攒够能量才会运行"]
+			description: [
+				"最节省的方案是：1个&b主机&r，48个&b机械方块&r，31个&b聚变玻璃&r，16个&b输入仓&r，16个&b输出仓&r，16个&b能源仓&r，&a上下堆叠&r可以节省大量机械方块！"
+				""
+				"需要攒够一定的能量才能开机，如果停止运行会慢慢冷却，需要下一次攒够能量才会运行"
+				""
+				"&7温馨小提示：你可以通过标记输出仓的过滤来保证只有一个仓会输出流体！&r"
+			]
 			hide_dependency_lines: false
 			id: "11CF6F5DE4A3CC4F"
 			shape: "gear"
@@ -382,6 +411,7 @@
 				"5A3B1B492A49AB29"
 				"228B283B5477879B"
 			]
+			description: ["晶体系列是你至今最便宜的电路之一"]
 			id: "1156B92F11DA73B6"
 			shape: "gear"
 			size: 2.0d
@@ -420,8 +450,8 @@
 					type: "item"
 				}
 			]
-			x: 5.5d
-			y: 2.5d
+			x: 0.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["61A6D0112B0446AA"]
@@ -844,6 +874,88 @@
 			}]
 			x: 17.0d
 			y: 1.0d
+		}
+		{
+			dependencies: ["57D5AF62A5ADAF60"]
+			description: ["下单变得有些困难，或许你得想想办法"]
+			id: "4EC4E151D57351F6"
+			subtitle: "什么？这里也有序列组装？"
+			tasks: [{
+				id: "55D19A2DF65BE511"
+				item: "gtocore:simple_fiber_optic_rough"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["2F03D93AC7DBE58D"]
+			hide_dependency_lines: true
+			id: "57D5AF62A5ADAF60"
+			shape: "rsquare"
+			tasks: [{
+				id: "78E5BA799D7F4099"
+				item: "gtocore:drawing_tower"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["7EA0644BB352BBB5"]
+			description: [
+				"你需要替换组件为计算组件和冷却组件才能让计算机开始工作"
+				""
+				"需要注意，冷却组件必须足够，否则HPCA过热就会报废！"
+			]
+			id: "777A7D91695E8720"
+			rewards: [{
+				id: "28096F1A6396DEA0"
+				item: "gtceu:pcb_coolant_bucket"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "内置八张RTX 4090"
+			tasks: [{
+				id: "769ED527F4AE5C0D"
+				item: "gtceu:high_performance_computation_array"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["4EC4E151D57351F6"]
+			description: ["用于传输算力和数据"]
+			id: "7EA0644BB352BBB5"
+			subtitle: "正如生活所见"
+			tasks: [{
+				id: "063519DAB63EFE0A"
+				item: { Count: 64, id: "gtceu:normal_optical_pipe" }
+				type: "item"
+			}]
+			x: 5.25d
+			y: 7.0d
+		}
+		{
+			dependencies: ["7AD94105147C5940"]
+			id: "7FBA4F73F200F0D5"
+			tasks: [
+				{
+					id: "150C0D6C1F9BA6F7"
+					item: "gtceu:computation_transmitter_hatch"
+					type: "item"
+				}
+				{
+					id: "4C2312EE8EB61098"
+					item: "gtceu:computation_receiver_hatch"
+					type: "item"
+				}
+			]
+			title: "算力数据仓"
+			x: 5.25d
+			y: 3.0d
 		}
 	]
 	subtitle: ["Tier6-LuV"]

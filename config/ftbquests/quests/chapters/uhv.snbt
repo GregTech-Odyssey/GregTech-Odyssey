@@ -7,8 +7,777 @@
 	icon: "gtocore:stellar_forge"
 	id: "552DDE11AB825B8C"
 	order_index: 10
-	quest_links: [ ]
-	quests: [ ]
+	quest_links: [{
+		id: "3F5A74D278A7D471"
+		linked_quest: "1612D1DEB3A7BE2D"
+		shape: "gear"
+		size: 1.5d
+		x: -0.5d
+		y: -0.5d
+	}]
+	quests: [
+		{
+			dependencies: ["1612D1DEB3A7BE2D"]
+			description: [
+				"击杀&e猪灵蛮兵&r有概率掉落下界合金锭...不过显然你不会满足"
+				""
+				"用远古残骸直接制作的&a动能消耗&r远不是你现在所能承受的，你应当选择&e碎片&r配方"
+			]
+			hide_dependency_lines: true
+			id: "25930ED6EFD93F8B"
+			subtitle: "并没有原版那么简单！"
+			tasks: [{
+				id: "34806EB4B5EA3A40"
+				item: "gtceu:netherite_dust"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["25930ED6EFD93F8B"]
+			description: ["很可惜... 你只能暂时用下界合金块去合成！"]
+			id: "6E9E73D8F464EF08"
+			subtitle: "电压！电压！"
+			tasks: [{
+				id: "6A8C6DC7A6DEF1E0"
+				item: "gtocore:energetic_netherite_dust"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"1612D1DEB3A7BE2D"
+				"6E9E73D8F464EF08"
+				"2F3D8DD85C6D4F74"
+			]
+			description: ["啊哈，升压也不是什么麻烦事！"]
+			id: "208F73ECE425E473"
+			shape: "hexagon"
+			tasks: [{
+				id: "3DA96A4A8972948A"
+				item: "gtceu:uhv_energy_input_hatch"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3E458EF4819E239C"]
+			id: "2F3D8DD85C6D4F74"
+			tasks: [{
+				id: "04C88FEF0364A241"
+				item: "gtocore:orichalcum_ingot"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7A1E4DBA675E67FB"]
+			description: ["考虑放弃等离子用去发电，来直接冷却换取更高产率？"]
+			id: "6142418FDC31674A"
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "真的很冷！"
+			tasks: [{
+				id: "314169581EDB6D9B"
+				item: "gtocore:plasma_condenser"
+				type: "item"
+			}]
+			x: -2.25d
+			y: 3.75d
+		}
+		{
+			dependencies: ["6142418FDC31674A"]
+			description: ["冷却成热锭的效率略微高些"]
+			id: "0B30C9C692F548AA"
+			tasks: [{
+				id: "229F5FD7AAE48C84"
+				item: { Count: 64, id: "gtocore:ingot_field_shape" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.75d
+		}
+		{
+			dependencies: ["208F73ECE425E473"]
+			id: "4C998EF199E7C5D0"
+			shape: "hexagon"
+			subtitle: "蓝莓甜甜圈"
+			tasks: [{
+				id: "07871F425DC0612C"
+				item: "gtocore:uhv_fusion_reactor"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4C998EF199E7C5D0"]
+			id: "3FC0E3B6916ADE1B"
+			tasks: [{
+				id: "5A1C0DC058F2BADE"
+				item: "gtocore:lemurite_bucket"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3FC0E3B6916ADE1B"]
+			description: ["UEV阶段的主要材料"]
+			id: "4DC386826E075D1E"
+			subtitle: "无法想象的物质"
+			tasks: [{
+				id: "263D6533BE0D4E20"
+				item: "gtocore:quantanium_ingot"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4DC386826E075D1E"]
+			id: "154F80E28FA53D99"
+			shape: "gear"
+			size: 1.5d
+			subtitle: "&2你需要天马行空般的想象力"
+			tasks: [{
+				id: "25E99A8B61DF8E6B"
+				item: "gtceu:uev_machine_hull"
+				type: "item"
+			}]
+			title: "欢迎来到&2极超压&r阶段"
+			x: 9.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6701A941910A618C"]
+			id: "549A7D66F1D4875F"
+			subtitle: "熟悉的五人组"
+			tasks: [
+				{
+					id: "33443E590AE93B56"
+					item: "gtocore:smd_capacitor_optical"
+					type: "item"
+				}
+				{
+					id: "7422F3B6A1ED38AC"
+					item: "gtocore:smd_diode_optical"
+					type: "item"
+				}
+				{
+					id: "7AF4180B45A372AF"
+					item: "gtocore:smd_resistor_optical"
+					type: "item"
+				}
+				{
+					id: "49A9E250E33D1B3F"
+					item: "gtocore:smd_inductor_optical"
+					type: "item"
+				}
+				{
+					id: "3D092EC4939AD620"
+					item: "gtocore:smd_transistor_optical"
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4C998EF199E7C5D0"]
+			description: ["为什么它们不会衰变？！别问，问就是史蒂夫的魔法"]
+			id: "6701A941910A618C"
+			tasks: [
+				{
+					id: "6A23D034E8C4A2DD"
+					item: "gtceu:dubnium_ingot"
+					type: "item"
+				}
+				{
+					id: "2CBAF7E3BDC6421B"
+					item: "gtceu:seaborgium_ingot"
+					type: "item"
+				}
+			]
+			title: "超重元素"
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4865E389CBBEA237"]
+			id: "5F1C4921713ABF99"
+			subtitle: "样板大户"
+			tasks: [
+				{
+					id: "4BA4EC24E9297C73"
+					item: { Count: 64, id: "gtocore:low_frequency_laser" }
+					type: "item"
+				}
+				{
+					id: "0DF288BA08A41528"
+					item: "gtocore:medium_frequency_laser"
+					type: "item"
+				}
+				{
+					id: "66E9E78C2F2D167B"
+					item: "gtocore:high_frequency_laser"
+					type: "item"
+				}
+			]
+			title: "激光"
+			x: 5.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1612D1DEB3A7BE2D"]
+			description: [""]
+			hide_dependency_lines: true
+			id: "4865E389CBBEA237"
+			tasks: [{
+				id: "5046796EBEA6F45C"
+				item: "gtocore:periodically_poled_lithium_niobate_boule"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"63601D4E4557F238"
+				"549A7D66F1D4875F"
+				"5F1C4921713ABF99"
+				"66010748380E4CF2"
+				"1A30C325E7FD9719"
+				"4D6D18B8D7B1FC4D"
+				"685542A50E6D408C"
+			]
+			description: ["为什么原料这么多？！"]
+			id: "5332141C5489CF10"
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "激光之力，小子"
+			tasks: [{
+				id: "1A6062242FE385AE"
+				item: "gtocore:optical_processing_core"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5343159AF8A5CBB5"]
+			description: [
+				"如果想用终端搭建，你需要先在主机里&a放一个蜂群&r来指定等级，随后才可以开始搭建"
+				""
+				"机器每次&e拿出或放入&r蜂群都会重新触发结构检测"
+			]
+			id: "76A5DA2CCB71E96F"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "蜂群，但不是养蜂"
+			tasks: [{
+				id: "7990B5F3AFF8D9B9"
+				item: "gtocore:nano_forge"
+				type: "item"
+			}]
+			x: 9.75d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1612D1DEB3A7BE2D"]
+			description: ["前面几个必须用装配线，后面就可以换成纳米锻炉 了"]
+			hide_dependency_lines: true
+			id: "5343159AF8A5CBB5"
+			tasks: [{
+				id: "51F088C7BE0B7236"
+				item: "gtocore:carbon_nanites"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1612D1DEB3A7BE2D"]
+			description: ["享受你的产线吧x2"]
+			hide_dependency_lines: true
+			id: "4873D7E77C2B7EB8"
+			subtitle: "你又是哪位？"
+			tasks: [{
+				id: "20410913D72136FB"
+				item: "gtocore:cycloparaphenylene_bucket"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["7A1E4DBA675E67FB"]
+			description: [
+				"无损超频，但是不能用激光仓，精密配方不支持并行"
+				""
+				"或许你可以考虑做三台，和你的&e焊接&r和&e蚀刻&r说再见吧！"
+			]
+			id: "73B254D0B6873D89"
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "巨构，但不完全巨构"
+			tasks: [{
+				id: "25BA38E541FDF44A"
+				item: "gtocore:engraving_laser_plant"
+				type: "item"
+			}]
+			x: 6.75d
+			y: 10.5d
+		}
+		{
+			dependencies: ["1612D1DEB3A7BE2D"]
+			hide_dependency_lines: true
+			id: "19CB621C2BC26F4E"
+			tasks: [{
+				id: "05F63414ED66E520"
+				item: "gtocore:rutherfordium_amprosium_wafer"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"19CB621C2BC26F4E"
+				"73B254D0B6873D89"
+			]
+			description: ["好多透镜！"]
+			id: "6F7011B88B406976"
+			tasks: [{
+				id: "05ACD100993A63D2"
+				item: { Count: 64, id: "gtocore:raw_photon_carrying_wafer" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["76A5DA2CCB71E96F"]
+			id: "4C6A472799DA67C0"
+			tasks: [{
+				id: "2ED81FA3713ED432"
+				item: "gtocore:glowstone_nanites"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"4873D7E77C2B7EB8"
+				"4C6A472799DA67C0"
+				"6F7011B88B406976"
+			]
+			id: "5CE8616F8B6F425A"
+			tasks: [{
+				id: "13AD99A385FC6BB0"
+				item: "gtocore:optical_wafer"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"5CE8616F8B6F425A"
+				"5CC47F664FB8381E"
+			]
+			id: "66010748380E4CF2"
+			subtitle: "用于贴在核心表层"
+			tasks: [{
+				id: "2DBE6EE97DAEDCDD"
+				item: "gtocore:simple_optical_soc"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["175D243F4DF14D9B"]
+			description: ["非常难的自动化"]
+			id: "5CC47F664FB8381E"
+			subtitle: "透镜神力"
+			tasks: [{
+				id: "386257C058B8DC96"
+				item: "gtocore:electric_equilibrium_water_bucket"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["1612D1DEB3A7BE2D"]
+			hide_dependency_lines: true
+			id: "175D243F4DF14D9B"
+			shape: "hexagon"
+			tasks: [{
+				id: "144D684CBB2831D0"
+				item: "gtocore:high_energy_laser_purification_unit"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["76A5DA2CCB71E96F"]
+			description: ["显然纳米蜂群已经习得了爱因斯坦的智慧"]
+			id: "63601D4E4557F238"
+			subtitle: "凝聚态？"
+			tasks: [{
+				id: "3B58186390E50579"
+				item: "gtocore:iridium_nanites"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["72F2F23C668C4AD7"]
+			description: [
+				"和锻炉类似，你也需要先在主机里放一个&e金&r蜂群来指定等级"
+				""
+				"可以更高效地制作PCB板子，你可以改进之前的产线了"
+			]
+			id: "4A5C2B5AA1CCEB07"
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "4D72046D50C2B01D"
+				item: "gtocore:pcb_factory"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.25d
+		}
+		{
+			dependencies: ["76A5DA2CCB71E96F"]
+			id: "72F2F23C668C4AD7"
+			tasks: [{
+				id: "0F8CE15F8AF6CE89"
+				item: "gtocore:gold_nanites"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"4A5C2B5AA1CCEB07"
+				"4412B0653B000D83"
+			]
+			id: "1A30C325E7FD9719"
+			subtitle: "闪闪发光"
+			tasks: [{
+				id: "5A7EB4F29266A1B3"
+				item: "gtocore:optical_printed_circuit_board"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1612D1DEB3A7BE2D"]
+			description: ["享受你的产线吧"]
+			hide_dependency_lines: true
+			id: "4412B0653B000D83"
+			subtitle: "你是哪位？"
+			tasks: [{
+				id: "2D9CC1A38793D516"
+				item: "gtocore:kevlar_bucket"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"1A30C325E7FD9719"
+				"305A4531739B5941"
+			]
+			description: ["太空组装太慢？试试更换&b动力模块&r，它可以增加配方处理并行！"]
+			id: "4D6D18B8D7B1FC4D"
+			subtitle: "寄存器的存储已经不能满足我们的CPU！"
+			tasks: [{
+				id: "2E9DFFBDB1F35E57"
+				item: {
+					Count: 1
+					id: "gtocore:optical_data_stick"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1612D1DEB3A7BE2D"]
+			hide_dependency_lines: true
+			id: "305A4531739B5941"
+			tasks: [{
+				id: "6D95A711915717C9"
+				item: "gtocore:thulium_hexaboride_ceramics_flake"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6850047C2C843F02"]
+			description: ["享受你的产线吧x10086"]
+			id: "685542A50E6D408C"
+			subtitle: "谁也不知道这些原子为什么会变成足球"
+			tasks: [{
+				id: "5730A05F3877CB7B"
+				item: "gtocore:fullerene_dust"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1612D1DEB3A7BE2D"]
+			description: ["太空电梯即可获取"]
+			hide_dependency_lines: true
+			id: "6850047C2C843F02"
+			tasks: [{
+				id: "0CB3C0C142B7022F"
+				item: "gtceu:bromine_bucket"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5332141C5489CF10"]
+			id: "01A84E98AC4A6A66"
+			shape: "hexagon"
+			tasks: [{
+				id: "7396CB47F0B9303F"
+				item: "gtocore:optical_processor"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["01A84E98AC4A6A66"]
+			id: "349799BD826C2F65"
+			shape: "hexagon"
+			tasks: [{
+				id: "2252515BB767ABBA"
+				item: "gtocore:optical_assembly"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["349799BD826C2F65"]
+			id: "0DA9DF55094DF780"
+			shape: "hexagon"
+			tasks: [{
+				id: "47FD8FD987E39851"
+				item: "gtocore:optical_computer"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0DA9DF55094DF780"]
+			description: [
+				"做出这个意味着你解锁了绝大多数巨构，你即将迎来一次生产力的最终飞跃！"
+				""
+				"好好享受&a增幅仓&r带来的超巨大产能吧！！！"
+			]
+			id: "7ED709D3291D6B88"
+			ignore_reward_blocking: true
+			shape: "gear"
+			size: 1.5d
+			subtitle: "史诗级跃进"
+			tasks: [{
+				id: "534A15E31FE87439"
+				item: "gtocore:optical_mainframe"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"76A5DA2CCB71E96F"
+				"66473B14503626FD"
+			]
+			description: [
+				"每个纳米加工中心可以放置两个模块"
+				""
+				"虽然蜂群很劳累，不过在主机放入高级的蜂群能更好地压榨它们的潜能！"
+				""
+				"现在你可以放入&b铱纳米蜂群&r来减少蜂群污染的概率"
+			]
+			id: "063FEB76DD30E9B3"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "6B84E773E9E0F035"
+				item: "gtocore:nanites_integrated_processing_center"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["1612D1DEB3A7BE2D"]
+			description: [
+				"蜂群们为你那么勤劳地工作，也许你可能需要给他们一点点&5回报&r... "
+				""
+				"那就给他们洗个澡吧！&b过氧化氢&r的强氧化性和&6硫酸&r的酸性环境能重新激发它们的活力！"
+			]
+			hide_dependency_lines: true
+			id: "66473B14503626FD"
+			subtitle: "洗个澡澡！"
+			tasks: [{
+				id: "4347FE4A735277A9"
+				item: "gtocore:piranha_solution_bucket"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["063FEB76DD30E9B3"]
+			description: [
+				"一步到位完成矿石处理产线！"
+				""
+				"厌倦了被动产线大量堆砌的机器？这个会满足你的"
+			]
+			id: "4E6A1CDE657544CD"
+			subtitle: "产线杀手"
+			tasks: [{
+				id: "096917D3C7389D41"
+				item: "gtocore:ore_extraction_module"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["063FEB76DD30E9B3"]
+			description: [
+				"一步到位完成化工产线！"
+				""
+				"你最好随时注意解锁的新配方，来&e替换&r你之前的下单产线，别忘了处理蜂群的洗涤和回收"
+			]
+			id: "55F31E094ADB9B87"
+			size: 1.25d
+			subtitle: "超级产线杀手"
+			tasks: [{
+				id: "2C68386728362A5F"
+				item: "gtocore:polymer_twisting_module"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["063FEB76DD30E9B3"]
+			description: ["更方便地制作生物原料"]
+			id: "4F8D70DE8112CEF2"
+			subtitle: "蜂群也是生物，很合理"
+			tasks: [{
+				id: "757301B3747261BA"
+				item: "gtocore:bioengineering_module"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["7A1E4DBA675E67FB"]
+			id: "7E480187CA3FE8B2"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "5698D430FC7EBA63"
+				item: "gtocore:matter_fabricator"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"6BA9D736E067AC17"
+				"32EEA46E9A6D7FDC"
+			]
+			id: "57729FBB969E8CC6"
+			tasks: [{
+				id: "04B7D3DBD2F9E8B0"
+				item: "gtocore:titansteel_ingot"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["57729FBB969E8CC6"]
+			id: "1F5585DCC6CE74ED"
+			shape: "hexagon"
+			tasks: [{
+				id: "5D1641CF63E18C30"
+				item: "gtocore:titansteel_coil_block"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7E480187CA3FE8B2"]
+			id: "6BA9D736E067AC17"
+			tasks: [{
+				id: "2E1EA7BDECACBFED"
+				item: "gtocore:uu_amplifier_bucket"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1612D1DEB3A7BE2D"]
+			hide_dependency_lines: true
+			id: "32EEA46E9A6D7FDC"
+			tasks: [{
+				id: "7F79EAF6EA9CB172"
+				item: "gtocore:space_drone_mk2"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2F3D8DD85C6D4F74"]
+			id: "233B4475D7C3934F"
+			shape: "diamond"
+			size: 1.25d
+			tasks: [{
+				id: "7EA205ADCE59A306"
+				item: "gtocore:chemical_complex"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.0d
+		}
+	]
 	subtitle: ["Tier9-UHV"]
 	title: "11. 极高压(UHV)"
 }

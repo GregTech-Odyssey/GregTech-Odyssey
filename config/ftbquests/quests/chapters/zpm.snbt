@@ -97,6 +97,7 @@
 			]
 			id: "1DE0A599F076C31A"
 			shape: "hexagon"
+			subtitle: "金粉甜甜圈"
 			tasks: [{
 				id: "71419E9374165D99"
 				item: "gtceu:zpm_fusion_reactor"
@@ -197,6 +198,7 @@
 		{
 			dependencies: ["19127B42AB919C11"]
 			id: "28265843939C1503"
+			shape: "hexagon"
 			tasks: [{
 				id: "31FA202B3B09CB69"
 				item: "gtceu:tritanium_coil_block"
@@ -274,16 +276,22 @@
 		}
 		{
 			dependencies: ["0B7A508B2670C9C2"]
+			description: [
+				"emm... 是的，生物还有一半的路要走"
+				""
+				" 不过恭喜你 ，你终于将在UV阶段解锁全套的增益仓！"
+			]
 			hide_dependency_lines: false
 			id: "256F90AFB461107E"
 			shape: "gear"
 			size: 2.0d
-			subtitle: "你需要天马行空般的想象力"
+			subtitle: "&3你需要天马行空般的想象力"
 			tasks: [{
 				id: "1A1392919E4E4D70"
 				item: "gtceu:uv_machine_hull"
 				type: "item"
 			}]
+			title: "欢迎来到&3极限压&r阶段"
 			x: -3.0d
 			y: -3.0d
 		}
@@ -461,6 +469,7 @@
 		}
 		{
 			dependencies: ["3490AACD4AA62C5D"]
+			description: ["尽管你可能没有做过小型的，但我依然建议你直接做大型的"]
 			hide_dependency_lines: true
 			id: "06DF372F16F1A5CA"
 			shape: "hexagon"
@@ -525,6 +534,7 @@
 			dependencies: ["44B34806DA0FEA9A"]
 			description: ["更便宜的配方，不过现在还做不起"]
 			id: "67050CC889ABB614"
+			subtitle: "布满了脑细胞"
 			tasks: [{
 				id: "33E5DBCF497F513E"
 				item: "gtocore:wetware_soc"
@@ -536,6 +546,7 @@
 		{
 			dependencies: ["502F7DD0C930D5BF"]
 			id: "44B34806DA0FEA9A"
+			subtitle: "这不是疯狂戴夫的脑子！"
 			tasks: [{
 				id: "4758CF4632B286F7"
 				item: "gtocore:super_cerebrum"
@@ -557,7 +568,7 @@
 		}
 		{
 			dependencies: ["3490AACD4AA62C5D"]
-			description: ["升压依然容易"]
+			description: ["很好，我想你懂要做什么"]
 			id: "0A7AD87999A0DDF5"
 			shape: "hexagon"
 			tasks: [{
@@ -578,7 +589,7 @@
 				type: "item"
 			}]
 			x: -10.5d
-			y: 4.5d
+			y: 0.75d
 		}
 		{
 			dependencies: ["590D044B9C85B84A"]
@@ -650,12 +661,63 @@
 			dependencies: ["67050CC889ABB614"]
 			description: ["用液氦冷却"]
 			id: "6E17BDF52855CA6A"
+			subtitle: "天河一号"
 			tasks: [{
 				id: "438136BDBD08FBCA"
 				item: "gtocore:supercomputing_center"
 				type: "item"
 			}]
 			x: -4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["19B07E541BE74686"]
+			description: [
+				"显然你已经受够了普通装配线的速度，是时候迭代更新了！"
+				""
+				"进阶装配线是装配线的并行版本，可以用&b巨型输入总线&r，而且可以上&e激光仓&r。"
+				""
+				"需要注意，盲目超频不可取，因为进阶装配线是&c超损超频&r的！换言之，4倍的功率只能让配方耗时变为0.75倍，但是并行可以正常结算。"
+			]
+			id: "6DC73D6C2AD17444"
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "真的进阶... 吗？"
+			tasks: [{
+				id: "0D60F984E24013D9"
+				item: "gtocore:advanced_assembly_line"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6DC73D6C2AD17444"]
+			description: [
+				"你注意到类似于&nLuV力场发生器&r之类的配方了吗？它们有两组一样的物品，会给有序的装配线带来困难"
+				""
+				"不过别担心！你可以尝试一下&7命名模具&r。把它放在冲压机中即可实现物品的重命名，或许对你有所帮助"
+			]
+			id: "34E06CBE6931518C"
+			subtitle: "额外的自动化步骤"
+			tasks: [{
+				id: "30FF199FF0329827"
+				item: "gtceu:name_casting_mold"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["19B07E541BE74686"]
+			description: ["虽说一步处理，不过考虑到后续流程，你可能还得生产一些石脑油"]
+			id: "0CBF5FDD07337CE1"
+			tasks: [{
+				id: "038D5413A06693F0"
+				item: "gtocore:petrochemical_plant"
+				type: "item"
+			}]
+			x: -9.0d
 			y: 4.5d
 		}
 	]

@@ -7,7 +7,14 @@
 	icon: "gtceu:electric_blast_furnace"
 	id: "4015C56C0D562D25"
 	order_index: 2
-	quest_links: [ ]
+	quest_links: [{
+		id: "455E3F6F33BD24B6"
+		linked_quest: "507807175748245C"
+		shape: "gear"
+		size: 1.5d
+		x: 0.5d
+		y: -6.5d
+	}]
 	quests: [
 		{
 			dependencies: ["507807175748245C"]
@@ -332,7 +339,7 @@
 			]
 			id: "68EFF1609132BDD4"
 			shape: "gear"
-			size: 2.0d
+			size: 1.0d
 			subtitle: "新家伙"
 			tasks: [{
 				id: "4FC6935FB0B9F601"
@@ -671,8 +678,7 @@
 				"而同样的，安装输入/输出总线就能够使多方块机器输入/输出物品。"
 				"在你能够制作输入/输出总成之前都必须保持这个组合！"
 				""
-				"请注意：如果没有配方对应的输出仓室，机器是不会执行配方的，它会显示“输出空间不足”以提示你解决该问题"
-				"· 例如：如果你的电力高炉没有放置输出总线，那它就不会为你炼制铝锭！"
+				"请注意：如果没有配方对应的输出仓室，机器是不会执行配方的，它会显示“输出空间不足”以提示你解决该问题· 例如：如果你的电力高炉没有放置输出总线，那它就不会为你炼制铝锭！"
 				""
 				"提示：所有的舱室都自带自动输入/输出，你也可以用软锤关闭舱室以禁用这个功能"
 			]
@@ -922,7 +928,7 @@
 				"6BB3386725B228D5"
 				"12F3FAEB69397980"
 			]
-			description: [""]
+			description: ["有些昂贵...值得吗？"]
 			hide_dependency_lines: true
 			id: "7FD151D808A41D6C"
 			shape: "hexagon"
@@ -1191,6 +1197,7 @@
 		}
 		{
 			dependencies: ["507807175748245C"]
+			hide_dependency_lines: true
 			id: "7F4F5999F7A65E0F"
 			tasks: [{
 				id: "428AB01EAAFD1B6F"
@@ -1202,7 +1209,7 @@
 		}
 		{
 			dependencies: ["5FBCB0C7F914D814"]
-			description: ["通过调整电路，辊轧机可以让你的锭变成单层板或者双层板"]
+			description: ["通过调整电路，辊轧机可以高效率地让你的锭变成单层板或者双层板"]
 			id: "41579A15F57773B0"
 			shape: "hexagon"
 			subtitle: "最需要尽早做出的机器"
@@ -1761,6 +1768,27 @@
 			title: "升级模块"
 			x: 1.5d
 			y: 1.5d
+		}
+		{
+			dependencies: ["68EFF1609132BDD4"]
+			description: [
+				"欢迎来到&b中压&r阶段！"
+				""
+				"也许你在之前的阶段都是手动搬运材料进行“手工作坊式”合成"
+				""
+				"进入中压时代，你将必须开始搭建几条必要的&e产线&r，否则你不久后会为了反复制备某一大批量需要的材料而&n非常头疼&r"
+			]
+			id: "3D1E66868544975F"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "&b你需要天马行空般的想象力"
+			tasks: [{
+				id: "314B51C49770F63A"
+				item: "gtceu:mv_machine_hull"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.5d
 		}
 	]
 	subtitle: ["Tier1-LV"]

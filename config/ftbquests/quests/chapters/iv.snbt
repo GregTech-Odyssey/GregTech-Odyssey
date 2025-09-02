@@ -44,6 +44,7 @@
 		}
 		{
 			dependencies: ["09C2AF1A68A06D69"]
+			description: ["为什么它的高炉造价这么夸张？！或许我们要考虑高温反应..."]
 			id: "5CB9B68188A45C6B"
 			tasks: [{
 				id: "0F08286FDB0CAB60"
@@ -266,6 +267,7 @@
 		}
 		{
 			dependencies: ["13FEF91314898EB1"]
+			description: ["装配线是&e有序&r的，也就是你必须按照配方顺序给每个格子填充原料"]
 			id: "251002F2103BDA84"
 			shape: "gear"
 			size: 2.0d
@@ -464,8 +466,6 @@
 				"4EB6838703CB5F0E"
 			]
 			description: [
-				"欢迎来到LuV阶段！"
-				""
 				"IV阶段解锁的大部分&6大批量加工机器&r都可以安装&e8个能源仓&r，这意味着你可以通过&e升压&r来直接加工本阶段的材料，而无需制造这个阶段的单方块机器——除了&6组装机&r，因为你需要一台&6LuV级别的组装机&r来制造&6至少一个整体框架(LuV)&r安装到你的&6大型组装厂&r"
 				""
 				"还需要注意的是，你的&6部件组装机&r在这个阶段已经几乎不能胜任了，你现在只能使用&6装配线&r配方"
@@ -473,12 +473,13 @@
 			id: "2F03D93AC7DBE58D"
 			shape: "gear"
 			size: 2.0d
-			subtitle: "你需要天马行空般的想象力"
+			subtitle: "&d你需要天马行空般的想象力"
 			tasks: [{
 				id: "4747091C4120115C"
 				item: "gtceu:luv_machine_hull"
 				type: "item"
 			}]
+			title: "欢迎来到&d剧差压&r阶段"
 			x: 10.0d
 			y: -12.0d
 		}
@@ -495,7 +496,10 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["251002F2103BDA84"]
+			dependencies: [
+				"251002F2103BDA84"
+				"2C9C7F2B5A15B845"
+			]
 			description: ["比一般的反应釜有线圈加成，还可以安装催化剂仓"]
 			id: "1B8F815BF14E7AE8"
 			shape: "hexagon"
@@ -505,7 +509,7 @@
 				item: "gtocore:chemical_plant"
 				type: "item"
 			}]
-			x: 22.0d
+			x: 22.5d
 			y: -6.5d
 		}
 		{
@@ -642,6 +646,7 @@
 				"0F6181E3AF0A0791"
 				"159FD72C1F0AD3A0"
 			]
+			description: ["你有两条路线来制作稀土，选择你想要的一条"]
 			id: "7E7B941FF52CC0F2"
 			shape: "hexagon"
 			size: 1.5d
@@ -970,7 +975,7 @@
 				type: "item"
 			}]
 			x: 22.0d
-			y: -4.5d
+			y: -8.5d
 		}
 		{
 			dependencies: ["1B8F815BF14E7AE8"]
@@ -988,8 +993,8 @@
 					type: "item"
 				}
 			]
-			x: 22.0d
-			y: -8.5d
+			x: 24.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["2BD46F9D8A842B4A"]
@@ -1017,6 +1022,27 @@
 			}]
 			x: 3.0d
 			y: -9.0d
+		}
+		{
+			dependencies: [
+				"2964D4005BFFFADF"
+				"251002F2103BDA84"
+			]
+			description: [
+				"装配线在合成物品时，必须要先经过&e研究&r"
+				""
+				"你需要先在扫描仪中用闪存研究好后，放入&b数据仓&r中，才能让装配线解锁配方"
+				""
+				"在此之后，你还会遇到更加强大的研究仪器"
+			]
+			id: "2C9C7F2B5A15B845"
+			tasks: [{
+				id: "119A64F2F907B638"
+				item: "gtceu:data_access_hatch"
+				type: "item"
+			}]
+			x: 22.0d
+			y: -4.5d
 		}
 	]
 	subtitle: ["Tier5-IV"]

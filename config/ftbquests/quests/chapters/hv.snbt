@@ -37,23 +37,20 @@
 		{
 			dependencies: ["4BA890971C18F938"]
 			description: [
-				"欢迎来到&5EV&r阶段！"
-				""
 				"你的最终目标是&9IV&r&6机器外壳&r......？"
 				""
-				"不，这是一个&d航天时代&r！"
-				""
-				"最终目标是&6四阶火箭&r"
+				"不，这是一个&d航天时代&r！最终目标是&6四阶火箭&r"
 			]
 			id: "2F6C81E3B10365E8"
 			shape: "gear"
 			size: 2.0d
-			subtitle: "你需要天马行空般的想象力"
+			subtitle: "&5你需要天马行空般的想象力"
 			tasks: [{
 				id: "75A167CCC36C856C"
 				item: "gtceu:ev_machine_hull"
 				type: "item"
 			}]
+			title: "欢迎来到&5超高压&r阶段"
 			x: 18.0d
 			y: -3.0d
 		}
