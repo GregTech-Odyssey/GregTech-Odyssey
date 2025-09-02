@@ -4,18 +4,29 @@ on:
     branches:
       - main
     paths:
-      - 'config/ftbquests'
+      - 'config/ftbquests/**'
   workflow_dispatch:
-  
+
 jobs:
   generate:
     runs-on: ubuntu-latest
+    env:
+      GH_REPO: ${{ github.repository }}
+      GH_TOKEN: ${{ github.token }}
     permissions:
       contents: write
+      pull-requests: write
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Set branch_name variable
+        run: echo "branch_name=quest-l10n-${GITHUB_SHA::7}" >> $GITHUB_ENV
+
+      - name: Create branch & Checkout
+        run: |
+          git checkout -b "${branch_name}"
+          git push -u origin "${branch_name}"
       - name: Set up Python
         uses: actions/setup-python@v2
         with:
@@ -40,13 +51,9 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: Update Quest Localization & Refresh
-          
+
+      - name: Push branch
+        run: git push origin "${branch_name}"
+
       - name: Open Pull Request
-        run:  branch_name = "refresh-quest-$(git log -1 HEAD^ --pretty=format:%h)"
-              if [[ -n "$(git ls-remote origin $branch_name)" ]]; then
-                echo "branch ${branch_name} already exists"
-              else
-                git branch ${branch_name}
-                git checkout ${branch_name}
-                gh pr create --base main --head $branch_name --title "Update Quest Localization"
-              fi
+        run: gh pr create --base main --head "${branch_name}" --title "Update Quest Localization" --body "Automated localization update"
