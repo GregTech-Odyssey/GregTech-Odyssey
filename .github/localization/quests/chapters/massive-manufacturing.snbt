@@ -17,8 +17,8 @@
 				item: "gtceu:large_mixer"
 				type: "item"
 			}]
-			x: -4.0d
-			y: -4.0d
+			x: -3.0d
+			y: -9.0d
 		}
 		{
 			dependencies: ["1CF7845875EEFA3B"]
@@ -28,8 +28,8 @@
 				item: "gtceu:large_arc_smelter"
 				type: "item"
 			}]
-			x: -6.0d
-			y: -1.0d
+			x: -4.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["1CF7845875EEFA3B"]
@@ -39,8 +39,8 @@
 				item: "gtceu:large_circuit_assembler"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 2.0d
+			x: -4.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["1CF7845875EEFA3B"]
@@ -51,7 +51,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: -1.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["1CF7845875EEFA3B"]
@@ -61,8 +61,8 @@
 				item: "gtceu:large_extruder"
 				type: "item"
 			}]
-			x: -2.0d
-			y: -3.0d
+			x: -3.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["1CF7845875EEFA3B"]
@@ -73,7 +73,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: 0.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["1CF7845875EEFA3B"]
@@ -84,8 +84,8 @@
 				item: "gtceu:large_distillery"
 				type: "item"
 			}]
-			x: -7.0d
-			y: 0.0d
+			x: -5.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["1CF7845875EEFA3B"]
@@ -95,8 +95,8 @@
 				item: "gtceu:large_material_press"
 				type: "item"
 			}]
-			x: -6.0d
-			y: -3.0d
+			x: -5.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["1CF7845875EEFA3B"]
@@ -106,8 +106,8 @@
 				item: "gtceu:large_autoclave"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 0.0d
+			x: -3.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["1CF7845875EEFA3B"]
@@ -117,7 +117,7 @@
 				item: "gtceu:large_engraving_laser"
 				type: "item"
 			}]
-			x: -7.0d
+			x: -4.0d
 			y: -4.0d
 		}
 		{
@@ -128,8 +128,8 @@
 				item: "gtceu:large_assembler"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 2.0d
+			x: -2.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["1CF7845875EEFA3B"]
@@ -139,8 +139,8 @@
 				item: "gtceu:large_packer"
 				type: "item"
 			}]
-			x: -4.0d
-			y: -2.0d
+			x: -2.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["1CF7845875EEFA3B"]
@@ -150,10 +150,11 @@
 				item: "gtceu:large_electrolyzer"
 				type: "item"
 			}]
-			x: -1.0d
-			y: -4.0d
+			x: -3.0d
+			y: -7.0d
 		}
 		{
+			dependencies: ["1CF7845875EEFA3B"]
 			id: "47F6752A55D14B96"
 			shape: "diamond"
 			size: 2.0d
@@ -162,8 +163,8 @@
 				item: "gtocore:large_pyrolyse_oven"
 				type: "item"
 			}]
-			x: -13.0d
-			y: -2.0d
+			x: -1.0d
+			y: -3.0d
 		}
 		{
 			id: "68C24A1ED361D607"
@@ -174,6 +175,160 @@
 			}]
 			x: -10.0d
 			y: -2.0d
+		}
+		{
+			dependencies: ["1CF7845875EEFA3B"]
+			id: "7B4B1A90BFC36521"
+			tasks: [{
+				id: "3C7A714F7538C5EB"
+				item: "gtocore:large_cracker"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1CF7845875EEFA3B"]
+			id: "2510E26AFA17D9D2"
+			tasks: [{
+				id: "4A06444C10923F13"
+				item: "gtocore:large_rolling"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1CF7845875EEFA3B"]
+			id: "557CFB96C2718583"
+			tasks: [{
+				id: "6E0B7C671FF2ADA0"
+				item: "gtocore:large_bender"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1CF7845875EEFA3B"]
+			id: "084ED0FBA0FB08A6"
+			tasks: [{
+				id: "334B8999E921C3E3"
+				item: "gtocore:large_arc_generator"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["1CF7845875EEFA3B"]
+			id: "434CCC3EA5C499FE"
+			tasks: [{
+				id: "50AD2972B3CAD6A9"
+				item: "gtceu:large_electromagnet"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["1CF7845875EEFA3B"]
+			id: "6812580C8FEAC5DE"
+			tasks: [{
+				id: "0BD9D947150F8373"
+				item: "gtceu:large_cutter"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1CF7845875EEFA3B"]
+			id: "30AE29CB311B4CC3"
+			tasks: [{
+				id: "3FF56528645C92A8"
+				item: "gtocore:large_forming"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1CF7845875EEFA3B"]
+			id: "3A78A866BBC1110E"
+			tasks: [{
+				id: "5F402A0A489F169C"
+				item: "gtceu:large_solidifier"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1CF7845875EEFA3B"]
+			id: "7A899EEE6BCDBF14"
+			tasks: [{
+				id: "4E7D702EE07F7D7D"
+				item: "gtceu:large_chemical_bath"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1CF7845875EEFA3B"]
+			id: "5EAFCA61AC0AD758"
+			tasks: [{
+				id: "7638065B5AC11231"
+				item: "gtceu:large_centrifuge"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1CF7845875EEFA3B"]
+			id: "0154020B9702F8B6"
+			tasks: [{
+				id: "33D7F3D121CD7858"
+				item: "gtceu:large_maceration_tower"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1CF7845875EEFA3B"]
+			id: "421BC6C9C08319D8"
+			tasks: [{
+				id: "089032DDB9C6ED4D"
+				item: "gtocore:large_laser_welder"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1CF7845875EEFA3B"]
+			id: "060A1BA22304D786"
+			tasks: [{
+				id: "50F2C279C434E4C1"
+				item: "gtocore:large_laminator"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1CF7845875EEFA3B"]
+			id: "1F8CD51855DE9512"
+			tasks: [{
+				id: "4711395AE11F9FCE"
+				item: "gtocore:large_greenhouse"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -3.0d
 		}
 	]
 	subtitle: ["{gto.massive-manufacturing.subtitle0}"]

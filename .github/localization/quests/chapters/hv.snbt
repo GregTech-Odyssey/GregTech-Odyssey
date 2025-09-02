@@ -643,9 +643,11 @@
 		}
 		{
 			dependencies: ["6A8869A6275ECA3E"]
+			description: ["{gto.hv.quests.5F5B9F256A751484.description0}"]
 			id: "5F5B9F256A751484"
 			shape: "hexagon"
 			size: 1.5d
+			subtitle: "{gto.hv.quests.5F5B9F256A751484.subtitle}"
 			tasks: [{
 				id: "20BA69BC1C87E76F"
 				item: "gtceu:vacuum_freezer"
@@ -656,11 +658,6 @@
 		}
 		{
 			dependencies: ["5F5B9F256A751484"]
-			description: [
-				"{gto.hv.quests.768BCE7842E31597.description0}"
-				""
-				"{gto.hv.quests.768BCE7842E31597.description1}"
-			]
 			id: "768BCE7842E31597"
 			tasks: [{
 				id: "7FEED9BB9102DC99"
@@ -680,6 +677,7 @@
 			id: "31C82EC18535B9B9"
 			shape: "hexagon"
 			size: 1.5d
+			subtitle: "{gto.hv.quests.31C82EC18535B9B9.subtitle}"
 			tasks: [{
 				id: "58DEE41E59680161"
 				item: "gtceu:nichrome_coil_block"

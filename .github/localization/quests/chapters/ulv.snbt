@@ -179,6 +179,8 @@
 				"{gto.ulv.quests.561F5AACF437E7C5.description1}"
 				""
 				"{gto.ulv.quests.561F5AACF437E7C5.description2}"
+				""
+				"{gto.ulv.quests.561F5AACF437E7C5.description3}"
 			]
 			id: "561F5AACF437E7C5"
 			rewards: [{
@@ -655,7 +657,6 @@
 		}
 		{
 			dependencies: ["6C328AB57C610EF9"]
-			description: [""]
 			icon: "gtceu:resin_circuit_board"
 			id: "134DA399427DD1A5"
 			tasks: [{

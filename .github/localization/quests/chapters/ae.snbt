@@ -770,24 +770,19 @@
 			]
 			description: [
 				"{gto.ae.quests.0BC456B4331C09F5.description0}"
+				""
 				"{gto.ae.quests.0BC456B4331C09F5.description1}"
 				"{gto.ae.quests.0BC456B4331C09F5.description2}"
 				"{gto.ae.quests.0BC456B4331C09F5.description3}"
+				"{gto.ae.quests.0BC456B4331C09F5.description4}"
 			]
 			icon: "gtceu:me_pattern_buffer"
 			id: "0BC456B4331C09F5"
-			tasks: [
-				{
-					id: "68D37A606413E9A9"
-					item: "gtceu:me_pattern_buffer"
-					type: "item"
-				}
-				{
-					id: "6F7B3E6046E2F22A"
-					item: "gtceu:me_pattern_buffer_proxy"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "68D37A606413E9A9"
+				item: "gtceu:me_pattern_buffer"
+				type: "item"
+			}]
 			title: "{gto.ae.quests.0BC456B4331C09F5.title}"
 			x: -2.0d
 			y: -3.0d
@@ -917,6 +912,17 @@
 			]
 			x: -4.0d
 			y: -9.0d
+		}
+		{
+			dependencies: ["05833AD0EAA634A7"]
+			id: "1EF81F024D8F5DAD"
+			tasks: [{
+				id: "4FC928474A55E5E7"
+				item: "gtocore:me_craft_pattern_part_machine"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -6.0d
 		}
 	]
 	subtitle: ["{gto.ae.subtitle0}"]

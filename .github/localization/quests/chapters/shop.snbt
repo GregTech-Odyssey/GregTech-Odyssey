@@ -394,6 +394,7 @@
 				item: "factory_blocks:factory"
 				type: "item"
 			}]
+			subtitle: "{gto.shop.quests.1EBE4BC172EFA13E.subtitle}"
 			tasks: [{
 				id: "61F66675B80327AD"
 				title: "{gto.shop.quests.1EBE4BC172EFA13E.tasks.61F66675B80327AD.title}"
