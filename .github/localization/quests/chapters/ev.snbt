@@ -150,7 +150,11 @@
 		}
 		{
 			dependencies: ["249A4B2F900AA6F1"]
-			description: [""]
+			description: [
+				"{gto.ev.quests.3EDC674F36EDC52E.description0}"
+				""
+				"{gto.ev.quests.3EDC674F36EDC52E.description1}"
+			]
 			id: "3EDC674F36EDC52E"
 			shape: "hexagon"
 			size: 1.5d
@@ -164,7 +168,11 @@
 		}
 		{
 			dependencies: ["2F6C81E3B10365E8"]
-			description: ["{gto.ev.quests.033815C0756BAE1F.description0}"]
+			description: [
+				"{gto.ev.quests.033815C0756BAE1F.description0}"
+				""
+				"{gto.ev.quests.033815C0756BAE1F.description1}"
+			]
 			hide_dependency_lines: true
 			id: "033815C0756BAE1F"
 			tasks: [{
@@ -359,7 +367,11 @@
 				"553B055E72DF5B91"
 				"261AF5AAE0576A3B"
 			]
-			description: ["{gto.ev.quests.7D8D340B336E38F7.description0}"]
+			description: [
+				"{gto.ev.quests.7D8D340B336E38F7.description0}"
+				""
+				"{gto.ev.quests.7D8D340B336E38F7.description1}"
+			]
 			id: "7D8D340B336E38F7"
 			shape: "hexagon"
 			size: 1.0d
@@ -1152,6 +1164,18 @@
 			}]
 			x: 3.5d
 			y: -2.5d
+		}
+		{
+			dependencies: ["2F6C81E3B10365E8"]
+			id: "031BBC8B522A562F"
+			subtitle: "{gto.ev.quests.031BBC8B522A562F.subtitle}"
+			tasks: [{
+				id: "00B102B22581C0AB"
+				item: "gtceu:reservoir_hatch"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -10.0d
 		}
 	]
 	subtitle: ["{gto.ev.subtitle0}"]
