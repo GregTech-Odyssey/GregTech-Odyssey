@@ -1,9 +1,10 @@
 name: "Refresh"
 on:
   push:
-    branches-ignore:
+    branches:
       - main
-  pull_request:
+    paths:
+      - 'config/ftbquests'
   workflow_dispatch:
   
 jobs:
@@ -39,3 +40,13 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: Update Quest Localization & Refresh
+          
+      - name: Open Pull Request
+        run:  branch_name = "refresh-quest-$(git log -1 HEAD^ --pretty=format:%h)"
+              if [[ -n "$(git ls-remote origin $branch_name)" ]]; then
+                echo "branch ${branch_name} already exists"
+              else
+                git branch ${branch_name}
+                git checkout ${branch_name}
+                gh pr create --base main --head $branch_name --title "Update Quest Localization"
+              fi
