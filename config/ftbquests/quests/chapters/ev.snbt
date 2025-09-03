@@ -381,6 +381,7 @@
 				item: "gtceu:nano_processor"
 				type: "item"
 			}]
+			title: "&b纳米处理器"
 			x: -0.5d
 			y: -6.5d
 		}
@@ -417,6 +418,7 @@
 				item: "gtceu:nano_processor_assembly"
 				type: "item"
 			}]
+			title: "&b纳米处理器集群"
 			x: -0.5d
 			y: -5.0d
 		}
@@ -435,6 +437,7 @@
 				item: "gtceu:nano_processor_computer"
 				type: "item"
 			}]
+			title: "&b纳米处理器超级计算机"
 			x: -0.5d
 			y: -3.5d
 		}
@@ -450,6 +453,7 @@
 				item: "gtceu:nano_processor_mainframe"
 				type: "item"
 			}]
+			title: "&b纳米处理器主机"
 			x: -0.5d
 			y: -1.0d
 		}

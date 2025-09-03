@@ -24,6 +24,7 @@
 				item: "gtceu:wetware_processor"
 				type: "item"
 			}]
+			title: "&4湿件处理器"
 			x: -3.0d
 			y: 6.0d
 		}
@@ -304,6 +305,7 @@
 				item: "gtceu:wetware_processor_assembly"
 				type: "item"
 			}]
+			title: "&4湿件处理器集群"
 			x: -4.5d
 			y: 6.0d
 		}
@@ -333,8 +335,8 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: -1.5d
+			x: 1.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["19134C6F6A115AEE"]
@@ -348,6 +350,7 @@
 				item: "gtceu:wetware_processor_mainframe"
 				type: "item"
 			}]
+			title: "&4湿件处理器主机"
 			x: -8.25d
 			y: 6.0d
 		}
@@ -527,6 +530,7 @@
 				item: "gtceu:wetware_processor_computer"
 				type: "item"
 			}]
+			title: "&4湿件处理器超级计算机"
 			x: -6.0d
 			y: 6.0d
 		}
@@ -580,6 +584,7 @@
 			y: 0.0d
 		}
 		{
+			description: ["不需要电力的机器"]
 			id: "590D044B9C85B84A"
 			shape: "hexagon"
 			size: 1.5d
@@ -675,9 +680,9 @@
 			description: [
 				"显然你已经受够了普通装配线的速度，是时候迭代更新了！"
 				""
-				"进阶装配线是装配线的并行版本，可以用&b巨型输入总线&r，而且可以上&e激光仓&r。"
+				"进阶装配线是装配线的并行版本，可以用&b巨型输入总线&r，而且可以上&e激光仓&r"
 				""
-				"需要注意，盲目超频不可取，因为进阶装配线是&c超损超频&r的！换言之，4倍的功率只能让配方耗时变为0.75倍，但是并行可以正常结算。"
+				"需要注意，盲目超频不可取，因为进阶装配线是&c超损超频&r的！换言之，4倍的功率只能让配方耗时变为0.75倍，但是并行可以正常结算"
 			]
 			id: "6DC73D6C2AD17444"
 			shape: "rsquare"
@@ -719,6 +724,76 @@
 			}]
 			x: -9.0d
 			y: 4.5d
+		}
+		{
+			dependencies: ["0985154AE9169549"]
+			id: "78904EE60D9B411E"
+			tasks: [
+				{
+					id: "0A7196AC9BC6C7ED"
+					item: "gtceu:tiny_protactinium_dust"
+					type: "item"
+				}
+				{
+					id: "243C9C8DFD7A2A48"
+					item: "gtceu:tiny_neptunium_dust"
+					type: "item"
+				}
+			]
+			title: "核废料兄弟"
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"3CF73C03164BD167"
+				"78904EE60D9B411E"
+			]
+			id: "0007751813572404"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "3E22B05032147378"
+				item: "gtocore:super_particle_collider"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["28265843939C1503"]
+			id: "3CF73C03164BD167"
+			tasks: [{
+				id: "528E97AC5ABBF0AD"
+				item: "gtocore:pikyonium_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0007751813572404"]
+			id: "26167AFECA871925"
+			tasks: [{
+				id: "0DD236AADC72F7E6"
+				item: "gtceu:astatine_dust"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["26167AFECA871925"]
+			description: ["其实你可以直接跳过&cZPM&r做&3UV&r的"]
+			id: "3709A36606135AF0"
+			subtitle: "升级你的大型机器#3"
+			tasks: [{
+				id: "4866105FF1FF23AD"
+				item: "gtocore:integral_framework_zpm"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.0d
 		}
 	]
 	subtitle: ["Tier7-ZPM"]

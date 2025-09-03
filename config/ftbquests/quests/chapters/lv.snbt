@@ -447,11 +447,11 @@
 			size: 1.5d
 			subtitle: "更上一层楼"
 			tasks: [{
-				count: 2L
 				id: "0BB67BB62513F7CD"
 				item: "gtceu:good_electronic_circuit"
 				type: "item"
 			}]
+			title: "&c优质电子电路"
 			x: -3.0d
 			y: 4.5d
 		}

@@ -377,6 +377,7 @@
 				item: "gtceu:crystal_processor"
 				type: "item"
 			}]
+			title: "&9晶体处理器"
 			x: 14.5d
 			y: -2.0d
 		}
@@ -389,6 +390,7 @@
 				item: "gtceu:crystal_processor_assembly"
 				type: "item"
 			}]
+			title: "&9晶体处理器集群"
 			x: 14.5d
 			y: 0.5d
 		}
@@ -403,6 +405,7 @@
 				item: "gtceu:crystal_processor_computer"
 				type: "item"
 			}]
+			title: "&9晶体处理器超级计算机"
 			x: 14.5d
 			y: 2.75d
 		}
@@ -421,6 +424,7 @@
 				item: "gtceu:crystal_processor_mainframe"
 				type: "item"
 			}]
+			title: "&9晶体处理器主机"
 			x: 14.5d
 			y: 5.0d
 		}
@@ -536,16 +540,15 @@
 		}
 		{
 			dependencies: ["10F52803BCD77DA0"]
-			description: [""]
 			id: "43AB8C2F96BDEF15"
 			shape: "hexagon"
 			size: 1.5d
+			subtitle: "升级你的大型机器#2"
 			tasks: [{
 				id: "0C3DF4927A31F0D1"
 				item: "gtocore:integral_framework_luv"
 				type: "item"
 			}]
-			title: "升级你的大型机器#2"
 			x: 2.5d
 			y: -9.0d
 		}
@@ -588,7 +591,7 @@
 		{
 			dependencies: ["63773B34911D0234"]
 			description: [
-				"艾萨线，这是一条新的矿物处理线，你需要大量的松油和乙醇来搭建这条产线"
+				"&a艾&r&e萨&r&c线&r，这是一条新的矿物处理线，你需要大量的松油和乙醇来搭建这条产线"
 				""
 				"可以跳过繁杂的产线直接产出铂处（没有钌），稀土，硅岩等一些稀有的粉"
 				""
@@ -612,7 +615,7 @@
 					type: "item"
 				}
 			]
-			title: "艾萨产线"
+			title: "艾萨线"
 			x: 11.0d
 			y: 4.0d
 		}
@@ -820,25 +823,15 @@
 		{
 			dependencies: ["1156B92F11DA73B6"]
 			id: "6925C0D55D578A9A"
+			shape: "diamond"
+			size: 1.5d
 			tasks: [{
 				id: "335A69E2488138E8"
 				item: "gtocore:large_crystallization_chamber"
 				type: "item"
 			}]
 			x: 12.5d
-			y: 6.0d
-		}
-		{
-			dependencies: ["1156B92F11DA73B6"]
-			id: "68E77C6A173235DB"
-			shape: "hexagon"
-			tasks: [{
-				id: "55C371B8CEED2B3F"
-				item: "gtocore:super_particle_collider"
-				type: "item"
-			}]
-			x: 12.5d
-			y: 7.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["31F90B973A779017"]
@@ -877,7 +870,6 @@
 		}
 		{
 			dependencies: ["57D5AF62A5ADAF60"]
-			description: ["下单变得有些困难，或许你得想想办法"]
 			id: "4EC4E151D57351F6"
 			subtitle: "什么？这里也有序列组装？"
 			tasks: [{
@@ -904,9 +896,9 @@
 		{
 			dependencies: ["7EA0644BB352BBB5"]
 			description: [
-				"你需要替换组件为计算组件和冷却组件才能让计算机开始工作"
+				"你需要替换组件为&6计算组件&r和&b冷却组件&r才能让计算机开始工作"
 				""
-				"需要注意，冷却组件必须足够，否则HPCA过热就会报废！"
+				"需要注意，&b冷却组件&r必须足够，必要时你可能还需要用&e多氯联苯冷却液&r，否则HPCA过热就会报废！"
 			]
 			id: "777A7D91695E8720"
 			rewards: [{

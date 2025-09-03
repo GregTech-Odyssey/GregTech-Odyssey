@@ -60,6 +60,7 @@
 				item: "gtceu:advanced_integrated_circuit"
 				type: "item"
 			}]
+			title: "&6进阶集成电路"
 			x: 7.0d
 			y: -2.5d
 		}
@@ -124,6 +125,7 @@
 				item: "gtceu:good_integrated_circuit"
 				type: "item"
 			}]
+			title: "&6优质集成电路"
 			x: 4.5d
 			y: -2.5d
 		}
@@ -147,6 +149,7 @@
 				item: "gtceu:basic_integrated_circuit"
 				type: "item"
 			}]
+			title: "&6基础集成电路"
 			x: 2.5d
 			y: -2.5d
 		}
@@ -441,13 +444,13 @@
 		{
 			dependencies: ["3899164922A734D8"]
 			description: [
-				"单方块机器的强力增幅器"
+				"单方块机器的强力增幅器，相当于给单方块机器&e降能耗&r的同时提供了&e额外的并行和速度&r"
 				""
-				"相当于给单方块机器&e降能耗&r的同时提供了&e额外的并行和速度&r"
+				"非常昂贵，需要上千个&b铝锭&r。拿出你所有的底蕴来招待它!"
 				""
-				"拿出你所有的底蕴来招待它!"
+				"部分多方块机器包含&l&6整体框架&r&r，它会限制你所能运行的&e配方等级&r，机器实际运行电压会取能源仓提供电压和整体框架电压的极小值"
 				""
-				"&6整体框架&r的&e等级&r会&n限制其运行配方的最高等级&r，所有使用整体框架作为结构方块的多方块机器都遵循此限制&r"
+				"不过如果现在做，你可能只能承担LV级别的整体框架"
 			]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
@@ -609,6 +612,7 @@
 					type: "item"
 				}
 			]
+			title: "&e微型处理器"
 			x: 7.5d
 			y: 1.5d
 		}

@@ -46,6 +46,7 @@
 		}
 		{
 			id: "4FC792CE70301513"
+			subtitle: "更廉价的电路板"
 			tasks: [{
 				id: "4ED3459F4CD8396B"
 				item: "gtceu:basic_integrated_circuit"
@@ -88,6 +89,7 @@
 		}
 		{
 			id: "7BE3F5B2495D04B4"
+			subtitle: "晶体管的第一次紧密排列"
 			tasks: [{
 				id: "18EB41184F015305"
 				item: "gtceu:microchip_processor"
@@ -138,6 +140,7 @@
 		}
 		{
 			id: "5F2A83378752077F"
+			subtitle: "信息时代工艺水准"
 			tasks: [{
 				id: "514F1458730169BB"
 				item: "gtceu:nano_processor"
@@ -178,6 +181,7 @@
 		}
 		{
 			id: "66C57C055430CFD9"
+			subtitle: "大概一百万个哈达玛门"
 			tasks: [{
 				id: "0964ACF27EC5A994"
 				item: "gtceu:quantum_processor"
@@ -188,6 +192,7 @@
 		}
 		{
 			id: "08C800A7ACF246ED"
+			subtitle: "完美刻蚀技巧"
 			tasks: [{
 				id: "1A94CDD2DC235A5B"
 				item: "gtceu:crystal_processor"
@@ -198,6 +203,7 @@
 		}
 		{
 			id: "1633B734103319A6"
+			subtitle: "真正意义的神经网络"
 			tasks: [{
 				id: "2BE1B63502FE4F8B"
 				item: "gtceu:wetware_processor"
@@ -208,6 +214,7 @@
 		}
 		{
 			id: "4916B304D6593A44"
+			subtitle: "寄生菌群"
 			tasks: [{
 				id: "44B5C17AB3A804E9"
 				item: "gtocore:bioware_processor"
@@ -218,6 +225,7 @@
 		}
 		{
 			id: "39DB212F15DF3977"
+			subtitle: "秒速3亿米"
 			tasks: [{
 				id: "75F5B1F437FB67F5"
 				item: "gtocore:optical_processor"
@@ -228,6 +236,7 @@
 		}
 		{
 			id: "391EADDB005A1AB3"
+			subtitle: "紫色超高能激光"
 			tasks: [{
 				id: "3FFCF2868A0D0A41"
 				item: "gtocore:exotic_processor"
@@ -238,6 +247,7 @@
 		}
 		{
 			id: "35FF75254B6AE4D3"
+			subtitle: "那个核心是黑洞吗？"
 			tasks: [{
 				id: "541534645D49A764"
 				item: "gtocore:cosmic_processor"
@@ -248,6 +258,7 @@
 		}
 		{
 			id: "5FFCFED2A9D471F5"
+			subtitle: "答案在运算前早已揭晓"
 			tasks: [{
 				id: "57F5E7B69BAC5EAF"
 				item: "gtocore:supracausal_processor"
@@ -980,7 +991,7 @@
 				item: "gtceu:naquadah_coil_block"
 				type: "item"
 			}]
-			x: -13.5d
+			x: -14.5d
 			y: -13.5d
 		}
 		{
@@ -991,7 +1002,7 @@
 				type: "item"
 			}]
 			x: -13.5d
-			y: -12.5d
+			y: -13.5d
 		}
 		{
 			id: "2575873E84E2F55F"
@@ -1001,7 +1012,7 @@
 				type: "item"
 			}]
 			x: -13.5d
-			y: -11.5d
+			y: -12.5d
 		}
 		{
 			id: "653C8025B25347E9"
@@ -1060,7 +1071,7 @@
 				item: "gtocore:hypogen_coil_block"
 				type: "item"
 			}]
-			x: -13.5d
+			x: -14.5d
 			y: -5.5d
 		}
 		{
@@ -1071,7 +1082,7 @@
 				type: "item"
 			}]
 			x: -13.5d
-			y: -4.5d
+			y: -5.5d
 		}
 		{
 			id: "7702E1ED24212DBC"
@@ -1082,6 +1093,16 @@
 			}]
 			x: -14.5d
 			y: -8.5d
+		}
+		{
+			id: "739FB59EB5FEA044"
+			tasks: [{
+				id: "7694756686E2927F"
+				item: "gtocore:abyssalalloy_coil_block"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -11.5d
 		}
 	]
 	title: "里程碑"

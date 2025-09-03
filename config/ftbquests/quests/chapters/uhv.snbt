@@ -566,6 +566,7 @@
 				item: "gtocore:optical_processor"
 				type: "item"
 			}]
+			title: "&6光&e学&6处&e理&6器"
 			x: 2.0d
 			y: 6.0d
 		}
@@ -578,6 +579,7 @@
 				item: "gtocore:optical_assembly"
 				type: "item"
 			}]
+			title: "&6光&e学&6处&e理&6器&e集&6群"
 			x: 0.5d
 			y: 6.0d
 		}
@@ -590,6 +592,7 @@
 				item: "gtocore:optical_computer"
 				type: "item"
 			}]
+			title: "&6光&e学&6处&e理&6器&e超&6级&e计&6算&e机"
 			x: -1.0d
 			y: 6.0d
 		}
@@ -610,6 +613,7 @@
 				item: "gtocore:optical_mainframe"
 				type: "item"
 			}]
+			title: "&6光&e学&6处&e理&6器&e主&6机"
 			x: -3.0d
 			y: 6.0d
 		}

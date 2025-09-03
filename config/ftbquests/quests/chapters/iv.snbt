@@ -166,6 +166,7 @@
 				item: "gtceu:quantum_processor"
 				type: "item"
 			}]
+			title: "&a量子处理器"
 			x: 14.0d
 			y: -8.5d
 		}
@@ -179,6 +180,7 @@
 				item: "gtceu:quantum_processor_assembly"
 				type: "item"
 			}]
+			title: "&a量子处理器集群"
 			x: 16.0d
 			y: -8.5d
 		}
@@ -192,6 +194,7 @@
 				item: "gtceu:quantum_processor_computer"
 				type: "item"
 			}]
+			title: "&a量子处理器超级计算机"
 			x: 18.0d
 			y: -8.5d
 		}
@@ -206,6 +209,7 @@
 				item: "gtceu:quantum_processor_mainframe"
 				type: "item"
 			}]
+			title: "&a量子处理器主机"
 			x: 18.0d
 			y: -10.5d
 		}
@@ -815,7 +819,6 @@
 		}
 		{
 			dependencies: ["4CD7E4E23FCD3D84"]
-			description: [""]
 			id: "335934E09401C67B"
 			shape: "hexagon"
 			size: 1.5d
@@ -956,6 +959,7 @@
 		{
 			dependencies: ["23DB14B3093506B8"]
 			id: "1380B1134D0C1C8E"
+			subtitle: "升级你的大型机器"
 			tasks: [{
 				id: "1EAAD9C8D9D7DEA3"
 				item: "gtocore:integral_framework_iv"
@@ -1010,11 +1014,12 @@
 		}
 		{
 			dependencies: ["1CF7845875EEFA3B"]
-			description: ["跨纬度传无线电"]
+			description: ["造价不菲"]
 			hide_dependency_lines: true
 			id: "388D743C6BA5D995"
 			shape: "hexagon"
 			size: 1.5d
+			subtitle: "跨纬度传电"
 			tasks: [{
 				id: "3F3435A0F2EFDC66"
 				item: "gtocore:wireless_dimension_repeater"

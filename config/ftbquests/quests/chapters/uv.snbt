@@ -115,6 +115,7 @@
 		{
 			dependencies: ["52DFF4A301A510C8"]
 			id: "1C1AEB2B9E9F68CD"
+			shape: "diamond"
 			subtitle: "无限钻机！"
 			tasks: [{
 				id: "2F5012D1DDBED59B"
@@ -404,6 +405,7 @@
 				item: "gtocore:bioware_processor"
 				type: "item"
 			}]
+			title: "&2生&a物&2活&a性&2处&a理&2器"
 			x: 7.0d
 			y: 10.5d
 		}
@@ -419,6 +421,7 @@
 				item: "gtocore:bioware_assembly"
 				type: "item"
 			}]
+			title: "&2生&a物&2活&a性&2处&a理&2器&a集&2群"
 			x: 9.0d
 			y: 10.5d
 		}
@@ -431,6 +434,7 @@
 				item: "gtocore:bioware_computer"
 				type: "item"
 			}]
+			title: "&2生&a物&2活&a性&2处&a理&2器&a超&2级&a计&2算&a机"
 			x: 9.0d
 			y: 8.5d
 		}
@@ -446,6 +450,7 @@
 				item: "gtocore:bioware_mainframe"
 				type: "item"
 			}]
+			title: "&2生&a物&2活&a性&2处&a理&2器&a主&2机"
 			x: 9.0d
 			y: 6.5d
 		}
@@ -726,6 +731,18 @@
 			}]
 			x: 11.0d
 			y: 6.5d
+		}
+		{
+			dependencies: ["256F90AFB461107E"]
+			id: "7EF1BB4CD73A4171"
+			subtitle: "升级你的大型机器#4"
+			tasks: [{
+				id: "1E1F5B9451FAE37F"
+				item: "gtocore:integral_framework_uv"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
 		}
 	]
 	subtitle: ["Tier8-UV"]
