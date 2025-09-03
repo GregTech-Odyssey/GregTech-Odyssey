@@ -377,6 +377,7 @@
 				item: "gtceu:crystal_processor"
 				type: "item"
 			}]
+			title: "{gto.luv.quests.616EB11F181951BB.title}"
 			x: 14.5d
 			y: -2.0d
 		}
@@ -389,6 +390,7 @@
 				item: "gtceu:crystal_processor_assembly"
 				type: "item"
 			}]
+			title: "{gto.luv.quests.464D2CB6C35A56F0.title}"
 			x: 14.5d
 			y: 0.5d
 		}
@@ -403,6 +405,7 @@
 				item: "gtceu:crystal_processor_computer"
 				type: "item"
 			}]
+			title: "{gto.luv.quests.5A3B1B492A49AB29.title}"
 			x: 14.5d
 			y: 2.75d
 		}
@@ -421,6 +424,7 @@
 				item: "gtceu:crystal_processor_mainframe"
 				type: "item"
 			}]
+			title: "{gto.luv.quests.1156B92F11DA73B6.title}"
 			x: 14.5d
 			y: 5.0d
 		}
@@ -536,16 +540,15 @@
 		}
 		{
 			dependencies: ["10F52803BCD77DA0"]
-			description: [""]
 			id: "43AB8C2F96BDEF15"
 			shape: "hexagon"
 			size: 1.5d
+			subtitle: "{gto.luv.quests.43AB8C2F96BDEF15.subtitle}"
 			tasks: [{
 				id: "0C3DF4927A31F0D1"
 				item: "gtocore:integral_framework_luv"
 				type: "item"
 			}]
-			title: "{gto.luv.quests.43AB8C2F96BDEF15.title}"
 			x: 2.5d
 			y: -9.0d
 		}
@@ -820,25 +823,15 @@
 		{
 			dependencies: ["1156B92F11DA73B6"]
 			id: "6925C0D55D578A9A"
+			shape: "diamond"
+			size: 1.5d
 			tasks: [{
 				id: "335A69E2488138E8"
 				item: "gtocore:large_crystallization_chamber"
 				type: "item"
 			}]
 			x: 12.5d
-			y: 6.0d
-		}
-		{
-			dependencies: ["1156B92F11DA73B6"]
-			id: "68E77C6A173235DB"
-			shape: "hexagon"
-			tasks: [{
-				id: "55C371B8CEED2B3F"
-				item: "gtocore:super_particle_collider"
-				type: "item"
-			}]
-			x: 12.5d
-			y: 7.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["31F90B973A779017"]
@@ -877,7 +870,6 @@
 		}
 		{
 			dependencies: ["57D5AF62A5ADAF60"]
-			description: ["{gto.luv.quests.4EC4E151D57351F6.description0}"]
 			id: "4EC4E151D57351F6"
 			subtitle: "{gto.luv.quests.4EC4E151D57351F6.subtitle}"
 			tasks: [{

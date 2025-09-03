@@ -140,6 +140,7 @@
 				item: "gtceu:micro_processor_assembly"
 				type: "item"
 			}]
+			title: "{gto.hv.quests.03E4EA4053212C0B.title}"
 			x: -0.5d
 			y: -3.0d
 		}
@@ -154,6 +155,7 @@
 				item: "gtceu:micro_processor_computer"
 				type: "item"
 			}]
+			title: "{gto.hv.quests.6A8869A6275ECA3E.title}"
 			x: 3.0d
 			y: -3.0d
 		}
@@ -188,6 +190,7 @@
 				item: "gtceu:micro_processor_mainframe"
 				type: "item"
 			}]
+			title: "{gto.hv.quests.09831EA3AD53828C.title}"
 			x: 7.5d
 			y: -1.5d
 		}
@@ -1414,6 +1417,7 @@
 		}
 		{
 			dependencies: ["31C82EC18535B9B9"]
+			description: ["{gto.hv.quests.45D3AA16A96DECD7.description0}"]
 			id: "45D3AA16A96DECD7"
 			tasks: [{
 				id: "71C6003B9CFEB691"

@@ -166,6 +166,7 @@
 				item: "gtceu:quantum_processor"
 				type: "item"
 			}]
+			title: "{gto.iv.quests.76A2C71F8131E9BE.title}"
 			x: 14.0d
 			y: -8.5d
 		}
@@ -179,6 +180,7 @@
 				item: "gtceu:quantum_processor_assembly"
 				type: "item"
 			}]
+			title: "{gto.iv.quests.54AC456E31D64E42.title}"
 			x: 16.0d
 			y: -8.5d
 		}
@@ -192,6 +194,7 @@
 				item: "gtceu:quantum_processor_computer"
 				type: "item"
 			}]
+			title: "{gto.iv.quests.72C2E41EC2ACF82E.title}"
 			x: 18.0d
 			y: -8.5d
 		}
@@ -206,6 +209,7 @@
 				item: "gtceu:quantum_processor_mainframe"
 				type: "item"
 			}]
+			title: "{gto.iv.quests.1D413C9604012CBA.title}"
 			x: 18.0d
 			y: -10.5d
 		}
@@ -815,7 +819,6 @@
 		}
 		{
 			dependencies: ["4CD7E4E23FCD3D84"]
-			description: [""]
 			id: "335934E09401C67B"
 			shape: "hexagon"
 			size: 1.5d
@@ -962,6 +965,7 @@
 		{
 			dependencies: ["23DB14B3093506B8"]
 			id: "1380B1134D0C1C8E"
+			subtitle: "{gto.iv.quests.1380B1134D0C1C8E.subtitle}"
 			tasks: [{
 				id: "1EAAD9C8D9D7DEA3"
 				item: "gtocore:integral_framework_iv"
@@ -1021,6 +1025,7 @@
 			id: "388D743C6BA5D995"
 			shape: "hexagon"
 			size: 1.5d
+			subtitle: "{gto.iv.quests.388D743C6BA5D995.subtitle}"
 			tasks: [{
 				id: "3F3435A0F2EFDC66"
 				item: "gtocore:wireless_dimension_repeater"

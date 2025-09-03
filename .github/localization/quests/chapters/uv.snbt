@@ -115,6 +115,7 @@
 		{
 			dependencies: ["52DFF4A301A510C8"]
 			id: "1C1AEB2B9E9F68CD"
+			shape: "diamond"
 			subtitle: "{gto.uv.quests.1C1AEB2B9E9F68CD.subtitle}"
 			tasks: [{
 				id: "2F5012D1DDBED59B"
@@ -404,6 +405,7 @@
 				item: "gtocore:bioware_processor"
 				type: "item"
 			}]
+			title: "{gto.uv.quests.1F1611C024CAB8E7.title}"
 			x: 7.0d
 			y: 10.5d
 		}
@@ -419,6 +421,7 @@
 				item: "gtocore:bioware_assembly"
 				type: "item"
 			}]
+			title: "{gto.uv.quests.35A7F1F3B05AB66D.title}"
 			x: 9.0d
 			y: 10.5d
 		}
@@ -431,6 +434,7 @@
 				item: "gtocore:bioware_computer"
 				type: "item"
 			}]
+			title: "{gto.uv.quests.5CE94A449E4881D4.title}"
 			x: 9.0d
 			y: 8.5d
 		}
@@ -446,6 +450,7 @@
 				item: "gtocore:bioware_mainframe"
 				type: "item"
 			}]
+			title: "{gto.uv.quests.7A1E4DBA675E67FB.title}"
 			x: 9.0d
 			y: 6.5d
 		}
@@ -735,6 +740,18 @@
 			}]
 			x: 11.0d
 			y: 6.5d
+		}
+		{
+			dependencies: ["256F90AFB461107E"]
+			id: "7EF1BB4CD73A4171"
+			subtitle: "{gto.uv.quests.7EF1BB4CD73A4171.subtitle}"
+			tasks: [{
+				id: "1E1F5B9451FAE37F"
+				item: "gtocore:integral_framework_uv"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
 		}
 	]
 	subtitle: ["{gto.uv.subtitle0}"]

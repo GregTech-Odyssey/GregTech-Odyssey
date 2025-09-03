@@ -575,6 +575,7 @@
 				item: "gtocore:optical_processor"
 				type: "item"
 			}]
+			title: "{gto.uhv.quests.01A84E98AC4A6A66.title}"
 			x: 2.0d
 			y: 6.0d
 		}
@@ -587,6 +588,7 @@
 				item: "gtocore:optical_assembly"
 				type: "item"
 			}]
+			title: "{gto.uhv.quests.349799BD826C2F65.title}"
 			x: 0.5d
 			y: 6.0d
 		}
@@ -599,6 +601,7 @@
 				item: "gtocore:optical_computer"
 				type: "item"
 			}]
+			title: "{gto.uhv.quests.0DA9DF55094DF780.title}"
 			x: -1.0d
 			y: 6.0d
 		}
@@ -619,6 +622,7 @@
 				item: "gtocore:optical_mainframe"
 				type: "item"
 			}]
+			title: "{gto.uhv.quests.7ED709D3291D6B88.title}"
 			x: -3.0d
 			y: 6.0d
 		}

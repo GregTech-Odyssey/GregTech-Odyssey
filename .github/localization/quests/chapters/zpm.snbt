@@ -24,6 +24,7 @@
 				item: "gtceu:wetware_processor"
 				type: "item"
 			}]
+			title: "{gto.zpm.quests.5E32A6DFE04D28F4.title}"
 			x: -3.0d
 			y: 6.0d
 		}
@@ -304,6 +305,7 @@
 				item: "gtceu:wetware_processor_assembly"
 				type: "item"
 			}]
+			title: "{gto.zpm.quests.348156EA1A381ABF.title}"
 			x: -4.5d
 			y: 6.0d
 		}
@@ -333,8 +335,8 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: -1.5d
+			x: 1.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["19134C6F6A115AEE"]
@@ -348,6 +350,7 @@
 				item: "gtceu:wetware_processor_mainframe"
 				type: "item"
 			}]
+			title: "{gto.zpm.quests.19B07E541BE74686.title}"
 			x: -8.25d
 			y: 6.0d
 		}
@@ -533,6 +536,7 @@
 				item: "gtceu:wetware_processor_computer"
 				type: "item"
 			}]
+			title: "{gto.zpm.quests.19134C6F6A115AEE.title}"
 			x: -6.0d
 			y: 6.0d
 		}
@@ -586,6 +590,7 @@
 			y: 0.0d
 		}
 		{
+			description: ["{gto.zpm.quests.590D044B9C85B84A.description0}"]
 			id: "590D044B9C85B84A"
 			shape: "hexagon"
 			size: 1.5d
@@ -725,6 +730,76 @@
 			}]
 			x: -9.0d
 			y: 4.5d
+		}
+		{
+			dependencies: ["0985154AE9169549"]
+			id: "78904EE60D9B411E"
+			tasks: [
+				{
+					id: "0A7196AC9BC6C7ED"
+					item: "gtceu:tiny_protactinium_dust"
+					type: "item"
+				}
+				{
+					id: "243C9C8DFD7A2A48"
+					item: "gtceu:tiny_neptunium_dust"
+					type: "item"
+				}
+			]
+			title: "{gto.zpm.quests.78904EE60D9B411E.title}"
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"3CF73C03164BD167"
+				"78904EE60D9B411E"
+			]
+			id: "0007751813572404"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "3E22B05032147378"
+				item: "gtocore:super_particle_collider"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["28265843939C1503"]
+			id: "3CF73C03164BD167"
+			tasks: [{
+				id: "528E97AC5ABBF0AD"
+				item: "gtocore:pikyonium_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0007751813572404"]
+			id: "26167AFECA871925"
+			tasks: [{
+				id: "0DD236AADC72F7E6"
+				item: "gtceu:astatine_dust"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["26167AFECA871925"]
+			description: ["{gto.zpm.quests.3709A36606135AF0.description0}"]
+			id: "3709A36606135AF0"
+			subtitle: "{gto.zpm.quests.3709A36606135AF0.subtitle}"
+			tasks: [{
+				id: "4866105FF1FF23AD"
+				item: "gtocore:integral_framework_zpm"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.0d
 		}
 	]
 	subtitle: ["{gto.zpm.subtitle0}"]

@@ -381,6 +381,7 @@
 				item: "gtceu:nano_processor"
 				type: "item"
 			}]
+			title: "{gto.ev.quests.7D8D340B336E38F7.title}"
 			x: -0.5d
 			y: -6.5d
 		}
@@ -417,6 +418,7 @@
 				item: "gtceu:nano_processor_assembly"
 				type: "item"
 			}]
+			title: "{gto.ev.quests.4BCAA414BA1AE5FD.title}"
 			x: -0.5d
 			y: -5.0d
 		}
@@ -435,6 +437,7 @@
 				item: "gtceu:nano_processor_computer"
 				type: "item"
 			}]
+			title: "{gto.ev.quests.63B3B1533377F7BA.title}"
 			x: -0.5d
 			y: -3.5d
 		}
@@ -450,6 +453,7 @@
 				item: "gtceu:nano_processor_mainframe"
 				type: "item"
 			}]
+			title: "{gto.ev.quests.5B98FF5DDD4B2629.title}"
 			x: -0.5d
 			y: -1.0d
 		}

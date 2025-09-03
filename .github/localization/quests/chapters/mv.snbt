@@ -60,6 +60,7 @@
 				item: "gtceu:advanced_integrated_circuit"
 				type: "item"
 			}]
+			title: "{gto.mv.quests.49E5CC5873FA226F.title}"
 			x: 7.0d
 			y: -2.5d
 		}
@@ -124,6 +125,7 @@
 				item: "gtceu:good_integrated_circuit"
 				type: "item"
 			}]
+			title: "{gto.mv.quests.68B33BDC00047C3D.title}"
 			x: 4.5d
 			y: -2.5d
 		}
@@ -147,6 +149,7 @@
 				item: "gtceu:basic_integrated_circuit"
 				type: "item"
 			}]
+			title: "{gto.mv.quests.1CD5736520A719FA.title}"
 			x: 2.5d
 			y: -2.5d
 		}
@@ -609,6 +612,7 @@
 					type: "item"
 				}
 			]
+			title: "{gto.mv.quests.61A40570FE41BC2D.title}"
 			x: 7.5d
 			y: 1.5d
 		}
