@@ -6,7 +6,12 @@
 	icon: "ae2:interface"
 	id: "775486FF148AC1FA"
 	order_index: 4
-	quest_links: [ ]
+	quest_links: [{
+		id: "73C7693D280F6D40"
+		linked_quest: "19B006CEA837B6B4"
+		x: 2.0d
+		y: -7.5d
+	}]
 	quests: [
 		{
 			dependencies: ["298BEC345930429A"]
@@ -366,7 +371,11 @@
 		}
 		{
 			dependencies: ["423FD1A25E4E2C85"]
-			description: ["{gto.ae.quests.6834E0CEC40F4286.description0}"]
+			description: [
+				"{gto.ae.quests.6834E0CEC40F4286.description0}"
+				""
+				"{gto.ae.quests.6834E0CEC40F4286.description1}"
+			]
 			icon: "ae2:blank_pattern"
 			id: "6834E0CEC40F4286"
 			subtitle: "{gto.ae.quests.6834E0CEC40F4286.subtitle}"
@@ -615,8 +624,8 @@
 				}
 			]
 			title: "{gto.ae.quests.018F46EE6AE97EFD.title}"
-			x: 4.0d
-			y: -7.5d
+			x: 5.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["727CCA6FB49E142D"]
@@ -728,8 +737,8 @@
 				}
 			]
 			title: "{gto.ae.quests.2AA0714363BA85CB.title}"
-			x: 4.0d
-			y: -9.0d
+			x: 7.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["727CCA6FB49E142D"]
@@ -778,11 +787,18 @@
 			]
 			icon: "gtceu:me_pattern_buffer"
 			id: "0BC456B4331C09F5"
-			tasks: [{
-				id: "68D37A606413E9A9"
-				item: "gtceu:me_pattern_buffer"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "68D37A606413E9A9"
+					item: "gtceu:me_pattern_buffer"
+					type: "item"
+				}
+				{
+					id: "6F7B3E6046E2F22A"
+					item: "gtceu:me_pattern_buffer_proxy"
+					type: "item"
+				}
+			]
 			title: "{gto.ae.quests.0BC456B4331C09F5.title}"
 			x: -2.0d
 			y: -3.0d
@@ -796,23 +812,30 @@
 			icon: "gtocore:tesseract_generator"
 			id: "5F522D73AF5F1B2F"
 			subtitle: "{gto.ae.quests.5F522D73AF5F1B2F.subtitle}"
-			tasks: [{
-				id: "0BDCC9DBE42F86B1"
-				item: "gtocore:tesseract_generator"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "0BDCC9DBE42F86B1"
+					item: "gtocore:tesseract_generator"
+					type: "item"
+				}
+				{
+					id: "22717689B487D4E8"
+					item: "gtocore:coordinate_card"
+					type: "item"
+				}
+			]
 			title: "{gto.ae.quests.5F522D73AF5F1B2F.title}"
-			x: 2.0d
+			x: 4.0d
 			y: -7.5d
 		}
 		{
 			dependencies: ["6834E0CEC40F4286"]
 			description: [
 				"{gto.ae.quests.44487970FC3FBAED.description0}"
-				""
 				"{gto.ae.quests.44487970FC3FBAED.description1}"
-				""
 				"{gto.ae.quests.44487970FC3FBAED.description2}"
+				""
+				"{gto.ae.quests.44487970FC3FBAED.description3}"
 			]
 			icon: "merequester:requester"
 			id: "44487970FC3FBAED"
@@ -869,6 +892,7 @@
 			y: -3.0d
 		}
 		{
+			dependencies: ["3490AACD4AA62C5D"]
 			description: [
 				"{gto.ae.quests.05833AD0EAA634A7.description0}"
 				"{gto.ae.quests.05833AD0EAA634A7.description1}"
@@ -921,8 +945,82 @@
 				item: "gtocore:me_craft_pattern_part_machine"
 				type: "item"
 			}]
-			x: 5.5d
-			y: -6.0d
+			x: 7.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["5FCFE3D6B36CC409"]
+			description: [
+				"{gto.ae.quests.0BDCD6AAFF56A0EB.description0}"
+				""
+				"{gto.ae.quests.0BDCD6AAFF56A0EB.description1}"
+			]
+			id: "0BDCD6AAFF56A0EB"
+			subtitle: "{gto.ae.quests.0BDCD6AAFF56A0EB.subtitle}"
+			tasks: [
+				{
+					id: "48D12B3BF4B7510D"
+					item: "gtocore:basic_monitor"
+					type: "item"
+				}
+				{
+					id: "0601A377CC6B0D29"
+					item: "gtocore:monitor_electricity"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "23B3C8F11D0F69D1"
+					item: "gtocore:monitor_mana"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "18790BD9404BA305"
+					item: "gtocore:monitor_cwu"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7FA68D2AA3C9976D"
+					item: "gtocore:monitor_custom"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "25A2C06AC1FE892D"
+					item: "gtocore:monitor_custom"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "29BD87E89F616008"
+					item: "gtocore:monitor_ae_throughput"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5E625D3AB403466F"
+					item: "gtocore:monitor_ae_cpu"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "08FAFE45F7051139"
+					item: "gtocore:monitor_machine"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "60BEC1AB769C2A40"
+					item: "gtocore:coordinate_card"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "{gto.ae.quests.0BDCD6AAFF56A0EB.title}"
+			x: -8.5d
+			y: -7.5d
 		}
 	]
 	subtitle: ["{gto.ae.subtitle0}"]

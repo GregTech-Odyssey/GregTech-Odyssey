@@ -446,7 +446,11 @@
 		}
 		{
 			dependencies: ["32A39A427D4A3AC2"]
-			description: ["{gto.steam.quests.27F4D9739FE33A02.description0}"]
+			description: [
+				"{gto.steam.quests.27F4D9739FE33A02.description0}"
+				""
+				"{gto.steam.quests.27F4D9739FE33A02.description1}"
+			]
 			id: "27F4D9739FE33A02"
 			shape: "gear"
 			size: 2.0d
@@ -1626,6 +1630,7 @@
 			]
 			id: "524B8340450628A3"
 			shape: "diamond"
+			size: 1.5d
 			subtitle: "{gto.steam.quests.524B8340450628A3.subtitle}"
 			tasks: [{
 				id: "41CA757DDA6AB954"
@@ -1685,8 +1690,8 @@
 				type: "item"
 			}]
 			title: "{gto.steam.quests.524B8340450628A3.title}"
-			x: 7.0d
-			y: 5.0d
+			x: 9.75d
+			y: 6.5d
 		}
 		{
 			dependencies: ["24C53B5FF515ACAC"]
@@ -1708,25 +1713,6 @@
 			title: "{gto.steam.quests.6B2CA9AF06284789.title}"
 			x: -1.8571428571428612d
 			y: 1.4761904761904745d
-		}
-		{
-			dependencies: ["13FBF05133D59CDC"]
-			description: [
-				"{gto.steam.quests.36CB0F977B7806F7.description0}"
-				""
-				"{gto.steam.quests.36CB0F977B7806F7.description1}"
-			]
-			id: "36CB0F977B7806F7"
-			shape: "diamond"
-			size: 1.5d
-			subtitle: "{gto.steam.quests.36CB0F977B7806F7.subtitle}"
-			tasks: [{
-				id: "65430C3045F9FE9F"
-				item: "gtocore:multiblock_crate"
-				type: "item"
-			}]
-			x: 9.5d
-			y: 6.5d
 		}
 	]
 	subtitle: ["{gto.steam.subtitle0}"]

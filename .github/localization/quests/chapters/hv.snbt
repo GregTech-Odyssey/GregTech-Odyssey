@@ -32,6 +32,13 @@
 			x: -6.0d
 			y: -3.0d
 		}
+		{
+			id: "7605F9B3D5ABBFA3"
+			linked_quest: "5D60FFFB4D2F55F3"
+			shape: "diamond"
+			x: 10.5d
+			y: -1.0d
+		}
 	]
 	quests: [
 		{
@@ -184,6 +191,8 @@
 				"{gto.hv.quests.09831EA3AD53828C.description1}"
 			]
 			id: "09831EA3AD53828C"
+			shape: "gear"
+			size: 1.5d
 			subtitle: "{gto.hv.quests.09831EA3AD53828C.subtitle}"
 			tasks: [{
 				id: "30FE72FBF37CD130"
@@ -539,7 +548,7 @@
 				type: "dimension"
 			}]
 			title: "{gto.hv.quests.310210D2AD9515E3.title}"
-			x: 11.5d
+			x: 12.0d
 			y: 1.0d
 		}
 		{
@@ -1028,11 +1037,14 @@
 				}
 			]
 			title: "{gto.hv.quests.4331EEF3BA9799FD.title}"
-			x: 11.5d
+			x: 12.0d
 			y: -1.0d
 		}
 		{
-			dependencies: ["6A8869A6275ECA3E"]
+			dependencies: [
+				"6A8869A6275ECA3E"
+				"6834E0CEC40F4286"
+			]
 			description: [
 				"{gto.hv.quests.19B006CEA837B6B4.description0}"
 				""
@@ -1316,7 +1328,7 @@
 				}
 			]
 			title: "{gto.hv.quests.21624A4965D8D2D7.title}"
-			x: 11.5d
+			x: 12.0d
 			y: 3.5d
 		}
 		{
@@ -1419,6 +1431,8 @@
 			dependencies: ["31C82EC18535B9B9"]
 			description: ["{gto.hv.quests.45D3AA16A96DECD7.description0}"]
 			id: "45D3AA16A96DECD7"
+			optional: true
+			shape: "diamond"
 			tasks: [{
 				id: "71C6003B9CFEB691"
 				item: "gtocore:integral_framework_mv"
@@ -1430,6 +1444,7 @@
 		{
 			dependencies: ["4BA890971C18F938"]
 			id: "5F8EB07FBB3BBECF"
+			shape: "diamond"
 			tasks: [{
 				id: "4E7E249542CAE458"
 				item: "gtocore:integral_framework_hv"
