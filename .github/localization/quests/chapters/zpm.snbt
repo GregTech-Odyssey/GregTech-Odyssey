@@ -44,11 +44,15 @@
 		}
 		{
 			dependencies: [
-				"717F73B64CA7E035"
 				"59864AA3CB69A3CF"
 				"2C79D433651D795C"
 			]
-			description: ["{gto.zpm.quests.5B5C82819DC2D27A.description0}"]
+			description: [
+				"{gto.zpm.quests.5B5C82819DC2D27A.description0}"
+				""
+				"{gto.zpm.quests.5B5C82819DC2D27A.description1}"
+			]
+			hide_dependency_lines: false
 			id: "5B5C82819DC2D27A"
 			shape: "gear"
 			size: 2.0d
@@ -69,6 +73,7 @@
 			]
 			dependency_requirement: "one_completed"
 			description: ["{gto.zpm.quests.717F73B64CA7E035.description0}"]
+			hide_dependent_lines: true
 			id: "717F73B64CA7E035"
 			tasks: [{
 				id: "01CEF32406C73D16"
@@ -169,6 +174,7 @@
 		}
 		{
 			dependencies: ["608F56E6A187940C"]
+			hide_dependency_lines: true
 			id: "0BB1BDBE8BB307E4"
 			shape: "circle"
 			tasks: [{
@@ -391,25 +397,26 @@
 				item: "gtceu:meat_dust"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 0.0d
+			x: -4.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["06099A423968D6E0"]
 			id: "7A12577E23FC07A1"
+			shape: "hexagon"
 			tasks: [{
 				id: "2D515B6F4FADC217"
 				item: "gtocore:bacterial_growth_medium_bucket"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 0.0d
+			x: -4.0d
+			y: -1.5d
 		}
 		{
 			dependencies: [
 				"7A12577E23FC07A1"
 				"1F94544576D30A92"
-				"7651697F32169E49"
+				"717F73B64CA7E035"
 			]
 			description: ["{gto.zpm.quests.747599D690EADE56.description0}"]
 			id: "747599D690EADE56"
@@ -441,55 +448,81 @@
 			]
 			title: "{gto.zpm.quests.747599D690EADE56.title}"
 			x: -6.0d
-			y: 0.5d
-		}
-		{
-			dependencies: ["747599D690EADE56"]
-			id: "7FED9F9CC769610C"
-			subtitle: "{gto.zpm.quests.7FED9F9CC769610C.subtitle}"
-			tasks: [{
-				id: "7549EC850E00A09F"
-				item: "gtceu:bacteria_bucket"
-				type: "item"
-			}]
-			x: -7.5d
-			y: 2.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
-				"502F7DD0C930D5BF"
+				"747599D690EADE56"
+				"65A2C89AD67604DE"
+				"7651697F32169E49"
+				"06DF372F16F1A5CA"
+			]
+			description: ["{gto.zpm.quests.7FED9F9CC769610C.description0}"]
+			hide_dependency_lines: true
+			id: "7FED9F9CC769610C"
+			subtitle: "{gto.zpm.quests.7FED9F9CC769610C.subtitle}"
+			tasks: [
+				{
+					id: "7549EC850E00A09F"
+					item: "gtceu:bacteria_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5C556CC949E868E7"
+					item: "gtocore:rapidly_replicating_animal_cells_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "05ACCFEFEDCCC541"
+					type: "checkmark"
+				}
+			]
+			title: "{gto.zpm.quests.7FED9F9CC769610C.title}"
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
 				"747599D690EADE56"
 				"351F704B01567BD7"
+				"7651697F32169E49"
 			]
 			id: "59864AA3CB69A3CF"
+			shape: "hexagon"
+			size: 1.5d
 			subtitle: "{gto.zpm.quests.59864AA3CB69A3CF.subtitle}"
 			tasks: [{
 				id: "129F506D7D108336"
 				item: "gtocore:pluripotency_induction_gene_therapy_fluid_bucket"
 				type: "item"
 			}]
-			x: -4.5d
+			x: -4.0d
 			y: 1.5d
 		}
 		{
-			dependencies: [
-				"1F94544576D30A92"
-				"65A2C89AD67604DE"
+			dependencies: ["65A2C89AD67604DE"]
+			description: [
+				"{gto.zpm.quests.2C79D433651D795C.description0}"
+				""
+				"{gto.zpm.quests.2C79D433651D795C.description1}"
 			]
-			description: ["{gto.zpm.quests.2C79D433651D795C.description0}"]
 			hide_dependent_lines: true
 			id: "2C79D433651D795C"
+			shape: "hexagon"
 			tasks: [{
 				id: "776EC25032BCC4A6"
 				item: "gtceu:sterilized_growth_medium_bucket"
 				type: "item"
 			}]
-			x: -4.5d
-			y: -1.5d
+			x: -6.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["3490AACD4AA62C5D"]
 			description: ["{gto.zpm.quests.06DF372F16F1A5CA.description0}"]
+			hide_dependent_lines: true
 			id: "06DF372F16F1A5CA"
 			shape: "hexagon"
 			size: 1.5d
@@ -573,6 +606,7 @@
 			dependencies: [
 				"502F7DD0C930D5BF"
 				"0099AE8ACBB72951"
+				"06DF372F16F1A5CA"
 			]
 			id: "44B34806DA0FEA9A"
 			subtitle: "{gto.zpm.quests.44B34806DA0FEA9A.subtitle}"
@@ -585,18 +619,26 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["06DF372F16F1A5CA"]
-			description: ["{gto.zpm.quests.351F704B01567BD7.description0}"]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
+			dependencies: [
+				"49E04C29B878D3A8"
+				"2969C96B6500C01D"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"{gto.zpm.quests.351F704B01567BD7.description0}"
+				""
+				"{gto.zpm.quests.351F704B01567BD7.description1}"
+				""
+				"{gto.zpm.quests.351F704B01567BD7.description2}"
+			]
 			id: "351F704B01567BD7"
 			tasks: [{
 				id: "259434E989076A2D"
 				item: "gtocore:glacio_spirit"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 7.0d
+			x: -0.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["3490AACD4AA62C5D"]
@@ -778,6 +820,7 @@
 			dependencies: [
 				"78904EE60D9B411E"
 				"7C85C4B5A3E64723"
+				"49EECA793E1FF66F"
 			]
 			id: "0007751813572404"
 			shape: "hexagon"
@@ -829,6 +872,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["502F7DD0C930D5BF"]
 			description: ["{gto.zpm.quests.7651697F32169E49.description0}"]
 			id: "7651697F32169E49"
 			tasks: [
@@ -854,13 +898,14 @@
 				}
 			]
 			title: "{gto.zpm.quests.7651697F32169E49.title}"
-			x: -7.5d
-			y: 0.5d
+			x: -6.0d
+			y: 1.5d
 		}
 		{
 			dependencies: [
 				"7A12577E23FC07A1"
 				"1F94544576D30A92"
+				"717F73B64CA7E035"
 			]
 			description: ["{gto.zpm.quests.65A2C89AD67604DE.description0}"]
 			id: "65A2C89AD67604DE"
@@ -872,7 +917,7 @@
 			}]
 			title: "{gto.zpm.quests.65A2C89AD67604DE.title}"
 			x: -6.0d
-			y: -0.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["7FED9F9CC769610C"]

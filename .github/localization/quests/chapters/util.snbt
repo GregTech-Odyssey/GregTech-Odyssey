@@ -106,6 +106,16 @@
 			x: 6.5d
 			y: 0.0d
 		}
+		{
+			id: "2969C96B6500C01D"
+			tasks: [{
+				id: "7BE420E2647FAD05"
+				item: "gtocore:glacio_spirit"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
 	]
 	title: "{gto.util.title}"
 }
