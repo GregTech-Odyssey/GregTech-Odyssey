@@ -1,13 +1,13 @@
 name = "DoesPotatoTick?"
-filename = "doespotatotick-1.20.1-5.2.6.jar"
+filename = "doespotatotick-1.20.1-5.3.2.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "2a860b25ff19614ab687cd6e05d0248ffc968a3c"
+hash = "6588d6002bab8f72785fdd87e2cb97fc038ef331"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6874394
+file-id = 6951365
 project-id = 825355

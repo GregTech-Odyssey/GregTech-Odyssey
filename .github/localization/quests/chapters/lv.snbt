@@ -150,6 +150,7 @@
 			size: 1.5d
 			subtitle: "{gto.lv.quests.021F533355CCBABA.subtitle}"
 			tasks: [{
+				count: 16L
 				id: "580C766FEB158918"
 				item: "gtceu:cupronickel_coil_block"
 				type: "item"
@@ -672,6 +673,8 @@
 				""
 				"{gto.lv.quests.6465CCE684E0DD3B.description3}"
 				"{gto.lv.quests.6465CCE684E0DD3B.description4}"
+				""
+				"{gto.lv.quests.6465CCE684E0DD3B.description5}"
 			]
 			hide_dependency_lines: true
 			id: "6465CCE684E0DD3B"
@@ -1202,6 +1205,7 @@
 			description: ["{gto.lv.quests.41579A15F57773B0.description0}"]
 			id: "41579A15F57773B0"
 			shape: "hexagon"
+			subtitle: "{gto.lv.quests.41579A15F57773B0.subtitle}"
 			tasks: [{
 				id: "49E36A3610706901"
 				item: "gtocore:lv_rolling"
@@ -1412,7 +1416,7 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: 5.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["707FE9ADE3861C97"]
@@ -1684,11 +1688,8 @@
 			y: -8.5d
 		}
 		{
-			description: [
-				"{gto.lv.quests.7F65A1C533ED1C3B.description0}"
-				""
-				"{gto.lv.quests.7F65A1C533ED1C3B.description1}"
-			]
+			dependencies: ["29896685477AA469"]
+			description: ["{gto.lv.quests.7F65A1C533ED1C3B.description0}"]
 			id: "7F65A1C533ED1C3B"
 			subtitle: "{gto.lv.quests.7F65A1C533ED1C3B.subtitle}"
 			tasks: [{
@@ -1698,7 +1699,7 @@
 			}]
 			title: "{gto.lv.quests.7F65A1C533ED1C3B.title}"
 			x: 7.0d
-			y: -1.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["6A9DFD965CA33D75"]
@@ -1728,6 +1729,41 @@
 			}]
 			x: -3.0d
 			y: -9.5d
+		}
+		{
+			dependencies: ["06534664971F6E68"]
+			description: [
+				"{gto.lv.quests.39879EA8A9F79913.description0}"
+				""
+				"{gto.lv.quests.39879EA8A9F79913.description1}"
+				""
+				"{gto.lv.quests.39879EA8A9F79913.description2}"
+				""
+				"{gto.lv.quests.39879EA8A9F79913.description3}"
+			]
+			icon: "gtceu:stainless_steel_frame"
+			id: "39879EA8A9F79913"
+			subtitle: "{gto.lv.quests.39879EA8A9F79913.subtitle}"
+			tasks: [
+				{
+					count: 10L
+					id: "5C48EA6B31993C20"
+					item: "gtceu:stainless_steel_frame"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "251BC194B4FE1747"
+					item: {
+						Count: 8
+						id: "gtceu:steel_pipe_casing"
+					}
+					type: "item"
+				}
+			]
+			title: "{gto.lv.quests.39879EA8A9F79913.title}"
+			x: 1.5d
+			y: 1.5d
 		}
 	]
 	subtitle: ["{gto.lv.subtitle0}"]

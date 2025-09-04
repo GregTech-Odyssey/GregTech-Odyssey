@@ -44,3 +44,12 @@
 [Misc]
 	SendWarningMessageWhenPlayerLogIn = false
 
+[Client]
+	#If the tick of an entity is skipped by this mod, stop its client rendering so that players won't get it stuck in their worlds.
+	StopRenderingSkippedEntities = true
+	#How often the mod checks if an entity should be ticked and rendered, counted in rendering calls instead of game ticks. Higher values mean it checks less often, which might save a tiny bit of performance (honestly, not super noticeable lol), but updates will feel a little slower.
+	#Range: > 0
+	EntityRenderableRefreshInterval = 60
+	#Use client's average fps as EntityRenderableRefreshInterval.
+	UseAvgFpsAsRefreshInterval = true
+

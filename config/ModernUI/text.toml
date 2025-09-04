@@ -80,7 +80,8 @@
 	allowSDFTextIn2D = true
 	#Control the anti-aliasing of raw glyph rasterization.
 	antiAliasing = true
-	#Control the FreeType linear metrics and font hinting of raw glyph metrics.
+	#When enabled, text layout uses fractional metrics with no font hinting.
+	#When disabled, text layout uses integer metrics with full font hinting.
 	#Disable if on low-res monitor; enable for linear text.
 	linearMetrics = true
 	#Control the minimum pixel density for SDF text and text in 3D world rendering.
@@ -90,8 +91,12 @@
 	minPixelDensityForSDF = 4
 	#When enabled, the outline of the experience level text will be tweaked.
 	tweakExperienceText = true
-	#Enable linear sampling for A8 font atlases with mipmaps, mag filter will be always NEAREST.
-	#We prefer computeDeviceFontSize and allowSDFTextIn2D, then setting this to false can improve performance.
-	#If either of the above two is false or Shaders are active, then setting this to true can improve quality.
+	#Enable linear sampling for A8 font atlases with mipmaps, mag filter will be always
+	#NEAREST. We prefer computeDeviceFontSize and allowSDFTextIn2D, then setting this to
+	#false can improve performance. If either of the above two is false or Shaders are active,
+	#then setting this to true can improve readability.
 	linearSamplingA8Atlas = false
+	#Control the horizontal offset for bitmap fonts, in GUI scaled pixels.
+	#Range: 0.0 ~ 1.0
+	bitmapOffset = 0.5
 
