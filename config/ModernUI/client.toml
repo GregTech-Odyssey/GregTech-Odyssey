@@ -100,8 +100,14 @@
 	removeTelemetry = false
 	#Allow Slack or Discord shortcodes to replace Unicode Emoji Sequences in chat.
 	emojiShortcodes = true
+	#Specify a sound event to custom the ding sound effect.
+	#The default is "minecraft:entity.experience_orb.pickup"
+	dingSound = ""
+	#Specify a volume multiplier to the ding sound effect.
+	#Range: 0.0 ~ 10.0
+	dingVolume = 0.25
 
-#View system config, currently not working.
+#View Config
 [view]
 	#Force layout direction to RTL, otherwise, the current Locale setting.
 	forceRtl = false
@@ -135,6 +141,18 @@
 	#Amount to scroll in response to a horizontal scroll event, in dips per axis value.
 	#Range: 0.0 ~ 1024.0
 	horizontalScrollFactor = 64.0
+	#Distance a hover can wander while it is still considered "stationary" in dips.
+	#Range: 0 ~ 1024
+	hoverSlop = 4
+	#The coefficient of friction applied to flings/scrolls.
+	#Range: 0.001 ~ 7.389
+	scrollFriction = 0.014999999664723873
+	#The duration in milliseconds before a hover event causes a tooltip to be shown.
+	#Range: 0 ~ 1200
+	hoverTooltipShowTimeout = 500
+	#The duration in milliseconds before mouse inactivity causes a tooltip to be hidden.
+	#Range: 3000 ~ 120000
+	hoverTooltipHideTimeout = 30000
 
 #Font Config
 [font]
@@ -164,4 +182,7 @@
 	#Whether to use Google Noto Color Emoji, otherwise grayscale emoji (faster).
 	#See Unicode 15.0 specification for details on how this affects text layout.
 	useColorEmoji = false
+	#When enabled, text layout uses fractional metrics with no font hinting and applies sub-pixel positioning.
+	#When disabled, text layout uses integer metrics with full font hinting.
+	linearMetrics = true
 

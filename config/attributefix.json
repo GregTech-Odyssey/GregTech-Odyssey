@@ -451,17 +451,6 @@
         "value": 10
       }
     },
-    "forge:swim_speed": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 1024,
-        "value": 1024
-      }
-    },
     "ars_nouveau:ars_nouveau.perk.warding": {
       "enabled": false,
       "min": {
@@ -474,6 +463,17 @@
       }
     },
     "ars_nouveau:ars_nouveau.perk.wixie": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
+    "forge:swim_speed": {
       "enabled": false,
       "min": {
         "default": 0,
