@@ -11,7 +11,7 @@
 		id: "112AADE317BB4B64"
 		linked_quest: "3D1E66868544975F"
 		shape: "gear"
-		size: 1.5d
+		size: 2.0d
 		x: -12.0d
 		y: 3.0d
 	}]
@@ -22,9 +22,9 @@
 				"26484E626E859718"
 			]
 			description: [
-				"&e超净间&r是堵在EV电路的第一个墙，好好招待它！"
+				"尽快做出EV电路，&6超净间&r是堵在&eEV电路&r路上的第一个墙，好好招待它！"
 				""
-				"在这个阶段你会做出自己的第一个火箭，希望你的航天之旅一切顺利"
+				"在这个阶段你会遇到第一个&a生产挑战&r：做出自己的第一个火箭。希望你的航天之旅一切顺利"
 			]
 			id: "5D828A5258BFF11F"
 			shape: "gear"
@@ -245,6 +245,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["7E061DC16432D549"]
 			description: ["经典配方，不用多说，你也应该搭建至少一条小产线"]
 			hide_dependency_lines: true
 			id: "7C30575AACA9FE5B"
@@ -361,7 +362,7 @@
 				item: "gtceu:transistor"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 6.0d
 			y: -4.0d
 		}
 		{
@@ -387,12 +388,12 @@
 				item: "gtocore:coolant_liquid_bucket"
 				type: "item"
 			}]
-			x: -6.5d
+			x: -8.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["030007178B83809E"]
-			description: ["有了&6坎塔尔合金线圈&r你才能烧制出&6硅锭&r"]
+			description: ["许多配方有&e线圈等级&r的要求。有了&6坎塔尔合金线圈&r你才能烧制出&6硅锭&r"]
 			id: "58FBD21AFE9272CA"
 			shape: "hexagon"
 			tasks: [{
@@ -450,7 +451,9 @@
 				""
 				"部分多方块机器包含&l&6整体框架&r&r，它会限制你所能运行的&e配方等级&r，机器实际运行电压会取能源仓提供电压和整体框架电压的极小值"
 				""
-				"不过如果现在做，你可能只能承担LV级别的整体框架"
+				"通用工厂在其中还更为&e特殊&r，你只能安装&c恰好&r等于&6其整体框架&r的能源仓，但不限制功率"
+				""
+				"不过如果现在做，你可能只能承担&7LV&r级别的整体框架，建议在&6HV&r阶段能够生产&6钛锭&r之后开始大量制作"
 			]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
@@ -485,7 +488,7 @@
 				item: "gtceu:mv_circuit_assembler"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 7.0d
 			y: -0.5d
 		}
 		{
@@ -544,9 +547,11 @@
 		{
 			dependencies: ["3899164922A734D8"]
 			description: [
-				"批量部件制作，比普通组装省25%材料"
+				"批量部件制作，比普通组装省25%材料。&6部件装配机外壳&r影响可以可以制作的&e部件等级&r。"
 				""
 				"想办法自动化执行部装配方！"
+				""
+				"不过&6部件装配机外壳&r在此阶段&c过于昂贵&r，可以考虑到达&6HV&r阶段&e提升生产力&r之后再进行制作"
 			]
 			hide_dependency_lines: true
 			id: "0A833C1D2C10C697"
@@ -613,7 +618,7 @@
 				}
 			]
 			title: "&e微型处理器"
-			x: 7.5d
+			x: 7.0d
 			y: 1.5d
 		}
 		{
@@ -719,8 +724,8 @@
 				title: "电容"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 0.0d
+			x: 6.0d
+			y: 0.5d
 		}
 		{
 			dependencies: [
@@ -757,8 +762,8 @@
 				item: "gtmthings:mv_digital_miner"
 				type: "item"
 			}]
-			x: 8.5d
-			y: -3.75d
+			x: 9.0d
+			y: -0.5d
 		}
 		{
 			dependencies: [
@@ -1140,6 +1145,7 @@
 			y: -0.5d
 		}
 		{
+			dependencies: ["3D1E66868544975F"]
 			hide_dependency_lines: true
 			id: "1DBBBBC4F368466E"
 			tasks: [{

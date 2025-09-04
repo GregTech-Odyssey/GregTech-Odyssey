@@ -44,7 +44,7 @@
 		}
 		{
 			dependencies: ["09C2AF1A68A06D69"]
-			description: ["为什么它的高炉造价这么夸张？！或许我们要考虑高温反应..."]
+			description: ["为什么它的&6合金冶炼&r造价这么夸张？！或许我们要考虑&6电弧炉&r..."]
 			id: "5CB9B68188A45C6B"
 			tasks: [{
 				id: "0F08286FDB0CAB60"
@@ -115,7 +115,11 @@
 		}
 		{
 			dependencies: ["1E239C34C36FAD60"]
-			description: ["为你的大机器提供并行！"]
+			description: [
+				"为你的大机器提供并行！"
+				""
+				"允许机器一次性以多倍功率处理多个配方，某种意义下相当于提供无损超频。"
+			]
 			id: "156E62719405A609"
 			shape: "diamond"
 			size: 1.5d
@@ -202,7 +206,7 @@
 			dependencies: ["72C2E41EC2ACF82E"]
 			id: "1D413C9604012CBA"
 			shape: "gear"
-			size: 1.5d
+			size: 2.0d
 			subtitle: "第一个ZPM电路"
 			tasks: [{
 				id: "16CF88CD1D82721D"
@@ -271,10 +275,15 @@
 		}
 		{
 			dependencies: ["13FEF91314898EB1"]
-			description: ["装配线是&e有序&r的，也就是你必须按照配方顺序给每个格子填充原料"]
+			description: [
+				"装配线最长17格，你可以切换emi多方块结构中的P:0，P:1来查看最小和最大的装配线"
+				""
+				"装配线是&e有序&r的，你必须按照配方顺序给每个格子填充原料，离装配线主机&b最近&r的&6输入总线&r为配方中第一个材料"
+			]
 			id: "251002F2103BDA84"
 			shape: "gear"
 			size: 2.0d
+			subtitle: "新的组装方式"
 			tasks: [{
 				id: "0D54C1EF7D500F32"
 				item: "gtceu:assembly_line"
@@ -402,6 +411,7 @@
 			id: "5253C403ABF7BC59"
 			shape: "hexagon"
 			size: 1.5d
+			subtitle: "流体钻机的好帮手"
 			tasks: [{
 				id: "2E0FCF54D1C1103F"
 				item: "gtocore:drilling_control_center"
@@ -440,7 +450,11 @@
 		}
 		{
 			dependencies: ["251002F2103BDA84"]
-			description: ["比普通的调节范围大一倍，且可以无条件地提升机器的速度和减慢发电机的燃料消耗速度！"]
+			description: [
+				"根据游戏难度的不同有不同的调节范围，可以无条件地提升机器的速度和减慢发电机的燃料消耗速度！"
+				""
+				"&o&7所有的环境维护仓也有它们的可配置版本&r"
+			]
 			id: "56E262C94F46A592"
 			optional: true
 			shape: "diamond"
@@ -472,7 +486,7 @@
 			description: [
 				"IV阶段解锁的大部分&6大批量加工机器&r都可以安装&e8个能源仓&r，这意味着你可以通过&e升压&r来直接加工本阶段的材料，而无需制造这个阶段的单方块机器——除了&6组装机&r，因为你需要一台&6LuV级别的组装机&r来制造&6至少一个整体框架(LuV)&r安装到你的&6大型组装厂&r"
 				""
-				"还需要注意的是，你的&6部件组装机&r在这个阶段已经几乎不能胜任了，你现在只能使用&6装配线&r配方"
+				"还需要注意的是，你的&6部件组装机&r在这个阶段必须进行升级才能制作更高级的部件"
 			]
 			id: "2F03D93AC7DBE58D"
 			shape: "gear"
@@ -500,10 +514,7 @@
 			y: -1.5d
 		}
 		{
-			dependencies: [
-				"251002F2103BDA84"
-				"2C9C7F2B5A15B845"
-			]
+			dependencies: ["251002F2103BDA84"]
 			description: ["比一般的反应釜有线圈加成，还可以安装催化剂仓"]
 			id: "1B8F815BF14E7AE8"
 			shape: "hexagon"
@@ -518,7 +529,11 @@
 		}
 		{
 			dependencies: ["1E239C34C36FAD60"]
-			description: ["如果你遇到了很慢的配方，可以试试这个"]
+			description: [
+				"如果你遇到了很慢的配方，可以试试这个"
+				""
+				"处理阵列可以安装&6激光仓&r来进行更多次数的&e超频&r，但处理阵列每次超频获得的&e耗时减免&r&b较少&r。你可以用&c高能耗&r作为代价来获得比大型机器更快的&e处理速度&r"
+			]
 			hide_dependency_lines: true
 			id: "7B8AFBA66325BE5F"
 			shape: "hexagon"
@@ -819,6 +834,7 @@
 		}
 		{
 			dependencies: ["4CD7E4E23FCD3D84"]
+			description: ["别忘了穿上&bT3&r器官"]
 			id: "335934E09401C67B"
 			shape: "hexagon"
 			size: 1.5d
@@ -883,9 +899,9 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["54AC456E31D64E42"]
+			dependencies: ["2BD46F9D8A842B4A"]
 			description: [
-				"IV时代解锁了大量的多方块机器，现在有了能够负担得起的&6量子处理器集群&r，将你的单方块机器升级为大批量加工巨兽吧！"
+				"IV时代解锁了大量的&e多方块机器&r，将你的单方块机器升级为大批量加工巨兽吧！"
 				""
 				"[ \"详见\", { \"text\": \"大批量加工\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"68C24A1ED361D607\" } }, \"章节\" ]"
 			]
@@ -895,8 +911,8 @@
 				title: "大批量加工"
 				type: "checkmark"
 			}]
-			x: 16.0d
-			y: -10.5d
+			x: 8.5d
+			y: -7.0d
 		}
 		{
 			dependencies: [
@@ -959,6 +975,7 @@
 		{
 			dependencies: ["23DB14B3093506B8"]
 			id: "1380B1134D0C1C8E"
+			shape: "diamond"
 			subtitle: "升级你的大型机器"
 			tasks: [{
 				id: "1EAAD9C8D9D7DEA3"
@@ -970,8 +987,13 @@
 		}
 		{
 			dependencies: ["251002F2103BDA84"]
-			description: ["你可以用这个来代替过去的存储总线方案"]
+			description: [
+				"你可以用这个来代替过去的存储总线方案"
+				""
+				"[ \"点\", { \"text\": \"这里\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5F522D73AF5F1B2F\" } }, \"跳转用法\" ]"
+			]
 			id: "029CAD5FD378D3E1"
+			optional: true
 			subtitle: "轮椅自动化"
 			tasks: [{
 				id: "3CDD1FE8E3131DE2"
@@ -983,7 +1005,11 @@
 		}
 		{
 			dependencies: ["1B8F815BF14E7AE8"]
-			description: ["催化剂仓允许你重复利用催化剂，每次使用只会消耗1点耐久而非消耗"]
+			description: [
+				"催化剂仓允许你重复利用催化剂，每次使用只会消耗1点耐久而非消耗"
+				""
+				"注意催化剂仓中只能放入由&6催化剂基底&r合成的催化剂"
+			]
 			id: "09C9709EE53D0022"
 			tasks: [
 				{
@@ -1014,12 +1040,16 @@
 		}
 		{
 			dependencies: ["1CF7845875EEFA3B"]
-			description: ["造价不菲"]
+			description: [
+				"跨维度传无线电"
+				""
+				"注意搭建时需要在&e每个&r需要无线电的维度都搭建一个（除了无限能源塔所在的维度），能够使用的&e最高电压&r取决于其上安装的&6整体框架&r"
+			]
 			hide_dependency_lines: true
 			id: "388D743C6BA5D995"
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "跨纬度传电"
+			subtitle: "终于不需要在外星放发电机了"
 			tasks: [{
 				id: "3F3435A0F2EFDC66"
 				item: "gtocore:wireless_dimension_repeater"
@@ -1036,7 +1066,7 @@
 			description: [
 				"装配线在合成物品时，必须要先经过&e研究&r"
 				""
-				"你需要先在扫描仪中用闪存研究好后，放入&b数据仓&r中，才能让装配线解锁配方"
+				"你需要先在&6扫描仪&r中用闪存研究好后，放入&b数据仓&r中，才能让装配线解锁配方"
 				""
 				"在此之后，你还会遇到更加强大的研究仪器"
 			]

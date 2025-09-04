@@ -145,6 +145,7 @@
 			y: 2.0d
 		}
 		{
+			description: ["喝了可乐之后在小机器上跳来跳去可以加速小机器工作"]
 			icon: "gtocore:gto_overseer_coke_ulv"
 			id: "77D7AF6D8806AFBF"
 			rewards: [{

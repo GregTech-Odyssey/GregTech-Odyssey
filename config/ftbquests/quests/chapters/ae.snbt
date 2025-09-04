@@ -6,7 +6,12 @@
 	icon: "ae2:interface"
 	id: "775486FF148AC1FA"
 	order_index: 4
-	quest_links: [ ]
+	quest_links: [{
+		id: "73C7693D280F6D40"
+		linked_quest: "19B006CEA837B6B4"
+		x: 2.0d
+		y: -7.5d
+	}]
 	quests: [
 		{
 			dependencies: ["298BEC345930429A"]
@@ -366,7 +371,11 @@
 		}
 		{
 			dependencies: ["423FD1A25E4E2C85"]
-			description: ["样板编码用于编写样板，样板管理用来管理各个样板供应器的内部情况."]
+			description: [
+				"样板编码用于编写样板，样板管理用来管理各个样板供应器的内部情况。"
+				""
+				"在样板编码终端页面中呼出EMI时，可通过配方右下角的&b加号&r来直接填充样板。&e多方块&r同样也可以通过加号填充样板，并且可以编写不同形态。不要傻傻的手写样板哦"
+			]
 			icon: "ae2:blank_pattern"
 			id: "6834E0CEC40F4286"
 			subtitle: "终于可以放弃重复的手搓工作了"
@@ -615,8 +624,8 @@
 				}
 			]
 			title: "原版合成配方的工作方块"
-			x: 4.0d
-			y: -7.5d
+			x: 5.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["727CCA6FB49E142D"]
@@ -728,8 +737,8 @@
 				}
 			]
 			title: "装配矩阵"
-			x: 4.0d
-			y: -9.0d
+			x: 7.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["727CCA6FB49E142D"]
@@ -778,11 +787,18 @@
 			]
 			icon: "gtceu:me_pattern_buffer"
 			id: "0BC456B4331C09F5"
-			tasks: [{
-				id: "68D37A606413E9A9"
-				item: "gtceu:me_pattern_buffer"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "68D37A606413E9A9"
+					item: "gtceu:me_pattern_buffer"
+					type: "item"
+				}
+				{
+					id: "6F7B3E6046E2F22A"
+					item: "gtceu:me_pattern_buffer_proxy"
+					type: "item"
+				}
+			]
 			title: "更好的下单"
 			x: -2.0d
 			y: -3.0d
@@ -790,29 +806,36 @@
 		{
 			dependencies: ["6834E0CEC40F4286"]
 			description: [
-				"和纠缠方块类似，相当于隔空操作方块"
+				"和纠缠方块类似，相当于隔空操作方块进行物流"
 				"进阶版本可同时绑定20个目标，螺丝刀点击可切换轮询模式"
 			]
 			icon: "gtocore:tesseract_generator"
 			id: "5F522D73AF5F1B2F"
 			subtitle: "比镜像更好"
-			tasks: [{
-				id: "0BDCC9DBE42F86B1"
-				item: "gtocore:tesseract_generator"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "0BDCC9DBE42F86B1"
+					item: "gtocore:tesseract_generator"
+					type: "item"
+				}
+				{
+					id: "22717689B487D4E8"
+					item: "gtocore:coordinate_card"
+					type: "item"
+				}
+			]
 			title: "纠缠效应的具体应用"
-			x: 2.0d
+			x: 4.0d
 			y: -7.5d
 		}
 		{
 			dependencies: ["6834E0CEC40F4286"]
 			description: [
-				"机器覆盖版和发信器互相配合，利用红石信号做到AE网络特定物品或流体的库存维持"
-				""
+				"&6机器覆盖版&r和&6发信器&r互相配合，利用&e红石信号&r做到AE网络&b特定&r物品或流体的&e库存维持"
+				"&r"
 				"比如和大化反搭配自动合成硫酸等常用的化学材料，这样下单合成会很快"
 				""
-				"请求器也可以做到这点，但其属于自动下单，会占用到CPU进行合成"
+				"请求器也可以做到这点，但其属于自动下单，会占用到&eCPU&r进行合成"
 			]
 			icon: "merequester:requester"
 			id: "44487970FC3FBAED"
@@ -869,6 +892,7 @@
 			y: -3.0d
 		}
 		{
+			dependencies: ["3490AACD4AA62C5D"]
 			description: [
 				"比装配矩阵更快，性能更好"
 				"技术细节："
@@ -921,8 +945,82 @@
 				item: "gtocore:me_craft_pattern_part_machine"
 				type: "item"
 			}]
-			x: 5.5d
-			y: -6.0d
+			x: 7.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["5FCFE3D6B36CC409"]
+			description: [
+				"使用列出的方块互相拼接，可以拼出一个或多个自定义的监控墙，供实时观察基地内情况。"
+				""
+				"&o&7监控室大爷"
+			]
+			id: "0BDCD6AAFF56A0EB"
+			subtitle: "搭建一面监控器墙!"
+			tasks: [
+				{
+					id: "48D12B3BF4B7510D"
+					item: "gtocore:basic_monitor"
+					type: "item"
+				}
+				{
+					id: "0601A377CC6B0D29"
+					item: "gtocore:monitor_electricity"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "23B3C8F11D0F69D1"
+					item: "gtocore:monitor_mana"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "18790BD9404BA305"
+					item: "gtocore:monitor_cwu"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7FA68D2AA3C9976D"
+					item: "gtocore:monitor_custom"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "25A2C06AC1FE892D"
+					item: "gtocore:monitor_custom"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "29BD87E89F616008"
+					item: "gtocore:monitor_ae_throughput"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5E625D3AB403466F"
+					item: "gtocore:monitor_ae_cpu"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "08FAFE45F7051139"
+					item: "gtocore:monitor_machine"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "60BEC1AB769C2A40"
+					item: "gtocore:coordinate_card"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "好玩的"
+			x: -8.5d
+			y: -7.5d
 		}
 	]
 	subtitle: ["Applied Energistics 2"]

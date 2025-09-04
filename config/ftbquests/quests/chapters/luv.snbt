@@ -121,7 +121,7 @@
 			description: [
 				"这一章节你将体验到一门独特的产线——&a生&r&2物&r&a线&r"
 				""
-				"普通的晶体处理器已经接近无机物的极限... 或许菌群可以帮我们做些计算？"
+				"普通的&6晶体处理器&r已经接近无机物的极限... 或许&a菌&r&2群&r可以帮我们做些计算？"
 				""
 				"在GT，所有的科技就像&a魔&r&2法&r一样"
 			]
@@ -158,9 +158,9 @@
 				"7EA0644BB352BBB5"
 			]
 			description: [
-				"装配线上直接放一个数据仓显然不能满足这么多配方的需要，因此我们提供了&e数据库&r..."
+				"装配线上直接放一个数据仓显然不能满足这么多配方的需要，因此我们提供了&6数据库&r..."
 				""
-				"数据库可以放很多数据仓，只要提供能源，都可以通过算力数据仓给装配线提供数据！"
+				"数据库可以放很多数据仓，只要提供能源，都可以通过&6算力数据仓&r给装配线提供数据！"
 			]
 			id: "7AD94105147C5940"
 			shape: "hexagon"
@@ -171,7 +171,7 @@
 				item: "gtceu:data_bank"
 				type: "item"
 			}]
-			x: 5.25d
+			x: 5.0d
 			y: 5.0d
 		}
 		{
@@ -220,8 +220,8 @@
 				item: "gtceu:uranium_rhodium_dinaquadide_ingot"
 				type: "item"
 			}]
-			x: 10.5d
-			y: 7.0d
+			x: 7.0d
+			y: 3.0d
 		}
 		{
 			dependencies: [
@@ -230,11 +230,11 @@
 				"4A5C6525DD244359"
 			]
 			description: [
-				"最节省的方案是：1个&b主机&r，48个&b机械方块&r，31个&b聚变玻璃&r，16个&b输入仓&r，16个&b输出仓&r，16个&b能源仓&r，&a上下堆叠&r可以节省大量机械方块！"
+				"&6聚变机械方块&r对于现在来说实在是太贵了！最节省的方案是：1个&b主机&r，48个&b机械方块&r，31个&b聚变玻璃&r，16个&b输入仓&r，16个&b输出仓&r，16个&b能源仓&r，&a上下堆叠&r可以节省大量机械方块！（在emi多方块界面中点击P即可切换带有玻璃的形态）"
 				""
 				"需要攒够一定的能量才能开机，如果停止运行会慢慢冷却，需要下一次攒够能量才会运行"
 				""
-				"&7温馨小提示：你可以通过标记输出仓的过滤来保证只有一个仓会输出流体！&r"
+				"&7&o温馨小提示：你可以通过标记输出仓的过滤来保证只有一个仓会输出流体！&r"
 			]
 			hide_dependency_lines: false
 			id: "11CF6F5DE4A3CC4F"
@@ -259,7 +259,7 @@
 				item: "gtocore:flocculation_purification_unit"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 5.0d
 			y: 0.5d
 		}
 		{
@@ -270,7 +270,7 @@
 				item: "gtocore:flocculent_water_bucket"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 9.0d
 			y: 0.5d
 		}
 		{
@@ -301,7 +301,6 @@
 			id: "4B0A791FB84B1F31"
 			optional: true
 			shape: "diamond"
-			size: 1.5d
 			tasks: [{
 				id: "44A7ED330B629A00"
 				item: "gtocore:energy_injector"
@@ -342,7 +341,11 @@
 		}
 		{
 			dependencies: ["11CF6F5DE4A3CC4F"]
-			description: ["速度很慢，你可能需要挂机来获得你的第一批&a铕&r"]
+			description: [
+				"速度很慢，你可能需要挂机来获得你的第一批&a铕&r"
+				""
+				"后面你可以用&e铕粉&r直接烧制成&e铕锭&r，不要忘记更新你的产线"
+			]
 			id: "7E1C35C2DE805E6B"
 			shape: "hexagon"
 			tasks: [{
@@ -500,17 +503,24 @@
 		}
 		{
 			dependencies: ["722C24B0C50641D1"]
-			description: ["并行版本的超强聚变堆！"]
+			dependency_requirement: "one_completed"
+			description: [
+				"并行版本的超强聚变堆！"
+				""
+				"有史以来你做过最贵的东西，但是这值得。它能够&c极大幅&r提升你聚变的&e速度&r。"
+				""
+				"&o&7你是不是在多方块页面看到了几个新的仓室？它们在UV阶段才能够制造"
+			]
 			id: "5548E798636F52B2"
 			shape: "diamond"
-			size: 2.0d
+			size: 2.5d
 			tasks: [{
 				id: "18493B4F8D6A5E45"
 				item: "gtocore:luv_kuangbiao_one_giant_nuclear_fusion_reactor"
 				type: "item"
 			}]
-			x: 14.5d
-			y: 10.0d
+			x: 11.75d
+			y: 7.5d
 		}
 		{
 			dependencies: [
@@ -541,8 +551,7 @@
 		{
 			dependencies: ["10F52803BCD77DA0"]
 			id: "43AB8C2F96BDEF15"
-			shape: "hexagon"
-			size: 1.5d
+			shape: "diamond"
 			subtitle: "升级你的大型机器#2"
 			tasks: [{
 				id: "0C3DF4927A31F0D1"
@@ -550,10 +559,13 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: -9.0d
+			y: -8.5d
 		}
 		{
-			dependencies: ["2F03D93AC7DBE58D"]
+			dependencies: [
+				"608F56E6A187940C"
+				"05EB6CDF13762280"
+			]
 			description: ["可以替代铕作为芯片增殖的原料"]
 			hide_dependency_lines: true
 			icon: "gtceu:bacterial_sludge_bucket"
@@ -598,6 +610,8 @@
 				"现在你有了两条矿物处理线，也许你需要想办法改进你的自动化来自动分流你的矿物！"
 			]
 			id: "3E34FFB5E5A60909"
+			shape: "hexagon"
+			size: 1.5d
 			tasks: [
 				{
 					id: "308A057FC7DD2C02"
@@ -824,25 +838,25 @@
 			dependencies: ["1156B92F11DA73B6"]
 			id: "6925C0D55D578A9A"
 			shape: "diamond"
-			size: 1.5d
 			tasks: [{
 				id: "335A69E2488138E8"
 				item: "gtocore:large_crystallization_chamber"
 				type: "item"
 			}]
-			x: 12.5d
-			y: 7.0d
+			x: 17.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["31F90B973A779017"]
 			id: "49EECA793E1FF66F"
 			shape: "hexagon"
+			size: 1.5d
 			tasks: [{
 				id: "5DDDA7609E78FB32"
 				item: "gtocore:decay_hastener"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 7.5d
 			y: -1.5d
 		}
 		{
@@ -877,8 +891,8 @@
 				item: "gtocore:simple_fiber_optic_rough"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 7.0d
+			x: 2.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["2F03D93AC7DBE58D"]
@@ -890,15 +904,15 @@
 				item: "gtocore:drawing_tower"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 7.0d
+			x: 0.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["7EA0644BB352BBB5"]
 			description: [
-				"你需要替换组件为&6计算组件&r和&b冷却组件&r才能让计算机开始工作"
+				"你需要替换&6空组件&r为&6计算组件&r和&6冷却组件&r才能让计算机开始工作"
 				""
-				"需要注意，&b冷却组件&r必须足够，必要时你可能还需要用&e多氯联苯冷却液&r，否则HPCA过热就会报废！"
+				"需要注意，&b冷却组件&r必须足够，后续你还需要&e多氯联苯冷却液&r进行主动冷却，否则HPCA&e过热&r就会&c报废&r！"
 			]
 			id: "777A7D91695E8720"
 			rewards: [{
@@ -914,8 +928,8 @@
 				item: "gtceu:high_performance_computation_array"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 7.0d
+			x: 9.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["4EC4E151D57351F6"]
@@ -927,11 +941,12 @@
 				item: { Count: 64, id: "gtceu:normal_optical_pipe" }
 				type: "item"
 			}]
-			x: 5.25d
-			y: 7.0d
+			x: 5.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["7AD94105147C5940"]
+			description: ["后续还有其无线版本"]
 			id: "7FBA4F73F200F0D5"
 			tasks: [
 				{
@@ -946,7 +961,7 @@
 				}
 			]
 			title: "算力数据仓"
-			x: 5.25d
+			x: 5.0d
 			y: 3.0d
 		}
 	]

@@ -140,7 +140,7 @@
 			}]
 			title: "组装一切"
 			x: -3.0d
-			y: 0.75d
+			y: 0.5d
 		}
 		{
 			dependencies: [
@@ -148,9 +148,11 @@
 				"7C0B37FD464985AC"
 			]
 			description: [
-				"线圈方块在很多多方块机器内都会使用到。"
-				"更高级的线圈方块有更多更好的增益。"
-				"所以在升级多方块机器的时候，除了能源仓剩下就要着重升级线圈方块。"
+				"&6线圈方块&r在很多&e多方块机器&r内都会使用到。"
+				""
+				"更高级的线圈方块有更多更好的增益，如获得&e能耗减免&r，&e无损超频&r，以及&e增加并行&r。也有很多配方会限定线圈的等级。"
+				""
+				"所以在升级多方块机器的时候，除了升级&6能源仓&r，剩下就要着重升级&6线圈方块&r。"
 			]
 			id: "021F533355CCBABA"
 			shape: "hexagon"
@@ -163,8 +165,8 @@
 				type: "item"
 			}]
 			title: "线圈方块"
-			x: -0.75d
-			y: 1.5d
+			x: -1.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["24DABF4CEA8A4C86"]
@@ -322,8 +324,8 @@
 				}
 			]
 			title: "电力高炉：一切的开端"
-			x: 2.142857142857146d
-			y: 3.0d
+			x: 2.0d
+			y: 2.5d
 		}
 		{
 			dependencies: [
@@ -335,11 +337,13 @@
 				""
 				"恭喜你得到了MV阶段的重要金属材料！"
 				""
+				"再次提醒：在目前，你需要给&6高炉&r安装&a两个&r&6LV能源仓&r来升压到MV来满足铝的&e电压要求&r，直到你可以制作更高级的能源仓"
+				""
 				"&e在进入下个阶段之前，最好检查你是否拥有足够的发电量或发电潜力&r"
 			]
 			id: "68EFF1609132BDD4"
 			shape: "gear"
-			size: 1.0d
+			size: 2.0d
 			subtitle: "新家伙"
 			tasks: [{
 				id: "4FC6935FB0B9F601"
@@ -381,8 +385,8 @@
 				type: "item"
 			}]
 			title: "你的第二条线缆"
-			x: 5.5d
-			y: 0.5d
+			x: 7.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["7E061DC16432D549"]
@@ -466,14 +470,14 @@
 			]
 			id: "16D0242E72E868B2"
 			shape: "gear"
-			size: 1.5d
+			size: 2.0d
 			subtitle: "电路自动化！！"
 			tasks: [{
 				id: "664AC9F5FEE1CA35"
 				item: "gtceu:lv_circuit_assembler"
 				type: "item"
 			}]
-			x: -2.25d
+			x: -3.0d
 			y: 7.5d
 		}
 		{
@@ -491,8 +495,16 @@
 			y: 5.5d
 		}
 		{
-			dependencies: ["0D26129C7015E4D1"]
-			description: ["有了它，你可以制作大型蒸汽机器了，这能极大地提升你的生产效率"]
+			dependencies: [
+				"0D26129C7015E4D1"
+				"54869A710D7DC29D"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"有了它，你可以制作大型蒸汽机器了，这能极大地提升你的生产效率"
+				""
+				"你也可以直接在&e商店&r中购买，或者是在探险途中找到"
+			]
 			id: "268C28F66FA4C91F"
 			subtitle: "大蒸汽时代！"
 			tasks: [{
@@ -525,9 +537,9 @@
 		{
 			dependencies: ["268C28F66FA4C91F"]
 			description: [
-				"这个大家伙可以做到&2两倍&r的产出，但它&e只能执行一种配方&r"
+				"这个大家伙可以做到&2两倍&r（简单模式四倍）的产出，但它&e只能执行一种配方&r"
 				""
-				"使用前需要&e铭刻&r电路，即在它的输入总线里面放置电路板，然后打开主方块的GUI并且按下铭刻电路即可，需要16个。"
+				"使用前需要&e铭刻&r电路，即在它的输入总线里面放置需求数量的&6电路板&r，然后打开主方块的GUI并且按下铭刻电路即可。"
 			]
 			id: "12FEAB1A9AA1BCA6"
 			shape: "diamond"
@@ -538,7 +550,7 @@
 				item: "gtocore:large_steam_circuit_assembler"
 				type: "item"
 			}]
-			x: 3.25d
+			x: 3.0d
 			y: 7.5d
 		}
 		{
@@ -557,7 +569,7 @@
 				type: "item"
 			}]
 			title: "POWER!"
-			x: 4.0d
+			x: 5.5d
 			y: 0.5d
 		}
 		{
@@ -674,13 +686,13 @@
 		{
 			dependencies: ["33B01E889EE7E990"]
 			description: [
-				"安装输入/输出仓使多方块机器能够输入/输出流体，"
-				"而同样的，安装输入/输出总线就能够使多方块机器输入/输出物品。"
-				"在你能够制作输入/输出总成之前都必须保持这个组合！"
+				"安装&e输入/输出仓&r使多方块机器能够输入/输出&6流体&r，"
+				"而同样的，安装&e输入/输出总线&r就能够使多方块机器输入/输出&6物品&r。"
+				"在你能够制作&e输入/输出总成&r之前都必须保持这个组合！"
 				""
-				"请注意：如果没有配方对应的输出仓室，机器是不会执行配方的，它会显示“输出空间不足”以提示你解决该问题· 例如：如果你的电力高炉没有放置输出总线，那它就不会为你炼制铝锭！"
+				"请注意：如果没有配方对应的输出仓室，机器是不会执行配方的，它会显示“输出空间不足”以提示你解决该问题· 例如：如果你的电力高炉没有放置输出总线，那它就不会为你炼制铝锭！\""
 				""
-				"提示：所有的舱室都自带自动输入/输出，你也可以用软锤关闭舱室以禁用这个功能"
+				"提示：所有的舱室都自带&e自动输入/输出&r，你也可以用软锤关闭舱室以禁用这个功能"
 			]
 			hide_dependency_lines: true
 			id: "6465CCE684E0DD3B"
@@ -709,28 +721,41 @@
 				}
 			]
 			title: "材料的输入与输出"
-			x: 3.0d
-			y: 1.5d
+			x: -1.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["6A9DFD965CA33D75"]
 			description: [
 				"本质上多方块机器的工作速度取决于能源仓所能提供的&6总功率&r"
 				""
-				"所以想加快处理速度有两个办法：增加电压和增加电流。"
+				"所以想加快处理速度有两个&b通用&r办法：增加&e电压&r和增加&e电流&r"
 				""
-				"在刚开始，你至少需要安装两个&6LV能源仓&r升压来炼制铝锭。"
+				"[\"\",{\"text\": \"想要加速机器还有很多其他方式，本章中的\",\"italic\": true,\"color\":\"gray\"}, {\"text\": \"加速仓\",\"color\":\"gray\",\"italic\": true,\"underlined\": true,\"clickEvent\": {\"action\": \"change_page\",\"value\": \"7F65A1C533ED1C3B\"}},{\"text\": \"也是其中之一。完整加速方法请前往\",\"italic\": true,\"color\":\"gray\"},{\"text\": \"提示\",\"color\":\"gray\",\"italic\": true,\"underlined\": true,\"clickEvent\": {\"action\": \"change_page\",\"value\": \"16047F3F79404251\"}},{\"text\": \"查看\",\"italic\": true,\"color\":\"gray\"}]"
+				""
+				""
+				"另外，在一台多方块机器上安装至少&a两个&r&6同等级能源仓&r（无需电流相同）可以触发机器&6升压&r，机器升压后可以执行&b高一级电压&r的配方"
+				""
+				"在刚开始，你需要给&6高炉&r安装&a两个&r&6LV能源仓&r来升压到MV来满足铝的&e电压要求&r"
 			]
+			icon: "gtceu:lv_energy_input_hatch"
 			id: "23A116C4BAE96979"
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "直接影响你配方的执行速度"
-			tasks: [{
-				count: 2L
-				id: "219C151A73A735B5"
-				item: "gtceu:lv_energy_input_hatch"
-				type: "item"
-			}]
+			subtitle: "影响机器工作电压和配方的执行速度"
+			tasks: [
+				{
+					count: 2L
+					id: "219C151A73A735B5"
+					item: "gtceu:lv_energy_input_hatch"
+					type: "item"
+				}
+				{
+					id: "06DF196295344F3C"
+					title: "请务必知晓升压规律!"
+					type: "checkmark"
+				}
+			]
 			title: "能源仓"
 			x: 0.0d
 			y: 4.5d
@@ -762,7 +787,7 @@
 				}
 			]
 			title: "功能性仓室"
-			x: 0.0d
+			x: -1.0d
 			y: 3.0d
 		}
 		{
@@ -1030,8 +1055,8 @@
 				item: "gtmthings:lv_digital_miner"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 6.75d
+			x: -5.25d
+			y: 7.5d
 		}
 		{
 			dependencies: ["23A116C4BAE96979"]
@@ -1204,8 +1229,8 @@
 				item: "gtceu:quartzite_gem"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -5.5d
+			x: 5.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["5FBCB0C7F914D814"]
@@ -1231,7 +1256,7 @@
 				item: "gtocore:lv_cluster"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 2.0d
 			y: -4.0d
 		}
 		{
@@ -1284,6 +1309,8 @@
 				"这是低压时代你能制作的无线P2P物流，拥有超模的传输速率"
 				""
 				"你还需要&6基础切割机&r得到&6末影珍珠板&r"
+				""
+				"[ \"点\", { \"text\": \"这里\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5C62ECF9AC84E023\" } }, \"获取覆盖版用法\"]"
 				""
 				"&7进入高压时代，你还能制作对应的高级版本&r"
 			]
@@ -1399,7 +1426,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 6.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["14285E8F662204AE"]
@@ -1463,7 +1490,7 @@
 				item: "gtceu:lv_energy_output_hatch"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -1.0d
 			y: 6.0d
 		}
 		{
@@ -1485,7 +1512,7 @@
 			description: [
 				"大型蒸汽输入仓能使多方块蒸汽机器提升一级&6配方等级&r，同时具有&6超频&r能力"
 				""
-				"每提升一级超频，蒸汽消耗量提升为&24x&r，速度提升为&22x&r"
+				"每提升一级超频，蒸汽消耗量提升&24x&r，速度提升&22x&r"
 			]
 			id: "518FEC9206E3B5A0"
 			shape: "diamond"
@@ -1698,6 +1725,7 @@
 			dependencies: ["29896685477AA469"]
 			description: ["按照比例缩短&6多方块机器&r的配方处理时间，当加速仓等级&b低于&r配方等级时，加速效果将&4大幅度&r减弱"]
 			id: "7F65A1C533ED1C3B"
+			shape: "diamond"
 			subtitle: "狠狠地加速！"
 			tasks: [{
 				id: "53A559CA4372D14E"
@@ -1710,16 +1738,21 @@
 		}
 		{
 			dependencies: ["6A9DFD965CA33D75"]
-			description: ["可以安装在任意单方块机器上，以额外的能耗为代价换取更低的配方耗时"]
+			description: [
+				"可以安装在任意单方块机器和大部分多方块机器上，以额外的功率为代价换取更低的配方耗时，总能耗不变"
+				""
+				"&e注意增幅器有可能会使机器功率超过能源仓的上限，导致机器无法正常工作&r"
+			]
 			id: "1FCF7BF494F483B4"
+			shape: "diamond"
 			subtitle: "力大砖飞"
 			tasks: [{
 				id: "0258F66F419777E0"
 				item: "gtocore:lv_power_amplifiers"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 3.0d
+			x: -2.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["35347DE9C34F2825"]
@@ -1742,14 +1775,16 @@
 			description: [
 				"&l&e升级模块&r&r机制是GTO的特色之一！"
 				""
-				"在你之后获得了更好的资源之后，有一部分机器可以提供模块升级，它们允许机器添加更多能源仓，甚至有可能是加速仓或者并行仓等等"
+				"在你之后获得了更好的资源之后，有一部分机器可以提供&e模块升级&r，它们允许机器添加更多&6能源仓&r，甚至有可能是&6加速仓&r或者&6并行仓&r！"
 				""
 				"打开EMI多方块预览，点击右侧P可以查看模块升级，需要注意，&e你应当把模块加装到原来机器上，而非拆除原本机器重新建造&r！"
 				""
-				"在你进入HV获得不锈钢时，你可以为电力高炉安装升级模块"
+				"在你进入HV获得&6不锈钢&r时，你可以为电力高炉安装&e升级模块&r"
 			]
 			icon: "gtceu:stainless_steel_frame"
 			id: "39879EA8A9F79913"
+			shape: "diamond"
+			size: 1.5d
 			subtitle: "提高机器效率"
 			tasks: [
 				{
@@ -1766,17 +1801,17 @@
 				}
 			]
 			title: "升级模块"
-			x: 1.5d
-			y: 1.5d
+			x: 4.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["68EFF1609132BDD4"]
 			description: [
 				"欢迎来到&b中压&r阶段！"
 				""
-				"也许你在之前的阶段都是手动搬运材料进行“手工作坊式”合成"
+				"也许你在之前的阶段都是手动搬运材料进行&e“手工作坊式”&r合成"
 				""
-				"进入中压时代，你将必须开始搭建几条必要的&e产线&r，否则你不久后会为了反复制备某一大批量需要的材料而&n非常头疼&r"
+				"进入中压时代，你将必须开始搭建几条必要的&e产线&r，否则你不久后会为了反复制备某一大批量需要的材料而&c非常头疼&r"
 			]
 			id: "3D1E66868544975F"
 			shape: "gear"
@@ -1787,7 +1822,7 @@
 				item: "gtceu:mv_machine_hull"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 8.0d
 			y: 2.5d
 		}
 	]

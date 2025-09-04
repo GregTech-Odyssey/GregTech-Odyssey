@@ -11,7 +11,7 @@
 		linked_quest: "3490AACD4AA62C5D"
 		shape: "gear"
 		size: 2.0d
-		x: -5.0d
+		x: -6.5d
 		y: -2.0d
 	}]
 	quests: [
@@ -234,6 +234,7 @@
 		{
 			dependencies: ["24F1061AFD1BFEB2"]
 			id: "25331E8563FB84D2"
+			shape: "diamond"
 			tasks: [{
 				id: "681C275DFE2B1408"
 				item: "gtceu:mega_blast_furnace"
@@ -245,6 +246,7 @@
 		{
 			dependencies: ["24F1061AFD1BFEB2"]
 			id: "7A5C8C049D2DFFD2"
+			shape: "diamond"
 			tasks: [{
 				id: "51A33689384430A1"
 				item: "gtocore:mega_alloy_blast_smelter"
@@ -256,6 +258,7 @@
 		{
 			dependencies: ["24F1061AFD1BFEB2"]
 			id: "0ECFA06FC2CE4E8D"
+			shape: "diamond"
 			tasks: [{
 				id: "549887823D723091"
 				item: "gtceu:mega_vacuum_freezer"
@@ -278,9 +281,9 @@
 		{
 			dependencies: ["0B7A508B2670C9C2"]
 			description: [
-				"emm... 是的，生物还有一半的路要走"
+				"极限压阶段仍还有一半的&a生&r&2物&r&a线&r要走"
 				""
-				" 不过恭喜你 ，你终于将在UV阶段解锁全套的增益仓！"
+				"不过作为回报，你终将在UV阶段解锁全套的&6增益仓&r！"
 			]
 			hide_dependency_lines: false
 			id: "256F90AFB461107E"
@@ -293,8 +296,8 @@
 				type: "item"
 			}]
 			title: "欢迎来到&3极限压&r阶段"
-			x: -3.0d
-			y: -3.0d
+			x: -4.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["5E32A6DFE04D28F4"]
@@ -311,6 +314,11 @@
 		}
 		{
 			dependencies: ["0BB1BDBE8BB307E4"]
+			description: [
+				"别忘了穿上&bT4&r器官"
+				""
+				"你可能做不出T4器官，想点办法硬顶着，抓只羊回来"
+			]
 			icon: {
 				Count: 1
 				id: "ad_astra_rocketed:tier_7_rocket"
@@ -340,7 +348,11 @@
 		}
 		{
 			dependencies: ["19134C6F6A115AEE"]
-			description: ["先别急着庆祝，你还有一半的路没走呢"]
+			description: [
+				"先别急着庆祝，你还有一半的路没走呢"
+				""
+				"不过最难的路已经走完了"
+			]
 			id: "19B07E541BE74686"
 			shape: "gear"
 			size: 1.5d
@@ -374,7 +386,7 @@
 				item: "gtceu:meat_dust"
 				type: "item"
 			}]
-			x: -8.0d
+			x: -8.5d
 			y: 0.0d
 		}
 		{
@@ -385,7 +397,7 @@
 				item: "gtocore:bacterial_growth_medium_bucket"
 				type: "item"
 			}]
-			x: -8.0d
+			x: -8.5d
 			y: 1.5d
 		}
 		{
@@ -495,7 +507,7 @@
 				item: "gtocore:radiation_hatch"
 				type: "item"
 			}]
-			x: -7.0d
+			x: -8.5d
 			y: -2.0d
 		}
 		{
@@ -561,6 +573,7 @@
 		}
 		{
 			dependencies: ["06DF372F16F1A5CA"]
+			description: ["霜原星的羊掉落，也会在月球地牢中随机开出"]
 			id: "351F704B01567BD7"
 			tasks: [{
 				id: "259434E989076A2D"
@@ -584,6 +597,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["5D828A5258BFF11F"]
 			description: ["不需要电力的机器"]
 			id: "590D044B9C85B84A"
 			shape: "hexagon"
@@ -594,7 +608,7 @@
 				type: "item"
 			}]
 			x: -10.5d
-			y: 0.75d
+			y: 1.5d
 		}
 		{
 			dependencies: ["590D044B9C85B84A"]
@@ -685,7 +699,7 @@
 				"需要注意，盲目超频不可取，因为进阶装配线是&c超损超频&r的！换言之，4倍的功率只能让配方耗时变为0.75倍，但是并行可以正常结算"
 			]
 			id: "6DC73D6C2AD17444"
-			shape: "rsquare"
+			shape: "diamond"
 			size: 1.5d
 			subtitle: "真的进阶... 吗？"
 			tasks: [{
@@ -746,8 +760,8 @@
 		}
 		{
 			dependencies: [
-				"3CF73C03164BD167"
 				"78904EE60D9B411E"
+				"7C85C4B5A3E64723"
 			]
 			id: "0007751813572404"
 			shape: "hexagon"
@@ -761,18 +775,8 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["28265843939C1503"]
-			id: "3CF73C03164BD167"
-			tasks: [{
-				id: "528E97AC5ABBF0AD"
-				item: "gtocore:pikyonium_ingot"
-				type: "item"
-			}]
-			x: 0.0d
-			y: -1.5d
-		}
-		{
 			dependencies: ["0007751813572404"]
+			description: ["你也可以通过&6大型虚空采矿场&r挖取&6凯金化合物&r然后处理获得"]
 			id: "26167AFECA871925"
 			tasks: [{
 				id: "0DD236AADC72F7E6"
@@ -786,6 +790,8 @@
 			dependencies: ["26167AFECA871925"]
 			description: ["其实你可以直接跳过&cZPM&r做&3UV&r的"]
 			id: "3709A36606135AF0"
+			optional: true
+			shape: "diamond"
 			subtitle: "升级你的大型机器#3"
 			tasks: [{
 				id: "4866105FF1FF23AD"
@@ -794,6 +800,17 @@
 			}]
 			x: 3.0d
 			y: -3.0d
+		}
+		{
+			dependencies: ["28265843939C1503"]
+			id: "7C85C4B5A3E64723"
+			tasks: [{
+				id: "2B8971E69E3A3060"
+				item: "gtocore:lafium_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
 		}
 	]
 	subtitle: ["Tier7-ZPM"]
