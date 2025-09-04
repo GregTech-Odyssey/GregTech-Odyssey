@@ -372,6 +372,7 @@
 			dependencies: [
 				"05EB6CDF13762280"
 				"5BBCF715A1BDDA11"
+				"3A08E4803A895152"
 			]
 			id: "616EB11F181951BB"
 			shape: "hexagon"
@@ -722,7 +723,7 @@
 			]
 			id: "68A3CE3A60F11C88"
 			shape: "gear"
-			size: 1.25d
+			size: 1.5d
 			subtitle: "性价比之王！"
 			tasks: [{
 				id: "2A4EA12F2A1A397D"
@@ -794,8 +795,8 @@
 				item: "gtocore:polyurethaneresin_bucket"
 				type: "item"
 			}]
-			x: 17.0d
-			y: -1.0d
+			x: 19.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["0FD2B76B1608F4FA"]
@@ -826,6 +827,8 @@
 				"5DC92641E94C560D"
 			]
 			id: "6CF8EB50958B959D"
+			shape: "hexagon"
+			size: 1.5d
 			tasks: [{
 				id: "0C0BA00902FDACF5"
 				item: "gtocore:imprinted_resonatic_circuit_board"
@@ -963,6 +966,17 @@
 			title: "算力数据仓"
 			x: 5.0d
 			y: 3.0d
+		}
+		{
+			dependencies: ["05EB6CDF13762280"]
+			id: "3A08E4803A895152"
+			tasks: [{
+				id: "48ABB686F1272251"
+				item: "gtceu:crystal_soc"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -2.0d
 		}
 	]
 	subtitle: ["Tier6-LuV"]
