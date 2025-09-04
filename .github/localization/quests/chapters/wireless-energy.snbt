@@ -249,7 +249,11 @@
 		}
 		{
 			dependencies: ["20B8E68273D7D0DE"]
-			description: ["{gto.wireless-energy.quests.0828014567C613E1.description0}"]
+			description: [
+				"{gto.wireless-energy.quests.0828014567C613E1.description0}"
+				""
+				"{gto.wireless-energy.quests.0828014567C613E1.description1}"
+			]
 			hide_dependency_lines: false
 			id: "0828014567C613E1"
 			tasks: [{

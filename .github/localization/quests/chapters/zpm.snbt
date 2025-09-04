@@ -11,8 +11,8 @@
 		linked_quest: "3490AACD4AA62C5D"
 		shape: "gear"
 		size: 2.0d
-		x: -5.0d
-		y: -2.0d
+		x: -8.5d
+		y: -4.0d
 	}]
 	quests: [
 		{
@@ -25,8 +25,8 @@
 				type: "item"
 			}]
 			title: "{gto.zpm.quests.5E32A6DFE04D28F4.title}"
-			x: -3.0d
-			y: 6.0d
+			x: -2.0d
+			y: 7.0d
 		}
 		{
 			dependencies: [
@@ -39,19 +39,23 @@
 				item: "gtceu:neuro_processing_unit"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 4.5d
+			x: -2.0d
+			y: 5.5d
 		}
 		{
 			dependencies: [
-				"717F73B64CA7E035"
 				"59864AA3CB69A3CF"
 				"2C79D433651D795C"
 			]
-			description: ["{gto.zpm.quests.5B5C82819DC2D27A.description0}"]
+			description: [
+				"{gto.zpm.quests.5B5C82819DC2D27A.description0}"
+				""
+				"{gto.zpm.quests.5B5C82819DC2D27A.description1}"
+			]
+			hide_dependency_lines: false
 			id: "5B5C82819DC2D27A"
 			shape: "gear"
-			size: 1.5d
+			size: 2.0d
 			subtitle: "{gto.zpm.quests.5B5C82819DC2D27A.subtitle}"
 			tasks: [{
 				count: 16L
@@ -59,8 +63,8 @@
 				item: "gtceu:stem_cells"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 3.0d
+			x: -2.0d
+			y: 3.5d
 		}
 		{
 			dependencies: [
@@ -69,14 +73,15 @@
 			]
 			dependency_requirement: "one_completed"
 			description: ["{gto.zpm.quests.717F73B64CA7E035.description0}"]
+			hide_dependent_lines: true
 			id: "717F73B64CA7E035"
 			tasks: [{
 				id: "01CEF32406C73D16"
 				item: "gtocore:preparation_petri_dish"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 3.0d
+			x: -2.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["19127B42AB919C11"]
@@ -87,8 +92,8 @@
 				item: "gtceu:sterilizing_filter_casing"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 1.5d
+			x: -2.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -97,15 +102,16 @@
 				"0A7AD87999A0DDF5"
 			]
 			id: "1DE0A599F076C31A"
-			shape: "hexagon"
+			shape: "gear"
+			size: 2.0d
 			subtitle: "{gto.zpm.quests.1DE0A599F076C31A.subtitle}"
 			tasks: [{
 				id: "71419E9374165D99"
 				item: "gtceu:zpm_fusion_reactor"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 0.0d
+			x: -2.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["1DE0A599F076C31A"]
@@ -115,8 +121,8 @@
 				item: "gtceu:tritanium_ingot"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 0.0d
+			x: -2.0d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -145,8 +151,8 @@
 				item: "gtocore:biochemical_extraction"
 				type: "item"
 			}]
-			x: -6.5d
-			y: 3.0d
+			x: -8.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["3490AACD4AA62C5D"]
@@ -163,11 +169,12 @@
 				item: "gtocore:biochemical_reaction"
 				type: "item"
 			}]
-			x: -6.5d
-			y: 0.0d
+			x: -8.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["608F56E6A187940C"]
+			hide_dependency_lines: true
 			id: "0BB1BDBE8BB307E4"
 			shape: "circle"
 			tasks: [{
@@ -179,8 +186,8 @@
 				}
 				type: "item"
 			}]
-			x: 0.0d
-			y: 0.0d
+			x: 1.0d
+			y: 5.5d
 		}
 		{
 			dependencies: [
@@ -188,13 +195,14 @@
 				"0BB1BDBE8BB307E4"
 			]
 			id: "7402D24D2847B7F2"
+			shape: "diamond"
 			tasks: [{
 				id: "4AB2877CB2E0A003"
 				item: "gtocore:fuel_refining_complex"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 0.0d
+			x: 1.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["19127B42AB919C11"]
@@ -205,7 +213,7 @@
 				item: "gtceu:tritanium_coil_block"
 				type: "item"
 			}]
-			x: -1.5d
+			x: 1.0d
 			y: -1.5d
 		}
 		{
@@ -216,8 +224,8 @@
 				item: "gtceu:enriched_naquadah_trinium_europium_duranide_ingot"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -3.5d
+			x: 2.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["24F1061AFD1BFEB2"]
@@ -228,41 +236,47 @@
 				item: "gtceu:network_switch"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -3.5d
+			x: 2.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["24F1061AFD1BFEB2"]
 			id: "25331E8563FB84D2"
+			shape: "diamond"
+			size: 1.5d
 			tasks: [{
 				id: "681C275DFE2B1408"
 				item: "gtceu:mega_blast_furnace"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -5.0d
+			x: 4.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["24F1061AFD1BFEB2"]
 			id: "7A5C8C049D2DFFD2"
+			shape: "diamond"
+			size: 1.5d
 			tasks: [{
 				id: "51A33689384430A1"
 				item: "gtocore:mega_alloy_blast_smelter"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -5.0d
+			x: 4.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["24F1061AFD1BFEB2"]
 			id: "0ECFA06FC2CE4E8D"
+			shape: "diamond"
+			size: 1.5d
 			tasks: [{
 				id: "549887823D723091"
 				item: "gtceu:mega_vacuum_freezer"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -5.0d
+			x: 4.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["1DE0A599F076C31A"]
@@ -272,8 +286,8 @@
 				item: "gtceu:darmstadtium_ingot"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -1.5d
+			x: 1.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["0B7A508B2670C9C2"]
@@ -293,8 +307,8 @@
 				type: "item"
 			}]
 			title: "{gto.zpm.quests.256F90AFB461107E.title}"
-			x: -3.0d
-			y: -3.0d
+			x: 4.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["5E32A6DFE04D28F4"]
@@ -306,11 +320,16 @@
 				type: "item"
 			}]
 			title: "{gto.zpm.quests.348156EA1A381ABF.title}"
-			x: -4.5d
-			y: 6.0d
+			x: -4.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["0BB1BDBE8BB307E4"]
+			description: [
+				"{gto.zpm.quests.49E04C29B878D3A8.description0}"
+				""
+				"{gto.zpm.quests.49E04C29B878D3A8.description1}"
+			]
 			icon: {
 				Count: 1
 				id: "ad_astra_rocketed:tier_7_rocket"
@@ -318,7 +337,7 @@
 			}
 			id: "49E04C29B878D3A8"
 			shape: "gear"
-			size: 1.5d
+			size: 2.0d
 			tasks: [
 				{
 					id: "27F480925F17A21E"
@@ -335,15 +354,19 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
-			y: 1.5d
+			x: 3.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["19134C6F6A115AEE"]
-			description: ["{gto.zpm.quests.19B07E541BE74686.description0}"]
+			description: [
+				"{gto.zpm.quests.19B07E541BE74686.description0}"
+				""
+				"{gto.zpm.quests.19B07E541BE74686.description1}"
+			]
 			id: "19B07E541BE74686"
 			shape: "gear"
-			size: 1.5d
+			size: 2.0d
 			subtitle: "{gto.zpm.quests.19B07E541BE74686.subtitle}"
 			tasks: [{
 				id: "6C753B18CFABE897"
@@ -351,8 +374,8 @@
 				type: "item"
 			}]
 			title: "{gto.zpm.quests.19B07E541BE74686.title}"
-			x: -8.25d
-			y: 6.0d
+			x: -8.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["608F56E6A187940C"]
@@ -363,8 +386,8 @@
 				item: "gtocore:sterile_cleaning_maintenance_hatch"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 1.5d
+			x: -0.5d
+			y: 0.0d
 		}
 		{
 			description: ["{gto.zpm.quests.06099A423968D6E0.description0}"]
@@ -374,24 +397,26 @@
 				item: "gtceu:meat_dust"
 				type: "item"
 			}]
-			x: -8.0d
-			y: 0.0d
+			x: -4.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["06099A423968D6E0"]
 			id: "7A12577E23FC07A1"
+			shape: "hexagon"
 			tasks: [{
 				id: "2D515B6F4FADC217"
 				item: "gtocore:bacterial_growth_medium_bucket"
 				type: "item"
 			}]
-			x: -8.0d
-			y: 1.5d
+			x: -4.0d
+			y: -1.5d
 		}
 		{
 			dependencies: [
 				"7A12577E23FC07A1"
 				"1F94544576D30A92"
+				"717F73B64CA7E035"
 			]
 			description: ["{gto.zpm.quests.747599D690EADE56.description0}"]
 			id: "747599D690EADE56"
@@ -416,64 +441,88 @@
 				}
 				{
 					count: 16L
-					id: "2080911FEA33134E"
-					item: "gtocore:cupriavidus_necator_dust"
-					type: "item"
-				}
-				{
-					count: 16L
 					id: "3E47A3636A16835D"
 					item: "gtocore:streptococcus_pyogenes_dust"
 					type: "item"
 				}
 			]
 			title: "{gto.zpm.quests.747599D690EADE56.title}"
-			x: -6.5d
-			y: 1.5d
-		}
-		{
-			dependencies: ["747599D690EADE56"]
-			id: "7FED9F9CC769610C"
-			subtitle: "{gto.zpm.quests.7FED9F9CC769610C.subtitle}"
-			tasks: [{
-				id: "7549EC850E00A09F"
-				item: "gtceu:bacteria_bucket"
-				type: "item"
-			}]
-			x: -5.0d
-			y: 1.5d
+			x: -6.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
-				"502F7DD0C930D5BF"
 				"747599D690EADE56"
+				"65A2C89AD67604DE"
+				"7651697F32169E49"
+				"06DF372F16F1A5CA"
+			]
+			description: ["{gto.zpm.quests.7FED9F9CC769610C.description0}"]
+			hide_dependency_lines: true
+			id: "7FED9F9CC769610C"
+			subtitle: "{gto.zpm.quests.7FED9F9CC769610C.subtitle}"
+			tasks: [
+				{
+					id: "7549EC850E00A09F"
+					item: "gtceu:bacteria_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5C556CC949E868E7"
+					item: "gtocore:rapidly_replicating_animal_cells_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "05ACCFEFEDCCC541"
+					type: "checkmark"
+				}
+			]
+			title: "{gto.zpm.quests.7FED9F9CC769610C.title}"
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"747599D690EADE56"
+				"351F704B01567BD7"
+				"7651697F32169E49"
 			]
 			id: "59864AA3CB69A3CF"
+			shape: "hexagon"
+			size: 1.5d
 			subtitle: "{gto.zpm.quests.59864AA3CB69A3CF.subtitle}"
 			tasks: [{
 				id: "129F506D7D108336"
 				item: "gtocore:pluripotency_induction_gene_therapy_fluid_bucket"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 3.0d
+			x: -4.0d
+			y: 1.5d
 		}
 		{
-			dependencies: ["1F94544576D30A92"]
-			description: ["{gto.zpm.quests.2C79D433651D795C.description0}"]
+			dependencies: ["65A2C89AD67604DE"]
+			description: [
+				"{gto.zpm.quests.2C79D433651D795C.description0}"
+				""
+				"{gto.zpm.quests.2C79D433651D795C.description1}"
+			]
+			hide_dependent_lines: true
 			id: "2C79D433651D795C"
+			shape: "hexagon"
 			tasks: [{
 				id: "776EC25032BCC4A6"
 				item: "gtceu:sterilized_growth_medium_bucket"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 1.5d
+			x: -6.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["3490AACD4AA62C5D"]
 			description: ["{gto.zpm.quests.06DF372F16F1A5CA.description0}"]
-			hide_dependency_lines: true
+			hide_dependent_lines: true
 			id: "06DF372F16F1A5CA"
 			shape: "hexagon"
 			size: 1.5d
@@ -482,8 +531,8 @@
 				item: "gtocore:large_incubator"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 3.0d
+			x: -10.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["3490AACD4AA62C5D"]
@@ -495,8 +544,8 @@
 				item: "gtocore:radiation_hatch"
 				type: "item"
 			}]
-			x: -7.0d
-			y: -2.0d
+			x: -10.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["1817710A29037DB0"]
@@ -509,8 +558,8 @@
 				}
 				type: "item"
 			}]
-			x: -1.5d
-			y: 4.5d
+			x: -0.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["3490AACD4AA62C5D"]
@@ -524,8 +573,8 @@
 				}
 				type: "item"
 			}]
-			x: -1.5d
-			y: 6.0d
+			x: -0.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["348156EA1A381ABF"]
@@ -538,7 +587,7 @@
 			}]
 			title: "{gto.zpm.quests.19134C6F6A115AEE.title}"
 			x: -6.0d
-			y: 6.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["44B34806DA0FEA9A"]
@@ -550,11 +599,15 @@
 				item: "gtocore:wetware_soc"
 				type: "item"
 			}]
-			x: -6.0d
-			y: 4.5d
+			x: -4.0d
+			y: 3.5d
 		}
 		{
-			dependencies: ["502F7DD0C930D5BF"]
+			dependencies: [
+				"502F7DD0C930D5BF"
+				"0099AE8ACBB72951"
+				"06DF372F16F1A5CA"
+			]
 			id: "44B34806DA0FEA9A"
 			subtitle: "{gto.zpm.quests.44B34806DA0FEA9A.subtitle}"
 			tasks: [{
@@ -562,19 +615,30 @@
 				item: "gtocore:super_cerebrum"
 				type: "item"
 			}]
-			x: -7.5d
-			y: 4.5d
+			x: -6.0d
+			y: 3.5d
 		}
 		{
-			dependencies: ["06DF372F16F1A5CA"]
+			dependencies: [
+				"49E04C29B878D3A8"
+				"2969C96B6500C01D"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"{gto.zpm.quests.351F704B01567BD7.description0}"
+				""
+				"{gto.zpm.quests.351F704B01567BD7.description1}"
+				""
+				"{gto.zpm.quests.351F704B01567BD7.description2}"
+			]
 			id: "351F704B01567BD7"
 			tasks: [{
 				id: "259434E989076A2D"
 				item: "gtocore:glacio_spirit"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 4.5d
+			x: -0.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["3490AACD4AA62C5D"]
@@ -587,9 +651,10 @@
 				type: "item"
 			}]
 			x: -5.0d
-			y: 0.0d
+			y: -4.0d
 		}
 		{
+			dependencies: ["5D828A5258BFF11F"]
 			description: ["{gto.zpm.quests.590D044B9C85B84A.description0}"]
 			id: "590D044B9C85B84A"
 			shape: "hexagon"
@@ -600,7 +665,7 @@
 				type: "item"
 			}]
 			x: -10.5d
-			y: 0.75d
+			y: 0.25d
 		}
 		{
 			dependencies: ["590D044B9C85B84A"]
@@ -635,7 +700,7 @@
 			]
 			title: "{gto.zpm.quests.3F041E002D75AB2C.title}"
 			x: -10.5d
-			y: 3.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["3F041E002D75AB2C"]
@@ -665,8 +730,8 @@
 				}
 			]
 			title: "{gto.zpm.quests.697AE6FFF1F2D877.title}"
-			x: -8.5d
-			y: 3.0d
+			x: -10.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["67050CC889ABB614"]
@@ -678,8 +743,8 @@
 				item: "gtocore:supercomputing_center"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 4.5d
+			x: -4.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["19B07E541BE74686"]
@@ -691,7 +756,7 @@
 				"{gto.zpm.quests.6DC73D6C2AD17444.description2}"
 			]
 			id: "6DC73D6C2AD17444"
-			shape: "rsquare"
+			shape: "diamond"
 			size: 1.5d
 			subtitle: "{gto.zpm.quests.6DC73D6C2AD17444.subtitle}"
 			tasks: [{
@@ -700,7 +765,7 @@
 				type: "item"
 			}]
 			x: -10.5d
-			y: 6.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["6DC73D6C2AD17444"]
@@ -717,19 +782,20 @@
 				type: "item"
 			}]
 			x: -10.5d
-			y: 4.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["19B07E541BE74686"]
 			description: ["{gto.zpm.quests.0CBF5FDD07337CE1.description0}"]
 			id: "0CBF5FDD07337CE1"
+			shape: "diamond"
 			tasks: [{
 				id: "038D5413A06693F0"
 				item: "gtocore:petrochemical_plant"
 				type: "item"
 			}]
-			x: -9.0d
-			y: 4.5d
+			x: -8.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["0985154AE9169549"]
@@ -747,13 +813,14 @@
 				}
 			]
 			title: "{gto.zpm.quests.78904EE60D9B411E.title}"
-			x: 1.5d
-			y: -3.0d
+			x: 2.5d
+			y: 1.5d
 		}
 		{
 			dependencies: [
-				"3CF73C03164BD167"
 				"78904EE60D9B411E"
+				"7C85C4B5A3E64723"
+				"49EECA793E1FF66F"
 			]
 			id: "0007751813572404"
 			shape: "hexagon"
@@ -763,43 +830,106 @@
 				item: "gtocore:super_particle_collider"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -1.5d
-		}
-		{
-			dependencies: ["28265843939C1503"]
-			id: "3CF73C03164BD167"
-			tasks: [{
-				id: "528E97AC5ABBF0AD"
-				item: "gtocore:pikyonium_ingot"
-				type: "item"
-			}]
-			x: 0.0d
-			y: -1.5d
+			x: 1.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["0007751813572404"]
+			description: ["{gto.zpm.quests.26167AFECA871925.description0}"]
 			id: "26167AFECA871925"
 			tasks: [{
 				id: "0DD236AADC72F7E6"
 				item: "gtceu:astatine_dust"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -1.5d
+			x: 1.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["26167AFECA871925"]
 			description: ["{gto.zpm.quests.3709A36606135AF0.description0}"]
 			id: "3709A36606135AF0"
+			optional: true
+			shape: "diamond"
 			subtitle: "{gto.zpm.quests.3709A36606135AF0.subtitle}"
 			tasks: [{
 				id: "4866105FF1FF23AD"
 				item: "gtocore:integral_framework_zpm"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -3.0d
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["28265843939C1503"]
+			id: "7C85C4B5A3E64723"
+			tasks: [{
+				id: "2B8971E69E3A3060"
+				item: "gtocore:lafium_ingot"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["502F7DD0C930D5BF"]
+			description: ["{gto.zpm.quests.7651697F32169E49.description0}"]
+			id: "7651697F32169E49"
+			tasks: [
+				{
+					id: "069E698FCF2189A7"
+					item: "minecraft:piglin_brute_spawn_egg"
+					type: "item"
+				}
+				{
+					id: "6A19E2D1B57C3AB1"
+					item: "minecraft:piglin_spawn_egg"
+					type: "item"
+				}
+				{
+					id: "050D3B8D01C4B1F3"
+					item: "minecraft:hoglin_spawn_egg"
+					type: "item"
+				}
+				{
+					id: "1E944186F902F254"
+					item: "minecraft:creeper_spawn_egg"
+					type: "item"
+				}
+			]
+			title: "{gto.zpm.quests.7651697F32169E49.title}"
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"7A12577E23FC07A1"
+				"1F94544576D30A92"
+				"717F73B64CA7E035"
+			]
+			description: ["{gto.zpm.quests.65A2C89AD67604DE.description0}"]
+			id: "65A2C89AD67604DE"
+			tasks: [{
+				count: 16L
+				id: "6A86228DF9447140"
+				item: "gtocore:cupriavidus_necator_dust"
+				type: "item"
+			}]
+			title: "{gto.zpm.quests.65A2C89AD67604DE.title}"
+			x: -6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7FED9F9CC769610C"]
+			hide_dependency_lines: true
+			id: "0099AE8ACBB72951"
+			tasks: [{
+				id: "270877B95A714083"
+				item: "gtceu:mutagen_bucket"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 5.0d
 		}
 	]
 	subtitle: ["{gto.zpm.subtitle0}"]

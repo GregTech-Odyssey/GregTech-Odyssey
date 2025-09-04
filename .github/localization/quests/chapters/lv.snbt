@@ -140,7 +140,7 @@
 			}]
 			title: "{gto.lv.quests.33B01E889EE7E990.title}"
 			x: -3.0d
-			y: 0.75d
+			y: 0.5d
 		}
 		{
 			dependencies: [
@@ -149,7 +149,9 @@
 			]
 			description: [
 				"{gto.lv.quests.021F533355CCBABA.description0}"
+				""
 				"{gto.lv.quests.021F533355CCBABA.description1}"
+				""
 				"{gto.lv.quests.021F533355CCBABA.description2}"
 			]
 			id: "021F533355CCBABA"
@@ -163,8 +165,8 @@
 				type: "item"
 			}]
 			title: "{gto.lv.quests.021F533355CCBABA.title}"
-			x: -0.75d
-			y: 1.5d
+			x: -1.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["24DABF4CEA8A4C86"]
@@ -322,8 +324,8 @@
 				}
 			]
 			title: "{gto.lv.quests.06534664971F6E68.title}"
-			x: 2.142857142857146d
-			y: 3.0d
+			x: 2.0d
+			y: 2.5d
 		}
 		{
 			dependencies: [
@@ -336,10 +338,12 @@
 				"{gto.lv.quests.68EFF1609132BDD4.description1}"
 				""
 				"{gto.lv.quests.68EFF1609132BDD4.description2}"
+				""
+				"{gto.lv.quests.68EFF1609132BDD4.description3}"
 			]
 			id: "68EFF1609132BDD4"
 			shape: "gear"
-			size: 1.0d
+			size: 2.0d
 			subtitle: "{gto.lv.quests.68EFF1609132BDD4.subtitle}"
 			tasks: [{
 				id: "4FC6935FB0B9F601"
@@ -381,8 +385,8 @@
 				type: "item"
 			}]
 			title: "{gto.lv.quests.2D5A5D2DE390665C.title}"
-			x: 5.5d
-			y: 0.5d
+			x: 7.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["7E061DC16432D549"]
@@ -466,14 +470,14 @@
 			]
 			id: "16D0242E72E868B2"
 			shape: "gear"
-			size: 1.5d
+			size: 2.0d
 			subtitle: "{gto.lv.quests.16D0242E72E868B2.subtitle}"
 			tasks: [{
 				id: "664AC9F5FEE1CA35"
 				item: "gtceu:lv_circuit_assembler"
 				type: "item"
 			}]
-			x: -2.25d
+			x: -3.0d
 			y: 7.5d
 		}
 		{
@@ -491,8 +495,16 @@
 			y: 5.5d
 		}
 		{
-			dependencies: ["0D26129C7015E4D1"]
-			description: ["{gto.lv.quests.268C28F66FA4C91F.description0}"]
+			dependencies: [
+				"0D26129C7015E4D1"
+				"54869A710D7DC29D"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"{gto.lv.quests.268C28F66FA4C91F.description0}"
+				""
+				"{gto.lv.quests.268C28F66FA4C91F.description1}"
+			]
 			id: "268C28F66FA4C91F"
 			subtitle: "{gto.lv.quests.268C28F66FA4C91F.subtitle}"
 			tasks: [{
@@ -538,7 +550,7 @@
 				item: "gtocore:large_steam_circuit_assembler"
 				type: "item"
 			}]
-			x: 3.25d
+			x: 3.0d
 			y: 7.5d
 		}
 		{
@@ -557,7 +569,7 @@
 				type: "item"
 			}]
 			title: "{gto.lv.quests.422259B2C415401D.title}"
-			x: 4.0d
+			x: 5.5d
 			y: 0.5d
 		}
 		{
@@ -709,8 +721,8 @@
 				}
 			]
 			title: "{gto.lv.quests.6465CCE684E0DD3B.title}"
-			x: 3.0d
-			y: 1.5d
+			x: -1.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["6A9DFD965CA33D75"]
@@ -719,18 +731,31 @@
 				""
 				"{gto.lv.quests.23A116C4BAE96979.description1}"
 				""
+				"[\"\",{\"text\": \"想要加速机器还有很多其他方式，本章中的\",\"italic\": true,\"color\":\"gray\"}, {\"text\": \"加速仓\",\"color\":\"gray\",\"italic\": true,\"underlined\": true,\"clickEvent\": {\"action\": \"change_page\",\"value\": \"7F65A1C533ED1C3B\"}},{\"text\": \"也是其中之一。完整加速方法请前往\",\"italic\": true,\"color\":\"gray\"},{\"text\": \"提示\",\"color\":\"gray\",\"italic\": true,\"underlined\": true,\"clickEvent\": {\"action\": \"change_page\",\"value\": \"16047F3F79404251\"}},{\"text\": \"查看\",\"italic\": true,\"color\":\"gray\"}]"
+				""
+				""
 				"{gto.lv.quests.23A116C4BAE96979.description2}"
+				""
+				"{gto.lv.quests.23A116C4BAE96979.description3}"
 			]
+			icon: "gtceu:lv_energy_input_hatch"
 			id: "23A116C4BAE96979"
 			shape: "hexagon"
 			size: 1.5d
 			subtitle: "{gto.lv.quests.23A116C4BAE96979.subtitle}"
-			tasks: [{
-				count: 2L
-				id: "219C151A73A735B5"
-				item: "gtceu:lv_energy_input_hatch"
-				type: "item"
-			}]
+			tasks: [
+				{
+					count: 2L
+					id: "219C151A73A735B5"
+					item: "gtceu:lv_energy_input_hatch"
+					type: "item"
+				}
+				{
+					id: "06DF196295344F3C"
+					title: "{gto.lv.quests.23A116C4BAE96979.tasks.06DF196295344F3C.title}"
+					type: "checkmark"
+				}
+			]
 			title: "{gto.lv.quests.23A116C4BAE96979.title}"
 			x: 0.0d
 			y: 4.5d
@@ -762,7 +787,7 @@
 				}
 			]
 			title: "{gto.lv.quests.58434872C6EC4E32.title}"
-			x: 0.0d
+			x: -1.0d
 			y: 3.0d
 		}
 		{
@@ -1030,8 +1055,8 @@
 				item: "gtmthings:lv_digital_miner"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 6.75d
+			x: -5.25d
+			y: 7.5d
 		}
 		{
 			dependencies: ["23A116C4BAE96979"]
@@ -1204,8 +1229,8 @@
 				item: "gtceu:quartzite_gem"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -5.5d
+			x: 5.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["5FBCB0C7F914D814"]
@@ -1231,7 +1256,7 @@
 				item: "gtocore:lv_cluster"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 2.0d
 			y: -4.0d
 		}
 		{
@@ -1284,6 +1309,8 @@
 				"{gto.lv.quests.35FD16B1992A2576.description0}"
 				""
 				"{gto.lv.quests.35FD16B1992A2576.description1}"
+				""
+				"[ \"点\", { \"text\": \"这里\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5C62ECF9AC84E023\" } }, \"获取覆盖版用法\"]"
 				""
 				"{gto.lv.quests.35FD16B1992A2576.description2}"
 			]
@@ -1399,7 +1426,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 6.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["14285E8F662204AE"]
@@ -1463,7 +1490,7 @@
 				item: "gtceu:lv_energy_output_hatch"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -1.0d
 			y: 6.0d
 		}
 		{
@@ -1698,6 +1725,7 @@
 			dependencies: ["29896685477AA469"]
 			description: ["{gto.lv.quests.7F65A1C533ED1C3B.description0}"]
 			id: "7F65A1C533ED1C3B"
+			shape: "diamond"
 			subtitle: "{gto.lv.quests.7F65A1C533ED1C3B.subtitle}"
 			tasks: [{
 				id: "53A559CA4372D14E"
@@ -1710,16 +1738,21 @@
 		}
 		{
 			dependencies: ["6A9DFD965CA33D75"]
-			description: ["{gto.lv.quests.1FCF7BF494F483B4.description0}"]
+			description: [
+				"{gto.lv.quests.1FCF7BF494F483B4.description0}"
+				""
+				"{gto.lv.quests.1FCF7BF494F483B4.description1}"
+			]
 			id: "1FCF7BF494F483B4"
+			shape: "diamond"
 			subtitle: "{gto.lv.quests.1FCF7BF494F483B4.subtitle}"
 			tasks: [{
 				id: "0258F66F419777E0"
 				item: "gtocore:lv_power_amplifiers"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 3.0d
+			x: -2.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["35347DE9C34F2825"]
@@ -1750,6 +1783,8 @@
 			]
 			icon: "gtceu:stainless_steel_frame"
 			id: "39879EA8A9F79913"
+			shape: "diamond"
+			size: 1.5d
 			subtitle: "{gto.lv.quests.39879EA8A9F79913.subtitle}"
 			tasks: [
 				{
@@ -1769,8 +1804,8 @@
 				}
 			]
 			title: "{gto.lv.quests.39879EA8A9F79913.title}"
-			x: 1.5d
-			y: 1.5d
+			x: 4.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["68EFF1609132BDD4"]
@@ -1790,7 +1825,7 @@
 				item: "gtceu:mv_machine_hull"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 8.0d
 			y: 2.5d
 		}
 	]

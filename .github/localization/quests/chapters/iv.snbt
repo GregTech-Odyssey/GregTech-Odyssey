@@ -115,7 +115,11 @@
 		}
 		{
 			dependencies: ["1E239C34C36FAD60"]
-			description: ["{gto.iv.quests.156E62719405A609.description0}"]
+			description: [
+				"{gto.iv.quests.156E62719405A609.description0}"
+				""
+				"{gto.iv.quests.156E62719405A609.description1}"
+			]
 			id: "156E62719405A609"
 			shape: "diamond"
 			size: 1.5d
@@ -202,7 +206,7 @@
 			dependencies: ["72C2E41EC2ACF82E"]
 			id: "1D413C9604012CBA"
 			shape: "gear"
-			size: 1.5d
+			size: 2.0d
 			subtitle: "{gto.iv.quests.1D413C9604012CBA.subtitle}"
 			tasks: [{
 				id: "16CF88CD1D82721D"
@@ -271,10 +275,15 @@
 		}
 		{
 			dependencies: ["13FEF91314898EB1"]
-			description: ["{gto.iv.quests.251002F2103BDA84.description0}"]
+			description: [
+				"{gto.iv.quests.251002F2103BDA84.description0}"
+				""
+				"{gto.iv.quests.251002F2103BDA84.description1}"
+			]
 			id: "251002F2103BDA84"
 			shape: "gear"
 			size: 2.0d
+			subtitle: "{gto.iv.quests.251002F2103BDA84.subtitle}"
 			tasks: [{
 				id: "0D54C1EF7D500F32"
 				item: "gtceu:assembly_line"
@@ -402,6 +411,7 @@
 			id: "5253C403ABF7BC59"
 			shape: "hexagon"
 			size: 1.5d
+			subtitle: "{gto.iv.quests.5253C403ABF7BC59.subtitle}"
 			tasks: [{
 				id: "2E0FCF54D1C1103F"
 				item: "gtocore:drilling_control_center"
@@ -440,7 +450,11 @@
 		}
 		{
 			dependencies: ["251002F2103BDA84"]
-			description: ["{gto.iv.quests.56E262C94F46A592.description0}"]
+			description: [
+				"{gto.iv.quests.56E262C94F46A592.description0}"
+				""
+				"{gto.iv.quests.56E262C94F46A592.description1}"
+			]
 			id: "56E262C94F46A592"
 			optional: true
 			shape: "diamond"
@@ -500,10 +514,7 @@
 			y: -1.5d
 		}
 		{
-			dependencies: [
-				"251002F2103BDA84"
-				"2C9C7F2B5A15B845"
-			]
+			dependencies: ["251002F2103BDA84"]
 			description: ["{gto.iv.quests.1B8F815BF14E7AE8.description0}"]
 			id: "1B8F815BF14E7AE8"
 			shape: "hexagon"
@@ -518,7 +529,11 @@
 		}
 		{
 			dependencies: ["1E239C34C36FAD60"]
-			description: ["{gto.iv.quests.7B8AFBA66325BE5F.description0}"]
+			description: [
+				"{gto.iv.quests.7B8AFBA66325BE5F.description0}"
+				""
+				"{gto.iv.quests.7B8AFBA66325BE5F.description1}"
+			]
 			hide_dependency_lines: true
 			id: "7B8AFBA66325BE5F"
 			shape: "hexagon"
@@ -819,6 +834,7 @@
 		}
 		{
 			dependencies: ["4CD7E4E23FCD3D84"]
+			description: ["{gto.iv.quests.335934E09401C67B.description0}"]
 			id: "335934E09401C67B"
 			shape: "hexagon"
 			size: 1.5d
@@ -889,7 +905,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["54AC456E31D64E42"]
+			dependencies: ["2BD46F9D8A842B4A"]
 			description: [
 				"{gto.iv.quests.79A84A1D8BCDC012.description0}"
 				""
@@ -901,8 +917,8 @@
 				title: "{gto.iv.quests.79A84A1D8BCDC012.tasks.1571ABAAEFB1193D.title}"
 				type: "checkmark"
 			}]
-			x: 16.0d
-			y: -10.5d
+			x: 8.5d
+			y: -7.0d
 		}
 		{
 			dependencies: [
@@ -965,6 +981,7 @@
 		{
 			dependencies: ["23DB14B3093506B8"]
 			id: "1380B1134D0C1C8E"
+			shape: "diamond"
 			subtitle: "{gto.iv.quests.1380B1134D0C1C8E.subtitle}"
 			tasks: [{
 				id: "1EAAD9C8D9D7DEA3"
@@ -976,8 +993,13 @@
 		}
 		{
 			dependencies: ["251002F2103BDA84"]
-			description: ["{gto.iv.quests.029CAD5FD378D3E1.description0}"]
+			description: [
+				"{gto.iv.quests.029CAD5FD378D3E1.description0}"
+				""
+				"[ \"点\", { \"text\": \"这里\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5F522D73AF5F1B2F\" } }, \"跳转用法\" ]"
+			]
 			id: "029CAD5FD378D3E1"
+			optional: true
 			subtitle: "{gto.iv.quests.029CAD5FD378D3E1.subtitle}"
 			tasks: [{
 				id: "3CDD1FE8E3131DE2"
@@ -989,7 +1011,11 @@
 		}
 		{
 			dependencies: ["1B8F815BF14E7AE8"]
-			description: ["{gto.iv.quests.09C9709EE53D0022.description0}"]
+			description: [
+				"{gto.iv.quests.09C9709EE53D0022.description0}"
+				""
+				"{gto.iv.quests.09C9709EE53D0022.description1}"
+			]
 			id: "09C9709EE53D0022"
 			tasks: [
 				{
@@ -1020,7 +1046,11 @@
 		}
 		{
 			dependencies: ["1CF7845875EEFA3B"]
-			description: ["{gto.iv.quests.388D743C6BA5D995.description0}"]
+			description: [
+				"{gto.iv.quests.388D743C6BA5D995.description0}"
+				""
+				"{gto.iv.quests.388D743C6BA5D995.description1}"
+			]
 			hide_dependency_lines: true
 			id: "388D743C6BA5D995"
 			shape: "hexagon"

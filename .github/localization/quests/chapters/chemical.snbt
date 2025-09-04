@@ -229,11 +229,7 @@
 		}
 		{
 			dependencies: ["3A380B8474CB1EC5"]
-			description: [
-				"{gto.chemical.quests.17AF85D73DDCC646.description0}"
-				""
-				"{gto.chemical.quests.17AF85D73DDCC646.description1}"
-			]
+			description: ["{gto.chemical.quests.17AF85D73DDCC646.description0}"]
 			icon: "gtocore:desulfurizer"
 			id: "17AF85D73DDCC646"
 			shape: "square"

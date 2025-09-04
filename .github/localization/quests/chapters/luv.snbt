@@ -171,7 +171,7 @@
 				item: "gtceu:data_bank"
 				type: "item"
 			}]
-			x: 5.25d
+			x: 5.0d
 			y: 5.0d
 		}
 		{
@@ -220,8 +220,8 @@
 				item: "gtceu:uranium_rhodium_dinaquadide_ingot"
 				type: "item"
 			}]
-			x: 10.5d
-			y: 7.0d
+			x: 7.0d
+			y: 3.0d
 		}
 		{
 			dependencies: [
@@ -259,7 +259,7 @@
 				item: "gtocore:flocculation_purification_unit"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 5.0d
 			y: 0.5d
 		}
 		{
@@ -270,7 +270,7 @@
 				item: "gtocore:flocculent_water_bucket"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 9.0d
 			y: 0.5d
 		}
 		{
@@ -301,7 +301,6 @@
 			id: "4B0A791FB84B1F31"
 			optional: true
 			shape: "diamond"
-			size: 1.5d
 			tasks: [{
 				id: "44A7ED330B629A00"
 				item: "gtocore:energy_injector"
@@ -342,7 +341,11 @@
 		}
 		{
 			dependencies: ["11CF6F5DE4A3CC4F"]
-			description: ["{gto.luv.quests.7E1C35C2DE805E6B.description0}"]
+			description: [
+				"{gto.luv.quests.7E1C35C2DE805E6B.description0}"
+				""
+				"{gto.luv.quests.7E1C35C2DE805E6B.description1}"
+			]
 			id: "7E1C35C2DE805E6B"
 			shape: "hexagon"
 			tasks: [{
@@ -369,6 +372,7 @@
 			dependencies: [
 				"05EB6CDF13762280"
 				"5BBCF715A1BDDA11"
+				"3A08E4803A895152"
 			]
 			id: "616EB11F181951BB"
 			shape: "hexagon"
@@ -500,17 +504,24 @@
 		}
 		{
 			dependencies: ["722C24B0C50641D1"]
-			description: ["{gto.luv.quests.5548E798636F52B2.description0}"]
+			dependency_requirement: "one_completed"
+			description: [
+				"{gto.luv.quests.5548E798636F52B2.description0}"
+				""
+				"{gto.luv.quests.5548E798636F52B2.description1}"
+				""
+				"{gto.luv.quests.5548E798636F52B2.description2}"
+			]
 			id: "5548E798636F52B2"
 			shape: "diamond"
-			size: 2.0d
+			size: 2.5d
 			tasks: [{
 				id: "18493B4F8D6A5E45"
 				item: "gtocore:luv_kuangbiao_one_giant_nuclear_fusion_reactor"
 				type: "item"
 			}]
-			x: 14.5d
-			y: 10.0d
+			x: 11.75d
+			y: 7.5d
 		}
 		{
 			dependencies: [
@@ -541,8 +552,7 @@
 		{
 			dependencies: ["10F52803BCD77DA0"]
 			id: "43AB8C2F96BDEF15"
-			shape: "hexagon"
-			size: 1.5d
+			shape: "diamond"
 			subtitle: "{gto.luv.quests.43AB8C2F96BDEF15.subtitle}"
 			tasks: [{
 				id: "0C3DF4927A31F0D1"
@@ -550,10 +560,13 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: -9.0d
+			y: -8.5d
 		}
 		{
-			dependencies: ["2F03D93AC7DBE58D"]
+			dependencies: [
+				"608F56E6A187940C"
+				"05EB6CDF13762280"
+			]
 			description: ["{gto.luv.quests.31D3C88D38170932.description0}"]
 			hide_dependency_lines: true
 			icon: "gtceu:bacterial_sludge_bucket"
@@ -598,6 +611,8 @@
 				"{gto.luv.quests.3E34FFB5E5A60909.description2}"
 			]
 			id: "3E34FFB5E5A60909"
+			shape: "hexagon"
+			size: 1.5d
 			tasks: [
 				{
 					id: "308A057FC7DD2C02"
@@ -708,7 +723,7 @@
 			]
 			id: "68A3CE3A60F11C88"
 			shape: "gear"
-			size: 1.25d
+			size: 1.5d
 			subtitle: "{gto.luv.quests.68A3CE3A60F11C88.subtitle}"
 			tasks: [{
 				id: "2A4EA12F2A1A397D"
@@ -780,8 +795,8 @@
 				item: "gtocore:polyurethaneresin_bucket"
 				type: "item"
 			}]
-			x: 17.0d
-			y: -1.0d
+			x: 19.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["0FD2B76B1608F4FA"]
@@ -812,6 +827,8 @@
 				"5DC92641E94C560D"
 			]
 			id: "6CF8EB50958B959D"
+			shape: "hexagon"
+			size: 1.5d
 			tasks: [{
 				id: "0C0BA00902FDACF5"
 				item: "gtocore:imprinted_resonatic_circuit_board"
@@ -824,25 +841,25 @@
 			dependencies: ["1156B92F11DA73B6"]
 			id: "6925C0D55D578A9A"
 			shape: "diamond"
-			size: 1.5d
 			tasks: [{
 				id: "335A69E2488138E8"
 				item: "gtocore:large_crystallization_chamber"
 				type: "item"
 			}]
-			x: 12.5d
-			y: 7.0d
+			x: 17.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["31F90B973A779017"]
 			id: "49EECA793E1FF66F"
 			shape: "hexagon"
+			size: 1.5d
 			tasks: [{
 				id: "5DDDA7609E78FB32"
 				item: "gtocore:decay_hastener"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 7.5d
 			y: -1.5d
 		}
 		{
@@ -877,8 +894,8 @@
 				item: "gtocore:simple_fiber_optic_rough"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 7.0d
+			x: 2.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["2F03D93AC7DBE58D"]
@@ -890,8 +907,8 @@
 				item: "gtocore:drawing_tower"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 7.0d
+			x: 0.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["7EA0644BB352BBB5"]
@@ -914,8 +931,8 @@
 				item: "gtceu:high_performance_computation_array"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 7.0d
+			x: 9.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["4EC4E151D57351F6"]
@@ -930,11 +947,12 @@
 				}
 				type: "item"
 			}]
-			x: 5.25d
-			y: 7.0d
+			x: 5.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["7AD94105147C5940"]
+			description: ["{gto.luv.quests.7FBA4F73F200F0D5.description0}"]
 			id: "7FBA4F73F200F0D5"
 			tasks: [
 				{
@@ -949,8 +967,19 @@
 				}
 			]
 			title: "{gto.luv.quests.7FBA4F73F200F0D5.title}"
-			x: 5.25d
+			x: 5.0d
 			y: 3.0d
+		}
+		{
+			dependencies: ["05EB6CDF13762280"]
+			id: "3A08E4803A895152"
+			tasks: [{
+				id: "48ABB686F1272251"
+				item: "gtceu:crystal_soc"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -2.0d
 		}
 	]
 	subtitle: ["{gto.luv.subtitle0}"]

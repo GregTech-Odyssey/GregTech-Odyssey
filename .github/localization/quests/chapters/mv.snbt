@@ -11,7 +11,7 @@
 		id: "112AADE317BB4B64"
 		linked_quest: "3D1E66868544975F"
 		shape: "gear"
-		size: 1.5d
+		size: 2.0d
 		x: -12.0d
 		y: 3.0d
 	}]
@@ -245,6 +245,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["7E061DC16432D549"]
 			description: ["{gto.mv.quests.7C30575AACA9FE5B.description0}"]
 			hide_dependency_lines: true
 			id: "7C30575AACA9FE5B"
@@ -361,7 +362,7 @@
 				item: "gtceu:transistor"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 6.0d
 			y: -4.0d
 		}
 		{
@@ -387,7 +388,7 @@
 				item: "gtocore:coolant_liquid_bucket"
 				type: "item"
 			}]
-			x: -6.5d
+			x: -8.0d
 			y: 3.0d
 		}
 		{
@@ -451,6 +452,8 @@
 				"{gto.mv.quests.0D63E5A54480E693.description2}"
 				""
 				"{gto.mv.quests.0D63E5A54480E693.description3}"
+				""
+				"{gto.mv.quests.0D63E5A54480E693.description4}"
 			]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
@@ -485,7 +488,7 @@
 				item: "gtceu:mv_circuit_assembler"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 7.0d
 			y: -0.5d
 		}
 		{
@@ -547,6 +550,8 @@
 				"{gto.mv.quests.0A833C1D2C10C697.description0}"
 				""
 				"{gto.mv.quests.0A833C1D2C10C697.description1}"
+				""
+				"{gto.mv.quests.0A833C1D2C10C697.description2}"
 			]
 			hide_dependency_lines: true
 			id: "0A833C1D2C10C697"
@@ -613,7 +618,7 @@
 				}
 			]
 			title: "{gto.mv.quests.61A40570FE41BC2D.title}"
-			x: 7.5d
+			x: 7.0d
 			y: 1.5d
 		}
 		{
@@ -719,8 +724,8 @@
 				title: "{gto.mv.quests.66FE671D7F2BFDD7.tasks.4E286369A1435709.title}"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 0.0d
+			x: 6.0d
+			y: 0.5d
 		}
 		{
 			dependencies: [
@@ -757,8 +762,8 @@
 				item: "gtmthings:mv_digital_miner"
 				type: "item"
 			}]
-			x: 8.5d
-			y: -3.75d
+			x: 9.0d
+			y: -0.5d
 		}
 		{
 			dependencies: [
@@ -1140,6 +1145,7 @@
 			y: -0.5d
 		}
 		{
+			dependencies: ["3D1E66868544975F"]
 			hide_dependency_lines: true
 			id: "1DBBBBC4F368466E"
 			tasks: [{

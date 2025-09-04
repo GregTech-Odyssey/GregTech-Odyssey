@@ -9,8 +9,8 @@
 	quest_links: [{
 		id: "7E30FC47C3028882"
 		linked_quest: "256F90AFB461107E"
-		shape: "hexagon"
-		size: 1.5d
+		shape: "gear"
+		size: 2.0d
 		x: -1.0d
 		y: 0.5d
 	}]
@@ -61,7 +61,7 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["52DFF4A301A510C8"]
+			dependencies: ["2544898A725CC1A3"]
 			hide_dependent_lines: true
 			id: "0584B928D8CFAE73"
 			tasks: [{
@@ -69,8 +69,8 @@
 				item: "gtocore:gravity_hatch"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 4.5d
+			x: 3.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["52DFF4A301A510C8"]
@@ -99,10 +99,14 @@
 				"52DFF4A301A510C8"
 				"7A1E4DBA675E67FB"
 			]
-			description: ["可以使用激光能源仓和增益仓了"]
+			description: [
+				"可以使用激光能源仓和增益仓了"
+				""
+				"这应该也是你的第一个超级机器"
+			]
 			id: "0B7507528A43F25E"
-			shape: "rsquare"
-			size: 1.5d
+			shape: "hexagon"
+			size: 2.0d
 			subtitle: "超大杯"
 			tasks: [{
 				id: "432D72988C1DA34B"
@@ -116,13 +120,13 @@
 			dependencies: ["52DFF4A301A510C8"]
 			id: "1C1AEB2B9E9F68CD"
 			shape: "diamond"
-			subtitle: "无限钻机！"
+			subtitle: "再也不用给钻机换位置了"
 			tasks: [{
 				id: "2F5012D1DDBED59B"
 				item: "gtocore:infinity_fluid_drilling_rig"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 5.0d
 			y: 0.5d
 		}
 		{
@@ -141,8 +145,8 @@
 			dependencies: ["19B07E541BE74686"]
 			description: ["这是T8火箭，解锁巴纳德C"]
 			id: "78EAFECB9E9BF692"
-			shape: "rsquare"
-			size: 1.5d
+			shape: "gear"
+			size: 2.0d
 			subtitle: "我们的目标是星辰大海"
 			tasks: [{
 				id: "4D84FA37F597ACCD"
@@ -397,6 +401,7 @@
 			dependencies: [
 				"5DB23A211AB51AE2"
 				"6E673337DD550808"
+				"70ADA9EF977D0FF7"
 			]
 			id: "1F1611C024CAB8E7"
 			shape: "hexagon"
@@ -443,7 +448,7 @@
 			description: ["恭喜！生物线完成！看看你的培养缸，然后外出休息一下吧！"]
 			id: "7A1E4DBA675E67FB"
 			shape: "gear"
-			size: 1.5d
+			size: 2.0d
 			subtitle: "你已掌握微生物的法则"
 			tasks: [{
 				id: "50BBBED3BB5C958B"
@@ -493,6 +498,21 @@
 			}]
 			x: 1.0d
 			y: 3.5d
+		}
+		{
+			dependencies: ["7A1E4DBA675E67FB"]
+			description: ["冷凝等离子体，牺牲发电和速度换取更高的产率"]
+			id: "5BABA7621E000F54"
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "牺牲发电换取产出"
+			tasks: [{
+				id: "27F5973271F651B6"
+				item: "gtocore:plasma_condenser"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["256F90AFB461107E"]
@@ -723,18 +743,18 @@
 			description: ["终于，部件装配它回来了！"]
 			id: "6596EAF3D5641974"
 			shape: "diamond"
-			size: 1.5d
 			tasks: [{
 				id: "7706251E93D0F6E6"
 				item: "gtocore:component_assembly_line"
 				type: "item"
 			}]
 			x: 11.0d
-			y: 6.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["256F90AFB461107E"]
 			id: "7EF1BB4CD73A4171"
+			shape: "diamond"
 			subtitle: "升级你的大型机器#4"
 			tasks: [{
 				id: "1E1F5B9451FAE37F"
@@ -743,6 +763,44 @@
 			}]
 			x: -1.0d
 			y: -1.0d
+		}
+		{
+			dependencies: ["7A1E4DBA675E67FB"]
+			id: "34CD9D47608811CA"
+			shape: "diamond"
+			tasks: [{
+				id: "617D5B65361DEFF9"
+				item: "gtocore:superconducting_electromagnetism"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"2544898A725CC1A3"
+				"148FCA7FF10773DE"
+			]
+			hide_dependency_lines: true
+			id: "70ADA9EF977D0FF7"
+			tasks: [{
+				id: "4127D4DD796D0F97"
+				item: "gtocore:mutated_living_solder_bucket"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["52DFF4A301A510C8"]
+			id: "2544898A725CC1A3"
+			tasks: [{
+				id: "013F1519EBB354B6"
+				item: "gtceu:gravi_star"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.5d
 		}
 	]
 	subtitle: ["Tier8-UV"]
