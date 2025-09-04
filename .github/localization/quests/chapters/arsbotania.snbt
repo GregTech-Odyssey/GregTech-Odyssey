@@ -5021,6 +5021,7 @@
 		}
 		{
 			dependencies: ["527EBA90163F6108"]
+			description: ["{gto.arsbotania.quests.05FC584B28D957EB.description0}"]
 			id: "05FC584B28D957EB"
 			tasks: [
 				{
@@ -5228,6 +5229,27 @@
 			}]
 			x: 26.0d
 			y: -1.5d
+		}
+		{
+			dependencies: [
+				"3D862A3D3F83CA26"
+				"542C6D76B579886C"
+			]
+			description: ["{gto.arsbotania.quests.5D60FFFB4D2F55F3.description0}"]
+			id: "5D60FFFB4D2F55F3"
+			optional: true
+			subtitle: "{gto.arsbotania.quests.5D60FFFB4D2F55F3.subtitle}"
+			tasks: [{
+				id: "53E13F05DA3E7C65"
+				item: {
+					Count: 1
+					id: "ars_nouveau:stable_warp_scroll"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 19.5d
+			y: 3.25d
 		}
 	]
 	title: "{gto.arsbotania.title}"

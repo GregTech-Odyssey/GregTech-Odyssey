@@ -7,14 +7,22 @@
 	icon: "gtocore:primitive_distillation_tower"
 	id: "7EE10B51F068F7FB"
 	order_index: 1
-	quest_links: [{
-		id: "447496A1C3D6E5C4"
-		linked_quest: "4678D97346E46529"
-		shape: "gear"
-		size: 2.0d
-		x: -2.0d
-		y: -6.5d
-	}]
+	quest_links: [
+		{
+			id: "447496A1C3D6E5C4"
+			linked_quest: "4678D97346E46529"
+			shape: "gear"
+			size: 2.0d
+			x: -2.0d
+			y: -6.5d
+		}
+		{
+			id: "2144C60D0F965D68"
+			linked_quest: "0DCA3A96184C9EAC"
+			x: -2.0d
+			y: -8.5d
+		}
+	]
 	quests: [
 		{
 			dependencies: ["0859B24E8AF3303F"]
@@ -257,7 +265,7 @@
 				type: "item"
 			}]
 			title: "{gto.ulv.quests.76259357A13F3B1E.title}"
-			x: 1.5d
+			x: 2.0d
 			y: -7.0d
 		}
 		{
@@ -1063,7 +1071,11 @@
 		}
 		{
 			dependencies: ["1CA6E1AD1909373A"]
-			description: ["{gto.ulv.quests.389D61CE9E799725.description0}"]
+			description: [
+				"{gto.ulv.quests.389D61CE9E799725.description0}"
+				""
+				"[\"点\",{ \"text\": \"这里\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4AF39FF336EA1BF4\" } },\"跳转神化章节\"]"
+			]
 			id: "389D61CE9E799725"
 			rewards: [{
 				id: "354671ADCF4F585E"
@@ -1077,13 +1089,25 @@
 				type: "item"
 			}]
 			shape: "diamond"
-			tasks: [{
-				id: "08323F83E5FE05AE"
-				item: "gtocore:rarity_forge"
-				type: "item"
-			}]
-			x: -3.0d
-			y: 1.0d
+			tasks: [
+				{
+					id: "08323F83E5FE05AE"
+					item: "gtocore:rarity_forge"
+					type: "item"
+				}
+				{
+					id: "5B8F0331ED91AA12"
+					item: "gtocore:speed_upgrade_module"
+					type: "item"
+				}
+				{
+					id: "3845A732B77CD412"
+					item: "gtocore:energy_upgrade_module"
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["2EE92A46E52B0565"]
@@ -1101,6 +1125,52 @@
 			}]
 			x: -5.0d
 			y: -3.0d
+		}
+		{
+			dependencies: ["0DCA3A96184C9EAC"]
+			description: [
+				"{gto.ulv.quests.597DEB09F86B2821.description0}"
+				""
+				"{gto.ulv.quests.597DEB09F86B2821.description1}"
+			]
+			id: "597DEB09F86B2821"
+			optional: true
+			subtitle: "{gto.ulv.quests.597DEB09F86B2821.subtitle}"
+			tasks: [{
+				id: "6D5D1A40A708ABB0"
+				item: "gtocore:pulsating_alloy_superconductor_base"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -8.5d
+		}
+		{
+			dependencies: [
+				"7A359C1F5E041C4F"
+				"597DEB09F86B2821"
+			]
+			id: "1C9024E83C0BE0A4"
+			optional: true
+			tasks: [{
+				id: "42505277D20AE06C"
+				item: "gtocore:pulsating_alloy_single_wire"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["1CDBE91D2ACD9111"]
+			id: "380CC80AE197328A"
+			shape: "diamond"
+			subtitle: "{gto.ulv.quests.380CC80AE197328A.subtitle}"
+			tasks: [{
+				id: "43ADA042DE958330"
+				item: "gtocore:infinite_intake_hatch"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.5d
 		}
 	]
 	subtitle: ["{gto.ulv.subtitle0}"]

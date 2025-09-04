@@ -7,12 +7,22 @@
 	icon: "minecraft:grass_block"
 	id: "2F98FBAEECC4F940"
 	order_index: 0
-	quest_links: [{
-		id: "2EFF8F212CD14656"
-		linked_quest: "20BC48DF78F11B24"
-		x: 11.0d
-		y: -2.5d
-	}]
+	quest_links: [
+		{
+			id: "2EFF8F212CD14656"
+			linked_quest: "20BC48DF78F11B24"
+			x: 11.0d
+			y: -2.5d
+		}
+		{
+			id: "32D234D148B4451C"
+			linked_quest: "5183DB6A793BB3C6"
+			shape: "gear"
+			size: 3.0d
+			x: -7.5d
+			y: -3.0d
+		}
+	]
 	quests: [
 		{
 			dependencies: [
@@ -644,7 +654,7 @@
 				""
 				"{gto.main-stoneage.quests.10C397237163BFFC.description2}"
 				""
-				"[ \"我建议你用\", { \"text\": \"终端\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"07C8D75D90114580\" } }, \"来帮助你搭建\" ]"
+				"[ \"还在傻傻手搭多方块吗？我建议你用\", { \"text\": \"终端\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"07C8D75D90114580\" } }, \"来辅助搭建\"]"
 				""
 				"{gto.main-stoneage.quests.10C397237163BFFC.description3}"
 			]
@@ -1567,7 +1577,7 @@
 		}
 		{
 			description: [
-				"[ \"在砍下第一棵树前建议前往\", { \"text\": \"提示\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"79646E8E449D8A1A\" } }, \"章节查看提示\" ]"
+				"[ \"在砍下第一棵树前建议前往\", { \"text\": \"提示\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"79646E8E449D8A1A\" } }, \"章节查看提示，花几分钟阅读一下对你的游玩之旅大有帮助\" ]"
 				""
 				"{gto.main-stoneage.quests.19EFE14C82DDAB67.description0}"
 			]
@@ -2155,6 +2165,13 @@
 				"{gto.main-stoneage.quests.06FE84E75DBE704A.description6}"
 				""
 				"{gto.main-stoneage.quests.06FE84E75DBE704A.description7}"
+				"{@pagebreak}"
+				""
+				"{gto.main-stoneage.quests.06FE84E75DBE704A.description8}"
+				""
+				"{gto.main-stoneage.quests.06FE84E75DBE704A.description9}"
+				""
+				"{gto.main-stoneage.quests.06FE84E75DBE704A.description10}"
 			]
 			id: "06FE84E75DBE704A"
 			rewards: [
@@ -2221,6 +2238,26 @@
 			title: "{gto.main-stoneage.quests.1ACA0000AE7FC80A.title}"
 			x: 10.0d
 			y: 5.0d
+		}
+		{
+			dependencies: [
+				"2E05753AF03C5608"
+				"12116F27AB89BB58"
+			]
+			description: [
+				"{gto.main-stoneage.quests.2D9893D2C108754F.description0}"
+				"{gto.main-stoneage.quests.2D9893D2C108754F.description1}"
+			]
+			id: "2D9893D2C108754F"
+			shape: "diamond"
+			subtitle: "{gto.main-stoneage.quests.2D9893D2C108754F.subtitle}"
+			tasks: [{
+				id: "3275A7DEDC7837C1"
+				item: "gtocore:multiblock_crate"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 3.5d
 		}
 	]
 	subtitle: ["{gto.main-stoneage.subtitle0}"]

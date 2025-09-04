@@ -154,6 +154,7 @@
 			y: 2.0d
 		}
 		{
+			description: ["{gto.shop.quests.77D7AF6D8806AFBF.description0}"]
 			icon: "gtocore:gto_overseer_coke_ulv"
 			id: "77D7AF6D8806AFBF"
 			rewards: [{
