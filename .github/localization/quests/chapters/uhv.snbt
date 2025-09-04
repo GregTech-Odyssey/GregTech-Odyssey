@@ -1,5 +1,4 @@
 {
-	always_invisible: true
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "uhv"
@@ -743,6 +742,7 @@
 		}
 		{
 			dependencies: ["57729FBB969E8CC6"]
+			hide_dependent_lines: true
 			id: "1F5585DCC6CE74ED"
 			shape: "hexagon"
 			tasks: [{
@@ -802,10 +802,9 @@
 		}
 		{
 			dependencies: [
-				"1F5585DCC6CE74ED"
 				"040559A415488076"
+				"1F5585DCC6CE74ED"
 			]
-			hide_dependency_lines: true
 			id: "26A8B23E6550CF57"
 			tasks: [{
 				id: "005F4EE401E1959A"
