@@ -11,8 +11,8 @@
 		linked_quest: "3490AACD4AA62C5D"
 		shape: "gear"
 		size: 2.0d
-		x: -6.5d
-		y: -2.0d
+		x: -8.5d
+		y: -4.0d
 	}]
 	quests: [
 		{
@@ -25,8 +25,8 @@
 				type: "item"
 			}]
 			title: "&4湿件处理器"
-			x: -3.0d
-			y: 6.0d
+			x: -2.0d
+			y: 7.0d
 		}
 		{
 			dependencies: [
@@ -39,8 +39,8 @@
 				item: "gtceu:neuro_processing_unit"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 4.5d
+			x: -2.0d
+			y: 5.5d
 		}
 		{
 			dependencies: [
@@ -51,7 +51,7 @@
 			description: ["终于！现在你可以走向&4湿件&r处理器了！"]
 			id: "5B5C82819DC2D27A"
 			shape: "gear"
-			size: 1.5d
+			size: 2.0d
 			subtitle: "生命自此繁衍"
 			tasks: [{
 				count: 16L
@@ -59,8 +59,8 @@
 				item: "gtceu:stem_cells"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 3.0d
+			x: -2.0d
+			y: 3.5d
 		}
 		{
 			dependencies: [
@@ -75,8 +75,8 @@
 				item: "gtocore:preparation_petri_dish"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 3.0d
+			x: -2.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["19127B42AB919C11"]
@@ -87,8 +87,8 @@
 				item: "gtceu:sterilizing_filter_casing"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 1.5d
+			x: -2.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -97,15 +97,16 @@
 				"0A7AD87999A0DDF5"
 			]
 			id: "1DE0A599F076C31A"
-			shape: "hexagon"
+			shape: "gear"
+			size: 2.0d
 			subtitle: "金粉甜甜圈"
 			tasks: [{
 				id: "71419E9374165D99"
 				item: "gtceu:zpm_fusion_reactor"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 0.0d
+			x: -2.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["1DE0A599F076C31A"]
@@ -115,8 +116,8 @@
 				item: "gtceu:tritanium_ingot"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 0.0d
+			x: -2.0d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -145,8 +146,8 @@
 				item: "gtocore:biochemical_extraction"
 				type: "item"
 			}]
-			x: -6.5d
-			y: 3.0d
+			x: -8.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["3490AACD4AA62C5D"]
@@ -163,8 +164,8 @@
 				item: "gtocore:biochemical_reaction"
 				type: "item"
 			}]
-			x: -6.5d
-			y: 0.0d
+			x: -8.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["608F56E6A187940C"]
@@ -179,8 +180,8 @@
 				}
 				type: "item"
 			}]
-			x: 0.0d
-			y: 0.0d
+			x: 1.0d
+			y: 5.5d
 		}
 		{
 			dependencies: [
@@ -188,13 +189,14 @@
 				"0BB1BDBE8BB307E4"
 			]
 			id: "7402D24D2847B7F2"
+			shape: "diamond"
 			tasks: [{
 				id: "4AB2877CB2E0A003"
 				item: "gtocore:fuel_refining_complex"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 0.0d
+			x: 1.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["19127B42AB919C11"]
@@ -205,7 +207,7 @@
 				item: "gtceu:tritanium_coil_block"
 				type: "item"
 			}]
-			x: -1.5d
+			x: 1.0d
 			y: -1.5d
 		}
 		{
@@ -216,8 +218,8 @@
 				item: "gtceu:enriched_naquadah_trinium_europium_duranide_ingot"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -3.5d
+			x: 2.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["24F1061AFD1BFEB2"]
@@ -228,44 +230,47 @@
 				item: "gtceu:network_switch"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -3.5d
+			x: 2.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["24F1061AFD1BFEB2"]
 			id: "25331E8563FB84D2"
 			shape: "diamond"
+			size: 1.5d
 			tasks: [{
 				id: "681C275DFE2B1408"
 				item: "gtceu:mega_blast_furnace"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -5.0d
+			x: 4.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["24F1061AFD1BFEB2"]
 			id: "7A5C8C049D2DFFD2"
 			shape: "diamond"
+			size: 1.5d
 			tasks: [{
 				id: "51A33689384430A1"
 				item: "gtocore:mega_alloy_blast_smelter"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -5.0d
+			x: 4.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["24F1061AFD1BFEB2"]
 			id: "0ECFA06FC2CE4E8D"
 			shape: "diamond"
+			size: 1.5d
 			tasks: [{
 				id: "549887823D723091"
 				item: "gtceu:mega_vacuum_freezer"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -5.0d
+			x: 4.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["1DE0A599F076C31A"]
@@ -275,8 +280,8 @@
 				item: "gtceu:darmstadtium_ingot"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -1.5d
+			x: 1.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["0B7A508B2670C9C2"]
@@ -296,8 +301,8 @@
 				type: "item"
 			}]
 			title: "欢迎来到&3极限压&r阶段"
-			x: -4.5d
-			y: -3.5d
+			x: 4.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["5E32A6DFE04D28F4"]
@@ -309,8 +314,8 @@
 				type: "item"
 			}]
 			title: "&4湿件处理器集群"
-			x: -4.5d
-			y: 6.0d
+			x: -4.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["0BB1BDBE8BB307E4"]
@@ -326,7 +331,7 @@
 			}
 			id: "49E04C29B878D3A8"
 			shape: "gear"
-			size: 1.5d
+			size: 2.0d
 			tasks: [
 				{
 					id: "27F480925F17A21E"
@@ -343,8 +348,8 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
-			y: 1.5d
+			x: 3.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["19134C6F6A115AEE"]
@@ -355,7 +360,7 @@
 			]
 			id: "19B07E541BE74686"
 			shape: "gear"
-			size: 1.5d
+			size: 2.0d
 			subtitle: "千载独步，惟公一人"
 			tasks: [{
 				id: "6C753B18CFABE897"
@@ -363,8 +368,8 @@
 				type: "item"
 			}]
 			title: "&4湿件处理器主机"
-			x: -8.25d
-			y: 6.0d
+			x: -8.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["608F56E6A187940C"]
@@ -375,8 +380,8 @@
 				item: "gtocore:sterile_cleaning_maintenance_hatch"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 1.5d
+			x: -0.5d
+			y: 0.0d
 		}
 		{
 			description: ["没有肉末？试试&6渔场&r！"]
@@ -386,7 +391,7 @@
 				item: "gtceu:meat_dust"
 				type: "item"
 			}]
-			x: -8.5d
+			x: -3.0d
 			y: 0.0d
 		}
 		{
@@ -397,13 +402,14 @@
 				item: "gtocore:bacterial_growth_medium_bucket"
 				type: "item"
 			}]
-			x: -8.5d
-			y: 1.5d
+			x: -4.5d
+			y: 0.0d
 		}
 		{
 			dependencies: [
 				"7A12577E23FC07A1"
 				"1F94544576D30A92"
+				"7651697F32169E49"
 			]
 			description: ["你必须先用生化反应来制作前16个细菌"]
 			id: "747599D690EADE56"
@@ -428,20 +434,14 @@
 				}
 				{
 					count: 16L
-					id: "2080911FEA33134E"
-					item: "gtocore:cupriavidus_necator_dust"
-					type: "item"
-				}
-				{
-					count: 16L
 					id: "3E47A3636A16835D"
 					item: "gtocore:streptococcus_pyogenes_dust"
 					type: "item"
 				}
 			]
-			title: "我需要DNA"
-			x: -6.5d
-			y: 1.5d
+			title: "我需要DNA#2"
+			x: -6.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["747599D690EADE56"]
@@ -452,13 +452,14 @@
 				item: "gtceu:bacteria_bucket"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 1.5d
+			x: -7.5d
+			y: 2.0d
 		}
 		{
 			dependencies: [
 				"502F7DD0C930D5BF"
 				"747599D690EADE56"
+				"351F704B01567BD7"
 			]
 			id: "59864AA3CB69A3CF"
 			subtitle: "基因大杂烩"
@@ -467,25 +468,28 @@
 				item: "gtocore:pluripotency_induction_gene_therapy_fluid_bucket"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 3.0d
+			x: -4.5d
+			y: 1.5d
 		}
 		{
-			dependencies: ["1F94544576D30A92"]
+			dependencies: [
+				"1F94544576D30A92"
+				"65A2C89AD67604DE"
+			]
 			description: ["是第一批干细胞的制作原料，也是细胞增殖的原料"]
+			hide_dependent_lines: true
 			id: "2C79D433651D795C"
 			tasks: [{
 				id: "776EC25032BCC4A6"
 				item: "gtceu:sterilized_growth_medium_bucket"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 1.5d
+			x: -4.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["3490AACD4AA62C5D"]
 			description: ["尽管你可能没有做过小型的，但我依然建议你直接做大型的"]
-			hide_dependency_lines: true
 			id: "06DF372F16F1A5CA"
 			shape: "hexagon"
 			size: 1.5d
@@ -494,8 +498,8 @@
 				item: "gtocore:large_incubator"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 3.0d
+			x: -10.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["3490AACD4AA62C5D"]
@@ -507,8 +511,8 @@
 				item: "gtocore:radiation_hatch"
 				type: "item"
 			}]
-			x: -8.5d
-			y: -2.0d
+			x: -10.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["1817710A29037DB0"]
@@ -518,8 +522,8 @@
 				item: { Count: 64, id: "gtceu:wetware_printed_circuit_board" }
 				type: "item"
 			}]
-			x: -1.5d
-			y: 4.5d
+			x: -0.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["3490AACD4AA62C5D"]
@@ -530,8 +534,8 @@
 				item: { Count: 64, id: "gtocore:hydroxyapatite_ceramic_flake" }
 				type: "item"
 			}]
-			x: -1.5d
-			y: 6.0d
+			x: -0.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["348156EA1A381ABF"]
@@ -544,7 +548,7 @@
 			}]
 			title: "&4湿件处理器超级计算机"
 			x: -6.0d
-			y: 6.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["44B34806DA0FEA9A"]
@@ -556,11 +560,14 @@
 				item: "gtocore:wetware_soc"
 				type: "item"
 			}]
-			x: -6.0d
-			y: 4.5d
+			x: -4.0d
+			y: 3.5d
 		}
 		{
-			dependencies: ["502F7DD0C930D5BF"]
+			dependencies: [
+				"502F7DD0C930D5BF"
+				"0099AE8ACBB72951"
+			]
 			id: "44B34806DA0FEA9A"
 			subtitle: "这不是疯狂戴夫的脑子！"
 			tasks: [{
@@ -568,20 +575,22 @@
 				item: "gtocore:super_cerebrum"
 				type: "item"
 			}]
-			x: -7.5d
-			y: 4.5d
+			x: -6.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["06DF372F16F1A5CA"]
 			description: ["霜原星的羊掉落，也会在月球地牢中随机开出"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
 			id: "351F704B01567BD7"
 			tasks: [{
 				id: "259434E989076A2D"
 				item: "gtocore:glacio_spirit"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 4.5d
+			x: 3.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["3490AACD4AA62C5D"]
@@ -594,7 +603,7 @@
 				type: "item"
 			}]
 			x: -5.0d
-			y: 0.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["5D828A5258BFF11F"]
@@ -608,7 +617,7 @@
 				type: "item"
 			}]
 			x: -10.5d
-			y: 1.5d
+			y: 0.25d
 		}
 		{
 			dependencies: ["590D044B9C85B84A"]
@@ -643,7 +652,7 @@
 			]
 			title: "藻类"
 			x: -10.5d
-			y: 3.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["3F041E002D75AB2C"]
@@ -673,8 +682,8 @@
 				}
 			]
 			title: "生物养料"
-			x: -8.5d
-			y: 3.0d
+			x: -10.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["67050CC889ABB614"]
@@ -686,8 +695,8 @@
 				item: "gtocore:supercomputing_center"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 4.5d
+			x: -4.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["19B07E541BE74686"]
@@ -696,7 +705,7 @@
 				""
 				"进阶装配线是装配线的并行版本，可以用&b巨型输入总线&r，而且可以上&e激光仓&r"
 				""
-				"需要注意，盲目超频不可取，因为进阶装配线是&c超损超频&r的！换言之，4倍的功率只能让配方耗时变为0.75倍，但是并行可以正常结算"
+				"需要注意，盲目超频不可取，因为进阶装配线是&c超损超频&r的！换言之，&a4倍&r的功率只能让配方耗时变为&c0.75&r倍，但是并行可以正常结算"
 			]
 			id: "6DC73D6C2AD17444"
 			shape: "diamond"
@@ -708,7 +717,7 @@
 				type: "item"
 			}]
 			x: -10.5d
-			y: 6.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["6DC73D6C2AD17444"]
@@ -725,19 +734,20 @@
 				type: "item"
 			}]
 			x: -10.5d
-			y: 4.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["19B07E541BE74686"]
 			description: ["虽说一步处理，不过考虑到后续流程，你可能还得生产一些石脑油"]
 			id: "0CBF5FDD07337CE1"
+			shape: "diamond"
 			tasks: [{
 				id: "038D5413A06693F0"
 				item: "gtocore:petrochemical_plant"
 				type: "item"
 			}]
-			x: -9.0d
-			y: 4.5d
+			x: -8.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["0985154AE9169549"]
@@ -755,8 +765,8 @@
 				}
 			]
 			title: "核废料兄弟"
-			x: 1.5d
-			y: -3.0d
+			x: 2.5d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -771,8 +781,8 @@
 				item: "gtocore:super_particle_collider"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -1.5d
+			x: 1.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["0007751813572404"]
@@ -783,8 +793,8 @@
 				item: "gtceu:astatine_dust"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -1.5d
+			x: 1.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["26167AFECA871925"]
@@ -798,8 +808,8 @@
 				item: "gtocore:integral_framework_zpm"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -3.0d
+			x: 2.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["28265843939C1503"]
@@ -809,8 +819,66 @@
 				item: "gtocore:lafium_ingot"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -1.5d
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			description: ["用捕捉附魔获取以上的蛋"]
+			id: "7651697F32169E49"
+			tasks: [
+				{
+					id: "069E698FCF2189A7"
+					item: "minecraft:piglin_brute_spawn_egg"
+					type: "item"
+				}
+				{
+					id: "6A19E2D1B57C3AB1"
+					item: "minecraft:piglin_spawn_egg"
+					type: "item"
+				}
+				{
+					id: "050D3B8D01C4B1F3"
+					item: "minecraft:hoglin_spawn_egg"
+					type: "item"
+				}
+				{
+					id: "1E944186F902F254"
+					item: "minecraft:creeper_spawn_egg"
+					type: "item"
+				}
+			]
+			title: "我需要DNA#3"
+			x: -7.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"7A12577E23FC07A1"
+				"1F94544576D30A92"
+			]
+			description: ["你必须先用生化反应来制作前16个细菌"]
+			id: "65A2C89AD67604DE"
+			tasks: [{
+				count: 16L
+				id: "6A86228DF9447140"
+				item: "gtocore:cupriavidus_necator_dust"
+				type: "item"
+			}]
+			title: "我需要DNA#1"
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7FED9F9CC769610C"]
+			hide_dependency_lines: true
+			id: "0099AE8ACBB72951"
+			tasks: [{
+				id: "270877B95A714083"
+				item: "gtceu:mutagen_bucket"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 5.0d
 		}
 	]
 	subtitle: ["Tier7-ZPM"]
