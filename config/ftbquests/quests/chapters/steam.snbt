@@ -185,7 +185,7 @@
 			]
 			title: "望泵止渴"
 			x: -6.0d
-			y: -2.25d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -239,8 +239,8 @@
 				type: "item"
 			}]
 			title: "真正的原始人炉子"
-			x: -0.75d
-			y: 0.75d
+			x: -0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["05F4015974079225"]
@@ -331,6 +331,7 @@
 				"&416mb/t&r的&6蒸汽&r就足够它跑满了"
 			]
 			id: "7BE51B4BC36F8B7B"
+			shape: "hexagon"
 			size: 1.5d
 			subtitle: "这不是林永健的家"
 			tasks: [{
@@ -340,7 +341,7 @@
 			}]
 			title: "大锤80，小锤40！"
 			x: 2.25d
-			y: 9.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["24C53B5FF515ACAC"]
@@ -394,6 +395,7 @@
 				"我建议你留着&d橡胶原木&r，因为一来它的产出并不多，二来它能在&6离心机&r里产出&6胶水&r"
 			]
 			id: "431D763E6303976B"
+			shape: "pentagon"
 			size: 1.5d
 			subtitle: "但其实也没什么区别不是吗"
 			tasks: [{
@@ -402,8 +404,8 @@
 				type: "item"
 			}]
 			title: "提取机，不是榨汁机！"
-			x: 10.75d
-			y: 11.5d
+			x: 13.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["55AAF11E1101F10F"]
@@ -478,7 +480,7 @@
 				"&r跟其他的蒸汽小机器升级版多方块一样，差不多&4250mb/t&r的&6蒸汽&r就足够它跑满并行了"
 			]
 			id: "7AEE9F9ADE58612F"
-			shape: "pentagon"
+			shape: "diamond"
 			size: 1.5d
 			subtitle: "这一下可不止80"
 			tasks: [{
@@ -487,8 +489,8 @@
 				type: "item"
 			}]
 			title: "大锤落下！"
-			x: 0.75d
-			y: 7.5d
+			x: 2.25d
+			y: 12.0d
 		}
 		{
 			dependencies: ["05F4015974079225"]
@@ -541,7 +543,7 @@
 			]
 			id: "27F4D9739FE33A02"
 			shape: "gear"
-			size: 2.0d
+			size: 2.5d
 			subtitle: "真正的生产力大跃进"
 			tasks: [{
 				id: "555B0222E8133F88"
@@ -728,8 +730,8 @@
 				type: "dimension"
 			}]
 			title: "回到过去？"
-			x: 6.011904761904773d
-			y: -2.25d
+			x: 6.0d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -773,8 +775,8 @@
 				}
 			]
 			title: "远古反应堆"
-			x: 6.011904761904773d
-			y: 0.75d
+			x: 6.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["4A9E47C3F8DF24A3"]
@@ -795,8 +797,8 @@
 				type: "item"
 			}]
 			title: "嗯？怎么你也？"
-			x: 3.0d
-			y: 0.75d
+			x: 2.25d
+			y: 0.0d
 		}
 		{
 			dependencies: ["27F4D9739FE33A02"]
@@ -888,7 +890,7 @@
 			}]
 			title: "原始电路板？"
 			x: 15.000000000000007d
-			y: -0.25d
+			y: 0.0d
 		}
 		{
 			dependencies: ["24C53B5FF515ACAC"]
@@ -923,7 +925,7 @@
 			]
 			title: "能抽真空的小家伙"
 			x: 15.000000000000007d
-			y: -2.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["043FCD7B759853EA"]
@@ -944,8 +946,8 @@
 				type: "item"
 			}]
 			title: "离心吗？"
-			x: 4.75d
-			y: 12.25d
+			x: 6.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["043FCD7B759853EA"]
@@ -968,8 +970,8 @@
 				type: "item"
 			}]
 			title: "大泳池"
-			x: 7.0d
-			y: 12.25d
+			x: 8.5d
+			y: 12.0d
 		}
 		{
 			dependencies: ["043FCD7B759853EA"]
@@ -988,8 +990,8 @@
 				type: "item"
 			}]
 			title: "滚筒洗衣机，矿物专用"
-			x: 9.25d
-			y: 12.25d
+			x: 10.75d
+			y: 12.0d
 		}
 		{
 			dependencies: ["27F4D9739FE33A02"]
@@ -1085,7 +1087,7 @@
 			}]
 			title: "打折时刻！爆爆爆！"
 			x: -3.0d
-			y: 9.0d
+			y: 10.0d
 		}
 		{
 			dependencies: [
@@ -1116,7 +1118,7 @@
 			}]
 			title: "ULV超导"
 			x: -6.0d
-			y: 13.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["017D4D369784454E"]
@@ -1177,8 +1179,8 @@
 				type: "item"
 			}]
 			title: "橡胶树的宝贝产物"
-			x: 10.809523809523796d
-			y: 8.54761904761903d
+			x: 10.75d
+			y: 8.5d
 		}
 		{
 			dependencies: ["402F27D382D05FAA"]
@@ -1197,6 +1199,7 @@
 				"在加热器正面放置方块后加热器会暂停工作"
 			]
 			id: "5859702A2DF96727"
+			optional: true
 			shape: "diamond"
 			size: 1.5d
 			subtitle: "更高效也更危险的产蒸汽手段"
@@ -1213,8 +1216,8 @@
 				}
 			]
 			title: "另辟蹊径"
-			x: -4.5d
-			y: 9.0d
+			x: -3.0d
+			y: 8.25d
 		}
 		{
 			dependencies: ["17408BBD93A18AEC"]
@@ -1238,8 +1241,8 @@
 				item: "immersive_aircraft:engine"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 3.5d
+			x: 1.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["13FBF05133D59CDC"]
@@ -1336,8 +1339,8 @@
 				type: "item"
 			}]
 			title: "让我们把玻璃擦干净点"
-			x: -0.7142857142857082d
-			y: -0.9285714285714377d
+			x: -0.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["78F56076EB6961EE"]
@@ -1352,8 +1355,8 @@
 				type: "item"
 			}]
 			title: "让物品动起来"
-			x: 1.2142857142857153d
-			y: -2.4285714285714306d
+			x: 1.5d
+			y: -3.75d
 		}
 		{
 			dependencies: ["24C53B5FF515ACAC"]
@@ -1372,8 +1375,8 @@
 				type: "item"
 			}]
 			title: "把管道密封好"
-			x: 3.4285714285714306d
-			y: -2.3571428571428683d
+			x: 3.5d
+			y: -3.75d
 		}
 		{
 			dependencies: ["275F142925816979"]
@@ -1393,8 +1396,8 @@
 				type: "item"
 			}]
 			title: "泥水匠"
-			x: 3.4285714285714306d
-			y: -0.9285714285714306d
+			x: 3.5d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -1418,20 +1421,19 @@
 				type: "item"
 			}]
 			title: "另一种流体传输方式"
-			x: 1.2142857142857153d
-			y: -0.9285714285714306d
+			x: 1.5d
+			y: -2.0d
 		}
 		{
-			dependencies: ["32A39A427D4A3AC2"]
+			dependencies: ["27F4D9739FE33A02"]
 			description: [
 				"虽然很酷，但这不是你现在能想的机器"
 				""
 				"准备&411组钢锭&r再来看看吧"
 			]
-			hide_dependency_lines: true
 			id: "15C001AF6C76B490"
 			shape: "diamond"
-			size: 3.0d
+			size: 2.0d
 			subtitle: "32层举高高炉"
 			tasks: [{
 				id: "295CD30BA23548F0"
@@ -1439,7 +1441,7 @@
 				type: "item"
 			}]
 			title: "需要大量钢？"
-			x: 10.5d
+			x: 9.5d
 			y: 0.0d
 		}
 		{
@@ -1514,8 +1516,8 @@
 				type: "item"
 			}]
 			title: "用力摇！"
-			x: 4.75d
-			y: 14.5d
+			x: 6.0d
+			y: 14.25d
 		}
 		{
 			dependencies: [
@@ -1537,8 +1539,8 @@
 				type: "item"
 			}]
 			title: "不仅离心，还要有点热"
-			x: 2.5d
-			y: 12.25d
+			x: 3.75d
+			y: 14.25d
 		}
 		{
 			dependencies: [
@@ -1564,8 +1566,8 @@
 				type: "item"
 			}]
 			title: "更大的滚筒洗衣机"
-			x: 9.25d
-			y: 14.5d
+			x: 10.75d
+			y: 14.25d
 		}
 		{
 			dependencies: [
@@ -1589,8 +1591,8 @@
 				type: "item"
 			}]
 			title: "大泳池，大容量"
-			x: 7.0d
-			y: 14.5d
+			x: 8.5d
+			y: 14.25d
 		}
 		{
 			dependencies: [
@@ -1638,7 +1640,7 @@
 				type: "item"
 			}]
 			title: "把所有的玩意儿全丢进去烧了"
-			x: -0.75d
+			x: -0.5d
 			y: -3.75d
 		}
 		{
@@ -1664,7 +1666,7 @@
 			}]
 			title: "欢迎来到超低压时代"
 			x: -3.0d
-			y: 13.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["13FBF05133D59CDC"]
@@ -1687,7 +1689,7 @@
 				type: "item"
 			}]
 			title: "焦炉Pro Max版"
-			x: 10.500000000000007d
+			x: 10.75d
 			y: 6.5d
 		}
 		{
@@ -1711,7 +1713,7 @@
 				type: "item"
 			}]
 			title: "更大的保温杯"
-			x: 8.250000000000007d
+			x: 8.5d
 			y: 6.5d
 		}
 		{
@@ -1802,8 +1804,8 @@
 				type: "item"
 			}]
 			title: "并不无限的粉"
-			x: -0.7142857142857153d
-			y: 2.2857142857142847d
+			x: -0.5d
+			y: 2.25d
 		}
 	]
 	subtitle: ["Tier0-Steam"]
