@@ -18,7 +18,7 @@
 		x: 3.0d
 		y: 4.5d
 	}]
-	order_index: 0
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -1716,5 +1716,5 @@
 		}
 	]
 	subtitle: ["Tier0-Steam"]
-	title: "1. 蒸汽时代"
+	title: "1. 蒸汽时代(Steam Age)"
 }

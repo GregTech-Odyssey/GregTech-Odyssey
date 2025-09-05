@@ -15,7 +15,7 @@
 				""
 				"众所周知 Minecraft 有区块加载机制，当玩家离开区块一段时间之后区块就会暂停加载——那机器也就没法持续运行了"
 				""
-				"所以为了你的基地的正常运行，确保你的基地区块全部认领且&c强制加载&r"
+				"所以为了你的基地的正常运行，确保你的基地区块&6全部认领&r且&c强制加载&r"
 				""
 				"&7点击翻页查看操作&r"
 				""
@@ -47,9 +47,9 @@
 		}
 		{
 			description: [
-				"常回来看看，这里收集了大部分机制"
+				"常回来看看，这里收集了大部分关于游戏机制的技巧与提示！"
 				""
-				"右边单独列出的机制随着游戏进程而解锁，你也可以现在就看一看"
+				"右边单独列出的提示随着游戏进程而解锁，你也可以现在就看一看"
 			]
 			icon: "minecraft:writable_book"
 			id: "79646E8E449D8A1A"
@@ -61,7 +61,7 @@
 			}]
 			shape: "pentagon"
 			size: 2.0d
-			subtitle: "提问的时候先想想提示里有没有"
+			subtitle: "我以为你从来都不会来看我呢..."
 			tasks: [{
 				id: "08FBC31DA70014BD"
 				title: "提示"
@@ -229,7 +229,7 @@
 		}
 		{
 			dependencies: ["79646E8E449D8A1A"]
-			description: ["许多周期性检测事件的检测周期得到了不同程度的延长，如管道与线缆的连接检测、多方块机器自动成型检测。这属于正常现象，这使得在超大量多方块的存档中依然保持很好的性能"]
+			description: ["许多周期性检测事件的检测周期得到了不同程度的延长，如管道与线缆的连接检测、多方块机器自动成型检测。这属于正常现象，这使得在超大量多方块的存档中依然保持良好的TPS"]
 			icon: "gtocore:spacetime_huge_fluid_pipe"
 			id: "0853003F6BB9C758"
 			shape: "pentagon"
@@ -270,7 +270,13 @@
 		}
 		{
 			dependencies: ["79646E8E449D8A1A"]
-			description: ["开了之后不能使用作弊指令与从EMI里拿东西"]
+			description: [
+				"如果你想挑战不通过任何作弊手段通关&4GregTech Odyssey&r，你可以在任何时候通过&6GTOCore&r的模组配置打开&6自我约束模式&r，一旦开启，你将永远不能使用作弊指令，以及从EMI作弊获取任何物品！"
+				""
+				"&e你将永远处于该模式！&r"
+				"&e你将永远处于该模式！&r"
+				"&e你将永远处于该模式！&r"
+			]
 			icon: "ae2:creative_item_cell"
 			id: "6E81629D88D0710E"
 			shape: "pentagon"
@@ -469,279 +475,6 @@
 			title: "有形的小板"
 			x: 1.5d
 			y: 2.25d
-		}
-		{
-			icon: {
-				Count: 1
-				id: "gtceu:nanomuscle_helmet"
-				tag: { }
-			}
-			id: "226B4BF9F95A3C30"
-			invisible: true
-			rewards: [
-				{
-					auto: "enabled"
-					id: "6A3FC73ED9CF201B"
-					item: {
-						Count: 1
-						id: "minecraft:golden_helmet"
-						tag: {
-							Damage: 0
-							Enchantments: [
-								{
-									id: "minecraft:protection"
-									lvl: 3s
-								}
-								{
-									id: "minecraft:projectile_protection"
-									lvl: 5s
-								}
-							]
-							RepairCost: 7
-							Trim: {
-								material: "minecraft:redstone"
-								pattern: "minecraft:host"
-							}
-							display: {
-								Name: "{\"text\":\"员工头盔\"}"
-							}
-						}
-					}
-					team_reward: false
-					type: "item"
-				}
-				{
-					auto: "enabled"
-					id: "66C9DFA30CE07AE1"
-					item: {
-						Count: 1
-						id: "minecraft:leather_chestplate"
-						tag: {
-							Damage: 0
-							Enchantments: [
-								{
-									id: "minecraft:thorns"
-									lvl: 3s
-								}
-								{
-									id: "minecraft:blast_protection"
-									lvl: 2s
-								}
-							]
-							RepairCost: 3
-							Trim: {
-								material: "minecraft:redstone"
-								pattern: "minecraft:host"
-							}
-							display: {
-								Name: "{\"text\":\"员工劳保服\"}"
-							}
-						}
-					}
-					team_reward: false
-					type: "item"
-				}
-				{
-					auto: "enabled"
-					id: "15474BB65597BDB4"
-					item: {
-						Count: 1
-						id: "minecraft:chainmail_leggings"
-						tag: {
-							Damage: 0
-							Enchantments: [
-								{
-									id: "apotheosis:rebounding"
-									lvl: 1s
-								}
-								{
-									id: "minecraft:unbreaking"
-									lvl: 2s
-								}
-							]
-							RepairCost: 7
-							Trim: {
-								material: "minecraft:redstone"
-								pattern: "minecraft:host"
-							}
-							display: {
-								Name: "{\"text\":\"员工劳动裤\"}"
-							}
-						}
-					}
-					team_reward: false
-					type: "item"
-				}
-				{
-					auto: "enabled"
-					id: "68F87F686933EB25"
-					item: {
-						Count: 1
-						id: "minecraft:iron_boots"
-						tag: {
-							Damage: 0
-							Enchantments: [
-								{
-									id: "minecraft:fire_protection"
-									lvl: 5s
-								}
-								{
-									id: "minecraft:feather_falling"
-									lvl: 1s
-								}
-							]
-							RepairCost: 3
-							Trim: {
-								material: "minecraft:redstone"
-								pattern: "minecraft:host"
-							}
-							display: {
-								Name: "{\"text\":\"员工劳保靴\"}"
-							}
-						}
-					}
-					team_reward: false
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "29034BFBCFA2BA4C"
-				stat: "minecraft:deaths"
-				type: "stat"
-				value: 1
-			}]
-			title: "劳保服套装"
-			x: -4.0d
-			y: 4.5d
-		}
-		{
-			icon: "ars_nouveau:blank_parchment"
-			id: "2ABDF1C7B4E1B44A"
-			invisible: true
-			rewards: [{
-				auto: "enabled"
-				id: "0B71079726A3B338"
-				item: {
-					Count: 1
-					id: "avaritia:infinity_totem"
-					tag: {
-						Damage: 98
-						RepairCost: 0
-						display: {
-							Name: "{\"text\":\"员工生活质量保障证(一次性)\"}"
-						}
-					}
-				}
-				team_reward: false
-				type: "item"
-			}]
-			tasks: [{
-				id: "2C57CE49C88CC412"
-				stat: "minecraft:deaths"
-				type: "stat"
-				value: 5
-			}]
-			title: "开路护符"
-			x: -1.5d
-			y: 4.5d
-		}
-		{
-			id: "3C10974F3E128ECA"
-			invisible: true
-			rewards: [{
-				auto: "enabled"
-				id: "698673E0044DB840"
-				item: {
-					Count: 1
-					id: "minecraft:netherite_sword"
-					tag: {
-						Damage: 0
-						Enchantments: [
-							{
-								id: "minecraft:sharpness"
-								lvl: 5s
-							}
-							{
-								id: "minecraft:smite"
-								lvl: 6s
-							}
-						]
-						RepairCost: 3
-						display: {
-							Name: "{\"text\":\"员工基础生活保障剑\"}"
-						}
-					}
-				}
-				team_reward: false
-				type: "item"
-			}]
-			tasks: [{
-				id: "14F7B7C471B635D0"
-				stat: "minecraft:deaths"
-				type: "stat"
-				value: 10
-			}]
-			title: "冲锋之剑"
-			x: 1.5d
-			y: 4.5d
-		}
-		{
-			icon: "avaritia:infinity_bow"
-			id: "71F8C203B6B0257D"
-			invisible: true
-			rewards: [
-				{
-					auto: "enabled"
-					id: "25972D9AB4F7C50A"
-					item: {
-						Count: 1
-						id: "minecraft:bow"
-						tag: {
-							Damage: 0
-							Enchantments: [
-								{
-									id: "minecraft:infinity"
-									lvl: 1s
-								}
-								{
-									id: "minecraft:flame"
-									lvl: 1s
-								}
-								{
-									id: "minecraft:punch"
-									lvl: 3s
-								}
-								{
-									id: "minecraft:power"
-									lvl: 2s
-								}
-							]
-							RepairCost: 31
-							display: {
-								Name: "{\"text\":\"员工清扫弓\"}"
-							}
-						}
-					}
-					team_reward: false
-					type: "item"
-				}
-				{
-					auto: "enabled"
-					id: "54421F296F91773F"
-					item: "minecraft:arrow"
-					team_reward: false
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "2A22E196E25424F7"
-				stat: "minecraft:deaths"
-				type: "stat"
-				value: 15
-			}]
-			title: "秩序之弓"
-			x: 4.0d
-			y: 4.5d
 		}
 		{
 			dependencies: [
@@ -1360,20 +1093,7 @@
 		}
 		{
 			dependencies: ["79646E8E449D8A1A"]
-			id: "3B7DF36914062F26"
-			invisible: true
-			shape: "pentagon"
-			size: 1.5d
-			tasks: [{
-				id: "49F2687631093D77"
-				type: "checkmark"
-			}]
-			x: 0.0d
-			y: 5.25d
-		}
-		{
-			dependencies: ["79646E8E449D8A1A"]
-			description: ["其中飞行护符，飞行之板，翅膀和沉浸式飞行可以作为前期飞行。"]
+			description: ["其中飞行护符，飞行之板，翅膀和沉浸式飞行可以作为前期飞行手段"]
 			icon: {
 				Count: 1
 				id: "gtocore:fairy_wing"
@@ -1384,7 +1104,7 @@
 			id: "3D7C322A6DBCF085"
 			shape: "pentagon"
 			size: 1.5d
-			subtitle: "如何获取飞行?"
+			subtitle: "如何获取创造飞行?"
 			tasks: [
 				{
 					id: "305197B9663DC20B"
@@ -1464,7 +1184,7 @@
 					type: "item"
 				}
 			]
-			title: "飞行模式"
+			title: "创造飞行模式"
 			x: 0.0d
 			y: 2.25d
 		}
