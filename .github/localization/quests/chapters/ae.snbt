@@ -6,12 +6,20 @@
 	icon: "ae2:interface"
 	id: "775486FF148AC1FA"
 	order_index: 4
-	quest_links: [{
-		id: "73C7693D280F6D40"
-		linked_quest: "19B006CEA837B6B4"
-		x: 2.0d
-		y: -7.5d
-	}]
+	quest_links: [
+		{
+			id: "73C7693D280F6D40"
+			linked_quest: "19B006CEA837B6B4"
+			x: 2.0d
+			y: -7.5d
+		}
+		{
+			id: "00633CF8E1A82641"
+			linked_quest: "029CAD5FD378D3E1"
+			x: 4.0d
+			y: -9.0d
+		}
+	]
 	quests: [
 		{
 			dependencies: ["298BEC345930429A"]
@@ -807,7 +815,7 @@
 			dependencies: ["6834E0CEC40F4286"]
 			description: [
 				"{gto.ae.quests.5F522D73AF5F1B2F.description0}"
-				"{gto.ae.quests.5F522D73AF5F1B2F.description1}"
+				""
 			]
 			icon: "gtocore:tesseract_generator"
 			id: "5F522D73AF5F1B2F"
@@ -1021,6 +1029,24 @@
 			title: "{gto.ae.quests.0BDCD6AAFF56A0EB.title}"
 			x: -8.5d
 			y: -7.5d
+		}
+		{
+			dependencies: ["1403D3FC3E9A50E4"]
+			description: [
+				"{gto.ae.quests.0CD5DA2D5E1BAC0A.description0}"
+				"{gto.ae.quests.0CD5DA2D5E1BAC0A.description1}"
+				""
+				"{gto.ae.quests.0CD5DA2D5E1BAC0A.description2}"
+			]
+			id: "0CD5DA2D5E1BAC0A"
+			subtitle: "{gto.ae.quests.0CD5DA2D5E1BAC0A.subtitle}"
+			tasks: [{
+				id: "59E12BF8C3B491C0"
+				item: "gtocore:me_cpu"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -4.5d
 		}
 	]
 	subtitle: ["{gto.ae.subtitle0}"]

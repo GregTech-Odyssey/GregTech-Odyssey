@@ -539,7 +539,8 @@
 					type: "item"
 				}
 			]
-			shape: "hexagon"
+			shape: "gear"
+			size: 2.0d
 			subtitle: "{gto.hv.quests.310210D2AD9515E3.subtitle}"
 			tasks: [{
 				dimension: "ad_astra:moon"

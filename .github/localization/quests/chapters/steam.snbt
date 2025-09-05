@@ -185,7 +185,7 @@
 			]
 			title: "{gto.steam.quests.2D630430259F9131.title}"
 			x: -6.0d
-			y: -2.25d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -239,8 +239,8 @@
 				type: "item"
 			}]
 			title: "{gto.steam.quests.4A9E47C3F8DF24A3.title}"
-			x: -0.75d
-			y: 0.75d
+			x: -0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["05F4015974079225"]
@@ -331,6 +331,7 @@
 				"{gto.steam.quests.7BE51B4BC36F8B7B.description3}"
 			]
 			id: "7BE51B4BC36F8B7B"
+			shape: "hexagon"
 			size: 1.5d
 			subtitle: "{gto.steam.quests.7BE51B4BC36F8B7B.subtitle}"
 			tasks: [{
@@ -340,7 +341,7 @@
 			}]
 			title: "{gto.steam.quests.7BE51B4BC36F8B7B.title}"
 			x: 2.25d
-			y: 9.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["24C53B5FF515ACAC"]
@@ -394,6 +395,7 @@
 				"{gto.steam.quests.431D763E6303976B.description1}"
 			]
 			id: "431D763E6303976B"
+			shape: "pentagon"
 			size: 1.5d
 			subtitle: "{gto.steam.quests.431D763E6303976B.subtitle}"
 			tasks: [{
@@ -402,8 +404,8 @@
 				type: "item"
 			}]
 			title: "{gto.steam.quests.431D763E6303976B.title}"
-			x: 10.75d
-			y: 11.5d
+			x: 13.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["55AAF11E1101F10F"]
@@ -478,7 +480,7 @@
 				"{gto.steam.quests.7AEE9F9ADE58612F.description3}"
 			]
 			id: "7AEE9F9ADE58612F"
-			shape: "pentagon"
+			shape: "diamond"
 			size: 1.5d
 			subtitle: "{gto.steam.quests.7AEE9F9ADE58612F.subtitle}"
 			tasks: [{
@@ -487,8 +489,8 @@
 				type: "item"
 			}]
 			title: "{gto.steam.quests.7AEE9F9ADE58612F.title}"
-			x: 0.75d
-			y: 7.5d
+			x: 2.25d
+			y: 12.0d
 		}
 		{
 			dependencies: ["05F4015974079225"]
@@ -541,7 +543,7 @@
 			]
 			id: "27F4D9739FE33A02"
 			shape: "gear"
-			size: 2.0d
+			size: 2.5d
 			subtitle: "{gto.steam.quests.27F4D9739FE33A02.subtitle}"
 			tasks: [{
 				id: "555B0222E8133F88"
@@ -728,8 +730,8 @@
 				type: "dimension"
 			}]
 			title: "{gto.steam.quests.298BEC345930429A.title}"
-			x: 6.011904761904773d
-			y: -2.25d
+			x: 6.0d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -773,8 +775,8 @@
 				}
 			]
 			title: "{gto.steam.quests.4F1FEB6CE7C64D14.title}"
-			x: 6.011904761904773d
-			y: 0.75d
+			x: 6.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["4A9E47C3F8DF24A3"]
@@ -795,8 +797,8 @@
 				type: "item"
 			}]
 			title: "{gto.steam.quests.0DCA3A96184C9EAC.title}"
-			x: 3.0d
-			y: 0.75d
+			x: 2.25d
+			y: 0.0d
 		}
 		{
 			dependencies: ["27F4D9739FE33A02"]
@@ -888,7 +890,7 @@
 			}]
 			title: "{gto.steam.quests.53109F7472C0B443.title}"
 			x: 15.000000000000007d
-			y: -0.25d
+			y: 0.0d
 		}
 		{
 			dependencies: ["24C53B5FF515ACAC"]
@@ -923,7 +925,7 @@
 			]
 			title: "{gto.steam.quests.21D331D7F4F8862C.title}"
 			x: 15.000000000000007d
-			y: -2.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["043FCD7B759853EA"]
@@ -944,8 +946,8 @@
 				type: "item"
 			}]
 			title: "{gto.steam.quests.020E8B707A8CF794.title}"
-			x: 4.75d
-			y: 12.25d
+			x: 6.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["043FCD7B759853EA"]
@@ -968,8 +970,8 @@
 				type: "item"
 			}]
 			title: "{gto.steam.quests.411686C01CB6045F.title}"
-			x: 7.0d
-			y: 12.25d
+			x: 8.5d
+			y: 12.0d
 		}
 		{
 			dependencies: ["043FCD7B759853EA"]
@@ -988,8 +990,8 @@
 				type: "item"
 			}]
 			title: "{gto.steam.quests.7ADAA0DA032918C5.title}"
-			x: 9.25d
-			y: 12.25d
+			x: 10.75d
+			y: 12.0d
 		}
 		{
 			dependencies: ["27F4D9739FE33A02"]
@@ -1085,7 +1087,7 @@
 			}]
 			title: "{gto.steam.quests.402F27D382D05FAA.title}"
 			x: -3.0d
-			y: 9.0d
+			y: 10.0d
 		}
 		{
 			dependencies: [
@@ -1116,7 +1118,7 @@
 			}]
 			title: "{gto.steam.quests.53A8535B07FE3958.title}"
 			x: -6.0d
-			y: 13.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["017D4D369784454E"]
@@ -1177,8 +1179,8 @@
 				type: "item"
 			}]
 			title: "{gto.steam.quests.1449A2A27F34E8CF.title}"
-			x: 10.809523809523796d
-			y: 8.54761904761903d
+			x: 10.75d
+			y: 8.5d
 		}
 		{
 			dependencies: ["402F27D382D05FAA"]
@@ -1197,6 +1199,7 @@
 				"{gto.steam.quests.5859702A2DF96727.description7}"
 			]
 			id: "5859702A2DF96727"
+			optional: true
 			shape: "diamond"
 			size: 1.5d
 			subtitle: "{gto.steam.quests.5859702A2DF96727.subtitle}"
@@ -1213,8 +1216,8 @@
 				}
 			]
 			title: "{gto.steam.quests.5859702A2DF96727.title}"
-			x: -4.5d
-			y: 9.0d
+			x: -3.0d
+			y: 8.25d
 		}
 		{
 			dependencies: ["17408BBD93A18AEC"]
@@ -1238,8 +1241,8 @@
 				item: "immersive_aircraft:engine"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 3.5d
+			x: 1.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["13FBF05133D59CDC"]
@@ -1336,8 +1339,8 @@
 				type: "item"
 			}]
 			title: "{gto.steam.quests.3405FBC1B0CD80AD.title}"
-			x: -0.7142857142857082d
-			y: -0.9285714285714377d
+			x: -0.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["78F56076EB6961EE"]
@@ -1352,8 +1355,8 @@
 				type: "item"
 			}]
 			title: "{gto.steam.quests.353DB5059C50932E.title}"
-			x: 1.2142857142857153d
-			y: -2.4285714285714306d
+			x: 1.5d
+			y: -3.75d
 		}
 		{
 			dependencies: ["24C53B5FF515ACAC"]
@@ -1372,8 +1375,8 @@
 				type: "item"
 			}]
 			title: "{gto.steam.quests.275F142925816979.title}"
-			x: 3.4285714285714306d
-			y: -2.3571428571428683d
+			x: 3.5d
+			y: -3.75d
 		}
 		{
 			dependencies: ["275F142925816979"]
@@ -1393,8 +1396,8 @@
 				type: "item"
 			}]
 			title: "{gto.steam.quests.78F56076EB6961EE.title}"
-			x: 3.4285714285714306d
-			y: -0.9285714285714306d
+			x: 3.5d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -1418,20 +1421,19 @@
 				type: "item"
 			}]
 			title: "{gto.steam.quests.23118466181C773C.title}"
-			x: 1.2142857142857153d
-			y: -0.9285714285714306d
+			x: 1.5d
+			y: -2.0d
 		}
 		{
-			dependencies: ["32A39A427D4A3AC2"]
+			dependencies: ["27F4D9739FE33A02"]
 			description: [
 				"{gto.steam.quests.15C001AF6C76B490.description0}"
 				""
 				"{gto.steam.quests.15C001AF6C76B490.description1}"
 			]
-			hide_dependency_lines: true
 			id: "15C001AF6C76B490"
 			shape: "diamond"
-			size: 3.0d
+			size: 2.0d
 			subtitle: "{gto.steam.quests.15C001AF6C76B490.subtitle}"
 			tasks: [{
 				id: "295CD30BA23548F0"
@@ -1439,7 +1441,7 @@
 				type: "item"
 			}]
 			title: "{gto.steam.quests.15C001AF6C76B490.title}"
-			x: 10.5d
+			x: 9.5d
 			y: 0.0d
 		}
 		{
@@ -1514,8 +1516,8 @@
 				type: "item"
 			}]
 			title: "{gto.steam.quests.1FEF25B6BDBC00D7.title}"
-			x: 4.75d
-			y: 14.5d
+			x: 6.0d
+			y: 14.25d
 		}
 		{
 			dependencies: [
@@ -1537,8 +1539,8 @@
 				type: "item"
 			}]
 			title: "{gto.steam.quests.1CF899F39CC99A07.title}"
-			x: 2.5d
-			y: 12.25d
+			x: 3.75d
+			y: 14.25d
 		}
 		{
 			dependencies: [
@@ -1564,8 +1566,8 @@
 				type: "item"
 			}]
 			title: "{gto.steam.quests.241806C710FDAC27.title}"
-			x: 9.25d
-			y: 14.5d
+			x: 10.75d
+			y: 14.25d
 		}
 		{
 			dependencies: [
@@ -1589,8 +1591,8 @@
 				type: "item"
 			}]
 			title: "{gto.steam.quests.0CFABBAD568B3178.title}"
-			x: 7.0d
-			y: 14.5d
+			x: 8.5d
+			y: 14.25d
 		}
 		{
 			dependencies: [
@@ -1638,7 +1640,7 @@
 				type: "item"
 			}]
 			title: "{gto.steam.quests.713A10C0905402EB.title}"
-			x: -0.75d
+			x: -0.5d
 			y: -3.75d
 		}
 		{
@@ -1664,7 +1666,7 @@
 			}]
 			title: "{gto.steam.quests.4678D97346E46529.title}"
 			x: -3.0d
-			y: 13.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["13FBF05133D59CDC"]
@@ -1687,7 +1689,7 @@
 				type: "item"
 			}]
 			title: "{gto.steam.quests.5E630E41CA4A363A.title}"
-			x: 10.500000000000007d
+			x: 10.75d
 			y: 6.5d
 		}
 		{
@@ -1711,7 +1713,7 @@
 				type: "item"
 			}]
 			title: "{gto.steam.quests.159B8E40B78A9D4D.title}"
-			x: 8.250000000000007d
+			x: 8.5d
 			y: 6.5d
 		}
 		{
@@ -1802,8 +1804,8 @@
 				type: "item"
 			}]
 			title: "{gto.steam.quests.6B2CA9AF06284789.title}"
-			x: -0.7142857142857153d
-			y: 2.2857142857142847d
+			x: -0.5d
+			y: 2.25d
 		}
 	]
 	subtitle: ["{gto.steam.subtitle0}"]

@@ -80,8 +80,8 @@
 				item: "gtocore:preparation_petri_dish"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 1.5d
+			x: -4.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["19127B42AB919C11"]
@@ -186,7 +186,7 @@
 				}
 				type: "item"
 			}]
-			x: 1.0d
+			x: 4.0d
 			y: 5.5d
 		}
 		{
@@ -201,7 +201,7 @@
 				item: "gtocore:fuel_refining_complex"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 4.0d
 			y: 7.0d
 		}
 		{
@@ -286,7 +286,7 @@
 				item: "gtceu:darmstadtium_ingot"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 1.5d
 			y: -4.0d
 		}
 		{
@@ -354,7 +354,7 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
+			x: 2.0d
 			y: 5.5d
 		}
 		{
@@ -459,6 +459,7 @@
 			]
 			description: ["{gto.zpm.quests.7FED9F9CC769610C.description0}"]
 			hide_dependency_lines: true
+			icon: "gtceu:bacteria_bucket"
 			id: "7FED9F9CC769610C"
 			subtitle: "{gto.zpm.quests.7FED9F9CC769610C.subtitle}"
 			tasks: [
@@ -480,7 +481,7 @@
 				}
 			]
 			title: "{gto.zpm.quests.7FED9F9CC769610C.title}"
-			x: -4.0d
+			x: -7.5d
 			y: 0.0d
 		}
 		{
@@ -637,8 +638,8 @@
 				item: "gtocore:glacio_spirit"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 3.0d
+			x: -2.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["3490AACD4AA62C5D"]

@@ -113,8 +113,25 @@
 				item: "gtocore:glacio_spirit"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 8.5d
 			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1FCF7BF494F483B4"
+				"4AF39FF336EA1BF4"
+			]
+			dependency_requirement: "one_completed"
+			id: "64642383F67CAA6F"
+			tasks: [{
+				id: "6B7BEF097781DFDB"
+				stat: "minecraft:jump"
+				type: "stat"
+				value: 1
+			}]
+			title: "{gto.util.quests.64642383F67CAA6F.title}"
+			x: 6.5d
+			y: 1.5d
 		}
 	]
 	title: "{gto.util.title}"

@@ -22,6 +22,12 @@
 			x: -2.0d
 			y: -8.5d
 		}
+		{
+			id: "26DD69D6B9A64358"
+			linked_quest: "4AF39FF336EA1BF4"
+			x: -2.0d
+			y: 1.5d
+		}
 	]
 	quests: [
 		{
@@ -1070,12 +1076,8 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["1CA6E1AD1909373A"]
-			description: [
-				"{gto.ulv.quests.389D61CE9E799725.description0}"
-				""
-				"[\"点\",{ \"text\": \"这里\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4AF39FF336EA1BF4\" } },\"跳转神化章节\"]"
-			]
+			dependencies: ["4AF39FF336EA1BF4"]
+			description: ["{gto.ulv.quests.389D61CE9E799725.description0}"]
 			id: "389D61CE9E799725"
 			rewards: [{
 				id: "354671ADCF4F585E"
@@ -1090,11 +1092,6 @@
 			}]
 			shape: "diamond"
 			tasks: [
-				{
-					id: "08323F83E5FE05AE"
-					item: "gtocore:rarity_forge"
-					type: "item"
-				}
 				{
 					id: "5B8F0331ED91AA12"
 					item: "gtocore:speed_upgrade_module"

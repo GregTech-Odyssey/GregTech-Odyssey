@@ -828,6 +828,8 @@
 				"{gto.tips.quests.16047F3F79404251.description0}"
 				""
 				"{gto.tips.quests.16047F3F79404251.description1}"
+				""
+				"{gto.tips.quests.16047F3F79404251.description2}"
 			]
 			hide_dependency_lines: true
 			icon: "gtceu:uv_world_accelerator"
@@ -844,10 +846,7 @@
 			y: -1.5d
 		}
 		{
-			dependencies: [
-				"16047F3F79404251"
-				"23A116C4BAE96979"
-			]
+			dependencies: ["16047F3F79404251"]
 			description: [
 				"{gto.tips.quests.2AF1E09A346B5343.description0}"
 				""
@@ -1007,7 +1006,7 @@
 		{
 			dependencies: [
 				"16047F3F79404251"
-				"4F884251B542452B"
+				"64642383F67CAA6F"
 			]
 			description: [
 				"{gto.tips.quests.782023097C32871D.description0}"
@@ -1017,6 +1016,7 @@
 				"{gto.tips.quests.782023097C32871D.description2}"
 			]
 			hide_until_deps_complete: true
+			icon: "gtocore:luv_power_amplifiers"
 			id: "782023097C32871D"
 			subtitle: "{gto.tips.quests.782023097C32871D.subtitle}"
 			tasks: [
@@ -1168,6 +1168,7 @@
 			]
 			description: ["{gto.tips.quests.7F6136A19199A3DD.description0}"]
 			hide_until_deps_complete: true
+			icon: "gtceu:tempered_glass"
 			id: "7F6136A19199A3DD"
 			subtitle: "{gto.tips.quests.7F6136A19199A3DD.subtitle}"
 			tasks: [
@@ -1232,17 +1233,35 @@
 				"79646E8E449D8A1A"
 				"021F533355CCBABA"
 			]
-			description: ["{gto.tips.quests.3A8D37EB45FB3854.description0}"]
+			description: [
+				"{gto.tips.quests.3A8D37EB45FB3854.description0}"
+				""
+				"{gto.tips.quests.3A8D37EB45FB3854.description1}"
+			]
 			hide_dependency_lines: true
 			icon: "gtceu:cupronickel_coil_block"
 			id: "3A8D37EB45FB3854"
 			shape: "pentagon"
 			size: 1.5d
 			subtitle: "{gto.tips.quests.3A8D37EB45FB3854.subtitle}"
-			tasks: [{
-				id: "0A9644A2F061BE30"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "0A9644A2F061BE30"
+					type: "checkmark"
+				}
+				{
+					id: "20ACB731BF0C85EC"
+					item: "gtceu:cupronickel_coil_block"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "16F86F6E5F678C9E"
+					item: "gtceu:tempered_glass"
+					optional_task: true
+					type: "item"
+				}
+			]
 			title: "{gto.tips.quests.3A8D37EB45FB3854.title}"
 			x: 6.0d
 			y: 0.25d
@@ -1364,10 +1383,12 @@
 			invisible: true
 			shape: "pentagon"
 			size: 1.5d
+			subtitle: "{gto.tips.quests.3B7DF36914062F26.subtitle}"
 			tasks: [{
 				id: "49F2687631093D77"
 				type: "checkmark"
 			}]
+			title: "{gto.tips.quests.3B7DF36914062F26.title}"
 			x: 0.0d
 			y: 5.25d
 		}
@@ -1480,6 +1501,7 @@
 				""
 				"{gto.tips.quests.6A32CEF6BE50FA89.description2}"
 			]
+			hide_dependency_lines: true
 			icon: "gtceu:assembly_line"
 			id: "6A32CEF6BE50FA89"
 			shape: "pentagon"
@@ -1492,6 +1514,132 @@
 			title: "{gto.tips.quests.6A32CEF6BE50FA89.title}"
 			x: 6.0d
 			y: 2.0d
+		}
+		{
+			dependencies: [
+				"06534664971F6E68"
+				"66A5EC65322E1B8D"
+			]
+			description: [
+				"{gto.tips.quests.1A44A6A24FF9E7C3.description0}"
+				""
+				"{gto.tips.quests.1A44A6A24FF9E7C3.description1}"
+				""
+				"{gto.tips.quests.1A44A6A24FF9E7C3.description2}"
+				""
+				"{gto.tips.quests.1A44A6A24FF9E7C3.description3}"
+				""
+				"{gto.tips.quests.1A44A6A24FF9E7C3.description4}"
+				""
+				"{gto.tips.quests.1A44A6A24FF9E7C3.description5}"
+			]
+			icon: "gtceu:electric_blast_furnace"
+			id: "1A44A6A24FF9E7C3"
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "{gto.tips.quests.1A44A6A24FF9E7C3.subtitle}"
+			tasks: [{
+				id: "4881B7D1FC87C611"
+				type: "checkmark"
+			}]
+			title: "{gto.tips.quests.1A44A6A24FF9E7C3.title}"
+			x: 8.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"79646E8E449D8A1A"
+				"2964D4005BFFFADF"
+			]
+			description: [
+				"{gto.tips.quests.07B002E74C48D580.description0}"
+				""
+				"{gto.tips.quests.07B002E74C48D580.description1}"
+				""
+				"{gto.tips.quests.07B002E74C48D580.description2}"
+				""
+				"{gto.tips.quests.07B002E74C48D580.description3}"
+			]
+			icon: "gtceu:research_station"
+			id: "07B002E74C48D580"
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "{gto.tips.quests.07B002E74C48D580.subtitle}"
+			tasks: [
+				{
+					id: "7FBD418FEE223E69"
+					type: "checkmark"
+				}
+				{
+					id: "4651A03668893DDC"
+					item: {
+						Count: 1
+						id: "gtceu:data_stick"
+						tag: { }
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "11350CC394C5648F"
+					item: {
+						Count: 1
+						id: "gtceu:data_orb"
+						tag: { }
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2BAABB329635A670"
+					item: {
+						Count: 1
+						id: "gtceu:data_module"
+						tag: { }
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5757BE8EB0AAB059"
+					item: "gtceu:data_access_hatch"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1BB1B5DD0AD4CAE3"
+					item: "gtceu:advanced_data_access_hatch"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "674EF4661326DE37"
+					item: "gtocore:bio_data_access_hatch"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "643AF30467659CE5"
+					item: "gtceu:data_receiver_hatch"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7ABE19D1CA4290F2"
+					item: "gtceu:data_transmitter_hatch"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "37D8FB5269E69114"
+					item: "gtceu:normal_optical_pipe"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "{gto.tips.quests.07B002E74C48D580.title}"
+			x: 6.0d
+			y: 5.5d
 		}
 	]
 	subtitle: ["{gto.tips.subtitle0}"]

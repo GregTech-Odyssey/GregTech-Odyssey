@@ -477,6 +477,7 @@
 				"1156B92F11DA73B6"
 				"0BB1BDBE8BB307E4"
 			]
+			description: ["{gto.luv.quests.722C24B0C50641D1.description0}"]
 			id: "722C24B0C50641D1"
 			shape: "hexagon"
 			size: 1.5d
@@ -846,8 +847,8 @@
 				item: "gtocore:large_crystallization_chamber"
 				type: "item"
 			}]
-			x: 17.0d
-			y: 6.0d
+			x: 13.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["31F90B973A779017"]
@@ -974,8 +975,8 @@
 			dependencies: ["05EB6CDF13762280"]
 			id: "3A08E4803A895152"
 			tasks: [{
-				id: "48ABB686F1272251"
-				item: "gtceu:crystal_soc"
+				id: "2CBC1A13734808A5"
+				item: "gtceu:crystal_cpu"
 				type: "item"
 			}]
 			x: 16.0d

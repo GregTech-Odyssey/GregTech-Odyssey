@@ -766,7 +766,11 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["23DB14B3093506B8"]
+			dependencies: [
+				"23DB14B3093506B8"
+				"32B3E6812521AB70"
+			]
+			description: ["{gto.iv.quests.6176A38AA179BAF5.description0}"]
 			id: "6176A38AA179BAF5"
 			tasks: [{
 				id: "66FEBA03CE4CF8E8"
@@ -992,14 +996,22 @@
 			y: -3.5d
 		}
 		{
-			dependencies: ["251002F2103BDA84"]
+			dependencies: [
+				"251002F2103BDA84"
+				"5F522D73AF5F1B2F"
+			]
 			description: [
 				"{gto.iv.quests.029CAD5FD378D3E1.description0}"
 				""
-				"[ \"点\", { \"text\": \"这里\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5F522D73AF5F1B2F\" } }, \"跳转用法\" ]"
+				"{gto.iv.quests.029CAD5FD378D3E1.description1}"
+				""
+				"{gto.iv.quests.029CAD5FD378D3E1.description2}"
+				""
+				"{gto.iv.quests.029CAD5FD378D3E1.description3}"
 			]
 			id: "029CAD5FD378D3E1"
 			optional: true
+			shape: "pentagon"
 			subtitle: "{gto.iv.quests.029CAD5FD378D3E1.subtitle}"
 			tasks: [{
 				id: "3CDD1FE8E3131DE2"

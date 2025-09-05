@@ -575,28 +575,26 @@
 			y: 1.5d
 		}
 		{
-			dependencies: [
-				"2F6C81E3B10365E8"
-				"5612C7735BC4F5BC"
-			]
+			dependencies: ["5612C7735BC4F5BC"]
 			description: [
 				"{gto.ev.quests.32B3E6812521AB70.description0}"
 				""
 				"{gto.ev.quests.32B3E6812521AB70.description1}"
 				""
 				"{gto.ev.quests.32B3E6812521AB70.description2}"
+				""
+				"{gto.ev.quests.32B3E6812521AB70.description3}"
 			]
-			hide_dependency_lines: true
 			id: "32B3E6812521AB70"
 			shape: "gear"
-			size: 3.0d
+			size: 2.5d
 			subtitle: "{gto.ev.quests.32B3E6812521AB70.subtitle}"
 			tasks: [{
 				id: "7E0234D447851767"
 				item: "gtceu:alloy_blast_smelter"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 5.0d
 			y: -4.5d
 		}
 		{
@@ -1171,8 +1169,8 @@
 				item: "gtocore:integral_framework_ev"
 				type: "item"
 			}]
-			x: 3.5d
-			y: -2.5d
+			x: 3.0d
+			y: -4.5d
 		}
 		{
 			dependencies: [

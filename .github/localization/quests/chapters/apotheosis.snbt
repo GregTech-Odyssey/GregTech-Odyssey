@@ -353,6 +353,7 @@
 			y: -4.5d
 		}
 		{
+			dependencies: ["1CA6E1AD1909373A"]
 			description: ["{gto.apotheosis.quests.4AF39FF336EA1BF4.description0}"]
 			id: "4AF39FF336EA1BF4"
 			rewards: [{

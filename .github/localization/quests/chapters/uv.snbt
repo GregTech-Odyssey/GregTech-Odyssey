@@ -501,7 +501,12 @@
 		}
 		{
 			dependencies: ["7A1E4DBA675E67FB"]
-			description: ["{gto.uv.quests.5BABA7621E000F54.description0}"]
+			description: [
+				"{gto.uv.quests.5BABA7621E000F54.description0}"
+				""
+				"{gto.uv.quests.5BABA7621E000F54.description1}"
+			]
+			hide_dependent_lines: true
 			id: "5BABA7621E000F54"
 			shape: "hexagon"
 			size: 1.5d
