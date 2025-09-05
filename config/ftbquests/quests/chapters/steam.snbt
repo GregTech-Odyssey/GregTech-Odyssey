@@ -6,18 +6,106 @@
 	group: "2A1218851E38A2EE"
 	icon: "gtceu:lp_steam_solid_boiler"
 	id: "1739461D441B48C6"
-	images: [{
-		click: "command:/execute in gtocore:ancient_world run tp 0 128 0"
-		color: 10751149
-		dependency: "298BEC345930429A"
-		height: 1.5d
-		hover: ["前往远古世界"]
-		image: "minecraft:block/nether_portal"
-		rotation: 45.0d
-		width: 1.5d
-		x: 3.0d
-		y: 4.5d
-	}]
+	images: [
+		{
+			click: "command:/execute in gtocore:ancient_world run tp 0 128 0"
+			color: 10751149
+			dependency: "298BEC345930429A"
+			height: 1.5d
+			hover: ["前往远古世界"]
+			image: "minecraft:block/nether_portal"
+			order: 1
+			rotation: 45.0d
+			width: 1.5d
+			x: 4.285714285714292d
+			y: 7.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/diamond_block"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.285714285714292d
+			y: 6.0d
+		}
+		{
+			height: 1.0d
+			image: "gtceu:block/casings/steam/bricked_steel/top"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.285714285714292d
+			y: 6.0d
+		}
+		{
+			height: 1.0d
+			image: "gtceu:block/casings/steam/bricked_steel/top"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.285714285714292d
+			y: 7.0d
+		}
+		{
+			height: 1.0d
+			image: "gtceu:block/casings/steam/bricked_steel/top"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.285714285714292d
+			y: 8.0d
+		}
+		{
+			height: 1.0d
+			image: "gtceu:block/casings/steam/bricked_steel/top"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.285714285714292d
+			y: 7.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/diamond_block"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.285714285714292d
+			y: 6.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/diamond_block"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.285714285714292d
+			y: 8.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/diamond_block"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.285714285714292d
+			y: 8.0d
+		}
+		{
+			height: 1.0d
+			image: "gtocore:block/multiblock/ancient_reactor_core/overlay_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.285714285714292d
+			y: 7.0d
+		}
+		{
+			dependency: "298BEC345930429A"
+			height: 1.0d
+			image: "xtonesreworked:block/agon/agon_block_13_black"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.285714285714292d
+			y: 7.0d
+		}
+	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -123,8 +211,8 @@
 				type: "item"
 			}]
 			title: "融合之力"
-			x: -0.75d
-			y: 0.0d
+			x: -3.0d
+			y: 2.25d
 		}
 		{
 			dependencies: ["6B2CA9AF06284789"]
@@ -152,14 +240,14 @@
 			}]
 			title: "真正的原始人炉子"
 			x: -0.75d
-			y: 3.0d
+			y: 0.75d
 		}
 		{
 			dependencies: ["05F4015974079225"]
 			description: [
 				"&2ULV&r时代重要的超导体，现在先用来制作&6活塞"
 				"&r"
-				"当然还有非常重要的&d超导线&r，你必然不会想错过它的吧？"
+				"当然还有&5非常重要&r的&4超导线&r，你必然不会想错过它的吧？"
 			]
 			id: "604FA0DDAD1979A1"
 			shape: "hexagon"
@@ -171,8 +259,8 @@
 				type: "item"
 			}]
 			title: "超！导！体！"
-			x: 1.5d
-			y: 0.0d
+			x: -3.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["604FA0DDAD1979A1"]
@@ -185,8 +273,8 @@
 				type: "item"
 			}]
 			title: "活...塞？"
-			x: 3.0d
-			y: 0.0d
+			x: -0.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["17408BBD93A18AEC"]
@@ -206,8 +294,8 @@
 				type: "item"
 			}]
 			title: "打碎它们！"
-			x: 3.0d
-			y: -1.5d
+			x: -0.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["17408BBD93A18AEC"]
@@ -228,11 +316,11 @@
 				type: "item"
 			}]
 			title: "挤！呀！挤！"
-			x: 4.5d
-			y: 0.0d
+			x: 2.25d
+			y: 4.5d
 		}
 		{
-			dependencies: ["24C53B5FF515ACAC"]
+			dependencies: ["017D4D369784454E"]
 			description: [
 				"不仅仅是用于节省你的工具耐久，更是节省原料"
 				""
@@ -251,8 +339,8 @@
 				type: "item"
 			}]
 			title: "大锤80，小锤40！"
-			x: -3.0d
-			y: 3.0d
+			x: 2.25d
+			y: 9.0d
 		}
 		{
 			dependencies: ["24C53B5FF515ACAC"]
@@ -314,8 +402,8 @@
 				type: "item"
 			}]
 			title: "提取机，不是榨汁机！"
-			x: 9.0d
-			y: 9.0d
+			x: 10.75d
+			y: 11.5d
 		}
 		{
 			dependencies: ["55AAF11E1101F10F"]
@@ -355,8 +443,8 @@
 					type: "item"
 				}
 			]
-			x: 8.0d
-			y: 0.0d
+			x: 6.0d
+			y: 4.476190476190467d
 		}
 		{
 			dependencies: ["6E2614839731BF0D"]
@@ -375,8 +463,8 @@
 				type: "item"
 			}]
 			title: "更大的自动研钵"
-			x: 3.0d
-			y: -3.0d
+			x: -3.0d
+			y: 6.500000000000007d
 		}
 		{
 			dependencies: ["7BE51B4BC36F8B7B"]
@@ -399,8 +487,8 @@
 				type: "item"
 			}]
 			title: "大锤落下！"
-			x: -6.0d
-			y: 3.0d
+			x: 0.75d
+			y: 7.5d
 		}
 		{
 			dependencies: ["05F4015974079225"]
@@ -421,8 +509,8 @@
 				type: "item"
 			}]
 			title: "一锅乱炖"
-			x: -0.75d
-			y: -2.25d
+			x: -6.0d
+			y: 2.25d
 		}
 		{
 			dependencies: ["017D4D369784454E"]
@@ -441,15 +529,15 @@
 				type: "item"
 			}]
 			title: "这可不是液压机"
-			x: 4.5d
-			y: -1.5d
+			x: 2.25d
+			y: 2.25d
 		}
 		{
 			dependencies: ["32A39A427D4A3AC2"]
 			description: [
-				"在这个阶段，我建议你使用&a煤炭块&r来生产钢。因为这种方式下生产的副产物可以生成&e碳粉&r，这也是碳粉前期的获取途径之一"
-				""
-				"&o&7另一种方法是石墨矿破碎"
+				"在这个阶段，我建议你使用&a煤炭块&r来生产钢"
+				"因为这种方式下生产的副产物可以生成&e碳粉&r"
+				"也是碳粉前期&4唯一&r的获取途径"
 			]
 			id: "27F4D9739FE33A02"
 			shape: "gear"
@@ -461,8 +549,8 @@
 				type: "item"
 			}]
 			title: "第一块钢锭"
-			x: 8.0d
-			y: 3.0d
+			x: 9.500000000000007d
+			y: 2.75d
 		}
 		{
 			dependencies: ["7F1CF6D7C0CA4DB2"]
@@ -479,8 +567,8 @@
 				type: "item"
 			}]
 			title: "制备玻璃......第二步！"
-			x: 13.5d
-			y: 9.0d
+			x: 15.000000000000007d
+			y: 8.5d
 		}
 		{
 			dependencies: [
@@ -506,8 +594,8 @@
 				type: "item"
 			}]
 			title: "制备玻璃......第三步！"
-			x: 11.5d
-			y: 9.0d
+			x: 13.000000000000007d
+			y: 8.5d
 		}
 		{
 			description: [
@@ -535,8 +623,8 @@
 				}
 			]
 			title: "制备玻璃......第一步！"
-			x: 13.5d
-			y: 10.5d
+			x: 15.000000000000007d
+			y: 10.0d
 		}
 		{
 			dependencies: [
@@ -560,8 +648,8 @@
 				type: "item"
 			}]
 			title: "青涩的橡胶"
-			x: 9.0d
-			y: 7.5d
+			x: 10.75d
+			y: 10.0d
 		}
 		{
 			dependencies: [
@@ -586,8 +674,8 @@
 				type: "item"
 			}]
 			title: "橡胶，终于"
-			x: 6.75d
-			y: 7.5d
+			x: 8.5d
+			y: 10.0d
 		}
 		{
 			dependencies: ["298BEC345930429A"]
@@ -600,7 +688,7 @@
 				""
 				"&r你需要准备多点，因为你需要&4很多的&r&6橡胶&r"
 			]
-			hide_dependency_lines: false
+			hide_dependency_lines: true
 			id: "2012FF7B348CC62B"
 			subtitle: "不行，一股臭鸡蛋味儿"
 			tasks: [{
@@ -609,8 +697,8 @@
 				type: "item"
 			}]
 			title: "它能拿来美容吗"
-			x: 4.5d
-			y: 7.5d
+			x: 6.000000000000007d
+			y: 10.0d
 		}
 		{
 			dependencies: ["4F1FEB6CE7C64D14"]
@@ -640,8 +728,8 @@
 				type: "dimension"
 			}]
 			title: "回到过去？"
-			x: 4.5d
-			y: 5.5d
+			x: 6.011904761904773d
+			y: -2.25d
 		}
 		{
 			dependencies: [
@@ -685,8 +773,8 @@
 				}
 			]
 			title: "远古反应堆"
-			x: 4.5d
-			y: 3.0d
+			x: 6.011904761904773d
+			y: 0.75d
 		}
 		{
 			dependencies: ["4A9E47C3F8DF24A3"]
@@ -707,8 +795,8 @@
 				type: "item"
 			}]
 			title: "嗯？怎么你也？"
-			x: 1.5d
-			y: 3.0d
+			x: 3.0d
+			y: 0.75d
 		}
 		{
 			dependencies: ["27F4D9739FE33A02"]
@@ -735,8 +823,8 @@
 				type: "item"
 			}]
 			title: "搅拌机，蒸汽驱动版"
-			x: 10.5d
-			y: 2.25d
+			x: 12.000000000000007d
+			y: 3.5d
 		}
 		{
 			dependencies: [
@@ -756,7 +844,7 @@
 				type: "item"
 			}]
 			title: "吹个玻璃泡泡"
-			x: 13.5d
+			x: 15.000000000000007d
 			y: 5.0d
 		}
 		{
@@ -774,8 +862,8 @@
 				type: "item"
 			}]
 			title: "并非电子管"
-			x: 13.5d
-			y: 3.0d
+			x: 15.000000000000007d
+			y: 2.75d
 		}
 		{
 			dependencies: [
@@ -799,8 +887,8 @@
 				type: "item"
 			}]
 			title: "原始电路板？"
-			x: 13.5d
-			y: 0.0d
+			x: 15.000000000000007d
+			y: -0.25d
 		}
 		{
 			dependencies: ["24C53B5FF515ACAC"]
@@ -834,8 +922,8 @@
 				}
 			]
 			title: "能抽真空的小家伙"
-			x: 13.5d
-			y: -2.25d
+			x: 15.000000000000007d
+			y: -2.5d
 		}
 		{
 			dependencies: ["043FCD7B759853EA"]
@@ -844,7 +932,7 @@
 				""
 				"有些配方无法执行的话记得看看EMI，看看配方的条件要多少&a空气"
 				"&r"
-				"注意&6蒸汽流体输入仓&r只能支持&b16B&r的空气输入，所以如果你需要更大的空气输入请使用&6无限进气仓&r"
+				"ULV级别的输入仓只能支持&48B&r的空气输入，所以如果你需要更大的空气输入有两种办法：使用更多的&6输入仓&r或者制作&6无限进气仓&r"
 			]
 			id: "020E8B707A8CF794"
 			shape: "diamond"
@@ -856,8 +944,8 @@
 				type: "item"
 			}]
 			title: "离心吗？"
-			x: 3.0d
-			y: 9.75d
+			x: 4.75d
+			y: 12.25d
 		}
 		{
 			dependencies: ["043FCD7B759853EA"]
@@ -880,8 +968,8 @@
 				type: "item"
 			}]
 			title: "大泳池"
-			x: 5.25d
-			y: 9.75d
+			x: 7.0d
+			y: 12.25d
 		}
 		{
 			dependencies: ["043FCD7B759853EA"]
@@ -900,8 +988,8 @@
 				type: "item"
 			}]
 			title: "滚筒洗衣机，矿物专用"
-			x: 7.5d
-			y: 9.75d
+			x: 9.25d
+			y: 12.25d
 		}
 		{
 			dependencies: ["27F4D9739FE33A02"]
@@ -920,8 +1008,8 @@
 				type: "item"
 			}]
 			title: "原矿粉碎者"
-			x: 10.5d
-			y: 0.75d
+			x: 12.000000000000007d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -997,7 +1085,7 @@
 			}]
 			title: "打折时刻！爆爆爆！"
 			x: -3.0d
-			y: 5.0d
+			y: 9.0d
 		}
 		{
 			dependencies: [
@@ -1011,7 +1099,6 @@
 				""
 				"不过合成导线的方式&e不止一条&r，多看看EMI吧！"
 			]
-			hide_dependent_lines: true
 			id: "53A8535B07FE3958"
 			rewards: [{
 				count: 7
@@ -1028,8 +1115,8 @@
 				type: "item"
 			}]
 			title: "ULV超导"
-			x: 6.0d
-			y: 1.5d
+			x: -6.0d
+			y: 13.0d
 		}
 		{
 			dependencies: ["017D4D369784454E"]
@@ -1050,8 +1137,8 @@
 				type: "item"
 			}]
 			title: "看上去有点麻烦的材料"
-			x: 6.0d
-			y: 0.0d
+			x: 4.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["27F4D9739FE33A02"]
@@ -1068,11 +1155,10 @@
 				type: "item"
 			}]
 			title: "形态变化！"
-			x: 8.0d
+			x: 9.500000000000007d
 			y: 5.0d
 		}
 		{
-			dependencies: ["24C53B5FF515ACAC"]
 			description: [
 				"希望你注意到了&6橡胶树&r并且把它们带回了家，如果没有注意到初章的任务你现在将尴尬地等待橡胶树生长"
 				""
@@ -1091,8 +1177,8 @@
 				type: "item"
 			}]
 			title: "橡胶树的宝贝产物"
-			x: 10.5d
-			y: 7.5d
+			x: 10.809523809523796d
+			y: 8.54761904761903d
 		}
 		{
 			dependencies: ["402F27D382D05FAA"]
@@ -1127,8 +1213,8 @@
 				}
 			]
 			title: "另辟蹊径"
-			x: -6.0d
-			y: 5.0d
+			x: -4.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["17408BBD93A18AEC"]
@@ -1152,8 +1238,8 @@
 				item: "immersive_aircraft:engine"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -1.5d
+			x: -2.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["13FBF05133D59CDC"]
@@ -1162,20 +1248,20 @@
 				""
 				"&6模具&r都是不会消耗的，意思就是你做一个出来那你就可以一直用到&b宇&r&e宙&r&2终&r&c结"
 				""
-				"&r而&6模板&r也可以制作&6模头&r，但使用&6模头&r的&c压模器&r绝大多数配方在&eMV&r以上"
+				"&r而&6模板&r也可以制作&6模头&r，但使用&6模头&r的&c压模器配方&r起码都是LV级别起步的，绝大多数配方在LV是&4无法使用的&r"
 				""
 				"&4所以看清楚了，你要制作的是模具，不是模头！！！&r"
 			]
 			id: "0019A5EEEE514539"
 			subtitle: "但好事成三"
 			tasks: [{
-				count: 3L
+				count: 2L
 				id: "38EFA245E5DAF1C9"
 				item: "gtceu:empty_mold"
 				type: "item"
 			}]
 			title: "模具的前身"
-			x: 11.5d
+			x: 13.000000000000007d
 			y: 5.0d
 		}
 		{
@@ -1186,6 +1272,7 @@
 				"很明显的这是&6合金炉&r的配方，你肯定需要多一台&6合金炉&r"
 				"[ \"或者一个\", { \"text\": \"多方块合金炉\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4C94E56A9270EFFB\" } }, \"的\" ]"
 			]
+			hide_dependent_lines: true
 			id: "4CC934314D14A5EA"
 			shape: "hexagon"
 			subtitle: "我需要多一台合金炉！"
@@ -1195,8 +1282,8 @@
 				type: "item"
 			}]
 			title: "片状的橡胶才是好橡胶"
-			x: 6.0d
-			y: 6.0d
+			x: 8.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["604FA0DDAD1979A1"]
@@ -1220,8 +1307,8 @@
 				type: "item"
 			}]
 			title: "你可以贴贴的导线"
-			x: 1.5d
-			y: 1.5d
+			x: -6.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["4A9E47C3F8DF24A3"]
@@ -1249,8 +1336,8 @@
 				type: "item"
 			}]
 			title: "让我们把玻璃擦干净点"
-			x: -0.75d
-			y: 5.5d
+			x: -0.7142857142857082d
+			y: -0.9285714285714377d
 		}
 		{
 			dependencies: ["78F56076EB6961EE"]
@@ -1265,8 +1352,8 @@
 				type: "item"
 			}]
 			title: "让物品动起来"
-			x: 1.5d
-			y: 5.5d
+			x: 1.2142857142857153d
+			y: -2.4285714285714306d
 		}
 		{
 			dependencies: ["24C53B5FF515ACAC"]
@@ -1285,8 +1372,8 @@
 				type: "item"
 			}]
 			title: "把管道密封好"
-			x: 2.642857142857146d
-			y: 7.499999999999993d
+			x: 3.4285714285714306d
+			y: -2.3571428571428683d
 		}
 		{
 			dependencies: ["275F142925816979"]
@@ -1306,8 +1393,8 @@
 				type: "item"
 			}]
 			title: "泥水匠"
-			x: 1.5d
-			y: 7.5d
+			x: 3.4285714285714306d
+			y: -0.9285714285714306d
 		}
 		{
 			dependencies: [
@@ -1331,8 +1418,8 @@
 				type: "item"
 			}]
 			title: "另一种流体传输方式"
-			x: -0.75d
-			y: 7.5d
+			x: 1.2142857142857153d
+			y: -0.9285714285714306d
 		}
 		{
 			dependencies: ["32A39A427D4A3AC2"]
@@ -1341,6 +1428,7 @@
 				""
 				"准备&411组钢锭&r再来看看吧"
 			]
+			hide_dependency_lines: true
 			id: "15C001AF6C76B490"
 			shape: "diamond"
 			size: 3.0d
@@ -1351,8 +1439,8 @@
 				type: "item"
 			}]
 			title: "需要大量钢？"
-			x: 10.0d
-			y: -2.0d
+			x: 10.5d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -1376,8 +1464,8 @@
 				type: "item"
 			}]
 			title: "蒸汽之力"
-			x: 3.0d
-			y: -4.5d
+			x: -4.5d
+			y: 6.500000000000007d
 		}
 		{
 			dependencies: [
@@ -1401,8 +1489,8 @@
 				type: "item"
 			}]
 			title: "更大的锅与更大的搅拌棍"
-			x: 12.0d
-			y: 2.25d
+			x: 13.500000000000007d
+			y: 3.5d
 		}
 		{
 			dependencies: [
@@ -1426,8 +1514,8 @@
 				type: "item"
 			}]
 			title: "用力摇！"
-			x: 3.0d
-			y: 12.0d
+			x: 4.75d
+			y: 14.5d
 		}
 		{
 			dependencies: [
@@ -1435,7 +1523,7 @@
 				"020E8B707A8CF794"
 			]
 			description: [
-				"它能处理的是&d粉碎矿石&r和&e纯净矿石&r，前者是直接由&6研磨机&r生产完成，后者是&6洗矿机&r处理完毕的。热力离心机一般副产物产量更高"
+				"它能处理的是&d粉碎矿石&r和&e纯净矿石&r，前者是直接由&6研磨机&r生产完成，后者是&6洗矿机&r处理完毕的"
 				""
 				"[ \"尤其要注意你的产物是由\", { \"text\": \"离心机\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1FEF25B6BDBC00D7\" } }, \"还是热力离心机生产而成，两字之差距离远矣\" ]"
 			]
@@ -1449,8 +1537,8 @@
 				type: "item"
 			}]
 			title: "不仅离心，还要有点热"
-			x: 0.75d
-			y: 9.75d
+			x: 2.5d
+			y: 12.25d
 		}
 		{
 			dependencies: [
@@ -1476,8 +1564,8 @@
 				type: "item"
 			}]
 			title: "更大的滚筒洗衣机"
-			x: 7.5d
-			y: 12.0d
+			x: 9.25d
+			y: 14.5d
 		}
 		{
 			dependencies: [
@@ -1501,8 +1589,8 @@
 				type: "item"
 			}]
 			title: "大泳池，大容量"
-			x: 5.25d
-			y: 12.0d
+			x: 7.0d
+			y: 14.5d
 		}
 		{
 			dependencies: [
@@ -1526,8 +1614,8 @@
 				type: "item"
 			}]
 			title: "敲碎他们！"
-			x: 12.0d
-			y: 0.75d
+			x: 13.500000000000007d
+			y: 2.0d
 		}
 		{
 			dependencies: ["70166E7FA6559076"]
@@ -1550,28 +1638,33 @@
 				type: "item"
 			}]
 			title: "把所有的玩意儿全丢进去烧了"
-			x: -3.0d
-			y: -5.25d
+			x: -0.75d
+			y: -3.75d
 		}
 		{
-			dependencies: ["402F27D382D05FAA"]
+			dependencies: [
+				"402F27D382D05FAA"
+				"53A8535B07FE3958"
+			]
 			description: [
+				"欢迎来到超低压时代。"
+				""
 				"哪怕是再微弱的电那都是电，所以注意不要被裸露的导线电死了"
 				""
-				"从现在起，你可以开始着手降低材料的造价，或许将&7原始线材轧机&r、&7原始车床&r作为你的新时代新目标是不错的选择？"
+				"从现在起，你可以开始着手降低材料的造价，或许将&6原始线材轧机&r、&6原始车床&r作为你的新时代新目标是不错的选择？"
 			]
 			id: "4678D97346E46529"
 			shape: "gear"
 			size: 2.0d
-			subtitle: "&7你需要天马行空般的想象力"
+			subtitle: "终于有电了"
 			tasks: [{
 				id: "60EC1E07571ED8BF"
 				item: "gtceu:ulv_machine_hull"
 				type: "item"
 			}]
-			title: "欢迎来到&7超低压&r时代"
+			title: "欢迎来到超低压时代"
 			x: -3.0d
-			y: 7.5d
+			y: 13.0d
 		}
 		{
 			dependencies: ["13FBF05133D59CDC"]
@@ -1594,8 +1687,8 @@
 				type: "item"
 			}]
 			title: "焦炉Pro Max版"
-			x: 9.75d
-			y: 3.75d
+			x: 10.500000000000007d
+			y: 6.5d
 		}
 		{
 			dependencies: ["13FBF05133D59CDC"]
@@ -1618,7 +1711,7 @@
 				type: "item"
 			}]
 			title: "更大的保温杯"
-			x: 8.0d
+			x: 8.250000000000007d
 			y: 6.5d
 		}
 		{
@@ -1630,7 +1723,6 @@
 			]
 			id: "524B8340450628A3"
 			shape: "diamond"
-			size: 1.5d
 			subtitle: "Work！Work！"
 			tasks: [{
 				id: "41CA757DDA6AB954"
@@ -1690,11 +1782,10 @@
 				type: "item"
 			}]
 			title: "更猛的机器们"
-			x: 9.75d
-			y: 6.5d
+			x: 8.0d
+			y: 5.035714285714285d
 		}
 		{
-			dependencies: ["24C53B5FF515ACAC"]
 			description: [
 				"点开&6无限粉&r的EMI就能看到制作方式："
 				""
@@ -1711,8 +1802,8 @@
 				type: "item"
 			}]
 			title: "并不无限的粉"
-			x: -1.8571428571428612d
-			y: 1.4761904761904745d
+			x: -0.7142857142857153d
+			y: 2.2857142857142847d
 		}
 	]
 	subtitle: ["Tier0-Steam"]
