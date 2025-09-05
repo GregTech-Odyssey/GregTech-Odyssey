@@ -539,7 +539,8 @@
 					type: "item"
 				}
 			]
-			shape: "hexagon"
+			shape: "gear"
+			size: 2.0d
 			subtitle: "格雷科技的一大步"
 			tasks: [{
 				dimension: "ad_astra:moon"

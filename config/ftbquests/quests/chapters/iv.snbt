@@ -766,7 +766,11 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["23DB14B3093506B8"]
+			dependencies: [
+				"23DB14B3093506B8"
+				"32B3E6812521AB70"
+			]
+			description: ["该用合金冶炼炉了"]
 			id: "6176A38AA179BAF5"
 			tasks: [{
 				id: "66FEBA03CE4CF8E8"
@@ -986,14 +990,22 @@
 			y: -3.5d
 		}
 		{
-			dependencies: ["251002F2103BDA84"]
+			dependencies: [
+				"251002F2103BDA84"
+				"5F522D73AF5F1B2F"
+			]
 			description: [
 				"你可以用这个来代替过去的存储总线方案"
 				""
-				"[ \"点\", { \"text\": \"这里\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5F522D73AF5F1B2F\" } }, \"跳转用法\" ]"
+				"进阶版本可同时绑定&b20&r个目标，&6螺丝刀&r点击可&e切换模式&r"
+				""
+				"&6顺序模式&r：按照放入的信息卡的&e顺序&r作为优先级发送物品"
+				""
+				"&6轮询调度模式&r：往放入的信息卡&e均分&r发送以样板为单位的物品"
 			]
 			id: "029CAD5FD378D3E1"
 			optional: true
+			shape: "pentagon"
 			subtitle: "轮椅自动化"
 			tasks: [{
 				id: "3CDD1FE8E3131DE2"

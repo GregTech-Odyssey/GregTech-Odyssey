@@ -501,7 +501,12 @@
 		}
 		{
 			dependencies: ["7A1E4DBA675E67FB"]
-			description: ["冷凝等离子体，牺牲发电和速度换取更高的产率"]
+			description: [
+				"冷凝等离子体，牺牲发电和速度换取更高的产率"
+				""
+				"后期的等离子体将只能通过等离子冷凝来冷却"
+			]
+			hide_dependent_lines: true
 			id: "5BABA7621E000F54"
 			shape: "hexagon"
 			size: 1.5d

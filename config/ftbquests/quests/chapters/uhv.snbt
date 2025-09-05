@@ -21,7 +21,7 @@
 			shape: "hexagon"
 			size: 1.5d
 			x: -2.5d
-			y: 2.5d
+			y: 1.047619047619051d
 		}
 	]
 	quests: [
@@ -88,12 +88,13 @@
 			dependencies: ["5BABA7621E000F54"]
 			description: ["冷却成热锭的效率略微高些"]
 			id: "0B30C9C692F548AA"
+			optional: true
 			tasks: [{
 				id: "229F5FD7AAE48C84"
 				item: { Count: 64, id: "gtocore:ingot_field_shape" }
 				type: "item"
 			}]
-			x: -0.5d
+			x: -2.5d
 			y: 2.5d
 		}
 		{
@@ -307,7 +308,7 @@
 				item: "gtocore:cycloparaphenylene_bucket"
 				type: "item"
 			}]
-			x: 6.5d
+			x: 4.5d
 			y: 8.5d
 		}
 		{
@@ -326,7 +327,7 @@
 				item: "gtocore:engraving_laser_plant"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 4.5d
 			y: 10.5d
 		}
 		{
@@ -338,7 +339,7 @@
 				item: "gtocore:rutherfordium_amprosium_wafer"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 6.5d
 			y: 12.5d
 		}
 		{
@@ -353,7 +354,7 @@
 				item: { Count: 64, id: "gtocore:raw_photon_carrying_wafer" }
 				type: "item"
 			}]
-			x: 4.5d
+			x: 6.5d
 			y: 10.5d
 		}
 		{
@@ -364,8 +365,8 @@
 				item: "gtocore:glowstone_nanites"
 				type: "item"
 			}]
-			x: 6.5d
-			y: 7.5d
+			x: 8.0d
+			y: 8.5d
 		}
 		{
 			dependencies: [
@@ -379,7 +380,7 @@
 				item: "gtocore:optical_wafer"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 6.5d
 			y: 8.5d
 		}
 		{
@@ -451,8 +452,8 @@
 				item: "gtocore:pcb_factory"
 				type: "item"
 			}]
-			x: 9.5d
-			y: 2.5d
+			x: 8.014880952380949d
+			y: 2.547619047619058d
 		}
 		{
 			dependencies: ["76A5DA2CCB71E96F"]
@@ -463,7 +464,7 @@
 				type: "item"
 			}]
 			x: 9.5d
-			y: 4.0d
+			y: 2.5d
 		}
 		{
 			dependencies: [
@@ -537,7 +538,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 4.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["1612D1DEB3A7BE2D"]
@@ -549,7 +550,7 @@
 				item: "gtceu:bromine_bucket"
 				type: "item"
 			}]
-			x: 1.5d
+			x: -0.5d
 			y: 2.5d
 		}
 		{
@@ -562,8 +563,8 @@
 				type: "item"
 			}]
 			title: "&6光&e学&6处&e理&6器"
-			x: 1.5d
-			y: 5.5d
+			x: 2.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["01A84E98AC4A6A66"]
@@ -575,8 +576,8 @@
 				type: "item"
 			}]
 			title: "&6光&e学&6处&e理&6器&e集&6群"
-			x: 0.0d
-			y: 5.5d
+			x: 0.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["349799BD826C2F65"]
@@ -589,7 +590,7 @@
 			}]
 			title: "&6光&e学&6处&e理&6器&e超&6级&e计&6算&e机"
 			x: -1.5d
-			y: 5.5d
+			y: 4.5d
 		}
 		{
 			dependencies: [
@@ -613,7 +614,7 @@
 			}]
 			title: "&6光&e学&6处&e理&6器&e主&6机"
 			x: -3.5d
-			y: 5.5d
+			y: 4.5d
 		}
 		{
 			dependencies: [
@@ -653,8 +654,8 @@
 				item: "gtocore:piranha_solution_bucket"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 8.5d
+			x: 9.5d
+			y: 10.5d
 		}
 		{
 			dependencies: ["063FEB76DD30E9B3"]
@@ -664,6 +665,7 @@
 				"厌倦了被动产线大量堆砌的机器？这个会满足你的"
 			]
 			id: "4E6A1CDE657544CD"
+			shape: "diamond"
 			subtitle: "产线杀手"
 			tasks: [{
 				id: "096917D3C7389D41"
@@ -681,6 +683,7 @@
 				"你最好随时注意解锁的新配方，来&e替换&r你之前的下单产线，别忘了处理蜂群的洗涤和回收"
 			]
 			id: "55F31E094ADB9B87"
+			shape: "diamond"
 			size: 1.25d
 			subtitle: "超级产线杀手"
 			tasks: [{
@@ -695,6 +698,7 @@
 			dependencies: ["063FEB76DD30E9B3"]
 			description: ["更方便地制作生物原料"]
 			id: "4F8D70DE8112CEF2"
+			shape: "diamond"
 			subtitle: "蜂群也是生物，很合理"
 			tasks: [{
 				id: "757301B3747261BA"
@@ -714,8 +718,8 @@
 				item: "gtocore:matter_fabricator"
 				type: "item"
 			}]
-			x: 11.5d
-			y: -2.0d
+			x: 0.5d
+			y: 12.5d
 		}
 		{
 			dependencies: [
@@ -728,12 +732,11 @@
 				item: "gtocore:titansteel_ingot"
 				type: "item"
 			}]
-			x: 11.5d
-			y: 1.0d
+			x: -1.5d
+			y: 10.5d
 		}
 		{
 			dependencies: ["57729FBB969E8CC6"]
-			hide_dependent_lines: true
 			id: "1F5585DCC6CE74ED"
 			shape: "hexagon"
 			tasks: [{
@@ -741,8 +744,8 @@
 				item: "gtocore:titansteel_coil_block"
 				type: "item"
 			}]
-			x: 11.5d
-			y: 2.5d
+			x: -1.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["7E480187CA3FE8B2"]
@@ -752,8 +755,8 @@
 				item: "gtocore:uu_amplifier_bucket"
 				type: "item"
 			}]
-			x: 11.5d
-			y: -0.5d
+			x: -1.5d
+			y: 12.5d
 		}
 		{
 			dependencies: ["1612D1DEB3A7BE2D"]
@@ -764,8 +767,8 @@
 				item: "gtocore:space_drone_mk2"
 				type: "item"
 			}]
-			x: 13.5d
-			y: 1.0d
+			x: -3.5d
+			y: 10.5d
 		}
 		{
 			dependencies: ["2F3D8DD85C6D4F74"]
@@ -788,8 +791,8 @@
 				item: "gtocore:space_drone_mk3"
 				type: "item"
 			}]
-			x: 11.5d
-			y: 4.0d
+			x: -3.5d
+			y: 8.5d
 		}
 		{
 			dependencies: [
@@ -802,8 +805,8 @@
 				item: "gtocore:enderite_ingot"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 7.0d
+			x: -1.5d
+			y: 6.5d
 		}
 		{
 			dependencies: [
@@ -816,7 +819,7 @@
 				item: "gtocore:nm_wafer"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 4.5d
 			y: 12.5d
 		}
 		{
@@ -834,7 +837,7 @@
 				item: "gtocore:stellar_forge"
 				type: "item"
 			}]
-			x: 0.0d
+			x: 2.5d
 			y: 12.5d
 		}
 		{
@@ -847,7 +850,7 @@
 				item: "gtocore:hexanitrohexaaxaisowurtzitane_dust"
 				type: "item"
 			}]
-			x: -2.0d
+			x: 0.5d
 			y: 10.5d
 		}
 		{
@@ -861,13 +864,14 @@
 				item: "gtocore:naquadria_charge"
 				type: "item"
 			}]
-			x: 0.0d
+			x: 2.5d
 			y: 10.5d
 		}
 		{
 			dependencies: [
 				"3A949D4FFE70DE31"
 				"704CF7B3EDDB19B2"
+				"5BABA7621E000F54"
 			]
 			id: "040559A415488076"
 			tasks: [{
@@ -875,7 +879,7 @@
 				item: "gtocore:enderium_ingot"
 				type: "item"
 			}]
-			x: 0.0d
+			x: 0.5d
 			y: 8.5d
 		}
 		{
@@ -886,8 +890,8 @@
 				item: "enderio:ender_crystal"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 8.5d
+			x: 0.5d
+			y: 6.5d
 		}
 	]
 	subtitle: ["Tier9-UHV"]

@@ -575,28 +575,26 @@
 			y: 1.5d
 		}
 		{
-			dependencies: [
-				"2F6C81E3B10365E8"
-				"5612C7735BC4F5BC"
-			]
+			dependencies: ["5612C7735BC4F5BC"]
 			description: [
 				"合金冶炼炉和工业高炉类似，是专门用来生产&6熔融态合金&r的重要多方块机器"
 				""
 				"熔融态合金与工业高炉产出的热锭类似，需要经过&6真空冷冻机&r冷却才能进一步加工"
 				""
 				"当你后续看到新合金锭，你可以直接去尝试查找其熔融形态的合金冶炼炉配方。它能一次性产出&b多个锭&r的量的&e熔融流体&r，一般要比搅拌后再用高炉去烧&e速度要快上不少&r"
+				""
+				"从&e下个阶段&r开始会有大量&c只有&r它才能制作的金属"
 			]
-			hide_dependency_lines: true
 			id: "32B3E6812521AB70"
 			shape: "gear"
-			size: 3.0d
+			size: 2.5d
 			subtitle: "炖史炉"
 			tasks: [{
 				id: "7E0234D447851767"
 				item: "gtceu:alloy_blast_smelter"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 5.0d
 			y: -4.5d
 		}
 		{
@@ -1171,8 +1169,8 @@
 				item: "gtocore:integral_framework_ev"
 				type: "item"
 			}]
-			x: 3.5d
-			y: -2.5d
+			x: 3.0d
+			y: -4.5d
 		}
 		{
 			dependencies: [
