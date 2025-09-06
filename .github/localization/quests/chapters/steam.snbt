@@ -540,8 +540,8 @@
 			dependencies: ["32A39A427D4A3AC2"]
 			description: [
 				"{gto.steam.quests.27F4D9739FE33A02.description0}"
+				""
 				"{gto.steam.quests.27F4D9739FE33A02.description1}"
-				"{gto.steam.quests.27F4D9739FE33A02.description2}"
 			]
 			id: "27F4D9739FE33A02"
 			shape: "gear"
@@ -935,8 +935,8 @@
 				"{gto.steam.quests.020E8B707A8CF794.description0}"
 				""
 				"{gto.steam.quests.020E8B707A8CF794.description1}"
+				""
 				"{gto.steam.quests.020E8B707A8CF794.description2}"
-				"{gto.steam.quests.020E8B707A8CF794.description3}"
 			]
 			id: "020E8B707A8CF794"
 			shape: "diamond"
