@@ -124,8 +124,8 @@
 			image: "xtonesreworked:block/bitt/12"
 			rotation: 0.0d
 			width: 1.1d
-			x: -3.0d
-			y: 23.5d
+			x: -5.0d
+			y: 21.5d
 		}
 		{
 			color: 16711935
@@ -134,8 +134,8 @@
 			order: 1
 			rotation: 0.0d
 			width: 1.1d
-			x: -3.0d
-			y: 23.5d
+			x: -5.0d
+			y: 21.5d
 		}
 		{
 			color: 16711935
@@ -162,16 +162,16 @@
 			order: 1
 			rotation: 0.0d
 			width: 1.1d
-			x: -3.0d
-			y: 25.5d
+			x: -5.0d
+			y: 23.5d
 		}
 		{
 			height: 1.1d
 			image: "xtonesreworked:block/bitt/12"
 			rotation: 0.0d
 			width: 1.1d
-			x: -3.0d
-			y: 25.5d
+			x: -5.0d
+			y: 23.5d
 		}
 		{
 			color: 16711935
@@ -552,8 +552,8 @@
 			image: "xtonesreworked:block/bitt/12"
 			rotation: 0.0d
 			width: 1.1d
-			x: -7.0d
-			y: 23.5d
+			x: -9.0d
+			y: 21.5d
 		}
 		{
 			color: 16711935
@@ -562,24 +562,24 @@
 			order: 1
 			rotation: 0.0d
 			width: 1.1d
-			x: -7.0d
-			y: 23.5d
+			x: -9.0d
+			y: 21.5d
 		}
 		{
 			height: 1.0d
 			image: "gtocore:item/circuit/suprachronal_luv"
 			rotation: 0.0d
 			width: 1.0d
-			x: -3.0d
-			y: 23.0d
+			x: -5.7d
+			y: 21.5d
 		}
 		{
 			height: 1.0d
 			image: "gtocore:item/circuit/suprachronal_mv"
 			rotation: 0.0d
 			width: 1.0d
-			x: -7.0d
-			y: 23.0d
+			x: -9.5d
+			y: 21.5d
 		}
 		{
 			height: 1.0d
@@ -783,14 +783,152 @@
 			x: -3.5d
 			y: 3.5d
 		}
+		{
+			height: 1.0d
+			image: "ae2:block/quantum_ring"
+			rotation: 0.0d
+			width: 1.0d
+			x: -20.0d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/quantum_ring"
+			rotation: 0.0d
+			width: 1.0d
+			x: -19.0d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/quantum_ring"
+			rotation: 0.0d
+			width: 1.0d
+			x: -18.0d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/quantum_ring"
+			rotation: 0.0d
+			width: 1.0d
+			x: -20.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/quantum_ring"
+			rotation: 0.0d
+			width: 1.0d
+			x: -20.0d
+			y: 6.0d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/quantum_ring"
+			rotation: 0.0d
+			width: 1.0d
+			x: -18.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/quantum_ring"
+			rotation: 0.0d
+			width: 1.0d
+			x: -18.0d
+			y: 6.0d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/quantum_ring"
+			rotation: 0.0d
+			width: 1.0d
+			x: -19.0d
+			y: 6.0d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/quantum_link"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -19.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "ae2:item/quantum_entangled_singularity"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -19.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "gtocore:item/circuit/suprachronal_hv"
+			rotation: 0.0d
+			width: 1.0d
+			x: -19.5d
+			y: 11.15d
+		}
+		{
+			height: 1.0d
+			image: "gtocore:item/circuit/suprachronal_mv"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.5d
+			y: 11.15d
+		}
+		{
+			height: 1.0d
+			image: "gtceu:textures/gui/overlay/out_slot_overlay.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.85d
+			y: 15.0d
+		}
+		{
+			height: 1.0d
+			image: "gtceu:textures/gui/overlay/in_slot_overlay.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.85d
+			y: 13.0d
+		}
+		{
+			height: 1.0d
+			image: "gtceu:block/cover/overlay_display_emissive"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.7d
+			y: 16.8d
+		}
+		{
+			height: 0.8d
+			image: "gtmthings:textures/overlay/inventory_configurator.png"
+			rotation: 0.0d
+			width: 0.8d
+			x: -15.75d
+			y: 17.3d
+		}
 	]
 	order_index: 4
-	quest_links: [{
-		id: "73C7693D280F6D40"
-		linked_quest: "19B006CEA837B6B4"
-		x: -1.0d
-		y: 3.5d
-	}]
+	quest_links: [
+		{
+			id: "73C7693D280F6D40"
+			linked_quest: "19B006CEA837B6B4"
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			id: "75E370724DA4C036"
+			linked_quest: "029CAD5FD378D3E1"
+			x: -19.0d
+			y: 21.5d
+		}
+	]
 	quests: [
 		{
 			dependencies: ["298BEC345930429A"]
@@ -806,6 +944,8 @@
 				item: "ae2:network_tool"
 				type: "item"
 			}]
+			shape: "gear"
+			size: 2.0d
 			subtitle: "{gto.ae.quests.5FCFE3D6B36CC409.subtitle}"
 			tasks: [
 				{
@@ -821,13 +961,13 @@
 				}
 			]
 			title: "{gto.ae.quests.5FCFE3D6B36CC409.title}"
-			x: -11.0d
-			y: 3.5d
+			x: -9.0d
+			y: 1.5d
 		}
 		{
 			dependencies: [
 				"0E9F8C57145D61AB"
-				"0A68C0CFACCB6C07"
+				"6BB3386725B228D5"
 			]
 			description: [
 				"{gto.ae.quests.041ABD90CDDE00AA.description0}"
@@ -836,6 +976,8 @@
 			]
 			icon: "ae2:drive"
 			id: "041ABD90CDDE00AA"
+			shape: "hexagon"
+			size: 1.5d
 			subtitle: "{gto.ae.quests.041ABD90CDDE00AA.subtitle}"
 			tasks: [{
 				id: "7D61B797BE889A30"
@@ -1023,7 +1165,7 @@
 			}]
 			title: "{gto.ae.quests.79701B57BFDAE266.title}"
 			x: -15.0d
-			y: 3.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["592D975F3146151E"]
@@ -1143,7 +1285,7 @@
 			dependencies: ["76512605B551599A"]
 			description: [
 				"{gto.ae.quests.5F522D73AF5F1B2F.description0}"
-				"{gto.ae.quests.5F522D73AF5F1B2F.description1}"
+				""
 			]
 			icon: "gtocore:tesseract_generator"
 			id: "5F522D73AF5F1B2F"
@@ -1343,13 +1485,14 @@
 				"{gto.ae.quests.0A68C0CFACCB6C07.description2}"
 			]
 			id: "0A68C0CFACCB6C07"
-			size: 1.0d
+			shape: "hexagon"
+			size: 1.5d
 			tasks: [{
 				id: "09D12910D6C8D847"
 				item: "ae2:certus_quartz_crystal"
 				type: "item"
 			}]
-			x: -11.0d
+			x: -13.0d
 			y: 9.5d
 		}
 		{
@@ -1377,7 +1520,7 @@
 				}
 			]
 			x: -9.0d
-			y: 5.5d
+			y: 4.5d
 		}
 		{
 			id: "2695890B68ED84DE"
@@ -1386,7 +1529,7 @@
 				item: "ae2:inscriber"
 				type: "item"
 			}]
-			x: -9.0d
+			x: -11.0d
 			y: 3.5d
 		}
 		{
@@ -1397,8 +1540,8 @@
 				item: "expatternprovider:ex_inscriber"
 				type: "item"
 			}]
-			x: -9.0d
-			y: 1.5d
+			x: -13.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["5FCFE3D6B36CC409"]
@@ -1409,8 +1552,8 @@
 				item: "ae2:vibration_chamber"
 				type: "item"
 			}]
-			x: -13.0d
-			y: 3.5d
+			x: -11.0d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -1418,6 +1561,8 @@
 				"21C0E1FEC1347A3A"
 			]
 			id: "0E9F8C57145D61AB"
+			shape: "hexagon"
+			size: 1.5d
 			tasks: [{
 				id: "7070C90E24C87F4A"
 				item: "ae2:fluix_glass_cable"
@@ -1448,12 +1593,14 @@
 				"{gto.ae.quests.21C0E1FEC1347A3A.description4}"
 			]
 			id: "21C0E1FEC1347A3A"
+			shape: "hexagon"
+			size: 1.5d
 			tasks: [{
 				id: "7ED42C8BA56F2A6C"
 				item: "ae2:fluix_crystal"
 				type: "item"
 			}]
-			x: -13.0d
+			x: -15.0d
 			y: 11.5d
 		}
 		{
@@ -1469,7 +1616,7 @@
 				item: "ae2:certus_quartz_dust"
 				type: "item"
 			}]
-			x: -9.0d
+			x: -11.0d
 			y: 9.5d
 		}
 		{
@@ -1481,7 +1628,7 @@
 				type: "item"
 			}]
 			x: -13.0d
-			y: 9.5d
+			y: 11.5d
 		}
 		{
 			dependencies: ["69DF9DE9F7176FD0"]
@@ -1524,6 +1671,8 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "592D975F3146151E"
+			shape: "hexagon"
+			size: 1.5d
 			tasks: [
 				{
 					id: "2EB31741E39CA278"
@@ -1559,7 +1708,7 @@
 				item: "ae2:storage_bus"
 				type: "item"
 			}]
-			x: -9.0d
+			x: -15.0d
 			y: 17.5d
 		}
 		{
@@ -1573,8 +1722,8 @@
 				item: "ae2:storage_monitor"
 				type: "item"
 			}]
-			x: -7.0d
-			y: 21.5d
+			x: -9.0d
+			y: 19.5d
 		}
 		{
 			dependencies: ["21C0E1FEC1347A3A"]
@@ -1585,7 +1734,7 @@
 				type: "item"
 			}]
 			x: -15.0d
-			y: 15.5d
+			y: 13.5d
 		}
 		{
 			dependencies: [
@@ -1625,8 +1774,8 @@
 				item: "expatternprovider:precise_storage_bus"
 				type: "item"
 			}]
-			x: -7.0d
-			y: 17.5d
+			x: -15.0d
+			y: 19.5d
 		}
 		{
 			dependencies: ["592D975F3146151E"]
@@ -1861,7 +2010,9 @@
 			y: 15.5d
 		}
 		{
+			dependencies: ["034D579A41F2ED3D"]
 			description: ["{gto.ae.quests.7C9277B717E90328.description0}"]
+			hide_dependency_lines: true
 			id: "7C9277B717E90328"
 			tasks: [{
 				id: "3F38FDBF29B99345"
@@ -1880,7 +2031,7 @@
 				type: "item"
 			}]
 			x: -11.0d
-			y: 21.5d
+			y: 23.5d
 		}
 		{
 			dependencies: ["7C9277B717E90328"]
@@ -1891,7 +2042,7 @@
 				type: "item"
 			}]
 			x: -11.0d
-			y: 23.5d
+			y: 21.5d
 		}
 		{
 			dependencies: ["04581C43F7B0BBCE"]
@@ -1906,6 +2057,7 @@
 		}
 		{
 			dependencies: ["364CBD1EB949F7ED"]
+			hide_dependent_lines: true
 			id: "04581C43F7B0BBCE"
 			tasks: [{
 				id: "5E6B5B051545303E"
@@ -1946,7 +2098,7 @@
 				type: "item"
 			}]
 			x: -15.0d
-			y: 11.5d
+			y: 9.5d
 		}
 		{
 			dependencies: ["4736D9B3A2EE6AD8"]
@@ -1961,7 +2113,7 @@
 				type: "item"
 			}]
 			x: -15.0d
-			y: 9.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["1E478682EAC0C56B"]
@@ -1976,7 +2128,7 @@
 				type: "item"
 			}]
 			x: -15.0d
-			y: 7.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["65E52B0DB278156A"]
@@ -1987,7 +2139,7 @@
 				type: "item"
 			}]
 			x: -15.0d
-			y: 5.5d
+			y: 3.5d
 		}
 		{
 			id: "4B0052A81F69BABA"
@@ -2637,9 +2789,14 @@
 			y: 11.5d
 		}
 		{
-			dependencies: ["2C7608B4F5962E55"]
+			dependencies: [
+				"2C7608B4F5962E55"
+				"6A8869A6275ECA3E"
+			]
 			description: ["{gto.ae.quests.23D906A09C3631CB.description0}"]
 			id: "23D906A09C3631CB"
+			shape: "hexagon"
+			size: 1.5d
 			tasks: [{
 				id: "4843EAF3AA9607E1"
 				item: "ae2:wireless_receiver"
@@ -2700,14 +2857,16 @@
 			y: 7.5d
 		}
 		{
+			dependencies: ["034D579A41F2ED3D"]
+			hide_dependency_lines: true
 			id: "6E6AA64B96E291BC"
 			tasks: [{
 				id: "0450C770D74260AC"
 				item: "ae2:cell_workbench"
 				type: "item"
 			}]
-			x: -13.0d
-			y: 5.5d
+			x: 0.5d
+			y: 6.5d
 		}
 		{
 			dependencies: [
@@ -2720,8 +2879,8 @@
 				item: "ae2:quantum_ring"
 				type: "item"
 			}]
-			x: -15.0d
-			y: 13.5d
+			x: -17.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["2C7608B4F5962E55"]
@@ -2737,6 +2896,8 @@
 		{
 			description: [""]
 			id: "0B36C7D7D1594CB7"
+			shape: "hexagon"
+			size: 1.5d
 			subtitle: "{gto.ae.quests.0B36C7D7D1594CB7.subtitle}"
 			tasks: [
 				{
@@ -2757,8 +2918,8 @@
 					type: "item"
 				}
 			]
-			x: -7.0d
-			y: 19.5d
+			x: -9.0d
+			y: 17.5d
 		}
 		{
 			dependencies: [
@@ -2799,8 +2960,8 @@
 				item: "expatternprovider:tag_storage_bus"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 17.5d
+			x: -15.0d
+			y: 21.5d
 		}
 		{
 			dependencies: [
@@ -2847,8 +3008,8 @@
 				item: "expatternprovider:mod_storage_bus"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 17.5d
+			x: -15.0d
+			y: 23.5d
 		}
 		{
 			dependencies: ["145E176D0807D81C"]
@@ -2859,8 +3020,8 @@
 				item: "ae2:pattern_encoding_terminal"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 19.5d
+			x: -3.0d
+			y: 17.5d
 		}
 		{
 			dependencies: ["032C0D887FDC913A"]
@@ -2870,8 +3031,8 @@
 				item: "ae2:crafting_terminal"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 19.5d
+			x: -5.0d
+			y: 17.5d
 		}
 		{
 			dependencies: ["0B36C7D7D1594CB7"]
@@ -2882,8 +3043,8 @@
 				item: "ae2:terminal"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 19.5d
+			x: -7.0d
+			y: 17.5d
 		}
 		{
 			dependencies: ["0B36C7D7D1594CB7"]
@@ -2894,8 +3055,8 @@
 				item: "ae2:pattern_access_terminal"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 23.5d
+			x: -7.0d
+			y: 21.5d
 		}
 		{
 			dependencies: [
@@ -2916,8 +3077,8 @@
 				item: "ae2:wireless_terminal"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 21.5d
+			x: -7.0d
+			y: 19.5d
 		}
 		{
 			dependencies: [
@@ -2936,8 +3097,8 @@
 				}
 				type: "item"
 			}]
-			x: -3.0d
-			y: 21.5d
+			x: -5.0d
+			y: 19.5d
 		}
 		{
 			dependencies: [
@@ -2953,8 +3114,8 @@
 				item: "ae2wtlib:wireless_pattern_access_terminal"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 25.5d
+			x: -7.0d
+			y: 23.5d
 		}
 		{
 			dependencies: [
@@ -2969,8 +3130,8 @@
 				item: "ae2wtlib:wireless_pattern_encoding_terminal"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 21.5d
+			x: -3.0d
+			y: 19.5d
 		}
 		{
 			dependencies: [
@@ -2988,8 +3149,8 @@
 				item: "ae2wtlib:wireless_universal_terminal"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 25.5d
+			x: -3.0d
+			y: 23.5d
 		}
 		{
 			dependencies: [
@@ -3005,8 +3166,8 @@
 				item: "gtocore:wireless_me2in1_terminal"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 25.5d
+			x: -5.0d
+			y: 23.5d
 		}
 		{
 			dependencies: ["1DB79F4A3D08D7FB"]
@@ -3016,8 +3177,8 @@
 				item: "gtocore:me_2in1_terminal"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 23.5d
+			x: -5.0d
+			y: 21.5d
 		}
 		{
 			dependencies: ["2C7608B4F5962E55"]
@@ -3140,8 +3301,8 @@
 				item: "expatternprovider:caner"
 				type: "item"
 			}]
-			x: -11.0d
-			y: 1.5d
+			x: -13.0d
+			y: 5.5d
 		}
 		{
 			dependencies: [
@@ -3155,7 +3316,7 @@
 				item: "expatternprovider:ex_charger"
 				type: "item"
 			}]
-			x: -9.0d
+			x: -17.0d
 			y: 19.5d
 		}
 		{
@@ -3166,7 +3327,7 @@
 				item: "ae2:charger"
 				type: "item"
 			}]
-			x: -9.0d
+			x: -17.0d
 			y: 21.5d
 		}
 		{
@@ -3270,8 +3431,8 @@
 				item: "gtocore:exchange_storage_monitor"
 				type: "item"
 			}]
-			x: -7.0d
-			y: 23.5d
+			x: -9.0d
+			y: 21.5d
 		}
 		{
 			dependencies: ["1EED90EE9774CD7A"]
@@ -3329,6 +3490,7 @@
 		}
 		{
 			dependencies: ["4736D9B3A2EE6AD8"]
+			hide_dependency_lines: true
 			id: "15CB5076FDDCAE6F"
 			tasks: [{
 				id: "7AC90E4AA34BB9F1"
@@ -3387,11 +3549,18 @@
 		{
 			dependencies: ["5F96077A62E88635"]
 			id: "2A45B9AC7AD09478"
-			tasks: [{
-				id: "4C887C6C3816526F"
-				item: "gtocore:pattern_modifier_pro"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4C887C6C3816526F"
+					item: "gtocore:pattern_modifier_pro"
+					type: "item"
+				}
+				{
+					id: "1B2375466F9C3A17"
+					item: "expatternprovider:pattern_modifier"
+					type: "item"
+				}
+			]
 			x: -5.0d
 			y: 3.5d
 		}
@@ -3462,19 +3631,6 @@
 			}]
 			x: -19.0d
 			y: 17.5d
-		}
-		{
-			dependencies: ["5F522D73AF5F1B2F"]
-			description: ["{gto.ae.quests.6029E522F10F15E0.description0}"]
-			id: "6029E522F10F15E0"
-			tasks: [{
-				id: "35AF0A188125EE6C"
-				item: "gtocore:advanced_tesseract_generator"
-				type: "item"
-			}]
-			title: "{gto.ae.quests.6029E522F10F15E0.title}"
-			x: -19.0d
-			y: 21.5d
 		}
 		{
 			dependencies: ["5608772A39C07EC1"]
@@ -3575,6 +3731,24 @@
 			title: "{gto.ae.quests.393B722AB2CA65BF.title}"
 			x: -23.0d
 			y: 15.5d
+		}
+		{
+			dependencies: [
+				"176C374E1C0EA92F"
+				"6BA5CF66F0CE3119"
+				"0B8E06206D29E420"
+			]
+			description: ["{gto.ae.quests.5627B38033AF2674.description0}"]
+			hide_dependency_lines: true
+			icon: "gtocore:quantum_anomaly"
+			id: "5627B38033AF2674"
+			tasks: [{
+				id: "11FAB9B0FC585C92"
+				type: "checkmark"
+			}]
+			title: "{gto.ae.quests.5627B38033AF2674.title}"
+			x: -19.0d
+			y: 7.5d
 		}
 	]
 	subtitle: ["{gto.ae.subtitle0}"]
