@@ -1,10 +1,75 @@
 {
+	autofocus_id: "0A68C0CFACCB6C07"
 	default_hide_dependency_lines: false
 	default_quest_shape: "square"
 	filename: "ae"
 	group: "33C930DBAB246BE3"
 	icon: "ae2:interface"
 	id: "775486FF148AC1FA"
+	images: [
+		{
+			height: 1.1d
+			image: "xtonesreworked:block/bitt/10"
+			rotation: 0.0d
+			width: 1.1d
+			x: -7.0d
+			y: 7.5d
+		}
+		{
+			height: 1.1d
+			image: "xtonesreworked:block/cray/0"
+			rotation: 0.0d
+			width: 1.1d
+			x: -5.0d
+			y: 7.5d
+		}
+		{
+			height: 1.1d
+			image: "xtonesreworked:block/bitt/10"
+			rotation: 0.0d
+			width: 1.1d
+			x: -7.0d
+			y: 9.5d
+		}
+		{
+			height: 1.1d
+			image: "xtonesreworked:block/cray/0"
+			rotation: 0.0d
+			width: 1.1d
+			x: -5.0d
+			y: 9.5d
+		}
+		{
+			height: 1.0d
+			image: "gtocore:item/circuit/suprachronal_lv"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "gtocore:item/circuit/suprachronal_ulv"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "gtocore:item/circuit/suprachronal_mv"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.5d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "gtocore:item/circuit/suprachronal_hv"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.5d
+			y: 5.0d
 	order_index: 4
 	quest_links: [
 		{
@@ -60,217 +125,488 @@
 			y: -6.0d
 		}
 		{
-			dependencies: ["5FCFE3D6B36CC409"]
-			description: ["线缆传输&c没有频道限制&r，选择你喜欢的线缆"]
-			icon: "ae2:fluix_glass_cable"
-			id: "49C9DA0CB14EFCA1"
-			subtitle: "加载ing..."
-			tasks: [
-				{
-					id: "10F1BD0078DC52AE"
-					item: {
-						Count: 1
-						id: "itemfilters:id_regex"
-						tag: {
-							value: "smart_cable"
-						}
-					}
-					title: "智能线缆"
-					type: "item"
-				}
-				{
-					id: "589BFC317C94D3A5"
-					item: {
-						Count: 1
-						id: "itemfilters:id_regex"
-						tag: {
-							value: "covered_cable"
-						}
-					}
-					title: "包层线缆"
-					type: "item"
-				}
-				{
-					id: "6A199F68179A8EE0"
-					item: {
-						Count: 1
-						id: "itemfilters:id_regex"
-						tag: {
-							value: "glass_cable"
-						}
-					}
-					title: "玻璃线缆"
-					type: "item"
-				}
-				{
-					id: "1392A4F9CD6DE317"
-					item: {
-						Count: 1
-						id: "itemfilters:id_regex"
-						tag: {
-							value: "covered_dense_cable"
-						}
-					}
-					title: "致密包层线缆"
-					type: "item"
-				}
-				{
-					id: "3EFBC7FAF94BCCFE"
-					item: {
-						Count: 1
-						id: "itemfilters:id_regex"
-						tag: {
-							value: "smart_dense_cable"
-						}
-					}
-					title: "致密包层智能线缆"
-					type: "item"
-				}
-			]
-			title: "网络线缆"
-			x: -6.0d
-			y: -6.0d
+			height: 1.0d
+			image: "gtocore:item/circuit/suprachronal_ev"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.5d
+			y: 5.0d
 		}
 		{
-			dependencies: ["49C9DA0CB14EFCA1"]
-			description: [
-				"放入存储元件，让AE网络可以进行存储."
-				""
-				"某些&c不可堆叠&r物品要选择的不要放入，避免占用物品种类."
-			]
-			icon: "ae2:drive"
-			id: "041ABD90CDDE00AA"
-			subtitle: "你的网络存储~扩容区"
-			tasks: [
-				{
-					id: "7D61B797BE889A30"
-					item: "ae2:drive"
-					type: "item"
-				}
-				{
-					id: "3DD6A1081AE52CEF"
-					item: "expatternprovider:ex_drive"
-					type: "item"
-				}
-			]
-			x: -4.0d
-			y: -6.0d
+			height: 1.0d
+			image: "gtocore:item/circuit/suprachronal_iv"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.5d
+			y: 5.0d
 		}
 		{
-			dependencies: ["041ABD90CDDE00AA"]
-			description: ["数量字节计算按照原版（每字节=物品数量/8，流体数量/8000），但无类型数量限制，也无类型字节占用"]
-			icon: {
-				Count: 1
-				id: "ae2:portable_item_cell_256k"
-				tag: {
-					internalCurrentPower: 20000.0d
-				}
-			}
-			id: "77D4250DECB277BD"
-			subtitle: "大箱子"
-			tasks: [
-				{
-					id: "12AD12011CFC720F"
-					item: {
-						Count: 1
-						id: "itemfilters:id_regex"
-						tag: {
-							value: "item_storage_cell"
-						}
-					}
-					title: "物品存储元件"
-					type: "item"
-				}
-				{
-					id: "622E1E7FB98BCBE6"
-					item: {
-						Count: 1
-						id: "itemfilters:id_regex"
-						tag: {
-							value: "fluid_storage_cell"
-						}
-					}
-					title: "流体存储元件"
-					type: "item"
-				}
-			]
-			title: "存储元件"
-			x: -4.0d
-			y: -7.5d
+			height: 1.0d
+			image: "gtocore:item/circuit/suprachronal_luv"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.5d
+			y: 5.0d
 		}
 		{
-			dependencies: ["49C9DA0CB14EFCA1"]
-			description: ["无线传输&c当前维度的&r网络"]
-			icon: "expatternprovider:wireless_tool"
-			id: "083934744ECD19FB"
-			subtitle: "Wifi到处飞"
-			tasks: [
-				{
-					id: "7DFB1FD2AE281C46"
-					item: "expatternprovider:wireless_connect"
-					type: "item"
-				}
-				{
-					id: "7A3F1F05B5CB4C0D"
-					item: "expatternprovider:wireless_tool"
-					type: "item"
-				}
-			]
-			title: "无线连接"
-			x: -6.0d
-			y: -7.5d
+			height: 1.0d
+			image: "gtocore:item/circuit/suprachronal_uv"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.5d
+			y: 5.0d
 		}
 		{
-			dependencies: ["49C9DA0CB14EFCA1"]
-			description: [
-				"一般先用来给终端做&c量子桥卡&r提供的"
-				""
-				"其次才是跨维度传输"
-			]
-			icon: "ae2:singularity"
-			id: "7F009EFD924B069B"
-			subtitle: "量子桥×无限制无线访问点✔"
-			tasks: [
-				{
-					id: "39EF3BF102D762CF"
-					item: "ae2:quantum_ring"
-					type: "item"
-				}
-				{
-					id: "60763E314041AAFF"
-					item: "ae2:quantum_link"
-					type: "item"
-				}
-				{
-					id: "03E7C0D4ACC8D5CF"
-					item: "ae2:singularity"
-					type: "item"
-				}
-			]
-			title: "跨维度传输"
-			x: -6.0d
-			y: -4.5d
+			height: 1.0d
+			image: "gtocore:item/circuit/suprachronal_zpm"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.5d
+			y: 5.0d
 		}
 		{
-			dependencies: ["041ABD90CDDE00AA"]
-			icon: "ae2:terminal"
-			id: "423FD1A25E4E2C85"
-			subtitle: "迫不及待"
-			tasks: [
-				{
-					id: "542F3172F402F93D"
-					item: "ae2:crafting_terminal"
-					type: "item"
-				}
-				{
-					id: "4FBBCDE193D23C93"
-					item: "ae2:terminal"
-					type: "item"
-				}
-			]
-			title: "访问网络"
-			x: -2.0d
-			y: -6.0d
+			height: 1.0d
+			image: "gtocore:item/circuit/suprachronal_uhv"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.5d
+			y: 5.0d
+		}
+		{
+			height: 1.1d
+			image: "xtonesreworked:block/bitt/12"
+			rotation: 0.0d
+			width: 1.1d
+			x: -3.0d
+			y: 23.5d
+		}
+		{
+			color: 16711935
+			height: 1.1d
+			image: "ftbquests:block/barrier_open"
+			order: 1
+			rotation: 0.0d
+			width: 1.1d
+			x: -3.0d
+			y: 23.5d
+		}
+		{
+			color: 16711935
+			height: 1.1d
+			image: "ftbquests:block/barrier_open"
+			order: 1
+			rotation: 0.0d
+			width: 1.1d
+			x: -5.0d
+			y: 11.5d
+		}
+		{
+			height: 1.1d
+			image: "xtonesreworked:block/bitt/12"
+			rotation: 0.0d
+			width: 1.1d
+			x: -5.0d
+			y: 11.5d
+		}
+		{
+			color: 16711935
+			height: 1.1d
+			image: "ftbquests:block/barrier_open"
+			order: 1
+			rotation: 0.0d
+			width: 1.1d
+			x: -3.0d
+			y: 25.5d
+		}
+		{
+			height: 1.1d
+			image: "xtonesreworked:block/bitt/12"
+			rotation: 0.0d
+			width: 1.1d
+			x: -3.0d
+			y: 25.5d
+		}
+		{
+			color: 16711935
+			height: 1.1d
+			image: "ftbquests:block/barrier_open"
+			order: 1
+			rotation: 0.0d
+			width: 1.1d
+			x: 7.5d
+			y: 6.5d
+		}
+		{
+			color: 16711935
+			height: 1.1d
+			image: "ftbquests:block/barrier_open"
+			order: 1
+			rotation: 0.0d
+			width: 1.1d
+			x: 8.5d
+			y: 6.5d
+		}
+		{
+			color: 16711935
+			height: 1.1d
+			image: "ftbquests:block/barrier_open"
+			order: 1
+			rotation: 0.0d
+			width: 1.1d
+			x: 9.5d
+			y: 6.5d
+		}
+		{
+			color: 16711935
+			height: 1.1d
+			image: "ftbquests:block/barrier_open"
+			order: 1
+			rotation: 0.0d
+			width: 1.1d
+			x: 10.5d
+			y: 6.5d
+		}
+		{
+			color: 16711935
+			height: 1.1d
+			image: "ftbquests:block/barrier_open"
+			order: 1
+			rotation: 0.0d
+			width: 1.1d
+			x: 11.5d
+			y: 6.5d
+		}
+		{
+			color: 16711935
+			height: 1.1d
+			image: "ftbquests:block/barrier_open"
+			order: 1
+			rotation: 0.0d
+			width: 1.1d
+			x: 7.5d
+			y: 5.5d
+		}
+		{
+			color: 16711935
+			height: 1.1d
+			image: "ftbquests:block/barrier_open"
+			order: 1
+			rotation: 0.0d
+			width: 1.1d
+			x: 8.5d
+			y: 5.5d
+		}
+		{
+			color: 16711935
+			height: 1.1d
+			image: "ftbquests:block/barrier_open"
+			order: 1
+			rotation: 0.0d
+			width: 1.1d
+			x: 10.5d
+			y: 5.5d
+		}
+		{
+			color: 16711935
+			height: 1.1d
+			image: "ftbquests:block/barrier_open"
+			order: 1
+			rotation: 0.0d
+			width: 1.1d
+			x: 9.5d
+			y: 5.5d
+		}
+		{
+			color: 16711935
+			height: 1.1d
+			image: "ftbquests:block/barrier_open"
+			order: 1
+			rotation: 0.0d
+			width: 1.1d
+			x: 11.5d
+			y: 5.5d
+		}
+		{
+			height: 1.1d
+			image: "xtonesreworked:block/bitt/12"
+			rotation: 0.0d
+			width: 1.1d
+			x: 7.5d
+			y: 5.5d
+		}
+		{
+			height: 1.1d
+			image: "xtonesreworked:block/bitt/12"
+			rotation: 0.0d
+			width: 1.1d
+			x: 8.5d
+			y: 5.5d
+		}
+		{
+			height: 1.1d
+			image: "xtonesreworked:block/bitt/12"
+			rotation: 0.0d
+			width: 1.1d
+			x: 9.5d
+			y: 5.5d
+		}
+		{
+			height: 1.1d
+			image: "xtonesreworked:block/bitt/12"
+			rotation: 0.0d
+			width: 1.1d
+			x: 10.5d
+			y: 5.5d
+		}
+		{
+			height: 1.1d
+			image: "xtonesreworked:block/bitt/12"
+			rotation: 0.0d
+			width: 1.1d
+			x: 11.5d
+			y: 5.5d
+		}
+		{
+			height: 1.1d
+			image: "xtonesreworked:block/bitt/12"
+			rotation: 0.0d
+			width: 1.1d
+			x: 11.5d
+			y: 6.5d
+		}
+		{
+			height: 1.1d
+			image: "xtonesreworked:block/bitt/12"
+			rotation: 0.0d
+			width: 1.1d
+			x: 10.5d
+			y: 6.5d
+		}
+		{
+			height: 1.1d
+			image: "xtonesreworked:block/bitt/12"
+			rotation: 0.0d
+			width: 1.1d
+			x: 9.5d
+			y: 6.5d
+		}
+		{
+			height: 1.1d
+			image: "xtonesreworked:block/bitt/12"
+			rotation: 0.0d
+			width: 1.1d
+			x: 8.5d
+			y: 6.5d
+		}
+		{
+			height: 1.1d
+			image: "xtonesreworked:block/bitt/12"
+			rotation: 0.0d
+			width: 1.1d
+			x: 7.5d
+			y: 6.5d
+		}
+		{
+			color: 16711935
+			height: 1.1d
+			image: "ftbquests:block/barrier_open"
+			order: 1
+			rotation: 0.0d
+			width: 1.1d
+			x: 7.5d
+			y: 10.5d
+		}
+		{
+			color: 16711935
+			height: 1.1d
+			image: "ftbquests:block/barrier_open"
+			order: 1
+			rotation: 0.0d
+			width: 1.1d
+			x: 8.5d
+			y: 10.5d
+		}
+		{
+			color: 16711935
+			height: 1.1d
+			image: "ftbquests:block/barrier_open"
+			order: 1
+			rotation: 0.0d
+			width: 1.1d
+			x: 9.5d
+			y: 10.5d
+		}
+		{
+			color: 16711935
+			height: 1.1d
+			image: "ftbquests:block/barrier_open"
+			order: 1
+			rotation: 0.0d
+			width: 1.1d
+			x: 10.5d
+			y: 10.5d
+		}
+		{
+			color: 16711935
+			height: 1.1d
+			image: "ftbquests:block/barrier_open"
+			order: 1
+			rotation: 0.0d
+			width: 1.1d
+			x: 11.5d
+			y: 10.5d
+		}
+		{
+			height: 1.1d
+			image: "xtonesreworked:block/bitt/12"
+			rotation: 0.0d
+			width: 1.1d
+			x: 7.5d
+			y: 10.5d
+		}
+		{
+			height: 1.1d
+			image: "xtonesreworked:block/bitt/12"
+			rotation: 0.0d
+			width: 1.1d
+			x: 8.5d
+			y: 10.5d
+		}
+		{
+			height: 1.1d
+			image: "xtonesreworked:block/bitt/12"
+			rotation: 0.0d
+			width: 1.1d
+			x: 9.5d
+			y: 10.5d
+		}
+		{
+			height: 1.1d
+			image: "xtonesreworked:block/bitt/12"
+			rotation: 0.0d
+			width: 1.1d
+			x: 10.5d
+			y: 10.5d
+		}
+		{
+			height: 1.1d
+			image: "xtonesreworked:block/bitt/12"
+			rotation: 0.0d
+			width: 1.1d
+			x: 11.5d
+			y: 10.5d
+		}
+		{
+			height: 1.0d
+			image: "gtocore:item/circuit/suprachronal_iv"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.5d
+			y: 9.5d
+		}
+		{
+			height: 1.0d
+			image: "gtocore:item/circuit/suprachronal_iv"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.5d
+			y: 7.5d
+		}
+		{
+			height: 1.0d
+			image: "gtocore:item/circuit/suprachronal_ev"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.5d
+			y: 7.5d
+		}
+		{
+			height: 1.0d
+			image: "gtocore:item/circuit/suprachronal_ev"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.5d
+			y: 9.5d
+		}
+		{
+			height: 1.0d
+			image: "gtocore:item/circuit/suprachronal_luv"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.7d
+			y: 11.5d
+		}
+		{
+			height: 1.0d
+			image: "gtocore:item/circuit/suprachronal_hv"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 10.5d
+		}
+		{
+			height: 1.0d
+			image: "gtocore:item/monitor/monitor_ae_cpu"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.5d
+			y: 12.5d
+		}
+		{
+			height: 1.0d
+			image: "gtocore:item/monitor/monitor_ae_throughput"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.5d
+			y: 12.5d
+		}
+		{
+			height: 1.0d
+			image: "gtocore:item/monitor/monitor_custom"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.5d
+			y: 12.5d
+		}
+		{
+			height: 1.0d
+			image: "gtocore:item/monitor/monitor_cwu"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.5d
+			y: 12.5d
+		}
+		{
+			height: 1.0d
+			image: "gtocore:item/monitor/monitor_electricity"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: 12.5d
+		}
+		{
+			height: 1.0d
+			image: "gtocore:item/monitor/monitor_machine"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.5d
+			y: 12.5d
+		}
+		{
+			height: 1.0d
+			image: "gtocore:item/monitor/monitor_mana"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5d
+			y: 12.5d
+		}
+		{
+			height: 1.1d
+			image: "xtonesreworked:block/bitt/12"
+			rotation: 0.0d
+			width: 1.1d
+			x: -7.0d
+			y: 23.5d
 		}
 		{
 			dependencies: [
@@ -357,8 +693,86 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["423FD1A25E4E2C85"]
-			icon: "ae2:wireless_receiver"
+			dependencies: ["298BEC345930429A"]
+			description: [
+				"非专家模式默认&c无频道数量限制&r，不需要接入&6ME控制器&r，只需要确保为当前网络提供足够的能量即可"
+				""
+				"可以使用&6ME控制器&r来替代&6能源接收器&r，但后期可能会因为加载过多频道造成额外的延迟，请斟酌使用控制器"
+			]
+			icon: "ae2:energy_acceptor"
+			id: "5FCFE3D6B36CC409"
+			rewards: [{
+				id: "30B07582F8B7CC7C"
+				item: "ae2:network_tool"
+				type: "item"
+			}]
+			subtitle: "没有频道的AE真好"
+			tasks: [
+				{
+					id: "603914C7BECB258E"
+					item: "ae2:energy_acceptor"
+					type: "item"
+				}
+				{
+					id: "40FAF143C8B23F76"
+					item: "ae2:controller"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "应用能源起步"
+			x: -11.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"0E9F8C57145D61AB"
+				"0A68C0CFACCB6C07"
+			]
+			description: [
+				"放入存储元件，AE网络几乎可以存储任何东西"
+				""
+				"避免将大量带有NBT的物品存入网络，虽然存储元件没有种类限制了，但依然会造成不可避免的性能延迟"
+			]
+			icon: "ae2:drive"
+			id: "041ABD90CDDE00AA"
+			subtitle: "你的网络存储~扩容区"
+			tasks: [{
+				id: "7D61B797BE889A30"
+				item: "ae2:drive"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 11.5d
+		}
+		{
+			dependencies: [
+				"23D906A09C3631CB"
+				"04581C43F7B0BBCE"
+			]
+			description: ["无线传输&c当前维度的&r网络"]
+			icon: "expatternprovider:wireless_tool"
+			id: "083934744ECD19FB"
+			subtitle: "Wifi到处飞"
+			tasks: [
+				{
+					id: "7DFB1FD2AE281C46"
+					item: "expatternprovider:wireless_connect"
+					type: "item"
+				}
+				{
+					id: "7A3F1F05B5CB4C0D"
+					item: "expatternprovider:wireless_tool"
+					type: "item"
+				}
+			]
+			title: "无线连接"
+			x: -19.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["23D906A09C3631CB"]
+			icon: "ae2:wireless_access_point"
 			id: "58E3D6A420B632B1"
 			subtitle: "终于可以随时随地访问了"
 			tasks: [
@@ -374,52 +788,17 @@
 				}
 			]
 			title: " 无线终端的访问入口"
-			x: -2.0d
-			y: -4.5d
+			x: -21.0d
+			y: 11.5d
 		}
 		{
-			dependencies: ["423FD1A25E4E2C85"]
-			description: [
-				"样板编码用于编写样板，样板管理用来管理各个样板供应器的内部情况。"
-				""
-				"在样板编码终端页面中呼出EMI时，可通过配方右下角的&b加号&r来直接填充样板。&e多方块&r同样也可以通过加号填充样板，并且可以编写不同形态。不要傻傻的手写样板哦"
-			]
-			icon: "ae2:blank_pattern"
-			id: "6834E0CEC40F4286"
-			subtitle: "终于可以放弃重复的手搓工作了"
-			tasks: [
-				{
-					id: "74305B2413D84F11"
-					item: "ae2:pattern_encoding_terminal"
-					type: "item"
-				}
-				{
-					id: "10F749999700D989"
-					item: "ae2:pattern_access_terminal"
-					type: "item"
-				}
-				{
-					id: "24E9DF11AE13BC5B"
-					item: "expatternprovider:ex_pattern_access_part"
-					type: "item"
-				}
-				{
-					id: "7808538C4E33EDDA"
-					item: "ae2:pattern_provider"
-					type: "item"
-				}
-			]
-			title: "自动化的开端"
-			x: 2.0d
-			y: -6.0d
-		}
-		{
-			dependencies: ["6834E0CEC40F4286"]
+			dependencies: ["4736D9B3A2EE6AD8"]
 			description: [
 				"可以用来搬运ME接口和ME样板供应器，同时保存内部配置和样板"
 				""
 				"&7对准并Shift右击&r"
 			]
+			hide_dependency_lines: true
 			id: "61EC63B70D435744"
 			tasks: [{
 				id: "0089C62B8CD7B357"
@@ -433,19 +812,19 @@
 				type: "item"
 			}]
 			title: "可以搬运的AE"
-			x: 2.0d
-			y: -4.5d
+			x: -13.0d
+			y: 1.5d
 		}
 		{
-			dependencies: ["5FCFE3D6B36CC409"]
+			dependencies: ["0E9F8C57145D61AB"]
 			description: [
 				"使用催化器加速母岩生成"
 				""
-				"&8在收集上，可以使用破坏面板和存储总线做个子网络&r"
+				"&8使用破坏面板和存储总线做个子网络实现自动采集&r"
 			]
 			icon: "ae2:flawless_budding_quartz"
 			id: "3ACFA6C39D38154C"
-			subtitle: "无限的塞特石英"
+			subtitle: "无限的赛特斯石英水晶"
 			tasks: [
 				{
 					id: "47FA7AF380A56CBB"
@@ -459,82 +838,28 @@
 					type: "item"
 				}
 			]
-			title: "原版的赛特石英获取"
-			x: -11.0d
-			y: -6.0d
+			title: "原版的赛特斯石英水晶获取方式"
+			x: -13.0d
+			y: 13.5d
 		}
 		{
-			dependencies: ["423FD1A25E4E2C85"]
+			dependencies: [
+				"0E9F8C57145D61AB"
+				"592D975F3146151E"
+			]
 			description: [""]
-			icon: "ae2:interface"
+			icon: "ae2:export_bus"
 			id: "727CCA6FB49E142D"
-			subtitle: "另类的管道"
-			tasks: [
-				{
-					id: "32506A623C1A3E6F"
-					item: "ae2:interface"
-					type: "item"
-				}
-				{
-					id: "1115B8137714E114"
-					item: "ae2:import_bus"
-					type: "item"
-				}
-				{
-					id: "519E2F787E70DC58"
-					item: "ae2:export_bus"
-					type: "item"
-				}
-				{
-					id: "20B852AC33AACD2A"
-					item: "ae2:storage_bus"
-					type: "item"
-				}
-			]
-			title: "AE网络的交互节点"
-			x: 0.0d
-			y: -6.0d
-		}
-		{
-			dependencies: ["76B7D521231F506C"]
-			description: [
-				"前者为&c导入卡&r，即从物品栏导入进AE网络存储中。&e需要进行配置，在终端左端&r"
-				"（更多应用在挖矿时，存储特定物品）"
-				""
-				"后者为&c导出卡&r，即从物品栏导出进AE网络存储中。&e需要进行配置，在终端左端&r"
-				"（更多应用在建造时，抽取特定物品）"
-			]
-			id: "46DBC11C1AEFA378"
-			rewards: [{
-				id: "04211637DD483E77"
-				item: {
-					Count: 1
-					id: "constructionwand:infinity_wand"
-					tag: {
-						wand_options: { }
-					}
-				}
+			subtitle: "AE网络的交互节点"
+			tasks: [{
+				id: "4F140DF629F92614"
+				item: "ae2:import_bus"
 				type: "item"
 			}]
-			subtitle: "建筑党的最爱"
-			tasks: [
-				{
-					id: "2A63F8AC61E0DE64"
-					item: "ae2insertexportcard:insert_card"
-					type: "item"
-				}
-				{
-					id: "021046813188D86C"
-					item: "ae2insertexportcard:export_card"
-					type: "item"
-				}
-			]
-			title: "自动存货   取货"
-			x: -4.0d
-			y: -3.0d
+			x: -9.0d
+			y: 13.5d
 		}
 		{
-			dependencies: ["5FCFE3D6B36CC409"]
 			description: ["在外探索看到一个巨坑，挖掉外层的陨石（不要丢），挖掉神秘方块即可获得"]
 			icon: "ae2:mysterious_cube"
 			id: "50158929D20CC96E"
@@ -563,16 +888,11 @@
 			]
 			title: "外星科技"
 			x: -11.0d
-			y: -7.5d
+			y: 5.5d
 		}
 		{
-			dependencies: ["423FD1A25E4E2C85"]
-			description: [
-				"&6可切换显示元件&r是&6显示元件&r的高级版本，可实现&e选择性显示&r网络的内容物，同时带有&e可切换启用&r功能"
-				""
-				"使用元件工作台进行标记，配合&6模糊卡&r、&6反相卡&r可以标记显示或屏蔽一类物品"
-				"&2e.g. 标记水+模糊卡+反相卡=屏蔽全部的流体&r"
-			]
+			dependencies: ["22C6DDA438A429F9"]
+			description: ["&6可切换显示元件&r是&6显示元件&r的高级版本，可实现&e选择性显示&r网络的内容物，同时带有&e可切换启用&r功能"]
 			icon: {
 				Count: 1
 				id: "ae2_toggleable_view_cell:toggleable_view_cell"
@@ -580,122 +900,45 @@
 			}
 			id: "0831B736EDA76FB7"
 			subtitle: "清爽的界面"
-			tasks: [
-				{
-					id: "464B9A986910402E"
-					item: {
-						Count: 1
-						id: "ae2_toggleable_view_cell:toggleable_view_cell"
-						tag: { }
-					}
-					type: "item"
+			tasks: [{
+				id: "464B9A986910402E"
+				item: {
+					Count: 1
+					id: "ae2_toggleable_view_cell:toggleable_view_cell"
+					tag: { }
 				}
-				{
-					id: "2AE2AD75FF1F8E4C"
-					item: "ae2:fuzzy_card"
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			title: "用来隐藏一些你不想看到的玩意"
-			x: -2.0d
-			y: -7.5d
+			x: 2.5d
+			y: 16.5d
 		}
 		{
-			dependencies: ["5FCFE3D6B36CC409"]
 			id: "79701B57BFDAE266"
-			subtitle: "真是个好工具"
+			subtitle: "好家伙！"
 			tasks: [{
 				id: "16185C4241976E8C"
 				item: "ae2netanalyser:network_analyser"
 				type: "item"
 			}]
 			title: "检查网络的工具"
-			x: -8.5d
-			y: -4.5d
+			x: -15.0d
+			y: 3.5d
 		}
 		{
-			dependencies: ["1403D3FC3E9A50E4"]
-			description: ["配合样板供应器进行自动化合成"]
+			dependencies: ["592D975F3146151E"]
+			description: ["配合&6样板供应器&r进行自动化合成，虽然在&8LV&r阶段你就可以制造它，但在普通/专家难度你需要达到&6HV&r阶段才可以建立自动合成系统"]
 			icon: "ae2:molecular_assembler"
 			id: "018F46EE6AE97EFD"
 			subtitle: "记得插加速卡"
-			tasks: [
-				{
-					id: "349538FDCDF76AE2"
-					item: "ae2:molecular_assembler"
-					type: "item"
-				}
-				{
-					id: "30864B93C301C2FF"
-					item: "expatternprovider:ex_molecular_assembler"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "349538FDCDF76AE2"
+				item: "ae2:molecular_assembler"
+				type: "item"
+			}]
 			title: "原版合成配方的工作方块"
-			x: 5.5d
-			y: -6.0d
-		}
-		{
-			dependencies: ["727CCA6FB49E142D"]
-			description: [
-				"多用于矿物处理产线设计、热锭的自动输出"
-				""
-				"&8配合库存输入总线搭建子网有奇效&r"
-			]
-			icon: "expatternprovider:tag_storage_bus"
-			id: "6E93DB24A4E226C9"
-			subtitle: "多用正则表达"
-			tasks: [
-				{
-					id: "0B42C47C19D0ADFB"
-					item: "expatternprovider:tag_storage_bus"
-					type: "item"
-				}
-				{
-					id: "225E6FBE679DCE6B"
-					item: "expatternprovider:tag_export_bus"
-					type: "item"
-				}
-			]
-			title: "AE_矿处自动化?!"
-			x: 0.0d
-			y: -7.5d
-		}
-		{
-			dependencies: ["6834E0CEC40F4286"]
-			description: ["现在合成存储器与并行单元的底层代码已经被大幅度修改，性能&4极为强悍&r，放心使用即可"]
-			icon: "ae2:256k_crafting_storage"
-			id: "1403D3FC3E9A50E4"
-			subtitle: "天顶星科技"
-			tasks: [
-				{
-					id: "541AFFB66346CA2D"
-					item: {
-						Count: 1
-						id: "itemfilters:id_regex"
-						tag: {
-							value: "crafting_storage"
-						}
-					}
-					title: "合成存储器"
-					type: "item"
-				}
-				{
-					id: "683FDF4A33E22E1C"
-					item: {
-						Count: 1
-						id: "itemfilters:id_regex"
-						tag: {
-							value: "crafting_accelerator"
-						}
-					}
-					title: "并行处理单元"
-					type: "item"
-				}
-			]
-			title: "它能帮助我计算吗"
-			x: 4.0d
-			y: -6.0d
+			x: -7.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["018F46EE6AE97EFD"]
@@ -714,7 +957,7 @@
 				"&6装配矩阵合成核心&r ：&c至少安装1个&r，用于让装配矩阵进行合成，每个可以同时执行8个合成任务"
 				"&6装配矩阵速度核心&r ： &c最多生效5个&r，用于为装配矩阵加速"
 			]
-			icon: "expatternprovider:ex_molecular_assembler"
+			icon: "expatternprovider:assembler_matrix_pattern"
 			id: "2AA0714363BA85CB"
 			subtitle: "分子装配室是你吗？"
 			tasks: [
@@ -745,13 +988,13 @@
 				}
 			]
 			title: "装配矩阵"
-			x: 7.0d
-			y: -6.0d
+			x: -3.0d
+			y: 1.5d
 		}
 		{
-			dependencies: ["727CCA6FB49E142D"]
-			description: ["开启自动拉取会直接拉取网络前16的物品，流体，建议做个子网络进行自动拉取"]
-			icon: "gtmthings:me_export_buffer"
+			dependencies: ["65F8F5D59B949D3B"]
+			description: ["不存在总成版本"]
+			icon: "gtceu:me_input_bus"
 			id: "2DAEB70539AACE1A"
 			subtitle: "好用，爱用，多用"
 			tasks: [
@@ -761,29 +1004,19 @@
 					type: "item"
 				}
 				{
-					id: "3438855ED1D7BEF7"
-					item: "gtceu:me_stocking_input_bus"
-					type: "item"
-				}
-				{
 					id: "14F0BB400568BAD4"
 					item: "gtceu:me_input_hatch"
 					type: "item"
 				}
-				{
-					id: "2357B0B1B796B5B0"
-					item: "gtceu:me_stocking_input_hatch"
-					type: "item"
-				}
 			]
-			title: "可以兼容GT多方块的AE网络交互方块"
-			x: 0.0d
-			y: -4.5d
+			title: "ME输入总线/仓"
+			x: -7.0d
+			y: 9.5d
 		}
 		{
 			dependencies: [
-				"2DAEB70539AACE1A"
 				"10F52803BCD77DA0"
+				"1EED90EE9774CD7A"
 			]
 			description: [
 				"支持&l&e样板之间的完全隔离&r&r，妈妈再也不用担心我化反串配方了！"
@@ -792,27 +1025,22 @@
 				"- 优化的发配机制，按发配数量自动翻倍内部样板，实现一次性全部发完，大幅降低发配的性能消耗"
 				"- 优化的配方处理机制，使用原生类型，没有二次转换"
 				"- 缓存样板对应的配方，下次查找时直接调用这个配方，而不是重新搜索"
+				""
+				"另外，样板总成被破坏后能够保留其内部所有样板，无需使用&e封装胶带&r了！"
 			]
 			icon: "gtceu:me_pattern_buffer"
 			id: "0BC456B4331C09F5"
-			tasks: [
-				{
-					id: "68D37A606413E9A9"
-					item: "gtceu:me_pattern_buffer"
-					type: "item"
-				}
-				{
-					id: "6F7B3E6046E2F22A"
-					item: "gtceu:me_pattern_buffer_proxy"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "68D37A606413E9A9"
+				item: "gtceu:me_pattern_buffer"
+				type: "item"
+			}]
 			title: "更好的下单"
-			x: -2.0d
-			y: -3.0d
+			x: -3.0d
+			y: 5.5d
 		}
 		{
-			dependencies: ["6834E0CEC40F4286"]
+			dependencies: ["76512605B551599A"]
 			description: [
 				"和纠缠方块类似，相当于隔空操作方块进行物流"
 				""
@@ -829,24 +1057,26 @@
 				{
 					id: "22717689B487D4E8"
 					item: "gtocore:coordinate_card"
+					optional_task: true
 					type: "item"
 				}
 			]
-			title: "纠缠效应的具体应用"
-			x: 4.0d
-			y: -7.5d
+			title: "超立方效应的应用"
+			x: -19.0d
+			y: 19.5d
 		}
 		{
-			dependencies: ["6834E0CEC40F4286"]
+			dependencies: ["7C9277B717E90328"]
 			description: [
 				"&6机器覆盖版&r和&6发信器&r互相配合，利用&e红石信号&r做到AE网络&b特定&r物品或流体的&e库存维持"
 				"&r"
-				"比如和大化反搭配自动合成硫酸等常用的化学材料，这样下单合成会很快"
+				"比如和&e大化反&r搭配就可以自动合成&e硫酸&r等常用的化工材料，这样下单合成就不必因产能问题成为合成瓶颈"
 				""
-				"请求器也可以做到这点，但其属于自动下单，会占用到&eCPU&r进行合成"
+				"&6ME请求器&r也可以做到这点，但其属于自动下单，会占用到&eCPU&r进行合成"
 			]
-			icon: "merequester:requester"
+			icon: "gtceu:large_chemical_reactor"
 			id: "44487970FC3FBAED"
+			shape: "pentagon"
 			subtitle: "不要总使用样板下单，你的时间很宝贵"
 			tasks: [
 				{
@@ -862,28 +1092,19 @@
 				{
 					id: "41201CC0ACEFC410"
 					item: "expatternprovider:threshold_level_emitter"
-					type: "item"
-				}
-				{
-					id: "07FFD26C4EC13D53"
-					item: "merequester:requester"
+					optional_task: true
 					type: "item"
 				}
 			]
 			title: "如何使用AE网络进行简单的缓存"
-			x: 4.0d
-			y: -4.5d
+			x: -13.0d
+			y: 19.5d
 		}
 		{
-			dependencies: ["727CCA6FB49E142D"]
+			dependencies: ["65F8F5D59B949D3B"]
 			description: ["该类仓可以让机器使用异步输出，让配方输出完全不占用TPS"]
 			id: "69DF9DE9F7176FD0"
 			tasks: [
-				{
-					id: "2DE20DCE4FC68E02"
-					item: "gtmthings:me_export_buffer"
-					type: "item"
-				}
 				{
 					id: "2ED5A1C5DD976D37"
 					item: "gtceu:me_output_hatch"
@@ -895,29 +1116,35 @@
 					type: "item"
 				}
 			]
-			title: "节省TPS"
-			x: 0.0d
-			y: -3.0d
+			title: "ME输出总线/仓"
+			x: -7.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["3490AACD4AA62C5D"]
 			description: [
-				"比装配矩阵更快，性能更好"
-				"技术细节："
 				"自动按发配数量翻倍样板，因此无需并行单元"
 				"直接消耗输入，提取输出到机器，没有模拟合成工序"
 			]
 			id: "05833AD0EAA634A7"
-			tasks: [{
-				id: "3D6458617F862FBE"
-				item: "gtocore:super_molecular_assembler"
-				type: "item"
-			}]
-			x: 5.5d
-			y: -7.5d
+			subtitle: "比装配矩阵更快，性能更好"
+			tasks: [
+				{
+					id: "3D6458617F862FBE"
+					item: "gtocore:super_molecular_assembler"
+					type: "item"
+				}
+				{
+					id: "6CB8C9ED76725970"
+					item: "gtocore:me_craft_pattern_part_machine"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 1.5d
 		}
 		{
-			dependencies: ["77D4250DECB277BD"]
+			dependencies: ["49A3CCDF6CABEEA1"]
 			description: [
 				"字节计算同存储元件"
 				""
@@ -928,6 +1155,7 @@
 				""
 				"&7&m记得供电&r"
 			]
+			icon: "gtocore:me_storage"
 			id: "430034AB98D8453B"
 			subtitle: "格雷科技™信息园数据中心"
 			tasks: [
@@ -942,86 +1170,2169 @@
 					type: "item"
 				}
 			]
-			x: -4.0d
-			y: -9.0d
+			x: -5.0d
+			y: 11.5d
 		}
 		{
-			dependencies: ["05833AD0EAA634A7"]
-			id: "1EF81F024D8F5DAD"
+			description: [""]
+			id: "0BDCD6AAFF56A0EB"
 			tasks: [{
-				id: "4FC928474A55E5E7"
-				item: "gtocore:me_craft_pattern_part_machine"
+				id: "60BEC1AB769C2A40"
+				item: "gtocore:coordinate_card"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -7.5d
+			x: 1.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["0BC456B4331C09F5"]
+			id: "6F43BA73FE817566"
+			tasks: [{
+				id: "00521BD2414BD997"
+				item: "gtocore:me_catalyst_pattern_buffer"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["0BC456B4331C09F5"]
+			id: "62402E1DBC9CF1B4"
+			tasks: [{
+				id: "4CE2A5638E10CE7C"
+				item: "gtocore:me_extend_pattern_buffer"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["62402E1DBC9CF1B4"]
+			id: "669DBEFFDD7B3496"
+			tasks: [{
+				id: "2F54086EC6BEF54D"
+				item: "gtocore:me_extend_pattern_buffer_ultra"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["43974ABFAE99587B"]
+			description: [
+				"只在简单模式可用！"
+				""
+				"放入样板并连接AE网络以自动发配合成原料，继承了普通样板总成的所有优化特性"
+			]
+			id: "47506298B1BD1780"
+			subtitle: "超前期的样板总成"
+			tasks: [{
+				id: "0E7F69BEAF6D4D5D"
+				item: "gtocore:me_simple_pattern_buffer"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			description: [
+				"&6赛特斯石英水晶&r有多种来源，最简便的方法就是直接熔炼&6赛特斯石英矿&r，不过这会损失一些副产物"
+				""
+				"你也可以选择其他方法："
+				""
+				"· 筛选纯净赛特斯石英矿"
+			]
+			id: "0A68C0CFACCB6C07"
+			size: 1.0d
+			tasks: [{
+				id: "09D12910D6C8D847"
+				item: "ae2:certus_quartz_crystal"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 9.5d
+		}
+		{
+			dependencies: [
+				"2695890B68ED84DE"
+				"50158929D20CC96E"
+				"5FCFE3D6B36CC409"
+			]
+			id: "034D579A41F2ED3D"
+			tasks: [
+				{
+					id: "24CFB5461290BB0A"
+					item: "ae2:logic_processor"
+					type: "item"
+				}
+				{
+					id: "4F7A1EEA63E48A2C"
+					item: "ae2:calculation_processor"
+					type: "item"
+				}
+				{
+					id: "2773D5901D4C7DC6"
+					item: "ae2:engineering_processor"
+					type: "item"
+				}
+			]
+			x: -9.0d
+			y: 5.5d
+		}
+		{
+			id: "2695890B68ED84DE"
+			tasks: [{
+				id: "14B879502532287D"
+				item: "ae2:inscriber"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2695890B68ED84DE"]
+			id: "2E0386F51BF9CCEE"
+			tasks: [{
+				id: "01FD55F163CD8CB9"
+				item: "expatternprovider:ex_inscriber"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["5FCFE3D6B36CC409"]
-			description: [
-				"使用列出的方块互相拼接，可以拼出一个或多个自定义的监控墙，供实时观察基地内情况。"
-				""
-				"&o&7监控室大爷"
+			description: ["火力发电机，只不过发出的是AE能量，你基本用不到它——毕竟你都有能源接收器了！"]
+			id: "5A61876797165680"
+			tasks: [{
+				id: "147F2944745A8545"
+				item: "ae2:vibration_chamber"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"62583BF8F3AAE290"
+				"21C0E1FEC1347A3A"
 			]
-			id: "0BDCD6AAFF56A0EB"
-			subtitle: "搭建一面监控器墙!"
+			id: "0E9F8C57145D61AB"
+			tasks: [{
+				id: "7070C90E24C87F4A"
+				item: "ae2:fluix_glass_cable"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["0A71F8193A3A39AE"]
+			id: "62583BF8F3AAE290"
+			tasks: [{
+				id: "38CA37F28FCBC3FC"
+				item: "ae2:quartz_fiber"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["2E9889C32059C956"]
+			description: [
+				"你会需要很多福鲁伊克斯水晶来搭建你的AE网络，和赛特斯水晶（粉）类似，同样有多种来源："
+				""
+				"·&6世界交互&r，将&e下界石英&r、&e红石粉&r、&e充能赛特斯石英水晶&r丢进水中。纯种的AE人喜欢用纯AE实现自动化！"
+				"·&6电弧发生器&r，&e一步产出，强力推荐"
+				"&r·&6村民交易&r，由于有&e简易村民&r模组的存在，你也可以用&e自动村民交易&r的方式获取，但单方块产能存在限制，只适合少量获取"
+				"· &6聚爆&r，搅一搅，爆一爆！谁让你无意中处理出了太多无用的&e炸药&r和&e粉末&r呢！"
+			]
+			id: "21C0E1FEC1347A3A"
+			tasks: [{
+				id: "7ED42C8BA56F2A6C"
+				item: "ae2:fluix_crystal"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["0A68C0CFACCB6C07"]
+			description: [
+				"&6赛特斯石英粉&r同样有很多来源，你可以选择不处理石英矿，直接将&e粗赛特斯石英&r投入&e熔炉&r并&e磨粉&r是不错的选择"
+				""
+				"当然，如果你搭建了一套矿物处理产线，就可以从远古世界挖掘到的&e赛特斯石英矿&r/&e石英岩矿&r处理出大量&6赛特斯石英粉&r"
+			]
+			id: "0A71F8193A3A39AE"
+			tasks: [{
+				id: "20D76B839CEA5221"
+				item: "ae2:certus_quartz_dust"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["0A68C0CFACCB6C07"]
+			id: "2E9889C32059C956"
+			tasks: [{
+				id: "1320ADE7F3BBF4F7"
+				item: "ae2:charged_certus_quartz_crystal"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["69DF9DE9F7176FD0"]
+			id: "498909CBDFB62BF6"
+			tasks: [{
+				id: "37F194EF5817C03F"
+				item: "gtmthings:me_export_buffer"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["2DAEB70539AACE1A"]
+			description: [
+				"开启自动拉取会直接拉取网络前16的物品，流体，建议做个子网络进行自动拉取"
+				""
+				"不存在总成版本"
+			]
+			id: "3630926A272B730B"
 			tasks: [
 				{
-					id: "48D12B3BF4B7510D"
-					item: "gtocore:basic_monitor"
+					id: "789FD6FDC1DC2E74"
+					item: "gtceu:me_stocking_input_bus"
 					type: "item"
 				}
 				{
-					id: "0601A377CC6B0D29"
-					item: "gtocore:monitor_electricity"
+					id: "0F002CB2AF7DF8E2"
+					item: "gtceu:me_stocking_input_hatch"
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: 9.5d
+		}
+		{
+			dependencies: [
+				"0A71F8193A3A39AE"
+				"034D579A41F2ED3D"
+			]
+			dependency_requirement: "one_completed"
+			id: "592D975F3146151E"
+			tasks: [
+				{
+					id: "2EB31741E39CA278"
+					item: "ae2:annihilation_core"
+					type: "item"
+				}
+				{
+					id: "4E05A38263941309"
+					item: "ae2:formation_core"
+					type: "item"
+				}
+			]
+			x: -9.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["592D975F3146151E"]
+			id: "00382B6C74390B0A"
+			tasks: [{
+				id: "5E34F637EE33F80D"
+				item: "ae2:interface"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["00382B6C74390B0A"]
+			hide_dependency_lines: true
+			id: "00A99DAC629CF95C"
+			tasks: [{
+				id: "1E8368F557D08871"
+				item: "ae2:storage_bus"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 17.5d
+		}
+		{
+			dependencies: [
+				"7C9277B717E90328"
+				"0B36C7D7D1594CB7"
+			]
+			id: "01F3B3DC84ADFFBB"
+			tasks: [{
+				id: "557899A4E9CAD3D9"
+				item: "ae2:storage_monitor"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 21.5d
+		}
+		{
+			dependencies: ["21C0E1FEC1347A3A"]
+			id: "61687F9B43530E36"
+			tasks: [{
+				id: "5597FF94925A49FC"
+				item: "ae2:me_p2p_tunnel"
+				type: "item"
+			}]
+			x: -15.0d
+			y: 15.5d
+		}
+		{
+			dependencies: [
+				"52EF99E046424982"
+				"00382B6C74390B0A"
+				"0E9F8C57145D61AB"
+			]
+			hide_dependency_lines: true
+			id: "11A36F8DB547DF3D"
+			tasks: [{
+				id: "1240FD9A418C00AC"
+				item: "merequester:requester"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 11.5d
+		}
+		{
+			dependencies: [
+				"041ABD90CDDE00AA"
+				"0E9F8C57145D61AB"
+			]
+			id: "514BAD02F6BB76B8"
+			tasks: [{
+				id: "0F6CA931F28F1791"
+				item: "ae2:io_port"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["00A99DAC629CF95C"]
+			id: "47B4D0D2C95A44BD"
+			tasks: [{
+				id: "7818E9CA3F32D482"
+				item: "expatternprovider:precise_storage_bus"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 17.5d
+		}
+		{
+			dependencies: ["592D975F3146151E"]
+			id: "43974ABFAE99587B"
+			tasks: [{
+				id: "7A86F105A3662E4F"
+				item: "ae2:pattern_provider"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["43974ABFAE99587B"]
+			id: "1EED90EE9774CD7A"
+			tasks: [{
+				id: "55324AC157485C20"
+				item: "expatternprovider:ex_pattern_provider"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["00382B6C74390B0A"]
+			icon: "expatternprovider:ex_interface"
+			id: "1A1472F2FA7B7FF7"
+			tasks: [
+				{
+					id: "5143F66DCBD2DA06"
+					item: "expatternprovider:ex_interface"
+					type: "item"
+				}
+				{
+					id: "1510F8CE7E48EC34"
+					item: "expatternprovider:oversize_interface"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -13.0d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"514BAD02F6BB76B8"
+				"65F8F5D59B949D3B"
+			]
+			id: "11536C3252358B1F"
+			tasks: [{
+				id: "02206CA459C45C67"
+				item: "expatternprovider:ex_io_port"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["041ABD90CDDE00AA"]
+			id: "49A3CCDF6CABEEA1"
+			tasks: [{
+				id: "4E6962CFB36F5CAB"
+				item: "expatternprovider:ex_drive"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["727CCA6FB49E142D"]
+			id: "5918C118A4F7E9B3"
+			tasks: [{
+				id: "6C48607CD50E0293"
+				item: "expatternprovider:ex_import_bus_part"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 13.5d
+		}
+		{
+			id: "1A927F14106DFC5C"
+			tasks: [{
+				id: "6F8216E8D57C120E"
+				item: "ae2:advanced_card"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 15.5d
+		}
+		{
+			id: "7453A6A5B06DD966"
+			tasks: [{
+				id: "197D21CF41AE56FF"
+				item: "ae2:basic_card"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["7453A6A5B06DD966"]
+			id: "3EA520D561E9A5C8"
+			tasks: [{
+				id: "5E4C2837C331D4C5"
+				item: "ae2:redstone_card"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["7453A6A5B06DD966"]
+			id: "33E57E82B6A751A6"
+			tasks: [{
+				id: "617A9090B6B1E48D"
+				item: "ae2:capacity_card"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["7453A6A5B06DD966"]
+			id: "49FCAFE328F4CFB1"
+			tasks: [{
+				id: "5088BDFD6F811BA1"
+				item: "ae2:void_card"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["1A927F14106DFC5C"]
+			description: [
+				"顾名思义，插入该升级后，将模糊匹配选定物品，比如:"
+				""
+				"- 标记原木则会匹配所有原木"
+				"- 忽略选定物品的NBT值"
+			]
+			id: "784D0AAD623DC7AF"
+			tasks: [{
+				id: "5136EBED94AA64E8"
+				item: "ae2:fuzzy_card"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["1A927F14106DFC5C"]
+			description: ["顾名思义，加速机器运作，但需要耗费更多能量"]
+			hide_dependent_lines: true
+			id: "65F8F5D59B949D3B"
+			tasks: [{
+				id: "4BABD835BEC9FE69"
+				item: "ae2:speed_card"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["1A927F14106DFC5C"]
+			description: ["顾名思义，这个升级卡用于将所选定物品加以反向选择，以实现黑名单过滤"]
+			id: "159A7D6B46917C32"
+			tasks: [{
+				id: "56BC89D321439C4D"
+				item: "ae2:inverter_card"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["7453A6A5B06DD966"]
+			id: "09FAAB3272FE8B1E"
+			tasks: [{
+				id: "79BD1FED0270F226"
+				item: "ae2:crafting_card"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["1A927F14106DFC5C"]
+			description: ["它能够提升工具存储能源的上限，用在无线连接器上能够减少10%的基础能量消耗"]
+			id: "0EA5BC60AAA6C63D"
+			tasks: [{
+				id: "51316F180BE11234"
+				item: "ae2:energy_card"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["1A927F14106DFC5C"]
+			description: [
+				"自动将&e选定物品&r从玩家物品栏&e导入&rAE网络"
+				""
+				"需要在&e终端左侧&r配置白名单进行选定"
+				""
+				"&6典型应用场景：&r将挖矿得到的矿石自动通过无线终端存储到AE网络"
+			]
+			id: "4A30B42072223191"
+			tasks: [{
+				id: "6150DD6631FB6923"
+				item: "ae2insertexportcard:insert_card"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["1A927F14106DFC5C"]
+			description: [
+				"从AE网络抽取&6选定物品&r并&e自动补充&r玩家物品栏"
+				""
+				"需要在&e终端左侧&r配置白名单进行选定"
+				""
+				"&6典型应用场景：&r在建造基地、多方块机器时，自动补充选定物品"
+			]
+			id: "1383C0B018C35627"
+			tasks: [{
+				id: "7FB86C53ACF93BC3"
+				item: "ae2insertexportcard:export_card"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 15.5d
+		}
+		{
+			description: ["大化反的好朋友"]
+			id: "7C9277B717E90328"
+			tasks: [{
+				id: "3F38FDBF29B99345"
+				item: "ae2:level_emitter"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 19.5d
+		}
+		{
+			dependencies: ["7C9277B717E90328"]
+			id: "13B73C3F66966059"
+			tasks: [{
+				id: "1C3C5317049A35B6"
+				item: "ae2:energy_level_emitter"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 21.5d
+		}
+		{
+			dependencies: ["7C9277B717E90328"]
+			id: "5B80B51CCA88CE63"
+			tasks: [{
+				id: "354174FBD2679A09"
+				item: "expatternprovider:threshold_level_emitter"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 23.5d
+		}
+		{
+			dependencies: ["04581C43F7B0BBCE"]
+			id: "074E89CB4A303F0E"
+			tasks: [{
+				id: "06AB5DC2C12C0960"
+				item: "ae2:fluix_smart_dense_cable"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 17.5d
+		}
+		{
+			dependencies: ["364CBD1EB949F7ED"]
+			id: "04581C43F7B0BBCE"
+			tasks: [{
+				id: "5E6B5B051545303E"
+				item: "ae2:fluix_smart_cable"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 17.5d
+		}
+		{
+			dependencies: ["0E9F8C57145D61AB"]
+			id: "364CBD1EB949F7ED"
+			tasks: [{
+				id: "1834CD684EF5CB37"
+				item: "ae2:fluix_covered_cable"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["364CBD1EB949F7ED"]
+			id: "51A4F222C12727D7"
+			tasks: [{
+				id: "62C94ED14618745C"
+				item: "ae2:fluix_covered_dense_cable"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["21C0E1FEC1347A3A"]
+			id: "4736D9B3A2EE6AD8"
+			tasks: [{
+				id: "03F1F278BDD30DCB"
+				item: "ae2:fluix_dust"
+				type: "item"
+			}]
+			x: -15.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["4736D9B3A2EE6AD8"]
+			id: "1E478682EAC0C56B"
+			tasks: [{
+				id: "7F66308E973D4474"
+				item: {
+					Count: 1
+					id: "ae2:energy_cell"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -15.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["1E478682EAC0C56B"]
+			id: "65E52B0DB278156A"
+			tasks: [{
+				id: "529123C2C74C880A"
+				item: {
+					Count: 1
+					id: "ae2:dense_energy_cell"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -15.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["65E52B0DB278156A"]
+			id: "5BABCF325BE2B859"
+			tasks: [{
+				id: "1617A1AF3A4FAD21"
+				item: "ae2:creative_energy_cell"
+				type: "item"
+			}]
+			x: -15.0d
+			y: 5.5d
+		}
+		{
+			id: "4B0052A81F69BABA"
+			tasks: [{
+				id: "6B699A2D7A2A5D88"
+				item: "ae2:cell_component_1k"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["4B0052A81F69BABA"]
+			id: "07721CD49262FE1F"
+			tasks: [{
+				id: "66867056D356AF0A"
+				item: "ae2:cell_component_4k"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["07721CD49262FE1F"]
+			id: "0A5B77EA578D3730"
+			tasks: [{
+				id: "4820EB817E77FB2D"
+				item: "ae2:cell_component_16k"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0A5B77EA578D3730"]
+			id: "3978B28D3E586F96"
+			tasks: [{
+				id: "53770D13128DCB9E"
+				item: "ae2:cell_component_64k"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["3978B28D3E586F96"]
+			id: "65711B674C0EB0DB"
+			tasks: [{
+				id: "62D32465EE2032DD"
+				item: "ae2:cell_component_256k"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["65711B674C0EB0DB"]
+			id: "564D78E7C803AE1F"
+			tasks: [{
+				id: "1DE2AC6DF3BDC996"
+				item: "gtocore:cell_component_1m"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["564D78E7C803AE1F"]
+			id: "651DF7880F07B226"
+			tasks: [{
+				id: "55C93A72BE7F8D3F"
+				item: "gtocore:cell_component_4m"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["651DF7880F07B226"]
+			id: "200914B2A7A4827C"
+			tasks: [{
+				id: "60EE345D1A02ED14"
+				item: "gtocore:cell_component_16m"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["200914B2A7A4827C"]
+			id: "16D2444FF91836DC"
+			tasks: [{
+				id: "25C5F75396667847"
+				item: "gtocore:cell_component_64m"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["16D2444FF91836DC"]
+			id: "0220E618355E4509"
+			tasks: [{
+				id: "7BD730C76514EE41"
+				item: "gtocore:cell_component_256m"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["041ABD90CDDE00AA"]
+			hide_dependency_lines: true
+			id: "09AC98B47AF82011"
+			tasks: [{
+				id: "0788830527AEC029"
+				item: "ae2:item_cell_housing"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["041ABD90CDDE00AA"]
+			hide_dependency_lines: true
+			id: "791D9065B1BE3B36"
+			tasks: [{
+				id: "4B4728A85FBD1A48"
+				item: "arseng:source_cell_housing"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["041ABD90CDDE00AA"]
+			hide_dependency_lines: true
+			id: "0640BDBE40FBC8B6"
+			tasks: [{
+				id: "150E4C47AEAA231E"
+				item: "ae2:fluid_cell_housing"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["041ABD90CDDE00AA"]
+			hide_dependency_lines: true
+			id: "73EA6D7DC100BFF0"
+			tasks: [{
+				id: "0605FBFEF70B670B"
+				item: "appbot:mana_cell_housing"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["4B0052A81F69BABA"]
+			id: "157DFCA6F5D24FF3"
+			tasks: [{
+				id: "1B18035CD7F2A92C"
+				item: {
+					Count: 1
+					id: "ae2:item_storage_cell_1k"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["07721CD49262FE1F"]
+			id: "1F46F2A75F67C932"
+			tasks: [{
+				id: "309D156DC9AD6B3E"
+				item: {
+					Count: 1
+					id: "ae2:item_storage_cell_4k"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["0A5B77EA578D3730"]
+			id: "1B5B192B8D9818E8"
+			tasks: [{
+				id: "4DD63281F23A6E5C"
+				item: {
+					Count: 1
+					id: "ae2:item_storage_cell_16k"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["3978B28D3E586F96"]
+			id: "67F78DFA9F5730DB"
+			tasks: [{
+				id: "5A57AE618603F4B6"
+				item: {
+					Count: 1
+					id: "ae2:item_storage_cell_64k"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["65711B674C0EB0DB"]
+			id: "03EDE9CD05F56211"
+			tasks: [{
+				id: "76F1979E42418F5D"
+				item: {
+					Count: 1
+					id: "ae2:item_storage_cell_256k"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["4B0052A81F69BABA"]
+			id: "08A8B548BA4DEEE3"
+			tasks: [{
+				id: "4FBBBA47C7FF0A9B"
+				item: {
+					Count: 1
+					id: "ae2:fluid_storage_cell_1k"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["07721CD49262FE1F"]
+			id: "7FDDA6BB811C793B"
+			tasks: [{
+				id: "144B3DBB50C87C93"
+				item: {
+					Count: 1
+					id: "ae2:fluid_storage_cell_4k"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["0A5B77EA578D3730"]
+			id: "63F8D1BE9ADAFB02"
+			tasks: [{
+				id: "011C969402D5CE6D"
+				item: {
+					Count: 1
+					id: "ae2:fluid_storage_cell_16k"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["3978B28D3E586F96"]
+			id: "4968D61B983F4B17"
+			tasks: [{
+				id: "6A4C99464C23F457"
+				item: {
+					Count: 1
+					id: "ae2:fluid_storage_cell_64k"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["65711B674C0EB0DB"]
+			id: "0836FA16DE147CE5"
+			tasks: [{
+				id: "3F93CDCE74357805"
+				item: {
+					Count: 1
+					id: "ae2:fluid_storage_cell_256k"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["4B0052A81F69BABA"]
+			id: "28E91694F704070B"
+			tasks: [{
+				id: "4F52008BFD200046"
+				item: {
+					Count: 1
+					id: "arseng:source_storage_cell_1k"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["07721CD49262FE1F"]
+			id: "68DE41F50ACF417E"
+			tasks: [{
+				id: "5DAED532F44713E7"
+				item: {
+					Count: 1
+					id: "arseng:source_storage_cell_4k"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["0A5B77EA578D3730"]
+			id: "721DC487CE18CBB5"
+			tasks: [{
+				id: "7EF5DBD695D82111"
+				item: {
+					Count: 1
+					id: "arseng:source_storage_cell_16k"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["3978B28D3E586F96"]
+			id: "6049C2B24EC7A23A"
+			tasks: [{
+				id: "559A5AD50B7F6DA6"
+				item: {
+					Count: 1
+					id: "arseng:source_storage_cell_64k"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["65711B674C0EB0DB"]
+			id: "4B04101E9D463D81"
+			tasks: [{
+				id: "66C61C01C73F452B"
+				item: {
+					Count: 1
+					id: "arseng:source_storage_cell_256k"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["4B0052A81F69BABA"]
+			id: "19C08AB75DD0931F"
+			tasks: [{
+				id: "4A3E373DFBC14F72"
+				item: {
+					Count: 1
+					id: "appbot:mana_storage_cell_1k"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["07721CD49262FE1F"]
+			id: "19D01FF54E651E04"
+			tasks: [{
+				id: "1A74EDC47AD33210"
+				item: {
+					Count: 1
+					id: "appbot:mana_storage_cell_4k"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["0A5B77EA578D3730"]
+			id: "36E9B26D29E1DEC6"
+			tasks: [{
+				id: "55A920ABAEB62668"
+				item: {
+					Count: 1
+					id: "appbot:mana_storage_cell_16k"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["3978B28D3E586F96"]
+			id: "41FD85BEF6F28353"
+			tasks: [{
+				id: "47E18B92294F1739"
+				item: {
+					Count: 1
+					id: "appbot:mana_storage_cell_64k"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["65711B674C0EB0DB"]
+			id: "405E966F51F23805"
+			tasks: [{
+				id: "03DA73CFBB5D694B"
+				item: {
+					Count: 1
+					id: "appbot:mana_storage_cell_256k"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["564D78E7C803AE1F"]
+			id: "7148A7EC3767A9CD"
+			tasks: [{
+				id: "05999EFA9BA7887B"
+				item: "gtocore:t1_me_storage_core"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["651DF7880F07B226"]
+			id: "292BB9690E057753"
+			tasks: [{
+				id: "764809AD4F405FB4"
+				item: "gtocore:t2_me_storage_core"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["200914B2A7A4827C"]
+			id: "1E6F7D8989AD90E0"
+			tasks: [{
+				id: "4AE73668D144D3F7"
+				item: "gtocore:t3_me_storage_core"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["16D2444FF91836DC"]
+			id: "2765E83CF9D6173A"
+			tasks: [{
+				id: "110A001FFF832B7F"
+				item: "gtocore:t4_me_storage_core"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["0220E618355E4509"]
+			id: "1658CD7C2EBE0694"
+			tasks: [{
+				id: "1CE68B40966E916F"
+				item: "gtocore:t5_me_storage_core"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["4B0052A81F69BABA"]
+			id: "03050EA93FFF7426"
+			tasks: [{
+				id: "0B224BB0BC42975A"
+				item: "ae2:1k_crafting_storage"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["0A5B77EA578D3730"]
+			id: "587EC9387619036A"
+			tasks: [{
+				id: "7D2AE61D5BCA9376"
+				item: "ae2:16k_crafting_storage"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["07721CD49262FE1F"]
+			id: "0DEA2168613C38F2"
+			tasks: [{
+				id: "30B0691DAB3AADC2"
+				item: "ae2:4k_crafting_storage"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["3978B28D3E586F96"]
+			id: "268C7DE8F7C51856"
+			tasks: [{
+				id: "4A5611AC3AF3142B"
+				item: "ae2:64k_crafting_storage"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["65711B674C0EB0DB"]
+			id: "48125F040CE7E053"
+			tasks: [{
+				id: "7A1785B2947FACF1"
+				item: "ae2:256k_crafting_storage"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["564D78E7C803AE1F"]
+			id: "39833063F4848A09"
+			tasks: [{
+				id: "5340866F1397936A"
+				item: "gtocore:t1_crafting_storage_core"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["651DF7880F07B226"]
+			id: "19AE0322EE47D062"
+			tasks: [{
+				id: "457A16E1C93E787C"
+				item: "gtocore:t2_crafting_storage_core"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["200914B2A7A4827C"]
+			id: "7E4457C36B7D7F67"
+			tasks: [{
+				id: "7E7CD7C6ED84A203"
+				item: "gtocore:t3_crafting_storage_core"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["16D2444FF91836DC"]
+			id: "12BEBE5D87149D66"
+			tasks: [{
+				id: "7D4EE29A2A246ED5"
+				item: "gtocore:t4_crafting_storage_core"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["0220E618355E4509"]
+			id: "1704A9483BDACBAF"
+			tasks: [{
+				id: "7361A9B4D2DD4CDF"
+				item: "gtocore:t5_crafting_storage_core"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["0E9F8C57145D61AB"]
+			dependency_requirement: "all_started"
+			description: ["现在合成存储器与并行单元的底层代码已经被大幅度修改，性能&4极为强悍&r，放心使用即可"]
+			hide_dependency_lines: true
+			id: "2F42DE3FEC2C35F9"
+			tasks: [{
+				id: "2E3E0866967015F4"
+				item: "ae2:crafting_unit"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["2F42DE3FEC2C35F9"]
+			id: "52EF99E046424982"
+			tasks: [{
+				id: "5A77F75A7FFDCB8E"
+				item: "ae2:crafting_accelerator"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["2C7608B4F5962E55"]
+			description: ["没有什么实际用处，只作为合成材料使用"]
+			id: "23D906A09C3631CB"
+			tasks: [{
+				id: "4843EAF3AA9607E1"
+				item: "ae2:wireless_receiver"
+				type: "item"
+			}]
+			x: -19.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["21C0E1FEC1347A3A"]
+			id: "2C7608B4F5962E55"
+			tasks: [{
+				id: "74BD26075C1991A0"
+				item: "ae2:fluix_pearl"
+				type: "item"
+			}]
+			x: -17.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["0836FA16DE147CE5"]
+			id: "181B3831460CD464"
+			tasks: [{
+				id: "02797D240BB642B0"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:f"
+							id: "minecraft:water"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["564D78E7C803AE1F"]
+			id: "026215735CE4F79D"
+			tasks: [{
+				id: "0FF28E6E5382709F"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:i"
+							id: "minecraft:cobblestone"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 7.5d
+		}
+		{
+			id: "6E6AA64B96E291BC"
+			tasks: [{
+				id: "0450C770D74260AC"
+				item: "ae2:cell_workbench"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"1E478682EAC0C56B"
+				"04581C43F7B0BBCE"
+			]
+			id: "6BA5CF66F0CE3119"
+			tasks: [{
+				id: "45B07AC3C321C3C8"
+				item: "ae2:quantum_ring"
+				type: "item"
+			}]
+			x: -15.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["2C7608B4F5962E55"]
+			id: "0B8E06206D29E420"
+			tasks: [{
+				id: "29B37B2C8A9C198C"
+				item: "ae2:quantum_link"
+				type: "item"
+			}]
+			x: -17.0d
+			y: 9.5d
+		}
+		{
+			description: [""]
+			id: "0B36C7D7D1594CB7"
+			subtitle: "AE学——照亮世界！"
+			tasks: [
+				{
+					id: "7250B0B4598DEFB4"
+					item: "ae2:semi_dark_monitor"
+					type: "item"
+				}
+				{
+					id: "1157CB37645CF65E"
+					item: "ae2:monitor"
 					optional_task: true
 					type: "item"
 				}
 				{
-					id: "23B3C8F11D0F69D1"
-					item: "gtocore:monitor_mana"
+					id: "4B95F4107F6E92EB"
+					item: "ae2:dark_monitor"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: 19.5d
+		}
+		{
+			dependencies: [
+				"189F402C87C4AB3A"
+				"7C9277B717E90328"
+			]
+			hide_dependency_lines: true
+			id: "5D29C6645A31C79C"
+			tasks: [{
+				id: "74B774E8B1E4DFF2"
+				item: "expatternprovider:threshold_export_bus"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["189F402C87C4AB3A"]
+			id: "2CC43C39F2866430"
+			tasks: [{
+				id: "7A31709340669BBA"
+				item: "expatternprovider:mod_export_bus"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["00A99DAC629CF95C"]
+			description: [
+				"多用于矿物处理产线设计、热锭的自动输出"
+				""
+				"&8配合库存输入总线搭建子网有奇效&r"
+			]
+			id: "04E9F0144F4C96C2"
+			tasks: [{
+				id: "0479CC6F58F13EB7"
+				item: "expatternprovider:tag_storage_bus"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 17.5d
+		}
+		{
+			dependencies: [
+				"0E9F8C57145D61AB"
+				"592D975F3146151E"
+			]
+			id: "189F402C87C4AB3A"
+			subtitle: "AE网络的交互节点"
+			tasks: [{
+				id: "7DF9C99788918728"
+				item: "ae2:export_bus"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["189F402C87C4AB3A"]
+			id: "2F5331EF65BD7BD9"
+			tasks: [{
+				id: "3EA6FD29DD99EA6A"
+				item: "expatternprovider:ex_export_bus_part"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["189F402C87C4AB3A"]
+			id: "59E577D96108055F"
+			tasks: [{
+				id: "06BAA336F8ABC7F4"
+				item: "expatternprovider:tag_export_bus"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["00A99DAC629CF95C"]
+			id: "1B2D5203F84E19C1"
+			tasks: [{
+				id: "3213C56A3FFCFC55"
+				item: "expatternprovider:mod_storage_bus"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 17.5d
+		}
+		{
+			dependencies: ["145E176D0807D81C"]
+			description: ["用于编写样板，在样板编码终端页面中呼出EMI时，可通过配方右下角的&b加号&r来直接填充样板。&e多方块&r同样也可以通过加号填充样板，并且可以编写不同形态。不要傻傻的手写样板哦"]
+			id: "5B0FFF99CBA89289"
+			tasks: [{
+				id: "5D73F132CF10E44A"
+				item: "ae2:pattern_encoding_terminal"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 19.5d
+		}
+		{
+			dependencies: ["032C0D887FDC913A"]
+			id: "145E176D0807D81C"
+			tasks: [{
+				id: "1F16517C0EEB3D9A"
+				item: "ae2:crafting_terminal"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 19.5d
+		}
+		{
+			dependencies: ["0B36C7D7D1594CB7"]
+			id: "032C0D887FDC913A"
+			subtitle: "访问网络"
+			tasks: [{
+				id: "2A28033AF08CAA8A"
+				item: "ae2:terminal"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 19.5d
+		}
+		{
+			dependencies: ["0B36C7D7D1594CB7"]
+			description: ["用于管理所有连接至AE网络的样板供应器和样板总成"]
+			id: "1DB79F4A3D08D7FB"
+			tasks: [{
+				id: "3D493FCC444BA6CE"
+				item: "ae2:pattern_access_terminal"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 23.5d
+		}
+		{
+			dependencies: [
+				"65E52B0DB278156A"
+				"23D906A09C3631CB"
+				"032C0D887FDC913A"
+			]
+			description: [
+				"ME终端的无线版本，可以让你随时随地访问终端"
+				""
+				"插上量子桥卡和量子缠绕奇点后可以无限制访问，&6奇点&r所对应的量子环需要与你的网络保持连接"
+			]
+			hide_dependency_lines: true
+			id: "1B54495D4256F384"
+			subtitle: "掌上网络"
+			tasks: [{
+				id: "39A0B6F1D305A617"
+				item: "ae2:wireless_terminal"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 21.5d
+		}
+		{
+			dependencies: [
+				"145E176D0807D81C"
+				"65E52B0DB278156A"
+				"23D906A09C3631CB"
+			]
+			hide_dependency_lines: true
+			id: "7B47DD1ACCAA3B03"
+			tasks: [{
+				id: "6FC86BCBE99D5F02"
+				item: {
+					Count: 1
+					id: "ae2:wireless_crafting_terminal"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 21.5d
+		}
+		{
+			dependencies: [
+				"1DB79F4A3D08D7FB"
+				"23D906A09C3631CB"
+				"65E52B0DB278156A"
+			]
+			description: ["样板管理终端的无线版本"]
+			hide_dependency_lines: true
+			id: "28A04212D6B5D51F"
+			tasks: [{
+				id: "2A0EA71AB10C8C78"
+				item: "ae2wtlib:wireless_pattern_access_terminal"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 25.5d
+		}
+		{
+			dependencies: [
+				"5B0FFF99CBA89289"
+				"23D906A09C3631CB"
+				"65E52B0DB278156A"
+			]
+			hide_dependency_lines: true
+			id: "14DCAAD96CDE280F"
+			tasks: [{
+				id: "1391ED37AA9C7FBA"
+				item: "ae2wtlib:wireless_pattern_encoding_terminal"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 21.5d
+		}
+		{
+			dependencies: [
+				"31BA74442F9E953E"
+				"28A04212D6B5D51F"
+				"14DCAAD96CDE280F"
+				"7B47DD1ACCAA3B03"
+				"1B54495D4256F384"
+			]
+			hide_dependency_lines: true
+			id: "594929B55FA2E37E"
+			min_required_dependencies: 2
+			tasks: [{
+				id: "6E983494C54091BA"
+				item: "ae2wtlib:wireless_universal_terminal"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 25.5d
+		}
+		{
+			dependencies: [
+				"79B00A56EED55DBD"
+				"23D906A09C3631CB"
+				"65E52B0DB278156A"
+			]
+			description: ["2合1终端的无线版本"]
+			hide_dependency_lines: true
+			id: "31BA74442F9E953E"
+			tasks: [{
+				id: "0E233F32FAB6F638"
+				item: "gtocore:wireless_me2in1_terminal"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 25.5d
+		}
+		{
+			dependencies: ["1DB79F4A3D08D7FB"]
+			id: "79B00A56EED55DBD"
+			tasks: [{
+				id: "1EB2B00D8C53D6D6"
+				item: "gtocore:me_2in1_terminal"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 23.5d
+		}
+		{
+			dependencies: ["2C7608B4F5962E55"]
+			hide_dependency_lines: true
+			id: "00E811D0F7877B46"
+			tasks: [{
+				id: "58913C91DD27F34D"
+				item: "ae2:spatial_cell_component_2"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["00E811D0F7877B46"]
+			id: "126DFAC52E502D9D"
+			tasks: [{
+				id: "49268F465EBAC2A8"
+				item: "ae2:spatial_cell_component_16"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["126DFAC52E502D9D"]
+			id: "04F3ADE71E6CB75A"
+			tasks: [{
+				id: "40A30677338EB4CA"
+				item: "ae2:spatial_cell_component_128"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["00E811D0F7877B46"]
+			id: "41336FD0569B0E74"
+			tasks: [{
+				id: "2E1CEC0D58627118"
+				item: "ae2:spatial_storage_cell_2"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["126DFAC52E502D9D"]
+			id: "477D6EB74B6E66B7"
+			tasks: [{
+				id: "2EEA4184C5DB7308"
+				item: "ae2:spatial_storage_cell_16"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["04F3ADE71E6CB75A"]
+			id: "32E999372C286CAF"
+			tasks: [{
+				id: "390DAA40FC5A4CE4"
+				item: "ae2:spatial_storage_cell_128"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 11.5d
+		}
+		{
+			dependencies: [
+				"4736D9B3A2EE6AD8"
+				"0E9F8C57145D61AB"
+			]
+			hide_dependency_lines: true
+			id: "587C962BA6B6E5D7"
+			tasks: [{
+				id: "7B0123E907ED8C71"
+				item: "ae2:spatial_pylon"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 11.5d
+		}
+		{
+			dependencies: [
+				"514BAD02F6BB76B8"
+				"0E9F8C57145D61AB"
+			]
+			hide_dependency_lines: true
+			id: "6735D9A3B7B907C1"
+			tasks: [{
+				id: "6FAFE97C00B1777F"
+				item: "ae2:spatial_io_port"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["04F3ADE71E6CB75A"]
+			id: "38B554BDB1C77201"
+			tasks: [{
+				id: "1910C6FF8263E42D"
+				item: "ae2:spatial_anchor"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 11.5d
+		}
+		{
+			dependencies: [
+				"727CCA6FB49E142D"
+				"189F402C87C4AB3A"
+				"05D8AE08D3D17B19"
+			]
+			hide_dependency_lines: true
+			id: "55105297CA6014DC"
+			tasks: [{
+				id: "622ABD823F69A6A0"
+				item: "expatternprovider:caner"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"00A99DAC629CF95C"
+				"36064A8DE0784528"
+			]
+			description: ["我们有&6电弧发生器&r，真的还需要这玩意吗？"]
+			id: "5A896F97DEB741EB"
+			tasks: [{
+				id: "66F1635B4ED0A5EF"
+				item: "expatternprovider:ex_charger"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 19.5d
+		}
+		{
+			description: ["我们有&6电弧发生器&r，真的还需要这玩意吗？"]
+			id: "36064A8DE0784528"
+			tasks: [{
+				id: "295084B42629CC61"
+				item: "ae2:charger"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 21.5d
+		}
+		{
+			dependencies: ["00B868BD06F99B86"]
+			description: [""]
+			id: "54087EF6361AAD74"
+			tasks: [{
+				id: "7BF90F97ED513FFA"
+				item: "gtocore:monitor_electricity"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["00B868BD06F99B86"]
+			id: "316FA7461F95331B"
+			tasks: [{
+				id: "0FB87DB20F70C633"
+				item: "gtocore:monitor_mana"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["00B868BD06F99B86"]
+			id: "4565598CEB9A40EC"
+			tasks: [{
+				id: "44C559F2E6A166FF"
+				item: "gtocore:monitor_cwu"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["00B868BD06F99B86"]
+			id: "10FB8BE514E3C258"
+			tasks: [{
+				id: "28A156AA0BFD8803"
+				item: "gtocore:monitor_custom"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["00B868BD06F99B86"]
+			id: "637078DF813BBE96"
+			tasks: [{
+				id: "4611C82687053DB5"
+				item: "gtocore:monitor_ae_throughput"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["00B868BD06F99B86"]
+			id: "4F7B8BB94283D0DC"
+			tasks: [{
+				id: "5CBA5B2F124BEF26"
+				item: "gtocore:monitor_ae_cpu"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["00B868BD06F99B86"]
+			id: "66805CE361A52177"
+			tasks: [{
+				id: "41003D2F716E3FD8"
+				item: "gtocore:monitor_machine"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 13.5d
+		}
+		{
+			description: [
+				"使用列出的方块互相拼接，可以拼出一个或多个自定义的监控墙，供实时观察基地内情况"
+				""
+				"&a搭建一面监控器墙!&r"
+			]
+			id: "00B868BD06F99B86"
+			tasks: [{
+				id: "6838A389F0F1386F"
+				item: "gtocore:basic_monitor"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["01F3B3DC84ADFFBB"]
+			id: "452E614D8782CADC"
+			tasks: [{
+				id: "554CC699B6041B68"
+				item: "gtocore:exchange_storage_monitor"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 23.5d
+		}
+		{
+			dependencies: ["1EED90EE9774CD7A"]
+			id: "17CEA439C0110AFA"
+			tasks: [{
+				id: "20A3954946CB5C6E"
+				item: "gtceu:me_pattern_buffer_proxy"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"2F42DE3FEC2C35F9"
+				"01F3B3DC84ADFFBB"
+			]
+			hide_dependency_lines: true
+			id: "22D39327103D3E51"
+			tasks: [{
+				id: "00416D56A357E485"
+				item: "ae2:crafting_monitor"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["4B0052A81F69BABA"]
+			hide_dependency_lines: true
+			id: "05D8AE08D3D17B19"
+			tasks: [{
+				id: "4FA076DB27DA57D5"
+				item: "expatternprovider:ingredient_buffer"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["15CB5076FDDCAE6F"]
+			id: "570652D76CB788E9"
+			rewards: [{
+				id: "0CCA5D750C73B191"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			tasks: [{
+				id: "140F66FB83B70098"
+				item: "ae2:singularity"
+				type: "item"
+			}]
+			x: -17.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["4736D9B3A2EE6AD8"]
+			id: "15CB5076FDDCAE6F"
+			tasks: [{
+				id: "7AC90E4AA34BB9F1"
+				item: "ae2:condenser"
+				type: "item"
+			}]
+			x: -17.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["15CB5076FDDCAE6F"]
+			id: "5608772A39C07EC1"
+			tasks: [{
+				id: "451538138ABF687B"
+				item: "ae2:matter_ball"
+				type: "item"
+			}]
+			x: -19.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["570652D76CB788E9"]
+			description: ["一般是先给终端装上&6量子桥卡&r，然后才会用它来做跨维度传输。"]
+			id: "176C374E1C0EA92F"
+			tasks: [{
+				count: 2L
+				id: "12D8D8792CFD04AC"
+				item: "ae2:quantum_entangled_singularity"
+				type: "item"
+			}]
+			title: "跨维度传输"
+			x: -17.0d
+			y: 17.5d
+		}
+		{
+			dependencies: ["23D906A09C3631CB"]
+			id: "30C9B64B6E6DA245"
+			tasks: [{
+				id: "64AB8C1DC3350ABD"
+				item: "ae2wtlib:quantum_bridge_card"
+				type: "item"
+			}]
+			x: -19.0d
+			y: 13.5d
+		}
+		{
+			id: "5F96077A62E88635"
+			tasks: [{
+				id: "0A1291D6E22A2282"
+				item: "ae2:blank_pattern"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5F96077A62E88635"]
+			id: "2A45B9AC7AD09478"
+			tasks: [{
+				id: "4C887C6C3816526F"
+				item: "gtocore:pattern_modifier_pro"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 3.5d
+		}
+		{
+			description: [
+				"AE存储经过GTOCore大量修改，字节限制与原版稍有不同，&e无类型数量限制，也无类型字节占用&r，均分卡在这里"
+				"字节的计算按照原版，即可存储物品/流体数量为字节数*8"
+			]
+			id: "4BC33E07294A6575"
+			tasks: [{
+				id: "4487B3A798A1DB11"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["09AC98B47AF82011"]
+			description: [
+				"&6显示元件&r可实现&e选择性显示&r网络的内容物"
+				""
+				"使用元件工作台进行标记，配合&6模糊卡&r、&6反相卡&r可以标记显示或屏蔽一类物品"
+				"&2e.g. 标记水+模糊卡+反相卡=屏蔽全部的流体&r"
+			]
+			icon: "ae2:view_cell"
+			id: "22C6DDA438A429F9"
+			tasks: [
+				{
+					id: "296C967087B8AFFC"
+					item: "ae2:view_cell"
+					type: "item"
+				}
+				{
+					id: "17B92C8CD70E149B"
+					item: "ae2:fuzzy_card"
 					optional_task: true
 					type: "item"
 				}
 				{
-					id: "18790BD9404BA305"
-					item: "gtocore:monitor_cwu"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "7FA68D2AA3C9976D"
-					item: "gtocore:monitor_custom"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "25A2C06AC1FE892D"
-					item: "gtocore:monitor_custom"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "29BD87E89F616008"
-					item: "gtocore:monitor_ae_throughput"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "5E625D3AB403466F"
-					item: "gtocore:monitor_ae_cpu"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "08FAFE45F7051139"
-					item: "gtocore:monitor_machine"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "60BEC1AB769C2A40"
-					item: "gtocore:coordinate_card"
+					id: "55EE99CF308AA734"
+					item: "ae2:inverter_card"
 					optional_task: true
 					type: "item"
 				}
