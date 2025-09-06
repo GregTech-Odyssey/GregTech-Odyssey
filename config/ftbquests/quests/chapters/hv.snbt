@@ -1041,10 +1041,7 @@
 			y: -1.0d
 		}
 		{
-			dependencies: [
-				"6A8869A6275ECA3E"
-				"6834E0CEC40F4286"
-			]
+			dependencies: ["6A8869A6275ECA3E"]
 			description: [
 				"拥有&6EV级电路&r后，你似乎意识到了有某种方法可以只用一台&e多方块机器&r来处理所有带有编程电路的配方"
 				""
