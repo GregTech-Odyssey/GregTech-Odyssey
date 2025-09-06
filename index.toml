@@ -1309,6 +1309,10 @@ file = "config/openloader/resources/quests/assets/gto/lang/en_us.json"
 hash = "9e442bdea98b2d5b9f4f91da8c4259920cf3d4a8ac9c7d3318a9862df485a81d"
 
 [[files]]
+file = "config/openloader/resources/quests/assets/gto/lang/ru_ru.json"
+hash = "1be0caeec4fdd2e1504e6b2773cd549e65d7af9ff536968bd9ebf26c3f22bcea"
+
+[[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/zh_cn.json"
 hash = "ff373e1a7099f157e85780d5a8d45a650dddbfd8ebe47729f00c7b3bfd77286e"
 
