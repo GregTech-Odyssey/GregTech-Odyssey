@@ -6,107 +6,19 @@
 	group: "2A1218851E38A2EE"
 	icon: "gtceu:lp_steam_solid_boiler"
 	id: "1739461D441B48C6"
-	images: [
-		{
-			click: "command:/execute in gtocore:ancient_world run tp 0 128 0"
-			color: 10751149
-			dependency: "298BEC345930429A"
-			height: 1.5d
-			hover: ["前往远古世界"]
-			image: "minecraft:block/nether_portal"
-			order: 1
-			rotation: 45.0d
-			width: 1.5d
-			x: 4.285714285714292d
-			y: 7.0d
-		}
-		{
-			height: 1.0d
-			image: "minecraft:block/diamond_block"
-			rotation: 0.0d
-			width: 1.0d
-			x: 3.285714285714292d
-			y: 6.0d
-		}
-		{
-			height: 1.0d
-			image: "gtceu:block/casings/steam/bricked_steel/top"
-			order: 2
-			rotation: 0.0d
-			width: 1.0d
-			x: 4.285714285714292d
-			y: 6.0d
-		}
-		{
-			height: 1.0d
-			image: "gtceu:block/casings/steam/bricked_steel/top"
-			order: 2
-			rotation: 0.0d
-			width: 1.0d
-			x: 5.285714285714292d
-			y: 7.0d
-		}
-		{
-			height: 1.0d
-			image: "gtceu:block/casings/steam/bricked_steel/top"
-			order: 2
-			rotation: 0.0d
-			width: 1.0d
-			x: 4.285714285714292d
-			y: 8.0d
-		}
-		{
-			height: 1.0d
-			image: "gtceu:block/casings/steam/bricked_steel/top"
-			order: 2
-			rotation: 0.0d
-			width: 1.0d
-			x: 3.285714285714292d
-			y: 7.0d
-		}
-		{
-			height: 1.0d
-			image: "minecraft:block/diamond_block"
-			rotation: 0.0d
-			width: 1.0d
-			x: 5.285714285714292d
-			y: 6.0d
-		}
-		{
-			height: 1.0d
-			image: "minecraft:block/diamond_block"
-			rotation: 0.0d
-			width: 1.0d
-			x: 5.285714285714292d
-			y: 8.0d
-		}
-		{
-			height: 1.0d
-			image: "minecraft:block/diamond_block"
-			rotation: 0.0d
-			width: 1.0d
-			x: 3.285714285714292d
-			y: 8.0d
-		}
-		{
-			height: 1.0d
-			image: "gtocore:block/multiblock/ancient_reactor_core/overlay_top"
-			rotation: 0.0d
-			width: 1.0d
-			x: 4.285714285714292d
-			y: 7.0d
-		}
-		{
-			dependency: "298BEC345930429A"
-			height: 1.0d
-			image: "xtonesreworked:block/agon/agon_block_13_black"
-			rotation: 0.0d
-			width: 1.0d
-			x: 4.285714285714292d
-			y: 7.0d
-		}
-	]
-	order_index: 0
+	images: [{
+		click: "command:/execute in gtocore:ancient_world run tp 0 128 0"
+		color: 10751149
+		dependency: "298BEC345930429A"
+		height: 1.5d
+		hover: ["前往远古世界"]
+		image: "minecraft:block/nether_portal"
+		rotation: 45.0d
+		width: 1.5d
+		x: 3.0d
+		y: 4.5d
+	}]
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{

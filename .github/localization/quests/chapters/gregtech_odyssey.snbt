@@ -1,0 +1,255 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "gregtech_odyssey"
+	group: ""
+	icon: {
+		Count: 1
+		id: "gtocore:enderium_vajra"
+		tag: {
+			DisallowContainerItem: 0b
+			Enchantments: [
+				{
+					id: "minecraft:fortune"
+					lvl: 8s
+				}
+				{
+					id: "minecraft:looting"
+					lvl: 8s
+				}
+			]
+			GT.Behaviours: {
+				DisableShields: 1b
+				Mode: 0b
+				RelocateMinedBlocks: 1b
+				RelocateMobDrops: 1b
+			}
+			GT.Tool: {
+				AttackDamage: 3010.0f
+				AttackSpeed: 2.0f
+				Damage: 0
+				HarvestLevel: 6
+				MaxDamage: 99
+				ToolSpeed: 84.0f
+			}
+			HideFlags: 2
+			RepairCost: 3
+			Unbreakable: 1b
+		}
+	}
+	id: "7F9CB863017BF24A"
+	order_index: 0
+	quest_links: [{
+		id: "32D234D148B4451C"
+		linked_quest: "5183DB6A793BB3C6"
+		shape: "gear"
+		size: 3.0d
+		x: 1.5d
+		y: -6.0d
+	}]
+	quests: [
+		{
+			description: [
+				"[ \"在砍下第一棵树前建议前往\", { \"text\": \"提示\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"79646E8E449D8A1A\" } }, \"章节查看提示，花几分钟阅读一下对你的游玩之旅大有帮助\" ]"
+				""
+				"{gto.gregtech_odyssey.quests.19EFE14C82DDAB67.description0}"
+			]
+			icon: "minecraft:writable_book"
+			id: "19EFE14C82DDAB67"
+			rewards: [{
+				id: "52494ADABA776912"
+				team_reward: false
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "pentagon"
+			size: 2.0d
+			subtitle: "{gto.gregtech_odyssey.quests.19EFE14C82DDAB67.subtitle}"
+			tasks: [{
+				id: "3CF217CF2033FBD3"
+				title: "{gto.gregtech_odyssey.quests.19EFE14C82DDAB67.tasks.3CF217CF2033FBD3.title}"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			description: [
+				"{gto.gregtech_odyssey.quests.6517DDBE8132FA9B.description0}"
+				""
+				"{gto.gregtech_odyssey.quests.6517DDBE8132FA9B.description1}"
+			]
+			icon: "botania:cosmetic_questgiver_mark"
+			id: "6517DDBE8132FA9B"
+			rewards: [{
+				id: "79AB51C0ECD720BB"
+				item: "botania:cosmetic_wicked_eyepatch"
+				title: "{gto.gregtech_odyssey.quests.6517DDBE8132FA9B.rewards.79AB51C0ECD720BB.title}"
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 2.0d
+			tasks: [{
+				id: "54D0ADDA55F547EA"
+				title: "{gto.gregtech_odyssey.quests.6517DDBE8132FA9B.tasks.54D0ADDA55F547EA.title}"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"{gto.gregtech_odyssey.quests.131CFAF95CFC993E.description0}"
+				"{gto.gregtech_odyssey.quests.131CFAF95CFC993E.description1}"
+				"{gto.gregtech_odyssey.quests.131CFAF95CFC993E.description2}"
+				"{gto.gregtech_odyssey.quests.131CFAF95CFC993E.description3}"
+				"{gto.gregtech_odyssey.quests.131CFAF95CFC993E.description4}"
+				"{gto.gregtech_odyssey.quests.131CFAF95CFC993E.description5}"
+				"{gto.gregtech_odyssey.quests.131CFAF95CFC993E.description6}"
+				"{gto.gregtech_odyssey.quests.131CFAF95CFC993E.description7}"
+				"{gto.gregtech_odyssey.quests.131CFAF95CFC993E.description8}"
+				"{gto.gregtech_odyssey.quests.131CFAF95CFC993E.description9}"
+			]
+			icon: "ftbquests:book"
+			id: "131CFAF95CFC993E"
+			rewards: [{
+				id: "243B015C60457AAE"
+				item: "botania:cosmetic_questgiver_mark"
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 2.0d
+			subtitle: "{gto.gregtech_odyssey.quests.131CFAF95CFC993E.subtitle}"
+			tasks: [{
+				id: "2EE14E4430DFFAB1"
+				title: "{gto.gregtech_odyssey.quests.131CFAF95CFC993E.tasks.2EE14E4430DFFAB1.title}"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3BC9246D8FD4B649"]
+			description: ["{gto.gregtech_odyssey.quests.5C4137F64F9ADA50.description0}"]
+			icon: "gtceu:portable_debug_scanner"
+			id: "5C4137F64F9ADA50"
+			invisible: true
+			min_width: 350
+			rewards: [{
+				id: "3CDBF3DDD07DC90A"
+				item: "botania:mana_cookie"
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 2.0d
+			subtitle: "{gto.gregtech_odyssey.quests.5C4137F64F9ADA50.subtitle}"
+			tasks: [{
+				id: "2E7AE829275616F9"
+				title: "{gto.gregtech_odyssey.quests.5C4137F64F9ADA50.tasks.2E7AE829275616F9.title}"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"19EFE14C82DDAB67"
+				"131CFAF95CFC993E"
+				"6517DDBE8132FA9B"
+				"278F29092F5721AD"
+			]
+			description: [
+				"{gto.gregtech_odyssey.quests.3BC9246D8FD4B649.description0}"
+				""
+				"{gto.gregtech_odyssey.quests.3BC9246D8FD4B649.description1}"
+				""
+				"{gto.gregtech_odyssey.quests.3BC9246D8FD4B649.description2}"
+				""
+				"{gto.gregtech_odyssey.quests.3BC9246D8FD4B649.description3}"
+				"{@pagebreak}"
+				"{gto.gregtech_odyssey.quests.3BC9246D8FD4B649.description4}"
+				""
+				"{gto.gregtech_odyssey.quests.3BC9246D8FD4B649.description5}"
+				""
+				"{gto.gregtech_odyssey.quests.3BC9246D8FD4B649.description6}"
+				""
+				"{gto.gregtech_odyssey.quests.3BC9246D8FD4B649.description7}"
+				""
+				"{gto.gregtech_odyssey.quests.3BC9246D8FD4B649.description8}"
+			]
+			hide_dependency_lines: false
+			icon: "minecraft:grass_block"
+			id: "3BC9246D8FD4B649"
+			rewards: [
+				{
+					id: "4E02802C52E67903"
+					item: {
+						Count: 1
+						id: "minecraft:stone_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					command: "/function firework:stonelaunch"
+					elevate_perms: true
+					id: "7599F8899D9783E6"
+					type: "command"
+				}
+				{
+					count: 16
+					id: "4A94831824613F91"
+					item: "gtocore:copper_coin"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 3.0d
+			subtitle: "{gto.gregtech_odyssey.quests.3BC9246D8FD4B649.subtitle}"
+			tasks: [{
+				id: "0BEDFF9D52A0D34C"
+				title: "{gto.gregtech_odyssey.quests.3BC9246D8FD4B649.tasks.0BEDFF9D52A0D34C.title}"
+				type: "checkmark"
+			}]
+			title: "{gto.gregtech_odyssey.quests.3BC9246D8FD4B649.title}"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			description: [
+				"{gto.gregtech_odyssey.quests.278F29092F5721AD.description0}"
+				""
+				"{gto.gregtech_odyssey.quests.278F29092F5721AD.description1}"
+				""
+				"{gto.gregtech_odyssey.quests.278F29092F5721AD.description2}"
+				""
+				"[ \"\", {\"text\":\"Github: \", \"color\":\"yellow\"}, { \"text\": \"https://github.com/GregTech-Odyssey/GregTech-Odyssey\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"open_url\", \"value\": \"https://github.com/GregTech-Odyssey/GregTech-Odyssey\" } }]"
+				""
+				"[ \"\", {\"text\":\"Discord: \", \"color\":\"yellow\"}, { \"text\": \"https://discord.gg/PxruFSbtCn\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"open_url\", \"value\": \"https://discord.gg/PxruFSbtCn\" } }]"
+				""
+				""
+				"{gto.gregtech_odyssey.quests.278F29092F5721AD.description3}"
+			]
+			icon: "easy_villagers:villager"
+			id: "278F29092F5721AD"
+			rewards: [{
+				id: "495C372715CFC5AC"
+				item: "ftbquests:book"
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 2.0d
+			tasks: [{
+				id: "5D2925B40BFBF203"
+				title: "{gto.gregtech_odyssey.quests.278F29092F5721AD.tasks.5D2925B40BFBF203.title}"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: -4.0d
+		}
+	]
+	title: "{gto.gregtech_odyssey.title}"
+}
