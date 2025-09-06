@@ -7,12 +7,6 @@
 	icon: "minecraft:grass_block"
 	id: "2F98FBAEECC4F940"
 	order_index: 0
-	quest_links: [{
-		id: "2EFF8F212CD14656"
-		linked_quest: "20BC48DF78F11B24"
-		x: 11.0d
-		y: -2.5d
-	}]
 	quest_links: [
 		{
 			id: "2EFF8F212CD14656"
@@ -21,20 +15,20 @@
 			y: -2.5d
 		}
 		{
-			id: "32D234D148B4451C"
-			linked_quest: "5183DB6A793BB3C6"
-			shape: "gear"
-			size: 3.0d
-			x: -7.5d
-			y: -3.0d
-		}
-		{
 			id: "5ECDA0546ED66000"
 			linked_quest: "24C53B5FF515ACAC"
 			shape: "gear"
 			size: 2.0d
 			x: 0.0d
 			y: 8.0d
+		}
+		{
+			id: "17DA1B3DC20813FF"
+			linked_quest: "3BC9246D8FD4B649"
+			shape: "gear"
+			size: 3.0d
+			x: -5.5d
+			y: 0.0d
 		}
 	]
 	quests: [
@@ -371,7 +365,7 @@
 				type: "item"
 			}]
 			title: "工作台"
-			x: 6.0d
+			x: 6.5d
 			y: 0.0d
 		}
 		{
@@ -414,7 +408,7 @@
 				type: "item"
 			}]
 			title: "背背背起了行囊"
-			x: 6.0d
+			x: 6.5d
 			y: -2.0d
 		}
 		{
@@ -453,7 +447,7 @@
 				type: "item"
 			}]
 			title: "挖穿地心！"
-			x: 6.0d
+			x: 6.5d
 			y: -3.5d
 		}
 		{
@@ -1498,7 +1492,7 @@
 				item: "gtocore:simple_crafting_terminal"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 6.5d
 			y: 2.0d
 		}
 		{
@@ -1916,7 +1910,7 @@
 				}
 				type: "item"
 			}]
-			x: 8.0d
+			x: 8.5d
 			y: -2.0d
 		}
 		{
@@ -2092,10 +2086,11 @@
 			]
 			description: [
 				"这是你在能够使用AE之前最大的存储容器了"
+				""
 				"建议配合&6简易合成终端&r使用"
+				""
+				"到能做出钢的时候再来找它吧"
 			]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
 			id: "2D9893D2C108754F"
 			shape: "diamond"
 			size: 1.5d
@@ -2105,8 +2100,8 @@
 				item: "gtocore:multiblock_crate"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 3.25d
+			x: 6.5d
+			y: 4.0d
 		}
 	]
 	subtitle: ["Hello World!"]

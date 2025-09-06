@@ -699,7 +699,7 @@
 				type: "item"
 			}]
 			title: "欢迎来到&4极高压&r阶段"
-			x: 7.0d
+			x: 9.0d
 			y: 0.5d
 		}
 		{
@@ -712,11 +712,12 @@
 				item: "gtocore:polyetheretherketone_bucket"
 				type: "item"
 			}]
-			x: 9.0d
+			x: 7.0d
 			y: 0.5d
 		}
 		{
 			dependencies: ["3E458EF4819E239C"]
+			description: ["&6等离子体&r需要冷凝成&e液体&r之后才能固化成锭，目前推荐使用&6热交换机&r冷凝"]
 			hide_dependent_lines: true
 			id: "11FE0CDFD21F7C73"
 			tasks: [{

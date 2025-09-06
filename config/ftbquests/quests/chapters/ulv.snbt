@@ -306,7 +306,7 @@
 			]
 			hide_dependency_lines: true
 			id: "1CDBE91D2ACD9111"
-			shape: "gear"
+			shape: "hexagon"
 			size: 1.2d
 			subtitle: "疯狂吸入"
 			tasks: [{
@@ -315,7 +315,7 @@
 				type: "item"
 			}]
 			title: "空气从哪来？"
-			x: -1.0d
+			x: -1.25d
 			y: 2.5d
 		}
 		{
@@ -1166,7 +1166,7 @@
 				item: "gtocore:infinite_intake_hatch"
 				type: "item"
 			}]
-			x: -2.5d
+			x: -3.0d
 			y: 2.5d
 		}
 	]

@@ -169,13 +169,15 @@
 				"{@pagebreak}"
 				"所以最开始该干什么呢？做出燧石工具，找到一片靠近水源的地方作为早期发展的基地"
 				""
-				"按 &e[Tab]&r 可以随时随地打开任务书，大多数任务完成了上一个任务之后才可以看见"
+				"按 &e[Tab]&r 可以随时随地打开任务书，大多数任务完成了上一个任务之后才可以进行"
 				""
 				"&7&o&m以及有一些隐藏彩蛋任务&r"
 				""
 				"&r&4切勿&r熬夜爆肝，身体是革命的本钱！！"
 				""
 				"&9&o我们的旅程是星辰大海&r&r"
+				""
+				"&7&o如果你现在所处主线，发现完成不了此任务，说明你还没有完成入职培训！点击本窗口左上角的锁链图标去向入职页面。"
 			]
 			hide_dependency_lines: false
 			icon: "minecraft:grass_block"
@@ -220,9 +222,9 @@
 		}
 		{
 			description: [
-				"The initial English version of FTB Quests has been largely machine-translated from Chinese using LLMs."
+				"The initial &6English/Russian&r version of FTB Quests has been largely machine-translated from &6Chinese&r using &bLLMs&r,  and it &ecannot be guaranteed to be accurate&r."
 				""
-				"If you find any parts unclear or poorly translated, please feel free to let us know via Discord or a GitHub issue—we totally get it, and we're sorry for any messy bits!"
+				"If you find any parts &eunclear or poorly translated&r, please feel free to let us know via &6Discord&r or a &6GitHub issue&r—we totally get it, and we're sorry for any messy bits!"
 				""
 				"We greatly appreciate anyone willing to help us improve the translation and make it better!"
 				""

@@ -6,18 +6,106 @@
 	group: "2A1218851E38A2EE"
 	icon: "gtceu:lp_steam_solid_boiler"
 	id: "1739461D441B48C6"
-	images: [{
-		click: "command:/execute in gtocore:ancient_world run tp 0 128 0"
-		color: 10751149
-		dependency: "298BEC345930429A"
-		height: 1.5d
-		hover: ["前往远古世界"]
-		image: "minecraft:block/nether_portal"
-		rotation: 45.0d
-		width: 1.5d
-		x: 3.0d
-		y: 4.5d
-	}]
+	images: [
+		{
+			click: "command:/execute in gtocore:ancient_world run tp 0 128 0"
+			color: 10751149
+			dependency: "298BEC345930429A"
+			height: 1.5d
+			hover: ["前往远古世界"]
+			image: "minecraft:block/nether_portal"
+			order: 1
+			rotation: 45.0d
+			width: 1.5d
+			x: 4.285714285714292d
+			y: 7.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/diamond_block"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.285714285714292d
+			y: 6.0d
+		}
+		{
+			height: 1.0d
+			image: "gtceu:block/casings/steam/bricked_steel/top"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.285714285714292d
+			y: 6.0d
+		}
+		{
+			height: 1.0d
+			image: "gtceu:block/casings/steam/bricked_steel/top"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.285714285714292d
+			y: 7.0d
+		}
+		{
+			height: 1.0d
+			image: "gtceu:block/casings/steam/bricked_steel/top"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.285714285714292d
+			y: 8.0d
+		}
+		{
+			height: 1.0d
+			image: "gtceu:block/casings/steam/bricked_steel/top"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.285714285714292d
+			y: 7.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/diamond_block"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.285714285714292d
+			y: 6.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/diamond_block"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.285714285714292d
+			y: 8.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/diamond_block"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.285714285714292d
+			y: 8.0d
+		}
+		{
+			height: 1.0d
+			image: "gtocore:block/multiblock/ancient_reactor_core/overlay_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.285714285714292d
+			y: 7.0d
+		}
+		{
+			dependency: "298BEC345930429A"
+			height: 1.0d
+			image: "xtonesreworked:block/agon/agon_block_13_black"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.285714285714292d
+			y: 7.0d
+		}
+	]
 	order_index: 1
 	quest_links: [ ]
 	quests: [
@@ -199,6 +287,8 @@
 			]
 			hide_dependency_lines: false
 			id: "6E2614839731BF0D"
+			shape: "circle"
+			size: 1.0d
 			subtitle: "拯救你的研钵"
 			tasks: [{
 				id: "0C0BEB294A94D280"
@@ -307,7 +397,7 @@
 				"我建议你留着&d橡胶原木&r，因为一来它的产出并不多，二来它能在&6离心机&r里产出&6胶水&r"
 			]
 			id: "431D763E6303976B"
-			shape: "pentagon"
+			shape: "hexagon"
 			size: 1.5d
 			subtitle: "但其实也没什么区别不是吗"
 			tasks: [{
@@ -562,7 +652,7 @@
 				type: "item"
 			}]
 			title: "青涩的橡胶"
-			x: 10.75d
+			x: 9.5d
 			y: 10.0d
 		}
 		{
@@ -579,8 +669,8 @@
 			]
 			hide_dependency_lines: false
 			id: "043FCD7B759853EA"
-			shape: "rsquare"
-			size: 1.5d
+			shape: "gear"
+			size: 2.0d
 			subtitle: "千辛万苦"
 			tasks: [{
 				id: "56BAACDD642EA086"
@@ -588,7 +678,7 @@
 				type: "item"
 			}]
 			title: "橡胶，终于"
-			x: 8.5d
+			x: 7.25d
 			y: 10.0d
 		}
 		{
@@ -611,7 +701,7 @@
 				type: "item"
 			}]
 			title: "它能拿来美容吗"
-			x: 6.000000000000007d
+			x: 4.75d
 			y: 10.0d
 		}
 		{
@@ -858,7 +948,7 @@
 				type: "item"
 			}]
 			title: "离心吗？"
-			x: 6.0d
+			x: 4.75d
 			y: 12.0d
 		}
 		{
@@ -882,7 +972,7 @@
 				type: "item"
 			}]
 			title: "大泳池"
-			x: 8.5d
+			x: 7.25d
 			y: 12.0d
 		}
 		{
@@ -902,7 +992,7 @@
 				type: "item"
 			}]
 			title: "滚筒洗衣机，矿物专用"
-			x: 10.75d
+			x: 9.5d
 			y: 12.0d
 		}
 		{
@@ -1091,7 +1181,7 @@
 				type: "item"
 			}]
 			title: "橡胶树的宝贝产物"
-			x: 10.75d
+			x: 9.5d
 			y: 8.5d
 		}
 		{
@@ -1197,7 +1287,7 @@
 				type: "item"
 			}]
 			title: "片状的橡胶才是好橡胶"
-			x: 8.5d
+			x: 7.25d
 			y: 8.5d
 		}
 		{
@@ -1428,7 +1518,7 @@
 				type: "item"
 			}]
 			title: "用力摇！"
-			x: 6.0d
+			x: 4.75d
 			y: 14.25d
 		}
 		{
@@ -1451,7 +1541,7 @@
 				type: "item"
 			}]
 			title: "不仅离心，还要有点热"
-			x: 3.75d
+			x: 2.25d
 			y: 14.25d
 		}
 		{
@@ -1478,7 +1568,7 @@
 				type: "item"
 			}]
 			title: "更大的滚筒洗衣机"
-			x: 10.75d
+			x: 9.5d
 			y: 14.25d
 		}
 		{
@@ -1503,7 +1593,7 @@
 				type: "item"
 			}]
 			title: "大泳池，大容量"
-			x: 8.5d
+			x: 7.25d
 			y: 14.25d
 		}
 		{
@@ -1601,8 +1691,8 @@
 				type: "item"
 			}]
 			title: "焦炉Pro Max版"
-			x: 10.75d
-			y: 6.5d
+			x: 11.25d
+			y: 6.75d
 		}
 		{
 			dependencies: ["13FBF05133D59CDC"]
@@ -1625,8 +1715,8 @@
 				type: "item"
 			}]
 			title: "更大的保温杯"
-			x: 8.5d
-			y: 6.5d
+			x: 9.5d
+			y: 6.75d
 		}
 		{
 			dependencies: ["13FBF05133D59CDC"]
@@ -1697,7 +1787,7 @@
 			}]
 			title: "更猛的机器们"
 			x: 8.0d
-			y: 5.035714285714285d
+			y: 5.0d
 		}
 		{
 			description: [
