@@ -70,59 +70,6 @@
 			width: 1.0d
 			x: 5.5d
 			y: 5.0d
-	order_index: 4
-	quest_links: [
-		{
-			id: "73C7693D280F6D40"
-			linked_quest: "19B006CEA837B6B4"
-			x: 2.0d
-			y: -7.5d
-		}
-		{
-			id: "00633CF8E1A82641"
-			linked_quest: "029CAD5FD378D3E1"
-			x: 4.0d
-			y: -9.0d
-		}
-	]
-	quests: [
-		{
-			dependencies: ["298BEC345930429A"]
-			description: [
-				"非专家模式默认&c无频道数量限制&r，不需要接入&6ME控制器&r，只需要确保为当前网络提供足够的能量即可"
-				""
-				"可以使用&6ME控制器&r来替代&6能源接收器&r，但后期可能会因为加载过多频道造成额外的延迟，请斟酌使用控制器"
-			]
-			icon: "ae2:controller"
-			id: "5FCFE3D6B36CC409"
-			rewards: [{
-				id: "30B07582F8B7CC7C"
-				item: "ae2:network_tool"
-				type: "item"
-			}]
-			subtitle: "没有频道的AE真好"
-			tasks: [
-				{
-					id: "603914C7BECB258E"
-					item: "ae2:energy_acceptor"
-					type: "item"
-				}
-				{
-					id: "58F72893817AA19C"
-					item: "ae2:controller"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "6574ED322216F0C0"
-					item: "ae2:creative_energy_cell"
-					optional_task: true
-					type: "item"
-				}
-			]
-			title: "AE的起步"
-			x: -8.5d
-			y: -6.0d
 		}
 		{
 			height: 1.0d
@@ -609,89 +556,242 @@
 			y: 23.5d
 		}
 		{
-			dependencies: [
-				"7F009EFD924B069B"
-				"58E3D6A420B632B1"
-			]
-			description: [
-				"可以让你随时随地访问终端"
-				""
-				"插上量子桥卡和量子缠绕奇点后可以无限制访问，&6奇点&r所对应的量子环需要与你的网络保持连接"
-			]
-			icon: {
-				Count: 1
-				id: "ae2wtlib:wireless_universal_terminal"
-				tag: {
-					accessPoint: {
-						dimension: "minecraft:overworld"
-						pos: [I;
-							-3
-							-58
-							2
-						]
-					}
-					internalCurrentPower: 1600000.0d
-				}
-			}
-			id: "76B7D521231F506C"
-			subtitle: "掌上网络"
-			tasks: [
-				{
-					id: "1E86FB3F5679093D"
-					item: "ae2wtlib:wireless_pattern_encoding_terminal"
-					type: "item"
-					weak_nbt_match: true
-				}
-				{
-					id: "32695D36B66A4D8E"
-					item: {
-						Count: 1
-						id: "ae2:wireless_crafting_terminal"
-						tag: { }
-					}
-					type: "item"
-					weak_nbt_match: true
-				}
-				{
-					id: "2D8BFF07036CEC03"
-					item: "ae2wtlib:wireless_pattern_access_terminal"
-					type: "item"
-					weak_nbt_match: true
-				}
-				{
-					id: "5CB706BE0D87C218"
-					item: "expatternprovider:wireless_ex_pat"
-					type: "item"
-					weak_nbt_match: true
-				}
-				{
-					id: "27015CB67B4F816D"
-					item: {
-						Count: 1
-						id: "ae2wtlib:wireless_universal_terminal"
-						tag: {
-							crafting: 1b
-							currentTerminal: "crafting"
-							ex_pattern_access: 1b
-							internalMaxPower: 6400000.0d
-							pattern_access: 1b
-							pattern_encoding: 1b
-						}
-					}
-					type: "item"
-					weak_nbt_match: true
-				}
-				{
-					id: "7DEA8A6D0456A0E8"
-					item: "ae2wtlib:quantum_bridge_card"
-					type: "item"
-					weak_nbt_match: true
-				}
-			]
-			title: "无线终端"
-			x: -4.0d
-			y: -4.5d
+			color: 16711935
+			height: 1.1d
+			image: "ftbquests:block/barrier_open"
+			order: 1
+			rotation: 0.0d
+			width: 1.1d
+			x: -7.0d
+			y: 23.5d
 		}
+		{
+			height: 1.0d
+			image: "gtocore:item/circuit/suprachronal_luv"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: 23.0d
+		}
+		{
+			height: 1.0d
+			image: "gtocore:item/circuit/suprachronal_mv"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.0d
+			y: 23.0d
+		}
+		{
+			height: 1.0d
+			image: "gtocore:item/circuit/suprachronal_luv"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.7d
+			y: 5.5d
+		}
+		{
+			height: 1.0d
+			image: "gtocore:item/circuit/suprachronal_luv"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.7d
+			y: 5.5d
+		}
+		{
+			height: 1.0d
+			image: "gtocore:item/circuit/suprachronal_luv"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: 5.5d
+		}
+		{
+			color: 16711935
+			height: 1.1d
+			image: "ftbquests:block/barrier_open"
+			order: 1
+			rotation: 0.0d
+			width: 1.1d
+			x: -3.0d
+			y: 5.5d
+		}
+		{
+			color: 16711935
+			height: 1.1d
+			image: "ftbquests:block/barrier_open"
+			order: 1
+			rotation: 0.0d
+			width: 1.1d
+			x: -1.0d
+			y: 5.5d
+		}
+		{
+			height: 1.1d
+			image: "xtonesreworked:block/bitt/12"
+			rotation: 0.0d
+			width: 1.1d
+			x: -3.0d
+			y: 5.5d
+		}
+		{
+			height: 1.1d
+			image: "xtonesreworked:block/bitt/12"
+			rotation: 0.0d
+			width: 1.1d
+			x: -1.0d
+			y: 5.5d
+		}
+		{
+			height: 1.0d
+			image: "gtocore:item/circuit/suprachronal_uv"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: 7.5d
+		}
+		{
+			height: 1.0d
+			image: "gtocore:item/circuit/suprachronal_uv"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: 7.5d
+		}
+		{
+			height: 1.0d
+			image: "gtocore:item/circuit/suprachronal_uhv"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.7d
+			y: 9.5d
+		}
+		{
+			height: 1.1d
+			image: "xtonesreworked:block/bitt/4"
+			rotation: 0.0d
+			width: 1.1d
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			color: 851730
+			height: 1.1d
+			image: "ftbquests:block/barrier_open"
+			order: 1
+			rotation: 0.0d
+			width: 1.1d
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			height: 1.1d
+			image: "xtonesreworked:block/bitt/12"
+			rotation: 0.0d
+			width: 1.1d
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			color: 16711935
+			height: 1.1d
+			image: "ftbquests:block/barrier_open"
+			order: 1
+			rotation: 0.0d
+			width: 1.1d
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "gtocore:item/circuit/suprachronal_hv"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.5d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "gtocore:item/circuit/suprachronal_hv"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.5d
+			y: 5.5d
+		}
+		{
+			height: 1.1d
+			image: "xtonesreworked:block/bitt/12"
+			rotation: 0.0d
+			width: 1.1d
+			x: -5.0d
+			y: 3.5d
+		}
+		{
+			color: 16711935
+			height: 1.1d
+			image: "ftbquests:block/barrier_open"
+			order: 1
+			rotation: 0.0d
+			width: 1.1d
+			x: -5.0d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "gtocore:item/circuit/suprachronal_zpm"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.7d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "gtocore:item/circuit/suprachronal_ev"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "gtocore:item/circuit/suprachronal_lv"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.5d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "gtocore:item/circuit/suprachronal_ev"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: 11.5d
+		}
+		{
+			height: 1.0d
+			image: "gtocore:item/circuit/suprachronal_ev"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "gtocore:item/circuit/suprachronal_lv"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: 3.5d
+		}
+	]
+	order_index: 4
+	quest_links: [{
+		id: "73C7693D280F6D40"
+		linked_quest: "19B006CEA837B6B4"
+		x: -1.0d
+		y: 3.5d
+	}]
+	quests: [
 		{
 			dependencies: ["298BEC345930429A"]
 			description: [
@@ -1043,7 +1143,7 @@
 			dependencies: ["76512605B551599A"]
 			description: [
 				"和纠缠方块类似，相当于隔空操作方块进行物流"
-				""
+				"进阶版本可同时绑定20个目标，螺丝刀点击可切换轮询模式"
 			]
 			icon: "gtocore:tesseract_generator"
 			id: "5F522D73AF5F1B2F"
@@ -3337,27 +3437,144 @@
 					type: "item"
 				}
 			]
-			title: "好玩的"
-			x: -8.5d
-			y: -7.5d
+			x: 1.5d
+			y: 16.5d
 		}
 		{
-			dependencies: ["1403D3FC3E9A50E4"]
-			description: [
-				"根据&6玻璃等级&r决定&e线程&r，根据&6合成存储核心&r决定&e存储容量"
-				"&r"
-				""
-				"会自动根据需要&e分裂CPU&r来计算"
-			]
-			id: "0CD5DA2D5E1BAC0A"
-			subtitle: "多方块CPU"
+			dependencies: ["018F46EE6AE97EFD"]
+			description: ["分子装配室的高级版本"]
+			id: "2018E88DF43B3A9B"
 			tasks: [{
-				id: "59E12BF8C3B491C0"
-				item: "gtocore:me_cpu"
+				id: "60436E1B759F42D1"
+				item: "expatternprovider:ex_molecular_assembler"
 				type: "item"
 			}]
-			x: 5.5d
-			y: -4.5d
+			x: -5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["570652D76CB788E9"]
+			id: "76512605B551599A"
+			tasks: [{
+				id: "2C176970FF275792"
+				item: "gtocore:entangled_singularity"
+				type: "item"
+			}]
+			x: -19.0d
+			y: 17.5d
+		}
+		{
+			dependencies: ["5F522D73AF5F1B2F"]
+			description: ["进阶版本可同时绑定20个目标，螺丝刀点击可切换轮询模式"]
+			id: "6029E522F10F15E0"
+			tasks: [{
+				id: "35AF0A188125EE6C"
+				item: "gtocore:advanced_tesseract_generator"
+				type: "item"
+			}]
+			title: "进阶超立方效应"
+			x: -19.0d
+			y: 21.5d
+		}
+		{
+			dependencies: ["5608772A39C07EC1"]
+			id: "7C3F36E275D3F828"
+			tasks: [{
+				id: "68DDCB90BB057097"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "ae2:paint_balls"
+					}
+				}
+				title: "任意染色球"
+				type: "item"
+			}]
+			title: "染色球"
+			x: -21.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["7C3F36E275D3F828"]
+			icon: "ae2:black_lumen_paint_ball"
+			id: "393B722AB2CA65BF"
+			tasks: [{
+				id: "56CC5B28019585D4"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ae2:black_lumen_paint_ball"
+							}
+							{
+								Count: 1b
+								id: "ae2:light_blue_lumen_paint_ball"
+							}
+							{
+								Count: 1b
+								id: "ae2:yellow_lumen_paint_ball"
+							}
+							{
+								Count: 1b
+								id: "ae2:lime_lumen_paint_ball"
+							}
+							{
+								Count: 1b
+								id: "ae2:pink_lumen_paint_ball"
+							}
+							{
+								Count: 1b
+								id: "ae2:gray_lumen_paint_ball"
+							}
+							{
+								Count: 1b
+								id: "ae2:light_gray_lumen_paint_ball"
+							}
+							{
+								Count: 1b
+								id: "ae2:cyan_lumen_paint_ball"
+							}
+							{
+								Count: 1b
+								id: "ae2:purple_lumen_paint_ball"
+							}
+							{
+								Count: 1b
+								id: "ae2:magenta_lumen_paint_ball"
+							}
+							{
+								Count: 1b
+								id: "ae2:orange_lumen_paint_ball"
+							}
+							{
+								Count: 1b
+								id: "ae2:brown_lumen_paint_ball"
+							}
+							{
+								Count: 1b
+								id: "ae2:white_lumen_paint_ball"
+							}
+							{
+								Count: 1b
+								id: "ae2:red_lumen_paint_ball"
+							}
+							{
+								Count: 1b
+								id: "ae2:green_lumen_paint_ball"
+							}
+						]
+					}
+				}
+				title: "任意光通染色球"
+				type: "item"
+			}]
+			title: "光通染色球"
+			x: -23.0d
+			y: 15.5d
 		}
 	]
 	subtitle: ["Applied Energistics 2"]
