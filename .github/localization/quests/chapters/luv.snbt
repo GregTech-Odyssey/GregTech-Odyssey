@@ -13,14 +13,14 @@
 			shape: "gear"
 			size: 2.0d
 			x: 6.0d
-			y: -7.0d
+			y: -6.5d
 		}
 		{
 			id: "0DAFE054BF92FA6E"
 			linked_quest: "0BC456B4331C09F5"
 			shape: "diamond"
-			x: 0.5d
-			y: -7.0d
+			x: 1.0d
+			y: -6.5d
 		}
 	]
 	quests: [
@@ -247,7 +247,7 @@
 				type: "item"
 			}]
 			x: 12.0d
-			y: -7.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["20F6B937CF470863"]
@@ -337,7 +337,7 @@
 			}]
 			title: "{gto.luv.quests.4A5C6525DD244359.title}"
 			x: 9.0d
-			y: -7.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["11CF6F5DE4A3CC4F"]
@@ -354,7 +354,7 @@
 				type: "item"
 			}]
 			x: 14.5d
-			y: -7.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["7E1C35C2DE805E6B"]
@@ -548,7 +548,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: -7.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["10F52803BCD77DA0"]
@@ -561,7 +561,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: -8.5d
+			y: -8.0d
 		}
 		{
 			dependencies: [

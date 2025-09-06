@@ -708,7 +708,7 @@
 				type: "item"
 			}]
 			title: "{gto.uv.quests.1612D1DEB3A7BE2D.title}"
-			x: 7.0d
+			x: 9.0d
 			y: 0.5d
 		}
 		{
@@ -721,11 +721,12 @@
 				item: "gtocore:polyetheretherketone_bucket"
 				type: "item"
 			}]
-			x: 9.0d
+			x: 7.0d
 			y: 0.5d
 		}
 		{
 			dependencies: ["3E458EF4819E239C"]
+			description: ["{gto.uv.quests.11FE0CDFD21F7C73.description0}"]
 			hide_dependent_lines: true
 			id: "11FE0CDFD21F7C73"
 			tasks: [{

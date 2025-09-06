@@ -717,7 +717,11 @@
 		}
 		{
 			dependencies: ["4BA890971C18F938"]
-			description: ["{gto.hv.quests.686D81CACEC8506F.description0}"]
+			description: [
+				"{gto.hv.quests.686D81CACEC8506F.description0}"
+				""
+				"{gto.hv.quests.686D81CACEC8506F.description1}"
+			]
 			id: "686D81CACEC8506F"
 			shape: "hexagon"
 			size: 1.5d

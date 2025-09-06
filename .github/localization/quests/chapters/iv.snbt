@@ -791,7 +791,7 @@
 				item: "gtceu:fiber_reinforced_printed_circuit_board"
 				type: "item"
 			}]
-			x: 14.5d
+			x: 15.0d
 			y: -10.5d
 		}
 		{
@@ -803,7 +803,7 @@
 				item: "gtocore:tungsten_tetraboride_ceramics_flake"
 				type: "item"
 			}]
-			x: 15.5d
+			x: 16.0d
 			y: -12.0d
 		}
 		{
@@ -814,7 +814,7 @@
 				item: "gtceu:fiber_reinforced_circuit_board"
 				type: "item"
 			}]
-			x: 13.5d
+			x: 14.0d
 			y: -12.0d
 		}
 		{
@@ -996,10 +996,7 @@
 			y: -3.5d
 		}
 		{
-			dependencies: [
-				"251002F2103BDA84"
-				"5F522D73AF5F1B2F"
-			]
+			dependencies: ["251002F2103BDA84"]
 			description: [
 				"{gto.iv.quests.029CAD5FD378D3E1.description0}"
 				""
