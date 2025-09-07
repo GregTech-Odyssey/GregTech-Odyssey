@@ -5,6 +5,80 @@
 	group: "2A1218851E38A2EE"
 	icon: "gtceu:luv_fusion_reactor"
 	id: "19CB76240F7730C8"
+	images: [
+		{
+			height: 1.1d
+			image: "xtonesreworked:block/bitt/12"
+			rotation: 0.0d
+			width: 1.1d
+			x: 3.5d
+			y: -8.0d
+		}
+		{
+			color: 16711935
+			height: 1.1d
+			image: "ftbquests:block/barrier_open"
+			order: 1
+			rotation: 0.0d
+			width: 1.1d
+			x: 3.5d
+			y: -8.0d
+		}
+		{
+			height: 1.1d
+			image: "xtonesreworked:block/bitt/12"
+			rotation: 0.0d
+			width: 1.1d
+			x: 2.5d
+			y: -8.0d
+		}
+		{
+			color: 16711935
+			height: 1.1d
+			image: "ftbquests:block/barrier_open"
+			order: 1
+			rotation: 0.0d
+			width: 1.1d
+			x: 2.5d
+			y: -8.0d
+		}
+		{
+			color: 16711935
+			height: 1.1d
+			image: "ftbquests:block/barrier_open"
+			order: 1
+			rotation: 0.0d
+			width: 1.1d
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			height: 1.1d
+			image: "xtonesreworked:block/bitt/12"
+			rotation: 0.0d
+			width: 1.1d
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			height: 1.1d
+			image: "xtonesreworked:block/bitt/12"
+			rotation: 0.0d
+			width: 1.1d
+			x: 1.5d
+			y: -8.0d
+		}
+		{
+			color: 16711935
+			height: 1.1d
+			image: "ftbquests:block/barrier_open"
+			order: 1
+			rotation: 0.0d
+			width: 1.1d
+			x: 1.5d
+			y: -8.0d
+		}
+	]
 	order_index: 8
 	quest_links: [
 		{
@@ -18,9 +92,30 @@
 		{
 			id: "0DAFE054BF92FA6E"
 			linked_quest: "0BC456B4331C09F5"
-			shape: "diamond"
-			x: 1.0d
-			y: -6.5d
+			shape: "square"
+			x: 2.5d
+			y: -8.0d
+		}
+		{
+			id: "5F48CB73E3456910"
+			linked_quest: "430034AB98D8453B"
+			shape: "square"
+			x: 3.5d
+			y: -8.0d
+		}
+		{
+			id: "0CB3E6856E9E362B"
+			linked_quest: "17CEA439C0110AFA"
+			shape: "square"
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			id: "31FDB6095F1DCD59"
+			linked_quest: "498909CBDFB62BF6"
+			shape: "square"
+			x: 1.5d
+			y: -8.0d
 		}
 	]
 	quests: [
@@ -220,8 +315,8 @@
 				item: "gtceu:uranium_rhodium_dinaquadide_ingot"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 3.0d
+			x: 10.5d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -230,7 +325,7 @@
 				"4A5C6525DD244359"
 			]
 			description: [
-				"&6聚变机械方块&r对于现在来说实在是太贵了！最节省的方案是：1个&b主机&r，48个&b机械方块&r，31个&b聚变玻璃&r，16个&b输入仓&r，16个&b输出仓&r，16个&b能源仓&r，&a上下堆叠&r可以节省大量机械方块！（在emi多方块界面中点击P即可切换带有玻璃的形态）"
+				"&6聚变机械方块&r对于现在来说实在是太贵了！最节省的方案是：1个&b主机&r，48个&b机械方块&r，31个&b聚变玻璃&r，16个&b输入仓&r，16个&b输出仓&r，16个&b能源仓&r，&a上下堆叠&r可以节省大量机械方块！（在EMI多方块预览界面中点击P即可切换带有玻璃的形态）"
 				""
 				"需要攒够一定的能量才能开机，如果停止运行会慢慢冷却，需要下一次攒够能量才会运行"
 				""
@@ -525,20 +620,6 @@
 			y: 7.5d
 		}
 		{
-			dependencies: [
-				"251002F2103BDA84"
-				"63773B34911D0234"
-			]
-			id: "5DD3805C53BF63EB"
-			tasks: [{
-				id: "3C38A1247B258939"
-				item: "gtceu:me_pattern_buffer_proxy"
-				type: "item"
-			}]
-			x: 11.0d
-			y: 2.0d
-		}
-		{
 			dependencies: ["2F03D93AC7DBE58D"]
 			id: "10F52803BCD77DA0"
 			shape: "hexagon"
@@ -560,8 +641,8 @@
 				item: "gtocore:integral_framework_luv"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -8.0d
+			x: 1.0d
+			y: -6.5d
 		}
 		{
 			dependencies: [
@@ -632,8 +713,8 @@
 				}
 			]
 			title: "艾萨线"
-			x: 11.0d
-			y: 4.0d
+			x: 10.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["20F6B937CF470863"]
@@ -842,13 +923,14 @@
 			dependencies: ["1156B92F11DA73B6"]
 			id: "6925C0D55D578A9A"
 			shape: "diamond"
+			size: 1.5d
 			tasks: [{
 				id: "335A69E2488138E8"
 				item: "gtocore:large_crystallization_chamber"
 				type: "item"
 			}]
-			x: 13.0d
-			y: 3.5d
+			x: 12.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["31F90B973A779017"]

@@ -5,15 +5,44 @@
 	group: "2A1218851E38A2EE"
 	icon: "gtocore:nano_forge"
 	id: "7D815C5C7CE4821E"
+	images: [
+		{
+			height: 1.1d
+			image: "xtonesreworked:block/bitt/12"
+			rotation: 0.0d
+			width: 1.1d
+			x: -8.5d
+			y: -6.0d
+		}
+		{
+			color: 16711935
+			height: 1.1d
+			image: "ftbquests:block/barrier_open"
+			order: 1
+			rotation: 0.0d
+			width: 1.1d
+			x: -8.5d
+			y: -6.0d
+		}
+	]
 	order_index: 9
-	quest_links: [{
-		id: "56F1CC0253E52783"
-		linked_quest: "3490AACD4AA62C5D"
-		shape: "gear"
-		size: 2.0d
-		x: -8.5d
-		y: -4.0d
-	}]
+	quest_links: [
+		{
+			id: "56F1CC0253E52783"
+			linked_quest: "3490AACD4AA62C5D"
+			shape: "gear"
+			size: 2.0d
+			x: -8.5d
+			y: -4.0d
+		}
+		{
+			id: "52240C285F13ADF8"
+			linked_quest: "05833AD0EAA634A7"
+			shape: "square"
+			x: -8.5d
+			y: -6.0d
+		}
+	]
 	quests: [
 		{
 			dependencies: ["346DEC4D870A2087"]

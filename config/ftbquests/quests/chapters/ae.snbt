@@ -3,7 +3,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: "square"
 	filename: "ae"
-	group: "33C930DBAB246BE3"
+	group: ""
 	icon: "ae2:interface"
 	id: "775486FF148AC1FA"
 	images: [
@@ -453,14 +453,6 @@
 		}
 		{
 			height: 1.0d
-			image: "gtocore:item/circuit/suprachronal_iv"
-			rotation: 0.0d
-			width: 1.0d
-			x: -5.5d
-			y: 7.5d
-		}
-		{
-			height: 1.0d
 			image: "gtocore:item/circuit/suprachronal_ev"
 			rotation: 0.0d
 			width: 1.0d
@@ -474,14 +466,6 @@
 			width: 1.0d
 			x: -7.5d
 			y: 9.5d
-		}
-		{
-			height: 1.0d
-			image: "gtocore:item/circuit/suprachronal_luv"
-			rotation: 0.0d
-			width: 1.0d
-			x: -5.7d
-			y: 11.5d
 		}
 		{
 			height: 1.0d
@@ -563,14 +547,6 @@
 			rotation: 0.0d
 			width: 1.1d
 			x: -9.0d
-			y: 21.5d
-		}
-		{
-			height: 1.0d
-			image: "gtocore:item/circuit/suprachronal_luv"
-			rotation: 0.0d
-			width: 1.0d
-			x: -5.7d
 			y: 21.5d
 		}
 		{
@@ -745,14 +721,6 @@
 		}
 		{
 			height: 1.0d
-			image: "gtocore:item/circuit/suprachronal_ev"
-			rotation: 0.0d
-			width: 1.0d
-			x: -3.5d
-			y: 1.5d
-		}
-		{
-			height: 1.0d
 			image: "gtocore:item/circuit/suprachronal_lv"
 			rotation: 0.0d
 			width: 1.0d
@@ -764,16 +732,8 @@
 			image: "gtocore:item/circuit/suprachronal_ev"
 			rotation: 0.0d
 			width: 1.0d
-			x: -3.5d
-			y: 11.5d
-		}
-		{
-			height: 1.0d
-			image: "gtocore:item/circuit/suprachronal_ev"
-			rotation: 0.0d
-			width: 1.0d
-			x: -1.5d
-			y: 3.5d
+			x: 1.0d
+			y: 12.5d
 		}
 		{
 			height: 1.0d
@@ -913,6 +873,188 @@
 			x: -15.75d
 			y: 17.3d
 		}
+		{
+			height: 1.0d
+			image: "gtocore:item/circuit/suprachronal_hv"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			height: 3.0d
+			image: "ae2:textures/logo_appied_energistics.png"
+			rotation: 0.0d
+			width: 9.27d
+			x: -8.5d
+			y: -1.5d
+		}
+		{
+			color: 16711935
+			height: 1.1d
+			image: "ftbquests:block/barrier_open"
+			order: 1
+			rotation: 0.0d
+			width: 1.1d
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			height: 1.1d
+			image: "xtonesreworked:block/bitt/12"
+			rotation: 0.0d
+			width: 1.1d
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			height: 1.1d
+			image: "xtonesreworked:block/bitt/12"
+			rotation: 0.0d
+			width: 1.1d
+			x: -1.0d
+			y: 7.5d
+		}
+		{
+			height: 1.1d
+			image: "xtonesreworked:block/bitt/12"
+			rotation: 0.0d
+			width: 1.1d
+			x: -3.0d
+			y: 7.5d
+		}
+		{
+			color: 16711935
+			height: 1.1d
+			image: "ftbquests:block/barrier_open"
+			order: 1
+			rotation: 0.0d
+			width: 1.1d
+			x: -1.0d
+			y: 7.5d
+		}
+		{
+			color: 16711935
+			height: 1.1d
+			image: "ftbquests:block/barrier_open"
+			order: 1
+			rotation: 0.0d
+			width: 1.1d
+			x: -3.0d
+			y: 7.5d
+		}
+		{
+			color: 16711935
+			height: 1.1d
+			image: "ftbquests:block/barrier_open"
+			order: 1
+			rotation: 0.0d
+			width: 1.1d
+			x: -3.0d
+			y: 9.5d
+		}
+		{
+			height: 1.1d
+			image: "xtonesreworked:block/bitt/12"
+			rotation: 0.0d
+			width: 1.1d
+			x: -3.0d
+			y: 9.5d
+		}
+		{
+			height: 1.1d
+			image: "xtonesreworked:block/bitt/12"
+			rotation: 0.0d
+			width: 1.1d
+			x: -3.0d
+			y: 11.5d
+		}
+		{
+			color: 16711935
+			height: 1.1d
+			image: "ftbquests:block/barrier_open"
+			order: 1
+			rotation: 0.0d
+			width: 1.1d
+			x: -3.0d
+			y: 11.5d
+		}
+		{
+			height: 1.0d
+			image: "gtocore:item/circuit/suprachronal_luv"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.7d
+			y: 7.5d
+		}
+		{
+			height: 1.0d
+			image: "gtocore:item/circuit/suprachronal_iv"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.5d
+			y: 11.5d
+		}
+		{
+			height: 1.0d
+			image: "gtocore:item/circuit/suprachronal_hv"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			color: 16711935
+			height: 1.1d
+			image: "ftbquests:block/barrier_open"
+			order: 1
+			rotation: 0.0d
+			width: 1.1d
+			x: -19.0d
+			y: 21.5d
+		}
+		{
+			height: 1.1d
+			image: "xtonesreworked:block/bitt/12"
+			rotation: 0.0d
+			width: 1.1d
+			x: -19.0d
+			y: 19.5d
+		}
+		{
+			height: 1.1d
+			image: "xtonesreworked:block/bitt/12"
+			rotation: 0.0d
+			width: 1.1d
+			x: -19.0d
+			y: 21.5d
+		}
+		{
+			color: 16711935
+			height: 1.1d
+			image: "ftbquests:block/barrier_open"
+			order: 1
+			rotation: 0.0d
+			width: 1.1d
+			x: -19.0d
+			y: 19.5d
+		}
+		{
+			height: 1.0d
+			image: "gtocore:item/circuit/suprachronal_iv"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: 11.5d
+		}
+		{
+			height: 1.0d
+			image: "gtocore:item/circuit/suprachronal_ev"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.5d
+			y: 21.5d
+		}
 	]
 	order_index: 4
 	quest_links: [
@@ -931,8 +1073,13 @@
 	]
 	quests: [
 		{
-			dependencies: ["298BEC345930429A"]
+			dependencies: [
+				"298BEC345930429A"
+				"745B1AE1F523FD78"
+			]
 			description: [
+				"你可以开始着手发展AE了！"
+				""
 				"非专家模式默认&c无频道数量限制&r，不需要接入&6ME控制器&r，只需要确保为当前网络提供足够的能量即可"
 				""
 				"可以使用&6ME控制器&r来替代&6能源接收器&r，但后期可能会因为加载过多频道造成额外的延迟，请斟酌使用控制器"
@@ -942,6 +1089,7 @@
 			rewards: [{
 				id: "30B07582F8B7CC7C"
 				item: "ae2:network_tool"
+				team_reward: false
 				type: "item"
 			}]
 			shape: "gear"
@@ -968,11 +1116,12 @@
 			dependencies: [
 				"0E9F8C57145D61AB"
 				"6BB3386725B228D5"
+				"752E02060595192D"
 			]
 			description: [
-				"放入存储元件，AE网络几乎可以存储任何东西"
+				"放入&6存储元件&r，ME网络几乎可以存储任何东西"
 				""
-				"避免将大量带有NBT的物品存入网络，虽然存储元件没有种类限制了，但依然会造成不可避免的性能延迟"
+				"&n避免将大量带有NBT的物品存入网络&r，虽然存储元件没有种类限制了，但依然会造成不可避免的&4性能延迟&r"
 			]
 			icon: "ae2:drive"
 			id: "041ABD90CDDE00AA"
@@ -1058,7 +1207,11 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["0E9F8C57145D61AB"]
+			dependencies: [
+				"0E9F8C57145D61AB"
+				"4048DC145B875748"
+			]
+			dependency_requirement: "one_completed"
 			description: [
 				"使用催化器加速母岩生成"
 				""
@@ -1168,22 +1321,10 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["592D975F3146151E"]
-			description: ["配合&6样板供应器&r进行自动化合成，虽然在&8LV&r阶段你就可以制造它，但在普通/专家难度你需要达到&6HV&r阶段才可以建立自动合成系统"]
-			icon: "ae2:molecular_assembler"
-			id: "018F46EE6AE97EFD"
-			subtitle: "记得插加速卡"
-			tasks: [{
-				id: "349538FDCDF76AE2"
-				item: "ae2:molecular_assembler"
-				type: "item"
-			}]
-			title: "原版合成配方的工作方块"
-			x: -7.0d
-			y: 1.5d
-		}
-		{
-			dependencies: ["018F46EE6AE97EFD"]
+			dependencies: [
+				"018F46EE6AE97EFD"
+				"6A8869A6275ECA3E"
+			]
 			description: [
 				"&8Credit:MC百科&r"
 				"每个&6装配矩阵样板核心&r都可以容纳&236&r个&6合成样板&r，相当于&24&r个&6ME样板供应器&r或&21&r个&6ME扩展样板供应器&r"
@@ -1234,7 +1375,10 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["65F8F5D59B949D3B"]
+			dependencies: [
+				"65F8F5D59B949D3B"
+				"2F6C81E3B10365E8"
+			]
 			description: ["不存在总成版本"]
 			icon: "gtceu:me_input_bus"
 			id: "2DAEB70539AACE1A"
@@ -1251,7 +1395,7 @@
 					type: "item"
 				}
 			]
-			title: "ME输入总线/仓"
+			title: "ME输入总线和ME输入仓"
 			x: -7.0d
 			y: 9.5d
 		}
@@ -1282,11 +1426,11 @@
 			y: 5.5d
 		}
 		{
-			dependencies: ["76512605B551599A"]
-			description: [
-				"和纠缠方块类似，相当于隔空操作方块进行物流"
-				""
+			dependencies: [
+				"76512605B551599A"
+				"0A9501C9027AC03D"
 			]
+			description: ["和纠缠方块类似，可以代理一个流体或物品容器，相当于隔空操作方块进行物流！"]
 			icon: "gtocore:tesseract_generator"
 			id: "5F522D73AF5F1B2F"
 			subtitle: "比镜像更好"
@@ -1343,8 +1487,15 @@
 			y: 19.5d
 		}
 		{
-			dependencies: ["65F8F5D59B949D3B"]
-			description: ["该类仓可以让机器使用异步输出，让配方输出完全不占用TPS"]
+			dependencies: [
+				"65F8F5D59B949D3B"
+				"2F6C81E3B10365E8"
+			]
+			description: [
+				"将多方块机器的产物直接输出到ME网络！"
+				""
+				"该类仓可以让机器使用异步输出，让配方输出完全不占用TPS"
+			]
 			id: "69DF9DE9F7176FD0"
 			tasks: [
 				{
@@ -1358,7 +1509,7 @@
 					type: "item"
 				}
 			]
-			title: "ME输出总线/仓"
+			title: "ME输出总线和ME输出仓"
 			x: -7.0d
 			y: 7.5d
 		}
@@ -1368,6 +1519,7 @@
 				"自动按发配数量翻倍样板，因此无需并行单元"
 				"直接消耗输入，提取输出到机器，没有模拟合成工序"
 			]
+			icon: "gtocore:super_molecular_assembler"
 			id: "05833AD0EAA634A7"
 			subtitle: "比装配矩阵更快，性能更好"
 			tasks: [
@@ -1386,14 +1538,17 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["49A3CCDF6CABEEA1"]
+			dependencies: [
+				"49A3CCDF6CABEEA1"
+				"1E239C34C36FAD60"
+				"10F52803BCD77DA0"
+			]
 			description: [
-				"字节计算同存储元件"
+				"&6ME驱动器&r的多方块版本，格雷公司™主脑的唯一数据中心，由于你晋升到了&dLuV&r阶段，公司为你开放了制作这台&4终&r&9极&r&e存&r&a储&r&d器&r的权限以满足你的所需"
 				""
-				"&6ME驱动器&r的多方块版本，不同级别的&6存储核心&r能存储的数据量也不同"
-				"&6存储核心&r可以&e混搭&r安装"
+				"不同级别的&6存储核心&r能存储的数据量也不同。&6存储核心&r可以&e混搭&r安装"
 				""
-				"通过&6ME存储访问仓&r来读取物品"
+				"通过&6ME存储访问仓&r连接ME网络"
 				""
 				"&7&m记得供电&r"
 			]
@@ -1416,18 +1571,10 @@
 			y: 11.5d
 		}
 		{
-			description: [""]
-			id: "0BDCD6AAFF56A0EB"
-			tasks: [{
-				id: "60BEC1AB769C2A40"
-				item: "gtocore:coordinate_card"
-				type: "item"
-			}]
-			x: 1.5d
-			y: 12.5d
-		}
-		{
-			dependencies: ["0BC456B4331C09F5"]
+			dependencies: [
+				"0BC456B4331C09F5"
+				"2544898A725CC1A3"
+			]
 			id: "6F43BA73FE817566"
 			tasks: [{
 				id: "00521BD2414BD997"
@@ -1438,7 +1585,10 @@
 			y: 7.5d
 		}
 		{
-			dependencies: ["0BC456B4331C09F5"]
+			dependencies: [
+				"0BC456B4331C09F5"
+				"256F90AFB461107E"
+			]
 			id: "62402E1DBC9CF1B4"
 			tasks: [{
 				id: "4CE2A5638E10CE7C"
@@ -1449,8 +1599,13 @@
 			y: 7.5d
 		}
 		{
-			dependencies: ["62402E1DBC9CF1B4"]
+			dependencies: [
+				"62402E1DBC9CF1B4"
+				"1612D1DEB3A7BE2D"
+			]
+			description: [""]
 			id: "669DBEFFDD7B3496"
+			subtitle: "样板总成再次升级！"
 			tasks: [{
 				id: "2F54086EC6BEF54D"
 				item: "gtocore:me_extend_pattern_buffer_ultra"
@@ -1482,7 +1637,12 @@
 				""
 				"你也可以选择其他方法："
 				""
-				"· 筛选纯净赛特斯石英矿"
+				"·&6 世界交互&r"
+				"· &6筛选纯净赛特斯石英矿&r"
+				"· &6高压釜&r"
+				"· &6聚爆&r"
+				"· &6村民交易&r"
+				"· &6物质重组&r"
 			]
 			id: "0A68C0CFACCB6C07"
 			shape: "hexagon"
@@ -1621,6 +1781,7 @@
 		}
 		{
 			dependencies: ["0A68C0CFACCB6C07"]
+			description: [""]
 			id: "2E9889C32059C956"
 			tasks: [{
 				id: "1320ADE7F3BBF4F7"
@@ -1631,7 +1792,12 @@
 			y: 11.5d
 		}
 		{
-			dependencies: ["69DF9DE9F7176FD0"]
+			dependencies: [
+				"69DF9DE9F7176FD0"
+				"10F52803BCD77DA0"
+				"2DAEB70539AACE1A"
+			]
+			description: ["和普通输出总成类似，能够同时输出物品和流体"]
 			id: "498909CBDFB62BF6"
 			tasks: [{
 				id: "37F194EF5817C03F"
@@ -1734,7 +1900,7 @@
 				type: "item"
 			}]
 			x: -15.0d
-			y: 13.5d
+			y: 15.5d
 		}
 		{
 			dependencies: [
@@ -1749,8 +1915,8 @@
 				item: "merequester:requester"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 11.5d
+			x: 1.5d
+			y: 12.5d
 		}
 		{
 			dependencies: [
@@ -1778,13 +1944,19 @@
 			y: 19.5d
 		}
 		{
-			dependencies: ["592D975F3146151E"]
+			dependencies: [
+				"592D975F3146151E"
+				"7E963A64B5EB7C20"
+			]
+			description: ["有了它你才可以开始自动合成"]
 			id: "43974ABFAE99587B"
+			subtitle: "自动合成起步"
 			tasks: [{
 				id: "7A86F105A3662E4F"
 				item: "ae2:pattern_provider"
 				type: "item"
 			}]
+			title: "自动合成系统的第一块拼图"
 			x: -7.0d
 			y: 5.5d
 		}
@@ -2764,7 +2936,10 @@
 			y: 10.5d
 		}
 		{
-			dependencies: ["0E9F8C57145D61AB"]
+			dependencies: [
+				"0E9F8C57145D61AB"
+				"7E963A64B5EB7C20"
+			]
 			dependency_requirement: "all_started"
 			description: ["现在合成存储器与并行单元的底层代码已经被大幅度修改，性能&4极为强悍&r，放心使用即可"]
 			hide_dependency_lines: true
@@ -2774,6 +2949,7 @@
 				item: "ae2:crafting_unit"
 				type: "item"
 			}]
+			title: "自动合成系统的第二块拼图"
 			x: 1.5d
 			y: 10.5d
 		}
@@ -2858,6 +3034,11 @@
 		}
 		{
 			dependencies: ["034D579A41F2ED3D"]
+			description: [
+				"AE模组经过GTOCore大量修改，字节限制与原版稍有不同，&e无类型数量限制，也无类型字节占用&r"
+				""
+				"字节的计算与原版相同，即可存储物品/流体数量为字节数*8"
+			]
 			hide_dependency_lines: true
 			id: "6E6AA64B96E291BC"
 			tasks: [{
@@ -2865,8 +3046,8 @@
 				item: "ae2:cell_workbench"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 6.5d
+			x: 1.5d
+			y: 5.5d
 		}
 		{
 			dependencies: [
@@ -3170,7 +3351,11 @@
 			y: 23.5d
 		}
 		{
-			dependencies: ["1DB79F4A3D08D7FB"]
+			dependencies: [
+				"1DB79F4A3D08D7FB"
+				"5B98FF5DDD4B2629"
+			]
+			description: ["2合1终端整合了样板管理和样板编码的功能，能够批量编码一系列同种类的样板，支持一键填充配方！"]
 			id: "79B00A56EED55DBD"
 			tasks: [{
 				id: "1EB2B00D8C53D6D6"
@@ -3414,12 +3599,21 @@
 				""
 				"&a搭建一面监控器墙!&r"
 			]
+			icon: "gtocore:basic_monitor"
 			id: "00B868BD06F99B86"
-			tasks: [{
-				id: "6838A389F0F1386F"
-				item: "gtocore:basic_monitor"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "6838A389F0F1386F"
+					item: "gtocore:basic_monitor"
+					type: "item"
+				}
+				{
+					id: "6A41B263F440A373"
+					item: "gtocore:coordinate_card"
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: 1.5d
 			y: 13.5d
 		}
@@ -3435,7 +3629,10 @@
 			y: 21.5d
 		}
 		{
-			dependencies: ["1EED90EE9774CD7A"]
+			dependencies: [
+				"1EED90EE9774CD7A"
+				"63773B34911D0234"
+			]
 			id: "17CEA439C0110AFA"
 			tasks: [{
 				id: "20A3954946CB5C6E"
@@ -3513,7 +3710,7 @@
 		}
 		{
 			dependencies: ["570652D76CB788E9"]
-			description: ["一般是先给终端装上&6量子桥卡&r，然后才会用它来做跨维度传输。"]
+			description: ["一般是先给终端装上&6量子桥卡&r，然后才会用它来做跨维度传输"]
 			id: "176C374E1C0EA92F"
 			tasks: [{
 				count: 2L
@@ -3537,16 +3734,6 @@
 			y: 13.5d
 		}
 		{
-			id: "5F96077A62E88635"
-			tasks: [{
-				id: "0A1291D6E22A2282"
-				item: "ae2:blank_pattern"
-				type: "item"
-			}]
-			x: -7.0d
-			y: 3.5d
-		}
-		{
 			dependencies: ["5F96077A62E88635"]
 			id: "2A45B9AC7AD09478"
 			tasks: [
@@ -3563,19 +3750,6 @@
 			]
 			x: -5.0d
 			y: 3.5d
-		}
-		{
-			description: [
-				"AE存储经过GTOCore大量修改，字节限制与原版稍有不同，&e无类型数量限制，也无类型字节占用&r，均分卡在这里"
-				"字节的计算按照原版，即可存储物品/流体数量为字节数*8"
-			]
-			id: "4BC33E07294A6575"
-			tasks: [{
-				id: "4487B3A798A1DB11"
-				type: "checkmark"
-			}]
-			x: 1.5d
-			y: 5.5d
 		}
 		{
 			dependencies: ["09AC98B47AF82011"]
@@ -3742,6 +3916,7 @@
 			hide_dependency_lines: true
 			icon: "gtocore:quantum_anomaly"
 			id: "5627B38033AF2674"
+			shape: "pentagon"
 			tasks: [{
 				id: "11FAB9B0FC585C92"
 				type: "checkmark"
@@ -3749,6 +3924,77 @@
 			title: "搭建量子桥"
 			x: -19.0d
 			y: 7.5d
+		}
+		{
+			dependencies: [
+				"32B3E6812521AB70"
+				"49CD464A77D897E3"
+				"61D19307E3E7118B"
+			]
+			description: [
+				"这个多方块机器是格雷公司™最强大的主脑（合成CPU），最多支持481个&6合成存储核心&r，可安装&6并行控制仓&r提高CPU并行数，&6存储核心&r可以&e混搭&r安装"
+				""
+				"虽然控制器方块只需要&9IV&r电路和&dEV&r组装机，但是&6高能机械方块&r在&9IV&r阶段才能制作"
+				""
+				"&e存储容量&r = 已安装的&6合成存储核心&r容量之和"
+				"&e并行数&r = 并行控制仓的并行数 * 已安装&6合成存储核心&r个数"
+				"&e线程数&r = 4^结构玻璃等级"
+			]
+			id: "5F7635CC667AD219"
+			min_width: 225
+			tasks: [{
+				id: "36AA8548A657EF32"
+				item: "gtocore:me_cpu"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 11.5d
+		}
+		{
+			dependencies: [
+				"592D975F3146151E"
+				"33B01E889EE7E990"
+			]
+			description: [
+				"最开始用来制造&6大型蒸汽电路组装机&r"
+				""
+				"配合&6样板供应器&r进行自动化合成，虽然在&8LV&r阶段你就可以制造它，但在普通/专家难度你需要达到&6HV&r阶段才可以建立自动合成系统"
+			]
+			icon: "ae2:molecular_assembler"
+			id: "018F46EE6AE97EFD"
+			subtitle: "记得插加速卡"
+			tasks: [{
+				id: "349538FDCDF76AE2"
+				item: "ae2:molecular_assembler"
+				type: "item"
+			}]
+			title: "原版合成配方的工作方块"
+			x: -7.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["21C0E1FEC1347A3A"]
+			id: "4048DC145B875748"
+			tasks: [{
+				id: "026172D1661F33F7"
+				item: "expatternprovider:crystal_fixer"
+				type: "item"
+			}]
+			x: -15.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["0C2743077DB8406F"]
+			description: ["有了它你才可以开始自动合成"]
+			id: "5F96077A62E88635"
+			tasks: [{
+				id: "0A1291D6E22A2282"
+				item: "ae2:blank_pattern"
+				type: "item"
+			}]
+			title: "自动合成系统的第三块拼图"
+			x: -7.0d
+			y: 3.5d
 		}
 	]
 	subtitle: ["Applied Energistics 2"]

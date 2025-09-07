@@ -7,14 +7,23 @@
 	icon: "gtocore:processing_plant"
 	id: "7C6B0DA4DF5D00E3"
 	order_index: 4
-	quest_links: [{
-		id: "112AADE317BB4B64"
-		linked_quest: "3D1E66868544975F"
-		shape: "gear"
-		size: 2.0d
-		x: -12.0d
-		y: 3.0d
-	}]
+	quest_links: [
+		{
+			id: "112AADE317BB4B64"
+			linked_quest: "3D1E66868544975F"
+			shape: "gear"
+			size: 2.0d
+			x: -12.0d
+			y: 3.0d
+		}
+		{
+			id: "05BAA962B8E745D8"
+			linked_quest: "041ABD90CDDE00AA"
+			shape: "square"
+			x: -5.0d
+			y: 6.0d
+		}
+	]
 	quests: [
 		{
 			dependencies: [
@@ -290,7 +299,11 @@
 		}
 		{
 			dependencies: ["307586CBEE0B955E"]
-			description: ["制造涡轮转子、锯片、工具的优良材料"]
+			description: [
+				"制造涡轮转子、锯片、工具的优良材料"
+				""
+				"重要的是你可以开始建立&eAE存储系统&r！"
+			]
 			hide_dependency_lines: true
 			id: "752E02060595192D"
 			subtitle: "超坚硬、超耐磨"

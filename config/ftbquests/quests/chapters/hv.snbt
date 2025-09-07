@@ -6,6 +6,62 @@
 	group: "2A1218851E38A2EE"
 	icon: "gtceu:cleanroom"
 	id: "737F81E21C442B4F"
+	images: [
+		{
+			color: 16711935
+			height: 1.1d
+			image: "ftbquests:block/barrier_open"
+			order: 1
+			rotation: 0.0d
+			width: 1.1d
+			x: 4.5d
+			y: -4.5d
+		}
+		{
+			height: 1.1d
+			image: "xtonesreworked:block/bitt/12"
+			rotation: 0.0d
+			width: 1.1d
+			x: 4.5d
+			y: -4.5d
+		}
+		{
+			height: 1.1d
+			image: "xtonesreworked:block/bitt/12"
+			rotation: 0.0d
+			width: 1.1d
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			color: 16711935
+			height: 1.1d
+			image: "ftbquests:block/barrier_open"
+			order: 1
+			rotation: 0.0d
+			width: 1.1d
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			height: 1.1d
+			image: "xtonesreworked:block/bitt/12"
+			rotation: 0.0d
+			width: 1.1d
+			x: 5.0d
+			y: 7.5d
+		}
+		{
+			color: 16711935
+			height: 1.1d
+			image: "ftbquests:block/barrier_open"
+			order: 1
+			rotation: 0.0d
+			width: 1.1d
+			x: 5.0d
+			y: 7.5d
+		}
+	]
 	order_index: 5
 	quest_links: [
 		{
@@ -21,8 +77,8 @@
 			linked_quest: "0A9501C9027AC03D"
 			shape: "hexagon"
 			size: 1.5d
-			x: 3.0d
-			y: 7.5d
+			x: 5.0d
+			y: 5.5d
 		}
 		{
 			id: "36E98813A7A95723"
@@ -36,8 +92,43 @@
 			id: "7605F9B3D5ABBFA3"
 			linked_quest: "5D60FFFB4D2F55F3"
 			shape: "diamond"
-			x: 10.5d
+			x: 12.0d
 			y: -1.0d
+		}
+		{
+			id: "24B8D0EE5326CDAF"
+			linked_quest: "43974ABFAE99587B"
+			shape: "square"
+			x: -6.0d
+			y: 5.5d
+		}
+		{
+			id: "293DA58449370105"
+			linked_quest: "2F42DE3FEC2C35F9"
+			shape: "square"
+			x: -7.0d
+			y: 5.5d
+		}
+		{
+			id: "633BBB15146C159A"
+			linked_quest: "5F96077A62E88635"
+			shape: "square"
+			x: -2.0d
+			y: 5.5d
+		}
+		{
+			id: "60353AC478472063"
+			linked_quest: "2AA0714363BA85CB"
+			shape: "square"
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			id: "78F40ABD52DF9590"
+			linked_quest: "5F522D73AF5F1B2F"
+			shape: "square"
+			x: 5.0d
+			y: 7.5d
 		}
 	]
 	quests: [
@@ -415,6 +506,15 @@
 		}
 		{
 			dependencies: ["6F760D81DC93ACFB"]
+			description: [
+				"&6行星扫描卫星 - GT-PSS-1 型"
+				"&r"
+				"本设备是深空探索的先驱，是迈向地外殖民的第一步。"
+				""
+				"由高精度HV传感器阵列、高扭矩HV机械臂与高效光伏板材构成，该卫星能在极端环境中稳定运行。其核心的电力推进器确保了其能被准确送入环月轨道，并对月球地表进行全面光谱分析与矿物分布测绘。"
+				""
+				"&4警告&r：任何跨维度太空任务，在未收到该卫星传回的完整行星扫描数据前，&n均被视为自杀行为&r"
+			]
 			id: "39A7B09F3213E0C8"
 			tasks: [{
 				id: "6881F45D1003B5A3"
@@ -504,7 +604,7 @@
 			description: [
 				"现在，朝着亲爱的月球进发？不不不，还有几件事需要你&4再确认一下&r："
 				""
-				"首先在出发之前，要穿戴好&6宇航套装&r，以及把你身上的&6器官&r都强化到&4Tier1"
+				"首先在出发之前，要穿戴好&6宇航套装&r，以及把你身上的&6器官&r都强化到&e标准级"
 				""
 				"&r其次把你的背包腾出一定的空间，记住&2公司&r派你去月球是去&e挖矿&r的，不是去&e旅游&r的"
 				""
@@ -712,8 +812,8 @@
 				item: "gtceu:hv_energy_input_hatch"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 6.0d
+			x: -3.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["4BA890971C18F938"]
@@ -743,7 +843,7 @@
 				type: "item"
 			}]
 			x: -8.0d
-			y: 1.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["5D828A5258BFF11F"]
@@ -759,7 +859,7 @@
 				type: "item"
 			}]
 			x: -8.0d
-			y: 0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["5D828A5258BFF11F"]
@@ -771,7 +871,7 @@
 				type: "item"
 			}]
 			x: -8.0d
-			y: 3.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["5D828A5258BFF11F"]
@@ -805,7 +905,7 @@
 				item: "gtceu:orange_glass_lens"
 				type: "item"
 			}]
-			x: -4.0d
+			x: -3.5d
 			y: 2.5d
 		}
 		{
@@ -819,8 +919,8 @@
 				item: "gtceu:hv_cutter"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 4.5d
+			x: 1.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["4FC754BAFAB7C79F"]
@@ -839,6 +939,7 @@
 					type: "item"
 				}
 			]
+			title: "&6HV&r发射器和&6HV&r传感器"
 			x: 3.0d
 			y: 1.0d
 		}
@@ -876,7 +977,17 @@
 			dependencies: [
 				"6F760D81DC93ACFB"
 				"6D251F85DDB81408"
+				"38EF7B8DB3A08AB2"
+				"0C2743077DB8406F"
 			]
+			description: [
+				"&e等级：&r&6殖民级 - 战略资产&r"
+				""
+				"此芯片是&e「行星扫描」&r任务的最终产物，内部以非易失性存储方式，记录了目标天体（如月球）的完整重力场图、光谱矿物分布、地形高程模型及潜在着陆点危险评估数据。"
+				""
+				"&4警告：&r此芯片为单一副本，是规划地外任务的核心。遗失或损坏将导致整个扫描任务失效。"
+			]
+			hide_dependency_lines: true
 			id: "2A9088FA11D26BDD"
 			tasks: [{
 				id: "3B861FE0D68E7C66"
@@ -918,16 +1029,24 @@
 				"&6火箭燃料&r也是很好的发电燃料，你可以选择&6火箭引擎&r作为你的主力发电设施，这需要你搭建稳定供应的&e火箭燃料产线&r"
 			]
 			hide_dependency_lines: true
+			icon: "enderio:rocket_fuel_bucket"
 			id: "4AED8DE6D6175D97"
 			min_required_dependencies: 1
 			subtitle: "这可不能喝"
-			tasks: [{
-				id: "0DC3A2EE264A753C"
-				item: "enderio:rocket_fuel_bucket"
-				type: "item"
-			}]
-			x: 9.0d
-			y: -1.0d
+			tasks: [
+				{
+					id: "0DC3A2EE264A753C"
+					item: "enderio:rocket_fuel_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4901640BC5A83CF8"
+					type: "checkmark"
+				}
+			]
+			x: 10.5d
+			y: -0.5d
 		}
 		{
 			dependencies: [
@@ -945,7 +1064,7 @@
 				item: "gtceu:nor_memory_chip"
 				type: "item"
 			}]
-			x: 0.5d
+			x: 1.0d
 			y: 2.5d
 		}
 		{
@@ -991,7 +1110,6 @@
 				""
 				"&2宇&6航&9服&e可&d以&b染&4色&r，不会影响任务提交"
 			]
-			hide_dependency_lines: true
 			id: "4331EEF3BA9799FD"
 			shape: "hexagon"
 			subtitle: "史蒂夫的一小步"
@@ -1042,8 +1160,8 @@
 				}
 			]
 			title: "基础宇航套装"
-			x: 12.0d
-			y: -1.0d
+			x: 10.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["6A8869A6275ECA3E"]
@@ -1066,8 +1184,8 @@
 			icon: "gtocore:hv_programmablec_hatch"
 			id: "19B006CEA837B6B4"
 			min_width: 250
-			shape: "diamond"
-			size: 1.5d
+			shape: "square"
+			size: 1.0d
 			subtitle: "可编程仓室"
 			tasks: [
 				{
@@ -1100,7 +1218,7 @@
 				}
 			]
 			title: "&e可编程仓室"
-			x: 4.75d
+			x: 4.5d
 			y: -4.5d
 		}
 		{
@@ -1170,6 +1288,7 @@
 			dependencies: ["5D828A5258BFF11F"]
 			description: ["制造出&6HV组装机&r，你可以开始大批量生产&6贴片元件&r！"]
 			id: "7E963A64B5EB7C20"
+			shape: "hexagon"
 			tasks: [{
 				id: "54EB798BB18E5B38"
 				item: "gtceu:hv_assembler"
@@ -1186,7 +1305,7 @@
 				item: "gtceu:pink_glass_lens"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -0.5d
 			y: 2.5d
 		}
 		{
@@ -1197,7 +1316,7 @@
 				item: "gtceu:exquisite_glass_gem"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 7.5d
 			y: 5.5d
 		}
 		{
@@ -1208,7 +1327,7 @@
 				item: "gtceu:lpic_chip"
 				type: "item"
 			}]
-			x: -4.0d
+			x: -3.5d
 			y: 4.0d
 		}
 		{
@@ -1291,8 +1410,8 @@
 				item: "gtceu:titanium_large_boiler"
 				type: "item"
 			}]
-			x: 17.0d
-			y: -5.5d
+			x: 16.5d
+			y: -5.25d
 		}
 		{
 			dependencies: ["310210D2AD9515E3"]
@@ -1308,7 +1427,7 @@
 				"&d材料列表&r"
 				""
 				"钢锭 *64"
-				"EV电路 * 16"
+				"任意&dEV&r级电路 * 16"
 				"铁板 * 16"
 				"钢引擎 * 1"
 			]
@@ -1344,75 +1463,82 @@
 				item: "gtocore:pulsating_photovoltaic_power_station"
 				type: "item"
 			}]
-			x: 17.0d
-			y: -1.0d
+			x: 17.25d
+			y: -4.5d
 		}
 		{
 			dependencies: ["47E810FD91649121"]
 			id: "71ADEF13ADAFE1F0"
+			shape: "diamond"
 			tasks: [{
 				id: "6B63ED7747204EE0"
 				item: "gtceu:smd_resistor"
 				type: "item"
 			}]
-			x: -9.0d
-			y: 5.5d
+			x: -7.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["47E810FD91649121"]
 			id: "261AF5AAE0576A3B"
+			shape: "diamond"
 			tasks: [{
 				id: "6B08017AB84D717D"
 				item: "gtceu:smd_transistor"
 				type: "item"
 			}]
-			x: -8.5d
-			y: 6.5d
+			x: -8.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["47E810FD91649121"]
 			id: "553B055E72DF5B91"
+			shape: "diamond"
 			tasks: [{
 				id: "59BA82BBE4F163D5"
 				item: "gtceu:smd_capacitor"
 				type: "item"
 			}]
-			x: -9.0d
-			y: 4.5d
+			x: -8.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["47E810FD91649121"]
 			id: "0DA8792DBD69AD9D"
+			shape: "diamond"
 			tasks: [{
 				id: "6FB5EE5036A122A3"
 				item: "gtceu:smd_inductor"
 				type: "item"
 			}]
-			x: -7.5d
-			y: 7.0d
+			x: -7.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["47E810FD91649121"]
 			description: ["你可以无需经过&e铂处理&r，从化学浸洗过的镍矿中获得&6铂金属粉&r"]
 			id: "5559EBCB8F2C4296"
+			shape: "diamond"
 			tasks: [{
 				id: "7399BFE90A39A251"
 				item: "gtceu:smd_diode"
 				type: "item"
 			}]
-			x: -6.5d
-			y: 7.0d
+			x: -8.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["7E963A64B5EB7C20"]
+			description: [""]
 			id: "47E810FD91649121"
+			shape: "diamond"
 			tasks: [{
 				id: "7D3334E8AD4302E3"
 				title: "更便宜的贴片元件！"
 				type: "checkmark"
 			}]
-			x: -7.0d
-			y: 5.0d
+			x: -7.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["2F6C81E3B10365E8"]
@@ -1482,11 +1608,11 @@
 		{
 			dependencies: ["7A7DC6205DED9BF3"]
 			description: [
-				"你需要把你的身体的各个器官都强化到&4Tier1&r之后才能抵御星际乱流的影响"
+				"你需要把你的身体的各个&6器官&r都强化到&e标准级&r之后才能抵御&d星际乱流&r的影响"
 				""
-				"用&6器官修改器&r来把各个器官部件装进你的身体里面"
+				"用&6器官修改器&r来把各个&6器官部件&r装进你的身体里面"
 				""
-				"当然以后你每去一个新地方都需要查看自己身上的器官是不是已经强化到对应的阶级了"
+				"当然以后你每去一个新地方都需要查看自己身上的&6器官&r是不是已经强化到对应的阶级了"
 				""
 				"&o&8自己给自己在清醒时做手术，可真的是有点惊悚呢&r&r"
 			]
@@ -1496,6 +1622,7 @@
 				item: "gtocore:organ_modifier"
 				type: "item"
 			}]
+			shape: "hexagon"
 			subtitle: "我们终将决定我们自己的进化道路"
 			tasks: [
 				{
@@ -1546,7 +1673,7 @@
 			]
 			title: "血肉苦弱，机械飞升！"
 			x: 10.5d
-			y: 2.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["310210D2AD9515E3"]
@@ -1563,6 +1690,86 @@
 			}]
 			x: 13.5d
 			y: 2.0d
+		}
+		{
+			dependencies: [
+				"268C28F66FA4C91F"
+				"4BA890971C18F938"
+			]
+			description: [
+				"大型蒸汽输入仓能使多方块蒸汽机器提升一级&6配方等级&r，同时具有&6超频&r能力"
+				""
+				"每提升一级超频，蒸汽消耗量提升&24x&r，速度提升&22x&r"
+			]
+			id: "518FEC9206E3B5A0"
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "0FB51EB4F5C498F7"
+				item: "gtocore:large_steam_input_hatch"
+				type: "item"
+			}]
+			x: 16.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"44371F3C6C35E6E6"
+				"513493E29DC69E32"
+			]
+			id: "0C2743077DB8406F"
+			tasks: [{
+				id: "5E8F661FA9817940"
+				item: "gtceu:nand_memory_chip"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["38EF7B8DB3A08AB2"]
+			description: ["最便宜的ULV电路"]
+			id: "79ED4BD0715A11A6"
+			tasks: [{
+				id: "6E287DBBF8183635"
+				item: "gtceu:nand_chip"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["198304056173E631"]
+			id: "513493E29DC69E32"
+			tasks: [{
+				id: "37A282F32DFE80C4"
+				item: "gtceu:gray_glass_lens"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["198304056173E631"]
+			id: "31301A89DE841C2D"
+			tasks: [{
+				id: "52164D2D8B840ACD"
+				item: "gtceu:cyan_glass_lens"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["31301A89DE841C2D"]
+			id: "38EF7B8DB3A08AB2"
+			tasks: [{
+				id: "5CEB34E59AE7CBDC"
+				item: "gtceu:simple_soc"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 4.0d
 		}
 	]
 	subtitle: ["Tier3-HV"]
