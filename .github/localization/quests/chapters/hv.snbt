@@ -6,6 +6,62 @@
 	group: "2A1218851E38A2EE"
 	icon: "gtceu:cleanroom"
 	id: "737F81E21C442B4F"
+	images: [
+		{
+			color: 16711935
+			height: 1.1d
+			image: "ftbquests:block/barrier_open"
+			order: 1
+			rotation: 0.0d
+			width: 1.1d
+			x: 4.5d
+			y: -4.5d
+		}
+		{
+			height: 1.1d
+			image: "xtonesreworked:block/bitt/12"
+			rotation: 0.0d
+			width: 1.1d
+			x: 4.5d
+			y: -4.5d
+		}
+		{
+			height: 1.1d
+			image: "xtonesreworked:block/bitt/12"
+			rotation: 0.0d
+			width: 1.1d
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			color: 16711935
+			height: 1.1d
+			image: "ftbquests:block/barrier_open"
+			order: 1
+			rotation: 0.0d
+			width: 1.1d
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			height: 1.1d
+			image: "xtonesreworked:block/bitt/12"
+			rotation: 0.0d
+			width: 1.1d
+			x: 5.0d
+			y: 7.5d
+		}
+		{
+			color: 16711935
+			height: 1.1d
+			image: "ftbquests:block/barrier_open"
+			order: 1
+			rotation: 0.0d
+			width: 1.1d
+			x: 5.0d
+			y: 7.5d
+		}
+	]
 	order_index: 5
 	quest_links: [
 		{
@@ -21,8 +77,8 @@
 			linked_quest: "0A9501C9027AC03D"
 			shape: "hexagon"
 			size: 1.5d
-			x: 3.0d
-			y: 7.5d
+			x: 5.0d
+			y: 5.5d
 		}
 		{
 			id: "36E98813A7A95723"
@@ -36,8 +92,43 @@
 			id: "7605F9B3D5ABBFA3"
 			linked_quest: "5D60FFFB4D2F55F3"
 			shape: "diamond"
-			x: 10.5d
+			x: 12.0d
 			y: -1.0d
+		}
+		{
+			id: "24B8D0EE5326CDAF"
+			linked_quest: "43974ABFAE99587B"
+			shape: "square"
+			x: -6.0d
+			y: 5.5d
+		}
+		{
+			id: "293DA58449370105"
+			linked_quest: "2F42DE3FEC2C35F9"
+			shape: "square"
+			x: -7.0d
+			y: 5.5d
+		}
+		{
+			id: "633BBB15146C159A"
+			linked_quest: "5F96077A62E88635"
+			shape: "square"
+			x: -2.0d
+			y: 5.5d
+		}
+		{
+			id: "60353AC478472063"
+			linked_quest: "2AA0714363BA85CB"
+			shape: "square"
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			id: "78F40ABD52DF9590"
+			linked_quest: "5F522D73AF5F1B2F"
+			shape: "square"
+			x: 5.0d
+			y: 7.5d
 		}
 	]
 	quests: [
@@ -415,6 +506,15 @@
 		}
 		{
 			dependencies: ["6F760D81DC93ACFB"]
+			description: [
+				"{gto.hv.quests.39A7B09F3213E0C8.description0}"
+				"{gto.hv.quests.39A7B09F3213E0C8.description1}"
+				"{gto.hv.quests.39A7B09F3213E0C8.description2}"
+				""
+				"{gto.hv.quests.39A7B09F3213E0C8.description3}"
+				""
+				"{gto.hv.quests.39A7B09F3213E0C8.description4}"
+			]
 			id: "39A7B09F3213E0C8"
 			tasks: [{
 				id: "6881F45D1003B5A3"
@@ -712,8 +812,8 @@
 				item: "gtceu:hv_energy_input_hatch"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 6.0d
+			x: -3.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["4BA890971C18F938"]
@@ -743,7 +843,7 @@
 				type: "item"
 			}]
 			x: -8.0d
-			y: 1.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["5D828A5258BFF11F"]
@@ -759,7 +859,7 @@
 				type: "item"
 			}]
 			x: -8.0d
-			y: 0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["5D828A5258BFF11F"]
@@ -771,7 +871,7 @@
 				type: "item"
 			}]
 			x: -8.0d
-			y: 3.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["5D828A5258BFF11F"]
@@ -805,7 +905,7 @@
 				item: "gtceu:orange_glass_lens"
 				type: "item"
 			}]
-			x: -4.0d
+			x: -3.5d
 			y: 2.5d
 		}
 		{
@@ -819,8 +919,8 @@
 				item: "gtceu:hv_cutter"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 4.5d
+			x: 1.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["4FC754BAFAB7C79F"]
@@ -839,6 +939,7 @@
 					type: "item"
 				}
 			]
+			title: "{gto.hv.quests.6F760D81DC93ACFB.title}"
 			x: 3.0d
 			y: 1.0d
 		}
@@ -876,7 +977,17 @@
 			dependencies: [
 				"6F760D81DC93ACFB"
 				"6D251F85DDB81408"
+				"38EF7B8DB3A08AB2"
+				"0C2743077DB8406F"
 			]
+			description: [
+				"{gto.hv.quests.2A9088FA11D26BDD.description0}"
+				""
+				"{gto.hv.quests.2A9088FA11D26BDD.description1}"
+				""
+				"{gto.hv.quests.2A9088FA11D26BDD.description2}"
+			]
+			hide_dependency_lines: true
 			id: "2A9088FA11D26BDD"
 			tasks: [{
 				id: "3B861FE0D68E7C66"
@@ -918,16 +1029,24 @@
 				"{gto.hv.quests.4AED8DE6D6175D97.description1}"
 			]
 			hide_dependency_lines: true
+			icon: "enderio:rocket_fuel_bucket"
 			id: "4AED8DE6D6175D97"
 			min_required_dependencies: 1
 			subtitle: "{gto.hv.quests.4AED8DE6D6175D97.subtitle}"
-			tasks: [{
-				id: "0DC3A2EE264A753C"
-				item: "enderio:rocket_fuel_bucket"
-				type: "item"
-			}]
-			x: 9.0d
-			y: -1.0d
+			tasks: [
+				{
+					id: "0DC3A2EE264A753C"
+					item: "enderio:rocket_fuel_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4901640BC5A83CF8"
+					type: "checkmark"
+				}
+			]
+			x: 10.5d
+			y: -0.5d
 		}
 		{
 			dependencies: [
@@ -945,7 +1064,7 @@
 				item: "gtceu:nor_memory_chip"
 				type: "item"
 			}]
-			x: 0.5d
+			x: 1.0d
 			y: 2.5d
 		}
 		{
@@ -991,7 +1110,6 @@
 				""
 				"{gto.hv.quests.4331EEF3BA9799FD.description3}"
 			]
-			hide_dependency_lines: true
 			id: "4331EEF3BA9799FD"
 			shape: "hexagon"
 			subtitle: "{gto.hv.quests.4331EEF3BA9799FD.subtitle}"
@@ -1042,8 +1160,8 @@
 				}
 			]
 			title: "{gto.hv.quests.4331EEF3BA9799FD.title}"
-			x: 12.0d
-			y: -1.0d
+			x: 10.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["6A8869A6275ECA3E"]
@@ -1066,8 +1184,8 @@
 			icon: "gtocore:hv_programmablec_hatch"
 			id: "19B006CEA837B6B4"
 			min_width: 250
-			shape: "diamond"
-			size: 1.5d
+			shape: "square"
+			size: 1.0d
 			subtitle: "{gto.hv.quests.19B006CEA837B6B4.subtitle}"
 			tasks: [
 				{
@@ -1100,7 +1218,7 @@
 				}
 			]
 			title: "{gto.hv.quests.19B006CEA837B6B4.title}"
-			x: 4.75d
+			x: 4.5d
 			y: -4.5d
 		}
 		{
@@ -1170,6 +1288,7 @@
 			dependencies: ["5D828A5258BFF11F"]
 			description: ["{gto.hv.quests.7E963A64B5EB7C20.description0}"]
 			id: "7E963A64B5EB7C20"
+			shape: "hexagon"
 			tasks: [{
 				id: "54EB798BB18E5B38"
 				item: "gtceu:hv_assembler"
@@ -1186,7 +1305,7 @@
 				item: "gtceu:pink_glass_lens"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -0.5d
 			y: 2.5d
 		}
 		{
@@ -1197,7 +1316,7 @@
 				item: "gtceu:exquisite_glass_gem"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 7.5d
 			y: 5.5d
 		}
 		{
@@ -1208,7 +1327,7 @@
 				item: "gtceu:lpic_chip"
 				type: "item"
 			}]
-			x: -4.0d
+			x: -3.5d
 			y: 4.0d
 		}
 		{
@@ -1291,8 +1410,8 @@
 				item: "gtceu:titanium_large_boiler"
 				type: "item"
 			}]
-			x: 17.0d
-			y: -5.5d
+			x: 16.5d
+			y: -5.25d
 		}
 		{
 			dependencies: ["310210D2AD9515E3"]
@@ -1344,75 +1463,82 @@
 				item: "gtocore:pulsating_photovoltaic_power_station"
 				type: "item"
 			}]
-			x: 17.0d
-			y: -1.0d
+			x: 17.25d
+			y: -4.5d
 		}
 		{
 			dependencies: ["47E810FD91649121"]
 			id: "71ADEF13ADAFE1F0"
+			shape: "diamond"
 			tasks: [{
 				id: "6B63ED7747204EE0"
 				item: "gtceu:smd_resistor"
 				type: "item"
 			}]
-			x: -9.0d
-			y: 5.5d
+			x: -7.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["47E810FD91649121"]
 			id: "261AF5AAE0576A3B"
+			shape: "diamond"
 			tasks: [{
 				id: "6B08017AB84D717D"
 				item: "gtceu:smd_transistor"
 				type: "item"
 			}]
-			x: -8.5d
-			y: 6.5d
+			x: -8.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["47E810FD91649121"]
 			id: "553B055E72DF5B91"
+			shape: "diamond"
 			tasks: [{
 				id: "59BA82BBE4F163D5"
 				item: "gtceu:smd_capacitor"
 				type: "item"
 			}]
-			x: -9.0d
-			y: 4.5d
+			x: -8.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["47E810FD91649121"]
 			id: "0DA8792DBD69AD9D"
+			shape: "diamond"
 			tasks: [{
 				id: "6FB5EE5036A122A3"
 				item: "gtceu:smd_inductor"
 				type: "item"
 			}]
-			x: -7.5d
-			y: 7.0d
+			x: -7.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["47E810FD91649121"]
 			description: ["{gto.hv.quests.5559EBCB8F2C4296.description0}"]
 			id: "5559EBCB8F2C4296"
+			shape: "diamond"
 			tasks: [{
 				id: "7399BFE90A39A251"
 				item: "gtceu:smd_diode"
 				type: "item"
 			}]
-			x: -6.5d
-			y: 7.0d
+			x: -8.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["7E963A64B5EB7C20"]
+			description: [""]
 			id: "47E810FD91649121"
+			shape: "diamond"
 			tasks: [{
 				id: "7D3334E8AD4302E3"
 				title: "{gto.hv.quests.47E810FD91649121.tasks.7D3334E8AD4302E3.title}"
 				type: "checkmark"
 			}]
-			x: -7.0d
-			y: 5.0d
+			x: -7.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["2F6C81E3B10365E8"]
@@ -1496,6 +1622,7 @@
 				item: "gtocore:organ_modifier"
 				type: "item"
 			}]
+			shape: "hexagon"
 			subtitle: "{gto.hv.quests.06E8CF5F701850A1.subtitle}"
 			tasks: [
 				{
@@ -1546,7 +1673,7 @@
 			]
 			title: "{gto.hv.quests.06E8CF5F701850A1.title}"
 			x: 10.5d
-			y: 2.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["310210D2AD9515E3"]
@@ -1563,6 +1690,86 @@
 			}]
 			x: 13.5d
 			y: 2.0d
+		}
+		{
+			dependencies: [
+				"268C28F66FA4C91F"
+				"4BA890971C18F938"
+			]
+			description: [
+				"{gto.hv.quests.518FEC9206E3B5A0.description0}"
+				""
+				"{gto.hv.quests.518FEC9206E3B5A0.description1}"
+			]
+			id: "518FEC9206E3B5A0"
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "0FB51EB4F5C498F7"
+				item: "gtocore:large_steam_input_hatch"
+				type: "item"
+			}]
+			x: 16.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"44371F3C6C35E6E6"
+				"513493E29DC69E32"
+			]
+			id: "0C2743077DB8406F"
+			tasks: [{
+				id: "5E8F661FA9817940"
+				item: "gtceu:nand_memory_chip"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["38EF7B8DB3A08AB2"]
+			description: ["{gto.hv.quests.79ED4BD0715A11A6.description0}"]
+			id: "79ED4BD0715A11A6"
+			tasks: [{
+				id: "6E287DBBF8183635"
+				item: "gtceu:nand_chip"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["198304056173E631"]
+			id: "513493E29DC69E32"
+			tasks: [{
+				id: "37A282F32DFE80C4"
+				item: "gtceu:gray_glass_lens"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["198304056173E631"]
+			id: "31301A89DE841C2D"
+			tasks: [{
+				id: "52164D2D8B840ACD"
+				item: "gtceu:cyan_glass_lens"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["31301A89DE841C2D"]
+			id: "38EF7B8DB3A08AB2"
+			tasks: [{
+				id: "5CEB34E59AE7CBDC"
+				item: "gtceu:simple_soc"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 4.0d
 		}
 	]
 	subtitle: ["{gto.hv.subtitle0}"]

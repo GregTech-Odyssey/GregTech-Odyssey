@@ -5,15 +5,62 @@
 	group: "2A1218851E38A2EE"
 	icon: "gtceu:assembly_line"
 	id: "3F8D9D2B382EE265"
+	images: [
+		{
+			height: 1.1d
+			image: "xtonesreworked:block/bitt/12"
+			rotation: 0.0d
+			width: 1.1d
+			x: 8.5d
+			y: -5.5d
+		}
+		{
+			color: 16711935
+			height: 1.1d
+			image: "ftbquests:block/barrier_open"
+			order: 1
+			rotation: 0.0d
+			width: 1.1d
+			x: 8.5d
+			y: -5.5d
+		}
+		{
+			color: 16711935
+			height: 1.1d
+			image: "ftbquests:block/barrier_open"
+			order: 1
+			rotation: 0.0d
+			width: 1.1d
+			x: 22.0d
+			y: -8.5d
+		}
+		{
+			height: 1.1d
+			image: "xtonesreworked:block/bitt/12"
+			rotation: 0.0d
+			width: 1.1d
+			x: 22.0d
+			y: -8.5d
+		}
+	]
 	order_index: 7
-	quest_links: [{
-		id: "2103B4D5965B90DF"
-		linked_quest: "1CF7845875EEFA3B"
-		shape: "gear"
-		size: 2.0d
-		x: 6.0d
-		y: -5.5d
-	}]
+	quest_links: [
+		{
+			id: "2103B4D5965B90DF"
+			linked_quest: "1CF7845875EEFA3B"
+			shape: "gear"
+			size: 2.0d
+			x: 6.0d
+			y: -5.5d
+		}
+		{
+			id: "101D1D1E0461C66B"
+			linked_quest: "5F7635CC667AD219"
+			shape: "square"
+			x: 8.5d
+			y: -5.5d
+		}
+	]
 	quests: [
 		{
 			dependencies: ["7E7B941FF52CC0F2"]
@@ -94,7 +141,7 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: -6.5d
+			y: -5.5d
 		}
 		{
 			dependencies: [
@@ -644,6 +691,7 @@
 		}
 		{
 			dependencies: ["509269850A10116F"]
+			description: [""]
 			id: "1E239C34C36FAD60"
 			tasks: [
 				{
@@ -657,6 +705,7 @@
 					type: "item"
 				}
 			]
+			title: "{gto.iv.quests.1E239C34C36FAD60.title}"
 			x: 18.0d
 			y: -2.5d
 		}
@@ -996,7 +1045,10 @@
 			y: -3.5d
 		}
 		{
-			dependencies: ["251002F2103BDA84"]
+			dependencies: [
+				"251002F2103BDA84"
+				"5F522D73AF5F1B2F"
+			]
 			description: [
 				"{gto.iv.quests.029CAD5FD378D3E1.description0}"
 				""
@@ -1008,7 +1060,7 @@
 			]
 			id: "029CAD5FD378D3E1"
 			optional: true
-			shape: "pentagon"
+			shape: "square"
 			subtitle: "{gto.iv.quests.029CAD5FD378D3E1.subtitle}"
 			tasks: [{
 				id: "3CDD1FE8E3131DE2"

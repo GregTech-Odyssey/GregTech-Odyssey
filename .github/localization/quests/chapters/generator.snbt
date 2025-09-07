@@ -741,6 +741,7 @@
 		{
 			description: ["{gto.generator.quests.5795384C57874FE0.description0}"]
 			id: "5795384C57874FE0"
+			min_width: 250
 			tasks: [
 				{
 					id: "61A8424D1771475C"
