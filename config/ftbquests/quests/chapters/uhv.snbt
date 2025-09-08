@@ -920,6 +920,21 @@
 			x: 0.5d
 			y: 6.5d
 		}
+		{
+			dependencies: ["4C998EF199E7C5D0"]
+			description: ["超级机器们不需要整体框架。这也是你最后一次看到这个系列任务了"]
+			id: "43BFED52CCE2AEF8"
+			optional: true
+			shape: "diamond"
+			subtitle: "升级你的大型机器#5"
+			tasks: [{
+				id: "065A7612B2DCF2A3"
+				item: "gtocore:integral_framework_uhv"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.0d
+		}
 	]
 	subtitle: ["Tier9-UHV"]
 	title: "11. 极高压(UHV)"

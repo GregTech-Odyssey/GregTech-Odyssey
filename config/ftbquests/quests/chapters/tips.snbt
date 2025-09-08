@@ -971,7 +971,7 @@
 			description: [
 				"绝大多数有等级的&6功能性方块&r标明了其所属&e电压&r"
 				""
-				"有一些方块如&6线圈&r和&6玻璃&r没有标注，你需要在&b无线电网&r和&b里程碑&r两章查看对应的&e电压&r"
+				"有一些方块如&6线圈&r和&6玻璃&r没有标注，&e等级1对应LV电压&r。你也可以在&b无线电网&r和&b里程碑&r两章查看对应的电压"
 			]
 			hide_dependency_lines: true
 			icon: "gtceu:tempered_glass"

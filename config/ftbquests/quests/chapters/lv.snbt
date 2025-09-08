@@ -531,6 +531,8 @@
 			]
 			hide_dependent_lines: true
 			id: "268C28F66FA4C91F"
+			shape: "hexagon"
+			size: 1.5d
 			subtitle: "蒸汽时代再续！"
 			tasks: [{
 				id: "6DF99BFD9101B32B"
@@ -560,8 +562,8 @@
 				item: "gtocore:large_steam_circuit_assembler"
 				type: "item"
 			}]
-			x: -12.0d
-			y: -3.0d
+			x: -11.25d
+			y: -1.5d
 		}
 		{
 			dependencies: ["507807175748245C"]
@@ -690,8 +692,8 @@
 				type: "item"
 			}]
 			title: "激光之力！"
-			x: 8.5d
-			y: -6.0d
+			x: 7.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["33B01E889EE7E990"]
@@ -705,7 +707,6 @@
 				"提示：所有的舱室都自带&e自动输入/输出&r，你也可以用软锤关闭舱室以禁用这个功能"
 			]
 			id: "6465CCE684E0DD3B"
-			optional: true
 			subtitle: "关系到你的产物"
 			tasks: [
 				{
@@ -780,7 +781,6 @@
 			]
 			icon: "gtceu:maintenance_hatch"
 			id: "58434872C6EC4E32"
-			optional: true
 			subtitle: "最后要交代的琐碎话"
 			tasks: [
 				{
@@ -822,7 +822,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -8.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["2C63E85A7D29712A"]
@@ -832,7 +832,7 @@
 				item: "gtceu:annealed_copper_ingot"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 2.0d
 			y: -8.5d
 		}
 		{
@@ -846,7 +846,7 @@
 				item: "gtocore:electric_heater"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 3.5d
 			y: -8.5d
 		}
 		{
@@ -953,8 +953,8 @@
 				item: "gtocore:lava_furnace"
 				type: "item"
 			}]
-			x: -11.25d
-			y: -1.5d
+			x: -12.0d
+			y: -3.0d
 		}
 		{
 			dependencies: [
@@ -981,6 +981,8 @@
 				"厌倦了堆叠单方块发电机？"
 				""
 				"你可以在任何大量用电的地方见识一下它的POWER"
+				""
+				"使用无线电网模式无需放置动力仓"
 			]
 			hide_dependency_lines: true
 			id: "0F5CFFD0108CC61B"
@@ -1213,8 +1215,8 @@
 				item: "gtceu:lv_emitter"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -6.0d
+			x: 5.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["507807175748245C"]
@@ -1225,20 +1227,18 @@
 				item: "gtocore:steel_emitter_base"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -7.0d
+			x: 5.5d
+			y: -8.5d
 		}
 		{
-			dependencies: ["507807175748245C"]
-			hide_dependency_lines: true
 			id: "7F4F5999F7A65E0F"
 			tasks: [{
 				id: "428AB01EAAFD1B6F"
 				item: "gtceu:quartzite_gem"
 				type: "item"
 			}]
-			x: 5.5d
-			y: -6.0d
+			x: 4.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["5FBCB0C7F914D814"]
@@ -1289,7 +1289,7 @@
 				item: "gtocore:steel_sensor_casing"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 5.5d
 			y: -4.0d
 		}
 		{
@@ -1304,8 +1304,8 @@
 				item: "gtceu:lv_sensor"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -5.0d
+			x: 5.5d
+			y: -5.5d
 		}
 		{
 			dependencies: [
@@ -1336,8 +1336,8 @@
 					type: "item"
 				}
 			]
-			x: 8.5d
-			y: -5.0d
+			x: 7.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["7643029900C2F8B3"]
@@ -1386,7 +1386,7 @@
 				item: "gtceu:lv_cutter"
 				type: "item"
 			}]
-			x: 8.5d
+			x: 7.0d
 			y: -4.0d
 		}
 		{
@@ -1445,7 +1445,7 @@
 				item: "gtceu:cobalt_brass_buzz_saw_blade"
 				type: "item"
 			}]
-			x: 8.5d
+			x: 7.0d
 			y: -2.5d
 		}
 		{
@@ -1470,8 +1470,8 @@
 				item: "gtceu:lv_miner"
 				type: "item"
 			}]
-			x: 5.5d
-			y: -4.0d
+			x: 4.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["33B01E889EE7E990"]
@@ -1506,7 +1506,6 @@
 				"4C535A516D8551F5"
 				"4ECCD5C54FE7F706"
 			]
-			description: [""]
 			id: "3353A95BCFD955F1"
 			tasks: [{
 				id: "737B9FF9BCEB1630"
@@ -1838,8 +1837,8 @@
 				type: "item"
 			}]
 			title: "用力摇！"
-			x: -11.25d
-			y: 1.5d
+			x: -13.5d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -1861,7 +1860,7 @@
 				type: "item"
 			}]
 			title: "不仅离心，还要有点热"
-			x: -10.5d
+			x: -12.0d
 			y: 0.0d
 		}
 		{
@@ -1888,8 +1887,8 @@
 				type: "item"
 			}]
 			title: "更大的滚筒洗衣机"
-			x: -12.0d
-			y: 0.0d
+			x: -11.25d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -1917,7 +1916,10 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["70166E7FA6559076"]
+			dependencies: [
+				"70166E7FA6559076"
+				"268C28F66FA4C91F"
+			]
 			description: [
 				"天空传来一声巨响，&6大型青铜熔炉&r闪亮登场！！"
 				""
@@ -1937,8 +1939,8 @@
 				type: "item"
 			}]
 			title: "把所有的玩意儿全丢进去烧了"
-			x: -12.75d
-			y: -1.5d
+			x: -10.5d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -1946,11 +1948,11 @@
 				"268C28F66FA4C91F"
 			]
 			description: [
-				"我认为你并不会在这个阶段需要它，不过你在这个阶段也造不出这个大家伙"
+				"用于大量产出你目前需要的合金粉"
 				""
 				"跟其他进阶蒸汽多方块一样的&d并行、蒸汽消耗和debuff&r"
 				""
-				"当然可能存在&6液体&r参与搅拌的配方，你需要有个&d输入仓&r来输入液体"
+				"注意它不能执行&6液体&r参与搅拌的配方"
 			]
 			id: "2A107C5DD4BC53A3"
 			shape: "hexagon"
@@ -1962,8 +1964,8 @@
 				type: "item"
 			}]
 			title: "更大的锅与更大的搅拌棍"
-			x: -9.75d
-			y: 1.5d
+			x: -12.75d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -1987,8 +1989,8 @@
 				type: "item"
 			}]
 			title: "敲碎他们！"
-			x: -13.5d
-			y: 0.0d
+			x: -14.25d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -1998,7 +2000,7 @@
 			description: [
 				"这个大家伙不仅具有&e32并行&r，而且还可以通过升级蒸汽输入仓来产出&4副产物"
 				"&r"
-				"但很明显的，&a大型蒸汽输入仓&r你现在是获取不了的，不过到了能获取它的时候，&6大型蒸汽破碎机&r依然很强力"
+				"但很明显的，&a大型蒸汽输入仓&r你现在是获取不了的，不过到了能获取它的时候，&6大型蒸汽研磨机&r依然很强力"
 				""
 				"&8&8记得准备一个足够大的输出总线&r&r"
 			]
@@ -2012,7 +2014,7 @@
 				type: "item"
 			}]
 			title: "蒸汽之力"
-			x: -14.25d
+			x: -9.75d
 			y: 1.5d
 		}
 	]

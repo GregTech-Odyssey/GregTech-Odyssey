@@ -597,7 +597,7 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"塞入小发电机进行并行发电，还有额外1.5倍发电。"
+				"塞入小发电机进行并行发电，还有额外发电倍率。"
 				"无线电网启用有5%损耗"
 				"&c最多可塞入4个小发电机&r"
 			]

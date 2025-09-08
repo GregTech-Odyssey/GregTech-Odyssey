@@ -1575,6 +1575,7 @@
 				"0BC456B4331C09F5"
 				"2544898A725CC1A3"
 			]
+			description: ["不会消耗催化剂的耐久"]
 			id: "6F43BA73FE817566"
 			tasks: [{
 				id: "00521BD2414BD997"
@@ -1603,7 +1604,6 @@
 				"62402E1DBC9CF1B4"
 				"1612D1DEB3A7BE2D"
 			]
-			description: [""]
 			id: "669DBEFFDD7B3496"
 			subtitle: "样板总成再次升级！"
 			tasks: [{

@@ -696,8 +696,8 @@
 				item: "gtceu:alloy_blast_smelter"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -2.5d
+			x: 5.0d
+			y: -4.5d
 		}
 		{
 			dependencies: [
@@ -1044,14 +1044,13 @@
 			description: ["EV初期你最强力的单方块电力来源"]
 			id: "7BAEF04EC7896079"
 			shape: "diamond"
-			size: 1.5d
 			tasks: [{
 				id: "1F0C897FEDA2C6DC"
 				item: "gtocore:ev_rocket_engine"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -12.75d
+			x: 0.5d
+			y: -9.5d
 		}
 		{
 			dependencies: ["34AFC3B776E00E48"]
@@ -1194,14 +1193,14 @@
 			]
 			id: "5FC85281DA794E02"
 			shape: "hexagon"
-			size: 1.0d
+			size: 1.5d
 			tasks: [{
 				id: "151BAA19BA2596B5"
 				item: "gtceu:silicone_rubber_bucket"
 				type: "item"
 			}]
-			x: 0.5d
-			y: -9.5d
+			x: -0.5d
+			y: -13.0d
 		}
 		{
 			dependencies: ["08891CB1BAFA5515"]

@@ -691,7 +691,6 @@
 		}
 		{
 			dependencies: ["509269850A10116F"]
-			description: [""]
 			id: "1E239C34C36FAD60"
 			tasks: [
 				{
@@ -1029,7 +1028,7 @@
 			dependencies: ["23DB14B3093506B8"]
 			id: "1380B1134D0C1C8E"
 			shape: "diamond"
-			subtitle: "升级你的大型机器"
+			subtitle: "升级你的大型机器#1"
 			tasks: [{
 				id: "1EAAD9C8D9D7DEA3"
 				item: "gtocore:integral_framework_iv"
@@ -1067,7 +1066,7 @@
 		{
 			dependencies: ["1B8F815BF14E7AE8"]
 			description: [
-				"催化剂仓允许你重复利用催化剂，每次使用只会消耗1点耐久而非消耗"
+				"催化剂仓允许你重复利用催化剂，每次使用只会消耗&b1点&r耐久而非消耗"
 				""
 				"注意催化剂仓中只能放入由&6催化剂基底&r合成的催化剂"
 			]
