@@ -1104,16 +1104,6 @@
 			x: -13.5d
 			y: -11.5d
 		}
-		{
-			id: "428201F2AEBFF3B0"
-			tasks: [{
-				id: "20D42C016012F906"
-				item: "gtceu:molybdenum_disilicide_coil_block"
-				type: "item"
-			}]
-			x: -10.0d
-			y: -12.5d
-		}
 	]
 	title: "{gto.progress.title}"
 }

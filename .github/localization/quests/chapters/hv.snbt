@@ -48,8 +48,8 @@
 			image: "xtonesreworked:block/bitt/12"
 			rotation: 0.0d
 			width: 1.1d
-			x: 5.0d
-			y: 7.5d
+			x: 1.0d
+			y: 5.5d
 		}
 		{
 			color: 16711935
@@ -58,8 +58,8 @@
 			order: 1
 			rotation: 0.0d
 			width: 1.1d
-			x: 5.0d
-			y: 7.5d
+			x: 1.0d
+			y: 5.5d
 		}
 	]
 	order_index: 5
@@ -77,7 +77,7 @@
 			linked_quest: "0A9501C9027AC03D"
 			shape: "hexagon"
 			size: 1.5d
-			x: 5.0d
+			x: 3.0d
 			y: 5.5d
 		}
 		{
@@ -127,8 +127,8 @@
 			id: "78F40ABD52DF9590"
 			linked_quest: "5F522D73AF5F1B2F"
 			shape: "square"
-			x: 5.0d
-			y: 7.5d
+			x: 1.0d
+			y: 5.5d
 		}
 	]
 	quests: [
@@ -462,10 +462,7 @@
 			y: -1.5d
 		}
 		{
-			dependencies: [
-				"6F760D81DC93ACFB"
-				"25BC9C4F2CE29E4B"
-			]
+			dependencies: ["25BC9C4F2CE29E4B"]
 			description: ["{gto.hv.quests.6FADB25C6138D12A.description0}"]
 			id: "6FADB25C6138D12A"
 			shape: "hexagon"
@@ -475,13 +472,13 @@
 				item: "gtocore:rocket_assembler"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 3.5d
+			x: 7.0d
+			y: 5.5d
 		}
 		{
 			dependencies: [
 				"6FADB25C6138D12A"
-				"7E886CD0AEB92FFB"
+				"23A3A8F6E6738331"
 			]
 			description: [
 				"{gto.hv.quests.408CD587E28DFDCA.description0}"
@@ -910,7 +907,7 @@
 		}
 		{
 			dependencies: ["5D828A5258BFF11F"]
-			hide_dependency_lines: true
+			hide_dependent_lines: true
 			id: "44371F3C6C35E6E6"
 			shape: "hexagon"
 			size: 1.5d
@@ -919,8 +916,8 @@
 				item: "gtceu:hv_cutter"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 4.0d
+			x: -4.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["4FC754BAFAB7C79F"]
@@ -978,7 +975,7 @@
 				"6F760D81DC93ACFB"
 				"6D251F85DDB81408"
 				"38EF7B8DB3A08AB2"
-				"0C2743077DB8406F"
+				"0CC813B9DBC397AF"
 			]
 			description: [
 				"{gto.hv.quests.2A9088FA11D26BDD.description0}"
@@ -987,7 +984,6 @@
 				""
 				"{gto.hv.quests.2A9088FA11D26BDD.description2}"
 			]
-			hide_dependency_lines: true
 			id: "2A9088FA11D26BDD"
 			tasks: [{
 				id: "3B861FE0D68E7C66"
@@ -1096,7 +1092,7 @@
 				item: "gtocore:heavy_duty_plate_1"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 5.0d
 			y: 5.5d
 		}
 		{
@@ -1316,11 +1312,14 @@
 				item: "gtceu:exquisite_glass_gem"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 5.5d
+			x: 5.0d
+			y: 3.5d
 		}
 		{
-			dependencies: ["28F58E4992AA1D0C"]
+			dependencies: [
+				"28F58E4992AA1D0C"
+				"44371F3C6C35E6E6"
+			]
 			id: "0567086688790F7D"
 			tasks: [{
 				id: "2AA30CD56750CC38"
@@ -1354,7 +1353,7 @@
 				title: "{gto.hv.quests.4D1E1C19CF9CD579.tasks.05AA92EB53BD30AA.title}"
 				type: "dimension"
 			}]
-			x: -3.0d
+			x: -2.5d
 			y: -1.0d
 		}
 		{
@@ -1369,7 +1368,7 @@
 				title: "{gto.hv.quests.2347B80279A03F0D.tasks.0449786CCD4F5BFA.title}"
 				type: "dimension"
 			}]
-			x: 0.0d
+			x: -0.5d
 			y: -1.0d
 		}
 		{
@@ -1710,7 +1709,7 @@
 				type: "item"
 			}]
 			x: 16.5d
-			y: -1.5d
+			y: -1.25d
 		}
 		{
 			dependencies: [
@@ -1730,6 +1729,7 @@
 			dependencies: ["38EF7B8DB3A08AB2"]
 			description: ["{gto.hv.quests.79ED4BD0715A11A6.description0}"]
 			id: "79ED4BD0715A11A6"
+			shape: "diamond"
 			tasks: [{
 				id: "6E287DBBF8183635"
 				item: "gtceu:nand_chip"
@@ -1762,6 +1762,7 @@
 		}
 		{
 			dependencies: ["31301A89DE841C2D"]
+			hide_dependent_lines: true
 			id: "38EF7B8DB3A08AB2"
 			tasks: [{
 				id: "5CEB34E59AE7CBDC"
@@ -1770,6 +1771,59 @@
 			}]
 			x: -5.0d
 			y: 4.0d
+		}
+		{
+			dependencies: ["0C2743077DB8406F"]
+			description: ["{gto.hv.quests.0CC813B9DBC397AF.description0}"]
+			id: "0CC813B9DBC397AF"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "623E5631CC8AAA62"
+				item: {
+					Count: 1
+					id: "gtceu:data_stick"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.9833333333333343d
+			y: 4.026190476190472d
+		}
+		{
+			dependencies: [
+				"7E886CD0AEB92FFB"
+				"25BC9C4F2CE29E4B"
+			]
+			id: "23A3A8F6E6738331"
+			tasks: [
+				{
+					id: "08CAC9788AC0716A"
+					item: "ad_astra:rocket_nose_cone"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "5B3EB514DE57DEBC"
+					item: "ad_astra:steel_tank"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "6DB6FE7DFF4E5AB7"
+					item: "ad_astra:steel_engine"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "6E7F5AF3E64A3EE7"
+					item: "ad_astra:rocket_fin"
+					type: "item"
+				}
+			]
+			title: "{gto.hv.quests.23A3A8F6E6738331.title}"
+			x: 7.0d
+			y: 3.5d
 		}
 	]
 	subtitle: ["{gto.hv.subtitle0}"]

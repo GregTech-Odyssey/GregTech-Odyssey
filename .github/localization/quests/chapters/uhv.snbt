@@ -929,6 +929,21 @@
 			x: 0.5d
 			y: 6.5d
 		}
+		{
+			dependencies: ["4C998EF199E7C5D0"]
+			description: ["{gto.uhv.quests.43BFED52CCE2AEF8.description0}"]
+			id: "43BFED52CCE2AEF8"
+			optional: true
+			shape: "diamond"
+			subtitle: "{gto.uhv.quests.43BFED52CCE2AEF8.subtitle}"
+			tasks: [{
+				id: "065A7612B2DCF2A3"
+				item: "gtocore:integral_framework_uhv"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.0d
+		}
 	]
 	subtitle: ["{gto.uhv.subtitle0}"]
 	title: "{gto.uhv.title}"

@@ -203,6 +203,7 @@
 		}
 		{
 			dependencies: ["608F56E6A187940C"]
+			description: ["{gto.zpm.quests.0BB1BDBE8BB307E4.description0}"]
 			hide_dependency_lines: true
 			id: "0BB1BDBE8BB307E4"
 			shape: "circle"
@@ -956,6 +957,22 @@
 			tasks: [{
 				id: "270877B95A714083"
 				item: "gtceu:mutagen_bucket"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["44B34806DA0FEA9A"]
+			description: ["{gto.zpm.quests.08DEEC16D9580930.description0}"]
+			id: "08DEEC16D9580930"
+			tasks: [{
+				id: "58C98F5527FB3221"
+				item: {
+					Count: 1
+					id: "gtocore:neural_matrix"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: -6.0d
