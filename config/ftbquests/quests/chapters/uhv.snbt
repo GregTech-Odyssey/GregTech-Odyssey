@@ -128,6 +128,7 @@
 			dependencies: ["208F73ECE425E473"]
 			id: "4C998EF199E7C5D0"
 			shape: "hexagon"
+			size: 1.5d
 			subtitle: "蓝莓甜甜圈"
 			tasks: [{
 				id: "07871F425DC0612C"
@@ -921,8 +922,12 @@
 			y: 6.5d
 		}
 		{
-			dependencies: ["4C998EF199E7C5D0"]
-			description: ["超级机器们不需要整体框架。这也是你最后一次看到这个系列任务了"]
+			dependencies: ["187C5D9C4BFCFD35"]
+			description: [
+				"你可以不做&4UHV&r的，因为你马上要换&6巨构&r了（在做出&6光&e学&6处&e理&6器&e主&6机&r之后），而巨构们&c不需要&r整体框架。"
+				""
+				"这也是你最后一次看到这个系列任务了"
+			]
 			id: "43BFED52CCE2AEF8"
 			optional: true
 			shape: "diamond"
@@ -930,6 +935,21 @@
 			tasks: [{
 				id: "065A7612B2DCF2A3"
 				item: "gtocore:integral_framework_uhv"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"4C998EF199E7C5D0"
+				"27CD17C4B3613171"
+			]
+			description: ["又是魔法！不过这个阶段&6银钻&r并不是必做的东西，你可以等到&aUEV&r再头疼盖亚魂循环"]
+			id: "187C5D9C4BFCFD35"
+			tasks: [{
+				id: "0B04723966A464CE"
+				item: "gtocore:quicksilver_bucket"
 				type: "item"
 			}]
 			x: 5.5d
