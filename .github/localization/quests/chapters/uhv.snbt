@@ -131,6 +131,7 @@
 			dependencies: ["208F73ECE425E473"]
 			id: "4C998EF199E7C5D0"
 			shape: "hexagon"
+			size: 1.5d
 			subtitle: "{gto.uhv.quests.4C998EF199E7C5D0.subtitle}"
 			tasks: [{
 				id: "07871F425DC0612C"
@@ -930,8 +931,12 @@
 			y: 6.5d
 		}
 		{
-			dependencies: ["4C998EF199E7C5D0"]
-			description: ["{gto.uhv.quests.43BFED52CCE2AEF8.description0}"]
+			dependencies: ["187C5D9C4BFCFD35"]
+			description: [
+				"{gto.uhv.quests.43BFED52CCE2AEF8.description0}"
+				""
+				"{gto.uhv.quests.43BFED52CCE2AEF8.description1}"
+			]
 			id: "43BFED52CCE2AEF8"
 			optional: true
 			shape: "diamond"
@@ -939,6 +944,21 @@
 			tasks: [{
 				id: "065A7612B2DCF2A3"
 				item: "gtocore:integral_framework_uhv"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"4C998EF199E7C5D0"
+				"27CD17C4B3613171"
+			]
+			description: ["{gto.uhv.quests.187C5D9C4BFCFD35.description0}"]
+			id: "187C5D9C4BFCFD35"
+			tasks: [{
+				id: "0B04723966A464CE"
+				item: "gtocore:quicksilver_bucket"
 				type: "item"
 			}]
 			x: 5.5d

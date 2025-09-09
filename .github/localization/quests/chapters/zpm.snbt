@@ -11,7 +11,7 @@
 			image: "xtonesreworked:block/bitt/12"
 			rotation: 0.0d
 			width: 1.1d
-			x: -8.5d
+			x: -9.0d
 			y: -6.0d
 		}
 		{
@@ -21,7 +21,7 @@
 			order: 1
 			rotation: 0.0d
 			width: 1.1d
-			x: -8.5d
+			x: -9.0d
 			y: -6.0d
 		}
 	]
@@ -32,14 +32,14 @@
 			linked_quest: "3490AACD4AA62C5D"
 			shape: "gear"
 			size: 2.0d
-			x: -8.5d
+			x: -9.0d
 			y: -4.0d
 		}
 		{
 			id: "52240C285F13ADF8"
 			linked_quest: "05833AD0EAA634A7"
 			shape: "square"
-			x: -8.5d
+			x: -9.0d
 			y: -6.0d
 		}
 	]
@@ -55,7 +55,7 @@
 			}]
 			title: "{gto.zpm.quests.5E32A6DFE04D28F4.title}"
 			x: -2.0d
-			y: 7.0d
+			y: 7.5d
 		}
 		{
 			dependencies: [
@@ -68,8 +68,8 @@
 				item: "gtceu:neuro_processing_unit"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 5.5d
+			x: 0.0d
+			y: 7.5d
 		}
 		{
 			dependencies: [
@@ -93,12 +93,12 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: 3.5d
+			y: 5.0d
 		}
 		{
 			dependencies: [
 				"722C24B0C50641D1"
-				"608F56E6A187940C"
+				"7E4DBCAC89579784"
 			]
 			dependency_requirement: "one_completed"
 			description: ["{gto.zpm.quests.717F73B64CA7E035.description0}"]
@@ -110,12 +110,14 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: 0.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["19127B42AB919C11"]
 			description: ["{gto.zpm.quests.608F56E6A187940C.description0}"]
 			id: "608F56E6A187940C"
+			shape: "hexagon"
+			size: 1.5d
 			tasks: [{
 				id: "2A177DF08FC91802"
 				item: "gtceu:sterilizing_filter_casing"
@@ -158,6 +160,7 @@
 				"1F94544576D30A92"
 				"697AE6FFF1F2D877"
 			]
+			description: ["{gto.zpm.quests.502F7DD0C930D5BF.description0}"]
 			id: "502F7DD0C930D5BF"
 			rewards: [{
 				id: "39FD30D214813A1C"
@@ -180,8 +183,8 @@
 				item: "gtocore:biochemical_extraction"
 				type: "item"
 			}]
-			x: -8.5d
-			y: 3.5d
+			x: -9.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["3490AACD4AA62C5D"]
@@ -198,15 +201,14 @@
 				item: "gtocore:biochemical_reaction"
 				type: "item"
 			}]
-			x: -8.5d
-			y: -1.5d
+			x: -9.0d
+			y: 0.0d
 		}
 		{
-			dependencies: ["608F56E6A187940C"]
+			dependencies: ["2FF39933AC2AC5BE"]
 			description: ["{gto.zpm.quests.0BB1BDBE8BB307E4.description0}"]
-			hide_dependency_lines: true
 			id: "0BB1BDBE8BB307E4"
-			shape: "circle"
+			shape: "hexagon"
 			tasks: [{
 				id: "0B03EDAA52FCC18F"
 				item: {
@@ -216,8 +218,8 @@
 				}
 				type: "item"
 			}]
-			x: 4.0d
-			y: 5.5d
+			x: 1.5d
+			y: 3.0d
 		}
 		{
 			dependencies: [
@@ -231,8 +233,8 @@
 				item: "gtocore:fuel_refining_complex"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 7.0d
+			x: 1.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["19127B42AB919C11"]
@@ -243,7 +245,7 @@
 				item: "gtceu:tritanium_coil_block"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 0.0d
 			y: -1.5d
 		}
 		{
@@ -254,8 +256,8 @@
 				item: "gtceu:enriched_naquadah_trinium_europium_duranide_ingot"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 0.0d
+			x: 1.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["24F1061AFD1BFEB2"]
@@ -266,8 +268,8 @@
 				item: "gtceu:network_switch"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -1.5d
+			x: 1.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["24F1061AFD1BFEB2"]
@@ -279,8 +281,8 @@
 				item: "gtceu:mega_blast_furnace"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -1.5d
+			x: 3.75d
+			y: -2.25d
 		}
 		{
 			dependencies: ["24F1061AFD1BFEB2"]
@@ -292,8 +294,8 @@
 				item: "gtocore:mega_alloy_blast_smelter"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 1.5d
+			x: 3.75d
+			y: -0.75d
 		}
 		{
 			dependencies: ["24F1061AFD1BFEB2"]
@@ -305,8 +307,8 @@
 				item: "gtceu:mega_vacuum_freezer"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 0.0d
+			x: 4.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["1DE0A599F076C31A"]
@@ -316,7 +318,7 @@
 				item: "gtceu:darmstadtium_ingot"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 1.5d
 			y: -4.0d
 		}
 		{
@@ -337,7 +339,7 @@
 				type: "item"
 			}]
 			title: "{gto.zpm.quests.256F90AFB461107E.title}"
-			x: 4.0d
+			x: 4.5d
 			y: -4.0d
 		}
 		{
@@ -351,7 +353,7 @@
 			}]
 			title: "{gto.zpm.quests.348156EA1A381ABF.title}"
 			x: -4.0d
-			y: 7.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["0BB1BDBE8BB307E4"]
@@ -360,6 +362,7 @@
 				""
 				"{gto.zpm.quests.49E04C29B878D3A8.description1}"
 			]
+			hide_dependent_lines: true
 			icon: {
 				Count: 1
 				id: "ad_astra_rocketed:tier_7_rocket"
@@ -384,8 +387,8 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
-			y: 5.5d
+			x: 3.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["19134C6F6A115AEE"]
@@ -404,8 +407,8 @@
 				type: "item"
 			}]
 			title: "{gto.zpm.quests.19B07E541BE74686.title}"
-			x: -8.5d
-			y: 7.0d
+			x: -9.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["608F56E6A187940C"]
@@ -416,7 +419,7 @@
 				item: "gtocore:sterile_cleaning_maintenance_hatch"
 				type: "item"
 			}]
-			x: -0.5d
+			x: 0.0d
 			y: 0.0d
 		}
 		{
@@ -428,7 +431,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: -3.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["06099A423968D6E0"]
@@ -440,7 +443,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: -1.5d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -478,7 +481,7 @@
 			]
 			title: "{gto.zpm.quests.747599D690EADE56.title}"
 			x: -6.0d
-			y: 0.0d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -512,7 +515,7 @@
 			]
 			title: "{gto.zpm.quests.7FED9F9CC769610C.title}"
 			x: -7.5d
-			y: 0.0d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -530,7 +533,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: 1.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["65A2C89AD67604DE"]
@@ -548,7 +551,7 @@
 				type: "item"
 			}]
 			x: -6.0d
-			y: -3.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["3490AACD4AA62C5D"]
@@ -562,8 +565,8 @@
 				item: "gtocore:large_incubator"
 				type: "item"
 			}]
-			x: -10.5d
-			y: -1.5d
+			x: -11.0d
+			y: -2.25d
 		}
 		{
 			dependencies: ["3490AACD4AA62C5D"]
@@ -575,11 +578,14 @@
 				item: "gtocore:radiation_hatch"
 				type: "item"
 			}]
-			x: -10.5d
+			x: -11.0d
 			y: -4.0d
 		}
 		{
-			dependencies: ["1817710A29037DB0"]
+			dependencies: [
+				"1817710A29037DB0"
+				"7E4DBCAC89579784"
+			]
 			id: "2FF39933AC2AC5BE"
 			tasks: [{
 				id: "08777A99EA37841C"
@@ -589,8 +595,8 @@
 				}
 				type: "item"
 			}]
-			x: -0.5d
-			y: 5.5d
+			x: 0.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["3490AACD4AA62C5D"]
@@ -604,8 +610,8 @@
 				}
 				type: "item"
 			}]
-			x: -0.5d
-			y: 7.0d
+			x: 0.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["348156EA1A381ABF"]
@@ -618,7 +624,7 @@
 			}]
 			title: "{gto.zpm.quests.19134C6F6A115AEE.title}"
 			x: -6.0d
-			y: 7.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["44B34806DA0FEA9A"]
@@ -631,13 +637,13 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: 3.5d
+			y: 4.5d
 		}
 		{
 			dependencies: [
-				"502F7DD0C930D5BF"
 				"0099AE8ACBB72951"
 				"06DF372F16F1A5CA"
+				"3CBA56988C0F8E7E"
 			]
 			id: "44B34806DA0FEA9A"
 			subtitle: "{gto.zpm.quests.44B34806DA0FEA9A.subtitle}"
@@ -647,7 +653,7 @@
 				type: "item"
 			}]
 			x: -6.0d
-			y: 3.5d
+			y: 4.5d
 		}
 		{
 			dependencies: [
@@ -669,7 +675,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: 1.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["3490AACD4AA62C5D"]
@@ -681,7 +687,7 @@
 				item: "gtceu:zpm_energy_input_hatch"
 				type: "item"
 			}]
-			x: -5.0d
+			x: -5.5d
 			y: -4.0d
 		}
 		{
@@ -695,8 +701,8 @@
 				item: "gtocore:algae_farm"
 				type: "item"
 			}]
-			x: -10.5d
-			y: 0.25d
+			x: -11.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["590D044B9C85B84A"]
@@ -730,8 +736,8 @@
 				}
 			]
 			title: "{gto.zpm.quests.3F041E002D75AB2C.title}"
-			x: -10.5d
-			y: 2.0d
+			x: -11.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["3F041E002D75AB2C"]
@@ -761,8 +767,8 @@
 				}
 			]
 			title: "{gto.zpm.quests.697AE6FFF1F2D877.title}"
-			x: -10.5d
-			y: 3.5d
+			x: -11.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["67050CC889ABB614"]
@@ -775,7 +781,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: 5.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["19B07E541BE74686"]
@@ -795,8 +801,8 @@
 				item: "gtocore:advanced_assembly_line"
 				type: "item"
 			}]
-			x: -10.5d
-			y: 7.0d
+			x: -11.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["6DC73D6C2AD17444"]
@@ -812,8 +818,8 @@
 				item: "gtceu:name_casting_mold"
 				type: "item"
 			}]
-			x: -10.5d
-			y: 5.0d
+			x: -11.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["19B07E541BE74686"]
@@ -825,8 +831,8 @@
 				item: "gtocore:petrochemical_plant"
 				type: "item"
 			}]
-			x: -8.5d
-			y: 5.0d
+			x: -9.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["0985154AE9169549"]
@@ -844,7 +850,7 @@
 				}
 			]
 			title: "{gto.zpm.quests.78904EE60D9B411E.title}"
-			x: 2.5d
+			x: 4.5d
 			y: 1.5d
 		}
 		{
@@ -861,7 +867,7 @@
 				item: "gtocore:super_particle_collider"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 3.0d
 			y: 1.5d
 		}
 		{
@@ -873,7 +879,7 @@
 				item: "gtceu:astatine_dust"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 3.0d
 			y: 3.0d
 		}
 		{
@@ -888,7 +894,7 @@
 				item: "gtocore:integral_framework_zpm"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 4.5d
 			y: 3.0d
 		}
 		{
@@ -899,7 +905,7 @@
 				item: "gtocore:lafium_ingot"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 1.5d
 			y: 0.0d
 		}
 		{
@@ -930,7 +936,7 @@
 			]
 			title: "{gto.zpm.quests.7651697F32169E49.title}"
 			x: -6.0d
-			y: 1.5d
+			y: 3.0d
 		}
 		{
 			dependencies: [
@@ -948,10 +954,10 @@
 			}]
 			title: "{gto.zpm.quests.65A2C89AD67604DE.title}"
 			x: -6.0d
-			y: -1.5d
+			y: 0.0d
 		}
 		{
-			dependencies: ["7FED9F9CC769610C"]
+			dependencies: ["608F56E6A187940C"]
 			hide_dependency_lines: true
 			id: "0099AE8ACBB72951"
 			tasks: [{
@@ -959,24 +965,57 @@
 				item: "gtceu:mutagen_bucket"
 				type: "item"
 			}]
-			x: -7.5d
-			y: 5.0d
+			x: -6.0d
+			y: 6.0d
 		}
 		{
-			dependencies: ["44B34806DA0FEA9A"]
-			description: ["{gto.zpm.quests.08DEEC16D9580930.description0}"]
-			id: "08DEEC16D9580930"
+			dependencies: ["608F56E6A187940C"]
+			id: "7E4DBCAC89579784"
 			tasks: [{
-				id: "58C98F5527FB3221"
-				item: {
-					Count: 1
-					id: "gtocore:neural_matrix"
-					tag: { }
-				}
+				id: "62233B10FD891347"
+				item: "gtocore:sterilized_petri_dish"
 				type: "item"
 			}]
-			x: -6.0d
-			y: 5.0d
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["502F7DD0C930D5BF"]
+			description: ["{gto.zpm.quests.3CBA56988C0F8E7E.description0}"]
+			id: "3CBA56988C0F8E7E"
+			subtitle: "{gto.zpm.quests.3CBA56988C0F8E7E.subtitle}"
+			tasks: [
+				{
+					id: "0DC4CB1CB1874C75"
+					item: "minecraft:villager_spawn_egg"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4843BCBB8579733A"
+					item: "minecraft:witch_spawn_egg"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "{gto.zpm.quests.3CBA56988C0F8E7E.title}"
+			x: -7.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"3490AACD4AA62C5D"
+				"1156B92F11DA73B6"
+			]
+			id: "1B4F781414C7AEBA"
+			subtitle: "{gto.zpm.quests.1B4F781414C7AEBA.subtitle}"
+			tasks: [{
+				id: "1BC71058232BC8E9"
+				item: "gtocore:modular_configuration_maintenance_hatch"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -6.0d
 		}
 	]
 	subtitle: ["{gto.zpm.subtitle0}"]
