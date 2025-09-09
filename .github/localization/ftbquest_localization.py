@@ -2,6 +2,8 @@ import json
 import os
 from pathlib import Path
 import shutil
+import subprocess
+import sys
 
 import ftb_snbt_lib as snbt
 from ftb_snbt_lib.tag import Compound, List, String
@@ -25,6 +27,38 @@ ESCAPE_SUBS = {
     r'%': r'%%',
     r'"': r'\"'
 }
+
+MODE = sys.argv[1] if len(sys.argv) > 1 else None
+PUSH_BEFORE_COMMIT = sys.argv[2] if len(sys.argv) > 2 else None
+
+
+def get_file_at_commit(file_path, commit_sha):
+    """
+        获取某次 commit 的 json 文件内容。
+    """
+    try:
+        result = subprocess.run(
+            ['git', 'show', f'{commit_sha}:{file_path}'],
+            capture_output=True, text=True, check=True
+        )
+        return json.loads(result.stdout)
+    except Exception as e:
+        print(f"[ERROR] git show failed for {file_path} at {commit_sha}: {e}")
+        return {}
+
+
+def get_merge_base_commit_sha():
+    # 获取 merge commit 的第一个 parent sha
+    try:
+        result = subprocess.run(['git', 'rev-list', '--parents', '-n', '1', 'HEAD'], capture_output=True, text=True)
+        parts = result.stdout.strip().split()
+        if len(parts) > 2:  # merge commit
+            return parts[1]
+        else:
+            return None
+    except Exception as e:
+        print(f"[ERROR] get_merge_base_commit_sha failed: {e}")
+        return None
 
 
 def escape_string(text: str) -> str:
@@ -77,31 +111,75 @@ def _convert(data: Compound, lang_key: str):
                     data[key][i] = snbt.String(f'{{{lk}}}')
 
 
-def sync_language_files(source_keys: dict, target_keys: dict, target_language: str):
-    target_file_path = LANG_FILE_PATH / f'{target_language}.json'
-    if target_file_path.exists():
-        with open(target_file_path, 'r', encoding='utf-8') as f:
-            target_keys.update(json.load(f))
+def sync_language_files_incremental(source_keys: dict, source_language: str, target_language: str):
+    """
+    增量更新 en_us.json：只更新发生变动的 key，其余内容不变。
+    """
+    zh_cn_path = str(LANG_FILE_PATH / f'{source_language}.json')
+    en_us_path = str(LANG_FILE_PATH / f'{target_language}.json')
 
-    for key, value in source_keys.items():
-        if key not in target_keys:
-            target_keys[key] = value
-        elif contains_chinese(target_keys[key]):
-            target_keys[key] = value
+    # 加载新生成的中文文本
+    with open(zh_cn_path, 'r', encoding='utf-8') as f:
+        new_zh_cn = json.load(f)
 
-    for key in list(target_keys.keys()):
-        if key not in source_keys:
-            del target_keys[key]
+    # 加载操作之前的中文文本
+    if MODE == 'push':
+        old_zh_cn = get_file_at_commit(zh_cn_path, PUSH_BEFORE_COMMIT) if PUSH_BEFORE_COMMIT else {}
+    elif MODE == 'merge':
+        base_commit = get_merge_base_commit_sha()
+        old_zh_cn = get_file_at_commit(zh_cn_path, base_commit) if base_commit else {}
+    else:
+        old_zh_cn = {}
 
-    with open(target_file_path, 'w', encoding='utf-8') as f:
-        json.dump(dict(sorted(target_keys.items())), f, ensure_ascii=False, indent=4)
+    # 加载 en_us.json
+    try:
+        with open(en_us_path, 'r', encoding='utf-8') as f:
+            en_us = json.load(f)
+    except Exception:
+        en_us = {}
 
+    # 增量更新
+    if old_zh_cn and (MODE == 'push' or MODE == 'merge'):
+        # 有旧文件，做严格增量
+        changed_keys = {k for k in new_zh_cn if old_zh_cn.get(k) != new_zh_cn[k]}
 
-def contains_chinese(text: str) -> bool:
-    for char in text:
-        if '\u4e00' <= char <= '\u9fff':
-            return True
-    return False
+        # 输出变动的 key 及其内容，便于审核
+        print(f"[INFO] Changed keys: {len(changed_keys)}")
+        for k in changed_keys:
+            old_value = old_zh_cn.get(k, '<not present>')
+            old_en_value = en_us.get(k, '<not present>')
+            new_value = new_zh_cn[k]
+            print(f'- {k}:')
+            print(f'    Old cn: {old_value}')
+            print(f'    Old en: {old_en_value}')
+            print(f'    New cn: {new_value}')
+
+        # 更新变动的 key
+        for k in changed_keys:
+            en_us[k] = new_zh_cn[k]
+
+    else:
+        # 保守模式，只填充新增 key ，不动已有翻译
+        newly_added_keys = [k for k in new_zh_cn if k not in en_us]
+        for k in newly_added_keys:
+            en_us[k] = new_zh_cn[k]
+
+        # 输出新增的 key 及其内容，便于审核
+        print(f"[WARN] No old zh_cn found, only add {len(newly_added_keys)} new keys.")
+        for k in newly_added_keys:
+            print(f'- {k}: {new_zh_cn[k]}')
+
+    # 移除已删除的 key
+    for k in list(en_us.keys()):
+        # 保留 key 以 a.comment 开头的键值对
+        if k.startswith('a.comment'):
+            continue
+        if k not in new_zh_cn:
+            del en_us[k]
+
+    # 保存 en_us.json
+    with open(en_us_path, 'w', encoding='utf-8') as f:
+        json.dump(dict(sorted(en_us.items())), f, ensure_ascii=False, indent=4)
 
 
 def main():
@@ -119,7 +197,7 @@ def main():
     with open(LANG_FILE_PATH / f'{SOURCE_LANGUAGE}.json', 'w', encoding='utf-8') as f:
         json.dump(dict(sorted(SOURCE_KEYS.items())), f, ensure_ascii=False, indent=4)
 
-    sync_language_files(SOURCE_KEYS, TARGET_KEYS, TARGET_LANGUAGE)
+    sync_language_files_incremental(SOURCE_KEYS, SOURCE_LANGUAGE, TARGET_LANGUAGE)
 
 
 if __name__ == '__main__':
