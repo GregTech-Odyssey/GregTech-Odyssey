@@ -58,7 +58,8 @@
 			dependencies: ["7D370CF55A0AE36D"]
 			description: [
 				"顾名思义，烧东西来发电。"
-				"（本质上就是一个小型的&7火力发电机&r）"
+				""
+				"&o&7本质上就是一个小型的火力发电机&r&r"
 			]
 			id: "11FC35FC0409E3AC"
 			optional: true
@@ -166,7 +167,7 @@
 				type: "item"
 			}]
 			title: "一桶原油"
-			x: 6.0d
+			x: 6.5d
 			y: -2.0d
 		}
 		{
@@ -186,7 +187,7 @@
 				type: "item"
 			}]
 			title: "原始手段，原始配方"
-			x: 10.0d
+			x: 12.5d
 			y: -5.0d
 		}
 		{
@@ -194,7 +195,7 @@
 			description: [
 				"原始人对蒸馏塔的仿制版本，由于机体材料受限，温度过高会导致内部压力超出容限从而发生&4爆炸&r"
 				""
-				"你需要用&e煤炭/煤粉/煤炭块&r来给机器加热，还要用水给机器降温，你不会想知道它的威力的"
+				"你需要用&e煤炭/煤粉/煤炭块&r来给机器加热，还要用水给机器降温，&4你不会想知道它的威力的&r"
 				""
 				"流体校准器可以精确控制输入水的&6速率&r与被覆盖&6容器内流体容量&r，避免降温过快无法&c升温&r"
 				""
@@ -222,7 +223,7 @@
 				}
 			]
 			title: "来点原始人的石化处理"
-			x: 8.0d
+			x: 8.5d
 			y: -2.0d
 		}
 		{
@@ -245,8 +246,8 @@
 				type: "item"
 			}]
 			title: "初代大乱炖"
-			x: -0.5d
-			y: -1.5d
+			x: 2.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["1CC2469A8203DE05"]
@@ -282,6 +283,11 @@
 			]
 			description: ["在超低压时代先造一些凑活用点，后面电压上去了一定要换其他的机器来制作它"]
 			id: "03BB5A5C084F5194"
+			rewards: [{
+				id: "2B4925A037EE1B1A"
+				item: "gtceu:polyethylene_plate"
+				type: "item"
+			}]
 			shape: "gear"
 			size: 1.5d
 			subtitle: "千辛万苦"
@@ -291,7 +297,7 @@
 				type: "item"
 			}]
 			title: "塑料片"
-			x: 14.0d
+			x: 14.5d
 			y: -7.0d
 		}
 		{
@@ -315,8 +321,8 @@
 				type: "item"
 			}]
 			title: "空气从哪来？"
-			x: -1.25d
-			y: 2.5d
+			x: -2.0d
+			y: 2.8119047619047564d
 		}
 		{
 			dependencies: [
@@ -345,13 +351,12 @@
 				type: "item"
 			}]
 			title: "原始人的打包办法"
-			x: 4.5d
+			x: 5.0d
 			y: -7.0d
 		}
 		{
 			dependencies: [
 				"53109F7472C0B443"
-				"5CFDAB8B03980F9D"
 				"2D5EB54D9AC2F900"
 				"0B7EC948A9BA56EF"
 				"206990570B2743AE"
@@ -362,12 +367,20 @@
 				"一般来说新一级电压带来的&e新电路板&r都会比上一级电压的电路板&b便宜&r，记得做好更新迭代"
 			]
 			id: "0FBE7318DFBA700E"
-			rewards: [{
-				count: 3
-				id: "3C78121873BC6B22"
-				item: "farmersdelight:hamburger"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 3
+					id: "3C78121873BC6B22"
+					item: "farmersdelight:hamburger"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "7FA716F5153C7B15"
+					item: "gtceu:basic_electronic_circuit"
+					type: "item"
+				}
+			]
 			shape: "gear"
 			size: 1.5d
 			subtitle: "你的第一块电路板"
@@ -377,7 +390,7 @@
 				type: "item"
 			}]
 			title: "&c基础电子电路"
-			x: 4.5d
+			x: 5.0d
 			y: 0.0d
 		}
 		{
@@ -388,13 +401,14 @@
 				"但依然不能突破传输上限，否则会导致导线融毁"
 			]
 			id: "4C1AA691B0A8EC24"
+			subtitle: "这可不能手搓"
 			tasks: [{
 				id: "58ABEF332F1C76E6"
 				item: "gtceu:tin_single_cable"
 				type: "item"
 			}]
 			title: "低压线缆"
-			x: 4.5d
+			x: 5.0d
 			y: -5.0d
 		}
 		{
@@ -420,8 +434,8 @@
 				item: "gtceu:bronze_large_boiler"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -3.5d
+			x: 6.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["1CA6E1AD1909373A"]
@@ -454,13 +468,14 @@
 					type: "item"
 				}
 			]
+			title: "&4BOSS召唤器&r"
 			x: -3.5d
 			y: 0.0d
 		}
 		{
 			dependencies: [
-				"27F4D9739FE33A02"
 				"4678D97346E46529"
+				"0019A5EEEE514539"
 			]
 			description: ["让流体变成对应的板。"]
 			hide_dependency_lines: true
@@ -473,13 +488,14 @@
 				type: "item"
 			}]
 			title: "让它变成板"
-			x: 14.0d
+			x: 14.5d
 			y: -8.5d
 		}
 		{
 			dependencies: ["201D44A832961946"]
 			description: [
 				"放一个加热器来让其升温"
+				""
 				"多个加热器可以更快的升温，小心&4过热爆炸&r！"
 			]
 			id: "65EEE3C0DA2495EC"
@@ -495,17 +511,37 @@
 				item: "gtocore:alchemy_cauldron"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -5.0d
+			x: 6.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["65EEE3C0DA2495EC"]
+			description: [
+				"那么让我告诉你一些自动化生产的关键："
+				""
+				"加热器的正面是不能被阻挡的，一旦被阻挡了那就会&e中断加热&r，所以我们可以利用这个机制控制加热与否"
+				""
+				"其次加热器在768K的时候会发出14强度的红石信号，那么我们可以利用一个&c红石比较器&r来判断温度是否符合"
+				""
+				"若温度过高则在加热器面前放置一个方块防止加热器过热，温度下降到合适的区间之后将该方块移走，这个活可以交给&a粘性活塞&r"
+				""
+				"移走方块之后加热器会重新运行配方，所以会消耗燃料，因此在热量达到你所选择的区间之前最好用一个热值高的燃料&6持续运行&r，然后再换热值低的燃料"
+				""
+				"最后的最后：温度一到达800K就会&4瞬间爆炸&r"
+			]
 			icon: "gtocore:coal_slurry_bucket"
 			id: "79B4A4120B7B4C60"
+			rewards: [{
+				id: "030D8F01BE23586E"
+				item: "minecraft:coal_block"
+				type: "item"
+			}]
+			subtitle: "注意防爆"
 			tasks: [
 				{
 					id: "14ED6E3DF5DCC073"
 					item: "gtocore:coal_slurry_bucket"
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -513,9 +549,9 @@
 					type: "checkmark"
 				}
 			]
-			title: "煤浆桶"
-			x: 8.0d
-			y: -5.0d
+			title: "来点煤浆"
+			x: 8.5d
+			y: -3.5d
 		}
 		{
 			dependencies: [
@@ -523,16 +559,18 @@
 				"79B4A4120B7B4C60"
 			]
 			description: [
-				"水煤气需要在1300K以上发生反应"
+				"水煤气需要在1000K以上发生反应"
 				""
 				"你需要将锅炉提前预热"
 			]
 			icon: "gtocore:water_gas_bucket"
 			id: "7CBA1A5CCD21DA69"
+			subtitle: "青铜锅炉的第一件产物"
 			tasks: [
 				{
 					id: "10A943C41F1E6D06"
 					item: "gtocore:water_gas_bucket"
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -540,8 +578,9 @@
 					type: "checkmark"
 				}
 			]
-			x: 8.0d
-			y: -3.5d
+			title: "烘烤然后蜕变"
+			x: 8.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["7CBA1A5CCD21DA69"]
@@ -552,10 +591,12 @@
 			]
 			icon: "ad_astra:hydrogen_bucket"
 			id: "03A894C7D1178791"
+			subtitle: "正氧负氢？"
 			tasks: [
 				{
 					id: "3474A540300FD5B9"
 					item: "ad_astra:hydrogen_bucket"
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -563,7 +604,8 @@
 					type: "checkmark"
 				}
 			]
-			x: 10.0d
+			title: "氢，这边请"
+			x: 10.5d
 			y: -3.5d
 		}
 		{
@@ -578,10 +620,12 @@
 			]
 			icon: "gtceu:polyethylene_bucket"
 			id: "0D94DDD0419D85AD"
+			subtitle: "不要尝试去测定它的分子量"
 			tasks: [
 				{
 					id: "29C4756721A734ED"
 					item: "gtceu:polyethylene_bucket"
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -589,13 +633,14 @@
 					type: "checkmark"
 				}
 			]
-			x: 14.0d
+			title: "乙烯，合体！"
+			x: 14.5d
 			y: -5.0d
 		}
 		{
 			dependencies: ["0859B24E8AF3303F"]
 			description: [
-				"&6车床&r是可以将金属锭直接制作为&6杆&r、将螺栓制作为&6螺丝&r、将齿轮制作为&6锯片&r的机器"
+				"&6车床&r是可以将金属锭直接制作为&6杆&r（产量比手搓的翻倍哦！）、将螺栓制作为&6螺丝&r、将齿轮制作为&6锯片&r的机器"
 				""
 				"&7&o我讨厌锉子！&r"
 			]
@@ -606,13 +651,14 @@
 				type: "item"
 			}]
 			shape: "hexagon"
+			subtitle: "电动矬子"
 			tasks: [{
 				id: "0036C72451286C84"
 				item: "gtocore:ulv_lathe"
 				type: "item"
 			}]
-			x: 1.0d
-			y: -4.0d
+			x: -0.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["7D370CF55A0AE36D"]
@@ -630,11 +676,13 @@
 				type: "item"
 			}]
 			shape: "hexagon"
+			subtitle: "保护你的剪线钳"
 			tasks: [{
 				id: "6820DA52EC05C73A"
 				item: "gtocore:ulv_wiremill"
 				type: "item"
 			}]
+			title: "导线，开始生产！"
 			x: -3.5d
 			y: -3.0d
 		}
@@ -654,6 +702,7 @@
 				type: "item"
 			}]
 			shape: "diamond"
+			subtitle: "你的应急能源"
 			tasks: [{
 				id: "39B3E42785946E7C"
 				item: "gtceu:ulv_battery_buffer_4x"
@@ -678,124 +727,174 @@
 				type: "item"
 			}]
 			title: "更大更强的真空"
-			x: 3.0d
-			y: -2.0d
+			x: 3.4880952380952337d
+			y: 2.8595238095238003d
 		}
 		{
 			dependencies: ["6C328AB57C610EF9"]
+			description: ["它的配方速度太慢了，你需要多准备&5多几个&r化学反应釜"]
 			icon: "gtceu:resin_circuit_board"
 			id: "134DA399427DD1A5"
+			subtitle: "上面会铭刻什么呢"
 			tasks: [{
 				id: "76805A9CBA554FCC"
 				item: "gtceu:resin_circuit_board"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 2.5d
+			title: "电路基板的前身"
+			x: 1.8095238095238102d
+			y: 2.8119047619047564d
 		}
 		{
 			dependencies: ["7D370CF55A0AE36D"]
+			description: [
+				"在小机器的一个面上放置电动泵，即可作为覆盖板&d主动抽取/排出&r小机器内的液体"
+				""
+				"那当然前提是你得有个&e容器&r紧贴你的小机器对吧"
+				""
+				"每tick可以操作&432mb&r的液体，虽然不多，但也算是一个自动化的方案了"
+			]
 			id: "1CC2469A8203DE05"
 			shape: "hexagon"
+			subtitle: "但这不能抽原油"
 			tasks: [{
 				id: "2E6FFEC173B70C8D"
 				item: "gtocore:ulv_electric_pump"
 				type: "item"
 			}]
-			x: -0.5d
-			y: -4.5d
+			title: "让液体动起来"
+			x: 0.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["7D370CF55A0AE36D"]
+			description: [
+				"贴在小机器的面上可以自动拉取物品，但速度实在是堪忧......"
+				""
+				"以及你需要提升一下你的&6橡胶&r产量了"
+			]
 			id: "68AB0026ACD5103E"
 			shape: "hexagon"
+			subtitle: "凎，这东西怎么速度也没我快！"
 			tasks: [{
 				id: "729FD3CA14E85A4C"
 				item: "gtocore:ulv_conveyor_module"
 				type: "item"
 			}]
+			title: "它能帮我搬东西！"
 			x: -3.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["1CC2469A8203DE05"]
+			description: [
+				"如果你的小机器的槽位有&6多个&r液体输入的话，那无疑使用流体校准器是个&a更优的选择&r"
+				""
+				"它的功能包括&b精确输入&r与&9保持输入&r，前者可以精确输入的&d位置&r，后者是&e避免输入量过大&r挤占其他流体的槽位"
+			]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			id: "4ED89021AC92A0AE"
 			shape: "hexagon"
+			subtitle: "精确到位"
 			tasks: [{
 				id: "3DF43D082EB2EA92"
 				item: "gtocore:ulv_fluid_regulator"
 				type: "item"
 			}]
-			x: -0.5d
-			y: -6.0d
+			title: "滴定管？"
+			x: 2.0d
+			y: -5.0d
 		}
 		{
 			dependencies: [
 				"7D370CF55A0AE36D"
 				"0859B24E8AF3303F"
 			]
+			description: ["机械臂的合成就复杂很多了，所以前期的其他工作一定要处理好"]
 			id: "13A73FA0625AC68F"
 			shape: "hexagon"
+			subtitle: "速度还不如手搬呢！"
 			tasks: [{
 				id: "5D389C4389DD4CCE"
 				item: "gtocore:ulv_robot_arm"
 				type: "item"
 			}]
+			title: "摆放到位"
 			x: -2.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["4678D97346E46529"]
 			description: [
-				"&7电动马达&r是各个时代发展生产力必须大量生产的部件，所以最好一次做上个一组或半组！"
+				"&7电动马达&r是各个时代发展生产力&4必须大量生产&r的部件，所以最好一次做上个一组或半组！"
 				""
-				"超低压的时代的六件套主要需要铜和锡来制造，也是蒸汽时代的主要材料的延续"
+				"[\"\",{\"text\":\"超低压的时代的六件套主要需要\"},{ \"text\": \"铜\",\"color\":\"#e17c09\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"60976D12EFCED9C4\" } },{\"text\":\"和\"},{ \"text\": \"锡\",\"color\":\"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"17C2FCD590054742\" } },{\"text\":\"来制造，也是蒸汽时代的主要材料的延续\"}]"
 			]
 			id: "7D370CF55A0AE36D"
 			shape: "hexagon"
+			subtitle: "你还是多造点吧"
 			tasks: [{
 				id: "18EBCBF4239C5CE0"
 				item: "gtocore:ulv_electric_motor"
 				type: "item"
 			}]
+			title: "最慢的马达"
 			x: -2.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["7D370CF55A0AE36D"]
+			description: [
+				"活塞是一类重要的中间合成产物，除了合成之外没有别的用途"
+				""
+				"不过我猜你会喜欢由它合成的半流质发电机"
+			]
 			id: "0859B24E8AF3303F"
 			shape: "hexagon"
+			subtitle: "通往烦人之路"
 			tasks: [{
 				id: "4257BFBFB50B3FCE"
 				item: "gtocore:ulv_electric_piston"
 				type: "item"
 			}]
+			title: "一样不能用来抽水"
 			x: -0.5d
-			y: -3.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["03B5D54A3BB46B18"]
-			description: ["红宝石杆能作为聚合反应的催化剂以参与聚乙烯的合成"]
+			description: [
+				"红宝石杆能作为聚合反应的催化剂以参与聚乙烯的合成"
+				""
+				"以及这东西能合成搋子，可以清除机器内残留的液体。"
+				""
+				"&8&o但既然任何一种*杆都能合成搋子，为什么要用红宝石的呢？&r&r"
+			]
 			hide_dependent_lines: true
 			id: "423C010EB03C96E6"
 			shape: "hexagon"
 			size: 1.0d
+			subtitle: "本质上是催化剂？"
 			tasks: [{
 				id: "33F109C4F8312B30"
 				item: "gtceu:ruby_rod"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -5.0d
+			x: 1.0d
+			y: -1.0d
 		}
 		{
 			dependencies: [
 				"1CA6E1AD1909373A"
 				"35926F43AF33BB41"
 			]
-			description: ["现在你可以开始着手制作第一个电路"]
+			description: [
+				"现在你可以开始着手制作第一个电路"
+				""
+				"你需要准备三种原料：真空管、电阻和覆膜印刷电路基板"
+			]
+			icon: "gtocore:suprachronal_circuit_lv"
 			id: "6E3C93AC06BB6F31"
 			subtitle: "准备好了吗？"
 			tasks: [{
@@ -803,17 +902,27 @@
 				title: "电路"
 				type: "checkmark"
 			}]
-			x: -0.5d
+			title: "那么，这是你的第一个电路"
+			x: 2.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["01C0AEA051760CE5"]
+			description: [
+				"当然蒸馏塔的使用需要&5严格遵循&rEMI的配方指引"
+				""
+				"如果运行的配方有&e11&r种产出，则需要搭建&a12层高&r的蒸馏塔(第一层只能放置输出总线输出固体产物)"
+				""
+				"以及还是那个问题，注意别让原始蒸馏塔&4爆炸了&r"
+			]
 			icon: "gtceu:ethylene_bucket"
 			id: "7A7105B0D9CAB320"
+			subtitle: "嗨呀，真的是费劲"
 			tasks: [
 				{
 					id: "53CC5DD1F0ECC450"
 					item: "gtceu:ethylene_bucket"
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -821,81 +930,65 @@
 					type: "checkmark"
 				}
 			]
-			x: 14.0d
+			title: "C2H4，读作乙烯"
+			x: 14.5d
 			y: -3.5d
 		}
 		{
 			dependencies: ["561F5AACF437E7C5"]
 			description: ["以目前的生产力处理与存储这些原油产物是比较麻烦的，可以到AE存储出来后进行处理,不会太久"]
-			icon: "gtceu:sulfuric_gas_bucket"
 			id: "620EF24B5E685E7A"
+			subtitle: "并非无用"
 			tasks: [
 				{
 					id: "25C5BED6BAD3EA6E"
 					item: "gtceu:sulfuric_gas_bucket"
+					optional_task: true
 					type: "item"
 				}
 				{
-					id: "37AC2A5AA8EC56D4"
+					id: "0FCB1FD143C1D7B2"
+					item: "gtceu:sulfuric_heavy_fuel_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1C9C1194AFD3E534"
+					item: "gtceu:sulfuric_light_fuel_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "51F4C092451AD17A"
 					type: "checkmark"
 				}
 			]
-			x: 8.0d
+			title: "剩下的三个家伙"
+			x: 8.5d
 			y: -0.5d
 		}
 		{
 			dependencies: ["561F5AACF437E7C5"]
+			description: ["按照EMI的配方产出，即会产出于&d第三层&r"]
 			icon: "gtceu:sulfuric_naphtha_bucket"
 			id: "4C484BF84C3809FB"
+			subtitle: "小小的一步"
 			tasks: [
 				{
 					id: "4E3BF820C3D53502"
 					item: "gtceu:sulfuric_naphtha_bucket"
+					optional_task: true
 					type: "item"
 				}
 				{
-					id: "62234D424BAB55BF"
+					id: "7227500471D059B8"
 					type: "checkmark"
 				}
 			]
-			x: 10.0d
+			title: "对，我要的就是你"
+			x: 10.5d
 			y: -2.0d
-		}
-		{
-			dependencies: ["561F5AACF437E7C5"]
-			icon: "gtceu:sulfuric_light_fuel_bucket"
-			id: "7E4EFE71431426B1"
-			tasks: [
-				{
-					id: "1327710C1C36C1B1"
-					item: "gtceu:sulfuric_light_fuel_bucket"
-					type: "item"
-				}
-				{
-					id: "61D6D418B26B2B7E"
-					type: "checkmark"
-				}
-			]
-			x: 8.0d
-			y: 1.5d
-		}
-		{
-			dependencies: ["561F5AACF437E7C5"]
-			icon: "gtceu:sulfuric_heavy_fuel_bucket"
-			id: "3CACCE8E1DDC98B4"
-			tasks: [
-				{
-					id: "7C2C5FBF8CA7458E"
-					item: "gtceu:sulfuric_heavy_fuel_bucket"
-					type: "item"
-				}
-				{
-					id: "2579A0E71A40DEDE"
-					type: "checkmark"
-				}
-			]
-			x: 8.0d
-			y: 0.5d
 		}
 		{
 			dependencies: [
@@ -906,15 +999,18 @@
 			description: ["重度蒸汽裂化石脑油分解更彻底，具有更高的产率"]
 			icon: "gtceu:severely_steam_cracked_naphtha_bucket"
 			id: "01C0AEA051760CE5"
+			subtitle: "蒸汽真厉害"
 			tasks: [
 				{
 					id: "06E768A41044B82A"
 					item: "gtceu:lightly_steam_cracked_naphtha_bucket"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "38369744B3EB590D"
 					item: "gtceu:severely_steam_cracked_naphtha_bucket"
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -922,8 +1018,8 @@
 					type: "checkmark"
 				}
 			]
-			title: "裂化石脑油"
-			x: 12.0d
+			title: "裂化机神力"
+			x: 12.5d
 			y: -3.5d
 		}
 		{
@@ -931,15 +1027,22 @@
 			description: [
 				"为了进入LV阶段，在超低压阶段你就需要制作塑料片（&6聚乙烯板&r）来合成LV机器外壳"
 				""
-				"你将搭建原始而简单的化工产线"
+				"你将搭建&7原始&r而&e简单&r的化工产线"
+				""
+				"在接下来的任务中你会看到&a“检查标记”&r按钮，在你按下这个按钮之后就可以进行下一步的任务了"
+				""
+				"&m&8避免出现为了一桶产物倒回去重新运行一次配方的尴尬&r&r"
 			]
+			icon: "immersive_aircraft:industrial_gears"
 			id: "201D44A832961946"
+			subtitle: "发展的核心"
 			tasks: [{
 				id: "658933619AB97612"
 				title: "化工、能源"
 				type: "checkmark"
 			}]
-			x: 4.5d
+			title: "发展与能源"
+			x: 5.0d
 			y: -3.5d
 		}
 		{
@@ -947,12 +1050,14 @@
 			description: ["显然，你目前只能选择产量最低的配方"]
 			id: "0B7EC948A9BA56EF"
 			shape: "circle"
+			subtitle: "希望你准备好了不少"
 			tasks: [{
 				id: "144CDD9C9F9B820F"
 				item: "gtceu:vacuum_tube"
 				type: "item"
 			}]
-			x: 2.0d
+			title: "三剑客其一：真空管"
+			x: 3.5d
 			y: -1.0d
 		}
 		{
@@ -964,27 +1069,36 @@
 			]
 			id: "206990570B2743AE"
 			shape: "circle"
+			subtitle: "你应该也有不少存货"
 			tasks: [{
 				id: "0ED08CFF140E39C1"
 				item: "gtceu:resistor"
 				type: "item"
 			}]
-			x: 2.0d
+			title: "三剑客其二：电阻"
+			x: 3.5d
 			y: 0.0d
 		}
 		{
 			dependencies: [
 				"134DA399427DD1A5"
 				"6E3C93AC06BB6F31"
+				"5CFDAB8B03980F9D"
+			]
+			description: [
+				"制造这个宝贝需要你的组装机达到&4真空2级&r的条件，希望"
+				"[\"\",{\"text\":\"你已经准备好了\"},{\"text\":\"高压蒸汽真空泵\",\"color\":\"red\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5CFDAB8B03980F9D\"} }]"
 			]
 			id: "2D5EB54D9AC2F900"
 			shape: "circle"
+			subtitle: "准备强力写入！"
 			tasks: [{
 				id: "7239827DEAF32FAE"
 				item: "gtceu:resin_printed_circuit_board"
 				type: "item"
 			}]
-			x: 2.0d
+			title: "三剑客其三：覆膜印刷电路基板"
+			x: 3.5d
 			y: 1.0d
 		}
 		{
@@ -1011,7 +1125,7 @@
 			description: [
 				"厌倦了私人飞机的旅行？"
 				""
-				"试试Iron Man！"
+				"试试&4Iron&r &eMan&r！"
 				""
 				"&7如何补充燃料：右击你的燃料储存桶&r"
 				""
@@ -1032,8 +1146,8 @@
 				}
 				type: "item"
 			}]
-			x: 4.5d
-			y: 2.5d
+			x: 4.988095238095234d
+			y: 2.8595238095238003d
 		}
 		{
 			dependencies: ["03BB5A5C084F5194"]
@@ -1059,7 +1173,7 @@
 				type: "item"
 			}]
 			title: "欢迎来到&7低压&r时代"
-			x: 16.5d
+			x: 17.0d
 			y: -7.0d
 		}
 		{
@@ -1067,13 +1181,21 @@
 			description: ["离心空气获取"]
 			icon: "ad_astra:oxygen_bucket"
 			id: "6C328AB57C610EF9"
-			tasks: [{
-				id: "61ABB503BFB33646"
-				title: "氧气"
-				type: "checkmark"
-			}]
-			x: 0.5d
-			y: 2.5d
+			subtitle: "你活着都靠它"
+			tasks: [
+				{
+					id: "1A83E2F0FFCC76B2"
+					item: "ad_astra:oxygen_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4773E3E615AF0C7E"
+					type: "checkmark"
+				}
+			]
+			x: 0.3095238095238102d
+			y: 2.8119047619047564d
 		}
 		{
 			dependencies: ["4AF39FF336EA1BF4"]
@@ -1091,6 +1213,7 @@
 				type: "item"
 			}]
 			shape: "diamond"
+			subtitle: "今日手气如何？"
 			tasks: [
 				{
 					id: "5B8F0331ED91AA12"
@@ -1103,6 +1226,7 @@
 					type: "item"
 				}
 			]
+			title: "升级模块！加速吧！！！"
 			x: -3.5d
 			y: 1.5d
 		}
@@ -1111,15 +1235,17 @@
 			description: [
 				"&6织布机&r是可以将导线制作为多重导线的机器"
 				""
-				"比压缩效率更高"
+				"比压缩机效率更高，但实际上更大的高A导线还是需要织布机完成合成"
 			]
 			id: "3BE44DC31F4047B9"
 			shape: "hexagon"
+			subtitle: "但并不能织布"
 			tasks: [{
 				id: "6A1D6F5F4BCE7F49"
 				item: "gtocore:ulv_loom"
 				type: "item"
 			}]
+			title: "让导线多合一"
 			x: -5.0d
 			y: -3.0d
 		}
@@ -1146,18 +1272,30 @@
 				"7A359C1F5E041C4F"
 				"597DEB09F86B2821"
 			]
+			description: [
+				"如果说你有满满&b一池魔力池&r的话，你能造&d很多的&r&a脉冲合金导线&r，不骗你，是真的"
+				""
+				"前期直接用&5火红莲&r直接生产一些，可以配合&6悬浮沙漏&r来自动做好魔力的生产"
+			]
 			id: "1C9024E83C0BE0A4"
 			optional: true
+			subtitle: "弹弹弹，弹走大电阻"
 			tasks: [{
 				id: "42505277D20AE06C"
 				item: "gtocore:pulsating_alloy_single_wire"
 				type: "item"
 			}]
+			title: "魔法的力量"
 			x: 1.0d
 			y: -8.5d
 		}
 		{
 			dependencies: ["1CDBE91D2ACD9111"]
+			description: [
+				"可以往多方块里面塞&4无限&r的空气参与合成"
+				""
+				"当然，这些空气是&4无法&r被拿出来的"
+			]
 			id: "380CC80AE197328A"
 			shape: "diamond"
 			subtitle: "更大马力,更大容量"
@@ -1166,8 +1304,8 @@
 				item: "gtocore:infinite_intake_hatch"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 2.5d
+			x: -3.511904761904759d
+			y: 2.8119047619047564d
 		}
 	]
 	subtitle: ["Tier0.5-ULV"]

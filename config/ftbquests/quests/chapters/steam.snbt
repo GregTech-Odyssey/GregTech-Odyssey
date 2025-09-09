@@ -701,7 +701,7 @@
 				type: "item"
 			}]
 			title: "它能拿来美容吗"
-			x: 5.0d
+			x: 4.75d
 			y: 10.0d
 		}
 		{
@@ -948,7 +948,7 @@
 				type: "item"
 			}]
 			title: "离心吗？"
-			x: 5.0d
+			x: 4.75d
 			y: 12.0d
 		}
 		{
@@ -1260,7 +1260,7 @@
 			id: "0019A5EEEE514539"
 			subtitle: "但好事成三"
 			tasks: [{
-				count: 2L
+				count: 3L
 				id: "38EFA245E5DAF1C9"
 				item: "gtceu:empty_mold"
 				type: "item"
