@@ -577,7 +577,7 @@
 		{
 			dependencies: [
 				"60396728B5CD98F7"
-				"0019A5EEEE514539"
+				"45E924DD73902E63"
 			]
 			description: [
 				"{gto.steam.quests.72C6B40B38D542BF.description0}"
@@ -833,7 +833,7 @@
 		{
 			dependencies: [
 				"60396728B5CD98F7"
-				"0019A5EEEE514539"
+				"1B8F9B41DCF638D7"
 			]
 			description: [
 				"{gto.steam.quests.0E4FE30F5B178EDD.description0}"
@@ -1256,6 +1256,8 @@
 				"{gto.steam.quests.0019A5EEEE514539.description2}"
 				""
 				"{gto.steam.quests.0019A5EEEE514539.description3}"
+				""
+				"{gto.steam.quests.0019A5EEEE514539.description4}"
 			]
 			id: "0019A5EEEE514539"
 			subtitle: "{gto.steam.quests.0019A5EEEE514539.subtitle}"
@@ -1266,11 +1268,14 @@
 				type: "item"
 			}]
 			title: "{gto.steam.quests.0019A5EEEE514539.title}"
-			x: 13.000000000000007d
+			x: 11.25d
 			y: 5.0d
 		}
 		{
-			dependencies: ["043FCD7B759853EA"]
+			dependencies: [
+				"043FCD7B759853EA"
+				"3528806A9F4D4E7E"
+			]
 			description: [
 				"{gto.steam.quests.4CC934314D14A5EA.description0}"
 				""
@@ -1609,6 +1614,41 @@
 			title: "{gto.steam.quests.6B2CA9AF06284789.title}"
 			x: -0.5d
 			y: 2.25d
+		}
+		{
+			dependencies: ["0019A5EEEE514539"]
+			hide_dependency_lines: true
+			id: "3528806A9F4D4E7E"
+			shape: "circle"
+			tasks: [{
+				id: "7EF6796F57F2B1C6"
+				item: "gtceu:plate_casting_mold"
+				type: "item"
+			}]
+			x: 7.25d
+			y: 6.75d
+		}
+		{
+			dependencies: ["0019A5EEEE514539"]
+			id: "45E924DD73902E63"
+			tasks: [{
+				id: "7174664A7980653B"
+				item: "gtceu:block_casting_mold"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 6.75d
+		}
+		{
+			dependencies: ["0019A5EEEE514539"]
+			id: "1B8F9B41DCF638D7"
+			tasks: [{
+				id: "36D25DA08DF49180"
+				item: "gtceu:ball_casting_mold"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 5.0d
 		}
 	]
 	subtitle: ["{gto.steam.subtitle0}"]
