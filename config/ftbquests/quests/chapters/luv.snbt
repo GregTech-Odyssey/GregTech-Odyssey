@@ -670,6 +670,7 @@
 			dependencies: ["228B283B5477879B"]
 			description: ["二级数据载体"]
 			id: "63773B34911D0234"
+			shape: "hexagon"
 			tasks: [{
 				id: "726D0A6B91C05586"
 				item: {
@@ -983,7 +984,7 @@
 			dependencies: ["2F03D93AC7DBE58D"]
 			hide_dependency_lines: true
 			id: "57D5AF62A5ADAF60"
-			shape: "rsquare"
+			shape: "circle"
 			tasks: [{
 				id: "78E5BA799D7F4099"
 				item: "gtocore:drawing_tower"

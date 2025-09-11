@@ -786,7 +786,7 @@ hash = "4a372a8ed5001ba4ed929cde161114c28b93624dc1e3f915d59ad109c844f412"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/arsbotania.snbt"
-hash = "7580f401a12d2963ad8a946aed3dd8d95a437964b3f3e14ce82929d66a8f2aca"
+hash = "407dfc061101f66fcba159a8433a0ee3b8c46e0f41f50c02584303e0cc0b2379"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/backpack.snbt"
@@ -822,7 +822,7 @@ hash = "8c1164a34b54305df5dc0204fae0fe6380313ece7fe748a65f473e0692415113"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/hv.snbt"
-hash = "7573b41ff1ced75fad5bbf36e4e785b7bd119dea39c9457bbf63cf25d506ded1"
+hash = "e6c4d3018c199adebe4275494fc0507abd1d1f3ab46f401cc33846f75c9c7959"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/immersive-aircraft.snbt"
@@ -834,7 +834,7 @@ hash = "f789185a7dce273bc324802129f9a3dbb1e3af8e103f6b0afc8e2321bd9656dc"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/luv.snbt"
-hash = "c43cf6746687edf2d5250b8767afce7260d747b7d756c3075b623050c2cf0595"
+hash = "fff67b91e899300df7a28255bf3d88f1a4b4a7b2526bd87fa1291b7450846fcd"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/lv.snbt"
@@ -878,7 +878,7 @@ hash = "11725a608730a6b335c96f42a4a827c183300f2c43ceb0b23633ea093902f343"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/steam.snbt"
-hash = "4e5360ed4cb10f55351280327b30394b092da2ea362c8bc1e879bd3b45df0e3e"
+hash = "ab121c45bcbbad3276123ce5bf98fd3bf5b93775ee03cfa074458b0dfd3fe2df"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tips.snbt"
@@ -890,7 +890,7 @@ hash = "5bca5297086b1d217b16490d092eb4d9da48ba0f6c4b001a726b02afbaf42ea0"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/uhv.snbt"
-hash = "f9165916306bcd1cffbd1cb736e94248060863743317abdf132c3eda9cc1c034"
+hash = "25475b6f7b1db18aa232d3252e56d21b62c02ddfa11af937bf05a21d2f65fdeb"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/uiv.snbt"
@@ -898,7 +898,7 @@ hash = "e09c77c1293ca550355d1fe295904952bab94bb7b186339c31ac36f0fea5aad7"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ulv.snbt"
-hash = "641065e753f47c9ddb1cb72eeccbdd3a8bd123772923086f20ca2d2b08755131"
+hash = "19d2813584d71e5b204f5a4e731c20e40a5fa1ec10a33cd80093ef08150fa68c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/util.snbt"
@@ -906,7 +906,7 @@ hash = "c6d3772b7a9802afd3a7387f7d8704b8cb05e9790603c29555b5dfcbd9bb9e48"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/uv.snbt"
-hash = "cd4f6a321442b7ae4a18014860173bd8e69667bbd10ce04890c8e110b380fd55"
+hash = "121fa517cd4e124721a661b77210e45fbef543146e146f2c4c44ac0d1acbab0c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/uxv.snbt"
@@ -918,7 +918,7 @@ hash = "a57434a2ad65ffe77804bcdce26924b39d5fb56a0c5f55909594b06ef287fd43"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/zpm.snbt"
-hash = "c5d95d85abb7509b36e70e62f13f32af135052b1d81916029cd376719f07e103"
+hash = "6cb93f65135b643b1f06d0e753b0fe952cfac9bae68f5796745a3c0f16b65c05"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -1314,19 +1314,19 @@ hash = "2e113e94b06f0ec198b8faa2cd4c58f937ccfffc0a6db7aaeaf8fc4bce1599f0"
 
 [[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/en_us.json"
-hash = "7535a03488aa963a92a3f80a21700c1513cff6a333d02f412dfff74f4ec8017d"
+hash = "94f4eb25f5f567383d18adff2c6438312474daf6c50102845c7d1c1263543c5b"
 
 [[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/ru_ru.json"
-hash = "bce2146871ad087104e1043a0e425a9a637507ae3f831dc424b6215cf23450f6"
+hash = "a11d440577609bc30596078e32fe7f20bdeab223b78be2756dd5152daa8e8bd8"
 
 [[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/zh_cn.json"
-hash = "24b5f71834479838a6b4071c97c427c6496449d8167f3a2f88beb686ec4d7323"
+hash = "b74ffc1d1a6a924e899013de99adbc862b49a6839692fd91c7ab2b0ad4c445ac"
 
 [[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/zh_tw.json"
-hash = "13a9e7e42f5881d150ddb4c3b278569bdf16b0ca19d851fc37dfa49cbc0b30bd"
+hash = "639b939bbaa87e07f91c46319f405095931465bd92d7ad1ac70f43bf89617000"
 
 [[files]]
 file = "config/openloader/resources/quests/pack.mcmeta"

@@ -73,7 +73,7 @@
 			dependencies: ["18C29178096CBFAE"]
 			id: "3E458EF4819E239C"
 			shape: "hexagon"
-			size: 1.2d
+			size: 1.5d
 			subtitle: "芥末甜甜圈"
 			tasks: [{
 				id: "10777D8CB3C38B61"
@@ -249,8 +249,8 @@
 				"1A71DC88DFE4F126"
 				"090EEAA64022227A"
 				"66CEE808FD6861B7"
-				"0584B928D8CFAE73"
 				"11FE0CDFD21F7C73"
+				"0584B928D8CFAE73"
 			]
 			description: ["你需要使用重力控制仓达到强重力环境"]
 			id: "18CBBE615691E7FD"
@@ -575,7 +575,11 @@
 		}
 		{
 			dependencies: ["40F9120E5CDC0002"]
-			description: ["还记得你的碲从哪里来吗？"]
+			description: [
+				"还记得你的碲从哪里来吗？"
+				""
+				"不过这次你有太空电梯了"
+			]
 			id: "0779DE2BB4953181"
 			tasks: [{
 				id: "77E5E1FF3BF96FFD"
@@ -787,7 +791,10 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["7A1E4DBA675E67FB"]
+			dependencies: [
+				"7A1E4DBA675E67FB"
+				"08DEEC16D9580930"
+			]
 			description: ["终于，部件装配它回来了！"]
 			id: "6596EAF3D5641974"
 			shape: "diamond"
@@ -849,6 +856,28 @@
 			}]
 			x: 5.0d
 			y: 3.5d
+		}
+		{
+			dependencies: [
+				"44B34806DA0FEA9A"
+				"19B07E541BE74686"
+				"3C8DA30CF0B2244F"
+			]
+			description: ["四级数据载体"]
+			hide_dependent_lines: true
+			id: "08DEEC16D9580930"
+			shape: "hexagon"
+			tasks: [{
+				id: "58C98F5527FB3221"
+				item: {
+					Count: 1
+					id: "gtocore:neural_matrix"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 12.5d
 		}
 	]
 	subtitle: ["Tier8-UV"]

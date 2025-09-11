@@ -52,7 +52,7 @@
 			}]
 			title: "{gto.ulv.quests.3791F49E789E7673.title}"
 			x: 1.0d
-			y: -2.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["7D370CF55A0AE36D"]
@@ -78,7 +78,7 @@
 			}]
 			title: "{gto.ulv.quests.11FC35FC0409E3AC.title}"
 			x: -3.5d
-			y: -4.5d
+			y: -5.0d
 		}
 		{
 			dependencies: [
@@ -139,7 +139,7 @@
 			}]
 			title: "{gto.ulv.quests.76B352DA96B91E6E.title}"
 			x: -5.0d
-			y: -4.5d
+			y: -5.0d
 		}
 		{
 			dependencies: [
@@ -200,6 +200,8 @@
 				"{gto.ulv.quests.561F5AACF437E7C5.description2}"
 				""
 				"{gto.ulv.quests.561F5AACF437E7C5.description3}"
+				""
+				"{gto.ulv.quests.561F5AACF437E7C5.description4}"
 			]
 			id: "561F5AACF437E7C5"
 			rewards: [{
@@ -247,7 +249,7 @@
 			}]
 			title: "{gto.ulv.quests.35926F43AF33BB41.title}"
 			x: 2.0d
-			y: -3.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["1CC2469A8203DE05"]
@@ -301,10 +303,7 @@
 			y: -7.0d
 		}
 		{
-			dependencies: [
-				"27F4D9739FE33A02"
-				"4678D97346E46529"
-			]
+			dependencies: ["27F4D9739FE33A02"]
 			description: [
 				"{gto.ulv.quests.1CDBE91D2ACD9111.description0}"
 				""
@@ -334,6 +333,8 @@
 				"{gto.ulv.quests.4E0B6C5CE3808705.description0}"
 				""
 				"{gto.ulv.quests.4E0B6C5CE3808705.description1}"
+				""
+				"{gto.ulv.quests.4E0B6C5CE3808705.description2}"
 			]
 			hide_dependency_lines: true
 			id: "4E0B6C5CE3808705"
@@ -351,8 +352,8 @@
 				type: "item"
 			}]
 			title: "{gto.ulv.quests.4E0B6C5CE3808705.title}"
-			x: 5.0d
-			y: -7.0d
+			x: 3.5d
+			y: -5.0d
 		}
 		{
 			dependencies: [
@@ -471,25 +472,6 @@
 			title: "{gto.ulv.quests.6EEEF20760158257.title}"
 			x: -3.5d
 			y: 0.0d
-		}
-		{
-			dependencies: [
-				"4678D97346E46529"
-				"0019A5EEEE514539"
-			]
-			description: ["{gto.ulv.quests.3528806A9F4D4E7E.description0}"]
-			hide_dependency_lines: true
-			id: "3528806A9F4D4E7E"
-			shape: "hexagon"
-			subtitle: "{gto.ulv.quests.3528806A9F4D4E7E.subtitle}"
-			tasks: [{
-				id: "7EF6796F57F2B1C6"
-				item: "gtceu:plate_casting_mold"
-				type: "item"
-			}]
-			title: "{gto.ulv.quests.3528806A9F4D4E7E.title}"
-			x: 14.5d
-			y: -8.5d
 		}
 		{
 			dependencies: ["201D44A832961946"]
@@ -657,7 +639,7 @@
 				item: "gtocore:ulv_lathe"
 				type: "item"
 			}]
-			x: -0.5d
+			x: -1.0d
 			y: -1.0d
 		}
 		{
@@ -684,7 +666,7 @@
 			}]
 			title: "{gto.ulv.quests.2EE92A46E52B0565.title}"
 			x: -3.5d
-			y: -3.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["4678D97346E46529"]
@@ -709,7 +691,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: -6.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["27F4D9739FE33A02"]
@@ -763,7 +745,7 @@
 				type: "item"
 			}]
 			title: "{gto.ulv.quests.1CC2469A8203DE05.title}"
-			x: 0.0d
+			x: -0.5d
 			y: -5.0d
 		}
 		{
@@ -841,7 +823,7 @@
 			}]
 			title: "{gto.ulv.quests.7D370CF55A0AE36D.title}"
 			x: -2.0d
-			y: -3.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["7D370CF55A0AE36D"]
@@ -859,8 +841,8 @@
 				type: "item"
 			}]
 			title: "{gto.ulv.quests.0859B24E8AF3303F.title}"
-			x: -0.5d
-			y: -2.0d
+			x: -1.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["03B5D54A3BB46B18"]
@@ -1118,7 +1100,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: -7.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["0FBE7318DFBA700E"]
@@ -1132,6 +1114,7 @@
 				"{gto.ulv.quests.62F451C62752F3B7.description3}"
 			]
 			id: "62F451C62752F3B7"
+			optional: true
 			rewards: [{
 				id: "13E1F79C96D46594"
 				item: "farmersdelight:honey_glazed_ham"
@@ -1247,7 +1230,7 @@
 			}]
 			title: "{gto.ulv.quests.3BE44DC31F4047B9.title}"
 			x: -5.0d
-			y: -3.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["0DCA3A96184C9EAC"]

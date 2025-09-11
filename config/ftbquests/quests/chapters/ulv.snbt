@@ -52,7 +52,7 @@
 			}]
 			title: "这是内燃机"
 			x: 1.0d
-			y: -2.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["7D370CF55A0AE36D"]
@@ -78,7 +78,7 @@
 			}]
 			title: "最原始的发电机"
 			x: -3.5d
-			y: -4.5d
+			y: -5.0d
 		}
 		{
 			dependencies: [
@@ -139,7 +139,7 @@
 			}]
 			title: "这是大风车"
 			x: -5.0d
-			y: -4.5d
+			y: -5.0d
 		}
 		{
 			dependencies: [
@@ -200,6 +200,8 @@
 				"流体校准器可以精确控制输入水的&6速率&r与被覆盖&6容器内流体容量&r，避免降温过快无法&c升温&r"
 				""
 				"热传感器可以检测机器温度阈值发出&c红石信号&r"
+				""
+				"别忘了在EMI查看&e多方块结构&r，点击P可以在&6蒸馏塔&r的&b最小&r和&b最大&r长度之间切换"
 			]
 			id: "561F5AACF437E7C5"
 			rewards: [{
@@ -247,7 +249,7 @@
 			}]
 			title: "初代大乱炖"
 			x: 2.0d
-			y: -3.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["1CC2469A8203DE05"]
@@ -301,10 +303,7 @@
 			y: -7.0d
 		}
 		{
-			dependencies: [
-				"27F4D9739FE33A02"
-				"4678D97346E46529"
-			]
+			dependencies: ["27F4D9739FE33A02"]
 			description: [
 				"通风板需要安装在流体容器的任意一个侧面，在这个侧面不被阻挡的情况下可以以200mB/秒的速度抽入空气"
 				""
@@ -333,7 +332,9 @@
 			description: [
 				"&6打包机&r是可以将物品&e4合1&r或者&e9合1&r的机器"
 				""
-				"仅能处理少量配方，比如锡线缆，以及多重管道"
+				"可以将&6小粉&r打包成&6大粉&r，也可以用于制作&6多重流体管道&r"
+				""
+				"当然目前你需要它来制作&6锡线缆&r"
 			]
 			hide_dependency_lines: true
 			id: "4E0B6C5CE3808705"
@@ -351,8 +352,8 @@
 				type: "item"
 			}]
 			title: "原始人的打包办法"
-			x: 5.0d
-			y: -7.0d
+			x: 3.5d
+			y: -5.0d
 		}
 		{
 			dependencies: [
@@ -396,7 +397,7 @@
 		{
 			dependencies: ["4E0B6C5CE3808705"]
 			description: [
-				"线缆可以让你不会因为触电而受到伤害"
+				"线缆可以让你不会因为触电而受到伤害，并且减少了线损"
 				""
 				"但依然不能突破传输上限，否则会导致导线融毁"
 			]
@@ -471,25 +472,6 @@
 			title: "&4BOSS召唤器&r"
 			x: -3.5d
 			y: 0.0d
-		}
-		{
-			dependencies: [
-				"4678D97346E46529"
-				"0019A5EEEE514539"
-			]
-			description: ["让流体变成对应的板。"]
-			hide_dependency_lines: true
-			id: "3528806A9F4D4E7E"
-			shape: "hexagon"
-			subtitle: "让流体定向固化"
-			tasks: [{
-				id: "7EF6796F57F2B1C6"
-				item: "gtceu:plate_casting_mold"
-				type: "item"
-			}]
-			title: "让它变成板"
-			x: 14.5d
-			y: -8.5d
 		}
 		{
 			dependencies: ["201D44A832961946"]
@@ -657,7 +639,7 @@
 				item: "gtocore:ulv_lathe"
 				type: "item"
 			}]
-			x: -0.5d
+			x: -1.0d
 			y: -1.0d
 		}
 		{
@@ -684,7 +666,7 @@
 			}]
 			title: "导线，开始生产！"
 			x: -3.5d
-			y: -3.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["4678D97346E46529"]
@@ -709,7 +691,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: -6.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["27F4D9739FE33A02"]
@@ -763,7 +745,7 @@
 				type: "item"
 			}]
 			title: "让液体动起来"
-			x: 0.0d
+			x: -0.5d
 			y: -5.0d
 		}
 		{
@@ -841,7 +823,7 @@
 			}]
 			title: "最慢的马达"
 			x: -2.0d
-			y: -3.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["7D370CF55A0AE36D"]
@@ -859,8 +841,8 @@
 				type: "item"
 			}]
 			title: "一样不能用来抽水"
-			x: -0.5d
-			y: -2.0d
+			x: -1.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["03B5D54A3BB46B18"]
@@ -1118,7 +1100,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: -7.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["0FBE7318DFBA700E"]
@@ -1132,6 +1114,7 @@
 				"现阶段你能使用的燃料只有含硫轻燃油"
 			]
 			id: "62F451C62752F3B7"
+			optional: true
 			rewards: [{
 				id: "13E1F79C96D46594"
 				item: "farmersdelight:honey_glazed_ham"
@@ -1247,7 +1230,7 @@
 			}]
 			title: "让导线多合一"
 			x: -5.0d
-			y: -3.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["0DCA3A96184C9EAC"]
