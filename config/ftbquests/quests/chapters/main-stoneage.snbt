@@ -373,8 +373,8 @@
 			description: [
 				"一开始你做的&6基础背包&r装不了多少东西，但也总算拯救了你的物品栏"
 				""
-				"&7Tips：终端成型建造多方块结构的时候可以把装不下的方块仓室什么的放到背包里面"
-				"&r"
+				"&7Tips：终端成型建造多方块结构的时候可以把装不下的方块仓室什么的放到背包里面&r"
+				""
 				"[ \"可以在\", { \"text\": \"摩登时代\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1CE34BD4900990C6\" } }, \"章节继续寻找升级的方式\" ]"
 			]
 			icon: "sophisticatedbackpacks:backpack"
