@@ -50,9 +50,9 @@
 	quests: [
 		{
 			description: [
-				"[ \"在砍下第一棵树前建议前往\", { \"text\": \"提示\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"79646E8E449D8A1A\" } }, \"章节查看提示，花几分钟阅读一下对你的游玩之旅大有帮助\" ]"
+				"[\"\", {\"translate\": \"gto.gregtech_odyssey.quests.19EFE14C82DDAB67.description0.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"79646E8E449D8A1A\"}, \"translate\": \"gto.gregtech_odyssey.quests.19EFE14C82DDAB67.description0.rich_text1\"}, {\"translate\": \"gto.gregtech_odyssey.quests.19EFE14C82DDAB67.description0.rich_text2\"}]"
 				""
-				"{gto.gregtech_odyssey.quests.19EFE14C82DDAB67.description0}"
+				"{gto.gregtech_odyssey.quests.19EFE14C82DDAB67.description1}"
 			]
 			icon: "minecraft:writable_book"
 			id: "19EFE14C82DDAB67"
@@ -228,12 +228,12 @@
 				""
 				"{gto.gregtech_odyssey.quests.278F29092F5721AD.description2}"
 				""
-				"[ \"\", {\"text\":\"Github: \", \"color\":\"yellow\"}, { \"text\": \"https://github.com/GregTech-Odyssey/GregTech-Odyssey\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"open_url\", \"value\": \"https://github.com/GregTech-Odyssey/GregTech-Odyssey\" } }]"
+				"[\"\", {\"color\": \"yellow\", \"translate\": \"gto.gregtech_odyssey.quests.278F29092F5721AD.description3.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"open_url\", \"value\": \"https://github.com/GregTech-Odyssey/GregTech-Odyssey\"}, \"translate\": \"gto.gregtech_odyssey.quests.278F29092F5721AD.description3.rich_text1\"}]"
 				""
-				"[ \"\", {\"text\":\"Discord: \", \"color\":\"yellow\"}, { \"text\": \"https://discord.gg/PxruFSbtCn\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"open_url\", \"value\": \"https://discord.gg/PxruFSbtCn\" } }]"
+				"[\"\", {\"color\": \"yellow\", \"translate\": \"gto.gregtech_odyssey.quests.278F29092F5721AD.description4.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"open_url\", \"value\": \"https://discord.gg/PxruFSbtCn\"}, \"translate\": \"gto.gregtech_odyssey.quests.278F29092F5721AD.description4.rich_text1\"}]"
 				""
 				""
-				"{gto.gregtech_odyssey.quests.278F29092F5721AD.description3}"
+				"{gto.gregtech_odyssey.quests.278F29092F5721AD.description5}"
 			]
 			icon: "easy_villagers:villager"
 			id: "278F29092F5721AD"
