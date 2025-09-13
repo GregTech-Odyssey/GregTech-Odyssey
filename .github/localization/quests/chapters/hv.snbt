@@ -1375,8 +1375,8 @@
 			dependencies: ["4D1E1C19CF9CD579"]
 			description: [
 				"{gto.hv.quests.48E92833D9A8297B.description0}"
+				""
 				"{gto.hv.quests.48E92833D9A8297B.description1}"
-				"{gto.hv.quests.48E92833D9A8297B.description2}"
 			]
 			icon: "gtocore:nether_reactor_core"
 			id: "48E92833D9A8297B"
