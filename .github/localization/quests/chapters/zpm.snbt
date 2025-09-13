@@ -497,20 +497,20 @@
 			subtitle: "{gto.zpm.quests.7FED9F9CC769610C.subtitle}"
 			tasks: [
 				{
-					id: "7549EC850E00A09F"
+					id: "05ACCFEFEDCCC541"
+					type: "checkmark"
+				}
+				{
+					id: "027107B28F156454"
 					item: "gtceu:bacteria_bucket"
 					optional_task: true
 					type: "item"
 				}
 				{
-					id: "5C556CC949E868E7"
+					id: "3557F63CB7D7AC8E"
 					item: "gtocore:rapidly_replicating_animal_cells_bucket"
 					optional_task: true
 					type: "item"
-				}
-				{
-					id: "05ACCFEFEDCCC541"
-					type: "checkmark"
 				}
 			]
 			title: "{gto.zpm.quests.7FED9F9CC769610C.title}"

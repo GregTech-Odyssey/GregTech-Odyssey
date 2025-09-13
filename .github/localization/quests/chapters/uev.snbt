@@ -1,5 +1,4 @@
 {
-	always_invisible: true
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "uev"
@@ -7,8 +6,136 @@
 	icon: "gtocore:sps_crafting"
 	id: "6FF8BEC3E0C25C4C"
 	order_index: 12
-	quest_links: [ ]
-	quests: [ ]
+	quest_links: [{
+		id: "2C7D4BE558B938DF"
+		linked_quest: "7ED709D3291D6B88"
+		x: -10.0d
+		y: -4.0d
+	}]
+	quests: [
+		{
+			dependencies: ["4BEE8DA7018CD14D"]
+			description: ["{gto.uev.quests.597E3AA1CBEE9598.description0}"]
+			id: "597E3AA1CBEE9598"
+			optional: true
+			tasks: [{
+				id: "0D67CB8A089891BB"
+				item: "gtocore:field_extruder_factory"
+				type: "item"
+			}]
+			title: "{gto.uev.quests.597E3AA1CBEE9598.title}"
+			x: -6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["597E3AA1CBEE9598"]
+			id: "0E1C854C0F7FF62F"
+			optional: true
+			subtitle: "{gto.uev.quests.0E1C854C0F7FF62F.subtitle}"
+			tasks: [{
+				id: "100E275AB0E6B0D4"
+				item: "gtmthings:creative_laser_hatch"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"0E1C854C0F7FF62F"
+				"597E3AA1CBEE9598"
+			]
+			id: "67616091B5362D24"
+			optional: true
+			subtitle: "{gto.uev.quests.67616091B5362D24.subtitle}"
+			tasks: [{
+				id: "69A9FE9156CF2237"
+				item: "avaritia:enhancement_core"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"154F80E28FA53D99"
+				"7ED709D3291D6B88"
+			]
+			description: [
+				"{gto.uev.quests.4BEE8DA7018CD14D.description0}"
+				""
+				"{gto.uev.quests.4BEE8DA7018CD14D.description1}"
+			]
+			id: "4BEE8DA7018CD14D"
+			tasks: [{
+				id: "47512672063DD716"
+				type: "checkmark"
+			}]
+			x: -8.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["597E3AA1CBEE9598"]
+			description: ["{gto.uev.quests.771E3ADB32B0A5C6.description0}"]
+			id: "771E3ADB32B0A5C6"
+			optional: true
+			tasks: [{
+				id: "32FBAF74D9024D7C"
+				item: "gtocore:lhc"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -5.0d
+		}
+		{
+			description: ["{gto.uev.quests.79F7E5BB7025ED2D.description0}"]
+			id: "79F7E5BB7025ED2D"
+			invisible: true
+			tasks: [{
+				id: "4D04F650E3823FC9"
+				item: {
+					Count: 1
+					id: "gtocore:obsidian_matrix"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -2.5d
+		}
+		{
+			description: ["{gto.uev.quests.078689C5C9FABDE7.description0}"]
+			id: "078689C5C9FABDE7"
+			invisible: true
+			tasks: [{
+				id: "1BD09C364BE0EEDF"
+				item: {
+					Count: 1
+					id: "gtocore:closed_timelike_curve_guidance_unit"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.5d
+		}
+		{
+			description: ["{gto.uev.quests.7448C7335542B7A5.description0}"]
+			id: "7448C7335542B7A5"
+			invisible: true
+			tasks: [{
+				id: "25565AFB6E00D585"
+				item: {
+					Count: 1
+					id: "gtocore:atomic_archives"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: -2.5d
+		}
+	]
 	subtitle: ["{gto.uev.subtitle0}"]
 	title: "{gto.uev.title}"
 }
