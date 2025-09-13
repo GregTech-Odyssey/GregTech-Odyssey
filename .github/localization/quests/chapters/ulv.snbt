@@ -811,7 +811,7 @@
 			description: [
 				"{gto.ulv.quests.7D370CF55A0AE36D.description0}"
 				""
-				"[\"\",{\"text\":\"超低压的时代的六件套主要需要\"},{ \"text\": \"铜\",\"color\":\"#e17c09\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"60976D12EFCED9C4\" } },{\"text\":\"和\"},{ \"text\": \"锡\",\"color\":\"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"17C2FCD590054742\" } },{\"text\":\"来制造，也是蒸汽时代的主要材料的延续\"}]"
+				"[\"\", {\"translate\": \"gto.ulv.quests.7D370CF55A0AE36D.description1.rich_text0\"}, {\"color\": \"#e17c09\", \"underlined\": \"True\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"60976D12EFCED9C4\"}, \"translate\": \"gto.ulv.quests.7D370CF55A0AE36D.description1.rich_text1\"}, {\"translate\": \"gto.ulv.quests.7D370CF55A0AE36D.description1.rich_text2\"}, {\"color\": \"yellow\", \"underlined\": \"True\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"17C2FCD590054742\"}, \"translate\": \"gto.ulv.quests.7D370CF55A0AE36D.description1.rich_text3\"}, {\"translate\": \"gto.ulv.quests.7D370CF55A0AE36D.description1.rich_text4\"}]"
 			]
 			id: "7D370CF55A0AE36D"
 			shape: "hexagon"
@@ -1069,7 +1069,7 @@
 			]
 			description: [
 				"{gto.ulv.quests.2D5EB54D9AC2F900.description0}"
-				"[\"\",{\"text\":\"你已经准备好了\"},{\"text\":\"高压蒸汽真空泵\",\"color\":\"red\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5CFDAB8B03980F9D\"} }]"
+				"[\"\", {\"translate\": \"gto.ulv.quests.2D5EB54D9AC2F900.description1.rich_text0\"}, {\"color\": \"red\", \"underlined\": \"True\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"5CFDAB8B03980F9D\"}, \"translate\": \"gto.ulv.quests.2D5EB54D9AC2F900.description1.rich_text1\"}]"
 			]
 			id: "2D5EB54D9AC2F900"
 			shape: "circle"

@@ -444,7 +444,7 @@
 				""
 				"{gto.hv.quests.6DAF9DE9EAC4B63B.description2}"
 				""
-				"[ \"前往查看\", { \"text\": \"无人机控制中心\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"27BE49A3FEA64B59\" } } ]"
+				"[\"\", {\"translate\": \"gto.hv.quests.6DAF9DE9EAC4B63B.description3.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"27BE49A3FEA64B59\"}, \"translate\": \"gto.hv.quests.6DAF9DE9EAC4B63B.description3.rich_text1\"}]"
 			]
 			id: "6DAF9DE9EAC4B63B"
 			shape: "diamond"
