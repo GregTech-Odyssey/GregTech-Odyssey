@@ -716,7 +716,7 @@
 				""
 				"以&6UHV超频仓&r举例，安装之后每进行一次&e超频&r，耗时都将变为原来的&a1/3&r。（这里的3就是超频仓UI中显示的数字）"
 				""
-				"从&6UIV超频仓&r开始，耗时乘数突破了&a4&r，这意味着超频不仅&e省时&r，甚至还&e节能&r，超频也第一次比并行拥有&c更高&r的优先级。"
+				"从&6UIV超频仓&r开始，耗时乘数突破了&a4&r，这意味着超频不仅&e省时&r，甚至还&e节能&r，超频也第一次比并行拥有&c更高&r的优先级。机器会优先计算超频，再计算并行。"
 			]
 			hide_until_deps_complete: true
 			icon: "gtocore:uv_overclock_hatch"
@@ -1394,6 +1394,31 @@
 			title: "研究的奥秘"
 			x: 6.0d
 			y: 5.5d
+		}
+		{
+			dependencies: [
+				"2AF1E09A346B5343"
+				"4167ADF91EF95341"
+			]
+			description: ["魔力增幅仓内的UI可调整其缓存大小。开启批处理时，仍然只需要输入一份机器最大功率的魔力即可完成批处理。"]
+			hide_until_deps_complete: true
+			id: "56243643D545C27B"
+			subtitle: "以魔力为代价"
+			tasks: [
+				{
+					id: "3DE290CE26EBC75B"
+					type: "checkmark"
+				}
+				{
+					id: "3BC7D193476722E3"
+					item: "gtocore:mana_amplifier_hatch"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "魔法的无损超频"
+			x: 10.0d
+			y: -4.5d
 		}
 	]
 	subtitle: ["Tips and Tricks"]
