@@ -1395,6 +1395,31 @@
 			x: 6.0d
 			y: 5.5d
 		}
+		{
+			dependencies: [
+				"2AF1E09A346B5343"
+				"4167ADF91EF95341"
+			]
+			description: ["{gto.tips.quests.56243643D545C27B.description0}"]
+			hide_until_deps_complete: true
+			id: "56243643D545C27B"
+			subtitle: "{gto.tips.quests.56243643D545C27B.subtitle}"
+			tasks: [
+				{
+					id: "3DE290CE26EBC75B"
+					type: "checkmark"
+				}
+				{
+					id: "3BC7D193476722E3"
+					item: "gtocore:mana_amplifier_hatch"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "{gto.tips.quests.56243643D545C27B.title}"
+			x: 10.0d
+			y: -4.5d
+		}
 	]
 	subtitle: ["{gto.tips.subtitle0}"]
 	title: "{gto.tips.title}"
