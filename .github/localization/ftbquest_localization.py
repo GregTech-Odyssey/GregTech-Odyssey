@@ -4,7 +4,7 @@ from pathlib import Path
 import shutil
 import subprocess
 import sys
-
+import ast
 import ftb_snbt_lib as snbt
 from ftb_snbt_lib.tag import Compound, List, String
 
@@ -73,7 +73,7 @@ def text_filter(text: str) -> bool:
     if text.startswith("{") and text.endswith("}"):
         return False
     if text.startswith("[") and text.endswith("]"):
-        return False
+        return True
     return True
 
 
@@ -106,9 +106,25 @@ def _convert(data: Compound, lang_key: str):
                 data[key] = snbt.String(f'{{{lk}}}')
             elif isinstance(data[key], List) and issubclass(data[key].subtype, String):
                 for index, i in enumerate(filter(lambda x: text_filter(data[key][x]), range(len(data[key])))):
-                    lk = f'{lang_key}.{key}{index}'
-                    SOURCE_KEYS[lk] = escape_string(data[key][i])
-                    data[key][i] = snbt.String(f'{{{lk}}}')
+                    if data[key][i].startswith("[") and data[key][i].endswith("]"):
+                        text = data[key][i].replace('true', 'True').replace('false', 'False')
+                        parsed_list = ast.literal_eval(text)
+                        for index_rich, j in enumerate(filter(lambda i: parsed_list[i] != '', range(len(parsed_list)))):
+                            if isinstance(parsed_list[j], str):
+                                lk = f'{lang_key}.{key}{index}.rich_text{index_rich}'
+                                SOURCE_KEYS[lk] = escape_string(parsed_list[j])
+                                parsed_list[j] = {'translate' : lk}
+                            else:
+                                lk = f'{lang_key}.{key}{index}.rich_text{index_rich}'
+                                SOURCE_KEYS[lk] = escape_string(parsed_list[j].pop('text'))
+                                parsed_list[j]['translate'] = lk
+                        if parsed_list[0] != '':
+                            parsed_list = [''] + parsed_list
+                        data[key][i] = json.dumps(parsed_list, ensure_ascii=False)
+                    else:     
+                        lk = f'{lang_key}.{key}{index}'
+                        SOURCE_KEYS[lk] = escape_string(data[key][i])
+                        data[key][i] = snbt.String(f'{{{lk}}}')
 
 
 def sync_language_files_incremental(source_keys: dict, source_language: str, target_language: str):
