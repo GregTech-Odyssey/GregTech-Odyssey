@@ -374,7 +374,7 @@
 				"{gto.main-stoneage.quests.4DC482C16035F261.description0}"
 				""
 				"{gto.main-stoneage.quests.4DC482C16035F261.description1}"
-				"{gto.main-stoneage.quests.4DC482C16035F261.description2}"
+				""
 				"[ \"可以在\", { \"text\": \"摩登时代\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1CE34BD4900990C6\" } }, \"章节继续寻找升级的方式\" ]"
 			]
 			icon: "sophisticatedbackpacks:backpack"

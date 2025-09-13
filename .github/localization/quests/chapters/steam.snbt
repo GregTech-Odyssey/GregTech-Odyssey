@@ -246,8 +246,8 @@
 			dependencies: ["05F4015974079225"]
 			description: [
 				"{gto.steam.quests.604FA0DDAD1979A1.description0}"
+				""
 				"{gto.steam.quests.604FA0DDAD1979A1.description1}"
-				"{gto.steam.quests.604FA0DDAD1979A1.description2}"
 			]
 			id: "604FA0DDAD1979A1"
 			shape: "hexagon"
@@ -855,8 +855,8 @@
 			dependencies: ["0E4FE30F5B178EDD"]
 			description: [
 				"{gto.steam.quests.7E046341CF58BB22.description0}"
+				""
 				"{gto.steam.quests.7E046341CF58BB22.description1}"
-				"{gto.steam.quests.7E046341CF58BB22.description2}"
 			]
 			id: "7E046341CF58BB22"
 			subtitle: "{gto.steam.quests.7E046341CF58BB22.subtitle}"

@@ -1465,10 +1465,10 @@
 			dependencies: ["7C9277B717E90328"]
 			description: [
 				"{gto.ae.quests.44487970FC3FBAED.description0}"
-				"{gto.ae.quests.44487970FC3FBAED.description1}"
-				"{gto.ae.quests.44487970FC3FBAED.description2}"
 				""
-				"{gto.ae.quests.44487970FC3FBAED.description3}"
+				"{gto.ae.quests.44487970FC3FBAED.description1}"
+				""
+				"{gto.ae.quests.44487970FC3FBAED.description2}"
 			]
 			icon: "gtceu:large_chemical_reactor"
 			id: "44487970FC3FBAED"
