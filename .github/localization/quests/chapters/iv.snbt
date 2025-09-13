@@ -961,7 +961,7 @@
 			description: [
 				"{gto.iv.quests.79A84A1D8BCDC012.description0}"
 				""
-				"[\"\", {\"translate\": \"gto.iv.quests.79A84A1D8BCDC012.description1.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"68C24A1ED361D607\"}, \"translate\": \"gto.iv.quests.79A84A1D8BCDC012.description1.rich_text1\"}, {\"translate\": \"gto.iv.quests.79A84A1D8BCDC012.description1.rich_text2\"}]"
+				"[ \"详见\", { \"text\": \"大批量加工\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"68C24A1ED361D607\" } }, \"章节\" ]"
 			]
 			id: "79A84A1D8BCDC012"
 			tasks: [{

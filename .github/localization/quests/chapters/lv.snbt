@@ -400,7 +400,7 @@
 				"5B8151CC61AAAE12"
 				"7A1442B2BADD8D46"
 			]
-			description: ["[\"\", {\"translate\": \"gto.lv.quests.2D5A5D2DE390665C.description0.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"0DF27446EE5DB28F\"}, \"translate\": \"gto.lv.quests.2D5A5D2DE390665C.description0.rich_text1\"}, {\"translate\": \"gto.lv.quests.2D5A5D2DE390665C.description0.rich_text2\"}]"]
+			description: ["[ \"铜线缆的作用也仅仅只是合成罢了，为什么不去看看这个阶段的\", { \"text\": \"超导体\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0DF27446EE5DB28F\" } }, \"呢？\" ]"]
 			id: "2D5A5D2DE390665C"
 			subtitle: "{gto.lv.quests.2D5A5D2DE390665C.subtitle}"
 			tasks: [{
@@ -525,9 +525,9 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"[\"\", {\"translate\": \"gto.lv.quests.268C28F66FA4C91F.description0.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"12FEAB1A9AA1BCA6\"}, \"translate\": \"gto.lv.quests.268C28F66FA4C91F.description0.rich_text1\"}, {\"translate\": \"gto.lv.quests.268C28F66FA4C91F.description0.rich_text2\"}]"
+				"[ \"有了它，你可以制作\", { \"text\": \"大型蒸汽机器\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"12FEAB1A9AA1BCA6\" } }, \"了，这能极大地提升你的生产效率\" ]"
 				""
-				"{gto.lv.quests.268C28F66FA4C91F.description1}"
+				"{gto.lv.quests.268C28F66FA4C91F.description0}"
 			]
 			hide_dependent_lines: true
 			id: "268C28F66FA4C91F"
@@ -741,12 +741,12 @@
 				""
 				"{gto.lv.quests.23A116C4BAE96979.description1}"
 				""
-				"[\"\", {\"italic\": true, \"color\": \"gray\", \"translate\": \"gto.lv.quests.23A116C4BAE96979.description2.rich_text0\"}, {\"color\": \"gray\", \"italic\": true, \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"7F65A1C533ED1C3B\"}, \"translate\": \"gto.lv.quests.23A116C4BAE96979.description2.rich_text1\"}, {\"italic\": true, \"color\": \"gray\", \"translate\": \"gto.lv.quests.23A116C4BAE96979.description2.rich_text2\"}, {\"color\": \"gray\", \"italic\": true, \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"16047F3F79404251\"}, \"translate\": \"gto.lv.quests.23A116C4BAE96979.description2.rich_text3\"}, {\"italic\": true, \"color\": \"gray\", \"translate\": \"gto.lv.quests.23A116C4BAE96979.description2.rich_text4\"}]"
+				"[\"\",{\"text\": \"想要加速机器还有很多其他方式，本章中的\",\"italic\": true,\"color\":\"gray\"}, {\"text\": \"加速仓\",\"color\":\"gray\",\"italic\": true,\"underlined\": true,\"clickEvent\": {\"action\": \"change_page\",\"value\": \"7F65A1C533ED1C3B\"}},{\"text\": \"也是其中之一。完整加速方法请前往\",\"italic\": true,\"color\":\"gray\"},{\"text\": \"提示\",\"color\":\"gray\",\"italic\": true,\"underlined\": true,\"clickEvent\": {\"action\": \"change_page\",\"value\": \"16047F3F79404251\"}},{\"text\": \"查看\",\"italic\": true,\"color\":\"gray\"}]"
 				""
+				""
+				"{gto.lv.quests.23A116C4BAE96979.description2}"
 				""
 				"{gto.lv.quests.23A116C4BAE96979.description3}"
-				""
-				"{gto.lv.quests.23A116C4BAE96979.description4}"
 			]
 			icon: "gtceu:lv_energy_input_hatch"
 			id: "23A116C4BAE96979"
@@ -1318,9 +1318,9 @@
 				""
 				"{gto.lv.quests.35FD16B1992A2576.description1}"
 				""
-				"[\"\", {\"translate\": \"gto.lv.quests.35FD16B1992A2576.description2.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"5C62ECF9AC84E023\"}, \"translate\": \"gto.lv.quests.35FD16B1992A2576.description2.rich_text1\"}, {\"translate\": \"gto.lv.quests.35FD16B1992A2576.description2.rich_text2\"}]"
+				"[ \"点\", { \"text\": \"这里\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5C62ECF9AC84E023\" } }, \"获取覆盖版用法\"]"
 				""
-				"{gto.lv.quests.35FD16B1992A2576.description3}"
+				"{gto.lv.quests.35FD16B1992A2576.description2}"
 			]
 			icon: "gtmthings:wireless_item_transfer_cover"
 			id: "35FD16B1992A2576"
@@ -1828,7 +1828,7 @@
 				""
 				"{gto.lv.quests.1FEF25B6BDBC00D7.description1}"
 				""
-				"[\"\", {\"translate\": \"gto.lv.quests.1FEF25B6BDBC00D7.description2.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"1CF899F39CC99A07\"}, \"translate\": \"gto.lv.quests.1FEF25B6BDBC00D7.description2.rich_text1\"}, {\"translate\": \"gto.lv.quests.1FEF25B6BDBC00D7.description2.rich_text2\"}]"
+				"[ \"尤其要注意你的产物是由离心机还是\", { \"text\": \"热力离心机\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1CF899F39CC99A07\" } }, \"生产而成，两字之差距离远矣\" ]"
 			]
 			id: "1FEF25B6BDBC00D7"
 			shape: "hexagon"
@@ -1851,7 +1851,7 @@
 			description: [
 				"{gto.lv.quests.1CF899F39CC99A07.description0}"
 				""
-				"[\"\", {\"translate\": \"gto.lv.quests.1CF899F39CC99A07.description1.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"1FEF25B6BDBC00D7\"}, \"translate\": \"gto.lv.quests.1CF899F39CC99A07.description1.rich_text1\"}, {\"translate\": \"gto.lv.quests.1CF899F39CC99A07.description1.rich_text2\"}]"
+				"[ \"尤其要注意你的产物是由\", { \"text\": \"离心机\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1FEF25B6BDBC00D7\" } }, \"还是热力离心机生产而成，两字之差距离远矣\" ]"
 			]
 			id: "1CF899F39CC99A07"
 			shape: "hexagon"
@@ -1899,11 +1899,11 @@
 				"268C28F66FA4C91F"
 			]
 			description: [
-				"[\"\", {\"translate\": \"gto.lv.quests.0CFABBAD568B3178.description0.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"241806C710FDAC27\"}, \"translate\": \"gto.lv.quests.0CFABBAD568B3178.description0.rich_text1\"}, {\"translate\": \"gto.lv.quests.0CFABBAD568B3178.description0.rich_text2\"}]"
+				"[ \"用法和配置需求都跟\", { \"text\": \"右边那个家伙\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"241806C710FDAC27\" } }, \"是一样的，甚至长得也很像\" ]"
+				""
+				"{gto.lv.quests.0CFABBAD568B3178.description0}"
 				""
 				"{gto.lv.quests.0CFABBAD568B3178.description1}"
-				""
-				"{gto.lv.quests.0CFABBAD568B3178.description2}"
 			]
 			id: "0CFABBAD568B3178"
 			shape: "hexagon"

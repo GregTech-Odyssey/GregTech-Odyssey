@@ -1020,9 +1020,9 @@
 		{
 			dependencies: ["3D1E66868544975F"]
 			description: [
-				"[\"\", {\"translate\": \"gto.mv.quests.7E448FB79A010162.description0.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"4FC3EC9C6C25633F\"}, \"translate\": \"gto.mv.quests.7E448FB79A010162.description0.rich_text1\"}, {\"translate\": \"gto.mv.quests.7E448FB79A010162.description0.rich_text2\"}]"
+				"[ \"如\", { \"text\": \"上一章节\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4FC3EC9C6C25633F\" } }, \"所述，它拥有更高的净化能力和净化范围\" ]"
 				""
-				"{gto.mv.quests.7E448FB79A010162.description1}"
+				"{gto.mv.quests.7E448FB79A010162.description0}"
 			]
 			id: "7E448FB79A010162"
 			shape: "hexagon"
@@ -1174,7 +1174,7 @@
 			description: [
 				"{gto.mv.quests.2386117F9423A54E.description0}"
 				""
-				"[\"\", {\"translate\": \"gto.mv.quests.2386117F9423A54E.description1.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"20B8E68273D7D0DE\"}, \"translate\": \"gto.mv.quests.2386117F9423A54E.description1.rich_text1\"}, {\"translate\": \"gto.mv.quests.2386117F9423A54E.description1.rich_text2\"}]"
+				"[ \"前往\", { \"text\": \"无线电网\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"20B8E68273D7D0DE\" } }, \"章节查看如何搭建你的无线电网系统\" ]"
 			]
 			hide_dependency_lines: true
 			icon: "gtocore:mv_wireless_input_hatch"

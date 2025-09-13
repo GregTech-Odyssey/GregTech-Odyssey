@@ -301,7 +301,7 @@
 				""
 				"{gto.tips.quests.20BC48DF78F11B24.description2}"
 				""
-				"[\"\", {\"translate\": \"gto.tips.quests.20BC48DF78F11B24.description3.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"23DF7BAC762AF885\"}, \"translate\": \"gto.tips.quests.20BC48DF78F11B24.description3.rich_text1\"}, {\"translate\": \"gto.tips.quests.20BC48DF78F11B24.description3.rich_text2\"}]"
+				"[ \"前往\", { \"text\": \"矿石图鉴\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"23DF7BAC762AF885\" } }, \"章节查看你需要的矿石资源\" ]"
 			]
 			icon: "gtceu:gold_indicator"
 			id: "20BC48DF78F11B24"

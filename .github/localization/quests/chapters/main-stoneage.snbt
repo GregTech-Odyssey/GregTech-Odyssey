@@ -375,7 +375,7 @@
 				""
 				"{gto.main-stoneage.quests.4DC482C16035F261.description1}"
 				""
-				"[\"\", {\"translate\": \"gto.main-stoneage.quests.4DC482C16035F261.description2.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"1CE34BD4900990C6\"}, \"translate\": \"gto.main-stoneage.quests.4DC482C16035F261.description2.rich_text1\"}, {\"translate\": \"gto.main-stoneage.quests.4DC482C16035F261.description2.rich_text2\"}]"
+				"[ \"可以在\", { \"text\": \"摩登时代\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1CE34BD4900990C6\" } }, \"章节继续寻找升级的方式\" ]"
 			]
 			icon: "sophisticatedbackpacks:backpack"
 			id: "4DC482C16035F261"
@@ -457,7 +457,7 @@
 				""
 				"{gto.main-stoneage.quests.664BDC18052B54FC.description1}"
 				""
-				"[\"\", {\"translate\": \"gto.main-stoneage.quests.664BDC18052B54FC.description2.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"0C0A2C3CC7BE0749\"}, \"translate\": \"gto.main-stoneage.quests.664BDC18052B54FC.description2.rich_text1\"}]"
+				"[ \"那么黏土去哪找呢？去河流边上，或者直接点，繁茂洞穴，或者再直接点，\", { \"text\": \"去买点\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0C0A2C3CC7BE0749\" } } ]"
 			]
 			hide_dependency_lines: true
 			icon: "minecraft:clay_ball"
@@ -510,7 +510,7 @@
 				""
 				"{gto.main-stoneage.quests.45C8A2DF9C0E5473.description2}"
 				""
-				"[\"\", {\"translate\": \"gto.main-stoneage.quests.45C8A2DF9C0E5473.description3.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"23DF7BAC762AF885\"}, \"translate\": \"gto.main-stoneage.quests.45C8A2DF9C0E5473.description3.rich_text1\"}, {\"translate\": \"gto.main-stoneage.quests.45C8A2DF9C0E5473.description3.rich_text2\"}]"
+				"[ \"你现在可以看到\", { \"text\": \"矿石生成\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"23DF7BAC762AF885\" } }, \"章节内主世界矿物的分布了\" ]"
 			]
 			icon: {
 				Count: 1
@@ -574,9 +574,9 @@
 				""
 				"{gto.main-stoneage.quests.10C397237163BFFC.description2}"
 				""
-				"[\"\", {\"translate\": \"gto.main-stoneage.quests.10C397237163BFFC.description3.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"07C8D75D90114580\"}, \"translate\": \"gto.main-stoneage.quests.10C397237163BFFC.description3.rich_text1\"}, {\"translate\": \"gto.main-stoneage.quests.10C397237163BFFC.description3.rich_text2\"}]"
+				"[ \"还在傻傻手搭多方块吗？我建议你用\", { \"text\": \"终端\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"07C8D75D90114580\" } }, \"来辅助搭建\"]"
 				""
-				"{gto.main-stoneage.quests.10C397237163BFFC.description4}"
+				"{gto.main-stoneage.quests.10C397237163BFFC.description3}"
 			]
 			icon: "gtceu:coke_oven"
 			id: "10C397237163BFFC"
@@ -1009,7 +1009,7 @@
 				"{gto.main-stoneage.quests.30D4CC9142D59DBD.description2}"
 				"{gto.main-stoneage.quests.30D4CC9142D59DBD.description3}"
 				""
-				"[\"\", {\"translate\": \"gto.main-stoneage.quests.30D4CC9142D59DBD.description4.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"1A0EA7A29CFD830D\"}, \"translate\": \"gto.main-stoneage.quests.30D4CC9142D59DBD.description4.rich_text1\"}]"
+				"[ \"你可以查看提示章节的\", { \"text\": \"GT工具使用手册\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1A0EA7A29CFD830D\" } } ]"
 			]
 			icon: {
 				Count: 1

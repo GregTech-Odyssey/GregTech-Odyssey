@@ -350,7 +350,7 @@
 			description: [
 				"{gto.steam.quests.7E8B76C8CC341F51.description0}"
 				""
-				"[\"\", {\"translate\": \"gto.steam.quests.7E8B76C8CC341F51.description1.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"1A0EA7A29CFD830D\"}, \"translate\": \"gto.steam.quests.7E8B76C8CC341F51.description1.rich_text1\"}]"
+				"[ \"什么，你问我怎么调整排气口的位置？那你肯定是没仔细看\", { \"text\": \"使用手册\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1A0EA7A29CFD830D\" } } ]"
 			]
 			id: "7E8B76C8CC341F51"
 			subtitle: "{gto.steam.quests.7E8B76C8CC341F51.subtitle}"
@@ -748,9 +748,9 @@
 				""
 				"{gto.steam.quests.4F1FEB6CE7C64D14.description2}"
 				""
-				"[\"\", {\"translate\": \"gto.steam.quests.4F1FEB6CE7C64D14.description3.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"1CE2E908034CC401\"}, \"translate\": \"gto.steam.quests.4F1FEB6CE7C64D14.description3.rich_text1\"}, {\"translate\": \"gto.steam.quests.4F1FEB6CE7C64D14.description3.rich_text2\"}]"
+				"[ \"建议带个\", { \"text\": \"飞机\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1CE2E908034CC401\" } } ,\" ，点击查看该章节\"]"
 				""
-				"{gto.steam.quests.4F1FEB6CE7C64D14.description4}"
+				"{gto.steam.quests.4F1FEB6CE7C64D14.description3}"
 			]
 			icon: "gtocore:ancient_reactor_core"
 			id: "4F1FEB6CE7C64D14"
@@ -1226,7 +1226,7 @@
 			description: [
 				"{gto.steam.quests.15F751DFB8990D1A.description0}"
 				""
-				"[\"\", {\"translate\": \"gto.steam.quests.15F751DFB8990D1A.description1.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"1CE2E908034CC401\"}, \"translate\": \"gto.steam.quests.15F751DFB8990D1A.description1.rich_text1\"}, {\"translate\": \"gto.steam.quests.15F751DFB8990D1A.description1.rich_text2\"}]"
+				"[ \"前往\", { \"text\": \"沉浸式飞行\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1CE2E908034CC401\" } }, \"章节查看飞机其他零部件\" ]"
 			]
 			id: "15F751DFB8990D1A"
 			optional: true
@@ -1280,7 +1280,7 @@
 				"{gto.steam.quests.4CC934314D14A5EA.description0}"
 				""
 				"{gto.steam.quests.4CC934314D14A5EA.description1}"
-				"[\"\", {\"translate\": \"gto.steam.quests.4CC934314D14A5EA.description2.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"4C94E56A9270EFFB\"}, \"translate\": \"gto.steam.quests.4CC934314D14A5EA.description2.rich_text1\"}, {\"translate\": \"gto.steam.quests.4CC934314D14A5EA.description2.rich_text2\"}]"
+				"[ \"或者一个\", { \"text\": \"多方块合金炉\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4C94E56A9270EFFB\" } }, \"的\" ]"
 			]
 			hide_dependent_lines: true
 			id: "4CC934314D14A5EA"
