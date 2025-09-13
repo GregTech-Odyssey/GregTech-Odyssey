@@ -1905,7 +1905,7 @@
 			]
 			title: "&a召唤&r &5&a盖亚守护者&f&r"
 			x: 32.0d
-			y: 0.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["0331107259F7B68C"]
@@ -1918,7 +1918,7 @@
 				type: "item"
 			}]
 			x: 33.0d
-			y: -1.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["04CE14D92603FC7A"]
@@ -1947,7 +1947,7 @@
 			]
 			title: "&e&a盖亚魂&f&r"
 			x: 34.0d
-			y: 0.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["0331107259F7B68C"]
@@ -2638,7 +2638,7 @@
 			}]
 			title: "&a盖亚装备与饰品&r"
 			x: 34.0d
-			y: -1.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["3A20210242A1C865"]
@@ -5125,7 +5125,7 @@
 				type: "item"
 			}]
 			x: 35.0d
-			y: -1.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["18E4BD0C2EDCBDF2"]
@@ -5134,7 +5134,6 @@
 				""
 				"区域破坏者并不会产生爆炸，而是清空方块，也许能作为平地的好帮手"
 			]
-			hide_dependency_lines: true
 			id: "02835A9B717F47AC"
 			subtitle: "人畜无害"
 			tasks: [{
@@ -5143,7 +5142,7 @@
 				type: "item"
 			}]
 			x: 37.0d
-			y: 2.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["27CD17C4B3613171"]
@@ -5164,7 +5163,6 @@
 				""
 				"时间扭曲者可以快速地加速机器的加工进程，但你需要保证电网足够，你也不希望看到机器全面跳电罢工吧！"
 			]
-			hide_dependency_lines: true
 			id: "041B3B6736C62F82"
 			subtitle: "比床更加黑科技的时间机器"
 			tasks: [{
@@ -5172,8 +5170,8 @@
 				item: "gtocore:time_twister"
 				type: "item"
 			}]
-			x: 37.0d
-			y: 0.5d
+			x: 35.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["7B3FAF5CA4DD217C"]
@@ -5239,6 +5237,26 @@
 			}]
 			x: 19.5d
 			y: 3.25d
+		}
+		{
+			dependencies: [
+				"18E4BD0C2EDCBDF2"
+				"32B3E6812521AB70"
+			]
+			description: [
+				"&o&3格雷科技有限公司&r&o的&6神秘学家们&r&o在&b魔法&r&o发展到极高水平后研究出的跨界魔法成果。只要给机器提供足够的魔力，机器就无需担忧超频带来的能源损耗。"
+				""
+				"魔力增幅仓内的UI可调整其缓存大小。开启批处理时，仍然只需要输入一份机器最大功率的魔力即可完成批处理。"
+			]
+			id: "4167ADF91EF95341"
+			subtitle: "反哺科技"
+			tasks: [{
+				id: "7411E8A1C3C7FD56"
+				item: "gtocore:mana_amplifier_hatch"
+				type: "item"
+			}]
+			x: 37.0d
+			y: 1.5d
 		}
 	]
 	title: "Ⅰ魔法线"

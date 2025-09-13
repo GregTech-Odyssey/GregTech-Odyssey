@@ -497,20 +497,20 @@
 			subtitle: "给我增殖！"
 			tasks: [
 				{
-					id: "7549EC850E00A09F"
+					id: "05ACCFEFEDCCC541"
+					type: "checkmark"
+				}
+				{
+					id: "027107B28F156454"
 					item: "gtceu:bacteria_bucket"
 					optional_task: true
 					type: "item"
 				}
 				{
-					id: "5C556CC949E868E7"
+					id: "3557F63CB7D7AC8E"
 					item: "gtocore:rapidly_replicating_animal_cells_bucket"
 					optional_task: true
 					type: "item"
-				}
-				{
-					id: "05ACCFEFEDCCC541"
-					type: "checkmark"
 				}
 			]
 			title: "自行生长"
@@ -904,7 +904,7 @@
 		}
 		{
 			dependencies: ["502F7DD0C930D5BF"]
-			description: ["用捕捉附魔获取以上的蛋"]
+			description: ["用捕获附魔获取以上的蛋"]
 			id: "7651697F32169E49"
 			tasks: [
 				{
@@ -975,7 +975,7 @@
 		}
 		{
 			dependencies: ["502F7DD0C930D5BF"]
-			description: ["用捕捉附魔获取以上的蛋"]
+			description: ["用捕获附魔获取以上的蛋"]
 			id: "3CBA56988C0F8E7E"
 			subtitle: "这次不要DNA了"
 			tasks: [

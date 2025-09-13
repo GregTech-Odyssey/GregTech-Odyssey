@@ -40,8 +40,8 @@
 			linked_quest: "5BABA7621E000F54"
 			shape: "hexagon"
 			size: 1.5d
-			x: -2.5d
-			y: 1.047619047619051d
+			x: -1.5d
+			y: 8.5d
 		}
 		{
 			id: "392613EB906CA2E3"
@@ -121,8 +121,8 @@
 				item: { Count: 64, id: "gtocore:ingot_field_shape" }
 				type: "item"
 			}]
-			x: -2.5d
-			y: 2.5d
+			x: -1.5d
+			y: 10.5d
 		}
 		{
 			dependencies: ["208F73ECE425E473"]
@@ -760,7 +760,7 @@
 				item: "gtocore:titansteel_ingot"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -3.5d
 			y: 10.5d
 		}
 		{
@@ -772,7 +772,7 @@
 				item: "gtocore:titansteel_coil_block"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -3.5d
 			y: 8.5d
 		}
 		{
@@ -796,7 +796,7 @@
 				type: "item"
 			}]
 			x: -3.5d
-			y: 10.5d
+			y: 12.5d
 		}
 		{
 			dependencies: ["2F3D8DD85C6D4F74"]
@@ -810,17 +810,6 @@
 			}]
 			x: -0.5d
 			y: 1.0d
-		}
-		{
-			dependencies: ["1F5585DCC6CE74ED"]
-			id: "6C2AC8385B8DD797"
-			tasks: [{
-				id: "7133B0CA578E9BAB"
-				item: "gtocore:space_drone_mk3"
-				type: "item"
-			}]
-			x: -3.5d
-			y: 8.5d
 		}
 		{
 			dependencies: [
@@ -855,7 +844,11 @@
 				"7A1E4DBA675E67FB"
 				"1550CA9D8E6B1042"
 			]
-			description: ["机器配方&e无视&r电压等级，只要功率足够即可"]
+			description: [
+				"机器配方&e无视&r电压等级，只要功率足够即可"
+				""
+				"如果&c供能不足&r时运行会炸，范围真的很大！"
+			]
 			id: "6554762A276412A5"
 			shape: "gear"
 			size: 2.0d
@@ -954,6 +947,19 @@
 			}]
 			x: 5.5d
 			y: -2.0d
+		}
+		{
+			dependencies: ["7ED709D3291D6B88"]
+			id: "0DBA04D875077E85"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "4166471E926FD3E8"
+				item: "gtocore:uev_fusion_reactor"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.5d
 		}
 	]
 	subtitle: ["Tier9-UHV"]

@@ -1055,6 +1055,14 @@
 			x: -5.5d
 			y: 21.5d
 		}
+		{
+			height: 1.0d
+			image: "gtocore:item/circuit/suprachronal_lv"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.5d
+			y: 1.0d
+		}
 	]
 	order_index: 4
 	quest_links: [
@@ -1309,6 +1317,8 @@
 			y: 16.5d
 		}
 		{
+			dependencies: ["034D579A41F2ED3D"]
+			hide_dependency_lines: true
 			id: "79701B57BFDAE266"
 			subtitle: "好家伙！"
 			tasks: [{
@@ -1662,6 +1672,8 @@
 				"5FCFE3D6B36CC409"
 			]
 			id: "034D579A41F2ED3D"
+			shape: "hexagon"
+			size: 1.5d
 			tasks: [
 				{
 					id: "24CFB5461290BB0A"
@@ -1683,6 +1695,7 @@
 			y: 4.5d
 		}
 		{
+			description: ["配合下方任务拿到的压印模板使用"]
 			id: "2695890B68ED84DE"
 			tasks: [{
 				id: "14B879502532287D"
@@ -2028,6 +2041,11 @@
 			y: 13.5d
 		}
 		{
+			dependencies: [
+				"034D579A41F2ED3D"
+				"26484E626E859718"
+			]
+			hide_dependency_lines: true
 			id: "1A927F14106DFC5C"
 			tasks: [{
 				id: "6F8216E8D57C120E"
@@ -2038,6 +2056,11 @@
 			y: 15.5d
 		}
 		{
+			dependencies: [
+				"034D579A41F2ED3D"
+				"68EFF1609132BDD4"
+			]
+			hide_dependency_lines: true
 			id: "7453A6A5B06DD966"
 			tasks: [{
 				id: "197D21CF41AE56FF"
@@ -2314,6 +2337,8 @@
 			y: 3.5d
 		}
 		{
+			dependencies: ["034D579A41F2ED3D"]
+			hide_dependency_lines: true
 			id: "4B0052A81F69BABA"
 			tasks: [{
 				id: "6B699A2D7A2A5D88"
@@ -3075,7 +3100,9 @@
 			y: 9.5d
 		}
 		{
+			dependencies: ["0A71F8193A3A39AE"]
 			description: [""]
+			hide_dependency_lines: true
 			id: "0B36C7D7D1594CB7"
 			shape: "hexagon"
 			size: 1.5d
@@ -3594,6 +3621,7 @@
 			y: 13.5d
 		}
 		{
+			dependencies: ["68EFF1609132BDD4"]
 			description: [
 				"使用列出的方块互相拼接，可以拼出一个或多个自定义的监控墙，供实时观察基地内情况"
 				""
@@ -3912,7 +3940,7 @@
 				"6BA5CF66F0CE3119"
 				"0B8E06206D29E420"
 			]
-			description: ["摆放两个如上图所示的量子桥，将一组量子缠绕态奇点放入其中，两座量子桥就可以跨维度相连"]
+			description: ["摆放两个如上图所示的量子桥，将一组&6量子缠绕态奇点&r放入其中，两座量子桥就可以跨维度相连"]
 			hide_dependency_lines: true
 			icon: "gtocore:quantum_anomaly"
 			id: "5627B38033AF2674"
