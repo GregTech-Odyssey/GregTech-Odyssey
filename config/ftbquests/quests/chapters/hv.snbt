@@ -1165,17 +1165,15 @@
 				"拥有&6EV级电路&r后，你似乎意识到了有某种方法可以只用一台&e多方块机器&r来处理所有带有编程电路的配方"
 				""
 				"你需要四样东西："
-				"·&6虚拟物品提供器元件&r"
+				"·&6虚拟物品供应机&r"
 				"·&6虚拟物品提供器&r"
 				"·&6可编程仓&r"
 				"·&6元件工作台&r"
 				""
 				"如何使用："
 				"1. 手持虚拟物品提供器，右击打开GUI放入你需要标记的物品"
-				"2. 在&6元件工作台&r放入&6虚拟物品提供器元件&r，并用&6虚拟物品提供器&r再次标记你需要标记的物品"
-				"3. 标记完成后将&6虚拟物品提供器元件&r放入&6ME驱动器&r"
-				"4. 将虚拟物品从AE终端拖入样板编码区"
-				"（不要放入用来标记的虚拟物品提供器，这是无效的）"
+				"2. 将供应机接入网络后将提供器放入终端，自动放到供应机内"
+				"3. 将虚拟物品从AE终端拖入样板编码区（不要放入用来标记的虚拟物品提供器，这是无效的）或使用Ctrl快速填充"
 			]
 			icon: "gtocore:hv_programmablec_hatch"
 			id: "19B006CEA837B6B4"
@@ -1184,11 +1182,6 @@
 			size: 1.0d
 			subtitle: "可编程仓室"
 			tasks: [
-				{
-					id: "25B991CEDCCE7CD1"
-					item: "gtmthings:virtual_item_provider_cell"
-					type: "item"
-				}
 				{
 					id: "7A36F4872DAD04E9"
 					item: "ae2:cell_workbench"
@@ -1210,6 +1203,11 @@
 				{
 					id: "53205A508EE3B1BB"
 					item: "gtocore:hv_programmablec_hatch"
+					type: "item"
+				}
+				{
+					id: "46FF9C3A6EF4AB21"
+					item: "gtocore:virtual_item_supply_machine"
 					type: "item"
 				}
 			]
