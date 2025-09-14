@@ -646,8 +646,8 @@
 			image: "xtonesreworked:block/bitt/4"
 			rotation: 0.0d
 			width: 1.1d
-			x: -3.0d
-			y: 3.5d
+			x: -1.0d
+			y: 9.5d
 		}
 		{
 			color: 851730
@@ -656,8 +656,8 @@
 			order: 1
 			rotation: 0.0d
 			width: 1.1d
-			x: -3.0d
-			y: 3.5d
+			x: -1.0d
+			y: 9.5d
 		}
 		{
 			height: 1.1d
@@ -734,14 +734,6 @@
 			width: 1.0d
 			x: 1.0d
 			y: 12.5d
-		}
-		{
-			height: 1.0d
-			image: "gtocore:item/circuit/suprachronal_lv"
-			rotation: 0.0d
-			width: 1.0d
-			x: -3.5d
-			y: 3.5d
 		}
 		{
 			height: 1.0d
@@ -1063,6 +1055,100 @@
 			x: -9.5d
 			y: 1.0d
 		}
+		{
+			height: 1.0d
+			image: "gtocore:item/circuit/suprachronal_mv"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: 9.5d
+		}
+		{
+			height: 1.0d
+			image: "gtocore:item/circuit/suprachronal_hv"
+			rotation: 0.0d
+			width: 1.0d
+			x: -19.5d
+			y: 19.5d
+		}
+		{
+			height: 1.0d
+			image: "gtocore:item/circuit/suprachronal_ev"
+			rotation: 0.0d
+			width: 1.0d
+			x: -19.5d
+			y: 21.5d
+		}
+		{
+			height: 1.0d
+			image: "gtocore:item/circuit/suprachronal_hv"
+			rotation: 0.0d
+			width: 1.0d
+			x: -21.5d
+			y: 9.5d
+		}
+		{
+			color: 16711935
+			height: 1.1d
+			image: "ftbquests:block/barrier_open"
+			order: 1
+			rotation: 0.0d
+			width: 1.1d
+			x: -21.0d
+			y: 9.5d
+		}
+		{
+			height: 1.1d
+			image: "xtonesreworked:block/bitt/12"
+			rotation: 0.0d
+			width: 1.1d
+			x: -21.0d
+			y: 9.5d
+		}
+		{
+			color: 16711935
+			height: 1.1d
+			image: "ftbquests:block/barrier_open"
+			order: 1
+			rotation: 0.0d
+			width: 1.1d
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			height: 1.1d
+			image: "xtonesreworked:block/bitt/12"
+			rotation: 0.0d
+			width: 1.1d
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			color: 16711935
+			height: 1.1d
+			image: "ftbquests:block/barrier_open"
+			order: 1
+			rotation: 0.0d
+			width: 1.1d
+			x: -17.0d
+			y: 1.5d
+		}
+		{
+			height: 1.1d
+			image: "xtonesreworked:block/bitt/12"
+			rotation: 0.0d
+			width: 1.1d
+			x: -17.0d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "gtocore:item/circuit/suprachronal_hv"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: 3.5d
+		}
 	]
 	order_index: 4
 	quest_links: [
@@ -1149,8 +1235,8 @@
 				"23D906A09C3631CB"
 				"04581C43F7B0BBCE"
 			]
-			description: ["无线传输&c当前维度的&r网络"]
-			icon: "expatternprovider:wireless_tool"
+			description: ["无线传输&c当前维度的&r网络，只能一对一连接！"]
+			icon: "expatternprovider:wireless_connect"
 			id: "083934744ECD19FB"
 			subtitle: "Wifi到处飞"
 			tasks: [
@@ -1422,16 +1508,16 @@
 				"- 优化的配方处理机制，使用原生类型，没有二次转换"
 				"- 缓存样板对应的配方，下次查找时直接调用这个配方，而不是重新搜索"
 				""
-				"另外，样板总成被破坏后能够保留其内部所有样板，无需使用&e封装胶带&r了！"
+				"另外，样板总成被破坏后能够保留其内部所有样板！"
 			]
 			icon: "gtceu:me_pattern_buffer"
 			id: "0BC456B4331C09F5"
+			subtitle: "更好的下单"
 			tasks: [{
 				id: "68D37A606413E9A9"
 				item: "gtceu:me_pattern_buffer"
 				type: "item"
 			}]
-			title: "更好的下单"
 			x: -3.0d
 			y: 5.5d
 		}
@@ -1631,6 +1717,7 @@
 				""
 				"放入样板并连接AE网络以自动发配合成原料，继承了普通样板总成的所有优化特性"
 			]
+			hide_dependency_lines: true
 			id: "47506298B1BD1780"
 			subtitle: "超前期的样板总成"
 			tasks: [{
@@ -1638,8 +1725,8 @@
 				item: "gtocore:me_simple_pattern_buffer"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 3.5d
+			x: -1.0d
+			y: 9.5d
 		}
 		{
 			description: [
@@ -4023,6 +4110,56 @@
 			title: "自动合成系统的第三块拼图"
 			x: -7.0d
 			y: 3.5d
+		}
+		{
+			dependencies: ["5F96077A62E88635"]
+			description: ["&6订单&r是一种用来完成一次&e“伪合成请求”&r的&6编码样板&r，你可以用它来直接请求合成&b一台或多台多方块机器的所有方块&r，或自定义一个你想要的&e“套餐”&r，比如&b一座建筑的所有建筑材料&r！"]
+			hide_dependency_lines: true
+			id: "3A3CCF0B1FF4EEA3"
+			subtitle: "妙妙工具系列#1"
+			tasks: [{
+				id: "128D257B54C10CAA"
+				item: {
+					Count: 1
+					id: "gtocore:order"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -17.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5F96077A62E88635"]
+			description: [
+				"你是否遇到了下列问题："
+				""
+				"你想要优先消耗更便宜的电路（比如磁共振电路），但基地里的样板早已成一团乱麻，即使使用&6样板修改器PRO&r修改样板也仍使你疲倦不堪！"
+				""
+				"这个动态样板修改器能够在ME合成系统每次发配样板原料时&6动态修改&r其样板内容，从而让&e特定原料能够优先消耗&r！"
+			]
+			id: "79CA845FB37A8FDC"
+			subtitle: "妙妙工具系列#3"
+			tasks: [{
+				id: "660A9ADB6EF95A29"
+				item: "gtocore:me_pattern_content_sort_machine"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["083934744ECD19FB"]
+			description: ["真正的无线ME网络"]
+			id: "44D98ACF7C6D783F"
+			subtitle: "妙妙工具系列#2"
+			tasks: [{
+				id: "409C5B77E11B2F73"
+				item: "gtocore:me_wireless_connection_machine"
+				type: "item"
+			}]
+			x: -21.0d
+			y: 9.5d
 		}
 	]
 	subtitle: ["Applied Energistics 2"]
