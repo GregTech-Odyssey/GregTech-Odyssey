@@ -826,7 +826,7 @@ hash = "8c1164a34b54305df5dc0204fae0fe6380313ece7fe748a65f473e0692415113"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/hv.snbt"
-hash = "7ca6699244cfe7519159ce8f0ca48a389c6f18866f8bcff6e82aab75089f742e"
+hash = "2d8a06c681fc6c8802d6c18eae59cce848c05250a1a23f8239c10bbcb0cab084"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/immersive-aircraft.snbt"
@@ -1318,7 +1318,7 @@ hash = "2e113e94b06f0ec198b8faa2cd4c58f937ccfffc0a6db7aaeaf8fc4bce1599f0"
 
 [[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/en_us.json"
-hash = "98e3f85c749e816dccb42d213d8dc2b93f9d16026432f3830f33d78140bcbda2"
+hash = "9d6e73c7e2c64195b68ee1f19daa45f00d8ff6348629aa15c285881c873bd3a5"
 
 [[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/ru_ru.json"
@@ -1326,11 +1326,11 @@ hash = "c8c6a1e3f77ea80e75d9e46be3f2c844da6cad76c6b1a69c0f593b2583d55561"
 
 [[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/zh_cn.json"
-hash = "ed5647b3d3dd930e238b21bc467005ad3e66168ec047186df20e26c6bbbbf6bb"
+hash = "242097f18430db2592a4b433834fc8d394a68c7fde78dfec53c292041926f371"
 
 [[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/zh_tw.json"
-hash = "ab533d464ba4f88ad2c270b605d50f0717bb1aeffd87126708d5b17e44de7893"
+hash = "83c9d6a680b5de4a1540130e3b3d0d2fb26e5ec7d9d17dea6ab22fe5e5989f62"
 
 [[files]]
 file = "config/openloader/resources/quests/pack.mcmeta"
@@ -2683,7 +2683,7 @@ metafile = true
 
 [[files]]
 file = "mods/gtocore-0.4.4.jar"
-hash = "e21a4dfec217ced24ec81280953bd4c5df5a38c3960c4f5fc6a75006fb810722"
+hash = "f11b7b19be51986d1ddaae4b919779f7d3b65d2fb0a5caf5c0cd1dc117e9404d"
 
 [[files]]
 file = "mods/guideme.pw.toml"

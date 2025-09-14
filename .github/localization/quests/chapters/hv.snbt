@@ -1174,8 +1174,6 @@
 				"{gto.hv.quests.19B006CEA837B6B4.description7}"
 				"{gto.hv.quests.19B006CEA837B6B4.description8}"
 				"{gto.hv.quests.19B006CEA837B6B4.description9}"
-				"{gto.hv.quests.19B006CEA837B6B4.description10}"
-				"{gto.hv.quests.19B006CEA837B6B4.description11}"
 			]
 			icon: "gtocore:hv_programmablec_hatch"
 			id: "19B006CEA837B6B4"
@@ -1184,11 +1182,6 @@
 			size: 1.0d
 			subtitle: "{gto.hv.quests.19B006CEA837B6B4.subtitle}"
 			tasks: [
-				{
-					id: "25B991CEDCCE7CD1"
-					item: "gtmthings:virtual_item_provider_cell"
-					type: "item"
-				}
 				{
 					id: "7A36F4872DAD04E9"
 					item: "ae2:cell_workbench"
@@ -1210,6 +1203,11 @@
 				{
 					id: "53205A508EE3B1BB"
 					item: "gtocore:hv_programmablec_hatch"
+					type: "item"
+				}
+				{
+					id: "46FF9C3A6EF4AB21"
+					item: "gtocore:virtual_item_supply_machine"
 					type: "item"
 				}
 			]
