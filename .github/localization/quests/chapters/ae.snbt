@@ -646,8 +646,8 @@
 			image: "xtonesreworked:block/bitt/4"
 			rotation: 0.0d
 			width: 1.1d
-			x: -3.0d
-			y: 3.5d
+			x: -1.0d
+			y: 9.5d
 		}
 		{
 			color: 851730
@@ -656,8 +656,8 @@
 			order: 1
 			rotation: 0.0d
 			width: 1.1d
-			x: -3.0d
-			y: 3.5d
+			x: -1.0d
+			y: 9.5d
 		}
 		{
 			height: 1.1d
@@ -734,14 +734,6 @@
 			width: 1.0d
 			x: 1.0d
 			y: 12.5d
-		}
-		{
-			height: 1.0d
-			image: "gtocore:item/circuit/suprachronal_lv"
-			rotation: 0.0d
-			width: 1.0d
-			x: -3.5d
-			y: 3.5d
 		}
 		{
 			height: 1.0d
@@ -1063,6 +1055,100 @@
 			x: -9.5d
 			y: 1.0d
 		}
+		{
+			height: 1.0d
+			image: "gtocore:item/circuit/suprachronal_mv"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: 9.5d
+		}
+		{
+			height: 1.0d
+			image: "gtocore:item/circuit/suprachronal_hv"
+			rotation: 0.0d
+			width: 1.0d
+			x: -19.5d
+			y: 19.5d
+		}
+		{
+			height: 1.0d
+			image: "gtocore:item/circuit/suprachronal_ev"
+			rotation: 0.0d
+			width: 1.0d
+			x: -19.5d
+			y: 21.5d
+		}
+		{
+			height: 1.0d
+			image: "gtocore:item/circuit/suprachronal_hv"
+			rotation: 0.0d
+			width: 1.0d
+			x: -21.5d
+			y: 9.5d
+		}
+		{
+			color: 16711935
+			height: 1.1d
+			image: "ftbquests:block/barrier_open"
+			order: 1
+			rotation: 0.0d
+			width: 1.1d
+			x: -21.0d
+			y: 9.5d
+		}
+		{
+			height: 1.1d
+			image: "xtonesreworked:block/bitt/12"
+			rotation: 0.0d
+			width: 1.1d
+			x: -21.0d
+			y: 9.5d
+		}
+		{
+			color: 16711935
+			height: 1.1d
+			image: "ftbquests:block/barrier_open"
+			order: 1
+			rotation: 0.0d
+			width: 1.1d
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			height: 1.1d
+			image: "xtonesreworked:block/bitt/12"
+			rotation: 0.0d
+			width: 1.1d
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			color: 16711935
+			height: 1.1d
+			image: "ftbquests:block/barrier_open"
+			order: 1
+			rotation: 0.0d
+			width: 1.1d
+			x: -17.0d
+			y: 1.5d
+		}
+		{
+			height: 1.1d
+			image: "xtonesreworked:block/bitt/12"
+			rotation: 0.0d
+			width: 1.1d
+			x: -17.0d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "gtocore:item/circuit/suprachronal_hv"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: 3.5d
+		}
 	]
 	order_index: 4
 	quest_links: [
@@ -1150,7 +1236,7 @@
 				"04581C43F7B0BBCE"
 			]
 			description: ["{gto.ae.quests.083934744ECD19FB.description0}"]
-			icon: "expatternprovider:wireless_tool"
+			icon: "expatternprovider:wireless_connect"
 			id: "083934744ECD19FB"
 			subtitle: "{gto.ae.quests.083934744ECD19FB.subtitle}"
 			tasks: [
@@ -1426,12 +1512,12 @@
 			]
 			icon: "gtceu:me_pattern_buffer"
 			id: "0BC456B4331C09F5"
+			subtitle: "{gto.ae.quests.0BC456B4331C09F5.subtitle}"
 			tasks: [{
 				id: "68D37A606413E9A9"
 				item: "gtceu:me_pattern_buffer"
 				type: "item"
 			}]
-			title: "{gto.ae.quests.0BC456B4331C09F5.title}"
 			x: -3.0d
 			y: 5.5d
 		}
@@ -1631,6 +1717,7 @@
 				""
 				"{gto.ae.quests.47506298B1BD1780.description1}"
 			]
+			hide_dependency_lines: true
 			id: "47506298B1BD1780"
 			subtitle: "{gto.ae.quests.47506298B1BD1780.subtitle}"
 			tasks: [{
@@ -1638,8 +1725,8 @@
 				item: "gtocore:me_simple_pattern_buffer"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 3.5d
+			x: -1.0d
+			y: 9.5d
 		}
 		{
 			description: [
@@ -4023,6 +4110,56 @@
 			title: "{gto.ae.quests.5F96077A62E88635.title}"
 			x: -7.0d
 			y: 3.5d
+		}
+		{
+			dependencies: ["5F96077A62E88635"]
+			description: ["{gto.ae.quests.3A3CCF0B1FF4EEA3.description0}"]
+			hide_dependency_lines: true
+			id: "3A3CCF0B1FF4EEA3"
+			subtitle: "{gto.ae.quests.3A3CCF0B1FF4EEA3.subtitle}"
+			tasks: [{
+				id: "128D257B54C10CAA"
+				item: {
+					Count: 1
+					id: "gtocore:order"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -17.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5F96077A62E88635"]
+			description: [
+				"{gto.ae.quests.79CA845FB37A8FDC.description0}"
+				""
+				"{gto.ae.quests.79CA845FB37A8FDC.description1}"
+				""
+				"{gto.ae.quests.79CA845FB37A8FDC.description2}"
+			]
+			id: "79CA845FB37A8FDC"
+			subtitle: "{gto.ae.quests.79CA845FB37A8FDC.subtitle}"
+			tasks: [{
+				id: "660A9ADB6EF95A29"
+				item: "gtocore:me_pattern_content_sort_machine"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["083934744ECD19FB"]
+			description: ["{gto.ae.quests.44D98ACF7C6D783F.description0}"]
+			id: "44D98ACF7C6D783F"
+			subtitle: "{gto.ae.quests.44D98ACF7C6D783F.subtitle}"
+			tasks: [{
+				id: "409C5B77E11B2F73"
+				item: "gtocore:me_wireless_connection_machine"
+				type: "item"
+			}]
+			x: -21.0d
+			y: 9.5d
 		}
 	]
 	subtitle: ["{gto.ae.subtitle0}"]
