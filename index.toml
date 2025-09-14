@@ -26,7 +26,7 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/ModernUI/client.toml"
-hash = "29aaa7db01983c264b7a6ef939b9823af83d3784482102b07795b0778944e611"
+hash = "eb002adc2c31155327dac1c0b5d2b6810d2da9d454136f92be956b57e84ca4bc"
 
 [[files]]
 file = "config/ModernUI/common.toml"
@@ -34,7 +34,7 @@ hash = "f945d275a66ddec08c1cc3aa5d800675bea43ec270416a70a03fe32e9db7c7b5"
 
 [[files]]
 file = "config/ModernUI/text.toml"
-hash = "38e391809a834526eb18b7bdd49ebf56abc88d7abdeb186513f3f3ba279003e5"
+hash = "f64edfc23ec552345f6f5cde3ef62b9a7a5fdfe24a3452eef355fe13abc55418"
 
 [[files]]
 file = "config/MouseTweaks.cfg"
@@ -454,7 +454,7 @@ hash = "e13a32fa93a5bc60e0cb967144b1be5a16e7ec2dfba55f18d6716148bb04c94d"
 
 [[files]]
 file = "config/attributefix.json"
-hash = "d62719e2aa28746f34fb0d1653dcc75a80fd77e658528f5d0fc2440604dc8bdf"
+hash = "7321bba4f590c05448d10001fc045597e654ea00ffb16a3eae913c48dd3b1c19"
 
 [[files]]
 file = "config/attributeslib.cfg"
@@ -462,7 +462,7 @@ hash = "d263933ee4b13ea18ca743e8648d0cf2bc0f69a7d8c3f0e55829d9597d8c0c62"
 
 [[files]]
 file = "config/avaritia-common.toml"
-hash = "8bab13ea964608e658057d25b87b68aec331a03ed409e5caf02a9d97d4fab347"
+hash = "74c3a1ca34394d67f3b6c70bcc9ea233336fd226b7db44411331a9e431ea2a17"
 
 [[files]]
 file = "config/avaritia/singularities/spacetime.json"
@@ -614,7 +614,7 @@ hash = "a51452390308a18e517457440e251a4a1737433e6033875e4a3af6cc5afb9283"
 
 [[files]]
 file = "config/doespotatotick-common.toml"
-hash = "d30a431b54831824947c14c540d1ec986431c1c9ec071c1cc54d6e4d2b7cb8d9"
+hash = "c43269a024ac76954853fe645fd6c1bafd5c42d95d40f5577ba1c0e3b1988589"
 
 [[files]]
 file = "config/dungeon_crawl.toml"
@@ -638,7 +638,7 @@ hash = "09ff183e061d93b79514bc171bf9118497578757e7a5c45946039487656e2619"
 
 [[files]]
 file = "config/emi.css"
-hash = "5945e3d06950df81f50595bbddbcbc4fa6f3ac7acc2c4fd74c29c0c7849bc3e2"
+hash = "f8f43d6e59323558378c6143afb1693d4bd7db78f023aac0ead3db1d7968541c"
 
 [[files]]
 file = "config/emitrades.json5"
@@ -1026,11 +1026,11 @@ hash = "1085729634eb065ebd749213a52442535405551c254711c99616142052d0852b"
 
 [[files]]
 file = "config/jade/plugins.json"
-hash = "5875d289572309fba71d8f4528993d51fb8d0cca8e0f3e48a8631b6aa1190940"
+hash = "c1937b44850277bbf22105402d573f47f1fab694ebb03e358362f01ba78e064d"
 
 [[files]]
 file = "config/jade/sort-order.json"
-hash = "c5e817b74fe60edda94149b8fed48eabc6d9fa6b8db36b17223fd149f1abb7c3"
+hash = "53341c635aaff809c2e76045acff57f54f2e784fccdf5e69da2cec7462d31aec"
 
 [[files]]
 file = "config/jecalculation/config.toml"
@@ -1314,7 +1314,7 @@ hash = "2e113e94b06f0ec198b8faa2cd4c58f937ccfffc0a6db7aaeaf8fc4bce1599f0"
 
 [[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/en_us.json"
-hash = "98e3f85c749e816dccb42d213d8dc2b93f9d16026432f3830f33d78140bcbda2"
+hash = "1a9ad3da86277a1be90a5dde5374d81da3578c19f985e52d7265346232d098fe"
 
 [[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/ru_ru.json"
@@ -2239,7 +2239,7 @@ metafile = true
 
 [[files]]
 file = "mods/alltheleaks.pw.toml"
-hash = "e583c503ddd9c0730bad91ec6978471f05da5d7f7bd534a4ea8ee07c0867e2c7"
+hash = "22d1501ad012b901cd397c3bc1ddeacf69aba622d2206ccf156a44f2086738e0"
 metafile = true
 
 [[files]]
@@ -2454,7 +2454,7 @@ metafile = true
 
 [[files]]
 file = "mods/doespotatotick.pw.toml"
-hash = "666931c61a970df0e1ca0fc32b4bb41ffe27bd367bfc13954f3223315c45587a"
+hash = "1bd7edf8f06bed14de87ecc75290d30147261194ac5d4ab577e3b36df0e877e1"
 metafile = true
 
 [[files]]
@@ -2489,7 +2489,7 @@ metafile = true
 
 [[files]]
 file = "mods/ender-io.pw.toml"
-hash = "04e8c125cbd85f3376311743a2678db5f610b39a58622afd74645da30e1526a9"
+hash = "4d0096159aa292046333f7b4d95344bc38088c3cdaf2ef943fff162515fea30c"
 metafile = true
 
 [[files]]
@@ -2673,12 +2673,12 @@ hash = "477c0165ac7a3d521157a8fa69fd5335804383fc04459e0ee7a2ce799a08c568"
 metafile = true
 
 [[files]]
-file = "mods/gtocore-0.4.2.jar"
-hash = "68fd7240c615fbf7d2d7ea70c10a54383a081f8edc08ab51c1c9672a964fdf85"
+file = "mods/gtocore-0.4.3.5.jar"
+hash = "da5de2755298f3b46af69aedde0492c6a2368cad0cedf71af89aad29f1b95128"
 
 [[files]]
 file = "mods/guideme.pw.toml"
-hash = "de1074bb6f0f63ce7580daab559efdea6e5b1238deb20074e0a87179b3c4dbd4"
+hash = "0ffd4cabc4d73f62891f6a663da56691d720f395de1379586807f7b96cdbe239"
 metafile = true
 
 [[files]]
@@ -2778,7 +2778,7 @@ metafile = true
 
 [[files]]
 file = "mods/modern-ui.pw.toml"
-hash = "650d26ddf8a737ddeba623a962387846d7c38ae51144f2eb81c794d060645673"
+hash = "8cefeca0a10f86ec77406b59c97fbef335e95236fc8d2d8c7d46075d4aabf8f7"
 metafile = true
 
 [[files]]
@@ -2833,7 +2833,7 @@ metafile = true
 
 [[files]]
 file = "mods/oh-the-biomes-weve-gone.pw.toml"
-hash = "63d5f088d0158348ffc65710b2921bf6a8db4afbb97126debc4f5b8361cfdcae"
+hash = "c473dfc24827a5528eb61ab7ca0b57c9e1cab4849871860f5ee9f897760b24d5"
 metafile = true
 
 [[files]]
@@ -2883,7 +2883,7 @@ metafile = true
 
 [[files]]
 file = "mods/re-avaritia.pw.toml"
-hash = "31712331ce70deec0e1c1fcbb1c9159ab9fa3dbffae336593ea4f37157f736ce"
+hash = "b8344ea404b0648738b791ce03227030afdebbebf6e732cf83986946b0272220"
 metafile = true
 
 [[files]]
@@ -2913,12 +2913,12 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "23063695dff072c1785d0de63884b3db2b38e6f2fcaf816968b9d453eafe4350"
+hash = "6aff8e966a5105bc15e518182caabb72d3e10dc07b52cb2f1a037b7783a44f95"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "026f2625feac6e7c44899cdf4c47d7779aa0e5be034ab80964c366a080ee5f07"
+hash = "280962aa9a4a10df98efc16bf526d69b6ae85b9a45cb69c7375820e84962603f"
 metafile = true
 
 [[files]]
