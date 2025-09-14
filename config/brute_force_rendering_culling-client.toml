@@ -1,0 +1,33 @@
+
+["Sampling multiple"]
+	#Range: 0.0 ~ 1.0
+	multiple = 0.5
+
+["Culling Map update delay"]
+	#Range: 0 ~ 10
+	"delay frame" = 1
+
+["Cull entity"]
+	enabled = true
+
+["Cull block entity"]
+	enabled = true
+
+["Cull chunk"]
+	enabled = true
+
+["Async chunk rebuild"]
+	enabled = true
+
+#Entity skip CULLING
+["Entity ResourceLocation"]
+	#Entity that skip CULLING, example: 
+	#["minecraft:creeper", "minecraft:zombie"]
+	list = []
+
+#Block Entity skip CULLING
+["Block Entity ResourceLocation"]
+	#Block Entity that skip CULLING, example: 
+	#["minecraft:chest", "minecraft:mob_spawner"]
+	list = ["minecraft:beacon"]
+
