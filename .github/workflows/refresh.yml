@@ -4,6 +4,7 @@ on:
     branches-ignore:
       - main
   pull_request:
+    types: [opened, reopened]
   workflow_dispatch:
     inputs:
       old_commit:
