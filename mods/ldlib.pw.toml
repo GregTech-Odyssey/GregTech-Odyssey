@@ -1,13 +1,13 @@
 name = "LDLib"
-filename = "ldlib-forge-1.20.1-1.0.43.jar"
+filename = "ldlib-forge-1.20.1-1.0.44.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "4248eeef32070640603c33a32d9308498103a027"
+hash = "b3c11accf121d454c1e03a9904e4e15336a28254"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6899193
+file-id = 6979445
 project-id = 626676

@@ -102,6 +102,7 @@
     "tick_time_provider": true,
     "wireless_interactor_provider": true,
     "wireless_grid_provider": true,
+    "maintenance_hatch_provider": true,
     "accelerate_provider": false,
     "mana_container_provider": true,
     "vacuum_tier_provider": true,
