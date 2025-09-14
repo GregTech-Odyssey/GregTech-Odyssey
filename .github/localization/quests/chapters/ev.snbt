@@ -1296,6 +1296,18 @@
 			x: 3.0d
 			y: -10.0d
 		}
+		{
+			dependencies: ["2F6C81E3B10365E8"]
+			id: "031BBC8B522A562F"
+			subtitle: "{gto.ev.quests.031BBC8B522A562F.subtitle}"
+			tasks: [{
+				id: "00B102B22581C0AB"
+				item: "gtceu:reservoir_hatch"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -10.0d
+		}
 	]
 	subtitle: ["{gto.ev.subtitle0}"]
 	title: "{gto.ev.title}"

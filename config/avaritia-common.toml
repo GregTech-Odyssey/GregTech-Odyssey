@@ -97,4 +97,13 @@
 [misc]
 	#For develop
 	"Use Advance Tooltips" = false
+	#Tracking Endless Item Speed
+	#Range: 1.0 ~ 50.0
+	"Endless Item Speed" = 3.0
+	#Tracking Endless Item Range
+	#Range: 1.0 ~ 10000.0
+	"Endless Item Range" = 1000.0
+	#Speed of Infinity Elytra
+	#Range: 1.0 ~ 10.0
+	"Infinity Elytra Flying Speed" = 1.5
 

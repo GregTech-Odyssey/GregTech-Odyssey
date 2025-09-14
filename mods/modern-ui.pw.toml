@@ -1,12 +1,13 @@
 name = "Modern UI"
-filename = "ModernUI-Forge-1.20.1-3.11.1.6-universal.jar"
+filename = "ModernUI-Forge-1.20.1-3.12.0.1-universal.jar"
 side = "client"
 
 [download]
 hash-format = "sha1"
-hash = "3bfee05da6f51a239f644dc37c56c13dd8a1c326"
-url = "https://edge.forgecdn.net/files/6199/942/ModernUI-Forge-1.20.1-3.11.1.6-universal.jar"
+hash = "fcebe51e3c2ca34793f9b132fa05b5494ffc76a4"
+mode = "metadata:curseforge"
 
+[update]
 [update.curseforge]
-file-id = 6199942
+file-id = 6956345
 project-id = 352491
