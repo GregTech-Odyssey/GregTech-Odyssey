@@ -1,0 +1,257 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "gregtech_odyssey"
+	group: ""
+	icon: {
+		Count: 1
+		id: "gtocore:enderium_vajra"
+		tag: {
+			DisallowContainerItem: 0b
+			Enchantments: [
+				{
+					id: "minecraft:fortune"
+					lvl: 8s
+				}
+				{
+					id: "minecraft:looting"
+					lvl: 8s
+				}
+			]
+			GT.Behaviours: {
+				DisableShields: 1b
+				Mode: 0b
+				RelocateMinedBlocks: 1b
+				RelocateMobDrops: 1b
+			}
+			GT.Tool: {
+				AttackDamage: 3010.0f
+				AttackSpeed: 2.0f
+				Damage: 0
+				HarvestLevel: 6
+				MaxDamage: 99
+				ToolSpeed: 84.0f
+			}
+			HideFlags: 2
+			RepairCost: 3
+			Unbreakable: 1b
+		}
+	}
+	id: "7F9CB863017BF24A"
+	order_index: 0
+	quest_links: [{
+		id: "32D234D148B4451C"
+		linked_quest: "5183DB6A793BB3C6"
+		shape: "gear"
+		size: 3.0d
+		x: 1.5d
+		y: -6.0d
+	}]
+	quests: [
+		{
+			description: [
+				"[ \"在砍下第一棵树前建议前往\", { \"text\": \"提示\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"79646E8E449D8A1A\" } }, \"章节查看提示，花几分钟阅读一下对你的游玩之旅大有帮助\" ]"
+				""
+				"以更舒服的姿势体验&4Gregtech:Odyssey&r之旅！"
+			]
+			icon: "minecraft:writable_book"
+			id: "19EFE14C82DDAB67"
+			rewards: [{
+				id: "52494ADABA776912"
+				team_reward: false
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "pentagon"
+			size: 2.0d
+			subtitle: "我无法拒绝..."
+			tasks: [{
+				id: "3CF217CF2033FBD3"
+				title: "查看提示"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			description: [
+				"与前作不同，本作的所有生物根据难度得到了不同程度的加强！"
+				""
+				"小心敌对生物"
+			]
+			icon: "botania:cosmetic_questgiver_mark"
+			id: "6517DDBE8132FA9B"
+			rewards: [{
+				id: "79AB51C0ECD720BB"
+				item: "botania:cosmetic_wicked_eyepatch"
+				title: "愿中二之魂燃烧你的战意"
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 2.0d
+			tasks: [{
+				id: "54D0ADDA55F547EA"
+				title: "关于生存"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"-  &6&l 齿轮形边框：里程碑&r&r"
+				"    如果你到达此处，说明你迈出了关键的一步"
+				"-  &6&l 六边形边框：主线任务&r&r"
+				"    你必须一路跟循才能达成里程碑式的发展"
+				"-  &6&l菱形边框：QoL/产能任务&r&r"
+				"    这些任务虽然与主线无关，但对你的体验有极大帮助"
+				"-  &6&l 圆形边框：普通任务&r&r"
+				"    没什么好说的"
+				"-  &6&l 五边形边框：提示&r&r"
+				"    如果你遇到困难，记得看看它们"
+			]
+			icon: "ftbquests:book"
+			id: "131CFAF95CFC993E"
+			rewards: [{
+				id: "243B015C60457AAE"
+				item: "botania:cosmetic_questgiver_mark"
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 2.0d
+			subtitle: "如果你注意观察，你会发现任务的边框形状不尽相同"
+			tasks: [{
+				id: "2EE14E4430DFFAB1"
+				title: "关于任务线"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3BC9246D8FD4B649"]
+			description: ["开发中"]
+			icon: "gtceu:portable_debug_scanner"
+			id: "5C4137F64F9ADA50"
+			invisible: true
+			min_width: 350
+			rewards: [{
+				id: "3CDBF3DDD07DC90A"
+				item: "botania:mana_cookie"
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 2.0d
+			subtitle: "电压等级对应的主要内容"
+			tasks: [{
+				id: "2E7AE829275616F9"
+				title: "关于内容"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"19EFE14C82DDAB67"
+				"131CFAF95CFC993E"
+				"6517DDBE8132FA9B"
+				"278F29092F5721AD"
+			]
+			description: [
+				"欢迎来到&n&4GregTech:Odyssey&r&r！"
+				""
+				"也许可能你从未了解过格雷科技系列，也有可能是格雷科技的资深老登，任务书将深入浅出地引导你体验所有的里程碑阶段。"
+				""
+				"本整合包较原版格雷科技系列有流程上的&2较大改动&r，所以跟着任务书走不妨是一个不错的选择。"
+				""
+				"&7不过，任务线不保证你能获得最好的流程体验，随着进程发展，你会学着如何设计并优化自己的产线，这是格雷系列最核心的乐趣。&r"
+				"{@pagebreak}"
+				"所以最开始该干什么呢？做出燧石工具，找到一片靠近水源的地方作为早期发展的基地"
+				""
+				"按 &e[Tab]&r 可以随时随地打开任务书，大多数任务完成了上一个任务之后才可以进行"
+				""
+				"&7&o&m以及有一些隐藏彩蛋任务&r"
+				""
+				"&r&4切勿&r熬夜爆肝，身体是革命的本钱！！"
+				""
+				"&9&o我们的旅程是星辰大海&r&r"
+				""
+				"&7&o如果你现在所处主线，发现完成不了此任务，说明你还没有完成入职培训！点击本窗口左上角的锁链图标去向入职页面。"
+			]
+			hide_dependency_lines: false
+			icon: "minecraft:grass_block"
+			id: "3BC9246D8FD4B649"
+			rewards: [
+				{
+					id: "4E02802C52E67903"
+					item: {
+						Count: 1
+						id: "minecraft:stone_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					command: "/function firework:stonelaunch"
+					elevate_perms: true
+					id: "7599F8899D9783E6"
+					type: "command"
+				}
+				{
+					count: 16
+					id: "4A94831824613F91"
+					item: "gtocore:copper_coin"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 3.0d
+			subtitle: "To Greg, or not GTO..."
+			tasks: [{
+				id: "0BEDFF9D52A0D34C"
+				title: "Hello World！"
+				type: "checkmark"
+			}]
+			title: "Hello World"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			description: [
+				"The initial &6English/Russian&r version of FTB Quests has been largely machine-translated from &6Chinese&r using &bLLMs&r,  and it &ecannot be guaranteed to be accurate&r."
+				""
+				"If you find any parts &eunclear or poorly translated&r, please feel free to let us know via &6Discord&r or a &6GitHub issue&r—we totally get it, and we're sorry for any messy bits!"
+				""
+				"We greatly appreciate anyone willing to help us improve the translation and make it better!"
+				""
+				"[ \"\", {\"text\":\"Github: \", \"color\":\"yellow\"}, { \"text\": \"https://github.com/GregTech-Odyssey/GregTech-Odyssey\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"open_url\", \"value\": \"https://github.com/GregTech-Odyssey/GregTech-Odyssey\" } }]"
+				""
+				"[ \"\", {\"text\":\"Discord: \", \"color\":\"yellow\"}, { \"text\": \"https://discord.gg/PxruFSbtCn\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"open_url\", \"value\": \"https://discord.gg/PxruFSbtCn\" } }]"
+				""
+				""
+				"                                      ——GregTech Odyssey DevTeam "
+			]
+			icon: "easy_villagers:villager"
+			id: "278F29092F5721AD"
+			rewards: [{
+				id: "495C372715CFC5AC"
+				item: "ftbquests:book"
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 2.0d
+			tasks: [{
+				id: "5D2925B40BFBF203"
+				title: "任务本地化相关"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: -4.0d
+		}
+	]
+	title: "欢迎入职格雷科技有限公司™"
+}

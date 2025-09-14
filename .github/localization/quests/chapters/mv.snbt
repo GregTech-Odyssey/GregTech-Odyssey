@@ -6,13 +6,34 @@
 	group: "2A1218851E38A2EE"
 	icon: "gtocore:processing_plant"
 	id: "7C6B0DA4DF5D00E3"
-	order_index: 3
-	quest_links: [ ]
+	order_index: 4
+	quest_links: [
+		{
+			id: "112AADE317BB4B64"
+			linked_quest: "3D1E66868544975F"
+			shape: "gear"
+			size: 2.0d
+			x: -12.0d
+			y: 3.0d
+		}
+		{
+			id: "05BAA962B8E745D8"
+			linked_quest: "041ABD90CDDE00AA"
+			shape: "square"
+			x: -5.0d
+			y: 6.0d
+		}
+	]
 	quests: [
 		{
 			dependencies: [
 				"7C30575AACA9FE5B"
 				"26484E626E859718"
+			]
+			description: [
+				"{gto.mv.quests.5D828A5258BFF11F.description0}"
+				""
+				"{gto.mv.quests.5D828A5258BFF11F.description1}"
 			]
 			id: "5D828A5258BFF11F"
 			shape: "gear"
@@ -23,6 +44,7 @@
 				item: "gtceu:hv_machine_hull"
 				type: "item"
 			}]
+			title: "{gto.mv.quests.5D828A5258BFF11F.title}"
 			x: 10.5d
 			y: 4.5d
 		}
@@ -47,6 +69,7 @@
 				item: "gtceu:advanced_integrated_circuit"
 				type: "item"
 			}]
+			title: "{gto.mv.quests.49E5CC5873FA226F.title}"
 			x: 7.0d
 			y: -2.5d
 		}
@@ -111,6 +134,7 @@
 				item: "gtceu:good_integrated_circuit"
 				type: "item"
 			}]
+			title: "{gto.mv.quests.68B33BDC00047C3D.title}"
 			x: 4.5d
 			y: -2.5d
 		}
@@ -134,6 +158,7 @@
 				item: "gtceu:basic_integrated_circuit"
 				type: "item"
 			}]
+			title: "{gto.mv.quests.1CD5736520A719FA.title}"
 			x: 2.5d
 			y: -2.5d
 		}
@@ -229,7 +254,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["6A457FDF694A81DA"]
+			dependencies: ["7E061DC16432D549"]
 			description: ["{gto.mv.quests.7C30575AACA9FE5B.description0}"]
 			hide_dependency_lines: true
 			id: "7C30575AACA9FE5B"
@@ -274,7 +299,11 @@
 		}
 		{
 			dependencies: ["307586CBEE0B955E"]
-			description: ["{gto.mv.quests.752E02060595192D.description0}"]
+			description: [
+				"{gto.mv.quests.752E02060595192D.description0}"
+				""
+				"{gto.mv.quests.752E02060595192D.description1}"
+			]
 			hide_dependency_lines: true
 			id: "752E02060595192D"
 			subtitle: "{gto.mv.quests.752E02060595192D.subtitle}"
@@ -287,7 +316,7 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["6A457FDF694A81DA"]
+			dependencies: ["3D1E66868544975F"]
 			description: [
 				"{gto.mv.quests.307586CBEE0B955E.description0}"
 				""
@@ -314,7 +343,7 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["6A457FDF694A81DA"]
+			dependencies: ["3D1E66868544975F"]
 			description: [
 				"{gto.mv.quests.3899164922A734D8.description0}"
 				""
@@ -346,7 +375,7 @@
 				item: "gtceu:transistor"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 6.0d
 			y: -4.0d
 		}
 		{
@@ -372,7 +401,7 @@
 				item: "gtocore:coolant_liquid_bucket"
 				type: "item"
 			}]
-			x: -6.5d
+			x: -8.0d
 			y: 3.0d
 		}
 		{
@@ -436,9 +465,10 @@
 				"{gto.mv.quests.0D63E5A54480E693.description2}"
 				""
 				"{gto.mv.quests.0D63E5A54480E693.description3}"
+				""
+				"{gto.mv.quests.0D63E5A54480E693.description4}"
 			]
 			hide_dependency_lines: true
-			hide_dependent_lines: true
 			icon: "gtocore:processing_plant"
 			id: "0D63E5A54480E693"
 			shape: "hexagon"
@@ -470,7 +500,7 @@
 				item: "gtceu:mv_circuit_assembler"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 7.0d
 			y: -0.5d
 		}
 		{
@@ -532,6 +562,8 @@
 				"{gto.mv.quests.0A833C1D2C10C697.description0}"
 				""
 				"{gto.mv.quests.0A833C1D2C10C697.description1}"
+				""
+				"{gto.mv.quests.0A833C1D2C10C697.description2}"
 			]
 			hide_dependency_lines: true
 			id: "0A833C1D2C10C697"
@@ -597,7 +629,8 @@
 					type: "item"
 				}
 			]
-			x: 7.5d
+			title: "{gto.mv.quests.61A40570FE41BC2D.title}"
+			x: 7.0d
 			y: 1.5d
 		}
 		{
@@ -676,29 +709,6 @@
 			y: -0.25d
 		}
 		{
-			dependencies: [
-				"68EFF1609132BDD4"
-				"6BB3386725B228D5"
-			]
-			description: [
-				"{gto.mv.quests.6A457FDF694A81DA.description0}"
-				""
-				"{gto.mv.quests.6A457FDF694A81DA.description1}"
-			]
-			id: "6A457FDF694A81DA"
-			shape: "gear"
-			size: 2.0d
-			subtitle: "{gto.mv.quests.6A457FDF694A81DA.subtitle}"
-			tasks: [{
-				id: "358D4563A7119768"
-				item: "gtceu:mv_machine_hull"
-				type: "item"
-			}]
-			title: "{gto.mv.quests.6A457FDF694A81DA.title}"
-			x: -12.0d
-			y: 3.0d
-		}
-		{
 			dependencies: ["3899164922A734D8"]
 			id: "1B8CED7CD486A455"
 			tasks: [{
@@ -726,8 +736,8 @@
 				title: "{gto.mv.quests.66FE671D7F2BFDD7.tasks.4E286369A1435709.title}"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 3.0d
+			x: 6.0d
+			y: 0.5d
 		}
 		{
 			dependencies: [
@@ -764,8 +774,8 @@
 				item: "gtmthings:mv_digital_miner"
 				type: "item"
 			}]
-			x: 8.5d
-			y: -3.75d
+			x: 9.0d
+			y: -0.5d
 		}
 		{
 			dependencies: [
@@ -830,7 +840,7 @@
 			y: -5.0d
 		}
 		{
-			dependencies: ["6A457FDF694A81DA"]
+			dependencies: ["3D1E66868544975F"]
 			description: [
 				"{gto.mv.quests.46354D0766391D92.description0}"
 				""
@@ -866,7 +876,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["6A457FDF694A81DA"]
+			dependencies: ["3D1E66868544975F"]
 			description: [
 				"{gto.mv.quests.24E0E3D10308B17D.description0}"
 				""
@@ -887,7 +897,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["6A457FDF694A81DA"]
+			dependencies: ["3D1E66868544975F"]
 			description: ["{gto.mv.quests.4D0710E1E75F0C59.description0}"]
 			icon: "gtceu:mv_gas_turbine"
 			id: "4D0710E1E75F0C59"
@@ -930,7 +940,7 @@
 			y: 5.25d
 		}
 		{
-			dependencies: ["6A457FDF694A81DA"]
+			dependencies: ["3D1E66868544975F"]
 			description: ["{gto.mv.quests.49B8588D38683C71.description0}"]
 			hide_dependency_lines: true
 			id: "49B8588D38683C71"
@@ -944,7 +954,7 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["6A457FDF694A81DA"]
+			dependencies: ["3D1E66868544975F"]
 			description: ["{gto.mv.quests.447F113C4C105195.description0}"]
 			hide_dependency_lines: true
 			id: "447F113C4C105195"
@@ -958,7 +968,7 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["6A457FDF694A81DA"]
+			dependencies: ["3D1E66868544975F"]
 			description: [
 				"{gto.mv.quests.2B4C8EDEF659A21B.description0}"
 				""
@@ -994,7 +1004,7 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["6A457FDF694A81DA"]
+			dependencies: ["3D1E66868544975F"]
 			description: ["{gto.mv.quests.5C7D1845F91043DC.description0}"]
 			hide_dependency_lines: true
 			id: "5C7D1845F91043DC"
@@ -1008,11 +1018,11 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["6A457FDF694A81DA"]
+			dependencies: ["3D1E66868544975F"]
 			description: [
-				"[ \"如\", { \"text\": \"上一章节\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4FC3EC9C6C25633F\" } }, \"所述，它拥有更高的净化能力和净化范围\" ]"
+				"[\"\", {\"translate\": \"gto.mv.quests.7E448FB79A010162.description0.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"4FC3EC9C6C25633F\"}, \"translate\": \"gto.mv.quests.7E448FB79A010162.description0.rich_text1\"}, {\"translate\": \"gto.mv.quests.7E448FB79A010162.description0.rich_text2\"}]"
 				""
-				"{gto.mv.quests.7E448FB79A010162.description0}"
+				"{gto.mv.quests.7E448FB79A010162.description1}"
 			]
 			id: "7E448FB79A010162"
 			shape: "hexagon"
@@ -1026,7 +1036,7 @@
 			y: 0.75d
 		}
 		{
-			dependencies: ["6A457FDF694A81DA"]
+			dependencies: ["3D1E66868544975F"]
 			description: ["{gto.mv.quests.495BD5C6C0CB69DF.description0}"]
 			hide_dependency_lines: true
 			id: "495BD5C6C0CB69DF"
@@ -1040,7 +1050,7 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["6A457FDF694A81DA"]
+			dependencies: ["3D1E66868544975F"]
 			description: ["{gto.mv.quests.4A1E1FDEF6F9FFED.description0}"]
 			hide_dependency_lines: true
 			id: "4A1E1FDEF6F9FFED"
@@ -1054,7 +1064,7 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["6A457FDF694A81DA"]
+			dependencies: ["3D1E66868544975F"]
 			description: [
 				"{gto.mv.quests.51179D5DAF67715A.description0}"
 				""
@@ -1075,7 +1085,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["6A457FDF694A81DA"]
+			dependencies: ["3D1E66868544975F"]
 			description: ["{gto.mv.quests.42F3629A1149D58D.description0}"]
 			hide_dependency_lines: true
 			id: "42F3629A1149D58D"
@@ -1089,7 +1099,7 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["6A457FDF694A81DA"]
+			dependencies: ["3D1E66868544975F"]
 			description: ["{gto.mv.quests.18ECBDF3C6975985.description0}"]
 			hide_dependency_lines: true
 			id: "18ECBDF3C6975985"
@@ -1147,7 +1157,7 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["6A457FDF694A81DA"]
+			dependencies: ["3D1E66868544975F"]
 			hide_dependency_lines: true
 			id: "1DBBBBC4F368466E"
 			tasks: [{
@@ -1160,11 +1170,11 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["6A457FDF694A81DA"]
+			dependencies: ["3D1E66868544975F"]
 			description: [
 				"{gto.mv.quests.2386117F9423A54E.description0}"
 				""
-				"[ \"前往\", { \"text\": \"无线电网\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"20B8E68273D7D0DE\" } }, \"章节查看如何搭建你的无线电网系统\" ]"
+				"[\"\", {\"translate\": \"gto.mv.quests.2386117F9423A54E.description1.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"20B8E68273D7D0DE\"}, \"translate\": \"gto.mv.quests.2386117F9423A54E.description1.rich_text1\"}, {\"translate\": \"gto.mv.quests.2386117F9423A54E.description1.rich_text2\"}]"
 			]
 			hide_dependency_lines: true
 			icon: "gtocore:mv_wireless_input_hatch"
@@ -1192,6 +1202,19 @@
 			}]
 			x: -8.25d
 			y: -3.25d
+		}
+		{
+			dependencies: ["0D63E5A54480E693"]
+			id: "3C7271A1D09BEE0F"
+			optional: true
+			subtitle: "{gto.mv.quests.3C7271A1D09BEE0F.subtitle}"
+			tasks: [{
+				id: "3C706C00F26CF7C1"
+				item: "gtocore:temp_vacuum_interface"
+				type: "item"
+			}]
+			x: -3.500000000000007d
+			y: -1.75d
 		}
 	]
 	subtitle: ["{gto.mv.subtitle0}"]

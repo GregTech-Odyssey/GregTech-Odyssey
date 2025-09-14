@@ -487,7 +487,7 @@
 			y: -0.5d
 		}
 		{
-			description: ["普通模式下，至少发电为1aUIV，最多为1aOPV"]
+			description: ["普通模式下，至少发电为1A UIV，最多为1A OpV"]
 			id: "2504764FE4CC9197"
 			size: 1.5d
 			tasks: [{
@@ -597,7 +597,7 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"塞入小发电机进行并行发电，还有额外1.5倍发电。"
+				"塞入小发电机进行并行发电，还有额外发电倍率。"
 				"无线电网启用有5%损耗"
 				"&c最多可塞入4个小发电机&r"
 			]
@@ -741,6 +741,7 @@
 		{
 			description: ["EMI不能直接查询到转子，所以列出所有转子以供方便查询."]
 			id: "5795384C57874FE0"
+			min_width: 250
 			tasks: [
 				{
 					id: "61A8424D1771475C"

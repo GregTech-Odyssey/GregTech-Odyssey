@@ -86,6 +86,8 @@
 				"{gto.wireless-energy.quests.0EED467C2B883653.description2}"
 				""
 				"{gto.wireless-energy.quests.0EED467C2B883653.description3}"
+				""
+				"{gto.wireless-energy.quests.0EED467C2B883653.description4}"
 			]
 			hide_dependency_lines: false
 			icon: "gtceu:lv_battery_buffer_4x"
@@ -249,7 +251,11 @@
 		}
 		{
 			dependencies: ["20B8E68273D7D0DE"]
-			description: ["{gto.wireless-energy.quests.0828014567C613E1.description0}"]
+			description: [
+				"{gto.wireless-energy.quests.0828014567C613E1.description0}"
+				""
+				"{gto.wireless-energy.quests.0828014567C613E1.description1}"
+			]
 			hide_dependency_lines: false
 			id: "0828014567C613E1"
 			tasks: [{

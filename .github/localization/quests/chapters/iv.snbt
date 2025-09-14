@@ -5,15 +5,62 @@
 	group: "2A1218851E38A2EE"
 	icon: "gtceu:assembly_line"
 	id: "3F8D9D2B382EE265"
-	order_index: 6
-	quest_links: [{
-		id: "2103B4D5965B90DF"
-		linked_quest: "1CF7845875EEFA3B"
-		shape: "gear"
-		size: 2.0d
-		x: 6.0d
-		y: -5.5d
-	}]
+	images: [
+		{
+			height: 1.1d
+			image: "xtonesreworked:block/bitt/12"
+			rotation: 0.0d
+			width: 1.1d
+			x: 8.5d
+			y: -5.5d
+		}
+		{
+			color: 16711935
+			height: 1.1d
+			image: "ftbquests:block/barrier_open"
+			order: 1
+			rotation: 0.0d
+			width: 1.1d
+			x: 8.5d
+			y: -5.5d
+		}
+		{
+			color: 16711935
+			height: 1.1d
+			image: "ftbquests:block/barrier_open"
+			order: 1
+			rotation: 0.0d
+			width: 1.1d
+			x: 22.0d
+			y: -8.5d
+		}
+		{
+			height: 1.1d
+			image: "xtonesreworked:block/bitt/12"
+			rotation: 0.0d
+			width: 1.1d
+			x: 22.0d
+			y: -8.5d
+		}
+	]
+	order_index: 7
+	quest_links: [
+		{
+			id: "2103B4D5965B90DF"
+			linked_quest: "1CF7845875EEFA3B"
+			shape: "gear"
+			size: 2.0d
+			x: 6.0d
+			y: -5.5d
+		}
+		{
+			id: "101D1D1E0461C66B"
+			linked_quest: "5F7635CC667AD219"
+			shape: "square"
+			x: 8.5d
+			y: -5.5d
+		}
+	]
 	quests: [
 		{
 			dependencies: ["7E7B941FF52CC0F2"]
@@ -44,6 +91,7 @@
 		}
 		{
 			dependencies: ["09C2AF1A68A06D69"]
+			description: ["{gto.iv.quests.5CB9B68188A45C6B.description0}"]
 			id: "5CB9B68188A45C6B"
 			tasks: [{
 				id: "0F08286FDB0CAB60"
@@ -93,7 +141,7 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: -6.5d
+			y: -5.5d
 		}
 		{
 			dependencies: [
@@ -114,7 +162,11 @@
 		}
 		{
 			dependencies: ["1E239C34C36FAD60"]
-			description: ["{gto.iv.quests.156E62719405A609.description0}"]
+			description: [
+				"{gto.iv.quests.156E62719405A609.description0}"
+				""
+				"{gto.iv.quests.156E62719405A609.description1}"
+			]
 			id: "156E62719405A609"
 			shape: "diamond"
 			size: 1.5d
@@ -165,6 +217,7 @@
 				item: "gtceu:quantum_processor"
 				type: "item"
 			}]
+			title: "{gto.iv.quests.76A2C71F8131E9BE.title}"
 			x: 14.0d
 			y: -8.5d
 		}
@@ -178,6 +231,7 @@
 				item: "gtceu:quantum_processor_assembly"
 				type: "item"
 			}]
+			title: "{gto.iv.quests.54AC456E31D64E42.title}"
 			x: 16.0d
 			y: -8.5d
 		}
@@ -191,6 +245,7 @@
 				item: "gtceu:quantum_processor_computer"
 				type: "item"
 			}]
+			title: "{gto.iv.quests.72C2E41EC2ACF82E.title}"
 			x: 18.0d
 			y: -8.5d
 		}
@@ -198,13 +253,14 @@
 			dependencies: ["72C2E41EC2ACF82E"]
 			id: "1D413C9604012CBA"
 			shape: "gear"
-			size: 1.5d
+			size: 2.0d
 			subtitle: "{gto.iv.quests.1D413C9604012CBA.subtitle}"
 			tasks: [{
 				id: "16CF88CD1D82721D"
 				item: "gtceu:quantum_processor_mainframe"
 				type: "item"
 			}]
+			title: "{gto.iv.quests.1D413C9604012CBA.title}"
 			x: 18.0d
 			y: -10.5d
 		}
@@ -266,9 +322,15 @@
 		}
 		{
 			dependencies: ["13FEF91314898EB1"]
+			description: [
+				"{gto.iv.quests.251002F2103BDA84.description0}"
+				""
+				"{gto.iv.quests.251002F2103BDA84.description1}"
+			]
 			id: "251002F2103BDA84"
 			shape: "gear"
 			size: 2.0d
+			subtitle: "{gto.iv.quests.251002F2103BDA84.subtitle}"
 			tasks: [{
 				id: "0D54C1EF7D500F32"
 				item: "gtceu:assembly_line"
@@ -396,6 +458,7 @@
 			id: "5253C403ABF7BC59"
 			shape: "hexagon"
 			size: 1.5d
+			subtitle: "{gto.iv.quests.5253C403ABF7BC59.subtitle}"
 			tasks: [{
 				id: "2E0FCF54D1C1103F"
 				item: "gtocore:drilling_control_center"
@@ -434,7 +497,11 @@
 		}
 		{
 			dependencies: ["251002F2103BDA84"]
-			description: ["{gto.iv.quests.56E262C94F46A592.description0}"]
+			description: [
+				"{gto.iv.quests.56E262C94F46A592.description0}"
+				""
+				"{gto.iv.quests.56E262C94F46A592.description1}"
+			]
 			id: "56E262C94F46A592"
 			optional: true
 			shape: "diamond"
@@ -467,8 +534,6 @@
 				"{gto.iv.quests.2F03D93AC7DBE58D.description0}"
 				""
 				"{gto.iv.quests.2F03D93AC7DBE58D.description1}"
-				""
-				"{gto.iv.quests.2F03D93AC7DBE58D.description2}"
 			]
 			id: "2F03D93AC7DBE58D"
 			shape: "gear"
@@ -479,6 +544,7 @@
 				item: "gtceu:luv_machine_hull"
 				type: "item"
 			}]
+			title: "{gto.iv.quests.2F03D93AC7DBE58D.title}"
 			x: 10.0d
 			y: -12.0d
 		}
@@ -505,12 +571,16 @@
 				item: "gtocore:chemical_plant"
 				type: "item"
 			}]
-			x: 22.0d
+			x: 22.5d
 			y: -6.5d
 		}
 		{
 			dependencies: ["1E239C34C36FAD60"]
-			description: ["{gto.iv.quests.7B8AFBA66325BE5F.description0}"]
+			description: [
+				"{gto.iv.quests.7B8AFBA66325BE5F.description0}"
+				""
+				"{gto.iv.quests.7B8AFBA66325BE5F.description1}"
+			]
 			hide_dependency_lines: true
 			id: "7B8AFBA66325BE5F"
 			shape: "hexagon"
@@ -634,6 +704,7 @@
 					type: "item"
 				}
 			]
+			title: "{gto.iv.quests.1E239C34C36FAD60.title}"
 			x: 18.0d
 			y: -2.5d
 		}
@@ -642,6 +713,7 @@
 				"0F6181E3AF0A0791"
 				"159FD72C1F0AD3A0"
 			]
+			description: ["{gto.iv.quests.7E7B941FF52CC0F2.description0}"]
 			id: "7E7B941FF52CC0F2"
 			shape: "hexagon"
 			size: 1.5d
@@ -742,7 +814,11 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["23DB14B3093506B8"]
+			dependencies: [
+				"23DB14B3093506B8"
+				"32B3E6812521AB70"
+			]
+			description: ["{gto.iv.quests.6176A38AA179BAF5.description0}"]
 			id: "6176A38AA179BAF5"
 			tasks: [{
 				id: "66FEBA03CE4CF8E8"
@@ -763,7 +839,7 @@
 				item: "gtceu:fiber_reinforced_printed_circuit_board"
 				type: "item"
 			}]
-			x: 14.5d
+			x: 15.0d
 			y: -10.5d
 		}
 		{
@@ -775,7 +851,7 @@
 				item: "gtocore:tungsten_tetraboride_ceramics_flake"
 				type: "item"
 			}]
-			x: 15.5d
+			x: 16.0d
 			y: -12.0d
 		}
 		{
@@ -786,7 +862,7 @@
 				item: "gtceu:fiber_reinforced_circuit_board"
 				type: "item"
 			}]
-			x: 13.5d
+			x: 14.0d
 			y: -12.0d
 		}
 		{
@@ -810,7 +886,7 @@
 		}
 		{
 			dependencies: ["4CD7E4E23FCD3D84"]
-			description: [""]
+			description: ["{gto.iv.quests.335934E09401C67B.description0}"]
 			id: "335934E09401C67B"
 			shape: "hexagon"
 			size: 1.5d
@@ -881,11 +957,11 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["54AC456E31D64E42"]
+			dependencies: ["2BD46F9D8A842B4A"]
 			description: [
 				"{gto.iv.quests.79A84A1D8BCDC012.description0}"
 				""
-				"[ \"详见\", { \"text\": \"大批量加工\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"68C24A1ED361D607\" } }, \"章节\" ]"
+				"[\"\", {\"translate\": \"gto.iv.quests.79A84A1D8BCDC012.description1.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"68C24A1ED361D607\"}, \"translate\": \"gto.iv.quests.79A84A1D8BCDC012.description1.rich_text1\"}, {\"translate\": \"gto.iv.quests.79A84A1D8BCDC012.description1.rich_text2\"}]"
 			]
 			id: "79A84A1D8BCDC012"
 			tasks: [{
@@ -893,8 +969,8 @@
 				title: "{gto.iv.quests.79A84A1D8BCDC012.tasks.1571ABAAEFB1193D.title}"
 				type: "checkmark"
 			}]
-			x: 16.0d
-			y: -10.5d
+			x: 8.5d
+			y: -7.0d
 		}
 		{
 			dependencies: [
@@ -957,6 +1033,8 @@
 		{
 			dependencies: ["23DB14B3093506B8"]
 			id: "1380B1134D0C1C8E"
+			shape: "diamond"
+			subtitle: "{gto.iv.quests.1380B1134D0C1C8E.subtitle}"
 			tasks: [{
 				id: "1EAAD9C8D9D7DEA3"
 				item: "gtocore:integral_framework_iv"
@@ -966,9 +1044,22 @@
 			y: -3.5d
 		}
 		{
-			dependencies: ["251002F2103BDA84"]
-			description: ["{gto.iv.quests.029CAD5FD378D3E1.description0}"]
+			dependencies: [
+				"251002F2103BDA84"
+				"5F522D73AF5F1B2F"
+			]
+			description: [
+				"{gto.iv.quests.029CAD5FD378D3E1.description0}"
+				""
+				"{gto.iv.quests.029CAD5FD378D3E1.description1}"
+				""
+				"{gto.iv.quests.029CAD5FD378D3E1.description2}"
+				""
+				"{gto.iv.quests.029CAD5FD378D3E1.description3}"
+			]
 			id: "029CAD5FD378D3E1"
+			optional: true
+			shape: "square"
 			subtitle: "{gto.iv.quests.029CAD5FD378D3E1.subtitle}"
 			tasks: [{
 				id: "3CDD1FE8E3131DE2"
@@ -976,11 +1067,15 @@
 				type: "item"
 			}]
 			x: 22.0d
-			y: -4.5d
+			y: -8.5d
 		}
 		{
 			dependencies: ["1B8F815BF14E7AE8"]
-			description: ["{gto.iv.quests.09C9709EE53D0022.description0}"]
+			description: [
+				"{gto.iv.quests.09C9709EE53D0022.description0}"
+				""
+				"{gto.iv.quests.09C9709EE53D0022.description1}"
+			]
 			id: "09C9709EE53D0022"
 			tasks: [
 				{
@@ -994,8 +1089,8 @@
 					type: "item"
 				}
 			]
-			x: 22.0d
-			y: -8.5d
+			x: 24.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["2BD46F9D8A842B4A"]
@@ -1011,11 +1106,16 @@
 		}
 		{
 			dependencies: ["1CF7845875EEFA3B"]
-			description: ["{gto.iv.quests.388D743C6BA5D995.description0}"]
+			description: [
+				"{gto.iv.quests.388D743C6BA5D995.description0}"
+				""
+				"{gto.iv.quests.388D743C6BA5D995.description1}"
+			]
 			hide_dependency_lines: true
 			id: "388D743C6BA5D995"
 			shape: "hexagon"
 			size: 1.5d
+			subtitle: "{gto.iv.quests.388D743C6BA5D995.subtitle}"
 			tasks: [{
 				id: "3F3435A0F2EFDC66"
 				item: "gtocore:wireless_dimension_repeater"
@@ -1023,6 +1123,27 @@
 			}]
 			x: 3.0d
 			y: -9.0d
+		}
+		{
+			dependencies: [
+				"2964D4005BFFFADF"
+				"251002F2103BDA84"
+			]
+			description: [
+				"{gto.iv.quests.2C9C7F2B5A15B845.description0}"
+				""
+				"{gto.iv.quests.2C9C7F2B5A15B845.description1}"
+				""
+				"{gto.iv.quests.2C9C7F2B5A15B845.description2}"
+			]
+			id: "2C9C7F2B5A15B845"
+			tasks: [{
+				id: "119A64F2F907B638"
+				item: "gtceu:data_access_hatch"
+				type: "item"
+			}]
+			x: 22.0d
+			y: -4.5d
 		}
 	]
 	subtitle: ["{gto.iv.subtitle0}"]

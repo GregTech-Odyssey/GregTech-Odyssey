@@ -5,7 +5,81 @@
 	group: "2A1218851E38A2EE"
 	icon: "gtceu:alloy_blast_smelter"
 	id: "54FF22C8E901E6B9"
-	order_index: 5
+	images: [
+		{
+			height: 1.1d
+			image: "xtonesreworked:block/bitt/12"
+			rotation: 0.0d
+			width: 1.1d
+			x: 1.5d
+			y: -13.0d
+		}
+		{
+			height: 1.1d
+			image: "xtonesreworked:block/bitt/12"
+			rotation: 0.0d
+			width: 1.1d
+			x: 2.5d
+			y: -13.0d
+		}
+		{
+			color: 16711935
+			height: 1.1d
+			image: "ftbquests:block/barrier_open"
+			order: 1
+			rotation: 0.0d
+			width: 1.1d
+			x: 1.5d
+			y: -13.0d
+		}
+		{
+			color: 16711935
+			height: 1.1d
+			image: "ftbquests:block/barrier_open"
+			order: 1
+			rotation: 0.0d
+			width: 1.1d
+			x: 2.5d
+			y: -13.0d
+		}
+		{
+			color: 16711935
+			height: 1.1d
+			image: "ftbquests:block/barrier_open"
+			order: 1
+			rotation: 0.0d
+			width: 1.1d
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			color: 16711935
+			height: 1.1d
+			image: "ftbquests:block/barrier_open"
+			order: 1
+			rotation: 0.0d
+			width: 1.1d
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			height: 1.1d
+			image: "xtonesreworked:block/bitt/12"
+			rotation: 0.0d
+			width: 1.1d
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			height: 1.1d
+			image: "xtonesreworked:block/bitt/12"
+			rotation: 0.0d
+			width: 1.1d
+			x: 2.0d
+			y: -1.0d
+		}
+	]
+	order_index: 6
 	quest_links: [
 		{
 			id: "1574A2B53C07D0E1"
@@ -27,25 +101,60 @@
 			x: 12.0d
 			y: -2.0d
 		}
+		{
+			id: "50DE63BF29511D2E"
+			linked_quest: "69DF9DE9F7176FD0"
+			shape: "square"
+			x: 2.5d
+			y: -13.0d
+		}
+		{
+			id: "46C3F904D3DBAD79"
+			linked_quest: "2DAEB70539AACE1A"
+			shape: "square"
+			x: 1.5d
+			y: -13.0d
+		}
+		{
+			id: "160EF833BB857B97"
+			linked_quest: "79B00A56EED55DBD"
+			shape: "square"
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			id: "749B7F8089170DB1"
+			linked_quest: "31BA74442F9E953E"
+			shape: "square"
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			id: "38034C2D7E0BA13A"
+			linked_quest: "4167ADF91EF95341"
+			shape: "diamond"
+			x: 3.0d
+			y: -3.0d
+		}
 	]
 	quests: [
 		{
 			dependencies: ["135B35F7619D288E"]
 			description: [
-				"在强导压阶段，你需要大量的钨钢来制作机器，开始发展该阶段前确保你有持续的钨产出"
+				"在此阶段，你需要大量的钨钢来制作机器，开始发展该阶段前确保你有持续的钨产出"
 				""
 				"如此一来，在制造出你的第一组IV马达前你能积攒&6大量的本阶段基础材料——钨钢"
 			]
 			id: "1CF7845875EEFA3B"
 			shape: "gear"
 			size: 2.0d
-			subtitle: "你需要天马行空般的想象力"
+			subtitle: "&9你需要天马行空般的想象力"
 			tasks: [{
 				id: "616B27AED4DE272F"
 				item: "gtceu:iv_machine_hull"
 				type: "item"
 			}]
-			title: "欢迎来到IV阶段"
+			title: "欢迎来到&9强导压&r阶段"
 			x: 10.5d
 			y: -9.0d
 		}
@@ -151,9 +260,9 @@
 		{
 			dependencies: ["249A4B2F900AA6F1"]
 			description: [
-				"欢迎！你已经解锁了GTO的一条新的支线——净化水"
+				"随着芯片制作越发精密，普通的蒸馏水已经不能满足切割晶圆的需要。所以... 你已经解锁了GTO的一条新的支线——&b净化水&r！"
 				""
-				"随着芯片制作越发精密，普通的蒸馏水已经不能满足切割晶圆的需要。净化水厂是整个净化水网络的核心！"
+				"净化水厂是整个净化水网络的核心。它用于把所有水厂收纳为统一的网络，并为它们集中供电"
 			]
 			id: "3EDC674F36EDC52E"
 			shape: "hexagon"
@@ -260,7 +369,7 @@
 		}
 		{
 			dependencies: ["2F6C81E3B10365E8"]
-			description: ["高级陶瓷块需要更为精确的等静压成型，否则会因为压力不均产生内部缺陷"]
+			description: ["高级陶瓷块需要更为精确的&6等静压成型&r，否则会因为压力不均产生内部缺陷"]
 			id: "0D4645862BFD304D"
 			shape: "hexagon"
 			size: 1.5d
@@ -293,6 +402,7 @@
 				{
 					id: "026E9C5051920DB6"
 					item: "gtceu:epoxy_bucket"
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -381,6 +491,7 @@
 				item: "gtceu:nano_processor"
 				type: "item"
 			}]
+			title: "&b纳米处理器"
 			x: -0.5d
 			y: -6.5d
 		}
@@ -417,6 +528,7 @@
 				item: "gtceu:nano_processor_assembly"
 				type: "item"
 			}]
+			title: "&b纳米处理器集群"
 			x: -0.5d
 			y: -5.0d
 		}
@@ -435,6 +547,7 @@
 				item: "gtceu:nano_processor_computer"
 				type: "item"
 			}]
+			title: "&b纳米处理器超级计算机"
 			x: -0.5d
 			y: -3.5d
 		}
@@ -450,6 +563,7 @@
 				item: "gtceu:nano_processor_mainframe"
 				type: "item"
 			}]
+			title: "&b纳米处理器主机"
 			x: -0.5d
 			y: -1.0d
 		}
@@ -458,6 +572,7 @@
 				"135B35F7619D288E"
 				"21A551FA48AC486E"
 			]
+			description: ["别忘了穿上&bT2&r器官"]
 			icon: {
 				Count: 1
 				id: "ad_astra:tier_3_rocket"
@@ -569,27 +684,26 @@
 			y: 1.5d
 		}
 		{
-			dependencies: [
-				"2F6C81E3B10365E8"
-				"5612C7735BC4F5BC"
-			]
+			dependencies: ["5612C7735BC4F5BC"]
 			description: [
 				"合金冶炼炉和工业高炉类似，是专门用来生产&6熔融态合金&r的重要多方块机器"
 				""
 				"熔融态合金与工业高炉产出的热锭类似，需要经过&6真空冷冻机&r冷却才能进一步加工"
 				""
-				"当你后续看到新合金锭，你可以直接去尝试查找其熔融形态的合金冶炼炉配方，它一般要比搅拌后再用高炉去烧速度要快上不少"
+				"当你后续看到新合金锭，你可以直接去尝试查找其熔融形态的合金冶炼炉配方。它能一次性产出&b多个锭&r的量的&e熔融流体&r，一般要比搅拌后再用高炉去烧&e速度要快上不少&r"
+				""
+				"从&e下个阶段&r开始会有大量&c只有&r它才能制作的金属"
 			]
-			hide_dependency_lines: true
 			id: "32B3E6812521AB70"
 			shape: "gear"
-			size: 3.0d
+			size: 2.5d
+			subtitle: "炖史炉"
 			tasks: [{
 				id: "7E0234D447851767"
 				item: "gtceu:alloy_blast_smelter"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 5.0d
 			y: -4.5d
 		}
 		{
@@ -883,7 +997,7 @@
 				item: "gtocore:rocket_large_turbine"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 1.0d
 			y: -4.5d
 		}
 		{
@@ -899,7 +1013,7 @@
 				item: "gtocore:steam_mega_turbine"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 1.0d
 			y: -2.75d
 		}
 		{
@@ -937,14 +1051,13 @@
 			description: ["EV初期你最强力的单方块电力来源"]
 			id: "7BAEF04EC7896079"
 			shape: "diamond"
-			size: 1.5d
 			tasks: [{
 				id: "1F0C897FEDA2C6DC"
 				item: "gtocore:ev_rocket_engine"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -13.0d
+			x: 0.5d
+			y: -9.5d
 		}
 		{
 			dependencies: ["34AFC3B776E00E48"]
@@ -1101,7 +1214,7 @@
 			description: [
 				"作为一把万能工具，你在基地大部分需要工具的地方都能用到&6金刚杵&r"
 				""
-				"如果你没改动过按键设置，按&e[J]&r键调整挖掘速度，调试产线时最好不要设置得太大"
+				"如果你没改动过按键设置，按&e[J]&r和&e[Shift]+[J]&r键调整挖掘速度，调试产线时最好不要设置得太大"
 				""
 				"&7&o如果你在多人服务器游玩并因此搞砸了某些事情，我预见到你的朋友可能会提着另一根金刚杵来找你……&r&r"
 			]
@@ -1142,7 +1255,7 @@
 		}
 		{
 			dependencies: ["08891CB1BAFA5515"]
-			description: ["它可以为多方块机器提供超净间环境，但不支持通用工厂"]
+			description: ["它可以为&e多方块机器&r提供超净间环境，但&4不支持&r&6通用工厂&r"]
 			id: "5B12999747D6C776"
 			shape: "diamond"
 			size: 1.5d
@@ -1157,16 +1270,22 @@
 		{
 			dependencies: ["32B3E6812521AB70"]
 			id: "7B5955B52F6F2497"
+			shape: "diamond"
+			subtitle: "别忘了替换机器中的整体框架"
 			tasks: [{
 				id: "7E06BB0D3AA6EBA7"
 				item: "gtocore:integral_framework_ev"
 				type: "item"
 			}]
-			x: 3.5d
-			y: -2.5d
+			x: 3.0d
+			y: -4.5d
 		}
 		{
-			dependencies: ["2F6C81E3B10365E8"]
+			dependencies: [
+				"2F6C81E3B10365E8"
+				"33D8AEF6B0D2E3D8"
+			]
+			description: ["暂停工作的时候会停止产水哦"]
 			id: "031BBC8B522A562F"
 			subtitle: "很多很多水！"
 			tasks: [{

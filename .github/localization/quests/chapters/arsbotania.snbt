@@ -1905,7 +1905,7 @@
 			]
 			title: "{gto.arsbotania.quests.04CE14D92603FC7A.title}"
 			x: 32.0d
-			y: 0.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["0331107259F7B68C"]
@@ -1918,7 +1918,7 @@
 				type: "item"
 			}]
 			x: 33.0d
-			y: -1.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["04CE14D92603FC7A"]
@@ -1947,7 +1947,7 @@
 			]
 			title: "{gto.arsbotania.quests.0331107259F7B68C.title}"
 			x: 34.0d
-			y: 0.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["0331107259F7B68C"]
@@ -2638,7 +2638,7 @@
 			}]
 			title: "{gto.arsbotania.quests.66F1609053B5407C.title}"
 			x: 34.0d
-			y: -1.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["3A20210242A1C865"]
@@ -5021,6 +5021,7 @@
 		}
 		{
 			dependencies: ["527EBA90163F6108"]
+			description: ["{gto.arsbotania.quests.05FC584B28D957EB.description0}"]
 			id: "05FC584B28D957EB"
 			tasks: [
 				{
@@ -5125,6 +5126,7 @@
 		}
 		{
 			dependencies: ["0331107259F7B68C"]
+			description: ["{gto.arsbotania.quests.0A202D5836DC88AC.description0}"]
 			id: "0A202D5836DC88AC"
 			tasks: [{
 				id: "71D6B4EA5DCE0336"
@@ -5132,7 +5134,7 @@
 				type: "item"
 			}]
 			x: 35.0d
-			y: -1.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["18E4BD0C2EDCBDF2"]
@@ -5141,7 +5143,6 @@
 				""
 				"{gto.arsbotania.quests.02835A9B717F47AC.description1}"
 			]
-			hide_dependency_lines: true
 			id: "02835A9B717F47AC"
 			subtitle: "{gto.arsbotania.quests.02835A9B717F47AC.subtitle}"
 			tasks: [{
@@ -5150,7 +5151,7 @@
 				type: "item"
 			}]
 			x: 37.0d
-			y: 2.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["27CD17C4B3613171"]
@@ -5171,7 +5172,6 @@
 				""
 				"{gto.arsbotania.quests.041B3B6736C62F82.description1}"
 			]
-			hide_dependency_lines: true
 			id: "041B3B6736C62F82"
 			subtitle: "{gto.arsbotania.quests.041B3B6736C62F82.subtitle}"
 			tasks: [{
@@ -5179,8 +5179,8 @@
 				item: "gtocore:time_twister"
 				type: "item"
 			}]
-			x: 37.0d
-			y: 0.5d
+			x: 35.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["7B3FAF5CA4DD217C"]
@@ -5228,6 +5228,47 @@
 			}]
 			x: 26.0d
 			y: -1.5d
+		}
+		{
+			dependencies: [
+				"3D862A3D3F83CA26"
+				"542C6D76B579886C"
+			]
+			description: ["{gto.arsbotania.quests.5D60FFFB4D2F55F3.description0}"]
+			id: "5D60FFFB4D2F55F3"
+			optional: true
+			subtitle: "{gto.arsbotania.quests.5D60FFFB4D2F55F3.subtitle}"
+			tasks: [{
+				id: "53E13F05DA3E7C65"
+				item: {
+					Count: 1
+					id: "ars_nouveau:stable_warp_scroll"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 19.5d
+			y: 3.25d
+		}
+		{
+			dependencies: [
+				"18E4BD0C2EDCBDF2"
+				"32B3E6812521AB70"
+			]
+			description: [
+				"{gto.arsbotania.quests.4167ADF91EF95341.description0}"
+				""
+				"{gto.arsbotania.quests.4167ADF91EF95341.description1}"
+			]
+			id: "4167ADF91EF95341"
+			subtitle: "{gto.arsbotania.quests.4167ADF91EF95341.subtitle}"
+			tasks: [{
+				id: "7411E8A1C3C7FD56"
+				item: "gtocore:mana_amplifier_hatch"
+				type: "item"
+			}]
+			x: 37.0d
+			y: 1.5d
 		}
 	]
 	title: "{gto.arsbotania.title}"

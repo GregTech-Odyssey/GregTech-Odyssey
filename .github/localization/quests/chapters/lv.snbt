@@ -6,8 +6,39 @@
 	group: "2A1218851E38A2EE"
 	icon: "gtceu:electric_blast_furnace"
 	id: "4015C56C0D562D25"
-	order_index: 2
-	quest_links: [ ]
+	images: [{
+		height: 1.1d
+		image: "botania:block/alfheim_portal_swirl"
+		rotation: 0.0d
+		width: 1.1d
+		x: -4.5d
+		y: 3.0d
+	}]
+	order_index: 3
+	quest_links: [
+		{
+			id: "455E3F6F33BD24B6"
+			linked_quest: "507807175748245C"
+			shape: "gear"
+			size: 1.5d
+			x: 0.5d
+			y: -6.5d
+		}
+		{
+			id: "111C9085726F8FA6"
+			linked_quest: "018F46EE6AE97EFD"
+			shape: "square"
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			id: "24E6A7A2360C8265"
+			linked_quest: "5FCFE3D6B36CC409"
+			shape: "square"
+			x: -4.5d
+			y: 3.0d
+		}
+	]
 	quests: [
 		{
 			dependencies: ["507807175748245C"]
@@ -133,7 +164,7 @@
 			}]
 			title: "{gto.lv.quests.33B01E889EE7E990.title}"
 			x: -3.0d
-			y: 0.75d
+			y: 0.5d
 		}
 		{
 			dependencies: [
@@ -142,7 +173,9 @@
 			]
 			description: [
 				"{gto.lv.quests.021F533355CCBABA.description0}"
+				""
 				"{gto.lv.quests.021F533355CCBABA.description1}"
+				""
 				"{gto.lv.quests.021F533355CCBABA.description2}"
 			]
 			id: "021F533355CCBABA"
@@ -156,8 +189,8 @@
 				type: "item"
 			}]
 			title: "{gto.lv.quests.021F533355CCBABA.title}"
-			x: -0.75d
-			y: 1.5d
+			x: -1.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["24DABF4CEA8A4C86"]
@@ -238,8 +271,8 @@
 				item: "gtocore:liquefaction_furnace"
 				type: "item"
 			}]
-			x: -8.25d
-			y: -0.75d
+			x: -12.0d
+			y: 3.0d
 		}
 		{
 			dependencies: [
@@ -315,8 +348,8 @@
 				}
 			]
 			title: "{gto.lv.quests.06534664971F6E68.title}"
-			x: 2.142857142857146d
-			y: 3.0d
+			x: 2.0d
+			y: 2.5d
 		}
 		{
 			dependencies: [
@@ -329,6 +362,8 @@
 				"{gto.lv.quests.68EFF1609132BDD4.description1}"
 				""
 				"{gto.lv.quests.68EFF1609132BDD4.description2}"
+				""
+				"{gto.lv.quests.68EFF1609132BDD4.description3}"
 			]
 			id: "68EFF1609132BDD4"
 			shape: "gear"
@@ -365,7 +400,7 @@
 				"5B8151CC61AAAE12"
 				"7A1442B2BADD8D46"
 			]
-			description: ["[ \"铜线缆的作用也仅仅只是合成罢了，为什么不去看看这个阶段的\", { \"text\": \"超导体\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0DF27446EE5DB28F\" } }, \"呢？\" ]"]
+			description: ["[\"\", {\"translate\": \"gto.lv.quests.2D5A5D2DE390665C.description0.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"0DF27446EE5DB28F\"}, \"translate\": \"gto.lv.quests.2D5A5D2DE390665C.description0.rich_text1\"}, {\"translate\": \"gto.lv.quests.2D5A5D2DE390665C.description0.rich_text2\"}]"]
 			id: "2D5A5D2DE390665C"
 			subtitle: "{gto.lv.quests.2D5A5D2DE390665C.subtitle}"
 			tasks: [{
@@ -374,8 +409,8 @@
 				type: "item"
 			}]
 			title: "{gto.lv.quests.2D5A5D2DE390665C.title}"
-			x: 5.5d
-			y: 0.5d
+			x: 7.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["7E061DC16432D549"]
@@ -440,11 +475,11 @@
 			size: 1.5d
 			subtitle: "{gto.lv.quests.6BB3386725B228D5.subtitle}"
 			tasks: [{
-				count: 2L
 				id: "0BB67BB62513F7CD"
 				item: "gtceu:good_electronic_circuit"
 				type: "item"
 			}]
+			title: "{gto.lv.quests.6BB3386725B228D5.title}"
 			x: -3.0d
 			y: 4.5d
 		}
@@ -459,14 +494,14 @@
 			]
 			id: "16D0242E72E868B2"
 			shape: "gear"
-			size: 1.5d
+			size: 2.0d
 			subtitle: "{gto.lv.quests.16D0242E72E868B2.subtitle}"
 			tasks: [{
 				id: "664AC9F5FEE1CA35"
 				item: "gtceu:lv_circuit_assembler"
 				type: "item"
 			}]
-			x: -2.25d
+			x: -3.0d
 			y: 7.5d
 		}
 		{
@@ -484,9 +519,20 @@
 			y: 5.5d
 		}
 		{
-			dependencies: ["0D26129C7015E4D1"]
-			description: ["{gto.lv.quests.268C28F66FA4C91F.description0}"]
+			dependencies: [
+				"0D26129C7015E4D1"
+				"54869A710D7DC29D"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"[\"\", {\"translate\": \"gto.lv.quests.268C28F66FA4C91F.description0.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"12FEAB1A9AA1BCA6\"}, \"translate\": \"gto.lv.quests.268C28F66FA4C91F.description0.rich_text1\"}, {\"translate\": \"gto.lv.quests.268C28F66FA4C91F.description0.rich_text2\"}]"
+				""
+				"{gto.lv.quests.268C28F66FA4C91F.description1}"
+			]
+			hide_dependent_lines: true
 			id: "268C28F66FA4C91F"
+			shape: "hexagon"
+			size: 1.5d
 			subtitle: "{gto.lv.quests.268C28F66FA4C91F.subtitle}"
 			tasks: [{
 				id: "6DF99BFD9101B32B"
@@ -494,36 +540,21 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 7.5d
+			y: 7.0d
 		}
 		{
-			dependencies: ["268C28F66FA4C91F"]
-			description: [
-				"{gto.lv.quests.35407BF62038B942.description0}"
-				""
-				"[ \"回\", { \"text\": \"蒸汽时代\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0CFABBAD568B3178\" } }, \"章节看看\" ]"
+			dependencies: [
+				"268C28F66FA4C91F"
+				"018F46EE6AE97EFD"
 			]
-			icon: "gtocore:large_steam_furnace"
-			id: "35407BF62038B942"
-			shape: "diamond"
-			size: 1.5d
-			tasks: [{
-				id: "5B9A1168E09BEEFB"
-				title: "{gto.lv.quests.35407BF62038B942.tasks.5B9A1168E09BEEFB.title}"
-				type: "checkmark"
-			}]
-			x: 1.5d
-			y: 9.5d
-		}
-		{
-			dependencies: ["268C28F66FA4C91F"]
 			description: [
 				"{gto.lv.quests.12FEAB1A9AA1BCA6.description0}"
 				""
 				"{gto.lv.quests.12FEAB1A9AA1BCA6.description1}"
 			]
+			hide_dependency_lines: true
 			id: "12FEAB1A9AA1BCA6"
-			shape: "diamond"
+			shape: "hexagon"
 			size: 1.5d
 			subtitle: "{gto.lv.quests.12FEAB1A9AA1BCA6.subtitle}"
 			tasks: [{
@@ -531,8 +562,8 @@
 				item: "gtocore:large_steam_circuit_assembler"
 				type: "item"
 			}]
-			x: 3.25d
-			y: 7.5d
+			x: -11.25d
+			y: -1.5d
 		}
 		{
 			dependencies: ["507807175748245C"]
@@ -550,7 +581,7 @@
 				type: "item"
 			}]
 			title: "{gto.lv.quests.422259B2C415401D.title}"
-			x: 4.0d
+			x: 5.5d
 			y: 0.5d
 		}
 		{
@@ -661,8 +692,8 @@
 				type: "item"
 			}]
 			title: "{gto.lv.quests.2316EB804D47C3A4.title}"
-			x: 8.5d
-			y: -6.0d
+			x: 7.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["33B01E889EE7E990"]
@@ -672,13 +703,10 @@
 				"{gto.lv.quests.6465CCE684E0DD3B.description2}"
 				""
 				"{gto.lv.quests.6465CCE684E0DD3B.description3}"
-				"{gto.lv.quests.6465CCE684E0DD3B.description4}"
 				""
-				"{gto.lv.quests.6465CCE684E0DD3B.description5}"
+				"{gto.lv.quests.6465CCE684E0DD3B.description4}"
 			]
-			hide_dependency_lines: true
 			id: "6465CCE684E0DD3B"
-			optional: true
 			subtitle: "{gto.lv.quests.6465CCE684E0DD3B.subtitle}"
 			tasks: [
 				{
@@ -703,8 +731,8 @@
 				}
 			]
 			title: "{gto.lv.quests.6465CCE684E0DD3B.title}"
-			x: 3.0d
-			y: 1.5d
+			x: -0.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["6A9DFD965CA33D75"]
@@ -713,18 +741,31 @@
 				""
 				"{gto.lv.quests.23A116C4BAE96979.description1}"
 				""
-				"{gto.lv.quests.23A116C4BAE96979.description2}"
+				"[\"\", {\"italic\": true, \"color\": \"gray\", \"translate\": \"gto.lv.quests.23A116C4BAE96979.description2.rich_text0\"}, {\"color\": \"gray\", \"italic\": true, \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"7F65A1C533ED1C3B\"}, \"translate\": \"gto.lv.quests.23A116C4BAE96979.description2.rich_text1\"}, {\"italic\": true, \"color\": \"gray\", \"translate\": \"gto.lv.quests.23A116C4BAE96979.description2.rich_text2\"}, {\"color\": \"gray\", \"italic\": true, \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"16047F3F79404251\"}, \"translate\": \"gto.lv.quests.23A116C4BAE96979.description2.rich_text3\"}, {\"italic\": true, \"color\": \"gray\", \"translate\": \"gto.lv.quests.23A116C4BAE96979.description2.rich_text4\"}]"
+				""
+				""
+				"{gto.lv.quests.23A116C4BAE96979.description3}"
+				""
+				"{gto.lv.quests.23A116C4BAE96979.description4}"
 			]
+			icon: "gtceu:lv_energy_input_hatch"
 			id: "23A116C4BAE96979"
 			shape: "hexagon"
 			size: 1.5d
 			subtitle: "{gto.lv.quests.23A116C4BAE96979.subtitle}"
-			tasks: [{
-				count: 2L
-				id: "219C151A73A735B5"
-				item: "gtceu:lv_energy_input_hatch"
-				type: "item"
-			}]
+			tasks: [
+				{
+					count: 2L
+					id: "219C151A73A735B5"
+					item: "gtceu:lv_energy_input_hatch"
+					type: "item"
+				}
+				{
+					id: "06DF196295344F3C"
+					title: "{gto.lv.quests.23A116C4BAE96979.tasks.06DF196295344F3C.title}"
+					type: "checkmark"
+				}
+			]
 			title: "{gto.lv.quests.23A116C4BAE96979.title}"
 			x: 0.0d
 			y: 4.5d
@@ -738,10 +779,8 @@
 				""
 				"{gto.lv.quests.58434872C6EC4E32.description2}"
 			]
-			hide_dependency_lines: true
 			icon: "gtceu:maintenance_hatch"
 			id: "58434872C6EC4E32"
-			optional: true
 			subtitle: "{gto.lv.quests.58434872C6EC4E32.subtitle}"
 			tasks: [
 				{
@@ -756,8 +795,8 @@
 				}
 			]
 			title: "{gto.lv.quests.58434872C6EC4E32.title}"
-			x: 0.0d
-			y: 3.0d
+			x: -0.5d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -783,7 +822,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -8.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["2C63E85A7D29712A"]
@@ -793,7 +832,7 @@
 				item: "gtceu:annealed_copper_ingot"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 2.0d
 			y: -8.5d
 		}
 		{
@@ -807,7 +846,7 @@
 				item: "gtocore:electric_heater"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 3.5d
 			y: -8.5d
 		}
 		{
@@ -859,8 +898,8 @@
 				item: "gtceu:phenol_bucket"
 				type: "item"
 			}]
-			x: -6.5d
-			y: 5.5d
+			x: -7.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["7E061DC16432D549"]
@@ -873,7 +912,7 @@
 				type: "item"
 			}]
 			x: -6.5d
-			y: 3.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["7E061DC16432D549"]
@@ -914,15 +953,15 @@
 				item: "gtocore:lava_furnace"
 				type: "item"
 			}]
-			x: -8.25d
-			y: -5.25d
+			x: -12.0d
+			y: -3.0d
 		}
 		{
 			dependencies: [
 				"6BB3386725B228D5"
 				"12F3FAEB69397980"
 			]
-			description: [""]
+			description: ["{gto.lv.quests.7FD151D808A41D6C.description0}"]
 			hide_dependency_lines: true
 			id: "7FD151D808A41D6C"
 			shape: "hexagon"
@@ -933,8 +972,8 @@
 				item: "gtocore:energetic_photovoltaic_power_station"
 				type: "item"
 			}]
-			x: -8.25d
-			y: 0.75d
+			x: -10.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["12F3FAEB69397980"]
@@ -942,6 +981,8 @@
 				"{gto.lv.quests.0F5CFFD0108CC61B.description0}"
 				""
 				"{gto.lv.quests.0F5CFFD0108CC61B.description1}"
+				""
+				"{gto.lv.quests.0F5CFFD0108CC61B.description2}"
 			]
 			hide_dependency_lines: true
 			id: "0F5CFFD0108CC61B"
@@ -952,8 +993,8 @@
 				item: "gtocore:generator_array"
 				type: "item"
 			}]
-			x: -8.25d
-			y: 2.25d
+			x: -9.0d
+			y: 3.0d
 		}
 		{
 			dependencies: [
@@ -996,8 +1037,8 @@
 				item: "gtocore:tree_growth_simulator"
 				type: "item"
 			}]
-			x: -8.25d
-			y: -2.25d
+			x: -13.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["2685D515096F5B28"]
@@ -1024,8 +1065,8 @@
 				item: "gtmthings:lv_digital_miner"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 6.75d
+			x: -5.25d
+			y: 7.5d
 		}
 		{
 			dependencies: ["23A116C4BAE96979"]
@@ -1174,8 +1215,8 @@
 				item: "gtceu:lv_emitter"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -6.0d
+			x: 5.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["507807175748245C"]
@@ -1186,11 +1227,10 @@
 				item: "gtocore:steel_emitter_base"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -7.0d
+			x: 5.5d
+			y: -8.5d
 		}
 		{
-			dependencies: ["507807175748245C"]
 			id: "7F4F5999F7A65E0F"
 			tasks: [{
 				id: "428AB01EAAFD1B6F"
@@ -1198,7 +1238,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: -5.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["5FBCB0C7F914D814"]
@@ -1224,7 +1264,7 @@
 				item: "gtocore:lv_cluster"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 2.0d
 			y: -4.0d
 		}
 		{
@@ -1249,7 +1289,7 @@
 				item: "gtocore:steel_sensor_casing"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 5.5d
 			y: -4.0d
 		}
 		{
@@ -1264,8 +1304,8 @@
 				item: "gtceu:lv_sensor"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -5.0d
+			x: 5.5d
+			y: -5.5d
 		}
 		{
 			dependencies: [
@@ -1278,7 +1318,9 @@
 				""
 				"{gto.lv.quests.35FD16B1992A2576.description1}"
 				""
-				"{gto.lv.quests.35FD16B1992A2576.description2}"
+				"[\"\", {\"translate\": \"gto.lv.quests.35FD16B1992A2576.description2.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"5C62ECF9AC84E023\"}, \"translate\": \"gto.lv.quests.35FD16B1992A2576.description2.rich_text1\"}, {\"translate\": \"gto.lv.quests.35FD16B1992A2576.description2.rich_text2\"}]"
+				""
+				"{gto.lv.quests.35FD16B1992A2576.description3}"
 			]
 			icon: "gtmthings:wireless_item_transfer_cover"
 			id: "35FD16B1992A2576"
@@ -1294,8 +1336,8 @@
 					type: "item"
 				}
 			]
-			x: 8.5d
-			y: -5.0d
+			x: 7.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["7643029900C2F8B3"]
@@ -1312,7 +1354,7 @@
 				type: "item"
 			}]
 			x: -4.5d
-			y: 2.0d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -1328,7 +1370,7 @@
 				type: "item"
 			}]
 			x: -6.0d
-			y: 2.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["14E5EF3DA1193B6F"]
@@ -1344,7 +1386,7 @@
 				item: "gtceu:lv_cutter"
 				type: "item"
 			}]
-			x: 8.5d
+			x: 7.0d
 			y: -4.0d
 		}
 		{
@@ -1392,7 +1434,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 6.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["14285E8F662204AE"]
@@ -1403,7 +1445,7 @@
 				item: "gtceu:cobalt_brass_buzz_saw_blade"
 				type: "item"
 			}]
-			x: 8.5d
+			x: 7.0d
 			y: -2.5d
 		}
 		{
@@ -1428,8 +1470,8 @@
 				item: "gtceu:lv_miner"
 				type: "item"
 			}]
-			x: 5.5d
-			y: -4.0d
+			x: 4.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["33B01E889EE7E990"]
@@ -1456,7 +1498,7 @@
 				item: "gtceu:lv_energy_output_hatch"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -1.0d
 			y: 6.0d
 		}
 		{
@@ -1472,24 +1514,6 @@
 			}]
 			x: -6.0d
 			y: 0.5d
-		}
-		{
-			dependencies: ["268C28F66FA4C91F"]
-			description: [
-				"{gto.lv.quests.518FEC9206E3B5A0.description0}"
-				""
-				"{gto.lv.quests.518FEC9206E3B5A0.description1}"
-			]
-			id: "518FEC9206E3B5A0"
-			shape: "diamond"
-			size: 1.5d
-			tasks: [{
-				id: "0FB51EB4F5C498F7"
-				item: "gtocore:large_steam_input_hatch"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 7.5d
 		}
 		{
 			dependencies: ["29896685477AA469"]
@@ -1673,8 +1697,8 @@
 				item: "gtocore:thermal_power_pump"
 				type: "item"
 			}]
-			x: -8.25d
-			y: -3.75d
+			x: -15.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["35347DE9C34F2825"]
@@ -1691,6 +1715,7 @@
 			dependencies: ["29896685477AA469"]
 			description: ["{gto.lv.quests.7F65A1C533ED1C3B.description0}"]
 			id: "7F65A1C533ED1C3B"
+			shape: "diamond"
 			subtitle: "{gto.lv.quests.7F65A1C533ED1C3B.subtitle}"
 			tasks: [{
 				id: "53A559CA4372D14E"
@@ -1703,16 +1728,21 @@
 		}
 		{
 			dependencies: ["6A9DFD965CA33D75"]
-			description: ["{gto.lv.quests.1FCF7BF494F483B4.description0}"]
+			description: [
+				"{gto.lv.quests.1FCF7BF494F483B4.description0}"
+				""
+				"{gto.lv.quests.1FCF7BF494F483B4.description1}"
+			]
 			id: "1FCF7BF494F483B4"
+			shape: "diamond"
 			subtitle: "{gto.lv.quests.1FCF7BF494F483B4.subtitle}"
 			tasks: [{
 				id: "0258F66F419777E0"
 				item: "gtocore:lv_power_amplifiers"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 3.0d
+			x: -2.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["35347DE9C34F2825"]
@@ -1743,6 +1773,8 @@
 			]
 			icon: "gtceu:stainless_steel_frame"
 			id: "39879EA8A9F79913"
+			shape: "diamond"
+			size: 1.5d
 			subtitle: "{gto.lv.quests.39879EA8A9F79913.subtitle}"
 			tasks: [
 				{
@@ -1762,7 +1794,230 @@
 				}
 			]
 			title: "{gto.lv.quests.39879EA8A9F79913.title}"
-			x: 1.5d
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["68EFF1609132BDD4"]
+			description: [
+				"{gto.lv.quests.3D1E66868544975F.description0}"
+				""
+				"{gto.lv.quests.3D1E66868544975F.description1}"
+				""
+				"{gto.lv.quests.3D1E66868544975F.description2}"
+			]
+			id: "3D1E66868544975F"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "{gto.lv.quests.3D1E66868544975F.subtitle}"
+			tasks: [{
+				id: "314B51C49770F63A"
+				item: "gtceu:mv_machine_hull"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"020E8B707A8CF794"
+				"268C28F66FA4C91F"
+			]
+			description: [
+				"{gto.lv.quests.1FEF25B6BDBC00D7.description0}"
+				""
+				"{gto.lv.quests.1FEF25B6BDBC00D7.description1}"
+				""
+				"[\"\", {\"translate\": \"gto.lv.quests.1FEF25B6BDBC00D7.description2.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"1CF899F39CC99A07\"}, \"translate\": \"gto.lv.quests.1FEF25B6BDBC00D7.description2.rich_text1\"}, {\"translate\": \"gto.lv.quests.1FEF25B6BDBC00D7.description2.rich_text2\"}]"
+			]
+			id: "1FEF25B6BDBC00D7"
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{gto.lv.quests.1FEF25B6BDBC00D7.subtitle}"
+			tasks: [{
+				id: "32F4C71310CC1F7D"
+				item: "gtocore:large_steam_centrifuge"
+				type: "item"
+			}]
+			title: "{gto.lv.quests.1FEF25B6BDBC00D7.title}"
+			x: -13.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"268C28F66FA4C91F"
+				"020E8B707A8CF794"
+			]
+			description: [
+				"{gto.lv.quests.1CF899F39CC99A07.description0}"
+				""
+				"[\"\", {\"translate\": \"gto.lv.quests.1CF899F39CC99A07.description1.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"1FEF25B6BDBC00D7\"}, \"translate\": \"gto.lv.quests.1CF899F39CC99A07.description1.rich_text1\"}, {\"translate\": \"gto.lv.quests.1CF899F39CC99A07.description1.rich_text2\"}]"
+			]
+			id: "1CF899F39CC99A07"
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{gto.lv.quests.1CF899F39CC99A07.subtitle}"
+			tasks: [{
+				id: "6B662D66EAF8C624"
+				item: "gtocore:large_steam_thermal_centrifuge"
+				type: "item"
+			}]
+			title: "{gto.lv.quests.1CF899F39CC99A07.title}"
+			x: -12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7ADAA0DA032918C5"
+				"268C28F66FA4C91F"
+			]
+			description: [
+				"{gto.lv.quests.241806C710FDAC27.description0}"
+				""
+				"{gto.lv.quests.241806C710FDAC27.description1}"
+				""
+				"{gto.lv.quests.241806C710FDAC27.description2}"
+				""
+				"{gto.lv.quests.241806C710FDAC27.description3}"
+			]
+			id: "241806C710FDAC27"
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{gto.lv.quests.241806C710FDAC27.subtitle}"
+			tasks: [{
+				id: "6CE077C797332677"
+				item: "gtocore:large_steam_ore_washer"
+				type: "item"
+			}]
+			title: "{gto.lv.quests.241806C710FDAC27.title}"
+			x: -11.25d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"411686C01CB6045F"
+				"268C28F66FA4C91F"
+			]
+			description: [
+				"[\"\", {\"translate\": \"gto.lv.quests.0CFABBAD568B3178.description0.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"241806C710FDAC27\"}, \"translate\": \"gto.lv.quests.0CFABBAD568B3178.description0.rich_text1\"}, {\"translate\": \"gto.lv.quests.0CFABBAD568B3178.description0.rich_text2\"}]"
+				""
+				"{gto.lv.quests.0CFABBAD568B3178.description1}"
+				""
+				"{gto.lv.quests.0CFABBAD568B3178.description2}"
+			]
+			id: "0CFABBAD568B3178"
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{gto.lv.quests.0CFABBAD568B3178.subtitle}"
+			tasks: [{
+				id: "0971BE2E86BE323A"
+				item: "gtocore:large_steam_bath"
+				type: "item"
+			}]
+			title: "{gto.lv.quests.0CFABBAD568B3178.title}"
+			x: -12.75d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"70166E7FA6559076"
+				"268C28F66FA4C91F"
+			]
+			description: [
+				"{gto.lv.quests.713A10C0905402EB.description0}"
+				""
+				"{gto.lv.quests.713A10C0905402EB.description1}"
+				""
+				"{gto.lv.quests.713A10C0905402EB.description2}"
+				""
+				"{gto.lv.quests.713A10C0905402EB.description3}"
+			]
+			id: "713A10C0905402EB"
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{gto.lv.quests.713A10C0905402EB.subtitle}"
+			tasks: [{
+				id: "0938A17F3C7F5500"
+				item: "gtocore:large_steam_furnace"
+				type: "item"
+			}]
+			title: "{gto.lv.quests.713A10C0905402EB.title}"
+			x: -10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6AB9089FDE595716"
+				"268C28F66FA4C91F"
+			]
+			description: [
+				"{gto.lv.quests.2A107C5DD4BC53A3.description0}"
+				""
+				"{gto.lv.quests.2A107C5DD4BC53A3.description1}"
+				""
+				"{gto.lv.quests.2A107C5DD4BC53A3.description2}"
+			]
+			id: "2A107C5DD4BC53A3"
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{gto.lv.quests.2A107C5DD4BC53A3.subtitle}"
+			tasks: [{
+				id: "03C1D260B5CFB2AD"
+				item: "gtocore:large_steam_mixer"
+				type: "item"
+			}]
+			title: "{gto.lv.quests.2A107C5DD4BC53A3.title}"
+			x: -12.75d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"5660509FA09D2239"
+				"268C28F66FA4C91F"
+			]
+			description: [
+				"{gto.lv.quests.740983360C14D97F.description0}"
+				""
+				"{gto.lv.quests.740983360C14D97F.description1}"
+				""
+				"{gto.lv.quests.740983360C14D97F.description2}"
+			]
+			id: "740983360C14D97F"
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{gto.lv.quests.740983360C14D97F.subtitle}"
+			tasks: [{
+				id: "51D770B38F9704A2"
+				item: "gtocore:large_steam_crusher"
+				type: "item"
+			}]
+			title: "{gto.lv.quests.740983360C14D97F.title}"
+			x: -14.25d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"35AC53D6E8EE6796"
+				"268C28F66FA4C91F"
+			]
+			description: [
+				"{gto.lv.quests.5F192882CBB16A9A.description0}"
+				""
+				"{gto.lv.quests.5F192882CBB16A9A.description1}"
+				""
+				"{gto.lv.quests.5F192882CBB16A9A.description2}"
+			]
+			id: "5F192882CBB16A9A"
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{gto.lv.quests.5F192882CBB16A9A.subtitle}"
+			tasks: [{
+				id: "0F84DA23AF506329"
+				item: "gtocore:large_steam_macerator"
+				type: "item"
+			}]
+			title: "{gto.lv.quests.5F192882CBB16A9A.title}"
+			x: -9.75d
 			y: 1.5d
 		}
 	]

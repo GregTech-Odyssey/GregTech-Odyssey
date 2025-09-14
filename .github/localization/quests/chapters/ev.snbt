@@ -5,7 +5,81 @@
 	group: "2A1218851E38A2EE"
 	icon: "gtceu:alloy_blast_smelter"
 	id: "54FF22C8E901E6B9"
-	order_index: 5
+	images: [
+		{
+			height: 1.1d
+			image: "xtonesreworked:block/bitt/12"
+			rotation: 0.0d
+			width: 1.1d
+			x: 1.5d
+			y: -13.0d
+		}
+		{
+			height: 1.1d
+			image: "xtonesreworked:block/bitt/12"
+			rotation: 0.0d
+			width: 1.1d
+			x: 2.5d
+			y: -13.0d
+		}
+		{
+			color: 16711935
+			height: 1.1d
+			image: "ftbquests:block/barrier_open"
+			order: 1
+			rotation: 0.0d
+			width: 1.1d
+			x: 1.5d
+			y: -13.0d
+		}
+		{
+			color: 16711935
+			height: 1.1d
+			image: "ftbquests:block/barrier_open"
+			order: 1
+			rotation: 0.0d
+			width: 1.1d
+			x: 2.5d
+			y: -13.0d
+		}
+		{
+			color: 16711935
+			height: 1.1d
+			image: "ftbquests:block/barrier_open"
+			order: 1
+			rotation: 0.0d
+			width: 1.1d
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			color: 16711935
+			height: 1.1d
+			image: "ftbquests:block/barrier_open"
+			order: 1
+			rotation: 0.0d
+			width: 1.1d
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			height: 1.1d
+			image: "xtonesreworked:block/bitt/12"
+			rotation: 0.0d
+			width: 1.1d
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			height: 1.1d
+			image: "xtonesreworked:block/bitt/12"
+			rotation: 0.0d
+			width: 1.1d
+			x: 2.0d
+			y: -1.0d
+		}
+	]
+	order_index: 6
 	quest_links: [
 		{
 			id: "1574A2B53C07D0E1"
@@ -26,6 +100,41 @@
 			linked_quest: "5808E00A58A9F4EE"
 			x: 12.0d
 			y: -2.0d
+		}
+		{
+			id: "50DE63BF29511D2E"
+			linked_quest: "69DF9DE9F7176FD0"
+			shape: "square"
+			x: 2.5d
+			y: -13.0d
+		}
+		{
+			id: "46C3F904D3DBAD79"
+			linked_quest: "2DAEB70539AACE1A"
+			shape: "square"
+			x: 1.5d
+			y: -13.0d
+		}
+		{
+			id: "160EF833BB857B97"
+			linked_quest: "79B00A56EED55DBD"
+			shape: "square"
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			id: "749B7F8089170DB1"
+			linked_quest: "31BA74442F9E953E"
+			shape: "square"
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			id: "38034C2D7E0BA13A"
+			linked_quest: "4167ADF91EF95341"
+			shape: "diamond"
+			x: 3.0d
+			y: -3.0d
 		}
 	]
 	quests: [
@@ -293,6 +402,7 @@
 				{
 					id: "026E9C5051920DB6"
 					item: "gtceu:epoxy_bucket"
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -381,6 +491,7 @@
 				item: "gtceu:nano_processor"
 				type: "item"
 			}]
+			title: "{gto.ev.quests.7D8D340B336E38F7.title}"
 			x: -0.5d
 			y: -6.5d
 		}
@@ -417,6 +528,7 @@
 				item: "gtceu:nano_processor_assembly"
 				type: "item"
 			}]
+			title: "{gto.ev.quests.4BCAA414BA1AE5FD.title}"
 			x: -0.5d
 			y: -5.0d
 		}
@@ -435,6 +547,7 @@
 				item: "gtceu:nano_processor_computer"
 				type: "item"
 			}]
+			title: "{gto.ev.quests.63B3B1533377F7BA.title}"
 			x: -0.5d
 			y: -3.5d
 		}
@@ -450,6 +563,7 @@
 				item: "gtceu:nano_processor_mainframe"
 				type: "item"
 			}]
+			title: "{gto.ev.quests.5B98FF5DDD4B2629.title}"
 			x: -0.5d
 			y: -1.0d
 		}
@@ -458,6 +572,7 @@
 				"135B35F7619D288E"
 				"21A551FA48AC486E"
 			]
+			description: ["{gto.ev.quests.5B243900BEDF71CA.description0}"]
 			icon: {
 				Count: 1
 				id: "ad_astra:tier_3_rocket"
@@ -569,27 +684,26 @@
 			y: 1.5d
 		}
 		{
-			dependencies: [
-				"2F6C81E3B10365E8"
-				"5612C7735BC4F5BC"
-			]
+			dependencies: ["5612C7735BC4F5BC"]
 			description: [
 				"{gto.ev.quests.32B3E6812521AB70.description0}"
 				""
 				"{gto.ev.quests.32B3E6812521AB70.description1}"
 				""
 				"{gto.ev.quests.32B3E6812521AB70.description2}"
+				""
+				"{gto.ev.quests.32B3E6812521AB70.description3}"
 			]
-			hide_dependency_lines: true
 			id: "32B3E6812521AB70"
 			shape: "gear"
-			size: 3.0d
+			size: 2.5d
+			subtitle: "{gto.ev.quests.32B3E6812521AB70.subtitle}"
 			tasks: [{
 				id: "7E0234D447851767"
 				item: "gtceu:alloy_blast_smelter"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 5.0d
 			y: -4.5d
 		}
 		{
@@ -883,7 +997,7 @@
 				item: "gtocore:rocket_large_turbine"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 1.0d
 			y: -4.5d
 		}
 		{
@@ -899,7 +1013,7 @@
 				item: "gtocore:steam_mega_turbine"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 1.0d
 			y: -2.75d
 		}
 		{
@@ -937,14 +1051,13 @@
 			description: ["{gto.ev.quests.7BAEF04EC7896079.description0}"]
 			id: "7BAEF04EC7896079"
 			shape: "diamond"
-			size: 1.5d
 			tasks: [{
 				id: "1F0C897FEDA2C6DC"
 				item: "gtocore:ev_rocket_engine"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -13.0d
+			x: 0.5d
+			y: -9.5d
 		}
 		{
 			dependencies: ["34AFC3B776E00E48"]
@@ -1157,16 +1270,22 @@
 		{
 			dependencies: ["32B3E6812521AB70"]
 			id: "7B5955B52F6F2497"
+			shape: "diamond"
+			subtitle: "{gto.ev.quests.7B5955B52F6F2497.subtitle}"
 			tasks: [{
 				id: "7E06BB0D3AA6EBA7"
 				item: "gtocore:integral_framework_ev"
 				type: "item"
 			}]
-			x: 3.5d
-			y: -2.5d
+			x: 3.0d
+			y: -4.5d
 		}
 		{
-			dependencies: ["2F6C81E3B10365E8"]
+			dependencies: [
+				"2F6C81E3B10365E8"
+				"33D8AEF6B0D2E3D8"
+			]
+			description: ["{gto.ev.quests.031BBC8B522A562F.description0}"]
 			id: "031BBC8B522A562F"
 			subtitle: "{gto.ev.quests.031BBC8B522A562F.subtitle}"
 			tasks: [{

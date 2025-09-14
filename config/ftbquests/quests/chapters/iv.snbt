@@ -5,15 +5,62 @@
 	group: "2A1218851E38A2EE"
 	icon: "gtceu:assembly_line"
 	id: "3F8D9D2B382EE265"
-	order_index: 6
-	quest_links: [{
-		id: "2103B4D5965B90DF"
-		linked_quest: "1CF7845875EEFA3B"
-		shape: "gear"
-		size: 2.0d
-		x: 6.0d
-		y: -5.5d
-	}]
+	images: [
+		{
+			height: 1.1d
+			image: "xtonesreworked:block/bitt/12"
+			rotation: 0.0d
+			width: 1.1d
+			x: 8.5d
+			y: -5.5d
+		}
+		{
+			color: 16711935
+			height: 1.1d
+			image: "ftbquests:block/barrier_open"
+			order: 1
+			rotation: 0.0d
+			width: 1.1d
+			x: 8.5d
+			y: -5.5d
+		}
+		{
+			color: 16711935
+			height: 1.1d
+			image: "ftbquests:block/barrier_open"
+			order: 1
+			rotation: 0.0d
+			width: 1.1d
+			x: 22.0d
+			y: -8.5d
+		}
+		{
+			height: 1.1d
+			image: "xtonesreworked:block/bitt/12"
+			rotation: 0.0d
+			width: 1.1d
+			x: 22.0d
+			y: -8.5d
+		}
+	]
+	order_index: 7
+	quest_links: [
+		{
+			id: "2103B4D5965B90DF"
+			linked_quest: "1CF7845875EEFA3B"
+			shape: "gear"
+			size: 2.0d
+			x: 6.0d
+			y: -5.5d
+		}
+		{
+			id: "101D1D1E0461C66B"
+			linked_quest: "5F7635CC667AD219"
+			shape: "square"
+			x: 8.5d
+			y: -5.5d
+		}
+	]
 	quests: [
 		{
 			dependencies: ["7E7B941FF52CC0F2"]
@@ -44,6 +91,7 @@
 		}
 		{
 			dependencies: ["09C2AF1A68A06D69"]
+			description: ["为什么它的&6合金冶炼&r造价这么夸张？！或许我们要考虑&6电弧炉&r..."]
 			id: "5CB9B68188A45C6B"
 			tasks: [{
 				id: "0F08286FDB0CAB60"
@@ -93,7 +141,7 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: -6.5d
+			y: -5.5d
 		}
 		{
 			dependencies: [
@@ -114,7 +162,11 @@
 		}
 		{
 			dependencies: ["1E239C34C36FAD60"]
-			description: ["为你的大机器提供并行！"]
+			description: [
+				"为你的大机器提供并行！"
+				""
+				"允许机器一次性以多倍功率处理多个配方，某种意义下相当于提供无损超频。"
+			]
 			id: "156E62719405A609"
 			shape: "diamond"
 			size: 1.5d
@@ -165,6 +217,7 @@
 				item: "gtceu:quantum_processor"
 				type: "item"
 			}]
+			title: "&a量子处理器"
 			x: 14.0d
 			y: -8.5d
 		}
@@ -178,6 +231,7 @@
 				item: "gtceu:quantum_processor_assembly"
 				type: "item"
 			}]
+			title: "&a量子处理器集群"
 			x: 16.0d
 			y: -8.5d
 		}
@@ -191,6 +245,7 @@
 				item: "gtceu:quantum_processor_computer"
 				type: "item"
 			}]
+			title: "&a量子处理器超级计算机"
 			x: 18.0d
 			y: -8.5d
 		}
@@ -198,13 +253,14 @@
 			dependencies: ["72C2E41EC2ACF82E"]
 			id: "1D413C9604012CBA"
 			shape: "gear"
-			size: 1.5d
+			size: 2.0d
 			subtitle: "第一个ZPM电路"
 			tasks: [{
 				id: "16CF88CD1D82721D"
 				item: "gtceu:quantum_processor_mainframe"
 				type: "item"
 			}]
+			title: "&a量子处理器主机"
 			x: 18.0d
 			y: -10.5d
 		}
@@ -266,9 +322,15 @@
 		}
 		{
 			dependencies: ["13FEF91314898EB1"]
+			description: [
+				"装配线最长17格，你可以切换EMI多方块结构中的P:0，P:1来查看最小和最大的装配线"
+				""
+				"装配线是&e有序&r的，你必须按照配方顺序给每个格子填充原料，离装配线主机&b最近&r的&6输入总线&r为配方中第一个材料"
+			]
 			id: "251002F2103BDA84"
 			shape: "gear"
 			size: 2.0d
+			subtitle: "新的组装方式"
 			tasks: [{
 				id: "0D54C1EF7D500F32"
 				item: "gtceu:assembly_line"
@@ -396,6 +458,7 @@
 			id: "5253C403ABF7BC59"
 			shape: "hexagon"
 			size: 1.5d
+			subtitle: "流体钻机的好帮手"
 			tasks: [{
 				id: "2E0FCF54D1C1103F"
 				item: "gtocore:drilling_control_center"
@@ -434,7 +497,11 @@
 		}
 		{
 			dependencies: ["251002F2103BDA84"]
-			description: ["比普通的调节范围大一倍，且可以无条件地提升机器的速度和减慢发电机的燃料消耗速度！"]
+			description: [
+				"根据游戏难度的不同有不同的调节范围，可以无条件地提升机器的速度和减慢发电机的燃料消耗速度！"
+				""
+				"&o&7所有的环境维护仓也有它们的可配置版本&r"
+			]
 			id: "56E262C94F46A592"
 			optional: true
 			shape: "diamond"
@@ -464,21 +531,20 @@
 				"4EB6838703CB5F0E"
 			]
 			description: [
-				"欢迎来到LuV阶段！"
-				""
 				"IV阶段解锁的大部分&6大批量加工机器&r都可以安装&e8个能源仓&r，这意味着你可以通过&e升压&r来直接加工本阶段的材料，而无需制造这个阶段的单方块机器——除了&6组装机&r，因为你需要一台&6LuV级别的组装机&r来制造&6至少一个整体框架(LuV)&r安装到你的&6大型组装厂&r"
 				""
-				"还需要注意的是，你的&6部件组装机&r在这个阶段已经几乎不能胜任了，你现在只能使用&6装配线&r配方"
+				"还需要注意的是，你的&6部件组装机&r在这个阶段必须进行升级才能制作更高级的部件"
 			]
 			id: "2F03D93AC7DBE58D"
 			shape: "gear"
 			size: 2.0d
-			subtitle: "你需要天马行空般的想象力"
+			subtitle: "&d你需要天马行空般的想象力"
 			tasks: [{
 				id: "4747091C4120115C"
 				item: "gtceu:luv_machine_hull"
 				type: "item"
 			}]
+			title: "欢迎来到&d剧差压&r阶段"
 			x: 10.0d
 			y: -12.0d
 		}
@@ -505,12 +571,16 @@
 				item: "gtocore:chemical_plant"
 				type: "item"
 			}]
-			x: 22.0d
+			x: 22.5d
 			y: -6.5d
 		}
 		{
 			dependencies: ["1E239C34C36FAD60"]
-			description: ["如果你遇到了很慢的配方，可以试试这个"]
+			description: [
+				"如果你遇到了很慢的配方，可以试试这个"
+				""
+				"处理阵列可以安装&6激光仓&r来进行更多次数的&e超频&r，但处理阵列每次超频获得的&e耗时减免&r&b较少&r。你可以用&c高能耗&r作为代价来获得比大型机器更快的&e处理速度&r"
+			]
 			hide_dependency_lines: true
 			id: "7B8AFBA66325BE5F"
 			shape: "hexagon"
@@ -634,6 +704,7 @@
 					type: "item"
 				}
 			]
+			title: "&9IV&r发射器和&9IV&r传感器"
 			x: 18.0d
 			y: -2.5d
 		}
@@ -642,6 +713,7 @@
 				"0F6181E3AF0A0791"
 				"159FD72C1F0AD3A0"
 			]
+			description: ["你有两条路线来制作稀土，选择你想要的一条"]
 			id: "7E7B941FF52CC0F2"
 			shape: "hexagon"
 			size: 1.5d
@@ -742,7 +814,11 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["23DB14B3093506B8"]
+			dependencies: [
+				"23DB14B3093506B8"
+				"32B3E6812521AB70"
+			]
+			description: ["该用合金冶炼炉了"]
 			id: "6176A38AA179BAF5"
 			tasks: [{
 				id: "66FEBA03CE4CF8E8"
@@ -763,7 +839,7 @@
 				item: "gtceu:fiber_reinforced_printed_circuit_board"
 				type: "item"
 			}]
-			x: 14.5d
+			x: 15.0d
 			y: -10.5d
 		}
 		{
@@ -775,7 +851,7 @@
 				item: "gtocore:tungsten_tetraboride_ceramics_flake"
 				type: "item"
 			}]
-			x: 15.5d
+			x: 16.0d
 			y: -12.0d
 		}
 		{
@@ -786,7 +862,7 @@
 				item: "gtceu:fiber_reinforced_circuit_board"
 				type: "item"
 			}]
-			x: 13.5d
+			x: 14.0d
 			y: -12.0d
 		}
 		{
@@ -810,7 +886,7 @@
 		}
 		{
 			dependencies: ["4CD7E4E23FCD3D84"]
-			description: [""]
+			description: ["别忘了穿上&bT3&r器官"]
 			id: "335934E09401C67B"
 			shape: "hexagon"
 			size: 1.5d
@@ -875,9 +951,9 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["54AC456E31D64E42"]
+			dependencies: ["2BD46F9D8A842B4A"]
 			description: [
-				"IV时代解锁了大量的多方块机器，现在有了能够负担得起的&6量子处理器集群&r，将你的单方块机器升级为大批量加工巨兽吧！"
+				"IV时代解锁了大量的&e多方块机器&r，将你的单方块机器升级为大批量加工巨兽吧！"
 				""
 				"[ \"详见\", { \"text\": \"大批量加工\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"68C24A1ED361D607\" } }, \"章节\" ]"
 			]
@@ -887,8 +963,8 @@
 				title: "大批量加工"
 				type: "checkmark"
 			}]
-			x: 16.0d
-			y: -10.5d
+			x: 8.5d
+			y: -7.0d
 		}
 		{
 			dependencies: [
@@ -951,6 +1027,8 @@
 		{
 			dependencies: ["23DB14B3093506B8"]
 			id: "1380B1134D0C1C8E"
+			shape: "diamond"
+			subtitle: "升级你的大型机器#1"
 			tasks: [{
 				id: "1EAAD9C8D9D7DEA3"
 				item: "gtocore:integral_framework_iv"
@@ -960,9 +1038,22 @@
 			y: -3.5d
 		}
 		{
-			dependencies: ["251002F2103BDA84"]
-			description: ["你可以用这个来代替过去的存储总线方案"]
+			dependencies: [
+				"251002F2103BDA84"
+				"5F522D73AF5F1B2F"
+			]
+			description: [
+				"你可以用这个来代替过去的存储总线方案"
+				""
+				"进阶版本可同时绑定&b20&r个目标，&6螺丝刀&r点击可&e切换模式&r"
+				""
+				"&6顺序模式&r：按照放入的信息卡的&e顺序&r作为优先级发送物品"
+				""
+				"&6轮询调度模式&r：往放入的信息卡&e均分&r发送以样板为单位的物品"
+			]
 			id: "029CAD5FD378D3E1"
+			optional: true
+			shape: "square"
 			subtitle: "轮椅自动化"
 			tasks: [{
 				id: "3CDD1FE8E3131DE2"
@@ -970,11 +1061,15 @@
 				type: "item"
 			}]
 			x: 22.0d
-			y: -4.5d
+			y: -8.5d
 		}
 		{
 			dependencies: ["1B8F815BF14E7AE8"]
-			description: ["催化剂仓允许你重复利用催化剂，每次使用只会消耗1点耐久而非消耗"]
+			description: [
+				"催化剂仓允许你重复利用催化剂，每次使用只会消耗&b1点&r耐久而非消耗"
+				""
+				"注意催化剂仓中只能放入由&6催化剂基底&r合成的催化剂"
+			]
 			id: "09C9709EE53D0022"
 			tasks: [
 				{
@@ -988,8 +1083,8 @@
 					type: "item"
 				}
 			]
-			x: 22.0d
-			y: -8.5d
+			x: 24.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["2BD46F9D8A842B4A"]
@@ -1005,11 +1100,16 @@
 		}
 		{
 			dependencies: ["1CF7845875EEFA3B"]
-			description: ["跨纬度传无线电"]
+			description: [
+				"跨维度传无线电"
+				""
+				"注意搭建时需要在&e每个&r需要无线电的维度都搭建一个（除了无限能源塔所在的维度），能够使用的&e最高电压&r取决于其上安装的&6整体框架&r"
+			]
 			hide_dependency_lines: true
 			id: "388D743C6BA5D995"
 			shape: "hexagon"
 			size: 1.5d
+			subtitle: "终于不需要在外星放发电机了"
 			tasks: [{
 				id: "3F3435A0F2EFDC66"
 				item: "gtocore:wireless_dimension_repeater"
@@ -1017,6 +1117,27 @@
 			}]
 			x: 3.0d
 			y: -9.0d
+		}
+		{
+			dependencies: [
+				"2964D4005BFFFADF"
+				"251002F2103BDA84"
+			]
+			description: [
+				"装配线在合成物品时，必须要先经过&e研究&r"
+				""
+				"你需要先在&6扫描仪&r中用闪存研究好后，放入&b数据仓&r中，才能让装配线解锁配方"
+				""
+				"在此之后，你还会遇到更加强大的研究仪器"
+			]
+			id: "2C9C7F2B5A15B845"
+			tasks: [{
+				id: "119A64F2F907B638"
+				item: "gtceu:data_access_hatch"
+				type: "item"
+			}]
+			x: 22.0d
+			y: -4.5d
 		}
 	]
 	subtitle: ["Tier5-IV"]

@@ -1,0 +1,13 @@
+name = "Brute force Rendering Culling"
+filename = "Brute force Rendering Culling-forge-1.20.1-0.5.12.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "f4d045e8390c71d269f5eddb24a239f690f71882"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5404096
+project-id = 996370

@@ -5,7 +5,81 @@
 	group: "2A1218851E38A2EE"
 	icon: "gtceu:luv_fusion_reactor"
 	id: "19CB76240F7730C8"
-	order_index: 7
+	images: [
+		{
+			height: 1.1d
+			image: "xtonesreworked:block/bitt/12"
+			rotation: 0.0d
+			width: 1.1d
+			x: 3.5d
+			y: -8.0d
+		}
+		{
+			color: 16711935
+			height: 1.1d
+			image: "ftbquests:block/barrier_open"
+			order: 1
+			rotation: 0.0d
+			width: 1.1d
+			x: 3.5d
+			y: -8.0d
+		}
+		{
+			height: 1.1d
+			image: "xtonesreworked:block/bitt/12"
+			rotation: 0.0d
+			width: 1.1d
+			x: 2.5d
+			y: -8.0d
+		}
+		{
+			color: 16711935
+			height: 1.1d
+			image: "ftbquests:block/barrier_open"
+			order: 1
+			rotation: 0.0d
+			width: 1.1d
+			x: 2.5d
+			y: -8.0d
+		}
+		{
+			color: 16711935
+			height: 1.1d
+			image: "ftbquests:block/barrier_open"
+			order: 1
+			rotation: 0.0d
+			width: 1.1d
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			height: 1.1d
+			image: "xtonesreworked:block/bitt/12"
+			rotation: 0.0d
+			width: 1.1d
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			height: 1.1d
+			image: "xtonesreworked:block/bitt/12"
+			rotation: 0.0d
+			width: 1.1d
+			x: 1.5d
+			y: -8.0d
+		}
+		{
+			color: 16711935
+			height: 1.1d
+			image: "ftbquests:block/barrier_open"
+			order: 1
+			rotation: 0.0d
+			width: 1.1d
+			x: 1.5d
+			y: -8.0d
+		}
+	]
+	order_index: 8
 	quest_links: [
 		{
 			id: "38BDC42D0E99D4AB"
@@ -13,14 +87,35 @@
 			shape: "gear"
 			size: 2.0d
 			x: 6.0d
-			y: -7.0d
+			y: -6.5d
 		}
 		{
 			id: "0DAFE054BF92FA6E"
 			linked_quest: "0BC456B4331C09F5"
-			shape: "diamond"
-			x: 0.5d
-			y: -7.0d
+			shape: "square"
+			x: 2.5d
+			y: -8.0d
+		}
+		{
+			id: "5F48CB73E3456910"
+			linked_quest: "430034AB98D8453B"
+			shape: "square"
+			x: 3.5d
+			y: -8.0d
+		}
+		{
+			id: "0CB3E6856E9E362B"
+			linked_quest: "17CEA439C0110AFA"
+			shape: "square"
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			id: "31FDB6095F1DCD59"
+			linked_quest: "498909CBDFB62BF6"
+			shape: "square"
+			x: 1.5d
+			y: -8.0d
 		}
 	]
 	quests: [
@@ -118,16 +213,23 @@
 		}
 		{
 			dependencies: ["2BF339EE989F9A8E"]
-			description: ["这一章节你将体验到一门独特的产线——生物线"]
+			description: [
+				"这一章节你将体验到一门独特的产线——&a生&r&2物&r&a线&r"
+				""
+				"普通的&6晶体处理器&r已经接近无机物的极限... 或许&a菌&r&2群&r可以帮我们做些计算？"
+				""
+				"在GT，所有的科技就像&a魔&r&2法&r一样"
+			]
 			id: "3490AACD4AA62C5D"
 			shape: "gear"
 			size: 2.0d
-			subtitle: "你需要天马行空般的想象力"
+			subtitle: "&c你需要天马行空般的想象力"
 			tasks: [{
 				id: "78CEB67F88F86158"
 				item: "gtceu:zpm_machine_hull"
 				type: "item"
 			}]
+			title: "欢迎来到&c零点压&r阶段"
 			x: 9.0d
 			y: -4.5d
 		}
@@ -146,26 +248,42 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["7C9C5AA8812891CC"]
+			dependencies: [
+				"7C9C5AA8812891CC"
+				"7EA0644BB352BBB5"
+			]
+			description: [
+				"装配线上直接放一个数据仓显然不能满足这么多配方的需要，因此我们提供了&6数据库&r..."
+				""
+				"数据库可以放很多数据仓，只要提供能源，都可以通过&6算力数据仓&r给装配线提供数据！"
+			]
 			id: "7AD94105147C5940"
 			shape: "hexagon"
 			size: 1.5d
+			subtitle: "并不是基于SQL"
 			tasks: [{
 				id: "7EA058E5B97398AA"
 				item: "gtceu:data_bank"
 				type: "item"
 			}]
-			x: 5.25d
+			x: 5.0d
 			y: 5.0d
 		}
 		{
 			dependencies: [
 				"742A167FA252AC44"
 				"7AD94105147C5940"
+				"777A7D91695E8720"
+			]
+			description: [
+				"把待研究物品放入转子支架即可开始研究"
+				""
+				"你需要注意研究所需电压和算力！"
 			]
 			id: "228B283B5477879B"
 			shape: "hexagon"
 			size: 1.5d
+			subtitle: "比学校机房更耐用"
 			tasks: [{
 				id: "2BF4F6E27DA97C52"
 				item: "gtceu:research_station"
@@ -197,8 +315,8 @@
 				item: "gtceu:uranium_rhodium_dinaquadide_ingot"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 7.0d
+			x: 7.5d
+			y: 3.0d
 		}
 		{
 			dependencies: [
@@ -206,7 +324,13 @@
 				"4F8C4FDB670405D1"
 				"4A5C6525DD244359"
 			]
-			description: ["需要攒够一定的能量才能开机，如果停止运行会慢慢冷却，需要下一次攒够能量才会运行"]
+			description: [
+				"&6聚变机械方块&r对于现在来说实在是太贵了！最节省的方案是：1个&b主机&r，48个&b机械方块&r，31个&b聚变玻璃&r，16个&b输入仓&r，16个&b输出仓&r，16个&b能源仓&r，&a上下堆叠&r可以节省大量机械方块！（在EMI多方块预览界面中点击P即可切换带有玻璃的形态）"
+				""
+				"需要攒够一定的能量才能开机，如果停止运行会慢慢冷却，需要下一次攒够能量才会运行"
+				""
+				"&7&o温馨小提示：你可以通过标记输出仓的过滤来保证只有一个仓会输出流体！&r"
+			]
 			hide_dependency_lines: false
 			id: "11CF6F5DE4A3CC4F"
 			shape: "gear"
@@ -218,7 +342,7 @@
 				type: "item"
 			}]
 			x: 12.0d
-			y: -7.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["20F6B937CF470863"]
@@ -230,7 +354,7 @@
 				item: "gtocore:flocculation_purification_unit"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 5.0d
 			y: 0.5d
 		}
 		{
@@ -272,7 +396,6 @@
 			id: "4B0A791FB84B1F31"
 			optional: true
 			shape: "diamond"
-			size: 1.5d
 			tasks: [{
 				id: "44A7ED330B629A00"
 				item: "gtocore:energy_injector"
@@ -300,20 +423,22 @@
 				"&7不过这也意味着有些事情变难了……&r"
 			]
 			id: "4A5C6525DD244359"
-			optional: true
 			shape: "hexagon"
 			tasks: [{
 				id: "756725990073FF1C"
 				item: "gtceu:luv_energy_input_hatch"
 				type: "item"
 			}]
-			title: "升级你的大型机器#1"
 			x: 9.0d
-			y: -7.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["11CF6F5DE4A3CC4F"]
-			description: ["速度很慢，你可能需要挂机来获得你的第一批&a铕&r"]
+			description: [
+				"速度很慢，你可能需要挂机来获得你的第一批&a铕&r"
+				""
+				"后面你可以用&e铕粉&r直接烧制成&e铕锭&r，不要忘记更新你的产线"
+			]
 			id: "7E1C35C2DE805E6B"
 			shape: "hexagon"
 			tasks: [{
@@ -322,7 +447,7 @@
 				type: "item"
 			}]
 			x: 14.5d
-			y: -7.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["7E1C35C2DE805E6B"]
@@ -340,6 +465,7 @@
 			dependencies: [
 				"05EB6CDF13762280"
 				"5BBCF715A1BDDA11"
+				"3A08E4803A895152"
 			]
 			id: "616EB11F181951BB"
 			shape: "hexagon"
@@ -348,6 +474,7 @@
 				item: "gtceu:crystal_processor"
 				type: "item"
 			}]
+			title: "&9晶体处理器"
 			x: 14.5d
 			y: -2.0d
 		}
@@ -360,6 +487,7 @@
 				item: "gtceu:crystal_processor_assembly"
 				type: "item"
 			}]
+			title: "&9晶体处理器集群"
 			x: 14.5d
 			y: 0.5d
 		}
@@ -374,6 +502,7 @@
 				item: "gtceu:crystal_processor_computer"
 				type: "item"
 			}]
+			title: "&9晶体处理器超级计算机"
 			x: 14.5d
 			y: 2.75d
 		}
@@ -382,6 +511,7 @@
 				"5A3B1B492A49AB29"
 				"228B283B5477879B"
 			]
+			description: ["晶体系列是你至今最便宜的电路之一"]
 			id: "1156B92F11DA73B6"
 			shape: "gear"
 			size: 2.0d
@@ -391,6 +521,7 @@
 				item: "gtceu:crystal_processor_mainframe"
 				type: "item"
 			}]
+			title: "&9晶体处理器主机"
 			x: 14.5d
 			y: 5.0d
 		}
@@ -420,8 +551,8 @@
 					type: "item"
 				}
 			]
-			x: 5.5d
-			y: 2.5d
+			x: 0.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["61A6D0112B0446AA"]
@@ -439,6 +570,7 @@
 				"1156B92F11DA73B6"
 				"0BB1BDBE8BB307E4"
 			]
+			description: ["别忘了&6精密组装机&r也可以执行&e组装机配方&r，而且不需要&6整体框架&r"]
 			id: "722C24B0C50641D1"
 			shape: "hexagon"
 			size: 1.5d
@@ -466,31 +598,24 @@
 		}
 		{
 			dependencies: ["722C24B0C50641D1"]
-			description: ["并行版本的超强聚变堆！"]
+			dependency_requirement: "one_completed"
+			description: [
+				"并行版本的超强聚变堆！"
+				""
+				"有史以来你做过最贵的东西，但是这值得。它能够&c极大幅&r提升你聚变的&e速度&r。"
+				""
+				"&o&7你是不是在多方块页面看到了几个新的仓室？它们在UV阶段才能够制造"
+			]
 			id: "5548E798636F52B2"
 			shape: "diamond"
-			size: 2.0d
+			size: 2.5d
 			tasks: [{
 				id: "18493B4F8D6A5E45"
 				item: "gtocore:luv_kuangbiao_one_giant_nuclear_fusion_reactor"
 				type: "item"
 			}]
-			x: 14.5d
-			y: 10.0d
-		}
-		{
-			dependencies: [
-				"251002F2103BDA84"
-				"63773B34911D0234"
-			]
-			id: "5DD3805C53BF63EB"
-			tasks: [{
-				id: "3C38A1247B258939"
-				item: "gtceu:me_pattern_buffer_proxy"
-				type: "item"
-			}]
-			x: 11.0d
-			y: 2.0d
+			x: 11.75d
+			y: 7.5d
 		}
 		{
 			dependencies: ["2F03D93AC7DBE58D"]
@@ -502,25 +627,26 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: -7.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["10F52803BCD77DA0"]
-			description: [""]
 			id: "43AB8C2F96BDEF15"
-			shape: "hexagon"
-			size: 1.5d
+			shape: "diamond"
+			subtitle: "升级你的大型机器#2"
 			tasks: [{
 				id: "0C3DF4927A31F0D1"
 				item: "gtocore:integral_framework_luv"
 				type: "item"
 			}]
-			title: "升级你的大型机器#2"
-			x: 2.5d
-			y: -9.0d
+			x: 1.0d
+			y: -6.5d
 		}
 		{
-			dependencies: ["2F03D93AC7DBE58D"]
+			dependencies: [
+				"608F56E6A187940C"
+				"05EB6CDF13762280"
+			]
 			description: ["可以替代铕作为芯片增殖的原料"]
 			hide_dependency_lines: true
 			icon: "gtceu:bacterial_sludge_bucket"
@@ -542,7 +668,9 @@
 		}
 		{
 			dependencies: ["228B283B5477879B"]
+			description: ["二级数据载体"]
 			id: "63773B34911D0234"
+			shape: "hexagon"
 			tasks: [{
 				id: "726D0A6B91C05586"
 				item: {
@@ -558,13 +686,15 @@
 		{
 			dependencies: ["63773B34911D0234"]
 			description: [
-				"艾萨线，这是一条新的矿物处理线，你需要大量的松油和乙醇来搭建这条产线"
+				"&a艾&r&e萨&r&c线&r，这是一条新的矿物处理线，你需要大量的松油和乙醇来搭建这条产线"
 				""
 				"可以跳过繁杂的产线直接产出铂处（没有钌），稀土，硅岩等一些稀有的粉"
 				""
 				"现在你有了两条矿物处理线，也许你需要想办法改进你的自动化来自动分流你的矿物！"
 			]
 			id: "3E34FFB5E5A60909"
+			shape: "hexagon"
+			size: 1.5d
 			tasks: [
 				{
 					id: "308A057FC7DD2C02"
@@ -582,9 +712,9 @@
 					type: "item"
 				}
 			]
-			title: "艾萨产线"
-			x: 11.0d
-			y: 4.0d
+			title: "艾萨线"
+			x: 10.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["20F6B937CF470863"]
@@ -675,7 +805,7 @@
 			]
 			id: "68A3CE3A60F11C88"
 			shape: "gear"
-			size: 1.25d
+			size: 1.5d
 			subtitle: "性价比之王！"
 			tasks: [{
 				id: "2A4EA12F2A1A397D"
@@ -747,8 +877,8 @@
 				item: "gtocore:polyurethaneresin_bucket"
 				type: "item"
 			}]
-			x: 17.0d
-			y: -1.0d
+			x: 19.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["0FD2B76B1608F4FA"]
@@ -779,6 +909,8 @@
 				"5DC92641E94C560D"
 			]
 			id: "6CF8EB50958B959D"
+			shape: "hexagon"
+			size: 1.5d
 			tasks: [{
 				id: "0C0BA00902FDACF5"
 				item: "gtocore:imprinted_resonatic_circuit_board"
@@ -790,36 +922,27 @@
 		{
 			dependencies: ["1156B92F11DA73B6"]
 			id: "6925C0D55D578A9A"
+			shape: "diamond"
+			size: 1.5d
 			tasks: [{
 				id: "335A69E2488138E8"
 				item: "gtocore:large_crystallization_chamber"
 				type: "item"
 			}]
 			x: 12.5d
-			y: 6.0d
-		}
-		{
-			dependencies: ["1156B92F11DA73B6"]
-			id: "68E77C6A173235DB"
-			shape: "hexagon"
-			tasks: [{
-				id: "55C371B8CEED2B3F"
-				item: "gtocore:super_particle_collider"
-				type: "item"
-			}]
-			x: 12.5d
-			y: 7.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["31F90B973A779017"]
 			id: "49EECA793E1FF66F"
 			shape: "hexagon"
+			size: 1.5d
 			tasks: [{
 				id: "5DDDA7609E78FB32"
 				item: "gtocore:decay_hastener"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 7.5d
 			y: -1.5d
 		}
 		{
@@ -844,6 +967,99 @@
 			}]
 			x: 17.0d
 			y: 1.0d
+		}
+		{
+			dependencies: ["57D5AF62A5ADAF60"]
+			id: "4EC4E151D57351F6"
+			subtitle: "什么？这里也有序列组装？"
+			tasks: [{
+				id: "55D19A2DF65BE511"
+				item: "gtocore:simple_fiber_optic_rough"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["2F03D93AC7DBE58D"]
+			hide_dependency_lines: true
+			id: "57D5AF62A5ADAF60"
+			shape: "circle"
+			tasks: [{
+				id: "78E5BA799D7F4099"
+				item: "gtocore:drawing_tower"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["7EA0644BB352BBB5"]
+			description: [
+				"你需要替换&6空组件&r为&6计算组件&r和&6冷却组件&r才能让计算机开始工作"
+				""
+				"需要注意，&b冷却组件&r必须足够，后续你还需要&e多氯联苯冷却液&r进行主动冷却，否则HPCA&e过热&r就会&c报废&r！"
+			]
+			id: "777A7D91695E8720"
+			rewards: [{
+				id: "28096F1A6396DEA0"
+				item: "gtceu:pcb_coolant_bucket"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "内置八张RTX 4090"
+			tasks: [{
+				id: "769ED527F4AE5C0D"
+				item: "gtceu:high_performance_computation_array"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["4EC4E151D57351F6"]
+			description: ["用于传输算力和数据"]
+			id: "7EA0644BB352BBB5"
+			subtitle: "正如生活所见"
+			tasks: [{
+				id: "063519DAB63EFE0A"
+				item: { Count: 64, id: "gtceu:normal_optical_pipe" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["7AD94105147C5940"]
+			description: ["后续还有其无线版本"]
+			id: "7FBA4F73F200F0D5"
+			tasks: [
+				{
+					id: "150C0D6C1F9BA6F7"
+					item: "gtceu:computation_transmitter_hatch"
+					type: "item"
+				}
+				{
+					id: "4C2312EE8EB61098"
+					item: "gtceu:computation_receiver_hatch"
+					type: "item"
+				}
+			]
+			title: "算力数据仓"
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["05EB6CDF13762280"]
+			id: "3A08E4803A895152"
+			tasks: [{
+				id: "2CBC1A13734808A5"
+				item: "gtceu:crystal_cpu"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -2.0d
 		}
 	]
 	subtitle: ["Tier6-LuV"]

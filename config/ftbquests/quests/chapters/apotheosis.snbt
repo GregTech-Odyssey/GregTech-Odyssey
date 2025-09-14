@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "apotheosis"
 	group: "48D03BA483B3FA87"
+	icon: "apotheosis:mythic_material"
 	id: "377B5361DA79AF97"
 	images: [
 		{
@@ -54,7 +55,7 @@
 			y: -1.5d
 		}
 	]
-	order_index: 5
+	order_index: 4
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -353,6 +354,7 @@
 			y: -4.5d
 		}
 		{
+			dependencies: ["1CA6E1AD1909373A"]
 			description: ["通过&c格雷科技&r的先进工艺，可高效获取&9珍宝材料&r"]
 			id: "4AF39FF336EA1BF4"
 			rewards: [{

@@ -3,105 +3,35 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "main-stoneage"
-	group: ""
+	group: "2A1218851E38A2EE"
 	icon: "minecraft:grass_block"
 	id: "2F98FBAEECC4F940"
 	order_index: 0
-	quest_links: [{
-		id: "2EFF8F212CD14656"
-		linked_quest: "20BC48DF78F11B24"
-		x: 11.0d
-		y: -2.5d
-	}]
-	quests: [
+	quest_links: [
 		{
-			dependencies: [
-				"19EFE14C82DDAB67"
-				"131CFAF95CFC993E"
-				"6517DDBE8132FA9B"
-			]
-			description: [
-				"{gto.main-stoneage.quests.3BC9246D8FD4B649.description0}"
-				""
-				"{gto.main-stoneage.quests.3BC9246D8FD4B649.description1}"
-				""
-				"{gto.main-stoneage.quests.3BC9246D8FD4B649.description2}"
-				""
-				"{gto.main-stoneage.quests.3BC9246D8FD4B649.description3}"
-				"{@pagebreak}"
-				"{gto.main-stoneage.quests.3BC9246D8FD4B649.description4}"
-				""
-				"{gto.main-stoneage.quests.3BC9246D8FD4B649.description5}"
-				""
-				"{gto.main-stoneage.quests.3BC9246D8FD4B649.description6}"
-				""
-				"{gto.main-stoneage.quests.3BC9246D8FD4B649.description7}"
-				""
-				"{gto.main-stoneage.quests.3BC9246D8FD4B649.description8}"
-			]
-			hide_dependency_lines: false
-			icon: "minecraft:grass_block"
-			id: "3BC9246D8FD4B649"
-			rewards: [
-				{
-					id: "4E02802C52E67903"
-					item: {
-						Count: 1
-						id: "minecraft:stone_shovel"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					auto: "invisible"
-					command: "/function firework:stonelaunch"
-					elevate_perms: true
-					id: "7599F8899D9783E6"
-					type: "command"
-				}
-				{
-					count: 16
-					id: "4A94831824613F91"
-					item: "gtocore:copper_coin"
-					type: "item"
-				}
-			]
-			shape: "hexagon"
+			id: "2EFF8F212CD14656"
+			linked_quest: "20BC48DF78F11B24"
+			x: 11.0d
+			y: -2.5d
+		}
+		{
+			id: "5ECDA0546ED66000"
+			linked_quest: "24C53B5FF515ACAC"
+			shape: "gear"
+			size: 2.0d
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			id: "17DA1B3DC20813FF"
+			linked_quest: "3BC9246D8FD4B649"
+			shape: "gear"
 			size: 3.0d
-			subtitle: "{gto.main-stoneage.quests.3BC9246D8FD4B649.subtitle}"
-			tasks: [{
-				id: "0BEDFF9D52A0D34C"
-				title: "{gto.main-stoneage.quests.3BC9246D8FD4B649.tasks.0BEDFF9D52A0D34C.title}"
-				type: "checkmark"
-			}]
-			title: "{gto.main-stoneage.quests.3BC9246D8FD4B649.title}"
-			x: -4.5d
+			x: -5.5d
 			y: 0.0d
 		}
-		{
-			dependencies: ["3BC9246D8FD4B649"]
-			description: ["{gto.main-stoneage.quests.5C4137F64F9ADA50.description0}"]
-			icon: "gtceu:portable_debug_scanner"
-			id: "5C4137F64F9ADA50"
-			min_width: 350
-			rewards: [{
-				id: "3CDBF3DDD07DC90A"
-				item: "botania:mana_cookie"
-				type: "item"
-			}]
-			shape: "pentagon"
-			size: 2.0d
-			subtitle: "{gto.main-stoneage.quests.5C4137F64F9ADA50.subtitle}"
-			tasks: [{
-				id: "2E7AE829275616F9"
-				title: "{gto.main-stoneage.quests.5C4137F64F9ADA50.tasks.2E7AE829275616F9.title}"
-				type: "checkmark"
-			}]
-			x: -4.5d
-			y: -3.0d
-		}
+	]
+	quests: [
 		{
 			dependencies: ["3BC9246D8FD4B649"]
 			description: ["{gto.main-stoneage.quests.00FC570B313227A1.description0}"]
@@ -435,7 +365,7 @@
 				type: "item"
 			}]
 			title: "{gto.main-stoneage.quests.561D79DE960A034D.title}"
-			x: 6.0d
+			x: 6.5d
 			y: 0.0d
 		}
 		{
@@ -444,8 +374,8 @@
 				"{gto.main-stoneage.quests.4DC482C16035F261.description0}"
 				""
 				"{gto.main-stoneage.quests.4DC482C16035F261.description1}"
-				"{gto.main-stoneage.quests.4DC482C16035F261.description2}"
-				"[ \"可以在\", { \"text\": \"摩登时代\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1CE34BD4900990C6\" } }, \"章节继续寻找升级的方式\" ]"
+				""
+				"[\"\", {\"translate\": \"gto.main-stoneage.quests.4DC482C16035F261.description2.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"1CE34BD4900990C6\"}, \"translate\": \"gto.main-stoneage.quests.4DC482C16035F261.description2.rich_text1\"}, {\"translate\": \"gto.main-stoneage.quests.4DC482C16035F261.description2.rich_text2\"}]"
 			]
 			icon: "sophisticatedbackpacks:backpack"
 			id: "4DC482C16035F261"
@@ -478,7 +408,7 @@
 				type: "item"
 			}]
 			title: "{gto.main-stoneage.quests.4DC482C16035F261.title}"
-			x: 6.0d
+			x: 6.5d
 			y: -2.0d
 		}
 		{
@@ -517,7 +447,7 @@
 				type: "item"
 			}]
 			title: "{gto.main-stoneage.quests.2403CDCD080D34B1.title}"
-			x: 6.0d
+			x: 6.5d
 			y: -3.5d
 		}
 		{
@@ -527,7 +457,7 @@
 				""
 				"{gto.main-stoneage.quests.664BDC18052B54FC.description1}"
 				""
-				"[ \"那么黏土去哪找呢？去河流边上，或者直接点，繁茂洞穴，或者再直接点，\", { \"text\": \"去买点\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0C0A2C3CC7BE0749\" } } ]"
+				"[\"\", {\"translate\": \"gto.main-stoneage.quests.664BDC18052B54FC.description2.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"0C0A2C3CC7BE0749\"}, \"translate\": \"gto.main-stoneage.quests.664BDC18052B54FC.description2.rich_text1\"}]"
 			]
 			hide_dependency_lines: true
 			icon: "minecraft:clay_ball"
@@ -580,7 +510,7 @@
 				""
 				"{gto.main-stoneage.quests.45C8A2DF9C0E5473.description2}"
 				""
-				"[ \"你现在可以看到\", { \"text\": \"矿石生成\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"23DF7BAC762AF885\" } }, \"章节内主世界矿物的分布了\" ]"
+				"[\"\", {\"translate\": \"gto.main-stoneage.quests.45C8A2DF9C0E5473.description3.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"23DF7BAC762AF885\"}, \"translate\": \"gto.main-stoneage.quests.45C8A2DF9C0E5473.description3.rich_text1\"}, {\"translate\": \"gto.main-stoneage.quests.45C8A2DF9C0E5473.description3.rich_text2\"}]"
 			]
 			icon: {
 				Count: 1
@@ -644,9 +574,9 @@
 				""
 				"{gto.main-stoneage.quests.10C397237163BFFC.description2}"
 				""
-				"[ \"我建议你用\", { \"text\": \"终端\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"07C8D75D90114580\" } }, \"来帮助你搭建\" ]"
+				"[\"\", {\"translate\": \"gto.main-stoneage.quests.10C397237163BFFC.description3.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"07C8D75D90114580\"}, \"translate\": \"gto.main-stoneage.quests.10C397237163BFFC.description3.rich_text1\"}, {\"translate\": \"gto.main-stoneage.quests.10C397237163BFFC.description3.rich_text2\"}]"
 				""
-				"{gto.main-stoneage.quests.10C397237163BFFC.description3}"
+				"{gto.main-stoneage.quests.10C397237163BFFC.description4}"
 			]
 			icon: "gtceu:coke_oven"
 			id: "10C397237163BFFC"
@@ -1079,7 +1009,7 @@
 				"{gto.main-stoneage.quests.30D4CC9142D59DBD.description2}"
 				"{gto.main-stoneage.quests.30D4CC9142D59DBD.description3}"
 				""
-				"[ \"你可以查看提示章节的\", { \"text\": \"GT工具使用手册\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1A0EA7A29CFD830D\" } } ]"
+				"[\"\", {\"translate\": \"gto.main-stoneage.quests.30D4CC9142D59DBD.description4.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"1A0EA7A29CFD830D\"}, \"translate\": \"gto.main-stoneage.quests.30D4CC9142D59DBD.description4.rich_text1\"}]"
 			]
 			icon: {
 				Count: 1
@@ -1415,7 +1345,7 @@
 			}]
 			title: "{gto.main-stoneage.quests.12116F27AB89BB58.title}"
 			x: 6.5d
-			y: 5.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["15C69E5AE559EE9B"]
@@ -1461,7 +1391,7 @@
 			]
 			title: "{gto.main-stoneage.quests.0F7F02C261EF18FA.title}"
 			x: 6.5d
-			y: 7.25d
+			y: 8.0d
 		}
 		{
 			dependencies: [
@@ -1498,8 +1428,8 @@
 				type: "item"
 			}]
 			title: "{gto.main-stoneage.quests.14A66BA5BC9DB220.title}"
-			x: 3.500000000000007d
-			y: 7.250000000000007d
+			x: 3.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["3BC9246D8FD4B649"]
@@ -1562,33 +1492,8 @@
 				item: "gtocore:simple_crafting_terminal"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 6.5d
 			y: 2.0d
-		}
-		{
-			description: [
-				"[ \"在砍下第一棵树前建议前往\", { \"text\": \"提示\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"79646E8E449D8A1A\" } }, \"章节查看提示\" ]"
-				""
-				"{gto.main-stoneage.quests.19EFE14C82DDAB67.description0}"
-			]
-			icon: "minecraft:writable_book"
-			id: "19EFE14C82DDAB67"
-			rewards: [{
-				id: "52494ADABA776912"
-				team_reward: false
-				type: "xp_levels"
-				xp_levels: 5
-			}]
-			shape: "pentagon"
-			size: 2.0d
-			subtitle: "{gto.main-stoneage.quests.19EFE14C82DDAB67.subtitle}"
-			tasks: [{
-				id: "3CF217CF2033FBD3"
-				title: "{gto.main-stoneage.quests.19EFE14C82DDAB67.tasks.3CF217CF2033FBD3.title}"
-				type: "checkmark"
-			}]
-			x: -7.5d
-			y: 0.0d
 		}
 		{
 			dependencies: ["45C8A2DF9C0E5473"]
@@ -1623,37 +1528,6 @@
 			}]
 			x: 10.0d
 			y: -2.0d
-		}
-		{
-			description: [
-				"{gto.main-stoneage.quests.131CFAF95CFC993E.description0}"
-				"{gto.main-stoneage.quests.131CFAF95CFC993E.description1}"
-				"{gto.main-stoneage.quests.131CFAF95CFC993E.description2}"
-				"{gto.main-stoneage.quests.131CFAF95CFC993E.description3}"
-				"{gto.main-stoneage.quests.131CFAF95CFC993E.description4}"
-				"{gto.main-stoneage.quests.131CFAF95CFC993E.description5}"
-				"{gto.main-stoneage.quests.131CFAF95CFC993E.description6}"
-				"{gto.main-stoneage.quests.131CFAF95CFC993E.description7}"
-				"{gto.main-stoneage.quests.131CFAF95CFC993E.description8}"
-				"{gto.main-stoneage.quests.131CFAF95CFC993E.description9}"
-			]
-			icon: "ftbquests:book"
-			id: "131CFAF95CFC993E"
-			rewards: [{
-				id: "243B015C60457AAE"
-				item: "botania:cosmetic_questgiver_mark"
-				type: "item"
-			}]
-			shape: "pentagon"
-			size: 2.0d
-			subtitle: "{gto.main-stoneage.quests.131CFAF95CFC993E.subtitle}"
-			tasks: [{
-				id: "2EE14E4430DFFAB1"
-				title: "{gto.main-stoneage.quests.131CFAF95CFC993E.tasks.2EE14E4430DFFAB1.title}"
-				type: "checkmark"
-			}]
-			x: -3.0d
-			y: 3.0d
 		}
 		{
 			dependencies: [
@@ -1911,30 +1785,6 @@
 			y: 2.0d
 		}
 		{
-			description: [
-				"{gto.main-stoneage.quests.6517DDBE8132FA9B.description0}"
-				""
-				"{gto.main-stoneage.quests.6517DDBE8132FA9B.description1}"
-			]
-			icon: "botania:cosmetic_questgiver_mark"
-			id: "6517DDBE8132FA9B"
-			rewards: [{
-				id: "79AB51C0ECD720BB"
-				item: "botania:cosmetic_wicked_eyepatch"
-				title: "{gto.main-stoneage.quests.6517DDBE8132FA9B.rewards.79AB51C0ECD720BB.title}"
-				type: "item"
-			}]
-			shape: "pentagon"
-			size: 2.0d
-			tasks: [{
-				id: "54D0ADDA55F547EA"
-				title: "{gto.main-stoneage.quests.6517DDBE8132FA9B.tasks.54D0ADDA55F547EA.title}"
-				type: "checkmark"
-			}]
-			x: -6.0d
-			y: 3.0d
-		}
-		{
 			dependencies: ["561D79DE960A034D"]
 			description: [
 				"{gto.main-stoneage.quests.20AE5EDFB6C59021.description0}"
@@ -2060,7 +1910,7 @@
 				}
 				type: "item"
 			}]
-			x: 8.0d
+			x: 8.5d
 			y: -2.0d
 		}
 		{
@@ -2133,8 +1983,8 @@
 				type: "item"
 			}]
 			title: "{gto.main-stoneage.quests.07C8D75D90114580.title}"
-			x: 3.500000000000007d
-			y: 5.0d
+			x: 3.5d
+			y: 4.5d
 		}
 		{
 			dependencies: [
@@ -2155,6 +2005,13 @@
 				"{gto.main-stoneage.quests.06FE84E75DBE704A.description6}"
 				""
 				"{gto.main-stoneage.quests.06FE84E75DBE704A.description7}"
+				"{@pagebreak}"
+				""
+				"{gto.main-stoneage.quests.06FE84E75DBE704A.description8}"
+				""
+				"{gto.main-stoneage.quests.06FE84E75DBE704A.description9}"
+				""
+				"{gto.main-stoneage.quests.06FE84E75DBE704A.description10}"
 			]
 			id: "06FE84E75DBE704A"
 			rewards: [
@@ -2192,7 +2049,7 @@
 			}]
 			title: "{gto.main-stoneage.quests.06FE84E75DBE704A.title}"
 			x: 0.0d
-			y: 5.0d
+			y: 4.5d
 		}
 		{
 			dependencies: [
@@ -2221,6 +2078,30 @@
 			title: "{gto.main-stoneage.quests.1ACA0000AE7FC80A.title}"
 			x: 10.0d
 			y: 5.0d
+		}
+		{
+			dependencies: [
+				"2E05753AF03C5608"
+				"13FBF05133D59CDC"
+			]
+			description: [
+				"{gto.main-stoneage.quests.2D9893D2C108754F.description0}"
+				""
+				"{gto.main-stoneage.quests.2D9893D2C108754F.description1}"
+				""
+				"{gto.main-stoneage.quests.2D9893D2C108754F.description2}"
+			]
+			id: "2D9893D2C108754F"
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "{gto.main-stoneage.quests.2D9893D2C108754F.subtitle}"
+			tasks: [{
+				id: "3275A7DEDC7837C1"
+				item: "gtocore:multiblock_crate"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 4.0d
 		}
 	]
 	subtitle: ["{gto.main-stoneage.subtitle0}"]

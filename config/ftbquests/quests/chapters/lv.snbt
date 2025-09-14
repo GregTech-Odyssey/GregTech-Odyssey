@@ -6,8 +6,39 @@
 	group: "2A1218851E38A2EE"
 	icon: "gtceu:electric_blast_furnace"
 	id: "4015C56C0D562D25"
-	order_index: 2
-	quest_links: [ ]
+	images: [{
+		height: 1.1d
+		image: "botania:block/alfheim_portal_swirl"
+		rotation: 0.0d
+		width: 1.1d
+		x: -4.5d
+		y: 3.0d
+	}]
+	order_index: 3
+	quest_links: [
+		{
+			id: "455E3F6F33BD24B6"
+			linked_quest: "507807175748245C"
+			shape: "gear"
+			size: 1.5d
+			x: 0.5d
+			y: -6.5d
+		}
+		{
+			id: "111C9085726F8FA6"
+			linked_quest: "018F46EE6AE97EFD"
+			shape: "square"
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			id: "24E6A7A2360C8265"
+			linked_quest: "5FCFE3D6B36CC409"
+			shape: "square"
+			x: -4.5d
+			y: 3.0d
+		}
+	]
 	quests: [
 		{
 			dependencies: ["507807175748245C"]
@@ -133,7 +164,7 @@
 			}]
 			title: "组装一切"
 			x: -3.0d
-			y: 0.75d
+			y: 0.5d
 		}
 		{
 			dependencies: [
@@ -141,9 +172,11 @@
 				"7C0B37FD464985AC"
 			]
 			description: [
-				"线圈方块在很多多方块机器内都会使用到。"
-				"更高级的线圈方块有更多更好的增益。"
-				"所以在升级多方块机器的时候，除了能源仓剩下就要着重升级线圈方块。"
+				"&6线圈方块&r在很多&e多方块机器&r内都会使用到。"
+				""
+				"更高级的线圈方块有更多更好的增益，如获得&e能耗减免&r，&e无损超频&r，以及&e增加并行&r。也有很多配方会限定线圈的等级。"
+				""
+				"所以在升级多方块机器的时候，除了升级&6能源仓&r，剩下就要着重升级&6线圈方块&r。"
 			]
 			id: "021F533355CCBABA"
 			shape: "hexagon"
@@ -156,8 +189,8 @@
 				type: "item"
 			}]
 			title: "线圈方块"
-			x: -0.75d
-			y: 1.5d
+			x: -1.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["24DABF4CEA8A4C86"]
@@ -238,8 +271,8 @@
 				item: "gtocore:liquefaction_furnace"
 				type: "item"
 			}]
-			x: -8.25d
-			y: -0.75d
+			x: -12.0d
+			y: 3.0d
 		}
 		{
 			dependencies: [
@@ -315,8 +348,8 @@
 				}
 			]
 			title: "电力高炉：一切的开端"
-			x: 2.142857142857146d
-			y: 3.0d
+			x: 2.0d
+			y: 2.5d
 		}
 		{
 			dependencies: [
@@ -327,6 +360,8 @@
 				"吁！"
 				""
 				"恭喜你得到了MV阶段的重要金属材料！"
+				""
+				"再次提醒：在目前，你需要给&6高炉&r安装&a两个&r&6LV能源仓&r来升压到MV来满足铝的&e电压要求&r，直到你可以制作更高级的能源仓"
 				""
 				"&e在进入下个阶段之前，最好检查你是否拥有足够的发电量或发电潜力&r"
 			]
@@ -374,8 +409,8 @@
 				type: "item"
 			}]
 			title: "你的第二条线缆"
-			x: 5.5d
-			y: 0.5d
+			x: 7.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["7E061DC16432D549"]
@@ -440,11 +475,11 @@
 			size: 1.5d
 			subtitle: "更上一层楼"
 			tasks: [{
-				count: 2L
 				id: "0BB67BB62513F7CD"
 				item: "gtceu:good_electronic_circuit"
 				type: "item"
 			}]
+			title: "&c优质电子电路"
 			x: -3.0d
 			y: 4.5d
 		}
@@ -459,14 +494,14 @@
 			]
 			id: "16D0242E72E868B2"
 			shape: "gear"
-			size: 1.5d
+			size: 2.0d
 			subtitle: "电路自动化！！"
 			tasks: [{
 				id: "664AC9F5FEE1CA35"
 				item: "gtceu:lv_circuit_assembler"
 				type: "item"
 			}]
-			x: -2.25d
+			x: -3.0d
 			y: 7.5d
 		}
 		{
@@ -484,46 +519,42 @@
 			y: 5.5d
 		}
 		{
-			dependencies: ["0D26129C7015E4D1"]
-			description: ["有了它，你可以制作大型蒸汽机器了，这能极大地提升你的生产效率"]
+			dependencies: [
+				"0D26129C7015E4D1"
+				"54869A710D7DC29D"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"[ \"有了它，你可以制作\", { \"text\": \"大型蒸汽机器\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"12FEAB1A9AA1BCA6\" } }, \"了，这能极大地提升你的生产效率\" ]"
+				""
+				"你也可以直接在&e商店&r中购买，或者是在探险途中找到"
+			]
+			hide_dependent_lines: true
 			id: "268C28F66FA4C91F"
-			subtitle: "大蒸汽时代！"
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "蒸汽时代再续！"
 			tasks: [{
 				id: "6DF99BFD9101B32B"
 				item: "gtocore:precision_steam_mechanism"
 				type: "item"
 			}]
 			x: 1.5d
-			y: 7.5d
+			y: 7.0d
 		}
 		{
-			dependencies: ["268C28F66FA4C91F"]
-			description: [
-				"现在你可以朝着大型蒸汽机器进发，获得更高效的生产力！"
-				""
-				"[ \"回\", { \"text\": \"蒸汽时代\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0CFABBAD568B3178\" } }, \"章节看看\" ]"
+			dependencies: [
+				"268C28F66FA4C91F"
+				"018F46EE6AE97EFD"
 			]
-			icon: "gtocore:large_steam_furnace"
-			id: "35407BF62038B942"
-			shape: "diamond"
-			size: 1.5d
-			tasks: [{
-				id: "5B9A1168E09BEEFB"
-				title: "大型蒸汽机器"
-				type: "checkmark"
-			}]
-			x: 1.5d
-			y: 9.5d
-		}
-		{
-			dependencies: ["268C28F66FA4C91F"]
 			description: [
-				"这个大家伙可以做到&2两倍&r的产出，但它&e只能执行一种配方&r"
+				"这个大家伙可以做到&2两倍&r（简单模式四倍）的产出，但它&e只能执行一种配方&r"
 				""
-				"使用前需要&e铭刻&r电路，即在它的输入总线里面放置电路板，然后打开主方块的GUI并且按下铭刻电路即可，需要16个。"
+				"使用前需要&e铭刻&r电路，即在它的输入总线里面放置需求数量的&6电路板&r，然后打开主方块的GUI并且按下铭刻电路即可。"
 			]
+			hide_dependency_lines: true
 			id: "12FEAB1A9AA1BCA6"
-			shape: "diamond"
+			shape: "hexagon"
 			size: 1.5d
 			subtitle: "解放电路生产力"
 			tasks: [{
@@ -531,8 +562,8 @@
 				item: "gtocore:large_steam_circuit_assembler"
 				type: "item"
 			}]
-			x: 3.25d
-			y: 7.5d
+			x: -11.25d
+			y: -1.5d
 		}
 		{
 			dependencies: ["507807175748245C"]
@@ -550,7 +581,7 @@
 				type: "item"
 			}]
 			title: "POWER!"
-			x: 4.0d
+			x: 5.5d
 			y: 0.5d
 		}
 		{
@@ -615,7 +646,7 @@
 			description: [
 				"这个大家伙的输入和输出都只能通过&6钢制储罐阀门&r来进行。"
 				""
-				"&6钢制储罐阀门&r的自动输出需要开口向下，但大型蒸汽储罐没有地方可以让钢制储罐阀门向下开口，所以你需要用电动泵加管道的形式将蒸汽从储罐内导出。"
+				"&6钢制储罐阀门&r的自动输出需要开口向下，但&6大型蒸汽储罐&r没有地方可以让&6钢制储罐阀门&r向下开口，所以你需要用&6蒸汽泵&r加&e管道&r的形式将蒸汽从储罐内导出。"
 			]
 			id: "4C535A516D8551F5"
 			subtitle: "你最想要的缓存"
@@ -661,24 +692,21 @@
 				type: "item"
 			}]
 			title: "激光之力！"
-			x: 8.5d
-			y: -6.0d
+			x: 7.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["33B01E889EE7E990"]
 			description: [
-				"安装输入/输出仓使多方块机器能够输入/输出流体，"
-				"而同样的，安装输入/输出总线就能够使多方块机器输入/输出物品。"
-				"在你能够制作输入/输出总成之前都必须保持这个组合！"
+				"安装&e输入/输出仓&r使多方块机器能够输入/输出&6流体&r，"
+				"而同样的，安装&e输入/输出总线&r就能够使多方块机器输入/输出&6物品&r。"
+				"在你能够制作&e输入/输出总成&r之前都必须保持这个组合！"
 				""
-				"请注意：如果没有配方对应的输出仓室，机器是不会执行配方的，它会显示“输出空间不足”以提示你解决该问题"
-				"· 例如：如果你的电力高炉没有放置输出总线，那它就不会为你炼制铝锭！"
+				"请注意：如果没有配方对应的输出仓室，机器是不会执行配方的，它会显示“输出空间不足”以提示你解决该问题· 例如：如果你的电力高炉没有放置输出总线，那它就不会为你炼制铝锭！\""
 				""
-				"提示：所有的舱室都自带自动输入/输出，你也可以用软锤关闭舱室以禁用这个功能"
+				"提示：所有的舱室都自带&e自动输入/输出&r，你也可以用软锤关闭舱室以禁用这个功能"
 			]
-			hide_dependency_lines: true
 			id: "6465CCE684E0DD3B"
-			optional: true
 			subtitle: "关系到你的产物"
 			tasks: [
 				{
@@ -703,28 +731,41 @@
 				}
 			]
 			title: "材料的输入与输出"
-			x: 3.0d
-			y: 1.5d
+			x: -0.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["6A9DFD965CA33D75"]
 			description: [
 				"本质上多方块机器的工作速度取决于能源仓所能提供的&6总功率&r"
 				""
-				"所以想加快处理速度有两个办法：增加电压和增加电流。"
+				"所以想加快处理速度有两个&b通用&r办法：增加&e电压&r和增加&e电流&r"
 				""
-				"在刚开始，你至少需要安装两个&6LV能源仓&r升压来炼制铝锭。"
+				"[\"\",{\"text\": \"想要加速机器还有很多其他方式，本章中的\",\"italic\": true,\"color\":\"gray\"}, {\"text\": \"加速仓\",\"color\":\"gray\",\"italic\": true,\"underlined\": true,\"clickEvent\": {\"action\": \"change_page\",\"value\": \"7F65A1C533ED1C3B\"}},{\"text\": \"也是其中之一。完整加速方法请前往\",\"italic\": true,\"color\":\"gray\"},{\"text\": \"提示\",\"color\":\"gray\",\"italic\": true,\"underlined\": true,\"clickEvent\": {\"action\": \"change_page\",\"value\": \"16047F3F79404251\"}},{\"text\": \"查看\",\"italic\": true,\"color\":\"gray\"}]"
+				""
+				""
+				"另外，在一台多方块机器上安装至少&a两个&r&6同等级能源仓&r（无需电流相同）可以触发机器&6升压&r，机器升压后可以执行&b高一级电压&r的配方"
+				""
+				"在刚开始，你需要给&6高炉&r安装&a两个&r&6LV能源仓&r来升压到MV来满足铝的&e电压要求&r"
 			]
+			icon: "gtceu:lv_energy_input_hatch"
 			id: "23A116C4BAE96979"
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "直接影响你配方的执行速度"
-			tasks: [{
-				count: 2L
-				id: "219C151A73A735B5"
-				item: "gtceu:lv_energy_input_hatch"
-				type: "item"
-			}]
+			subtitle: "影响机器工作电压和配方的执行速度"
+			tasks: [
+				{
+					count: 2L
+					id: "219C151A73A735B5"
+					item: "gtceu:lv_energy_input_hatch"
+					type: "item"
+				}
+				{
+					id: "06DF196295344F3C"
+					title: "请务必知晓升压规律!"
+					type: "checkmark"
+				}
+			]
 			title: "能源仓"
 			x: 0.0d
 			y: 4.5d
@@ -738,10 +779,8 @@
 				""
 				"需要额外注意的是，理论上消声仓&e不能通过除了无人机以外的任何方式来清理灰烬&r，不过除了升级你的消声仓以外，&6空气净化器&r也能大幅减少你清理消声仓的频率，减少一些痛苦……"
 			]
-			hide_dependency_lines: true
 			icon: "gtceu:maintenance_hatch"
 			id: "58434872C6EC4E32"
-			optional: true
 			subtitle: "最后要交代的琐碎话"
 			tasks: [
 				{
@@ -756,8 +795,8 @@
 				}
 			]
 			title: "功能性仓室"
-			x: 0.0d
-			y: 3.0d
+			x: -0.5d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -783,7 +822,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -8.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["2C63E85A7D29712A"]
@@ -793,7 +832,7 @@
 				item: "gtceu:annealed_copper_ingot"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 2.0d
 			y: -8.5d
 		}
 		{
@@ -807,7 +846,7 @@
 				item: "gtocore:electric_heater"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 3.5d
 			y: -8.5d
 		}
 		{
@@ -852,15 +891,15 @@
 		}
 		{
 			dependencies: ["561F5AACF437E7C5"]
-			description: ["也有多种方式获取"]
+			description: ["早期可以通过&6异丙苯，煤焦油&r等方式制取"]
 			id: "2FC66D6FAFF73E31"
 			tasks: [{
 				id: "43F3D2F87FED71D5"
 				item: "gtceu:phenol_bucket"
 				type: "item"
 			}]
-			x: -6.5d
-			y: 5.5d
+			x: -7.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["7E061DC16432D549"]
@@ -873,7 +912,7 @@
 				type: "item"
 			}]
 			x: -6.5d
-			y: 3.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["7E061DC16432D549"]
@@ -914,15 +953,15 @@
 				item: "gtocore:lava_furnace"
 				type: "item"
 			}]
-			x: -8.25d
-			y: -5.25d
+			x: -12.0d
+			y: -3.0d
 		}
 		{
 			dependencies: [
 				"6BB3386725B228D5"
 				"12F3FAEB69397980"
 			]
-			description: [""]
+			description: ["有些昂贵...值得吗？"]
 			hide_dependency_lines: true
 			id: "7FD151D808A41D6C"
 			shape: "hexagon"
@@ -933,8 +972,8 @@
 				item: "gtocore:energetic_photovoltaic_power_station"
 				type: "item"
 			}]
-			x: -8.25d
-			y: 0.75d
+			x: -10.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["12F3FAEB69397980"]
@@ -942,6 +981,8 @@
 				"厌倦了堆叠单方块发电机？"
 				""
 				"你可以在任何大量用电的地方见识一下它的POWER"
+				""
+				"使用无线电网模式无需放置动力仓"
 			]
 			hide_dependency_lines: true
 			id: "0F5CFFD0108CC61B"
@@ -952,8 +993,8 @@
 				item: "gtocore:generator_array"
 				type: "item"
 			}]
-			x: -8.25d
-			y: 2.25d
+			x: -9.0d
+			y: 3.0d
 		}
 		{
 			dependencies: [
@@ -996,8 +1037,8 @@
 				item: "gtocore:tree_growth_simulator"
 				type: "item"
 			}]
-			x: -8.25d
-			y: -2.25d
+			x: -13.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["2685D515096F5B28"]
@@ -1024,8 +1065,8 @@
 				item: "gtmthings:lv_digital_miner"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 6.75d
+			x: -5.25d
+			y: 7.5d
 		}
 		{
 			dependencies: ["23A116C4BAE96979"]
@@ -1174,8 +1215,8 @@
 				item: "gtceu:lv_emitter"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -6.0d
+			x: 5.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["507807175748245C"]
@@ -1186,11 +1227,10 @@
 				item: "gtocore:steel_emitter_base"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -7.0d
+			x: 5.5d
+			y: -8.5d
 		}
 		{
-			dependencies: ["507807175748245C"]
 			id: "7F4F5999F7A65E0F"
 			tasks: [{
 				id: "428AB01EAAFD1B6F"
@@ -1198,11 +1238,11 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: -5.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["5FBCB0C7F914D814"]
-			description: ["通过调整电路，辊轧机可以让你的锭变成单层板或者双层板"]
+			description: ["通过调整电路，辊轧机可以高效率地让你的锭变成单层板或者双层板"]
 			id: "41579A15F57773B0"
 			shape: "hexagon"
 			subtitle: "最需要尽早做出的机器"
@@ -1224,7 +1264,7 @@
 				item: "gtocore:lv_cluster"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 2.0d
 			y: -4.0d
 		}
 		{
@@ -1249,7 +1289,7 @@
 				item: "gtocore:steel_sensor_casing"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 5.5d
 			y: -4.0d
 		}
 		{
@@ -1264,8 +1304,8 @@
 				item: "gtceu:lv_sensor"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -5.0d
+			x: 5.5d
+			y: -5.5d
 		}
 		{
 			dependencies: [
@@ -1277,6 +1317,8 @@
 				"这是低压时代你能制作的无线P2P物流，拥有超模的传输速率"
 				""
 				"你还需要&6基础切割机&r得到&6末影珍珠板&r"
+				""
+				"[ \"点\", { \"text\": \"这里\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5C62ECF9AC84E023\" } }, \"获取覆盖版用法\"]"
 				""
 				"&7进入高压时代，你还能制作对应的高级版本&r"
 			]
@@ -1294,8 +1336,8 @@
 					type: "item"
 				}
 			]
-			x: 8.5d
-			y: -5.0d
+			x: 7.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["7643029900C2F8B3"]
@@ -1312,7 +1354,7 @@
 				type: "item"
 			}]
 			x: -4.5d
-			y: 2.0d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -1328,7 +1370,7 @@
 				type: "item"
 			}]
 			x: -6.0d
-			y: 2.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["14E5EF3DA1193B6F"]
@@ -1344,7 +1386,7 @@
 				item: "gtceu:lv_cutter"
 				type: "item"
 			}]
-			x: 8.5d
+			x: 7.0d
 			y: -4.0d
 		}
 		{
@@ -1392,7 +1434,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 6.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["14285E8F662204AE"]
@@ -1403,7 +1445,7 @@
 				item: "gtceu:cobalt_brass_buzz_saw_blade"
 				type: "item"
 			}]
-			x: 8.5d
+			x: 7.0d
 			y: -2.5d
 		}
 		{
@@ -1428,8 +1470,8 @@
 				item: "gtceu:lv_miner"
 				type: "item"
 			}]
-			x: 5.5d
-			y: -4.0d
+			x: 4.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["33B01E889EE7E990"]
@@ -1456,7 +1498,7 @@
 				item: "gtceu:lv_energy_output_hatch"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -1.0d
 			y: 6.0d
 		}
 		{
@@ -1472,24 +1514,6 @@
 			}]
 			x: -6.0d
 			y: 0.5d
-		}
-		{
-			dependencies: ["268C28F66FA4C91F"]
-			description: [
-				"大型蒸汽输入仓能使多方块蒸汽机器提升一级&6配方等级&r，同时具有&6超频&r能力"
-				""
-				"每提升一级超频，蒸汽消耗量提升为&24x&r，速度提升为&22x&r"
-			]
-			id: "518FEC9206E3B5A0"
-			shape: "diamond"
-			size: 1.5d
-			tasks: [{
-				id: "0FB51EB4F5C498F7"
-				item: "gtocore:large_steam_input_hatch"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 7.5d
 		}
 		{
 			dependencies: ["29896685477AA469"]
@@ -1673,8 +1697,8 @@
 				item: "gtocore:thermal_power_pump"
 				type: "item"
 			}]
-			x: -8.25d
-			y: -3.75d
+			x: -15.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["35347DE9C34F2825"]
@@ -1691,6 +1715,7 @@
 			dependencies: ["29896685477AA469"]
 			description: ["按照比例缩短&6多方块机器&r的配方处理时间，当加速仓等级&b低于&r配方等级时，加速效果将&4大幅度&r减弱"]
 			id: "7F65A1C533ED1C3B"
+			shape: "diamond"
 			subtitle: "狠狠地加速！"
 			tasks: [{
 				id: "53A559CA4372D14E"
@@ -1703,16 +1728,21 @@
 		}
 		{
 			dependencies: ["6A9DFD965CA33D75"]
-			description: ["可以安装在任意单方块机器上，以额外的能耗为代价换取更低的配方耗时"]
+			description: [
+				"可以安装在任意单方块机器和大部分多方块机器上，以额外的功率为代价换取更低的配方耗时，总能耗不变"
+				""
+				"&e注意增幅器有可能会使机器功率超过能源仓的上限，导致机器无法正常工作&r"
+			]
 			id: "1FCF7BF494F483B4"
+			shape: "diamond"
 			subtitle: "力大砖飞"
 			tasks: [{
 				id: "0258F66F419777E0"
 				item: "gtocore:lv_power_amplifiers"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 3.0d
+			x: -2.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["35347DE9C34F2825"]
@@ -1735,14 +1765,16 @@
 			description: [
 				"&l&e升级模块&r&r机制是GTO的特色之一！"
 				""
-				"在你之后获得了更好的资源之后，有一部分机器可以提供模块升级，它们允许机器添加更多能源仓，甚至有可能是加速仓或者并行仓等等"
+				"在你之后获得了更好的资源之后，有一部分机器可以提供&e模块升级&r，它们允许机器添加更多&6能源仓&r，甚至有可能是&6加速仓&r或者&6并行仓&r！"
 				""
 				"打开EMI多方块预览，点击右侧P可以查看模块升级，需要注意，&e你应当把模块加装到原来机器上，而非拆除原本机器重新建造&r！"
 				""
-				"在你进入HV获得不锈钢时，你可以为电力高炉安装升级模块"
+				"在你进入HV获得&6不锈钢&r时，你可以为电力高炉安装&e升级模块&r"
 			]
 			icon: "gtceu:stainless_steel_frame"
 			id: "39879EA8A9F79913"
+			shape: "diamond"
+			size: 1.5d
 			subtitle: "提高机器效率"
 			tasks: [
 				{
@@ -1759,7 +1791,230 @@
 				}
 			]
 			title: "升级模块"
-			x: 1.5d
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["68EFF1609132BDD4"]
+			description: [
+				"欢迎来到&b中压&r阶段！"
+				""
+				"也许你在之前的阶段都是手动搬运材料进行&e“手工作坊式”&r合成"
+				""
+				"进入中压时代，你将必须开始搭建几条必要的&e产线&r，否则你不久后会为了反复制备某一大批量需要的材料而&c非常头疼&r"
+			]
+			id: "3D1E66868544975F"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "&b你需要天马行空般的想象力"
+			tasks: [{
+				id: "314B51C49770F63A"
+				item: "gtceu:mv_machine_hull"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"020E8B707A8CF794"
+				"268C28F66FA4C91F"
+			]
+			description: [
+				"它能处理的是&d洁净矿粉&r，由&6研磨机&r处理纯净矿石而来"
+				""
+				"一般来说这条处理方式并不常见，所以一般情况下它是用于处理其他配方而并非着眼于矿物处理产线的"
+				""
+				"[ \"尤其要注意你的产物是由离心机还是\", { \"text\": \"热力离心机\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1CF899F39CC99A07\" } }, \"生产而成，两字之差距离远矣\" ]"
+			]
+			id: "1FEF25B6BDBC00D7"
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "头晕了吗？"
+			tasks: [{
+				id: "32F4C71310CC1F7D"
+				item: "gtocore:large_steam_centrifuge"
+				type: "item"
+			}]
+			title: "用力摇！"
+			x: -13.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"268C28F66FA4C91F"
+				"020E8B707A8CF794"
+			]
+			description: [
+				"它能处理的是&d粉碎矿石&r和&e纯净矿石&r，前者是直接由&6研磨机&r生产完成，后者是&6洗矿机&r处理完毕的"
+				""
+				"[ \"尤其要注意你的产物是由\", { \"text\": \"离心机\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1FEF25B6BDBC00D7\" } }, \"还是热力离心机生产而成，两字之差距离远矣\" ]"
+			]
+			id: "1CF899F39CC99A07"
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "离心机异父异母的兄弟"
+			tasks: [{
+				id: "6B662D66EAF8C624"
+				item: "gtocore:large_steam_thermal_centrifuge"
+				type: "item"
+			}]
+			title: "不仅离心，还要有点热"
+			x: -12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7ADAA0DA032918C5"
+				"268C28F66FA4C91F"
+			]
+			description: [
+				"你肯定已经发现了，卡住你矿物处理流程的最关键一环就是&6洗矿&r的流程"
+				""
+				"那么你肯定想整这个大家伙，并且让它满功率运行"
+				""
+				"然而我告诉你满功率你需要的&6蒸汽&r你目前绝无可能达成，所以还是不超频来运转吧"
+				""
+				"&432并行&r已经很够了，注意&d输出大小&r，太小的话是没办法执行某些配方的"
+			]
+			id: "241806C710FDAC27"
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "我的蒸汽都去哪了"
+			tasks: [{
+				id: "6CE077C797332677"
+				item: "gtocore:large_steam_ore_washer"
+				type: "item"
+			}]
+			title: "更大的滚筒洗衣机"
+			x: -11.25d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"411686C01CB6045F"
+				"268C28F66FA4C91F"
+			]
+			description: [
+				"[ \"用法和配置需求都跟\", { \"text\": \"右边那个家伙\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"241806C710FDAC27\" } }, \"是一样的，甚至长得也很像\" ]"
+				""
+				"不过你肯定是用来处理&6矿物&r的，其他的配方你也不会用到的"
+				""
+				"跟所有的大型蒸汽多方块一样，都是有着&432并行&r"
+			]
+			id: "0CFABBAD568B3178"
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "跟隔壁那个家伙怎么这么像"
+			tasks: [{
+				id: "0971BE2E86BE323A"
+				item: "gtocore:large_steam_bath"
+				type: "item"
+			}]
+			title: "大泳池，大容量"
+			x: -12.75d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"70166E7FA6559076"
+				"268C28F66FA4C91F"
+			]
+			description: [
+				"天空传来一声巨响，&6大型青铜熔炉&r闪亮登场！！"
+				""
+				"之前的&d8并行&r不够用？那这是&432并行&r版本！"
+				""
+				"&6大型青铜熔炉&r足以让你用到&fHV&r阶段，直到&6工业熔炉&r的并行数超过它并足以执行多次超频"
+				""
+				"即便有1.2倍处理耗时惩罚，但在当前阶段它就是&e绝对&r无敌的存在"
+			]
+			id: "713A10C0905402EB"
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "以前都过的是什么苦日子？"
+			tasks: [{
+				id: "0938A17F3C7F5500"
+				item: "gtocore:large_steam_furnace"
+				type: "item"
+			}]
+			title: "把所有的玩意儿全丢进去烧了"
+			x: -10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6AB9089FDE595716"
+				"268C28F66FA4C91F"
+			]
+			description: [
+				"用于大量产出你目前需要的合金粉"
+				""
+				"跟其他进阶蒸汽多方块一样的&d并行、蒸汽消耗和debuff&r"
+				""
+				"注意它不能执行&6液体&r参与搅拌的配方"
+			]
+			id: "2A107C5DD4BC53A3"
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "并没有在制作魔法药水"
+			tasks: [{
+				id: "03C1D260B5CFB2AD"
+				item: "gtocore:large_steam_mixer"
+				type: "item"
+			}]
+			title: "更大的锅与更大的搅拌棍"
+			x: -12.75d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"5660509FA09D2239"
+				"268C28F66FA4C91F"
+			]
+			description: [
+				"&432并行&r的多方块大机器，仅有&e1.2倍&r的处理时长惩罚，并且可通过替换&6蒸汽输入仓&r来实现处理电压的&5升级&r"
+				""
+				"&4那么古尔丹，代价是什么呢？&r"
+				""
+				"在你使用蒸汽输入仓的情况下需要提供&41000mb/t&r的蒸汽来维持满并行处理"
+			]
+			id: "740983360C14D97F"
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "这位爷，这边先请"
+			tasks: [{
+				id: "51D770B38F9704A2"
+				item: "gtocore:large_steam_crusher"
+				type: "item"
+			}]
+			title: "敲碎他们！"
+			x: -14.25d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"35AC53D6E8EE6796"
+				"268C28F66FA4C91F"
+			]
+			description: [
+				"这个大家伙不仅具有&e32并行&r，而且还可以通过升级蒸汽输入仓来产出&4副产物&r"
+				""
+				"但很明显的，&a大型蒸汽输入仓&r你现在是获取不了的，不过到了能获取它的时候，&6大型蒸汽研磨机&r依然很强力"
+				""
+				"&8&8记得准备一个足够大的输出总线&r&r"
+			]
+			id: "5F192882CBB16A9A"
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "搅碎万物...吗？"
+			tasks: [{
+				id: "0F84DA23AF506329"
+				item: "gtocore:large_steam_macerator"
+				type: "item"
+			}]
+			title: "蒸汽之力"
+			x: -9.75d
 			y: 1.5d
 		}
 	]

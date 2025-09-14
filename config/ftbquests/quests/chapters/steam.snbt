@@ -6,19 +6,107 @@
 	group: "2A1218851E38A2EE"
 	icon: "gtceu:lp_steam_solid_boiler"
 	id: "1739461D441B48C6"
-	images: [{
-		click: "command:/execute in gtocore:ancient_world run tp 0 128 0"
-		color: 10751149
-		dependency: "298BEC345930429A"
-		height: 1.5d
-		hover: ["前往远古世界"]
-		image: "minecraft:block/nether_portal"
-		rotation: 45.0d
-		width: 1.5d
-		x: 3.0d
-		y: 4.5d
-	}]
-	order_index: 0
+	images: [
+		{
+			click: "command:/execute in gtocore:ancient_world run tp 0 128 0"
+			color: 10751149
+			dependency: "298BEC345930429A"
+			height: 1.5d
+			hover: ["前往远古世界"]
+			image: "minecraft:block/nether_portal"
+			order: 1
+			rotation: 45.0d
+			width: 1.5d
+			x: 4.285714285714292d
+			y: 7.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/diamond_block"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.285714285714292d
+			y: 6.0d
+		}
+		{
+			height: 1.0d
+			image: "gtceu:block/casings/steam/bricked_steel/top"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.285714285714292d
+			y: 6.0d
+		}
+		{
+			height: 1.0d
+			image: "gtceu:block/casings/steam/bricked_steel/top"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.285714285714292d
+			y: 7.0d
+		}
+		{
+			height: 1.0d
+			image: "gtceu:block/casings/steam/bricked_steel/top"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.285714285714292d
+			y: 8.0d
+		}
+		{
+			height: 1.0d
+			image: "gtceu:block/casings/steam/bricked_steel/top"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.285714285714292d
+			y: 7.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/diamond_block"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.285714285714292d
+			y: 6.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/diamond_block"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.285714285714292d
+			y: 8.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/diamond_block"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.285714285714292d
+			y: 8.0d
+		}
+		{
+			height: 1.0d
+			image: "gtocore:block/multiblock/ancient_reactor_core/overlay_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.285714285714292d
+			y: 7.0d
+		}
+		{
+			dependency: "298BEC345930429A"
+			height: 1.0d
+			image: "xtonesreworked:block/agon/agon_block_13_black"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.285714285714292d
+			y: 7.0d
+		}
+	]
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -97,7 +185,7 @@
 			]
 			title: "望泵止渴"
 			x: -6.0d
-			y: -2.25d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -123,8 +211,8 @@
 				type: "item"
 			}]
 			title: "融合之力"
-			x: -0.75d
-			y: 0.0d
+			x: -3.0d
+			y: 2.25d
 		}
 		{
 			dependencies: ["6B2CA9AF06284789"]
@@ -151,14 +239,14 @@
 				type: "item"
 			}]
 			title: "真正的原始人炉子"
-			x: -0.75d
-			y: 3.0d
+			x: -0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["05F4015974079225"]
 			description: [
-				"&2ULV&r时代重要的超导体，现在先用来制作&6活塞"
-				"&r"
+				"&2ULV&r时代重要的超导体，现在先用来制作&6活塞&r"
+				""
 				"当然还有&5非常重要&r的&4超导线&r，你必然不会想错过它的吧？"
 			]
 			id: "604FA0DDAD1979A1"
@@ -171,8 +259,8 @@
 				type: "item"
 			}]
 			title: "超！导！体！"
-			x: 1.5d
-			y: 0.0d
+			x: -3.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["604FA0DDAD1979A1"]
@@ -185,8 +273,8 @@
 				type: "item"
 			}]
 			title: "活...塞？"
-			x: 3.0d
-			y: 0.0d
+			x: -0.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["17408BBD93A18AEC"]
@@ -199,6 +287,8 @@
 			]
 			hide_dependency_lines: false
 			id: "6E2614839731BF0D"
+			shape: "circle"
+			size: 1.0d
 			subtitle: "拯救你的研钵"
 			tasks: [{
 				id: "0C0BEB294A94D280"
@@ -206,8 +296,8 @@
 				type: "item"
 			}]
 			title: "打碎它们！"
-			x: 3.0d
-			y: -1.5d
+			x: -0.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["17408BBD93A18AEC"]
@@ -228,11 +318,11 @@
 				type: "item"
 			}]
 			title: "挤！呀！挤！"
-			x: 4.5d
-			y: 0.0d
+			x: 2.25d
+			y: 4.5d
 		}
 		{
-			dependencies: ["24C53B5FF515ACAC"]
+			dependencies: ["017D4D369784454E"]
 			description: [
 				"不仅仅是用于节省你的工具耐久，更是节省原料"
 				""
@@ -243,6 +333,7 @@
 				"&416mb/t&r的&6蒸汽&r就足够它跑满了"
 			]
 			id: "7BE51B4BC36F8B7B"
+			shape: "hexagon"
 			size: 1.5d
 			subtitle: "这不是林永健的家"
 			tasks: [{
@@ -251,8 +342,8 @@
 				type: "item"
 			}]
 			title: "大锤80，小锤40！"
-			x: -3.0d
-			y: 3.0d
+			x: 2.25d
+			y: 10.0d
 		}
 		{
 			dependencies: ["24C53B5FF515ACAC"]
@@ -306,6 +397,7 @@
 				"我建议你留着&d橡胶原木&r，因为一来它的产出并不多，二来它能在&6离心机&r里产出&6胶水&r"
 			]
 			id: "431D763E6303976B"
+			shape: "hexagon"
 			size: 1.5d
 			subtitle: "但其实也没什么区别不是吗"
 			tasks: [{
@@ -314,8 +406,8 @@
 				type: "item"
 			}]
 			title: "提取机，不是榨汁机！"
-			x: 9.0d
-			y: 9.0d
+			x: 13.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["55AAF11E1101F10F"]
@@ -355,8 +447,8 @@
 					type: "item"
 				}
 			]
-			x: 8.0d
-			y: 0.0d
+			x: 6.0d
+			y: 4.476190476190467d
 		}
 		{
 			dependencies: ["6E2614839731BF0D"]
@@ -375,8 +467,8 @@
 				type: "item"
 			}]
 			title: "更大的自动研钵"
-			x: 3.0d
-			y: -3.0d
+			x: -3.0d
+			y: 6.500000000000007d
 		}
 		{
 			dependencies: ["7BE51B4BC36F8B7B"]
@@ -390,7 +482,7 @@
 				"&r跟其他的蒸汽小机器升级版多方块一样，差不多&4250mb/t&r的&6蒸汽&r就足够它跑满并行了"
 			]
 			id: "7AEE9F9ADE58612F"
-			shape: "pentagon"
+			shape: "diamond"
 			size: 1.5d
 			subtitle: "这一下可不止80"
 			tasks: [{
@@ -399,8 +491,8 @@
 				type: "item"
 			}]
 			title: "大锤落下！"
-			x: -6.0d
-			y: 3.0d
+			x: 2.25d
+			y: 12.0d
 		}
 		{
 			dependencies: ["05F4015974079225"]
@@ -421,8 +513,8 @@
 				type: "item"
 			}]
 			title: "一锅乱炖"
-			x: -0.75d
-			y: -2.25d
+			x: -6.0d
+			y: 2.25d
 		}
 		{
 			dependencies: ["017D4D369784454E"]
@@ -441,19 +533,19 @@
 				type: "item"
 			}]
 			title: "这可不是液压机"
-			x: 4.5d
-			y: -1.5d
+			x: 2.25d
+			y: 2.25d
 		}
 		{
 			dependencies: ["32A39A427D4A3AC2"]
 			description: [
-				"在这个阶段，我建议你使用&a煤炭块&r来生产钢"
-				"因为这种方式下生产的副产物可以生成&e碳粉&r"
-				"也是碳粉前期&4唯一&r的获取途径"
+				"在这个阶段，我建议你使用&a煤炭块&r来生产钢。因为这种方式下生产的副产物可以生成&e碳粉&r，是碳粉前期的获取途径之一"
+				""
+				"&o&7另一种方法是石墨矿破碎"
 			]
 			id: "27F4D9739FE33A02"
 			shape: "gear"
-			size: 2.0d
+			size: 2.5d
 			subtitle: "真正的生产力大跃进"
 			tasks: [{
 				id: "555B0222E8133F88"
@@ -461,8 +553,8 @@
 				type: "item"
 			}]
 			title: "第一块钢锭"
-			x: 8.0d
-			y: 3.0d
+			x: 9.500000000000007d
+			y: 2.75d
 		}
 		{
 			dependencies: ["7F1CF6D7C0CA4DB2"]
@@ -479,13 +571,13 @@
 				type: "item"
 			}]
 			title: "制备玻璃......第二步！"
-			x: 13.5d
-			y: 9.0d
+			x: 15.000000000000007d
+			y: 8.5d
 		}
 		{
 			dependencies: [
 				"60396728B5CD98F7"
-				"0019A5EEEE514539"
+				"45E924DD73902E63"
 			]
 			description: [
 				"用&6合金炉&r和&6模具(块)&r来塑形玻璃，这是最后一步"
@@ -506,8 +598,8 @@
 				type: "item"
 			}]
 			title: "制备玻璃......第三步！"
-			x: 11.5d
-			y: 9.0d
+			x: 13.000000000000007d
+			y: 8.5d
 		}
 		{
 			description: [
@@ -535,8 +627,8 @@
 				}
 			]
 			title: "制备玻璃......第一步！"
-			x: 13.5d
-			y: 10.5d
+			x: 15.000000000000007d
+			y: 10.0d
 		}
 		{
 			dependencies: [
@@ -560,8 +652,8 @@
 				type: "item"
 			}]
 			title: "青涩的橡胶"
-			x: 9.0d
-			y: 7.5d
+			x: 9.5d
+			y: 10.0d
 		}
 		{
 			dependencies: [
@@ -577,8 +669,8 @@
 			]
 			hide_dependency_lines: false
 			id: "043FCD7B759853EA"
-			shape: "rsquare"
-			size: 1.5d
+			shape: "gear"
+			size: 2.0d
 			subtitle: "千辛万苦"
 			tasks: [{
 				id: "56BAACDD642EA086"
@@ -586,8 +678,8 @@
 				type: "item"
 			}]
 			title: "橡胶，终于"
-			x: 6.75d
-			y: 7.5d
+			x: 7.25d
+			y: 10.0d
 		}
 		{
 			dependencies: ["298BEC345930429A"]
@@ -600,7 +692,7 @@
 				""
 				"&r你需要准备多点，因为你需要&4很多的&r&6橡胶&r"
 			]
-			hide_dependency_lines: false
+			hide_dependency_lines: true
 			id: "2012FF7B348CC62B"
 			subtitle: "不行，一股臭鸡蛋味儿"
 			tasks: [{
@@ -609,8 +701,8 @@
 				type: "item"
 			}]
 			title: "它能拿来美容吗"
-			x: 4.5d
-			y: 7.5d
+			x: 4.75d
+			y: 10.0d
 		}
 		{
 			dependencies: ["4F1FEB6CE7C64D14"]
@@ -640,8 +732,8 @@
 				type: "dimension"
 			}]
 			title: "回到过去？"
-			x: 4.5d
-			y: 5.5d
+			x: 6.0d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -685,8 +777,8 @@
 				}
 			]
 			title: "远古反应堆"
-			x: 4.5d
-			y: 3.0d
+			x: 6.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["4A9E47C3F8DF24A3"]
@@ -707,8 +799,8 @@
 				type: "item"
 			}]
 			title: "嗯？怎么你也？"
-			x: 1.5d
-			y: 3.0d
+			x: 2.25d
+			y: 0.0d
 		}
 		{
 			dependencies: ["27F4D9739FE33A02"]
@@ -735,13 +827,13 @@
 				type: "item"
 			}]
 			title: "搅拌机，蒸汽驱动版"
-			x: 10.5d
-			y: 3.75d
+			x: 12.000000000000007d
+			y: 3.5d
 		}
 		{
 			dependencies: [
 				"60396728B5CD98F7"
-				"0019A5EEEE514539"
+				"1B8F9B41DCF638D7"
 			]
 			description: [
 				"使用&6合金炉&r和特定形状的&6模具&r来塑形玻璃，此类配方你将来会遇到很多"
@@ -756,14 +848,14 @@
 				type: "item"
 			}]
 			title: "吹个玻璃泡泡"
-			x: 13.5d
+			x: 15.000000000000007d
 			y: 5.0d
 		}
 		{
 			dependencies: ["0E4FE30F5B178EDD"]
 			description: [
-				"在你制作出第一个电路之前，你需要做一个它的前身，那就是&6粗真空管"
-				"&r"
+				"在你制作出第一个电路之前，你需要做一个它的前身，那就是&6粗真空管&r"
+				""
 				"这东西&e只有&r工作台的配方，所以我希望你准备好了足够多的材料，然后在工作台上大闹一番吧"
 			]
 			id: "7E046341CF58BB22"
@@ -774,8 +866,8 @@
 				type: "item"
 			}]
 			title: "并非电子管"
-			x: 13.5d
-			y: 3.0d
+			x: 15.000000000000007d
+			y: 2.75d
 		}
 		{
 			dependencies: [
@@ -799,7 +891,7 @@
 				type: "item"
 			}]
 			title: "原始电路板？"
-			x: 13.5d
+			x: 15.000000000000007d
 			y: 0.0d
 		}
 		{
@@ -834,17 +926,17 @@
 				}
 			]
 			title: "能抽真空的小家伙"
-			x: 13.5d
-			y: -2.25d
+			x: 15.000000000000007d
+			y: -2.0d
 		}
 		{
 			dependencies: ["043FCD7B759853EA"]
 			description: [
 				"哦？你准备用这个大家伙了吗？"
 				""
-				"有些配方无法执行的话记得看看EMI，看看配方的条件要多少&a空气"
-				"&r"
-				"ULV级别的输入仓只能支持&48B&r的空气输入，所以如果你需要更大的空气输入有两种办法：使用更多的&6输入仓&r或者制作&6无限进气仓&r"
+				"有些配方无法执行的话记得看看EMI，看看配方的条件要多少&a空气&r"
+				""
+				"&6蒸汽流体输入仓&r只能支持&16B&r的空气输入，在稍后你就可以制作&6无限进气仓&r来利用满机器的并行"
 			]
 			id: "020E8B707A8CF794"
 			shape: "diamond"
@@ -856,8 +948,8 @@
 				type: "item"
 			}]
 			title: "离心吗？"
-			x: 3.0d
-			y: 9.75d
+			x: 4.75d
+			y: 12.0d
 		}
 		{
 			dependencies: ["043FCD7B759853EA"]
@@ -880,8 +972,8 @@
 				type: "item"
 			}]
 			title: "大泳池"
-			x: 5.25d
-			y: 9.75d
+			x: 7.25d
+			y: 12.0d
 		}
 		{
 			dependencies: ["043FCD7B759853EA"]
@@ -900,8 +992,8 @@
 				type: "item"
 			}]
 			title: "滚筒洗衣机，矿物专用"
-			x: 7.5d
-			y: 9.75d
+			x: 9.5d
+			y: 12.0d
 		}
 		{
 			dependencies: ["27F4D9739FE33A02"]
@@ -920,8 +1012,8 @@
 				type: "item"
 			}]
 			title: "原矿粉碎者"
-			x: 10.5d
-			y: 2.25d
+			x: 12.000000000000007d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -997,7 +1089,7 @@
 			}]
 			title: "打折时刻！爆爆爆！"
 			x: -3.0d
-			y: 5.0d
+			y: 10.0d
 		}
 		{
 			dependencies: [
@@ -1011,7 +1103,6 @@
 				""
 				"不过合成导线的方式&e不止一条&r，多看看EMI吧！"
 			]
-			hide_dependent_lines: true
 			id: "53A8535B07FE3958"
 			rewards: [{
 				count: 7
@@ -1028,8 +1119,8 @@
 				type: "item"
 			}]
 			title: "ULV超导"
-			x: 6.0d
-			y: 1.5d
+			x: -6.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["017D4D369784454E"]
@@ -1050,8 +1141,8 @@
 				type: "item"
 			}]
 			title: "看上去有点麻烦的材料"
-			x: 6.0d
-			y: 0.0d
+			x: 4.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["27F4D9739FE33A02"]
@@ -1068,11 +1159,10 @@
 				type: "item"
 			}]
 			title: "形态变化！"
-			x: 8.0d
+			x: 9.500000000000007d
 			y: 5.0d
 		}
 		{
-			dependencies: ["24C53B5FF515ACAC"]
 			description: [
 				"希望你注意到了&6橡胶树&r并且把它们带回了家，如果没有注意到初章的任务你现在将尴尬地等待橡胶树生长"
 				""
@@ -1091,8 +1181,8 @@
 				type: "item"
 			}]
 			title: "橡胶树的宝贝产物"
-			x: 10.5d
-			y: 7.5d
+			x: 9.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["402F27D382D05FAA"]
@@ -1111,6 +1201,7 @@
 				"在加热器正面放置方块后加热器会暂停工作"
 			]
 			id: "5859702A2DF96727"
+			optional: true
 			shape: "diamond"
 			size: 1.5d
 			subtitle: "更高效也更危险的产蒸汽手段"
@@ -1127,8 +1218,8 @@
 				}
 			]
 			title: "另辟蹊径"
-			x: -6.0d
-			y: 5.0d
+			x: -3.0d
+			y: 8.25d
 		}
 		{
 			dependencies: ["17408BBD93A18AEC"]
@@ -1153,12 +1244,14 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: -1.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["13FBF05133D59CDC"]
 			description: [
 				"你会需要三个，一个用于制作&6模具(球)&r，一个用于制作&6模具(块)&r，最后一个用于制作&6模具(板)&r"
+				""
+				"目前模具只能用于&e合金炉&r，后面的阶段模具还可以用于&6流体固化器&r和&6冲压机床&r"
 				""
 				"&6模具&r都是不会消耗的，意思就是你做一个出来那你就可以一直用到&b宇&r&e宙&r&2终&r&c结"
 				""
@@ -1169,23 +1262,27 @@
 			id: "0019A5EEEE514539"
 			subtitle: "但好事成三"
 			tasks: [{
-				count: 2L
+				count: 3L
 				id: "38EFA245E5DAF1C9"
 				item: "gtceu:empty_mold"
 				type: "item"
 			}]
 			title: "模具的前身"
-			x: 11.5d
+			x: 11.25d
 			y: 5.0d
 		}
 		{
-			dependencies: ["043FCD7B759853EA"]
+			dependencies: [
+				"043FCD7B759853EA"
+				"3528806A9F4D4E7E"
+			]
 			description: [
 				"用&6合金炉&r和&6板模具&r将&6橡胶条&r塑形为&6橡胶片&r"
 				""
 				"很明显的这是&6合金炉&r的配方，你肯定需要多一台&6合金炉&r"
 				"[ \"或者一个\", { \"text\": \"多方块合金炉\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4C94E56A9270EFFB\" } }, \"的\" ]"
 			]
+			hide_dependent_lines: true
 			id: "4CC934314D14A5EA"
 			shape: "hexagon"
 			subtitle: "我需要多一台合金炉！"
@@ -1195,8 +1292,8 @@
 				type: "item"
 			}]
 			title: "片状的橡胶才是好橡胶"
-			x: 6.0d
-			y: 6.0d
+			x: 7.25d
+			y: 8.5d
 		}
 		{
 			dependencies: ["604FA0DDAD1979A1"]
@@ -1220,8 +1317,8 @@
 				type: "item"
 			}]
 			title: "你可以贴贴的导线"
-			x: 1.5d
-			y: 1.5d
+			x: -6.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["4A9E47C3F8DF24A3"]
@@ -1249,8 +1346,8 @@
 				type: "item"
 			}]
 			title: "让我们把玻璃擦干净点"
-			x: -0.75d
-			y: 5.5d
+			x: -0.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["78F56076EB6961EE"]
@@ -1266,7 +1363,7 @@
 			}]
 			title: "让物品动起来"
 			x: 1.5d
-			y: 5.5d
+			y: -3.75d
 		}
 		{
 			dependencies: ["24C53B5FF515ACAC"]
@@ -1285,8 +1382,8 @@
 				type: "item"
 			}]
 			title: "把管道密封好"
-			x: 2.642857142857146d
-			y: 7.499999999999993d
+			x: 3.5d
+			y: -3.75d
 		}
 		{
 			dependencies: ["275F142925816979"]
@@ -1306,8 +1403,8 @@
 				type: "item"
 			}]
 			title: "泥水匠"
-			x: 1.5d
-			y: 7.5d
+			x: 3.5d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -1331,11 +1428,11 @@
 				type: "item"
 			}]
 			title: "另一种流体传输方式"
-			x: -0.75d
-			y: 7.5d
+			x: 1.5d
+			y: -2.0d
 		}
 		{
-			dependencies: ["32A39A427D4A3AC2"]
+			dependencies: ["27F4D9739FE33A02"]
 			description: [
 				"虽然很酷，但这不是你现在能想的机器"
 				""
@@ -1343,7 +1440,7 @@
 			]
 			id: "15C001AF6C76B490"
 			shape: "diamond"
-			size: 3.0d
+			size: 2.0d
 			subtitle: "32层举高高炉"
 			tasks: [{
 				id: "295CD30BA23548F0"
@@ -1351,210 +1448,14 @@
 				type: "item"
 			}]
 			title: "需要大量钢？"
-			x: 10.0d
-			y: -2.0d
+			x: 9.5d
+			y: 0.0d
 		}
 		{
 			dependencies: [
-				"35AC53D6E8EE6796"
-				"268C28F66FA4C91F"
+				"402F27D382D05FAA"
+				"53A8535B07FE3958"
 			]
-			description: [
-				"这个大家伙不仅具有&e32并行&r，而且还可以通过升级蒸汽输入仓来产出&4副产物"
-				"&r"
-				"但很明显的，&a大型蒸汽输入仓&r你现在是获取不了的，不过到了能获取它的时候，&6大型蒸汽破碎机&r依然很强力"
-				""
-				"&8&8记得准备一个足够大的输出总线&r&r"
-			]
-			id: "5F192882CBB16A9A"
-			shape: "diamond"
-			size: 1.5d
-			subtitle: "搅碎万物...吗？"
-			tasks: [{
-				id: "0F84DA23AF506329"
-				item: "gtocore:large_steam_macerator"
-				type: "item"
-			}]
-			title: "蒸汽之力"
-			x: 3.0d
-			y: -4.5d
-		}
-		{
-			dependencies: [
-				"6AB9089FDE595716"
-				"268C28F66FA4C91F"
-			]
-			description: [
-				"我认为你并不会在这个阶段需要它，不过你在这个阶段也造不出这个大家伙"
-				""
-				"跟其他进阶蒸汽多方块一样的&d并行、蒸汽消耗和debuff&r"
-				""
-				"当然可能存在&6液体&r参与搅拌的配方，你需要有个&d输入仓&r来输入液体"
-			]
-			id: "2A107C5DD4BC53A3"
-			shape: "diamond"
-			size: 1.5d
-			subtitle: "并没有在制作魔法药水"
-			tasks: [{
-				id: "03C1D260B5CFB2AD"
-				item: "gtocore:large_steam_mixer"
-				type: "item"
-			}]
-			title: "更大的锅与更大的搅拌棍"
-			x: 12.0d
-			y: 3.75d
-		}
-		{
-			dependencies: [
-				"020E8B707A8CF794"
-				"268C28F66FA4C91F"
-			]
-			description: [
-				"它能处理的是&d洁净矿粉&r，由&6研磨机&r处理纯净矿石而来"
-				""
-				"一般来说这条处理方式并不常见，所以一般情况下它是用于处理其他配方而并非着眼于矿物处理产线的"
-				""
-				"[ \"尤其要注意你的产物是由离心机还是\", { \"text\": \"热力离心机\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1CF899F39CC99A07\" } }, \"生产而成，两字之差距离远矣\" ]"
-			]
-			id: "1FEF25B6BDBC00D7"
-			shape: "diamond"
-			size: 1.5d
-			subtitle: "头晕了吗？"
-			tasks: [{
-				id: "32F4C71310CC1F7D"
-				item: "gtocore:large_steam_centrifuge"
-				type: "item"
-			}]
-			title: "用力摇！"
-			x: 3.0d
-			y: 12.0d
-		}
-		{
-			dependencies: [
-				"268C28F66FA4C91F"
-				"020E8B707A8CF794"
-			]
-			description: [
-				"它能处理的是&d粉碎矿石&r和&e纯净矿石&r，前者是直接由&6研磨机&r生产完成，后者是&6洗矿机&r处理完毕的"
-				""
-				"[ \"尤其要注意你的产物是由\", { \"text\": \"离心机\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1FEF25B6BDBC00D7\" } }, \"还是热力离心机生产而成，两字之差距离远矣\" ]"
-			]
-			id: "1CF899F39CC99A07"
-			shape: "diamond"
-			size: 1.5d
-			subtitle: "离心机异父异母的兄弟"
-			tasks: [{
-				id: "6B662D66EAF8C624"
-				item: "gtocore:large_steam_thermal_centrifuge"
-				type: "item"
-			}]
-			title: "不仅离心，还要有点热"
-			x: 0.75d
-			y: 9.75d
-		}
-		{
-			dependencies: [
-				"7ADAA0DA032918C5"
-				"268C28F66FA4C91F"
-			]
-			description: [
-				"你肯定已经发现了，卡住你矿物处理流程的最关键一环就是&6洗矿&r的流程"
-				""
-				"那么你肯定想整这个大家伙，并且让它满功率运行"
-				""
-				"然而我告诉你满功率你需要的&6蒸汽&r你目前绝无可能达成，所以还是不超频来运转吧"
-				""
-				"&432并行&r已经很够了，注意&d输出大小&r，太小的话是没办法执行某些配方的"
-			]
-			id: "241806C710FDAC27"
-			shape: "diamond"
-			size: 1.5d
-			subtitle: "我的蒸汽都去哪了"
-			tasks: [{
-				id: "6CE077C797332677"
-				item: "gtocore:large_steam_ore_washer"
-				type: "item"
-			}]
-			title: "更大的滚筒洗衣机"
-			x: 7.5d
-			y: 12.0d
-		}
-		{
-			dependencies: [
-				"411686C01CB6045F"
-				"268C28F66FA4C91F"
-			]
-			description: [
-				"[ \"用法和配置需求都跟\", { \"text\": \"右边那个家伙\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"241806C710FDAC27\" } }, \"是一样的，甚至长得也很像\" ]"
-				""
-				"不过你肯定是用来处理&6矿物&r的，其他的配方你也不会用到的"
-				""
-				"跟所有的大型蒸汽多方块一样，都是有着&432并行&r"
-			]
-			id: "0CFABBAD568B3178"
-			shape: "diamond"
-			size: 1.5d
-			subtitle: "跟隔壁那个家伙怎么这么像"
-			tasks: [{
-				id: "0971BE2E86BE323A"
-				item: "gtocore:large_steam_bath"
-				type: "item"
-			}]
-			title: "大泳池，大容量"
-			x: 5.25d
-			y: 12.0d
-		}
-		{
-			dependencies: [
-				"5660509FA09D2239"
-				"268C28F66FA4C91F"
-			]
-			description: [
-				"&432并行&r的多方块大机器，仅有&e1.2倍&r的处理时长惩罚，并且可通过替换&6蒸汽输入仓&r来实现处理电压的&5升级"
-				"&r"
-				"&4那么古尔丹，代价是什么呢？&r"
-				""
-				"在你使用蒸汽输入仓的情况下需要提供&41000mb/t&r的蒸汽来维持满并行处理"
-			]
-			id: "740983360C14D97F"
-			shape: "diamond"
-			size: 1.5d
-			subtitle: "这位爷，这边先请"
-			tasks: [{
-				id: "51D770B38F9704A2"
-				item: "gtocore:large_steam_crusher"
-				type: "item"
-			}]
-			title: "敲碎他们！"
-			x: 12.0d
-			y: 2.25d
-		}
-		{
-			dependencies: ["70166E7FA6559076"]
-			description: [
-				"天空传来一声巨响，&6大型青铜熔炉&r闪亮登场！！"
-				""
-				"之前的&d8并行&r不够用？那这是&432并行&r版本！"
-				""
-				"&6大型青铜熔炉&r足以让你用到&fHV&r阶段，直到&6工业熔炉&r的并行数超过它并足以执行多次超频"
-				""
-				"即便有1.2倍处理耗时惩罚，但在当前阶段它就是&e绝对&r无敌的存在"
-			]
-			id: "713A10C0905402EB"
-			shape: "diamond"
-			size: 1.5d
-			subtitle: "以前都过的是什么苦日子？"
-			tasks: [{
-				id: "0938A17F3C7F5500"
-				item: "gtocore:large_steam_furnace"
-				type: "item"
-			}]
-			title: "把所有的玩意儿全丢进去烧了"
-			x: -3.0d
-			y: -5.25d
-		}
-		{
-			dependencies: ["402F27D382D05FAA"]
 			description: [
 				"欢迎来到超低压时代。"
 				""
@@ -1565,15 +1466,15 @@
 			id: "4678D97346E46529"
 			shape: "gear"
 			size: 2.0d
-			subtitle: "终于有电了"
+			subtitle: "&7你需要天马行空般的想象力"
 			tasks: [{
 				id: "60EC1E07571ED8BF"
 				item: "gtceu:ulv_machine_hull"
 				type: "item"
 			}]
-			title: "欢迎来到超低压时代"
+			title: "欢迎来到&7超低压&r时代"
 			x: -3.0d
-			y: 7.5d
+			y: 12.0d
 		}
 		{
 			dependencies: ["13FBF05133D59CDC"]
@@ -1596,8 +1497,8 @@
 				type: "item"
 			}]
 			title: "焦炉Pro Max版"
-			x: 9.75d
-			y: 6.5d
+			x: 11.25d
+			y: 6.75d
 		}
 		{
 			dependencies: ["13FBF05133D59CDC"]
@@ -1620,8 +1521,8 @@
 				type: "item"
 			}]
 			title: "更大的保温杯"
-			x: 8.0d
-			y: 6.5d
+			x: 9.5d
+			y: 6.75d
 		}
 		{
 			dependencies: ["13FBF05133D59CDC"]
@@ -1691,11 +1592,10 @@
 				type: "item"
 			}]
 			title: "更猛的机器们"
-			x: 7.0d
+			x: 8.0d
 			y: 5.0d
 		}
 		{
-			dependencies: ["24C53B5FF515ACAC"]
 			description: [
 				"点开&6无限粉&r的EMI就能看到制作方式："
 				""
@@ -1712,10 +1612,45 @@
 				type: "item"
 			}]
 			title: "并不无限的粉"
-			x: -1.8571428571428612d
-			y: 1.4761904761904745d
+			x: -0.5d
+			y: 2.25d
+		}
+		{
+			dependencies: ["0019A5EEEE514539"]
+			hide_dependency_lines: true
+			id: "3528806A9F4D4E7E"
+			shape: "circle"
+			tasks: [{
+				id: "7EF6796F57F2B1C6"
+				item: "gtceu:plate_casting_mold"
+				type: "item"
+			}]
+			x: 7.25d
+			y: 6.75d
+		}
+		{
+			dependencies: ["0019A5EEEE514539"]
+			id: "45E924DD73902E63"
+			tasks: [{
+				id: "7174664A7980653B"
+				item: "gtceu:block_casting_mold"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 6.75d
+		}
+		{
+			dependencies: ["0019A5EEEE514539"]
+			id: "1B8F9B41DCF638D7"
+			tasks: [{
+				id: "36D25DA08DF49180"
+				item: "gtceu:ball_casting_mold"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 5.0d
 		}
 	]
 	subtitle: ["Tier0-Steam"]
-	title: "1. 蒸汽时代"
+	title: "1. 蒸汽时代(Steam Age)"
 }

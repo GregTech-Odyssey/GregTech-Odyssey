@@ -46,7 +46,11 @@
 			y: -2.25d
 		}
 		{
-			description: [""]
+			description: [
+				"{gto.tips.quests.79646E8E449D8A1A.description0}"
+				""
+				"{gto.tips.quests.79646E8E449D8A1A.description1}"
+			]
 			icon: "minecraft:writable_book"
 			id: "79646E8E449D8A1A"
 			rewards: [{
@@ -156,7 +160,7 @@
 				type: "checkmark"
 			}]
 			title: "{gto.tips.quests.3AC0703D45900817.title}"
-			x: 3.0d
+			x: 3.75d
 			y: 0.75d
 		}
 		{
@@ -220,7 +224,7 @@
 				type: "checkmark"
 			}]
 			title: "{gto.tips.quests.1A0EA7A29CFD830D.title}"
-			x: -3.0d
+			x: -3.75d
 			y: 0.75d
 		}
 		{
@@ -247,10 +251,15 @@
 				""
 				"{gto.tips.quests.5183DB6A793BB3C6.description2}"
 				"{gto.tips.quests.5183DB6A793BB3C6.description3}"
+				"{gto.tips.quests.5183DB6A793BB3C6.description4}"
+				""
+				"{gto.tips.quests.5183DB6A793BB3C6.description5}"
 			]
 			icon: "minecraft:compass"
 			id: "5183DB6A793BB3C6"
+			shape: "pentagon"
 			size: 1.5d
+			subtitle: "{gto.tips.quests.5183DB6A793BB3C6.subtitle}"
 			tasks: [{
 				id: "29914EB1B76193EA"
 				type: "checkmark"
@@ -261,7 +270,13 @@
 		}
 		{
 			dependencies: ["79646E8E449D8A1A"]
-			description: ["{gto.tips.quests.6E81629D88D0710E.description0}"]
+			description: [
+				"{gto.tips.quests.6E81629D88D0710E.description0}"
+				""
+				"{gto.tips.quests.6E81629D88D0710E.description1}"
+				"{gto.tips.quests.6E81629D88D0710E.description2}"
+				"{gto.tips.quests.6E81629D88D0710E.description3}"
+			]
 			icon: "ae2:creative_item_cell"
 			id: "6E81629D88D0710E"
 			shape: "pentagon"
@@ -271,7 +286,7 @@
 				type: "checkmark"
 			}]
 			title: "{gto.tips.quests.6E81629D88D0710E.title}"
-			x: 2.25d
+			x: 3.75d
 			y: 2.25d
 		}
 		{
@@ -284,7 +299,9 @@
 				""
 				"{gto.tips.quests.20BC48DF78F11B24.description1}"
 				""
-				"[ \"前往\", { \"text\": \"矿石图鉴\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"23DF7BAC762AF885\" } }, \"章节查看你需要的矿石资源\" ]"
+				"{gto.tips.quests.20BC48DF78F11B24.description2}"
+				""
+				"[\"\", {\"translate\": \"gto.tips.quests.20BC48DF78F11B24.description3.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"23DF7BAC762AF885\"}, \"translate\": \"gto.tips.quests.20BC48DF78F11B24.description3.rich_text1\"}, {\"translate\": \"gto.tips.quests.20BC48DF78F11B24.description3.rich_text2\"}]"
 			]
 			icon: "gtceu:gold_indicator"
 			id: "20BC48DF78F11B24"
@@ -363,19 +380,25 @@
 				}
 			]
 			title: "{gto.tips.quests.7CAB9E890F8F91C4.title}"
-			x: -2.25d
+			x: -3.75d
 			y: 2.25d
 		}
 		{
 			dependencies: ["79646E8E449D8A1A"]
 			description: [
 				"{gto.tips.quests.113BFE54E70D14D4.description0}"
-				"{gto.tips.quests.113BFE54E70D14D4.description1}"
-				"{gto.tips.quests.113BFE54E70D14D4.description2}"
 				""
-				"{gto.tips.quests.113BFE54E70D14D4.description3}"
+				"{gto.tips.quests.113BFE54E70D14D4.description1}"
+				""
+				"{gto.tips.quests.113BFE54E70D14D4.description2}"
 			]
-			icon: "gtceu:hv_world_accelerator"
+			icon: {
+				Count: 1
+				id: "extrabotany:infinite_wine"
+				tag: {
+					brewKey: "botania:healing"
+				}
+			}
 			id: "113BFE54E70D14D4"
 			shape: "pentagon"
 			size: 1.5d
@@ -389,10 +412,7 @@
 		}
 		{
 			dependencies: ["79646E8E449D8A1A"]
-			description: [
-				"{gto.tips.quests.14BCF41FB8DAD531.description0}"
-				""
-			]
+			description: ["{gto.tips.quests.14BCF41FB8DAD531.description0}"]
 			icon: "avaritia:enhancement_core"
 			id: "14BCF41FB8DAD531"
 			rewards: [{
@@ -453,281 +473,952 @@
 				type: "checkmark"
 			}]
 			title: "{gto.tips.quests.5C62ECF9AC84E023.title}"
-			x: 0.0d
-			y: 3.0d
+			x: 2.25d
+			y: 2.25d
 		}
 		{
+			dependencies: [
+				"567EBE02182A8505"
+				"10C397237163BFFC"
+			]
+			description: [
+				"{gto.tips.quests.0B472475D703DE42.description0}"
+				""
+				"{gto.tips.quests.0B472475D703DE42.description1}"
+				""
+				"{gto.tips.quests.0B472475D703DE42.description2}"
+				"{gto.tips.quests.0B472475D703DE42.description3}"
+				""
+				"{gto.tips.quests.0B472475D703DE42.description4}"
+				""
+				"{gto.tips.quests.0B472475D703DE42.description5}"
+				"{@pagebreak}"
+				"{gto.tips.quests.0B472475D703DE42.description6}"
+			]
+			icon: "ad_astra:etrionic_blast_furnace"
+			id: "0B472475D703DE42"
+			shape: "pentagon"
+			tasks: [{
+				id: "3267200EAF6EC86E"
+				type: "checkmark"
+			}]
+			title: "{gto.tips.quests.0B472475D703DE42.title}"
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"79646E8E449D8A1A"
+				"29A2859398D5B252"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"{gto.tips.quests.329F8FA702A2CB5C.description0}"
+				""
+				"{gto.tips.quests.329F8FA702A2CB5C.description1}"
+				""
+				"{gto.tips.quests.329F8FA702A2CB5C.description2}"
+				""
+				"{gto.tips.quests.329F8FA702A2CB5C.description3}"
+			]
+			hide_dependency_lines: true
+			icon: "gtocore:conductive_alloy_single_wire"
+			id: "329F8FA702A2CB5C"
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "{gto.tips.quests.329F8FA702A2CB5C.subtitle}"
+			tasks: [
+				{
+					id: "75A876BBFFFE59CD"
+					type: "checkmark"
+				}
+				{
+					id: "02B45B6BA9A6862A"
+					item: "gtceu:copper_single_wire"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "55D3F043BB06400B"
+					item: "gtceu:copper_single_cable"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "17D8A3FD57F0AB8B"
+					item: "gtocore:energetic_alloy_single_wire"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "{gto.tips.quests.329F8FA702A2CB5C.title}"
+			x: 6.0d
+			y: -6.75d
+		}
+		{
+			dependencies: ["79646E8E449D8A1A"]
+			description: [
+				"{gto.tips.quests.16047F3F79404251.description0}"
+				""
+				"{gto.tips.quests.16047F3F79404251.description1}"
+				""
+				"{gto.tips.quests.16047F3F79404251.description2}"
+			]
+			hide_dependency_lines: true
+			icon: "gtceu:uv_world_accelerator"
+			id: "16047F3F79404251"
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "{gto.tips.quests.16047F3F79404251.subtitle}"
+			tasks: [{
+				id: "1721110131CFF627"
+				type: "checkmark"
+			}]
+			title: "{gto.tips.quests.16047F3F79404251.title}"
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["16047F3F79404251"]
+			description: [
+				"{gto.tips.quests.2AF1E09A346B5343.description0}"
+				""
+				"{gto.tips.quests.2AF1E09A346B5343.description1}"
+				""
+				"{gto.tips.quests.2AF1E09A346B5343.description2}"
+				""
+				"{gto.tips.quests.2AF1E09A346B5343.description3}"
+				""
+				"{gto.tips.quests.2AF1E09A346B5343.description4}"
+				"{@pagebreak}"
+				"{gto.tips.quests.2AF1E09A346B5343.description5}"
+				""
+				"{gto.tips.quests.2AF1E09A346B5343.description6}"
+				""
+				"{gto.tips.quests.2AF1E09A346B5343.description7}"
+				""
+				"{gto.tips.quests.2AF1E09A346B5343.description8}"
+				""
+				"{gto.tips.quests.2AF1E09A346B5343.description9}"
+				""
+				"{gto.tips.quests.2AF1E09A346B5343.description10}"
+				"{@pagebreak}"
+				"{gto.tips.quests.2AF1E09A346B5343.description11}"
+				""
+				"{gto.tips.quests.2AF1E09A346B5343.description12}"
+			]
+			hide_until_deps_complete: true
+			icon: "gtocore:ev_wireless_input_hatch_64a"
+			id: "2AF1E09A346B5343"
+			subtitle: "{gto.tips.quests.2AF1E09A346B5343.subtitle}"
+			tasks: [
+				{
+					id: "1319E28C08F96766"
+					type: "checkmark"
+				}
+				{
+					id: "758A0EE899C95585"
+					item: "gtocore:lv_energy_input_hatch_16a"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3D3AC93469A9183A"
+					item: "gtocore:ev_wireless_input_hatch_64a"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "{gto.tips.quests.2AF1E09A346B5343.title}"
+			x: 8.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"79646E8E449D8A1A"
+				"23A116C4BAE96979"
+			]
+			description: [
+				"{gto.tips.quests.71DC44EE0771E731.description0}"
+				""
+				"{gto.tips.quests.71DC44EE0771E731.description1}"
+				""
+				"{gto.tips.quests.71DC44EE0771E731.description2}"
+			]
+			hide_dependency_lines: true
+			icon: "gtceu:lv_energy_input_hatch"
+			id: "71DC44EE0771E731"
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "{gto.tips.quests.71DC44EE0771E731.subtitle}"
+			tasks: [
+				{
+					id: "70FD549C016CF3F5"
+					type: "checkmark"
+				}
+				{
+					id: "3AB80F3264F2B4BD"
+					item: "gtceu:lv_energy_input_hatch"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "{gto.tips.quests.71DC44EE0771E731.title}"
+			x: 6.0d
+			y: -3.25d
+		}
+		{
+			dependencies: ["2AF1E09A346B5343"]
+			description: [
+				"{gto.tips.quests.0DB31BBE43DB71AA.description0}"
+				""
+				"{gto.tips.quests.0DB31BBE43DB71AA.description1}"
+			]
+			hide_until_deps_complete: true
+			icon: "gtocore:advanced_assembly_line"
+			id: "0DB31BBE43DB71AA"
+			subtitle: "{gto.tips.quests.0DB31BBE43DB71AA.subtitle}"
+			tasks: [
+				{
+					id: "0A36CD3DEB0345FF"
+					type: "checkmark"
+				}
+				{
+					id: "382DA5C5FD2C3FB3"
+					item: "gtocore:advanced_assembly_line"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "081A236E1902C783"
+					item: "gtocore:iv_processing_array"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2890F09D2835FD72"
+					item: "gtocore:iv_wireless_input_hatch_4096a"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "{gto.tips.quests.0DB31BBE43DB71AA.title}"
+			x: 10.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"0DB31BBE43DB71AA"
+				"0B7507528A43F25E"
+			]
+			description: [
+				"{gto.tips.quests.55CC8C2FD72F7E8B.description0}"
+				""
+				"{gto.tips.quests.55CC8C2FD72F7E8B.description1}"
+				""
+				"{gto.tips.quests.55CC8C2FD72F7E8B.description2}"
+			]
+			hide_until_deps_complete: true
+			icon: "gtocore:uv_overclock_hatch"
+			id: "55CC8C2FD72F7E8B"
+			subtitle: "{gto.tips.quests.55CC8C2FD72F7E8B.subtitle}"
+			tasks: [
+				{
+					id: "1D0D53DD2E7F1FED"
+					type: "checkmark"
+				}
+				{
+					id: "3D28679F500F6837"
+					item: "gtocore:uv_overclock_hatch"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "{gto.tips.quests.55CC8C2FD72F7E8B.title}"
+			x: 12.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"16047F3F79404251"
+				"64642383F67CAA6F"
+			]
+			description: [
+				"{gto.tips.quests.782023097C32871D.description0}"
+				""
+				"{gto.tips.quests.782023097C32871D.description1}"
+				""
+				"{gto.tips.quests.782023097C32871D.description2}"
+			]
+			hide_until_deps_complete: true
+			icon: "gtocore:luv_power_amplifiers"
+			id: "782023097C32871D"
+			subtitle: "{gto.tips.quests.782023097C32871D.subtitle}"
+			tasks: [
+				{
+					id: "06CEAA02F45843C6"
+					type: "checkmark"
+				}
+				{
+					id: "577A50B5415D1AE6"
+					item: "gtocore:luv_power_amplifiers"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "15CCC3B27959F4BB"
+					item: "gtocore:speed_upgrade_module"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4D206610888072E9"
+					item: "gtocore:energy_upgrade_module"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "{gto.tips.quests.782023097C32871D.title}"
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"16047F3F79404251"
+				"0FE9FDD72A50DCE5"
+			]
+			description: ["{gto.tips.quests.22A8894D130AA7CC.description0}"]
+			hide_until_deps_complete: true
+			icon: "gtceu:configurable_maintenance_hatch"
+			id: "22A8894D130AA7CC"
+			subtitle: "{gto.tips.quests.22A8894D130AA7CC.subtitle}"
+			tasks: [
+				{
+					id: "212DB01446C9EA83"
+					type: "checkmark"
+				}
+				{
+					id: "68F2AB796673E805"
+					item: "gtceu:configurable_maintenance_hatch"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "{gto.tips.quests.22A8894D130AA7CC.title}"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"16047F3F79404251"
+				"156E62719405A609"
+			]
+			description: [
+				"{gto.tips.quests.22D8BA3AB5A2C44E.description0}"
+				""
+				"{gto.tips.quests.22D8BA3AB5A2C44E.description1}"
+				""
+				"{gto.tips.quests.22D8BA3AB5A2C44E.description2}"
+			]
+			hide_until_deps_complete: true
+			icon: "gtceu:iv_parallel_hatch"
+			id: "22D8BA3AB5A2C44E"
+			subtitle: "{gto.tips.quests.22D8BA3AB5A2C44E.subtitle}"
+			tasks: [
+				{
+					id: "3CC5908B5895344E"
+					type: "checkmark"
+				}
+				{
+					id: "1C147B0ECAAE92ED"
+					item: "gtceu:iv_parallel_hatch"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "{gto.tips.quests.22D8BA3AB5A2C44E.title}"
+			x: 10.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"16047F3F79404251"
+				"7F65A1C533ED1C3B"
+			]
+			description: [
+				"{gto.tips.quests.4579012E71FA6EA6.description0}"
+				""
+				"{gto.tips.quests.4579012E71FA6EA6.description1}"
+			]
+			hide_until_deps_complete: true
+			icon: "gtocore:lv_accelerate_hatch"
+			id: "4579012E71FA6EA6"
+			subtitle: "{gto.tips.quests.4579012E71FA6EA6.subtitle}"
+			tasks: [
+				{
+					id: "3E1C0BDB498D7489"
+					type: "checkmark"
+				}
+				{
+					id: "23CDE9B8EBFBD56E"
+					item: "gtocore:lv_accelerate_hatch"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "{gto.tips.quests.4579012E71FA6EA6.title}"
+			x: 8.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"16047F3F79404251"
+				"0B7507528A43F25E"
+			]
+			description: ["{gto.tips.quests.4814DB51E6676235.description0}"]
+			hide_until_deps_complete: true
+			icon: "gtocore:uv_thread_hatch"
+			id: "4814DB51E6676235"
+			subtitle: "{gto.tips.quests.4814DB51E6676235.subtitle}"
+			tasks: [
+				{
+					id: "2EDD40D9AE55AED0"
+					type: "checkmark"
+				}
+				{
+					id: "7C407A4B6D048770"
+					item: "gtocore:uv_thread_hatch"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "{gto.tips.quests.4814DB51E6676235.title}"
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"16047F3F79404251"
+				"06534664971F6E68"
+			]
+			description: ["{gto.tips.quests.7F6136A19199A3DD.description0}"]
+			hide_until_deps_complete: true
+			icon: "gtceu:cupronickel_coil_block"
+			id: "7F6136A19199A3DD"
+			subtitle: "{gto.tips.quests.7F6136A19199A3DD.subtitle}"
+			tasks: [
+				{
+					id: "1551D9F7D279868E"
+					type: "checkmark"
+				}
+				{
+					id: "0687AC20716661DB"
+					item: "gtceu:cupronickel_coil_block"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "139EEB8F7188C0C8"
+					item: "gtceu:large_chemical_reactor"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "092D38565FF1B246"
+					item: "gtocore:chemical_plant"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "54BEB1EBEB502E11"
+					item: "gtocore:chemical_complex"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3604A98668B36F04"
+					item: "gtceu:tempered_glass"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "344DD200669EE3A3"
+					item: "gtocore:integrated_vapor_deposition_system"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "{gto.tips.quests.7F6136A19199A3DD.title}"
+			x: 12.0d
+			y: -1.5d
+		}
+		{
+			description: ["{gto.tips.quests.75054AF743DC4A57.description0}"]
+			id: "75054AF743DC4A57"
+			tasks: [{
+				id: "4D2B52FE9F8C23E0"
+				type: "checkmark"
+			}]
+			title: "{gto.tips.quests.75054AF743DC4A57.title}"
+			x: 4.5d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"79646E8E449D8A1A"
+				"021F533355CCBABA"
+			]
+			description: [
+				"{gto.tips.quests.3A8D37EB45FB3854.description0}"
+				""
+				"{gto.tips.quests.3A8D37EB45FB3854.description1}"
+			]
+			hide_dependency_lines: true
+			icon: "gtceu:tempered_glass"
+			id: "3A8D37EB45FB3854"
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "{gto.tips.quests.3A8D37EB45FB3854.subtitle}"
+			tasks: [
+				{
+					id: "0A9644A2F061BE30"
+					type: "checkmark"
+				}
+				{
+					id: "20ACB731BF0C85EC"
+					item: "gtceu:cupronickel_coil_block"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "16F86F6E5F678C9E"
+					item: "gtceu:tempered_glass"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "{gto.tips.quests.3A8D37EB45FB3854.title}"
+			x: 6.0d
+			y: 0.25d
+		}
+		{
+			dependencies: [
+				"79646E8E449D8A1A"
+				"06534664971F6E68"
+			]
+			description: [
+				"{gto.tips.quests.66A5EC65322E1B8D.description0}"
+				""
+				"{gto.tips.quests.66A5EC65322E1B8D.description1}"
+				""
+				"{gto.tips.quests.66A5EC65322E1B8D.description2}"
+			]
+			hide_dependency_lines: true
+			icon: "gtceu:electric_blast_furnace"
+			id: "66A5EC65322E1B8D"
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "{gto.tips.quests.66A5EC65322E1B8D.subtitle}"
+			tasks: [{
+				id: "011CFF836A69A878"
+				type: "checkmark"
+			}]
+			title: "{gto.tips.quests.66A5EC65322E1B8D.title}"
+			x: 6.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"16047F3F79404251"
+				"1F62E1A09BEFD387"
+			]
+			description: ["{gto.tips.quests.350C91B07592819E.description0}"]
+			hide_until_deps_complete: true
+			id: "350C91B07592819E"
+			subtitle: "{gto.tips.quests.350C91B07592819E.subtitle}"
+			tasks: [{
+				id: "4D47DA43F5C9E85F"
+				item: "gtocore:space_elevator_power_module_1"
+				type: "item"
+			}]
+			title: "{gto.tips.quests.350C91B07592819E.title}"
+			x: 14.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"79646E8E449D8A1A"
+				"3EF9AF3171607009"
+			]
+			description: ["{gto.tips.quests.05B517E2B4415678.description0}"]
+			hide_dependency_lines: true
+			icon: "gtocore:iv_wireless_input_hatch_256a"
+			id: "05B517E2B4415678"
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "{gto.tips.quests.05B517E2B4415678.subtitle}"
+			tasks: [
+				{
+					id: "3F84551E3CD8AF27"
+					type: "checkmark"
+				}
+				{
+					id: "24E0F2464DC28ECD"
+					item: "gtocore:iv_wireless_input_hatch_256a"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "64411F71AA820805"
+					item: "gtocore:iv_wireless_output_hatch_256a"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "{gto.tips.quests.05B517E2B4415678.title}"
+			x: 6.0d
+			y: 3.75d
+		}
+		{
+			dependencies: ["79646E8E449D8A1A"]
+			description: [
+				"{gto.tips.quests.32C2735E505AB490.description0}"
+				""
+				"{gto.tips.quests.32C2735E505AB490.description1}"
+				""
+				"{gto.tips.quests.32C2735E505AB490.description2}"
+				""
+				"{gto.tips.quests.32C2735E505AB490.description3}"
+			]
+			id: "32C2735E505AB490"
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "{gto.tips.quests.32C2735E505AB490.subtitle}"
+			tasks: [
+				{
+					dimension: "minecraft:the_nether"
+					id: "164D6190097B6B07"
+					optional_task: true
+					type: "dimension"
+				}
+				{
+					dimension: "minecraft:the_end"
+					id: "115F73668157C661"
+					optional_task: true
+					type: "dimension"
+				}
+			]
+			title: "{gto.tips.quests.32C2735E505AB490.title}"
+			x: -2.25d
+			y: 2.25d
+		}
+		{
+			dependencies: ["79646E8E449D8A1A"]
+			description: [
+				"{gto.tips.quests.3D7C322A6DBCF085.description0}"
+				""
+				"{gto.tips.quests.3D7C322A6DBCF085.description1}"
+			]
 			icon: {
 				Count: 1
-				id: "gtceu:nanomuscle_helmet"
-				tag: { }
+				id: "gtocore:fairy_wing"
+				tag: {
+					Damage: 0
+				}
 			}
-			id: "226B4BF9F95A3C30"
-			invisible: true
-			rewards: [
+			id: "3D7C322A6DBCF085"
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "{gto.tips.quests.3D7C322A6DBCF085.subtitle}"
+			tasks: [
 				{
-					auto: "enabled"
-					id: "6A3FC73ED9CF201B"
+					id: "305197B9663DC20B"
+					type: "checkmark"
+				}
+				{
+					id: "5B0940B516A6B9C1"
 					item: {
 						Count: 1
-						id: "minecraft:golden_helmet"
+						id: "apotheosis:potion_charm"
 						tag: {
 							Damage: 0
-							Enchantments: [
-								{
-									id: "minecraft:protection"
-									lvl: 3s
-								}
-								{
-									id: "minecraft:projectile_protection"
-									lvl: 5s
-								}
-							]
-							RepairCost: 7
-							Trim: {
-								material: "minecraft:redstone"
-								pattern: "minecraft:host"
-							}
-							display: {
-								Name: "{\"text\":\"员工头盔\"}"
-							}
+							Potion: "apotheosis:flying"
 						}
 					}
-					team_reward: false
+					optional_task: true
 					type: "item"
 				}
 				{
-					auto: "enabled"
-					id: "66C9DFA30CE07AE1"
+					id: "710C8C7FCC973A83"
 					item: {
 						Count: 1
-						id: "minecraft:leather_chestplate"
+						id: "gtocore:fairy_wing"
 						tag: {
 							Damage: 0
-							Enchantments: [
-								{
-									id: "minecraft:thorns"
-									lvl: 3s
-								}
-								{
-									id: "minecraft:blast_protection"
-									lvl: 2s
-								}
-							]
-							RepairCost: 3
-							Trim: {
-								material: "minecraft:redstone"
-								pattern: "minecraft:host"
-							}
-							display: {
-								Name: "{\"text\":\"员工劳保服\"}"
-							}
 						}
 					}
-					team_reward: false
+					optional_task: true
 					type: "item"
 				}
 				{
-					auto: "enabled"
-					id: "15474BB65597BDB4"
+					id: "13A878BF3EA58F9D"
 					item: {
 						Count: 1
-						id: "minecraft:chainmail_leggings"
+						id: "gtocore:mana_steel_wing"
 						tag: {
 							Damage: 0
-							Enchantments: [
-								{
-									id: "apotheosis:rebounding"
-									lvl: 1s
-								}
-								{
-									id: "minecraft:unbreaking"
-									lvl: 2s
-								}
-							]
-							RepairCost: 7
-							Trim: {
-								material: "minecraft:redstone"
-								pattern: "minecraft:host"
-							}
-							display: {
-								Name: "{\"text\":\"员工劳动裤\"}"
-							}
 						}
 					}
-					team_reward: false
+					optional_task: true
 					type: "item"
 				}
 				{
-					auto: "enabled"
-					id: "68F87F686933EB25"
+					id: "554A0A87BE71EFFA"
+					item: "gtocore:mechanical_wing"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "704ABC8C07EF24EA"
+					item: "ars_nouveau:ritual_flight"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1D90ADED5CAD3733"
+					item: "gtocore:tier_4_eye"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3154FD67015D4521"
 					item: {
 						Count: 1
-						id: "minecraft:iron_boots"
+						id: "avaritia:infinity_chestplate"
 						tag: {
 							Damage: 0
-							Enchantments: [
-								{
-									id: "minecraft:fire_protection"
-									lvl: 5s
-								}
-								{
-									id: "minecraft:feather_falling"
-									lvl: 1s
-								}
-							]
-							RepairCost: 3
-							Trim: {
-								material: "minecraft:redstone"
-								pattern: "minecraft:host"
-							}
-							display: {
-								Name: "{\"text\":\"员工劳保靴\"}"
-							}
 						}
 					}
-					team_reward: false
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1713376FA50D65DB"
+					item: {
+						Count: 1
+						id: "gtceu:liquid_fuel_jetpack"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "1A30383B837FA8E8"
+					item: "immersive_aircraft:biplane"
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "29034BFBCFA2BA4C"
-				stat: "minecraft:deaths"
-				type: "stat"
-				value: 1
-			}]
-			title: "{gto.tips.quests.226B4BF9F95A3C30.title}"
-			x: -4.0d
-			y: 4.5d
+			title: "{gto.tips.quests.3D7C322A6DBCF085.title}"
+			x: -0.75d
+			y: 2.25d
 		}
 		{
-			icon: "ars_nouveau:blank_parchment"
-			id: "2ABDF1C7B4E1B44A"
-			invisible: true
-			rewards: [{
-				auto: "enabled"
-				id: "0B71079726A3B338"
-				item: {
-					Count: 1
-					id: "avaritia:infinity_totem"
-					tag: {
-						Damage: 98
-						RepairCost: 0
-						display: {
-							Name: "{\"text\":\"员工生活质量保障证(一次性)\"}"
-						}
-					}
-				}
-				team_reward: false
-				type: "item"
-			}]
+			dependencies: [
+				"79646E8E449D8A1A"
+				"06534664971F6E68"
+			]
+			description: [
+				"{gto.tips.quests.6A32CEF6BE50FA89.description0}"
+				""
+				"{gto.tips.quests.6A32CEF6BE50FA89.description1}"
+				""
+				"{gto.tips.quests.6A32CEF6BE50FA89.description2}"
+			]
+			hide_dependency_lines: true
+			icon: "gtceu:assembly_line"
+			id: "6A32CEF6BE50FA89"
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "{gto.tips.quests.6A32CEF6BE50FA89.subtitle}"
 			tasks: [{
-				id: "2C57CE49C88CC412"
-				stat: "minecraft:deaths"
-				type: "stat"
-				value: 5
+				id: "688C8F8EFA5E6160"
+				type: "checkmark"
 			}]
-			title: "{gto.tips.quests.2ABDF1C7B4E1B44A.title}"
-			x: -1.5d
-			y: 4.5d
+			title: "{gto.tips.quests.6A32CEF6BE50FA89.title}"
+			x: 6.0d
+			y: 2.0d
 		}
 		{
-			id: "3C10974F3E128ECA"
-			invisible: true
-			rewards: [{
-				auto: "enabled"
-				id: "698673E0044DB840"
-				item: {
-					Count: 1
-					id: "minecraft:netherite_sword"
-					tag: {
-						Damage: 0
-						Enchantments: [
-							{
-								id: "minecraft:sharpness"
-								lvl: 5s
-							}
-							{
-								id: "minecraft:smite"
-								lvl: 6s
-							}
-						]
-						RepairCost: 3
-						display: {
-							Name: "{\"text\":\"员工基础生活保障剑\"}"
-						}
-					}
-				}
-				team_reward: false
-				type: "item"
-			}]
+			dependencies: ["79646E8E449D8A1A"]
+			description: [
+				"{gto.tips.quests.2574E6B85ADAAB88.description0}"
+				""
+				"{gto.tips.quests.2574E6B85ADAAB88.description1}"
+				""
+				"{gto.tips.quests.2574E6B85ADAAB88.description2}"
+			]
+			icon: "solcarrot:food_book"
+			id: "2574E6B85ADAAB88"
+			shape: "pentagon"
+			size: 1.5d
 			tasks: [{
-				id: "14F7B7C471B635D0"
-				stat: "minecraft:deaths"
-				type: "stat"
-				value: 10
+				id: "2BF9408FBD0A95BA"
+				type: "checkmark"
 			}]
-			title: "{gto.tips.quests.3C10974F3E128ECA.title}"
-			x: 1.5d
-			y: 4.5d
+			title: "{gto.tips.quests.2574E6B85ADAAB88.title}"
+			x: 0.75d
+			y: 2.25d
 		}
 		{
-			icon: "avaritia:infinity_bow"
-			id: "71F8C203B6B0257D"
-			invisible: true
-			rewards: [
+			dependencies: [
+				"06534664971F6E68"
+				"66A5EC65322E1B8D"
+			]
+			description: [
+				"{gto.tips.quests.1A44A6A24FF9E7C3.description0}"
+				""
+				"{gto.tips.quests.1A44A6A24FF9E7C3.description1}"
+				""
+				"{gto.tips.quests.1A44A6A24FF9E7C3.description2}"
+				""
+				"{gto.tips.quests.1A44A6A24FF9E7C3.description3}"
+				""
+				"{gto.tips.quests.1A44A6A24FF9E7C3.description4}"
+				""
+				"{gto.tips.quests.1A44A6A24FF9E7C3.description5}"
+			]
+			icon: "gtceu:electric_blast_furnace"
+			id: "1A44A6A24FF9E7C3"
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "{gto.tips.quests.1A44A6A24FF9E7C3.subtitle}"
+			tasks: [{
+				id: "4881B7D1FC87C611"
+				type: "checkmark"
+			}]
+			title: "{gto.tips.quests.1A44A6A24FF9E7C3.title}"
+			x: 8.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"2964D4005BFFFADF"
+				"79646E8E449D8A1A"
+			]
+			description: [
+				"{gto.tips.quests.07B002E74C48D580.description0}"
+				""
+				"{gto.tips.quests.07B002E74C48D580.description1}"
+				""
+				"{gto.tips.quests.07B002E74C48D580.description2}"
+				""
+				"{gto.tips.quests.07B002E74C48D580.description3}"
+			]
+			hide_dependency_lines: true
+			icon: "gtceu:research_station"
+			id: "07B002E74C48D580"
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "{gto.tips.quests.07B002E74C48D580.subtitle}"
+			tasks: [
 				{
-					auto: "enabled"
-					id: "25972D9AB4F7C50A"
+					id: "7FBD418FEE223E69"
+					type: "checkmark"
+				}
+				{
+					id: "4651A03668893DDC"
 					item: {
 						Count: 1
-						id: "minecraft:bow"
-						tag: {
-							Damage: 0
-							Enchantments: [
-								{
-									id: "minecraft:infinity"
-									lvl: 1s
-								}
-								{
-									id: "minecraft:flame"
-									lvl: 1s
-								}
-								{
-									id: "minecraft:punch"
-									lvl: 3s
-								}
-								{
-									id: "minecraft:power"
-									lvl: 2s
-								}
-							]
-							RepairCost: 31
-							display: {
-								Name: "{\"text\":\"员工清扫弓\"}"
-							}
-						}
+						id: "gtceu:data_stick"
+						tag: { }
 					}
-					team_reward: false
+					optional_task: true
 					type: "item"
 				}
 				{
-					auto: "enabled"
-					id: "54421F296F91773F"
-					item: "minecraft:arrow"
-					team_reward: false
+					id: "11350CC394C5648F"
+					item: {
+						Count: 1
+						id: "gtceu:data_orb"
+						tag: { }
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2BAABB329635A670"
+					item: {
+						Count: 1
+						id: "gtceu:data_module"
+						tag: { }
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5757BE8EB0AAB059"
+					item: "gtceu:data_access_hatch"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1BB1B5DD0AD4CAE3"
+					item: "gtceu:advanced_data_access_hatch"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "674EF4661326DE37"
+					item: "gtocore:bio_data_access_hatch"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "643AF30467659CE5"
+					item: "gtceu:data_receiver_hatch"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7ABE19D1CA4290F2"
+					item: "gtceu:data_transmitter_hatch"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "37D8FB5269E69114"
+					item: "gtceu:normal_optical_pipe"
+					optional_task: true
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "2A22E196E25424F7"
-				stat: "minecraft:deaths"
-				type: "stat"
-				value: 15
-			}]
-			title: "{gto.tips.quests.71F8C203B6B0257D.title}"
-			x: 4.0d
-			y: 4.5d
+			title: "{gto.tips.quests.07B002E74C48D580.title}"
+			x: 6.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"2AF1E09A346B5343"
+				"4167ADF91EF95341"
+			]
+			description: ["{gto.tips.quests.56243643D545C27B.description0}"]
+			hide_until_deps_complete: true
+			id: "56243643D545C27B"
+			subtitle: "{gto.tips.quests.56243643D545C27B.subtitle}"
+			tasks: [
+				{
+					id: "3DE290CE26EBC75B"
+					type: "checkmark"
+				}
+				{
+					id: "3BC7D193476722E3"
+					item: "gtocore:mana_amplifier_hatch"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "{gto.tips.quests.56243643D545C27B.title}"
+			x: 10.0d
+			y: -4.5d
 		}
 	]
 	subtitle: ["{gto.tips.subtitle0}"]

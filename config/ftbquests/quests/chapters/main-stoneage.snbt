@@ -3,105 +3,35 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "main-stoneage"
-	group: ""
+	group: "2A1218851E38A2EE"
 	icon: "minecraft:grass_block"
 	id: "2F98FBAEECC4F940"
 	order_index: 0
-	quest_links: [{
-		id: "2EFF8F212CD14656"
-		linked_quest: "20BC48DF78F11B24"
-		x: 11.0d
-		y: -2.5d
-	}]
-	quests: [
+	quest_links: [
 		{
-			dependencies: [
-				"19EFE14C82DDAB67"
-				"131CFAF95CFC993E"
-				"6517DDBE8132FA9B"
-			]
-			description: [
-				"欢迎来到&n&4GregTech:Odyssey&r&r！"
-				""
-				"也许可能你从未了解过格雷科技系列，也有可能是格雷科技的资深老登，任务书将深入浅出地引导你体验所有的里程碑阶段。"
-				""
-				"本整合包较原版格雷科技系列有流程上的&2较大改动&r，所以跟着任务书走不妨是一个不错的选择。"
-				""
-				"&7不过，任务线不保证你能获得最好的流程体验，随着进程发展，你会学着如何设计并优化自己的产线，这是格雷系列最核心的乐趣。&r"
-				"{@pagebreak}"
-				"所以最开始该干什么呢？做出燧石工具，找到一片靠近水源的地方作为早期发展的基地"
-				""
-				"按 &e[Tab]&r 可以随时随地打开任务书，大多数任务完成了上一个任务之后才可以看见"
-				""
-				"&7&o&m以及有一些隐藏彩蛋任务&r"
-				""
-				"&r&4切勿&r熬夜爆肝，身体是革命的本钱！！"
-				""
-				"&9&o我们的旅程是星辰大海&r&r"
-			]
-			hide_dependency_lines: false
-			icon: "minecraft:grass_block"
-			id: "3BC9246D8FD4B649"
-			rewards: [
-				{
-					id: "4E02802C52E67903"
-					item: {
-						Count: 1
-						id: "minecraft:stone_shovel"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					auto: "invisible"
-					command: "/function firework:stonelaunch"
-					elevate_perms: true
-					id: "7599F8899D9783E6"
-					type: "command"
-				}
-				{
-					count: 16
-					id: "4A94831824613F91"
-					item: "gtocore:copper_coin"
-					type: "item"
-				}
-			]
-			shape: "hexagon"
+			id: "2EFF8F212CD14656"
+			linked_quest: "20BC48DF78F11B24"
+			x: 11.0d
+			y: -2.5d
+		}
+		{
+			id: "5ECDA0546ED66000"
+			linked_quest: "24C53B5FF515ACAC"
+			shape: "gear"
+			size: 2.0d
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			id: "17DA1B3DC20813FF"
+			linked_quest: "3BC9246D8FD4B649"
+			shape: "gear"
 			size: 3.0d
-			subtitle: "To Greg, or not GTO..."
-			tasks: [{
-				id: "0BEDFF9D52A0D34C"
-				title: "Hello World！"
-				type: "checkmark"
-			}]
-			title: "Hello World"
-			x: -4.5d
+			x: -5.5d
 			y: 0.0d
 		}
-		{
-			dependencies: ["3BC9246D8FD4B649"]
-			description: ["开发中"]
-			icon: "gtceu:portable_debug_scanner"
-			id: "5C4137F64F9ADA50"
-			min_width: 350
-			rewards: [{
-				id: "3CDBF3DDD07DC90A"
-				item: "botania:mana_cookie"
-				type: "item"
-			}]
-			shape: "pentagon"
-			size: 2.0d
-			subtitle: "电压等级对应的主要内容"
-			tasks: [{
-				id: "2E7AE829275616F9"
-				title: "关于内容"
-				type: "checkmark"
-			}]
-			x: -4.5d
-			y: -3.0d
-		}
+	]
+	quests: [
 		{
 			dependencies: ["3BC9246D8FD4B649"]
 			description: ["你要问为什么不是先砍树——你砍得动吗？"]
@@ -435,7 +365,7 @@
 				type: "item"
 			}]
 			title: "工作台"
-			x: 6.0d
+			x: 6.5d
 			y: 0.0d
 		}
 		{
@@ -443,8 +373,8 @@
 			description: [
 				"一开始你做的&6基础背包&r装不了多少东西，但也总算拯救了你的物品栏"
 				""
-				"&7Tips：终端成型建造多方块结构的时候可以把装不下的方块仓室什么的放到背包里面"
-				"&r"
+				"&7Tips：终端成型建造多方块结构的时候可以把装不下的方块仓室什么的放到背包里面&r"
+				""
 				"[ \"可以在\", { \"text\": \"摩登时代\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1CE34BD4900990C6\" } }, \"章节继续寻找升级的方式\" ]"
 			]
 			icon: "sophisticatedbackpacks:backpack"
@@ -478,7 +408,7 @@
 				type: "item"
 			}]
 			title: "背背背起了行囊"
-			x: 6.0d
+			x: 6.5d
 			y: -2.0d
 		}
 		{
@@ -517,7 +447,7 @@
 				type: "item"
 			}]
 			title: "挖穿地心！"
-			x: 6.0d
+			x: 6.5d
 			y: -3.5d
 		}
 		{
@@ -580,7 +510,7 @@
 				""
 				"&o你能连锁的上限取决于你的工具等级，等级越高能连锁的方块也就越多，如果能通电则能连锁更多的方块，详见提示章节"
 				""
-				"[ \"你现在可以看到\", { \"text\": \"矿石生成\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"23DF7BAC762AF885\" } }, \"章节内主世界矿物的分布了\" ]"
+				"[ \"你现在可以看看\", { \"text\": \"矿石生成\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"23DF7BAC762AF885\" } }, \"章节内主世界矿物的分布了\" ]"
 			]
 			icon: {
 				Count: 1
@@ -644,7 +574,7 @@
 				""
 				"焦炉产出的焦煤是正常煤炭燃烧时间的两倍，同时产出的杂酚油用来制作蒸汽时代的设备"
 				""
-				"[ \"我建议你用\", { \"text\": \"终端\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"07C8D75D90114580\" } }, \"来帮助你搭建\" ]"
+				"[ \"还在傻傻手搭多方块吗？我建议你用\", { \"text\": \"终端\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"07C8D75D90114580\" } }, \"来辅助搭建\"]"
 				""
 				"&o&8一定要多堆点焦炉，要炼钢一台可不够。"
 			]
@@ -1415,7 +1345,7 @@
 			}]
 			title: "古法炼钢"
 			x: 6.5d
-			y: 5.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["15C69E5AE559EE9B"]
@@ -1461,7 +1391,7 @@
 			]
 			title: "三星堆人"
 			x: 6.5d
-			y: 7.25d
+			y: 8.0d
 		}
 		{
 			dependencies: [
@@ -1498,8 +1428,8 @@
 				type: "item"
 			}]
 			title: "继续前进！"
-			x: 3.500000000000007d
-			y: 7.250000000000007d
+			x: 3.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["3BC9246D8FD4B649"]
@@ -1562,33 +1492,8 @@
 				item: "gtocore:simple_crafting_terminal"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 6.5d
 			y: 2.0d
-		}
-		{
-			description: [
-				"[ \"在砍下第一棵树前建议前往\", { \"text\": \"提示\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"79646E8E449D8A1A\" } }, \"章节查看提示\" ]"
-				""
-				"以更舒服的姿势体验&4Gregtech:Odyssey&r之旅！"
-			]
-			icon: "minecraft:writable_book"
-			id: "19EFE14C82DDAB67"
-			rewards: [{
-				id: "52494ADABA776912"
-				team_reward: false
-				type: "xp_levels"
-				xp_levels: 5
-			}]
-			shape: "pentagon"
-			size: 2.0d
-			subtitle: "我无法拒绝..."
-			tasks: [{
-				id: "3CF217CF2033FBD3"
-				title: "查看提示"
-				type: "checkmark"
-			}]
-			x: -7.5d
-			y: 0.0d
 		}
 		{
 			dependencies: ["45C8A2DF9C0E5473"]
@@ -1623,37 +1528,6 @@
 			}]
 			x: 10.0d
 			y: -2.0d
-		}
-		{
-			description: [
-				"-  &6&l 齿轮形边框：里程碑&r&r"
-				"    如果你到达此处，说明你迈出了关键的一步"
-				"-  &6&l 六边形边框：主线任务&r&r"
-				"    你必须一路跟循才能达成里程碑式的发展"
-				"-  &6&l菱形边框：QoL/产能任务&r&r"
-				"    这些任务虽然与主线无关，但对你的体验有极大帮助"
-				"-  &6&l 圆形边框：普通任务&r&r"
-				"    没什么好说的"
-				"-  &6&l 五边形边框：提示&r&r"
-				"    如果你遇到困难，记得看看它们"
-			]
-			icon: "ftbquests:book"
-			id: "131CFAF95CFC993E"
-			rewards: [{
-				id: "243B015C60457AAE"
-				item: "botania:cosmetic_questgiver_mark"
-				type: "item"
-			}]
-			shape: "pentagon"
-			size: 2.0d
-			subtitle: "如果你注意观察，你会发现任务的边框形状不尽相同"
-			tasks: [{
-				id: "2EE14E4430DFFAB1"
-				title: "关于任务线"
-				type: "checkmark"
-			}]
-			x: -3.0d
-			y: 3.0d
 		}
 		{
 			dependencies: [
@@ -1911,30 +1785,6 @@
 			y: 2.0d
 		}
 		{
-			description: [
-				"与前作不同，本作的所有生物根据难度得到了不同程度的加强！"
-				""
-				"小心敌对生物"
-			]
-			icon: "botania:cosmetic_questgiver_mark"
-			id: "6517DDBE8132FA9B"
-			rewards: [{
-				id: "79AB51C0ECD720BB"
-				item: "botania:cosmetic_wicked_eyepatch"
-				title: "愿中二之魂燃烧你的战意"
-				type: "item"
-			}]
-			shape: "pentagon"
-			size: 2.0d
-			tasks: [{
-				id: "54D0ADDA55F547EA"
-				title: "关于生存"
-				type: "checkmark"
-			}]
-			x: -6.0d
-			y: 3.0d
-		}
-		{
 			dependencies: ["561D79DE960A034D"]
 			description: [
 				"软锤不仅可以作为合成材料，也可以作为工具"
@@ -2060,7 +1910,7 @@
 				}
 				type: "item"
 			}]
-			x: 8.0d
+			x: 8.5d
 			y: -2.0d
 		}
 		{
@@ -2133,8 +1983,8 @@
 				type: "item"
 			}]
 			title: "多方块帮手"
-			x: 3.500000000000007d
-			y: 5.0d
+			x: 3.5d
+			y: 4.5d
 		}
 		{
 			dependencies: [
@@ -2144,7 +1994,7 @@
 			description: [
 				"高级终端功能极其强大，蹲下并右键可以看到详细的设置，这里将一一详细介绍："
 				""
-				"&c线圈等级：&r影响多方块的线圈，从0开始到17，分别是18种不同的线圈，特别注意的是17号线圈是超级热容线圈。具体的等级划分可以从里程碑章节查看"
+				"&c等级方块：&r点开右上角选择要安装的等级方块，包括但不限于玻璃，线圈，外壳等"
 				""
 				"&5重复结构次数：&r影响多方块的重复结构层数，例如装配线的长度，中子活化器的高度等。"
 				"eg.在搭建装配线的时候选择了重复结构15，则自动搭建合成配方16格的装配线"
@@ -2152,9 +2002,16 @@
 				"&e无仓室模式：&r在这个模式开启之后，可在该多方块上放置多个的功能性仓室将不会被放置，而唯一的功能性仓室则不受影响。"
 				"eg.在电力高炉上开启该模式后放置时，只会放置消声仓而不会放置输入输出仓等"
 				""
-				"&a线圈替换模式：&r模式开启后，对现有的多方块使用的时候会尝试使用背包或者AE内的符合“线圈等级”的线圈方块来进行替换"
+				"&a替换模式：&r模式开启后，对现有的多方块使用的时候会尝试使用背包或者AE内的符合的等级方块来进行替换"
 				""
 				"&b使用AE物品：&r顾名思义会使用AE的物品，前提是你身上有终端并且终端通过无线链接到了你的ME存储"
+				"{@pagebreak}"
+				""
+				"&9镜像搭建：&r将多方块左右镜像搭建"
+				""
+				"&2模块搭建：&r仅搭建对应多方块的附属模块"
+				""
+				"&4拆除模式：&r拆除搭建好的多方块"
 			]
 			id: "06FE84E75DBE704A"
 			rewards: [
@@ -2174,7 +2031,7 @@
 			]
 			shape: "pentagon"
 			size: 2.0d
-			subtitle: "无与伦比"
+			subtitle: "Ter-100-EX全能型终端"
 			tasks: [{
 				id: "53F78DFB0490C85C"
 				item: {
@@ -2192,7 +2049,7 @@
 			}]
 			title: "更强更大"
 			x: 0.0d
-			y: 5.0d
+			y: 4.5d
 		}
 		{
 			dependencies: [
@@ -2222,7 +2079,31 @@
 			x: 10.0d
 			y: 5.0d
 		}
+		{
+			dependencies: [
+				"2E05753AF03C5608"
+				"13FBF05133D59CDC"
+			]
+			description: [
+				"这是你在能够使用AE之前最大的存储容器了"
+				""
+				"建议配合&6简易合成终端&r使用"
+				""
+				"到能做出钢的时候再来找它吧"
+			]
+			id: "2D9893D2C108754F"
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "箱子装不下了"
+			tasks: [{
+				id: "3275A7DEDC7837C1"
+				item: "gtocore:multiblock_crate"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 4.0d
+		}
 	]
 	subtitle: ["Hello World!"]
-	title: "由此开始"
+	title: "0.石器时代(Stone Age)"
 }

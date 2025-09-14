@@ -15,7 +15,7 @@
 				""
 				"众所周知 Minecraft 有区块加载机制，当玩家离开区块一段时间之后区块就会暂停加载——那机器也就没法持续运行了"
 				""
-				"所以为了你的基地的正常运行，确保你的基地区块全部认领且&c强制加载&r"
+				"所以为了你的基地的正常运行，确保你的基地区块&6全部认领&r且&c强制加载&r"
 				""
 				"&7点击翻页查看操作&r"
 				""
@@ -46,7 +46,11 @@
 			y: -2.25d
 		}
 		{
-			description: [""]
+			description: [
+				"常回来看看，这里收集了大部分关于游戏机制的技巧与提示！"
+				""
+				"右边单独列出的机制随着游戏进程而解锁，你也可以现在就看一看"
+			]
 			icon: "minecraft:writable_book"
 			id: "79646E8E449D8A1A"
 			rewards: [{
@@ -57,7 +61,7 @@
 			}]
 			shape: "pentagon"
 			size: 2.0d
-			subtitle: "我还以为你从来都不会选我呢"
+			subtitle: "我以为你从来都不会来看我呢..."
 			tasks: [{
 				id: "08FBC31DA70014BD"
 				title: "提示"
@@ -156,7 +160,7 @@
 				type: "checkmark"
 			}]
 			title: "这都是啥按键啊？"
-			x: 3.0d
+			x: 3.75d
 			y: 0.75d
 		}
 		{
@@ -220,12 +224,12 @@
 				type: "checkmark"
 			}]
 			title: "GT 工具使用手册"
-			x: -3.0d
+			x: -3.75d
 			y: 0.75d
 		}
 		{
 			dependencies: ["79646E8E449D8A1A"]
-			description: ["许多周期性检测事件的检测周期得到了不同程度的延长，如管道与线缆的连接检测、多方块机器自动成型检测。这属于正常现象，这使得在超大量多方块的存档中依然保持很好的性能"]
+			description: ["许多周期性检测事件的检测周期得到了不同程度的延长，如管道与线缆的连接检测、多方块机器自动成型检测。这属于正常现象，这使得在超大量多方块的存档中依然保持良好的TPS"]
 			icon: "gtocore:spacetime_huge_fluid_pipe"
 			id: "0853003F6BB9C758"
 			shape: "pentagon"
@@ -241,16 +245,21 @@
 		{
 			dependencies: ["79646E8E449D8A1A"]
 			description: [
-				"在核心mod配置里可切换难度"
+				"在核心mod配置里可切换难度 （游戏菜单 > MOD > 搜索 GTOCore > 配置 > 游戏难度）"
 				""
 				"难度的影响包括但不限于"
 				""
 				"·不同复杂度的合成配方与任务"
+				"·部分机器和能量单元的数值调整"
 				"·AE频道限制"
+				""
+				"&e强烈建议在切换模式后，重启MC，然后再创建世界开始游戏！&r"
 			]
 			icon: "minecraft:compass"
 			id: "5183DB6A793BB3C6"
+			shape: "pentagon"
 			size: 1.5d
+			subtitle: "在一切的一切开始之前......"
 			tasks: [{
 				id: "29914EB1B76193EA"
 				type: "checkmark"
@@ -261,7 +270,13 @@
 		}
 		{
 			dependencies: ["79646E8E449D8A1A"]
-			description: ["开了之后不能使用作弊指令与从EMI里拿东西"]
+			description: [
+				"如果你想挑战不通过任何作弊手段通关&4GregTech Odyssey&r，你可以在任何时候通过&6GTOCore&r的模组配置打开&6自我约束模式&r，一旦开启，你将永远不能使用作弊指令，以及从EMI作弊获取任何物品！"
+				""
+				"&e你将永远处于该模式！&r"
+				"&e你将永远处于该模式！&r"
+				"&e你将永远处于该模式！&r"
+			]
 			icon: "ae2:creative_item_cell"
 			id: "6E81629D88D0710E"
 			shape: "pentagon"
@@ -271,7 +286,7 @@
 				type: "checkmark"
 			}]
 			title: "自我约束模式"
-			x: 2.25d
+			x: 3.75d
 			y: 2.25d
 		}
 		{
@@ -283,6 +298,8 @@
 				"&6地表岩石&r很好地指示了地下的矿脉，在开局你可以利用这个特点寻找你需要的矿脉。如果你不知道它长什么样，你可以看看任务图标，这是一个&6地表岩石（金）&r"
 				""
 				"并且，&bGregTech&r添加了对&bXaero's WorldMap&r的矿脉查看支持，打开&e世界地图&r点击右下角的&e显示GT矿脉&r和&e显示基岩流体矿脉&r按钮即可查看你已经发现的矿脉"
+				""
+				"当然，我更推荐你使用&6探矿仪&r来寻找矿石。去&b商店&r页面换一个吧"
 				""
 				"[ \"前往\", { \"text\": \"矿石图鉴\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"23DF7BAC762AF885\" } }, \"章节查看你需要的矿石资源\" ]"
 			]
@@ -363,19 +380,25 @@
 				}
 			]
 			title: "建造提示"
-			x: -2.25d
+			x: -3.75d
 			y: 2.25d
 		}
 		{
 			dependencies: ["79646E8E449D8A1A"]
 			description: [
-				"如果你将游戏托管在一台服务器上，那么你可能需要关注&bOPAC(Open Parties  and Claims)&r&6玩家离线强制加载规则"
-				"&r"
+				"如果你将游戏托管在一台服务器上，那么你可能需要关注&bOPAC(Open Parties  and Claims)&r&6玩家离线强制加载规则&r"
+				""
 				"在当前默认设置下，服务器在没有玩家在线时会继续加载&e已标记强制加载的区块&r，如果你的服务器因为太多离线玩家加载了他们的区块而影响了在线玩家的体验，你可以关闭此项设置"
 				""
 				"具体设置在&e服务器存档&r&bserverconfig&r目录下的&bopenpartiesandclaims-default-player-config.toml&r，你可以将&eofflineForceload&r设置为&2false&r来关闭&e离线强制加载&r"
 			]
-			icon: "gtceu:hv_world_accelerator"
+			icon: {
+				Count: 1
+				id: "extrabotany:infinite_wine"
+				tag: {
+					brewKey: "botania:healing"
+				}
+			}
 			id: "113BFE54E70D14D4"
 			shape: "pentagon"
 			size: 1.5d
@@ -389,10 +412,7 @@
 		}
 		{
 			dependencies: ["79646E8E449D8A1A"]
-			description: [
-				"欢迎加入GTO寰宇重工集团·Alpha部门：927923997"
-				""
-			]
+			description: ["欢迎加入GTO寰宇重工集团·Alpha部门：927923997"]
 			icon: "avaritia:enhancement_core"
 			id: "14BCF41FB8DAD531"
 			rewards: [{
@@ -422,7 +442,7 @@
 				"        特点：可进行&d跨维度传输&r；进阶版可以安装&e过滤卡&r;"
 				"{@pagebreak}"
 				" &b       无线充能覆盖板："
-				"&r        用法：在搭建无线充能器结构后，给其供电，在主机中放置&6HV及以上等级的力场发生器&r后，可以给&e无线充能覆盖板&r所贴方块内的物品充电；如给&e原木拟生场&r中的&e链锯&r充电；"
+				"&r        用法：在搭建&6无线充能器&r结构后，在主机中放置&eHV及以上&r等级的&6力场发生器&r，可以给&e无线充能覆盖板&r所贴方块内的物品充电(如给&e原木拟生场&r中的&e链锯&r充电)；"
 				"        特点：可以安装在&e板条箱&r和&e部分&r机器主机上；"
 				"{@pagebreak}"
 				" &b       可编程覆盖板："
@@ -453,281 +473,952 @@
 				type: "checkmark"
 			}]
 			title: "有形的小板"
-			x: 0.0d
-			y: 3.0d
+			x: 2.25d
+			y: 2.25d
 		}
 		{
+			dependencies: [
+				"567EBE02182A8505"
+				"10C397237163BFFC"
+			]
+			description: [
+				"在对某些方块（通常是主机）查看用途的时候,你会发现一个特殊页面——&e\"多方块结构信息\"&r页。"
+				""
+				"这是专门用来查看该方块可搭建的多方块结构使用的，其右侧有两个按钮，P 和 ALL 。"
+				""
+				"- &bP&r用于切换多方块不同的形态，默认显示第0形态即&bP: 0&r。通常有&e可变长度&r的多方块的P1会是其&6最长形态&r，拥有&e附属模块&r的多方块的P1是其&6附属模块&r。"
+				"- &bALL&r用于切换显示层数，默认状态为全部显示。点击切换为&bL: X&r显示第X层的结构。&r"
+				""
+				"直接&e点击，拖曳，放大/缩小&r可查看多方块的整体外观，&e选中特定方块&r后在右上角查看该位置可以放置什么方块，某个方块最少/最多摆放的数量。&c在你多方块不成型却又没有缺失方块的时候请优先检查方块数量限制！&r"
+				""
+				"在&6样板编码终端&r中打开此页的时候，你会发现右下角多了一个&b加号&r，用于将多方块的所有方块编写到一个样板中。点击&bP&r可编写不同的形态。"
+				"{@pagebreak}"
+				"想要查看&6加速仓/并行仓&r等仓室会被什么多方块机器使用,也是对这些仓室查看用途"
+			]
+			icon: "ad_astra:etrionic_blast_furnace"
+			id: "0B472475D703DE42"
+			shape: "pentagon"
+			tasks: [{
+				id: "3267200EAF6EC86E"
+				type: "checkmark"
+			}]
+			title: "EMI多方块专题"
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"79646E8E449D8A1A"
+				"29A2859398D5B252"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"&6导线/线缆&r是你在前期传输电的&e主要手段&r。"
+				""
+				"&e未经任何处理&r的&6导线&r会有较大的&c线损&r（而且会电人），当你拉的线越&b长&r，传递到远端损耗的电量也会越&e多&r。当线拉的&c过长&r时，电压就有可能&c过低&r，导致远端的机器无法获得足够的电量来工作。"
+				""
+				"给导线&e过胶&r可显著减少线损。但最推荐的永远是&6超导体&r——&e无需过胶，不会漏电，且不会电人&r"
+				""
+				"&o&7不要让导线承担超过标定的电压和电流！"
+			]
+			hide_dependency_lines: true
+			icon: "gtocore:conductive_alloy_single_wire"
+			id: "329F8FA702A2CB5C"
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "我的导线在漏电?"
+			tasks: [
+				{
+					id: "75A876BBFFFE59CD"
+					type: "checkmark"
+				}
+				{
+					id: "02B45B6BA9A6862A"
+					item: "gtceu:copper_single_wire"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "55D3F043BB06400B"
+					item: "gtceu:copper_single_cable"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "17D8A3FD57F0AB8B"
+					item: "gtocore:energetic_alloy_single_wire"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "导线的特性"
+			x: 6.0d
+			y: -6.75d
+		}
+		{
+			dependencies: ["79646E8E449D8A1A"]
+			description: [
+				"GTO为了提升机器工作的速度加入了很多&e提速手段&r。"
+				""
+				"这一页会随着你的&b游戏进程&r不断解锁新&e加速方式&r，点击&6检查标记&r以解锁第一个"
+				""
+				"当你感觉机器&c太慢&r的时候，不妨看看这里"
+			]
+			hide_dependency_lines: true
+			icon: "gtceu:uv_world_accelerator"
+			id: "16047F3F79404251"
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "机器太慢，人生太短"
+			tasks: [{
+				id: "1721110131CFF627"
+				type: "checkmark"
+			}]
+			title: "提速的手段"
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["16047F3F79404251"]
+			description: [
+				"超频，最底层的提速手段。通过提升输入的功率，机器可以获得更快的工作速度。&c超频和电压无关，只和功率有关。&r在游戏前期，超频分&6有损超频&r和&6无损超频&r两种。"
+				""
+				"绝大多数机器都为&6有损超频&r，这也是默认的超频模式。机器安装的能源仓每能提供超过配方&a4倍&r的功率，机器的功率就会提升&a4倍&r，同时耗时变为&a0.5x&r。从前面的公式可见，机器以&c损失&r一倍能量作为提速的代价。"
+				""
+				"&6无损超频&r仅有特定机器支持。机器安装的能源仓每能提供超过配方&a4倍&r的功率，机器的功率就会提升&a4倍&r，同时耗时变为&a0.25x&r。机器并未额外耗能仍获取了提速效果。"
+				""
+				"超频可以触发&e无限次&r。如果你给有损超频机器提供了16倍功率，那么机器就会执行2次超频（&a4x4&r），并且耗时变为&a0.25x&r；如果提供64倍则执行3次超频耗时变为&a0.125x&r。"
+				""
+				"&6单方块机器&r&c无法&r常规提升电流的输入（默认1A），可通过更换&b更高级&r的单方块机器&e提升电压&r来触发超频。"
+				"{@pagebreak}"
+				"让我们举个例子: "
+				""
+				"假设目前我要执行一个&bMV&r配方，&6有损超频&r"
+				""
+				"①我安装了2个&e2A&r&bMV&r能源仓，那么我一共提供了&e4A&r&bMV&r的功率，机器能够执行&a1次&r超频，配方耗时&e0.5x&r；"
+				""
+				"②我安装了1个&e2A&r&bMV&r能源仓，1个&e16A&r&bMV&r能源仓，那么我一共提供了&e18A&r&bMV&r的功率，但是只会使用&e16A&r（因为机器没办法执行第3次超频，需要64A），机器能够执行&a2次&r超频，配方耗时&e0.25x&r；"
+				""
+				"③我安装了2个&e16A&r&bMV&r能源仓，那么我一共提供了&e32A&r&bMV&r的功率，但是只会使用&e16A&r（因为机器没办法执行第3次超频，需要64A），机器能够执行&a2次&r超频，配方耗时&e0.25x&r；"
+				""
+				"④我安装了2个&e16A&r&8ULV&r能源仓，那么我一共提供了&e2A&r&bMV&r的功率，但是机器配方电压只有&7LV&r，&c无法执行配方&r"
+				"{@pagebreak}"
+				"你一定发现了多方块的UI中左下角有一个栏叫做&e\"调整机器超频的最小时间\"&r，这是用于保护tps而设计的。它的默认值是&a20t&r，也就是&a1&r秒。"
+				""
+				"如果配方的耗时在超频过程中低于这个值，另一个机制&e\"补偿并行\"&r将会发挥作用。它会将试图超频到&b低于最小时间&r的超频次数转化为&e并行&r，每一次超频转化为&a2x&r额外并行。这也就是为什么可以在小机器上看到并行。"
+			]
+			hide_until_deps_complete: true
+			icon: "gtocore:ev_wireless_input_hatch_64a"
+			id: "2AF1E09A346B5343"
+			subtitle: "能耗=功率x耗时 功率=电压x电流"
+			tasks: [
+				{
+					id: "1319E28C08F96766"
+					type: "checkmark"
+				}
+				{
+					id: "758A0EE899C95585"
+					item: "gtocore:lv_energy_input_hatch_16a"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3D3AC93469A9183A"
+					item: "gtocore:ev_wireless_input_hatch_64a"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "超频！"
+			x: 8.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"79646E8E449D8A1A"
+				"23A116C4BAE96979"
+			]
+			description: [
+				"&a双仓升压&r：在一台多方块机器上安装至少&a两个&r&6同等级能源仓&r（无需电流相同）可以触发机器&6升压&r，机器升压后可以执行&b高一级电压&r的配方"
+				""
+				"要注意机器的UI中标识了两个电压，&6最大功率&r标注的电压与&e超频次数&r相关，&6最大配方等级&r才是机器能够制作的&e配方电压&r"
+				""
+				"&o&7升压并没有改变能源仓提供的功率，只是提升了电压，降低了电流。升压机制一定能实现的原因是最低电流的能源仓也至少可以给机器提供2A电流，因此双仓升压之后一定能提供至少1A的电流。"
+			]
+			hide_dependency_lines: true
+			icon: "gtceu:lv_energy_input_hatch"
+			id: "71DC44EE0771E731"
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "我在LV怎么做MV的配方？"
+			tasks: [
+				{
+					id: "70FD549C016CF3F5"
+					type: "checkmark"
+				}
+				{
+					id: "3AB80F3264F2B4BD"
+					item: "gtceu:lv_energy_input_hatch"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "升压机制"
+			x: 6.0d
+			y: -3.25d
+		}
+		{
+			dependencies: ["2AF1E09A346B5343"]
+			description: [
+				"随着机器能够使用&6激光仓&r，超频开始变得更为&c昂贵&r。对于寻常的&e超级机器&r，提升&a4倍&r功率的耗时变为&a0.55x&r。而处理阵列和进阶装配线则更为特殊：它们的耗时仅为&a0.65x&r和&a0.75x&r。（这个值随版本更新可能会有变化，请以实际版本为准）"
+				""
+				"&7&o这甚至导致了进阶装配线做单个配方还没装配线快"
+			]
+			hide_until_deps_complete: true
+			icon: "gtocore:advanced_assembly_line"
+			id: "0DB31BBE43DB71AA"
+			subtitle: "能使用激光仓的代价"
+			tasks: [
+				{
+					id: "0A36CD3DEB0345FF"
+					type: "checkmark"
+				}
+				{
+					id: "382DA5C5FD2C3FB3"
+					item: "gtocore:advanced_assembly_line"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "081A236E1902C783"
+					item: "gtocore:iv_processing_array"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2890F09D2835FD72"
+					item: "gtocore:iv_wireless_input_hatch_4096a"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "超损超频！？"
+			x: 10.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"0DB31BBE43DB71AA"
+				"0B7507528A43F25E"
+			]
+			description: [
+				"&6超频仓&r，&3格雷科技有限公司&r研发部最得意的作品之一。能够无条件调控每次超频中&e耗时的乘数&r。"
+				""
+				"以&6UHV超频仓&r举例，安装之后每进行一次&e超频&r，耗时都将变为原来的&a1/3&r。（这里的3就是超频仓UI中显示的数字）"
+				""
+				"从&6UIV超频仓&r开始，耗时乘数突破了&a4&r，这意味着超频不仅&e省时&r，甚至还&e节能&r，超频也第一次比并行拥有&c更高&r的优先级。机器会优先计算超频，再计算并行。"
+			]
+			hide_until_deps_complete: true
+			icon: "gtocore:uv_overclock_hatch"
+			id: "55CC8C2FD72F7E8B"
+			subtitle: "可以更改超频效果了"
+			tasks: [
+				{
+					id: "1D0D53DD2E7F1FED"
+					type: "checkmark"
+				}
+				{
+					id: "3D28679F500F6837"
+					item: "gtocore:uv_overclock_hatch"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "超级超频！！！"
+			x: 12.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"16047F3F79404251"
+				"64642383F67CAA6F"
+			]
+			description: [
+				"&6增幅器&r的效果和无损超频非常类似，提升功率，降低耗时，总能耗不变。最高级的增幅器&e等效&r于一次无损超频。"
+				""
+				"&6能量模块&r和&6速度模块&r无条件&e降低功率&r和&e提升速度&r,两者最高都是&a0.5x&r"
+				""
+				"&o&7增幅器有可能会拉取超过上限的电流导致机器断电，请谨慎使用"
+			]
+			hide_until_deps_complete: true
+			icon: "gtocore:luv_power_amplifiers"
+			id: "782023097C32871D"
+			subtitle: "增幅器能拆，模块不能"
+			tasks: [
+				{
+					id: "06CEAA02F45843C6"
+					type: "checkmark"
+				}
+				{
+					id: "577A50B5415D1AE6"
+					item: "gtocore:luv_power_amplifiers"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "15CCC3B27959F4BB"
+					item: "gtocore:speed_upgrade_module"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4D206610888072E9"
+					item: "gtocore:energy_upgrade_module"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "贴片系列"
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"16047F3F79404251"
+				"0FE9FDD72A50DCE5"
+			]
+			description: ["根据难度不同可以获得不同的&e加速速度&r。每个&e环境仓&r都有对应的变体。值得注意的是&e减速模式&r可以用于&6发电机&r来增加发电。"]
+			hide_until_deps_complete: true
+			icon: "gtceu:configurable_maintenance_hatch"
+			id: "22A8894D130AA7CC"
+			subtitle: "聊胜于无"
+			tasks: [
+				{
+					id: "212DB01446C9EA83"
+					type: "checkmark"
+				}
+				{
+					id: "68F2AB796673E805"
+					item: "gtceu:configurable_maintenance_hatch"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "可配置维护仓"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"16047F3F79404251"
+				"156E62719405A609"
+			]
+			description: [
+				"并行仓的原理是允许&e同时加工&r多份原材料。当制作大量配方时，并行的效果就是制作&ax份&r物品，花费&ax份&r能量，使用&a1份&r时间。"
+				""
+				"平均到1份配方上，就是使用了&a1份&r能量，使用了&a1/x份&r时间。这个效果与无损超频是&6等效&r的。"
+				""
+				"在并行与超频的联动上，机器会&e优先进行并行计算&r，若计算完并行后仍有&e多余的功率&r则进行超频。"
+			]
+			hide_until_deps_complete: true
+			icon: "gtceu:iv_parallel_hatch"
+			id: "22D8BA3AB5A2C44E"
+			subtitle: "大批量加工中等效于无损超频"
+			tasks: [
+				{
+					id: "3CC5908B5895344E"
+					type: "checkmark"
+				}
+				{
+					id: "1C147B0ECAAE92ED"
+					item: "gtceu:iv_parallel_hatch"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "并行仓"
+			x: 10.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"16047F3F79404251"
+				"7F65A1C533ED1C3B"
+			]
+			description: [
+				"&b无条件&r加快机器速度，耗时乘以&6加速仓&rUI中显示的数值（如显示&a50&r就是&a0.50x&r）。当加速仓等级每&b低于&r配方一级，加速效果减少&a20%&r。"
+				""
+				"&o&7同时也意味着能耗也变少了"
+			]
+			hide_until_deps_complete: true
+			icon: "gtocore:lv_accelerate_hatch"
+			id: "4579012E71FA6EA6"
+			subtitle: "无条件加速"
+			tasks: [
+				{
+					id: "3E1C0BDB498D7489"
+					type: "checkmark"
+				}
+				{
+					id: "23CDE9B8EBFBD56E"
+					item: "gtocore:lv_accelerate_hatch"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "加速仓"
+			x: 8.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"16047F3F79404251"
+				"0B7507528A43F25E"
+			]
+			description: ["和并行仓的区别：并行仓只能允许&e相同配方&r同时运行，而线程仓允许&e不同配方&r也同时运行"]
+			hide_until_deps_complete: true
+			icon: "gtocore:uv_thread_hatch"
+			id: "4814DB51E6676235"
+			subtitle: "跨配方并行"
+			tasks: [
+				{
+					id: "2EDD40D9AE55AED0"
+					type: "checkmark"
+				}
+				{
+					id: "7C407A4B6D048770"
+					item: "gtocore:uv_thread_hatch"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "线程仓"
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"16047F3F79404251"
+				"06534664971F6E68"
+			]
+			description: ["在面对特殊的机器时，更高等级的&6线圈&r和&6玻璃&r也能加速"]
+			hide_until_deps_complete: true
+			icon: "gtceu:cupronickel_coil_block"
+			id: "7F6136A19199A3DD"
+			subtitle: "这也算吗"
+			tasks: [
+				{
+					id: "1551D9F7D279868E"
+					type: "checkmark"
+				}
+				{
+					id: "0687AC20716661DB"
+					item: "gtceu:cupronickel_coil_block"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "139EEB8F7188C0C8"
+					item: "gtceu:large_chemical_reactor"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "092D38565FF1B246"
+					item: "gtocore:chemical_plant"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "54BEB1EBEB502E11"
+					item: "gtocore:chemical_complex"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3604A98668B36F04"
+					item: "gtceu:tempered_glass"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "344DD200669EE3A3"
+					item: "gtocore:integrated_vapor_deposition_system"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "线圈/玻璃"
+			x: 12.0d
+			y: -1.5d
+		}
+		{
+			description: ["希望贡献更多提示？在qq群/discord/github上留下你的脚印！"]
+			id: "75054AF743DC4A57"
+			tasks: [{
+				id: "4D2B52FE9F8C23E0"
+				type: "checkmark"
+			}]
+			title: "遗漏提示？"
+			x: 4.5d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"79646E8E449D8A1A"
+				"021F533355CCBABA"
+			]
+			description: [
+				"绝大多数有等级的&6功能性方块&r标明了其所属&e电压&r"
+				""
+				"有一些方块如&6线圈&r和&6玻璃&r没有标注，&e等级1对应LV电压&r。你也可以在&b无线电网&r和&b里程碑&r两章查看对应的电压"
+			]
+			hide_dependency_lines: true
+			icon: "gtceu:tempered_glass"
+			id: "3A8D37EB45FB3854"
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "玻璃,线圈的等级怎么对应上电压啊?"
+			tasks: [
+				{
+					id: "0A9644A2F061BE30"
+					type: "checkmark"
+				}
+				{
+					id: "20ACB731BF0C85EC"
+					item: "gtceu:cupronickel_coil_block"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "16F86F6E5F678C9E"
+					item: "gtceu:tempered_glass"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "功能性方块的电压"
+			x: 6.0d
+			y: 0.25d
+		}
+		{
+			dependencies: [
+				"79646E8E449D8A1A"
+				"06534664971F6E68"
+			]
+			description: [
+				"&6最大功率&r：机器可以调用的最大功率，这个数值影响并行和超频的上限，也就是说影响&b机器运行的速度&r。"
+				""
+				"&6最大配方等级&r：机器可以执行的最高等级配方，也就是说影响&b机器是否能够执行配方&r。"
+				""
+				"&e最大配方等级（或者说机器配方等级）和最大功率是两码事，不要搞混了！&r"
+			]
+			hide_dependency_lines: true
+			icon: "gtceu:electric_blast_furnace"
+			id: "66A5EC65322E1B8D"
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "我的多方块机器UI上为什么有两个电压？"
+			tasks: [{
+				id: "011CFF836A69A878"
+				type: "checkmark"
+			}]
+			title: "最大功率和最大配方等级"
+			x: 6.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"16047F3F79404251"
+				"1F62E1A09BEFD387"
+			]
+			description: ["太空电梯通过升级&6动力模块&r可以获得更高的并行"]
+			hide_until_deps_complete: true
+			id: "350C91B07592819E"
+			subtitle: "这也算吗？？？"
+			tasks: [{
+				id: "4D47DA43F5C9E85F"
+				item: "gtocore:space_elevator_power_module_1"
+				type: "item"
+			}]
+			title: "太空电梯动力模块"
+			x: 14.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"79646E8E449D8A1A"
+				"3EF9AF3171607009"
+			]
+			description: ["GTO中将&6无线激光仓&r更名为&6无线能源/动力仓&r，请在看到&e激光仓/多A/高A能源仓&r字样的时候默认为&b256A&r及以上的&6无线能源仓/动力仓&r。"]
+			hide_dependency_lines: true
+			icon: "gtocore:iv_wireless_input_hatch_256a"
+			id: "05B517E2B4415678"
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "哪里有无线激光仓啊?"
+			tasks: [
+				{
+					id: "3F84551E3CD8AF27"
+					type: "checkmark"
+				}
+				{
+					id: "24E0F2464DC28ECD"
+					item: "gtocore:iv_wireless_input_hatch_256a"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "64411F71AA820805"
+					item: "gtocore:iv_wireless_output_hatch_256a"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "都变成无线能源仓了"
+			x: 6.0d
+			y: 3.75d
+		}
+		{
+			dependencies: ["79646E8E449D8A1A"]
+			description: [
+				"下界需要：HV阶段通过下界反应核前往"
+				""
+				"末地需要：通过探险找到十二颗不同的眼睛，详见末地创世mod"
+				""
+				"超平坦世界与虚空世界：HV阶段通过虚空传送器访问"
+				""
+				"其他星球和空间站：通过游戏进程中发射火箭解锁"
+			]
+			id: "32C2735E505AB490"
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "原版MC的方法去不了"
+			tasks: [
+				{
+					dimension: "minecraft:the_nether"
+					id: "164D6190097B6B07"
+					optional_task: true
+					type: "dimension"
+				}
+				{
+					dimension: "minecraft:the_end"
+					id: "115F73668157C661"
+					optional_task: true
+					type: "dimension"
+				}
+			]
+			title: "下界，末地，和其他维度"
+			x: -2.25d
+			y: 2.25d
+		}
+		{
+			dependencies: ["79646E8E449D8A1A"]
+			description: [
+				"其中飞行护符，飞行之板，翅膀，喷气背包可以作为前期飞行手段"
+				""
+				"沉浸式飞行是飞行载具，同样能让你在前期获得飞行能力"
+			]
 			icon: {
 				Count: 1
-				id: "gtceu:nanomuscle_helmet"
-				tag: { }
+				id: "gtocore:fairy_wing"
+				tag: {
+					Damage: 0
+				}
 			}
-			id: "226B4BF9F95A3C30"
-			invisible: true
-			rewards: [
+			id: "3D7C322A6DBCF085"
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "如何获取飞行?"
+			tasks: [
 				{
-					auto: "enabled"
-					id: "6A3FC73ED9CF201B"
+					id: "305197B9663DC20B"
+					type: "checkmark"
+				}
+				{
+					id: "5B0940B516A6B9C1"
 					item: {
 						Count: 1
-						id: "minecraft:golden_helmet"
+						id: "apotheosis:potion_charm"
 						tag: {
 							Damage: 0
-							Enchantments: [
-								{
-									id: "minecraft:protection"
-									lvl: 3s
-								}
-								{
-									id: "minecraft:projectile_protection"
-									lvl: 5s
-								}
-							]
-							RepairCost: 7
-							Trim: {
-								material: "minecraft:redstone"
-								pattern: "minecraft:host"
-							}
-							display: {
-								Name: "{\"text\":\"员工头盔\"}"
-							}
+							Potion: "apotheosis:flying"
 						}
 					}
-					team_reward: false
+					optional_task: true
 					type: "item"
 				}
 				{
-					auto: "enabled"
-					id: "66C9DFA30CE07AE1"
+					id: "710C8C7FCC973A83"
 					item: {
 						Count: 1
-						id: "minecraft:leather_chestplate"
+						id: "gtocore:fairy_wing"
 						tag: {
 							Damage: 0
-							Enchantments: [
-								{
-									id: "minecraft:thorns"
-									lvl: 3s
-								}
-								{
-									id: "minecraft:blast_protection"
-									lvl: 2s
-								}
-							]
-							RepairCost: 3
-							Trim: {
-								material: "minecraft:redstone"
-								pattern: "minecraft:host"
-							}
-							display: {
-								Name: "{\"text\":\"员工劳保服\"}"
-							}
 						}
 					}
-					team_reward: false
+					optional_task: true
 					type: "item"
 				}
 				{
-					auto: "enabled"
-					id: "15474BB65597BDB4"
+					id: "13A878BF3EA58F9D"
 					item: {
 						Count: 1
-						id: "minecraft:chainmail_leggings"
+						id: "gtocore:mana_steel_wing"
 						tag: {
 							Damage: 0
-							Enchantments: [
-								{
-									id: "apotheosis:rebounding"
-									lvl: 1s
-								}
-								{
-									id: "minecraft:unbreaking"
-									lvl: 2s
-								}
-							]
-							RepairCost: 7
-							Trim: {
-								material: "minecraft:redstone"
-								pattern: "minecraft:host"
-							}
-							display: {
-								Name: "{\"text\":\"员工劳动裤\"}"
-							}
 						}
 					}
-					team_reward: false
+					optional_task: true
 					type: "item"
 				}
 				{
-					auto: "enabled"
-					id: "68F87F686933EB25"
+					id: "554A0A87BE71EFFA"
+					item: "gtocore:mechanical_wing"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "704ABC8C07EF24EA"
+					item: "ars_nouveau:ritual_flight"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1D90ADED5CAD3733"
+					item: "gtocore:tier_4_eye"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3154FD67015D4521"
 					item: {
 						Count: 1
-						id: "minecraft:iron_boots"
+						id: "avaritia:infinity_chestplate"
 						tag: {
 							Damage: 0
-							Enchantments: [
-								{
-									id: "minecraft:fire_protection"
-									lvl: 5s
-								}
-								{
-									id: "minecraft:feather_falling"
-									lvl: 1s
-								}
-							]
-							RepairCost: 3
-							Trim: {
-								material: "minecraft:redstone"
-								pattern: "minecraft:host"
-							}
-							display: {
-								Name: "{\"text\":\"员工劳保靴\"}"
-							}
 						}
 					}
-					team_reward: false
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1713376FA50D65DB"
+					item: {
+						Count: 1
+						id: "gtceu:liquid_fuel_jetpack"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "1A30383B837FA8E8"
+					item: "immersive_aircraft:biplane"
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "29034BFBCFA2BA4C"
-				stat: "minecraft:deaths"
-				type: "stat"
-				value: 1
-			}]
-			title: "劳保服套装"
-			x: -4.0d
-			y: 4.5d
+			title: "飞行模式"
+			x: -0.75d
+			y: 2.25d
 		}
 		{
-			icon: "ars_nouveau:blank_parchment"
-			id: "2ABDF1C7B4E1B44A"
-			invisible: true
-			rewards: [{
-				auto: "enabled"
-				id: "0B71079726A3B338"
-				item: {
-					Count: 1
-					id: "avaritia:infinity_totem"
-					tag: {
-						Damage: 98
-						RepairCost: 0
-						display: {
-							Name: "{\"text\":\"员工生活质量保障证(一次性)\"}"
-						}
-					}
-				}
-				team_reward: false
-				type: "item"
-			}]
+			dependencies: [
+				"79646E8E449D8A1A"
+				"06534664971F6E68"
+			]
+			description: [
+				"若主机可以旋转，使用&6扳手&r&e右键&r主机可以&6旋转&r主机，然后对其使用终端就可搭建旋转后的多方块"
+				""
+				"在处理过长的多方块的时候，就可以将主机旋转&a90度&r，来让多方块&e竖在地上&r（如装配线）"
+				""
+				"还可以&e镜像成型&r，只需要使用&6高级终端&r打开镜像模式搭建即可"
+			]
+			hide_dependency_lines: true
+			icon: "gtceu:assembly_line"
+			id: "6A32CEF6BE50FA89"
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "能以其他的姿势摆放多方块吗?"
 			tasks: [{
-				id: "2C57CE49C88CC412"
-				stat: "minecraft:deaths"
-				type: "stat"
-				value: 5
+				id: "688C8F8EFA5E6160"
+				type: "checkmark"
 			}]
-			title: "开路护符"
-			x: -1.5d
-			y: 4.5d
+			title: "塞不下..."
+			x: 6.0d
+			y: 2.0d
 		}
 		{
-			id: "3C10974F3E128ECA"
-			invisible: true
-			rewards: [{
-				auto: "enabled"
-				id: "698673E0044DB840"
-				item: {
-					Count: 1
-					id: "minecraft:netherite_sword"
-					tag: {
-						Damage: 0
-						Enchantments: [
-							{
-								id: "minecraft:sharpness"
-								lvl: 5s
-							}
-							{
-								id: "minecraft:smite"
-								lvl: 6s
-							}
-						]
-						RepairCost: 3
-						display: {
-							Name: "{\"text\":\"员工基础生活保障剑\"}"
-						}
-					}
-				}
-				team_reward: false
-				type: "item"
-			}]
+			dependencies: ["79646E8E449D8A1A"]
+			description: [
+				"你应该已经发现了，连续吃&a相同&r的食物，给予的饱食度会越来越&c少&r——这是&e膳食均衡&r在发力！"
+				""
+				"打开你的物品栏之后，你的合成栏下方多出了一个按钮，点进去之后可以看到你目前的&e营养状况&r。当这些条都到达了较高的数值的时候，你会获得一些&b额外buff&r。唯一需要注意的是&6糖分&r，当你的糖分&e过高&r时，你会陷入&c饥饿&r状态。"
+				""
+				"你还会发现有时你会&e得病&r，这是因为你的包里装了&c危险物质&r。尽快丢掉他们，或者寻找办法避免生病。"
+			]
+			icon: "solcarrot:food_book"
+			id: "2574E6B85ADAAB88"
+			shape: "pentagon"
+			size: 1.5d
 			tasks: [{
-				id: "14F7B7C471B635D0"
-				stat: "minecraft:deaths"
-				type: "stat"
-				value: 10
+				id: "2BF9408FBD0A95BA"
+				type: "checkmark"
 			}]
-			title: "冲锋之剑"
-			x: 1.5d
-			y: 4.5d
+			title: "膳食均衡与生病"
+			x: 0.75d
+			y: 2.25d
 		}
 		{
-			icon: "avaritia:infinity_bow"
-			id: "71F8C203B6B0257D"
-			invisible: true
-			rewards: [
+			dependencies: [
+				"06534664971F6E68"
+				"66A5EC65322E1B8D"
+			]
+			description: [
+				"我们从上至下介绍："
+				""
+				"&6电源&r：用于控制&e开关机&r，等效于&6软锤&r右键锤一下。"
+				""
+				"&6超频最小时间&r：用于控制机器&e超频&r可以到达的&b最小时间&r。具体机制请查看本页的超频介绍。"
+				""
+				"&6批处理&r：GTO新加入的机制，当开启之后机器会&c尽可能&r使用输入仓室中的所有材料，并将输出时间&b乘以&r执行的&e配方数量&r。单次批处理上限&a3600&r秒。"
+				""
+				"&6更新结构检查&r：GTO为了性能，在多方块搭建完成后&c不会&r立即判断&e是否成型&r。你可以点击此按钮来立刻判断。"
+				""
+				"在某些机器中还会有一个按钮可以用来&e调整机器的最大并行数&r。"
+			]
+			icon: "gtceu:electric_blast_furnace"
+			id: "1A44A6A24FF9E7C3"
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "我的多方块机器UI左下角怎么这么多按钮？"
+			tasks: [{
+				id: "4881B7D1FC87C611"
+				type: "checkmark"
+			}]
+			title: "全是按钮"
+			x: 8.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"2964D4005BFFFADF"
+				"79646E8E449D8A1A"
+			]
+			description: [
+				"&b研究&r将与&6装配线&r一直陪伴你到游戏结束。所有的&e装配线配方&r都需要&b研究&r。"
+				""
+				"将&6数据载体&r放入&6扫描仪/研究站&r，等待一段时间之后会获得一份&6研究数据实体&r，将其放入&6数据访问仓&r即为&a成功研究&r。"
+				""
+				"若你&c无法&r将研究数据放入数据访问仓，说明你的数据访问仓需要&e升级&r了。只有&e高级访问仓&r才能放入高级研究数据。"
+				""
+				"使用&6靶仓&r和&6源仓&r传递&e研究数据&r。"
+			]
+			hide_dependency_lines: true
+			icon: "gtceu:research_station"
+			id: "07B002E74C48D580"
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "我爱学习！"
+			tasks: [
 				{
-					auto: "enabled"
-					id: "25972D9AB4F7C50A"
+					id: "7FBD418FEE223E69"
+					type: "checkmark"
+				}
+				{
+					id: "4651A03668893DDC"
 					item: {
 						Count: 1
-						id: "minecraft:bow"
-						tag: {
-							Damage: 0
-							Enchantments: [
-								{
-									id: "minecraft:infinity"
-									lvl: 1s
-								}
-								{
-									id: "minecraft:flame"
-									lvl: 1s
-								}
-								{
-									id: "minecraft:punch"
-									lvl: 3s
-								}
-								{
-									id: "minecraft:power"
-									lvl: 2s
-								}
-							]
-							RepairCost: 31
-							display: {
-								Name: "{\"text\":\"员工清扫弓\"}"
-							}
-						}
+						id: "gtceu:data_stick"
+						tag: { }
 					}
-					team_reward: false
+					optional_task: true
 					type: "item"
 				}
 				{
-					auto: "enabled"
-					id: "54421F296F91773F"
-					item: "minecraft:arrow"
-					team_reward: false
+					id: "11350CC394C5648F"
+					item: {
+						Count: 1
+						id: "gtceu:data_orb"
+						tag: { }
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2BAABB329635A670"
+					item: {
+						Count: 1
+						id: "gtceu:data_module"
+						tag: { }
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5757BE8EB0AAB059"
+					item: "gtceu:data_access_hatch"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1BB1B5DD0AD4CAE3"
+					item: "gtceu:advanced_data_access_hatch"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "674EF4661326DE37"
+					item: "gtocore:bio_data_access_hatch"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "643AF30467659CE5"
+					item: "gtceu:data_receiver_hatch"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7ABE19D1CA4290F2"
+					item: "gtceu:data_transmitter_hatch"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "37D8FB5269E69114"
+					item: "gtceu:normal_optical_pipe"
+					optional_task: true
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "2A22E196E25424F7"
-				stat: "minecraft:deaths"
-				type: "stat"
-				value: 15
-			}]
-			title: "秩序之弓"
-			x: 4.0d
-			y: 4.5d
+			title: "研究的奥秘"
+			x: 6.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"2AF1E09A346B5343"
+				"4167ADF91EF95341"
+			]
+			description: ["魔力增幅仓内的UI可调整其缓存大小。开启批处理时，仍然只需要输入一份机器最大功率的魔力即可完成批处理。"]
+			hide_until_deps_complete: true
+			id: "56243643D545C27B"
+			subtitle: "以魔力为代价"
+			tasks: [
+				{
+					id: "3DE290CE26EBC75B"
+					type: "checkmark"
+				}
+				{
+					id: "3BC7D193476722E3"
+					item: "gtocore:mana_amplifier_hatch"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "魔法的无损超频"
+			x: 10.0d
+			y: -4.5d
 		}
 	]
 	subtitle: ["Tips and Tricks"]
