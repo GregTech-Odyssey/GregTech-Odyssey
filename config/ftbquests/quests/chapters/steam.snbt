@@ -107,7 +107,20 @@
 		}
 	]
 	order_index: 1
-	quest_links: [ ]
+	quest_links: [
+		{
+			id: "67F302EA448EF19C"
+			linked_quest: "1AA10AF8831F742D"
+			x: -12.0d
+			y: -1.0d
+		}
+		{
+			id: "03CBC6BC46EA333F"
+			linked_quest: "7EA226054696AA3F"
+			x: -12.0d
+			y: 1.0d
+		}
+	]
 	quests: [
 		{
 			dependencies: ["14A66BA5BC9DB220"]
@@ -1052,9 +1065,9 @@
 		{
 			dependencies: ["31BB738542229A88"]
 			description: [
-				"关键是提供稳定的燃料来源，以及注意供应足够多的水"
+				"蒸汽自动化的关键是提供稳定的燃料来源，以及注意供应足够多的水"
 				""
-				"再次强调一点，在任何锅炉温度&4不为常温&r且干烧的情况下通入&b水&r都会&4爆炸&r"
+				"&6温馨提示：&r基本所有的锅炉&e在温度达到水的沸点且干烧的情况下&r再次通入&b水&r都会&4爆炸&r"
 			]
 			icon: "gtceu:high_pressure_hazard_sign_block"
 			id: "7BCD49717F8FAD65"
@@ -1477,7 +1490,7 @@
 			y: 12.0d
 		}
 		{
-			dependencies: ["13FBF05133D59CDC"]
+			dependencies: ["27F4D9739FE33A02"]
 			description: [
 				"你需要更多的焦煤和杂酚油吗？来，让这个大家伙满足你！"
 				""
@@ -1497,11 +1510,11 @@
 				type: "item"
 			}]
 			title: "焦炉Pro Max版"
-			x: 11.25d
-			y: 6.75d
+			x: 9.5d
+			y: -1.5d
 		}
 		{
-			dependencies: ["13FBF05133D59CDC"]
+			dependencies: ["27F4D9739FE33A02"]
 			description: [
 				"你可以通过&6钢制储罐阀门&r来控制流体的输入和输出，如果你把阀门向下摆，则可以&a自动&r输出流体"
 				""
@@ -1521,8 +1534,8 @@
 				type: "item"
 			}]
 			title: "更大的保温杯"
-			x: 9.5d
-			y: 6.75d
+			x: 8.25d
+			y: -0.75d
 		}
 		{
 			dependencies: ["13FBF05133D59CDC"]
@@ -1649,6 +1662,134 @@
 			}]
 			x: 13.0d
 			y: 5.0d
+		}
+		{
+			dependencies: [
+				"2E05753AF03C5608"
+				"27F4D9739FE33A02"
+			]
+			description: [
+				"这是你拥有AE存储前能够使用的最大的存储容器了"
+				""
+				"建议配合&6简易合成终端&r使用"
+			]
+			id: "2D9893D2C108754F"
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "箱子装不下了"
+			tasks: [{
+				id: "3275A7DEDC7837C1"
+				item: "gtocore:multiblock_crate"
+				type: "item"
+			}]
+			x: 10.75d
+			y: -0.75d
+		}
+		{
+			dependencies: ["7BCD49717F8FAD65"]
+			description: [
+				"利用太阳的能量获得免费的&7蒸汽&r！"
+				""
+				"&6玻璃&r在拥有一些&6钢&r后才能获取，野外地牢的&e战利品箱&r中偶尔能开出一些，如果你足够幸运地发现了&68个钢锭&r（或是6个，如果你已经拥有一台&6蒸汽锻造锤&r），配合&6蒸汽合金炉&r就能很快获得&7免费蒸汽&r，如果你欧气爆棚摸到了更多钢锭，那么你甚至可以直接跳过普通版本的&6太阳能锅炉&r造台高压的！"
+				""
+				"如果你的欧气不够也没关系，在能够生产&6钢&r之后你也可以直接制作&e高压版本&r的&6太阳能锅炉&r"
+				""
+				"&b银&r在这个世界并不稀缺，你是否注意到了地上的那些&d亮晶晶的银色岩石碎屑&r？"
+			]
+			id: "72F99B3B63217418"
+			subtitle: "不会钙化"
+			tasks: [{
+				id: "3CC830FE7D18DC64"
+				item: "gtceu:lp_steam_solar_boiler"
+				type: "item"
+			}]
+			title: "太阳能锅炉"
+			x: -9.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["72F99B3B63217418"]
+			description: ["三倍蒸汽产能，如果有钢，几乎没有理由用普通版本！"]
+			id: "0BD03513ABDC6A9C"
+			tasks: [{
+				id: "50AE654E47F127C4"
+				item: "gtceu:hp_steam_solar_boiler"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7BCD49717F8FAD65"]
+			description: [
+				"&6液体燃料锅炉&r的产能是&e固体燃料锅炉&r的两倍，如果你的&6杂酚油&r多得没地方存，为何不将这些黏糊糊的&6半流质&r流体通通喂给&6液体燃料锅炉&r呢？"
+				""
+				"[ \"\", {\"text\":\"……我刚刚说了\", \"color\":\"yellow\" }, { \"text\": \"半流质\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3791F49E789E7673\" } }, {\"text\":\"对吧\", \"color\":\"yellow\" }]"
+			]
+			id: "1108939F9923176C"
+			tasks: [{
+				id: "5EF6AC41E4293D2E"
+				item: "gtceu:lp_steam_liquid_boiler"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1108939F9923176C"]
+			description: ["两倍蒸汽产能，如果有钢，几乎没有理由用普通版本！"]
+			id: "10E17EBACB3697C9"
+			subtitle: "更疯狂的杂酚油吞噬者"
+			tasks: [{
+				id: "379BBDB4C2C224BA"
+				item: "gtceu:hp_steam_liquid_boiler"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1AA10AF8831F742D"
+				"77C71C9A52ADF6A6"
+			]
+			description: ["它是ULV时代的产物，LV时代前最强大的蒸汽来源，如果你没有接受《清洁能源挑战》，那么不妨为你的&6大型蒸汽机器们&r制造一台，几乎找不到缺点"]
+			id: "71C99D8911700F27"
+			tasks: [{
+				id: "0C59E71495F97B51"
+				item: "gtceu:bronze_large_boiler"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7BCD49717F8FAD65"]
+			description: [
+				"扩产&e蒸汽&r能够加速你的资源生产！"
+				""
+				"在拥有钢之后，&6高压锅炉&r必然是更优的蒸汽来源，其蒸汽输出为普通版本的&6两至三倍&r！"
+			]
+			id: "77C71C9A52ADF6A6"
+			tasks: [{
+				id: "026C5E9B6FB8E5D2"
+				item: "gtceu:hp_steam_solid_boiler"
+				type: "item"
+			}]
+			title: "蒸汽扩产"
+			x: -9.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["31BB738542229A88"]
+			id: "502C63A5B230466E"
+			tasks: [{
+				id: "799D1DE9D5E17D5E"
+				title: "蒸汽缓存"
+				type: "checkmark"
+			}]
+			x: -7.5d
+			y: -2.0d
 		}
 	]
 	subtitle: ["Tier0-Steam"]
