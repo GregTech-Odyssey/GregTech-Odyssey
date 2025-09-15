@@ -1780,17 +1780,6 @@
 			x: -9.0d
 			y: -1.0d
 		}
-		{
-			dependencies: ["31BB738542229A88"]
-			id: "502C63A5B230466E"
-			tasks: [{
-				id: "799D1DE9D5E17D5E"
-				title: "蒸汽缓存"
-				type: "checkmark"
-			}]
-			x: -7.5d
-			y: -2.0d
-		}
 	]
 	subtitle: ["Tier0-Steam"]
 	title: "1. 蒸汽时代(Steam Age)"
