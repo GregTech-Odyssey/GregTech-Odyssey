@@ -155,7 +155,7 @@ def sync_language_files_incremental(source_keys: dict, source_language: str, tar
         en_us = {}
 
     # 增量更新
-    if old_zh_cn and (MODE == 'push' or MODE == 'pr'):
+    if old_zh_cn and MODE == 'push':
         # 有旧文件，做严格增量
         changed_keys = {k for k in new_zh_cn if old_zh_cn.get(k) != new_zh_cn[k]}
 
