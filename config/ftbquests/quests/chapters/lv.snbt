@@ -272,7 +272,7 @@
 				type: "item"
 			}]
 			x: -12.0d
-			y: 3.0d
+			y: 4.5d
 		}
 		{
 			dependencies: [
@@ -941,7 +941,10 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["23A116C4BAE96979"]
+			dependencies: [
+				"23A116C4BAE96979"
+				"7BCD49717F8FAD65"
+			]
 			description: ["代价是电和圆石"]
 			hide_dependency_lines: true
 			id: "1AA10AF8831F742D"
@@ -2016,6 +2019,29 @@
 			title: "蒸汽之力"
 			x: -9.75d
 			y: 1.5d
+		}
+		{
+			dependencies: [
+				"268C28F66FA4C91F"
+				"0BD03513ABDC6A9C"
+			]
+			description: [
+				"有没有想过MC世界的太阳有多&4炽烈&r？"
+				""
+				"&e巨量的蒸汽&r因为&6集热管&r聚集的热量正不断喷涌而出！"
+				""
+				"这台多方块机器的造价比&6大型青铜锅炉&r更高，但它的运转是免费的，或许这很值得"
+			]
+			id: "7EA226054696AA3F"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "1D04115123ECE9B1"
+				item: "gtocore:large_steam_solar_boiler"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 3.0d
 		}
 	]
 	subtitle: ["Tier1-LV"]

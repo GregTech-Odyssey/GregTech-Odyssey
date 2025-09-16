@@ -2079,30 +2079,6 @@
 			x: 10.0d
 			y: 5.0d
 		}
-		{
-			dependencies: [
-				"2E05753AF03C5608"
-				"13FBF05133D59CDC"
-			]
-			description: [
-				"这是你在能够使用AE之前最大的存储容器了"
-				""
-				"建议配合&6简易合成终端&r使用"
-				""
-				"到能做出钢的时候再来找它吧"
-			]
-			id: "2D9893D2C108754F"
-			shape: "diamond"
-			size: 1.5d
-			subtitle: "箱子装不下了"
-			tasks: [{
-				id: "3275A7DEDC7837C1"
-				item: "gtocore:multiblock_crate"
-				type: "item"
-			}]
-			x: 6.5d
-			y: 4.0d
-		}
 	]
 	subtitle: ["Hello World!"]
 	title: "0.石器时代(Stone Age)"

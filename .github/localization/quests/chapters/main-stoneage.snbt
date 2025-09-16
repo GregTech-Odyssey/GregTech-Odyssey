@@ -2079,30 +2079,6 @@
 			x: 10.0d
 			y: 5.0d
 		}
-		{
-			dependencies: [
-				"2E05753AF03C5608"
-				"13FBF05133D59CDC"
-			]
-			description: [
-				"{gto.main-stoneage.quests.2D9893D2C108754F.description0}"
-				""
-				"{gto.main-stoneage.quests.2D9893D2C108754F.description1}"
-				""
-				"{gto.main-stoneage.quests.2D9893D2C108754F.description2}"
-			]
-			id: "2D9893D2C108754F"
-			shape: "diamond"
-			size: 1.5d
-			subtitle: "{gto.main-stoneage.quests.2D9893D2C108754F.subtitle}"
-			tasks: [{
-				id: "3275A7DEDC7837C1"
-				item: "gtocore:multiblock_crate"
-				type: "item"
-			}]
-			x: 6.5d
-			y: 4.0d
-		}
 	]
 	subtitle: ["{gto.main-stoneage.subtitle0}"]
 	title: "{gto.main-stoneage.title}"

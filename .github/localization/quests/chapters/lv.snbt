@@ -272,7 +272,7 @@
 				type: "item"
 			}]
 			x: -12.0d
-			y: 3.0d
+			y: 4.5d
 		}
 		{
 			dependencies: [
@@ -941,7 +941,10 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["23A116C4BAE96979"]
+			dependencies: [
+				"23A116C4BAE96979"
+				"7BCD49717F8FAD65"
+			]
 			description: ["{gto.lv.quests.1AA10AF8831F742D.description0}"]
 			hide_dependency_lines: true
 			id: "1AA10AF8831F742D"
@@ -2019,6 +2022,29 @@
 			title: "{gto.lv.quests.5F192882CBB16A9A.title}"
 			x: -9.75d
 			y: 1.5d
+		}
+		{
+			dependencies: [
+				"268C28F66FA4C91F"
+				"0BD03513ABDC6A9C"
+			]
+			description: [
+				"{gto.lv.quests.7EA226054696AA3F.description0}"
+				""
+				"{gto.lv.quests.7EA226054696AA3F.description1}"
+				""
+				"{gto.lv.quests.7EA226054696AA3F.description2}"
+			]
+			id: "7EA226054696AA3F"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "1D04115123ECE9B1"
+				item: "gtocore:large_steam_solar_boiler"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 3.0d
 		}
 	]
 	subtitle: ["{gto.lv.subtitle0}"]
