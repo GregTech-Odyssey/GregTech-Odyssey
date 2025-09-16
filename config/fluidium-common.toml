@@ -3,5 +3,7 @@
 	#Range: 0 ~ 63
 	FluidOptimizableDist = 32
 	#Range: 0.0 ~ 1.0
-	FluidTickDelayChance = 0.2
+	FluidTickDelayChance = 0.5
+	"FluidsAlwaysTick(RegistryName)" = []
+	"FluidsAlwaysTick(ModID)" = []
 

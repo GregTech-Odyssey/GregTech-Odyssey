@@ -1,0 +1,13 @@
+name = "Armor Points ++"
+filename = "armorpointspp-forge-1.20-3.1.1.jar"
+side = "client"
+
+[download]
+hash-format = "sha1"
+hash = "d64226d008c10562e27b4b4b3d85f76146311563"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4613606
+project-id = 396094

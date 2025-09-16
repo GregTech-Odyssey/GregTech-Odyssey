@@ -105,6 +105,10 @@ file = "config/appleskin-client.toml"
 hash = "e6609ffbea927ee6390b1317bb6f3abb3f31ee591ca5c1d5e748f5e625fefea1"
 
 [[files]]
+file = "config/armorpointspp-client.toml"
+hash = "2f2c6cef9c13d90f14c7e50c4c79ca44380e50dfa3e9d5e6f3daa81fb9aeab15"
+
+[[files]]
 file = "config/ars_nouveau-client.toml"
 hash = "240343ce50d099b12dac2f16f787631af07488829bc0fe5d59ca364c8cb5bf48"
 
@@ -509,10 +513,6 @@ file = "config/botania-common.toml"
 hash = "07e55bb5645a21e30392969aa5b2f8295a2bba660942cb5afa5b34a21ac65dea"
 
 [[files]]
-file = "config/brute_force_rendering_culling-client.toml"
-hash = "c6628cc4681c0d53e40aa83f097a257f63e2857f3396052ce0f2a883a6281be8"
-
-[[files]]
 file = "config/buildinggadgets2-common.toml"
 hash = "069c794385b6ddcaa7c1753abea1eabf7b75b4151978d1baaafe19298c2f6c36"
 
@@ -734,7 +734,11 @@ hash = "76a5d47ca4e918446d37edf7d09196af462f7e78aff8c2aa507d2b151117356b"
 
 [[files]]
 file = "config/fastquit.toml"
-hash = "e85f39867513fe26179ba3cf7a00d343e9642ceaa96e7ea3cde6a1c3aa69dd4e"
+hash = "3f09c54f4e26efceb4fa77deff752e33c5ea4710f01bbd7cdb55af1a154065f2"
+
+[[files]]
+file = "config/fastspawner-client.toml"
+hash = "34e64671533a161318d457d6149dbd2afcdb0b83ca4f2acc2e6054214189b314"
 
 [[files]]
 file = "config/fastsuite.cfg"
@@ -754,7 +758,7 @@ hash = "4dafe93b4fc05d8bd626069d57f86f08e6571d8b3c601f5c514c3553ab697c87"
 
 [[files]]
 file = "config/fluidium-common.toml"
-hash = "fd1c88335b18352a08291f13eef0d2139ff95ca68214f53c6773b1d4ba387058"
+hash = "2c60da447cc129a099c1fabe070e5e4b1471c39e641ba5e4bda08f90ad4a015a"
 
 [[files]]
 file = "config/fml.toml"
@@ -987,6 +991,10 @@ hash = "20f9321530b75eed76c38989ddade8260a3c481f82fe612c5e064b82a1691683"
 [[files]]
 file = "config/functionalstorage/functionalstorage-common.toml"
 hash = "e646ca8ec332583e1de2c8d18d4c66a4e2f8aa55c2919d5a65063e3ec88aeb0c"
+
+[[files]]
+file = "config/fzzy_config/keybinds.toml"
+hash = "26ac5810c9b5dc5c1968827357f0a58c58ac2b6f7b082630960228e16585062f"
 
 [[files]]
 file = "config/gregfluxology-common.toml"
@@ -2037,6 +2045,14 @@ file = "config/openloader/resources/resources/pack.mcmeta"
 hash = "cb0b687b2f7bb64968ef940e3e6b1cf0227d1104d429ed34b515581eeaacb4de"
 
 [[files]]
+file = "config/particle_core_config.toml"
+hash = "b241a76a0aa325bbbf79c634afa28a2faab3a154323ffc78e5a21fe0831cf0c4"
+
+[[files]]
+file = "config/particle_core_disabled_optimizations.json"
+hash = "75fc5b71df6c207879fdf6c1ba2f2c63fb770295bea1055d3d505e775be33c88"
+
+[[files]]
 file = "config/patchouli-client.toml"
 hash = "2258a7bc662629063219e5667e459e3877a6dd27e3ee935e508fac16227aee36"
 
@@ -2097,6 +2113,14 @@ file = "config/sophisticatedcore-common.toml"
 hash = "c21182fe66eec745c8521d2e9e7ec09a661af65dc5918039b01e86d271116eb4"
 
 [[files]]
+file = "config/staaaaaaaaaaaack-client.toml"
+hash = "3eb651403defd70eca13ed3bf75b88acba04315175ae92c430892c0e83a93de2"
+
+[[files]]
+file = "config/staaaaaaaaaaaack-common.toml"
+hash = "837aeae27af7f9fa07f041a16d21ee070c251a87a7aa63cc0353b6e30a05fbee"
+
+[[files]]
 file = "config/storagedrawers-client.toml"
 hash = "9278e868cee8fe35e0c0bae950a26329d85580d91841b42ea1b0d04fb4d0ad2f"
 
@@ -2107,6 +2131,10 @@ hash = "fc64c2ca441547fe83c78ca11d01124cec3779d17b3f607f2d06fd038163b372"
 [[files]]
 file = "config/structure_layout_optimizer.jsonc"
 hash = "8d65916d55009b95df3520f2ccca91e9c4f798214113e831aa5804a263458108"
+
+[[files]]
+file = "config/sweeper_maid-common.toml"
+hash = "59da733db7944b9be398bd35e435145aa416ed474c473af988d8f72d439af97f"
 
 [[files]]
 file = "config/terrablender.toml"
@@ -2287,6 +2315,11 @@ hash = "d0fe65a8e4212a5b74db6f276c4f529b7f89868ca9d365a5683a85b9eee94e35"
 metafile = true
 
 [[files]]
+file = "mods/armorpoints.pw.toml"
+hash = "e4bbeb6da63fd1e12dc0860e755884de1ea34961c5996f14d482d705c63dc5ab"
+metafile = true
+
+[[files]]
 file = "mods/ars-energistique.pw.toml"
 hash = "fe693ae80d95c3b06c0c91285417bf58d13e1e1d69496d35224dbf0002d54476"
 metafile = true
@@ -2299,6 +2332,11 @@ metafile = true
 [[files]]
 file = "mods/ars-nouveau.pw.toml"
 hash = "44505ec6c8d7ac5948b3f192cff3db191b07c4d39d501ce3af916006cda3c5a6"
+metafile = true
+
+[[files]]
+file = "mods/async-locator.pw.toml"
+hash = "89a00ce9f08a33a529f3f9a8baa50e281cbd50d451720e219a62928eb155c686"
 metafile = true
 
 [[files]]
@@ -2388,7 +2426,7 @@ metafile = true
 
 [[files]]
 file = "mods/controlling.pw.toml"
-hash = "f4cb827165c9a9ef23e725c1587d7dcfcc6bd5491e8730be7c876b712ec60643"
+hash = "9bff2c1bbde39e095ed71025191ae0ae837b3467175bd4e3b8698c82e172cd8e"
 metafile = true
 
 [[files]]
@@ -2438,7 +2476,7 @@ metafile = true
 
 [[files]]
 file = "mods/customskinloader.pw.toml"
-hash = "58a09f7cd267b5dc1fe0e52b1fb1e01441a3c5d67888073ca3ae69a8c234cfa5"
+hash = "ca25d51bb1980d36edc8aa9ddf521464bb2bde0e8e9a6f2358c6fec93d75f6b6"
 metafile = true
 
 [[files]]
@@ -2448,7 +2486,7 @@ metafile = true
 
 [[files]]
 file = "mods/default-options.pw.toml"
-hash = "91e64b2bf3b7011473fc138e5e93686233622fb0188bbf1d1113abadac5e42d7"
+hash = "aaf9de07b98813922b2125dcaffd827aa7ccab618ea54edeb92d9689f82bf049"
 metafile = true
 
 [[files]]
@@ -2577,6 +2615,11 @@ hash = "78a7ba5fece17b4afd6c267a13a259092d4ca85d10acd73162ca025889827895"
 metafile = true
 
 [[files]]
+file = "mods/fastspawner.pw.toml"
+hash = "f070113a637911c5526273722f757da54cfd61d975f88914d90103f131dffc39"
+metafile = true
+
+[[files]]
 file = "mods/fastsuite.pw.toml"
 hash = "efc2f10fa8efccdc03c9ae77912e9bec0226e075fa0b1d8a0bb2adea20a0a4a6"
 metafile = true
@@ -2609,6 +2652,11 @@ metafile = true
 [[files]]
 file = "mods/flickerfix.pw.toml"
 hash = "7d4637b758cf710d61e2266578047852bab775209c7cf43beda8ce65e6a164c0"
+metafile = true
+
+[[files]]
+file = "mods/fluidium.pw.toml"
+hash = "974cb99c30b78bff59cf4da8212a05021341cc79d83453114decdd721ff86dce"
 metafile = true
 
 [[files]]
@@ -2654,6 +2702,11 @@ metafile = true
 [[files]]
 file = "mods/functional-storage.pw.toml"
 hash = "ea05f8426dda347174d1690299c4517a489c6c17370a98fd812e9d06ce1dbcfd"
+metafile = true
+
+[[files]]
+file = "mods/fzzy-config.pw.toml"
+hash = "4646bb5a4309f549c3d37c4d56db379df35128bd16efd200444efe4bd63b995d"
 metafile = true
 
 [[files]]
@@ -2806,6 +2859,11 @@ hash = "546a1412504c5919e86503804de67ac9274171f2bcaf7d012ced0c51c37a0b82"
 metafile = true
 
 [[files]]
+file = "mods/nan-health-fixer.pw.toml"
+hash = "6784868f7f8cdf15bcae5dadeff2651712e78fe3bb7a699c0664ddff7ebab8b7"
+metafile = true
+
+[[files]]
 file = "mods/natures-compass.pw.toml"
 hash = "c0f2ac33cac2771212dc1f9cd32f1878b53dcedc54793db2d249cc98d4017859"
 metafile = true
@@ -2827,7 +2885,7 @@ metafile = true
 
 [[files]]
 file = "mods/not-enough-crashes-forge.pw.toml"
-hash = "232f73206d09fb0c8cac662fb82bbb53367795818ef05f70c290e391a5e4fa03"
+hash = "2644d6a7f1b4326fc7bee43f7478c13d2a74197be08123d82b4c3f3d1d3b0014"
 metafile = true
 
 [[files]]
@@ -2866,6 +2924,11 @@ hash = "5b829f0bd032534e8daedf09afd32149f010f86975122dcf58a14d993de53304"
 metafile = true
 
 [[files]]
+file = "mods/particle-core.pw.toml"
+hash = "903d1d29865c4300f6fc3521139a6c012eb7a8078c69210f884b919960bf809e"
+metafile = true
+
+[[files]]
 file = "mods/patchouli.pw.toml"
 hash = "fb0fb93cc73f1c81aca4178f2a5fbda4f1135816bd703547985a18cd6c0ce2af"
 metafile = true
@@ -2891,6 +2954,11 @@ hash = "b8344ea404b0648738b791ce03227030afdebbebf6e732cf83986946b0272220"
 metafile = true
 
 [[files]]
+file = "mods/redirector.pw.toml"
+hash = "598583e7acba1c7e5e322c5fb3e737feba1ae2b18ee84db2e1675c6ad78f76fd"
+metafile = true
+
+[[files]]
 file = "mods/resourceful-config.pw.toml"
 hash = "e394492cd16f5e2ef7a049d0f1794a7540be3c598a732ca7dcc87b55837e2c1b"
 metafile = true
@@ -2902,12 +2970,17 @@ metafile = true
 
 [[files]]
 file = "mods/searchables.pw.toml"
-hash = "373cf3eb42766694bda753ba7bc8db4662d86e5eb81afaeac21bd5f46ea896a9"
+hash = "27158aded3c29b5c744e25d5dc0bb801609b177b41b8caa53e624c3f1c47df70"
 metafile = true
 
 [[files]]
 file = "mods/shetiphiancore.pw.toml"
 hash = "7b74687503a817ae7e7a8145996f0a09ddab38933af1e244b324083aeed2fa16"
+metafile = true
+
+[[files]]
+file = "mods/shimmer.pw.toml"
+hash = "b82d14a08ddeaa08df7bb874f7f5efb1368823780bc25713561ce04bea07e1d8"
 metafile = true
 
 [[files]]
@@ -2936,8 +3009,18 @@ hash = "c2eac86256a3ecd45f6706976af120e0464b135c2b39471b9d93bcd8b5426a8b"
 metafile = true
 
 [[files]]
+file = "mods/staaaaaaaaaaaack.pw.toml"
+hash = "aa15f807d2a5f088e79460b5a98ea1f9dbfc5a25fcc97da41c9152d82930e0f8"
+metafile = true
+
+[[files]]
 file = "mods/structure-layout-optimizer.pw.toml"
 hash = "99d6a9dd4575cea13291abd7f07ce8db5015de2bcf3f53889a9432375e47f3ac"
+metafile = true
+
+[[files]]
+file = "mods/sweeper-maid.pw.toml"
+hash = "4f83703c8bf89f01f01dacec3f8341322e0766e0e1be1655ec5ad3e21e69ea9c"
 metafile = true
 
 [[files]]

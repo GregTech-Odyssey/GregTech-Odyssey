@@ -1,0 +1,13 @@
+name = "FastSpawner"
+filename = "fastspawner-1.20.1-1.0.1.jar"
+side = "client"
+
+[download]
+hash-format = "sha1"
+hash = "8b13640d2d780762ce46734d9c2dd07673a35645"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6802616
+project-id = 1310318

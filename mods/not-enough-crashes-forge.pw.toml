@@ -1,6 +1,6 @@
 name = "Not Enough Crashes (Forge)"
 filename = "notenoughcrashes-4.4.9+1.20.1-forge.jar"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"

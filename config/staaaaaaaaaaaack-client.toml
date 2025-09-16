@@ -1,0 +1,16 @@
+
+["Item count overlay"]
+	#The maximum distance between you and the drops to display its count.
+	#Default: 8
+	#Range: 0 ~ 128
+	minItemCountRenderDistance = 8
+	#Default: 0.8
+	#Range: 0.1 ~ 2.0
+	overlaySizeMultiplier = 0.8
+	#Show item count overlay even if the item count is lower than default maximum stack size.
+	#Default: false
+	alwaysShowItemCount = false
+	#Default: STACK_COUNT
+	#Allowed Values: ITEM_COUNT, STACK_COUNT
+	overlayDisplayMode = "STACK_COUNT"
+

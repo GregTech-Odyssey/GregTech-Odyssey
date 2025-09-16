@@ -1,0 +1,19 @@
+
+[sweeper_maid-common-config]
+	#If 0, disable item sweeping. If > 0, cool down (in seconds) between two item sweeping.
+	#Range: 0 ~ 360000
+	ITEM_SWEEP_INTERVAL = 600
+	#Other entities of types will be killed when cleaning, e.g. arrows. You can also kill mobs or even players by setting this.
+	EXTRA_ENTITY_TYPES = ["minecraft:arrow", "minecraft:spectral_arrow", "oceanworld:drip_ice"]
+	#What message will be sent to players when there's 15s, 30s and 60s left to sweep. "$1" stands for the remaining time (in seconds).
+	MESSAGE_BEFORE_SWEEP_15_30_60 = "[Sweeper Maid]: I'll sweep the floor in $1 seconds!"
+	#What message will be sent to players when there's 1s~10s left to sweep. "$1" stands for the remaining time (in seconds).
+	MESSAGE_BEFORE_SWEEP_1_10 = "[Sweeper Maid]: I'll sweep the floor in $1 seconds!"
+	#What message will be sent to players after a sweep. "$1" stands for the number of killed dropped items, and "$2" stands for the number of killed entities.
+	MESSAGE_AFTER_SWEEP = "[Sweeper Maid]: $1 dropped items and $2 unnecessary entities are cleaned during this sweeping."
+	#What chat message will be sent to players after a sweep. Command will be appended to the end of the chat message.
+	CHAT_MESSAGE_AFTER_SWEEP = "[Sweeper Maid]: Anything's missing? Let's checkout the dustbin: "
+	#Permission level of a player to open the dustbin.
+	#Range: 0 ~ 4
+	PERMISSION_LEVEL_DUSTBIN = 0
+

@@ -1,0 +1,207 @@
+
+[compatibility]
+	# Hides all compatibility warnings...
+	#I don't recommend switching this on except for pack authors
+	# Available: true, false [default: false]
+	hideCompatWarnings = false
+
+[general]
+	# Enable custom health bar
+	# Available: true, false [default: true]
+	enableHealthBar = true
+	# Always render max (configured) heart backgrounds in tablist, even if health is lower
+	# Available: true, false [default: true]
+	alwaysShowMaxTablistHearts = true
+	# Hides the armor bar + armor value text regardless of other config optoins
+	# Available: true, false [default: false]
+	hideArmorBar = false
+	# Show armor value text next to armor bar
+	# Available: true, false [default: true]
+	showArmorValue = true
+	# Draw shadows for all rendered texts
+	# Available: true, false [default: true]
+	textShadow = true
+	# Show resistance as border around armor
+	# Available: true, false [default: true]
+	showResistance = true
+	# Enable custom armor bar
+	# Available: true, false [default: true]
+	enableArmorBar = true
+	# Hides the health bar + health value text regardless of other config optoins
+	# Available: true, false [default: false]
+	hideHealthBar = false
+	# Show health value text next to health bar
+	# Available: true, false [default: true]
+	showHealthValue = true
+	# Show protection as overlay over armor
+	# Available: true, false [default: true]
+	showProtection = true
+	# Determines the side of the toughness bar
+	# Available: RIGHT, LEFT [default: LEFT]
+	# Only effective if useToughnessBar is set to true!
+	#Allowed Values: RIGHT, LEFT
+	toughnessSide = "LEFT"
+	# Determines whether the thoughenss bar should be mirrored
+	# Available: ALWAYS, NEVER, AUTO [default: AUTO]
+	# Only effective if useToughnessBar is set to true!
+	#Allowed Values: ALWAYS, NEVER, AUTO
+	toughnessMirroring = "AUTO"
+	# Always render 10 heart backgrounds, even if max health is lower
+	# Available: true, false [default: false]
+	alwaysShow10HeartBGs = false
+	# Show toughness bar when toughness is zero
+	# Available: true, false [default: false]
+	showToughnessWhenZero = false
+	#Sets the max number of hearts rendered in the tablist
+	# Available: 1 ~ 10 [default: 10]
+	#Range: > 0
+	maxTablistHeartCount = 10
+	# Frostbite heart display style (full = vanilla)
+	# Available: FULL, ICON, OVERLAY [default: ICON]
+	#Allowed Values: FULL, ICON, OVERLAY
+	frostbiteStyle = "ICON"
+	# Show absorption as border around health
+	# Available: true, false [default: true]
+	enableAbsorption = true
+	# Show toughness as overlay over armor or its own bar
+	# Available: true, false [default: true]
+	enableToughness = true
+	# Disables all easter eggs, which is sad but some want it
+	# Available: true, false [default: false]
+	disableEastereggs = false
+	# Show armor bar when armor is zero
+	# Available: true, false [default: false]
+	showArmorWhenZero = false
+	# Show toughness as it's own bar
+	# Available: true, false [default: false]
+	useToughnessBar = false
+	# Show toughness value text next to toughness bar
+	# Available: true, false [default: true]
+	showToughnessValue = true
+	# Show frostbite percentage next to health bar
+	# Available: true, false [default: true]
+	showFrostbitePercentage = true
+	# Suffix type used for displaying high numeric values
+	# Available: SI, SCI, GER, ENG [default: SI]
+	#Allowed Values: SI, SCI, GER, ENG
+	suffix = "SI"
+	# Enable custom tablist health rendering (displaytype health)
+	# Available: true, false [default: true]
+	enableTablistHealth = true
+	# Sets the texture sheet used for rendering
+	# See https://github.com/Cheos137/ArmorpointsPlusplus/wiki/Custom-Texture-Sheets for more information
+	# Builtin: default, hallow, vanilla [default: default]
+	textureSheet = "default"
+	# Show absorption as hearts within the health bar
+	# Available: true, false [default: false]
+	useAbsorptionOverlay = false
+
+	[general.debug]
+		# You don't want this to be on. Believe me
+		# Available: true, false [default: false]
+		debug = false
+
+[representative]
+	# Number of icons to show a protection of 1
+	# Available: 0 ~ 10 [default: 0.5]
+	#Range: 0.0 ~ 10.0
+	protection = 0.5
+	# Number of icons to show a resistance of 1
+	# Available: 0 ~ 10 [default: 2]
+	#Range: 0.0 ~ 10.0
+	resistance = 2.0
+	# Number of pixels to show an absorption of 1
+	# Available: 0 ~ 200 [default: 0.25]
+	#Range: 0.0 ~ 200.0
+	absorption = 0.25
+	# Number of icons to show a armor toughness of 1
+	# Available: 0 ~ 10 [default: 1]
+	# Note: This ONLY affects toughness overlays and NOT the standalone toughness bar
+	#Range: 0.0 ~ 10.0
+	toughness = 1.0
+
+[textcolors]
+	# Color when fully frozen
+	# Available: 0x000000 ~ 0xffffff [default: 01bef2]
+	heartFrostbite = "0x01bef2"
+	# Color of absorption
+	# Available: 0x000000 ~ 0xffffff [default: ffc300]
+	absorption = "0xffc300"
+	# Color normal status
+	# Available: 0x000000 ~ 0xffffff [default: ff1313]
+	heart = "0xff1313"
+	# Color of separator
+	# Available: 0x000000 ~ 0xffffff [default: 3d3d3d]
+	separator = "0x3d3d3d"
+	# Color when armor < 25
+	# Available: 0x000000 ~ 0xffffff [default: 44ff11]
+	armorLT25 = "0x44ff11"
+	# Color when armor > 25
+	# Available: 0x000000 ~ 0xffffff [default: ff3311]
+	armorGT25 = "0xff3311"
+	# Color when withered
+	# Available: 0x000000 ~ 0xffffff [default: 2b2b2b]
+	heartWither = "0x2b2b2b"
+	# Color when armor = 25
+	# Available: 0x000000 ~ 0xffffff [default: ff8811]
+	armorEQ25 = "0xff8811"
+	# Color when poisoned
+	# Available: 0x000000 ~ 0xffffff [default: 947818]
+	heartPoison = "0x947818"
+	# Color when armor = 0
+	# Available: 0x000000 ~ 0xffffff [default: 3d3d3d]
+	armor0 = "0x3d3d3d"
+	# Color of toughness
+	# Available: 0x000000 ~ 0xffffff [default: ff8811]
+	toughness = "0xff8811"
+	# Color when resistance > 5
+	# Available: 0x000000 ~ 0xffffff [default: 8a0f0f]
+	resistanceFull = "0x8a0f0f"
+
+[textconfig]
+	# if enabled, custom X position of the health value text
+	# Available: 0 ~ 32768 [default: 0]
+	#Range: 0.0 ~ 32768.0
+	healthValueX = 0.0
+	# if enabled, custom alignment of the armor value text
+	# Available: LEFT, CENTER, RIGHT [default: RIGHT]
+	#Allowed Values: LEFT, CENTER, RIGHT
+	armorValueAlignment = "RIGHT"
+	# if enabled, custom alignment of the health value text
+	# Available: LEFT, CENTER, RIGHT [default: RIGHT]
+	#Allowed Values: LEFT, CENTER, RIGHT
+	healthValueAlignment = "RIGHT"
+	# if enabled, custom X position of the toughness value text
+	# Available: 0 ~ 32768 [default: 0]
+	#Range: 0.0 ~ 32768.0
+	toughnessValueX = 0.0
+	# if enabled, custom Y position of the armor value text
+	# Available: 0 ~ 32768 [default: 0]
+	#Range: 0.0 ~ 32768.0
+	armorValueY = 0.0
+	# if enabled, custom Y position of the toughness value text
+	# Available: 0 ~ 32768 [default: 0]
+	#Range: 0.0 ~ 32768.0
+	toughnessValueY = 0.0
+	# Enables custom armor value configuration
+	# Available: true, false [default: false]
+	enableArmorValueConfig = false
+	# if enabled, custom Y position of the health value text
+	# Available: 0 ~ 32768 [default: 0]
+	#Range: 0.0 ~ 32768.0
+	healthValueY = 0.0
+	# Enables custom toughness value configuration
+	# Available: true, false [default: false]
+	enableToughnessValueConfig = false
+	# if enabled, custom X position of the armor value text
+	# Available: 0 ~ 32768 [default: 0]
+	#Range: 0.0 ~ 32768.0
+	armorValueX = 0.0
+	# if enabled, custom alignment of the toughness value text
+	# Available: LEFT, CENTER, RIGHT [default: RIGHT]
+	#Allowed Values: LEFT, CENTER, RIGHT
+	toughnessValueAlignment = "RIGHT"
+	# Enables custom health value configuration
+	# Available: true, false [default: false]
+	enableHealthValueConfig = false
+
