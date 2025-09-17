@@ -642,7 +642,7 @@ hash = "09ff183e061d93b79514bc171bf9118497578757e7a5c45946039487656e2619"
 
 [[files]]
 file = "config/emi.css"
-hash = "5945e3d06950df81f50595bbddbcbc4fa6f3ac7acc2c4fd74c29c0c7849bc3e2"
+hash = "f8f43d6e59323558378c6143afb1693d4bd7db78f023aac0ead3db1d7968541c"
 
 [[files]]
 file = "config/emitrades.json5"
@@ -2531,7 +2531,7 @@ metafile = true
 
 [[files]]
 file = "mods/ender-io.pw.toml"
-hash = "4d0096159aa292046333f7b4d95344bc38088c3cdaf2ef943fff162515fea30c"
+hash = "d60ae8988250a61a6fff7a141dad1f5e14ce288e33fde97cad9a8ee11ea775be"
 metafile = true
 
 [[files]]
@@ -2730,8 +2730,8 @@ hash = "477c0165ac7a3d521157a8fa69fd5335804383fc04459e0ee7a2ce799a08c568"
 metafile = true
 
 [[files]]
-file = "mods/gtocore-0.4.6.5.jar"
-hash = "53a997bc1743cc44da1f0848e778bc0bc504c2799e779dff7dbc27b06ac68083"
+file = "mods/gtocore-0.4.6.6.jar"
+hash = "50b754795ffb16c8fcf24f30d1ea3d61cfebbdd57c594d67bea5a832ffe95709"
 
 [[files]]
 file = "mods/guideme.pw.toml"
