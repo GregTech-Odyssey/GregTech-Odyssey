@@ -737,88 +737,6 @@
 		}
 		{
 			height: 1.0d
-			image: "ae2:block/quantum_ring"
-			rotation: 0.0d
-			width: 1.0d
-			x: -20.0d
-			y: 4.0d
-		}
-		{
-			height: 1.0d
-			image: "ae2:block/quantum_ring"
-			rotation: 0.0d
-			width: 1.0d
-			x: -19.0d
-			y: 4.0d
-		}
-		{
-			height: 1.0d
-			image: "ae2:block/quantum_ring"
-			rotation: 0.0d
-			width: 1.0d
-			x: -18.0d
-			y: 4.0d
-		}
-		{
-			height: 1.0d
-			image: "ae2:block/quantum_ring"
-			rotation: 0.0d
-			width: 1.0d
-			x: -20.0d
-			y: 5.0d
-		}
-		{
-			height: 1.0d
-			image: "ae2:block/quantum_ring"
-			rotation: 0.0d
-			width: 1.0d
-			x: -20.0d
-			y: 6.0d
-		}
-		{
-			height: 1.0d
-			image: "ae2:block/quantum_ring"
-			rotation: 0.0d
-			width: 1.0d
-			x: -18.0d
-			y: 5.0d
-		}
-		{
-			height: 1.0d
-			image: "ae2:block/quantum_ring"
-			rotation: 0.0d
-			width: 1.0d
-			x: -18.0d
-			y: 6.0d
-		}
-		{
-			height: 1.0d
-			image: "ae2:block/quantum_ring"
-			rotation: 0.0d
-			width: 1.0d
-			x: -19.0d
-			y: 6.0d
-		}
-		{
-			height: 1.0d
-			image: "ae2:block/quantum_link"
-			order: 2
-			rotation: 0.0d
-			width: 1.0d
-			x: -19.0d
-			y: 5.0d
-		}
-		{
-			height: 1.0d
-			image: "ae2:item/quantum_entangled_singularity"
-			order: 1
-			rotation: 0.0d
-			width: 1.0d
-			x: -19.0d
-			y: 5.0d
-		}
-		{
-			height: 1.0d
 			image: "gtocore:item/circuit/suprachronal_hv"
 			rotation: 0.0d
 			width: 1.0d
@@ -878,8 +796,8 @@
 			image: "ae2:textures/logo_appied_energistics.png"
 			rotation: 0.0d
 			width: 9.27d
-			x: -8.5d
-			y: -1.5d
+			x: -20.5d
+			y: 4.5d
 		}
 		{
 			color: 16711935
@@ -3165,13 +3083,28 @@
 			dependencies: [
 				"1E478682EAC0C56B"
 				"04581C43F7B0BBCE"
+				"176C374E1C0EA92F"
 			]
+			description: [
+				"摆放两个如下所示的量子桥，将一对&6量子缠绕态奇点&r放入其中，两座量子桥就可以跨维度相连"
+				"{image:ae2:textures/quantum_ring.png width:100 height:100 align:center}"
+			]
+			icon: "ae2:quantum_ring"
 			id: "6BA5CF66F0CE3119"
-			tasks: [{
-				id: "45B07AC3C321C3C8"
-				item: "ae2:quantum_ring"
-				type: "item"
-			}]
+			tasks: [
+				{
+					count: 16L
+					id: "45B07AC3C321C3C8"
+					item: "ae2:quantum_ring"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "02D4DF7F05529B83"
+					item: "ae2:quantum_link"
+					type: "item"
+				}
+			]
 			x: -17.0d
 			y: 7.5d
 		}
@@ -3826,6 +3759,7 @@
 		{
 			dependencies: ["570652D76CB788E9"]
 			description: ["一般是先给终端装上&6量子桥卡&r，然后才会用它来做跨维度传输"]
+			hide_dependency_lines: true
 			id: "176C374E1C0EA92F"
 			tasks: [{
 				count: 2L
@@ -4020,25 +3954,6 @@
 			title: "光通染色球"
 			x: -23.0d
 			y: 15.5d
-		}
-		{
-			dependencies: [
-				"176C374E1C0EA92F"
-				"6BA5CF66F0CE3119"
-				"0B8E06206D29E420"
-			]
-			description: ["摆放两个如上图所示的量子桥，将一组&6量子缠绕态奇点&r放入其中，两座量子桥就可以跨维度相连"]
-			hide_dependency_lines: true
-			icon: "gtocore:quantum_anomaly"
-			id: "5627B38033AF2674"
-			shape: "pentagon"
-			tasks: [{
-				id: "11FAB9B0FC585C92"
-				type: "checkmark"
-			}]
-			title: "搭建量子桥"
-			x: -19.0d
-			y: 7.5d
 		}
 		{
 			dependencies: [

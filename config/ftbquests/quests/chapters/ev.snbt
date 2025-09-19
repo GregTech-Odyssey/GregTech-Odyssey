@@ -11,36 +11,16 @@
 			image: "xtonesreworked:block/bitt/12"
 			rotation: 0.0d
 			width: 1.1d
-			x: 1.5d
-			y: -13.0d
+			x: 1.0d
+			y: -13.5d
 		}
 		{
 			height: 1.1d
 			image: "xtonesreworked:block/bitt/12"
 			rotation: 0.0d
 			width: 1.1d
-			x: 2.5d
-			y: -13.0d
-		}
-		{
-			color: 16711935
-			height: 1.1d
-			image: "ftbquests:block/barrier_open"
-			order: 1
-			rotation: 0.0d
-			width: 1.1d
-			x: 1.5d
-			y: -13.0d
-		}
-		{
-			color: 16711935
-			height: 1.1d
-			image: "ftbquests:block/barrier_open"
-			order: 1
-			rotation: 0.0d
-			width: 1.1d
-			x: 2.5d
-			y: -13.0d
+			x: 2.0d
+			y: -13.5d
 		}
 		{
 			color: 16711935
@@ -50,7 +30,7 @@
 			rotation: 0.0d
 			width: 1.1d
 			x: 1.0d
-			y: -1.0d
+			y: -13.5d
 		}
 		{
 			color: 16711935
@@ -60,7 +40,27 @@
 			rotation: 0.0d
 			width: 1.1d
 			x: 2.0d
-			y: -1.0d
+			y: -13.5d
+		}
+		{
+			color: 16711935
+			height: 1.1d
+			image: "ftbquests:block/barrier_open"
+			order: 1
+			rotation: 0.0d
+			width: 1.1d
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			color: 16711935
+			height: 1.1d
+			image: "ftbquests:block/barrier_open"
+			order: 1
+			rotation: 0.0d
+			width: 1.1d
+			x: 2.0d
+			y: -1.5d
 		}
 		{
 			height: 1.1d
@@ -68,7 +68,7 @@
 			rotation: 0.0d
 			width: 1.1d
 			x: 1.0d
-			y: -1.0d
+			y: -1.5d
 		}
 		{
 			height: 1.1d
@@ -76,7 +76,7 @@
 			rotation: 0.0d
 			width: 1.1d
 			x: 2.0d
-			y: -1.0d
+			y: -1.5d
 		}
 	]
 	order_index: 6
@@ -105,29 +105,29 @@
 			id: "50DE63BF29511D2E"
 			linked_quest: "69DF9DE9F7176FD0"
 			shape: "square"
-			x: 2.5d
-			y: -13.0d
+			x: 2.0d
+			y: -13.5d
 		}
 		{
 			id: "46C3F904D3DBAD79"
 			linked_quest: "2DAEB70539AACE1A"
 			shape: "square"
-			x: 1.5d
-			y: -13.0d
+			x: 1.0d
+			y: -13.5d
 		}
 		{
 			id: "160EF833BB857B97"
 			linked_quest: "79B00A56EED55DBD"
 			shape: "square"
 			x: 1.0d
-			y: -1.0d
+			y: -1.5d
 		}
 		{
 			id: "749B7F8089170DB1"
 			linked_quest: "31BA74442F9E953E"
 			shape: "square"
 			x: 2.0d
-			y: -1.0d
+			y: -1.5d
 		}
 		{
 			id: "38034C2D7E0BA13A"
@@ -565,7 +565,7 @@
 			}]
 			title: "&b纳米处理器主机"
 			x: -0.5d
-			y: -1.0d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -830,7 +830,7 @@
 				type: "item"
 			}]
 			x: -2.25d
-			y: -4.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["2F6C81E3B10365E8"]
@@ -844,7 +844,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: -4.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["63B3B1533377F7BA"]
@@ -859,7 +859,7 @@
 				type: "item"
 			}]
 			x: -2.25d
-			y: -2.75d
+			y: -5.25d
 		}
 		{
 			dependencies: ["5B243900BEDF71CA"]
@@ -1030,7 +1030,7 @@
 				type: "item"
 			}]
 			x: -2.25d
-			y: -1.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["2F6C81E3B10365E8"]
@@ -1044,7 +1044,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: -1.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["2F6C81E3B10365E8"]
@@ -1207,7 +1207,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: -13.0d
+			y: -13.5d
 		}
 		{
 			dependencies: ["08891CB1BAFA5515"]
@@ -1264,8 +1264,8 @@
 				item: "gtceu:cleaning_maintenance_hatch"
 				type: "item"
 			}]
-			x: 3.75d
-			y: -11.25d
+			x: 3.25d
+			y: -11.75d
 		}
 		{
 			dependencies: ["32B3E6812521AB70"]
