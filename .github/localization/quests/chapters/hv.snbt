@@ -14,34 +14,16 @@
 			order: 1
 			rotation: 0.0d
 			width: 1.1d
-			x: 4.5d
-			y: -4.5d
+			x: 5.0d
+			y: -4.0d
 		}
 		{
 			height: 1.1d
 			image: "xtonesreworked:block/bitt/12"
 			rotation: 0.0d
 			width: 1.1d
-			x: 4.5d
-			y: -4.5d
-		}
-		{
-			height: 1.1d
-			image: "xtonesreworked:block/bitt/12"
-			rotation: 0.0d
-			width: 1.1d
-			x: 1.5d
-			y: -4.5d
-		}
-		{
-			color: 16711935
-			height: 1.1d
-			image: "ftbquests:block/barrier_open"
-			order: 1
-			rotation: 0.0d
-			width: 1.1d
-			x: 1.5d
-			y: -4.5d
+			x: 5.0d
+			y: -4.0d
 		}
 		{
 			height: 1.1d
@@ -49,7 +31,7 @@
 			rotation: 0.0d
 			width: 1.1d
 			x: 1.0d
-			y: 5.5d
+			y: -4.0d
 		}
 		{
 			color: 16711935
@@ -59,7 +41,25 @@
 			rotation: 0.0d
 			width: 1.1d
 			x: 1.0d
-			y: 5.5d
+			y: -4.0d
+		}
+		{
+			height: 1.1d
+			image: "xtonesreworked:block/bitt/12"
+			rotation: 0.0d
+			width: 1.1d
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			color: 16711935
+			height: 1.1d
+			image: "ftbquests:block/barrier_open"
+			order: 1
+			rotation: 0.0d
+			width: 1.1d
+			x: 1.0d
+			y: 6.0d
 		}
 	]
 	order_index: 5
@@ -78,7 +78,7 @@
 			shape: "hexagon"
 			size: 1.5d
 			x: 3.0d
-			y: 5.5d
+			y: 6.0d
 		}
 		{
 			id: "36E98813A7A95723"
@@ -100,35 +100,35 @@
 			linked_quest: "43974ABFAE99587B"
 			shape: "square"
 			x: -6.0d
-			y: 5.5d
+			y: 6.0d
 		}
 		{
 			id: "293DA58449370105"
 			linked_quest: "2F42DE3FEC2C35F9"
 			shape: "square"
 			x: -7.0d
-			y: 5.5d
+			y: 6.0d
 		}
 		{
 			id: "633BBB15146C159A"
 			linked_quest: "5F96077A62E88635"
 			shape: "square"
 			x: -2.0d
-			y: 5.5d
+			y: 6.0d
 		}
 		{
 			id: "60353AC478472063"
 			linked_quest: "2AA0714363BA85CB"
 			shape: "square"
-			x: 1.5d
-			y: -4.5d
+			x: 1.0d
+			y: -4.0d
 		}
 		{
 			id: "78F40ABD52DF9590"
 			linked_quest: "5F522D73AF5F1B2F"
 			shape: "square"
 			x: 1.0d
-			y: 5.5d
+			y: 6.0d
 		}
 	]
 	quests: [
@@ -473,7 +473,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: 5.5d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -810,7 +810,7 @@
 				type: "item"
 			}]
 			x: -3.5d
-			y: 5.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["4BA890971C18F938"]
@@ -1093,7 +1093,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 5.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["7A7DC6205DED9BF3"]
@@ -1212,8 +1212,8 @@
 				}
 			]
 			title: "{gto.hv.quests.19B006CEA837B6B4.title}"
-			x: 4.5d
-			y: -4.5d
+			x: 5.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["5D828A5258BFF11F"]
@@ -1734,7 +1734,7 @@
 				type: "item"
 			}]
 			x: -5.0d
-			y: 5.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["198304056173E631"]
