@@ -11,7 +11,7 @@
 			image: "xtonesreworked:block/bitt/12"
 			rotation: 0.0d
 			width: 1.1d
-			x: 3.5d
+			x: 2.5d
 			y: -8.0d
 		}
 		{
@@ -21,7 +21,7 @@
 			order: 1
 			rotation: 0.0d
 			width: 1.1d
-			x: 3.5d
+			x: 2.5d
 			y: -8.0d
 		}
 		{
@@ -29,7 +29,7 @@
 			image: "xtonesreworked:block/bitt/12"
 			rotation: 0.0d
 			width: 1.1d
-			x: 2.5d
+			x: 1.5d
 			y: -8.0d
 		}
 		{
@@ -39,7 +39,7 @@
 			order: 1
 			rotation: 0.0d
 			width: 1.1d
-			x: 2.5d
+			x: 1.5d
 			y: -8.0d
 		}
 		{
@@ -65,7 +65,7 @@
 			image: "xtonesreworked:block/bitt/12"
 			rotation: 0.0d
 			width: 1.1d
-			x: 1.5d
+			x: 0.5d
 			y: -8.0d
 		}
 		{
@@ -75,7 +75,7 @@
 			order: 1
 			rotation: 0.0d
 			width: 1.1d
-			x: 1.5d
+			x: 0.5d
 			y: -8.0d
 		}
 	]
@@ -93,14 +93,14 @@
 			id: "0DAFE054BF92FA6E"
 			linked_quest: "0BC456B4331C09F5"
 			shape: "square"
-			x: 2.5d
+			x: 1.5d
 			y: -8.0d
 		}
 		{
 			id: "5F48CB73E3456910"
 			linked_quest: "430034AB98D8453B"
 			shape: "square"
-			x: 3.5d
+			x: 2.5d
 			y: -8.0d
 		}
 		{
@@ -114,7 +114,7 @@
 			id: "31FDB6095F1DCD59"
 			linked_quest: "498909CBDFB62BF6"
 			shape: "square"
-			x: 1.5d
+			x: 0.5d
 			y: -8.0d
 		}
 	]
@@ -127,7 +127,7 @@
 				item: "gtceu:raw_naquadah"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 0.0d
 			y: 0.5d
 		}
 		{
@@ -143,7 +143,7 @@
 				item: "gtocore:neutron_activator"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 1.5d
 			y: -4.5d
 		}
 		{
@@ -155,7 +155,7 @@
 				item: "gtceu:naquadah_ingot"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 1.5d
 			y: 0.5d
 		}
 		{
@@ -179,7 +179,7 @@
 				item: "gtceu:naquadah_coil_block"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 1.5d
 			y: -1.5d
 		}
 		{
@@ -194,7 +194,7 @@
 				item: "gtceu:trinium_ingot"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 1.5d
 			y: -3.0d
 		}
 		{
@@ -244,7 +244,7 @@
 				item: "gtceu:indium_tin_barium_titanium_cuprate_ingot"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 1.5d
 			y: 5.0d
 		}
 		{
@@ -551,7 +551,7 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
+			x: -0.5d
 			y: 5.0d
 		}
 		{
@@ -626,7 +626,7 @@
 				item: "gtceu:luv_assembler"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 1.5d
 			y: -6.5d
 		}
 		{
@@ -639,7 +639,7 @@
 				item: "gtocore:integral_framework_luv"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 0.5d
 			y: -6.5d
 		}
 		{
@@ -725,7 +725,7 @@
 				item: "gtceu:naquadah_boule"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 0.0d
 			y: -1.5d
 		}
 		{
@@ -763,7 +763,7 @@
 				item: "gtceu:indium_tin_barium_titanium_cuprate_single_wire"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 1.5d
 			y: 3.0d
 		}
 		{
@@ -954,7 +954,7 @@
 				item: "gtceu:tiny_polonium_dust"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 0.0d
 			y: -4.5d
 		}
 		{
@@ -977,7 +977,7 @@
 				item: "gtocore:simple_fiber_optic_rough"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 1.5d
 			y: 7.5d
 		}
 		{
@@ -990,7 +990,7 @@
 				item: "gtocore:drawing_tower"
 				type: "item"
 			}]
-			x: 0.0d
+			x: -0.5d
 			y: 7.5d
 		}
 		{
