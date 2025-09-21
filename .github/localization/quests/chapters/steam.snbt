@@ -310,7 +310,7 @@
 			}]
 			title: "{gto.steam.quests.6E2614839731BF0D.title}"
 			x: -0.5d
-			y: 6.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["17408BBD93A18AEC"]
@@ -356,7 +356,7 @@
 			}]
 			title: "{gto.steam.quests.7BE51B4BC36F8B7B.title}"
 			x: 2.25d
-			y: 10.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["24C53B5FF515ACAC"]
@@ -480,8 +480,8 @@
 				type: "item"
 			}]
 			title: "{gto.steam.quests.35AC53D6E8EE6796.title}"
-			x: -3.0d
-			y: 6.500000000000007d
+			x: -0.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["7BE51B4BC36F8B7B"]
@@ -504,8 +504,8 @@
 				type: "item"
 			}]
 			title: "{gto.steam.quests.7AEE9F9ADE58612F.title}"
-			x: 2.25d
-			y: 12.0d
+			x: 1.25d
+			y: 7.5d
 		}
 		{
 			dependencies: ["05F4015974079225"]
@@ -665,7 +665,7 @@
 				type: "item"
 			}]
 			title: "{gto.steam.quests.4B03D68C7C9FAA8C.title}"
-			x: 9.5d
+			x: 11.25d
 			y: 10.0d
 		}
 		{
@@ -691,7 +691,7 @@
 				type: "item"
 			}]
 			title: "{gto.steam.quests.043FCD7B759853EA.title}"
-			x: 7.25d
+			x: 9.0d
 			y: 10.0d
 		}
 		{
@@ -714,8 +714,8 @@
 				type: "item"
 			}]
 			title: "{gto.steam.quests.2012FF7B348CC62B.title}"
-			x: 4.75d
-			y: 10.0d
+			x: 9.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["4F1FEB6CE7C64D14"]
@@ -950,6 +950,10 @@
 				"{gto.steam.quests.020E8B707A8CF794.description1}"
 				""
 				"{gto.steam.quests.020E8B707A8CF794.description2}"
+				""
+				"{gto.steam.quests.020E8B707A8CF794.description3}"
+				""
+				"{gto.steam.quests.020E8B707A8CF794.description4}"
 			]
 			id: "020E8B707A8CF794"
 			shape: "diamond"
@@ -961,7 +965,7 @@
 				type: "item"
 			}]
 			title: "{gto.steam.quests.020E8B707A8CF794.title}"
-			x: 4.75d
+			x: 7.5d
 			y: 12.0d
 		}
 		{
@@ -985,7 +989,7 @@
 				type: "item"
 			}]
 			title: "{gto.steam.quests.411686C01CB6045F.title}"
-			x: 7.25d
+			x: 9.0d
 			y: 12.0d
 		}
 		{
@@ -1005,7 +1009,7 @@
 				type: "item"
 			}]
 			title: "{gto.steam.quests.7ADAA0DA032918C5.title}"
-			x: 9.5d
+			x: 10.5d
 			y: 12.0d
 		}
 		{
@@ -1094,6 +1098,7 @@
 				item: "minecraft:iron_ingot"
 				type: "item"
 			}]
+			subtitle: "{gto.steam.quests.402F27D382D05FAA.subtitle}"
 			tasks: [{
 				count: 8L
 				id: "20BD325F3109C979"
@@ -1101,8 +1106,8 @@
 				type: "item"
 			}]
 			title: "{gto.steam.quests.402F27D382D05FAA.title}"
-			x: -3.0d
-			y: 10.0d
+			x: 0.5d
+			y: 9.0d
 		}
 		{
 			dependencies: [
@@ -1132,8 +1137,8 @@
 				type: "item"
 			}]
 			title: "{gto.steam.quests.53A8535B07FE3958.title}"
-			x: -6.0d
-			y: 12.0d
+			x: -3.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["017D4D369784454E"]
@@ -1194,7 +1199,7 @@
 				type: "item"
 			}]
 			title: "{gto.steam.quests.1449A2A27F34E8CF.title}"
-			x: 9.5d
+			x: 11.25d
 			y: 8.5d
 		}
 		{
@@ -1231,8 +1236,8 @@
 				}
 			]
 			title: "{gto.steam.quests.5859702A2DF96727.title}"
-			x: -3.0d
-			y: 8.25d
+			x: -1.25d
+			y: 9.0d
 		}
 		{
 			dependencies: ["17408BBD93A18AEC"]
@@ -1256,8 +1261,8 @@
 				item: "immersive_aircraft:engine"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 6.5d
+			x: 1.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["13FBF05133D59CDC"]
@@ -1295,7 +1300,6 @@
 				"{gto.steam.quests.4CC934314D14A5EA.description1}"
 				"[\"\", {\"translate\": \"gto.steam.quests.4CC934314D14A5EA.description2.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"4C94E56A9270EFFB\"}, \"translate\": \"gto.steam.quests.4CC934314D14A5EA.description2.rich_text1\"}, {\"translate\": \"gto.steam.quests.4CC934314D14A5EA.description2.rich_text2\"}]"
 			]
-			hide_dependent_lines: true
 			id: "4CC934314D14A5EA"
 			shape: "hexagon"
 			subtitle: "{gto.steam.quests.4CC934314D14A5EA.subtitle}"
@@ -1305,8 +1309,8 @@
 				type: "item"
 			}]
 			title: "{gto.steam.quests.4CC934314D14A5EA.title}"
-			x: 7.25d
-			y: 8.5d
+			x: 6.5d
+			y: 10.0d
 		}
 		{
 			dependencies: ["604FA0DDAD1979A1"]
@@ -1330,8 +1334,8 @@
 				type: "item"
 			}]
 			title: "{gto.steam.quests.29A2859398D5B252.title}"
-			x: -6.0d
-			y: 4.5d
+			x: -3.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["4A9E47C3F8DF24A3"]
@@ -1462,13 +1466,10 @@
 			}]
 			title: "{gto.steam.quests.15C001AF6C76B490.title}"
 			x: 9.5d
-			y: 0.0d
+			y: -2.0d
 		}
 		{
-			dependencies: [
-				"402F27D382D05FAA"
-				"53A8535B07FE3958"
-			]
+			dependencies: ["53A8535B07FE3958"]
 			description: [
 				"{gto.steam.quests.4678D97346E46529.description0}"
 				""
@@ -1487,7 +1488,7 @@
 			}]
 			title: "{gto.steam.quests.4678D97346E46529.title}"
 			x: -3.0d
-			y: 12.0d
+			y: 13.0d
 		}
 		{
 			dependencies: ["27F4D9739FE33A02"]
@@ -1511,7 +1512,7 @@
 			}]
 			title: "{gto.steam.quests.5E630E41CA4A363A.title}"
 			x: 9.5d
-			y: -1.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["27F4D9739FE33A02"]
@@ -1630,7 +1631,6 @@
 		}
 		{
 			dependencies: ["0019A5EEEE514539"]
-			hide_dependency_lines: true
 			id: "3528806A9F4D4E7E"
 			shape: "circle"
 			tasks: [{
@@ -1638,8 +1638,8 @@
 				item: "gtceu:plate_casting_mold"
 				type: "item"
 			}]
-			x: 7.25d
-			y: 6.75d
+			x: 6.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["0019A5EEEE514539"]

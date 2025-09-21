@@ -7,38 +7,38 @@
 	id: "366A2FFB50EF9456"
 	images: [
 		{
-			height: 1.1d
+			height: 1.0d
 			image: "xtonesreworked:block/bitt/12"
-			rotation: 0.0d
-			width: 1.1d
+			rotation: 45.0d
+			width: 1.0d
 			x: 5.0d
 			y: 5.0d
 		}
 		{
 			color: 16711935
-			height: 1.1d
+			height: 1.0d
 			image: "ftbquests:block/barrier_open"
 			order: 1
-			rotation: 0.0d
-			width: 1.1d
+			rotation: 45.0d
+			width: 1.0d
 			x: 5.0d
 			y: 5.0d
 		}
 		{
-			height: 1.1d
+			height: 1.0d
 			image: "xtonesreworked:block/bitt/12"
-			rotation: 0.0d
-			width: 1.1d
+			rotation: 45.0d
+			width: 1.0d
 			x: 1.0d
 			y: 0.5d
 		}
 		{
 			color: 16711935
-			height: 1.1d
+			height: 1.0d
 			image: "ftbquests:block/barrier_open"
 			order: 1
-			rotation: 0.0d
-			width: 1.1d
+			rotation: 45.0d
+			width: 1.0d
 			x: 1.0d
 			y: 0.5d
 		}
@@ -56,14 +56,14 @@
 		{
 			id: "45C541AE7ED9C6EF"
 			linked_quest: "6F43BA73FE817566"
-			shape: "square"
+			shape: "diamond"
 			x: 5.0d
 			y: 5.0d
 		}
 		{
 			id: "00F5A8E95ADC4F78"
 			linked_quest: "62402E1DBC9CF1B4"
-			shape: "square"
+			shape: "diamond"
 			x: 1.0d
 			y: 0.5d
 		}
