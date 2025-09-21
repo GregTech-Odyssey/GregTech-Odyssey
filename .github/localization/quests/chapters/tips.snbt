@@ -290,10 +290,7 @@
 			y: 2.25d
 		}
 		{
-			dependencies: [
-				"79646E8E449D8A1A"
-				"45C8A2DF9C0E5473"
-			]
+			dependencies: ["79646E8E449D8A1A"]
 			description: [
 				"{gto.tips.quests.20BC48DF78F11B24.description0}"
 				""
@@ -468,10 +465,48 @@
 			shape: "pentagon"
 			size: 1.5d
 			subtitle: "{gto.tips.quests.5C62ECF9AC84E023.subtitle}"
-			tasks: [{
-				id: "6F25CA3019D8D976"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "6F25CA3019D8D976"
+					type: "checkmark"
+				}
+				{
+					id: "34C68B82EBD01EE1"
+					item: "gtmthings:wireless_item_transfer_cover"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7B4A0832923BDB7E"
+					item: "gtmthings:wireless_fluid_transfer_cover"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7251143A1051B8E5"
+					item: "gtocore:wireless_charger_cover"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "66188DA20A88AC56"
+					item: "gtmthings:programmable_cover"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "38476D835F55180C"
+					item: "gtceu:storage_cover"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "36211B6FA9CFCB5B"
+					item: "gtceu:machine_controller_cover"
+					optional_task: true
+					type: "item"
+				}
+			]
 			title: "{gto.tips.quests.5C62ECF9AC84E023.title}"
 			x: 2.25d
 			y: 2.25d
@@ -1209,11 +1244,13 @@
 						id: "gtceu:liquid_fuel_jetpack"
 						tag: { }
 					}
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "1A30383B837FA8E8"
 					item: "immersive_aircraft:biplane"
+					optional_task: true
 					type: "item"
 				}
 			]

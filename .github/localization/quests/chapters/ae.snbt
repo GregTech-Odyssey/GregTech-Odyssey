@@ -3083,28 +3083,14 @@
 			dependencies: [
 				"1E478682EAC0C56B"
 				"04581C43F7B0BBCE"
-				"176C374E1C0EA92F"
-			]
-			description: [
-				"{gto.ae.quests.6BA5CF66F0CE3119.description0}"
-				"{image:ae2:textures/quantum_ring.png width:100 height:100 align:center}"
 			]
 			icon: "ae2:quantum_ring"
 			id: "6BA5CF66F0CE3119"
-			tasks: [
-				{
-					count: 16L
-					id: "45B07AC3C321C3C8"
-					item: "ae2:quantum_ring"
-					type: "item"
-				}
-				{
-					count: 2L
-					id: "02D4DF7F05529B83"
-					item: "ae2:quantum_link"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "45B07AC3C321C3C8"
+				item: "ae2:quantum_ring"
+				type: "item"
+			}]
 			x: -17.0d
 			y: 7.5d
 		}
@@ -3759,7 +3745,7 @@
 		{
 			dependencies: ["570652D76CB788E9"]
 			description: ["{gto.ae.quests.176C374E1C0EA92F.description0}"]
-			hide_dependency_lines: true
+			hide_dependent_lines: true
 			id: "176C374E1C0EA92F"
 			tasks: [{
 				count: 2L
@@ -4075,6 +4061,27 @@
 			}]
 			x: -21.0d
 			y: 9.5d
+		}
+		{
+			dependencies: [
+				"176C374E1C0EA92F"
+				"6BA5CF66F0CE3119"
+				"0B8E06206D29E420"
+			]
+			description: [
+				"{gto.ae.quests.5627B38033AF2674.description0}"
+				"{image:ae2:textures/quantum_ring.png width:100 height:100 align:center}"
+			]
+			icon: "gtocore:quantum_anomaly"
+			id: "5627B38033AF2674"
+			shape: "pentagon"
+			tasks: [{
+				id: "11FAB9B0FC585C92"
+				type: "checkmark"
+			}]
+			title: "{gto.ae.quests.5627B38033AF2674.title}"
+			x: -19.0d
+			y: 7.5d
 		}
 	]
 	subtitle: ["{gto.ae.subtitle0}"]

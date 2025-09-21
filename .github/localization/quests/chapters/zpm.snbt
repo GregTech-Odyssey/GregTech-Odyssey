@@ -7,20 +7,20 @@
 	id: "7D815C5C7CE4821E"
 	images: [
 		{
-			height: 1.1d
+			height: 1.0d
 			image: "xtonesreworked:block/bitt/12"
-			rotation: 0.0d
-			width: 1.1d
+			rotation: 45.0d
+			width: 1.0d
 			x: -9.0d
 			y: -6.0d
 		}
 		{
 			color: 16711935
-			height: 1.1d
+			height: 1.0d
 			image: "ftbquests:block/barrier_open"
 			order: 1
-			rotation: 0.0d
-			width: 1.1d
+			rotation: 45.0d
+			width: 1.0d
 			x: -9.0d
 			y: -6.0d
 		}
@@ -38,7 +38,7 @@
 		{
 			id: "52240C285F13ADF8"
 			linked_quest: "05833AD0EAA634A7"
-			shape: "square"
+			shape: "diamond"
 			x: -9.0d
 			y: -6.0d
 		}
