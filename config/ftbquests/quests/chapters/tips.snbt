@@ -290,10 +290,7 @@
 			y: 2.25d
 		}
 		{
-			dependencies: [
-				"79646E8E449D8A1A"
-				"45C8A2DF9C0E5473"
-			]
+			dependencies: ["79646E8E449D8A1A"]
 			description: [
 				"&6地表岩石&r很好地指示了地下的矿脉，在开局你可以利用这个特点寻找你需要的矿脉。如果你不知道它长什么样，你可以看看任务图标，这是一个&6地表岩石（金）&r"
 				""
@@ -468,10 +465,48 @@
 			shape: "pentagon"
 			size: 1.5d
 			subtitle: "新鲜事简单报"
-			tasks: [{
-				id: "6F25CA3019D8D976"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "6F25CA3019D8D976"
+					type: "checkmark"
+				}
+				{
+					id: "34C68B82EBD01EE1"
+					item: "gtmthings:wireless_item_transfer_cover"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7B4A0832923BDB7E"
+					item: "gtmthings:wireless_fluid_transfer_cover"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7251143A1051B8E5"
+					item: "gtocore:wireless_charger_cover"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "66188DA20A88AC56"
+					item: "gtmthings:programmable_cover"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "38476D835F55180C"
+					item: "gtceu:storage_cover"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "36211B6FA9CFCB5B"
+					item: "gtceu:machine_controller_cover"
+					optional_task: true
+					type: "item"
+				}
+			]
 			title: "有形的小板"
 			x: 2.25d
 			y: 2.25d
@@ -1209,11 +1244,13 @@
 						id: "gtceu:liquid_fuel_jetpack"
 						tag: { }
 					}
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "1A30383B837FA8E8"
 					item: "immersive_aircraft:biplane"
+					optional_task: true
 					type: "item"
 				}
 			]
