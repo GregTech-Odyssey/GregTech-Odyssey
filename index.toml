@@ -785,6 +785,10 @@ file = "config/ftbquests/quests/chapter_groups.snbt"
 hash = "36edba5bcfbabf479e0ffdf35de56fe0b91b80dd27f1b9706ad420a2e124e068"
 
 [[files]]
+file = "config/ftbquests/quests/chapters/Beyond the stars.snbt"
+hash = "8cda63d48cc6c8a5d7d9b8872a023b23669b5f103215a6ee51bfd579f49cd45d"
+
+[[files]]
 file = "config/ftbquests/quests/chapters/ae.snbt"
 hash = "85fdb99a7d7cc56848e9f47490b2710171809517bde653415618bd6c6f354b60"
 
@@ -1334,7 +1338,7 @@ hash = "84254dc1e5a56ea70df6b16a2fb2620040592badae436c255997aaae84996d91"
 
 [[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/en_us.json"
-hash = "8ecee0847a0ec48b5eb65598305b21f68c4e78457acc9cf057ff2f2dea23f117"
+hash = "f8b4dbc6ce0fa7d2a70890d18aac2918a008f73d70545a40ad9cb6dd33fd1345"
 
 [[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/ru_ru.json"
@@ -1342,11 +1346,11 @@ hash = "49f1dea938171f1d5948d122d89a5c58073b3177574cf30aa6db7e96a9bd68c1"
 
 [[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/zh_cn.json"
-hash = "e575801de5899fb857b4801dcd2761fc4a3ffb73100c53c26584330b89448e64"
+hash = "f1fb67a138eba29b4e2b81b00ee36cbd0145afa5921aa7083619b44f66d57f58"
 
 [[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/zh_tw.json"
-hash = "b5341cdcaff6c8845c666d75d5dd844fe801821cb6a0b5b092b4751d12378ca1"
+hash = "d6ee0e7339bebdc1877259f067da3731f4769826907a4d72a1a23cf7f2ff5f2d"
 
 [[files]]
 file = "config/openloader/resources/quests/pack.mcmeta"
