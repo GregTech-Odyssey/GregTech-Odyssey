@@ -7,40 +7,40 @@
 	id: "3F8D9D2B382EE265"
 	images: [
 		{
-			height: 1.1d
+			height: 1.0d
 			image: "xtonesreworked:block/bitt/12"
-			rotation: 0.0d
-			width: 1.1d
-			x: 8.0d
-			y: -6.0d
+			rotation: 45.0d
+			width: 1.0d
+			x: 8.5d
+			y: -5.5d
 		}
 		{
 			color: 16711935
-			height: 1.1d
+			height: 1.0d
 			image: "ftbquests:block/barrier_open"
 			order: 1
-			rotation: 0.0d
-			width: 1.1d
-			x: 8.0d
-			y: -6.0d
+			rotation: 45.0d
+			width: 1.0d
+			x: 8.5d
+			y: -5.5d
 		}
 		{
 			color: 16711935
-			height: 1.1d
+			height: 1.0d
 			image: "ftbquests:block/barrier_open"
 			order: 1
-			rotation: 0.0d
-			width: 1.1d
-			x: 20.0d
-			y: -8.0d
+			rotation: 45.0d
+			width: 1.0d
+			x: 22.0d
+			y: -8.5d
 		}
 		{
-			height: 1.1d
+			height: 1.0d
 			image: "xtonesreworked:block/bitt/12"
-			rotation: 0.0d
-			width: 1.1d
-			x: 20.0d
-			y: -8.0d
+			rotation: 45.0d
+			width: 1.0d
+			x: 22.0d
+			y: -8.5d
 		}
 	]
 	order_index: 7
@@ -56,9 +56,9 @@
 		{
 			id: "101D1D1E0461C66B"
 			linked_quest: "5F7635CC667AD219"
-			shape: "square"
-			x: 8.0d
-			y: -6.0d
+			shape: "diamond"
+			x: 8.5d
+			y: -5.5d
 		}
 	]
 	quests: [
@@ -141,7 +141,7 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: -6.0d
+			y: -5.5d
 		}
 		{
 			dependencies: [
@@ -504,15 +504,15 @@
 			]
 			id: "56E262C94F46A592"
 			optional: true
-			shape: "circle"
-			size: 1.0d
+			shape: "diamond"
+			size: 1.5d
 			tasks: [{
 				id: "093B61467591683D"
 				item: "gtocore:auto_configuration_maintenance_hatch"
 				type: "item"
 			}]
-			x: 21.75d
-			y: -8.0d
+			x: 20.0d
+			y: -8.5d
 		}
 		{
 			dependencies: ["2BD46F9D8A842B4A"]
@@ -963,8 +963,8 @@
 				title: "大批量加工"
 				type: "checkmark"
 			}]
-			x: 9.0d
-			y: -7.5d
+			x: 8.5d
+			y: -7.0d
 		}
 		{
 			dependencies: [
@@ -1053,15 +1053,15 @@
 			]
 			id: "029CAD5FD378D3E1"
 			optional: true
-			shape: "square"
+			shape: "diamond"
 			subtitle: "轮椅自动化"
 			tasks: [{
 				id: "3CDD1FE8E3131DE2"
 				item: "gtocore:advanced_tesseract_generator"
 				type: "item"
 			}]
-			x: 20.0d
-			y: -8.0d
+			x: 22.0d
+			y: -8.5d
 		}
 		{
 			dependencies: ["1B8F815BF14E7AE8"]
