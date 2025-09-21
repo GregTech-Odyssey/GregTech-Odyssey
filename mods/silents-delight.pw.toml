@@ -1,0 +1,13 @@
+name = "Silent's Delight"
+filename = "silentsdelight-forge-1.0.1-1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "2c0557c05ea7cd4e92dc1613cf0d3c03913334d8"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5448189
+project-id = 1018647

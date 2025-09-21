@@ -1,0 +1,13 @@
+name = "Display Delight"
+filename = "displaydelight-0.0.1-lite.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "4ea914e49d4ca4111e3ef285b2b632e600e1ce27"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6041724
+project-id = 1144296
