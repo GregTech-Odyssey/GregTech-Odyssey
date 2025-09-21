@@ -1,0 +1,1850 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "Beyond the stars"
+	group: ""
+	icon: {
+		Count: 1
+		id: "ad_astra_rocketed:tier_7_rocket"
+		tag: { }
+	}
+	id: "Beyond the stars"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			id: "38A6F2FA481A85E5"
+			tasks: [{
+				id: "2557FB35308E5251"
+				item: "ad_astra:nasa_workbench"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"38A6F2FA481A85E5"
+				"204F134A09B60140"
+			]
+			id: "2C986BC7ECC4E1ED"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "629E261C994993A9"
+				item: "gtocore:rocket_assembler"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			id: "14546EE4309AA78A"
+			tasks: [{
+				id: "3D7C9BBB85879635"
+				item: "gtceu:dense_steel_plate"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["14546EE4309AA78A"]
+			id: "204F134A09B60140"
+			tasks: [{
+				id: "2FC998A553D29CB3"
+				item: "gtocore:heavy_duty_plate_1"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["38A6F2FA481A85E5"]
+			hide_dependency_lines: true
+			id: "60660678C61F2DB9"
+			tasks: [{
+				id: "60D9B99EFF404320"
+				item: "ad_astra:steel_tank"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["38A6F2FA481A85E5"]
+			hide_dependency_lines: true
+			id: "16BE3CF4436C5519"
+			tasks: [{
+				id: "08FE7B6908B0BB68"
+				item: "ad_astra:rocket_nose_cone"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["38A6F2FA481A85E5"]
+			hide_dependency_lines: true
+			id: "00F5434FFC976943"
+			tasks: [{
+				id: "11ED0C3AB03E7E41"
+				item: "ad_astra:rocket_fin"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["60660678C61F2DB9"]
+			id: "372C785E0B24DAD0"
+			tasks: [{
+				id: "4624100A8C4962D0"
+				item: "ad_astra:steel_engine"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"2C986BC7ECC4E1ED"
+				"16BE3CF4436C5519"
+				"60660678C61F2DB9"
+				"372C785E0B24DAD0"
+				"00F5434FFC976943"
+				"191A9B5DBD565F48"
+			]
+			id: "5C067CA2FCE6B458"
+			shape: "gear"
+			size: 2.5d
+			tasks: [{
+				id: "043C5E14E16C1B35"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_1_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["38A6F2FA481A85E5"]
+			hide_dependency_lines: true
+			id: "191A9B5DBD565F48"
+			tasks: [{
+				id: "38DBF13B4F655709"
+				item: "ad_astra:launch_pad"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"6F760D81DC93ACFB"
+				"6D251F85DDB81408"
+				"38EF7B8DB3A08AB2"
+				"0C2743077DB8406F"
+			]
+			description: [
+				"&e等级：&r&6殖民级 - 战略资产&r"
+				""
+				"此芯片是&e「行星扫描」&r任务的最终产物，内部以非易失性存储方式，记录了目标天体（如月球）的完整重力场图、光谱矿物分布、地形高程模型及潜在着陆点危险评估数据。"
+				""
+				"&4警告：&r此芯片为单一副本，是规划地外任务的核心。遗失或损坏将导致整个扫描任务失效。"
+			]
+			hide_dependency_lines: true
+			id: "15D4145A9704592D"
+			tasks: [{
+				id: "5BFF34DC9FEC7384"
+				item: "gtocore:planet_data_chip"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6F760D81DC93ACFB"]
+			description: [
+				"&6行星扫描卫星 - GT-PSS-1 型"
+				"&r"
+				"本设备是深空探索的先驱，是迈向地外殖民的第一步。"
+				""
+				"由高精度HV传感器阵列、高扭矩HV机械臂与高效光伏板材构成，该卫星能在极端环境中稳定运行。其核心的电力推进器确保了其能被准确送入环月轨道，并对月球地表进行全面光谱分析与矿物分布测绘。"
+				""
+				"&4警告&r：任何跨维度太空任务，在未收到该卫星传回的完整行星扫描数据前，&n均被视为自杀行为&r"
+			]
+			id: "67D7CD83E40F6471"
+			tasks: [{
+				id: "77279C0E61724405"
+				item: "gtocore:planet_scan_satellite"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"6F760D81DC93ACFB"
+				"15D4145A9704592D"
+				"67D7CD83E40F6471"
+			]
+			description: [
+				"要实现载人登月这一航天壮举，必须遵循循序渐进的科学探索规律！"
+				""
+				"在正式派遣你自己登陆&e月球&r之前，你需要构建完整的\"无人探测-载人验证-常驻开发\"技术发展体系"
+				""
+				"其中向&e月球&r发射携带&6星球数据芯片&r的&6行星扫描卫星&r是基础性战略步骤，无人探月工程能系统性获取地月空间环境参数、月球重力场数据、辐射剂量谱分布等关键信息，为后续载人登月提供数据支撑。"
+				""
+				"你必须先向&e月球&r发射&6卫星&r以拿到&6月球数据&r"
+			]
+			id: "153B839DC21B36C5"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "0183F85A1A45CC36"
+				item: "gtocore:satellite_control_center"
+				type: "item"
+			}]
+			x: 4.928571428571438d
+			y: -2.3809523809523796d
+		}
+		{
+			dependencies: [
+				"153B839DC21B36C5"
+				"5C067CA2FCE6B458"
+			]
+			description: [
+				"将&616B火箭燃料&r，&6一阶火箭&r，&6行星扫描卫星&r，&6星球数据芯片&r放入&6卫星控制中心&r，调整等级为&21&r，点击&e启程&r，等待火箭返回，带回&6月球数据&r，使用&6扫描仪&r扫描数据后&d解锁月球&r"
+				""
+				"&e那么恭喜你，你已经具备了载人登月所需的一切条件！&r"
+			]
+			icon: "ad_astra:earth_globe"
+			id: "1BD5CACCF07947C7"
+			size: 1.75d
+			subtitle: "找到你了！"
+			tasks: [{
+				id: "1BAA0E07F05D0587"
+				type: "checkmark"
+			}]
+			title: "寻找月球"
+			x: 4.988095238095241d
+			y: 0.0d
+		}
+		{
+			dependencies: ["38A6F2FA481A85E5"]
+			icon: "ad_astra:etrionic_core"
+			id: "40536B32E6A432CD"
+			title: "火箭燃料"
+			x: -4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"7F6CB9F67636C565"
+				"40536B32E6A432CD"
+			]
+			id: "16B3AB1D455CCB50"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "25EE9615BE500843"
+				item: "enderio:rocket_fuel_bucket"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"762B4A5D34A3A4B1"
+				"7C3A3C69E79DB794"
+				"0C63F8EC1AFEDE55"
+			]
+			id: "7F6CB9F67636C565"
+			tasks: [{
+				id: "6A3864F8DDF3E827"
+				item: "gtceu:dimethylhydrazine_bucket"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"6B7CAB754F778C09"
+				"1934F6B99DC0A294"
+			]
+			id: "0C63F8EC1AFEDE55"
+			tasks: [{
+				id: "46AA82A401522D04"
+				item: "gtceu:ammonia_bucket"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"1934F6B99DC0A294"
+				"31617336D062DBDE"
+			]
+			id: "762B4A5D34A3A4B1"
+			tasks: [{
+				id: "20D9E59974B3956E"
+				item: "gtceu:methanol_bucket"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"1979ACE02FD1FFEA"
+				"0BA4AFD79925EF42"
+			]
+			id: "7C3A3C69E79DB794"
+			tasks: [{
+				id: "7E5F50DA3CC7326A"
+				item: "gtceu:hypochlorous_acid_bucket"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -1.5d
+		}
+		{
+			id: "1934F6B99DC0A294"
+			tasks: [{
+				id: "12D4E5C7754DA3DD"
+				item: "ad_astra:hydrogen_bucket"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -4.5d
+		}
+		{
+			id: "6B7CAB754F778C09"
+			tasks: [{
+				id: "333A0E37B3BD8D56"
+				item: "gtceu:nitrogen_bucket"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -4.5d
+		}
+		{
+			id: "31617336D062DBDE"
+			tasks: [
+				{
+					id: "3502C02DE231D37C"
+					item: "gtceu:carbon_dioxide_bucket"
+					type: "item"
+				}
+				{
+					id: "4CDFC1F2BDFF3CC3"
+					item: "gtceu:carbon_monoxide_bucket"
+					type: "item"
+				}
+			]
+			x: -10.5d
+			y: -4.5d
+		}
+		{
+			id: "0BA4AFD79925EF42"
+			tasks: [{
+				id: "028CDD8407DB2F3C"
+				item: "gtceu:chlorine_bucket"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -1.5d
+		}
+		{
+			id: "1979ACE02FD1FFEA"
+			tasks: [{
+				id: "78FE9410241C9917"
+				item: "gtceu:mercury_bucket"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"7A7DC6205DED9BF3"
+				"38A6F2FA481A85E5"
+			]
+			description: [
+				"月球&4缺少&r大气环境"
+				""
+				"你必须身着&e充有氧气的&r&6宇航套装&r，&n不然会有不幸的事情发生&r"
+				""
+				"往&6航天服&r内通入氧气——就把&6航天服&r当成桶，从AE里面舀就行了"
+				""
+				"&2宇&6航&9服&e可&d以&b染&4色&r，不会影响任务提交"
+			]
+			hide_dependency_lines: true
+			id: "7FE2763143958129"
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "史蒂夫的一小步"
+			tasks: [
+				{
+					id: "3A453FDEFEFF23B1"
+					item: {
+						Count: 1
+						id: "ad_astra:space_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0EAB1229F1C445B4"
+					item: {
+						Count: 1
+						id: "ad_astra:space_suit"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4114E6005ADFD9DE"
+					item: {
+						Count: 1
+						id: "ad_astra:space_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "60513354DC07CE8A"
+					item: {
+						Count: 1
+						id: "ad_astra:space_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "基础宇航套装"
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"7A7DC6205DED9BF3"
+				"38A6F2FA481A85E5"
+			]
+			description: [
+				"你需要把你的身体的各个&6器官&r都强化到&e标准级&r之后才能抵御&d星际乱流&r的影响"
+				""
+				"用&6器官修改器&r来把各个&6器官部件&r装进你的身体里面"
+				""
+				"当然以后你每去一个新地方都需要查看自己身上的&6器官&r是不是已经强化到对应的阶级了"
+				""
+				"&o&8自己给自己在清醒时做手术，可真的是有点惊悚呢&r&r"
+			]
+			hide_dependency_lines: true
+			id: "1D57ED21E8AD1A26"
+			rewards: [{
+				id: "6B918E6B2EF24972"
+				item: "gtocore:organ_modifier"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "我们终将决定我们自己的进化道路"
+			tasks: [
+				{
+					id: "7482613DF83CF3B9"
+					item: "gtocore:tier_1_eye"
+					type: "item"
+				}
+				{
+					id: "5D22942A65B73CD8"
+					item: "gtocore:tier_1_spine"
+					type: "item"
+				}
+				{
+					id: "66B593535ADC6BA5"
+					item: "gtocore:tier_1_lung"
+					type: "item"
+				}
+				{
+					id: "6A1F86089471CE6B"
+					item: "gtocore:tier_1_liver"
+					type: "item"
+				}
+				{
+					id: "75152D9FCAF46167"
+					item: "gtocore:tier_1_heart"
+					type: "item"
+				}
+				{
+					id: "4C050F847F428485"
+					item: "gtocore:tier_1_left_arm"
+					type: "item"
+				}
+				{
+					id: "1B35A788E48D14C6"
+					item: "gtocore:tier_1_right_arm"
+					type: "item"
+				}
+				{
+					id: "5DF415E83E5DA568"
+					item: "gtocore:tier_1_left_leg"
+					type: "item"
+				}
+				{
+					id: "15F69E12126CBE7C"
+					item: "gtocore:tier_1_right_leg"
+					type: "item"
+				}
+			]
+			title: "血肉苦弱，机械飞升！"
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"39A7B09F3213E0C8"
+				"408CD587E28DFDCA"
+				"7329A824F8F1CDFF"
+				"2A9088FA11D26BDD"
+				"4AED8DE6D6175D97"
+				"1D57ED21E8AD1A26"
+				"7FE2763143958129"
+				"1BD5CACCF07947C7"
+			]
+			description: [
+				"现在，朝着亲爱的月球进发？不不不，还有几件事需要你&4再确认一下&r："
+				""
+				"首先在出发之前，要穿戴好&6宇航套装&r，以及把你身上的&6器官&r都强化到&e标准级"
+				""
+				"&r其次把你的背包腾出一定的空间，记住&2公司&r派你去月球是去&e挖矿&r的，不是去&e旅游&r的"
+				""
+				"最后着陆前注意提前&e打开助推器减速&r，否则在有不幸的事情发生前就会&4&n有更不幸的事情发生&r&r"
+			]
+			icon: "ad_astra:moon_globe"
+			id: "61C37EC8503FFDD9"
+			rewards: [
+				{
+					count: 2
+					id: "5639810635197322"
+					item: {
+						Count: 1
+						id: "gtceu:steel_fluid_cell"
+						tag: {
+							Fluid: {
+								Amount: 8000
+								FluidName: "enderio:rocket_fuel"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2BFFDD26EF2FA9FB"
+					item: "ad_astra:launch_pad"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "格雷科技的一小步"
+			tasks: [{
+				id: "6E44A34FF8914732"
+				type: "checkmark"
+			}]
+			title: "前往月球"
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"21F34E0000FD10CC"
+				"16B6F1CEA28F2D42"
+				"16B3AB1D455CCB50"
+			]
+			id: "6C645FDD0CF3C52A"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "7C924195EC353447"
+				item: "gtocore:rocket_fuel_rp_1_bucket"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["61C37EC8503FFDD9"]
+			id: "69D33E93B9B36AD6"
+			tasks: [
+				{
+					id: "4D0BE1C03B3F5525"
+					item: "gtceu:raw_bauxite"
+					type: "item"
+				}
+				{
+					id: "4CF66185D7D51AEF"
+					item: "gtceu:raw_ilmenite"
+					type: "item"
+				}
+			]
+			x: 13.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["61C37EC8503FFDD9"]
+			id: "69AED014FEDA7997"
+			tasks: [{
+				id: "292904C3EDCD58AF"
+				item: "gtceu:helium_3_bucket"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["69D33E93B9B36AD6"]
+			id: "5063FBBAA841AE4E"
+			tasks: [{
+				id: "0E098E4AB6854A07"
+				item: "gtocore:heavy_duty_plate_2"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5063FBBAA841AE4E"]
+			id: "3ABEFC9B7DA3F098"
+			shape: "gear"
+			size: 2.5d
+			tasks: [{
+				id: "4E052513B65F8144"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_2_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 17.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["40D50D3FC5EA5D9D"]
+			id: "64FA0FF3FE276D35"
+			tasks: [{
+				id: "09AE0B91B0AC3AF1"
+				item: "gtocore:heavy_duty_plate_3"
+				type: "item"
+			}]
+			x: 24.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4BA3FA62A307DBC5"]
+			id: "40D50D3FC5EA5D9D"
+			tasks: [
+				{
+					id: "4AE95F9F2E475546"
+					item: "gtceu:raw_scheelite"
+					type: "item"
+				}
+				{
+					id: "253E9678ED42291C"
+					item: "gtceu:raw_tungstate"
+					type: "item"
+				}
+			]
+			x: 22.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3ABEFC9B7DA3F098"]
+			id: "7662AEC801BD79CC"
+			tasks: [{
+				id: "5AE2A4204E137F9F"
+				item: "gtceu:radon_bucket"
+				type: "item"
+			}]
+			x: 17.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["64FA0FF3FE276D35"]
+			id: "121D770436AE99CE"
+			shape: "gear"
+			size: 2.5d
+			tasks: [{
+				id: "3F4CFA5B6266FC92"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_3_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 26.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3ABEFC9B7DA3F098"]
+			id: "4BA3FA62A307DBC5"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "7B36D41937620330"
+				item: "ad_astra:mars_globe"
+				type: "item"
+			}]
+			x: 20.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["64FA0FF3FE276D35"]
+			id: "2D901DBE68F833D2"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "33C0ED7425E296E7"
+					item: "gtocore:tier_2_eye"
+					type: "item"
+				}
+				{
+					id: "2EF24DF1BFC6F2A3"
+					item: "gtocore:tier_2_spine"
+					type: "item"
+				}
+				{
+					id: "3EC887D8F09B0F31"
+					item: "gtocore:tier_2_lung"
+					type: "item"
+				}
+				{
+					id: "1D3AC5F3BE1F29BA"
+					item: "gtocore:tier_2_heart"
+					type: "item"
+				}
+				{
+					id: "7DABBFF58E31AFDF"
+					item: "gtocore:tier_2_left_arm"
+					type: "item"
+				}
+				{
+					id: "219885FD7A2D21A7"
+					item: "gtocore:tier_2_right_arm"
+					type: "item"
+				}
+				{
+					id: "6D70651D5C494199"
+					item: "gtocore:tier_2_left_leg"
+					type: "item"
+				}
+				{
+					id: "1F183757D6E03332"
+					item: "gtocore:tier_2_right_leg"
+					type: "item"
+				}
+				{
+					id: "18B3E41AA28D17FC"
+					item: "gtocore:tier_2_liver"
+					type: "item"
+				}
+			]
+			x: 26.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["52F43DFB331C72C6"]
+			id: "27771E52B49806B6"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "68474090B2366B81"
+				item: "ad_astra:mercury_globe"
+				type: "item"
+			}]
+			x: 25.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["34391A7A0D1E8CB6"]
+			id: "21F34E0000FD10CC"
+			tasks: [{
+				id: "6A176F61DE3F18B9"
+				item: "gtocore:rp_1_bucket"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 1.5d
+		}
+		{
+			id: "34391A7A0D1E8CB6"
+			tasks: [{
+				id: "0AFD72B5DCEE5DC8"
+				item: "gtocore:kerosene_bucket"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["63CCBDEBF0E99D29"]
+			id: "16B6F1CEA28F2D42"
+			tasks: [{
+				id: "1263A65B7E9EF28A"
+				item: "gtceu:liquid_oxygen_bucket"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			id: "63CCBDEBF0E99D29"
+			tasks: [{
+				id: "7DEE739A71B6EE4C"
+				item: "gtocore:high_pressure_oxygen_bucket"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4BA3FA62A307DBC5"]
+			id: "55FCF330DABADFB1"
+			tasks: [
+				{
+					id: "7D82C9A5A722A6DB"
+					item: "gtceu:raw_cooperite"
+					type: "item"
+				}
+				{
+					id: "72BF2FDCCAB32B13"
+					item: "gtceu:raw_platinum"
+					type: "item"
+				}
+				{
+					id: "0A4B2F357F6A466E"
+					item: "gtceu:raw_palladium"
+					type: "item"
+				}
+				{
+					id: "48838F4F36C40ACD"
+					item: "gtceu:raw_bornite"
+					type: "item"
+				}
+			]
+			x: 20.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["27771E52B49806B6"]
+			hide_dependent_lines: true
+			id: "479707D18AD5181B"
+			tasks: [
+				{
+					id: "5AAC64040FB1B944"
+					item: "ad_astra:raw_calorite"
+					type: "item"
+				}
+				{
+					id: "2BFDF78A34ED1E80"
+					item: "gtceu:raw_cobalt"
+					type: "item"
+				}
+				{
+					id: "5E89DDB3B056C506"
+					item: "gtceu:raw_pyrochlore"
+					type: "item"
+				}
+			]
+			x: 25.0d
+			y: 8.5d
+		}
+		{
+			dependencies: [
+				"121D770436AE99CE"
+				"2D901DBE68F833D2"
+			]
+			id: "0FA017F31EF08F19"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "676C38D73DC2E3FA"
+				item: "ad_astra:venus_globe"
+				type: "item"
+			}]
+			x: 29.523809523809526d
+			y: 0.0d
+		}
+		{
+			dependencies: ["27771E52B49806B6"]
+			id: "0D47C721AD61B0D6"
+			tasks: [{
+				id: "1A2AE269F29745D8"
+				item: "gtceu:deuterium_bucket"
+				type: "item"
+			}]
+			x: 23.0d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"17324D4DD97218DA"
+				"6C645FDD0CF3C52A"
+			]
+			id: "637E8174DF8EA186"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "7EEC6C0D854EE625"
+				item: "gtocore:dense_hydrazine_fuel_mixture_bucket"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["68063150194F78B2"]
+			id: "17324D4DD97218DA"
+			tasks: [{
+				id: "791F544007F5C44B"
+				item: "gtocore:hydrazine_bucket"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"73C01EC9D0386D60"
+				"6924A3A7911E2F3B"
+			]
+			id: "68063150194F78B2"
+			tasks: [{
+				id: "53864576DBC33BC3"
+				item: "gtceu:hydrogen_peroxide_bucket"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 4.5d
+		}
+		{
+			id: "73C01EC9D0386D60"
+			tasks: [{
+				id: "2499D6CA9DC93682"
+				item: "gtocore:anthracene_bucket"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7171DE9F90EA9B98"]
+			id: "6924A3A7911E2F3B"
+			tasks: [{
+				id: "2D10548B6DBD2F40"
+				item: "gtocore:ethylanthrahydroquinone_bucket"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["32ECB55F2F81A733"]
+			id: "7171DE9F90EA9B98"
+			tasks: [{
+				id: "394B23E00FE9E216"
+				item: "gtocore:ethylanthraquinone_bucket"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0722FCD257F887E1"]
+			id: "32ECB55F2F81A733"
+			tasks: [{
+				id: "752C5BD644704115"
+				item: "gtocore:phthalic_anhydride_dust"
+				type: "item"
+			}]
+			x: -14.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"5C25C0DBA2F295BC"
+				"7819A5BABF1D103D"
+			]
+			dependency_requirement: "one_completed"
+			id: "0722FCD257F887E1"
+			tasks: [{
+				id: "4990E4E42B5DEF42"
+				item: "gtceu:phthalic_acid_bucket"
+				type: "item"
+			}]
+			x: -16.0d
+			y: 4.5d
+		}
+		{
+			id: "04132175DE54AF89"
+			tasks: [{
+				id: "0E08F606E60557B7"
+				item: "gtceu:potassium_dichromate_dust"
+				type: "item"
+			}]
+			x: -17.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"0C60C5B1FE950A2D"
+				"04132175DE54AF89"
+			]
+			id: "5C25C0DBA2F295BC"
+			tasks: [{
+				id: "491E65A7DD441C7A"
+				type: "checkmark"
+			}]
+			x: -16.0d
+			y: 3.0d
+		}
+		{
+			id: "0C60C5B1FE950A2D"
+			tasks: [{
+				id: "433E5F7660DB579B"
+				item: "gtceu:dimethylbenzene_bucket"
+				type: "item"
+			}]
+			x: -15.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"336C48E022910CC6"
+				"17E01888FDA360DD"
+			]
+			id: "7819A5BABF1D103D"
+			tasks: [{
+				id: "63C3C74E240DE7B1"
+				type: "checkmark"
+			}]
+			x: -17.5d
+			y: 4.5d
+		}
+		{
+			id: "336C48E022910CC6"
+			tasks: [{
+				id: "14A75B587CEE2F56"
+				item: "gtceu:naphthalene_bucket"
+				type: "item"
+			}]
+			x: -19.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0FA017F31EF08F19"]
+			id: "28F541BD5C97C37D"
+			tasks: [{
+				id: "1C462AD9877FF1C4"
+				item: "gtceu:sulfuric_acid_bucket"
+				type: "item"
+			}]
+			x: 29.5d
+			y: -2.0d
+		}
+		{
+			id: "17E01888FDA360DD"
+			tasks: [{
+				id: "1B5FF575C5E1AAB9"
+				item: "gtceu:sulfuric_acid_bucket"
+				type: "item"
+			}]
+			x: -19.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0FA017F31EF08F19"]
+			id: "56F034904D31D9FB"
+			tasks: [
+				{
+					id: "33F7A4A1D0028C49"
+					item: "ad_astra:raw_desh"
+					type: "item"
+				}
+				{
+					id: "7329848EF1653D65"
+					item: "gtceu:raw_magnesite"
+					type: "item"
+				}
+			]
+			x: 29.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"56F034904D31D9FB"
+				"601DBD60E46AC35B"
+			]
+			id: "3CD22DCF237D3331"
+			tasks: [{
+				id: "295CB25D4C116104"
+				item: "gtocore:dense_desh_plate"
+				type: "item"
+			}]
+			x: 29.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3CD22DCF237D3331"]
+			id: "340039CBDC85B76D"
+			tasks: [{
+				id: "75AF3DFB564EDF8A"
+				item: "ad_astra:desh_tank"
+				type: "item"
+			}]
+			x: 28.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3CD22DCF237D3331"]
+			id: "646DBDD65771EA95"
+			tasks: [{
+				id: "7EED602A8FBFCB56"
+				item: "ad_astra:desh_engine"
+				type: "item"
+			}]
+			x: 30.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"646DBDD65771EA95"
+				"340039CBDC85B76D"
+			]
+			id: "52F43DFB331C72C6"
+			shape: "gear"
+			size: 2.5d
+			tasks: [{
+				id: "7A0372688AAE09A3"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_4_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 29.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["52F43DFB331C72C6"]
+			id: "136025CCB32D6AFE"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "562724A4AC237E22"
+				item: "ad_astra:ceres_globe"
+				type: "item"
+			}]
+			x: 29.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["136025CCB32D6AFE"]
+			id: "32935F6DA068131D"
+			tasks: [{
+				id: "10A049F6B720C0B2"
+				item: "gtceu:neon_bucket"
+				type: "item"
+			}]
+			x: 31.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["136025CCB32D6AFE"]
+			id: "4E1C6E7ED90CEBB2"
+			tasks: [{
+				id: "32CF81D22D235E1A"
+				item: "gtceu:xenon_bucket"
+				type: "item"
+			}]
+			x: 27.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["136025CCB32D6AFE"]
+			id: "5B4A3DAE5750D655"
+			tasks: [
+				{
+					id: "4EAC18598F7BB6D9"
+					item: "ad_astra:raw_ostrum"
+					type: "item"
+				}
+				{
+					id: "0571E2135E715F71"
+					item: "minecraft:raw_gold"
+					type: "item"
+				}
+			]
+			x: 29.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["5B4A3DAE5750D655"]
+			id: "2AE53541FEB541E9"
+			tasks: [{
+				id: "24E161D7D3035E72"
+				item: "gtocore:dense_ostrum_plate"
+				type: "item"
+			}]
+			x: 27.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["2AE53541FEB541E9"]
+			id: "20D7CCC16895C6A5"
+			tasks: [{
+				id: "3C3514D43BA98AB2"
+				item: "ad_astra:ostrum_engine"
+				type: "item"
+			}]
+			x: 26.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["2AE53541FEB541E9"]
+			id: "26ECEF1143F8EB0B"
+			tasks: [{
+				id: "6FCE7A529015D98D"
+				item: "ad_astra:ostrum_tank"
+				type: "item"
+			}]
+			x: 26.0d
+			y: 12.5d
+		}
+		{
+			dependencies: [
+				"20D7CCC16895C6A5"
+				"26ECEF1143F8EB0B"
+			]
+			id: "3AFC4304A2AD53A8"
+			shape: "gear"
+			size: 2.5d
+			tasks: [{
+				id: "5D85D419009E1710"
+				item: {
+					Count: 1
+					id: "ad_astra_rocketed:tier_5_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 24.0d
+			y: 11.5d
+		}
+		{
+			dependencies: [
+				"3AFC4304A2AD53A8"
+				"56408F9F9ACD204D"
+			]
+			id: "27541258B94B2A11"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "559ACFD2F1538FEC"
+				item: "ad_astra:ganymede_globe"
+				type: "item"
+			}]
+			x: 20.5d
+			y: 14.5d
+		}
+		{
+			dependencies: [
+				"3AFC4304A2AD53A8"
+				"56408F9F9ACD204D"
+			]
+			id: "15356C4478131544"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "2D29DB129D5D6396"
+				item: "ad_astra:io_globe"
+				type: "item"
+			}]
+			x: 20.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["15356C4478131544"]
+			id: "3376801E0CDCE656"
+			tasks: [
+				{
+					id: "4E491AC521E7F6F2"
+					item: "gtceu:raw_naquadah"
+					type: "item"
+				}
+				{
+					id: "329242673764BC62"
+					item: "gtceu:raw_plutonium"
+					type: "item"
+				}
+			]
+			x: 18.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["15356C4478131544"]
+			id: "0A4D00F9F44C97DB"
+			tasks: [{
+				id: "269637B80C1CC38F"
+				item: "gtceu:coal_gas_bucket"
+				type: "item"
+			}]
+			x: 20.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["15356C4478131544"]
+			id: "54CEDB30AB9906C0"
+			tasks: [
+				{
+					id: "284311EDF482862F"
+					item: "gtocore:raw_celestine"
+					type: "item"
+				}
+				{
+					id: "526B07CC93685CE5"
+					item: "gtceu:raw_cooperite"
+					type: "item"
+				}
+				{
+					id: "0AB94C88FC78EC9B"
+					item: "gtceu:raw_trona"
+					type: "item"
+				}
+			]
+			x: 18.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["5B4A3DAE5750D655"]
+			id: "56408F9F9ACD204D"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "4D5B4062CADEF712"
+					item: "gtocore:tier_3_eye"
+					type: "item"
+				}
+				{
+					id: "3EAB1E2D1209DE3F"
+					item: "gtocore:tier_3_spine"
+					type: "item"
+				}
+				{
+					id: "242F72522B48C510"
+					item: "gtocore:tier_3_lung"
+					type: "item"
+				}
+				{
+					id: "0B030288B2113B1F"
+					item: "gtocore:tier_3_liver"
+					type: "item"
+				}
+				{
+					id: "551261B8C150ED6A"
+					item: "gtocore:tier_3_heart"
+					type: "item"
+				}
+				{
+					id: "729C5BEDD6E21160"
+					item: "gtocore:tier_3_left_arm"
+					type: "item"
+				}
+				{
+					id: "531A9BA28A82F913"
+					item: "gtocore:tier_3_right_arm"
+					type: "item"
+				}
+				{
+					id: "2E77A44F90767663"
+					item: "gtocore:tier_3_left_leg"
+					type: "item"
+				}
+				{
+					id: "455A53C591037C97"
+					item: "gtocore:tier_3_right_leg"
+					type: "item"
+				}
+			]
+			x: 24.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["27541258B94B2A11"]
+			id: "5A9B6F823ED2477C"
+			tasks: [{
+				id: "4A497D4C5BF483F7"
+				item: "gtceu:hydrochloric_acid_bucket"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 14.5d
+		}
+		{
+			dependencies: [
+				"3376801E0CDCE656"
+				"479707D18AD5181B"
+			]
+			id: "2745D369F53613F8"
+			tasks: [{
+				id: "6EF45671232AAB9D"
+				item: "gtocore:dense_calorite_plate"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["2745D369F53613F8"]
+			id: "10DFC307A71DE2FC"
+			tasks: [{
+				id: "14751E8CD203D801"
+				item: "ad_astra:calorite_engine"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["2745D369F53613F8"]
+			id: "1A46C2CF1106526E"
+			tasks: [{
+				id: "1365C8919D64A5C9"
+				item: "ad_astra:calorite_tank"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 12.5d
+		}
+		{
+			dependencies: [
+				"1A46C2CF1106526E"
+				"10DFC307A71DE2FC"
+			]
+			id: "383B710C58CEA6AF"
+			shape: "gear"
+			size: 2.5d
+			tasks: [{
+				id: "3C78C29D981C71BD"
+				item: {
+					Count: 1
+					id: "ad_astra_rocketed:tier_6_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 13.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["383B710C58CEA6AF"]
+			id: "1A21D952F3219B5B"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "6FE007C0A263F21A"
+				item: "ad_astra:enceladus_globe"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["1A21D952F3219B5B"]
+			id: "6B02B6F20B71608C"
+			tasks: [
+				{
+					id: "56C39CCE7E576CC4"
+					item: "gtceu:chlorine_bucket"
+					type: "item"
+				}
+				{
+					id: "7C8982F27FB60C46"
+					item: "gtceu:fluorine_bucket"
+					type: "item"
+				}
+			]
+			x: 9.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["383B710C58CEA6AF"]
+			id: "4C8AF861C4D0AFF2"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "18FCAC3C9DCFF365"
+				item: "ad_astra:titan_globe"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["4C8AF861C4D0AFF2"]
+			id: "472BC6B26F91C9F2"
+			tasks: [
+				{
+					id: "4068B8C86678C11E"
+					item: "gtceu:charcoal_byproducts_bucket"
+					type: "item"
+				}
+				{
+					id: "3CE503B87A0B4CD4"
+					item: "gtceu:methane_bucket"
+					type: "item"
+				}
+				{
+					id: "534D12A19EB1346B"
+					item: "gtceu:benzene_bucket"
+					type: "item"
+				}
+			]
+			x: 9.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["383B710C58CEA6AF"]
+			id: "20932057C572CBB7"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "4DDD47E3DDF5C814"
+				item: "ad_astra:pluto_globe"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["20932057C572CBB7"]
+			id: "6C8CFC519E3813AC"
+			tasks: [{
+				id: "658085A3B7E95095"
+				item: "gtceu:nitric_acid_bucket"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["20932057C572CBB7"]
+			id: "1FE56FCF598C90B1"
+			shape: "gear"
+			size: 2.5d
+			tasks: [{
+				id: "55B933F9C2012B2B"
+				item: {
+					Count: 1
+					id: "ad_astra_rocketed:tier_7_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["20932057C572CBB7"]
+			id: "72AACC1178BF7586"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "15A05B9C717F1E16"
+					item: "gtocore:tier_4_eye"
+					type: "item"
+				}
+				{
+					id: "3E2983F395D61C9E"
+					item: "gtocore:tier_4_spine"
+					type: "item"
+				}
+				{
+					id: "68731F1B0B3E9534"
+					item: "gtocore:tier_4_lung"
+					type: "item"
+				}
+				{
+					id: "759D8F23EAD1C815"
+					item: "gtocore:tier_4_liver"
+					type: "item"
+				}
+				{
+					id: "58A0618D16346D23"
+					item: "gtocore:tier_4_heart"
+					type: "item"
+				}
+				{
+					id: "5981DEAE90F0D7E9"
+					item: "gtocore:tier_4_left_arm"
+					type: "item"
+				}
+				{
+					id: "4F238B141D51B433"
+					item: "gtocore:tier_4_right_arm"
+					type: "item"
+				}
+				{
+					id: "7F9292708FEB14CE"
+					item: "gtocore:tier_4_left_leg"
+					type: "item"
+				}
+				{
+					id: "038A259AD9777873"
+					item: "gtocore:tier_4_right_leg"
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: 14.0d
+		}
+		{
+			dependencies: [
+				"72AACC1178BF7586"
+				"1FE56FCF598C90B1"
+			]
+			id: "5541FCA4ECD33B07"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "49EC3BBD9D69A51A"
+				item: "ad_astra:glacio_globe"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["5541FCA4ECD33B07"]
+			id: "66B8B18A19F504DA"
+			tasks: [{
+				id: "6C4660BD51C394FB"
+				item: "gtocore:glacio_spirit"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["55FCF330DABADFB1"]
+			id: "601DBD60E46AC35B"
+			tasks: [{
+				id: "799CA36B3381A6EE"
+				item: "gtceu:tiny_rhodium_dust"
+				type: "item"
+			}]
+			x: 20.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"19B07E541BE74686"
+				"66B8B18A19F504DA"
+			]
+			description: ["这是T8火箭，解锁巴纳德C"]
+			id: "05C7059BC114AD42"
+			shape: "gear"
+			size: 2.5d
+			subtitle: "我们的目标是星辰大海"
+			tasks: [{
+				id: "37F8240593463A50"
+				item: "gtocore:space_elevator"
+				type: "item"
+			}]
+			title: "人间大炮"
+			x: -0.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["05C7059BC114AD42"]
+			id: "6320619CCAE8158F"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "53F9B374CDC3DA7B"
+				item: "ad_astra:barnarda_c_globe"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["6320619CCAE8158F"]
+			id: "3E1CA6DA4998A682"
+			tasks: [{
+				id: "169BC195B7AF8027"
+				item: "gtocore:unknowwater_bucket"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 13.5d
+		}
+		{
+			dependencies: [
+				"3AA02FCCAFB82E87"
+				"637E8174DF8EA186"
+			]
+			id: "5CA2359D7B952655"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "144A747E3B0BBC44"
+				item: "gtocore:rocket_fuel_cn3h7o3_bucket"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 7.5d
+		}
+		{
+			id: "3AA02FCCAFB82E87"
+			tasks: [{
+				id: "4F351B531D0224A4"
+				item: "gtocore:monomethylhydrazine_bucket"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"726D63623917AEFF"
+				"618BFD8A6FC90B86"
+				"5CA2359D7B952655"
+			]
+			id: "4A3E57669091C8A0"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "750F536A3AF98C27"
+				item: "gtocore:rocket_fuel_h8n4c2o4_bucket"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 10.5d
+		}
+		{
+			id: "726D63623917AEFF"
+			tasks: [{
+				id: "3C47A545034DAFF5"
+				item: "gtceu:dimethylhydrazine_bucket"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 10.5d
+		}
+		{
+			id: "618BFD8A6FC90B86"
+			tasks: [{
+				id: "68844B5F07613780"
+				item: "gtceu:dinitrogen_tetroxide_bucket"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["4A3E57669091C8A0"]
+			id: "2A60421E915FF505"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "06DB0648CC6329ED"
+				item: "ad_astra:cryo_fuel_bucket"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["2A60421E915FF505"]
+			id: "462BE2D4394A2899"
+			tasks: [{
+				id: "5CC6A7DE21C2E580"
+				item: "gtocore:explosivehydrazine_bucket"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["2A60421E915FF505"]
+			id: "5EECA1A7B726B29F"
+			tasks: [{
+				id: "7E93DB0BF1AD0956"
+				item: "ad_astra:ice_shard"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["2A60421E915FF505"]
+			id: "67A5C9B045EE23B0"
+			tasks: [{
+				id: "670C999BAD383253"
+				item: "gtceu:cetane_boosted_diesel_bucket"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 13.5d
+		}
+		{
+			dependencies: [
+				"7E47ACAD8471A487"
+				"2A60421E915FF505"
+			]
+			id: "3581343F25D5B03F"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "5DC2AE50E6E29B17"
+				item: "gtocore:stellar_energy_rocket_fuel_bucket"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 16.5d
+		}
+		{
+			id: "7E47ACAD8471A487"
+			tasks: [{
+				id: "6A039E9A341ABB1B"
+				item: "gtocore:hmxexplosive_dust"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 16.5d
+		}
+	]
+	title: "冯虚御风"
+}
