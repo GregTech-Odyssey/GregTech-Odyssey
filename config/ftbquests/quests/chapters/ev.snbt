@@ -7,76 +7,76 @@
 	id: "54FF22C8E901E6B9"
 	images: [
 		{
-			height: 1.1d
+			height: 1.0d
 			image: "xtonesreworked:block/bitt/12"
-			rotation: 0.0d
-			width: 1.1d
-			x: 1.0d
-			y: -13.5d
-		}
-		{
-			height: 1.1d
-			image: "xtonesreworked:block/bitt/12"
-			rotation: 0.0d
-			width: 1.1d
-			x: 2.0d
-			y: -13.5d
+			rotation: 45.0d
+			width: 1.0d
+			x: 2.5d
+			y: -1.0d
 		}
 		{
 			color: 16711935
-			height: 1.1d
+			height: 1.0d
 			image: "ftbquests:block/barrier_open"
 			order: 1
-			rotation: 0.0d
-			width: 1.1d
-			x: 1.0d
-			y: -13.5d
+			rotation: 45.0d
+			width: 1.0d
+			x: 2.5d
+			y: -1.0d
 		}
 		{
-			color: 16711935
-			height: 1.1d
-			image: "ftbquests:block/barrier_open"
-			order: 1
-			rotation: 0.0d
-			width: 1.1d
-			x: 2.0d
-			y: -13.5d
-		}
-		{
-			color: 16711935
-			height: 1.1d
-			image: "ftbquests:block/barrier_open"
-			order: 1
-			rotation: 0.0d
-			width: 1.1d
-			x: 1.0d
-			y: -1.5d
-		}
-		{
-			color: 16711935
-			height: 1.1d
-			image: "ftbquests:block/barrier_open"
-			order: 1
-			rotation: 0.0d
-			width: 1.1d
-			x: 2.0d
-			y: -1.5d
-		}
-		{
-			height: 1.1d
+			height: 1.0d
 			image: "xtonesreworked:block/bitt/12"
-			rotation: 0.0d
-			width: 1.1d
-			x: 1.0d
-			y: -1.5d
+			rotation: 45.0d
+			width: 1.0d
+			x: 1.25d
+			y: -1.0d
 		}
 		{
-			height: 1.1d
+			color: 16711935
+			height: 1.0d
+			image: "ftbquests:block/barrier_open"
+			order: 1
+			rotation: 45.0d
+			width: 1.0d
+			x: 1.25d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
 			image: "xtonesreworked:block/bitt/12"
-			rotation: 0.0d
-			width: 1.1d
-			x: 2.0d
-			y: -1.5d
+			rotation: 45.0d
+			width: 1.0d
+			x: 1.5d
+			y: -13.0d
+		}
+		{
+			color: 16711935
+			height: 1.0d
+			image: "ftbquests:block/barrier_open"
+			order: 1
+			rotation: 45.0d
+			width: 1.0d
+			x: 1.5d
+			y: -13.0d
+		}
+		{
+			height: 1.0d
+			image: "xtonesreworked:block/bitt/12"
+			rotation: 45.0d
+			width: 1.0d
+			x: 2.75d
+			y: -13.0d
+		}
+		{
+			color: 16711935
+			height: 1.0d
+			image: "ftbquests:block/barrier_open"
+			order: 1
+			rotation: 45.0d
+			width: 1.0d
+			x: 2.75d
+			y: -13.0d
 		}
 	]
 	order_index: 6
@@ -92,42 +92,42 @@
 		{
 			id: "7D1CA4A939A02320"
 			linked_quest: "21624A4965D8D2D7"
-			x: 6.0d
+			x: 6.5d
 			y: -8.0d
 		}
 		{
 			id: "4C16FF45DEA84C8F"
 			linked_quest: "5808E00A58A9F4EE"
-			x: 12.0d
+			x: 12.5d
 			y: -2.0d
 		}
 		{
 			id: "50DE63BF29511D2E"
 			linked_quest: "69DF9DE9F7176FD0"
-			shape: "square"
-			x: 2.0d
-			y: -13.5d
+			shape: "diamond"
+			x: 2.75d
+			y: -13.0d
 		}
 		{
 			id: "46C3F904D3DBAD79"
 			linked_quest: "2DAEB70539AACE1A"
-			shape: "square"
-			x: 1.0d
-			y: -13.5d
+			shape: "diamond"
+			x: 1.5d
+			y: -13.0d
 		}
 		{
 			id: "160EF833BB857B97"
 			linked_quest: "79B00A56EED55DBD"
-			shape: "square"
-			x: 1.0d
-			y: -1.5d
+			shape: "diamond"
+			x: 1.25d
+			y: -1.0d
 		}
 		{
 			id: "749B7F8089170DB1"
 			linked_quest: "31BA74442F9E953E"
-			shape: "square"
-			x: 2.0d
-			y: -1.5d
+			shape: "diamond"
+			x: 2.5d
+			y: -1.0d
 		}
 		{
 			id: "38034C2D7E0BA13A"
@@ -155,7 +155,7 @@
 				type: "item"
 			}]
 			title: "欢迎来到&9强导压&r阶段"
-			x: 10.5d
+			x: 11.0d
 			y: -9.0d
 		}
 		{
@@ -205,7 +205,7 @@
 				title: "&d访问火星"
 				type: "dimension"
 			}]
-			x: 8.0d
+			x: 8.5d
 			y: -11.0d
 		}
 		{
@@ -223,7 +223,7 @@
 					type: "item"
 				}
 			]
-			x: 8.0d
+			x: 8.5d
 			y: -8.5d
 		}
 		{
@@ -241,7 +241,7 @@
 				item: "gtceu:tungsten_dust"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 8.5d
 			y: -6.5d
 		}
 		{
@@ -254,7 +254,7 @@
 				item: "gtceu:tungsten_steel_ingot"
 				type: "item"
 			}]
-			x: 10.5d
+			x: 11.0d
 			y: -6.5d
 		}
 		{
@@ -272,7 +272,7 @@
 				item: "gtocore:water_purification_plant"
 				type: "item"
 			}]
-			x: 9.5d
+			x: 10.0d
 			y: 1.5d
 		}
 		{
@@ -332,7 +332,7 @@
 				}
 			]
 			title: "让我看看你的成果！"
-			x: 8.0d
+			x: 8.5d
 			y: -2.0d
 		}
 		{
@@ -350,7 +350,7 @@
 				item: "gtceu:rtm_alloy_ingot"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 8.5d
 			y: -4.5d
 		}
 		{
@@ -565,7 +565,7 @@
 			}]
 			title: "&b纳米处理器主机"
 			x: -0.5d
-			y: -1.5d
+			y: -1.0d
 		}
 		{
 			dependencies: [
@@ -590,7 +590,7 @@
 				}
 				type: "item"
 			}]
-			x: 10.5d
+			x: 11.0d
 			y: -4.5d
 		}
 		{
@@ -601,8 +601,8 @@
 				item: "ad_astra:raw_desh"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 0.0d
+			x: 9.72d
+			y: -0.2d
 		}
 		{
 			dependencies: [
@@ -618,7 +618,7 @@
 				item: "ad_astra:desh_ingot"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 8.5d
 			y: 1.5d
 		}
 		{
@@ -631,7 +631,7 @@
 				item: "gtocore:clarifier_purification_unit"
 				type: "item"
 			}]
-			x: 11.0d
+			x: 11.5d
 			y: 1.5d
 		}
 		{
@@ -651,7 +651,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 11.0d
+			x: 11.5d
 			y: 3.0d
 		}
 		{
@@ -662,7 +662,7 @@
 				item: "gtceu:mpic_chip"
 				type: "item"
 			}]
-			x: 12.5d
+			x: 13.0d
 			y: 3.0d
 		}
 		{
@@ -680,7 +680,7 @@
 				item: "gtceu:ev_energy_input_hatch"
 				type: "item"
 			}]
-			x: 12.5d
+			x: 13.0d
 			y: 1.5d
 		}
 		{
@@ -717,7 +717,7 @@
 				item: "gtceu:uranium_triplatinum_ingot"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 2.0d
 			y: 1.5d
 		}
 		{
@@ -801,7 +801,7 @@
 				item: "gtceu:quantum_eye"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 5.0d
 			y: -8.0d
 		}
 		{
@@ -812,7 +812,7 @@
 				item: "gtceu:hv_field_generator"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 5.0d
 			y: -9.5d
 		}
 		{
@@ -830,7 +830,7 @@
 				type: "item"
 			}]
 			x: -2.25d
-			y: -3.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["2F6C81E3B10365E8"]
@@ -844,7 +844,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: -3.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["63B3B1533377F7BA"]
@@ -859,7 +859,7 @@
 				type: "item"
 			}]
 			x: -2.25d
-			y: -5.25d
+			y: -2.75d
 		}
 		{
 			dependencies: ["5B243900BEDF71CA"]
@@ -878,7 +878,7 @@
 				title: "&d访问金星"
 				type: "dimension"
 			}]
-			x: 10.5d
+			x: 11.0d
 			y: -2.0d
 		}
 		{
@@ -889,7 +889,7 @@
 				item: "gtceu:ev_emitter"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 3.5d
 			y: -8.0d
 		}
 		{
@@ -900,7 +900,7 @@
 				item: "gtceu:ev_sensor"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 4.0d
 			y: -9.0d
 		}
 		{
@@ -919,7 +919,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 12.0d
+			x: 12.5d
 			y: -4.5d
 		}
 		{
@@ -971,7 +971,7 @@
 				item: "gtocore:vibrant_photovoltaic_power_station"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 12.5d
 			y: -6.5d
 		}
 		{
@@ -1030,7 +1030,7 @@
 				type: "item"
 			}]
 			x: -2.25d
-			y: -1.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["2F6C81E3B10365E8"]
@@ -1044,7 +1044,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: -1.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["2F6C81E3B10365E8"]
@@ -1069,7 +1069,7 @@
 				item: "gtceu:uranium_dust"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 2.0d
 			y: 3.0d
 		}
 		{
@@ -1088,7 +1088,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 1.0d
+			x: 2.0d
 			y: 5.0d
 		}
 		{
@@ -1107,7 +1107,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 0.5d
+			x: 1.5d
 			y: 4.0d
 		}
 		{
@@ -1126,7 +1126,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 1.5d
+			x: 2.5d
 			y: 4.0d
 		}
 		{
@@ -1145,7 +1145,7 @@
 					type: "item"
 				}
 			]
-			x: 1.0d
+			x: 2.0d
 			y: 6.5d
 		}
 		{
@@ -1207,7 +1207,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: -13.5d
+			y: -13.0d
 		}
 		{
 			dependencies: ["08891CB1BAFA5515"]
@@ -1250,7 +1250,7 @@
 				}
 				type: "item"
 			}]
-			x: 5.25d
+			x: 6.0d
 			y: -11.25d
 		}
 		{
@@ -1264,8 +1264,8 @@
 				item: "gtceu:cleaning_maintenance_hatch"
 				type: "item"
 			}]
-			x: 3.25d
-			y: -11.75d
+			x: 4.0d
+			y: -11.25d
 		}
 		{
 			dependencies: ["32B3E6812521AB70"]

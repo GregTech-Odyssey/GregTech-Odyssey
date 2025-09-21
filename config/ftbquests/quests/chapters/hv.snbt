@@ -9,57 +9,65 @@
 	images: [
 		{
 			color: 16711935
-			height: 1.1d
+			height: 1.0d
 			image: "ftbquests:block/barrier_open"
 			order: 1
-			rotation: 0.0d
-			width: 1.1d
-			x: 5.0d
-			y: -4.0d
+			rotation: 45.0d
+			width: 1.0d
+			x: 4.5d
+			y: -4.5d
 		}
 		{
-			height: 1.1d
+			height: 0.0d
 			image: "xtonesreworked:block/bitt/12"
-			rotation: 0.0d
-			width: 1.1d
-			x: 5.0d
-			y: -4.0d
+			rotation: 45.0d
+			width: 0.0d
+			x: 4.5d
+			y: -4.5d
 		}
 		{
-			height: 1.1d
+			height: 1.0d
 			image: "xtonesreworked:block/bitt/12"
-			rotation: 0.0d
-			width: 1.1d
-			x: 1.0d
-			y: -4.0d
+			rotation: 45.0d
+			width: 1.0d
+			x: 4.5d
+			y: -4.5d
 		}
 		{
 			color: 16711935
-			height: 1.1d
+			height: 1.0d
 			image: "ftbquests:block/barrier_open"
 			order: 1
-			rotation: 0.0d
-			width: 1.1d
-			x: 1.0d
-			y: -4.0d
+			rotation: 45.0d
+			width: 1.0d
+			x: 1.5d
+			y: -4.5d
 		}
 		{
-			height: 1.1d
+			height: 1.0d
 			image: "xtonesreworked:block/bitt/12"
-			rotation: 0.0d
-			width: 1.1d
+			rotation: 45.0d
+			width: 1.0d
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			image: "xtonesreworked:block/bitt/12"
+			rotation: 45.0d
+			width: 1.0d
 			x: 1.0d
-			y: 6.0d
+			y: 5.5d
 		}
 		{
 			color: 16711935
-			height: 1.1d
+			height: 1.0d
 			image: "ftbquests:block/barrier_open"
 			order: 1
-			rotation: 0.0d
-			width: 1.1d
+			rotation: 45.0d
+			width: 1.0d
 			x: 1.0d
-			y: 6.0d
+			y: 5.5d
 		}
 	]
 	order_index: 5
@@ -78,7 +86,7 @@
 			shape: "hexagon"
 			size: 1.5d
 			x: 3.0d
-			y: 6.0d
+			y: 5.5d
 		}
 		{
 			id: "36E98813A7A95723"
@@ -100,35 +108,35 @@
 			linked_quest: "43974ABFAE99587B"
 			shape: "square"
 			x: -6.0d
-			y: 6.0d
+			y: 5.5d
 		}
 		{
 			id: "293DA58449370105"
 			linked_quest: "2F42DE3FEC2C35F9"
 			shape: "square"
 			x: -7.0d
-			y: 6.0d
+			y: 5.5d
 		}
 		{
 			id: "633BBB15146C159A"
 			linked_quest: "5F96077A62E88635"
 			shape: "square"
 			x: -2.0d
-			y: 6.0d
+			y: 5.5d
 		}
 		{
 			id: "60353AC478472063"
 			linked_quest: "2AA0714363BA85CB"
-			shape: "square"
-			x: 1.0d
-			y: -4.0d
+			shape: "diamond"
+			x: 1.5d
+			y: -4.5d
 		}
 		{
 			id: "78F40ABD52DF9590"
 			linked_quest: "5F522D73AF5F1B2F"
-			shape: "square"
+			shape: "diamond"
 			x: 1.0d
-			y: 6.0d
+			y: 5.5d
 		}
 	]
 	quests: [
@@ -473,7 +481,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: 6.0d
+			y: 5.5d
 		}
 		{
 			dependencies: [
@@ -810,7 +818,7 @@
 				type: "item"
 			}]
 			x: -3.5d
-			y: 6.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["4BA890971C18F938"]
@@ -1093,7 +1101,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 6.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["7A7DC6205DED9BF3"]
@@ -1177,7 +1185,7 @@
 			icon: "gtocore:hv_programmablec_hatch"
 			id: "19B006CEA837B6B4"
 			min_width: 250
-			shape: "square"
+			shape: "diamond"
 			size: 1.0d
 			subtitle: "可编程仓室"
 			tasks: [
@@ -1206,8 +1214,8 @@
 				}
 			]
 			title: "&e可编程仓室"
-			x: 5.0d
-			y: -4.0d
+			x: 4.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["5D828A5258BFF11F"]
@@ -1728,7 +1736,7 @@
 				type: "item"
 			}]
 			x: -5.0d
-			y: 6.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["198304056173E631"]
@@ -1816,6 +1824,20 @@
 			title: "火箭组件"
 			x: 7.0d
 			y: 3.5d
+		}
+		{
+			dependencies: ["19B006CEA837B6B4"]
+			description: ["单方块机器也可以使用覆盖版来编程，样板写法相同"]
+			id: "0362FE44C232A1CE"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "2ACF74C420F25666"
+				item: "gtmthings:programmable_cover"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -4.5d
 		}
 	]
 	subtitle: ["Tier3-HV"]
