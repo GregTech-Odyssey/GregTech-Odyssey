@@ -1254,7 +1254,6 @@
 				"0E9F8C57145D61AB"
 				"592D975F3146151E"
 			]
-			description: [""]
 			icon: "ae2:export_bus"
 			id: "727CCA6FB49E142D"
 			subtitle: "AE网络的交互节点"
@@ -1799,7 +1798,6 @@
 		}
 		{
 			dependencies: ["0A68C0CFACCB6C07"]
-			description: [""]
 			id: "2E9889C32059C956"
 			tasks: [{
 				id: "1320ADE7F3BBF4F7"
@@ -3107,7 +3105,6 @@
 		}
 		{
 			dependencies: ["0A71F8193A3A39AE"]
-			description: [""]
 			hide_dependency_lines: true
 			id: "0B36C7D7D1594CB7"
 			shape: "hexagon"
@@ -3550,7 +3547,6 @@
 		}
 		{
 			dependencies: ["00B868BD06F99B86"]
-			description: [""]
 			id: "54087EF6361AAD74"
 			tasks: [{
 				id: "7BF90F97ED513FFA"
