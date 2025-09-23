@@ -1439,6 +1439,7 @@
 			]
 			description: ["魔力增幅仓内的UI可调整其缓存大小。开启批处理时，仍然只需要输入一份机器最大功率的魔力即可完成批处理。"]
 			hide_until_deps_complete: true
+			icon: "gtocore:mana_amplifier_hatch"
 			id: "56243643D545C27B"
 			subtitle: "以魔力为代价"
 			tasks: [

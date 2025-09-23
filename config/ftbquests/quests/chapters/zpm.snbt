@@ -652,15 +652,11 @@
 		{
 			dependencies: [
 				"49E04C29B878D3A8"
-				"2969C96B6500C01D"
 			]
-			dependency_requirement: "one_completed"
 			description: [
-				"霜原星的&6羊&r掉落，也会在月球&6地牢&r中随机开出"
+				"霜原星的&6羊&r概率掉落，你可以用灵魂瓶抓一只回来刷"
 				""
 				"需要&e倍增&r产线，同时也是&a增殖&r各种细胞的原材料之一"
-				""
-				"直接获得霜原碎片也可解锁该任务"
 			]
 			id: "351F704B01567BD7"
 			tasks: [{

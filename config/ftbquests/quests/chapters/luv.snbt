@@ -253,9 +253,9 @@
 				"7EA0644BB352BBB5"
 			]
 			description: [
-				"装配线上直接放一个数据仓显然不能满足这么多配方的需要，因此我们提供了&6数据库&r..."
+				"装配线上直接放一个数据访问仓显然不能满足这么多配方的需要，因此我们提供了&6数据库&r..."
 				""
-				"数据库可以放很多数据仓，只要提供能源，都可以通过&6算力数据仓&r给装配线提供数据！"
+				"数据库可以放很多&6数据访问仓&r，并通过&6光学数据仓&r给装配线提供数据！"
 			]
 			id: "7AD94105147C5940"
 			shape: "hexagon"
@@ -1031,8 +1031,16 @@
 			y: 7.5d
 		}
 		{
-			dependencies: ["7AD94105147C5940"]
-			description: ["后续还有其无线版本"]
+			dependencies: [
+				"7E2ACD2C892A1CE8"
+				"777A7D91695E8720"
+				"228B283B5477879B"
+			]
+			description: [
+				"同样使用光缆一对一连接源仓与靶仓"
+				""
+				"后续还有其无线版本"
+			]
 			id: "7FBA4F73F200F0D5"
 			tasks: [
 				{
@@ -1047,8 +1055,8 @@
 				}
 			]
 			title: "算力数据仓"
-			x: 5.0d
-			y: 3.0d
+			x: 10.5d
+			y: 6.25d
 		}
 		{
 			dependencies: ["05EB6CDF13762280"]
@@ -1060,6 +1068,34 @@
 			}]
 			x: 16.0d
 			y: -2.0d
+		}
+		{
+			dependencies: [
+				"7EA0644BB352BBB5"
+				"7AD94105147C5940"
+			]
+			description: [
+				"使用光缆一对一连接源仓与靶仓"
+				""
+				"后续还有其无线版本"
+			]
+			hide_dependent_lines: true
+			id: "7E2ACD2C892A1CE8"
+			tasks: [
+				{
+					id: "1742E72F68515489"
+					item: "gtceu:data_transmitter_hatch"
+					type: "item"
+				}
+				{
+					id: "33755B59E4D16222"
+					item: "gtceu:data_receiver_hatch"
+					type: "item"
+				}
+			]
+			title: "光学数据仓"
+			x: 6.5d
+			y: 6.25d
 		}
 	]
 	subtitle: ["Tier6-LuV"]
