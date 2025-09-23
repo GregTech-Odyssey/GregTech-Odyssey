@@ -725,6 +725,7 @@
 			]
 			hide_dependency_lines: true
 			hide_until_deps_visible: false
+			icon_scale: 2.0d
 			id: "371E5E1E435E41AA"
 			rewards: [{
 				count: 32
@@ -733,7 +734,7 @@
 				type: "item"
 			}]
 			shape: "none"
-			size: 3.75d
+			size: 1.9d
 			tasks: [{
 				id: "32655EB912B77D13"
 				item: "botania:fertilizer"
@@ -4601,5 +4602,6 @@
 			y: -4.5d
 		}
 	]
-	title: "Ⅰ魔法线"
+	subtitle: ["从百花园走到符文祭坛"]
+	title: "魔力导论"
 }

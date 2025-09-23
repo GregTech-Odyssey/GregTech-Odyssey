@@ -459,9 +459,10 @@
 			dependencies: ["27CD17C4B3613171"]
 			description: ["使用盖亚锭召唤强化版&5&a盖亚守护者&f&r可获取更多&e&a盖亚魂&f&r，同时还有概率掉落&e&a命运骰子&f&r"]
 			hide_dependent_lines: true
+			icon_scale: 2.0d
 			id: "50A2D68A83A50F47"
 			shape: "none"
-			size: 3.0d
+			size: 1.5d
 			tasks: [{
 				id: "5348CBD95103744A"
 				item: "botania:dice"
@@ -552,10 +553,10 @@
 		{
 			dependencies: ["50A2D68A83A50F47"]
 			hide_until_deps_visible: false
+			icon_scale: 2.0d
 			id: "4E7B1FF823C85AD6"
 			optional: true
 			shape: "none"
-			size: 2.0d
 			tasks: [{
 				id: "05993154671C0697"
 				item: "botania:thor_ring"
@@ -567,10 +568,10 @@
 		{
 			dependencies: ["50A2D68A83A50F47"]
 			hide_until_deps_visible: false
+			icon_scale: 2.0d
 			id: "0C56CB7815A1355C"
 			optional: true
 			shape: "none"
-			size: 2.0d
 			tasks: [{
 				id: "078E142753C8FA7B"
 				item: {
@@ -593,10 +594,10 @@
 		{
 			dependencies: ["50A2D68A83A50F47"]
 			hide_until_deps_visible: false
+			icon_scale: 2.0d
 			id: "1EE1EF4695A39876"
 			optional: true
 			shape: "none"
-			size: 2.0d
 			tasks: [{
 				id: "46081AC3349324C9"
 				item: "botania:loki_ring"
@@ -608,10 +609,10 @@
 		{
 			dependencies: ["50A2D68A83A50F47"]
 			hide_until_deps_visible: false
+			icon_scale: 2.0d
 			id: "6AFC5FE71A80913E"
 			optional: true
 			shape: "none"
-			size: 2.0d
 			tasks: [{
 				id: "408C9E36F8C27D8C"
 				item: "botania:infinite_fruit"
@@ -623,10 +624,10 @@
 		{
 			dependencies: ["50A2D68A83A50F47"]
 			hide_until_deps_visible: false
+			icon_scale: 2.0d
 			id: "780B0A790C6AF9DB"
 			optional: true
 			shape: "none"
-			size: 2.0d
 			tasks: [{
 				id: "371A7D51171C67D4"
 				item: "botania:king_key"
@@ -638,10 +639,10 @@
 		{
 			dependencies: ["50A2D68A83A50F47"]
 			hide_until_deps_visible: false
+			icon_scale: 2.0d
 			id: "16DE70DE2463A5DD"
 			optional: true
 			shape: "none"
-			size: 2.0d
 			tasks: [{
 				id: "337F2A21222F5FFC"
 				item: "botania:flugel_eye"
@@ -1853,9 +1854,10 @@
 		{
 			dependencies: ["27CD17C4B3613171"]
 			hide_dependency_lines: true
+			icon_scale: 2.0d
 			id: "04FD522309595AF4"
 			shape: "none"
-			size: 2.0d
+			size: 1.0d
 			tasks: [{
 				id: "68DA701543FF74EB"
 				item: "mythicbotany:fimbultyr_tablet"
@@ -1867,9 +1869,9 @@
 		{
 			dependencies: ["27CD17C4B3613171"]
 			hide_dependency_lines: true
+			icon_scale: 2.0d
 			id: "376C5A02C14B1303"
 			shape: "none"
-			size: 2.0d
 			tasks: [{
 				id: "0D7512B59D240C55"
 				item: {
@@ -1903,9 +1905,10 @@
 		}
 		{
 			dependencies: ["0F02FE8BA89BCF34"]
+			icon_scale: 2.0d
 			id: "2150BFD0D971DF9C"
 			shape: "none"
-			size: 4.0d
+			size: 2.0d
 			tasks: [{
 				id: "59FC2852B7A890F1"
 				item: "extrabotany:hero_medal"
@@ -1929,7 +1932,6 @@
 			dependencies: [
 				"262B99D8C05C2B28"
 				"4F95427017B9396F"
-				"782E6E5239AA5283"
 			]
 			id: "50591F5900E6FB9A"
 			tasks: [
@@ -2037,5 +2039,6 @@
 			y: 3.0d
 		}
 	]
-	title: "Ⅱ魔法线"
+	subtitle: ["当魔法遇上格雷"]
+	title: "英雄之路"
 }
