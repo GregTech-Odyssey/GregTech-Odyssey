@@ -2528,11 +2528,6 @@ hash = "c191f5d2adeac4682e7517e7ab0b40596208dc0fba52987c9691937e76dd0d27"
 metafile = true
 
 [[files]]
-file = "mods/display-delight.pw.toml"
-hash = "a41d594affdde7daa0659a7ade2c3cbfb58b447112c22519d253815d88b65576"
-metafile = true
-
-[[files]]
 file = "mods/doespotatotick.pw.toml"
 hash = "6945cc2095130e431108d83bf80ea57efed10e6df3fca94c0cf3dd02995a44fd"
 metafile = true
@@ -2869,11 +2864,6 @@ metafile = true
 [[files]]
 file = "mods/loot-bag.pw.toml"
 hash = "426b926baa24e3870dc6b4bb4bbe1a7864aa453072775c6348a7d76519a17fb0"
-metafile = true
-
-[[files]]
-file = "mods/manors-bounty.pw.toml"
-hash = "55727aad2d8826ded7b5bff6d007a5098347a22522f8d701f6ee4b016435e5d1"
 metafile = true
 
 [[files]]
