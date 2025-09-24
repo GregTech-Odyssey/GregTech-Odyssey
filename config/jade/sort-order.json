@@ -46,6 +46,8 @@
   "gtmthings:wireless_energy_hatch_provider": null,
   "gtocore:DigitalMinerProvider": null,
   "gtocore:accelerate_provider": null,
+  "gtocore:ae_grid_provider": null,
+  "gtocore:celestial_energy_provider": null,
   "gtocore:computation_container_provider": null,
   "gtocore:destroy_time_provider": null,
   "gtocore:maintenance_hatch_provider": null,

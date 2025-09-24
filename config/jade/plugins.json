@@ -99,16 +99,18 @@
     "part_name": true
   },
   "gtocore": {
-    "tick_time_provider": true,
     "wireless_interactor_provider": true,
-    "wireless_grid_provider": true,
+    "celestial_energy_provider": true,
     "maintenance_hatch_provider": true,
     "accelerate_provider": false,
     "mana_container_provider": true,
     "vacuum_tier_provider": true,
     "temperature_provider": true,
+    "upgrade_module_provider": true,
+    "tick_time_provider": true,
+    "ae_grid_provider": true,
+    "wireless_grid_provider": true,
     "destroy_time_provider": true,
-    "computation_container_provider": true,
-    "upgrade_module_provider": true
+    "computation_container_provider": true
   }
 }

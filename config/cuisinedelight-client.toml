@@ -1,0 +1,12 @@
+#Cooking UI Scale
+#Range: 0.0 ~ 16.0
+uiScale = 1.0
+#Range: -1 ~ 1
+uiXAnchor = -1
+#Range: -1000 ~ 1000
+uiXOffset = 8
+#Range: -1 ~ 1
+uiYAnchor = 0
+#Range: -1000 ~ 1000
+uiYOffset = 0
+

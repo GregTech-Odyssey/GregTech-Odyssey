@@ -1,0 +1,19 @@
+enableThirstCompat = true
+#Max absorption allowed for Shielding I effect. Every level doubles the cap
+#Range: 2.0 ~ 100.0
+maxShieldingAbsorption = 8.0
+#Wilden effect: spell damage bonus per level
+#Range: 0.0 ~ 1.0
+wildenSpellDamageBonus = 0.2
+#Wilden effect: max mana bonus per level
+#Range: 0.0 ~ 1.0
+wildenMaxManaBonus = 0.2
+#Wilden effect: mana regen bonus per level
+#Range: 0.0 ~ 1.0
+wildenManaRegenBonus = 0.2
+#Drygmy farming: make a plain copy of the tool to prevent enchantments, affixes, and gems from taking effect
+drygmyFarmingToolPlainCopy = false
+#Drygmy farming: cost durability on the tool used for farming
+#Range: 0 ~ 10000
+drygmyFarmingDamageTool = 2
+

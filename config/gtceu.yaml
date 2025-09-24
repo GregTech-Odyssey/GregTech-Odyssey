@@ -217,6 +217,10 @@ machines:
   # Default: true
   enableMaintenance: true
 
+  # Dual chamber pressurization mode. Simple:1 Normal:2 Expert:3
+  # Default: 2
+  dualChamberPressurizationMode: 2
+
   # Whether to enable World Accelerators, which accelerate ticks for surrounding Tile Entities, Crops, etc.
   # Default: true
   enableWorldAccelerators: true

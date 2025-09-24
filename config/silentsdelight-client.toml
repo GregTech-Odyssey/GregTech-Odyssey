@@ -1,0 +1,7 @@
+#silentsdelight Config
+#Config for the Silents Delight
+#When set to false it will disable warden sense sound
+warden_sense_sound = true
+#Change the volume of the sound played when using warden sense
+warden_sense_sound_volume = 10.0
+
