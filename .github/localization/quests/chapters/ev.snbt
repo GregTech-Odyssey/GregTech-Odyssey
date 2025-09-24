@@ -272,7 +272,7 @@
 				item: "gtocore:water_purification_plant"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 10.5d
 			y: 1.5d
 		}
 		{
@@ -340,7 +340,6 @@
 				"38E57C47A1D6D206"
 				"7ABCF4826CC6154B"
 			]
-			description: [""]
 			id: "44A1BC4F5F9D8F30"
 			min_required_dependencies: 1
 			shape: "hexagon"
@@ -631,7 +630,7 @@
 				item: "gtocore:clarifier_purification_unit"
 				type: "item"
 			}]
-			x: 11.5d
+			x: 12.5d
 			y: 1.5d
 		}
 		{
@@ -651,8 +650,8 @@
 					type: "checkmark"
 				}
 			]
-			x: 11.5d
-			y: 3.0d
+			x: 12.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["70ECB812598A4BEC"]
@@ -662,8 +661,8 @@
 				item: "gtceu:mpic_chip"
 				type: "item"
 			}]
-			x: 13.0d
-			y: 3.0d
+			x: 10.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["51E5257D17BF1D9D"]
@@ -674,14 +673,14 @@
 			]
 			id: "50F2DACFDE9119DF"
 			shape: "hexagon"
-			size: 1.5d
+			size: 2.0d
 			tasks: [{
 				id: "084E3BA73DE24B9C"
 				item: "gtceu:ev_energy_input_hatch"
 				type: "item"
 			}]
-			x: 13.0d
-			y: 1.5d
+			x: 8.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["5612C7735BC4F5BC"]
@@ -725,6 +724,7 @@
 				"249A4B2F900AA6F1"
 				"4B4C62CD6455641C"
 				"47346E3BA7CD0E3B"
+				"50F2DACFDE9119DF"
 			]
 			description: ["{gto.ev.quests.6FFA3DE7A0920B7A.description0}"]
 			icon: {
@@ -752,6 +752,7 @@
 				"4B4C62CD6455641C"
 				"5B98FF5DDD4B2629"
 				"67E7B62710A78614"
+				"78988A24B63C1D8A"
 			]
 			description: [
 				"{gto.ev.quests.7323C9DD52244FA0.description0}"
@@ -1061,7 +1062,6 @@
 		}
 		{
 			dependencies: ["34AFC3B776E00E48"]
-			description: [""]
 			id: "3C7AE4505ACE7C80"
 			subtitle: "{gto.ev.quests.3C7AE4505ACE7C80.subtitle}"
 			tasks: [{
@@ -1295,6 +1295,18 @@
 			}]
 			x: 3.0d
 			y: -10.0d
+		}
+		{
+			dependencies: ["50F2DACFDE9119DF"]
+			hide_dependent_lines: true
+			id: "78988A24B63C1D8A"
+			tasks: [{
+				id: "0A2676D719E890B8"
+				item: "gtceu:iridium_ingot"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 6.5d
 		}
 	]
 	subtitle: ["{gto.ev.subtitle0}"]
