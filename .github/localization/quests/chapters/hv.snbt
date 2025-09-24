@@ -1168,12 +1168,11 @@
 				"{gto.hv.quests.19B006CEA837B6B4.description2}"
 				"{gto.hv.quests.19B006CEA837B6B4.description3}"
 				"{gto.hv.quests.19B006CEA837B6B4.description4}"
-				"{gto.hv.quests.19B006CEA837B6B4.description5}"
 				""
+				"{gto.hv.quests.19B006CEA837B6B4.description5}"
 				"{gto.hv.quests.19B006CEA837B6B4.description6}"
 				"{gto.hv.quests.19B006CEA837B6B4.description7}"
 				"{gto.hv.quests.19B006CEA837B6B4.description8}"
-				"{gto.hv.quests.19B006CEA837B6B4.description9}"
 			]
 			icon: "gtocore:hv_programmablec_hatch"
 			id: "19B006CEA837B6B4"
@@ -1182,11 +1181,6 @@
 			size: 1.0d
 			subtitle: "{gto.hv.quests.19B006CEA837B6B4.subtitle}"
 			tasks: [
-				{
-					id: "7A36F4872DAD04E9"
-					item: "ae2:cell_workbench"
-					type: "item"
-				}
 				{
 					id: "39549EBA6CFE7554"
 					item: {
