@@ -445,10 +445,6 @@ file = "config/ars_nouveau/wololo.toml"
 hash = "978214f42431cd238adc4e732695e23beaf46a07b5d50f66ea92de38f3e38458"
 
 [[files]]
-file = "config/arsdelight-common.toml"
-hash = "32e9131fd4d0bf15c09db2ee529e725b7f5e6b536472836d568cbf0ee200cdd5"
-
-[[files]]
 file = "config/arseng-common.toml"
 hash = "0b7f4fbd10e5ec0801e3125ae222534d155178635e50618004e060d09ddbe3a5"
 
@@ -561,10 +557,6 @@ file = "config/cosmeticarmorreworked-common.toml"
 hash = "ad632cac4e88a5138ae60ff7304bb3586eb93e9d3b34f241e5d532c1e5d19e7e"
 
 [[files]]
-file = "config/crabbersdelight-common.toml"
-hash = "94ca0068ad235b8547764c65d0688fd5bf0c4c1e3c219cefd3ffea0330cb8fe3"
-
-[[files]]
 file = "config/craftingstation-client.toml"
 hash = "ac6f3b0d3f54e87f2bfa1a7ee67f7e70c20d45fa24c08ddd66ad8d3c22e3c45e"
 
@@ -575,14 +567,6 @@ hash = "dc98bd1a2b4125946398c2375f52533a649aaee5e84a81517ed8ef55490a2872"
 [[files]]
 file = "config/cryonicconfig.json"
 hash = "bc17cffb9ac63d90331ffe1aa114611597cba47905883bbdc33f6e00d42c0545"
-
-[[files]]
-file = "config/cuisinedelight-client.toml"
-hash = "de8f0e6f4958a270a006a3eeb9252cb2cee8e769d86062696382d44b5fe7fef4"
-
-[[files]]
-file = "config/cuisinedelight-common.toml"
-hash = "0af825b1660b9b2247e984ee51f1b71d28bdb9508ebd8e78bd4cf9a791207def"
 
 [[files]]
 file = "config/cull-less-leaves.json"
@@ -703,10 +687,6 @@ hash = "40444fe1cf925e7070759e964196956a264d8b58699bd2f26b45bbc1a32867f7"
 [[files]]
 file = "config/endrem.toml"
 hash = "4fdf07c3f2c3887852ff0acc0f8e40b4d7a5d36a20a2e05d3d5a7cf0a455dfc5"
-
-[[files]]
-file = "config/ends_delight-common.toml"
-hash = "f4fc0c0f40bac8b5243141374a6df6eabc993ecd989559ffe8b9fd908bf46982"
 
 [[files]]
 file = "config/expatternprovider-common.toml"
@@ -1110,7 +1090,7 @@ hash = "326b4f9b813ca8183bfaeee184cf7248c7a75c4d85b59322e349c0e964c253f3"
 
 [[files]]
 file = "config/jei/recipe-category-sort-order.ini"
-hash = "0d8f0e02c67baa4d926553ae49d7ab7b11ae20012234aa2828ab21d358fe6a27"
+hash = "e8c78dad55270234266d7ba4e74f768c88909f6d0f9343a3ad039a426f737b9f"
 
 [[files]]
 file = "config/jeresources-common.toml"
@@ -1121,24 +1101,8 @@ file = "config/jeresources.toml"
 hash = "dba9b465be70853db2eaa9ab61747b244c2dd1127668dd72121251150a4833a1"
 
 [[files]]
-file = "config/kitchenkarrot-client.toml"
-hash = "13e0194108a07a5b7a46d55ffa8d8a6472fd7de8509cd601e60d66f6029c4e13"
-
-[[files]]
-file = "config/kitchenkarrot-common.toml"
-hash = "3fad9b3a24ba89bb0eeeab6a1a4960a4d144e4389385431d716f4602f1869159"
-
-[[files]]
 file = "config/kleeslabs-common.toml"
 hash = "b630e660d677e22c694d5b87b5f2da9d8029e2a0ca9cbecbcdb6a774eae6e5c0"
-
-[[files]]
-file = "config/l2_configs/l2library-client.toml"
-hash = "da71bf9d1a675fad1036f29c85645d26447726721b4053bc724dae4200deebbc"
-
-[[files]]
-file = "config/l2_configs/l2library-common.toml"
-hash = "1200e86c053c1bc905bfe01a6b69bc09c0ad21feae8ee25c23c48d345672a4f8"
 
 [[files]]
 file = "config/lithium.properties"
@@ -2149,10 +2113,6 @@ file = "config/sidebar_buttons.json"
 hash = "c0a2342ab1d042cec98799321a196d4b9ef958d6fdd59869c905226e71c5c8b2"
 
 [[files]]
-file = "config/silentsdelight-client.toml"
-hash = "4ebe6a2630437c30d3a0a2ef11a0245dcf3ffaa25bd446f946a790435f762f18"
-
-[[files]]
 file = "config/solcarrot-client.toml"
 hash = "6906f6e7b3e2764c6f157baa09bf47a4e261880cd3f1990ac12d64b280ce1fc1"
 
@@ -2387,11 +2347,6 @@ hash = "44505ec6c8d7ac5948b3f192cff3db191b07c4d39d501ce3af916006cda3c5a6"
 metafile = true
 
 [[files]]
-file = "mods/ars-nouveaus-flavors-delight.pw.toml"
-hash = "1de1a16ca5e54b0d493684c97948c6bc06a107c8115192ed43e70207c8344775"
-metafile = true
-
-[[files]]
 file = "mods/async-locator.pw.toml"
 hash = "89a00ce9f08a33a529f3f9a8baa50e281cbd50d451720e219a62928eb155c686"
 metafile = true
@@ -2417,11 +2372,6 @@ hash = "e4ffef98e98bcae23d9220b88bb95f4ef878b5c509a2f4a2fa5724c0d9d7dd19"
 metafile = true
 
 [[files]]
-file = "mods/avaritias-delight.pw.toml"
-hash = "285f740ca27b871a79955a501ec2a7a9b647499b36947e61c50436b5af3cfaa3"
-metafile = true
-
-[[files]]
 file = "mods/badoptimizations.pw.toml"
 hash = "b888554390b32341c927fe9d08329f248ed2d7b3f61587cc592668816417608b"
 metafile = true
@@ -2429,11 +2379,6 @@ metafile = true
 [[files]]
 file = "mods/balm.pw.toml"
 hash = "b34ab3eeb165e1e89ea277a2bad3da0a4a0ee81d744b30c424e1a0eec7d5042b"
-metafile = true
-
-[[files]]
-file = "mods/barbeques-delight.pw.toml"
-hash = "91888c5db0f65f9bbb851eb2ce7b813bd226491bb4da774a3ed20f83b41bddc2"
 metafile = true
 
 [[files]]
@@ -2517,11 +2462,6 @@ hash = "d08fd987ef286e74a4666cc5359c3adfdd6f86335ae321251997419bd920f93d"
 metafile = true
 
 [[files]]
-file = "mods/crabbers-delight.pw.toml"
-hash = "f815e97080d0bdafd14ab02c67309978cb69f560095dc75bd6e4a5394eedc4eb"
-metafile = true
-
-[[files]]
 file = "mods/crafting-tweaks.pw.toml"
 hash = "e392ff51b7a6280006d633dde678e5ced8ae5a65035a42c213dd6386d234c394"
 metafile = true
@@ -2534,11 +2474,6 @@ metafile = true
 [[files]]
 file = "mods/cryonicconfig.pw.toml"
 hash = "429a759dfd7022f63dd263e9021cf61b777e3849cd6530b20fc2d33d33639767"
-metafile = true
-
-[[files]]
-file = "mods/cuisine-delight.pw.toml"
-hash = "f68d8d5ecd42200161b5b0981153da58849363f612d5c34745ea3edca7e3b1f7"
 metafile = true
 
 [[files]]
@@ -2574,11 +2509,6 @@ metafile = true
 [[files]]
 file = "mods/doespotatotick.pw.toml"
 hash = "6945cc2095130e431108d83bf80ea57efed10e6df3fca94c0cf3dd02995a44fd"
-metafile = true
-
-[[files]]
-file = "mods/dumplings-delight-reload.pw.toml"
-hash = "ef7ad9f6f3716a77dbe20112bc269a90782ba5aded1f84a3cd78c0777c913167"
 metafile = true
 
 [[files]]
@@ -2629,11 +2559,6 @@ metafile = true
 [[files]]
 file = "mods/endremastered.pw.toml"
 hash = "a493627793300933efdc88070b3090b93c74a9649f8c4fdeb71c3e8965c0a726"
-metafile = true
-
-[[files]]
-file = "mods/ends-delight.pw.toml"
-hash = "63a9fdacf232df08a520fb1f25d2d1e878551fef4d18722c075e04d6291f5ed1"
 metafile = true
 
 [[files]]
@@ -2818,7 +2743,7 @@ metafile = true
 
 [[files]]
 file = "mods/gtocore-0.4.7.jar"
-hash = "4852cc1e5bbeca9ee079e8873a2fcf189cef12de0d30d6e826327cb521c1de45"
+hash = "d6bfe650edb0d26dbf5a8a67c6ec0d0657f56758d4b4c17562dad4f862ec5b75"
 
 [[files]]
 file = "mods/guideme.pw.toml"
@@ -2868,11 +2793,6 @@ metafile = true
 [[files]]
 file = "mods/just-enough-resources-jer.pw.toml"
 hash = "e571816e2487046d3f1c2697f03166b47d6343dbd4480d9e72cc1b2b4a0062f1"
-metafile = true
-
-[[files]]
-file = "mods/kitchen-karrot.pw.toml"
-hash = "4b43cb9df2d792424cd7d25f9df2f97608afadacd58b6ceb9bdfc0a891eaee6a"
 metafile = true
 
 [[files]]
@@ -2946,11 +2866,6 @@ hash = "c7fb57dbce6f2dd94ca7828bfe8d73fec022ab410943e754f3c2b30aec3390cd"
 metafile = true
 
 [[files]]
-file = "mods/my-nethers-delight.pw.toml"
-hash = "a27715adab9f478c1bdf1789c1e51343bb2300e36f6ead52c4f62aeae595c791"
-metafile = true
-
-[[files]]
 file = "mods/mythicbotany.pw.toml"
 hash = "546a1412504c5919e86503804de67ac9274171f2bcaf7d012ced0c51c37a0b82"
 metafile = true
@@ -2983,11 +2898,6 @@ metafile = true
 [[files]]
 file = "mods/not-enough-crashes-forge.pw.toml"
 hash = "2644d6a7f1b4326fc7bee43f7478c13d2a74197be08123d82b4c3f3d1d3b0014"
-metafile = true
-
-[[files]]
-file = "mods/oceanic-delight.pw.toml"
-hash = "21a7b43a9766f21a6f7454fc9ca41a50fa68cb8668f635c593b4acaee0d5c151"
 metafile = true
 
 [[files]]
@@ -3091,11 +3001,6 @@ hash = "e590575830dec5964abf3fadaba242581253831a38249150d9c07b083af1817b"
 metafile = true
 
 [[files]]
-file = "mods/silents-delight.pw.toml"
-hash = "cd09a652479857b51f049d73ee45f41c443f5172f421fe506d625b8c0b7b5ace"
-metafile = true
-
-[[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
 hash = "418891b43d45e9095441b823561ea763ef53b7ae43f97d0a9a9454d7f0cd5fe4"
 metafile = true
@@ -3156,18 +3061,8 @@ hash = "aae40317e3c222fed742cc5a889b96bf371d98d1dcc57c78458e55203e7ec248"
 metafile = true
 
 [[files]]
-file = "mods/trail-tales-delight.pw.toml"
-hash = "d98b40257c12b1aa43bc2de0eaf6049551c1f7014f28088da8204816e783cb7c"
-metafile = true
-
-[[files]]
 file = "mods/useful-clipboard.pw.toml"
 hash = "12f89bc6c0fda77ce685281c42f038bb5b2fa78aa23e15234fecf22aff4f3454"
-metafile = true
-
-[[files]]
-file = "mods/vintage-delight.pw.toml"
-hash = "50849065002ee424c74bf52a50e152a7bd269dae665a09d2581f86f55b1ae528"
 metafile = true
 
 [[files]]
