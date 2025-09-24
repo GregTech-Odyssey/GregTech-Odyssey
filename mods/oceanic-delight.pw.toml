@@ -1,0 +1,13 @@
+name = "Oceanic Delight"
+filename = "oceanic_delight-1.0.3-forge-1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "65e14fdfdd00a0772dced2f57617accb83ec39dd"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5888912
+project-id = 1128831
