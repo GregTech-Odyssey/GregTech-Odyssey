@@ -1439,6 +1439,7 @@
 			]
 			description: ["{gto.tips.quests.56243643D545C27B.description0}"]
 			hide_until_deps_complete: true
+			icon: "gtocore:mana_amplifier_hatch"
 			id: "56243643D545C27B"
 			subtitle: "{gto.tips.quests.56243643D545C27B.subtitle}"
 			tasks: [
