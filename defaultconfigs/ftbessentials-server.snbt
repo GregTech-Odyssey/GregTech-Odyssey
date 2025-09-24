@@ -185,7 +185,7 @@
 			# You can override this with FTB Ranks using ftbessentials.home.max
 			# Default: 1
 			# Range: 0 ~ 2147483647
-			max: 3
+			max: 20
 
 			# Warm-up time before /home command executes (in seconds)
 			# You can override this with FTB Ranks using ftbessentials.home.warmup

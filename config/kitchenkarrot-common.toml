@@ -1,0 +1,37 @@
+
+#Common Configs for KitchenKarrot
+["Canned Food Settings"]
+	#Whether an empty can entity spawns everytime player finished eating a canned food.
+	"Spawn Empty Can Entity" = true
+	#The maximum time in seconds an empty can entity can live.
+	#10 by default, -1 to prevent disappearing.
+	"Can Entity Lifetime" = 10
+
+["Villager Trade Settings"]
+	#Will butcher villager sell salt at level 1.
+	"Butcher Sell Salt" = true
+	#Will butcher villager sell oil at level 1.
+	"Butcher Sell Oil" = true
+	#Will farmer villager buy gem carrot at level 3.
+	"Farmer Buy Gem Carrot" = true
+
+["Cocktail Settings"]
+	#Unknown cocktail gives a random effect in the game except following.
+	"Unknown Cocktail Effects Blacklist" = ["minecraft:instant_health", "minecraft:instant_damage", "minecraft:bad_omen", "minecraft:hero_of_the_village", "kitchenkarrot:disperse"]
+	#Turn the blacklist above into a whitelist.Only the given effects will be applied.
+	#False by default.
+	"Whitelist Mode" = false
+
+["Alcohol Settings"]
+	#Determines the maximum level the tipsy effect can reach. Each level decreases 5% movement speed and increases 5% attack damage.
+	#Upon reaching anywhere higher than the maximum level will turn the current effects into harmful ones.
+	#3 by default.
+	"Maximum Tipsy Level" = 3
+	#The duration in ticks of the drunk state effects (except nausea).
+	#1200 ticks (60 seconds) by default.
+	"Wasted State Duration" = 1200
+	#The effects to be applied when the entity gets drunk.
+	"Wasted State Effects" = ["minecraft:weakness", "minecraft:slowness", "minecraft:hunger"]
+	#The level of each effect of the drunk state. Each number represents the real level appeared in game. This list should be as long as the previous one.
+	"Wasted State Effects Duration" = ["3", "3", "3"]
+

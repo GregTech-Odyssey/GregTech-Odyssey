@@ -1,0 +1,7 @@
+
+#Client Configs for KitchenKarrot
+["Client Settings"]
+	#Whether to display the welcome message when entering game.(Most likely an alpha warning)
+	#Preferably, leave it as how it was.
+	"Show Welcome Message" = false
+

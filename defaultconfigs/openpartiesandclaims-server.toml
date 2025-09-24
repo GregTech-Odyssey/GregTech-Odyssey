@@ -3,9 +3,12 @@
 
 permissionSystem = "ftb_ranks"
 primaryPartySystem = "ftb_teams"
+playerConfigurablePlayerConfigOptions = []
 
 [serverConfig.parties]
 enabled = false
 
 [serverConfig.claims]
-maxPlayerClaimForceloads = 500
+maxPlayerClaimForceloads = 10000
+maxPlayerClaims = 10000
+maxClaimDistance = 100
