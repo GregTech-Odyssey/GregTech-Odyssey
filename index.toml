@@ -82,7 +82,7 @@ hash = "557cc1b6ba1369f5d2459054cc2b9e9f91c58b9cdecb0a3023a911b435b1a9c8"
 
 [[files]]
 file = "config/apotheosis/enchantments.cfg"
-hash = "7fe8c40809eb0755d4bda627ae0d818df2c43e80ea8cce9973fe0a7c0944b4e7"
+hash = "e4265a33dc467ff508955d28ed96c6465989ea7e050841088dfc3a15e059c362"
 
 [[files]]
 file = "config/apotheosis/garden.cfg"
@@ -90,7 +90,7 @@ hash = "dea4d260e6eac868297c0f9cd80545fd6b54f7344c678b89edda980a3fc5e8cf"
 
 [[files]]
 file = "config/apotheosis/names.cfg"
-hash = "e1898c6270ffce5625d96ab6f459a0607c5bacd9f99987cb14311945f7beebd8"
+hash = "4da4be683c96d53d2ee1f5d99fafa50b37fa707d274a7444ddf9db8f8845a0ed"
 
 [[files]]
 file = "config/apotheosis/potion.cfg"
@@ -445,6 +445,10 @@ file = "config/ars_nouveau/wololo.toml"
 hash = "978214f42431cd238adc4e732695e23beaf46a07b5d50f66ea92de38f3e38458"
 
 [[files]]
+file = "config/arsdelight-common.toml"
+hash = "32e9131fd4d0bf15c09db2ee529e725b7f5e6b536472836d568cbf0ee200cdd5"
+
+[[files]]
 file = "config/arseng-common.toml"
 hash = "0b7f4fbd10e5ec0801e3125ae222534d155178635e50618004e060d09ddbe3a5"
 
@@ -557,6 +561,10 @@ file = "config/cosmeticarmorreworked-common.toml"
 hash = "ad632cac4e88a5138ae60ff7304bb3586eb93e9d3b34f241e5d532c1e5d19e7e"
 
 [[files]]
+file = "config/crabbersdelight-common.toml"
+hash = "94ca0068ad235b8547764c65d0688fd5bf0c4c1e3c219cefd3ffea0330cb8fe3"
+
+[[files]]
 file = "config/craftingstation-client.toml"
 hash = "ac6f3b0d3f54e87f2bfa1a7ee67f7e70c20d45fa24c08ddd66ad8d3c22e3c45e"
 
@@ -567,6 +575,14 @@ hash = "dc98bd1a2b4125946398c2375f52533a649aaee5e84a81517ed8ef55490a2872"
 [[files]]
 file = "config/cryonicconfig.json"
 hash = "bc17cffb9ac63d90331ffe1aa114611597cba47905883bbdc33f6e00d42c0545"
+
+[[files]]
+file = "config/cuisinedelight-client.toml"
+hash = "de8f0e6f4958a270a006a3eeb9252cb2cee8e769d86062696382d44b5fe7fef4"
+
+[[files]]
+file = "config/cuisinedelight-common.toml"
+hash = "0af825b1660b9b2247e984ee51f1b71d28bdb9508ebd8e78bd4cf9a791207def"
 
 [[files]]
 file = "config/cull-less-leaves.json"
@@ -687,6 +703,10 @@ hash = "40444fe1cf925e7070759e964196956a264d8b58699bd2f26b45bbc1a32867f7"
 [[files]]
 file = "config/endrem.toml"
 hash = "4fdf07c3f2c3887852ff0acc0f8e40b4d7a5d36a20a2e05d3d5a7cf0a455dfc5"
+
+[[files]]
+file = "config/ends_delight-common.toml"
+hash = "f4fc0c0f40bac8b5243141374a6df6eabc993ecd989559ffe8b9fd908bf46982"
 
 [[files]]
 file = "config/expatternprovider-common.toml"
@@ -1006,7 +1026,7 @@ hash = "8ca69d8240f29625a9589cb7701942ca9a29e02404fd5a3ecaefce454d951b62"
 
 [[files]]
 file = "config/gtceu.yaml"
-hash = "5b367ccaf63845d31b1080d2079f16f13dd6c28f75ad5cf43b96a6684ad35e22"
+hash = "364e20340a50b22fc259df85d0ff3628cc64d5c216eca83748dbf2b737ea24bd"
 
 [[files]]
 file = "config/guideme.toml"
@@ -1042,11 +1062,11 @@ hash = "1085729634eb065ebd749213a52442535405551c254711c99616142052d0852b"
 
 [[files]]
 file = "config/jade/plugins.json"
-hash = "9752cf7ba1159028f5a8da1a4ecd4c3ba68aa3ff88e4d2d142acf619c250104b"
+hash = "86fc550243a9de018fd4ca97d3ea079388863e943615290228a5170170190c77"
 
 [[files]]
 file = "config/jade/sort-order.json"
-hash = "3400b7f95bd753b6643352e0712b97ee15bc6a062dbd4fac4a33f8f88f24a3a9"
+hash = "bd7f3fdd0c93c6d6b4183a5c8d6ed4834be408e98bdb3d0b8a20201d10e04a63"
 
 [[files]]
 file = "config/jecalculation/config.toml"
@@ -1090,7 +1110,7 @@ hash = "326b4f9b813ca8183bfaeee184cf7248c7a75c4d85b59322e349c0e964c253f3"
 
 [[files]]
 file = "config/jei/recipe-category-sort-order.ini"
-hash = "e8c78dad55270234266d7ba4e74f768c88909f6d0f9343a3ad039a426f737b9f"
+hash = "0d8f0e02c67baa4d926553ae49d7ab7b11ae20012234aa2828ab21d358fe6a27"
 
 [[files]]
 file = "config/jeresources-common.toml"
@@ -1101,8 +1121,24 @@ file = "config/jeresources.toml"
 hash = "dba9b465be70853db2eaa9ab61747b244c2dd1127668dd72121251150a4833a1"
 
 [[files]]
+file = "config/kitchenkarrot-client.toml"
+hash = "13e0194108a07a5b7a46d55ffa8d8a6472fd7de8509cd601e60d66f6029c4e13"
+
+[[files]]
+file = "config/kitchenkarrot-common.toml"
+hash = "3fad9b3a24ba89bb0eeeab6a1a4960a4d144e4389385431d716f4602f1869159"
+
+[[files]]
 file = "config/kleeslabs-common.toml"
 hash = "b630e660d677e22c694d5b87b5f2da9d8029e2a0ca9cbecbcdb6a774eae6e5c0"
+
+[[files]]
+file = "config/l2_configs/l2library-client.toml"
+hash = "da71bf9d1a675fad1036f29c85645d26447726721b4053bc724dae4200deebbc"
+
+[[files]]
+file = "config/l2_configs/l2library-common.toml"
+hash = "1200e86c053c1bc905bfe01a6b69bc09c0ad21feae8ee25c23c48d345672a4f8"
 
 [[files]]
 file = "config/lithium.properties"
@@ -1491,6 +1527,10 @@ hash = "d3386e5892d0b533702f1d1d17108647111bc551c6052b5199a0eb47101b9164"
 [[files]]
 file = "config/openloader/resources/resources/assets/gtceu/textures/block/multiblock/electric_blast_furnace/overlay_front_paused_emissive.png"
 hash = "0adc059a95267b09d3e73d327d1845651d2be6669bc7a5ce3d2a13509074a0ac"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/jei/textures/jei/gui/gui_vanilla.png"
+hash = "ec74f5866a2a5018da666c2584a8f65036ba2dd03352f090e969ab56cc1e24d7"
 
 [[files]]
 file = "config/openloader/resources/resources/assets/littletiles/lang/zh_cn.json"
@@ -2109,6 +2149,10 @@ file = "config/sidebar_buttons.json"
 hash = "c0a2342ab1d042cec98799321a196d4b9ef958d6fdd59869c905226e71c5c8b2"
 
 [[files]]
+file = "config/silentsdelight-client.toml"
+hash = "4ebe6a2630437c30d3a0a2ef11a0245dcf3ffaa25bd446f946a790435f762f18"
+
+[[files]]
 file = "config/solcarrot-client.toml"
 hash = "6906f6e7b3e2764c6f157baa09bf47a4e261880cd3f1990ac12d64b280ce1fc1"
 
@@ -2143,10 +2187,6 @@ hash = "fc64c2ca441547fe83c78ca11d01124cec3779d17b3f607f2d06fd038163b372"
 [[files]]
 file = "config/structure_layout_optimizer.jsonc"
 hash = "8d65916d55009b95df3520f2ccca91e9c4f798214113e831aa5804a263458108"
-
-[[files]]
-file = "config/sweeper_maid-common.toml"
-hash = "59da733db7944b9be398bd35e435145aa416ed474c473af988d8f72d439af97f"
 
 [[files]]
 file = "config/terrablender.toml"
@@ -2202,7 +2242,7 @@ hash = "c330c36aec02467987e0caadea141bdda1fb534c11b11be4ce8d4441fc480f58"
 
 [[files]]
 file = "defaultconfigs/ftbessentials-server.snbt"
-hash = "f595547e1121d284dbd27469332bf8a66f02a339b543d01fb0125adf854ddb69"
+hash = "d4db100eb0310fa61a4eb0291f637032834c1bc02ea20cbde56fee353b30dfe7"
 
 [[files]]
 file = "defaultconfigs/ftblibrary/ftblibrary-client.snbt"
@@ -2225,12 +2265,12 @@ file = "defaultconfigs/ftbxmodcompat/ftbxmodcompat.snbt"
 hash = "a16630bdc2fbecab73b939d2adb903481b3c1f84bf1bd02cc2bed1d1189f9770"
 
 [[files]]
-file = "defaultconfigs/openpartiesandclaims-default-player-config.toml"
-hash = "544c2745c12e25edcb9c3f610898365f3f15cc202ea7a5de84a463b5440a26d8"
+file = "defaultconfigs/openpartiesandclaims-server-claim-config.toml"
+hash = "90912285fe6930734ed1a0e9e0d610d3b89c5e75805727f37009efebe760efa1"
 
 [[files]]
 file = "defaultconfigs/openpartiesandclaims-server.toml"
-hash = "236f3b49cce6f8e8066447004d3d8fe76e1c259704a57c735a125f2f769fa6aa"
+hash = "6358c918520e25490e1a59f6b44977f9cac6a1f16a667bb0498772455c659b36"
 
 [[files]]
 file = "defaultconfigs/solcarrot-server.toml"
@@ -2777,8 +2817,8 @@ hash = "477c0165ac7a3d521157a8fa69fd5335804383fc04459e0ee7a2ce799a08c568"
 metafile = true
 
 [[files]]
-file = "mods/gtocore-0.4.6.6.jar"
-hash = "50b754795ffb16c8fcf24f30d1ea3d61cfebbdd57c594d67bea5a832ffe95709"
+file = "mods/gtocore-0.4.7.jar"
+hash = "4852cc1e5bbeca9ee079e8873a2fcf189cef12de0d30d6e826327cb521c1de45"
 
 [[files]]
 file = "mods/guideme.pw.toml"
@@ -3083,11 +3123,6 @@ metafile = true
 [[files]]
 file = "mods/structure-layout-optimizer.pw.toml"
 hash = "99d6a9dd4575cea13291abd7f07ce8db5015de2bcf3f53889a9432375e47f3ac"
-metafile = true
-
-[[files]]
-file = "mods/sweeper-maid.pw.toml"
-hash = "4f83703c8bf89f01f01dacec3f8341322e0766e0e1be1655ec5ad3e21e69ea9c"
 metafile = true
 
 [[files]]
