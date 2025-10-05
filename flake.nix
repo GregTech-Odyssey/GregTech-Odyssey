@@ -94,6 +94,13 @@
 
               ln -s ${forge}/* $out
               cp -r ${modpack}/* $out
+
+              unlink $out/run.sh
+              unlink $out/run.bat
+              cp ${forge}/run.sh ${forge}/run.bat $out
+              chmod +w $out/run.sh $out/run.bat
+              sed -i 's/\(unix_args.txt\) \("\$@"\)/\1 nogui \2/' $out/run.sh
+              sed -i 's/\(win_args.txt\) \(%\*\)/\1 nogui \2/' $out/run.bat
             '';
           };
         };
