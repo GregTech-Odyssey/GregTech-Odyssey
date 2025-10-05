@@ -1489,6 +1489,10 @@ file = "config/openloader/resources/resources/assets/gtceu/textures/block/multib
 hash = "0adc059a95267b09d3e73d327d1845651d2be6669bc7a5ce3d2a13509074a0ac"
 
 [[files]]
+file = "config/openloader/resources/resources/assets/gtocore/lang/en_us.json"
+hash = "3a73e47a36ebcebcdbb2b9dcae11122c881ba27a110e9c54517178eee611f734"
+
+[[files]]
 file = "config/openloader/resources/resources/assets/jei/textures/jei/gui/gui_vanilla.png"
 hash = "ec74f5866a2a5018da666c2584a8f65036ba2dd03352f090e969ab56cc1e24d7"
 
@@ -2734,7 +2738,7 @@ metafile = true
 
 [[files]]
 file = "mods/gtocore-0.4.8.jar"
-hash = "c77f46e0533d6f8c09b1632c51954a419b72d4345b90472c8c4473a932be477c"
+hash = "ef1488fb6e6a0c2e9f73e8e7c44c20113532cabcb0bcb54b3e5264ed1a508778"
 
 [[files]]
 file = "mods/guideme.pw.toml"
