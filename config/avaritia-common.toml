@@ -1,109 +1,150 @@
 
 #Avaritia Common Config
 [tools]
-	#Does the super mode of endless tools retain stone and soil
-	"Is Stone" = false
-	#Whether to merge matter cluster
-	"Is Merge Matter Cluster" = true
-	#Range damage value of the right key of Infinity sword
-	#Range: 100 ~ 100000
-	"Sword Range Damage" = 10000
-	#Infinity sword right click attack range
-	#Range: 8 ~ 64
-	"Sword Attack Range" = 32
-	#Does the right key range attack of endless sword attack neutral creatures
-	"Is Sword Damage Animal" = false
-	#Does the right key spawn lightning with range of attack
-	"Is Sword Cause Lightning" = false
-	#Infinity bow scattering light arrow damage
-	#Range: 100 ~ 100000
-	"Sub Arrow Damage" = 10000
-	#Chain number of endless axe cutting trees
-	#Range: 16 ~ 128
-	"Axe Chain Count" = 64
-	#Food effect time scaling factor
-	#Range: 0.1 ~ 5.0
-	"Food Time" = 1.0
-	#The range of Infinity PickAxe can break
-	#Range: 2 ~ 32
-	"PickAxe Break Range" = 8
-	#The range of Infinity Shovel can break
-	#Range: 2 ~ 32
-	"Shovel Break Range" = 8
-	#The product tick of NeutronCollector
-	#Range: > 1200
-	"Neutron Collector Product Tick" = 3600
-	#Singularity default time required
-	#Range: > 0
-	"Singularity Time Required" = 240
-	#Does the right key cause infinity damage
-	"Is Sword Cause Endless damage" = true
-	#Growth soul farmland rate
-	#Range: 0.0 ~ 1.0
-	"Growth soul farmland rate" = 0.8
-	#Damage of BladeSlash for Crystal Sword
-	#Range: > 0
-	"BladeSlash Damage" = 200
-	#Radius of BladeSlash for Crystal Sword
-	#Range: 5 ~ 100
-	"BladeSlash Radius" = 10
-	#Is InfinityCatalyst Craft use all Singularity
-	"Internal InfinityCatalyst Craft" = true
+
+	[tools.config]
+
+		[tools.config.avaritia]
+			#config.avaritia.is_keep_stone.tooltip
+			is_keep_stone = false
+			#config.avaritia.is_merge_matter_cluster.tooltip
+			is_merge_matter_cluster = true
+			#config.avaritia.sword_range_damage.tooltip
+			#Range: 100 ~ 100000
+			sword_range_damage = 10000
+			#config.avaritia.sword_attack_range.tooltip
+			#Range: 8 ~ 64
+			sword_attack_range = 32
+			#config.avaritia.is_sword_attack_item_entity.tooltip
+			is_sword_attack_item_entity = false
+			#config.avaritia.is_sword_attack_lightning.tooltip
+			is_sword_attack_lightning = false
+			#config.avaritia.is_sword_attack_endless.tooltip
+			is_sword_attack_endless = true
+			#config.avaritia.sub_arrow_damage.tooltip
+			#Range: 100 ~ 100000
+			sub_arrow_damage = 10000
+			#config.avaritia.axe_chain_count.tooltip
+			#Range: 16 ~ 128
+			axe_chain_count = 64
+			#config.avaritia.food_time.tooltip
+			#Range: 0.1 ~ 5.0
+			food_time = 1.0
+			#config.avaritia.pickaxe_break_range.tooltip
+			#Range: 2 ~ 32
+			pickaxe_break_range = 8
+			#config.avaritia.shovel_break_range.tooltip
+			#Range: 2 ~ 32
+			shovel_break_range = 8
+			#config.avaritia.neutron_collector_product_tick.tooltip
+			#Range: > 1200
+			neutron_collector_product_tick = 3600
+			#config.avaritia.singularity_time_required.tooltip
+			#Range: > 0
+			singularity_time_required = 240
+			#config.avaritia.growth_soul_farmland.tooltip
+			#Range: 0.0 ~ 1.0
+			growth_soul_farmland = 0.8
+			#config.avaritia.blade_slash_damage.tooltip
+			#Range: > 0
+			blade_slash_damage = 200
+			#config.avaritia.blade_slash_radius.tooltip
+			#Range: 5 ~ 100
+			blade_slash_radius = 10
+			#config.avaritia.internal_infinity_catalyst_craft.tooltip
+			internal_infinity_catalyst_craft = true
 
 [emc]
-	#Emc of Neutron Pile
-	#Range: > 0
-	"Neutron Pile Emc" = 100
-	#Emc of Totem Of Undying
-	#Range: > 0
-	"Vanilla Totem Emc" = 1000
+
+	[emc.config]
+
+		[emc.config.avaritia]
+			#config.avaritia.neutron_pile_emc.tooltip
+			#Range: > 0
+			neutron_pile_emc = 100
+			#config.avaritia.vanilla_totem_emc.tooltip
+			#Range: > 0
+			vanilla_totem_emc = 1000
 
 [storage]
-	#Define the maximum number of item .types. that can be stored in a Infinity Chest.
-	#Range: > 2048
-	"Chest Max ItemSize" = 32768
-	#Use single page mode
-	"Use Single PageMode" = false
-	#Stack size limit of slot
-	#Range: 64 ~ 4294967295
-	"Slot Stack Limit" = 4294967295
-	#Maximum page limit
-	#Range: 2 ~ 79536431
-	"Max Page Limit" = 79536431
-	#*Recovery options* Reset the max page that is 0.
-	#Range: 1 ~ 79536431
-	"Reset Max Page" = 1
-	#Inventory rows for multi page mode
-	#Range: 1 ~ 6
-	"Inventory Rows" = 6
+
+	[storage.config]
+
+		[storage.config.avaritia]
+			#config.avaritia.chest_max_item_size.tooltip
+			#Range: > 2048
+			chest_max_item_size = 32768
+			#config.avaritia.use_single_page_mode.tooltip
+			use_single_page_mode = false
+			#config.avaritia.slot_stack_limit.tooltip
+			#Range: 64 ~ 4294967295
+			slot_stack_limit = 4294967295
+			#config.avaritia.max_page_limit.tooltip
+			#Range: 2 ~ 79536431
+			max_page_limit = 79536431
+			#config.avaritia.reset_max_page.tooltip
+			#Range: 1 ~ 79536431
+			reset_max_page = 1
+			#config.avaritia.inventory_rows.tooltip
+			#Range: 1 ~ 6
+			inventory_rows = 6
 
 [channel]
-	#
-	#Range: > 2048
-	"Channel Size" = 32768
-	#
-	#Range: 4 ~ 64
-	"MaxPlayer Channels" = 16
-	#
-	#Range: 32 ~ 1024
-	"MaxPublic Channels" = 128
-	#
-	#Range: 1 ~ 40
-	"FastUpdate Rate" = 1
-	#
-	#Range: 20 ~ 1200
-	"FullUpdate Rate" = 40
+
+	[channel.config]
+
+		[channel.config.avaritia]
+			#config.avaritia.max_size_pre_channel.tooltip
+			#Range: > 2048
+			max_size_pre_channel = 32768
+			#config.avaritia.max_channels_pre_player.tooltip
+			#Range: 4 ~ 64
+			max_channels_pre_player = 16
+			#config.avaritia.max_public_channels.tooltip
+			#Range: 32 ~ 1024
+			max_public_channels = 128
+			#config.avaritia.channel_fast_update_rate.tooltip
+			#Range: 1 ~ 40
+			channel_fast_update_rate = 1
+			#config.avaritia.channel_full_update_rate.tooltip
+			#Range: 20 ~ 1200
+			channel_full_update_rate = 40
 
 [misc]
-	#For develop
-	"Use Advance Tooltips" = false
-	#Tracking Endless Item Speed
-	#Range: 1.0 ~ 50.0
-	"Endless Item Speed" = 3.0
-	#Tracking Endless Item Range
-	#Range: 1.0 ~ 10000.0
-	"Endless Item Range" = 1000.0
-	#Speed of Infinity Elytra
-	#Range: 1.0 ~ 10.0
-	"Infinity Elytra Flying Speed" = 1.5
+
+	[misc.config]
+
+		[misc.config.avaritia]
+			#config.avaritia.use_advance_tooltips.tooltip
+			use_advance_tooltips = false
+			#config.avaritia.endless_item_entity_speed.tooltip
+			#Range: 1.0 ~ 50.0
+			endless_item_entity_speed = 3.0
+			#config.avaritia.endless_item_entity_range.tooltip
+			#Range: 1.0 ~ 10000.0
+			endless_item_entity_range = 1000.0
+			#config.avaritia.infinity_elytra_flying_speed.tooltip
+			#Range: 1.0 ~ 10.0
+			infinity_elytra_flying_speed = 1.5
+			#config.avaritia.boot_speed_base.tooltip
+			#Range: 0.01 ~ 1.0
+			boot_speed_base = 0.1
+			#config.avaritia.boot_speed_flying_multiplier.tooltip
+			#Range: 0.1 ~ 5.0
+			boot_speed_flying_multiplier = 1.1
+			#config.avaritia.boot_speed_swimming_multiplier.tooltip
+			#Range: 0.1 ~ 5.0
+			boot_speed_swimming_multiplier = 1.2
+			#config.avaritia.boot_speed_sneaking_multiplier
+			#Range: 0.01 ~ 1.0
+			boot_speed_sneaking_multiplier = 0.1
+			#config.avaritia.boot_speed_backward_multiplier.tooltip
+			#Range: 0.01 ~ 1.0
+			boot_speed_backward_multiplier = 0.25
+			#config.avaritia.boot_speed_strafing_multiplier
+			#Range: 0.01 ~ 1.0
+			boot_speed_strafing_multiplier = 0.45
+			#config.avaritia.boot_speed_sprinting_multiplier
+			#Range: 0.01 ~ 1.0
+			boot_speed_sprinting_multiplier = 0.2
 

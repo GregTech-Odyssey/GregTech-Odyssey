@@ -1,10 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = "CustomSkinLoader/CustomSkinLoader.json"
-hash = "ddc8aa338991af86e389398f65de88102dd98fe7019aafbe3747703a82b21695"
-
-[[files]]
 file = "config/AdvancedBackups-client.properties"
 hash = "0ccf7084062f696c9c2c8255dc74994327a71512cb290f9e2e2b7ff502850b5e"
 
@@ -66,7 +62,7 @@ hash = "70dd0c9f135edf560dd337aa40e38b3cce2e9a0a3499d068814fdd9ed56be167"
 
 [[files]]
 file = "config/alltheleaks.json"
-hash = "2d0e1b8f2cd22226dd6dbca3fc95448510ff86508a7a0710ada0854cd76d2eff"
+hash = "fa638603e29b4c3063a6475d93a5e12ef589beb6415d4096ba5eedfb6d3eb9dc"
 
 [[files]]
 file = "config/apotheosis/adventure.cfg"
@@ -454,7 +450,7 @@ hash = "52fe2e0b1e692f2ec5e06aad8e0c4858b7fde54ef552bea5a71de00eb11d75c7"
 
 [[files]]
 file = "config/asyncparticles/asyncparticles.json"
-hash = "e13a32fa93a5bc60e0cb967144b1be5a16e7ec2dfba55f18d6716148bb04c94d"
+hash = "151f0220f19d0b6ccf417eb699c3287e560bc0f9c584952b31400d462643ccb4"
 
 [[files]]
 file = "config/attributefix.json"
@@ -466,7 +462,7 @@ hash = "d263933ee4b13ea18ca743e8648d0cf2bc0f69a7d8c3f0e55829d9597d8c0c62"
 
 [[files]]
 file = "config/avaritia-common.toml"
-hash = "74c3a1ca34394d67f3b6c70bcc9ea233336fd226b7db44411331a9e431ea2a17"
+hash = "75666e1487bec3346fb7ea4fcd566a29d2a7e73f56b8100a24000f8858d61938"
 
 [[files]]
 file = "config/avaritia/singularities/spacetime.json"
@@ -1010,7 +1006,7 @@ hash = "364e20340a50b22fc259df85d0ff3628cc64d5c216eca83748dbf2b737ea24bd"
 
 [[files]]
 file = "config/guideme.toml"
-hash = "da63104a541560388f8cf6f4f4e7c73e64c54019aeb964f7d67a662e11584b16"
+hash = "82bcfdf8624ec94cf4cfe30b1def3a0f3d562561b31a0ccef7468657f48e0987"
 
 [[files]]
 file = "config/immediatelyfast.json"
@@ -2283,7 +2279,7 @@ metafile = true
 
 [[files]]
 file = "mods/alltheleaks.pw.toml"
-hash = "394d3301223db53609c7bdfdd16745295125fc25d5ecd723d6471c5b713abfcf"
+hash = "32e759948e654206bfb7bca07673d452721b1b015a197c723b91c040b6c12d21"
 metafile = true
 
 [[files]]
@@ -2308,12 +2304,12 @@ metafile = true
 
 [[files]]
 file = "mods/applied-botanics-addon.pw.toml"
-hash = "18a9a5e07895fb5ad9ed87935061fa0d6a1fc6d66439cf55d5efee4a5c6705d2"
+hash = "02bbd73a916b25f404b28c69fbe3ee113c84563b6306f825f1a3583a0b4a04f3"
 metafile = true
 
 [[files]]
 file = "mods/applied-energistics-2-wireless-terminals.pw.toml"
-hash = "5e2d5c0c2d40e581e5dec5c9c8e8e4dfd6ebf0134b55b7921ef8f101d49f5254"
+hash = "996bcdca15e510d8082da82f061304ab42e0ec92d861290ecc6b6f6f907fa564"
 metafile = true
 
 [[files]]
@@ -2353,7 +2349,7 @@ metafile = true
 
 [[files]]
 file = "mods/asyncparticles.pw.toml"
-hash = "94ff1d6575564daf1e87956e554230493c205309cfbe7c7fdbff0996fa715451"
+hash = "181c92d504f8098315007109a2d9fe0baf0800f622561d73b47130793f6fe5d6"
 metafile = true
 
 [[files]]
@@ -2373,12 +2369,12 @@ metafile = true
 
 [[files]]
 file = "mods/badoptimizations.pw.toml"
-hash = "b888554390b32341c927fe9d08329f248ed2d7b3f61587cc592668816417608b"
+hash = "5f6da0b7d682929e1c9caf63556d868de599f0a76a191d7c66af112af456f7c6"
 metafile = true
 
 [[files]]
 file = "mods/balm.pw.toml"
-hash = "b34ab3eeb165e1e89ea277a2bad3da0a4a0ee81d744b30c424e1a0eec7d5042b"
+hash = "9b286283ff04cc6100de5af162bc682826b8aaa7621e3386d7e9efc594459c02"
 metafile = true
 
 [[files]]
@@ -2423,7 +2419,7 @@ metafile = true
 
 [[files]]
 file = "mods/client-tweaks.pw.toml"
-hash = "06e6f4498b0a3c65e7d2763bab0a7ed9912c0e746ccd2d9afe68408b7a89374d"
+hash = "bb4bdc05adcd1f895af038cfd46eded05a7e6047f05fade31dd20d4de7572bdb"
 metafile = true
 
 [[files]]
@@ -2453,7 +2449,7 @@ metafile = true
 
 [[files]]
 file = "mods/corpse.pw.toml"
-hash = "0a52616a687a2815f16640d758d1b85f4f15d4897a169e2fc306b908a3bffe0f"
+hash = "d62480bc696affd0a714d4cd74b5dc64a072b9d67d505b52df87ebcdf9650a79"
 metafile = true
 
 [[files]]
@@ -2484,11 +2480,6 @@ metafile = true
 [[files]]
 file = "mods/curios.pw.toml"
 hash = "1315cd56b0b4a5b3d53374cebf4f1f3cd0546b05058740847bd226c1d1ccab39"
-metafile = true
-
-[[files]]
-file = "mods/customskinloader.pw.toml"
-hash = "ca25d51bb1980d36edc8aa9ddf521464bb2bde0e8e9a6f2358c6fec93d75f6b6"
 metafile = true
 
 [[files]]
@@ -2568,7 +2559,7 @@ metafile = true
 
 [[files]]
 file = "mods/ex-pattern-provider.pw.toml"
-hash = "2fa350b7c90c3b572965f9728a9acaa59fdd3b58e37e8a2efe267f520f4bad85"
+hash = "b16779d890d9d8fd5f2a1bce670a13698ab8bef58851b4a43b0044495d22d313"
 metafile = true
 
 [[files]]
@@ -2648,12 +2639,17 @@ metafile = true
 
 [[files]]
 file = "mods/findme.pw.toml"
-hash = "c6a2d9b3f0a172663eb91a650de90332cf7adf41662c01a9d3ad581d66e32ada"
+hash = "86f3e7e7311838bcff17246e442d9f7b834bccddcf40b3d46cb7220970fe3acd"
 metafile = true
 
 [[files]]
 file = "mods/fix-experience-bug.pw.toml"
 hash = "debd96e28aa70e3cd10f651652489a1ae8c37239b69efc47d8a052b7fba71b79"
+metafile = true
+
+[[files]]
+file = "mods/fix-gpu-memory-leak.pw.toml"
+hash = "4d0bfeb7df324101028e12d37e7fe0ab9555cb0edd0eb71d12e850269630e5c3"
 metafile = true
 
 [[files]]
@@ -2723,7 +2719,7 @@ metafile = true
 
 [[files]]
 file = "mods/geckolib.pw.toml"
-hash = "cdb49cbc2bf1bd15a0be40373b6bc5c4cbd550d78896ab9317f72ce72858f712"
+hash = "88f142bda6bfa6aff4f4d4e12b8ba7581aa40e3f163039a533f09dd6d634e093"
 metafile = true
 
 [[files]]
@@ -2737,17 +2733,12 @@ hash = "254433b78459c706436b3d020a736890747fa91b7608e036d461db93395aa551"
 metafile = true
 
 [[files]]
-file = "mods/gputape.pw.toml"
-hash = "477c0165ac7a3d521157a8fa69fd5335804383fc04459e0ee7a2ce799a08c568"
-metafile = true
-
-[[files]]
-file = "mods/gtocore-0.4.7.5.jar"
-hash = "2ca4b2d9812eef3850c9e927c396ff7d5524fa464f36c3721124f230398022a7"
+file = "mods/gtocore-0.4.8.jar"
+hash = "0697f90226388480979de094605d1ea99b30ee375c82a55b75c6aa62467a0208"
 
 [[files]]
 file = "mods/guideme.pw.toml"
-hash = "0ffd4cabc4d73f62891f6a663da56691d720f395de1379586807f7b96cdbe239"
+hash = "8c635c96e2449280329a0d3daaa279886a7e667aaabf122d344d47f72b065546"
 metafile = true
 
 [[files]]
@@ -2782,7 +2773,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "5f7c3cf35124bf96e880cc8562fc44ac15990a89b07db299aed9a88ce3752cb1"
+hash = "5c93a82eec8d7c98458e112533798402f9664f209d379fcc439f9e9aafe9421b"
 metafile = true
 
 [[files]]
@@ -2907,7 +2898,7 @@ metafile = true
 
 [[files]]
 file = "mods/oh-the-biomes-weve-gone.pw.toml"
-hash = "c473dfc24827a5528eb61ab7ca0b57c9e1cab4849871860f5ee9f897760b24d5"
+hash = "2144d953b3cd03d4d9a44c8e322c334da6ac7edf24ed73f5e141f5bc7bd68597"
 metafile = true
 
 [[files]]
@@ -2962,7 +2953,7 @@ metafile = true
 
 [[files]]
 file = "mods/re-avaritia.pw.toml"
-hash = "b8344ea404b0648738b791ce03227030afdebbebf6e732cf83986946b0272220"
+hash = "2b388acf8963404245b915065f9b6caa4504237d1efc93a3c917eab829034c1d"
 metafile = true
 
 [[files]]
@@ -3002,12 +2993,12 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "418891b43d45e9095441b823561ea763ef53b7ae43f97d0a9a9454d7f0cd5fe4"
+hash = "8d7b790266865c226a319a1c57a4b63a541607232fac8b16d8f4920b05b9bf68"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "d7155dafeb9728f5aa3eb871e171303d2002e4db518637a70c6c23cf30861bcb"
+hash = "950b622cb35ab9c7dfe669447d0c57de253290b29c600457478280744a3fbf9a"
 metafile = true
 
 [[files]]
