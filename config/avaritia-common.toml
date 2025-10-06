@@ -117,12 +117,6 @@
 		[misc.config.avaritia]
 			#config.avaritia.use_advance_tooltips.tooltip
 			use_advance_tooltips = false
-			#config.avaritia.endless_item_entity_speed.tooltip
-			#Range: 1.0 ~ 50.0
-			endless_item_entity_speed = 3.0
-			#config.avaritia.endless_item_entity_range.tooltip
-			#Range: 1.0 ~ 10000.0
-			endless_item_entity_range = 1000.0
 			#config.avaritia.infinity_elytra_flying_speed.tooltip
 			#Range: 1.0 ~ 10.0
 			infinity_elytra_flying_speed = 1.5
@@ -147,4 +141,16 @@
 			#config.avaritia.boot_speed_sprinting_multiplier
 			#Range: 0.01 ~ 1.0
 			boot_speed_sprinting_multiplier = 0.2
+
+	[misc."immortal item entity"]
+
+		[misc."immortal item entity".config]
+
+			[misc."immortal item entity".config.avaritia]
+				#config.avaritia.endless_item_entity_speed.tooltip
+				#Range: 1.0 ~ 50.0
+				endless_item_entity_speed = 3.0
+				#config.avaritia.endless_item_entity_range.tooltip
+				#Range: 1.0 ~ 10000.0
+				endless_item_entity_range = 1000.0
 

@@ -26,6 +26,7 @@
 /config/embeddium-fingerprint.json
 /config/oculus.properties
 /config/xaerominimap_entities.json
+/config/gtocore_client_messages.json
 /config/gtocore.yaml
 /config/gtocore/
 /config/spark/
@@ -41,9 +42,6 @@
 /data/
 /resourcepacks/
 /shaderpacks/*.txt
-/CustomSkinLoader/caches
-/CustomSkinLoader/CustomSkinAPIPlus-ClientID
-/CustomSkinLoader/CustomSkinLoader.log
 /ESM/
 .idea/
 .DS_Store

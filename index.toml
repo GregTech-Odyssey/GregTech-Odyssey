@@ -462,7 +462,7 @@ hash = "d263933ee4b13ea18ca743e8648d0cf2bc0f69a7d8c3f0e55829d9597d8c0c62"
 
 [[files]]
 file = "config/avaritia-common.toml"
-hash = "75666e1487bec3346fb7ea4fcd566a29d2a7e73f56b8100a24000f8858d61938"
+hash = "a6f09e25fd11ff1d678a0abd685f0440665ca390ad2595b3852babd5d7211b72"
 
 [[files]]
 file = "config/avaritia/singularities/spacetime.json"
@@ -614,7 +614,7 @@ hash = "a51452390308a18e517457440e251a4a1737433e6033875e4a3af6cc5afb9283"
 
 [[files]]
 file = "config/doespotatotick-common.toml"
-hash = "c43269a024ac76954853fe645fd6c1bafd5c42d95d40f5577ba1c0e3b1988589"
+hash = "f10d6a72bff25b2f23dd0fe5fd95fc2201ff33b82ab8dcc6e5be0268ccc65ecc"
 
 [[files]]
 file = "config/dungeon_crawl.toml"
@@ -750,7 +750,7 @@ hash = "4e0913a2fef137b2ba6345a2ce3e6104fb0872efe194c5eb7cbb75782b933fc6"
 
 [[files]]
 file = "config/flerovium.json"
-hash = "4dafe93b4fc05d8bd626069d57f86f08e6571d8b3c601f5c514c3553ab697c87"
+hash = "f8f7b6978ff358427c0e3ca886513abe22cbb782bdda63b1634fa6d304098ca6"
 
 [[files]]
 file = "config/fluidium-common.toml"
@@ -2353,7 +2353,7 @@ metafile = true
 
 [[files]]
 file = "mods/asyncparticles.pw.toml"
-hash = "181c92d504f8098315007109a2d9fe0baf0800f622561d73b47130793f6fe5d6"
+hash = "94ff1d6575564daf1e87956e554230493c205309cfbe7c7fdbff0996fa715451"
 metafile = true
 
 [[files]]
@@ -2503,7 +2503,7 @@ metafile = true
 
 [[files]]
 file = "mods/doespotatotick.pw.toml"
-hash = "6945cc2095130e431108d83bf80ea57efed10e6df3fca94c0cf3dd02995a44fd"
+hash = "53c3650e67b5fbdbcfc2312a2faa03385b0e8178668dbea0d77b6c4f50fe5796"
 metafile = true
 
 [[files]]
@@ -2643,7 +2643,7 @@ metafile = true
 
 [[files]]
 file = "mods/findme.pw.toml"
-hash = "86f3e7e7311838bcff17246e442d9f7b834bccddcf40b3d46cb7220970fe3acd"
+hash = "3ed5a12bb390e00f10899c409ee668f755798fbd3c02ec1641500dea555a76b8"
 metafile = true
 
 [[files]]
@@ -2658,7 +2658,7 @@ metafile = true
 
 [[files]]
 file = "mods/flerovium.pw.toml"
-hash = "d869036d13d473f75a1eb5172aef92dccb45967325228e803ad1c029bedc8c6f"
+hash = "61bd3506985b588254e26cdd813196e8fdb082dd2ae96a022c1724a862d48d8d"
 metafile = true
 
 [[files]]
@@ -2737,8 +2737,8 @@ hash = "254433b78459c706436b3d020a736890747fa91b7608e036d461db93395aa551"
 metafile = true
 
 [[files]]
-file = "mods/gtocore-0.4.8.jar"
-hash = "ef1488fb6e6a0c2e9f73e8e7c44c20113532cabcb0bcb54b3e5264ed1a508778"
+file = "mods/gtocore-0.4.8.1.jar"
+hash = "3496ede4d82655bd9e384b98c3fb1093bf89731532e44846a1dd5fa686da551a"
 
 [[files]]
 file = "mods/guideme.pw.toml"
@@ -2957,7 +2957,7 @@ metafile = true
 
 [[files]]
 file = "mods/re-avaritia.pw.toml"
-hash = "2b388acf8963404245b915065f9b6caa4504237d1efc93a3c917eab829034c1d"
+hash = "2b08c58f3b533346bc4b6ad6178976a4e7302d5f5ee57a30fa5b1386ff07581b"
 metafile = true
 
 [[files]]
