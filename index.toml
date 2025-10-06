@@ -2653,7 +2653,7 @@ metafile = true
 
 [[files]]
 file = "mods/fix-gpu-memory-leak.pw.toml"
-hash = "4d0bfeb7df324101028e12d37e7fe0ab9555cb0edd0eb71d12e850269630e5c3"
+hash = "77761d45f50577e6f30fb27d41a52afa24fc6a77280c056d5dac4a40b6d64644"
 metafile = true
 
 [[files]]
@@ -2737,8 +2737,8 @@ hash = "254433b78459c706436b3d020a736890747fa91b7608e036d461db93395aa551"
 metafile = true
 
 [[files]]
-file = "mods/gtocore-0.4.8.1.jar"
-hash = "3496ede4d82655bd9e384b98c3fb1093bf89731532e44846a1dd5fa686da551a"
+file = "mods/gtocore-0.4.8.4.jar"
+hash = "e0e6b319861772d8420a9d3847fd6a5f507f5f81f56c9a16e323790a3a8ff92a"
 
 [[files]]
 file = "mods/guideme.pw.toml"
