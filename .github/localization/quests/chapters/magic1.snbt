@@ -1,0 +1,4323 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 200
+	default_quest_shape: ""
+	filename: "magic1"
+	group: "48D03BA483B3FA87"
+	icon: "gtocore:colorful_mystical_flower"
+	id: "67F8F9281EAB8696"
+	order_index: 0
+	progression_mode: "flexible"
+	quest_links: [{
+		id: "1637CAA410A0BDED"
+		linked_quest: "65EEE3C0DA2495EC"
+		x: 8.5d
+		y: -2.5d
+	}]
+	quests: [
+		{
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "41AAA485A42FE945"
+			rewards: [{
+				count: 16
+				id: "3771871595030A31"
+				item: "botania:white_petal"
+				type: "item"
+			}]
+			size: 0.5d
+			tasks: [
+				{
+					id: "766EF3C52E70AA55"
+					item: "botania:white_mystical_flower"
+					type: "item"
+				}
+				{
+					id: "71391E11F1DD3EC7"
+					item: "botania:white_double_flower"
+					type: "item"
+				}
+				{
+					id: "0458A36F176060A2"
+					item: "botania:white_mushroom"
+					type: "item"
+				}
+			]
+			title: "{gto.magic1.quests.41AAA485A42FE945.title}"
+			x: 9.25d
+			y: 3.75d
+		}
+		{
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "51932DCD495DE268"
+			rewards: [{
+				count: 16
+				id: "2E8025732E21C844"
+				item: "botania:orange_petal"
+				type: "item"
+			}]
+			size: 0.5d
+			tasks: [
+				{
+					id: "2BCFE656B7ED8F87"
+					item: "botania:orange_mystical_flower"
+					type: "item"
+				}
+				{
+					id: "2FEDECFB5E382F92"
+					item: "botania:orange_double_flower"
+					type: "item"
+				}
+				{
+					id: "4FAA4ABF8DA9D1ED"
+					item: "botania:orange_mushroom"
+					type: "item"
+				}
+			]
+			title: "{gto.magic1.quests.51932DCD495DE268.title}"
+			x: 8.25d
+			y: 3.75d
+		}
+		{
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "0E62747CFDB93DD6"
+			rewards: [{
+				count: 16
+				id: "62C498BFB2862D5A"
+				item: "botania:magenta_petal"
+				type: "item"
+			}]
+			size: 0.5d
+			tasks: [
+				{
+					id: "6FBA26D343E05A2C"
+					item: "botania:magenta_mystical_flower"
+					type: "item"
+				}
+				{
+					id: "071F234CCCE56F64"
+					item: "botania:magenta_double_flower"
+					type: "item"
+				}
+				{
+					id: "1A897FA1B68A8EFD"
+					item: "botania:magenta_mushroom"
+					type: "item"
+				}
+			]
+			title: "{gto.magic1.quests.0E62747CFDB93DD6.title}"
+			x: 9.75d
+			y: 6.0d
+		}
+		{
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "22DC303CA8172451"
+			rewards: [{
+				count: 16
+				id: "1CA2F7277FF121B6"
+				item: "botania:light_blue_petal"
+				type: "item"
+			}]
+			size: 0.5d
+			tasks: [
+				{
+					id: "6CD9DFD506648787"
+					item: "botania:light_blue_mystical_flower"
+					type: "item"
+				}
+				{
+					id: "22E394621C45C35D"
+					item: "botania:light_blue_double_flower"
+					type: "item"
+				}
+				{
+					id: "6BDD6F0134204B52"
+					item: "botania:light_blue_mushroom"
+					type: "item"
+				}
+			]
+			title: "{gto.magic1.quests.22DC303CA8172451.title}"
+			x: 7.5d
+			y: 5.5d
+		}
+		{
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "0146E5178D2C4706"
+			rewards: [{
+				count: 16
+				id: "33825EA9F2988422"
+				item: "botania:yellow_petal"
+				type: "item"
+			}]
+			size: 0.5d
+			tasks: [
+				{
+					id: "787C14D330600CC8"
+					item: "botania:yellow_mystical_flower"
+					type: "item"
+				}
+				{
+					id: "1DF937A494047225"
+					item: "botania:yellow_double_flower"
+					type: "item"
+				}
+				{
+					id: "5D8BE616DCAFDA5E"
+					item: "botania:yellow_mushroom"
+					type: "item"
+				}
+			]
+			title: "{gto.magic1.quests.0146E5178D2C4706.title}"
+			x: 8.75d
+			y: 6.25d
+		}
+		{
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "2E709CF216462A10"
+			rewards: [{
+				count: 16
+				id: "0BD735AC13C7EA53"
+				item: "botania:lime_petal"
+				type: "item"
+			}]
+			size: 0.5d
+			tasks: [
+				{
+					id: "358A298934D0E9BF"
+					item: "botania:lime_mystical_flower"
+					type: "item"
+				}
+				{
+					id: "62BFF9F654EEB6B0"
+					item: "botania:lime_double_flower"
+					type: "item"
+				}
+				{
+					id: "49F94049D90049E9"
+					item: "botania:lime_mushroom"
+					type: "item"
+				}
+			]
+			title: "{gto.magic1.quests.2E709CF216462A10.title}"
+			x: 8.25d
+			y: 6.25d
+		}
+		{
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "59FA3616EABDFD2D"
+			rewards: [{
+				count: 16
+				id: "21BCE27CEADB87BE"
+				item: "botania:pink_petal"
+				type: "item"
+			}]
+			size: 0.5d
+			tasks: [
+				{
+					id: "0B9B3016DBE0BF61"
+					item: "botania:pink_mystical_flower"
+					type: "item"
+				}
+				{
+					id: "0ED4DD15443D9A95"
+					item: "botania:pink_double_flower"
+					type: "item"
+				}
+				{
+					id: "2D9A2B3DBABA43B9"
+					item: "botania:pink_mushroom"
+					type: "item"
+				}
+			]
+			title: "{gto.magic1.quests.59FA3616EABDFD2D.title}"
+			x: 8.75d
+			y: 3.75d
+		}
+		{
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "269E0F2F6EA0B6D4"
+			rewards: [{
+				count: 16
+				id: "08CBF335E221C220"
+				item: "botania:gray_petal"
+				type: "item"
+			}]
+			size: 0.5d
+			tasks: [
+				{
+					id: "08EC8ABA0A76BB64"
+					item: "botania:gray_mystical_flower"
+					type: "item"
+				}
+				{
+					id: "06CA4DD5699F07B8"
+					item: "botania:gray_double_flower"
+					type: "item"
+				}
+				{
+					id: "510F4195002BC785"
+					item: "botania:gray_mushroom"
+					type: "item"
+				}
+			]
+			title: "{gto.magic1.quests.269E0F2F6EA0B6D4.title}"
+			x: 7.5d
+			y: 5.0d
+		}
+		{
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "1F19135EBED3B396"
+			rewards: [{
+				count: 16
+				id: "1DA95F1822E07ED2"
+				item: "botania:light_gray_petal"
+				type: "item"
+			}]
+			size: 0.5d
+			tasks: [
+				{
+					id: "6B20867A0BD7B532"
+					item: "botania:light_gray_mystical_flower"
+					type: "item"
+				}
+				{
+					id: "341B5B7CEE363CDB"
+					item: "botania:light_gray_double_flower"
+					type: "item"
+				}
+				{
+					id: "4863D951B47851AB"
+					item: "botania:light_gray_mushroom"
+					type: "item"
+				}
+			]
+			title: "{gto.magic1.quests.1F19135EBED3B396.title}"
+			x: 9.25d
+			y: 6.25d
+		}
+		{
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "121CFF4C28097E2C"
+			rewards: [{
+				count: 16
+				id: "2FC47E0716D9E797"
+				item: "botania:cyan_petal"
+				type: "item"
+			}]
+			size: 0.5d
+			tasks: [
+				{
+					id: "63AD9AA1956CCB01"
+					item: "botania:cyan_mystical_flower"
+					type: "item"
+				}
+				{
+					id: "4647506E1296FE54"
+					item: "botania:cyan_double_flower"
+					type: "item"
+				}
+				{
+					id: "35F8AFCD0C48A359"
+					item: "botania:cyan_mushroom"
+					type: "item"
+				}
+			]
+			title: "{gto.magic1.quests.121CFF4C28097E2C.title}"
+			x: 9.75d
+			y: 4.0d
+		}
+		{
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "3DCCFF94B38FE21C"
+			rewards: [{
+				count: 16
+				id: "0802FA7137F64430"
+				item: "botania:purple_petal"
+				type: "item"
+			}]
+			shape: "circle"
+			size: 0.5d
+			tasks: [
+				{
+					id: "48296DB993F7A3EA"
+					item: "botania:purple_mystical_flower"
+					type: "item"
+				}
+				{
+					id: "2CB799AB004DF72F"
+					item: "botania:purple_double_flower"
+					type: "item"
+				}
+				{
+					id: "2F0A9970DE9C6241"
+					item: "botania:purple_mushroom"
+					type: "item"
+				}
+			]
+			title: "{gto.magic1.quests.3DCCFF94B38FE21C.title}"
+			x: 7.5d
+			y: 4.5d
+		}
+		{
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "27082ED738A2B44E"
+			rewards: [{
+				count: 16
+				id: "6950460ED307191B"
+				item: "botania:blue_petal"
+				type: "item"
+			}]
+			size: 0.5d
+			tasks: [
+				{
+					id: "26FA9CA8E3B42AA0"
+					item: "botania:blue_mystical_flower"
+					type: "item"
+				}
+				{
+					id: "5E1705120A51A31D"
+					item: "botania:blue_double_flower"
+					type: "item"
+				}
+				{
+					id: "1E4808991E14F31B"
+					item: "botania:blue_mushroom"
+					type: "item"
+				}
+			]
+			title: "{gto.magic1.quests.27082ED738A2B44E.title}"
+			x: 10.0d
+			y: 4.5d
+		}
+		{
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "599267A47B8A2F3E"
+			rewards: [{
+				count: 16
+				id: "3665307A37524945"
+				item: "botania:brown_petal"
+				type: "item"
+			}]
+			size: 0.5d
+			tasks: [
+				{
+					id: "32BF7AF407304F5A"
+					item: "botania:brown_mystical_flower"
+					type: "item"
+				}
+				{
+					id: "1D8B68718A904197"
+					item: "botania:brown_double_flower"
+					type: "item"
+				}
+				{
+					id: "76EED4F1468526D1"
+					item: "botania:brown_mushroom"
+					type: "item"
+				}
+			]
+			title: "{gto.magic1.quests.599267A47B8A2F3E.title}"
+			x: 10.0d
+			y: 5.0d
+		}
+		{
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "7DA935F51E630BD0"
+			rewards: [{
+				count: 16
+				id: "1175701EFC3BC3C6"
+				item: "botania:red_petal"
+				type: "item"
+			}]
+			size: 0.5d
+			tasks: [
+				{
+					id: "24A830D2B529892C"
+					item: "botania:red_mystical_flower"
+					type: "item"
+				}
+				{
+					id: "58E21FC024DB5332"
+					item: "botania:red_double_flower"
+					type: "item"
+				}
+				{
+					id: "064458741E8CF936"
+					item: "botania:red_mushroom"
+					type: "item"
+				}
+			]
+			title: "{gto.magic1.quests.7DA935F51E630BD0.title}"
+			x: 7.75d
+			y: 6.0d
+		}
+		{
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "5B65FECDFA049841"
+			rewards: [{
+				count: 16
+				id: "1BAD88B0FECF80BA"
+				item: "botania:black_petal"
+				type: "item"
+			}]
+			size: 0.5d
+			tasks: [
+				{
+					id: "43B3D00916E37D01"
+					item: "botania:black_mystical_flower"
+					type: "item"
+				}
+				{
+					id: "2FFB1AF4B2763567"
+					item: "botania:black_double_flower"
+					type: "item"
+				}
+				{
+					id: "168C27A2932D0FD9"
+					item: "botania:black_mushroom"
+					type: "item"
+				}
+			]
+			title: "{gto.magic1.quests.5B65FECDFA049841.title}"
+			x: 10.0d
+			y: 5.5d
+		}
+		{
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "745C0530BAC170A5"
+			rewards: [{
+				count: 16
+				id: "7C947E426231049B"
+				item: "botania:green_petal"
+				type: "item"
+			}]
+			size: 0.5d
+			tasks: [
+				{
+					id: "5088938A24ED90EA"
+					item: "botania:green_mystical_flower"
+					type: "item"
+				}
+				{
+					id: "404F455D88F6E744"
+					item: "botania:green_double_flower"
+					type: "item"
+				}
+				{
+					id: "6CD3E6618455D0FD"
+					item: "botania:green_mushroom"
+					type: "item"
+				}
+			]
+			title: "{gto.magic1.quests.745C0530BAC170A5.title}"
+			x: 7.75d
+			y: 4.0d
+		}
+		{
+			description: [
+				"{gto.magic1.quests.020B17C684097DA1.description0}"
+				""
+				"{gto.magic1.quests.020B17C684097DA1.description1}"
+			]
+			hide_until_deps_visible: false
+			id: "020B17C684097DA1"
+			shape: "hexagon"
+			tasks: [{
+				id: "130C07C01E84A6C5"
+				item: "botania:pure_daisy"
+				type: "item"
+			}]
+			title: "{gto.magic1.quests.020B17C684097DA1.title}"
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			description: ["{gto.magic1.quests.63BE80442402E701.description0}"]
+			id: "63BE80442402E701"
+			shape: "hexagon"
+			tasks: [{
+				count: 8L
+				id: "0872648AA8036654"
+				item: "botania:livingrock"
+				type: "item"
+			}]
+			title: "{gto.magic1.quests.63BE80442402E701.title}"
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			description: ["{gto.magic1.quests.4FD2DA636C569585.description0}"]
+			id: "4FD2DA636C569585"
+			shape: "hexagon"
+			tasks: [{
+				count: 8L
+				id: "1520455BE107817B"
+				item: "botania:livingwood_log"
+				type: "item"
+			}]
+			title: "{gto.magic1.quests.4FD2DA636C569585.title}"
+			x: 9.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"{gto.magic1.quests.48932F3099BDA237.description0}"
+				""
+				"{gto.magic1.quests.48932F3099BDA237.description1}"
+				""
+				"{gto.magic1.quests.48932F3099BDA237.description2}"
+				""
+				"{gto.magic1.quests.48932F3099BDA237.description3}"
+			]
+			hide_until_deps_visible: false
+			id: "48932F3099BDA237"
+			min_width: 300
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					id: "77582FE00EF07B4C"
+					item: "botania:mana_pool"
+					type: "item"
+				}
+				{
+					id: "6186350E21AB1FA7"
+					item: "botania:endoflame"
+					type: "item"
+				}
+			]
+			title: "{gto.magic1.quests.48932F3099BDA237.title}"
+			x: 11.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"{gto.magic1.quests.3E496FD1CB155CEE.description0}"
+				""
+				"{gto.magic1.quests.3E496FD1CB155CEE.description1}"
+			]
+			hide_until_deps_visible: false
+			id: "3E496FD1CB155CEE"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "160AF93AA60E8D64"
+					item: "botania:manasteel_ingot"
+					type: "item"
+				}
+				{
+					id: "7CC15C5841D54A94"
+					item: "botania:mana_diamond"
+					type: "item"
+				}
+				{
+					id: "67FF6417676E6641"
+					item: "gtocore:infused_gold_ingot"
+					type: "item"
+				}
+				{
+					id: "2F9A51F6EB646FD2"
+					item: "gtocore:original_bronze_ingot"
+					type: "item"
+				}
+			]
+			title: "{gto.magic1.quests.3E496FD1CB155CEE.title}"
+			x: 12.75d
+			y: 2.0d
+		}
+		{
+			description: ["{gto.magic1.quests.4E8614864A4BC864.description0}"]
+			id: "4E8614864A4BC864"
+			shape: "octagon"
+			size: 2.5d
+			tasks: [
+				{
+					id: "3AD1CC4E1E5DA941"
+					item: "botania:lexicon"
+					type: "item"
+				}
+				{
+					id: "0995C819434734F5"
+					item: "ars_nouveau:worn_notebook"
+					type: "item"
+				}
+			]
+			title: "{gto.magic1.quests.4E8614864A4BC864.title}"
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			description: [
+				"{gto.magic1.quests.491C99DFCBBA3B51.description0}"
+				""
+				"{gto.magic1.quests.491C99DFCBBA3B51.description1}"
+				""
+				"{gto.magic1.quests.491C99DFCBBA3B51.description2}"
+				""
+				"{gto.magic1.quests.491C99DFCBBA3B51.description3}"
+			]
+			id: "491C99DFCBBA3B51"
+			min_width: 250
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "67029D2DB003F0C4"
+				item: "botania:apothecary_default"
+				type: "item"
+			}]
+			x: 5.25d
+			y: 3.0d
+		}
+		{
+			description: [
+				"{gto.magic1.quests.71C2409E6EDE8D06.description0}"
+				""
+				"{gto.magic1.quests.71C2409E6EDE8D06.description1}"
+				""
+				"{gto.magic1.quests.71C2409E6EDE8D06.description2}"
+				""
+				"{gto.magic1.quests.71C2409E6EDE8D06.description3}"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_visible: false
+			icon_scale: 2.0d
+			id: "71C2409E6EDE8D06"
+			rewards: [{
+				count: 32
+				id: "00E7B5E5EFCE1624"
+				item: "minecraft:bone_meal"
+				type: "item"
+			}]
+			shape: "none"
+			size: 1.9d
+			tasks: [{
+				id: "46F4765801B64E86"
+				item: "botania:fertilizer"
+				type: "item"
+			}]
+			x: 8.75d
+			y: 5.0d
+		}
+		{
+			description: ["{gto.magic1.quests.717B3FBECC780218.description0}"]
+			id: "717B3FBECC780218"
+			shape: "square"
+			size: 1.5d
+			tasks: [{
+				id: "4B9975B485010575"
+				item: "botania:endoflame"
+				type: "item"
+			}]
+			title: "{gto.magic1.quests.717B3FBECC780218.title}"
+			x: 5.25d
+			y: 6.0d
+		}
+		{
+			description: [
+				"{gto.magic1.quests.24E8E3851F58CFB7.description0}"
+				""
+				"{gto.magic1.quests.24E8E3851F58CFB7.description1}"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "24E8E3851F58CFB7"
+			optional: true
+			shape: "square"
+			size: 0.5d
+			tasks: [{
+				id: "2CAA32B0B2111EF9"
+				item: "botania:manastar"
+				type: "item"
+			}]
+			x: 2.75d
+			y: 6.0d
+		}
+		{
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "00D13F35C34E04AA"
+			optional: true
+			shape: "square"
+			size: 0.5d
+			tasks: [{
+				id: "03CAA4B05596C45A"
+				item: "botania:dandelifeon"
+				type: "item"
+			}]
+			x: 3.75d
+			y: 6.0d
+		}
+		{
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "4988D6F095F2AF59"
+			optional: true
+			shape: "square"
+			size: 0.5d
+			tasks: [{
+				id: "1B92B0D4A9B44D8C"
+				item: "botania:entropinnyum"
+				type: "item"
+			}]
+			x: 4.25d
+			y: 5.5d
+		}
+		{
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "5FEF8D3E95D67826"
+			optional: true
+			shape: "square"
+			size: 0.5d
+			tasks: [{
+				id: "54E05B7CD86E63C7"
+				item: "botania:gourmaryllis"
+				type: "item"
+			}]
+			x: 4.25d
+			y: 6.0d
+		}
+		{
+			description: [""]
+			hide_dependency_lines: true
+			hide_until_deps_visible: false
+			id: "46858404547AAD9E"
+			shape: "square"
+			size: 0.5d
+			tasks: [{
+				id: "09771CCBD3788F07"
+				item: "botania:hydroangeas"
+				type: "item"
+			}]
+			x: 2.25d
+			y: 6.0d
+		}
+		{
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "55EFDD337AF507E3"
+			optional: true
+			rewards: [{
+				id: "7072D72E1189AB41"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "square"
+			size: 0.5d
+			tasks: [{
+				id: "0CAD0873D714FD36"
+				item: "botania:kekimurus"
+				type: "item"
+			}]
+			x: 4.25d
+			y: 6.5d
+		}
+		{
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "21DC55AD61C006CB"
+			optional: true
+			shape: "square"
+			size: 0.5d
+			tasks: [{
+				id: "6AFA027EEF84CBB2"
+				item: "botania:munchdew"
+				type: "item"
+			}]
+			x: 3.75d
+			y: 5.5d
+		}
+		{
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "6A9E29102FE615EA"
+			optional: true
+			shape: "square"
+			size: 0.5d
+			tasks: [{
+				id: "448866C493344234"
+				item: "botania:narslimmus"
+				type: "item"
+			}]
+			x: 3.25d
+			y: 6.0d
+		}
+		{
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "33D03486FF37832E"
+			optional: true
+			shape: "square"
+			size: 0.5d
+			tasks: [{
+				id: "2CF950BA668D7983"
+				item: "botania:rafflowsia"
+				type: "item"
+			}]
+			x: 2.25d
+			y: 5.5d
+		}
+		{
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "3F98F87FC8AEDE61"
+			optional: true
+			shape: "square"
+			size: 0.5d
+			tasks: [{
+				id: "159379E51A727E30"
+				item: "botania:rosa_arcana"
+				type: "item"
+			}]
+			x: 3.75d
+			y: 6.5d
+		}
+		{
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "67963C76BAC40A7B"
+			optional: true
+			shape: "square"
+			size: 0.5d
+			tasks: [{
+				id: "68AC9B3F9FF52822"
+				item: "botania:shulk_me_not"
+				type: "item"
+			}]
+			x: 2.75d
+			y: 6.5d
+		}
+		{
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "665FC9EA269BBB2B"
+			optional: true
+			shape: "square"
+			size: 0.5d
+			tasks: [{
+				id: "31DAACF0ED45B37B"
+				item: "botania:spectrolus"
+				type: "item"
+			}]
+			x: 3.25d
+			y: 5.5d
+		}
+		{
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "38624A82740CBAE8"
+			optional: true
+			shape: "square"
+			size: 0.5d
+			tasks: [{
+				id: "2E3037D0C89F29C4"
+				item: "botania:thermalily"
+				type: "item"
+			}]
+			x: 3.25d
+			y: 6.5d
+		}
+		{
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "3D5E18534223936E"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "13A9B8A7173A9A93"
+				item: "botania:agricarnation"
+				type: "item"
+			}]
+			x: 2.25d
+			y: 4.0d
+		}
+		{
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "1145EE3E4FB4FF5F"
+			optional: true
+			shape: "square"
+			size: 0.5d
+			tasks: [{
+				id: "226E597DD9CD0941"
+				item: "botania:bellethorn"
+				type: "item"
+			}]
+			x: 2.75d
+			y: 5.5d
+		}
+		{
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "2AB2E986F6BABF43"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "05960D743FEBC450"
+				item: "botania:bergamute"
+				type: "item"
+			}]
+			x: 2.25d
+			y: 4.5d
+		}
+		{
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "060191624CF7E952"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "4D20537470B48847"
+				item: "botania:bubbell"
+				type: "item"
+			}]
+			x: 2.75d
+			y: 4.5d
+		}
+		{
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "68040DF01E3D65F5"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "2D32F921BDCF52C5"
+				item: "botania:clayconia"
+				type: "item"
+			}]
+			x: 3.25d
+			y: 4.5d
+		}
+		{
+			dependency_requirement: "one_started"
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "6694DFEECD5B9243"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "09385801B8AE2D27"
+				item: "botania:daffomill"
+				type: "item"
+			}]
+			x: 3.25d
+			y: 4.0d
+		}
+		{
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "1D6C2A61FB9DD115"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "7F3D5F3D6106F56F"
+				item: "botania:dreadthorn"
+				type: "item"
+			}]
+			x: 2.75d
+			y: 4.0d
+		}
+		{
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "079D3A931AAB4045"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "432F490F9362F5D0"
+				item: "botania:exoflame"
+				type: "item"
+			}]
+			x: 3.75d
+			y: 4.5d
+		}
+		{
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "05658F01C4596974"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "33056F4A4C3B4A64"
+				item: "botania:fallen_kanade"
+				type: "item"
+			}]
+			x: 4.25d
+			y: 5.0d
+		}
+		{
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "0BC31A14C7F11831"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "35A468BF13EBA557"
+				item: "botania:heisei_dream"
+				type: "item"
+			}]
+			x: 4.25d
+			y: 3.5d
+		}
+		{
+			hide_until_deps_visible: true
+			id: "1B0ED1C7A3B87B6C"
+			optional: true
+			size: 1.5d
+			tasks: [{
+				id: "665F6E0EF390B985"
+				item: "botania:hopperhock"
+				type: "item"
+			}]
+			title: "{gto.magic1.quests.1B0ED1C7A3B87B6C.title}"
+			x: 5.25d
+			y: 4.5d
+		}
+		{
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "589AD7A38586234F"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "2848D9C6D7FB536F"
+				item: "botania:hyacidus"
+				type: "item"
+			}]
+			x: 4.25d
+			y: 4.0d
+		}
+		{
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "0AD715A7A1A65945"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "3EDFD2B26462B9B3"
+				item: "botania:jaded_amaranthus"
+				type: "item"
+			}]
+			x: 3.75d
+			y: 4.0d
+		}
+		{
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "2F997C31976B9E14"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "35DEFFFC59506997"
+				item: "botania:jiyuulia"
+				type: "item"
+			}]
+			x: 3.25d
+			y: 3.5d
+		}
+		{
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "02CBCAA70AA1012D"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "4EAF3CA70DE074AA"
+				item: "botania:loonium"
+				type: "item"
+			}]
+			x: 2.25d
+			y: 3.5d
+		}
+		{
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "651CDDCFCF9123C9"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "3640AF06CA532092"
+				item: "botania:marimorphosis"
+				type: "item"
+			}]
+			x: 2.75d
+			y: 5.0d
+		}
+		{
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "513B6B2B308E8E33"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "0F9F339F1E72FC9D"
+				item: "botania:medumone"
+				type: "item"
+			}]
+			x: 4.25d
+			y: 4.5d
+		}
+		{
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "4B0DAE0E13872B83"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "6CAF644C088780FA"
+				item: "botania:orechid"
+				type: "item"
+			}]
+			x: 3.25d
+			y: 5.0d
+		}
+		{
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "4A44DB6A71FDABE9"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "18E94A1E1969B8BC"
+				item: "botania:orechid_ignem"
+				type: "item"
+			}]
+			x: 3.75d
+			y: 5.0d
+		}
+		{
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "5D78ED77319A35A3"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "76029446E8D7055D"
+				item: "botania:pollidisiac"
+				type: "item"
+			}]
+			x: 3.75d
+			y: 3.5d
+		}
+		{
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "3E5F987144C18109"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "28D380F04737E4B1"
+				item: "botania:rannuncarpus"
+				type: "item"
+			}]
+			x: 1.75d
+			y: 5.0d
+		}
+		{
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "02944F124E162957"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "175FD1A69C122AC7"
+				item: "botania:solegnolia"
+				type: "item"
+			}]
+			x: 1.75d
+			y: 4.5d
+		}
+		{
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "7BDA92D2301ABE39"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "26435A438AAAABB8"
+				item: "botania:spectranthemum"
+				type: "item"
+			}]
+			x: 1.75d
+			y: 4.0d
+		}
+		{
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "1964741F2C781DE7"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "643B3392A06F2E07"
+				item: "botania:tangleberrie"
+				type: "item"
+			}]
+			x: 1.75d
+			y: 3.5d
+		}
+		{
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "5EF3A4DFD1528128"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "157F223014580725"
+				item: "botania:tigerseye"
+				type: "item"
+			}]
+			x: 2.25d
+			y: 5.0d
+		}
+		{
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "244B599CEA6D12D3"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "160FA92C2B3D6892"
+				item: "botania:vinculotus"
+				type: "item"
+			}]
+			x: 2.75d
+			y: 3.5d
+		}
+		{
+			description: ["{gto.magic1.quests.00F371D8F0C195F0.description0}"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "00F371D8F0C195F0"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "546038D5F7651324"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "botania:black_lotus"
+							}
+							{
+								Count: 1b
+								id: "botania:blacker_lotus"
+							}
+						]
+					}
+				}
+				title: "{gto.magic1.quests.00F371D8F0C195F0.tasks.546038D5F7651324.title}"
+				type: "item"
+			}]
+			title: "{gto.magic1.quests.00F371D8F0C195F0.title}"
+			x: 11.75d
+			y: 2.0d
+		}
+		{
+			description: [
+				"{gto.magic1.quests.4236E1ED0D4E88DB.description0}"
+				""
+				"{gto.magic1.quests.4236E1ED0D4E88DB.description1}"
+			]
+			id: "4236E1ED0D4E88DB"
+			tasks: [{
+				id: "78C978FE107A8F79"
+				item: "botania:mana_spreader"
+				type: "item"
+			}]
+			title: "{gto.magic1.quests.4236E1ED0D4E88DB.title}"
+			x: 11.0d
+			y: -0.5d
+		}
+		{
+			description: [
+				"{gto.magic1.quests.4433DEF16321E139.description0}"
+				""
+				"{gto.magic1.quests.4433DEF16321E139.description1}"
+				""
+				"{gto.magic1.quests.4433DEF16321E139.description2}"
+				""
+				"{gto.magic1.quests.4433DEF16321E139.description3}"
+			]
+			hide_until_deps_visible: false
+			id: "4433DEF16321E139"
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "2FCABD7041893229"
+				item: {
+					Count: 1
+					id: "botania:twig_wand"
+					tag: {
+						color1: 0
+						color2: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{gto.magic1.quests.4433DEF16321E139.title}"
+			x: 11.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"{gto.magic1.quests.55FDED174A0B96A1.description0}"
+				""
+				"{gto.magic1.quests.55FDED174A0B96A1.description1}"
+				""
+				"{gto.magic1.quests.55FDED174A0B96A1.description2}"
+				""
+				"{gto.magic1.quests.55FDED174A0B96A1.description3}"
+			]
+			id: "55FDED174A0B96A1"
+			shape: "diamond"
+			tasks: [
+				{
+					id: "6936E205B29545B1"
+					item: "botania:mana_distributor"
+					type: "item"
+				}
+				{
+					id: "418FD3C0B3628C77"
+					item: "botania:spark"
+					type: "item"
+				}
+			]
+			title: "{gto.magic1.quests.55FDED174A0B96A1.title}"
+			x: 10.5d
+			y: 4.0d
+		}
+		{
+			description: ["{gto.magic1.quests.0ADF9121EEFC64A4.description0}"]
+			id: "0ADF9121EEFC64A4"
+			shape: "square"
+			tasks: [{
+				id: "1EAAA729B966487D"
+				item: "botania:alchemy_catalyst"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 1.5d
+		}
+		{
+			description: [
+				"{gto.magic1.quests.67A878E7569BFD02.description0}"
+				""
+				"{gto.magic1.quests.67A878E7569BFD02.description1}"
+				""
+				"{gto.magic1.quests.67A878E7569BFD02.description2}"
+			]
+			id: "67A878E7569BFD02"
+			shape: "diamond"
+			tasks: [{
+				id: "74F920D91545F4A9"
+				item: "botania:mana_tablet"
+				type: "item"
+			}]
+			title: "{gto.magic1.quests.67A878E7569BFD02.title}"
+			x: 11.5d
+			y: 4.0d
+		}
+		{
+			description: ["{gto.magic1.quests.10DE3B81C609D3E4.description0}"]
+			id: "10DE3B81C609D3E4"
+			shape: "diamond"
+			tasks: [{
+				id: "12AE84B5A7F122F9"
+				item: "botania:mana_ring"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 4.5d
+		}
+		{
+			description: ["{gto.magic1.quests.3820B8684A507C85.description0}"]
+			id: "3820B8684A507C85"
+			shape: "diamond"
+			tasks: [{
+				id: "07D3ADB5FBAE5B3B"
+				item: "botania:mana_ring_greater"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 5.5d
+		}
+		{
+			description: [
+				"{gto.magic1.quests.64D86EBB468014CE.description0}"
+				""
+				"{gto.magic1.quests.64D86EBB468014CE.description1}"
+				""
+				"{gto.magic1.quests.64D86EBB468014CE.description2}"
+				""
+				"{gto.magic1.quests.64D86EBB468014CE.description3}"
+			]
+			hide_until_deps_visible: false
+			id: "64D86EBB468014CE"
+			tasks: [{
+				id: "1616B0AFC9B58AAD"
+				title: "{gto.magic1.quests.64D86EBB468014CE.tasks.1616B0AFC9B58AAD.title}"
+				type: "checkmark"
+			}]
+			title: "{gto.magic1.quests.64D86EBB468014CE.title}"
+			x: 6.75d
+			y: 4.5d
+		}
+		{
+			description: [
+				"{gto.magic1.quests.75B521F0DDB5B72C.description0}"
+				""
+				"{gto.magic1.quests.75B521F0DDB5B72C.description1}"
+			]
+			id: "75B521F0DDB5B72C"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "60F3408FE18CBFA3"
+				item: "botania:redstone_spreader"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -1.5d
+		}
+		{
+			id: "415FA4B6DD47B5A9"
+			optional: true
+			shape: "diamond"
+			size: 0.5d
+			tasks: [{
+				id: "17D54212457F7BFE"
+				item: {
+					Count: 1
+					id: "ars_nouveau:starbuncle_charm"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 16.75d
+			y: -3.25d
+		}
+		{
+			id: "17C2EE122711F23A"
+			optional: true
+			shape: "diamond"
+			size: 0.5d
+			tasks: [{
+				id: "431A19DD5F7E14E5"
+				item: "ars_nouveau:wixie_charm"
+				type: "item"
+			}]
+			x: 16.25d
+			y: -3.25d
+		}
+		{
+			id: "2B112337B04117AB"
+			shape: "rsquare"
+			size: 0.5d
+			tasks: [{
+				id: "7095C9E8013EACDF"
+				item: "ars_nouveau:glyph_intangible"
+				type: "item"
+			}]
+			x: 3.25d
+			y: -5.25d
+		}
+		{
+			id: "59D94CFCAD9F3BC7"
+			shape: "rsquare"
+			size: 0.5d
+			tasks: [{
+				id: "575F7FCDD4C9A710"
+				item: "ars_nouveau:glyph_ignite"
+				type: "item"
+			}]
+			x: 4.75d
+			y: -1.75d
+		}
+		{
+			id: "2C6864206B6AE0C3"
+			shape: "rsquare"
+			size: 0.5d
+			tasks: [{
+				id: "0A89DF0340D5B916"
+				item: "ars_nouveau:glyph_flare"
+				type: "item"
+			}]
+			x: 4.25d
+			y: -3.75d
+		}
+		{
+			id: "0E84C8F95B9BCEC3"
+			shape: "rsquare"
+			size: 0.5d
+			tasks: [{
+				id: "5E8C39CF5CB6B0C0"
+				item: "ars_nouveau:glyph_craft"
+				type: "item"
+			}]
+			x: 4.75d
+			y: -2.25d
+		}
+		{
+			id: "07542E57FE068378"
+			shape: "rsquare"
+			size: 0.5d
+			tasks: [{
+				id: "48F8E8859F125F14"
+				item: "ars_nouveau:glyph_cold_snap"
+				type: "item"
+			}]
+			x: 4.25d
+			y: -2.75d
+		}
+		{
+			id: "00E532D4AC10EA22"
+			shape: "rsquare"
+			size: 0.5d
+			tasks: [{
+				id: "583AFC07B1EF209D"
+				item: "ars_nouveau:glyph_rune"
+				type: "item"
+			}]
+			x: 2.75d
+			y: -2.25d
+		}
+		{
+			id: "3760BDECA648640F"
+			shape: "rsquare"
+			size: 0.5d
+			tasks: [{
+				id: "6465C25B08346B1A"
+				item: "ars_nouveau:glyph_snare"
+				type: "item"
+			}]
+			x: 4.25d
+			y: -1.25d
+		}
+		{
+			id: "4E0FB6795112C6C5"
+			shape: "rsquare"
+			size: 0.5d
+			tasks: [{
+				id: "45B53D201D9A7127"
+				item: "ars_nouveau:glyph_slowfall"
+				type: "item"
+			}]
+			x: 3.25d
+			y: -3.25d
+		}
+		{
+			id: "1AE89CBDFEFA13B4"
+			shape: "rsquare"
+			size: 0.5d
+			tasks: [{
+				id: "3F549FAFE763E8FA"
+				item: "ars_nouveau:glyph_freeze"
+				type: "item"
+			}]
+			x: 2.75d
+			y: -1.75d
+		}
+		{
+			id: "288E7FDBD2D8ADBE"
+			shape: "rsquare"
+			size: 0.5d
+			tasks: [{
+				id: "56F11E774EF462B4"
+				item: "ars_nouveau:glyph_split"
+				type: "item"
+			}]
+			x: 2.75d
+			y: -4.75d
+		}
+		{
+			id: "387E64907F3ABFA9"
+			shape: "rsquare"
+			size: 0.5d
+			tasks: [{
+				id: "1E64F84E6060BD53"
+				item: "ars_nouveau:glyph_crush"
+				type: "item"
+			}]
+			x: 4.75d
+			y: -3.25d
+		}
+		{
+			id: "4DA911ED9CC9B0DF"
+			shape: "rsquare"
+			size: 0.5d
+			tasks: [{
+				id: "348591D69D53D807"
+				item: "ars_nouveau:glyph_smelt"
+				type: "item"
+			}]
+			x: 2.25d
+			y: -3.25d
+		}
+		{
+			id: "003EA875D3F8E03C"
+			shape: "rsquare"
+			size: 0.5d
+			tasks: [{
+				id: "3F3EFB337233D0D0"
+				item: "ars_nouveau:glyph_accelerate"
+				type: "item"
+			}]
+			x: 0.75d
+			y: -3.75d
+		}
+		{
+			id: "382F5CB2431E18F5"
+			shape: "rsquare"
+			size: 0.5d
+			tasks: [{
+				id: "45860C0FB6871480"
+				item: "ars_nouveau:glyph_summon_vex"
+				type: "item"
+			}]
+			x: 3.25d
+			y: -4.25d
+		}
+		{
+			id: "39FC88B8E060B4EF"
+			shape: "rsquare"
+			size: 0.5d
+			tasks: [{
+				id: "34880E67645FDC7E"
+				item: "ars_nouveau:glyph_lightning"
+				type: "item"
+			}]
+			x: 4.25d
+			y: -5.25d
+		}
+		{
+			id: "3D1B0F6A2E07CD1D"
+			shape: "rsquare"
+			size: 0.5d
+			tasks: [{
+				id: "184C6880F6F7BDAC"
+				item: "ars_nouveau:glyph_grow"
+				type: "item"
+			}]
+			x: 3.25d
+			y: -2.75d
+		}
+		{
+			id: "3CAD6B737D51A858"
+			shape: "rsquare"
+			size: 0.5d
+			tasks: [{
+				id: "181599441B1A96CE"
+				item: "ars_nouveau:glyph_dampen"
+				type: "item"
+			}]
+			x: 1.75d
+			y: -3.75d
+		}
+		{
+			description: [""]
+			id: "66667A72E9EA15B0"
+			shape: "rsquare"
+			size: 0.5d
+			tasks: [{
+				id: "00C2EA7526770213"
+				item: "ars_nouveau:glyph_invisibility"
+				type: "item"
+			}]
+			x: 2.25d
+			y: -2.75d
+		}
+		{
+			id: "448816A608CFE982"
+			shape: "rsquare"
+			size: 0.5d
+			tasks: [{
+				id: "27F2E45E47F74BD8"
+				item: "ars_nouveau:glyph_extract"
+				type: "item"
+			}]
+			x: 0.75d
+			y: -2.75d
+		}
+		{
+			id: "3113357004A70D66"
+			shape: "rsquare"
+			size: 0.5d
+			tasks: [{
+				id: "0702C27DC1850A3D"
+				item: "ars_nouveau:glyph_delay"
+				type: "item"
+			}]
+			x: 1.25d
+			y: -1.25d
+		}
+		{
+			id: "7B3D9FD800A0649A"
+			shape: "rsquare"
+			size: 0.5d
+			tasks: [{
+				id: "202840BC719581DB"
+				item: "ars_nouveau:glyph_light"
+				type: "item"
+			}]
+			x: 3.75d
+			y: -1.25d
+		}
+		{
+			id: "6E56A971DB3AFE25"
+			shape: "rsquare"
+			size: 0.5d
+			tasks: [{
+				id: "1644D89FA4A6485B"
+				item: "ars_nouveau:glyph_duration_down"
+				type: "item"
+			}]
+			x: 1.25d
+			y: -2.75d
+		}
+		{
+			id: "426EE3A3895C9833"
+			shape: "rsquare"
+			size: 0.5d
+			tasks: [{
+				id: "4AADF3B658019DFA"
+				item: "ars_nouveau:glyph_exchange"
+				type: "item"
+			}]
+			x: 4.25d
+			y: -3.25d
+		}
+		{
+			id: "0ACE813ABF2C4BBA"
+			shape: "rsquare"
+			size: 0.5d
+			tasks: [{
+				id: "36F0E077772FF0B7"
+				item: "ars_nouveau:glyph_place_block"
+				type: "item"
+			}]
+			x: 1.25d
+			y: -1.75d
+		}
+		{
+			id: "403D1442FF5146E7"
+			shape: "rsquare"
+			size: 0.5d
+			tasks: [{
+				id: "0FB2EDFD4FFC1911"
+				item: "ars_nouveau:glyph_conjure_water"
+				type: "item"
+			}]
+			x: 3.75d
+			y: -2.75d
+		}
+		{
+			id: "73FE7616F90C5CE4"
+			shape: "rsquare"
+			size: 0.5d
+			tasks: [{
+				id: "1C5AC63C3C13A4ED"
+				item: "ars_nouveau:glyph_cut"
+				type: "item"
+			}]
+			x: 0.75d
+			y: -2.25d
+		}
+		{
+			id: "4AE5830691129F2B"
+			shape: "rsquare"
+			size: 0.5d
+			tasks: [{
+				id: "07DBC5048D384B33"
+				item: "ars_nouveau:glyph_harm"
+				type: "item"
+			}]
+			x: 3.75d
+			y: -1.75d
+		}
+		{
+			id: "152722760F1373F1"
+			shape: "rsquare"
+			size: 0.5d
+			tasks: [{
+				id: "2588157C4370D31B"
+				item: "ars_nouveau:glyph_interact"
+				type: "item"
+			}]
+			x: 2.25d
+			y: -1.25d
+		}
+		{
+			id: "1927DF350A6F9F1F"
+			shape: "rsquare"
+			size: 0.5d
+			tasks: [{
+				id: "1E022C72C81AD614"
+				item: "ars_nouveau:glyph_blink"
+				type: "item"
+			}]
+			x: 3.75d
+			y: -4.75d
+		}
+		{
+			id: "7F62E4C7FDEAE5F7"
+			shape: "rsquare"
+			size: 0.5d
+			tasks: [{
+				id: "28453F4FDD56CD9D"
+				item: "ars_nouveau:glyph_amplify"
+				type: "item"
+			}]
+			x: 0.25d
+			y: -1.5d
+		}
+		{
+			id: "16D26ECB6279EE3D"
+			shape: "rsquare"
+			size: 0.5d
+			tasks: [{
+				id: "31DDA23ADD8D518A"
+				item: "ars_nouveau:glyph_phantom_block"
+				type: "item"
+			}]
+			x: 1.75d
+			y: -1.25d
+		}
+		{
+			id: "5495FA9FA38E4920"
+			shape: "rsquare"
+			size: 0.5d
+			tasks: [{
+				id: "48FF3C7AC15C0351"
+				item: "ars_nouveau:glyph_fell"
+				type: "item"
+			}]
+			x: 4.75d
+			y: -3.75d
+		}
+		{
+			id: "70E22DD49F7AD0EF"
+			shape: "rsquare"
+			size: 0.5d
+			tasks: [{
+				id: "79EED3B379F1D6A6"
+				item: "ars_nouveau:glyph_extend_time"
+				type: "item"
+			}]
+			x: 1.25d
+			y: -3.75d
+		}
+		{
+			id: "1DE9F27D7C2CBB1E"
+			shape: "rsquare"
+			size: 0.5d
+			tasks: [{
+				id: "0B6C1BD8ED1B687F"
+				item: "ars_nouveau:glyph_heal"
+				type: "item"
+			}]
+			x: 2.75d
+			y: -2.75d
+		}
+		{
+			id: "522D59E14B2AD869"
+			shape: "rsquare"
+			size: 0.5d
+			tasks: [{
+				id: "07C6E812A98C83A6"
+				item: "ars_nouveau:glyph_leap"
+				type: "item"
+			}]
+			x: 3.75d
+			y: -2.25d
+		}
+		{
+			id: "4283A3F87EA62018"
+			shape: "rsquare"
+			size: 0.5d
+			tasks: [{
+				id: "40172A0BBADA0EB9"
+				item: "ars_nouveau:glyph_redstone_signal"
+				type: "item"
+			}]
+			x: 4.25d
+			y: -2.25d
+		}
+		{
+			id: "581357EB198EB781"
+			shape: "rsquare"
+			size: 0.5d
+			tasks: [{
+				id: "67D4F076740C463B"
+				item: "ars_nouveau:glyph_pierce"
+				type: "item"
+			}]
+			x: 1.75d
+			y: -2.75d
+		}
+		{
+			id: "59042A9839EA514E"
+			shape: "rsquare"
+			size: 0.5d
+			tasks: [{
+				id: "0012F9495B9546EE"
+				item: "ars_nouveau:glyph_harvest"
+				type: "item"
+			}]
+			x: 3.25d
+			y: -1.75d
+		}
+		{
+			id: "6355C80B4BC0C67B"
+			shape: "rsquare"
+			size: 0.5d
+			tasks: [{
+				id: "25F3CD8BFE1E331E"
+				item: "ars_nouveau:glyph_fortune"
+				type: "item"
+			}]
+			x: 1.25d
+			y: -3.25d
+		}
+		{
+			id: "4AFEF5FE4185C5ED"
+			shape: "rsquare"
+			size: 0.5d
+			tasks: [{
+				id: "0981CA45F0525CD2"
+				item: "ars_nouveau:glyph_break"
+				type: "item"
+			}]
+			x: 1.75d
+			y: -2.25d
+		}
+		{
+			id: "336D4A5E5C18CC13"
+			shape: "rsquare"
+			size: 0.5d
+			tasks: [{
+				id: "78EFBB9D9CB25465"
+				item: "ars_nouveau:glyph_pickup"
+				type: "item"
+			}]
+			x: 0.75d
+			y: -1.25d
+		}
+		{
+			id: "73505426A1A24A4D"
+			shape: "rsquare"
+			size: 0.5d
+			tasks: [{
+				id: "7CC308808CA12087"
+				item: "ars_nouveau:glyph_launch"
+				type: "item"
+			}]
+			x: 2.25d
+			y: -2.25d
+		}
+		{
+			id: "4807AB296BAF91AA"
+			shape: "rsquare"
+			size: 0.5d
+			tasks: [{
+				id: "442CE5043F46A559"
+				item: "ars_nouveau:glyph_dispel"
+				type: "item"
+			}]
+			x: 2.75d
+			y: -1.25d
+		}
+		{
+			id: "50A060EF4DF3F973"
+			shape: "rsquare"
+			size: 0.5d
+			tasks: [{
+				id: "7F114F795397BB43"
+				item: "ars_nouveau:glyph_ender_inventory"
+				type: "item"
+			}]
+			x: 4.75d
+			y: -2.75d
+		}
+		{
+			id: "5E6726BF10A69F62"
+			shape: "rsquare"
+			size: 0.5d
+			tasks: [{
+				id: "084D394F49B3BE60"
+				item: "ars_nouveau:glyph_pull"
+				type: "item"
+			}]
+			x: 4.25d
+			y: -1.75d
+		}
+		{
+			id: "077B9A74D3441972"
+			shape: "rsquare"
+			size: 0.5d
+			tasks: [{
+				id: "1ACFE42E80BC8C0A"
+				item: "ars_nouveau:glyph_explosion"
+				type: "item"
+			}]
+			x: 3.75d
+			y: -3.25d
+		}
+		{
+			id: "6114626BF19C3B63"
+			shape: "rsquare"
+			size: 0.5d
+			tasks: [{
+				id: "780B64D518013E19"
+				item: "ars_nouveau:glyph_fangs"
+				type: "item"
+			}]
+			x: 4.25d
+			y: -4.75d
+		}
+		{
+			dependency_requirement: "one_started"
+			id: "096357F3D7198985"
+			shape: "rsquare"
+			size: 0.5d
+			tasks: [{
+				id: "55EBEC7199580F6E"
+				item: "ars_nouveau:glyph_aoe"
+				type: "item"
+			}]
+			x: 0.75d
+			y: -3.25d
+		}
+		{
+			id: "69C86B212B109494"
+			shape: "rsquare"
+			size: 0.5d
+			tasks: [{
+				id: "43C512F6458F6327"
+				item: "ars_nouveau:glyph_gravity"
+				type: "item"
+			}]
+			x: 3.75d
+			y: -3.75d
+		}
+		{
+			id: "10CCAAE0D10B6942"
+			shape: "rsquare"
+			size: 0.5d
+			tasks: [{
+				id: "66D80875AE8C8985"
+				item: "ars_nouveau:glyph_wither"
+				type: "item"
+			}]
+			x: 4.25d
+			y: -4.25d
+		}
+		{
+			id: "4E4BCEADEC38D34D"
+			shape: "rsquare"
+			size: 0.5d
+			tasks: [{
+				id: "040767F0521F3BDB"
+				item: "ars_nouveau:glyph_gust"
+				type: "item"
+			}]
+			x: 2.25d
+			y: -1.75d
+		}
+		{
+			description: [
+				"{gto.magic1.quests.2F6BDC52BBD59399.description0}"
+				""
+				"{gto.magic1.quests.2F6BDC52BBD59399.description1}"
+			]
+			id: "2F6BDC52BBD59399"
+			shape: "hexagon"
+			tasks: [{
+				id: "547AE1F367EEA09E"
+				type: "checkmark"
+			}]
+			title: "{gto.magic1.quests.2F6BDC52BBD59399.title}"
+			x: 5.5d
+			y: -3.25d
+		}
+		{
+			description: ["{gto.magic1.quests.423D2D2FB66F1C93.description0}"]
+			id: "423D2D2FB66F1C93"
+			shape: "hexagon"
+			tasks: [{
+				id: "28BC817425ECD2F4"
+				type: "checkmark"
+			}]
+			title: "{gto.magic1.quests.423D2D2FB66F1C93.title}"
+			x: 5.5d
+			y: -1.75d
+		}
+		{
+			description: [
+				"{gto.magic1.quests.660CB6083518485E.description0}"
+				""
+				"{gto.magic1.quests.660CB6083518485E.description1}"
+			]
+			id: "660CB6083518485E"
+			shape: "hexagon"
+			tasks: [{
+				id: "7284FFCDC55BF7A4"
+				type: "checkmark"
+			}]
+			title: "{gto.magic1.quests.660CB6083518485E.title}"
+			x: 5.5d
+			y: -4.75d
+		}
+		{
+			description: [
+				"{gto.magic1.quests.66E480DF3302A8BC.description0}"
+				""
+				"{gto.magic1.quests.66E480DF3302A8BC.description1}"
+			]
+			id: "66E480DF3302A8BC"
+			tasks: [{
+				id: "2BAEC96640151591"
+				item: "ars_nouveau:magebloom_fiber"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 3.5d
+		}
+		{
+			description: [
+				"{gto.magic1.quests.30C7B37E66678DE0.description0}"
+				""
+				"{gto.magic1.quests.30C7B37E66678DE0.description1}"
+				""
+				"{gto.magic1.quests.30C7B37E66678DE0.description2}"
+			]
+			id: "30C7B37E66678DE0"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "0030DE0C2CE63DEA"
+					item: "ars_nouveau:enchanting_apparatus"
+					type: "item"
+				}
+				{
+					id: "46D33B1F765FFC1E"
+					item: "ars_nouveau:arcane_core"
+					type: "item"
+				}
+			]
+			title: "{gto.magic1.quests.30C7B37E66678DE0.title}"
+			x: 16.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"{gto.magic1.quests.1A9542F2D70C1FC2.description0}"
+				""
+				"{gto.magic1.quests.1A9542F2D70C1FC2.description1}"
+			]
+			id: "1A9542F2D70C1FC2"
+			shape: "hexagon"
+			size: 1.25d
+			subtitle: "{gto.magic1.quests.1A9542F2D70C1FC2.subtitle}"
+			tasks: [{
+				count: 8L
+				id: "64C3B15FBDB0A36B"
+				item: "ars_nouveau:arcane_pedestal"
+				type: "item"
+			}]
+			title: "{gto.magic1.quests.1A9542F2D70C1FC2.title}"
+			x: 14.5d
+			y: 0.0d
+		}
+		{
+			id: "6AE3E06DE266B5D0"
+			shape: "rsquare"
+			size: 0.5d
+			tasks: [{
+				id: "43A731353B80F667"
+				item: "ars_nouveau:glyph_summon_steed"
+				type: "item"
+			}]
+			x: 3.25d
+			y: -2.25d
+		}
+		{
+			id: "4C8F596F6A63BFE1"
+			shape: "rsquare"
+			size: 0.5d
+			tasks: [{
+				id: "57E97519F2AD2E23"
+				item: "ars_nouveau:glyph_summon_wolves"
+				type: "item"
+			}]
+			x: 4.75d
+			y: -1.25d
+		}
+		{
+			id: "045AF20E967EF5BE"
+			shape: "rsquare"
+			size: 0.5d
+			tasks: [{
+				id: "6DF0FA5B17F21D78"
+				item: "ars_nouveau:glyph_underfoot"
+				type: "item"
+			}]
+			x: 0.75d
+			y: -1.75d
+		}
+		{
+			id: "3EE547F8DE51FD0D"
+			shape: "rsquare"
+			size: 0.5d
+			tasks: [{
+				id: "14E0620868211159"
+				item: "ars_nouveau:glyph_summon_decoy"
+				type: "item"
+			}]
+			x: 3.75d
+			y: -4.25d
+		}
+		{
+			id: "74A043B1B9E4ABCA"
+			shape: "rsquare"
+			size: 0.5d
+			tasks: [{
+				id: "57B0E09C2CA8E111"
+				item: "ars_nouveau:glyph_hex"
+				type: "item"
+			}]
+			x: 3.25d
+			y: -4.75d
+		}
+		{
+			id: "061225093F7933AC"
+			shape: "diamond"
+			size: 0.5d
+			tasks: [{
+				id: "62350FA71412F18B"
+				item: "ars_nouveau:ritual_sunrise"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 3.65d
+		}
+		{
+			id: "71802B78A2C15031"
+			shape: "diamond"
+			size: 0.5d
+			tasks: [{
+				id: "5552F5EC0FE07E5D"
+				item: "ars_nouveau:ritual_warping"
+				type: "item"
+			}]
+			x: 14.75d
+			y: 2.9d
+		}
+		{
+			id: "16344F32A88D0CF0"
+			shape: "diamond"
+			size: 0.5d
+			tasks: [{
+				id: "6E600CA25CF46B23"
+				item: "ars_nouveau:ritual_overgrowth"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 3.15d
+		}
+		{
+			id: "7BC7EEDD62D73C40"
+			shape: "diamond"
+			size: 0.5d
+			tasks: [{
+				id: "3FA4D747632B18E0"
+				item: "ars_nouveau:ritual_moonfall"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 3.65d
+		}
+		{
+			id: "334102A73542BB9B"
+			shape: "diamond"
+			size: 0.5d
+			tasks: [{
+				id: "5C3099C135534B58"
+				item: "ars_nouveau:ritual_fertility"
+				type: "item"
+			}]
+			x: 14.25d
+			y: 2.9d
+		}
+		{
+			id: "5D79143889CD1301"
+			shape: "diamond"
+			size: 0.5d
+			tasks: [{
+				id: "5BAFCCC6E43F8F9E"
+				item: "ars_nouveau:ritual_burrowing"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 3.15d
+		}
+		{
+			id: "0A63C28A70EDF13B"
+			shape: "diamond"
+			size: 0.5d
+			tasks: [{
+				id: "2E0AF47DE56EF7EB"
+				item: "ars_nouveau:ritual_challenge"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 3.65d
+		}
+		{
+			id: "2B7338656858061A"
+			shape: "diamond"
+			size: 0.5d
+			tasks: [{
+				id: "45364299A99ABF4F"
+				item: "ars_nouveau:ritual_cloudshaping"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 2.65d
+		}
+		{
+			id: "0815DA7B7462B96E"
+			shape: "diamond"
+			size: 0.5d
+			tasks: [{
+				id: "31908376D6B7B2EF"
+				item: "ars_nouveau:ritual_disintegration"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 2.65d
+		}
+		{
+			id: "1F25398B034DBEBE"
+			shape: "diamond"
+			size: 0.5d
+			tasks: [{
+				id: "1233587942AAA83A"
+				item: "ars_nouveau:ritual_restoration"
+				type: "item"
+			}]
+			x: 14.75d
+			y: 3.9000000000000004d
+		}
+		{
+			description: [
+				"{gto.magic1.quests.1C46BDBC426B91E8.description0}"
+				""
+				"{gto.magic1.quests.1C46BDBC426B91E8.description1}"
+				""
+				"{gto.magic1.quests.1C46BDBC426B91E8.description2}"
+				""
+				"{gto.magic1.quests.1C46BDBC426B91E8.description3}"
+				""
+				"{gto.magic1.quests.1C46BDBC426B91E8.description4}"
+			]
+			hide_dependency_lines: true
+			id: "1C46BDBC426B91E8"
+			shape: "gear"
+			size: 1.5d
+			subtitle: "{gto.magic1.quests.1C46BDBC426B91E8.subtitle}"
+			tasks: [{
+				id: "4DF9A911E919AEB4"
+				item: "ars_nouveau:scribes_table"
+				type: "item"
+			}]
+			x: 6.75d
+			y: -3.25d
+		}
+		{
+			id: "0F4CD74ACE31DDAE"
+			optional: true
+			shape: "diamond"
+			size: 0.5d
+			tasks: [{
+				id: "7D94A96ABC876CA0"
+				item: "ars_nouveau:whirlisprig_charm"
+				type: "item"
+			}]
+			x: 16.5d
+			y: -3.0d
+		}
+		{
+			description: [
+				"{gto.magic1.quests.36ABD4063415C989.description0}"
+				""
+				"{gto.magic1.quests.36ABD4063415C989.description1}"
+				""
+				"{gto.magic1.quests.36ABD4063415C989.description2}"
+				""
+				"{gto.magic1.quests.36ABD4063415C989.description3}"
+			]
+			id: "36ABD4063415C989"
+			shape: "gear"
+			size: 1.5d
+			subtitle: "{gto.magic1.quests.36ABD4063415C989.subtitle}"
+			tasks: [{
+				id: "4C24C6B7271BBEC2"
+				item: "ars_nouveau:novice_spell_book"
+				type: "item"
+			}]
+			x: 5.25d
+			y: 1.0d
+		}
+		{
+			description: [
+				"{gto.magic1.quests.21C51082861BD833.description0}"
+				""
+				"{gto.magic1.quests.21C51082861BD833.description1}"
+			]
+			hide_dependency_lines: true
+			id: "21C51082861BD833"
+			tasks: [{
+				id: "750699BCDF037194"
+				item: "ars_nouveau:apprentice_spell_book"
+				type: "item"
+			}]
+			x: 6.25d
+			y: -0.5d
+		}
+		{
+			description: [
+				"{gto.magic1.quests.397A8123DF0BA2F3.description0}"
+				""
+				"{gto.magic1.quests.397A8123DF0BA2F3.description1}"
+			]
+			hide_dependency_lines: true
+			id: "397A8123DF0BA2F3"
+			tasks: [{
+				id: "47AF4F919F3DE0D5"
+				item: "ars_nouveau:archmage_spell_book"
+				type: "item"
+			}]
+			x: 7.25d
+			y: -0.5d
+		}
+		{
+			description: [
+				"{gto.magic1.quests.41204ECBE1707DA7.description0}"
+				""
+				"{gto.magic1.quests.41204ECBE1707DA7.description1}"
+				""
+				"{gto.magic1.quests.41204ECBE1707DA7.description2}"
+			]
+			id: "41204ECBE1707DA7"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "30DECFF8CAED0DF4"
+				item: "ars_nouveau:ritual_brazier"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 2.0d
+		}
+		{
+			description: [
+				"{gto.magic1.quests.1BFDFCA0D66B306D.description0}"
+				""
+				"{gto.magic1.quests.1BFDFCA0D66B306D.description1}"
+			]
+			id: "1BFDFCA0D66B306D"
+			shape: "hexagon"
+			size: 0.5d
+			subtitle: "{gto.magic1.quests.1BFDFCA0D66B306D.subtitle}"
+			tasks: [{
+				id: "5280B60946E6DB8D"
+				item: "ars_nouveau:potion_jar"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -3.5d
+		}
+		{
+			description: [
+				"{gto.magic1.quests.2FF37E04C3C95315.description0}"
+				""
+				"{gto.magic1.quests.2FF37E04C3C95315.description1}"
+				""
+				"{gto.magic1.quests.2FF37E04C3C95315.description2}"
+				""
+				""
+			]
+			id: "2FF37E04C3C95315"
+			shape: "hexagon"
+			subtitle: "{gto.magic1.quests.2FF37E04C3C95315.subtitle}"
+			tasks: [{
+				id: "562542C5B9945EFB"
+				item: "ars_nouveau:imbuement_chamber"
+				type: "item"
+			}]
+			x: 12.75d
+			y: 0.0d
+		}
+		{
+			description: ["{gto.magic1.quests.1C85C6F6DD90FD22.description0}"]
+			id: "1C85C6F6DD90FD22"
+			shape: "hexagon"
+			tasks: [{
+				id: "32D5244B1FEA8D51"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:logs/archwood"
+					}
+				}
+				title: "{gto.magic1.quests.1C85C6F6DD90FD22.tasks.32D5244B1FEA8D51.title}"
+				type: "item"
+			}]
+			title: "{gto.magic1.quests.1C85C6F6DD90FD22.title}"
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"{gto.magic1.quests.6FCF2B9F273D39F0.description0}"
+				""
+				"{gto.magic1.quests.6FCF2B9F273D39F0.description1}"
+			]
+			id: "6FCF2B9F273D39F0"
+			shape: "gear"
+			size: 1.5d
+			subtitle: "{gto.magic1.quests.6FCF2B9F273D39F0.subtitle}"
+			tasks: [{
+				id: "4B328BD62F52C870"
+				item: "ars_nouveau:source_jar"
+				type: "item"
+			}]
+			x: 12.75d
+			y: -3.5d
+		}
+		{
+			id: "5F415652D3D96CDA"
+			optional: true
+			shape: "diamond"
+			size: 0.5d
+			tasks: [{
+				id: "7120768391626FF9"
+				item: "ars_nouveau:drygmy_charm"
+				type: "item"
+			}]
+			x: 17.0d
+			y: -3.0d
+		}
+		{
+			id: "3518A578EEF7FCCF"
+			optional: true
+			shape: "diamond"
+			size: 0.5d
+			tasks: [{
+				id: "70F442102B4CA354"
+				item: "ars_nouveau:amethyst_golem_charm"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -3.0d
+		}
+		{
+			description: [
+				"{gto.magic1.quests.50F12E3C127BA06F.description0}"
+				""
+				"{gto.magic1.quests.50F12E3C127BA06F.description1}"
+			]
+			id: "50F12E3C127BA06F"
+			subtitle: "{gto.magic1.quests.50F12E3C127BA06F.subtitle}"
+			tasks: [{
+				count: 3L
+				id: "5398553AF64C8ACD"
+				item: "ars_nouveau:magebloom_crop"
+				type: "item"
+			}]
+			title: "{gto.magic1.quests.50F12E3C127BA06F.title}"
+			x: 16.5d
+			y: 1.5d
+		}
+		{
+			id: "28A3963AE83A3735"
+			shape: "rsquare"
+			size: 0.5d
+			tasks: [{
+				id: "7CFA37067346850A"
+				item: "ars_nouveau:glyph_orbit"
+				type: "item"
+			}]
+			x: 4.75d
+			y: -4.75d
+		}
+		{
+			id: "66B96026FB710764"
+			shape: "rsquare"
+			size: 0.5d
+			tasks: [{
+				id: "1648C22EC45BEC7F"
+				item: "ars_nouveau:glyph_sensitive"
+				type: "item"
+			}]
+			x: 0.25d
+			y: -2.0d
+		}
+		{
+			id: "1A39BA8097F3CA10"
+			shape: "rsquare"
+			size: 0.5d
+			tasks: [{
+				id: "57DE7E8DD232FF00"
+				item: "ars_nouveau:glyph_decelerate"
+				type: "item"
+			}]
+			x: 1.75d
+			y: -3.25d
+		}
+		{
+			description: [
+				"{gto.magic1.quests.04D725B790078196.description0}"
+				""
+				"{gto.magic1.quests.04D725B790078196.description1}"
+				""
+				"{gto.magic1.quests.04D725B790078196.description2}"
+			]
+			id: "04D725B790078196"
+			shape: "hexagon"
+			size: 0.5d
+			tasks: [{
+				id: "422DACC20E1D2A97"
+				item: "ars_nouveau:volcanic_sourcelink"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -3.25d
+		}
+		{
+			description: [
+				"{gto.magic1.quests.2A513D2868A7E520.description0}"
+				""
+				"{gto.magic1.quests.2A513D2868A7E520.description1}"
+				""
+				"{gto.magic1.quests.2A513D2868A7E520.description2}"
+			]
+			id: "2A513D2868A7E520"
+			subtitle: "{gto.magic1.quests.2A513D2868A7E520.subtitle}"
+			tasks: [{
+				id: "461117F3B26B2C69"
+				item: {
+					Count: 1
+					id: "ars_nouveau:runic_chalk"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 18.0d
+			y: 5.5d
+		}
+		{
+			id: "3A6D397832704EEE"
+			shape: "diamond"
+			size: 0.5d
+			tasks: [{
+				id: "7B827D859E77180F"
+				item: "ars_nouveau:ritual_awakening"
+				type: "item"
+			}]
+			x: 14.25d
+			y: 3.9000000000000004d
+		}
+		{
+			id: "31637A0289CC36AE"
+			shape: "diamond"
+			size: 0.5d
+			tasks: [{
+				id: "1DA500B973822C3B"
+				item: "ars_nouveau:ritual_flight"
+				type: "item"
+			}]
+			x: 14.75d
+			y: 3.4d
+		}
+		{
+			id: "0C08A40B8BECC5EE"
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "21854F816AF0AB3C"
+				item: "ars_nouveau:ritual_wilden_summon"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 4.5d
+		}
+		{
+			id: "2F5C9E94A68844E4"
+			shape: "diamond"
+			size: 0.5d
+			tasks: [{
+				id: "021E4B14151D626C"
+				item: "ars_nouveau:ritual_scrying"
+				type: "item"
+			}]
+			x: 14.25d
+			y: 3.4d
+		}
+		{
+			id: "7941762235F4EA62"
+			shape: "diamond"
+			size: 0.5d
+			tasks: [{
+				id: "524790DA70BFFA84"
+				item: "ars_nouveau:ritual_binding"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 3.15d
+		}
+		{
+			id: "4B15D4D4BAFF5183"
+			shape: "rsquare"
+			size: 0.5d
+			tasks: [{
+				id: "195B970B0337AAA1"
+				item: "ars_nouveau:glyph_glide"
+				type: "item"
+			}]
+			x: 3.75d
+			y: -5.25d
+		}
+		{
+			id: "0179D0CA42ED47E3"
+			shape: "rsquare"
+			size: 0.5d
+			tasks: [{
+				id: "562A33A5AA33F778"
+				item: "ars_nouveau:glyph_wind_shear"
+				type: "item"
+			}]
+			x: 2.75d
+			y: -3.25d
+		}
+		{
+			id: "5ED3F2538728312B"
+			shape: "rsquare"
+			size: 0.5d
+			tasks: [{
+				id: "16DC66686FCE5162"
+				item: "ars_nouveau:glyph_summon_undead"
+				type: "item"
+			}]
+			x: 4.75d
+			y: -5.25d
+		}
+		{
+			id: "251C1131E0D200D9"
+			shape: "rsquare"
+			size: 0.5d
+			tasks: [{
+				id: "66BB4DCC78D4F274"
+				item: "ars_nouveau:glyph_linger"
+				type: "item"
+			}]
+			x: 4.75d
+			y: -4.25d
+		}
+		{
+			id: "2DCD629D50FEEBEE"
+			shape: "rsquare"
+			size: 0.5d
+			tasks: [{
+				id: "0CA06EEB29C345D0"
+				item: "ars_nouveau:glyph_evaporate"
+				type: "item"
+			}]
+			x: 1.25d
+			y: -2.25d
+		}
+		{
+			id: "2D47E27AFEF2114E"
+			shape: "rsquare"
+			size: 0.5d
+			tasks: [{
+				id: "2C0B2C6E5BCECB89"
+				item: "ars_nouveau:glyph_bounce"
+				type: "item"
+			}]
+			x: 1.75d
+			y: -1.75d
+		}
+		{
+			id: "3DBDBF124F4E9DB5"
+			shape: "rsquare"
+			size: 0.5d
+			tasks: [{
+				id: "5B707040E9B1F391"
+				item: "ars_nouveau:glyph_sense_magic"
+				type: "item"
+			}]
+			x: 2.75d
+			y: -3.75d
+		}
+		{
+			id: "7678378E2C8DD944"
+			shape: "rsquare"
+			size: 0.5d
+			tasks: [{
+				id: "1FFFF7E4F25ABDD0"
+				item: "ars_nouveau:glyph_name"
+				type: "item"
+			}]
+			x: 2.25d
+			y: -3.75d
+		}
+		{
+			id: "714301518BF3F562"
+			shape: "rsquare"
+			size: 0.5d
+			tasks: [{
+				id: "37FA1639755C70CF"
+				item: "ars_nouveau:glyph_firework"
+				type: "item"
+			}]
+			x: 3.25d
+			y: -3.75d
+		}
+		{
+			id: "2FF6CB585E547A73"
+			shape: "rsquare"
+			size: 0.5d
+			tasks: [{
+				id: "70E5FCE4750F2575"
+				item: "ars_nouveau:glyph_toss"
+				type: "item"
+			}]
+			x: 3.25d
+			y: -1.25d
+		}
+		{
+			description: [
+				"{gto.magic1.quests.1A19C72C0DB04FD9.description0}"
+				""
+				"{gto.magic1.quests.1A19C72C0DB04FD9.description1}"
+				""
+				"{gto.magic1.quests.1A19C72C0DB04FD9.description2}"
+				""
+				"{gto.magic1.quests.1A19C72C0DB04FD9.description3}"
+				""
+				"{gto.magic1.quests.1A19C72C0DB04FD9.description4}"
+				""
+			]
+			icon: {
+				Count: 1
+				id: "ars_nouveau:spell_parchment"
+				tag: { }
+			}
+			id: "1A19C72C0DB04FD9"
+			tasks: [{
+				id: "269CFEA8BC73B575"
+				title: "{gto.magic1.quests.1A19C72C0DB04FD9.tasks.269CFEA8BC73B575.title}"
+				type: "checkmark"
+			}]
+			x: 5.25d
+			y: -0.5d
+		}
+		{
+			description: [
+				"{gto.magic1.quests.777C62B5CE71253C.description0}"
+				""
+				"{gto.magic1.quests.777C62B5CE71253C.description1}"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:potion"
+				tag: {
+					Potion: "ars_nouveau:mana_regen_potion"
+				}
+			}
+			id: "777C62B5CE71253C"
+			subtitle: "{gto.magic1.quests.777C62B5CE71253C.subtitle}"
+			tasks: [{
+				id: "7AFF7EB9B1EE9934"
+				title: "{gto.magic1.quests.777C62B5CE71253C.tasks.7AFF7EB9B1EE9934.title}"
+				type: "checkmark"
+			}]
+			x: 4.25d
+			y: -0.5d
+		}
+		{
+			description: ["{gto.magic1.quests.0B5CFC1ED63CB85D.description0}"]
+			id: "0B5CFC1ED63CB85D"
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				count: 2L
+				id: "02D06D7BC9932FA4"
+				item: "ars_nouveau:source_gem"
+				type: "item"
+			}]
+			title: "{gto.magic1.quests.0B5CFC1ED63CB85D.title}"
+			x: 12.75d
+			y: -2.0d
+		}
+		{
+			id: "0B408226D8478929"
+			shape: "hexagon"
+			size: 0.5d
+			subtitle: "{gto.magic1.quests.0B408226D8478929.subtitle}"
+			tasks: [{
+				id: "77C981F9662BB6E4"
+				item: "ars_nouveau:vitalic_sourcelink"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -3.75d
+		}
+		{
+			description: [
+				"{gto.magic1.quests.12E98617544280A9.description0}"
+				""
+				"{gto.magic1.quests.12E98617544280A9.description1}"
+			]
+			id: "12E98617544280A9"
+			shape: "hexagon"
+			size: 0.5d
+			subtitle: "{gto.magic1.quests.12E98617544280A9.subtitle}"
+			tasks: [{
+				id: "770D138BCB0152EA"
+				item: "ars_nouveau:alchemical_sourcelink"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -3.5d
+		}
+		{
+			description: [""]
+			id: "3EABAAFF2C70047E"
+			shape: "hexagon"
+			size: 0.5d
+			subtitle: "{gto.magic1.quests.3EABAAFF2C70047E.subtitle}"
+			tasks: [{
+				id: "059927736150B7E6"
+				item: "ars_nouveau:mycelial_sourcelink"
+				type: "item"
+			}]
+			x: 13.25d
+			y: -4.25d
+		}
+		{
+			description: [
+				"{gto.magic1.quests.29B35E3A20C4B749.description0}"
+				""
+				"{gto.magic1.quests.29B35E3A20C4B749.description1}"
+			]
+			id: "29B35E3A20C4B749"
+			shape: "hexagon"
+			size: 0.5d
+			subtitle: "{gto.magic1.quests.29B35E3A20C4B749.subtitle}"
+			tasks: [{
+				id: "5C779061CF4B4D8D"
+				item: "ars_nouveau:agronomic_sourcelink"
+				type: "item"
+			}]
+			x: 13.25d
+			y: -2.75d
+		}
+		{
+			description: [""]
+			id: "1A2F8347B5161AC0"
+			shape: "hexagon"
+			tasks: [{
+				id: "71108AF01854D7F7"
+				item: "ars_nouveau:sourcestone"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -2.0d
+		}
+		{
+			description: ["{gto.magic1.quests.7316D2F7F578DAD1.description0}"]
+			id: "7316D2F7F578DAD1"
+			tasks: [{
+				id: "274C84306B23C2B8"
+				item: {
+					Count: 1
+					id: "ars_nouveau:spell_parchment"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 16.5d
+			y: 5.5d
+		}
+		{
+			description: ["{gto.magic1.quests.0822DE78CCB19729.description0}"]
+			id: "0822DE78CCB19729"
+			shape: "rsquare"
+			size: 0.5d
+			tasks: [{
+				id: "2C2F7AECE0FA68AF"
+				item: "ars_nouveau:dominion_wand"
+				type: "item"
+			}]
+			title: "{gto.magic1.quests.0822DE78CCB19729.title}"
+			x: 16.5d
+			y: -2.5d
+		}
+		{
+			description: [
+				"{gto.magic1.quests.3E0965C4CF15F809.description0}"
+				""
+				"{gto.magic1.quests.3E0965C4CF15F809.description1}"
+				""
+				"{gto.magic1.quests.3E0965C4CF15F809.description2}"
+			]
+			id: "3E0965C4CF15F809"
+			shape: "diamond"
+			size: 0.5d
+			tasks: [{
+				id: "7205306730B821AF"
+				item: {
+					Count: 1
+					id: "ars_nouveau:enchanters_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 16.0d
+			y: -1.75d
+		}
+		{
+			description: [
+				"{gto.magic1.quests.0E2D9511EC52204E.description0}"
+				""
+				"{gto.magic1.quests.0E2D9511EC52204E.description1}"
+			]
+			id: "0E2D9511EC52204E"
+			shape: "diamond"
+			size: 0.5d
+			tasks: [{
+				id: "4E2D7A568131555E"
+				item: {
+					Count: 1
+					id: "ars_nouveau:enchanters_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 16.75d
+			y: -2.0d
+		}
+		{
+			description: [
+				"{gto.magic1.quests.6A1AE757E9EDF3A6.description0}"
+				""
+				"{gto.magic1.quests.6A1AE757E9EDF3A6.description1}"
+				""
+				"{gto.magic1.quests.6A1AE757E9EDF3A6.description2}"
+			]
+			id: "6A1AE757E9EDF3A6"
+			shape: "diamond"
+			size: 0.5d
+			tasks: [{
+				id: "1AAE2D5566399B85"
+				item: {
+					Count: 1
+					id: "ars_nouveau:enchanters_mirror"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 16.5d
+			y: -1.75d
+		}
+		{
+			description: [
+				"{gto.magic1.quests.6A0AA9F953747D74.description0}"
+				""
+				"{gto.magic1.quests.6A0AA9F953747D74.description1}"
+				""
+				"{gto.magic1.quests.6A0AA9F953747D74.description2}"
+				""
+				"{gto.magic1.quests.6A0AA9F953747D74.description3}"
+			]
+			id: "6A0AA9F953747D74"
+			shape: "diamond"
+			size: 0.5d
+			tasks: [{
+				id: "01D8132696F015DD"
+				item: {
+					Count: 1
+					id: "ars_nouveau:spell_bow"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 16.25d
+			y: -2.0d
+		}
+		{
+			description: [
+				"{gto.magic1.quests.02CE9C2BA3AD14D8.description0}"
+				""
+				"{gto.magic1.quests.02CE9C2BA3AD14D8.description1}"
+				""
+				"{gto.magic1.quests.02CE9C2BA3AD14D8.description2}"
+				""
+				"{gto.magic1.quests.02CE9C2BA3AD14D8.description3}"
+			]
+			id: "02CE9C2BA3AD14D8"
+			shape: "diamond"
+			size: 0.5d
+			tasks: [
+				{
+					id: "6702853B6EA19B8D"
+					item: "ars_nouveau:jar_of_light"
+					type: "item"
+				}
+				{
+					id: "3BB09BB3F3880B73"
+					item: "ars_nouveau:void_jar"
+					type: "item"
+				}
+			]
+			x: 16.5d
+			y: -1.0d
+		}
+		{
+			description: ["{gto.magic1.quests.6CEA15C36845B398.description0}"]
+			id: "6CEA15C36845B398"
+			shape: "diamond"
+			size: 0.5d
+			tasks: [
+				{
+					id: "6A44710010905FBD"
+					item: "ars_nouveau:ring_of_lesser_discount"
+					type: "item"
+				}
+				{
+					id: "4E93B673835DCF43"
+					item: "ars_nouveau:ring_of_greater_discount"
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: -1.0d
+		}
+		{
+			description: ["{gto.magic1.quests.53889A504F8694C6.description0}"]
+			id: "53889A504F8694C6"
+			shape: "diamond"
+			size: 0.5d
+			tasks: [{
+				id: "3C2A79B8E61797B7"
+				item: "ars_nouveau:belt_of_unstable_gifts"
+				type: "item"
+			}]
+			x: 17.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"{gto.magic1.quests.07243F578E1CBFEB.description0}"
+				""
+				"{gto.magic1.quests.07243F578E1CBFEB.description1}"
+			]
+			id: "07243F578E1CBFEB"
+			shape: "diamond"
+			size: 0.5d
+			tasks: [{
+				id: "2F02104D73069169"
+				item: "ars_nouveau:belt_of_levitation"
+				type: "item"
+			}]
+			x: 16.75d
+			y: -1.25d
+		}
+		{
+			description: [
+				"{gto.magic1.quests.725A5D7E788C16F9.description0}"
+				""
+				"{gto.magic1.quests.725A5D7E788C16F9.description1}"
+			]
+			id: "725A5D7E788C16F9"
+			shape: "diamond"
+			size: 0.5d
+			tasks: [
+				{
+					id: "052E049CE8AD0A4A"
+					item: "ars_nouveau:amulet_of_mana_boost"
+					type: "item"
+				}
+				{
+					id: "35FD21F914A102EA"
+					item: "ars_nouveau:amulet_of_mana_regen"
+					type: "item"
+				}
+			]
+			title: "{gto.magic1.quests.725A5D7E788C16F9.title}"
+			x: 16.25d
+			y: -1.25d
+		}
+		{
+			description: [
+				"{gto.magic1.quests.6D63CFDB2D863EB4.description0}"
+				""
+				"{gto.magic1.quests.6D63CFDB2D863EB4.description1}"
+				""
+				"{gto.magic1.quests.6D63CFDB2D863EB4.description2}"
+			]
+			id: "6D63CFDB2D863EB4"
+			shape: "diamond"
+			size: 0.5d
+			tasks: [{
+				id: "563A81BC162BA1B3"
+				item: {
+					Count: 1
+					id: "ars_nouveau:wand"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 17.0d
+			y: -1.75d
+		}
+		{
+			description: ["{gto.magic1.quests.1BA3A4E12CF6610F.description0}"]
+			id: "1BA3A4E12CF6610F"
+			tasks: [{
+				id: "528AD970280CA2B7"
+				item: "gtocore:livingclay_block"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			description: ["{gto.magic1.quests.0D858CCBDBA3F047.description0}"]
+			id: "0D858CCBDBA3F047"
+			tasks: [{
+				id: "17741CED416DDBCD"
+				item: "gtocore:livingsteel_ingot"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 2.0d
+		}
+		{
+			id: "1FC63154B70888EE"
+			shape: "hexagon"
+			tasks: [{
+				id: "0993408C0FE56043"
+				item: "botania:mana_pearl"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5F5B9F256A751484"]
+			dependency_requirement: "one_completed"
+			description: ["{gto.magic1.quests.38778F119CC1E2D1.description0}"]
+			id: "38778F119CC1E2D1"
+			shape: "circle"
+			tasks: [{
+				id: "72C8B58F4BE3D614"
+				item: "torchmaster:frozen_pearl"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			hide_dependency_lines: true
+			id: "2E76989F9DF03F7A"
+			size: 0.5d
+			subtitle: "{gto.magic1.quests.2E76989F9DF03F7A.subtitle}"
+			tasks: [{
+				id: "37B22F1F929A520E"
+				item: "gtocore:colorful_mystical_flower"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.25d
+		}
+		{
+			id: "64C020594B581417"
+			tasks: [{
+				id: "378DDEA1B9361C02"
+				item: "botania:mana_string"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"{gto.magic1.quests.4A637F35ADDD038C.description0}"
+				""
+				"{gto.magic1.quests.4A637F35ADDD038C.description1}"
+				""
+				"{gto.magic1.quests.4A637F35ADDD038C.description2}"
+				""
+				"{gto.magic1.quests.4A637F35ADDD038C.description3}"
+			]
+			id: "4A637F35ADDD038C"
+			shape: "gear"
+			size: 2.5d
+			tasks: [{
+				id: "0A8737425E0DEA1D"
+				item: "botania:runic_altar"
+				type: "item"
+			}]
+			x: 19.5d
+			y: -2.0d
+		}
+		{
+			id: "50337283FF30CC27"
+			subtitle: "{gto.magic1.quests.50337283FF30CC27.subtitle}"
+			tasks: [{
+				id: "2B1CF5A89168F533"
+				item: "gtocore:mana_infuser"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 1.5d
+		}
+		{
+			description: ["{gto.magic1.quests.652B56B412938B49.description0}"]
+			id: "652B56B412938B49"
+			size: 1.5d
+			tasks: [{
+				count: 64L
+				id: "7CF2F84F18326990"
+				item: {
+					Count: 64
+					id: "botania:daybloom_motif"
+				}
+				type: "item"
+			}]
+			x: 6.75d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2633770BFCC25545"]
+			description: ["{gto.magic1.quests.5FB3078D06912ED3.description0}"]
+			id: "5FB3078D06912ED3"
+			optional: true
+			subtitle: "{gto.magic1.quests.5FB3078D06912ED3.subtitle}"
+			tasks: [{
+				id: "088BEE645BA1E556"
+				item: {
+					Count: 1
+					id: "ars_nouveau:stable_warp_scroll"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 19.5d
+			y: 4.0d
+		}
+		{
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "5AD72B6DFDAA61CA"
+			optional: true
+			shape: "square"
+			size: 0.5d
+			tasks: [{
+				id: "59F9FE6779303074"
+				item: "mythicbotany:feysythia"
+				type: "item"
+			}]
+			x: 0.25d
+			y: 6.5d
+		}
+		{
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "696DE882BF2BFB7B"
+			optional: true
+			shape: "square"
+			size: 0.5d
+			tasks: [{
+				id: "26C841FBBE86F1E1"
+				item: "mythicbotany:raindeletia"
+				type: "item"
+			}]
+			x: 0.25d
+			y: 6.0d
+		}
+		{
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "39D5E2C10960E7FF"
+			optional: true
+			shape: "square"
+			size: 0.5d
+			tasks: [{
+				id: "574E709DF275F885"
+				item: "mythicbotany:wither_aconite"
+				type: "item"
+			}]
+			x: 0.25d
+			y: 5.5d
+		}
+		{
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "4B5B7354C9A55E44"
+			optional: true
+			shape: "square"
+			size: 0.5d
+			tasks: [{
+				id: "5FEF6A35DC549AEB"
+				item: "extrabotany:reikarlily"
+				type: "item"
+			}]
+			x: 0.75d
+			y: 5.5d
+		}
+		{
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "0A85B6BF5B3B1758"
+			optional: true
+			shape: "square"
+			size: 0.5d
+			tasks: [{
+				id: "0DD55A7ADD8AC9F7"
+				item: "extrabotany:bellflower"
+				type: "item"
+			}]
+			x: 0.75d
+			y: 6.0d
+		}
+		{
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "5DE7616B6F19751C"
+			optional: true
+			shape: "square"
+			size: 0.5d
+			tasks: [{
+				id: "5384D74B6C037672"
+				item: "extrabotany:stonesia"
+				type: "item"
+			}]
+			x: 1.25d
+			y: 6.5d
+		}
+		{
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "0DBBA1F5CD978BAF"
+			optional: true
+			shape: "square"
+			size: 0.5d
+			tasks: [{
+				id: "45CFDCB6C07B4D2C"
+				item: "extrabotany:edelweiss"
+				type: "item"
+			}]
+			x: 0.75d
+			y: 6.5d
+		}
+		{
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "70307545D1E311DF"
+			optional: true
+			shape: "square"
+			size: 0.5d
+			tasks: [{
+				id: "60B12C0B7E4A3D83"
+				item: "extrabotany:sunshine_lily"
+				type: "item"
+			}]
+			x: 1.75d
+			y: 6.0d
+		}
+		{
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "727352F6142B1D93"
+			optional: true
+			shape: "square"
+			size: 0.5d
+			tasks: [{
+				id: "7F8C2B7F83D73419"
+				item: "extrabotany:moonlight_lily"
+				type: "item"
+			}]
+			x: 1.75d
+			y: 6.5d
+		}
+		{
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "05FBA4BBDFCC60A7"
+			optional: true
+			shape: "square"
+			size: 0.5d
+			tasks: [{
+				id: "107F6D99EAB7C4BE"
+				item: "extrabotany:twinstar"
+				type: "item"
+			}]
+			x: 1.75d
+			y: 5.5d
+		}
+		{
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "279AA818F86BAE8F"
+			optional: true
+			shape: "square"
+			size: 0.5d
+			tasks: [{
+				id: "518B388E86FEA08E"
+				item: "extrabotany:omniviolet"
+				type: "item"
+			}]
+			x: 1.25d
+			y: 5.5d
+		}
+		{
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "1E9E11128CDB404D"
+			optional: true
+			shape: "square"
+			size: 0.5d
+			tasks: [{
+				id: "132608131CC8A05A"
+				item: "extrabotany:tinkle"
+				type: "item"
+			}]
+			x: 2.25d
+			y: 6.5d
+		}
+		{
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "0C6F374568AB0E76"
+			optional: true
+			shape: "square"
+			size: 0.5d
+			tasks: [{
+				id: "4B49847A59C6E65B"
+				item: "extrabotany:blood_enchantress"
+				type: "item"
+			}]
+			x: 1.25d
+			y: 6.0d
+		}
+		{
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "3724EF4F0F079C80"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "680E5E5758C485FC"
+				item: "extrabotany:trade_orchid"
+				type: "item"
+			}]
+			x: 1.25d
+			y: 3.5d
+		}
+		{
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "0425D079FB69A8FE"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "2B07BDC7AA94DA19"
+				item: "extrabotany:annoyingflower"
+				type: "item"
+			}]
+			x: 1.25d
+			y: 4.5d
+		}
+		{
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "42FC3EE6369538FE"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "07D1BBFE02BA0B62"
+				item: "extrabotany:woodienia"
+				type: "item"
+			}]
+			x: 1.25d
+			y: 4.0d
+		}
+		{
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "31DFFF5B02D1E604"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "6553BFA480B9CAAB"
+				item: "extrabotany:serenitian"
+				type: "item"
+			}]
+			x: 1.25d
+			y: 5.0d
+		}
+		{
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "0C3A663C96C66A4E"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "5BC093A12F094AB3"
+				item: "extrabotany:mirrowtunia"
+				type: "item"
+			}]
+			x: 0.75d
+			y: 3.5d
+		}
+		{
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "2F56C9591B7F294A"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "37AE5E01040359B4"
+				item: "extrabotany:necrofleur"
+				type: "item"
+			}]
+			x: 0.75d
+			y: 4.0d
+		}
+		{
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "51FE361FA88FB4B9"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "5A33CF619A1517FD"
+				item: "extrabotany:manalink"
+				type: "item"
+			}]
+			x: 0.75d
+			y: 4.5d
+		}
+		{
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "30BB454DBF2E9F91"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "01CDE58F3A5B6FDB"
+				item: "extrabotany:enchanter"
+				type: "item"
+			}]
+			x: 0.75d
+			y: 5.0d
+		}
+		{
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "337AA6E0251BBEF4"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "2347BFFF7B162D22"
+				item: "mythicbotany:aquapanthus"
+				type: "item"
+			}]
+			x: 0.25d
+			y: 3.5d
+		}
+		{
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "6D2F439475ABEF76"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "35655982B6BA2E4D"
+				item: "mythicbotany:exoblaze"
+				type: "item"
+			}]
+			x: 0.25d
+			y: 4.0d
+		}
+		{
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "7EE3E0AE53A53CEC"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "1B4FE86DBC3F0A17"
+				item: "mythicbotany:hellebore"
+				type: "item"
+			}]
+			x: 0.25d
+			y: 4.5d
+		}
+		{
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "16F497354BF9AF5F"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "5215EF6FAAD618D9"
+				item: "mythicbotany:petrunia"
+				type: "item"
+			}]
+			x: 0.25d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5FB36C788008C907"]
+			description: [
+				"{gto.magic1.quests.13ED9023E7486BCD.description0}"
+				"{gto.magic1.quests.13ED9023E7486BCD.description1}"
+				""
+				"{gto.magic1.quests.13ED9023E7486BCD.description2}"
+				"{image:arsmeteorites:textures/gui/direction.png width:100 height:100 align:center}"
+			]
+			hide_dependency_lines: true
+			id: "13ED9023E7486BCD"
+			shape: "diamond"
+			size: 1.0d
+			tasks: [{
+				id: "5DD9FC7C32260CE0"
+				item: "arsmeteorites:ritual_conjure_meteorites"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 5.5d
+		}
+		{
+			description: ["{gto.magic1.quests.7B4B9EF58B09982A.description0}"]
+			id: "7B4B9EF58B09982A"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "435E9FB053823C95"
+				item: "botania:elven_spreader"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -0.5d
+		}
+		{
+			description: ["{gto.magic1.quests.3B73F411A1BCBA51.description0}"]
+			id: "3B73F411A1BCBA51"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "7AF4940D6BE2AEB2"
+				item: "botania:gaia_spreader"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5FB36C788008C907"]
+			description: ["{gto.magic1.quests.4616B3E583B430A0.description0}"]
+			hide_dependency_lines: true
+			id: "4616B3E583B430A0"
+			tasks: [{
+				id: "1BD6C14B79F2804C"
+				item: "gtocore:large_perfusion_device"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 3.0d
+		}
+		{
+			id: "7F9379EC7D4ACF06"
+			tasks: [{
+				id: "4137170E5A194378"
+				item: "gtocore:manasteel_casing"
+				type: "item"
+			}]
+			x: 12.75d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7F9379EC7D4ACF06"]
+			id: "23C3F73ABA5CC274"
+			tasks: [{
+				id: "6E120F640ECA730B"
+				item: "gtocore:lv_mana_assembler"
+				type: "item"
+			}]
+			x: 12.75d
+			y: 5.5d
+		}
+		{
+			description: ["{gto.magic1.quests.22E9CD9C7F305491.description0}"]
+			hide_dependency_lines: true
+			icon: "gtocore:fractal_petal_solvent_bucket"
+			id: "22E9CD9C7F305491"
+			subtitle: "{gto.magic1.quests.22E9CD9C7F305491.subtitle}"
+			tasks: [
+				{
+					id: "655D24E45650520C"
+					item: "gtocore:fractal_petal_solvent_bucket"
+					type: "item"
+				}
+				{
+					id: "249454EB339C256C"
+					type: "checkmark"
+				}
+			]
+			x: 10.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["45C8A2DF9C0E5473"]
+			description: ["{gto.magic1.quests.777F1F14C5892E72.description0}"]
+			id: "777F1F14C5892E72"
+			tasks: [
+				{
+					id: "4CD9CE9C0A515791"
+					item: "gtocore:raw_perditio_crystal"
+					type: "item"
+				}
+				{
+					id: "7951E15A0ACCBB3A"
+					item: "gtocore:raw_gnome_crystal"
+					type: "item"
+				}
+				{
+					id: "31D5F313A5C5F5B8"
+					item: "gtocore:raw_sylph_crystal"
+					type: "item"
+				}
+				{
+					id: "07D6E8479976D5BE"
+					item: "gtocore:raw_undine_crystal"
+					type: "item"
+				}
+				{
+					id: "0C2127D58AA42C48"
+					item: "gtocore:raw_salamander_crystal"
+					type: "item"
+				}
+			]
+			title: "{gto.magic1.quests.777F1F14C5892E72.title}"
+			x: 8.5d
+			y: -4.5d
+		}
+		{
+			id: "3D0D93841FCA271A"
+			tasks: [
+				{
+					id: "15A62EF8A1B7D7FC"
+					item: "gtocore:perditio_crystal_dust"
+					type: "item"
+				}
+				{
+					id: "1DF461EDBDD5C44C"
+					item: "gtocore:gnome_crystal_dust"
+					type: "item"
+				}
+				{
+					id: "0E00CD9787A1A223"
+					item: "gtocore:sylph_crystal_dust"
+					type: "item"
+				}
+				{
+					id: "11D89F0EC626E60A"
+					item: "gtocore:undine_crystal_dust"
+					type: "item"
+				}
+				{
+					id: "350EF1F5160FA64A"
+					item: "gtocore:salamander_crystal_dust"
+					type: "item"
+				}
+			]
+			title: "{gto.magic1.quests.3D0D93841FCA271A.title}"
+			x: 10.0d
+			y: -4.5d
+		}
+		{
+			description: ["{gto.magic1.quests.319615E73D617202.description0}"]
+			icon: "gtocore:aether_bucket"
+			id: "319615E73D617202"
+			tasks: [
+				{
+					id: "1296C96D36BDC0E5"
+					item: "gtocore:aether_bucket"
+					type: "item"
+				}
+				{
+					id: "01A8BAAEE7626140"
+					item: "gtocore:salamander_bucket"
+					type: "item"
+				}
+				{
+					id: "516778615BD7218A"
+					item: "gtocore:undine_bucket"
+					type: "item"
+				}
+				{
+					id: "1464C474E6254630"
+					item: "gtocore:sylph_bucket"
+					type: "item"
+				}
+				{
+					id: "7107115AC16C7C6D"
+					item: "gtocore:gnome_bucket"
+					type: "item"
+				}
+				{
+					id: "3D930F0D793984F1"
+					type: "checkmark"
+				}
+			]
+			title: "{gto.magic1.quests.319615E73D617202.title}"
+			x: 11.0d
+			y: -3.5d
+		}
+		{
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "11635D6AA88ACE62"
+			tasks: [
+				{
+					id: "762AFC088D337770"
+					item: "ars_nouveau:manipulation_essence"
+					type: "item"
+				}
+				{
+					id: "6EEBBB4B14A7F153"
+					item: "ars_nouveau:abjuration_essence"
+					type: "item"
+				}
+				{
+					id: "442C4AED7BF2F2EF"
+					item: "ars_nouveau:conjuration_essence"
+					type: "item"
+				}
+				{
+					id: "2ABE840CF7EC14B5"
+					item: "ars_nouveau:earth_essence"
+					type: "item"
+				}
+				{
+					id: "139C6724764D7E3F"
+					item: "ars_nouveau:air_essence"
+					type: "item"
+				}
+				{
+					id: "26FC757BB836A0CC"
+					item: "ars_nouveau:fire_essence"
+					type: "item"
+				}
+				{
+					id: "5479C805D689F734"
+					item: "ars_nouveau:water_essence"
+					type: "item"
+				}
+			]
+			title: "{gto.magic1.quests.11635D6AA88ACE62.title}"
+			x: 18.0d
+			y: -1.5d
+		}
+		{
+			id: "5FB36C788008C907"
+			tasks: [{
+				id: "7D22F308FCEB0E7E"
+				item: "ars_nouveau:wilden_tribute"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 4.5d
+		}
+		{
+			id: "2633770BFCC25545"
+			tasks: [{
+				id: "672A7FB631D776F2"
+				item: {
+					Count: 1
+					id: "ars_nouveau:warp_scroll"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 18.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5FB36C788008C907"]
+			description: [""]
+			id: "4CD0D7F570CCE809"
+			tasks: [{
+				id: "08C244239FBF63CA"
+				item: "gtocore:wilden_essence_bucket"
+				type: "item"
+			}]
+			title: "{gto.magic1.quests.4CD0D7F570CCE809.title}"
+			x: 15.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["502826CBF91585C1"]
+			id: "3100458952FC0673"
+			subtitle: "{gto.magic1.quests.3100458952FC0673.subtitle}"
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "722C0D5868FD8D65"
+				type: "dimension"
+			}]
+			title: "{gto.magic1.quests.3100458952FC0673.title}"
+			x: 16.5d
+			y: -4.5d
+		}
+		{
+			description: [
+				"{gto.magic1.quests.502826CBF91585C1.description0}"
+				"{gto.magic1.quests.502826CBF91585C1.description1}"
+				"{gto.magic1.quests.502826CBF91585C1.description2}"
+				"{gto.magic1.quests.502826CBF91585C1.description3}"
+				"{gto.magic1.quests.502826CBF91585C1.description4}"
+				"{gto.magic1.quests.502826CBF91585C1.description5}"
+				"{gto.magic1.quests.502826CBF91585C1.description6}"
+				"{gto.magic1.quests.502826CBF91585C1.description7}"
+				"{gto.magic1.quests.502826CBF91585C1.description8}"
+				"{gto.magic1.quests.502826CBF91585C1.description9}"
+				"{gto.magic1.quests.502826CBF91585C1.description10}"
+				"{gto.magic1.quests.502826CBF91585C1.description11}"
+				"{gto.magic1.quests.502826CBF91585C1.description12}"
+				"{gto.magic1.quests.502826CBF91585C1.description13}"
+				"{gto.magic1.quests.502826CBF91585C1.description14}"
+				"{gto.magic1.quests.502826CBF91585C1.description15}"
+			]
+			id: "502826CBF91585C1"
+			min_width: 250
+			tasks: [{
+				id: "34780BF2AE9956AA"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "endrem:black_eye"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "endrem:cold_eye"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "endrem:corrupted_eye"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "endrem:lost_eye"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "endrem:nether_eye"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "endrem:old_eye"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "endrem:rogue_eye"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "endrem:cursed_eye"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "endrem:evil_eye"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "endrem:guardian_eye"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "endrem:magical_eye"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "endrem:wither_eye"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "endrem:witch_eye"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "endrem:undead_eye"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "endrem:exotic_eye"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "endrem:cryptic_eye"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "{gto.magic1.quests.502826CBF91585C1.title}"
+			x: 15.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3100458952FC0673"]
+			dependency_requirement: "one_completed"
+			description: [
+				"{gto.magic1.quests.6BE534E3FB9B483B.description0}"
+				"{gto.magic1.quests.6BE534E3FB9B483B.description1}"
+				"{gto.magic1.quests.6BE534E3FB9B483B.description2}"
+				""
+				"{gto.magic1.quests.6BE534E3FB9B483B.description3}"
+				"{gto.magic1.quests.6BE534E3FB9B483B.description4}"
+				"{gto.magic1.quests.6BE534E3FB9B483B.description5}"
+				"{gto.magic1.quests.6BE534E3FB9B483B.description6}"
+				"{gto.magic1.quests.6BE534E3FB9B483B.description7}"
+				"{gto.magic1.quests.6BE534E3FB9B483B.description8}"
+			]
+			id: "6BE534E3FB9B483B"
+			tasks: [{
+				id: "66A709404B820732"
+				item: "botania:ender_air_bottle"
+				type: "item"
+			}]
+			x: 18.0d
+			y: -4.5d
+		}
+		{
+			hide_dependency_lines: true
+			id: "14C8D6E04A79C267"
+			tasks: [{
+				id: "58A10D9A828E626F"
+				item: {
+					Count: 1
+					id: "gtocore:mana_steel_wing"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 19.5d
+			y: 5.5d
+		}
+		{
+			hide_dependency_lines: true
+			id: "283C477840ED12D5"
+			tasks: [{
+				id: "187A174D51EF7A2C"
+				item: {
+					Count: 1
+					id: "gtocore:prospector.mana_ulv"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 19.5d
+			y: -4.5d
+		}
+	]
+	subtitle: ["{gto.magic1.subtitle0}"]
+	title: "{gto.magic1.title}"
+}

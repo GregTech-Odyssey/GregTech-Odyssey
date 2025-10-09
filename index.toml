@@ -797,10 +797,6 @@ file = "config/ftbquests/quests/chapters/apotheosis.snbt"
 hash = "0494319a87979a6133f4c71bfbc4042c627b54444779b77a7ee0e9f412283f73"
 
 [[files]]
-file = "config/ftbquests/quests/chapters/arsbotania.snbt"
-hash = "8138e2e486bb59bdf3aac3de3c1fada831ffedbd27fde1db610a09fe58925cb8"
-
-[[files]]
 file = "config/ftbquests/quests/chapters/backpack.snbt"
 hash = "5814ecbbcb194f24a6c1a53896a566f10c56b34fc1856c02cbb0a69a5ba263f0"
 
@@ -851,6 +847,14 @@ hash = "27bcefb63d3418091680bb268eb1f62fc140f60e42c21bb99bd633aa0fd8d76c"
 [[files]]
 file = "config/ftbquests/quests/chapters/lv.snbt"
 hash = "15866228fb56897bf336beb1e07dae86b4dde1d4257c6d10e0b94881627a80cd"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/magic1.snbt"
+hash = "58bf9a305ca3803c3f7ddaccd6bbcf8adaa9f9afaef24a22112f4a4d45358f11"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/magic2.snbt"
+hash = "47c3558c8a2d7abe9db61aefe384c0370407975d8979d6980f26859e5a40cfb1"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/main-stoneage.snbt"
@@ -1338,7 +1342,7 @@ hash = "84254dc1e5a56ea70df6b16a2fb2620040592badae436c255997aaae84996d91"
 
 [[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/en_us.json"
-hash = "f857fb5346a2ecae6f38865e71bd8d9a0a4fa41d3aace5ef8a694d2fc0ac6ce5"
+hash = "4b00de815bffecc29e780e951ff204ccb5ba16114b712ef22c19ad23a189069e"
 
 [[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/ru_ru.json"
@@ -1346,11 +1350,11 @@ hash = "49f1dea938171f1d5948d122d89a5c58073b3177574cf30aa6db7e96a9bd68c1"
 
 [[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/zh_cn.json"
-hash = "4402470c682f574bd9659eedf1470ca3ab9a8424b9cc7e7f883fb967c037c170"
+hash = "dc5aeb8142ce33bbf6eebcffad867d026608bd772d0811430dd628800146c2b3"
 
 [[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/zh_tw.json"
-hash = "f6d10b9c5e6eb9cc0b155898d7c23debf679ad96fd325e30a1c8b41e1dd02d16"
+hash = "b269b40d4e75af04d79ce1b7384c2d4860935c55564caae29d332d8bb69292f6"
 
 [[files]]
 file = "config/openloader/resources/quests/pack.mcmeta"
