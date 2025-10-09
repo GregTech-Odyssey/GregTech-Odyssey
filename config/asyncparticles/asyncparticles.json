@@ -3,6 +3,8 @@
   "particle": {
     "particleLimit": 16384,
     "removeIfMissedTick": true,
+    "parallelQueueRemoval": true,
+    "parallelQueueEviction": true,
     "particleLightCache": true,
     "cullUnderwaterParticleType": true
   },
@@ -16,6 +18,8 @@
   },
   "rendering": {
     "particleRenderingMode": "DELAYED",
+    "gpuAcceleration": true,
+    "appendNewParticlesToRenderer": true,
     "particleCulling": "AABB",
     "cullWeathers": true,
     "failPerSecLimit": 20,

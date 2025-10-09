@@ -1,4 +1,5 @@
 {
   "entityBackFaceCulling": true,
-  "itemBackFaceCulling": true
+  "itemBackFaceCulling": true,
+  "reduceTerrainParticles": true
 }
