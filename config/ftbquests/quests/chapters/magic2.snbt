@@ -5,10 +5,18 @@
 	group: "48D03BA483B3FA87"
 	icon: "botania:dice"
 	id: "33F2D5FBE1761AA9"
-	order_index: 1
-	quest_links: [ ]
+	order_index: 2
+	quest_links: [{
+		id: "17557E8E51653B12"
+		linked_quest: "0B61448F01656C1D"
+		shape: "gear"
+		size: 2.5d
+		x: -2.0d
+		y: 4.5d
+	}]
 	quests: [
 		{
+			dependencies: ["0631F054A9B97A40"]
 			description: [
 				"通过在&2&a魔力发射器&f&r前端加装&9&a魔力透镜&f&r实现升级,基础透镜暂无特殊效果."
 				""
@@ -16,12 +24,12 @@
 				""
 				"结合符文与特定物品可制作进阶透镜,用&a&a粘液球&f&r融合两枚透镜可制成&9复合透镜&r,叠加强化效果."
 			]
-			id: "1E131B8454ACEE3C"
+			id: "6FBE0BF8A7ADBB26"
 			min_width: 300
 			shape: "rsquare"
 			size: 1.5d
 			tasks: [{
-				id: "062F3350ECCCD159"
+				id: "3E76CBAA617FAA35"
 				item: "botania:lens_normal"
 				type: "item"
 			}]
@@ -30,10 +38,11 @@
 			y: 8.0d
 		}
 		{
+			dependencies: ["3A20210242A1C865"]
 			description: ["与&a炼金催化器&f类似,&9&a炼造催化器&f&r置于&a魔力池&f下方时,可解锁循环转化配方."]
-			id: "1B06142ECC3B9D21"
+			id: "1DCFC67A8E3DCA2C"
 			tasks: [{
-				id: "04840D194A97A407"
+				id: "258C1DEBF18D2EBA"
 				item: "botania:conjuration_catalyst"
 				type: "item"
 			}]
@@ -41,10 +50,11 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["6A56574BC562B227"]
 			description: ["用泰拉钢锭强化&a光环之戒&f可大幅提升该戒指的魔力生成速率."]
-			id: "7AB2F7B5131107D7"
+			id: "70C25BFA6FFA1799"
 			tasks: [{
-				id: "658F62C69BDEE0FE"
+				id: "34385B9406728C43"
 				item: "botania:aura_ring_greater"
 				type: "item"
 			}]
@@ -52,11 +62,12 @@
 			y: 7.0d
 		}
 		{
+			dependencies: ["0631F054A9B97A40"]
 			description: ["装备时,&9&a光环之戒&f&r会持续缓慢生成魔力,并将魔力注入背包内的储魔物品中."]
 			hide_dependency_lines: false
-			id: "610A584DB51EECE7"
+			id: "6A56574BC562B227"
 			tasks: [{
-				id: "65E3D40D20A8BB75"
+				id: "04EDE2305855A16B"
 				item: "botania:aura_ring"
 				type: "item"
 			}]
@@ -64,86 +75,87 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["0B61448F01656C1D"]
 			description: [""]
-			id: "23624718C8D21302"
+			id: "0631F054A9B97A40"
 			tasks: [
 				{
-					id: "72CF656A7494363C"
+					id: "092B378CBB52B5D0"
 					item: "botania:rune_water"
 					type: "item"
 				}
 				{
-					id: "46E7A39E060CA814"
+					id: "5D81AD0C26653541"
 					item: "botania:rune_fire"
 					type: "item"
 				}
 				{
-					id: "60489FDE1C824FDE"
+					id: "3F357ABBFD763223"
 					item: "botania:rune_earth"
 					type: "item"
 				}
 				{
-					id: "1AA07446DFC8C639"
+					id: "6E0756E99C87BD19"
 					item: "botania:rune_air"
 					type: "item"
 				}
 				{
-					id: "5CB70BC3974AE846"
+					id: "66A5FAEABA280CD6"
 					item: "botania:rune_spring"
 					type: "item"
 				}
 				{
-					id: "7B8115902CB7D7EB"
+					id: "3A2F3C2F5CA04232"
 					item: "botania:rune_summer"
 					type: "item"
 				}
 				{
-					id: "0E70F15649F9367F"
+					id: "3B6712E4C3BFB3D3"
 					item: "botania:rune_autumn"
 					type: "item"
 				}
 				{
-					id: "436E139B31429859"
+					id: "23362DB558BC91E0"
 					item: "botania:rune_winter"
 					type: "item"
 				}
 				{
-					id: "6CE747F4466D141F"
+					id: "6F08868B55059660"
 					item: "botania:rune_mana"
 					type: "item"
 				}
 				{
-					id: "7A0D6A6B4917EF3E"
+					id: "66FB193A333DCBE2"
 					item: "botania:rune_lust"
 					type: "item"
 				}
 				{
-					id: "04DAD47B26EF4C77"
+					id: "0742292BFA49B9F3"
 					item: "botania:rune_gluttony"
 					type: "item"
 				}
 				{
-					id: "4AAD59B498C8AF78"
+					id: "33A92D1BDC4A31F0"
 					item: "botania:rune_greed"
 					type: "item"
 				}
 				{
-					id: "44C961BC006EC54C"
+					id: "5BFCA455413BCD37"
 					item: "botania:rune_sloth"
 					type: "item"
 				}
 				{
-					id: "7AF37B43BD83FE45"
+					id: "1CCC758F2EDED95E"
 					item: "botania:rune_wrath"
 					type: "item"
 				}
 				{
-					id: "35D0183E0FF5E49F"
+					id: "7DF8392595BFF7F7"
 					item: "botania:rune_envy"
 					type: "item"
 				}
 				{
-					id: "654DC30FA7D03473"
+					id: "74F257173C01B9F4"
 					item: "botania:rune_pride"
 					type: "item"
 				}
@@ -153,11 +165,12 @@
 			y: 4.5d
 		}
 		{
+			dependencies: ["0631F054A9B97A40"]
 			description: ["在&a植物酿造&f台中使用药瓶、魔力和试剂,可酿造出与药水功效相似的&9魔法药酿&r."]
-			id: "6C7ECECEDD0CCCB6"
+			id: "30F7B68093D76590"
 			optional: true
 			tasks: [{
-				id: "33E11128DCEA860C"
+				id: "4E9712523E4B94E8"
 				item: "botania:brewery"
 				type: "item"
 			}]
@@ -165,11 +178,12 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["30F7B68093D76590"]
 			description: ["&2熏香&f可在&a植物酿造&f台中灌注药酿.将其置于&9香盘&f上用打火石点燃,能以香盘为中心30格半径范围释放药效,持续时间比液态药酿延长六十倍."]
-			id: "5AF37C97880DFB5C"
+			id: "0D9354ABA2AE2A11"
 			optional: true
 			tasks: [{
-				id: "7A8BE62FC4014471"
+				id: "0B549F7000B06C0D"
 				item: "botania:incense_stick"
 				type: "item"
 			}]
@@ -177,12 +191,13 @@
 			y: 7.0d
 		}
 		{
+			dependencies: ["263A1421C0F789E9"]
 			description: ["以棋盘格形式摆放5块活石与4块青金石，将凝聚板置于中央活石上即可完成构建"]
-			id: "0BDB51D436DBA45E"
+			id: "65238A6DCDDDFA0D"
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
-				id: "66B7D9AB6D49F1A2"
+				id: "76F8BB9B8C181006"
 				item: "botania:terra_plate"
 				type: "item"
 			}]
@@ -190,22 +205,26 @@
 			y: 1.5d
 		}
 		{
+			dependencies: [
+				"65238A6DCDDDFA0D"
+				"2A5BA479E707034B"
+			]
 			description: [
 				"泰拉钢合成需海量魔力，须使用&9火花&r系统。在&a魔力池&f上方布置若干火花，再于凝聚板上方安置火花引导魔力"
 				""
 				"平台就绪后，向凝聚板投入输入物品即可开始合成"
 			]
-			id: "09EABD6CD7A147CB"
+			id: "23A2865FBE7831AB"
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
 				{
-					id: "5D80B037496132E0"
+					id: "1DFC017C335D814E"
 					item: "botania:terrasteel_ingot"
 					type: "item"
 				}
 				{
-					id: "411FB8EE72CA6742"
+					id: "624CD24B66A59541"
 					item: "gtocore:thaumium_ingot"
 					type: "item"
 				}
@@ -215,6 +234,7 @@
 			y: 1.5d
 		}
 		{
+			dependencies: ["3A20210242A1C865"]
 			description: [
 				"借助精灵材料,可使用&d增强核心&r升级火花.手持增强核心&a右键点击&f火花即可升级.潜行状态下&a右键点击&f火花可&a清除&f增强效果."
 				""
@@ -226,10 +246,10 @@
 				""
 				"隔绝增强:阻止该火花与支配/隐性增强型火花交互."
 			]
-			id: "6035993C2156E209"
+			id: "5CB5F4CD521F6361"
 			min_width: 300
 			tasks: [{
-				id: "3DAD93DDB0ED12ED"
+				id: "28B797392467C851"
 				item: {
 					Count: 1
 					id: "itemfilters:or"
@@ -262,6 +282,7 @@
 			y: 5.5d
 		}
 		{
+			dependencies: ["1EF7664F5D8C5FF1"]
 			description: [
 				"虽然无法进入&d精灵传送门&r，但可通过向门内投掷特定物品进行&2精灵交易&f，每次交易均会消耗魔力!"
 				""
@@ -271,14 +292,14 @@
 			]
 			hide_dependent_lines: true
 			icon: "botania:dragonstone"
-			id: "06D1B9D7775708BF"
+			id: "3A20210242A1C865"
 			min_width: 300
 			shape: "hexagon"
 			size: 1.5d
 			subtitle: "不要向里面投喂面包！"
 			tasks: [
 				{
-					id: "121097238F5A5B2A"
+					id: "1C5B04215DB7C8AB"
 					item: {
 						Count: 1
 						id: "botania:lexicon"
@@ -286,30 +307,31 @@
 							"botania:elven_unlock": 1b
 						}
 					}
+					match_nbt: true
 					type: "item"
 				}
 				{
-					id: "7A32ECB9DD03F711"
+					id: "62D636C5CC79FAA8"
 					item: "botania:elementium_ingot"
 					type: "item"
 				}
 				{
-					id: "4284D1CD0EA64937"
+					id: "439CB6E1FDD75965"
 					item: "botania:dragonstone"
 					type: "item"
 				}
 				{
-					id: "28AE6292EC79E457"
+					id: "6386CA1BD51B2387"
 					item: "botania:pixie_dust"
 					type: "item"
 				}
 				{
-					id: "49548FD79AA5BC3E"
+					id: "0E54AD8EDB47A974"
 					item: "botania:dreamwood"
 					type: "item"
 				}
 				{
-					id: "52234EFCF61E645A"
+					id: "5B1C656A32465065"
 					item: "botania:elf_glass"
 					type: "item"
 				}
@@ -319,30 +341,31 @@
 			y: 4.5d
 		}
 		{
-			id: "711CC99EC2C90AEF"
+			dependencies: ["23A2865FBE7831AB"]
+			id: "1EF7664F5D8C5FF1"
 			shape: "hexagon"
 			size: 2.0d
 			tasks: [
 				{
-					id: "399EA44FDD9AFB44"
+					id: "420577A05AAC9A18"
 					item: "botania:alfheim_portal"
 					type: "item"
 				}
 				{
 					count: 2L
-					id: "09C3EC91DB698629"
+					id: "184D19EC756FBCD8"
 					item: "botania:natura_pylon"
 					type: "item"
 				}
 				{
 					count: 3L
-					id: "20DC532A55CBCFA6"
+					id: "763D84A4488A3008"
 					item: "botania:glimmering_livingwood_log"
 					type: "item"
 				}
 				{
 					count: 8L
-					id: "662BAD7990BF76A8"
+					id: "08AECABD8E75A495"
 					item: "botania:livingwood"
 					type: "item"
 				}
@@ -352,24 +375,29 @@
 			y: 4.5d
 		}
 		{
+			dependencies: [
+				"36D491B80FE833C0"
+				"691AEAE419D00D54"
+				"23E23A4B739F6FFC"
+			]
 			description: [
 				"要继续旅程,你需要获取&6&a盖亚魂&f&r.为此需进行&9&a盖亚魔法仪式&f&r."
 				""
 				"需在&a激活的信标&r四周放置4枚&a盖亚水晶&f,并准备一块泰拉钢锭.结构建成后,持泰拉钢锭在潜行状态下&a右击&f信标,准备迎接生死之战."
 			]
-			id: "1228FA812CD850CE"
+			id: "04CE14D92603FC7A"
 			min_width: 300
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [
 				{
 					count: 4L
-					id: "7376B32B20FE471A"
+					id: "21810A64B844C70E"
 					item: "botania:gaia_pylon"
 					type: "item"
 				}
 				{
-					id: "3983A364577DB1E7"
+					id: "157BF2FA7A40BE0D"
 					item: "minecraft:beacon"
 					type: "item"
 				}
@@ -379,25 +407,26 @@
 			y: 1.5d
 		}
 		{
+			dependencies: ["04CE14D92603FC7A"]
 			description: [
 				"击败&9&a盖亚守护者&f&r后，你将获得&e&a盖亚魂&f&r作为战利品"
 				""
 				"游戏难度与参与仪式的人数将共同影响战利品的数量"
 			]
 			icon: "botania:gaia_head"
-			id: "1A4C8295ECD30424"
+			id: "0331107259F7B68C"
 			shape: "hexagon"
 			size: 2.0d
 			tasks: [
 				{
-					id: "3DFB39964D0A1518"
+					id: "3C21A030F242C7A2"
 					item: "botania:life_essence"
 					type: "item"
 				}
 				{
 					entity: "botania:doppleganger"
 					icon: "botania:gaia_head"
-					id: "003FE99EE3F11639"
+					id: "615316948CD5BB35"
 					type: "kill"
 					value: 1L
 				}
@@ -407,18 +436,19 @@
 			y: 1.5d
 		}
 		{
+			dependencies: ["0331107259F7B68C"]
 			description: [
 				"将4个&a盖亚魂&f与泰拉钢锭结合，用于激活盖亚的魔法仪式吧 :)"
 				""
 				"盖亚2.0将比1.0难度更高，但也会带来更加丰富的奖励"
 			]
 			hide_until_deps_visible: false
-			id: "61B522A432BC46B2"
+			id: "27CD17C4B3613171"
 			shape: "gear"
 			size: 2.5d
 			subtitle: "你需要更多&e&a盖亚魂&f&r！！"
 			tasks: [{
-				id: "25E326FEB127501D"
+				id: "3DE2A054C6F00FBE"
 				item: "botania:gaia_ingot"
 				type: "item"
 			}]
@@ -427,14 +457,15 @@
 			y: 4.5d
 		}
 		{
+			dependencies: ["27CD17C4B3613171"]
 			description: ["使用盖亚锭召唤强化版&5&a盖亚守护者&f&r可获取更多&e&a盖亚魂&f&r，同时还有概率掉落&e&a命运骰子&f&r"]
 			hide_dependent_lines: true
 			icon_scale: 2.0d
-			id: "031ECD85DBB1AD89"
+			id: "50A2D68A83A50F47"
 			shape: "none"
 			size: 1.5d
 			tasks: [{
-				id: "5946C8EAC7930F34"
+				id: "5348CBD95103744A"
 				item: "botania:dice"
 				type: "item"
 			}]
@@ -443,6 +474,7 @@
 			y: 7.0d
 		}
 		{
+			dependencies: ["634E71DBAE81D197"]
 			description: [
 				"&9&a多媒体漏斗&f&r是物品索引系统的简化版,可通过红石信号向网络请求物品."
 				""
@@ -450,9 +482,9 @@
 				""
 				"更多详细信息请查阅&a&a辞典&f &d植物魔法&f&r."
 			]
-			id: "78B01A19109638AE"
+			id: "4ECFB1256BD6A7AA"
 			tasks: [{
-				id: "4BB5997D2260CF5C"
+				id: "27FBB10E434FBD29"
 				item: "botania:corporea_funnel"
 				type: "item"
 			}]
@@ -460,6 +492,7 @@
 			y: 7.0d
 		}
 		{
+			dependencies: ["3A20210242A1C865"]
 			description: [
 				"通过&d植物魔法&f,您可使用&9&a多媒体火花&f&r在容器上方构建&d多媒体网络&r."
 				""
@@ -467,16 +500,16 @@
 				""
 				"火花仅能识别其正下方容器的物品,且仅能通过顶部存取.所有网络内物品均可被漏斗、索引等多媒体组件访问."
 			]
-			id: "0669A2D1B5789566"
+			id: "634E71DBAE81D197"
 			min_width: 300
 			tasks: [
 				{
-					id: "35091ECFFFF21E4B"
+					id: "5F0667A0930319F8"
 					item: "botania:corporea_spark"
 					type: "item"
 				}
 				{
-					id: "3D819E1952D72A7A"
+					id: "3844BA7E922E8B45"
 					item: "botania:corporea_spark_master"
 					type: "item"
 				}
@@ -486,6 +519,7 @@
 			y: 6.5d
 		}
 		{
+			dependencies: ["634E71DBAE81D197"]
 			description: [
 				"&5&a多媒体索引&f&r是访问&9多媒体网络&r的交互界面,可调用其上&a多媒体火花&f构建的网络资源."
 				""
@@ -493,11 +527,11 @@
 				""
 				"更多操作指南请查阅&a&a辞典&f &d植物魔法&f&r."
 			]
-			id: "36B0D516F3AB4433"
+			id: "7DF7F9CD9A795E69"
 			shape: "pentagon"
 			size: 1.5d
 			tasks: [{
-				id: "350CC2CBE83D5659"
+				id: "3611F94A69522BA9"
 				item: "botania:corporea_index"
 				type: "item"
 			}]
@@ -505,11 +539,12 @@
 			y: 7.75d
 		}
 		{
+			dependencies: ["634E71DBAE81D197"]
 			description: ["&9&a多媒体水晶魔方&f&r用于显示上方火花所属网络中指定物品的总量,使用方式为手持该物品&a右击&f魔方."]
-			id: "56D5D31F07A51A1C"
+			id: "7440E522FC31C341"
 			optional: true
 			tasks: [{
-				id: "53FB337CCF4BC7FA"
+				id: "1550070280A21DC5"
 				item: "botania:corporea_crystal_cube"
 				type: "item"
 			}]
@@ -517,13 +552,14 @@
 			y: 7.0d
 		}
 		{
+			dependencies: ["50A2D68A83A50F47"]
 			hide_until_deps_visible: false
 			icon_scale: 2.0d
-			id: "6E1D9C8D4A096402"
+			id: "4E7B1FF823C85AD6"
 			optional: true
 			shape: "none"
 			tasks: [{
-				id: "44C56B78A7A2AD19"
+				id: "05993154671C0697"
 				item: "botania:thor_ring"
 				type: "item"
 			}]
@@ -531,13 +567,14 @@
 			y: 8.5d
 		}
 		{
+			dependencies: ["50A2D68A83A50F47"]
 			hide_until_deps_visible: false
 			icon_scale: 2.0d
-			id: "4EBE52133704F448"
+			id: "0C56CB7815A1355C"
 			optional: true
 			shape: "none"
 			tasks: [{
-				id: "69D4457313D1F037"
+				id: "078E142753C8FA7B"
 				item: {
 					Count: 1
 					id: "botania:odin_ring"
@@ -556,13 +593,14 @@
 			y: 8.5d
 		}
 		{
+			dependencies: ["50A2D68A83A50F47"]
 			hide_until_deps_visible: false
 			icon_scale: 2.0d
-			id: "7BACCA23F31C534C"
+			id: "1EE1EF4695A39876"
 			optional: true
 			shape: "none"
 			tasks: [{
-				id: "11443CE4E45C88FA"
+				id: "46081AC3349324C9"
 				item: "botania:loki_ring"
 				type: "item"
 			}]
@@ -570,13 +608,14 @@
 			y: 8.5d
 		}
 		{
+			dependencies: ["50A2D68A83A50F47"]
 			hide_until_deps_visible: false
 			icon_scale: 2.0d
-			id: "3198613DC4AD8871"
+			id: "6AFC5FE71A80913E"
 			optional: true
 			shape: "none"
 			tasks: [{
-				id: "554C4A3250F89C58"
+				id: "408C9E36F8C27D8C"
 				item: "botania:infinite_fruit"
 				type: "item"
 			}]
@@ -584,13 +623,14 @@
 			y: 9.5d
 		}
 		{
+			dependencies: ["50A2D68A83A50F47"]
 			hide_until_deps_visible: false
 			icon_scale: 2.0d
-			id: "4849EA43A57395BF"
+			id: "780B0A790C6AF9DB"
 			optional: true
 			shape: "none"
 			tasks: [{
-				id: "0F6D5CAD86C1D9A4"
+				id: "371A7D51171C67D4"
 				item: "botania:king_key"
 				type: "item"
 			}]
@@ -598,13 +638,14 @@
 			y: 9.5d
 		}
 		{
+			dependencies: ["50A2D68A83A50F47"]
 			hide_until_deps_visible: false
 			icon_scale: 2.0d
-			id: "3611223BA53EB41D"
+			id: "16DE70DE2463A5DD"
 			optional: true
 			shape: "none"
 			tasks: [{
-				id: "38AAE07B60E6CA6A"
+				id: "337F2A21222F5FFC"
 				item: "botania:flugel_eye"
 				type: "item"
 			}]
@@ -612,12 +653,13 @@
 			y: 9.5d
 		}
 		{
+			dependencies: ["6FBE0BF8A7ADBB26"]
 			description: ["以降低初始容量和加速魔力损耗为代价,大幅提升&a魔力脉冲&f的移动速度."]
-			id: "29907B22D82EEC2C"
+			id: "2D1533268C835672"
 			shape: "hexagon"
 			size: 0.5d
 			tasks: [{
-				id: "01E864A0765F6C6A"
+				id: "4447633E574741FD"
 				item: "botania:lens_speed"
 				type: "item"
 			}]
@@ -625,12 +667,13 @@
 			y: 7.75d
 		}
 		{
+			dependencies: ["6FBE0BF8A7ADBB26"]
 			description: ["使&a魔力脉冲&f的魔力承载量翻倍,但会降低传输速度并增加长距离传输时的魔力损耗."]
-			id: "37D281B5AEBAE8EB"
+			id: "7A82D66B1B138F0F"
 			shape: "hexagon"
 			size: 0.5d
 			tasks: [{
-				id: "3FF55CE7521CD06A"
+				id: "1F0DDF8D08AA2D09"
 				item: "botania:lens_power"
 				type: "item"
 			}]
@@ -638,12 +681,13 @@
 			y: 8.5d
 		}
 		{
+			dependencies: ["6FBE0BF8A7ADBB26"]
 			description: ["显著延长&a魔力脉冲&f开始损耗前的持续时间,但同时会降低脉冲移动速度."]
-			id: "7212FAC0CD5FEB05"
+			id: "4CED346215DDBAC0"
 			shape: "hexagon"
 			size: 0.5d
 			tasks: [{
-				id: "2C4A647E54B8F16B"
+				id: "58A4565F18420732"
 				item: "botania:lens_time"
 				type: "item"
 			}]
@@ -651,12 +695,13 @@
 			y: 7.75d
 		}
 		{
+			dependencies: ["6FBE0BF8A7ADBB26"]
 			description: ["缩短&a魔力脉冲&f开始损耗魔力的启动时间,但同时会减缓损耗速率."]
-			id: "70DB78463862A77F"
+			id: "5A7FF6D0AED656DC"
 			shape: "hexagon"
 			size: 0.5d
 			tasks: [{
-				id: "5364501E7AA19F37"
+				id: "5FBA2E1E91367CB5"
 				item: "botania:lens_efficiency"
 				type: "item"
 			}]
@@ -664,12 +709,13 @@
 			y: 8.5d
 		}
 		{
+			dependencies: ["6FBE0BF8A7ADBB26"]
 			description: ["允许&a魔力脉冲&f在接触方块表面时产生反弹效果."]
-			id: "4B75057D73BAE219"
+			id: "504ADBD7E2476827"
 			shape: "hexagon"
 			size: 0.5d
 			tasks: [{
-				id: "1EEC390F0391E0E4"
+				id: "46729DA26469F064"
 				item: "botania:lens_bounce"
 				type: "item"
 			}]
@@ -677,13 +723,14 @@
 			y: 9.0d
 		}
 		{
+			dependencies: ["6FBE0BF8A7ADBB26"]
 			description: ["使重力影响&a魔力脉冲&f运动轨迹形成抛物线,同时略微延长脉冲开始损耗前的持续时间."]
 			hide_dependency_lines: true
-			id: "7E17C3F4DF9FC934"
+			id: "665B4A8FF5277316"
 			optional: true
 			size: 0.5d
 			tasks: [{
-				id: "15EC7D50ADC808C1"
+				id: "5698F1ECAA82616E"
 				item: "botania:lens_gravity"
 				type: "item"
 			}]
@@ -691,13 +738,14 @@
 			y: 10.0d
 		}
 		{
+			dependencies: ["6FBE0BF8A7ADBB26"]
 			description: ["允许&a魔力脉冲&f消耗自身魔力击穿障碍方块."]
 			hide_dependency_lines: true
-			id: "6A9D1D119009FFF8"
+			id: "3722E5A8BE99C5B1"
 			optional: true
 			size: 0.5d
 			tasks: [{
-				id: "2C2912BA96A9298F"
+				id: "671D9D2E3EDF31D9"
 				item: "botania:lens_mine"
 				type: "item"
 			}]
@@ -705,13 +753,14 @@
 			y: 9.5d
 		}
 		{
+			dependencies: ["6FBE0BF8A7ADBB26"]
 			description: ["允许&a魔力脉冲&f消耗自身魔力对击中的生物造成伤害."]
 			hide_dependency_lines: true
-			id: "3CC5C1EFF2390F39"
+			id: "533624CA5C2A7BBD"
 			optional: true
 			size: 0.5d
 			tasks: [{
-				id: "7A76CB03C8A44E93"
+				id: "6BF8FAA764F765F1"
 				item: "botania:lens_damage"
 				type: "item"
 			}]
@@ -719,13 +768,14 @@
 			y: 9.25d
 		}
 		{
+			dependencies: ["6FBE0BF8A7ADBB26"]
 			description: ["使&a魔力脉冲&f具备穿透方块的能力,但会缩短脉冲存活时间."]
 			hide_dependency_lines: true
-			id: "16EE62AC03E83A13"
+			id: "5EF08646D8F4C432"
 			optional: true
 			size: 0.5d
 			tasks: [{
-				id: "56B49F84579C4FE7"
+				id: "7EF55A6F1C4D84A7"
 				item: "botania:lens_phantom"
 				type: "item"
 			}]
@@ -733,13 +783,14 @@
 			y: 9.0d
 		}
 		{
+			dependencies: ["6FBE0BF8A7ADBB26"]
 			description: ["使&a魔力脉冲&f自动追踪附近可接收魔力的方块,同时略微降低脉冲移动速度."]
 			hide_dependency_lines: true
-			id: "4BEE9DB85D133EB0"
+			id: "79A19D0B2F94EFDC"
 			optional: true
 			size: 0.5d
 			tasks: [{
-				id: "5255DDC36D8873DB"
+				id: "6F5CDA3C118F1D62"
 				item: "botania:lens_magnet"
 				type: "item"
 			}]
@@ -747,13 +798,14 @@
 			y: 9.5d
 		}
 		{
+			dependencies: ["6FBE0BF8A7ADBB26"]
 			description: ["为&a魔力脉冲&f注入熵能——简而言之,当击中无法接收魔力的物体时会引发爆炸."]
 			hide_dependency_lines: true
-			id: "248099E7BF468385"
+			id: "7AD4D212633DAEC8"
 			optional: true
 			size: 0.5d
 			tasks: [{
-				id: "35E588F0904745F5"
+				id: "0A25BA85F56FB561"
 				item: "botania:lens_explosive"
 				type: "item"
 			}]
@@ -761,13 +813,14 @@
 			y: 9.25d
 		}
 		{
+			dependencies: ["6FBE0BF8A7ADBB26"]
 			description: ["使&a魔力脉冲&f影响范围内的掉落物、经验球和下坠方块,使其运动轨迹与脉冲保持完全同步."]
 			hide_dependency_lines: true
-			id: "450958E0B8AD2166"
+			id: "5732936F1FD1D4AE"
 			optional: true
 			size: 0.5d
 			tasks: [{
-				id: "1F95E662670254B4"
+				id: "3686E63D875EBFB8"
 				item: "botania:lens_influence"
 				type: "item"
 			}]
@@ -775,13 +828,14 @@
 			y: 9.0d
 		}
 		{
+			dependencies: ["6FBE0BF8A7ADBB26"]
 			description: ["当该透镜的&a魔力脉冲&f击中方块时,会使该方块像沙砾般下坠."]
 			hide_dependency_lines: true
-			id: "77EC50AB8EFD810C"
+			id: "3CD45533D0BDF26D"
 			optional: true
 			size: 0.5d
 			tasks: [{
-				id: "435E738F25B87C30"
+				id: "1732E57F7595BB7E"
 				item: "botania:lens_weight"
 				type: "item"
 			}]
@@ -789,18 +843,22 @@
 			y: 9.75d
 		}
 		{
+			dependencies: [
+				"6FBE0BF8A7ADBB26"
+				"3A20210242A1C865"
+			]
 			description: [
 				"需先进行染色处理."
 				""
 				"允许&a魔力脉冲&f为击中的可染色方块(包括连接的方块)及绵羊进行染色."
 			]
 			hide_dependency_lines: true
-			id: "4220C777D6418AE3"
+			id: "68DC8A2B4BEF9878"
 			optional: true
 			shape: "pentagon"
 			size: 0.5d
 			tasks: [{
-				id: "636B0A81FA7834B0"
+				id: "1C3B5F68898949A4"
 				item: "botania:lens_paint"
 				type: "item"
 			}]
@@ -808,14 +866,18 @@
 			y: 10.25d
 		}
 		{
+			dependencies: [
+				"6FBE0BF8A7ADBB26"
+				"3A20210242A1C865"
+			]
 			description: ["使&a魔力脉冲&f在击中方块时发射节日烟花."]
 			hide_dependency_lines: true
-			id: "23174A3936F8C0D8"
+			id: "478352E24CE1F45F"
 			optional: true
 			shape: "pentagon"
 			size: 0.5d
 			tasks: [{
-				id: "4B8C958F412336C1"
+				id: "2F04E0FD92572BE8"
 				item: "botania:lens_firework"
 				type: "item"
 			}]
@@ -823,14 +885,18 @@
 			y: 10.5d
 		}
 		{
+			dependencies: [
+				"6FBE0BF8A7ADBB26"
+				"3A20210242A1C865"
+			]
 			description: ["该组件可将&a魔力发射器&f的脉冲模式转换为仅发射连续粒子流,而非短促脉冲.不消耗魔力.非常适合装饰用途."]
 			hide_dependency_lines: true
-			id: "4A6AB17D98E02F1F"
+			id: "7B95C7407A1F5550"
 			optional: true
 			shape: "pentagon"
 			size: 0.5d
 			tasks: [{
-				id: "4D9CD8BC8E18495B"
+				id: "6D405361F834914E"
 				item: "botania:lens_flare"
 				type: "item"
 			}]
@@ -838,14 +904,18 @@
 			y: 10.25d
 		}
 		{
+			dependencies: [
+				"6FBE0BF8A7ADBB26"
+				"3A20210242A1C865"
+			]
 			description: ["在魔力扩散器上使用此组件时,仅当&a魔力脉冲&f能命中生物或玩家时才会发射."]
 			hide_dependency_lines: true
-			id: "1DDB8A9CA4D64B33"
+			id: "0E7E559F2750F7D3"
 			optional: true
 			shape: "pentagon"
 			size: 0.5d
 			tasks: [{
-				id: "1DA8970080BA51BB"
+				id: "3B9B92618158074B"
 				item: "botania:lens_tripwire"
 				type: "item"
 			}]
@@ -853,13 +923,14 @@
 			y: 10.0d
 		}
 		{
+			dependencies: ["6FBE0BF8A7ADBB26"]
 			description: ["大幅减少&a魔力脉冲&f携带的魔力总量,同时极大提升脉冲速度和射程."]
 			hide_dependency_lines: true
-			id: "41D4F61251D1A56D"
+			id: "182EBB06B81BDF98"
 			optional: true
 			size: 0.5d
 			tasks: [{
-				id: "741284F3161A550E"
+				id: "4C80AD2C05E0CE73"
 				item: "botania:lens_messenger"
 				type: "item"
 			}]
@@ -867,14 +938,18 @@
 			y: 9.75d
 		}
 		{
+			dependencies: [
+				"6FBE0BF8A7ADBB26"
+				"3A20210242A1C865"
+			]
 			description: ["该棱镜会重定向任何与其碰撞的&a魔力发射器&f或实体,使其朝向发射脉冲的方块或实体."]
 			hide_dependency_lines: true
-			id: "63CF32BAC1E923DB"
+			id: "03C475ABEFF04DEF"
 			optional: true
 			shape: "pentagon"
 			size: 0.5d
 			tasks: [{
-				id: "56C1CC48D6F524D1"
+				id: "28089D55C29C8A5D"
 				item: "botania:lens_redirect"
 				type: "item"
 			}]
@@ -882,13 +957,14 @@
 			y: 10.5d
 		}
 		{
+			dependencies: ["6FBE0BF8A7ADBB26"]
 			description: ["使&a魔力脉冲&f在命中方块时生成装饰性火焰.此火焰仅提供光照效果,可被其他&a魔力脉冲&f扑灭."]
 			hide_dependency_lines: true
-			id: "16EBDBF79E507D46"
+			id: "0C557A9494F58400"
 			optional: true
 			size: 0.5d
 			tasks: [{
-				id: "1646AB15FF8BE7F4"
+				id: "229487A1B2657BF0"
 				item: "botania:lens_light"
 				type: "item"
 			}]
@@ -896,13 +972,14 @@
 			y: 9.5d
 		}
 		{
+			dependencies: ["6FBE0BF8A7ADBB26"]
 			description: ["允许&a魔力脉冲&f如同活塞般推动方块."]
 			hide_dependency_lines: true
-			id: "7F49500E8D703F7D"
+			id: "14EB725643E9F8FE"
 			optional: true
 			size: 0.5d
 			tasks: [{
-				id: "7E8201EAA6ECB5C5"
+				id: "24EBCD71A8C65AAE"
 				item: "botania:lens_piston"
 				type: "item"
 			}]
@@ -910,13 +987,14 @@
 			y: 9.5d
 		}
 		{
+			dependencies: ["6FBE0BF8A7ADBB26"]
 			description: ["使&a魔力脉冲&f能够点燃方块,但对生物无效."]
 			hide_dependency_lines: true
-			id: "35DE31EDC699EA3C"
+			id: "12BEB76EB924379C"
 			optional: true
 			size: 0.5d
 			tasks: [{
-				id: "6C04673F8C49FA93"
+				id: "55AD493BAD9D6E10"
 				item: "botania:lens_fire"
 				type: "item"
 			}]
@@ -924,14 +1002,18 @@
 			y: 10.0d
 		}
 		{
+			dependencies: [
+				"6FBE0BF8A7ADBB26"
+				"3A20210242A1C865"
+			]
 			description: ["请查阅&a&a辞典&f &d植物魔法&f&r了解此棱镜的用法."]
 			hide_dependency_lines: true
-			id: "21730C188BB116C7"
+			id: "4CC46A4E71320140"
 			optional: true
 			shape: "pentagon"
 			size: 0.5d
 			tasks: [{
-				id: "6F84DAB6B8491734"
+				id: "58FACC24E092C8EB"
 				item: "botania:lens_warp"
 				type: "item"
 			}]
@@ -939,15 +1021,16 @@
 			y: 10.0d
 		}
 		{
+			dependencies: ["0331107259F7B68C"]
 			description: [
 				"诸多蕴含&e&a盖亚魂&f&r之力的饰品等待探索!记得查看详情!"
 				""
 				"所有描述均可于&a&a辞典&f &d植物魔法&f&r中找到."
 			]
-			id: "63C42DD4E02E5D12"
+			id: "66F1609053B5407C"
 			optional: true
 			tasks: [{
-				id: "1B69575200B35ED3"
+				id: "44A3CDE54F2A5149"
 				item: {
 					Count: 1
 					id: "itemfilters:or"
@@ -1020,11 +1103,12 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["3A20210242A1C865"]
 			description: ["如果需要，击杀猪灵蛮兵可以获得下界合金锭"]
-			id: "5DB0790809552825"
+			id: "26B836339560E939"
 			shape: "octagon"
 			tasks: [{
-				id: "1FC42D62413DA935"
+				id: "032E4D0AB1C0DB57"
 				item: "mythicbotany:asgard_rune"
 				type: "item"
 			}]
@@ -1033,6 +1117,7 @@
 			y: 4.5d
 		}
 		{
+			dependencies: ["26B836339560E939"]
 			description: [
 				"以5块微光石构成棋盘格基底,其余4格放置金块,最后在中央微光石上安置精灵凝聚板."
 				""
@@ -1040,24 +1125,24 @@
 				""
 				"现在能生产精灵钢!"
 			]
-			id: "0ED9AD1E0AA32FBB"
+			id: "6A0ED6CCE3C4BDFE"
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [
 				{
-					id: "12DF43435334D5BA"
+					id: "17D6D091E1471D51"
 					item: "mythicbotany:mana_infuser"
 					type: "item"
 				}
 				{
 					count: 5L
-					id: "5C75C60D83DA31A2"
+					id: "0AA574DCF3E6E20B"
 					item: { Count: 5, id: "botania:shimmerrock" }
 					type: "item"
 				}
 				{
 					count: 4L
-					id: "755EC201F9170BEC"
+					id: "585F40388A8290CC"
 					item: { Count: 4, id: "minecraft:gold_block" }
 					type: "item"
 				}
@@ -1067,15 +1152,16 @@
 			y: 4.5d
 		}
 		{
+			dependencies: ["6A0ED6CCE3C4BDFE"]
 			description: [
 				"将龙晶、&a精灵尘&f与&a源质钢锭&f结合,并消耗1.5池魔力,即可获得精灵钢!"
 				""
 				"获取&a锻造模板&f需用&a源质钢剑&f等植魔武器击杀女巫或唤魔者."
 			]
-			id: "1549F63E4FF6750B"
+			id: "3B2C198F26EC923F"
 			shape: "rsquare"
 			tasks: [{
-				id: "646D6F059A6B6AF1"
+				id: "1751DDCDC353CF69"
 				item: "mythicbotany:alfsteel_ingot"
 				type: "item"
 			}]
@@ -1084,10 +1170,11 @@
 			y: 4.5d
 		}
 		{
+			dependencies: ["0631F054A9B97A40"]
 			description: ["希望你玩的开心"]
-			id: "73B24C63EC684E90"
+			id: "263A1421C0F789E9"
 			tasks: [{
-				id: "105F5DAB615A7C8B"
+				id: "4B29F9E1F4FC05AA"
 				item: "gtocore:runerock_block"
 				type: "item"
 			}]
@@ -1096,10 +1183,14 @@
 			y: 3.0d
 		}
 		{
+			dependencies: [
+				"3A20210242A1C865"
+				"2AB5A33EC30AEA86"
+			]
 			hide_dependency_lines: true
-			id: "1EABFF750C988901"
+			id: "331A6633436ED5AA"
 			tasks: [{
-				id: "7D29F11EAAC5AC81"
+				id: "0646B1B918E954E2"
 				item: "gtocore:cycle_of_blossoms_solvent_bucket"
 				type: "item"
 			}]
@@ -1107,10 +1198,13 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["471FAB35A1A60E89"]
-			id: "124FD32A8DB03E8C"
+			dependencies: [
+				"331A6633436ED5AA"
+				"471FAB35A1A60E89"
+			]
+			id: "763545268A59C6DE"
 			tasks: [{
-				id: "330520BA28A3A44D"
+				id: "26745422244A4FAC"
 				item: "gtocore:herbs_ingot"
 				type: "item"
 			}]
@@ -1118,9 +1212,13 @@
 			y: 2.25d
 		}
 		{
-			id: "211ED32339BEFB37"
+			dependencies: [
+				"763545268A59C6DE"
+				"08B94CA0175108AA"
+			]
+			id: "691AEAE419D00D54"
 			tasks: [{
-				id: "467E02226C796F92"
+				id: "3D2D2919C053C86E"
 				item: "gtocore:laureril_ingot"
 				type: "item"
 			}]
@@ -1128,9 +1226,10 @@
 			y: 1.5d
 		}
 		{
-			id: "58E259FB5FED1B4B"
+			dependencies: ["3B2C198F26EC923F"]
+			id: "36D491B80FE833C0"
 			tasks: [{
-				id: "03283DE30FD9D801"
+				id: "5EA920CC3DBB77D3"
 				item: "gtocore:gaiasteel_ingot"
 				type: "item"
 			}]
@@ -1138,10 +1237,11 @@
 			y: 4.5d
 		}
 		{
+			dependencies: ["23ADD20D9B1AE0F3"]
 			hide_dependency_lines: true
-			id: "3B908DEE62769AAE"
+			id: "08B94CA0175108AA"
 			tasks: [{
-				id: "13CF86CB4DFDD270"
+				id: "7CD826734B14B9B7"
 				item: "gtocore:white_wax_ingot"
 				type: "item"
 			}]
@@ -1149,9 +1249,13 @@
 			y: 0.0d
 		}
 		{
-			id: "406DE045F7829166"
+			dependencies: [
+				"3B2C198F26EC923F"
+				"763545268A59C6DE"
+			]
+			id: "23E23A4B739F6FFC"
 			tasks: [{
-				id: "2664F6777A51FA27"
+				id: "08A7BC8B7B643D13"
 				item: "mythicbotany:alfsteel_pylon"
 				type: "item"
 			}]
@@ -1159,9 +1263,13 @@
 			y: 3.0d
 		}
 		{
-			id: "5964998A51CE19B3"
+			dependencies: [
+				"2AB5A33EC30AEA86"
+				"27CD17C4B3613171"
+			]
+			id: "527EBA90163F6108"
 			tasks: [{
-				id: "594138C77E367DEF"
+				id: "26A619931D11FA48"
 				item: "gtocore:gaia_solvent_bucket"
 				type: "item"
 			}]
@@ -1169,22 +1277,23 @@
 			y: 7.0d
 		}
 		{
+			dependencies: ["527EBA90163F6108"]
 			description: ["通过击杀盖亚累计获取4个&6盖亚之魂&r以开启盖亚魂循环。"]
-			id: "7E43D562E3CE2F9F"
+			id: "05FC584B28D957EB"
 			tasks: [
 				{
-					id: "465D9BA80F68AC96"
+					id: "7DDA25DF35405778"
 					item: "gtocore:unstable_gaia_soul"
 					type: "item"
 				}
 				{
-					id: "082374551D4A9045"
+					id: "22055D5390F0B289"
 					item: "gtocore:gaia_core"
 					type: "item"
 				}
 				{
 					count: 64L
-					id: "361F2CA3D31889F3"
+					id: "166E34267B6C238A"
 					item: { Count: 64, id: "botania:life_essence" }
 					type: "item"
 				}
@@ -1195,9 +1304,9 @@
 		}
 		{
 			dependencies: ["0948158C6F476C57"]
-			id: "680AC3BB28019DDF"
+			id: "76BEEB046033697E"
 			tasks: [{
-				id: "7555A9C38C78FC25"
+				id: "6628C4BA11B6F11F"
 				item: "gtocore:mana_condenser"
 				type: "item"
 			}]
@@ -1205,11 +1314,14 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["61CCD117B022983A"]
+			dependencies: [
+				"61CCD117B022983A"
+				"26B836339560E939"
+			]
 			dependency_requirement: "one_completed"
-			id: "07BB53A1DCC01B93"
+			id: "0F87D140BA847D5E"
 			tasks: [{
-				id: "78FD40AA107F5A78"
+				id: "31D7D2B046EB206B"
 				item: "gtocore:elf_exchange"
 				type: "item"
 			}]
@@ -1218,9 +1330,9 @@
 		}
 		{
 			dependencies: ["61CCD117B022983A"]
-			id: "6385FA0D0222EA67"
+			id: "451AAFB9DE097D65"
 			tasks: [{
-				id: "2B6C285A711CE244"
+				id: "680DEC57EA5232CE"
 				item: "gtocore:industrial_altar"
 				type: "item"
 			}]
@@ -1228,10 +1340,11 @@
 			y: 7.0d
 		}
 		{
+			dependencies: ["0331107259F7B68C"]
 			description: ["魔力花园能够提供大量的魔力"]
-			id: "12A9B86FB91CA982"
+			id: "0A202D5836DC88AC"
 			tasks: [{
-				id: "37CCE6D07A094FF8"
+				id: "71D6B4EA5DCE0336"
 				item: "gtocore:mana_garden"
 				type: "item"
 			}]
@@ -1245,10 +1358,10 @@
 				""
 				"区域破坏者并不会产生爆炸，而是清空方块，也许能作为平地的好帮手"
 			]
-			id: "0C8AED92CEDC78B5"
+			id: "02835A9B717F47AC"
 			subtitle: "人畜无害"
 			tasks: [{
-				id: "14D97662511A9836"
+				id: "711669C3E3D52687"
 				item: "gtocore:area_destruction_tools"
 				type: "item"
 			}]
@@ -1257,10 +1370,10 @@
 		}
 		{
 			dependencies: ["2150BFD0D971DF9C"]
-			id: "17420DB1C2EA08DB"
+			id: "18E4BD0C2EDCBDF2"
 			subtitle: "凝聚了盖亚的心血"
 			tasks: [{
-				id: "38466CB6854125BE"
+				id: "3AD9C8D4702ABCC3"
 				item: "extrabotany:orichalcos_ingot"
 				type: "item"
 			}]
@@ -1268,17 +1381,20 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["08891CB1BAFA5515"]
+			dependencies: [
+				"36D491B80FE833C0"
+				"08891CB1BAFA5515"
+			]
 			description: [
 				"GTO集团汲取盖亚的能量，研发出了跳跃时间的技术，就汇聚在这一个小小的瓶子中。"
 				""
 				"时间扭曲者可以快速地加速机器的加工进程，但你需要保证电网足够，你也不希望看到机器全面跳电罢工吧！"
 			]
 			hide_dependency_lines: true
-			id: "310B493C07A20FFE"
+			id: "041B3B6736C62F82"
 			subtitle: "比床更加黑科技的时间机器"
 			tasks: [{
-				id: "651C5779A9FC514B"
+				id: "4D062AB9FB3A95D3"
 				item: "gtocore:time_twister"
 				type: "item"
 			}]
@@ -1286,11 +1402,12 @@
 			y: 6.5d
 		}
 		{
+			dependencies: ["0331107259F7B68C"]
 			description: ["火花的更强替代品"]
-			id: "42E15FC5C5408ADF"
+			id: "5E14716ECDAF9B1C"
 			shape: "circle"
 			tasks: [{
-				id: "79721D576EF93B2B"
+				id: "5501AAE743102934"
 				item: "gtocore:advanced_mana_distributor"
 				type: "item"
 			}]
@@ -1304,10 +1421,10 @@
 				""
 				"魔力增幅仓内的UI可调整其缓存大小。开启批处理时，仍然只需要输入一份机器最大功率的魔力即可完成批处理。"
 			]
-			id: "7E8C435113A3DED4"
+			id: "4167ADF91EF95341"
 			subtitle: "反哺科技"
 			tasks: [{
-				id: "6A15DB486B22FB8E"
+				id: "7411E8A1C3C7FD56"
 				item: "gtocore:mana_amplifier_hatch"
 				type: "item"
 			}]
@@ -1315,15 +1432,16 @@
 			y: 3.5d
 		}
 		{
+			dependencies: ["0631F054A9B97A40"]
 			description: [
 				"火花的替代品"
 				""
 				"本包内也有无线魔力网络，且储量无限！"
 			]
-			id: "2BEC2E1F9914EE23"
+			id: "705706C604CECF1D"
 			shape: "diamond"
 			tasks: [{
-				id: "5A24F81C8EA4C2E2"
+				id: "410F31F1E5E7E9A4"
 				item: "gtocore:base_mana_distributor"
 				type: "item"
 			}]
@@ -1355,6 +1473,7 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["3A20210242A1C865"]
 			id: "780BAAEFE8E3A49B"
 			tasks: [{
 				id: "14B435D016320B78"
@@ -1376,6 +1495,7 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["3B2C198F26EC923F"]
 			id: "5F9AB46D06B2BF83"
 			tasks: [{
 				id: "5B7361F0B9C49501"
@@ -1397,6 +1517,7 @@
 			y: 7.5d
 		}
 		{
+			dependencies: ["36D491B80FE833C0"]
 			id: "4DE64E57A630B200"
 			tasks: [{
 				id: "15CFCD05C67ABCEC"
@@ -1418,6 +1539,7 @@
 			y: 7.5d
 		}
 		{
+			dependencies: ["18E4BD0C2EDCBDF2"]
 			id: "5EFD8200AF80BBF6"
 			tasks: [{
 				id: "3FD12410EB1D52F6"
@@ -1461,7 +1583,10 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["4CEF044392FBDEAE"]
+			dependencies: [
+				"763545268A59C6DE"
+				"4CEF044392FBDEAE"
+			]
 			id: "759661540E2B8C55"
 			tasks: [{
 				id: "04DC902C9B285AB9"
@@ -1483,6 +1608,7 @@
 			y: 2.5d
 		}
 		{
+			dependencies: ["27CD17C4B3613171"]
 			id: "2DE9C9AD00450987"
 			tasks: [{
 				id: "130AA22958749EFF"
@@ -1518,6 +1644,7 @@
 			y: 9.0d
 		}
 		{
+			dependencies: ["27CD17C4B3613171"]
 			id: "4F95427017B9396F"
 			tasks: [{
 				id: "493E2CAF602984B0"
@@ -1539,7 +1666,10 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["471FAB35A1A60E89"]
+			dependencies: [
+				"4E9804ED6DE64BDF"
+				"471FAB35A1A60E89"
+			]
 			id: "043E9E791712A441"
 			tasks: [
 				{
@@ -1591,7 +1721,10 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["30C2F8F769D33023"]
+			dependencies: [
+				"3A20210242A1C865"
+				"30C2F8F769D33023"
+			]
 			description: [""]
 			id: "27AA2D1CFBC9C465"
 			tasks: [
@@ -1611,6 +1744,7 @@
 			y: 9.0d
 		}
 		{
+			dependencies: ["57D1954039E03CDB"]
 			id: "74C4EA1E01A63A85"
 			tasks: [{
 				id: "1DD6D3DF98708FAC"
@@ -1621,6 +1755,7 @@
 			y: 10.0d
 		}
 		{
+			dependencies: ["23ADD20D9B1AE0F3"]
 			id: "63E1C8D7380F9B9A"
 			tasks: [{
 				id: "733343377FEC1AA3"
@@ -1645,6 +1780,7 @@
 			y: 9.5d
 		}
 		{
+			dependencies: ["23A2865FBE7831AB"]
 			id: "7C5F7800A3D2529C"
 			tasks: [{
 				id: "4E87B03EF22FA99F"
@@ -1655,7 +1791,10 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["6BE534E3FB9B483B"]
+			dependencies: [
+				"6BE534E3FB9B483B"
+				"3A20210242A1C865"
+			]
 			id: "3237EF5DBFF07740"
 			tasks: [{
 				id: "03B2265EEBCA821B"
@@ -1692,6 +1831,7 @@
 			y: 1.5d
 		}
 		{
+			dependencies: ["23A2865FBE7831AB"]
 			id: "1ABD9B5FFACF9651"
 			tasks: [{
 				id: "6DDB70629CB7BBC2"
@@ -1713,6 +1853,7 @@
 			y: 10.0d
 		}
 		{
+			dependencies: ["27CD17C4B3613171"]
 			hide_dependency_lines: true
 			icon_scale: 2.0d
 			id: "04FD522309595AF4"
@@ -1727,6 +1868,7 @@
 			y: 8.5d
 		}
 		{
+			dependencies: ["27CD17C4B3613171"]
 			hide_dependency_lines: true
 			icon_scale: 2.0d
 			id: "376C5A02C14B1303"
@@ -1746,6 +1888,7 @@
 			y: 9.5d
 		}
 		{
+			dependencies: ["763545268A59C6DE"]
 			id: "2EAEE889B07A5BA8"
 			tasks: [{
 				id: "359CF3FCF71BE5E6"
@@ -1820,6 +1963,7 @@
 		}
 		{
 			dependencies: [
+				"23A2865FBE7831AB"
 				"707FE9ADE3861C97"
 				"072F7B0A69F0DB7A"
 			]
@@ -1838,7 +1982,10 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["6F760D81DC93ACFB"]
+			dependencies: [
+				"3B2C198F26EC923F"
+				"6F760D81DC93ACFB"
+			]
 			hide_dependency_lines: true
 			id: "6551540F41376474"
 			tasks: [{
