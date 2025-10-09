@@ -488,8 +488,8 @@
 				item: "gtocore:pcb_factory"
 				type: "item"
 			}]
-			x: 8.014880952380949d
-			y: 2.547619047619058d
+			x: 8.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["76A5DA2CCB71E96F"]

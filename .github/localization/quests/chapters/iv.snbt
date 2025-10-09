@@ -610,7 +610,11 @@
 		}
 		{
 			dependencies: ["1CF7845875EEFA3B"]
-			description: ["{gto.iv.quests.0C41A1AD7CB90755.description0}"]
+			description: [
+				"{gto.iv.quests.0C41A1AD7CB90755.description0}"
+				""
+				"{gto.iv.quests.0C41A1AD7CB90755.description1}"
+			]
 			hide_dependency_lines: true
 			id: "0C41A1AD7CB90755"
 			subtitle: "{gto.iv.quests.0C41A1AD7CB90755.subtitle}"
@@ -1143,6 +1147,30 @@
 			}]
 			x: 22.0d
 			y: -4.5d
+		}
+		{
+			dependencies: ["1E239C34C36FAD60"]
+			description: [
+				"{gto.iv.quests.7AF970C19F565FB6.description0}"
+				""
+				"{gto.iv.quests.7AF970C19F565FB6.description1}"
+			]
+			icon: "gtceu:iv_256a_laser_target_hatch"
+			id: "7AF970C19F565FB6"
+			tasks: [
+				{
+					id: "372D8340C52DD848"
+					item: "gtceu:iv_256a_laser_target_hatch"
+					type: "item"
+				}
+				{
+					id: "5A2FB851D7D2A988"
+					item: "gtocore:iv_wireless_input_hatch_256a"
+					type: "item"
+				}
+			]
+			x: 17.0d
+			y: -3.5d
 		}
 	]
 	subtitle: ["{gto.iv.subtitle0}"]

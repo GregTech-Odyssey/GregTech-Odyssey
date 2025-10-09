@@ -261,7 +261,11 @@
 		}
 		{
 			dependencies: ["24F1061AFD1BFEB2"]
-			description: ["{gto.zpm.quests.2947C7CBDC544496.description0}"]
+			description: [
+				"{gto.zpm.quests.2947C7CBDC544496.description0}"
+				""
+				"{gto.zpm.quests.2947C7CBDC544496.description1}"
+			]
 			id: "2947C7CBDC544496"
 			tasks: [{
 				id: "4A8D522FF1ABCC7F"
@@ -820,6 +824,7 @@
 			description: ["{gto.zpm.quests.0CBF5FDD07337CE1.description0}"]
 			id: "0CBF5FDD07337CE1"
 			shape: "diamond"
+			subtitle: "{gto.zpm.quests.0CBF5FDD07337CE1.subtitle}"
 			tasks: [{
 				id: "038D5413A06693F0"
 				item: "gtocore:petrochemical_plant"
@@ -1009,6 +1014,19 @@
 				type: "item"
 			}]
 			x: -11.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["3490AACD4AA62C5D"]
+			id: "488D6BA7A6FC7752"
+			shape: "diamond"
+			subtitle: "{gto.zpm.quests.488D6BA7A6FC7752.subtitle}"
+			tasks: [{
+				id: "3A130D7EDBF5C2DF"
+				item: "gtocore:wood_distillation"
+				type: "item"
+			}]
+			x: -7.0d
 			y: -6.0d
 		}
 	]

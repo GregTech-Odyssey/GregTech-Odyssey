@@ -111,12 +111,14 @@
 		{
 			id: "67F302EA448EF19C"
 			linked_quest: "1AA10AF8831F742D"
+			shape: "diamond"
 			x: -12.0d
 			y: -1.0d
 		}
 		{
 			id: "03CBC6BC46EA333F"
 			linked_quest: "7EA226054696AA3F"
+			shape: "diamond"
 			x: -12.0d
 			y: 1.0d
 		}
@@ -197,7 +199,7 @@
 				}
 			]
 			title: "{gto.steam.quests.2D630430259F9131.title}"
-			x: -6.0d
+			x: -5.5d
 			y: -2.0d
 		}
 		{
@@ -420,7 +422,7 @@
 			}]
 			title: "{gto.steam.quests.431D763E6303976B.title}"
 			x: 13.0d
-			y: 10.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["55AAF11E1101F10F"]
@@ -526,7 +528,7 @@
 				type: "item"
 			}]
 			title: "{gto.steam.quests.4C94E56A9270EFFB.title}"
-			x: -6.0d
+			x: -5.5d
 			y: 2.25d
 		}
 		{
@@ -640,8 +642,8 @@
 				}
 			]
 			title: "{gto.steam.quests.7F1CF6D7C0CA4DB2.title}"
-			x: 15.000000000000007d
-			y: 10.0d
+			x: 15.0d
+			y: 10.5d
 		}
 		{
 			dependencies: [
@@ -666,7 +668,7 @@
 			}]
 			title: "{gto.steam.quests.4B03D68C7C9FAA8C.title}"
 			x: 11.25d
-			y: 10.0d
+			y: 10.5d
 		}
 		{
 			dependencies: [
@@ -692,7 +694,7 @@
 			}]
 			title: "{gto.steam.quests.043FCD7B759853EA.title}"
 			x: 9.0d
-			y: 10.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["298BEC345930429A"]
@@ -966,7 +968,7 @@
 			}]
 			title: "{gto.steam.quests.020E8B707A8CF794.title}"
 			x: 7.5d
-			y: 12.0d
+			y: 12.5d
 		}
 		{
 			dependencies: ["043FCD7B759853EA"]
@@ -990,7 +992,7 @@
 			}]
 			title: "{gto.steam.quests.411686C01CB6045F.title}"
 			x: 9.0d
-			y: 12.0d
+			y: 12.5d
 		}
 		{
 			dependencies: ["043FCD7B759853EA"]
@@ -1010,7 +1012,7 @@
 			}]
 			title: "{gto.steam.quests.7ADAA0DA032918C5.title}"
 			x: 10.5d
-			y: 12.0d
+			y: 12.5d
 		}
 		{
 			dependencies: ["27F4D9739FE33A02"]
@@ -1063,7 +1065,7 @@
 				type: "checkmark"
 			}]
 			title: "{gto.steam.quests.31BB738542229A88.title}"
-			x: -6.0d
+			x: -5.5d
 			y: 0.0d
 		}
 		{
@@ -1138,7 +1140,7 @@
 			}]
 			title: "{gto.steam.quests.53A8535B07FE3958.title}"
 			x: -3.0d
-			y: 10.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["017D4D369784454E"]
@@ -1310,7 +1312,7 @@
 			}]
 			title: "{gto.steam.quests.4CC934314D14A5EA.title}"
 			x: 6.5d
-			y: 10.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["604FA0DDAD1979A1"]
@@ -1488,7 +1490,7 @@
 			}]
 			title: "{gto.steam.quests.4678D97346E46529.title}"
 			x: -3.0d
-			y: 13.0d
+			y: 13.5d
 		}
 		{
 			dependencies: ["27F4D9739FE33A02"]
@@ -1697,6 +1699,7 @@
 				"{gto.steam.quests.72F99B3B63217418.description3}"
 			]
 			id: "72F99B3B63217418"
+			shape: "diamond"
 			subtitle: "{gto.steam.quests.72F99B3B63217418.subtitle}"
 			tasks: [{
 				id: "3CC830FE7D18DC64"
@@ -1711,6 +1714,7 @@
 			dependencies: ["72F99B3B63217418"]
 			description: ["{gto.steam.quests.0BD03513ABDC6A9C.description0}"]
 			id: "0BD03513ABDC6A9C"
+			shape: "diamond"
 			tasks: [{
 				id: "50AE654E47F127C4"
 				item: "gtceu:hp_steam_solar_boiler"
@@ -1727,6 +1731,7 @@
 				"[\"\", {\"color\": \"yellow\", \"translate\": \"gto.steam.quests.1108939F9923176C.description1.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"3791F49E789E7673\"}, \"translate\": \"gto.steam.quests.1108939F9923176C.description1.rich_text1\"}, {\"color\": \"yellow\", \"translate\": \"gto.steam.quests.1108939F9923176C.description1.rich_text2\"}]"
 			]
 			id: "1108939F9923176C"
+			shape: "diamond"
 			tasks: [{
 				id: "5EF6AC41E4293D2E"
 				item: "gtceu:lp_steam_liquid_boiler"
@@ -1739,6 +1744,7 @@
 			dependencies: ["1108939F9923176C"]
 			description: ["{gto.steam.quests.10E17EBACB3697C9.description0}"]
 			id: "10E17EBACB3697C9"
+			shape: "diamond"
 			subtitle: "{gto.steam.quests.10E17EBACB3697C9.subtitle}"
 			tasks: [{
 				id: "379BBDB4C2C224BA"
@@ -1755,6 +1761,7 @@
 			]
 			description: ["{gto.steam.quests.71C99D8911700F27.description0}"]
 			id: "71C99D8911700F27"
+			shape: "diamond"
 			tasks: [{
 				id: "0C59E71495F97B51"
 				item: "gtceu:bronze_large_boiler"
@@ -1771,6 +1778,7 @@
 				"{gto.steam.quests.77C71C9A52ADF6A6.description1}"
 			]
 			id: "77C71C9A52ADF6A6"
+			shape: "diamond"
 			tasks: [{
 				id: "026C5E9B6FB8E5D2"
 				item: "gtceu:hp_steam_solid_boiler"
@@ -1779,6 +1787,28 @@
 			title: "{gto.steam.quests.77C71C9A52ADF6A6.title}"
 			x: -9.0d
 			y: -1.0d
+		}
+		{
+			dependencies: ["53A8535B07FE3958"]
+			description: ["{gto.steam.quests.05EFB5D7ED8DE2D6.description0}"]
+			id: "05EFB5D7ED8DE2D6"
+			optional: true
+			shape: "pentagon"
+			tasks: [
+				{
+					id: "3E7C553DDFAB3F0B"
+					item: "enderio:alloy_smelter"
+					type: "item"
+				}
+				{
+					id: "1492F1D573E7EE40"
+					item: "enderio:sag_mill"
+					type: "item"
+				}
+			]
+			title: "{gto.steam.quests.05EFB5D7ED8DE2D6.title}"
+			x: -5.5d
+			y: 10.5d
 		}
 	]
 	subtitle: ["{gto.steam.subtitle0}"]
