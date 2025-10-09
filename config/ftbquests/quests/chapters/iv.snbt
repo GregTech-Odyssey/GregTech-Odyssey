@@ -610,7 +610,11 @@
 		}
 		{
 			dependencies: ["1CF7845875EEFA3B"]
-			description: ["有了它你就能够生产&6量子系列电路&r"]
+			description: [
+				"有了它你就能够生产&6量子系列电路&r"
+				""
+				"我更推荐你使用带有&6铟&r的配方"
+			]
 			hide_dependency_lines: true
 			id: "0C41A1AD7CB90755"
 			subtitle: "更便宜的EV电路"
@@ -1137,6 +1141,30 @@
 			}]
 			x: 22.0d
 			y: -4.5d
+		}
+		{
+			dependencies: ["1E239C34C36FAD60"]
+			description: [
+				"从IV开始可以使用&6激光能源仓&r来为机器提供更高的功率"
+				""
+				"同样有其无线版本"
+			]
+			icon: "gtceu:iv_256a_laser_target_hatch"
+			id: "7AF970C19F565FB6"
+			tasks: [
+				{
+					id: "372D8340C52DD848"
+					item: "gtceu:iv_256a_laser_target_hatch"
+					type: "item"
+				}
+				{
+					id: "5A2FB851D7D2A988"
+					item: "gtocore:iv_wireless_input_hatch_256a"
+					type: "item"
+				}
+			]
+			x: 17.0d
+			y: -3.5d
 		}
 	]
 	subtitle: ["Tier5-IV"]

@@ -261,7 +261,11 @@
 		}
 		{
 			dependencies: ["24F1061AFD1BFEB2"]
-			description: ["在上面可以安装算力仓口来实现算力分发"]
+			description: [
+				"在上面可以安装&6算力数据仓&r来实现算力分发"
+				""
+				"别忘了给提供算力的计算机安装&6桥接组件&r！"
+			]
 			id: "2947C7CBDC544496"
 			tasks: [{
 				id: "4A8D522FF1ABCC7F"
@@ -650,9 +654,7 @@
 			y: 4.5d
 		}
 		{
-			dependencies: [
-				"49E04C29B878D3A8"
-			]
+			dependencies: ["49E04C29B878D3A8"]
 			description: [
 				"霜原星的&6羊&r概率掉落，你可以用灵魂瓶抓一只回来刷"
 				""
@@ -816,6 +818,7 @@
 			description: ["虽说一步处理，不过考虑到后续流程，你可能还得生产一些石脑油"]
 			id: "0CBF5FDD07337CE1"
 			shape: "diamond"
+			subtitle: "油的一步处理"
 			tasks: [{
 				id: "038D5413A06693F0"
 				item: "gtocore:petrochemical_plant"
@@ -1005,6 +1008,19 @@
 				type: "item"
 			}]
 			x: -11.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["3490AACD4AA62C5D"]
+			id: "488D6BA7A6FC7752"
+			shape: "diamond"
+			subtitle: "木头的一步处理"
+			tasks: [{
+				id: "3A130D7EDBF5C2DF"
+				item: "gtocore:wood_distillation"
+				type: "item"
+			}]
+			x: -7.0d
 			y: -6.0d
 		}
 	]
