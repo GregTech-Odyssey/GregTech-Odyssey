@@ -899,14 +899,6 @@
 		}
 		{
 			height: 1.0d
-			image: "gtocore:item/circuit/suprachronal_iv"
-			rotation: 0.0d
-			width: 1.0d
-			x: -5.5d
-			y: 11.5d
-		}
-		{
-			height: 1.0d
 			image: "gtocore:item/circuit/suprachronal_hv"
 			rotation: 0.0d
 			width: 1.0d
@@ -1066,6 +1058,14 @@
 			width: 1.0d
 			x: -3.5d
 			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "gtocore:item/circuit/suprachronal_luv"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.7d
+			y: 11.5d
 		}
 	]
 	order_index: 4
@@ -1256,7 +1256,7 @@
 			]
 			icon: "ae2:export_bus"
 			id: "727CCA6FB49E142D"
-			subtitle: "AE网络的交互节点"
+			subtitle: "ME网络的交互节点"
 			tasks: [{
 				id: "4F140DF629F92614"
 				item: "ae2:import_bus"
@@ -1426,6 +1426,8 @@
 				"- 缓存样板对应的配方，下次查找时直接调用这个配方，而不是重新搜索"
 				""
 				"另外，样板总成被破坏后能够保留其内部所有样板！"
+				""
+				"注意样板总成和其他的输入仓室之间默认&e开启隔离&r，你需要&6喷漆罐&r来手动解除隔离"
 			]
 			icon: "gtceu:me_pattern_buffer"
 			id: "0BC456B4331C09F5"
@@ -1467,7 +1469,7 @@
 		{
 			dependencies: ["7C9277B717E90328"]
 			description: [
-				"&6机器覆盖版&r和&6发信器&r互相配合，利用&e红石信号&r做到AE网络&b特定&r物品或流体的&e库存维持&r"
+				"&6机器覆盖版&r和&6发信器&r互相配合，利用&e红石信号&r做到ME网络&b特定&r物品或流体的&e库存维持&r"
 				""
 				"比如和&e大化反&r搭配就可以自动合成&e硫酸&r等常用的化工材料，这样下单合成就不必因产能问题成为合成瓶颈"
 				""
@@ -1495,7 +1497,7 @@
 					type: "item"
 				}
 			]
-			title: "如何使用AE网络进行简单的缓存"
+			title: "如何使用ME网络进行简单的缓存"
 			x: -13.0d
 			y: 19.5d
 		}
@@ -1562,6 +1564,10 @@
 				"不同级别的&6存储核心&r能存储的数据量也不同。&6存储核心&r可以&e混搭&r安装"
 				""
 				"通过&6ME存储访问仓&r连接ME网络"
+				""
+				"存储器UI中的索引调整为&e[机器]&r时，存储空间与&6存储器主机&r绑定，拆除主机后会发现其身上带着标记存储空间的nbt；"
+				""
+				"存储器UI中的索引调整为&e[玩家]&r时，存储空间与&6玩家&r绑定，且由同一玩家放下的存储器会共享存储空间。"
 				""
 				"&7&m记得供电&r"
 			]
@@ -1632,7 +1638,7 @@
 			description: [
 				"只在简单模式可用！"
 				""
-				"放入样板并连接AE网络以自动发配合成原料，继承了普通样板总成的所有优化特性"
+				"放入样板并连接ME网络以自动发配合成原料，继承了普通样板总成的所有优化特性"
 			]
 			hide_dependency_lines: true
 			id: "47506298B1BD1780"
@@ -1651,7 +1657,7 @@
 				""
 				"你也可以选择其他方法："
 				""
-				"·&6 世界交互&r"
+				"· &6世界交互&r"
 				"· &6筛选纯净赛特斯石英矿&r"
 				"· &6高压釜&r"
 				"· &6聚爆&r"
@@ -1762,7 +1768,7 @@
 		{
 			dependencies: ["2E9889C32059C956"]
 			description: [
-				"你会需要很多福鲁伊克斯水晶来搭建你的AE网络，和赛特斯水晶（粉）类似，同样有多种来源："
+				"你会需要很多福鲁伊克斯水晶来搭建你的ME网络，和赛特斯水晶（粉）类似，同样有多种来源："
 				""
 				"· &6世界交互&r，将&e下界石英&r、&e红石粉&r、&e充能赛特斯石英水晶&r丢进水中。纯种的AE人喜欢用纯AE实现自动化！"
 				"· &6电弧发生器&r，&e一步产出&r，强力推荐"
@@ -2174,11 +2180,11 @@
 		{
 			dependencies: ["1A927F14106DFC5C"]
 			description: [
-				"自动将&e选定物品&r从玩家物品栏&e导入&rAE网络"
+				"自动将&e选定物品&r从玩家物品栏&e导入&rME网络"
 				""
 				"需要在&e终端左侧&r配置白名单进行选定"
 				""
-				"&6典型应用场景：&r将挖矿得到的矿石自动通过无线终端存储到AE网络"
+				"&6典型应用场景：&r将挖矿得到的矿石自动通过无线终端存储到ME网络"
 			]
 			id: "4A30B42072223191"
 			tasks: [{
@@ -2192,7 +2198,7 @@
 		{
 			dependencies: ["1A927F14106DFC5C"]
 			description: [
-				"从AE网络抽取&6选定物品&r并&e自动补充&r玩家物品栏"
+				"从ME网络抽取&6选定物品&r并&e自动补充&r玩家物品栏"
 				""
 				"需要在&e终端左侧&r配置白名单进行选定"
 				""
@@ -3180,7 +3186,7 @@
 				"592D975F3146151E"
 			]
 			id: "189F402C87C4AB3A"
-			subtitle: "AE网络的交互节点"
+			subtitle: "ME网络的交互节点"
 			tasks: [{
 				id: "7DF9C99788918728"
 				item: "ae2:export_bus"
@@ -3259,7 +3265,7 @@
 		}
 		{
 			dependencies: ["0B36C7D7D1594CB7"]
-			description: ["用于管理所有连接至AE网络的样板供应器和样板总成"]
+			description: ["用于管理所有连接至ME网络的样板供应器和样板总成"]
 			id: "1DB79F4A3D08D7FB"
 			tasks: [{
 				id: "3D493FCC444BA6CE"
@@ -4065,7 +4071,7 @@
 				"0B8E06206D29E420"
 			]
 			description: [
-				"摆放两个如下所示的量子桥，将一对&6量子缠绕态奇点&r放入其中，两座量子桥就可以跨维度相连"
+				"摆放两个如下所示的量子环，将一对&6量子缠绕态奇点&r放入其中，两个量子环就可以跨维度相连"
 				"{image:ae2:textures/quantum_ring.png width:100 height:100 align:center}"
 			]
 			icon: "gtocore:quantum_anomaly"
@@ -4075,9 +4081,36 @@
 				id: "11FAB9B0FC585C92"
 				type: "checkmark"
 			}]
-			title: "{gto.ae.quests.5627B38033AF2674.title}"
+			title: "搭建量子桥"
 			x: -19.0d
 			y: 7.5d
+		}
+		{
+			dependencies: ["72C6B40B38D542BF"]
+			description: [
+				"你可以用这个工具染色任意的&6输入/输出仓室&r，包括&6样板总成&r！"
+				""
+				"染色后的输入仓室内部将会&e共用输入&r。若你染色输入和输出仓室，则输入和输出仓室将会被绑定。"
+				""
+				"同色仓室与无色/异色仓室之间会被&e隔离&r。"
+			]
+			id: "1BDAC7D9FED887B2"
+			optional: true
+			tasks: [{
+				id: "62987E1C58AE6780"
+				item: {
+					Count: 1
+					id: "itemfilters:id_regex"
+					tag: {
+						value: "spray_can$"
+					}
+				}
+				title: "任意喷漆罐"
+				type: "item"
+			}]
+			title: "喷漆罐"
+			x: -19.0d
+			y: 1.5d
 		}
 	]
 	subtitle: ["Applied Energistics 2"]
