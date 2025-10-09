@@ -1,0 +1,1907 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "magic2"
+	group: "48D03BA483B3FA87"
+	icon: "botania:dice"
+	id: "33F2D5FBE1761AA9"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"{gto.magic2.quests.1E131B8454ACEE3C.description0}"
+				""
+				"{gto.magic2.quests.1E131B8454ACEE3C.description1}"
+				""
+				"{gto.magic2.quests.1E131B8454ACEE3C.description2}"
+			]
+			id: "1E131B8454ACEE3C"
+			min_width: 300
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "062F3350ECCCD159"
+				item: "botania:lens_normal"
+				type: "item"
+			}]
+			title: "{gto.magic2.quests.1E131B8454ACEE3C.title}"
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			description: ["{gto.magic2.quests.1B06142ECC3B9D21.description0}"]
+			id: "1B06142ECC3B9D21"
+			tasks: [{
+				id: "04840D194A97A407"
+				item: "botania:conjuration_catalyst"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 6.0d
+		}
+		{
+			description: ["{gto.magic2.quests.7AB2F7B5131107D7.description0}"]
+			id: "7AB2F7B5131107D7"
+			tasks: [{
+				id: "658F62C69BDEE0FE"
+				item: "botania:aura_ring_greater"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 7.0d
+		}
+		{
+			description: ["{gto.magic2.quests.610A584DB51EECE7.description0}"]
+			hide_dependency_lines: false
+			id: "610A584DB51EECE7"
+			tasks: [{
+				id: "65E3D40D20A8BB75"
+				item: "botania:aura_ring"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			description: [""]
+			id: "23624718C8D21302"
+			tasks: [
+				{
+					id: "72CF656A7494363C"
+					item: "botania:rune_water"
+					type: "item"
+				}
+				{
+					id: "46E7A39E060CA814"
+					item: "botania:rune_fire"
+					type: "item"
+				}
+				{
+					id: "60489FDE1C824FDE"
+					item: "botania:rune_earth"
+					type: "item"
+				}
+				{
+					id: "1AA07446DFC8C639"
+					item: "botania:rune_air"
+					type: "item"
+				}
+				{
+					id: "5CB70BC3974AE846"
+					item: "botania:rune_spring"
+					type: "item"
+				}
+				{
+					id: "7B8115902CB7D7EB"
+					item: "botania:rune_summer"
+					type: "item"
+				}
+				{
+					id: "0E70F15649F9367F"
+					item: "botania:rune_autumn"
+					type: "item"
+				}
+				{
+					id: "436E139B31429859"
+					item: "botania:rune_winter"
+					type: "item"
+				}
+				{
+					id: "6CE747F4466D141F"
+					item: "botania:rune_mana"
+					type: "item"
+				}
+				{
+					id: "7A0D6A6B4917EF3E"
+					item: "botania:rune_lust"
+					type: "item"
+				}
+				{
+					id: "04DAD47B26EF4C77"
+					item: "botania:rune_gluttony"
+					type: "item"
+				}
+				{
+					id: "4AAD59B498C8AF78"
+					item: "botania:rune_greed"
+					type: "item"
+				}
+				{
+					id: "44C961BC006EC54C"
+					item: "botania:rune_sloth"
+					type: "item"
+				}
+				{
+					id: "7AF37B43BD83FE45"
+					item: "botania:rune_wrath"
+					type: "item"
+				}
+				{
+					id: "35D0183E0FF5E49F"
+					item: "botania:rune_envy"
+					type: "item"
+				}
+				{
+					id: "654DC30FA7D03473"
+					item: "botania:rune_pride"
+					type: "item"
+				}
+			]
+			title: "{gto.magic2.quests.23624718C8D21302.title}"
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			description: ["{gto.magic2.quests.6C7ECECEDD0CCCB6.description0}"]
+			id: "6C7ECECEDD0CCCB6"
+			optional: true
+			tasks: [{
+				id: "33E11128DCEA860C"
+				item: "botania:brewery"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 6.0d
+		}
+		{
+			description: ["{gto.magic2.quests.5AF37C97880DFB5C.description0}"]
+			id: "5AF37C97880DFB5C"
+			optional: true
+			tasks: [{
+				id: "7A8BE62FC4014471"
+				item: "botania:incense_stick"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 7.0d
+		}
+		{
+			description: ["{gto.magic2.quests.0BDB51D436DBA45E.description0}"]
+			id: "0BDB51D436DBA45E"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "66B7D9AB6D49F1A2"
+				item: "botania:terra_plate"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			description: [
+				"{gto.magic2.quests.09EABD6CD7A147CB.description0}"
+				""
+				"{gto.magic2.quests.09EABD6CD7A147CB.description1}"
+			]
+			id: "09EABD6CD7A147CB"
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "5D80B037496132E0"
+					item: "botania:terrasteel_ingot"
+					type: "item"
+				}
+				{
+					id: "411FB8EE72CA6742"
+					item: "gtocore:thaumium_ingot"
+					type: "item"
+				}
+			]
+			title: "{gto.magic2.quests.09EABD6CD7A147CB.title}"
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			description: [
+				"{gto.magic2.quests.6035993C2156E209.description0}"
+				""
+				"{gto.magic2.quests.6035993C2156E209.description1}"
+				""
+				"{gto.magic2.quests.6035993C2156E209.description2}"
+				""
+				"{gto.magic2.quests.6035993C2156E209.description3}"
+				""
+				"{gto.magic2.quests.6035993C2156E209.description4}"
+			]
+			id: "6035993C2156E209"
+			min_width: 300
+			tasks: [{
+				id: "3DAD93DDB0ED12ED"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "botania:spark_upgrade_dispersive"
+							}
+							{
+								Count: 1b
+								id: "botania:spark_upgrade_dominant"
+							}
+							{
+								Count: 1b
+								id: "botania:spark_upgrade_recessive"
+							}
+							{
+								Count: 1b
+								id: "botania:spark_upgrade_isolated"
+							}
+						]
+					}
+				}
+				title: "{gto.magic2.quests.6035993C2156E209.tasks.3DAD93DDB0ED12ED.title}"
+				type: "item"
+			}]
+			title: "{gto.magic2.quests.6035993C2156E209.title}"
+			x: 3.5d
+			y: 5.5d
+		}
+		{
+			description: [
+				"{gto.magic2.quests.06D1B9D7775708BF.description0}"
+				""
+				"{gto.magic2.quests.06D1B9D7775708BF.description1}"
+				""
+				"{gto.magic2.quests.06D1B9D7775708BF.description2}"
+			]
+			hide_dependent_lines: true
+			icon: "botania:dragonstone"
+			id: "06D1B9D7775708BF"
+			min_width: 300
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{gto.magic2.quests.06D1B9D7775708BF.subtitle}"
+			tasks: [
+				{
+					id: "121097238F5A5B2A"
+					item: {
+						Count: 1
+						id: "botania:lexicon"
+						tag: {
+							"botania:elven_unlock": 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7A32ECB9DD03F711"
+					item: "botania:elementium_ingot"
+					type: "item"
+				}
+				{
+					id: "4284D1CD0EA64937"
+					item: "botania:dragonstone"
+					type: "item"
+				}
+				{
+					id: "28AE6292EC79E457"
+					item: "botania:pixie_dust"
+					type: "item"
+				}
+				{
+					id: "49548FD79AA5BC3E"
+					item: "botania:dreamwood"
+					type: "item"
+				}
+				{
+					id: "52234EFCF61E645A"
+					item: "botania:elf_glass"
+					type: "item"
+				}
+			]
+			title: "{gto.magic2.quests.06D1B9D7775708BF.title}"
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			id: "711CC99EC2C90AEF"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "399EA44FDD9AFB44"
+					item: "botania:alfheim_portal"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "09C3EC91DB698629"
+					item: "botania:natura_pylon"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "20DC532A55CBCFA6"
+					item: "botania:glimmering_livingwood_log"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "662BAD7990BF76A8"
+					item: "botania:livingwood"
+					type: "item"
+				}
+			]
+			title: "{gto.magic2.quests.711CC99EC2C90AEF.title}"
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			description: [
+				"{gto.magic2.quests.1228FA812CD850CE.description0}"
+				""
+				"{gto.magic2.quests.1228FA812CD850CE.description1}"
+			]
+			id: "1228FA812CD850CE"
+			min_width: 300
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					count: 4L
+					id: "7376B32B20FE471A"
+					item: "botania:gaia_pylon"
+					type: "item"
+				}
+				{
+					id: "3983A364577DB1E7"
+					item: "minecraft:beacon"
+					type: "item"
+				}
+			]
+			title: "{gto.magic2.quests.1228FA812CD850CE.title}"
+			x: 10.5d
+			y: 1.5d
+		}
+		{
+			description: [
+				"{gto.magic2.quests.1A4C8295ECD30424.description0}"
+				""
+				"{gto.magic2.quests.1A4C8295ECD30424.description1}"
+			]
+			icon: "botania:gaia_head"
+			id: "1A4C8295ECD30424"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "3DFB39964D0A1518"
+					item: "botania:life_essence"
+					type: "item"
+				}
+				{
+					entity: "botania:doppleganger"
+					icon: "botania:gaia_head"
+					id: "003FE99EE3F11639"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "{gto.magic2.quests.1A4C8295ECD30424.title}"
+			x: 12.5d
+			y: 1.5d
+		}
+		{
+			description: [
+				"{gto.magic2.quests.61B522A432BC46B2.description0}"
+				""
+				"{gto.magic2.quests.61B522A432BC46B2.description1}"
+			]
+			hide_until_deps_visible: false
+			id: "61B522A432BC46B2"
+			shape: "gear"
+			size: 2.5d
+			subtitle: "{gto.magic2.quests.61B522A432BC46B2.subtitle}"
+			tasks: [{
+				id: "25E326FEB127501D"
+				item: "botania:gaia_ingot"
+				type: "item"
+			}]
+			title: "{gto.magic2.quests.61B522A432BC46B2.title}"
+			x: 12.5d
+			y: 4.5d
+		}
+		{
+			description: ["{gto.magic2.quests.031ECD85DBB1AD89.description0}"]
+			hide_dependent_lines: true
+			icon_scale: 2.0d
+			id: "031ECD85DBB1AD89"
+			shape: "none"
+			size: 1.5d
+			tasks: [{
+				id: "5946C8EAC7930F34"
+				item: "botania:dice"
+				type: "item"
+			}]
+			title: "{gto.magic2.quests.031ECD85DBB1AD89.title}"
+			x: 12.5d
+			y: 7.0d
+		}
+		{
+			description: [
+				"{gto.magic2.quests.78B01A19109638AE.description0}"
+				""
+				"{gto.magic2.quests.78B01A19109638AE.description1}"
+				""
+				"{gto.magic2.quests.78B01A19109638AE.description2}"
+			]
+			id: "78B01A19109638AE"
+			tasks: [{
+				id: "4BB5997D2260CF5C"
+				item: "botania:corporea_funnel"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 7.0d
+		}
+		{
+			description: [
+				"{gto.magic2.quests.0669A2D1B5789566.description0}"
+				""
+				"{gto.magic2.quests.0669A2D1B5789566.description1}"
+				""
+				"{gto.magic2.quests.0669A2D1B5789566.description2}"
+			]
+			id: "0669A2D1B5789566"
+			min_width: 300
+			tasks: [
+				{
+					id: "35091ECFFFF21E4B"
+					item: "botania:corporea_spark"
+					type: "item"
+				}
+				{
+					id: "3D819E1952D72A7A"
+					item: "botania:corporea_spark_master"
+					type: "item"
+				}
+			]
+			title: "{gto.magic2.quests.0669A2D1B5789566.title}"
+			x: 3.5d
+			y: 6.5d
+		}
+		{
+			description: [
+				"{gto.magic2.quests.36B0D516F3AB4433.description0}"
+				""
+				"{gto.magic2.quests.36B0D516F3AB4433.description1}"
+				""
+				"{gto.magic2.quests.36B0D516F3AB4433.description2}"
+			]
+			id: "36B0D516F3AB4433"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [{
+				id: "350CC2CBE83D5659"
+				item: "botania:corporea_index"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 7.75d
+		}
+		{
+			description: ["{gto.magic2.quests.56D5D31F07A51A1C.description0}"]
+			id: "56D5D31F07A51A1C"
+			optional: true
+			tasks: [{
+				id: "53FB337CCF4BC7FA"
+				item: "botania:corporea_crystal_cube"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 7.0d
+		}
+		{
+			hide_until_deps_visible: false
+			icon_scale: 2.0d
+			id: "6E1D9C8D4A096402"
+			optional: true
+			shape: "none"
+			tasks: [{
+				id: "44C56B78A7A2AD19"
+				item: "botania:thor_ring"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 8.5d
+		}
+		{
+			hide_until_deps_visible: false
+			icon_scale: 2.0d
+			id: "4EBE52133704F448"
+			optional: true
+			shape: "none"
+			tasks: [{
+				id: "69D4457313D1F037"
+				item: {
+					Count: 1
+					id: "botania:odin_ring"
+					tag: {
+						baubleUUID: [I;
+							-68256365
+							-428781930
+							-1518441386
+							-645335533
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 12.0d
+			y: 8.5d
+		}
+		{
+			hide_until_deps_visible: false
+			icon_scale: 2.0d
+			id: "7BACCA23F31C534C"
+			optional: true
+			shape: "none"
+			tasks: [{
+				id: "11443CE4E45C88FA"
+				item: "botania:loki_ring"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 8.5d
+		}
+		{
+			hide_until_deps_visible: false
+			icon_scale: 2.0d
+			id: "3198613DC4AD8871"
+			optional: true
+			shape: "none"
+			tasks: [{
+				id: "554C4A3250F89C58"
+				item: "botania:infinite_fruit"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 9.5d
+		}
+		{
+			hide_until_deps_visible: false
+			icon_scale: 2.0d
+			id: "4849EA43A57395BF"
+			optional: true
+			shape: "none"
+			tasks: [{
+				id: "0F6D5CAD86C1D9A4"
+				item: "botania:king_key"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 9.5d
+		}
+		{
+			hide_until_deps_visible: false
+			icon_scale: 2.0d
+			id: "3611223BA53EB41D"
+			optional: true
+			shape: "none"
+			tasks: [{
+				id: "38AAE07B60E6CA6A"
+				item: "botania:flugel_eye"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 9.5d
+		}
+		{
+			description: ["{gto.magic2.quests.29907B22D82EEC2C.description0}"]
+			id: "29907B22D82EEC2C"
+			shape: "hexagon"
+			size: 0.5d
+			tasks: [{
+				id: "01E864A0765F6C6A"
+				item: "botania:lens_speed"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 7.75d
+		}
+		{
+			description: ["{gto.magic2.quests.37D281B5AEBAE8EB.description0}"]
+			id: "37D281B5AEBAE8EB"
+			shape: "hexagon"
+			size: 0.5d
+			tasks: [{
+				id: "3FF55CE7521CD06A"
+				item: "botania:lens_power"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 8.5d
+		}
+		{
+			description: ["{gto.magic2.quests.7212FAC0CD5FEB05.description0}"]
+			id: "7212FAC0CD5FEB05"
+			shape: "hexagon"
+			size: 0.5d
+			tasks: [{
+				id: "2C4A647E54B8F16B"
+				item: "botania:lens_time"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 7.75d
+		}
+		{
+			description: ["{gto.magic2.quests.70DB78463862A77F.description0}"]
+			id: "70DB78463862A77F"
+			shape: "hexagon"
+			size: 0.5d
+			tasks: [{
+				id: "5364501E7AA19F37"
+				item: "botania:lens_efficiency"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 8.5d
+		}
+		{
+			description: ["{gto.magic2.quests.4B75057D73BAE219.description0}"]
+			id: "4B75057D73BAE219"
+			shape: "hexagon"
+			size: 0.5d
+			tasks: [{
+				id: "1EEC390F0391E0E4"
+				item: "botania:lens_bounce"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			description: ["{gto.magic2.quests.7E17C3F4DF9FC934.description0}"]
+			hide_dependency_lines: true
+			id: "7E17C3F4DF9FC934"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "15EC7D50ADC808C1"
+				item: "botania:lens_gravity"
+				type: "item"
+			}]
+			x: 0.25d
+			y: 10.0d
+		}
+		{
+			description: ["{gto.magic2.quests.6A9D1D119009FFF8.description0}"]
+			hide_dependency_lines: true
+			id: "6A9D1D119009FFF8"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "2C2912BA96A9298F"
+				item: "botania:lens_mine"
+				type: "item"
+			}]
+			x: -0.25d
+			y: 9.5d
+		}
+		{
+			description: ["{gto.magic2.quests.3CC5C1EFF2390F39.description0}"]
+			hide_dependency_lines: true
+			id: "3CC5C1EFF2390F39"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "7A76CB03C8A44E93"
+				item: "botania:lens_damage"
+				type: "item"
+			}]
+			x: -0.75d
+			y: 9.25d
+		}
+		{
+			description: ["{gto.magic2.quests.16EE62AC03E83A13.description0}"]
+			hide_dependency_lines: true
+			id: "16EE62AC03E83A13"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "56B49F84579C4FE7"
+				item: "botania:lens_phantom"
+				type: "item"
+			}]
+			x: -1.25d
+			y: 9.0d
+		}
+		{
+			description: ["{gto.magic2.quests.4BEE9DB85D133EB0.description0}"]
+			hide_dependency_lines: true
+			id: "4BEE9DB85D133EB0"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "5255DDC36D8873DB"
+				item: "botania:lens_magnet"
+				type: "item"
+			}]
+			x: 0.25d
+			y: 9.5d
+		}
+		{
+			description: ["{gto.magic2.quests.248099E7BF468385.description0}"]
+			hide_dependency_lines: true
+			id: "248099E7BF468385"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "35E588F0904745F5"
+				item: "botania:lens_explosive"
+				type: "item"
+			}]
+			x: 0.75d
+			y: 9.25d
+		}
+		{
+			description: ["{gto.magic2.quests.450958E0B8AD2166.description0}"]
+			hide_dependency_lines: true
+			id: "450958E0B8AD2166"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "1F95E662670254B4"
+				item: "botania:lens_influence"
+				type: "item"
+			}]
+			x: 1.25d
+			y: 9.0d
+		}
+		{
+			description: ["{gto.magic2.quests.77EC50AB8EFD810C.description0}"]
+			hide_dependency_lines: true
+			id: "77EC50AB8EFD810C"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "435E738F25B87C30"
+				item: "botania:lens_weight"
+				type: "item"
+			}]
+			x: -0.75d
+			y: 9.75d
+		}
+		{
+			description: [
+				"{gto.magic2.quests.4220C777D6418AE3.description0}"
+				""
+				"{gto.magic2.quests.4220C777D6418AE3.description1}"
+			]
+			hide_dependency_lines: true
+			id: "4220C777D6418AE3"
+			optional: true
+			shape: "pentagon"
+			size: 0.5d
+			tasks: [{
+				id: "636B0A81FA7834B0"
+				item: "botania:lens_paint"
+				type: "item"
+			}]
+			x: 0.75d
+			y: 10.25d
+		}
+		{
+			description: ["{gto.magic2.quests.23174A3936F8C0D8.description0}"]
+			hide_dependency_lines: true
+			id: "23174A3936F8C0D8"
+			optional: true
+			shape: "pentagon"
+			size: 0.5d
+			tasks: [{
+				id: "4B8C958F412336C1"
+				item: "botania:lens_firework"
+				type: "item"
+			}]
+			x: -0.25d
+			y: 10.5d
+		}
+		{
+			description: ["{gto.magic2.quests.4A6AB17D98E02F1F.description0}"]
+			hide_dependency_lines: true
+			id: "4A6AB17D98E02F1F"
+			optional: true
+			shape: "pentagon"
+			size: 0.5d
+			tasks: [{
+				id: "4D9CD8BC8E18495B"
+				item: "botania:lens_flare"
+				type: "item"
+			}]
+			x: -0.75d
+			y: 10.25d
+		}
+		{
+			description: ["{gto.magic2.quests.1DDB8A9CA4D64B33.description0}"]
+			hide_dependency_lines: true
+			id: "1DDB8A9CA4D64B33"
+			optional: true
+			shape: "pentagon"
+			size: 0.5d
+			tasks: [{
+				id: "1DA8970080BA51BB"
+				item: "botania:lens_tripwire"
+				type: "item"
+			}]
+			x: -1.25d
+			y: 10.0d
+		}
+		{
+			description: ["{gto.magic2.quests.41D4F61251D1A56D.description0}"]
+			hide_dependency_lines: true
+			id: "41D4F61251D1A56D"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "741284F3161A550E"
+				item: "botania:lens_messenger"
+				type: "item"
+			}]
+			x: 0.75d
+			y: 9.75d
+		}
+		{
+			description: ["{gto.magic2.quests.63CF32BAC1E923DB.description0}"]
+			hide_dependency_lines: true
+			id: "63CF32BAC1E923DB"
+			optional: true
+			shape: "pentagon"
+			size: 0.5d
+			tasks: [{
+				id: "56C1CC48D6F524D1"
+				item: "botania:lens_redirect"
+				type: "item"
+			}]
+			x: 0.25d
+			y: 10.5d
+		}
+		{
+			description: ["{gto.magic2.quests.16EBDBF79E507D46.description0}"]
+			hide_dependency_lines: true
+			id: "16EBDBF79E507D46"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "1646AB15FF8BE7F4"
+				item: "botania:lens_light"
+				type: "item"
+			}]
+			x: -1.25d
+			y: 9.5d
+		}
+		{
+			description: ["{gto.magic2.quests.7F49500E8D703F7D.description0}"]
+			hide_dependency_lines: true
+			id: "7F49500E8D703F7D"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "7E8201EAA6ECB5C5"
+				item: "botania:lens_piston"
+				type: "item"
+			}]
+			x: 1.25d
+			y: 9.5d
+		}
+		{
+			description: ["{gto.magic2.quests.35DE31EDC699EA3C.description0}"]
+			hide_dependency_lines: true
+			id: "35DE31EDC699EA3C"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "6C04673F8C49FA93"
+				item: "botania:lens_fire"
+				type: "item"
+			}]
+			x: -0.25d
+			y: 10.0d
+		}
+		{
+			description: ["{gto.magic2.quests.21730C188BB116C7.description0}"]
+			hide_dependency_lines: true
+			id: "21730C188BB116C7"
+			optional: true
+			shape: "pentagon"
+			size: 0.5d
+			tasks: [{
+				id: "6F84DAB6B8491734"
+				item: "botania:lens_warp"
+				type: "item"
+			}]
+			x: 1.25d
+			y: 10.0d
+		}
+		{
+			description: [
+				"{gto.magic2.quests.63C42DD4E02E5D12.description0}"
+				""
+				"{gto.magic2.quests.63C42DD4E02E5D12.description1}"
+			]
+			id: "63C42DD4E02E5D12"
+			optional: true
+			tasks: [{
+				id: "1B69575200B35ED3"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "botania:black_hole_talisman"
+							}
+							{
+								Count: 1b
+								id: "botania:spawner_mover"
+							}
+							{
+								Count: 1b
+								id: "botania:astrolabe"
+							}
+							{
+								Count: 1b
+								id: "botania:holy_cloak"
+							}
+							{
+								Count: 1b
+								id: "botania:diva_charm"
+							}
+							{
+								Count: 1b
+								id: "botania:super_lava_pendant"
+							}
+							{
+								Count: 1b
+								id: "botania:unholy_cloak"
+							}
+							{
+								Count: 1b
+								id: "botania:laputa_shard"
+							}
+							{
+								Count: 1b
+								id: "botania:super_cloud_pendant"
+							}
+							{
+								Count: 1b
+								id: "botania:flight_tiara"
+							}
+							{
+								Count: 1b
+								id: "botania:mana_bomb"
+							}
+							{
+								Count: 1b
+								id: "botania:missile_rod"
+							}
+							{
+								Count: 1b
+								id: "botania:balance_cloak"
+							}
+							{
+								Count: 1b
+								id: "botania:super_travel_belt"
+							}
+						]
+					}
+				}
+				title: "{gto.magic2.quests.63C42DD4E02E5D12.tasks.1B69575200B35ED3.title}"
+				type: "item"
+			}]
+			title: "{gto.magic2.quests.63C42DD4E02E5D12.title}"
+			x: 11.5d
+			y: 0.0d
+		}
+		{
+			description: ["{gto.magic2.quests.5DB0790809552825.description0}"]
+			id: "5DB0790809552825"
+			shape: "octagon"
+			tasks: [{
+				id: "1FC42D62413DA935"
+				item: "mythicbotany:asgard_rune"
+				type: "item"
+			}]
+			title: "{gto.magic2.quests.5DB0790809552825.title}"
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			description: [
+				"{gto.magic2.quests.0ED9AD1E0AA32FBB.description0}"
+				""
+				"{gto.magic2.quests.0ED9AD1E0AA32FBB.description1}"
+				""
+				"{gto.magic2.quests.0ED9AD1E0AA32FBB.description2}"
+			]
+			id: "0ED9AD1E0AA32FBB"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "12DF43435334D5BA"
+					item: "mythicbotany:mana_infuser"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "5C75C60D83DA31A2"
+					item: {
+						Count: 5
+						id: "botania:shimmerrock"
+					}
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "755EC201F9170BEC"
+					item: {
+						Count: 4
+						id: "minecraft:gold_block"
+					}
+					type: "item"
+				}
+			]
+			title: "{gto.magic2.quests.0ED9AD1E0AA32FBB.title}"
+			x: 7.5d
+			y: 4.5d
+		}
+		{
+			description: [
+				"{gto.magic2.quests.1549F63E4FF6750B.description0}"
+				""
+				"{gto.magic2.quests.1549F63E4FF6750B.description1}"
+			]
+			id: "1549F63E4FF6750B"
+			shape: "rsquare"
+			tasks: [{
+				id: "646D6F059A6B6AF1"
+				item: "mythicbotany:alfsteel_ingot"
+				type: "item"
+			}]
+			title: "{gto.magic2.quests.1549F63E4FF6750B.title}"
+			x: 9.0d
+			y: 4.5d
+		}
+		{
+			description: ["{gto.magic2.quests.73B24C63EC684E90.description0}"]
+			id: "73B24C63EC684E90"
+			tasks: [{
+				id: "105F5DAB615A7C8B"
+				item: "gtocore:runerock_block"
+				type: "item"
+			}]
+			title: "{gto.magic2.quests.73B24C63EC684E90.title}"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			hide_dependency_lines: true
+			id: "1EABFF750C988901"
+			tasks: [{
+				id: "7D29F11EAAC5AC81"
+				item: "gtocore:cycle_of_blossoms_solvent_bucket"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["471FAB35A1A60E89"]
+			id: "124FD32A8DB03E8C"
+			tasks: [{
+				id: "330520BA28A3A44D"
+				item: "gtocore:herbs_ingot"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.25d
+		}
+		{
+			id: "211ED32339BEFB37"
+			tasks: [{
+				id: "467E02226C796F92"
+				item: "gtocore:laureril_ingot"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			id: "58E259FB5FED1B4B"
+			tasks: [{
+				id: "03283DE30FD9D801"
+				item: "gtocore:gaiasteel_ingot"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 4.5d
+		}
+		{
+			hide_dependency_lines: true
+			id: "3B908DEE62769AAE"
+			tasks: [{
+				id: "13CF86CB4DFDD270"
+				item: "gtocore:white_wax_ingot"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			id: "406DE045F7829166"
+			tasks: [{
+				id: "2664F6777A51FA27"
+				item: "mythicbotany:alfsteel_pylon"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			id: "5964998A51CE19B3"
+			tasks: [{
+				id: "594138C77E367DEF"
+				item: "gtocore:gaia_solvent_bucket"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 7.0d
+		}
+		{
+			description: ["{gto.magic2.quests.7E43D562E3CE2F9F.description0}"]
+			id: "7E43D562E3CE2F9F"
+			tasks: [
+				{
+					id: "465D9BA80F68AC96"
+					item: "gtocore:unstable_gaia_soul"
+					type: "item"
+				}
+				{
+					id: "082374551D4A9045"
+					item: "gtocore:gaia_core"
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "361F2CA3D31889F3"
+					item: {
+						Count: 64
+						id: "botania:life_essence"
+					}
+					type: "item"
+				}
+			]
+			title: "{gto.magic2.quests.7E43D562E3CE2F9F.title}"
+			x: 15.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0948158C6F476C57"]
+			id: "680AC3BB28019DDF"
+			tasks: [{
+				id: "7555A9C38C78FC25"
+				item: "gtocore:mana_condenser"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["61CCD117B022983A"]
+			dependency_requirement: "one_completed"
+			id: "07BB53A1DCC01B93"
+			tasks: [{
+				id: "78FD40AA107F5A78"
+				item: "gtocore:elf_exchange"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["61CCD117B022983A"]
+			id: "6385FA0D0222EA67"
+			tasks: [{
+				id: "2B6C285A711CE244"
+				item: "gtocore:industrial_altar"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 7.0d
+		}
+		{
+			description: ["{gto.magic2.quests.12A9B86FB91CA982.description0}"]
+			id: "12A9B86FB91CA982"
+			tasks: [{
+				id: "37CCE6D07A094FF8"
+				item: "gtocore:mana_garden"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["129FF3CBED5CFF05"]
+			description: [
+				"{gto.magic2.quests.0C8AED92CEDC78B5.description0}"
+				""
+				"{gto.magic2.quests.0C8AED92CEDC78B5.description1}"
+			]
+			id: "0C8AED92CEDC78B5"
+			subtitle: "{gto.magic2.quests.0C8AED92CEDC78B5.subtitle}"
+			tasks: [{
+				id: "14D97662511A9836"
+				item: "gtocore:area_destruction_tools"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2150BFD0D971DF9C"]
+			id: "17420DB1C2EA08DB"
+			subtitle: "{gto.magic2.quests.17420DB1C2EA08DB.subtitle}"
+			tasks: [{
+				id: "38466CB6854125BE"
+				item: "extrabotany:orichalcos_ingot"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["08891CB1BAFA5515"]
+			description: [
+				"{gto.magic2.quests.310B493C07A20FFE.description0}"
+				""
+				"{gto.magic2.quests.310B493C07A20FFE.description1}"
+			]
+			hide_dependency_lines: true
+			id: "310B493C07A20FFE"
+			subtitle: "{gto.magic2.quests.310B493C07A20FFE.subtitle}"
+			tasks: [{
+				id: "651C5779A9FC514B"
+				item: "gtocore:time_twister"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 6.5d
+		}
+		{
+			description: ["{gto.magic2.quests.42E15FC5C5408ADF.description0}"]
+			id: "42E15FC5C5408ADF"
+			shape: "circle"
+			tasks: [{
+				id: "79721D576EF93B2B"
+				item: "gtocore:advanced_mana_distributor"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["129FF3CBED5CFF05"]
+			description: [
+				"{gto.magic2.quests.7E8C435113A3DED4.description0}"
+				""
+				"{gto.magic2.quests.7E8C435113A3DED4.description1}"
+			]
+			id: "7E8C435113A3DED4"
+			subtitle: "{gto.magic2.quests.7E8C435113A3DED4.subtitle}"
+			tasks: [{
+				id: "6A15DB486B22FB8E"
+				item: "gtocore:mana_amplifier_hatch"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 3.5d
+		}
+		{
+			description: [
+				"{gto.magic2.quests.2BEC2E1F9914EE23.description0}"
+				""
+				"{gto.magic2.quests.2BEC2E1F9914EE23.description1}"
+			]
+			id: "2BEC2E1F9914EE23"
+			shape: "diamond"
+			tasks: [{
+				id: "5A24F81C8EA4C2E2"
+				item: "gtocore:base_mana_distributor"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7A76DEC71BB67245"]
+			description: ["{gto.magic2.quests.471FAB35A1A60E89.description0}"]
+			hide_dependency_lines: true
+			id: "471FAB35A1A60E89"
+			tasks: [{
+				id: "100C243B23C587B0"
+				item: "gtocore:mana_heater"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7C5F7800A3D2529C"]
+			id: "7A76DEC71BB67245"
+			tasks: [{
+				id: "7DCEF245FFCB052B"
+				item: "gtocore:mv_mana_machine_hull"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			id: "780BAAEFE8E3A49B"
+			tasks: [{
+				id: "14B435D016320B78"
+				item: "gtocore:elementium_casing"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["780BAAEFE8E3A49B"]
+			id: "61CCD117B022983A"
+			tasks: [{
+				id: "2DC1245016352BE1"
+				item: "gtocore:hv_mana_machine_hull"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			id: "5F9AB46D06B2BF83"
+			tasks: [{
+				id: "5B7361F0B9C49501"
+				item: "gtocore:alfsteel_casing"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5F9AB46D06B2BF83"]
+			id: "3F90794A1EB0AB63"
+			tasks: [{
+				id: "0346C02903C2FCBE"
+				item: "gtocore:ev_mana_machine_hull"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 7.5d
+		}
+		{
+			id: "4DE64E57A630B200"
+			tasks: [{
+				id: "15CFCD05C67ABCEC"
+				item: "gtocore:gaiasteel_casing"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4DE64E57A630B200"]
+			id: "0948158C6F476C57"
+			tasks: [{
+				id: "71075E56AB950737"
+				item: "gtocore:iv_mana_machine_hull"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 7.5d
+		}
+		{
+			id: "5EFD8200AF80BBF6"
+			tasks: [{
+				id: "3FD12410EB1D52F6"
+				item: "gtocore:orichalcos_casing"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5EFD8200AF80BBF6"]
+			id: "129FF3CBED5CFF05"
+			tasks: [{
+				id: "2A7C248DE099C1C2"
+				item: "gtocore:luv_mana_machine_hull"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3F90794A1EB0AB63"]
+			id: "276B144D21D741AF"
+			tasks: [{
+				id: "1446D223C9624C31"
+				item: "gtocore:mana_alloy_blast_smelter"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["3F90794A1EB0AB63"]
+			id: "484851D3E161ECCF"
+			tasks: [{
+				id: "46D233A8F53A1DE8"
+				item: "gtocore:mana_greenhouse"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["4CEF044392FBDEAE"]
+			id: "759661540E2B8C55"
+			tasks: [{
+				id: "04DC902C9B285AB9"
+				item: "gtocore:large_alchemical_device"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5EFD8200AF80BBF6"]
+			id: "5C0F8BD8AB2AFD37"
+			tasks: [{
+				id: "6577072E4A237477"
+				item: "gtocore:rune_engraving_chamber"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 2.5d
+		}
+		{
+			id: "2DE9C9AD00450987"
+			tasks: [{
+				id: "130AA22958749EFF"
+				item: "extrabotany:challenge_ticket"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2DE9C9AD00450987"]
+			description: [""]
+			id: "0F02FE8BA89BCF34"
+			subtitle: "{gto.magic2.quests.0F02FE8BA89BCF34.subtitle}"
+			tasks: [{
+				id: "525B948D01EFFF84"
+				item: "extrabotany:pandoras_box"
+				type: "item"
+			}]
+			title: "{gto.magic2.quests.0F02FE8BA89BCF34.title}"
+			x: 15.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["27AA2D1CFBC9C465"]
+			id: "2D093085609DAF71"
+			tasks: [{
+				id: "06EB9E47B60921E5"
+				item: "extrabotany:dimension_catalyst"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 9.0d
+		}
+		{
+			id: "4F95427017B9396F"
+			tasks: [{
+				id: "493E2CAF602984B0"
+				item: "gtocore:quicksilver_ingot"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3237EF5DBFF07740"]
+			id: "543C07B1E9718D82"
+			tasks: [{
+				id: "6C355D3EE034C486"
+				item: "gtocore:celestial_condenser"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["471FAB35A1A60E89"]
+			id: "043E9E791712A441"
+			tasks: [
+				{
+					id: "132F39D6FC0B8654"
+					item: "gtocore:liquid_aether_bucket"
+					type: "item"
+				}
+				{
+					id: "18EFB4BD08C2181D"
+					item: "gtocore:liquid_salamander_bucket"
+					type: "item"
+				}
+				{
+					id: "60E711B97E4FECF8"
+					item: "gtocore:liquid_undine_bucket"
+					type: "item"
+				}
+				{
+					id: "6B4B057554AF021F"
+					item: "gtocore:liquid_sylph_bucket"
+					type: "item"
+				}
+				{
+					id: "233EDC06975C0D8E"
+					item: "gtocore:liquid_gnome_bucket"
+					type: "item"
+				}
+			]
+			title: "{gto.magic2.quests.043E9E791712A441.title}"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["543C07B1E9718D82"]
+			id: "3B8DB8CA431006D6"
+			tasks: [
+				{
+					id: "10F6471D31352EA9"
+					item: "gtocore:astral_silver_ingot"
+					type: "item"
+				}
+				{
+					id: "3EAE7443F0E5C0FC"
+					item: "gtocore:helio_coal"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["30C2F8F769D33023"]
+			description: [""]
+			id: "27AA2D1CFBC9C465"
+			tasks: [
+				{
+					id: "35B9856898EDC21D"
+					item: "extrabotany:photonium_ingot"
+					type: "item"
+				}
+				{
+					id: "0E89051A333E175D"
+					item: "extrabotany:shadowium_ingot"
+					type: "item"
+				}
+			]
+			title: "{gto.magic2.quests.27AA2D1CFBC9C465.title}"
+			x: 4.5d
+			y: 9.0d
+		}
+		{
+			id: "74C4EA1E01A63A85"
+			tasks: [{
+				id: "1DD6D3DF98708FAC"
+				item: "extrabotany:spirit_fuel"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 10.0d
+		}
+		{
+			id: "63E1C8D7380F9B9A"
+			tasks: [{
+				id: "733343377FEC1AA3"
+				item: "extrabotany:pedestal_livingrock"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"74C4EA1E01A63A85"
+				"63E1C8D7380F9B9A"
+			]
+			id: "30C2F8F769D33023"
+			tasks: [{
+				id: "2396D90604A94731"
+				item: "extrabotany:spirit_fragment"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 9.5d
+		}
+		{
+			id: "7C5F7800A3D2529C"
+			tasks: [{
+				id: "4E87B03EF22FA99F"
+				item: "gtocore:terrasteel_casing"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6BE534E3FB9B483B"]
+			id: "3237EF5DBFF07740"
+			tasks: [{
+				id: "03B2265EEBCA821B"
+				item: "extrabotany:aerialite_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"30C2F8F769D33023"
+				"651CA7BF775419A0"
+			]
+			id: "00483549F6D66CCD"
+			tasks: [{
+				id: "6A3D40F8329D13F0"
+				item: "gtocore:animium_bucket"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["1ABD9B5FFACF9651"]
+			hide_dependent_lines: true
+			id: "651CA7BF775419A0"
+			tasks: [{
+				id: "0F4792A82EA9A4C6"
+				item: "mythicbotany:gjallar_horn_full"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			id: "1ABD9B5FFACF9651"
+			tasks: [{
+				id: "6DDB70629CB7BBC2"
+				item: "mythicbotany:yggdrasil_branch"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["00483549F6D66CCD"]
+			id: "4A36545D7F8FDCEA"
+			tasks: [{
+				id: "354873D7580EEBE4"
+				item: "gtocore:flowing_ciphers_bucket"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 10.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 2.0d
+			id: "04FD522309595AF4"
+			shape: "none"
+			size: 1.0d
+			tasks: [{
+				id: "68DA701543FF74EB"
+				item: "mythicbotany:fimbultyr_tablet"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 8.5d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 2.0d
+			id: "376C5A02C14B1303"
+			shape: "none"
+			tasks: [{
+				id: "0D7512B59D240C55"
+				item: {
+					Count: 1
+					id: "extrabotany:void_archives"
+					tag: {
+						variant: "default"
+					}
+				}
+				type: "item"
+			}]
+			x: 15.0d
+			y: 9.5d
+		}
+		{
+			id: "2EAEE889B07A5BA8"
+			tasks: [{
+				id: "359CF3FCF71BE5E6"
+				item: {
+					Count: 1
+					id: "gtocore:fairy_wing"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0F02FE8BA89BCF34"]
+			icon_scale: 2.0d
+			id: "2150BFD0D971DF9C"
+			shape: "none"
+			size: 2.0d
+			tasks: [{
+				id: "59FC2852B7A890F1"
+				item: "extrabotany:hero_medal"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2150BFD0D971DF9C"]
+			id: "262B99D8C05C2B28"
+			tasks: [{
+				id: "38ADF9DEE5C96B44"
+				item: "gtocore:heros_soul"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"262B99D8C05C2B28"
+				"4F95427017B9396F"
+			]
+			id: "50591F5900E6FB9A"
+			tasks: [
+				{
+					id: "02AC684FE386F738"
+					item: "gtocore:gold_medal"
+					type: "item"
+				}
+				{
+					id: "2FBDE80448D5840C"
+					item: "gtocore:heros_brawlers_bucket"
+					type: "item"
+				}
+				{
+					id: "79A443002398A517"
+					item: "gtocore:heros_breach_bucket"
+					type: "item"
+				}
+				{
+					id: "5401095E2CFBFE25"
+					item: "gtocore:heros_splendor_bucket"
+					type: "item"
+				}
+			]
+			title: "{gto.magic2.quests.50591F5900E6FB9A.title}"
+			x: 16.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"707FE9ADE3861C97"
+				"072F7B0A69F0DB7A"
+			]
+			hide_dependency_lines: true
+			id: "0D792F0480DB7110"
+			tasks: [{
+				id: "334D3B891CBF6B64"
+				item: {
+					Count: 1
+					id: "gtocore:prospector.mana_lv"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6F760D81DC93ACFB"]
+			hide_dependency_lines: true
+			id: "6551540F41376474"
+			tasks: [{
+				id: "4C46A96B6CF32848"
+				item: {
+					Count: 1
+					id: "gtocore:prospector.mana_hv"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0F02FE8BA89BCF34"]
+			id: "7278B00DEB2C21E7"
+			tasks: [{
+				id: "36537D76B6F9DE91"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "extrabotany:nine_and_three_quarters_reward_bag"
+							}
+							{
+								Count: 1b
+								id: "extrabotany:vier_reward_bag"
+							}
+							{
+								Count: 1b
+								id: "extrabotany:drei_reward_bag"
+							}
+							{
+								Count: 1b
+								id: "extrabotany:zwei_reward_bag"
+							}
+							{
+								Count: 1b
+								id: "extrabotany:eins_reward_bag"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "{gto.magic2.quests.7278B00DEB2C21E7.title}"
+			x: 14.0d
+			y: 3.0d
+		}
+	]
+	subtitle: ["{gto.magic2.subtitle0}"]
+	title: "{gto.magic2.title}"
+}
