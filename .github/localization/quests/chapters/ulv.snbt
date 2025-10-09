@@ -172,7 +172,11 @@
 		}
 		{
 			dependencies: ["4ED89021AC92A0AE"]
-			description: ["{gto.ulv.quests.498D24745D509B73.description0}"]
+			description: [
+				"{gto.ulv.quests.498D24745D509B73.description0}"
+				""
+				"{gto.ulv.quests.498D24745D509B73.description1}"
+			]
 			id: "498D24745D509B73"
 			rewards: [{
 				id: "4C50916429573FD8"
