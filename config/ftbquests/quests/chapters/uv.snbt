@@ -880,6 +880,94 @@
 			x: 1.0d
 			y: 12.5d
 		}
+		{
+			dependencies: ["502F7DD0C930D5BF"]
+			description: ["用捕获附魔获取以上的蛋"]
+			id: "3CBA56988C0F8E7E"
+			subtitle: "这次不要DNA了"
+			tasks: [
+				{
+					id: "0DC4CB1CB1874C75"
+					item: "minecraft:villager_spawn_egg"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4843BCBB8579733A"
+					item: "minecraft:witch_spawn_egg"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "我需要大脑"
+			x: -5.0d
+			y: 12.5d
+		}
+		{
+			dependencies: [
+				"0099AE8ACBB72951"
+				"06DF372F16F1A5CA"
+				"2CC625C1FFDB9AFF"
+			]
+			id: "44B34806DA0FEA9A"
+			subtitle: "这不是疯狂戴夫的脑子！"
+			tasks: [{
+				id: "4758CF4632B286F7"
+				item: "gtocore:super_cerebrum"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 12.5d
+		}
+		{
+			dependencies: [
+				"44B34806DA0FEA9A"
+				"6E673337DD550808"
+			]
+			description: ["更便宜的制作&6湿件处理器&r的配方"]
+			hide_dependency_lines: true
+			id: "67050CC889ABB614"
+			subtitle: "布满了脑细胞"
+			tasks: [{
+				id: "33E5DBCF497F513E"
+				item: "gtocore:wetware_soc"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["67050CC889ABB614"]
+			description: [
+				"超级计算中心，可以放下足足&b840&r个组件。一台足够提供你整个基地的算力供应"
+				""
+				"请使用&6空组件&r填充你用不到的组件槽位"
+				""
+				"&6导热剂&r并非必需品，Tier2/3放入导热剂后会提升超级计算中心输出的算力"
+			]
+			id: "6E17BDF52855CA6A"
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "天河一号"
+			tasks: [{
+				id: "438136BDBD08FBCA"
+				item: "gtocore:supercomputing_center"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["3CBA56988C0F8E7E"]
+			id: "2CC625C1FFDB9AFF"
+			tasks: [{
+				id: "2B855FB5823EA902"
+				item: "gtocore:cerebrum"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 12.5d
+		}
 	]
 	subtitle: ["Tier8-UV"]
 	title: "10. 极限压(UV)"
