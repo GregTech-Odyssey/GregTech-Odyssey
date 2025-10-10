@@ -889,6 +889,94 @@
 			x: 1.0d
 			y: 12.5d
 		}
+		{
+			dependencies: ["502F7DD0C930D5BF"]
+			description: ["{gto.uv.quests.3CBA56988C0F8E7E.description0}"]
+			id: "3CBA56988C0F8E7E"
+			subtitle: "{gto.uv.quests.3CBA56988C0F8E7E.subtitle}"
+			tasks: [
+				{
+					id: "0DC4CB1CB1874C75"
+					item: "minecraft:villager_spawn_egg"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4843BCBB8579733A"
+					item: "minecraft:witch_spawn_egg"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "{gto.uv.quests.3CBA56988C0F8E7E.title}"
+			x: -5.0d
+			y: 12.5d
+		}
+		{
+			dependencies: [
+				"0099AE8ACBB72951"
+				"06DF372F16F1A5CA"
+				"2CC625C1FFDB9AFF"
+			]
+			id: "44B34806DA0FEA9A"
+			subtitle: "{gto.uv.quests.44B34806DA0FEA9A.subtitle}"
+			tasks: [{
+				id: "4758CF4632B286F7"
+				item: "gtocore:super_cerebrum"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 12.5d
+		}
+		{
+			dependencies: [
+				"44B34806DA0FEA9A"
+				"6E673337DD550808"
+			]
+			description: ["{gto.uv.quests.67050CC889ABB614.description0}"]
+			hide_dependency_lines: true
+			id: "67050CC889ABB614"
+			subtitle: "{gto.uv.quests.67050CC889ABB614.subtitle}"
+			tasks: [{
+				id: "33E5DBCF497F513E"
+				item: "gtocore:wetware_soc"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["67050CC889ABB614"]
+			description: [
+				"{gto.uv.quests.6E17BDF52855CA6A.description0}"
+				""
+				"{gto.uv.quests.6E17BDF52855CA6A.description1}"
+				""
+				"{gto.uv.quests.6E17BDF52855CA6A.description2}"
+			]
+			id: "6E17BDF52855CA6A"
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "{gto.uv.quests.6E17BDF52855CA6A.subtitle}"
+			tasks: [{
+				id: "438136BDBD08FBCA"
+				item: "gtocore:supercomputing_center"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["3CBA56988C0F8E7E"]
+			id: "2CC625C1FFDB9AFF"
+			tasks: [{
+				id: "2B855FB5823EA902"
+				item: "gtocore:cerebrum"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 12.5d
+		}
 	]
 	subtitle: ["{gto.uv.subtitle0}"]
 	title: "{gto.uv.title}"

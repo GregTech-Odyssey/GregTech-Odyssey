@@ -55,7 +55,7 @@
 			}]
 			title: "{gto.zpm.quests.5E32A6DFE04D28F4.title}"
 			x: -2.0d
-			y: 7.5d
+			y: 6.5d
 		}
 		{
 			dependencies: [
@@ -69,7 +69,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 7.5d
+			y: 6.5d
 		}
 		{
 			dependencies: [
@@ -93,7 +93,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: 5.0d
+			y: 4.5d
 		}
 		{
 			dependencies: [
@@ -357,7 +357,7 @@
 			}]
 			title: "{gto.zpm.quests.348156EA1A381ABF.title}"
 			x: -4.0d
-			y: 7.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["0BB1BDBE8BB307E4"]
@@ -412,7 +412,7 @@
 			}]
 			title: "{gto.zpm.quests.19B07E541BE74686.title}"
 			x: -9.0d
-			y: 7.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["608F56E6A187940C"]
@@ -524,7 +524,6 @@
 		{
 			dependencies: [
 				"747599D690EADE56"
-				"351F704B01567BD7"
 				"7651697F32169E49"
 			]
 			id: "59864AA3CB69A3CF"
@@ -628,36 +627,7 @@
 			}]
 			title: "{gto.zpm.quests.19134C6F6A115AEE.title}"
 			x: -6.0d
-			y: 7.5d
-		}
-		{
-			dependencies: ["44B34806DA0FEA9A"]
-			description: ["{gto.zpm.quests.67050CC889ABB614.description0}"]
-			id: "67050CC889ABB614"
-			subtitle: "{gto.zpm.quests.67050CC889ABB614.subtitle}"
-			tasks: [{
-				id: "33E5DBCF497F513E"
-				item: "gtocore:wetware_soc"
-				type: "item"
-			}]
-			x: -4.0d
-			y: 4.5d
-		}
-		{
-			dependencies: [
-				"0099AE8ACBB72951"
-				"06DF372F16F1A5CA"
-				"3CBA56988C0F8E7E"
-			]
-			id: "44B34806DA0FEA9A"
-			subtitle: "{gto.zpm.quests.44B34806DA0FEA9A.subtitle}"
-			tasks: [{
-				id: "4758CF4632B286F7"
-				item: "gtocore:super_cerebrum"
-				type: "item"
-			}]
-			x: -6.0d
-			y: 4.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["49E04C29B878D3A8"]
@@ -672,8 +642,8 @@
 				item: "gtocore:glacio_spirit"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 3.0d
+			x: -5.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["3490AACD4AA62C5D"]
@@ -769,19 +739,6 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["67050CC889ABB614"]
-			description: ["{gto.zpm.quests.6E17BDF52855CA6A.description0}"]
-			id: "6E17BDF52855CA6A"
-			subtitle: "{gto.zpm.quests.6E17BDF52855CA6A.subtitle}"
-			tasks: [{
-				id: "438136BDBD08FBCA"
-				item: "gtocore:supercomputing_center"
-				type: "item"
-			}]
-			x: -4.0d
-			y: 6.0d
-		}
-		{
 			dependencies: ["19B07E541BE74686"]
 			description: [
 				"{gto.zpm.quests.6DC73D6C2AD17444.description0}"
@@ -800,7 +757,7 @@
 				type: "item"
 			}]
 			x: -11.0d
-			y: 7.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["6DC73D6C2AD17444"]
@@ -817,7 +774,7 @@
 				type: "item"
 			}]
 			x: -11.0d
-			y: 5.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["19B07E541BE74686"]
@@ -831,7 +788,7 @@
 				type: "item"
 			}]
 			x: -9.0d
-			y: 5.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["0985154AE9169549"]
@@ -908,28 +865,32 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["502F7DD0C930D5BF"]
+			dependencies: [
+				"502F7DD0C930D5BF"
+				"351F704B01567BD7"
+				"0099AE8ACBB72951"
+			]
 			description: ["{gto.zpm.quests.7651697F32169E49.description0}"]
 			id: "7651697F32169E49"
 			tasks: [
 				{
-					id: "069E698FCF2189A7"
-					item: "minecraft:piglin_brute_spawn_egg"
+					id: "1BD8993009393E01"
+					item: "ad_astra:pygro_brute_spawn_egg"
 					type: "item"
 				}
 				{
-					id: "6A19E2D1B57C3AB1"
-					item: "minecraft:piglin_spawn_egg"
+					id: "1EB516FC9C0E54D3"
+					item: "ad_astra:pygro_spawn_egg"
 					type: "item"
 				}
 				{
-					id: "050D3B8D01C4B1F3"
-					item: "minecraft:hoglin_spawn_egg"
+					id: "122ECC92699D7405"
+					item: "ad_astra:mogler_spawn_egg"
 					type: "item"
 				}
 				{
-					id: "1E944186F902F254"
-					item: "minecraft:creeper_spawn_egg"
+					id: "4627BC1EDF647328"
+					item: "ad_astra:sulfur_creeper_spawn_egg"
 					type: "item"
 				}
 			]
@@ -957,18 +918,6 @@
 		}
 		{
 			dependencies: ["608F56E6A187940C"]
-			hide_dependency_lines: true
-			id: "0099AE8ACBB72951"
-			tasks: [{
-				id: "270877B95A714083"
-				item: "gtceu:mutagen_bucket"
-				type: "item"
-			}]
-			x: -6.0d
-			y: 6.0d
-		}
-		{
-			dependencies: ["608F56E6A187940C"]
 			id: "7E4DBCAC89579784"
 			tasks: [{
 				id: "62233B10FD891347"
@@ -977,29 +926,6 @@
 			}]
 			x: -2.0d
 			y: 1.5d
-		}
-		{
-			dependencies: ["502F7DD0C930D5BF"]
-			description: ["{gto.zpm.quests.3CBA56988C0F8E7E.description0}"]
-			id: "3CBA56988C0F8E7E"
-			subtitle: "{gto.zpm.quests.3CBA56988C0F8E7E.subtitle}"
-			tasks: [
-				{
-					id: "0DC4CB1CB1874C75"
-					item: "minecraft:villager_spawn_egg"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "4843BCBB8579733A"
-					item: "minecraft:witch_spawn_egg"
-					optional_task: true
-					type: "item"
-				}
-			]
-			title: "{gto.zpm.quests.3CBA56988C0F8E7E.title}"
-			x: -7.5d
-			y: 4.5d
 		}
 		{
 			dependencies: [
@@ -1028,6 +954,18 @@
 			}]
 			x: -7.0d
 			y: -6.0d
+		}
+		{
+			dependencies: ["608F56E6A187940C"]
+			hide_dependency_lines: true
+			id: "0099AE8ACBB72951"
+			tasks: [{
+				id: "270877B95A714083"
+				item: "gtceu:mutagen_bucket"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 4.5d
 		}
 	]
 	subtitle: ["{gto.zpm.subtitle0}"]
