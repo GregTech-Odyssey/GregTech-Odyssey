@@ -495,7 +495,7 @@
 			}]
 			title: "{gto.luv.quests.464D2CB6C35A56F0.title}"
 			x: 14.5d
-			y: 0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["464D2CB6C35A56F0"]
@@ -510,7 +510,7 @@
 			}]
 			title: "{gto.luv.quests.5A3B1B492A49AB29.title}"
 			x: 14.5d
-			y: 2.75d
+			y: 2.4d
 		}
 		{
 			dependencies: [
@@ -572,10 +572,7 @@
 			y: -1.5d
 		}
 		{
-			dependencies: [
-				"1156B92F11DA73B6"
-				"0BB1BDBE8BB307E4"
-			]
+			dependencies: ["1156B92F11DA73B6"]
 			description: ["{gto.luv.quests.722C24B0C50641D1.description0}"]
 			id: "722C24B0C50641D1"
 			shape: "hexagon"

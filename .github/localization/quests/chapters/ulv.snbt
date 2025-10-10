@@ -592,7 +592,7 @@
 			]
 			title: "{gto.ulv.quests.03A894C7D1178791.title}"
 			x: 10.5d
-			y: -3.5d
+			y: -5.0d
 		}
 		{
 			dependencies: [
@@ -951,8 +951,8 @@
 				}
 			]
 			title: "{gto.ulv.quests.620EF24B5E685E7A.title}"
-			x: 8.5d
-			y: -0.5d
+			x: 10.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["561F5AACF437E7C5"]
@@ -974,7 +974,7 @@
 			]
 			title: "{gto.ulv.quests.4C484BF84C3809FB.title}"
 			x: 10.5d
-			y: -2.0d
+			y: -3.5d
 		}
 		{
 			dependencies: [
