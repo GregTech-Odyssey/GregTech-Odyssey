@@ -1225,7 +1225,7 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"使用催化器加速母岩生成"
+				"使用&6催生器&r加速母岩生成"
 				""
 				"&8使用破坏面板和存储总线做个子网络实现自动采集&r"
 			]
@@ -4071,7 +4071,7 @@
 				"0B8E06206D29E420"
 			]
 			description: [
-				"摆放两个如下所示的量子环，将一对&6量子缠绕态奇点&r放入其中，两个量子环就可以跨维度相连"
+				"摆放两个如下所示的&6量子网桥&r，将一对&6量子缠绕态奇点&r放入其中，两个量子网桥就可以跨维度相连"
 				"{image:ae2:textures/quantum_ring.png width:100 height:100 align:center}"
 			]
 			icon: "gtocore:quantum_anomaly"
@@ -4081,7 +4081,7 @@
 				id: "11FAB9B0FC585C92"
 				type: "checkmark"
 			}]
-			title: "搭建量子桥"
+			title: "搭建量子网桥"
 			x: -19.0d
 			y: 7.5d
 		}
@@ -4095,7 +4095,6 @@
 				"同色仓室与无色/异色仓室之间会被&e隔离&r。"
 			]
 			id: "1BDAC7D9FED887B2"
-			optional: true
 			tasks: [{
 				id: "62987E1C58AE6780"
 				item: {
