@@ -786,7 +786,7 @@ hash = "36edba5bcfbabf479e0ffdf35de56fe0b91b80dd27f1b9706ad420a2e124e068"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/Beyond the stars.snbt"
-hash = "e4915628f1d84e19a6f67818ee6a6282b7d9d6aa9388a98011e87c94e84098db"
+hash = "388e42885457feb9f210182309b4b6f8ee6e545b2b8749c1168173018056d764"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ae.snbt"
@@ -1342,7 +1342,7 @@ hash = "84254dc1e5a56ea70df6b16a2fb2620040592badae436c255997aaae84996d91"
 
 [[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/en_us.json"
-hash = "295a3bad478fb75b0726edd7de51d3e0432d62d8fd97637641672e9f6ebb886b"
+hash = "0fac83b64087587700d6550a09926b2904b057a5a8b4c1a2f99d229e2cc31d66"
 
 [[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/ru_ru.json"
@@ -1350,11 +1350,11 @@ hash = "49f1dea938171f1d5948d122d89a5c58073b3177574cf30aa6db7e96a9bd68c1"
 
 [[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/zh_cn.json"
-hash = "8204a5391f61a1b30684d1bd2371d81ad07de9a2986fe1285241ab8cc66918f4"
+hash = "da1433c1f8bae479436d026cab9b02a80fe73a0e3fbbeaa23c8ae2e2c55b8314"
 
 [[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/zh_tw.json"
-hash = "15aaa68a22a7f9f09255a10d0d522b7d8dbe91b4497a1072a70f8fe8e57b3369"
+hash = "f3883ff3004d86795765394ca8ea92c9f0f8a1d9922cd6948bd91e125a1e40a9"
 
 [[files]]
 file = "config/openloader/resources/quests/pack.mcmeta"
@@ -1449,8 +1449,16 @@ file = "config/openloader/resources/resources/assets/ftblibrary/lang/zh_cn.json"
 hash = "4303250ae4555305b6b83673292f39063e68a3219b70e869b2f9ab051d8771b4"
 
 [[files]]
+file = "config/openloader/resources/resources/assets/ftbquests/ftb_quests_theme.txt"
+hash = "edf075bc28a1fc59de0b6b76b2cec44b0b148b58c680d5af78e1768e26ad123a"
+
+[[files]]
 file = "config/openloader/resources/resources/assets/ftbquests/lang/zh_cn.json"
 hash = "c62dbd86b3650599d70ef61f72b4214189322da005d24a35a6a915916dc0b80d"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/ftbquests/textures/beyondstars.png"
+hash = "9d498d6f1cd19bc20c59cbcb6f5fdbd0228c2f3f565ec31f9faa614b636b6655"
 
 [[files]]
 file = "config/openloader/resources/resources/assets/ftbteams/lang/zh_cn.json"
