@@ -50,7 +50,7 @@
 			rotation: 45.0d
 			width: 1.0d
 			x: 9.0d
-			y: 1.5d
+			y: 3.0d
 		}
 		{
 			height: 1.0d
@@ -58,7 +58,7 @@
 			rotation: 45.0d
 			width: 1.0d
 			x: 9.0d
-			y: 1.5d
+			y: 3.0d
 		}
 		{
 			height: 1.0d
@@ -108,7 +108,7 @@
 			linked_quest: "17CEA439C0110AFA"
 			shape: "diamond"
 			x: 9.0d
-			y: 1.5d
+			y: 3.0d
 		}
 		{
 			id: "31FDB6095F1DCD59"
@@ -257,6 +257,7 @@
 			dependencies: [
 				"7C9C5AA8812891CC"
 				"7EA0644BB352BBB5"
+				"63773B34911D0234"
 			]
 			description: [
 				"{gto.luv.quests.7AD94105147C5940.description0}"
@@ -671,23 +672,6 @@
 		}
 		{
 			dependencies: ["228B283B5477879B"]
-			description: ["{gto.luv.quests.63773B34911D0234.description0}"]
-			id: "63773B34911D0234"
-			shape: "hexagon"
-			tasks: [{
-				id: "726D0A6B91C05586"
-				item: {
-					Count: 1
-					id: "gtceu:data_orb"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: 9.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["63773B34911D0234"]
 			description: [
 				"{gto.luv.quests.3E34FFB5E5A60909.description0}"
 				""
@@ -997,7 +981,10 @@
 			y: 7.5d
 		}
 		{
-			dependencies: ["7EA0644BB352BBB5"]
+			dependencies: [
+				"7EA0644BB352BBB5"
+				"63773B34911D0234"
+			]
 			description: [
 				"{gto.luv.quests.777A7D91695E8720.description0}"
 				""
