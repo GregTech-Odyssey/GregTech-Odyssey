@@ -50,7 +50,7 @@
 			rotation: 45.0d
 			width: 1.0d
 			x: 9.0d
-			y: 1.5d
+			y: 3.0d
 		}
 		{
 			height: 1.0d
@@ -58,7 +58,7 @@
 			rotation: 45.0d
 			width: 1.0d
 			x: 9.0d
-			y: 1.5d
+			y: 3.0d
 		}
 		{
 			height: 1.0d
@@ -108,7 +108,7 @@
 			linked_quest: "17CEA439C0110AFA"
 			shape: "diamond"
 			x: 9.0d
-			y: 1.5d
+			y: 3.0d
 		}
 		{
 			id: "31FDB6095F1DCD59"
@@ -257,6 +257,7 @@
 			dependencies: [
 				"7C9C5AA8812891CC"
 				"7EA0644BB352BBB5"
+				"63773B34911D0234"
 			]
 			description: [
 				"装配线上直接放一个数据访问仓显然不能满足这么多配方的需要，因此我们提供了&6数据库&r..."
@@ -671,23 +672,6 @@
 		}
 		{
 			dependencies: ["228B283B5477879B"]
-			description: ["二级数据载体"]
-			id: "63773B34911D0234"
-			shape: "hexagon"
-			tasks: [{
-				id: "726D0A6B91C05586"
-				item: {
-					Count: 1
-					id: "gtceu:data_orb"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: 9.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["63773B34911D0234"]
 			description: [
 				"&a艾&r&e萨&r&c线&r，这是一条新的矿物处理线，你需要大量的松油和乙醇来搭建这条产线"
 				""
@@ -997,7 +981,10 @@
 			y: 7.5d
 		}
 		{
-			dependencies: ["7EA0644BB352BBB5"]
+			dependencies: [
+				"7EA0644BB352BBB5"
+				"63773B34911D0234"
+			]
 			description: [
 				"你需要替换&6空组件&r为&6计算组件&r和&6冷却组件&r才能让计算机开始工作"
 				""

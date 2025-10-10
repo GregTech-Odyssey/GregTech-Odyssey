@@ -1308,6 +1308,24 @@
 			x: 8.5d
 			y: 6.5d
 		}
+		{
+			dependencies: ["3C2FA92DB0A38D4D"]
+			description: ["目前没什么用,&dLuV&r阶段才有它的用武之地"]
+			id: "63773B34911D0234"
+			shape: "hexagon"
+			subtitle: "二级数据载体"
+			tasks: [{
+				id: "726D0A6B91C05586"
+				item: {
+					Count: 1
+					id: "gtceu:data_orb"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -6.5d
+		}
 	]
 	subtitle: ["Tier4-EV"]
 	title: "6. 超高压(EV)"
