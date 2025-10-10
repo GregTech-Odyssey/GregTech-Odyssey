@@ -592,7 +592,7 @@
 			]
 			title: "氢，这边请"
 			x: 10.5d
-			y: -3.5d
+			y: -5.0d
 		}
 		{
 			dependencies: [
@@ -951,8 +951,8 @@
 				}
 			]
 			title: "剩下的三个家伙"
-			x: 8.5d
-			y: -0.5d
+			x: 10.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["561F5AACF437E7C5"]
@@ -974,7 +974,7 @@
 			]
 			title: "对，我要的就是你"
 			x: 10.5d
-			y: -2.0d
+			y: -3.5d
 		}
 		{
 			dependencies: [
