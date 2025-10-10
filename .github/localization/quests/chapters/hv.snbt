@@ -930,7 +930,11 @@
 		}
 		{
 			dependencies: ["4FC754BAFAB7C79F"]
-			description: ["{gto.hv.quests.6F760D81DC93ACFB.description0}"]
+			description: [
+				"{gto.hv.quests.6F760D81DC93ACFB.description0}"
+				""
+				"[\"\", {\"translate\": \"gto.hv.quests.6F760D81DC93ACFB.description1.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"38A6F2FA481A85E5\"}, \"translate\": \"gto.hv.quests.6F760D81DC93ACFB.description1.rich_text1\"}, {\"translate\": \"gto.hv.quests.6F760D81DC93ACFB.description1.rich_text2\"}]"
+			]
 			id: "6F760D81DC93ACFB"
 			shape: "hexagon"
 			tasks: [
@@ -1784,6 +1788,7 @@
 			id: "0CC813B9DBC397AF"
 			shape: "hexagon"
 			size: 1.5d
+			subtitle: "{gto.hv.quests.0CC813B9DBC397AF.subtitle}"
 			tasks: [{
 				id: "623E5631CC8AAA62"
 				item: {

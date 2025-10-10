@@ -9,6 +9,136 @@
 		tag: { }
 	}
 	id: "23D3589809B14740"
+	images: [
+		{
+			height: 1.0d
+			image: "minecraft:item/light_04"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.5d
+			y: 7.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/light_05"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.5d
+			y: 10.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/light_06"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.5d
+			y: 13.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/light_07"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.5d
+			y: 16.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/light_01"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.5d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/light_02"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.5d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/light_03"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.5d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/light_01"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.25d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/light_02"
+			rotation: 0.0d
+			width: 1.0d
+			x: 15.5d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/light_03"
+			rotation: 0.0d
+			width: 1.0d
+			x: 25.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/light_04"
+			rotation: 0.0d
+			width: 1.0d
+			x: 28.0d
+			y: 7.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/light_05"
+			rotation: 0.0d
+			width: 1.0d
+			x: 22.5d
+			y: 12.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/light_06"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.5d
+			y: 12.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/light_07"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.5d
+			y: 12.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/light_08"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: 12.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/light_08"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.5d
+			y: 19.0d
+		}
+	]
 	order_index: 6
 	quest_links: [ ]
 	quests: [
@@ -22,6 +152,8 @@
 				"{gto.Beyond the stars.quests.38A6F2FA481A85E5.description2}"
 				""
 				"{gto.Beyond the stars.quests.38A6F2FA481A85E5.description3}"
+				""
+				"{gto.Beyond the stars.quests.38A6F2FA481A85E5.description4}"
 			]
 			id: "38A6F2FA481A85E5"
 			shape: "gear"
@@ -34,7 +166,7 @@
 			}]
 			title: "{gto.Beyond the stars.quests.38A6F2FA481A85E5.title}"
 			x: -4.5d
-			y: -3.0d
+			y: -4.5d
 		}
 		{
 			dependencies: [
@@ -49,8 +181,8 @@
 				item: "gtocore:rocket_assembler"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -1.0d
+			x: -2.6d
+			y: -1.5d
 		}
 		{
 			dependencies: ["38A6F2FA481A85E5"]
@@ -147,7 +279,6 @@
 				"00F5434FFC976943"
 				"191A9B5DBD565F48"
 			]
-			description: [""]
 			id: "5C067CA2FCE6B458"
 			shape: "gear"
 			size: 2.5d
@@ -275,7 +406,7 @@
 			id: "40536B32E6A432CD"
 			title: "{gto.Beyond the stars.quests.40536B32E6A432CD.title}"
 			x: -7.0d
-			y: -3.0d
+			y: -3.15d
 		}
 		{
 			dependencies: [
@@ -473,7 +604,7 @@
 				}
 			]
 			title: "{gto.Beyond the stars.quests.7FE2763143958129.title}"
-			x: 5.5d
+			x: 5.0d
 			y: 3.0d
 		}
 		{
@@ -548,7 +679,7 @@
 				}
 			]
 			title: "{gto.Beyond the stars.quests.1D57ED21E8AD1A26.title}"
-			x: 5.5d
+			x: 5.0d
 			y: -1.0d
 		}
 		{
@@ -587,7 +718,7 @@
 				type: "dimension"
 			}]
 			title: "{gto.Beyond the stars.quests.61C37EC8503FFDD9.title}"
-			x: 8.5d
+			x: 8.0d
 			y: 1.0d
 		}
 		{
@@ -622,8 +753,8 @@
 					type: "item"
 				}
 			]
-			x: 8.5d
-			y: -1.5d
+			x: 8.0d
+			y: -1.0d
 		}
 		{
 			dependencies: [
@@ -636,7 +767,7 @@
 				item: "gtocore:heavy_duty_plate_2"
 				type: "item"
 			}]
-			x: 12.5d
+			x: 12.0d
 			y: 1.0d
 		}
 		{
@@ -654,7 +785,7 @@
 				type: "item"
 			}]
 			title: "{gto.Beyond the stars.quests.3ABEFC9B7DA3F098.title}"
-			x: 15.0d
+			x: 14.5d
 			y: 1.0d
 		}
 		{
@@ -692,15 +823,15 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["3ABEFC9B7DA3F098"]
+			dependencies: ["4BA3FA62A307DBC5"]
 			id: "7662AEC801BD79CC"
 			tasks: [{
 				id: "5AE2A4204E137F9F"
 				item: "gtceu:radon_bucket"
 				type: "item"
 			}]
-			x: 15.0d
-			y: -1.5d
+			x: 17.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["64FA0FF3FE276D35"]
@@ -741,7 +872,11 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["64FA0FF3FE276D35"]
+			dependencies: [
+				"2F6C81E3B10365E8"
+				"256F90AFB461107E"
+				"2F03D93AC7DBE58D"
+			]
 			id: "2D901DBE68F833D2"
 			shape: "hexagon"
 			size: 2.0d
@@ -793,7 +928,7 @@
 				}
 			]
 			x: 24.0d
-			y: -1.5d
+			y: 3.25d
 		}
 		{
 			dependencies: ["52F43DFB331C72C6"]
@@ -813,7 +948,7 @@
 			}]
 			title: "{gto.Beyond the stars.quests.27771E52B49806B6.title}"
 			x: 22.5d
-			y: 7.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["34391A7A0D1E8CB6"]
@@ -907,7 +1042,7 @@
 				}
 			]
 			x: 22.5d
-			y: 9.5d
+			y: 10.0d
 		}
 		{
 			dependencies: [
@@ -941,7 +1076,7 @@
 				type: "item"
 			}]
 			x: 20.5d
-			y: 7.5d
+			y: 8.0d
 		}
 		{
 			dependencies: [
@@ -1033,6 +1168,7 @@
 				"7819A5BABF1D103D"
 			]
 			dependency_requirement: "one_completed"
+			description: ["{gto.Beyond the stars.quests.0722FCD257F887E1.description0}"]
 			id: "0722FCD257F887E1"
 			tasks: [{
 				id: "4990E4E42B5DEF42"
@@ -1159,8 +1295,8 @@
 				item: "ad_astra:desh_tank"
 				type: "item"
 			}]
-			x: 26.0d
-			y: 5.5d
+			x: 26.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["3CD22DCF237D3331"]
@@ -1170,15 +1306,14 @@
 				item: "ad_astra:desh_engine"
 				type: "item"
 			}]
-			x: 28.0d
-			y: 5.5d
+			x: 27.5d
+			y: 6.0d
 		}
 		{
 			dependencies: [
 				"646DBDD65771EA95"
 				"340039CBDC85B76D"
 			]
-			description: [""]
 			id: "52F43DFB331C72C6"
 			shape: "gear"
 			size: 2.5d
@@ -1193,11 +1328,10 @@
 			}]
 			title: "{gto.Beyond the stars.quests.52F43DFB331C72C6.title}"
 			x: 27.0d
-			y: 7.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["52F43DFB331C72C6"]
-			description: [""]
 			icon: "ad_astra:ceres_globe"
 			id: "136025CCB32D6AFE"
 			rewards: [{
@@ -1214,7 +1348,7 @@
 			}]
 			title: "{gto.Beyond the stars.quests.136025CCB32D6AFE.title}"
 			x: 27.0d
-			y: 10.5d
+			y: 11.0d
 		}
 		{
 			dependencies: ["136025CCB32D6AFE"]
@@ -1225,7 +1359,7 @@
 				type: "item"
 			}]
 			x: 29.0d
-			y: 10.5d
+			y: 11.0d
 		}
 		{
 			dependencies: ["136025CCB32D6AFE"]
@@ -1236,7 +1370,7 @@
 				type: "item"
 			}]
 			x: 25.0d
-			y: 10.5d
+			y: 11.0d
 		}
 		{
 			dependencies: ["136025CCB32D6AFE"]
@@ -1254,7 +1388,7 @@
 				}
 			]
 			x: 27.0d
-			y: 12.5d
+			y: 13.0d
 		}
 		{
 			dependencies: ["5B4A3DAE5750D655"]
@@ -1265,7 +1399,7 @@
 				type: "item"
 			}]
 			x: 25.0d
-			y: 12.5d
+			y: 13.0d
 		}
 		{
 			dependencies: ["2AE53541FEB541E9"]
@@ -1276,7 +1410,7 @@
 				type: "item"
 			}]
 			x: 23.5d
-			y: 11.5d
+			y: 12.5d
 		}
 		{
 			dependencies: ["2AE53541FEB541E9"]
@@ -1308,12 +1442,15 @@
 			}]
 			title: "{gto.Beyond the stars.quests.3AFC4304A2AD53A8.title}"
 			x: 21.5d
-			y: 12.5d
+			y: 13.0d
 		}
 		{
 			dependencies: [
-				"3AFC4304A2AD53A8"
 				"56408F9F9ACD204D"
+				"2F6C81E3B10365E8"
+				"3AFC4304A2AD53A8"
+				"256F90AFB461107E"
+				"2F03D93AC7DBE58D"
 			]
 			icon: "ad_astra:ganymede_globe"
 			id: "27541258B94B2A11"
@@ -1330,7 +1467,7 @@
 				type: "dimension"
 			}]
 			title: "{gto.Beyond the stars.quests.27541258B94B2A11.title}"
-			x: 18.0d
+			x: 21.5d
 			y: 15.5d
 		}
 		{
@@ -1354,7 +1491,7 @@
 			}]
 			title: "{gto.Beyond the stars.quests.15356C4478131544.title}"
 			x: 18.0d
-			y: 12.5d
+			y: 13.0d
 		}
 		{
 			dependencies: ["15356C4478131544"]
@@ -1372,7 +1509,7 @@
 				}
 			]
 			x: 16.0d
-			y: 12.5d
+			y: 13.0d
 		}
 		{
 			dependencies: ["15356C4478131544"]
@@ -1383,7 +1520,7 @@
 				type: "item"
 			}]
 			x: 18.0d
-			y: 10.5d
+			y: 11.0d
 		}
 		{
 			dependencies: ["15356C4478131544"]
@@ -1406,10 +1543,13 @@
 				}
 			]
 			x: 16.0d
-			y: 10.5d
+			y: 11.0d
 		}
 		{
-			dependencies: ["5B4A3DAE5750D655"]
+			dependencies: [
+				"256F90AFB461107E"
+				"2F03D93AC7DBE58D"
+			]
 			id: "56408F9F9ACD204D"
 			shape: "hexagon"
 			size: 2.0d
@@ -1460,7 +1600,7 @@
 					type: "item"
 				}
 			]
-			x: 21.5d
+			x: 18.0d
 			y: 15.5d
 		}
 		{
@@ -1471,8 +1611,8 @@
 				item: "gtceu:hydrochloric_acid_bucket"
 				type: "item"
 			}]
-			x: 16.0d
-			y: 15.5d
+			x: 21.5d
+			y: 17.0d
 		}
 		{
 			dependencies: [
@@ -1486,7 +1626,7 @@
 				type: "item"
 			}]
 			x: 14.0d
-			y: 12.5d
+			y: 13.0d
 		}
 		{
 			dependencies: ["2745D369F53613F8"]
@@ -1497,7 +1637,7 @@
 				type: "item"
 			}]
 			x: 12.5d
-			y: 11.5d
+			y: 12.5d
 		}
 		{
 			dependencies: ["2745D369F53613F8"]
@@ -1529,11 +1669,10 @@
 			}]
 			title: "{gto.Beyond the stars.quests.383B710C58CEA6AF.title}"
 			x: 10.5d
-			y: 12.5d
+			y: 13.0d
 		}
 		{
 			dependencies: ["383B710C58CEA6AF"]
-			description: [""]
 			icon: "ad_astra:enceladus_globe"
 			id: "1A21D952F3219B5B"
 			rewards: [{
@@ -1549,7 +1688,7 @@
 				type: "dimension"
 			}]
 			title: "{gto.Beyond the stars.quests.1A21D952F3219B5B.title}"
-			x: 7.0d
+			x: 7.5d
 			y: 15.5d
 		}
 		{
@@ -1567,12 +1706,11 @@
 					type: "item"
 				}
 			]
-			x: 7.0d
+			x: 7.5d
 			y: 17.0d
 		}
 		{
 			dependencies: ["383B710C58CEA6AF"]
-			description: [""]
 			icon: "ad_astra:titan_globe"
 			id: "4C8AF861C4D0AFF2"
 			rewards: [{
@@ -1588,8 +1726,8 @@
 				type: "dimension"
 			}]
 			title: "{gto.Beyond the stars.quests.4C8AF861C4D0AFF2.title}"
-			x: 7.0d
-			y: 10.0d
+			x: 7.5d
+			y: 10.5d
 		}
 		{
 			dependencies: ["4C8AF861C4D0AFF2"]
@@ -1611,8 +1749,8 @@
 					type: "item"
 				}
 			]
-			x: 7.0d
-			y: 8.5d
+			x: 7.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["383B710C58CEA6AF"]
@@ -1631,8 +1769,8 @@
 				type: "dimension"
 			}]
 			title: "{gto.Beyond the stars.quests.20932057C572CBB7.title}"
-			x: 7.0d
-			y: 12.5d
+			x: 7.5d
+			y: 13.0d
 		}
 		{
 			dependencies: ["20932057C572CBB7"]
@@ -1642,12 +1780,11 @@
 				item: "gtceu:nitric_acid_bucket"
 				type: "item"
 			}]
-			x: 5.5d
-			y: 11.0d
+			x: 6.0d
+			y: 14.5d
 		}
 		{
 			dependencies: ["20932057C572CBB7"]
-			description: [""]
 			id: "1FE56FCF598C90B1"
 			shape: "gear"
 			size: 2.5d
@@ -1661,11 +1798,11 @@
 				type: "item"
 			}]
 			title: "{gto.Beyond the stars.quests.1FE56FCF598C90B1.title}"
-			x: 4.0d
-			y: 12.5d
+			x: 4.5d
+			y: 13.0d
 		}
 		{
-			dependencies: ["20932057C572CBB7"]
+			dependencies: ["256F90AFB461107E"]
 			id: "72AACC1178BF7586"
 			shape: "hexagon"
 			size: 2.0d
@@ -1716,8 +1853,8 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
-			y: 15.0d
+			x: 4.5d
+			y: 15.5d
 		}
 		{
 			dependencies: [
@@ -1740,7 +1877,7 @@
 			}]
 			title: "{gto.Beyond the stars.quests.5541FCA4ECD33B07.title}"
 			x: 1.5d
-			y: 12.5d
+			y: 13.0d
 		}
 		{
 			dependencies: ["5541FCA4ECD33B07"]
@@ -1751,7 +1888,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: 12.5d
+			y: 13.0d
 		}
 		{
 			dependencies: ["55FCF330DABADFB1"]
@@ -1781,28 +1918,29 @@
 			}]
 			title: "{gto.Beyond the stars.quests.05C7059BC114AD42.title}"
 			x: -3.0d
-			y: 12.5d
+			y: 13.0d
 		}
 		{
 			dependencies: ["05C7059BC114AD42"]
-			description: [""]
+			description: ["{gto.Beyond the stars.quests.6320619CCAE8158F.description0}"]
 			icon: "ad_astra:barnarda_c_globe"
+			icon_scale: 2.0d
 			id: "6320619CCAE8158F"
 			rewards: [{
 				id: "2800607957BD6BA6"
 				item: "ad_astra:barnarda_c_globe"
 				type: "item"
 			}]
-			shape: "gear"
-			size: 2.0d
+			shape: "none"
+			size: 2.5d
 			tasks: [{
 				dimension: "gtocore:barnarda_c"
 				id: "7BF134BB2D789667"
 				type: "dimension"
 			}]
 			title: "{gto.Beyond the stars.quests.6320619CCAE8158F.title}"
-			x: -6.0d
-			y: 12.5d
+			x: -3.0d
+			y: 19.0d
 		}
 		{
 			dependencies: ["6320619CCAE8158F"]
@@ -1812,8 +1950,8 @@
 				item: "gtocore:unknowwater_bucket"
 				type: "item"
 			}]
-			x: -6.0d
-			y: 14.5d
+			x: -3.0d
+			y: 21.5d
 		}
 		{
 			dependencies: [
@@ -1866,7 +2004,7 @@
 				type: "item"
 			}]
 			x: -11.0d
-			y: 10.0d
+			y: 10.5d
 		}
 		{
 			id: "618BFD8A6FC90B86"
@@ -1875,11 +2013,16 @@
 				item: "gtceu:dinitrogen_tetroxide_bucket"
 				type: "item"
 			}]
-			x: -10.0d
-			y: 8.5d
+			x: -11.0d
+			y: 9.0d
 		}
 		{
-			dependencies: ["4A3E57669091C8A0"]
+			dependencies: [
+				"4A3E57669091C8A0"
+				"5EECA1A7B726B29F"
+				"67A5C9B045EE23B0"
+				"462BE2D4394A2899"
+			]
 			id: "2A60421E915FF505"
 			shape: "gear"
 			size: 2.0d
@@ -1892,36 +2035,33 @@
 			y: 13.0d
 		}
 		{
-			dependencies: ["2A60421E915FF505"]
 			id: "462BE2D4394A2899"
 			tasks: [{
 				id: "5CC6A7DE21C2E580"
 				item: "gtocore:explosivehydrazine_bucket"
 				type: "item"
 			}]
-			x: -10.0d
-			y: 14.5d
+			x: -11.0d
+			y: 14.0d
 		}
 		{
-			dependencies: ["2A60421E915FF505"]
 			id: "5EECA1A7B726B29F"
 			tasks: [{
 				id: "7E93DB0BF1AD0956"
 				item: "ad_astra:ice_shard"
 				type: "item"
 			}]
-			x: -10.0d
-			y: 11.5d
+			x: -11.0d
+			y: 12.0d
 		}
 		{
-			dependencies: ["2A60421E915FF505"]
 			id: "67A5C9B045EE23B0"
 			tasks: [{
 				id: "670C999BAD383253"
 				item: "gtceu:cetane_boosted_diesel_bucket"
 				type: "item"
 			}]
-			x: -11.0d
+			x: -11.5d
 			y: 13.0d
 		}
 		{
@@ -1986,7 +2126,7 @@
 				item: "gtceu:raw_bauxite"
 				type: "item"
 			}]
-			x: 10.5d
+			x: 10.0d
 			y: 0.0d
 		}
 		{
@@ -2006,7 +2146,7 @@
 				item: "gtceu:raw_ilmenite"
 				type: "item"
 			}]
-			x: 10.5d
+			x: 10.0d
 			y: 2.0d
 		}
 		{
@@ -2039,7 +2179,7 @@
 					type: "item"
 				}
 			]
-			x: -1.5d
+			x: -2.0d
 			y: 4.5d
 		}
 		{
@@ -2066,7 +2206,7 @@
 				}
 				type: "item"
 			}]
-			x: 0.5d
+			x: 0.0d
 			y: 4.5d
 		}
 		{
@@ -2084,7 +2224,7 @@
 				}
 				type: "item"
 			}]
-			x: 4.5d
+			x: 4.0d
 			y: 4.5d
 		}
 		{
@@ -2101,7 +2241,7 @@
 				}
 				type: "item"
 			}]
-			x: 2.5d
+			x: 2.0d
 			y: 4.5d
 		}
 		{
@@ -2136,7 +2276,7 @@
 					type: "item"
 				}
 			]
-			x: 6.5d
+			x: 6.0d
 			y: 4.5d
 		}
 		{
@@ -2154,7 +2294,7 @@
 				}
 				type: "item"
 			}]
-			x: 8.5d
+			x: 8.0d
 			y: 4.5d
 		}
 		{
@@ -2169,7 +2309,7 @@
 				}
 				type: "item"
 			}]
-			x: 10.5d
+			x: 10.0d
 			y: 4.5d
 		}
 		{
@@ -2184,8 +2324,21 @@
 				}
 				type: "item"
 			}]
-			x: 12.5d
+			x: 12.0d
 			y: 4.5d
+		}
+		{
+			dependencies: ["3581343F25D5B03F"]
+			id: "13F025F762A84795"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "6D9447587AC83C1E"
+				type: "checkmark"
+			}]
+			title: "{gto.Beyond the stars.quests.13F025F762A84795.title}"
+			x: -9.0d
+			y: 19.0d
 		}
 	]
 	title: "{gto.Beyond the stars.title}"
