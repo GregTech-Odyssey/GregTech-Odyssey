@@ -1,0 +1,13 @@
+name = "Applied Web Terminal"
+filename = "appwebterminal-1.2.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "5952cf519ae0b79607831a06d65df44e10ca1e86"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6621240
+project-id = 1247579

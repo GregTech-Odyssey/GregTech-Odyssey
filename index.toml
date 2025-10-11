@@ -6,7 +6,7 @@ hash = "0ccf7084062f696c9c2c8255dc74994327a71512cb290f9e2e2b7ff502850b5e"
 
 [[files]]
 file = "config/AdvancedBackups.properties"
-hash = "db154f73880c88d89fd212b0caa6db2aa4dbfb032c3a7841bd43ec3524a75fa4"
+hash = "1097f9a2f8c1f3a41ca298398ba5ce6e3caae3eaa4d3e26a04ea985b2972e158"
 
 [[files]]
 file = "config/CoroUtil/General.toml"
@@ -99,6 +99,10 @@ hash = "9c06164bad9a22d779a4986dc231071e7a9d3bc8f1d7d67fa277999e510d2a78"
 [[files]]
 file = "config/appleskin-client.toml"
 hash = "e6609ffbea927ee6390b1317bb6f3abb3f31ee591ca5c1d5e748f5e625fefea1"
+
+[[files]]
+file = "config/appwebterminal.yaml"
+hash = "cdac25224f991810f00b9128b262c423a285721c742123cc6da57670cf2135cf"
 
 [[files]]
 file = "config/armorpointspp-client.toml"
@@ -450,7 +454,7 @@ hash = "52fe2e0b1e692f2ec5e06aad8e0c4858b7fde54ef552bea5a71de00eb11d75c7"
 
 [[files]]
 file = "config/asyncparticles/asyncparticles.json"
-hash = "151f0220f19d0b6ccf417eb699c3287e560bc0f9c584952b31400d462643ccb4"
+hash = "e13a32fa93a5bc60e0cb967144b1be5a16e7ec2dfba55f18d6716148bb04c94d"
 
 [[files]]
 file = "config/attributefix.json"
@@ -537,6 +541,10 @@ file = "config/clienttweaks-common.toml"
 hash = "ab11601f5c000a9dc302d0f8bbf30397cbdb8e411ac135cc5b0a3e9123351d16"
 
 [[files]]
+file = "config/configuration-options.json"
+hash = "0b68a3b324f4a172d577a10446593b8f64f38e37199c928b0fc5aee152baee00"
+
+[[files]]
 file = "config/constructionwand-client.toml"
 hash = "49dab16d69ef53b3846431d403918762dc0b22a4efba307c80894eeec64a1118"
 
@@ -614,7 +622,7 @@ hash = "a51452390308a18e517457440e251a4a1737433e6033875e4a3af6cc5afb9283"
 
 [[files]]
 file = "config/doespotatotick-common.toml"
-hash = "f10d6a72bff25b2f23dd0fe5fd95fc2201ff33b82ab8dcc6e5be0268ccc65ecc"
+hash = "efd9a725a29353ee300c31112855db2c12ec9c5ad8897c3a52ac7df8aef51534"
 
 [[files]]
 file = "config/dungeon_crawl.toml"
@@ -1002,7 +1010,7 @@ hash = "8ca69d8240f29625a9589cb7701942ca9a29e02404fd5a3ecaefce454d951b62"
 
 [[files]]
 file = "config/gtceu.yaml"
-hash = "364e20340a50b22fc259df85d0ff3628cc64d5c216eca83748dbf2b737ea24bd"
+hash = "62398089df6c7431349d7c79c99a0304acd759f9a11c203bdc329ec78578d1cb"
 
 [[files]]
 file = "config/guideme.toml"
@@ -1102,7 +1110,7 @@ hash = "b630e660d677e22c694d5b87b5f2da9d8029e2a0ca9cbecbcdb6a774eae6e5c0"
 
 [[files]]
 file = "config/lithium.properties"
-hash = "86375f1a37de373ccc3d1a447b5154441bffec5d14779f77e96c9f059252f39e"
+hash = "db142780f1a6f79c67bd50c015ae47252d957249973071dd069b2f7d23ecf504"
 
 [[files]]
 file = "config/littletiles-client.json"
@@ -2322,6 +2330,11 @@ hash = "f44ea751fe59cb853834aba3f0ae4c9a20f02f36020ae40f4c38d073fd2a257b"
 metafile = true
 
 [[files]]
+file = "mods/applied-web-terminal.pw.toml"
+hash = "8fce940362573dc48e02ba1ab3392613563d335f98615c44e254a3d8e7e7bacf"
+metafile = true
+
+[[files]]
 file = "mods/architectury-api.pw.toml"
 hash = "d0fe65a8e4212a5b74db6f276c4f529b7f89868ca9d365a5683a85b9eee94e35"
 metafile = true
@@ -2353,7 +2366,7 @@ metafile = true
 
 [[files]]
 file = "mods/asyncparticles.pw.toml"
-hash = "94ff1d6575564daf1e87956e554230493c205309cfbe7c7fdbff0996fa715451"
+hash = "628740b65426dedf9b6545418674d5bb80f85087178de754ebaf417f46a90ab3"
 metafile = true
 
 [[files]]
@@ -2378,7 +2391,7 @@ metafile = true
 
 [[files]]
 file = "mods/balm.pw.toml"
-hash = "9b286283ff04cc6100de5af162bc682826b8aaa7621e3386d7e9efc594459c02"
+hash = "f8b6ef08945410e1341212a2723477487fb66a2c8fd67dd201433658791d298d"
 metafile = true
 
 [[files]]
@@ -2429,6 +2442,11 @@ metafile = true
 [[files]]
 file = "mods/cloth-config.pw.toml"
 hash = "a3ef67176af27301b4b15601ad85700d621dd1cfde4308bc55fe0af2fe83ab03"
+metafile = true
+
+[[files]]
+file = "mods/configuration.pw.toml"
+hash = "7c1e6a587c3a46d1f9c379cdd0dc6305a87d578700c64f46da0f630f14b8a98f"
 metafile = true
 
 [[files]]
@@ -2503,7 +2521,7 @@ metafile = true
 
 [[files]]
 file = "mods/doespotatotick.pw.toml"
-hash = "53c3650e67b5fbdbcfc2312a2faa03385b0e8178668dbea0d77b6c4f50fe5796"
+hash = "e311278d16469c1b0f057d111e9f88817ad2ed4325fc4020150e6df0f5961f65"
 metafile = true
 
 [[files]]
@@ -2718,7 +2736,7 @@ metafile = true
 
 [[files]]
 file = "mods/fzzy-config.pw.toml"
-hash = "4646bb5a4309f549c3d37c4d56db379df35128bd16efd200444efe4bd63b995d"
+hash = "f1982207e782ffe93f3cc6b38a910fdd6d9a3630d0d61498d5eb8b31cbe14469"
 metafile = true
 
 [[files]]
@@ -2737,8 +2755,13 @@ hash = "254433b78459c706436b3d020a736890747fa91b7608e036d461db93395aa551"
 metafile = true
 
 [[files]]
-file = "mods/gtocore-0.4.8.6.jar"
-hash = "7742450fa7b89670d34a3f24ed46e14278d29d13d26796d9447be49056fdb94a"
+file = "mods/gnetum.pw.toml"
+hash = "e7e945f4de57f3dc9053d71af162d89f9746c4b03e26d7c93309b21eed2e17d2"
+metafile = true
+
+[[files]]
+file = "mods/gtocore-0.4.8.8.jar"
+hash = "86d916c277b1e064e14e16f9a7a54b5719ebe28ff54d9a4b52e99d731524246f"
 
 [[files]]
 file = "mods/guideme.pw.toml"
@@ -2907,7 +2930,7 @@ metafile = true
 
 [[files]]
 file = "mods/oh-the-trees-youll-grow.pw.toml"
-hash = "13973832e0cd4aed722970730bf1edbd7e9a454ab550a4d7ab3cbb09221abfc6"
+hash = "a5be3199e927ec8fc569b72068e50231666021fe5535d7517dbb67e19d1c04b9"
 metafile = true
 
 [[files]]
@@ -3002,7 +3025,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "950b622cb35ab9c7dfe669447d0c57de253290b29c600457478280744a3fbf9a"
+hash = "c75ebf9c829e758b5495ce7c7616a1fdf88164c2a4e846b5acb94e4510eb8e25"
 metafile = true
 
 [[files]]
