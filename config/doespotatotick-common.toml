@@ -1,12 +1,8 @@
 
 #DoesPotatoTick?
 ["Living Entities Tick Settings"]
-	#If you disable this, entities will not stop ticking when they'are far from you, this mod may be useless for you too
+	#If you disable this, entities will not stop ticking when they're far from you, this mod may be useless for you too
 	OptimizeEntitiesTicking = true
-	#Range: > 1
-	LivingEntitiesMaxHorizontalTickDistance = 64
-	#Range: > 1
-	LivingEntitiesMaxVerticalTickDistance = 32
 	#If you don't want an entity to be affected by the optimization, you can write its registry name down here.
 	EntitiesWhitelist = ["minecraft:ender_dragon", "minecraft:ghast", "minecraft:wither", "minecraft:player"]
 	#If you don't want entities of a mod to be affected by the optimization, you can write its modid down here
@@ -22,14 +18,16 @@
 	IgnoreDeadEntities = false
 	#With this turned on, all the raider will always tick if the world has raids
 	TickRaidersIfRaid = true
-	#Allow ticking of entities in force loaded chunks
-	AllowForceLoaded = true
 	#If this is enabled, hostile entities will always tick
 	IgnoreHostileEntities = false
 	#If this is enabled, projectiles will always tick
 	IgnoreProjectiles = true
 	#If this is enabled, optimization will only take effect on living entities
 	OnlyLivingOptimizable = false
+	#Range: > 1
+	LivingEntitiesMaxHorizontalTickDistanceInChunks = 4
+	#Range: > 1
+	LivingEntitiesMaxVerticalTickDistanceInChunks = 2
 
 ["Item Entities Tick Settings"]
 	#Slow down item entities' ticking speed
@@ -49,9 +47,4 @@
 [Client]
 	#If the tick of an entity is skipped by this mod, stop its client rendering so that players won't get it stuck in their worlds.
 	StopRenderingSkippedEntities = true
-	#How often the mod checks if an entity should be ticked and rendered, counted in rendering calls instead of game ticks. Higher values mean it checks less often, which might save a tiny bit of performance (honestly, not super noticeable lol), but updates will feel a little slower.
-	#Range: > 0
-	EntityRenderableRefreshInterval = 60
-	#Use client's average fps as EntityRenderableRefreshInterval.
-	UseAvgFpsAsRefreshInterval = true
 
