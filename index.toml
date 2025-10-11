@@ -1197,10 +1197,6 @@ file = "config/openloader/data/data/data/ad_astra/planets/glacio_orbit.json"
 hash = "bcad6519500c494e53b4d4d0bd2a758a951377ebc7d91692b7f4441c85ef0ef4"
 
 [[files]]
-file = "config/openloader/data/data/data/ad_astra/recipes/space_station/earth_orbit_space_station.json"
-hash = "3c105e9bd960c01c34cd08e9994c17bc9b4354bbd087ab294315cc09c17be6e7"
-
-[[files]]
 file = "config/openloader/data/data/data/ad_astra/tags/fluids/efficient_fuel.json"
 hash = "33975eff3c2c6cf9000bce7825e1256f756eb8a353be7e9b7011bb4298f97a65"
 
@@ -1491,6 +1487,66 @@ hash = "0adc059a95267b09d3e73d327d1845651d2be6669bc7a5ce3d2a13509074a0ac"
 [[files]]
 file = "config/openloader/resources/resources/assets/gtocore/lang/en_us.json"
 hash = "3a73e47a36ebcebcdbb2b9dcae11122c881ba27a110e9c54517178eee611f734"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/gtocore/textures/item/tier/t0.png"
+hash = "4fd40bc7c43be7ebc018c8e7ac94bb38a5598ce777c9cd9ef401b59230195c72"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/gtocore/textures/item/tier/t1.png"
+hash = "c3c9eb6809357c4c6d0790e0e5bef8f4925d3eb1bd34ad7463fd48a3e07ae83c"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/gtocore/textures/item/tier/t10.png"
+hash = "2ca1a9d4f80031a398f938d4ea870733d346914dbf7a98f5caffa8ed9b935334"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/gtocore/textures/item/tier/t11.png"
+hash = "b01a94275039ff4b69bd1e78651a46a3b710b790af88e7a77ff71d29fab8cb4b"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/gtocore/textures/item/tier/t12.png"
+hash = "c3ed28cde87b04584c8460125480a7992b6a6d4bbb83fb27bf00c69c943bd697"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/gtocore/textures/item/tier/t13.png"
+hash = "b7748e9c24ff89c0d6b489eef0cdb7e5ba53cb9db52dfafa827b26d0242f5921"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/gtocore/textures/item/tier/t14.png"
+hash = "9e5702b37723f2ff07f88df127aa2bd6c4032a041705c3ffc023697798692814"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/gtocore/textures/item/tier/t2.png"
+hash = "ce3b3f6c30b63c16786672905bb0101bb88555cd7b633dae84a5b4c6a42e396e"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/gtocore/textures/item/tier/t3.png"
+hash = "fb8fc85a5f8f799d97bb822bf594a6e51c2c6b1df05ace970ece4b034cf28faf"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/gtocore/textures/item/tier/t4.png"
+hash = "0c79403cd3e5ab6dade3dffd1123be6a35d91012c43aeab8a37b105a0cb2c640"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/gtocore/textures/item/tier/t5.png"
+hash = "29715c97c6fd8635e9528161a0f21c5a3db2879dfd9cb792e0806dcde026e7c9"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/gtocore/textures/item/tier/t6.png"
+hash = "d302d80d0e52a866d4cb460f6317b34e07c1ba356ba5bcbb2493a479b2ce4f9f"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/gtocore/textures/item/tier/t7.png"
+hash = "831692e41aa2c10dfc66ab5979d9dbd0f6f1d3ddd8ffef452d59e0d7aba5146e"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/gtocore/textures/item/tier/t8.png"
+hash = "f8777a3e2b0d3f380abcb64263b8ad9e969ef97b9870df98c737f3dc93808352"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/gtocore/textures/item/tier/t9.png"
+hash = "8941e0dc8e76d0f1ee05fb373b1a9b7e0b343b58cb4259cbdab0ce857211aec6"
 
 [[files]]
 file = "config/openloader/resources/resources/assets/jei/textures/jei/gui/gui_vanilla.png"
@@ -2738,7 +2794,7 @@ metafile = true
 
 [[files]]
 file = "mods/gtocore-0.4.9.jar"
-hash = "40a81a32aae9ddf2f6688b67d0d1b87f88a7cb567eb57987b2ff27cf23bf238d"
+hash = "d13006021305c499033edf2b916cd8dcc275a9ce40282c0933e53d64740cbce1"
 
 [[files]]
 file = "mods/guideme.pw.toml"
