@@ -646,7 +646,7 @@ hash = "09ff183e061d93b79514bc171bf9118497578757e7a5c45946039487656e2619"
 
 [[files]]
 file = "config/emi.css"
-hash = "5945e3d06950df81f50595bbddbcbc4fa6f3ac7acc2c4fd74c29c0c7849bc3e2"
+hash = "f8f43d6e59323558378c6143afb1693d4bd7db78f023aac0ead3db1d7968541c"
 
 [[files]]
 file = "config/emitrades.json5"
@@ -2756,12 +2756,12 @@ metafile = true
 
 [[files]]
 file = "mods/gnetum.pw.toml"
-hash = "e7e945f4de57f3dc9053d71af162d89f9746c4b03e26d7c93309b21eed2e17d2"
+hash = "8c321ef79f3002fdf45b60e172f6849459da829a350a3354498004ac13794b5c"
 metafile = true
 
 [[files]]
-file = "mods/gtocore-0.4.8.8.jar"
-hash = "86d916c277b1e064e14e16f9a7a54b5719ebe28ff54d9a4b52e99d731524246f"
+file = "mods/gtocore-0.4.8.9.jar"
+hash = "7c4b45398f9bf3a946dd53c0148cffcd92c76e08efbfa2389de0abef1f5bfbed"
 
 [[files]]
 file = "mods/guideme.pw.toml"
