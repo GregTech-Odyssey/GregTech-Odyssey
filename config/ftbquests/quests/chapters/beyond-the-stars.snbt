@@ -1,7 +1,7 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "Beyond the stars"
+	filename: "beyond-the-stars"
 	group: ""
 	icon: {
 		Count: 1
@@ -2341,5 +2341,6 @@
 			y: 19.0d
 		}
 	]
+	subtitle: ["Voyage to the Void"]
 	title: "冯虚御风"
 }
