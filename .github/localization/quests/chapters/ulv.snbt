@@ -361,7 +361,6 @@
 		}
 		{
 			dependencies: [
-				"53109F7472C0B443"
 				"2D5EB54D9AC2F900"
 				"0B7EC948A9BA56EF"
 				"206990570B2743AE"
@@ -1032,7 +1031,10 @@
 			y: -3.5d
 		}
 		{
-			dependencies: ["6E3C93AC06BB6F31"]
+			dependencies: [
+				"6E3C93AC06BB6F31"
+				"53109F7472C0B443"
+			]
 			description: ["{gto.ulv.quests.0B7EC948A9BA56EF.description0}"]
 			id: "0B7EC948A9BA56EF"
 			shape: "circle"

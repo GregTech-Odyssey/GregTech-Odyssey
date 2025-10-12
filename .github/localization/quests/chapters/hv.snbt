@@ -1563,7 +1563,6 @@
 			dependencies: ["31C82EC18535B9B9"]
 			description: ["{gto.hv.quests.45D3AA16A96DECD7.description0}"]
 			id: "45D3AA16A96DECD7"
-			optional: true
 			shape: "diamond"
 			tasks: [{
 				id: "71C6003B9CFEB691"
