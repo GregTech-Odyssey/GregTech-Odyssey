@@ -1105,5 +1105,6 @@
 			y: -11.5d
 		}
 	]
+	subtitle: ["{gto.progress.subtitle0}"]
 	title: "{gto.progress.title}"
 }
