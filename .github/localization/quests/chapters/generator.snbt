@@ -374,6 +374,7 @@
 			y: -2.0d
 		}
 		{
+			dependencies: ["55E9EFC33E17F7F0"]
 			id: "473E29EDA715F45A"
 			tasks: [{
 				id: "2E633E52471C863A"
@@ -384,7 +385,7 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["55E9EFC33E17F7F0"]
+			dependencies: ["12DA091EB0EBBD9C"]
 			id: "623F863F6B8CBBA5"
 			tasks: [{
 				id: "4D5E7E83C6DFB4C7"
@@ -477,6 +478,7 @@
 		}
 		{
 			dependencies: ["13F019ECC7418805"]
+			hide_dependent_lines: true
 			id: "79EFF40E78AFBA8C"
 			tasks: [{
 				id: "390CE3148597A8CA"
@@ -487,6 +489,7 @@
 			y: -0.5d
 		}
 		{
+			dependencies: ["79EFF40E78AFBA8C"]
 			description: ["{gto.generator.quests.2504764FE4CC9197.description0}"]
 			id: "2504764FE4CC9197"
 			size: 1.5d
@@ -614,6 +617,7 @@
 			y: -4.0d
 		}
 		{
+			dependencies: ["761587B546E4158C"]
 			description: ["{gto.generator.quests.573F79427CA49684.description0}"]
 			id: "573F79427CA49684"
 			tasks: [{
@@ -741,6 +745,7 @@
 		{
 			description: ["{gto.generator.quests.5795384C57874FE0.description0}"]
 			id: "5795384C57874FE0"
+			invisible: true
 			min_width: 250
 			tasks: [
 				{
@@ -1232,9 +1237,23 @@
 				item: "gtocore:luv_lightning_rod"
 				type: "item"
 			}]
-			x: -4.0d
+			x: -3.5d
 			y: -12.5d
 		}
+		{
+			dependencies: ["7219F8307E1F25FB"]
+			description: ["{gto.generator.quests.64BCA4DD3C153A4B.description0}"]
+			id: "64BCA4DD3C153A4B"
+			size: 2.0d
+			tasks: [{
+				id: "36B6BC0BFC62357B"
+				item: "gtocore:fuel_cell_generator"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.0d
+		}
 	]
+	subtitle: ["{gto.generator.subtitle0}"]
 	title: "{gto.generator.title}"
 }
