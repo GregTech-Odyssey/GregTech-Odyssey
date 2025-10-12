@@ -6,7 +6,7 @@ hash = "0ccf7084062f696c9c2c8255dc74994327a71512cb290f9e2e2b7ff502850b5e"
 
 [[files]]
 file = "config/AdvancedBackups.properties"
-hash = "1097f9a2f8c1f3a41ca298398ba5ce6e3caae3eaa4d3e26a04ea985b2972e158"
+hash = "11f887a741007d8cfddc4364819002706548b03344f48f0e2686653cb3f75945"
 
 [[files]]
 file = "config/CoroUtil/General.toml"
@@ -2174,7 +2174,7 @@ hash = "47b287f97fc61a322d7a19087bc9e9696de5b8f6060a5a2eda73d3d4ab3805c2"
 
 [[files]]
 file = "config/sidebar_buttons.json"
-hash = "c0a2342ab1d042cec98799321a196d4b9ef958d6fdd59869c905226e71c5c8b2"
+hash = "f37500e8d3440dc1da3307f0fbbb3a0c181794c844efab9cfeb16564b4f22f3d"
 
 [[files]]
 file = "config/solcarrot-client.toml"
@@ -2386,11 +2386,6 @@ hash = "f44ea751fe59cb853834aba3f0ae4c9a20f02f36020ae40f4c38d073fd2a257b"
 metafile = true
 
 [[files]]
-file = "mods/applied-web-terminal.pw.toml"
-hash = "8fce940362573dc48e02ba1ab3392613563d335f98615c44e254a3d8e7e7bacf"
-metafile = true
-
-[[files]]
 file = "mods/architectury-api.pw.toml"
 hash = "d0fe65a8e4212a5b74db6f276c4f529b7f89868ca9d365a5683a85b9eee94e35"
 metafile = true
@@ -2577,7 +2572,7 @@ metafile = true
 
 [[files]]
 file = "mods/doespotatotick.pw.toml"
-hash = "e311278d16469c1b0f057d111e9f88817ad2ed4325fc4020150e6df0f5961f65"
+hash = "97fd914322cbffd1b1e4a01aedd599d794d57f15c4c99b6117f6a05ace5ee3ec"
 metafile = true
 
 [[files]]
@@ -2816,8 +2811,8 @@ hash = "8c321ef79f3002fdf45b60e172f6849459da829a350a3354498004ac13794b5c"
 metafile = true
 
 [[files]]
-file = "mods/gtocore-0.4.9.jar"
-hash = "b0ef6cb18a182a2dfcd4c0cf2126d2d76ce9b85b977eb2771929bc5f774e3412"
+file = "mods/gtocore-0.4.9.1.jar"
+hash = "bd409494157a12e50e834ed514d0cd39d68f17a4812ae7f5546bb84da9ae5322"
 
 [[files]]
 file = "mods/guideme.pw.toml"
@@ -2986,7 +2981,7 @@ metafile = true
 
 [[files]]
 file = "mods/oh-the-trees-youll-grow.pw.toml"
-hash = "a5be3199e927ec8fc569b72068e50231666021fe5535d7517dbb67e19d1c04b9"
+hash = "060967c337239159637dc07818af3020eb7c323102fe21f4171645c030e3fec7"
 metafile = true
 
 [[files]]
