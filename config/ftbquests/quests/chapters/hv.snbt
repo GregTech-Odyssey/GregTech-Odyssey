@@ -1561,9 +1561,8 @@
 		}
 		{
 			dependencies: ["31C82EC18535B9B9"]
-			description: ["你真的要做&bMV&r等级的吗？看看这页任务书，你马上就会解锁&6HV&r等级的！"]
+			description: ["&bMV&r等级的整体框架可以让你的通用工厂执行&bMV&r级别以下的所有配方"]
 			id: "45D3AA16A96DECD7"
-			optional: true
 			shape: "diamond"
 			tasks: [{
 				id: "71C6003B9CFEB691"
