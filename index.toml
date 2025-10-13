@@ -101,10 +101,6 @@ file = "config/appleskin-client.toml"
 hash = "e6609ffbea927ee6390b1317bb6f3abb3f31ee591ca5c1d5e748f5e625fefea1"
 
 [[files]]
-file = "config/appwebterminal.yaml"
-hash = "cdac25224f991810f00b9128b262c423a285721c742123cc6da57670cf2135cf"
-
-[[files]]
 file = "config/armorpointspp-client.toml"
 hash = "2f2c6cef9c13d90f14c7e50c4c79ca44380e50dfa3e9d5e6f3daa81fb9aeab15"
 
@@ -779,10 +775,6 @@ hash = "5b28bb86888ea131fe6576f7c42f886c031e5af19edbf01c0367e2ab4d785ac3"
 [[files]]
 file = "config/framedblocks-common.toml"
 hash = "3df7937868159c8c2570d09c9ef9e0a1127dfbab70c3404c8fd069c7390d39ff"
-
-[[files]]
-file = "config/ftbbackups2.json"
-hash = "7e88163a0edc7f75f7b0d79bc700f262cb80d6bf522f1dc150369069e54805da"
 
 [[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
@@ -2887,8 +2879,8 @@ hash = "8c321ef79f3002fdf45b60e172f6849459da829a350a3354498004ac13794b5c"
 metafile = true
 
 [[files]]
-file = "mods/gtocore-0.4.9.1.jar"
-hash = "1e92593142445d68375dadb4cb9bc1601fc7df4a73025f61f7ec03872c9aaf25"
+file = "mods/gtocore-0.4.9.2.jar"
+hash = "4ba64b96c680387670aef316103b5f6442ddc42651aa545c1799ea6e5cb399ba"
 
 [[files]]
 file = "mods/guideme.pw.toml"
