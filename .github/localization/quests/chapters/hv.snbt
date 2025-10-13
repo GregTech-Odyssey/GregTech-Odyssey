@@ -1419,45 +1419,6 @@
 			y: -5.25d
 		}
 		{
-			dependencies: ["310210D2AD9515E3"]
-			description: [
-				"{gto.hv.quests.21624A4965D8D2D7.description0}"
-				""
-				"{gto.hv.quests.21624A4965D8D2D7.description1}"
-				""
-				"{gto.hv.quests.21624A4965D8D2D7.description2}"
-				""
-				"{gto.hv.quests.21624A4965D8D2D7.description3}"
-				"{@pagebreak}"
-				"{gto.hv.quests.21624A4965D8D2D7.description4}"
-				""
-				"{gto.hv.quests.21624A4965D8D2D7.description5}"
-				"{gto.hv.quests.21624A4965D8D2D7.description6}"
-				"{gto.hv.quests.21624A4965D8D2D7.description7}"
-				"{gto.hv.quests.21624A4965D8D2D7.description8}"
-			]
-			icon: "gtocore:space_probe_mk1"
-			id: "21624A4965D8D2D7"
-			shape: "hexagon"
-			subtitle: "{gto.hv.quests.21624A4965D8D2D7.subtitle}"
-			tasks: [
-				{
-					dimension: "ad_astra:earth_orbit"
-					icon: "gtocore:space_probe_mk1"
-					id: "3DD2A9B564DE322C"
-					title: "{gto.hv.quests.21624A4965D8D2D7.tasks.3DD2A9B564DE322C.title}"
-					type: "dimension"
-				}
-				{
-					id: "32E66E24014A709F"
-					type: "checkmark"
-				}
-			]
-			title: "{gto.hv.quests.21624A4965D8D2D7.title}"
-			x: 12.0d
-			y: 3.5d
-		}
-		{
 			dependencies: ["4BA890971C18F938"]
 			description: ["{gto.hv.quests.3435E0C086B26CBD.description0}"]
 			id: "3435E0C086B26CBD"
@@ -1843,6 +1804,60 @@
 			}]
 			x: 6.0d
 			y: -4.5d
+		}
+		{
+			dependencies: ["310210D2AD9515E3"]
+			description: [
+				"{gto.hv.quests.23E859D5CC9E4C8C.description0}"
+				""
+				"{gto.hv.quests.23E859D5CC9E4C8C.description1}"
+				""
+				"{gto.hv.quests.23E859D5CC9E4C8C.description2}"
+				""
+				"{gto.hv.quests.23E859D5CC9E4C8C.description3}"
+				""
+				"{gto.hv.quests.23E859D5CC9E4C8C.description4}"
+				""
+				"{gto.hv.quests.23E859D5CC9E4C8C.description5}"
+				"{@pagebreak}"
+				"{gto.hv.quests.23E859D5CC9E4C8C.description6}"
+				"{gto.hv.quests.23E859D5CC9E4C8C.description7}"
+				""
+				"{gto.hv.quests.23E859D5CC9E4C8C.description8}"
+				"{gto.hv.quests.23E859D5CC9E4C8C.description9}"
+				"{gto.hv.quests.23E859D5CC9E4C8C.description10}"
+				"{gto.hv.quests.23E859D5CC9E4C8C.description11}"
+				"{gto.hv.quests.23E859D5CC9E4C8C.description12}"
+				"{gto.hv.quests.23E859D5CC9E4C8C.description13}"
+				"{gto.hv.quests.23E859D5CC9E4C8C.description14}"
+				"{gto.hv.quests.23E859D5CC9E4C8C.description15}"
+				"{gto.hv.quests.23E859D5CC9E4C8C.description16}"
+			]
+			icon: "gtocore:space_probe_mk1"
+			id: "23E859D5CC9E4C8C"
+			shape: "hexagon"
+			subtitle: "{gto.hv.quests.23E859D5CC9E4C8C.subtitle}"
+			tasks: [
+				{
+					dimension: "ad_astra:earth_orbit"
+					icon: "gtocore:space_probe_mk1"
+					id: "775042A87953835E"
+					title: "{gto.hv.quests.23E859D5CC9E4C8C.tasks.775042A87953835E.title}"
+					type: "dimension"
+				}
+				{
+					id: "52738870EC2B4600"
+					type: "checkmark"
+				}
+				{
+					id: "18EFA27B9C6AB7E8"
+					item: "gtocore:space_station"
+					type: "item"
+				}
+			]
+			title: "{gto.hv.quests.23E859D5CC9E4C8C.title}"
+			x: 12.0d
+			y: 3.5d
 		}
 	]
 	subtitle: ["{gto.hv.subtitle0}"]

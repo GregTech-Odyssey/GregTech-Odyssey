@@ -802,7 +802,7 @@ hash = "79c658fe8d7c67d311b3773b4287c9b2d58832b26bd8edcb0667645bcea37d94"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/beyond-the-stars.snbt"
-hash = "b82326c731ff03c4f13cdd262471f5dd8e519ee35fe41bedeb49d4cc7048bf6c"
+hash = "da00a079d6b49d2d413615ff4d829fd3c79964b27a33c66ef115b8fed33df81c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/chemical.snbt"
@@ -814,7 +814,7 @@ hash = "e5e53213659ca0fa4316b7a1136128e69912fdaef2dfb2c581571ead7c0a13e3"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ev.snbt"
-hash = "d2a2b93aa3ecc9827eb34264c4dd8834b4c677f9075bd34abc92aeeffa731a3c"
+hash = "fda2a3d3238247f2bb8d46ff4d1fcc72026db4a82f300209138fc101108f162d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/food.snbt"
@@ -834,7 +834,7 @@ hash = "8c1164a34b54305df5dc0204fae0fe6380313ece7fe748a65f473e0692415113"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/hv.snbt"
-hash = "c6ccb73234309422ab20c98e9586690e8e5a4fb24cedf7fbf317f04c9fdd8955"
+hash = "70d20bae7e39c90b427ebe0d24b2e4eaec4c811b1462a24839169a209fc29262"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/immersive-aircraft.snbt"
@@ -842,7 +842,7 @@ hash = "79398b5c7ba4b4baa95950725d3dcaf79d0d29c3dcff69611780f14076279d23"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/iv.snbt"
-hash = "b8bae0c8c395b1b91d3c8a5ef8c8c20e9c2e80b840f4b41fea50d3e9c3f4f338"
+hash = "7e1ed3faf0c12b95196dd41c8fd3613330f119b0733d83941796fc00b2093a76"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/luv.snbt"
@@ -886,7 +886,7 @@ hash = "ff4840dc814cb4d0ac3a38176a9cef0dd3e5f778c0ef0283dbf97dab561e4a41"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ores.snbt"
-hash = "99dd9edb344ce539892670046608321fe76b23743d40b5deaf4d5f69feb2a600"
+hash = "86ddfdaf4b8fe30f060287c4428c57077e44ad708e61386a959dfa5a907bdc9a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/progress.snbt"
@@ -895,6 +895,10 @@ hash = "ace4a54f1498a78fefd9201f907b21d115f676abe35ff1946b3c5994de32ca4a"
 [[files]]
 file = "config/ftbquests/quests/chapters/shop.snbt"
 hash = "11725a608730a6b335c96f42a4a827c183300f2c43ceb0b23633ea093902f343"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/space-station.snbt"
+hash = "d99b58c998cc616732803cdf2aecd566a8ed764fd8ec3245e3994963a3cc684a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/steam.snbt"
@@ -1342,7 +1346,7 @@ hash = "84254dc1e5a56ea70df6b16a2fb2620040592badae436c255997aaae84996d91"
 
 [[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/en_us.json"
-hash = "58517add6f514286cb042c0381d9cab62a9e6d92645a95b28b60a157e8fe1fe3"
+hash = "b9e92cd958add90988f104e825cf8d0ad5dba28db39807c39f278b80a88466ab"
 
 [[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/ru_ru.json"
@@ -1350,11 +1354,11 @@ hash = "49f1dea938171f1d5948d122d89a5c58073b3177574cf30aa6db7e96a9bd68c1"
 
 [[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/zh_cn.json"
-hash = "58517add6f514286cb042c0381d9cab62a9e6d92645a95b28b60a157e8fe1fe3"
+hash = "b9e92cd958add90988f104e825cf8d0ad5dba28db39807c39f278b80a88466ab"
 
 [[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/zh_tw.json"
-hash = "9a92e5c5121f99a5681bf394401574a513dd9340e36f8f50d00236946f3f3c10"
+hash = "45c23cbc5c411a595c265fdc244291b2e2eeadf61d5ddf9e7d5af8d6ad3392db"
 
 [[files]]
 file = "config/openloader/resources/quests/pack.mcmeta"
@@ -1606,7 +1610,7 @@ hash = "3b6f31d9e9f1643595730b16a527fd168c1bd5d212c9005a0fa35b060bfd4bfd"
 
 [[files]]
 file = "config/openloader/resources/resources/assets/gtocore/textures/item/tier/t7.png"
-hash = "d56dcaa29e88ae0e76e2d5725b8dc47356992dc02252f61877d35f277ac11fe9"
+hash = "356226971dbd14fd4115915175bc7456ec83fcf5c067864488d08315fbfdddd0"
 
 [[files]]
 file = "config/openloader/resources/resources/assets/gtocore/textures/item/tier/t7.png.mcmeta"
@@ -3230,7 +3234,3 @@ metafile = true
 file = "mods/yeetusexperimentus.pw.toml"
 hash = "36ee65c43a693265d23837bc1510a3d11fba343343b5d6e2f349fce5c16fe163"
 metafile = true
-
-[[files]]
-file = "pack.bat"
-hash = "f34f4e0549d1696d8fb5334cd07ac50a10cbe3753e52946968373222e57f616f"
