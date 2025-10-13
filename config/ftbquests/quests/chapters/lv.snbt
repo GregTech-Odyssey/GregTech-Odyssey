@@ -7,11 +7,11 @@
 	icon: "gtceu:electric_blast_furnace"
 	id: "4015C56C0D562D25"
 	images: [{
-		height: 1.1d
+		height: 1.0d
 		image: "botania:block/alfheim_portal_swirl"
-		rotation: 0.0d
-		width: 1.1d
-		x: -5.0d
+		rotation: 45.0d
+		width: 1.0d
+		x: -4.5d
 		y: 3.0d
 	}]
 	order_index: 3
@@ -34,8 +34,8 @@
 		{
 			id: "24E6A7A2360C8265"
 			linked_quest: "5FCFE3D6B36CC409"
-			shape: "square"
-			x: -5.0d
+			shape: "diamond"
+			x: -4.5d
 			y: 3.0d
 		}
 	]
@@ -625,7 +625,6 @@
 		}
 		{
 			dependencies: ["06534664971F6E68"]
-			description: [""]
 			id: "23676FA19C92EE5E"
 			rewards: [{
 				count: 4
@@ -699,10 +698,14 @@
 			dependencies: ["33B01E889EE7E990"]
 			description: [
 				"安装&e输入/输出仓&r使多方块机器能够输入/输出&6流体&r，"
+				""
 				"而同样的，安装&e输入/输出总线&r就能够使多方块机器输入/输出&6物品&r。"
+				""
 				"在你能够制作&e输入/输出总成&r之前都必须保持这个组合！"
 				""
-				"请注意：如果没有配方对应的输出仓室，机器是不会执行配方的，它会显示“输出空间不足”以提示你解决该问题· 例如：如果你的电力高炉没有放置输出总线，那它就不会为你炼制铝锭！\""
+				"请注意：如果没有配方对应的输出仓室，机器是不会执行配方的，它会显示“输出空间不足”以提示你解决该问题"
+				""
+				"·例如：如果你的电力高炉没有放置输出总线，那它就不会为你炼制铝锭！"
 				""
 				"提示：所有的舱室都自带&e自动输入/输出&r，你也可以用软锤关闭舱室以禁用这个功能"
 			]
@@ -742,7 +745,6 @@
 				"所以想加快处理速度有两个&b通用&r办法：增加&e电压&r和增加&e电流&r"
 				""
 				"[\"\",{\"text\": \"想要加速机器还有很多其他方式，本章中的\",\"italic\": true,\"color\":\"gray\"}, {\"text\": \"加速仓\",\"color\":\"gray\",\"italic\": true,\"underlined\": true,\"clickEvent\": {\"action\": \"change_page\",\"value\": \"7F65A1C533ED1C3B\"}},{\"text\": \"也是其中之一。完整加速方法请前往\",\"italic\": true,\"color\":\"gray\"},{\"text\": \"提示\",\"color\":\"gray\",\"italic\": true,\"underlined\": true,\"clickEvent\": {\"action\": \"change_page\",\"value\": \"16047F3F79404251\"}},{\"text\": \"查看\",\"italic\": true,\"color\":\"gray\"}]"
-				""
 				""
 				"另外，在一台多方块机器上安装至少&a两个&r&6同等级能源仓&r（无需电流相同）可以触发机器&6升压&r，机器升压后可以执行&b高一级电压&r的配方"
 				""

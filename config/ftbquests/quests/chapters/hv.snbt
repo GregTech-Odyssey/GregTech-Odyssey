@@ -9,57 +9,65 @@
 	images: [
 		{
 			color: 16711935
-			height: 1.1d
+			height: 1.0d
 			image: "ftbquests:block/barrier_open"
 			order: 1
-			rotation: 0.0d
-			width: 1.1d
-			x: 5.0d
-			y: -4.0d
+			rotation: 45.0d
+			width: 1.0d
+			x: 4.5d
+			y: -4.5d
 		}
 		{
-			height: 1.1d
+			height: 0.0d
 			image: "xtonesreworked:block/bitt/12"
-			rotation: 0.0d
-			width: 1.1d
-			x: 5.0d
-			y: -4.0d
+			rotation: 45.0d
+			width: 0.0d
+			x: 4.5d
+			y: -4.5d
 		}
 		{
-			height: 1.1d
+			height: 1.0d
 			image: "xtonesreworked:block/bitt/12"
-			rotation: 0.0d
-			width: 1.1d
-			x: 1.0d
-			y: -4.0d
+			rotation: 45.0d
+			width: 1.0d
+			x: 4.5d
+			y: -4.5d
 		}
 		{
 			color: 16711935
-			height: 1.1d
+			height: 1.0d
 			image: "ftbquests:block/barrier_open"
 			order: 1
-			rotation: 0.0d
-			width: 1.1d
-			x: 1.0d
-			y: -4.0d
+			rotation: 45.0d
+			width: 1.0d
+			x: 1.5d
+			y: -4.5d
 		}
 		{
-			height: 1.1d
+			height: 1.0d
 			image: "xtonesreworked:block/bitt/12"
-			rotation: 0.0d
-			width: 1.1d
+			rotation: 45.0d
+			width: 1.0d
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			image: "xtonesreworked:block/bitt/12"
+			rotation: 45.0d
+			width: 1.0d
 			x: 1.0d
-			y: 6.0d
+			y: 5.5d
 		}
 		{
 			color: 16711935
-			height: 1.1d
+			height: 1.0d
 			image: "ftbquests:block/barrier_open"
 			order: 1
-			rotation: 0.0d
-			width: 1.1d
+			rotation: 45.0d
+			width: 1.0d
 			x: 1.0d
-			y: 6.0d
+			y: 5.5d
 		}
 	]
 	order_index: 5
@@ -78,7 +86,7 @@
 			shape: "hexagon"
 			size: 1.5d
 			x: 3.0d
-			y: 6.0d
+			y: 5.5d
 		}
 		{
 			id: "36E98813A7A95723"
@@ -100,35 +108,35 @@
 			linked_quest: "43974ABFAE99587B"
 			shape: "square"
 			x: -6.0d
-			y: 6.0d
+			y: 5.5d
 		}
 		{
 			id: "293DA58449370105"
 			linked_quest: "2F42DE3FEC2C35F9"
 			shape: "square"
 			x: -7.0d
-			y: 6.0d
+			y: 5.5d
 		}
 		{
 			id: "633BBB15146C159A"
 			linked_quest: "5F96077A62E88635"
 			shape: "square"
 			x: -2.0d
-			y: 6.0d
+			y: 5.5d
 		}
 		{
 			id: "60353AC478472063"
 			linked_quest: "2AA0714363BA85CB"
-			shape: "square"
-			x: 1.0d
-			y: -4.0d
+			shape: "diamond"
+			x: 1.5d
+			y: -4.5d
 		}
 		{
 			id: "78F40ABD52DF9590"
 			linked_quest: "5F522D73AF5F1B2F"
-			shape: "square"
+			shape: "diamond"
 			x: 1.0d
-			y: 6.0d
+			y: 5.5d
 		}
 	]
 	quests: [
@@ -280,6 +288,8 @@
 				"IV级电路，目前达到的最高等级"
 				""
 				"你应该第一时间想到你需要它来做出下一级别的&6电路组装机&r"
+				""
+				"&7&o你应该已经发现了，从微型处理器开始，每个序列均存在四种电路，最高级的电路一般都只是你开启下一阶段大门的&e钥匙&r"
 			]
 			id: "09831EA3AD53828C"
 			shape: "gear"
@@ -473,7 +483,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: 6.0d
+			y: 5.5d
 		}
 		{
 			dependencies: [
@@ -601,9 +611,9 @@
 			description: [
 				"现在，朝着亲爱的月球进发？不不不，还有几件事需要你&4再确认一下&r："
 				""
-				"首先在出发之前，要穿戴好&6宇航套装&r，以及把你身上的&6器官&r都强化到&e标准级"
+				"首先在出发之前，要穿戴好&6宇航套装&r，以及把你身上的&6器官&r都强化到&e标准级&r"
 				""
-				"&r其次把你的背包腾出一定的空间，记住&2公司&r派你去月球是去&e挖矿&r的，不是去&e旅游&r的"
+				"其次把你的背包腾出一定的空间，记住&2公司&r派你去月球是去&e挖矿&r的，不是去&e旅游&r的"
 				""
 				"最后着陆前注意提前&e打开助推器减速&r，否则在有不幸的事情发生前就会&4&n有更不幸的事情发生&r&r"
 			]
@@ -810,7 +820,7 @@
 				type: "item"
 			}]
 			x: -3.5d
-			y: 6.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["4BA890971C18F938"]
@@ -872,7 +882,6 @@
 		}
 		{
 			dependencies: ["5D828A5258BFF11F"]
-			description: [""]
 			id: "45B2C27B819498DE"
 			tasks: [{
 				id: "78C5BB66D075C413"
@@ -921,7 +930,11 @@
 		}
 		{
 			dependencies: ["4FC754BAFAB7C79F"]
-			description: ["高压时代最重要的部件，你会需要很多！"]
+			description: [
+				"高压时代最重要的部件，你会需要很多！"
+				""
+				"[\"你现在可以去\",{ \"text\": \"凭虚御风\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"38A6F2FA481A85E5\" } },\"章节看看了\"]"
+			]
 			id: "6F760D81DC93ACFB"
 			shape: "hexagon"
 			tasks: [
@@ -1093,7 +1106,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 6.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["7A7DC6205DED9BF3"]
@@ -1166,18 +1179,19 @@
 				""
 				"你需要三样东西："
 				"·&6虚拟物品供应机&r"
-				"·&6虚拟物品提供器&r"
 				"·&6可编程仓&r"
+				"·&6虚拟物品提供器&r（可选）"
 				""
 				"如何使用："
-				"1. 手持虚拟物品提供器，右击打开GUI放入你需要标记的物品（非必要）"
-				"2. 将供应机接入网络后将提供器放入终端，自动放到供应机内，或直接将物品放入供应机，自动转换成虚拟物品"
+				"1. 手持虚拟物品提供器，右击打开GUI放入你需要标记的物品（可选）"
+                "2. 将供应机接入网络后将提供器放入终端，自动放到供应机内，或直接将物品放入供应机，自动转换成虚拟物品"
 				"3. 将虚拟物品从AE终端拖入样板编码区（不要放入用来标记的虚拟物品提供器，这是无效的）或使用Ctrl快速填充"
+				"4. 将样板放入贴在可编程仓上的样板供应器"
 			]
 			icon: "gtocore:hv_programmablec_hatch"
 			id: "19B006CEA837B6B4"
 			min_width: 250
-			shape: "square"
+			shape: "diamond"
 			size: 1.0d
 			subtitle: "可编程仓室"
 			tasks: [
@@ -1206,8 +1220,8 @@
 				}
 			]
 			title: "&e可编程仓室"
-			x: 5.0d
-			y: -4.0d
+			x: 4.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["5D828A5258BFF11F"]
@@ -1520,7 +1534,6 @@
 		}
 		{
 			dependencies: ["7E963A64B5EB7C20"]
-			description: [""]
 			id: "47E810FD91649121"
 			shape: "diamond"
 			tasks: [{
@@ -1548,9 +1561,8 @@
 		}
 		{
 			dependencies: ["31C82EC18535B9B9"]
-			description: ["你真的要做&bMV&r等级的吗？看看这页任务书，你马上就会解锁&6HV&r等级的！"]
+			description: ["&bMV&r等级的整体框架可以让你的通用工厂执行&bMV&r级别以下的所有配方"]
 			id: "45D3AA16A96DECD7"
-			optional: true
 			shape: "diamond"
 			tasks: [{
 				id: "71C6003B9CFEB691"
@@ -1728,7 +1740,7 @@
 				type: "item"
 			}]
 			x: -5.0d
-			y: 6.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["198304056173E631"]
@@ -1770,6 +1782,7 @@
 			id: "0CC813B9DBC397AF"
 			shape: "hexagon"
 			size: 1.5d
+			subtitle: "一级数据载体"
 			tasks: [{
 				id: "623E5631CC8AAA62"
 				item: {
@@ -1816,6 +1829,20 @@
 			title: "火箭组件"
 			x: 7.0d
 			y: 3.5d
+		}
+		{
+			dependencies: ["19B006CEA837B6B4"]
+			description: ["单方块机器也可以使用覆盖版来编程，样板写法相同"]
+			id: "0362FE44C232A1CE"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "2ACF74C420F25666"
+				item: "gtmthings:programmable_cover"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -4.5d
 		}
 	]
 	subtitle: ["Tier3-HV"]

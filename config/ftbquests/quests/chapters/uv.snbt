@@ -7,38 +7,38 @@
 	id: "366A2FFB50EF9456"
 	images: [
 		{
-			height: 1.1d
+			height: 1.0d
 			image: "xtonesreworked:block/bitt/12"
-			rotation: 0.0d
-			width: 1.1d
+			rotation: 45.0d
+			width: 1.0d
 			x: 5.0d
 			y: 5.0d
 		}
 		{
 			color: 16711935
-			height: 1.1d
+			height: 1.0d
 			image: "ftbquests:block/barrier_open"
 			order: 1
-			rotation: 0.0d
-			width: 1.1d
+			rotation: 45.0d
+			width: 1.0d
 			x: 5.0d
 			y: 5.0d
 		}
 		{
-			height: 1.1d
+			height: 1.0d
 			image: "xtonesreworked:block/bitt/12"
-			rotation: 0.0d
-			width: 1.1d
+			rotation: 45.0d
+			width: 1.0d
 			x: 1.0d
 			y: 0.5d
 		}
 		{
 			color: 16711935
-			height: 1.1d
+			height: 1.0d
 			image: "ftbquests:block/barrier_open"
 			order: 1
-			rotation: 0.0d
-			width: 1.1d
+			rotation: 45.0d
+			width: 1.0d
 			x: 1.0d
 			y: 0.5d
 		}
@@ -56,14 +56,14 @@
 		{
 			id: "45C541AE7ED9C6EF"
 			linked_quest: "6F43BA73FE817566"
-			shape: "square"
+			shape: "diamond"
 			x: 5.0d
 			y: 5.0d
 		}
 		{
 			id: "00F5A8E95ADC4F78"
 			linked_quest: "62402E1DBC9CF1B4"
-			shape: "square"
+			shape: "diamond"
 			x: 1.0d
 			y: 0.5d
 		}
@@ -154,9 +154,9 @@
 				"7A1E4DBA675E67FB"
 			]
 			description: [
-				"可以使用激光能源仓和增益仓了"
+				"这台机器标志着你正式进入巨构时代，所有的&6增益仓&r都已经为你开放！"
 				""
-				"这应该也是你的第一个超级机器"
+				"其余大部分巨构将在你制造出&2UIV&r电路后解锁"
 			]
 			id: "0B7507528A43F25E"
 			shape: "hexagon"
@@ -602,6 +602,8 @@
 				"&a超频仓&r：几乎只有巨构可以使用。非常强大，能直接&b修改机器超频的时间倍率系数&r。UV级别是一般的有损超频，UEV级别即可达到无损超频，而更高等级UXV可以达到4倍功率6倍速度，也就是说机器越超频越省电！"
 				""
 				"此外，可配置维护仓也可以提供微弱的机器加速效果"
+				""
+				"&7&o别忘了给你的狂飙也换上"
 			]
 			id: "0AD0174C98673F5B"
 			shape: "diamond"
@@ -876,6 +878,94 @@
 				type: "item"
 			}]
 			x: 1.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["502F7DD0C930D5BF"]
+			description: ["用捕获附魔获取以上的蛋"]
+			id: "3CBA56988C0F8E7E"
+			subtitle: "这次不要DNA了"
+			tasks: [
+				{
+					id: "0DC4CB1CB1874C75"
+					item: "minecraft:villager_spawn_egg"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4843BCBB8579733A"
+					item: "minecraft:witch_spawn_egg"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "我需要大脑"
+			x: -5.0d
+			y: 12.5d
+		}
+		{
+			dependencies: [
+				"0099AE8ACBB72951"
+				"06DF372F16F1A5CA"
+				"2CC625C1FFDB9AFF"
+			]
+			id: "44B34806DA0FEA9A"
+			subtitle: "这不是疯狂戴夫的脑子！"
+			tasks: [{
+				id: "4758CF4632B286F7"
+				item: "gtocore:super_cerebrum"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 12.5d
+		}
+		{
+			dependencies: [
+				"44B34806DA0FEA9A"
+				"6E673337DD550808"
+			]
+			description: ["更便宜的制作&6湿件处理器&r的配方"]
+			hide_dependency_lines: true
+			id: "67050CC889ABB614"
+			subtitle: "布满了脑细胞"
+			tasks: [{
+				id: "33E5DBCF497F513E"
+				item: "gtocore:wetware_soc"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["67050CC889ABB614"]
+			description: [
+				"超级计算中心，可以放下足足&b840&r个组件。一台足够提供你整个基地的算力供应"
+				""
+				"请使用&6空组件&r填充你用不到的组件槽位"
+				""
+				"&6导热剂&r并非必需品，Tier2/3放入导热剂后会提升超级计算中心输出的算力"
+			]
+			id: "6E17BDF52855CA6A"
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "天河一号"
+			tasks: [{
+				id: "438136BDBD08FBCA"
+				item: "gtocore:supercomputing_center"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["3CBA56988C0F8E7E"]
+			id: "2CC625C1FFDB9AFF"
+			tasks: [{
+				id: "2B855FB5823EA902"
+				item: "gtocore:cerebrum"
+				type: "item"
+			}]
+			x: -3.0d
 			y: 12.5d
 		}
 	]
