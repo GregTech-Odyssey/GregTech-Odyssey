@@ -7,11 +7,11 @@
 	icon: "gtceu:electric_blast_furnace"
 	id: "4015C56C0D562D25"
 	images: [{
-		height: 1.1d
+		height: 1.0d
 		image: "botania:block/alfheim_portal_swirl"
-		rotation: 0.0d
-		width: 1.1d
-		x: -5.0d
+		rotation: 45.0d
+		width: 1.0d
+		x: -4.5d
 		y: 3.0d
 	}]
 	order_index: 3
@@ -34,8 +34,8 @@
 		{
 			id: "24E6A7A2360C8265"
 			linked_quest: "5FCFE3D6B36CC409"
-			shape: "square"
-			x: -5.0d
+			shape: "diamond"
+			x: -4.5d
 			y: 3.0d
 		}
 	]
@@ -625,7 +625,6 @@
 		}
 		{
 			dependencies: ["06534664971F6E68"]
-			description: [""]
 			id: "23676FA19C92EE5E"
 			rewards: [{
 				count: 4
@@ -699,12 +698,16 @@
 			dependencies: ["33B01E889EE7E990"]
 			description: [
 				"{gto.lv.quests.6465CCE684E0DD3B.description0}"
+				""
 				"{gto.lv.quests.6465CCE684E0DD3B.description1}"
+				""
 				"{gto.lv.quests.6465CCE684E0DD3B.description2}"
 				""
 				"{gto.lv.quests.6465CCE684E0DD3B.description3}"
 				""
 				"{gto.lv.quests.6465CCE684E0DD3B.description4}"
+				""
+				"{gto.lv.quests.6465CCE684E0DD3B.description5}"
 			]
 			id: "6465CCE684E0DD3B"
 			subtitle: "{gto.lv.quests.6465CCE684E0DD3B.subtitle}"
@@ -742,7 +745,6 @@
 				"{gto.lv.quests.23A116C4BAE96979.description1}"
 				""
 				"[\"\", {\"italic\": true, \"color\": \"gray\", \"translate\": \"gto.lv.quests.23A116C4BAE96979.description2.rich_text0\"}, {\"color\": \"gray\", \"italic\": true, \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"7F65A1C533ED1C3B\"}, \"translate\": \"gto.lv.quests.23A116C4BAE96979.description2.rich_text1\"}, {\"italic\": true, \"color\": \"gray\", \"translate\": \"gto.lv.quests.23A116C4BAE96979.description2.rich_text2\"}, {\"color\": \"gray\", \"italic\": true, \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"16047F3F79404251\"}, \"translate\": \"gto.lv.quests.23A116C4BAE96979.description2.rich_text3\"}, {\"italic\": true, \"color\": \"gray\", \"translate\": \"gto.lv.quests.23A116C4BAE96979.description2.rich_text4\"}]"
-				""
 				""
 				"{gto.lv.quests.23A116C4BAE96979.description3}"
 				""

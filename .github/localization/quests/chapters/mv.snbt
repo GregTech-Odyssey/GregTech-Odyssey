@@ -94,7 +94,6 @@
 				"012118C898D7889A"
 				"46354D0766391D92"
 			]
-			description: [""]
 			id: "5F2F920BA347AAEA"
 			subtitle: "{gto.mv.quests.5F2F920BA347AAEA.subtitle}"
 			tasks: [{
@@ -146,8 +145,6 @@
 				"{gto.mv.quests.1CD5736520A719FA.description1}"
 				""
 				"{gto.mv.quests.1CD5736520A719FA.description2}"
-				""
-				"{gto.mv.quests.1CD5736520A719FA.description3}"
 			]
 			id: "1CD5736520A719FA"
 			shape: "hexagon"
@@ -795,7 +792,6 @@
 		}
 		{
 			dependencies: ["5F2F920BA347AAEA"]
-			description: [""]
 			id: "2422B7ED59D31DBB"
 			subtitle: "{gto.mv.quests.2422B7ED59D31DBB.subtitle}"
 			tasks: [{
@@ -827,7 +823,6 @@
 		}
 		{
 			dependencies: ["153B10D3845F65F0"]
-			description: [""]
 			id: "2065B305595F56DA"
 			subtitle: "{gto.mv.quests.2065B305595F56DA.subtitle}"
 			tasks: [{

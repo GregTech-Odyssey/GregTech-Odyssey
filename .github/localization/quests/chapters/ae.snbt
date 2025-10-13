@@ -899,14 +899,6 @@
 		}
 		{
 			height: 1.0d
-			image: "gtocore:item/circuit/suprachronal_iv"
-			rotation: 0.0d
-			width: 1.0d
-			x: -5.5d
-			y: 11.5d
-		}
-		{
-			height: 1.0d
 			image: "gtocore:item/circuit/suprachronal_hv"
 			rotation: 0.0d
 			width: 1.0d
@@ -1066,6 +1058,14 @@
 			width: 1.0d
 			x: -3.5d
 			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "gtocore:item/circuit/suprachronal_luv"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.7d
+			y: 11.5d
 		}
 	]
 	order_index: 4
@@ -1254,7 +1254,6 @@
 				"0E9F8C57145D61AB"
 				"592D975F3146151E"
 			]
-			description: [""]
 			icon: "ae2:export_bus"
 			id: "727CCA6FB49E142D"
 			subtitle: "{gto.ae.quests.727CCA6FB49E142D.subtitle}"
@@ -1427,6 +1426,8 @@
 				"{gto.ae.quests.0BC456B4331C09F5.description4}"
 				""
 				"{gto.ae.quests.0BC456B4331C09F5.description5}"
+				""
+				"{gto.ae.quests.0BC456B4331C09F5.description6}"
 			]
 			icon: "gtceu:me_pattern_buffer"
 			id: "0BC456B4331C09F5"
@@ -1565,6 +1566,10 @@
 				"{gto.ae.quests.430034AB98D8453B.description2}"
 				""
 				"{gto.ae.quests.430034AB98D8453B.description3}"
+				""
+				"{gto.ae.quests.430034AB98D8453B.description4}"
+				""
+				"{gto.ae.quests.430034AB98D8453B.description5}"
 			]
 			icon: "gtocore:me_storage"
 			id: "430034AB98D8453B"
@@ -1799,7 +1804,6 @@
 		}
 		{
 			dependencies: ["0A68C0CFACCB6C07"]
-			description: [""]
 			id: "2E9889C32059C956"
 			tasks: [{
 				id: "1320ADE7F3BBF4F7"
@@ -3083,28 +3087,14 @@
 			dependencies: [
 				"1E478682EAC0C56B"
 				"04581C43F7B0BBCE"
-				"176C374E1C0EA92F"
-			]
-			description: [
-				"{gto.ae.quests.6BA5CF66F0CE3119.description0}"
-				"{image:ae2:textures/quantum_ring.png width:100 height:100 align:center}"
 			]
 			icon: "ae2:quantum_ring"
 			id: "6BA5CF66F0CE3119"
-			tasks: [
-				{
-					count: 16L
-					id: "45B07AC3C321C3C8"
-					item: "ae2:quantum_ring"
-					type: "item"
-				}
-				{
-					count: 2L
-					id: "02D4DF7F05529B83"
-					item: "ae2:quantum_link"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "45B07AC3C321C3C8"
+				item: "ae2:quantum_ring"
+				type: "item"
+			}]
 			x: -17.0d
 			y: 7.5d
 		}
@@ -3121,7 +3111,6 @@
 		}
 		{
 			dependencies: ["0A71F8193A3A39AE"]
-			description: [""]
 			hide_dependency_lines: true
 			id: "0B36C7D7D1594CB7"
 			shape: "hexagon"
@@ -3564,7 +3553,6 @@
 		}
 		{
 			dependencies: ["00B868BD06F99B86"]
-			description: [""]
 			id: "54087EF6361AAD74"
 			tasks: [{
 				id: "7BF90F97ED513FFA"
@@ -3679,7 +3667,7 @@
 		{
 			dependencies: [
 				"1EED90EE9774CD7A"
-				"63773B34911D0234"
+				"228B283B5477879B"
 			]
 			id: "17CEA439C0110AFA"
 			tasks: [{
@@ -3759,7 +3747,7 @@
 		{
 			dependencies: ["570652D76CB788E9"]
 			description: ["{gto.ae.quests.176C374E1C0EA92F.description0}"]
-			hide_dependency_lines: true
+			hide_dependent_lines: true
 			id: "176C374E1C0EA92F"
 			tasks: [{
 				count: 2L
@@ -4075,6 +4063,53 @@
 			}]
 			x: -21.0d
 			y: 9.5d
+		}
+		{
+			dependencies: [
+				"176C374E1C0EA92F"
+				"6BA5CF66F0CE3119"
+				"0B8E06206D29E420"
+			]
+			description: [
+				"{gto.ae.quests.5627B38033AF2674.description0}"
+				"{image:ae2:textures/quantum_ring.png width:100 height:100 align:center}"
+			]
+			icon: "gtocore:quantum_anomaly"
+			id: "5627B38033AF2674"
+			shape: "pentagon"
+			tasks: [{
+				id: "11FAB9B0FC585C92"
+				type: "checkmark"
+			}]
+			title: "{gto.ae.quests.5627B38033AF2674.title}"
+			x: -19.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["72C6B40B38D542BF"]
+			description: [
+				"{gto.ae.quests.1BDAC7D9FED887B2.description0}"
+				""
+				"{gto.ae.quests.1BDAC7D9FED887B2.description1}"
+				""
+				"{gto.ae.quests.1BDAC7D9FED887B2.description2}"
+			]
+			id: "1BDAC7D9FED887B2"
+			tasks: [{
+				id: "62987E1C58AE6780"
+				item: {
+					Count: 1
+					id: "itemfilters:id_regex"
+					tag: {
+						value: "spray_can$"
+					}
+				}
+				title: "{gto.ae.quests.1BDAC7D9FED887B2.tasks.62987E1C58AE6780.title}"
+				type: "item"
+			}]
+			title: "{gto.ae.quests.1BDAC7D9FED887B2.title}"
+			x: -19.0d
+			y: 1.5d
 		}
 	]
 	subtitle: ["{gto.ae.subtitle0}"]

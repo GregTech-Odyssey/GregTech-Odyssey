@@ -4147,10 +4147,10 @@
 				type: "item"
 			}]
 			x: 12.75d
-			y: 4.0d
+			y: 3.5d
 		}
 		{
-			dependencies: ["7F9379EC7D4ACF06"]
+			dependencies: ["47D9DC0A761A077C"]
 			id: "23C3F73ABA5CC274"
 			tasks: [{
 				id: "6E120F640ECA730B"
@@ -4603,6 +4603,18 @@
 			}]
 			x: 19.5d
 			y: -4.5d
+		}
+		{
+			dependencies: ["7F9379EC7D4ACF06"]
+			id: "47D9DC0A761A077C"
+			subtitle: "{gto.magic1.quests.47D9DC0A761A077C.subtitle}"
+			tasks: [{
+				id: "0045436FD323CAD3"
+				item: "gtocore:lv_mana_machine_hull"
+				type: "item"
+			}]
+			x: 12.75d
+			y: 4.5d
 		}
 	]
 	subtitle: ["{gto.magic1.subtitle0}"]

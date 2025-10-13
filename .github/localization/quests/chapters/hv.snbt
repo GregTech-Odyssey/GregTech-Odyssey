@@ -9,57 +9,65 @@
 	images: [
 		{
 			color: 16711935
-			height: 1.1d
+			height: 1.0d
 			image: "ftbquests:block/barrier_open"
 			order: 1
-			rotation: 0.0d
-			width: 1.1d
-			x: 5.0d
-			y: -4.0d
+			rotation: 45.0d
+			width: 1.0d
+			x: 4.5d
+			y: -4.5d
 		}
 		{
-			height: 1.1d
+			height: 0.0d
 			image: "xtonesreworked:block/bitt/12"
-			rotation: 0.0d
-			width: 1.1d
-			x: 5.0d
-			y: -4.0d
+			rotation: 45.0d
+			width: 0.0d
+			x: 4.5d
+			y: -4.5d
 		}
 		{
-			height: 1.1d
+			height: 1.0d
 			image: "xtonesreworked:block/bitt/12"
-			rotation: 0.0d
-			width: 1.1d
-			x: 1.0d
-			y: -4.0d
+			rotation: 45.0d
+			width: 1.0d
+			x: 4.5d
+			y: -4.5d
 		}
 		{
 			color: 16711935
-			height: 1.1d
+			height: 1.0d
 			image: "ftbquests:block/barrier_open"
 			order: 1
-			rotation: 0.0d
-			width: 1.1d
-			x: 1.0d
-			y: -4.0d
+			rotation: 45.0d
+			width: 1.0d
+			x: 1.5d
+			y: -4.5d
 		}
 		{
-			height: 1.1d
+			height: 1.0d
 			image: "xtonesreworked:block/bitt/12"
-			rotation: 0.0d
-			width: 1.1d
+			rotation: 45.0d
+			width: 1.0d
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			image: "xtonesreworked:block/bitt/12"
+			rotation: 45.0d
+			width: 1.0d
 			x: 1.0d
-			y: 6.0d
+			y: 5.5d
 		}
 		{
 			color: 16711935
-			height: 1.1d
+			height: 1.0d
 			image: "ftbquests:block/barrier_open"
 			order: 1
-			rotation: 0.0d
-			width: 1.1d
+			rotation: 45.0d
+			width: 1.0d
 			x: 1.0d
-			y: 6.0d
+			y: 5.5d
 		}
 	]
 	order_index: 5
@@ -78,7 +86,7 @@
 			shape: "hexagon"
 			size: 1.5d
 			x: 3.0d
-			y: 6.0d
+			y: 5.5d
 		}
 		{
 			id: "36E98813A7A95723"
@@ -100,35 +108,35 @@
 			linked_quest: "43974ABFAE99587B"
 			shape: "square"
 			x: -6.0d
-			y: 6.0d
+			y: 5.5d
 		}
 		{
 			id: "293DA58449370105"
 			linked_quest: "2F42DE3FEC2C35F9"
 			shape: "square"
 			x: -7.0d
-			y: 6.0d
+			y: 5.5d
 		}
 		{
 			id: "633BBB15146C159A"
 			linked_quest: "5F96077A62E88635"
 			shape: "square"
 			x: -2.0d
-			y: 6.0d
+			y: 5.5d
 		}
 		{
 			id: "60353AC478472063"
 			linked_quest: "2AA0714363BA85CB"
-			shape: "square"
-			x: 1.0d
-			y: -4.0d
+			shape: "diamond"
+			x: 1.5d
+			y: -4.5d
 		}
 		{
 			id: "78F40ABD52DF9590"
 			linked_quest: "5F522D73AF5F1B2F"
-			shape: "square"
+			shape: "diamond"
 			x: 1.0d
-			y: 6.0d
+			y: 5.5d
 		}
 	]
 	quests: [
@@ -280,6 +288,8 @@
 				"{gto.hv.quests.09831EA3AD53828C.description0}"
 				""
 				"{gto.hv.quests.09831EA3AD53828C.description1}"
+				""
+				"{gto.hv.quests.09831EA3AD53828C.description2}"
 			]
 			id: "09831EA3AD53828C"
 			shape: "gear"
@@ -473,7 +483,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: 6.0d
+			y: 5.5d
 		}
 		{
 			dependencies: [
@@ -810,7 +820,7 @@
 				type: "item"
 			}]
 			x: -3.5d
-			y: 6.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["4BA890971C18F938"]
@@ -872,7 +882,6 @@
 		}
 		{
 			dependencies: ["5D828A5258BFF11F"]
-			description: [""]
 			id: "45B2C27B819498DE"
 			tasks: [{
 				id: "78C5BB66D075C413"
@@ -921,7 +930,11 @@
 		}
 		{
 			dependencies: ["4FC754BAFAB7C79F"]
-			description: ["{gto.hv.quests.6F760D81DC93ACFB.description0}"]
+			description: [
+				"{gto.hv.quests.6F760D81DC93ACFB.description0}"
+				""
+				"[\"\", {\"translate\": \"gto.hv.quests.6F760D81DC93ACFB.description1.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"38A6F2FA481A85E5\"}, \"translate\": \"gto.hv.quests.6F760D81DC93ACFB.description1.rich_text1\"}, {\"translate\": \"gto.hv.quests.6F760D81DC93ACFB.description1.rich_text2\"}]"
+			]
 			id: "6F760D81DC93ACFB"
 			shape: "hexagon"
 			tasks: [
@@ -1093,7 +1106,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 6.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["7A7DC6205DED9BF3"]
@@ -1173,11 +1186,12 @@
 				"{gto.hv.quests.19B006CEA837B6B4.description6}"
 				"{gto.hv.quests.19B006CEA837B6B4.description7}"
 				"{gto.hv.quests.19B006CEA837B6B4.description8}"
+				"{gto.hv.quests.19B006CEA837B6B4.description9}"
 			]
 			icon: "gtocore:hv_programmablec_hatch"
 			id: "19B006CEA837B6B4"
 			min_width: 250
-			shape: "square"
+			shape: "diamond"
 			size: 1.0d
 			subtitle: "{gto.hv.quests.19B006CEA837B6B4.subtitle}"
 			tasks: [
@@ -1206,8 +1220,8 @@
 				}
 			]
 			title: "{gto.hv.quests.19B006CEA837B6B4.title}"
-			x: 5.0d
-			y: -4.0d
+			x: 4.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["5D828A5258BFF11F"]
@@ -1520,7 +1534,6 @@
 		}
 		{
 			dependencies: ["7E963A64B5EB7C20"]
-			description: [""]
 			id: "47E810FD91649121"
 			shape: "diamond"
 			tasks: [{
@@ -1550,7 +1563,6 @@
 			dependencies: ["31C82EC18535B9B9"]
 			description: ["{gto.hv.quests.45D3AA16A96DECD7.description0}"]
 			id: "45D3AA16A96DECD7"
-			optional: true
 			shape: "diamond"
 			tasks: [{
 				id: "71C6003B9CFEB691"
@@ -1728,7 +1740,7 @@
 				type: "item"
 			}]
 			x: -5.0d
-			y: 6.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["198304056173E631"]
@@ -1770,6 +1782,7 @@
 			id: "0CC813B9DBC397AF"
 			shape: "hexagon"
 			size: 1.5d
+			subtitle: "{gto.hv.quests.0CC813B9DBC397AF.subtitle}"
 			tasks: [{
 				id: "623E5631CC8AAA62"
 				item: {
@@ -1816,6 +1829,20 @@
 			title: "{gto.hv.quests.23A3A8F6E6738331.title}"
 			x: 7.0d
 			y: 3.5d
+		}
+		{
+			dependencies: ["19B006CEA837B6B4"]
+			description: ["{gto.hv.quests.0362FE44C232A1CE.description0}"]
+			id: "0362FE44C232A1CE"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "2ACF74C420F25666"
+				item: "gtmthings:programmable_cover"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -4.5d
 		}
 	]
 	subtitle: ["{gto.hv.subtitle0}"]
