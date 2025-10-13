@@ -1,16 +1,18 @@
 {
+	autofocus_id: "732F3F1921B2464F"
 	default_hide_dependency_lines: false
-	default_quest_shape: ""
+	default_quest_shape: "square"
 	filename: "space-station"
 	group: ""
 	icon: "gtocore:planet_scan_satellite"
 	id: "3BF7BECF0C9F7ED9"
 	order_index: 7
+	progression_mode: "linear"
 	quest_links: [{
 		id: "20088B33308BF581"
 		linked_quest: "23E859D5CC9E4C8C"
-		x: 2.5d
-		y: -3.0d
+		x: 3.5d
+		y: -5.5d
 	}]
 	quests: [
 		{
@@ -30,6 +32,7 @@
 				"&b10 mB 火箭燃料&r "
 				"&b100mB 空气&r"
 			]
+			icon: "minecraft:spyglass"
 			id: "5FF554F6ADC5986B"
 			subtitle: "太空版超净间"
 			tasks: [{
@@ -37,8 +40,8 @@
 				type: "checkmark"
 			}]
 			title: "空间站机制详解"
-			x: 2.5d
-			y: -1.0d
+			x: 7.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["23E859D5CC9E4C8C"]
@@ -52,17 +55,21 @@
 				""
 				"至于空间站里的机器的用电...自己带点&e电池箱&r或者使用&e火箭引擎小机器&r发电吧"
 			]
+			icon: "gtceu:gravitation_engine_unit"
 			id: "104B4AFDC1EB3C18"
 			tasks: [{
 				id: "02FBA902E5C75E50"
 				type: "checkmark"
 			}]
 			title: "空间站建造提示"
-			x: 2.5d
-			y: -5.0d
+			x: 0.5d
+			y: -8.0d
 		}
 		{
-			dependencies: ["1D413C9604012CBA"]
+			dependencies: [
+				"1D413C9604012CBA"
+				"23E859D5CC9E4C8C"
+			]
 			description: [
 				"这是一个更大的空间站！"
 				""
@@ -80,7 +87,8 @@
 				"而&a衔接舱&r可以与&e模块舱&r，以及&a衔接舱&r同类相连"
 			]
 			id: "58EC0AFA9742164A"
-			shape: "circle"
+			shape: "gear"
+			size: 1.0d
 			subtitle: "太空超净间ProMax"
 			tasks: [{
 				id: "7B1733047E7C39F8"
@@ -88,108 +96,92 @@
 				type: "item"
 			}]
 			title: "工业空间站"
-			x: 6.0d
-			y: -1.0d
+			x: 5.5d
+			y: -6.2d
 		}
 		{
-			dependencies: ["7CBA38A76152684B"]
+			dependencies: ["58EC0AFA9742164A"]
 			id: "2FE6B8CD5AD66D79"
 			tasks: [{
 				id: "14BBB3B42E3CCDFB"
 				item: "gtocore:space_station_docking_module"
 				type: "item"
 			}]
-			x: 7.5d
-			y: -3.0d
+			x: 11.0d
+			y: -5.0d
 		}
 		{
-			dependencies: ["7CBA38A76152684B"]
+			dependencies: ["58EC0AFA9742164A"]
 			id: "3CF1E00AC0A97828"
 			tasks: [{
 				id: "6FB0634CEEED5B7A"
 				item: "gtocore:space_station_transparent_docking_module"
 				type: "item"
 			}]
-			x: 8.5d
+			x: 14.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["58EC0AFA9742164A"]
-			id: "7CBA38A76152684B"
-			tasks: [{
-				id: "34920A14AB3C0155"
-				title: "衔接仓"
-				type: "checkmark"
-			}]
-			x: 6.0d
-			y: -3.0d
-		}
-		{
-			dependencies: ["58EC0AFA9742164A"]
-			id: "725E279C44176D42"
-			tasks: [{
-				id: "479C1D889BC4903A"
-				title: "模块舱"
-				type: "checkmark"
-			}]
-			x: 6.0d
-			y: -5.0d
-		}
-		{
-			dependencies: ["725E279C44176D42"]
 			id: "55369274AB0561DF"
 			tasks: [{
 				id: "0092B1441C3AD7A0"
 				item: "gtocore:space_station_extension_module"
 				type: "item"
 			}]
-			x: 7.5d
-			y: -5.0d
+			x: 9.0d
+			y: -7.4d
 		}
 		{
-			dependencies: ["725E279C44176D42"]
+			dependencies: ["58EC0AFA9742164A"]
 			id: "732F3F1921B2464F"
 			tasks: [{
 				id: "5BA359A8BE922BBF"
 				item: "gtocore:space_station_environmental_maintenance_module"
 				type: "item"
 			}]
-			x: 8.5d
-			y: -5.0d
+			x: 9.0d
+			y: -6.5d
 		}
 		{
-			dependencies: ["725E279C44176D42"]
+			dependencies: [
+				"55369274AB0561DF"
+				"732F3F1921B2464F"
+			]
 			id: "5A9B478B1791A425"
 			tasks: [{
 				id: "210911A56148590E"
 				item: "gtocore:orbital_smelting_facility"
 				type: "item"
 			}]
-			x: 9.5d
-			y: -5.0d
+			x: 13.0d
+			y: -8.8d
 		}
 		{
-			dependencies: ["725E279C44176D42"]
+			dependencies: ["5A9B478B1791A425"]
 			id: "08CDFD0BB06E9A53"
 			tasks: [{
 				id: "7B678FBF61B0DCE7"
 				item: "gtocore:orbital_fine_materials_factory"
 				type: "item"
 			}]
-			x: 10.5d
-			y: -5.0d
+			x: 15.0d
+			y: -9.5d
 		}
 		{
-			dependencies: ["725E279C44176D42"]
+			dependencies: ["08CDFD0BB06E9A53"]
 			id: "7D639CBD69B7AA61"
+			shape: "gear"
+			size: 1.0d
 			tasks: [{
 				id: "1AA90443D17D614C"
 				item: "gtocore:orbital_nanoprecision_processing_chamber"
 				type: "item"
 			}]
-			x: 11.5d
-			y: -5.0d
+			x: 18.0d
+			y: -10.5d
 		}
 	]
-	title: "空间站"
+	subtitle: ["Aerospace Industry"]
+	title: "穹宇居所"
 }
