@@ -42,6 +42,16 @@
 			x: 22.0d
 			y: -8.5d
 		}
+		{
+			color: 16711935
+			height: 1.0d
+			image: "ftbquests:block/barrier_open"
+			order: 1
+			rotation: 45.0d
+			width: 1.0d
+			x: 18.0d
+			y: -13.0d
+		}
 	]
 	order_index: 7
 	quest_links: [
@@ -59,6 +69,13 @@
 			shape: "diamond"
 			x: 8.5d
 			y: -5.5d
+		}
+		{
+			id: "1935EFBE9E74704F"
+			linked_quest: "58EC0AFA9742164A"
+			shape: "diamond"
+			x: 18.0d
+			y: -13.0d
 		}
 	]
 	quests: [
