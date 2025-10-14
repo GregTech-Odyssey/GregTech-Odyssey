@@ -1124,7 +1124,7 @@
 			]
 			title: "前期铟粉获取途径"
 			x: -20.0d
-			y: 2.5d
+			y: 4.0d
 		}
 		{
 			description: ["和隔壁同理，单独隔离处理"]
@@ -1154,7 +1154,7 @@
 			]
 			title: "铂系矿泥处理分支"
 			x: -18.5d
-			y: 2.5d
+			y: 4.0d
 		}
 		{
 			description: [
@@ -1179,7 +1179,7 @@
 			]
 			title: "你前期的钐粉来源"
 			x: -17.0d
-			y: 2.5d
+			y: 4.0d
 		}
 		{
 			description: [
@@ -1198,7 +1198,7 @@
 			}]
 			title: "矿物处理标签部分小技巧"
 			x: -15.5d
-			y: 2.5d
+			y: 4.0d
 		}
 		{
 			description: ["这里可以让你方便直接跳转对应矿脉查阅相关来源、副产以及它们的用途"]
@@ -1211,6 +1211,35 @@
 			title: "擅于使用EMI查配方"
 			x: -20.0d
 			y: -6.5d
+		}
+		{
+			icon: "gtceu:raw_borax"
+			id: "5FFA5D1C0A9E8E8A"
+			tasks: [
+				{
+					id: "261010AD5A7C3C1A"
+					item: "gtceu:raw_borax"
+					type: "item"
+				}
+				{
+					id: "10FE33360E72423B"
+					item: "gtceu:raw_salt"
+					type: "item"
+				}
+				{
+					id: "6667DCD5C6080C7E"
+					item: "gtceu:raw_rock_salt"
+					type: "item"
+				}
+				{
+					id: "069F6E70B9F51BD9"
+					item: "gtceu:raw_lepidolite"
+					type: "item"
+				}
+			]
+			title: "硼砂矿脉"
+			x: -20.0d
+			y: 1.0d
 		}
 	]
 	subtitle: ["Ore Cheatsheet"]

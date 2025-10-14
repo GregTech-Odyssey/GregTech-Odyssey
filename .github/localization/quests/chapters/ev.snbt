@@ -90,12 +90,6 @@
 			y: -11.0d
 		}
 		{
-			id: "7D1CA4A939A02320"
-			linked_quest: "21624A4965D8D2D7"
-			x: 6.5d
-			y: -8.0d
-		}
-		{
 			id: "4C16FF45DEA84C8F"
 			linked_quest: "5808E00A58A9F4EE"
 			x: 12.5d
@@ -789,10 +783,7 @@
 			y: -9.0d
 		}
 		{
-			dependencies: [
-				"038C1E186FAF47D6"
-				"21624A4965D8D2D7"
-			]
+			dependencies: ["038C1E186FAF47D6"]
 			description: ["{gto.ev.quests.789B188B05759151.description0}"]
 			id: "789B188B05759151"
 			shape: "hexagon"
@@ -1163,7 +1154,6 @@
 			y: 6.5d
 		}
 		{
-			dependencies: ["21624A4965D8D2D7"]
 			description: ["{gto.ev.quests.67E7B62710A78614.description0}"]
 			hide_dependency_lines: true
 			id: "67E7B62710A78614"

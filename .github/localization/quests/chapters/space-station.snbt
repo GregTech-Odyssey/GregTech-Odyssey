@@ -1,0 +1,187 @@
+{
+	autofocus_id: "732F3F1921B2464F"
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "space-station"
+	group: ""
+	icon: "gtocore:planet_scan_satellite"
+	id: "3BF7BECF0C9F7ED9"
+	order_index: 7
+	progression_mode: "linear"
+	quest_links: [{
+		id: "20088B33308BF581"
+		linked_quest: "23E859D5CC9E4C8C"
+		x: 3.5d
+		y: -5.5d
+	}]
+	quests: [
+		{
+			dependencies: ["23E859D5CC9E4C8C"]
+			description: [
+				"{gto.space-station.quests.5FF554F6ADC5986B.description0}"
+				""
+				"{gto.space-station.quests.5FF554F6ADC5986B.description1}"
+				"{gto.space-station.quests.5FF554F6ADC5986B.description2}"
+				"{gto.space-station.quests.5FF554F6ADC5986B.description3}"
+				"{gto.space-station.quests.5FF554F6ADC5986B.description4}"
+				""
+				"{gto.space-station.quests.5FF554F6ADC5986B.description5}"
+				""
+				"{gto.space-station.quests.5FF554F6ADC5986B.description6}"
+				"{gto.space-station.quests.5FF554F6ADC5986B.description7}"
+				"{gto.space-station.quests.5FF554F6ADC5986B.description8}"
+				"{gto.space-station.quests.5FF554F6ADC5986B.description9}"
+			]
+			icon: "minecraft:spyglass"
+			id: "5FF554F6ADC5986B"
+			subtitle: "{gto.space-station.quests.5FF554F6ADC5986B.subtitle}"
+			tasks: [{
+				id: "3F36201FCDE024CF"
+				type: "checkmark"
+			}]
+			title: "{gto.space-station.quests.5FF554F6ADC5986B.title}"
+			x: 7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["23E859D5CC9E4C8C"]
+			description: [
+				"{gto.space-station.quests.104B4AFDC1EB3C18.description0}"
+				"{gto.space-station.quests.104B4AFDC1EB3C18.description1}"
+				"{gto.space-station.quests.104B4AFDC1EB3C18.description2}"
+				"{gto.space-station.quests.104B4AFDC1EB3C18.description3}"
+				"{gto.space-station.quests.104B4AFDC1EB3C18.description4}"
+				"{gto.space-station.quests.104B4AFDC1EB3C18.description5}"
+				""
+				"{gto.space-station.quests.104B4AFDC1EB3C18.description6}"
+			]
+			icon: "gtceu:gravitation_engine_unit"
+			id: "104B4AFDC1EB3C18"
+			tasks: [{
+				id: "02FBA902E5C75E50"
+				type: "checkmark"
+			}]
+			title: "{gto.space-station.quests.104B4AFDC1EB3C18.title}"
+			x: 0.5d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"1D413C9604012CBA"
+				"23E859D5CC9E4C8C"
+			]
+			description: [
+				"{gto.space-station.quests.58EC0AFA9742164A.description0}"
+				""
+				"{gto.space-station.quests.58EC0AFA9742164A.description1}"
+				""
+				"{gto.space-station.quests.58EC0AFA9742164A.description2}"
+				""
+				"{gto.space-station.quests.58EC0AFA9742164A.description3}"
+				""
+				"{@pagebreak}"
+				"{gto.space-station.quests.58EC0AFA9742164A.description4}"
+				""
+				"{gto.space-station.quests.58EC0AFA9742164A.description5}"
+				""
+				"{gto.space-station.quests.58EC0AFA9742164A.description6}"
+			]
+			id: "58EC0AFA9742164A"
+			shape: "gear"
+			size: 1.0d
+			subtitle: "{gto.space-station.quests.58EC0AFA9742164A.subtitle}"
+			tasks: [{
+				id: "7B1733047E7C39F8"
+				item: "gtocore:large_expandable_space_station_core_module"
+				type: "item"
+			}]
+			title: "{gto.space-station.quests.58EC0AFA9742164A.title}"
+			x: 5.5d
+			y: -6.2d
+		}
+		{
+			dependencies: ["58EC0AFA9742164A"]
+			id: "2FE6B8CD5AD66D79"
+			tasks: [{
+				id: "14BBB3B42E3CCDFB"
+				item: "gtocore:space_station_docking_module"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["58EC0AFA9742164A"]
+			id: "3CF1E00AC0A97828"
+			tasks: [{
+				id: "6FB0634CEEED5B7A"
+				item: "gtocore:space_station_transparent_docking_module"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["58EC0AFA9742164A"]
+			id: "55369274AB0561DF"
+			tasks: [{
+				id: "0092B1441C3AD7A0"
+				item: "gtocore:space_station_extension_module"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -7.4d
+		}
+		{
+			dependencies: ["58EC0AFA9742164A"]
+			id: "732F3F1921B2464F"
+			tasks: [{
+				id: "5BA359A8BE922BBF"
+				item: "gtocore:space_station_environmental_maintenance_module"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"55369274AB0561DF"
+				"732F3F1921B2464F"
+			]
+			id: "5A9B478B1791A425"
+			tasks: [{
+				id: "210911A56148590E"
+				item: "gtocore:orbital_smelting_facility"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -8.8d
+		}
+		{
+			dependencies: ["5A9B478B1791A425"]
+			id: "08CDFD0BB06E9A53"
+			tasks: [{
+				id: "7B678FBF61B0DCE7"
+				item: "gtocore:orbital_fine_materials_factory"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["08CDFD0BB06E9A53"]
+			id: "7D639CBD69B7AA61"
+			shape: "gear"
+			size: 1.0d
+			tasks: [{
+				id: "1AA90443D17D614C"
+				item: "gtocore:orbital_nanoprecision_processing_chamber"
+				type: "item"
+			}]
+			x: 18.0d
+			y: -10.5d
+		}
+	]
+	subtitle: ["{gto.space-station.subtitle0}"]
+	title: "{gto.space-station.title}"
+}

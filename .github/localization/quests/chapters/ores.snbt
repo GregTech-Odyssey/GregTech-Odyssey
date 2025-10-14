@@ -1127,7 +1127,7 @@
 			]
 			title: "{gto.ores.quests.5D16FB568A8C620B.title}"
 			x: -20.0d
-			y: 2.5d
+			y: 4.0d
 		}
 		{
 			description: ["{gto.ores.quests.1BF9B9588B7CA1DB.description0}"]
@@ -1157,7 +1157,7 @@
 			]
 			title: "{gto.ores.quests.1BF9B9588B7CA1DB.title}"
 			x: -18.5d
-			y: 2.5d
+			y: 4.0d
 		}
 		{
 			description: [
@@ -1182,7 +1182,7 @@
 			]
 			title: "{gto.ores.quests.46BB81E5ECF2FA0B.title}"
 			x: -17.0d
-			y: 2.5d
+			y: 4.0d
 		}
 		{
 			description: [
@@ -1201,7 +1201,7 @@
 			}]
 			title: "{gto.ores.quests.7C78951804FEAC2E.title}"
 			x: -15.5d
-			y: 2.5d
+			y: 4.0d
 		}
 		{
 			description: ["{gto.ores.quests.23DF7BAC762AF885.description0}"]
@@ -1214,6 +1214,35 @@
 			title: "{gto.ores.quests.23DF7BAC762AF885.title}"
 			x: -20.0d
 			y: -6.5d
+		}
+		{
+			icon: "gtceu:raw_borax"
+			id: "5FFA5D1C0A9E8E8A"
+			tasks: [
+				{
+					id: "261010AD5A7C3C1A"
+					item: "gtceu:raw_borax"
+					type: "item"
+				}
+				{
+					id: "10FE33360E72423B"
+					item: "gtceu:raw_salt"
+					type: "item"
+				}
+				{
+					id: "6667DCD5C6080C7E"
+					item: "gtceu:raw_rock_salt"
+					type: "item"
+				}
+				{
+					id: "069F6E70B9F51BD9"
+					item: "gtceu:raw_lepidolite"
+					type: "item"
+				}
+			]
+			title: "{gto.ores.quests.5FFA5D1C0A9E8E8A.title}"
+			x: -20.0d
+			y: 1.0d
 		}
 	]
 	subtitle: ["{gto.ores.subtitle0}"]

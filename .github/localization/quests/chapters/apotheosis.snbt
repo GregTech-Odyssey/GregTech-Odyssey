@@ -1672,27 +1672,6 @@
 			x: -24.0d
 			y: -4.0d
 		}
-		{
-			dependencies: [
-				"314E168D572BB4FF"
-				"31A1C244434CC66D"
-				"42A4D1CE6C047992"
-				"6B1AEF55BB23CA53"
-				"6B4E1CD13BB19BE5"
-				"043E9E791712A441"
-			]
-			hide_dependency_lines: true
-			id: "782E6E5239AA5283"
-			shape: "none"
-			size: 4.0d
-			tasks: [{
-				id: "6E3F60EEECFDF312"
-				item: "gtocore:the_primordial_reconstructor"
-				type: "item"
-			}]
-			x: -9.0d
-			y: -5.0d
-		}
 	]
 	subtitle: ["{gto.apotheosis.subtitle0}"]
 	title: "{gto.apotheosis.title}"
