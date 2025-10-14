@@ -6,13 +6,21 @@
 	group: ""
 	icon: "gtocore:planet_scan_satellite"
 	id: "3BF7BECF0C9F7ED9"
+	images: [{
+		height: 14.4d
+		image: "ftbquests:textures/station-1.png"
+		rotation: 0.0d
+		width: 25.6d
+		x: 9.0d
+		y: -6.5d
+	}]
 	order_index: 7
 	progression_mode: "linear"
 	quest_links: [{
 		id: "20088B33308BF581"
 		linked_quest: "23E859D5CC9E4C8C"
-		x: 3.5d
-		y: -5.5d
+		x: 5.0d
+		y: -6.0d
 	}]
 	quests: [
 		{
@@ -40,8 +48,8 @@
 				type: "checkmark"
 			}]
 			title: "{gto.space-station.quests.5FF554F6ADC5986B.title}"
-			x: 7.5d
-			y: -2.0d
+			x: 8.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["23E859D5CC9E4C8C"]
@@ -62,8 +70,8 @@
 				type: "checkmark"
 			}]
 			title: "{gto.space-station.quests.104B4AFDC1EB3C18.title}"
-			x: 0.5d
-			y: -8.0d
+			x: 2.0d
+			y: -8.5d
 		}
 		{
 			dependencies: [
@@ -96,8 +104,8 @@
 				type: "item"
 			}]
 			title: "{gto.space-station.quests.58EC0AFA9742164A.title}"
-			x: 5.5d
-			y: -6.2d
+			x: 6.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["58EC0AFA9742164A"]
@@ -107,8 +115,8 @@
 				item: "gtocore:space_station_docking_module"
 				type: "item"
 			}]
-			x: 11.0d
-			y: -5.0d
+			x: 10.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["58EC0AFA9742164A"]
@@ -118,8 +126,8 @@
 				item: "gtocore:space_station_transparent_docking_module"
 				type: "item"
 			}]
-			x: 14.0d
-			y: -3.0d
+			x: 12.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["58EC0AFA9742164A"]
@@ -130,7 +138,7 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: -7.4d
+			y: -8.0d
 		}
 		{
 			dependencies: ["58EC0AFA9742164A"]
@@ -141,7 +149,7 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: -6.5d
+			y: -7.0d
 		}
 		{
 			dependencies: [
@@ -154,8 +162,8 @@
 				item: "gtocore:orbital_smelting_facility"
 				type: "item"
 			}]
-			x: 13.0d
-			y: -8.8d
+			x: 12.0d
+			y: -8.5d
 		}
 		{
 			dependencies: ["5A9B478B1791A425"]
@@ -165,8 +173,8 @@
 				item: "gtocore:orbital_fine_materials_factory"
 				type: "item"
 			}]
-			x: 15.0d
-			y: -9.5d
+			x: 13.5d
+			y: -9.0d
 		}
 		{
 			dependencies: ["08CDFD0BB06E9A53"]
@@ -178,8 +186,8 @@
 				item: "gtocore:orbital_nanoprecision_processing_chamber"
 				type: "item"
 			}]
-			x: 18.0d
-			y: -10.5d
+			x: 16.0d
+			y: -10.0d
 		}
 	]
 	subtitle: ["{gto.space-station.subtitle0}"]
