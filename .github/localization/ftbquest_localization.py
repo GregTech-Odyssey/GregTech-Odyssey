@@ -156,8 +156,9 @@ def sync_language_files_incremental(source_keys: dict, source_language: str, tar
 
     # 增量更新
     if old_zh_cn and MODE == 'push':
-        # 有旧文件，做严格增量
-        changed_keys = {k for k in new_zh_cn if old_zh_cn.get(k) != new_zh_cn[k]}
+        # 有旧文件，做严格增量 ; 如果有new_zh_cn存在的键值但是en_us没有，则也视为变动
+        changed_keys = {k for k in new_zh_cn if old_zh_cn.get(k) != new_zh_cn[k] or (k in new_zh_cn and k not in en_us)}
+
 
         # 输出变动的 key 及其内容，便于审核
         print(f"[INFO] Changed keys: {len(changed_keys)}")
