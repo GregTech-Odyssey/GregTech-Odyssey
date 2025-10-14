@@ -304,8 +304,8 @@
 				item: "ad_astra:launch_pad"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 3.0d
+			x: -3.0d
+			y: 3.5d
 		}
 		{
 			dependencies: [
