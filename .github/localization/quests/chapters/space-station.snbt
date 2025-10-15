@@ -56,12 +56,12 @@
 			description: [
 				"{gto.space-station.quests.104B4AFDC1EB3C18.description0}"
 				"{gto.space-station.quests.104B4AFDC1EB3C18.description1}"
-				"{gto.space-station.quests.104B4AFDC1EB3C18.description2}"
-				"{gto.space-station.quests.104B4AFDC1EB3C18.description3}"
-				"{gto.space-station.quests.104B4AFDC1EB3C18.description4}"
-				"{gto.space-station.quests.104B4AFDC1EB3C18.description5}"
 				""
-				"{gto.space-station.quests.104B4AFDC1EB3C18.description6}"
+				"{gto.space-station.quests.104B4AFDC1EB3C18.description2}"
+				""
+				"{gto.space-station.quests.104B4AFDC1EB3C18.description3}"
+				""
+				"{gto.space-station.quests.104B4AFDC1EB3C18.description4}"
 			]
 			icon: "gtceu:gravitation_engine_unit"
 			id: "104B4AFDC1EB3C18"
