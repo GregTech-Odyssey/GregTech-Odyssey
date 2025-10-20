@@ -279,9 +279,11 @@
 				"00F5434FFC976943"
 				"191A9B5DBD565F48"
 			]
+			description: ["现在你可以前往月球和地球空间站了"]
 			id: "5C067CA2FCE6B458"
 			shape: "gear"
 			size: 2.5d
+			subtitle: "这里是T1火箭"
 			tasks: [{
 				id: "043C5E14E16C1B35"
 				item: {
@@ -402,8 +404,13 @@
 		}
 		{
 			dependencies: ["38A6F2FA481A85E5"]
+			description: [
+				"火箭燃料一来可以供给&4火箭&r使用，二来可以用于&6发电&r，三来可以用于&d太空采矿&r和&5太空钻井&r。"
+				"用于火箭时，更高级的火箭燃料可以兼容更低级的火箭，反之不然；而发电和太空采矿/钻井的最佳选择一般是用&2偏二甲肼-四氧化二氮&r"
+			]
 			icon: "ad_astra:etrionic_core"
 			id: "40536B32E6A432CD"
+			subtitle: "这可不能吨吨吨"
 			title: "火箭燃料"
 			x: -7.0d
 			y: -3.15d
@@ -413,6 +420,7 @@
 				"7F6CB9F67636C565"
 				"40536B32E6A432CD"
 			]
+			description: [""]
 			id: "16B3AB1D455CCB50"
 			shape: "gear"
 			size: 2.0d
@@ -421,6 +429,7 @@
 				item: "enderio:rocket_fuel_bucket"
 				type: "item"
 			}]
+			title: "T1火箭燃料：火箭燃料"
 			x: -9.0d
 			y: -2.0d
 		}
@@ -745,6 +754,7 @@
 				item: "gtocore:rocket_fuel_rp_1_bucket"
 				type: "item"
 			}]
+			title: "T2火箭燃料：火箭燃料RP-1"
 			x: -9.0d
 			y: 1.0d
 		}
@@ -782,9 +792,11 @@
 		}
 		{
 			dependencies: ["5063FBBAA841AE4E"]
+			description: ["现在你可以前往火星了"]
 			id: "3ABEFC9B7DA3F098"
 			shape: "gear"
 			size: 2.5d
+			subtitle: "这里是T2火箭"
 			tasks: [{
 				id: "4E052513B65F8144"
 				item: {
@@ -845,9 +857,11 @@
 		}
 		{
 			dependencies: ["64FA0FF3FE276D35"]
+			description: ["现在你可以前往金星了"]
 			id: "121D770436AE99CE"
 			shape: "gear"
 			size: 2.5d
+			subtitle: "这里是T3火箭"
 			tasks: [{
 				id: "3F4CFA5B6266FC92"
 				item: {
@@ -1141,6 +1155,7 @@
 				item: "gtocore:dense_hydrazine_fuel_mixture_bucket"
 				type: "item"
 			}]
+			title: "T3火箭燃料：浓缩肼混合燃料"
 			x: -9.0d
 			y: 4.0d
 		}
@@ -1364,9 +1379,11 @@
 				"646DBDD65771EA95"
 				"340039CBDC85B76D"
 			]
+			description: ["现在你可以前往水星和谷神星了"]
 			id: "52F43DFB331C72C6"
 			shape: "gear"
 			size: 2.5d
+			subtitle: "这里是T4火箭"
 			tasks: [{
 				id: "7A0372688AAE09A3"
 				item: {
@@ -1491,9 +1508,11 @@
 				"20D7CCC16895C6A5"
 				"26ECEF1143F8EB0B"
 			]
+			description: ["现在你可以前往木卫一和木卫三了"]
 			id: "3AFC4304A2AD53A8"
 			shape: "gear"
 			size: 2.5d
+			subtitle: "这里是T5火箭"
 			tasks: [{
 				id: "5D85D419009E1710"
 				item: {
@@ -1741,9 +1760,11 @@
 				"1A46C2CF1106526E"
 				"10DFC307A71DE2FC"
 			]
+			description: ["现在你可以前往土卫二、土卫六合冥王星了"]
 			id: "383B710C58CEA6AF"
 			shape: "gear"
 			size: 2.5d
+			subtitle: "这里是T6火箭"
 			tasks: [{
 				id: "3C78C29D981C71BD"
 				item: {
@@ -1906,9 +1927,11 @@
 		}
 		{
 			dependencies: ["20932057C572CBB7"]
+			description: ["现在你可以前往霜原星了"]
 			id: "1FE56FCF598C90B1"
 			shape: "gear"
 			size: 2.5d
+			subtitle: "这里是T7火箭"
 			tasks: [{
 				id: "55B933F9C2012B2B"
 				item: {
@@ -2118,6 +2141,7 @@
 				"3AA02FCCAFB82E87"
 				"637E8174DF8EA186"
 			]
+			description: [""]
 			id: "5CA2359D7B952655"
 			shape: "gear"
 			size: 2.0d
@@ -2126,6 +2150,7 @@
 				item: "gtocore:rocket_fuel_cn3h7o3_bucket"
 				type: "item"
 			}]
+			title: "T4火箭燃料：硝酸钾肼"
 			x: -9.0d
 			y: 7.0d
 		}
@@ -2145,6 +2170,7 @@
 				"618BFD8A6FC90B86"
 				"5CA2359D7B952655"
 			]
+			description: [""]
 			id: "4A3E57669091C8A0"
 			shape: "gear"
 			size: 2.0d
@@ -2153,6 +2179,7 @@
 				item: "gtocore:rocket_fuel_h8n4c2o4_bucket"
 				type: "item"
 			}]
+			title: "T5火箭燃料：偏二甲肼-四氧化二氮"
 			x: -9.0d
 			y: 10.0d
 		}
@@ -2191,6 +2218,7 @@
 				item: "ad_astra:cryo_fuel_bucket"
 				type: "item"
 			}]
+			title: "T6火箭燃料：凛冰燃料"
 			x: -9.0d
 			y: 13.0d
 		}
@@ -2229,6 +2257,7 @@
 				"7E47ACAD8471A487"
 				"2A60421E915FF505"
 			]
+			description: [""]
 			id: "3581343F25D5B03F"
 			shape: "gear"
 			size: 2.0d
@@ -2237,6 +2266,7 @@
 				item: "gtocore:stellar_energy_rocket_fuel_bucket"
 				type: "item"
 			}]
+			title: "T7火箭燃料：星能火箭燃料"
 			x: -9.0d
 			y: 16.0d
 		}
