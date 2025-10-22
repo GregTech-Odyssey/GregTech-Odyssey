@@ -173,9 +173,11 @@
 				"38A6F2FA481A85E5"
 				"204F134A09B60140"
 			]
+			description: ["{gto.beyond-the-stars.quests.2C986BC7ECC4E1ED.description0}"]
 			id: "2C986BC7ECC4E1ED"
 			shape: "gear"
 			size: 2.0d
+			subtitle: "{gto.beyond-the-stars.quests.2C986BC7ECC4E1ED.subtitle}"
 			tasks: [{
 				id: "629E261C994993A9"
 				item: "gtocore:rocket_assembler"
@@ -761,6 +763,7 @@
 		{
 			dependencies: ["61C37EC8503FFDD9"]
 			id: "69AED014FEDA7997"
+			subtitle: "{gto.beyond-the-stars.quests.69AED014FEDA7997.subtitle}"
 			tasks: [
 				{
 					id: "292904C3EDCD58AF"
@@ -773,6 +776,7 @@
 					type: "item"
 				}
 			]
+			title: "{gto.beyond-the-stars.quests.69AED014FEDA7997.title}"
 			x: 8.0d
 			y: -1.0d
 		}
@@ -847,11 +851,13 @@
 		{
 			dependencies: ["4BA3FA62A307DBC5"]
 			id: "7662AEC801BD79CC"
+			subtitle: "{gto.beyond-the-stars.quests.7662AEC801BD79CC.subtitle}"
 			tasks: [{
 				id: "5AE2A4204E137F9F"
 				item: "gtceu:radon_bucket"
 				type: "item"
 			}]
+			title: "{gto.beyond-the-stars.quests.7662AEC801BD79CC.title}"
 			x: 17.5d
 			y: -1.0d
 		}
@@ -902,6 +908,7 @@
 			}]
 			shape: "gear"
 			size: 2.0d
+			subtitle: "{gto.beyond-the-stars.quests.4BA3FA62A307DBC5.subtitle}"
 			tasks: [{
 				dimension: "ad_astra:mars"
 				id: "1F4A217E3A926DA6"
@@ -920,6 +927,7 @@
 			id: "2D901DBE68F833D2"
 			shape: "hexagon"
 			size: 2.0d
+			subtitle: "{gto.beyond-the-stars.quests.2D901DBE68F833D2.subtitle}"
 			tasks: [
 				{
 					id: "33C0ED7425E296E7"
@@ -967,6 +975,7 @@
 					type: "item"
 				}
 			]
+			title: "{gto.beyond-the-stars.quests.2D901DBE68F833D2.title}"
 			x: 24.0d
 			y: 3.25d
 		}
@@ -992,6 +1001,7 @@
 			}]
 			shape: "gear"
 			size: 2.0d
+			subtitle: "{gto.beyond-the-stars.quests.27771E52B49806B6.subtitle}"
 			tasks: [{
 				dimension: "ad_astra:mercury"
 				id: "40485040BF76D7B3"
@@ -1122,6 +1132,7 @@
 			}]
 			shape: "gear"
 			size: 2.0d
+			subtitle: "{gto.beyond-the-stars.quests.0FA017F31EF08F19.subtitle}"
 			tasks: [{
 				dimension: "ad_astra:venus"
 				id: "6FDD5D9AFC0FB99C"
@@ -1134,11 +1145,13 @@
 		{
 			dependencies: ["27771E52B49806B6"]
 			id: "0D47C721AD61B0D6"
+			subtitle: "{gto.beyond-the-stars.quests.0D47C721AD61B0D6.subtitle}"
 			tasks: [{
 				id: "1A2AE269F29745D8"
 				item: "gtceu:deuterium_bucket"
 				type: "item"
 			}]
+			title: "{gto.beyond-the-stars.quests.0D47C721AD61B0D6.title}"
 			x: 20.5d
 			y: 8.0d
 		}
@@ -1302,11 +1315,13 @@
 		{
 			dependencies: ["0FA017F31EF08F19"]
 			id: "28F541BD5C97C37D"
+			subtitle: "{gto.beyond-the-stars.quests.28F541BD5C97C37D.subtitle}"
 			tasks: [{
 				id: "1C462AD9877FF1C4"
 				item: "gtceu:sulfuric_acid_bucket"
 				type: "item"
 			}]
+			title: "{gto.beyond-the-stars.quests.28F541BD5C97C37D.title}"
 			x: 27.0d
 			y: -1.0d
 		}
@@ -1421,6 +1436,7 @@
 			}]
 			shape: "gear"
 			size: 2.0d
+			subtitle: "{gto.beyond-the-stars.quests.136025CCB32D6AFE.subtitle}"
 			tasks: [{
 				dimension: "gtocore:ceres"
 				id: "4BA46A0263E67E18"
@@ -1433,22 +1449,25 @@
 		{
 			dependencies: ["136025CCB32D6AFE"]
 			id: "32935F6DA068131D"
-			tasks: [{
-				id: "10A049F6B720C0B2"
-				item: "gtceu:neon_bucket"
-				type: "item"
-			}]
-			x: 29.0d
-			y: 11.0d
-		}
-		{
-			dependencies: ["136025CCB32D6AFE"]
-			id: "4E1C6E7ED90CEBB2"
-			tasks: [{
-				id: "32CF81D22D235E1A"
-				item: "gtceu:xenon_bucket"
-				type: "item"
-			}]
+			subtitle: "{gto.beyond-the-stars.quests.32935F6DA068131D.subtitle}"
+			tasks: [
+				{
+					id: "10A049F6B720C0B2"
+					item: "gtceu:neon_bucket"
+					type: "item"
+				}
+				{
+					id: "671D37985CA97721"
+					item: "gtceu:krypton_bucket"
+					type: "item"
+				}
+				{
+					id: "1123E9513445EB5C"
+					item: "gtceu:xenon_bucket"
+					type: "item"
+				}
+			]
+			title: "{gto.beyond-the-stars.quests.32935F6DA068131D.title}"
 			x: 25.0d
 			y: 11.0d
 		}
@@ -1554,6 +1573,7 @@
 			}]
 			shape: "gear"
 			size: 1.5d
+			subtitle: "{gto.beyond-the-stars.quests.27541258B94B2A11.subtitle}"
 			tasks: [{
 				dimension: "gtocore:ganymede"
 				id: "5229F6FA6D41F410"
@@ -1589,6 +1609,7 @@
 			}]
 			shape: "gear"
 			size: 2.0d
+			subtitle: "{gto.beyond-the-stars.quests.15356C4478131544.subtitle}"
 			tasks: [{
 				dimension: "gtocore:io"
 				id: "75119E6D7E5C84BA"
@@ -1619,11 +1640,13 @@
 		{
 			dependencies: ["15356C4478131544"]
 			id: "0A4D00F9F44C97DB"
+			subtitle: "{gto.beyond-the-stars.quests.0A4D00F9F44C97DB.subtitle}"
 			tasks: [{
 				id: "269637B80C1CC38F"
 				item: "gtceu:coal_gas_bucket"
 				type: "item"
 			}]
+			title: "{gto.beyond-the-stars.quests.0A4D00F9F44C97DB.title}"
 			x: 18.0d
 			y: 11.0d
 		}
@@ -1658,6 +1681,7 @@
 			id: "56408F9F9ACD204D"
 			shape: "hexagon"
 			size: 2.0d
+			subtitle: "{gto.beyond-the-stars.quests.56408F9F9ACD204D.subtitle}"
 			tasks: [
 				{
 					id: "4D5B4062CADEF712"
@@ -1705,17 +1729,20 @@
 					type: "item"
 				}
 			]
+			title: "{gto.beyond-the-stars.quests.56408F9F9ACD204D.title}"
 			x: 18.0d
 			y: 15.5d
 		}
 		{
 			dependencies: ["27541258B94B2A11"]
 			id: "5A9B6F823ED2477C"
+			subtitle: "{gto.beyond-the-stars.quests.5A9B6F823ED2477C.subtitle}"
 			tasks: [{
 				id: "4A497D4C5BF483F7"
 				item: "gtceu:hydrochloric_acid_bucket"
 				type: "item"
 			}]
+			title: "{gto.beyond-the-stars.quests.5A9B6F823ED2477C.title}"
 			x: 21.5d
 			y: 17.0d
 		}
@@ -1800,6 +1827,7 @@
 			}]
 			shape: "gear"
 			size: 1.5d
+			subtitle: "{gto.beyond-the-stars.quests.1A21D952F3219B5B.subtitle}"
 			tasks: [{
 				dimension: "gtocore:enceladus"
 				id: "58484AD833064E29"
@@ -1812,6 +1840,7 @@
 		{
 			dependencies: ["1A21D952F3219B5B"]
 			id: "6B02B6F20B71608C"
+			subtitle: "{gto.beyond-the-stars.quests.6B02B6F20B71608C.subtitle}"
 			tasks: [
 				{
 					id: "56C39CCE7E576CC4"
@@ -1824,6 +1853,7 @@
 					type: "item"
 				}
 			]
+			title: "{gto.beyond-the-stars.quests.6B02B6F20B71608C.title}"
 			x: 7.5d
 			y: 17.0d
 		}
@@ -1850,6 +1880,7 @@
 			}]
 			shape: "gear"
 			size: 1.5d
+			subtitle: "{gto.beyond-the-stars.quests.4C8AF861C4D0AFF2.subtitle}"
 			tasks: [{
 				dimension: "gtocore:titan"
 				id: "265F395701F89A9D"
@@ -1862,6 +1893,7 @@
 		{
 			dependencies: ["4C8AF861C4D0AFF2"]
 			id: "472BC6B26F91C9F2"
+			subtitle: "{gto.beyond-the-stars.quests.472BC6B26F91C9F2.subtitle}"
 			tasks: [
 				{
 					id: "4068B8C86678C11E"
@@ -1879,6 +1911,7 @@
 					type: "item"
 				}
 			]
+			title: "{gto.beyond-the-stars.quests.472BC6B26F91C9F2.title}"
 			x: 7.5d
 			y: 9.0d
 		}
@@ -1905,6 +1938,7 @@
 			}]
 			shape: "gear"
 			size: 2.0d
+			subtitle: "{gto.beyond-the-stars.quests.20932057C572CBB7.subtitle}"
 			tasks: [{
 				dimension: "gtocore:pluto"
 				id: "2C16632A9A77FC6D"
@@ -1917,11 +1951,13 @@
 		{
 			dependencies: ["20932057C572CBB7"]
 			id: "6C8CFC519E3813AC"
+			subtitle: "{gto.beyond-the-stars.quests.6C8CFC519E3813AC.subtitle}"
 			tasks: [{
 				id: "658085A3B7E95095"
 				item: "gtceu:nitric_acid_bucket"
 				type: "item"
 			}]
+			title: "{gto.beyond-the-stars.quests.6C8CFC519E3813AC.title}"
 			x: 6.0d
 			y: 14.5d
 		}
@@ -1950,6 +1986,7 @@
 			id: "72AACC1178BF7586"
 			shape: "hexagon"
 			size: 2.0d
+			subtitle: "{gto.beyond-the-stars.quests.72AACC1178BF7586.subtitle}"
 			tasks: [
 				{
 					id: "15A05B9C717F1E16"
@@ -1997,6 +2034,7 @@
 					type: "item"
 				}
 			]
+			title: "{gto.beyond-the-stars.quests.72AACC1178BF7586.title}"
 			x: 4.5d
 			y: 15.5d
 		}
@@ -2031,6 +2069,7 @@
 			}]
 			shape: "gear"
 			size: 2.0d
+			subtitle: "{gto.beyond-the-stars.quests.5541FCA4ECD33B07.subtitle}"
 			tasks: [{
 				dimension: "ad_astra:glacio"
 				id: "4D5DE6EE3C6C8E97"
@@ -2109,6 +2148,7 @@
 			}]
 			shape: "none"
 			size: 2.5d
+			subtitle: "{gto.beyond-the-stars.quests.6320619CCAE8158F.subtitle}"
 			tasks: [{
 				dimension: "gtocore:barnarda_c"
 				id: "7BF134BB2D789667"
@@ -2121,6 +2161,7 @@
 		{
 			dependencies: ["6320619CCAE8158F"]
 			id: "3E1CA6DA4998A682"
+			subtitle: "{gto.beyond-the-stars.quests.3E1CA6DA4998A682.subtitle}"
 			tasks: [
 				{
 					id: "169BC195B7AF8027"
@@ -2133,6 +2174,7 @@
 					type: "item"
 				}
 			]
+			title: "{gto.beyond-the-stars.quests.3E1CA6DA4998A682.title}"
 			x: -3.0d
 			y: 21.5d
 		}
