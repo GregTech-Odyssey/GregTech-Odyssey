@@ -10,3 +10,7 @@ url = "https://edge.forgecdn.net/files/6267/781/factory_blocks-forge-1.4.0+mc1.2
 [update.curseforge]
 file-id = 6267781
 project-id = 640001
+
+[option]
+optional = true
+description = "Adds a factory blocks to the game, dependence on chisel"

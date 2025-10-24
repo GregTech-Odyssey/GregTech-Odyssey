@@ -10,3 +10,7 @@ url = "https://edge.forgecdn.net/files/6020/952/oculus-mc1.20.1-1.8.0.jar"
 [update.curseforge]
 file-id = 6020952
 project-id = 581495
+
+[option]
+optional = true
+description = "Add a oculus to the game, shader need this"

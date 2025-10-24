@@ -56,5 +56,6 @@
 packwiz.exe
 
 !gtocore-*.jar
+!gtonativelib-*.jar
 config/flywheel-client.toml
 config/embeddium-options.json
