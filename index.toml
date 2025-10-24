@@ -790,7 +790,7 @@ hash = "df015b7b5f7d56b2e7bc00a2f63e408b0eb22854623080707cf794e265af9589"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/apotheosis.snbt"
-hash = "bdd93a3e0d71977f0dccaae8e501594dfffd040aa9962b9e1833f4f6bb8f00d3"
+hash = "0d03d80e27e4ed769d8b82e82b8768f594d5329f882977f1d28f26c300c9fcd6"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/backpack.snbt"
@@ -798,7 +798,7 @@ hash = "79c658fe8d7c67d311b3773b4287c9b2d58832b26bd8edcb0667645bcea37d94"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/beyond-the-stars.snbt"
-hash = "da00a079d6b49d2d413615ff4d829fd3c79964b27a33c66ef115b8fed33df81c"
+hash = "f60d4fc6a3d23dc4679555d3424c514e458dcb8b7c2e227bfad6832ab409cb42"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/chemical.snbt"
@@ -894,7 +894,7 @@ hash = "11725a608730a6b335c96f42a4a827c183300f2c43ceb0b23633ea093902f343"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/space-station.snbt"
-hash = "d99b58c998cc616732803cdf2aecd566a8ed764fd8ec3245e3994963a3cc684a"
+hash = "6d20b2e8409ed07ea8aad3097b3908a15ae455195d0d10ce3f5796d8c6959b0d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/steam.snbt"
@@ -1342,19 +1342,19 @@ hash = "84254dc1e5a56ea70df6b16a2fb2620040592badae436c255997aaae84996d91"
 
 [[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/en_us.json"
-hash = "b9e92cd958add90988f104e825cf8d0ad5dba28db39807c39f278b80a88466ab"
+hash = "8a88b2feecc6eb51712505aaf530ef5a195bf372efbaf72d250279b3a0ad90ae"
 
 [[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/ru_ru.json"
-hash = "49f1dea938171f1d5948d122d89a5c58073b3177574cf30aa6db7e96a9bd68c1"
+hash = "997b02e63110213abb0e0618e15b64fa04f72da17c5bd9b16c47995fec92374d"
 
 [[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/zh_cn.json"
-hash = "b9e92cd958add90988f104e825cf8d0ad5dba28db39807c39f278b80a88466ab"
+hash = "fcfdbed0c8c079af8641ba65b7cd783a6458c04ffa22918b35e38f1db9c1c490"
 
 [[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/zh_tw.json"
-hash = "45c23cbc5c411a595c265fdc244291b2e2eeadf61d5ddf9e7d5af8d6ad3392db"
+hash = "0b9d4739c7b3ec10f434f88515bc989bed5a49395373ad97f8b41a6d81ba5c01"
 
 [[files]]
 file = "config/openloader/resources/quests/pack.mcmeta"
@@ -1450,7 +1450,7 @@ hash = "4303250ae4555305b6b83673292f39063e68a3219b70e869b2f9ab051d8771b4"
 
 [[files]]
 file = "config/openloader/resources/resources/assets/ftbquests/ftb_quests_theme.txt"
-hash = "edf075bc28a1fc59de0b6b76b2cec44b0b148b58c680d5af78e1768e26ad123a"
+hash = "e84a6e8c546a1c359a97826053df50a4dbfbbf00d7203869b2a8bf7222624d59"
 
 [[files]]
 file = "config/openloader/resources/resources/assets/ftbquests/lang/zh_cn.json"
@@ -1459,6 +1459,18 @@ hash = "c62dbd86b3650599d70ef61f72b4214189322da005d24a35a6a915916dc0b80d"
 [[files]]
 file = "config/openloader/resources/resources/assets/ftbquests/textures/beyondstars.png"
 hash = "9d498d6f1cd19bc20c59cbcb6f5fdbd0228c2f3f565ec31f9faa614b636b6655"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/ftbquests/textures/space.png"
+hash = "58f1fe052335334e5d7c44b2591ca5fe0ad4a9eb568223119930442cb9718236"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/ftbquests/textures/spacestation.png"
+hash = "096ad199abb765fd1b1afc4d71f3db896a85c173e3d4f69419132cc8d779ca70"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/ftbquests/textures/station-1.png"
+hash = "7a4cc097da824fe1ce671d53ad40858b81dcd2a10edea50c1eda7ac6b5c7206f"
 
 [[files]]
 file = "config/openloader/resources/resources/assets/ftbteams/lang/zh_cn.json"
