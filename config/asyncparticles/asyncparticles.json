@@ -10,6 +10,7 @@
     "animationTickMode": "INTERRUPTIBLE",
     "particleTickMode": "INTERRUPTIBLE",
     "tickWeatherAsync": true,
+    "deferredTextureTick": true,
     "failPerSecLimit": 5,
     "failBehavior": "RAISE_CRASH",
     "suppressCME": false

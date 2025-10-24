@@ -4,5 +4,6 @@
   "resourceLocationDedupe": false,
   "debugItemStackModifications": false,
   "logIntervalInMinutes": 10,
-  "showSummaryOnDebugScreen": false
+  "showSummaryOnDebugScreen": false,
+  "memoryUsageWarningPercentage": 90
 }

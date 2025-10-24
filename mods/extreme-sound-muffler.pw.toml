@@ -11,3 +11,7 @@ mode = "metadata:curseforge"
 [update.curseforge]
 file-id = 6526566
 project-id = 363363
+
+[option]
+optional = true
+description = "Adds a sound muffler to the game"

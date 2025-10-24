@@ -11,3 +11,7 @@ mode = "metadata:curseforge"
 [update.curseforge]
 file-id = 6411988
 project-id = 1163800
+
+[option]
+optional = true
+description = "Adds pretty rain to the game"

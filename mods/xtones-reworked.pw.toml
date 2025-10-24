@@ -10,3 +10,7 @@ url = "https://edge.forgecdn.net/files/5907/303/xtonesreworked-1.0.4-F_1.20.1-47
 [update.curseforge]
 file-id = 5907303
 project-id = 694231
+
+[option]
+optional = true
+description = "Adds a many blocks"

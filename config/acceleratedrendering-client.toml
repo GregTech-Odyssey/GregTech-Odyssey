@@ -1,0 +1,252 @@
+
+#Core Settings
+#Core Settings allows you to change setting that are related to all rendering features.
+[core_settings]
+	#Count of buffer sets that holds data for in-flight frame rendering.
+	#Changing this value may affects your FPS. Smaller value means less in-flight frames, while larger values means more in-flight frames. More in-flight frames means more FPS but more VRAM.
+	#Range: > 1
+	pooled_ring_buffer_size = 8
+	#Count of batches of RenderTypes that is allowed in a draw call.
+	#Changing this value may affects your FPS. Smaller value means less batches allowed in a draw call, while larger values means more batches. More batches means more FPS but more VRAM and more CPU pressure on handling RenderTypes.
+	#Range: > 1
+	pooled_batching_size = 32
+	#Count of images that cached for static mesh culling.
+	#Changing this value may affects your FPS. Smaller value means less images allowed to be cached, while larger means more cached images. More cached images means more FPS but more RAM pressure.
+	#Range: > 1
+	cached_image_size = 32
+	#- DISABLED: Debug context will be disabled, which may cause significant rendering glitches on some NVIDIA cards because of the "theaded optimization".
+	#- ENABLED: Debug context will be enabled, which can prevent NVIDIA driver from applying the "threaded optimization" that causes the glitches.
+	#Allowed Values: DISABLED, ENABLED
+	debug_context = "ENABLED"
+	#- DISABLED: Translucent RenderType will fallback to vanilla rendering pipeline if the accelerated pipeline does not support translucent sorting unless mods explicitly enable force translucent acceleration temporarily when rendering their own geometries.
+	#- ENABLED: Translucent RenderType will still be rendered in accelerated pipeline even if the pipeline does not support translucent sorting unless mods explicitly disable force translucent acceleration temporarily when rendering their own geometries.
+	#Allowed Values: DISABLED, ENABLED
+	force_translucent_acceleration = "ENABLED"
+	#- DISABLED: Poses with identical transform matrix and normal matrix that used to transform vertices will not be cached in buffer which slightly decreases CPU pressure but increase VRAM usage unless mods explicitly disable it when rendering.
+	#- ENABLED: Poses with identical transform matrix and normal matrix that used to transform vertices will be cached in buffer which save VRAM but slightly increase CPU pressure unless mods explicitly disable it when rendering.
+	#Allowed Values: DISABLED, ENABLED
+	cache_identical_pose = "ENABLED"
+	#- SIMPLE: The most basic implementation of cache. Usually used for testing if other cache types are working correctly.
+	#- HANDLE: Faster implementation of cache using VarHandle and flatten values to improve performance on read/write operations.
+	#- UNSAFE: Fastest implementation of cache using unsafe memory operations that skip multiple safety checks to read/write.
+	#Allowed Values: SIMPLE, HANDLE, UNSAFE
+	mesh_info_cache_type = "HANDLE"
+	#- SORTED: The basic implementation of batching layer storage that renders opaque and translucent geometries together in a single stage with better performance but slight visual glitches on translucent geometries.
+	#- SEPARATED: The visually-precise implementation of batching layer storage that separates opaque and translucent geometries into two rendering stages to prevent visual glitches, slightly slower than basic implementation.
+	#Allowed Values: SORTED, SEPARATED
+	layer_storage_type = "SEPARATED"
+	#- DISABLED: Meshes that is going to be accelerated will be collected and uploaded together at the end for choosing better uploading method and increasing memory access efficiency to reach the best performance. Also this method allows mesh cache with bigger capacity (up to VRAM limit), but it may not follow the correct draw order.
+	#- ENABLED: Meshes that is going to be accelerated will be uploaded immediately after the draw command. It is less efficient and only have about 2GB mesh cache (generally enough) but will follow the original draw order to get the most compatibility.
+	#Allowed Values: DISABLED, ENABLED
+	upload_mesh_immediately = "DISABLED"
+
+	#Block Buffer Restoring Settings
+	#A few mods and shader packs will use their on block buffers when rendering, which may introduce conflicts when working with Accelerated Rendering that also uses block buffers.
+	#Block Buffer Restoring can record the binding of block buffers before the acceleration and restore them after the acceleration to work correctly with them.
+	[core_settings.block_buffer_binding_restoring]
+		#- DISABLED: Disable block buffer restoring, which is faster but may cause visual glitches with mods and shaders that uses block buffers.
+		#- ENABLED: Enable block buffer restoring, which may be slower due to recording and restoring block buffer bindings that ensures working correctly with mods and shaders that use block buffers.
+		#Allowed Values: DISABLED, ENABLED
+		feature_status = "ENABLED"
+		#- SIMPLE: The most basic implementation of cache. Usually used for testing if other cache types are working properly.
+		#- HANDLE: Faster implementation of cache using VarHandle and flatten values to improve performance on read/write operations.
+		#- UNSAFE: Fastest implementation of cache using unsafe memory operations that skip multiple safety checks to read/write.
+		#Allowed Values: SIMPLE, UNSAFE, HANDLE
+		binding_cache_type = "HANDLE"
+		#- IGNORE: Shader storage buffers will not be restored which improves FPS but reduces compatibility with mods and shaders that ues shader storage buffers.
+		#- ENABLED: Shader storage buffers will be restored, which is slight slower but has better compatibility with mods and shaders that ues shader storage buffers.
+		#Allowed Values: IGNORED, RESTORED
+		shader_storage_type = "RESTORED"
+		#- IGNORE: Atomic counter buffers will not be restored which improves FPS but reduces compatibility with mods and shaders that ues atomic counter buffers.
+		#- ENABLED: Atomic counter buffers will be restored, which is slight slower but has better compatibility with mods and shaders that ues atomic counter buffers.
+		#Allowed Values: IGNORED, RESTORED
+		atomic_counter_type = "RESTORED"
+		#Range of shader storage buffer bindings that will be restored.
+		#Changing this value may affects your FPS. Smaller value means less shader storage buffer restored but less compatibility, while larger values means more shader storage buffer restored and better compatibility. More shader storage buffers means less FPS.
+		#Range: 0 ~ 9
+		shader_storage_range = 9
+		#Range of atomic counter buffer bindings that will be restored.
+		#Changing this value may affects your FPS. Smaller value means less atomic counter buffer restored but less compatibility, while larger values means more atomic counter buffer restored and better compatibility. More atomic counter buffers means less FPS.
+		#Range: 0 ~ 1
+		atomic_counter_range = 1
+
+#Accelerated Entity Rendering Settings
+#Accelerated Entity Rendering uses GPU to cache and transform vertices while rendering entities, instead of generating and transforming vertices every time the entities are rendered in CPU.
+[accelerated_entity_rendering]
+	#- DISABLED: Disable accelerated entity rendering.
+	#- ENABLED: Enable accelerated entity rendering.
+	#Allowed Values: DISABLED, ENABLED
+	feature_status = "ENABLED"
+	#- VANILLA: Entities will not be rendered into the accelerated pipeline unless mods explicitly enable it temporarily when rendering their own entities.
+	#- ACCELERATED: All entities will be rendered in the accelerated pipeline unless mods explicitly disable it temporarily when rendering their own entities.
+	#Allowed Values: VANILLA, ACCELERATED
+	default_pipeline = "ACCELERATED"
+	#- CLIENT: Cached mesh will be stored on the client side (CPU), which will use less VRAM but take more time to upload to the server side (GPU) during rendering.
+	#- SERVER: Cached mesh will be stored on the server side (GPU), which may speed up rendering but will use more VRAM to store the mesh.
+	#Allowed Values: SERVER, CLIENT
+	mesh_type = "SERVER"
+	#- DISABLED: Accelerated Rendering will not accelerate entities when rendering it in a GUI unless mods explicitly enable it temporarily when rendering their own entities.
+	#- ENABLED: Accelerated Rendering will still accelerate entities when rendering it in a GUI unless mods explicitly disable it temporarily when rendering their own entities.
+	#Allowed Values: DISABLED, ENABLED
+	gui_acceleration = "ENABLED"
+
+#Accelerated Item Rendering Settings
+#Accelerated Item Rendering uses GPU to cache and transform vertices while rendering item models, instead of generating and transforming vertices every time the item models are rendered in CPU.
+[accelerated_item_rendering]
+	#- DISABLED: Disable accelerated item rendering.
+	#- ENABLED: Enable accelerated item rendering.
+	#Allowed Values: DISABLED, ENABLED
+	feature_status = "ENABLED"
+	#- DISABLED: Accelerated Rendering will not bake mesh for quads provided by dynamic item models (something that is not SimpleBakedModel) unless mods explicitly enable it temporarily when rendering their own item models.
+	#- ENABLED: Accelerated Rendering will bake mesh for all quads provided by dynamic item models (something that is not SimpleBakedModel) unless mods explicitly disable it temporarily when rendering their own item models, which will accelerate the rendering of these models but will crash if they keep allocating new quad data. (but who will?)
+	#Allowed Values: DISABLED, ENABLED
+	bake_mesh_for_quads = "ENABLED"
+	#- VANILLA: Item models will not be rendered into the accelerated pipeline unless mods explicitly enable it temporarily when rendering their own item models.
+	#- ACCELERATED: All item models will be rendered in the accelerated pipeline unless mods explicitly disable it temporarily when rendering their own item models.
+	#Allowed Values: VANILLA, ACCELERATED
+	default_pipeline = "ACCELERATED"
+	#- CLIENT: Cached mesh will be stored on the client side (CPU), which will use less VRAM but take more time to upload to the server side (GPU) during rendering.
+	#- SERVER: Cached mesh will be stored on the server side (GPU), which may speed up rendering but will use more VRAM to store the mesh.
+	#Allowed Values: SERVER, CLIENT
+	mesh_type = "SERVER"
+	#- DISABLED: Accelerated Rendering will not accelerate item models that are marked as "too small to make up the cost of acceleration" when rendering it in hand unless mods explicitly enable it temporarily when rendering their own item models.
+	#- ENABLED: Accelerated Rendering will still accelerate item models that are marked as "too small to make up the cost of acceleration" when rendering it in hand unless mods explicitly disable it temporarily when rendering their own item models, which may slightly reduce the FPS but accelerate vanilla-like modded item models with large amount of vertices.
+	#Allowed Values: DISABLED, ENABLED
+	hand_acceleration = "ENABLED"
+	#- DISABLED: Accelerated Rendering will not accelerate item models that are marked as "too small to make up the cost of acceleration" when rendering it in a container GUI unless mods explicitly enable it temporarily when rendering their own item models.
+	#- ENABLED: Accelerated Rendering will still accelerate item models that are marked as "too small to make up the cost of acceleration" when rendering it in a container GUI unless mods explicitly disable it temporarily when rendering their own item models, which may slightly reduce the FPS but accelerate vanilla-like modded item models with large amount of vertices.
+	#Allowed Values: DISABLED, ENABLED
+	gui_acceleration = "DISABLED"
+	#- DISABLED: Items in the container GUI will be rendered as per item per batch if the GUI Acceleration is enabled, which is inefficient and may cause slight reduction in FPS, but it has better compatibility in modded container GUI.
+	#- ENABLED: Items in the container will be rendered together in a single batch if the GUI Acceleration is enabled, which is much more efficient but has little compatibility in modded container GUI.
+	#Allowed Values: DISABLED, ENABLED
+	gui_item_batching = "ENABLED"
+
+#Accelerated Text Rendering Settings
+#Accelerated Text Rendering uses GPU to cache and transform vertices while rendering text through BakedGlyph, instead of generating and transforming vertices every time the text are rendered in CPU.
+[accelerated_text_rendering]
+	#- DISABLED: Disable accelerated text rendering.
+	#- ENABLED: Enable accelerated text rendering.
+	#Allowed Values: DISABLED, ENABLED
+	feature_status = "DISABLED"
+	#- VANILLA: Text will not be rendered into the accelerated pipeline unless mods explicitly enable it temporarily when rendering their own text.
+	#- ACCELERATED: All text will be rendered in the accelerated pipeline unless mods explicitly disable it temporarily when rendering their own text.
+	#Allowed Values: VANILLA, ACCELERATED
+	default_pipeline = "ACCELERATED"
+	#- CLIENT: Cached mesh will be stored on the client side (CPU), which will use less VRAM but take more time to upload to the server side (GPU) during rendering.
+	#- SERVER: Cached mesh will be stored on the server side (GPU), which may speed up rendering but will use more VRAM to store the mesh.
+	#Allowed Values: SERVER, CLIENT
+	mesh_type = "SERVER"
+
+#Simple Orientation Face Culling Settings
+#Simple Orientation face culling uses an compute shader before the draw call to discard faces that is not visible on screen by checking if it is facing to the screen using a determinant of 3 * 3 matrix.
+[orientation_culling]
+	#- DISABLED: Disable simple orientation face culling.
+	#- ENABLED: Enable simple orientation face culling.
+	#Allowed Values: DISABLED, ENABLED
+	feature_Status = "ENABLED"
+	#- DISABLED: Faces will not be culled unless mods explicitly enable it temporarily when rendering their own geometries.
+	#- ENABLED: All faces will be culled unless mods explicitly disable it temporarily when rendering their own geometries.
+	#Allowed Values: DISABLED, ENABLED
+	default_culling = "ENABLED"
+	#- DISABLED: Simple orientation face culling will not cull entities that are not declared as "cullable".
+	#- ENABLED: Simple orientation face culling will cull all entities even if they are not declared as "cullable".
+	#Allowed Values: DISABLED, ENABLED
+	ignore_cull_state = "DISABLED"
+
+#Filters Settings
+#Filters allows you to prevent specific entities/block entities/items from being accelerated when rendering for better compatibility.
+[filter]
+	#- DISABLED: Filters will be disabled and all entities, block entities and items will be accelerated when rendering.
+	#- ENABLED: Filters will test if the entities, block entities and items should be accelerated when rendering based on the filter values and the filter type.
+	#Allowed Values: DISABLED, ENABLED
+	feature_status = "DISABLED"
+	#- DISABLED: Entity filter will be disabled and all entities will be accelerated.
+	#- ENABLED: Entity filter will test if the entities should be accelerated when rendering based on the filter values and the filter type.
+	#Allowed Values: DISABLED, ENABLED
+	entity_filter = "DISABLED"
+	#- DISABLED: Block entity filter will be disabled and all block entities will be accelerated.
+	#- ENABLED: Block entity filter will test if the block entities should be accelerated when rendering based on the filter values and the filter type.
+	#Allowed Values: DISABLED, ENABLED
+	block_entity_filter = "DISABLED"
+	#- DISABLED: Item filter will be disabled and all items will be accelerated.
+	#- ENABLED: Item filter will test if the items should be accelerated when rendering based on the filter values and the filter type.
+	#Allowed Values: DISABLED, ENABLED
+	item_filter = "DISABLED"
+	#- BLACKLIST: Entities that are not in the filter values can pass the filter and be accelerated when rendering.
+	#- WHITELIST: Entities that are in the filter values can pass the filter and be accelerated when rendering.
+	#Allowed Values: BLACKLIST, WHITELIST
+	entity_filter_type = "BLACKLIST"
+	#- BLACKLIST: Block entities that are not in the filter values can pass the filter and be accelerated when rendering.
+	#- WHITELIST: Block entities that are in the filter values can pass the filter and be accelerated when rendering.
+	#Allowed Values: BLACKLIST, WHITELIST
+	block_entity_filter_type = "BLACKLIST"
+	#- BLACKLIST: Items that are not in the filter values can pass the filter and be accelerated when rendering.
+	#- WHITELIST: Items that are in the filter values can pass the filter and be accelerated when rendering.
+	#Allowed Values: BLACKLIST, WHITELIST
+	item_filter_type = "BLACKLIST"
+	#You can configure the entity filter by this list.
+	#Entity filter will use this list and the filter type to determine if a entity can pass the filter.
+	entity_filter_values = []
+	#You can configure the block entity filter by this list.
+	#Block entity filter will use this list and the filter type to determine if a block entity can pass the filter.
+	block_entity_filter_values = []
+	#You can configure the item filter by this list.
+	#Item filter will use this list and the filter type to determine if an item can pass the filter.
+	item_filter_values = []
+
+#Iris Compatibility Settings
+#Iris Compatibility Settings allows Accelerated Rendering to work correctly with Iris.
+[iris_compatibility]
+	#- DISABLED: Accelerated Rendering will be incompatible with Iris and cause visual glitches when working with Iris.
+	#- ENABLED: Accelerated Rendering will use compute shaders that fits Iris's vertex formats, which make it compatible with Iris.
+	#Allowed Values: DISABLED, ENABLED
+	feature_status = "ENABLED"
+	#- DISABLED: Simple Orientation culling will not work with Iris because the culling shader is for vanilla's vertex formats.
+	#- ENABLED: Simple Orientation culling will use another culling shader that fits iris's vertex format, which make it compatible with Iris.
+	#Allowed Values: DISABLED, ENABLED
+	orientation_culling_compatibility = "ENABLED"
+	#- DISABLED: Entities will not be culled when they are rendered as shadows unless mods explicitly enable it temporarily when rendering their own shadows. Which reduce FPS due to redundant faces.
+	#- ENABLED: Entities will be culled when they are rendered as shadows unless mods explicitly disable it temporarily when rendering their own shadows. Redundant faces will be culled and improve FPS, but it may cause incorrect shadows.
+	#Allowed Values: DISABLED, ENABLED
+	shadow_culling = "ENABLED"
+	#- DISABLED: Extra information in vertices provided by Iris will not be included or calculated in the accelerated pipeline unless mods explicitly enable it temporarily when rendering their own geometries, which may cause visual glitches or incorrect rendering.
+	#- ENABLED: Extra information in vertices provided by Iris will be included and calculated in the accelerated pipeline by a compute shader unless mods explicitly disable it temporarily when rendering their own geometries.
+	#Allowed Values: DISABLED, ENABLED
+	polygon_processing = "ENABLED"
+
+#Sodium Compatibility Settings
+#Sodium Compatibility Settings allows Accelerated Rendering to work correctly with Sodium.
+[sodium_compatibility]
+	#- DISABLED: Accelerated Rendering may be incompatible with Sodium that takes over the rendering before Accelerated Rendering.
+	#- ENABLED: Accelerated Rendering will take over the rendering before Sodium to work correctly with Sodium.
+	#Allowed Values: DISABLED, ENABLED
+	feature_status = "ENABLED"
+	#- DISABLED: Sodium's optimized vertex writing code path will not be disabled unless mods explicitly enable it temporarily when rendering their on geometries, which will take over the rendering before Accelerated Rendering's pipeline.
+	#- ENABLED: Sodium's optimized vertex writing code path will be disabled unless mods explicitly disable it temporarily when rendering their on geometries and Accelerated Rendering's pipeline can take over the rendering. However, when acceleration feature is disabled, it's highly recommend to enable the optimized code path.
+	#Allowed Values: DISABLED, ENABLED
+	disabled_optimized_path = "ENABLED"
+
+#Curios Compatibility Settings
+#Curios Compatibility Settings allows Accelerated Rendering to work correctly with Curios.
+[curios_compatibility]
+	#- DISABLED: Accelerated Rendering will not interrupt the acceleration of the Curios layer on entities.
+	#- ENABLED: Accelerated Rendering will interrupt the acceleration of Curios layer on entities to prevent some mods using extremely bad rendering code that breaks the caching of Accelerated Rendering.
+	#Allowed Values: DISABLED, ENABLED
+	feature_status = "ENABLED"
+	#- DISABLED: Curios layer will not be accelerated by default to prevent some mods using extremely bad rendering code that breaks the caching of Accelerated Rendering unless mods explicitly enable the acceleration when rendering their accessories or equipments.
+	#- ENABLED: Curios layer will be accelerated by default unless mods explicitly enable the acceleration when rendering their accessories or equipments.
+	#Allowed Values: DISABLED, ENABLED
+	layer_acceleration = "DISABLED"
+	#- DISABLED: Curios item filter will be disabled and acceleration of the rendering of all curios accessories/equipments will be determined by the "layer acceleration" option.
+	#- ENABLED: Curios item filter will test if the acceleration of the curios accessories/equipments should be prevented based on the filter values and the filter type.
+	#Allowed Values: DISABLED, ENABLED
+	item_filter = "DISABLED"
+	#- BLACKLIST: Curios items that are not in the filter values can pass the filter and not being prevented to be accelerated.
+	#- WHITELIST: Curios items that are in the filter values can pass the filter and not being prevented to be accelerated.
+	#Allowed Values: BLACKLIST, WHITELIST
+	item_filter_type = "BLACKLIST"
+	#You can configure the curios item filter by this list.
+	#Curios item filter will use this list and the filter type to determine if a curios item can pass the filter.
+	item_filter_values = []
+

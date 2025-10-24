@@ -11,3 +11,7 @@ mode = "metadata:curseforge"
 [update.curseforge]
 file-id = 7040595
 project-id = 1070751
+
+[option]
+optional = true
+description = "Adds a lot of biomes to the game"
