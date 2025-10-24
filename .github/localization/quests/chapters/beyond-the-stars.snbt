@@ -422,10 +422,15 @@
 				"7F6CB9F67636C565"
 				"40536B32E6A432CD"
 			]
-			description: [""]
+			description: [
+				"{gto.beyond-the-stars.quests.16B3AB1D455CCB50.description0}"
+				""
+				"{gto.beyond-the-stars.quests.16B3AB1D455CCB50.description1}"
+			]
 			id: "16B3AB1D455CCB50"
 			shape: "gear"
 			size: 2.0d
+			subtitle: "{gto.beyond-the-stars.quests.16B3AB1D455CCB50.subtitle}"
 			tasks: [{
 				id: "25EE9615BE500843"
 				item: "enderio:rocket_fuel_bucket"
@@ -748,9 +753,15 @@
 				"16B6F1CEA28F2D42"
 				"16B3AB1D455CCB50"
 			]
+			description: [
+				"{gto.beyond-the-stars.quests.6C645FDD0CF3C52A.description0}"
+				""
+				"{gto.beyond-the-stars.quests.6C645FDD0CF3C52A.description1}"
+			]
 			id: "6C645FDD0CF3C52A"
 			shape: "gear"
 			size: 2.0d
+			subtitle: "{gto.beyond-the-stars.quests.6C645FDD0CF3C52A.subtitle}"
 			tasks: [{
 				id: "7C924195EC353447"
 				item: "gtocore:rocket_fuel_rp_1_bucket"
@@ -828,6 +839,7 @@
 		{
 			dependencies: ["4BA3FA62A307DBC5"]
 			id: "40D50D3FC5EA5D9D"
+			subtitle: "{gto.beyond-the-stars.quests.40D50D3FC5EA5D9D.subtitle}"
 			tasks: [
 				{
 					id: "4AE95F9F2E475546"
@@ -845,6 +857,7 @@
 					type: "item"
 				}
 			]
+			title: "{gto.beyond-the-stars.quests.40D50D3FC5EA5D9D.title}"
 			x: 19.5d
 			y: 1.0d
 		}
@@ -1056,6 +1069,7 @@
 		{
 			dependencies: ["4BA3FA62A307DBC5"]
 			id: "55FCF330DABADFB1"
+			subtitle: "{gto.beyond-the-stars.quests.55FCF330DABADFB1.subtitle}"
 			tasks: [
 				{
 					id: "7D82C9A5A722A6DB"
@@ -1078,6 +1092,7 @@
 					type: "item"
 				}
 			]
+			title: "{gto.beyond-the-stars.quests.55FCF330DABADFB1.title}"
 			x: 17.5d
 			y: 3.0d
 		}
@@ -1085,6 +1100,7 @@
 			dependencies: ["27771E52B49806B6"]
 			hide_dependent_lines: true
 			id: "479707D18AD5181B"
+			subtitle: "{gto.beyond-the-stars.quests.479707D18AD5181B.subtitle}"
 			tasks: [
 				{
 					id: "5AAC64040FB1B944"
@@ -1102,6 +1118,7 @@
 					type: "item"
 				}
 			]
+			title: "{gto.beyond-the-stars.quests.479707D18AD5181B.title}"
 			x: 22.5d
 			y: 10.0d
 		}
@@ -1160,9 +1177,17 @@
 				"17324D4DD97218DA"
 				"6C645FDD0CF3C52A"
 			]
+			description: [
+				"{gto.beyond-the-stars.quests.637E8174DF8EA186.description0}"
+				""
+				"{gto.beyond-the-stars.quests.637E8174DF8EA186.description1}"
+				""
+				"{gto.beyond-the-stars.quests.637E8174DF8EA186.description2}"
+			]
 			id: "637E8174DF8EA186"
 			shape: "gear"
 			size: 2.0d
+			subtitle: "{gto.beyond-the-stars.quests.637E8174DF8EA186.subtitle}"
 			tasks: [{
 				id: "7EEC6C0D854EE625"
 				item: "gtocore:dense_hydrazine_fuel_mixture_bucket"
@@ -1338,6 +1363,7 @@
 		{
 			dependencies: ["0FA017F31EF08F19"]
 			id: "56F034904D31D9FB"
+			subtitle: "{gto.beyond-the-stars.quests.56F034904D31D9FB.subtitle}"
 			tasks: [
 				{
 					id: "33F7A4A1D0028C49"
@@ -1350,6 +1376,7 @@
 					type: "item"
 				}
 			]
+			title: "{gto.beyond-the-stars.quests.56F034904D31D9FB.title}"
 			x: 27.0d
 			y: 3.0d
 		}
@@ -1474,6 +1501,7 @@
 		{
 			dependencies: ["136025CCB32D6AFE"]
 			id: "5B4A3DAE5750D655"
+			subtitle: "{gto.beyond-the-stars.quests.5B4A3DAE5750D655.subtitle}"
 			tasks: [
 				{
 					id: "4EAC18598F7BB6D9"
@@ -1486,6 +1514,7 @@
 					type: "item"
 				}
 			]
+			title: "{gto.beyond-the-stars.quests.5B4A3DAE5750D655.title}"
 			x: 27.0d
 			y: 13.0d
 		}
@@ -1622,6 +1651,7 @@
 		{
 			dependencies: ["15356C4478131544"]
 			id: "3376801E0CDCE656"
+			subtitle: "{gto.beyond-the-stars.quests.3376801E0CDCE656.subtitle}"
 			tasks: [
 				{
 					id: "4E491AC521E7F6F2"
@@ -1634,6 +1664,7 @@
 					type: "item"
 				}
 			]
+			title: "{gto.beyond-the-stars.quests.3376801E0CDCE656.title}"
 			x: 16.0d
 			y: 13.0d
 		}
@@ -1653,6 +1684,7 @@
 		{
 			dependencies: ["15356C4478131544"]
 			id: "54CEDB30AB9906C0"
+			subtitle: "{gto.beyond-the-stars.quests.54CEDB30AB9906C0.subtitle}"
 			tasks: [
 				{
 					id: "284311EDF482862F"
@@ -1670,6 +1702,7 @@
 					type: "item"
 				}
 			]
+			title: "{gto.beyond-the-stars.quests.54CEDB30AB9906C0.title}"
 			x: 16.0d
 			y: 11.0d
 		}
@@ -2187,6 +2220,7 @@
 			id: "5CA2359D7B952655"
 			shape: "gear"
 			size: 2.0d
+			subtitle: "{gto.beyond-the-stars.quests.5CA2359D7B952655.subtitle}"
 			tasks: [{
 				id: "144A747E3B0BBC44"
 				item: "gtocore:rocket_fuel_cn3h7o3_bucket"
@@ -2212,10 +2246,17 @@
 				"618BFD8A6FC90B86"
 				"5CA2359D7B952655"
 			]
-			description: [""]
+			description: [
+				"{gto.beyond-the-stars.quests.4A3E57669091C8A0.description0}"
+				""
+				"{gto.beyond-the-stars.quests.4A3E57669091C8A0.description1}"
+				""
+				"{gto.beyond-the-stars.quests.4A3E57669091C8A0.description2}"
+			]
 			id: "4A3E57669091C8A0"
 			shape: "gear"
 			size: 2.0d
+			subtitle: "{gto.beyond-the-stars.quests.4A3E57669091C8A0.subtitle}"
 			tasks: [{
 				id: "750F536A3AF98C27"
 				item: "gtocore:rocket_fuel_h8n4c2o4_bucket"
@@ -2252,9 +2293,11 @@
 				"67A5C9B045EE23B0"
 				"462BE2D4394A2899"
 			]
+			description: ["{gto.beyond-the-stars.quests.2A60421E915FF505.description0}"]
 			id: "2A60421E915FF505"
 			shape: "gear"
 			size: 2.0d
+			subtitle: "{gto.beyond-the-stars.quests.2A60421E915FF505.subtitle}"
 			tasks: [{
 				id: "06DB0648CC6329ED"
 				item: "ad_astra:cryo_fuel_bucket"
@@ -2299,10 +2342,11 @@
 				"7E47ACAD8471A487"
 				"2A60421E915FF505"
 			]
-			description: [""]
+			description: ["{gto.beyond-the-stars.quests.3581343F25D5B03F.description0}"]
 			id: "3581343F25D5B03F"
 			shape: "gear"
 			size: 2.0d
+			subtitle: "{gto.beyond-the-stars.quests.3581343F25D5B03F.subtitle}"
 			tasks: [{
 				id: "5DC2AE50E6E29B17"
 				item: "gtocore:stellar_energy_rocket_fuel_bucket"
@@ -2358,6 +2402,7 @@
 				item: "gtceu:raw_bauxite"
 				type: "item"
 			}]
+			title: "{gto.beyond-the-stars.quests.4EE27291636F444E.title}"
 			x: 10.0d
 			y: 0.0d
 		}
@@ -2378,6 +2423,7 @@
 				item: "gtceu:raw_ilmenite"
 				type: "item"
 			}]
+			title: "{gto.beyond-the-stars.quests.0A046D102CBD3493.title}"
 			x: 10.0d
 			y: 2.0d
 		}
