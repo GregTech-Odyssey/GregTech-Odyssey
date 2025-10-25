@@ -10,3 +10,7 @@ url = "https://edge.forgecdn.net/files/6266/130/chisel-forge-2.0.0+mc1.20.1.jar"
 [update.curseforge]
 file-id = 6266130
 project-id = 551763
+
+[option]
+optional = true
+description = "Adds a many blocks"
