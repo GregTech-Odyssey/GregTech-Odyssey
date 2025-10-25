@@ -55,7 +55,7 @@
 			}]
 			title: "&4湿件处理器"
 			x: -2.0d
-			y: 6.5d
+			y: 8.0d
 		}
 		{
 			dependencies: [
@@ -69,7 +69,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 6.5d
+			y: 8.0d
 		}
 		{
 			dependencies: [
@@ -93,7 +93,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: 4.5d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -102,7 +102,6 @@
 			]
 			dependency_requirement: "one_completed"
 			description: ["绝对乙醇可以通过乙醇自循环沸石产生"]
-			hide_dependent_lines: true
 			id: "717F73B64CA7E035"
 			tasks: [{
 				id: "01CEF32406C73D16"
@@ -110,7 +109,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: 1.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["19127B42AB919C11"]
@@ -153,7 +152,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: -1.5d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -184,7 +183,7 @@
 				type: "item"
 			}]
 			x: -9.0d
-			y: 3.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["3490AACD4AA62C5D"]
@@ -218,8 +217,8 @@
 				}
 				type: "item"
 			}]
-			x: 1.5d
-			y: 3.0d
+			x: 2.0d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -233,8 +232,8 @@
 				item: "gtocore:fuel_refining_complex"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 1.5d
+			x: 2.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["19127B42AB919C11"]
@@ -246,7 +245,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -1.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["28265843939C1503"]
@@ -256,8 +255,8 @@
 				item: "gtceu:enriched_naquadah_trinium_europium_duranide_ingot"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -1.5d
+			x: 2.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["24F1061AFD1BFEB2"]
@@ -272,8 +271,8 @@
 				item: "gtceu:network_switch"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -3.0d
+			x: 4.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["24F1061AFD1BFEB2"]
@@ -285,8 +284,8 @@
 				item: "gtceu:mega_blast_furnace"
 				type: "item"
 			}]
-			x: 3.75d
-			y: -2.25d
+			x: 4.75d
+			y: -2.75d
 		}
 		{
 			dependencies: ["24F1061AFD1BFEB2"]
@@ -298,8 +297,8 @@
 				item: "gtocore:mega_alloy_blast_smelter"
 				type: "item"
 			}]
-			x: 3.75d
-			y: -0.75d
+			x: 4.75d
+			y: -1.25d
 		}
 		{
 			dependencies: ["24F1061AFD1BFEB2"]
@@ -311,8 +310,8 @@
 				item: "gtceu:mega_vacuum_freezer"
 				type: "item"
 			}]
-			x: 4.5d
-			y: -1.5d
+			x: 5.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["1DE0A599F076C31A"]
@@ -322,7 +321,7 @@
 				item: "gtceu:darmstadtium_ingot"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 2.0d
 			y: -4.0d
 		}
 		{
@@ -343,7 +342,7 @@
 				type: "item"
 			}]
 			title: "欢迎来到&3极限压&r阶段"
-			x: 4.5d
+			x: 6.0d
 			y: -4.0d
 		}
 		{
@@ -357,7 +356,7 @@
 			}]
 			title: "&4湿件处理器集群"
 			x: -4.0d
-			y: 6.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["0BB1BDBE8BB307E4"]
@@ -392,7 +391,7 @@
 				}
 			]
 			x: 3.0d
-			y: 5.0d
+			y: 5.75d
 		}
 		{
 			dependencies: ["19134C6F6A115AEE"]
@@ -412,7 +411,7 @@
 			}]
 			title: "&4湿件处理器主机"
 			x: -9.0d
-			y: 6.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["608F56E6A187940C"]
@@ -435,7 +434,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: -1.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["06099A423968D6E0"]
@@ -446,15 +445,11 @@
 				item: "gtocore:bacterial_growth_medium_bucket"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 0.0d
+			x: -6.0d
+			y: -2.0d
 		}
 		{
-			dependencies: [
-				"7A12577E23FC07A1"
-				"1F94544576D30A92"
-				"717F73B64CA7E035"
-			]
+			dependencies: ["6742F9E1907A9A84"]
 			description: ["你必须先用生化反应来制作前&a16个&r细菌"]
 			id: "747599D690EADE56"
 			tasks: [
@@ -485,14 +480,13 @@
 			]
 			title: "我需要DNA#2"
 			x: -6.0d
-			y: 1.5d
+			y: 2.0d
 		}
 		{
 			dependencies: [
-				"747599D690EADE56"
-				"65A2C89AD67604DE"
 				"7651697F32169E49"
 				"06DF372F16F1A5CA"
+				"6742F9E1907A9A84"
 			]
 			description: ["在做出最初的&a16个&r细菌之后就可以开始&e增殖&r。动物细胞则较为简单，只需要&6刷怪蛋&r即可。"]
 			hide_dependency_lines: true
@@ -519,7 +513,7 @@
 			]
 			title: "自行生长"
 			x: -7.5d
-			y: 1.5d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -536,16 +530,15 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: 3.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["65A2C89AD67604DE"]
 			description: [
 				"是第一批干细胞的制作原料，也是细胞增殖的原料"
 				""
-				"后面有更高效的配方"
+				"有更高效的循环产线制作它"
 			]
-			hide_dependent_lines: true
 			id: "2C79D433651D795C"
 			shape: "hexagon"
 			tasks: [{
@@ -553,13 +546,12 @@
 				item: "gtceu:sterilized_growth_medium_bucket"
 				type: "item"
 			}]
-			x: -6.0d
-			y: -1.5d
+			x: -2.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["3490AACD4AA62C5D"]
 			description: ["尽管你可能没有做过小型的，但我依然建议你直接做大型的"]
-			hide_dependent_lines: true
 			id: "06DF372F16F1A5CA"
 			shape: "hexagon"
 			size: 1.5d
@@ -569,7 +561,7 @@
 				type: "item"
 			}]
 			x: -11.0d
-			y: -2.25d
+			y: -2.0d
 		}
 		{
 			dependencies: ["3490AACD4AA62C5D"]
@@ -596,7 +588,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 3.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["3490AACD4AA62C5D"]
@@ -608,7 +600,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 1.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["348156EA1A381ABF"]
@@ -621,7 +613,7 @@
 			}]
 			title: "&4湿件处理器超级计算机"
 			x: -6.0d
-			y: 6.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["49E04C29B878D3A8"]
@@ -637,7 +629,7 @@
 				type: "item"
 			}]
 			x: -5.0d
-			y: 4.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["3490AACD4AA62C5D"]
@@ -649,7 +641,7 @@
 				item: "gtceu:zpm_energy_input_hatch"
 				type: "item"
 			}]
-			x: -5.5d
+			x: -6.0d
 			y: -4.0d
 		}
 		{
@@ -699,7 +691,7 @@
 			]
 			title: "藻类"
 			x: -11.0d
-			y: 1.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["3F041E002D75AB2C"]
@@ -730,7 +722,7 @@
 			]
 			title: "生物养料"
 			x: -11.0d
-			y: 3.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["19B07E541BE74686"]
@@ -751,7 +743,7 @@
 				type: "item"
 			}]
 			x: -11.0d
-			y: 6.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["6DC73D6C2AD17444"]
@@ -768,7 +760,7 @@
 				type: "item"
 			}]
 			x: -11.0d
-			y: 4.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["19B07E541BE74686"]
@@ -782,7 +774,7 @@
 				type: "item"
 			}]
 			x: -9.0d
-			y: 4.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["0985154AE9169549"]
@@ -800,8 +792,8 @@
 				}
 			]
 			title: "核废料兄弟"
-			x: 4.5d
-			y: 1.5d
+			x: 6.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -817,8 +809,8 @@
 				item: "gtocore:super_particle_collider"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 1.5d
+			x: 4.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["0007751813572404"]
@@ -829,8 +821,8 @@
 				item: "gtceu:astatine_dust"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 3.0d
+			x: 4.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["26167AFECA871925"]
@@ -844,8 +836,8 @@
 				item: "gtocore:integral_framework_zpm"
 				type: "item"
 			}]
-			x: 4.5d
-			y: 3.0d
+			x: 6.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["28265843939C1503"]
@@ -855,7 +847,7 @@
 				item: "gtocore:lafium_ingot"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 2.0d
 			y: 0.0d
 		}
 		{
@@ -890,14 +882,10 @@
 			]
 			title: "我需要DNA#3"
 			x: -6.0d
-			y: 3.0d
+			y: 4.0d
 		}
 		{
-			dependencies: [
-				"7A12577E23FC07A1"
-				"1F94544576D30A92"
-				"717F73B64CA7E035"
-			]
+			dependencies: ["6742F9E1907A9A84"]
 			description: ["你必须先用生化反应来制作前&a16个&r细菌"]
 			id: "65A2C89AD67604DE"
 			tasks: [{
@@ -907,8 +895,8 @@
 				type: "item"
 			}]
 			title: "我需要DNA#1"
-			x: -6.0d
-			y: 0.0d
+			x: -4.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["608F56E6A187940C"]
@@ -919,7 +907,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: 1.5d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -959,7 +947,23 @@
 				type: "item"
 			}]
 			x: -7.0d
-			y: 4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"1F94544576D30A92"
+				"717F73B64CA7E035"
+				"7A12577E23FC07A1"
+			]
+			description: ["培养细菌较为复杂，你需要在&6生化反应室&r中先完成&e初代培养&r，再转移至&6培养缸&r进行&e增殖&r"]
+			id: "6742F9E1907A9A84"
+			tasks: [{
+				id: "0D91FABC6AA07541"
+				title: "培养细菌"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: 0.0d
 		}
 	]
 	subtitle: ["Tier7-ZPM"]

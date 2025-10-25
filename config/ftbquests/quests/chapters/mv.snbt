@@ -61,6 +61,20 @@
 				"你已经敲开了高压时代的大门！"
 			]
 			id: "49E5CC5873FA226F"
+			rewards: [
+				{
+					count: 4
+					id: "0A30DB92DBBCDCFD"
+					item: "gtceu:advanced_integrated_circuit"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "0DF58AA190F015AC"
+					item: "farmersdelight:hamburger"
+					type: "item"
+				}
+			]
 			shape: "gear"
 			size: 2.0d
 			subtitle: "Knock Knock"
@@ -271,6 +285,12 @@
 				"用量非常巨大，需要提前进行囤积式生产！"
 			]
 			id: "26484E626E859718"
+			rewards: [{
+				count: 64
+				id: "1AC243CADA3E1633"
+				item: "gtceu:stainless_steel_ingot"
+				type: "item"
+			}]
 			shape: "gear"
 			size: 2.0d
 			tasks: [{

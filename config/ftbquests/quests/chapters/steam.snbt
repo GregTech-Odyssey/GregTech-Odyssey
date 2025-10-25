@@ -265,6 +265,12 @@
 				"当然还有&5非常重要&r的&4超导线&r，你必然不会想错过它的吧？"
 			]
 			id: "604FA0DDAD1979A1"
+			rewards: [{
+				count: 16
+				id: "69EE79A3CAC710EF"
+				item: "gtceu:red_alloy_ingot"
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 1.5d
 			subtitle: "Ver.0"
@@ -274,7 +280,7 @@
 				type: "item"
 			}]
 			title: "超！导！体！"
-			x: -3.0d
+			x: -3.5d
 			y: 4.5d
 		}
 		{
@@ -559,6 +565,12 @@
 				"&o&7另一种方法是石墨矿破碎"
 			]
 			id: "27F4D9739FE33A02"
+			rewards: [{
+				count: 64
+				id: "2ABC438654CC3D33"
+				item: "ad_astra:steel_ingot"
+				type: "item"
+			}]
 			shape: "gear"
 			size: 2.5d
 			subtitle: "真正的生产力大跃进"
@@ -606,6 +618,12 @@
 				"至于后续如何选择，取决于你"
 			]
 			id: "72C6B40B38D542BF"
+			rewards: [{
+				count: 16
+				id: "19BC0C9478834B05"
+				item: "minecraft:glass"
+				type: "item"
+			}]
 			subtitle: "熔炼成块！"
 			tasks: [{
 				id: "0CB91090B120A01D"
@@ -683,6 +701,12 @@
 			]
 			hide_dependency_lines: false
 			id: "043FCD7B759853EA"
+			rewards: [{
+				count: 32
+				id: "16E7725D85D75143"
+				item: "gtceu:rubber_ingot"
+				type: "item"
+			}]
 			shape: "gear"
 			size: 2.0d
 			subtitle: "千辛万苦"
@@ -804,6 +828,12 @@
 				"所以在制作超导线如果觉得有困难的话，不如尝试一下&1魔法的力量&r"
 			]
 			id: "0DCA3A96184C9EAC"
+			rewards: [{
+				count: 16
+				id: "729CAE88D53DA197"
+				item: "enderio:pulsating_alloy_ingot"
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 1.5d
 			subtitle: "噢！是魔法超导体！"
@@ -896,6 +926,12 @@
 				"手持&6粗真空管&r潜行右击&6真空泵&r制造&6真空管&r"
 			]
 			id: "53109F7472C0B443"
+			rewards: [{
+				count: 16
+				id: "6DDFC8966506C070"
+				item: "gtceu:vacuum_tube"
+				type: "item"
+			}]
 			shape: "gear"
 			size: 2.0d
 			subtitle: "嘬嘬嘬"
@@ -1126,7 +1162,7 @@
 			]
 			id: "53A8535B07FE3958"
 			rewards: [{
-				count: 7
+				count: 16
 				id: "20B6F1F4B5E36276"
 				item: "gtceu:red_alloy_single_cable"
 				type: "item"
@@ -1140,7 +1176,7 @@
 				type: "item"
 			}]
 			title: "ULV超导"
-			x: -3.0d
+			x: -3.5d
 			y: 10.5d
 		}
 		{
@@ -1175,6 +1211,12 @@
 				"你需要节省材料和时间"
 			]
 			id: "13FBF05133D59CDC"
+			rewards: [{
+				count: 16
+				id: "72FE7E90ED81BB3B"
+				item: "ad_astra:steel_plate"
+				type: "item"
+			}]
 			subtitle: "三维变二维？"
 			tasks: [{
 				id: "21B831E45B1D76EA"
@@ -1340,7 +1382,7 @@
 				type: "item"
 			}]
 			title: "你可以贴贴的导线"
-			x: -3.0d
+			x: -3.5d
 			y: 7.5d
 		}
 		{
@@ -1373,7 +1415,7 @@
 				type: "item"
 			}]
 			title: "让我们把玻璃擦干净点"
-			x: -3.0d
+			x: -2.5d
 			y: 3.0d
 		}
 		{
@@ -1389,7 +1431,7 @@
 				type: "item"
 			}]
 			title: "让物品动起来"
-			x: -1.0d
+			x: -0.5d
 			y: 1.0d
 		}
 		{
@@ -1409,7 +1451,7 @@
 				type: "item"
 			}]
 			title: "把管道密封好"
-			x: -5.0d
+			x: -4.5d
 			y: 1.0d
 		}
 		{
@@ -1430,7 +1472,7 @@
 				type: "item"
 			}]
 			title: "泥水匠"
-			x: -3.0d
+			x: -2.5d
 			y: 1.0d
 		}
 		{
@@ -1455,7 +1497,7 @@
 				type: "item"
 			}]
 			title: "另一种流体传输方式"
-			x: -1.0d
+			x: -0.5d
 			y: 3.0d
 		}
 		{
@@ -1497,7 +1539,7 @@
 				type: "item"
 			}]
 			title: "欢迎来到&7超低压&r时代"
-			x: -3.0d
+			x: -3.5d
 			y: 14.0d
 		}
 		{
@@ -1813,9 +1855,14 @@
 					item: "enderio:sag_mill"
 					type: "item"
 				}
+				{
+					id: "4627286593B477E0"
+					item: "enderio:soul_binder"
+					type: "item"
+				}
 			]
 			title: "Ender IO的机器"
-			x: -5.0d
+			x: -5.5d
 			y: 10.5d
 		}
 		{

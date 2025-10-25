@@ -138,6 +138,14 @@
 			x: -7.5d
 			y: 19.0d
 		}
+		{
+			height: 2.0d
+			image: "gtocore:item/circuit/suprachronal_hv"
+			rotation: 0.0d
+			width: 2.0d
+			x: -3.0d
+			y: -5.5d
+		}
 	]
 	order_index: 6
 	quest_links: [ ]
@@ -308,7 +316,7 @@
 				item: "ad_astra:launch_pad"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -3.5d
 			y: 3.5d
 		}
 		{
@@ -729,13 +737,14 @@
 				"[\"\",{\"text\": \"锡石榴石矿脉：\",\"color\":\"#cc4c25\"},{\"text\": \"锡石矿砂\",\"color\":\"#89847e\"},{\"text\": \"—\"},{\"text\": \"石榴石砂\",\"color\":\"#cc4c25\"},{\"text\": \"—\"},{\"text\": \"石棉\",\"color\":\"#E6E6E6\"},{\"text\": \"—\"},{\"text\": \"硅藻土\",\"color\":\"#fffafa\"}]"
 			]
 			icon: "ad_astra:moon_globe"
+			icon_scale: 1.5d
 			id: "61C37EC8503FFDD9"
 			rewards: [{
 				id: "20216E4D2D0D0265"
 				item: "ad_astra:moon_globe"
 				type: "item"
 			}]
-			shape: "gear"
+			shape: "none"
 			size: 2.0d
 			subtitle: "格雷科技的一小步"
 			tasks: [{
@@ -913,13 +922,14 @@
 				"[\"\",{\"text\": \"硼砂矿脉：\",\"color\":\"#fafafa\"},{\"text\": \"硼砂\",\"color\":\"#fafafa\"},{\"text\": \"—\"},{\"text\": \"盐\",\"color\":\"#fafafa\"},{\"text\": \"—\"},{\"text\": \"岩盐\",\"color\":\"#ffeae1\"},{\"text\": \"—\"},{\"text\": \"锂云母\",\"color\":\"#ffdae4\"}]"
 			]
 			icon: "ad_astra:mars_globe"
+			icon_scale: 1.5d
 			id: "4BA3FA62A307DBC5"
 			rewards: [{
 				id: "2AF5C09312F3C5C3"
 				item: "ad_astra:mars_globe"
 				type: "item"
 			}]
-			shape: "gear"
+			shape: "none"
 			size: 2.0d
 			subtitle: "寻找生命存在的证明"
 			tasks: [{
@@ -1006,13 +1016,14 @@
 				"[\"\",{\"text\": \"锰矿脉：\",\"color\":\"#ffb777\"},{\"text\": \"钙铝榴石\",\"color\":\"#ffb777\"},{\"text\": \"—\"},{\"text\": \"锰铝榴石\",\"color\":\"#ffa81e\"},{\"text\": \"—\"},{\"text\": \"软锰矿\",\"color\":\"#c7b5ab\"},{\"text\": \"—\"},{\"text\": \"钽铁矿\",\"color\":\"#4e6b94\"}]"
 			]
 			icon: "ad_astra:mercury_globe"
+			icon_scale: 1.5d
 			id: "27771E52B49806B6"
 			rewards: [{
 				id: "51333DB8D8B61BE2"
 				item: "ad_astra:mercury_globe"
 				type: "item"
 			}]
-			shape: "gear"
+			shape: "none"
 			size: 2.0d
 			subtitle: "真的很热热热！！！"
 			tasks: [{
@@ -1141,13 +1152,14 @@
 				"[\"\",{\"text\": \"硼砂矿脉：\",\"color\":\"#fafafa\"},{\"text\": \"硼砂\",\"color\":\"#fafafa\"},{\"text\": \"—\"},{\"text\": \"盐\",\"color\":\"#fafafa\"},{\"text\": \"—\"},{\"text\": \"岩盐\",\"color\":\"#ffeae1\"},{\"text\": \"—\"},{\"text\": \"锂云母\",\"color\":\"#ffdae4\"}]"
 			]
 			icon: "ad_astra:venus_globe"
+			icon_scale: 1.5d
 			id: "0FA017F31EF08F19"
 			rewards: [{
 				id: "2E3FCBC50D8F42D2"
 				item: "ad_astra:venus_globe"
 				type: "item"
 			}]
-			shape: "gear"
+			shape: "none"
 			size: 2.0d
 			subtitle: "与晨曦同频"
 			tasks: [{
@@ -1156,7 +1168,7 @@
 				type: "dimension"
 			}]
 			title: "太白经天"
-			x: 27.023809523809526d
+			x: 27.0d
 			y: 1.0d
 		}
 		{
@@ -1455,13 +1467,14 @@
 				"[\"\",{\"text\": \"硼砂矿脉：\",\"color\":\"#fafafa\"},{\"text\": \"硼砂\",\"color\":\"#fafafa\"},{\"text\": \"—\"},{\"text\": \"盐\",\"color\":\"#fafafa\"},{\"text\": \"—\"},{\"text\": \"岩盐\",\"color\":\"#ffeae1\"},{\"text\": \"—\"},{\"text\": \"锂云母\",\"color\":\"#ffdae4\"}]"
 			]
 			icon: "ad_astra:ceres_globe"
+			icon_scale: 1.5d
 			id: "136025CCB32D6AFE"
 			rewards: [{
 				id: "0B8CFC0D852D0AF1"
 				item: "ad_astra:ceres_globe"
 				type: "item"
 			}]
-			shape: "gear"
+			shape: "none"
 			size: 2.0d
 			subtitle: "来自于一颗完整行星的碎片"
 			tasks: [{
@@ -1594,13 +1607,14 @@
 				"[\"\",{\"text\": \"皂滑矿脉：\",\"color\":\"#5a7261\"},{\"text\": \"皂石\",\"color\":\"#5a7261\"},{\"text\": \"—\"},{\"text\": \"滑石\",\"color\":\"#ebffe9\"},{\"text\": \"—\"},{\"text\": \"海绿石砂\",\"color\":\"#1da351\"},{\"text\": \"—\"},{\"text\": \"镍黄铁矿\",\"color\":\"#e3cf13\"}]"
 			]
 			icon: "ad_astra:ganymede_globe"
+			icon_scale: 1.5d
 			id: "27541258B94B2A11"
 			rewards: [{
 				id: "6EF83C1BFC7D6A50"
 				item: "ad_astra:ganymede_globe"
 				type: "item"
 			}]
-			shape: "gear"
+			shape: "none"
 			size: 1.5d
 			subtitle: "最大的卫星"
 			tasks: [{
@@ -1630,13 +1644,14 @@
 				"[\"\",{\"text\": \"矿砂矿脉：\",\"color\":\"#5c5c5c\"},{\"text\": \"玄武岩矿砂\",\"color\":\"#5c5c5c\"},{\"text\": \"—\"},{\"text\": \"花岗岩矿砂\",\"color\":\"#d69077\"},{\"text\": \"—\"},{\"text\": \"漂白土\",\"color\":\"#f3efbb\"},{\"text\": \"—\"},{\"text\": \"石膏\",\"color\":\"#fffaec\"}]"
 			]
 			icon: "ad_astra:io_globe"
+			icon_scale: 1.5d
 			id: "15356C4478131544"
 			rewards: [{
 				id: "25C5248900826A9A"
 				item: "ad_astra:io_globe"
 				type: "item"
 			}]
-			shape: "gear"
+			shape: "none"
 			size: 2.0d
 			subtitle: "这是火山星"
 			tasks: [{
@@ -1852,13 +1867,14 @@
 				"[\"\",{\"text\": \"黄玉矿脉：\",\"color\":\"#e8d73a\"},{\"text\": \"蓝黄玉\",\"color\":\"#dbfeff\"},{\"text\": \"—\"},{\"text\": \"黄玉\",\"color\":\"#e8d73a\"},{\"text\": \"—\"},{\"text\": \"辉铜矿\",\"color\":\"#657882\"},{\"text\": \"—\"},{\"text\": \"斑铜矿\",\"color\":\"#ffe05a\"}]"
 			]
 			icon: "ad_astra:enceladus_globe"
+			icon_scale: 1.5d
 			id: "1A21D952F3219B5B"
 			rewards: [{
 				id: "79BBBC69872B55E4"
 				item: "ad_astra:enceladus_globe"
 				type: "item"
 			}]
-			shape: "gear"
+			shape: "none"
 			size: 1.5d
 			subtitle: "看啊，闪闪发光！"
 			tasks: [{
@@ -1905,13 +1921,14 @@
 				"[\"\",{\"text\": \"蓝宝石矿脉：\",\"color\":\"#3235e3\"},{\"text\": \"铁铝榴石\",\"color\":\"#a21717\"},{\"text\": \"—\"},{\"text\": \"镁铝榴石\",\"color\":\"#e81958\"},{\"text\": \"—\"},{\"text\": \"蓝宝石\",\"color\":\"#3235e3\"},{\"text\": \"—\"},{\"text\": \"绿色蓝宝石\",\"color\":\"#9ae6b0\"}]"
 			]
 			icon: "ad_astra:titan_globe"
+			icon_scale: 1.5d
 			id: "4C8AF861C4D0AFF2"
 			rewards: [{
 				id: "41AFD0F78BB62095"
 				item: "ad_astra:titan_globe"
 				type: "item"
 			}]
-			shape: "gear"
+			shape: "none"
 			size: 1.5d
 			subtitle: "寻找惠更斯号"
 			tasks: [{
@@ -1963,13 +1980,14 @@
 				"[\"\",{\"text\": \"石榴石矿脉：\",\"color\":\"#950c15\"},{\"text\": \"红石榴石\",\"color\":\"#950c15\"},{\"text\": \"—\"},{\"text\": \"黄石榴石\",\"color\":\"#f6ff09\"},{\"text\": \"—\"},{\"text\": \"紫水晶\",\"color\":\"#cfa0f3\"},{\"text\": \"—\"},{\"text\": \"猫眼石\",\"color\":\"#D8BFD8\"}]"
 			]
 			icon: "ad_astra:pluto_globe"
+			icon_scale: 1.5d
 			id: "20932057C572CBB7"
 			rewards: [{
 				id: "52C6E0CBC84E2BD1"
 				item: "ad_astra:pluto_globe"
 				type: "item"
 			}]
-			shape: "gear"
+			shape: "none"
 			size: 2.0d
 			subtitle: "沧海一粟"
 			tasks: [{
@@ -2094,13 +2112,14 @@
 				"[\"\",{\"text\": \"锡石榴石矿脉：\",\"color\":\"#cc4c25\"},{\"text\": \"锡石矿砂\",\"color\":\"#89847e\"},{\"text\": \"—\"},{\"text\": \"石榴石砂\",\"color\":\"#cc4c25\"},{\"text\": \"—\"},{\"text\": \"石棉\",\"color\":\"#E6E6E6\"},{\"text\": \"—\"},{\"text\": \"硅藻土\",\"color\":\"#fffafa\"}]"
 			]
 			icon: "ad_astra:glacio_globe"
+			icon_scale: 1.5d
 			id: "5541FCA4ECD33B07"
 			rewards: [{
 				id: "23E542A072D4CADE"
 				item: "ad_astra:glacio_globe"
 				type: "item"
 			}]
-			shape: "gear"
+			shape: "none"
 			size: 2.0d
 			subtitle: "比邻星的比邻星"
 			tasks: [{
@@ -2157,7 +2176,6 @@
 			dependencies: ["05C7059BC114AD42"]
 			description: [
 				"终于，你踏足了最远的星系。探索到此告一段落&m？&r"
-				""
 				"{@pagebreak}"
 				"以下是矿石分布报告："
 				""

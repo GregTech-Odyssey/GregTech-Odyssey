@@ -958,10 +958,10 @@
 			y: 21.5d
 		}
 		{
-			height: 1.0d
+			height: 2.0d
 			image: "gtocore:item/circuit/suprachronal_lv"
 			rotation: 0.0d
-			width: 1.0d
+			width: 2.0d
 			x: -9.5d
 			y: 1.0d
 		}
@@ -1648,6 +1648,7 @@
 				item: "gtocore:me_simple_pattern_buffer"
 				type: "item"
 			}]
+			title: "ME简单样板总成"
 			x: -1.0d
 			y: 9.5d
 		}
@@ -3391,7 +3392,14 @@
 				"1DB79F4A3D08D7FB"
 				"5B98FF5DDD4B2629"
 			]
-			description: ["2合1终端整合了样板管理和样板编码的功能，能够批量编码一系列同种类的样板，支持一键填充配方！"]
+			description: [
+				"2合1终端整合了样板管理和样板编码的功能，能够批量编码一系列同种类的样板，支持一键填充配方！"
+				""
+				"- 同时显示三个终端显示的所有面板"
+				"- 对着样板撰写面板中的物品中键可以重命名样板物品（方便装配线的样板编写）"
+				"- 可以自动将样板填充入样板供应器和样板输入总成"
+				"- 在EMI中查看压缩机，压膜机，车床等有批量编码需求的配方可以使用Alt+左键打开批量编码页面"
+			]
 			id: "79B00A56EED55DBD"
 			tasks: [{
 				id: "1EB2B00D8C53D6D6"

@@ -155,8 +155,17 @@
 			]
 			id: "0861FADA4103BCA5"
 			rewards: [{
-				id: "525DC53DB6E58404"
-				item: "gtceu:aluminium_fluid_cell"
+				id: "18616F4AF8E967D8"
+				item: {
+					Count: 1
+					id: "gtceu:aluminium_fluid_cell"
+					tag: {
+						Fluid: {
+							Amount: 32000
+							FluidName: "gtceu:oil_medium"
+						}
+					}
+				}
 				type: "item"
 			}]
 			shape: "diamond"
@@ -290,6 +299,7 @@
 			description: ["在超低压时代先造一些凑活用点，后面电压上去了一定要换其他的机器来制作它"]
 			id: "03BB5A5C084F5194"
 			rewards: [{
+				count: 32
 				id: "2B4925A037EE1B1A"
 				item: "gtceu:polyethylene_plate"
 				type: "item"
@@ -373,13 +383,13 @@
 			id: "0FBE7318DFBA700E"
 			rewards: [
 				{
-					count: 3
+					count: 8
 					id: "3C78121873BC6B22"
 					item: "farmersdelight:hamburger"
 					type: "item"
 				}
 				{
-					count: 3
+					count: 8
 					id: "7FA716F5153C7B15"
 					item: "gtceu:basic_electronic_circuit"
 					type: "item"
@@ -405,6 +415,12 @@
 				"但依然不能突破传输上限，否则会导致导线融毁"
 			]
 			id: "4C1AA691B0A8EC24"
+			rewards: [{
+				count: 16
+				id: "0B34AF42043C63EC"
+				item: "gtceu:tin_single_cable"
+				type: "item"
+			}]
 			subtitle: "这可不能手搓"
 			tasks: [{
 				id: "58ABEF332F1C76E6"
@@ -740,6 +756,12 @@
 				"每tick可以操作&432mb&r的液体，虽然不多，但也算是一个自动化的方案了"
 			]
 			id: "1CC2469A8203DE05"
+			rewards: [{
+				count: 8
+				id: "6F3F03FA8FCBC3A4"
+				item: "gtocore:ulv_electric_pump"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "但这不能抽原油"
 			tasks: [{
@@ -759,6 +781,12 @@
 				"以及你需要提升一下你的&6橡胶&r产量了"
 			]
 			id: "68AB0026ACD5103E"
+			rewards: [{
+				count: 8
+				id: "78768C9064C8C06D"
+				item: "gtocore:ulv_conveyor_module"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "凎，这东西怎么速度也没我快！"
 			tasks: [{
@@ -798,6 +826,12 @@
 			]
 			description: ["机械臂的合成就复杂很多了，所以前期的其他工作一定要处理好"]
 			id: "13A73FA0625AC68F"
+			rewards: [{
+				count: 8
+				id: "42D9E5D6A2531FA2"
+				item: "gtocore:ulv_robot_arm"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "速度还不如手搬呢！"
 			tasks: [{
@@ -817,6 +851,12 @@
 				"[\"\",{\"text\":\"超低压的时代的六件套主要需要\"},{ \"text\": \"铜\",\"color\":\"#e17c09\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"60976D12EFCED9C4\" } },{\"text\":\"和\"},{ \"text\": \"锡\",\"color\":\"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"17C2FCD590054742\" } },{\"text\":\"来制造，也是蒸汽时代的主要材料的延续\"}]"
 			]
 			id: "7D370CF55A0AE36D"
+			rewards: [{
+				count: 8
+				id: "46DB52559B32A949"
+				item: "gtocore:ulv_electric_motor"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "你还是多造点吧"
 			tasks: [{
@@ -836,6 +876,12 @@
 				"不过我猜你会喜欢由它合成的半流质发电机"
 			]
 			id: "0859B24E8AF3303F"
+			rewards: [{
+				count: 8
+				id: "4E68A5BC2B0E7FCD"
+				item: "gtocore:ulv_electric_piston"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "通往烦人之路"
 			tasks: [{
@@ -1299,6 +1345,7 @@
 		{
 			dependencies: ["0FBE7318DFBA700E"]
 			id: "6CC4173B5BF99920"
+			subtitle: "解放双手"
 			tasks: [{
 				id: "74099FBE9992D542"
 				item: "gtocore:digital_miner"

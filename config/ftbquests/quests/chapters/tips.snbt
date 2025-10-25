@@ -245,13 +245,15 @@
 		{
 			dependencies: ["79646E8E449D8A1A"]
 			description: [
-				"在核心mod配置里可切换难度 （游戏菜单 > MOD > 搜索 GTOCore > 配置 > 游戏难度）"
+				"你可以在创建世界时更改难度，也可在mod配置里切换难度 （游戏菜单 > MOD > 搜索 GTOCore > 配置 > 游戏难度）"
 				""
 				"难度的影响包括但不限于"
 				""
 				"·不同复杂度的合成配方与任务"
 				"·部分机器和能量单元的数值调整"
 				"·AE频道限制"
+				""
+				"[ \"\", {\"text\":\"详细特性请查看\", \"color\":\"yellow\"}, { \"text\": \"简单普通专家模式特性指南\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"open_url\", \"value\": \"https://wiki.gtodyssey.com/boards/docs/pages/简单普通专家模式特性指南\" } }]"
 				""
 				"&e强烈建议在切换模式后，重启MC，然后再创建世界开始游戏！&r"
 			]
@@ -703,7 +705,10 @@
 			y: -3.25d
 		}
 		{
-			dependencies: ["2AF1E09A346B5343"]
+			dependencies: [
+				"2AF1E09A346B5343"
+				"7AF970C19F565FB6"
+			]
 			description: [
 				"随着机器能够使用&6激光仓&r，超频开始变得更为&c昂贵&r。对于寻常的&e超级机器&r，提升&a4倍&r功率的耗时变为&a0.55x&r。而处理阵列和进阶装配线则更为特殊：它们的耗时仅为&a0.65x&r和&a0.75x&r。（这个值随版本更新可能会有变化，请以实际版本为准）"
 				""
@@ -1083,7 +1088,7 @@
 		{
 			dependencies: [
 				"79646E8E449D8A1A"
-				"3EF9AF3171607009"
+				"7AF970C19F565FB6"
 			]
 			description: ["GTO中将&6无线激光仓&r更名为&6无线能源/动力仓&r，请在看到&e激光仓/多A/高A能源仓&r字样的时候默认为&b256A&r及以上的&6无线能源仓/动力仓&r。"]
 			hide_dependency_lines: true

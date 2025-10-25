@@ -588,6 +588,42 @@
 			x: 14.5d
 			y: 3.5d
 		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:mending"
+						lvl: 1s
+					}]
+				}
+			}
+			id: "3E5BB7F1AA9D1DA8"
+			rewards: [{
+				id: "2CB9DE52164C8A72"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:mending"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 128L
+				id: "03E28038B6916A6F"
+				item: { Count: 128, id: "gtocore:copper_coin" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 5.5d
+		}
 	]
 	subtitle: ["Welcome to Greg's Club"]
 	title: "格雷科技™员工会员店"

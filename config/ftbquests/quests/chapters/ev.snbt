@@ -92,7 +92,7 @@
 		{
 			id: "4C16FF45DEA84C8F"
 			linked_quest: "5808E00A58A9F4EE"
-			x: 12.5d
+			x: 13.0d
 			y: -2.0d
 		}
 		{
@@ -129,6 +129,12 @@
 			shape: "diamond"
 			x: 3.0d
 			y: -3.0d
+		}
+		{
+			id: "52FFEB1F3F4773D7"
+			linked_quest: "23E859D5CC9E4C8C"
+			x: 6.5d
+			y: -8.0d
 		}
 	]
 	quests: [
@@ -645,7 +651,7 @@
 				}
 			]
 			x: 12.5d
-			y: 4.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["70ECB812598A4BEC"]
@@ -656,7 +662,7 @@
 				type: "item"
 			}]
 			x: 10.5d
-			y: 4.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["51E5257D17BF1D9D"]
@@ -674,7 +680,7 @@
 				type: "item"
 			}]
 			x: 8.5d
-			y: 4.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["5612C7735BC4F5BC"]
@@ -783,7 +789,10 @@
 			y: -9.0d
 		}
 		{
-			dependencies: ["038C1E186FAF47D6"]
+			dependencies: [
+				"038C1E186FAF47D6"
+				"23E859D5CC9E4C8C"
+			]
 			description: ["由于其亚稳态性，&6量子之眼&r需要在&d无重力环境&r中用惰性气体&6氡气&r进行浸泡"]
 			id: "789B188B05759151"
 			shape: "hexagon"
@@ -911,7 +920,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 12.5d
+			x: 13.0d
 			y: -4.5d
 		}
 		{
@@ -963,7 +972,7 @@
 				item: "gtocore:vibrant_photovoltaic_power_station"
 				type: "item"
 			}]
-			x: 12.5d
+			x: 13.0d
 			y: -6.5d
 		}
 		{
@@ -1288,15 +1297,15 @@
 		}
 		{
 			dependencies: ["50F2DACFDE9119DF"]
-			hide_dependent_lines: true
+			hide_dependency_lines: true
 			id: "78988A24B63C1D8A"
 			tasks: [{
 				id: "0A2676D719E890B8"
 				item: "gtceu:iridium_ingot"
 				type: "item"
 			}]
-			x: 8.5d
-			y: 6.5d
+			x: -2.25d
+			y: 1.5d
 		}
 		{
 			dependencies: ["3C2FA92DB0A38D4D"]

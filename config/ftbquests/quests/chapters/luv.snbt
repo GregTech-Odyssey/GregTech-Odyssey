@@ -137,10 +137,7 @@
 			y: 0.5d
 		}
 		{
-			dependencies: [
-				"0985154AE9169549"
-				"3DA166631D597693"
-			]
+			dependencies: ["3DA166631D597693"]
 			id: "459F5A53179FAC2A"
 			shape: "hexagon"
 			size: 1.5d

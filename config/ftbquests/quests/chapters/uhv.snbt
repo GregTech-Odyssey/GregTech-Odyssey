@@ -11,8 +11,8 @@
 			image: "xtonesreworked:block/bitt/12"
 			rotation: 45.0d
 			width: 1.0d
-			x: -0.5d
-			y: -2.0d
+			x: -3.5d
+			y: -3.0d
 		}
 		{
 			color: 16711935
@@ -21,8 +21,8 @@
 			order: 1
 			rotation: 45.0d
 			width: 1.0d
-			x: -0.5d
-			y: -2.0d
+			x: -3.5d
+			y: -3.0d
 		}
 	]
 	order_index: 11
@@ -32,8 +32,8 @@
 			linked_quest: "1612D1DEB3A7BE2D"
 			shape: "gear"
 			size: 2.0d
-			x: -0.5d
-			y: -0.5d
+			x: -3.5d
+			y: -1.0d
 		}
 		{
 			id: "47F4D9D54ED9E7B6"
@@ -47,13 +47,13 @@
 			id: "392613EB906CA2E3"
 			linked_quest: "669DBEFFDD7B3496"
 			shape: "diamond"
-			x: -0.5d
-			y: -2.0d
+			x: -3.5d
+			y: -3.0d
 		}
 	]
 	quests: [
 		{
-			dependencies: ["1612D1DEB3A7BE2D"]
+			dependencies: ["459F5A53179FAC2A"]
 			description: [
 				"击杀&e猪灵蛮兵&r有概率掉落下界合金锭...不过显然你不会满足"
 				""
@@ -67,8 +67,8 @@
 				item: "gtceu:netherite_dust"
 				type: "item"
 			}]
-			x: 3.5d
-			y: -2.0d
+			x: -2.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["25930ED6EFD93F8B"]
@@ -80,8 +80,8 @@
 				item: "gtocore:energetic_netherite_dust"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -2.0d
+			x: 0.0d
+			y: -3.0d
 		}
 		{
 			dependencies: [
@@ -97,8 +97,8 @@
 				item: "gtceu:uhv_energy_input_hatch"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -0.5d
+			x: 0.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["3E458EF4819E239C"]
@@ -108,7 +108,7 @@
 				item: "gtocore:orichalcum_ingot"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 0.0d
 			y: 1.0d
 		}
 		{
@@ -136,7 +136,7 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: -0.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["4C998EF199E7C5D0"]
@@ -147,7 +147,7 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: -0.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["3FC0E3B6916ADE1B"]
@@ -160,7 +160,7 @@
 				type: "item"
 			}]
 			x: 7.5d
-			y: -0.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["4DC386826E075D1E"]
@@ -175,8 +175,8 @@
 				type: "item"
 			}]
 			title: "欢迎来到&2极超压&r阶段"
-			x: 9.5d
-			y: -0.5d
+			x: 10.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["6701A941910A618C"]
@@ -291,38 +291,6 @@
 			}]
 			x: 4.5d
 			y: 4.5d
-		}
-		{
-			dependencies: ["5343159AF8A5CBB5"]
-			description: [
-				"如果想用终端搭建，你需要先在主机里&a放一个蜂群&r来指定等级，随后才可以开始搭建"
-				""
-				"机器每次&e拿出或放入&r蜂群都会重新触发结构检测"
-			]
-			id: "76A5DA2CCB71E96F"
-			shape: "gear"
-			size: 2.0d
-			subtitle: "蜂群，但不是养蜂"
-			tasks: [{
-				id: "7990B5F3AFF8D9B9"
-				item: "gtocore:nano_forge"
-				type: "item"
-			}]
-			x: 9.5d
-			y: 6.0d
-		}
-		{
-			dependencies: ["1612D1DEB3A7BE2D"]
-			description: ["前面几个必须用装配线，后面就可以换成纳米锻炉 了"]
-			hide_dependency_lines: true
-			id: "5343159AF8A5CBB5"
-			tasks: [{
-				id: "51F088C7BE0B7236"
-				item: "gtocore:carbon_nanites"
-				type: "item"
-			}]
-			x: 12.0d
-			y: 6.0d
 		}
 		{
 			dependencies: ["1612D1DEB3A7BE2D"]
@@ -490,7 +458,7 @@
 				item: "gtocore:gold_nanites"
 				type: "item"
 			}]
-			x: 9.5d
+			x: 10.0d
 			y: 2.5d
 		}
 		{
@@ -564,12 +532,12 @@
 				item: "gtocore:fullerene_dust"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 2.0d
 			y: 2.5d
 		}
 		{
-			dependencies: ["1612D1DEB3A7BE2D"]
-			description: ["太空电梯即可获取"]
+			dependencies: ["3A91F7CD95B427BF"]
+			description: ["太空电梯即可获取，无需走卤水处理"]
 			hide_dependency_lines: true
 			id: "6850047C2C843F02"
 			tasks: [{
@@ -577,7 +545,7 @@
 				item: "gtceu:bromine_bucket"
 				type: "item"
 			}]
-			x: -0.5d
+			x: 0.0d
 			y: 2.5d
 		}
 		{
@@ -663,7 +631,7 @@
 				item: "gtocore:nanites_integrated_processing_center"
 				type: "item"
 			}]
-			x: 9.5d
+			x: 10.0d
 			y: 8.5d
 		}
 		{
@@ -681,7 +649,7 @@
 				item: "gtocore:piranha_solution_bucket"
 				type: "item"
 			}]
-			x: 9.5d
+			x: 10.0d
 			y: 10.5d
 		}
 		{
@@ -699,7 +667,7 @@
 				item: "gtocore:ore_extraction_module"
 				type: "item"
 			}]
-			x: 11.0d
+			x: 11.5d
 			y: 7.5d
 		}
 		{
@@ -718,7 +686,7 @@
 				item: "gtocore:polymer_twisting_module"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 12.5d
 			y: 8.5d
 		}
 		{
@@ -732,7 +700,7 @@
 				item: "gtocore:bioengineering_module"
 				type: "item"
 			}]
-			x: 11.0d
+			x: 11.5d
 			y: 9.5d
 		}
 		{
@@ -807,7 +775,7 @@
 				item: "gtocore:chemical_complex"
 				type: "item"
 			}]
-			x: -0.5d
+			x: 2.0d
 			y: 1.0d
 		}
 		{
@@ -930,7 +898,7 @@
 				type: "item"
 			}]
 			x: 7.5d
-			y: -2.0d
+			y: -3.0d
 		}
 		{
 			dependencies: [
@@ -945,7 +913,7 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: -2.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["7ED709D3291D6B88"]
@@ -959,6 +927,38 @@
 			}]
 			x: -3.5d
 			y: 2.5d
+		}
+		{
+			dependencies: ["5343159AF8A5CBB5"]
+			description: [
+				"如果想用终端搭建，你需要先在主机里&a放一个蜂群&r来指定等级，随后才可以开始搭建"
+				""
+				"机器每次&e拿出或放入&r蜂群都会重新触发结构检测"
+			]
+			id: "76A5DA2CCB71E96F"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "蜂群，但不是养蜂"
+			tasks: [{
+				id: "7990B5F3AFF8D9B9"
+				item: "gtocore:nano_forge"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5B5C82819DC2D27A"]
+			description: ["前面几个必须用装配线，后面就可以换成纳米锻炉了"]
+			hide_dependency_lines: true
+			id: "5343159AF8A5CBB5"
+			tasks: [{
+				id: "51F088C7BE0B7236"
+				item: "gtocore:carbon_nanites"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 6.0d
 		}
 	]
 	subtitle: ["Tier9-UHV"]
