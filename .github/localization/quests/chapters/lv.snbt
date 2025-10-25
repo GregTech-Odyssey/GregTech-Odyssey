@@ -28,7 +28,7 @@
 			id: "111C9085726F8FA6"
 			linked_quest: "018F46EE6AE97EFD"
 			shape: "square"
-			x: -5.0d
+			x: -4.5d
 			y: -1.0d
 		}
 		{
@@ -366,6 +366,12 @@
 				"{gto.lv.quests.68EFF1609132BDD4.description3}"
 			]
 			id: "68EFF1609132BDD4"
+			rewards: [{
+				count: 64
+				id: "5738F37EA29D662F"
+				item: "gtceu:aluminium_ingot"
+				type: "item"
+			}]
 			shape: "gear"
 			size: 2.0d
 			subtitle: "{gto.lv.quests.68EFF1609132BDD4.subtitle}"
@@ -402,6 +408,12 @@
 			]
 			description: ["[\"\", {\"translate\": \"gto.lv.quests.2D5A5D2DE390665C.description0.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"0DF27446EE5DB28F\"}, \"translate\": \"gto.lv.quests.2D5A5D2DE390665C.description0.rich_text1\"}, {\"translate\": \"gto.lv.quests.2D5A5D2DE390665C.description0.rich_text2\"}]"]
 			id: "2D5A5D2DE390665C"
+			rewards: [{
+				count: 16
+				id: "38258960E31A72CE"
+				item: "gtceu:copper_single_cable"
+				type: "item"
+			}]
 			subtitle: "{gto.lv.quests.2D5A5D2DE390665C.subtitle}"
 			tasks: [{
 				id: "1A6DEE5A73A5B10C"
@@ -471,6 +483,20 @@
 				"{gto.lv.quests.6BB3386725B228D5.description1}"
 			]
 			id: "6BB3386725B228D5"
+			rewards: [
+				{
+					count: 8
+					id: "46E1E95A13B10F6E"
+					item: "gtceu:good_electronic_circuit"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "3E83C21744FDCCF5"
+					item: "farmersdelight:hamburger"
+					type: "item"
+				}
+			]
 			shape: "gear"
 			size: 1.5d
 			subtitle: "{gto.lv.quests.6BB3386725B228D5.subtitle}"
@@ -531,6 +557,11 @@
 			]
 			hide_dependent_lines: true
 			id: "268C28F66FA4C91F"
+			rewards: [{
+				id: "7D151531BE98E3C6"
+				item: "gtocore:precision_steam_mechanism"
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 1.5d
 			subtitle: "{gto.lv.quests.268C28F66FA4C91F.subtitle}"
@@ -627,7 +658,7 @@
 			dependencies: ["06534664971F6E68"]
 			id: "23676FA19C92EE5E"
 			rewards: [{
-				count: 4
+				count: 16
 				id: "48C02A5C0A817973"
 				item: "minecraft:ender_pearl"
 				type: "item"
@@ -829,6 +860,12 @@
 		{
 			dependencies: ["2C63E85A7D29712A"]
 			id: "39E51FD01030F7A2"
+			rewards: [{
+				count: 32
+				id: "0267C348B396FF54"
+				item: "gtceu:annealed_copper_ingot"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4B901FBA5AADE5DE"
 				item: "gtceu:annealed_copper_ingot"
@@ -1087,6 +1124,12 @@
 				"{gto.lv.quests.7392F240AD330C1A.description1}"
 			]
 			id: "7392F240AD330C1A"
+			rewards: [{
+				count: 16
+				id: "039462C708D5F736"
+				item: "gtceu:lv_electric_motor"
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 1.5d
 			subtitle: "{gto.lv.quests.7392F240AD330C1A.subtitle}"
@@ -1112,6 +1155,12 @@
 		{
 			dependencies: ["2B9062A5F939A843"]
 			id: "5FBCB0C7F914D814"
+			rewards: [{
+				count: 8
+				id: "031B2A1BA362AE0B"
+				item: "gtceu:lv_electric_piston"
+				type: "item"
+			}]
 			tasks: [{
 				id: "64D03FE45E2BB4C8"
 				item: "gtceu:lv_electric_piston"
@@ -1123,6 +1172,12 @@
 		{
 			dependencies: ["578B710BA08FD299"]
 			id: "1D40D24D6870493D"
+			rewards: [{
+				count: 8
+				id: "3DC2E68FF3056469"
+				item: "gtceu:lv_electric_pump"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2AFFB764D54C7F22"
 				item: "gtceu:lv_electric_pump"
@@ -1149,6 +1204,12 @@
 				"5FBCB0C7F914D814"
 			]
 			id: "2685D515096F5B28"
+			rewards: [{
+				count: 8
+				id: "6B688CFA68EE441D"
+				item: "gtceu:lv_robot_arm"
+				type: "item"
+			}]
 			tasks: [{
 				id: "30BBC9282575F10C"
 				item: "gtceu:lv_robot_arm"
@@ -1160,6 +1221,12 @@
 		{
 			dependencies: ["7392F240AD330C1A"]
 			id: "14285E8F662204AE"
+			rewards: [{
+				count: 8
+				id: "2BC08EBF106CECAB"
+				item: "gtceu:lv_conveyor_module"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0038A8DF4DCE0151"
 				item: "gtceu:lv_conveyor_module"

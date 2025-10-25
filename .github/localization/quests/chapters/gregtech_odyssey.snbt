@@ -44,8 +44,8 @@
 		linked_quest: "5183DB6A793BB3C6"
 		shape: "gear"
 		size: 3.0d
-		x: 1.5d
-		y: -6.0d
+		x: -6.0d
+		y: -1.5d
 	}]
 	quests: [
 		{
@@ -71,7 +71,7 @@
 				type: "checkmark"
 			}]
 			x: -2.0d
-			y: -4.0d
+			y: -3.0d
 		}
 		{
 			description: [
@@ -94,7 +94,7 @@
 				title: "{gto.gregtech_odyssey.quests.6517DDBE8132FA9B.tasks.54D0ADDA55F547EA.title}"
 				type: "checkmark"
 			}]
-			x: -2.0d
+			x: -1.0d
 			y: 1.0d
 		}
 		{
@@ -125,7 +125,7 @@
 				title: "{gto.gregtech_odyssey.quests.131CFAF95CFC993E.tasks.2EE14E4430DFFAB1.title}"
 				type: "checkmark"
 			}]
-			x: 5.0d
+			x: 4.0d
 			y: 1.0d
 		}
 		{
@@ -148,8 +148,8 @@
 				title: "{gto.gregtech_odyssey.quests.5C4137F64F9ADA50.tasks.2E7AE829275616F9.title}"
 				type: "checkmark"
 			}]
-			x: 1.5d
-			y: 1.0d
+			x: 9.0d
+			y: -1.0d
 		}
 		{
 			dependencies: [
@@ -157,6 +157,7 @@
 				"131CFAF95CFC993E"
 				"6517DDBE8132FA9B"
 				"278F29092F5721AD"
+				"78A681513D681C93"
 			]
 			description: [
 				"{gto.gregtech_odyssey.quests.3BC9246D8FD4B649.description0}"
@@ -231,9 +232,18 @@
 				"[\"\", {\"color\": \"yellow\", \"translate\": \"gto.gregtech_odyssey.quests.278F29092F5721AD.description3.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"open_url\", \"value\": \"https://github.com/GregTech-Odyssey/GregTech-Odyssey\"}, \"translate\": \"gto.gregtech_odyssey.quests.278F29092F5721AD.description3.rich_text1\"}]"
 				""
 				"[\"\", {\"color\": \"yellow\", \"translate\": \"gto.gregtech_odyssey.quests.278F29092F5721AD.description4.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"open_url\", \"value\": \"https://discord.gg/PxruFSbtCn\"}, \"translate\": \"gto.gregtech_odyssey.quests.278F29092F5721AD.description4.rich_text1\"}]"
-				""
-				""
+				"{@pagebreak}"
 				"{gto.gregtech_odyssey.quests.278F29092F5721AD.description5}"
+				""
+				"{gto.gregtech_odyssey.quests.278F29092F5721AD.description6}"
+				""
+				"[\"\", {\"color\": \"yellow\", \"translate\": \"gto.gregtech_odyssey.quests.278F29092F5721AD.description7.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"open_url\", \"value\": \"https://paratranz.cn/projects/16320\"}, \"translate\": \"gto.gregtech_odyssey.quests.278F29092F5721AD.description7.rich_text1\"}]"
+				""
+				"[\"\", {\"color\": \"yellow\", \"translate\": \"gto.gregtech_odyssey.quests.278F29092F5721AD.description8.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"open_url\", \"value\": \"https://paratranz.cn/projects/16525\"}, \"translate\": \"gto.gregtech_odyssey.quests.278F29092F5721AD.description8.rich_text1\"}]"
+				""
+				"{gto.gregtech_odyssey.quests.278F29092F5721AD.description9}"
+				""
+				"{gto.gregtech_odyssey.quests.278F29092F5721AD.description10}"
 			]
 			icon: "easy_villagers:villager"
 			id: "278F29092F5721AD"
@@ -250,7 +260,32 @@
 				type: "checkmark"
 			}]
 			x: 5.0d
-			y: -4.0d
+			y: -3.0d
+		}
+		{
+			description: [
+				"{gto.gregtech_odyssey.quests.78A681513D681C93.description0}"
+				""
+				"{ \"text\": \"https://wiki.gtodyssey.com/\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"open_url\", \"value\": \"https://wiki.gtodyssey.com/\" } }"
+				""
+				"{gto.gregtech_odyssey.quests.78A681513D681C93.description1}"
+			]
+			icon: "minecraft:bookshelf"
+			id: "78A681513D681C93"
+			rewards: [{
+				id: "6410AAD88024BA92"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "pentagon"
+			size: 2.0d
+			tasks: [{
+				id: "2EC8EE5C5D486127"
+				type: "checkmark"
+			}]
+			title: "{gto.gregtech_odyssey.quests.78A681513D681C93.title}"
+			x: 1.5d
+			y: -5.3d
 		}
 	]
 	subtitle: ["{gto.gregtech_odyssey.subtitle0}"]

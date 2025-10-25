@@ -791,6 +791,12 @@
 					item: "gtocore:copper_coin"
 					type: "item"
 				}
+				{
+					count: 64
+					id: "7359C7D65DCA4481"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
 			]
 			shape: "hexagon"
 			size: 1.5d
@@ -811,6 +817,7 @@
 			icon: "minecraft:raw_gold"
 			id: "4993AFF5280AC837"
 			rewards: [{
+				count: 16
 				id: "2B140068212E4ED7"
 				item: "gtocore:copper_coin"
 				type: "item"
@@ -1323,7 +1330,7 @@
 			id: "12116F27AB89BB58"
 			rewards: [
 				{
-					count: 9
+					count: 32
 					id: "3587CD8658AA21D0"
 					item: "gtceu:wrought_iron_ingot"
 					type: "item"

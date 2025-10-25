@@ -367,7 +367,7 @@
 				type: "item"
 			}]
 			x: 16.0d
-			y: -4.75d
+			y: -4.5d
 		}
 		{
 			dependencies: ["23DB14B3093506B8"]
@@ -699,7 +699,10 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["67E7B62710A78614"]
+			dependencies: [
+				"67E7B62710A78614"
+				"23E859D5CC9E4C8C"
+			]
 			id: "509269850A10116F"
 			tasks: [{
 				id: "0D79C409031F4AF5"
@@ -983,6 +986,7 @@
 				""
 				"[\"\", {\"translate\": \"gto.iv.quests.79A84A1D8BCDC012.description1.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"68C24A1ED361D607\"}, \"translate\": \"gto.iv.quests.79A84A1D8BCDC012.description1.rich_text1\"}, {\"translate\": \"gto.iv.quests.79A84A1D8BCDC012.description1.rich_text2\"}]"
 			]
+			icon: "gtceu:large_autoclave"
 			id: "79A84A1D8BCDC012"
 			tasks: [{
 				id: "1571ABAAEFB1193D"

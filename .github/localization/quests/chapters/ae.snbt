@@ -958,10 +958,10 @@
 			y: 21.5d
 		}
 		{
-			height: 1.0d
+			height: 2.0d
 			image: "gtocore:item/circuit/suprachronal_lv"
 			rotation: 0.0d
-			width: 1.0d
+			width: 2.0d
 			x: -9.5d
 			y: 1.0d
 		}
@@ -1648,6 +1648,7 @@
 				item: "gtocore:me_simple_pattern_buffer"
 				type: "item"
 			}]
+			title: "{gto.ae.quests.47506298B1BD1780.title}"
 			x: -1.0d
 			y: 9.5d
 		}
@@ -3391,7 +3392,14 @@
 				"1DB79F4A3D08D7FB"
 				"5B98FF5DDD4B2629"
 			]
-			description: ["{gto.ae.quests.79B00A56EED55DBD.description0}"]
+			description: [
+				"{gto.ae.quests.79B00A56EED55DBD.description0}"
+				""
+				"{gto.ae.quests.79B00A56EED55DBD.description1}"
+				"{gto.ae.quests.79B00A56EED55DBD.description2}"
+				"{gto.ae.quests.79B00A56EED55DBD.description3}"
+				"{gto.ae.quests.79B00A56EED55DBD.description4}"
+			]
 			id: "79B00A56EED55DBD"
 			tasks: [{
 				id: "1EB2B00D8C53D6D6"

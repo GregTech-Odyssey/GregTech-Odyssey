@@ -265,6 +265,12 @@
 				"{gto.steam.quests.604FA0DDAD1979A1.description1}"
 			]
 			id: "604FA0DDAD1979A1"
+			rewards: [{
+				count: 16
+				id: "69EE79A3CAC710EF"
+				item: "gtceu:red_alloy_ingot"
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 1.5d
 			subtitle: "{gto.steam.quests.604FA0DDAD1979A1.subtitle}"
@@ -274,7 +280,7 @@
 				type: "item"
 			}]
 			title: "{gto.steam.quests.604FA0DDAD1979A1.title}"
-			x: -3.0d
+			x: -3.5d
 			y: 4.5d
 		}
 		{
@@ -559,6 +565,12 @@
 				"{gto.steam.quests.27F4D9739FE33A02.description1}"
 			]
 			id: "27F4D9739FE33A02"
+			rewards: [{
+				count: 64
+				id: "2ABC438654CC3D33"
+				item: "ad_astra:steel_ingot"
+				type: "item"
+			}]
 			shape: "gear"
 			size: 2.5d
 			subtitle: "{gto.steam.quests.27F4D9739FE33A02.subtitle}"
@@ -606,6 +618,12 @@
 				"{gto.steam.quests.72C6B40B38D542BF.description4}"
 			]
 			id: "72C6B40B38D542BF"
+			rewards: [{
+				count: 16
+				id: "19BC0C9478834B05"
+				item: "minecraft:glass"
+				type: "item"
+			}]
 			subtitle: "{gto.steam.quests.72C6B40B38D542BF.subtitle}"
 			tasks: [{
 				id: "0CB91090B120A01D"
@@ -683,6 +701,12 @@
 			]
 			hide_dependency_lines: false
 			id: "043FCD7B759853EA"
+			rewards: [{
+				count: 32
+				id: "16E7725D85D75143"
+				item: "gtceu:rubber_ingot"
+				type: "item"
+			}]
 			shape: "gear"
 			size: 2.0d
 			subtitle: "{gto.steam.quests.043FCD7B759853EA.subtitle}"
@@ -804,6 +828,12 @@
 				"{gto.steam.quests.0DCA3A96184C9EAC.description2}"
 			]
 			id: "0DCA3A96184C9EAC"
+			rewards: [{
+				count: 16
+				id: "729CAE88D53DA197"
+				item: "enderio:pulsating_alloy_ingot"
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 1.5d
 			subtitle: "{gto.steam.quests.0DCA3A96184C9EAC.subtitle}"
@@ -896,6 +926,12 @@
 				"{gto.steam.quests.53109F7472C0B443.description2}"
 			]
 			id: "53109F7472C0B443"
+			rewards: [{
+				count: 16
+				id: "6DDFC8966506C070"
+				item: "gtceu:vacuum_tube"
+				type: "item"
+			}]
 			shape: "gear"
 			size: 2.0d
 			subtitle: "{gto.steam.quests.53109F7472C0B443.subtitle}"
@@ -1126,7 +1162,7 @@
 			]
 			id: "53A8535B07FE3958"
 			rewards: [{
-				count: 7
+				count: 16
 				id: "20B6F1F4B5E36276"
 				item: "gtceu:red_alloy_single_cable"
 				type: "item"
@@ -1140,7 +1176,7 @@
 				type: "item"
 			}]
 			title: "{gto.steam.quests.53A8535B07FE3958.title}"
-			x: -3.0d
+			x: -3.5d
 			y: 10.5d
 		}
 		{
@@ -1175,6 +1211,12 @@
 				"{gto.steam.quests.13FBF05133D59CDC.description1}"
 			]
 			id: "13FBF05133D59CDC"
+			rewards: [{
+				count: 16
+				id: "72FE7E90ED81BB3B"
+				item: "ad_astra:steel_plate"
+				type: "item"
+			}]
 			subtitle: "{gto.steam.quests.13FBF05133D59CDC.subtitle}"
 			tasks: [{
 				id: "21B831E45B1D76EA"
@@ -1340,7 +1382,7 @@
 				type: "item"
 			}]
 			title: "{gto.steam.quests.29A2859398D5B252.title}"
-			x: -3.0d
+			x: -3.5d
 			y: 7.5d
 		}
 		{
@@ -1373,7 +1415,7 @@
 				type: "item"
 			}]
 			title: "{gto.steam.quests.3405FBC1B0CD80AD.title}"
-			x: -3.0d
+			x: -2.5d
 			y: 3.0d
 		}
 		{
@@ -1389,7 +1431,7 @@
 				type: "item"
 			}]
 			title: "{gto.steam.quests.353DB5059C50932E.title}"
-			x: -1.0d
+			x: -0.5d
 			y: 1.0d
 		}
 		{
@@ -1409,7 +1451,7 @@
 				type: "item"
 			}]
 			title: "{gto.steam.quests.275F142925816979.title}"
-			x: -5.0d
+			x: -4.5d
 			y: 1.0d
 		}
 		{
@@ -1430,7 +1472,7 @@
 				type: "item"
 			}]
 			title: "{gto.steam.quests.78F56076EB6961EE.title}"
-			x: -3.0d
+			x: -2.5d
 			y: 1.0d
 		}
 		{
@@ -1455,7 +1497,7 @@
 				type: "item"
 			}]
 			title: "{gto.steam.quests.23118466181C773C.title}"
-			x: -1.0d
+			x: -0.5d
 			y: 3.0d
 		}
 		{
@@ -1497,7 +1539,7 @@
 				type: "item"
 			}]
 			title: "{gto.steam.quests.4678D97346E46529.title}"
-			x: -3.0d
+			x: -3.5d
 			y: 14.0d
 		}
 		{
@@ -1813,9 +1855,14 @@
 					item: "enderio:sag_mill"
 					type: "item"
 				}
+				{
+					id: "4627286593B477E0"
+					item: "enderio:soul_binder"
+					type: "item"
+				}
 			]
 			title: "{gto.steam.quests.05EFB5D7ED8DE2D6.title}"
-			x: -5.0d
+			x: -5.5d
 			y: 10.5d
 		}
 		{

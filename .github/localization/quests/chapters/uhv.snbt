@@ -11,8 +11,8 @@
 			image: "xtonesreworked:block/bitt/12"
 			rotation: 45.0d
 			width: 1.0d
-			x: -0.5d
-			y: -2.0d
+			x: -3.5d
+			y: -3.0d
 		}
 		{
 			color: 16711935
@@ -21,8 +21,8 @@
 			order: 1
 			rotation: 45.0d
 			width: 1.0d
-			x: -0.5d
-			y: -2.0d
+			x: -3.5d
+			y: -3.0d
 		}
 	]
 	order_index: 11
@@ -32,8 +32,8 @@
 			linked_quest: "1612D1DEB3A7BE2D"
 			shape: "gear"
 			size: 2.0d
-			x: -0.5d
-			y: -0.5d
+			x: -3.5d
+			y: -1.0d
 		}
 		{
 			id: "47F4D9D54ED9E7B6"
@@ -47,13 +47,13 @@
 			id: "392613EB906CA2E3"
 			linked_quest: "669DBEFFDD7B3496"
 			shape: "diamond"
-			x: -0.5d
-			y: -2.0d
+			x: -3.5d
+			y: -3.0d
 		}
 	]
 	quests: [
 		{
-			dependencies: ["1612D1DEB3A7BE2D"]
+			dependencies: ["459F5A53179FAC2A"]
 			description: [
 				"{gto.uhv.quests.25930ED6EFD93F8B.description0}"
 				""
@@ -67,8 +67,8 @@
 				item: "gtceu:netherite_dust"
 				type: "item"
 			}]
-			x: 3.5d
-			y: -2.0d
+			x: -2.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["25930ED6EFD93F8B"]
@@ -80,8 +80,8 @@
 				item: "gtocore:energetic_netherite_dust"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -2.0d
+			x: 0.0d
+			y: -3.0d
 		}
 		{
 			dependencies: [
@@ -97,8 +97,8 @@
 				item: "gtceu:uhv_energy_input_hatch"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -0.5d
+			x: 0.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["3E458EF4819E239C"]
@@ -108,7 +108,7 @@
 				item: "gtocore:orichalcum_ingot"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 0.0d
 			y: 1.0d
 		}
 		{
@@ -139,7 +139,7 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: -0.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["4C998EF199E7C5D0"]
@@ -150,7 +150,7 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: -0.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["3FC0E3B6916ADE1B"]
@@ -163,7 +163,7 @@
 				type: "item"
 			}]
 			x: 7.5d
-			y: -0.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["4DC386826E075D1E"]
@@ -178,8 +178,8 @@
 				type: "item"
 			}]
 			title: "{gto.uhv.quests.154F80E28FA53D99.title}"
-			x: 9.5d
-			y: -0.5d
+			x: 10.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["6701A941910A618C"]
@@ -297,38 +297,6 @@
 			}]
 			x: 4.5d
 			y: 4.5d
-		}
-		{
-			dependencies: ["5343159AF8A5CBB5"]
-			description: [
-				"{gto.uhv.quests.76A5DA2CCB71E96F.description0}"
-				""
-				"{gto.uhv.quests.76A5DA2CCB71E96F.description1}"
-			]
-			id: "76A5DA2CCB71E96F"
-			shape: "gear"
-			size: 2.0d
-			subtitle: "{gto.uhv.quests.76A5DA2CCB71E96F.subtitle}"
-			tasks: [{
-				id: "7990B5F3AFF8D9B9"
-				item: "gtocore:nano_forge"
-				type: "item"
-			}]
-			x: 9.5d
-			y: 6.0d
-		}
-		{
-			dependencies: ["1612D1DEB3A7BE2D"]
-			description: ["{gto.uhv.quests.5343159AF8A5CBB5.description0}"]
-			hide_dependency_lines: true
-			id: "5343159AF8A5CBB5"
-			tasks: [{
-				id: "51F088C7BE0B7236"
-				item: "gtocore:carbon_nanites"
-				type: "item"
-			}]
-			x: 12.0d
-			y: 6.0d
 		}
 		{
 			dependencies: ["1612D1DEB3A7BE2D"]
@@ -499,7 +467,7 @@
 				item: "gtocore:gold_nanites"
 				type: "item"
 			}]
-			x: 9.5d
+			x: 10.0d
 			y: 2.5d
 		}
 		{
@@ -573,11 +541,11 @@
 				item: "gtocore:fullerene_dust"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 2.0d
 			y: 2.5d
 		}
 		{
-			dependencies: ["1612D1DEB3A7BE2D"]
+			dependencies: ["3A91F7CD95B427BF"]
 			description: ["{gto.uhv.quests.6850047C2C843F02.description0}"]
 			hide_dependency_lines: true
 			id: "6850047C2C843F02"
@@ -586,7 +554,7 @@
 				item: "gtceu:bromine_bucket"
 				type: "item"
 			}]
-			x: -0.5d
+			x: 0.0d
 			y: 2.5d
 		}
 		{
@@ -672,7 +640,7 @@
 				item: "gtocore:nanites_integrated_processing_center"
 				type: "item"
 			}]
-			x: 9.5d
+			x: 10.0d
 			y: 8.5d
 		}
 		{
@@ -690,7 +658,7 @@
 				item: "gtocore:piranha_solution_bucket"
 				type: "item"
 			}]
-			x: 9.5d
+			x: 10.0d
 			y: 10.5d
 		}
 		{
@@ -708,7 +676,7 @@
 				item: "gtocore:ore_extraction_module"
 				type: "item"
 			}]
-			x: 11.0d
+			x: 11.5d
 			y: 7.5d
 		}
 		{
@@ -727,7 +695,7 @@
 				item: "gtocore:polymer_twisting_module"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 12.5d
 			y: 8.5d
 		}
 		{
@@ -741,7 +709,7 @@
 				item: "gtocore:bioengineering_module"
 				type: "item"
 			}]
-			x: 11.0d
+			x: 11.5d
 			y: 9.5d
 		}
 		{
@@ -816,7 +784,7 @@
 				item: "gtocore:chemical_complex"
 				type: "item"
 			}]
-			x: -0.5d
+			x: 2.0d
 			y: 1.0d
 		}
 		{
@@ -939,7 +907,7 @@
 				type: "item"
 			}]
 			x: 7.5d
-			y: -2.0d
+			y: -3.0d
 		}
 		{
 			dependencies: [
@@ -954,7 +922,7 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: -2.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["7ED709D3291D6B88"]
@@ -968,6 +936,38 @@
 			}]
 			x: -3.5d
 			y: 2.5d
+		}
+		{
+			dependencies: ["5343159AF8A5CBB5"]
+			description: [
+				"{gto.uhv.quests.76A5DA2CCB71E96F.description0}"
+				""
+				"{gto.uhv.quests.76A5DA2CCB71E96F.description1}"
+			]
+			id: "76A5DA2CCB71E96F"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "{gto.uhv.quests.76A5DA2CCB71E96F.subtitle}"
+			tasks: [{
+				id: "7990B5F3AFF8D9B9"
+				item: "gtocore:nano_forge"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5B5C82819DC2D27A"]
+			description: ["{gto.uhv.quests.5343159AF8A5CBB5.description0}"]
+			hide_dependency_lines: true
+			id: "5343159AF8A5CBB5"
+			tasks: [{
+				id: "51F088C7BE0B7236"
+				item: "gtocore:carbon_nanites"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 6.0d
 		}
 	]
 	subtitle: ["{gto.uhv.subtitle0}"]

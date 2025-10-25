@@ -74,51 +74,6 @@
 			y: 0.0d
 		}
 		{
-			id: "4F884251B542452B"
-			tasks: [
-				{
-					id: "542815E90A00BA84"
-					item: {
-						Count: 1
-						id: "itemfilters:id_regex"
-						tag: {
-							value: "amplifiers"
-						}
-					}
-					match_nbt: true
-					optional_task: true
-					type: "item"
-					weak_nbt_match: true
-				}
-				{
-					id: "2F63F35890F940CD"
-					item: "gtocore:speed_upgrade_module"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "6B19FC10B0FB1793"
-					item: "gtocore:energy_upgrade_module"
-					optional_task: true
-					type: "item"
-				}
-			]
-			title: "{gto.util.quests.4F884251B542452B.title}"
-			x: 6.5d
-			y: 0.0d
-		}
-		{
-			id: "2969C96B6500C01D"
-			tasks: [{
-				id: "7BE420E2647FAD05"
-				item: "gtocore:glacio_spirit"
-				type: "item"
-			}]
-			title: "{gto.util.quests.2969C96B6500C01D.title}"
-			x: 8.5d
-			y: 0.0d
-		}
-		{
 			icon: {
 				Count: 1
 				id: "gtceu:nanomuscle_helmet"
@@ -406,7 +361,7 @@
 			}]
 			title: "{gto.util.quests.64642383F67CAA6F.title}"
 			x: 6.5d
-			y: -2.0d
+			y: 0.0d
 		}
 		{
 			description: [

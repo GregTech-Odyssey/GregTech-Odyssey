@@ -6,14 +6,24 @@
 	group: ""
 	icon: "gtocore:planet_scan_satellite"
 	id: "3BF7BECF0C9F7ED9"
-	images: [{
-		height: 14.4d
-		image: "ftbquests:textures/station-1.png"
-		rotation: 0.0d
-		width: 25.6d
-		x: 9.0d
-		y: -6.5d
-	}]
+	images: [
+		{
+			height: 14.4d
+			image: "ftbquests:textures/station-1.png"
+			rotation: 0.0d
+			width: 25.6d
+			x: 9.0d
+			y: -6.5d
+		}
+		{
+			height: 2.0d
+			image: "gtocore:item/circuit/suprachronal_hv"
+			rotation: 0.0d
+			width: 2.0d
+			x: 4.5d
+			y: -3.5d
+		}
+	]
 	order_index: 7
 	progression_mode: "linear"
 	quest_links: [{
