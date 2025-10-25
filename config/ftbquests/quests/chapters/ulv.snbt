@@ -1296,6 +1296,17 @@
 			x: -3.511904761904759d
 			y: 2.8119047619047564d
 		}
+		{
+			dependencies: ["0FBE7318DFBA700E"]
+			id: "6CC4173B5BF99920"
+			tasks: [{
+				id: "74099FBE9992D542"
+				item: "gtocore:digital_miner"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
 	]
 	subtitle: ["Tier0.5-ULV"]
 	title: "2. 超低压(ULV)"

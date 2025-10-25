@@ -28,7 +28,7 @@
 			id: "111C9085726F8FA6"
 			linked_quest: "018F46EE6AE97EFD"
 			shape: "square"
-			x: -6.0d
+			x: -5.0d
 			y: -1.0d
 		}
 		{
@@ -1044,34 +1044,6 @@
 			}]
 			x: -13.5d
 			y: 3.0d
-		}
-		{
-			dependencies: ["2685D515096F5B28"]
-			description: ["放入凿子之前记得取出里面的方块！"]
-			id: "454BD612A62B887C"
-			subtitle: "自动化建材厂"
-			tasks: [{
-				id: "1136465DCB7C1390"
-				item: "gtocore:carving_center"
-				type: "item"
-			}]
-			x: -4.5d
-			y: -1.0d
-		}
-		{
-			dependencies: ["6BB3386725B228D5"]
-			description: ["更快，更精确，基础采矿机的完全上位替代"]
-			id: "18092616AFFEE809"
-			shape: "diamond"
-			size: 1.5d
-			subtitle: "也更贵"
-			tasks: [{
-				id: "372D745F066BE637"
-				item: "gtmthings:lv_digital_miner"
-				type: "item"
-			}]
-			x: -5.25d
-			y: 7.5d
 		}
 		{
 			dependencies: ["23A116C4BAE96979"]
