@@ -81,6 +81,13 @@
 			x: -7.0d
 			y: 4.5d
 		}
+		{
+			id: "18C9F6A0A4469B11"
+			linked_quest: "063FEB76DD30E9B3"
+			shape: "gear"
+			x: -7.0d
+			y: 8.5d
+		}
 	]
 	quests: [
 		{
@@ -789,7 +796,7 @@
 				item: "gtocore:mithril_ingot"
 				type: "item"
 			}]
-			x: 1.0d
+			x: -0.5d
 			y: -0.5d
 		}
 		{
@@ -822,7 +829,7 @@
 				type: "item"
 			}]
 			x: 11.0d
-			y: 6.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["256F90AFB461107E"]
@@ -847,7 +854,7 @@
 				type: "item"
 			}]
 			x: 11.0d
-			y: 5.5d
+			y: 5.0d
 		}
 		{
 			dependencies: [
@@ -984,6 +991,30 @@
 			}]
 			x: -3.0d
 			y: 12.5d
+		}
+		{
+			dependencies: ["7A1E4DBA675E67FB"]
+			id: "233B4475D7C3934F"
+			shape: "diamond"
+			size: 1.0d
+			tasks: [{
+				id: "7EA205ADCE59A306"
+				item: "gtocore:chemical_complex"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3E458EF4819E239C"]
+			id: "2F3D8DD85C6D4F74"
+			tasks: [{
+				id: "04C88FEF0364A241"
+				item: "gtocore:orichalcum_ingot"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -0.5d
 		}
 	]
 	subtitle: ["Tier8-UV"]

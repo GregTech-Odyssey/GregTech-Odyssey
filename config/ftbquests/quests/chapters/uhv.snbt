@@ -50,6 +50,12 @@
 			x: -3.5d
 			y: -3.0d
 		}
+		{
+			id: "0D117230D47B6D59"
+			linked_quest: "2F3D8DD85C6D4F74"
+			x: 0.0d
+			y: -3.0d
+		}
 	]
 	quests: [
 		{
@@ -67,8 +73,8 @@
 				item: "gtceu:netherite_dust"
 				type: "item"
 			}]
-			x: -2.0d
-			y: -3.0d
+			x: 0.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["25930ED6EFD93F8B"]
@@ -81,7 +87,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -3.0d
+			y: 1.0d
 		}
 		{
 			dependencies: [
@@ -99,17 +105,6 @@
 			}]
 			x: 0.0d
 			y: -1.0d
-		}
-		{
-			dependencies: ["3E458EF4819E239C"]
-			id: "2F3D8DD85C6D4F74"
-			tasks: [{
-				id: "04C88FEF0364A241"
-				item: "gtocore:orichalcum_ingot"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 1.0d
 		}
 		{
 			dependencies: ["5BABA7621E000F54"]
@@ -545,8 +540,8 @@
 				item: "gtceu:bromine_bucket"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 2.5d
+			x: 2.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["5332141C5489CF10"]
@@ -617,6 +612,8 @@
 				"66473B14503626FD"
 			]
 			description: [
+				"蜂群技术革命，你可以用它来大幅简化过去和未来的复杂产线"
+				""
 				"每个纳米加工中心可以放置两个模块"
 				""
 				"虽然蜂群很劳累，不过在主机放入高级的蜂群能更好地压榨它们的潜能！"
@@ -635,7 +632,6 @@
 			y: 8.5d
 		}
 		{
-			dependencies: ["1612D1DEB3A7BE2D"]
 			description: [
 				"蜂群们为你那么勤劳地工作，也许你可能需要给他们一点点&5回报&r... "
 				""
@@ -754,7 +750,7 @@
 			y: 12.5d
 		}
 		{
-			dependencies: ["1612D1DEB3A7BE2D"]
+			dependencies: ["2F3D8DD85C6D4F74"]
 			hide_dependency_lines: true
 			id: "32EEA46E9A6D7FDC"
 			tasks: [{
@@ -764,19 +760,6 @@
 			}]
 			x: -3.5d
 			y: 12.5d
-		}
-		{
-			dependencies: ["2F3D8DD85C6D4F74"]
-			id: "233B4475D7C3934F"
-			shape: "diamond"
-			size: 1.25d
-			tasks: [{
-				id: "7EA205ADCE59A306"
-				item: "gtocore:chemical_complex"
-				type: "item"
-			}]
-			x: 2.0d
-			y: 1.0d
 		}
 		{
 			dependencies: [
@@ -914,19 +897,6 @@
 			}]
 			x: 5.5d
 			y: -3.0d
-		}
-		{
-			dependencies: ["7ED709D3291D6B88"]
-			id: "0DBA04D875077E85"
-			shape: "hexagon"
-			size: 1.5d
-			tasks: [{
-				id: "4166471E926FD3E8"
-				item: "gtocore:uev_fusion_reactor"
-				type: "item"
-			}]
-			x: -3.5d
-			y: 2.5d
 		}
 		{
 			dependencies: ["5343159AF8A5CBB5"]
