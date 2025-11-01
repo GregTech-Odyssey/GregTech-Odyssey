@@ -55,10 +55,9 @@
     "chiseled_bookshelf": true
   },
   "gtceu": {
-    "primitive_pump": true,
+    "block_entity_provider": true,
     "auto_output_info": true,
     "workable_provider": true,
-    "transformer": true,
     "controllable_provider": true,
     "me_pattern_buffer": true,
     "exhaust_vent_info": true,
@@ -68,10 +67,8 @@
     "maintenance_info": true,
     "machine_mode": true,
     "electric_container_provider": true,
-    "steam_boiler_info": true,
     "recipe_output_info": true,
     "stained_color": true,
-    "cable_info": true,
     "parallel_info": true
   },
   "jade": {

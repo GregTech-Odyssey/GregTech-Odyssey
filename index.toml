@@ -454,7 +454,7 @@ hash = "a834eb73e5abb4a724d419eb0f6a4d3f27ade50fdd1ddb636c94aa3f4dc46c3c"
 
 [[files]]
 file = "config/asyncparticles/asyncparticles.json"
-hash = "8e5fe5dcb63e2c9b643edab73b35ecc74b783ef9fddc1435396944f626173a0e"
+hash = "79452ada826109f2ae43fa5511e4a40431362ad5f81acef4db1c9856e75c5aa1"
 
 [[files]]
 file = "config/attributefix.json"
@@ -1050,11 +1050,7 @@ hash = "1085729634eb065ebd749213a52442535405551c254711c99616142052d0852b"
 
 [[files]]
 file = "config/jade/plugins.json"
-hash = "86fc550243a9de018fd4ca97d3ea079388863e943615290228a5170170190c77"
-
-[[files]]
-file = "config/jade/sort-order.json"
-hash = "bd7f3fdd0c93c6d6b4183a5c8d6ed4834be408e98bdb3d0b8a20201d10e04a63"
+hash = "4f1c48462db793469207c0c7c04b9e5a7e14c42c7cb556079dec360649d89529"
 
 [[files]]
 file = "config/jecalculation/config.toml"
@@ -2461,7 +2457,7 @@ metafile = true
 
 [[files]]
 file = "mods/applied-energistics-2-wireless-terminals.pw.toml"
-hash = "996bcdca15e510d8082da82f061304ab42e0ec92d861290ecc6b6f6f907fa564"
+hash = "760af77648a5754eeae79f5ac1ea8309a8027f53f5db04fcc5db1b3a9aa0aa0a"
 metafile = true
 
 [[files]]
@@ -2496,7 +2492,7 @@ metafile = true
 
 [[files]]
 file = "mods/asyncparticles.pw.toml"
-hash = "3d73922f73dbc192d55b849103aa6a5e046c826082d449ece7f94a1db2356faf"
+hash = "d04cc13e649823e9d43567c1e9ab494cf89285eb006e2f6416d701b7281e2502"
 metafile = true
 
 [[files]]
@@ -2876,11 +2872,11 @@ metafile = true
 
 [[files]]
 file = "mods/gtocore-0.5.0.jar"
-hash = "ebb540bb4d26067312cd4355f4a103fc02e1a48323758c632709b7af9de5b522"
+hash = "b89ffe564bd8db9ab6df94e995eaf9ad4c54861e06ff2f9f636cd6c824b82e1b"
 
 [[files]]
 file = "mods/gtonativelib-1.0.jar"
-hash = "930b07797aa7339e419bc73e4fb5e0226536de6896620497ba2f976540323f64"
+hash = "36db384389d04207553a657f5ec74408cd5ccde05364d64ab5b11173a1145fcd"
 
 [[files]]
 file = "mods/guideme.pw.toml"
@@ -2899,7 +2895,7 @@ metafile = true
 
 [[files]]
 file = "mods/inventory-essentials.pw.toml"
-hash = "5e79d6436312c412b32282b0ffa8a91fb9a1182e3929f620fafab9683687d3ff"
+hash = "b3261a9e2d85b983f5be5c36a84a49b11faa94793a5e6b527ce20ee4fc3eab53"
 metafile = true
 
 [[files]]
@@ -3044,7 +3040,7 @@ metafile = true
 
 [[files]]
 file = "mods/oh-the-biomes-weve-gone.pw.toml"
-hash = "2e6e3ee4939a8bd4b5947610a6dfd529ca2267178f1168f443d70647ac80c069"
+hash = "55dc8df4d253b09bd684a0410d6e95d47b6a18144c351f3b20f246021d08d6d2"
 metafile = true
 
 [[files]]
@@ -3134,12 +3130,12 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "9d32db9060cab4353a68469a3f5c12603644962d3f33c443fab1c230788baa81"
+hash = "3bb4a9500b84afbceb8d426505a1727888aa53de23f839ce261fe6956491cc83"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "c75ebf9c829e758b5495ce7c7616a1fdf88164c2a4e846b5acb94e4510eb8e25"
+hash = "4e0171baa817919422b027a64d97ef8ffc63879c94671b2fc42f191cc6f3900d"
 metafile = true
 
 [[files]]
