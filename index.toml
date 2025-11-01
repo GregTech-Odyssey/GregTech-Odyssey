@@ -1053,6 +1053,10 @@ file = "config/jade/plugins.json"
 hash = "4f1c48462db793469207c0c7c04b9e5a7e14c42c7cb556079dec360649d89529"
 
 [[files]]
+file = "config/jade/sort-order.json"
+hash = "77bf1f0b140f38f602aee7f5942896c965f4a270839714a073e0c2cf3227da68"
+
+[[files]]
 file = "config/jecalculation/config.toml"
 hash = "3552620df5cc08ce9e6ffedc0560785b21dcd9a51bafe818de5c8dc252d63b74"
 
