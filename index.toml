@@ -622,7 +622,7 @@ hash = "a51452390308a18e517457440e251a4a1737433e6033875e4a3af6cc5afb9283"
 
 [[files]]
 file = "config/doespotatotick-common.toml"
-hash = "efd9a725a29353ee300c31112855db2c12ec9c5ad8897c3a52ac7df8aef51534"
+hash = "27d23f1821baec170119aa1376c1c3d966e57c1fad4603f6406a4fc6f74e1951"
 
 [[files]]
 file = "config/dungeon_crawl.toml"
@@ -1082,7 +1082,7 @@ hash = "ca6f0515891afed86c30c9d3d8ad1496a7d03de9ea532ab431f2ec1d3968826b"
 
 [[files]]
 file = "config/jei/jei-client.ini"
-hash = "8c5ae3646c07bfd87fe9259333c2df2b7eb2670cd0c64c21f48f69e0a5629a18"
+hash = "30503916553a0a302f433abd1c99a54303312cf426b7a6b49d0dff0461c82aba"
 
 [[files]]
 file = "config/jei/jei-colors.ini"
@@ -2645,13 +2645,8 @@ hash = "aaf9de07b98813922b2125dcaffd827aa7ccab618ea54edeb92d9689f82bf049"
 metafile = true
 
 [[files]]
-file = "mods/diet.pw.toml"
-hash = "c191f5d2adeac4682e7517e7ab0b40596208dc0fba52987c9691937e76dd0d27"
-metafile = true
-
-[[files]]
 file = "mods/doespotatotick.pw.toml"
-hash = "97fd914322cbffd1b1e4a01aedd599d794d57f15c4c99b6117f6a05ace5ee3ec"
+hash = "ed11118da5998b676106c493ae5b278fc89145a982fc01a24c6c878086482be8"
 metafile = true
 
 [[files]]
@@ -2871,16 +2866,16 @@ metafile = true
 
 [[files]]
 file = "mods/gnetum.pw.toml"
-hash = "8c321ef79f3002fdf45b60e172f6849459da829a350a3354498004ac13794b5c"
+hash = "a1102abb1e6c38a101dddda69acf90d9e73d887c7a43e3a84dd81bde5fbbf37f"
 metafile = true
 
 [[files]]
-file = "mods/gtocore-0.5.0.jar"
-hash = "b89ffe564bd8db9ab6df94e995eaf9ad4c54861e06ff2f9f636cd6c824b82e1b"
+file = "mods/gtocore-0.5.0-pre.16.jar"
+hash = "451b07b8b380fe195778964fcf081cb6501b62da16e8d234d024144c78e0378a"
 
 [[files]]
 file = "mods/gtonativelib-1.0.jar"
-hash = "36db384389d04207553a657f5ec74408cd5ccde05364d64ab5b11173a1145fcd"
+hash = "916dd64b30426902e1e4b507ad75191c8aad98830508567b70b15fd102e5494f"
 
 [[files]]
 file = "mods/guideme.pw.toml"
@@ -2919,12 +2914,12 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "5c93a82eec8d7c98458e112533798402f9664f209d379fcc439f9e9aafe9421b"
+hash = "a4aeae853d270fbeef356436886065e8d5ca7baee9ae02d12dc79c14d169647b"
 metafile = true
 
 [[files]]
 file = "mods/just-enough-characters.pw.toml"
-hash = "74d97ed7a678699fea62b4010c699f1d3514363f96e807a14c368edf20c3f9ac"
+hash = "f549dcf7bee541600d0f185adb8c43fe6460d2dceb51aba4d3184d23dfc4f9f0"
 metafile = true
 
 [[files]]

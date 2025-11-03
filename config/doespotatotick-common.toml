@@ -14,8 +14,6 @@
 	#Leave this empty for applying to all the dimensions
 	#Entities in these dimensions will be affected by the optimization
 	DimensionWhitelist = []
-	#If this is enabled, dead entities will always tick
-	IgnoreDeadEntities = false
 	#With this turned on, all the raider will always tick if the world has raids
 	TickRaidersIfRaid = true
 	#If this is enabled, hostile entities will always tick
