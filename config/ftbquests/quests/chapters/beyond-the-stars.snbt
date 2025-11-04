@@ -782,6 +782,11 @@
 		}
 		{
 			dependencies: ["61C37EC8503FFDD9"]
+			description: [
+				"&e氦-3&r主要用于聚变反应"
+				""
+				"&e气态氦&r液化成的&6液态氦&r是最重要的冷却剂，而&e气态氦&r本身也有很多重要用途，在这里直接采集可以大大减少离心空气的需求量"
+			]
 			id: "69AED014FEDA7997"
 			subtitle: "液态氦与氦-3"
 			tasks: [
@@ -791,8 +796,8 @@
 					type: "item"
 				}
 				{
-					id: "6A2D5ED3A4293CF7"
-					item: "gtceu:liquid_helium_bucket"
+					id: "4196672A73181C34"
+					item: "gtceu:helium_bucket"
 					type: "item"
 				}
 			]
@@ -847,6 +852,7 @@
 		}
 		{
 			dependencies: ["4BA3FA62A307DBC5"]
+			description: ["&e粗钨酸锂&r产出的钨比&d粗白钨&r多，不过你最好都把它们带回家"]
 			id: "40D50D3FC5EA5D9D"
 			subtitle: "白钨矿脉"
 			tasks: [
@@ -872,6 +878,11 @@
 		}
 		{
 			dependencies: ["4BA3FA62A307DBC5"]
+			description: [
+				"你需要拿它做&d量子之眼&r"
+				""
+				"当你的硅岩产线缺乏&d氡&r的时候，记得回趟火星"
+			]
 			id: "7662AEC801BD79CC"
 			subtitle: "气态氡"
 			tasks: [{
@@ -947,6 +958,7 @@
 				"256F90AFB461107E"
 				"2F03D93AC7DBE58D"
 			]
+			description: ["这里是Tire2器官，它可以带你去&e金星&r、&5水星&r和&8谷神星&r"]
 			id: "2D901DBE68F833D2"
 			shape: "hexagon"
 			size: 2.0d
@@ -999,8 +1011,8 @@
 				}
 			]
 			title: "凡躯易朽，基因重塑"
-			x: 24.0d
-			y: 3.25d
+			x: 27.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["52F43DFB331C72C6"]
@@ -1079,6 +1091,7 @@
 		}
 		{
 			dependencies: ["4BA3FA62A307DBC5"]
+			description: ["[ \"看到这你应该需要去准备你的\", { \"text\": \"铂处理线\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"033815C0756BAE1F\" } }, \"了，如果你不想现在做也没问题，迟早也要做，但先带点矿回家吧\" ]"]
 			id: "55FCF330DABADFB1"
 			subtitle: "谢尔顿矿脉"
 			tasks: [
@@ -1109,6 +1122,11 @@
 		}
 		{
 			dependencies: ["27771E52B49806B6"]
+			description: [
+				"[ \"\",{ \"text\": \"T6火箭\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"383B710C58CEA6AF\" } }, \"的核心源材料，你需要准备硅岩产线来制作T6火箭的防护板\" ]"
+				""
+				"&8当然不准备一个完整的产线也行，因为富集硅岩粉有其他的产出途径&r"
+			]
 			hide_dependent_lines: true
 			id: "479707D18AD5181B"
 			subtitle: "耐热金属矿脉"
@@ -1173,6 +1191,7 @@
 		}
 		{
 			dependencies: ["27771E52B49806B6"]
+			description: ["&e氘&r是后期聚变反应的重要材料，现在你可能没有太多需求，可以以后再来抽"]
 			id: "0D47C721AD61B0D6"
 			subtitle: "气态氘"
 			tasks: [{
@@ -1308,11 +1327,13 @@
 				"0C60C5B1FE950A2D"
 				"04132175DE54AF89"
 			]
+			description: ["重铬酸钾后续主要用于转子镀层"]
 			id: "5C25C0DBA2F295BC"
 			tasks: [{
 				id: "491E65A7DD441C7A"
 				type: "checkmark"
 			}]
+			title: "邻二甲苯催化氧化法"
 			x: -18.5d
 			y: 2.5d
 		}
@@ -1331,11 +1352,13 @@
 				"336C48E022910CC6"
 				"17E01888FDA360DD"
 			]
+			description: ["只要你的木化产线完备，萘应该不是问题"]
 			id: "7819A5BABF1D103D"
 			tasks: [{
 				id: "63C3C74E240DE7B1"
 				type: "checkmark"
 			}]
+			title: "萘催化氧化法"
 			x: -20.0d
 			y: 4.0d
 		}
@@ -1351,6 +1374,7 @@
 		}
 		{
 			dependencies: ["0FA017F31EF08F19"]
+			description: ["三种基础酸之一，你最好能从各个星球上抽取出来，减少前期的压力"]
 			id: "28F541BD5C97C37D"
 			subtitle: "硫酸"
 			tasks: [{
@@ -1359,8 +1383,8 @@
 				type: "item"
 			}]
 			title: "流体特产：金星"
-			x: 27.0d
-			y: -1.0d
+			x: 25.0d
+			y: 3.0d
 		}
 		{
 			id: "17E01888FDA360DD"
@@ -1374,6 +1398,7 @@
 		}
 		{
 			dependencies: ["0FA017F31EF08F19"]
+			description: ["[ \"\",{\"text\": \"戴斯\",\"color\":\"#FF9933\"},{\"text\": \"主要用于\"},{ \"text\": \"下一级火箭\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"52F43DFB331C72C6\" } }, \"，用途相对较少\" ]"]
 			id: "56F034904D31D9FB"
 			subtitle: "戴斯矿脉"
 			tasks: [
@@ -1488,6 +1513,11 @@
 		}
 		{
 			dependencies: ["136025CCB32D6AFE"]
+			description: [
+				"这堆家伙是各种合金锻造的保护气体，以及后期的重要合成原料"
+				""
+				"[ \"\",{\"text\":\"其中\"},{\"text\":\"氪\",\"color\":\"#00FF00\"},{\"text\":\"会出现在\"}, { \"text\": \"C60\", \"underlined\": \"true\", \"color\":\"#3A439B\",\"clickEvent\": { \"action\": \"change_page\", \"value\": \"6CD5754937D928F6\" } }, {\"text\":\"的产线中，而\"},{\"text\":\"氙\",\"color\":\"#00FFFF\"},{\"text\":\"会大量应用于\"} ,{ \"text\": \"硅岩产线\", \"underlined\": \"true\",\"color\":\"#632C87\",\"clickEvent\": { \"action\": \"change_page\", \"value\": \"31F90B973A779017\" } }]"
+			]
 			id: "32935F6DA068131D"
 			subtitle: "稀有气体族"
 			tasks: [
@@ -1513,6 +1543,7 @@
 		}
 		{
 			dependencies: ["136025CCB32D6AFE"]
+			description: ["[ \"\",{\"text\":\"准备好重现\"},{\"text\":\"紫\",\"color\":\"#660066\"},{\"text\":\"金\",\"color\":\"#FFFF00\"},\"王朝了吗？你需要准备\", { \"text\": \"IV超导体\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"57998756043629AD\" } } ]"]
 			id: "5B4A3DAE5750D655"
 			subtitle: "紫金矿脉"
 			tasks: [
@@ -1634,7 +1665,7 @@
 			description: [
 				"以下是矿石资源报告："
 				""
-				"[\"\",{\"text\": \"硅岩矿脉：\",\"color\":\"#323232\"},{\"text\": \"硅岩\",\"color\":\"#323232\"},{\"text\": \"—\"},{\"text\": \"钚\",\"color\":\"#ba2727\"}]"
+				"[\"\",{\"text\": \"硅岩矿脉：\",\"color\":\"#181D3A\"},{\"text\": \"硅岩\",\"color\":\"#181D3A\"},{\"text\": \"—\"},{\"text\": \"钚\",\"color\":\"#ba2727\"}]"
 				"[\"\",{\"text\": \"硫矿脉：\",\"color\":\"#fdff31\"},{\"text\": \"硫\",\"color\":\"#fdff31\"},{\"text\": \"—\"},{\"text\": \"黄铁矿\",\"color\":\"#fffee6\"},{\"text\": \"—\"},{\"text\": \"闪锌矿\",\"color\":\"#ffdc88\"}]"
 				"[\"\",{\"text\": \"钻石矿脉：\",\"color\":\"#C8FFFF\"},{\"text\": \"石墨\",\"color\":\"#a8a89e\"},{\"text\": \"—\"},{\"text\": \"钻石\",\"color\":\"#C8FFFF\"},{\"text\": \"—\"},{\"text\": \"煤炭\",\"color\":\"#393e41\"}]"
 				"[\"\",{\"text\": \"钼矿脉：\",\"color\":\"#e3ddc3\"},{\"text\": \"钼铅矿\",\"color\":\"#ff9000\"},{\"text\": \"—\"},{\"text\": \"辉钼矿\",\"color\":\"#e3ddc3\"},{\"text\": \"—\"},{\"text\": \"钼\",\"color\":\"#404068\"},{\"text\": \"—\"},{\"text\": \"钼钙矿\",\"color\":\"#d8cfac\"}]"
@@ -1665,6 +1696,11 @@
 		}
 		{
 			dependencies: ["15356C4478131544"]
+			description: [
+				"&4极其重要的产线，必须完整准备&r"
+				""
+				"&6我们才刚开始理解它的潜力。它不仅是能源，更通向全新的物理学&r"
+			]
 			id: "3376801E0CDCE656"
 			subtitle: "硅岩矿脉"
 			tasks: [
@@ -1685,6 +1721,11 @@
 		}
 		{
 			dependencies: ["15356C4478131544"]
+			description: [
+				"你不会想拿这东西去点你家的灶台吧？"
+				""
+				"&8&m现在都改成天然气了当然点不着&r&r"
+			]
 			id: "0A4D00F9F44C97DB"
 			subtitle: "煤气"
 			tasks: [{
@@ -1698,6 +1739,7 @@
 		}
 		{
 			dependencies: ["15356C4478131544"]
+			description: ["后面你搭建细菌产线的时候需要&b天青石粉&r"]
 			id: "54CEDB30AB9906C0"
 			subtitle: "天青石矿脉"
 			tasks: [
@@ -1726,6 +1768,7 @@
 				"256F90AFB461107E"
 				"2F03D93AC7DBE58D"
 			]
+			description: ["这里是Tire3器官，它可以带你去&c木卫一&r、&1木卫三&r、&5土卫二&r、&9土卫六&r、&d冥王星&r和&2霜原星&r"]
 			id: "56408F9F9ACD204D"
 			shape: "hexagon"
 			size: 2.0d
@@ -1783,6 +1826,7 @@
 		}
 		{
 			dependencies: ["27541258B94B2A11"]
+			description: ["三种基础酸之一，你会发现到处都需要它，以及可以大大减轻&3氯&r的压力"]
 			id: "5A9B6F823ED2477C"
 			subtitle: "盐酸"
 			tasks: [{
@@ -1888,6 +1932,11 @@
 		}
 		{
 			dependencies: ["1A21D952F3219B5B"]
+			description: [
+				"那么这两种气体终于解放了，欢呼吧！"
+				""
+				"终于可以不用大量电解&7盐酸&r和&6蓝黄玉&r了"
+			]
 			id: "6B02B6F20B71608C"
 			subtitle: "气态氟与气态氯"
 			tasks: [
@@ -1942,6 +1991,11 @@
 		}
 		{
 			dependencies: ["4C8AF861C4D0AFF2"]
+			description: [
+				"如果你做好了木化产线，那你应该不会缺&6木炭副产物&r"
+				""
+				"&b苯&r跟&5甲烷&r都是好东西，肯定要大量抽取的"
+			]
 			id: "472BC6B26F91C9F2"
 			subtitle: "苯、气态甲烷与木炭副产物"
 			tasks: [
@@ -1970,7 +2024,7 @@
 			description: [
 				"以下是矿石资源报告："
 				""
-				"[\"\",{\"text\": \"硅岩矿脉：\",\"color\":\"#323232\"},{\"text\": \"硅岩\",\"color\":\"#323232\"},{\"text\": \"—\"},{\"text\": \"钚\",\"color\":\"#ba2727\"}]"
+				"[\"\",{\"text\": \"硅岩矿脉：\",\"color\":\"#181D3A\"},{\"text\": \"硅岩\",\"color\":\"#181D3A\"},{\"text\": \"—\"},{\"text\": \"钚\",\"color\":\"#ba2727\"}]"
 				"[\"\",{\"text\": \"方铅矿脉：\",\"color\":\"#f3e8fa\"},{\"text\": \"方铅矿\",\"color\":\"#f3e8fa\"},{\"text\": \"—\"},{\"text\": \"银\",\"color\":\"#DCDCFF\"},{\"text\": \"—\"},{\"text\": \"铅\",\"color\":\"#7e6f82\"}]"
 				"[\"\",{\"text\": \"云母矿脉：\",\"color\":\"#ecfeff\"},{\"text\": \"蓝晶石\",\"color\":\"#d5ffff\"},{\"text\": \"—\"},{\"text\": \"云母\",\"color\":\"#ecfeff\"},{\"text\": \"—\"},{\"text\": \"铯榴石\",\"color\":\"#eed9e1\"}]"
 				"[\"\",{\"text\": \"沥青铀矿脉：\",\"color\":\"#ffd647\"},{\"text\": \"沥青铀矿\",\"color\":\"#ffd647\"},{\"text\": \"—\"},{\"text\": \"晶质铀矿\",\"color\":\"#ffd52e\"}]"
@@ -2001,6 +2055,11 @@
 		}
 		{
 			dependencies: ["20932057C572CBB7"]
+			description: [
+				"三种基础酸之一，&4极大的需求量"
+				"&r"
+				"&8&o反正你就抽吧，一抽一个不吱声&r&r"
+			]
 			id: "6C8CFC519E3813AC"
 			subtitle: "硝酸"
 			tasks: [{
@@ -2033,7 +2092,7 @@
 			y: 13.0d
 		}
 		{
-			dependencies: ["256F90AFB461107E"]
+			dependencies: ["05C7059BC114AD42"]
 			id: "72AACC1178BF7586"
 			shape: "hexagon"
 			size: 2.0d
@@ -2086,14 +2145,11 @@
 				}
 			]
 			title: "超脱形骸，神祇创生"
-			x: 4.5d
-			y: 15.5d
+			x: -3.0d
+			y: 16.0d
 		}
 		{
-			dependencies: [
-				"72AACC1178BF7586"
-				"1FE56FCF598C90B1"
-			]
+			dependencies: ["1FE56FCF598C90B1"]
 			description: [
 				"以下是矿石资源报告："
 				""
@@ -2133,7 +2189,9 @@
 		}
 		{
 			dependencies: ["5541FCA4ECD33B07"]
+			description: ["你要杀多少只霜原羊呢？"]
 			id: "66B8B18A19F504DA"
+			subtitle: "今日手气如何？"
 			tasks: [{
 				id: "6C4660BD51C394FB"
 				item: "gtocore:glacio_spirit"
@@ -2144,12 +2202,19 @@
 		}
 		{
 			dependencies: ["55FCF330DABADFB1"]
+			description: [
+				"想完成这一步任务吗，你需要完整搭建你的铂处理线，希望你喜欢"
+				""
+				"P.S：不要吝啬你的大机器，他们就应该用于提升你的产线效率"
+			]
 			id: "601DBD60E46AC35B"
+			subtitle: "对的，这东西不能单独烧出来"
 			tasks: [{
 				id: "799CA36B3381A6EE"
 				item: "gtceu:tiny_rhodium_dust"
 				type: "item"
 			}]
+			title: "接受考验？"
 			x: 17.5d
 			y: 4.5d
 		}
@@ -2173,15 +2238,15 @@
 			y: 13.0d
 		}
 		{
-			dependencies: ["05C7059BC114AD42"]
+			dependencies: ["72AACC1178BF7586"]
 			description: [
 				"终于，你踏足了最远的星系。探索到此告一段落&m？&r"
 				"{@pagebreak}"
 				"以下是矿石分布报告："
 				""
 				"[\"\",{\"text\": \"油砂矿脉：\",\"color\":\"#e3c78a\"},{\"text\": \"油砂\",\"color\":\"#e3c78a\"}]"
-				"[\"\",{\"text\": \"煤炭矿脉：\",\"color\":\"#393e41\"},{\"text\": \"煤炭\",\"color\":\"#393e41\"}]"
-				"[\"\",{\"text\": \"硅岩矿脉：\",\"color\":\"#323232\"},{\"text\": \"硅岩\",\"color\":\"#323232\"},{\"text\": \"—\"},{\"text\": \"钚\",\"color\":\"#ba2727\"}]"
+				"[\"\",{\"text\": \"煤炭矿脉：\",\"color\":\"#434864\"},{\"text\": \"煤炭\",\"color\":\"#434864\"}]"
+				"[\"\",{\"text\": \"硅岩矿脉：\",\"color\":\"#181D3A\"},{\"text\": \"硅岩\",\"color\":\"#181D3A\"},{\"text\": \"—\"},{\"text\": \"钚\",\"color\":\"#ba2727\"}]"
 				"[\"\",{\"text\": \"盐矿脉：\",\"color\":\"#FAFAFA\"},{\"text\": \"岩盐\",\"color\":\"#ffeae1\"},{\"text\": \"—\"},{\"text\": \"盐\",\"color\":\"#FAFAFA\"},{\"text\": \"—\"},{\"text\": \"锂辉石\",\"color\":\"#ffbcbc\"}]"
 				"[\"\",{\"text\": \"方铅矿脉：\",\"color\":\"#f3e8fa\"},{\"text\": \"方铅矿\",\"color\":\"#f3e8fa\"},{\"text\": \"—\"},{\"text\": \"银\",\"color\":\"#DCDCFF\"},{\"text\": \"—\"},{\"text\": \"铅\",\"color\":\"#7e6f82\"}]"
 				"[\"\",{\"text\": \"红石矿脉：\",\"color\":\"#ff0000\"},{\"text\": \"红石\",\"color\":\"#ff0000\"},{\"text\": \"—\"},{\"text\": \"红宝石\",\"color\":\"#d72310\"},{\"text\": \"—\"},{\"text\": \"朱砂\",\"color\":\"#ff335f\"}]"
@@ -2211,6 +2276,11 @@
 		}
 		{
 			dependencies: ["6320619CCAE8158F"]
+			description: [
+				"&1不明液体&r的用处都很靠后了，但你这阶段就会开始使用它们了"
+				""
+				"至于&d巴纳德-C&r空气？反正它们不能用大型集气室来抽取，可以先用小机器顶着，建议后面使用太空钻井"
+			]
 			id: "3E1CA6DA4998A682"
 			subtitle: "不明液体与巴纳德C空气"
 			tasks: [
@@ -2234,7 +2304,11 @@
 				"3AA02FCCAFB82E87"
 				"637E8174DF8EA186"
 			]
-			description: [""]
+			description: [
+				"硝酸钾肼有1.42倍TNT的爆炸威力"
+				""
+				"&o&8所以本质上你就是坐着炸药上天的呢）"
+			]
 			id: "5CA2359D7B952655"
 			shape: "gear"
 			size: 2.0d
