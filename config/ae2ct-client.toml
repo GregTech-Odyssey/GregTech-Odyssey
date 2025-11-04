@@ -2,4 +2,6 @@
 use_compact_tree = false
 #show count in screenshot
 screenshot_show_count = false
+#show missing only by default
+show_missing_only_by_default = false
 

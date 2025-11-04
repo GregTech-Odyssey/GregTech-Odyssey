@@ -1,13 +1,13 @@
 name = "AE2: Crafting Tree"
-filename = "ae2ct-1.20.1-1.1.0.jar"
+filename = "ae2ct-1.20.1-1.1.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "89f25eb1b6d837a824349093125e74d175d361ae"
+hash = "e6c9d9c2cd9c52aec6364d87e78924f6165b7998"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6695407
+file-id = 7182165
 project-id = 1086241
