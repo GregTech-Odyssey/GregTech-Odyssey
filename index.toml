@@ -2870,12 +2870,12 @@ hash = "a1102abb1e6c38a101dddda69acf90d9e73d887c7a43e3a84dd81bde5fbbf37f"
 metafile = true
 
 [[files]]
-file = "mods/gtocore-0.5.0-pre.18.jar"
-hash = "cba2d7f41154aca71a7f675d42f99d34efe972fe143dbd94ad3717e07330304a"
+file = "mods/gtocore-0.5.0-pre.20.jar"
+hash = "0cd1312f78dd70e1eef71b49fffc2e0f6faa0ba2154c59f73a6f59d98a5d53f8"
 
 [[files]]
 file = "mods/gtonativelib-1.0.jar"
-hash = "d7345db29e9965c4e893d19e4af1c0d1e82001c4715e1a27ceb3d91b0d4f159c"
+hash = "fc088febcd162c40d8f648c30978aa41f86f6f7648277d30a8067e6d1ee2d195"
 
 [[files]]
 file = "mods/guideme.pw.toml"
