@@ -360,11 +360,7 @@
 		}
 		{
 			dependencies: ["0BB1BDBE8BB307E4"]
-			description: [
-				"{gto.zpm.quests.49E04C29B878D3A8.description0}"
-				""
-				"{gto.zpm.quests.49E04C29B878D3A8.description1}"
-			]
+			description: ["{gto.zpm.quests.49E04C29B878D3A8.description0}"]
 			hide_dependent_lines: true
 			icon: {
 				Count: 1

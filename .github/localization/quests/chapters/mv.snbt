@@ -788,6 +788,7 @@
 				"{gto.mv.quests.2FDFF167491E2F34.description1}"
 			]
 			id: "2FDFF167491E2F34"
+			invisible: true
 			shape: "diamond"
 			size: 1.5d
 			tasks: [{
@@ -805,6 +806,7 @@
 			]
 			hide_dependent_lines: true
 			id: "796DD5FB0E2A1E93"
+			invisible: true
 			shape: "circle"
 			tasks: [{
 				id: "0B6E0EDA6C482F3F"

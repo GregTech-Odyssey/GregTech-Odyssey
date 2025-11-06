@@ -3768,7 +3768,11 @@
 			y: 17.5d
 		}
 		{
-			dependencies: ["23D906A09C3631CB"]
+			dependencies: [
+				"23D906A09C3631CB"
+				"5627B38033AF2674"
+			]
+			description: ["{gto.ae.quests.30C9B64B6E6DA245.description0}"]
 			id: "30C9B64B6E6DA245"
 			tasks: [{
 				id: "64AB8C1DC3350ABD"
@@ -4082,6 +4086,7 @@
 				"{gto.ae.quests.5627B38033AF2674.description0}"
 				"{image:ae2:textures/quantum_ring.png width:100 height:100 align:center}"
 			]
+			hide_dependent_lines: true
 			icon: "gtocore:quantum_anomaly"
 			id: "5627B38033AF2674"
 			shape: "pentagon"

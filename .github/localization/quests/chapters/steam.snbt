@@ -339,7 +339,7 @@
 				type: "item"
 			}]
 			title: "{gto.steam.quests.017D4D369784454E.title}"
-			x: 2.25d
+			x: 2.0d
 			y: 4.5d
 		}
 		{
@@ -363,7 +363,7 @@
 				type: "item"
 			}]
 			title: "{gto.steam.quests.7BE51B4BC36F8B7B.title}"
-			x: 2.25d
+			x: 2.0d
 			y: 9.0d
 		}
 		{
@@ -512,8 +512,8 @@
 				type: "item"
 			}]
 			title: "{gto.steam.quests.7AEE9F9ADE58612F.title}"
-			x: 0.75d
-			y: 7.5d
+			x: 0.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["05F4015974079225"]
@@ -554,7 +554,7 @@
 				type: "item"
 			}]
 			title: "{gto.steam.quests.3841BCAE03DB0E94.title}"
-			x: 2.25d
+			x: 2.0d
 			y: 2.5d
 		}
 		{
@@ -843,7 +843,7 @@
 				type: "item"
 			}]
 			title: "{gto.steam.quests.0DCA3A96184C9EAC.title}"
-			x: 2.25d
+			x: 2.0d
 			y: 0.0d
 		}
 		{
@@ -1078,6 +1078,8 @@
 				"{gto.steam.quests.31BB738542229A88.description0}"
 				""
 				"{gto.steam.quests.31BB738542229A88.description1}"
+				""
+				"{gto.steam.quests.31BB738542229A88.description2}"
 			]
 			icon: "gtocore:ulv_conveyor_module"
 			id: "31BB738542229A88"
@@ -1145,8 +1147,8 @@
 				type: "item"
 			}]
 			title: "{gto.steam.quests.402F27D382D05FAA.title}"
-			x: 0.25d
-			y: 9.0d
+			x: 0.5d
+			y: 7.5d
 		}
 		{
 			dependencies: [
@@ -1250,7 +1252,7 @@
 			y: 8.5d
 		}
 		{
-			dependencies: ["402F27D382D05FAA"]
+			dependencies: ["7BCD49717F8FAD65"]
 			description: [
 				"{gto.steam.quests.5859702A2DF96727.description0}"
 				""
@@ -1268,7 +1270,7 @@
 			id: "5859702A2DF96727"
 			optional: true
 			shape: "diamond"
-			size: 1.5d
+			size: 1.0d
 			subtitle: "{gto.steam.quests.5859702A2DF96727.subtitle}"
 			tasks: [
 				{
@@ -1283,8 +1285,8 @@
 				}
 			]
 			title: "{gto.steam.quests.5859702A2DF96727.title}"
-			x: -1.5d
-			y: 9.0d
+			x: -11.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["17408BBD93A18AEC"]

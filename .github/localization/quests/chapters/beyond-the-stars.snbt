@@ -147,7 +147,7 @@
 			y: -5.5d
 		}
 	]
-	order_index: 6
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -953,11 +953,7 @@
 			y: 1.0d
 		}
 		{
-			dependencies: [
-				"2F6C81E3B10365E8"
-				"256F90AFB461107E"
-				"2F03D93AC7DBE58D"
-			]
+			dependencies: ["2F6C81E3B10365E8"]
 			description: ["{gto.beyond-the-stars.quests.2D901DBE68F833D2.description0}"]
 			id: "2D901DBE68F833D2"
 			shape: "hexagon"
@@ -1765,10 +1761,7 @@
 			y: 11.0d
 		}
 		{
-			dependencies: [
-				"256F90AFB461107E"
-				"2F03D93AC7DBE58D"
-			]
+			dependencies: ["2F03D93AC7DBE58D"]
 			description: ["{gto.beyond-the-stars.quests.56408F9F9ACD204D.description0}"]
 			id: "56408F9F9ACD204D"
 			shape: "hexagon"

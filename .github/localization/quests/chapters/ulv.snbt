@@ -25,8 +25,16 @@
 		{
 			id: "26DD69D6B9A64358"
 			linked_quest: "4AF39FF336EA1BF4"
+			shape: "diamond"
 			x: -2.0d
 			y: 1.5d
+		}
+		{
+			id: "391E63C2F15DE329"
+			linked_quest: "1A00DF4BC5C15459"
+			shape: "diamond"
+			x: -3.5d
+			y: 0.0d
 		}
 	]
 	quests: [
@@ -456,41 +464,6 @@
 			}]
 			x: 6.5d
 			y: -5.0d
-		}
-		{
-			dependencies: ["1CA6E1AD1909373A"]
-			description: [
-				"{gto.ulv.quests.6EEEF20760158257.description0}"
-				""
-				"{gto.ulv.quests.6EEEF20760158257.description1}"
-				""
-				"{gto.ulv.quests.6EEEF20760158257.description2}"
-				"{gto.ulv.quests.6EEEF20760158257.description3}"
-				"{gto.ulv.quests.6EEEF20760158257.description4}"
-			]
-			id: "6EEEF20760158257"
-			rewards: [{
-				id: "0105CDF84D549110"
-				item: "gtocore:lv_power_amplifiers"
-				type: "item"
-			}]
-			shape: "diamond"
-			subtitle: "{gto.ulv.quests.6EEEF20760158257.subtitle}"
-			tasks: [
-				{
-					id: "392FFF20B3F662B7"
-					item: "gtocore:boss_summoner"
-					type: "item"
-				}
-				{
-					id: "5EF85CF9912D529F"
-					item: "gtceu:ulv_energy_input_hatch"
-					type: "item"
-				}
-			]
-			title: "{gto.ulv.quests.6EEEF20760158257.title}"
-			x: -3.5d
-			y: 0.0d
 		}
 		{
 			dependencies: ["201D44A832961946"]
@@ -1345,6 +1318,8 @@
 		{
 			dependencies: ["0FBE7318DFBA700E"]
 			id: "6CC4173B5BF99920"
+			shape: "diamond"
+			size: 1.5d
 			subtitle: "{gto.ulv.quests.6CC4173B5BF99920.subtitle}"
 			tasks: [{
 				id: "74099FBE9992D542"

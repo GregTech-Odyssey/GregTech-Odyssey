@@ -55,7 +55,7 @@
 			y: -1.5d
 		}
 	]
-	order_index: 5
+	order_index: 3
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -330,6 +330,7 @@
 			y: -3.5d
 		}
 		{
+			dependencies: ["4AF39FF336EA1BF4"]
 			description: ["{gto.apotheosis.quests.398D2331C3239A4A.description0}"]
 			id: "398D2331C3239A4A"
 			rewards: [
@@ -1418,7 +1419,18 @@
 			y: -5.0d
 		}
 		{
-			description: ["{gto.apotheosis.quests.1A00DF4BC5C15459.description0}"]
+			dependencies: ["1CA6E1AD1909373A"]
+			description: [
+				"{gto.apotheosis.quests.1A00DF4BC5C15459.description0}"
+				""
+				"{gto.apotheosis.quests.1A00DF4BC5C15459.description1}"
+				""
+				"{gto.apotheosis.quests.1A00DF4BC5C15459.description2}"
+				""
+				"{gto.apotheosis.quests.1A00DF4BC5C15459.description3}"
+				"{gto.apotheosis.quests.1A00DF4BC5C15459.description4}"
+				"{gto.apotheosis.quests.1A00DF4BC5C15459.description5}"
+			]
 			id: "1A00DF4BC5C15459"
 			rewards: [{
 				id: "725D5BEEB8A2FD5B"
@@ -1615,6 +1627,7 @@
 		}
 		{
 			dependencies: ["26ADEFA5357DD47A"]
+			hide_dependent_lines: true
 			id: "314E168D572BB4FF"
 			rewards: [{
 				id: "38490B62F9614F93"
@@ -1681,7 +1694,6 @@
 				"6B4E1CD13BB19BE5"
 				"043E9E791712A441"
 			]
-			hide_dependency_lines: true
 			id: "782E6E5239AA5283"
 			shape: "none"
 			size: 4.0d
