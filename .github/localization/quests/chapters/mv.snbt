@@ -782,13 +782,17 @@
 				"49E5CC5873FA226F"
 				"796DD5FB0E2A1E93"
 			]
-			description: ["{gto.mv.quests.2FDFF167491E2F34.description0}"]
+			description: [
+				"{gto.mv.quests.2FDFF167491E2F34.description0}"
+				""
+				"{gto.mv.quests.2FDFF167491E2F34.description1}"
+			]
 			id: "2FDFF167491E2F34"
 			shape: "diamond"
 			size: 1.5d
 			tasks: [{
-				id: "6B5926A35C82E1F0"
-				item: "gtmthings:mv_digital_miner"
+				id: "2820A2CB04EFA5B8"
+				item: "gtocore:digital_miner"
 				type: "item"
 			}]
 			x: 9.0d

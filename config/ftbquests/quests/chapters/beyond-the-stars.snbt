@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "beyond-the-stars"
-	group: ""
+	group: "48D03BA483B3FA87"
 	icon: {
 		Count: 1
 		id: "ad_astra_rocketed:tier_7_rocket"
@@ -1244,6 +1244,7 @@
 				"73C01EC9D0386D60"
 				"6924A3A7911E2F3B"
 			]
+			description: ["记得回收中间相关产物"]
 			id: "68063150194F78B2"
 			tasks: [{
 				id: "53864576DBC33BC3"
@@ -2521,6 +2522,7 @@
 		}
 		{
 			dependencies: ["7FE2763143958129"]
+			description: ["[ \"这套护甲并没有储存氧气的功能，你需要做\", { \"text\": \"太空定制版\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"388DCD34426BAE36\" } } ]"]
 			hide_dependency_lines: true
 			id: "525F86A7BBB260AD"
 			tasks: [
@@ -2599,6 +2601,7 @@
 		}
 		{
 			dependencies: ["388DCD34426BAE36"]
+			description: ["[ \"更强大的胸甲，但一样会被憋死，所以你需要——\", { \"text\": \"太空定制版\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"632D29DA89C3CEA4\" } } ]"]
 			id: "22C91CDFD9C07B97"
 			tasks: [{
 				id: "6802515A6BA93C89"
@@ -2618,6 +2621,11 @@
 			dependencies: [
 				"632D29DA89C3CEA4"
 				"38E57C47A1D6D206"
+			]
+			description: [
+				"这套罗里吧嗦的绿油油的护甲将会是你太空探索下一阶段的主力"
+				""
+				"[ \"但你知道\", { \"text\": \"我要说什么\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5AED06E84B4278D6\" } }, \"，所以你不能止步于此\" ]"
 			]
 			id: "47FDF0B4D055BE01"
 			tasks: [
@@ -2654,6 +2662,7 @@
 				"47FDF0B4D055BE01"
 				"135B35F7619D288E"
 			]
+			description: ["对的，它能存储氧气"]
 			id: "5AED06E84B4278D6"
 			tasks: [{
 				id: "0E7833FD30BA1708"
@@ -2669,6 +2678,11 @@
 		}
 		{
 			dependencies: ["5AED06E84B4278D6"]
+			description: [
+				"想不到有朝一日你会需要装配线来制作一件护甲呢"
+				""
+				"[ \"以及\", { \"text\": \"还是那句话——\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"61A5DA41383BB91A\" } } ]"
+			]
 			id: "583AC7B9DF4FCED9"
 			tasks: [{
 				id: "33A42408D649B9D7"
@@ -2684,6 +2698,7 @@
 		}
 		{
 			dependencies: ["583AC7B9DF4FCED9"]
+			description: ["这个小套装才是你永远的家呀"]
 			id: "61A5DA41383BB91A"
 			tasks: [{
 				id: "1FC53A813D484FDD"

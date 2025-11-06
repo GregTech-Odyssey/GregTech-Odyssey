@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "beyond-the-stars"
-	group: ""
+	group: "48D03BA483B3FA87"
 	icon: {
 		Count: 1
 		id: "ad_astra_rocketed:tier_7_rocket"
@@ -1244,6 +1244,7 @@
 				"73C01EC9D0386D60"
 				"6924A3A7911E2F3B"
 			]
+			description: ["{gto.beyond-the-stars.quests.68063150194F78B2.description0}"]
 			id: "68063150194F78B2"
 			tasks: [{
 				id: "53864576DBC33BC3"
@@ -2521,6 +2522,7 @@
 		}
 		{
 			dependencies: ["7FE2763143958129"]
+			description: ["[\"\", {\"translate\": \"gto.beyond-the-stars.quests.525F86A7BBB260AD.description0.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"388DCD34426BAE36\"}, \"translate\": \"gto.beyond-the-stars.quests.525F86A7BBB260AD.description0.rich_text1\"}]"]
 			hide_dependency_lines: true
 			id: "525F86A7BBB260AD"
 			tasks: [
@@ -2599,6 +2601,7 @@
 		}
 		{
 			dependencies: ["388DCD34426BAE36"]
+			description: ["[\"\", {\"translate\": \"gto.beyond-the-stars.quests.22C91CDFD9C07B97.description0.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"632D29DA89C3CEA4\"}, \"translate\": \"gto.beyond-the-stars.quests.22C91CDFD9C07B97.description0.rich_text1\"}]"]
 			id: "22C91CDFD9C07B97"
 			tasks: [{
 				id: "6802515A6BA93C89"
@@ -2618,6 +2621,11 @@
 			dependencies: [
 				"632D29DA89C3CEA4"
 				"38E57C47A1D6D206"
+			]
+			description: [
+				"{gto.beyond-the-stars.quests.47FDF0B4D055BE01.description0}"
+				""
+				"[\"\", {\"translate\": \"gto.beyond-the-stars.quests.47FDF0B4D055BE01.description1.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"5AED06E84B4278D6\"}, \"translate\": \"gto.beyond-the-stars.quests.47FDF0B4D055BE01.description1.rich_text1\"}, {\"translate\": \"gto.beyond-the-stars.quests.47FDF0B4D055BE01.description1.rich_text2\"}]"
 			]
 			id: "47FDF0B4D055BE01"
 			tasks: [
@@ -2654,6 +2662,7 @@
 				"47FDF0B4D055BE01"
 				"135B35F7619D288E"
 			]
+			description: ["{gto.beyond-the-stars.quests.5AED06E84B4278D6.description0}"]
 			id: "5AED06E84B4278D6"
 			tasks: [{
 				id: "0E7833FD30BA1708"
@@ -2669,6 +2678,11 @@
 		}
 		{
 			dependencies: ["5AED06E84B4278D6"]
+			description: [
+				"{gto.beyond-the-stars.quests.583AC7B9DF4FCED9.description0}"
+				""
+				"[\"\", {\"translate\": \"gto.beyond-the-stars.quests.583AC7B9DF4FCED9.description1.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"61A5DA41383BB91A\"}, \"translate\": \"gto.beyond-the-stars.quests.583AC7B9DF4FCED9.description1.rich_text1\"}]"
+			]
 			id: "583AC7B9DF4FCED9"
 			tasks: [{
 				id: "33A42408D649B9D7"
@@ -2684,6 +2698,7 @@
 		}
 		{
 			dependencies: ["583AC7B9DF4FCED9"]
+			description: ["{gto.beyond-the-stars.quests.61A5DA41383BB91A.description0}"]
 			id: "61A5DA41383BB91A"
 			tasks: [{
 				id: "1FC53A813D484FDD"

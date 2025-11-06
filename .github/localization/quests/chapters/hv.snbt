@@ -1336,18 +1336,6 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["6F760D81DC93ACFB"]
-			id: "5BCEB0CE0C5C49CE"
-			shape: "diamond"
-			tasks: [{
-				id: "760833DBA96DED3D"
-				item: "gtmthings:hv_digital_miner"
-				type: "item"
-			}]
-			x: 1.0d
-			y: 0.0d
-		}
-		{
 			dependencies: ["2FFBF824CC836741"]
 			description: ["{gto.hv.quests.4D1E1C19CF9CD579.description0}"]
 			icon: "minecraft:crying_obsidian"
@@ -1818,11 +1806,11 @@
 				""
 				"{gto.hv.quests.23E859D5CC9E4C8C.description4}"
 				""
-				"{gto.hv.quests.23E859D5CC9E4C8C.description5}"
 				"{@pagebreak}"
+				"{gto.hv.quests.23E859D5CC9E4C8C.description5}"
 				"{gto.hv.quests.23E859D5CC9E4C8C.description6}"
-				"{gto.hv.quests.23E859D5CC9E4C8C.description7}"
 				""
+				"{gto.hv.quests.23E859D5CC9E4C8C.description7}"
 				"{gto.hv.quests.23E859D5CC9E4C8C.description8}"
 				"{gto.hv.quests.23E859D5CC9E4C8C.description9}"
 				"{gto.hv.quests.23E859D5CC9E4C8C.description10}"
@@ -1831,7 +1819,6 @@
 				"{gto.hv.quests.23E859D5CC9E4C8C.description13}"
 				"{gto.hv.quests.23E859D5CC9E4C8C.description14}"
 				"{gto.hv.quests.23E859D5CC9E4C8C.description15}"
-				"{gto.hv.quests.23E859D5CC9E4C8C.description16}"
 			]
 			icon: "gtocore:space_probe_mk1"
 			id: "23E859D5CC9E4C8C"

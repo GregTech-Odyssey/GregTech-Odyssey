@@ -672,7 +672,154 @@
 				}
 				type: "item"
 			}]
+			title: "{gto.shop.quests.3E5BB7F1AA9D1DA8.title}"
 			x: -5.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["7A7DC6205DED9BF3"]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "ad_astra:large_gas_tank"
+				tag: { }
+			}
+			id: "7A42D55E1F746624"
+			rewards: [{
+				id: "0E0CDCA6F43A2F5F"
+				item: {
+					Count: 1
+					id: "ad_astra:large_gas_tank"
+					tag: {
+						BotariumData: {
+							StoredFluids: [{
+								Amount: 3000L
+								Fluid: "ad_astra:oxygen"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 64L
+				id: "4A97EBE84665F3F6"
+				item: {
+					Count: 64
+					id: "gtocore:copper_coin"
+				}
+				type: "item"
+			}]
+			title: "{gto.shop.quests.7A42D55E1F746624.title}"
+			x: -11.5d
+			y: 7.5d
+		}
+		{
+			description: ["{gto.shop.quests.1937F682654E088E.description0}"]
+			icon: {
+				Count: 1
+				id: "gtceu:damascus_steel_mining_hammer"
+				tag: {
+					DisallowContainerItem: 0b
+					Enchantments: [{
+						id: "minecraft:unbreaking"
+						lvl: 3s
+					}]
+					GT.Behaviours: {
+						AoEColumn: 1
+						AoELayer: 0
+						AoERow: 1
+					}
+					GT.Tool: {
+						Damage: 0
+					}
+					HideFlags: 2
+					RepairCost: 1
+				}
+			}
+			id: "1937F682654E088E"
+			rewards: [{
+				id: "786C78C3141A0AE7"
+				item: {
+					Count: 1
+					id: "gtceu:damascus_steel_mining_hammer"
+					tag: {
+						DisallowContainerItem: 0b
+						Enchantments: [{
+							id: "minecraft:unbreaking"
+							lvl: 3s
+						}]
+						GT.Behaviours: {
+							AoEColumn: 1
+							AoELayer: 0
+							AoERow: 1
+						}
+						GT.Tool: {
+							Damage: 0
+						}
+						HideFlags: 2
+						RepairCost: 1
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 48L
+				id: "603C871DD1A1A755"
+				item: {
+					Count: 48
+					id: "gtocore:copper_coin"
+				}
+				type: "item"
+			}]
+			title: "{gto.shop.quests.1937F682654E088E.title}"
+			x: -3.5d
+			y: 5.5d
+		}
+		{
+			description: ["{gto.shop.quests.4DD2F6248773AC53.description0}"]
+			icon: "ad_astra:steel_ingot"
+			id: "4DD2F6248773AC53"
+			rewards: [{
+				count: 32
+				id: "5F371513F5B0CD02"
+				item: "ad_astra:steel_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				count: 128L
+				id: "2AE5A255E23B4D6B"
+				item: {
+					Count: 128
+					id: "gtocore:copper_coin"
+				}
+				type: "item"
+			}]
+			title: "{gto.shop.quests.4DD2F6248773AC53.title}"
+			x: -1.5d
+			y: 5.5d
+		}
+		{
+			description: ["{gto.shop.quests.742D435913111476.description0}"]
+			icon: "gtocore:gto_overseer_coke_lv"
+			id: "742D435913111476"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "795C0F8F43DBBBE7"
+				table_id: 1529030566530829407L
+				type: "random"
+			}]
+			tasks: [{
+				count: 8L
+				id: "38C3EFE318F90A03"
+				item: {
+					Count: 8
+					id: "gtocore:cupronickel_coin"
+				}
+				type: "item"
+			}]
+			title: "{gto.shop.quests.742D435913111476.title}"
+			x: 0.5d
 			y: 5.5d
 		}
 	]
