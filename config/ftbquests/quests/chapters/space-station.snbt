@@ -3,7 +3,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: "square"
 	filename: "space-station"
-	group: ""
+	group: "5EEE1B83CA094132"
 	icon: "gtocore:planet_scan_satellite"
 	id: "3BF7BECF0C9F7ED9"
 	images: [
@@ -24,7 +24,7 @@
 			y: -3.5d
 		}
 	]
-	order_index: 7
+	order_index: 2
 	progression_mode: "linear"
 	quest_links: [{
 		id: "20088B33308BF581"
