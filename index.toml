@@ -50,7 +50,7 @@ hash = "b6260f2ea8342427d43826e8b8fd0464e236c2a6cbef05bb253924dcd5c53c52"
 
 [[files]]
 file = "config/ae2/client.json"
-hash = "0648f91035844c7154ce50a0f7c17ff00a2a601e9dd4917b81d53236618513d9"
+hash = "6625db733ffb958cf41a91999bbf5d88d143f33a6341445634931d51794dc1fe"
 
 [[files]]
 file = "config/ae2/common.json"
@@ -66,7 +66,7 @@ hash = "70dd0c9f135edf560dd337aa40e38b3cce2e9a0a3499d068814fdd9ed56be167"
 
 [[files]]
 file = "config/alltheleaks.json"
-hash = "9c739c55367c8c7352952397528acc31af125f075df77a7055fe7340e02e9834"
+hash = "dc8210666de3b97c04111ece51de8cfd1df0ac64073c4b8c9110958d1ed14bf5"
 
 [[files]]
 file = "config/apotheosis/adventure.cfg"
@@ -1158,7 +1158,7 @@ hash = "fad9aea710ec3508eab562cd8f2b5f8e2dda6ee1c5fb1fe818f90ce253017f66"
 
 [[files]]
 file = "config/modernfix-mixins.properties"
-hash = "f40db40dc41ba14ca23fb15aee2ad345c6d84379c5796f01a9418a2f9e9a67ef"
+hash = "dd90b3af28811875d6c53d16a18ad26304cf4ec89da2133dfc800e1f16513187"
 
 [[files]]
 file = "config/morered-client.toml"
@@ -2431,7 +2431,7 @@ metafile = true
 
 [[files]]
 file = "mods/alltheleaks.pw.toml"
-hash = "b26798ffad97e9625a6653dd647240cad46c3f075680180be43a8fc202c1c82b"
+hash = "7d83338d2e5a1c0f153c08901f9e84fa711bb4a2bfca54e93667d76705b707fe"
 metafile = true
 
 [[files]]
@@ -2870,8 +2870,8 @@ hash = "a1102abb1e6c38a101dddda69acf90d9e73d887c7a43e3a84dd81bde5fbbf37f"
 metafile = true
 
 [[files]]
-file = "mods/gtocore-0.5.0-pre.20.jar"
-hash = "0cd1312f78dd70e1eef71b49fffc2e0f6faa0ba2154c59f73a6f59d98a5d53f8"
+file = "mods/gtocore-0.5.0-pre.21.jar"
+hash = "0e623d6b00b2f5f95c1540cdbc47b3a38700a6d76e685085465981d81f5cc0fb"
 
 [[files]]
 file = "mods/gtonativelib-1.0.jar"
@@ -2984,7 +2984,7 @@ metafile = true
 
 [[files]]
 file = "mods/modernfix.pw.toml"
-hash = "7172839c89fed8a57db7ea0fca1bf4305e2c76e15f2277a9e66e6c9aaace4374"
+hash = "53632bd1bded325bc255b1d219e4dd601a588a27b7862ce89d7e5159331faf77"
 metafile = true
 
 [[files]]
