@@ -24,14 +24,9 @@
 			y: -3.5d
 		}
 	]
-	order_index: 2
+	order_index: 3
 	progression_mode: "linear"
-	quest_links: [{
-		id: "20088B33308BF581"
-		linked_quest: "23E859D5CC9E4C8C"
-		x: 5.0d
-		y: -6.0d
-	}]
+	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["23E859D5CC9E4C8C"]
@@ -198,6 +193,83 @@
 			}]
 			x: 16.0d
 			y: -10.0d
+		}
+		{
+			dependencies: ["310210D2AD9515E3"]
+			description: [
+				"漂浮在&6太空&r中，&d几乎为零的重力环境&r能改善一些加工条件，使得某些高级材料的制作成为可能"
+				""
+				"不但如此，&e光伏电站&r在&6太空&r能得到最高的发电量"
+				""
+				"&l但是&r，将机器裸露在太空中是一个危险的决定，严苛的工作环境让绝大多数机器都无法正常的工作"
+				""
+				"&7能够承受住太空恶劣环境的机器均有机器提示标出&r"
+				""
+				"因此，你需要为机器建造一个&6真正的房子&r来让机器得以正常工作"
+				""
+				"[\"你现在可以去\",{ \"text\": \"穹宇居所\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"23E859D5CC9E4C8C\" } },\"章节看看了\"]"
+				"{@pagebreak}"
+				"&d你的第一个空间站（地球）所需材料列表&r"
+				"&8（可在EMI查看每个星球建造空间站所需材料清单）&r"
+				""
+				"空间站 * 1"
+				"洁净不锈钢外壳 *64"
+				"铝合金8090蒙皮机械方块 * 16"
+				"钛合金防护机械外壳 * 32"
+				"铝合金7050支撑机械方块 * 16"
+				"压力容器机械方块 * 16"
+				"过滤器机械方块 * 32"
+				"不锈钢GC-4框架 * 16"
+				"航天器密封机械方块 * 16"
+			]
+			icon: "gtocore:space_probe_mk1"
+			id: "23E859D5CC9E4C8C"
+			shape: "gear"
+			size: 1.5d
+			subtitle: "地轨道长期驻留"
+			tasks: [
+				{
+					dimension: "ad_astra:earth_orbit"
+					icon: "gtocore:space_probe_mk1"
+					id: "775042A87953835E"
+					title: "造访轨道空间站"
+					type: "dimension"
+				}
+				{
+					id: "52738870EC2B4600"
+					type: "checkmark"
+				}
+				{
+					id: "18EFA27B9C6AB7E8"
+					item: "gtocore:space_station"
+					type: "item"
+				}
+			]
+			title: "我们需要一个在太空中的房子"
+			x: 5.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["55369274AB0561DF"]
+			id: "711B491341721F3C"
+			tasks: [{
+				id: "7029F635AFE5C75D"
+				item: "gtocore:space_drone_dock"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["5A9B478B1791A425"]
+			id: "7CE4581B262B540F"
+			tasks: [{
+				id: "352BFFA5CC095106"
+				item: "gtocore:space_station_energy_conversion_module"
+				type: "item"
+			}]
+			x: 15.5d
+			y: -6.5d
 		}
 	]
 	subtitle: ["Aerospace Industry"]

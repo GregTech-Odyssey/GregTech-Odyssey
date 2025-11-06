@@ -25,8 +25,16 @@
 		{
 			id: "26DD69D6B9A64358"
 			linked_quest: "4AF39FF336EA1BF4"
+			shape: "diamond"
 			x: -2.0d
 			y: 1.5d
+		}
+		{
+			id: "391E63C2F15DE329"
+			linked_quest: "1A00DF4BC5C15459"
+			shape: "diamond"
+			x: -3.5d
+			y: 0.0d
 		}
 	]
 	quests: [
@@ -456,41 +464,6 @@
 			}]
 			x: 6.5d
 			y: -5.0d
-		}
-		{
-			dependencies: ["1CA6E1AD1909373A"]
-			description: [
-				"通电后自动刷新神化BOSS，推荐搭建一个牢房"
-				""
-				"作为获取&5玄奥沙&r和&6神铸珍珠&r的唯一来源"
-				""
-				"主世界只能召唤出&2罕见&r和&b珍贵&r等级BOSS"
-				"下界召唤上限为&5史诗&r等级"
-				"末地召唤上限为&6传说&r等级"
-			]
-			id: "6EEEF20760158257"
-			rewards: [{
-				id: "0105CDF84D549110"
-				item: "gtocore:lv_power_amplifiers"
-				type: "item"
-			}]
-			shape: "diamond"
-			subtitle: "请确保你能干碎他们"
-			tasks: [
-				{
-					id: "392FFF20B3F662B7"
-					item: "gtocore:boss_summoner"
-					type: "item"
-				}
-				{
-					id: "5EF85CF9912D529F"
-					item: "gtceu:ulv_energy_input_hatch"
-					type: "item"
-				}
-			]
-			title: "&4BOSS召唤器&r"
-			x: -3.5d
-			y: 0.0d
 		}
 		{
 			dependencies: ["201D44A832961946"]
@@ -1345,6 +1318,8 @@
 		{
 			dependencies: ["0FBE7318DFBA700E"]
 			id: "6CC4173B5BF99920"
+			shape: "diamond"
+			size: 1.5d
 			subtitle: "解放双手"
 			tasks: [{
 				id: "74099FBE9992D542"

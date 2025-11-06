@@ -360,11 +360,7 @@
 		}
 		{
 			dependencies: ["0BB1BDBE8BB307E4"]
-			description: [
-				"别忘了穿上&bT4&r器官"
-				""
-				"你可能做不出T4器官，想点办法硬顶着，抓只羊回来"
-			]
+			description: ["只需要&bT3&r器官"]
 			hide_dependent_lines: true
 			icon: {
 				Count: 1
