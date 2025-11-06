@@ -223,19 +223,17 @@
 			invisible: true
 			rewards: [{
 				auto: "enabled"
-				id: "0B71079726A3B338"
+				id: "162AA460170C7972"
 				item: {
 					Count: 1
-					id: "avaritia:infinity_totem"
+					id: "minecraft:totem_of_undying"
 					tag: {
-						Damage: 98
 						RepairCost: 0
 						display: {
 							Name: "{\"text\":\"员工生活质量保障证(一次性)\"}"
 						}
 					}
 				}
-				team_reward: false
 				type: "item"
 			}]
 			tasks: [{
