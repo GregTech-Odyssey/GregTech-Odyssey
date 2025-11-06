@@ -646,7 +646,7 @@ hash = "09ff183e061d93b79514bc171bf9118497578757e7a5c45946039487656e2619"
 
 [[files]]
 file = "config/emi.css"
-hash = "5945e3d06950df81f50595bbddbcbc4fa6f3ac7acc2c4fd74c29c0c7849bc3e2"
+hash = "f8f43d6e59323558378c6143afb1693d4bd7db78f023aac0ead3db1d7968541c"
 
 [[files]]
 file = "config/emitrades.json5"
@@ -2870,8 +2870,8 @@ hash = "a1102abb1e6c38a101dddda69acf90d9e73d887c7a43e3a84dd81bde5fbbf37f"
 metafile = true
 
 [[files]]
-file = "mods/gtocore-0.5.0-pre.22.jar"
-hash = "6562c6a030205e38caa058c61604c91c5217af454fc30b208ca081cbba2aa4f1"
+file = "mods/gtocore-0.5.0-pre.23.jar"
+hash = "74b267d613e4a89d59ecd54b3fcd18edaaa0d21dffa6a0325774956f63e87cf3"
 
 [[files]]
 file = "mods/gtonativelib-1.0.jar"
