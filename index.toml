@@ -894,7 +894,7 @@ hash = "55fe03488f8fdec61f8f5f7db65fc0783d6a6897bce43aec8b1ccea67107d53a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/space-station.snbt"
-hash = "7ab73487443cf4a8a416b8b292d3bcc970f5eb6a2812b6189d37d711bb256432"
+hash = "12f4fe1d109034b49d755381b4d75a23bb0549234718bf37f63c8bdefb312f4a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/steam.snbt"
@@ -2870,8 +2870,8 @@ hash = "a1102abb1e6c38a101dddda69acf90d9e73d887c7a43e3a84dd81bde5fbbf37f"
 metafile = true
 
 [[files]]
-file = "mods/gtocore-0.5.0-pre.24.jar"
-hash = "1829b7be1808d2bf993d57cf87a6d676a2ca7b62fd24d2263a5c4c86a8114d07"
+file = "mods/gtocore-0.5.0.jar"
+hash = "9aa188dfb38cf2812c609052c5b1cb747b376c589d2c554cd90f6876299b3c98"
 
 [[files]]
 file = "mods/gtonativelib-1.0.jar"
