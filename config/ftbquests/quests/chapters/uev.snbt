@@ -5,6 +5,48 @@
 	group: "2A1218851E38A2EE"
 	icon: "gtocore:sps_crafting"
 	id: "6FF8BEC3E0C25C4C"
+	images: [
+		{
+			height: 1.0d
+			image: "gtocore:item/circuit/suprachronal_uev"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			image: "gtocore:item/circuit/suprachronal_uiv"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			image: "gtocore:item/circuit/suprachronal_uxv"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			image: "gtocore:item/circuit/suprachronal_opv"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			image: "gtocore:item/circuit/suprachronal_max"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: -4.5d
+		}
+	]
 	order_index: 12
 	quest_links: [{
 		id: "2C7D4BE558B938DF"
@@ -17,7 +59,6 @@
 			dependencies: ["4BEE8DA7018CD14D"]
 			description: ["你可以开始着手把机器都换成巨构了，这将大大提升你的生产效率"]
 			id: "597E3AA1CBEE9598"
-			optional: true
 			tasks: [{
 				id: "0D67CB8A089891BB"
 				item: "gtocore:field_extruder_factory"
@@ -25,10 +66,10 @@
 			}]
 			title: "巨构们"
 			x: -6.0d
-			y: -4.0d
+			y: -6.0d
 		}
 		{
-			dependencies: ["597E3AA1CBEE9598"]
+			dependencies: ["6C40812AC329D3E3"]
 			id: "0E1C854C0F7FF62F"
 			optional: true
 			subtitle: "毕业了"
@@ -37,14 +78,11 @@
 				item: "gtmthings:creative_laser_hatch"
 				type: "item"
 			}]
-			x: -4.0d
+			x: 6.0d
 			y: -4.0d
 		}
 		{
-			dependencies: [
-				"0E1C854C0F7FF62F"
-				"597E3AA1CBEE9598"
-			]
+			dependencies: ["0E1C854C0F7FF62F"]
 			id: "67616091B5362D24"
 			optional: true
 			subtitle: "附加题"
@@ -53,7 +91,7 @@
 				item: "avaritia:enhancement_core"
 				type: "item"
 			}]
-			x: -2.0d
+			x: 8.0d
 			y: -4.0d
 		}
 		{
@@ -71,7 +109,7 @@
 				id: "47512672063DD716"
 				type: "checkmark"
 			}]
-			x: -8.0d
+			x: -6.0d
 			y: -4.0d
 		}
 		{
@@ -84,13 +122,13 @@
 				item: "gtocore:lhc"
 				type: "item"
 			}]
-			x: -5.0d
-			y: -5.0d
+			x: -8.0d
+			y: -6.0d
 		}
 		{
-			description: ["六级数据载体"]
 			id: "79F7E5BB7025ED2D"
 			invisible: true
+			subtitle: "六级数据载体"
 			tasks: [{
 				id: "4D04F650E3823FC9"
 				item: {
@@ -100,13 +138,13 @@
 				}
 				type: "item"
 			}]
-			x: -6.0d
-			y: -2.5d
+			x: -8.0d
+			y: -0.5d
 		}
 		{
-			description: ["七级数据载体"]
 			id: "078689C5C9FABDE7"
 			invisible: true
+			subtitle: "七级数据载体(最高级)"
 			tasks: [{
 				id: "1BD09C364BE0EEDF"
 				item: {
@@ -116,13 +154,13 @@
 				}
 				type: "item"
 			}]
-			x: -4.0d
-			y: -2.5d
+			x: -6.0d
+			y: -0.5d
 		}
 		{
-			description: ["五级数据载体"]
 			id: "7448C7335542B7A5"
 			invisible: true
+			subtitle: "五级数据载体"
 			tasks: [{
 				id: "25565AFB6E00D585"
 				item: {
@@ -132,8 +170,262 @@
 				}
 				type: "item"
 			}]
-			x: -8.0d
-			y: -2.5d
+			x: -10.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["597E3AA1CBEE9598"]
+			description: ["单独提一下这个机器，你需要&6重夸克简并物质&r才可以制作其方块中的夸克管道，它要到UIV阶段才能制作"]
+			id: "520DEEFAD2635C1B"
+			tasks: [{
+				id: "6DC4D8AB9B60B61D"
+				item: "gtocore:nyarlathoteps_tentacle"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0DC13F257B0314CC"]
+			id: "6C40812AC329D3E3"
+			tasks: [{
+				id: "059AC9026C52C77D"
+				item: "gtocore:door_of_create"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4BEE8DA7018CD14D"]
+			id: "56BEFB6D64D496A1"
+			tasks: [{
+				id: "5BE0A80A07C306BA"
+				item: "gtocore:exotic_mainframe"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["56BEFB6D64D496A1"]
+			id: "4AF94B83FBDD2E54"
+			tasks: [{
+				id: "1EBA7FD4DF1D80C3"
+				item: "gtocore:cosmic_mainframe"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4AF94B83FBDD2E54"]
+			id: "7B3C0DB7C1F11692"
+			tasks: [{
+				id: "5675D955550B27D3"
+				item: "gtocore:supracausal_mainframe"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7B3C0DB7C1F11692"]
+			description: ["并不是必需品，但是可以低价大批量制作"]
+			id: "284111931F2808B4"
+			optional: true
+			tasks: [{
+				id: "67D16B7E9DAB2748"
+				item: "gtocore:suprachronal_circuit_max"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			id: "6974B0DF6C545133"
+			tasks: [{
+				id: "6EC66EADBAA49A16"
+				item: "gtocore:quantum_force_transformer"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6C40812AC329D3E3"]
+			description: ["由于星体套被删了，常规手段进不去创造维度，你可以穿着无尽套传送进去或者干脆直接掏"]
+			id: "366ADFB6B1790C39"
+			tasks: [{
+				id: "692825417E482701"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7B3C0DB7C1F11692"]
+			id: "0DC13F257B0314CC"
+			tasks: [{
+				id: "1109E4CD5BBDC47E"
+				item: "gtocore:eye_of_harmony"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4BEE8DA7018CD14D"]
+			description: ["必须制作盖亚魂循环，请参考魔法线"]
+			id: "5876D6BFFD8AA7F7"
+			tasks: [{
+				id: "32CCF029EA0AA6D4"
+				item: "gtocore:transcending_matter_bucket"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			id: "0DBA04D875077E85"
+			size: 1.0d
+			tasks: [{
+				id: "4166471E926FD3E8"
+				item: "gtocore:uev_fusion_reactor"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			id: "08AAD09E235D6617"
+			tasks: [{
+				id: "35BF370D10E08FA5"
+				item: "gtocore:sps_crafting"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			id: "7BD55BFF5151DA9F"
+			tasks: [{
+				id: "255F0990785DDC99"
+				item: "gtocore:bedrock_drilling_rig"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			id: "14DDDA9BD712611F"
+			tasks: [{
+				id: "0730081F9FCD9086"
+				item: "gtocore:mass_fabricator"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			id: "1911FDADAA166B85"
+			tasks: [{
+				id: "0697D6FE879D6DEC"
+				item: "gtocore:space_probe_surface_reception"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			id: "3172EAAAC2652CEF"
+			tasks: [{
+				id: "4D43D4EC950564B5"
+				item: "gtocore:dyson_sphere_launch_silo"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			id: "5880AE471C103D3C"
+			tasks: [{
+				id: "15BA519287553780"
+				item: "gtocore:magnetic_confinement_dimensionality_shock_device"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			id: "3C0B952E0CC00F3F"
+			tasks: [{
+				id: "4B0B2D2EF02D0338"
+				item: "gtocore:atomic_energy_excitation_plant"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.5d
+		}
+		{
+			id: "7C31A4CE4160F9FB"
+			tasks: [{
+				id: "6E731BD0073D7D68"
+				item: "gtocore:star_ultimate_material_forge_factory"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			id: "06162F3F043152C0"
+			tasks: [{
+				id: "16E1CE617FCA9C02"
+				item: "gtocore:hyperdimensional_plasma_fusion_core"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 5.5d
+		}
+		{
+			id: "2BCC50558D39DC0F"
+			tasks: [{
+				id: "5F1BB385F4795990"
+				item: "gtocore:dragon_egg_copier"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			id: "59C507864EF22311"
+			tasks: [{
+				id: "678A776140CA8468"
+				item: "gtocore:neutron_compressor"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			id: "632E5DF6035A2575"
+			tasks: [{
+				id: "29C2B70F54EA8054"
+				item: "gtocore:annihilate_generator"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			id: "2E3713C37C705740"
+			tasks: [{
+				id: "68EA652AC587DBDE"
+				item: "gtocore:comprehensive_tombarthite_processing_facility"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.0d
 		}
 	]
 	subtitle: ["Tier10-UEV"]

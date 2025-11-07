@@ -7,75 +7,75 @@
 	id: "19CB76240F7730C8"
 	images: [
 		{
-			height: 1.1d
+			height: 1.0d
 			image: "xtonesreworked:block/bitt/12"
-			rotation: 0.0d
-			width: 1.1d
+			rotation: 45.0d
+			width: 1.0d
+			x: 3.5d
+			y: -8.0d
+		}
+		{
+			color: 16711935
+			height: 1.0d
+			image: "ftbquests:block/barrier_open"
+			order: 1
+			rotation: 45.0d
+			width: 1.0d
+			x: 3.5d
+			y: -8.0d
+		}
+		{
+			height: 1.0d
+			image: "xtonesreworked:block/bitt/12"
+			rotation: 45.0d
+			width: 1.0d
 			x: 2.5d
 			y: -8.0d
 		}
 		{
 			color: 16711935
-			height: 1.1d
+			height: 1.0d
 			image: "ftbquests:block/barrier_open"
 			order: 1
-			rotation: 0.0d
-			width: 1.1d
+			rotation: 45.0d
+			width: 1.0d
 			x: 2.5d
 			y: -8.0d
 		}
 		{
-			height: 1.1d
+			color: 16711935
+			height: 1.0d
+			image: "ftbquests:block/barrier_open"
+			order: 1
+			rotation: 45.0d
+			width: 1.0d
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
 			image: "xtonesreworked:block/bitt/12"
-			rotation: 0.0d
-			width: 1.1d
+			rotation: 45.0d
+			width: 1.0d
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "xtonesreworked:block/bitt/12"
+			rotation: 45.0d
+			width: 1.0d
 			x: 1.5d
 			y: -8.0d
 		}
 		{
 			color: 16711935
-			height: 1.1d
+			height: 1.0d
 			image: "ftbquests:block/barrier_open"
 			order: 1
-			rotation: 0.0d
-			width: 1.1d
+			rotation: 45.0d
+			width: 1.0d
 			x: 1.5d
-			y: -8.0d
-		}
-		{
-			color: 16711935
-			height: 1.1d
-			image: "ftbquests:block/barrier_open"
-			order: 1
-			rotation: 0.0d
-			width: 1.1d
-			x: 9.0d
-			y: 1.5d
-		}
-		{
-			height: 1.1d
-			image: "xtonesreworked:block/bitt/12"
-			rotation: 0.0d
-			width: 1.1d
-			x: 9.0d
-			y: 1.5d
-		}
-		{
-			height: 1.1d
-			image: "xtonesreworked:block/bitt/12"
-			rotation: 0.0d
-			width: 1.1d
-			x: 0.5d
-			y: -8.0d
-		}
-		{
-			color: 16711935
-			height: 1.1d
-			image: "ftbquests:block/barrier_open"
-			order: 1
-			rotation: 0.0d
-			width: 1.1d
-			x: 0.5d
 			y: -8.0d
 		}
 	]
@@ -92,29 +92,35 @@
 		{
 			id: "0DAFE054BF92FA6E"
 			linked_quest: "0BC456B4331C09F5"
-			shape: "square"
-			x: 1.5d
+			shape: "diamond"
+			x: 2.5d
 			y: -8.0d
 		}
 		{
 			id: "5F48CB73E3456910"
 			linked_quest: "430034AB98D8453B"
-			shape: "square"
-			x: 2.5d
+			shape: "diamond"
+			x: 3.5d
 			y: -8.0d
 		}
 		{
 			id: "0CB3E6856E9E362B"
 			linked_quest: "17CEA439C0110AFA"
-			shape: "square"
+			shape: "diamond"
 			x: 9.0d
-			y: 1.5d
+			y: 3.0d
 		}
 		{
 			id: "31FDB6095F1DCD59"
 			linked_quest: "498909CBDFB62BF6"
-			shape: "square"
-			x: 0.5d
+			shape: "diamond"
+			x: 1.5d
+			y: -8.0d
+		}
+		{
+			id: "1DBC73565AB71C40"
+			linked_quest: "1BDAC7D9FED887B2"
+			x: 5.0d
 			y: -8.0d
 		}
 	]
@@ -127,14 +133,11 @@
 				item: "gtceu:raw_naquadah"
 				type: "item"
 			}]
-			x: 0.0d
+			x: 1.0d
 			y: 0.5d
 		}
 		{
-			dependencies: [
-				"0985154AE9169549"
-				"3DA166631D597693"
-			]
+			dependencies: ["3DA166631D597693"]
 			id: "459F5A53179FAC2A"
 			shape: "hexagon"
 			size: 1.5d
@@ -143,7 +146,7 @@
 				item: "gtocore:neutron_activator"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 2.5d
 			y: -4.5d
 		}
 		{
@@ -155,7 +158,7 @@
 				item: "gtceu:naquadah_ingot"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 2.5d
 			y: 0.5d
 		}
 		{
@@ -179,7 +182,7 @@
 				item: "gtceu:naquadah_coil_block"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 2.5d
 			y: -1.5d
 		}
 		{
@@ -194,7 +197,7 @@
 				item: "gtceu:trinium_ingot"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 2.5d
 			y: -3.0d
 		}
 		{
@@ -244,13 +247,14 @@
 				item: "gtceu:indium_tin_barium_titanium_cuprate_ingot"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 2.5d
 			y: 5.0d
 		}
 		{
 			dependencies: [
 				"7C9C5AA8812891CC"
 				"7EA0644BB352BBB5"
+				"63773B34911D0234"
 			]
 			description: [
 				"{gto.luv.quests.7AD94105147C5940.description0}"
@@ -489,7 +493,7 @@
 			}]
 			title: "{gto.luv.quests.464D2CB6C35A56F0.title}"
 			x: 14.5d
-			y: 0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["464D2CB6C35A56F0"]
@@ -504,7 +508,7 @@
 			}]
 			title: "{gto.luv.quests.5A3B1B492A49AB29.title}"
 			x: 14.5d
-			y: 2.75d
+			y: 2.4d
 		}
 		{
 			dependencies: [
@@ -551,7 +555,7 @@
 					type: "item"
 				}
 			]
-			x: -0.5d
+			x: 0.0d
 			y: 5.0d
 		}
 		{
@@ -566,10 +570,7 @@
 			y: -1.5d
 		}
 		{
-			dependencies: [
-				"1156B92F11DA73B6"
-				"0BB1BDBE8BB307E4"
-			]
+			dependencies: ["1156B92F11DA73B6"]
 			description: ["{gto.luv.quests.722C24B0C50641D1.description0}"]
 			id: "722C24B0C50641D1"
 			shape: "hexagon"
@@ -626,7 +627,7 @@
 				item: "gtceu:luv_assembler"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 2.5d
 			y: -6.5d
 		}
 		{
@@ -639,7 +640,7 @@
 				item: "gtocore:integral_framework_luv"
 				type: "item"
 			}]
-			x: 0.5d
+			x: 1.0d
 			y: -6.5d
 		}
 		{
@@ -668,23 +669,6 @@
 		}
 		{
 			dependencies: ["228B283B5477879B"]
-			description: ["{gto.luv.quests.63773B34911D0234.description0}"]
-			id: "63773B34911D0234"
-			shape: "hexagon"
-			tasks: [{
-				id: "726D0A6B91C05586"
-				item: {
-					Count: 1
-					id: "gtceu:data_orb"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: 9.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["63773B34911D0234"]
 			description: [
 				"{gto.luv.quests.3E34FFB5E5A60909.description0}"
 				""
@@ -725,7 +709,7 @@
 				item: "gtceu:naquadah_boule"
 				type: "item"
 			}]
-			x: 0.0d
+			x: 1.0d
 			y: -1.5d
 		}
 		{
@@ -763,7 +747,7 @@
 				item: "gtceu:indium_tin_barium_titanium_cuprate_single_wire"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 2.5d
 			y: 3.0d
 		}
 		{
@@ -954,7 +938,7 @@
 				item: "gtceu:tiny_polonium_dust"
 				type: "item"
 			}]
-			x: 0.0d
+			x: 1.0d
 			y: -4.5d
 		}
 		{
@@ -977,7 +961,7 @@
 				item: "gtocore:simple_fiber_optic_rough"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 2.5d
 			y: 7.5d
 		}
 		{
@@ -990,11 +974,14 @@
 				item: "gtocore:drawing_tower"
 				type: "item"
 			}]
-			x: -0.5d
+			x: 0.0d
 			y: 7.5d
 		}
 		{
-			dependencies: ["7EA0644BB352BBB5"]
+			dependencies: [
+				"7EA0644BB352BBB5"
+				"63773B34911D0234"
+			]
 			description: [
 				"{gto.luv.quests.777A7D91695E8720.description0}"
 				""
@@ -1034,8 +1021,16 @@
 			y: 7.5d
 		}
 		{
-			dependencies: ["7AD94105147C5940"]
-			description: ["{gto.luv.quests.7FBA4F73F200F0D5.description0}"]
+			dependencies: [
+				"7E2ACD2C892A1CE8"
+				"777A7D91695E8720"
+				"228B283B5477879B"
+			]
+			description: [
+				"{gto.luv.quests.7FBA4F73F200F0D5.description0}"
+				""
+				"{gto.luv.quests.7FBA4F73F200F0D5.description1}"
+			]
 			id: "7FBA4F73F200F0D5"
 			tasks: [
 				{
@@ -1050,8 +1045,8 @@
 				}
 			]
 			title: "{gto.luv.quests.7FBA4F73F200F0D5.title}"
-			x: 5.0d
-			y: 3.0d
+			x: 10.5d
+			y: 6.25d
 		}
 		{
 			dependencies: ["05EB6CDF13762280"]
@@ -1063,6 +1058,34 @@
 			}]
 			x: 16.0d
 			y: -2.0d
+		}
+		{
+			dependencies: [
+				"7EA0644BB352BBB5"
+				"7AD94105147C5940"
+			]
+			description: [
+				"{gto.luv.quests.7E2ACD2C892A1CE8.description0}"
+				""
+				"{gto.luv.quests.7E2ACD2C892A1CE8.description1}"
+			]
+			hide_dependent_lines: true
+			id: "7E2ACD2C892A1CE8"
+			tasks: [
+				{
+					id: "1742E72F68515489"
+					item: "gtceu:data_transmitter_hatch"
+					type: "item"
+				}
+				{
+					id: "33755B59E4D16222"
+					item: "gtceu:data_receiver_hatch"
+					type: "item"
+				}
+			]
+			title: "{gto.luv.quests.7E2ACD2C892A1CE8.title}"
+			x: 6.5d
+			y: 6.25d
 		}
 	]
 	subtitle: ["{gto.luv.subtitle0}"]

@@ -7,76 +7,76 @@
 	id: "54FF22C8E901E6B9"
 	images: [
 		{
-			height: 1.1d
+			height: 1.0d
 			image: "xtonesreworked:block/bitt/12"
-			rotation: 0.0d
-			width: 1.1d
-			x: 1.0d
-			y: -13.5d
-		}
-		{
-			height: 1.1d
-			image: "xtonesreworked:block/bitt/12"
-			rotation: 0.0d
-			width: 1.1d
-			x: 2.0d
-			y: -13.5d
+			rotation: 45.0d
+			width: 1.0d
+			x: 2.5d
+			y: -1.0d
 		}
 		{
 			color: 16711935
-			height: 1.1d
+			height: 1.0d
 			image: "ftbquests:block/barrier_open"
 			order: 1
-			rotation: 0.0d
-			width: 1.1d
-			x: 1.0d
-			y: -13.5d
+			rotation: 45.0d
+			width: 1.0d
+			x: 2.5d
+			y: -1.0d
 		}
 		{
-			color: 16711935
-			height: 1.1d
-			image: "ftbquests:block/barrier_open"
-			order: 1
-			rotation: 0.0d
-			width: 1.1d
-			x: 2.0d
-			y: -13.5d
-		}
-		{
-			color: 16711935
-			height: 1.1d
-			image: "ftbquests:block/barrier_open"
-			order: 1
-			rotation: 0.0d
-			width: 1.1d
-			x: 1.0d
-			y: -1.5d
-		}
-		{
-			color: 16711935
-			height: 1.1d
-			image: "ftbquests:block/barrier_open"
-			order: 1
-			rotation: 0.0d
-			width: 1.1d
-			x: 2.0d
-			y: -1.5d
-		}
-		{
-			height: 1.1d
+			height: 1.0d
 			image: "xtonesreworked:block/bitt/12"
-			rotation: 0.0d
-			width: 1.1d
-			x: 1.0d
-			y: -1.5d
+			rotation: 45.0d
+			width: 1.0d
+			x: 1.25d
+			y: -1.0d
 		}
 		{
-			height: 1.1d
+			color: 16711935
+			height: 1.0d
+			image: "ftbquests:block/barrier_open"
+			order: 1
+			rotation: 45.0d
+			width: 1.0d
+			x: 1.25d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
 			image: "xtonesreworked:block/bitt/12"
-			rotation: 0.0d
-			width: 1.1d
-			x: 2.0d
-			y: -1.5d
+			rotation: 45.0d
+			width: 1.0d
+			x: 1.5d
+			y: -13.0d
+		}
+		{
+			color: 16711935
+			height: 1.0d
+			image: "ftbquests:block/barrier_open"
+			order: 1
+			rotation: 45.0d
+			width: 1.0d
+			x: 1.5d
+			y: -13.0d
+		}
+		{
+			height: 1.0d
+			image: "xtonesreworked:block/bitt/12"
+			rotation: 45.0d
+			width: 1.0d
+			x: 2.75d
+			y: -13.0d
+		}
+		{
+			color: 16711935
+			height: 1.0d
+			image: "ftbquests:block/barrier_open"
+			order: 1
+			rotation: 45.0d
+			width: 1.0d
+			x: 2.75d
+			y: -13.0d
 		}
 	]
 	order_index: 6
@@ -90,44 +90,38 @@
 			y: -11.0d
 		}
 		{
-			id: "7D1CA4A939A02320"
-			linked_quest: "21624A4965D8D2D7"
-			x: 6.0d
-			y: -8.0d
-		}
-		{
 			id: "4C16FF45DEA84C8F"
 			linked_quest: "5808E00A58A9F4EE"
-			x: 12.0d
+			x: 13.0d
 			y: -2.0d
 		}
 		{
 			id: "50DE63BF29511D2E"
 			linked_quest: "69DF9DE9F7176FD0"
-			shape: "square"
-			x: 2.0d
-			y: -13.5d
+			shape: "diamond"
+			x: 2.75d
+			y: -13.0d
 		}
 		{
 			id: "46C3F904D3DBAD79"
 			linked_quest: "2DAEB70539AACE1A"
-			shape: "square"
-			x: 1.0d
-			y: -13.5d
+			shape: "diamond"
+			x: 1.5d
+			y: -13.0d
 		}
 		{
 			id: "160EF833BB857B97"
 			linked_quest: "79B00A56EED55DBD"
-			shape: "square"
-			x: 1.0d
-			y: -1.5d
+			shape: "diamond"
+			x: 1.25d
+			y: -1.0d
 		}
 		{
 			id: "749B7F8089170DB1"
 			linked_quest: "31BA74442F9E953E"
-			shape: "square"
-			x: 2.0d
-			y: -1.5d
+			shape: "diamond"
+			x: 2.5d
+			y: -1.0d
 		}
 		{
 			id: "38034C2D7E0BA13A"
@@ -135,6 +129,12 @@
 			shape: "diamond"
 			x: 3.0d
 			y: -3.0d
+		}
+		{
+			id: "52FFEB1F3F4773D7"
+			linked_quest: "23E859D5CC9E4C8C"
+			x: 6.5d
+			y: -8.0d
 		}
 	]
 	quests: [
@@ -155,7 +155,7 @@
 				type: "item"
 			}]
 			title: "{gto.ev.quests.1CF7845875EEFA3B.title}"
-			x: 10.5d
+			x: 11.0d
 			y: -9.0d
 		}
 		{
@@ -205,7 +205,7 @@
 				title: "{gto.ev.quests.04C8A65088BA2229.tasks.00EC3AC82DC68B84.title}"
 				type: "dimension"
 			}]
-			x: 8.0d
+			x: 8.5d
 			y: -11.0d
 		}
 		{
@@ -223,7 +223,7 @@
 					type: "item"
 				}
 			]
-			x: 8.0d
+			x: 8.5d
 			y: -8.5d
 		}
 		{
@@ -241,7 +241,7 @@
 				item: "gtceu:tungsten_dust"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 8.5d
 			y: -6.5d
 		}
 		{
@@ -254,7 +254,7 @@
 				item: "gtceu:tungsten_steel_ingot"
 				type: "item"
 			}]
-			x: 10.5d
+			x: 11.0d
 			y: -6.5d
 		}
 		{
@@ -272,7 +272,7 @@
 				item: "gtocore:water_purification_plant"
 				type: "item"
 			}]
-			x: 9.5d
+			x: 10.5d
 			y: 1.5d
 		}
 		{
@@ -332,7 +332,7 @@
 				}
 			]
 			title: "{gto.ev.quests.38E57C47A1D6D206.title}"
-			x: 8.0d
+			x: 8.5d
 			y: -2.0d
 		}
 		{
@@ -340,7 +340,6 @@
 				"38E57C47A1D6D206"
 				"7ABCF4826CC6154B"
 			]
-			description: [""]
 			id: "44A1BC4F5F9D8F30"
 			min_required_dependencies: 1
 			shape: "hexagon"
@@ -350,7 +349,7 @@
 				item: "gtceu:rtm_alloy_ingot"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 8.5d
 			y: -4.5d
 		}
 		{
@@ -565,7 +564,7 @@
 			}]
 			title: "{gto.ev.quests.5B98FF5DDD4B2629.title}"
 			x: -0.5d
-			y: -1.5d
+			y: -1.0d
 		}
 		{
 			dependencies: [
@@ -590,7 +589,7 @@
 				}
 				type: "item"
 			}]
-			x: 10.5d
+			x: 11.0d
 			y: -4.5d
 		}
 		{
@@ -601,8 +600,8 @@
 				item: "ad_astra:raw_desh"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 0.0d
+			x: 9.72d
+			y: -0.2d
 		}
 		{
 			dependencies: [
@@ -618,7 +617,7 @@
 				item: "ad_astra:desh_ingot"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 8.5d
 			y: 1.5d
 		}
 		{
@@ -631,7 +630,7 @@
 				item: "gtocore:clarifier_purification_unit"
 				type: "item"
 			}]
-			x: 11.0d
+			x: 12.5d
 			y: 1.5d
 		}
 		{
@@ -651,8 +650,8 @@
 					type: "checkmark"
 				}
 			]
-			x: 11.0d
-			y: 3.0d
+			x: 12.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["70ECB812598A4BEC"]
@@ -662,8 +661,8 @@
 				item: "gtceu:mpic_chip"
 				type: "item"
 			}]
-			x: 12.5d
-			y: 3.0d
+			x: 10.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["51E5257D17BF1D9D"]
@@ -674,14 +673,14 @@
 			]
 			id: "50F2DACFDE9119DF"
 			shape: "hexagon"
-			size: 1.5d
+			size: 2.0d
 			tasks: [{
 				id: "084E3BA73DE24B9C"
 				item: "gtceu:ev_energy_input_hatch"
 				type: "item"
 			}]
-			x: 12.5d
-			y: 1.5d
+			x: 8.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["5612C7735BC4F5BC"]
@@ -717,7 +716,7 @@
 				item: "gtceu:uranium_triplatinum_ingot"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 2.0d
 			y: 1.5d
 		}
 		{
@@ -725,6 +724,7 @@
 				"249A4B2F900AA6F1"
 				"4B4C62CD6455641C"
 				"47346E3BA7CD0E3B"
+				"50F2DACFDE9119DF"
 			]
 			description: ["{gto.ev.quests.6FFA3DE7A0920B7A.description0}"]
 			icon: {
@@ -752,6 +752,7 @@
 				"4B4C62CD6455641C"
 				"5B98FF5DDD4B2629"
 				"67E7B62710A78614"
+				"78988A24B63C1D8A"
 			]
 			description: [
 				"{gto.ev.quests.7323C9DD52244FA0.description0}"
@@ -790,7 +791,7 @@
 		{
 			dependencies: [
 				"038C1E186FAF47D6"
-				"21624A4965D8D2D7"
+				"23E859D5CC9E4C8C"
 			]
 			description: ["{gto.ev.quests.789B188B05759151.description0}"]
 			id: "789B188B05759151"
@@ -801,7 +802,7 @@
 				item: "gtceu:quantum_eye"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 5.0d
 			y: -8.0d
 		}
 		{
@@ -812,7 +813,7 @@
 				item: "gtceu:hv_field_generator"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 5.0d
 			y: -9.5d
 		}
 		{
@@ -830,7 +831,7 @@
 				type: "item"
 			}]
 			x: -2.25d
-			y: -3.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["2F6C81E3B10365E8"]
@@ -844,7 +845,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: -3.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["63B3B1533377F7BA"]
@@ -859,7 +860,7 @@
 				type: "item"
 			}]
 			x: -2.25d
-			y: -5.25d
+			y: -2.75d
 		}
 		{
 			dependencies: ["5B243900BEDF71CA"]
@@ -878,7 +879,7 @@
 				title: "{gto.ev.quests.4D36C61E2AF3205F.tasks.731D6EDCD7524409.title}"
 				type: "dimension"
 			}]
-			x: 10.5d
+			x: 11.0d
 			y: -2.0d
 		}
 		{
@@ -889,7 +890,7 @@
 				item: "gtceu:ev_emitter"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 3.5d
 			y: -8.0d
 		}
 		{
@@ -900,7 +901,7 @@
 				item: "gtceu:ev_sensor"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 4.0d
 			y: -9.0d
 		}
 		{
@@ -919,7 +920,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 12.0d
+			x: 13.0d
 			y: -4.5d
 		}
 		{
@@ -971,7 +972,7 @@
 				item: "gtocore:vibrant_photovoltaic_power_station"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 13.0d
 			y: -6.5d
 		}
 		{
@@ -1030,7 +1031,7 @@
 				type: "item"
 			}]
 			x: -2.25d
-			y: -1.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["2F6C81E3B10365E8"]
@@ -1044,7 +1045,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: -1.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["2F6C81E3B10365E8"]
@@ -1061,7 +1062,6 @@
 		}
 		{
 			dependencies: ["34AFC3B776E00E48"]
-			description: [""]
 			id: "3C7AE4505ACE7C80"
 			subtitle: "{gto.ev.quests.3C7AE4505ACE7C80.subtitle}"
 			tasks: [{
@@ -1069,7 +1069,7 @@
 				item: "gtceu:uranium_dust"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 2.0d
 			y: 3.0d
 		}
 		{
@@ -1088,7 +1088,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 1.0d
+			x: 2.0d
 			y: 5.0d
 		}
 		{
@@ -1107,7 +1107,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 0.5d
+			x: 1.5d
 			y: 4.0d
 		}
 		{
@@ -1126,7 +1126,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 1.5d
+			x: 2.5d
 			y: 4.0d
 		}
 		{
@@ -1145,7 +1145,7 @@
 					type: "item"
 				}
 			]
-			x: 1.0d
+			x: 2.0d
 			y: 6.5d
 		}
 		{
@@ -1163,7 +1163,6 @@
 			y: 6.5d
 		}
 		{
-			dependencies: ["21624A4965D8D2D7"]
 			description: ["{gto.ev.quests.67E7B62710A78614.description0}"]
 			hide_dependency_lines: true
 			id: "67E7B62710A78614"
@@ -1207,7 +1206,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: -13.5d
+			y: -13.0d
 		}
 		{
 			dependencies: ["08891CB1BAFA5515"]
@@ -1250,7 +1249,7 @@
 				}
 				type: "item"
 			}]
-			x: 5.25d
+			x: 6.0d
 			y: -11.25d
 		}
 		{
@@ -1264,8 +1263,8 @@
 				item: "gtceu:cleaning_maintenance_hatch"
 				type: "item"
 			}]
-			x: 3.25d
-			y: -11.75d
+			x: 4.0d
+			y: -11.25d
 		}
 		{
 			dependencies: ["32B3E6812521AB70"]
@@ -1295,6 +1294,36 @@
 			}]
 			x: 3.0d
 			y: -10.0d
+		}
+		{
+			dependencies: ["50F2DACFDE9119DF"]
+			hide_dependency_lines: true
+			id: "78988A24B63C1D8A"
+			tasks: [{
+				id: "0A2676D719E890B8"
+				item: "gtceu:iridium_ingot"
+				type: "item"
+			}]
+			x: -2.25d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3C2FA92DB0A38D4D"]
+			description: ["{gto.ev.quests.63773B34911D0234.description0}"]
+			id: "63773B34911D0234"
+			shape: "hexagon"
+			subtitle: "{gto.ev.quests.63773B34911D0234.subtitle}"
+			tasks: [{
+				id: "726D0A6B91C05586"
+				item: {
+					Count: 1
+					id: "gtceu:data_orb"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -6.5d
 		}
 	]
 	subtitle: ["{gto.ev.subtitle0}"]

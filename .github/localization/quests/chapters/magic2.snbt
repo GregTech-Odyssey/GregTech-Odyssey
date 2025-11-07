@@ -11,7 +11,7 @@
 		linked_quest: "0B61448F01656C1D"
 		shape: "gear"
 		size: 2.5d
-		x: -2.0d
+		x: -2.25d
 		y: 4.5d
 	}]
 	quests: [
@@ -34,7 +34,7 @@
 				type: "item"
 			}]
 			title: "{gto.magic2.quests.6FBE0BF8A7ADBB26.title}"
-			x: 0.0d
+			x: -0.25d
 			y: 8.0d
 		}
 		{
@@ -46,7 +46,7 @@
 				item: "botania:conjuration_catalyst"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 3.5d
 			y: 6.0d
 		}
 		{
@@ -58,7 +58,7 @@
 				item: "botania:aura_ring_greater"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 0.75d
 			y: 7.0d
 		}
 		{
@@ -71,7 +71,7 @@
 				item: "botania:aura_ring"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 0.75d
 			y: 6.0d
 		}
 		{
@@ -161,7 +161,7 @@
 				}
 			]
 			title: "{gto.magic2.quests.0631F054A9B97A40.title}"
-			x: 0.0d
+			x: -0.25d
 			y: 4.5d
 		}
 		{
@@ -174,7 +174,7 @@
 				item: "botania:brewery"
 				type: "item"
 			}]
-			x: -1.0d
+			x: -1.25d
 			y: 6.0d
 		}
 		{
@@ -187,7 +187,7 @@
 				item: "botania:incense_stick"
 				type: "item"
 			}]
-			x: -1.0d
+			x: -1.25d
 			y: 7.0d
 		}
 		{
@@ -201,7 +201,7 @@
 				item: "botania:terra_plate"
 				type: "item"
 			}]
-			x: 0.0d
+			x: -0.25d
 			y: 1.5d
 		}
 		{
@@ -230,7 +230,7 @@
 				}
 			]
 			title: "{gto.magic2.quests.23A2865FBE7831AB.title}"
-			x: 2.0d
+			x: 1.75d
 			y: 1.5d
 		}
 		{
@@ -278,8 +278,8 @@
 				type: "item"
 			}]
 			title: "{gto.magic2.quests.5CB5F4CD521F6361.title}"
-			x: 3.5d
-			y: 5.5d
+			x: 2.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["1EF7664F5D8C5FF1"]
@@ -290,7 +290,6 @@
 				""
 				"{gto.magic2.quests.3A20210242A1C865.description2}"
 			]
-			hide_dependent_lines: true
 			icon: "botania:dragonstone"
 			id: "3A20210242A1C865"
 			min_width: 300
@@ -299,7 +298,7 @@
 			subtitle: "{gto.magic2.quests.3A20210242A1C865.subtitle}"
 			tasks: [
 				{
-					id: "6A9E12C2483D4883"
+					id: "1C5B04215DB7C8AB"
 					item: {
 						Count: 1
 						id: "botania:lexicon"
@@ -307,6 +306,7 @@
 							"botania:elven_unlock": 1b
 						}
 					}
+					match_nbt: true
 					type: "item"
 				}
 				{
@@ -370,7 +370,7 @@
 				}
 			]
 			title: "{gto.magic2.quests.1EF7664F5D8C5FF1.title}"
-			x: 2.0d
+			x: 1.75d
 			y: 4.5d
 		}
 		{
@@ -470,7 +470,7 @@
 			}]
 			title: "{gto.magic2.quests.50A2D68A83A50F47.title}"
 			x: 12.5d
-			y: 7.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["634E71DBAE81D197"]
@@ -487,8 +487,8 @@
 				item: "botania:corporea_funnel"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 7.0d
+			x: 3.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["3A20210242A1C865"]
@@ -514,8 +514,8 @@
 				}
 			]
 			title: "{gto.magic2.quests.634E71DBAE81D197.title}"
-			x: 3.5d
-			y: 6.5d
+			x: 4.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["634E71DBAE81D197"]
@@ -534,8 +534,8 @@
 				item: "botania:corporea_index"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 7.75d
+			x: 2.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["634E71DBAE81D197"]
@@ -548,7 +548,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 7.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["50A2D68A83A50F47"]
@@ -563,7 +563,7 @@
 				type: "item"
 			}]
 			x: 13.0d
-			y: 8.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["50A2D68A83A50F47"]
@@ -589,7 +589,7 @@
 				type: "item"
 			}]
 			x: 12.0d
-			y: 8.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["50A2D68A83A50F47"]
@@ -604,7 +604,7 @@
 				type: "item"
 			}]
 			x: 14.0d
-			y: 8.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["50A2D68A83A50F47"]
@@ -619,7 +619,7 @@
 				type: "item"
 			}]
 			x: 12.0d
-			y: 9.5d
+			y: 10.0d
 		}
 		{
 			dependencies: ["50A2D68A83A50F47"]
@@ -634,7 +634,7 @@
 				type: "item"
 			}]
 			x: 13.0d
-			y: 9.5d
+			y: 10.0d
 		}
 		{
 			dependencies: ["50A2D68A83A50F47"]
@@ -649,7 +649,7 @@
 				type: "item"
 			}]
 			x: 14.0d
-			y: 9.5d
+			y: 10.0d
 		}
 		{
 			dependencies: ["6FBE0BF8A7ADBB26"]
@@ -662,7 +662,7 @@
 				item: "botania:lens_speed"
 				type: "item"
 			}]
-			x: -1.0d
+			x: -1.25d
 			y: 7.75d
 		}
 		{
@@ -676,7 +676,7 @@
 				item: "botania:lens_power"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 0.75d
 			y: 8.5d
 		}
 		{
@@ -690,7 +690,7 @@
 				item: "botania:lens_time"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 0.75d
 			y: 7.75d
 		}
 		{
@@ -704,7 +704,7 @@
 				item: "botania:lens_efficiency"
 				type: "item"
 			}]
-			x: -1.0d
+			x: -1.25d
 			y: 8.5d
 		}
 		{
@@ -718,7 +718,7 @@
 				item: "botania:lens_bounce"
 				type: "item"
 			}]
-			x: 0.0d
+			x: -0.25d
 			y: 9.0d
 		}
 		{
@@ -733,7 +733,7 @@
 				item: "botania:lens_gravity"
 				type: "item"
 			}]
-			x: 0.25d
+			x: 0.0d
 			y: 10.0d
 		}
 		{
@@ -748,7 +748,7 @@
 				item: "botania:lens_mine"
 				type: "item"
 			}]
-			x: -0.25d
+			x: -0.5d
 			y: 9.5d
 		}
 		{
@@ -763,7 +763,7 @@
 				item: "botania:lens_damage"
 				type: "item"
 			}]
-			x: -0.75d
+			x: -1.0d
 			y: 9.25d
 		}
 		{
@@ -778,7 +778,7 @@
 				item: "botania:lens_phantom"
 				type: "item"
 			}]
-			x: -1.25d
+			x: -1.5d
 			y: 9.0d
 		}
 		{
@@ -793,7 +793,7 @@
 				item: "botania:lens_magnet"
 				type: "item"
 			}]
-			x: 0.25d
+			x: 0.0d
 			y: 9.5d
 		}
 		{
@@ -808,7 +808,7 @@
 				item: "botania:lens_explosive"
 				type: "item"
 			}]
-			x: 0.75d
+			x: 0.5d
 			y: 9.25d
 		}
 		{
@@ -823,7 +823,7 @@
 				item: "botania:lens_influence"
 				type: "item"
 			}]
-			x: 1.25d
+			x: 1.0d
 			y: 9.0d
 		}
 		{
@@ -838,7 +838,7 @@
 				item: "botania:lens_weight"
 				type: "item"
 			}]
-			x: -0.75d
+			x: -1.0d
 			y: 9.75d
 		}
 		{
@@ -861,7 +861,7 @@
 				item: "botania:lens_paint"
 				type: "item"
 			}]
-			x: 0.75d
+			x: 0.5d
 			y: 10.25d
 		}
 		{
@@ -880,7 +880,7 @@
 				item: "botania:lens_firework"
 				type: "item"
 			}]
-			x: -0.25d
+			x: -0.5d
 			y: 10.5d
 		}
 		{
@@ -899,7 +899,7 @@
 				item: "botania:lens_flare"
 				type: "item"
 			}]
-			x: -0.75d
+			x: -1.0d
 			y: 10.25d
 		}
 		{
@@ -918,7 +918,7 @@
 				item: "botania:lens_tripwire"
 				type: "item"
 			}]
-			x: -1.25d
+			x: -1.5d
 			y: 10.0d
 		}
 		{
@@ -933,7 +933,7 @@
 				item: "botania:lens_messenger"
 				type: "item"
 			}]
-			x: 0.75d
+			x: 0.5d
 			y: 9.75d
 		}
 		{
@@ -952,7 +952,7 @@
 				item: "botania:lens_redirect"
 				type: "item"
 			}]
-			x: 0.25d
+			x: 0.0d
 			y: 10.5d
 		}
 		{
@@ -967,7 +967,7 @@
 				item: "botania:lens_light"
 				type: "item"
 			}]
-			x: -1.25d
+			x: -1.5d
 			y: 9.5d
 		}
 		{
@@ -982,7 +982,7 @@
 				item: "botania:lens_piston"
 				type: "item"
 			}]
-			x: 1.25d
+			x: 1.0d
 			y: 9.5d
 		}
 		{
@@ -997,7 +997,7 @@
 				item: "botania:lens_fire"
 				type: "item"
 			}]
-			x: -0.25d
+			x: -0.5d
 			y: 10.0d
 		}
 		{
@@ -1016,7 +1016,7 @@
 				item: "botania:lens_warp"
 				type: "item"
 			}]
-			x: 1.25d
+			x: 1.0d
 			y: 10.0d
 		}
 		{
@@ -1184,7 +1184,7 @@
 				type: "item"
 			}]
 			title: "{gto.magic2.quests.263A1421C0F789E9.title}"
-			x: 0.0d
+			x: -0.25d
 			y: 3.0d
 		}
 		{
@@ -1192,7 +1192,6 @@
 				"3A20210242A1C865"
 				"2AB5A33EC30AEA86"
 			]
-			hide_dependency_lines: true
 			id: "331A6633436ED5AA"
 			tasks: [{
 				id: "0646B1B918E954E2"
@@ -1278,8 +1277,8 @@
 				item: "gtocore:gaia_solvent_bucket"
 				type: "item"
 			}]
-			x: 14.0d
-			y: 7.0d
+			x: 14.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["527EBA90163F6108"]
@@ -1307,8 +1306,8 @@
 				}
 			]
 			title: "{gto.magic2.quests.05FC584B28D957EB.title}"
-			x: 15.0d
-			y: 7.0d
+			x: 16.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["0948158C6F476C57"]
@@ -1345,7 +1344,7 @@
 				type: "item"
 			}]
 			x: 7.5d
-			y: 7.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["0331107259F7B68C"]
@@ -1374,7 +1373,7 @@
 				type: "item"
 			}]
 			x: 17.5d
-			y: 4.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["2150BFD0D971DF9C"]
@@ -1385,7 +1384,7 @@
 				item: "extrabotany:orichalcos_ingot"
 				type: "item"
 			}]
-			x: 16.5d
+			x: 17.5d
 			y: 1.5d
 		}
 		{
@@ -1406,7 +1405,7 @@
 				item: "gtocore:time_twister"
 				type: "item"
 			}]
-			x: -2.5d
+			x: -2.75d
 			y: 6.5d
 		}
 		{
@@ -1436,8 +1435,8 @@
 				item: "gtocore:mana_amplifier_hatch"
 				type: "item"
 			}]
-			x: 17.5d
-			y: 3.5d
+			x: 19.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["0631F054A9B97A40"]
@@ -1453,13 +1452,12 @@
 				item: "gtocore:base_mana_distributor"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -1.75d
 			y: 3.0d
 		}
 		{
 			dependencies: ["7A76DEC71BB67245"]
 			description: ["{gto.magic2.quests.471FAB35A1A60E89.description0}"]
-			hide_dependency_lines: true
 			id: "471FAB35A1A60E89"
 			tasks: [{
 				id: "100C243B23C587B0"
@@ -1472,13 +1470,14 @@
 		{
 			dependencies: ["7C5F7800A3D2529C"]
 			id: "7A76DEC71BB67245"
+			subtitle: "{gto.magic2.quests.7A76DEC71BB67245.subtitle}"
 			tasks: [{
 				id: "7DCEF245FFCB052B"
 				item: "gtocore:mv_mana_machine_hull"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 3.0d
+			x: 4.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["3A20210242A1C865"]
@@ -1488,19 +1487,20 @@
 				item: "gtocore:elementium_casing"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 6.0d
 			y: 6.0d
 		}
 		{
 			dependencies: ["780BAAEFE8E3A49B"]
 			id: "61CCD117B022983A"
+			subtitle: "{gto.magic2.quests.61CCD117B022983A.subtitle}"
 			tasks: [{
 				id: "2DC1245016352BE1"
 				item: "gtocore:hv_mana_machine_hull"
 				type: "item"
 			}]
 			x: 6.0d
-			y: 6.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["3B2C198F26EC923F"]
@@ -1516,6 +1516,7 @@
 		{
 			dependencies: ["5F9AB46D06B2BF83"]
 			id: "3F90794A1EB0AB63"
+			subtitle: "{gto.magic2.quests.3F90794A1EB0AB63.subtitle}"
 			tasks: [{
 				id: "0346C02903C2FCBE"
 				item: "gtocore:ev_mana_machine_hull"
@@ -1538,6 +1539,7 @@
 		{
 			dependencies: ["4DE64E57A630B200"]
 			id: "0948158C6F476C57"
+			subtitle: "{gto.magic2.quests.0948158C6F476C57.subtitle}"
 			tasks: [{
 				id: "71075E56AB950737"
 				item: "gtocore:iv_mana_machine_hull"
@@ -1554,19 +1556,20 @@
 				item: "gtocore:orichalcos_casing"
 				type: "item"
 			}]
-			x: 16.5d
-			y: 2.5d
+			x: 17.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["5EFD8200AF80BBF6"]
 			id: "129FF3CBED5CFF05"
+			subtitle: "{gto.magic2.quests.129FF3CBED5CFF05.subtitle}"
 			tasks: [{
 				id: "2A7C248DE099C1C2"
 				item: "gtocore:luv_mana_machine_hull"
 				type: "item"
 			}]
-			x: 16.5d
-			y: 3.5d
+			x: 17.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["3F90794A1EB0AB63"]
@@ -1576,7 +1579,7 @@
 				item: "gtocore:mana_alloy_blast_smelter"
 				type: "item"
 			}]
-			x: 9.0d
+			x: 9.5d
 			y: 9.0d
 		}
 		{
@@ -1587,7 +1590,7 @@
 				item: "gtocore:mana_greenhouse"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 8.5d
 			y: 9.0d
 		}
 		{
@@ -1612,8 +1615,8 @@
 				item: "gtocore:rune_engraving_chamber"
 				type: "item"
 			}]
-			x: 17.5d
-			y: 2.5d
+			x: 19.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["27CD17C4B3613171"]
@@ -1623,7 +1626,7 @@
 				item: "extrabotany:challenge_ticket"
 				type: "item"
 			}]
-			x: 14.0d
+			x: 14.5d
 			y: 4.5d
 		}
 		{
@@ -1637,8 +1640,8 @@
 				type: "item"
 			}]
 			title: "{gto.magic2.quests.0F02FE8BA89BCF34.title}"
-			x: 15.0d
-			y: 4.5d
+			x: 14.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["27AA2D1CFBC9C465"]
@@ -1648,7 +1651,7 @@
 				item: "extrabotany:dimension_catalyst"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 7.0d
 			y: 9.0d
 		}
 		{
@@ -1659,7 +1662,7 @@
 				item: "gtocore:quicksilver_ingot"
 				type: "item"
 			}]
-			x: 15.0d
+			x: 14.5d
 			y: 6.0d
 		}
 		{
@@ -1670,7 +1673,7 @@
 				item: "gtocore:celestial_condenser"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 1.75d
 			y: 0.0d
 		}
 		{
@@ -1725,7 +1728,7 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
+			x: 3.75d
 			y: 0.0d
 		}
 		{
@@ -1748,7 +1751,7 @@
 				}
 			]
 			title: "{gto.magic2.quests.27AA2D1CFBC9C465.title}"
-			x: 4.5d
+			x: 5.5d
 			y: 9.0d
 		}
 		{
@@ -1784,7 +1787,7 @@
 				item: "extrabotany:spirit_fragment"
 				type: "item"
 			}]
-			x: 3.5d
+			x: 4.0d
 			y: 9.5d
 		}
 		{
@@ -1796,20 +1799,21 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 3.0d
+			y: 1.5d
 		}
 		{
 			dependencies: [
 				"6BE534E3FB9B483B"
 				"3A20210242A1C865"
 			]
+			hide_dependency_lines: true
 			id: "3237EF5DBFF07740"
 			tasks: [{
 				id: "03B2265EEBCA821B"
 				item: "extrabotany:aerialite_ingot"
 				type: "item"
 			}]
-			x: 0.0d
+			x: -0.25d
 			y: 0.0d
 		}
 		{
@@ -1823,7 +1827,7 @@
 				item: "gtocore:animium_bucket"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 5.5d
 			y: 10.0d
 		}
 		{
@@ -1835,8 +1839,8 @@
 				item: "mythicbotany:gjallar_horn_full"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 1.5d
+			x: 4.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["23A2865FBE7831AB"]
@@ -1847,7 +1851,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 1.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["00483549F6D66CCD"]
@@ -1857,7 +1861,7 @@
 				item: "gtocore:flowing_ciphers_bucket"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 7.0d
 			y: 10.0d
 		}
 		{
@@ -1873,7 +1877,7 @@
 				type: "item"
 			}]
 			x: 15.0d
-			y: 8.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["27CD17C4B3613171"]
@@ -1893,7 +1897,7 @@
 				type: "item"
 			}]
 			x: 15.0d
-			y: 9.5d
+			y: 10.0d
 		}
 		{
 			dependencies: ["763545268A59C6DE"]
@@ -1923,7 +1927,7 @@
 				item: "extrabotany:hero_medal"
 				type: "item"
 			}]
-			x: 15.0d
+			x: 16.0d
 			y: 1.5d
 		}
 		{
@@ -1935,7 +1939,7 @@
 				type: "item"
 			}]
 			x: 16.0d
-			y: 6.0d
+			y: 4.5d
 		}
 		{
 			dependencies: [
@@ -1967,7 +1971,7 @@
 			]
 			title: "{gto.magic2.quests.50591F5900E6FB9A.title}"
 			x: 16.0d
-			y: 7.0d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -1986,7 +1990,7 @@
 				}
 				type: "item"
 			}]
-			x: -1.5d
+			x: -1.75d
 			y: 0.0d
 		}
 		{
@@ -2005,7 +2009,7 @@
 				}
 				type: "item"
 			}]
-			x: -1.5d
+			x: -1.75d
 			y: 1.5d
 		}
 		{
@@ -2044,8 +2048,8 @@
 				type: "item"
 			}]
 			title: "{gto.magic2.quests.7278B00DEB2C21E7.title}"
-			x: 14.0d
-			y: 3.0d
+			x: 14.5d
+			y: 1.5d
 		}
 	]
 	subtitle: ["{gto.magic2.subtitle0}"]

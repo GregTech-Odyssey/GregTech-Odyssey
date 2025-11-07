@@ -4,7 +4,7 @@
 	filename: "food"
 	group: "48D03BA483B3FA87"
 	id: "60BF200EAF8756C2"
-	order_index: 4
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
@@ -1600,7 +1600,6 @@
 		}
 		{
 			dependencies: ["5D828A5258BFF11F"]
-			description: [""]
 			hide_dependency_lines: true
 			id: "05F38A7107CCF2C1"
 			rewards: [{

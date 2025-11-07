@@ -11,3 +11,7 @@ mode = "metadata:curseforge"
 [update.curseforge]
 file-id = 6868042
 project-id = 241895
+
+[option]
+optional = true
+description = "Adds a klee slabs to the game"

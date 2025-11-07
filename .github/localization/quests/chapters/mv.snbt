@@ -61,6 +61,20 @@
 				"{gto.mv.quests.49E5CC5873FA226F.description1}"
 			]
 			id: "49E5CC5873FA226F"
+			rewards: [
+				{
+					count: 4
+					id: "0A30DB92DBBCDCFD"
+					item: "gtceu:advanced_integrated_circuit"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "0DF58AA190F015AC"
+					item: "farmersdelight:hamburger"
+					type: "item"
+				}
+			]
 			shape: "gear"
 			size: 2.0d
 			subtitle: "{gto.mv.quests.49E5CC5873FA226F.subtitle}"
@@ -94,7 +108,6 @@
 				"012118C898D7889A"
 				"46354D0766391D92"
 			]
-			description: [""]
 			id: "5F2F920BA347AAEA"
 			subtitle: "{gto.mv.quests.5F2F920BA347AAEA.subtitle}"
 			tasks: [{
@@ -146,8 +159,6 @@
 				"{gto.mv.quests.1CD5736520A719FA.description1}"
 				""
 				"{gto.mv.quests.1CD5736520A719FA.description2}"
-				""
-				"{gto.mv.quests.1CD5736520A719FA.description3}"
 			]
 			id: "1CD5736520A719FA"
 			shape: "hexagon"
@@ -274,6 +285,12 @@
 				"{gto.mv.quests.26484E626E859718.description1}"
 			]
 			id: "26484E626E859718"
+			rewards: [{
+				count: 64
+				id: "1AC243CADA3E1633"
+				item: "gtceu:stainless_steel_ingot"
+				type: "item"
+			}]
 			shape: "gear"
 			size: 2.0d
 			tasks: [{
@@ -765,13 +782,18 @@
 				"49E5CC5873FA226F"
 				"796DD5FB0E2A1E93"
 			]
-			description: ["{gto.mv.quests.2FDFF167491E2F34.description0}"]
+			description: [
+				"{gto.mv.quests.2FDFF167491E2F34.description0}"
+				""
+				"{gto.mv.quests.2FDFF167491E2F34.description1}"
+			]
 			id: "2FDFF167491E2F34"
+			invisible: true
 			shape: "diamond"
 			size: 1.5d
 			tasks: [{
-				id: "6B5926A35C82E1F0"
-				item: "gtmthings:mv_digital_miner"
+				id: "2820A2CB04EFA5B8"
+				item: "gtocore:digital_miner"
 				type: "item"
 			}]
 			x: 9.0d
@@ -784,6 +806,7 @@
 			]
 			hide_dependent_lines: true
 			id: "796DD5FB0E2A1E93"
+			invisible: true
 			shape: "circle"
 			tasks: [{
 				id: "0B6E0EDA6C482F3F"
@@ -795,7 +818,6 @@
 		}
 		{
 			dependencies: ["5F2F920BA347AAEA"]
-			description: [""]
 			id: "2422B7ED59D31DBB"
 			subtitle: "{gto.mv.quests.2422B7ED59D31DBB.subtitle}"
 			tasks: [{
@@ -827,7 +849,6 @@
 		}
 		{
 			dependencies: ["153B10D3845F65F0"]
-			description: [""]
 			id: "2065B305595F56DA"
 			subtitle: "{gto.mv.quests.2065B305595F56DA.subtitle}"
 			tasks: [{

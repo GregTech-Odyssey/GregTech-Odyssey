@@ -899,14 +899,6 @@
 		}
 		{
 			height: 1.0d
-			image: "gtocore:item/circuit/suprachronal_iv"
-			rotation: 0.0d
-			width: 1.0d
-			x: -5.5d
-			y: 11.5d
-		}
-		{
-			height: 1.0d
 			image: "gtocore:item/circuit/suprachronal_hv"
 			rotation: 0.0d
 			width: 1.0d
@@ -966,10 +958,10 @@
 			y: 21.5d
 		}
 		{
-			height: 1.0d
+			height: 2.0d
 			image: "gtocore:item/circuit/suprachronal_lv"
 			rotation: 0.0d
-			width: 1.0d
+			width: 2.0d
 			x: -9.5d
 			y: 1.0d
 		}
@@ -1066,6 +1058,14 @@
 			width: 1.0d
 			x: -3.5d
 			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "gtocore:item/circuit/suprachronal_luv"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.7d
+			y: 11.5d
 		}
 	]
 	order_index: 4
@@ -1225,7 +1225,7 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"使用催化器加速母岩生成"
+				"使用&6催生器&r加速母岩生成"
 				""
 				"&8使用破坏面板和存储总线做个子网络实现自动采集&r"
 			]
@@ -1254,10 +1254,9 @@
 				"0E9F8C57145D61AB"
 				"592D975F3146151E"
 			]
-			description: [""]
 			icon: "ae2:export_bus"
 			id: "727CCA6FB49E142D"
-			subtitle: "AE网络的交互节点"
+			subtitle: "ME网络的交互节点"
 			tasks: [{
 				id: "4F140DF629F92614"
 				item: "ae2:import_bus"
@@ -1427,6 +1426,8 @@
 				"- 缓存样板对应的配方，下次查找时直接调用这个配方，而不是重新搜索"
 				""
 				"另外，样板总成被破坏后能够保留其内部所有样板！"
+				""
+				"注意样板总成和其他的输入仓室之间默认&e开启隔离&r，你需要&6喷漆罐&r来手动解除隔离"
 			]
 			icon: "gtceu:me_pattern_buffer"
 			id: "0BC456B4331C09F5"
@@ -1468,7 +1469,7 @@
 		{
 			dependencies: ["7C9277B717E90328"]
 			description: [
-				"&6机器覆盖版&r和&6发信器&r互相配合，利用&e红石信号&r做到AE网络&b特定&r物品或流体的&e库存维持&r"
+				"&6机器覆盖版&r和&6发信器&r互相配合，利用&e红石信号&r做到ME网络&b特定&r物品或流体的&e库存维持&r"
 				""
 				"比如和&e大化反&r搭配就可以自动合成&e硫酸&r等常用的化工材料，这样下单合成就不必因产能问题成为合成瓶颈"
 				""
@@ -1496,7 +1497,7 @@
 					type: "item"
 				}
 			]
-			title: "如何使用AE网络进行简单的缓存"
+			title: "如何使用ME网络进行简单的缓存"
 			x: -13.0d
 			y: 19.5d
 		}
@@ -1563,6 +1564,10 @@
 				"不同级别的&6存储核心&r能存储的数据量也不同。&6存储核心&r可以&e混搭&r安装"
 				""
 				"通过&6ME存储访问仓&r连接ME网络"
+				""
+				"存储器UI中的索引调整为&e[机器]&r时，存储空间与&6存储器主机&r绑定，拆除主机后会发现其身上带着标记存储空间的nbt；"
+				""
+				"存储器UI中的索引调整为&e[玩家]&r时，存储空间与&6玩家&r绑定，且由同一玩家放下的存储器会共享存储空间。"
 				""
 				"&7&m记得供电&r"
 			]
@@ -1631,9 +1636,9 @@
 		{
 			dependencies: ["43974ABFAE99587B"]
 			description: [
-				"只在简单模式可用！"
+				"只在简单模式可用！（其他模式下它未被注册，因此你只能看到一个问号）"
 				""
-				"放入样板并连接AE网络以自动发配合成原料，继承了普通样板总成的所有优化特性"
+				"放入样板并连接ME网络以自动发配合成原料，继承了普通样板总成的所有优化特性"
 			]
 			hide_dependency_lines: true
 			id: "47506298B1BD1780"
@@ -1643,6 +1648,7 @@
 				item: "gtocore:me_simple_pattern_buffer"
 				type: "item"
 			}]
+			title: "ME简单样板总成"
 			x: -1.0d
 			y: 9.5d
 		}
@@ -1652,7 +1658,7 @@
 				""
 				"你也可以选择其他方法："
 				""
-				"·&6 世界交互&r"
+				"· &6世界交互&r"
 				"· &6筛选纯净赛特斯石英矿&r"
 				"· &6高压釜&r"
 				"· &6聚爆&r"
@@ -1763,11 +1769,11 @@
 		{
 			dependencies: ["2E9889C32059C956"]
 			description: [
-				"你会需要很多福鲁伊克斯水晶来搭建你的AE网络，和赛特斯水晶（粉）类似，同样有多种来源："
+				"你会需要很多福鲁伊克斯水晶来搭建你的ME网络，和赛特斯水晶（粉）类似，同样有多种来源："
 				""
-				"·&6世界交互&r，将&e下界石英&r、&e红石粉&r、&e充能赛特斯石英水晶&r丢进水中。纯种的AE人喜欢用纯AE实现自动化！"
-				"·&6电弧发生器&r，&e一步产出，强力推荐"
-				"&r·&6村民交易&r，由于有&e简易村民&r模组的存在，你也可以用&e自动村民交易&r的方式获取，但单方块产能存在限制，只适合少量获取"
+				"· &6世界交互&r，将&e下界石英&r、&e红石粉&r、&e充能赛特斯石英水晶&r丢进水中。纯种的AE人喜欢用纯AE实现自动化！"
+				"· &6电弧发生器&r，&e一步产出&r，强力推荐"
+				"· &6村民交易&r，由于有&e简易村民&r模组的存在，你也可以用&e自动村民交易&r的方式获取，但单方块产能存在限制，只适合少量获取"
 				"· &6聚爆&r，搅一搅，爆一爆！谁让你无意中处理出了太多无用的&e炸药&r和&e粉末&r呢！"
 			]
 			id: "21C0E1FEC1347A3A"
@@ -1799,7 +1805,6 @@
 		}
 		{
 			dependencies: ["0A68C0CFACCB6C07"]
-			description: [""]
 			id: "2E9889C32059C956"
 			tasks: [{
 				id: "1320ADE7F3BBF4F7"
@@ -2176,11 +2181,11 @@
 		{
 			dependencies: ["1A927F14106DFC5C"]
 			description: [
-				"自动将&e选定物品&r从玩家物品栏&e导入&rAE网络"
+				"自动将&e选定物品&r从玩家物品栏&e导入&rME网络"
 				""
 				"需要在&e终端左侧&r配置白名单进行选定"
 				""
-				"&6典型应用场景：&r将挖矿得到的矿石自动通过无线终端存储到AE网络"
+				"&6典型应用场景：&r将挖矿得到的矿石自动通过无线终端存储到ME网络"
 			]
 			id: "4A30B42072223191"
 			tasks: [{
@@ -2194,7 +2199,7 @@
 		{
 			dependencies: ["1A927F14106DFC5C"]
 			description: [
-				"从AE网络抽取&6选定物品&r并&e自动补充&r玩家物品栏"
+				"从ME网络抽取&6选定物品&r并&e自动补充&r玩家物品栏"
 				""
 				"需要在&e终端左侧&r配置白名单进行选定"
 				""
@@ -3083,28 +3088,14 @@
 			dependencies: [
 				"1E478682EAC0C56B"
 				"04581C43F7B0BBCE"
-				"176C374E1C0EA92F"
-			]
-			description: [
-				"摆放两个如下所示的量子桥，将一对&6量子缠绕态奇点&r放入其中，两座量子桥就可以跨维度相连"
-				"{image:ae2:textures/quantum_ring.png width:100 height:100 align:center}"
 			]
 			icon: "ae2:quantum_ring"
 			id: "6BA5CF66F0CE3119"
-			tasks: [
-				{
-					count: 16L
-					id: "45B07AC3C321C3C8"
-					item: "ae2:quantum_ring"
-					type: "item"
-				}
-				{
-					count: 2L
-					id: "02D4DF7F05529B83"
-					item: "ae2:quantum_link"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "45B07AC3C321C3C8"
+				item: "ae2:quantum_ring"
+				type: "item"
+			}]
 			x: -17.0d
 			y: 7.5d
 		}
@@ -3121,7 +3112,6 @@
 		}
 		{
 			dependencies: ["0A71F8193A3A39AE"]
-			description: [""]
 			hide_dependency_lines: true
 			id: "0B36C7D7D1594CB7"
 			shape: "hexagon"
@@ -3197,7 +3187,7 @@
 				"592D975F3146151E"
 			]
 			id: "189F402C87C4AB3A"
-			subtitle: "AE网络的交互节点"
+			subtitle: "ME网络的交互节点"
 			tasks: [{
 				id: "7DF9C99788918728"
 				item: "ae2:export_bus"
@@ -3276,7 +3266,7 @@
 		}
 		{
 			dependencies: ["0B36C7D7D1594CB7"]
-			description: ["用于管理所有连接至AE网络的样板供应器和样板总成"]
+			description: ["用于管理所有连接至ME网络的样板供应器和样板总成"]
 			id: "1DB79F4A3D08D7FB"
 			tasks: [{
 				id: "3D493FCC444BA6CE"
@@ -3402,7 +3392,14 @@
 				"1DB79F4A3D08D7FB"
 				"5B98FF5DDD4B2629"
 			]
-			description: ["2合1终端整合了样板管理和样板编码的功能，能够批量编码一系列同种类的样板，支持一键填充配方！"]
+			description: [
+				"2合1终端整合了样板管理和样板编码的功能，能够批量编码一系列同种类的样板，支持一键填充配方！"
+				""
+				"- 同时显示三个终端显示的所有面板"
+				"- 对着样板撰写面板中的物品中键可以重命名样板物品（方便装配线的样板编写）"
+				"- 可以快速将样板填充入样板供应器和样板输入总成"
+				"- 在EMI中查看压缩机，压膜机，车床等有批量编码需求的配方可以使用Alt+左键打开批量编码页面"
+			]
 			id: "79B00A56EED55DBD"
 			tasks: [{
 				id: "1EB2B00D8C53D6D6"
@@ -3564,7 +3561,6 @@
 		}
 		{
 			dependencies: ["00B868BD06F99B86"]
-			description: [""]
 			id: "54087EF6361AAD74"
 			tasks: [{
 				id: "7BF90F97ED513FFA"
@@ -3679,7 +3675,7 @@
 		{
 			dependencies: [
 				"1EED90EE9774CD7A"
-				"63773B34911D0234"
+				"228B283B5477879B"
 			]
 			id: "17CEA439C0110AFA"
 			tasks: [{
@@ -3758,8 +3754,8 @@
 		}
 		{
 			dependencies: ["570652D76CB788E9"]
-			description: ["一般是先给终端装上&6量子桥卡&r，然后才会用它来做跨维度传输"]
-			hide_dependency_lines: true
+			description: ["可以放置在&6量子网桥&r和&6无线终端&r中进行跨纬度通信"]
+			hide_dependent_lines: true
 			id: "176C374E1C0EA92F"
 			tasks: [{
 				count: 2L
@@ -3772,7 +3768,11 @@
 			y: 17.5d
 		}
 		{
-			dependencies: ["23D906A09C3631CB"]
+			dependencies: [
+				"23D906A09C3631CB"
+				"5627B38033AF2674"
+			]
+			description: ["给无线终端装上&6量子桥卡&r，然后将一对&6量子缠绕态奇点&r的一个放在&6无线终端&r中，一个放在链接ME网络的&6量子网桥&r中，即可让无线终端&e无视距离，跨纬度通信&rME网络"]
 			id: "30C9B64B6E6DA245"
 			tasks: [{
 				id: "64AB8C1DC3350ABD"
@@ -4075,6 +4075,54 @@
 			}]
 			x: -21.0d
 			y: 9.5d
+		}
+		{
+			dependencies: [
+				"176C374E1C0EA92F"
+				"6BA5CF66F0CE3119"
+				"0B8E06206D29E420"
+			]
+			description: [
+				"摆放两个如下所示的&6量子网桥&r，将一对&6量子缠绕态奇点&r放入其中，两个量子网桥就可以跨维度相连"
+				"{image:ae2:textures/quantum_ring.png width:100 height:100 align:center}"
+			]
+			hide_dependent_lines: true
+			icon: "gtocore:quantum_anomaly"
+			id: "5627B38033AF2674"
+			shape: "pentagon"
+			tasks: [{
+				id: "11FAB9B0FC585C92"
+				type: "checkmark"
+			}]
+			title: "搭建量子网桥"
+			x: -19.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["72C6B40B38D542BF"]
+			description: [
+				"你可以用这个工具染色任意的&6输入/输出仓室&r，包括&6样板总成&r！"
+				""
+				"染色后的输入仓室内部将会&e共用输入&r。若你染色输入和输出仓室，则输入和输出仓室将会被绑定。"
+				""
+				"同色仓室与无色/异色仓室之间会被&e隔离&r。"
+			]
+			id: "1BDAC7D9FED887B2"
+			tasks: [{
+				id: "62987E1C58AE6780"
+				item: {
+					Count: 1
+					id: "itemfilters:id_regex"
+					tag: {
+						value: "spray_can$"
+					}
+				}
+				title: "任意喷漆罐"
+				type: "item"
+			}]
+			title: "喷漆罐"
+			x: -19.0d
+			y: 1.5d
 		}
 	]
 	subtitle: ["Applied Energistics 2"]

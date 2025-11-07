@@ -11,3 +11,7 @@ mode = "metadata:curseforge"
 [update.curseforge]
 file-id = 6610285
 project-id = 257818
+
+[option]
+optional = true
+description = "Adds a little tiles to the game"

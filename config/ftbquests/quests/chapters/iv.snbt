@@ -7,40 +7,50 @@
 	id: "3F8D9D2B382EE265"
 	images: [
 		{
-			height: 1.1d
+			height: 1.0d
 			image: "xtonesreworked:block/bitt/12"
-			rotation: 0.0d
-			width: 1.1d
-			x: 8.0d
-			y: -6.0d
+			rotation: 45.0d
+			width: 1.0d
+			x: 8.5d
+			y: -5.5d
 		}
 		{
 			color: 16711935
-			height: 1.1d
+			height: 1.0d
 			image: "ftbquests:block/barrier_open"
 			order: 1
-			rotation: 0.0d
-			width: 1.1d
-			x: 8.0d
-			y: -6.0d
+			rotation: 45.0d
+			width: 1.0d
+			x: 8.5d
+			y: -5.5d
 		}
 		{
 			color: 16711935
-			height: 1.1d
+			height: 1.0d
 			image: "ftbquests:block/barrier_open"
 			order: 1
-			rotation: 0.0d
-			width: 1.1d
-			x: 20.0d
-			y: -8.0d
+			rotation: 45.0d
+			width: 1.0d
+			x: 22.0d
+			y: -8.5d
 		}
 		{
-			height: 1.1d
+			height: 1.0d
 			image: "xtonesreworked:block/bitt/12"
-			rotation: 0.0d
-			width: 1.1d
-			x: 20.0d
-			y: -8.0d
+			rotation: 45.0d
+			width: 1.0d
+			x: 22.0d
+			y: -8.5d
+		}
+		{
+			color: 16711935
+			height: 1.0d
+			image: "ftbquests:block/barrier_open"
+			order: 1
+			rotation: 45.0d
+			width: 1.0d
+			x: 18.0d
+			y: -13.0d
 		}
 	]
 	order_index: 7
@@ -56,9 +66,16 @@
 		{
 			id: "101D1D1E0461C66B"
 			linked_quest: "5F7635CC667AD219"
-			shape: "square"
-			x: 8.0d
-			y: -6.0d
+			shape: "diamond"
+			x: 8.5d
+			y: -5.5d
+		}
+		{
+			id: "1935EFBE9E74704F"
+			linked_quest: "58EC0AFA9742164A"
+			shape: "diamond"
+			x: 18.0d
+			y: -13.0d
 		}
 	]
 	quests: [
@@ -141,7 +158,7 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: -6.0d
+			y: -5.5d
 		}
 		{
 			dependencies: [
@@ -350,7 +367,7 @@
 				type: "item"
 			}]
 			x: 16.0d
-			y: -4.75d
+			y: -4.5d
 		}
 		{
 			dependencies: ["23DB14B3093506B8"]
@@ -469,7 +486,6 @@
 		}
 		{
 			dependencies: ["761587B546E4158C"]
-			description: [""]
 			id: "15C830BF6953ABA0"
 			shape: "hexagon"
 			size: 1.5d
@@ -504,15 +520,15 @@
 			]
 			id: "56E262C94F46A592"
 			optional: true
-			shape: "circle"
-			size: 1.0d
+			shape: "diamond"
+			size: 1.5d
 			tasks: [{
 				id: "093B61467591683D"
 				item: "gtocore:auto_configuration_maintenance_hatch"
 				type: "item"
 			}]
-			x: 21.75d
-			y: -8.0d
+			x: 20.0d
+			y: -8.5d
 		}
 		{
 			dependencies: ["2BD46F9D8A842B4A"]
@@ -611,7 +627,11 @@
 		}
 		{
 			dependencies: ["1CF7845875EEFA3B"]
-			description: ["有了它你就能够生产&6量子系列电路&r"]
+			description: [
+				"有了它你就能够生产&6量子系列电路&r"
+				""
+				"我更推荐你使用带有&6铟&r的配方"
+			]
 			hide_dependency_lines: true
 			id: "0C41A1AD7CB90755"
 			subtitle: "更便宜的EV电路"
@@ -679,7 +699,10 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["67E7B62710A78614"]
+			dependencies: [
+				"67E7B62710A78614"
+				"23E859D5CC9E4C8C"
+			]
 			id: "509269850A10116F"
 			tasks: [{
 				id: "0D79C409031F4AF5"
@@ -957,14 +980,15 @@
 				""
 				"[ \"详见\", { \"text\": \"大批量加工\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"68C24A1ED361D607\" } }, \"章节\" ]"
 			]
+			icon: "gtceu:large_autoclave"
 			id: "79A84A1D8BCDC012"
 			tasks: [{
 				id: "1571ABAAEFB1193D"
 				title: "大批量加工"
 				type: "checkmark"
 			}]
-			x: 9.0d
-			y: -7.5d
+			x: 8.5d
+			y: -7.0d
 		}
 		{
 			dependencies: [
@@ -1053,15 +1077,15 @@
 			]
 			id: "029CAD5FD378D3E1"
 			optional: true
-			shape: "square"
+			shape: "diamond"
 			subtitle: "轮椅自动化"
 			tasks: [{
 				id: "3CDD1FE8E3131DE2"
 				item: "gtocore:advanced_tesseract_generator"
 				type: "item"
 			}]
-			x: 20.0d
-			y: -8.0d
+			x: 22.0d
+			y: -8.5d
 		}
 		{
 			dependencies: ["1B8F815BF14E7AE8"]
@@ -1138,6 +1162,30 @@
 			}]
 			x: 22.0d
 			y: -4.5d
+		}
+		{
+			dependencies: ["1E239C34C36FAD60"]
+			description: [
+				"从IV开始可以使用&6激光能源仓&r来为机器提供更高的功率"
+				""
+				"同样有其无线版本"
+			]
+			icon: "gtceu:iv_256a_laser_target_hatch"
+			id: "7AF970C19F565FB6"
+			tasks: [
+				{
+					id: "372D8340C52DD848"
+					item: "gtceu:iv_256a_laser_target_hatch"
+					type: "item"
+				}
+				{
+					id: "5A2FB851D7D2A988"
+					item: "gtocore:iv_wireless_input_hatch_256a"
+					type: "item"
+				}
+			]
+			x: 17.0d
+			y: -3.5d
 		}
 	]
 	subtitle: ["Tier5-IV"]

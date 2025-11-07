@@ -65,3 +65,4 @@ config/embeddium-options.json
 README_zh.md
 
 !gtocore-*.jar
+!gtonativelib-*.jar

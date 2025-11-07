@@ -616,11 +616,3 @@ dev:
   # Default: false
   doSuperflatOres: false
 
-  # Dump all registered GT recipes?
-  # Default: false
-  dumpRecipes: false
-
-  # Dump all registered GT models/blockstates/etc?
-  # Default: false
-  dumpAssets: false
-

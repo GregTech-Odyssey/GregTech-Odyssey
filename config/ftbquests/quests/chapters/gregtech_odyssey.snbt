@@ -44,8 +44,8 @@
 		linked_quest: "5183DB6A793BB3C6"
 		shape: "gear"
 		size: 3.0d
-		x: 1.5d
-		y: -6.0d
+		x: -6.0d
+		y: -1.5d
 	}]
 	quests: [
 		{
@@ -71,7 +71,7 @@
 				type: "checkmark"
 			}]
 			x: -2.0d
-			y: -4.0d
+			y: -3.0d
 		}
 		{
 			description: [
@@ -94,7 +94,7 @@
 				title: "关于生存"
 				type: "checkmark"
 			}]
-			x: -2.0d
+			x: -1.0d
 			y: 1.0d
 		}
 		{
@@ -125,7 +125,7 @@
 				title: "关于任务线"
 				type: "checkmark"
 			}]
-			x: 5.0d
+			x: 4.0d
 			y: 1.0d
 		}
 		{
@@ -148,8 +148,8 @@
 				title: "关于内容"
 				type: "checkmark"
 			}]
-			x: 1.5d
-			y: 1.0d
+			x: 9.0d
+			y: -1.0d
 		}
 		{
 			dependencies: [
@@ -157,6 +157,7 @@
 				"131CFAF95CFC993E"
 				"6517DDBE8132FA9B"
 				"278F29092F5721AD"
+				"78A681513D681C93"
 			]
 			description: [
 				"欢迎来到&n&4GregTech:Odyssey&r&r！"
@@ -169,11 +170,11 @@
 				"{@pagebreak}"
 				"所以最开始该干什么呢？做出燧石工具，找到一片靠近水源的地方作为早期发展的基地"
 				""
-				"按 &e[Tab]&r 可以随时随地打开任务书，大多数任务完成了上一个任务之后才可以进行"
+				"按 &e[Tab]&r 可以随时随地打开任务书，从主线的石器时代开始一步步跟随任务推进科技"
 				""
 				"&7&o&m以及有一些隐藏彩蛋任务&r"
 				""
-				"&r&4切勿&r熬夜爆肝，身体是革命的本钱！！"
+				"&4切勿&r熬夜爆肝，身体是革命的本钱！！"
 				""
 				"&9&o我们的旅程是星辰大海&r&r"
 				""
@@ -231,7 +232,16 @@
 				"[ \"\", {\"text\":\"Github: \", \"color\":\"yellow\"}, { \"text\": \"https://github.com/GregTech-Odyssey/GregTech-Odyssey\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"open_url\", \"value\": \"https://github.com/GregTech-Odyssey/GregTech-Odyssey\" } }]"
 				""
 				"[ \"\", {\"text\":\"Discord: \", \"color\":\"yellow\"}, { \"text\": \"https://discord.gg/PxruFSbtCn\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"open_url\", \"value\": \"https://discord.gg/PxruFSbtCn\" } }]"
+				"{@pagebreak}"
+				"We plan to complete the &elocalization translation work&r for other languages (English, Russian, etc.), but due to time and capacity constraints, &eit is difficult for us to finish all the translations&r. "
 				""
+				"Therefore, we have created a &6project&r on the translation collaboration platform and &einvited everyone to join in the translation&r:"
+				""
+				"[ \"\", {\"text\":\"English / en_us: \", \"color\":\"yellow\"}, { \"text\": \"Overview - GregTech-Odyssey(en) - ParaTranz\", \"underlined\":\"true\", \"clickEvent\": { \"action\": \"open_url\", \"value\": \"https://paratranz.cn/projects/16320\" } }]"
+				""
+				"[ \"\", {\"text\":\"Russian / ru_ru: \", \"color\":\"yellow\"}, { \"text\": \"Overview - GregTech-Odyssey(ru) - ParaTranz\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"open_url\", \"value\": \"https://paratranz.cn/projects/16525\" } }]"
+				""
+				"If you're interested, please click to join and help improve our translations. Anyone can join the project directly. Contributions are welcome!"
 				""
 				"                                      ——GregTech Odyssey DevTeam "
 			]
@@ -250,8 +260,34 @@
 				type: "checkmark"
 			}]
 			x: 5.0d
-			y: -4.0d
+			y: -3.0d
+		}
+		{
+			description: [
+				"我们的WIKI:"
+				""
+				"{ \"text\": \"https://wiki.gtodyssey.com/\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"open_url\", \"value\": \"https://wiki.gtodyssey.com/\" } }"
+				""
+				"你可以在WIKI上查找文档和指南！"
+			]
+			icon: "minecraft:bookshelf"
+			id: "78A681513D681C93"
+			rewards: [{
+				id: "6410AAD88024BA92"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "pentagon"
+			size: 2.0d
+			tasks: [{
+				id: "2EC8EE5C5D486127"
+				type: "checkmark"
+			}]
+			title: "WIKI"
+			x: 1.5d
+			y: -5.3d
 		}
 	]
+	subtitle: ["Hello World!"]
 	title: "欢迎入职格雷科技有限公司™"
 }

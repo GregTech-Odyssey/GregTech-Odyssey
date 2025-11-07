@@ -1,0 +1,277 @@
+{
+	autofocus_id: "732F3F1921B2464F"
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "space-station"
+	group: "5EEE1B83CA094132"
+	icon: "gtocore:planet_scan_satellite"
+	id: "3BF7BECF0C9F7ED9"
+	images: [
+		{
+			height: 14.4d
+			image: "ftbquests:textures/station-1.png"
+			rotation: 0.0d
+			width: 25.6d
+			x: 9.0d
+			y: -6.5d
+		}
+		{
+			height: 2.0d
+			image: "gtocore:item/circuit/suprachronal_hv"
+			rotation: 0.0d
+			width: 2.0d
+			x: 4.5d
+			y: -3.5d
+		}
+	]
+	order_index: 3
+	progression_mode: "linear"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["23E859D5CC9E4C8C"]
+			description: [
+				"空间站在太空中运行时，可以："
+				""
+				"- 为内部的机器提供&b太空工作环境&r"
+				"- 根据安装的过滤器方块的种类，为内部的机器提供&b超净环境&r "
+				"- 每秒试图向安装在外侧的&e光伏电站专用输出仓&r供给默认&b8mB蒸馏水/每仓&r（可配置）"
+				"- 为机器内的玩家提供可呼吸的空气"
+				""
+				"但是可惜，机器的运行&4并不是免费的&r，内部环境的维持需要供给&d1A EV/t的电&r&6持续消耗少量的资源&r，同时会排出废料"
+				""
+				"每10秒，机器需要："
+				"&b15 mB 蒸馏水&r "
+				"&b10 mB 火箭燃料&r "
+				"&b100mB 空气&r"
+			]
+			icon: "minecraft:spyglass"
+			id: "5FF554F6ADC5986B"
+			subtitle: "太空版超净间"
+			tasks: [{
+				id: "3F36201FCDE024CF"
+				type: "checkmark"
+			}]
+			title: "空间站机制详解"
+			x: 8.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["23E859D5CC9E4C8C"]
+			description: [
+				"格雷公司为了照顾新入职的员工，给员工第一个地球空间站的建造提供了相当力度的补贴"
+				"每个太空轨道上的建造都会提供&e一个成型的空间站&r，&e4个充能光伏电站&r，以及&b火箭燃料/蒸馏水/空气各80B&r"
+				""
+				"降落时一定要小心！不然&c降落仓会直接砸坏轨道空间站&r"
+				""
+				"启动前向安装的光伏电站提供一些&b蒸馏水&r可以保证空间站电力的自给"
+				""
+				"至于空间站里的机器的用电...自己带点&e电池箱&r或者使用&e火箭引擎小机器&r发电吧"
+			]
+			icon: "gtceu:gravitation_engine_unit"
+			id: "104B4AFDC1EB3C18"
+			tasks: [{
+				id: "02FBA902E5C75E50"
+				type: "checkmark"
+			}]
+			title: "空间站建造提示"
+			x: 2.0d
+			y: -8.5d
+		}
+		{
+			dependencies: [
+				"1D413C9604012CBA"
+				"23E859D5CC9E4C8C"
+			]
+			description: [
+				"这是一个更大的空间站！"
+				""
+				"内部的空间足以放置&9IV时代&r的&e工业大机器&r"
+				""
+				"同时每个空间站舱段还能&6与其他舱段相连&r来扩展整个空间站的空间与功能"
+				""
+				"除此之外，利用太空提供的特殊环境，在这里你还能建造一些舱室，来&6进行一些地面上不可能的材料处理&r"
+				""
+				"{@pagebreak}"
+				"工业空间站的舱段分为三种：&c核心舱&r，&e模块舱&r，&a衔接舱&r"
+				""
+				"&c核心舱&r、&e模块舱&r只能和&a衔接舱&r相连"
+				""
+				"而&a衔接舱&r可以与&e模块舱&r，以及&a衔接舱&r同类相连"
+			]
+			id: "58EC0AFA9742164A"
+			shape: "gear"
+			size: 1.0d
+			subtitle: "太空超净间ProMax"
+			tasks: [{
+				id: "7B1733047E7C39F8"
+				item: "gtocore:large_expandable_space_station_core_module"
+				type: "item"
+			}]
+			title: "工业空间站"
+			x: 6.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["58EC0AFA9742164A"]
+			id: "2FE6B8CD5AD66D79"
+			tasks: [{
+				id: "14BBB3B42E3CCDFB"
+				item: "gtocore:space_station_docking_module"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["58EC0AFA9742164A"]
+			id: "3CF1E00AC0A97828"
+			tasks: [{
+				id: "6FB0634CEEED5B7A"
+				item: "gtocore:space_station_transparent_docking_module"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["58EC0AFA9742164A"]
+			id: "55369274AB0561DF"
+			tasks: [{
+				id: "0092B1441C3AD7A0"
+				item: "gtocore:space_station_extension_module"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["58EC0AFA9742164A"]
+			id: "732F3F1921B2464F"
+			tasks: [{
+				id: "5BA359A8BE922BBF"
+				item: "gtocore:space_station_environmental_maintenance_module"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"55369274AB0561DF"
+				"732F3F1921B2464F"
+			]
+			id: "5A9B478B1791A425"
+			tasks: [{
+				id: "210911A56148590E"
+				item: "gtocore:orbital_smelting_facility"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["5A9B478B1791A425"]
+			id: "08CDFD0BB06E9A53"
+			tasks: [{
+				id: "7B678FBF61B0DCE7"
+				item: "gtocore:orbital_fine_materials_factory"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["08CDFD0BB06E9A53"]
+			id: "7D639CBD69B7AA61"
+			shape: "gear"
+			size: 1.0d
+			tasks: [{
+				id: "1AA90443D17D614C"
+				item: "gtocore:orbital_nanoprecision_processing_chamber"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["310210D2AD9515E3"]
+			description: [
+				"漂浮在&6太空&r中，&d几乎为零的重力环境&r能改善一些加工条件，使得某些高级材料的制作成为可能"
+				""
+				"不但如此，&e光伏电站&r在&6太空&r能得到最高的发电量"
+				""
+				"&l但是&r，将机器裸露在太空中是一个危险的决定，严苛的工作环境让绝大多数机器都无法正常的工作"
+				""
+				"&7能够承受住太空恶劣环境的机器均有机器提示标出&r"
+				""
+				"因此，你需要为机器建造一个&6真正的房子&r来让机器得以正常工作"
+				""
+				"[\"你现在可以去\",{ \"text\": \"穹宇居所\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"23E859D5CC9E4C8C\" } },\"章节看看了\"]"
+				"{@pagebreak}"
+				"&d你的第一个空间站（地球）所需材料列表&r"
+				"&8（可在EMI查看每个星球建造空间站所需材料清单）&r"
+				""
+				"空间站 * 1"
+				"洁净不锈钢外壳 *64"
+				"铝合金8090蒙皮机械方块 * 16"
+				"钛合金防护机械外壳 * 32"
+				"铝合金7050支撑机械方块 * 16"
+				"压力容器机械方块 * 16"
+				"过滤器机械方块 * 32"
+				"不锈钢GC-4框架 * 16"
+				"航天器密封机械方块 * 16"
+			]
+			icon: "gtocore:space_probe_mk1"
+			id: "23E859D5CC9E4C8C"
+			shape: "gear"
+			size: 1.5d
+			subtitle: "地轨道长期驻留"
+			tasks: [
+				{
+					dimension: "ad_astra:earth_orbit"
+					icon: "gtocore:space_probe_mk1"
+					id: "775042A87953835E"
+					title: "造访轨道空间站"
+					type: "dimension"
+				}
+				{
+					id: "52738870EC2B4600"
+					type: "checkmark"
+				}
+				{
+					id: "18EFA27B9C6AB7E8"
+					item: "gtocore:space_station"
+					type: "item"
+				}
+			]
+			title: "我们需要一个在太空中的房子"
+			x: 5.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["55369274AB0561DF"]
+			id: "711B491341721F3C"
+			tasks: [{
+				id: "7029F635AFE5C75D"
+				item: "gtocore:space_drone_dock"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["5A9B478B1791A425"]
+			id: "7CE4581B262B540F"
+			tasks: [{
+				id: "352BFFA5CC095106"
+				item: "gtocore:space_station_energy_conversion_module"
+				type: "item"
+			}]
+			x: 15.5d
+			y: -6.5d
+		}
+	]
+	subtitle: ["Aerospace Industry"]
+	title: "穹宇居所"
+}

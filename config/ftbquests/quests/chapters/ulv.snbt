@@ -25,8 +25,16 @@
 		{
 			id: "26DD69D6B9A64358"
 			linked_quest: "4AF39FF336EA1BF4"
+			shape: "diamond"
 			x: -2.0d
 			y: 1.5d
+		}
+		{
+			id: "391E63C2F15DE329"
+			linked_quest: "1A00DF4BC5C15459"
+			shape: "diamond"
+			x: -3.5d
+			y: 0.0d
 		}
 	]
 	quests: [
@@ -149,14 +157,23 @@
 			description: [
 				"这种黑色的液体会生成在地表以及地下，粘稠状，掉入其中就像掉到水里一样会扣减氧气"
 				""
-				"一桶只能舀走1B，所以如果你想一次性带走更多原油就需要更大的单元，如钢单元可以一次性装8B的单一流体；而铝单元可以装32B流体，不过你现在还没有铝，你在后两个阶段才能见到它……"
+				"一桶只能舀走&b1B&r，所以如果你想一次性带走更多原油就需要更大的单元，如&6钢单元&r可以一次性装&b8B&r的单一流体；而&6铝单元&r可以装&b32B&r流体，不过你现在还没有&6铝&r，你在&e下一个阶段&r才能见到它……"
 				""
 				"不过幸好我这里有，送你一个！"
 			]
 			id: "0861FADA4103BCA5"
 			rewards: [{
-				id: "525DC53DB6E58404"
-				item: "gtceu:aluminium_fluid_cell"
+				id: "18616F4AF8E967D8"
+				item: {
+					Count: 1
+					id: "gtceu:aluminium_fluid_cell"
+					tag: {
+						Fluid: {
+							Amount: 32000
+							FluidName: "gtceu:oil_medium"
+						}
+					}
+				}
 				type: "item"
 			}]
 			shape: "diamond"
@@ -172,7 +189,11 @@
 		}
 		{
 			dependencies: ["4ED89021AC92A0AE"]
-			description: ["蒸汽裂化机只能处理四种基础&6含硫油&r的配方，尽管产量&b偏低&r，但是它可以将基础油直接裂化为&6蒸汽裂化油&r"]
+			description: [
+				"蒸汽裂化机只能处理石化四种主要的中间产物（&6石脑油&r，&6炼油气&r，&6轻燃油&r，&6重燃油&r）"
+				""
+				"产量&b偏低&r，在HV能做&6裂化机&r后尽快换掉它"
+			]
 			id: "498D24745D509B73"
 			rewards: [{
 				id: "4C50916429573FD8"
@@ -286,6 +307,7 @@
 			description: ["在超低压时代先造一些凑活用点，后面电压上去了一定要换其他的机器来制作它"]
 			id: "03BB5A5C084F5194"
 			rewards: [{
+				count: 32
 				id: "2B4925A037EE1B1A"
 				item: "gtceu:polyethylene_plate"
 				type: "item"
@@ -357,7 +379,6 @@
 		}
 		{
 			dependencies: [
-				"53109F7472C0B443"
 				"2D5EB54D9AC2F900"
 				"0B7EC948A9BA56EF"
 				"206990570B2743AE"
@@ -370,13 +391,13 @@
 			id: "0FBE7318DFBA700E"
 			rewards: [
 				{
-					count: 3
+					count: 8
 					id: "3C78121873BC6B22"
 					item: "farmersdelight:hamburger"
 					type: "item"
 				}
 				{
-					count: 3
+					count: 8
 					id: "7FA716F5153C7B15"
 					item: "gtceu:basic_electronic_circuit"
 					type: "item"
@@ -402,6 +423,12 @@
 				"但依然不能突破传输上限，否则会导致导线融毁"
 			]
 			id: "4C1AA691B0A8EC24"
+			rewards: [{
+				count: 16
+				id: "0B34AF42043C63EC"
+				item: "gtceu:tin_single_cable"
+				type: "item"
+			}]
 			subtitle: "这可不能手搓"
 			tasks: [{
 				id: "58ABEF332F1C76E6"
@@ -437,41 +464,6 @@
 			}]
 			x: 6.5d
 			y: -5.0d
-		}
-		{
-			dependencies: ["1CA6E1AD1909373A"]
-			description: [
-				"通电后自动刷新神化BOSS，推荐搭建一个牢房"
-				""
-				"作为获取&5玄奥沙&r和&6神铸珍珠&r的唯一来源"
-				""
-				"主世界只能召唤出&2罕见&r和&b珍贵&r等级BOSS"
-				"下界召唤上限为&5史诗&r等级"
-				"末地召唤上限为&6传说&r等级"
-			]
-			id: "6EEEF20760158257"
-			rewards: [{
-				id: "0105CDF84D549110"
-				item: "gtocore:lv_power_amplifiers"
-				type: "item"
-			}]
-			shape: "diamond"
-			subtitle: "请确保你能干碎他们"
-			tasks: [
-				{
-					id: "392FFF20B3F662B7"
-					item: "gtocore:boss_summoner"
-					type: "item"
-				}
-				{
-					id: "5EF85CF9912D529F"
-					item: "gtceu:ulv_energy_input_hatch"
-					type: "item"
-				}
-			]
-			title: "&4BOSS召唤器&r"
-			x: -3.5d
-			y: 0.0d
 		}
 		{
 			dependencies: ["201D44A832961946"]
@@ -588,7 +580,7 @@
 			]
 			title: "氢，这边请"
 			x: 10.5d
-			y: -3.5d
+			y: -5.0d
 		}
 		{
 			dependencies: [
@@ -737,6 +729,12 @@
 				"每tick可以操作&432mb&r的液体，虽然不多，但也算是一个自动化的方案了"
 			]
 			id: "1CC2469A8203DE05"
+			rewards: [{
+				count: 8
+				id: "6F3F03FA8FCBC3A4"
+				item: "gtocore:ulv_electric_pump"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "但这不能抽原油"
 			tasks: [{
@@ -756,6 +754,12 @@
 				"以及你需要提升一下你的&6橡胶&r产量了"
 			]
 			id: "68AB0026ACD5103E"
+			rewards: [{
+				count: 8
+				id: "78768C9064C8C06D"
+				item: "gtocore:ulv_conveyor_module"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "凎，这东西怎么速度也没我快！"
 			tasks: [{
@@ -795,6 +799,12 @@
 			]
 			description: ["机械臂的合成就复杂很多了，所以前期的其他工作一定要处理好"]
 			id: "13A73FA0625AC68F"
+			rewards: [{
+				count: 8
+				id: "42D9E5D6A2531FA2"
+				item: "gtocore:ulv_robot_arm"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "速度还不如手搬呢！"
 			tasks: [{
@@ -814,6 +824,12 @@
 				"[\"\",{\"text\":\"超低压的时代的六件套主要需要\"},{ \"text\": \"铜\",\"color\":\"#e17c09\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"60976D12EFCED9C4\" } },{\"text\":\"和\"},{ \"text\": \"锡\",\"color\":\"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"17C2FCD590054742\" } },{\"text\":\"来制造，也是蒸汽时代的主要材料的延续\"}]"
 			]
 			id: "7D370CF55A0AE36D"
+			rewards: [{
+				count: 8
+				id: "46DB52559B32A949"
+				item: "gtocore:ulv_electric_motor"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "你还是多造点吧"
 			tasks: [{
@@ -833,6 +849,12 @@
 				"不过我猜你会喜欢由它合成的半流质发电机"
 			]
 			id: "0859B24E8AF3303F"
+			rewards: [{
+				count: 8
+				id: "4E68A5BC2B0E7FCD"
+				item: "gtocore:ulv_electric_piston"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "通往烦人之路"
 			tasks: [{
@@ -947,8 +969,8 @@
 				}
 			]
 			title: "剩下的三个家伙"
-			x: 8.5d
-			y: -0.5d
+			x: 10.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["561F5AACF437E7C5"]
@@ -970,7 +992,7 @@
 			]
 			title: "对，我要的就是你"
 			x: 10.5d
-			y: -2.0d
+			y: -3.5d
 		}
 		{
 			dependencies: [
@@ -1028,7 +1050,10 @@
 			y: -3.5d
 		}
 		{
-			dependencies: ["6E3C93AC06BB6F31"]
+			dependencies: [
+				"6E3C93AC06BB6F31"
+				"53109F7472C0B443"
+			]
 			description: ["显然，你目前只能选择产量最低的配方"]
 			id: "0B7EC948A9BA56EF"
 			shape: "circle"
@@ -1289,6 +1314,20 @@
 			}]
 			x: -3.511904761904759d
 			y: 2.8119047619047564d
+		}
+		{
+			dependencies: ["0FBE7318DFBA700E"]
+			id: "6CC4173B5BF99920"
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "解放双手"
+			tasks: [{
+				id: "74099FBE9992D542"
+				item: "gtocore:digital_miner"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
 		}
 	]
 	subtitle: ["Tier0.5-ULV"]

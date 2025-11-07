@@ -1,0 +1,2724 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "beyond-the-stars"
+	group: "48D03BA483B3FA87"
+	icon: {
+		Count: 1
+		id: "ad_astra_rocketed:tier_7_rocket"
+		tag: { }
+	}
+	id: "23D3589809B14740"
+	images: [
+		{
+			height: 1.0d
+			image: "gtocore:item/tier/t4"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.5d
+			y: 7.0d
+		}
+		{
+			height: 1.0d
+			image: "gtocore:item/tier/t5"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.5d
+			y: 10.0d
+		}
+		{
+			height: 1.0d
+			image: "gtocore:item/tier/t6"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.5d
+			y: 13.0d
+		}
+		{
+			height: 1.0d
+			image: "gtocore:item/tier/t7"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.5d
+			y: 16.0d
+		}
+		{
+			height: 1.0d
+			image: "gtocore:item/tier/t1"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.5d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "gtocore:item/tier/t2"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.5d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "gtocore:item/tier/t3"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.5d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "gtocore:item/tier/t1"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.25d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "gtocore:item/tier/t2"
+			rotation: 0.0d
+			width: 1.0d
+			x: 15.5d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "gtocore:item/tier/t3"
+			rotation: 0.0d
+			width: 1.0d
+			x: 25.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "gtocore:item/tier/t4"
+			rotation: 0.0d
+			width: 1.0d
+			x: 28.0d
+			y: 7.0d
+		}
+		{
+			height: 1.0d
+			image: "gtocore:item/tier/t5"
+			rotation: 0.0d
+			width: 1.0d
+			x: 22.5d
+			y: 12.0d
+		}
+		{
+			height: 1.0d
+			image: "gtocore:item/tier/t6"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.5d
+			y: 12.0d
+		}
+		{
+			height: 1.0d
+			image: "gtocore:item/tier/t7"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.5d
+			y: 12.0d
+		}
+		{
+			height: 1.0d
+			image: "gtocore:item/tier/t8"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: 12.0d
+		}
+		{
+			height: 1.0d
+			image: "gtocore:item/tier/t8"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.5d
+			y: 19.0d
+		}
+		{
+			height: 2.0d
+			image: "gtocore:item/circuit/suprachronal_hv"
+			rotation: 0.0d
+			width: 2.0d
+			x: -3.0d
+			y: -5.5d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6F760D81DC93ACFB"]
+			description: [
+				"{gto.beyond-the-stars.quests.38A6F2FA481A85E5.description0}"
+				""
+				"{gto.beyond-the-stars.quests.38A6F2FA481A85E5.description1}"
+				""
+				"{gto.beyond-the-stars.quests.38A6F2FA481A85E5.description2}"
+				""
+				"{gto.beyond-the-stars.quests.38A6F2FA481A85E5.description3}"
+				""
+				"{gto.beyond-the-stars.quests.38A6F2FA481A85E5.description4}"
+			]
+			id: "38A6F2FA481A85E5"
+			shape: "gear"
+			size: 3.0d
+			subtitle: "{gto.beyond-the-stars.quests.38A6F2FA481A85E5.subtitle}"
+			tasks: [{
+				id: "2557FB35308E5251"
+				item: "ad_astra:nasa_workbench"
+				type: "item"
+			}]
+			title: "{gto.beyond-the-stars.quests.38A6F2FA481A85E5.title}"
+			x: -4.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"38A6F2FA481A85E5"
+				"204F134A09B60140"
+			]
+			description: ["{gto.beyond-the-stars.quests.2C986BC7ECC4E1ED.description0}"]
+			id: "2C986BC7ECC4E1ED"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "{gto.beyond-the-stars.quests.2C986BC7ECC4E1ED.subtitle}"
+			tasks: [{
+				id: "629E261C994993A9"
+				item: "gtocore:rocket_assembler"
+				type: "item"
+			}]
+			x: -2.6d
+			y: -1.5d
+		}
+		{
+			dependencies: ["38A6F2FA481A85E5"]
+			description: [
+				"{gto.beyond-the-stars.quests.14546EE4309AA78A.description0}"
+				""
+				"{gto.beyond-the-stars.quests.14546EE4309AA78A.description1}"
+			]
+			id: "14546EE4309AA78A"
+			subtitle: "{gto.beyond-the-stars.quests.14546EE4309AA78A.subtitle}"
+			tasks: [{
+				id: "3D7C9BBB85879635"
+				item: "gtceu:dense_steel_plate"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["14546EE4309AA78A"]
+			description: [
+				"{gto.beyond-the-stars.quests.204F134A09B60140.description0}"
+				""
+				"{gto.beyond-the-stars.quests.204F134A09B60140.description1}"
+				"{gto.beyond-the-stars.quests.204F134A09B60140.description2}"
+				"{gto.beyond-the-stars.quests.204F134A09B60140.description3}"
+				"{gto.beyond-the-stars.quests.204F134A09B60140.description4}"
+				""
+				"{gto.beyond-the-stars.quests.204F134A09B60140.description5}"
+			]
+			id: "204F134A09B60140"
+			subtitle: "{gto.beyond-the-stars.quests.204F134A09B60140.subtitle}"
+			tasks: [{
+				id: "2FC998A553D29CB3"
+				item: "gtocore:heavy_duty_plate_1"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["38A6F2FA481A85E5"]
+			hide_dependency_lines: true
+			id: "60660678C61F2DB9"
+			tasks: [{
+				id: "60D9B99EFF404320"
+				item: "ad_astra:steel_tank"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["38A6F2FA481A85E5"]
+			hide_dependency_lines: true
+			id: "16BE3CF4436C5519"
+			tasks: [{
+				id: "08FE7B6908B0BB68"
+				item: "ad_astra:rocket_nose_cone"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["38A6F2FA481A85E5"]
+			hide_dependency_lines: true
+			id: "00F5434FFC976943"
+			tasks: [{
+				id: "11ED0C3AB03E7E41"
+				item: "ad_astra:rocket_fin"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["60660678C61F2DB9"]
+			id: "372C785E0B24DAD0"
+			tasks: [{
+				id: "4624100A8C4962D0"
+				item: "ad_astra:steel_engine"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"2C986BC7ECC4E1ED"
+				"16BE3CF4436C5519"
+				"60660678C61F2DB9"
+				"372C785E0B24DAD0"
+				"00F5434FFC976943"
+				"191A9B5DBD565F48"
+			]
+			description: ["{gto.beyond-the-stars.quests.5C067CA2FCE6B458.description0}"]
+			id: "5C067CA2FCE6B458"
+			shape: "gear"
+			size: 2.5d
+			subtitle: "{gto.beyond-the-stars.quests.5C067CA2FCE6B458.subtitle}"
+			tasks: [{
+				id: "043C5E14E16C1B35"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_1_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "{gto.beyond-the-stars.quests.5C067CA2FCE6B458.title}"
+			x: -1.25d
+			y: 1.0d
+		}
+		{
+			dependencies: ["38A6F2FA481A85E5"]
+			hide_dependency_lines: true
+			id: "191A9B5DBD565F48"
+			tasks: [{
+				id: "38DBF13B4F655709"
+				item: "ad_astra:launch_pad"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"6F760D81DC93ACFB"
+				"6D251F85DDB81408"
+				"38EF7B8DB3A08AB2"
+				"0C2743077DB8406F"
+			]
+			description: [
+				"{gto.beyond-the-stars.quests.15D4145A9704592D.description0}"
+				""
+				"{gto.beyond-the-stars.quests.15D4145A9704592D.description1}"
+				""
+				"{gto.beyond-the-stars.quests.15D4145A9704592D.description2}"
+			]
+			hide_dependency_lines: true
+			id: "15D4145A9704592D"
+			tasks: [{
+				id: "5BFF34DC9FEC7384"
+				item: "gtocore:planet_data_chip"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6F760D81DC93ACFB"]
+			description: [
+				"{gto.beyond-the-stars.quests.67D7CD83E40F6471.description0}"
+				""
+				"{gto.beyond-the-stars.quests.67D7CD83E40F6471.description1}"
+				""
+				"{gto.beyond-the-stars.quests.67D7CD83E40F6471.description2}"
+				""
+				"{gto.beyond-the-stars.quests.67D7CD83E40F6471.description3}"
+			]
+			id: "67D7CD83E40F6471"
+			tasks: [{
+				id: "77279C0E61724405"
+				item: "gtocore:planet_scan_satellite"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"6F760D81DC93ACFB"
+				"15D4145A9704592D"
+				"67D7CD83E40F6471"
+			]
+			description: [
+				"{gto.beyond-the-stars.quests.153B839DC21B36C5.description0}"
+				""
+				"{gto.beyond-the-stars.quests.153B839DC21B36C5.description1}"
+				""
+				"{gto.beyond-the-stars.quests.153B839DC21B36C5.description2}"
+				""
+				"{gto.beyond-the-stars.quests.153B839DC21B36C5.description3}"
+			]
+			id: "153B839DC21B36C5"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "{gto.beyond-the-stars.quests.153B839DC21B36C5.subtitle}"
+			tasks: [{
+				id: "0183F85A1A45CC36"
+				item: "gtocore:satellite_control_center"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"153B839DC21B36C5"
+				"5C067CA2FCE6B458"
+			]
+			description: [
+				"{gto.beyond-the-stars.quests.1BD5CACCF07947C7.description0}"
+				""
+				"{gto.beyond-the-stars.quests.1BD5CACCF07947C7.description1}"
+			]
+			icon: "ad_astra:earth_globe"
+			id: "1BD5CACCF07947C7"
+			size: 1.75d
+			subtitle: "{gto.beyond-the-stars.quests.1BD5CACCF07947C7.subtitle}"
+			tasks: [{
+				id: "1BAA0E07F05D0587"
+				type: "checkmark"
+			}]
+			title: "{gto.beyond-the-stars.quests.1BD5CACCF07947C7.title}"
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["38A6F2FA481A85E5"]
+			description: [
+				"{gto.beyond-the-stars.quests.40536B32E6A432CD.description0}"
+				"{gto.beyond-the-stars.quests.40536B32E6A432CD.description1}"
+			]
+			icon: "ad_astra:etrionic_core"
+			id: "40536B32E6A432CD"
+			subtitle: "{gto.beyond-the-stars.quests.40536B32E6A432CD.subtitle}"
+			title: "{gto.beyond-the-stars.quests.40536B32E6A432CD.title}"
+			x: -7.0d
+			y: -3.15d
+		}
+		{
+			dependencies: [
+				"7F6CB9F67636C565"
+				"40536B32E6A432CD"
+			]
+			description: [
+				"{gto.beyond-the-stars.quests.16B3AB1D455CCB50.description0}"
+				""
+				"{gto.beyond-the-stars.quests.16B3AB1D455CCB50.description1}"
+			]
+			id: "16B3AB1D455CCB50"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "{gto.beyond-the-stars.quests.16B3AB1D455CCB50.subtitle}"
+			tasks: [{
+				id: "25EE9615BE500843"
+				item: "enderio:rocket_fuel_bucket"
+				type: "item"
+			}]
+			title: "{gto.beyond-the-stars.quests.16B3AB1D455CCB50.title}"
+			x: -9.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"762B4A5D34A3A4B1"
+				"7C3A3C69E79DB794"
+				"0C63F8EC1AFEDE55"
+			]
+			id: "7F6CB9F67636C565"
+			tasks: [{
+				id: "6A3864F8DDF3E827"
+				item: "gtceu:dimethylhydrazine_bucket"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"6B7CAB754F778C09"
+				"1934F6B99DC0A294"
+			]
+			id: "0C63F8EC1AFEDE55"
+			tasks: [{
+				id: "46AA82A401522D04"
+				item: "gtceu:ammonia_bucket"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"1934F6B99DC0A294"
+				"31617336D062DBDE"
+			]
+			id: "762B4A5D34A3A4B1"
+			tasks: [{
+				id: "20D9E59974B3956E"
+				item: "gtceu:methanol_bucket"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"1979ACE02FD1FFEA"
+				"0BA4AFD79925EF42"
+			]
+			id: "7C3A3C69E79DB794"
+			tasks: [{
+				id: "7E5F50DA3CC7326A"
+				item: "gtceu:hypochlorous_acid_bucket"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -2.0d
+		}
+		{
+			id: "1934F6B99DC0A294"
+			tasks: [{
+				id: "12D4E5C7754DA3DD"
+				item: "ad_astra:hydrogen_bucket"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -5.0d
+		}
+		{
+			id: "6B7CAB754F778C09"
+			tasks: [{
+				id: "333A0E37B3BD8D56"
+				item: "gtceu:nitrogen_bucket"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -5.0d
+		}
+		{
+			id: "31617336D062DBDE"
+			tasks: [
+				{
+					id: "3502C02DE231D37C"
+					item: "gtceu:carbon_dioxide_bucket"
+					type: "item"
+				}
+				{
+					id: "4CDFC1F2BDFF3CC3"
+					item: "gtceu:carbon_monoxide_bucket"
+					type: "item"
+				}
+			]
+			x: -13.0d
+			y: -5.0d
+		}
+		{
+			id: "0BA4AFD79925EF42"
+			tasks: [{
+				id: "028CDD8407DB2F3C"
+				item: "gtceu:chlorine_bucket"
+				type: "item"
+			}]
+			x: -15.0d
+			y: -2.0d
+		}
+		{
+			id: "1979ACE02FD1FFEA"
+			tasks: [{
+				id: "78FE9410241C9917"
+				item: "gtceu:mercury_bucket"
+				type: "item"
+			}]
+			x: -14.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"7A7DC6205DED9BF3"
+				"38A6F2FA481A85E5"
+			]
+			description: [
+				"{gto.beyond-the-stars.quests.7FE2763143958129.description0}"
+				""
+				"{gto.beyond-the-stars.quests.7FE2763143958129.description1}"
+				""
+				"{gto.beyond-the-stars.quests.7FE2763143958129.description2}"
+				""
+				"{gto.beyond-the-stars.quests.7FE2763143958129.description3}"
+			]
+			hide_dependency_lines: true
+			id: "7FE2763143958129"
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "{gto.beyond-the-stars.quests.7FE2763143958129.subtitle}"
+			tasks: [
+				{
+					id: "3A453FDEFEFF23B1"
+					item: {
+						Count: 1
+						id: "ad_astra:space_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0EAB1229F1C445B4"
+					item: {
+						Count: 1
+						id: "ad_astra:space_suit"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4114E6005ADFD9DE"
+					item: {
+						Count: 1
+						id: "ad_astra:space_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "60513354DC07CE8A"
+					item: {
+						Count: 1
+						id: "ad_astra:space_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{gto.beyond-the-stars.quests.7FE2763143958129.title}"
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"7A7DC6205DED9BF3"
+				"38A6F2FA481A85E5"
+			]
+			description: [
+				"{gto.beyond-the-stars.quests.1D57ED21E8AD1A26.description0}"
+				""
+				"{gto.beyond-the-stars.quests.1D57ED21E8AD1A26.description1}"
+				""
+				"{gto.beyond-the-stars.quests.1D57ED21E8AD1A26.description2}"
+				""
+				"{gto.beyond-the-stars.quests.1D57ED21E8AD1A26.description3}"
+			]
+			hide_dependency_lines: true
+			id: "1D57ED21E8AD1A26"
+			rewards: [{
+				id: "6B918E6B2EF24972"
+				item: "gtocore:organ_modifier"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "{gto.beyond-the-stars.quests.1D57ED21E8AD1A26.subtitle}"
+			tasks: [
+				{
+					id: "7482613DF83CF3B9"
+					item: "gtocore:tier_1_eye"
+					type: "item"
+				}
+				{
+					id: "5D22942A65B73CD8"
+					item: "gtocore:tier_1_spine"
+					type: "item"
+				}
+				{
+					id: "66B593535ADC6BA5"
+					item: "gtocore:tier_1_lung"
+					type: "item"
+				}
+				{
+					id: "6A1F86089471CE6B"
+					item: "gtocore:tier_1_liver"
+					type: "item"
+				}
+				{
+					id: "75152D9FCAF46167"
+					item: "gtocore:tier_1_heart"
+					type: "item"
+				}
+				{
+					id: "4C050F847F428485"
+					item: "gtocore:tier_1_left_arm"
+					type: "item"
+				}
+				{
+					id: "1B35A788E48D14C6"
+					item: "gtocore:tier_1_right_arm"
+					type: "item"
+				}
+				{
+					id: "5DF415E83E5DA568"
+					item: "gtocore:tier_1_left_leg"
+					type: "item"
+				}
+				{
+					id: "15F69E12126CBE7C"
+					item: "gtocore:tier_1_right_leg"
+					type: "item"
+				}
+			]
+			title: "{gto.beyond-the-stars.quests.1D57ED21E8AD1A26.title}"
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"39A7B09F3213E0C8"
+				"408CD587E28DFDCA"
+				"7329A824F8F1CDFF"
+				"2A9088FA11D26BDD"
+				"4AED8DE6D6175D97"
+				"1D57ED21E8AD1A26"
+				"7FE2763143958129"
+				"1BD5CACCF07947C7"
+			]
+			description: [
+				"{gto.beyond-the-stars.quests.61C37EC8503FFDD9.description0}"
+				""
+				"{gto.beyond-the-stars.quests.61C37EC8503FFDD9.description1}"
+				""
+				"{gto.beyond-the-stars.quests.61C37EC8503FFDD9.description2}"
+				""
+				"{gto.beyond-the-stars.quests.61C37EC8503FFDD9.description3}"
+				"{@pagebreak}"
+				"{gto.beyond-the-stars.quests.61C37EC8503FFDD9.description4}"
+				""
+				"[\"\", {\"color\": \"#89847e\", \"translate\": \"gto.beyond-the-stars.quests.61C37EC8503FFDD9.description5.rich_text0\"}, {\"color\": \"#fafeff\", \"translate\": \"gto.beyond-the-stars.quests.61C37EC8503FFDD9.description5.rich_text1\"}, {\"translate\": \"gto.beyond-the-stars.quests.61C37EC8503FFDD9.description5.rich_text2\"}, {\"color\": \"#89847e\", \"translate\": \"gto.beyond-the-stars.quests.61C37EC8503FFDD9.description5.rich_text3\"}]"
+				"[\"\", {\"color\": \"#cfb853\", \"translate\": \"gto.beyond-the-stars.quests.61C37EC8503FFDD9.description6.rich_text0\"}, {\"color\": \"#cfb853\", \"translate\": \"gto.beyond-the-stars.quests.61C37EC8503FFDD9.description6.rich_text1\"}, {\"translate\": \"gto.beyond-the-stars.quests.61C37EC8503FFDD9.description6.rich_text2\"}, {\"color\": \"#2b2a24\", \"translate\": \"gto.beyond-the-stars.quests.61C37EC8503FFDD9.description6.rich_text3\"}, {\"translate\": \"gto.beyond-the-stars.quests.61C37EC8503FFDD9.description6.rich_text4\"}, {\"color\": \"#7db9d8\", \"translate\": \"gto.beyond-the-stars.quests.61C37EC8503FFDD9.description6.rich_text5\"}]"
+				"[\"\", {\"color\": \"#9d9d9d\", \"translate\": \"gto.beyond-the-stars.quests.61C37EC8503FFDD9.description7.rich_text0\"}, {\"color\": \"#9d9d9d\", \"translate\": \"gto.beyond-the-stars.quests.61C37EC8503FFDD9.description7.rich_text1\"}, {\"translate\": \"gto.beyond-the-stars.quests.61C37EC8503FFDD9.description7.rich_text2\"}, {\"color\": \"#505d70\", \"translate\": \"gto.beyond-the-stars.quests.61C37EC8503FFDD9.description7.rich_text3\"}, {\"translate\": \"gto.beyond-the-stars.quests.61C37EC8503FFDD9.description7.rich_text4\"}, {\"color\": \"#fdf55f\", \"translate\": \"gto.beyond-the-stars.quests.61C37EC8503FFDD9.description7.rich_text5\"}]"
+				"[\"\", {\"color\": \"#ffd647\", \"translate\": \"gto.beyond-the-stars.quests.61C37EC8503FFDD9.description8.rich_text0\"}, {\"color\": \"#ffd647\", \"translate\": \"gto.beyond-the-stars.quests.61C37EC8503FFDD9.description8.rich_text1\"}, {\"translate\": \"gto.beyond-the-stars.quests.61C37EC8503FFDD9.description8.rich_text2\"}, {\"color\": \"#ffd52e\", \"translate\": \"gto.beyond-the-stars.quests.61C37EC8503FFDD9.description8.rich_text3\"}]"
+				"[\"\", {\"color\": \"#caab60\", \"translate\": \"gto.beyond-the-stars.quests.61C37EC8503FFDD9.description9.rich_text0\"}, {\"color\": \"#caab60\", \"translate\": \"gto.beyond-the-stars.quests.61C37EC8503FFDD9.description9.rich_text1\"}, {\"translate\": \"gto.beyond-the-stars.quests.61C37EC8503FFDD9.description9.rich_text2\"}, {\"color\": \"#d0ee98\", \"translate\": \"gto.beyond-the-stars.quests.61C37EC8503FFDD9.description9.rich_text3\"}, {\"translate\": \"gto.beyond-the-stars.quests.61C37EC8503FFDD9.description9.rich_text4\"}, {\"color\": \"#6c5863\", \"translate\": \"gto.beyond-the-stars.quests.61C37EC8503FFDD9.description9.rich_text5\"}]"
+				"[\"\", {\"color\": \"#5a7261\", \"translate\": \"gto.beyond-the-stars.quests.61C37EC8503FFDD9.description10.rich_text0\"}, {\"color\": \"#5a7261\", \"translate\": \"gto.beyond-the-stars.quests.61C37EC8503FFDD9.description10.rich_text1\"}, {\"translate\": \"gto.beyond-the-stars.quests.61C37EC8503FFDD9.description10.rich_text2\"}, {\"color\": \"#ebffe9\", \"translate\": \"gto.beyond-the-stars.quests.61C37EC8503FFDD9.description10.rich_text3\"}, {\"translate\": \"gto.beyond-the-stars.quests.61C37EC8503FFDD9.description10.rich_text4\"}, {\"color\": \"#1da351\", \"translate\": \"gto.beyond-the-stars.quests.61C37EC8503FFDD9.description10.rich_text5\"}, {\"translate\": \"gto.beyond-the-stars.quests.61C37EC8503FFDD9.description10.rich_text6\"}, {\"color\": \"#e3cf13\", \"translate\": \"gto.beyond-the-stars.quests.61C37EC8503FFDD9.description10.rich_text7\"}]"
+				"[\"\", {\"color\": \"#cc4c25\", \"translate\": \"gto.beyond-the-stars.quests.61C37EC8503FFDD9.description11.rich_text0\"}, {\"color\": \"#89847e\", \"translate\": \"gto.beyond-the-stars.quests.61C37EC8503FFDD9.description11.rich_text1\"}, {\"translate\": \"gto.beyond-the-stars.quests.61C37EC8503FFDD9.description11.rich_text2\"}, {\"color\": \"#cc4c25\", \"translate\": \"gto.beyond-the-stars.quests.61C37EC8503FFDD9.description11.rich_text3\"}, {\"translate\": \"gto.beyond-the-stars.quests.61C37EC8503FFDD9.description11.rich_text4\"}, {\"color\": \"#E6E6E6\", \"translate\": \"gto.beyond-the-stars.quests.61C37EC8503FFDD9.description11.rich_text5\"}, {\"translate\": \"gto.beyond-the-stars.quests.61C37EC8503FFDD9.description11.rich_text6\"}, {\"color\": \"#fffafa\", \"translate\": \"gto.beyond-the-stars.quests.61C37EC8503FFDD9.description11.rich_text7\"}]"
+			]
+			icon: "ad_astra:moon_globe"
+			icon_scale: 1.5d
+			id: "61C37EC8503FFDD9"
+			rewards: [{
+				id: "20216E4D2D0D0265"
+				item: "ad_astra:moon_globe"
+				type: "item"
+			}]
+			shape: "none"
+			size: 2.0d
+			subtitle: "{gto.beyond-the-stars.quests.61C37EC8503FFDD9.subtitle}"
+			tasks: [{
+				dimension: "ad_astra:moon"
+				id: "613C5FC415D7E617"
+				type: "dimension"
+			}]
+			title: "{gto.beyond-the-stars.quests.61C37EC8503FFDD9.title}"
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"21F34E0000FD10CC"
+				"16B6F1CEA28F2D42"
+				"16B3AB1D455CCB50"
+			]
+			description: [
+				"{gto.beyond-the-stars.quests.6C645FDD0CF3C52A.description0}"
+				""
+				"{gto.beyond-the-stars.quests.6C645FDD0CF3C52A.description1}"
+			]
+			id: "6C645FDD0CF3C52A"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "{gto.beyond-the-stars.quests.6C645FDD0CF3C52A.subtitle}"
+			tasks: [{
+				id: "7C924195EC353447"
+				item: "gtocore:rocket_fuel_rp_1_bucket"
+				type: "item"
+			}]
+			title: "{gto.beyond-the-stars.quests.6C645FDD0CF3C52A.title}"
+			x: -9.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["61C37EC8503FFDD9"]
+			description: [
+				"{gto.beyond-the-stars.quests.69AED014FEDA7997.description0}"
+				""
+				"{gto.beyond-the-stars.quests.69AED014FEDA7997.description1}"
+			]
+			id: "69AED014FEDA7997"
+			subtitle: "{gto.beyond-the-stars.quests.69AED014FEDA7997.subtitle}"
+			tasks: [
+				{
+					id: "292904C3EDCD58AF"
+					item: "gtceu:helium_3_bucket"
+					type: "item"
+				}
+				{
+					id: "4196672A73181C34"
+					item: "gtceu:helium_bucket"
+					type: "item"
+				}
+			]
+			title: "{gto.beyond-the-stars.quests.69AED014FEDA7997.title}"
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"4EE27291636F444E"
+				"0A046D102CBD3493"
+			]
+			id: "5063FBBAA841AE4E"
+			tasks: [{
+				id: "0E098E4AB6854A07"
+				item: "gtocore:heavy_duty_plate_2"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5063FBBAA841AE4E"]
+			description: ["{gto.beyond-the-stars.quests.3ABEFC9B7DA3F098.description0}"]
+			id: "3ABEFC9B7DA3F098"
+			shape: "gear"
+			size: 2.5d
+			subtitle: "{gto.beyond-the-stars.quests.3ABEFC9B7DA3F098.subtitle}"
+			tasks: [{
+				id: "4E052513B65F8144"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_2_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "{gto.beyond-the-stars.quests.3ABEFC9B7DA3F098.title}"
+			x: 14.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["40D50D3FC5EA5D9D"]
+			id: "64FA0FF3FE276D35"
+			tasks: [{
+				id: "09AE0B91B0AC3AF1"
+				item: "gtocore:heavy_duty_plate_3"
+				type: "item"
+			}]
+			x: 21.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4BA3FA62A307DBC5"]
+			description: ["{gto.beyond-the-stars.quests.40D50D3FC5EA5D9D.description0}"]
+			id: "40D50D3FC5EA5D9D"
+			subtitle: "{gto.beyond-the-stars.quests.40D50D3FC5EA5D9D.subtitle}"
+			tasks: [
+				{
+					id: "4AE95F9F2E475546"
+					item: "gtceu:raw_scheelite"
+					type: "item"
+				}
+				{
+					id: "253E9678ED42291C"
+					item: "gtceu:raw_tungstate"
+					type: "item"
+				}
+				{
+					id: "2944E420107E5763"
+					item: "gtceu:raw_lithium"
+					type: "item"
+				}
+			]
+			title: "{gto.beyond-the-stars.quests.40D50D3FC5EA5D9D.title}"
+			x: 19.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4BA3FA62A307DBC5"]
+			description: [
+				"{gto.beyond-the-stars.quests.7662AEC801BD79CC.description0}"
+				""
+				"{gto.beyond-the-stars.quests.7662AEC801BD79CC.description1}"
+			]
+			id: "7662AEC801BD79CC"
+			subtitle: "{gto.beyond-the-stars.quests.7662AEC801BD79CC.subtitle}"
+			tasks: [{
+				id: "5AE2A4204E137F9F"
+				item: "gtceu:radon_bucket"
+				type: "item"
+			}]
+			title: "{gto.beyond-the-stars.quests.7662AEC801BD79CC.title}"
+			x: 17.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["64FA0FF3FE276D35"]
+			description: ["{gto.beyond-the-stars.quests.121D770436AE99CE.description0}"]
+			id: "121D770436AE99CE"
+			shape: "gear"
+			size: 2.5d
+			subtitle: "{gto.beyond-the-stars.quests.121D770436AE99CE.subtitle}"
+			tasks: [{
+				id: "3F4CFA5B6266FC92"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_3_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "{gto.beyond-the-stars.quests.121D770436AE99CE.title}"
+			x: 24.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3ABEFC9B7DA3F098"]
+			description: [
+				"{gto.beyond-the-stars.quests.4BA3FA62A307DBC5.description0}"
+				""
+				"[\"\", {\"color\": \"#d7e8b3\", \"translate\": \"gto.beyond-the-stars.quests.4BA3FA62A307DBC5.description1.rich_text0\"}, {\"color\": \"#d7e8b3\", \"translate\": \"gto.beyond-the-stars.quests.4BA3FA62A307DBC5.description1.rich_text1\"}, {\"translate\": \"gto.beyond-the-stars.quests.4BA3FA62A307DBC5.description1.rich_text2\"}, {\"color\": \"#3b3a32\", \"translate\": \"gto.beyond-the-stars.quests.4BA3FA62A307DBC5.description1.rich_text3\"}, {\"translate\": \"gto.beyond-the-stars.quests.4BA3FA62A307DBC5.description1.rich_text4\"}, {\"color\": \"#d7e7ee\", \"translate\": \"gto.beyond-the-stars.quests.4BA3FA62A307DBC5.description1.rich_text5\"}]"
+				"[\"\", {\"color\": \"#a3a09b\", \"translate\": \"gto.beyond-the-stars.quests.4BA3FA62A307DBC5.description2.rich_text0\"}, {\"color\": \"#a3a09b\", \"translate\": \"gto.beyond-the-stars.quests.4BA3FA62A307DBC5.description2.rich_text1\"}, {\"translate\": \"gto.beyond-the-stars.quests.4BA3FA62A307DBC5.description2.rich_text2\"}, {\"color\": \"#e77c56\", \"translate\": \"gto.beyond-the-stars.quests.4BA3FA62A307DBC5.description2.rich_text3\"}, {\"translate\": \"gto.beyond-the-stars.quests.4BA3FA62A307DBC5.description2.rich_text4\"}, {\"color\": \"#656565\", \"translate\": \"gto.beyond-the-stars.quests.4BA3FA62A307DBC5.description2.rich_text5\"}]"
+				"[\"\", {\"color\": \"#ecfeff\", \"translate\": \"gto.beyond-the-stars.quests.4BA3FA62A307DBC5.description3.rich_text0\"}, {\"color\": \"#d5ffff\", \"translate\": \"gto.beyond-the-stars.quests.4BA3FA62A307DBC5.description3.rich_text1\"}, {\"translate\": \"gto.beyond-the-stars.quests.4BA3FA62A307DBC5.description3.rich_text2\"}, {\"color\": \"#ecfeff\", \"translate\": \"gto.beyond-the-stars.quests.4BA3FA62A307DBC5.description3.rich_text3\"}, {\"translate\": \"gto.beyond-the-stars.quests.4BA3FA62A307DBC5.description3.rich_text4\"}, {\"color\": \"#eed9e1\", \"translate\": \"gto.beyond-the-stars.quests.4BA3FA62A307DBC5.description3.rich_text5\"}]"
+				"[\"\", {\"color\": \"#9d9d9d\", \"translate\": \"gto.beyond-the-stars.quests.4BA3FA62A307DBC5.description4.rich_text0\"}, {\"color\": \"#9d9d9d\", \"translate\": \"gto.beyond-the-stars.quests.4BA3FA62A307DBC5.description4.rich_text1\"}, {\"translate\": \"gto.beyond-the-stars.quests.4BA3FA62A307DBC5.description4.rich_text2\"}, {\"color\": \"#505d70\", \"translate\": \"gto.beyond-the-stars.quests.4BA3FA62A307DBC5.description4.rich_text3\"}, {\"translate\": \"gto.beyond-the-stars.quests.4BA3FA62A307DBC5.description4.rich_text4\"}, {\"color\": \"#fdf55f\", \"translate\": \"gto.beyond-the-stars.quests.4BA3FA62A307DBC5.description4.rich_text5\"}]"
+				"[\"\", {\"color\": \"#06cdf1\", \"translate\": \"gto.beyond-the-stars.quests.4BA3FA62A307DBC5.description5.rich_text0\"}, {\"color\": \"#06cdf1\", \"translate\": \"gto.beyond-the-stars.quests.4BA3FA62A307DBC5.description5.rich_text1\"}, {\"translate\": \"gto.beyond-the-stars.quests.4BA3FA62A307DBC5.description5.rich_text2\"}, {\"color\": \"#fffddb\", \"translate\": \"gto.beyond-the-stars.quests.4BA3FA62A307DBC5.description5.rich_text3\"}, {\"translate\": \"gto.beyond-the-stars.quests.4BA3FA62A307DBC5.description5.rich_text4\"}, {\"color\": \"#5b4838\", \"translate\": \"gto.beyond-the-stars.quests.4BA3FA62A307DBC5.description5.rich_text5\"}]"
+				"[\"\", {\"color\": \"#e77c56\", \"translate\": \"gto.beyond-the-stars.quests.4BA3FA62A307DBC5.description6.rich_text0\"}, {\"color\": \"#96c185\", \"translate\": \"gto.beyond-the-stars.quests.4BA3FA62A307DBC5.description6.rich_text1\"}, {\"translate\": \"gto.beyond-the-stars.quests.4BA3FA62A307DBC5.description6.rich_text2\"}, {\"color\": \"#eeeeee\", \"translate\": \"gto.beyond-the-stars.quests.4BA3FA62A307DBC5.description6.rich_text3\"}, {\"translate\": \"gto.beyond-the-stars.quests.4BA3FA62A307DBC5.description6.rich_text4\"}, {\"color\": \"#fffee6\", \"translate\": \"gto.beyond-the-stars.quests.4BA3FA62A307DBC5.description6.rich_text5\"}, {\"translate\": \"gto.beyond-the-stars.quests.4BA3FA62A307DBC5.description6.rich_text6\"}, {\"color\": \"#e77c56\", \"translate\": \"gto.beyond-the-stars.quests.4BA3FA62A307DBC5.description6.rich_text7\"}]"
+				"[\"\", {\"color\": \"#fff4ba\", \"translate\": \"gto.beyond-the-stars.quests.4BA3FA62A307DBC5.description7.rich_text0\"}, {\"color\": \"#ffe05a\", \"translate\": \"gto.beyond-the-stars.quests.4BA3FA62A307DBC5.description7.rich_text1\"}, {\"translate\": \"gto.beyond-the-stars.quests.4BA3FA62A307DBC5.description7.rich_text2\"}, {\"color\": \"#665f2f\", \"translate\": \"gto.beyond-the-stars.quests.4BA3FA62A307DBC5.description7.rich_text3\"}, {\"translate\": \"gto.beyond-the-stars.quests.4BA3FA62A307DBC5.description7.rich_text4\"}, {\"color\": \"#fff4ba\", \"translate\": \"gto.beyond-the-stars.quests.4BA3FA62A307DBC5.description7.rich_text5\"}, {\"translate\": \"gto.beyond-the-stars.quests.4BA3FA62A307DBC5.description7.rich_text6\"}, {\"color\": \"#bd92b5\", \"translate\": \"gto.beyond-the-stars.quests.4BA3FA62A307DBC5.description7.rich_text7\"}]"
+				"[\"\", {\"color\": \"#E6E6E6\", \"translate\": \"gto.beyond-the-stars.quests.4BA3FA62A307DBC5.description8.rich_text0\"}, {\"color\": \"#E6E6E6\", \"translate\": \"gto.beyond-the-stars.quests.4BA3FA62A307DBC5.description8.rich_text1\"}, {\"translate\": \"gto.beyond-the-stars.quests.4BA3FA62A307DBC5.description8.rich_text2\"}, {\"color\": \"#fffafa\", \"translate\": \"gto.beyond-the-stars.quests.4BA3FA62A307DBC5.description8.rich_text3\"}, {\"translate\": \"gto.beyond-the-stars.quests.4BA3FA62A307DBC5.description8.rich_text4\"}, {\"color\": \"#83cbf5\", \"translate\": \"gto.beyond-the-stars.quests.4BA3FA62A307DBC5.description8.rich_text5\"}, {\"translate\": \"gto.beyond-the-stars.quests.4BA3FA62A307DBC5.description8.rich_text6\"}, {\"color\": \"#fbd677\", \"translate\": \"gto.beyond-the-stars.quests.4BA3FA62A307DBC5.description8.rich_text7\"}]"
+				"[\"\", {\"color\": \"#97873a\", \"translate\": \"gto.beyond-the-stars.quests.4BA3FA62A307DBC5.description9.rich_text0\"}, {\"color\": \"#97873a\", \"translate\": \"gto.beyond-the-stars.quests.4BA3FA62A307DBC5.description9.rich_text1\"}, {\"translate\": \"gto.beyond-the-stars.quests.4BA3FA62A307DBC5.description9.rich_text2\"}, {\"color\": \"#f5e315\", \"translate\": \"gto.beyond-the-stars.quests.4BA3FA62A307DBC5.description9.rich_text3\"}, {\"translate\": \"gto.beyond-the-stars.quests.4BA3FA62A307DBC5.description9.rich_text4\"}, {\"color\": \"#ff7161\", \"translate\": \"gto.beyond-the-stars.quests.4BA3FA62A307DBC5.description9.rich_text5\"}, {\"translate\": \"gto.beyond-the-stars.quests.4BA3FA62A307DBC5.description9.rich_text6\"}, {\"color\": \"#00f1b0\", \"translate\": \"gto.beyond-the-stars.quests.4BA3FA62A307DBC5.description9.rich_text7\"}]"
+				"[\"\", {\"color\": \"#950c15\", \"translate\": \"gto.beyond-the-stars.quests.4BA3FA62A307DBC5.description10.rich_text0\"}, {\"color\": \"#950c15\", \"translate\": \"gto.beyond-the-stars.quests.4BA3FA62A307DBC5.description10.rich_text1\"}, {\"translate\": \"gto.beyond-the-stars.quests.4BA3FA62A307DBC5.description10.rich_text2\"}, {\"color\": \"#f6ff09\", \"translate\": \"gto.beyond-the-stars.quests.4BA3FA62A307DBC5.description10.rich_text3\"}, {\"translate\": \"gto.beyond-the-stars.quests.4BA3FA62A307DBC5.description10.rich_text4\"}, {\"color\": \"#cfa0f3\", \"translate\": \"gto.beyond-the-stars.quests.4BA3FA62A307DBC5.description10.rich_text5\"}, {\"translate\": \"gto.beyond-the-stars.quests.4BA3FA62A307DBC5.description10.rich_text6\"}, {\"color\": \"#D8BFD8\", \"translate\": \"gto.beyond-the-stars.quests.4BA3FA62A307DBC5.description10.rich_text7\"}]"
+				"[\"\", {\"color\": \"#5c5c5c\", \"translate\": \"gto.beyond-the-stars.quests.4BA3FA62A307DBC5.description11.rich_text0\"}, {\"color\": \"#5c5c5c\", \"translate\": \"gto.beyond-the-stars.quests.4BA3FA62A307DBC5.description11.rich_text1\"}, {\"translate\": \"gto.beyond-the-stars.quests.4BA3FA62A307DBC5.description11.rich_text2\"}, {\"color\": \"#d69077\", \"translate\": \"gto.beyond-the-stars.quests.4BA3FA62A307DBC5.description11.rich_text3\"}, {\"translate\": \"gto.beyond-the-stars.quests.4BA3FA62A307DBC5.description11.rich_text4\"}, {\"color\": \"#f3efbb\", \"translate\": \"gto.beyond-the-stars.quests.4BA3FA62A307DBC5.description11.rich_text5\"}, {\"translate\": \"gto.beyond-the-stars.quests.4BA3FA62A307DBC5.description11.rich_text6\"}, {\"color\": \"#fffaec\", \"translate\": \"gto.beyond-the-stars.quests.4BA3FA62A307DBC5.description11.rich_text7\"}]"
+				"[\"\", {\"color\": \"#fafafa\", \"translate\": \"gto.beyond-the-stars.quests.4BA3FA62A307DBC5.description12.rich_text0\"}, {\"color\": \"#fafafa\", \"translate\": \"gto.beyond-the-stars.quests.4BA3FA62A307DBC5.description12.rich_text1\"}, {\"translate\": \"gto.beyond-the-stars.quests.4BA3FA62A307DBC5.description12.rich_text2\"}, {\"color\": \"#fafafa\", \"translate\": \"gto.beyond-the-stars.quests.4BA3FA62A307DBC5.description12.rich_text3\"}, {\"translate\": \"gto.beyond-the-stars.quests.4BA3FA62A307DBC5.description12.rich_text4\"}, {\"color\": \"#ffeae1\", \"translate\": \"gto.beyond-the-stars.quests.4BA3FA62A307DBC5.description12.rich_text5\"}, {\"translate\": \"gto.beyond-the-stars.quests.4BA3FA62A307DBC5.description12.rich_text6\"}, {\"color\": \"#ffdae4\", \"translate\": \"gto.beyond-the-stars.quests.4BA3FA62A307DBC5.description12.rich_text7\"}]"
+			]
+			icon: "ad_astra:mars_globe"
+			icon_scale: 1.5d
+			id: "4BA3FA62A307DBC5"
+			rewards: [{
+				id: "2AF5C09312F3C5C3"
+				item: "ad_astra:mars_globe"
+				type: "item"
+			}]
+			shape: "none"
+			size: 2.0d
+			subtitle: "{gto.beyond-the-stars.quests.4BA3FA62A307DBC5.subtitle}"
+			tasks: [{
+				dimension: "ad_astra:mars"
+				id: "1F4A217E3A926DA6"
+				type: "dimension"
+			}]
+			title: "{gto.beyond-the-stars.quests.4BA3FA62A307DBC5.title}"
+			x: 17.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2F6C81E3B10365E8"]
+			description: ["{gto.beyond-the-stars.quests.2D901DBE68F833D2.description0}"]
+			id: "2D901DBE68F833D2"
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "{gto.beyond-the-stars.quests.2D901DBE68F833D2.subtitle}"
+			tasks: [
+				{
+					id: "33C0ED7425E296E7"
+					item: "gtocore:tier_2_eye"
+					type: "item"
+				}
+				{
+					id: "2EF24DF1BFC6F2A3"
+					item: "gtocore:tier_2_spine"
+					type: "item"
+				}
+				{
+					id: "3EC887D8F09B0F31"
+					item: "gtocore:tier_2_lung"
+					type: "item"
+				}
+				{
+					id: "1D3AC5F3BE1F29BA"
+					item: "gtocore:tier_2_heart"
+					type: "item"
+				}
+				{
+					id: "7DABBFF58E31AFDF"
+					item: "gtocore:tier_2_left_arm"
+					type: "item"
+				}
+				{
+					id: "219885FD7A2D21A7"
+					item: "gtocore:tier_2_right_arm"
+					type: "item"
+				}
+				{
+					id: "6D70651D5C494199"
+					item: "gtocore:tier_2_left_leg"
+					type: "item"
+				}
+				{
+					id: "1F183757D6E03332"
+					item: "gtocore:tier_2_right_leg"
+					type: "item"
+				}
+				{
+					id: "18B3E41AA28D17FC"
+					item: "gtocore:tier_2_liver"
+					type: "item"
+				}
+			]
+			title: "{gto.beyond-the-stars.quests.2D901DBE68F833D2.title}"
+			x: 27.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["52F43DFB331C72C6"]
+			description: [
+				"{gto.beyond-the-stars.quests.27771E52B49806B6.description0}"
+				""
+				"[\"\", {\"color\": \"#C8FFFF\", \"translate\": \"gto.beyond-the-stars.quests.27771E52B49806B6.description1.rich_text0\"}, {\"color\": \"#e65757\", \"translate\": \"gto.beyond-the-stars.quests.27771E52B49806B6.description1.rich_text1\"}, {\"translate\": \"gto.beyond-the-stars.quests.27771E52B49806B6.description1.rich_text2\"}, {\"color\": \"#5050FA\", \"translate\": \"gto.beyond-the-stars.quests.27771E52B49806B6.description1.rich_text3\"}, {\"translate\": \"gto.beyond-the-stars.quests.27771E52B49806B6.description1.rich_text4\"}, {\"color\": \"#5b4838\", \"translate\": \"gto.beyond-the-stars.quests.27771E52B49806B6.description1.rich_text5\"}]"
+				"[\"\", {\"color\": \"#96c185\", \"translate\": \"gto.beyond-the-stars.quests.27771E52B49806B6.description2.rich_text0\"}, {\"color\": \"#96c185\", \"translate\": \"gto.beyond-the-stars.quests.27771E52B49806B6.description2.rich_text1\"}, {\"translate\": \"gto.beyond-the-stars.quests.27771E52B49806B6.description2.rich_text2\"}, {\"color\": \"#f2e3e0\", \"translate\": \"gto.beyond-the-stars.quests.27771E52B49806B6.description2.rich_text3\"}, {\"translate\": \"gto.beyond-the-stars.quests.27771E52B49806B6.description2.rich_text4\"}, {\"color\": \"#89847e\", \"translate\": \"gto.beyond-the-stars.quests.27771E52B49806B6.description2.rich_text5\"}, {\"translate\": \"gto.beyond-the-stars.quests.27771E52B49806B6.description2.rich_text6\"}, {\"color\": \"#ff3d33\", \"translate\": \"gto.beyond-the-stars.quests.27771E52B49806B6.description2.rich_text7\"}]"
+				"[\"\", {\"color\": \"#fff4ba\", \"translate\": \"gto.beyond-the-stars.quests.27771E52B49806B6.description3.rich_text0\"}, {\"color\": \"#ffe05a\", \"translate\": \"gto.beyond-the-stars.quests.27771E52B49806B6.description3.rich_text1\"}, {\"translate\": \"gto.beyond-the-stars.quests.27771E52B49806B6.description3.rich_text2\"}, {\"color\": \"#665f2f\", \"translate\": \"gto.beyond-the-stars.quests.27771E52B49806B6.description3.rich_text3\"}, {\"translate\": \"gto.beyond-the-stars.quests.27771E52B49806B6.description3.rich_text4\"}, {\"color\": \"#fff4ba\", \"translate\": \"gto.beyond-the-stars.quests.27771E52B49806B6.description3.rich_text5\"}, {\"translate\": \"gto.beyond-the-stars.quests.27771E52B49806B6.description3.rich_text6\"}, {\"color\": \"#bd92b5\", \"translate\": \"gto.beyond-the-stars.quests.27771E52B49806B6.description3.rich_text7\"}]"
+				"[\"\", {\"color\": \"#E6E6E6\", \"translate\": \"gto.beyond-the-stars.quests.27771E52B49806B6.description4.rich_text0\"}, {\"color\": \"#E6E6E6\", \"translate\": \"gto.beyond-the-stars.quests.27771E52B49806B6.description4.rich_text1\"}, {\"translate\": \"gto.beyond-the-stars.quests.27771E52B49806B6.description4.rich_text2\"}, {\"color\": \"#fffafa\", \"translate\": \"gto.beyond-the-stars.quests.27771E52B49806B6.description4.rich_text3\"}, {\"translate\": \"gto.beyond-the-stars.quests.27771E52B49806B6.description4.rich_text4\"}, {\"color\": \"#83cbf5\", \"translate\": \"gto.beyond-the-stars.quests.27771E52B49806B6.description4.rich_text5\"}, {\"translate\": \"gto.beyond-the-stars.quests.27771E52B49806B6.description4.rich_text6\"}, {\"color\": \"#fbd677\", \"translate\": \"gto.beyond-the-stars.quests.27771E52B49806B6.description4.rich_text7\"}]"
+				"[\"\", {\"color\": \"#ccdff5\", \"translate\": \"gto.beyond-the-stars.quests.27771E52B49806B6.description5.rich_text0\"}, {\"color\": \"#32c880\", \"translate\": \"gto.beyond-the-stars.quests.27771E52B49806B6.description5.rich_text1\"}, {\"translate\": \"gto.beyond-the-stars.quests.27771E52B49806B6.description5.rich_text2\"}, {\"color\": \"#ccdff5\", \"translate\": \"gto.beyond-the-stars.quests.27771E52B49806B6.description5.rich_text3\"}, {\"translate\": \"gto.beyond-the-stars.quests.27771E52B49806B6.description5.rich_text4\"}, {\"color\": \"#1975ff\", \"translate\": \"gto.beyond-the-stars.quests.27771E52B49806B6.description5.rich_text5\"}, {\"translate\": \"gto.beyond-the-stars.quests.27771E52B49806B6.description5.rich_text6\"}, {\"color\": \"#e3cf13\", \"translate\": \"gto.beyond-the-stars.quests.27771E52B49806B6.description5.rich_text7\"}]"
+				"[\"\", {\"color\": \"#e8d73a\", \"translate\": \"gto.beyond-the-stars.quests.27771E52B49806B6.description6.rich_text0\"}, {\"color\": \"#dbfeff\", \"translate\": \"gto.beyond-the-stars.quests.27771E52B49806B6.description6.rich_text1\"}, {\"translate\": \"gto.beyond-the-stars.quests.27771E52B49806B6.description6.rich_text2\"}, {\"color\": \"#e8d73a\", \"translate\": \"gto.beyond-the-stars.quests.27771E52B49806B6.description6.rich_text3\"}, {\"translate\": \"gto.beyond-the-stars.quests.27771E52B49806B6.description6.rich_text4\"}, {\"color\": \"#657882\", \"translate\": \"gto.beyond-the-stars.quests.27771E52B49806B6.description6.rich_text5\"}, {\"translate\": \"gto.beyond-the-stars.quests.27771E52B49806B6.description6.rich_text6\"}, {\"color\": \"#ffe05a\", \"translate\": \"gto.beyond-the-stars.quests.27771E52B49806B6.description6.rich_text7\"}]"
+				"[\"\", {\"color\": \"#ffb777\", \"translate\": \"gto.beyond-the-stars.quests.27771E52B49806B6.description7.rich_text0\"}, {\"color\": \"#ffb777\", \"translate\": \"gto.beyond-the-stars.quests.27771E52B49806B6.description7.rich_text1\"}, {\"translate\": \"gto.beyond-the-stars.quests.27771E52B49806B6.description7.rich_text2\"}, {\"color\": \"#ffa81e\", \"translate\": \"gto.beyond-the-stars.quests.27771E52B49806B6.description7.rich_text3\"}, {\"translate\": \"gto.beyond-the-stars.quests.27771E52B49806B6.description7.rich_text4\"}, {\"color\": \"#c7b5ab\", \"translate\": \"gto.beyond-the-stars.quests.27771E52B49806B6.description7.rich_text5\"}, {\"translate\": \"gto.beyond-the-stars.quests.27771E52B49806B6.description7.rich_text6\"}, {\"color\": \"#4e6b94\", \"translate\": \"gto.beyond-the-stars.quests.27771E52B49806B6.description7.rich_text7\"}]"
+			]
+			icon: "ad_astra:mercury_globe"
+			icon_scale: 1.5d
+			id: "27771E52B49806B6"
+			rewards: [{
+				id: "51333DB8D8B61BE2"
+				item: "ad_astra:mercury_globe"
+				type: "item"
+			}]
+			shape: "none"
+			size: 2.0d
+			subtitle: "{gto.beyond-the-stars.quests.27771E52B49806B6.subtitle}"
+			tasks: [{
+				dimension: "ad_astra:mercury"
+				id: "40485040BF76D7B3"
+				type: "dimension"
+			}]
+			title: "{gto.beyond-the-stars.quests.27771E52B49806B6.title}"
+			x: 22.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["34391A7A0D1E8CB6"]
+			id: "21F34E0000FD10CC"
+			tasks: [{
+				id: "6A176F61DE3F18B9"
+				item: "gtocore:rp_1_bucket"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 1.0d
+		}
+		{
+			id: "34391A7A0D1E8CB6"
+			tasks: [{
+				id: "0AFD72B5DCEE5DC8"
+				item: "gtocore:kerosene_bucket"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["63CCBDEBF0E99D29"]
+			id: "16B6F1CEA28F2D42"
+			tasks: [{
+				id: "1263A65B7E9EF28A"
+				item: "gtceu:liquid_oxygen_bucket"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -0.5d
+		}
+		{
+			id: "63CCBDEBF0E99D29"
+			tasks: [{
+				id: "7DEE739A71B6EE4C"
+				item: "gtocore:high_pressure_oxygen_bucket"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4BA3FA62A307DBC5"]
+			description: ["[\"\", {\"translate\": \"gto.beyond-the-stars.quests.55FCF330DABADFB1.description0.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"033815C0756BAE1F\"}, \"translate\": \"gto.beyond-the-stars.quests.55FCF330DABADFB1.description0.rich_text1\"}, {\"translate\": \"gto.beyond-the-stars.quests.55FCF330DABADFB1.description0.rich_text2\"}]"]
+			id: "55FCF330DABADFB1"
+			subtitle: "{gto.beyond-the-stars.quests.55FCF330DABADFB1.subtitle}"
+			tasks: [
+				{
+					id: "7D82C9A5A722A6DB"
+					item: "gtceu:raw_cooperite"
+					type: "item"
+				}
+				{
+					id: "72BF2FDCCAB32B13"
+					item: "gtceu:raw_platinum"
+					type: "item"
+				}
+				{
+					id: "0A4B2F357F6A466E"
+					item: "gtceu:raw_palladium"
+					type: "item"
+				}
+				{
+					id: "48838F4F36C40ACD"
+					item: "gtceu:raw_bornite"
+					type: "item"
+				}
+			]
+			title: "{gto.beyond-the-stars.quests.55FCF330DABADFB1.title}"
+			x: 17.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["27771E52B49806B6"]
+			description: [
+				"[\"\", {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"383B710C58CEA6AF\"}, \"translate\": \"gto.beyond-the-stars.quests.479707D18AD5181B.description0.rich_text0\"}, {\"translate\": \"gto.beyond-the-stars.quests.479707D18AD5181B.description0.rich_text1\"}]"
+				""
+				"{gto.beyond-the-stars.quests.479707D18AD5181B.description1}"
+			]
+			hide_dependent_lines: true
+			id: "479707D18AD5181B"
+			subtitle: "{gto.beyond-the-stars.quests.479707D18AD5181B.subtitle}"
+			tasks: [
+				{
+					id: "5AAC64040FB1B944"
+					item: "ad_astra:raw_calorite"
+					type: "item"
+				}
+				{
+					id: "2BFDF78A34ED1E80"
+					item: "gtceu:raw_cobalt"
+					type: "item"
+				}
+				{
+					id: "5E89DDB3B056C506"
+					item: "gtceu:raw_pyrochlore"
+					type: "item"
+				}
+			]
+			title: "{gto.beyond-the-stars.quests.479707D18AD5181B.title}"
+			x: 22.5d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"121D770436AE99CE"
+				"2D901DBE68F833D2"
+			]
+			description: [
+				"{gto.beyond-the-stars.quests.0FA017F31EF08F19.description0}"
+				""
+				"[\"\", {\"color\": \"#f2a057\", \"translate\": \"gto.beyond-the-stars.quests.0FA017F31EF08F19.description1.rich_text0\"}, {\"color\": \"#f2a057\", \"translate\": \"gto.beyond-the-stars.quests.0FA017F31EF08F19.description1.rich_text1\"}, {\"translate\": \"gto.beyond-the-stars.quests.0FA017F31EF08F19.description1.rich_text2\"}, {\"color\": \"#fbfbf6\", \"translate\": \"gto.beyond-the-stars.quests.0FA017F31EF08F19.description1.rich_text3\"}]"
+				"[\"\", {\"color\": \"#f3e8fa\", \"translate\": \"gto.beyond-the-stars.quests.0FA017F31EF08F19.description2.rich_text0\"}, {\"color\": \"#f3e8fa\", \"translate\": \"gto.beyond-the-stars.quests.0FA017F31EF08F19.description2.rich_text1\"}, {\"translate\": \"gto.beyond-the-stars.quests.0FA017F31EF08F19.description2.rich_text2\"}, {\"color\": \"#DCDCFF\", \"translate\": \"gto.beyond-the-stars.quests.0FA017F31EF08F19.description2.rich_text3\"}, {\"translate\": \"gto.beyond-the-stars.quests.0FA017F31EF08F19.description2.rich_text4\"}, {\"color\": \"#7e6f82\", \"translate\": \"gto.beyond-the-stars.quests.0FA017F31EF08F19.description2.rich_text5\"}]"
+				"[\"\", {\"color\": \"#fdff31\", \"translate\": \"gto.beyond-the-stars.quests.0FA017F31EF08F19.description3.rich_text0\"}, {\"color\": \"#fdff31\", \"translate\": \"gto.beyond-the-stars.quests.0FA017F31EF08F19.description3.rich_text1\"}, {\"translate\": \"gto.beyond-the-stars.quests.0FA017F31EF08F19.description3.rich_text2\"}, {\"color\": \"#fffee6\", \"translate\": \"gto.beyond-the-stars.quests.0FA017F31EF08F19.description3.rich_text3\"}, {\"translate\": \"gto.beyond-the-stars.quests.0FA017F31EF08F19.description3.rich_text4\"}, {\"color\": \"#ffdc88\", \"translate\": \"gto.beyond-the-stars.quests.0FA017F31EF08F19.description3.rich_text5\"}]"
+				"[\"\", {\"color\": \"#C8FFFF\", \"translate\": \"gto.beyond-the-stars.quests.0FA017F31EF08F19.description4.rich_text0\"}, {\"color\": \"#a8a89e\", \"translate\": \"gto.beyond-the-stars.quests.0FA017F31EF08F19.description4.rich_text1\"}, {\"translate\": \"gto.beyond-the-stars.quests.0FA017F31EF08F19.description4.rich_text2\"}, {\"color\": \"#C8FFFF\", \"translate\": \"gto.beyond-the-stars.quests.0FA017F31EF08F19.description4.rich_text3\"}, {\"translate\": \"gto.beyond-the-stars.quests.0FA017F31EF08F19.description4.rich_text4\"}, {\"color\": \"#393e41\", \"translate\": \"gto.beyond-the-stars.quests.0FA017F31EF08F19.description4.rich_text5\"}]"
+				"[\"\", {\"color\": \"#9d9d9d\", \"translate\": \"gto.beyond-the-stars.quests.0FA017F31EF08F19.description5.rich_text0\"}, {\"color\": \"#9d9d9d\", \"translate\": \"gto.beyond-the-stars.quests.0FA017F31EF08F19.description5.rich_text1\"}, {\"translate\": \"gto.beyond-the-stars.quests.0FA017F31EF08F19.description5.rich_text2\"}, {\"color\": \"#2b2a24\", \"translate\": \"gto.beyond-the-stars.quests.0FA017F31EF08F19.description5.rich_text3\"}, {\"translate\": \"gto.beyond-the-stars.quests.0FA017F31EF08F19.description5.rich_text4\"}, {\"color\": \"#c5c1a8\", \"translate\": \"gto.beyond-the-stars.quests.0FA017F31EF08F19.description5.rich_text5\"}]"
+				"[\"\", {\"color\": \"#e3ddc3\", \"translate\": \"gto.beyond-the-stars.quests.0FA017F31EF08F19.description6.rich_text0\"}, {\"color\": \"#ff9000\", \"translate\": \"gto.beyond-the-stars.quests.0FA017F31EF08F19.description6.rich_text1\"}, {\"translate\": \"gto.beyond-the-stars.quests.0FA017F31EF08F19.description6.rich_text2\"}, {\"color\": \"#e3ddc3\", \"translate\": \"gto.beyond-the-stars.quests.0FA017F31EF08F19.description6.rich_text3\"}, {\"translate\": \"gto.beyond-the-stars.quests.0FA017F31EF08F19.description6.rich_text4\"}, {\"color\": \"#404068\", \"translate\": \"gto.beyond-the-stars.quests.0FA017F31EF08F19.description6.rich_text5\"}, {\"translate\": \"gto.beyond-the-stars.quests.0FA017F31EF08F19.description6.rich_text6\"}, {\"color\": \"#d8cfac\", \"translate\": \"gto.beyond-the-stars.quests.0FA017F31EF08F19.description6.rich_text7\"}]"
+				"[\"\", {\"color\": \"#97873a\", \"translate\": \"gto.beyond-the-stars.quests.0FA017F31EF08F19.description7.rich_text0\"}, {\"color\": \"#97873a\", \"translate\": \"gto.beyond-the-stars.quests.0FA017F31EF08F19.description7.rich_text1\"}, {\"translate\": \"gto.beyond-the-stars.quests.0FA017F31EF08F19.description7.rich_text2\"}, {\"color\": \"#f5e315\", \"translate\": \"gto.beyond-the-stars.quests.0FA017F31EF08F19.description7.rich_text3\"}, {\"translate\": \"gto.beyond-the-stars.quests.0FA017F31EF08F19.description7.rich_text4\"}, {\"color\": \"#ff7161\", \"translate\": \"gto.beyond-the-stars.quests.0FA017F31EF08F19.description7.rich_text5\"}, {\"translate\": \"gto.beyond-the-stars.quests.0FA017F31EF08F19.description7.rich_text6\"}, {\"color\": \"#fdf55f\", \"translate\": \"gto.beyond-the-stars.quests.0FA017F31EF08F19.description7.rich_text7\"}]"
+				"[\"\", {\"color\": \"#a7e404\", \"translate\": \"gto.beyond-the-stars.quests.0FA017F31EF08F19.description8.rich_text0\"}, {\"color\": \"#ede8a3\", \"translate\": \"gto.beyond-the-stars.quests.0FA017F31EF08F19.description8.rich_text1\"}, {\"translate\": \"gto.beyond-the-stars.quests.0FA017F31EF08F19.description8.rich_text2\"}, {\"color\": \"#9d9d9d\", \"translate\": \"gto.beyond-the-stars.quests.0FA017F31EF08F19.description8.rich_text3\"}, {\"translate\": \"gto.beyond-the-stars.quests.0FA017F31EF08F19.description8.rich_text4\"}, {\"color\": \"#a7e404\", \"translate\": \"gto.beyond-the-stars.quests.0FA017F31EF08F19.description8.rich_text5\"}, {\"translate\": \"gto.beyond-the-stars.quests.0FA017F31EF08F19.description8.rich_text6\"}, {\"color\": \"#1da351\", \"translate\": \"gto.beyond-the-stars.quests.0FA017F31EF08F19.description8.rich_text7\"}]"
+				"[\"\", {\"color\": \"#fafafa\", \"translate\": \"gto.beyond-the-stars.quests.0FA017F31EF08F19.description9.rich_text0\"}, {\"color\": \"#fafafa\", \"translate\": \"gto.beyond-the-stars.quests.0FA017F31EF08F19.description9.rich_text1\"}, {\"translate\": \"gto.beyond-the-stars.quests.0FA017F31EF08F19.description9.rich_text2\"}, {\"color\": \"#fafafa\", \"translate\": \"gto.beyond-the-stars.quests.0FA017F31EF08F19.description9.rich_text3\"}, {\"translate\": \"gto.beyond-the-stars.quests.0FA017F31EF08F19.description9.rich_text4\"}, {\"color\": \"#ffeae1\", \"translate\": \"gto.beyond-the-stars.quests.0FA017F31EF08F19.description9.rich_text5\"}, {\"translate\": \"gto.beyond-the-stars.quests.0FA017F31EF08F19.description9.rich_text6\"}, {\"color\": \"#ffdae4\", \"translate\": \"gto.beyond-the-stars.quests.0FA017F31EF08F19.description9.rich_text7\"}]"
+			]
+			icon: "ad_astra:venus_globe"
+			icon_scale: 1.5d
+			id: "0FA017F31EF08F19"
+			rewards: [{
+				id: "2E3FCBC50D8F42D2"
+				item: "ad_astra:venus_globe"
+				type: "item"
+			}]
+			shape: "none"
+			size: 2.0d
+			subtitle: "{gto.beyond-the-stars.quests.0FA017F31EF08F19.subtitle}"
+			tasks: [{
+				dimension: "ad_astra:venus"
+				id: "6FDD5D9AFC0FB99C"
+				type: "dimension"
+			}]
+			title: "{gto.beyond-the-stars.quests.0FA017F31EF08F19.title}"
+			x: 27.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["27771E52B49806B6"]
+			description: ["{gto.beyond-the-stars.quests.0D47C721AD61B0D6.description0}"]
+			id: "0D47C721AD61B0D6"
+			subtitle: "{gto.beyond-the-stars.quests.0D47C721AD61B0D6.subtitle}"
+			tasks: [{
+				id: "1A2AE269F29745D8"
+				item: "gtceu:deuterium_bucket"
+				type: "item"
+			}]
+			title: "{gto.beyond-the-stars.quests.0D47C721AD61B0D6.title}"
+			x: 20.5d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"17324D4DD97218DA"
+				"6C645FDD0CF3C52A"
+			]
+			description: [
+				"{gto.beyond-the-stars.quests.637E8174DF8EA186.description0}"
+				""
+				"{gto.beyond-the-stars.quests.637E8174DF8EA186.description1}"
+				""
+				"{gto.beyond-the-stars.quests.637E8174DF8EA186.description2}"
+			]
+			id: "637E8174DF8EA186"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "{gto.beyond-the-stars.quests.637E8174DF8EA186.subtitle}"
+			tasks: [{
+				id: "7EEC6C0D854EE625"
+				item: "gtocore:dense_hydrazine_fuel_mixture_bucket"
+				type: "item"
+			}]
+			title: "{gto.beyond-the-stars.quests.637E8174DF8EA186.title}"
+			x: -9.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["68063150194F78B2"]
+			id: "17324D4DD97218DA"
+			tasks: [{
+				id: "791F544007F5C44B"
+				item: "gtocore:hydrazine_bucket"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"73C01EC9D0386D60"
+				"6924A3A7911E2F3B"
+			]
+			description: ["{gto.beyond-the-stars.quests.68063150194F78B2.description0}"]
+			id: "68063150194F78B2"
+			tasks: [{
+				id: "53864576DBC33BC3"
+				item: "gtceu:hydrogen_peroxide_bucket"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 4.0d
+		}
+		{
+			id: "73C01EC9D0386D60"
+			tasks: [{
+				id: "2499D6CA9DC93682"
+				item: "gtocore:anthracene_bucket"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7171DE9F90EA9B98"]
+			id: "6924A3A7911E2F3B"
+			tasks: [{
+				id: "2D10548B6DBD2F40"
+				item: "gtocore:ethylanthrahydroquinone_bucket"
+				type: "item"
+			}]
+			x: -14.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["32ECB55F2F81A733"]
+			id: "7171DE9F90EA9B98"
+			tasks: [{
+				id: "394B23E00FE9E216"
+				item: "gtocore:ethylanthraquinone_bucket"
+				type: "item"
+			}]
+			x: -15.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0722FCD257F887E1"]
+			id: "32ECB55F2F81A733"
+			tasks: [{
+				id: "752C5BD644704115"
+				item: "gtocore:phthalic_anhydride_dust"
+				type: "item"
+			}]
+			x: -17.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"5C25C0DBA2F295BC"
+				"7819A5BABF1D103D"
+			]
+			dependency_requirement: "one_completed"
+			description: ["{gto.beyond-the-stars.quests.0722FCD257F887E1.description0}"]
+			id: "0722FCD257F887E1"
+			tasks: [{
+				id: "4990E4E42B5DEF42"
+				item: "gtceu:phthalic_acid_bucket"
+				type: "item"
+			}]
+			x: -18.5d
+			y: 4.0d
+		}
+		{
+			id: "04132175DE54AF89"
+			tasks: [{
+				id: "0E08F606E60557B7"
+				item: "gtceu:potassium_dichromate_dust"
+				type: "item"
+			}]
+			x: -19.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"0C60C5B1FE950A2D"
+				"04132175DE54AF89"
+			]
+			description: ["{gto.beyond-the-stars.quests.5C25C0DBA2F295BC.description0}"]
+			id: "5C25C0DBA2F295BC"
+			tasks: [{
+				id: "491E65A7DD441C7A"
+				type: "checkmark"
+			}]
+			title: "{gto.beyond-the-stars.quests.5C25C0DBA2F295BC.title}"
+			x: -18.5d
+			y: 2.5d
+		}
+		{
+			id: "0C60C5B1FE950A2D"
+			tasks: [{
+				id: "433E5F7660DB579B"
+				item: "gtceu:dimethylbenzene_bucket"
+				type: "item"
+			}]
+			x: -17.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"336C48E022910CC6"
+				"17E01888FDA360DD"
+			]
+			description: ["{gto.beyond-the-stars.quests.7819A5BABF1D103D.description0}"]
+			id: "7819A5BABF1D103D"
+			tasks: [{
+				id: "63C3C74E240DE7B1"
+				type: "checkmark"
+			}]
+			title: "{gto.beyond-the-stars.quests.7819A5BABF1D103D.title}"
+			x: -20.0d
+			y: 4.0d
+		}
+		{
+			id: "336C48E022910CC6"
+			tasks: [{
+				id: "14A75B587CEE2F56"
+				item: "gtceu:naphthalene_bucket"
+				type: "item"
+			}]
+			x: -21.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0FA017F31EF08F19"]
+			description: ["{gto.beyond-the-stars.quests.28F541BD5C97C37D.description0}"]
+			id: "28F541BD5C97C37D"
+			subtitle: "{gto.beyond-the-stars.quests.28F541BD5C97C37D.subtitle}"
+			tasks: [{
+				id: "1C462AD9877FF1C4"
+				item: "gtceu:sulfuric_acid_bucket"
+				type: "item"
+			}]
+			title: "{gto.beyond-the-stars.quests.28F541BD5C97C37D.title}"
+			x: 25.0d
+			y: 3.0d
+		}
+		{
+			id: "17E01888FDA360DD"
+			tasks: [{
+				id: "1B5FF575C5E1AAB9"
+				item: "gtceu:sulfuric_acid_bucket"
+				type: "item"
+			}]
+			x: -21.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0FA017F31EF08F19"]
+			description: ["[\"\", {\"color\": \"#FF9933\", \"translate\": \"gto.beyond-the-stars.quests.56F034904D31D9FB.description0.rich_text0\"}, {\"translate\": \"gto.beyond-the-stars.quests.56F034904D31D9FB.description0.rich_text1\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"52F43DFB331C72C6\"}, \"translate\": \"gto.beyond-the-stars.quests.56F034904D31D9FB.description0.rich_text2\"}, {\"translate\": \"gto.beyond-the-stars.quests.56F034904D31D9FB.description0.rich_text3\"}]"]
+			id: "56F034904D31D9FB"
+			subtitle: "{gto.beyond-the-stars.quests.56F034904D31D9FB.subtitle}"
+			tasks: [
+				{
+					id: "33F7A4A1D0028C49"
+					item: "ad_astra:raw_desh"
+					type: "item"
+				}
+				{
+					id: "7329848EF1653D65"
+					item: "gtceu:raw_magnesite"
+					type: "item"
+				}
+			]
+			title: "{gto.beyond-the-stars.quests.56F034904D31D9FB.title}"
+			x: 27.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"56F034904D31D9FB"
+				"601DBD60E46AC35B"
+			]
+			id: "3CD22DCF237D3331"
+			tasks: [{
+				id: "295CB25D4C116104"
+				item: "gtocore:dense_desh_plate"
+				type: "item"
+			}]
+			x: 27.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3CD22DCF237D3331"]
+			id: "340039CBDC85B76D"
+			tasks: [{
+				id: "75AF3DFB564EDF8A"
+				item: "ad_astra:desh_tank"
+				type: "item"
+			}]
+			x: 26.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3CD22DCF237D3331"]
+			id: "646DBDD65771EA95"
+			tasks: [{
+				id: "7EED602A8FBFCB56"
+				item: "ad_astra:desh_engine"
+				type: "item"
+			}]
+			x: 27.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"646DBDD65771EA95"
+				"340039CBDC85B76D"
+			]
+			description: ["{gto.beyond-the-stars.quests.52F43DFB331C72C6.description0}"]
+			id: "52F43DFB331C72C6"
+			shape: "gear"
+			size: 2.5d
+			subtitle: "{gto.beyond-the-stars.quests.52F43DFB331C72C6.subtitle}"
+			tasks: [{
+				id: "7A0372688AAE09A3"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_4_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "{gto.beyond-the-stars.quests.52F43DFB331C72C6.title}"
+			x: 27.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["52F43DFB331C72C6"]
+			description: [
+				"{gto.beyond-the-stars.quests.136025CCB32D6AFE.description0}"
+				""
+				"[\"\", {\"color\": \"#fdf55f\", \"translate\": \"gto.beyond-the-stars.quests.136025CCB32D6AFE.description1.rich_text0\"}, {\"color\": \"#e5939b\", \"translate\": \"gto.beyond-the-stars.quests.136025CCB32D6AFE.description1.rich_text1\"}, {\"translate\": \"gto.beyond-the-stars.quests.136025CCB32D6AFE.description1.rich_text2\"}, {\"color\": \"#fdf55f\", \"translate\": \"gto.beyond-the-stars.quests.136025CCB32D6AFE.description1.rich_text3\"}]"
+				"[\"\", {\"color\": \"#d7e8b3\", \"translate\": \"gto.beyond-the-stars.quests.136025CCB32D6AFE.description2.rich_text0\"}, {\"color\": \"#d7e8b3\", \"translate\": \"gto.beyond-the-stars.quests.136025CCB32D6AFE.description2.rich_text1\"}, {\"translate\": \"gto.beyond-the-stars.quests.136025CCB32D6AFE.description2.rich_text2\"}, {\"color\": \"#3b3a32\", \"translate\": \"gto.beyond-the-stars.quests.136025CCB32D6AFE.description2.rich_text3\"}, {\"translate\": \"gto.beyond-the-stars.quests.136025CCB32D6AFE.description2.rich_text4\"}, {\"color\": \"#d7e7ee\", \"translate\": \"gto.beyond-the-stars.quests.136025CCB32D6AFE.description2.rich_text5\"}]"
+				"[\"\", {\"color\": \"#caab60\", \"translate\": \"gto.beyond-the-stars.quests.136025CCB32D6AFE.description3.rich_text0\"}, {\"color\": \"#caab60\", \"translate\": \"gto.beyond-the-stars.quests.136025CCB32D6AFE.description3.rich_text1\"}, {\"translate\": \"gto.beyond-the-stars.quests.136025CCB32D6AFE.description3.rich_text2\"}, {\"color\": \"#d0ee98\", \"translate\": \"gto.beyond-the-stars.quests.136025CCB32D6AFE.description3.rich_text3\"}, {\"translate\": \"gto.beyond-the-stars.quests.136025CCB32D6AFE.description3.rich_text4\"}, {\"color\": \"#6c5863\", \"translate\": \"gto.beyond-the-stars.quests.136025CCB32D6AFE.description3.rich_text5\"}]"
+				"[\"\", {\"color\": \"#96c185\", \"translate\": \"gto.beyond-the-stars.quests.136025CCB32D6AFE.description4.rich_text0\"}, {\"color\": \"#96c185\", \"translate\": \"gto.beyond-the-stars.quests.136025CCB32D6AFE.description4.rich_text1\"}, {\"translate\": \"gto.beyond-the-stars.quests.136025CCB32D6AFE.description4.rich_text2\"}, {\"color\": \"#f2e3e0\", \"translate\": \"gto.beyond-the-stars.quests.136025CCB32D6AFE.description4.rich_text3\"}, {\"translate\": \"gto.beyond-the-stars.quests.136025CCB32D6AFE.description4.rich_text4\"}, {\"color\": \"#89847e\", \"translate\": \"gto.beyond-the-stars.quests.136025CCB32D6AFE.description4.rich_text5\"}, {\"translate\": \"gto.beyond-the-stars.quests.136025CCB32D6AFE.description4.rich_text6\"}, {\"color\": \"#ff3d33\", \"translate\": \"gto.beyond-the-stars.quests.136025CCB32D6AFE.description4.rich_text7\"}]"
+				"[\"\", {\"color\": \"#97873a\", \"translate\": \"gto.beyond-the-stars.quests.136025CCB32D6AFE.description5.rich_text0\"}, {\"color\": \"#97873a\", \"translate\": \"gto.beyond-the-stars.quests.136025CCB32D6AFE.description5.rich_text1\"}, {\"translate\": \"gto.beyond-the-stars.quests.136025CCB32D6AFE.description5.rich_text2\"}, {\"color\": \"#f5e315\", \"translate\": \"gto.beyond-the-stars.quests.136025CCB32D6AFE.description5.rich_text3\"}, {\"translate\": \"gto.beyond-the-stars.quests.136025CCB32D6AFE.description5.rich_text4\"}, {\"color\": \"#ff7161\", \"translate\": \"gto.beyond-the-stars.quests.136025CCB32D6AFE.description5.rich_text5\"}, {\"translate\": \"gto.beyond-the-stars.quests.136025CCB32D6AFE.description5.rich_text6\"}, {\"color\": \"#00f1b0\", \"translate\": \"gto.beyond-the-stars.quests.136025CCB32D6AFE.description5.rich_text7\"}]"
+				"[\"\", {\"color\": \"#5a7261\", \"translate\": \"gto.beyond-the-stars.quests.136025CCB32D6AFE.description6.rich_text0\"}, {\"color\": \"#5a7261\", \"translate\": \"gto.beyond-the-stars.quests.136025CCB32D6AFE.description6.rich_text1\"}, {\"translate\": \"gto.beyond-the-stars.quests.136025CCB32D6AFE.description6.rich_text2\"}, {\"color\": \"#ebffe9\", \"translate\": \"gto.beyond-the-stars.quests.136025CCB32D6AFE.description6.rich_text3\"}, {\"translate\": \"gto.beyond-the-stars.quests.136025CCB32D6AFE.description6.rich_text4\"}, {\"color\": \"#1da351\", \"translate\": \"gto.beyond-the-stars.quests.136025CCB32D6AFE.description6.rich_text5\"}, {\"translate\": \"gto.beyond-the-stars.quests.136025CCB32D6AFE.description6.rich_text6\"}, {\"color\": \"#e3cf13\", \"translate\": \"gto.beyond-the-stars.quests.136025CCB32D6AFE.description6.rich_text7\"}]"
+				"[\"\", {\"color\": \"#ffb777\", \"translate\": \"gto.beyond-the-stars.quests.136025CCB32D6AFE.description7.rich_text0\"}, {\"color\": \"#ffb777\", \"translate\": \"gto.beyond-the-stars.quests.136025CCB32D6AFE.description7.rich_text1\"}, {\"translate\": \"gto.beyond-the-stars.quests.136025CCB32D6AFE.description7.rich_text2\"}, {\"color\": \"#ffa81e\", \"translate\": \"gto.beyond-the-stars.quests.136025CCB32D6AFE.description7.rich_text3\"}, {\"translate\": \"gto.beyond-the-stars.quests.136025CCB32D6AFE.description7.rich_text4\"}, {\"color\": \"#c7b5ab\", \"translate\": \"gto.beyond-the-stars.quests.136025CCB32D6AFE.description7.rich_text5\"}, {\"translate\": \"gto.beyond-the-stars.quests.136025CCB32D6AFE.description7.rich_text6\"}, {\"color\": \"#4e6b94\", \"translate\": \"gto.beyond-the-stars.quests.136025CCB32D6AFE.description7.rich_text7\"}]"
+				"[\"\", {\"color\": \"#a7e404\", \"translate\": \"gto.beyond-the-stars.quests.136025CCB32D6AFE.description8.rich_text0\"}, {\"color\": \"#ede8a3\", \"translate\": \"gto.beyond-the-stars.quests.136025CCB32D6AFE.description8.rich_text1\"}, {\"translate\": \"gto.beyond-the-stars.quests.136025CCB32D6AFE.description8.rich_text2\"}, {\"color\": \"#9d9d9d\", \"translate\": \"gto.beyond-the-stars.quests.136025CCB32D6AFE.description8.rich_text3\"}, {\"translate\": \"gto.beyond-the-stars.quests.136025CCB32D6AFE.description8.rich_text4\"}, {\"color\": \"#a7e404\", \"translate\": \"gto.beyond-the-stars.quests.136025CCB32D6AFE.description8.rich_text5\"}, {\"translate\": \"gto.beyond-the-stars.quests.136025CCB32D6AFE.description8.rich_text6\"}, {\"color\": \"#1da351\", \"translate\": \"gto.beyond-the-stars.quests.136025CCB32D6AFE.description8.rich_text7\"}]"
+				"[\"\", {\"color\": \"#fafafa\", \"translate\": \"gto.beyond-the-stars.quests.136025CCB32D6AFE.description9.rich_text0\"}, {\"color\": \"#fafafa\", \"translate\": \"gto.beyond-the-stars.quests.136025CCB32D6AFE.description9.rich_text1\"}, {\"translate\": \"gto.beyond-the-stars.quests.136025CCB32D6AFE.description9.rich_text2\"}, {\"color\": \"#fafafa\", \"translate\": \"gto.beyond-the-stars.quests.136025CCB32D6AFE.description9.rich_text3\"}, {\"translate\": \"gto.beyond-the-stars.quests.136025CCB32D6AFE.description9.rich_text4\"}, {\"color\": \"#ffeae1\", \"translate\": \"gto.beyond-the-stars.quests.136025CCB32D6AFE.description9.rich_text5\"}, {\"translate\": \"gto.beyond-the-stars.quests.136025CCB32D6AFE.description9.rich_text6\"}, {\"color\": \"#ffdae4\", \"translate\": \"gto.beyond-the-stars.quests.136025CCB32D6AFE.description9.rich_text7\"}]"
+			]
+			icon: "ad_astra:ceres_globe"
+			icon_scale: 1.5d
+			id: "136025CCB32D6AFE"
+			rewards: [{
+				id: "0B8CFC0D852D0AF1"
+				item: "ad_astra:ceres_globe"
+				type: "item"
+			}]
+			shape: "none"
+			size: 2.0d
+			subtitle: "{gto.beyond-the-stars.quests.136025CCB32D6AFE.subtitle}"
+			tasks: [{
+				dimension: "gtocore:ceres"
+				id: "4BA46A0263E67E18"
+				type: "dimension"
+			}]
+			title: "{gto.beyond-the-stars.quests.136025CCB32D6AFE.title}"
+			x: 27.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["136025CCB32D6AFE"]
+			description: [
+				"{gto.beyond-the-stars.quests.32935F6DA068131D.description0}"
+				""
+				"[\"\", {\"translate\": \"gto.beyond-the-stars.quests.32935F6DA068131D.description1.rich_text0\"}, {\"color\": \"#00FF00\", \"translate\": \"gto.beyond-the-stars.quests.32935F6DA068131D.description1.rich_text1\"}, {\"translate\": \"gto.beyond-the-stars.quests.32935F6DA068131D.description1.rich_text2\"}, {\"underlined\": \"True\", \"color\": \"#3A439B\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"6CD5754937D928F6\"}, \"translate\": \"gto.beyond-the-stars.quests.32935F6DA068131D.description1.rich_text3\"}, {\"translate\": \"gto.beyond-the-stars.quests.32935F6DA068131D.description1.rich_text4\"}, {\"color\": \"#00FFFF\", \"translate\": \"gto.beyond-the-stars.quests.32935F6DA068131D.description1.rich_text5\"}, {\"translate\": \"gto.beyond-the-stars.quests.32935F6DA068131D.description1.rich_text6\"}, {\"underlined\": \"True\", \"color\": \"#632C87\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"31F90B973A779017\"}, \"translate\": \"gto.beyond-the-stars.quests.32935F6DA068131D.description1.rich_text7\"}]"
+			]
+			id: "32935F6DA068131D"
+			subtitle: "{gto.beyond-the-stars.quests.32935F6DA068131D.subtitle}"
+			tasks: [
+				{
+					id: "10A049F6B720C0B2"
+					item: "gtceu:neon_bucket"
+					type: "item"
+				}
+				{
+					id: "671D37985CA97721"
+					item: "gtceu:krypton_bucket"
+					type: "item"
+				}
+				{
+					id: "1123E9513445EB5C"
+					item: "gtceu:xenon_bucket"
+					type: "item"
+				}
+			]
+			title: "{gto.beyond-the-stars.quests.32935F6DA068131D.title}"
+			x: 25.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["136025CCB32D6AFE"]
+			description: ["[\"\", {\"translate\": \"gto.beyond-the-stars.quests.5B4A3DAE5750D655.description0.rich_text0\"}, {\"color\": \"#660066\", \"translate\": \"gto.beyond-the-stars.quests.5B4A3DAE5750D655.description0.rich_text1\"}, {\"color\": \"#FFFF00\", \"translate\": \"gto.beyond-the-stars.quests.5B4A3DAE5750D655.description0.rich_text2\"}, {\"translate\": \"gto.beyond-the-stars.quests.5B4A3DAE5750D655.description0.rich_text3\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"57998756043629AD\"}, \"translate\": \"gto.beyond-the-stars.quests.5B4A3DAE5750D655.description0.rich_text4\"}]"]
+			id: "5B4A3DAE5750D655"
+			subtitle: "{gto.beyond-the-stars.quests.5B4A3DAE5750D655.subtitle}"
+			tasks: [
+				{
+					id: "4EAC18598F7BB6D9"
+					item: "ad_astra:raw_ostrum"
+					type: "item"
+				}
+				{
+					id: "0571E2135E715F71"
+					item: "minecraft:raw_gold"
+					type: "item"
+				}
+			]
+			title: "{gto.beyond-the-stars.quests.5B4A3DAE5750D655.title}"
+			x: 27.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["5B4A3DAE5750D655"]
+			id: "2AE53541FEB541E9"
+			tasks: [{
+				id: "24E161D7D3035E72"
+				item: "gtocore:dense_ostrum_plate"
+				type: "item"
+			}]
+			x: 25.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["2AE53541FEB541E9"]
+			id: "20D7CCC16895C6A5"
+			tasks: [{
+				id: "3C3514D43BA98AB2"
+				item: "ad_astra:ostrum_engine"
+				type: "item"
+			}]
+			x: 23.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["2AE53541FEB541E9"]
+			id: "26ECEF1143F8EB0B"
+			tasks: [{
+				id: "6FCE7A529015D98D"
+				item: "ad_astra:ostrum_tank"
+				type: "item"
+			}]
+			x: 23.5d
+			y: 13.5d
+		}
+		{
+			dependencies: [
+				"20D7CCC16895C6A5"
+				"26ECEF1143F8EB0B"
+			]
+			description: ["{gto.beyond-the-stars.quests.3AFC4304A2AD53A8.description0}"]
+			id: "3AFC4304A2AD53A8"
+			shape: "gear"
+			size: 2.5d
+			subtitle: "{gto.beyond-the-stars.quests.3AFC4304A2AD53A8.subtitle}"
+			tasks: [{
+				id: "5D85D419009E1710"
+				item: {
+					Count: 1
+					id: "ad_astra_rocketed:tier_5_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "{gto.beyond-the-stars.quests.3AFC4304A2AD53A8.title}"
+			x: 21.5d
+			y: 13.0d
+		}
+		{
+			dependencies: [
+				"56408F9F9ACD204D"
+				"2F6C81E3B10365E8"
+				"3AFC4304A2AD53A8"
+				"256F90AFB461107E"
+				"2F03D93AC7DBE58D"
+			]
+			description: [
+				"{gto.beyond-the-stars.quests.27541258B94B2A11.description0}"
+				""
+				"[\"\", {\"color\": \"#73d73d\", \"translate\": \"gto.beyond-the-stars.quests.27541258B94B2A11.description1.rich_text0\"}, {\"color\": \"#73d73d\", \"translate\": \"gto.beyond-the-stars.quests.27541258B94B2A11.description1.rich_text1\"}, {\"translate\": \"gto.beyond-the-stars.quests.27541258B94B2A11.description1.rich_text2\"}, {\"color\": \"#17ff6c\", \"translate\": \"gto.beyond-the-stars.quests.27541258B94B2A11.description1.rich_text3\"}]"
+				"[\"\", {\"color\": \"#89847e\", \"translate\": \"gto.beyond-the-stars.quests.27541258B94B2A11.description2.rich_text0\"}, {\"color\": \"#fafeff\", \"translate\": \"gto.beyond-the-stars.quests.27541258B94B2A11.description2.rich_text1\"}, {\"translate\": \"gto.beyond-the-stars.quests.27541258B94B2A11.description2.rich_text2\"}, {\"color\": \"#89847e\", \"translate\": \"gto.beyond-the-stars.quests.27541258B94B2A11.description2.rich_text3\"}]"
+				"[\"\", {\"color\": \"#cfb853\", \"translate\": \"gto.beyond-the-stars.quests.27541258B94B2A11.description3.rich_text0\"}, {\"color\": \"#cfb853\", \"translate\": \"gto.beyond-the-stars.quests.27541258B94B2A11.description3.rich_text1\"}, {\"translate\": \"gto.beyond-the-stars.quests.27541258B94B2A11.description3.rich_text2\"}, {\"color\": \"#2b2a24\", \"translate\": \"gto.beyond-the-stars.quests.27541258B94B2A11.description3.rich_text3\"}, {\"translate\": \"gto.beyond-the-stars.quests.27541258B94B2A11.description3.rich_text4\"}, {\"color\": \"#7db9d8\", \"translate\": \"gto.beyond-the-stars.quests.27541258B94B2A11.description3.rich_text5\"}]"
+				"[\"\", {\"color\": \"#ecfeff\", \"translate\": \"gto.beyond-the-stars.quests.27541258B94B2A11.description4.rich_text0\"}, {\"color\": \"#d5ffff\", \"translate\": \"gto.beyond-the-stars.quests.27541258B94B2A11.description4.rich_text1\"}, {\"translate\": \"gto.beyond-the-stars.quests.27541258B94B2A11.description4.rich_text2\"}, {\"color\": \"#ecfeff\", \"translate\": \"gto.beyond-the-stars.quests.27541258B94B2A11.description4.rich_text3\"}, {\"translate\": \"gto.beyond-the-stars.quests.27541258B94B2A11.description4.rich_text4\"}, {\"color\": \"#eed9e1\", \"translate\": \"gto.beyond-the-stars.quests.27541258B94B2A11.description4.rich_text5\"}]"
+				"[\"\", {\"color\": \"#96c185\", \"translate\": \"gto.beyond-the-stars.quests.27541258B94B2A11.description5.rich_text0\"}, {\"color\": \"#96c185\", \"translate\": \"gto.beyond-the-stars.quests.27541258B94B2A11.description5.rich_text1\"}, {\"translate\": \"gto.beyond-the-stars.quests.27541258B94B2A11.description5.rich_text2\"}, {\"color\": \"#f2e3e0\", \"translate\": \"gto.beyond-the-stars.quests.27541258B94B2A11.description5.rich_text3\"}, {\"translate\": \"gto.beyond-the-stars.quests.27541258B94B2A11.description5.rich_text4\"}, {\"color\": \"#89847e\", \"translate\": \"gto.beyond-the-stars.quests.27541258B94B2A11.description5.rich_text5\"}, {\"translate\": \"gto.beyond-the-stars.quests.27541258B94B2A11.description5.rich_text6\"}, {\"color\": \"#ff3d33\", \"translate\": \"gto.beyond-the-stars.quests.27541258B94B2A11.description5.rich_text7\"}]"
+				"[\"\", {\"color\": \"#ccdff5\", \"translate\": \"gto.beyond-the-stars.quests.27541258B94B2A11.description6.rich_text0\"}, {\"color\": \"#32c880\", \"translate\": \"gto.beyond-the-stars.quests.27541258B94B2A11.description6.rich_text1\"}, {\"translate\": \"gto.beyond-the-stars.quests.27541258B94B2A11.description6.rich_text2\"}, {\"color\": \"#ccdff5\", \"translate\": \"gto.beyond-the-stars.quests.27541258B94B2A11.description6.rich_text3\"}, {\"translate\": \"gto.beyond-the-stars.quests.27541258B94B2A11.description6.rich_text4\"}, {\"color\": \"#1975ff\", \"translate\": \"gto.beyond-the-stars.quests.27541258B94B2A11.description6.rich_text5\"}, {\"translate\": \"gto.beyond-the-stars.quests.27541258B94B2A11.description6.rich_text6\"}, {\"color\": \"#e3cf13\", \"translate\": \"gto.beyond-the-stars.quests.27541258B94B2A11.description6.rich_text7\"}]"
+				"[\"\", {\"color\": \"#5a7261\", \"translate\": \"gto.beyond-the-stars.quests.27541258B94B2A11.description7.rich_text0\"}, {\"color\": \"#5a7261\", \"translate\": \"gto.beyond-the-stars.quests.27541258B94B2A11.description7.rich_text1\"}, {\"translate\": \"gto.beyond-the-stars.quests.27541258B94B2A11.description7.rich_text2\"}, {\"color\": \"#ebffe9\", \"translate\": \"gto.beyond-the-stars.quests.27541258B94B2A11.description7.rich_text3\"}, {\"translate\": \"gto.beyond-the-stars.quests.27541258B94B2A11.description7.rich_text4\"}, {\"color\": \"#1da351\", \"translate\": \"gto.beyond-the-stars.quests.27541258B94B2A11.description7.rich_text5\"}, {\"translate\": \"gto.beyond-the-stars.quests.27541258B94B2A11.description7.rich_text6\"}, {\"color\": \"#e3cf13\", \"translate\": \"gto.beyond-the-stars.quests.27541258B94B2A11.description7.rich_text7\"}]"
+			]
+			icon: "ad_astra:ganymede_globe"
+			icon_scale: 1.5d
+			id: "27541258B94B2A11"
+			rewards: [{
+				id: "6EF83C1BFC7D6A50"
+				item: "ad_astra:ganymede_globe"
+				type: "item"
+			}]
+			shape: "none"
+			size: 1.5d
+			subtitle: "{gto.beyond-the-stars.quests.27541258B94B2A11.subtitle}"
+			tasks: [{
+				dimension: "gtocore:ganymede"
+				id: "5229F6FA6D41F410"
+				type: "dimension"
+			}]
+			title: "{gto.beyond-the-stars.quests.27541258B94B2A11.title}"
+			x: 21.5d
+			y: 15.5d
+		}
+		{
+			dependencies: [
+				"3AFC4304A2AD53A8"
+				"56408F9F9ACD204D"
+			]
+			description: [
+				"{gto.beyond-the-stars.quests.15356C4478131544.description0}"
+				""
+				"[\"\", {\"color\": \"#181D3A\", \"translate\": \"gto.beyond-the-stars.quests.15356C4478131544.description1.rich_text0\"}, {\"color\": \"#181D3A\", \"translate\": \"gto.beyond-the-stars.quests.15356C4478131544.description1.rich_text1\"}, {\"translate\": \"gto.beyond-the-stars.quests.15356C4478131544.description1.rich_text2\"}, {\"color\": \"#ba2727\", \"translate\": \"gto.beyond-the-stars.quests.15356C4478131544.description1.rich_text3\"}]"
+				"[\"\", {\"color\": \"#fdff31\", \"translate\": \"gto.beyond-the-stars.quests.15356C4478131544.description2.rich_text0\"}, {\"color\": \"#fdff31\", \"translate\": \"gto.beyond-the-stars.quests.15356C4478131544.description2.rich_text1\"}, {\"translate\": \"gto.beyond-the-stars.quests.15356C4478131544.description2.rich_text2\"}, {\"color\": \"#fffee6\", \"translate\": \"gto.beyond-the-stars.quests.15356C4478131544.description2.rich_text3\"}, {\"translate\": \"gto.beyond-the-stars.quests.15356C4478131544.description2.rich_text4\"}, {\"color\": \"#ffdc88\", \"translate\": \"gto.beyond-the-stars.quests.15356C4478131544.description2.rich_text5\"}]"
+				"[\"\", {\"color\": \"#C8FFFF\", \"translate\": \"gto.beyond-the-stars.quests.15356C4478131544.description3.rich_text0\"}, {\"color\": \"#a8a89e\", \"translate\": \"gto.beyond-the-stars.quests.15356C4478131544.description3.rich_text1\"}, {\"translate\": \"gto.beyond-the-stars.quests.15356C4478131544.description3.rich_text2\"}, {\"color\": \"#C8FFFF\", \"translate\": \"gto.beyond-the-stars.quests.15356C4478131544.description3.rich_text3\"}, {\"translate\": \"gto.beyond-the-stars.quests.15356C4478131544.description3.rich_text4\"}, {\"color\": \"#393e41\", \"translate\": \"gto.beyond-the-stars.quests.15356C4478131544.description3.rich_text5\"}]"
+				"[\"\", {\"color\": \"#e3ddc3\", \"translate\": \"gto.beyond-the-stars.quests.15356C4478131544.description4.rich_text0\"}, {\"color\": \"#ff9000\", \"translate\": \"gto.beyond-the-stars.quests.15356C4478131544.description4.rich_text1\"}, {\"translate\": \"gto.beyond-the-stars.quests.15356C4478131544.description4.rich_text2\"}, {\"color\": \"#e3ddc3\", \"translate\": \"gto.beyond-the-stars.quests.15356C4478131544.description4.rich_text3\"}, {\"translate\": \"gto.beyond-the-stars.quests.15356C4478131544.description4.rich_text4\"}, {\"color\": \"#404068\", \"translate\": \"gto.beyond-the-stars.quests.15356C4478131544.description4.rich_text5\"}, {\"translate\": \"gto.beyond-the-stars.quests.15356C4478131544.description4.rich_text6\"}, {\"color\": \"#d8cfac\", \"translate\": \"gto.beyond-the-stars.quests.15356C4478131544.description4.rich_text7\"}]"
+				"[\"\", {\"color\": \"#e6e6a5\", \"translate\": \"gto.beyond-the-stars.quests.15356C4478131544.description5.rich_text0\"}, {\"color\": \"#de953c\", \"translate\": \"gto.beyond-the-stars.quests.15356C4478131544.description5.rich_text1\"}, {\"translate\": \"gto.beyond-the-stars.quests.15356C4478131544.description5.rich_text2\"}, {\"color\": \"#665f2f\", \"translate\": \"gto.beyond-the-stars.quests.15356C4478131544.description5.rich_text3\"}, {\"translate\": \"gto.beyond-the-stars.quests.15356C4478131544.description5.rich_text4\"}, {\"color\": \"#e6e6a5\", \"translate\": \"gto.beyond-the-stars.quests.15356C4478131544.description5.rich_text5\"}]"
+				"[\"\", {\"color\": \"#97873a\", \"translate\": \"gto.beyond-the-stars.quests.15356C4478131544.description6.rich_text0\"}, {\"color\": \"#97873a\", \"translate\": \"gto.beyond-the-stars.quests.15356C4478131544.description6.rich_text1\"}, {\"translate\": \"gto.beyond-the-stars.quests.15356C4478131544.description6.rich_text2\"}, {\"color\": \"#f5e315\", \"translate\": \"gto.beyond-the-stars.quests.15356C4478131544.description6.rich_text3\"}, {\"translate\": \"gto.beyond-the-stars.quests.15356C4478131544.description6.rich_text4\"}, {\"color\": \"#ff7161\", \"translate\": \"gto.beyond-the-stars.quests.15356C4478131544.description6.rich_text5\"}, {\"translate\": \"gto.beyond-the-stars.quests.15356C4478131544.description6.rich_text6\"}, {\"color\": \"#00f1b0\", \"translate\": \"gto.beyond-the-stars.quests.15356C4478131544.description6.rich_text7\"}]"
+				"[\"\", {\"color\": \"#a7e404\", \"translate\": \"gto.beyond-the-stars.quests.15356C4478131544.description7.rich_text0\"}, {\"color\": \"#ede8a3\", \"translate\": \"gto.beyond-the-stars.quests.15356C4478131544.description7.rich_text1\"}, {\"translate\": \"gto.beyond-the-stars.quests.15356C4478131544.description7.rich_text2\"}, {\"color\": \"#9d9d9d\", \"translate\": \"gto.beyond-the-stars.quests.15356C4478131544.description7.rich_text3\"}, {\"translate\": \"gto.beyond-the-stars.quests.15356C4478131544.description7.rich_text4\"}, {\"color\": \"#a7e404\", \"translate\": \"gto.beyond-the-stars.quests.15356C4478131544.description7.rich_text5\"}, {\"translate\": \"gto.beyond-the-stars.quests.15356C4478131544.description7.rich_text6\"}, {\"color\": \"#1da351\", \"translate\": \"gto.beyond-the-stars.quests.15356C4478131544.description7.rich_text7\"}]"
+				"[\"\", {\"color\": \"#5c5c5c\", \"translate\": \"gto.beyond-the-stars.quests.15356C4478131544.description8.rich_text0\"}, {\"color\": \"#5c5c5c\", \"translate\": \"gto.beyond-the-stars.quests.15356C4478131544.description8.rich_text1\"}, {\"translate\": \"gto.beyond-the-stars.quests.15356C4478131544.description8.rich_text2\"}, {\"color\": \"#d69077\", \"translate\": \"gto.beyond-the-stars.quests.15356C4478131544.description8.rich_text3\"}, {\"translate\": \"gto.beyond-the-stars.quests.15356C4478131544.description8.rich_text4\"}, {\"color\": \"#f3efbb\", \"translate\": \"gto.beyond-the-stars.quests.15356C4478131544.description8.rich_text5\"}, {\"translate\": \"gto.beyond-the-stars.quests.15356C4478131544.description8.rich_text6\"}, {\"color\": \"#fffaec\", \"translate\": \"gto.beyond-the-stars.quests.15356C4478131544.description8.rich_text7\"}]"
+			]
+			icon: "ad_astra:io_globe"
+			icon_scale: 1.5d
+			id: "15356C4478131544"
+			rewards: [{
+				id: "25C5248900826A9A"
+				item: "ad_astra:io_globe"
+				type: "item"
+			}]
+			shape: "none"
+			size: 2.0d
+			subtitle: "{gto.beyond-the-stars.quests.15356C4478131544.subtitle}"
+			tasks: [{
+				dimension: "gtocore:io"
+				id: "75119E6D7E5C84BA"
+				type: "dimension"
+			}]
+			title: "{gto.beyond-the-stars.quests.15356C4478131544.title}"
+			x: 18.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["15356C4478131544"]
+			description: [
+				"{gto.beyond-the-stars.quests.3376801E0CDCE656.description0}"
+				""
+				"{gto.beyond-the-stars.quests.3376801E0CDCE656.description1}"
+			]
+			id: "3376801E0CDCE656"
+			subtitle: "{gto.beyond-the-stars.quests.3376801E0CDCE656.subtitle}"
+			tasks: [
+				{
+					id: "4E491AC521E7F6F2"
+					item: "gtceu:raw_naquadah"
+					type: "item"
+				}
+				{
+					id: "329242673764BC62"
+					item: "gtceu:raw_plutonium"
+					type: "item"
+				}
+			]
+			title: "{gto.beyond-the-stars.quests.3376801E0CDCE656.title}"
+			x: 16.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["15356C4478131544"]
+			description: [
+				"{gto.beyond-the-stars.quests.0A4D00F9F44C97DB.description0}"
+				""
+				"{gto.beyond-the-stars.quests.0A4D00F9F44C97DB.description1}"
+			]
+			id: "0A4D00F9F44C97DB"
+			subtitle: "{gto.beyond-the-stars.quests.0A4D00F9F44C97DB.subtitle}"
+			tasks: [{
+				id: "269637B80C1CC38F"
+				item: "gtceu:coal_gas_bucket"
+				type: "item"
+			}]
+			title: "{gto.beyond-the-stars.quests.0A4D00F9F44C97DB.title}"
+			x: 18.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["15356C4478131544"]
+			description: ["{gto.beyond-the-stars.quests.54CEDB30AB9906C0.description0}"]
+			id: "54CEDB30AB9906C0"
+			subtitle: "{gto.beyond-the-stars.quests.54CEDB30AB9906C0.subtitle}"
+			tasks: [
+				{
+					id: "284311EDF482862F"
+					item: "gtocore:raw_celestine"
+					type: "item"
+				}
+				{
+					id: "526B07CC93685CE5"
+					item: "gtceu:raw_cooperite"
+					type: "item"
+				}
+				{
+					id: "0AB94C88FC78EC9B"
+					item: "gtceu:raw_trona"
+					type: "item"
+				}
+			]
+			title: "{gto.beyond-the-stars.quests.54CEDB30AB9906C0.title}"
+			x: 16.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["2F03D93AC7DBE58D"]
+			description: ["{gto.beyond-the-stars.quests.56408F9F9ACD204D.description0}"]
+			id: "56408F9F9ACD204D"
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "{gto.beyond-the-stars.quests.56408F9F9ACD204D.subtitle}"
+			tasks: [
+				{
+					id: "4D5B4062CADEF712"
+					item: "gtocore:tier_3_eye"
+					type: "item"
+				}
+				{
+					id: "3EAB1E2D1209DE3F"
+					item: "gtocore:tier_3_spine"
+					type: "item"
+				}
+				{
+					id: "242F72522B48C510"
+					item: "gtocore:tier_3_lung"
+					type: "item"
+				}
+				{
+					id: "0B030288B2113B1F"
+					item: "gtocore:tier_3_liver"
+					type: "item"
+				}
+				{
+					id: "551261B8C150ED6A"
+					item: "gtocore:tier_3_heart"
+					type: "item"
+				}
+				{
+					id: "729C5BEDD6E21160"
+					item: "gtocore:tier_3_left_arm"
+					type: "item"
+				}
+				{
+					id: "531A9BA28A82F913"
+					item: "gtocore:tier_3_right_arm"
+					type: "item"
+				}
+				{
+					id: "2E77A44F90767663"
+					item: "gtocore:tier_3_left_leg"
+					type: "item"
+				}
+				{
+					id: "455A53C591037C97"
+					item: "gtocore:tier_3_right_leg"
+					type: "item"
+				}
+			]
+			title: "{gto.beyond-the-stars.quests.56408F9F9ACD204D.title}"
+			x: 18.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["27541258B94B2A11"]
+			description: ["{gto.beyond-the-stars.quests.5A9B6F823ED2477C.description0}"]
+			id: "5A9B6F823ED2477C"
+			subtitle: "{gto.beyond-the-stars.quests.5A9B6F823ED2477C.subtitle}"
+			tasks: [{
+				id: "4A497D4C5BF483F7"
+				item: "gtceu:hydrochloric_acid_bucket"
+				type: "item"
+			}]
+			title: "{gto.beyond-the-stars.quests.5A9B6F823ED2477C.title}"
+			x: 21.5d
+			y: 17.0d
+		}
+		{
+			dependencies: [
+				"3376801E0CDCE656"
+				"479707D18AD5181B"
+			]
+			id: "2745D369F53613F8"
+			tasks: [{
+				id: "6EF45671232AAB9D"
+				item: "gtocore:dense_calorite_plate"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["2745D369F53613F8"]
+			id: "10DFC307A71DE2FC"
+			tasks: [{
+				id: "14751E8CD203D801"
+				item: "ad_astra:calorite_engine"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["2745D369F53613F8"]
+			id: "1A46C2CF1106526E"
+			tasks: [{
+				id: "1365C8919D64A5C9"
+				item: "ad_astra:calorite_tank"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 13.5d
+		}
+		{
+			dependencies: [
+				"1A46C2CF1106526E"
+				"10DFC307A71DE2FC"
+			]
+			description: ["{gto.beyond-the-stars.quests.383B710C58CEA6AF.description0}"]
+			id: "383B710C58CEA6AF"
+			shape: "gear"
+			size: 2.5d
+			subtitle: "{gto.beyond-the-stars.quests.383B710C58CEA6AF.subtitle}"
+			tasks: [{
+				id: "3C78C29D981C71BD"
+				item: {
+					Count: 1
+					id: "ad_astra_rocketed:tier_6_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "{gto.beyond-the-stars.quests.383B710C58CEA6AF.title}"
+			x: 10.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["383B710C58CEA6AF"]
+			description: [
+				"{gto.beyond-the-stars.quests.1A21D952F3219B5B.description0}"
+				""
+				"[\"\", {\"color\": \"#2b2a24\", \"translate\": \"gto.beyond-the-stars.quests.1A21D952F3219B5B.description1.rich_text0\"}, {\"color\": \"#2b2a24\", \"translate\": \"gto.beyond-the-stars.quests.1A21D952F3219B5B.description1.rich_text1\"}, {\"translate\": \"gto.beyond-the-stars.quests.1A21D952F3219B5B.description1.rich_text2\"}, {\"color\": \"#ed8eea\", \"translate\": \"gto.beyond-the-stars.quests.1A21D952F3219B5B.description1.rich_text3\"}]"
+				"[\"\", {\"color\": \"#f3e8fa\", \"translate\": \"gto.beyond-the-stars.quests.1A21D952F3219B5B.description2.rich_text0\"}, {\"color\": \"#f3e8fa\", \"translate\": \"gto.beyond-the-stars.quests.1A21D952F3219B5B.description2.rich_text1\"}, {\"translate\": \"gto.beyond-the-stars.quests.1A21D952F3219B5B.description2.rich_text2\"}, {\"color\": \"#DCDCFF\", \"translate\": \"gto.beyond-the-stars.quests.1A21D952F3219B5B.description2.rich_text3\"}, {\"translate\": \"gto.beyond-the-stars.quests.1A21D952F3219B5B.description2.rich_text4\"}, {\"color\": \"#7e6f82\", \"translate\": \"gto.beyond-the-stars.quests.1A21D952F3219B5B.description2.rich_text5\"}]"
+				"[\"\", {\"color\": \"#ff0000\", \"translate\": \"gto.beyond-the-stars.quests.1A21D952F3219B5B.description3.rich_text0\"}, {\"color\": \"#ff0000\", \"translate\": \"gto.beyond-the-stars.quests.1A21D952F3219B5B.description3.rich_text1\"}, {\"translate\": \"gto.beyond-the-stars.quests.1A21D952F3219B5B.description3.rich_text2\"}, {\"color\": \"#d72310\", \"translate\": \"gto.beyond-the-stars.quests.1A21D952F3219B5B.description3.rich_text3\"}, {\"translate\": \"gto.beyond-the-stars.quests.1A21D952F3219B5B.description3.rich_text4\"}, {\"color\": \"#ff335f\", \"translate\": \"gto.beyond-the-stars.quests.1A21D952F3219B5B.description3.rich_text5\"}]"
+				"[\"\", {\"color\": \"#e77c56\", \"translate\": \"gto.beyond-the-stars.quests.1A21D952F3219B5B.description4.rich_text0\"}, {\"color\": \"#96c185\", \"translate\": \"gto.beyond-the-stars.quests.1A21D952F3219B5B.description4.rich_text1\"}, {\"translate\": \"gto.beyond-the-stars.quests.1A21D952F3219B5B.description4.rich_text2\"}, {\"color\": \"#eeeeee\", \"translate\": \"gto.beyond-the-stars.quests.1A21D952F3219B5B.description4.rich_text3\"}, {\"translate\": \"gto.beyond-the-stars.quests.1A21D952F3219B5B.description4.rich_text4\"}, {\"color\": \"#fffee6\", \"translate\": \"gto.beyond-the-stars.quests.1A21D952F3219B5B.description4.rich_text5\"}, {\"translate\": \"gto.beyond-the-stars.quests.1A21D952F3219B5B.description4.rich_text6\"}, {\"color\": \"#e77c56\", \"translate\": \"gto.beyond-the-stars.quests.1A21D952F3219B5B.description4.rich_text7\"}]"
+				"[\"\", {\"color\": \"#e3ddc3\", \"translate\": \"gto.beyond-the-stars.quests.1A21D952F3219B5B.description5.rich_text0\"}, {\"color\": \"#ff9000\", \"translate\": \"gto.beyond-the-stars.quests.1A21D952F3219B5B.description5.rich_text1\"}, {\"translate\": \"gto.beyond-the-stars.quests.1A21D952F3219B5B.description5.rich_text2\"}, {\"color\": \"#e3ddc3\", \"translate\": \"gto.beyond-the-stars.quests.1A21D952F3219B5B.description5.rich_text3\"}, {\"translate\": \"gto.beyond-the-stars.quests.1A21D952F3219B5B.description5.rich_text4\"}, {\"color\": \"#404068\", \"translate\": \"gto.beyond-the-stars.quests.1A21D952F3219B5B.description5.rich_text5\"}, {\"translate\": \"gto.beyond-the-stars.quests.1A21D952F3219B5B.description5.rich_text6\"}, {\"color\": \"#d8cfac\", \"translate\": \"gto.beyond-the-stars.quests.1A21D952F3219B5B.description5.rich_text7\"}]"
+				"[\"\", {\"color\": \"#fff4ba\", \"translate\": \"gto.beyond-the-stars.quests.1A21D952F3219B5B.description6.rich_text0\"}, {\"color\": \"#ffe05a\", \"translate\": \"gto.beyond-the-stars.quests.1A21D952F3219B5B.description6.rich_text1\"}, {\"translate\": \"gto.beyond-the-stars.quests.1A21D952F3219B5B.description6.rich_text2\"}, {\"color\": \"#665f2f\", \"translate\": \"gto.beyond-the-stars.quests.1A21D952F3219B5B.description6.rich_text3\"}, {\"translate\": \"gto.beyond-the-stars.quests.1A21D952F3219B5B.description6.rich_text4\"}, {\"color\": \"#fff4ba\", \"translate\": \"gto.beyond-the-stars.quests.1A21D952F3219B5B.description6.rich_text5\"}, {\"translate\": \"gto.beyond-the-stars.quests.1A21D952F3219B5B.description6.rich_text6\"}, {\"color\": \"#bd92b5\", \"translate\": \"gto.beyond-the-stars.quests.1A21D952F3219B5B.description6.rich_text7\"}]"
+				"[\"\", {\"color\": \"#e8d73a\", \"translate\": \"gto.beyond-the-stars.quests.1A21D952F3219B5B.description7.rich_text0\"}, {\"color\": \"#dbfeff\", \"translate\": \"gto.beyond-the-stars.quests.1A21D952F3219B5B.description7.rich_text1\"}, {\"translate\": \"gto.beyond-the-stars.quests.1A21D952F3219B5B.description7.rich_text2\"}, {\"color\": \"#e8d73a\", \"translate\": \"gto.beyond-the-stars.quests.1A21D952F3219B5B.description7.rich_text3\"}, {\"translate\": \"gto.beyond-the-stars.quests.1A21D952F3219B5B.description7.rich_text4\"}, {\"color\": \"#657882\", \"translate\": \"gto.beyond-the-stars.quests.1A21D952F3219B5B.description7.rich_text5\"}, {\"translate\": \"gto.beyond-the-stars.quests.1A21D952F3219B5B.description7.rich_text6\"}, {\"color\": \"#ffe05a\", \"translate\": \"gto.beyond-the-stars.quests.1A21D952F3219B5B.description7.rich_text7\"}]"
+			]
+			icon: "ad_astra:enceladus_globe"
+			icon_scale: 1.5d
+			id: "1A21D952F3219B5B"
+			rewards: [{
+				id: "79BBBC69872B55E4"
+				item: "ad_astra:enceladus_globe"
+				type: "item"
+			}]
+			shape: "none"
+			size: 1.5d
+			subtitle: "{gto.beyond-the-stars.quests.1A21D952F3219B5B.subtitle}"
+			tasks: [{
+				dimension: "gtocore:enceladus"
+				id: "58484AD833064E29"
+				type: "dimension"
+			}]
+			title: "{gto.beyond-the-stars.quests.1A21D952F3219B5B.title}"
+			x: 7.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["1A21D952F3219B5B"]
+			description: [
+				"{gto.beyond-the-stars.quests.6B02B6F20B71608C.description0}"
+				""
+				"{gto.beyond-the-stars.quests.6B02B6F20B71608C.description1}"
+			]
+			id: "6B02B6F20B71608C"
+			subtitle: "{gto.beyond-the-stars.quests.6B02B6F20B71608C.subtitle}"
+			tasks: [
+				{
+					id: "56C39CCE7E576CC4"
+					item: "gtceu:chlorine_bucket"
+					type: "item"
+				}
+				{
+					id: "7C8982F27FB60C46"
+					item: "gtceu:fluorine_bucket"
+					type: "item"
+				}
+			]
+			title: "{gto.beyond-the-stars.quests.6B02B6F20B71608C.title}"
+			x: 7.5d
+			y: 17.0d
+		}
+		{
+			dependencies: ["383B710C58CEA6AF"]
+			description: [
+				"{gto.beyond-the-stars.quests.4C8AF861C4D0AFF2.description0}"
+				""
+				"[\"\", {\"color\": \"#f2a057\", \"translate\": \"gto.beyond-the-stars.quests.4C8AF861C4D0AFF2.description1.rich_text0\"}, {\"color\": \"#f2a057\", \"translate\": \"gto.beyond-the-stars.quests.4C8AF861C4D0AFF2.description1.rich_text1\"}, {\"translate\": \"gto.beyond-the-stars.quests.4C8AF861C4D0AFF2.description1.rich_text2\"}, {\"color\": \"#fbfbf6\", \"translate\": \"gto.beyond-the-stars.quests.4C8AF861C4D0AFF2.description1.rich_text3\"}]"
+				"[\"\", {\"color\": \"#a3a09b\", \"translate\": \"gto.beyond-the-stars.quests.4C8AF861C4D0AFF2.description2.rich_text0\"}, {\"color\": \"#a3a09b\", \"translate\": \"gto.beyond-the-stars.quests.4C8AF861C4D0AFF2.description2.rich_text1\"}, {\"translate\": \"gto.beyond-the-stars.quests.4C8AF861C4D0AFF2.description2.rich_text2\"}, {\"color\": \"#e77c56\", \"translate\": \"gto.beyond-the-stars.quests.4C8AF861C4D0AFF2.description2.rich_text3\"}, {\"translate\": \"gto.beyond-the-stars.quests.4C8AF861C4D0AFF2.description2.rich_text4\"}, {\"color\": \"#656565\", \"translate\": \"gto.beyond-the-stars.quests.4C8AF861C4D0AFF2.description2.rich_text5\"}]"
+				"[\"\", {\"color\": \"#ffd647\", \"translate\": \"gto.beyond-the-stars.quests.4C8AF861C4D0AFF2.description3.rich_text0\"}, {\"color\": \"#ffd647\", \"translate\": \"gto.beyond-the-stars.quests.4C8AF861C4D0AFF2.description3.rich_text1\"}, {\"translate\": \"gto.beyond-the-stars.quests.4C8AF861C4D0AFF2.description3.rich_text2\"}, {\"color\": \"#ffd52e\", \"translate\": \"gto.beyond-the-stars.quests.4C8AF861C4D0AFF2.description3.rich_text3\"}]"
+				"[\"\", {\"color\": \"#9d9d9d\", \"translate\": \"gto.beyond-the-stars.quests.4C8AF861C4D0AFF2.description4.rich_text0\"}, {\"color\": \"#9d9d9d\", \"translate\": \"gto.beyond-the-stars.quests.4C8AF861C4D0AFF2.description4.rich_text1\"}, {\"translate\": \"gto.beyond-the-stars.quests.4C8AF861C4D0AFF2.description4.rich_text2\"}, {\"color\": \"#2b2a24\", \"translate\": \"gto.beyond-the-stars.quests.4C8AF861C4D0AFF2.description4.rich_text3\"}, {\"translate\": \"gto.beyond-the-stars.quests.4C8AF861C4D0AFF2.description4.rich_text4\"}, {\"color\": \"#c5c1a8\", \"translate\": \"gto.beyond-the-stars.quests.4C8AF861C4D0AFF2.description4.rich_text5\"}]"
+				"[\"\", {\"color\": \"#06cdf1\", \"translate\": \"gto.beyond-the-stars.quests.4C8AF861C4D0AFF2.description5.rich_text0\"}, {\"color\": \"#06cdf1\", \"translate\": \"gto.beyond-the-stars.quests.4C8AF861C4D0AFF2.description5.rich_text1\"}, {\"translate\": \"gto.beyond-the-stars.quests.4C8AF861C4D0AFF2.description5.rich_text2\"}, {\"color\": \"#fffddb\", \"translate\": \"gto.beyond-the-stars.quests.4C8AF861C4D0AFF2.description5.rich_text3\"}, {\"translate\": \"gto.beyond-the-stars.quests.4C8AF861C4D0AFF2.description5.rich_text4\"}, {\"color\": \"#5b4838\", \"translate\": \"gto.beyond-the-stars.quests.4C8AF861C4D0AFF2.description5.rich_text5\"}]"
+				"[\"\", {\"color\": \"#97873a\", \"translate\": \"gto.beyond-the-stars.quests.4C8AF861C4D0AFF2.description6.rich_text0\"}, {\"color\": \"#97873a\", \"translate\": \"gto.beyond-the-stars.quests.4C8AF861C4D0AFF2.description6.rich_text1\"}, {\"translate\": \"gto.beyond-the-stars.quests.4C8AF861C4D0AFF2.description6.rich_text2\"}, {\"color\": \"#f5e315\", \"translate\": \"gto.beyond-the-stars.quests.4C8AF861C4D0AFF2.description6.rich_text3\"}, {\"translate\": \"gto.beyond-the-stars.quests.4C8AF861C4D0AFF2.description6.rich_text4\"}, {\"color\": \"#ff7161\", \"translate\": \"gto.beyond-the-stars.quests.4C8AF861C4D0AFF2.description6.rich_text5\"}, {\"translate\": \"gto.beyond-the-stars.quests.4C8AF861C4D0AFF2.description6.rich_text6\"}, {\"color\": \"#00f1b0\", \"translate\": \"gto.beyond-the-stars.quests.4C8AF861C4D0AFF2.description6.rich_text7\"}]"
+				"[\"\", {\"color\": \"#cc4c25\", \"translate\": \"gto.beyond-the-stars.quests.4C8AF861C4D0AFF2.description7.rich_text0\"}, {\"color\": \"#89847e\", \"translate\": \"gto.beyond-the-stars.quests.4C8AF861C4D0AFF2.description7.rich_text1\"}, {\"translate\": \"gto.beyond-the-stars.quests.4C8AF861C4D0AFF2.description7.rich_text2\"}, {\"color\": \"#cc4c25\", \"translate\": \"gto.beyond-the-stars.quests.4C8AF861C4D0AFF2.description7.rich_text3\"}, {\"translate\": \"gto.beyond-the-stars.quests.4C8AF861C4D0AFF2.description7.rich_text4\"}, {\"color\": \"#E6E6E6\", \"translate\": \"gto.beyond-the-stars.quests.4C8AF861C4D0AFF2.description7.rich_text5\"}, {\"translate\": \"gto.beyond-the-stars.quests.4C8AF861C4D0AFF2.description7.rich_text6\"}, {\"color\": \"#fffafa\", \"translate\": \"gto.beyond-the-stars.quests.4C8AF861C4D0AFF2.description7.rich_text7\"}]"
+				"[\"\", {\"color\": \"#3235e3\", \"translate\": \"gto.beyond-the-stars.quests.4C8AF861C4D0AFF2.description8.rich_text0\"}, {\"color\": \"#a21717\", \"translate\": \"gto.beyond-the-stars.quests.4C8AF861C4D0AFF2.description8.rich_text1\"}, {\"translate\": \"gto.beyond-the-stars.quests.4C8AF861C4D0AFF2.description8.rich_text2\"}, {\"color\": \"#e81958\", \"translate\": \"gto.beyond-the-stars.quests.4C8AF861C4D0AFF2.description8.rich_text3\"}, {\"translate\": \"gto.beyond-the-stars.quests.4C8AF861C4D0AFF2.description8.rich_text4\"}, {\"color\": \"#3235e3\", \"translate\": \"gto.beyond-the-stars.quests.4C8AF861C4D0AFF2.description8.rich_text5\"}, {\"translate\": \"gto.beyond-the-stars.quests.4C8AF861C4D0AFF2.description8.rich_text6\"}, {\"color\": \"#9ae6b0\", \"translate\": \"gto.beyond-the-stars.quests.4C8AF861C4D0AFF2.description8.rich_text7\"}]"
+			]
+			icon: "ad_astra:titan_globe"
+			icon_scale: 1.5d
+			id: "4C8AF861C4D0AFF2"
+			rewards: [{
+				id: "41AFD0F78BB62095"
+				item: "ad_astra:titan_globe"
+				type: "item"
+			}]
+			shape: "none"
+			size: 1.5d
+			subtitle: "{gto.beyond-the-stars.quests.4C8AF861C4D0AFF2.subtitle}"
+			tasks: [{
+				dimension: "gtocore:titan"
+				id: "265F395701F89A9D"
+				type: "dimension"
+			}]
+			title: "{gto.beyond-the-stars.quests.4C8AF861C4D0AFF2.title}"
+			x: 7.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["4C8AF861C4D0AFF2"]
+			description: [
+				"{gto.beyond-the-stars.quests.472BC6B26F91C9F2.description0}"
+				""
+				"{gto.beyond-the-stars.quests.472BC6B26F91C9F2.description1}"
+			]
+			id: "472BC6B26F91C9F2"
+			subtitle: "{gto.beyond-the-stars.quests.472BC6B26F91C9F2.subtitle}"
+			tasks: [
+				{
+					id: "4068B8C86678C11E"
+					item: "gtceu:charcoal_byproducts_bucket"
+					type: "item"
+				}
+				{
+					id: "3CE503B87A0B4CD4"
+					item: "gtceu:methane_bucket"
+					type: "item"
+				}
+				{
+					id: "534D12A19EB1346B"
+					item: "gtceu:benzene_bucket"
+					type: "item"
+				}
+			]
+			title: "{gto.beyond-the-stars.quests.472BC6B26F91C9F2.title}"
+			x: 7.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["383B710C58CEA6AF"]
+			description: [
+				"{gto.beyond-the-stars.quests.20932057C572CBB7.description0}"
+				""
+				"[\"\", {\"color\": \"#181D3A\", \"translate\": \"gto.beyond-the-stars.quests.20932057C572CBB7.description1.rich_text0\"}, {\"color\": \"#181D3A\", \"translate\": \"gto.beyond-the-stars.quests.20932057C572CBB7.description1.rich_text1\"}, {\"translate\": \"gto.beyond-the-stars.quests.20932057C572CBB7.description1.rich_text2\"}, {\"color\": \"#ba2727\", \"translate\": \"gto.beyond-the-stars.quests.20932057C572CBB7.description1.rich_text3\"}]"
+				"[\"\", {\"color\": \"#f3e8fa\", \"translate\": \"gto.beyond-the-stars.quests.20932057C572CBB7.description2.rich_text0\"}, {\"color\": \"#f3e8fa\", \"translate\": \"gto.beyond-the-stars.quests.20932057C572CBB7.description2.rich_text1\"}, {\"translate\": \"gto.beyond-the-stars.quests.20932057C572CBB7.description2.rich_text2\"}, {\"color\": \"#DCDCFF\", \"translate\": \"gto.beyond-the-stars.quests.20932057C572CBB7.description2.rich_text3\"}, {\"translate\": \"gto.beyond-the-stars.quests.20932057C572CBB7.description2.rich_text4\"}, {\"color\": \"#7e6f82\", \"translate\": \"gto.beyond-the-stars.quests.20932057C572CBB7.description2.rich_text5\"}]"
+				"[\"\", {\"color\": \"#ecfeff\", \"translate\": \"gto.beyond-the-stars.quests.20932057C572CBB7.description3.rich_text0\"}, {\"color\": \"#d5ffff\", \"translate\": \"gto.beyond-the-stars.quests.20932057C572CBB7.description3.rich_text1\"}, {\"translate\": \"gto.beyond-the-stars.quests.20932057C572CBB7.description3.rich_text2\"}, {\"color\": \"#ecfeff\", \"translate\": \"gto.beyond-the-stars.quests.20932057C572CBB7.description3.rich_text3\"}, {\"translate\": \"gto.beyond-the-stars.quests.20932057C572CBB7.description3.rich_text4\"}, {\"color\": \"#eed9e1\", \"translate\": \"gto.beyond-the-stars.quests.20932057C572CBB7.description3.rich_text5\"}]"
+				"[\"\", {\"color\": \"#ffd647\", \"translate\": \"gto.beyond-the-stars.quests.20932057C572CBB7.description4.rich_text0\"}, {\"color\": \"#ffd647\", \"translate\": \"gto.beyond-the-stars.quests.20932057C572CBB7.description4.rich_text1\"}, {\"translate\": \"gto.beyond-the-stars.quests.20932057C572CBB7.description4.rich_text2\"}, {\"color\": \"#ffd52e\", \"translate\": \"gto.beyond-the-stars.quests.20932057C572CBB7.description4.rich_text3\"}]"
+				"[\"\", {\"color\": \"#b99b7e\", \"translate\": \"gto.beyond-the-stars.quests.20932057C572CBB7.description5.rich_text0\"}, {\"color\": \"#b99b7e\", \"translate\": \"gto.beyond-the-stars.quests.20932057C572CBB7.description5.rich_text1\"}, {\"translate\": \"gto.beyond-the-stars.quests.20932057C572CBB7.description5.rich_text2\"}, {\"color\": \"#3b3a32\", \"translate\": \"gto.beyond-the-stars.quests.20932057C572CBB7.description5.rich_text3\"}, {\"translate\": \"gto.beyond-the-stars.quests.20932057C572CBB7.description5.rich_text4\"}, {\"color\": \"#c7b5ab\", \"translate\": \"gto.beyond-the-stars.quests.20932057C572CBB7.description5.rich_text5\"}, {\"translate\": \"gto.beyond-the-stars.quests.20932057C572CBB7.description5.rich_text6\"}, {\"color\": \"#4e6b94\", \"translate\": \"gto.beyond-the-stars.quests.20932057C572CBB7.description5.rich_text7\"}]"
+				"[\"\", {\"color\": \"#06cdf1\", \"translate\": \"gto.beyond-the-stars.quests.20932057C572CBB7.description6.rich_text0\"}, {\"color\": \"#06cdf1\", \"translate\": \"gto.beyond-the-stars.quests.20932057C572CBB7.description6.rich_text1\"}, {\"translate\": \"gto.beyond-the-stars.quests.20932057C572CBB7.description6.rich_text2\"}, {\"color\": \"#fffddb\", \"translate\": \"gto.beyond-the-stars.quests.20932057C572CBB7.description6.rich_text3\"}, {\"translate\": \"gto.beyond-the-stars.quests.20932057C572CBB7.description6.rich_text4\"}, {\"color\": \"#5b4838\", \"translate\": \"gto.beyond-the-stars.quests.20932057C572CBB7.description6.rich_text5\"}]"
+				"[\"\", {\"color\": \"#c2d6ff\", \"translate\": \"gto.beyond-the-stars.quests.20932057C572CBB7.description7.rich_text0\"}, {\"color\": \"#f2f5ed\", \"translate\": \"gto.beyond-the-stars.quests.20932057C572CBB7.description7.rich_text1\"}, {\"translate\": \"gto.beyond-the-stars.quests.20932057C572CBB7.description7.rich_text2\"}, {\"color\": \"#c2d6ff\", \"translate\": \"gto.beyond-the-stars.quests.20932057C572CBB7.description7.rich_text3\"}, {\"translate\": \"gto.beyond-the-stars.quests.20932057C572CBB7.description7.rich_text4\"}, {\"color\": \"#e8e2d1\", \"translate\": \"gto.beyond-the-stars.quests.20932057C572CBB7.description7.rich_text5\"}]"
+				"[\"\", {\"color\": \"#950c15\", \"translate\": \"gto.beyond-the-stars.quests.20932057C572CBB7.description8.rich_text0\"}, {\"color\": \"#950c15\", \"translate\": \"gto.beyond-the-stars.quests.20932057C572CBB7.description8.rich_text1\"}, {\"translate\": \"gto.beyond-the-stars.quests.20932057C572CBB7.description8.rich_text2\"}, {\"color\": \"#f6ff09\", \"translate\": \"gto.beyond-the-stars.quests.20932057C572CBB7.description8.rich_text3\"}, {\"translate\": \"gto.beyond-the-stars.quests.20932057C572CBB7.description8.rich_text4\"}, {\"color\": \"#cfa0f3\", \"translate\": \"gto.beyond-the-stars.quests.20932057C572CBB7.description8.rich_text5\"}, {\"translate\": \"gto.beyond-the-stars.quests.20932057C572CBB7.description8.rich_text6\"}, {\"color\": \"#D8BFD8\", \"translate\": \"gto.beyond-the-stars.quests.20932057C572CBB7.description8.rich_text7\"}]"
+			]
+			icon: "ad_astra:pluto_globe"
+			icon_scale: 1.5d
+			id: "20932057C572CBB7"
+			rewards: [{
+				id: "52C6E0CBC84E2BD1"
+				item: "ad_astra:pluto_globe"
+				type: "item"
+			}]
+			shape: "none"
+			size: 2.0d
+			subtitle: "{gto.beyond-the-stars.quests.20932057C572CBB7.subtitle}"
+			tasks: [{
+				dimension: "gtocore:pluto"
+				id: "2C16632A9A77FC6D"
+				type: "dimension"
+			}]
+			title: "{gto.beyond-the-stars.quests.20932057C572CBB7.title}"
+			x: 7.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["20932057C572CBB7"]
+			description: [
+				"{gto.beyond-the-stars.quests.6C8CFC519E3813AC.description0}"
+				"{gto.beyond-the-stars.quests.6C8CFC519E3813AC.description1}"
+				"{gto.beyond-the-stars.quests.6C8CFC519E3813AC.description2}"
+			]
+			id: "6C8CFC519E3813AC"
+			subtitle: "{gto.beyond-the-stars.quests.6C8CFC519E3813AC.subtitle}"
+			tasks: [{
+				id: "658085A3B7E95095"
+				item: "gtceu:nitric_acid_bucket"
+				type: "item"
+			}]
+			title: "{gto.beyond-the-stars.quests.6C8CFC519E3813AC.title}"
+			x: 6.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["20932057C572CBB7"]
+			description: ["{gto.beyond-the-stars.quests.1FE56FCF598C90B1.description0}"]
+			id: "1FE56FCF598C90B1"
+			shape: "gear"
+			size: 2.5d
+			subtitle: "{gto.beyond-the-stars.quests.1FE56FCF598C90B1.subtitle}"
+			tasks: [{
+				id: "55B933F9C2012B2B"
+				item: {
+					Count: 1
+					id: "ad_astra_rocketed:tier_7_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "{gto.beyond-the-stars.quests.1FE56FCF598C90B1.title}"
+			x: 4.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["05C7059BC114AD42"]
+			id: "72AACC1178BF7586"
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "{gto.beyond-the-stars.quests.72AACC1178BF7586.subtitle}"
+			tasks: [
+				{
+					id: "15A05B9C717F1E16"
+					item: "gtocore:tier_4_eye"
+					type: "item"
+				}
+				{
+					id: "3E2983F395D61C9E"
+					item: "gtocore:tier_4_spine"
+					type: "item"
+				}
+				{
+					id: "68731F1B0B3E9534"
+					item: "gtocore:tier_4_lung"
+					type: "item"
+				}
+				{
+					id: "759D8F23EAD1C815"
+					item: "gtocore:tier_4_liver"
+					type: "item"
+				}
+				{
+					id: "58A0618D16346D23"
+					item: "gtocore:tier_4_heart"
+					type: "item"
+				}
+				{
+					id: "5981DEAE90F0D7E9"
+					item: "gtocore:tier_4_left_arm"
+					type: "item"
+				}
+				{
+					id: "4F238B141D51B433"
+					item: "gtocore:tier_4_right_arm"
+					type: "item"
+				}
+				{
+					id: "7F9292708FEB14CE"
+					item: "gtocore:tier_4_left_leg"
+					type: "item"
+				}
+				{
+					id: "038A259AD9777873"
+					item: "gtocore:tier_4_right_leg"
+					type: "item"
+				}
+			]
+			title: "{gto.beyond-the-stars.quests.72AACC1178BF7586.title}"
+			x: -3.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["1FE56FCF598C90B1"]
+			description: [
+				"{gto.beyond-the-stars.quests.5541FCA4ECD33B07.description0}"
+				""
+				"[\"\", {\"color\": \"#e3c78a\", \"translate\": \"gto.beyond-the-stars.quests.5541FCA4ECD33B07.description1.rich_text0\"}, {\"color\": \"#e3c78a\", \"translate\": \"gto.beyond-the-stars.quests.5541FCA4ECD33B07.description1.rich_text1\"}]"
+				"[\"\", {\"color\": \"#393e41\", \"translate\": \"gto.beyond-the-stars.quests.5541FCA4ECD33B07.description2.rich_text0\"}, {\"color\": \"#393e41\", \"translate\": \"gto.beyond-the-stars.quests.5541FCA4ECD33B07.description2.rich_text1\"}]"
+				"[\"\", {\"color\": \"#89847e\", \"translate\": \"gto.beyond-the-stars.quests.5541FCA4ECD33B07.description3.rich_text0\"}, {\"color\": \"#fafeff\", \"translate\": \"gto.beyond-the-stars.quests.5541FCA4ECD33B07.description3.rich_text1\"}, {\"translate\": \"gto.beyond-the-stars.quests.5541FCA4ECD33B07.description3.rich_text2\"}, {\"color\": \"#89847e\", \"translate\": \"gto.beyond-the-stars.quests.5541FCA4ECD33B07.description3.rich_text3\"}]"
+				"[\"\", {\"color\": \"#fdf55f\", \"translate\": \"gto.beyond-the-stars.quests.5541FCA4ECD33B07.description4.rich_text0\"}, {\"color\": \"#e5939b\", \"translate\": \"gto.beyond-the-stars.quests.5541FCA4ECD33B07.description4.rich_text1\"}, {\"translate\": \"gto.beyond-the-stars.quests.5541FCA4ECD33B07.description4.rich_text2\"}, {\"color\": \"#fdf55f\", \"translate\": \"gto.beyond-the-stars.quests.5541FCA4ECD33B07.description4.rich_text3\"}]"
+				"[\"\", {\"color\": \"#FAFAFA\", \"translate\": \"gto.beyond-the-stars.quests.5541FCA4ECD33B07.description5.rich_text0\"}, {\"color\": \"#ffeae1\", \"translate\": \"gto.beyond-the-stars.quests.5541FCA4ECD33B07.description5.rich_text1\"}, {\"translate\": \"gto.beyond-the-stars.quests.5541FCA4ECD33B07.description5.rich_text2\"}, {\"color\": \"#FAFAFA\", \"translate\": \"gto.beyond-the-stars.quests.5541FCA4ECD33B07.description5.rich_text3\"}, {\"translate\": \"gto.beyond-the-stars.quests.5541FCA4ECD33B07.description5.rich_text4\"}, {\"color\": \"#ffbcbc\", \"translate\": \"gto.beyond-the-stars.quests.5541FCA4ECD33B07.description5.rich_text5\"}]"
+				"[\"\", {\"color\": \"#d7e8b3\", \"translate\": \"gto.beyond-the-stars.quests.5541FCA4ECD33B07.description6.rich_text0\"}, {\"color\": \"#d7e8b3\", \"translate\": \"gto.beyond-the-stars.quests.5541FCA4ECD33B07.description6.rich_text1\"}, {\"translate\": \"gto.beyond-the-stars.quests.5541FCA4ECD33B07.description6.rich_text2\"}, {\"color\": \"#3b3a32\", \"translate\": \"gto.beyond-the-stars.quests.5541FCA4ECD33B07.description6.rich_text3\"}, {\"translate\": \"gto.beyond-the-stars.quests.5541FCA4ECD33B07.description6.rich_text4\"}, {\"color\": \"#d7e7ee\", \"translate\": \"gto.beyond-the-stars.quests.5541FCA4ECD33B07.description6.rich_text5\"}]"
+				"[\"\", {\"color\": \"#ecfeff\", \"translate\": \"gto.beyond-the-stars.quests.5541FCA4ECD33B07.description7.rich_text0\"}, {\"color\": \"#d5ffff\", \"translate\": \"gto.beyond-the-stars.quests.5541FCA4ECD33B07.description7.rich_text1\"}, {\"translate\": \"gto.beyond-the-stars.quests.5541FCA4ECD33B07.description7.rich_text2\"}, {\"color\": \"#ecfeff\", \"translate\": \"gto.beyond-the-stars.quests.5541FCA4ECD33B07.description7.rich_text3\"}, {\"translate\": \"gto.beyond-the-stars.quests.5541FCA4ECD33B07.description7.rich_text4\"}, {\"color\": \"#eed9e1\", \"translate\": \"gto.beyond-the-stars.quests.5541FCA4ECD33B07.description7.rich_text5\"}]"
+				"[\"\", {\"color\": \"#b99b7e\", \"translate\": \"gto.beyond-the-stars.quests.5541FCA4ECD33B07.description8.rich_text0\"}, {\"color\": \"#b99b7e\", \"translate\": \"gto.beyond-the-stars.quests.5541FCA4ECD33B07.description8.rich_text1\"}, {\"translate\": \"gto.beyond-the-stars.quests.5541FCA4ECD33B07.description8.rich_text2\"}, {\"color\": \"#3b3a32\", \"translate\": \"gto.beyond-the-stars.quests.5541FCA4ECD33B07.description8.rich_text3\"}, {\"translate\": \"gto.beyond-the-stars.quests.5541FCA4ECD33B07.description8.rich_text4\"}, {\"color\": \"#c7b5ab\", \"translate\": \"gto.beyond-the-stars.quests.5541FCA4ECD33B07.description8.rich_text5\"}, {\"translate\": \"gto.beyond-the-stars.quests.5541FCA4ECD33B07.description8.rich_text6\"}, {\"color\": \"#4e6b94\", \"translate\": \"gto.beyond-the-stars.quests.5541FCA4ECD33B07.description8.rich_text7\"}]"
+				"[\"\", {\"color\": \"#caab60\", \"translate\": \"gto.beyond-the-stars.quests.5541FCA4ECD33B07.description9.rich_text0\"}, {\"color\": \"#caab60\", \"translate\": \"gto.beyond-the-stars.quests.5541FCA4ECD33B07.description9.rich_text1\"}, {\"translate\": \"gto.beyond-the-stars.quests.5541FCA4ECD33B07.description9.rich_text2\"}, {\"color\": \"#d0ee98\", \"translate\": \"gto.beyond-the-stars.quests.5541FCA4ECD33B07.description9.rich_text3\"}, {\"translate\": \"gto.beyond-the-stars.quests.5541FCA4ECD33B07.description9.rich_text4\"}, {\"color\": \"#6c5863\", \"translate\": \"gto.beyond-the-stars.quests.5541FCA4ECD33B07.description9.rich_text5\"}]"
+				"[\"\", {\"color\": \"#fff4ba\", \"translate\": \"gto.beyond-the-stars.quests.5541FCA4ECD33B07.description10.rich_text0\"}, {\"color\": \"#ffe05a\", \"translate\": \"gto.beyond-the-stars.quests.5541FCA4ECD33B07.description10.rich_text1\"}, {\"translate\": \"gto.beyond-the-stars.quests.5541FCA4ECD33B07.description10.rich_text2\"}, {\"color\": \"#665f2f\", \"translate\": \"gto.beyond-the-stars.quests.5541FCA4ECD33B07.description10.rich_text3\"}, {\"translate\": \"gto.beyond-the-stars.quests.5541FCA4ECD33B07.description10.rich_text4\"}, {\"color\": \"#fff4ba\", \"translate\": \"gto.beyond-the-stars.quests.5541FCA4ECD33B07.description10.rich_text5\"}, {\"translate\": \"gto.beyond-the-stars.quests.5541FCA4ECD33B07.description10.rich_text6\"}, {\"color\": \"#bd92b5\", \"translate\": \"gto.beyond-the-stars.quests.5541FCA4ECD33B07.description10.rich_text7\"}]"
+				"[\"\", {\"color\": \"#e6e6a5\", \"translate\": \"gto.beyond-the-stars.quests.5541FCA4ECD33B07.description11.rich_text0\"}, {\"color\": \"#de953c\", \"translate\": \"gto.beyond-the-stars.quests.5541FCA4ECD33B07.description11.rich_text1\"}, {\"translate\": \"gto.beyond-the-stars.quests.5541FCA4ECD33B07.description11.rich_text2\"}, {\"color\": \"#665f2f\", \"translate\": \"gto.beyond-the-stars.quests.5541FCA4ECD33B07.description11.rich_text3\"}, {\"translate\": \"gto.beyond-the-stars.quests.5541FCA4ECD33B07.description11.rich_text4\"}, {\"color\": \"#e6e6a5\", \"translate\": \"gto.beyond-the-stars.quests.5541FCA4ECD33B07.description11.rich_text5\"}]"
+				"[\"\", {\"color\": \"#85a9ff\", \"translate\": \"gto.beyond-the-stars.quests.5541FCA4ECD33B07.description12.rich_text0\"}, {\"color\": \"#2836f1\", \"translate\": \"gto.beyond-the-stars.quests.5541FCA4ECD33B07.description12.rich_text1\"}, {\"translate\": \"gto.beyond-the-stars.quests.5541FCA4ECD33B07.description12.rich_text2\"}, {\"color\": \"#3d54ff\", \"translate\": \"gto.beyond-the-stars.quests.5541FCA4ECD33B07.description12.rich_text3\"}, {\"translate\": \"gto.beyond-the-stars.quests.5541FCA4ECD33B07.description12.rich_text4\"}, {\"color\": \"#85a9ff\", \"translate\": \"gto.beyond-the-stars.quests.5541FCA4ECD33B07.description12.rich_text5\"}, {\"translate\": \"gto.beyond-the-stars.quests.5541FCA4ECD33B07.description12.rich_text6\"}, {\"color\": \"#fffef8\", \"translate\": \"gto.beyond-the-stars.quests.5541FCA4ECD33B07.description12.rich_text7\"}]"
+				"[\"\", {\"color\": \"#cc4c25\", \"translate\": \"gto.beyond-the-stars.quests.5541FCA4ECD33B07.description13.rich_text0\"}, {\"color\": \"#89847e\", \"translate\": \"gto.beyond-the-stars.quests.5541FCA4ECD33B07.description13.rich_text1\"}, {\"translate\": \"gto.beyond-the-stars.quests.5541FCA4ECD33B07.description13.rich_text2\"}, {\"color\": \"#cc4c25\", \"translate\": \"gto.beyond-the-stars.quests.5541FCA4ECD33B07.description13.rich_text3\"}, {\"translate\": \"gto.beyond-the-stars.quests.5541FCA4ECD33B07.description13.rich_text4\"}, {\"color\": \"#E6E6E6\", \"translate\": \"gto.beyond-the-stars.quests.5541FCA4ECD33B07.description13.rich_text5\"}, {\"translate\": \"gto.beyond-the-stars.quests.5541FCA4ECD33B07.description13.rich_text6\"}, {\"color\": \"#fffafa\", \"translate\": \"gto.beyond-the-stars.quests.5541FCA4ECD33B07.description13.rich_text7\"}]"
+			]
+			icon: "ad_astra:glacio_globe"
+			icon_scale: 1.5d
+			id: "5541FCA4ECD33B07"
+			rewards: [{
+				id: "23E542A072D4CADE"
+				item: "ad_astra:glacio_globe"
+				type: "item"
+			}]
+			shape: "none"
+			size: 2.0d
+			subtitle: "{gto.beyond-the-stars.quests.5541FCA4ECD33B07.subtitle}"
+			tasks: [{
+				dimension: "ad_astra:glacio"
+				id: "4D5DE6EE3C6C8E97"
+				type: "dimension"
+			}]
+			title: "{gto.beyond-the-stars.quests.5541FCA4ECD33B07.title}"
+			x: 1.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["5541FCA4ECD33B07"]
+			description: ["{gto.beyond-the-stars.quests.66B8B18A19F504DA.description0}"]
+			id: "66B8B18A19F504DA"
+			subtitle: "{gto.beyond-the-stars.quests.66B8B18A19F504DA.subtitle}"
+			tasks: [{
+				id: "6C4660BD51C394FB"
+				item: "gtocore:glacio_spirit"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["55FCF330DABADFB1"]
+			description: [
+				"{gto.beyond-the-stars.quests.601DBD60E46AC35B.description0}"
+				""
+				"{gto.beyond-the-stars.quests.601DBD60E46AC35B.description1}"
+			]
+			id: "601DBD60E46AC35B"
+			subtitle: "{gto.beyond-the-stars.quests.601DBD60E46AC35B.subtitle}"
+			tasks: [{
+				id: "799CA36B3381A6EE"
+				item: "gtceu:tiny_rhodium_dust"
+				type: "item"
+			}]
+			title: "{gto.beyond-the-stars.quests.601DBD60E46AC35B.title}"
+			x: 17.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"19B07E541BE74686"
+				"66B8B18A19F504DA"
+			]
+			description: ["{gto.beyond-the-stars.quests.05C7059BC114AD42.description0}"]
+			id: "05C7059BC114AD42"
+			shape: "gear"
+			size: 2.5d
+			subtitle: "{gto.beyond-the-stars.quests.05C7059BC114AD42.subtitle}"
+			tasks: [{
+				id: "37F8240593463A50"
+				item: "gtocore:space_elevator"
+				type: "item"
+			}]
+			title: "{gto.beyond-the-stars.quests.05C7059BC114AD42.title}"
+			x: -3.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["72AACC1178BF7586"]
+			description: [
+				"{gto.beyond-the-stars.quests.6320619CCAE8158F.description0}"
+				"{@pagebreak}"
+				"{gto.beyond-the-stars.quests.6320619CCAE8158F.description1}"
+				""
+				"[\"\", {\"color\": \"#e3c78a\", \"translate\": \"gto.beyond-the-stars.quests.6320619CCAE8158F.description2.rich_text0\"}, {\"color\": \"#e3c78a\", \"translate\": \"gto.beyond-the-stars.quests.6320619CCAE8158F.description2.rich_text1\"}]"
+				"[\"\", {\"color\": \"#434864\", \"translate\": \"gto.beyond-the-stars.quests.6320619CCAE8158F.description3.rich_text0\"}, {\"color\": \"#434864\", \"translate\": \"gto.beyond-the-stars.quests.6320619CCAE8158F.description3.rich_text1\"}]"
+				"[\"\", {\"color\": \"#181D3A\", \"translate\": \"gto.beyond-the-stars.quests.6320619CCAE8158F.description4.rich_text0\"}, {\"color\": \"#181D3A\", \"translate\": \"gto.beyond-the-stars.quests.6320619CCAE8158F.description4.rich_text1\"}, {\"translate\": \"gto.beyond-the-stars.quests.6320619CCAE8158F.description4.rich_text2\"}, {\"color\": \"#ba2727\", \"translate\": \"gto.beyond-the-stars.quests.6320619CCAE8158F.description4.rich_text3\"}]"
+				"[\"\", {\"color\": \"#FAFAFA\", \"translate\": \"gto.beyond-the-stars.quests.6320619CCAE8158F.description5.rich_text0\"}, {\"color\": \"#ffeae1\", \"translate\": \"gto.beyond-the-stars.quests.6320619CCAE8158F.description5.rich_text1\"}, {\"translate\": \"gto.beyond-the-stars.quests.6320619CCAE8158F.description5.rich_text2\"}, {\"color\": \"#FAFAFA\", \"translate\": \"gto.beyond-the-stars.quests.6320619CCAE8158F.description5.rich_text3\"}, {\"translate\": \"gto.beyond-the-stars.quests.6320619CCAE8158F.description5.rich_text4\"}, {\"color\": \"#ffbcbc\", \"translate\": \"gto.beyond-the-stars.quests.6320619CCAE8158F.description5.rich_text5\"}]"
+				"[\"\", {\"color\": \"#f3e8fa\", \"translate\": \"gto.beyond-the-stars.quests.6320619CCAE8158F.description6.rich_text0\"}, {\"color\": \"#f3e8fa\", \"translate\": \"gto.beyond-the-stars.quests.6320619CCAE8158F.description6.rich_text1\"}, {\"translate\": \"gto.beyond-the-stars.quests.6320619CCAE8158F.description6.rich_text2\"}, {\"color\": \"#DCDCFF\", \"translate\": \"gto.beyond-the-stars.quests.6320619CCAE8158F.description6.rich_text3\"}, {\"translate\": \"gto.beyond-the-stars.quests.6320619CCAE8158F.description6.rich_text4\"}, {\"color\": \"#7e6f82\", \"translate\": \"gto.beyond-the-stars.quests.6320619CCAE8158F.description6.rich_text5\"}]"
+				"[\"\", {\"color\": \"#ff0000\", \"translate\": \"gto.beyond-the-stars.quests.6320619CCAE8158F.description7.rich_text0\"}, {\"color\": \"#ff0000\", \"translate\": \"gto.beyond-the-stars.quests.6320619CCAE8158F.description7.rich_text1\"}, {\"translate\": \"gto.beyond-the-stars.quests.6320619CCAE8158F.description7.rich_text2\"}, {\"color\": \"#d72310\", \"translate\": \"gto.beyond-the-stars.quests.6320619CCAE8158F.description7.rich_text3\"}, {\"translate\": \"gto.beyond-the-stars.quests.6320619CCAE8158F.description7.rich_text4\"}, {\"color\": \"#ff335f\", \"translate\": \"gto.beyond-the-stars.quests.6320619CCAE8158F.description7.rich_text5\"}]"
+				"[\"\", {\"color\": \"#C8FFFF\", \"translate\": \"gto.beyond-the-stars.quests.6320619CCAE8158F.description8.rich_text0\"}, {\"color\": \"#e65757\", \"translate\": \"gto.beyond-the-stars.quests.6320619CCAE8158F.description8.rich_text1\"}, {\"translate\": \"gto.beyond-the-stars.quests.6320619CCAE8158F.description8.rich_text2\"}, {\"color\": \"#5050FA\", \"translate\": \"gto.beyond-the-stars.quests.6320619CCAE8158F.description8.rich_text3\"}, {\"translate\": \"gto.beyond-the-stars.quests.6320619CCAE8158F.description8.rich_text4\"}, {\"color\": \"#5b4838\", \"translate\": \"gto.beyond-the-stars.quests.6320619CCAE8158F.description8.rich_text5\"}]"
+				"[\"\", {\"color\": \"#06cdf1\", \"translate\": \"gto.beyond-the-stars.quests.6320619CCAE8158F.description9.rich_text0\"}, {\"color\": \"#06cdf1\", \"translate\": \"gto.beyond-the-stars.quests.6320619CCAE8158F.description9.rich_text1\"}, {\"translate\": \"gto.beyond-the-stars.quests.6320619CCAE8158F.description9.rich_text2\"}, {\"color\": \"#fffddb\", \"translate\": \"gto.beyond-the-stars.quests.6320619CCAE8158F.description9.rich_text3\"}, {\"translate\": \"gto.beyond-the-stars.quests.6320619CCAE8158F.description9.rich_text4\"}, {\"color\": \"#5b4838\", \"translate\": \"gto.beyond-the-stars.quests.6320619CCAE8158F.description9.rich_text5\"}]"
+				"[\"\", {\"color\": \"#5c5c5c\", \"translate\": \"gto.beyond-the-stars.quests.6320619CCAE8158F.description10.rich_text0\"}, {\"color\": \"#5c5c5c\", \"translate\": \"gto.beyond-the-stars.quests.6320619CCAE8158F.description10.rich_text1\"}, {\"translate\": \"gto.beyond-the-stars.quests.6320619CCAE8158F.description10.rich_text2\"}, {\"color\": \"#d69077\", \"translate\": \"gto.beyond-the-stars.quests.6320619CCAE8158F.description10.rich_text3\"}, {\"translate\": \"gto.beyond-the-stars.quests.6320619CCAE8158F.description10.rich_text4\"}, {\"color\": \"#f3efbb\", \"translate\": \"gto.beyond-the-stars.quests.6320619CCAE8158F.description10.rich_text5\"}, {\"translate\": \"gto.beyond-the-stars.quests.6320619CCAE8158F.description10.rich_text6\"}, {\"color\": \"#fffaec\", \"translate\": \"gto.beyond-the-stars.quests.6320619CCAE8158F.description10.rich_text7\"}]"
+			]
+			icon: "ad_astra:barnarda_c_globe"
+			icon_scale: 2.0d
+			id: "6320619CCAE8158F"
+			rewards: [{
+				id: "2800607957BD6BA6"
+				item: "ad_astra:barnarda_c_globe"
+				type: "item"
+			}]
+			shape: "none"
+			size: 2.5d
+			subtitle: "{gto.beyond-the-stars.quests.6320619CCAE8158F.subtitle}"
+			tasks: [{
+				dimension: "gtocore:barnarda_c"
+				id: "7BF134BB2D789667"
+				type: "dimension"
+			}]
+			title: "{gto.beyond-the-stars.quests.6320619CCAE8158F.title}"
+			x: -3.0d
+			y: 19.0d
+		}
+		{
+			dependencies: ["6320619CCAE8158F"]
+			description: [
+				"{gto.beyond-the-stars.quests.3E1CA6DA4998A682.description0}"
+				""
+				"{gto.beyond-the-stars.quests.3E1CA6DA4998A682.description1}"
+			]
+			id: "3E1CA6DA4998A682"
+			subtitle: "{gto.beyond-the-stars.quests.3E1CA6DA4998A682.subtitle}"
+			tasks: [
+				{
+					id: "169BC195B7AF8027"
+					item: "gtocore:unknowwater_bucket"
+					type: "item"
+				}
+				{
+					id: "1A2514714DDB426F"
+					item: "gtocore:barnarda_air_bucket"
+					type: "item"
+				}
+			]
+			title: "{gto.beyond-the-stars.quests.3E1CA6DA4998A682.title}"
+			x: -3.0d
+			y: 21.5d
+		}
+		{
+			dependencies: [
+				"3AA02FCCAFB82E87"
+				"637E8174DF8EA186"
+			]
+			description: [
+				"{gto.beyond-the-stars.quests.5CA2359D7B952655.description0}"
+				""
+				"{gto.beyond-the-stars.quests.5CA2359D7B952655.description1}"
+			]
+			id: "5CA2359D7B952655"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "{gto.beyond-the-stars.quests.5CA2359D7B952655.subtitle}"
+			tasks: [{
+				id: "144A747E3B0BBC44"
+				item: "gtocore:rocket_fuel_cn3h7o3_bucket"
+				type: "item"
+			}]
+			title: "{gto.beyond-the-stars.quests.5CA2359D7B952655.title}"
+			x: -9.0d
+			y: 7.0d
+		}
+		{
+			id: "3AA02FCCAFB82E87"
+			tasks: [{
+				id: "4F351B531D0224A4"
+				item: "gtocore:monomethylhydrazine_bucket"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"726D63623917AEFF"
+				"618BFD8A6FC90B86"
+				"5CA2359D7B952655"
+			]
+			description: [
+				"{gto.beyond-the-stars.quests.4A3E57669091C8A0.description0}"
+				""
+				"{gto.beyond-the-stars.quests.4A3E57669091C8A0.description1}"
+				""
+				"{gto.beyond-the-stars.quests.4A3E57669091C8A0.description2}"
+			]
+			id: "4A3E57669091C8A0"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "{gto.beyond-the-stars.quests.4A3E57669091C8A0.subtitle}"
+			tasks: [{
+				id: "750F536A3AF98C27"
+				item: "gtocore:rocket_fuel_h8n4c2o4_bucket"
+				type: "item"
+			}]
+			title: "{gto.beyond-the-stars.quests.4A3E57669091C8A0.title}"
+			x: -9.0d
+			y: 10.0d
+		}
+		{
+			id: "726D63623917AEFF"
+			tasks: [{
+				id: "3C47A545034DAFF5"
+				item: "gtceu:dimethylhydrazine_bucket"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 10.5d
+		}
+		{
+			id: "618BFD8A6FC90B86"
+			tasks: [{
+				id: "68844B5F07613780"
+				item: "gtceu:dinitrogen_tetroxide_bucket"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"4A3E57669091C8A0"
+				"5EECA1A7B726B29F"
+				"67A5C9B045EE23B0"
+				"462BE2D4394A2899"
+			]
+			description: ["{gto.beyond-the-stars.quests.2A60421E915FF505.description0}"]
+			id: "2A60421E915FF505"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "{gto.beyond-the-stars.quests.2A60421E915FF505.subtitle}"
+			tasks: [{
+				id: "06DB0648CC6329ED"
+				item: "ad_astra:cryo_fuel_bucket"
+				type: "item"
+			}]
+			title: "{gto.beyond-the-stars.quests.2A60421E915FF505.title}"
+			x: -9.0d
+			y: 13.0d
+		}
+		{
+			id: "462BE2D4394A2899"
+			tasks: [{
+				id: "5CC6A7DE21C2E580"
+				item: "gtocore:explosivehydrazine_bucket"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 14.0d
+		}
+		{
+			id: "5EECA1A7B726B29F"
+			tasks: [{
+				id: "7E93DB0BF1AD0956"
+				item: "ad_astra:ice_shard"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 12.0d
+		}
+		{
+			id: "67A5C9B045EE23B0"
+			tasks: [{
+				id: "670C999BAD383253"
+				item: "gtceu:cetane_boosted_diesel_bucket"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 13.0d
+		}
+		{
+			dependencies: [
+				"7E47ACAD8471A487"
+				"2A60421E915FF505"
+			]
+			description: ["{gto.beyond-the-stars.quests.3581343F25D5B03F.description0}"]
+			id: "3581343F25D5B03F"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "{gto.beyond-the-stars.quests.3581343F25D5B03F.subtitle}"
+			tasks: [{
+				id: "5DC2AE50E6E29B17"
+				item: "gtocore:stellar_energy_rocket_fuel_bucket"
+				type: "item"
+			}]
+			title: "{gto.beyond-the-stars.quests.3581343F25D5B03F.title}"
+			x: -9.0d
+			y: 16.0d
+		}
+		{
+			id: "7E47ACAD8471A487"
+			tasks: [{
+				id: "6A039E9A341ABB1B"
+				item: "gtocore:hmxexplosive_dust"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["1BD5CACCF07947C7"]
+			description: [
+				"{gto.beyond-the-stars.quests.4F971944467283FA.description0}"
+				""
+				"{gto.beyond-the-stars.quests.4F971944467283FA.description1}"
+			]
+			icon: "gtceu:prospector.luv"
+			id: "4F971944467283FA"
+			shape: "pentagon"
+			subtitle: "{gto.beyond-the-stars.quests.4F971944467283FA.subtitle}"
+			tasks: [{
+				id: "47F2F8F7136633E5"
+				type: "checkmark"
+			}]
+			title: "{gto.beyond-the-stars.quests.4F971944467283FA.title}"
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"310210D2AD9515E3"
+				"61C37EC8503FFDD9"
+			]
+			description: [
+				"{gto.beyond-the-stars.quests.4EE27291636F444E.description0}"
+				""
+				"{gto.beyond-the-stars.quests.4EE27291636F444E.description1}"
+			]
+			id: "4EE27291636F444E"
+			subtitle: "{gto.beyond-the-stars.quests.4EE27291636F444E.subtitle}"
+			tasks: [{
+				id: "0F76A5748AAB329A"
+				item: "gtceu:raw_bauxite"
+				type: "item"
+			}]
+			title: "{gto.beyond-the-stars.quests.4EE27291636F444E.title}"
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"310210D2AD9515E3"
+				"61C37EC8503FFDD9"
+			]
+			description: [
+				"{gto.beyond-the-stars.quests.0A046D102CBD3493.description0}"
+				""
+				"{gto.beyond-the-stars.quests.0A046D102CBD3493.description1}"
+			]
+			id: "0A046D102CBD3493"
+			subtitle: "{gto.beyond-the-stars.quests.0A046D102CBD3493.subtitle}"
+			tasks: [{
+				id: "2781E4FAA11D69A8"
+				item: "gtceu:raw_ilmenite"
+				type: "item"
+			}]
+			title: "{gto.beyond-the-stars.quests.0A046D102CBD3493.title}"
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7FE2763143958129"]
+			description: ["[\"\", {\"translate\": \"gto.beyond-the-stars.quests.525F86A7BBB260AD.description0.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"388DCD34426BAE36\"}, \"translate\": \"gto.beyond-the-stars.quests.525F86A7BBB260AD.description0.rich_text1\"}]"]
+			hide_dependency_lines: true
+			id: "525F86A7BBB260AD"
+			tasks: [
+				{
+					id: "2993ED18460CA9F6"
+					item: {
+						Count: 1
+						id: "gtceu:nanomuscle_helmet"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "18705C0686019809"
+					item: "gtceu:nanomuscle_chestplate"
+					type: "item"
+				}
+				{
+					id: "42137588E8067FC4"
+					item: "gtceu:nanomuscle_leggings"
+					type: "item"
+				}
+				{
+					id: "59287CB1A650567F"
+					item: "gtceu:nanomuscle_boots"
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"6F760D81DC93ACFB"
+				"525F86A7BBB260AD"
+			]
+			description: [
+				"{gto.beyond-the-stars.quests.388DCD34426BAE36.description0}"
+				""
+				"{gto.beyond-the-stars.quests.388DCD34426BAE36.description1}"
+				""
+				"{gto.beyond-the-stars.quests.388DCD34426BAE36.description2}"
+			]
+			id: "388DCD34426BAE36"
+			optional: true
+			subtitle: "{gto.beyond-the-stars.quests.388DCD34426BAE36.subtitle}"
+			tasks: [{
+				id: "5FA3A2B7271F1078"
+				item: {
+					Count: 1
+					id: "gtocore:space_nanomuscle_chestplate"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"4BA890971C18F938"
+				"22C91CDFD9C07B97"
+			]
+			id: "632D29DA89C3CEA4"
+			tasks: [{
+				id: "354A13045B66A68A"
+				item: {
+					Count: 1
+					id: "gtocore:space_advanced_nanomuscle_chestplate"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["388DCD34426BAE36"]
+			description: ["[\"\", {\"translate\": \"gto.beyond-the-stars.quests.22C91CDFD9C07B97.description0.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"632D29DA89C3CEA4\"}, \"translate\": \"gto.beyond-the-stars.quests.22C91CDFD9C07B97.description0.rich_text1\"}]"]
+			id: "22C91CDFD9C07B97"
+			tasks: [{
+				id: "6802515A6BA93C89"
+				item: {
+					Count: 1
+					id: "gtceu:advanced_nanomuscle_chestplate"
+					tag: {
+						Charge: 0L
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"632D29DA89C3CEA4"
+				"38E57C47A1D6D206"
+			]
+			description: [
+				"{gto.beyond-the-stars.quests.47FDF0B4D055BE01.description0}"
+				""
+				"[\"\", {\"translate\": \"gto.beyond-the-stars.quests.47FDF0B4D055BE01.description1.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"5AED06E84B4278D6\"}, \"translate\": \"gto.beyond-the-stars.quests.47FDF0B4D055BE01.description1.rich_text1\"}, {\"translate\": \"gto.beyond-the-stars.quests.47FDF0B4D055BE01.description1.rich_text2\"}]"
+			]
+			id: "47FDF0B4D055BE01"
+			tasks: [
+				{
+					id: "5247334D5306B9FA"
+					item: {
+						Count: 1
+						id: "gtceu:quarktech_helmet"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "5942524F8212CA67"
+					item: "gtceu:quarktech_chestplate"
+					type: "item"
+				}
+				{
+					id: "2CF55E436522A634"
+					item: "gtceu:quarktech_leggings"
+					type: "item"
+				}
+				{
+					id: "7B28175234358DD8"
+					item: "gtceu:quarktech_boots"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"47FDF0B4D055BE01"
+				"135B35F7619D288E"
+			]
+			description: ["{gto.beyond-the-stars.quests.5AED06E84B4278D6.description0}"]
+			id: "5AED06E84B4278D6"
+			tasks: [{
+				id: "0E7833FD30BA1708"
+				item: {
+					Count: 1
+					id: "gtocore:space_quarktech_chestplate"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5AED06E84B4278D6"]
+			description: [
+				"{gto.beyond-the-stars.quests.583AC7B9DF4FCED9.description0}"
+				""
+				"[\"\", {\"translate\": \"gto.beyond-the-stars.quests.583AC7B9DF4FCED9.description1.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"61A5DA41383BB91A\"}, \"translate\": \"gto.beyond-the-stars.quests.583AC7B9DF4FCED9.description1.rich_text1\"}]"
+			]
+			id: "583AC7B9DF4FCED9"
+			tasks: [{
+				id: "33A42408D649B9D7"
+				item: {
+					Count: 1
+					id: "gtceu:advanced_quarktech_chestplate"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["583AC7B9DF4FCED9"]
+			description: ["{gto.beyond-the-stars.quests.61A5DA41383BB91A.description0}"]
+			id: "61A5DA41383BB91A"
+			tasks: [{
+				id: "1FC53A813D484FDD"
+				item: {
+					Count: 1
+					id: "gtocore:space_advanced_quarktech_chestplate"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 12.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3581343F25D5B03F"]
+			id: "13F025F762A84795"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "6D9447587AC83C1E"
+				type: "checkmark"
+			}]
+			title: "{gto.beyond-the-stars.quests.13F025F762A84795.title}"
+			x: -9.0d
+			y: 19.0d
+		}
+	]
+	subtitle: ["{gto.beyond-the-stars.subtitle0}"]
+	title: "{gto.beyond-the-stars.title}"
+}

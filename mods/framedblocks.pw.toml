@@ -11,3 +11,7 @@ mode = "metadata:curseforge"
 [update.curseforge]
 file-id = 6685443
 project-id = 441647
+
+[option]
+optional = true
+description = "Adds a framed blocks to the game"
