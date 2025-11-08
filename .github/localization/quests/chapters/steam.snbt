@@ -1892,6 +1892,31 @@
 			x: 7.5d
 			y: 8.5d
 		}
+		{
+			dependencies: ["24C53B5FF515ACAC"]
+			description: [
+				"{gto.steam.quests.2D9C665F5E27350B.description0}"
+				""
+				"{gto.steam.quests.2D9C665F5E27350B.description1}"
+			]
+			id: "2D9C665F5E27350B"
+			optional: true
+			subtitle: "{gto.steam.quests.2D9C665F5E27350B.subtitle}"
+			tasks: [
+				{
+					id: "3FE32D648A188BF4"
+					item: "gtceu:lp_steam_miner"
+					type: "item"
+				}
+				{
+					id: "55FAF23883218837"
+					item: "gtceu:hp_steam_miner"
+					type: "item"
+				}
+			]
+			x: -11.0d
+			y: 4.5d
+		}
 	]
 	subtitle: ["{gto.steam.subtitle0}"]
 	title: "{gto.steam.title}"

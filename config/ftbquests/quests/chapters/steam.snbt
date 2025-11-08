@@ -1889,6 +1889,31 @@
 			x: 7.5d
 			y: 8.5d
 		}
+		{
+			dependencies: ["24C53B5FF515ACAC"]
+			description: [
+				"可以帮你自动挖矿，但是效率实在是太低了，还没你手挖的快"
+				""
+				"你可以选择不完成这个任务，毕竟它是可选的"
+			]
+			id: "2D9C665F5E27350B"
+			optional: true
+			subtitle: "并不能解放双手"
+			tasks: [
+				{
+					id: "3FE32D648A188BF4"
+					item: "gtceu:lp_steam_miner"
+					type: "item"
+				}
+				{
+					id: "55FAF23883218837"
+					item: "gtceu:hp_steam_miner"
+					type: "item"
+				}
+			]
+			x: -11.0d
+			y: 4.5d
+		}
 	]
 	subtitle: ["Tier0-Steam"]
 	title: "1. 蒸汽时代(Steam Age)"
