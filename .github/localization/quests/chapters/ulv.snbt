@@ -1317,6 +1317,11 @@
 		}
 		{
 			dependencies: ["0FBE7318DFBA700E"]
+			description: [
+				"{gto.ulv.quests.6CC4173B5BF99920.description0}"
+				""
+				"{gto.ulv.quests.6CC4173B5BF99920.description1}"
+			]
 			id: "6CC4173B5BF99920"
 			shape: "diamond"
 			size: 1.5d
