@@ -421,6 +421,10 @@
 			icon: "ad_astra:etrionic_core"
 			id: "40536B32E6A432CD"
 			subtitle: "这可不能吨吨吨"
+			tasks: [{
+				id: "104E97D1D08D8860"
+				type: "checkmark"
+			}]
 			title: "火箭燃料"
 			x: -7.0d
 			y: -3.15d
