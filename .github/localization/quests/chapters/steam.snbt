@@ -1227,7 +1227,7 @@
 			}]
 			title: "{gto.steam.quests.13FBF05133D59CDC.title}"
 			x: 9.0d
-			y: 5.0d
+			y: 5.15d
 		}
 		{
 			description: [
@@ -1593,7 +1593,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["13FBF05133D59CDC"]
+			dependencies: ["27F4D9739FE33A02"]
 			description: [
 				"{gto.steam.quests.524B8340450628A3.description0}"
 				""
@@ -1661,7 +1661,7 @@
 			}]
 			title: "{gto.steam.quests.524B8340450628A3.title}"
 			x: 7.5d
-			y: 5.0d
+			y: 1.0d
 		}
 		{
 			description: [
@@ -1916,6 +1916,30 @@
 			]
 			x: -11.0d
 			y: 4.5d
+		}
+		{
+			dependencies: ["27F4D9739FE33A02"]
+			description: [
+				"{gto.steam.quests.1ACA0000AE7FC80A.description0}"
+				""
+				"{gto.steam.quests.1ACA0000AE7FC80A.description1}"
+			]
+			id: "1ACA0000AE7FC80A"
+			rewards: [{
+				id: "762358C3DBE707D5"
+				item: "gtocore:copper_coin"
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "{gto.steam.quests.1ACA0000AE7FC80A.subtitle}"
+			tasks: [{
+				id: "15C02C37D1266918"
+				item: "avaritia:compressed_chest"
+				type: "item"
+			}]
+			title: "{gto.steam.quests.1ACA0000AE7FC80A.title}"
+			x: 7.5d
+			y: 4.0d
 		}
 	]
 	subtitle: ["{gto.steam.subtitle0}"]
