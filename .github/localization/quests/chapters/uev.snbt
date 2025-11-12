@@ -126,8 +126,8 @@
 			y: -6.0d
 		}
 		{
+			description: ["{gto.uev.quests.79F7E5BB7025ED2D.description0}"]
 			id: "79F7E5BB7025ED2D"
-			invisible: true
 			subtitle: "{gto.uev.quests.79F7E5BB7025ED2D.subtitle}"
 			tasks: [{
 				id: "4D04F650E3823FC9"
@@ -143,7 +143,6 @@
 		}
 		{
 			id: "078689C5C9FABDE7"
-			invisible: true
 			subtitle: "{gto.uev.quests.078689C5C9FABDE7.subtitle}"
 			tasks: [{
 				id: "1BD09C364BE0EEDF"
@@ -159,7 +158,6 @@
 		}
 		{
 			id: "7448C7335542B7A5"
-			invisible: true
 			subtitle: "{gto.uev.quests.7448C7335542B7A5.subtitle}"
 			tasks: [{
 				id: "25565AFB6E00D585"

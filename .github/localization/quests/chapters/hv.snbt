@@ -516,7 +516,7 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: 3.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["6F760D81DC93ACFB"]
@@ -1187,13 +1187,11 @@
 				"{gto.hv.quests.19B006CEA837B6B4.description1}"
 				"{gto.hv.quests.19B006CEA837B6B4.description2}"
 				"{gto.hv.quests.19B006CEA837B6B4.description3}"
-				"{gto.hv.quests.19B006CEA837B6B4.description4}"
 				""
+				"{gto.hv.quests.19B006CEA837B6B4.description4}"
 				"{gto.hv.quests.19B006CEA837B6B4.description5}"
 				"{gto.hv.quests.19B006CEA837B6B4.description6}"
 				"{gto.hv.quests.19B006CEA837B6B4.description7}"
-				"{gto.hv.quests.19B006CEA837B6B4.description8}"
-				"{gto.hv.quests.19B006CEA837B6B4.description9}"
 			]
 			icon: "gtocore:hv_programmablec_hatch"
 			id: "19B006CEA837B6B4"
@@ -1326,7 +1324,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 3.5d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -1784,11 +1782,15 @@
 			]
 			title: "{gto.hv.quests.23A3A8F6E6738331.title}"
 			x: 7.0d
-			y: 3.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["19B006CEA837B6B4"]
-			description: ["{gto.hv.quests.0362FE44C232A1CE.description0}"]
+			description: [
+				"{gto.hv.quests.0362FE44C232A1CE.description0}"
+				""
+				"{gto.hv.quests.0362FE44C232A1CE.description1}"
+			]
 			id: "0362FE44C232A1CE"
 			optional: true
 			shape: "diamond"
@@ -1799,6 +1801,23 @@
 			}]
 			x: 6.0d
 			y: -4.5d
+		}
+		{
+			dependencies: ["310210D2AD9515E3"]
+			description: [
+				"{gto.hv.quests.1A1DFCA1157441FF.description0}"
+				""
+				"[\"\", {\"translate\": \"gto.hv.quests.1A1DFCA1157441FF.description1.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"388D743C6BA5D995\"}, \"translate\": \"gto.hv.quests.1A1DFCA1157441FF.description1.rich_text1\"}, {\"translate\": \"gto.hv.quests.1A1DFCA1157441FF.description1.rich_text2\"}]"
+			]
+			icon: "gtmthings:hv_wireless_energy_receive_cover"
+			id: "1A1DFCA1157441FF"
+			tasks: [{
+				id: "3B6013F3584A59AA"
+				title: "{gto.hv.quests.1A1DFCA1157441FF.tasks.3B6013F3584A59AA.title}"
+				type: "checkmark"
+			}]
+			x: 13.5d
+			y: 1.0d
 		}
 	]
 	subtitle: ["{gto.hv.subtitle0}"]

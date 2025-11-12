@@ -631,8 +631,8 @@
 				item: "gtocore:slaughterhouse"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 4.5d
+			x: 8.0d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -651,7 +651,7 @@
 				item: "gtceu:lv_field_generator"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 6.5d
 			y: 4.5d
 		}
 		{
@@ -668,7 +668,7 @@
 				item: "gtceu:manganese_phosphide_ingot"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 3.5d
 			y: 4.5d
 		}
 		{
@@ -1470,14 +1470,14 @@
 			]
 			id: "4FC3EC9C6C25633F"
 			shape: "diamond"
-			size: 1.5d
+			size: 1.0d
 			subtitle: "{gto.lv.quests.4FC3EC9C6C25633F.subtitle}"
 			tasks: [{
 				id: "5645184B847D4D23"
 				item: "gtceu:lv_air_scrubber"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 2.5d
 			y: 5.5d
 		}
 		{
@@ -1501,7 +1501,7 @@
 				item: "gtocore:steel_field_generator_casing"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 5.0d
 			y: 6.0d
 		}
 		{
@@ -1568,7 +1568,7 @@
 				item: "gtceu:lv_world_accelerator"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 8.0d
 			y: 4.5d
 		}
 		{
@@ -1767,7 +1767,7 @@
 				type: "item"
 			}]
 			title: "{gto.lv.quests.7F65A1C533ED1C3B.title}"
-			x: 7.0d
+			x: 6.5d
 			y: 6.0d
 		}
 		{
@@ -2086,6 +2086,43 @@
 			}]
 			x: -12.0d
 			y: 3.0d
+		}
+		{
+			dependencies: ["4ECCD5C54FE7F706"]
+			description: ["{gto.lv.quests.76C7A649B54B9E94.description0}"]
+			id: "76C7A649B54B9E94"
+			tasks: [{
+				id: "0FA72DF40756106A"
+				item: "gtocore:gas_compressor"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["76C7A649B54B9E94"]
+			description: [
+				"{gto.lv.quests.3B444EF8E5D3C52D.description0}"
+				""
+				"{gto.lv.quests.3B444EF8E5D3C52D.description1}"
+			]
+			icon: "gtceu:manganese_phosphide_single_wire"
+			id: "3B444EF8E5D3C52D"
+			tasks: [
+				{
+					id: "776DA63226FB20E3"
+					item: "gtocore:manganese_phosphide_superconductor_base"
+					type: "item"
+				}
+				{
+					id: "7F18D0A3C91282D9"
+					item: "gtceu:manganese_phosphide_single_wire"
+					type: "item"
+				}
+			]
+			title: "{gto.lv.quests.3B444EF8E5D3C52D.title}"
+			x: 5.0d
+			y: 4.5d
 		}
 	]
 	subtitle: ["{gto.lv.subtitle0}"]

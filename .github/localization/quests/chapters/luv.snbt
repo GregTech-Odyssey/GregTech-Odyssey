@@ -1087,6 +1087,37 @@
 			x: 6.5d
 			y: 6.25d
 		}
+		{
+			dependencies: ["03ECABF0C3DF29EF"]
+			description: ["{gto.luv.quests.2CBDC8B5C9C32530.description0}"]
+			id: "2CBDC8B5C9C32530"
+			tasks: [{
+				id: "1BFEEE6488434618"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "gtocore:vein_essence"
+					}
+				}
+				title: "{gto.luv.quests.2CBDC8B5C9C32530.tasks.1BFEEE6488434618.title}"
+				type: "item"
+			}]
+			title: "{gto.luv.quests.2CBDC8B5C9C32530.title}"
+			x: 21.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["789B188B05759151"]
+			id: "03ECABF0C3DF29EF"
+			tasks: [{
+				id: "75DAC0E76EB7EE42"
+				item: "gtocore:block_conversion_room"
+				type: "item"
+			}]
+			x: 19.0d
+			y: 5.0d
+		}
 	]
 	subtitle: ["{gto.luv.subtitle0}"]
 	title: "{gto.luv.title}"

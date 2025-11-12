@@ -330,6 +330,8 @@
 				"{gto.zpm.quests.256F90AFB461107E.description0}"
 				""
 				"{gto.zpm.quests.256F90AFB461107E.description1}"
+				""
+				"{gto.zpm.quests.256F90AFB461107E.description2}"
 			]
 			hide_dependency_lines: false
 			id: "256F90AFB461107E"
@@ -387,7 +389,7 @@
 				}
 			]
 			x: 3.0d
-			y: 5.75d
+			y: 6.0d
 		}
 		{
 			dependencies: ["19134C6F6A115AEE"]
@@ -958,6 +960,7 @@
 				"7A12577E23FC07A1"
 			]
 			description: ["{gto.zpm.quests.6742F9E1907A9A84.description0}"]
+			icon: "gtceu:bio_chaff"
 			id: "6742F9E1907A9A84"
 			tasks: [{
 				id: "0D91FABC6AA07541"
@@ -966,6 +969,65 @@
 			}]
 			x: -6.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["26167AFECA871925"]
+			description: ["{gto.zpm.quests.4520F6658FC37F85.description0}"]
+			id: "4520F6658FC37F85"
+			optional: true
+			size: 1.0d
+			tasks: [{
+				id: "22B316DD32F2AF97"
+				item: "gtocore:fast_neutron_breeder_reactor"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4520F6658FC37F85"]
+			id: "36A7AE94EDBE45C2"
+			optional: true
+			tasks: [{
+				id: "2AE711CD2EE2EFC4"
+				item: "gtocore:light_emitting_charged_suspicious_waste_dust"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["36A7AE94EDBE45C2"]
+			description: ["{gto.zpm.quests.49C45F55F5DF8BFC.description0}"]
+			id: "49C45F55F5DF8BFC"
+			optional: true
+			tasks: [{
+				id: "7378BC1E4E25C4DC"
+				item: "gtocore:etrium_dust"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"7FED9F9CC769610C"
+				"6742F9E1907A9A84"
+				"7651697F32169E49"
+			]
+			disable_toast: true
+			icon_scale: 0.25d
+			id: "7B0B57FC6C6C3D9E"
+			shape: "none"
+			size: 0.25d
+			tasks: [{
+				id: "133D90A471C42972"
+				stat: "minecraft:jump"
+				type: "stat"
+				value: 1
+			}]
+			x: -7.5d
+			y: 2.0d
 		}
 	]
 	subtitle: ["{gto.zpm.subtitle0}"]
