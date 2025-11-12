@@ -330,6 +330,8 @@
 				"极限压阶段仍还有一半的&a生&r&2物&r&a线&r要走"
 				""
 				"不过作为回报，你终将在UV阶段解锁全套的&6增益仓&r！"
+				""
+				"从&6安普洛&r和&6纳米锻炉&r开始你的极限压之旅吧"
 			]
 			hide_dependency_lines: false
 			id: "256F90AFB461107E"
@@ -387,7 +389,7 @@
 				}
 			]
 			x: 3.0d
-			y: 5.75d
+			y: 6.0d
 		}
 		{
 			dependencies: ["19134C6F6A115AEE"]
@@ -952,6 +954,7 @@
 				"7A12577E23FC07A1"
 			]
 			description: ["培养细菌较为复杂，你需要在&6生化反应室&r中先完成&e初代培养&r，再转移至&6培养缸&r进行&e增殖&r"]
+			icon: "gtceu:bio_chaff"
 			id: "6742F9E1907A9A84"
 			tasks: [{
 				id: "0D91FABC6AA07541"
@@ -960,6 +963,65 @@
 			}]
 			x: -6.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["26167AFECA871925"]
+			description: ["全新的反应堆，仍在测试阶段"]
+			id: "4520F6658FC37F85"
+			optional: true
+			size: 1.0d
+			tasks: [{
+				id: "22B316DD32F2AF97"
+				item: "gtocore:fast_neutron_breeder_reactor"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4520F6658FC37F85"]
+			id: "36A7AE94EDBE45C2"
+			optional: true
+			tasks: [{
+				id: "2AE711CD2EE2EFC4"
+				item: "gtocore:light_emitting_charged_suspicious_waste_dust"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["36A7AE94EDBE45C2"]
+			description: ["只在&6终极电容&r和&6空间站高能转换调配仓&r中作为原材料"]
+			id: "49C45F55F5DF8BFC"
+			optional: true
+			tasks: [{
+				id: "7378BC1E4E25C4DC"
+				item: "gtocore:etrium_dust"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"7FED9F9CC769610C"
+				"6742F9E1907A9A84"
+				"7651697F32169E49"
+			]
+			disable_toast: true
+			icon_scale: 0.25d
+			id: "7B0B57FC6C6C3D9E"
+			shape: "none"
+			size: 0.25d
+			tasks: [{
+				id: "133D90A471C42972"
+				stat: "minecraft:jump"
+				type: "stat"
+				value: 1
+			}]
+			x: -7.5d
+			y: 2.0d
 		}
 	]
 	subtitle: ["Tier7-ZPM"]

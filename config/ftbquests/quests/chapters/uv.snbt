@@ -68,25 +68,10 @@
 			y: -0.5d
 		}
 		{
-			id: "2C4CB980D96DA95D"
-			linked_quest: "76A5DA2CCB71E96F"
-			shape: "gear"
-			size: 1.5d
-			x: -7.0d
-			y: 6.5d
-		}
-		{
-			id: "01A8BE125E638F3E"
-			linked_quest: "5343159AF8A5CBB5"
-			x: -7.0d
+			id: "6B94BC85AAE35194"
+			linked_quest: "08CDFD0BB06E9A53"
+			x: -7.5d
 			y: 4.5d
-		}
-		{
-			id: "18C9F6A0A4469B11"
-			linked_quest: "063FEB76DD30E9B3"
-			shape: "gear"
-			x: -7.0d
-			y: 8.5d
 		}
 	]
 	quests: [
@@ -119,7 +104,7 @@
 		{
 			dependencies: ["3E458EF4819E239C"]
 			description: [
-				"UHV阶段的主要材料"
+				"&4UHV&r阶段的主要材料"
 				""
 				"试试把它拿在手上？希望你一切安好。"
 			]
@@ -205,6 +190,7 @@
 		}
 		{
 			dependencies: ["52DFF4A301A510C8"]
+			description: ["镭的来源是&6硫酸铀废液&r，你也可以通过&6快中子增殖堆&r获得"]
 			id: "6649D02EADC9CC9B"
 			shape: "circle"
 			tasks: [{
@@ -372,7 +358,10 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["78EAFECB9E9BF692"]
+			dependencies: [
+				"78EAFECB9E9BF692"
+				"08CDFD0BB06E9A53"
+			]
 			description: ["放置在太空电梯的输入总线内自动消耗"]
 			id: "5A30C3831FD94E53"
 			tasks: [{
@@ -381,8 +370,8 @@
 				item: "gtocore:nanotube_spool"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 8.5d
+			x: -7.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["6689ABA7FD7B78E7"]
@@ -471,8 +460,8 @@
 				title: "聚酰亚胺"
 				type: "checkmark"
 			}]
-			x: 7.0d
-			y: 12.5d
+			x: 5.0d
+			y: 14.5d
 		}
 		{
 			dependencies: [
@@ -495,6 +484,7 @@
 			dependencies: [
 				"1F1611C024CAB8E7"
 				"4A43E5F70EE85A07"
+				"48A5691EEBC58CD6"
 			]
 			id: "35A7F1F3B05AB66D"
 			shape: "hexagon"
@@ -631,7 +621,7 @@
 			icon: "gtocore:uv_overclock_hatch"
 			id: "0AD0174C98673F5B"
 			shape: "diamond"
-			size: 1.25d
+			size: 1.5d
 			subtitle: "&3产能至上！&r"
 			tasks: [
 				{
@@ -816,22 +806,6 @@
 			y: 4.5d
 		}
 		{
-			dependencies: [
-				"7A1E4DBA675E67FB"
-				"08DEEC16D9580930"
-			]
-			description: ["终于，部件装配它回来了！"]
-			id: "6596EAF3D5641974"
-			shape: "diamond"
-			tasks: [{
-				id: "7706251E93D0F6E6"
-				item: "gtocore:component_assembly_line"
-				type: "item"
-			}]
-			x: 11.0d
-			y: 7.0d
-		}
-		{
 			dependencies: ["256F90AFB461107E"]
 			id: "7EF1BB4CD73A4171"
 			shape: "diamond"
@@ -841,7 +815,7 @@
 				item: "gtocore:integral_framework_uv"
 				type: "item"
 			}]
-			x: -7.0d
+			x: -7.5d
 			y: 1.5d
 		}
 		{
@@ -854,7 +828,7 @@
 				type: "item"
 			}]
 			x: 11.0d
-			y: 5.0d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -868,7 +842,7 @@
 				item: "gtocore:mutated_living_solder_bucket"
 				type: "item"
 			}]
-			x: 9.0d
+			x: 7.0d
 			y: 12.5d
 		}
 		{
@@ -924,8 +898,8 @@
 				}
 			]
 			title: "我需要大脑"
-			x: -5.0d
-			y: 12.5d
+			x: -3.0d
+			y: 14.5d
 		}
 		{
 			dependencies: [
@@ -957,8 +931,8 @@
 				item: "gtocore:wetware_soc"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 10.5d
+			x: -1.0d
+			y: 14.5d
 		}
 		{
 			dependencies: ["67050CC889ABB614"]
@@ -978,8 +952,8 @@
 				item: "gtocore:supercomputing_center"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 10.5d
+			x: 1.0d
+			y: 14.5d
 		}
 		{
 			dependencies: ["3CBA56988C0F8E7E"]
@@ -1003,10 +977,11 @@
 				type: "item"
 			}]
 			x: 11.0d
-			y: 6.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["3E458EF4819E239C"]
+			description: ["&4UHV&r阶段部件的主要材料"]
 			id: "2F3D8DD85C6D4F74"
 			tasks: [{
 				id: "04C88FEF0364A241"
@@ -1015,6 +990,186 @@
 			}]
 			x: 2.5d
 			y: -0.5d
+		}
+		{
+			dependencies: ["76A5DA2CCB71E96F"]
+			description: [
+				"蜂群技术革命，你可以用它来大幅简化过去和未来的复杂产线"
+				""
+				"每个纳米加工中心可以放置两个模块"
+				""
+				"虽然蜂群很劳累，不过在主机放入高级的蜂群能更好地压榨它们的潜能！"
+				""
+				"现在你可以放入&b铱纳米蜂群&r来减少蜂群污染的概率"
+			]
+			id: "063FEB76DD30E9B3"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "6B84E773E9E0F035"
+				item: "gtocore:nanites_integrated_processing_center"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["063FEB76DD30E9B3"]
+			description: [
+				"蜂群们为你那么勤劳地工作，也许你可能需要给他们一点点&5回报&r... "
+				""
+				"那就给他们洗个澡吧！&b过氧化氢&r的强氧化性和&6硫酸&r的酸性环境能重新激发它们的活力！"
+			]
+			id: "66473B14503626FD"
+			subtitle: "洗个澡澡！"
+			tasks: [{
+				id: "4347FE4A735277A9"
+				item: "gtocore:piranha_solution_bucket"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["063FEB76DD30E9B3"]
+			description: ["更方便地制作生物原料"]
+			id: "4F8D70DE8112CEF2"
+			shape: "diamond"
+			subtitle: "蜂群也是生物，很合理"
+			tasks: [{
+				id: "757301B3747261BA"
+				item: "gtocore:bioengineering_module"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["063FEB76DD30E9B3"]
+			description: [
+				"一步到位完成矿石处理产线！"
+				""
+				"厌倦了被动产线大量堆砌的机器？这个会满足你的"
+			]
+			id: "4E6A1CDE657544CD"
+			shape: "diamond"
+			subtitle: "产线杀手"
+			tasks: [{
+				id: "096917D3C7389D41"
+				item: "gtocore:ore_extraction_module"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["063FEB76DD30E9B3"]
+			description: [
+				"一步到位完成化工产线！"
+				""
+				"你最好随时注意解锁的新配方，来&e替换&r你之前的下单产线，别忘了处理蜂群的洗涤和回收"
+			]
+			id: "55F31E094ADB9B87"
+			shape: "diamond"
+			size: 1.25d
+			subtitle: "超级产线杀手"
+			tasks: [{
+				id: "2C68386728362A5F"
+				item: "gtocore:polymer_twisting_module"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["76A5DA2CCB71E96F"]
+			hide_dependency_lines: true
+			id: "48A5691EEBC58CD6"
+			tasks: [{
+				id: "1042C9737199C33F"
+				item: "gtocore:precision_circuit_assembly_robot_mk1"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["5B5C82819DC2D27A"]
+			description: ["前面几个必须用装配线，后面就可以换成纳米锻炉了"]
+			hide_dependency_lines: true
+			id: "5343159AF8A5CBB5"
+			tasks: [{
+				id: "51F088C7BE0B7236"
+				item: "gtocore:carbon_nanites"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["5343159AF8A5CBB5"]
+			description: [
+				"如果想用终端搭建，你需要先在主机里&a放一个蜂群&r来指定等级，随后才可以开始搭建"
+				""
+				"机器每次&e拿出或放入&r蜂群都会重新触发结构检测"
+			]
+			id: "76A5DA2CCB71E96F"
+			shape: "gear"
+			size: 2.5d
+			subtitle: "蜂群，但不是养蜂"
+			tasks: [{
+				id: "7990B5F3AFF8D9B9"
+				item: "gtocore:nano_forge"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["7A1E4DBA675E67FB"]
+			id: "2FD77E738FC606AE"
+			shape: "diamond"
+			tasks: [{
+				id: "2045E4E3E14D8293"
+				item: "gtocore:gemini_containment_system"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["76A5DA2CCB71E96F"]
+			description: [
+				"和锻炉类似，你也需要先在主机里放一个&e金&r蜂群来指定等级"
+				""
+				"可以更高效地制作PCB板子，你可以改进之前的产线了"
+			]
+			id: "4A5C2B5AA1CCEB07"
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "4D72046D50C2B01D"
+				item: "gtocore:pcb_factory"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["44B34806DA0FEA9A"]
+			disable_toast: true
+			hide_text_until_complete: true
+			icon_scale: 0.2d
+			id: "07D1D0878AFD6400"
+			shape: "none"
+			size: 0.25d
+			tasks: [{
+				id: "4B5B5852173F56A3"
+				item: "gtocore:wetware_soc"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 14.5d
 		}
 	]
 	subtitle: ["Tier8-UV"]

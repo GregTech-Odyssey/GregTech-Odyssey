@@ -1084,6 +1084,37 @@
 			x: 6.5d
 			y: 6.25d
 		}
+		{
+			dependencies: ["03ECABF0C3DF29EF"]
+			description: ["精准虚空采矿模式能挖到一些特殊的矿，但同时你也需要准备&6精华&r"]
+			id: "2CBDC8B5C9C32530"
+			tasks: [{
+				id: "1BFEEE6488434618"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "gtocore:vein_essence"
+					}
+				}
+				title: "任意精华"
+				type: "item"
+			}]
+			title: "精华"
+			x: 21.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["789B188B05759151"]
+			id: "03ECABF0C3DF29EF"
+			tasks: [{
+				id: "75DAC0E76EB7EE42"
+				item: "gtocore:block_conversion_room"
+				type: "item"
+			}]
+			x: 19.0d
+			y: 5.0d
+		}
 	]
 	subtitle: ["Tier6-LuV"]
 	title: "8. 剧差压(LuV)"

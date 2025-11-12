@@ -40,8 +40,8 @@
 			linked_quest: "5BABA7621E000F54"
 			shape: "hexagon"
 			size: 1.5d
-			x: -1.5d
-			y: 8.5d
+			x: 0.5d
+			y: 6.5d
 		}
 		{
 			id: "392613EB906CA2E3"
@@ -55,6 +55,28 @@
 			linked_quest: "2F3D8DD85C6D4F74"
 			x: 0.0d
 			y: -3.0d
+		}
+		{
+			id: "0C1AD3F8F8B27270"
+			linked_quest: "5A9B478B1791A425"
+			x: -3.5d
+			y: 6.5d
+		}
+		{
+			id: "2C4CB980D96DA95D"
+			linked_quest: "76A5DA2CCB71E96F"
+			shape: "gear"
+			size: 2.0d
+			x: 10.5d
+			y: 6.5d
+		}
+		{
+			id: "6E3792E383BAB405"
+			linked_quest: "4A5C2B5AA1CCEB07"
+			shape: "hexagon"
+			size: 1.5d
+			x: 10.5d
+			y: 4.5d
 		}
 	]
 	quests: [
@@ -107,19 +129,6 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["5BABA7621E000F54"]
-			description: ["冷却成热锭的效率略微高些"]
-			id: "0B30C9C692F548AA"
-			optional: true
-			tasks: [{
-				id: "229F5FD7AAE48C84"
-				item: { Count: 64, id: "gtocore:ingot_field_shape" }
-				type: "item"
-			}]
-			x: -1.5d
-			y: 10.5d
-		}
-		{
 			dependencies: ["208F73ECE425E473"]
 			id: "4C998EF199E7C5D0"
 			shape: "hexagon"
@@ -141,7 +150,7 @@
 				item: "gtocore:lemurite_bucket"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 6.0d
 			y: -1.0d
 		}
 		{
@@ -154,7 +163,7 @@
 				item: "gtocore:quantanium_ingot"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 8.0d
 			y: -1.0d
 		}
 		{
@@ -170,7 +179,7 @@
 				type: "item"
 			}]
 			title: "欢迎来到&2极超压&r阶段"
-			x: 10.0d
+			x: 10.5d
 			y: -1.0d
 		}
 		{
@@ -233,17 +242,22 @@
 			subtitle: "样板大户"
 			tasks: [
 				{
-					id: "4BA4EC24E9297C73"
-					item: { Count: 64, id: "gtocore:low_frequency_laser" }
+					id: "7C9259CD98F0EE2C"
+					item: "gtocore:non_linear_optical_lens"
 					type: "item"
 				}
 				{
-					id: "0DF288BA08A41528"
+					id: "430D42EB9D1B169A"
+					item: "gtocore:low_frequency_laser"
+					type: "item"
+				}
+				{
+					id: "1A7E57145FA215A8"
 					item: "gtocore:medium_frequency_laser"
 					type: "item"
 				}
 				{
-					id: "66E9E78C2F2D167B"
+					id: "7A15D6A4126CB5EF"
 					item: "gtocore:high_frequency_laser"
 					type: "item"
 				}
@@ -266,7 +280,6 @@
 		}
 		{
 			dependencies: [
-				"63601D4E4557F238"
 				"549A7D66F1D4875F"
 				"5F1C4921713ABF99"
 				"66010748380E4CF2"
@@ -298,8 +311,8 @@
 				item: "gtocore:cycloparaphenylene_bucket"
 				type: "item"
 			}]
-			x: 4.5d
-			y: 8.5d
+			x: 10.5d
+			y: 10.5d
 		}
 		{
 			dependencies: ["7A1E4DBA675E67FB"]
@@ -317,7 +330,7 @@
 				item: "gtocore:engraving_laser_plant"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 6.5d
 			y: 10.5d
 		}
 		{
@@ -329,7 +342,7 @@
 				item: "gtocore:rutherfordium_amprosium_wafer"
 				type: "item"
 			}]
-			x: 6.5d
+			x: 8.5d
 			y: 12.5d
 		}
 		{
@@ -344,7 +357,7 @@
 				item: { Count: 64, id: "gtocore:raw_photon_carrying_wafer" }
 				type: "item"
 			}]
-			x: 6.5d
+			x: 8.5d
 			y: 10.5d
 		}
 		{
@@ -355,7 +368,7 @@
 				item: "gtocore:glowstone_nanites"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 10.5d
 			y: 8.5d
 		}
 		{
@@ -370,7 +383,7 @@
 				item: "gtocore:optical_wafer"
 				type: "item"
 			}]
-			x: 6.5d
+			x: 8.5d
 			y: 8.5d
 		}
 		{
@@ -385,7 +398,7 @@
 				item: "gtocore:simple_optical_soc"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 6.5d
 			y: 6.5d
 		}
 		{
@@ -398,11 +411,11 @@
 				item: "gtocore:electric_equilibrium_water_bucket"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 6.5d
+			x: 6.5d
+			y: 8.5d
 		}
 		{
-			dependencies: ["1612D1DEB3A7BE2D"]
+			dependencies: ["5F1C4921713ABF99"]
 			hide_dependency_lines: true
 			id: "175D243F4DF14D9B"
 			shape: "hexagon"
@@ -411,55 +424,13 @@
 				item: "gtocore:high_energy_laser_purification_unit"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 4.5d
 			y: 8.5d
 		}
 		{
-			dependencies: ["76A5DA2CCB71E96F"]
-			description: ["显然纳米蜂群已经习得了爱因斯坦的智慧"]
-			id: "63601D4E4557F238"
-			subtitle: "凝聚态？"
-			tasks: [{
-				id: "3B58186390E50579"
-				item: "gtocore:iridium_nanites"
-				type: "item"
-			}]
-			x: 6.5d
-			y: 6.0d
-		}
-		{
-			dependencies: ["72F2F23C668C4AD7"]
-			description: [
-				"和锻炉类似，你也需要先在主机里放一个&e金&r蜂群来指定等级"
-				""
-				"可以更高效地制作PCB板子，你可以改进之前的产线了"
-			]
-			id: "4A5C2B5AA1CCEB07"
-			shape: "hexagon"
-			size: 1.5d
-			tasks: [{
-				id: "4D72046D50C2B01D"
-				item: "gtocore:pcb_factory"
-				type: "item"
-			}]
-			x: 8.0d
-			y: 2.5d
-		}
-		{
-			dependencies: ["76A5DA2CCB71E96F"]
-			id: "72F2F23C668C4AD7"
-			tasks: [{
-				id: "0F8CE15F8AF6CE89"
-				item: "gtocore:gold_nanites"
-				type: "item"
-			}]
-			x: 10.0d
-			y: 2.5d
-		}
-		{
 			dependencies: [
-				"4A5C2B5AA1CCEB07"
 				"4412B0653B000D83"
+				"6122F55DD286F28B"
 			]
 			id: "1A30C325E7FD9719"
 			subtitle: "闪闪发光"
@@ -469,12 +440,11 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: 2.5d
+			y: 4.5d
 		}
 		{
-			dependencies: ["1612D1DEB3A7BE2D"]
+			dependencies: ["4CBB58A022DAD89A"]
 			description: ["享受你的产线吧"]
-			hide_dependency_lines: true
 			id: "4412B0653B000D83"
 			subtitle: "你是哪位？"
 			tasks: [{
@@ -482,8 +452,8 @@
 				item: "gtocore:kevlar_bucket"
 				type: "item"
 			}]
-			x: 6.5d
-			y: 1.0d
+			x: 8.5d
+			y: 2.5d
 		}
 		{
 			dependencies: [
@@ -503,7 +473,7 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: 4.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["1612D1DEB3A7BE2D"]
@@ -514,8 +484,8 @@
 				item: "gtocore:thulium_hexaboride_ceramics_flake"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 4.5d
+			x: 6.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["6850047C2C843F02"]
@@ -607,103 +577,11 @@
 			y: 4.5d
 		}
 		{
-			dependencies: [
-				"76A5DA2CCB71E96F"
-				"66473B14503626FD"
-			]
-			description: [
-				"蜂群技术革命，你可以用它来大幅简化过去和未来的复杂产线"
-				""
-				"每个纳米加工中心可以放置两个模块"
-				""
-				"虽然蜂群很劳累，不过在主机放入高级的蜂群能更好地压榨它们的潜能！"
-				""
-				"现在你可以放入&b铱纳米蜂群&r来减少蜂群污染的概率"
-			]
-			id: "063FEB76DD30E9B3"
-			shape: "gear"
-			size: 1.5d
-			tasks: [{
-				id: "6B84E773E9E0F035"
-				item: "gtocore:nanites_integrated_processing_center"
-				type: "item"
-			}]
-			x: 10.0d
-			y: 8.5d
-		}
-		{
-			description: [
-				"蜂群们为你那么勤劳地工作，也许你可能需要给他们一点点&5回报&r... "
-				""
-				"那就给他们洗个澡吧！&b过氧化氢&r的强氧化性和&6硫酸&r的酸性环境能重新激发它们的活力！"
-			]
-			hide_dependency_lines: true
-			id: "66473B14503626FD"
-			subtitle: "洗个澡澡！"
-			tasks: [{
-				id: "4347FE4A735277A9"
-				item: "gtocore:piranha_solution_bucket"
-				type: "item"
-			}]
-			x: 10.0d
-			y: 10.5d
-		}
-		{
-			dependencies: ["063FEB76DD30E9B3"]
-			description: [
-				"一步到位完成矿石处理产线！"
-				""
-				"厌倦了被动产线大量堆砌的机器？这个会满足你的"
-			]
-			id: "4E6A1CDE657544CD"
-			shape: "diamond"
-			subtitle: "产线杀手"
-			tasks: [{
-				id: "096917D3C7389D41"
-				item: "gtocore:ore_extraction_module"
-				type: "item"
-			}]
-			x: 11.5d
-			y: 7.5d
-		}
-		{
-			dependencies: ["063FEB76DD30E9B3"]
-			description: [
-				"一步到位完成化工产线！"
-				""
-				"你最好随时注意解锁的新配方，来&e替换&r你之前的下单产线，别忘了处理蜂群的洗涤和回收"
-			]
-			id: "55F31E094ADB9B87"
-			shape: "diamond"
-			size: 1.25d
-			subtitle: "超级产线杀手"
-			tasks: [{
-				id: "2C68386728362A5F"
-				item: "gtocore:polymer_twisting_module"
-				type: "item"
-			}]
-			x: 12.5d
-			y: 8.5d
-		}
-		{
-			dependencies: ["063FEB76DD30E9B3"]
-			description: ["更方便地制作生物原料"]
-			id: "4F8D70DE8112CEF2"
-			shape: "diamond"
-			subtitle: "蜂群也是生物，很合理"
-			tasks: [{
-				id: "757301B3747261BA"
-				item: "gtocore:bioengineering_module"
-				type: "item"
-			}]
-			x: 11.5d
-			y: 9.5d
-		}
-		{
 			dependencies: ["7A1E4DBA675E67FB"]
 			id: "7E480187CA3FE8B2"
 			shape: "hexagon"
 			size: 1.5d
+			subtitle: "废料大一统"
 			tasks: [{
 				id: "5698D430FC7EBA63"
 				item: "gtocore:matter_fabricator"
@@ -723,7 +601,7 @@
 				item: "gtocore:titansteel_ingot"
 				type: "item"
 			}]
-			x: -3.5d
+			x: -1.5d
 			y: 10.5d
 		}
 		{
@@ -735,7 +613,7 @@
 				item: "gtocore:titansteel_coil_block"
 				type: "item"
 			}]
-			x: -3.5d
+			x: -1.5d
 			y: 8.5d
 		}
 		{
@@ -758,13 +636,14 @@
 				item: "gtocore:space_drone_mk2"
 				type: "item"
 			}]
-			x: -3.5d
-			y: 12.5d
+			x: 0.5d
+			y: 10.5d
 		}
 		{
 			dependencies: [
 				"040559A415488076"
 				"1F5585DCC6CE74ED"
+				"5A9B478B1791A425"
 			]
 			id: "26A8B23E6550CF57"
 			tasks: [{
@@ -786,7 +665,7 @@
 				item: "gtocore:nm_wafer"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 6.5d
 			y: 12.5d
 		}
 		{
@@ -821,13 +700,18 @@
 				item: "gtocore:hexanitrohexaaxaisowurtzitane_dust"
 				type: "item"
 			}]
-			x: 0.5d
+			x: 4.5d
 			y: 10.5d
 		}
 		{
 			dependencies: [
 				"6CD5754937D928F6"
 				"6554762A276412A5"
+			]
+			description: [
+				"真的可以引爆，爆炸半径约12个区块，会炸开基岩"
+				""
+				"&o&7别手残在基地里点了！！！"
 			]
 			id: "3A949D4FFE70DE31"
 			tasks: [{
@@ -844,6 +728,7 @@
 				"704CF7B3EDDB19B2"
 				"5BABA7621E000F54"
 			]
+			description: ["自增产线"]
 			id: "040559A415488076"
 			tasks: [{
 				id: "77A091C570917C74"
@@ -861,8 +746,8 @@
 				item: "enderio:ender_crystal"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 6.5d
+			x: 2.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["187C5D9C4BFCFD35"]
@@ -880,7 +765,7 @@
 				item: "gtocore:integral_framework_uhv"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 8.0d
 			y: -3.0d
 		}
 		{
@@ -895,40 +780,113 @@
 				item: "gtocore:quicksilver_bucket"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 6.0d
 			y: -3.0d
 		}
 		{
-			dependencies: ["5343159AF8A5CBB5"]
-			description: [
-				"如果想用终端搭建，你需要先在主机里&a放一个蜂群&r来指定等级，随后才可以开始搭建"
-				""
-				"机器每次&e拿出或放入&r蜂群都会重新触发结构检测"
-			]
-			id: "76A5DA2CCB71E96F"
-			shape: "gear"
-			size: 2.0d
-			subtitle: "蜂群，但不是养蜂"
+			dependencies: ["57729FBB969E8CC6"]
+			id: "2204D9C8EC5AE2D0"
 			tasks: [{
-				id: "7990B5F3AFF8D9B9"
-				item: "gtocore:nano_forge"
+				id: "4A1201069EC9E5E7"
+				item: "gtocore:space_drone_mk3"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 6.0d
+			x: -3.5d
+			y: 10.5d
 		}
 		{
-			dependencies: ["5B5C82819DC2D27A"]
-			description: ["前面几个必须用装配线，后面就可以换成纳米锻炉了"]
+			dependencies: [
+				"2204D9C8EC5AE2D0"
+				"26A8B23E6550CF57"
+				"5332141C5489CF10"
+			]
+			description: ["终于，部件装配它回来了！"]
 			hide_dependency_lines: true
-			id: "5343159AF8A5CBB5"
+			id: "6596EAF3D5641974"
+			shape: "circle"
 			tasks: [{
-				id: "51F088C7BE0B7236"
-				item: "gtocore:carbon_nanites"
+				id: "7706251E93D0F6E6"
+				item: "gtocore:component_assembly_line"
 				type: "item"
 			}]
-			x: 12.5d
-			y: 6.0d
+			x: -3.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["5BABA7621E000F54"]
+			description: ["冷却成热锭的效率略微高些"]
+			id: "0B30C9C692F548AA"
+			optional: true
+			tasks: [{
+				id: "229F5FD7AAE48C84"
+				item: { Count: 64, id: "gtocore:ingot_field_shape" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["5332141C5489CF10"]
+			description: ["超多槽位，根本用不完"]
+			id: "63120CEE8F917CD5"
+			shape: "diamond"
+			tasks: [{
+				id: "4FC0513F1ECACCB3"
+				item: "gtocore:data_center"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2204D9C8EC5AE2D0"]
+			disable_toast: true
+			icon_scale: 0.25d
+			id: "51D4644C5A010327"
+			shape: "none"
+			size: 0.25d
+			tasks: [{
+				id: "129F94CB0DCE3DC7"
+				item: "gtocore:component_assembly_line"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["4A5C2B5AA1CCEB07"]
+			description: ["在主机里放一个&d山铜&r蜂群以将&6PCB工厂&r提升至2级"]
+			id: "6122F55DD286F28B"
+			tasks: [{
+				id: "730E6FDE5AC96DEA"
+				item: "gtocore:orichalcum_nanites"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2204D9C8EC5AE2D0"]
+			id: "601F64DFDF68B036"
+			tasks: [{
+				id: "6EA6EFF7BD2A7C45"
+				item: "gtocore:crystal_builder"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["1612D1DEB3A7BE2D"]
+			hide_dependency_lines: true
+			id: "4CBB58A022DAD89A"
+			tasks: [{
+				id: "56FCBAE9EF22E701"
+				item: "gtocore:liquidcrystalkevlar_bucket"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 1.0d
 		}
 	]
 	subtitle: ["Tier9-UHV"]
