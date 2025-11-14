@@ -1334,6 +1334,25 @@
 			x: 7.0d
 			y: 0.0d
 		}
+		{
+			dependencies: ["0FBE7318DFBA700E"]
+			description: [
+				"神奇的电路，主要用于控制配方合成。"
+				""
+				"从ULV开始的输入仓和总线都自带一个编程电路槽，只需要点击就可以调整电路。只有蒸汽输入仓和总线需要手动制作电路放入。"
+				""
+				"用电的单方块机器也自带一个编程电路槽。"
+			]
+			id: "6273314FCFE52E8A"
+			shape: "pentagon"
+			tasks: [{
+				id: "20731655D50F0FB3"
+				item: "gtceu:programmed_circuit"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 1.5d
+		}
 	]
 	subtitle: ["Tier0.5-ULV"]
 	title: "2. 超低压(ULV)"

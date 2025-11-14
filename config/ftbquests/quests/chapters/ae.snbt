@@ -1090,7 +1090,7 @@
 				"745B1AE1F523FD78"
 			]
 			description: [
-				"你可以开始着手发展AE了！"
+				"[\"你可以开始着手发展\",{ \"text\": \"AE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5FCFE3D6B36CC409\" } },\"了！\"]"
 				""
 				"非专家模式默认&c无频道数量限制&r，不需要接入&6ME控制器&r，只需要确保为当前网络提供足够的能量即可"
 				""

@@ -1413,7 +1413,10 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["129FF3CBED5CFF05"]
+			dependencies: [
+				"129FF3CBED5CFF05"
+				"7C9C5AA8812891CC"
+			]
 			description: [
 				"&o&3格雷科技有限公司&r&o的&6神秘学家们&r&o在&b魔法&r&o发展到极高水平后研究出的跨界魔法成果。只要给机器提供足够的魔力，机器就无需担忧超频带来的能源损耗。"
 				""
