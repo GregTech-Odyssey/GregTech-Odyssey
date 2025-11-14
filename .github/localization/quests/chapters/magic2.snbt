@@ -1422,7 +1422,10 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["129FF3CBED5CFF05"]
+			dependencies: [
+				"129FF3CBED5CFF05"
+				"7C9C5AA8812891CC"
+			]
 			description: [
 				"{gto.magic2.quests.4167ADF91EF95341.description0}"
 				""

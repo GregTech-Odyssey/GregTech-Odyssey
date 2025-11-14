@@ -84,8 +84,6 @@
 				"{gto.wireless-energy.quests.0EED467C2B883653.description1}"
 				""
 				"{gto.wireless-energy.quests.0EED467C2B883653.description2}"
-				""
-				"{gto.wireless-energy.quests.0EED467C2B883653.description3}"
 			]
 			hide_dependency_lines: false
 			icon: "gtceu:lv_battery_buffer_4x"
@@ -115,20 +113,41 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["2386117F9423A54E"]
 			description: [
 				"{gto.wireless-energy.quests.20B8E68273D7D0DE.description0}"
 				""
 				"{gto.wireless-energy.quests.20B8E68273D7D0DE.description1}"
 				""
 				"{gto.wireless-energy.quests.20B8E68273D7D0DE.description2}"
+				""
+				"{gto.wireless-energy.quests.20B8E68273D7D0DE.description3}"
+				""
+				"{gto.wireless-energy.quests.20B8E68273D7D0DE.description4}"
+				""
+				"{gto.wireless-energy.quests.20B8E68273D7D0DE.description5}"
 			]
 			icon: "gtmthings:wireless_energy_binding_tool"
 			id: "20B8E68273D7D0DE"
-			tasks: [{
-				id: "271419441861A4D8"
-				title: "{gto.wireless-energy.quests.20B8E68273D7D0DE.tasks.271419441861A4D8.title}"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "271419441861A4D8"
+					title: "{gto.wireless-energy.quests.20B8E68273D7D0DE.tasks.271419441861A4D8.title}"
+					type: "checkmark"
+				}
+				{
+					id: "579B5443BABA389A"
+					item: "gtmthings:wireless_energy_binding_tool"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "512AD4A4F48A325D"
+					item: "gtmthings:wireless_energy_terminal"
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: -4.5d
 			y: 1.5d
 		}
@@ -253,6 +272,10 @@
 				"{gto.wireless-energy.quests.0828014567C613E1.description0}"
 				""
 				"{gto.wireless-energy.quests.0828014567C613E1.description1}"
+				""
+				"{gto.wireless-energy.quests.0828014567C613E1.description2}"
+				""
+				"{gto.wireless-energy.quests.0828014567C613E1.description3}"
 			]
 			hide_dependency_lines: false
 			id: "0828014567C613E1"

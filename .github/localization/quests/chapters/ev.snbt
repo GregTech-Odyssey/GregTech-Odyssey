@@ -124,13 +124,6 @@
 			y: -1.0d
 		}
 		{
-			id: "38034C2D7E0BA13A"
-			linked_quest: "4167ADF91EF95341"
-			shape: "diamond"
-			x: 3.0d
-			y: -3.0d
-		}
-		{
 			id: "52FFEB1F3F4773D7"
 			linked_quest: "23E859D5CC9E4C8C"
 			x: 6.5d
@@ -1277,7 +1270,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: -4.5d
+			y: -3.5d
 		}
 		{
 			dependencies: [

@@ -3658,7 +3658,11 @@
 		}
 		{
 			dependencies: ["2633770BFCC25545"]
-			description: ["{gto.magic1.quests.5D60FFFB4D2F55F3.description0}"]
+			description: [
+				"{gto.magic1.quests.5D60FFFB4D2F55F3.description0}"
+				""
+				"{gto.magic1.quests.5D60FFFB4D2F55F3.description1}"
+			]
 			id: "5D60FFFB4D2F55F3"
 			optional: true
 			subtitle: "{gto.magic1.quests.5D60FFFB4D2F55F3.subtitle}"
