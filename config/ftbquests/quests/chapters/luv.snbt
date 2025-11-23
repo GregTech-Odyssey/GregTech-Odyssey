@@ -82,14 +82,6 @@
 	order_index: 8
 	quest_links: [
 		{
-			id: "38BDC42D0E99D4AB"
-			linked_quest: "2F03D93AC7DBE58D"
-			shape: "gear"
-			size: 2.0d
-			x: 6.0d
-			y: -6.5d
-		}
-		{
 			id: "0DAFE054BF92FA6E"
 			linked_quest: "0BC456B4331C09F5"
 			shape: "diamond"
@@ -129,6 +121,14 @@
 			shape: "diamond"
 			x: 4.0d
 			y: 3.5d
+		}
+		{
+			id: "56F1CC0253E52783"
+			linked_quest: "3490AACD4AA62C5D"
+			shape: "gear"
+			size: 2.0d
+			x: 9.0d
+			y: -4.5d
 		}
 	]
 	quests: [
@@ -219,28 +219,6 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: -4.5d
-		}
-		{
-			dependencies: ["2BF339EE989F9A8E"]
-			description: [
-				"这一章节你将体验到一门独特的产线——&a生&r&2物&r&a线&r"
-				""
-				"普通的&6晶体处理器&r已经接近无机物的极限... 或许&a菌&r&2群&r可以帮我们做些计算？"
-				""
-				"在GT，所有的科技就像&a魔&r&2法&r一样"
-			]
-			id: "3490AACD4AA62C5D"
-			shape: "gear"
-			size: 2.0d
-			subtitle: "&c你需要天马行空般的想象力"
-			tasks: [{
-				id: "78CEB67F88F86158"
-				item: "gtceu:zpm_machine_hull"
-				type: "item"
-			}]
-			title: "欢迎来到&c零点压&r阶段"
-			x: 9.0d
 			y: -4.5d
 		}
 		{
@@ -1121,6 +1099,31 @@
 			}]
 			x: 19.0d
 			y: 5.0d
+		}
+		{
+			dependencies: [
+				"63481942850182B5"
+				"4EB6838703CB5F0E"
+			]
+			description: [
+				"IV阶段解锁的大部分&6大批量加工机器&r都可以安装&e8个能源仓&r，这意味着你可以通过&e升压&r来直接加工本阶段的材料，而无需制造这个阶段的单方块机器——除了&6组装机&r，因为你需要一台&6LuV级别的组装机&r来制造&6至少一个整体框架(LuV)&r安装到你的&6大型组装厂&r"
+				""
+				"还需要注意的是，你的&6部件组装机&r在这个阶段必须进行升级才能制作更高级的部件"
+				""
+				"你的首要目标是制作&6核聚变&r，然后将&6研究站&r作为你这个阶段的最终目标"
+			]
+			id: "2F03D93AC7DBE58D"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "&d你需要天马行空般的想象力"
+			tasks: [{
+				id: "4747091C4120115C"
+				item: "gtceu:luv_machine_hull"
+				type: "item"
+			}]
+			title: "欢迎来到&d剧差压&r阶段"
+			x: 6.0d
+			y: -6.5d
 		}
 	]
 	subtitle: ["Tier6-LuV"]

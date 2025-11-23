@@ -76,7 +76,7 @@
 		}
 		{
 			dependencies: ["0B61448F01656C1D"]
-			description: [""]
+			description: ["是的，你需要制作这里的所有符文……非常繁琐"]
 			id: "0631F054A9B97A40"
 			tasks: [
 				{
@@ -1625,7 +1625,6 @@
 		}
 		{
 			dependencies: ["2DE9C9AD00450987"]
-			description: [""]
 			id: "0F02FE8BA89BCF34"
 			subtitle: "你需要 &e英雄般的力量&r"
 			tasks: [{
@@ -1730,7 +1729,6 @@
 				"3A20210242A1C865"
 				"30C2F8F769D33023"
 			]
-			description: [""]
 			id: "27AA2D1CFBC9C465"
 			tasks: [
 				{

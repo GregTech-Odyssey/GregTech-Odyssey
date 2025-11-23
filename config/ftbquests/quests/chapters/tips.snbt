@@ -1,4 +1,5 @@
 {
+	autofocus_id: "79646E8E449D8A1A"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "tips"
@@ -252,6 +253,7 @@
 				"·不同复杂度的合成配方与任务"
 				"·部分机器和能量单元的数值调整"
 				"·AE频道限制"
+				"·任务奖励"
 				""
 				"[ \"\", {\"text\":\"详细特性请查看\", \"color\":\"yellow\"}, { \"text\": \"简单普通专家模式特性指南\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"open_url\", \"value\": \"https://wiki.gtodyssey.com/boards/docs/pages/简单普通专家模式特性指南\" } }]"
 				""

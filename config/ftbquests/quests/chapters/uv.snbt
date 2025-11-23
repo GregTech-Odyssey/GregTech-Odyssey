@@ -46,14 +46,6 @@
 	order_index: 10
 	quest_links: [
 		{
-			id: "7E30FC47C3028882"
-			linked_quest: "256F90AFB461107E"
-			shape: "gear"
-			size: 2.0d
-			x: -5.0d
-			y: 1.5d
-		}
-		{
 			id: "45C541AE7ED9C6EF"
 			linked_quest: "6F43BA73FE817566"
 			shape: "diamond"
@@ -73,6 +65,14 @@
 			x: -7.5d
 			y: 4.5d
 		}
+		{
+			id: "3F5A74D278A7D471"
+			linked_quest: "1612D1DEB3A7BE2D"
+			shape: "gear"
+			size: 2.0d
+			x: 11.0d
+			y: 1.5d
+		}
 	]
 	quests: [
 		{
@@ -86,8 +86,8 @@
 				item: "gtceu:uv_fusion_reactor"
 				type: "item"
 			}]
-			x: 0.9940476190476346d
-			y: 1.4846938775510168d
+			x: 1.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["256F90AFB461107E"]
@@ -117,8 +117,8 @@
 				item: "gtocore:amprosium_ingot"
 				type: "item"
 			}]
-			x: 5.017857142857132d
-			y: 1.554761904761918d
+			x: 5.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["2544898A725CC1A3"]
@@ -739,31 +739,6 @@
 			y: 10.5d
 		}
 		{
-			dependencies: [
-				"7F87ACCCD8537D94"
-				"52DFF4A301A510C8"
-			]
-			description: [
-				"以安普洛为主，你可能需要注意自己的超能硅岩余量"
-				""
-				"来吧，既然体验过&a生&r&2物&r&a线&r，你应该也不会再对&6光&r&e学&r&6线&r产生畏惧了！"
-				""
-				"简而言之，就是漫长的自动化样板过程..."
-			]
-			id: "1612D1DEB3A7BE2D"
-			shape: "gear"
-			size: 2.0d
-			subtitle: "&4你需要天马行空般的想象力"
-			tasks: [{
-				id: "360117F3E83B4B1A"
-				item: "gtceu:uhv_machine_hull"
-				type: "item"
-			}]
-			title: "欢迎来到&4极高压&r阶段"
-			x: 11.0d
-			y: 1.5d
-		}
-		{
 			dependencies: ["256F90AFB461107E"]
 			description: ["特种工程塑料"]
 			hide_dependency_lines: true
@@ -1170,6 +1145,29 @@
 			}]
 			x: -1.0d
 			y: 14.5d
+		}
+		{
+			dependencies: ["0B7A508B2670C9C2"]
+			description: [
+				"极限压阶段仍还有一半的&a生&r&2物&r&a线&r要走"
+				""
+				"不过作为回报，你终将在UV阶段解锁全套的&6增益仓&r！"
+				""
+				"从&6安普洛&r和&6纳米锻炉&r开始你的极限压之旅吧"
+			]
+			hide_dependency_lines: false
+			id: "256F90AFB461107E"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "&3你需要天马行空般的想象力"
+			tasks: [{
+				id: "1A1392919E4E4D70"
+				item: "gtceu:uv_machine_hull"
+				type: "item"
+			}]
+			title: "欢迎来到&3极限压&r阶段"
+			x: -5.0d
+			y: 1.5d
 		}
 	]
 	subtitle: ["Tier8-UV"]

@@ -1,5 +1,5 @@
 {
-	autofocus_id: "6A457FDF694A81DA"
+	autofocus_id: "3D1E66868544975F"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "mv"
@@ -9,45 +9,22 @@
 	order_index: 4
 	quest_links: [
 		{
-			id: "112AADE317BB4B64"
-			linked_quest: "3D1E66868544975F"
-			shape: "gear"
-			size: 2.0d
-			x: -12.0d
-			y: 3.0d
-		}
-		{
 			id: "05BAA962B8E745D8"
 			linked_quest: "041ABD90CDDE00AA"
 			shape: "square"
 			x: -5.0d
 			y: 6.0d
 		}
-	]
-	quests: [
 		{
-			dependencies: [
-				"7C30575AACA9FE5B"
-				"26484E626E859718"
-			]
-			description: [
-				"尽快做出EV电路，&6超净间&r是通往&eEV电路&r路上的第一个挑战，好好招待它！"
-				""
-				"在这个阶段你会遇到第一个&a生产挑战&r：做出自己的第一个&6火箭&r。请务必提升产能，希望你的航天之旅一切顺利！"
-			]
-			id: "5D828A5258BFF11F"
+			id: "0BFC1070D6EEEEC7"
+			linked_quest: "5D828A5258BFF11F"
 			shape: "gear"
 			size: 2.0d
-			subtitle: "&6你需要天马行空般的想象力"
-			tasks: [{
-				id: "24C43DFAE83E8D6C"
-				item: "gtceu:hv_machine_hull"
-				type: "item"
-			}]
-			title: "欢迎来到&6高压&r时代"
 			x: 10.5d
 			y: 4.5d
 		}
+	]
+	quests: [
 		{
 			dependencies: [
 				"523744767F99B892"
@@ -411,7 +388,6 @@
 		}
 		{
 			dependencies: ["3899164922A734D8"]
-			hide_dependency_lines: true
 			id: "4353D16B457D84CF"
 			tasks: [{
 				id: "69451B83DA088C70"
@@ -1023,7 +999,7 @@
 				"下一阶段或许可以&e完全自动化掏灰&r？"
 			]
 			id: "7E448FB79A010162"
-			shape: "hexagon"
+			shape: "diamond"
 			size: 1.5d
 			tasks: [{
 				id: "3A0D90AC0798673F"
@@ -1213,6 +1189,117 @@
 			}]
 			x: -3.500000000000007d
 			y: -1.75d
+		}
+		{
+			dependencies: ["68EFF1609132BDD4"]
+			description: [
+				"欢迎来到&b中压&r阶段！"
+				""
+				"也许你在之前的阶段都是手动搬运材料进行&e“手工作坊式”&r合成"
+				""
+				"进入中压时代，你将必须开始搭建几条必要的&e产线&r，否则你不久后会为了反复制备某一大批量需要的材料而&c非常头疼&r"
+				""
+				"&6进阶集成电路&r是你这个阶段的最终目标"
+			]
+			id: "3D1E66868544975F"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "&b你需要天马行空般的想象力"
+			tasks: [{
+				id: "314B51C49770F63A"
+				item: "gtceu:mv_machine_hull"
+				type: "item"
+			}]
+			title: "欢迎来到&b中压&r阶段"
+			x: -12.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"056EC4E6FAF614B7"
+				"3899164922A734D8"
+			]
+			hide_until_deps_visible: true
+			icon: "gtceu:mv_electric_motor"
+			id: "7DBC3868363B971B"
+			rewards: [
+				{
+					count: 32
+					id: "409AF5F478819B15"
+					item: "gtceu:mv_electric_motor"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "321EB45326D4E5F5"
+					item: "gtceu:mv_conveyor_module"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "66DF86FC38F93D85"
+					item: "gtceu:mv_electric_piston"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1948867335BCC17C"
+					item: "gtceu:mv_robot_arm"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7318916A5F9542BC"
+				type: "checkmark"
+			}]
+			title: "MV部件补助&a（简单）&r"
+			x: -11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"056EC4E6FAF614B7"
+				"49E5CC5873FA226F"
+			]
+			description: ["从HV开始，简单不再有额外补助"]
+			hide_until_deps_visible: true
+			icon: "gtceu:advanced_integrated_circuit"
+			id: "06AD4784071F6B2F"
+			rewards: [{
+				count: 16
+				id: "5A50E88352A4628A"
+				item: "gtceu:advanced_integrated_circuit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "70616588724AAA76"
+				type: "checkmark"
+			}]
+			title: "芯片补助&a（简单）&r"
+			x: 8.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"056EC4E6FAF614B7"
+				"26484E626E859718"
+			]
+			hide_until_deps_visible: true
+			icon: "gtceu:stainless_steel_ingot"
+			id: "49C87F47E2920611"
+			rewards: [{
+				count: 320
+				id: "769DA2AA2276DE44"
+				item: "gtceu:stainless_steel_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "606BB40B2A7B1A9C"
+				type: "checkmark"
+			}]
+			title: "不锈钢补助&a（简单）&r"
+			x: 7.0d
+			y: 6.5d
 		}
 	]
 	subtitle: ["Tier2-MV"]

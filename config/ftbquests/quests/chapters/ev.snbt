@@ -1,4 +1,5 @@
 {
+	autofocus_id: "789B188B05759151"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "ev"
@@ -82,14 +83,6 @@
 	order_index: 6
 	quest_links: [
 		{
-			id: "1574A2B53C07D0E1"
-			linked_quest: "2F6C81E3B10365E8"
-			shape: "gear"
-			size: 2.0d
-			x: 1.5d
-			y: -11.0d
-		}
-		{
 			id: "4C16FF45DEA84C8F"
 			linked_quest: "5808E00A58A9F4EE"
 			x: 13.0d
@@ -129,28 +122,16 @@
 			x: 6.5d
 			y: -8.0d
 		}
-	]
-	quests: [
 		{
-			dependencies: ["135B35F7619D288E"]
-			description: [
-				"在此阶段，你需要大量的钨钢来制作机器，开始发展该阶段前确保你有持续的钨产出"
-				""
-				"如此一来，在制造出你的第一组IV马达前你能积攒&6大量的本阶段基础材料——钨钢"
-			]
-			id: "1CF7845875EEFA3B"
+			id: "2103B4D5965B90DF"
+			linked_quest: "1CF7845875EEFA3B"
 			shape: "gear"
 			size: 2.0d
-			subtitle: "&9你需要天马行空般的想象力"
-			tasks: [{
-				id: "616B27AED4DE272F"
-				item: "gtceu:iv_machine_hull"
-				type: "item"
-			}]
-			title: "欢迎来到&9强导压&r阶段"
 			x: 11.0d
 			y: -9.0d
 		}
+	]
+	quests: [
 		{
 			dependencies: [
 				"2F6C81E3B10365E8"
@@ -1317,6 +1298,26 @@
 			}]
 			x: -2.0d
 			y: -6.5d
+		}
+		{
+			dependencies: ["4BA890971C18F938"]
+			description: [
+				"你的最终目标是&9IV&r&6机器外壳&r......？"
+				""
+				"不，这是一个&d航天时代&r！最终目标是&6四阶火箭&r"
+			]
+			id: "2F6C81E3B10365E8"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "&5你需要天马行空般的想象力"
+			tasks: [{
+				id: "75A167CCC36C856C"
+				item: "gtceu:ev_machine_hull"
+				type: "item"
+			}]
+			title: "欢迎来到&5超高压&r阶段"
+			x: 1.5d
+			y: -11.0d
 		}
 	]
 	subtitle: ["Tier4-EV"]

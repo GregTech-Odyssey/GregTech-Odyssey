@@ -56,14 +56,6 @@
 	order_index: 7
 	quest_links: [
 		{
-			id: "2103B4D5965B90DF"
-			linked_quest: "1CF7845875EEFA3B"
-			shape: "gear"
-			size: 2.0d
-			x: 6.0d
-			y: -5.5d
-		}
-		{
 			id: "101D1D1E0461C66B"
 			linked_quest: "5F7635CC667AD219"
 			shape: "diamond"
@@ -76,6 +68,14 @@
 			shape: "diamond"
 			x: 18.0d
 			y: -13.0d
+		}
+		{
+			id: "38BDC42D0E99D4AB"
+			linked_quest: "2F03D93AC7DBE58D"
+			shape: "gear"
+			size: 2.0d
+			x: 10.0d
+			y: -12.0d
 		}
 	]
 	quests: [
@@ -540,29 +540,6 @@
 			}]
 			x: 10.0d
 			y: -10.0d
-		}
-		{
-			dependencies: [
-				"63481942850182B5"
-				"4EB6838703CB5F0E"
-			]
-			description: [
-				"IV阶段解锁的大部分&6大批量加工机器&r都可以安装&e8个能源仓&r，这意味着你可以通过&e升压&r来直接加工本阶段的材料，而无需制造这个阶段的单方块机器——除了&6组装机&r，因为你需要一台&6LuV级别的组装机&r来制造&6至少一个整体框架(LuV)&r安装到你的&6大型组装厂&r"
-				""
-				"还需要注意的是，你的&6部件组装机&r在这个阶段必须进行升级才能制作更高级的部件"
-			]
-			id: "2F03D93AC7DBE58D"
-			shape: "gear"
-			size: 2.0d
-			subtitle: "&d你需要天马行空般的想象力"
-			tasks: [{
-				id: "4747091C4120115C"
-				item: "gtceu:luv_machine_hull"
-				type: "item"
-			}]
-			title: "欢迎来到&d剧差压&r阶段"
-			x: 10.0d
-			y: -12.0d
 		}
 		{
 			dependencies: ["15C830BF6953ABA0"]
@@ -1186,6 +1163,45 @@
 			]
 			x: 17.0d
 			y: -3.5d
+		}
+		{
+			dependencies: [
+				"056EC4E6FAF614B7"
+				"251002F2103BDA84"
+			]
+			hide_until_deps_visible: true
+			icon: "gtceu:assembly_line"
+			id: "72D4F4A7A9BB037F"
+			subtitle: "简单模式下，装配线无需有序输入！"
+			tasks: [{
+				id: "618C6DAA95D3235A"
+				type: "checkmark"
+			}]
+			title: "装配线&a（简单）&r"
+			x: 19.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["135B35F7619D288E"]
+			description: [
+				"在IV马达之前，你需要面对一条超级长的&e稀土产线&r。整个IV阶段的目标就是完成该产线，然后更新换代机器"
+				""
+				"在此阶段，你需要大量的&6钨钢&r来制作机器，开始发展该阶段前确保你有持续的&6钨&r产出"
+				""
+				"如此一来，在制造出你的第一组IV马达前，你能积攒大量的本阶段基础材料"
+			]
+			id: "1CF7845875EEFA3B"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "&9你需要天马行空般的想象力"
+			tasks: [{
+				id: "616B27AED4DE272F"
+				item: "gtceu:iv_machine_hull"
+				type: "item"
+			}]
+			title: "欢迎来到&9强导压&r阶段"
+			x: 6.0d
+			y: -5.5d
 		}
 	]
 	subtitle: ["Tier5-IV"]

@@ -28,14 +28,6 @@
 	order_index: 11
 	quest_links: [
 		{
-			id: "3F5A74D278A7D471"
-			linked_quest: "1612D1DEB3A7BE2D"
-			shape: "gear"
-			size: 2.0d
-			x: -3.5d
-			y: -1.0d
-		}
-		{
 			id: "47F4D9D54ED9E7B6"
 			linked_quest: "5BABA7621E000F54"
 			shape: "hexagon"
@@ -77,6 +69,14 @@
 			size: 1.5d
 			x: 10.5d
 			y: 4.5d
+		}
+		{
+			id: "58EACFC906237603"
+			linked_quest: "154F80E28FA53D99"
+			shape: "gear"
+			size: 2.0d
+			x: 10.5d
+			y: -1.0d
 		}
 	]
 	quests: [
@@ -164,22 +164,6 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["4DC386826E075D1E"]
-			description: ["未完待续..."]
-			id: "154F80E28FA53D99"
-			shape: "gear"
-			size: 2.0d
-			subtitle: "&2你需要天马行空般的想象力"
-			tasks: [{
-				id: "25E99A8B61DF8E6B"
-				item: "gtceu:uev_machine_hull"
-				type: "item"
-			}]
-			title: "欢迎来到&2极超压&r阶段"
-			x: 10.5d
 			y: -1.0d
 		}
 		{
@@ -887,6 +871,31 @@
 			}]
 			x: 8.5d
 			y: 1.0d
+		}
+		{
+			dependencies: [
+				"7F87ACCCD8537D94"
+				"52DFF4A301A510C8"
+			]
+			description: [
+				"以安普洛为主，你可能需要注意自己的超能硅岩余量"
+				""
+				"来吧，既然体验过&a生&r&2物&r&a线&r，你应该也不会再对&6光&r&e学&r&6线&r产生畏惧了！"
+				""
+				"简而言之，就是漫长的自动化样板过程..."
+			]
+			id: "1612D1DEB3A7BE2D"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "&4你需要天马行空般的想象力"
+			tasks: [{
+				id: "360117F3E83B4B1A"
+				item: "gtceu:uhv_machine_hull"
+				type: "item"
+			}]
+			title: "欢迎来到&4极高压&r阶段"
+			x: -3.5d
+			y: -1.0d
 		}
 	]
 	subtitle: ["Tier9-UHV"]
