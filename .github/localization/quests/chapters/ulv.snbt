@@ -1,5 +1,5 @@
 {
-	autofocus_id: "300B64E908723A50"
+	autofocus_id: "4678D97346E46529"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "ulv"
@@ -8,14 +8,6 @@
 	id: "7EE10B51F068F7FB"
 	order_index: 2
 	quest_links: [
-		{
-			id: "447496A1C3D6E5C4"
-			linked_quest: "4678D97346E46529"
-			shape: "gear"
-			size: 2.0d
-			x: -2.0d
-			y: -6.5d
-		}
 		{
 			id: "2144C60D0F965D68"
 			linked_quest: "0DCA3A96184C9EAC"
@@ -35,6 +27,14 @@
 			shape: "diamond"
 			x: -3.5d
 			y: 0.0d
+		}
+		{
+			id: "455E3F6F33BD24B6"
+			linked_quest: "507807175748245C"
+			shape: "gear"
+			size: 2.0d
+			x: 17.0d
+			y: -7.0d
 		}
 	]
 	quests: [
@@ -59,7 +59,7 @@
 				type: "item"
 			}]
 			title: "{gto.ulv.quests.3791F49E789E7673.title}"
-			x: 1.0d
+			x: 0.75d
 			y: -2.5d
 		}
 		{
@@ -176,7 +176,7 @@
 				}
 				type: "item"
 			}]
-			shape: "diamond"
+			shape: "hexagon"
 			subtitle: "{gto.ulv.quests.0861FADA4103BCA5.subtitle}"
 			tasks: [{
 				id: "407D7D7216484DA8"
@@ -224,6 +224,7 @@
 				""
 				"{gto.ulv.quests.561F5AACF437E7C5.description4}"
 			]
+			icon: "gtocore:primitive_distillation_tower"
 			id: "561F5AACF437E7C5"
 			rewards: [{
 				count: 3
@@ -343,7 +344,7 @@
 			}]
 			title: "{gto.ulv.quests.1CDBE91D2ACD9111.title}"
 			x: -2.0d
-			y: 2.8119047619047564d
+			y: 2.85d
 		}
 		{
 			dependencies: [
@@ -631,7 +632,7 @@
 				item: "gtocore:ulv_lathe"
 				type: "item"
 			}]
-			x: -1.0d
+			x: -0.75d
 			y: -1.0d
 		}
 		{
@@ -668,8 +669,11 @@
 				"{gto.ulv.quests.45BB0C58909C7011.description1}"
 				""
 				"{gto.ulv.quests.45BB0C58909C7011.description2}"
+				""
+				"{gto.ulv.quests.45BB0C58909C7011.description3}"
 			]
 			id: "45BB0C58909C7011"
+			optional: true
 			rewards: [{
 				id: "2C69E748FFF6AA1E"
 				item: "gtocore:super_capacitor"
@@ -683,7 +687,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: -6.5d
+			y: -8.0d
 		}
 		{
 			dependencies: ["27F4D9739FE33A02"]
@@ -693,7 +697,7 @@
 				"{gto.ulv.quests.5CFDAB8B03980F9D.description1}"
 			]
 			id: "5CFDAB8B03980F9D"
-			shape: "gear"
+			shape: "hexagon"
 			subtitle: "{gto.ulv.quests.5CFDAB8B03980F9D.subtitle}"
 			tasks: [{
 				id: "6692EFF7A36E5403"
@@ -701,8 +705,8 @@
 				type: "item"
 			}]
 			title: "{gto.ulv.quests.5CFDAB8B03980F9D.title}"
-			x: 3.4880952380952337d
-			y: 2.8595238095238003d
+			x: 3.5d
+			y: 2.85d
 		}
 		{
 			dependencies: ["6C328AB57C610EF9"]
@@ -716,8 +720,8 @@
 				type: "item"
 			}]
 			title: "{gto.ulv.quests.134DA399427DD1A5.title}"
-			x: 1.8095238095238102d
-			y: 2.8119047619047564d
+			x: 2.0d
+			y: 2.85d
 		}
 		{
 			dependencies: ["7D370CF55A0AE36D"]
@@ -730,7 +734,7 @@
 			]
 			id: "1CC2469A8203DE05"
 			rewards: [{
-				count: 8
+				count: 4
 				id: "6F3F03FA8FCBC3A4"
 				item: "gtocore:ulv_electric_pump"
 				type: "item"
@@ -743,7 +747,7 @@
 				type: "item"
 			}]
 			title: "{gto.ulv.quests.1CC2469A8203DE05.title}"
-			x: -0.5d
+			x: -0.3d
 			y: -5.0d
 		}
 		{
@@ -755,7 +759,7 @@
 			]
 			id: "68AB0026ACD5103E"
 			rewards: [{
-				count: 8
+				count: 4
 				id: "78768C9064C8C06D"
 				item: "gtocore:ulv_conveyor_module"
 				type: "item"
@@ -800,7 +804,7 @@
 			description: ["{gto.ulv.quests.13A73FA0625AC68F.description0}"]
 			id: "13A73FA0625AC68F"
 			rewards: [{
-				count: 8
+				count: 4
 				id: "42D9E5D6A2531FA2"
 				item: "gtocore:ulv_robot_arm"
 				type: "item"
@@ -825,7 +829,7 @@
 			]
 			id: "7D370CF55A0AE36D"
 			rewards: [{
-				count: 8
+				count: 16
 				id: "46DB52559B32A949"
 				item: "gtocore:ulv_electric_motor"
 				type: "item"
@@ -850,7 +854,7 @@
 			]
 			id: "0859B24E8AF3303F"
 			rewards: [{
-				count: 8
+				count: 4
 				id: "4E68A5BC2B0E7FCD"
 				item: "gtocore:ulv_electric_piston"
 				type: "item"
@@ -863,7 +867,7 @@
 				type: "item"
 			}]
 			title: "{gto.ulv.quests.0859B24E8AF3303F.title}"
-			x: -1.0d
+			x: -0.75d
 			y: -2.5d
 		}
 		{
@@ -885,7 +889,7 @@
 				item: "gtceu:ruby_rod"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 0.75d
 			y: -1.0d
 		}
 		{
@@ -1109,7 +1113,7 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["4678D97346E46529"]
+			dependencies: ["507807175748245C"]
 			description: [
 				"{gto.ulv.quests.1EFAEF7D0E6700A9.description0}"
 				""
@@ -1118,14 +1122,15 @@
 				"{gto.ulv.quests.1EFAEF7D0E6700A9.description2}"
 			]
 			id: "1EFAEF7D0E6700A9"
+			shape: "diamond"
 			subtitle: "{gto.ulv.quests.1EFAEF7D0E6700A9.subtitle}"
 			tasks: [{
 				id: "146ADCB0A93C988D"
 				item: "gtceu:ulv_transformer_1a"
 				type: "item"
 			}]
-			x: -4.0d
-			y: -8.0d
+			x: 17.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["0FBE7318DFBA700E"]
@@ -1154,35 +1159,8 @@
 				}
 				type: "item"
 			}]
-			x: 4.988095238095234d
-			y: 2.8595238095238003d
-		}
-		{
-			dependencies: ["03BB5A5C084F5194"]
-			description: [
-				"{gto.ulv.quests.507807175748245C.description0}"
-				""
-				"{gto.ulv.quests.507807175748245C.description1}"
-			]
-			icon: "gtceu:lv_machine_hull"
-			id: "507807175748245C"
-			rewards: [{
-				count: 2
-				id: "6604B23595690CFE"
-				item: "farmersdelight:grilled_salmon"
-				type: "item"
-			}]
-			shape: "gear"
-			size: 2.0d
-			subtitle: "{gto.ulv.quests.507807175748245C.subtitle}"
-			tasks: [{
-				id: "2C08278994181AE9"
-				item: "gtceu:lv_machine_hull"
-				type: "item"
-			}]
-			title: "{gto.ulv.quests.507807175748245C.title}"
-			x: 17.0d
-			y: -7.0d
+			x: 5.0d
+			y: 2.85d
 		}
 		{
 			dependencies: ["1CDBE91D2ACD9111"]
@@ -1202,8 +1180,8 @@
 					type: "checkmark"
 				}
 			]
-			x: 0.3095238095238102d
-			y: 2.8119047619047564d
+			x: 0.0d
+			y: 2.85d
 		}
 		{
 			dependencies: ["4AF39FF336EA1BF4"]
@@ -1312,8 +1290,8 @@
 				item: "gtocore:infinite_intake_hatch"
 				type: "item"
 			}]
-			x: -3.511904761904759d
-			y: 2.8119047619047564d
+			x: -3.5d
+			y: 2.85d
 		}
 		{
 			dependencies: ["0FBE7318DFBA700E"]
@@ -1352,6 +1330,144 @@
 			}]
 			x: 6.5d
 			y: 1.5d
+		}
+		{
+			dependencies: ["4678D97346E46529"]
+			description: ["{gto.ulv.quests.37E22F35AE3EF086.description0}"]
+			id: "37E22F35AE3EF086"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "2C585EBEE2B62B85"
+				item: "gtceu:ulv_charger_4x"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"056EC4E6FAF614B7"
+				"1CA6E1AD1909373A"
+			]
+			hide_until_deps_visible: true
+			icon: "gtocore:ulv_electric_motor"
+			id: "03E94BB0F0B3ED2E"
+			rewards: [
+				{
+					count: 16
+					id: "1B9CC58A83F0C34B"
+					item: "gtocore:ulv_electric_motor"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "24811CF5AC480F0D"
+					item: "gtocore:ulv_conveyor_module"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "04AAF259F65CDD1A"
+					item: "gtocore:ulv_electric_piston"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4D6F3DCD09EBCB19"
+					item: "gtocore:ulv_robot_arm"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "158D91949C406FFB"
+				type: "checkmark"
+			}]
+			title: "{gto.ulv.quests.03E94BB0F0B3ED2E.title}"
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"056EC4E6FAF614B7"
+				"03BB5A5C084F5194"
+			]
+			hide_until_deps_visible: true
+			icon: "gtceu:polyethylene_plate"
+			id: "7F95D501ADA3E661"
+			rewards: [{
+				count: 128
+				id: "3F375135B8844521"
+				item: "gtceu:polyethylene_plate"
+				type: "item"
+			}]
+			tasks: [{
+				id: "20AFC6809A3258AD"
+				type: "checkmark"
+			}]
+			title: "{gto.ulv.quests.7F95D501ADA3E661.title}"
+			x: 13.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["53A8535B07FE3958"]
+			description: [
+				"{gto.ulv.quests.4678D97346E46529.description0}"
+				""
+				"{gto.ulv.quests.4678D97346E46529.description1}"
+				""
+				"{gto.ulv.quests.4678D97346E46529.description2}"
+			]
+			id: "4678D97346E46529"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "{gto.ulv.quests.4678D97346E46529.subtitle}"
+			tasks: [{
+				id: "60EC1E07571ED8BF"
+				item: "gtceu:ulv_machine_hull"
+				type: "item"
+			}]
+			title: "{gto.ulv.quests.4678D97346E46529.title}"
+			x: -2.0d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"056EC4E6FAF614B7"
+				"0FBE7318DFBA700E"
+			]
+			hide_until_deps_visible: true
+			icon: "gtceu:basic_electronic_circuit"
+			id: "35CBD9D27781F929"
+			rewards: [{
+				count: 16
+				id: "272BCD53EE7CB4F6"
+				item: "gtceu:basic_electronic_circuit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0A11CC353F29846B"
+				type: "checkmark"
+			}]
+			title: "{gto.ulv.quests.35CBD9D27781F929.title}"
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"1FB1EC5B9CEFC2BC"
+				"4678D97346E46529"
+			]
+			hide_until_deps_visible: true
+			id: "2F5F08A3D4B89B05"
+			subtitle: "{gto.ulv.quests.2F5F08A3D4B89B05.subtitle}"
+			tasks: [{
+				id: "1BAF14E7BEC449F7"
+				type: "checkmark"
+			}]
+			title: "{gto.ulv.quests.2F5F08A3D4B89B05.title}"
+			x: 0.0d
+			y: -6.5d
 		}
 	]
 	subtitle: ["{gto.ulv.subtitle0}"]

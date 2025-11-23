@@ -50,7 +50,7 @@
 				type: "item"
 			}]
 			tasks: [{
-				count: 32L
+				count: 16L
 				id: "7A4575C33160DD34"
 				item: "gtocore:copper_coin"
 				type: "item"
@@ -253,6 +253,7 @@
 			icon: "minecraft:ender_pearl"
 			id: "3DCF45A0081D0CD6"
 			rewards: [{
+				count: 4
 				id: "2286B3030D852516"
 				item: "minecraft:ender_pearl"
 				type: "item"
@@ -359,8 +360,8 @@
 		}
 		{
 			dependencies: [
-				"20AC600A32D51156"
 				"619EE8C56F705241"
+				"20AC600A32D51156"
 			]
 			dependency_requirement: "one_completed"
 			icon: "minecraft:shulker_box"
@@ -383,10 +384,10 @@
 		}
 		{
 			dependencies: [
-				"20AC600A32D51156"
-				"619EE8C56F705241"
+				"3B50956CDCD2D04E"
+				"24B0FBD7AAD6C8B1"
 			]
-			dependency_requirement: "one_completed"
+			hide_until_deps_visible: true
 			icon: "factory_blocks:factory"
 			id: "1EBE4BC172EFA13E"
 			rewards: [{
@@ -415,12 +416,9 @@
 				type: "item"
 			}]
 			tasks: [{
-				count: 64L
+				count: 16L
 				id: "40BD3FFB46185729"
-				item: {
-					Count: 64
-					id: "gtocore:copper_coin"
-				}
+				item: "gtocore:copper_coin"
 				type: "item"
 			}]
 			title: "{gto.shop.quests.50259ED5714DCF72.title}"
@@ -596,18 +594,15 @@
 			icon: "gtceu:sticky_resin"
 			id: "68F6E43F473E9C78"
 			rewards: [{
-				count: 16
+				count: 128
 				id: "39A175E04345B495"
 				item: "gtceu:sticky_resin"
 				type: "item"
 			}]
 			tasks: [{
-				count: 4L
+				count: 16L
 				id: "659B5A1993A48349"
-				item: {
-					Count: 4
-					id: "gtocore:copper_coin"
-				}
+				item: "gtocore:copper_coin"
 				type: "item"
 			}]
 			title: "{gto.shop.quests.68F6E43F473E9C78.title}"
@@ -787,12 +782,9 @@
 				type: "item"
 			}]
 			tasks: [{
-				count: 128L
+				count: 64L
 				id: "2AE5A255E23B4D6B"
-				item: {
-					Count: 128
-					id: "gtocore:copper_coin"
-				}
+				item: "gtocore:copper_coin"
 				type: "item"
 			}]
 			title: "{gto.shop.quests.4DD2F6248773AC53.title}"
@@ -820,6 +812,26 @@
 			title: "{gto.shop.quests.742D435913111476.title}"
 			x: 0.5d
 			y: 5.5d
+		}
+		{
+			dependencies: [
+				"20AC600A32D51156"
+				"619EE8C56F705241"
+			]
+			dependency_requirement: "one_completed"
+			disable_toast: true
+			icon_scale: 0.25d
+			id: "3B50956CDCD2D04E"
+			shape: "none"
+			size: 0.25d
+			tasks: [{
+				id: "667879E2DAACEE9D"
+				stat: "minecraft:jump"
+				type: "stat"
+				value: 1
+			}]
+			x: 10.5d
+			y: 3.5d
 		}
 	]
 	subtitle: ["{gto.shop.subtitle0}"]

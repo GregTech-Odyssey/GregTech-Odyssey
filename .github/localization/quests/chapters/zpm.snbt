@@ -28,19 +28,19 @@
 	order_index: 9
 	quest_links: [
 		{
-			id: "56F1CC0253E52783"
-			linked_quest: "3490AACD4AA62C5D"
-			shape: "gear"
-			size: 2.0d
-			x: -9.0d
-			y: -4.0d
-		}
-		{
 			id: "52240C285F13ADF8"
 			linked_quest: "05833AD0EAA634A7"
 			shape: "diamond"
 			x: -9.0d
 			y: -6.0d
+		}
+		{
+			id: "7E30FC47C3028882"
+			linked_quest: "256F90AFB461107E"
+			shape: "gear"
+			size: 2.0d
+			x: 6.0d
+			y: -4.0d
 		}
 	]
 	quests: [
@@ -322,29 +322,6 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -4.0d
-		}
-		{
-			dependencies: ["0B7A508B2670C9C2"]
-			description: [
-				"{gto.zpm.quests.256F90AFB461107E.description0}"
-				""
-				"{gto.zpm.quests.256F90AFB461107E.description1}"
-				""
-				"{gto.zpm.quests.256F90AFB461107E.description2}"
-			]
-			hide_dependency_lines: false
-			id: "256F90AFB461107E"
-			shape: "gear"
-			size: 2.0d
-			subtitle: "{gto.zpm.quests.256F90AFB461107E.subtitle}"
-			tasks: [{
-				id: "1A1392919E4E4D70"
-				item: "gtceu:uv_machine_hull"
-				type: "item"
-			}]
-			title: "{gto.zpm.quests.256F90AFB461107E.title}"
-			x: 6.0d
 			y: -4.0d
 		}
 		{
@@ -1028,6 +1005,30 @@
 			}]
 			x: -7.5d
 			y: 2.0d
+		}
+		{
+			dependencies: ["2BF339EE989F9A8E"]
+			description: [
+				"{gto.zpm.quests.3490AACD4AA62C5D.description0}"
+				""
+				"{gto.zpm.quests.3490AACD4AA62C5D.description1}"
+				""
+				"{gto.zpm.quests.3490AACD4AA62C5D.description2}"
+				""
+				"{gto.zpm.quests.3490AACD4AA62C5D.description3}"
+			]
+			id: "3490AACD4AA62C5D"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "{gto.zpm.quests.3490AACD4AA62C5D.subtitle}"
+			tasks: [{
+				id: "78CEB67F88F86158"
+				item: "gtceu:zpm_machine_hull"
+				type: "item"
+			}]
+			title: "{gto.zpm.quests.3490AACD4AA62C5D.title}"
+			x: -9.0d
+			y: -4.0d
 		}
 	]
 	subtitle: ["{gto.zpm.subtitle0}"]

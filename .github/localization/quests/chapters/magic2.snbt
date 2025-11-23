@@ -76,7 +76,7 @@
 		}
 		{
 			dependencies: ["0B61448F01656C1D"]
-			description: [""]
+			description: ["{gto.magic2.quests.0631F054A9B97A40.description0}"]
 			id: "0631F054A9B97A40"
 			tasks: [
 				{
@@ -1634,7 +1634,6 @@
 		}
 		{
 			dependencies: ["2DE9C9AD00450987"]
-			description: [""]
 			id: "0F02FE8BA89BCF34"
 			subtitle: "{gto.magic2.quests.0F02FE8BA89BCF34.subtitle}"
 			tasks: [{
@@ -1739,7 +1738,6 @@
 				"3A20210242A1C865"
 				"30C2F8F769D33023"
 			]
-			description: [""]
 			id: "27AA2D1CFBC9C465"
 			tasks: [
 				{
