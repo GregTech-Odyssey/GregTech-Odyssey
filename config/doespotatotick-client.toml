@@ -1,0 +1,8 @@
+
+[DoesPotatoTickClientConfig]
+	#If true, entities that are not ticking will not be rendered on the client. Improves FPS.
+	#You can also configure whether this option is invalidated when you are using bow/crossbow items.
+	StopRenderingUntickableEntities = true
+	#If true, entities will always be rendered even though they're not tickable when client players are charging projectile weapons.
+	RenderAllEntitiesWhenChargingProjectileWeapons = true
+

@@ -621,8 +621,12 @@ file = "config/does_it_tick-common.toml"
 hash = "a51452390308a18e517457440e251a4a1737433e6033875e4a3af6cc5afb9283"
 
 [[files]]
+file = "config/doespotatotick-client.toml"
+hash = "9e0be4df497e1cacb11fe47b35886d43c56ff828a8be2815c82fb5f4ccd97bfa"
+
+[[files]]
 file = "config/doespotatotick-common.toml"
-hash = "27d23f1821baec170119aa1376c1c3d966e57c1fad4603f6406a4fc6f74e1951"
+hash = "8e35129b67027898107ae628ec7b37bf744d74b6854095c5f896e8fbbff05a78"
 
 [[files]]
 file = "config/dungeon_crawl.toml"
@@ -1030,7 +1034,7 @@ hash = "898347b99b3326ae0ce719a06351eb930b1a3567e4f3c22ba94f014f1e115a46"
 
 [[files]]
 file = "config/inventoryessentials-common.toml"
-hash = "0e58c14457630b2ddaa22690acfd0d4271983c32d88e405b2649fb4f23289b87"
+hash = "78283647ccc61b98ab1613e80790fa7a603a8badde399df2b40c2d8db86bb450"
 
 [[files]]
 file = "config/invtweaks-client.toml"
@@ -1158,7 +1162,7 @@ hash = "fad9aea710ec3508eab562cd8f2b5f8e2dda6ee1c5fb1fe818f90ce253017f66"
 
 [[files]]
 file = "config/modernfix-mixins.properties"
-hash = "dd90b3af28811875d6c53d16a18ad26304cf4ec89da2133dfc800e1f16513187"
+hash = "c339ea0f9f6cc19483a29c4c1a5dbd24615fe474a4354fdb44abde1cc10a4caa"
 
 [[files]]
 file = "config/morered-client.toml"
@@ -2431,7 +2435,7 @@ metafile = true
 
 [[files]]
 file = "mods/alltheleaks.pw.toml"
-hash = "7d83338d2e5a1c0f153c08901f9e84fa711bb4a2bfca54e93667d76705b707fe"
+hash = "40bab1828ae2b4d755db64f1c887a2fe06171fad6ab54d4a1863ca5c30ff9b55"
 metafile = true
 
 [[files]]
@@ -2461,7 +2465,7 @@ metafile = true
 
 [[files]]
 file = "mods/applied-energistics-2-wireless-terminals.pw.toml"
-hash = "760af77648a5754eeae79f5ac1ea8309a8027f53f5db04fcc5db1b3a9aa0aa0a"
+hash = "f3ddc5ed65361138c4c66fd4abd05b6050b24362dc7bb83a5ca54eafb74dd181"
 metafile = true
 
 [[files]]
@@ -2646,7 +2650,7 @@ metafile = true
 
 [[files]]
 file = "mods/doespotatotick.pw.toml"
-hash = "ed11118da5998b676106c493ae5b278fc89145a982fc01a24c6c878086482be8"
+hash = "3cecb79dfc8131be0845b50fef8dbcd11b83459b9c57c1f4545ad52c263a25b5"
 metafile = true
 
 [[files]]
@@ -2655,8 +2659,13 @@ hash = "bcb5c1278d0a74a8206fa8269efa39046ea5cb4f67aab5022baa2a0f05e05e9f"
 metafile = true
 
 [[files]]
+file = "mods/duplicationless.pw.toml"
+hash = "e3f46f35a6b414e6c40b84f75f630b449aeef6e55e3d682863ebb48cacb8ae60"
+metafile = true
+
+[[files]]
 file = "mods/easy-villagers.pw.toml"
-hash = "4bbca555ac14d8b40bfea21ee96c4a8a6c5e7494203dea0a861322eaa9e71467"
+hash = "a2ba44dc9807e684a92b909bd1f199fd7bcbfa663ab9ee164753f5d6d7b4a91a"
 metafile = true
 
 [[files]]
@@ -2696,7 +2705,7 @@ metafile = true
 
 [[files]]
 file = "mods/ex-pattern-provider.pw.toml"
-hash = "dd26fdfebaf39d13c9e57794f2ced8c568fb9020c891076af940a8aec1645b09"
+hash = "7567c4eb58ffb0eee566f0b59e3a7822928b3e82ca35e8ab1a4f1648280d1ae4"
 metafile = true
 
 [[files]]
@@ -2821,7 +2830,7 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-quests-forge.pw.toml"
-hash = "218ceb46f632cbcdef9f1156c9d138ac7ad52e387f7d1cf2fac92952f92f8fd1"
+hash = "8bf558bb846804bbf5858fd795617509caabab721adb6f8c4ad185e75f514532"
 metafile = true
 
 [[files]]
@@ -2866,12 +2875,12 @@ metafile = true
 
 [[files]]
 file = "mods/gnetum.pw.toml"
-hash = "a1102abb1e6c38a101dddda69acf90d9e73d887c7a43e3a84dd81bde5fbbf37f"
+hash = "46b5faf8c70ef9b3f9f96c54c53aaf6975b80e087cf5d833cf48f64dd1b4c947"
 metafile = true
 
 [[files]]
-file = "mods/gtocore-0.5.0.jar"
-hash = "1cd21f9d6b7a8f4eed7ac3b1d1884346ccd27896c69221a7644e97a5e8b0b46f"
+file = "mods/gtocore-0.5.1.jar"
+hash = "cc25a9f46c00a9e6717b835a59be56691c7e5dca99d015b2b0b32830c5e34978"
 
 [[files]]
 file = "mods/gtonativelib-1.0.jar"
@@ -2894,7 +2903,7 @@ metafile = true
 
 [[files]]
 file = "mods/inventory-essentials.pw.toml"
-hash = "b3261a9e2d85b983f5be5c36a84a49b11faa94793a5e6b527ce20ee4fc3eab53"
+hash = "9779719134e508c31ef0cb08ed272daef6d3b4a8a5bff07e48f9695e88e5a410"
 metafile = true
 
 [[files]]
@@ -2914,7 +2923,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "a4aeae853d270fbeef356436886065e8d5ca7baee9ae02d12dc79c14d169647b"
+hash = "a5b0f00a92980d41ac086d68c32dfd389c09b897343f7617b8826b5e81f967a5"
 metafile = true
 
 [[files]]
@@ -2984,7 +2993,7 @@ metafile = true
 
 [[files]]
 file = "mods/modernfix.pw.toml"
-hash = "53632bd1bded325bc255b1d219e4dd601a588a27b7862ce89d7e5159331faf77"
+hash = "373b18020e519fa602dc3e5ecc7d9d1523a353ddec85b20fe8dbbad23d4e7db2"
 metafile = true
 
 [[files]]
@@ -3094,7 +3103,7 @@ metafile = true
 
 [[files]]
 file = "mods/re-avaritia.pw.toml"
-hash = "2b08c58f3b533346bc4b6ad6178976a4e7302d5f5ee57a30fa5b1386ff07581b"
+hash = "1c45906ace118ba0fbfbdf26ac2cdb72c18515bfbe6727335e325f243ecf06e7"
 metafile = true
 
 [[files]]
