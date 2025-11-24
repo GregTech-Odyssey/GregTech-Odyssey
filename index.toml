@@ -2650,7 +2650,7 @@ metafile = true
 
 [[files]]
 file = "mods/doespotatotick.pw.toml"
-hash = "3cecb79dfc8131be0845b50fef8dbcd11b83459b9c57c1f4545ad52c263a25b5"
+hash = "d2de7759952715579b7d6e6208ea3e54625c7742efe5866a8abd5cb82e7a137b"
 metafile = true
 
 [[files]]
@@ -2880,7 +2880,7 @@ metafile = true
 
 [[files]]
 file = "mods/gtocore-0.5.1.jar"
-hash = "753d53f56f739981058baddb6a9d84b48df224729926a9d9bba1cc694d492046"
+hash = "4e3839236feb9050468942dcd543dfb0d4fcf9389dea2bee160d0be8c1e87a2b"
 
 [[files]]
 file = "mods/gtonativelib-1.0.jar"
@@ -2923,7 +2923,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "a5b0f00a92980d41ac086d68c32dfd389c09b897343f7617b8826b5e81f967a5"
+hash = "3a9af1fae141ca05ad9a7d3e7b3b32b627408efed8b40b16a21f2c887b619be0"
 metafile = true
 
 [[files]]
@@ -3037,11 +3037,6 @@ hash = "489180da7c692523c74ba5e1ed6c678bee80b379b60d38cb248063de3db846c1"
 metafile = true
 
 [[files]]
-file = "mods/not-enough-crashes-forge.pw.toml"
-hash = "2644d6a7f1b4326fc7bee43f7478c13d2a74197be08123d82b4c3f3d1d3b0014"
-metafile = true
-
-[[files]]
 file = "mods/oculus.pw.toml"
 hash = "7ac54f74e57d4649fc96ac601e5d2d38e634bfd214b615d021a230da72b4ac54"
 metafile = true
@@ -3103,7 +3098,7 @@ metafile = true
 
 [[files]]
 file = "mods/re-avaritia.pw.toml"
-hash = "1c45906ace118ba0fbfbdf26ac2cdb72c18515bfbe6727335e325f243ecf06e7"
+hash = "af6845dd9ea7633149b516149087affc4a371103d2c3911a0f5de63d9076c45f"
 metafile = true
 
 [[files]]
