@@ -3172,6 +3172,11 @@ hash = "decd4bdf5fcea790dfe75bf35184bc2100361849487aa73996d6576c1e9a0143"
 metafile = true
 
 [[files]]
+file = "mods/terrific-trash-cans.pw.toml"
+hash = "7b96bd6fdf6bbb111a6c24651c64862a1126ccfe3cff861b1c9441389ba5bd42"
+metafile = true
+
+[[files]]
 file = "mods/titanium.pw.toml"
 hash = "5e41fd8f565e09e83868e4c4776154befd3203b01ed5f09b6f7cd27687ec0041"
 metafile = true
