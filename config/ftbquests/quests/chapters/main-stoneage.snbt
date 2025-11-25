@@ -1,5 +1,5 @@
 {
-	autofocus_id: "3BC9246D8FD4B649"
+	autofocus_id: "17DA1B3DC20813FF"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "main-stoneage"
@@ -60,7 +60,7 @@
 				type: "item"
 			}]
 			title: "淘金客"
-			x: -2.25d
+			x: -3.0d
 			y: 0.0d
 		}
 		{
@@ -101,7 +101,7 @@
 				type: "checkmark"
 			}]
 			title: "我的工具呢？"
-			x: -0.5d
+			x: -1.5d
 			y: -1.5d
 		}
 		{
@@ -143,7 +143,7 @@
 				weak_nbt_match: true
 			}]
 			title: "想致富，先撸树！"
-			x: 3.0d
+			x: 3.5d
 			y: 0.0d
 		}
 		{
@@ -182,7 +182,7 @@
 				}
 			]
 			title: "沾花惹草"
-			x: 4.0d
+			x: 4.5d
 			y: -1.0d
 		}
 		{
@@ -251,7 +251,7 @@
 				}
 			]
 			title: "吃饱饭才能加油干"
-			x: 4.0d
+			x: 4.5d
 			y: 1.0d
 		}
 		{
@@ -285,7 +285,7 @@
 				type: "item"
 			}]
 			title: "至于动物？我祝他们一切安好"
-			x: 2.0d
+			x: 2.5d
 			y: 1.0d
 		}
 		{
@@ -330,7 +330,7 @@
 				type: "item"
 			}]
 			title: "下班甜点~"
-			x: 2.0d
+			x: 2.5d
 			y: -1.0d
 		}
 		{
@@ -1472,11 +1472,14 @@
 				type: "item"
 			}]
 			title: "来点木棍"
-			x: -2.25d
+			x: -3.0d
 			y: -1.5d
 		}
 		{
-			dependencies: ["561D79DE960A034D"]
+			dependencies: [
+				"12116F27AB89BB58"
+				"561D79DE960A034D"
+			]
 			description: [
 				"&6简易合成终端&r可以取出相邻容器的物品，当作前期的AE"
 				""
@@ -1499,7 +1502,7 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: 2.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["45C8A2DF9C0E5473"]
@@ -1559,7 +1562,7 @@
 				}
 				type: "item"
 			}]
-			x: -0.5d
+			x: -1.5d
 			y: 0.0d
 		}
 		{
@@ -1578,7 +1581,7 @@
 				item: "gtocore:plant_fiber"
 				type: "item"
 			}]
-			x: 0.5d
+			x: 0.0d
 			y: 0.0d
 		}
 		{
@@ -1714,7 +1717,7 @@
 				type: "item"
 			}]
 			title: "在找繁茂洞穴？"
-			x: 4.0d
+			x: 4.5d
 			y: 2.5d
 		}
 		{
@@ -1760,7 +1763,7 @@
 				title: "屠刀"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 2.5d
 			y: 2.5d
 		}
 		{
@@ -2056,6 +2059,139 @@
 			title: "更强更大"
 			x: 0.0d
 			y: 4.5d
+		}
+		{
+			dependencies: ["14A66BA5BC9DB220"]
+			description: [
+				"如果你暂时不想推进主线了，可以看看支线：&b独善其身&r"
+				""
+				"包含魔法，神化，食物以及一些其他东西"
+				""
+				"&e魔法在到达UEV前并不是必选项，你只需要准备一个魔力池即可。&r不过发展魔法能够极大的提升你在科技线中的体验，你可以自行选择"
+			]
+			icon: {
+				Count: 1
+				id: "botania:lexicon"
+				tag: {
+					"botania:elven_unlock": 1b
+				}
+			}
+			id: "1BA9FA9358CBF2E7"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [{
+				id: "3BE63FE63D8503C7"
+				title: "看看支线？"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"24C53B5FF515ACAC"
+				"056EC4E6FAF614B7"
+			]
+			hide_until_deps_visible: true
+			icon: "gtceu:bronze_ingot"
+			id: "41F8B4785DF68920"
+			rewards: [
+				{
+					count: 320
+					id: "66F0344915AEA1FD"
+					item: "gtceu:bronze_ingot"
+					type: "item"
+				}
+				{
+					id: "0497209AAC2C59A0"
+					item: {
+						Count: 1
+						id: "gtocore:dark_steel_vajra"
+						tag: {
+							Charge: 1600000L
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								Mode: 2b
+							}
+							GT.Tool: {
+								Damage: 0
+							}
+							HideFlags: 2
+							MaxCharge: 1600000L
+						}
+					}
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "567BA54C456066D4"
+					item: {
+						Count: 1
+						id: "gtceu:prospector.hv"
+						tag: {
+							Charge: 16000000L
+						}
+					}
+					team_reward: false
+					type: "item"
+				}
+				{
+					count: 320
+					id: "417B9ED185FA548A"
+					item: "gtceu:wrought_iron_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "简单特供"
+			tasks: [{
+				id: "5972E40DA50C965A"
+				type: "checkmark"
+			}]
+			title: "青铜补助&a（简单）&r"
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"24C53B5FF515ACAC"
+				"18E057F31DDC4065"
+			]
+			hide_until_deps_visible: true
+			icon: "gtceu:bronze_ingot"
+			id: "3B7A2492AD1F9B85"
+			rewards: [
+				{
+					count: 128
+					id: "0BCDAC9C08ADBEE7"
+					item: "gtceu:bronze_ingot"
+					type: "item"
+				}
+				{
+					id: "2C803EEF5AEFB168"
+					item: {
+						Count: 1
+						id: "gtceu:prospector.lv"
+						tag: {
+							Charge: 100000L
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 128
+					id: "309E5607D70D2466"
+					item: "gtceu:wrought_iron_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "普通特供"
+			tasks: [{
+				id: "20E4A1BA83F87F1C"
+				type: "checkmark"
+			}]
+			title: "青铜补助&e（普通）&r"
+			x: 0.0d
+			y: 10.5d
 		}
 	]
 	subtitle: ["Hello World!"]

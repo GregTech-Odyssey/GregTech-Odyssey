@@ -76,7 +76,7 @@
 		}
 		{
 			dependencies: ["0B61448F01656C1D"]
-			description: [""]
+			description: ["是的，你需要制作这里的所有符文……非常繁琐"]
 			id: "0631F054A9B97A40"
 			tasks: [
 				{
@@ -1413,7 +1413,10 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["129FF3CBED5CFF05"]
+			dependencies: [
+				"129FF3CBED5CFF05"
+				"7C9C5AA8812891CC"
+			]
 			description: [
 				"&o&3格雷科技有限公司&r&o的&6神秘学家们&r&o在&b魔法&r&o发展到极高水平后研究出的跨界魔法成果。只要给机器提供足够的魔力，机器就无需担忧超频带来的能源损耗。"
 				""
@@ -1622,7 +1625,6 @@
 		}
 		{
 			dependencies: ["2DE9C9AD00450987"]
-			description: [""]
 			id: "0F02FE8BA89BCF34"
 			subtitle: "你需要 &e英雄般的力量&r"
 			tasks: [{
@@ -1727,7 +1729,6 @@
 				"3A20210242A1C865"
 				"30C2F8F769D33023"
 			]
-			description: [""]
 			id: "27AA2D1CFBC9C465"
 			tasks: [
 				{

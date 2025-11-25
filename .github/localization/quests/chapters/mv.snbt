@@ -1,5 +1,5 @@
 {
-	autofocus_id: "6A457FDF694A81DA"
+	autofocus_id: "3D1E66868544975F"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "mv"
@@ -9,45 +9,22 @@
 	order_index: 4
 	quest_links: [
 		{
-			id: "112AADE317BB4B64"
-			linked_quest: "3D1E66868544975F"
-			shape: "gear"
-			size: 2.0d
-			x: -12.0d
-			y: 3.0d
-		}
-		{
 			id: "05BAA962B8E745D8"
 			linked_quest: "041ABD90CDDE00AA"
 			shape: "square"
 			x: -5.0d
 			y: 6.0d
 		}
-	]
-	quests: [
 		{
-			dependencies: [
-				"7C30575AACA9FE5B"
-				"26484E626E859718"
-			]
-			description: [
-				"{gto.mv.quests.5D828A5258BFF11F.description0}"
-				""
-				"{gto.mv.quests.5D828A5258BFF11F.description1}"
-			]
-			id: "5D828A5258BFF11F"
+			id: "0BFC1070D6EEEEC7"
+			linked_quest: "5D828A5258BFF11F"
 			shape: "gear"
 			size: 2.0d
-			subtitle: "{gto.mv.quests.5D828A5258BFF11F.subtitle}"
-			tasks: [{
-				id: "24C43DFAE83E8D6C"
-				item: "gtceu:hv_machine_hull"
-				type: "item"
-			}]
-			title: "{gto.mv.quests.5D828A5258BFF11F.title}"
 			x: 10.5d
 			y: 4.5d
 		}
+	]
+	quests: [
 		{
 			dependencies: [
 				"523744767F99B892"
@@ -411,7 +388,6 @@
 		}
 		{
 			dependencies: ["3899164922A734D8"]
-			hide_dependency_lines: true
 			id: "4353D16B457D84CF"
 			tasks: [{
 				id: "69451B83DA088C70"
@@ -1023,7 +999,7 @@
 				"{gto.mv.quests.7E448FB79A010162.description1}"
 			]
 			id: "7E448FB79A010162"
-			shape: "hexagon"
+			shape: "diamond"
 			size: 1.5d
 			tasks: [{
 				id: "3A0D90AC0798673F"
@@ -1213,6 +1189,117 @@
 			}]
 			x: -3.500000000000007d
 			y: -1.75d
+		}
+		{
+			dependencies: ["68EFF1609132BDD4"]
+			description: [
+				"{gto.mv.quests.3D1E66868544975F.description0}"
+				""
+				"{gto.mv.quests.3D1E66868544975F.description1}"
+				""
+				"{gto.mv.quests.3D1E66868544975F.description2}"
+				""
+				"{gto.mv.quests.3D1E66868544975F.description3}"
+			]
+			id: "3D1E66868544975F"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "{gto.mv.quests.3D1E66868544975F.subtitle}"
+			tasks: [{
+				id: "314B51C49770F63A"
+				item: "gtceu:mv_machine_hull"
+				type: "item"
+			}]
+			title: "{gto.mv.quests.3D1E66868544975F.title}"
+			x: -12.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"056EC4E6FAF614B7"
+				"3899164922A734D8"
+			]
+			hide_until_deps_visible: true
+			icon: "gtceu:mv_electric_motor"
+			id: "7DBC3868363B971B"
+			rewards: [
+				{
+					count: 32
+					id: "409AF5F478819B15"
+					item: "gtceu:mv_electric_motor"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "321EB45326D4E5F5"
+					item: "gtceu:mv_conveyor_module"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "66DF86FC38F93D85"
+					item: "gtceu:mv_electric_piston"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1948867335BCC17C"
+					item: "gtceu:mv_robot_arm"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7318916A5F9542BC"
+				type: "checkmark"
+			}]
+			title: "{gto.mv.quests.7DBC3868363B971B.title}"
+			x: -11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"056EC4E6FAF614B7"
+				"49E5CC5873FA226F"
+			]
+			description: ["{gto.mv.quests.06AD4784071F6B2F.description0}"]
+			hide_until_deps_visible: true
+			icon: "gtceu:advanced_integrated_circuit"
+			id: "06AD4784071F6B2F"
+			rewards: [{
+				count: 16
+				id: "5A50E88352A4628A"
+				item: "gtceu:advanced_integrated_circuit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "70616588724AAA76"
+				type: "checkmark"
+			}]
+			title: "{gto.mv.quests.06AD4784071F6B2F.title}"
+			x: 8.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"056EC4E6FAF614B7"
+				"26484E626E859718"
+			]
+			hide_until_deps_visible: true
+			icon: "gtceu:stainless_steel_ingot"
+			id: "49C87F47E2920611"
+			rewards: [{
+				count: 320
+				id: "769DA2AA2276DE44"
+				item: "gtceu:stainless_steel_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "606BB40B2A7B1A9C"
+				type: "checkmark"
+			}]
+			title: "{gto.mv.quests.49C87F47E2920611.title}"
+			x: 7.0d
+			y: 6.5d
 		}
 	]
 	subtitle: ["{gto.mv.subtitle0}"]

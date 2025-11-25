@@ -23,6 +23,22 @@
 			x: 4.5d
 			y: -3.5d
 		}
+		{
+			height: 1.0d
+			image: "gtocore:item/circuit/suprachronal_uiv"
+			rotation: 0.0d
+			width: 1.0d
+			x: 16.5d
+			y: -10.2d
+		}
+		{
+			height: 0.25d
+			image: "ftbteams:textures/add.png"
+			rotation: 0.0d
+			width: 0.25d
+			x: 16.8d
+			y: -10.5d
+		}
 	]
 	order_index: 3
 	progression_mode: "linear"
@@ -142,8 +158,8 @@
 				item: "gtocore:space_station_extension_module"
 				type: "item"
 			}]
-			x: 9.0d
-			y: -8.0d
+			x: 9.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["58EC0AFA9742164A"]
@@ -153,13 +169,15 @@
 				item: "gtocore:space_station_environmental_maintenance_module"
 				type: "item"
 			}]
-			x: 9.0d
-			y: -7.0d
+			x: 9.5d
+			y: -6.5d
 		}
 		{
 			dependencies: [
+				"7A5C8C049D2DFFD2"
+				"25331E8563FB84D2"
 				"55369274AB0561DF"
-				"732F3F1921B2464F"
+				"4F446F4F6EFE0C3A"
 			]
 			id: "5A9B478B1791A425"
 			tasks: [{
@@ -167,22 +185,30 @@
 				item: "gtocore:orbital_smelting_facility"
 				type: "item"
 			}]
-			x: 12.0d
-			y: -8.5d
+			x: 10.0d
+			y: -10.5d
 		}
 		{
-			dependencies: ["5A9B478B1791A425"]
+			dependencies: [
+				"55369274AB0561DF"
+				"4F446F4F6EFE0C3A"
+			]
 			id: "08CDFD0BB06E9A53"
 			tasks: [{
 				id: "7B678FBF61B0DCE7"
 				item: "gtocore:orbital_fine_materials_factory"
 				type: "item"
 			}]
-			x: 13.5d
-			y: -9.0d
+			x: 15.5d
+			y: -6.5d
 		}
 		{
-			dependencies: ["08CDFD0BB06E9A53"]
+			dependencies: [
+				"08CDFD0BB06E9A53"
+				"5A9B478B1791A425"
+				"76A5DA2CCB71E96F"
+				"49E04C29B878D3A8"
+			]
 			id: "7D639CBD69B7AA61"
 			shape: "gear"
 			size: 1.0d
@@ -191,8 +217,8 @@
 				item: "gtocore:orbital_nanoprecision_processing_chamber"
 				type: "item"
 			}]
-			x: 16.0d
-			y: -10.0d
+			x: 13.5d
+			y: -9.0d
 		}
 		{
 			dependencies: ["310210D2AD9515E3"]
@@ -257,19 +283,21 @@
 				item: "gtocore:space_drone_dock"
 				type: "item"
 			}]
-			x: 10.0d
-			y: -10.5d
+			x: 12.0d
+			y: -8.35d
 		}
 		{
-			dependencies: ["5A9B478B1791A425"]
+			dependencies: ["7D639CBD69B7AA61"]
+			description: ["{gto.space-station.quests.7CE4581B262B540F.description0}"]
 			id: "7CE4581B262B540F"
+			shape: "gear"
 			tasks: [{
 				id: "352BFFA5CC095106"
 				item: "gtocore:space_station_energy_conversion_module"
 				type: "item"
 			}]
-			x: 15.5d
-			y: -6.5d
+			x: 15.9d
+			y: -9.85d
 		}
 	]
 	subtitle: ["{gto.space-station.subtitle0}"]

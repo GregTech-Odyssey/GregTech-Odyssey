@@ -232,7 +232,7 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["553A52E72E178CAC"]
+			dependencies: ["4BB95D23CD1C4ECE"]
 			description: ["{gto.apotheosis.quests.31A1C244434CC66D.description0}"]
 			id: "31A1C244434CC66D"
 			rewards: [
@@ -564,6 +564,7 @@
 				""
 				"{gto.apotheosis.quests.17C114C2879A280E.description1}"
 			]
+			hide_dependent_lines: true
 			id: "17C114C2879A280E"
 			rewards: [
 				{
@@ -1693,10 +1694,13 @@
 				"6B1AEF55BB23CA53"
 				"6B4E1CD13BB19BE5"
 				"043E9E791712A441"
+				"17C114C2879A280E"
 			]
+			description: ["{gto.apotheosis.quests.782E6E5239AA5283.description0}"]
 			id: "782E6E5239AA5283"
 			shape: "none"
 			size: 4.0d
+			subtitle: "{gto.apotheosis.quests.782E6E5239AA5283.subtitle}"
 			tasks: [{
 				id: "6E3F60EEECFDF312"
 				item: "gtocore:the_primordial_reconstructor"

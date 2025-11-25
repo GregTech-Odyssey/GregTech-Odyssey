@@ -28,19 +28,19 @@
 	order_index: 9
 	quest_links: [
 		{
-			id: "56F1CC0253E52783"
-			linked_quest: "3490AACD4AA62C5D"
-			shape: "gear"
-			size: 2.0d
-			x: -9.0d
-			y: -4.0d
-		}
-		{
 			id: "52240C285F13ADF8"
 			linked_quest: "05833AD0EAA634A7"
 			shape: "diamond"
 			x: -9.0d
 			y: -6.0d
+		}
+		{
+			id: "7E30FC47C3028882"
+			linked_quest: "256F90AFB461107E"
+			shape: "gear"
+			size: 2.0d
+			x: 6.0d
+			y: -4.0d
 		}
 	]
 	quests: [
@@ -325,27 +325,6 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["0B7A508B2670C9C2"]
-			description: [
-				"{gto.zpm.quests.256F90AFB461107E.description0}"
-				""
-				"{gto.zpm.quests.256F90AFB461107E.description1}"
-			]
-			hide_dependency_lines: false
-			id: "256F90AFB461107E"
-			shape: "gear"
-			size: 2.0d
-			subtitle: "{gto.zpm.quests.256F90AFB461107E.subtitle}"
-			tasks: [{
-				id: "1A1392919E4E4D70"
-				item: "gtceu:uv_machine_hull"
-				type: "item"
-			}]
-			title: "{gto.zpm.quests.256F90AFB461107E.title}"
-			x: 6.0d
-			y: -4.0d
-		}
-		{
 			dependencies: ["5E32A6DFE04D28F4"]
 			id: "348156EA1A381ABF"
 			shape: "hexagon"
@@ -387,7 +366,7 @@
 				}
 			]
 			x: 3.0d
-			y: 5.75d
+			y: 6.0d
 		}
 		{
 			dependencies: ["19134C6F6A115AEE"]
@@ -958,6 +937,7 @@
 				"7A12577E23FC07A1"
 			]
 			description: ["{gto.zpm.quests.6742F9E1907A9A84.description0}"]
+			icon: "gtceu:bio_chaff"
 			id: "6742F9E1907A9A84"
 			tasks: [{
 				id: "0D91FABC6AA07541"
@@ -966,6 +946,89 @@
 			}]
 			x: -6.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["26167AFECA871925"]
+			description: ["{gto.zpm.quests.4520F6658FC37F85.description0}"]
+			id: "4520F6658FC37F85"
+			optional: true
+			size: 1.0d
+			tasks: [{
+				id: "22B316DD32F2AF97"
+				item: "gtocore:fast_neutron_breeder_reactor"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4520F6658FC37F85"]
+			id: "36A7AE94EDBE45C2"
+			optional: true
+			tasks: [{
+				id: "2AE711CD2EE2EFC4"
+				item: "gtocore:light_emitting_charged_suspicious_waste_dust"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["36A7AE94EDBE45C2"]
+			description: ["{gto.zpm.quests.49C45F55F5DF8BFC.description0}"]
+			id: "49C45F55F5DF8BFC"
+			optional: true
+			tasks: [{
+				id: "7378BC1E4E25C4DC"
+				item: "gtocore:etrium_dust"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"7FED9F9CC769610C"
+				"6742F9E1907A9A84"
+				"7651697F32169E49"
+			]
+			disable_toast: true
+			icon_scale: 0.25d
+			id: "7B0B57FC6C6C3D9E"
+			shape: "none"
+			size: 0.25d
+			tasks: [{
+				id: "133D90A471C42972"
+				stat: "minecraft:jump"
+				type: "stat"
+				value: 1
+			}]
+			x: -7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2BF339EE989F9A8E"]
+			description: [
+				"{gto.zpm.quests.3490AACD4AA62C5D.description0}"
+				""
+				"{gto.zpm.quests.3490AACD4AA62C5D.description1}"
+				""
+				"{gto.zpm.quests.3490AACD4AA62C5D.description2}"
+				""
+				"{gto.zpm.quests.3490AACD4AA62C5D.description3}"
+			]
+			id: "3490AACD4AA62C5D"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "{gto.zpm.quests.3490AACD4AA62C5D.subtitle}"
+			tasks: [{
+				id: "78CEB67F88F86158"
+				item: "gtceu:zpm_machine_hull"
+				type: "item"
+			}]
+			title: "{gto.zpm.quests.3490AACD4AA62C5D.title}"
+			x: -9.0d
+			y: -4.0d
 		}
 	]
 	subtitle: ["{gto.zpm.subtitle0}"]

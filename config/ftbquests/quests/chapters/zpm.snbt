@@ -28,19 +28,19 @@
 	order_index: 9
 	quest_links: [
 		{
-			id: "56F1CC0253E52783"
-			linked_quest: "3490AACD4AA62C5D"
-			shape: "gear"
-			size: 2.0d
-			x: -9.0d
-			y: -4.0d
-		}
-		{
 			id: "52240C285F13ADF8"
 			linked_quest: "05833AD0EAA634A7"
 			shape: "diamond"
 			x: -9.0d
 			y: -6.0d
+		}
+		{
+			id: "7E30FC47C3028882"
+			linked_quest: "256F90AFB461107E"
+			shape: "gear"
+			size: 2.0d
+			x: 6.0d
+			y: -4.0d
 		}
 	]
 	quests: [
@@ -325,27 +325,6 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["0B7A508B2670C9C2"]
-			description: [
-				"极限压阶段仍还有一半的&a生&r&2物&r&a线&r要走"
-				""
-				"不过作为回报，你终将在UV阶段解锁全套的&6增益仓&r！"
-			]
-			hide_dependency_lines: false
-			id: "256F90AFB461107E"
-			shape: "gear"
-			size: 2.0d
-			subtitle: "&3你需要天马行空般的想象力"
-			tasks: [{
-				id: "1A1392919E4E4D70"
-				item: "gtceu:uv_machine_hull"
-				type: "item"
-			}]
-			title: "欢迎来到&3极限压&r阶段"
-			x: 6.0d
-			y: -4.0d
-		}
-		{
 			dependencies: ["5E32A6DFE04D28F4"]
 			id: "348156EA1A381ABF"
 			shape: "hexagon"
@@ -387,7 +366,7 @@
 				}
 			]
 			x: 3.0d
-			y: 5.75d
+			y: 6.0d
 		}
 		{
 			dependencies: ["19134C6F6A115AEE"]
@@ -952,6 +931,7 @@
 				"7A12577E23FC07A1"
 			]
 			description: ["培养细菌较为复杂，你需要在&6生化反应室&r中先完成&e初代培养&r，再转移至&6培养缸&r进行&e增殖&r"]
+			icon: "gtceu:bio_chaff"
 			id: "6742F9E1907A9A84"
 			tasks: [{
 				id: "0D91FABC6AA07541"
@@ -960,6 +940,89 @@
 			}]
 			x: -6.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["26167AFECA871925"]
+			description: ["全新的反应堆，仍在测试阶段"]
+			id: "4520F6658FC37F85"
+			optional: true
+			size: 1.0d
+			tasks: [{
+				id: "22B316DD32F2AF97"
+				item: "gtocore:fast_neutron_breeder_reactor"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4520F6658FC37F85"]
+			id: "36A7AE94EDBE45C2"
+			optional: true
+			tasks: [{
+				id: "2AE711CD2EE2EFC4"
+				item: "gtocore:light_emitting_charged_suspicious_waste_dust"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["36A7AE94EDBE45C2"]
+			description: ["只在&6终极电容&r和&6空间站高能转换调配仓&r中作为原材料"]
+			id: "49C45F55F5DF8BFC"
+			optional: true
+			tasks: [{
+				id: "7378BC1E4E25C4DC"
+				item: "gtocore:etrium_dust"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"7FED9F9CC769610C"
+				"6742F9E1907A9A84"
+				"7651697F32169E49"
+			]
+			disable_toast: true
+			icon_scale: 0.25d
+			id: "7B0B57FC6C6C3D9E"
+			shape: "none"
+			size: 0.25d
+			tasks: [{
+				id: "133D90A471C42972"
+				stat: "minecraft:jump"
+				type: "stat"
+				value: 1
+			}]
+			x: -7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2BF339EE989F9A8E"]
+			description: [
+				"这一章节你将体验到一门独特的产线——&a生&r&2物&r&a线&r"
+				""
+				"普通的&6晶体处理器&r已经接近无机物的极限... 或许&a菌&r&2群&r可以帮我们做些计算？"
+				""
+				"在GT，所有的科技就像&a魔&r&2法&r一样"
+				""
+				"你的目标是制作并&a增&r&2殖&r&6干细胞&r"
+			]
+			id: "3490AACD4AA62C5D"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "&c你需要天马行空般的想象力"
+			tasks: [{
+				id: "78CEB67F88F86158"
+				item: "gtceu:zpm_machine_hull"
+				type: "item"
+			}]
+			title: "欢迎来到&c零点压&r阶段"
+			x: -9.0d
+			y: -4.0d
 		}
 	]
 	subtitle: ["Tier7-ZPM"]

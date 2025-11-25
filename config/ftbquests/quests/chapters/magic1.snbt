@@ -829,7 +829,6 @@
 		}
 		{
 			dependencies: ["7B3FAF5CA4DD217C"]
-			description: [""]
 			hide_dependency_lines: true
 			hide_until_deps_visible: false
 			id: "5D4F9B54A54EEBD6"
@@ -1832,7 +1831,6 @@
 		}
 		{
 			dependencies: ["63DD7F5A4441ACE7"]
-			description: [""]
 			id: "36183375DAA54408"
 			shape: "rsquare"
 			size: 0.5d
@@ -3215,7 +3213,6 @@
 		}
 		{
 			dependencies: ["227DBA8836021B0B"]
-			description: [""]
 			id: "77145113CD5B26FB"
 			shape: "hexagon"
 			size: 0.5d
@@ -3249,7 +3246,6 @@
 		}
 		{
 			dependencies: ["40BC67BDEE15D1DE"]
-			description: [""]
 			id: "5C3FF43CF16BCF30"
 			shape: "hexagon"
 			tasks: [{
@@ -3655,7 +3651,11 @@
 		}
 		{
 			dependencies: ["2633770BFCC25545"]
-			description: ["用于记录一个传送点进行永久传送，可用于跨维度传送(你也可以用其他办法)"]
+			description: [
+				"用于记录一个传送点进行永久传送，可用于跨维度传送(你也可以用其他办法)"
+				""
+				"你还可以制作折跃传送门作为一个长期可用的传送门"
+			]
 			id: "5D60FFFB4D2F55F3"
 			optional: true
 			subtitle: "魔法的跨维度传送"
@@ -4367,7 +4367,6 @@
 		}
 		{
 			dependencies: ["5FB36C788008C907"]
-			description: [""]
 			id: "4CD0D7F570CCE809"
 			tasks: [{
 				id: "08C244239FBF63CA"

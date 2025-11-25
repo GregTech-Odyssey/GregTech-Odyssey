@@ -1,5 +1,5 @@
 {
-	autofocus_id: "0BFC1070D6EEEEC7"
+	autofocus_id: "5D828A5258BFF11F"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "hv"
@@ -73,14 +73,6 @@
 	order_index: 5
 	quest_links: [
 		{
-			id: "0BFC1070D6EEEEC7"
-			linked_quest: "5D828A5258BFF11F"
-			shape: "gear"
-			size: 2.0d
-			x: -6.0d
-			y: 1.0d
-		}
-		{
 			id: "0A5AFD1CE76EA8F8"
 			linked_quest: "0A9501C9027AC03D"
 			shape: "hexagon"
@@ -145,28 +137,16 @@
 			x: 12.0d
 			y: 3.5d
 		}
-	]
-	quests: [
 		{
-			dependencies: ["4BA890971C18F938"]
-			description: [
-				"{gto.hv.quests.2F6C81E3B10365E8.description0}"
-				""
-				"{gto.hv.quests.2F6C81E3B10365E8.description1}"
-			]
-			id: "2F6C81E3B10365E8"
+			id: "1574A2B53C07D0E1"
+			linked_quest: "2F6C81E3B10365E8"
 			shape: "gear"
 			size: 2.0d
-			subtitle: "{gto.hv.quests.2F6C81E3B10365E8.subtitle}"
-			tasks: [{
-				id: "75A167CCC36C856C"
-				item: "gtceu:ev_machine_hull"
-				type: "item"
-			}]
-			title: "{gto.hv.quests.2F6C81E3B10365E8.title}"
 			x: 18.0d
 			y: -3.0d
 		}
+	]
+	quests: [
 		{
 			dependencies: ["5D828A5258BFF11F"]
 			description: ["{gto.hv.quests.198304056173E631.description0}"]
@@ -516,7 +496,7 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: 3.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["6F760D81DC93ACFB"]
@@ -889,6 +869,7 @@
 		}
 		{
 			dependencies: ["5D828A5258BFF11F"]
+			hide_dependency_lines: true
 			id: "45B2C27B819498DE"
 			tasks: [{
 				id: "78C5BB66D075C413"
@@ -1187,13 +1168,11 @@
 				"{gto.hv.quests.19B006CEA837B6B4.description1}"
 				"{gto.hv.quests.19B006CEA837B6B4.description2}"
 				"{gto.hv.quests.19B006CEA837B6B4.description3}"
-				"{gto.hv.quests.19B006CEA837B6B4.description4}"
 				""
+				"{gto.hv.quests.19B006CEA837B6B4.description4}"
 				"{gto.hv.quests.19B006CEA837B6B4.description5}"
 				"{gto.hv.quests.19B006CEA837B6B4.description6}"
 				"{gto.hv.quests.19B006CEA837B6B4.description7}"
-				"{gto.hv.quests.19B006CEA837B6B4.description8}"
-				"{gto.hv.quests.19B006CEA837B6B4.description9}"
 			]
 			icon: "gtocore:hv_programmablec_hatch"
 			id: "19B006CEA837B6B4"
@@ -1326,7 +1305,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 3.5d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -1784,11 +1763,15 @@
 			]
 			title: "{gto.hv.quests.23A3A8F6E6738331.title}"
 			x: 7.0d
-			y: 3.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["19B006CEA837B6B4"]
-			description: ["{gto.hv.quests.0362FE44C232A1CE.description0}"]
+			description: [
+				"{gto.hv.quests.0362FE44C232A1CE.description0}"
+				""
+				"{gto.hv.quests.0362FE44C232A1CE.description1}"
+			]
 			id: "0362FE44C232A1CE"
 			optional: true
 			shape: "diamond"
@@ -1799,6 +1782,62 @@
 			}]
 			x: 6.0d
 			y: -4.5d
+		}
+		{
+			dependencies: ["310210D2AD9515E3"]
+			description: [
+				"{gto.hv.quests.1A1DFCA1157441FF.description0}"
+				""
+				"[\"\", {\"translate\": \"gto.hv.quests.1A1DFCA1157441FF.description1.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"388D743C6BA5D995\"}, \"translate\": \"gto.hv.quests.1A1DFCA1157441FF.description1.rich_text1\"}, {\"translate\": \"gto.hv.quests.1A1DFCA1157441FF.description1.rich_text2\"}]"
+			]
+			icon: "gtmthings:hv_wireless_energy_receive_cover"
+			id: "1A1DFCA1157441FF"
+			tasks: [{
+				id: "3B6013F3584A59AA"
+				title: "{gto.hv.quests.1A1DFCA1157441FF.tasks.3B6013F3584A59AA.title}"
+				type: "checkmark"
+			}]
+			x: 13.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1FB1EC5B9CEFC2BC"]
+			description: ["{gto.hv.quests.16EE71F334BFA71C.description0}"]
+			hide_until_deps_visible: true
+			id: "16EE71F334BFA71C"
+			subtitle: "{gto.hv.quests.16EE71F334BFA71C.subtitle}"
+			tasks: [{
+				id: "15778C79ACA4E657"
+				type: "checkmark"
+			}]
+			title: "{gto.hv.quests.16EE71F334BFA71C.title}"
+			x: -8.5d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"7C30575AACA9FE5B"
+				"26484E626E859718"
+			]
+			description: [
+				"{gto.hv.quests.5D828A5258BFF11F.description0}"
+				""
+				"{gto.hv.quests.5D828A5258BFF11F.description1}"
+				""
+				"{gto.hv.quests.5D828A5258BFF11F.description2}"
+			]
+			id: "5D828A5258BFF11F"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "{gto.hv.quests.5D828A5258BFF11F.subtitle}"
+			tasks: [{
+				id: "24C43DFAE83E8D6C"
+				item: "gtceu:hv_machine_hull"
+				type: "item"
+			}]
+			title: "{gto.hv.quests.5D828A5258BFF11F.title}"
+			x: -6.0d
+			y: 1.0d
 		}
 	]
 	subtitle: ["{gto.hv.subtitle0}"]

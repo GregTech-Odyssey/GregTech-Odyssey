@@ -1,5 +1,5 @@
 {
-	autofocus_id: "0BFC1070D6EEEEC7"
+	autofocus_id: "5D828A5258BFF11F"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "hv"
@@ -73,14 +73,6 @@
 	order_index: 5
 	quest_links: [
 		{
-			id: "0BFC1070D6EEEEC7"
-			linked_quest: "5D828A5258BFF11F"
-			shape: "gear"
-			size: 2.0d
-			x: -6.0d
-			y: 1.0d
-		}
-		{
 			id: "0A5AFD1CE76EA8F8"
 			linked_quest: "0A9501C9027AC03D"
 			shape: "hexagon"
@@ -145,28 +137,16 @@
 			x: 12.0d
 			y: 3.5d
 		}
-	]
-	quests: [
 		{
-			dependencies: ["4BA890971C18F938"]
-			description: [
-				"你的最终目标是&9IV&r&6机器外壳&r......？"
-				""
-				"不，这是一个&d航天时代&r！最终目标是&6四阶火箭&r"
-			]
-			id: "2F6C81E3B10365E8"
+			id: "1574A2B53C07D0E1"
+			linked_quest: "2F6C81E3B10365E8"
 			shape: "gear"
 			size: 2.0d
-			subtitle: "&5你需要天马行空般的想象力"
-			tasks: [{
-				id: "75A167CCC36C856C"
-				item: "gtceu:ev_machine_hull"
-				type: "item"
-			}]
-			title: "欢迎来到&5超高压&r阶段"
 			x: 18.0d
 			y: -3.0d
 		}
+	]
+	quests: [
 		{
 			dependencies: ["5D828A5258BFF11F"]
 			description: ["给&e透镜&r染色，制作&e末影之眼&r"]
@@ -516,7 +496,7 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: 3.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["6F760D81DC93ACFB"]
@@ -889,6 +869,7 @@
 		}
 		{
 			dependencies: ["5D828A5258BFF11F"]
+			hide_dependency_lines: true
 			id: "45B2C27B819498DE"
 			tasks: [{
 				id: "78C5BB66D075C413"
@@ -1184,16 +1165,14 @@
 			description: [
 				"拥有&6EV级电路&r后，你似乎意识到了有某种方法可以只用一台&e多方块机器&r来处理所有带有编程电路的配方"
 				""
-				"你需要三样东西："
+				"你需要两样东西："
 				"·&6虚拟物品供应机&r"
 				"·&6可编程仓&r"
-				"·&6虚拟物品提供器&r（可选）"
 				""
 				"如何使用："
-				"1. 手持虚拟物品提供器，右击打开GUI放入你需要标记的物品（可选）"
-				"2. 将供应机接入网络后将提供器放入终端，自动放到供应机内，或直接将物品放入供应机，自动转换成虚拟物品"
-				"3. 将虚拟物品从AE终端拖入样板编码区（不要放入用来标记的虚拟物品提供器，这是无效的）或使用Ctrl快速填充"
-				"4. 将样板放入贴在可编程仓上的样板供应器"
+				"1. &e供应机接入ME网络&r后，将物品放入供应机，它会自动转换成虚拟物品"
+				"2. 打开EMI，对你想编写的配方，使用&eCtrl快速填充&r；或者直接将&e虚拟物品&r从AE终端拖入样板编码区（不要放入用来标记的虚拟物品提供器，这是无效的）"
+				"3. 将样板放入&e贴在可编程仓上&r的&6样板供应器&r"
 			]
 			icon: "gtocore:hv_programmablec_hatch"
 			id: "19B006CEA837B6B4"
@@ -1326,7 +1305,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 3.5d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -1784,11 +1763,15 @@
 			]
 			title: "火箭组件"
 			x: 7.0d
-			y: 3.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["19B006CEA837B6B4"]
-			description: ["单方块机器也可以使用覆盖版来编程，样板写法相同"]
+			description: [
+				"单方块机器也可以使用覆盖版来编程，样板写法相同"
+				""
+				"覆盖版贴上单方块机器后，将样板放入贴在单方块机器上的样板供应器即可"
+			]
 			id: "0362FE44C232A1CE"
 			optional: true
 			shape: "diamond"
@@ -1799,6 +1782,62 @@
 			}]
 			x: 6.0d
 			y: -4.5d
+		}
+		{
+			dependencies: ["310210D2AD9515E3"]
+			description: [
+				"以你目前的科技水平，无线电网无法覆盖其他维度。万幸的是，你可以跨纬度传输物品，因此你可以传输燃料到其他维度进行发电，或者铺设太阳能。"
+				""
+				"[\"在IV阶段，你将解锁\",{ \"text\": \"无线电网维度中继器\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"388D743C6BA5D995\" }},\"，它建造在哪个维度，哪个维度就会共用基地的无线电网。\"]"
+			]
+			icon: "gtmthings:hv_wireless_energy_receive_cover"
+			id: "1A1DFCA1157441FF"
+			tasks: [{
+				id: "3B6013F3584A59AA"
+				title: "其他维度如何用电"
+				type: "checkmark"
+			}]
+			x: 13.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1FB1EC5B9CEFC2BC"]
+			description: ["专家模式需要钛才可以开始下单"]
+			hide_until_deps_visible: true
+			id: "16EE71F334BFA71C"
+			subtitle: "前面的区域，EV再探索吧"
+			tasks: [{
+				id: "15778C79ACA4E657"
+				type: "checkmark"
+			}]
+			title: "更难的AE2魔改&d（专家）&r"
+			x: -8.5d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"7C30575AACA9FE5B"
+				"26484E626E859718"
+			]
+			description: [
+				"这个阶段你的首要目标是做出&6EV电路&r。它能解锁许多机器，让你能够更新原有的石化产线，并解锁你接下来会大量使用到的&6大型化学反应釜&r"
+				""
+				"同时，在这个阶段你会遇到第一个&a生产挑战&r：制造自己的第一个&6火箭&r并&d登月&r。请务必提升产能，希望你的航天之旅一切顺利！"
+				""
+				"&o&7不要忘了发展AE与无线电网，它们同样是你这个阶段的重要目标"
+			]
+			id: "5D828A5258BFF11F"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "&6你需要天马行空般的想象力"
+			tasks: [{
+				id: "24C43DFAE83E8D6C"
+				item: "gtceu:hv_machine_hull"
+				type: "item"
+			}]
+			title: "欢迎来到&6高压&r阶段"
+			x: -6.0d
+			y: 1.0d
 		}
 	]
 	subtitle: ["Tier3-HV"]

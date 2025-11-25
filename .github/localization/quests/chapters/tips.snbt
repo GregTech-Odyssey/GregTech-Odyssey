@@ -1,4 +1,5 @@
 {
+	autofocus_id: "79646E8E449D8A1A"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "tips"
@@ -252,10 +253,11 @@
 				"{gto.tips.quests.5183DB6A793BB3C6.description2}"
 				"{gto.tips.quests.5183DB6A793BB3C6.description3}"
 				"{gto.tips.quests.5183DB6A793BB3C6.description4}"
+				"{gto.tips.quests.5183DB6A793BB3C6.description5}"
 				""
-				"[\"\", {\"color\": \"yellow\", \"translate\": \"gto.tips.quests.5183DB6A793BB3C6.description5.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"open_url\", \"value\": \"https://wiki.gtodyssey.com/boards/docs/pages/简单普通专家模式特性指南\"}, \"translate\": \"gto.tips.quests.5183DB6A793BB3C6.description5.rich_text1\"}]"
+				"[\"\", {\"color\": \"yellow\", \"translate\": \"gto.tips.quests.5183DB6A793BB3C6.description6.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"open_url\", \"value\": \"https://wiki.gtodyssey.com/boards/docs/pages/简单普通专家模式特性指南\"}, \"translate\": \"gto.tips.quests.5183DB6A793BB3C6.description6.rich_text1\"}]"
 				""
-				"{gto.tips.quests.5183DB6A793BB3C6.description6}"
+				"{gto.tips.quests.5183DB6A793BB3C6.description7}"
 			]
 			icon: "minecraft:compass"
 			id: "5183DB6A793BB3C6"
@@ -524,13 +526,16 @@
 				"{gto.tips.quests.0B472475D703DE42.description1}"
 				""
 				"{gto.tips.quests.0B472475D703DE42.description2}"
+				""
 				"{gto.tips.quests.0B472475D703DE42.description3}"
 				""
 				"{gto.tips.quests.0B472475D703DE42.description4}"
-				""
-				"{gto.tips.quests.0B472475D703DE42.description5}"
 				"{@pagebreak}"
+				"{gto.tips.quests.0B472475D703DE42.description5}"
+				""
 				"{gto.tips.quests.0B472475D703DE42.description6}"
+				""
+				"{gto.tips.quests.0B472475D703DE42.description7}"
 			]
 			icon: "ad_astra:etrionic_blast_furnace"
 			id: "0B472475D703DE42"

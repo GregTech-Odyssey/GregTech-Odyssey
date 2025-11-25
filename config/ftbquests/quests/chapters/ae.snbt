@@ -1,5 +1,5 @@
 {
-	autofocus_id: "0A68C0CFACCB6C07"
+	autofocus_id: "5FCFE3D6B36CC409"
 	default_hide_dependency_lines: false
 	default_quest_shape: "square"
 	filename: "ae"
@@ -642,6 +642,7 @@
 			y: 9.5d
 		}
 		{
+			dependency: "056EC4E6FAF614B7"
 			height: 1.1d
 			image: "xtonesreworked:block/bitt/4"
 			rotation: 0.0d
@@ -651,6 +652,7 @@
 		}
 		{
 			color: 851730
+			dependency: "056EC4E6FAF614B7"
 			height: 1.1d
 			image: "ftbquests:block/barrier_open"
 			order: 1
@@ -966,6 +968,7 @@
 			y: 1.0d
 		}
 		{
+			dependency: "056EC4E6FAF614B7"
 			height: 1.0d
 			image: "gtocore:item/circuit/suprachronal_mv"
 			rotation: 0.0d
@@ -1088,13 +1091,16 @@
 			dependencies: [
 				"298BEC345930429A"
 				"745B1AE1F523FD78"
+				"2D899AFE07E20FEF"
 			]
 			description: [
-				"你可以开始着手发展AE了！"
+				"[\"你可以开始着手发展\",{ \"text\": \"AE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5FCFE3D6B36CC409\" } },\"了！\"]"
 				""
 				"非专家模式默认&c无频道数量限制&r，不需要接入&6ME控制器&r，只需要确保为当前网络提供足够的能量即可"
 				""
 				"可以使用&6ME控制器&r来替代&6能源接收器&r，但后期可能会因为加载过多频道造成额外的延迟，请斟酌使用控制器"
+				""
+				"&o&7如果你还不会AE，请尽快寻找教程快速入门。本包无需精通AE，但至少需要了解基本使用方法。"
 			]
 			icon: "ae2:energy_acceptor"
 			id: "5FCFE3D6B36CC409"
@@ -1634,13 +1640,17 @@
 			y: 9.5d
 		}
 		{
-			dependencies: ["43974ABFAE99587B"]
+			dependencies: [
+				"43974ABFAE99587B"
+				"056EC4E6FAF614B7"
+			]
 			description: [
-				"只在简单模式可用！（其他模式下它未被注册，因此你只能看到一个问号）"
+				"只在简单模式可用！"
 				""
 				"放入样板并连接ME网络以自动发配合成原料，继承了普通样板总成的所有优化特性"
 			]
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "47506298B1BD1780"
 			subtitle: "超前期的样板总成"
 			tasks: [{
@@ -3983,7 +3993,7 @@
 		{
 			dependencies: [
 				"592D975F3146151E"
-				"33B01E889EE7E990"
+				"5FCFE3D6B36CC409"
 			]
 			description: [
 				"最开始用来制造&6大型蒸汽电路组装机&r"

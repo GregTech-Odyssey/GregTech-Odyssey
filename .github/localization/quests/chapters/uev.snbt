@@ -51,8 +51,10 @@
 	quest_links: [{
 		id: "2C7D4BE558B938DF"
 		linked_quest: "7ED709D3291D6B88"
+		shape: "gear"
+		size: 2.0d
 		x: -10.0d
-		y: -4.0d
+		y: -3.0d
 	}]
 	quests: [
 		{
@@ -71,7 +73,6 @@
 		{
 			dependencies: ["6C40812AC329D3E3"]
 			id: "0E1C854C0F7FF62F"
-			optional: true
 			subtitle: "{gto.uev.quests.0E1C854C0F7FF62F.subtitle}"
 			tasks: [{
 				id: "100E275AB0E6B0D4"
@@ -126,8 +127,8 @@
 			y: -6.0d
 		}
 		{
+			description: ["{gto.uev.quests.79F7E5BB7025ED2D.description0}"]
 			id: "79F7E5BB7025ED2D"
-			invisible: true
 			subtitle: "{gto.uev.quests.79F7E5BB7025ED2D.subtitle}"
 			tasks: [{
 				id: "4D04F650E3823FC9"
@@ -143,7 +144,6 @@
 		}
 		{
 			id: "078689C5C9FABDE7"
-			invisible: true
 			subtitle: "{gto.uev.quests.078689C5C9FABDE7.subtitle}"
 			tasks: [{
 				id: "1BD09C364BE0EEDF"
@@ -159,7 +159,6 @@
 		}
 		{
 			id: "7448C7335542B7A5"
-			invisible: true
 			subtitle: "{gto.uev.quests.7448C7335542B7A5.subtitle}"
 			tasks: [{
 				id: "25565AFB6E00D585"
@@ -426,6 +425,22 @@
 			}]
 			x: -4.0d
 			y: 4.0d
+		}
+		{
+			dependencies: ["4DC386826E075D1E"]
+			description: ["{gto.uev.quests.154F80E28FA53D99.description0}"]
+			id: "154F80E28FA53D99"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "{gto.uev.quests.154F80E28FA53D99.subtitle}"
+			tasks: [{
+				id: "25E99A8B61DF8E6B"
+				item: "gtceu:uev_machine_hull"
+				type: "item"
+			}]
+			title: "{gto.uev.quests.154F80E28FA53D99.title}"
+			x: -10.0d
+			y: -5.0d
 		}
 	]
 	subtitle: ["{gto.uev.subtitle0}"]

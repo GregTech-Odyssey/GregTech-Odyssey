@@ -232,7 +232,7 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["553A52E72E178CAC"]
+			dependencies: ["4BB95D23CD1C4ECE"]
 			description: ["要重铸&6史诗&r或更高稀有度的装备 ，你需要&5重铸台&r"]
 			id: "31A1C244434CC66D"
 			rewards: [
@@ -564,6 +564,7 @@
 				""
 				"通常情况下，你应该只强化至少&6神话&r稀有度的装备"
 			]
+			hide_dependent_lines: true
 			id: "17C114C2879A280E"
 			rewards: [
 				{
@@ -1693,10 +1694,13 @@
 				"6B1AEF55BB23CA53"
 				"6B4E1CD13BB19BE5"
 				"043E9E791712A441"
+				"17C114C2879A280E"
 			]
+			description: ["一台机器解决神化的所有问题"]
 			id: "782E6E5239AA5283"
 			shape: "none"
 			size: 4.0d
+			subtitle: "元枢衍万法，一器掌天工"
 			tasks: [{
 				id: "6E3F60EEECFDF312"
 				item: "gtocore:the_primordial_reconstructor"

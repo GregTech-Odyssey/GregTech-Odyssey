@@ -7,27 +7,27 @@
 		{
 			count: 16
 			item: "gtocore:copper_coin"
-			weight: 85.0f
+			weight: 60.53f
 		}
 		{
 			count: 32
 			item: "gtocore:copper_coin"
-			weight: 10.0f
+			weight: 34.459f
 		}
 		{
 			count: 64
 			item: "gtocore:copper_coin"
-			weight: 4.89f
+			weight: 5.0f
 		}
 		{
 			count: 640
 			item: "gtocore:copper_coin"
-			weight: 0.1f
+			weight: 0.01f
 		}
 		{
 			count: 6400
 			item: "gtocore:copper_coin"
-			weight: 0.000100000005f
+			weight: 0.001f
 		}
 	]
 	title: "{gto.rewardtable_ulv_2.title}"

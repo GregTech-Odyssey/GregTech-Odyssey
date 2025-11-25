@@ -412,6 +412,50 @@
 			x: -1.5d
 			y: 2.0d
 		}
+		{
+			id: "18E057F31DDC4065"
+			invisible: true
+			tasks: [{
+				d: 2
+				id: "4FE93CA8EB2B8076"
+				type: "gtocore:gtodifficulty"
+			}]
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			id: "1FB1EC5B9CEFC2BC"
+			invisible: true
+			tasks: [{
+				d: 3
+				id: "1964A7EC14B261D4"
+				type: "gtocore:gtodifficulty"
+			}]
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			id: "056EC4E6FAF614B7"
+			invisible: true
+			tasks: [{
+				d: 1
+				id: "0BA0587A03A9DE71"
+				type: "gtocore:gtodifficulty"
+			}]
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			id: "24B0FBD7AAD6C8B1"
+			invisible: true
+			tasks: [{
+				id: "5B3BF4414BCB2CA7"
+				modid: "factory_block"
+				type: "gtocore:mod"
+			}]
+			x: 0.5d
+			y: 6.0d
+		}
 	]
 	title: "辅助章节"
 }

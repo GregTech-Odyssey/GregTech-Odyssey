@@ -16,4 +16,6 @@ enableBulkTransfer = true
 enableBulkDrop = true
 #Should control-space-clicking an item move one of each item from that inventory at once?
 enableBulkTransferSingle = true
+#Should middle-clicking a slot sort the inventory?
+enableMiddleClickSort = true
 
