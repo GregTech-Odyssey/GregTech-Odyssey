@@ -44,7 +44,10 @@
 			tasks: [
 				{
 					id: "6DC0844A486CD3D2"
-					item: { Count: 2, id: "gtceu:raw_sapphire" }
+					item: {
+						Count: 2
+						id: "gtceu:raw_sapphire"
+					}
 					type: "item"
 				}
 				{
@@ -1120,6 +1123,12 @@
 					id: "0814523589D598A9"
 					item: "gtceu:indium_concentrate_bucket"
 					type: "item"
+					optional_task: true
+				}
+				{
+					id: "0814523589D598A9_CHECKMARK"
+					title: "跳过流体检测"
+					type: "checkmark"
 				}
 			]
 			title: "前期铟粉获取途径"

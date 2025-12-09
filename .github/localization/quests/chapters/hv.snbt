@@ -684,13 +684,22 @@
 				"{gto.hv.quests.445C071E8F1B1B9E.description1}"
 			]
 			id: "445C071E8F1B1B9E"
-			tasks: [{
-				id: "66D2195D7E1F6883"
-				item: "gtceu:titanium_tetrachloride_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "66D2195D7E1F6883"
+					item: "gtceu:titanium_tetrachloride_bucket"
+					type: "item"
+					optional_task: true
+				}
+				{
+					id: "66D2195D7E1F6883_CHECKMARK"
+					title: "{gto.hv.quests.445C071E8F1B1B9E.tasks.66D2195D7E1F6883_CHECKMARK.title}"
+					type: "checkmark"
+				}
+			]
 			x: 15.0d
 			y: -1.0d
+			icon: "gtceu:titanium_tetrachloride_bucket"
 		}
 		{
 			dependencies: [
@@ -1040,6 +1049,7 @@
 				{
 					id: "4901640BC5A83CF8"
 					type: "checkmark"
+					title: "{gto.hv.quests.4AED8DE6D6175D97.tasks.4901640BC5A83CF8.title}"
 				}
 			]
 			x: 10.5d

@@ -246,13 +246,22 @@
 			description: ["经典配方，不用多说，你也应该搭建至少一条小产线"]
 			hide_dependency_lines: true
 			id: "7C30575AACA9FE5B"
-			tasks: [{
-				id: "47C136704A3DC721"
-				item: "gtceu:polyvinyl_chloride_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "47C136704A3DC721"
+					item: "gtceu:polyvinyl_chloride_bucket"
+					type: "item"
+					optional_task: true
+				}
+				{
+					id: "47C136704A3DC721_CHECKMARK"
+					title: "跳过流体检测"
+					type: "checkmark"
+				}
+			]
 			x: 10.5d
 			y: 6.5d
+			icon: "gtceu:polyvinyl_chloride_bucket"
 		}
 		{
 			dependencies: ["21457B1122F97F88"]
@@ -389,13 +398,22 @@
 		{
 			dependencies: ["3899164922A734D8"]
 			id: "4353D16B457D84CF"
-			tasks: [{
-				id: "69451B83DA088C70"
-				item: "gtocore:coolant_liquid_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "69451B83DA088C70"
+					item: "gtocore:coolant_liquid_bucket"
+					type: "item"
+					optional_task: true
+				}
+				{
+					id: "69451B83DA088C70_CHECKMARK"
+					title: "跳过流体检测"
+					type: "checkmark"
+				}
+			]
 			x: -8.0d
 			y: 3.0d
+			icon: "gtocore:coolant_liquid_bucket"
 		}
 		{
 			dependencies: ["030007178B83809E"]
@@ -841,13 +859,22 @@
 			hide_dependency_lines: true
 			id: "555F4F7869ADAE13"
 			optional: true
-			tasks: [{
-				id: "592E9841699DBFC7"
-				item: "gtceu:lubricant_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "592E9841699DBFC7"
+					item: "gtceu:lubricant_bucket"
+					type: "item"
+					optional_task: true
+				}
+				{
+					id: "592E9841699DBFC7_CHECKMARK"
+					title: "跳过流体检测"
+					type: "checkmark"
+				}
+			]
 			x: -1.5d
 			y: 0.0d
+			icon: "gtceu:lubricant_bucket"
 		}
 		{
 			dependencies: ["3D1E66868544975F"]

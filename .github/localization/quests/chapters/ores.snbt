@@ -1123,6 +1123,12 @@
 					id: "0814523589D598A9"
 					item: "gtceu:indium_concentrate_bucket"
 					type: "item"
+					optional_task: true
+				}
+				{
+					id: "0814523589D598A9_CHECKMARK"
+					title: "{gto.ores.quests.5D16FB568A8C620B.tasks.0814523589D598A9_CHECKMARK.title}"
+					type: "checkmark"
 				}
 			]
 			title: "{gto.ores.quests.5D16FB568A8C620B.title}"

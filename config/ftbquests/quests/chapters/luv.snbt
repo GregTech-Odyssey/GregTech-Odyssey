@@ -349,13 +349,22 @@
 		{
 			dependencies: ["3A8BF759CDBFB672"]
 			id: "7F9F8356CB1A9357"
-			tasks: [{
-				id: "39B7751F86127CB7"
-				item: "gtocore:flocculent_water_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "39B7751F86127CB7"
+					item: "gtocore:flocculent_water_bucket"
+					type: "item"
+					optional_task: true
+				}
+				{
+					id: "39B7751F86127CB7_CHECKMARK"
+					title: "跳过流体检测"
+					type: "checkmark"
+				}
+			]
 			x: 7.5d
 			y: 0.5d
+			icon: "gtocore:flocculent_water_bucket"
 		}
 		{
 			dependencies: ["7F9F8356CB1A9357"]
@@ -538,6 +547,12 @@
 					id: "38037020787AA5D4"
 					item: "ad_astra:cryo_fuel_bucket"
 					type: "item"
+					optional_task: true
+				}
+				{
+					id: "38037020787AA5D4_CHECKMARK"
+					title: "跳过流体检测"
+					type: "checkmark"
 				}
 			]
 			x: 0.0d
@@ -647,6 +662,7 @@
 				{
 					id: "0565F96E21DAF0ED"
 					type: "checkmark"
+					title: "跳过流体检测"
 				}
 			]
 			x: 13.0d
@@ -841,13 +857,22 @@
 			dependencies: ["2F03D93AC7DBE58D"]
 			hide_dependency_lines: true
 			id: "0FD2B76B1608F4FA"
-			tasks: [{
-				id: "21080DB88B17D322"
-				item: "gtocore:polyurethaneresin_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "21080DB88B17D322"
+					item: "gtocore:polyurethaneresin_bucket"
+					type: "item"
+					optional_task: true
+				}
+				{
+					id: "21080DB88B17D322_CHECKMARK"
+					title: "跳过流体检测"
+					type: "checkmark"
+				}
+			]
 			x: 19.0d
 			y: -3.0d
+			icon: "gtocore:polyurethaneresin_bucket"
 		}
 		{
 			dependencies: ["0FD2B76B1608F4FA"]
@@ -996,7 +1021,10 @@
 			subtitle: "正如生活所见"
 			tasks: [{
 				id: "063519DAB63EFE0A"
-				item: { Count: 64, id: "gtceu:normal_optical_pipe" }
+				item: {
+					Count: 64
+					id: "gtceu:normal_optical_pipe"
+				}
 				type: "item"
 			}]
 			x: 5.0d

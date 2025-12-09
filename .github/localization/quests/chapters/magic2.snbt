@@ -1193,13 +1193,22 @@
 				"2AB5A33EC30AEA86"
 			]
 			id: "331A6633436ED5AA"
-			tasks: [{
-				id: "0646B1B918E954E2"
-				item: "gtocore:cycle_of_blossoms_solvent_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "0646B1B918E954E2"
+					item: "gtocore:cycle_of_blossoms_solvent_bucket"
+					type: "item"
+					optional_task: true
+				}
+				{
+					id: "0646B1B918E954E2_CHECKMARK"
+					title: "{gto.magic2.quests.331A6633436ED5AA.tasks.0646B1B918E954E2_CHECKMARK.title}"
+					type: "checkmark"
+				}
+			]
 			x: 6.0d
 			y: 3.0d
+			icon: "gtocore:cycle_of_blossoms_solvent_bucket"
 		}
 		{
 			dependencies: [
@@ -1272,13 +1281,22 @@
 				"27CD17C4B3613171"
 			]
 			id: "527EBA90163F6108"
-			tasks: [{
-				id: "26A619931D11FA48"
-				item: "gtocore:gaia_solvent_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "26A619931D11FA48"
+					item: "gtocore:gaia_solvent_bucket"
+					type: "item"
+					optional_task: true
+				}
+				{
+					id: "26A619931D11FA48_CHECKMARK"
+					title: "{gto.magic2.quests.527EBA90163F6108.tasks.26A619931D11FA48_CHECKMARK.title}"
+					type: "checkmark"
+				}
+			]
 			x: 14.5d
 			y: 7.5d
+			icon: "gtocore:gaia_solvent_bucket"
 		}
 		{
 			dependencies: ["527EBA90163F6108"]
@@ -1689,26 +1707,36 @@
 					id: "132F39D6FC0B8654"
 					item: "gtocore:liquid_aether_bucket"
 					type: "item"
+					optional_task: true
 				}
 				{
 					id: "18EFB4BD08C2181D"
 					item: "gtocore:liquid_salamander_bucket"
 					type: "item"
+					optional_task: true
 				}
 				{
 					id: "60E711B97E4FECF8"
 					item: "gtocore:liquid_undine_bucket"
 					type: "item"
+					optional_task: true
 				}
 				{
 					id: "6B4B057554AF021F"
 					item: "gtocore:liquid_sylph_bucket"
 					type: "item"
+					optional_task: true
 				}
 				{
 					id: "233EDC06975C0D8E"
 					item: "gtocore:liquid_gnome_bucket"
 					type: "item"
+					optional_task: true
+				}
+				{
+					id: "132F39D6FC0B8654_CHECKMARK"
+					title: "{gto.magic2.quests.043E9E791712A441.tasks.132F39D6FC0B8654_CHECKMARK.title}"
+					type: "checkmark"
 				}
 			]
 			title: "{gto.magic2.quests.043E9E791712A441.title}"
@@ -1823,13 +1851,22 @@
 				"651CA7BF775419A0"
 			]
 			id: "00483549F6D66CCD"
-			tasks: [{
-				id: "6A3D40F8329D13F0"
-				item: "gtocore:animium_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "6A3D40F8329D13F0"
+					item: "gtocore:animium_bucket"
+					type: "item"
+					optional_task: true
+				}
+				{
+					id: "6A3D40F8329D13F0_CHECKMARK"
+					title: "{gto.magic2.quests.00483549F6D66CCD.tasks.6A3D40F8329D13F0_CHECKMARK.title}"
+					type: "checkmark"
+				}
+			]
 			x: 5.5d
 			y: 10.0d
+			icon: "gtocore:animium_bucket"
 		}
 		{
 			dependencies: ["1ABD9B5FFACF9651"]
@@ -1857,13 +1894,22 @@
 		{
 			dependencies: ["00483549F6D66CCD"]
 			id: "4A36545D7F8FDCEA"
-			tasks: [{
-				id: "354873D7580EEBE4"
-				item: "gtocore:flowing_ciphers_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "354873D7580EEBE4"
+					item: "gtocore:flowing_ciphers_bucket"
+					type: "item"
+					optional_task: true
+				}
+				{
+					id: "354873D7580EEBE4_CHECKMARK"
+					title: "{gto.magic2.quests.4A36545D7F8FDCEA.tasks.354873D7580EEBE4_CHECKMARK.title}"
+					type: "checkmark"
+				}
+			]
 			x: 7.0d
 			y: 10.0d
+			icon: "gtocore:flowing_ciphers_bucket"
 		}
 		{
 			dependencies: ["27CD17C4B3613171"]
@@ -1958,16 +2004,24 @@
 					id: "2FBDE80448D5840C"
 					item: "gtocore:heros_brawlers_bucket"
 					type: "item"
+					optional_task: true
 				}
 				{
 					id: "79A443002398A517"
 					item: "gtocore:heros_breach_bucket"
 					type: "item"
+					optional_task: true
 				}
 				{
 					id: "5401095E2CFBFE25"
 					item: "gtocore:heros_splendor_bucket"
 					type: "item"
+					optional_task: true
+				}
+				{
+					id: "2FBDE80448D5840C_CHECKMARK"
+					title: "{gto.magic2.quests.50591F5900E6FB9A.tasks.2FBDE80448D5840C_CHECKMARK.title}"
+					type: "checkmark"
 				}
 			]
 			title: "{gto.magic2.quests.50591F5900E6FB9A.title}"

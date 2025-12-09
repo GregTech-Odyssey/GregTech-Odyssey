@@ -178,14 +178,23 @@
 			}]
 			shape: "hexagon"
 			subtitle: "打包带回家"
-			tasks: [{
-				id: "407D7D7216484DA8"
-				item: "gtceu:oil_medium_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "407D7D7216484DA8"
+					item: "gtceu:oil_medium_bucket"
+					type: "item"
+					optional_task: true
+				}
+				{
+					id: "407D7D7216484DA8_CHECKMARK"
+					title: "跳过流体检测"
+					type: "checkmark"
+				}
+			]
 			title: "一桶原油"
 			x: 6.5d
 			y: -2.0d
+			icon: "gtceu:oil_medium_bucket"
 		}
 		{
 			dependencies: ["4ED89021AC92A0AE"]
@@ -522,6 +531,7 @@
 				{
 					id: "29F3C3528CCEB6BC"
 					type: "checkmark"
+					title: "跳过流体检测"
 				}
 			]
 			title: "来点煤浆"
@@ -551,6 +561,7 @@
 				{
 					id: "573A9281CDE7D0A0"
 					type: "checkmark"
+					title: "跳过流体检测"
 				}
 			]
 			title: "烘烤然后蜕变"
@@ -577,6 +588,7 @@
 				{
 					id: "77C33F0997F973C6"
 					type: "checkmark"
+					title: "跳过流体检测"
 				}
 			]
 			title: "氢，这边请"
@@ -606,6 +618,7 @@
 				{
 					id: "77C9814F12F06664"
 					type: "checkmark"
+					title: "跳过流体检测"
 				}
 			]
 			title: "乙烯，合体！"
@@ -936,6 +949,7 @@
 				{
 					id: "46A8F52306910F0A"
 					type: "checkmark"
+					title: "跳过流体检测"
 				}
 			]
 			title: "C2H4，读作乙烯"
@@ -970,6 +984,7 @@
 					disable_toast: true
 					id: "51F4C092451AD17A"
 					type: "checkmark"
+					title: "跳过流体检测"
 				}
 			]
 			title: "剩下的三个家伙"
@@ -992,6 +1007,7 @@
 				{
 					id: "7227500471D059B8"
 					type: "checkmark"
+					title: "跳过流体检测"
 				}
 			]
 			title: "对，我要的就是你"
@@ -1024,6 +1040,7 @@
 				{
 					id: "52EE82F88DD0AEF9"
 					type: "checkmark"
+					title: "跳过流体检测"
 				}
 			]
 			title: "裂化机神力"
@@ -1178,6 +1195,7 @@
 				{
 					id: "4773E3E615AF0C7E"
 					type: "checkmark"
+					title: "跳过流体检测"
 				}
 			]
 			x: 0.0d

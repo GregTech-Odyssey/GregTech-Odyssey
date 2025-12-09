@@ -638,11 +638,19 @@
 				}
 			]
 			subtitle: "是美军吸引器"
-			tasks: [{
-				id: "1C0C9ED28756C725"
-				item: "gtceu:oil_medium_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "1C0C9ED28756C725"
+					item: "gtceu:oil_medium_bucket"
+					type: "item"
+					optional_task: true
+				}
+				{
+					id: "1C0C9ED28756C725_CHECKMARK"
+					title: "跳过流体检测"
+					type: "checkmark"
+				}
+			]
 			x: 12.0d
 			y: -2.0d
 		}

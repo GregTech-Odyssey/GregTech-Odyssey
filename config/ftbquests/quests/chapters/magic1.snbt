@@ -3643,7 +3643,10 @@
 			tasks: [{
 				count: 64L
 				id: "64ADD704A4E2B648"
-				item: { Count: 64, id: "botania:daybloom_motif" }
+				item: {
+					Count: 64
+					id: "botania:daybloom_motif"
+				}
 				type: "item"
 			}]
 			x: 6.75d
@@ -4169,10 +4172,12 @@
 					id: "45D039ED5F5FAF15"
 					item: "gtocore:fractal_petal_solvent_bucket"
 					type: "item"
+					optional_task: true
 				}
 				{
 					id: "193E35E1E45AC97C"
 					type: "checkmark"
+					title: "跳过流体检测"
 				}
 			]
 			x: 10.0d
@@ -4260,30 +4265,36 @@
 					id: "431E0907CC499B77"
 					item: "gtocore:aether_bucket"
 					type: "item"
+					optional_task: true
 				}
 				{
 					id: "330A2DCF80536248"
 					item: "gtocore:salamander_bucket"
 					type: "item"
+					optional_task: true
 				}
 				{
 					id: "200B16BAE7BE9625"
 					item: "gtocore:undine_bucket"
 					type: "item"
+					optional_task: true
 				}
 				{
 					id: "4F5E8B6DF51F62E4"
 					item: "gtocore:sylph_bucket"
 					type: "item"
+					optional_task: true
 				}
 				{
 					id: "4FE0DE11DAED2B31"
 					item: "gtocore:gnome_bucket"
 					type: "item"
+					optional_task: true
 				}
 				{
 					id: "40F2FB6D1275D8A0"
 					type: "checkmark"
+					title: "跳过流体检测"
 				}
 			]
 			title: "元素蒸汽们"
@@ -4368,14 +4379,23 @@
 		{
 			dependencies: ["5FB36C788008C907"]
 			id: "4CD0D7F570CCE809"
-			tasks: [{
-				id: "08C244239FBF63CA"
-				item: "gtocore:wilden_essence_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "08C244239FBF63CA"
+					item: "gtocore:wilden_essence_bucket"
+					type: "item"
+					optional_task: true
+				}
+				{
+					id: "08C244239FBF63CA_CHECKMARK"
+					title: "跳过流体检测"
+					type: "checkmark"
+				}
+			]
 			title: "&5荒野循环&r  更多的 &5 荒野供物&r"
 			x: 15.5d
 			y: 5.5d
+			icon: "gtocore:wilden_essence_bucket"
 		}
 		{
 			dependencies: ["502826CBF91585C1"]

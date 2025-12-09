@@ -381,6 +381,7 @@
 				{
 					id: "4B8203C35C11F70F"
 					type: "checkmark"
+					title: "{gto.ev.quests.04401207361CD9C1.tasks.4B8203C35C11F70F.title}"
 				}
 			]
 			x: -2.0d
@@ -617,6 +618,7 @@
 					id: "1B47D28C38356572"
 					item: "gtocore:filtered_water_bucket"
 					type: "item"
+					optional_task: true
 				}
 				{
 					id: "37BA57E0B53A42AE"
@@ -753,10 +755,12 @@
 					id: "55E9D5CC32E222D4"
 					item: "gtceu:radon_bucket"
 					type: "item"
+					optional_task: true
 				}
 				{
 					id: "38282FFC72949A36"
 					type: "checkmark"
+					title: "{gto.ev.quests.038C1E186FAF47D6.tasks.38282FFC72949A36.title}"
 				}
 			]
 			x: 6.0d
@@ -888,10 +892,12 @@
 					id: "048B2C25DB06308B"
 					item: "gtocore:dense_hydrazine_fuel_mixture_bucket"
 					type: "item"
+					optional_task: true
 				}
 				{
 					id: "041911FC3851A1F0"
 					type: "checkmark"
+					title: "{gto.ev.quests.21A551FA48AC486E.tasks.041911FC3851A1F0.title}"
 				}
 			]
 			x: 13.0d
@@ -907,10 +913,12 @@
 					id: "48161A1D2AE0A2DF"
 					item: "gtocore:rocket_fuel_cn3h7o3_bucket"
 					type: "item"
+					optional_task: true
 				}
 				{
 					id: "55FFB0C688044409"
 					type: "checkmark"
+					title: "{gto.ev.quests.47346E3BA7CD0E3B.tasks.55FFB0C688044409.title}"
 				}
 			]
 			x: 5.0d
@@ -926,10 +934,12 @@
 					id: "7FDB4FE75E8EA037"
 					item: "gtocore:rocket_fuel_rp_1_bucket"
 					type: "item"
+					optional_task: true
 				}
 				{
 					id: "3AEEB024ED6027F7"
 					type: "checkmark"
+					title: "{gto.ev.quests.6EA21B3A58DA0770.tasks.3AEEB024ED6027F7.title}"
 				}
 			]
 			x: 5.0d
@@ -1055,6 +1065,7 @@
 					id: "650B93BEDDFFE7C7"
 					item: "gtceu:uranium_hexafluoride_bucket"
 					type: "item"
+					optional_task: true
 				}
 				{
 					id: "422AFC345FA8FEFF"
@@ -1074,6 +1085,7 @@
 					id: "79F12733032D85F4"
 					item: "gtceu:enriched_uranium_hexafluoride_bucket"
 					type: "item"
+					optional_task: true
 				}
 				{
 					id: "6415F477685EB02C"
@@ -1093,6 +1105,7 @@
 					id: "20E6582B7DFB9FF7"
 					item: "gtceu:depleted_uranium_hexafluoride_bucket"
 					type: "item"
+					optional_task: true
 				}
 				{
 					id: "356CDD0BC05B19C6"
@@ -1174,13 +1187,22 @@
 			id: "5FC85281DA794E02"
 			shape: "hexagon"
 			size: 1.5d
-			tasks: [{
-				id: "151BAA19BA2596B5"
-				item: "gtceu:silicone_rubber_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "151BAA19BA2596B5"
+					item: "gtceu:silicone_rubber_bucket"
+					type: "item"
+					optional_task: true
+				}
+				{
+					id: "151BAA19BA2596B5_CHECKMARK"
+					title: "{gto.ev.quests.5FC85281DA794E02.tasks.151BAA19BA2596B5_CHECKMARK.title}"
+					type: "checkmark"
+				}
+			]
 			x: -0.5d
 			y: -13.0d
+			icon: "gtceu:silicone_rubber_bucket"
 		}
 		{
 			dependencies: ["08891CB1BAFA5515"]

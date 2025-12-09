@@ -638,11 +638,19 @@
 				}
 			]
 			subtitle: "{gto.main-stoneage.quests.4F77CB97CE068D7F.subtitle}"
-			tasks: [{
-				id: "1C0C9ED28756C725"
-				item: "gtceu:oil_medium_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "1C0C9ED28756C725"
+					item: "gtceu:oil_medium_bucket"
+					type: "item"
+					optional_task: true
+				}
+				{
+					id: "1C0C9ED28756C725_CHECKMARK"
+					title: "{gto.main-stoneage.quests.4F77CB97CE068D7F.tasks.1C0C9ED28756C725_CHECKMARK.title}"
+					type: "checkmark"
+				}
+			]
 			x: 12.0d
 			y: -2.0d
 		}

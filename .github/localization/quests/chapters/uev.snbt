@@ -277,13 +277,22 @@
 			dependencies: ["4BEE8DA7018CD14D"]
 			description: ["{gto.uev.quests.5876D6BFFD8AA7F7.description0}"]
 			id: "5876D6BFFD8AA7F7"
-			tasks: [{
-				id: "32CCF029EA0AA6D4"
-				item: "gtocore:transcending_matter_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "32CCF029EA0AA6D4"
+					item: "gtocore:transcending_matter_bucket"
+					type: "item"
+					optional_task: true
+				}
+				{
+					id: "32CCF029EA0AA6D4_CHECKMARK"
+					title: "{gto.uev.quests.5876D6BFFD8AA7F7.tasks.32CCF029EA0AA6D4_CHECKMARK.title}"
+					type: "checkmark"
+				}
+			]
 			x: -6.0d
 			y: -2.0d
+			icon: "gtocore:transcending_matter_bucket"
 		}
 		{
 			id: "0DBA04D875077E85"

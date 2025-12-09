@@ -47,7 +47,7 @@ def process_bucket(quest: Compound) -> bool:
     if len(bucket_tasks) == 1:
         bucket_item = bucket_tasks[0][0]
         current_icon = quest.get("icon")
-        if not current_icon or str(current_icon) != bucket_item:
+        if not current_icon:
             quest["icon"] = String(bucket_item)
             modified = True
 
