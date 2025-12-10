@@ -3,7 +3,7 @@
 
 <h1 align="center">
     <a href="https://discord.gg/PxruFSbtCn"><img src="https://discordapp.com/api/guilds/1361351361257672876/widget.png" alt="加入Discord服务器 | Join Discord Server"></a>
-    <a href="https://qm.qq.com/q/H4mWY1GfSK"><img src="https://img.shields.io/badge/QQ-加入交流群-12B7F5?logo=qq&logoColor=white" alt="加入QQ群 | Join QQ Group"></a>
+    <a href="https://qm.qq.com/q/gIWx9iUxck"><img src="https://img.shields.io/badge/QQ-加入交流群-12B7F5?logo=qq&logoColor=white" alt="加入QQ群 | Join QQ Group"></a>
 </h1>
 
 ## 介绍
@@ -17,6 +17,18 @@
 - 任务（文本），原创纹理保留所有权利，未经授权禁止使用
 
 ## 使用
+
+### (推荐) 从 release 下载
+
+<https://github.com/GregTech-Odyssey/GregTech-Odyssey/releases>
+
+nightly release 是最新的打包
+
+- `GregTech-Odyssey-client-mods.zip` 包含客户端所需模组和配置文件
+- `GregTech-Odyssey-server-mods.zip` 包含服务端所需模组和配置文件
+- `GregTech-Odyssey-server.zip` 包含服务端所需模组、配置文件和安装好的 forge
+- `GregTech.Odyssey-<version>.zip` 是客户端 curseforge 安装包
+
 
 ### 导出 Curseforge 整合包
 
@@ -32,16 +44,7 @@ packwiz cf export
 
 ### 下载 github actions 自动构建的整合包
 
-### 从 release 下载
-
-<https://github.com/GregTech-Odyssey/GregTech-Odyssey/releases>
-
-nightly release 是最新的打包
-
-- `GregTech-Odyssey-client-mods.zip` 包含客户端所需模组和配置文件
-- `GregTech-Odyssey-server-mods.zip` 包含服务端所需模组和配置文件
-- `GregTech-Odyssey-server.zip` 包含服务端所需模组、配置文件和安装好的 forge
-- `GregTech.Odyssey-<version>.zip` 是客户端 curseforge 安装包
+[Actions](https://github.com/GregTech-Odyssey/GregTech-Odyssey/actions)
 
 ### 使用 packwiz-installer
 
