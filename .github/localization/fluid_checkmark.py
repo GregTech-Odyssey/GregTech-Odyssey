@@ -12,7 +12,7 @@ def process_bucket(quest: Compound) -> bool:
     Process quests with bucket items to standardize them:
     1. If only one bucket: Set icon to the bucket item
     2. Make all bucket items optional
-    3. Add or rename checkmark to "跳过流体检测"
+    3. Add or set checkmark name to None
 
     Returns:
         True if the quest was modified, False otherwise
@@ -58,8 +58,8 @@ def process_bucket(quest: Compound) -> bool:
 
     if has_checkmark and checkmark_task:
         current_title = checkmark_task.get("title")
-        if not current_title or str(current_title) != "跳过流体检测":
-            checkmark_task["title"] = String("跳过流体检测")
+        if current_title:
+            del checkmark_task["title"]
             modified = True
     else:
         first_bucket_task = bucket_tasks[0][1]
@@ -67,7 +67,6 @@ def process_bucket(quest: Compound) -> bool:
         new_checkmark["id"] = String(
             f"{first_bucket_task.get('id', 'GENERATED')}_CHECKMARK"
         )
-        new_checkmark["title"] = String("跳过流体检测")
         new_checkmark["type"] = String("checkmark")
         tasks.append(new_checkmark)
         modified = True
