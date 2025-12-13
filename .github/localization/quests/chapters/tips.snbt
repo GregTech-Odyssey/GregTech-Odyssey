@@ -413,7 +413,11 @@
 		}
 		{
 			dependencies: ["79646E8E449D8A1A"]
-			description: ["{gto.tips.quests.14BCF41FB8DAD531.description0}"]
+			description: [
+				"{gto.tips.quests.14BCF41FB8DAD531.description0}"
+				""
+				"{gto.tips.quests.14BCF41FB8DAD531.description1}"
+			]
 			icon: "avaritia:enhancement_core"
 			id: "14BCF41FB8DAD531"
 			rewards: [{
@@ -595,7 +599,7 @@
 			]
 			title: "{gto.tips.quests.329F8FA702A2CB5C.title}"
 			x: 6.0d
-			y: -6.75d
+			y: -8.5d
 		}
 		{
 			dependencies: ["79646E8E449D8A1A"]
@@ -628,19 +632,16 @@
 				"{gto.tips.quests.2AF1E09A346B5343.description1}"
 				""
 				"{gto.tips.quests.2AF1E09A346B5343.description2}"
-				""
 				"{gto.tips.quests.2AF1E09A346B5343.description3}"
-				""
 				"{gto.tips.quests.2AF1E09A346B5343.description4}"
-				"{@pagebreak}"
+				""
 				"{gto.tips.quests.2AF1E09A346B5343.description5}"
 				""
 				"{gto.tips.quests.2AF1E09A346B5343.description6}"
-				""
 				"{gto.tips.quests.2AF1E09A346B5343.description7}"
-				""
 				"{gto.tips.quests.2AF1E09A346B5343.description8}"
 				""
+				"{@pagebreak}"
 				"{gto.tips.quests.2AF1E09A346B5343.description9}"
 				""
 				"{gto.tips.quests.2AF1E09A346B5343.description10}"
@@ -648,6 +649,28 @@
 				"{gto.tips.quests.2AF1E09A346B5343.description11}"
 				""
 				"{gto.tips.quests.2AF1E09A346B5343.description12}"
+				""
+				"{gto.tips.quests.2AF1E09A346B5343.description13}"
+				"{gto.tips.quests.2AF1E09A346B5343.description14}"
+				"{gto.tips.quests.2AF1E09A346B5343.description15}"
+				""
+				"{gto.tips.quests.2AF1E09A346B5343.description16}"
+				""
+				"{gto.tips.quests.2AF1E09A346B5343.description17}"
+				"{gto.tips.quests.2AF1E09A346B5343.description18}"
+				"{gto.tips.quests.2AF1E09A346B5343.description19}"
+				""
+				"{gto.tips.quests.2AF1E09A346B5343.description20}"
+				""
+				"{gto.tips.quests.2AF1E09A346B5343.description21}"
+				""
+				"{gto.tips.quests.2AF1E09A346B5343.description22}"
+				"{@pagebreak}"
+				"{gto.tips.quests.2AF1E09A346B5343.description23}"
+				""
+				"{gto.tips.quests.2AF1E09A346B5343.description24}"
+				""
+				"{gto.tips.quests.2AF1E09A346B5343.description25}"
 			]
 			hide_until_deps_complete: true
 			icon: "gtocore:ev_wireless_input_hatch_64a"
@@ -718,6 +741,12 @@
 				"{gto.tips.quests.0DB31BBE43DB71AA.description0}"
 				""
 				"{gto.tips.quests.0DB31BBE43DB71AA.description1}"
+				"{gto.tips.quests.0DB31BBE43DB71AA.description2}"
+				"{gto.tips.quests.0DB31BBE43DB71AA.description3}"
+				""
+				"{gto.tips.quests.0DB31BBE43DB71AA.description4}"
+				""
+				"{gto.tips.quests.0DB31BBE43DB71AA.description5}"
 			]
 			hide_until_deps_complete: true
 			icon: "gtocore:advanced_assembly_line"
@@ -1006,7 +1035,7 @@
 			}]
 			title: "{gto.tips.quests.75054AF743DC4A57.title}"
 			x: 4.5d
-			y: -6.5d
+			y: -8.0d
 		}
 		{
 			dependencies: [
@@ -1305,10 +1334,76 @@
 			id: "2574E6B85ADAAB88"
 			shape: "pentagon"
 			size: 1.5d
-			tasks: [{
-				id: "2BF9408FBD0A95BA"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "2BF9408FBD0A95BA"
+					type: "checkmark"
+				}
+				{
+					id: "3378DFF58BB0F2D0"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "gtocore:wreath"
+								}
+								{
+									Count: 1b
+									id: "gtceu:paracetamol_pill"
+								}
+								{
+									Count: 1b
+									id: "gtceu:rad_away_pill"
+								}
+							]
+						}
+					}
+					optional_task: true
+					title: "{gto.tips.quests.2574E6B85ADAAB88.tasks.3378DFF58BB0F2D0.title}"
+					type: "item"
+				}
+				{
+					id: "0F1FFD8C69AD34AA"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "gtceu:face_mask"
+								}
+								{
+									Count: 1b
+									id: "gtceu:rubber_gloves"
+								}
+								{
+									Count: 1b
+									id: "gtceu:hazmat_headpiece"
+								}
+								{
+									Count: 1b
+									id: "gtceu:hazmat_chestpiece"
+								}
+								{
+									Count: 1b
+									id: "gtceu:hazmat_leggings"
+								}
+								{
+									Count: 1b
+									id: "gtceu:hazmat_boots"
+								}
+							]
+						}
+					}
+					optional_task: true
+					title: "{gto.tips.quests.2574E6B85ADAAB88.tasks.0F1FFD8C69AD34AA.title}"
+					type: "item"
+				}
+			]
 			title: "{gto.tips.quests.2574E6B85ADAAB88.title}"
 			x: 0.75d
 			y: 2.25d
@@ -1445,7 +1540,13 @@
 				"2AF1E09A346B5343"
 				"4167ADF91EF95341"
 			]
-			description: ["{gto.tips.quests.56243643D545C27B.description0}"]
+			description: [
+				"{gto.tips.quests.56243643D545C27B.description0}"
+				""
+				"{gto.tips.quests.56243643D545C27B.description1}"
+				""
+				"{gto.tips.quests.56243643D545C27B.description2}"
+			]
 			hide_until_deps_complete: true
 			icon: "gtocore:mana_amplifier_hatch"
 			id: "56243643D545C27B"
@@ -1465,6 +1566,88 @@
 			title: "{gto.tips.quests.56243643D545C27B.title}"
 			x: 10.0d
 			y: -4.5d
+		}
+		{
+			dependencies: [
+				"1CA6E1AD1909373A"
+				"79646E8E449D8A1A"
+			]
+			description: [
+				"{gto.tips.quests.04D85C7F17E0D29C.description0}"
+				""
+				"{gto.tips.quests.04D85C7F17E0D29C.description1}"
+				""
+				"{gto.tips.quests.04D85C7F17E0D29C.description2}"
+				""
+				"{gto.tips.quests.04D85C7F17E0D29C.description3}"
+				""
+				"{gto.tips.quests.04D85C7F17E0D29C.description4}"
+				""
+				"{gto.tips.quests.04D85C7F17E0D29C.description5}"
+			]
+			hide_dependency_lines: true
+			icon: "gtocore:ulv_wiremill"
+			id: "04D85C7F17E0D29C"
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "{gto.tips.quests.04D85C7F17E0D29C.subtitle}"
+			tasks: [{
+				id: "5D50229E1140CB95"
+				type: "checkmark"
+			}]
+			title: "{gto.tips.quests.04D85C7F17E0D29C.title}"
+			x: 6.0d
+			y: -6.75d
+		}
+		{
+			description: [
+				"{gto.tips.quests.7B11F10A218CD42C.description0}"
+				""
+				"{gto.tips.quests.7B11F10A218CD42C.description1}"
+				""
+				"{gto.tips.quests.7B11F10A218CD42C.description2}"
+				""
+				"{gto.tips.quests.7B11F10A218CD42C.description3}"
+				""
+				"{gto.tips.quests.7B11F10A218CD42C.description4}"
+				""
+				"{gto.tips.quests.7B11F10A218CD42C.description5}"
+				""
+				"{gto.tips.quests.7B11F10A218CD42C.description6}"
+				""
+				"{gto.tips.quests.7B11F10A218CD42C.description7}"
+				""
+				"{gto.tips.quests.7B11F10A218CD42C.description8}"
+				"{@pagebreak}"
+				"{gto.tips.quests.7B11F10A218CD42C.description9}"
+				""
+				"{gto.tips.quests.7B11F10A218CD42C.description10}"
+				""
+				"{gto.tips.quests.7B11F10A218CD42C.description11}"
+				""
+				"{gto.tips.quests.7B11F10A218CD42C.description12}"
+				"{@pagebreak}"
+				"{gto.tips.quests.7B11F10A218CD42C.description13}"
+				""
+				"{gto.tips.quests.7B11F10A218CD42C.description14}"
+				""
+				"{gto.tips.quests.7B11F10A218CD42C.description15}"
+				""
+				"{gto.tips.quests.7B11F10A218CD42C.description16}"
+				""
+				"{gto.tips.quests.7B11F10A218CD42C.description17}"
+			]
+			id: "7B11F10A218CD42C"
+			invisible: true
+			shape: "pentagon"
+			size: 2.0d
+			tasks: [{
+				id: "4A778D92B9F6121D"
+				title: "{gto.tips.quests.7B11F10A218CD42C.tasks.4A778D92B9F6121D.title}"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 5.0d
 		}
 	]
 	subtitle: ["{gto.tips.subtitle0}"]

@@ -1,5 +1,5 @@
 {
-	autofocus_id: "789B188B05759151"
+	autofocus_id: "7ABCF4826CC6154B"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "ev"
@@ -13,7 +13,25 @@
 			rotation: 45.0d
 			width: 1.0d
 			x: 2.5d
-			y: -1.0d
+			y: -12.0d
+		}
+		{
+			color: 16711935
+			height: 1.0d
+			image: "ftbquests:block/barrier_open"
+			order: 1
+			rotation: 45.0d
+			width: 1.0d
+			x: 3.75d
+			y: -12.0d
+		}
+		{
+			height: 1.0d
+			image: "xtonesreworked:block/bitt/12"
+			rotation: 45.0d
+			width: 1.0d
+			x: 3.75d
+			y: -12.0d
 		}
 		{
 			color: 16711935
@@ -23,15 +41,15 @@
 			rotation: 45.0d
 			width: 1.0d
 			x: 2.5d
-			y: -1.0d
+			y: -12.0d
 		}
 		{
 			height: 1.0d
 			image: "xtonesreworked:block/bitt/12"
 			rotation: 45.0d
 			width: 1.0d
-			x: 1.25d
-			y: -1.0d
+			x: 4.0d
+			y: 7.0d
 		}
 		{
 			color: 16711935
@@ -40,16 +58,16 @@
 			order: 1
 			rotation: 45.0d
 			width: 1.0d
-			x: 1.25d
-			y: -1.0d
+			x: 4.0d
+			y: 7.0d
 		}
 		{
 			height: 1.0d
 			image: "xtonesreworked:block/bitt/12"
 			rotation: 45.0d
 			width: 1.0d
-			x: 1.5d
-			y: -13.0d
+			x: 6.0d
+			y: 7.0d
 		}
 		{
 			color: 16711935
@@ -58,77 +76,65 @@
 			order: 1
 			rotation: 45.0d
 			width: 1.0d
-			x: 1.5d
-			y: -13.0d
-		}
-		{
-			height: 1.0d
-			image: "xtonesreworked:block/bitt/12"
-			rotation: 45.0d
-			width: 1.0d
-			x: 2.75d
-			y: -13.0d
-		}
-		{
-			color: 16711935
-			height: 1.0d
-			image: "ftbquests:block/barrier_open"
-			order: 1
-			rotation: 45.0d
-			width: 1.0d
-			x: 2.75d
-			y: -13.0d
+			x: 6.0d
+			y: 7.0d
 		}
 	]
 	order_index: 6
 	quest_links: [
 		{
-			id: "4C16FF45DEA84C8F"
-			linked_quest: "5808E00A58A9F4EE"
-			x: 13.0d
-			y: -2.0d
-		}
-		{
 			id: "50DE63BF29511D2E"
 			linked_quest: "69DF9DE9F7176FD0"
 			shape: "diamond"
-			x: 2.75d
-			y: -13.0d
+			x: 6.0d
+			y: 7.0d
 		}
 		{
 			id: "46C3F904D3DBAD79"
 			linked_quest: "2DAEB70539AACE1A"
 			shape: "diamond"
-			x: 1.5d
-			y: -13.0d
+			x: 4.0d
+			y: 7.0d
 		}
 		{
 			id: "160EF833BB857B97"
 			linked_quest: "79B00A56EED55DBD"
 			shape: "diamond"
-			x: 1.25d
-			y: -1.0d
+			x: 2.5d
+			y: -12.0d
 		}
 		{
 			id: "749B7F8089170DB1"
 			linked_quest: "31BA74442F9E953E"
 			shape: "diamond"
-			x: 2.5d
-			y: -1.0d
+			x: 3.75d
+			y: -12.0d
 		}
 		{
 			id: "52FFEB1F3F4773D7"
 			linked_quest: "23E859D5CC9E4C8C"
-			x: 6.5d
-			y: -8.0d
+			x: -2.0d
+			y: 2.0d
 		}
 		{
 			id: "2103B4D5965B90DF"
 			linked_quest: "1CF7845875EEFA3B"
 			shape: "gear"
 			size: 2.0d
-			x: 11.0d
-			y: -9.0d
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			id: "56B3DCEF93AF79EC"
+			linked_quest: "632D29DA89C3CEA4"
+			x: 7.0d
+			y: 3.5d
+		}
+		{
+			id: "5535179B6517BEB0"
+			linked_quest: "2D901DBE68F833D2"
+			x: 3.5d
+			y: -8.0d
 		}
 	]
 	quests: [
@@ -136,6 +142,7 @@
 			dependencies: [
 				"2F6C81E3B10365E8"
 				"6EA21B3A58DA0770"
+				"60842E72EBC12615"
 			]
 			description: [
 				"{gto.ev.quests.479C7C9D5519FC41.description0}"
@@ -160,7 +167,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: -13.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["479C7C9D5519FC41"]
@@ -179,8 +186,8 @@
 				title: "{gto.ev.quests.04C8A65088BA2229.tasks.00EC3AC82DC68B84.title}"
 				type: "dimension"
 			}]
-			x: 8.5d
-			y: -11.0d
+			x: 5.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["04C8A65088BA2229"]
@@ -197,8 +204,8 @@
 					type: "item"
 				}
 			]
-			x: 8.5d
-			y: -8.5d
+			x: 5.0d
+			y: 1.75d
 		}
 		{
 			dependencies: ["44ADB13486C023BD"]
@@ -210,13 +217,14 @@
 			id: "7ABCF4826CC6154B"
 			shape: "gear"
 			size: 2.0d
+			subtitle: "{gto.ev.quests.7ABCF4826CC6154B.subtitle}"
 			tasks: [{
 				id: "489AE5DE1D01A321"
 				item: "gtceu:tungsten_dust"
 				type: "item"
 			}]
-			x: 8.5d
-			y: -6.5d
+			x: 5.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["7ABCF4826CC6154B"]
@@ -228,8 +236,8 @@
 				item: "gtceu:tungsten_steel_ingot"
 				type: "item"
 			}]
-			x: 11.0d
-			y: -6.5d
+			x: 5.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["249A4B2F900AA6F1"]
@@ -246,8 +254,8 @@
 				item: "gtocore:water_purification_plant"
 				type: "item"
 			}]
-			x: 10.5d
-			y: 1.5d
+			x: 9.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["2F6C81E3B10365E8"]
@@ -255,6 +263,8 @@
 				"{gto.ev.quests.033815C0756BAE1F.description0}"
 				""
 				"{gto.ev.quests.033815C0756BAE1F.description1}"
+				""
+				"{gto.ev.quests.033815C0756BAE1F.description2}"
 			]
 			hide_dependency_lines: true
 			id: "033815C0756BAE1F"
@@ -264,21 +274,29 @@
 				type: "item"
 			}]
 			title: "{gto.ev.quests.033815C0756BAE1F.title}"
-			x: 6.5d
-			y: -2.0d
+			x: 12.0d
+			y: 2.0d
 		}
 		{
-			dependencies: ["033815C0756BAE1F"]
+			dependencies: [
+				"033815C0756BAE1F"
+				"0CDF5979167EDEAB"
+				"3F2A2379C93BC41B"
+				"55B897D3BC760E2E"
+				"42CA62BB2A9C688A"
+				"626D09E9899F9936"
+				"00E4116CF5A14097"
+			]
 			description: ["{gto.ev.quests.38E57C47A1D6D206.description0}"]
 			id: "38E57C47A1D6D206"
-			shape: "gear"
-			size: 2.0d
+			rewards: [{
+				id: "3CF0724E1BA2D728"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 2.5d
 			tasks: [
-				{
-					id: "50E3B4E82F4D5D12"
-					item: "gtceu:platinum_dust"
-					type: "item"
-				}
 				{
 					id: "44456CDCA70FF9BB"
 					item: "gtceu:palladium_dust"
@@ -306,16 +324,15 @@
 				}
 			]
 			title: "{gto.ev.quests.38E57C47A1D6D206.title}"
-			x: 8.5d
-			y: -2.0d
+			x: 12.0d
+			y: -1.0d
 		}
 		{
 			dependencies: [
-				"38E57C47A1D6D206"
 				"7ABCF4826CC6154B"
+				"42CA62BB2A9C688A"
 			]
 			id: "44A1BC4F5F9D8F30"
-			min_required_dependencies: 1
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
@@ -323,12 +340,13 @@
 				item: "gtceu:rtm_alloy_ingot"
 				type: "item"
 			}]
-			x: 8.5d
-			y: -4.5d
+			x: 9.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["44A1BC4F5F9D8F30"]
 			description: ["{gto.ev.quests.5612C7735BC4F5BC.description0}"]
+			hide_dependent_lines: true
 			id: "5612C7735BC4F5BC"
 			shape: "hexagon"
 			size: 1.5d
@@ -337,23 +355,35 @@
 				item: "gtceu:rtm_alloy_coil_block"
 				type: "item"
 			}]
-			x: 5.0d
-			y: -2.0d
+			x: 9.0d
+			y: -4.5d
 		}
 		{
-			dependencies: ["2F6C81E3B10365E8"]
-			description: ["{gto.ev.quests.0D4645862BFD304D.description0}"]
+			dependencies: ["135B35F7619D288E"]
+			description: [
+				"{gto.ev.quests.0D4645862BFD304D.description0}"
+				""
+				"{gto.ev.quests.0D4645862BFD304D.description1}"
+			]
 			id: "0D4645862BFD304D"
 			shape: "hexagon"
 			size: 1.5d
 			subtitle: "{gto.ev.quests.0D4645862BFD304D.subtitle}"
-			tasks: [{
-				id: "2270BA4BA6740B0C"
-				item: "gtocore:isostatic_press"
-				type: "item"
-			}]
-			x: -0.5d
-			y: -11.0d
+			tasks: [
+				{
+					id: "2270BA4BA6740B0C"
+					item: "gtocore:isostatic_press"
+					type: "item"
+				}
+				{
+					id: "1916AE73211BC728"
+					item: "gtocore:sintering_furnace"
+					type: "item"
+				}
+			]
+			title: "{gto.ev.quests.0D4645862BFD304D.title}"
+			x: 3.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["0D4645862BFD304D"]
@@ -363,8 +393,8 @@
 				item: "gtocore:barium_titanate_ceramic_flake"
 				type: "item"
 			}]
-			x: -0.5d
-			y: -9.5d
+			x: 3.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["2F6C81E3B10365E8"]
@@ -383,8 +413,8 @@
 					type: "checkmark"
 				}
 			]
-			x: -2.0d
-			y: -8.0d
+			x: 2.5d
+			y: -3.5d
 		}
 		{
 			dependencies: [
@@ -397,8 +427,8 @@
 				item: "gtceu:epoxy_printed_circuit_board"
 				type: "item"
 			}]
-			x: -0.5d
-			y: -8.0d
+			x: 3.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["7ABCF4826CC6154B"]
@@ -410,8 +440,8 @@
 				item: "gtceu:tungsten_carbide_ingot"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -6.5d
+			x: 1.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["41B5A944F7D9C6E2"]
@@ -424,8 +454,8 @@
 				item: "gtocore:chemical_vapor_deposition"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -6.5d
+			x: 1.0d
+			y: -3.0d
 		}
 		{
 			dependencies: [
@@ -438,8 +468,8 @@
 				item: "gtceu:nano_cpu_chip"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -6.5d
+			x: 1.0d
+			y: -5.0d
 		}
 		{
 			dependencies: [
@@ -465,12 +495,11 @@
 				type: "item"
 			}]
 			title: "{gto.ev.quests.7D8D340B336E38F7.title}"
-			x: -0.5d
+			x: 1.0d
 			y: -6.5d
 		}
 		{
 			dependencies: [
-				"2F6C81E3B10365E8"
 				"6EF9D30568DF4953"
 				"09831EA3AD53828C"
 			]
@@ -483,8 +512,8 @@
 				item: "gtceu:ev_circuit_assembler"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -8.0d
+			x: -1.5d
+			y: -6.5d
 		}
 		{
 			dependencies: [
@@ -502,8 +531,8 @@
 				type: "item"
 			}]
 			title: "{gto.ev.quests.4BCAA414BA1AE5FD.title}"
-			x: -0.5d
-			y: -5.0d
+			x: 1.0d
+			y: -8.0d
 		}
 		{
 			dependencies: [
@@ -521,8 +550,8 @@
 				type: "item"
 			}]
 			title: "{gto.ev.quests.63B3B1533377F7BA.title}"
-			x: -0.5d
-			y: -3.5d
+			x: 1.0d
+			y: -9.75d
 		}
 		{
 			dependencies: ["63B3B1533377F7BA"]
@@ -537,13 +566,14 @@
 				type: "item"
 			}]
 			title: "{gto.ev.quests.5B98FF5DDD4B2629.title}"
-			x: -0.5d
-			y: -1.0d
+			x: 1.0d
+			y: -12.0d
 		}
 		{
 			dependencies: [
 				"135B35F7619D288E"
 				"21A551FA48AC486E"
+				"3CDB8FABC5A970BB"
 			]
 			description: ["{gto.ev.quests.5B243900BEDF71CA.description0}"]
 			icon: {
@@ -563,8 +593,8 @@
 				}
 				type: "item"
 			}]
-			x: 11.0d
-			y: -4.5d
+			x: 5.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["4D36C61E2AF3205F"]
@@ -574,15 +604,17 @@
 				item: "ad_astra:raw_desh"
 				type: "item"
 			}]
-			x: 9.72d
-			y: -0.2d
+			x: 7.0d
+			y: -8.0d
 		}
 		{
 			dependencies: [
 				"4E330B245DD74D33"
 				"5612C7735BC4F5BC"
-				"38E57C47A1D6D206"
+				"3F2A2379C93BC41B"
+				"0D7A4E6E0E413A37"
 			]
+			description: ["{gto.ev.quests.249A4B2F900AA6F1.description0}"]
 			id: "249A4B2F900AA6F1"
 			shape: "hexagon"
 			size: 1.5d
@@ -591,11 +623,12 @@
 				item: "ad_astra:desh_ingot"
 				type: "item"
 			}]
-			x: 8.5d
-			y: 1.5d
+			x: 9.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["3EDC674F36EDC52E"]
+			description: ["{gto.ev.quests.677752F0A4CB47CB.description0}"]
 			id: "677752F0A4CB47CB"
 			shape: "hexagon"
 			size: 1.5d
@@ -604,8 +637,8 @@
 				item: "gtocore:clarifier_purification_unit"
 				type: "item"
 			}]
-			x: 12.5d
-			y: 1.5d
+			x: 9.0d
+			y: -12.0d
 		}
 		{
 			dependencies: ["677752F0A4CB47CB"]
@@ -616,16 +649,16 @@
 				{
 					id: "1B47D28C38356572"
 					item: "gtocore:filtered_water_bucket"
+					optional_task: true
 					type: "item"
 				}
 				{
-					id: "37BA57E0B53A42AE"
-					title: "{gto.ev.quests.70ECB812598A4BEC.tasks.37BA57E0B53A42AE.title}"
+					id: "25508E14FEC129AA"
 					type: "checkmark"
 				}
 			]
-			x: 12.5d
-			y: 4.0d
+			x: 8.2d
+			y: -12.8d
 		}
 		{
 			dependencies: ["70ECB812598A4BEC"]
@@ -635,8 +668,8 @@
 				item: "gtceu:mpic_chip"
 				type: "item"
 			}]
-			x: 10.5d
-			y: 4.0d
+			x: 7.55d
+			y: -13.46d
 		}
 		{
 			dependencies: ["51E5257D17BF1D9D"]
@@ -647,17 +680,20 @@
 			]
 			id: "50F2DACFDE9119DF"
 			shape: "hexagon"
-			size: 2.0d
+			size: 1.5d
 			tasks: [{
 				id: "084E3BA73DE24B9C"
 				item: "gtceu:ev_energy_input_hatch"
 				type: "item"
 			}]
-			x: 8.5d
-			y: 4.0d
+			x: 6.75d
+			y: -14.25d
 		}
 		{
-			dependencies: ["5612C7735BC4F5BC"]
+			dependencies: [
+				"5612C7735BC4F5BC"
+				"33A26D7564A8869C"
+			]
 			description: [
 				"{gto.ev.quests.32B3E6812521AB70.description0}"
 				""
@@ -676,8 +712,8 @@
 				item: "gtceu:alloy_blast_smelter"
 				type: "item"
 			}]
-			x: 5.0d
-			y: -4.5d
+			x: 7.5d
+			y: -6.0d
 		}
 		{
 			dependencies: [
@@ -690,15 +726,14 @@
 				item: "gtceu:uranium_triplatinum_ingot"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 1.5d
+			x: 5.5d
+			y: -13.0d
 		}
 		{
 			dependencies: [
-				"249A4B2F900AA6F1"
-				"4B4C62CD6455641C"
 				"47346E3BA7CD0E3B"
 				"50F2DACFDE9119DF"
+				"41551B8820D1245A"
 			]
 			description: ["{gto.ev.quests.6FFA3DE7A0920B7A.description0}"]
 			icon: {
@@ -719,14 +754,13 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 1.5d
+			y: -16.0d
 		}
 		{
 			dependencies: [
-				"4B4C62CD6455641C"
 				"5B98FF5DDD4B2629"
-				"67E7B62710A78614"
 				"78988A24B63C1D8A"
+				"41551B8820D1245A"
 			]
 			description: [
 				"{gto.ev.quests.7323C9DD52244FA0.description0}"
@@ -741,8 +775,8 @@
 				item: "gtocore:large_gas_collector"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 1.5d
+			x: 3.25d
+			y: -14.25d
 		}
 		{
 			dependencies: ["04C8A65088BA2229"]
@@ -752,6 +786,7 @@
 				{
 					id: "55E9D5CC32E222D4"
 					item: "gtceu:radon_bucket"
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -759,8 +794,8 @@
 					type: "checkmark"
 				}
 			]
-			x: 6.0d
-			y: -9.0d
+			x: 3.0d
+			y: 3.5d
 		}
 		{
 			dependencies: [
@@ -770,14 +805,14 @@
 			description: ["{gto.ev.quests.789B188B05759151.description0}"]
 			id: "789B188B05759151"
 			shape: "hexagon"
-			size: 1.5d
+			size: 2.5d
 			tasks: [{
 				id: "54D89D848CBF5D55"
 				item: "gtceu:quantum_eye"
 				type: "item"
 			}]
-			x: 5.0d
-			y: -8.0d
+			x: -2.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["789B188B05759151"]
@@ -787,8 +822,8 @@
 				item: "gtceu:hv_field_generator"
 				type: "item"
 			}]
-			x: 5.0d
-			y: -9.5d
+			x: -1.0d
+			y: -1.0d
 		}
 		{
 			dependencies: [
@@ -804,22 +839,8 @@
 				item: "gtocore:void_miner"
 				type: "item"
 			}]
-			x: -2.25d
-			y: -4.5d
-		}
-		{
-			dependencies: ["2F6C81E3B10365E8"]
-			hide_dependency_lines: true
-			id: "6ABFE721A0F2B613"
-			shape: "diamond"
-			size: 1.5d
-			tasks: [{
-				id: "2E282353DAB00768"
-				item: "gtceu:hv_bedrock_ore_miner"
-				type: "item"
-			}]
-			x: -4.0d
-			y: -4.5d
+			x: -0.5d
+			y: -10.5d
 		}
 		{
 			dependencies: ["63B3B1533377F7BA"]
@@ -833,8 +854,8 @@
 				item: "gtceu:ev_bedrock_ore_miner"
 				type: "item"
 			}]
-			x: -2.25d
-			y: -2.75d
+			x: -0.5d
+			y: -9.0d
 		}
 		{
 			dependencies: ["5B243900BEDF71CA"]
@@ -853,30 +874,37 @@
 				title: "{gto.ev.quests.4D36C61E2AF3205F.tasks.731D6EDCD7524409.title}"
 				type: "dimension"
 			}]
-			x: 11.0d
-			y: -2.0d
+			x: 5.0d
+			y: -8.0d
 		}
 		{
-			dependencies: ["789B188B05759151"]
+			dependencies: [
+				"789B188B05759151"
+				"0CDF5979167EDEAB"
+			]
 			id: "6EF9D30568DF4953"
 			tasks: [{
 				id: "32FAC0C8724AEE9C"
 				item: "gtceu:ev_emitter"
 				type: "item"
 			}]
-			x: 3.5d
-			y: -8.0d
+			x: -2.5d
+			y: -2.0d
 		}
 		{
-			dependencies: ["789B188B05759151"]
+			dependencies: [
+				"789B188B05759151"
+				"0CDF5979167EDEAB"
+			]
+			hide_dependent_lines: true
 			id: "3CDB8FABC5A970BB"
 			tasks: [{
 				id: "0475B6703759DB82"
 				item: "gtceu:ev_sensor"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -9.0d
+			x: -2.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["2F6C81E3B10365E8"]
@@ -887,6 +915,7 @@
 				{
 					id: "048B2C25DB06308B"
 					item: "gtocore:dense_hydrazine_fuel_mixture_bucket"
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -894,8 +923,8 @@
 					type: "checkmark"
 				}
 			]
-			x: 13.0d
-			y: -4.5d
+			x: 7.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["2F6C81E3B10365E8"]
@@ -906,6 +935,7 @@
 				{
 					id: "48161A1D2AE0A2DF"
 					item: "gtocore:rocket_fuel_cn3h7o3_bucket"
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -913,8 +943,8 @@
 					type: "checkmark"
 				}
 			]
-			x: 5.0d
-			y: -0.5d
+			x: 7.0d
+			y: -16.0d
 		}
 		{
 			dependencies: ["2F6C81E3B10365E8"]
@@ -925,6 +955,7 @@
 				{
 					id: "7FDB4FE75E8EA037"
 					item: "gtocore:rocket_fuel_rp_1_bucket"
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -932,13 +963,15 @@
 					type: "checkmark"
 				}
 			]
-			x: 5.0d
-			y: -15.0d
+			x: 7.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["135B35F7619D288E"]
 			description: ["{gto.ev.quests.1F7F326F38204751.description0}"]
+			hide_dependency_lines: true
 			id: "1F7F326F38204751"
+			optional: true
 			shape: "diamond"
 			size: 1.5d
 			tasks: [{
@@ -946,8 +979,8 @@
 				item: "gtocore:vibrant_photovoltaic_power_station"
 				type: "item"
 			}]
-			x: 13.0d
-			y: -6.5d
+			x: 7.0d
+			y: -11.5d
 		}
 		{
 			dependencies: ["2F6C81E3B10365E8"]
@@ -958,13 +991,14 @@
 				item: "gtceu:carbon_fibers"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -5.5d
+			x: -0.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["63B3B1533377F7BA"]
 			description: ["{gto.ev.quests.3BF80AAF9945B144.description0}"]
 			id: "3BF80AAF9945B144"
+			optional: true
 			shape: "diamond"
 			size: 1.5d
 			tasks: [{
@@ -972,8 +1006,8 @@
 				item: "gtocore:rocket_large_turbine"
 				type: "item"
 			}]
-			x: 1.0d
-			y: -4.5d
+			x: 2.5d
+			y: -10.5d
 		}
 		{
 			dependencies: [
@@ -981,6 +1015,7 @@
 				"63B3B1533377F7BA"
 			]
 			id: "0DAD9F96F785A63A"
+			optional: true
 			shape: "diamond"
 			size: 1.5d
 			tasks: [{
@@ -988,15 +1023,13 @@
 				item: "gtocore:steam_mega_turbine"
 				type: "item"
 			}]
-			x: 1.0d
-			y: -2.75d
+			x: 2.5d
+			y: -9.0d
 		}
 		{
-			dependencies: [
-				"68CEDCD202CCDF84"
-				"5B98FF5DDD4B2629"
-			]
+			dependencies: ["5B98FF5DDD4B2629"]
 			id: "63BD947AB2A903C1"
+			optional: true
 			shape: "diamond"
 			size: 1.5d
 			tasks: [{
@@ -1004,35 +1037,22 @@
 				item: "gtocore:gas_mega_turbine"
 				type: "item"
 			}]
-			x: -2.25d
-			y: -1.0d
-		}
-		{
-			dependencies: ["2F6C81E3B10365E8"]
-			hide_dependency_lines: true
-			id: "68CEDCD202CCDF84"
-			shape: "diamond"
-			size: 1.5d
-			tasks: [{
-				id: "15BA1B92C2E4A9BE"
-				item: "gtceu:gas_large_turbine"
-				type: "item"
-			}]
-			x: -4.0d
-			y: -1.0d
+			x: -0.75d
+			y: -12.0d
 		}
 		{
 			dependencies: ["2F6C81E3B10365E8"]
 			description: ["{gto.ev.quests.7BAEF04EC7896079.description0}"]
 			id: "7BAEF04EC7896079"
+			optional: true
 			shape: "diamond"
 			tasks: [{
 				id: "1F0C897FEDA2C6DC"
 				item: "gtocore:ev_rocket_engine"
 				type: "item"
 			}]
-			x: 0.5d
-			y: -9.5d
+			x: 3.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["34AFC3B776E00E48"]
@@ -1043,8 +1063,8 @@
 				item: "gtceu:uranium_dust"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 3.0d
+			x: 5.0d
+			y: -12.0d
 		}
 		{
 			dependencies: ["1D20FEE7860F5575"]
@@ -1054,16 +1074,16 @@
 				{
 					id: "650B93BEDDFFE7C7"
 					item: "gtceu:uranium_hexafluoride_bucket"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "422AFC345FA8FEFF"
-					title: "{gto.ev.quests.2AAA40516B60391E.tasks.422AFC345FA8FEFF.title}"
 					type: "checkmark"
 				}
 			]
-			x: 2.0d
-			y: 5.0d
+			x: 5.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["2AAA40516B60391E"]
@@ -1073,16 +1093,16 @@
 				{
 					id: "79F12733032D85F4"
 					item: "gtceu:enriched_uranium_hexafluoride_bucket"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "6415F477685EB02C"
-					title: "{gto.ev.quests.6CAD16EED1905F5D.tasks.6415F477685EB02C.title}"
 					type: "checkmark"
 				}
 			]
-			x: 1.5d
-			y: 4.0d
+			x: 4.5d
+			y: -11.0d
 		}
 		{
 			dependencies: ["2AAA40516B60391E"]
@@ -1092,16 +1112,16 @@
 				{
 					id: "20E6582B7DFB9FF7"
 					item: "gtceu:depleted_uranium_hexafluoride_bucket"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "356CDD0BC05B19C6"
-					title: "{gto.ev.quests.34AFC3B776E00E48.tasks.356CDD0BC05B19C6.title}"
 					type: "checkmark"
 				}
 			]
-			x: 2.5d
-			y: 4.0d
+			x: 5.5d
+			y: -11.0d
 		}
 		{
 			dependencies: ["310210D2AD9515E3"]
@@ -1119,25 +1139,32 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
-			y: 6.5d
+			x: 7.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["45D5AB8BE1006124"]
 			description: ["{gto.ev.quests.689199DD0E42A571.description0}"]
 			id: "689199DD0E42A571"
-			shape: "hexagon"
-			size: 1.5d
+			shape: "circle"
+			size: 1.0d
 			tasks: [{
 				id: "734F504BC4B1478B"
 				item: "ad_astra:raw_ostrum"
 				type: "item"
 			}]
 			x: 5.0d
-			y: 6.5d
+			y: -20.5d
 		}
 		{
-			description: ["{gto.ev.quests.67E7B62710A78614.description0}"]
+			dependencies: ["23E859D5CC9E4C8C"]
+			description: [
+				"{gto.ev.quests.67E7B62710A78614.description0}"
+				""
+				"{gto.ev.quests.67E7B62710A78614.description1}"
+				""
+				"{gto.ev.quests.67E7B62710A78614.description2}"
+			]
 			hide_dependency_lines: true
 			id: "67E7B62710A78614"
 			tasks: [{
@@ -1145,15 +1172,15 @@
 				item: "minecraft:nether_star"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 3.0d
+			x: 4.5d
+			y: -13.0d
 		}
 		{
 			dependencies: ["6FFA3DE7A0920B7A"]
 			description: ["{gto.ev.quests.45D5AB8BE1006124.description0}"]
 			id: "45D5AB8BE1006124"
 			shape: "hexagon"
-			size: 2.0d
+			size: 1.5d
 			tasks: [{
 				dimension: "gtocore:ceres"
 				icon: "gtocore:ceres_stone"
@@ -1162,7 +1189,7 @@
 				type: "dimension"
 			}]
 			x: 5.0d
-			y: 4.0d
+			y: -18.5d
 		}
 		{
 			dependencies: ["2F6C81E3B10365E8"]
@@ -1171,16 +1198,24 @@
 				""
 				"{gto.ev.quests.5FC85281DA794E02.description1}"
 			]
+			icon: "gtceu:silicone_rubber_bucket"
 			id: "5FC85281DA794E02"
 			shape: "hexagon"
 			size: 1.5d
-			tasks: [{
-				id: "151BAA19BA2596B5"
-				item: "gtceu:silicone_rubber_bucket"
-				type: "item"
-			}]
-			x: -0.5d
-			y: -13.0d
+			tasks: [
+				{
+					id: "151BAA19BA2596B5"
+					item: "gtceu:silicone_rubber_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "71440FFDE86E07B6"
+					type: "checkmark"
+				}
+			]
+			x: 5.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["08891CB1BAFA5515"]
@@ -1194,7 +1229,7 @@
 			icon_scale: 0.75d
 			id: "49501F06059BEAFD"
 			shape: "diamond"
-			size: 1.5d
+			size: 1.0d
 			tasks: [{
 				id: "53EFF4EC38BECAE2"
 				item: {
@@ -1223,22 +1258,26 @@
 				}
 				type: "item"
 			}]
-			x: 6.0d
-			y: -11.25d
+			x: -1.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["08891CB1BAFA5515"]
-			description: ["{gto.ev.quests.5B12999747D6C776.description0}"]
+			description: [
+				"{gto.ev.quests.5B12999747D6C776.description0}"
+				""
+				"{gto.ev.quests.5B12999747D6C776.description1}"
+			]
 			id: "5B12999747D6C776"
 			shape: "diamond"
-			size: 1.5d
+			size: 1.0d
 			tasks: [{
 				id: "325B2BAEC2BF1561"
 				item: "gtceu:cleaning_maintenance_hatch"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -11.25d
+			x: -1.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["32B3E6812521AB70"]
@@ -1250,8 +1289,8 @@
 				item: "gtocore:integral_framework_ev"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -3.5d
+			x: 5.75d
+			y: -6.0d
 		}
 		{
 			dependencies: [
@@ -1266,11 +1305,14 @@
 				item: "gtceu:reservoir_hatch"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -10.0d
+			x: 6.5d
+			y: 8.5d
 		}
 		{
-			dependencies: ["50F2DACFDE9119DF"]
+			dependencies: [
+				"50F2DACFDE9119DF"
+				"00E4116CF5A14097"
+			]
 			hide_dependency_lines: true
 			id: "78988A24B63C1D8A"
 			tasks: [{
@@ -1278,8 +1320,8 @@
 				item: "gtceu:iridium_ingot"
 				type: "item"
 			}]
-			x: -2.25d
-			y: 1.5d
+			x: 3.25d
+			y: -13.0d
 		}
 		{
 			dependencies: ["3C2FA92DB0A38D4D"]
@@ -1296,7 +1338,7 @@
 				}
 				type: "item"
 			}]
-			x: -2.0d
+			x: 3.0d
 			y: -6.5d
 		}
 		{
@@ -1305,6 +1347,10 @@
 				"{gto.ev.quests.2F6C81E3B10365E8.description0}"
 				""
 				"{gto.ev.quests.2F6C81E3B10365E8.description1}"
+				""
+				"{gto.ev.quests.2F6C81E3B10365E8.description2}"
+				""
+				"{gto.ev.quests.2F6C81E3B10365E8.description3}"
 			]
 			id: "2F6C81E3B10365E8"
 			shape: "gear"
@@ -1316,8 +1362,165 @@
 				type: "item"
 			}]
 			title: "{gto.ev.quests.2F6C81E3B10365E8.title}"
-			x: 1.5d
-			y: -11.0d
+			x: 5.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["4BA890971C18F938"]
+			description: ["{gto.ev.quests.60842E72EBC12615.description0}"]
+			id: "60842E72EBC12615"
+			tasks: [{
+				id: "75C4A0D8C08F2C15"
+				item: "gtocore:heavy_duty_plate_2"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["033815C0756BAE1F"]
+			hide_dependency_lines: true
+			id: "42CA62BB2A9C688A"
+			tasks: [{
+				id: "46EB9BF6C06EFB81"
+				item: "gtceu:ruthenium_dust"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["033815C0756BAE1F"]
+			description: ["{gto.ev.quests.00E4116CF5A14097.description0}"]
+			hide_dependency_lines: true
+			id: "00E4116CF5A14097"
+			tasks: [{
+				id: "1FF655F6092D2C93"
+				item: "gtceu:iridium_dust"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["033815C0756BAE1F"]
+			description: ["{gto.ev.quests.0CDF5979167EDEAB.description0}"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "0CDF5979167EDEAB"
+			tasks: [{
+				id: "553D7B61FC6CB2D7"
+				item: "gtceu:platinum_dust"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["033815C0756BAE1F"]
+			description: ["{gto.ev.quests.626D09E9899F9936.description0}"]
+			hide_dependency_lines: true
+			id: "626D09E9899F9936"
+			tasks: [{
+				id: "6D4331C6F18EE369"
+				item: "gtceu:palladium_dust"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["033815C0756BAE1F"]
+			description: ["{gto.ev.quests.55B897D3BC760E2E.description0}"]
+			hide_dependency_lines: true
+			id: "55B897D3BC760E2E"
+			tasks: [{
+				id: "642C483D1C26C934"
+				item: "gtceu:osmium_dust"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["033815C0756BAE1F"]
+			hide_dependency_lines: true
+			id: "3F2A2379C93BC41B"
+			tasks: [{
+				id: "5BE9D2CA3A0367EF"
+				item: "gtceu:rhodium_dust"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"4B4C62CD6455641C"
+				"67E7B62710A78614"
+			]
+			id: "41551B8820D1245A"
+			tasks: [{
+				id: "22C4FB4709D6A6F6"
+				item: "gtceu:ev_field_generator"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -14.25d
+		}
+		{
+			dependencies: ["5612C7735BC4F5BC"]
+			disable_toast: true
+			icon_scale: 0.25d
+			id: "0D7A4E6E0E413A37"
+			shape: "none"
+			size: 0.25d
+			tasks: [{
+				id: "3679DFF959D79890"
+				stat: "minecraft:jump"
+				type: "stat"
+				value: 1
+			}]
+			x: 9.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5612C7735BC4F5BC"]
+			disable_toast: true
+			icon_scale: 0.25d
+			id: "33A26D7564A8869C"
+			shape: "none"
+			size: 0.25d
+			tasks: [{
+				id: "0E1101DBE2929CC4"
+				stat: "minecraft:jump"
+				type: "stat"
+				value: 1
+			}]
+			x: 9.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"6EF9D30568DF4953"
+				"3CDB8FABC5A970BB"
+				"135B35F7619D288E"
+			]
+			description: ["{gto.ev.quests.3445EBF21F11706C.description0}"]
+			hide_dependency_lines: true
+			id: "3445EBF21F11706C"
+			shape: "diamond"
+			tasks: [{
+				id: "57CFFF5E04137F1C"
+				item: {
+					Count: 1
+					id: "gtocore:ev_drone"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.0d
 		}
 	]
 	subtitle: ["{gto.ev.subtitle0}"]

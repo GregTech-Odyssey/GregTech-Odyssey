@@ -1103,7 +1103,11 @@
 		}
 		{
 			dependencies: ["3A20210242A1C865"]
-			description: ["{gto.magic2.quests.26B836339560E939.description0}"]
+			description: [
+				"{gto.magic2.quests.26B836339560E939.description0}"
+				""
+				"{gto.magic2.quests.26B836339560E939.description1}"
+			]
 			id: "26B836339560E939"
 			shape: "octagon"
 			tasks: [{

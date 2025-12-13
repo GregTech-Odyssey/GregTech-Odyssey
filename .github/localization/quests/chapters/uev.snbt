@@ -232,7 +232,6 @@
 			dependencies: ["7B3C0DB7C1F11692"]
 			description: ["{gto.uev.quests.284111931F2808B4.description0}"]
 			id: "284111931F2808B4"
-			optional: true
 			tasks: [{
 				id: "67D16B7E9DAB2748"
 				item: "gtocore:suprachronal_circuit_max"

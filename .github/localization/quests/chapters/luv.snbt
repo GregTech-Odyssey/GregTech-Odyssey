@@ -11,7 +11,7 @@
 			image: "xtonesreworked:block/bitt/12"
 			rotation: 45.0d
 			width: 1.0d
-			x: 3.5d
+			x: 7.5d
 			y: -8.0d
 		}
 		{
@@ -21,7 +21,7 @@
 			order: 1
 			rotation: 45.0d
 			width: 1.0d
-			x: 3.5d
+			x: 7.5d
 			y: -8.0d
 		}
 		{
@@ -29,7 +29,7 @@
 			image: "xtonesreworked:block/bitt/12"
 			rotation: 45.0d
 			width: 1.0d
-			x: 2.5d
+			x: 14.5d
 			y: -8.0d
 		}
 		{
@@ -39,7 +39,7 @@
 			order: 1
 			rotation: 45.0d
 			width: 1.0d
-			x: 2.5d
+			x: 14.5d
 			y: -8.0d
 		}
 		{
@@ -65,7 +65,7 @@
 			image: "xtonesreworked:block/bitt/12"
 			rotation: 45.0d
 			width: 1.0d
-			x: 1.5d
+			x: 5.5d
 			y: -8.0d
 		}
 		{
@@ -75,7 +75,7 @@
 			order: 1
 			rotation: 45.0d
 			width: 1.0d
-			x: 1.5d
+			x: 5.5d
 			y: -8.0d
 		}
 	]
@@ -85,14 +85,14 @@
 			id: "0DAFE054BF92FA6E"
 			linked_quest: "0BC456B4331C09F5"
 			shape: "diamond"
-			x: 2.5d
+			x: 14.5d
 			y: -8.0d
 		}
 		{
 			id: "5F48CB73E3456910"
 			linked_quest: "430034AB98D8453B"
 			shape: "diamond"
-			x: 3.5d
+			x: 7.5d
 			y: -8.0d
 		}
 		{
@@ -106,13 +106,14 @@
 			id: "31FDB6095F1DCD59"
 			linked_quest: "498909CBDFB62BF6"
 			shape: "diamond"
-			x: 1.5d
+			x: 5.5d
 			y: -8.0d
 		}
 		{
 			id: "1DBC73565AB71C40"
 			linked_quest: "1BDAC7D9FED887B2"
-			x: 5.0d
+			shape: "diamond"
+			x: 16.0d
 			y: -8.0d
 		}
 		{
@@ -130,21 +131,31 @@
 			x: 9.0d
 			y: -4.5d
 		}
-	]
-	quests: [
 		{
-			dependencies: ["4CD7E4E23FCD3D84"]
-			id: "7F3DFA8A1C26F95C"
-			tasks: [{
-				id: "2010BDEFB714A974"
-				item: "gtceu:raw_naquadah"
-				type: "item"
-			}]
-			x: 1.0d
+			id: "51BF4E410B69F655"
+			linked_quest: "6CD1C787E12CE2CB"
+			x: 0.0d
 			y: 0.5d
 		}
 		{
-			dependencies: ["3DA166631D597693"]
+			id: "6F6CF3E58D7E8D83"
+			linked_quest: "25930ED6EFD93F8B"
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			id: "7FFC217CDFE86C52"
+			linked_quest: "15C830BF6953ABA0"
+			x: -0.5d
+			y: -4.5d
+		}
+	]
+	quests: [
+		{
+			dependencies: [
+				"3DA166631D597693"
+				"0A5D88BE8C35502E"
+			]
 			id: "459F5A53179FAC2A"
 			shape: "hexagon"
 			size: 1.5d
@@ -157,7 +168,8 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["7F3DFA8A1C26F95C"]
+			dependencies: ["6CD1C787E12CE2CB"]
+			description: ["{gto.luv.quests.20F6B937CF470863.description0}"]
 			id: "20F6B937CF470863"
 			shape: "hexagon"
 			tasks: [{
@@ -170,13 +182,14 @@
 		}
 		{
 			dependencies: ["459F5A53179FAC2A"]
+			description: ["{gto.luv.quests.1BB904691D1D3FD0.description0}"]
 			id: "1BB904691D1D3FD0"
 			tasks: [{
 				id: "7A475F1B157D9B67"
 				item: "gtceu:enriched_naquadah_ingot"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 4.5d
 			y: -4.5d
 		}
 		{
@@ -218,7 +231,7 @@
 				item: "gtceu:naquadah_alloy_ingot"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 6.5d
 			y: -4.5d
 		}
 		{
@@ -282,7 +295,17 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["485CB37F35E28C97"]
+			dependencies: [
+				"485CB37F35E28C97"
+				"52C0E5B54098C1AD"
+			]
+			description: [
+				"{gto.luv.quests.61A6D0112B0446AA.description0}"
+				""
+				"{gto.luv.quests.61A6D0112B0446AA.description1}"
+				""
+				"{gto.luv.quests.61A6D0112B0446AA.description2}"
+			]
 			id: "61A6D0112B0446AA"
 			shape: "hexagon"
 			tasks: [{
@@ -290,7 +313,7 @@
 				item: "gtceu:trinium_coil_block"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 4.5d
 			y: -1.5d
 		}
 		{
@@ -343,18 +366,26 @@
 				item: "gtocore:flocculation_purification_unit"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 6.0d
 			y: 0.5d
 		}
 		{
 			dependencies: ["3A8BF759CDBFB672"]
+			icon: "gtocore:flocculent_water_bucket"
 			id: "7F9F8356CB1A9357"
-			tasks: [{
-				id: "39B7751F86127CB7"
-				item: "gtocore:flocculent_water_bucket"
-				type: "item"
-			}]
-			x: 7.5d
+			tasks: [
+				{
+					id: "39B7751F86127CB7"
+					item: "gtocore:flocculent_water_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5004E30803F71AC0"
+					type: "checkmark"
+				}
+			]
+			x: 9.0d
 			y: 0.5d
 		}
 		{
@@ -377,7 +408,7 @@
 				item: "gtceu:superconducting_coil"
 				type: "item"
 			}]
-			x: 9.0d
+			x: 10.0d
 			y: -3.0d
 		}
 		{
@@ -390,7 +421,7 @@
 				item: "gtocore:energy_injector"
 				type: "item"
 			}]
-			x: 9.0d
+			x: 10.0d
 			y: -1.5d
 		}
 		{
@@ -401,11 +432,14 @@
 				item: "gtceu:fusion_casing"
 				type: "item"
 			}]
-			x: 10.5d
-			y: -3.0d
+			x: 10.857d
+			y: -4.5d
 		}
 		{
-			dependencies: ["2F03D93AC7DBE58D"]
+			dependencies: [
+				"251002F2103BDA84"
+				"10F52803BCD77DA0"
+			]
 			description: [
 				"{gto.luv.quests.4A5C6525DD244359.description0}"
 				""
@@ -551,7 +585,7 @@
 				item: "gtceu:naquadria_ingot"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 6.5d
 			y: -1.5d
 		}
 		{
@@ -579,7 +613,7 @@
 				item: "gtocore:magnetic_fluid_generator"
 				type: "item"
 			}]
-			x: 17.0d
+			x: 12.0d
 			y: 7.5d
 		}
 		{
@@ -600,11 +634,11 @@
 				item: "gtocore:luv_kuangbiao_one_giant_nuclear_fusion_reactor"
 				type: "item"
 			}]
-			x: 11.75d
+			x: 18.0d
 			y: 7.5d
 		}
 		{
-			dependencies: ["2F03D93AC7DBE58D"]
+			dependencies: ["4C8549E624A543C5"]
 			id: "10F52803BCD77DA0"
 			shape: "hexagon"
 			tasks: [{
@@ -612,7 +646,7 @@
 				item: "gtceu:luv_assembler"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 6.5d
 			y: -6.5d
 		}
 		{
@@ -625,8 +659,8 @@
 				item: "gtocore:integral_framework_luv"
 				type: "item"
 			}]
-			x: 1.0d
-			y: -6.5d
+			x: 6.5d
+			y: -8.0d
 		}
 		{
 			dependencies: [
@@ -694,8 +728,8 @@
 				item: "gtceu:naquadah_boule"
 				type: "item"
 			}]
-			x: 1.0d
-			y: -1.5d
+			x: 4.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["05EB6CDF13762280"]
@@ -840,12 +874,20 @@
 		{
 			dependencies: ["2F03D93AC7DBE58D"]
 			hide_dependency_lines: true
+			icon: "gtocore:polyurethaneresin_bucket"
 			id: "0FD2B76B1608F4FA"
-			tasks: [{
-				id: "21080DB88B17D322"
-				item: "gtocore:polyurethaneresin_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "21080DB88B17D322"
+					item: "gtocore:polyurethaneresin_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1F21AB806C55185F"
+					type: "checkmark"
+				}
+			]
 			x: 19.0d
 			y: -3.0d
 		}
@@ -911,11 +953,14 @@
 				item: "gtocore:decay_hastener"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 8.5d
 			y: -1.5d
 		}
 		{
-			dependencies: ["0985154AE9169549"]
+			dependencies: [
+				"0985154AE9169549"
+				"15C830BF6953ABA0"
+			]
 			description: ["{gto.luv.quests.3DA166631D597693.description0}"]
 			id: "3DA166631D597693"
 			tasks: [{
@@ -1094,6 +1139,13 @@
 		}
 		{
 			dependencies: ["789B188B05759151"]
+			description: [
+				"{gto.luv.quests.03ECABF0C3DF29EF.description0}"
+				""
+				"{gto.luv.quests.03ECABF0C3DF29EF.description1}"
+				""
+				"{gto.luv.quests.03ECABF0C3DF29EF.description2}"
+			]
 			id: "03ECABF0C3DF29EF"
 			tasks: [{
 				id: "75DAC0E76EB7EE42"
@@ -1125,8 +1177,108 @@
 				type: "item"
 			}]
 			title: "{gto.luv.quests.2F03D93AC7DBE58D.title}"
-			x: 6.0d
+			x: 2.5d
 			y: -6.5d
+		}
+		{
+			dependencies: ["09C2AF1A68A06D69"]
+			description: [
+				"{gto.luv.quests.0A5D88BE8C35502E.description0}"
+				""
+				"{gto.luv.quests.0A5D88BE8C35502E.description1}"
+			]
+			id: "0A5D88BE8C35502E"
+			subtitle: "{gto.luv.quests.0A5D88BE8C35502E.subtitle}"
+			tasks: [{
+				id: "422B908DA60F2DC8"
+				item: "gtocore:fall_king_ingot"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["137FFA84C0836E14"]
+			description: ["{gto.luv.quests.66C607FC8185118D.description0}"]
+			id: "66C607FC8185118D"
+			optional: true
+			shape: "diamond"
+			subtitle: "{gto.luv.quests.66C607FC8185118D.subtitle}"
+			tasks: [{
+				id: "54B9086245D581E0"
+				item: "gtocore:supercritical_steam_input_hatch"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["11CF6F5DE4A3CC4F"]
+			description: ["{gto.luv.quests.30534A92ED62F4B8.description0}"]
+			id: "30534A92ED62F4B8"
+			tasks: [{
+				id: "5A65EDF3A11F1E4E"
+				item: "gtceu:duranium_ingot"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["2F03D93AC7DBE58D"]
+			id: "6ED3C0725C3FDFEF"
+			optional: true
+			tasks: [{
+				id: "5E01B35ACE09FBA5"
+				item: "gtocore:supercritical_steam_turbine"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["722C24B0C50641D1"]
+			id: "137FFA84C0836E14"
+			optional: true
+			tasks: [{
+				id: "002F451C435AB44F"
+				item: "gtocore:supercritical_mega_steam_turbine"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"2F03D93AC7DBE58D"
+				"251002F2103BDA84"
+			]
+			description: ["{gto.luv.quests.4C8549E624A543C5.description0}"]
+			id: "4C8549E624A543C5"
+			tasks: [{
+				id: "745200744B0F7695"
+				item: "gtceu:luv_electric_motor"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["20F6B937CF470863"]
+			id: "7787A8BEBD46D860"
+			shape: "diamond"
+			subtitle: "{gto.luv.quests.7787A8BEBD46D860.subtitle}"
+			tasks: [{
+				id: "2DE7C832F2D6C110"
+				item: {
+					Count: 1
+					id: "gtocore:iv_drone"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -0.5d
 		}
 	]
 	subtitle: ["{gto.luv.subtitle0}"]

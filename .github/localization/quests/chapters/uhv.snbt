@@ -318,8 +318,7 @@
 			y: 10.5d
 		}
 		{
-			dependencies: ["1612D1DEB3A7BE2D"]
-			hide_dependency_lines: true
+			dependencies: ["68091264D09902CF"]
 			id: "19CB621C2BC26F4E"
 			tasks: [{
 				id: "05F63414ED66E520"
@@ -902,6 +901,30 @@
 			title: "{gto.uhv.quests.1612D1DEB3A7BE2D.title}"
 			x: -3.5d
 			y: -1.0d
+		}
+		{
+			dependencies: ["6649D02EADC9CC9B"]
+			description: ["{gto.uhv.quests.68091264D09902CF.description0}"]
+			id: "68091264D09902CF"
+			tasks: [{
+				id: "1DB9A2E3F61C97A0"
+				item: "gtocore:rutherfordium_amprosium_boule"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["208F73ECE425E473"]
+			description: ["{gto.uhv.quests.26F29F895D5F73D6.description0}"]
+			id: "26F29F895D5F73D6"
+			tasks: [{
+				id: "4BCBD91AE038321E"
+				item: "gtocore:rare_earth_centrifugal"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.0d
 		}
 	]
 	subtitle: ["{gto.uhv.subtitle0}"]

@@ -42,6 +42,7 @@
 			dependencies: ["0859B24E8AF3303F"]
 			description: [
 				"{gto.ulv.quests.3791F49E789E7673.description0}"
+				""
 				"{gto.ulv.quests.3791F49E789E7673.description1}"
 			]
 			id: "3791F49E789E7673"
@@ -618,6 +619,8 @@
 				"{gto.ulv.quests.03B5D54A3BB46B18.description0}"
 				""
 				"{gto.ulv.quests.03B5D54A3BB46B18.description1}"
+				""
+				"{gto.ulv.quests.03B5D54A3BB46B18.description2}"
 			]
 			id: "03B5D54A3BB46B18"
 			rewards: [{
@@ -643,6 +646,8 @@
 				"{gto.ulv.quests.2EE92A46E52B0565.description1}"
 				""
 				"{gto.ulv.quests.2EE92A46E52B0565.description2}"
+				""
+				"{gto.ulv.quests.2EE92A46E52B0565.description3}"
 			]
 			id: "2EE92A46E52B0565"
 			rewards: [{
@@ -904,6 +909,7 @@
 			]
 			icon: "gtocore:suprachronal_circuit_lv"
 			id: "6E3C93AC06BB6F31"
+			shape: "circle"
 			subtitle: "{gto.ulv.quests.6E3C93AC06BB6F31.subtitle}"
 			tasks: [{
 				id: "417A3F6AA48CF609"
@@ -1043,6 +1049,7 @@
 			]
 			icon: "immersive_aircraft:industrial_gears"
 			id: "201D44A832961946"
+			shape: "circle"
 			subtitle: "{gto.ulv.quests.201D44A832961946.subtitle}"
 			tasks: [{
 				id: "658933619AB97612"
@@ -1182,39 +1189,6 @@
 			]
 			x: 0.0d
 			y: 2.85d
-		}
-		{
-			dependencies: ["4AF39FF336EA1BF4"]
-			description: ["{gto.ulv.quests.389D61CE9E799725.description0}"]
-			id: "389D61CE9E799725"
-			rewards: [{
-				id: "354671ADCF4F585E"
-				item: {
-					Count: 1
-					id: "ae2:portable_item_cell_4k"
-					tag: {
-						internalCurrentPower: 20000.0d
-					}
-				}
-				type: "item"
-			}]
-			shape: "diamond"
-			subtitle: "{gto.ulv.quests.389D61CE9E799725.subtitle}"
-			tasks: [
-				{
-					id: "5B8F0331ED91AA12"
-					item: "gtocore:speed_upgrade_module"
-					type: "item"
-				}
-				{
-					id: "3845A732B77CD412"
-					item: "gtocore:energy_upgrade_module"
-					type: "item"
-				}
-			]
-			title: "{gto.ulv.quests.389D61CE9E799725.title}"
-			x: -3.5d
-			y: 1.5d
 		}
 		{
 			dependencies: ["2EE92A46E52B0565"]

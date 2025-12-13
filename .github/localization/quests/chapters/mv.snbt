@@ -20,7 +20,7 @@
 			linked_quest: "5D828A5258BFF11F"
 			shape: "gear"
 			size: 2.0d
-			x: 10.5d
+			x: 10.0d
 			y: 4.5d
 		}
 	]
@@ -61,7 +61,7 @@
 				type: "item"
 			}]
 			title: "{gto.mv.quests.49E5CC5873FA226F.title}"
-			x: 7.0d
+			x: 7.5d
 			y: -2.5d
 		}
 		{
@@ -77,8 +77,8 @@
 				item: "gtocore:alumina_ceramic_flake"
 				type: "item"
 			}]
-			x: 10.5d
-			y: -2.5d
+			x: 5.25d
+			y: -4.5d
 		}
 		{
 			dependencies: [
@@ -93,8 +93,8 @@
 				item: "gtocore:alumina_ceramic_dust"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -5.0d
+			x: -1.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["3899164922A734D8"]
@@ -109,8 +109,8 @@
 				item: "gtocore:reaction_furnace"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -6.75d
+			x: -1.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["1CD5736520A719FA"]
@@ -189,7 +189,7 @@
 				"52C68358D6E375AD"
 			]
 			id: "0EE9737781747575"
-			shape: "hexagon"
+			shape: "gear"
 			size: 1.5d
 			subtitle: "{gto.mv.quests.0EE9737781747575.subtitle}"
 			tasks: [{
@@ -245,14 +245,22 @@
 			dependencies: ["7E061DC16432D549"]
 			description: ["{gto.mv.quests.7C30575AACA9FE5B.description0}"]
 			hide_dependency_lines: true
+			icon: "gtceu:polyvinyl_chloride_bucket"
 			id: "7C30575AACA9FE5B"
-			tasks: [{
-				id: "47C136704A3DC721"
-				item: "gtceu:polyvinyl_chloride_bucket"
-				type: "item"
-			}]
-			x: 10.5d
-			y: 6.5d
+			tasks: [
+				{
+					id: "47C136704A3DC721"
+					item: "gtceu:polyvinyl_chloride_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5D7EDE97BD83A094"
+					type: "checkmark"
+				}
+			]
+			x: 6.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["21457B1122F97F88"]
@@ -275,7 +283,7 @@
 				item: "gtceu:stainless_steel_ingot"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 7.5d
 			y: 4.5d
 		}
 		{
@@ -310,7 +318,7 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["3D1E66868544975F"]
+			dependencies: ["08476EE4F11A0F2E"]
 			description: [
 				"{gto.mv.quests.307586CBEE0B955E.description0}"
 				""
@@ -337,7 +345,7 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["3D1E66868544975F"]
+			dependencies: ["08476EE4F11A0F2E"]
 			description: [
 				"{gto.mv.quests.3899164922A734D8.description0}"
 				""
@@ -369,8 +377,8 @@
 				item: "gtceu:transistor"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -4.0d
+			x: 7.5d
+			y: -4.5d
 		}
 		{
 			dependencies: [
@@ -388,12 +396,20 @@
 		}
 		{
 			dependencies: ["3899164922A734D8"]
+			icon: "gtocore:coolant_liquid_bucket"
 			id: "4353D16B457D84CF"
-			tasks: [{
-				id: "69451B83DA088C70"
-				item: "gtocore:coolant_liquid_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "69451B83DA088C70"
+					item: "gtocore:coolant_liquid_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "78E827BF8D69B227"
+					type: "checkmark"
+				}
+			]
 			x: -8.0d
 			y: 3.0d
 		}
@@ -460,6 +476,10 @@
 				"{gto.mv.quests.0D63E5A54480E693.description3}"
 				""
 				"{gto.mv.quests.0D63E5A54480E693.description4}"
+				""
+				"{gto.mv.quests.0D63E5A54480E693.description5}"
+				""
+				"{gto.mv.quests.0D63E5A54480E693.description6}"
 			]
 			hide_dependency_lines: true
 			icon: "gtocore:processing_plant"
@@ -493,7 +513,7 @@
 				item: "gtceu:mv_circuit_assembler"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 7.5d
 			y: -0.5d
 		}
 		{
@@ -585,14 +605,20 @@
 		}
 		{
 			dependencies: ["523744767F99B892"]
+			description: [
+				"{gto.mv.quests.2A3CD751D7C2AEBA.description0}"
+				""
+				"{gto.mv.quests.2A3CD751D7C2AEBA.description1}"
+			]
+			hide_dependency_lines: true
 			id: "2A3CD751D7C2AEBA"
 			tasks: [{
 				id: "3A6F0C18130A5CF5"
 				item: "gtceu:plastic_printed_circuit_board"
 				type: "item"
 			}]
-			x: 10.5d
-			y: 1.5d
+			x: 6.0d
+			y: 0.5d
 		}
 		{
 			dependencies: [
@@ -607,7 +633,7 @@
 				"{gto.mv.quests.61A40570FE41BC2D.description1}"
 			]
 			id: "61A40570FE41BC2D"
-			shape: "diamond"
+			shape: "hexagon"
 			size: 1.5d
 			subtitle: "{gto.mv.quests.61A40570FE41BC2D.subtitle}"
 			tasks: [
@@ -623,7 +649,7 @@
 				}
 			]
 			title: "{gto.mv.quests.61A40570FE41BC2D.title}"
-			x: 7.0d
+			x: 7.5d
 			y: 1.5d
 		}
 		{
@@ -730,7 +756,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: 0.5d
+			y: 2.5d
 		}
 		{
 			dependencies: [
@@ -760,7 +786,7 @@
 			]
 			hide_dependent_lines: true
 			id: "796DD5FB0E2A1E93"
-			shape: "circle"
+			shape: "diamond"
 			tasks: [{
 				id: "0B6E0EDA6C482F3F"
 				item: "gtceu:mv_miner"
@@ -778,8 +804,8 @@
 				item: "gtocore:alumina_ceramic_rough_blank"
 				type: "item"
 			}]
-			x: 4.5d
-			y: -5.0d
+			x: 0.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["2422B7ED59D31DBB"]
@@ -797,8 +823,8 @@
 				item: "gtocore:alumina_ceramic_block"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -5.0d
+			x: 1.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["153B10D3845F65F0"]
@@ -810,8 +836,8 @@
 				item: "gtocore:alumina_ceramic_brick"
 				type: "item"
 			}]
-			x: 10.5d
-			y: -5.0d
+			x: 3.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["3D1E66868544975F"]
@@ -832,20 +858,27 @@
 				item: "gtocore:aluminium_hydroxide_dust"
 				type: "item"
 			}]
-			x: 0.5d
-			y: -5.0d
+			x: -3.0d
+			y: -4.5d
 		}
 		{
-			dependencies: ["52C68358D6E375AD"]
+			dependencies: ["3D1E66868544975F"]
 			description: ["{gto.mv.quests.555F4F7869ADAE13.description0}"]
 			hide_dependency_lines: true
+			icon: "gtceu:lubricant_bucket"
 			id: "555F4F7869ADAE13"
-			optional: true
-			tasks: [{
-				id: "592E9841699DBFC7"
-				item: "gtceu:lubricant_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "592E9841699DBFC7"
+					item: "gtceu:lubricant_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1724E059896E87DE"
+					type: "checkmark"
+				}
+			]
 			x: -1.5d
 			y: 0.0d
 		}
@@ -867,14 +900,18 @@
 				item: "gtceu:mv_extruder"
 				type: "item"
 			}]
-			x: -15.5d
+			x: -16.5d
 			y: 2.0d
 		}
 		{
-			dependencies: ["3D1E66868544975F"]
+			dependencies: [
+				"3D1E66868544975F"
+				"6BB3386725B228D5"
+			]
 			description: ["{gto.mv.quests.4D0710E1E75F0C59.description0}"]
 			icon: "gtceu:mv_gas_turbine"
 			id: "4D0710E1E75F0C59"
+			optional: true
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [
@@ -910,7 +947,7 @@
 				}
 			]
 			title: "{gto.mv.quests.4D0710E1E75F0C59.title}"
-			x: -12.0d
+			x: -13.0d
 			y: 5.25d
 		}
 		{
@@ -924,7 +961,7 @@
 				item: "gtceu:mv_battery_buffer_16x"
 				type: "item"
 			}]
-			x: -15.5d
+			x: -16.5d
 			y: 3.0d
 		}
 		{
@@ -938,26 +975,29 @@
 				item: "gtceu:mv_bender"
 				type: "item"
 			}]
-			x: -13.5d
+			x: -14.5d
 			y: 3.0d
 		}
 		{
-			dependencies: ["3D1E66868544975F"]
+			dependencies: [
+				"3D1E66868544975F"
+				"6BB3386725B228D5"
+			]
 			description: [
 				"{gto.mv.quests.2B4C8EDEF659A21B.description0}"
 				""
 				"{gto.mv.quests.2B4C8EDEF659A21B.description1}"
 			]
 			id: "2B4C8EDEF659A21B"
-			shape: "diamond"
+			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
 				id: "6386944AC3419AC7"
 				item: "gtceu:mv_electrolyzer"
 				type: "item"
 			}]
-			x: -10.0d
-			y: 3.0d
+			x: -13.0d
+			y: 0.75d
 		}
 		{
 			dependencies: ["0EE9737781747575"]
@@ -967,7 +1007,7 @@
 				"{gto.mv.quests.37D79F05430D559B.description1}"
 			]
 			id: "37D79F05430D559B"
-			shape: "diamond"
+			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
 				id: "5C8EE7715BC939E9"
@@ -988,11 +1028,11 @@
 				item: "gtceu:mv_wiremill"
 				type: "item"
 			}]
-			x: -14.5d
+			x: -15.5d
 			y: 2.0d
 		}
 		{
-			dependencies: ["3D1E66868544975F"]
+			dependencies: ["08476EE4F11A0F2E"]
 			description: [
 				"[\"\", {\"translate\": \"gto.mv.quests.7E448FB79A010162.description0.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"4FC3EC9C6C25633F\"}, \"translate\": \"gto.mv.quests.7E448FB79A010162.description0.rich_text1\"}, {\"translate\": \"gto.mv.quests.7E448FB79A010162.description0.rich_text2\"}]"
 				""
@@ -1000,14 +1040,14 @@
 			]
 			id: "7E448FB79A010162"
 			shape: "diamond"
-			size: 1.5d
+			size: 1.0d
 			tasks: [{
 				id: "3A0D90AC0798673F"
 				item: "gtceu:mv_air_scrubber"
 				type: "item"
 			}]
-			x: -12.0d
-			y: 0.75d
+			x: -9.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["3D1E66868544975F"]
@@ -1020,7 +1060,7 @@
 				item: "gtocore:mv_cluster"
 				type: "item"
 			}]
-			x: -13.5d
+			x: -14.5d
 			y: 4.0d
 		}
 		{
@@ -1034,7 +1074,7 @@
 				item: "gtocore:mv_laminator"
 				type: "item"
 			}]
-			x: -14.5d
+			x: -15.5d
 			y: 3.0d
 		}
 		{
@@ -1055,7 +1095,7 @@
 				item: "gtocore:mv_rolling"
 				type: "item"
 			}]
-			x: -13.5d
+			x: -14.5d
 			y: 2.0d
 		}
 		{
@@ -1069,7 +1109,7 @@
 				item: "gtocore:mv_loom"
 				type: "item"
 			}]
-			x: -14.5d
+			x: -15.5d
 			y: 4.0d
 		}
 		{
@@ -1083,7 +1123,7 @@
 				item: "gtocore:mv_arc_generator"
 				type: "item"
 			}]
-			x: -15.5d
+			x: -16.5d
 			y: 4.0d
 		}
 		{
@@ -1140,7 +1180,7 @@
 				type: "item"
 			}]
 			title: "{gto.mv.quests.1DBBBBC4F368466E.title}"
-			x: -12.0d
+			x: -13.0d
 			y: -1.5d
 		}
 		{
@@ -1179,6 +1219,7 @@
 		}
 		{
 			dependencies: ["0D63E5A54480E693"]
+			description: ["{gto.mv.quests.3C7271A1D09BEE0F.description0}"]
 			id: "3C7271A1D09BEE0F"
 			optional: true
 			subtitle: "{gto.mv.quests.3C7271A1D09BEE0F.subtitle}"
@@ -1211,7 +1252,7 @@
 				type: "item"
 			}]
 			title: "{gto.mv.quests.3D1E66868544975F.title}"
-			x: -12.0d
+			x: -13.0d
 			y: 3.0d
 		}
 		{
@@ -1230,21 +1271,27 @@
 					type: "item"
 				}
 				{
-					count: 4
+					count: 8
 					id: "321EB45326D4E5F5"
 					item: "gtceu:mv_conveyor_module"
 					type: "item"
 				}
 				{
-					count: 4
+					count: 8
 					id: "66DF86FC38F93D85"
 					item: "gtceu:mv_electric_piston"
 					type: "item"
 				}
 				{
-					count: 4
+					count: 8
 					id: "1948867335BCC17C"
 					item: "gtceu:mv_robot_arm"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "4B002E77FC0DC8B2"
+					item: "gtceu:mv_electric_pump"
 					type: "item"
 				}
 			]
@@ -1253,7 +1300,7 @@
 				type: "checkmark"
 			}]
 			title: "{gto.mv.quests.7DBC3868363B971B.title}"
-			x: -11.0d
+			x: -11.5d
 			y: 0.0d
 		}
 		{
@@ -1265,19 +1312,33 @@
 			hide_until_deps_visible: true
 			icon: "gtceu:advanced_integrated_circuit"
 			id: "06AD4784071F6B2F"
-			rewards: [{
-				count: 16
-				id: "5A50E88352A4628A"
-				item: "gtceu:advanced_integrated_circuit"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 32
+					id: "7F8C57B32D0A709A"
+					item: "gtceu:basic_integrated_circuit"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "6F2C0AB070760526"
+					item: "gtceu:good_integrated_circuit"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "151636EFA499C7C2"
+					item: "gtceu:advanced_integrated_circuit"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "70616588724AAA76"
 				type: "checkmark"
 			}]
 			title: "{gto.mv.quests.06AD4784071F6B2F.title}"
-			x: 8.5d
-			y: -1.0d
+			x: 9.5d
+			y: -2.5d
 		}
 		{
 			dependencies: [
@@ -1298,8 +1359,94 @@
 				type: "checkmark"
 			}]
 			title: "{gto.mv.quests.49C87F47E2920611.title}"
-			x: 7.0d
-			y: 6.5d
+			x: 8.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"3D1E66868544975F"
+				"6BB3386725B228D5"
+			]
+			description: ["{gto.mv.quests.08476EE4F11A0F2E.description0}"]
+			id: "08476EE4F11A0F2E"
+			rewards: [{
+				count: 8
+				id: "41E37D734EABDF7D"
+				item: "gtceu:mv_electric_motor"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5783FC46852CFFF6"
+					item: "gtceu:mv_electric_motor"
+					type: "item"
+				}
+				{
+					id: "164384D09C8EDA27"
+					item: "gtceu:mv_electric_piston"
+					type: "item"
+				}
+				{
+					id: "7506C52623DA6082"
+					item: "gtceu:mv_conveyor_module"
+					type: "item"
+				}
+				{
+					id: "0E91B549A89060B2"
+					item: "gtceu:mv_robot_arm"
+					type: "item"
+				}
+			]
+			title: "{gto.mv.quests.08476EE4F11A0F2E.title}"
+			x: -11.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5956E4E095324029"]
+			description: ["{gto.mv.quests.4964E72FD76A39C9.description0}"]
+			icon: "gtceu:mv_field_generator"
+			id: "4964E72FD76A39C9"
+			tasks: [{
+				id: "0A3FD6F0ED4BBE21"
+				type: "checkmark"
+			}]
+			title: "{gto.mv.quests.4964E72FD76A39C9.title}"
+			x: -10.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"056EC4E6FAF614B7"
+				"0EE9737781747575"
+			]
+			description: ["{gto.mv.quests.20D2FDD034D5A14E.description0}"]
+			hide_until_deps_visible: true
+			icon: "gtceu:polyethylene_plate"
+			id: "20D2FDD034D5A14E"
+			rewards: [{
+				count: 256
+				id: "1B5610616F949F8D"
+				item: "gtceu:polyethylene_plate"
+				type: "item"
+			}]
+			tasks: [{
+				id: "46F011A8ED2E1B32"
+				type: "checkmark"
+			}]
+			title: "{gto.mv.quests.20D2FDD034D5A14E.title}"
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7C30575AACA9FE5B"]
+			id: "49C98B195E3BD634"
+			tasks: [{
+				id: "620432B2C6E16FEA"
+				item: "gtceu:polyvinyl_chloride_plate"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 6.0d
 		}
 	]
 	subtitle: ["{gto.mv.subtitle0}"]
