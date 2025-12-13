@@ -42,6 +42,7 @@
 			dependencies: ["0859B24E8AF3303F"]
 			description: [
 				"另一种发电方式，可以让你直接使用石化燃料发电。"
+				""
 				"产能略微比原始热力发电机大。"
 			]
 			id: "3791F49E789E7673"
@@ -617,6 +618,8 @@
 			description: [
 				"&6车床&r是可以将金属锭直接制作为&6杆&r（产量比手搓的翻倍哦！）、将螺栓制作为&6螺丝&r、将齿轮制作为&6锯片&r的机器"
 				""
+				"由于电压过低，目前你还无法加工&6钢&r"
+				""
 				"&7&o我讨厌锉子！&r"
 			]
 			id: "03B5D54A3BB46B18"
@@ -643,6 +646,8 @@
 				"相比徒手制作导线 ，材料产出率整整提高了&b2-3倍&r之多"
 				""
 				"或许是你应该做的第一台ULV机器？"
+				""
+				"由于电压过低，目前你还无法加工&6铜&r"
 			]
 			id: "2EE92A46E52B0565"
 			rewards: [{
@@ -904,6 +909,7 @@
 			]
 			icon: "gtocore:suprachronal_circuit_lv"
 			id: "6E3C93AC06BB6F31"
+			shape: "circle"
 			subtitle: "准备好了吗？"
 			tasks: [{
 				id: "417A3F6AA48CF609"
@@ -1033,16 +1039,17 @@
 		{
 			dependencies: ["0FBE7318DFBA700E"]
 			description: [
-				"为了进入LV阶段，在超低压阶段你就需要制作塑料片（&6聚乙烯板&r）来合成LV机器外壳"
+				"与常规GregTech流程不同的是，为了进入&7LV&r阶段，在超低压阶段你就需要制作塑料片（&6聚乙烯板&r）来合成&6LV机器外壳&r"
 				""
-				"你将搭建&7原始&r而&e简单&r的化工产线"
+				"因此，你现在需要搭建一条&7原始&r而&e简单&r的石化产线来获取乙烯"
 				""
-				"在接下来的任务中你会看到&a“检查标记”&r按钮，在你按下这个按钮之后就可以进行下一步的任务了"
+				"&e在接下来的任务中你会看到&r&a“检查标记”&r&e按钮，在你按下这个按钮之后就可以进行下一步的任务了&r"
 				""
 				"&m&8避免出现为了一桶产物倒回去重新运行一次配方的尴尬&r&r"
 			]
 			icon: "immersive_aircraft:industrial_gears"
 			id: "201D44A832961946"
+			shape: "circle"
 			subtitle: "发展的核心"
 			tasks: [{
 				id: "658933619AB97612"
@@ -1182,39 +1189,6 @@
 			]
 			x: 0.0d
 			y: 2.85d
-		}
-		{
-			dependencies: ["4AF39FF336EA1BF4"]
-			description: ["升级模块拿在手上&e潜行右键&r会消耗玩家&c全部&r的经验，然后附加属性（确保玩家有10级以上的经验），可以右键小机器和部分多方块来升级，升级效果为永久加成，可覆盖升级。"]
-			id: "389D61CE9E799725"
-			rewards: [{
-				id: "354671ADCF4F585E"
-				item: {
-					Count: 1
-					id: "ae2:portable_item_cell_4k"
-					tag: {
-						internalCurrentPower: 20000.0d
-					}
-				}
-				type: "item"
-			}]
-			shape: "diamond"
-			subtitle: "今日手气如何？"
-			tasks: [
-				{
-					id: "5B8F0331ED91AA12"
-					item: "gtocore:speed_upgrade_module"
-					type: "item"
-				}
-				{
-					id: "3845A732B77CD412"
-					item: "gtocore:energy_upgrade_module"
-					type: "item"
-				}
-			]
-			title: "升级模块！加速吧！！！"
-			x: -3.5d
-			y: 1.5d
 		}
 		{
 			dependencies: ["2EE92A46E52B0565"]

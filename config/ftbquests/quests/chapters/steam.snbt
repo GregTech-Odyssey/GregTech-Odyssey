@@ -1081,14 +1081,18 @@
 		{
 			dependencies: ["27F4D9739FE33A02"]
 			description: [
-				"原矿石不能够直接通过研磨机直接粉碎，而是通过&6矿石破碎机&r进行处理"
+				"你终于拥有了矿处的基本能力！通过&6矿石破碎机&r进行处理的原矿石会增产&a3倍&r"
+				""
+				"如铁等前期矿石允许你在熔炉里烧炼矿处过程中的&e任何形态&r，但通常你只有完成矿处获得&6金属粉&r才可放入熔炉里烧炼成&6锭&r"
 				""
 				"处理某些矿(如粗红石)时很可能会因为产率过高而阻塞输出口，所以你可以选择设置&6两个&r输出口或者在输出口之前增设一个&d存储&r"
+				""
+				"[ \"去\", { \"text\": \"资源获取与处理\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"7DB63DF889DDDEF4\" } }, \"看看矿处流程！\"]"
 			]
 			id: "5660509FA09D2239"
-			shape: "diamond"
+			shape: "hexagon"
 			size: 1.5d
-			subtitle: "然而它并不能粉碎圆石"
+			subtitle: "矿处，启动！"
 			tasks: [{
 				id: "17454D8B9CB1AE31"
 				item: "gtocore:steam_crusher"
@@ -1295,6 +1299,8 @@
 				"3.&6锅炉&r内蒸汽满了&e没有及时排出&r"
 				""
 				"在加热器正面放置方块后加热器会暂停工作"
+				""
+				"&o&7产能远超同时期机器，但是如何提供燃料以及如何控制启停是个问题"
 			]
 			id: "5859702A2DF96727"
 			optional: true
@@ -1758,6 +1764,7 @@
 				"&b银&r在这个世界并不稀缺，你是否注意到了地上的那些&d亮晶晶的银色岩石碎屑&r？"
 			]
 			id: "72F99B3B63217418"
+			optional: true
 			shape: "diamond"
 			subtitle: "不会钙化"
 			tasks: [{
@@ -1773,6 +1780,7 @@
 			dependencies: ["7BCD49717F8FAD65"]
 			description: ["三倍蒸汽产能，如果有钢，几乎没有理由用普通版本！"]
 			id: "0BD03513ABDC6A9C"
+			optional: true
 			shape: "diamond"
 			tasks: [{
 				id: "50AE654E47F127C4"
@@ -1790,6 +1798,7 @@
 				"[ \"\", {\"text\":\"……我刚刚说了\", \"color\":\"yellow\" }, { \"text\": \"半流质\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3791F49E789E7673\" } }, {\"text\":\"对吧\", \"color\":\"yellow\" }]"
 			]
 			id: "1108939F9923176C"
+			optional: true
 			shape: "diamond"
 			tasks: [{
 				id: "5EF6AC41E4293D2E"
@@ -1803,6 +1812,7 @@
 			dependencies: ["7BCD49717F8FAD65"]
 			description: ["两倍蒸汽产能，如果有钢，几乎没有理由用普通版本！"]
 			id: "10E17EBACB3697C9"
+			optional: true
 			shape: "diamond"
 			subtitle: "更疯狂的杂酚油吞噬者"
 			tasks: [{
@@ -1834,6 +1844,7 @@
 				"在拥有钢之后，&6高压锅炉&r必然是更优的蒸汽来源，其蒸汽输出为普通版本的&6两至三倍&r！"
 			]
 			id: "77C71C9A52ADF6A6"
+			optional: true
 			shape: "diamond"
 			tasks: [{
 				id: "026C5E9B6FB8E5D2"

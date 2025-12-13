@@ -1071,7 +1071,7 @@
 			y: 11.5d
 		}
 	]
-	order_index: 4
+	order_index: 5
 	quest_links: [
 		{
 			id: "73C7693D280F6D40"
@@ -1117,6 +1117,7 @@
 				{
 					id: "603914C7BECB258E"
 					item: "ae2:energy_acceptor"
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -1124,6 +1125,10 @@
 					item: "ae2:controller"
 					optional_task: true
 					type: "item"
+				}
+				{
+					id: "3F08D1D891690E8E"
+					type: "checkmark"
 				}
 			]
 			title: "应用能源起步"
@@ -1420,8 +1425,8 @@
 		}
 		{
 			dependencies: [
-				"10F52803BCD77DA0"
 				"1EED90EE9774CD7A"
+				"7E1C35C2DE805E6B"
 			]
 			description: [
 				"支持&l&e样板之间的完全隔离&r&r，妈妈再也不用担心我化反串配方了！"
@@ -1454,6 +1459,7 @@
 			description: ["和纠缠方块类似，可以代理一个流体或物品容器，相当于隔空操作方块进行物流！"]
 			icon: "gtocore:tesseract_generator"
 			id: "5F522D73AF5F1B2F"
+			optional: true
 			subtitle: "比镜像更好"
 			tasks: [
 				{
@@ -1688,9 +1694,9 @@
 		}
 		{
 			dependencies: [
-				"2695890B68ED84DE"
 				"50158929D20CC96E"
 				"5FCFE3D6B36CC409"
+				"44B2AB98840349D2"
 			]
 			id: "034D579A41F2ED3D"
 			shape: "hexagon"
@@ -1716,22 +1722,11 @@
 			y: 4.5d
 		}
 		{
-			description: ["配合下方任务拿到的压印模板使用"]
+			description: ["这个机器不能压印模板，你需要使用激光蚀刻机"]
 			id: "2695890B68ED84DE"
 			tasks: [{
 				id: "14B879502532287D"
 				item: "ae2:inscriber"
-				type: "item"
-			}]
-			x: -11.0d
-			y: 3.5d
-		}
-		{
-			dependencies: ["2695890B68ED84DE"]
-			id: "2E0386F51BF9CCEE"
-			tasks: [{
-				id: "01FD55F163CD8CB9"
-				item: "expatternprovider:ex_inscriber"
 				type: "item"
 			}]
 			x: -13.0d
@@ -1860,6 +1855,7 @@
 					type: "item"
 				}
 			]
+			title: "ME库存输入总线和ME库存输入仓"
 			x: -5.0d
 			y: 9.5d
 		}
@@ -3684,9 +3680,10 @@
 		}
 		{
 			dependencies: [
-				"1EED90EE9774CD7A"
 				"228B283B5477879B"
+				"1EED90EE9774CD7A"
 			]
+			description: ["和样板总成配合使用，与样板总成绑定后被视作同一个方块，下单发配的时候会同时发配到总成和镜像中"]
 			id: "17CEA439C0110AFA"
 			tasks: [{
 				id: "20A3954946CB5C6E"
@@ -3767,6 +3764,7 @@
 			description: ["可以放置在&6量子网桥&r和&6无线终端&r中进行跨纬度通信"]
 			hide_dependent_lines: true
 			id: "176C374E1C0EA92F"
+			subtitle: "[-h^2/2m∇^2 + V(x,t)]ψ(x,t) = iht'ψ(x,t)"
 			tasks: [{
 				count: 2L
 				id: "12D8D8792CFD04AC"
@@ -3978,7 +3976,7 @@
 				""
 				"&e存储容量&r = 已安装的&6合成存储核心&r容量之和"
 				"&e并行数&r = 并行控制仓的并行数 * 已安装&6合成存储核心&r个数"
-				"&e线程数&r = 4^结构玻璃等级"
+				"&e线程数&r = 2^结构玻璃等级"
 			]
 			id: "5F7635CC667AD219"
 			min_width: 225
@@ -4038,7 +4036,11 @@
 		}
 		{
 			dependencies: ["5F96077A62E88635"]
-			description: ["&6订单&r是一种用来完成一次&e“伪合成请求”&r的&6编码样板&r，你可以用它来直接请求合成&b一台或多台多方块机器的所有方块&r，或自定义一个你想要的&e“套餐”&r，比如&b一座建筑的所有建筑材料&r！"]
+			description: [
+				"&6订单&r是一种用来完成一次&e“伪合成请求”&r的&6编码样板&r，你可以用它来直接请求合成&b一台或多台多方块机器的所有方块&r，或自定义一个你想要的&e“套餐”&r，比如&b一座建筑的所有建筑材料&r！"
+				""
+				"&o&7多方块页面的填充配方已经内置了订单，快去试试吧"
+			]
 			hide_dependency_lines: true
 			id: "3A3CCF0B1FF4EEA3"
 			subtitle: "妙妙工具系列#1"
@@ -4133,6 +4135,70 @@
 			title: "喷漆罐"
 			x: -19.0d
 			y: 1.5d
+		}
+		{
+			dependencies: [
+				"056EC4E6FAF614B7"
+				"5FCFE3D6B36CC409"
+			]
+			description: ["部分任务引导在简单模式下不适用，直接使用原版合成配方即可"]
+			hide_until_deps_visible: true
+			icon: "ae2:wireless_terminal"
+			id: "073CEA22FD3EF535"
+			shape: "pentagon"
+			subtitle: "简单模式下，AE配方未经魔改！"
+			tasks: [{
+				id: "134FCC3297599FBD"
+				type: "checkmark"
+			}]
+			title: "无AE魔改&a（简单）&r"
+			x: -7.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["034D579A41F2ED3D"]
+			description: ["用于复制粘贴各种接口的配置"]
+			hide_dependency_lines: true
+			id: "246AB02BB7F4129D"
+			tasks: [{
+				id: "4383E6058D137ABB"
+				item: {
+					Count: 1
+					id: "ae2:memory_card"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -21.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2A893BFDB41B7CFC"]
+			id: "44B2AB98840349D2"
+			tasks: [
+				{
+					id: "2B7564BACBAEE2E0"
+					item: "ae2:printed_silicon"
+					type: "item"
+				}
+				{
+					id: "3033FAEF1018B612"
+					item: "ae2:printed_calculation_processor"
+					type: "item"
+				}
+				{
+					id: "4752ABD401EC176B"
+					item: "ae2:printed_engineering_processor"
+					type: "item"
+				}
+				{
+					id: "02F0689BAE48AACE"
+					item: "ae2:printed_logic_processor"
+					type: "item"
+				}
+			]
+			x: -11.0d
+			y: 3.5d
 		}
 	]
 	subtitle: ["Applied Energistics 2"]

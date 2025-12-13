@@ -3,7 +3,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "beyond-the-stars"
-	group: "48D03BA483B3FA87"
+	group: ""
 	icon: {
 		Count: 1
 		id: "ad_astra_rocketed:tier_7_rocket"
@@ -148,7 +148,7 @@
 			y: -5.5d
 		}
 	]
-	order_index: 2
+	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{
@@ -637,10 +637,7 @@
 			y: 3.0d
 		}
 		{
-			dependencies: [
-				"7A7DC6205DED9BF3"
-				"38A6F2FA481A85E5"
-			]
+			dependencies: ["7A7DC6205DED9BF3"]
 			description: [
 				"你需要把你的身体的各个&6器官&r都强化到&e标准级&r之后才能抵御&d星际乱流&r的影响"
 				""
@@ -650,7 +647,6 @@
 				""
 				"&o&8自己给自己在清醒时做手术，可真的是有点惊悚呢&r&r"
 			]
-			hide_dependency_lines: true
 			id: "1D57ED21E8AD1A26"
 			rewards: [{
 				id: "6B918E6B2EF24972"
@@ -958,8 +954,13 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["2F6C81E3B10365E8"]
+			dependencies: [
+				"6EF9D30568DF4953"
+				"3CDB8FABC5A970BB"
+				"08891CB1BAFA5515"
+			]
 			description: ["这里是Tire2器官，它可以带你去&e金星&r、&5水星&r和&8谷神星&r"]
+			hide_dependency_lines: true
 			id: "2D901DBE68F833D2"
 			shape: "hexagon"
 			size: 2.0d
@@ -1766,8 +1767,9 @@
 			y: 11.0d
 		}
 		{
-			dependencies: ["2F03D93AC7DBE58D"]
+			dependencies: ["1E239C34C36FAD60"]
 			description: ["这里是Tire3器官，它可以带你去&c木卫一&r、&1木卫三&r、&5土卫二&r、&9土卫六&r、&d冥王星&r和&2霜原星&r"]
+			hide_dependency_lines: true
 			id: "56408F9F9ACD204D"
 			shape: "hexagon"
 			size: 2.0d
@@ -2091,7 +2093,10 @@
 			y: 13.0d
 		}
 		{
-			dependencies: ["05C7059BC114AD42"]
+			dependencies: [
+				"05C7059BC114AD42"
+				"7DD3E20C1AF38823"
+			]
 			id: "72AACC1178BF7586"
 			shape: "hexagon"
 			size: 2.0d
@@ -2585,6 +2590,7 @@
 				"22C91CDFD9C07B97"
 			]
 			id: "632D29DA89C3CEA4"
+			optional: true
 			tasks: [{
 				id: "354A13045B66A68A"
 				item: {
@@ -2662,6 +2668,7 @@
 			]
 			description: ["对的，它能存储氧气"]
 			id: "5AED06E84B4278D6"
+			optional: true
 			tasks: [{
 				id: "0E7833FD30BA1708"
 				item: {

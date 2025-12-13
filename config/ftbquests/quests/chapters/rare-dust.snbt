@@ -1,0 +1,703 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "rare-dust"
+	group: "33C930DBAB246BE3"
+	hide_quest_until_deps_visible: true
+	id: "787BA7C3F8F79879"
+	images: [
+		{
+			color: 16711935
+			height: 1.0d
+			image: "ftbquests:block/barrier_open"
+			order: 1
+			rotation: 45.0d
+			width: 1.0d
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			color: 16711935
+			height: 1.0d
+			image: "ftbquests:block/barrier_open"
+			order: 1
+			rotation: 45.0d
+			width: 1.0d
+			x: 2.5d
+			y: -2.0d
+		}
+	]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7F85B7596400D9B7"]
+			id: "218DF03160595A6F"
+			tasks: [{
+				id: "0F421B066A2BAB87"
+				item: "gtocore:monazite_rare_earth_turbid_liquid_bucket"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["218DF03160595A6F"]
+			id: "75FF3EA9CF248DA8"
+			tasks: [{
+				id: "7ED2800CC9158C1F"
+				item: "gtocore:diluted_monazite_slurry_bucket"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["75FF3EA9CF248DA8"]
+			id: "37462EF914F322CF"
+			tasks: [{
+				id: "3D1A9EDBB45CD63F"
+				item: "gtocore:acidic_monazite_dust"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -2.0d
+		}
+		{
+			can_repeat: false
+			dependencies: ["37462EF914F322CF"]
+			dependency_requirement: "one_completed"
+			id: "7ACA4ED39A1119FD"
+			shape: "diamond"
+			tasks: [{
+				id: "14AB746C12D36A98"
+				item: "gtocore:thorium_phosphate_refined_dust"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["355FF18BC5AECBBF"]
+			id: "3967DE6E4384B756"
+			tasks: [{
+				id: "4D4D368BC1287F2E"
+				item: "gtocore:steam_cracked_fluoro_carbon_lanthanide_slurry_bucket"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4F220FB82AB77225"]
+			id: "355FF18BC5AECBBF"
+			tasks: [{
+				id: "330880F4CCC4AB59"
+				item: "gtocore:fluoro_carbon_lanthanide_cerium_solution_bucket"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["75569B5559E011E2"]
+			id: "4F220FB82AB77225"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "4DECA124A915D0BB"
+				item: "gtceu:bastnasite_dust"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4F220FB82AB77225"]
+			id: "2FD681A788D189E9"
+			tasks: [{
+				id: "680F16E7BA80DB34"
+				item: "gtocore:cerium_rich_mixture_dust"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2FD681A788D189E9"]
+			id: "5858E81A332CE35E"
+			shape: "pentagon"
+			tasks: [{
+				id: "0D9E357440B3C1CD"
+				item: "gtocore:concentrated_cerium_chloride_solution_bucket"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"26F29F895D5F73D6"
+				"75569B5559E011E2"
+			]
+			description: ["UHV以后的稀土离心路线"]
+			id: "72DFAC3212692136"
+			tasks: [{
+				id: "64516808A90E9FB3"
+				item: "gtocore:p507_bucket"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["72DFAC3212692136"]
+			id: "45B6AB3615FF2228"
+			tasks: [{
+				id: "435E547C20569366"
+				title: "17个纳米萃取树脂"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"69C8B1423C6D98F8"
+				"5858E81A332CE35E"
+			]
+			id: "67111A7C89E5BAA7"
+			tasks: [{
+				id: "64CDC81DF8C2AFE0"
+				item: "gtocore:concentrated_rare_earth_chloride_solution_bucket"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["67111A7C89E5BAA7"]
+			id: "3EB2D0CA54B2DE40"
+			tasks: [{
+				id: "5053BA6212021968"
+				item: "gtocore:enriched_rare_earth_chloride_solution_bucket"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3EB2D0CA54B2DE40"]
+			id: "5D2C28357AB7D76A"
+			tasks: [{
+				id: "03B57CB515A79148"
+				item: "gtocore:diluted_rare_earth_chloride_solution_bucket"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["45B6AB3615FF2228"]
+			id: "5FE4742B6A5FFABA"
+			tasks: [{
+				id: "5A310F6717B18752"
+				title: "17个溢满的纳米萃取树脂"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2ED005FB3DC2EAB2"]
+			id: "69C8B1423C6D98F8"
+			shape: "pentagon"
+			tasks: [{
+				id: "7ED1A0AF5EDC3F7C"
+				item: "gtocore:samarium_chloride_concentrate_solution_bucket"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["68012C0C6C072430"]
+			id: "3678A2BA0642E20A"
+			tasks: [{
+				id: "732A4EC295FE4F92"
+				item: "gtocore:fluoro_carbon_lanthanide_cerium_oxide_dust"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7FD4EA18599A4C80"]
+			id: "68012C0C6C072430"
+			tasks: [{
+				id: "269E11D2DA3B35B1"
+				item: "gtocore:diluted_fluoro_carbon_lanthanide_slurry_bucket"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3967DE6E4384B756"]
+			id: "7FD4EA18599A4C80"
+			tasks: [{
+				id: "36C40CE93CCD8983"
+				item: "gtocore:modulated_fluoro_carbon_lanthanide_slurry_bucket"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["161FACD3D460966C"]
+			id: "0A78F54E5DACFCA1"
+			tasks: [{
+				id: "2F796F755B795851"
+				item: "gtocore:cerium_rich_mixture_dust"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["161FACD3D460966C"]
+			id: "6420CA428DC82F6F"
+			shape: "rsquare"
+			tasks: [{
+				id: "43EE4072D89FE2B6"
+				item: "gtocore:cerium_oxide_dust"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2ED005FB3DC2EAB2"]
+			id: "161FACD3D460966C"
+			tasks: [{
+				id: "2EF12596605F880E"
+				item: "gtocore:samarium_rare_earth_turbid_liquid_bucket"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["75569B5559E011E2"]
+			description: ["钕矿副产物"]
+			id: "2ED005FB3DC2EAB2"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "772489A2AC0DA9B6"
+				item: "gtocore:samarium_refined_dust"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"2FD681A788D189E9"
+				"3703CE6AC3C7DF99"
+				"0A78F54E5DACFCA1"
+			]
+			description: ["增产100%"]
+			id: "08BE4F17331AA62A"
+			tasks: [{
+				count: 2L
+				id: "2F8EEE85FAF3939E"
+				item: "gtocore:nitric_leachate_from_monazite_bucket"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["37462EF914F322CF"]
+			id: "3703CE6AC3C7DF99"
+			tasks: [{
+				id: "37A3C5D8E8F8DB4C"
+				item: "gtocore:concentrated_monazite_rare_earth_hydroxide_dust"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["37462EF914F322CF"]
+			id: "464EEB44F0B7A22D"
+			shape: "diamond"
+			tasks: [{
+				id: "0D9EC9BD144C22AA"
+				item: "gtocore:uranium_filter_residue_dust"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["464EEB44F0B7A22D"]
+			dependency_requirement: "one_completed"
+			id: "4BC385BC19FBAB91"
+			shape: "rsquare"
+			tasks: [{
+				id: "35AB4A69C5762430"
+				item: "gtceu:uranium_235_dust"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3703CE6AC3C7DF99"]
+			id: "51329F6185D2DECE"
+			tasks: [{
+				id: "6C9911E456329F6C"
+				item: "gtocore:nitric_leachate_from_monazite_bucket"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["51329F6185D2DECE"]
+			id: "5D62F873D2AE9ABA"
+			shape: "rsquare"
+			tasks: [{
+				id: "63F8FFCCA0F0593C"
+				item: "gtocore:europium_oxide_dust"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"08BE4F17331AA62A"
+				"51329F6185D2DECE"
+			]
+			id: "01967C002078825B"
+			tasks: [{
+				id: "66D8521D51011A11"
+				item: "gtocore:monazite_rare_earth_precipitate_dust"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["01967C002078825B"]
+			id: "1A173C1B9D1AD237"
+			tasks: [{
+				count: 2L
+				id: "3455E3D7CCB32AC5"
+				item: "gtocore:saturated_monazite_rare_earth_dust"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"2ED005FB3DC2EAB2"
+				"01967C002078825B"
+			]
+			description: ["增产50%"]
+			id: "317B25B778FAF317"
+			tasks: [{
+				count: 3L
+				id: "38FE2CDD66FB661A"
+				item: "gtocore:saturated_monazite_rare_earth_dust"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["15A2F5EFFBB91EDA"]
+			id: "6C8E955523139E76"
+			shape: "diamond"
+			tasks: [{
+				id: "6A693868F1DC57E4"
+				item: "gtocore:neodymium_rare_earth_concentrate_dust"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3678A2BA0642E20A"]
+			id: "15A2F5EFFBB91EDA"
+			tasks: [{
+				id: "7A625C923290EEA2"
+				item: "gtocore:fluoro_carbon_lanthanide_cerium_rare_earth_suspension_bucket"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["15A2F5EFFBB91EDA"]
+			id: "0611E972C84FDC4B"
+			tasks: [{
+				id: "09012F5B518D32A5"
+				item: "gtocore:samarium_rare_earth_concentrate_dust"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0611E972C84FDC4B"]
+			dependency_requirement: "one_started"
+			id: "160FF19D1C54C25E"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "5EFF7DCBDF3348F9"
+				item: "gtceu:rare_earth_dust"
+				type: "item"
+			}]
+			x: 3.75d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6C8E955523139E76"]
+			id: "5C29D6DC794FDEC6"
+			shape: "rsquare"
+			tasks: [{
+				id: "1C44E4EB6039E6B8"
+				item: "gtocore:neodymium_oxide_dust"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6C8E955523139E76"]
+			id: "07A82335BAF78EFE"
+			shape: "rsquare"
+			tasks: [{
+				id: "199A7BA3B548468A"
+				item: "gtocore:lanthanum_chloride_dust"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0611E972C84FDC4B"]
+			id: "28A615DDEAC65561"
+			shape: "diamond"
+			tasks: [{
+				id: "55592E20FC82BCE0"
+				item: "gtocore:fluorinated_samarium_concentrate_dust"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["28A615DDEAC65561"]
+			id: "32B28C8978A03681"
+			shape: "rsquare"
+			tasks: [{
+				id: "26E350E1FF39814B"
+				item: "gtceu:holmium_dust"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["28A615DDEAC65561"]
+			id: "0B6DC857BE87B7FC"
+			shape: "diamond"
+			tasks: [{
+				id: "58BB2CF970AF4D32"
+				item: "gtocore:samarium_terbium_mixture_dust"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0B6DC857BE87B7FC"]
+			id: "40DFCE8427D1A982"
+			shape: "diamond"
+			tasks: [{
+				id: "1AD9B382DE7FC545"
+				item: "gtocore:nitrided_samarium_terbium_mixture_dust"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["40DFCE8427D1A982"]
+			id: "1874E85F7D8DBF28"
+			shape: "diamond"
+			tasks: [{
+				id: "5010A886A71C83CB"
+				item: "gtocore:terbium_nitrate_dust"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1874E85F7D8DBF28"]
+			id: "05D3DB976E3E15F4"
+			shape: "rsquare"
+			tasks: [{
+				id: "2399B4C9F3E8B704"
+				item: "gtceu:terbium_dust"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["40DFCE8427D1A982"]
+			id: "5DDFFC31876C4FF8"
+			shape: "diamond"
+			tasks: [{
+				id: "22B481F43BACF9F6"
+				item: "gtocore:samarium_precipitate_dust"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"3D0269117FB85C9E"
+				"5DDFFC31876C4FF8"
+			]
+			id: "2EB12E9509B5DEC0"
+			shape: "rsquare"
+			tasks: [{
+				id: "5DB0FAB49EE7B7BE"
+				item: "gtceu:samarium_dust"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["317B25B778FAF317"]
+			id: "3D0269117FB85C9E"
+			shape: "diamond"
+			tasks: [{
+				id: "105551C54061540F"
+				item: "gtocore:samarium_precipitate_dust"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"3D0269117FB85C9E"
+				"5DDFFC31876C4FF8"
+			]
+			id: "5C1DD02C486DE5B8"
+			shape: "rsquare"
+			tasks: [{
+				id: "712A70214E470FB6"
+				item: "gtceu:gadolinium_dust"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["75569B5559E011E2"]
+			id: "7F85B7596400D9B7"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "27F3F7633D3DCC97"
+				item: "gtceu:monazite_dust"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7ACA4ED39A1119FD"]
+			icon_scale: 0.1d
+			id: "5EC16D3134BBF958"
+			size: 0.1d
+			tasks: [{
+				id: "7F8B7635CF031752"
+				item: "gtceu:monazite_dust"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["02C299889115BADD"]
+			description: [
+				"规则:"
+				""
+				"六角形:原材料"
+				"圆形:主要步骤"
+				"菱形:处理副产步骤"
+				""
+				"齿轮形:最终主要产物"
+				"圆角方形:最终副产物"
+				""
+				"五角形:稀土离心使用"
+				""
+				"副产步骤不是必须的，稀土会产出这里的所有副产物，副产步骤仅供想回收副产的人参考。"
+			]
+			hide_dependent_lines: true
+			hide_until_deps_complete: true
+			id: "75569B5559E011E2"
+			tasks: [{
+				id: "1E3BC52C9FCA66B5"
+				type: "checkmark"
+			}]
+			x: -9.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"317B25B778FAF317"
+				"1A173C1B9D1AD237"
+			]
+			dependency_requirement: "one_started"
+			id: "6DA503619A7A28C7"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "3913FC5E00D6486B"
+				item: "gtceu:rare_earth_dust"
+				type: "item"
+			}]
+			x: 3.75d
+			y: -3.5d
+		}
+		{
+			dependencies: ["51329F6185D2DECE"]
+			id: "5D2ECA5F1AB9C7EC"
+			shape: "rsquare"
+			tasks: [{
+				id: "7FD3364CD0289722"
+				item: "gtocore:cerium_oxide_dust"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.0d
+		}
+	]
+	title: "稀土"
+}

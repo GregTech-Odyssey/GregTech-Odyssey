@@ -101,7 +101,6 @@
 				"7E4DBCAC89579784"
 			]
 			dependency_requirement: "one_completed"
-			description: ["绝对乙醇可以通过乙醇自循环沸石产生"]
 			id: "717F73B64CA7E035"
 			tasks: [{
 				id: "01CEF32406C73D16"
@@ -144,7 +143,10 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["1DE0A599F076C31A"]
+			dependencies: [
+				"1DE0A599F076C31A"
+				"30534A92ED62F4B8"
+			]
 			id: "19127B42AB919C11"
 			tasks: [{
 				id: "54FEA0141358A88F"
@@ -275,7 +277,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["24F1061AFD1BFEB2"]
+			dependencies: ["3AD590B74363891F"]
 			id: "25331E8563FB84D2"
 			shape: "diamond"
 			size: 1.5d
@@ -288,7 +290,7 @@
 			y: -2.75d
 		}
 		{
-			dependencies: ["24F1061AFD1BFEB2"]
+			dependencies: ["3AD590B74363891F"]
 			id: "7A5C8C049D2DFFD2"
 			shape: "diamond"
 			size: 1.5d
@@ -301,7 +303,7 @@
 			y: -1.25d
 		}
 		{
-			dependencies: ["24F1061AFD1BFEB2"]
+			dependencies: ["3AD590B74363891F"]
 			id: "0ECFA06FC2CE4E8D"
 			shape: "diamond"
 			size: 1.5d
@@ -788,8 +790,16 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["0007751813572404"]
-			description: ["你也可以通过&6大型虚空采矿场&r挖取&6凯金化合物&r然后处理获得"]
+			dependencies: [
+				"0007751813572404"
+				"6ED98823FB8CA8ED"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"你也可以通过&6大型虚空采矿场&r挖取&6凯金化合物&r然后处理获得"
+				""
+				"获取到砹粉可无视依赖完成任务"
+			]
 			id: "26167AFECA871925"
 			tasks: [{
 				id: "0DD236AADC72F7E6"
@@ -875,6 +885,7 @@
 		}
 		{
 			dependencies: ["608F56E6A187940C"]
+			description: ["绝对乙醇可以通过乙醇+自循环沸石产生"]
 			id: "7E4DBCAC89579784"
 			tasks: [{
 				id: "62233B10FD891347"
@@ -1023,6 +1034,30 @@
 			title: "欢迎来到&c零点压&r阶段"
 			x: -9.0d
 			y: -4.0d
+		}
+		{
+			dependencies: ["24F1061AFD1BFEB2"]
+			description: ["占地更大，速度更快的冶炼冷却机器，允许安装&6并行仓&r（终于！）和至多&a8个&r&6能源仓&r"]
+			icon: "gtocore:orbital_smelting_facility"
+			id: "3AD590B74363891F"
+			tasks: [{
+				id: "3DAF15E2403D857D"
+				title: "冶炼三件套"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3490AACD4AA62C5D"]
+			id: "52C0E5B54098C1AD"
+			tasks: [{
+				id: "0DF56BF924C780E6"
+				item: "gtceu:zpm_assembler"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -2.5d
 		}
 	]
 	subtitle: ["Tier7-ZPM"]

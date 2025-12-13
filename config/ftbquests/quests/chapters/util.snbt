@@ -8,7 +8,7 @@
 	group: ""
 	icon: "ars_nouveau:blank_parchment"
 	id: "42C8000FF5A6A651"
-	order_index: 2
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
@@ -455,6 +455,16 @@
 			}]
 			x: 0.5d
 			y: 6.0d
+		}
+		{
+			id: "6ED98823FB8CA8ED"
+			tasks: [{
+				id: "65602D280FA2A4B1"
+				item: "gtceu:astatine_dust"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.0d
 		}
 	]
 	title: "辅助章节"

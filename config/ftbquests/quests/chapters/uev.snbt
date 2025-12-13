@@ -230,9 +230,8 @@
 		}
 		{
 			dependencies: ["7B3C0DB7C1F11692"]
-			description: ["并不是必需品，但是可以低价大批量制作"]
+			description: ["可以低价大批量制作"]
 			id: "284111931F2808B4"
-			optional: true
 			tasks: [{
 				id: "67D16B7E9DAB2748"
 				item: "gtocore:suprachronal_circuit_max"

@@ -83,7 +83,7 @@
 		{
 			dependencies: ["459F5A53179FAC2A"]
 			description: [
-				"击杀&e猪灵蛮兵&r有概率掉落下界合金锭...不过显然你不会满足"
+				"探索&e猪灵堡垒&r和&e地牢&r（如锻造厂）有概率获取下界合金锭...不过显然你不会满足"
 				""
 				"用远古残骸直接制作的&a动能消耗&r远不是你现在所能承受的，你应当选择&e碎片&r配方"
 			]
@@ -318,8 +318,7 @@
 			y: 10.5d
 		}
 		{
-			dependencies: ["1612D1DEB3A7BE2D"]
-			hide_dependency_lines: true
+			dependencies: ["68091264D09902CF"]
 			id: "19CB621C2BC26F4E"
 			tasks: [{
 				id: "05F63414ED66E520"
@@ -896,6 +895,30 @@
 			title: "欢迎来到&4极高压&r阶段"
 			x: -3.5d
 			y: -1.0d
+		}
+		{
+			dependencies: ["6649D02EADC9CC9B"]
+			description: ["并不是之前的单晶硅的上位，只能制作特定的晶圆"]
+			id: "68091264D09902CF"
+			tasks: [{
+				id: "1DB9A2E3F61C97A0"
+				item: "gtocore:rutherfordium_amprosium_boule"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["208F73ECE425E473"]
+			description: ["摆脱冗长的稀土产线，拥抱稀土离心"]
+			id: "26F29F895D5F73D6"
+			tasks: [{
+				id: "4BCBD91AE038321E"
+				item: "gtocore:rare_earth_centrifugal"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.0d
 		}
 	]
 	subtitle: ["Tier9-UHV"]

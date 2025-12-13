@@ -1103,7 +1103,11 @@
 		}
 		{
 			dependencies: ["3A20210242A1C865"]
-			description: ["如果需要，击杀猪灵蛮兵可以获得下界合金锭"]
+			description: [
+				"探索&e猪灵堡垒&r和&e地牢&r（如锻造厂）有概率获取下界合金锭"
+				""
+				"亦或者到达UHV"
+			]
 			id: "26B836339560E939"
 			shape: "octagon"
 			tasks: [{

@@ -20,7 +20,7 @@
 			linked_quest: "5D828A5258BFF11F"
 			shape: "gear"
 			size: 2.0d
-			x: 10.5d
+			x: 10.0d
 			y: 4.5d
 		}
 	]
@@ -61,7 +61,7 @@
 				type: "item"
 			}]
 			title: "&6进阶集成电路"
-			x: 7.0d
+			x: 7.5d
 			y: -2.5d
 		}
 		{
@@ -77,8 +77,8 @@
 				item: "gtocore:alumina_ceramic_flake"
 				type: "item"
 			}]
-			x: 10.5d
-			y: -2.5d
+			x: 5.25d
+			y: -4.5d
 		}
 		{
 			dependencies: [
@@ -93,8 +93,8 @@
 				item: "gtocore:alumina_ceramic_dust"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -5.0d
+			x: -1.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["3899164922A734D8"]
@@ -109,8 +109,8 @@
 				item: "gtocore:reaction_furnace"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -6.75d
+			x: -1.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["1CD5736520A719FA"]
@@ -189,7 +189,7 @@
 				"52C68358D6E375AD"
 			]
 			id: "0EE9737781747575"
-			shape: "hexagon"
+			shape: "gear"
 			size: 1.5d
 			subtitle: "一切芯片的起点"
 			tasks: [{
@@ -245,14 +245,22 @@
 			dependencies: ["7E061DC16432D549"]
 			description: ["经典配方，不用多说，你也应该搭建至少一条小产线"]
 			hide_dependency_lines: true
+			icon: "gtceu:polyvinyl_chloride_bucket"
 			id: "7C30575AACA9FE5B"
-			tasks: [{
-				id: "47C136704A3DC721"
-				item: "gtceu:polyvinyl_chloride_bucket"
-				type: "item"
-			}]
-			x: 10.5d
-			y: 6.5d
+			tasks: [
+				{
+					id: "47C136704A3DC721"
+					item: "gtceu:polyvinyl_chloride_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5D7EDE97BD83A094"
+					type: "checkmark"
+				}
+			]
+			x: 6.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["21457B1122F97F88"]
@@ -275,7 +283,7 @@
 				item: "gtceu:stainless_steel_ingot"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 7.5d
 			y: 4.5d
 		}
 		{
@@ -310,7 +318,7 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["3D1E66868544975F"]
+			dependencies: ["08476EE4F11A0F2E"]
 			description: [
 				"&6进阶搅拌机&r能制作更复杂的合金粉末，&6进阶浸洗机&r用来冷却热锭"
 				""
@@ -337,7 +345,7 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["3D1E66868544975F"]
+			dependencies: ["08476EE4F11A0F2E"]
 			description: [
 				"复仇者，再次集结！"
 				""
@@ -369,8 +377,8 @@
 				item: "gtceu:transistor"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -4.0d
+			x: 7.5d
+			y: -4.5d
 		}
 		{
 			dependencies: [
@@ -388,12 +396,20 @@
 		}
 		{
 			dependencies: ["3899164922A734D8"]
+			icon: "gtocore:coolant_liquid_bucket"
 			id: "4353D16B457D84CF"
-			tasks: [{
-				id: "69451B83DA088C70"
-				item: "gtocore:coolant_liquid_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "69451B83DA088C70"
+					item: "gtocore:coolant_liquid_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "78E827BF8D69B227"
+					type: "checkmark"
+				}
+			]
 			x: -8.0d
 			y: 3.0d
 		}
@@ -455,11 +471,15 @@
 				""
 				"非常昂贵，需要上千个&b铝锭&r。拿出你所有的底蕴来招待它!"
 				""
-				"部分多方块机器包含&l&6整体框架&r&r，它会限制你所能运行的&e配方等级&r，机器实际运行电压会取能源仓提供电压和整体框架电压的极小值"
+				"不过如果现在做，你可能只能承担&7LV&r级别的整体框架，建议在&6HV&r阶段解锁&bMV&r整体框架后开始大量制作"
 				""
-				"通用工厂在其中还更为&e特殊&r，你只能安装&c恰好&r等于&6其整体框架&r的能源仓，但不限制功率"
+				"强烈建议将基地中的单方块机器都替换成通用工厂，享受&6并行&r，&6能源仓&r与&6加速仓&r带来的产能提升！"
 				""
-				"不过如果现在做，你可能只能承担&7LV&r级别的整体框架，建议在&6HV&r阶段开始大量制作"
+				"====="
+				""
+				"&b机制介绍&r：部分多方块机器包含&l&6整体框架&r&r，它会限制你所能运行的&e配方等级&r，其会取能源仓提供电压和整体框架电压的&c最小值&r"
+				""
+				"通用工厂在其中还更为特殊，你还需要保证主机中放入的&6小机器&r的电压与&6能源仓&r提供的电压&a相等&r，但不限制功率"
 			]
 			hide_dependency_lines: true
 			icon: "gtocore:processing_plant"
@@ -493,7 +513,7 @@
 				item: "gtceu:mv_circuit_assembler"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 7.5d
 			y: -0.5d
 		}
 		{
@@ -585,14 +605,20 @@
 		}
 		{
 			dependencies: ["523744767F99B892"]
+			description: [
+				"制作微型处理器系列需要用到的基板，所有微型处理器都会用到它"
+				""
+				"HV开始用量非常大，准备一条产线总不是坏事"
+			]
+			hide_dependency_lines: true
 			id: "2A3CD751D7C2AEBA"
 			tasks: [{
 				id: "3A6F0C18130A5CF5"
 				item: "gtceu:plastic_printed_circuit_board"
 				type: "item"
 			}]
-			x: 10.5d
-			y: 1.5d
+			x: 6.0d
+			y: 0.5d
 		}
 		{
 			dependencies: [
@@ -607,7 +633,7 @@
 				"更高级的&6HV电路&r组装需要&6超净间&r"
 			]
 			id: "61A40570FE41BC2D"
-			shape: "diamond"
+			shape: "hexagon"
 			size: 1.5d
 			subtitle: "处理器#1"
 			tasks: [
@@ -623,7 +649,7 @@
 				}
 			]
 			title: "&e微型处理器"
-			x: 7.0d
+			x: 7.5d
 			y: 1.5d
 		}
 		{
@@ -730,7 +756,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: 0.5d
+			y: 2.5d
 		}
 		{
 			dependencies: [
@@ -760,7 +786,7 @@
 			]
 			hide_dependent_lines: true
 			id: "796DD5FB0E2A1E93"
-			shape: "circle"
+			shape: "diamond"
 			tasks: [{
 				id: "0B6E0EDA6C482F3F"
 				item: "gtceu:mv_miner"
@@ -778,8 +804,8 @@
 				item: "gtocore:alumina_ceramic_rough_blank"
 				type: "item"
 			}]
-			x: 4.5d
-			y: -5.0d
+			x: 0.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["2422B7ED59D31DBB"]
@@ -797,8 +823,8 @@
 				item: "gtocore:alumina_ceramic_block"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -5.0d
+			x: 1.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["153B10D3845F65F0"]
@@ -810,8 +836,8 @@
 				item: "gtocore:alumina_ceramic_brick"
 				type: "item"
 			}]
-			x: 10.5d
-			y: -5.0d
+			x: 3.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["3D1E66868544975F"]
@@ -832,20 +858,27 @@
 				item: "gtocore:aluminium_hydroxide_dust"
 				type: "item"
 			}]
-			x: 0.5d
-			y: -5.0d
+			x: -3.0d
+			y: -4.5d
 		}
 		{
-			dependencies: ["52C68358D6E375AD"]
+			dependencies: ["3D1E66868544975F"]
 			description: ["&6润滑油&r对提升切割速度至关重要，也是后续大型发电机组持续运转所必需的供应液体"]
 			hide_dependency_lines: true
+			icon: "gtceu:lubricant_bucket"
 			id: "555F4F7869ADAE13"
-			optional: true
-			tasks: [{
-				id: "592E9841699DBFC7"
-				item: "gtceu:lubricant_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "592E9841699DBFC7"
+					item: "gtceu:lubricant_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1724E059896E87DE"
+					type: "checkmark"
+				}
+			]
 			x: -1.5d
 			y: 0.0d
 		}
@@ -867,14 +900,18 @@
 				item: "gtceu:mv_extruder"
 				type: "item"
 			}]
-			x: -15.5d
+			x: -16.5d
 			y: 2.0d
 		}
 		{
-			dependencies: ["3D1E66868544975F"]
+			dependencies: [
+				"3D1E66868544975F"
+				"6BB3386725B228D5"
+			]
 			description: ["鉴于它们的效率，热力发电机与蒸汽轮机或许不再是最优选择"]
 			icon: "gtceu:mv_gas_turbine"
 			id: "4D0710E1E75F0C59"
+			optional: true
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [
@@ -910,7 +947,7 @@
 				}
 			]
 			title: "中压时代的电力来源"
-			x: -12.0d
+			x: -13.0d
 			y: 5.25d
 		}
 		{
@@ -924,7 +961,7 @@
 				item: "gtceu:mv_battery_buffer_16x"
 				type: "item"
 			}]
-			x: -15.5d
+			x: -16.5d
 			y: 3.0d
 		}
 		{
@@ -938,26 +975,29 @@
 				item: "gtceu:mv_bender"
 				type: "item"
 			}]
-			x: -13.5d
+			x: -14.5d
 			y: 3.0d
 		}
 		{
-			dependencies: ["3D1E66868544975F"]
+			dependencies: [
+				"3D1E66868544975F"
+				"6BB3386725B228D5"
+			]
 			description: [
 				"&6进阶电解机&r解锁了更多获取铝、硅、锂、氟等重要单质的配方"
 				""
 				"用它来大量获取&6铝&r和&6硅粉&r吧"
 			]
 			id: "2B4C8EDEF659A21B"
-			shape: "diamond"
+			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
 				id: "6386944AC3419AC7"
 				item: "gtceu:mv_electrolyzer"
 				type: "item"
 			}]
-			x: -10.0d
-			y: 3.0d
+			x: -13.0d
+			y: 0.75d
 		}
 		{
 			dependencies: ["0EE9737781747575"]
@@ -967,7 +1007,7 @@
 				"至于更高级的芯片大多都需要通过&e染料浸洗&r以得到窄带宽的透镜"
 			]
 			id: "37D79F05430D559B"
-			shape: "diamond"
+			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
 				id: "5C8EE7715BC939E9"
@@ -988,11 +1028,11 @@
 				item: "gtceu:mv_wiremill"
 				type: "item"
 			}]
-			x: -14.5d
+			x: -15.5d
 			y: 2.0d
 		}
 		{
-			dependencies: ["3D1E66868544975F"]
+			dependencies: ["08476EE4F11A0F2E"]
 			description: [
 				"[ \"如\", { \"text\": \"上一章节\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4FC3EC9C6C25633F\" } }, \"所述，它拥有更高的净化能力和净化范围\" ]"
 				""
@@ -1000,14 +1040,14 @@
 			]
 			id: "7E448FB79A010162"
 			shape: "diamond"
-			size: 1.5d
+			size: 1.0d
 			tasks: [{
 				id: "3A0D90AC0798673F"
 				item: "gtceu:mv_air_scrubber"
 				type: "item"
 			}]
-			x: -12.0d
-			y: 0.75d
+			x: -9.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["3D1E66868544975F"]
@@ -1020,7 +1060,7 @@
 				item: "gtocore:mv_cluster"
 				type: "item"
 			}]
-			x: -13.5d
+			x: -14.5d
 			y: 4.0d
 		}
 		{
@@ -1034,7 +1074,7 @@
 				item: "gtocore:mv_laminator"
 				type: "item"
 			}]
-			x: -14.5d
+			x: -15.5d
 			y: 3.0d
 		}
 		{
@@ -1055,7 +1095,7 @@
 				item: "gtocore:mv_rolling"
 				type: "item"
 			}]
-			x: -13.5d
+			x: -14.5d
 			y: 2.0d
 		}
 		{
@@ -1069,7 +1109,7 @@
 				item: "gtocore:mv_loom"
 				type: "item"
 			}]
-			x: -14.5d
+			x: -15.5d
 			y: 4.0d
 		}
 		{
@@ -1083,7 +1123,7 @@
 				item: "gtocore:mv_arc_generator"
 				type: "item"
 			}]
-			x: -15.5d
+			x: -16.5d
 			y: 4.0d
 		}
 		{
@@ -1140,7 +1180,7 @@
 				type: "item"
 			}]
 			title: "MV超导"
-			x: -12.0d
+			x: -13.0d
 			y: -1.5d
 		}
 		{
@@ -1179,6 +1219,7 @@
 		}
 		{
 			dependencies: ["0D63E5A54480E693"]
+			description: ["将能提供温度/真空的小机器贴着接口放即可"]
 			id: "3C7271A1D09BEE0F"
 			optional: true
 			subtitle: "也许你有抽真空的需求..."
@@ -1211,7 +1252,7 @@
 				type: "item"
 			}]
 			title: "欢迎来到&b中压&r阶段"
-			x: -12.0d
+			x: -13.0d
 			y: 3.0d
 		}
 		{
@@ -1230,21 +1271,27 @@
 					type: "item"
 				}
 				{
-					count: 4
+					count: 8
 					id: "321EB45326D4E5F5"
 					item: "gtceu:mv_conveyor_module"
 					type: "item"
 				}
 				{
-					count: 4
+					count: 8
 					id: "66DF86FC38F93D85"
 					item: "gtceu:mv_electric_piston"
 					type: "item"
 				}
 				{
-					count: 4
+					count: 8
 					id: "1948867335BCC17C"
 					item: "gtceu:mv_robot_arm"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "4B002E77FC0DC8B2"
+					item: "gtceu:mv_electric_pump"
 					type: "item"
 				}
 			]
@@ -1253,7 +1300,7 @@
 				type: "checkmark"
 			}]
 			title: "MV部件补助&a（简单）&r"
-			x: -11.0d
+			x: -11.5d
 			y: 0.0d
 		}
 		{
@@ -1261,23 +1308,37 @@
 				"056EC4E6FAF614B7"
 				"49E5CC5873FA226F"
 			]
-			description: ["从HV开始，简单不再有额外补助"]
+			description: ["从HV开始，简单不再有额外补助。用自己的双手创造一切吧！"]
 			hide_until_deps_visible: true
 			icon: "gtceu:advanced_integrated_circuit"
 			id: "06AD4784071F6B2F"
-			rewards: [{
-				count: 16
-				id: "5A50E88352A4628A"
-				item: "gtceu:advanced_integrated_circuit"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 32
+					id: "7F8C57B32D0A709A"
+					item: "gtceu:basic_integrated_circuit"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "6F2C0AB070760526"
+					item: "gtceu:good_integrated_circuit"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "151636EFA499C7C2"
+					item: "gtceu:advanced_integrated_circuit"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "70616588724AAA76"
 				type: "checkmark"
 			}]
 			title: "芯片补助&a（简单）&r"
-			x: 8.5d
-			y: -1.0d
+			x: 9.5d
+			y: -2.5d
 		}
 		{
 			dependencies: [
@@ -1298,8 +1359,94 @@
 				type: "checkmark"
 			}]
 			title: "不锈钢补助&a（简单）&r"
-			x: 7.0d
-			y: 6.5d
+			x: 8.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"3D1E66868544975F"
+				"6BB3386725B228D5"
+			]
+			description: ["同样的，在正式开始制造&bMV&r阶段的机器前，我建议你大量制作马达等部件"]
+			id: "08476EE4F11A0F2E"
+			rewards: [{
+				count: 8
+				id: "41E37D734EABDF7D"
+				item: "gtceu:mv_electric_motor"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5783FC46852CFFF6"
+					item: "gtceu:mv_electric_motor"
+					type: "item"
+				}
+				{
+					id: "164384D09C8EDA27"
+					item: "gtceu:mv_electric_piston"
+					type: "item"
+				}
+				{
+					id: "7506C52623DA6082"
+					item: "gtceu:mv_conveyor_module"
+					type: "item"
+				}
+				{
+					id: "0E91B549A89060B2"
+					item: "gtceu:mv_robot_arm"
+					type: "item"
+				}
+			]
+			title: "&bMV&r部件"
+			x: -11.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5956E4E095324029"]
+			description: ["不是所有标明电压的物品都可以在对应电压内制作，&bMV&r力场发生器就是一个例子，它需要你在&6HV&r阶段制作&6真空冷冻机&r之后才能够制作"]
+			icon: "gtceu:mv_field_generator"
+			id: "4964E72FD76A39C9"
+			tasks: [{
+				id: "0A3FD6F0ED4BBE21"
+				type: "checkmark"
+			}]
+			title: "&bMV&r力场发生器...?"
+			x: -10.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"056EC4E6FAF614B7"
+				"0EE9737781747575"
+			]
+			description: ["后面还要用到大量的塑料，我再送你一点"]
+			hide_until_deps_visible: true
+			icon: "gtceu:polyethylene_plate"
+			id: "20D2FDD034D5A14E"
+			rewards: [{
+				count: 256
+				id: "1B5610616F949F8D"
+				item: "gtceu:polyethylene_plate"
+				type: "item"
+			}]
+			tasks: [{
+				id: "46F011A8ED2E1B32"
+				type: "checkmark"
+			}]
+			title: "塑料补助再续&a（简单）&r"
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7C30575AACA9FE5B"]
+			id: "49C98B195E3BD634"
+			tasks: [{
+				id: "620432B2C6E16FEA"
+				item: "gtceu:polyvinyl_chloride_plate"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 6.0d
 		}
 	]
 	subtitle: ["Tier2-MV"]
