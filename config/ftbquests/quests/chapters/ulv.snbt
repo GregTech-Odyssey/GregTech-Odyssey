@@ -980,7 +980,7 @@
 			]
 			title: "剩下的三个家伙"
 			x: 10.5d
-			y: -2.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["561F5AACF437E7C5"]
@@ -1002,15 +1002,19 @@
 			]
 			title: "对，我要的就是你"
 			x: 10.5d
-			y: -3.5d
+			y: -2.0d
 		}
 		{
 			dependencies: [
-				"4C484BF84C3809FB"
 				"03A894C7D1178791"
 				"498D24745D509B73"
+				"4E41199ACDB910C1"
 			]
-			description: ["重度蒸汽裂化石脑油分解更彻底，具有更高的产率"]
+			description: [
+				"你可以选择裂化成任意一种"
+				""
+				"重度蒸汽裂化石脑油分解更彻底，具有更高的产率"
+			]
 			icon: "gtceu:severely_steam_cracked_naphtha_bucket"
 			id: "01C0AEA051760CE5"
 			subtitle: "蒸汽真厉害"
@@ -1442,6 +1446,28 @@
 			title: "给你的产线搭个天花板&d（专家）&r"
 			x: 0.0d
 			y: -6.5d
+		}
+		{
+			dependencies: ["4C484BF84C3809FB"]
+			description: ["目前只能使用化学反应釜，在HV能做&6脱硫机&r来进行脱硫"]
+			icon: "gtceu:naphtha_bucket"
+			id: "4E41199ACDB910C1"
+			subtitle: "副产不要丢，可以做硫酸"
+			tasks: [
+				{
+					id: "038E21B6FE002335"
+					item: "gtceu:naphtha_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5E1B4D7AD8E07504"
+					type: "checkmark"
+				}
+			]
+			title: "脱硫时间到"
+			x: 12.5d
+			y: -2.0d
 		}
 	]
 	subtitle: ["Tier0.5-ULV"]

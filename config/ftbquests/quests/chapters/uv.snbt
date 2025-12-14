@@ -275,6 +275,11 @@
 		}
 		{
 			dependencies: ["52EF77CC26214FBD"]
+			description: [
+				"使用太空电梯采集资源必须要搭配无人机，部分高级资源必须在取得更高级的无人机之后才可以采集"
+				""
+				"每种资源都可以使用两种火箭燃料之一挖掘，更换更高等级的无人机并不会提升采集效率"
+			]
 			id: "090EEAA64022227A"
 			tasks: [{
 				id: "5C149798CB5C6C06"
@@ -294,6 +299,7 @@
 			]
 			description: ["你需要使用重力控制仓达到强重力环境"]
 			id: "18CBBE615691E7FD"
+			subtitle: "天仓五 - 新的生命"
 			tasks: [{
 				id: "437740FAC5CC7F21"
 				item: "gtocore:tcetieseaweedextract"
@@ -376,17 +382,21 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["78EAFECB9E9BF692"]
+			dependencies: [
+				"78EAFECB9E9BF692"
+				"72AACC1178BF7586"
+			]
 			description: [
 				"点击太空电梯启程按钮前往巴纳德C"
 				""
 				"别忘了穿上&bT4&r器官"
 			]
 			id: "6512444A4F2D4775"
-			shape: "gear"
+			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
 				dimension: "gtocore:barnarda_c"
+				icon: "ad_astra:barnarda_c_globe"
 				id: "2F45C36182E62A1A"
 				type: "dimension"
 			}]
@@ -396,7 +406,7 @@
 		}
 		{
 			dependencies: ["08CDFD0BB06E9A53"]
-			description: ["放置在太空电梯的输入总线内自动消耗"]
+			description: ["太空电梯第一次启动的时候需要，放置在太空电梯的输入总线内自动消耗"]
 			id: "5A30C3831FD94E53"
 			tasks: [{
 				count: 256L
@@ -831,7 +841,7 @@
 			description: [
 				"更好的动力模块可以提供&b并行&r"
 				""
-				"你也可以给太空电梯供电&e升压&r来获得配方耗时减免！"
+				"你也可以给&6太空电梯模块&r供电&e升压&r来获得配方耗时减免！"
 			]
 			id: "1F62E1A09BEFD387"
 			tasks: [{
@@ -844,6 +854,7 @@
 		}
 		{
 			dependencies: ["256F90AFB461107E"]
+			description: ["不需要做单方块组装机也能做哦"]
 			id: "7EF1BB4CD73A4171"
 			shape: "diamond"
 			subtitle: "升级你的大型机器#4"
@@ -1131,7 +1142,7 @@
 				item: "gtocore:carbon_nanites"
 				type: "item"
 			}]
-			x: -7.5d
+			x: -7.0d
 			y: 10.5d
 		}
 		{

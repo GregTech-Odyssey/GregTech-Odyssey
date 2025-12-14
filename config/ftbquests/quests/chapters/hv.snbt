@@ -162,12 +162,18 @@
 			y: -7.5d
 		}
 		{
-			id: "538A07ADE3C82A8C"
-			linked_quest: "1D57ED21E8AD1A26"
+			id: "44A0FE462E0C3A64"
+			linked_quest: "2C986BC7ECC4E1ED"
 			shape: "hexagon"
 			size: 1.5d
-			x: 10.5d
-			y: 2.0d
+			x: 7.0d
+			y: 5.5d
+		}
+		{
+			id: "3FE169F2680CFCBA"
+			linked_quest: "204F134A09B60140"
+			x: 5.0d
+			y: 5.5d
 		}
 	]
 	quests: [
@@ -501,23 +507,9 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["25BC9C4F2CE29E4B"]
-			description: ["结构有点大，但实际做出来的火箭并不大"]
-			id: "6FADB25C6138D12A"
-			shape: "hexagon"
-			size: 1.5d
-			tasks: [{
-				id: "082FD31D73338362"
-				item: "gtocore:rocket_assembler"
-				type: "item"
-			}]
-			x: 7.0d
-			y: 5.5d
-		}
-		{
 			dependencies: [
-				"6FADB25C6138D12A"
 				"23A3A8F6E6738331"
+				"2C986BC7ECC4E1ED"
 			]
 			description: [
 				"&6T1火箭&r是你目前为止见到的最复杂的东西"
@@ -595,7 +587,7 @@
 				""
 				"&e那么恭喜你，你已经具备了载人登月所需的一切条件！&r"
 			]
-			icon: "ad_astra:moon_globe"
+			icon: "ad_astra:earth_globe"
 			id: "7A7DC6205DED9BF3"
 			rewards: [
 				{
@@ -635,7 +627,7 @@
 				"7A7DC6205DED9BF3"
 				"4AED8DE6D6175D97"
 				"4331EEF3BA9799FD"
-				"1D57ED21E8AD1A26"
+				"06E8CF5F701850A1"
 			]
 			description: [
 				"现在，朝着亲爱的月球进发？不不不，还有几件事需要你&4再确认一下&r："
@@ -680,6 +672,7 @@
 			subtitle: "格雷科技的一大步"
 			tasks: [{
 				dimension: "ad_astra:moon"
+				icon: "ad_astra:moon_globe"
 				id: "6A35D51A8BE1AB7D"
 				title: "造访月球"
 				type: "dimension"
@@ -1086,7 +1079,6 @@
 			hide_dependency_lines: true
 			icon: "enderio:rocket_fuel_bucket"
 			id: "4AED8DE6D6175D97"
-			min_required_dependencies: 1
 			subtitle: "这可不能喝"
 			tasks: [
 				{
@@ -1142,19 +1134,6 @@
 			}]
 			x: -8.25d
 			y: -4.5d
-		}
-		{
-			dependencies: ["0A9501C9027AC03D"]
-			description: ["做出&6一阶火箭&r你需要这么多"]
-			id: "25BC9C4F2CE29E4B"
-			tasks: [{
-				count: 22L
-				id: "0CC1B41C529D51FB"
-				item: "gtocore:heavy_duty_plate_1"
-				type: "item"
-			}]
-			x: 5.0d
-			y: 5.5d
 		}
 		{
 			dependencies: ["7A7DC6205DED9BF3"]
@@ -1606,6 +1585,7 @@
 				type: "item"
 			}]
 			shape: "hexagon"
+			size: 1.5d
 			subtitle: "我们终将决定我们自己的进化道路"
 			tasks: [
 				{
@@ -1656,7 +1636,7 @@
 			]
 			title: "血肉苦弱，机械飞升！"
 			x: 10.5d
-			y: 1.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["310210D2AD9515E3"]
@@ -1784,7 +1764,7 @@
 		{
 			dependencies: [
 				"7E886CD0AEB92FFB"
-				"25BC9C4F2CE29E4B"
+				"204F134A09B60140"
 			]
 			id: "23A3A8F6E6738331"
 			tasks: [

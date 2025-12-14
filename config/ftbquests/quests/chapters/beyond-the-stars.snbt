@@ -182,7 +182,11 @@
 				"38A6F2FA481A85E5"
 				"204F134A09B60140"
 			]
-			description: ["所有的火箭（除了7阶火箭）都从此诞生"]
+			description: [
+				"所有的火箭（除了7阶火箭）都从此诞生"
+				""
+				"结构有点大，但实际做出来的火箭并不大"
+			]
 			id: "2C986BC7ECC4E1ED"
 			shape: "gear"
 			size: 2.0d
@@ -196,24 +200,7 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["38A6F2FA481A85E5"]
-			description: [
-				"在压缩机里面把九个钢板压缩成一个钢板"
-				""
-				"你需要多准备一些的，因为用量不小"
-			]
-			id: "14546EE4309AA78A"
-			subtitle: "高密度"
-			tasks: [{
-				id: "3D7C9BBB85879635"
-				item: "gtceu:dense_steel_plate"
-				type: "item"
-			}]
-			x: -0.5d
-			y: -3.0d
-		}
-		{
-			dependencies: ["14546EE4309AA78A"]
+			dependencies: ["0A9501C9027AC03D"]
 			description: [
 				"你总共需要22个完成&6一阶火箭&r的准备与建造，分别用于："
 				""
@@ -231,8 +218,8 @@
 				item: "gtocore:heavy_duty_plate_1"
 				type: "item"
 			}]
-			x: -0.5d
-			y: -1.5d
+			x: -1.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["38A6F2FA481A85E5"]
@@ -325,7 +312,7 @@
 				"6F760D81DC93ACFB"
 				"6D251F85DDB81408"
 				"38EF7B8DB3A08AB2"
-				"0C2743077DB8406F"
+				"0CC813B9DBC397AF"
 			]
 			description: [
 				"&e等级：&r&6殖民级 - 战略资产&r"
@@ -334,7 +321,6 @@
 				""
 				"&4警告：&r此芯片为单一副本，是规划地外任务的核心。遗失或损坏将导致整个扫描任务失效。"
 			]
-			hide_dependency_lines: true
 			id: "15D4145A9704592D"
 			tasks: [{
 				id: "5BFF34DC9FEC7384"
@@ -395,6 +381,8 @@
 			dependencies: [
 				"153B839DC21B36C5"
 				"5C067CA2FCE6B458"
+				"4AED8DE6D6175D97"
+				"408CD587E28DFDCA"
 			]
 			description: [
 				"将&616B火箭燃料&r，&6一阶火箭&r，&6行星扫描卫星&r，&6星球数据芯片&r放入&6卫星控制中心&r，调整等级为&21&r，点击&e启程&r，等待火箭返回，带回&6月球数据&r，使用&6扫描仪&r扫描数据后&d解锁月球&r"
@@ -568,10 +556,6 @@
 			y: -3.5d
 		}
 		{
-			dependencies: [
-				"7A7DC6205DED9BF3"
-				"38A6F2FA481A85E5"
-			]
 			description: [
 				"月球&4缺少&r大气环境"
 				""
@@ -581,7 +565,6 @@
 				""
 				"&2宇&6航&9服&e可&d以&b染&4色&r，不会影响任务提交"
 			]
-			hide_dependency_lines: true
 			id: "7FE2763143958129"
 			shape: "hexagon"
 			size: 2.0d
@@ -637,7 +620,6 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["7A7DC6205DED9BF3"]
 			description: [
 				"你需要把你的身体的各个&6器官&r都强化到&e标准级&r之后才能抵御&d星际乱流&r的影响"
 				""
@@ -709,10 +691,6 @@
 		}
 		{
 			dependencies: [
-				"39A7B09F3213E0C8"
-				"408CD587E28DFDCA"
-				"7329A824F8F1CDFF"
-				"2A9088FA11D26BDD"
 				"4AED8DE6D6175D97"
 				"1D57ED21E8AD1A26"
 				"7FE2763143958129"
@@ -1624,10 +1602,7 @@
 		{
 			dependencies: [
 				"56408F9F9ACD204D"
-				"2F6C81E3B10365E8"
 				"3AFC4304A2AD53A8"
-				"256F90AFB461107E"
-				"2F03D93AC7DBE58D"
 			]
 			description: [
 				"以下是矿石资源报告："
@@ -1936,7 +1911,7 @@
 			description: [
 				"那么这两种气体终于解放了，欢呼吧！"
 				""
-				"终于可以不用大量电解&7盐酸&r和&6蓝黄玉&r了"
+				"终于可以不用大量电解&7盐&r和&6蓝黄玉&r了"
 			]
 			id: "6B02B6F20B71608C"
 			subtitle: "气态氟与气态氯"
@@ -2482,10 +2457,7 @@
 			y: 3.0d
 		}
 		{
-			dependencies: [
-				"310210D2AD9515E3"
-				"61C37EC8503FFDD9"
-			]
+			dependencies: ["61C37EC8503FFDD9"]
 			description: [
 				"到达月球后，你第一件事是探矿，找到钛的来源"
 				""
@@ -2503,10 +2475,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: [
-				"310210D2AD9515E3"
-				"61C37EC8503FFDD9"
-			]
+			dependencies: ["61C37EC8503FFDD9"]
 			description: [
 				"月球上的钛还有另一种获取方式就是粗钛铁矿"
 				""
@@ -2528,6 +2497,7 @@
 			description: ["[ \"这套护甲并没有储存氧气的功能，你需要做\", { \"text\": \"太空定制版\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"388DCD34426BAE36\" } } ]"]
 			hide_dependency_lines: true
 			id: "525F86A7BBB260AD"
+			optional: true
 			tasks: [
 				{
 					id: "2993ED18460CA9F6"
@@ -2607,6 +2577,7 @@
 			dependencies: ["388DCD34426BAE36"]
 			description: ["[ \"更强大的胸甲，但一样会被憋死，所以你需要——\", { \"text\": \"太空定制版\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"632D29DA89C3CEA4\" } } ]"]
 			id: "22C91CDFD9C07B97"
+			optional: true
 			tasks: [{
 				id: "6802515A6BA93C89"
 				item: {
@@ -2627,11 +2598,12 @@
 				"38E57C47A1D6D206"
 			]
 			description: [
-				"这套罗里吧嗦的绿油油的护甲将会是你太空探索下一阶段的主力"
+				"这套绿油油的护甲将会是你太空探索下一阶段的主力"
 				""
 				"[ \"但你知道\", { \"text\": \"我要说什么\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5AED06E84B4278D6\" } }, \"，所以你不能止步于此\" ]"
 			]
 			id: "47FDF0B4D055BE01"
+			optional: true
 			tasks: [
 				{
 					id: "5247334D5306B9FA"
@@ -2689,6 +2661,7 @@
 				"[ \"以及\", { \"text\": \"还是那句话——\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"61A5DA41383BB91A\" } } ]"
 			]
 			id: "583AC7B9DF4FCED9"
+			optional: true
 			tasks: [{
 				id: "33A42408D649B9D7"
 				item: {
@@ -2705,6 +2678,7 @@
 			dependencies: ["583AC7B9DF4FCED9"]
 			description: ["这个小套装才是你永远的家呀"]
 			id: "61A5DA41383BB91A"
+			optional: true
 			tasks: [{
 				id: "1FC53A813D484FDD"
 				item: {

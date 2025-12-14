@@ -966,16 +966,19 @@
 			y: -12.0d
 		}
 		{
-			dependencies: ["4CD7E4E23FCD3D84"]
+			dependencies: [
+				"4CD7E4E23FCD3D84"
+				"56408F9F9ACD204D"
+			]
 			description: ["别忘了穿上&bT3&r器官"]
 			id: "335934E09401C67B"
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
 				dimension: "gtocore:io"
-				icon: "gtocore:io_stone"
+				icon: "ad_astra:io_globe"
 				id: "1FAA893329885B46"
-				title: "&5访问木卫一"
+				title: "&d访问木卫一"
 				type: "dimension"
 			}]
 			x: 16.0d
@@ -986,11 +989,18 @@
 			description: ["你在木卫一上拿到的硅岩将会成为你接下来几个阶段最重要的材料之一"]
 			icon: "gtceu:raw_naquadah"
 			id: "6CD1C787E12CE2CB"
-			tasks: [{
-				id: "10C137F30C90C445"
-				item: "gtceu:raw_naquadah"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "10C137F30C90C445"
+					item: "gtceu:raw_naquadah"
+					type: "item"
+				}
+				{
+					id: "53ABD4D4C8DCAA79"
+					item: "gtceu:raw_plutonium"
+					type: "item"
+				}
+			]
 			title: "硅岩矿脉"
 			x: 16.0d
 			y: 2.0d

@@ -226,7 +226,10 @@
 			y: -9.0d
 		}
 		{
-			dependencies: ["310210D2AD9515E3"]
+			dependencies: [
+				"61C37EC8503FFDD9"
+				"310210D2AD9515E3"
+			]
 			description: [
 				"漂浮在&6太空&r中，&d几乎为零的重力环境&r能改善一些加工条件，使得某些高级材料的制作成为可能"
 				""
@@ -255,6 +258,11 @@
 			]
 			icon: "gtocore:space_probe_mk1"
 			id: "23E859D5CC9E4C8C"
+			rewards: [{
+				id: "55D60475E64AFC15"
+				item: "ad_astra:earth_globe"
+				type: "item"
+			}]
 			shape: "gear"
 			size: 1.5d
 			subtitle: "地轨道长期驻留"
