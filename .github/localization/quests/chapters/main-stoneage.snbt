@@ -2107,6 +2107,7 @@
 				"24C53B5FF515ACAC"
 				"056EC4E6FAF614B7"
 			]
+			description: ["{gto.main-stoneage.quests.41F8B4785DF68920.description0}"]
 			hide_until_deps_visible: true
 			icon: "gtceu:bronze_ingot"
 			id: "41F8B4785DF68920"
@@ -2157,6 +2158,7 @@
 					type: "item"
 				}
 			]
+			shape: "octagon"
 			subtitle: "{gto.main-stoneage.quests.41F8B4785DF68920.subtitle}"
 			tasks: [{
 				id: "5972E40DA50C965A"
@@ -2164,13 +2166,14 @@
 			}]
 			title: "{gto.main-stoneage.quests.41F8B4785DF68920.title}"
 			x: 0.0d
-			y: 10.0d
+			y: 10.5d
 		}
 		{
 			dependencies: [
 				"24C53B5FF515ACAC"
 				"18E057F31DDC4065"
 			]
+			description: ["{gto.main-stoneage.quests.3B7A2492AD1F9B85.description0}"]
 			hide_until_deps_visible: true
 			icon: "gtceu:bronze_ingot"
 			id: "3B7A2492AD1F9B85"
@@ -2200,6 +2203,7 @@
 					type: "item"
 				}
 			]
+			shape: "octagon"
 			subtitle: "{gto.main-stoneage.quests.3B7A2492AD1F9B85.subtitle}"
 			tasks: [{
 				id: "20E4A1BA83F87F1C"
@@ -2207,7 +2211,35 @@
 			}]
 			title: "{gto.main-stoneage.quests.3B7A2492AD1F9B85.title}"
 			x: 0.0d
-			y: 10.5d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"24C53B5FF515ACAC"
+				"1FB1EC5B9CEFC2BC"
+			]
+			description: [
+				"{gto.main-stoneage.quests.6097173C67222EC0.description0}"
+				""
+				"{gto.main-stoneage.quests.6097173C67222EC0.description1}"
+			]
+			hide_until_deps_visible: true
+			icon: "gtceu:bronze_ingot"
+			id: "6097173C67222EC0"
+			rewards: [{
+				id: "1F3EFB3D33C6BA0A"
+				item: "gtceu:bronze_ingot"
+				type: "item"
+			}]
+			shape: "octagon"
+			subtitle: "{gto.main-stoneage.quests.6097173C67222EC0.subtitle}"
+			tasks: [{
+				id: "25AD90D98C7417AA"
+				type: "checkmark"
+			}]
+			title: "{gto.main-stoneage.quests.6097173C67222EC0.title}"
+			x: 0.0d
+			y: 9.5d
 		}
 	]
 	subtitle: ["{gto.main-stoneage.subtitle0}"]
