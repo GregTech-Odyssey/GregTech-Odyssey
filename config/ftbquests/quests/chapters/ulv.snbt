@@ -309,7 +309,7 @@
 			description: ["在超低压时代先造一些凑活用点，后面电压上去了一定要换其他的机器来制作它"]
 			id: "03BB5A5C084F5194"
 			rewards: [{
-				count: 32
+				count: 8
 				id: "2B4925A037EE1B1A"
 				item: "gtceu:polyethylene_plate"
 				type: "item"
@@ -329,9 +329,9 @@
 		{
 			dependencies: ["27F4D9739FE33A02"]
 			description: [
-				"通风板需要安装在流体容器的任意一个侧面，在这个侧面不被阻挡的情况下可以以200mB/秒的速度抽入空气"
+				"通风板需要安装在&6机器/仓室/流体容器&r等的任意一个侧面，在这个侧面不被阻挡的情况下可以以200mB/秒的速度抽入空气"
 				""
-				"&7可以安装在多个侧面，可并行增加抽入速度&r"
+				"&o&7可以安装在多个侧面并行工作，增加抽入速度&r"
 			]
 			hide_dependency_lines: true
 			id: "1CDBE91D2ACD9111"
@@ -399,7 +399,7 @@
 					type: "item"
 				}
 				{
-					count: 8
+					count: 2
 					id: "7FA716F5153C7B15"
 					item: "gtceu:basic_electronic_circuit"
 					type: "item"
@@ -739,7 +739,6 @@
 			]
 			id: "1CC2469A8203DE05"
 			rewards: [{
-				count: 4
 				id: "6F3F03FA8FCBC3A4"
 				item: "gtocore:ulv_electric_pump"
 				type: "item"
@@ -764,7 +763,6 @@
 			]
 			id: "68AB0026ACD5103E"
 			rewards: [{
-				count: 4
 				id: "78768C9064C8C06D"
 				item: "gtocore:ulv_conveyor_module"
 				type: "item"
@@ -809,7 +807,6 @@
 			description: ["机械臂的合成就复杂很多了，所以前期的其他工作一定要处理好"]
 			id: "13A73FA0625AC68F"
 			rewards: [{
-				count: 4
 				id: "42D9E5D6A2531FA2"
 				item: "gtocore:ulv_robot_arm"
 				type: "item"
@@ -834,7 +831,7 @@
 			]
 			id: "7D370CF55A0AE36D"
 			rewards: [{
-				count: 16
+				count: 4
 				id: "46DB52559B32A949"
 				item: "gtocore:ulv_electric_motor"
 				type: "item"
@@ -859,7 +856,6 @@
 			]
 			id: "0859B24E8AF3303F"
 			rewards: [{
-				count: 4
 				id: "4E68A5BC2B0E7FCD"
 				item: "gtocore:ulv_electric_piston"
 				type: "item"
@@ -1174,8 +1170,15 @@
 			y: 2.85d
 		}
 		{
-			dependencies: ["1CDBE91D2ACD9111"]
-			description: ["离心空气获取"]
+			dependencies: [
+				"1CDBE91D2ACD9111"
+				"020E8B707A8CF794"
+			]
+			description: [
+				"如果你还没有造&6蒸汽分离机&r，是时候造一台了"
+				""
+				"离心&6空气&r获取氧气"
+			]
 			icon: "ad_astra:oxygen_bucket"
 			id: "6C328AB57C610EF9"
 			subtitle: "你活着都靠它"
@@ -1356,7 +1359,14 @@
 					item: "gtocore:ulv_robot_arm"
 					type: "item"
 				}
+				{
+					count: 2
+					id: "33F1924315A15A15"
+					item: "gtocore:ulv_electric_pump"
+					type: "item"
+				}
 			]
+			shape: "octagon"
 			tasks: [{
 				id: "158D91949C406FFB"
 				type: "checkmark"
@@ -1379,13 +1389,14 @@
 				item: "gtceu:polyethylene_plate"
 				type: "item"
 			}]
+			shape: "octagon"
 			tasks: [{
 				id: "20AFC6809A3258AD"
 				type: "checkmark"
 			}]
 			title: "塑料补助&a（简单）&r"
-			x: 13.5d
-			y: -6.0d
+			x: 15.5d
+			y: -8.5d
 		}
 		{
 			dependencies: ["53A8535B07FE3958"]
@@ -1423,12 +1434,13 @@
 				item: "gtceu:basic_electronic_circuit"
 				type: "item"
 			}]
+			shape: "octagon"
 			tasks: [{
 				id: "0A11CC353F29846B"
 				type: "checkmark"
 			}]
 			title: "芯片补助&a（简单）&r"
-			x: 6.0d
+			x: 6.5d
 			y: -1.0d
 		}
 		{
@@ -1468,6 +1480,101 @@
 			title: "脱硫时间到"
 			x: 12.5d
 			y: -2.0d
+		}
+		{
+			dependencies: [
+				"1CA6E1AD1909373A"
+				"18E057F31DDC4065"
+			]
+			hide_until_deps_visible: true
+			icon: "gtocore:ulv_electric_motor"
+			id: "5ECEF5305E8551FA"
+			rewards: [
+				{
+					count: 8
+					id: "4EDC72EBC75321D1"
+					item: "gtocore:ulv_electric_motor"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "32A7151EA25348D6"
+					item: "gtocore:ulv_conveyor_module"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4CDB4C10233F0077"
+					item: "gtocore:ulv_electric_piston"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "5BF68CD7944C1A45"
+					item: "gtocore:ulv_robot_arm"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1D7029127E78BFC6"
+					item: "gtocore:ulv_electric_pump"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "0B679403167F1FE6"
+				type: "checkmark"
+			}]
+			title: "ULV部件补助&e（普通）&r"
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"03BB5A5C084F5194"
+				"18E057F31DDC4065"
+			]
+			hide_until_deps_visible: true
+			icon: "gtceu:polyethylene_plate"
+			id: "497726A4A6246369"
+			rewards: [{
+				count: 24
+				id: "45B19B233BBD5B7D"
+				item: "gtceu:polyethylene_plate"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "362DF116620798EA"
+				type: "checkmark"
+			}]
+			title: "塑料补助&e（普通）&r"
+			x: 15.5d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"0FBE7318DFBA700E"
+				"18E057F31DDC4065"
+			]
+			hide_until_deps_visible: true
+			icon: "gtceu:basic_electronic_circuit"
+			id: "2907ABEAAFEF3BC1"
+			rewards: [{
+				count: 6
+				id: "09C47351E0D8CF6D"
+				item: "gtceu:basic_electronic_circuit"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "0572331A03D50238"
+				type: "checkmark"
+			}]
+			title: "芯片补助&e（普通）&r"
+			x: 6.0d
+			y: -1.0d
 		}
 	]
 	subtitle: ["Tier0.5-ULV"]

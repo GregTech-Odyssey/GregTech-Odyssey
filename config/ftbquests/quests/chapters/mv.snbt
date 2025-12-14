@@ -40,7 +40,7 @@
 			id: "49E5CC5873FA226F"
 			rewards: [
 				{
-					count: 4
+					count: 2
 					id: "0A30DB92DBBCDCFD"
 					item: "gtceu:advanced_integrated_circuit"
 					type: "item"
@@ -271,7 +271,7 @@
 			]
 			id: "26484E626E859718"
 			rewards: [{
-				count: 64
+				count: 8
 				id: "1AC243CADA3E1633"
 				item: "gtceu:stainless_steel_ingot"
 				type: "item"
@@ -1295,6 +1295,7 @@
 					type: "item"
 				}
 			]
+			shape: "octagon"
 			tasks: [{
 				id: "7318916A5F9542BC"
 				type: "checkmark"
@@ -1332,6 +1333,7 @@
 					type: "item"
 				}
 			]
+			shape: "octagon"
 			tasks: [{
 				id: "70616588724AAA76"
 				type: "checkmark"
@@ -1354,12 +1356,13 @@
 				item: "gtceu:stainless_steel_ingot"
 				type: "item"
 			}]
+			shape: "octagon"
 			tasks: [{
 				id: "606BB40B2A7B1A9C"
 				type: "checkmark"
 			}]
 			title: "不锈钢补助&a（简单）&r"
-			x: 8.5d
+			x: 9.0d
 			y: 3.0d
 		}
 		{
@@ -1370,7 +1373,7 @@
 			description: ["同样的，在正式开始制造&bMV&r阶段的机器前，我建议你大量制作马达等部件"]
 			id: "08476EE4F11A0F2E"
 			rewards: [{
-				count: 8
+				count: 4
 				id: "41E37D734EABDF7D"
 				item: "gtceu:mv_electric_motor"
 				type: "item"
@@ -1429,6 +1432,7 @@
 				item: "gtceu:polyethylene_plate"
 				type: "item"
 			}]
+			shape: "octagon"
 			tasks: [{
 				id: "46F011A8ED2E1B32"
 				type: "checkmark"
@@ -1447,6 +1451,90 @@
 			}]
 			x: 8.5d
 			y: 6.0d
+		}
+		{
+			dependencies: [
+				"3899164922A734D8"
+				"18E057F31DDC4065"
+			]
+			hide_until_deps_visible: true
+			icon: "gtceu:mv_electric_motor"
+			id: "1181BA1C31DA3FC8"
+			rewards: [{
+				count: 24
+				id: "0DA24711EEB1CE4E"
+				item: "gtceu:mv_electric_motor"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "7AD25A3645D842A5"
+				type: "checkmark"
+			}]
+			title: "MV部件补助&e（普通）&r"
+			x: -11.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"26484E626E859718"
+				"18E057F31DDC4065"
+			]
+			hide_until_deps_visible: true
+			icon: "gtceu:stainless_steel_ingot"
+			id: "25EF18650F2C069E"
+			rewards: [{
+				count: 56
+				id: "172DFB2401419DF3"
+				item: "gtceu:stainless_steel_ingot"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "60E9B303EF57F684"
+				type: "checkmark"
+			}]
+			title: "不锈钢补助&e（普通）&r"
+			x: 8.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"49E5CC5873FA226F"
+				"18E057F31DDC4065"
+			]
+			description: ["从HV开始，普通不再有额外补助。用自己的双手创造一切吧！"]
+			hide_until_deps_visible: true
+			icon: "gtceu:advanced_integrated_circuit"
+			id: "2E8860AF6354FFE3"
+			rewards: [
+				{
+					count: 8
+					id: "14928FCFA379B3A7"
+					item: "gtceu:basic_integrated_circuit"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "18AC70ECCFDC4AC8"
+					item: "gtceu:good_integrated_circuit"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "61B7D45E1DAD6784"
+					item: "gtceu:advanced_integrated_circuit"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "1E9B0223527CC5A1"
+				type: "checkmark"
+			}]
+			title: "芯片补助&e（普通）&r"
+			x: 9.0d
+			y: -2.5d
 		}
 	]
 	subtitle: ["Tier2-MV"]

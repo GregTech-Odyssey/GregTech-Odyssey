@@ -450,7 +450,7 @@
 			invisible: true
 			tasks: [{
 				id: "5B3BF4414BCB2CA7"
-				modid: "factory_block"
+				modid: "factory_blocks"
 				type: "gtocore:mod"
 			}]
 			x: 0.5d

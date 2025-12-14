@@ -2107,6 +2107,7 @@
 				"24C53B5FF515ACAC"
 				"056EC4E6FAF614B7"
 			]
+			description: ["简单模式下，一些重要节点会赠送大量补助"]
 			hide_until_deps_visible: true
 			icon: "gtceu:bronze_ingot"
 			id: "41F8B4785DF68920"
@@ -2157,6 +2158,7 @@
 					type: "item"
 				}
 			]
+			shape: "octagon"
 			subtitle: "简单特供"
 			tasks: [{
 				id: "5972E40DA50C965A"
@@ -2164,13 +2166,14 @@
 			}]
 			title: "青铜补助&a（简单）&r"
 			x: 0.0d
-			y: 10.0d
+			y: 10.5d
 		}
 		{
 			dependencies: [
 				"24C53B5FF515ACAC"
 				"18E057F31DDC4065"
 			]
+			description: ["普通模式下，一些重要节点会赠送一定补助"]
 			hide_until_deps_visible: true
 			icon: "gtceu:bronze_ingot"
 			id: "3B7A2492AD1F9B85"
@@ -2200,6 +2203,7 @@
 					type: "item"
 				}
 			]
+			shape: "octagon"
 			subtitle: "普通特供"
 			tasks: [{
 				id: "20E4A1BA83F87F1C"
@@ -2207,7 +2211,35 @@
 			}]
 			title: "青铜补助&e（普通）&r"
 			x: 0.0d
-			y: 10.5d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"24C53B5FF515ACAC"
+				"1FB1EC5B9CEFC2BC"
+			]
+			description: [
+				"都玩专家模式了，简单和普通的额外奖励是肯定没有的"
+				""
+				"你只有流程中少得可怜的象征性奖励可以领"
+			]
+			hide_until_deps_visible: true
+			icon: "gtceu:bronze_ingot"
+			id: "6097173C67222EC0"
+			rewards: [{
+				id: "1F3EFB3D33C6BA0A"
+				item: "gtceu:bronze_ingot"
+				type: "item"
+			}]
+			shape: "octagon"
+			subtitle: "专家没有"
+			tasks: [{
+				id: "25AD90D98C7417AA"
+				type: "checkmark"
+			}]
+			title: "青铜补助&d（专家）&r"
+			x: 0.0d
+			y: 9.5d
 		}
 	]
 	subtitle: ["Hello World!"]

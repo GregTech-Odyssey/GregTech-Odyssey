@@ -139,7 +139,7 @@
 			icon: "gtceu:bronze_ingot"
 			id: "24C53B5FF515ACAC"
 			rewards: [{
-				count: 64
+				count: 32
 				id: "7180064D9A2AA567"
 				item: "gtceu:bronze_ingot"
 				type: "item"
@@ -446,6 +446,7 @@
 			]
 			id: "32A39A427D4A3AC2"
 			rewards: [{
+				count: 4
 				id: "48BB564E8232C86F"
 				item: "minecraft:coal_block"
 				type: "item"
@@ -570,7 +571,7 @@
 			id: "27F4D9739FE33A02"
 			rewards: [
 				{
-					count: 64
+					count: 16
 					id: "2ABC438654CC3D33"
 					item: "ad_astra:steel_ingot"
 					type: "item"
@@ -1967,13 +1968,14 @@
 				item: "ad_astra:steel_ingot"
 				type: "item"
 			}]
+			shape: "octagon"
 			subtitle: "快进到跃进一号"
 			tasks: [{
 				id: "55BE46E092646D53"
 				type: "checkmark"
 			}]
 			title: "钢补助&a（简单）&r"
-			x: 7.5d
+			x: 7.0d
 			y: 5.15d
 		}
 		{
@@ -1985,18 +1987,19 @@
 			icon: "ad_astra:steel_ingot"
 			id: "67B18FEE6862343A"
 			rewards: [{
-				count: 128
+				count: 192
 				id: "46F770A3703044A4"
 				item: "ad_astra:steel_ingot"
 				type: "item"
 			}]
+			shape: "octagon"
 			subtitle: "聊胜于无"
 			tasks: [{
 				id: "10E3799903559F25"
 				type: "checkmark"
 			}]
 			title: "钢补助&e（普通）&r"
-			x: 7.0d
+			x: 7.5d
 			y: 5.15d
 		}
 		{
@@ -2034,6 +2037,7 @@
 				item: "gtceu:rubber_plate"
 				type: "item"
 			}]
+			shape: "octagon"
 			tasks: [{
 				id: "3158D9C543B678C2"
 				type: "checkmark"
@@ -2074,6 +2078,7 @@
 				item: "gtceu:vacuum_tube"
 				type: "item"
 			}]
+			shape: "octagon"
 			tasks: [{
 				id: "5D0CD3ACB12536C7"
 				type: "checkmark"
