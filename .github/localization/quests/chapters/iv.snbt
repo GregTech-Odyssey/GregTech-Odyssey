@@ -966,14 +966,17 @@
 			y: -12.0d
 		}
 		{
-			dependencies: ["4CD7E4E23FCD3D84"]
+			dependencies: [
+				"4CD7E4E23FCD3D84"
+				"56408F9F9ACD204D"
+			]
 			description: ["{gto.iv.quests.335934E09401C67B.description0}"]
 			id: "335934E09401C67B"
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
 				dimension: "gtocore:io"
-				icon: "gtocore:io_stone"
+				icon: "ad_astra:io_globe"
 				id: "1FAA893329885B46"
 				title: "{gto.iv.quests.335934E09401C67B.tasks.1FAA893329885B46.title}"
 				type: "dimension"
@@ -986,11 +989,18 @@
 			description: ["{gto.iv.quests.6CD1C787E12CE2CB.description0}"]
 			icon: "gtceu:raw_naquadah"
 			id: "6CD1C787E12CE2CB"
-			tasks: [{
-				id: "10C137F30C90C445"
-				item: "gtceu:raw_naquadah"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "10C137F30C90C445"
+					item: "gtceu:raw_naquadah"
+					type: "item"
+				}
+				{
+					id: "53ABD4D4C8DCAA79"
+					item: "gtceu:raw_plutonium"
+					type: "item"
+				}
+			]
 			title: "{gto.iv.quests.6CD1C787E12CE2CB.title}"
 			x: 16.0d
 			y: 2.0d

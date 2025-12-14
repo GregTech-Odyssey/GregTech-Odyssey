@@ -858,7 +858,10 @@
 			y: -9.0d
 		}
 		{
-			dependencies: ["5B243900BEDF71CA"]
+			dependencies: [
+				"5B243900BEDF71CA"
+				"2D901DBE68F833D2"
+			]
 			description: [
 				"{gto.ev.quests.4D36C61E2AF3205F.description0}"
 				""
@@ -1139,6 +1142,7 @@
 					type: "item"
 				}
 			]
+			title: "{gto.ev.quests.1D20FEE7860F5575.title}"
 			x: 7.0d
 			y: -10.0d
 		}
@@ -1180,10 +1184,10 @@
 			description: ["{gto.ev.quests.45D5AB8BE1006124.description0}"]
 			id: "45D5AB8BE1006124"
 			shape: "hexagon"
-			size: 1.5d
+			size: 2.0d
 			tasks: [{
 				dimension: "gtocore:ceres"
-				icon: "gtocore:ceres_stone"
+				icon: "ad_astra:ceres_globe"
 				id: "6F9D1685F7A66B15"
 				title: "{gto.ev.quests.45D5AB8BE1006124.tasks.6F9D1685F7A66B15.title}"
 				type: "dimension"

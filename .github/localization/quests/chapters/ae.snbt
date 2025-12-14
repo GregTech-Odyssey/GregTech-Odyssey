@@ -138,18 +138,10 @@
 			y: 21.5d
 		}
 		{
-			color: 16711935
+			color: 4265213
 			height: 1.1d
-			image: "ftbquests:block/barrier_open"
+			image: "ftbquests:block/barrier"
 			order: 1
-			rotation: 0.0d
-			width: 1.1d
-			x: -5.0d
-			y: 11.5d
-		}
-		{
-			height: 1.1d
-			image: "xtonesreworked:block/bitt/12"
 			rotation: 0.0d
 			width: 1.1d
 			x: -5.0d
@@ -874,24 +866,6 @@
 			y: 9.5d
 		}
 		{
-			height: 1.1d
-			image: "xtonesreworked:block/bitt/12"
-			rotation: 0.0d
-			width: 1.1d
-			x: -3.0d
-			y: 11.5d
-		}
-		{
-			color: 16711935
-			height: 1.1d
-			image: "ftbquests:block/barrier_open"
-			order: 1
-			rotation: 0.0d
-			width: 1.1d
-			x: -3.0d
-			y: 11.5d
-		}
-		{
 			height: 1.0d
 			image: "gtocore:item/circuit/suprachronal_luv"
 			rotation: 0.0d
@@ -1068,6 +1042,58 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: -5.7d
+			y: 11.5d
+		}
+		{
+			height: 1.0d
+			image: "gtocore:item/circuit/suprachronal_iv"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: 11.5d
+		}
+		{
+			height: 1.1d
+			image: "gtocore:block/multiblock/dimensionally_transcendent_plasma_forge/overlay_top"
+			rotation: 0.0d
+			width: 1.1d
+			x: -5.0d
+			y: 11.5d
+		}
+		{
+			color: 4265213
+			height: 1.1d
+			image: "ftbquests:block/barrier"
+			order: 1
+			rotation: 0.0d
+			width: 1.1d
+			x: -3.0d
+			y: 11.5d
+		}
+		{
+			height: 1.1d
+			image: "gtocore:block/multiblock/dimensionally_transcendent_plasma_forge/overlay_top"
+			rotation: 0.0d
+			width: 1.1d
+			x: -3.0d
+			y: 11.5d
+		}
+		{
+			height: 1.1d
+			image: "gtocore:block/multiblock/dimensionally_transcendent_plasma_forge/overlay_top"
+			rotation: 0.0d
+			width: 1.1d
+			x: -1.0d
+			y: 11.5d
+		}
+		{
+			color: 4265213
+			height: 1.1d
+			image: "ftbquests:block/barrier"
+			order: 1
+			rotation: 0.0d
+			width: 1.1d
+			x: -1.0d
 			y: 11.5d
 		}
 	]
@@ -1568,7 +1594,7 @@
 			dependencies: [
 				"49A3CCDF6CABEEA1"
 				"1E239C34C36FAD60"
-				"10F52803BCD77DA0"
+				"7E1C35C2DE805E6B"
 			]
 			description: [
 				"{gto.ae.quests.430034AB98D8453B.description0}"
@@ -3980,6 +4006,7 @@
 			]
 			id: "5F7635CC667AD219"
 			min_width: 225
+			subtitle: "{gto.ae.quests.5F7635CC667AD219.subtitle}"
 			tasks: [{
 				id: "36AA8548A657EF32"
 				item: "gtocore:me_cpu"
@@ -4077,7 +4104,11 @@
 		}
 		{
 			dependencies: ["083934744ECD19FB"]
-			description: ["{gto.ae.quests.44D98ACF7C6D783F.description0}"]
+			description: [
+				"{gto.ae.quests.44D98ACF7C6D783F.description0}"
+				""
+				"{gto.ae.quests.44D98ACF7C6D783F.description1}"
+			]
 			id: "44D98ACF7C6D783F"
 			subtitle: "{gto.ae.quests.44D98ACF7C6D783F.subtitle}"
 			tasks: [{
@@ -4199,6 +4230,23 @@
 			]
 			x: -11.0d
 			y: 3.5d
+		}
+		{
+			dependencies: ["7797EB75FF74F43F"]
+			description: [
+				"{gto.ae.quests.4BDC9F94B41543AD.description0}"
+				""
+				"{gto.ae.quests.4BDC9F94B41543AD.description1}"
+			]
+			id: "4BDC9F94B41543AD"
+			subtitle: "{gto.ae.quests.4BDC9F94B41543AD.subtitle}"
+			tasks: [{
+				id: "4B5233E69F928F7B"
+				item: "gtocore:me_energy_substation"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 11.5d
 		}
 	]
 	subtitle: ["{gto.ae.subtitle0}"]

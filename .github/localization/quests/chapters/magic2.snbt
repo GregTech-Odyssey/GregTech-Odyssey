@@ -1436,6 +1436,7 @@
 				"{gto.magic2.quests.4167ADF91EF95341.description1}"
 			]
 			id: "4167ADF91EF95341"
+			optional: true
 			subtitle: "{gto.magic2.quests.4167ADF91EF95341.subtitle}"
 			tasks: [{
 				id: "7411E8A1C3C7FD56"

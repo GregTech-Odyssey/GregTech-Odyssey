@@ -980,7 +980,7 @@
 			]
 			title: "{gto.ulv.quests.620EF24B5E685E7A.title}"
 			x: 10.5d
-			y: -2.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["561F5AACF437E7C5"]
@@ -1002,15 +1002,19 @@
 			]
 			title: "{gto.ulv.quests.4C484BF84C3809FB.title}"
 			x: 10.5d
-			y: -3.5d
+			y: -2.0d
 		}
 		{
 			dependencies: [
-				"4C484BF84C3809FB"
 				"03A894C7D1178791"
 				"498D24745D509B73"
+				"4E41199ACDB910C1"
 			]
-			description: ["{gto.ulv.quests.01C0AEA051760CE5.description0}"]
+			description: [
+				"{gto.ulv.quests.01C0AEA051760CE5.description0}"
+				""
+				"{gto.ulv.quests.01C0AEA051760CE5.description1}"
+			]
 			icon: "gtceu:severely_steam_cracked_naphtha_bucket"
 			id: "01C0AEA051760CE5"
 			subtitle: "{gto.ulv.quests.01C0AEA051760CE5.subtitle}"
@@ -1442,6 +1446,28 @@
 			title: "{gto.ulv.quests.2F5F08A3D4B89B05.title}"
 			x: 0.0d
 			y: -6.5d
+		}
+		{
+			dependencies: ["4C484BF84C3809FB"]
+			description: ["{gto.ulv.quests.4E41199ACDB910C1.description0}"]
+			icon: "gtceu:naphtha_bucket"
+			id: "4E41199ACDB910C1"
+			subtitle: "{gto.ulv.quests.4E41199ACDB910C1.subtitle}"
+			tasks: [
+				{
+					id: "038E21B6FE002335"
+					item: "gtceu:naphtha_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5E1B4D7AD8E07504"
+					type: "checkmark"
+				}
+			]
+			title: "{gto.ulv.quests.4E41199ACDB910C1.title}"
+			x: 12.5d
+			y: -2.0d
 		}
 	]
 	subtitle: ["{gto.ulv.subtitle0}"]

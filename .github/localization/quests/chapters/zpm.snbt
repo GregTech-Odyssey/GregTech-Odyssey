@@ -42,6 +42,12 @@
 			x: 6.0d
 			y: -4.0d
 		}
+		{
+			id: "29645CEBC289497D"
+			linked_quest: "61A5DA41383BB91A"
+			x: 2.0d
+			y: 8.0d
+		}
 	]
 	quests: [
 		{
@@ -342,7 +348,6 @@
 		{
 			dependencies: ["0BB1BDBE8BB307E4"]
 			description: ["{gto.zpm.quests.49E04C29B878D3A8.description0}"]
-			hide_dependent_lines: true
 			icon: {
 				Count: 1
 				id: "ad_astra_rocketed:tier_7_rocket"
@@ -367,7 +372,7 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
+			x: 2.0d
 			y: 6.0d
 		}
 		{
@@ -599,7 +604,7 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["49E04C29B878D3A8"]
+			dependencies: ["005535C2AAA38997"]
 			description: [
 				"{gto.zpm.quests.351F704B01567BD7.description0}"
 				""
@@ -615,7 +620,10 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["3490AACD4AA62C5D"]
+			dependencies: [
+				"3490AACD4AA62C5D"
+				"228B283B5477879B"
+			]
 			description: ["{gto.zpm.quests.0A7AD87999A0DDF5.description0}"]
 			id: "0A7AD87999A0DDF5"
 			shape: "hexagon"
@@ -926,8 +934,8 @@
 				item: "gtocore:wood_distillation"
 				type: "item"
 			}]
-			x: -7.0d
-			y: -6.0d
+			x: -7.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["608F56E6A187940C"]
@@ -1055,15 +1063,35 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["3490AACD4AA62C5D"]
+			dependencies: [
+				"3490AACD4AA62C5D"
+				"7E1C35C2DE805E6B"
+			]
 			id: "52C0E5B54098C1AD"
 			tasks: [{
 				id: "0DF56BF924C780E6"
 				item: "gtceu:zpm_assembler"
 				type: "item"
 			}]
-			x: -7.5d
-			y: -2.5d
+			x: -7.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["49E04C29B878D3A8"]
+			hide_dependent_lines: true
+			icon: "ad_astra:glacio_globe"
+			id: "005535C2AAA38997"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				dimension: "ad_astra:glacio"
+				icon: "ad_astra:glacio_globe"
+				id: "273A98417DF1C619"
+				title: "{gto.zpm.quests.005535C2AAA38997.tasks.273A98417DF1C619.title}"
+				type: "dimension"
+			}]
+			x: 4.0d
+			y: 6.0d
 		}
 	]
 	subtitle: ["{gto.zpm.subtitle0}"]

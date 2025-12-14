@@ -275,6 +275,11 @@
 		}
 		{
 			dependencies: ["52EF77CC26214FBD"]
+			description: [
+				"{gto.uv.quests.090EEAA64022227A.description0}"
+				""
+				"{gto.uv.quests.090EEAA64022227A.description1}"
+			]
 			id: "090EEAA64022227A"
 			tasks: [{
 				id: "5C149798CB5C6C06"
@@ -294,6 +299,7 @@
 			]
 			description: ["{gto.uv.quests.18CBBE615691E7FD.description0}"]
 			id: "18CBBE615691E7FD"
+			subtitle: "{gto.uv.quests.18CBBE615691E7FD.subtitle}"
 			tasks: [{
 				id: "437740FAC5CC7F21"
 				item: "gtocore:tcetieseaweedextract"
@@ -376,17 +382,21 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["78EAFECB9E9BF692"]
+			dependencies: [
+				"78EAFECB9E9BF692"
+				"72AACC1178BF7586"
+			]
 			description: [
 				"{gto.uv.quests.6512444A4F2D4775.description0}"
 				""
 				"{gto.uv.quests.6512444A4F2D4775.description1}"
 			]
 			id: "6512444A4F2D4775"
-			shape: "gear"
+			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
 				dimension: "gtocore:barnarda_c"
+				icon: "ad_astra:barnarda_c_globe"
 				id: "2F45C36182E62A1A"
 				type: "dimension"
 			}]
@@ -853,6 +863,7 @@
 		}
 		{
 			dependencies: ["256F90AFB461107E"]
+			description: ["{gto.uv.quests.7EF1BB4CD73A4171.description0}"]
 			id: "7EF1BB4CD73A4171"
 			shape: "diamond"
 			subtitle: "{gto.uv.quests.7EF1BB4CD73A4171.subtitle}"
@@ -1140,7 +1151,7 @@
 				item: "gtocore:carbon_nanites"
 				type: "item"
 			}]
-			x: -7.5d
+			x: -7.0d
 			y: 10.5d
 		}
 		{
