@@ -162,7 +162,6 @@
 		}
 		{
 			dependencies: ["2544898A725CC1A3"]
-			hide_dependent_lines: true
 			id: "7DD3E20C1AF38823"
 			tasks: [
 				{
@@ -181,7 +180,7 @@
 					type: "item"
 				}
 			]
-			title: "&3UV&r立场发生器，发射器和传感器"
+			title: "&3UV&r力场发生器，发射器和传感器"
 			x: 5.0d
 			y: 3.5d
 		}
@@ -235,7 +234,11 @@
 				"76A5DA2CCB71E96F"
 				"5A30C3831FD94E53"
 			]
-			description: ["这是T8火箭，解锁巴纳德C"]
+			description: [
+				"这是T8火箭，解锁巴纳德C"
+				""
+				"&o&7电梯的配方中有两组碳纳米蜂群的需求，如果还用装配线做显然太贵了，因此我将纳米锻炉设为了前置。"
+			]
 			id: "78EAFECB9E9BF692"
 			shape: "gear"
 			size: 2.0d
@@ -445,8 +448,12 @@
 			y: 10.5d
 		}
 		{
-			dependencies: ["4A5C2B5AA1CCEB07"]
+			dependencies: [
+				"4A5C2B5AA1CCEB07"
+				"0779DE2BB4953181"
+			]
 			dependency_requirement: "one_completed"
+			description: ["如果你还没有PCB工厂，手持&6亚碲酸盐陶瓷薄片&r也可以解锁这个任务"]
 			id: "3C8DA30CF0B2244F"
 			tasks: [{
 				id: "421E726066C8D3DF"
@@ -644,7 +651,6 @@
 			y: 8.5d
 		}
 		{
-			dependencies: ["40F9120E5CDC0002"]
 			description: [
 				"还记得你的碲从哪里来吗？"
 				""
@@ -652,40 +658,38 @@
 				""
 				"如果你已经搭设了PCB工厂，这个陶瓷就不是必需品了"
 			]
+			hide_dependent_lines: true
 			id: "0779DE2BB4953181"
 			invisible: true
 			optional: true
-			tasks: [
-				{
-					id: "77E5E1FF3BF96FFD"
-					item: { Count: 64, id: "gtocore:tellurate_ceramics_flake" }
-					type: "item"
-				}
-				{
-					id: "35D1410B2E265C46"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "77E5E1FF3BF96FFD"
+				item: "gtocore:tellurate_ceramics_flake"
+				type: "item"
+			}]
 			x: 11.0d
 			y: 14.5d
 		}
 		{
 			dependencies: ["7DD3E20C1AF38823"]
 			description: [
-				"在之后的巨构中，你将可以使用这四种增益仓室提高机器效率："
+				"在巨构中，你将可以使用四种增益仓室提高机器效率。&e首先是两位老朋友：&r"
+				""
+				"&a加速仓&r：大部分机器可以使用。&b无条件&r加快机器速度，数字表示当加速仓等级&b高于&r配方等级时，配方时间将乘以这个百分比。当加速仓等级每&b低于&r配方一级，加速效果减少20%。"
 				""
 				"&a并行仓&r：可并行机器即可使用。允许机器一次性翻倍功率处理多个配方，某种意义下相当于提供无损超频。"
-				""
-				"&a加速仓&r：部分机器可以使用。&b无条件&r加快机器速度，数字表示当加速仓等级&b高于&r配方等级时，配方时间将乘以这个百分比。当加速仓等级每&b低于&r配方一级，加速效果减少20个百分点。"
+				"{@pagebreak}"
+				"&e然后是两位新朋友：&r"
 				""
 				"&a线程仓&r：仅跨配方并行机器可以使用。允许机器尽量同时多运行数个&b不同配方&r来跑满并行和最高效率。"
 				""
-				"&a超频仓&r：几乎只有巨构可以使用。非常强大，能直接&b修改机器超频的时间倍率系数&r。UV级别是一般的有损超频，UEV级别即可达到无损超频，而更高等级UXV可以达到4倍功率6倍速度，也就是说机器越超频越省电！"
+				"&a超频仓&r：几乎只有巨构可以使用。非常强大，能直接&b修改机器超频的时间倍率系数&r。UV级别是一般的有损超频，UEV级别即可达到无损超频，在这之后机器越超频越省电！（UEV以上机器会优先计算超频再计算并行）"
 				""
 				"此外，可配置维护仓也可以提供微弱的机器加速效果"
 				""
 				"&7&o别忘了给你的狂飙也换上"
 			]
+			hide_dependency_lines: true
 			icon: "gtocore:uv_overclock_hatch"
 			id: "0AD0174C98673F5B"
 			shape: "diamond"
@@ -735,6 +739,7 @@
 				""
 				"你可能要考虑设计处理循环产线"
 			]
+			hide_dependency_lines: true
 			id: "3827DED8E3795712"
 			tasks: [{
 				id: "6412C2554C262EF9"
@@ -780,10 +785,10 @@
 			shape: "hexagon"
 			tasks: [{
 				id: "7368B54DFC67AF0C"
-				item: { Count: 64, id: "gtocore:extreme_temperature_fluctuation_purification_unit" }
+				item: "gtocore:extreme_temperature_fluctuation_purification_unit"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 2.0d
 			y: 9.5d
 		}
 		{
@@ -792,10 +797,10 @@
 			shape: "hexagon"
 			tasks: [{
 				id: "27833A8AE112A5E1"
-				item: { Count: 64, id: "gtocore:ph_neutralization_purification_unit" }
+				item: "gtocore:ph_neutralization_purification_unit"
 				type: "item"
 			}]
-			x: 0.5d
+			x: 0.0d
 			y: 9.5d
 		}
 		{
@@ -908,7 +913,6 @@
 				"3C8DA30CF0B2244F"
 			]
 			description: ["四级数据载体"]
-			hide_dependent_lines: true
 			id: "08DEEC16D9580930"
 			shape: "hexagon"
 			tasks: [{
@@ -981,7 +985,7 @@
 				item: "gtocore:wetware_soc"
 				type: "item"
 			}]
-			x: 1.0d
+			x: -1.0d
 			y: 14.5d
 		}
 		{
@@ -1002,7 +1006,7 @@
 				item: "gtocore:supercomputing_center"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 1.0d
 			y: 14.5d
 		}
 		{
@@ -1045,13 +1049,13 @@
 		{
 			dependencies: ["76A5DA2CCB71E96F"]
 			description: [
-				"蜂群技术革命，你可以用它来大幅简化过去和未来的复杂产线"
+				"&o&6纳米蜂群&r&o的问世和量产推动了&3格雷科技有限公司&r&o的&e第一次技术革命&r&o。老旧复杂的生产线被彻底改造，取而代之的是一体化的蜂群生产车间——无数的纳米蜂群从原子层面上对物质进行拆分和组合，&e一步完成整个生产过程&r"
 				""
-				"每个纳米加工中心可以放置两个模块"
+				"你可以用它来大幅简化过去和未来的复杂产线，每个纳米加工中心可以放置&a两个&r模块"
 				""
-				"虽然蜂群很劳累，不过在主机放入高级的蜂群能更好地压榨它们的潜能！"
+				"放入&e主机&r的蜂群并不参与配方运行，而是减少&e生产时&r蜂群的污染概率。现在你可以放入&b铱纳米蜂群&r"
 				""
-				"现在你可以放入&b铱纳米蜂群&r来减少蜂群污染的概率"
+				"[ \"可以使用很多增益仓，不要忘记看看\", { \"text\": \"这里\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0AD0174C98673F5B\" } }]"
 			]
 			id: "063FEB76DD30E9B3"
 			shape: "gear"
@@ -1067,6 +1071,8 @@
 		{
 			dependencies: ["063FEB76DD30E9B3"]
 			description: [
+				"&o...就是蜂群的消耗有些快，所幸，科学家们发现了一种特殊的洗液可以&e重新激发蜂群的活力&r"
+				""
 				"蜂群们为你那么勤劳地工作，也许你可能需要给他们一点点&5回报&r... "
 				""
 				"那就给他们洗个澡吧！&b过氧化氢&r的强氧化性和&6硫酸&r的酸性环境能重新激发它们的活力！"
@@ -1134,7 +1140,13 @@
 		}
 		{
 			dependencies: ["5B5C82819DC2D27A"]
-			description: ["前面几个必须用装配线，后面就可以换成纳米锻炉了"]
+			description: [
+				"&o装配线上，某位员工突发奇思妙想：将&e生物细胞&r&o与&e智能机械&r&o装配在一起会发生什么？"
+				""
+				"&o于是&e纳米蜂群&r&o就诞生了"
+				""
+				"前面几个必须用装配线，后面就可以换成纳米锻炉了"
+			]
 			hide_dependency_lines: true
 			id: "5343159AF8A5CBB5"
 			tasks: [{
@@ -1142,19 +1154,23 @@
 				item: "gtocore:carbon_nanites"
 				type: "item"
 			}]
-			x: -7.0d
+			x: -7.5d
 			y: 10.5d
 		}
 		{
 			dependencies: ["5343159AF8A5CBB5"]
 			description: [
+				"&o...那名员工的发现被迅速上报至&3公司总部&r&o。数个科学家团队昼夜攻关，仿照蜂群结构研制出多种不同属性的纳米蜂群，并探索出一种基于复制的大规模量产方式"
+				""
+				"&o以一个原始蜂群为基底，通过&e激光蚀刻&r&o不同属性的材料，就可以源源不断地制造出对应属性的蜂群"
+				""
 				"如果想用终端搭建，你需要先在主机里&a放一个蜂群&r来指定等级，随后才可以开始搭建"
 				""
 				"机器每次&e拿出或放入&r蜂群都会重新触发结构检测"
 			]
 			id: "76A5DA2CCB71E96F"
 			shape: "gear"
-			size: 2.0d
+			size: 2.5d
 			subtitle: "蜂群，但不是养蜂"
 			tasks: [{
 				id: "7990B5F3AFF8D9B9"
@@ -1179,9 +1195,11 @@
 		{
 			dependencies: ["76A5DA2CCB71E96F"]
 			description: [
-				"和锻炉类似，你也需要先在主机里放一个&e金&r蜂群来指定等级"
+				"和锻炉类似，你也需要先在主机里放一个&6金纳米蜂群&r来指定等级"
 				""
 				"可以更高效地制作PCB板子，你可以改进之前的产线了"
+				""
+				"生物印刷电路基板任务并&e不强制要求&rPCB工厂"
 			]
 			id: "4A5C2B5AA1CCEB07"
 			shape: "hexagon"
@@ -1191,7 +1209,7 @@
 				item: "gtocore:pcb_factory"
 				type: "item"
 			}]
-			x: -1.0d
+			x: -1.5d
 			y: 10.5d
 		}
 		{
@@ -1207,7 +1225,7 @@
 				item: "gtocore:wetware_soc"
 				type: "item"
 			}]
-			x: 1.0d
+			x: -1.0d
 			y: 14.5d
 		}
 		{
@@ -1305,6 +1323,21 @@
 			}]
 			x: -6.5d
 			y: 1.5d
+		}
+		{
+			dependencies: [
+				"08DEEC16D9580930"
+				"19B07E541BE74686"
+			]
+			description: ["你必须使用本访问仓或等级更高的访问仓才可以放入神经矩阵"]
+			id: "6E94E9CD9F8B96E0"
+			tasks: [{
+				id: "4B4DBCC7F22B0357"
+				item: "gtocore:bio_data_access_hatch"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 14.5d
 		}
 	]
 	subtitle: ["Tier8-UV"]

@@ -12,7 +12,7 @@
 			image: "xtonesreworked:block/bitt/12"
 			rotation: 45.0d
 			width: 1.0d
-			x: 13.5d
+			x: 13.0d
 			y: -5.0d
 		}
 		{
@@ -22,7 +22,7 @@
 			order: 1
 			rotation: 45.0d
 			width: 1.0d
-			x: 13.5d
+			x: 13.0d
 			y: -5.0d
 		}
 		{
@@ -30,7 +30,7 @@
 			image: "xtonesreworked:block/bitt/12"
 			rotation: 45.0d
 			width: 1.0d
-			x: 15.5d
+			x: 15.0d
 			y: -5.0d
 		}
 		{
@@ -40,7 +40,7 @@
 			order: 1
 			rotation: 45.0d
 			width: 1.0d
-			x: 15.5d
+			x: 15.0d
 			y: -5.0d
 		}
 		{
@@ -50,16 +50,16 @@
 			order: 1
 			rotation: 45.0d
 			width: 1.0d
-			x: 15.5d
-			y: 0.5d
+			x: 25.5d
+			y: 2.5d
 		}
 		{
 			height: 1.0d
 			image: "xtonesreworked:block/bitt/12"
 			rotation: 45.0d
 			width: 1.0d
-			x: 15.5d
-			y: 0.5d
+			x: 25.5d
+			y: 2.5d
 		}
 		{
 			height: 1.0d
@@ -78,6 +78,24 @@
 			width: 1.0d
 			x: 7.5d
 			y: -8.0d
+		}
+		{
+			color: 16711935
+			height: 1.0d
+			image: "ftbquests:block/barrier_open"
+			order: 1
+			rotation: 45.0d
+			width: 1.0d
+			x: 19.0d
+			y: -5.0d
+		}
+		{
+			height: 1.0d
+			image: "xtonesreworked:block/bitt/12"
+			rotation: 45.0d
+			width: 1.0d
+			x: 19.0d
+			y: -5.0d
 		}
 	]
 	order_index: 8
@@ -86,22 +104,22 @@
 			id: "0DAFE054BF92FA6E"
 			linked_quest: "0BC456B4331C09F5"
 			shape: "diamond"
-			x: 15.5d
+			x: 15.0d
 			y: -5.0d
 		}
 		{
 			id: "5F48CB73E3456910"
 			linked_quest: "430034AB98D8453B"
 			shape: "diamond"
-			x: 13.5d
+			x: 13.0d
 			y: -5.0d
 		}
 		{
 			id: "0CB3E6856E9E362B"
 			linked_quest: "17CEA439C0110AFA"
 			shape: "diamond"
-			x: 15.5d
-			y: 0.5d
+			x: 25.5d
+			y: 2.5d
 		}
 		{
 			id: "31FDB6095F1DCD59"
@@ -114,14 +132,14 @@
 			id: "1DBC73565AB71C40"
 			linked_quest: "1BDAC7D9FED887B2"
 			shape: "diamond"
-			x: 14.5d
+			x: 14.0d
 			y: -6.0d
 		}
 		{
 			id: "38034C2D7E0BA13A"
 			linked_quest: "4167ADF91EF95341"
 			shape: "diamond"
-			x: 3.5d
+			x: 2.0d
 			y: 4.0d
 		}
 		{
@@ -129,7 +147,7 @@
 			linked_quest: "3490AACD4AA62C5D"
 			shape: "gear"
 			size: 2.0d
-			x: 13.5d
+			x: 13.25d
 			y: -1.5d
 		}
 		{
@@ -137,6 +155,25 @@
 			linked_quest: "6CD1C787E12CE2CB"
 			x: 1.5d
 			y: -3.5d
+		}
+		{
+			id: "0C8651A7BBB01A37"
+			linked_quest: "0A7AD87999A0DDF5"
+			shape: "hexagon"
+			x: 17.5d
+			y: 4.0d
+		}
+		{
+			id: "78A128224F511E5B"
+			linked_quest: "26167AFECA871925"
+			x: 23.5d
+			y: -3.5d
+		}
+		{
+			id: "14A5E7DF1CE0D831"
+			linked_quest: "3A20210242A1C865"
+			x: 18.0d
+			y: -5.0d
 		}
 	]
 	quests: [
@@ -222,7 +259,7 @@
 				item: "gtceu:naquadah_alloy_ingot"
 				type: "item"
 			}]
-			x: 13.5d
+			x: 13.25d
 			y: 0.5d
 		}
 		{
@@ -295,7 +332,7 @@
 					type: "item"
 				}
 			]
-			x: 17.0d
+			x: 15.5d
 			y: 2.5d
 		}
 		{
@@ -307,7 +344,7 @@
 			description: [
 				"你应该已经发现了制作它需要&cZPM&r电压，而这章还只是&dLuV&r..."
 				""
-				"是的！不同章节之间并&e不是严格的线性关系&r，你完全可以同时进行这个阶段和下个阶段的任务！"
+				"是的！不同章节之间并&e不是严格的线性关系&r，你完全可以同时进行当前阶段和下个阶段的任务！"
 				""
 				"想要完成这个任务，你必须先上到&cZPM&r章节解锁&6精英组装机 III&r"
 			]
@@ -319,7 +356,7 @@
 				item: "gtceu:trinium_coil_block"
 				type: "item"
 			}]
-			x: 17.0d
+			x: 15.5d
 			y: -1.5d
 		}
 		{
@@ -332,7 +369,7 @@
 				item: "gtceu:uranium_rhodium_dinaquadide_ingot"
 				type: "item"
 			}]
-			x: 17.0d
+			x: 15.5d
 			y: 0.5d
 		}
 		{
@@ -479,7 +516,7 @@
 				item: "gtceu:europium_ingot"
 				type: "item"
 			}]
-			x: 14.5d
+			x: 14.0d
 			y: -3.5d
 		}
 		{
@@ -491,7 +528,7 @@
 				type: "item"
 			}]
 			title: "晶体电路"
-			x: 17.0d
+			x: 16.5d
 			y: -3.5d
 		}
 		{
@@ -507,7 +544,7 @@
 				type: "item"
 			}]
 			title: "&9晶体处理器"
-			x: 21.0d
+			x: 20.5d
 			y: -3.5d
 		}
 		{
@@ -520,8 +557,8 @@
 				type: "item"
 			}]
 			title: "&9晶体处理器集群"
-			x: 23.0d
-			y: -3.5d
+			x: 20.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["464D2CB6C35A56F0"]
@@ -535,8 +572,8 @@
 				type: "item"
 			}]
 			title: "&9晶体处理器超级计算机"
-			x: 23.0d
-			y: -0.5999999999999996d
+			x: 20.5d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -554,7 +591,7 @@
 				type: "item"
 			}]
 			title: "&9晶体处理器主机"
-			x: 23.0d
+			x: 20.5d
 			y: 2.5d
 		}
 		{
@@ -603,11 +640,11 @@
 				item: "gtceu:naquadria_ingot"
 				type: "item"
 			}]
-			x: 19.0d
+			x: 17.5d
 			y: -1.5d
 		}
 		{
-			dependencies: ["1156B92F11DA73B6"]
+			dependencies: ["0C85F6611B7A1FCE"]
 			description: ["别忘了&6精密组装机&r也可以执行&e组装机配方&r，而且不需要&6整体框架&r"]
 			id: "722C24B0C50641D1"
 			shape: "hexagon"
@@ -617,22 +654,23 @@
 				item: "gtocore:precision_assembler"
 				type: "item"
 			}]
-			x: 23.0d
-			y: 5.0d
+			x: 25.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["722C24B0C50641D1"]
 			description: ["可持续性发电机，在MK I阶段你可以使用氖等离子体作为原料"]
 			id: "3E24EF8FE7A0619D"
+			optional: true
 			shape: "diamond"
-			size: 1.5d
+			size: 1.0d
 			tasks: [{
 				id: "0F0FDE7249F8F817"
 				item: "gtocore:magnetic_fluid_generator"
 				type: "item"
 			}]
-			x: 21.0d
-			y: 5.0d
+			x: 23.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["722C24B0C50641D1"]
@@ -646,14 +684,14 @@
 			]
 			id: "5548E798636F52B2"
 			shape: "diamond"
-			size: 2.5d
+			size: 2.0d
 			tasks: [{
 				id: "18493B4F8D6A5E45"
 				item: "gtocore:luv_kuangbiao_one_giant_nuclear_fusion_reactor"
 				type: "item"
 			}]
-			x: 26.5d
-			y: 5.0d
+			x: 28.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["4C8549E624A543C5"]
@@ -681,31 +719,7 @@
 			y: -5.0d
 		}
 		{
-			dependencies: [
-				"608F56E6A187940C"
-				"05EB6CDF13762280"
-			]
-			description: ["可以替代铕作为芯片增殖的原料，不过你需要在&4ZPM&r取得无菌超净间才能制作"]
-			hide_dependency_lines: true
-			icon: "gtceu:bacterial_sludge_bucket"
-			id: "31D3C88D38170932"
-			tasks: [
-				{
-					id: "2382D49A394DEDE0"
-					item: "gtceu:bacterial_sludge_bucket"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "0565F96E21DAF0ED"
-					type: "checkmark"
-				}
-			]
-			x: 19.0d
-			y: -5.0d
-		}
-		{
-			dependencies: ["228B283B5477879B"]
+			dependencies: ["0C85F6611B7A1FCE"]
 			description: [
 				"&a艾&r&e萨&r&c线&r，这是一条新的矿物处理线，你需要大量的松油和乙醇来搭建这条产线"
 				""
@@ -734,8 +748,8 @@
 				}
 			]
 			title: "艾萨线"
-			x: 18.5d
-			y: 0.4999999999999929d
+			x: 21.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["20F6B937CF470863"]
@@ -758,7 +772,7 @@
 				item: "gtceu:raw_crystal_chip_parts"
 				type: "item"
 			}]
-			x: 17.0d
+			x: 16.5d
 			y: -5.0d
 		}
 		{
@@ -770,11 +784,11 @@
 				item: "gtocore:silica_ceramic_flake"
 				type: "item"
 			}]
-			x: 21.0d
+			x: 20.5d
 			y: -5.0d
 		}
 		{
-			dependencies: ["1156B92F11DA73B6"]
+			dependencies: ["0C85F6611B7A1FCE"]
 			description: ["大型虚空采矿能挖到一些你见不到的矿脉，用你的钻进液来换取它们吧！"]
 			id: "6692B5CD632BB74F"
 			shape: "hexagon"
@@ -784,11 +798,11 @@
 				item: "gtocore:large_void_miner"
 				type: "item"
 			}]
-			x: 25.5d
+			x: 23.5d
 			y: 0.5d
 		}
 		{
-			dependencies: ["6692B5CD632BB74F"]
+			dependencies: ["2CBDC8B5C9C32530"]
 			description: [
 				"碲是一种半金属元素，它们在世界分布松散，需要用虚空采矿才能找到"
 				""
@@ -938,27 +952,14 @@
 			dependencies: ["1156B92F11DA73B6"]
 			id: "6925C0D55D578A9A"
 			shape: "diamond"
-			size: 1.5d
+			size: 1.0d
 			tasks: [{
 				id: "335A69E2488138E8"
 				item: "gtocore:large_crystallization_chamber"
 				type: "item"
 			}]
-			x: 21.0d
-			y: 0.5d
-		}
-		{
-			dependencies: ["31F90B973A779017"]
-			id: "49EECA793E1FF66F"
-			shape: "hexagon"
-			size: 1.5d
-			tasks: [{
-				id: "5DDDA7609E78FB32"
-				item: "gtocore:decay_hastener"
-				type: "item"
-			}]
-			x: 21.0d
-			y: -1.5d
+			x: 22.0d
+			y: 1.0d
 		}
 		{
 			dependencies: [
@@ -997,7 +998,7 @@
 				type: "item"
 			}]
 			x: 7.5d
-			y: 5.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["2F03D93AC7DBE58D"]
@@ -1011,7 +1012,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 5.0d
+			y: 4.5d
 		}
 		{
 			dependencies: [
@@ -1024,8 +1025,11 @@
 				""
 				"你需要替换空组件为&6计算组件&r和&6冷却组件&r才能让计算机开始工作"
 				""
-				"需要注意，&b冷却组件&r必须足够，后续你还需要&e多氯联苯冷却液&r进行主动冷却，否则HPCA&e过热&r就会&c报废&r！"
+				"需要注意，&b冷却组件&r必须足够，否则HPCA&e过热&r就会&c报废&r！"
+				""
+				"我建议你直接使用&6主动冷却组件&r（需要使用&e多氯联苯冷却液&r）进行主动冷却，目前你能达到的最大算力为&a16CWU&r"
 			]
+			icon: "gtceu:high_performance_computation_array"
 			id: "777A7D91695E8720"
 			rewards: [{
 				id: "28096F1A6396DEA0"
@@ -1035,13 +1039,20 @@
 			shape: "hexagon"
 			size: 1.5d
 			subtitle: "内置八张RTX 4090"
-			tasks: [{
-				id: "769ED527F4AE5C0D"
-				item: "gtceu:high_performance_computation_array"
-				type: "item"
-			}]
-			x: 17.0d
-			y: 5.0d
+			tasks: [
+				{
+					id: "769ED527F4AE5C0D"
+					item: "gtceu:high_performance_computation_array"
+					type: "item"
+				}
+				{
+					id: "7150A9820FEF5B2B"
+					item: "gtceu:hpca_computation_component"
+					type: "item"
+				}
+			]
+			x: 15.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["4EC4E151D57351F6"]
@@ -1050,11 +1061,11 @@
 			subtitle: "正如生活所见"
 			tasks: [{
 				id: "063519DAB63EFE0A"
-				item: { Count: 64, id: "gtceu:normal_optical_pipe" }
+				item: "gtceu:normal_optical_pipe"
 				type: "item"
 			}]
 			x: 9.5d
-			y: 5.0d
+			y: 4.5d
 		}
 		{
 			dependencies: [
@@ -1067,6 +1078,7 @@
 				""
 				"后续还有其无线版本"
 			]
+			hide_dependent_lines: true
 			id: "7FBA4F73F200F0D5"
 			tasks: [
 				{
@@ -1081,18 +1093,23 @@
 				}
 			]
 			title: "算力数据仓"
-			x: 18.5d
-			y: 3.75d
+			x: 14.0d
+			y: 3.5d
 		}
 		{
-			dependencies: ["05EB6CDF13762280"]
+			dependencies: [
+				"05EB6CDF13762280"
+				"65D4988E2E1A0356"
+				"3A20210242A1C865"
+			]
+			description: ["魔法来了"]
 			id: "3A08E4803A895152"
 			tasks: [{
 				id: "2CBC1A13734808A5"
 				item: "gtceu:crystal_cpu"
 				type: "item"
 			}]
-			x: 19.0d
+			x: 18.5d
 			y: -3.5d
 		}
 		{
@@ -1121,10 +1138,13 @@
 			]
 			title: "光学数据仓"
 			x: 11.0d
-			y: 3.75d
+			y: 3.5d
 		}
 		{
-			dependencies: ["03ECABF0C3DF29EF"]
+			dependencies: [
+				"03ECABF0C3DF29EF"
+				"6692B5CD632BB74F"
+			]
 			description: ["精准虚空采矿模式能挖到一些特殊的矿，但同时你也需要准备&6精华&r"]
 			id: "2CBDC8B5C9C32530"
 			tasks: [{
@@ -1140,8 +1160,8 @@
 				type: "item"
 			}]
 			title: "精华"
-			x: 29.5d
-			y: 0.5d
+			x: 23.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["789B188B05759151"]
@@ -1158,8 +1178,8 @@
 				item: "gtocore:block_conversion_room"
 				type: "item"
 			}]
-			x: 27.5d
-			y: 0.5d
+			x: 22.0d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -1270,8 +1290,8 @@
 				item: "gtocore:supercritical_mega_steam_turbine"
 				type: "item"
 			}]
-			x: 25.5d
-			y: 2.5d
+			x: 19.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["137FFA84C0836E14"]
@@ -1285,8 +1305,8 @@
 				item: "gtocore:supercritical_steam_input_hatch"
 				type: "item"
 			}]
-			x: 27.5d
-			y: 2.5d
+			x: 19.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["6FFA3DE7A0920B7A"]
@@ -1299,6 +1319,84 @@
 			}]
 			x: 1.5d
 			y: 0.5d
+		}
+		{
+			dependencies: ["1156B92F11DA73B6"]
+			description: [
+				"解锁&6高级计算组件&r之后，你能达到的最高算力来到了&a48CWU&r"
+				""
+				"在下个阶段你就可以制作突破算力上限的设施"
+			]
+			id: "0C85F6611B7A1FCE"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "192AAA239C4922C8"
+				item: "gtceu:hpca_advanced_computation_component"
+				type: "item"
+			}]
+			x: 23.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7787A8BEBD46D860"]
+			description: [
+				"制作&6刻蚀水晶芯片&r需要&b无重力环境&r，这意味着你需要第三次前往空间站"
+				""
+				"但空间站不够高，电力高炉放下后普通消声仓将无法工作"
+				""
+				"因此你需要给高炉安装&6ME消声仓&r，它无需空出三格，并会直接将机器工作时的灰烬收集至ME网络中！"
+			]
+			hide_dependency_lines: true
+			id: "65D4988E2E1A0356"
+			shape: "diamond"
+			tasks: [{
+				id: "0EE50C2FC4BF6324"
+				item: "gtocore:me_muffler_hatch"
+				type: "item"
+			}]
+			x: 19.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7C9C5AA8812891CC"]
+			id: "263C0A85D433CD20"
+			tasks: [{
+				id: "3B40BC4652A3952F"
+				item: "gtceu:luv_field_generator"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1156B92F11DA73B6"]
+			id: "659C29B9B34DEAC6"
+			tasks: [
+				{
+					id: "4608129F2DBDD12F"
+					item: "gtmthings:wireless_computation_transmitter_hatch"
+					type: "item"
+				}
+				{
+					id: "75A9EA8AB87EB55A"
+					item: "gtmthings:wireless_computation_receiver_hatch"
+					type: "item"
+				}
+			]
+			x: 19.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["228B283B5477879B"]
+			id: "043E593994AC220E"
+			tasks: [{
+				id: "6595979A5F3F6428"
+				item: "gtceu:advanced_data_access_hatch"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 1.0d
 		}
 	]
 	subtitle: ["Tier6-LuV"]

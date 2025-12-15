@@ -273,18 +273,6 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["4BEE8DA7018CD14D"]
-			description: ["必须制作盖亚魂循环，请参考魔法线"]
-			id: "5876D6BFFD8AA7F7"
-			tasks: [{
-				id: "32CCF029EA0AA6D4"
-				item: "gtocore:transcending_matter_bucket"
-				type: "item"
-			}]
-			x: -6.0d
-			y: -2.0d
-		}
-		{
 			id: "0DBA04D875077E85"
 			size: 1.0d
 			tasks: [{
@@ -440,6 +428,42 @@
 			title: "欢迎来到&2极超压&r阶段"
 			x: -10.0d
 			y: -5.0d
+		}
+		{
+			id: "2455103BECCE9E68"
+			tasks: [{
+				id: "54CAF6DEE7EDE23B"
+				item: "gtocore:advanced_integrated_ore_processor"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 5.5d
+		}
+		{
+			id: "384BA3A6B36A3A64"
+			tasks: [{
+				id: "3CB736D90EEA0327"
+				item: "gtocore:data_center"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 7.0d
+		}
+		{
+			id: "33F5E401DDEC813A"
+			invisible: true
+			subtitle: "??级数据载体"
+			tasks: [{
+				id: "1F773C242BE58FB4"
+				item: {
+					Count: 1
+					id: "gtocore:microcosm"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.0d
 		}
 	]
 	subtitle: ["Tier10-UEV"]
