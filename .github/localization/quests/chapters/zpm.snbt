@@ -48,6 +48,13 @@
 			x: 2.0d
 			y: 8.0d
 		}
+		{
+			id: "78DA328CC15F9A01"
+			linked_quest: "228B283B5477879B"
+			shape: "hexagon"
+			x: -6.5d
+			y: -4.0d
+		}
 	]
 	quests: [
 		{
@@ -132,9 +139,9 @@
 		}
 		{
 			dependencies: [
-				"31F90B973A779017"
-				"742A167FA252AC44"
 				"0A7AD87999A0DDF5"
+				"1156B92F11DA73B6"
+				"3490AACD4AA62C5D"
 			]
 			id: "1DE0A599F076C31A"
 			shape: "gear"
@@ -194,7 +201,10 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["3490AACD4AA62C5D"]
+			dependencies: [
+				"3490AACD4AA62C5D"
+				"5B83B53046A06AFE"
+			]
 			description: [
 				"{gto.zpm.quests.1F94544576D30A92.description0}"
 				""
@@ -230,8 +240,8 @@
 		}
 		{
 			dependencies: [
-				"228B283B5477879B"
 				"0BB1BDBE8BB307E4"
+				"2947C7CBDC544496"
 			]
 			id: "7402D24D2847B7F2"
 			shape: "diamond"
@@ -258,6 +268,7 @@
 		{
 			dependencies: ["28265843939C1503"]
 			id: "24F1061AFD1BFEB2"
+			subtitle: "{gto.zpm.quests.24F1061AFD1BFEB2.subtitle}"
 			tasks: [{
 				id: "73A59148303A615B"
 				item: "gtceu:enriched_naquadah_trinium_europium_duranide_ingot"
@@ -267,13 +278,19 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["24F1061AFD1BFEB2"]
+			dependencies: [
+				"24F1061AFD1BFEB2"
+				"0C85F6611B7A1FCE"
+			]
 			description: [
 				"{gto.zpm.quests.2947C7CBDC544496.description0}"
 				""
 				"{gto.zpm.quests.2947C7CBDC544496.description1}"
 			]
+			hide_dependent_lines: true
 			id: "2947C7CBDC544496"
+			shape: "hexagon"
+			size: 1.5d
 			tasks: [{
 				id: "4A8D522FF1ABCC7F"
 				item: "gtceu:network_switch"
@@ -566,10 +583,7 @@
 			id: "2FF39933AC2AC5BE"
 			tasks: [{
 				id: "08777A99EA37841C"
-				item: {
-					Count: 64
-					id: "gtceu:wetware_printed_circuit_board"
-				}
+				item: "gtceu:wetware_printed_circuit_board"
 				type: "item"
 			}]
 			x: 0.0d
@@ -581,10 +595,7 @@
 			id: "1817710A29037DB0"
 			tasks: [{
 				id: "07F6F650F52E203B"
-				item: {
-					Count: 64
-					id: "gtocore:hydroxyapatite_ceramic_flake"
-				}
+				item: "gtocore:hydroxyapatite_ceramic_flake"
 				type: "item"
 			}]
 			x: 0.0d
@@ -620,10 +631,7 @@
 			y: 6.0d
 		}
 		{
-			dependencies: [
-				"3490AACD4AA62C5D"
-				"228B283B5477879B"
-			]
+			dependencies: ["228B283B5477879B"]
 			description: ["{gto.zpm.quests.0A7AD87999A0DDF5.description0}"]
 			id: "0A7AD87999A0DDF5"
 			shape: "hexagon"
@@ -632,7 +640,7 @@
 				item: "gtceu:zpm_energy_input_hatch"
 				type: "item"
 			}]
-			x: -6.0d
+			x: -4.5d
 			y: -4.0d
 		}
 		{
@@ -806,14 +814,10 @@
 		{
 			dependencies: [
 				"0007751813572404"
-				"6ED98823FB8CA8ED"
+				"2CBDC8B5C9C32530"
 			]
 			dependency_requirement: "one_completed"
-			description: [
-				"{gto.zpm.quests.26167AFECA871925.description0}"
-				""
-				"{gto.zpm.quests.26167AFECA871925.description1}"
-			]
+			description: ["{gto.zpm.quests.26167AFECA871925.description0}"]
 			id: "26167AFECA871925"
 			tasks: [{
 				id: "0DD236AADC72F7E6"
@@ -1068,6 +1072,7 @@
 				"7E1C35C2DE805E6B"
 			]
 			id: "52C0E5B54098C1AD"
+			shape: "hexagon"
 			tasks: [{
 				id: "0DF56BF924C780E6"
 				item: "gtceu:zpm_assembler"
@@ -1092,6 +1097,61 @@
 			}]
 			x: 4.0d
 			y: 6.0d
+		}
+		{
+			dependencies: ["228B283B5477879B"]
+			hide_dependent_lines: true
+			id: "5B83B53046A06AFE"
+			tasks: [
+				{
+					id: "6600E2B014111C97"
+					item: "gtceu:zpm_emitter"
+					type: "item"
+				}
+				{
+					id: "3ED93D9381303D48"
+					item: "gtceu:zpm_sensor"
+					type: "item"
+				}
+				{
+					id: "68D5F5B2276C25C5"
+					item: "gtceu:zpm_field_generator"
+					type: "item"
+				}
+			]
+			title: "{gto.zpm.quests.5B83B53046A06AFE.title}"
+			x: -4.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"31F90B973A779017"
+				"0B7A508B2670C9C2"
+				"0C85F6611B7A1FCE"
+			]
+			hide_dependent_lines: true
+			id: "49EECA793E1FF66F"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "5DDDA7609E78FB32"
+				item: "gtocore:decay_hastener"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["19B07E541BE74686"]
+			id: "1585D7EF776E3E9C"
+			shape: "diamond"
+			tasks: [{
+				id: "5642F3EBE81E7FCE"
+				item: "gtocore:integrated_ore_processor"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 10.0d
 		}
 	]
 	subtitle: ["{gto.zpm.subtitle0}"]

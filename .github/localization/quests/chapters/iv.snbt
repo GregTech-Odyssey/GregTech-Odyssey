@@ -50,6 +50,14 @@
 			x: 20.0d
 			y: 0.0d
 		}
+		{
+			height: 1.5d
+			image: "gtocore:block/spacetime_assembly_line_casing"
+			rotation: 45.0d
+			width: 1.5d
+			x: 20.0d
+			y: -8.5d
+		}
 	]
 	order_index: 7
 	quest_links: [
@@ -566,7 +574,6 @@
 				"{gto.iv.quests.56E262C94F46A592.description1}"
 			]
 			id: "56E262C94F46A592"
-			optional: true
 			shape: "diamond"
 			size: 1.5d
 			tasks: [{

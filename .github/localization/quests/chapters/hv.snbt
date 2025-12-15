@@ -69,6 +69,14 @@
 			x: 1.0d
 			y: 5.5d
 		}
+		{
+			height: 1.0d
+			image: "gtocore:block/spacetime_assembly_line_casing"
+			rotation: 45.0d
+			width: 1.0d
+			x: -8.0d
+			y: 0.0d
+		}
 	]
 	order_index: 5
 	quest_links: [
@@ -870,6 +878,7 @@
 			description: ["{gto.hv.quests.37F6B84024604016.description0}"]
 			hide_dependency_lines: true
 			id: "37F6B84024604016"
+			shape: "diamond"
 			tasks: [{
 				id: "15D6A5FA43C408BE"
 				item: "gtceu:auto_maintenance_hatch"
@@ -889,6 +898,7 @@
 				"{gto.hv.quests.0FE9FDD72A50DCE5.description1}"
 			]
 			id: "0FE9FDD72A50DCE5"
+			shape: "diamond"
 			tasks: [{
 				id: "559CEB309CCECACB"
 				item: "gtceu:configurable_maintenance_hatch"

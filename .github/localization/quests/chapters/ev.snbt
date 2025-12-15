@@ -298,6 +298,11 @@
 			size: 2.5d
 			tasks: [
 				{
+					id: "50E3B4E82F4D5D12"
+					item: "gtceu:platinum_dust"
+					type: "item"
+				}
+				{
 					id: "44456CDCA70FF9BB"
 					item: "gtceu:palladium_dust"
 					type: "item"
@@ -705,7 +710,7 @@
 			]
 			id: "32B3E6812521AB70"
 			shape: "gear"
-			size: 2.5d
+			size: 2.0d
 			subtitle: "{gto.ev.quests.32B3E6812521AB70.subtitle}"
 			tasks: [{
 				id: "7E0234D447851767"
@@ -867,6 +872,8 @@
 				"{gto.ev.quests.4D36C61E2AF3205F.description0}"
 				""
 				"{gto.ev.quests.4D36C61E2AF3205F.description1}"
+				""
+				"{gto.ev.quests.4D36C61E2AF3205F.description2}"
 			]
 			id: "4D36C61E2AF3205F"
 			shape: "hexagon"
@@ -984,7 +991,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: -11.5d
+			y: -12.0d
 		}
 		{
 			dependencies: ["2F6C81E3B10365E8"]

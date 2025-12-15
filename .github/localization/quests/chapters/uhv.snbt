@@ -45,7 +45,7 @@
 		{
 			id: "0D117230D47B6D59"
 			linked_quest: "2F3D8DD85C6D4F74"
-			x: 0.0d
+			x: -1.5d
 			y: -3.0d
 		}
 		{
@@ -95,12 +95,16 @@
 				item: "gtceu:netherite_dust"
 				type: "item"
 			}]
-			x: 0.0d
+			x: -1.5d
 			y: 2.5d
 		}
 		{
 			dependencies: ["25930ED6EFD93F8B"]
-			description: ["{gto.uhv.quests.6E9E73D8F464EF08.description0}"]
+			description: [
+				"{gto.uhv.quests.6E9E73D8F464EF08.description0}"
+				""
+				"{gto.uhv.quests.6E9E73D8F464EF08.description1}"
+			]
 			id: "6E9E73D8F464EF08"
 			subtitle: "{gto.uhv.quests.6E9E73D8F464EF08.subtitle}"
 			tasks: [{
@@ -108,7 +112,7 @@
 				item: "gtocore:energetic_netherite_dust"
 				type: "item"
 			}]
-			x: 0.0d
+			x: -1.5d
 			y: 1.0d
 		}
 		{
@@ -125,7 +129,7 @@
 				item: "gtceu:uhv_energy_input_hatch"
 				type: "item"
 			}]
-			x: 0.0d
+			x: 0.5d
 			y: -1.0d
 		}
 		{
@@ -337,10 +341,7 @@
 			id: "6F7011B88B406976"
 			tasks: [{
 				id: "05ACD100993A63D2"
-				item: {
-					Count: 64
-					id: "gtocore:raw_photon_carrying_wafer"
-				}
+				item: "gtocore:raw_photon_carrying_wafer"
 				type: "item"
 			}]
 			x: 8.5d
@@ -542,11 +543,14 @@
 			dependencies: [
 				"0DA9DF55094DF780"
 				"26A8B23E6550CF57"
+				"5876D6BFFD8AA7F7"
 			]
 			description: [
 				"{gto.uhv.quests.7ED709D3291D6B88.description0}"
 				""
 				"{gto.uhv.quests.7ED709D3291D6B88.description1}"
+				""
+				"{gto.uhv.quests.7ED709D3291D6B88.description2}"
 			]
 			id: "7ED709D3291D6B88"
 			ignore_reward_blocking: true
@@ -630,6 +634,7 @@
 				"040559A415488076"
 				"1F5585DCC6CE74ED"
 				"5A9B478B1791A425"
+				"6505737CF0E652D0"
 			]
 			id: "26A8B23E6550CF57"
 			tasks: [{
@@ -789,7 +794,7 @@
 			description: ["{gto.uhv.quests.6596EAF3D5641974.description0}"]
 			hide_dependency_lines: true
 			id: "6596EAF3D5641974"
-			shape: "circle"
+			shape: "diamond"
 			tasks: [{
 				id: "7706251E93D0F6E6"
 				item: "gtocore:component_assembly_line"
@@ -805,10 +810,7 @@
 			optional: true
 			tasks: [{
 				id: "229F5FD7AAE48C84"
-				item: {
-					Count: 64
-					id: "gtocore:ingot_field_shape"
-				}
+				item: "gtocore:ingot_field_shape"
 				type: "item"
 			}]
 			x: 2.5d
@@ -857,6 +859,7 @@
 		{
 			dependencies: ["2204D9C8EC5AE2D0"]
 			id: "601F64DFDF68B036"
+			shape: "diamond"
 			tasks: [{
 				id: "6EA6EFF7BD2A7C45"
 				item: "gtocore:crystal_builder"
@@ -918,13 +921,65 @@
 			dependencies: ["208F73ECE425E473"]
 			description: ["{gto.uhv.quests.26F29F895D5F73D6.description0}"]
 			id: "26F29F895D5F73D6"
+			shape: "diamond"
+			size: 1.0d
 			tasks: [{
 				id: "4BCBD91AE038321E"
 				item: "gtocore:rare_earth_centrifugal"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -3.0d
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["05FC584B28D957EB"]
+			description: ["{gto.uhv.quests.5876D6BFFD8AA7F7.description0}"]
+			id: "5876D6BFFD8AA7F7"
+			tasks: [{
+				id: "32CCF029EA0AA6D4"
+				item: "gtocore:transcending_matter_bucket"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"36D491B80FE833C0"
+				"57729FBB969E8CC6"
+			]
+			description: ["{gto.uhv.quests.6505737CF0E652D0.description0}"]
+			hide_dependency_lines: true
+			id: "6505737CF0E652D0"
+			tasks: [{
+				id: "0C359903F7FF3F5B"
+				item: "gtocore:integral_framework_uev"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["549A7D66F1D4875F"]
+			hide_dependency_lines: true
+			icon: "gtocore:large_algae_farm"
+			id: "6372693C5EE7FA5D"
+			shape: "diamond"
+			size: 1.0d
+			tasks: [
+				{
+					id: "46BC61B3CA4BE372"
+					item: "gtocore:large_algae_farm"
+					type: "item"
+				}
+				{
+					id: "67D8EC907E911693"
+					item: "gtocore:algae_access_hatch"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 2.5d
 		}
 	]
 	subtitle: ["{gto.uhv.subtitle0}"]
