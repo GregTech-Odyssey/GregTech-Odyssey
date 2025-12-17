@@ -5,8 +5,11 @@
     <a href="https://discord.gg/PxruFSbtCn"><img src="https://discordapp.com/api/guilds/1361351361257672876/widget.png" alt="加入Discord服务器 | Join Discord Server"></a>
     <a href="https://qm.qq.com/q/H4mWY1GfSK"><img src="https://img.shields.io/badge/QQ-加入交流群-12B7F5?logo=qq&logoColor=white" alt="加入QQ群 | Join QQ Group"></a>
 </h1>
+## 如何游玩
+查看官方网站介绍 [开始游玩GTO](https://gtodyssey.com/zh-hans/start/)
 
 ## 介绍
+查看官方网站 [主页](https://gtodyssey.com/zh-hans/home)
 - GregTech-Odyssey 是一个经过极致性能优化的科技导向的格雷整合包, 致力于在现代格雷的基础上为玩家提供多样的, 有挑战性的体验. 游戏中包含复杂又有趣的各种自定义机制机器，以及能够带来巨大产能提升的的功能仓室。同时也包含了魔法模组, 各种辅助模组和优化模组提升游戏体验. 此整合包所使用的独特Mod - GTOCore不仅包含更多定制化的游戏流程内容, 还实现了例如ME样板供应器的增强阻挡模式, 机器的跨配方并行和多线程优化，以进一步优化游戏体验.
 
 ## 协议
