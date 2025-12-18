@@ -2,7 +2,7 @@
 
 <h1 align="center">
     <a href="https://discord.gg/PxruFSbtCn"><img src="https://discordapp.com/api/guilds/1361351361257672876/widget.png" alt="加入Discord服务器 | Join Discord Server"></a>
-    <a href=""><img src="https://img.shields.io/badge/QQ-Alpha Dept.(Full)-12B7F5?logo=qq&logoColor=white" alt="加入Alpha部门 | Join QQ Alpha Dept."></a>
+    <img src="https://img.shields.io/badge/QQ-Alpha Dept.(Full)-12B7F5?logo=qq&logoColor=white" alt="加入Alpha部门 | Join QQ Alpha Dept.">
     <a href="https://qm.qq.com/q/gIWx9iUxck"><img src="https://img.shields.io/badge/QQ-Beta Dept.-12B7F5?logo=qq&logoColor=white" alt="加入Beta部门 | Join QQ Beta Dept."></a>
 </h1>
 
@@ -41,7 +41,7 @@ The nightly release contains the latest builds.
 - `GregTech-Odyssey-client-mods.zip` contains mods for client and config files
 - `GregTech-Odyssey-server-mods.zip` contains mods for server and config files
 - `GregTech-Odyssey-server.zip` contains mods for server, config files and forge installation
-- `GregTech.Odyssey-<version>.zip` is CurseForge pack for client. 
+- `GregTech.Odyssey-<version>.zip` is CurseForge pack for client.
 
 ### Exporting the CurseForge Modpack
 
