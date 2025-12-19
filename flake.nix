@@ -88,6 +88,7 @@
 
             dontUnpack = true;
             dontConfigure = true;
+            dontFixup = true;
 
             installPhase = ''
               mkdir -p $out
