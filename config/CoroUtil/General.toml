@@ -2,7 +2,7 @@
 #General mod settings
 [general]
 	#logging
-	useLoggingLog = false
+	useLoggingLog = true
 	#-
 	useLoggingDebug = false
 	#-
