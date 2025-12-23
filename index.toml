@@ -9,6 +9,10 @@ file = "config/AdvancedBackups.properties"
 hash = "11f887a741007d8cfddc4364819002706548b03344f48f0e2686653cb3f75945"
 
 [[files]]
+file = "config/CoroUtil/General.toml"
+hash = "d86beab1176c367beeed3b8fb8a2a8dfbd8a1db7293f067c01bc38c73020e398"
+
+[[files]]
 file = "config/DistantHorizons.toml"
 hash = "49cc18f889159bd96c2b7e97611d9ae5e935bd820e759e5ae04fa1e3fb12eb3b"
 
@@ -514,7 +518,7 @@ hash = "cf73eaf4c623f1328d463df6255e6753c4aeafbb27e04479088d09a1f264ba05"
 
 [[files]]
 file = "config/clienttweaks-common.toml"
-hash = "ab11601f5c000a9dc302d0f8bbf30397cbdb8e411ac135cc5b0a3e9123351d16"
+hash = "98d83fa6188611693f0b1dd865b691738966d9453c701ac7e1bfb91d33fa3529"
 
 [[files]]
 file = "config/configuration-options.json"
@@ -618,7 +622,7 @@ hash = "09ff183e061d93b79514bc171bf9118497578757e7a5c45946039487656e2619"
 
 [[files]]
 file = "config/emi.css"
-hash = "5945e3d06950df81f50595bbddbcbc4fa6f3ac7acc2c4fd74c29c0c7849bc3e2"
+hash = "f8f43d6e59323558378c6143afb1693d4bd7db78f023aac0ead3db1d7968541c"
 
 [[files]]
 file = "config/emitrades.json5"
@@ -2194,7 +2198,7 @@ hash = "47b287f97fc61a322d7a19087bc9e9696de5b8f6060a5a2eda73d3d4ab3805c2"
 
 [[files]]
 file = "config/sidebar_buttons.json"
-hash = "f37500e8d3440dc1da3307f0fbbb3a0c181794c844efab9cfeb16564b4f22f3d"
+hash = "c0a2342ab1d042cec98799321a196d4b9ef958d6fdd59869c905226e71c5c8b2"
 
 [[files]]
 file = "config/solcarrot-client.toml"
@@ -3046,11 +3050,6 @@ metafile = true
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
 hash = "a5c9fcccdcfa72cc7d05de87807c5aa54cc8f59698c50fc59c09eb2172c90fc3"
-metafile = true
-
-[[files]]
-file = "mods/spark.pw.toml"
-hash = "316415c05f3c611d6c9bf6377387d78b8186fbfcbd13438e0ce18757a8faeb8b"
 metafile = true
 
 [[files]]
