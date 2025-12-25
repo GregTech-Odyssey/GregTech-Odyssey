@@ -454,7 +454,7 @@ hash = "79452ada826109f2ae43fa5511e4a40431362ad5f81acef4db1c9856e75c5aa1"
 
 [[files]]
 file = "config/attributefix.json"
-hash = "43d92d68b0b06aaf487df14f7666c713d1c2aba573204cb4ecf05b34a844ba15"
+hash = "90141463ece3d8653b15d0e6767efc778981c3880687885996f9b38c2d68d902"
 
 [[files]]
 file = "config/attributeslib.cfg"
@@ -622,7 +622,7 @@ hash = "09ff183e061d93b79514bc171bf9118497578757e7a5c45946039487656e2619"
 
 [[files]]
 file = "config/emi.css"
-hash = "5945e3d06950df81f50595bbddbcbc4fa6f3ac7acc2c4fd74c29c0c7849bc3e2"
+hash = "f8f43d6e59323558378c6143afb1693d4bd7db78f023aac0ead3db1d7968541c"
 
 [[files]]
 file = "config/emitrades.json5"
@@ -1353,10 +1353,6 @@ file = "config/openloader/resources/resources/assets/chisel/lang/zh_cn.json"
 hash = "aad5dc200645865874bffeddd56c2bf18efef3e2a5501ec927598eed2bd1a21e"
 
 [[files]]
-file = "config/openloader/resources/resources/assets/chloride/lang/zh_cn.json"
-hash = "65ce4f75f81b86a6ac99d28e03f911ae3a376709dafb1e2210cc44dc3d99d5a1"
-
-[[files]]
 file = "config/openloader/resources/resources/assets/craftingstation/lang/zh_cn.json"
 hash = "beb24a761956d23cb922a506607258a7fb56f2299fa74c063b4e51eded87ecc6"
 
@@ -1377,24 +1373,12 @@ file = "config/openloader/resources/resources/assets/enderio/lang/en_us.json"
 hash = "f220fa4cb6bf6ea3248fe36b02bd00c7612b44f0e394ee82a082e4a73bfda100"
 
 [[files]]
-file = "config/openloader/resources/resources/assets/expatternprovider/lang/zh_cn.json"
-hash = "fe617436227a16cc9db1eb4d941402cdb808d374a6e44dae7c14e78478f9c1e6"
-
-[[files]]
-file = "config/openloader/resources/resources/assets/explorerscompass/lang/zh_cn.json"
-hash = "300f192941e2dd76c7dd39e1397635349d14e6240b982b522402c1a3be913073"
-
-[[files]]
 file = "config/openloader/resources/resources/assets/factory_blocks/lang/zh_cn.json"
 hash = "b868579684fa2988f8da485d62c42953824489c5765391baad400b061fe430df"
 
 [[files]]
 file = "config/openloader/resources/resources/assets/farmersrespite/lang/zh_cn.json"
 hash = "4a8b7ee900e7d4711c3cc21b1dc415d6efadf7e8a9c6d6c81c9e22443dc18f82"
-
-[[files]]
-file = "config/openloader/resources/resources/assets/framedblocks/lang/zh_cn.json"
-hash = "a9a94230e544db46db7efe47b9cb0c3f3b5cb7869e8efb053e3205756e33617e"
 
 [[files]]
 file = "config/openloader/resources/resources/assets/ftbessentials/lang/zh_cn.json"
@@ -1599,10 +1583,6 @@ hash = "3b6f31d9e9f1643595730b16a527fd168c1bd5d212c9005a0fa35b060bfd4bfd"
 [[files]]
 file = "config/openloader/resources/resources/assets/jei/textures/jei/gui/gui_vanilla.png"
 hash = "ec74f5866a2a5018da666c2584a8f65036ba2dd03352f090e969ab56cc1e24d7"
-
-[[files]]
-file = "config/openloader/resources/resources/assets/jumbofurnace/lang/zh_cn.json"
-hash = "ec2e3264b161fddae603f90fd08c9dbb39dcc5126c3d159271e51a15ee4e8657"
 
 [[files]]
 file = "config/openloader/resources/resources/assets/littletiles/lang/zh_cn.json"
@@ -2309,10 +2289,6 @@ file = "defaultconfigs/champions-ranks.toml"
 hash = "c330c36aec02467987e0caadea141bdda1fb534c11b11be4ce8d4441fc480f58"
 
 [[files]]
-file = "defaultconfigs/ftbchunks/client-config.snbt"
-hash = "6d5592c9b61ca156d7901a1b2a626d9c1f5401ec6988e73fe01fab57c7df2260"
-
-[[files]]
 file = "defaultconfigs/ftbessentials-server.snbt"
 hash = "d4db100eb0310fa61a4eb0291f637032834c1bc02ea20cbde56fee353b30dfe7"
 
@@ -2670,7 +2646,7 @@ metafile = true
 
 [[files]]
 file = "mods/extreme-sound-muffler.pw.toml"
-hash = "e2705049953d00da7e6578550dcfa1c654a22d0f356d2a90bea974da0a835043"
+hash = "06121c7da11792cc7256e5d808787f92cb1816e3fb733d802fc79f6735aa3549"
 metafile = true
 
 [[files]]
@@ -2804,6 +2780,11 @@ hash = "ea05f8426dda347174d1690299c4517a489c6c17370a98fd812e9d06ce1dbcfd"
 metafile = true
 
 [[files]]
+file = "mods/fzzy-config.pw.toml"
+hash = "b3fed05c5f1ab83304f54ad12e42e05e17b3aaf93da7370e94ace9eb863ae890"
+metafile = true
+
+[[files]]
 file = "mods/geckolib.pw.toml"
 hash = "88f142bda6bfa6aff4f4d4e12b8ba7581aa40e3f163039a533f09dd6d634e093"
 metafile = true
@@ -2825,7 +2806,7 @@ metafile = true
 
 [[files]]
 file = "mods/gtocore-0.5.3.jar"
-hash = "48a0ce1ec7de5545e4bc937322f5c398f15b43a50b4890c95a5aea70adeff8bc"
+hash = "396af366e74bf4522b1afc812bfc0b95ffd23e902f3b52ccaee882400bd6c4a5"
 
 [[files]]
 file = "mods/gtonativelib-1.0.jar"
@@ -3002,6 +2983,11 @@ hash = "5b829f0bd032534e8daedf09afd32149f010f86975122dcf58a14d993de53304"
 metafile = true
 
 [[files]]
+file = "mods/particle-core.pw.toml"
+hash = "903d1d29865c4300f6fc3521139a6c012eb7a8078c69210f884b919960bf809e"
+metafile = true
+
+[[files]]
 file = "mods/patchouli.pw.toml"
 hash = "fb0fb93cc73f1c81aca4178f2a5fbda4f1135816bd703547985a18cd6c0ce2af"
 metafile = true
@@ -3058,12 +3044,12 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "0d5093e1ddfdb2ab443356a6c4e8e9b33bad72a82b3bb3aa7ee2cce98cd48a78"
+hash = "5b7424e48dc986db64ac7e954e64eb56ef8610cafbe1ba7b5eecd884bdc5dacd"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "9648beb4c150c3854f3dad72d72c4446c1e0b272ae0b3f787d7d8718ef6adc7e"
+hash = "a5c9fcccdcfa72cc7d05de87807c5aa54cc8f59698c50fc59c09eb2172c90fc3"
 metafile = true
 
 [[files]]
@@ -3135,7 +3121,3 @@ metafile = true
 file = "mods/yeetusexperimentus.pw.toml"
 hash = "36ee65c43a693265d23837bc1510a3d11fba343343b5d6e2f349fce5c16fe163"
 metafile = true
-
-[[files]]
-file = "spark/tmp/about.txt"
-hash = "d7514c0ddb6ae8611a281527bf04ca6cbcea1fa21758534fdcd08ed0f51c19c0"
