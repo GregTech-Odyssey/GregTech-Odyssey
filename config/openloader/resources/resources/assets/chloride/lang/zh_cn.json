@@ -1,0 +1,207 @@
+{
+  "chloride.performance.fastchest.title": "快速渲染箱子",
+  "chloride.performance.fastchest.desc": "使用无动画的简化模型替代原版箱子。\n\n若已安装 EBE 或 Flywheel 等模组，此选项将失效，优先采用其他模组的设置。",
+
+  "chloride.performance.fastbeds.title": "快速渲染床",
+  "chloride.performance.fastbeds.desc": "使用简化模型替代原版床。可能会影响其他模组添加的床的显示效果。",
+
+  "chloride.general.screen.desc": "窗口化 - 以普通窗口运行游戏\n无边框 - 以“无边框窗口”模式运行，画面直接缩放填充屏幕\n全屏 - 使用系统原生全屏模式，遵循游戏的全屏相关设置",
+  "chloride.general.screen.fullscreen": "全屏",
+  "chloride.general.screen.borderless": "无边框",
+  "chloride.general.screen.windowed": "窗口化",
+
+  "chloride.interface": "界面设置",
+  "chloride.interface.fps.title": "帧率显示",
+  "chloride.interface.fps.desc": "在屏幕上显示帧率（FPS）信息。高级模式会缩小字体并显示最近30秒的平均帧率，便于评估性能表现。",
+
+  "chloride.interface.fps.mode.off": "关闭",
+  "chloride.interface.fps.mode.simple": "简易",
+  "chloride.interface.fps.mode.advanced": "高级",
+
+  "chloride.interface.fps.system.title": "显示系统状态",
+  "chloride.interface.fps.system.desc": "在帧率信息后追加显示显卡与内存使用情况。",
+  "chloride.interface.fps.system.off": "关闭",
+  "chloride.interface.fps.system.gpu_only": "仅显卡",
+  "chloride.interface.fps.system.ram_only": "仅内存",
+  "chloride.interface.fps.system.all": "全部",
+
+  "chloride.interface.fps": "FPS",
+  "chloride.interface.fps.min": "最低",
+  "chloride.interface.fps.avg": "平均",
+  "chloride.interface.fps.gpu": "GPU",
+  "chloride.interface.fps.mem": "内存",
+
+  "chloride.interface.fps.align_x.title": "帧率水平位置",
+  "chloride.interface.fps.align_x.desc": "设置帧率显示区域在水平方向的位置。",
+  "chloride.interface.fps.align_x.left": "左侧",
+  "chloride.interface.fps.align_x.center": "居中",
+  "chloride.interface.fps.align_x.right": "右侧",
+
+  "chloride.interface.fps.align_y.title": "帧率垂直位置",
+  "chloride.interface.fps.align_y.desc": "设置帧率显示区域在垂直方向的位置。",
+  "chloride.interface.fps.align_y.top": "顶部",
+  "chloride.interface.fps.align_y.center": "居中",
+  "chloride.interface.fps.align_y.bottom": "底部",
+
+  "chloride.interface.fps.margin_x.title": "帧率水平边距",
+  "chloride.interface.fps.margin_x.desc": "帧率显示区域距离屏幕左右边缘的像素数。",
+  "chloride.interface.fps.margin_y.title": "帧率垂直边距",
+  "chloride.interface.fps.margin_y.desc": "帧率显示区域距离屏幕上下的像素数。",
+
+  "chloride.interface.fps.shadow.title": "帧率文字阴影",
+  "chloride.interface.fps.shadow.desc": "为帧率文字添加阴影效果（F3 调试界面中的默认样式）。",
+
+  "chloride.interface.language.fast_reload.title": "语言快速重载",
+  "chloride.interface.language.fast_reload.desc": "切换语言时仅重载语言文件，跳过其他资源加载，速度提升高达99%。",
+
+  "chloride.interface.borderless.f11.title": "F11 切换无边框模式",
+  "chloride.interface.borderless.f11.desc": "添加 - 在全屏与窗口化之间循环时加入无边框选项\n替换 - 将 F11 的全屏功能直接替换为无边框模式\n关闭 - 不影响 F11 原有行为",
+  "chloride.interface.borderless.f11.attach": "添加",
+  "chloride.interface.borderless.f11.replace": "替换",
+  "chloride.interface.borderless.f11.off": "关闭",
+
+  "chloride.interface.font.shadow.title": "字体阴影",
+  "chloride.interface.font.shadow.desc": "关闭后，所有界面文字将变为无阴影的扁平样式。\n在大量文本场景下可小幅提升帧率，对 BetterF3 等模组效果尤为明显。",
+
+  "chloride.interface.jei.title": "搜索前隐藏 JEI/REI/EMI",
+  "chloride.interface.jei.desc": "在未输入关键词前隐藏物品列表。按空格键可在不搜索的情况下临时显示列表。",
+  "chloride.jei.message": "输入关键词以显示物品",
+
+  "chloride.world": "世界效果",
+  "chloride.world.blueband.title": "天空蓝色光带",
+  "chloride.world.blueband.desc": "关闭后将移除所有维度中的天空蓝色光带效果。",
+
+  "chloride.world.fog.title": "雾效",
+  "chloride.world.fog.desc": "关闭后将隐藏主世界的雾气效果。",
+
+  "chloride.world.custom_fog.title": "自定义雾效",
+  "chloride.world.custom_fog.desc": "手动调整雾效参数。",
+  "chloride.world.custom_fog.start.title": "雾效起始距离",
+  "chloride.world.custom_fog.start.desc": "设置雾气开始出现的距离。",
+  "chloride.world.custom_fog.end.title": "雾效结束距离",
+  "chloride.world.custom_fog.end.desc": "设置雾气完全遮蔽视野的距离。",
+  "chloride.world.custom_fog.shape.title": "雾效形状",
+  "chloride.world.custom_fog.shape.desc": "选择雾效的空间分布形状。",
+  "chloride.world.custom_fog.shape.cylinder": "圆柱形",
+  "chloride.world.custom_fog.shape.sphere": "球形",
+
+  "chloride.world.clouds.height.title": "云层高度",
+  "chloride.world.clouds.height.desc": "提高云层的显示高度。\n注意：该设置对“乐魂”（Luminous End）等特殊维度无效。",
+
+  "chloride.world.leaves_culling.title": "树叶面剔除",
+  "chloride.world.leaves_culling.desc": "减少相同类型树叶之间的可见面数量，提升渲染效率。数值越大剔除越多。",
+  "chloride.world.leaves_culling.all": "全部剔除",
+  "chloride.world.leaves_culling.lot": "大量剔除",
+  "chloride.world.leaves_culling.half": "中等剔除",
+  "chloride.world.leaves_culling.less": "少量剔除",
+  "chloride.world.leaves_culling.off": "关闭",
+
+  "chloride.world.fade.title": "区块淡入效果",
+  "chloride.world.fade.desc": "启用后，新加载的区块将以淡入动画方式显示。",
+
+  "chloride.darkness": "黑暗增强",
+  "chloride.darkness.level.title": "黑暗强度",
+  "chloride.darkness.level.desc": "增强暗处的黑度，使光照衰减更剧烈。",
+  "chloride.darkness.level.blackness": "极致黑",
+  "chloride.darkness.level.black": "纯黑",
+  "chloride.darkness.level.darkness": "深暗",
+  "chloride.darkness.level.dark": "暗色",
+  "chloride.darkness.level.dim": "昏暗",
+  "chloride.darkness.level.vanilla": "原版",
+
+  "chloride.darkness.others.title": "在其他维度启用",
+  "chloride.darkness.others.desc": "启用后，黑暗效果将应用于所有非主世界维度。\n\n[警告] 此选项未来将被更精细的维度控制取代。",
+
+  "chloride.darkness.overworld.title": "在主世界启用",
+  "chloride.darkness.overworld.desc": "启用后，黑暗效果将作用于主世界。",
+
+  "chloride.darkness.noskylight.title": "在无天空光照的维度启用",
+  "chloride.darkness.noskylight.desc": "启用后，黑暗效果将作用于没有天空光照的维度（如下界、末地等）。",
+
+  "chloride.darkness.nether.title": "在下界启用",
+  "chloride.darkness.nether.desc": "启用后，黑暗效果将作用于下界。",
+
+  "chloride.darkness.nether.brightness.title": "下界迷雾亮度",
+  "chloride.darkness.nether.brightness.desc": "当黑暗效果启用时，调整下界迷雾的整体亮度。",
+
+  "chloride.darkness.end.title": "在末地启用",
+  "chloride.darkness.end.desc": "启用后，黑暗效果将作用于末地。",
+
+  "chloride.darkness.end.brightness.title": "末地迷雾亮度",
+  "chloride.darkness.end.brightness.desc": "当黑暗效果启用时，调整末地迷雾的整体亮度。",
+
+  "chloride.darkness.blocklightonly.title": "仅保留方块光源",
+  "chloride.darkness.blocklightonly.desc": "启用后，将禁用太阳和月亮的光照，仅保留方块发出的光作为唯一光源。",
+
+  "chloride.darkness.moonphase.title": "月光影响",
+  "chloride.darkness.moonphase.desc": "启用后，黑暗效果会根据月相变化而调整亮度。",
+
+  "chloride.darkness.moonphase.fresh.title": "新月亮度（最低）",
+  "chloride.darkness.moonphase.fresh.desc": "设置新月或无月时的最低环境亮度。",
+
+  "chloride.darkness.moonphase.full.title": "满月亮度（最高）",
+  "chloride.darkness.moonphase.full.desc": "设置满月时的最高环境亮度。",
+
+  "chloride.particles": "粒子效果",
+  "chloride.particles.rain.title": "雨滴粒子",
+  "chloride.particles.rain.desc": "启用下落过程中的雨滴粒子效果。",
+
+  "chloride.particles.rain.drop.title": "雨水飞溅",
+  "chloride.particles.rain.drop.desc": "启用雨滴落地时产生的水花粒子。",
+
+  "chloride.particles.block.cracking.title": "方块裂纹粒子",
+  "chloride.particles.block.cracking.desc": "启用挖掘方块时出现的裂纹粒子。",
+
+  "chloride.particles.block.destroy.title": "方块破坏粒子",
+  "chloride.particles.block.destroy.desc": "启用挖掘方块时产生的碎屑粒子。",
+
+  "chloride.particles.provider.unknown": "未知来源",
+  "chloride.particles.provider": "粒子来源：§6§l%s",
+
+  "chloride.entities": "实体剔除",
+  "chloride.entities.nametag.players.title": "玩家名称标签",
+  "chloride.entities.nametag.players.desc": "关闭后将隐藏所有玩家头顶的名称标签。",
+
+  "chloride.entities.nametag.entities.title": "生物名称标签",
+  "chloride.entities.nametag.entities.desc": "关闭后将隐藏所有生物（如动物、怪物）的名称标签。",
+
+  "chloride.entities.nametag.items.title": "展示框名称标签",
+  "chloride.entities.nametag.items.desc": "关闭后将隐藏物品展示框上的名称标签。",
+
+  "chloride.entities.culling.vseureka.warning": "检测到 VSEureka 模组，垂直距离（原生）将被忽略，改用水平距离（方块化计算）。",
+
+  "chloride.entities.culling.title": "通用实体剔除距离",
+  "chloride.entities.culling.desc": "启用后，超出设定距离的实体将被隐藏以提升性能。",
+
+  "chloride.entities.culling.distance.horizontal.title": "水平剔除距离",
+  "chloride.entities.culling.distance.horizontal.desc": "隐藏超出水平距离的实体。对牧场类模组（如畜牧场）有显著性能优化。",
+
+  "chloride.entities.culling.distance.vertical.title": "垂直剔除距离",
+  "chloride.entities.culling.distance.vertical.desc": "隐藏超出垂直距离的实体。适用于洞穴等垂直结构密集的场景。建议值低于水平剔除距离。",
+
+  "chloride.entities.culling.monster.title": "怪物剔除距离",
+  "chloride.entities.culling.monster.desc": "启用后，超出设定距离的敌对生物将被隐藏。",
+
+  "chloride.entities.culling.monster.distance.horizontal.title": "怪物水平剔除距离",
+  "chloride.entities.culling.monster.distance.horizontal.desc": "隐藏远处的敌对生物。在刷怪塔附近可大幅提升性能。",
+
+  "chloride.entities.culling.monster.distance.vertical.title": "怪物垂直剔除距离",
+  "chloride.entities.culling.monster.distance.vertical.desc": "隐藏上下方远处的敌对生物。适用于多层刷怪塔或地下战斗场景。建议值低于水平剔除距离。",
+
+  "chloride.entities.culling.tiles.title": "方块实体剔除距离",
+  "chloride.entities.culling.tiles.desc": "启用后，超出设定距离的方块实体（如箱子、熔炉、模组机器）将被隐藏。",
+
+  "chloride.entities.culling.tile.distance.horizontal.title": "方块实体水平剔除距离",
+  "chloride.entities.culling.tile.distance.horizontal.desc": "隐藏远处的方块实体。在大型自动化基地中可显著提升帧率。",
+
+  "chloride.entities.culling.tile.distance.vertical.title": "方块实体垂直剔除距离",
+  "chloride.entities.culling.tile.distance.vertical.desc": "隐藏上下方远处的方块实体。如果你真在洞穴里建了工厂，这会很有用！建议值低于水平剔除距离。",
+
+  "chloride.zoom": "视角缩放",
+  "chloride.zoom.title": "启用缩放功能",
+  "chloride.zoom.desc": "按下指定按键时激活视角缩放（望远镜效果）。",
+  "chloride.zoom.forbidden": "检测到 JustZoom 或 Zume 模组，Chloride 的缩放功能已自动禁用。",
+
+  "chloride.zoom.max.title": "最大缩放倍数",
+  "chloride.zoom.max.desc": "设置通过鼠标滚轮可达到的最大缩放级别。"
+}
