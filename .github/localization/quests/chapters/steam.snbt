@@ -957,7 +957,7 @@
 			]
 			id: "53109F7472C0B443"
 			rewards: [{
-				count: 16
+				count: 4
 				id: "6DDFC8966506C070"
 				item: "gtceu:vacuum_tube"
 				type: "item"
@@ -1022,8 +1022,9 @@
 				""
 				"{gto.steam.quests.020E8B707A8CF794.description4}"
 			]
+			hide_dependent_lines: true
 			id: "020E8B707A8CF794"
-			shape: "diamond"
+			shape: "hexagon"
 			size: 1.5d
 			subtitle: "{gto.steam.quests.020E8B707A8CF794.subtitle}"
 			tasks: [{
@@ -1032,8 +1033,8 @@
 				type: "item"
 			}]
 			title: "{gto.steam.quests.020E8B707A8CF794.title}"
-			x: 7.5d
-			y: 12.5d
+			x: 9.0d
+			y: 13.0d
 		}
 		{
 			dependencies: ["043FCD7B759853EA"]
@@ -1056,7 +1057,7 @@
 				type: "item"
 			}]
 			title: "{gto.steam.quests.411686C01CB6045F.title}"
-			x: 9.0d
+			x: 7.5d
 			y: 12.5d
 		}
 		{
@@ -1088,7 +1089,7 @@
 				""
 				"{gto.steam.quests.5660509FA09D2239.description2}"
 				""
-				"[\"\", {\"translate\": \"gto.steam.quests.5660509FA09D2239.description3.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"7DB63DF889DDDEF4\"}, \"translate\": \"gto.steam.quests.5660509FA09D2239.description3.rich_text1\"}, {\"translate\": \"gto.steam.quests.5660509FA09D2239.description3.rich_text2\"}]"
+				"[\"\", {\"translate\": \"gto.steam.quests.5660509FA09D2239.description3.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"7C1D32B8C9895B40\"}, \"translate\": \"gto.steam.quests.5660509FA09D2239.description3.rich_text1\"}, {\"translate\": \"gto.steam.quests.5660509FA09D2239.description3.rich_text2\"}]"
 			]
 			id: "5660509FA09D2239"
 			shape: "hexagon"
@@ -2087,7 +2088,7 @@
 				type: "checkmark"
 			}]
 			title: "{gto.steam.quests.22DB1B2207221445.title}"
-			x: 17.0d
+			x: 17.5d
 			y: 0.0d
 		}
 		{
@@ -2119,6 +2120,53 @@
 			title: "{gto.steam.quests.39D96F76911B771E.title}"
 			x: -4.5d
 			y: 3.0d
+		}
+		{
+			dependencies: [
+				"056EC4E6FAF614B7"
+				"4678D97346E46529"
+			]
+			hide_until_deps_visible: true
+			icon: "gtceu:wrought_iron_ingot"
+			id: "23CFCF3063B640F4"
+			rewards: [{
+				count: 192
+				id: "6A882C417EDBCFD5"
+				item: "gtceu:wrought_iron_ingot"
+				type: "item"
+			}]
+			shape: "octagon"
+			subtitle: "{gto.steam.quests.23CFCF3063B640F4.subtitle}"
+			tasks: [{
+				id: "051B2593B4748FBB"
+				type: "checkmark"
+			}]
+			title: "{gto.steam.quests.23CFCF3063B640F4.title}"
+			x: -1.0d
+			y: 14.0d
+		}
+		{
+			dependencies: [
+				"18E057F31DDC4065"
+				"53109F7472C0B443"
+			]
+			hide_until_deps_visible: true
+			icon: "gtceu:vacuum_tube"
+			id: "189F5A3799E88B5C"
+			rewards: [{
+				count: 12
+				id: "38937A3B4C30A419"
+				item: "gtceu:vacuum_tube"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "36D8ED5B3F6252B7"
+				type: "checkmark"
+			}]
+			title: "{gto.steam.quests.189F5A3799E88B5C.title}"
+			x: 17.0d
+			y: 0.0d
 		}
 	]
 	subtitle: ["{gto.steam.subtitle0}"]

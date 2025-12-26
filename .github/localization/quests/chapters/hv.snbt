@@ -93,8 +93,8 @@
 			linked_quest: "05F38A7107CCF2C1"
 			shape: "hexagon"
 			size: 1.5d
-			x: -5.25d
-			y: -4.5d
+			x: -1.5d
+			y: -5.25d
 		}
 		{
 			id: "7605F9B3D5ABBFA3"
@@ -158,16 +158,16 @@
 			linked_quest: "0A833C1D2C10C697"
 			shape: "hexagon"
 			size: 1.5d
-			x: -7.5d
-			y: -7.5d
+			x: -4.5d
+			y: -8.25d
 		}
 		{
 			id: "33B24F71EC220349"
 			linked_quest: "0D63E5A54480E693"
 			shape: "hexagon"
 			size: 1.5d
-			x: -6.0d
-			y: -7.5d
+			x: -3.0d
+			y: -8.25d
 		}
 		{
 			id: "44A0FE462E0C3A64"
@@ -262,7 +262,7 @@
 					type: "item"
 				}
 			]
-			x: -3.5d
+			x: -4.0d
 			y: -3.0d
 		}
 		{
@@ -408,8 +408,8 @@
 				item: "gtocore:fishing_ground"
 				type: "item"
 			}]
-			x: -8.25d
-			y: -6.0d
+			x: -5.25d
+			y: -6.75d
 		}
 		{
 			dependencies: [
@@ -482,8 +482,8 @@
 					type: "item"
 				}
 			]
-			x: -6.75d
-			y: -4.5d
+			x: -4.5d
+			y: -5.25d
 		}
 		{
 			dependencies: [
@@ -1142,8 +1142,8 @@
 				item: "gtceu:multi_smelter"
 				type: "item"
 			}]
-			x: -8.25d
-			y: -4.5d
+			x: -6.0d
+			y: -5.25d
 		}
 		{
 			dependencies: ["7A7DC6205DED9BF3"]
@@ -1212,7 +1212,10 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["6A8869A6275ECA3E"]
+			dependencies: [
+				"6A8869A6275ECA3E"
+				"422ECD74F050124C"
+			]
 			description: [
 				"{gto.hv.quests.19B006CEA837B6B4.description0}"
 				""
@@ -1266,8 +1269,8 @@
 				item: "gtceu:steam_large_turbine"
 				type: "item"
 			}]
-			x: -7.5d
-			y: -3.0d
+			x: -3.75d
+			y: -9.75d
 		}
 		{
 			dependencies: ["5D828A5258BFF11F"]
@@ -1281,8 +1284,8 @@
 				item: "gtocore:evaporation_plant"
 				type: "item"
 			}]
-			x: -6.75d
-			y: -6.0d
+			x: -3.75d
+			y: -6.75d
 		}
 		{
 			dependencies: ["6F760D81DC93ACFB"]
@@ -1385,6 +1388,8 @@
 				"{gto.hv.quests.48E92833D9A8297B.description0}"
 				""
 				"{gto.hv.quests.48E92833D9A8297B.description1}"
+				""
+				"{gto.hv.quests.48E92833D9A8297B.description2}"
 			]
 			icon: "gtocore:nether_reactor_core"
 			id: "48E92833D9A8297B"
@@ -1520,8 +1525,8 @@
 				item: "gtocore:recycler"
 				type: "item"
 			}]
-			x: -5.25d
-			y: -6.0d
+			x: -2.25d
+			y: -6.75d
 		}
 		{
 			dependencies: ["31C82EC18535B9B9"]
@@ -1905,7 +1910,7 @@
 				type: "stat"
 				value: 1
 			}]
-			x: -3.5d
+			x: -4.0d
 			y: -3.0d
 		}
 		{
@@ -1942,9 +1947,12 @@
 				"4329DC25522DE09E"
 				"44371F3C6C35E6E6"
 				"067357A90DAD27C9"
-				"7DCB0F8650FBFD64"
 			]
-			description: ["{gto.hv.quests.64E61951A3BB90D4.description0}"]
+			description: [
+				"{gto.hv.quests.64E61951A3BB90D4.description0}"
+				""
+				"{gto.hv.quests.64E61951A3BB90D4.description1}"
+			]
 			hide_dependent_lines: true
 			id: "64E61951A3BB90D4"
 			tasks: [{
@@ -1952,8 +1960,8 @@
 				item: "gtceu:phosphorus_wafer"
 				type: "item"
 			}]
-			x: -0.5d
-			y: -4.5d
+			x: -6.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["4329DC25522DE09E"]
@@ -1968,7 +1976,7 @@
 				type: "stat"
 				value: 1
 			}]
-			x: -3.5d
+			x: -4.0d
 			y: -3.0d
 		}
 		{
@@ -1983,8 +1991,8 @@
 				item: "gtceu:gas_large_turbine"
 				type: "item"
 			}]
-			x: -6.0d
-			y: -3.0d
+			x: -3.0d
+			y: -5.25d
 		}
 		{
 			dependencies: [
@@ -2006,15 +2014,24 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["52C68358D6E375AD"]
-			id: "7DCB0F8650FBFD64"
+			dependencies: ["5D828A5258BFF11F"]
+			description: [
+				"{gto.hv.quests.132AD65903D93565.description0}"
+				""
+				"{gto.hv.quests.132AD65903D93565.description1}"
+			]
+			hide_dependency_lines: true
+			icon: "enderio:extraction_speed_upgrade_1"
+			id: "132AD65903D93565"
+			shape: "pentagon"
+			size: 1.5d
 			tasks: [{
-				id: "47BEA46D82442BCB"
-				item: "gtceu:phosphorus_boule"
-				type: "item"
+				id: "26D489B9EFB84686"
+				title: "{gto.hv.quests.132AD65903D93565.tasks.26D489B9EFB84686.title}"
+				type: "checkmark"
 			}]
-			x: -2.0d
-			y: -4.5d
+			x: -6.5d
+			y: -8.25d
 		}
 	]
 	subtitle: ["{gto.hv.subtitle0}"]

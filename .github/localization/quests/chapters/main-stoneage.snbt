@@ -413,7 +413,7 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["4DC482C16035F261"]
+			dependencies: ["561D79DE960A034D"]
 			description: [
 				"{gto.main-stoneage.quests.2403CDCD080D34B1.description0}"
 				""
@@ -449,8 +449,8 @@
 				type: "item"
 			}]
 			title: "{gto.main-stoneage.quests.2403CDCD080D34B1.title}"
-			x: 6.5d
-			y: -3.5d
+			x: 5.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["30D4CC9142D59DBD"]
@@ -1930,7 +1930,7 @@
 				}
 				type: "item"
 			}]
-			x: 8.5d
+			x: 8.0d
 			y: -2.0d
 		}
 		{
@@ -2083,6 +2083,8 @@
 				"{gto.main-stoneage.quests.1BA9FA9358CBF2E7.description1}"
 				""
 				"{gto.main-stoneage.quests.1BA9FA9358CBF2E7.description2}"
+				"{@pagebreak}"
+				"{gto.main-stoneage.quests.1BA9FA9358CBF2E7.description3}"
 			]
 			icon: {
 				Count: 1
@@ -2240,6 +2242,31 @@
 			title: "{gto.main-stoneage.quests.6097173C67222EC0.title}"
 			x: 0.0d
 			y: 9.5d
+		}
+		{
+			dependencies: ["561D79DE960A034D"]
+			description: [
+				"{gto.main-stoneage.quests.24AD2CCEF0E48FD5.description0}"
+				""
+				"{gto.main-stoneage.quests.24AD2CCEF0E48FD5.description1}"
+				""
+				"{gto.main-stoneage.quests.24AD2CCEF0E48FD5.description2}"
+				""
+				"{gto.main-stoneage.quests.24AD2CCEF0E48FD5.description3}"
+			]
+			id: "24AD2CCEF0E48FD5"
+			shape: "diamond"
+			subtitle: "{gto.main-stoneage.quests.24AD2CCEF0E48FD5.subtitle}"
+			tasks: [{
+				icon: "jumbofurnace:jumbo_furnace"
+				id: "7DDFD5224921B6A1"
+				observe_type: 0
+				timer: 0L
+				to_observe: "jumbofurnace:jumbo_furnace"
+				type: "observation"
+			}]
+			x: 6.5d
+			y: 2.0d
 		}
 	]
 	subtitle: ["{gto.main-stoneage.subtitle0}"]

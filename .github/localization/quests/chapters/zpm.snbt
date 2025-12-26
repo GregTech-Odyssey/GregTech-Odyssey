@@ -564,7 +564,11 @@
 		}
 		{
 			dependencies: ["3490AACD4AA62C5D"]
-			description: ["{gto.zpm.quests.63AAABA655725FB9.description0}"]
+			description: [
+				"{gto.zpm.quests.63AAABA655725FB9.description0}"
+				""
+				"{gto.zpm.quests.63AAABA655725FB9.description1}"
+			]
 			id: "63AAABA655725FB9"
 			subtitle: "{gto.zpm.quests.63AAABA655725FB9.subtitle}"
 			tasks: [{
@@ -914,10 +918,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: [
-				"3490AACD4AA62C5D"
-				"1156B92F11DA73B6"
-			]
+			dependencies: ["3490AACD4AA62C5D"]
 			id: "1B4F781414C7AEBA"
 			subtitle: "{gto.zpm.quests.1B4F781414C7AEBA.subtitle}"
 			tasks: [{

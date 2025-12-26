@@ -2483,6 +2483,8 @@
 			dependencies: ["745B1AE1F523FD78"]
 			description: ["{gto.lv.quests.48D534B94140861E.description0}"]
 			id: "48D534B94140861E"
+			optional: true
+			shape: "diamond"
 			tasks: [{
 				id: "136953536D7AA08C"
 				item: "gtceu:lv_diode"

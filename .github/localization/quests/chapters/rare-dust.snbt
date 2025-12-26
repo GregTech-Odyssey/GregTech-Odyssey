@@ -4,6 +4,7 @@
 	filename: "rare-dust"
 	group: "33C930DBAB246BE3"
 	hide_quest_until_deps_visible: true
+	icon: "gtceu:rare_earth_dust"
 	id: "787BA7C3F8F79879"
 	images: [
 		{
@@ -25,6 +26,30 @@
 			width: 1.0d
 			x: 2.5d
 			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "gtocore:item/circuit/suprachronal_uhv"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.7d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "gtocore:item/circuit/suprachronal_uhv"
+			rotation: 0.0d
+			width: 1.0d
+			x: -10.0d
+			y: 4.5d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:block/barrier_open"
+			rotation: 0.0d
+			width: 2.0d
+			x: -3.0d
+			y: -0.5d
 		}
 	]
 	order_index: 5
@@ -140,7 +165,11 @@
 				"26F29F895D5F73D6"
 				"75569B5559E011E2"
 			]
-			description: ["{gto.rare-dust.quests.72DFAC3212692136.description0}"]
+			description: [
+				"{gto.rare-dust.quests.72DFAC3212692136.description0}"
+				""
+				"{gto.rare-dust.quests.72DFAC3212692136.description1}"
+			]
 			id: "72DFAC3212692136"
 			tasks: [{
 				id: "64516808A90E9FB3"
@@ -154,9 +183,16 @@
 			dependencies: ["72DFAC3212692136"]
 			id: "45B6AB3615FF2228"
 			tasks: [{
-				id: "435E547C20569366"
-				title: "{gto.rare-dust.quests.45B6AB3615FF2228.tasks.435E547C20569366.title}"
-				type: "checkmark"
+				id: "47F8248F58964D34"
+				item: {
+					Count: 1
+					id: "itemfilters:id_regex"
+					tag: {
+						value: "extraction_nano_resin"
+					}
+				}
+				title: "{gto.rare-dust.quests.45B6AB3615FF2228.tasks.47F8248F58964D34.title}"
+				type: "item"
 			}]
 			x: -3.0d
 			y: 5.0d
@@ -201,9 +237,16 @@
 			dependencies: ["45B6AB3615FF2228"]
 			id: "5FE4742B6A5FFABA"
 			tasks: [{
-				id: "5A310F6717B18752"
-				title: "{gto.rare-dust.quests.5FE4742B6A5FFABA.tasks.5A310F6717B18752.title}"
-				type: "checkmark"
+				id: "1FDA2841EA2F33EC"
+				item: {
+					Count: 1
+					id: "itemfilters:id_regex"
+					tag: {
+						value: "extracted_nano_resin"
+					}
+				}
+				title: "{gto.rare-dust.quests.5FE4742B6A5FFABA.tasks.1FDA2841EA2F33EC.title}"
+				type: "item"
 			}]
 			x: 1.0d
 			y: 5.0d
@@ -697,6 +740,140 @@
 			}]
 			x: -1.0d
 			y: -4.0d
+		}
+		{
+			dependencies: ["75569B5559E011E2"]
+			dependency_requirement: "one_started"
+			id: "47266DCC05604F99"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "0E3BC7AC95D902CD"
+				item: "gtceu:rare_earth_dust"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["47266DCC05604F99"]
+			id: "229F26695D1FBC3F"
+			tasks: [{
+				id: "0B3673AC3C47812E"
+				item: "gtocore:rare_earth_hydroxides_bucket"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["229F26695D1FBC3F"]
+			id: "4EF9B854A7D883F3"
+			tasks: [{
+				id: "71378F60B783502C"
+				item: "gtocore:rare_earth_chlorides_bucket"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4EF9B854A7D883F3"]
+			id: "771071BC3AE89E04"
+			tasks: [{
+				id: "696EAA9B37D58534"
+				item: {
+					Count: 1
+					id: "itemfilters:id_regex"
+					tag: {
+						value: "oxides_solution"
+					}
+				}
+				title: "{gto.rare-dust.quests.771071BC3AE89E04.tasks.696EAA9B37D58534.title}"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["771071BC3AE89E04"]
+			description: ["{gto.rare-dust.quests.0635204264B6AD53.description0}"]
+			id: "0635204264B6AD53"
+			tasks: [{
+				id: "038050253D12FEF8"
+				item: {
+					Count: 1
+					id: "itemfilters:id_regex"
+					tag: {
+						value: "gtocore:(?!small_)(?:lanthanum|cerium|praseodymium|neodymium|gadolinium|samarium|europium|terbium|dysprosium|holmium|erbium|thulium|ytterbium|lutetium|scandium|yttrium)_oxide_dust"
+					}
+				}
+				title: "{gto.rare-dust.quests.0635204264B6AD53.tasks.038050253D12FEF8.title}"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4EF9B854A7D883F3"]
+			description: [
+				"{gto.rare-dust.quests.52BBBFB5B18A8ED9.description0}"
+				""
+				"{gto.rare-dust.quests.52BBBFB5B18A8ED9.description1}"
+			]
+			hide_dependency_lines: true
+			id: "52BBBFB5B18A8ED9"
+			tasks: [{
+				id: "71B8BCA8B5673497"
+				item: "gtocore:rare_earth_oxide_dust"
+				type: "item"
+			}]
+			x: -9.3d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"0DDE9561812DC3E3"
+				"52BBBFB5B18A8ED9"
+			]
+			id: "409EB03E5906AF47"
+			tasks: [{
+				id: "06E32AF18DCCF033"
+				item: "gtocore:rare_earth_metal_dust"
+				type: "item"
+			}]
+			x: -7.8d
+			y: 5.0d
+		}
+		{
+			dependencies: ["75569B5559E011E2"]
+			description: ["{gto.rare-dust.quests.0DDE9561812DC3E3.description0}"]
+			id: "0DDE9561812DC3E3"
+			tasks: [{
+				id: "27DAD7DC8F7E734D"
+				item: "gtocore:rare_earth_metal_ore"
+				type: "item"
+			}]
+			x: -9.3d
+			y: 5.5d
+		}
+		{
+			dependencies: ["409EB03E5906AF47"]
+			id: "1B3B842E12BE448E"
+			tasks: [{
+				id: "03F19ADC0C49EE6E"
+				item: {
+					Count: 1
+					id: "itemfilters:id_regex"
+					tag: {
+						value: "gtceu:small_(lanthanum|cerium|praseodymium|neodymium|gadolinium|samarium|europium|terbium|dysprosium|holmium|erbium|thulium|ytterbium|lutetium|scandium|yttrium|promethium)_dust"
+					}
+				}
+				title: "{gto.rare-dust.quests.1B3B842E12BE448E.tasks.03F19ADC0C49EE6E.title}"
+				type: "item"
+			}]
+			x: -6.3d
+			y: 5.0d
 		}
 	]
 	title: "{gto.rare-dust.title}"

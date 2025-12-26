@@ -450,8 +450,10 @@
 			y: 7.0d
 		}
 		{
+			description: ["{gto.uev.quests.33F5E401DDEC813A.description0}"]
 			id: "33F5E401DDEC813A"
 			invisible: true
+			optional: true
 			subtitle: "{gto.uev.quests.33F5E401DDEC813A.subtitle}"
 			tasks: [{
 				id: "1F773C242BE58FB4"
@@ -464,6 +466,16 @@
 			}]
 			x: -6.0d
 			y: 1.0d
+		}
+		{
+			id: "32CDF0A73C8721D8"
+			tasks: [{
+				id: "5C37BCE24BB6696E"
+				item: "gtocore:road_of_heaven"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 7.0d
 		}
 	]
 	subtitle: ["{gto.uev.subtitle0}"]

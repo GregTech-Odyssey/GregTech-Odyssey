@@ -36,6 +36,12 @@
 			x: 17.0d
 			y: -7.0d
 		}
+		{
+			id: "4A5A58465AF8F47B"
+			linked_quest: "020E8B707A8CF794"
+			x: 0.0d
+			y: 1.5d
+		}
 	]
 	quests: [
 		{
@@ -559,7 +565,10 @@
 			y: -5.0d
 		}
 		{
-			dependencies: ["7CBA1A5CCD21DA69"]
+			dependencies: [
+				"7CBA1A5CCD21DA69"
+				"020E8B707A8CF794"
+			]
 			description: [
 				"{gto.ulv.quests.03A894C7D1178791.description0}"
 				""
@@ -1173,6 +1182,7 @@
 			dependencies: [
 				"1CDBE91D2ACD9111"
 				"020E8B707A8CF794"
+				"3CAA3A282666590F"
 			]
 			description: [
 				"{gto.ulv.quests.6C328AB57C610EF9.description0}"
@@ -1372,7 +1382,7 @@
 				type: "checkmark"
 			}]
 			title: "{gto.ulv.quests.03E94BB0F0B3ED2E.title}"
-			x: -0.5d
+			x: -3.5d
 			y: 1.5d
 		}
 		{
@@ -1527,7 +1537,7 @@
 				type: "checkmark"
 			}]
 			title: "{gto.ulv.quests.5ECEF5305E8551FA.title}"
-			x: -0.5d
+			x: -3.5d
 			y: 1.0d
 		}
 		{
@@ -1575,6 +1585,22 @@
 			title: "{gto.ulv.quests.2907ABEAAFEF3BC1.title}"
 			x: 6.0d
 			y: -1.0d
+		}
+		{
+			dependencies: ["020E8B707A8CF794"]
+			disable_toast: true
+			icon_scale: 0.25d
+			id: "3CAA3A282666590F"
+			shape: "none"
+			size: 0.25d
+			tasks: [{
+				id: "6BB5C6582B682E8A"
+				stat: "minecraft:jump"
+				type: "stat"
+				value: 1
+			}]
+			x: 0.0d
+			y: 1.5d
 		}
 	]
 	subtitle: ["{gto.ulv.subtitle0}"]

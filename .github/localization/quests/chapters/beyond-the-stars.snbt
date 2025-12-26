@@ -630,11 +630,6 @@
 				"{gto.beyond-the-stars.quests.1D57ED21E8AD1A26.description3}"
 			]
 			id: "1D57ED21E8AD1A26"
-			rewards: [{
-				id: "6B918E6B2EF24972"
-				item: "gtocore:organ_modifier"
-				type: "item"
-			}]
 			shape: "hexagon"
 			size: 2.0d
 			subtitle: "{gto.beyond-the-stars.quests.1D57ED21E8AD1A26.subtitle}"
@@ -2072,6 +2067,7 @@
 				"05C7059BC114AD42"
 				"7DD3E20C1AF38823"
 			]
+			description: ["{gto.beyond-the-stars.quests.72AACC1178BF7586.description0}"]
 			hide_dependency_lines: true
 			id: "72AACC1178BF7586"
 			shape: "hexagon"
@@ -2704,6 +2700,22 @@
 			title: "{gto.beyond-the-stars.quests.13F025F762A84795.title}"
 			x: -9.0d
 			y: 19.0d
+		}
+		{
+			dependencies: ["05C7059BC114AD42"]
+			disable_toast: true
+			icon_scale: 0.25d
+			id: "3F5615CFF4DB8BB4"
+			shape: "none"
+			size: 0.25d
+			tasks: [{
+				id: "2E7058B13C445547"
+				stat: "minecraft:jump"
+				type: "stat"
+				value: 1
+			}]
+			x: -3.0d
+			y: 16.0d
 		}
 	]
 	subtitle: ["{gto.beyond-the-stars.subtitle0}"]
