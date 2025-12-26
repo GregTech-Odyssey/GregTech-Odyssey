@@ -363,6 +363,11 @@
 					id: "7B1BB0C2D4F8D906"
 					item: "gtocore:stellar_energy_rocket_fuel_bucket"
 					type: "item"
+					optional_task: true
+				}
+				{
+					id: "7B1BB0C2D4F8D906_CHECKMARK"
+					type: "checkmark"
 				}
 			]
 			x: 3.0d
@@ -415,13 +420,21 @@
 			dependencies: ["06099A423968D6E0"]
 			id: "7A12577E23FC07A1"
 			shape: "hexagon"
-			tasks: [{
-				id: "2D515B6F4FADC217"
-				item: "gtocore:bacterial_growth_medium_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2D515B6F4FADC217"
+					item: "gtocore:bacterial_growth_medium_bucket"
+					type: "item"
+					optional_task: true
+				}
+				{
+					id: "2D515B6F4FADC217_CHECKMARK"
+					type: "checkmark"
+				}
+			]
 			x: -6.0d
 			y: -2.0d
+			icon: "gtocore:bacterial_growth_medium_bucket"
 		}
 		{
 			dependencies: ["6742F9E1907A9A84"]
@@ -499,13 +512,21 @@
 			shape: "hexagon"
 			size: 1.5d
 			subtitle: "{gto.zpm.quests.59864AA3CB69A3CF.subtitle}"
-			tasks: [{
-				id: "129F506D7D108336"
-				item: "gtocore:pluripotency_induction_gene_therapy_fluid_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "129F506D7D108336"
+					item: "gtocore:pluripotency_induction_gene_therapy_fluid_bucket"
+					type: "item"
+					optional_task: true
+				}
+				{
+					id: "129F506D7D108336_CHECKMARK"
+					type: "checkmark"
+				}
+			]
 			x: -4.0d
 			y: 4.0d
+			icon: "gtocore:pluripotency_induction_gene_therapy_fluid_bucket"
 		}
 		{
 			dependencies: ["65A2C89AD67604DE"]
@@ -516,13 +537,21 @@
 			]
 			id: "2C79D433651D795C"
 			shape: "hexagon"
-			tasks: [{
-				id: "776EC25032BCC4A6"
-				item: "gtceu:sterilized_growth_medium_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "776EC25032BCC4A6"
+					item: "gtceu:sterilized_growth_medium_bucket"
+					type: "item"
+					optional_task: true
+				}
+				{
+					id: "776EC25032BCC4A6_CHECKMARK"
+					type: "checkmark"
+				}
+			]
 			x: -2.0d
 			y: 4.0d
+			icon: "gtceu:sterilized_growth_medium_bucket"
 		}
 		{
 			dependencies: ["3490AACD4AA62C5D"]
@@ -684,21 +713,29 @@
 					id: "73F77CF85D4E0347"
 					item: "enderio:nutrient_distillation_bucket"
 					type: "item"
+					optional_task: true
 				}
 				{
 					id: "0EA028002632B9D2"
 					item: "enderio:cloud_seed_concentrated_bucket"
 					type: "item"
+					optional_task: true
 				}
 				{
 					id: "7E96AFD6082268D2"
 					item: "enderio:fire_water_bucket"
 					type: "item"
+					optional_task: true
 				}
 				{
 					id: "4D9ED10837069AA5"
 					item: "enderio:vapor_of_levity_bucket"
 					type: "item"
+					optional_task: true
+				}
+				{
+					id: "73F77CF85D4E0347_CHECKMARK"
+					type: "checkmark"
 				}
 			]
 			title: "{gto.zpm.quests.697AE6FFF1F2D877.title}"
@@ -922,13 +959,21 @@
 			dependencies: ["608F56E6A187940C"]
 			hide_dependency_lines: true
 			id: "0099AE8ACBB72951"
-			tasks: [{
-				id: "270877B95A714083"
-				item: "gtceu:mutagen_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "270877B95A714083"
+					item: "gtceu:mutagen_bucket"
+					type: "item"
+					optional_task: true
+				}
+				{
+					id: "270877B95A714083_CHECKMARK"
+					type: "checkmark"
+				}
+			]
 			x: -7.0d
 			y: 6.0d
+			icon: "gtceu:mutagen_bucket"
 		}
 		{
 			dependencies: [

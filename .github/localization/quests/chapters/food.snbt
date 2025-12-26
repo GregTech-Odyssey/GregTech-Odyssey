@@ -363,13 +363,21 @@
 		}
 		{
 			id: "71551F4C2B183158"
-			tasks: [{
-				id: "65A4C09348EA1B69"
-				item: "minecraft:milk_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "65A4C09348EA1B69"
+					item: "minecraft:milk_bucket"
+					type: "item"
+					optional_task: true
+				}
+				{
+					id: "65A4C09348EA1B69_CHECKMARK"
+					type: "checkmark"
+				}
+			]
 			x: -12.0d
 			y: 6.5d
+			icon: "minecraft:milk_bucket"
 		}
 		{
 			id: "4F191F689A3F8FEC"

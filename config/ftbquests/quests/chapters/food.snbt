@@ -363,13 +363,21 @@
 		}
 		{
 			id: "71551F4C2B183158"
-			tasks: [{
-				id: "65A4C09348EA1B69"
-				item: "minecraft:milk_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "65A4C09348EA1B69"
+					item: "minecraft:milk_bucket"
+					type: "item"
+					optional_task: true
+				}
+				{
+					id: "65A4C09348EA1B69_CHECKMARK"
+					type: "checkmark"
+				}
+			]
 			x: -12.0d
 			y: 6.5d
+			icon: "minecraft:milk_bucket"
 		}
 		{
 			id: "4F191F689A3F8FEC"
@@ -465,7 +473,10 @@
 			id: "1EC31EFAD5A40407"
 			tasks: [{
 				id: "75BC50C2C7EEA196"
-				item: { Count: 64, id: "farmersdelight:cooked_chicken_cuts" }
+				item: {
+					Count: 64
+					id: "farmersdelight:cooked_chicken_cuts"
+				}
 				type: "item"
 			}]
 			x: 8.5d
@@ -475,7 +486,10 @@
 			id: "30297FC195A2523C"
 			tasks: [{
 				id: "31A51C2BEDB6F261"
-				item: { Count: 64, id: "minecraft:cooked_beef" }
+				item: {
+					Count: 64
+					id: "minecraft:cooked_beef"
+				}
 				type: "item"
 			}]
 			x: 2.5d
@@ -485,7 +499,10 @@
 			id: "4E4174AC9C4455D5"
 			tasks: [{
 				id: "429180F3E447E7EB"
-				item: { Count: 64, id: "farmersdelight:fried_egg" }
+				item: {
+					Count: 64
+					id: "farmersdelight:fried_egg"
+				}
 				type: "item"
 			}]
 			x: 11.5d
@@ -495,7 +512,10 @@
 			id: "5CC926F82D6ACA60"
 			tasks: [{
 				id: "722901EDF2FE6FA3"
-				item: { Count: 64, id: "farmersdelight:cooked_bacon" }
+				item: {
+					Count: 64
+					id: "farmersdelight:cooked_bacon"
+				}
 				type: "item"
 			}]
 			x: 5.5d
@@ -505,7 +525,10 @@
 			id: "5713F0E0718188CC"
 			tasks: [{
 				id: "2D5B810B497CCAB3"
-				item: { Count: 64, id: "farmersdelight:beef_patty" }
+				item: {
+					Count: 64
+					id: "farmersdelight:beef_patty"
+				}
 				type: "item"
 			}]
 			x: 3.5d
@@ -515,7 +538,10 @@
 			id: "183B64EAE2F4F90F"
 			tasks: [{
 				id: "759C239EE90FCBDE"
-				item: { Count: 64, id: "minecraft:cooked_cod" }
+				item: {
+					Count: 64
+					id: "minecraft:cooked_cod"
+				}
 				type: "item"
 			}]
 			x: 3.5d
@@ -525,7 +551,10 @@
 			id: "7C07053BD5B0CD07"
 			tasks: [{
 				id: "394BCFFE7F254CA8"
-				item: { Count: 64, id: "minecraft:bread" }
+				item: {
+					Count: 64
+					id: "minecraft:bread"
+				}
 				type: "item"
 			}]
 			x: 8.5d
@@ -535,7 +564,10 @@
 			id: "00B9913471987D4E"
 			tasks: [{
 				id: "1088A86F42B9E854"
-				item: { Count: 64, id: "minecraft:cooked_mutton" }
+				item: {
+					Count: 64
+					id: "minecraft:cooked_mutton"
+				}
 				type: "item"
 			}]
 			x: 10.5d
@@ -545,7 +577,10 @@
 			id: "47DEBAB4AB61E0C9"
 			tasks: [{
 				id: "4DB5120F408899E0"
-				item: { Count: 64, id: "minecraft:cooked_chicken" }
+				item: {
+					Count: 64
+					id: "minecraft:cooked_chicken"
+				}
 				type: "item"
 			}]
 			x: 7.5d
@@ -555,7 +590,10 @@
 			id: "6AEFBF4657B76763"
 			tasks: [{
 				id: "351AEEF051ABE831"
-				item: { Count: 64, id: "minecraft:cooked_salmon" }
+				item: {
+					Count: 64
+					id: "minecraft:cooked_salmon"
+				}
 				type: "item"
 			}]
 			x: 4.5d
@@ -565,7 +603,10 @@
 			id: "37F8677CF9608BD4"
 			tasks: [{
 				id: "17AA11B52481A8B4"
-				item: { Count: 64, id: "farmersdelight:cooked_mutton_chops" }
+				item: {
+					Count: 64
+					id: "farmersdelight:cooked_mutton_chops"
+				}
 				type: "item"
 			}]
 			x: 11.5d
@@ -575,7 +616,10 @@
 			id: "44A0E4E24F399D59"
 			tasks: [{
 				id: "1EF35B390C07073D"
-				item: { Count: 64, id: "minecraft:dried_kelp" }
+				item: {
+					Count: 64
+					id: "minecraft:dried_kelp"
+				}
 				type: "item"
 			}]
 			x: 7.5d
@@ -585,7 +629,10 @@
 			id: "7B9494876F26E448"
 			tasks: [{
 				id: "1C121C0B595A623B"
-				item: { Count: 64, id: "farmersdelight:smoked_ham" }
+				item: {
+					Count: 64
+					id: "farmersdelight:smoked_ham"
+				}
 				type: "item"
 			}]
 			x: 6.5d
@@ -595,7 +642,10 @@
 			id: "503950A07F604F81"
 			tasks: [{
 				id: "44253B22ADDCA37A"
-				item: { Count: 64, id: "minecraft:baked_potato" }
+				item: {
+					Count: 64
+					id: "minecraft:baked_potato"
+				}
 				type: "item"
 			}]
 			x: 9.5d
@@ -605,7 +655,10 @@
 			id: "2502C31AB386A295"
 			tasks: [{
 				id: "36505F8BA13F0029"
-				item: { Count: 64, id: "minecraft:cooked_rabbit" }
+				item: {
+					Count: 64
+					id: "minecraft:cooked_rabbit"
+				}
 				type: "item"
 			}]
 			x: 9.5d
@@ -615,7 +668,10 @@
 			id: "6AC9706C94E37CEC"
 			tasks: [{
 				id: "40B575BF451B4623"
-				item: { Count: 64, id: "minecraft:cooked_porkchop" }
+				item: {
+					Count: 64
+					id: "minecraft:cooked_porkchop"
+				}
 				type: "item"
 			}]
 			x: 4.5d
@@ -625,7 +681,10 @@
 			id: "2C7FAB693C72A992"
 			tasks: [{
 				id: "2311C406D2FE835C"
-				item: { Count: 64, id: "farmersdelight:cooked_cod_slice" }
+				item: {
+					Count: 64
+					id: "farmersdelight:cooked_cod_slice"
+				}
 				type: "item"
 			}]
 			x: 2.5d

@@ -303,6 +303,7 @@
 					id: "31AB9BCA0A1E04A7"
 					item: "gtocore:ozone_water_bucket"
 					type: "item"
+					optional_task: true
 				}
 				{
 					id: "793BF5CA711507A0"
@@ -436,6 +437,11 @@
 					id: "58BBAD50F7E13345"
 					item: "gtocore:rocket_fuel_h8n4c2o4_bucket"
 					type: "item"
+					optional_task: true
+				}
+				{
+					id: "58BBAD50F7E13345_CHECKMARK"
+					type: "checkmark"
 				}
 			]
 			x: 14.0d
@@ -775,13 +781,21 @@
 			description: ["{gto.iv.quests.761587B546E4158C.description0}"]
 			hide_dependency_lines: true
 			id: "761587B546E4158C"
-			tasks: [{
-				id: "2A7AB3B27E2C9F9E"
-				item: "gtceu:polyvinyl_butyral_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2A7AB3B27E2C9F9E"
+					item: "gtceu:polyvinyl_butyral_bucket"
+					type: "item"
+					optional_task: true
+				}
+				{
+					id: "2A7AB3B27E2C9F9E_CHECKMARK"
+					type: "checkmark"
+				}
+			]
 			x: 1.5d
 			y: -3.0d
+			icon: "gtceu:polyvinyl_butyral_bucket"
 		}
 		{
 			dependencies: ["1CF7845875EEFA3B"]
@@ -803,6 +817,7 @@
 					id: "588A924740A25308"
 					item: "gtceu:polybenzimidazole_bucket"
 					type: "item"
+					optional_task: true
 				}
 				{
 					id: "2E7DD3DE537C5C84"
@@ -875,6 +890,7 @@
 					id: "11598209DDB35CBF"
 					item: "gtceu:epoxy_bucket"
 					type: "item"
+					optional_task: true
 				}
 				{
 					id: "7CD4D75C85307F98"
