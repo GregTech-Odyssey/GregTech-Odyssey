@@ -6,7 +6,15 @@
 	group: "5EEE1B83CA094132"
 	icon: "gtceu:large_autoclave"
 	id: "2FEC174CBFBA1A0F"
-	order_index: 1
+	images: [{
+		height: 2.0d
+		image: "gtocore:item/circuit/suprachronal_iv"
+		rotation: 0.0d
+		width: 2.0d
+		x: -9.54d
+		y: -3.5d
+	}]
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
@@ -17,8 +25,8 @@
 				item: "gtceu:large_mixer"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -9.0d
+			x: -2.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["1CF7845875EEFA3B"]
@@ -28,7 +36,7 @@
 				item: "gtceu:large_arc_smelter"
 				type: "item"
 			}]
-			x: -4.0d
+			x: -2.0d
 			y: -2.0d
 		}
 		{
@@ -40,7 +48,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: -8.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["1CF7845875EEFA3B"]
@@ -51,7 +59,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: -2.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["1CF7845875EEFA3B"]
@@ -129,7 +137,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: -8.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["1CF7845875EEFA3B"]
@@ -139,8 +147,8 @@
 				item: "gtceu:large_packer"
 				type: "item"
 			}]
-			x: -2.0d
-			y: -6.0d
+			x: -3.0d
+			y: -9.0d
 		}
 		{
 			dependencies: ["1CF7845875EEFA3B"]
@@ -179,7 +187,7 @@
 				type: "checkmark"
 			}]
 			x: -10.0d
-			y: -2.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["1CF7845875EEFA3B"]
@@ -288,7 +296,7 @@
 				item: "gtceu:large_centrifuge"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -4.0d
 			y: 0.0d
 		}
 		{
@@ -300,7 +308,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: -6.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["1CF7845875EEFA3B"]
@@ -322,7 +330,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: 0.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["1CF7845875EEFA3B"]

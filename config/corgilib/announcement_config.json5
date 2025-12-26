@@ -1,7 +1,0 @@
-{
-	/* This has 2 acceptable values: [CHAT, WIDGET]
-	   * CHAT - Will post a message within 5 minutes to a user's chat once they've been in game for 5 minutes. Will no longer show after the user presses dismiss.
-	   * WIDGET - Displays a widget on screen with the announcement on all screens until the widget is dismissed.
-	*/
-	"announcement_delivery": "WIDGET"
-}

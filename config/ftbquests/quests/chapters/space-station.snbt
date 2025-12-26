@@ -25,22 +25,14 @@
 		}
 		{
 			height: 1.0d
-			image: "gtocore:item/circuit/suprachronal_uiv"
+			image: "gtocore:item/circuit/suprachronal_uev"
 			rotation: 0.0d
 			width: 1.0d
 			x: 16.5d
 			y: -10.2d
 		}
-		{
-			height: 0.25d
-			image: "ftbteams:textures/add.png"
-			rotation: 0.0d
-			width: 0.25d
-			x: 16.8d
-			y: -10.5d
-		}
 	]
-	order_index: 3
+	order_index: 2
 	progression_mode: "linear"
 	quest_links: [ ]
 	quests: [
@@ -98,9 +90,16 @@
 			dependencies: [
 				"1D413C9604012CBA"
 				"23E859D5CC9E4C8C"
+				"48A1FCE89BCA6141"
+				"7BDD24E8C42100EC"
+				"6B602E416AB57B3C"
+				"18C15CA29316062F"
+				"7B22A8B66A42157D"
 			]
 			description: [
-				"这是一个更大的空间站！"
+				"&o为了能在太空展开大规模的科研生产，&3公司&r&o研发了崭新的&6工业空间站&r&o。其内部空间是原来的数倍，同时带有&e拓展舱&r&o。然而，实际使用的员工却哀嚎连天——它需要制作大量为太空特制的新材料！"
+				""
+				"在太空中另找一片位置，将这个空间站放下去"
 				""
 				"内部的空间足以放置&9IV时代&r的&e工业大机器&r"
 				""
@@ -152,17 +151,19 @@
 		}
 		{
 			dependencies: ["58EC0AFA9742164A"]
+			description: ["专门用于放置大机器的仓室，拥有可变长度"]
 			id: "55369274AB0561DF"
 			tasks: [{
 				id: "0092B1441C3AD7A0"
 				item: "gtocore:space_station_extension_module"
 				type: "item"
 			}]
-			x: 9.5d
-			y: -7.5d
+			x: 7.0d
+			y: -9.5d
 		}
 		{
 			dependencies: ["58EC0AFA9742164A"]
+			description: ["用于给其他仓室提供环境，同时也可以维护和清理在空间站中的机器"]
 			id: "732F3F1921B2464F"
 			tasks: [{
 				id: "5BA359A8BE922BBF"
@@ -170,14 +171,14 @@
 				type: "item"
 			}]
 			x: 9.5d
-			y: -6.5d
+			y: -7.55d
 		}
 		{
 			dependencies: [
 				"7A5C8C049D2DFFD2"
 				"25331E8563FB84D2"
-				"55369274AB0561DF"
 				"4F446F4F6EFE0C3A"
+				"58EC0AFA9742164A"
 			]
 			id: "5A9B478B1791A425"
 			tasks: [{
@@ -190,8 +191,8 @@
 		}
 		{
 			dependencies: [
-				"55369274AB0561DF"
 				"4F446F4F6EFE0C3A"
+				"58EC0AFA9742164A"
 			]
 			id: "08CDFD0BB06E9A53"
 			tasks: [{
@@ -205,9 +206,9 @@
 		{
 			dependencies: [
 				"08CDFD0BB06E9A53"
-				"5A9B478B1791A425"
 				"76A5DA2CCB71E96F"
 				"49E04C29B878D3A8"
+				"5A9B478B1791A425"
 			]
 			id: "7D639CBD69B7AA61"
 			shape: "gear"
@@ -221,7 +222,10 @@
 			y: -9.0d
 		}
 		{
-			dependencies: ["310210D2AD9515E3"]
+			dependencies: [
+				"61C37EC8503FFDD9"
+				"310210D2AD9515E3"
+			]
 			description: [
 				"漂浮在&6太空&r中，&d几乎为零的重力环境&r能改善一些加工条件，使得某些高级材料的制作成为可能"
 				""
@@ -250,6 +254,11 @@
 			]
 			icon: "gtocore:space_probe_mk1"
 			id: "23E859D5CC9E4C8C"
+			rewards: [{
+				id: "55D60475E64AFC15"
+				item: "ad_astra:earth_globe"
+				type: "item"
+			}]
 			shape: "gear"
 			size: 1.5d
 			subtitle: "地轨道长期驻留"
@@ -276,7 +285,8 @@
 			y: -6.0d
 		}
 		{
-			dependencies: ["55369274AB0561DF"]
+			dependencies: ["58EC0AFA9742164A"]
+			description: ["根据所在空间站星球的不同会产出不同的宇宙尘埃"]
 			id: "711B491341721F3C"
 			tasks: [{
 				id: "7029F635AFE5C75D"
@@ -284,7 +294,7 @@
 				type: "item"
 			}]
 			x: 12.0d
-			y: -8.35d
+			y: -8.45d
 		}
 		{
 			dependencies: ["7D639CBD69B7AA61"]

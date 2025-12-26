@@ -1481,7 +1481,7 @@
 			dependencies: ["66E12F82F66FB8CE"]
 			description: ["将&d&a炼金催化器&f&r置于&b&a魔力池&f&r下方可开启&9炼金术&r,实现物品转化(如腐肉变皮革)."]
 			id: "32DF4BC46620F952"
-			shape: "square"
+			shape: "hexagon"
 			tasks: [{
 				id: "0B5B67B066E672CD"
 				item: "botania:alchemy_catalyst"
@@ -2730,8 +2730,6 @@
 				"&a灌注室&f需消耗源能进行物品灌注.其本身会产生微量源能,也可使用&a魔源罐&f作为能源."
 				""
 				"部分配方还要求在其周围布置&a奥术基座&f."
-				""
-				""
 			]
 			id: "5766C8B9E850C186"
 			shape: "hexagon"
@@ -3122,7 +3120,6 @@
 				"新手阶段可使用伤害与破坏效果."
 				""
 				"选择形态与效果组合,命名后即可创建新法术."
-				""
 			]
 			icon: {
 				Count: 1
@@ -3626,6 +3623,7 @@
 		{
 			dependencies: ["66E12F82F66FB8CE"]
 			id: "31BC72F2F45E70F3"
+			shape: "diamond"
 			subtitle: "多方块魔力池"
 			tasks: [{
 				id: "6B9EEFC2E7348371"
@@ -4061,7 +4059,6 @@
 		}
 		{
 			dependencies: [
-				"457DE8C154641437"
 				"5FB36C788008C907"
 				"2A5BA479E707034B"
 			]
@@ -4072,7 +4069,6 @@
 				"可以在仪式中添加果实以修改陨石的中心位置。"
 				"{image:arsmeteorites:textures/gui/direction.png width:100 height:100 align:center}"
 			]
-			hide_dependency_lines: true
 			id: "13ED9023E7486BCD"
 			shape: "diamond"
 			size: 1.0d
@@ -4127,6 +4123,7 @@
 			description: ["多方块 &5 灌注室  附魔核心&r"]
 			hide_dependency_lines: true
 			id: "4616B3E583B430A0"
+			shape: "diamond"
 			tasks: [{
 				id: "1BD6C14B79F2804C"
 				item: "gtocore:large_perfusion_device"
@@ -4168,6 +4165,7 @@
 				{
 					id: "45D039ED5F5FAF15"
 					item: "gtocore:fractal_petal_solvent_bucket"
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -4259,26 +4257,31 @@
 				{
 					id: "431E0907CC499B77"
 					item: "gtocore:aether_bucket"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "330A2DCF80536248"
 					item: "gtocore:salamander_bucket"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "200B16BAE7BE9625"
 					item: "gtocore:undine_bucket"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "4F5E8B6DF51F62E4"
 					item: "gtocore:sylph_bucket"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "4FE0DE11DAED2B31"
 					item: "gtocore:gnome_bucket"
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -4295,6 +4298,7 @@
 				"4E9804ED6DE64BDF"
 				"3D862A3D3F83CA26"
 			]
+			description: ["合成操纵之精华即可完成此任务"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			id: "2A5BA479E707034B"
@@ -4307,31 +4311,37 @@
 				{
 					id: "3DE7901084AD7249"
 					item: "ars_nouveau:abjuration_essence"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "415C38734AC66F8D"
 					item: "ars_nouveau:conjuration_essence"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "445F78D67CB423E6"
 					item: "ars_nouveau:earth_essence"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "18DBC4CEC11F6378"
 					item: "ars_nouveau:air_essence"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "0E2EFB2AA62BAADE"
 					item: "ars_nouveau:fire_essence"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "3222538EDFC054BE"
 					item: "ars_nouveau:water_essence"
+					optional_task: true
 					type: "item"
 				}
 			]
@@ -4411,6 +4421,8 @@
 			]
 			id: "502826CBF91585C1"
 			min_width: 250
+			shape: "hexagon"
+			size: 1.5d
 			tasks: [{
 				id: "34780BF2AE9956AA"
 				item: {
@@ -4540,10 +4552,7 @@
 			y: -4.5d
 		}
 		{
-			dependencies: [
-				"3100458952FC0673"
-				"2A5BA479E707034B"
-			]
+			dependencies: ["3100458952FC0673"]
 			dependency_requirement: "one_completed"
 			description: [
 				"在末地用玻璃瓶右键获得。"
@@ -4551,7 +4560,7 @@
 				"一个瓶装末地空气最多可以转化64个石头。"
 				""
 				"但是如果你还无法前往末地。"
-				"你可以使用召唤精华合成末地石。"
+				"你可以使用召唤之精华合成末地石。"
 				"白雏菊在末地石转换为深板岩圆石后，"
 				"会升起一小团的末地空气云团，"
 				"手持玻璃瓶可以被收集为一个瓶装末地空气。"
@@ -4611,6 +4620,22 @@
 			}]
 			x: 12.75d
 			y: 4.5d
+		}
+		{
+			dependencies: ["3D862A3D3F83CA26"]
+			disable_toast: true
+			icon_scale: 0.25d
+			id: "3B20CAA27760A0B2"
+			shape: "none"
+			size: 0.25d
+			tasks: [{
+				id: "7232C12A4EE3EA2A"
+				stat: "minecraft:jump"
+				type: "stat"
+				value: 1
+			}]
+			x: 18.0d
+			y: -1.5d
 		}
 	]
 	subtitle: ["从百花园走到符文祭坛"]

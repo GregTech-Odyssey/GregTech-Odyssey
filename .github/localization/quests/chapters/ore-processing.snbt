@@ -3,10 +3,10 @@
 	default_quest_shape: "square"
 	default_quest_size: 2.0d
 	filename: "ore-processing"
-	group: "5EEE1B83CA094132"
+	group: "33C930DBAB246BE3"
 	icon: "gtocore:resource_collection_module"
 	id: "7BDD856DEBA0E0CE"
-	order_index: 0
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -20,8 +20,8 @@
 				item: "gtceu:large_centrifuge"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 0.0d
+			x: -27.0d
+			y: -18.0d
 		}
 		{
 			dependencies: [
@@ -34,8 +34,8 @@
 				item: "gtceu:large_maceration_tower"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 0.0d
+			x: -31.0d
+			y: -18.0d
 		}
 		{
 			dependencies: [
@@ -48,8 +48,8 @@
 				item: "gtceu:large_sifting_funnel"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 0.0d
+			x: -25.0d
+			y: -18.0d
 		}
 		{
 			dependencies: [
@@ -62,8 +62,8 @@
 				item: "gtceu:large_chemical_bath"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 0.0d
+			x: -29.0d
+			y: -18.0d
 		}
 		{
 			dependencies: [
@@ -76,8 +76,8 @@
 				item: "gtocore:large_crusher"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 0.0d
+			x: -33.0d
+			y: -18.0d
 		}
 		{
 			description: ["{gto.ore-processing.quests.1370BC6AE1253AD9.description0}"]
@@ -92,14 +92,7 @@
 			y: -7.5d
 		}
 		{
-			dependencies: ["1370BC6AE1253AD9"]
-			description: [
-				"{gto.ore-processing.quests.29C481658A464961.description0}"
-				""
-				"{gto.ore-processing.quests.29C481658A464961.description1}"
-				""
-				"{gto.ore-processing.quests.29C481658A464961.description2}"
-			]
+			dependencies: ["26BFC0C667CA9E1F"]
 			id: "29C481658A464961"
 			subtitle: "{gto.ore-processing.quests.29C481658A464961.subtitle}"
 			tasks: [{
@@ -107,7 +100,7 @@
 				item: "gtceu:ev_large_miner"
 				type: "item"
 			}]
-			x: -4.0d
+			x: -1.0d
 			y: -12.0d
 		}
 		{
@@ -136,7 +129,7 @@
 				item: "gtceu:iv_large_miner"
 				type: "item"
 			}]
-			x: -1.0d
+			x: 2.0d
 			y: -12.0d
 		}
 		{
@@ -159,7 +152,7 @@
 				item: "gtceu:luv_large_miner"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 5.0d
 			y: -12.0d
 		}
 		{
@@ -174,7 +167,7 @@
 			y: -9.0d
 		}
 		{
-			dependencies: ["7A394A45A770D513"]
+			dependencies: ["1370BC6AE1253AD9"]
 			description: ["{gto.ore-processing.quests.2CAC23B2D9C27A1E.description0}"]
 			id: "2CAC23B2D9C27A1E"
 			subtitle: "{gto.ore-processing.quests.2CAC23B2D9C27A1E.subtitle}"
@@ -183,8 +176,8 @@
 				item: "gtocore:void_miner"
 				type: "item"
 			}]
-			x: 5.0d
-			y: -9.0d
+			x: -4.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["236386F4E6EA2524"]
@@ -196,7 +189,7 @@
 				item: "gtocore:resource_collection_module"
 				type: "item"
 			}]
-			x: -1.0d
+			x: 2.0d
 			y: -6.0d
 		}
 		{
@@ -217,7 +210,7 @@
 				item: "gtocore:large_void_miner"
 				type: "item"
 			}]
-			x: -4.0d
+			x: -1.0d
 			y: -6.0d
 		}
 		{
@@ -230,7 +223,7 @@
 				type: "item"
 			}]
 			title: "{gto.ore-processing.quests.49AC765A0DBD569B.title}"
-			x: -4.0d
+			x: -1.0d
 			y: -3.0d
 		}
 		{
@@ -242,8 +235,8 @@
 				title: "{gto.ore-processing.quests.6582357D3B6A68BE.tasks.0920297149C5455D.title}"
 				type: "checkmark"
 			}]
-			x: -8.0d
-			y: 0.0d
+			x: -37.0d
+			y: -18.0d
 		}
 		{
 			dependencies: ["6D31A7B07582A196"]
@@ -253,8 +246,8 @@
 				item: "gtocore:industrial_flotation_cell"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 2.0d
+			x: -31.0d
+			y: -16.0d
 		}
 		{
 			dependencies: ["2F1E20E835727CC3"]
@@ -264,8 +257,8 @@
 				item: "gtocore:vacuum_drying_furnace"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 2.0d
+			x: -29.0d
+			y: -16.0d
 		}
 		{
 			dependencies: [
@@ -278,8 +271,621 @@
 				item: "gtocore:isa_mill"
 				type: "item"
 			}]
+			x: -33.0d
+			y: -16.0d
+		}
+		{
+			description: ["{gto.ore-processing.quests.0C5822360663E08A.description0}"]
+			icon: "gtocore:eye_of_harmony"
+			id: "0C5822360663E08A"
+			tasks: [{
+				id: "7F4565D76BA84BAB"
+				type: "checkmark"
+			}]
+			title: "{gto.ore-processing.quests.0C5822360663E08A.title}"
+			x: -8.0d
+			y: -18.0d
+		}
+		{
+			dependencies: ["0C5822360663E08A"]
+			description: ["{gto.ore-processing.quests.570EF726E1C3114A.description0}"]
+			id: "570EF726E1C3114A"
+			tasks: [{
+				id: "5CF727C45E0A9DFF"
+				item: "gtceu:mv_fluid_drilling_rig"
+				type: "item"
+			}]
 			x: -4.0d
-			y: 2.0d
+			y: -18.0d
+		}
+		{
+			dependencies: ["570EF726E1C3114A"]
+			id: "3C048F123CED42FB"
+			tasks: [{
+				id: "188177C86568CECD"
+				item: "gtceu:hv_fluid_drilling_rig"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -18.0d
+		}
+		{
+			dependencies: ["3C048F123CED42FB"]
+			id: "7CFAE65C38D0BCC8"
+			tasks: [{
+				id: "683BB38B3F732B24"
+				item: "gtceu:ev_fluid_drilling_rig"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -18.0d
+		}
+		{
+			dependencies: ["0C5822360663E08A"]
+			description: ["{gto.ore-processing.quests.263A5F7F7C9E3B5B.description0}"]
+			id: "263A5F7F7C9E3B5B"
+			tasks: [{
+				id: "65C4EDF0C7ECA357"
+				item: "gtocore:infinity_fluid_drilling_rig"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["0C5822360663E08A"]
+			description: ["{gto.ore-processing.quests.2A7E68122B6A9747.description0}"]
+			id: "2A7E68122B6A9747"
+			tasks: [{
+				id: "1780BBCA48E9C0EA"
+				item: "gtocore:void_fluid_drilling_rig"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -21.0d
+		}
+		{
+			dependencies: ["0C5822360663E08A"]
+			description: ["{gto.ore-processing.quests.2F497EB5A036A8C5.description0}"]
+			id: "2F497EB5A036A8C5"
+			tasks: [{
+				id: "72D0C6EA3F5BEC24"
+				item: "gtocore:drilling_control_center"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["263A5F7F7C9E3B5B"]
+			id: "0E12E460B8444ED3"
+			tasks: [{
+				id: "0D6490C3268CFBB4"
+				item: "gtocore:advanced_infinite_driller"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["2A7E68122B6A9747"]
+			description: ["{gto.ore-processing.quests.17B9E98E03FBB855.description0}"]
+			id: "17B9E98E03FBB855"
+			tasks: [{
+				id: "2F175B8467F9416B"
+				item: "gtocore:mega_se_mining"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -21.0d
+		}
+		{
+			description: ["{gto.ore-processing.quests.2742DB746BCCBC47.description0}"]
+			id: "2742DB746BCCBC47"
+			size: 1.0d
+			tasks: [{
+				id: "0E76EA24AAE2004C"
+				item: "gtceu:lv_pump"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -18.5d
+		}
+		{
+			id: "632EB734F572DE09"
+			size: 1.0d
+			tasks: [{
+				id: "77CE138BC1D6C23F"
+				item: "gtceu:mv_pump"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -18.5d
+		}
+		{
+			id: "55C0642FF0322F71"
+			size: 1.0d
+			tasks: [{
+				id: "76536670E8A194D2"
+				item: "gtceu:hv_pump"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -17.5d
+		}
+		{
+			id: "54DC6C99CD4CE87D"
+			size: 1.0d
+			tasks: [{
+				id: "02C13ADC610BE30C"
+				item: "gtceu:ev_pump"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -17.5d
+		}
+		{
+			dependencies: ["1370BC6AE1253AD9"]
+			description: [
+				"{gto.ore-processing.quests.26BFC0C667CA9E1F.description0}"
+				""
+				"{gto.ore-processing.quests.26BFC0C667CA9E1F.description1}"
+				""
+				"{gto.ore-processing.quests.26BFC0C667CA9E1F.description2}"
+			]
+			id: "26BFC0C667CA9E1F"
+			tasks: [{
+				id: "50C4209CD42C600E"
+				item: "gtocore:digital_miner"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -12.0d
+		}
+		{
+			description: ["{gto.ore-processing.quests.5926E5DA0196B513.description0}"]
+			id: "5926E5DA0196B513"
+			size: 1.0d
+			tasks: [{
+				id: "26B3DE20AFCD0DD6"
+				item: "gtceu:lp_steam_miner"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -9.0d
+		}
+		{
+			id: "65CE19264EA41813"
+			size: 1.0d
+			tasks: [{
+				id: "19561574F1262E62"
+				item: "gtceu:hp_steam_miner"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["6582357D3B6A68BE"]
+			description: [
+				"{gto.ore-processing.quests.7C1D32B8C9895B40.description0}"
+				""
+				"{gto.ore-processing.quests.7C1D32B8C9895B40.description1}"
+			]
+			id: "7C1D32B8C9895B40"
+			tasks: [{
+				id: "2D7B20801985A768"
+				item: "gtocore:steam_crusher"
+				type: "item"
+			}]
+			x: -33.0d
+			y: -20.0d
+		}
+		{
+			dependencies: ["1370BC6AE1253AD9"]
+			id: "2F838FD374541CE7"
+			tasks: [{
+				id: "36240F1C4AF81CDC"
+				item: "gtocore:planet_core_drilling"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			description: ["{gto.ore-processing.quests.705E9488C95328D6.description0}"]
+			id: "705E9488C95328D6"
+			size: 1.0d
+			tasks: [{
+				id: "144F9B6B2DBDDEE8"
+				item: "gtceu:lv_miner"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -8.0d
+		}
+		{
+			id: "70F5A736CF798AD2"
+			size: 1.0d
+			tasks: [{
+				id: "733881A591365AF5"
+				item: "gtceu:mv_miner"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -8.0d
+		}
+		{
+			id: "354DE40FBB12CB47"
+			size: 1.0d
+			tasks: [{
+				id: "12583C84C51B1A4D"
+				item: "gtceu:hv_miner"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -7.0d
+		}
+		{
+			id: "4C1C333B59FC9B0B"
+			size: 1.0d
+			tasks: [{
+				id: "1DFBD5E113ED50BE"
+				item: "gtocore:lv_digital_miner"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -7.0d
+		}
+		{
+			id: "3830402E6C53FFE2"
+			size: 1.0d
+			tasks: [{
+				id: "030148FCB79D4087"
+				item: "gtocore:mv_digital_miner"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -6.0d
+		}
+		{
+			id: "046DCB2C26AA8706"
+			size: 1.0d
+			tasks: [{
+				id: "6E91166718891E58"
+				item: "gtocore:hv_digital_miner"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2BE0A03B4EC03C39"]
+			id: "7284AB40E8EF6CB8"
+			tasks: [{
+				id: "44478C21E0D5E5E4"
+				item: "gtocore:steam_ore_washer"
+				type: "item"
+			}]
+			x: -29.0d
+			y: -20.0d
+		}
+		{
+			dependencies: ["7C1D32B8C9895B40"]
+			id: "2BE0A03B4EC03C39"
+			tasks: [{
+				id: "6784708EA680815C"
+				item: "gtocore:steam_piston_hammer"
+				type: "item"
+			}]
+			x: -31.0d
+			y: -20.0d
+		}
+		{
+			id: "15815409599F4CF1"
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				id: "60D90CB54B495089"
+				title: "{gto.ore-processing.quests.15815409599F4CF1.tasks.60D90CB54B495089.title}"
+				type: "checkmark"
+			}]
+			x: -13.0d
+			y: -18.0d
+		}
+		{
+			id: "7B09C06EDD2A07B9"
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				id: "25FE1DA2660A34A0"
+				title: "{gto.ore-processing.quests.7B09C06EDD2A07B9.tasks.25FE1DA2660A34A0.title}"
+				type: "checkmark"
+			}]
+			x: -13.0d
+			y: -7.5d
+		}
+		{
+			description: [
+				"{gto.ore-processing.quests.7DB63DF889DDDEF4.description0}"
+				""
+				"{gto.ore-processing.quests.7DB63DF889DDDEF4.description1}"
+			]
+			icon: "minecraft:raw_iron"
+			id: "7DB63DF889DDDEF4"
+			subtitle: "{gto.ore-processing.quests.7DB63DF889DDDEF4.subtitle}"
+			tasks: [
+				{
+					id: "12386DFE17521548"
+					title: "{gto.ore-processing.quests.7DB63DF889DDDEF4.tasks.12386DFE17521548.title}"
+					type: "checkmark"
+				}
+				{
+					id: "243CAA04566A300A"
+					item: "minecraft:raw_iron"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -37.0d
+			y: -11.0d
+		}
+		{
+			description: ["{gto.ore-processing.quests.703EEB941F0C745C.description0}"]
+			icon: "gtceu:iron_ore"
+			id: "703EEB941F0C745C"
+			subtitle: "{gto.ore-processing.quests.703EEB941F0C745C.subtitle}"
+			tasks: [
+				{
+					id: "0CE5AC66DD215BE1"
+					title: "{gto.ore-processing.quests.703EEB941F0C745C.tasks.0CE5AC66DD215BE1.title}"
+					type: "checkmark"
+				}
+				{
+					id: "05C8B4EE289ED2C9"
+					item: "gtceu:iron_ore"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -37.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["41AF3C6D6971B087"]
+			dependency_requirement: "one_completed"
+			description: ["{gto.ore-processing.quests.6596611DD4CB5A60.description0}"]
+			icon: "gtceu:crushed_iron_ore"
+			id: "6596611DD4CB5A60"
+			min_required_dependencies: 1
+			subtitle: "{gto.ore-processing.quests.6596611DD4CB5A60.subtitle}"
+			tasks: [
+				{
+					id: "45B29F9F7327A305"
+					title: "{gto.ore-processing.quests.6596611DD4CB5A60.tasks.45B29F9F7327A305.title}"
+					type: "checkmark"
+				}
+				{
+					id: "7C9FD22CF1F9381E"
+					item: "gtceu:crushed_iron_ore"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -29.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["6596611DD4CB5A60"]
+			description: ["{gto.ore-processing.quests.05046054F7D65653.description0}"]
+			icon: "gtceu:impure_iron_dust"
+			id: "05046054F7D65653"
+			subtitle: "{gto.ore-processing.quests.05046054F7D65653.subtitle}"
+			tasks: [
+				{
+					id: "0624FA85DAAB27B4"
+					title: "{gto.ore-processing.quests.05046054F7D65653.tasks.0624FA85DAAB27B4.title}"
+					type: "checkmark"
+				}
+				{
+					id: "5DD7786DB05A68EA"
+					item: "gtceu:impure_iron_dust"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -21.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["41AF3C6D6971B087"]
+			description: [
+				"{gto.ore-processing.quests.3C2B4B80E425A9AD.description0}"
+				""
+				"{gto.ore-processing.quests.3C2B4B80E425A9AD.description1}"
+			]
+			icon: "gtocore:milled_pyrope"
+			id: "3C2B4B80E425A9AD"
+			subtitle: "{gto.ore-processing.quests.3C2B4B80E425A9AD.subtitle}"
+			tasks: [
+				{
+					id: "3DF923CA2FF25E4D"
+					title: "{gto.ore-processing.quests.3C2B4B80E425A9AD.tasks.3DF923CA2FF25E4D.title}"
+					type: "checkmark"
+				}
+				{
+					id: "42F3CB4519478BEB"
+					item: "gtocore:milled_pyrope"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -29.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3C2B4B80E425A9AD"]
+			description: ["{gto.ore-processing.quests.0FAFE44EBD813FBA.description0}"]
+			icon: "gtocore:pyrope_front_bucket"
+			id: "0FAFE44EBD813FBA"
+			subtitle: "{gto.ore-processing.quests.0FAFE44EBD813FBA.subtitle}"
+			tasks: [
+				{
+					id: "4C799DC47F6C6B79"
+					title: "{gto.ore-processing.quests.0FAFE44EBD813FBA.tasks.4C799DC47F6C6B79.title}"
+					type: "checkmark"
+				}
+				{
+					id: "79442F59F7045706"
+					item: "gtocore:pyrope_front_bucket"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -21.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"05046054F7D65653"
+				"56C020B4F1F7D8D1"
+				"79B98F942F1D8EDC"
+				"0FAFE44EBD813FBA"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"{gto.ore-processing.quests.5AEE74DD9B0D511C.description0}"
+				"{gto.ore-processing.quests.5AEE74DD9B0D511C.description1}"
+				""
+				"{gto.ore-processing.quests.5AEE74DD9B0D511C.description2}"
+				""
+				"{gto.ore-processing.quests.5AEE74DD9B0D511C.description3}"
+			]
+			icon: "gtceu:iron_dust"
+			id: "5AEE74DD9B0D511C"
+			subtitle: "{gto.ore-processing.quests.5AEE74DD9B0D511C.subtitle}"
+			tasks: [
+				{
+					id: "7D58F9B03FA71A1D"
+					title: "{gto.ore-processing.quests.5AEE74DD9B0D511C.tasks.7D58F9B03FA71A1D.title}"
+					type: "checkmark"
+				}
+				{
+					id: "6E1058A98ED43D59"
+					item: "gtceu:iron_dust"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -17.0d
+			y: -9.0d
+		}
+		{
+			dependencies: [
+				"6596611DD4CB5A60"
+				"14EE67044597E62A"
+			]
+			dependency_requirement: "one_completed"
+			description: ["{gto.ore-processing.quests.56C020B4F1F7D8D1.description0}"]
+			icon: "gtceu:refined_iron_ore"
+			id: "56C020B4F1F7D8D1"
+			subtitle: "{gto.ore-processing.quests.56C020B4F1F7D8D1.subtitle}"
+			tasks: [
+				{
+					id: "5822D0C2DAE09A76"
+					title: "{gto.ore-processing.quests.56C020B4F1F7D8D1.tasks.5822D0C2DAE09A76.title}"
+					type: "checkmark"
+				}
+				{
+					id: "4A118334D2377798"
+					item: "gtceu:refined_iron_ore"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -21.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["14EE67044597E62A"]
+			description: ["{gto.ore-processing.quests.79B98F942F1D8EDC.description0}"]
+			icon: "gtceu:pure_iron_dust"
+			id: "79B98F942F1D8EDC"
+			subtitle: "{gto.ore-processing.quests.79B98F942F1D8EDC.subtitle}"
+			tasks: [
+				{
+					id: "0ACEBC9DEDFB3044"
+					title: "{gto.ore-processing.quests.79B98F942F1D8EDC.tasks.0ACEBC9DEDFB3044.title}"
+					type: "checkmark"
+				}
+				{
+					id: "62E542B061FAF07B"
+					item: "gtceu:pure_iron_dust"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "{gto.ore-processing.quests.79B98F942F1D8EDC.title}"
+			x: -21.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["14EE67044597E62A"]
+			description: ["{gto.ore-processing.quests.621C664A94B042C0.description0}"]
+			icon: "gtceu:flawless_emerald_gem"
+			id: "621C664A94B042C0"
+			subtitle: "{gto.ore-processing.quests.621C664A94B042C0.subtitle}"
+			tasks: [
+				{
+					id: "7059009E6175E5EC"
+					title: "{gto.ore-processing.quests.621C664A94B042C0.tasks.7059009E6175E5EC.title}"
+					type: "checkmark"
+				}
+				{
+					id: "692659EE758CDEEC"
+					item: "gtceu:flawless_emerald_gem"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -21.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["6596611DD4CB5A60"]
+			description: ["{gto.ore-processing.quests.14EE67044597E62A.description0}"]
+			icon: "gtceu:purified_iron_ore"
+			id: "14EE67044597E62A"
+			subtitle: "{gto.ore-processing.quests.14EE67044597E62A.subtitle}"
+			tasks: [
+				{
+					id: "512D19B265445F64"
+					title: "{gto.ore-processing.quests.14EE67044597E62A.tasks.512D19B265445F64.title}"
+					type: "checkmark"
+				}
+				{
+					id: "4C31A8B183EF4730"
+					item: "gtceu:purified_iron_ore"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -25.0d
+			y: -12.0d
+		}
+		{
+			dependencies: [
+				"7DB63DF889DDDEF4"
+				"703EEB941F0C745C"
+			]
+			description: ["{gto.ore-processing.quests.41AF3C6D6971B087.description0}"]
+			id: "41AF3C6D6971B087"
+			tasks: [{
+				id: "4C8C9F1D001604C2"
+				type: "checkmark"
+			}]
+			x: -33.0d
+			y: -9.0d
 		}
 	]
 	subtitle: ["{gto.ore-processing.subtitle0}"]
