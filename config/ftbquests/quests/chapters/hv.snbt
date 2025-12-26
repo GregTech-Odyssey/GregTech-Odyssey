@@ -928,7 +928,7 @@
 			id: "45B2C27B819498DE"
 			tasks: [{
 				id: "78C5BB66D075C413"
-				item: "enderio:vibrant_alloy_ingot"
+				item: "gtocore:vibrant_alloy_ingot"
 				type: "item"
 			}]
 			title: "HV超导"
@@ -1087,13 +1087,13 @@
 				"&6火箭燃料&r也是很好的发电燃料，你可以选择&6火箭引擎&r作为你的主力发电设施，这需要你搭建稳定供应的&e火箭燃料产线&r"
 			]
 			hide_dependency_lines: true
-			icon: "enderio:rocket_fuel_bucket"
+			icon: "gtceu:rocket_fuel_bucket"
 			id: "4AED8DE6D6175D97"
 			subtitle: "这可不能喝"
 			tasks: [
 				{
 					id: "0DC3A2EE264A753C"
-					item: "enderio:rocket_fuel_bucket"
+					item: "gtceu:rocket_fuel_bucket"
 					optional_task: true
 					type: "item"
 				}
@@ -2021,7 +2021,7 @@
 				"如果你早就做出来了那就更好啦"
 			]
 			hide_dependency_lines: true
-			icon: "enderio:extraction_speed_upgrade_1"
+			icon: "functionalstorage:max_storage_upgrade"
 			id: "132AD65903D93565"
 			shape: "pentagon"
 			size: 1.5d

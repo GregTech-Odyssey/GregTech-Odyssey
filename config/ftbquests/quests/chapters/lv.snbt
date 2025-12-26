@@ -599,7 +599,7 @@
 			tasks: [{
 				count: 8L
 				id: "4269A9E3E5D38BF6"
-				item: "enderio:dark_steel_ingot"
+				item: "gtocore:dark_steel_ingot"
 				type: "item"
 			}]
 			x: 1.5d
@@ -758,14 +758,12 @@
 			dependencies: ["507807175748245C"]
 			description: [
 				"这个是LV阶段的超导材料"
-				""
-				"通过搅拌可以大量制取导电合金粉，没有搅拌机前也可以通过Ender IO的合金炉简单做一些"
 			]
 			hide_dependency_lines: true
 			id: "0DF27446EE5DB28F"
 			tasks: [{
 				id: "275918DEA077C630"
-				item: "enderio:conductive_alloy_ingot"
+				item: "gtocore:conductive_alloy_ingot"
 				type: "item"
 			}]
 			title: "LV超导"

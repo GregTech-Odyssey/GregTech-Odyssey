@@ -1652,14 +1652,25 @@
 			y: 2.5d
 		}
 		{
-			description: ["别看了 要UV中子素"]
 			id: "25F4954B053014A7"
 			size: 4.0d
-			tasks: [{
-				id: "21068F8225347E6C"
-				item: "avaritia:ultimate_stew"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "21068F8225347E6C"
+					item: "solclassic:wicker_basket"
+					type: "item"
+				}
+				{
+					id: "4A0969E4DE683C34"
+					item: "solclassic:basket"
+					type: "item"
+				}
+				{
+					id: "04794DDB07A3D1C5"
+					item: "farmersdelight:basket"
+					type: "item"
+				}
+			]
 			x: 0.75d
 			y: -4.0d
 		}

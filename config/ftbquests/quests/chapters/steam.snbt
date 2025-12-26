@@ -206,10 +206,7 @@
 			y: 0.08095238095238244d
 		}
 		{
-			dependencies: [
-				"24C53B5FF515ACAC"
-				"4A9E47C3F8DF24A3"
-			]
+			dependencies: ["24C53B5FF515ACAC"]
 			description: [
 				"合金炉，将&6三铜一锡&r熔铸四个&6青铜锭&r，现在能够高效生产各种能在LV制造的合金锭"
 				""
@@ -231,34 +228,6 @@
 			title: "融合之力"
 			x: -6.5d
 			y: 4.5d
-		}
-		{
-			dependencies: ["6B2CA9AF06284789"]
-			description: [
-				"Ender IO 的起点，也是&6蒸汽铸造炉&r的前置工作"
-				""
-				"当然你可以用&6原始合金炉&r烧点合金以备前期工作，但我还是强烈建议你拿它去合成&6蒸汽合金炉&r"
-				""
-				"原始合金炉有一些&d专属的Ender IO&r的配方，记得查看一下"
-			]
-			id: "4A9E47C3F8DF24A3"
-			rewards: [{
-				count: 16
-				id: "6DDB3EC4D4CE9C7E"
-				item: "minecraft:ender_pearl"
-				type: "item"
-			}]
-			shape: "hexagon"
-			size: 1.5d
-			subtitle: "看上去就很原始！"
-			tasks: [{
-				id: "5701706956B3E4CD"
-				item: "enderio:primitive_alloy_smelter"
-				type: "item"
-			}]
-			title: "真正的原始人炉子"
-			x: -6.5d
-			y: 0.0d
 		}
 		{
 			dependencies: ["05F4015974079225"]
@@ -801,14 +770,11 @@
 				type: "dimension"
 			}]
 			title: "回到过去？"
-			x: 9.0d
-			y: -2.0d
+			x: 0.0d
+			y: 0.0d
 		}
 		{
-			dependencies: [
-				"27F4D9739FE33A02"
-				"0DCA3A96184C9EAC"
-			]
+			dependencies: ["0DCA3A96184C9EAC"]
 			description: [
 				"用这些材料摆一个3x3的平面结构"
 				""
@@ -845,11 +811,11 @@
 				}
 			]
 			title: "远古反应堆"
-			x: 9.0d
+			x: 3.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["4A9E47C3F8DF24A3"]
+			dependencies: ["6AB9089FDE595716"]
 			description: [
 				"这也是一种&4超导体&r，只是需要&b魔力灌注&r"
 				""
@@ -861,7 +827,7 @@
 			rewards: [{
 				count: 16
 				id: "729CAE88D53DA197"
-				item: "enderio:pulsating_alloy_ingot"
+				item: "gtocore:pulsating_alloy_ingot"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -869,11 +835,11 @@
 			subtitle: "噢！是魔法超导体！"
 			tasks: [{
 				id: "068641109A5FCEAD"
-				item: "enderio:pulsating_alloy_ingot"
+				item: "gtocore:pulsating_alloy_ingot"
 				type: "item"
 			}]
 			title: "嗯？怎么你也？"
-			x: 2.0d
+			x: 6.0d
 			y: 0.0d
 		}
 		{
@@ -889,10 +855,10 @@
 			rewards: [{
 				count: 32
 				id: "533F7DCFDEB14DE8"
-				item: "enderio:powdered_ender_pearl"
+				item: "gtceu:ender_pearl_dust"
 				type: "item"
 			}]
-			shape: "diamond"
+			shape: "hexagon"
 			size: 1.5d
 			subtitle: "它会帮我混合火药吗"
 			tasks: [{
@@ -901,8 +867,8 @@
 				type: "item"
 			}]
 			title: "搅拌机，蒸汽驱动版"
-			x: 11.25d
-			y: 4.5d
+			x: 9.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -1425,121 +1391,6 @@
 			y: 7.5d
 		}
 		{
-			dependencies: [
-				"4A9E47C3F8DF24A3"
-				"72C6B40B38D542BF"
-			]
-			description: [
-				"纯净玻璃&d有且仅有&r通过Ender IO的合金炉和原始合金炉产出"
-				""
-				"慢是必然的，堆点量吧"
-				""
-				"当然等你有&d更大&r的纯净玻璃需求时你也会有&2更好的选择&r了"
-			]
-			hide_dependency_lines: true
-			icon: "enderio:clear_glass"
-			id: "3405FBC1B0CD80AD"
-			size: 1.0d
-			subtitle: "烧烤玻璃"
-			tasks: [{
-				id: "1B71AF690B18B55C"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "enderio:clear_glass"
-					}
-				}
-				title: "纯净玻璃"
-				type: "item"
-			}]
-			title: "让我们把玻璃擦干净点"
-			x: -2.5d
-			y: 3.0d
-		}
-		{
-			dependencies: ["78F56076EB6961EE"]
-			description: ["&e物品导管&r是前期优秀的自动化管道，支持多点输入输出，适合布置紧凑产线"]
-			id: "353DB5059C50932E"
-			shape: "diamond"
-			size: 1.5d
-			subtitle: "并非传送带"
-			tasks: [{
-				id: "4ECA6BF79C09EDD9"
-				item: "enderio:item_conduit"
-				type: "item"
-			}]
-			title: "让物品动起来"
-			x: -0.5d
-			y: 1.0d
-		}
-		{
-			dependencies: ["24C53B5FF515ACAC"]
-			description: [
-				"去挖点&6砂砾&r、&e沙子&r和&c黏土&r就行了"
-				""
-				"需要在工作台上合成，但一次能合成不少呢"
-			]
-			hide_dependency_lines: true
-			id: "275F142925816979"
-			size: 1.0d
-			subtitle: "并非来点胶水"
-			tasks: [{
-				id: "00EC47D9D8B9D99B"
-				item: "enderio:conduit_binder_composite"
-				type: "item"
-			}]
-			title: "把管道密封好"
-			x: -4.5d
-			y: 1.0d
-		}
-		{
-			dependencies: ["275F142925816979"]
-			description: [
-				"那么，你需要把&6导管粘合剂复合材料&r在熔炉里面加热成为&6导管粘合剂&r"
-				""
-				"它是制作Ender IO的物品和流体导管的&4必备材料&r"
-				""
-				"所以可以稍微多做一些，并且用它们作为前期的管道，功能性强大且节省空间（&e三种管道可以共存于一格空间内&r）"
-			]
-			id: "78F56076EB6961EE"
-			size: 1.0d
-			subtitle: "千万别漏了"
-			tasks: [{
-				id: "028A111FD54A8A95"
-				item: "enderio:conduit_binder"
-				type: "item"
-			}]
-			title: "泥水匠"
-			x: -2.5d
-			y: 1.0d
-		}
-		{
-			dependencies: [
-				"78F56076EB6961EE"
-				"3405FBC1B0CD80AD"
-			]
-			description: [
-				"&e流体导管&r，带有主动抽取和输出，但不能多点输入输出"
-				""
-				"以及它支持&4红石信号&r控制"
-				""
-				"&bMV阶段&r你能够制作更好用的&6末影流体导管&r"
-			]
-			id: "23118466181C773C"
-			shape: "diamond"
-			size: 1.5d
-			subtitle: "它居然能听懂红石在说什么哦"
-			tasks: [{
-				id: "0458A0CE873814FC"
-				item: "enderio:fluid_conduit"
-				type: "item"
-			}]
-			title: "另一种流体传输方式"
-			x: -0.5d
-			y: 3.0d
-		}
-		{
 			dependencies: ["27F4D9739FE33A02"]
 			description: [
 				"虽然很酷，但这不是你现在能想的机器"
@@ -1581,7 +1432,7 @@
 			}]
 			title: "焦炉Pro Max版"
 			x: 11.25d
-			y: 1.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["27F4D9739FE33A02"]
@@ -1605,7 +1456,7 @@
 			}]
 			title: "更大的保温杯"
 			x: 11.25d
-			y: 0.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["27F4D9739FE33A02"]
@@ -1616,6 +1467,7 @@
 			]
 			id: "524B8340450628A3"
 			shape: "diamond"
+			size: 1.5d
 			subtitle: "Work！Work！"
 			tasks: [{
 				id: "41CA757DDA6AB954"
@@ -1675,28 +1527,8 @@
 				type: "item"
 			}]
 			title: "更猛的机器们"
-			x: 7.5d
-			y: 1.0d
-		}
-		{
-			description: [
-				"点开&6无限粉&r的EMI就能看到制作方式："
-				""
-				"1. &b主手&r持&6深板岩圆石&r或&6深板岩&r，&b副手&r持&6燧石&r"
-				"2. 蹲下右键&6黑曜石&r，&6哭泣的黑曜石&r或&6砂轮&r"
-				""
-				"你前期需要生产一些用作&4原始合金炉&r的制作，当然你很快就能换装&d蒸汽合金炉&r了"
-			]
-			id: "6B2CA9AF06284789"
-			subtitle: "应该称之为原始粉"
-			tasks: [{
-				id: "11775FE409428F82"
-				item: "enderio:grains_of_infinity"
-				type: "item"
-			}]
-			title: "并不无限的粉"
-			x: -6.5d
-			y: -2.0d
+			x: 11.25d
+			y: -1.5d
 		}
 		{
 			dependencies: ["0019A5EEEE514539"]
@@ -1752,7 +1584,7 @@
 				type: "item"
 			}]
 			x: 11.25d
-			y: -1.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["7BCD49717F8FAD65"]
@@ -1858,33 +1690,6 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["53A8535B07FE3958"]
-			description: ["你可能会用到Ender IO的其他机器，它们可以直接连上格雷电线，使用格雷电力（EU）工作"]
-			id: "05EFB5D7ED8DE2D6"
-			optional: true
-			shape: "pentagon"
-			tasks: [
-				{
-					id: "3E7C553DDFAB3F0B"
-					item: "enderio:alloy_smelter"
-					type: "item"
-				}
-				{
-					id: "1492F1D573E7EE40"
-					item: "enderio:sag_mill"
-					type: "item"
-				}
-				{
-					id: "4627286593B477E0"
-					item: "enderio:soul_binder"
-					type: "item"
-				}
-			]
-			title: "Ender IO的机器"
-			x: -5.5d
-			y: 10.5d
-		}
-		{
 			dependencies: ["0019A5EEEE514539"]
 			id: "7AD98CFCEF58B440"
 			optional: true
@@ -1930,30 +1735,6 @@
 			]
 			x: -11.0d
 			y: 6.5d
-		}
-		{
-			dependencies: ["27F4D9739FE33A02"]
-			description: [
-				"非常优秀的单方块存储容器，是目前除了多方块板条箱以外你能制作的最大的存储容器"
-				""
-				"&o&7拆除会保留箱子内的物品"
-			]
-			id: "1ACA0000AE7FC80A"
-			rewards: [{
-				id: "762358C3DBE707D5"
-				item: "gtocore:copper_coin"
-				type: "item"
-			}]
-			shape: "diamond"
-			subtitle: "0/243"
-			tasks: [{
-				id: "15C02C37D1266918"
-				item: "avaritia:compressed_chest"
-				type: "item"
-			}]
-			title: "能容万物"
-			x: 7.5d
-			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -2063,7 +1844,7 @@
 				type: "item"
 			}]
 			x: 13.0d
-			y: -1.5d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -2096,10 +1877,7 @@
 				"-优化tps，流体管道没有缓存，流体从输入直达输出"
 				""
 				"-能够主动抽取机器/容器中的物品/流体，用扳手控制管道方向的同时也将激活管道的主动抽取功能"
-				""
-				"当然你也可以使用隔壁的Ender IO管道进行物流！"
 			]
-			hide_dependency_lines: true
 			icon: "gtceu:bronze_normal_fluid_pipe"
 			id: "39D96F76911B771E"
 			rewards: [{
@@ -2115,8 +1893,8 @@
 				type: "checkmark"
 			}]
 			title: "GT管道"
-			x: -4.5d
-			y: 3.0d
+			x: -6.75d
+			y: 2.25d
 		}
 		{
 			dependencies: [

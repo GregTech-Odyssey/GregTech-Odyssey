@@ -83,19 +83,6 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["0E1C854C0F7FF62F"]
-			id: "67616091B5362D24"
-			optional: true
-			subtitle: "附加题"
-			tasks: [{
-				id: "69A9FE9156CF2237"
-				item: "avaritia:enhancement_core"
-				type: "item"
-			}]
-			x: 8.0d
-			y: -4.0d
-		}
-		{
 			dependencies: [
 				"154F80E28FA53D99"
 				"7ED709D3291D6B88"
