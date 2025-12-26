@@ -761,7 +761,7 @@
 				""
 				"{gto.ore-processing.quests.5AEE74DD9B0D511C.description3}"
 			]
-			icon: "enderio:powdered_iron"
+			icon: "gtceu:iron_dust"
 			id: "5AEE74DD9B0D511C"
 			subtitle: "{gto.ore-processing.quests.5AEE74DD9B0D511C.subtitle}"
 			tasks: [
@@ -772,7 +772,7 @@
 				}
 				{
 					id: "6E1058A98ED43D59"
-					item: "enderio:powdered_iron"
+					item: "gtceu:iron_dust"
 					optional_task: true
 					type: "item"
 				}

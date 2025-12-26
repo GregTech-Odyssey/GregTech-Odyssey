@@ -928,7 +928,7 @@
 			id: "45B2C27B819498DE"
 			tasks: [{
 				id: "78C5BB66D075C413"
-				item: "enderio:vibrant_alloy_ingot"
+				item: "gtocore:vibrant_alloy_ingot"
 				type: "item"
 			}]
 			title: "{gto.hv.quests.45B2C27B819498DE.title}"
@@ -1087,13 +1087,13 @@
 				"{gto.hv.quests.4AED8DE6D6175D97.description1}"
 			]
 			hide_dependency_lines: true
-			icon: "enderio:rocket_fuel_bucket"
+			icon: "gtceu:rocket_fuel_bucket"
 			id: "4AED8DE6D6175D97"
 			subtitle: "{gto.hv.quests.4AED8DE6D6175D97.subtitle}"
 			tasks: [
 				{
 					id: "0DC3A2EE264A753C"
-					item: "enderio:rocket_fuel_bucket"
+					item: "gtceu:rocket_fuel_bucket"
 					optional_task: true
 					type: "item"
 				}
@@ -2021,7 +2021,7 @@
 				"{gto.hv.quests.132AD65903D93565.description1}"
 			]
 			hide_dependency_lines: true
-			icon: "enderio:extraction_speed_upgrade_1"
+			icon: "functionalstorage:max_storage_upgrade"
 			id: "132AD65903D93565"
 			shape: "pentagon"
 			size: 1.5d

@@ -516,8 +516,10 @@
 			]
 			icon: {
 				Count: 1
-				id: "avaritia:infinity_pickaxe"
-				tag: { }
+				id: "minecraft:diamond_pickaxe"
+				tag: {
+					Damage: 0
+				}
 			}
 			id: "45C8A2DF9C0E5473"
 			rewards: [
@@ -1400,12 +1402,12 @@
 				{
 					count: 3L
 					id: "0790B3D16BDAA658"
-					item: "enderio:powdered_copper"
+					item: "gtceu:copper_dust"
 					type: "item"
 				}
 				{
 					id: "581AF7DF0691B41B"
-					item: "enderio:powdered_tin"
+					item: "gtceu:tin_dust"
 					type: "item"
 				}
 			]

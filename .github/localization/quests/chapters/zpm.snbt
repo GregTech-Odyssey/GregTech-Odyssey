@@ -704,22 +704,22 @@
 			tasks: [
 				{
 					id: "73F77CF85D4E0347"
-					item: "enderio:nutrient_distillation_bucket"
+					item: "gtocore:nutrient_distillation_bucket"
 					type: "item"
 				}
 				{
 					id: "0EA028002632B9D2"
-					item: "enderio:cloud_seed_concentrated_bucket"
+					item: "gtocore:cloud_seed_concentrated_bucket"
 					type: "item"
 				}
 				{
 					id: "7E96AFD6082268D2"
-					item: "enderio:fire_water_bucket"
+					item: "gtocore:fire_water_bucket"
 					type: "item"
 				}
 				{
 					id: "4D9ED10837069AA5"
-					item: "enderio:vapor_of_levity_bucket"
+					item: "gtocore:vapor_of_levity_bucket"
 					type: "item"
 				}
 			]

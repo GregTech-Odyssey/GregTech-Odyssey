@@ -599,7 +599,7 @@
 			tasks: [{
 				count: 8L
 				id: "4269A9E3E5D38BF6"
-				item: "enderio:dark_steel_ingot"
+				item: "gtocore:dark_steel_ingot"
 				type: "item"
 			}]
 			x: 1.5d
@@ -756,16 +756,12 @@
 		}
 		{
 			dependencies: ["507807175748245C"]
-			description: [
-				"{gto.lv.quests.0DF27446EE5DB28F.description0}"
-				""
-				"{gto.lv.quests.0DF27446EE5DB28F.description1}"
-			]
+			description: ["{gto.lv.quests.0DF27446EE5DB28F.description0}"]
 			hide_dependency_lines: true
 			id: "0DF27446EE5DB28F"
 			tasks: [{
 				id: "275918DEA077C630"
-				item: "enderio:conductive_alloy_ingot"
+				item: "gtocore:conductive_alloy_ingot"
 				type: "item"
 			}]
 			title: "{gto.lv.quests.0DF27446EE5DB28F.title}"
