@@ -1902,10 +1902,7 @@
 				{
 					count: 8L
 					id: "251BC194B4FE1747"
-					item: {
-						Count: 8
-						id: "gtceu:steel_pipe_casing"
-					}
+					item: { Count: 8, id: "gtceu:steel_pipe_casing" }
 					type: "item"
 				}
 			]

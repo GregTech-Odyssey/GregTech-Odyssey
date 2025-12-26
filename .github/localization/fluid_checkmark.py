@@ -6,6 +6,8 @@ from ftb_snbt_lib.tag import Bool, Compound, List, String
 
 QUEST_CHAPTERS_PATH = Path("config/ftbquests/quests/chapters")
 
+SKIP_CHAPTERS = ["main-stoneage", "steam", "ulv", "shop", "tips", "progress"]
+
 
 def process_bucket(quest: Compound) -> bool:
     """
@@ -78,6 +80,12 @@ def main():
     for root, dirs, files in os.walk(QUEST_CHAPTERS_PATH):
         for file in files:
             if file.endswith(".snbt"):
+                # Skip specified chapters
+                chapter_name = file.removesuffix(".snbt")
+                if chapter_name in SKIP_CHAPTERS:
+                    print(f"Skipped chapter: {chapter_name} (specified in skip list)")
+                    continue
+
                 file_path = Path(root) / file
                 with open(file_path, "r", encoding="utf-8") as file:
                     snbt_data = snbt.load(file)
