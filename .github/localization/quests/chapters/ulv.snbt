@@ -178,22 +178,14 @@
 			}]
 			shape: "hexagon"
 			subtitle: "{gto.ulv.quests.0861FADA4103BCA5.subtitle}"
-			tasks: [
-				{
-					id: "407D7D7216484DA8"
-					item: "gtceu:oil_medium_bucket"
-					type: "item"
-					optional_task: true
-				}
-				{
-					id: "407D7D7216484DA8_CHECKMARK"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "407D7D7216484DA8"
+				item: "gtceu:oil_medium_bucket"
+				type: "item"
+			}]
 			title: "{gto.ulv.quests.0861FADA4103BCA5.title}"
 			x: 6.5d
 			y: -2.0d
-			icon: "gtceu:oil_medium_bucket"
 		}
 		{
 			dependencies: ["4ED89021AC92A0AE"]
