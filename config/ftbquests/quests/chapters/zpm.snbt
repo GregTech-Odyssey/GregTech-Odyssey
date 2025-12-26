@@ -42,6 +42,19 @@
 			x: 6.0d
 			y: -4.0d
 		}
+		{
+			id: "29645CEBC289497D"
+			linked_quest: "61A5DA41383BB91A"
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			id: "78DA328CC15F9A01"
+			linked_quest: "228B283B5477879B"
+			shape: "hexagon"
+			x: -6.5d
+			y: -4.0d
+		}
 	]
 	quests: [
 		{
@@ -101,7 +114,6 @@
 				"7E4DBCAC89579784"
 			]
 			dependency_requirement: "one_completed"
-			description: ["绝对乙醇可以通过乙醇自循环沸石产生"]
 			id: "717F73B64CA7E035"
 			tasks: [{
 				id: "01CEF32406C73D16"
@@ -127,9 +139,9 @@
 		}
 		{
 			dependencies: [
-				"31F90B973A779017"
-				"742A167FA252AC44"
 				"0A7AD87999A0DDF5"
+				"1156B92F11DA73B6"
+				"3490AACD4AA62C5D"
 			]
 			id: "1DE0A599F076C31A"
 			shape: "gear"
@@ -144,7 +156,10 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["1DE0A599F076C31A"]
+			dependencies: [
+				"1DE0A599F076C31A"
+				"30534A92ED62F4B8"
+			]
 			id: "19127B42AB919C11"
 			tasks: [{
 				id: "54FEA0141358A88F"
@@ -186,7 +201,10 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["3490AACD4AA62C5D"]
+			dependencies: [
+				"3490AACD4AA62C5D"
+				"5B83B53046A06AFE"
+			]
 			description: [
 				"通常用于制作第一批生物原料"
 				""
@@ -222,8 +240,8 @@
 		}
 		{
 			dependencies: [
-				"228B283B5477879B"
 				"0BB1BDBE8BB307E4"
+				"2947C7CBDC544496"
 			]
 			id: "7402D24D2847B7F2"
 			shape: "diamond"
@@ -250,6 +268,7 @@
 		{
 			dependencies: ["28265843939C1503"]
 			id: "24F1061AFD1BFEB2"
+			subtitle: "UV超导"
 			tasks: [{
 				id: "73A59148303A615B"
 				item: "gtceu:enriched_naquadah_trinium_europium_duranide_ingot"
@@ -259,13 +278,19 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["24F1061AFD1BFEB2"]
-			description: [
-				"在上面可以安装&6算力数据仓&r来实现算力分发"
-				""
-				"别忘了给提供算力的计算机安装&6桥接组件&r！"
+			dependencies: [
+				"24F1061AFD1BFEB2"
+				"0C85F6611B7A1FCE"
 			]
+			description: [
+				"做出它后你可以突破单台计算机可以获取的&e算力上限&r。是时候铺设计算机以获取&b算力&r了！"
+				""
+				"在上面可以安装&6算力数据仓&r来实现算力分发，别忘了给提供算力的计算机安装&6桥接组件&r！"
+			]
+			hide_dependent_lines: true
 			id: "2947C7CBDC544496"
+			shape: "hexagon"
+			size: 1.5d
 			tasks: [{
 				id: "4A8D522FF1ABCC7F"
 				item: "gtceu:network_switch"
@@ -275,7 +300,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["24F1061AFD1BFEB2"]
+			dependencies: ["3AD590B74363891F"]
 			id: "25331E8563FB84D2"
 			shape: "diamond"
 			size: 1.5d
@@ -288,7 +313,7 @@
 			y: -2.75d
 		}
 		{
-			dependencies: ["24F1061AFD1BFEB2"]
+			dependencies: ["3AD590B74363891F"]
 			id: "7A5C8C049D2DFFD2"
 			shape: "diamond"
 			size: 1.5d
@@ -301,7 +326,7 @@
 			y: -1.25d
 		}
 		{
-			dependencies: ["24F1061AFD1BFEB2"]
+			dependencies: ["3AD590B74363891F"]
 			id: "0ECFA06FC2CE4E8D"
 			shape: "diamond"
 			size: 1.5d
@@ -340,7 +365,6 @@
 		{
 			dependencies: ["0BB1BDBE8BB307E4"]
 			description: ["只需要&bT3&r器官"]
-			hide_dependent_lines: true
 			icon: {
 				Count: 1
 				id: "ad_astra_rocketed:tier_7_rocket"
@@ -365,7 +389,7 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
+			x: 2.0d
 			y: 6.0d
 		}
 		{
@@ -540,7 +564,11 @@
 		}
 		{
 			dependencies: ["3490AACD4AA62C5D"]
-			description: ["按U查看EMI来控制辐射原料和剂量，考验你数学基本功的时候到了"]
+			description: [
+				"按U查看EMI来控制辐射原料和剂量，考验你数学基本功的时候到了"
+				""
+				"在容器内保持1根以上的杆会一直提供恒定的辐射"
+			]
 			id: "63AAABA655725FB9"
 			subtitle: "小心辐射"
 			tasks: [{
@@ -559,7 +587,7 @@
 			id: "2FF39933AC2AC5BE"
 			tasks: [{
 				id: "08777A99EA37841C"
-				item: { Count: 64, id: "gtceu:wetware_printed_circuit_board" }
+				item: "gtceu:wetware_printed_circuit_board"
 				type: "item"
 			}]
 			x: 0.0d
@@ -571,7 +599,7 @@
 			id: "1817710A29037DB0"
 			tasks: [{
 				id: "07F6F650F52E203B"
-				item: { Count: 64, id: "gtocore:hydroxyapatite_ceramic_flake" }
+				item: "gtocore:hydroxyapatite_ceramic_flake"
 				type: "item"
 			}]
 			x: 0.0d
@@ -591,7 +619,7 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["49E04C29B878D3A8"]
+			dependencies: ["005535C2AAA38997"]
 			description: [
 				"霜原星的&6羊&r概率掉落，你可以用灵魂瓶抓一只回来刷"
 				""
@@ -607,7 +635,7 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["3490AACD4AA62C5D"]
+			dependencies: ["228B283B5477879B"]
 			description: ["很好，我想你懂要做什么"]
 			id: "0A7AD87999A0DDF5"
 			shape: "hexagon"
@@ -616,7 +644,7 @@
 				item: "gtceu:zpm_energy_input_hatch"
 				type: "item"
 			}]
-			x: -6.0d
+			x: -4.5d
 			y: -4.0d
 		}
 		{
@@ -788,8 +816,12 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["0007751813572404"]
-			description: ["你也可以通过&6大型虚空采矿场&r挖取&6凯金化合物&r然后处理获得"]
+			dependencies: [
+				"0007751813572404"
+				"2CBDC8B5C9C32530"
+			]
+			dependency_requirement: "one_completed"
+			description: ["可以通过&6粒子对撞&r获得，也可以通过&6大型虚空采矿场&r挖取&6凯金化合物&r然后处理获得"]
 			id: "26167AFECA871925"
 			tasks: [{
 				id: "0DD236AADC72F7E6"
@@ -875,6 +907,7 @@
 		}
 		{
 			dependencies: ["608F56E6A187940C"]
+			description: ["绝对乙醇可以通过乙醇+自循环沸石产生"]
 			id: "7E4DBCAC89579784"
 			tasks: [{
 				id: "62233B10FD891347"
@@ -885,10 +918,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: [
-				"3490AACD4AA62C5D"
-				"1156B92F11DA73B6"
-			]
+			dependencies: ["3490AACD4AA62C5D"]
 			id: "1B4F781414C7AEBA"
 			subtitle: "不需要为一个环境单开一台机器了"
 			tasks: [{
@@ -909,8 +939,8 @@
 				item: "gtocore:wood_distillation"
 				type: "item"
 			}]
-			x: -7.0d
-			y: -6.0d
+			x: -7.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["608F56E6A187940C"]
@@ -1023,6 +1053,106 @@
 			title: "欢迎来到&c零点压&r阶段"
 			x: -9.0d
 			y: -4.0d
+		}
+		{
+			dependencies: ["24F1061AFD1BFEB2"]
+			description: ["占地更大，速度更快的冶炼冷却机器，允许安装&6并行仓&r（终于！）和至多&a8个&r&6能源仓&r"]
+			icon: "gtocore:orbital_smelting_facility"
+			id: "3AD590B74363891F"
+			tasks: [{
+				id: "3DAF15E2403D857D"
+				title: "冶炼三件套"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"3490AACD4AA62C5D"
+				"7E1C35C2DE805E6B"
+			]
+			id: "52C0E5B54098C1AD"
+			shape: "hexagon"
+			tasks: [{
+				id: "0DF56BF924C780E6"
+				item: "gtceu:zpm_assembler"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["49E04C29B878D3A8"]
+			hide_dependent_lines: true
+			icon: "ad_astra:glacio_globe"
+			id: "005535C2AAA38997"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				dimension: "ad_astra:glacio"
+				icon: "ad_astra:glacio_globe"
+				id: "273A98417DF1C619"
+				title: "&d访问霜原星"
+				type: "dimension"
+			}]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["228B283B5477879B"]
+			hide_dependent_lines: true
+			id: "5B83B53046A06AFE"
+			tasks: [
+				{
+					id: "6600E2B014111C97"
+					item: "gtceu:zpm_emitter"
+					type: "item"
+				}
+				{
+					id: "3ED93D9381303D48"
+					item: "gtceu:zpm_sensor"
+					type: "item"
+				}
+				{
+					id: "68D5F5B2276C25C5"
+					item: "gtceu:zpm_field_generator"
+					type: "item"
+				}
+			]
+			title: "&cZPM&r力场发生器，发射器和传感器"
+			x: -4.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"31F90B973A779017"
+				"0B7A508B2670C9C2"
+				"0C85F6611B7A1FCE"
+			]
+			hide_dependent_lines: true
+			id: "49EECA793E1FF66F"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "5DDDA7609E78FB32"
+				item: "gtocore:decay_hastener"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["19B07E541BE74686"]
+			id: "1585D7EF776E3E9C"
+			shape: "diamond"
+			tasks: [{
+				id: "5642F3EBE81E7FCE"
+				item: "gtocore:integrated_ore_processor"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 10.0d
 		}
 	]
 	subtitle: ["Tier7-ZPM"]

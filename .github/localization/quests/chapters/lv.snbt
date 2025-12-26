@@ -6,14 +6,40 @@
 	group: "2A1218851E38A2EE"
 	icon: "gtceu:electric_blast_furnace"
 	id: "4015C56C0D562D25"
-	images: [{
-		height: 1.0d
-		image: "botania:block/alfheim_portal_swirl"
-		rotation: 45.0d
-		width: 1.0d
-		x: -4.5d
-		y: 4.0d
-	}]
+	images: [
+		{
+			height: 1.0d
+			image: "botania:block/alfheim_portal_swirl"
+			rotation: 45.0d
+			width: 1.0d
+			x: -4.5d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "gtocore:block/spacetime_assembly_line_casing"
+			rotation: 45.0d
+			width: 1.0d
+			x: -1.0d
+			y: 8.0d
+		}
+		{
+			height: 1.0d
+			image: "gtocore:block/spacetime_assembly_line_casing"
+			rotation: 45.0d
+			width: 1.0d
+			x: -1.0d
+			y: 6.5d
+		}
+		{
+			height: 1.0d
+			image: "gtocore:block/spacetime_assembly_line_casing"
+			rotation: 45.0d
+			width: 1.0d
+			x: 6.5d
+			y: 8.0d
+		}
+	]
 	order_index: 3
 	quest_links: [
 		{
@@ -114,6 +140,7 @@
 			dependencies: ["1D40D24D6870493D"]
 			description: ["{gto.lv.quests.03703EA18C3C67A8.description0}"]
 			id: "03703EA18C3C67A8"
+			shape: "diamond"
 			subtitle: "{gto.lv.quests.03703EA18C3C67A8.subtitle}"
 			tasks: [{
 				id: "0DEB9B2B852B3B6E"
@@ -127,10 +154,8 @@
 			dependencies: ["5FBCB0C7F914D814"]
 			description: [
 				"{gto.lv.quests.0D761DF6EE1B3602.description0}"
+				""
 				"{gto.lv.quests.0D761DF6EE1B3602.description1}"
-				"{gto.lv.quests.0D761DF6EE1B3602.description2}"
-				"{gto.lv.quests.0D761DF6EE1B3602.description3}"
-				"{gto.lv.quests.0D761DF6EE1B3602.description4}"
 			]
 			id: "0D761DF6EE1B3602"
 			shape: "hexagon"
@@ -277,6 +302,8 @@
 				"{gto.lv.quests.2D899AFE07E20FEF.description1}"
 				""
 				"{gto.lv.quests.2D899AFE07E20FEF.description2}"
+				""
+				"{gto.lv.quests.2D899AFE07E20FEF.description3}"
 			]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
@@ -326,12 +353,6 @@
 					disable_toast: true
 					id: "280D0B5D4340A2C2"
 					item: "gtceu:lv_output_bus"
-					type: "item"
-				}
-				{
-					disable_toast: true
-					id: "0613053A038D110B"
-					item: "gtceu:lv_output_hatch"
 					type: "item"
 				}
 				{
@@ -393,7 +414,7 @@
 			]
 			id: "68EFF1609132BDD4"
 			rewards: [{
-				count: 64
+				count: 8
 				id: "5738F37EA29D662F"
 				item: "gtceu:aluminium_ingot"
 				type: "item"
@@ -417,6 +438,7 @@
 			description: ["{gto.lv.quests.5B8151CC61AAAE12.description0}"]
 			hide_dependency_lines: true
 			id: "5B8151CC61AAAE12"
+			shape: "hexagon"
 			subtitle: "{gto.lv.quests.5B8151CC61AAAE12.subtitle}"
 			tasks: [{
 				id: "3727C561E7DC1878"
@@ -477,8 +499,13 @@
 		}
 		{
 			dependencies: ["7392F240AD330C1A"]
-			description: ["{gto.lv.quests.7E061DC16432D549.description0}"]
+			description: [
+				"{gto.lv.quests.7E061DC16432D549.description0}"
+				""
+				"{gto.lv.quests.7E061DC16432D549.description1}"
+			]
 			id: "7E061DC16432D549"
+			shape: "hexagon"
 			subtitle: "{gto.lv.quests.7E061DC16432D549.subtitle}"
 			tasks: [{
 				id: "0520326A0658F3D5"
@@ -504,7 +531,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: 3.25d
+			y: 3.5d
 		}
 		{
 			dependencies: [
@@ -519,7 +546,7 @@
 			id: "6BB3386725B228D5"
 			rewards: [
 				{
-					count: 8
+					count: 2
 					id: "46E1E95A13B10F6E"
 					item: "gtceu:good_electronic_circuit"
 					type: "item"
@@ -639,6 +666,7 @@
 			]
 			hide_dependency_lines: true
 			id: "422259B2C415401D"
+			shape: "hexagon"
 			subtitle: "{gto.lv.quests.422259B2C415401D.subtitle}"
 			tasks: [{
 				id: "703EB635E18DD303"
@@ -666,7 +694,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: 6.5d
+			y: 9.5d
 		}
 		{
 			dependencies: [
@@ -679,6 +707,8 @@
 				"{gto.lv.quests.29896685477AA469.description1}"
 			]
 			id: "29896685477AA469"
+			shape: "hexagon"
+			size: 1.0d
 			subtitle: "{gto.lv.quests.29896685477AA469.subtitle}"
 			tasks: [{
 				id: "3604117704374463"
@@ -686,7 +716,7 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: 5.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["06534664971F6E68"]
@@ -702,8 +732,8 @@
 				item: "gtceu:manganese_phosphide_ingot"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 5.0d
+			x: 4.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["33B01E889EE7E990"]
@@ -713,6 +743,7 @@
 				"{gto.lv.quests.4C535A516D8551F5.description1}"
 			]
 			id: "4C535A516D8551F5"
+			optional: true
 			subtitle: "{gto.lv.quests.4C535A516D8551F5.subtitle}"
 			tasks: [{
 				id: "47984D9F50F2EB59"
@@ -747,6 +778,8 @@
 				"{gto.lv.quests.2316EB804D47C3A4.description0}"
 				""
 				"{gto.lv.quests.2316EB804D47C3A4.description1}"
+				""
+				"{gto.lv.quests.2316EB804D47C3A4.description2}"
 			]
 			id: "2316EB804D47C3A4"
 			shape: "hexagon"
@@ -975,10 +1008,9 @@
 		{
 			dependencies: [
 				"561F5AACF437E7C5"
-				"7E061DC16432D549"
+				"4020AA9E7A6EDA60"
 			]
 			description: ["{gto.lv.quests.2FC66D6FAFF73E31.description0}"]
-			hide_dependency_lines: true
 			icon: "gtceu:phenol_bucket"
 			id: "2FC66D6FAFF73E31"
 			tasks: [
@@ -1078,6 +1110,7 @@
 			description: ["{gto.lv.quests.7FD151D808A41D6C.description0}"]
 			hide_dependency_lines: true
 			id: "7FD151D808A41D6C"
+			optional: true
 			shape: "hexagon"
 			size: 1.5d
 			subtitle: "{gto.lv.quests.7FD151D808A41D6C.subtitle}"
@@ -1100,6 +1133,7 @@
 			]
 			hide_dependency_lines: true
 			id: "0F5CFFD0108CC61B"
+			optional: true
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
@@ -1195,7 +1229,7 @@
 			]
 			id: "7392F240AD330C1A"
 			rewards: [{
-				count: 16
+				count: 8
 				id: "039462C708D5F736"
 				item: "gtceu:lv_electric_motor"
 				type: "item"
@@ -1226,7 +1260,6 @@
 			dependencies: ["2B9062A5F939A843"]
 			id: "5FBCB0C7F914D814"
 			rewards: [{
-				count: 4
 				id: "031B2A1BA362AE0B"
 				item: "gtceu:lv_electric_piston"
 				type: "item"
@@ -1243,7 +1276,6 @@
 			dependencies: ["578B710BA08FD299"]
 			id: "1D40D24D6870493D"
 			rewards: [{
-				count: 4
 				id: "3DC2E68FF3056469"
 				item: "gtceu:lv_electric_pump"
 				type: "item"
@@ -1275,7 +1307,6 @@
 			]
 			id: "2685D515096F5B28"
 			rewards: [{
-				count: 4
 				id: "6B688CFA68EE441D"
 				item: "gtceu:lv_robot_arm"
 				type: "item"
@@ -1292,7 +1323,6 @@
 			dependencies: ["7392F240AD330C1A"]
 			id: "14285E8F662204AE"
 			rewards: [{
-				count: 4
 				id: "2BC08EBF106CECAB"
 				item: "gtceu:lv_conveyor_module"
 				type: "item"
@@ -1436,6 +1466,7 @@
 				"072F7B0A69F0DB7A"
 				"707FE9ADE3861C97"
 				"2BE979586DBE34BC"
+				"4ECCD5C54FE7F706"
 			]
 			description: [
 				"{gto.lv.quests.35FD16B1992A2576.description0}"
@@ -1478,7 +1509,7 @@
 				type: "item"
 			}]
 			x: -4.5d
-			y: 2.5d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -1487,14 +1518,13 @@
 			]
 			hide_dependency_lines: true
 			id: "7643029900C2F8B3"
-			shape: "hexagon"
 			tasks: [{
 				id: "3F4DD982D71636FC"
 				item: "gtocore:lv_unpacker"
 				type: "item"
 			}]
 			x: -6.0d
-			y: 2.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["14E5EF3DA1193B6F"]
@@ -1524,7 +1554,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: -5.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["7392F240AD330C1A"]
@@ -1537,7 +1567,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: -4.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["06534664971F6E68"]
@@ -1581,13 +1611,14 @@
 				item: "gtocore:steel_field_generator_casing"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 6.5d
+			x: 6.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["707FE9ADE3861C97"]
 			description: ["{gto.lv.quests.24E66A5D4892198F.description0}"]
 			id: "24E66A5D4892198F"
+			shape: "diamond"
 			subtitle: "{gto.lv.quests.24E66A5D4892198F.subtitle}"
 			tasks: [{
 				id: "45B79BB705AC0F10"
@@ -1622,7 +1653,7 @@
 				item: "gtceu:lv_energy_output_hatch"
 				type: "item"
 			}]
-			x: -1.0d
+			x: -2.0d
 			y: 6.5d
 		}
 		{
@@ -1631,6 +1662,7 @@
 				"4ECCD5C54FE7F706"
 			]
 			id: "3353A95BCFD955F1"
+			optional: true
 			tasks: [{
 				id: "737B9FF9BCEB1630"
 				item: "gtocore:steam_pump"
@@ -1649,7 +1681,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: 5.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["7392F240AD330C1A"]
@@ -1840,7 +1872,7 @@
 			}]
 			title: "{gto.lv.quests.7F65A1C533ED1C3B.title}"
 			x: 6.5d
-			y: 6.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["6A9DFD965CA33D75"]
@@ -1857,7 +1889,7 @@
 				item: "gtocore:lv_power_amplifiers"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -1.0d
 			y: 6.5d
 		}
 		{
@@ -2128,6 +2160,7 @@
 				"{gto.lv.quests.7EA226054696AA3F.description2}"
 			]
 			id: "7EA226054696AA3F"
+			optional: true
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
@@ -2147,8 +2180,8 @@
 				item: "gtocore:gas_compressor"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 6.5d
+			x: 4.0d
+			y: 7.5d
 		}
 		{
 			dependencies: [
@@ -2176,7 +2209,7 @@
 			]
 			title: "{gto.lv.quests.3B444EF8E5D3C52D.title}"
 			x: 5.0d
-			y: 5.0d
+			y: 6.5d
 		}
 		{
 			dependencies: [
@@ -2275,6 +2308,7 @@
 				item: "gtceu:good_electronic_circuit"
 				type: "item"
 			}]
+			shape: "octagon"
 			tasks: [{
 				id: "1A502E26BFA7552B"
 				type: "checkmark"
@@ -2293,13 +2327,13 @@
 			id: "2EE147D398EEC675"
 			rewards: [
 				{
-					count: 32
+					count: 24
 					id: "51200E0DB6D119E3"
 					item: "gtceu:lv_electric_motor"
 					type: "item"
 				}
 				{
-					count: 4
+					count: 8
 					id: "6EF92F41CB7C3408"
 					item: "gtceu:lv_conveyor_module"
 					type: "item"
@@ -2311,12 +2345,19 @@
 					type: "item"
 				}
 				{
-					count: 4
+					count: 8
 					id: "2416D8C40FB24DA3"
 					item: "gtceu:lv_robot_arm"
 					type: "item"
 				}
+				{
+					count: 4
+					id: "3F264C61FFA104EF"
+					item: "gtceu:lv_electric_pump"
+					type: "item"
+				}
 			]
+			shape: "octagon"
 			tasks: [{
 				id: "0F294ACB2B398A14"
 				type: "checkmark"
@@ -2339,6 +2380,7 @@
 				item: "gtceu:aluminium_ingot"
 				type: "item"
 			}]
+			shape: "octagon"
 			tasks: [{
 				id: "05BDF541ED0D3735"
 				type: "checkmark"
@@ -2346,6 +2388,227 @@
 			title: "{gto.lv.quests.2C91F5919FE7444D.title}"
 			x: 6.5d
 			y: 2.0d
+		}
+		{
+			dependencies: [
+				"4AF39FF336EA1BF4"
+				"1FCF7BF494F483B4"
+			]
+			description: ["{gto.lv.quests.389D61CE9E799725.description0}"]
+			id: "389D61CE9E799725"
+			rewards: [{
+				id: "354671ADCF4F585E"
+				item: {
+					Count: 1
+					id: "ae2:portable_item_cell_4k"
+					tag: {
+						internalCurrentPower: 20000.0d
+					}
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "{gto.lv.quests.389D61CE9E799725.subtitle}"
+			tasks: [
+				{
+					id: "5B8F0331ED91AA12"
+					item: "gtocore:speed_upgrade_module"
+					type: "item"
+				}
+				{
+					id: "3845A732B77CD412"
+					item: "gtocore:energy_upgrade_module"
+					type: "item"
+				}
+			]
+			title: "{gto.lv.quests.389D61CE9E799725.title}"
+			x: -1.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["29896685477AA469"]
+			description: [
+				"{gto.lv.quests.22A3C58D1FDF2221.description0}"
+				""
+				"[\"\", {\"translate\": \"gto.lv.quests.22A3C58D1FDF2221.description1.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"5C62ECF9AC84E023\"}, \"translate\": \"gto.lv.quests.22A3C58D1FDF2221.description1.rich_text1\"}, {\"translate\": \"gto.lv.quests.22A3C58D1FDF2221.description1.rich_text2\"}]"
+			]
+			icon: "gtocore:wireless_charger"
+			id: "22A3C58D1FDF2221"
+			shape: "diamond"
+			tasks: [
+				{
+					id: "03051582E135CA6B"
+					item: "gtocore:wireless_charger"
+					type: "item"
+				}
+				{
+					id: "01CA22B63923C6A4"
+					item: "gtocore:wireless_charger_cover"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["29896685477AA469"]
+			description: ["{gto.lv.quests.4C1BD3400EEFEB7C.description0}"]
+			id: "4C1BD3400EEFEB7C"
+			tasks: [{
+				id: "2354933E12FD361A"
+				item: "gtceu:lv_dual_input_hatch"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["072F7B0A69F0DB7A"]
+			description: [
+				"{gto.lv.quests.2A893BFDB41B7CFC.description0}"
+				""
+				"{gto.lv.quests.2A893BFDB41B7CFC.description1}"
+			]
+			id: "2A893BFDB41B7CFC"
+			tasks: [{
+				id: "3C8AC84213140060"
+				item: "gtceu:lv_laser_engraver"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["745B1AE1F523FD78"]
+			description: ["{gto.lv.quests.48D534B94140861E.description0}"]
+			id: "48D534B94140861E"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "136953536D7AA08C"
+				item: "gtceu:lv_diode"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7E061DC16432D549"]
+			description: [
+				"{gto.lv.quests.4020AA9E7A6EDA60.description0}"
+				""
+				"{gto.lv.quests.4020AA9E7A6EDA60.description1}"
+				""
+				"{gto.lv.quests.4020AA9E7A6EDA60.description2}"
+				""
+				"{gto.lv.quests.4020AA9E7A6EDA60.description3}"
+			]
+			hide_dependency_lines: true
+			icon: "gtceu:wetware_printed_circuit_board"
+			id: "4020AA9E7A6EDA60"
+			tasks: [{
+				id: "2474E1F2814C7E56"
+				type: "checkmark"
+			}]
+			title: "{gto.lv.quests.4020AA9E7A6EDA60.title}"
+			x: -9.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"33B01E889EE7E990"
+				"18E057F31DDC4065"
+			]
+			hide_until_deps_visible: true
+			icon: "gtceu:lv_electric_motor"
+			id: "031D403E32636798"
+			rewards: [
+				{
+					count: 12
+					id: "7D8AEBC89CFF5EFA"
+					item: "gtceu:lv_electric_motor"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "141036F6065046B5"
+					item: "gtceu:lv_conveyor_module"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "42377463BE627DAF"
+					item: "gtceu:lv_electric_piston"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6FC9C1603B2A3D02"
+					item: "gtceu:lv_robot_arm"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1DCD58C377EDC6C5"
+					item: "gtceu:lv_electric_pump"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "208BD19E0CD4E668"
+				type: "checkmark"
+			}]
+			title: "{gto.lv.quests.031D403E32636798.title}"
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"68EFF1609132BDD4"
+				"18E057F31DDC4065"
+			]
+			hide_until_deps_visible: true
+			icon: "gtceu:aluminium_ingot"
+			id: "72844914477AB61B"
+			rewards: [{
+				count: 56
+				id: "7F61C4E2EF9A79BC"
+				item: "gtceu:aluminium_ingot"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "1193E9ED4CFD963A"
+				type: "checkmark"
+			}]
+			title: "{gto.lv.quests.72844914477AB61B.title}"
+			x: 6.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"6BB3386725B228D5"
+				"18E057F31DDC4065"
+			]
+			hide_until_deps_visible: true
+			icon: "gtceu:good_electronic_circuit"
+			id: "78D71D97BEE01E8F"
+			rewards: [{
+				count: 6
+				id: "03D75D08E635470D"
+				item: "gtceu:good_electronic_circuit"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "32A5824BC822AD5D"
+				type: "checkmark"
+			}]
+			title: "{gto.lv.quests.78D71D97BEE01E8F.title}"
+			x: -4.0d
+			y: 6.5d
 		}
 	]
 	subtitle: ["{gto.lv.subtitle0}"]

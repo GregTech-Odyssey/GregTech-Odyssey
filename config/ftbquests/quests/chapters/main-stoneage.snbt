@@ -383,6 +383,7 @@
 				{
 					id: "34B42898A35F1402"
 					item: "sophisticatedbackpacks:backpack"
+					team_reward: false
 					type: "item"
 				}
 				{
@@ -412,7 +413,7 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["4DC482C16035F261"]
+			dependencies: ["561D79DE960A034D"]
 			description: [
 				"找找看附近有趣的东西，记得用魔力充能嗷！"
 				""
@@ -435,6 +436,7 @@
 						mana: 500000
 					}
 				}
+				team_reward: false
 				type: "item"
 			}]
 			size: 1.0d
@@ -447,8 +449,8 @@
 				type: "item"
 			}]
 			title: "挖穿地心！"
-			x: 6.5d
-			y: -3.5d
+			x: 5.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["30D4CC9142D59DBD"]
@@ -544,6 +546,7 @@
 							HideFlags: 2
 						}
 					}
+					team_reward: false
 					type: "item"
 				}
 				{
@@ -678,6 +681,7 @@
 							HideFlags: 2
 						}
 					}
+					team_reward: false
 					type: "item"
 				}
 				{
@@ -906,6 +910,7 @@
 							HideFlags: 2
 						}
 					}
+					team_reward: false
 					type: "item"
 				}
 				{
@@ -931,6 +936,7 @@
 							RepairCost: 1
 						}
 					}
+					team_reward: false
 					type: "item"
 				}
 				{
@@ -948,6 +954,7 @@
 							HideFlags: 2
 						}
 					}
+					team_reward: false
 					type: "item"
 				}
 				{
@@ -1060,6 +1067,7 @@
 							HideFlags: 2
 						}
 					}
+					team_reward: false
 					type: "item"
 				}
 				{
@@ -1077,6 +1085,7 @@
 							HideFlags: 2
 						}
 					}
+					team_reward: false
 					type: "item"
 				}
 				{
@@ -1100,6 +1109,7 @@
 							HideFlags: 2
 						}
 					}
+					team_reward: false
 					type: "item"
 				}
 				{
@@ -1123,6 +1133,7 @@
 							HideFlags: 2
 						}
 					}
+					team_reward: false
 					type: "item"
 				}
 				{
@@ -1142,6 +1153,7 @@
 							HideFlags: 2
 						}
 					}
+					team_reward: false
 					type: "item"
 				}
 				{
@@ -1161,6 +1173,7 @@
 							HideFlags: 2
 						}
 					}
+					team_reward: false
 					type: "item"
 				}
 				{
@@ -1178,6 +1191,7 @@
 							HideFlags: 2
 						}
 					}
+					team_reward: false
 					type: "item"
 				}
 			]
@@ -1289,7 +1303,7 @@
 			description: [
 				"——就是把他们烧掉"
 				""
-				"现在你没办法获得矿物的副产物"
+				"现在你&c没办法&r&e增产矿物&r，也&c没办法&r获得矿物的&e副产物&r"
 				""
 				"等时机成熟，你会搭建一套简易的矿物处理产线！"
 			]
@@ -1476,10 +1490,7 @@
 			y: -1.5d
 		}
 		{
-			dependencies: [
-				"12116F27AB89BB58"
-				"561D79DE960A034D"
-			]
+			dependencies: ["12116F27AB89BB58"]
 			description: [
 				"&6简易合成终端&r可以取出相邻容器的物品，当作前期的AE"
 				""
@@ -1502,7 +1513,7 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: 3.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["45C8A2DF9C0E5473"]
@@ -1919,12 +1930,16 @@
 				}
 				type: "item"
 			}]
-			x: 8.5d
+			x: 8.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["114AB458EFA11202"]
-			description: ["你可以使用&e农夫乐事&r模组的&6砧板&r获得它，在这里你不能徒手分解花朵！"]
+			description: [
+				"你可以使用&e农夫乐事&r模组的&6砧板&r获得它，在这里你不能徒手分解花朵！"
+				""
+				"&o&7&m0.5.2版本可以&r"
+			]
 			hide_dependency_lines: true
 			id: "07169625BC595BD3"
 			rewards: [{
@@ -2067,7 +2082,9 @@
 				""
 				"包含魔法，神化，食物以及一些其他东西"
 				""
-				"&e魔法在到达UEV前并不是必选项，你只需要准备一个魔力池即可。&r不过发展魔法能够极大的提升你在科技线中的体验，你可以自行选择"
+				"&e魔法在到达LuV前并不是必选项，你只需要准备一个魔力池即可。&r不过发展魔法能够极大的提升你在科技线中的体验，&o沉淀总是有所回报的"
+				"{@pagebreak}"
+				"简单提一下魔法在主线中的应用：HV之前只需魔力池做超导体，HV需要魔力钢做样板更好的配方，需要开精灵门做源质钢做样板供应器更好的配方，LuV需要开门拿精灵玻璃做精灵透镜（必选），后续有部分超导体合成配方；EV做符文可以做下界之星更好的配方，UHV开始需要用到盖亚钢和盖亚魂钢，UEV开始大量使用盖亚魂，准备好盖亚魂循环"
 			]
 			icon: {
 				Count: 1
@@ -2092,6 +2109,7 @@
 				"24C53B5FF515ACAC"
 				"056EC4E6FAF614B7"
 			]
+			description: ["简单模式下，一些重要节点会赠送大量补助"]
 			hide_until_deps_visible: true
 			icon: "gtceu:bronze_ingot"
 			id: "41F8B4785DF68920"
@@ -2142,6 +2160,7 @@
 					type: "item"
 				}
 			]
+			shape: "octagon"
 			subtitle: "简单特供"
 			tasks: [{
 				id: "5972E40DA50C965A"
@@ -2149,13 +2168,14 @@
 			}]
 			title: "青铜补助&a（简单）&r"
 			x: 0.0d
-			y: 10.0d
+			y: 10.5d
 		}
 		{
 			dependencies: [
 				"24C53B5FF515ACAC"
 				"18E057F31DDC4065"
 			]
+			description: ["普通模式下，一些重要节点会赠送一定补助"]
 			hide_until_deps_visible: true
 			icon: "gtceu:bronze_ingot"
 			id: "3B7A2492AD1F9B85"
@@ -2175,6 +2195,7 @@
 							Charge: 100000L
 						}
 					}
+					team_reward: false
 					type: "item"
 				}
 				{
@@ -2184,6 +2205,7 @@
 					type: "item"
 				}
 			]
+			shape: "octagon"
 			subtitle: "普通特供"
 			tasks: [{
 				id: "20E4A1BA83F87F1C"
@@ -2191,7 +2213,60 @@
 			}]
 			title: "青铜补助&e（普通）&r"
 			x: 0.0d
-			y: 10.5d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"24C53B5FF515ACAC"
+				"1FB1EC5B9CEFC2BC"
+			]
+			description: [
+				"都玩专家模式了，简单和普通的额外奖励是肯定没有的"
+				""
+				"你只有流程中少得可怜的象征性奖励可以领"
+			]
+			hide_until_deps_visible: true
+			icon: "gtceu:bronze_ingot"
+			id: "6097173C67222EC0"
+			rewards: [{
+				id: "1F3EFB3D33C6BA0A"
+				item: "gtceu:bronze_ingot"
+				type: "item"
+			}]
+			shape: "octagon"
+			subtitle: "专家没有"
+			tasks: [{
+				id: "25AD90D98C7417AA"
+				type: "checkmark"
+			}]
+			title: "青铜补助&d（专家）&r"
+			x: 0.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["561D79DE960A034D"]
+			description: [
+				"用熔炉在地上摆放一个&a3x3x3&r形状，就会自动成型为&6Jumbo Furnace熔炉&r（JF炉）"
+				""
+				"在其原料栏位放入&a27个&r熔炉可以烧制出一个物品JF炉，放入右下的槽位可以增加&e并行&r"
+				""
+				"&o&7它的性价比完爆了蒸汽时代熔炉，64并行足以满足你前期的烧炼需求。它还因为过强险些被删除"
+				""
+				"&o&m&7没有主机的多方块结构不能叫做多方块结构"
+			]
+			id: "24AD2CCEF0E48FD5"
+			shape: "diamond"
+			subtitle: "你的第一个多方块结构...真的算是吗？"
+			tasks: [{
+				icon: "jumbofurnace:jumbo_furnace"
+				id: "7DDFD5224921B6A1"
+				observe_type: 0
+				timer: 0L
+				to_observe: "jumbofurnace:jumbo_furnace"
+				type: "observation"
+			}]
+			x: 6.5d
+			y: 2.0d
 		}
 	]
 	subtitle: ["Hello World!"]

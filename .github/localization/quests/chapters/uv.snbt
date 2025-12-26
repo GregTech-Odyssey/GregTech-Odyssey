@@ -29,7 +29,7 @@
 			image: "xtonesreworked:block/bitt/12"
 			rotation: 45.0d
 			width: 1.0d
-			x: -5.0d
+			x: -2.0d
 			y: -0.5d
 		}
 		{
@@ -39,8 +39,16 @@
 			order: 1
 			rotation: 45.0d
 			width: 1.0d
-			x: -5.0d
+			x: -2.0d
 			y: -0.5d
+		}
+		{
+			height: 1.5d
+			image: "gtocore:block/spacetime_assembly_line_casing"
+			rotation: 45.0d
+			width: 1.5d
+			x: 11.0d
+			y: 3.5d
 		}
 	]
 	order_index: 10
@@ -56,14 +64,14 @@
 			id: "00F5A8E95ADC4F78"
 			linked_quest: "62402E1DBC9CF1B4"
 			shape: "diamond"
-			x: -5.0d
+			x: -2.0d
 			y: -0.5d
 		}
 		{
 			id: "6B94BC85AAE35194"
 			linked_quest: "08CDFD0BB06E9A53"
-			x: -7.5d
-			y: 4.5d
+			x: -5.0d
+			y: 3.0d
 		}
 		{
 			id: "3F5A74D278A7D471"
@@ -73,10 +81,33 @@
 			x: 11.0d
 			y: 1.5d
 		}
+		{
+			id: "384661C24E898DC8"
+			linked_quest: "72AACC1178BF7586"
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			id: "1935EFBE9E74704F"
+			linked_quest: "58EC0AFA9742164A"
+			shape: "gear"
+			size: 2.0d
+			x: -5.0d
+			y: 1.5d
+		}
+		{
+			id: "44342F441C7C0F54"
+			linked_quest: "732F3F1921B2464F"
+			x: -5.0d
+			y: 4.0d
+		}
 	]
 	quests: [
 		{
-			dependencies: ["18C29178096CBFAE"]
+			dependencies: [
+				"18C29178096CBFAE"
+				"19B07E541BE74686"
+			]
 			id: "3E458EF4819E239C"
 			shape: "hexagon"
 			size: 1.5d
@@ -86,7 +117,7 @@
 				item: "gtceu:uv_fusion_reactor"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 2.5d
 			y: 1.5d
 		}
 		{
@@ -98,7 +129,7 @@
 				item: "gtceu:uv_energy_input_hatch"
 				type: "item"
 			}]
-			x: -2.0d
+			x: 0.5d
 			y: 1.5d
 		}
 		{
@@ -185,12 +216,11 @@
 				item: "gtocore:infinity_fluid_drilling_rig"
 				type: "item"
 			}]
-			x: 5.0d
-			y: -0.5d
+			x: 6.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["52DFF4A301A510C8"]
-			description: ["{gto.uv.quests.6649D02EADC9CC9B.description0}"]
 			id: "6649D02EADC9CC9B"
 			shape: "circle"
 			tasks: [{
@@ -205,8 +235,13 @@
 			dependencies: [
 				"19B07E541BE74686"
 				"76A5DA2CCB71E96F"
+				"5A30C3831FD94E53"
 			]
-			description: ["{gto.uv.quests.78EAFECB9E9BF692.description0}"]
+			description: [
+				"{gto.uv.quests.78EAFECB9E9BF692.description0}"
+				""
+				"{gto.uv.quests.78EAFECB9E9BF692.description1}"
+			]
 			id: "78EAFECB9E9BF692"
 			shape: "gear"
 			size: 2.0d
@@ -223,6 +258,7 @@
 		{
 			dependencies: ["78EAFECB9E9BF692"]
 			id: "52EF77CC26214FBD"
+			shape: "hexagon"
 			tasks: [{
 				id: "37D126105FB1F218"
 				item: "gtocore:assembler_module"
@@ -234,6 +270,7 @@
 		{
 			dependencies: ["78EAFECB9E9BF692"]
 			id: "3A91F7CD95B427BF"
+			shape: "hexagon"
 			tasks: [{
 				id: "6E0BAA6A8AD39340"
 				item: "gtocore:resource_collection_module"
@@ -244,6 +281,11 @@
 		}
 		{
 			dependencies: ["52EF77CC26214FBD"]
+			description: [
+				"{gto.uv.quests.090EEAA64022227A.description0}"
+				""
+				"{gto.uv.quests.090EEAA64022227A.description1}"
+			]
 			id: "090EEAA64022227A"
 			tasks: [{
 				id: "5C149798CB5C6C06"
@@ -263,6 +305,7 @@
 			]
 			description: ["{gto.uv.quests.18CBBE615691E7FD.description0}"]
 			id: "18CBBE615691E7FD"
+			subtitle: "{gto.uv.quests.18CBBE615691E7FD.subtitle}"
 			tasks: [{
 				id: "437740FAC5CC7F21"
 				item: "gtocore:tcetieseaweedextract"
@@ -276,11 +319,18 @@
 			description: ["{gto.uv.quests.66CEE808FD6861B7.description0}"]
 			icon: "gtocore:unknowwater_bucket"
 			id: "66CEE808FD6861B7"
-			tasks: [{
-				id: "6A7E6AF633DFA3D3"
-				title: "{gto.uv.quests.66CEE808FD6861B7.tasks.6A7E6AF633DFA3D3.title}"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "7DF848CE628F8831"
+					item: "gtocore:unknowwater_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "492E5DF08D522633"
+					type: "checkmark"
+				}
+			]
 			x: -1.0d
 			y: 5.0d
 		}
@@ -312,8 +362,8 @@
 		}
 		{
 			dependencies: [
-				"18CBBE615691E7FD"
 				"3827DED8E3795712"
+				"18CBBE615691E7FD"
 			]
 			description: ["{gto.uv.quests.148FCA7FF10773DE.description0}"]
 			icon: "gtocore:biological_cells"
@@ -321,9 +371,9 @@
 			shape: "hexagon"
 			size: 1.2d
 			tasks: [{
-				id: "10715557F1AC875F"
-				title: "{gto.uv.quests.148FCA7FF10773DE.tasks.10715557F1AC875F.title}"
-				type: "checkmark"
+				id: "39CA46D98F7703B0"
+				item: "gtocore:biological_cells"
+				type: "item"
 			}]
 			x: 3.0d
 			y: 6.5d
@@ -335,21 +385,38 @@
 			]
 			icon: "gtocore:alien_algae_ore"
 			id: "1A71DC88DFE4F126"
-			tasks: [{
-				id: "18F3C53DAFE1B05D"
-				title: "{gto.uv.quests.1A71DC88DFE4F126.tasks.18F3C53DAFE1B05D.title}"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "75D11D20244891FD"
+					item: "gtocore:alien_algae_ore"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6AF6214F738B3996"
+					type: "checkmark"
+				}
+			]
 			title: "{gto.uv.quests.1A71DC88DFE4F126.title}"
 			x: -1.0d
 			y: 8.0d
 		}
 		{
-			dependencies: ["78EAFECB9E9BF692"]
-			description: ["{gto.uv.quests.6512444A4F2D4775.description0}"]
+			dependencies: [
+				"78EAFECB9E9BF692"
+				"72AACC1178BF7586"
+			]
+			description: [
+				"{gto.uv.quests.6512444A4F2D4775.description0}"
+				""
+				"{gto.uv.quests.6512444A4F2D4775.description1}"
+			]
 			id: "6512444A4F2D4775"
+			shape: "hexagon"
+			size: 1.5d
 			tasks: [{
 				dimension: "gtocore:barnarda_c"
+				icon: "ad_astra:barnarda_c_globe"
 				id: "2F45C36182E62A1A"
 				type: "dimension"
 			}]
@@ -359,8 +426,9 @@
 		}
 		{
 			dependencies: [
-				"78EAFECB9E9BF692"
 				"08CDFD0BB06E9A53"
+				"732F3F1921B2464F"
+				"4873D7E77C2B7EB8"
 			]
 			description: ["{gto.uv.quests.5A30C3831FD94E53.description0}"]
 			id: "5A30C3831FD94E53"
@@ -370,8 +438,8 @@
 				item: "gtocore:nanotube_spool"
 				type: "item"
 			}]
-			x: -7.5d
-			y: 6.5d
+			x: -5.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["6689ABA7FD7B78E7"]
@@ -401,7 +469,12 @@
 			y: 10.5d
 		}
 		{
-			dependencies: ["0779DE2BB4953181"]
+			dependencies: [
+				"4A5C2B5AA1CCEB07"
+				"0779DE2BB4953181"
+			]
+			dependency_requirement: "one_completed"
+			description: ["{gto.uv.quests.3C8DA30CF0B2244F.description0}"]
 			id: "3C8DA30CF0B2244F"
 			tasks: [{
 				id: "421E726066C8D3DF"
@@ -455,11 +528,19 @@
 			hide_dependency_lines: true
 			icon: "gtocore:polyimide_bucket"
 			id: "03EA95C6571C32BA"
-			tasks: [{
-				id: "689554FADE2FEC02"
-				title: "{gto.uv.quests.03EA95C6571C32BA.tasks.689554FADE2FEC02.title}"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "689554FADE2FEC02"
+					title: "{gto.uv.quests.03EA95C6571C32BA.tasks.689554FADE2FEC02.title}"
+					type: "checkmark"
+				}
+				{
+					id: "6845F34FF8EF50DF"
+					item: "gtocore:polyimide_bucket"
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: 5.0d
 			y: 14.5d
 		}
@@ -484,7 +565,6 @@
 			dependencies: [
 				"1F1611C024CAB8E7"
 				"4A43E5F70EE85A07"
-				"48A5691EEBC58CD6"
 			]
 			id: "35A7F1F3B05AB66D"
 			shape: "hexagon"
@@ -528,16 +608,30 @@
 		}
 		{
 			dependencies: ["256F90AFB461107E"]
-			description: ["{gto.uv.quests.4A43E5F70EE85A07.description0}"]
+			description: [
+				"{gto.uv.quests.4A43E5F70EE85A07.description0}"
+				""
+				"{gto.uv.quests.4A43E5F70EE85A07.description1}"
+				""
+				"{gto.uv.quests.4A43E5F70EE85A07.description2}"
+			]
 			hide_dependency_lines: true
+			icon: "gtocore:circuit_assembly_line"
 			id: "4A43E5F70EE85A07"
 			shape: "hexagon"
 			size: 1.5d
-			tasks: [{
-				id: "7FC245424D408556"
-				item: "gtocore:circuit_assembly_line"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "7FC245424D408556"
+					item: "gtocore:circuit_assembly_line"
+					type: "item"
+				}
+				{
+					id: "2CC672850B0D48BF"
+					item: "gtocore:precision_circuit_assembly_robot_mk1"
+					type: "item"
+				}
+			]
 			x: 11.0d
 			y: 10.5d
 		}
@@ -586,33 +680,34 @@
 			y: 8.5d
 		}
 		{
-			dependencies: ["40F9120E5CDC0002"]
 			description: [
 				"{gto.uv.quests.0779DE2BB4953181.description0}"
 				""
 				"{gto.uv.quests.0779DE2BB4953181.description1}"
+				""
+				"{gto.uv.quests.0779DE2BB4953181.description2}"
 			]
+			hide_dependent_lines: true
 			id: "0779DE2BB4953181"
+			invisible: true
+			optional: true
 			tasks: [{
 				id: "77E5E1FF3BF96FFD"
-				item: {
-					Count: 64
-					id: "gtocore:tellurate_ceramics_flake"
-				}
+				item: "gtocore:tellurate_ceramics_flake"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 12.5d
+			x: 11.0d
+			y: 14.5d
 		}
 		{
-			dependencies: ["0B7507528A43F25E"]
+			dependencies: ["7DD3E20C1AF38823"]
 			description: [
 				"{gto.uv.quests.0AD0174C98673F5B.description0}"
 				""
 				"{gto.uv.quests.0AD0174C98673F5B.description1}"
 				""
 				"{gto.uv.quests.0AD0174C98673F5B.description2}"
-				""
+				"{@pagebreak}"
 				"{gto.uv.quests.0AD0174C98673F5B.description3}"
 				""
 				"{gto.uv.quests.0AD0174C98673F5B.description4}"
@@ -620,7 +715,10 @@
 				"{gto.uv.quests.0AD0174C98673F5B.description5}"
 				""
 				"{gto.uv.quests.0AD0174C98673F5B.description6}"
+				""
+				"{gto.uv.quests.0AD0174C98673F5B.description7}"
 			]
+			hide_dependency_lines: true
 			icon: "gtocore:uv_overclock_hatch"
 			id: "0AD0174C98673F5B"
 			shape: "diamond"
@@ -661,12 +759,16 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["1F94544576D30A92"]
+			dependencies: [
+				"1F94544576D30A92"
+				"18CBBE615691E7FD"
+			]
 			description: [
 				"{gto.uv.quests.3827DED8E3795712.description0}"
 				""
 				"{gto.uv.quests.3827DED8E3795712.description1}"
 			]
+			hide_dependency_lines: true
 			id: "3827DED8E3795712"
 			tasks: [{
 				id: "6412C2554C262EF9"
@@ -707,18 +809,16 @@
 		}
 		{
 			dependencies: ["39289365D111777C"]
+			hide_dependency_lines: true
 			id: "788C1B4BAD639A77"
 			shape: "hexagon"
 			tasks: [{
 				id: "7368B54DFC67AF0C"
-				item: {
-					Count: 64
-					id: "gtocore:extreme_temperature_fluctuation_purification_unit"
-				}
+				item: "gtocore:extreme_temperature_fluctuation_purification_unit"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 8.5d
+			x: 2.0d
+			y: 9.5d
 		}
 		{
 			dependencies: ["3A8BF759CDBFB672"]
@@ -726,14 +826,11 @@
 			shape: "hexagon"
 			tasks: [{
 				id: "27833A8AE112A5E1"
-				item: {
-					Count: 64
-					id: "gtocore:ph_neutralization_purification_unit"
-				}
+				item: "gtocore:ph_neutralization_purification_unit"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 10.5d
+			x: 0.0d
+			y: 9.5d
 		}
 		{
 			dependencies: ["39289365D111777C"]
@@ -745,7 +842,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 10.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["256F90AFB461107E"]
@@ -770,8 +867,8 @@
 				item: "gtocore:mithril_ingot"
 				type: "item"
 			}]
-			x: -0.5d
-			y: -0.5d
+			x: 1.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["78EAFECB9E9BF692"]
@@ -786,11 +883,12 @@
 				item: "gtocore:space_elevator_power_module_1"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 4.5d
+			x: -7.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["256F90AFB461107E"]
+			description: ["{gto.uv.quests.7EF1BB4CD73A4171.description0}"]
 			id: "7EF1BB4CD73A4171"
 			shape: "diamond"
 			subtitle: "{gto.uv.quests.7EF1BB4CD73A4171.subtitle}"
@@ -799,8 +897,8 @@
 				item: "gtocore:integral_framework_uv"
 				type: "item"
 			}]
-			x: -7.5d
-			y: 1.5d
+			x: -0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["7A1E4DBA675E67FB"]
@@ -815,10 +913,7 @@
 			y: 6.0d
 		}
 		{
-			dependencies: [
-				"2544898A725CC1A3"
-				"148FCA7FF10773DE"
-			]
+			dependencies: ["148FCA7FF10773DE"]
 			hide_dependency_lines: true
 			id: "70ADA9EF977D0FF7"
 			tasks: [{
@@ -842,69 +937,8 @@
 		}
 		{
 			dependencies: [
-				"44B34806DA0FEA9A"
-				"19B07E541BE74686"
-				"3C8DA30CF0B2244F"
-			]
-			description: ["{gto.uv.quests.08DEEC16D9580930.description0}"]
-			hide_dependent_lines: true
-			id: "08DEEC16D9580930"
-			shape: "hexagon"
-			tasks: [{
-				id: "58C98F5527FB3221"
-				item: {
-					Count: 1
-					id: "gtocore:neural_matrix"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: 1.0d
-			y: 12.5d
-		}
-		{
-			dependencies: ["502F7DD0C930D5BF"]
-			description: ["{gto.uv.quests.3CBA56988C0F8E7E.description0}"]
-			id: "3CBA56988C0F8E7E"
-			subtitle: "{gto.uv.quests.3CBA56988C0F8E7E.subtitle}"
-			tasks: [
-				{
-					id: "0DC4CB1CB1874C75"
-					item: "minecraft:villager_spawn_egg"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "4843BCBB8579733A"
-					item: "minecraft:witch_spawn_egg"
-					optional_task: true
-					type: "item"
-				}
-			]
-			title: "{gto.uv.quests.3CBA56988C0F8E7E.title}"
-			x: -3.0d
-			y: 14.5d
-		}
-		{
-			dependencies: [
-				"0099AE8ACBB72951"
-				"06DF372F16F1A5CA"
-				"2CC625C1FFDB9AFF"
-			]
-			id: "44B34806DA0FEA9A"
-			subtitle: "{gto.uv.quests.44B34806DA0FEA9A.subtitle}"
-			tasks: [{
-				id: "4758CF4632B286F7"
-				item: "gtocore:super_cerebrum"
-				type: "item"
-			}]
-			x: -1.0d
-			y: 12.5d
-		}
-		{
-			dependencies: [
-				"44B34806DA0FEA9A"
 				"6E673337DD550808"
+				"2CC625C1FFDB9AFF"
 			]
 			description: ["{gto.uv.quests.67050CC889ABB614.description0}"]
 			hide_dependency_lines: true
@@ -915,8 +949,8 @@
 				item: "gtocore:wetware_soc"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 14.5d
+			x: 1.0d
+			y: 12.5d
 		}
 		{
 			dependencies: ["67050CC889ABB614"]
@@ -936,18 +970,19 @@
 				item: "gtocore:supercomputing_center"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 14.5d
+			x: 3.0d
+			y: 12.5d
 		}
 		{
-			dependencies: ["3CBA56988C0F8E7E"]
+			dependencies: ["502F7DD0C930D5BF"]
+			description: ["{gto.uv.quests.2CC625C1FFDB9AFF.description0}"]
 			id: "2CC625C1FFDB9AFF"
 			tasks: [{
 				id: "2B855FB5823EA902"
 				item: "gtocore:cerebrum"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -1.0d
 			y: 12.5d
 		}
 		{
@@ -972,8 +1007,8 @@
 				item: "gtocore:orichalcum_ingot"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -0.5d
+			x: 3.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["76A5DA2CCB71E96F"]
@@ -984,18 +1019,18 @@
 				""
 				"{gto.uv.quests.063FEB76DD30E9B3.description2}"
 				""
-				"{gto.uv.quests.063FEB76DD30E9B3.description3}"
+				"[\"\", {\"translate\": \"gto.uv.quests.063FEB76DD30E9B3.description3.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"0AD0174C98673F5B\"}, \"translate\": \"gto.uv.quests.063FEB76DD30E9B3.description3.rich_text1\"}]"
 			]
 			id: "063FEB76DD30E9B3"
 			shape: "gear"
-			size: 2.0d
+			size: 1.5d
 			tasks: [{
 				id: "6B84E773E9E0F035"
 				item: "gtocore:nanites_integrated_processing_center"
 				type: "item"
 			}]
 			x: -5.0d
-			y: 12.5d
+			y: 13.0d
 		}
 		{
 			dependencies: ["063FEB76DD30E9B3"]
@@ -1003,6 +1038,8 @@
 				"{gto.uv.quests.66473B14503626FD.description0}"
 				""
 				"{gto.uv.quests.66473B14503626FD.description1}"
+				""
+				"{gto.uv.quests.66473B14503626FD.description2}"
 			]
 			id: "66473B14503626FD"
 			subtitle: "{gto.uv.quests.66473B14503626FD.subtitle}"
@@ -1025,8 +1062,8 @@
 				item: "gtocore:bioengineering_module"
 				type: "item"
 			}]
-			x: -6.5d
-			y: 13.5d
+			x: -3.5d
+			y: 14.0d
 		}
 		{
 			dependencies: ["063FEB76DD30E9B3"]
@@ -1043,8 +1080,8 @@
 				item: "gtocore:ore_extraction_module"
 				type: "item"
 			}]
-			x: -6.5d
-			y: 11.5d
+			x: -3.5d
+			y: 12.0d
 		}
 		{
 			dependencies: ["063FEB76DD30E9B3"]
@@ -1062,24 +1099,18 @@
 				item: "gtocore:polymer_twisting_module"
 				type: "item"
 			}]
-			x: -7.5d
-			y: 12.5d
-		}
-		{
-			dependencies: ["76A5DA2CCB71E96F"]
-			hide_dependency_lines: true
-			id: "48A5691EEBC58CD6"
-			tasks: [{
-				id: "1042C9737199C33F"
-				item: "gtocore:precision_circuit_assembly_robot_mk1"
-				type: "item"
-			}]
-			x: 9.0d
-			y: 12.5d
+			x: -2.5d
+			y: 13.0d
 		}
 		{
 			dependencies: ["5B5C82819DC2D27A"]
-			description: ["{gto.uv.quests.5343159AF8A5CBB5.description0}"]
+			description: [
+				"{gto.uv.quests.5343159AF8A5CBB5.description0}"
+				""
+				"{gto.uv.quests.5343159AF8A5CBB5.description1}"
+				""
+				"{gto.uv.quests.5343159AF8A5CBB5.description2}"
+			]
 			hide_dependency_lines: true
 			id: "5343159AF8A5CBB5"
 			tasks: [{
@@ -1088,7 +1119,7 @@
 				type: "item"
 			}]
 			x: -7.5d
-			y: 9.5d
+			y: 10.5d
 		}
 		{
 			dependencies: ["5343159AF8A5CBB5"]
@@ -1096,6 +1127,10 @@
 				"{gto.uv.quests.76A5DA2CCB71E96F.description0}"
 				""
 				"{gto.uv.quests.76A5DA2CCB71E96F.description1}"
+				""
+				"{gto.uv.quests.76A5DA2CCB71E96F.description2}"
+				""
+				"{gto.uv.quests.76A5DA2CCB71E96F.description3}"
 			]
 			id: "76A5DA2CCB71E96F"
 			shape: "gear"
@@ -1107,7 +1142,7 @@
 				type: "item"
 			}]
 			x: -5.0d
-			y: 9.5d
+			y: 10.5d
 		}
 		{
 			dependencies: ["7A1E4DBA675E67FB"]
@@ -1127,20 +1162,21 @@
 				"{gto.uv.quests.4A5C2B5AA1CCEB07.description0}"
 				""
 				"{gto.uv.quests.4A5C2B5AA1CCEB07.description1}"
+				""
+				"{gto.uv.quests.4A5C2B5AA1CCEB07.description2}"
 			]
 			id: "4A5C2B5AA1CCEB07"
 			shape: "hexagon"
-			size: 1.0d
+			size: 1.5d
 			tasks: [{
 				id: "4D72046D50C2B01D"
 				item: "gtocore:pcb_factory"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 9.5d
+			x: -1.5d
+			y: 10.5d
 		}
 		{
-			dependencies: ["44B34806DA0FEA9A"]
 			disable_toast: true
 			hide_text_until_complete: true
 			icon_scale: 0.2d
@@ -1152,8 +1188,8 @@
 				item: "gtocore:wetware_soc"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 14.5d
+			x: 3.0d
+			y: 12.5d
 		}
 		{
 			dependencies: ["0B7A508B2670C9C2"]
@@ -1175,8 +1211,132 @@
 				type: "item"
 			}]
 			title: "{gto.uv.quests.256F90AFB461107E.title}"
-			x: -5.0d
+			x: -2.0d
 			y: 1.5d
+		}
+		{
+			dependencies: ["256F90AFB461107E"]
+			description: ["{gto.uv.quests.6B602E416AB57B3C.description0}"]
+			hide_dependency_lines: true
+			id: "6B602E416AB57B3C"
+			tasks: [{
+				id: "7AF6931E2349D7DB"
+				item: "gtceu:rhenium_dust"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"2BD46F9D8A842B4A"
+				"256F90AFB461107E"
+			]
+			description: ["{gto.uv.quests.18C15CA29316062F.description0}"]
+			hide_dependency_lines: true
+			id: "18C15CA29316062F"
+			subtitle: "{gto.uv.quests.18C15CA29316062F.subtitle}"
+			tasks: [{
+				id: "623AFB9A0EB53BD8"
+				item: "gtocore:thermo_press"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["256F90AFB461107E"]
+			description: ["{gto.uv.quests.7B22A8B66A42157D.description0}"]
+			hide_dependency_lines: true
+			id: "7B22A8B66A42157D"
+			tasks: [{
+				id: "3872D2093B7E13EA"
+				item: "gtceu:bromine_bucket"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["256F90AFB461107E"]
+			description: ["{gto.uv.quests.48A1FCE89BCA6141.description0}"]
+			hide_dependency_lines: true
+			id: "48A1FCE89BCA6141"
+			tasks: [{
+				id: "398DEB097CA78423"
+				item: "gtceu:radium_dust"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"5612C7735BC4F5BC"
+				"256F90AFB461107E"
+			]
+			description: ["{gto.uv.quests.7BDD24E8C42100EC.description0}"]
+			hide_dependency_lines: true
+			id: "7BDD24E8C42100EC"
+			subtitle: "{gto.uv.quests.7BDD24E8C42100EC.subtitle}"
+			tasks: [{
+				id: "695CC9CF25F65C39"
+				item: "gtocore:fiber_extruder"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["256F90AFB461107E"]
+			hide_dependency_lines: true
+			id: "4873D7E77C2B7EB8"
+			tasks: [{
+				id: "20410913D72136FB"
+				item: "gtocore:cycloparaphenylene_bucket"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7A1E4DBA675E67FB"]
+			id: "12C51878448A5302"
+			shape: "diamond"
+			tasks: [{
+				id: "70A932B8EFDEB3C7"
+				item: "gtocore:mantle_crusher"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2CC625C1FFDB9AFF"]
+			disable_toast: true
+			icon_scale: 0.25d
+			id: "688ABD83133F885A"
+			shape: "none"
+			size: 0.25d
+			tasks: [{
+				id: "7F11E4FCA246CBEC"
+				stat: "minecraft:jump"
+				type: "stat"
+				value: 1
+			}]
+			x: 1.0d
+			y: 12.5d
+		}
+		{
+			id: "4D2ADE9E4DCB1183"
+			shape: "diamond"
+			tasks: [{
+				id: "2D5EB7ED0C6B55BE"
+				item: "gtocore:nich_computing_components"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 5.5d
 		}
 	]
 	subtitle: ["{gto.uv.subtitle0}"]

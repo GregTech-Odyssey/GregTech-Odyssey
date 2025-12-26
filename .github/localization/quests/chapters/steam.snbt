@@ -139,7 +139,7 @@
 			icon: "gtceu:bronze_ingot"
 			id: "24C53B5FF515ACAC"
 			rewards: [{
-				count: 64
+				count: 32
 				id: "7180064D9A2AA567"
 				item: "gtceu:bronze_ingot"
 				type: "item"
@@ -446,6 +446,7 @@
 			]
 			id: "32A39A427D4A3AC2"
 			rewards: [{
+				count: 4
 				id: "48BB564E8232C86F"
 				item: "minecraft:coal_block"
 				type: "item"
@@ -570,7 +571,7 @@
 			id: "27F4D9739FE33A02"
 			rewards: [
 				{
-					count: 64
+					count: 16
 					id: "2ABC438654CC3D33"
 					item: "ad_astra:steel_ingot"
 					type: "item"
@@ -956,7 +957,7 @@
 			]
 			id: "53109F7472C0B443"
 			rewards: [{
-				count: 16
+				count: 4
 				id: "6DDFC8966506C070"
 				item: "gtceu:vacuum_tube"
 				type: "item"
@@ -1021,8 +1022,9 @@
 				""
 				"{gto.steam.quests.020E8B707A8CF794.description4}"
 			]
+			hide_dependent_lines: true
 			id: "020E8B707A8CF794"
-			shape: "diamond"
+			shape: "hexagon"
 			size: 1.5d
 			subtitle: "{gto.steam.quests.020E8B707A8CF794.subtitle}"
 			tasks: [{
@@ -1031,8 +1033,8 @@
 				type: "item"
 			}]
 			title: "{gto.steam.quests.020E8B707A8CF794.title}"
-			x: 7.5d
-			y: 12.5d
+			x: 9.0d
+			y: 13.0d
 		}
 		{
 			dependencies: ["043FCD7B759853EA"]
@@ -1055,7 +1057,7 @@
 				type: "item"
 			}]
 			title: "{gto.steam.quests.411686C01CB6045F.title}"
-			x: 9.0d
+			x: 7.5d
 			y: 12.5d
 		}
 		{
@@ -1084,9 +1086,13 @@
 				"{gto.steam.quests.5660509FA09D2239.description0}"
 				""
 				"{gto.steam.quests.5660509FA09D2239.description1}"
+				""
+				"{gto.steam.quests.5660509FA09D2239.description2}"
+				""
+				"[\"\", {\"translate\": \"gto.steam.quests.5660509FA09D2239.description3.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"7C1D32B8C9895B40\"}, \"translate\": \"gto.steam.quests.5660509FA09D2239.description3.rich_text1\"}, {\"translate\": \"gto.steam.quests.5660509FA09D2239.description3.rich_text2\"}]"
 			]
 			id: "5660509FA09D2239"
-			shape: "diamond"
+			shape: "hexagon"
 			size: 1.5d
 			subtitle: "{gto.steam.quests.5660509FA09D2239.subtitle}"
 			tasks: [{
@@ -1295,6 +1301,8 @@
 				"{gto.steam.quests.5859702A2DF96727.description6}"
 				""
 				"{gto.steam.quests.5859702A2DF96727.description7}"
+				""
+				"{gto.steam.quests.5859702A2DF96727.description8}"
 			]
 			id: "5859702A2DF96727"
 			optional: true
@@ -1758,6 +1766,7 @@
 				"{gto.steam.quests.72F99B3B63217418.description3}"
 			]
 			id: "72F99B3B63217418"
+			optional: true
 			shape: "diamond"
 			subtitle: "{gto.steam.quests.72F99B3B63217418.subtitle}"
 			tasks: [{
@@ -1773,6 +1782,7 @@
 			dependencies: ["7BCD49717F8FAD65"]
 			description: ["{gto.steam.quests.0BD03513ABDC6A9C.description0}"]
 			id: "0BD03513ABDC6A9C"
+			optional: true
 			shape: "diamond"
 			tasks: [{
 				id: "50AE654E47F127C4"
@@ -1790,6 +1800,7 @@
 				"[\"\", {\"color\": \"yellow\", \"translate\": \"gto.steam.quests.1108939F9923176C.description1.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"3791F49E789E7673\"}, \"translate\": \"gto.steam.quests.1108939F9923176C.description1.rich_text1\"}, {\"color\": \"yellow\", \"translate\": \"gto.steam.quests.1108939F9923176C.description1.rich_text2\"}]"
 			]
 			id: "1108939F9923176C"
+			optional: true
 			shape: "diamond"
 			tasks: [{
 				id: "5EF6AC41E4293D2E"
@@ -1803,6 +1814,7 @@
 			dependencies: ["7BCD49717F8FAD65"]
 			description: ["{gto.steam.quests.10E17EBACB3697C9.description0}"]
 			id: "10E17EBACB3697C9"
+			optional: true
 			shape: "diamond"
 			subtitle: "{gto.steam.quests.10E17EBACB3697C9.subtitle}"
 			tasks: [{
@@ -1834,6 +1846,7 @@
 				"{gto.steam.quests.77C71C9A52ADF6A6.description1}"
 			]
 			id: "77C71C9A52ADF6A6"
+			optional: true
 			shape: "diamond"
 			tasks: [{
 				id: "026C5E9B6FB8E5D2"
@@ -1959,13 +1972,14 @@
 				item: "ad_astra:steel_ingot"
 				type: "item"
 			}]
+			shape: "octagon"
 			subtitle: "{gto.steam.quests.768C5C35D4D80AA8.subtitle}"
 			tasks: [{
 				id: "55BE46E092646D53"
 				type: "checkmark"
 			}]
 			title: "{gto.steam.quests.768C5C35D4D80AA8.title}"
-			x: 7.5d
+			x: 7.0d
 			y: 5.15d
 		}
 		{
@@ -1977,18 +1991,19 @@
 			icon: "ad_astra:steel_ingot"
 			id: "67B18FEE6862343A"
 			rewards: [{
-				count: 128
+				count: 192
 				id: "46F770A3703044A4"
 				item: "ad_astra:steel_ingot"
 				type: "item"
 			}]
+			shape: "octagon"
 			subtitle: "{gto.steam.quests.67B18FEE6862343A.subtitle}"
 			tasks: [{
 				id: "10E3799903559F25"
 				type: "checkmark"
 			}]
 			title: "{gto.steam.quests.67B18FEE6862343A.title}"
-			x: 7.0d
+			x: 7.5d
 			y: 5.15d
 		}
 		{
@@ -2026,6 +2041,7 @@
 				item: "gtceu:rubber_plate"
 				type: "item"
 			}]
+			shape: "octagon"
 			tasks: [{
 				id: "3158D9C543B678C2"
 				type: "checkmark"
@@ -2066,12 +2082,13 @@
 				item: "gtceu:vacuum_tube"
 				type: "item"
 			}]
+			shape: "octagon"
 			tasks: [{
 				id: "5D0CD3ACB12536C7"
 				type: "checkmark"
 			}]
 			title: "{gto.steam.quests.22DB1B2207221445.title}"
-			x: 17.0d
+			x: 17.5d
 			y: 0.0d
 		}
 		{
@@ -2103,6 +2120,53 @@
 			title: "{gto.steam.quests.39D96F76911B771E.title}"
 			x: -4.5d
 			y: 3.0d
+		}
+		{
+			dependencies: [
+				"056EC4E6FAF614B7"
+				"4678D97346E46529"
+			]
+			hide_until_deps_visible: true
+			icon: "gtceu:wrought_iron_ingot"
+			id: "23CFCF3063B640F4"
+			rewards: [{
+				count: 192
+				id: "6A882C417EDBCFD5"
+				item: "gtceu:wrought_iron_ingot"
+				type: "item"
+			}]
+			shape: "octagon"
+			subtitle: "{gto.steam.quests.23CFCF3063B640F4.subtitle}"
+			tasks: [{
+				id: "051B2593B4748FBB"
+				type: "checkmark"
+			}]
+			title: "{gto.steam.quests.23CFCF3063B640F4.title}"
+			x: -1.0d
+			y: 14.0d
+		}
+		{
+			dependencies: [
+				"18E057F31DDC4065"
+				"53109F7472C0B443"
+			]
+			hide_until_deps_visible: true
+			icon: "gtceu:vacuum_tube"
+			id: "189F5A3799E88B5C"
+			rewards: [{
+				count: 12
+				id: "38937A3B4C30A419"
+				item: "gtceu:vacuum_tube"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "36D8ED5B3F6252B7"
+				type: "checkmark"
+			}]
+			title: "{gto.steam.quests.189F5A3799E88B5C.title}"
+			x: 17.0d
+			y: 0.0d
 		}
 	]
 	subtitle: ["{gto.steam.subtitle0}"]

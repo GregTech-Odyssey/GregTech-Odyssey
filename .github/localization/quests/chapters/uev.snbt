@@ -232,7 +232,6 @@
 			dependencies: ["7B3C0DB7C1F11692"]
 			description: ["{gto.uev.quests.284111931F2808B4.description0}"]
 			id: "284111931F2808B4"
-			optional: true
 			tasks: [{
 				id: "67D16B7E9DAB2748"
 				item: "gtocore:suprachronal_circuit_max"
@@ -272,18 +271,6 @@
 			}]
 			x: 2.0d
 			y: -4.0d
-		}
-		{
-			dependencies: ["4BEE8DA7018CD14D"]
-			description: ["{gto.uev.quests.5876D6BFFD8AA7F7.description0}"]
-			id: "5876D6BFFD8AA7F7"
-			tasks: [{
-				id: "32CCF029EA0AA6D4"
-				item: "gtocore:transcending_matter_bucket"
-				type: "item"
-			}]
-			x: -6.0d
-			y: -2.0d
 		}
 		{
 			id: "0DBA04D875077E85"
@@ -441,6 +428,54 @@
 			title: "{gto.uev.quests.154F80E28FA53D99.title}"
 			x: -10.0d
 			y: -5.0d
+		}
+		{
+			id: "2455103BECCE9E68"
+			tasks: [{
+				id: "54CAF6DEE7EDE23B"
+				item: "gtocore:advanced_integrated_ore_processor"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 5.5d
+		}
+		{
+			id: "384BA3A6B36A3A64"
+			tasks: [{
+				id: "3CB736D90EEA0327"
+				item: "gtocore:data_center"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 7.0d
+		}
+		{
+			description: ["{gto.uev.quests.33F5E401DDEC813A.description0}"]
+			id: "33F5E401DDEC813A"
+			invisible: true
+			optional: true
+			subtitle: "{gto.uev.quests.33F5E401DDEC813A.subtitle}"
+			tasks: [{
+				id: "1F773C242BE58FB4"
+				item: {
+					Count: 1
+					id: "gtocore:microcosm"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.0d
+		}
+		{
+			id: "32CDF0A73C8721D8"
+			tasks: [{
+				id: "5C37BCE24BB6696E"
+				item: "gtocore:road_of_heaven"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 7.0d
 		}
 	]
 	subtitle: ["{gto.uev.subtitle0}"]

@@ -43,14 +43,20 @@
 			y: -8.5d
 		}
 		{
-			color: 16711935
-			height: 1.0d
-			image: "ftbquests:block/barrier_open"
-			order: 1
+			height: 1.5d
+			image: "gtocore:block/spacetime_assembly_line_casing"
 			rotation: 45.0d
-			width: 1.0d
-			x: 18.0d
-			y: -13.0d
+			width: 1.5d
+			x: 20.0d
+			y: 0.0d
+		}
+		{
+			height: 1.5d
+			image: "gtocore:block/spacetime_assembly_line_casing"
+			rotation: 45.0d
+			width: 1.5d
+			x: 20.0d
+			y: -8.5d
 		}
 	]
 	order_index: 7
@@ -63,19 +69,44 @@
 			y: -5.5d
 		}
 		{
-			id: "1935EFBE9E74704F"
-			linked_quest: "58EC0AFA9742164A"
-			shape: "diamond"
-			x: 18.0d
-			y: -13.0d
-		}
-		{
 			id: "38BDC42D0E99D4AB"
 			linked_quest: "2F03D93AC7DBE58D"
 			shape: "gear"
 			size: 2.0d
 			x: 10.0d
-			y: -12.0d
+			y: -14.0d
+		}
+		{
+			id: "4D8B8B8FDEBF933B"
+			linked_quest: "689199DD0E42A571"
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			id: "3F42743475202D5D"
+			linked_quest: "5AED06E84B4278D6"
+			x: 14.0d
+			y: 2.0d
+		}
+		{
+			id: "46BA6E287A24F615"
+			linked_quest: "67E7B62710A78614"
+			x: 18.0d
+			y: 2.0d
+		}
+		{
+			id: "43CDE5FFABD04A23"
+			linked_quest: "56408F9F9ACD204D"
+			x: 16.0d
+			y: -1.5d
+		}
+		{
+			id: "096EB2908AC2B882"
+			linked_quest: "18C15CA29316062F"
+			shape: "hexagon"
+			size: 1.5d
+			x: 3.0d
+			y: 0.0d
 		}
 	]
 	quests: [
@@ -96,11 +127,20 @@
 			y: -10.0d
 		}
 		{
-			dependencies: ["2F57CA424265C509"]
+			dependencies: [
+				"2F57CA424265C509"
+				"4EAFBB80247274E2"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"{gto.iv.quests.09C2AF1A68A06D69.description0}"
+				""
+				"{gto.iv.quests.09C2AF1A68A06D69.description1}"
+			]
 			id: "09C2AF1A68A06D69"
 			tasks: [{
-				id: "0BCB6AFFEE078597"
-				item: "gtceu:yttrium_dust"
+				id: "6E258384E1358ABE"
+				item: "gtocore:yttrium_oxide_dust"
 				type: "item"
 			}]
 			x: 7.5d
@@ -108,7 +148,11 @@
 		}
 		{
 			dependencies: ["09C2AF1A68A06D69"]
-			description: ["{gto.iv.quests.5CB9B68188A45C6B.description0}"]
+			description: [
+				"{gto.iv.quests.5CB9B68188A45C6B.description0}"
+				""
+				"{gto.iv.quests.5CB9B68188A45C6B.description1}"
+			]
 			id: "5CB9B68188A45C6B"
 			tasks: [{
 				id: "0F08286FDB0CAB60"
@@ -119,11 +163,14 @@
 			y: -10.0d
 		}
 		{
-			dependencies: ["5CB9B68188A45C6B"]
+			dependencies: [
+				"5CB9B68188A45C6B"
+				"49CD464A77D897E3"
+			]
 			description: ["{gto.iv.quests.4A26D81CF8BCC810.description0}"]
 			id: "4A26D81CF8BCC810"
 			tasks: [{
-				id: "4F477DC2230C6178"
+				id: "01A55F2E13AF0E7B"
 				item: "gtceu:graphene_foil"
 				type: "item"
 			}]
@@ -138,6 +185,8 @@
 				"{gto.iv.quests.2BD46F9D8A842B4A.description1}"
 			]
 			id: "2BD46F9D8A842B4A"
+			shape: "gear"
+			size: 1.5d
 			subtitle: "{gto.iv.quests.2BD46F9D8A842B4A.subtitle}"
 			tasks: [{
 				id: "73AD4069223BAB1A"
@@ -302,6 +351,7 @@
 				{
 					id: "31AB9BCA0A1E04A7"
 					item: "gtocore:ozone_water_bucket"
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -399,7 +449,11 @@
 				"0C6A00536686D9F5"
 				"7BE738C0A5DC60F2"
 			]
-			description: ["{gto.iv.quests.4CD7E4E23FCD3D84.description0}"]
+			description: [
+				"{gto.iv.quests.4CD7E4E23FCD3D84.description0}"
+				""
+				"{gto.iv.quests.4CD7E4E23FCD3D84.description1}"
+			]
 			icon: {
 				Count: 1
 				id: "ad_astra_rocketed:tier_5_rocket"
@@ -486,6 +540,7 @@
 		}
 		{
 			dependencies: ["761587B546E4158C"]
+			description: ["{gto.iv.quests.15C830BF6953ABA0.description0}"]
 			id: "15C830BF6953ABA0"
 			shape: "hexagon"
 			size: 1.5d
@@ -519,7 +574,6 @@
 				"{gto.iv.quests.56E262C94F46A592.description1}"
 			]
 			id: "56E262C94F46A592"
-			optional: true
 			shape: "diamond"
 			size: 1.5d
 			tasks: [{
@@ -531,7 +585,10 @@
 			y: -8.5d
 		}
 		{
-			dependencies: ["2BD46F9D8A842B4A"]
+			dependencies: [
+				"652514A4AFAC187D"
+				"3FEC35A36C296537"
+			]
 			id: "63481942850182B5"
 			tasks: [{
 				id: "6DEFF8533A114417"
@@ -539,7 +596,7 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: -10.0d
+			y: -12.0d
 		}
 		{
 			dependencies: ["15C830BF6953ABA0"]
@@ -592,6 +649,7 @@
 				"1D413C9604012CBA"
 			]
 			id: "742DD1537D90A22A"
+			optional: true
 			shape: "diamond"
 			size: 1.5d
 			tasks: [{
@@ -643,7 +701,10 @@
 			y: -2.5d
 		}
 		{
-			dependencies: ["3AE5C45656FB3C78"]
+			dependencies: [
+				"3AE5C45656FB3C78"
+				"652514A4AFAC187D"
+			]
 			id: "5C2F025EF01EDB5A"
 			tasks: [{
 				id: "458572C31C27F1E1"
@@ -676,10 +737,7 @@
 			y: -1.5d
 		}
 		{
-			dependencies: [
-				"67E7B62710A78614"
-				"23E859D5CC9E4C8C"
-			]
+			dependencies: ["67E7B62710A78614"]
 			id: "509269850A10116F"
 			tasks: [{
 				id: "0D79C409031F4AF5"
@@ -690,7 +748,10 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["509269850A10116F"]
+			dependencies: [
+				"509269850A10116F"
+				"78988A24B63C1D8A"
+			]
 			id: "1E239C34C36FAD60"
 			tasks: [
 				{
@@ -729,11 +790,12 @@
 					type: "item"
 				}
 			]
+			title: "{gto.iv.quests.7E7B941FF52CC0F2.title}"
 			x: 6.0d
 			y: -10.0d
 		}
 		{
-			dependencies: ["1CF7845875EEFA3B"]
+			dependencies: ["652514A4AFAC187D"]
 			description: ["{gto.iv.quests.43F467FE1F9FAA2B.description0}"]
 			hide_dependency_lines: true
 			id: "43F467FE1F9FAA2B"
@@ -750,6 +812,7 @@
 		}
 		{
 			dependencies: ["02C299889115BADD"]
+			description: ["{gto.iv.quests.0F6181E3AF0A0791.description0}"]
 			id: "0F6181E3AF0A0791"
 			tasks: [{
 				id: "757516F02237AAB0"
@@ -761,6 +824,11 @@
 		}
 		{
 			dependencies: ["02C299889115BADD"]
+			description: [
+				"{gto.iv.quests.159FD72C1F0AD3A0.description0}"
+				""
+				"{gto.iv.quests.159FD72C1F0AD3A0.description1}"
+			]
 			id: "159FD72C1F0AD3A0"
 			tasks: [{
 				id: "23E5233187F6DFCE"
@@ -774,17 +842,35 @@
 			dependencies: ["1CF7845875EEFA3B"]
 			description: ["{gto.iv.quests.761587B546E4158C.description0}"]
 			hide_dependency_lines: true
+			icon: "gtceu:polyvinyl_butyral_bucket"
 			id: "761587B546E4158C"
-			tasks: [{
-				id: "2A7AB3B27E2C9F9E"
-				item: "gtceu:polyvinyl_butyral_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2A7AB3B27E2C9F9E"
+					item: "gtceu:polyvinyl_butyral_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "250EA185FD5420A7"
+					type: "checkmark"
+				}
+			]
 			x: 1.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["1CF7845875EEFA3B"]
+			description: [
+				"{gto.iv.quests.02C299889115BADD.description0}"
+				""
+				"{gto.iv.quests.02C299889115BADD.description1}"
+				""
+				"[\"\", {\"translate\": \"gto.iv.quests.02C299889115BADD.description2.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"75569B5559E011E2\"}, \"translate\": \"gto.iv.quests.02C299889115BADD.description2.rich_text1\"}, {\"translate\": \"gto.iv.quests.02C299889115BADD.description2.rich_text2\"}]"
+				""
+				"{gto.iv.quests.02C299889115BADD.description3}"
+			]
+			icon: "gtceu:small_rare_earth_dust"
 			id: "02C299889115BADD"
 			tasks: [{
 				id: "6CEDB540521430C9"
@@ -802,6 +888,7 @@
 				{
 					id: "588A924740A25308"
 					item: "gtceu:polybenzimidazole_bucket"
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -874,6 +961,7 @@
 				{
 					id: "11598209DDB35CBF"
 					item: "gtceu:epoxy_bucket"
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -885,14 +973,17 @@
 			y: -12.0d
 		}
 		{
-			dependencies: ["4CD7E4E23FCD3D84"]
+			dependencies: [
+				"4CD7E4E23FCD3D84"
+				"56408F9F9ACD204D"
+			]
 			description: ["{gto.iv.quests.335934E09401C67B.description0}"]
 			id: "335934E09401C67B"
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
 				dimension: "gtocore:io"
-				icon: "gtocore:io_stone"
+				icon: "ad_astra:io_globe"
 				id: "1FAA893329885B46"
 				title: "{gto.iv.quests.335934E09401C67B.tasks.1FAA893329885B46.title}"
 				type: "dimension"
@@ -902,58 +993,23 @@
 		}
 		{
 			dependencies: ["335934E09401C67B"]
+			description: ["{gto.iv.quests.6CD1C787E12CE2CB.description0}"]
 			icon: "gtceu:raw_naquadah"
 			id: "6CD1C787E12CE2CB"
 			tasks: [
 				{
-					count: 64L
 					id: "10C137F30C90C445"
-					item: {
-						Count: 64
-						id: "gtceu:raw_naquadah"
-					}
+					item: "gtceu:raw_naquadah"
 					type: "item"
 				}
 				{
-					count: 64L
-					id: "6290D23F47763C4E"
+					id: "53ABD4D4C8DCAA79"
 					item: "gtceu:raw_plutonium"
 					type: "item"
 				}
 			]
 			title: "{gto.iv.quests.6CD1C787E12CE2CB.title}"
-			x: 16.5d
-			y: 2.0d
-		}
-		{
-			dependencies: ["335934E09401C67B"]
-			icon: "gtocore:raw_celestine"
-			id: "5C7BB42268652D8D"
-			tasks: [
-				{
-					count: 64L
-					id: "48208E820B332050"
-					item: "gtocore:raw_celestine"
-					type: "item"
-				}
-				{
-					count: 64L
-					id: "58020411B4FA8008"
-					item: "gtceu:raw_cooperite"
-					type: "item"
-				}
-				{
-					count: 64L
-					id: "3064872BEEC5FE24"
-					item: {
-						Count: 64
-						id: "gtceu:raw_trona"
-					}
-					type: "item"
-				}
-			]
-			title: "{gto.iv.quests.5C7BB42268652D8D.title}"
-			x: 15.5d
+			x: 16.0d
 			y: 2.0d
 		}
 		{
@@ -965,6 +1021,7 @@
 			]
 			icon: "gtceu:large_autoclave"
 			id: "79A84A1D8BCDC012"
+			shape: "diamond"
 			tasks: [{
 				id: "1571ABAAEFB1193D"
 				title: "{gto.iv.quests.79A84A1D8BCDC012.tasks.1571ABAAEFB1193D.title}"
@@ -977,6 +1034,13 @@
 			dependencies: [
 				"1E239C34C36FAD60"
 				"5B98FF5DDD4B2629"
+			]
+			description: [
+				"{gto.iv.quests.2964D4005BFFFADF.description0}"
+				""
+				"{gto.iv.quests.2964D4005BFFFADF.description1}"
+				""
+				"{gto.iv.quests.2964D4005BFFFADF.description2}"
 			]
 			icon: {
 				Count: 1
@@ -1028,8 +1092,8 @@
 				item: "gtceu:polyphenylene_sulfide_foil"
 				type: "item"
 			}]
-			x: 8.5d
-			y: -12.0d
+			x: 8.0d
+			y: -14.0d
 		}
 		{
 			dependencies: ["23DB14B3093506B8"]
@@ -1106,7 +1170,7 @@
 			y: -10.0d
 		}
 		{
-			dependencies: ["1CF7845875EEFA3B"]
+			dependencies: ["61D19307E3E7118B"]
 			description: [
 				"{gto.iv.quests.388D743C6BA5D995.description0}"
 				""
@@ -1147,7 +1211,10 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["1E239C34C36FAD60"]
+			dependencies: [
+				"1E239C34C36FAD60"
+				"3EF9AF3171607009"
+			]
 			description: [
 				"{gto.iv.quests.7AF970C19F565FB6.description0}"
 				""
@@ -1208,6 +1275,118 @@
 			title: "{gto.iv.quests.1CF7845875EEFA3B.title}"
 			x: 6.0d
 			y: -5.5d
+		}
+		{
+			dependencies: ["2BD46F9D8A842B4A"]
+			description: ["{gto.iv.quests.652514A4AFAC187D.description0}"]
+			hide_dependent_lines: true
+			id: "652514A4AFAC187D"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "4A1869499BEB8704"
+				item: "gtocore:electroplating_bath"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -10.25d
+		}
+		{
+			dependencies: ["18C15CA29316062F"]
+			description: ["{gto.iv.quests.6B6658EFC9A57BD7.description0}"]
+			id: "6B6658EFC9A57BD7"
+			optional: true
+			shape: "diamond"
+			subtitle: "{gto.iv.quests.6B6658EFC9A57BD7.subtitle}"
+			tasks: [{
+				id: "29862FC7085A2A01"
+				item: "gtocore:high_pressure_steam_input_hatch"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"251002F2103BDA84"
+				"1FB1EC5B9CEFC2BC"
+			]
+			hide_until_deps_visible: true
+			icon: "gtceu:assembly_line"
+			id: "3D02255CCA6D5812"
+			subtitle: "{gto.iv.quests.3D02255CCA6D5812.subtitle}"
+			tasks: [{
+				id: "3BADB98E652EDA7F"
+				type: "checkmark"
+			}]
+			title: "{gto.iv.quests.3D02255CCA6D5812.title}"
+			x: 19.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["1CF7845875EEFA3B"]
+			description: [
+				"{gto.iv.quests.4EAFBB80247274E2.description0}"
+				""
+				"{gto.iv.quests.4EAFBB80247274E2.description1}"
+				""
+				"{gto.iv.quests.4EAFBB80247274E2.description2}"
+			]
+			icon: "gtocore:red_mud_bucket"
+			id: "4EAFBB80247274E2"
+			optional: true
+			subtitle: "{gto.iv.quests.4EAFBB80247274E2.subtitle}"
+			tasks: [
+				{
+					id: "6E7F3955734BB2F5"
+					item: "gtocore:red_mud_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "481DFF0FBD4D88F4"
+					type: "checkmark"
+				}
+			]
+			x: 7.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["7BE738C0A5DC60F2"]
+			id: "7883A7EECBFD90E0"
+			shape: "diamond"
+			tasks: [{
+				id: "4DF00E81E80A5905"
+				item: {
+					Count: 1
+					id: "gtocore:ostrum_vajra"
+					tag: {
+						GT.Behaviours: { }
+						GT.Tool: {
+							Damage: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["652514A4AFAC187D"]
+			disable_toast: true
+			icon_scale: 0.25d
+			id: "3FEC35A36C296537"
+			shape: "none"
+			size: 0.25d
+			tasks: [{
+				id: "263216D039DF267A"
+				stat: "minecraft:jump"
+				type: "stat"
+				value: 1
+			}]
+			x: 10.0d
+			y: -10.25d
 		}
 	]
 	subtitle: ["{gto.iv.subtitle0}"]

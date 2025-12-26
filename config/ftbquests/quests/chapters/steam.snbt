@@ -139,7 +139,7 @@
 			icon: "gtceu:bronze_ingot"
 			id: "24C53B5FF515ACAC"
 			rewards: [{
-				count: 64
+				count: 32
 				id: "7180064D9A2AA567"
 				item: "gtceu:bronze_ingot"
 				type: "item"
@@ -446,6 +446,7 @@
 			]
 			id: "32A39A427D4A3AC2"
 			rewards: [{
+				count: 4
 				id: "48BB564E8232C86F"
 				item: "minecraft:coal_block"
 				type: "item"
@@ -570,7 +571,7 @@
 			id: "27F4D9739FE33A02"
 			rewards: [
 				{
-					count: 64
+					count: 16
 					id: "2ABC438654CC3D33"
 					item: "ad_astra:steel_ingot"
 					type: "item"
@@ -956,7 +957,7 @@
 			]
 			id: "53109F7472C0B443"
 			rewards: [{
-				count: 16
+				count: 4
 				id: "6DDFC8966506C070"
 				item: "gtceu:vacuum_tube"
 				type: "item"
@@ -1013,16 +1014,17 @@
 			description: [
 				"哦？你准备用这个大家伙了吗？"
 				""
-				"你可能需要拿它来离心&6空气&r，&6水煤气&r以及&6矿物&r"
+				"你需要拿它来离心各种你想要的东西，还是&e矿物处理&r的一环"
 				""
-				"其中离心&6空气&r是你前期&6氧气&r的来源之一，&6氮气&r则可以用于电力高炉&e加速金属冶炼&r"
+				"你在下个阶段马上就要用到它离心&6空气&r&a->&r&6氧气&r，离心&6水煤气&r&a->&r&6氢气&r，顺便一提&6氮气&r可以用于电力高炉&e加速金属冶炼&r"
 				""
 				"有些配方无法执行的话记得看看EMI，看看配方要求和产出的量是不是比你的输入输出仓小"
 				""
 				"&6蒸汽流体输入仓&r只能支持&b16B&r的流体输入，在有钢后你就可以制作&6无限进气仓&r来利用满机器的并行"
 			]
+			hide_dependent_lines: true
 			id: "020E8B707A8CF794"
-			shape: "diamond"
+			shape: "hexagon"
 			size: 1.5d
 			subtitle: "FFF机器"
 			tasks: [{
@@ -1031,8 +1033,8 @@
 				type: "item"
 			}]
 			title: "离心吗？"
-			x: 7.5d
-			y: 12.5d
+			x: 9.0d
+			y: 13.0d
 		}
 		{
 			dependencies: ["043FCD7B759853EA"]
@@ -1055,7 +1057,7 @@
 				type: "item"
 			}]
 			title: "大泳池"
-			x: 9.0d
+			x: 7.5d
 			y: 12.5d
 		}
 		{
@@ -1081,14 +1083,18 @@
 		{
 			dependencies: ["27F4D9739FE33A02"]
 			description: [
-				"原矿石不能够直接通过研磨机直接粉碎，而是通过&6矿石破碎机&r进行处理"
+				"你终于拥有了矿处的基本能力！通过&6矿石破碎机&r进行处理的原矿石会增产&a3倍&r"
 				""
-				"处理某些矿(如粗红石)时很可能会因为产率过高而阻塞输出口，所以你可以选择设置&6两个&r输出口或者在输出口之前增设一个&d存储&r"
+				"如铁等前期矿石&e允许你在熔炉里烧炼矿处过程中的&l任何形态&r，但通常你只有完成矿处获得&6金属粉&r才可放入熔炉里烧炼成&6锭&r"
+				""
+				"处理某些矿(如粗红石)时很可能会因为产率过高而阻塞输出口，所以你可以选择设置&a两个&r输出口"
+				""
+				"[ \"去\", { \"text\": \"资源获取与处理\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"7C1D32B8C9895B40\" } }, \"看看矿处流程！\"]"
 			]
 			id: "5660509FA09D2239"
-			shape: "diamond"
+			shape: "hexagon"
 			size: 1.5d
-			subtitle: "然而它并不能粉碎圆石"
+			subtitle: "矿处，启动！"
 			tasks: [{
 				id: "17454D8B9CB1AE31"
 				item: "gtocore:steam_crusher"
@@ -1295,6 +1301,8 @@
 				"3.&6锅炉&r内蒸汽满了&e没有及时排出&r"
 				""
 				"在加热器正面放置方块后加热器会暂停工作"
+				""
+				"&o&7产能远超同时期机器，但是如何提供燃料以及如何控制启停是个问题"
 			]
 			id: "5859702A2DF96727"
 			optional: true
@@ -1758,6 +1766,7 @@
 				"&b银&r在这个世界并不稀缺，你是否注意到了地上的那些&d亮晶晶的银色岩石碎屑&r？"
 			]
 			id: "72F99B3B63217418"
+			optional: true
 			shape: "diamond"
 			subtitle: "不会钙化"
 			tasks: [{
@@ -1773,6 +1782,7 @@
 			dependencies: ["7BCD49717F8FAD65"]
 			description: ["三倍蒸汽产能，如果有钢，几乎没有理由用普通版本！"]
 			id: "0BD03513ABDC6A9C"
+			optional: true
 			shape: "diamond"
 			tasks: [{
 				id: "50AE654E47F127C4"
@@ -1790,6 +1800,7 @@
 				"[ \"\", {\"text\":\"……我刚刚说了\", \"color\":\"yellow\" }, { \"text\": \"半流质\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3791F49E789E7673\" } }, {\"text\":\"对吧\", \"color\":\"yellow\" }]"
 			]
 			id: "1108939F9923176C"
+			optional: true
 			shape: "diamond"
 			tasks: [{
 				id: "5EF6AC41E4293D2E"
@@ -1803,6 +1814,7 @@
 			dependencies: ["7BCD49717F8FAD65"]
 			description: ["两倍蒸汽产能，如果有钢，几乎没有理由用普通版本！"]
 			id: "10E17EBACB3697C9"
+			optional: true
 			shape: "diamond"
 			subtitle: "更疯狂的杂酚油吞噬者"
 			tasks: [{
@@ -1834,6 +1846,7 @@
 				"在拥有钢之后，&6高压锅炉&r必然是更优的蒸汽来源，其蒸汽输出为普通版本的&6两至三倍&r！"
 			]
 			id: "77C71C9A52ADF6A6"
+			optional: true
 			shape: "diamond"
 			tasks: [{
 				id: "026C5E9B6FB8E5D2"
@@ -1956,13 +1969,14 @@
 				item: "ad_astra:steel_ingot"
 				type: "item"
 			}]
+			shape: "octagon"
 			subtitle: "快进到跃进一号"
 			tasks: [{
 				id: "55BE46E092646D53"
 				type: "checkmark"
 			}]
 			title: "钢补助&a（简单）&r"
-			x: 7.5d
+			x: 7.0d
 			y: 5.15d
 		}
 		{
@@ -1974,18 +1988,19 @@
 			icon: "ad_astra:steel_ingot"
 			id: "67B18FEE6862343A"
 			rewards: [{
-				count: 128
+				count: 192
 				id: "46F770A3703044A4"
 				item: "ad_astra:steel_ingot"
 				type: "item"
 			}]
+			shape: "octagon"
 			subtitle: "聊胜于无"
 			tasks: [{
 				id: "10E3799903559F25"
 				type: "checkmark"
 			}]
 			title: "钢补助&e（普通）&r"
-			x: 7.0d
+			x: 7.5d
 			y: 5.15d
 		}
 		{
@@ -2023,6 +2038,7 @@
 				item: "gtceu:rubber_plate"
 				type: "item"
 			}]
+			shape: "octagon"
 			tasks: [{
 				id: "3158D9C543B678C2"
 				type: "checkmark"
@@ -2063,12 +2079,13 @@
 				item: "gtceu:vacuum_tube"
 				type: "item"
 			}]
+			shape: "octagon"
 			tasks: [{
 				id: "5D0CD3ACB12536C7"
 				type: "checkmark"
 			}]
 			title: "真空管补助&a（简单）&r"
-			x: 17.0d
+			x: 17.5d
 			y: 0.0d
 		}
 		{
@@ -2100,6 +2117,53 @@
 			title: "GT管道"
 			x: -4.5d
 			y: 3.0d
+		}
+		{
+			dependencies: [
+				"056EC4E6FAF614B7"
+				"4678D97346E46529"
+			]
+			hide_until_deps_visible: true
+			icon: "gtceu:wrought_iron_ingot"
+			id: "23CFCF3063B640F4"
+			rewards: [{
+				count: 192
+				id: "6A882C417EDBCFD5"
+				item: "gtceu:wrought_iron_ingot"
+				type: "item"
+			}]
+			shape: "octagon"
+			subtitle: "下一个阶段的重要材料"
+			tasks: [{
+				id: "051B2593B4748FBB"
+				type: "checkmark"
+			}]
+			title: "锻铁锭补助&a（简单）&r"
+			x: -1.0d
+			y: 14.0d
+		}
+		{
+			dependencies: [
+				"18E057F31DDC4065"
+				"53109F7472C0B443"
+			]
+			hide_until_deps_visible: true
+			icon: "gtceu:vacuum_tube"
+			id: "189F5A3799E88B5C"
+			rewards: [{
+				count: 12
+				id: "38937A3B4C30A419"
+				item: "gtceu:vacuum_tube"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "36D8ED5B3F6252B7"
+				type: "checkmark"
+			}]
+			title: "钢补助&e（普通）&r"
+			x: 17.0d
+			y: 0.0d
 		}
 	]
 	subtitle: ["Tier0-Steam"]

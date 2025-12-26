@@ -41,6 +41,7 @@
 			dependencies: ["3A20210242A1C865"]
 			description: ["与&a炼金催化器&f类似,&9&a炼造催化器&f&r置于&a魔力池&f下方时,可解锁循环转化配方."]
 			id: "1DCFC67A8E3DCA2C"
+			shape: "hexagon"
 			tasks: [{
 				id: "258C1DEBF18D2EBA"
 				item: "botania:conjuration_catalyst"
@@ -1103,7 +1104,11 @@
 		}
 		{
 			dependencies: ["3A20210242A1C865"]
-			description: ["如果需要，击杀猪灵蛮兵可以获得下界合金锭"]
+			description: [
+				"探索&e猪灵堡垒&r和&e地牢&r（如锻造厂）有概率获取下界合金锭"
+				""
+				"亦或者到达UHV"
+			]
 			id: "26B836339560E939"
 			shape: "octagon"
 			tasks: [{
@@ -1303,6 +1308,7 @@
 		{
 			dependencies: ["0948158C6F476C57"]
 			id: "76BEEB046033697E"
+			shape: "diamond"
 			tasks: [{
 				id: "6628C4BA11B6F11F"
 				item: "gtocore:mana_condenser"
@@ -1318,6 +1324,7 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "0F87D140BA847D5E"
+			shape: "diamond"
 			tasks: [{
 				id: "31D7D2B046EB206B"
 				item: "gtocore:elf_exchange"
@@ -1329,6 +1336,7 @@
 		{
 			dependencies: ["61CCD117B022983A"]
 			id: "451AAFB9DE097D65"
+			shape: "diamond"
 			tasks: [{
 				id: "680DEC57EA5232CE"
 				item: "gtocore:industrial_altar"
@@ -1341,6 +1349,7 @@
 			dependencies: ["0331107259F7B68C"]
 			description: ["魔力花园能够提供大量的魔力"]
 			id: "0A202D5836DC88AC"
+			shape: "diamond"
 			tasks: [{
 				id: "71D6B4EA5DCE0336"
 				item: "gtocore:mana_garden"
@@ -1403,7 +1412,7 @@
 			dependencies: ["0331107259F7B68C"]
 			description: ["火花的更强替代品"]
 			id: "5E14716ECDAF9B1C"
-			shape: "circle"
+			shape: "diamond"
 			tasks: [{
 				id: "5501AAE743102934"
 				item: "gtocore:advanced_mana_distributor"
@@ -1423,6 +1432,7 @@
 				"魔力增幅仓内的UI可调整其缓存大小。开启批处理时，仍然只需要输入一份机器最大功率的魔力即可完成批处理。"
 			]
 			id: "4167ADF91EF95341"
+			optional: true
 			subtitle: "反哺科技"
 			tasks: [{
 				id: "7411E8A1C3C7FD56"
@@ -1568,6 +1578,7 @@
 		{
 			dependencies: ["3F90794A1EB0AB63"]
 			id: "276B144D21D741AF"
+			shape: "diamond"
 			tasks: [{
 				id: "1446D223C9624C31"
 				item: "gtocore:mana_alloy_blast_smelter"
@@ -1579,6 +1590,7 @@
 		{
 			dependencies: ["3F90794A1EB0AB63"]
 			id: "484851D3E161ECCF"
+			shape: "diamond"
 			tasks: [{
 				id: "46D233A8F53A1DE8"
 				item: "gtocore:mana_greenhouse"
@@ -1593,6 +1605,7 @@
 				"4CEF044392FBDEAE"
 			]
 			id: "759661540E2B8C55"
+			shape: "diamond"
 			tasks: [{
 				id: "04DC902C9B285AB9"
 				item: "gtocore:large_alchemical_device"
@@ -1604,6 +1617,7 @@
 		{
 			dependencies: ["5EFD8200AF80BBF6"]
 			id: "5C0F8BD8AB2AFD37"
+			shape: "diamond"
 			tasks: [{
 				id: "6577072E4A237477"
 				item: "gtocore:rune_engraving_chamber"
@@ -1639,6 +1653,7 @@
 		{
 			dependencies: ["27AA2D1CFBC9C465"]
 			id: "2D093085609DAF71"
+			shape: "hexagon"
 			tasks: [{
 				id: "06EB9E47B60921E5"
 				item: "extrabotany:dimension_catalyst"
