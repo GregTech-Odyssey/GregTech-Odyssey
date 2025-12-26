@@ -2533,7 +2533,7 @@ metafile = true
 
 [[files]]
 file = "mods/chloride-mod.pw.toml"
-hash = "e6004fa6b637cb37c6d694148fd7691507ab889591764e188d8011f2c29e2159"
+hash = "1951159767e85b79ede16ca5b8105896e5fef8c06076b81d014c9945a37fedcb"
 metafile = true
 
 [[files]]
@@ -2708,7 +2708,7 @@ metafile = true
 
 [[files]]
 file = "mods/fast-recipe-search.pw.toml"
-hash = "3c58987580f11cb332277ddbb423f04a24c527fcadfcf3ae752baeb627d8f41e"
+hash = "0c738f66e6c4ee4439e123d415fbeb78a2cce8e71c5abef6ba68686983f244a1"
 metafile = true
 
 [[files]]
@@ -2833,7 +2833,7 @@ metafile = true
 
 [[files]]
 file = "mods/gtocore-0.5.3.jar"
-hash = "79262f4701a9107bc8c38c1c1941b8985b0ec37829071c9d800513b86db2d8db"
+hash = "e0ac8541c19b861b9a42d76b2306119bafa8119557f49fc86e5ec06760369db9"
 
 [[files]]
 file = "mods/gtonativelib-1.0.jar"
@@ -2917,11 +2917,6 @@ metafile = true
 [[files]]
 file = "mods/littletiles.pw.toml"
 hash = "2175a89ad0858d8fb9c33cd15f502dc5362e8eeccc300f200a0d1f842d12cfb0"
-metafile = true
-
-[[files]]
-file = "mods/loot-bag.pw.toml"
-hash = "426b926baa24e3870dc6b4bb4bbe1a7864aa453072775c6348a7d76519a17fb0"
 metafile = true
 
 [[files]]
