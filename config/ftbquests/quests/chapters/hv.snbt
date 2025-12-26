@@ -93,8 +93,8 @@
 			linked_quest: "05F38A7107CCF2C1"
 			shape: "hexagon"
 			size: 1.5d
-			x: -5.25d
-			y: -4.5d
+			x: -1.5d
+			y: -5.25d
 		}
 		{
 			id: "7605F9B3D5ABBFA3"
@@ -158,16 +158,16 @@
 			linked_quest: "0A833C1D2C10C697"
 			shape: "hexagon"
 			size: 1.5d
-			x: -7.5d
-			y: -7.5d
+			x: -4.5d
+			y: -8.25d
 		}
 		{
 			id: "33B24F71EC220349"
 			linked_quest: "0D63E5A54480E693"
 			shape: "hexagon"
 			size: 1.5d
-			x: -6.0d
-			y: -7.5d
+			x: -3.0d
+			y: -8.25d
 		}
 		{
 			id: "44A0FE462E0C3A64"
@@ -262,7 +262,7 @@
 					type: "item"
 				}
 			]
-			x: -3.5d
+			x: -4.0d
 			y: -3.0d
 		}
 		{
@@ -408,8 +408,8 @@
 				item: "gtocore:fishing_ground"
 				type: "item"
 			}]
-			x: -8.25d
-			y: -6.0d
+			x: -5.25d
+			y: -6.75d
 		}
 		{
 			dependencies: [
@@ -482,8 +482,8 @@
 					type: "item"
 				}
 			]
-			x: -6.75d
-			y: -4.5d
+			x: -4.5d
+			y: -5.25d
 		}
 		{
 			dependencies: [
@@ -1142,8 +1142,8 @@
 				item: "gtceu:multi_smelter"
 				type: "item"
 			}]
-			x: -8.25d
-			y: -4.5d
+			x: -6.0d
+			y: -5.25d
 		}
 		{
 			dependencies: ["7A7DC6205DED9BF3"]
@@ -1212,7 +1212,10 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["6A8869A6275ECA3E"]
+			dependencies: [
+				"6A8869A6275ECA3E"
+				"422ECD74F050124C"
+			]
 			description: [
 				"拥有&6EV级电路&r后，你似乎意识到了有某种方法可以只用一台&e多方块机器&r来处理所有带有编程电路的配方"
 				""
@@ -1266,8 +1269,8 @@
 				item: "gtceu:steam_large_turbine"
 				type: "item"
 			}]
-			x: -7.5d
-			y: -3.0d
+			x: -3.75d
+			y: -9.75d
 		}
 		{
 			dependencies: ["5D828A5258BFF11F"]
@@ -1281,8 +1284,8 @@
 				item: "gtocore:evaporation_plant"
 				type: "item"
 			}]
-			x: -6.75d
-			y: -6.0d
+			x: -3.75d
+			y: -6.75d
 		}
 		{
 			dependencies: ["6F760D81DC93ACFB"]
@@ -1385,6 +1388,8 @@
 				"在&e超平坦世界&r使用世界信息扫描仪得到&6下界维度数据&r，搭建&6下界反应核结构&r"
 				""
 				"与虚空传送器一样，&6下界反应核&r需要充满能量才能进行传送"
+				""
+				"&o&7其实只要给够功率就可以啦"
 			]
 			icon: "gtocore:nether_reactor_core"
 			id: "48E92833D9A8297B"
@@ -1520,8 +1525,8 @@
 				item: "gtocore:recycler"
 				type: "item"
 			}]
-			x: -5.25d
-			y: -6.0d
+			x: -2.25d
+			y: -6.75d
 		}
 		{
 			dependencies: ["31C82EC18535B9B9"]
@@ -1905,7 +1910,7 @@
 				type: "stat"
 				value: 1
 			}]
-			x: -3.5d
+			x: -4.0d
 			y: -3.0d
 		}
 		{
@@ -1942,9 +1947,12 @@
 				"4329DC25522DE09E"
 				"44371F3C6C35E6E6"
 				"067357A90DAD27C9"
-				"7DCB0F8650FBFD64"
 			]
-			description: ["高等级的晶圆在切出低等级芯片的时候产率会高出不少"]
+			description: [
+				"更高级的芯片需要更高级的晶圆才能蚀刻"
+				""
+				"同时，高等级的晶圆在切出低等级芯片的时候产率会高出不少"
+			]
 			hide_dependent_lines: true
 			id: "64E61951A3BB90D4"
 			tasks: [{
@@ -1952,8 +1960,8 @@
 				item: "gtceu:phosphorus_wafer"
 				type: "item"
 			}]
-			x: -0.5d
-			y: -4.5d
+			x: -6.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["4329DC25522DE09E"]
@@ -1968,7 +1976,7 @@
 				type: "stat"
 				value: 1
 			}]
-			x: -3.5d
+			x: -4.0d
 			y: -3.0d
 		}
 		{
@@ -1983,8 +1991,8 @@
 				item: "gtceu:gas_large_turbine"
 				type: "item"
 			}]
-			x: -6.0d
-			y: -3.0d
+			x: -3.0d
+			y: -5.25d
 		}
 		{
 			dependencies: [
@@ -2006,15 +2014,24 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["52C68358D6E375AD"]
-			id: "7DCB0F8650FBFD64"
+			dependencies: ["5D828A5258BFF11F"]
+			description: [
+				"看看右面这两个多方块，它们能够提升你的产能！"
+				""
+				"如果你早就做出来了那就更好啦"
+			]
+			hide_dependency_lines: true
+			icon: "enderio:extraction_speed_upgrade_1"
+			id: "132AD65903D93565"
+			shape: "pentagon"
+			size: 1.5d
 			tasks: [{
-				id: "47BEA46D82442BCB"
-				item: "gtceu:phosphorus_boule"
-				type: "item"
+				id: "26D489B9EFB84686"
+				title: "提升产能?"
+				type: "checkmark"
 			}]
-			x: -2.0d
-			y: -4.5d
+			x: -6.5d
+			y: -8.25d
 		}
 	]
 	subtitle: ["Tier3-HV"]

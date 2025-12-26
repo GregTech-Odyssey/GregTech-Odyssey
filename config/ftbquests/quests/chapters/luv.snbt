@@ -86,16 +86,16 @@
 			order: 1
 			rotation: 45.0d
 			width: 1.0d
-			x: 19.0d
-			y: -5.0d
+			x: 3.5d
+			y: 5.5d
 		}
 		{
 			height: 1.0d
 			image: "xtonesreworked:block/bitt/12"
 			rotation: 45.0d
 			width: 1.0d
-			x: 19.0d
-			y: -5.0d
+			x: 3.5d
+			y: 5.5d
 		}
 	]
 	order_index: 8
@@ -157,13 +157,6 @@
 			y: -3.5d
 		}
 		{
-			id: "0C8651A7BBB01A37"
-			linked_quest: "0A7AD87999A0DDF5"
-			shape: "hexagon"
-			x: 17.5d
-			y: 4.0d
-		}
-		{
 			id: "78A128224F511E5B"
 			linked_quest: "26167AFECA871925"
 			x: 23.5d
@@ -172,7 +165,7 @@
 		{
 			id: "14A5E7DF1CE0D831"
 			linked_quest: "3A20210242A1C865"
-			x: 18.0d
+			x: 18.5d
 			y: -5.0d
 		}
 	]
@@ -1093,7 +1086,7 @@
 				}
 			]
 			title: "算力数据仓"
-			x: 14.0d
+			x: 17.0d
 			y: 3.5d
 		}
 		{
@@ -1265,6 +1258,7 @@
 		}
 		{
 			dependencies: ["20F6B937CF470863"]
+			hide_dependent_lines: true
 			id: "7787A8BEBD46D860"
 			shape: "diamond"
 			subtitle: "全频域覆盖"
@@ -1339,7 +1333,10 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["7787A8BEBD46D860"]
+			dependencies: [
+				"7787A8BEBD46D860"
+				"263C0A85D433CD20"
+			]
 			description: [
 				"制作&6刻蚀水晶芯片&r需要&b无重力环境&r，这意味着你需要第三次前往空间站"
 				""
@@ -1347,7 +1344,7 @@
 				""
 				"因此你需要给高炉安装&6ME消声仓&r，它无需空出三格，并会直接将机器工作时的灰烬收集至ME网络中！"
 			]
-			hide_dependency_lines: true
+			hide_dependent_lines: true
 			id: "65D4988E2E1A0356"
 			shape: "diamond"
 			tasks: [{
@@ -1355,8 +1352,8 @@
 				item: "gtocore:me_muffler_hatch"
 				type: "item"
 			}]
-			x: 19.0d
-			y: -5.0d
+			x: 3.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["7C9C5AA8812891CC"]
@@ -1370,24 +1367,6 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["1156B92F11DA73B6"]
-			id: "659C29B9B34DEAC6"
-			tasks: [
-				{
-					id: "4608129F2DBDD12F"
-					item: "gtmthings:wireless_computation_transmitter_hatch"
-					type: "item"
-				}
-				{
-					id: "75A9EA8AB87EB55A"
-					item: "gtmthings:wireless_computation_receiver_hatch"
-					type: "item"
-				}
-			]
-			x: 19.0d
-			y: 4.0d
-		}
-		{
 			dependencies: ["228B283B5477879B"]
 			id: "043E593994AC220E"
 			tasks: [{
@@ -1395,7 +1374,7 @@
 				item: "gtceu:advanced_data_access_hatch"
 				type: "item"
 			}]
-			x: 17.5d
+			x: 17.0d
 			y: 1.0d
 		}
 	]

@@ -564,7 +564,11 @@
 		}
 		{
 			dependencies: ["3490AACD4AA62C5D"]
-			description: ["按U查看EMI来控制辐射原料和剂量，考验你数学基本功的时候到了"]
+			description: [
+				"按U查看EMI来控制辐射原料和剂量，考验你数学基本功的时候到了"
+				""
+				"在容器内保持1根以上的杆会一直提供恒定的辐射"
+			]
 			id: "63AAABA655725FB9"
 			subtitle: "小心辐射"
 			tasks: [{
@@ -914,10 +918,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: [
-				"3490AACD4AA62C5D"
-				"1156B92F11DA73B6"
-			]
+			dependencies: ["3490AACD4AA62C5D"]
 			id: "1B4F781414C7AEBA"
 			subtitle: "不需要为一个环境单开一台机器了"
 			tasks: [{

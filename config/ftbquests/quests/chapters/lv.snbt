@@ -2480,6 +2480,8 @@
 			dependencies: ["745B1AE1F523FD78"]
 			description: ["能够&e限制电流大小&r，避免传输电流过大导致烧毁导线"]
 			id: "48D534B94140861E"
+			optional: true
+			shape: "diamond"
 			tasks: [{
 				id: "136953536D7AA08C"
 				item: "gtceu:lv_diode"

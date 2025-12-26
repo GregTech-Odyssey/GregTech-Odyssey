@@ -630,11 +630,6 @@
 				"&o&8自己给自己在清醒时做手术，可真的是有点惊悚呢&r&r"
 			]
 			id: "1D57ED21E8AD1A26"
-			rewards: [{
-				id: "6B918E6B2EF24972"
-				item: "gtocore:organ_modifier"
-				type: "item"
-			}]
 			shape: "hexagon"
 			size: 2.0d
 			subtitle: "我们终将决定我们自己的进化道路"
@@ -937,7 +932,7 @@
 				"3CDB8FABC5A970BB"
 				"08891CB1BAFA5515"
 			]
-			description: ["这里是Tire2器官，它可以带你去&e金星&r、&5水星&r和&8谷神星&r"]
+			description: ["这里是Tier2器官，它可以带你去&e金星&r、&5水星&r和&8谷神星&r"]
 			hide_dependency_lines: true
 			id: "2D901DBE68F833D2"
 			shape: "hexagon"
@@ -1743,7 +1738,7 @@
 		}
 		{
 			dependencies: ["1E239C34C36FAD60"]
-			description: ["这里是Tire3器官，它可以带你去&c木卫一&r、&1木卫三&r、&5土卫二&r、&9土卫六&r、&d冥王星&r和&2霜原星&r"]
+			description: ["这里是Tier3器官，它可以带你去&c木卫一&r、&1木卫三&r、&5土卫二&r、&9土卫六&r、&d冥王星&r和&2霜原星&r"]
 			hide_dependency_lines: true
 			id: "56408F9F9ACD204D"
 			shape: "hexagon"
@@ -2072,6 +2067,7 @@
 				"05C7059BC114AD42"
 				"7DD3E20C1AF38823"
 			]
+			description: ["这里是Tier4器官，你可以前往所有星球！"]
 			hide_dependency_lines: true
 			id: "72AACC1178BF7586"
 			shape: "hexagon"
@@ -2704,6 +2700,22 @@
 			title: "T8火箭不需要燃料"
 			x: -9.0d
 			y: 19.0d
+		}
+		{
+			dependencies: ["05C7059BC114AD42"]
+			disable_toast: true
+			icon_scale: 0.25d
+			id: "3F5615CFF4DB8BB4"
+			shape: "none"
+			size: 0.25d
+			tasks: [{
+				id: "2E7058B13C445547"
+				stat: "minecraft:jump"
+				type: "stat"
+				value: 1
+			}]
+			x: -3.0d
+			y: 16.0d
 		}
 	]
 	subtitle: ["Voyage to the Void"]

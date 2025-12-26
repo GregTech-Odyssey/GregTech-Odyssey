@@ -1481,7 +1481,7 @@
 			dependencies: ["66E12F82F66FB8CE"]
 			description: ["将&d&a炼金催化器&f&r置于&b&a魔力池&f&r下方可开启&9炼金术&r,实现物品转化(如腐肉变皮革)."]
 			id: "32DF4BC46620F952"
-			shape: "square"
+			shape: "hexagon"
 			tasks: [{
 				id: "0B5B67B066E672CD"
 				item: "botania:alchemy_catalyst"
@@ -3623,6 +3623,7 @@
 		{
 			dependencies: ["66E12F82F66FB8CE"]
 			id: "31BC72F2F45E70F3"
+			shape: "diamond"
 			subtitle: "多方块魔力池"
 			tasks: [{
 				id: "6B9EEFC2E7348371"
@@ -4122,6 +4123,7 @@
 			description: ["多方块 &5 灌注室  附魔核心&r"]
 			hide_dependency_lines: true
 			id: "4616B3E583B430A0"
+			shape: "diamond"
 			tasks: [{
 				id: "1BD6C14B79F2804C"
 				item: "gtocore:large_perfusion_device"

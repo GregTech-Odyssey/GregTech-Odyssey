@@ -413,7 +413,7 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["4DC482C16035F261"]
+			dependencies: ["561D79DE960A034D"]
 			description: [
 				"找找看附近有趣的东西，记得用魔力充能嗷！"
 				""
@@ -449,8 +449,8 @@
 				type: "item"
 			}]
 			title: "挖穿地心！"
-			x: 6.5d
-			y: -3.5d
+			x: 5.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["30D4CC9142D59DBD"]
@@ -1930,7 +1930,7 @@
 				}
 				type: "item"
 			}]
-			x: 8.5d
+			x: 8.0d
 			y: -2.0d
 		}
 		{
@@ -2083,6 +2083,8 @@
 				"包含魔法，神化，食物以及一些其他东西"
 				""
 				"&e魔法在到达LuV前并不是必选项，你只需要准备一个魔力池即可。&r不过发展魔法能够极大的提升你在科技线中的体验，&o沉淀总是有所回报的"
+				"{@pagebreak}"
+				"简单提一下魔法在主线中的应用：HV之前只需魔力池做超导体，HV需要魔力钢做样板更好的配方，需要开精灵门做源质钢做样板供应器更好的配方，LuV需要开门拿精灵玻璃做精灵透镜（必选），后续有部分超导体合成配方；EV做符文可以做下界之星更好的配方，UHV开始需要用到盖亚钢和盖亚魂钢，UEV开始大量使用盖亚魂，准备好盖亚魂循环"
 			]
 			icon: {
 				Count: 1
@@ -2240,6 +2242,31 @@
 			title: "青铜补助&d（专家）&r"
 			x: 0.0d
 			y: 9.5d
+		}
+		{
+			dependencies: ["561D79DE960A034D"]
+			description: [
+				"用熔炉在地上摆放一个&a3x3x3&r形状，就会自动成型为&6Jumbo Furnace熔炉&r（JF炉）"
+				""
+				"在其原料栏位放入&a27个&r熔炉可以烧制出一个物品JF炉，放入右下的槽位可以增加&e并行&r"
+				""
+				"&o&7它的性价比完爆了蒸汽时代熔炉，64并行足以满足你前期的烧炼需求。它还因为过强险些被删除"
+				""
+				"&o&m&7没有主机的多方块结构不能叫做多方块结构"
+			]
+			id: "24AD2CCEF0E48FD5"
+			shape: "diamond"
+			subtitle: "你的第一个多方块结构...真的算是吗？"
+			tasks: [{
+				icon: "jumbofurnace:jumbo_furnace"
+				id: "7DDFD5224921B6A1"
+				observe_type: 0
+				timer: 0L
+				to_observe: "jumbofurnace:jumbo_furnace"
+				type: "observation"
+			}]
+			x: 6.5d
+			y: 2.0d
 		}
 	]
 	subtitle: ["Hello World!"]

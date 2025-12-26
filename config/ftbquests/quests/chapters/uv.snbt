@@ -71,7 +71,7 @@
 			id: "6B94BC85AAE35194"
 			linked_quest: "08CDFD0BB06E9A53"
 			x: -5.0d
-			y: 4.0d
+			y: 3.0d
 		}
 		{
 			id: "3F5A74D278A7D471"
@@ -96,15 +96,18 @@
 			y: 1.5d
 		}
 		{
-			id: "60CA34C75B2DF98C"
-			linked_quest: "55369274AB0561DF"
+			id: "44342F441C7C0F54"
+			linked_quest: "732F3F1921B2464F"
 			x: -5.0d
-			y: 3.0d
+			y: 4.0d
 		}
 	]
 	quests: [
 		{
-			dependencies: ["18C29178096CBFAE"]
+			dependencies: [
+				"18C29178096CBFAE"
+				"19B07E541BE74686"
+			]
 			id: "3E458EF4819E239C"
 			shape: "hexagon"
 			size: 1.5d
@@ -213,8 +216,8 @@
 				item: "gtocore:infinity_fluid_drilling_rig"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -0.5d
+			x: 6.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["52DFF4A301A510C8"]
@@ -316,11 +319,18 @@
 			description: ["带上你的钻机"]
 			icon: "gtocore:unknowwater_bucket"
 			id: "66CEE808FD6861B7"
-			tasks: [{
-				id: "6A7E6AF633DFA3D3"
-				title: "不明液体"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "7DF848CE628F8831"
+					item: "gtocore:unknowwater_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "492E5DF08D522633"
+					type: "checkmark"
+				}
+			]
 			x: -1.0d
 			y: 5.0d
 		}
@@ -352,8 +362,8 @@
 		}
 		{
 			dependencies: [
-				"18CBBE615691E7FD"
 				"3827DED8E3795712"
+				"18CBBE615691E7FD"
 			]
 			description: ["生化反应培养出后可使用培养缸繁殖"]
 			icon: "gtocore:biological_cells"
@@ -375,11 +385,18 @@
 			]
 			icon: "gtocore:alien_algae_ore"
 			id: "1A71DC88DFE4F126"
-			tasks: [{
-				id: "18F3C53DAFE1B05D"
-				title: "异星藻类矿石"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "75D11D20244891FD"
+					item: "gtocore:alien_algae_ore"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6AF6214F738B3996"
+					type: "checkmark"
+				}
+			]
 			title: "异星藻类渣矿石"
 			x: -1.0d
 			y: 8.0d
@@ -408,7 +425,11 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["08CDFD0BB06E9A53"]
+			dependencies: [
+				"08CDFD0BB06E9A53"
+				"732F3F1921B2464F"
+				"4873D7E77C2B7EB8"
+			]
 			description: ["太空电梯第一次启动的时候需要，放置在太空电梯的输入总线内自动消耗"]
 			id: "5A30C3831FD94E53"
 			tasks: [{
@@ -507,11 +528,19 @@
 			hide_dependency_lines: true
 			icon: "gtocore:polyimide_bucket"
 			id: "03EA95C6571C32BA"
-			tasks: [{
-				id: "689554FADE2FEC02"
-				title: "聚酰亚胺"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "689554FADE2FEC02"
+					title: "聚酰亚胺"
+					type: "checkmark"
+				}
+				{
+					id: "6845F34FF8EF50DF"
+					item: "gtocore:polyimide_bucket"
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: 5.0d
 			y: 14.5d
 		}
@@ -838,8 +867,8 @@
 				item: "gtocore:mithril_ingot"
 				type: "item"
 			}]
-			x: 1.0d
-			y: -0.5d
+			x: 1.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["78EAFECB9E9BF692"]
@@ -908,73 +937,8 @@
 		}
 		{
 			dependencies: [
-				"44B34806DA0FEA9A"
-				"19B07E541BE74686"
-				"3C8DA30CF0B2244F"
-			]
-			description: ["四级数据载体"]
-			id: "08DEEC16D9580930"
-			shape: "hexagon"
-			tasks: [{
-				id: "58C98F5527FB3221"
-				item: {
-					Count: 1
-					id: "gtocore:neural_matrix"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: 3.0d
-			y: 12.5d
-		}
-		{
-			dependencies: ["502F7DD0C930D5BF"]
-			description: ["用捕获附魔获取以上的蛋"]
-			id: "3CBA56988C0F8E7E"
-			invisible: true
-			subtitle: "这次不要DNA了"
-			tasks: [
-				{
-					id: "0DC4CB1CB1874C75"
-					item: "minecraft:villager_spawn_egg"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "4843BCBB8579733A"
-					item: "minecraft:witch_spawn_egg"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "5119FD23457951E1"
-					type: "checkmark"
-				}
-			]
-			title: "我需要大脑"
-			x: 11.0d
-			y: 13.0d
-		}
-		{
-			dependencies: [
-				"0099AE8ACBB72951"
-				"06DF372F16F1A5CA"
-				"2CC625C1FFDB9AFF"
-			]
-			id: "44B34806DA0FEA9A"
-			subtitle: "这不是疯狂戴夫的脑子！"
-			tasks: [{
-				id: "4758CF4632B286F7"
-				item: "gtocore:super_cerebrum"
-				type: "item"
-			}]
-			x: 1.0d
-			y: 12.5d
-		}
-		{
-			dependencies: [
-				"44B34806DA0FEA9A"
 				"6E673337DD550808"
+				"2CC625C1FFDB9AFF"
 			]
 			description: ["更便宜的制作&6湿件处理器&r的原材料"]
 			hide_dependency_lines: true
@@ -985,8 +949,8 @@
 				item: "gtocore:wetware_soc"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 14.5d
+			x: 1.0d
+			y: 12.5d
 		}
 		{
 			dependencies: ["67050CC889ABB614"]
@@ -1006,8 +970,8 @@
 				item: "gtocore:supercomputing_center"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 14.5d
+			x: 3.0d
+			y: 12.5d
 		}
 		{
 			dependencies: ["502F7DD0C930D5BF"]
@@ -1043,8 +1007,8 @@
 				item: "gtocore:orichalcum_ingot"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -0.5d
+			x: 3.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["76A5DA2CCB71E96F"]
@@ -1213,7 +1177,6 @@
 			y: 10.5d
 		}
 		{
-			dependencies: ["44B34806DA0FEA9A"]
 			disable_toast: true
 			hide_text_until_complete: true
 			icon_scale: 0.2d
@@ -1225,8 +1188,8 @@
 				item: "gtocore:wetware_soc"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 14.5d
+			x: 3.0d
+			y: 12.5d
 		}
 		{
 			dependencies: ["0B7A508B2670C9C2"]
@@ -1325,19 +1288,55 @@
 			y: 1.5d
 		}
 		{
-			dependencies: [
-				"08DEEC16D9580930"
-				"19B07E541BE74686"
-			]
-			description: ["你必须使用本访问仓或等级更高的访问仓才可以放入神经矩阵"]
-			id: "6E94E9CD9F8B96E0"
+			dependencies: ["256F90AFB461107E"]
+			hide_dependency_lines: true
+			id: "4873D7E77C2B7EB8"
 			tasks: [{
-				id: "4B4DBCC7F22B0357"
-				item: "gtocore:bio_data_access_hatch"
+				id: "20410913D72136FB"
+				item: "gtocore:cycloparaphenylene_bucket"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 14.5d
+			x: -6.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7A1E4DBA675E67FB"]
+			id: "12C51878448A5302"
+			shape: "diamond"
+			tasks: [{
+				id: "70A932B8EFDEB3C7"
+				item: "gtocore:mantle_crusher"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2CC625C1FFDB9AFF"]
+			disable_toast: true
+			icon_scale: 0.25d
+			id: "688ABD83133F885A"
+			shape: "none"
+			size: 0.25d
+			tasks: [{
+				id: "7F11E4FCA246CBEC"
+				stat: "minecraft:jump"
+				type: "stat"
+				value: 1
+			}]
+			x: 1.0d
+			y: 12.5d
+		}
+		{
+			id: "4D2ADE9E4DCB1183"
+			shape: "diamond"
+			tasks: [{
+				id: "2D5EB7ED0C6B55BE"
+				item: "gtocore:nich_computing_components"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 5.5d
 		}
 	]
 	subtitle: ["Tier8-UV"]

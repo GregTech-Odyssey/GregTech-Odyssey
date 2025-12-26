@@ -12,7 +12,7 @@
 	quests: [
 		{
 			can_repeat: true
-			description: ["主线送了一个"]
+			description: ["主线送了一个，如果你丢了可以在这里买"]
 			icon: {
 				Count: 1
 				id: "gtocore:prospector.mana_ulv"

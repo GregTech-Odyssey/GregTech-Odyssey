@@ -258,6 +258,8 @@
 				"[ \"\", {\"text\":\"详细特性请查看\", \"color\":\"yellow\"}, { \"text\": \"简单普通专家模式特性指南\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"open_url\", \"value\": \"https://wiki.gtodyssey.com/boards/docs/pages/简单普通专家模式特性指南\" } }]"
 				""
 				"&e强烈建议在切换模式后，重启MC，然后再创建世界开始游戏！&r"
+				""
+				"&o&7这个任务完成不了？点左上角小箭头查看前置！"
 			]
 			icon: "minecraft:compass"
 			id: "5183DB6A793BB3C6"
@@ -376,12 +378,18 @@
 							wand_options: { }
 						}
 					}
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "3D7C50DF555C556E"
 					item: "buildinggadgets2:gadget_building"
+					optional_task: true
 					type: "item"
+				}
+				{
+					id: "7E824E467813F47A"
+					type: "checkmark"
 				}
 			]
 			title: "建造提示"
@@ -1196,6 +1204,8 @@
 				"其中飞行护符，飞行之板，翅膀，喷气背包可以作为前期飞行手段"
 				""
 				"沉浸式飞行是飞行载具，同样能让你在前期获得飞行能力"
+				""
+				"&o&7认真看提示的奖励是：提前送你器官修改器！"
 			]
 			icon: {
 				Count: 1
@@ -1205,6 +1215,11 @@
 				}
 			}
 			id: "3D7C322A6DBCF085"
+			rewards: [{
+				id: "01C9EF45374AB6F1"
+				item: "gtocore:organ_modifier"
+				type: "item"
+			}]
 			shape: "pentagon"
 			size: 1.5d
 			subtitle: "如何获取飞行?"
