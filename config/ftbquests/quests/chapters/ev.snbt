@@ -297,7 +297,7 @@
 			shape: "hexagon"
 			size: 2.5d
 			tasks: [
-                {
+				{
 					id: "50E3B4E82F4D5D12"
 					item: "gtceu:platinum_dust"
 					type: "item"

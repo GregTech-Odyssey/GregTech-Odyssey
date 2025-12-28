@@ -750,7 +750,7 @@ hash = "e5e53213659ca0fa4316b7a1136128e69912fdaef2dfb2c581571ead7c0a13e3"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ev.snbt"
-hash = "8815946154f538d85c4521ef055da17a15f4a7bcbdf1cac32c8ecb73b1e38620"
+hash = "3036ec757ccd9e54e100d5f63891c5c957825479bd5ffc78278a6787b5726d80"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/food.snbt"
@@ -2708,7 +2708,7 @@ metafile = true
 
 [[files]]
 file = "mods/fast-recipe-search.pw.toml"
-hash = "0c738f66e6c4ee4439e123d415fbeb78a2cce8e71c5abef6ba68686983f244a1"
+hash = "b6fd23aceff88665e98555e74a9acaaf1645f0734f77255da0f1d3c73b9e3465"
 metafile = true
 
 [[files]]
@@ -2773,7 +2773,7 @@ metafile = true
 
 [[files]]
 file = "mods/framedblocks.pw.toml"
-hash = "1d2e9c9f1e380c661d84685fb2991bf77166e3ac0a39e7d178ed63915ea1630f"
+hash = "c0bba64eb3be067e8f002c1e6c4a0ad2feb78d15e61e003e8f34cd5a909ada39"
 metafile = true
 
 [[files]]
@@ -2828,12 +2828,12 @@ metafile = true
 
 [[files]]
 file = "mods/gnetum.pw.toml"
-hash = "2bf0421c4a918f63c4eaaaf2542babc79549326d999b235bb85559c8cfc84431"
+hash = "de8daafd1d37be086a988d6ff6934c5671dd9747e8edde1439a28f9723bf8217"
 metafile = true
 
 [[files]]
 file = "mods/gtocore-0.5.3.jar"
-hash = "1047a6307fa1571300fd8cf8f87009d4818e38f96a9a6d3d76b7e77a8fdfb089"
+hash = "0e9375f6bf4321ebe51a97f569233fe8746771dddba683f43caa0504b42d7dbe"
 
 [[files]]
 file = "mods/gtonativelib-1.0.jar"
@@ -3007,6 +3007,11 @@ metafile = true
 [[files]]
 file = "mods/patchouli.pw.toml"
 hash = "fb0fb93cc73f1c81aca4178f2a5fbda4f1135816bd703547985a18cd6c0ce2af"
+metafile = true
+
+[[files]]
+file = "mods/pipez.pw.toml"
+hash = "4b0bda60db3fc2f47e876e6e2e4a15c5d4f0d0e8a98fc8ce10a1b6694549b466"
 metafile = true
 
 [[files]]
