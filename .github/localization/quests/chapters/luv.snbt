@@ -168,6 +168,20 @@
 			x: 18.5d
 			y: -5.0d
 		}
+		{
+			id: "26796A1C3C842966"
+			linked_quest: "15C830BF6953ABA0"
+			shape: "hexagon"
+			x: 7.0d
+			y: -2.5d
+		}
+		{
+			id: "36F224598A84EF9A"
+			linked_quest: "2037EF8B9FF46636"
+			shape: "diamond"
+			x: 3.5d
+			y: 5.5d
+		}
 	]
 	quests: [
 		{
@@ -955,10 +969,7 @@
 			y: 1.0d
 		}
 		{
-			dependencies: [
-				"0985154AE9169549"
-				"15C830BF6953ABA0"
-			]
+			dependencies: ["15C830BF6953ABA0"]
 			description: ["{gto.luv.quests.3DA166631D597693.description0}"]
 			id: "3DA166631D597693"
 			tasks: [{
@@ -1092,10 +1103,15 @@
 		{
 			dependencies: [
 				"05EB6CDF13762280"
-				"65D4988E2E1A0356"
 				"3A20210242A1C865"
 			]
-			description: ["{gto.luv.quests.3A08E4803A895152.description0}"]
+			description: [
+				"{gto.luv.quests.3A08E4803A895152.description0}"
+				""
+				"{gto.luv.quests.3A08E4803A895152.description1}"
+				""
+				"{gto.luv.quests.3A08E4803A895152.description2}"
+			]
 			id: "3A08E4803A895152"
 			tasks: [{
 				id: "2CBC1A13734808A5"
@@ -1312,7 +1328,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["1156B92F11DA73B6"]
@@ -1331,29 +1347,6 @@
 			}]
 			x: 23.5d
 			y: 2.5d
-		}
-		{
-			dependencies: [
-				"7787A8BEBD46D860"
-				"263C0A85D433CD20"
-			]
-			description: [
-				"{gto.luv.quests.65D4988E2E1A0356.description0}"
-				""
-				"{gto.luv.quests.65D4988E2E1A0356.description1}"
-				""
-				"{gto.luv.quests.65D4988E2E1A0356.description2}"
-			]
-			hide_dependent_lines: true
-			id: "65D4988E2E1A0356"
-			shape: "diamond"
-			tasks: [{
-				id: "0EE50C2FC4BF6324"
-				item: "gtocore:me_muffler_hatch"
-				type: "item"
-			}]
-			x: 3.5d
-			y: 5.5d
 		}
 		{
 			dependencies: ["7C9C5AA8812891CC"]

@@ -1430,13 +1430,14 @@
 			id: "14A66BA5BC9DB220"
 			rewards: [
 				{
-					id: "69C1838C97BE66E1"
-					item: "avaritia:star_fuel"
+					count: 128
+					id: "5ADC9A7C15A3777C"
+					item: "minecraft:coal"
 					type: "item"
 				}
 				{
 					count: 64
-					id: "23DF2EDECC7E3B4B"
+					id: "588B1D9AB2ECC44D"
 					item: "gtocore:copper_coin"
 					type: "item"
 				}
@@ -2267,6 +2268,7 @@
 				to_observe: "jumbofurnace:jumbo_furnace"
 				type: "observation"
 			}]
+			title: "{gto.main-stoneage.quests.24AD2CCEF0E48FD5.title}"
 			x: 6.5d
 			y: 2.0d
 		}

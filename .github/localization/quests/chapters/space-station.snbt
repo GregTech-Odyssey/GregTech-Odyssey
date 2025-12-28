@@ -33,7 +33,6 @@
 		}
 	]
 	order_index: 2
-	progression_mode: "linear"
 	quest_links: [ ]
 	quests: [
 		{
@@ -88,13 +87,8 @@
 		}
 		{
 			dependencies: [
-				"1D413C9604012CBA"
 				"23E859D5CC9E4C8C"
-				"48A1FCE89BCA6141"
-				"7BDD24E8C42100EC"
-				"6B602E416AB57B3C"
-				"18C15CA29316062F"
-				"7B22A8B66A42157D"
+				"0BFFC7241DFB6A9C"
 			]
 			description: [
 				"{gto.space-station.quests.58EC0AFA9742164A.description0}"

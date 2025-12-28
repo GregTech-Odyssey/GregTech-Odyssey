@@ -362,6 +362,7 @@
 				"20AC600A32D51156"
 			]
 			dependency_requirement: "one_completed"
+			description: ["{gto.shop.quests.49FE915485277EA3.description0}"]
 			icon: "minecraft:shulker_box"
 			id: "49FE915485277EA3"
 			rewards: [{
@@ -386,6 +387,7 @@
 				"24B0FBD7AAD6C8B1"
 			]
 			hide_until_deps_visible: true
+			description: ["{gto.shop.quests.1EBE4BC172EFA13E.description0}"]
 			icon: "factory_blocks:factory"
 			id: "1EBE4BC172EFA13E"
 			rewards: [{

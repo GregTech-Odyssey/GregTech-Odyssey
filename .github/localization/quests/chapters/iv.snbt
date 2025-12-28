@@ -101,12 +101,12 @@
 			y: -1.5d
 		}
 		{
-			id: "096EB2908AC2B882"
-			linked_quest: "18C15CA29316062F"
-			shape: "hexagon"
-			size: 1.5d
-			x: 3.0d
-			y: 0.0d
+			id: "1935EFBE9E74704F"
+			linked_quest: "58EC0AFA9742164A"
+			shape: "gear"
+			size: 2.0d
+			x: 18.0d
+			y: -14.0d
 		}
 	]
 	quests: [
@@ -539,7 +539,10 @@
 			y: -6.0d
 		}
 		{
-			dependencies: ["761587B546E4158C"]
+			dependencies: [
+				"761587B546E4158C"
+				"652514A4AFAC187D"
+			]
 			description: ["{gto.iv.quests.15C830BF6953ABA0.description0}"]
 			id: "15C830BF6953ABA0"
 			shape: "hexagon"
@@ -1303,8 +1306,8 @@
 				item: "gtocore:high_pressure_steam_input_hatch"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 0.0d
+			x: 20.0d
+			y: -13.0d
 		}
 		{
 			dependencies: [
@@ -1387,6 +1390,80 @@
 			}]
 			x: 10.0d
 			y: -10.25d
+		}
+		{
+			dependencies: [
+				"5612C7735BC4F5BC"
+				"0BFFC7241DFB6A9C"
+			]
+			description: ["{gto.iv.quests.7BDD24E8C42100EC.description0}"]
+			id: "7BDD24E8C42100EC"
+			shape: "hexagon"
+			size: 1.0d
+			subtitle: "{gto.iv.quests.7BDD24E8C42100EC.subtitle}"
+			tasks: [{
+				id: "695CC9CF25F65C39"
+				item: "gtocore:fiber_extruder"
+				type: "item"
+			}]
+			x: 19.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["0BFFC7241DFB6A9C"]
+			description: ["{gto.iv.quests.7B22A8B66A42157D.description0}"]
+			id: "7B22A8B66A42157D"
+			tasks: [{
+				id: "3872D2093B7E13EA"
+				item: "gtceu:bromine_bucket"
+				type: "item"
+			}]
+			x: 17.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["0BFFC7241DFB6A9C"]
+			description: ["{gto.iv.quests.6B602E416AB57B3C.description0}"]
+			id: "6B602E416AB57B3C"
+			tasks: [{
+				id: "7AF6931E2349D7DB"
+				item: "gtceu:rhenium_dust"
+				type: "item"
+			}]
+			x: 17.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["0BFFC7241DFB6A9C"]
+			description: ["{gto.iv.quests.18C15CA29316062F.description0}"]
+			id: "18C15CA29316062F"
+			shape: "hexagon"
+			size: 1.0d
+			subtitle: "{gto.iv.quests.18C15CA29316062F.subtitle}"
+			tasks: [{
+				id: "623AFB9A0EB53BD8"
+				item: "gtocore:thermo_press"
+				type: "item"
+			}]
+			x: 19.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["1D413C9604012CBA"]
+			description: [
+				"{gto.iv.quests.0BFFC7241DFB6A9C.description0}"
+				""
+				"{gto.iv.quests.0BFFC7241DFB6A9C.description1}"
+			]
+			icon: "gtocore:large_expandable_space_station_core_module"
+			id: "0BFFC7241DFB6A9C"
+			tasks: [{
+				id: "4910A6818070DFB8"
+				title: "{gto.iv.quests.0BFFC7241DFB6A9C.tasks.4910A6818070DFB8.title}"
+				type: "checkmark"
+			}]
+			x: 18.0d
+			y: -12.5d
 		}
 	]
 	subtitle: ["{gto.iv.subtitle0}"]
