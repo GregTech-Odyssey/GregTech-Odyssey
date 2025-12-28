@@ -29,7 +29,7 @@
 			image: "xtonesreworked:block/bitt/12"
 			rotation: 45.0d
 			width: 1.0d
-			x: -2.0d
+			x: -5.0d
 			y: -0.5d
 		}
 		{
@@ -39,7 +39,7 @@
 			order: 1
 			rotation: 45.0d
 			width: 1.0d
-			x: -2.0d
+			x: -5.0d
 			y: -0.5d
 		}
 		{
@@ -64,14 +64,14 @@
 			id: "00F5A8E95ADC4F78"
 			linked_quest: "62402E1DBC9CF1B4"
 			shape: "diamond"
-			x: -2.0d
+			x: -5.0d
 			y: -0.5d
 		}
 		{
 			id: "6B94BC85AAE35194"
 			linked_quest: "08CDFD0BB06E9A53"
-			x: -5.0d
-			y: 3.0d
+			x: -6.5d
+			y: 5.0d
 		}
 		{
 			id: "3F5A74D278A7D471"
@@ -88,18 +88,18 @@
 			y: 4.0d
 		}
 		{
-			id: "1935EFBE9E74704F"
-			linked_quest: "58EC0AFA9742164A"
-			shape: "gear"
-			size: 2.0d
-			x: -5.0d
-			y: 1.5d
-		}
-		{
 			id: "44342F441C7C0F54"
 			linked_quest: "732F3F1921B2464F"
-			x: -5.0d
-			y: 4.0d
+			x: -7.5d
+			y: 5.0d
+		}
+		{
+			id: "070CC219CF3DCAFE"
+			linked_quest: "58EC0AFA9742164A"
+			shape: "gear"
+			size: 1.5d
+			x: -7.0d
+			y: 3.5d
 		}
 	]
 	quests: [
@@ -117,7 +117,7 @@
 				item: "gtceu:uv_fusion_reactor"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 1.0d
 			y: 1.5d
 		}
 		{
@@ -129,7 +129,7 @@
 				item: "gtceu:uv_energy_input_hatch"
 				type: "item"
 			}]
-			x: 0.5d
+			x: -2.0d
 			y: 1.5d
 		}
 		{
@@ -221,6 +221,7 @@
 		}
 		{
 			dependencies: ["52DFF4A301A510C8"]
+			description: ["镭的来源是&6硫酸铀废液&r，你也可以通过&6快中子增殖堆&r获得"]
 			id: "6649D02EADC9CC9B"
 			shape: "circle"
 			tasks: [{
@@ -438,8 +439,8 @@
 				item: "gtocore:nanotube_spool"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 5.0d
+			x: -7.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["6689ABA7FD7B78E7"]
@@ -867,7 +868,7 @@
 				item: "gtocore:mithril_ingot"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 0.0d
 			y: 0.0d
 		}
 		{
@@ -883,8 +884,8 @@
 				item: "gtocore:space_elevator_power_module_1"
 				type: "item"
 			}]
-			x: -7.0d
-			y: 6.5d
+			x: -5.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["256F90AFB461107E"]
@@ -897,8 +898,8 @@
 				item: "gtocore:integral_framework_uv"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 0.0d
+			x: -7.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["7A1E4DBA675E67FB"]
@@ -1007,7 +1008,7 @@
 				item: "gtocore:orichalcum_ingot"
 				type: "item"
 			}]
-			x: 3.5d
+			x: 2.0d
 			y: 0.0d
 		}
 		{
@@ -1211,80 +1212,7 @@
 				type: "item"
 			}]
 			title: "欢迎来到&3极限压&r阶段"
-			x: -2.0d
-			y: 1.5d
-		}
-		{
-			dependencies: ["256F90AFB461107E"]
-			description: ["从辉钼矿粉中来"]
-			hide_dependency_lines: true
-			id: "6B602E416AB57B3C"
-			tasks: [{
-				id: "7AF6931E2349D7DB"
-				item: "gtceu:rhenium_dust"
-				type: "item"
-			}]
-			x: -4.0d
-			y: 0.5d
-		}
-		{
-			dependencies: [
-				"2BD46F9D8A842B4A"
-				"256F90AFB461107E"
-			]
-			description: ["工业空间站的很多材料需要它"]
-			hide_dependency_lines: true
-			id: "18C15CA29316062F"
-			subtitle: "空间站定制材料块"
-			tasks: [{
-				id: "623AFB9A0EB53BD8"
-				item: "gtocore:thermo_press"
-				type: "item"
-			}]
-			x: -3.5d
-			y: 1.5d
-		}
-		{
-			dependencies: ["256F90AFB461107E"]
-			description: ["盐水提纯"]
-			hide_dependency_lines: true
-			id: "7B22A8B66A42157D"
-			tasks: [{
-				id: "3872D2093B7E13EA"
-				item: "gtceu:bromine_bucket"
-				type: "item"
-			}]
 			x: -5.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["256F90AFB461107E"]
-			description: ["镭的来源是&6硫酸铀废液&r，你也可以通过&6快中子增殖堆&r获得"]
-			hide_dependency_lines: true
-			id: "48A1FCE89BCA6141"
-			tasks: [{
-				id: "398DEB097CA78423"
-				item: "gtceu:radium_dust"
-				type: "item"
-			}]
-			x: -6.0d
-			y: 0.5d
-		}
-		{
-			dependencies: [
-				"5612C7735BC4F5BC"
-				"256F90AFB461107E"
-			]
-			description: ["工业空间站的很多材料需要它"]
-			hide_dependency_lines: true
-			id: "7BDD24E8C42100EC"
-			subtitle: "空间站定制材料丝"
-			tasks: [{
-				id: "695CC9CF25F65C39"
-				item: "gtocore:fiber_extruder"
-				type: "item"
-			}]
-			x: -6.5d
 			y: 1.5d
 		}
 		{
@@ -1296,8 +1224,8 @@
 				item: "gtocore:cycloparaphenylene_bucket"
 				type: "item"
 			}]
-			x: -6.5d
-			y: 5.0d
+			x: -7.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["7A1E4DBA675E67FB"]

@@ -112,8 +112,8 @@
 			id: "03CBC6BC46EA333F"
 			linked_quest: "7EA226054696AA3F"
 			shape: "diamond"
-			x: -14.0d
-			y: 3.5d
+			x: -3.5d
+			y: 2.5d
 		}
 		{
 			id: "447496A1C3D6E5C4"
@@ -155,55 +155,6 @@
 			title: "扬雾运动"
 			x: -9.0d
 			y: 4.5d
-		}
-		{
-			dependencies: ["10C397237163BFFC"]
-			description: [
-				"手动运水——终于受够了，我只需要一点杂酚油来造一台&6原始水泵&r"
-				""
-				"&7它不需要放在水上&r，不过&e下雨&r的时候会给予&b1.5倍&r的产出"
-				""
-				"&o&e右击&r或&e[U]&r键主方块查看多方块结构&r"
-				""
-				"用&6任意流体管道&r来运输流体，但是注意&6木制管道&r不能运输&6蒸汽&r"
-				"{@pagebreak}"
-				"将原始水泵放置在不同的群系内会获得不同的产出速率，这里提供部分数据："
-				"海洋/河流群系：1000mb/s"
-				"沼泽：800mb/s"
-				"平原/森林：250mb/s"
-			]
-			icon: "gtceu:primitive_pump"
-			id: "2D630430259F9131"
-			shape: "hexagon"
-			size: 1.5d
-			subtitle: "所处皆为井"
-			tasks: [
-				{
-					id: "6DC00D5FF11E0368"
-					item: "gtceu:primitive_pump"
-					type: "item"
-				}
-				{
-					id: "6C60662C30A7CB38"
-					item: "gtceu:pump_hatch"
-					type: "item"
-				}
-				{
-					count: 10L
-					id: "76EC008967FA4EA0"
-					item: "gtceu:pump_deck"
-					type: "item"
-				}
-				{
-					count: 10L
-					id: "3B593645AABD0EE9"
-					item: "gtceu:treated_wood_frame"
-					type: "item"
-				}
-			]
-			title: "望泵止渴"
-			x: -8.988095238095234d
-			y: 0.08095238095238244d
 		}
 		{
 			dependencies: ["24C53B5FF515ACAC"]
@@ -770,11 +721,14 @@
 				type: "dimension"
 			}]
 			title: "回到过去？"
-			x: 0.0d
-			y: 0.0d
+			x: 9.0d
+			y: -2.0d
 		}
 		{
-			dependencies: ["0DCA3A96184C9EAC"]
+			dependencies: [
+				"0DCA3A96184C9EAC"
+				"27F4D9739FE33A02"
+			]
 			description: [
 				"用这些材料摆一个3x3的平面结构"
 				""
@@ -811,11 +765,11 @@
 				}
 			]
 			title: "远古反应堆"
-			x: 3.0d
+			x: 9.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["6AB9089FDE595716"]
+			dependencies: ["05F4015974079225"]
 			description: [
 				"这也是一种&4超导体&r，只是需要&b魔力灌注&r"
 				""
@@ -823,6 +777,7 @@
 				""
 				"因此我强烈推荐你制作每个阶段的&6魔法合金&r作为超导体"
 			]
+			hide_dependency_lines: true
 			id: "0DCA3A96184C9EAC"
 			rewards: [{
 				count: 16
@@ -839,7 +794,7 @@
 				type: "item"
 			}]
 			title: "嗯？怎么你也？"
-			x: 6.0d
+			x: 6.75d
 			y: 0.0d
 		}
 		{
@@ -858,7 +813,7 @@
 				item: "gtceu:ender_pearl_dust"
 				type: "item"
 			}]
-			shape: "hexagon"
+			shape: "diamond"
 			size: 1.5d
 			subtitle: "它会帮我混合火药吗"
 			tasks: [{
@@ -867,8 +822,8 @@
 				type: "item"
 			}]
 			title: "搅拌机，蒸汽驱动版"
-			x: 9.0d
-			y: 0.0d
+			x: 11.25d
+			y: 3.0d
 		}
 		{
 			dependencies: [
@@ -906,8 +861,8 @@
 				type: "item"
 			}]
 			title: "并非电子管"
-			x: 15.000000000000007d
-			y: 2.75d
+			x: 15.0d
+			y: 3.0d
 		}
 		{
 			dependencies: [
@@ -1068,19 +1023,19 @@
 			}]
 			title: "原矿粉碎者"
 			x: 11.25d
-			y: 3.0d
+			y: 4.5d
 		}
 		{
 			dependencies: [
-				"24C53B5FF515ACAC"
 				"2D630430259F9131"
+				"24C53B5FF515ACAC"
 			]
 			description: [
 				"一块焦煤能支持一个低压锅炉或一个加热器&61280秒&r，意味着手动填燃料不失为中策"
 				""
 				"在你找到大量燃料供应前，这足够你渡过炼钢前的时期"
 				""
-				"当你打算寻找其他产出蒸汽手段的时候，不妨看看左边"
+				"当你打算寻找其他产出蒸汽手段的时候，不妨看看右边"
 			]
 			icon: "gtocore:ulv_conveyor_module"
 			id: "31BB738542229A88"
@@ -1104,7 +1059,7 @@
 			}]
 			title: "半自动化"
 			x: -9.0d
-			y: 2.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["31BB738542229A88"]
@@ -1128,8 +1083,8 @@
 				title: "蒸汽自动化"
 				type: "checkmark"
 			}]
-			x: -11.0d
-			y: 2.0d
+			x: -6.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["7BE51B4BC36F8B7B"]
@@ -1288,8 +1243,8 @@
 				}
 			]
 			title: "另辟蹊径"
-			x: -11.0d
-			y: 0.5d
+			x: -6.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["17408BBD93A18AEC"]
@@ -1432,7 +1387,7 @@
 			}]
 			title: "焦炉Pro Max版"
 			x: 11.25d
-			y: 4.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["27F4D9739FE33A02"]
@@ -1456,7 +1411,7 @@
 			}]
 			title: "更大的保温杯"
 			x: 11.25d
-			y: 1.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["27F4D9739FE33A02"]
@@ -1467,7 +1422,7 @@
 			]
 			id: "524B8340450628A3"
 			shape: "diamond"
-			size: 1.5d
+			size: 1.0d
 			subtitle: "Work！Work！"
 			tasks: [{
 				id: "41CA757DDA6AB954"
@@ -1527,8 +1482,8 @@
 				type: "item"
 			}]
 			title: "更猛的机器们"
-			x: 11.25d
-			y: -1.5d
+			x: 7.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["0019A5EEEE514539"]
@@ -1584,7 +1539,7 @@
 				type: "item"
 			}]
 			x: 11.25d
-			y: 0.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["7BCD49717F8FAD65"]
@@ -1607,8 +1562,8 @@
 				type: "item"
 			}]
 			title: "太阳能锅炉"
-			x: -11.0d
-			y: 3.5d
+			x: -6.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["7BCD49717F8FAD65"]
@@ -1621,8 +1576,8 @@
 				item: "gtceu:hp_steam_solar_boiler"
 				type: "item"
 			}]
-			x: -12.5d
-			y: 3.5d
+			x: -5.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["7BCD49717F8FAD65"]
@@ -1639,8 +1594,8 @@
 				item: "gtceu:lp_steam_liquid_boiler"
 				type: "item"
 			}]
-			x: -12.5d
-			y: 2.0d
+			x: -5.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["7BCD49717F8FAD65"]
@@ -1654,8 +1609,8 @@
 				item: "gtceu:hp_steam_liquid_boiler"
 				type: "item"
 			}]
-			x: -14.0d
-			y: 2.0d
+			x: -3.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["7BCD49717F8FAD65"]
@@ -1667,8 +1622,8 @@
 				item: "gtceu:bronze_large_boiler"
 				type: "item"
 			}]
-			x: -14.0d
-			y: 0.5d
+			x: -3.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["7BCD49717F8FAD65"]
@@ -1686,8 +1641,8 @@
 				type: "item"
 			}]
 			title: "蒸汽扩产"
-			x: -12.5d
-			y: 0.5d
+			x: -5.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["0019A5EEEE514539"]
@@ -1844,7 +1799,7 @@
 				type: "item"
 			}]
 			x: 13.0d
-			y: 0.0d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -1893,8 +1848,8 @@
 				type: "checkmark"
 			}]
 			title: "GT管道"
-			x: -6.75d
-			y: 2.25d
+			x: -11.0d
+			y: 4.5d
 		}
 		{
 			dependencies: [
@@ -1942,6 +1897,55 @@
 			title: "钢补助&e（普通）&r"
 			x: 17.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["10C397237163BFFC"]
+			description: [
+				"手动运水——终于受够了，我只需要一点杂酚油来造一台&6原始水泵&r"
+				""
+				"&7它不需要放在水上&r，不过&e下雨&r的时候会给予&b1.5倍&r的产出"
+				""
+				"&o&e右击&r或&e[U]&r键主方块查看多方块结构&r"
+				""
+				"用&6任意流体管道&r来运输流体，但是注意&6木制管道&r不能运输&6蒸汽&r"
+				"{@pagebreak}"
+				"将原始水泵放置在不同的群系内会获得不同的产出速率，这里提供部分数据："
+				"海洋/河流群系：1000mb/s"
+				"沼泽：800mb/s"
+				"平原/森林：250mb/s"
+			]
+			icon: "gtceu:primitive_pump"
+			id: "2D630430259F9131"
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "所处皆为井"
+			tasks: [
+				{
+					id: "6DC00D5FF11E0368"
+					item: "gtceu:primitive_pump"
+					type: "item"
+				}
+				{
+					id: "6C60662C30A7CB38"
+					item: "gtceu:pump_hatch"
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "76EC008967FA4EA0"
+					item: "gtceu:pump_deck"
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "3B593645AABD0EE9"
+					item: "gtceu:treated_wood_frame"
+					type: "item"
+				}
+			]
+			title: "望泵止渴"
+			x: -9.0d
+			y: -0.75d
 		}
 	]
 	subtitle: ["Tier0-Steam"]

@@ -1430,13 +1430,14 @@
 			id: "14A66BA5BC9DB220"
 			rewards: [
 				{
-					id: "69C1838C97BE66E1"
-					item: "avaritia:star_fuel"
+					count: 128
+					id: "5ADC9A7C15A3777C"
+					item: "minecraft:coal"
 					type: "item"
 				}
 				{
 					count: 64
-					id: "23DF2EDECC7E3B4B"
+					id: "588B1D9AB2ECC44D"
 					item: "gtocore:copper_coin"
 					type: "item"
 				}
@@ -2084,7 +2085,7 @@
 				""
 				"包含魔法，神化，食物以及一些其他东西"
 				""
-				"&e魔法在到达LuV前并不是必选项，你只需要准备一个魔力池即可。&r不过发展魔法能够极大的提升你在科技线中的体验，&o沉淀总是有所回报的"
+				"&e虽然魔法在到达LuV前并不是必选项，但我还是你建议发展魔法。&r发展魔法能够极大的提升你在科技线中的体验，&o沉淀总是有所回报的"
 				"{@pagebreak}"
 				"简单提一下魔法在主线中的应用：HV之前只需魔力池做超导体，HV需要魔力钢做样板更好的配方，需要开精灵门做源质钢做样板供应器更好的配方，LuV需要开门拿精灵玻璃做精灵透镜（必选），后续有部分超导体合成配方；EV做符文可以做下界之星更好的配方，UHV开始需要用到盖亚钢和盖亚魂钢，UEV开始大量使用盖亚魂，准备好盖亚魂循环"
 			]
@@ -2267,6 +2268,7 @@
 				to_observe: "jumbofurnace:jumbo_furnace"
 				type: "observation"
 			}]
+			title: "大熔炉"
 			x: 6.5d
 			y: 2.0d
 		}
