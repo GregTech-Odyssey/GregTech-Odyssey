@@ -71,18 +71,6 @@
 			y: -6.0d
 		}
 		{
-			dependencies: ["6C40812AC329D3E3"]
-			id: "0E1C854C0F7FF62F"
-			subtitle: "毕业了"
-			tasks: [{
-				id: "100E275AB0E6B0D4"
-				item: "gtmthings:creative_laser_hatch"
-				type: "item"
-			}]
-			x: 6.0d
-			y: -4.0d
-		}
-		{
 			dependencies: [
 				"154F80E28FA53D99"
 				"7ED709D3291D6B88"
@@ -91,6 +79,8 @@
 				"恭喜你！当你到达这里的时候，目前完善的内容都已体验完毕！"
 				""
 				"当然，你可以继续游玩目前尚未完善的内容，直到做出右边的毕业物品为止。你可能会遭遇部分物品无法制作，需要创造获取的情况。"
+				""
+				"&o&7/gtocore givecell 可快捷获取所需物品的创造元件"
 			]
 			id: "4BEE8DA7018CD14D"
 			tasks: [{
@@ -172,7 +162,7 @@
 			y: -6.0d
 		}
 		{
-			dependencies: ["0DC13F257B0314CC"]
+			dependencies: ["284111931F2808B4"]
 			id: "6C40812AC329D3E3"
 			tasks: [{
 				id: "059AC9026C52C77D"
@@ -225,7 +215,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -6.0d
+			y: -4.0d
 		}
 		{
 			id: "6974B0DF6C545133"
@@ -235,11 +225,15 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -2.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["6C40812AC329D3E3"]
-			description: ["由于星体套被删了，常规手段进不去创造维度，你可以穿着无尽套传送进去或者干脆直接掏"]
+			description: [
+				"由于星体套被删了，常规手段进不去创造维度，你可以穿着无尽套传送进去或者干脆直接掏"
+				""
+				"引力震爆器也被删了，所以创造维度进去了也没用"
+			]
 			id: "366ADFB6B1790C39"
 			tasks: [{
 				id: "692825417E482701"
@@ -249,7 +243,6 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["7B3C0DB7C1F11692"]
 			id: "0DC13F257B0314CC"
 			tasks: [{
 				id: "1109E4CD5BBDC47E"
@@ -257,7 +250,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -4.0d
+			y: -2.0d
 		}
 		{
 			id: "0DBA04D875077E85"
@@ -317,7 +310,7 @@
 				item: "gtocore:dyson_sphere_launch_silo"
 				type: "item"
 			}]
-			x: -2.0d
+			x: 0.0d
 			y: 1.0d
 		}
 		{
@@ -328,7 +321,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: 2.5d
+			y: 1.0d
 		}
 		{
 			id: "3C0B952E0CC00F3F"
@@ -348,7 +341,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: 4.0d
+			y: 2.5d
 		}
 		{
 			id: "06162F3F043152C0"
@@ -358,7 +351,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: 5.5d
+			y: 4.0d
 		}
 		{
 			id: "2BCC50558D39DC0F"
@@ -368,7 +361,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -0.5d
+			y: -2.0d
 		}
 		{
 			id: "59C507864EF22311"
@@ -378,7 +371,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -2.0d
+			y: -0.5d
 		}
 		{
 			id: "632E5DF6035A2575"
@@ -388,7 +381,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -0.5d
+			y: 1.0d
 		}
 		{
 			id: "2E3713C37C705740"
@@ -462,7 +455,39 @@
 				type: "item"
 			}]
 			x: -2.0d
+			y: 5.5d
+		}
+		{
+			id: "545F36A19089AC29"
+			tasks: [{
+				id: "09AE8F6FA5FF0A8E"
+				item: "gtocore:element_copying"
+				type: "item"
+			}]
+			x: -2.0d
 			y: 7.0d
+		}
+		{
+			id: "2C4F9EFB9F45579C"
+			tasks: [{
+				id: "1ACA13783EFA8ADD"
+				item: "gtocore:create_aggregation"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6C40812AC329D3E3"]
+			id: "0A6D6613179C9787"
+			subtitle: "毕业了"
+			tasks: [{
+				id: "4B8B6AA1CDB7A219"
+				item: "gtocore:command_wand"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -4.0d
 		}
 	]
 	subtitle: ["Tier10-UEV"]

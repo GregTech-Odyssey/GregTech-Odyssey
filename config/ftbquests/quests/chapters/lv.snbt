@@ -756,9 +756,7 @@
 		}
 		{
 			dependencies: ["507807175748245C"]
-			description: [
-				"这个是LV阶段的超导材料"
-			]
+			description: ["这个是LV阶段的超导材料"]
 			hide_dependency_lines: true
 			id: "0DF27446EE5DB28F"
 			tasks: [{
