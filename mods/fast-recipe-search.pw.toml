@@ -1,13 +1,13 @@
 name = "Fast Recipe Search"
-filename = "fastrecipesearch-1.20.1-1.5-forge.jar"
+filename = "fastrecipesearch-1.20.1-1.6-forge.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "1d1119143866216fb7f885f8019277730f0cccaa"
+hash = "2258fb693f292e158d1808a64507374d9cb188c9"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 7384493
+file-id = 7391120
 project-id = 1406509
