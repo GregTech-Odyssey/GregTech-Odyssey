@@ -38,14 +38,6 @@
 			x: 2.0d
 			y: -4.5d
 		}
-		{
-			height: 1.0d
-			image: "gtocore:item/circuit/suprachronal_max"
-			rotation: 0.0d
-			width: 1.0d
-			x: 4.0d
-			y: -4.5d
-		}
 	]
 	order_index: 12
 	quest_links: [{
@@ -104,7 +96,7 @@
 			y: -6.0d
 		}
 		{
-			description: ["{gto.uev.quests.79F7E5BB7025ED2D.description0}"]
+			description: [""]
 			id: "79F7E5BB7025ED2D"
 			subtitle: "{gto.uev.quests.79F7E5BB7025ED2D.subtitle}"
 			tasks: [{
@@ -162,17 +154,6 @@
 			y: -6.0d
 		}
 		{
-			dependencies: ["284111931F2808B4"]
-			id: "6C40812AC329D3E3"
-			tasks: [{
-				id: "059AC9026C52C77D"
-				item: "gtocore:door_of_create"
-				type: "item"
-			}]
-			x: 4.0d
-			y: -4.0d
-		}
-		{
 			dependencies: ["4BEE8DA7018CD14D"]
 			id: "56BEFB6D64D496A1"
 			tasks: [{
@@ -226,21 +207,6 @@
 			}]
 			x: 0.0d
 			y: -0.5d
-		}
-		{
-			dependencies: ["6C40812AC329D3E3"]
-			description: [
-				"{gto.uev.quests.366ADFB6B1790C39.description0}"
-				""
-				"{gto.uev.quests.366ADFB6B1790C39.description1}"
-			]
-			id: "366ADFB6B1790C39"
-			tasks: [{
-				id: "692825417E482701"
-				type: "checkmark"
-			}]
-			x: 4.0d
-			y: -2.0d
 		}
 		{
 			id: "0DC13F257B0314CC"
@@ -466,28 +432,6 @@
 			}]
 			x: -2.0d
 			y: 7.0d
-		}
-		{
-			id: "2C4F9EFB9F45579C"
-			tasks: [{
-				id: "1ACA13783EFA8ADD"
-				item: "gtocore:create_aggregation"
-				type: "item"
-			}]
-			x: 4.0d
-			y: -0.5d
-		}
-		{
-			dependencies: ["6C40812AC329D3E3"]
-			id: "0A6D6613179C9787"
-			subtitle: "{gto.uev.quests.0A6D6613179C9787.subtitle}"
-			tasks: [{
-				id: "4B8B6AA1CDB7A219"
-				item: "gtocore:command_wand"
-				type: "item"
-			}]
-			x: 6.0d
-			y: -4.0d
 		}
 	]
 	subtitle: ["{gto.uev.subtitle0}"]
