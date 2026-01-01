@@ -617,10 +617,10 @@
 					id: "1B47D28C38356572"
 					item: "gtocore:filtered_water_bucket"
 					type: "item"
+					optional_task: true
 				}
 				{
 					id: "37BA57E0B53A42AE"
-					title: "跳过该步骤"
 					type: "checkmark"
 				}
 			]
@@ -753,6 +753,7 @@
 					id: "55E9D5CC32E222D4"
 					item: "gtceu:radon_bucket"
 					type: "item"
+					optional_task: true
 				}
 				{
 					id: "38282FFC72949A36"
@@ -888,6 +889,7 @@
 					id: "048B2C25DB06308B"
 					item: "gtocore:dense_hydrazine_fuel_mixture_bucket"
 					type: "item"
+					optional_task: true
 				}
 				{
 					id: "041911FC3851A1F0"
@@ -907,6 +909,7 @@
 					id: "48161A1D2AE0A2DF"
 					item: "gtocore:rocket_fuel_cn3h7o3_bucket"
 					type: "item"
+					optional_task: true
 				}
 				{
 					id: "55FFB0C688044409"
@@ -926,6 +929,7 @@
 					id: "7FDB4FE75E8EA037"
 					item: "gtocore:rocket_fuel_rp_1_bucket"
 					type: "item"
+					optional_task: true
 				}
 				{
 					id: "3AEEB024ED6027F7"
@@ -1055,10 +1059,10 @@
 					id: "650B93BEDDFFE7C7"
 					item: "gtceu:uranium_hexafluoride_bucket"
 					type: "item"
+					optional_task: true
 				}
 				{
 					id: "422AFC345FA8FEFF"
-					title: "跳过该步骤"
 					type: "checkmark"
 				}
 			]
@@ -1074,10 +1078,10 @@
 					id: "79F12733032D85F4"
 					item: "gtceu:enriched_uranium_hexafluoride_bucket"
 					type: "item"
+					optional_task: true
 				}
 				{
 					id: "6415F477685EB02C"
-					title: "跳过该步骤"
 					type: "checkmark"
 				}
 			]
@@ -1093,10 +1097,10 @@
 					id: "20E6582B7DFB9FF7"
 					item: "gtceu:depleted_uranium_hexafluoride_bucket"
 					type: "item"
+					optional_task: true
 				}
 				{
 					id: "356CDD0BC05B19C6"
-					title: "跳过该步骤"
 					type: "checkmark"
 				}
 			]
@@ -1174,13 +1178,21 @@
 			id: "5FC85281DA794E02"
 			shape: "hexagon"
 			size: 1.5d
-			tasks: [{
-				id: "151BAA19BA2596B5"
-				item: "gtceu:silicone_rubber_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "151BAA19BA2596B5"
+					item: "gtceu:silicone_rubber_bucket"
+					type: "item"
+					optional_task: true
+				}
+				{
+					id: "151BAA19BA2596B5_CHECKMARK"
+					type: "checkmark"
+				}
+			]
 			x: -0.5d
 			y: -13.0d
+			icon: "gtceu:silicone_rubber_bucket"
 		}
 		{
 			dependencies: ["08891CB1BAFA5515"]

@@ -684,13 +684,21 @@
 				"四氯化钛也可用于催化聚合"
 			]
 			id: "445C071E8F1B1B9E"
-			tasks: [{
-				id: "66D2195D7E1F6883"
-				item: "gtceu:titanium_tetrachloride_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "66D2195D7E1F6883"
+					item: "gtceu:titanium_tetrachloride_bucket"
+					type: "item"
+					optional_task: true
+				}
+				{
+					id: "66D2195D7E1F6883_CHECKMARK"
+					type: "checkmark"
+				}
+			]
 			x: 15.0d
 			y: -1.0d
+			icon: "gtceu:titanium_tetrachloride_bucket"
 		}
 		{
 			dependencies: [

@@ -444,14 +444,22 @@
 			shape: "gear"
 			size: 2.0d
 			subtitle: "{gto.beyond-the-stars.quests.16B3AB1D455CCB50.subtitle}"
-			tasks: [{
-				id: "25EE9615BE500843"
-				item: "enderio:rocket_fuel_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "25EE9615BE500843"
+					item: "enderio:rocket_fuel_bucket"
+					type: "item"
+					optional_task: true
+				}
+				{
+					id: "25EE9615BE500843_CHECKMARK"
+					type: "checkmark"
+				}
+			]
 			title: "{gto.beyond-the-stars.quests.16B3AB1D455CCB50.title}"
 			x: -9.0d
 			y: -2.0d
+			icon: "enderio:rocket_fuel_bucket"
 		}
 		{
 			dependencies: [
@@ -460,13 +468,21 @@
 				"0C63F8EC1AFEDE55"
 			]
 			id: "7F6CB9F67636C565"
-			tasks: [{
-				id: "6A3864F8DDF3E827"
-				item: "gtceu:dimethylhydrazine_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "6A3864F8DDF3E827"
+					item: "gtceu:dimethylhydrazine_bucket"
+					type: "item"
+					optional_task: true
+				}
+				{
+					id: "6A3864F8DDF3E827_CHECKMARK"
+					type: "checkmark"
+				}
+			]
 			x: -11.0d
 			y: -2.0d
+			icon: "gtceu:dimethylhydrazine_bucket"
 		}
 		{
 			dependencies: [
@@ -474,13 +490,21 @@
 				"1934F6B99DC0A294"
 			]
 			id: "0C63F8EC1AFEDE55"
-			tasks: [{
-				id: "46AA82A401522D04"
-				item: "gtceu:ammonia_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "46AA82A401522D04"
+					item: "gtceu:ammonia_bucket"
+					type: "item"
+					optional_task: true
+				}
+				{
+					id: "46AA82A401522D04_CHECKMARK"
+					type: "checkmark"
+				}
+			]
 			x: -10.0d
 			y: -3.5d
+			icon: "gtceu:ammonia_bucket"
 		}
 		{
 			dependencies: [
@@ -488,13 +512,21 @@
 				"31617336D062DBDE"
 			]
 			id: "762B4A5D34A3A4B1"
-			tasks: [{
-				id: "20D9E59974B3956E"
-				item: "gtceu:methanol_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "20D9E59974B3956E"
+					item: "gtceu:methanol_bucket"
+					type: "item"
+					optional_task: true
+				}
+				{
+					id: "20D9E59974B3956E_CHECKMARK"
+					type: "checkmark"
+				}
+			]
 			x: -12.0d
 			y: -3.5d
+			icon: "gtceu:methanol_bucket"
 		}
 		{
 			dependencies: [
@@ -502,33 +534,57 @@
 				"0BA4AFD79925EF42"
 			]
 			id: "7C3A3C69E79DB794"
-			tasks: [{
-				id: "7E5F50DA3CC7326A"
-				item: "gtceu:hypochlorous_acid_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "7E5F50DA3CC7326A"
+					item: "gtceu:hypochlorous_acid_bucket"
+					type: "item"
+					optional_task: true
+				}
+				{
+					id: "7E5F50DA3CC7326A_CHECKMARK"
+					type: "checkmark"
+				}
+			]
 			x: -13.0d
 			y: -2.0d
+			icon: "gtceu:hypochlorous_acid_bucket"
 		}
 		{
 			id: "1934F6B99DC0A294"
-			tasks: [{
-				id: "12D4E5C7754DA3DD"
-				item: "ad_astra:hydrogen_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "12D4E5C7754DA3DD"
+					item: "ad_astra:hydrogen_bucket"
+					type: "item"
+					optional_task: true
+				}
+				{
+					id: "12D4E5C7754DA3DD_CHECKMARK"
+					type: "checkmark"
+				}
+			]
 			x: -11.0d
 			y: -5.0d
+			icon: "ad_astra:hydrogen_bucket"
 		}
 		{
 			id: "6B7CAB754F778C09"
-			tasks: [{
-				id: "333A0E37B3BD8D56"
-				item: "gtceu:nitrogen_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "333A0E37B3BD8D56"
+					item: "gtceu:nitrogen_bucket"
+					type: "item"
+					optional_task: true
+				}
+				{
+					id: "333A0E37B3BD8D56_CHECKMARK"
+					type: "checkmark"
+				}
+			]
 			x: -9.0d
 			y: -5.0d
+			icon: "gtceu:nitrogen_bucket"
 		}
 		{
 			id: "31617336D062DBDE"
@@ -537,11 +593,17 @@
 					id: "3502C02DE231D37C"
 					item: "gtceu:carbon_dioxide_bucket"
 					type: "item"
+					optional_task: true
 				}
 				{
 					id: "4CDFC1F2BDFF3CC3"
 					item: "gtceu:carbon_monoxide_bucket"
 					type: "item"
+					optional_task: true
+				}
+				{
+					id: "3502C02DE231D37C_CHECKMARK"
+					type: "checkmark"
 				}
 			]
 			x: -13.0d
@@ -549,23 +611,39 @@
 		}
 		{
 			id: "0BA4AFD79925EF42"
-			tasks: [{
-				id: "028CDD8407DB2F3C"
-				item: "gtceu:chlorine_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "028CDD8407DB2F3C"
+					item: "gtceu:chlorine_bucket"
+					type: "item"
+					optional_task: true
+				}
+				{
+					id: "028CDD8407DB2F3C_CHECKMARK"
+					type: "checkmark"
+				}
+			]
 			x: -15.0d
 			y: -2.0d
+			icon: "gtceu:chlorine_bucket"
 		}
 		{
 			id: "1979ACE02FD1FFEA"
-			tasks: [{
-				id: "78FE9410241C9917"
-				item: "gtceu:mercury_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "78FE9410241C9917"
+					item: "gtceu:mercury_bucket"
+					type: "item"
+					optional_task: true
+				}
+				{
+					id: "78FE9410241C9917_CHECKMARK"
+					type: "checkmark"
+				}
+			]
 			x: -14.0d
 			y: -3.5d
+			icon: "gtceu:mercury_bucket"
 		}
 		{
 			dependencies: [
@@ -776,14 +854,22 @@
 			shape: "gear"
 			size: 2.0d
 			subtitle: "{gto.beyond-the-stars.quests.6C645FDD0CF3C52A.subtitle}"
-			tasks: [{
-				id: "7C924195EC353447"
-				item: "gtocore:rocket_fuel_rp_1_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "7C924195EC353447"
+					item: "gtocore:rocket_fuel_rp_1_bucket"
+					type: "item"
+					optional_task: true
+				}
+				{
+					id: "7C924195EC353447_CHECKMARK"
+					type: "checkmark"
+				}
+			]
 			title: "{gto.beyond-the-stars.quests.6C645FDD0CF3C52A.title}"
 			x: -9.0d
 			y: 1.0d
+			icon: "gtocore:rocket_fuel_rp_1_bucket"
 		}
 		{
 			dependencies: ["61C37EC8503FFDD9"]
@@ -799,11 +885,17 @@
 					id: "292904C3EDCD58AF"
 					item: "gtceu:helium_3_bucket"
 					type: "item"
+					optional_task: true
 				}
 				{
 					id: "4196672A73181C34"
 					item: "gtceu:helium_bucket"
 					type: "item"
+					optional_task: true
+				}
+				{
+					id: "292904C3EDCD58AF_CHECKMARK"
+					type: "checkmark"
 				}
 			]
 			title: "{gto.beyond-the-stars.quests.69AED014FEDA7997.title}"
@@ -890,14 +982,22 @@
 			]
 			id: "7662AEC801BD79CC"
 			subtitle: "{gto.beyond-the-stars.quests.7662AEC801BD79CC.subtitle}"
-			tasks: [{
-				id: "5AE2A4204E137F9F"
-				item: "gtceu:radon_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "5AE2A4204E137F9F"
+					item: "gtceu:radon_bucket"
+					type: "item"
+					optional_task: true
+				}
+				{
+					id: "5AE2A4204E137F9F_CHECKMARK"
+					type: "checkmark"
+				}
+			]
 			title: "{gto.beyond-the-stars.quests.7662AEC801BD79CC.title}"
 			x: 17.5d
 			y: -1.0d
+			icon: "gtceu:radon_bucket"
 		}
 		{
 			dependencies: ["64FA0FF3FE276D35"]
@@ -1051,44 +1151,76 @@
 		{
 			dependencies: ["34391A7A0D1E8CB6"]
 			id: "21F34E0000FD10CC"
-			tasks: [{
-				id: "6A176F61DE3F18B9"
-				item: "gtocore:rp_1_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "6A176F61DE3F18B9"
+					item: "gtocore:rp_1_bucket"
+					type: "item"
+					optional_task: true
+				}
+				{
+					id: "6A176F61DE3F18B9_CHECKMARK"
+					type: "checkmark"
+				}
+			]
 			x: -11.0d
 			y: 1.0d
+			icon: "gtocore:rp_1_bucket"
 		}
 		{
 			id: "34391A7A0D1E8CB6"
-			tasks: [{
-				id: "0AFD72B5DCEE5DC8"
-				item: "gtocore:kerosene_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "0AFD72B5DCEE5DC8"
+					item: "gtocore:kerosene_bucket"
+					type: "item"
+					optional_task: true
+				}
+				{
+					id: "0AFD72B5DCEE5DC8_CHECKMARK"
+					type: "checkmark"
+				}
+			]
 			x: -13.0d
 			y: 1.0d
+			icon: "gtocore:kerosene_bucket"
 		}
 		{
 			dependencies: ["63CCBDEBF0E99D29"]
 			id: "16B6F1CEA28F2D42"
-			tasks: [{
-				id: "1263A65B7E9EF28A"
-				item: "gtceu:liquid_oxygen_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "1263A65B7E9EF28A"
+					item: "gtceu:liquid_oxygen_bucket"
+					type: "item"
+					optional_task: true
+				}
+				{
+					id: "1263A65B7E9EF28A_CHECKMARK"
+					type: "checkmark"
+				}
+			]
 			x: -10.0d
 			y: -0.5d
+			icon: "gtceu:liquid_oxygen_bucket"
 		}
 		{
 			id: "63CCBDEBF0E99D29"
-			tasks: [{
-				id: "7DEE739A71B6EE4C"
-				item: "gtocore:high_pressure_oxygen_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "7DEE739A71B6EE4C"
+					item: "gtocore:high_pressure_oxygen_bucket"
+					type: "item"
+					optional_task: true
+				}
+				{
+					id: "7DEE739A71B6EE4C_CHECKMARK"
+					type: "checkmark"
+				}
+			]
 			x: -12.0d
 			y: -0.5d
+			icon: "gtocore:high_pressure_oxygen_bucket"
 		}
 		{
 			dependencies: ["4BA3FA62A307DBC5"]
@@ -1195,14 +1327,22 @@
 			description: ["{gto.beyond-the-stars.quests.0D47C721AD61B0D6.description0}"]
 			id: "0D47C721AD61B0D6"
 			subtitle: "{gto.beyond-the-stars.quests.0D47C721AD61B0D6.subtitle}"
-			tasks: [{
-				id: "1A2AE269F29745D8"
-				item: "gtceu:deuterium_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "1A2AE269F29745D8"
+					item: "gtceu:deuterium_bucket"
+					type: "item"
+					optional_task: true
+				}
+				{
+					id: "1A2AE269F29745D8_CHECKMARK"
+					type: "checkmark"
+				}
+			]
 			title: "{gto.beyond-the-stars.quests.0D47C721AD61B0D6.title}"
 			x: 20.5d
 			y: 8.0d
+			icon: "gtceu:deuterium_bucket"
 		}
 		{
 			dependencies: [
@@ -1220,25 +1360,41 @@
 			shape: "gear"
 			size: 2.0d
 			subtitle: "{gto.beyond-the-stars.quests.637E8174DF8EA186.subtitle}"
-			tasks: [{
-				id: "7EEC6C0D854EE625"
-				item: "gtocore:dense_hydrazine_fuel_mixture_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "7EEC6C0D854EE625"
+					item: "gtocore:dense_hydrazine_fuel_mixture_bucket"
+					type: "item"
+					optional_task: true
+				}
+				{
+					id: "7EEC6C0D854EE625_CHECKMARK"
+					type: "checkmark"
+				}
+			]
 			title: "{gto.beyond-the-stars.quests.637E8174DF8EA186.title}"
 			x: -9.0d
 			y: 4.0d
+			icon: "gtocore:dense_hydrazine_fuel_mixture_bucket"
 		}
 		{
 			dependencies: ["68063150194F78B2"]
 			id: "17324D4DD97218DA"
-			tasks: [{
-				id: "791F544007F5C44B"
-				item: "gtocore:hydrazine_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "791F544007F5C44B"
+					item: "gtocore:hydrazine_bucket"
+					type: "item"
+					optional_task: true
+				}
+				{
+					id: "791F544007F5C44B_CHECKMARK"
+					type: "checkmark"
+				}
+			]
 			x: -11.0d
 			y: 4.0d
+			icon: "gtocore:hydrazine_bucket"
 		}
 		{
 			dependencies: [
@@ -1247,45 +1403,77 @@
 			]
 			description: ["{gto.beyond-the-stars.quests.68063150194F78B2.description0}"]
 			id: "68063150194F78B2"
-			tasks: [{
-				id: "53864576DBC33BC3"
-				item: "gtceu:hydrogen_peroxide_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "53864576DBC33BC3"
+					item: "gtceu:hydrogen_peroxide_bucket"
+					type: "item"
+					optional_task: true
+				}
+				{
+					id: "53864576DBC33BC3_CHECKMARK"
+					type: "checkmark"
+				}
+			]
 			x: -12.5d
 			y: 4.0d
+			icon: "gtceu:hydrogen_peroxide_bucket"
 		}
 		{
 			id: "73C01EC9D0386D60"
-			tasks: [{
-				id: "2499D6CA9DC93682"
-				item: "gtocore:anthracene_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2499D6CA9DC93682"
+					item: "gtocore:anthracene_bucket"
+					type: "item"
+					optional_task: true
+				}
+				{
+					id: "2499D6CA9DC93682_CHECKMARK"
+					type: "checkmark"
+				}
+			]
 			x: -12.5d
 			y: 2.5d
+			icon: "gtocore:anthracene_bucket"
 		}
 		{
 			dependencies: ["7171DE9F90EA9B98"]
 			id: "6924A3A7911E2F3B"
-			tasks: [{
-				id: "2D10548B6DBD2F40"
-				item: "gtocore:ethylanthrahydroquinone_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2D10548B6DBD2F40"
+					item: "gtocore:ethylanthrahydroquinone_bucket"
+					type: "item"
+					optional_task: true
+				}
+				{
+					id: "2D10548B6DBD2F40_CHECKMARK"
+					type: "checkmark"
+				}
+			]
 			x: -14.0d
 			y: 4.0d
+			icon: "gtocore:ethylanthrahydroquinone_bucket"
 		}
 		{
 			dependencies: ["32ECB55F2F81A733"]
 			id: "7171DE9F90EA9B98"
-			tasks: [{
-				id: "394B23E00FE9E216"
-				item: "gtocore:ethylanthraquinone_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "394B23E00FE9E216"
+					item: "gtocore:ethylanthraquinone_bucket"
+					type: "item"
+					optional_task: true
+				}
+				{
+					id: "394B23E00FE9E216_CHECKMARK"
+					type: "checkmark"
+				}
+			]
 			x: -15.5d
 			y: 4.0d
+			icon: "gtocore:ethylanthraquinone_bucket"
 		}
 		{
 			dependencies: ["0722FCD257F887E1"]
@@ -1306,13 +1494,21 @@
 			dependency_requirement: "one_completed"
 			description: ["{gto.beyond-the-stars.quests.0722FCD257F887E1.description0}"]
 			id: "0722FCD257F887E1"
-			tasks: [{
-				id: "4990E4E42B5DEF42"
-				item: "gtceu:phthalic_acid_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4990E4E42B5DEF42"
+					item: "gtceu:phthalic_acid_bucket"
+					type: "item"
+					optional_task: true
+				}
+				{
+					id: "4990E4E42B5DEF42_CHECKMARK"
+					type: "checkmark"
+				}
+			]
 			x: -18.5d
 			y: 4.0d
+			icon: "gtceu:phthalic_acid_bucket"
 		}
 		{
 			id: "04132175DE54AF89"
@@ -1341,13 +1537,21 @@
 		}
 		{
 			id: "0C60C5B1FE950A2D"
-			tasks: [{
-				id: "433E5F7660DB579B"
-				item: "gtceu:dimethylbenzene_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "433E5F7660DB579B"
+					item: "gtceu:dimethylbenzene_bucket"
+					type: "item"
+					optional_task: true
+				}
+				{
+					id: "433E5F7660DB579B_CHECKMARK"
+					type: "checkmark"
+				}
+			]
 			x: -17.5d
 			y: 1.0d
+			icon: "gtceu:dimethylbenzene_bucket"
 		}
 		{
 			dependencies: [
@@ -1366,37 +1570,61 @@
 		}
 		{
 			id: "336C48E022910CC6"
-			tasks: [{
-				id: "14A75B587CEE2F56"
-				item: "gtceu:naphthalene_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "14A75B587CEE2F56"
+					item: "gtceu:naphthalene_bucket"
+					type: "item"
+					optional_task: true
+				}
+				{
+					id: "14A75B587CEE2F56_CHECKMARK"
+					type: "checkmark"
+				}
+			]
 			x: -21.5d
 			y: 5.0d
+			icon: "gtceu:naphthalene_bucket"
 		}
 		{
 			dependencies: ["0FA017F31EF08F19"]
 			description: ["{gto.beyond-the-stars.quests.28F541BD5C97C37D.description0}"]
 			id: "28F541BD5C97C37D"
 			subtitle: "{gto.beyond-the-stars.quests.28F541BD5C97C37D.subtitle}"
-			tasks: [{
-				id: "1C462AD9877FF1C4"
-				item: "gtceu:sulfuric_acid_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "1C462AD9877FF1C4"
+					item: "gtceu:sulfuric_acid_bucket"
+					type: "item"
+					optional_task: true
+				}
+				{
+					id: "1C462AD9877FF1C4_CHECKMARK"
+					type: "checkmark"
+				}
+			]
 			title: "{gto.beyond-the-stars.quests.28F541BD5C97C37D.title}"
 			x: 25.0d
 			y: 3.0d
+			icon: "gtceu:sulfuric_acid_bucket"
 		}
 		{
 			id: "17E01888FDA360DD"
-			tasks: [{
-				id: "1B5FF575C5E1AAB9"
-				item: "gtceu:sulfuric_acid_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "1B5FF575C5E1AAB9"
+					item: "gtceu:sulfuric_acid_bucket"
+					type: "item"
+					optional_task: true
+				}
+				{
+					id: "1B5FF575C5E1AAB9_CHECKMARK"
+					type: "checkmark"
+				}
+			]
 			x: -21.5d
 			y: 3.0d
+			icon: "gtceu:sulfuric_acid_bucket"
 		}
 		{
 			dependencies: ["0FA017F31EF08F19"]
@@ -1527,16 +1755,23 @@
 					id: "10A049F6B720C0B2"
 					item: "gtceu:neon_bucket"
 					type: "item"
+					optional_task: true
 				}
 				{
 					id: "671D37985CA97721"
 					item: "gtceu:krypton_bucket"
 					type: "item"
+					optional_task: true
 				}
 				{
 					id: "1123E9513445EB5C"
 					item: "gtceu:xenon_bucket"
 					type: "item"
+					optional_task: true
+				}
+				{
+					id: "10A049F6B720C0B2_CHECKMARK"
+					type: "checkmark"
 				}
 			]
 			title: "{gto.beyond-the-stars.quests.32935F6DA068131D.title}"
@@ -1730,14 +1965,22 @@
 			]
 			id: "0A4D00F9F44C97DB"
 			subtitle: "{gto.beyond-the-stars.quests.0A4D00F9F44C97DB.subtitle}"
-			tasks: [{
-				id: "269637B80C1CC38F"
-				item: "gtceu:coal_gas_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "269637B80C1CC38F"
+					item: "gtceu:coal_gas_bucket"
+					type: "item"
+					optional_task: true
+				}
+				{
+					id: "269637B80C1CC38F_CHECKMARK"
+					type: "checkmark"
+				}
+			]
 			title: "{gto.beyond-the-stars.quests.0A4D00F9F44C97DB.title}"
 			x: 18.0d
 			y: 11.0d
+			icon: "gtceu:coal_gas_bucket"
 		}
 		{
 			dependencies: ["15356C4478131544"]
@@ -1828,14 +2071,22 @@
 			description: ["{gto.beyond-the-stars.quests.5A9B6F823ED2477C.description0}"]
 			id: "5A9B6F823ED2477C"
 			subtitle: "{gto.beyond-the-stars.quests.5A9B6F823ED2477C.subtitle}"
-			tasks: [{
-				id: "4A497D4C5BF483F7"
-				item: "gtceu:hydrochloric_acid_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4A497D4C5BF483F7"
+					item: "gtceu:hydrochloric_acid_bucket"
+					type: "item"
+					optional_task: true
+				}
+				{
+					id: "4A497D4C5BF483F7_CHECKMARK"
+					type: "checkmark"
+				}
+			]
 			title: "{gto.beyond-the-stars.quests.5A9B6F823ED2477C.title}"
 			x: 21.5d
 			y: 17.0d
+			icon: "gtceu:hydrochloric_acid_bucket"
 		}
 		{
 			dependencies: [
@@ -1943,11 +2194,17 @@
 					id: "56C39CCE7E576CC4"
 					item: "gtceu:chlorine_bucket"
 					type: "item"
+					optional_task: true
 				}
 				{
 					id: "7C8982F27FB60C46"
 					item: "gtceu:fluorine_bucket"
 					type: "item"
+					optional_task: true
+				}
+				{
+					id: "56C39CCE7E576CC4_CHECKMARK"
+					type: "checkmark"
 				}
 			]
 			title: "{gto.beyond-the-stars.quests.6B02B6F20B71608C.title}"
@@ -2002,16 +2259,23 @@
 					id: "4068B8C86678C11E"
 					item: "gtceu:charcoal_byproducts_bucket"
 					type: "item"
+					optional_task: true
 				}
 				{
 					id: "3CE503B87A0B4CD4"
 					item: "gtceu:methane_bucket"
 					type: "item"
+					optional_task: true
 				}
 				{
 					id: "534D12A19EB1346B"
 					item: "gtceu:benzene_bucket"
 					type: "item"
+					optional_task: true
+				}
+				{
+					id: "4068B8C86678C11E_CHECKMARK"
+					type: "checkmark"
 				}
 			]
 			title: "{gto.beyond-the-stars.quests.472BC6B26F91C9F2.title}"
@@ -2061,14 +2325,22 @@
 			]
 			id: "6C8CFC519E3813AC"
 			subtitle: "{gto.beyond-the-stars.quests.6C8CFC519E3813AC.subtitle}"
-			tasks: [{
-				id: "658085A3B7E95095"
-				item: "gtceu:nitric_acid_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "658085A3B7E95095"
+					item: "gtceu:nitric_acid_bucket"
+					type: "item"
+					optional_task: true
+				}
+				{
+					id: "658085A3B7E95095_CHECKMARK"
+					type: "checkmark"
+				}
+			]
 			title: "{gto.beyond-the-stars.quests.6C8CFC519E3813AC.title}"
 			x: 6.0d
 			y: 14.5d
+			icon: "gtceu:nitric_acid_bucket"
 		}
 		{
 			dependencies: ["20932057C572CBB7"]
@@ -2287,11 +2559,17 @@
 					id: "169BC195B7AF8027"
 					item: "gtocore:unknowwater_bucket"
 					type: "item"
+					optional_task: true
 				}
 				{
 					id: "1A2514714DDB426F"
 					item: "gtocore:barnarda_air_bucket"
 					type: "item"
+					optional_task: true
+				}
+				{
+					id: "169BC195B7AF8027_CHECKMARK"
+					type: "checkmark"
 				}
 			]
 			title: "{gto.beyond-the-stars.quests.3E1CA6DA4998A682.title}"
@@ -2312,24 +2590,40 @@
 			shape: "gear"
 			size: 2.0d
 			subtitle: "{gto.beyond-the-stars.quests.5CA2359D7B952655.subtitle}"
-			tasks: [{
-				id: "144A747E3B0BBC44"
-				item: "gtocore:rocket_fuel_cn3h7o3_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "144A747E3B0BBC44"
+					item: "gtocore:rocket_fuel_cn3h7o3_bucket"
+					type: "item"
+					optional_task: true
+				}
+				{
+					id: "144A747E3B0BBC44_CHECKMARK"
+					type: "checkmark"
+				}
+			]
 			title: "{gto.beyond-the-stars.quests.5CA2359D7B952655.title}"
 			x: -9.0d
 			y: 7.0d
+			icon: "gtocore:rocket_fuel_cn3h7o3_bucket"
 		}
 		{
 			id: "3AA02FCCAFB82E87"
-			tasks: [{
-				id: "4F351B531D0224A4"
-				item: "gtocore:monomethylhydrazine_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4F351B531D0224A4"
+					item: "gtocore:monomethylhydrazine_bucket"
+					type: "item"
+					optional_task: true
+				}
+				{
+					id: "4F351B531D0224A4_CHECKMARK"
+					type: "checkmark"
+				}
+			]
 			x: -11.0d
 			y: 7.0d
+			icon: "gtocore:monomethylhydrazine_bucket"
 		}
 		{
 			dependencies: [
@@ -2348,34 +2642,58 @@
 			shape: "gear"
 			size: 2.0d
 			subtitle: "{gto.beyond-the-stars.quests.4A3E57669091C8A0.subtitle}"
-			tasks: [{
-				id: "750F536A3AF98C27"
-				item: "gtocore:rocket_fuel_h8n4c2o4_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "750F536A3AF98C27"
+					item: "gtocore:rocket_fuel_h8n4c2o4_bucket"
+					type: "item"
+					optional_task: true
+				}
+				{
+					id: "750F536A3AF98C27_CHECKMARK"
+					type: "checkmark"
+				}
+			]
 			title: "{gto.beyond-the-stars.quests.4A3E57669091C8A0.title}"
 			x: -9.0d
 			y: 10.0d
+			icon: "gtocore:rocket_fuel_h8n4c2o4_bucket"
 		}
 		{
 			id: "726D63623917AEFF"
-			tasks: [{
-				id: "3C47A545034DAFF5"
-				item: "gtceu:dimethylhydrazine_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "3C47A545034DAFF5"
+					item: "gtceu:dimethylhydrazine_bucket"
+					type: "item"
+					optional_task: true
+				}
+				{
+					id: "3C47A545034DAFF5_CHECKMARK"
+					type: "checkmark"
+				}
+			]
 			x: -11.0d
 			y: 10.5d
+			icon: "gtceu:dimethylhydrazine_bucket"
 		}
 		{
 			id: "618BFD8A6FC90B86"
-			tasks: [{
-				id: "68844B5F07613780"
-				item: "gtceu:dinitrogen_tetroxide_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "68844B5F07613780"
+					item: "gtceu:dinitrogen_tetroxide_bucket"
+					type: "item"
+					optional_task: true
+				}
+				{
+					id: "68844B5F07613780_CHECKMARK"
+					type: "checkmark"
+				}
+			]
 			x: -11.0d
 			y: 9.0d
+			icon: "gtceu:dinitrogen_tetroxide_bucket"
 		}
 		{
 			dependencies: [
@@ -2389,24 +2707,40 @@
 			shape: "gear"
 			size: 2.0d
 			subtitle: "{gto.beyond-the-stars.quests.2A60421E915FF505.subtitle}"
-			tasks: [{
-				id: "06DB0648CC6329ED"
-				item: "ad_astra:cryo_fuel_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "06DB0648CC6329ED"
+					item: "ad_astra:cryo_fuel_bucket"
+					type: "item"
+					optional_task: true
+				}
+				{
+					id: "06DB0648CC6329ED_CHECKMARK"
+					type: "checkmark"
+				}
+			]
 			title: "{gto.beyond-the-stars.quests.2A60421E915FF505.title}"
 			x: -9.0d
 			y: 13.0d
+			icon: "ad_astra:cryo_fuel_bucket"
 		}
 		{
 			id: "462BE2D4394A2899"
-			tasks: [{
-				id: "5CC6A7DE21C2E580"
-				item: "gtocore:explosivehydrazine_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "5CC6A7DE21C2E580"
+					item: "gtocore:explosivehydrazine_bucket"
+					type: "item"
+					optional_task: true
+				}
+				{
+					id: "5CC6A7DE21C2E580_CHECKMARK"
+					type: "checkmark"
+				}
+			]
 			x: -11.0d
 			y: 14.0d
+			icon: "gtocore:explosivehydrazine_bucket"
 		}
 		{
 			id: "5EECA1A7B726B29F"
@@ -2420,13 +2754,21 @@
 		}
 		{
 			id: "67A5C9B045EE23B0"
-			tasks: [{
-				id: "670C999BAD383253"
-				item: "gtceu:cetane_boosted_diesel_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "670C999BAD383253"
+					item: "gtceu:cetane_boosted_diesel_bucket"
+					type: "item"
+					optional_task: true
+				}
+				{
+					id: "670C999BAD383253_CHECKMARK"
+					type: "checkmark"
+				}
+			]
 			x: -11.5d
 			y: 13.0d
+			icon: "gtceu:cetane_boosted_diesel_bucket"
 		}
 		{
 			dependencies: [
@@ -2438,14 +2780,22 @@
 			shape: "gear"
 			size: 2.0d
 			subtitle: "{gto.beyond-the-stars.quests.3581343F25D5B03F.subtitle}"
-			tasks: [{
-				id: "5DC2AE50E6E29B17"
-				item: "gtocore:stellar_energy_rocket_fuel_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "5DC2AE50E6E29B17"
+					item: "gtocore:stellar_energy_rocket_fuel_bucket"
+					type: "item"
+					optional_task: true
+				}
+				{
+					id: "5DC2AE50E6E29B17_CHECKMARK"
+					type: "checkmark"
+				}
+			]
 			title: "{gto.beyond-the-stars.quests.3581343F25D5B03F.title}"
 			x: -9.0d
 			y: 16.0d
+			icon: "gtocore:stellar_energy_rocket_fuel_bucket"
 		}
 		{
 			id: "7E47ACAD8471A487"

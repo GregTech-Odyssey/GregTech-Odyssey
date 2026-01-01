@@ -668,13 +668,21 @@
 				"{gto.uv.quests.3827DED8E3795712.description1}"
 			]
 			id: "3827DED8E3795712"
-			tasks: [{
-				id: "6412C2554C262EF9"
-				item: "gtocore:biohmediumsterilized_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "6412C2554C262EF9"
+					item: "gtocore:biohmediumsterilized_bucket"
+					type: "item"
+					optional_task: true
+				}
+				{
+					id: "6412C2554C262EF9_CHECKMARK"
+					type: "checkmark"
+				}
+			]
 			x: 3.0d
 			y: 5.0d
+			icon: "gtocore:biohmediumsterilized_bucket"
 		}
 		{
 			dependencies: [
@@ -697,13 +705,21 @@
 			]
 			id: "3B3DC807C949F0D8"
 			subtitle: "{gto.uv.quests.3B3DC807C949F0D8.subtitle}"
-			tasks: [{
-				id: "5BAB7C98C147BE6E"
-				item: "gtocore:extreme_temperature_water_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "5BAB7C98C147BE6E"
+					item: "gtocore:extreme_temperature_water_bucket"
+					type: "item"
+					optional_task: true
+				}
+				{
+					id: "5BAB7C98C147BE6E_CHECKMARK"
+					type: "checkmark"
+				}
+			]
 			x: 3.0d
 			y: 8.5d
+			icon: "gtocore:extreme_temperature_water_bucket"
 		}
 		{
 			dependencies: ["39289365D111777C"]
@@ -739,26 +755,42 @@
 			dependencies: ["39289365D111777C"]
 			id: "0BC75C09E796F8ED"
 			subtitle: "{gto.uv.quests.0BC75C09E796F8ED.subtitle}"
-			tasks: [{
-				id: "46D0A78B469088AC"
-				item: "gtocore:ph_neutral_water_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "46D0A78B469088AC"
+					item: "gtocore:ph_neutral_water_bucket"
+					type: "item"
+					optional_task: true
+				}
+				{
+					id: "46D0A78B469088AC_CHECKMARK"
+					type: "checkmark"
+				}
+			]
 			x: 1.0d
 			y: 10.5d
+			icon: "gtocore:ph_neutral_water_bucket"
 		}
 		{
 			dependencies: ["256F90AFB461107E"]
 			description: ["{gto.uv.quests.7F87ACCCD8537D94.description0}"]
 			hide_dependency_lines: true
 			id: "7F87ACCCD8537D94"
-			tasks: [{
-				id: "18986FC52E563AD3"
-				item: "gtocore:polyetheretherketone_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "18986FC52E563AD3"
+					item: "gtocore:polyetheretherketone_bucket"
+					type: "item"
+					optional_task: true
+				}
+				{
+					id: "18986FC52E563AD3_CHECKMARK"
+					type: "checkmark"
+				}
+			]
 			x: 11.0d
 			y: -0.5d
+			icon: "gtocore:polyetheretherketone_bucket"
 		}
 		{
 			dependencies: ["3E458EF4819E239C"]
@@ -821,13 +853,21 @@
 			]
 			hide_dependency_lines: true
 			id: "70ADA9EF977D0FF7"
-			tasks: [{
-				id: "4127D4DD796D0F97"
-				item: "gtocore:mutated_living_solder_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4127D4DD796D0F97"
+					item: "gtocore:mutated_living_solder_bucket"
+					type: "item"
+					optional_task: true
+				}
+				{
+					id: "4127D4DD796D0F97_CHECKMARK"
+					type: "checkmark"
+				}
+			]
 			x: 7.0d
 			y: 12.5d
+			icon: "gtocore:mutated_living_solder_bucket"
 		}
 		{
 			dependencies: ["52DFF4A301A510C8"]
@@ -1006,13 +1046,21 @@
 			]
 			id: "66473B14503626FD"
 			subtitle: "{gto.uv.quests.66473B14503626FD.subtitle}"
-			tasks: [{
-				id: "4347FE4A735277A9"
-				item: "gtocore:piranha_solution_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4347FE4A735277A9"
+					item: "gtocore:piranha_solution_bucket"
+					type: "item"
+					optional_task: true
+				}
+				{
+					id: "4347FE4A735277A9_CHECKMARK"
+					type: "checkmark"
+				}
+			]
 			x: -5.0d
 			y: 14.5d
+			icon: "gtocore:piranha_solution_bucket"
 		}
 		{
 			dependencies: ["063FEB76DD30E9B3"]

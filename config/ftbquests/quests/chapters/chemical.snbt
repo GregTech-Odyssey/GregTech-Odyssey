@@ -28,11 +28,17 @@
 					id: "02069B0E45034BAA"
 					item: "gtceu:charcoal_byproducts_bucket"
 					type: "item"
+					optional_task: true
 				}
 				{
 					id: "1944BC9CB5EA4C9A"
 					item: "gtceu:coal_tar_bucket"
 					type: "item"
+					optional_task: true
+				}
+				{
+					id: "02069B0E45034BAA_CHECKMARK"
+					type: "checkmark"
 				}
 			]
 			title: "另外一种化工材料获取途径"
@@ -51,11 +57,18 @@
 			icon: "gtocore:large_gas_collector"
 			id: "21FE87B6569A7C62"
 			subtitle: "终于可以快速烧锭了"
-			tasks: [{
-				id: "77C8B30C0E92D726"
-				item: "gtceu:air_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "77C8B30C0E92D726"
+					item: "gtceu:air_bucket"
+					type: "item"
+					optional_task: true
+				}
+				{
+					id: "77C8B30C0E92D726_CHECKMARK"
+					type: "checkmark"
+				}
+			]
 			title: "稀有气体的收集和离心"
 			x: -8.0d
 			y: -8.5d
@@ -68,11 +81,18 @@
 			description: ["如果不是急需下界空气离心产物，建议是直奔液化蒸馏，同时能补充大量化工材料"]
 			icon: "gtceu:mv_gas_collector"
 			id: "720FF5C7DE3537DC"
-			tasks: [{
-				id: "63F44C7D4D1406DA"
-				item: "gtceu:nether_air_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "63F44C7D4D1406DA"
+					item: "gtceu:nether_air_bucket"
+					type: "item"
+					optional_task: true
+				}
+				{
+					id: "63F44C7D4D1406DA_CHECKMARK"
+					type: "checkmark"
+				}
+			]
 			title: "一股硫磺味,我在硫矿脉么？"
 			x: -6.5d
 			y: -8.5d
@@ -86,11 +106,18 @@
 			]
 			icon: "gtceu:hv_gas_collector"
 			id: "14568E9B638FC16A"
-			tasks: [{
-				id: "5FA5D306E954A084"
-				item: "gtceu:ender_air_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "5FA5D306E954A084"
+					item: "gtceu:ender_air_bucket"
+					type: "item"
+					optional_task: true
+				}
+				{
+					id: "5FA5D306E954A084_CHECKMARK"
+					type: "checkmark"
+				}
+			]
 			title: "末地的空气真好闻，你问我的眼睛为什么是紫色的？"
 			x: -5.0d
 			y: -8.5d
@@ -127,6 +154,11 @@
 					id: "71BE6C2768F78F09"
 					item: "gtceu:fermented_biomass_bucket"
 					type: "item"
+					optional_task: true
+				}
+				{
+					id: "71BE6C2768F78F09_CHECKMARK"
+					type: "checkmark"
 				}
 			]
 			title: "植物路线"
@@ -155,26 +187,42 @@
 			]
 			hide_dependency_lines: true
 			id: "70FAF5DB5018B0B8"
-			tasks: [{
-				id: "76B98454FAFCF144"
-				item: "gtceu:fish_oil_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "76B98454FAFCF144"
+					item: "gtceu:fish_oil_bucket"
+					type: "item"
+					optional_task: true
+				}
+				{
+					id: "76B98454FAFCF144_CHECKMARK"
+					type: "checkmark"
+				}
+			]
 			title: "生物柴油制作路线"
 			x: -8.0d
 			y: -5.5d
+			icon: "gtceu:fish_oil_bucket"
 		}
 		{
 			dependencies: ["70FAF5DB5018B0B8"]
 			hide_dependency_lines: true
 			id: "132FB2C6D1E261F8"
-			tasks: [{
-				id: "46FF0C1D2BF9C361"
-				item: "gtceu:bio_diesel_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "46FF0C1D2BF9C361"
+					item: "gtceu:bio_diesel_bucket"
+					type: "item"
+					optional_task: true
+				}
+				{
+					id: "46FF0C1D2BF9C361_CHECKMARK"
+					type: "checkmark"
+				}
+			]
 			x: -6.5d
 			y: -5.5d
+			icon: "gtceu:bio_diesel_bucket"
 		}
 		{
 			description: [
@@ -202,21 +250,25 @@
 					id: "6FD75F04B64A6752"
 					item: "gtceu:oil_medium_bucket"
 					type: "item"
+					optional_task: true
 				}
 				{
 					id: "53F81A18896A1E0E"
 					item: "gtceu:oil_heavy_bucket"
 					type: "item"
+					optional_task: true
 				}
 				{
 					id: "49639C03F7559653"
 					item: "gtceu:oil_light_bucket"
 					type: "item"
+					optional_task: true
 				}
 				{
 					id: "47FF6C3C9395C55C"
 					item: "ad_astra:oil_bucket"
 					type: "item"
+					optional_task: true
 				}
 				{
 					id: "45017C7C8718263D"
@@ -268,6 +320,11 @@
 					id: "442402C4CA4EDF96"
 					item: "gtceu:steam_bucket"
 					type: "item"
+					optional_task: true
+				}
+				{
+					id: "442402C4CA4EDF96_CHECKMARK"
+					type: "checkmark"
 				}
 			]
 			title: "蒸汽裂化，然后蒸馏，很稀疏平常"
@@ -293,16 +350,23 @@
 					id: "67BCD51B84D817B3"
 					item: "gtceu:diesel_bucket"
 					type: "item"
+					optional_task: true
 				}
 				{
 					id: "1031CD1FCDFA0F7C"
 					item: "gtceu:tetranitromethane_bucket"
 					type: "item"
+					optional_task: true
 				}
 				{
 					id: "16C8FF23A269500C"
 					item: "gtceu:cetane_boosted_diesel_bucket"
 					type: "item"
+					optional_task: true
+				}
+				{
+					id: "67BCD51B84D817B3_CHECKMARK"
+					type: "checkmark"
 				}
 			]
 			title: "高十六，燃油神教优选."
@@ -323,11 +387,17 @@
 					id: "5A80B4648D5EB040"
 					item: "gtceu:high_octane_gasoline_bucket"
 					type: "item"
+					optional_task: true
 				}
 				{
 					id: "4E1F3B1A3E2D9B2F"
 					item: "gtceu:octane_bucket"
 					type: "item"
+					optional_task: true
+				}
+				{
+					id: "5A80B4648D5EB040_CHECKMARK"
+					type: "checkmark"
 				}
 			]
 			title: "燃油神教的极致？"
@@ -345,14 +415,22 @@
 			]
 			hide_dependency_lines: true
 			id: "45971388CF90B954"
-			tasks: [{
-				id: "1CF846065013F79D"
-				item: "gtceu:benzene_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "1CF846065013F79D"
+					item: "gtceu:benzene_bucket"
+					type: "item"
+					optional_task: true
+				}
+				{
+					id: "1CF846065013F79D_CHECKMARK"
+					type: "checkmark"
+				}
+			]
 			title: "迎接大苯环神教的怀抱吧"
 			x: -5.0d
 			y: -5.5d
+			icon: "gtceu:benzene_bucket"
 		}
 		{
 			dependencies: ["0FA40D13A8103C2F"]
@@ -366,11 +444,18 @@
 				tag: { }
 			}
 			id: "17B2FE7B42729497"
-			tasks: [{
-				id: "109BD137914C5B81"
-				item: "enderio:rocket_fuel_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "109BD137914C5B81"
+					item: "enderio:rocket_fuel_bucket"
+					type: "item"
+					optional_task: true
+				}
+				{
+					id: "109BD137914C5B81_CHECKMARK"
+					type: "checkmark"
+				}
+			]
 			title: "火箭燃料线路"
 			x: -10.5d
 			y: -2.5d
@@ -385,14 +470,22 @@
 				"&e可作为二阶及其以下火箭燃料"
 			]
 			id: "759E3183435B137A"
-			tasks: [{
-				id: "724C4C942591404F"
-				item: "gtocore:rocket_fuel_rp_1_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "724C4C942591404F"
+					item: "gtocore:rocket_fuel_rp_1_bucket"
+					type: "item"
+					optional_task: true
+				}
+				{
+					id: "724C4C942591404F_CHECKMARK"
+					type: "checkmark"
+				}
+			]
 			title: "火箭燃料发电线路推荐"
 			x: -8.0d
 			y: -1.0d
+			icon: "gtocore:rocket_fuel_rp_1_bucket"
 		}
 		{
 			dependencies: ["759E3183435B137A"]
@@ -404,14 +497,22 @@
 				"&c不支持火箭燃料装载&r"
 			]
 			id: "7BC5C696C89B17E3"
-			tasks: [{
-				id: "1AD9EAF824B92B3F"
-				item: "gtocore:rocket_fuel_h8n4c2o4_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "1AD9EAF824B92B3F"
+					item: "gtocore:rocket_fuel_h8n4c2o4_bucket"
+					type: "item"
+					optional_task: true
+				}
+				{
+					id: "1AD9EAF824B92B3F_CHECKMARK"
+					type: "checkmark"
+				}
+			]
 			title: "解决了rp-1不耐烧的问题"
 			x: -6.5d
 			y: -1.0d
+			icon: "gtocore:rocket_fuel_h8n4c2o4_bucket"
 		}
 		{
 			dependencies: ["17B2FE7B42729497"]
@@ -421,13 +522,21 @@
 				"&e可作为三阶及其以下火箭燃料"
 			]
 			id: "1A162211142DF255"
-			tasks: [{
-				id: "0BBF051DE21F0A8E"
-				item: "gtocore:dense_hydrazine_fuel_mixture_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "0BBF051DE21F0A8E"
+					item: "gtocore:dense_hydrazine_fuel_mixture_bucket"
+					type: "item"
+					optional_task: true
+				}
+				{
+					id: "0BBF051DE21F0A8E_CHECKMARK"
+					type: "checkmark"
+				}
+			]
 			x: -8.0d
 			y: -2.5d
+			icon: "gtocore:dense_hydrazine_fuel_mixture_bucket"
 		}
 		{
 			dependencies: ["1A162211142DF255"]
@@ -437,13 +546,21 @@
 				"&e可作为四阶及其以下火箭燃料"
 			]
 			id: "46A2DD7AE5DD109E"
-			tasks: [{
-				id: "154B07EA35D41632"
-				item: "gtocore:rocket_fuel_cn3h7o3_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "154B07EA35D41632"
+					item: "gtocore:rocket_fuel_cn3h7o3_bucket"
+					type: "item"
+					optional_task: true
+				}
+				{
+					id: "154B07EA35D41632_CHECKMARK"
+					type: "checkmark"
+				}
+			]
 			x: -6.5d
 			y: -2.5d
+			icon: "gtocore:rocket_fuel_cn3h7o3_bucket"
 		}
 		{
 			dependencies: [
@@ -459,14 +576,22 @@
 			]
 			id: "5095C793089FC8FC"
 			shape: "square"
-			tasks: [{
-				id: "398BB9C6A1C3127E"
-				item: "ad_astra:cryo_fuel_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "398BB9C6A1C3127E"
+					item: "ad_astra:cryo_fuel_bucket"
+					type: "item"
+					optional_task: true
+				}
+				{
+					id: "398BB9C6A1C3127E_CHECKMARK"
+					type: "checkmark"
+				}
+			]
 			title: "拥有着比细雪桶更快的降温本事"
 			x: -3.5d
 			y: -2.5d
+			icon: "ad_astra:cryo_fuel_bucket"
 		}
 		{
 			dependencies: ["5095C793089FC8FC"]
@@ -476,26 +601,42 @@
 				"&e可作为所有火箭的燃料"
 			]
 			id: "599B5D0576B52956"
-			tasks: [{
-				id: "0BE395B500906AC6"
-				item: "gtocore:stellar_energy_rocket_fuel_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "0BE395B500906AC6"
+					item: "gtocore:stellar_energy_rocket_fuel_bucket"
+					type: "item"
+					optional_task: true
+				}
+				{
+					id: "0BE395B500906AC6_CHECKMARK"
+					type: "checkmark"
+				}
+			]
 			title: "火箭燃料的巅峰"
 			x: -2.0d
 			y: -2.5d
+			icon: "gtocore:stellar_energy_rocket_fuel_bucket"
 		}
 		{
 			dependencies: ["46A2DD7AE5DD109E"]
 			description: ["&e可作为五阶及其以下火箭燃料"]
 			id: "052144556E5F0F65"
-			tasks: [{
-				id: "5249D8728C70D98E"
-				item: "gtocore:explosivehydrazine_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "5249D8728C70D98E"
+					item: "gtocore:explosivehydrazine_bucket"
+					type: "item"
+					optional_task: true
+				}
+				{
+					id: "5249D8728C70D98E_CHECKMARK"
+					type: "checkmark"
+				}
+			]
 			x: -5.0d
 			y: -2.5d
+			icon: "gtocore:explosivehydrazine_bucket"
 		}
 		{
 			dependencies: ["599B5D0576B52956"]
@@ -538,13 +679,21 @@
 			]
 			id: "1FC9AD563E0C8ED2"
 			subtitle: "早期的塑料"
-			tasks: [{
-				id: "53DAABD35BAA5446"
-				item: "gtceu:polyethylene_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "53DAABD35BAA5446"
+					item: "gtceu:polyethylene_bucket"
+					type: "item"
+					optional_task: true
+				}
+				{
+					id: "53DAABD35BAA5446_CHECKMARK"
+					type: "checkmark"
+				}
+			]
 			x: -8.0d
 			y: 1.0d
+			icon: "gtceu:polyethylene_bucket"
 		}
 		{
 			dependencies: ["1FC9AD563E0C8ED2"]
@@ -554,41 +703,65 @@
 				"更高阶的塑料，应用范围较广"
 			]
 			id: "29CD828E68A2852F"
-			tasks: [{
-				id: "168CFD2B768986F6"
-				item: "gtceu:polyvinyl_chloride_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "168CFD2B768986F6"
+					item: "gtceu:polyvinyl_chloride_bucket"
+					type: "item"
+					optional_task: true
+				}
+				{
+					id: "168CFD2B768986F6_CHECKMARK"
+					type: "checkmark"
+				}
+			]
 			x: -6.5d
 			y: 1.0d
+			icon: "gtceu:polyvinyl_chloride_bucket"
 		}
 		{
 			dependencies: ["2FD6B657F899578B"]
 			description: ["多用于胶水合成及其上位材料合成"]
 			hide_dependency_lines: true
 			id: "62FBD1454322B93D"
-			tasks: [{
-				id: "6AA4E6C219776856"
-				item: "gtceu:polyvinyl_acetate_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "6AA4E6C219776856"
+					item: "gtceu:polyvinyl_acetate_bucket"
+					type: "item"
+					optional_task: true
+				}
+				{
+					id: "6AA4E6C219776856_CHECKMARK"
+					type: "checkmark"
+				}
+			]
 			title: "胶水的另一种获取"
 			x: -8.0d
 			y: 2.5d
+			icon: "gtceu:polyvinyl_acetate_bucket"
 		}
 		{
 			dependencies: ["2FD6B657F899578B"]
 			description: ["多用于夹层玻璃合成....."]
 			hide_dependency_lines: true
 			id: "2340BBD03AC6F063"
-			tasks: [{
-				id: "2A2B29F97AAA7AA8"
-				item: "gtceu:polyvinyl_butyral_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2A2B29F97AAA7AA8"
+					item: "gtceu:polyvinyl_butyral_bucket"
+					type: "item"
+					optional_task: true
+				}
+				{
+					id: "2A2B29F97AAA7AA8_CHECKMARK"
+					type: "checkmark"
+				}
+			]
 			title: "你告诉我夹层玻璃必须要这个？"
 			x: -6.5d
 			y: 2.5d
+			icon: "gtceu:polyvinyl_butyral_bucket"
 		}
 		{
 			dependencies: ["29CD828E68A2852F"]
@@ -600,13 +773,21 @@
 				"同时也是大化反的主要合成原料"
 			]
 			id: "6B04A4D8C5464CFA"
-			tasks: [{
-				id: "5BA87AA404155CCA"
-				item: "gtceu:polytetrafluoroethylene_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "5BA87AA404155CCA"
+					item: "gtceu:polytetrafluoroethylene_bucket"
+					type: "item"
+					optional_task: true
+				}
+				{
+					id: "5BA87AA404155CCA_CHECKMARK"
+					type: "checkmark"
+				}
+			]
 			x: -5.0d
 			y: 1.0d
+			icon: "gtceu:polytetrafluoroethylene_bucket"
 		}
 		{
 			dependencies: ["6B04A4D8C5464CFA"]
@@ -616,13 +797,21 @@
 				"聚四氟乙烯的更进阶版本，和聚乙烯一样，相比聚四氟乙烯作为原料的配方消耗进一步减半"
 			]
 			id: "4A651F3100EEFC5B"
-			tasks: [{
-				id: "7576A30047919DBA"
-				item: "gtceu:polybenzimidazole_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "7576A30047919DBA"
+					item: "gtceu:polybenzimidazole_bucket"
+					type: "item"
+					optional_task: true
+				}
+				{
+					id: "7576A30047919DBA_CHECKMARK"
+					type: "checkmark"
+				}
+			]
 			x: -3.5d
 			y: 1.0d
+			icon: "gtceu:polybenzimidazole_bucket"
 		}
 		{
 			dependencies: ["4A651F3100EEFC5B"]
@@ -632,52 +821,84 @@
 				"更高阶的塑料，应用范围较广"
 			]
 			id: "139432EF935D1E99"
-			tasks: [{
-				id: "4827F2C4EC7EBB9E"
-				item: "gtocore:polyetheretherketone_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4827F2C4EC7EBB9E"
+					item: "gtocore:polyetheretherketone_bucket"
+					type: "item"
+					optional_task: true
+				}
+				{
+					id: "4827F2C4EC7EBB9E_CHECKMARK"
+					type: "checkmark"
+				}
+			]
 			x: -2.0d
 			y: 1.0d
+			icon: "gtocore:polyetheretherketone_bucket"
 		}
 		{
 			dependencies: ["2FD6B657F899578B"]
 			description: ["多用于电路基板合成"]
 			hide_dependency_lines: true
 			id: "2ABE657CD0D02B1C"
-			tasks: [{
-				id: "6B5DDD641FD228CE"
-				item: "gtceu:epoxy_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "6B5DDD641FD228CE"
+					item: "gtceu:epoxy_bucket"
+					type: "item"
+					optional_task: true
+				}
+				{
+					id: "6B5DDD641FD228CE_CHECKMARK"
+					type: "checkmark"
+				}
+			]
 			x: -8.0d
 			y: 4.0d
+			icon: "gtceu:epoxy_bucket"
 		}
 		{
 			dependencies: ["2FD6B657F899578B"]
 			description: ["多用于生物、光学电路合成"]
 			hide_dependency_lines: true
 			id: "03E712472BA4DE1C"
-			tasks: [{
-				id: "58B0EBC0BDDF02E7"
-				item: "gtocore:paa_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "58B0EBC0BDDF02E7"
+					item: "gtocore:paa_bucket"
+					type: "item"
+					optional_task: true
+				}
+				{
+					id: "58B0EBC0BDDF02E7_CHECKMARK"
+					type: "checkmark"
+				}
+			]
 			x: -6.5d
 			y: 4.0d
+			icon: "gtocore:paa_bucket"
 		}
 		{
 			dependencies: ["2FD6B657F899578B"]
 			description: ["寰宇处理器核心合成材料之一"]
 			hide_dependency_lines: true
 			id: "482F9110F2896CC9"
-			tasks: [{
-				id: "6A6FAAB417F00AFA"
-				item: "gtocore:polyurethane_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "6A6FAAB417F00AFA"
+					item: "gtocore:polyurethane_bucket"
+					type: "item"
+					optional_task: true
+				}
+				{
+					id: "6A6FAAB417F00AFA_CHECKMARK"
+					type: "checkmark"
+				}
+			]
 			x: -5.0d
 			y: 4.0d
+			icon: "gtocore:polyurethane_bucket"
 		}
 		{
 			dependencies: ["2FD6B657F899578B"]
@@ -685,11 +906,18 @@
 			hide_dependency_lines: true
 			icon: "gtocore:carbon_nanites"
 			id: "089B5BE493FBDFF1"
-			tasks: [{
-				id: "4CEB0CA95F348430"
-				item: "gtocore:p507_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4CEB0CA95F348430"
+					item: "gtocore:p507_bucket"
+					type: "item"
+					optional_task: true
+				}
+				{
+					id: "4CEB0CA95F348430_CHECKMARK"
+					type: "checkmark"
+				}
+			]
 			title: "纳米萃取的必要工具"
 			x: -8.0d
 			y: 5.5d
@@ -705,11 +933,16 @@
 					id: "56061891AAD1C065"
 					item: "gtceu:polyphenylene_sulfide_bucket"
 					type: "item"
+					optional_task: true
 				}
 				{
 					id: "4D15578E9DC605F7"
 					item: "gtceu:raw_styrene_butadiene_rubber_dust"
 					type: "item"
+				}
+				{
+					id: "56061891AAD1C065_CHECKMARK"
+					type: "checkmark"
 				}
 			]
 			title: "线缆合成必须品"
@@ -740,6 +973,11 @@
 					id: "76A2B078AAE10A31"
 					item: "gtocore:zylon_bucket"
 					type: "item"
+					optional_task: true
+				}
+				{
+					id: "76A2B078AAE10A31_CHECKMARK"
+					type: "checkmark"
 				}
 			]
 			title: "所能获取的最后一个机壳塑料"
@@ -807,6 +1045,11 @@
 					id: "21A25609AE332BBC"
 					item: "gtocore:fullerene_polymer_matrix_pulp_bucket"
 					type: "item"
+					optional_task: true
+				}
+				{
+					id: "21A25609AE332BBC_CHECKMARK"
+					type: "checkmark"
 				}
 			]
 			x: 1.0d
@@ -819,13 +1062,21 @@
 			]
 			description: ["&6MAX机器外壳&r的塑料部件原料"]
 			id: "5FF1989BA2745BC4"
-			tasks: [{
-				id: "1BF890134EAEA483"
-				item: "gtocore:radox_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "1BF890134EAEA483"
+					item: "gtocore:radox_bucket"
+					type: "item"
+					optional_task: true
+				}
+				{
+					id: "1BF890134EAEA483_CHECKMARK"
+					type: "checkmark"
+				}
+			]
 			x: 2.5d
 			y: 1.0d
+			icon: "gtocore:radox_bucket"
 		}
 		{
 			dependencies: ["7C77C164E8B298A4"]
