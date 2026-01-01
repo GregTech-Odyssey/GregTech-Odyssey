@@ -1373,6 +1373,10 @@ file = "config/openloader/resources/resources/assets/appbot/lang/zh_cn.json"
 hash = "0471ace0b329b7cae31a1368e4da91e843b772d8a06ece914da66041c579bb90"
 
 [[files]]
+file = "config/openloader/resources/resources/assets/ars_nouveau/lang/zh_cn.json"
+hash = "de0b304e23603615ed29d54834d4fdb80c8c891bc200598f7963c205919ae6f9"
+
+[[files]]
 file = "config/openloader/resources/resources/assets/arseng/lang/zh_cn.json"
 hash = "1539646621c9072dd90aff4e1ef85ea8dc3502e4fd5c53934f0168ae27de256d"
 
@@ -1405,12 +1409,16 @@ file = "config/openloader/resources/resources/assets/enderio/lang/en_us.json"
 hash = "f220fa4cb6bf6ea3248fe36b02bd00c7612b44f0e394ee82a082e4a73bfda100"
 
 [[files]]
+file = "config/openloader/resources/resources/assets/endrem/lang/zh_cn.json"
+hash = "663c7825c23ee6b404f63d8443c9e386e9cdea169fb1cc346717ed6da0c95c22"
+
+[[files]]
 file = "config/openloader/resources/resources/assets/expatternprovider/lang/zh_cn.json"
 hash = "fe617436227a16cc9db1eb4d941402cdb808d374a6e44dae7c14e78478f9c1e6"
 
 [[files]]
 file = "config/openloader/resources/resources/assets/explorerscompass/lang/zh_cn.json"
-hash = "300f192941e2dd76c7dd39e1397635349d14e6240b982b522402c1a3be913073"
+hash = "9d40a852060fc3b411664e36b629643fe8aaf6512977eecab596644d793edd28"
 
 [[files]]
 file = "config/openloader/resources/resources/assets/factory_blocks/lang/zh_cn.json"
@@ -1463,6 +1471,10 @@ hash = "ee0b2c8f2745cc6881188a10a2b09f70800dc4248ac9ed9773fdcd8c42244fb9"
 [[files]]
 file = "config/openloader/resources/resources/assets/ftbultimine/lang/zh_cn.json"
 hash = "50db468a93b8328b22c5e441101ee3b4b374b0b664477414aa4c1f0436cfac20"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/gnetum/lang/zh_cn.json"
+hash = "fae0a111858987bf34a5e79a53b496595314403f9de7910e48ba9256a2e069b4"
 
 [[files]]
 file = "config/openloader/resources/resources/assets/gtceu/lang/en_us.json"
@@ -1630,7 +1642,7 @@ hash = "ec74f5866a2a5018da666c2584a8f65036ba2dd03352f090e969ab56cc1e24d7"
 
 [[files]]
 file = "config/openloader/resources/resources/assets/jumbofurnace/lang/zh_cn.json"
-hash = "ec2e3264b161fddae603f90fd08c9dbb39dcc5126c3d159271e51a15ee4e8657"
+hash = "203d156a37641494ecbbc46e7bcc3d662bcd1a8b13e621dc5933e225bb3ea5d4"
 
 [[files]]
 file = "config/openloader/resources/resources/assets/littletiles/lang/zh_cn.json"
@@ -2163,6 +2175,14 @@ hash = "952be5587f213aaac8bc93c2159dadfff2beb9c7b4cd5acc270c8a011632d950"
 [[files]]
 file = "config/openloader/resources/resources/assets/minecraft/textures/block/ctm/glass/a-5.png"
 hash = "bbf53b95cf08483e2fcf7f90f1e606713d70c5a514f67f9dab76975053a8941a"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/morered/lang/zh_cn.json"
+hash = "adf348ada10cc556a17d8e5f0401d646d7b8a79bf86fa9a9f0744eaa0382fd32"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/naturescompass/lang/zh_cn.json"
+hash = "fa822c78a4ddc97a02609f72424c8c31434e75d49212dcf36bb809cc1c2d0327"
 
 [[files]]
 file = "config/openloader/resources/resources/assets/openpartiesandclaims/lang/zh_cn.json"
