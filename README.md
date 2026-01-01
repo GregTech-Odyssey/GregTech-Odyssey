@@ -2,10 +2,19 @@
 
 <h1 align="center">
     <a href="https://discord.gg/PxruFSbtCn"><img src="https://discordapp.com/api/guilds/1361351361257672876/widget.png" alt="加入Discord服务器 | Join Discord Server"></a>
-    <a href="https://qm.qq.com/q/H4mWY1GfSK"><img src="https://img.shields.io/badge/QQ-加入交流群-12B7F5?logo=qq&logoColor=white" alt="加入QQ群 | Join QQ Group"></a>
+    <img src="https://img.shields.io/badge/QQ-Alpha Dept.(Full)-12B7F5?logo=qq&logoColor=white" alt="加入Alpha部门 | Join QQ Alpha Dept.">
+    <a href="https://qm.qq.com/q/gIWx9iUxck"><img src="https://img.shields.io/badge/QQ-Beta Dept.-12B7F5?logo=qq&logoColor=white" alt="加入Beta部门 | Join QQ Beta Dept."></a>
 </h1>
 
-[中文](README_zh.md)
+<div >
+
+**English** | [简体中文](README_zh.md)
+
+</div>
+
+## How to Play
+
+Visit the website to view [How to Play](https://gtodyssey.com/en-us/start)
 
 ## How to Play
 
@@ -27,6 +36,17 @@ GregTech-Odyssey is a fully optimized tech-oriented GT modpack designed to offer
 
 ## Usage
 
+### (Recommend) Download from Release
+
+[Releases](https://github.com/GregTech-Odyssey/GregTech-Odyssey/releases)
+
+The nightly release contains the latest builds.
+
+- `GregTech-Odyssey-client-mods.zip` contains mods for client and config files
+- `GregTech-Odyssey-server-mods.zip` contains mods for server and config files
+- `GregTech-Odyssey-server.zip` contains mods for server, config files and forge installation
+- `GregTech.Odyssey-<version>.zip` is CurseForge pack for client.
+
 ### Exporting the CurseForge Modpack
 
 1. Install [packwiz](https://github.com/packwiz/packwiz).
@@ -41,16 +61,7 @@ packwiz cf export
 
 ### Downloading Modpacks Built with GitHub Actions
 
-### Download from Release
-
-[Releases](https://github.com/GregTech-Odyssey/GregTech-Odyssey/releases)
-
-The nightly release contains the latest builds.
-
-- `GregTech-Odyssey-client-mods.zip` contains mods for client and config files
-- `GregTech-Odyssey-server-mods.zip` contains mods for server and config files
-- `GregTech-Odyssey-server.zip` contains mods for server, config files and forge installation
-- `GregTech.Odyssey-<version>.zip` is CurseForge pack for client. 
+[Actions](https://github.com/GregTech-Odyssey/GregTech-Odyssey/actions)
 
 ### Use packwiz-installer
 
@@ -64,13 +75,13 @@ see packaged forge and modpack in `flake.nix`
 
 See detailed usage at <https://packwiz.infra.link/tutorials/creating/getting-started/>.
 
+Install [packwiz](https://github.com/packwiz/packwiz)
+
 ### Managing Modpack Files
 
 - Copy files to the desired folder (e.g., `config/ftbquests/quests`).
 - Execute `packwiz refresh`.
 - Commit changes with Git.
-
-## Develop
 
 ### Managing Mods
 
@@ -86,8 +97,11 @@ This generates a `.pw.toml` file in the `mods` folder to record mod information.
 
 (Optional) After adding CurseForge mods, run `fixup.sh` to generate download links. This requires [yq](https://github.com/mikefarah/yq). The script is sourced from [Misterio77/Modpack](https://github.com/Misterio77/Modpack).
 
-- Update mods with `packwiz update [mod]`.
-- To update all mods: `packwiz update --all`.
+Update mods with `packwiz update [mod]`.
+
+- For example, to update `mods/applied-energistics-2.pw.toml`: `packwiz update applied-energistics-2`
+
+To update all mods: `packwiz update --all`.
 
 #### Directly Provided JAR Files
 
