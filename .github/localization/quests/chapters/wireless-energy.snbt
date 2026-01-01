@@ -5,7 +5,7 @@
 	group: "33C930DBAB246BE3"
 	icon: "gtocore:max_wireless_output_hatch"
 	id: "28A33BAEFFB14C7B"
-	order_index: 1
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -39,6 +39,8 @@
 				"{gto.wireless-energy.quests.7110B5380C2104C2.description0}"
 				""
 				"{gto.wireless-energy.quests.7110B5380C2104C2.description1}"
+				""
+				"{gto.wireless-energy.quests.7110B5380C2104C2.description2}"
 			]
 			hide_dependency_lines: false
 			id: "7110B5380C2104C2"
@@ -63,6 +65,8 @@
 				"{gto.wireless-energy.quests.4E01E0067B9825F8.description4}"
 				"{gto.wireless-energy.quests.4E01E0067B9825F8.description5}"
 				"{gto.wireless-energy.quests.4E01E0067B9825F8.description6}"
+				""
+				"{gto.wireless-energy.quests.4E01E0067B9825F8.description7}"
 			]
 			hide_dependency_lines: false
 			id: "4E01E0067B9825F8"

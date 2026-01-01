@@ -4,9 +4,9 @@
 	default_quest_shape: ""
 	filename: "backpack"
 	group: "48D03BA483B3FA87"
-	icon: "avaritia:endest_pearl"
+	icon: "sophisticatedbackpacks:backpack"
 	id: "6B85E157B5D1CC60"
-	order_index: 4
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{

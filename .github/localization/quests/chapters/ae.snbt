@@ -138,18 +138,10 @@
 			y: 21.5d
 		}
 		{
-			color: 16711935
+			color: 4265213
 			height: 1.1d
-			image: "ftbquests:block/barrier_open"
+			image: "ftbquests:block/barrier"
 			order: 1
-			rotation: 0.0d
-			width: 1.1d
-			x: -5.0d
-			y: 11.5d
-		}
-		{
-			height: 1.1d
-			image: "xtonesreworked:block/bitt/12"
 			rotation: 0.0d
 			width: 1.1d
 			x: -5.0d
@@ -874,24 +866,6 @@
 			y: 9.5d
 		}
 		{
-			height: 1.1d
-			image: "xtonesreworked:block/bitt/12"
-			rotation: 0.0d
-			width: 1.1d
-			x: -3.0d
-			y: 11.5d
-		}
-		{
-			color: 16711935
-			height: 1.1d
-			image: "ftbquests:block/barrier_open"
-			order: 1
-			rotation: 0.0d
-			width: 1.1d
-			x: -3.0d
-			y: 11.5d
-		}
-		{
 			height: 1.0d
 			image: "gtocore:item/circuit/suprachronal_luv"
 			rotation: 0.0d
@@ -1070,8 +1044,102 @@
 			x: -5.7d
 			y: 11.5d
 		}
+		{
+			height: 1.0d
+			image: "gtocore:item/circuit/suprachronal_iv"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: 11.5d
+		}
+		{
+			height: 1.1d
+			image: "gtocore:block/multiblock/dimensionally_transcendent_plasma_forge/overlay_top"
+			rotation: 0.0d
+			width: 1.1d
+			x: -5.0d
+			y: 11.5d
+		}
+		{
+			color: 4265213
+			height: 1.1d
+			image: "ftbquests:block/barrier"
+			order: 1
+			rotation: 0.0d
+			width: 1.1d
+			x: -3.0d
+			y: 11.5d
+		}
+		{
+			height: 1.1d
+			image: "gtocore:block/multiblock/dimensionally_transcendent_plasma_forge/overlay_top"
+			rotation: 0.0d
+			width: 1.1d
+			x: -3.0d
+			y: 11.5d
+		}
+		{
+			height: 1.1d
+			image: "gtocore:block/multiblock/dimensionally_transcendent_plasma_forge/overlay_top"
+			rotation: 0.0d
+			width: 1.1d
+			x: -1.0d
+			y: 11.5d
+		}
+		{
+			color: 4265213
+			height: 1.1d
+			image: "ftbquests:block/barrier"
+			order: 1
+			rotation: 0.0d
+			width: 1.1d
+			x: -1.0d
+			y: 11.5d
+		}
+		{
+			height: 1.0d
+			image: "gtocore:item/circuit/suprachronal_luv"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.7d
+			y: 17.5d
+		}
+		{
+			height: 1.1d
+			image: "xtonesreworked:block/agon/agon_block_1_yellow"
+			rotation: 0.0d
+			width: 1.1d
+			x: -1.0d
+			y: 17.5d
+		}
+		{
+			color: 16711935
+			height: 1.1d
+			image: "ftbquests:block/barrier_open"
+			order: 1
+			rotation: 0.0d
+			width: 1.1d
+			x: -1.0d
+			y: 13.5d
+		}
+		{
+			height: 1.1d
+			image: "xtonesreworked:block/bitt/12"
+			rotation: 0.0d
+			width: 1.1d
+			x: -1.0d
+			y: 13.5d
+		}
+		{
+			height: 1.0d
+			image: "gtocore:item/circuit/suprachronal_luv"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.7d
+			y: 13.5d
+		}
 	]
-	order_index: 4
+	order_index: 5
 	quest_links: [
 		{
 			id: "73C7693D280F6D40"
@@ -1117,6 +1185,7 @@
 				{
 					id: "603914C7BECB258E"
 					item: "ae2:energy_acceptor"
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -1124,6 +1193,10 @@
 					item: "ae2:controller"
 					optional_task: true
 					type: "item"
+				}
+				{
+					id: "3F08D1D891690E8E"
+					type: "checkmark"
 				}
 			]
 			title: "{gto.ae.quests.5FCFE3D6B36CC409.title}"
@@ -1260,7 +1333,12 @@
 				"0E9F8C57145D61AB"
 				"592D975F3146151E"
 			]
-			icon: "ae2:export_bus"
+			description: [
+				"{gto.ae.quests.727CCA6FB49E142D.description0}"
+				""
+				"{gto.ae.quests.727CCA6FB49E142D.description1}"
+			]
+			icon: "ae2:import_bus"
 			id: "727CCA6FB49E142D"
 			subtitle: "{gto.ae.quests.727CCA6FB49E142D.subtitle}"
 			tasks: [{
@@ -1420,8 +1498,8 @@
 		}
 		{
 			dependencies: [
-				"10F52803BCD77DA0"
 				"1EED90EE9774CD7A"
+				"7E1C35C2DE805E6B"
 			]
 			description: [
 				"{gto.ae.quests.0BC456B4331C09F5.description0}"
@@ -1454,6 +1532,7 @@
 			description: ["{gto.ae.quests.5F522D73AF5F1B2F.description0}"]
 			icon: "gtocore:tesseract_generator"
 			id: "5F522D73AF5F1B2F"
+			optional: true
 			subtitle: "{gto.ae.quests.5F522D73AF5F1B2F.subtitle}"
 			tasks: [
 				{
@@ -1535,7 +1614,11 @@
 			y: 7.5d
 		}
 		{
-			dependencies: ["3490AACD4AA62C5D"]
+			dependencies: [
+				"3490AACD4AA62C5D"
+				"5B83B53046A06AFE"
+				"2AA0714363BA85CB"
+			]
 			description: [
 				"{gto.ae.quests.05833AD0EAA634A7.description0}"
 				"{gto.ae.quests.05833AD0EAA634A7.description1}"
@@ -1562,7 +1645,7 @@
 			dependencies: [
 				"49A3CCDF6CABEEA1"
 				"1E239C34C36FAD60"
-				"10F52803BCD77DA0"
+				"7E1C35C2DE805E6B"
 			]
 			description: [
 				"{gto.ae.quests.430034AB98D8453B.description0}"
@@ -1577,6 +1660,7 @@
 				""
 				"{gto.ae.quests.430034AB98D8453B.description5}"
 			]
+			hide_dependent_lines: true
 			icon: "gtocore:me_storage"
 			id: "430034AB98D8453B"
 			subtitle: "{gto.ae.quests.430034AB98D8453B.subtitle}"
@@ -1598,7 +1682,7 @@
 		{
 			dependencies: [
 				"0BC456B4331C09F5"
-				"2544898A725CC1A3"
+				"7DD3E20C1AF38823"
 			]
 			description: ["{gto.ae.quests.6F43BA73FE817566.description0}"]
 			id: "6F43BA73FE817566"
@@ -1688,9 +1772,9 @@
 		}
 		{
 			dependencies: [
-				"2695890B68ED84DE"
 				"50158929D20CC96E"
 				"5FCFE3D6B36CC409"
+				"44B2AB98840349D2"
 			]
 			id: "034D579A41F2ED3D"
 			shape: "hexagon"
@@ -1723,17 +1807,6 @@
 				item: "ae2:inscriber"
 				type: "item"
 			}]
-			x: -11.0d
-			y: 3.5d
-		}
-		{
-			dependencies: ["2695890B68ED84DE"]
-			id: "2E0386F51BF9CCEE"
-			tasks: [{
-				id: "01FD55F163CD8CB9"
-				item: "expatternprovider:ex_inscriber"
-				type: "item"
-			}]
 			x: -13.0d
 			y: 3.5d
 		}
@@ -1754,6 +1827,7 @@
 				"62583BF8F3AAE290"
 				"21C0E1FEC1347A3A"
 			]
+			description: ["{gto.ae.quests.0E9F8C57145D61AB.description0}"]
 			id: "0E9F8C57145D61AB"
 			shape: "hexagon"
 			size: 1.5d
@@ -1860,6 +1934,7 @@
 					type: "item"
 				}
 			]
+			title: "{gto.ae.quests.3630926A272B730B.title}"
 			x: -5.0d
 			y: 9.5d
 		}
@@ -1889,6 +1964,13 @@
 		}
 		{
 			dependencies: ["592D975F3146151E"]
+			description: [
+				"{gto.ae.quests.00382B6C74390B0A.description0}"
+				""
+				"{gto.ae.quests.00382B6C74390B0A.description1}"
+				""
+				"{gto.ae.quests.00382B6C74390B0A.description2}"
+			]
 			id: "00382B6C74390B0A"
 			tasks: [{
 				id: "5E34F637EE33F80D"
@@ -1900,6 +1982,11 @@
 		}
 		{
 			dependencies: ["00382B6C74390B0A"]
+			description: [
+				"{gto.ae.quests.00A99DAC629CF95C.description0}"
+				""
+				"{gto.ae.quests.00A99DAC629CF95C.description1}"
+			]
 			hide_dependency_lines: true
 			id: "00A99DAC629CF95C"
 			tasks: [{
@@ -1956,6 +2043,7 @@
 				"041ABD90CDDE00AA"
 				"0E9F8C57145D61AB"
 			]
+			description: ["{gto.ae.quests.514BAD02F6BB76B8.description0}"]
 			id: "514BAD02F6BB76B8"
 			tasks: [{
 				id: "0F6CA931F28F1791"
@@ -2260,7 +2348,10 @@
 			y: 21.5d
 		}
 		{
-			dependencies: ["04581C43F7B0BBCE"]
+			dependencies: [
+				"04581C43F7B0BBCE"
+				"4A3BC8016455AB91"
+			]
 			id: "074E89CB4A303F0E"
 			tasks: [{
 				id: "06AB5DC2C12C0960"
@@ -3196,6 +3287,7 @@
 				"0E9F8C57145D61AB"
 				"592D975F3146151E"
 			]
+			description: ["{gto.ae.quests.189F402C87C4AB3A.description0}"]
 			id: "189F402C87C4AB3A"
 			subtitle: "{gto.ae.quests.189F402C87C4AB3A.subtitle}"
 			tasks: [{
@@ -3685,8 +3777,9 @@
 		{
 			dependencies: [
 				"1EED90EE9774CD7A"
-				"228B283B5477879B"
+				"0C85F6611B7A1FCE"
 			]
+			description: ["{gto.ae.quests.17CEA439C0110AFA.description0}"]
 			id: "17CEA439C0110AFA"
 			tasks: [{
 				id: "20A3954946CB5C6E"
@@ -3767,6 +3860,7 @@
 			description: ["{gto.ae.quests.176C374E1C0EA92F.description0}"]
 			hide_dependent_lines: true
 			id: "176C374E1C0EA92F"
+			subtitle: "{gto.ae.quests.176C374E1C0EA92F.subtitle}"
 			tasks: [{
 				count: 2L
 				id: "12D8D8792CFD04AC"
@@ -3797,13 +3891,13 @@
 			id: "2A45B9AC7AD09478"
 			tasks: [
 				{
-					id: "4C887C6C3816526F"
-					item: "gtocore:pattern_modifier_pro"
+					id: "1B2375466F9C3A17"
+					item: "expatternprovider:pattern_modifier"
 					type: "item"
 				}
 				{
-					id: "1B2375466F9C3A17"
-					item: "expatternprovider:pattern_modifier"
+					id: "760A2EE8A4B18CD9"
+					item: "gtocore:pattern_modifier_pro"
 					type: "item"
 				}
 			]
@@ -3982,11 +4076,19 @@
 			]
 			id: "5F7635CC667AD219"
 			min_width: 225
-			tasks: [{
-				id: "36AA8548A657EF32"
-				item: "gtocore:me_cpu"
-				type: "item"
-			}]
+			subtitle: "{gto.ae.quests.5F7635CC667AD219.subtitle}"
+			tasks: [
+				{
+					id: "36AA8548A657EF32"
+					item: "gtocore:me_cpu"
+					type: "item"
+				}
+				{
+					id: "3652AC4A49C0F2DE"
+					item: "gtocore:crafting_cpu_interface"
+					type: "item"
+				}
+			]
 			x: -3.0d
 			y: 11.5d
 		}
@@ -4038,7 +4140,11 @@
 		}
 		{
 			dependencies: ["5F96077A62E88635"]
-			description: ["{gto.ae.quests.3A3CCF0B1FF4EEA3.description0}"]
+			description: [
+				"{gto.ae.quests.3A3CCF0B1FF4EEA3.description0}"
+				""
+				"{gto.ae.quests.3A3CCF0B1FF4EEA3.description1}"
+			]
 			hide_dependency_lines: true
 			id: "3A3CCF0B1FF4EEA3"
 			subtitle: "{gto.ae.quests.3A3CCF0B1FF4EEA3.subtitle}"
@@ -4075,7 +4181,11 @@
 		}
 		{
 			dependencies: ["083934744ECD19FB"]
-			description: ["{gto.ae.quests.44D98ACF7C6D783F.description0}"]
+			description: [
+				"{gto.ae.quests.44D98ACF7C6D783F.description0}"
+				""
+				"{gto.ae.quests.44D98ACF7C6D783F.description1}"
+			]
 			id: "44D98ACF7C6D783F"
 			subtitle: "{gto.ae.quests.44D98ACF7C6D783F.subtitle}"
 			tasks: [{
@@ -4116,6 +4226,8 @@
 				"{gto.ae.quests.1BDAC7D9FED887B2.description1}"
 				""
 				"{gto.ae.quests.1BDAC7D9FED887B2.description2}"
+				""
+				"{gto.ae.quests.1BDAC7D9FED887B2.description3}"
 			]
 			id: "1BDAC7D9FED887B2"
 			tasks: [{
@@ -4133,6 +4245,140 @@
 			title: "{gto.ae.quests.1BDAC7D9FED887B2.title}"
 			x: -19.0d
 			y: 1.5d
+		}
+		{
+			dependencies: [
+				"056EC4E6FAF614B7"
+				"5FCFE3D6B36CC409"
+			]
+			description: ["{gto.ae.quests.073CEA22FD3EF535.description0}"]
+			hide_until_deps_visible: true
+			icon: "ae2:wireless_terminal"
+			id: "073CEA22FD3EF535"
+			shape: "pentagon"
+			subtitle: "{gto.ae.quests.073CEA22FD3EF535.subtitle}"
+			tasks: [{
+				id: "134FCC3297599FBD"
+				type: "checkmark"
+			}]
+			title: "{gto.ae.quests.073CEA22FD3EF535.title}"
+			x: -7.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["034D579A41F2ED3D"]
+			description: ["{gto.ae.quests.246AB02BB7F4129D.description0}"]
+			hide_dependency_lines: true
+			id: "246AB02BB7F4129D"
+			tasks: [{
+				id: "4383E6058D137ABB"
+				item: {
+					Count: 1
+					id: "ae2:memory_card"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -21.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2A893BFDB41B7CFC"]
+			id: "44B2AB98840349D2"
+			tasks: [
+				{
+					id: "2B7564BACBAEE2E0"
+					item: "ae2:printed_silicon"
+					type: "item"
+				}
+				{
+					id: "3033FAEF1018B612"
+					item: "ae2:printed_calculation_processor"
+					type: "item"
+				}
+				{
+					id: "4752ABD401EC176B"
+					item: "ae2:printed_engineering_processor"
+					type: "item"
+				}
+				{
+					id: "02F0689BAE48AACE"
+					item: "ae2:printed_logic_processor"
+					type: "item"
+				}
+			]
+			x: -11.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7797EB75FF74F43F"]
+			description: [
+				"{gto.ae.quests.4BDC9F94B41543AD.description0}"
+				""
+				"{gto.ae.quests.4BDC9F94B41543AD.description1}"
+			]
+			id: "4BDC9F94B41543AD"
+			subtitle: "{gto.ae.quests.4BDC9F94B41543AD.subtitle}"
+			tasks: [
+				{
+					id: "4B5233E69F928F7B"
+					item: "gtocore:me_energy_substation"
+					type: "item"
+				}
+				{
+					id: "3CD22ADFFC1AB870"
+					item: "gtocore:me_energy_access_hatch"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 11.5d
+		}
+		{
+			dependencies: [
+				"263C0A85D433CD20"
+				"7787A8BEBD46D860"
+			]
+			description: ["{gto.ae.quests.2037EF8B9FF46636.description0}"]
+			id: "2037EF8B9FF46636"
+			tasks: [{
+				id: "2F3E4FAB40DB738B"
+				item: "gtocore:me_muffler_hatch"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 17.5d
+		}
+		{
+			dependencies: [
+				"11536C3252358B1F"
+				"430034AB98D8453B"
+			]
+			description: ["{gto.ae.quests.032F201D040AADE2.description0}"]
+			id: "032F201D040AADE2"
+			tasks: [{
+				id: "170E5C2BA1490DBC"
+				item: "gtocore:me_io_storage_access_hatch"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["04581C43F7B0BBCE"]
+			disable_toast: true
+			icon_scale: 0.25d
+			id: "4A3BC8016455AB91"
+			shape: "none"
+			size: 0.25d
+			tasks: [{
+				id: "434481184A3CA360"
+				stat: "minecraft:jump"
+				type: "stat"
+				value: 1
+			}]
+			x: -11.0d
+			y: 17.5d
 		}
 	]
 	subtitle: ["{gto.ae.subtitle0}"]

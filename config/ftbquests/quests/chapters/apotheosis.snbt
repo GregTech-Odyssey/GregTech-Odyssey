@@ -5,72 +5,24 @@
 	group: "48D03BA483B3FA87"
 	icon: "apotheosis:mythic_material"
 	id: "377B5361DA79AF97"
-	images: [
-		{
-			height: 1.0d
-			image: "apotheosis:items/sigils/enhancement"
-			rotation: 0.0d
-			width: 1.0d
-			x: -5.0d
-			y: -7.0d
-		}
-		{
-			height: 1.0d
-			image: "apotheosis:items/sigils/rebirth"
-			rotation: 0.0d
-			width: 1.0d
-			x: -6.0d
-			y: -7.0d
-		}
-		{
-			height: 1.0d
-			image: "apotheosis:items/sigils/socketing"
-			rotation: 0.0d
-			width: 1.0d
-			x: -5.0d
-			y: -8.0d
-		}
-		{
-			height: 1.0d
-			image: "apotheosis:items/sigils/unnaming"
-			rotation: 0.0d
-			width: 1.0d
-			x: -4.0d
-			y: -7.0d
-		}
-		{
-			height: 1.0d
-			image: "apotheosis:items/sigils/withdrawal"
-			rotation: 0.0d
-			width: 1.0d
-			x: -5.0d
-			y: -6.0d
-		}
-		{
-			height: 3.0d
-			image: "apotheosis:blocks/blazing_hellshelf"
-			rotation: 0.0d
-			width: 3.0d
-			x: -17.0d
-			y: -1.5d
-		}
-	]
-	order_index: 3
+	order_index: 2
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["136FD8A5D591D934"]
 			description: [
-				"你发现了吗？这个世界的甘蔗和仙人掌都长得特别高——别担心，你并没有误入巨人国。"
+				"你发现了吗？这个世界的甘蔗和仙人掌都长得特别高"
 				""
-				"在&l&5神化&r&r的影响下，这个世界确实有所不同，而你也拥有着能充分利用它们的契机，"
+				"——别担心，你并没有误入&7巨人国&r"
 				""
-				"通过本章节任务你将逐步了解&l&5神化&r&r的各种机制，用它们去征服这个世界吧！"
+				"在&l&5神化&r&r的影响下，这个世界&d确实发生了改变&r，而你也拥有着能充分利用它们的契机"
+				""
+				"通过本章节任务你将逐步了解&l&5神化&r&r的各种机制，并用它们去征服这个世界吧！"
 				""
 				"&6&o&l欢迎来到神化&r"
-				""
-				"&4&l※ 当前为v1.0任务内容，欢迎提交反馈意见&r"
 			]
+			hide_dependency_lines: true
 			icon: "minecraft:enchanting_table"
 			id: "4AFDE77764237236"
 			progression_mode: "flexible"
@@ -94,24 +46,17 @@
 		{
 			dependencies: ["4AFDE77764237236"]
 			description: [
-				"神化世界下，原版书架仅仅是凡俗的&2起点&r，它将附魔之力禁锢在&415级&r的巅峰。但这绝非终点，而是你征程的&2开端&r。"
+				"在&l&5神化&r&r世界中，原版书架不过是凡俗的&2起点&r，它将附魔之力禁锢在&430级&r的巅峰。但这绝非终点，而是你征程的&2开端&r"
 				""
-				"在神化的加持下，冲破凡界的极限，让附魔等级攀升至前所未有的&5100级&r，触摸神之领域。"
+				"在神化的加持下，冲破凡界的极限，让附魔等级攀升至前所未有的&5100级&r，触摸神之领域"
 			]
 			id: "26ADEFA5357DD47A"
-			rewards: [
-				{
-					count: 3
-					id: "48342821941A475A"
-					item: "minecraft:book"
-					type: "item"
-				}
-				{
-					id: "01F0EB319D51CE0D"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-			]
+			rewards: [{
+				count: 16
+				id: "7E9FC1BAB01485A4"
+				item: "minecraft:lapis_lazuli"
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 2.0d
 			subtitle: "破凡桎而登极，化神域以触巅"
@@ -126,30 +71,36 @@
 		{
 			dependencies: ["136FD8A5D591D934"]
 			description: [
-				"铁砧现在支持被附魔，且取消了附魔等级限制"
+				"&9拆分&r是铁砧的专属附魔 "
 				""
-				"现在你可以使用&2铁块&r，在铁砧上修复另一个铁砧了"
+				"有了&9拆分铁砧&r， 多魔咒附魔书不再是“捆绑销售”"
+				""
+				"把附魔书丢在地上， 再让铁砧从高处落下——"
+				""
+				"剩下的事，交给重力"
 			]
 			icon: "minecraft:anvil"
 			id: "1B569C1F72A6C4FD"
 			shape: "hexagon"
 			tasks: [{
-				id: "12CC92D37BD29A68"
-				item: "minecraft:anvil"
-				type: "item"
+				id: "5CEC7CE9FA7D1825"
+				title: "关于铁砧"
+				type: "checkmark"
 			}]
 			title: "关于铁砧"
-			x: -28.5d
-			y: -2.5d
+			x: -22.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["1B569C1F72A6C4FD"]
 			description: [
-				"&9分裂&r是铁砧的专属附魔."
+				"&9分裂&r是铁砧的专属附魔。"
 				""
-				"&9分裂铁砧&r能将一本只有一个魔咒的附魔书,转换成两本低等级的附魔书"
+				"有了&9分裂铁砧&r，一个魔咒，也能“一分为二”。"
 				""
-				"要使用&9分裂铁砧&r，需要把附魔书扔在地上，然后在高处放置铁砧使其砸在书上"
+				"把附魔书丢在地上，再让铁砧从高处落下——"
+				""
+				"剩下的事，交给重力。"
 			]
 			icon: {
 				Count: 1
@@ -165,20 +116,23 @@
 			shape: "pentagon"
 			tasks: [{
 				id: "7D654F75F2808DF8"
+				title: "分裂"
 				type: "checkmark"
 			}]
 			title: "分裂"
-			x: -30.0d
-			y: -3.5d
+			x: -23.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["1B569C1F72A6C4FD"]
 			description: [
-				"&9拆分&r是铁砧的另一种专属附魔"
+				"&9拆分&r是铁砧的专属附魔。"
 				""
-				"&9拆分铁砧&r能够将带有多个魔咒的附魔书“拆分”成多个单独的附魔书"
+				"有了&9拆分铁砧&r，多魔咒附魔书不再是“捆绑销售”。"
 				""
-				"要使用&9拆分铁砧&r，请将附魔书扔在地上，然后在高处放置铁砧使其砸在书上"
+				"把附魔书丢在地上，再让铁砧从高处落下"
+				""
+				"——剩下的事，交给重力。"
 			]
 			icon: {
 				Count: 1
@@ -194,11 +148,12 @@
 			shape: "pentagon"
 			tasks: [{
 				id: "16562C5D3444A684"
+				title: "拆分"
 				type: "checkmark"
 			}]
 			title: "拆分"
-			x: -30.0d
-			y: -1.5d
+			x: -23.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["553A52E72E178CAC"]
@@ -208,19 +163,12 @@
 				"它允许你重铸稀有度高达&e珍贵&r的物品"
 			]
 			id: "4BB95D23CD1C4ECE"
-			rewards: [
-				{
-					count: 2
-					id: "7E8DFE05810484BB"
-					item: "apotheosis:gem_dust"
-					type: "item"
-				}
-				{
-					id: "2700C57264C7DE42"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-			]
+			rewards: [{
+				count: 16
+				id: "7E8DFE05810484BB"
+				item: "apotheosis:gem_dust"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "易缀焕新生，粹奇珍铸华章"
 			tasks: [{
@@ -235,18 +183,12 @@
 			dependencies: ["4BB95D23CD1C4ECE"]
 			description: ["要重铸&6史诗&r或更高稀有度的装备 ，你需要&5重铸台&r"]
 			id: "31A1C244434CC66D"
-			rewards: [
-				{
-					id: "55C5FB0716EB0B07"
-					item: "minecraft:netherite_ingot"
-					type: "item"
-				}
-				{
-					id: "1EE7C6DCD271881E"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-			]
+			rewards: [{
+				count: 32
+				id: "274E7AD7C391CDEB"
+				item: "apotheosis:gem_dust"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "淬炼圣器，铸魂涅槃"
 			tasks: [{
@@ -272,7 +214,7 @@
 				item: "apotheosis:common_material"
 				type: "item"
 			}]
-			x: -2.5d
+			x: -3.5d
 			y: -1.5d
 		}
 		{
@@ -290,7 +232,7 @@
 				item: "apotheosis:uncommon_material"
 				type: "item"
 			}]
-			x: 0.5d
+			x: -0.5d
 			y: -1.5d
 		}
 		{
@@ -308,7 +250,7 @@
 				item: "apotheosis:rare_material"
 				type: "item"
 			}]
-			x: -2.5d
+			x: -3.5d
 			y: -3.5d
 		}
 		{
@@ -326,7 +268,7 @@
 				item: "apotheosis:epic_material"
 				type: "item"
 			}]
-			x: 0.5d
+			x: -0.5d
 			y: -3.5d
 		}
 		{
@@ -351,12 +293,12 @@
 				item: "apotheosis:mythic_material"
 				type: "item"
 			}]
-			x: -1.0d
+			x: -2.0d
 			y: -4.5d
 		}
 		{
 			dependencies: ["1CA6E1AD1909373A"]
-			description: ["通过&c格雷科技&r的先进工艺，可高效获取&9珍宝材料&r"]
+			description: ["通过&c格雷科技&r的先进工艺，可以高效获取&9珍宝材料&r"]
 			id: "4AF39FF336EA1BF4"
 			rewards: [{
 				id: "0F67638014E942B2"
@@ -371,7 +313,7 @@
 				item: "gtocore:rarity_forge"
 				type: "item"
 			}]
-			x: -1.0d
+			x: -2.0d
 			y: -2.5d
 		}
 		{
@@ -398,7 +340,7 @@
 				item: "apotheosis:sigil_of_rebirth"
 				type: "item"
 			}]
-			x: 0.0d
+			x: -1.0d
 			y: -6.5d
 		}
 		{
@@ -425,7 +367,7 @@
 				item: "apotheosis:sigil_of_enhancement"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -3.0d
 			y: -6.5d
 		}
 		{
@@ -447,7 +389,7 @@
 				item: "apotheosis:gem_fused_slate"
 				type: "item"
 			}]
-			x: -1.0d
+			x: -2.0d
 			y: -8.0d
 		}
 		{
@@ -471,7 +413,7 @@
 				item: "apotheosis:sigil_of_socketing"
 				type: "item"
 			}]
-			x: 0.5d
+			x: -0.5d
 			y: -8.0d
 		}
 		{
@@ -495,7 +437,7 @@
 				item: "apotheosis:sigil_of_withdrawal"
 				type: "item"
 			}]
-			x: -2.5d
+			x: -3.5d
 			y: -8.0d
 		}
 		{
@@ -523,30 +465,19 @@
 				item: "apotheosis:sigil_of_unnaming"
 				type: "item"
 			}]
-			x: -1.0d
+			x: -2.0d
 			y: -9.5d
 		}
 		{
 			dependencies: ["553A52E72E178CAC"]
-			description: [
-				"&d宝石切割台&r用于升级&9宝石&r，升级宝石需要消耗&a宝石粉&r、"
-				""
-				"&a珍宝材料&r和第二个相同稀有度的宝石"
-			]
+			description: ["&d宝石切割台&r用于升级&9宝石&r，升级宝石需要消耗&a宝石粉&r、 &a珍宝材料&r和第二个相同稀有度的宝石"]
 			id: "6B1AEF55BB23CA53"
-			rewards: [
-				{
-					count: 2
-					id: "2746821656A2E6D2"
-					item: "apotheosis:gem_dust"
-					type: "item"
-				}
-				{
-					id: "628F4A925BF58AAC"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-			]
+			rewards: [{
+				count: 16
+				id: "2746821656A2E6D2"
+				item: "apotheosis:gem_dust"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "精琢奇珍，粹炼升华"
 			tasks: [{
@@ -585,44 +516,26 @@
 				item: "apotheosis:augmenting_table"
 				type: "item"
 			}]
-			x: -1.0d
+			x: -2.0d
 			y: -6.5d
 		}
 		{
-			dependencies: ["136FD8A5D591D934"]
-			dependency_requirement: "all_started"
-			description: [
-				"在古老的洞穴深处，分布着若干Boss地牢，每座地牢均设有一个&5Boss刷怪箱&r"
-				""
-				"当玩家接近刷怪箱时，它将激活并召唤其中的Boss"
-			]
-			icon: "apotheosis:boss_summoner"
-			id: "2717094F5E3D8797"
-			shape: "pentagon"
-			tasks: [{
-				id: "3C94DAA9A39293F0"
-				type: "checkmark"
-			}]
-			title: "Boss地牢"
-			x: -26.5d
-			y: -4.5d
-		}
-		{
-			dependencies: ["136FD8A5D591D934"]
-			description: ["&6宝典&r可以像书一样被&5附魔&r，但只能接受&4特定&r的魔咒"]
+			dependencies: ["4AFDE77764237236"]
+			description: ["&6宝典&r可以像书一样被&5附魔&r，但只能接受其&4特定&r的魔咒"]
 			id: "193061E4948D3F33"
 			shape: "pentagon"
+			size: 1.0d
 			tasks: [{
 				id: "7A331A5CD9AAA30E"
 				item: "minecraft:book"
 				type: "item"
 			}]
 			title: "宝典秘籍"
-			x: -26.5d
-			y: -0.5d
+			x: -19.0d
+			y: -1.5d
 		}
 		{
-			dependencies: ["193061E4948D3F33"]
+			dependencies: ["59FB8C61D2E48F01"]
 			id: "727B29A348C7D055"
 			shape: "diamond"
 			tasks: [{
@@ -655,11 +568,11 @@
 				type: "item"
 			}]
 			title: "护甲宝典"
-			x: -28.5d
-			y: 0.5d
+			x: -16.0d
+			y: -2.5d
 		}
 		{
-			dependencies: ["193061E4948D3F33"]
+			dependencies: ["06721D2A8713B59A"]
 			icon: "apotheosis:pickaxe_tome"
 			id: "59FB8C61D2E48F01"
 			shape: "diamond"
@@ -669,8 +582,8 @@
 				type: "item"
 			}]
 			title: "工具宝典"
-			x: -25.5d
-			y: 0.5d
+			x: -17.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["193061E4948D3F33"]
@@ -698,20 +611,8 @@
 				type: "item"
 			}]
 			title: "武器宝典"
-			x: -27.5d
-			y: 0.5d
-		}
-		{
-			dependencies: ["193061E4948D3F33"]
-			id: "170AF9BF1BAA8494"
-			shape: "diamond"
-			tasks: [{
-				id: "08DA09E04271E072"
-				item: "apotheosis:other_tome"
-				type: "item"
-			}]
-			x: -24.5d
-			y: 0.5d
+			x: -18.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["193061E4948D3F33"]
@@ -727,8 +628,8 @@
 				item: "apotheosis:scrap_tome"
 				type: "item"
 			}]
-			x: -26.5d
-			y: 0.5d
+			x: -18.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["5F2F02D45B520615"]
@@ -740,8 +641,8 @@
 				item: "apotheosis:improved_scrap_tome"
 				type: "item"
 			}]
-			x: -26.5d
-			y: 1.5d
+			x: -17.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["0AC5B26563FA8886"]
@@ -753,8 +654,8 @@
 				item: "apotheosis:extraction_tome"
 				type: "item"
 			}]
-			x: -26.5d
-			y: 2.5d
+			x: -16.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["26ADEFA5357DD47A"]
@@ -857,12 +758,12 @@
 			id: "707EDBB8ADB0049C"
 			rewards: [
 				{
-					id: "15BDD532127BD6FA"
-					item: "minecraft:ender_eye"
+					id: "6C99E477D5D6BC85"
+					item: "apotheosis:sightshelf"
 					type: "item"
 				}
 				{
-					id: "465AEB7C5C887BDB"
+					id: "71CAAFAC534DB63D"
 					type: "xp_levels"
 					xp_levels: 5
 				}
@@ -881,12 +782,12 @@
 			id: "24FB820D764F3DF9"
 			rewards: [
 				{
-					id: "4E5B7CD37419DBAB"
-					item: "minecraft:netherite_ingot"
+					id: "466371F9E916290B"
+					item: "apotheosis:sightshelf_t2"
 					type: "item"
 				}
 				{
-					id: "02DBB21E049D5322"
+					id: "3253137826C0936C"
 					type: "xp_levels"
 					xp_levels: 5
 				}
@@ -903,24 +804,16 @@
 		{
 			dependencies: ["5F0A2C9D163B57FE"]
 			description: [
-				"宝石粉可以通过用铁砧砸落&9宝石&r获得，这是不可或缺的材料"
+				"&2宝石粉&r可以通过用铁砧砸落&9宝石&r获得，这是不可或缺的材料"
 				""
-				"另一种获取途径是使用&d宝石锻炉&r，不过这属于后话了"
+				"另一种获取途径是使用&d宝石锻炉&r，不过那就属于后话了"
 			]
 			id: "553A52E72E178CAC"
-			rewards: [
-				{
-					count: 2
-					id: "57F513647C8C4BC7"
-					item: "apotheosis:gem_dust"
-					type: "item"
-				}
-				{
-					id: "7859B536CF1DAA06"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-			]
+			rewards: [{
+				id: "57F513647C8C4BC7"
+				item: "apotheosis:gem_dust"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "砧落晶华，粉铸根基"
 			tasks: [{
@@ -936,19 +829,11 @@
 			dependencies: ["553A52E72E178CAC"]
 			description: ["想要镶嵌宝石需要用到原版的&5锻造台&r"]
 			id: "6B4E1CD13BB19BE5"
-			rewards: [
-				{
-					count: 2
-					id: "6B996119580D1805"
-					item: "ad_astra:steel_ingot"
-					type: "item"
-				}
-				{
-					id: "6F7F3BB9EC825871"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-			]
+			rewards: [{
+				id: "3ED67D7A8F71491E"
+				item: "gtocore:gto_overseer_coke_mv"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "神工铸台，宝石赋能"
 			tasks: [{
@@ -960,7 +845,7 @@
 			y: -7.0d
 		}
 		{
-			dependencies: ["2717094F5E3D8797"]
+			dependencies: ["136FD8A5D591D934"]
 			description: [
 				"每个Boss都携带着一件独特的&5词缀装备&r作为战利品"
 				""
@@ -982,51 +867,15 @@
 				type: "checkmark"
 			}]
 			title: "Boss物品"
-			x: -28.0d
-			y: -6.0d
-		}
-		{
-			dependencies: ["2717094F5E3D8797"]
-			description: [
-				"注意！你的世界偶尔会出现会发光的强化怪物——"
-				""
-				"它们可能是&5神化迷你Boss&r！"
-				""
-				"这些强敌会随机取代普通怪物现身。"
-				""
-				"千万当心！"
-			]
-			icon: "minecraft:wither_skeleton_skull"
-			id: "60A41C1F285F31EB"
-			shape: "pentagon"
-			tasks: [{
-				id: "275A1CC2175620BD"
-				type: "checkmark"
-			}]
-			title: "迷你Boss"
-			x: -25.0d
-			y: -6.0d
-		}
-		{
-			dependencies: ["2717094F5E3D8797"]
-			description: ["他们的到来会发出巨响、一条状态信息和一个从他们的生成点短暂发出的信标光束"]
-			icon: "minecraft:beacon"
-			id: "0C092A02A8733EDD"
-			shape: "pentagon"
-			tasks: [{
-				id: "7AF126B8228B6DA2"
-				type: "checkmark"
-			}]
-			title: "入侵Boss"
-			x: -26.5d
-			y: -6.5d
+			x: -21.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["136FD8A5D591D934"]
 			description: [
 				"流浪商人，&m又称流浪拴绳&r，通常它们只卖废品"
 				""
-				"然而，神化在它们的交易表里添加了大量的好东西"
+				"但在神化的加持下，它们的货架上出现了好多珍贵好物！"
 				""
 				"你可以买到&9信标&r，&2不死图腾&r，和带有强力&e附魔&r的装备"
 			]
@@ -1038,8 +887,8 @@
 				type: "checkmark"
 			}]
 			title: "流浪拴绳"
-			x: -24.0d
-			y: -1.0d
+			x: -19.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["26ADEFA5357DD47A"]
@@ -1339,22 +1188,23 @@
 				""
 				"用拴绳&a左击&r一个动物来捕捉它，然后&a右击&r释放"
 			]
+			icon: {
+				Count: 1
+				id: "apotheosis:ender_lead"
+				tag: {
+					Damage: 0
+					entity_data: { }
+				}
+			}
 			id: "571EA614A7259A2D"
 			shape: "pentagon"
 			tasks: [{
-				id: "543F6DA1F1EFF286"
-				item: {
-					Count: 1
-					id: "apotheosis:ender_lead"
-					tag: {
-						Damage: 0
-						entity_data: { }
-					}
-				}
-				type: "item"
+				id: "52B03FBA327FC94C"
+				title: "末影拴绳"
+				type: "checkmark"
 			}]
-			x: -24.0d
-			y: -2.0d
+			x: -19.5d
+			y: -5.5d
 		}
 		{
 			dependencies: [
@@ -1362,16 +1212,23 @@
 				"7A73559789867BF5"
 			]
 			description: [
-				"&6恭喜达成终极目标！你已构筑完美附魔体系&r"
+				"&6恭喜达成终极目标！&r你已构筑出一套&d完美的附魔体系&r。"
 				""
-				"&2什么？尚未完成？&r"
+				"&2......什么？尚未完成？&r"
 				""
-				"这有一套&9方案&r："
-				"水之过滤海洋书架*1，巨龙末地书架*1，精湛视界书架*1，末地聚合书架*4，  回响幽匿书架*4，璀璨末地书架*4 ，灵魂触摸幽匿书架*2，任意头颅*2"
+				"那么，这里有一套经过验证的&9终极方案&r："
+				""
+				"&b水之过滤海洋书架&r ×1"
+				"&5巨龙末地书架&r ×1"
+				"&d精湛视界书架&r ×1"
+				"&9末地聚合书架&r ×4"
+				"&3回响幽匿书架&r ×4"
+				"&d璀璨末地书架&r ×4"
+				"&8灵魂触摸幽匿书架&r ×2"
+				"&7任意头颅&r ×2"
 				""
 				"这套方案能够&a提供&r："
-				""
-				"50位阶｜100%量子化｜100%阿卡那｜100%校准｜7条魔咒线索"
+				"&650 位阶&r｜&b100% 量子化&r｜&d100% 阿卡那&r｜&a100% 校准&r｜&e7 条魔咒线索&r"
 			]
 			id: "0C99B615FA9FA075"
 			rewards: [{
@@ -1391,7 +1248,7 @@
 		}
 		{
 			dependencies: ["4AFDE77764237236"]
-			description: ["&d宝石&r可在箱子的战利品中找到，也能通过击杀怪物随机掉落。"]
+			description: ["&d宝石&r可在箱子的战利品中找到，也能通过击杀怪物随机掉落"]
 			icon: {
 				Count: 1
 				id: "apotheosis:gem"
@@ -1403,16 +1260,12 @@
 				}
 			}
 			id: "5F0A2C9D163B57FE"
-			rewards: [{
-				id: "5E20FBF3D8CA7447"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
 			shape: "hexagon"
 			size: 2.0d
 			subtitle: "珍宝天成，杀伐可得"
 			tasks: [{
 				id: "28FA343FE94E0802"
+				title: "获取宝石"
 				type: "checkmark"
 			}]
 			title: "获取宝石"
@@ -1428,9 +1281,10 @@
 				""
 				"作为获取&5玄奥沙&r和&6神铸珍珠&r的唯一来源"
 				""
-				"主世界只能召唤出&2罕见&r和&b珍贵&r等级BOSS"
-				"下界召唤上限为&5史诗&r等级"
-				"末地召唤上限为&6传说&r等级"
+				"不同维度决定召唤上限："
+				"&a主世界&r：&2罕见&r / &b珍贵&r"
+				"&c下界&r：最高 &5史诗&r"
+				"&5末地&r：最高 &6神话&r"
 			]
 			id: "1A00DF4BC5C15459"
 			rewards: [{
@@ -1446,39 +1300,45 @@
 				item: "gtocore:boss_summoner"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 0.5d
+			x: -2.0d
+			y: 0.0d
 		}
 		{
 			icon: "botania:cosmetic_questgiver_mark"
 			id: "136FD8A5D591D934"
-			shape: "gear"
+			shape: "pentagon"
 			size: 2.0d
+			subtitle: "为什么不看我呢?"
 			tasks: [{
 				id: "10BBC28DB122AA05"
 				title: "一些小提示"
 				type: "checkmark"
 			}]
 			title: "一些小提示"
-			x: -26.5d
-			y: -2.5d
+			x: -21.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["553A52E72E178CAC"]
-			description: ["用于将词缀物品分解为其相对应的&2珍宝材料&r"]
-			id: "42A4D1CE6C047992"
-			rewards: [
-				{
-					id: "4ABEC74DB0372473"
-					item: "apotheosis:gem_dust"
-					type: "item"
-				}
-				{
-					id: "5F6CB8EDE5980E56"
-					type: "xp_levels"
-					xp_levels: 1
-				}
+			description: [
+				"用于将词缀物品分解为其相对应的&2珍宝材料&r"
+				""
+				"装备越稀有，产出的材料越珍贵"
+				""
+				"稀有度 → 分解产物："
+				"&7普通（灰字）&r → &7神秘废金属&r"
+				"&2罕见（绿字）&r → &2陈旧布匹&r"
+				"&b珍贵（蓝字）&r → &b发光水晶碎片&r"
+				"&5史诗（紫字）&r → &5玄奥沙&r"
+				"&6神话（橙字）&r → &6神铸珍珠&r"
 			]
+			id: "42A4D1CE6C047992"
+			rewards: [{
+				count: 8
+				id: "4ABEC74DB0372473"
+				item: "apotheosis:gem_dust"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "解构珍奇，还源归真"
 			tasks: [{
@@ -1492,36 +1352,23 @@
 		{
 			dependencies: ["136FD8A5D591D934"]
 			description: [
-				"蜘蛛网可以与铁砧中的物品结合，移除&4所有&r的魔咒"
+				"有时候，最原始的方法反而最有效"
 				""
-				"海晶蜘蛛网可以移除所有的&4诅咒&r魔咒 "
+				"&l蜘蛛网&r会抹去物品上的&4全部魔咒&r"
+				""
+				"而&3海晶蜘蛛网&r，只针对那些&4不该存在的诅咒&r"
 			]
+			icon: "apotheosis:prismatic_web"
 			id: "6CF962B9A66C0BFA"
 			shape: "pentagon"
 			tasks: [{
-				id: "7F904566FF1448EB"
-				item: {
-					Count: 1
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "minecraft:cobweb"
-							}
-							{
-								Count: 1b
-								id: "apotheosis:prismatic_web"
-							}
-						]
-					}
-				}
-				title: "任意蜘蛛网"
-				type: "item"
+				id: "4E0C26C2FB0DF034"
+				title: "移除魔咒"
+				type: "checkmark"
 			}]
 			title: "移除魔咒"
-			x: -24.0d
-			y: -3.0d
+			x: -22.5d
+			y: -5.5d
 		}
 		{
 			dependencies: [
@@ -1683,8 +1530,8 @@
 				type: "checkmark"
 			}]
 			title: "刷怪蛋"
-			x: -24.0d
-			y: -4.0d
+			x: -22.0d
+			y: -6.5d
 		}
 		{
 			dependencies: [
@@ -1698,6 +1545,11 @@
 			]
 			description: ["一台机器解决神化的所有问题"]
 			id: "782E6E5239AA5283"
+			rewards: [{
+				id: "44B7ED30DC530344"
+				type: "xp_levels"
+				xp_levels: 100
+			}]
 			shape: "none"
 			size: 4.0d
 			subtitle: "元枢衍万法，一器掌天工"
@@ -1708,6 +1560,32 @@
 			}]
 			x: -9.0d
 			y: -5.0d
+		}
+		{
+			dependencies: ["136FD8A5D591D934"]
+			description: [
+				"&c格雷科技&r员工终于想通了：与其不停&d喝药&r，不如让&9药水&r自己干活。"
+				""
+				"护符在&6启用&r状态下会释放药水效果，代价只是一些&7耐久&r"
+			]
+			icon: {
+				Count: 1
+				id: "apotheosis:potion_charm"
+				tag: {
+					Damage: 0
+					Potion: "minecraft:night_vision"
+				}
+			}
+			id: "32621B114CBD88D1"
+			shape: "pentagon"
+			tasks: [{
+				id: "1A714B18693B7990"
+				title: "护身符"
+				type: "checkmark"
+			}]
+			title: "护身符"
+			x: -20.0d
+			y: -6.5d
 		}
 	]
 	subtitle: ["Apotheosis"]

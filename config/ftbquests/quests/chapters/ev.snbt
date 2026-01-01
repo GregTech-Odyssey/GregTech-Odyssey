@@ -1,5 +1,5 @@
 {
-	autofocus_id: "789B188B05759151"
+	autofocus_id: "7ABCF4826CC6154B"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "ev"
@@ -13,7 +13,25 @@
 			rotation: 45.0d
 			width: 1.0d
 			x: 2.5d
-			y: -1.0d
+			y: -12.0d
+		}
+		{
+			color: 16711935
+			height: 1.0d
+			image: "ftbquests:block/barrier_open"
+			order: 1
+			rotation: 45.0d
+			width: 1.0d
+			x: 3.75d
+			y: -12.0d
+		}
+		{
+			height: 1.0d
+			image: "xtonesreworked:block/bitt/12"
+			rotation: 45.0d
+			width: 1.0d
+			x: 3.75d
+			y: -12.0d
 		}
 		{
 			color: 16711935
@@ -23,15 +41,15 @@
 			rotation: 45.0d
 			width: 1.0d
 			x: 2.5d
-			y: -1.0d
+			y: -12.0d
 		}
 		{
 			height: 1.0d
 			image: "xtonesreworked:block/bitt/12"
 			rotation: 45.0d
 			width: 1.0d
-			x: 1.25d
-			y: -1.0d
+			x: 4.0d
+			y: 7.0d
 		}
 		{
 			color: 16711935
@@ -40,16 +58,16 @@
 			order: 1
 			rotation: 45.0d
 			width: 1.0d
-			x: 1.25d
-			y: -1.0d
+			x: 4.0d
+			y: 7.0d
 		}
 		{
 			height: 1.0d
 			image: "xtonesreworked:block/bitt/12"
 			rotation: 45.0d
 			width: 1.0d
-			x: 1.5d
-			y: -13.0d
+			x: 6.0d
+			y: 7.0d
 		}
 		{
 			color: 16711935
@@ -58,77 +76,65 @@
 			order: 1
 			rotation: 45.0d
 			width: 1.0d
-			x: 1.5d
-			y: -13.0d
-		}
-		{
-			height: 1.0d
-			image: "xtonesreworked:block/bitt/12"
-			rotation: 45.0d
-			width: 1.0d
-			x: 2.75d
-			y: -13.0d
-		}
-		{
-			color: 16711935
-			height: 1.0d
-			image: "ftbquests:block/barrier_open"
-			order: 1
-			rotation: 45.0d
-			width: 1.0d
-			x: 2.75d
-			y: -13.0d
+			x: 6.0d
+			y: 7.0d
 		}
 	]
 	order_index: 6
 	quest_links: [
 		{
-			id: "4C16FF45DEA84C8F"
-			linked_quest: "5808E00A58A9F4EE"
-			x: 13.0d
-			y: -2.0d
-		}
-		{
 			id: "50DE63BF29511D2E"
 			linked_quest: "69DF9DE9F7176FD0"
 			shape: "diamond"
-			x: 2.75d
-			y: -13.0d
+			x: 6.0d
+			y: 7.0d
 		}
 		{
 			id: "46C3F904D3DBAD79"
 			linked_quest: "2DAEB70539AACE1A"
 			shape: "diamond"
-			x: 1.5d
-			y: -13.0d
+			x: 4.0d
+			y: 7.0d
 		}
 		{
 			id: "160EF833BB857B97"
 			linked_quest: "79B00A56EED55DBD"
 			shape: "diamond"
-			x: 1.25d
-			y: -1.0d
+			x: 2.5d
+			y: -12.0d
 		}
 		{
 			id: "749B7F8089170DB1"
 			linked_quest: "31BA74442F9E953E"
 			shape: "diamond"
-			x: 2.5d
-			y: -1.0d
+			x: 3.75d
+			y: -12.0d
 		}
 		{
 			id: "52FFEB1F3F4773D7"
 			linked_quest: "23E859D5CC9E4C8C"
-			x: 6.5d
-			y: -8.0d
+			x: -2.0d
+			y: 2.0d
 		}
 		{
 			id: "2103B4D5965B90DF"
 			linked_quest: "1CF7845875EEFA3B"
 			shape: "gear"
 			size: 2.0d
-			x: 11.0d
-			y: -9.0d
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			id: "56B3DCEF93AF79EC"
+			linked_quest: "632D29DA89C3CEA4"
+			x: 7.0d
+			y: 3.5d
+		}
+		{
+			id: "5535179B6517BEB0"
+			linked_quest: "2D901DBE68F833D2"
+			x: 3.5d
+			y: -8.0d
 		}
 	]
 	quests: [
@@ -136,6 +142,7 @@
 			dependencies: [
 				"2F6C81E3B10365E8"
 				"6EA21B3A58DA0770"
+				"60842E72EBC12615"
 			]
 			description: [
 				"没有什么能阻挡你再次飞向星辰"
@@ -160,7 +167,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: -13.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["479C7C9D5519FC41"]
@@ -179,8 +186,8 @@
 				title: "&d访问火星"
 				type: "dimension"
 			}]
-			x: 8.5d
-			y: -11.0d
+			x: 5.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["04C8A65088BA2229"]
@@ -197,26 +204,27 @@
 					type: "item"
 				}
 			]
-			x: 8.5d
-			y: -8.5d
+			x: 5.0d
+			y: 1.75d
 		}
 		{
 			dependencies: ["44ADB13486C023BD"]
 			description: [
-				"&6钨粉&r是EV阶段最重要的单质，这是你的第一个生产挑战"
+				"&6钨粉&r是EV阶段最重要的单质，你需要大量生产"
 				""
 				"随即解锁的极其有用的三种合金都需要钨元素"
 			]
 			id: "7ABCF4826CC6154B"
 			shape: "gear"
 			size: 2.0d
+			subtitle: "EV阶段的第一个生产挑战"
 			tasks: [{
 				id: "489AE5DE1D01A321"
 				item: "gtceu:tungsten_dust"
 				type: "item"
 			}]
-			x: 8.5d
-			y: -6.5d
+			x: 5.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["7ABCF4826CC6154B"]
@@ -228,8 +236,8 @@
 				item: "gtceu:tungsten_steel_ingot"
 				type: "item"
 			}]
-			x: 11.0d
-			y: -6.5d
+			x: 5.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["249A4B2F900AA6F1"]
@@ -246,13 +254,15 @@
 				item: "gtocore:water_purification_plant"
 				type: "item"
 			}]
-			x: 10.5d
-			y: 1.5d
+			x: 9.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["2F6C81E3B10365E8"]
 			description: [
 				"你需要投入你所有的铂金属来源：&6斑铜矿、黝铜矿、辉铜矿、谢尔顿矿&r"
+				""
+				"你无需一次性完成整条铂处产线，可以先进行你马上需要用到的&6钌&r与&6铑&r的产出。但我仍建议一定要搭建一条独立完整的铂处产线"
 				""
 				"希望你享受铂族处理！"
 			]
@@ -264,15 +274,28 @@
 				type: "item"
 			}]
 			title: "香香软软铂系矿泥"
-			x: 6.5d
-			y: -2.0d
+			x: 12.0d
+			y: 2.0d
 		}
 		{
-			dependencies: ["033815C0756BAE1F"]
+			dependencies: [
+				"033815C0756BAE1F"
+				"0CDF5979167EDEAB"
+				"3F2A2379C93BC41B"
+				"55B897D3BC760E2E"
+				"42CA62BB2A9C688A"
+				"626D09E9899F9936"
+				"00E4116CF5A14097"
+			]
 			description: ["EV阶段的第二个单质生产挑战，你终于完成了铂系处理产线！"]
 			id: "38E57C47A1D6D206"
-			shape: "gear"
-			size: 2.0d
+			rewards: [{
+				id: "3CF0724E1BA2D728"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 2.5d
 			tasks: [
 				{
 					id: "50E3B4E82F4D5D12"
@@ -306,16 +329,15 @@
 				}
 			]
 			title: "让我看看你的成果！"
-			x: 8.5d
-			y: -2.0d
+			x: 12.0d
+			y: -1.0d
 		}
 		{
 			dependencies: [
-				"38E57C47A1D6D206"
 				"7ABCF4826CC6154B"
+				"42CA62BB2A9C688A"
 			]
 			id: "44A1BC4F5F9D8F30"
-			min_required_dependencies: 1
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
@@ -323,12 +345,13 @@
 				item: "gtceu:rtm_alloy_ingot"
 				type: "item"
 			}]
-			x: 8.5d
-			y: -4.5d
+			x: 9.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["44A1BC4F5F9D8F30"]
 			description: ["T4级别的线圈方块，集合了你至今为止所有的矿处产线成果"]
+			hide_dependent_lines: true
 			id: "5612C7735BC4F5BC"
 			shape: "hexagon"
 			size: 1.5d
@@ -337,23 +360,35 @@
 				item: "gtceu:rtm_alloy_coil_block"
 				type: "item"
 			}]
-			x: 5.0d
-			y: -2.0d
+			x: 9.0d
+			y: -4.5d
 		}
 		{
-			dependencies: ["2F6C81E3B10365E8"]
-			description: ["高级陶瓷块需要更为精确的&6等静压成型&r，否则会因为压力不均产生内部缺陷"]
+			dependencies: ["135B35F7619D288E"]
+			description: [
+				"高级陶瓷块需要更为精确的&6等静压成型&r，否则会因为压力不均产生内部缺陷"
+				""
+				"烧结炉将&6陶瓷粗胚&r烧结成为&6陶瓷块&r"
+			]
 			id: "0D4645862BFD304D"
 			shape: "hexagon"
 			size: 1.5d
 			subtitle: "绝对相等"
-			tasks: [{
-				id: "2270BA4BA6740B0C"
-				item: "gtocore:isostatic_press"
-				type: "item"
-			}]
-			x: -0.5d
-			y: -11.0d
+			tasks: [
+				{
+					id: "2270BA4BA6740B0C"
+					item: "gtocore:isostatic_press"
+					type: "item"
+				}
+				{
+					id: "1916AE73211BC728"
+					item: "gtocore:sintering_furnace"
+					type: "item"
+				}
+			]
+			title: "陶瓷两件套"
+			x: 3.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["0D4645862BFD304D"]
@@ -363,8 +398,8 @@
 				item: "gtocore:barium_titanate_ceramic_flake"
 				type: "item"
 			}]
-			x: -0.5d
-			y: -9.5d
+			x: 3.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["2F6C81E3B10365E8"]
@@ -383,8 +418,8 @@
 					type: "checkmark"
 				}
 			]
-			x: -2.0d
-			y: -8.0d
+			x: 2.5d
+			y: -3.5d
 		}
 		{
 			dependencies: [
@@ -397,8 +432,8 @@
 				item: "gtceu:epoxy_printed_circuit_board"
 				type: "item"
 			}]
-			x: -0.5d
-			y: -8.0d
+			x: 3.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["7ABCF4826CC6154B"]
@@ -410,8 +445,8 @@
 				item: "gtceu:tungsten_carbide_ingot"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -6.5d
+			x: 1.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["41B5A944F7D9C6E2"]
@@ -424,8 +459,8 @@
 				item: "gtocore:chemical_vapor_deposition"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -6.5d
+			x: 1.0d
+			y: -3.0d
 		}
 		{
 			dependencies: [
@@ -438,8 +473,8 @@
 				item: "gtceu:nano_cpu_chip"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -6.5d
+			x: 1.0d
+			y: -5.0d
 		}
 		{
 			dependencies: [
@@ -465,12 +500,11 @@
 				type: "item"
 			}]
 			title: "&b纳米处理器"
-			x: -0.5d
+			x: 1.0d
 			y: -6.5d
 		}
 		{
 			dependencies: [
-				"2F6C81E3B10365E8"
 				"6EF9D30568DF4953"
 				"09831EA3AD53828C"
 			]
@@ -483,8 +517,8 @@
 				item: "gtceu:ev_circuit_assembler"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -8.0d
+			x: -1.5d
+			y: -6.5d
 		}
 		{
 			dependencies: [
@@ -502,8 +536,8 @@
 				type: "item"
 			}]
 			title: "&b纳米处理器集群"
-			x: -0.5d
-			y: -5.0d
+			x: 1.0d
+			y: -8.0d
 		}
 		{
 			dependencies: [
@@ -521,8 +555,8 @@
 				type: "item"
 			}]
 			title: "&b纳米处理器超级计算机"
-			x: -0.5d
-			y: -3.5d
+			x: 1.0d
+			y: -9.75d
 		}
 		{
 			dependencies: ["63B3B1533377F7BA"]
@@ -537,13 +571,14 @@
 				type: "item"
 			}]
 			title: "&b纳米处理器主机"
-			x: -0.5d
-			y: -1.0d
+			x: 1.0d
+			y: -12.0d
 		}
 		{
 			dependencies: [
 				"135B35F7619D288E"
 				"21A551FA48AC486E"
+				"3CDB8FABC5A970BB"
 			]
 			description: ["别忘了穿上&bT2&r器官"]
 			icon: {
@@ -563,8 +598,8 @@
 				}
 				type: "item"
 			}]
-			x: 11.0d
-			y: -4.5d
+			x: 5.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["4D36C61E2AF3205F"]
@@ -574,15 +609,17 @@
 				item: "ad_astra:raw_desh"
 				type: "item"
 			}]
-			x: 9.72d
-			y: -0.2d
+			x: 7.0d
+			y: -8.0d
 		}
 		{
 			dependencies: [
 				"4E330B245DD74D33"
 				"5612C7735BC4F5BC"
-				"38E57C47A1D6D206"
+				"3F2A2379C93BC41B"
+				"0D7A4E6E0E413A37"
 			]
+			description: ["为什么会需要铑才能制作？&o&m&7也许这就是恶趣味"]
 			id: "249A4B2F900AA6F1"
 			shape: "hexagon"
 			size: 1.5d
@@ -591,11 +628,12 @@
 				item: "ad_astra:desh_ingot"
 				type: "item"
 			}]
-			x: 8.5d
-			y: 1.5d
+			x: 9.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["3EDC674F36EDC52E"]
+			description: ["截至0.5.2版本，净化水机器并行需要调至1000的整数倍才会运行，倍数决定了一次周期内制作多少水和耗电量"]
 			id: "677752F0A4CB47CB"
 			shape: "hexagon"
 			size: 1.5d
@@ -604,8 +642,8 @@
 				item: "gtocore:clarifier_purification_unit"
 				type: "item"
 			}]
-			x: 12.5d
-			y: 1.5d
+			x: 9.0d
+			y: -12.0d
 		}
 		{
 			dependencies: ["677752F0A4CB47CB"]
@@ -616,16 +654,16 @@
 				{
 					id: "1B47D28C38356572"
 					item: "gtocore:filtered_water_bucket"
+					optional_task: true
 					type: "item"
 				}
 				{
-					id: "37BA57E0B53A42AE"
-					title: "跳过该步骤"
+					id: "25508E14FEC129AA"
 					type: "checkmark"
 				}
 			]
-			x: 12.5d
-			y: 4.0d
+			x: 8.2d
+			y: -12.8d
 		}
 		{
 			dependencies: ["70ECB812598A4BEC"]
@@ -635,8 +673,8 @@
 				item: "gtceu:mpic_chip"
 				type: "item"
 			}]
-			x: 10.5d
-			y: 4.0d
+			x: 7.55d
+			y: -13.46d
 		}
 		{
 			dependencies: ["51E5257D17BF1D9D"]
@@ -647,17 +685,20 @@
 			]
 			id: "50F2DACFDE9119DF"
 			shape: "hexagon"
-			size: 2.0d
+			size: 1.5d
 			tasks: [{
 				id: "084E3BA73DE24B9C"
 				item: "gtceu:ev_energy_input_hatch"
 				type: "item"
 			}]
-			x: 8.5d
-			y: 4.0d
+			x: 6.75d
+			y: -14.25d
 		}
 		{
-			dependencies: ["5612C7735BC4F5BC"]
+			dependencies: [
+				"5612C7735BC4F5BC"
+				"33A26D7564A8869C"
+			]
 			description: [
 				"合金冶炼炉和工业高炉类似，是专门用来生产&6熔融态合金&r的重要多方块机器"
 				""
@@ -669,15 +710,15 @@
 			]
 			id: "32B3E6812521AB70"
 			shape: "gear"
-			size: 2.5d
+			size: 2.0d
 			subtitle: "炖史炉"
 			tasks: [{
 				id: "7E0234D447851767"
 				item: "gtceu:alloy_blast_smelter"
 				type: "item"
 			}]
-			x: 5.0d
-			y: -4.5d
+			x: 7.5d
+			y: -6.0d
 		}
 		{
 			dependencies: [
@@ -690,15 +731,14 @@
 				item: "gtceu:uranium_triplatinum_ingot"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 1.5d
+			x: 5.5d
+			y: -13.0d
 		}
 		{
 			dependencies: [
-				"249A4B2F900AA6F1"
-				"4B4C62CD6455641C"
 				"47346E3BA7CD0E3B"
 				"50F2DACFDE9119DF"
+				"41551B8820D1245A"
 			]
 			description: ["四阶火箭的强大推进力解锁了一颗小行星带的矮行星——谷神星"]
 			icon: {
@@ -719,19 +759,18 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 1.5d
+			y: -16.0d
 		}
 		{
 			dependencies: [
-				"4B4C62CD6455641C"
 				"5B98FF5DDD4B2629"
-				"67E7B62710A78614"
 				"78988A24B63C1D8A"
+				"41551B8820D1245A"
 			]
 			description: [
 				"用来大量收集各维度的&6空气&r，放入&6真空冷冻机&r以直接收集&6液态空气&r"
 				""
-				"蒸馏某些空气能够获得&6非常稀有的气态物质&r，你应该考虑搭建专门的产线持续产出这些物质"
+				"蒸馏某些空气能够获得&e非常稀有的气态物质&r，你应该考虑搭建专门的产线持续产出这些物质（如保护气&a氩&r）"
 			]
 			id: "7323C9DD52244FA0"
 			shape: "hexagon"
@@ -741,8 +780,8 @@
 				item: "gtocore:large_gas_collector"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 1.5d
+			x: 3.25d
+			y: -14.25d
 		}
 		{
 			dependencies: ["04C8A65088BA2229"]
@@ -752,6 +791,7 @@
 				{
 					id: "55E9D5CC32E222D4"
 					item: "gtceu:radon_bucket"
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -759,8 +799,8 @@
 					type: "checkmark"
 				}
 			]
-			x: 6.0d
-			y: -9.0d
+			x: 3.0d
+			y: 3.5d
 		}
 		{
 			dependencies: [
@@ -770,14 +810,14 @@
 			description: ["由于其亚稳态性，&6量子之眼&r需要在&d无重力环境&r中用惰性气体&6氡气&r进行浸泡"]
 			id: "789B188B05759151"
 			shape: "hexagon"
-			size: 1.5d
+			size: 2.5d
 			tasks: [{
 				id: "54D89D848CBF5D55"
 				item: "gtceu:quantum_eye"
 				type: "item"
 			}]
-			x: 5.0d
-			y: -8.0d
+			x: -2.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["789B188B05759151"]
@@ -787,14 +827,15 @@
 				item: "gtceu:hv_field_generator"
 				type: "item"
 			}]
-			x: 5.0d
-			y: -9.5d
+			x: -1.0d
+			y: -1.0d
 		}
 		{
 			dependencies: [
 				"6ABFE721A0F2B613"
 				"63B3B1533377F7BA"
 			]
+			description: ["&6进阶基岩采矿机&r的延伸版本，仅需在指定维度即可产出矿石"]
 			hide_dependency_lines: false
 			id: "7CA353B4B5F9B2B2"
 			shape: "diamond"
@@ -804,22 +845,8 @@
 				item: "gtocore:void_miner"
 				type: "item"
 			}]
-			x: -2.25d
-			y: -4.5d
-		}
-		{
-			dependencies: ["2F6C81E3B10365E8"]
-			hide_dependency_lines: true
-			id: "6ABFE721A0F2B613"
-			shape: "diamond"
-			size: 1.5d
-			tasks: [{
-				id: "2E282353DAB00768"
-				item: "gtceu:hv_bedrock_ore_miner"
-				type: "item"
-			}]
-			x: -4.0d
-			y: -4.5d
+			x: -0.5d
+			y: -10.5d
 		}
 		{
 			dependencies: ["63B3B1533377F7BA"]
@@ -833,13 +860,18 @@
 				item: "gtceu:ev_bedrock_ore_miner"
 				type: "item"
 			}]
-			x: -2.25d
-			y: -2.75d
+			x: -0.5d
+			y: -9.0d
 		}
 		{
-			dependencies: ["5B243900BEDF71CA"]
+			dependencies: [
+				"5B243900BEDF71CA"
+				"2D901DBE68F833D2"
+			]
 			description: [
-				"金星的环境非常恶劣，其地表温度过高，你需要抗火能力HV阶段解锁的&6太空纳米胸甲&r免费提供了该能力"
+				"金星的环境非常恶劣，其地表温度过高，你需要抗火能力"
+				""
+				"HV阶段解锁的&6太空纳米胸甲&r免费提供了该能力"
 				""
 				"前往&6金星&r以完成此任务"
 			]
@@ -853,30 +885,37 @@
 				title: "&d访问金星"
 				type: "dimension"
 			}]
-			x: 11.0d
-			y: -2.0d
+			x: 5.0d
+			y: -8.0d
 		}
 		{
-			dependencies: ["789B188B05759151"]
+			dependencies: [
+				"789B188B05759151"
+				"0CDF5979167EDEAB"
+			]
 			id: "6EF9D30568DF4953"
 			tasks: [{
 				id: "32FAC0C8724AEE9C"
 				item: "gtceu:ev_emitter"
 				type: "item"
 			}]
-			x: 3.5d
-			y: -8.0d
+			x: -2.5d
+			y: -2.0d
 		}
 		{
-			dependencies: ["789B188B05759151"]
+			dependencies: [
+				"789B188B05759151"
+				"0CDF5979167EDEAB"
+			]
+			hide_dependent_lines: true
 			id: "3CDB8FABC5A970BB"
 			tasks: [{
 				id: "0475B6703759DB82"
 				item: "gtceu:ev_sensor"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -9.0d
+			x: -2.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["2F6C81E3B10365E8"]
@@ -887,6 +926,7 @@
 				{
 					id: "048B2C25DB06308B"
 					item: "gtocore:dense_hydrazine_fuel_mixture_bucket"
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -894,8 +934,8 @@
 					type: "checkmark"
 				}
 			]
-			x: 13.0d
-			y: -4.5d
+			x: 7.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["2F6C81E3B10365E8"]
@@ -906,6 +946,7 @@
 				{
 					id: "48161A1D2AE0A2DF"
 					item: "gtocore:rocket_fuel_cn3h7o3_bucket"
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -913,8 +954,8 @@
 					type: "checkmark"
 				}
 			]
-			x: 5.0d
-			y: -0.5d
+			x: 7.0d
+			y: -16.0d
 		}
 		{
 			dependencies: ["2F6C81E3B10365E8"]
@@ -925,6 +966,7 @@
 				{
 					id: "7FDB4FE75E8EA037"
 					item: "gtocore:rocket_fuel_rp_1_bucket"
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -932,13 +974,15 @@
 					type: "checkmark"
 				}
 			]
-			x: 5.0d
-			y: -15.0d
+			x: 7.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["135B35F7619D288E"]
 			description: ["光伏电站的终极方案"]
+			hide_dependency_lines: true
 			id: "1F7F326F38204751"
+			optional: true
 			shape: "diamond"
 			size: 1.5d
 			tasks: [{
@@ -946,8 +990,8 @@
 				item: "gtocore:vibrant_photovoltaic_power_station"
 				type: "item"
 			}]
-			x: 13.0d
-			y: -6.5d
+			x: 7.0d
+			y: -12.0d
 		}
 		{
 			dependencies: ["2F6C81E3B10365E8"]
@@ -958,13 +1002,14 @@
 				item: "gtceu:carbon_fibers"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -5.5d
+			x: -0.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["63B3B1533377F7BA"]
 			description: ["火箭引擎的多方块机器版本，效率与发电量远远超过单方块机器"]
 			id: "3BF80AAF9945B144"
+			optional: true
 			shape: "diamond"
 			size: 1.5d
 			tasks: [{
@@ -972,8 +1017,8 @@
 				item: "gtocore:rocket_large_turbine"
 				type: "item"
 			}]
-			x: 1.0d
-			y: -4.5d
+			x: 2.5d
+			y: -10.5d
 		}
 		{
 			dependencies: [
@@ -981,6 +1026,7 @@
 				"63B3B1533377F7BA"
 			]
 			id: "0DAD9F96F785A63A"
+			optional: true
 			shape: "diamond"
 			size: 1.5d
 			tasks: [{
@@ -988,15 +1034,13 @@
 				item: "gtocore:steam_mega_turbine"
 				type: "item"
 			}]
-			x: 1.0d
-			y: -2.75d
+			x: 2.5d
+			y: -9.0d
 		}
 		{
-			dependencies: [
-				"68CEDCD202CCDF84"
-				"5B98FF5DDD4B2629"
-			]
+			dependencies: ["5B98FF5DDD4B2629"]
 			id: "63BD947AB2A903C1"
+			optional: true
 			shape: "diamond"
 			size: 1.5d
 			tasks: [{
@@ -1004,35 +1048,22 @@
 				item: "gtocore:gas_mega_turbine"
 				type: "item"
 			}]
-			x: -2.25d
-			y: -1.0d
-		}
-		{
-			dependencies: ["2F6C81E3B10365E8"]
-			hide_dependency_lines: true
-			id: "68CEDCD202CCDF84"
-			shape: "diamond"
-			size: 1.5d
-			tasks: [{
-				id: "15BA1B92C2E4A9BE"
-				item: "gtceu:gas_large_turbine"
-				type: "item"
-			}]
-			x: -4.0d
-			y: -1.0d
+			x: -0.75d
+			y: -12.0d
 		}
 		{
 			dependencies: ["2F6C81E3B10365E8"]
 			description: ["EV初期你最强力的单方块电力来源"]
 			id: "7BAEF04EC7896079"
+			optional: true
 			shape: "diamond"
 			tasks: [{
 				id: "1F0C897FEDA2C6DC"
 				item: "gtocore:ev_rocket_engine"
 				type: "item"
 			}]
-			x: 0.5d
-			y: -9.5d
+			x: 3.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["34AFC3B776E00E48"]
@@ -1043,8 +1074,8 @@
 				item: "gtceu:uranium_dust"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 3.0d
+			x: 5.0d
+			y: -12.0d
 		}
 		{
 			dependencies: ["1D20FEE7860F5575"]
@@ -1054,16 +1085,16 @@
 				{
 					id: "650B93BEDDFFE7C7"
 					item: "gtceu:uranium_hexafluoride_bucket"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "422AFC345FA8FEFF"
-					title: "跳过该步骤"
 					type: "checkmark"
 				}
 			]
-			x: 2.0d
-			y: 5.0d
+			x: 5.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["2AAA40516B60391E"]
@@ -1073,16 +1104,16 @@
 				{
 					id: "79F12733032D85F4"
 					item: "gtceu:enriched_uranium_hexafluoride_bucket"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "6415F477685EB02C"
-					title: "跳过该步骤"
 					type: "checkmark"
 				}
 			]
-			x: 1.5d
-			y: 4.0d
+			x: 4.5d
+			y: -11.0d
 		}
 		{
 			dependencies: ["2AAA40516B60391E"]
@@ -1092,16 +1123,16 @@
 				{
 					id: "20E6582B7DFB9FF7"
 					item: "gtceu:depleted_uranium_hexafluoride_bucket"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "356CDD0BC05B19C6"
-					title: "跳过该步骤"
 					type: "checkmark"
 				}
 			]
-			x: 2.5d
-			y: 4.0d
+			x: 5.5d
+			y: -11.0d
 		}
 		{
 			dependencies: ["310210D2AD9515E3"]
@@ -1119,25 +1150,33 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
-			y: 6.5d
+			title: "铀矿"
+			x: 7.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["45D5AB8BE1006124"]
 			description: ["你需要用紫金制作下一阶火箭"]
 			id: "689199DD0E42A571"
-			shape: "hexagon"
-			size: 1.5d
+			shape: "circle"
+			size: 1.0d
 			tasks: [{
 				id: "734F504BC4B1478B"
 				item: "ad_astra:raw_ostrum"
 				type: "item"
 			}]
 			x: 5.0d
-			y: 6.5d
+			y: -20.5d
 		}
 		{
-			description: ["无论是聚爆产出还是电弧发生器合成都需要&9无重力环境&r，这是你第二次前往空间站"]
+			dependencies: ["23E859D5CC9E4C8C"]
+			description: [
+				"电弧发生器合成它需要&9无重力环境&r，这是你第二次前往空间站"
+				""
+				"凋零骷髅头...看看工业屠宰场吧"
+				""
+				"亦或者通过&d魔法&r获取"
+			]
 			hide_dependency_lines: true
 			id: "67E7B62710A78614"
 			tasks: [{
@@ -1145,8 +1184,8 @@
 				item: "minecraft:nether_star"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 3.0d
+			x: 4.5d
+			y: -13.0d
 		}
 		{
 			dependencies: ["6FFA3DE7A0920B7A"]
@@ -1156,13 +1195,13 @@
 			size: 2.0d
 			tasks: [{
 				dimension: "gtocore:ceres"
-				icon: "gtocore:ceres_stone"
+				icon: "ad_astra:ceres_globe"
 				id: "6F9D1685F7A66B15"
 				title: "&d访问谷神星"
 				type: "dimension"
 			}]
 			x: 5.0d
-			y: 4.0d
+			y: -18.5d
 		}
 		{
 			dependencies: ["2F6C81E3B10365E8"]
@@ -1171,16 +1210,24 @@
 				""
 				"给予它足够的重视，建立一个大量持续产出的产线！"
 			]
+			icon: "gtceu:silicone_rubber_bucket"
 			id: "5FC85281DA794E02"
 			shape: "hexagon"
 			size: 1.5d
-			tasks: [{
-				id: "151BAA19BA2596B5"
-				item: "gtceu:silicone_rubber_bucket"
-				type: "item"
-			}]
-			x: -0.5d
-			y: -13.0d
+			tasks: [
+				{
+					id: "151BAA19BA2596B5"
+					item: "gtceu:silicone_rubber_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "71440FFDE86E07B6"
+					type: "checkmark"
+				}
+			]
+			x: 5.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["08891CB1BAFA5515"]
@@ -1194,7 +1241,7 @@
 			icon_scale: 0.75d
 			id: "49501F06059BEAFD"
 			shape: "diamond"
-			size: 1.5d
+			size: 1.0d
 			tasks: [{
 				id: "53EFF4EC38BECAE2"
 				item: {
@@ -1223,22 +1270,26 @@
 				}
 				type: "item"
 			}]
-			x: 6.0d
-			y: -11.25d
+			x: -1.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["08891CB1BAFA5515"]
-			description: ["它可以为&e多方块机器&r提供超净间环境，但&4不支持&r&6通用工厂&r"]
+			description: [
+				"它可以为&e多方块机器&r提供超净间环境，但&4不支持&r&6通用工厂&r"
+				""
+				"&o&7神奇的是，它可以安装在蒸汽机器上..."
+			]
 			id: "5B12999747D6C776"
 			shape: "diamond"
-			size: 1.5d
+			size: 1.0d
 			tasks: [{
 				id: "325B2BAEC2BF1561"
 				item: "gtceu:cleaning_maintenance_hatch"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -11.25d
+			x: -1.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["32B3E6812521AB70"]
@@ -1250,8 +1301,8 @@
 				item: "gtocore:integral_framework_ev"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -3.5d
+			x: 5.75d
+			y: -6.0d
 		}
 		{
 			dependencies: [
@@ -1266,11 +1317,14 @@
 				item: "gtceu:reservoir_hatch"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -10.0d
+			x: 6.5d
+			y: 8.5d
 		}
 		{
-			dependencies: ["50F2DACFDE9119DF"]
+			dependencies: [
+				"50F2DACFDE9119DF"
+				"00E4116CF5A14097"
+			]
 			hide_dependency_lines: true
 			id: "78988A24B63C1D8A"
 			tasks: [{
@@ -1278,8 +1332,8 @@
 				item: "gtceu:iridium_ingot"
 				type: "item"
 			}]
-			x: -2.25d
-			y: 1.5d
+			x: 3.25d
+			y: -13.0d
 		}
 		{
 			dependencies: ["3C2FA92DB0A38D4D"]
@@ -1296,7 +1350,7 @@
 				}
 				type: "item"
 			}]
-			x: -2.0d
+			x: 3.0d
 			y: -6.5d
 		}
 		{
@@ -1305,6 +1359,10 @@
 				"你的最终目标是&9IV&r&6机器外壳&r......？"
 				""
 				"不，这是一个&d航天时代&r！最终目标是&6四阶火箭&r"
+				""
+				"我建议你首先发射二阶火箭获取&6钨&r，然后开始着手设计你的&6铂处&r产线"
+				""
+				"&o&7希望你喜欢这个任务“火箭”"
 			]
 			id: "2F6C81E3B10365E8"
 			shape: "gear"
@@ -1316,8 +1374,165 @@
 				type: "item"
 			}]
 			title: "欢迎来到&5超高压&r阶段"
-			x: 1.5d
-			y: -11.0d
+			x: 5.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["4BA890971C18F938"]
+			description: ["注意EMI页面中化学浸洗机右下的维度标识！这意味着你需要去到特定维度才能制作配方"]
+			id: "60842E72EBC12615"
+			tasks: [{
+				id: "75C4A0D8C08F2C15"
+				item: "gtocore:heavy_duty_plate_2"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["033815C0756BAE1F"]
+			hide_dependency_lines: true
+			id: "42CA62BB2A9C688A"
+			tasks: [{
+				id: "46EB9BF6C06EFB81"
+				item: "gtceu:ruthenium_dust"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["033815C0756BAE1F"]
+			description: ["下个阶段的重要材料"]
+			hide_dependency_lines: true
+			id: "00E4116CF5A14097"
+			tasks: [{
+				id: "1FF655F6092D2C93"
+				item: "gtceu:iridium_dust"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["033815C0756BAE1F"]
+			description: ["你无需经过复杂的矿泥处理也可以获取"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "0CDF5979167EDEAB"
+			tasks: [{
+				id: "553D7B61FC6CB2D7"
+				item: "gtceu:platinum_dust"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["033815C0756BAE1F"]
+			description: ["你无需经过复杂的矿泥处理也可以获取"]
+			hide_dependency_lines: true
+			id: "626D09E9899F9936"
+			tasks: [{
+				id: "6D4331C6F18EE369"
+				item: "gtceu:palladium_dust"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["033815C0756BAE1F"]
+			description: ["下个阶段的重要材料"]
+			hide_dependency_lines: true
+			id: "55B897D3BC760E2E"
+			tasks: [{
+				id: "642C483D1C26C934"
+				item: "gtceu:osmium_dust"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["033815C0756BAE1F"]
+			hide_dependency_lines: true
+			id: "3F2A2379C93BC41B"
+			tasks: [{
+				id: "5BE9D2CA3A0367EF"
+				item: "gtceu:rhodium_dust"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"4B4C62CD6455641C"
+				"67E7B62710A78614"
+			]
+			id: "41551B8820D1245A"
+			tasks: [{
+				id: "22C4FB4709D6A6F6"
+				item: "gtceu:ev_field_generator"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -14.25d
+		}
+		{
+			dependencies: ["5612C7735BC4F5BC"]
+			disable_toast: true
+			icon_scale: 0.25d
+			id: "0D7A4E6E0E413A37"
+			shape: "none"
+			size: 0.25d
+			tasks: [{
+				id: "3679DFF959D79890"
+				stat: "minecraft:jump"
+				type: "stat"
+				value: 1
+			}]
+			x: 9.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5612C7735BC4F5BC"]
+			disable_toast: true
+			icon_scale: 0.25d
+			id: "33A26D7564A8869C"
+			shape: "none"
+			size: 0.25d
+			tasks: [{
+				id: "0E1101DBE2929CC4"
+				stat: "minecraft:jump"
+				type: "stat"
+				value: 1
+			}]
+			x: 9.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"6EF9D30568DF4953"
+				"3CDB8FABC5A970BB"
+				"135B35F7619D288E"
+			]
+			description: ["维护半径大了三倍，一台足以覆盖你的整个基地"]
+			hide_dependency_lines: true
+			id: "3445EBF21F11706C"
+			shape: "diamond"
+			tasks: [{
+				id: "57CFFF5E04137F1C"
+				item: {
+					Count: 1
+					id: "gtocore:ev_drone"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.0d
 		}
 	]
 	subtitle: ["Tier4-EV"]

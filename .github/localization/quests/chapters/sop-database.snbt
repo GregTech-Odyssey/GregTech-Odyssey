@@ -1,0 +1,153 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "sop-database"
+	group: ""
+	icon: "gtocore:bio_data_access_hatch"
+	id: "7CC4B6B8CCAE6F29"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"{gto.sop-database.quests.4C6CF025A0AC4B99.description0}"
+				""
+				"{gto.sop-database.quests.4C6CF025A0AC4B99.description1}"
+				""
+				"{gto.sop-database.quests.4C6CF025A0AC4B99.description2}"
+				""
+				"{gto.sop-database.quests.4C6CF025A0AC4B99.description3}"
+				""
+				"{gto.sop-database.quests.4C6CF025A0AC4B99.description4}"
+				""
+				"{gto.sop-database.quests.4C6CF025A0AC4B99.description5}"
+				""
+				"{gto.sop-database.quests.4C6CF025A0AC4B99.description6}"
+				""
+				"{gto.sop-database.quests.4C6CF025A0AC4B99.description7}"
+			]
+			id: "4C6CF025A0AC4B99"
+			tasks: [{
+				id: "6FF72058F53ED2A1"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"{gto.sop-database.quests.53501924C5A65E26.description0}"
+				""
+				""
+				"{gto.sop-database.quests.53501924C5A65E26.description1}"
+				""
+				"{gto.sop-database.quests.53501924C5A65E26.description2}"
+				""
+				"{gto.sop-database.quests.53501924C5A65E26.description3}"
+				""
+				""
+				"{gto.sop-database.quests.53501924C5A65E26.description4}"
+				""
+				"{gto.sop-database.quests.53501924C5A65E26.description5}"
+				""
+				"{gto.sop-database.quests.53501924C5A65E26.description6}"
+				""
+				""
+				"{gto.sop-database.quests.53501924C5A65E26.description7}"
+				""
+				"{gto.sop-database.quests.53501924C5A65E26.description8}"
+				""
+				""
+				""
+				"{gto.sop-database.quests.53501924C5A65E26.description9}"
+				""
+				"[\"\", {\"color\": \"yellow\", \"translate\": \"gto.sop-database.quests.53501924C5A65E26.description10.rich_text0\"}, {\"color\": \"yellow\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"71DC44EE0771E731\"}, \"translate\": \"gto.sop-database.quests.53501924C5A65E26.description10.rich_text1\"}, {\"color\": \"yellow\", \"translate\": \"gto.sop-database.quests.53501924C5A65E26.description10.rich_text2\"}]"
+			]
+			id: "53501924C5A65E26"
+			tasks: [{
+				id: "4373FA4713ED3757"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				""
+				"{gto.sop-database.quests.2CF44FCC54C37FE0.description0}"
+				"{gto.sop-database.quests.2CF44FCC54C37FE0.description1}"
+				"{gto.sop-database.quests.2CF44FCC54C37FE0.description2}"
+				"{gto.sop-database.quests.2CF44FCC54C37FE0.description3}"
+				"{gto.sop-database.quests.2CF44FCC54C37FE0.description4}"
+				"{gto.sop-database.quests.2CF44FCC54C37FE0.description5}"
+				"{gto.sop-database.quests.2CF44FCC54C37FE0.description6}"
+				"{gto.sop-database.quests.2CF44FCC54C37FE0.description7}"
+				"{gto.sop-database.quests.2CF44FCC54C37FE0.description8}"
+				""
+				""
+				""
+				"{gto.sop-database.quests.2CF44FCC54C37FE0.description9}"
+				""
+				"{gto.sop-database.quests.2CF44FCC54C37FE0.description10}"
+				""
+				"{gto.sop-database.quests.2CF44FCC54C37FE0.description11}"
+				""
+				"{gto.sop-database.quests.2CF44FCC54C37FE0.description12}"
+				""
+				"{gto.sop-database.quests.2CF44FCC54C37FE0.description13}"
+				""
+				"{gto.sop-database.quests.2CF44FCC54C37FE0.description14}"
+			]
+			id: "2CF44FCC54C37FE0"
+			tasks: [{
+				id: "2DD636D069C9C6C0"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			description: [
+				"{gto.sop-database.quests.3574E679245069DC.description0}"
+				""
+				"{gto.sop-database.quests.3574E679245069DC.description1}"
+				""
+				"{gto.sop-database.quests.3574E679245069DC.description2}"
+				""
+				"{gto.sop-database.quests.3574E679245069DC.description3}"
+				""
+				"{gto.sop-database.quests.3574E679245069DC.description4}"
+				""
+				"{gto.sop-database.quests.3574E679245069DC.description5}"
+				""
+				"{gto.sop-database.quests.3574E679245069DC.description6}"
+				""
+				"{gto.sop-database.quests.3574E679245069DC.description7}"
+				""
+				"{gto.sop-database.quests.3574E679245069DC.description8}"
+				""
+				"{gto.sop-database.quests.3574E679245069DC.description9}"
+			]
+			id: "3574E679245069DC"
+			tasks: [{
+				id: "07205B3E6627BEDF"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: -5.0d
+		}
+		{
+			id: "012883451014CA67"
+			tasks: [{
+				id: "1374A89A368DAEB7"
+				title: "{gto.sop-database.quests.012883451014CA67.tasks.1374A89A368DAEB7.title}"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: -3.0d
+		}
+	]
+	subtitle: ["{gto.sop-database.subtitle0}"]
+	title: "{gto.sop-database.title}"
+}

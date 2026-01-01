@@ -8,8 +8,8 @@
     "harvest_tool.show_unbreakable": false,
     "animal_owner": true,
     "harvest_tool.effective_tool": true,
-    "item_storage": true,
     "item_storage.normal_amount": 9,
+    "item_storage": true,
     "harvest_tool": true,
     "armor_stand": true,
     "fluid_storage.detailed": false,
@@ -59,9 +59,7 @@
     "auto_output_info": true,
     "workable_provider": true,
     "controllable_provider": true,
-    "me_pattern_buffer": true,
     "exhaust_vent_info": true,
-    "me_pattern_buffer_proxy": true,
     "multiblock_structure": true,
     "recipe_logic_provider": true,
     "maintenance_info": true,
@@ -97,17 +95,15 @@
   },
   "gtocore": {
     "wireless_interactor_provider": true,
-    "celestial_energy_provider": true,
+    "ae_grid_provider": true,
+    "wireless_grid_provider": true,
     "maintenance_hatch_provider": true,
     "accelerate_provider": false,
     "mana_container_provider": true,
     "vacuum_tier_provider": true,
     "temperature_provider": true,
-    "upgrade_module_provider": true,
-    "tick_time_provider": true,
-    "ae_grid_provider": true,
-    "wireless_grid_provider": true,
     "destroy_time_provider": true,
-    "computation_container_provider": true
+    "ae_item_amount": true,
+    "upgrade_module_provider": true
   }
 }
