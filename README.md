@@ -7,7 +7,13 @@
 
 [中文](README_zh.md)
 
+## How to Play
+
+Visit the website to view [How to Play](https://gtodyssey.com/en-us/start)
+
 ## Introduction
+
+Visit our website to view [Home](https://gtodyssey.com/en-us/home)
 
 GregTech-Odyssey is a fully optimized tech-oriented GT modpack designed to offer players a diverse and challenging experience based on GregTech Modern. Here's Costom mechanical machines, varaity of useful functional hatches to ultimately boost your machines, magic mods such as Botania, which providing a balanced blend of technology and magic, and also implemented additional blocking modes for ME Pattern Providers, cross-recipe parallelism, and multithreading optimization, give players a comfortable and smooth gaming experience in the late game.
 
