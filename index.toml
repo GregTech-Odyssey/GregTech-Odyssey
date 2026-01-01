@@ -1117,6 +1117,14 @@ file = "config/modernfix-mixins.properties"
 hash = "c339ea0f9f6cc19483a29c4c1a5dbd24615fe474a4354fdb44abde1cc10a4caa"
 
 [[files]]
+file = "config/modularrouters-client.toml"
+hash = "f621820f348b8c8b47567632b47f61452d454368e622e3f2551aca0c9f27fd4a"
+
+[[files]]
+file = "config/modularrouters-common.toml"
+hash = "e9ca95bc2e99c9c65f91ceaa97550c57a4519e62441309db612468776a437034"
+
+[[files]]
 file = "config/morered-client.toml"
 hash = "bf98e96ed34f59ce6c00b47fb3e593d38a8b8d197e6d7a0762f45150449dff8f"
 
@@ -2851,7 +2859,7 @@ metafile = true
 
 [[files]]
 file = "mods/gtocore-0.5.3.jar"
-hash = "f28bba8b8f8db6fb5390f01545ca1864434d397a5b48f1f862125a44c8e60a28"
+hash = "fd5e9f2fd44110ab2adf47fbed3543ef976a9427f483a2efcd5feb66cccec4ff"
 
 [[files]]
 file = "mods/gtonativelib-1.0.jar"
@@ -2960,6 +2968,11 @@ metafile = true
 [[files]]
 file = "mods/modernfix.pw.toml"
 hash = "11cd7da81a933aab04f091e2c25447b6d11ebe98bfeed244426a86dd31f3df04"
+metafile = true
+
+[[files]]
+file = "mods/modular-routers.pw.toml"
+hash = "6bcf7a39bad33980cfd720cc78b1e2fe703f7cf0635c00a59948a561c66bf2e0"
 metafile = true
 
 [[files]]
