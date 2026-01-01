@@ -634,7 +634,7 @@ hash = "09ff183e061d93b79514bc171bf9118497578757e7a5c45946039487656e2619"
 
 [[files]]
 file = "config/emi.css"
-hash = "f8f43d6e59323558378c6143afb1693d4bd7db78f023aac0ead3db1d7968541c"
+hash = "5945e3d06950df81f50595bbddbcbc4fa6f3ac7acc2c4fd74c29c0c7849bc3e2"
 
 [[files]]
 file = "config/emitrades.json5"
@@ -846,7 +846,7 @@ hash = "460600b721f1e9be9ecc1f412d77dfbe718de94b033a9603d14da26626882d79"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/shop.snbt"
-hash = "3ba2da0e65abd3bf65cf2960b8a7d719a6b2c4b5a20f2abf5432fcf93610f746"
+hash = "b19e0067eea7d049b3b5db3375d8e6e04fc7ea7b70003d4ef5d8356ae41343b9"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/sop-database.snbt"
@@ -866,7 +866,7 @@ hash = "3ae96b7dc3de3e5980bc9dc5d762f39c08bf7796d14228a985fe4a5ea9367945"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/uev.snbt"
-hash = "6fe46dd142c768f991632d032c146d3b6b9ecd18319fefa39aa17b48a2e3f57c"
+hash = "bf50bd1201790ea1d1ffd78fc11ca55214014d38e62ff593c805ed8526d1b5d8"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/uhv.snbt"
@@ -2724,6 +2724,11 @@ hash = "93ff3f9cf6bf3487c37762a19ce014ae381560311f53bfa887d54459590b521a"
 metafile = true
 
 [[files]]
+file = "mods/fast-nbt.pw.toml"
+hash = "49d1c0b3dc45ade8e2abb6a072d1bbaa4eae3a5445e14ba7a7f61418f4c0e640"
+metafile = true
+
+[[files]]
 file = "mods/fast-recipe-search.pw.toml"
 hash = "0c0cc36296cc7309fe75ca0ac070ef6370e86f8ec6016c2afac039c77cc25354"
 metafile = true
@@ -2850,7 +2855,7 @@ metafile = true
 
 [[files]]
 file = "mods/gtocore-0.5.3.jar"
-hash = "97d050e21e00f8f71e3dc353aff3e4172bbb4200de15afa43665373ea13194ed"
+hash = "f28bba8b8f8db6fb5390f01545ca1864434d397a5b48f1f862125a44c8e60a28"
 
 [[files]]
 file = "mods/gtonativelib-1.0.jar"

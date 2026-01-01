@@ -1284,18 +1284,6 @@
 					type: "item"
 				}
 				{
-					id: "3154FD67015D4521"
-					item: {
-						Count: 1
-						id: "avaritia:infinity_chestplate"
-						tag: {
-							Damage: 0
-						}
-					}
-					optional_task: true
-					type: "item"
-				}
-				{
 					id: "1713376FA50D65DB"
 					item: {
 						Count: 1
