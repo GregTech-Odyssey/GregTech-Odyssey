@@ -1,0 +1,167 @@
+
+[Module]
+	#Base range for Sender Mk1 (no range upgrades)
+	#Range: > 1
+	sender1BaseRange = 8
+	#Max range for Sender Mk1
+	#Range: > 1
+	sender1MaxRange = 16
+	#Base range for Sender Mk2 (no range upgrades)
+	#Range: > 1
+	sender2BaseRange = 24
+	#Max range for Sender Mk2
+	#Range: > 1
+	sender2MaxRange = 48
+	#Base range for Vacuum (no range upgrades)
+	#Range: > 1
+	vacuumBaseRange = 6
+	#Max range for Vacuum
+	#Range: > 1
+	vacuumMaxRange = 12
+	#Base range for Extruder Mk1 (no range upgrades)
+	#Range: > 1
+	extruder1BaseRange = 16
+	#Max range for Extruder Mk1
+	#Range: > 1
+	extruder1MaxRange = 32
+	#Base range for Extruder Mk2 (no range upgrades)
+	#Range: > 1
+	extruder2BaseRange = 32
+	#Max range for Extruder Mk2
+	#Range: > 1
+	extruder2MaxRange = 64
+	#Base range for Puller Mk2 (no range upgrades)
+	#Range: > 1
+	puller2BaseRange = 12
+	#Max range for Puller Mk2
+	#Range: > 1
+	puller2MaxRange = 24
+	#Base range for Fluid Mk2 (no range upgrades)
+	#Range: > 1
+	fluid2BaseRange = 12
+	#Max range for Fluid Mk2
+	#Range: > 1
+	fluid2MaxRange = 24
+	#Should Sender modules show particle effects when working?
+	senderParticles = true
+	#Should Puller modules show particle effects when working?
+	pullerParticles = true
+	#Should Placer modules show particle effects when working?
+	placerParticles = true
+	#Should Breaker modules show particle effects when working?
+	breakerParticles = true
+	#Should Vacuum modules show particle effects when working?
+	vacuumParticles = true
+	#Should Flinger modules show smoke effects & play a sound when working?
+	flingerEffects = true
+	#Should Extruder Mk1/2 modules play a sound when placing/removing blocks?
+	extruderSound = true
+	#Should Extruder Mk1/2 modules push entities along when extruding blocks?
+	extruderPushEntities = true
+	#Should Breaker & Extruder Mk1 Modules respect the harvest level of the pickaxe used to craft them? (e.g. craft with an Iron Pickaxe => can't break Obsidian
+	breakerHarvestLevelLimit = true
+	#Dimension ID's which the Sender Mk3 cannot send to or from, and the Player Module cannot operate (both router dimension and player dimension are checked). This can be wildcarded, e.g. 'somemod:*' blacklists all dimensions added by the mod 'somemod'
+	dimensionBlacklist = []
+
+[Router]
+	#Base tick interval (in server ticks) for a router; router will run this often
+	#Range: > 1
+	baseTickRate = 40
+	#Number of ticks by which 1 Speed Upgrade will reduce the router's tick interval
+	#Range: > 1
+	ticksPerUpgrade = 2
+	#Hard minimum tick interval for a router regardless of Speed Upgrades
+	#Range: > 1
+	hardMinTickRate = 10
+	#Router with eco mode enabled will go into low-power mode if idle for this many server ticks
+	#Range: > 1
+	ecoTimeout = 100
+	#Tick interval for an eco-mode router which has gone into low-power mode
+	#Range: > 1
+	lowPowerTickRate = 200
+	#Base fluid transfer rate (mB/t in each direction) for a router
+	#Range: > 1
+	fluidBaseTransferRate = 100
+	#Max fluid transfer rate (mB/t in each direction) for a router
+	#Range: > 1
+	fluidMaxTransferRate = 1000
+	#Fluid transfer rate increase per Fluid Transfer Upgrade
+	#Range: > 1
+	mBperFluidUpgade = 20
+	#FE capacity per Energy Upgrade
+	#Range: > 1
+	fePerEnergyUpgrade = 50000
+	#FE transfer rate (FE/t) per Energy Upgrade
+	#Range: > 1
+	feXferPerEnergyUpgrade = 1000
+	#Should block-breaking modules drop XP where appropriate? (ore mining etc.)
+	blockBreakXPDrops = true
+
+["Energy Costs"]
+	#Energy cost (FE) to run one right-click operation for the Activator Module
+	#Range: > 0
+	activatorModuleEnergyCost = 0
+	#Energy cost (FE) to run one left-click (attack) operation for the Activator Module
+	#Range: > 0
+	activatorModuleEnergyCostAttack = 150
+	#Energy cost (FE) to run one operation for the Breaker Module
+	#Range: > 0
+	breakerModuleEnergyCost = 0
+	#Energy cost (FE) to run one operation for the Detector Module
+	#Range: > 0
+	detectorModuleEnergyCost = 0
+	#Energy cost (FE) to run one operation for the Distributor Module
+	#Range: > 0
+	distributorModuleEnergyCost = 0
+	#Energy cost (FE) to run one operation for the Dropper Module
+	#Range: > 0
+	dropperModuleEnergyCost = 0
+	#Energy cost (FE) to run one operation for the Energy Distributor Module
+	#Range: > 0
+	energydistributorModuleEnergyCost = 0
+	#Energy cost (FE) to run one operation for the Energy Output Module
+	#Range: > 0
+	energyoutputModuleEnergyCost = 0
+	#Energy cost (FE) to run one operation for the Extruder Module Mk1
+	#Range: > 0
+	extruderModule1EnergyCost = 0
+	#Energy cost (FE) to run one operation for the Extruder Module Mk2
+	#Range: > 0
+	extruderModule2EnergyCost = 0
+	#Energy cost (FE) to run one operation for the Flinger Module
+	#Range: > 0
+	flingerModuleEnergyCost = 0
+	#Energy cost (FE) to run one operation for the Fluid Module Mk1
+	#Range: > 0
+	fluidModuleEnergyCost = 0
+	#Energy cost (FE) to run one operation for the Fluid Module Mk2
+	#Range: > 0
+	fluidModule2EnergyCost = 0
+	#Energy cost (FE) to run one operation for the Placer Module
+	#Range: > 0
+	placerModuleEnergyCost = 0
+	#Energy cost (FE) to run one operation for the Player Module
+	#Range: > 0
+	playerModuleEnergyCost = 0
+	#Energy cost (FE) to run one operation for the Puller Module Mk1
+	#Range: > 0
+	pullerModule1EnergyCost = 0
+	#Energy cost (FE) to run one operation for the Puller Module Mk2
+	#Range: > 0
+	pullerModule2EnergyCost = 0
+	#Energy cost (FE) to run one operation for the Sender Module Mk1
+	#Range: > 0
+	senderModule1EnergyCost = 0
+	#Energy cost (FE) to run one operation for the Sender Module Mk2
+	#Range: > 0
+	senderModule2EnergyCost = 0
+	#Energy cost (FE) to run one operation for the Sender Module Mk3
+	#Range: > 0
+	senderModule3EnergyCost = 0
+	#Energy cost (FE) to run one operation for the Vacuum Module
+	#Range: > 0
+	vacuumModuleEnergyCost = 0
+	#Energy cost (FE) to run one operation for the Void Module
+	#Range: > 0
+	voidModuleEnergyCost = 0
+

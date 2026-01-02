@@ -112,8 +112,8 @@
 			id: "03CBC6BC46EA333F"
 			linked_quest: "7EA226054696AA3F"
 			shape: "diamond"
-			x: -14.0d
-			y: 3.5d
+			x: -3.5d
+			y: 2.5d
 		}
 		{
 			id: "447496A1C3D6E5C4"
@@ -139,7 +139,7 @@
 			icon: "gtceu:bronze_ingot"
 			id: "24C53B5FF515ACAC"
 			rewards: [{
-				count: 64
+				count: 32
 				id: "7180064D9A2AA567"
 				item: "gtceu:bronze_ingot"
 				type: "item"
@@ -157,59 +157,7 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["10C397237163BFFC"]
-			description: [
-				"手动运水——终于受够了，我只需要一点杂酚油来造一台&6原始水泵&r"
-				""
-				"&7它不需要放在水上&r，不过&e下雨&r的时候会给予&b1.5倍&r的产出"
-				""
-				"&o&e右击&r或&e[U]&r键主方块查看多方块结构&r"
-				""
-				"用&6任意流体管道&r来运输流体，但是注意&6木制管道&r不能运输&6蒸汽&r"
-				"{@pagebreak}"
-				"将原始水泵放置在不同的群系内会获得不同的产出速率，这里提供部分数据："
-				"海洋/河流群系：1000mb/s"
-				"沼泽：800mb/s"
-				"平原/森林：250mb/s"
-			]
-			icon: "gtceu:primitive_pump"
-			id: "2D630430259F9131"
-			shape: "hexagon"
-			size: 1.5d
-			subtitle: "所处皆为井"
-			tasks: [
-				{
-					id: "6DC00D5FF11E0368"
-					item: "gtceu:primitive_pump"
-					type: "item"
-				}
-				{
-					id: "6C60662C30A7CB38"
-					item: "gtceu:pump_hatch"
-					type: "item"
-				}
-				{
-					count: 10L
-					id: "76EC008967FA4EA0"
-					item: "gtceu:pump_deck"
-					type: "item"
-				}
-				{
-					count: 10L
-					id: "3B593645AABD0EE9"
-					item: "gtceu:treated_wood_frame"
-					type: "item"
-				}
-			]
-			title: "望泵止渴"
-			x: -8.988095238095234d
-			y: 0.08095238095238244d
-		}
-		{
-			dependencies: [
-				"24C53B5FF515ACAC"
-				"4A9E47C3F8DF24A3"
-			]
+			dependencies: ["24C53B5FF515ACAC"]
 			description: [
 				"合金炉，将&6三铜一锡&r熔铸四个&6青铜锭&r，现在能够高效生产各种能在LV制造的合金锭"
 				""
@@ -231,34 +179,6 @@
 			title: "融合之力"
 			x: -6.5d
 			y: 4.5d
-		}
-		{
-			dependencies: ["6B2CA9AF06284789"]
-			description: [
-				"Ender IO 的起点，也是&6蒸汽铸造炉&r的前置工作"
-				""
-				"当然你可以用&6原始合金炉&r烧点合金以备前期工作，但我还是强烈建议你拿它去合成&6蒸汽合金炉&r"
-				""
-				"原始合金炉有一些&d专属的Ender IO&r的配方，记得查看一下"
-			]
-			id: "4A9E47C3F8DF24A3"
-			rewards: [{
-				count: 16
-				id: "6DDB3EC4D4CE9C7E"
-				item: "minecraft:ender_pearl"
-				type: "item"
-			}]
-			shape: "hexagon"
-			size: 1.5d
-			subtitle: "看上去就很原始！"
-			tasks: [{
-				id: "5701706956B3E4CD"
-				item: "enderio:primitive_alloy_smelter"
-				type: "item"
-			}]
-			title: "真正的原始人炉子"
-			x: -6.5d
-			y: 0.0d
 		}
 		{
 			dependencies: ["05F4015974079225"]
@@ -446,6 +366,7 @@
 			]
 			id: "32A39A427D4A3AC2"
 			rewards: [{
+				count: 4
 				id: "48BB564E8232C86F"
 				item: "minecraft:coal_block"
 				type: "item"
@@ -570,7 +491,7 @@
 			id: "27F4D9739FE33A02"
 			rewards: [
 				{
-					count: 64
+					count: 16
 					id: "2ABC438654CC3D33"
 					item: "ad_astra:steel_ingot"
 					type: "item"
@@ -805,8 +726,8 @@
 		}
 		{
 			dependencies: [
-				"27F4D9739FE33A02"
 				"0DCA3A96184C9EAC"
+				"27F4D9739FE33A02"
 			]
 			description: [
 				"用这些材料摆一个3x3的平面结构"
@@ -848,7 +769,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["4A9E47C3F8DF24A3"]
+			dependencies: ["05F4015974079225"]
 			description: [
 				"这也是一种&4超导体&r，只是需要&b魔力灌注&r"
 				""
@@ -856,11 +777,12 @@
 				""
 				"因此我强烈推荐你制作每个阶段的&6魔法合金&r作为超导体"
 			]
+			hide_dependency_lines: true
 			id: "0DCA3A96184C9EAC"
 			rewards: [{
 				count: 16
 				id: "729CAE88D53DA197"
-				item: "enderio:pulsating_alloy_ingot"
+				item: "gtocore:pulsating_alloy_ingot"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -868,11 +790,11 @@
 			subtitle: "噢！是魔法超导体！"
 			tasks: [{
 				id: "068641109A5FCEAD"
-				item: "enderio:pulsating_alloy_ingot"
+				item: "gtocore:pulsating_alloy_ingot"
 				type: "item"
 			}]
 			title: "嗯？怎么你也？"
-			x: 2.0d
+			x: 6.75d
 			y: 0.0d
 		}
 		{
@@ -888,7 +810,7 @@
 			rewards: [{
 				count: 32
 				id: "533F7DCFDEB14DE8"
-				item: "enderio:powdered_ender_pearl"
+				item: "gtceu:ender_pearl_dust"
 				type: "item"
 			}]
 			shape: "diamond"
@@ -901,7 +823,7 @@
 			}]
 			title: "搅拌机，蒸汽驱动版"
 			x: 11.25d
-			y: 4.5d
+			y: 3.0d
 		}
 		{
 			dependencies: [
@@ -939,8 +861,8 @@
 				type: "item"
 			}]
 			title: "并非电子管"
-			x: 15.000000000000007d
-			y: 2.75d
+			x: 15.0d
+			y: 3.0d
 		}
 		{
 			dependencies: [
@@ -956,7 +878,7 @@
 			]
 			id: "53109F7472C0B443"
 			rewards: [{
-				count: 16
+				count: 4
 				id: "6DDFC8966506C070"
 				item: "gtceu:vacuum_tube"
 				type: "item"
@@ -1013,16 +935,17 @@
 			description: [
 				"哦？你准备用这个大家伙了吗？"
 				""
-				"你可能需要拿它来离心&6空气&r，&6水煤气&r以及&6矿物&r"
+				"你需要拿它来离心各种你想要的东西，还是&e矿物处理&r的一环"
 				""
-				"其中离心&6空气&r是你前期&6氧气&r的来源之一，&6氮气&r则可以用于电力高炉&e加速金属冶炼&r"
+				"你在下个阶段马上就要用到它离心&6空气&r&a->&r&6氧气&r，离心&6水煤气&r&a->&r&6氢气&r，顺便一提&6氮气&r可以用于电力高炉&e加速金属冶炼&r"
 				""
 				"有些配方无法执行的话记得看看EMI，看看配方要求和产出的量是不是比你的输入输出仓小"
 				""
 				"&6蒸汽流体输入仓&r只能支持&b16B&r的流体输入，在有钢后你就可以制作&6无限进气仓&r来利用满机器的并行"
 			]
+			hide_dependent_lines: true
 			id: "020E8B707A8CF794"
-			shape: "diamond"
+			shape: "hexagon"
 			size: 1.5d
 			subtitle: "FFF机器"
 			tasks: [{
@@ -1031,8 +954,8 @@
 				type: "item"
 			}]
 			title: "离心吗？"
-			x: 7.5d
-			y: 12.5d
+			x: 9.0d
+			y: 13.0d
 		}
 		{
 			dependencies: ["043FCD7B759853EA"]
@@ -1055,7 +978,7 @@
 				type: "item"
 			}]
 			title: "大泳池"
-			x: 9.0d
+			x: 7.5d
 			y: 12.5d
 		}
 		{
@@ -1081,14 +1004,18 @@
 		{
 			dependencies: ["27F4D9739FE33A02"]
 			description: [
-				"原矿石不能够直接通过研磨机直接粉碎，而是通过&6矿石破碎机&r进行处理"
+				"你终于拥有了矿处的基本能力！通过&6矿石破碎机&r进行处理的原矿石会增产&a3倍&r"
 				""
-				"处理某些矿(如粗红石)时很可能会因为产率过高而阻塞输出口，所以你可以选择设置&6两个&r输出口或者在输出口之前增设一个&d存储&r"
+				"如铁等前期矿石&e允许你在熔炉里烧炼矿处过程中的&l任何形态&r，但通常你只有完成矿处获得&6金属粉&r才可放入熔炉里烧炼成&6锭&r"
+				""
+				"处理某些矿(如粗红石)时很可能会因为产率过高而阻塞输出口，所以你可以选择设置&a两个&r输出口"
+				""
+				"[ \"去\", { \"text\": \"资源获取与处理\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"7C1D32B8C9895B40\" } }, \"看看矿处流程！\"]"
 			]
 			id: "5660509FA09D2239"
-			shape: "diamond"
+			shape: "hexagon"
 			size: 1.5d
-			subtitle: "然而它并不能粉碎圆石"
+			subtitle: "矿处，启动！"
 			tasks: [{
 				id: "17454D8B9CB1AE31"
 				item: "gtocore:steam_crusher"
@@ -1096,19 +1023,19 @@
 			}]
 			title: "原矿粉碎者"
 			x: 11.25d
-			y: 3.0d
+			y: 4.5d
 		}
 		{
 			dependencies: [
-				"24C53B5FF515ACAC"
 				"2D630430259F9131"
+				"24C53B5FF515ACAC"
 			]
 			description: [
 				"一块焦煤能支持一个低压锅炉或一个加热器&61280秒&r，意味着手动填燃料不失为中策"
 				""
 				"在你找到大量燃料供应前，这足够你渡过炼钢前的时期"
 				""
-				"当你打算寻找其他产出蒸汽手段的时候，不妨看看左边"
+				"当你打算寻找其他产出蒸汽手段的时候，不妨看看右边"
 			]
 			icon: "gtocore:ulv_conveyor_module"
 			id: "31BB738542229A88"
@@ -1132,7 +1059,7 @@
 			}]
 			title: "半自动化"
 			x: -9.0d
-			y: 2.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["31BB738542229A88"]
@@ -1156,8 +1083,8 @@
 				title: "蒸汽自动化"
 				type: "checkmark"
 			}]
-			x: -11.0d
-			y: 2.0d
+			x: -6.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["7BE51B4BC36F8B7B"]
@@ -1295,6 +1222,8 @@
 				"3.&6锅炉&r内蒸汽满了&e没有及时排出&r"
 				""
 				"在加热器正面放置方块后加热器会暂停工作"
+				""
+				"&o&7产能远超同时期机器，但是如何提供燃料以及如何控制启停是个问题"
 			]
 			id: "5859702A2DF96727"
 			optional: true
@@ -1314,8 +1243,8 @@
 				}
 			]
 			title: "另辟蹊径"
-			x: -11.0d
-			y: 0.5d
+			x: -6.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["17408BBD93A18AEC"]
@@ -1417,121 +1346,6 @@
 			y: 7.5d
 		}
 		{
-			dependencies: [
-				"4A9E47C3F8DF24A3"
-				"72C6B40B38D542BF"
-			]
-			description: [
-				"纯净玻璃&d有且仅有&r通过Ender IO的合金炉和原始合金炉产出"
-				""
-				"慢是必然的，堆点量吧"
-				""
-				"当然等你有&d更大&r的纯净玻璃需求时你也会有&2更好的选择&r了"
-			]
-			hide_dependency_lines: true
-			icon: "enderio:clear_glass"
-			id: "3405FBC1B0CD80AD"
-			size: 1.0d
-			subtitle: "烧烤玻璃"
-			tasks: [{
-				id: "1B71AF690B18B55C"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "enderio:clear_glass"
-					}
-				}
-				title: "纯净玻璃"
-				type: "item"
-			}]
-			title: "让我们把玻璃擦干净点"
-			x: -2.5d
-			y: 3.0d
-		}
-		{
-			dependencies: ["78F56076EB6961EE"]
-			description: ["&e物品导管&r是前期优秀的自动化管道，支持多点输入输出，适合布置紧凑产线"]
-			id: "353DB5059C50932E"
-			shape: "diamond"
-			size: 1.5d
-			subtitle: "并非传送带"
-			tasks: [{
-				id: "4ECA6BF79C09EDD9"
-				item: "enderio:item_conduit"
-				type: "item"
-			}]
-			title: "让物品动起来"
-			x: -0.5d
-			y: 1.0d
-		}
-		{
-			dependencies: ["24C53B5FF515ACAC"]
-			description: [
-				"去挖点&6砂砾&r、&e沙子&r和&c黏土&r就行了"
-				""
-				"需要在工作台上合成，但一次能合成不少呢"
-			]
-			hide_dependency_lines: true
-			id: "275F142925816979"
-			size: 1.0d
-			subtitle: "并非来点胶水"
-			tasks: [{
-				id: "00EC47D9D8B9D99B"
-				item: "enderio:conduit_binder_composite"
-				type: "item"
-			}]
-			title: "把管道密封好"
-			x: -4.5d
-			y: 1.0d
-		}
-		{
-			dependencies: ["275F142925816979"]
-			description: [
-				"那么，你需要把&6导管粘合剂复合材料&r在熔炉里面加热成为&6导管粘合剂&r"
-				""
-				"它是制作Ender IO的物品和流体导管的&4必备材料&r"
-				""
-				"所以可以稍微多做一些，并且用它们作为前期的管道，功能性强大且节省空间（&e三种管道可以共存于一格空间内&r）"
-			]
-			id: "78F56076EB6961EE"
-			size: 1.0d
-			subtitle: "千万别漏了"
-			tasks: [{
-				id: "028A111FD54A8A95"
-				item: "enderio:conduit_binder"
-				type: "item"
-			}]
-			title: "泥水匠"
-			x: -2.5d
-			y: 1.0d
-		}
-		{
-			dependencies: [
-				"78F56076EB6961EE"
-				"3405FBC1B0CD80AD"
-			]
-			description: [
-				"&e流体导管&r，带有主动抽取和输出，但不能多点输入输出"
-				""
-				"以及它支持&4红石信号&r控制"
-				""
-				"&bMV阶段&r你能够制作更好用的&6末影流体导管&r"
-			]
-			id: "23118466181C773C"
-			shape: "diamond"
-			size: 1.5d
-			subtitle: "它居然能听懂红石在说什么哦"
-			tasks: [{
-				id: "0458A0CE873814FC"
-				item: "enderio:fluid_conduit"
-				type: "item"
-			}]
-			title: "另一种流体传输方式"
-			x: -0.5d
-			y: 3.0d
-		}
-		{
 			dependencies: ["27F4D9739FE33A02"]
 			description: [
 				"虽然很酷，但这不是你现在能想的机器"
@@ -1608,6 +1422,7 @@
 			]
 			id: "524B8340450628A3"
 			shape: "diamond"
+			size: 1.0d
 			subtitle: "Work！Work！"
 			tasks: [{
 				id: "41CA757DDA6AB954"
@@ -1668,27 +1483,7 @@
 			}]
 			title: "更猛的机器们"
 			x: 7.5d
-			y: 1.0d
-		}
-		{
-			description: [
-				"点开&6无限粉&r的EMI就能看到制作方式："
-				""
-				"1. &b主手&r持&6深板岩圆石&r或&6深板岩&r，&b副手&r持&6燧石&r"
-				"2. 蹲下右键&6黑曜石&r，&6哭泣的黑曜石&r或&6砂轮&r"
-				""
-				"你前期需要生产一些用作&4原始合金炉&r的制作，当然你很快就能换装&d蒸汽合金炉&r了"
-			]
-			id: "6B2CA9AF06284789"
-			subtitle: "应该称之为原始粉"
-			tasks: [{
-				id: "11775FE409428F82"
-				item: "enderio:grains_of_infinity"
-				type: "item"
-			}]
-			title: "并不无限的粉"
-			x: -6.5d
-			y: -2.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["0019A5EEEE514539"]
@@ -1758,6 +1553,7 @@
 				"&b银&r在这个世界并不稀缺，你是否注意到了地上的那些&d亮晶晶的银色岩石碎屑&r？"
 			]
 			id: "72F99B3B63217418"
+			optional: true
 			shape: "diamond"
 			subtitle: "不会钙化"
 			tasks: [{
@@ -1766,21 +1562,22 @@
 				type: "item"
 			}]
 			title: "太阳能锅炉"
-			x: -11.0d
-			y: 3.5d
+			x: -6.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["7BCD49717F8FAD65"]
 			description: ["三倍蒸汽产能，如果有钢，几乎没有理由用普通版本！"]
 			id: "0BD03513ABDC6A9C"
+			optional: true
 			shape: "diamond"
 			tasks: [{
 				id: "50AE654E47F127C4"
 				item: "gtceu:hp_steam_solar_boiler"
 				type: "item"
 			}]
-			x: -12.5d
-			y: 3.5d
+			x: -5.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["7BCD49717F8FAD65"]
@@ -1790,19 +1587,21 @@
 				"[ \"\", {\"text\":\"……我刚刚说了\", \"color\":\"yellow\" }, { \"text\": \"半流质\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3791F49E789E7673\" } }, {\"text\":\"对吧\", \"color\":\"yellow\" }]"
 			]
 			id: "1108939F9923176C"
+			optional: true
 			shape: "diamond"
 			tasks: [{
 				id: "5EF6AC41E4293D2E"
 				item: "gtceu:lp_steam_liquid_boiler"
 				type: "item"
 			}]
-			x: -12.5d
-			y: 2.0d
+			x: -5.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["7BCD49717F8FAD65"]
 			description: ["两倍蒸汽产能，如果有钢，几乎没有理由用普通版本！"]
 			id: "10E17EBACB3697C9"
+			optional: true
 			shape: "diamond"
 			subtitle: "更疯狂的杂酚油吞噬者"
 			tasks: [{
@@ -1810,8 +1609,8 @@
 				item: "gtceu:hp_steam_liquid_boiler"
 				type: "item"
 			}]
-			x: -14.0d
-			y: 2.0d
+			x: -3.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["7BCD49717F8FAD65"]
@@ -1823,8 +1622,8 @@
 				item: "gtceu:bronze_large_boiler"
 				type: "item"
 			}]
-			x: -14.0d
-			y: 0.5d
+			x: -3.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["7BCD49717F8FAD65"]
@@ -1834,6 +1633,7 @@
 				"在拥有钢之后，&6高压锅炉&r必然是更优的蒸汽来源，其蒸汽输出为普通版本的&6两至三倍&r！"
 			]
 			id: "77C71C9A52ADF6A6"
+			optional: true
 			shape: "diamond"
 			tasks: [{
 				id: "026C5E9B6FB8E5D2"
@@ -1841,35 +1641,8 @@
 				type: "item"
 			}]
 			title: "蒸汽扩产"
-			x: -12.5d
-			y: 0.5d
-		}
-		{
-			dependencies: ["53A8535B07FE3958"]
-			description: ["你可能会用到Ender IO的其他机器，它们可以直接连上格雷电线，使用格雷电力（EU）工作"]
-			id: "05EFB5D7ED8DE2D6"
-			optional: true
-			shape: "pentagon"
-			tasks: [
-				{
-					id: "3E7C553DDFAB3F0B"
-					item: "enderio:alloy_smelter"
-					type: "item"
-				}
-				{
-					id: "1492F1D573E7EE40"
-					item: "enderio:sag_mill"
-					type: "item"
-				}
-				{
-					id: "4627286593B477E0"
-					item: "enderio:soul_binder"
-					type: "item"
-				}
-			]
-			title: "Ender IO的机器"
-			x: -5.5d
-			y: 10.5d
+			x: -5.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["0019A5EEEE514539"]
@@ -1919,30 +1692,6 @@
 			y: 6.5d
 		}
 		{
-			dependencies: ["27F4D9739FE33A02"]
-			description: [
-				"非常优秀的单方块存储容器，是目前除了多方块板条箱以外你能制作的最大的存储容器"
-				""
-				"&o&7拆除会保留箱子内的物品"
-			]
-			id: "1ACA0000AE7FC80A"
-			rewards: [{
-				id: "762358C3DBE707D5"
-				item: "gtocore:copper_coin"
-				type: "item"
-			}]
-			shape: "diamond"
-			subtitle: "0/243"
-			tasks: [{
-				id: "15C02C37D1266918"
-				item: "avaritia:compressed_chest"
-				type: "item"
-			}]
-			title: "能容万物"
-			x: 7.5d
-			y: 4.0d
-		}
-		{
 			dependencies: [
 				"13FBF05133D59CDC"
 				"056EC4E6FAF614B7"
@@ -1956,13 +1705,14 @@
 				item: "ad_astra:steel_ingot"
 				type: "item"
 			}]
+			shape: "octagon"
 			subtitle: "快进到跃进一号"
 			tasks: [{
 				id: "55BE46E092646D53"
 				type: "checkmark"
 			}]
 			title: "钢补助&a（简单）&r"
-			x: 7.5d
+			x: 7.0d
 			y: 5.15d
 		}
 		{
@@ -1974,18 +1724,19 @@
 			icon: "ad_astra:steel_ingot"
 			id: "67B18FEE6862343A"
 			rewards: [{
-				count: 128
+				count: 192
 				id: "46F770A3703044A4"
 				item: "ad_astra:steel_ingot"
 				type: "item"
 			}]
+			shape: "octagon"
 			subtitle: "聊胜于无"
 			tasks: [{
 				id: "10E3799903559F25"
 				type: "checkmark"
 			}]
 			title: "钢补助&e（普通）&r"
-			x: 7.0d
+			x: 7.5d
 			y: 5.15d
 		}
 		{
@@ -2023,6 +1774,7 @@
 				item: "gtceu:rubber_plate"
 				type: "item"
 			}]
+			shape: "octagon"
 			tasks: [{
 				id: "3158D9C543B678C2"
 				type: "checkmark"
@@ -2063,12 +1815,13 @@
 				item: "gtceu:vacuum_tube"
 				type: "item"
 			}]
+			shape: "octagon"
 			tasks: [{
 				id: "5D0CD3ACB12536C7"
 				type: "checkmark"
 			}]
 			title: "真空管补助&a（简单）&r"
-			x: 17.0d
+			x: 17.5d
 			y: 0.0d
 		}
 		{
@@ -2079,10 +1832,7 @@
 				"-优化tps，流体管道没有缓存，流体从输入直达输出"
 				""
 				"-能够主动抽取机器/容器中的物品/流体，用扳手控制管道方向的同时也将激活管道的主动抽取功能"
-				""
-				"当然你也可以使用隔壁的Ender IO管道进行物流！"
 			]
-			hide_dependency_lines: true
 			icon: "gtceu:bronze_normal_fluid_pipe"
 			id: "39D96F76911B771E"
 			rewards: [{
@@ -2098,8 +1848,104 @@
 				type: "checkmark"
 			}]
 			title: "GT管道"
-			x: -4.5d
-			y: 3.0d
+			x: -11.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"056EC4E6FAF614B7"
+				"4678D97346E46529"
+			]
+			hide_until_deps_visible: true
+			icon: "gtceu:wrought_iron_ingot"
+			id: "23CFCF3063B640F4"
+			rewards: [{
+				count: 192
+				id: "6A882C417EDBCFD5"
+				item: "gtceu:wrought_iron_ingot"
+				type: "item"
+			}]
+			shape: "octagon"
+			subtitle: "下一个阶段的重要材料"
+			tasks: [{
+				id: "051B2593B4748FBB"
+				type: "checkmark"
+			}]
+			title: "锻铁锭补助&a（简单）&r"
+			x: -1.0d
+			y: 14.0d
+		}
+		{
+			dependencies: [
+				"18E057F31DDC4065"
+				"53109F7472C0B443"
+			]
+			hide_until_deps_visible: true
+			icon: "gtceu:vacuum_tube"
+			id: "189F5A3799E88B5C"
+			rewards: [{
+				count: 12
+				id: "38937A3B4C30A419"
+				item: "gtceu:vacuum_tube"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "36D8ED5B3F6252B7"
+				type: "checkmark"
+			}]
+			title: "钢补助&e（普通）&r"
+			x: 17.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["10C397237163BFFC"]
+			description: [
+				"手动运水——终于受够了，我只需要一点杂酚油来造一台&6原始水泵&r"
+				""
+				"&7它不需要放在水上&r，不过&e下雨&r的时候会给予&b1.5倍&r的产出"
+				""
+				"&o&e右击&r或&e[U]&r键主方块查看多方块结构&r"
+				""
+				"用&6任意流体管道&r来运输流体，但是注意&6木制管道&r不能运输&6蒸汽&r"
+				"{@pagebreak}"
+				"将原始水泵放置在不同的群系内会获得不同的产出速率，这里提供部分数据："
+				"海洋/河流群系：1000mb/s"
+				"沼泽：800mb/s"
+				"平原/森林：250mb/s"
+			]
+			icon: "gtceu:primitive_pump"
+			id: "2D630430259F9131"
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "所处皆为井"
+			tasks: [
+				{
+					id: "6DC00D5FF11E0368"
+					item: "gtceu:primitive_pump"
+					type: "item"
+				}
+				{
+					id: "6C60662C30A7CB38"
+					item: "gtceu:pump_hatch"
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "76EC008967FA4EA0"
+					item: "gtceu:pump_deck"
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "3B593645AABD0EE9"
+					item: "gtceu:treated_wood_frame"
+					type: "item"
+				}
+			]
+			title: "望泵止渴"
+			x: -9.0d
+			y: -0.75d
 		}
 	]
 	subtitle: ["Tier0-Steam"]

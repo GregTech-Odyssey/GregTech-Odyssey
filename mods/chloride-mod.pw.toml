@@ -1,13 +1,13 @@
 name = "Chloride (Embeddium++/Sodium++)"
-filename = "chloride-FORGE-mc1.20.1-v1.7.2.jar"
+filename = "chloride-FORGE-mc1.20.1-v1.7.5.jar"
 side = "client"
 
 [download]
 hash-format = "sha1"
-hash = "d04b7bcd14a210a670877ff3f425fbf760dadda3"
+hash = "b5f658b9328cda4b03080fa0164cf26be23a3e75"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6615986
+file-id = 7378010
 project-id = 931925

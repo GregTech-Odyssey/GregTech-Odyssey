@@ -16,6 +16,10 @@
 
 Visit the website to view [How to Play](https://gtodyssey.com/en-us/start)
 
+## How to Play
+
+Visit the website to view [How to Play](https://gtodyssey.com/en-us/start)
+
 ## Introduction
 
 Visit our website to view [Home](https://gtodyssey.com/en-us/home)

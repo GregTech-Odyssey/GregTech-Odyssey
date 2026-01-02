@@ -5,6 +5,8 @@
     <img src="https://img.shields.io/badge/QQ-Alpha部门(已满)-12B7F5?logo=qq&logoColor=white" alt="加入Alpha部门 | Join QQ Alpha Dept.">
     <a href="https://qm.qq.com/q/gIWx9iUxck"><img src="https://img.shields.io/badge/QQ-Beta部门-12B7F5?logo=qq&logoColor=white" alt="加入Beta部门 | Join QQ Beta Dept."></a>
 </h1>
+## 如何游玩
+查看官方网站介绍 [开始游玩GTO](https://gtodyssey.com/zh-hans/start/)
 
 <div >
 
