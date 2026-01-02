@@ -454,7 +454,7 @@ hash = "79452ada826109f2ae43fa5511e4a40431362ad5f81acef4db1c9856e75c5aa1"
 
 [[files]]
 file = "config/attributefix.json"
-hash = "43d92d68b0b06aaf487df14f7666c713d1c2aba573204cb4ecf05b34a844ba15"
+hash = "90141463ece3d8653b15d0e6767efc778981c3880687885996f9b38c2d68d902"
 
 [[files]]
 file = "config/attributeslib.cfg"
@@ -2749,7 +2749,7 @@ metafile = true
 
 [[files]]
 file = "mods/fast-nbt.pw.toml"
-hash = "49d1c0b3dc45ade8e2abb6a072d1bbaa4eae3a5445e14ba7a7f61418f4c0e640"
+hash = "47bc5302a5b51c5d20a4bda506ab9edf2fa5cfbd2d627cf0d00d9da1d340f303"
 metafile = true
 
 [[files]]
@@ -2879,7 +2879,7 @@ metafile = true
 
 [[files]]
 file = "mods/gtocore-0.5.3.jar"
-hash = "fd5e9f2fd44110ab2adf47fbed3543ef976a9427f483a2efcd5feb66cccec4ff"
+hash = "08ab56bdfe0f6aab046098a7dfc60c7515b65cf042055e672a28a493d470a5e2"
 
 [[files]]
 file = "mods/gtonativelib-1.0.jar"
@@ -3132,7 +3132,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "6706d08c5acf29642c796b828dfa7de56e186ef6a45dd70374e07e284494cf8b"
+hash = "69dd7341ad086e0fa23bef3ba04237c4c74ea76800cf8289050b09eda3268c5c"
 metafile = true
 
 [[files]]
@@ -3192,12 +3192,12 @@ metafile = true
 
 [[files]]
 file = "mods/xaeros-minimap.pw.toml"
-hash = "eb48e8709268d9d4daeaba8d8844fa47e4e42fe2c6767ab39eca10e7852abf1e"
+hash = "dcdf0f500fa13b417bd5b410e4b8fe573ac91017cf29230b101cc27495dddc52"
 metafile = true
 
 [[files]]
 file = "mods/xaeros-world-map.pw.toml"
-hash = "8c1d85564af53d61caf23b502b60c494d33450a670093fdd3e2f412368682ecc"
+hash = "f82a57cb330d48e3adfc46eb9b7fecfaa6e96702292406e6741b3e03e0c6d948"
 metafile = true
 
 [[files]]

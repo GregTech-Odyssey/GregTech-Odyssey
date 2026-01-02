@@ -1,13 +1,13 @@
 name = "Fast NBT"
-filename = "fastnbt-1.20.1-1.0-forge.jar"
+filename = "fastnbt-1.20.1-1.1-forge.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "4376f9385d018386e4c1676b50537907042da73a"
+hash = "54849105a9d6def74449ccbf5787fdcc0a2a403b"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 7400676
+file-id = 7407307
 project-id = 1417466
