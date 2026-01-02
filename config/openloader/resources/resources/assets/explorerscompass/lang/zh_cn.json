@@ -67,6 +67,7 @@
   "structure.minecraft.village_savanna": "村庄（热带草原）",
   "structure.minecraft.village_snowy": "村庄（雪地）",
   "structure.minecraft.village_taiga": "村庄（针叶林）",
+
   "_comment_2": "地牢浮现之时",
   "structure.dungeons_arise.abandoned_temple": "废弃寺庙 (Abandoned Temple)",
   "structure.dungeons_arise.aviary": "幻梦塔楼 (Aviary)",
@@ -108,7 +109,26 @@
   "structure.dungeons_arise.undead_pirate_ship": "幽灵海盗船 (Undead Pirate Ship)",
   "structure.dungeons_arise.wishing_well": "许愿井 (Wishing Well)",
 
-  "_comment_3": "Ad Astra",
+  "_comment_3": "我们走过的生物群系",
+  "structure.biomeswevegone.abandoned_prairie_house": "荒原弃屋",
+  "structure.biomeswevegone.aspen_manor_1": "白杨庄园 I",
+  "structure.biomeswevegone.aspen_manor_2": "白杨庄园 II",
+  "structure.biomeswevegone.dripstone_arch": "钟乳石拱门",
+  "structure.biomeswevegone.ironwood_gour_plateau": "铁木壶谷高原",
+  "structure.biomeswevegone.large_cold_lake": "寒原巨湖",
+  "structure.biomeswevegone.lush_arch": "郁葱拱门群",
+  "structure.biomeswevegone.prairie_house": "草原小屋",
+  "structure.biomeswevegone.red_rock_arch": "赤岩拱门",
+  "structure.biomeswevegone.rugged_fossil": "嶙峋化石",
+  "structure.biomeswevegone.sharpened_rock": "尖峰岩",
+  "structure.biomeswevegone.village.forgotten": "被遗忘的村庄",
+  "structure.biomeswevegone.village.pumpkin_patch": "南瓜田村庄",
+  "structure.biomeswevegone.village.red_rock": "赤岩村庄",
+  "structure.biomeswevegone.village.salem": "塞勒姆村庄",
+  "structure.biomeswevegone.village.swamp": "沼泽村庄",
+  "structure.biomeswevegone.village.skyris": "天穹村庄",
+
+  "_comment_4": "Ad Astra",
   "structure.ad_astra.lunar_tower": "月球高塔 (Lunar Tower)",
   "structure.ad_astra.lunarian_village": "月球村庄 (Lunarian Village)",
   "structure.ad_astra.mars_temple": "火星神殿 (Mars Temple)",
@@ -118,27 +138,27 @@
   "structure.ad_astra.pygro_village": "外星猪灵村庄 (Pygro Village)",
   "structure.ad_astra.venus_bullet": "金星陨石坑 (Venus Bullet)",
 
-  "_comment_4": "幽邃黑暗",
+  "_comment_5": "幽邃黑暗",
   "structure.deeperdarker.ancient_temple": "远古神庙 (Ancient Temple)",
 
-  "_comment_5": "新生魔艺",
+  "_comment_6": "新生魔艺",
   "structure.ars_nouveau.guardian_wilden_den": "荒野守卫者巢穴 (Guardian Wilden Den)",
   "structure.ars_nouveau.hunter_wilden_den": "荒野猎手巢穴 (Hunter Wilden Den)",
   "structure.ars_nouveau.stalker_wilden_den": "荒野伏击者巢穴 (Stalker Wilden Den)",
 
-  "_comment_6": "神话植物学",
+  "_comment_7": "神话植物学",
   "structure.mythicbotany.andwari_cave": "安德里瓦洞穴 (Andwari Cave)",
   "structure.mythicbotany.elven_house": "精灵小屋 (Elven House)",
 
-  "_comment_7": "冒险地牢",
+  "_comment_8": "冒险地牢",
   "structure.dungeoncrawl.dungeon": "冒险地牢 (Dungeon)",
 
-  "_comment_8": "神化",
+  "_comment_9": "神化",
   "structure.apotheosis.tower_leaf": "翠叶之塔 (Tower Leaf)",
   "structure.apotheosis.tower_main": "至高主塔 (Tower Main)",
   "structure.apotheosis.tower_sand": "金砂之塔 (Tower Sand)",
   "structure.apotheosis.tower_spruce": "苍杉之塔 (Tower Spruce)",
 
-  "_comment_9": "应用能源2",
+  "_comment_10": "应用能源2",
   "structure.ae2.meteorite": "陨石 (Meteorite)"
 }
