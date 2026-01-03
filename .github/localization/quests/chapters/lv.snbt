@@ -13,7 +13,7 @@
 			rotation: 45.0d
 			width: 1.0d
 			x: -4.5d
-			y: 4.0d
+			y: 4.25d
 		}
 		{
 			height: 1.0d
@@ -45,16 +45,9 @@
 		{
 			id: "111C9085726F8FA6"
 			linked_quest: "018F46EE6AE97EFD"
-			shape: "square"
-			x: -6.0d
-			y: 4.0d
-		}
-		{
-			id: "24E6A7A2360C8265"
-			linked_quest: "5FCFE3D6B36CC409"
 			shape: "diamond"
-			x: -4.5d
-			y: 4.0d
+			x: -6.0d
+			y: 4.25d
 		}
 		{
 			id: "112AADE317BB4B64"
@@ -63,6 +56,13 @@
 			size: 2.0d
 			x: 8.0d
 			y: 3.0d
+		}
+		{
+			id: "358C97B892DD07EB"
+			linked_quest: "5FCFE3D6B36CC409"
+			shape: "diamond"
+			x: -4.5d
+			y: 4.25d
 		}
 	]
 	quests: [
@@ -1047,7 +1047,11 @@
 		}
 		{
 			dependencies: ["7E061DC16432D549"]
-			description: ["{gto.lv.quests.0EDB058F9C6882FE.description0}"]
+			description: [
+				"{gto.lv.quests.0EDB058F9C6882FE.description0}"
+				""
+				"{gto.lv.quests.0EDB058F9C6882FE.description1}"
+			]
 			hide_dependency_lines: true
 			icon: "gtceu:sulfuric_acid_bucket"
 			id: "0EDB058F9C6882FE"
@@ -2171,6 +2175,7 @@
 			dependencies: ["4ECCD5C54FE7F706"]
 			description: ["{gto.lv.quests.76C7A649B54B9E94.description0}"]
 			id: "76C7A649B54B9E94"
+			shape: "hexagon"
 			tasks: [{
 				id: "0FA72DF40756106A"
 				item: "gtocore:gas_compressor"
@@ -2383,7 +2388,7 @@
 			}]
 			title: "{gto.lv.quests.2C91F5919FE7444D.title}"
 			x: 6.5d
-			y: 2.0d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -2581,7 +2586,7 @@
 			}]
 			title: "{gto.lv.quests.72844914477AB61B.title}"
 			x: 6.5d
-			y: 4.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [

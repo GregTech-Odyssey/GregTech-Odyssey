@@ -466,6 +466,27 @@
 			x: 8.5d
 			y: 0.0d
 		}
+		{
+			id: "28C9BF5C59F5F723"
+			invisible: true
+			tasks: [
+				{
+					d: 2
+					id: "5684B78CDFAC0B11"
+					optional_task: true
+					type: "gtocore:gtodifficulty"
+				}
+				{
+					d: 3
+					id: "44C43852590C5A3F"
+					optional_task: true
+					type: "gtocore:gtodifficulty"
+				}
+			]
+			title: "{gto.util.quests.28C9BF5C59F5F723.title}"
+			x: 6.5d
+			y: 4.0d
+		}
 	]
 	title: "{gto.util.title}"
 }

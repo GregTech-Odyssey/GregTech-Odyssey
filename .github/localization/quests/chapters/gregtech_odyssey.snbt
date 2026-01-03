@@ -112,6 +112,8 @@
 				"{gto.gregtech_odyssey.quests.131CFAF95CFC993E.description9}"
 				"{gto.gregtech_odyssey.quests.131CFAF95CFC993E.description10}"
 				"{gto.gregtech_odyssey.quests.131CFAF95CFC993E.description11}"
+				""
+				"{gto.gregtech_odyssey.quests.131CFAF95CFC993E.description12}"
 			]
 			icon: "ftbquests:book"
 			id: "131CFAF95CFC993E"
@@ -269,7 +271,7 @@
 			description: [
 				"{gto.gregtech_odyssey.quests.78A681513D681C93.description0}"
 				""
-				"{ \"text\": \"https://wiki.gtodyssey.com/\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"open_url\", \"value\": \"https://wiki.gtodyssey.com/\" } }"
+				"{ \"text\": \"https://gtodyssey.com/\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"open_url\", \"value\": \"https://wiki.gtodyssey.com/\" } }"
 				""
 				"{gto.gregtech_odyssey.quests.78A681513D681C93.description1}"
 			]
