@@ -1228,18 +1228,6 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["7A1E4DBA675E67FB"]
-			id: "12C51878448A5302"
-			shape: "diamond"
-			tasks: [{
-				id: "70A932B8EFDEB3C7"
-				item: "gtocore:mantle_crusher"
-				type: "item"
-			}]
-			x: 12.0d
-			y: 6.5d
-		}
-		{
 			dependencies: ["2CC625C1FFDB9AFF"]
 			disable_toast: true
 			icon_scale: 0.25d
@@ -1254,17 +1242,6 @@
 			}]
 			x: 1.0d
 			y: 12.5d
-		}
-		{
-			id: "4D2ADE9E4DCB1183"
-			shape: "diamond"
-			tasks: [{
-				id: "2D5EB7ED0C6B55BE"
-				item: "gtocore:nich_computing_components"
-				type: "item"
-			}]
-			x: 12.0d
-			y: 5.5d
 		}
 	]
 	subtitle: ["Tier8-UV"]

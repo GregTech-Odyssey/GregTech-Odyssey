@@ -13,7 +13,7 @@
 			rotation: 45.0d
 			width: 1.0d
 			x: -4.5d
-			y: 4.0d
+			y: 4.25d
 		}
 		{
 			height: 1.0d
@@ -45,16 +45,9 @@
 		{
 			id: "111C9085726F8FA6"
 			linked_quest: "018F46EE6AE97EFD"
-			shape: "square"
-			x: -6.0d
-			y: 4.0d
-		}
-		{
-			id: "24E6A7A2360C8265"
-			linked_quest: "5FCFE3D6B36CC409"
 			shape: "diamond"
-			x: -4.5d
-			y: 4.0d
+			x: -6.0d
+			y: 4.25d
 		}
 		{
 			id: "112AADE317BB4B64"
@@ -63,6 +56,13 @@
 			size: 2.0d
 			x: 8.0d
 			y: 3.0d
+		}
+		{
+			id: "358C97B892DD07EB"
+			linked_quest: "5FCFE3D6B36CC409"
+			shape: "diamond"
+			x: -4.5d
+			y: 4.25d
 		}
 	]
 	quests: [
@@ -1047,7 +1047,11 @@
 		}
 		{
 			dependencies: ["7E061DC16432D549"]
-			description: ["多种方式获取，推荐硫粉一路氧化，最后加水"]
+			description: [
+				"多种方式获取，推荐硫粉一路氧化，最后加水"
+				""
+				"你在脱硫中获得的硫化氢也可以制成硫酸"
+			]
 			hide_dependency_lines: true
 			icon: "gtceu:sulfuric_acid_bucket"
 			id: "0EDB058F9C6882FE"
@@ -2168,6 +2172,7 @@
 			dependencies: ["4ECCD5C54FE7F706"]
 			description: ["你目前需要拿它制作&6高压氮气&r"]
 			id: "76C7A649B54B9E94"
+			shape: "hexagon"
 			tasks: [{
 				id: "0FA72DF40756106A"
 				item: "gtocore:gas_compressor"
@@ -2380,7 +2385,7 @@
 			}]
 			title: "铝补助&a（简单）&r"
 			x: 6.5d
-			y: 2.0d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -2578,7 +2583,7 @@
 			}]
 			title: "铝补助&e（普通）&r"
 			x: 6.5d
-			y: 4.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [

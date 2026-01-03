@@ -105,6 +105,15 @@
 			x: 4.285714285714292d
 			y: 7.0d
 		}
+		{
+			dependency: "056EC4E6FAF614B7"
+			height: 1.0d
+			image: "botania:block/alfheim_portal_swirl"
+			rotation: 45.0d
+			width: 1.0d
+			x: 6.75d
+			y: -2.0d
+		}
 	]
 	order_index: 1
 	quest_links: [
@@ -1068,7 +1077,7 @@
 				""
 				"蒸汽自动化的关键是提供稳定的燃料来源，以及注意供应足够多的水"
 				""
-				"&6温馨提示：&r基本所有的锅炉&e在温度达到水的沸点且干烧的情况下&r再次通入&b水&r都会&4爆炸&r"
+				"&6温馨提示：&r基本所有的锅炉&e在温度达到水的沸点且干烧&r的情况下通入&b水&r都会&4爆炸&r"
 			]
 			icon: "gtceu:high_pressure_hazard_sign_block"
 			id: "7BCD49717F8FAD65"
@@ -1894,7 +1903,7 @@
 				id: "36D8ED5B3F6252B7"
 				type: "checkmark"
 			}]
-			title: "钢补助&e（普通）&r"
+			title: "真空管补助&e（普通）&r"
 			x: 17.0d
 			y: 0.0d
 		}
@@ -1946,6 +1955,71 @@
 			title: "望泵止渴"
 			x: -9.0d
 			y: -0.75d
+		}
+		{
+			dependencies: [
+				"298BEC345930429A"
+				"575D68EF05B5BCC3"
+				"056EC4E6FAF614B7"
+			]
+			description: [
+				"[\"你可以开始着手发展\",{ \"text\": \"AE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5FCFE3D6B36CC409\" } },\"了！\"]"
+				""
+				"简单模式的AE配方没有魔改，因此请忽略在LV和HV章节的AE相关任务"
+				""
+				"非专家模式默认&c无频道数量限制&r，不需要接入&6ME控制器&r，只需要确保为当前网络提供足够的能量即可"
+				""
+				"可以使用&6ME控制器&r来替代&6能源接收器&r，但后期可能会因为加载过多频道造成额外的延迟，请斟酌使用控制器"
+				""
+				"&o&7如果你还不会AE，请尽快寻找教程快速入门。本包无需精通AE，但至少需要了解基本使用方法。"
+			]
+			hide_until_deps_visible: true
+			icon: "ae2:energy_acceptor"
+			id: "09D7A6A14D532993"
+			rewards: [{
+				id: "386B745450A4F5A1"
+				item: "ae2:network_tool"
+				team_reward: false
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "没有频道的AE真好"
+			tasks: [
+				{
+					id: "137BE452DFCD6905"
+					item: "ae2:energy_acceptor"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3D376F185EAFF268"
+					type: "checkmark"
+				}
+			]
+			title: "应用能源起步&a（简单）&r"
+			x: 6.75d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"298BEC345930429A"
+				"056EC4E6FAF614B7"
+			]
+			disable_toast: true
+			hide_until_deps_visible: true
+			icon_scale: 0.1d
+			id: "575D68EF05B5BCC3"
+			shape: "none"
+			size: 0.1d
+			tasks: [{
+				id: "7B0E57503CAA3ABC"
+				stat: "minecraft:jump"
+				type: "stat"
+				value: 1
+			}]
+			x: 9.0d
+			y: -2.0d
 		}
 	]
 	subtitle: ["Tier0-Steam"]
