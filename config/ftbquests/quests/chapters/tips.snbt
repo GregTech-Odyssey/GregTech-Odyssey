@@ -255,7 +255,7 @@
 				"·AE频道限制"
 				"·任务奖励"
 				""
-				"[ \"\", {\"text\":\"详细特性请查看\", \"color\":\"yellow\"}, { \"text\": \"简单普通专家模式特性指南\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"open_url\", \"value\": \"https://wiki.gtodyssey.com/boards/docs/pages/简单普通专家模式特性指南\" } }]"
+				"[ \"\", {\"text\":\"详细特性请查看\", \"color\":\"yellow\"}, { \"text\": \"简单普通专家模式特性指南\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"open_url\", \"value\": \"https://gtodyssey.com/zh-hans/整合包教学/官方文档/简单普通专家模式特性指南/\" } }]"
 				""
 				"&e强烈建议在切换模式后，重启MC，然后再创建世界开始游戏！&r"
 				""
@@ -426,9 +426,11 @@
 		{
 			dependencies: ["79646E8E449D8A1A"]
 			description: [
-				"欢迎加入GTO寰宇重工集团·Alpha部门：927923997"
+				"欢迎加入GTO寰宇重工集团·Alpha部门：927923997（已满）"
 				""
 				"欢迎加入GTO寰宇重工集团·Beta部门：532385262"
+				""
+				"[ \"\", {\"text\":\"Discord: \"}, { \"text\": \"https://discord.gg/PxruFSbtCn\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"open_url\", \"value\": \"https://discord.gg/PxruFSbtCn\" } }]"
 			]
 			icon: "gtocore:max_integrated_control_core"
 			id: "14BCF41FB8DAD531"

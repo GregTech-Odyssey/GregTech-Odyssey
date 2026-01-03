@@ -38,6 +38,14 @@
 			x: 2.0d
 			y: -4.5d
 		}
+		{
+			height: 1.0d
+			image: "gtocore:item/circuit/suprachronal_max"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: -4.5d
+		}
 	]
 	order_index: 12
 	quest_links: [{
@@ -96,7 +104,6 @@
 			y: -6.0d
 		}
 		{
-			description: [""]
 			id: "79F7E5BB7025ED2D"
 			subtitle: "六级数据载体"
 			tasks: [{
@@ -432,6 +439,136 @@
 			}]
 			x: -2.0d
 			y: 7.0d
+		}
+		{
+			dependencies: ["284111931F2808B4"]
+			id: "3B58B1A690176D50"
+			tasks: [{
+				id: "72C102BF407CD493"
+				item: "gtocore:suprachronal_mainframe_complex"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3B58B1A690176D50"]
+			id: "1031C596204267E9"
+			optional: true
+			tasks: [{
+				id: "06E652F88212FD91"
+				item: "gtocore:create_ultimate_battery"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1031C596204267E9"]
+			description: ["创造之门以及后面的东西都没了，所以直接送你命令方块"]
+			id: "0E1A670099E3C3F2"
+			optional: true
+			rewards: [{
+				count: 64
+				id: "67FFD600E9A7919B"
+				item: "minecraft:chain_command_block"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2AC3F7005F03AB1F"
+				item: "gtocore:chaotic_energy_core"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0E1A670099E3C3F2"]
+			id: "3448FEC025A0CA9C"
+			optional: true
+			subtitle: "毕业了"
+			tasks: [{
+				id: "4578A8C0BB3E0155"
+				item: "gtmthings:creative_laser_hatch"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			description: ["夸克释放催化剂目前还做不了，所以只要你做出了7级水，就可以直接来这里领取8级水的元件"]
+			id: "2EDCB01B9811A79D"
+			rewards: [{
+				id: "073F7587BB4E284F"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:f"
+							id: "gtocore:baryonic_perfection_water"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "378DB566F942202E"
+				item: "gtocore:degassed_water_bucket"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3448FEC025A0CA9C"]
+			description: [
+				"<0.5.3专属彩蛋>"
+				""
+				"恭喜通关！"
+				""
+				"2026新年快乐！&o&m新的一年也要多多上工哦"
+			]
+			hide_until_deps_complete: true
+			id: "016825EEC25C1CEF"
+			rewards: [
+				{
+					id: "2962E756B2617752"
+					item: "apotheosis:sigil_of_rebirth"
+					type: "item"
+				}
+				{
+					id: "44240DA135B4045A"
+					item: {
+						Count: 1
+						id: "easy_villagers:villager"
+						tag: {
+							villager: {
+								Age: -24000
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6E7CA598B7C4079E"
+					item: "gtocore:fast_neutron_breeder_reactor"
+					type: "item"
+				}
+				{
+					id: "048A6C612D806ED0"
+					item: "minecraft:music_disc_13"
+					type: "item"
+				}
+			]
+			subtitle: "毕业彩蛋"
+			tasks: [{
+				id: "640A14267FA43F4A"
+				type: "checkmark"
+			}]
+			title: "新年快乐！"
+			x: 6.0d
+			y: 1.0d
 		}
 	]
 	subtitle: ["Tier10-UEV"]
