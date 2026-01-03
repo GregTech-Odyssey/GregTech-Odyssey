@@ -991,7 +991,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: -12.0d
+			y: -10.5d
 		}
 		{
 			dependencies: ["2F6C81E3B10365E8"]
@@ -1151,8 +1151,8 @@
 				}
 			]
 			title: "{gto.ev.quests.1D20FEE7860F5575.title}"
-			x: 7.0d
-			y: -10.0d
+			x: 6.0d
+			y: -9.5d
 		}
 		{
 			dependencies: ["45D5AB8BE1006124"]
@@ -1533,6 +1533,23 @@
 			}]
 			x: -3.0d
 			y: -1.0d
+		}
+		{
+			dependencies: [
+				"5B98FF5DDD4B2629"
+				"41551B8820D1245A"
+			]
+			hide_dependency_lines: true
+			id: "1F8CD51855DE9512"
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "4711395AE11F9FCE"
+				item: "gtocore:large_greenhouse"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -12.0d
 		}
 	]
 	subtitle: ["{gto.ev.subtitle0}"]

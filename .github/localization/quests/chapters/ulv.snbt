@@ -1151,36 +1151,6 @@
 			y: -5.0d
 		}
 		{
-			dependencies: ["0FBE7318DFBA700E"]
-			description: [
-				"{gto.ulv.quests.62F451C62752F3B7.description0}"
-				""
-				"{gto.ulv.quests.62F451C62752F3B7.description1}"
-				""
-				"{gto.ulv.quests.62F451C62752F3B7.description2}"
-				""
-				"{gto.ulv.quests.62F451C62752F3B7.description3}"
-			]
-			id: "62F451C62752F3B7"
-			optional: true
-			rewards: [{
-				id: "13E1F79C96D46594"
-				item: "farmersdelight:honey_glazed_ham"
-				type: "item"
-			}]
-			tasks: [{
-				id: "313A119A9CB2D43A"
-				item: {
-					Count: 1
-					id: "gtceu:liquid_fuel_jetpack"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: 5.0d
-			y: 2.85d
-		}
-		{
 			dependencies: [
 				"1CDBE91D2ACD9111"
 				"020E8B707A8CF794"
@@ -1320,8 +1290,8 @@
 				item: "gtceu:programmed_circuit"
 				type: "item"
 			}]
-			x: 6.5d
-			y: 1.5d
+			x: 5.0d
+			y: 2.85d
 		}
 		{
 			dependencies: ["4678D97346E46529"]
@@ -1452,7 +1422,7 @@
 			}]
 			title: "{gto.ulv.quests.35CBD9D27781F929.title}"
 			x: 6.0d
-			y: -1.0d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -1587,8 +1557,8 @@
 				type: "checkmark"
 			}]
 			title: "{gto.ulv.quests.2907ABEAAFEF3BC1.title}"
-			x: 5.5d
-			y: -1.0d
+			x: 6.0d
+			y: 1.0d
 		}
 	]
 	subtitle: ["{gto.ulv.subtitle0}"]

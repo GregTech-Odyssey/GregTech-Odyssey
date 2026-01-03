@@ -23,6 +23,13 @@
 			x: 10.0d
 			y: 4.5d
 		}
+		{
+			id: "6A50E54C7709F718"
+			linked_quest: "2D899AFE07E20FEF"
+			shape: "hexagon"
+			x: -8.0d
+			y: 6.0d
+		}
 	]
 	quests: [
 		{
@@ -414,8 +421,15 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["030007178B83809E"]
-			description: ["{gto.mv.quests.58FBD21AFE9272CA.description0}"]
+			dependencies: [
+				"030007178B83809E"
+				"2D899AFE07E20FEF"
+			]
+			description: [
+				"{gto.mv.quests.58FBD21AFE9272CA.description0}"
+				""
+				"{gto.mv.quests.58FBD21AFE9272CA.description1}"
+			]
 			id: "58FBD21AFE9272CA"
 			shape: "hexagon"
 			tasks: [{
