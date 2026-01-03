@@ -556,22 +556,20 @@
 			hide_until_deps_visible: false
 			icon_scale: 2.0d
 			id: "4E7B1FF823C85AD6"
-			optional: true
 			shape: "none"
 			tasks: [{
 				id: "05993154671C0697"
 				item: "botania:thor_ring"
 				type: "item"
 			}]
-			x: 13.0d
-			y: 9.0d
+			x: 21.371428571428517d
+			y: 3.3380952380952635d
 		}
 		{
 			dependencies: ["50A2D68A83A50F47"]
 			hide_until_deps_visible: false
 			icon_scale: 2.0d
 			id: "0C56CB7815A1355C"
-			optional: true
 			shape: "none"
 			tasks: [{
 				id: "078E142753C8FA7B"
@@ -589,68 +587,64 @@
 				}
 				type: "item"
 			}]
-			x: 12.0d
-			y: 9.0d
+			x: 21.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["50A2D68A83A50F47"]
 			hide_until_deps_visible: false
 			icon_scale: 2.0d
 			id: "1EE1EF4695A39876"
-			optional: true
 			shape: "none"
 			tasks: [{
 				id: "46081AC3349324C9"
 				item: "botania:loki_ring"
 				type: "item"
 			}]
-			x: 14.0d
-			y: 9.0d
+			x: 22.228571428571385d
+			y: 2.4523809523809703d
 		}
 		{
 			dependencies: ["50A2D68A83A50F47"]
 			hide_until_deps_visible: false
 			icon_scale: 2.0d
 			id: "6AFC5FE71A80913E"
-			optional: true
 			shape: "none"
 			tasks: [{
 				id: "408C9E36F8C27D8C"
 				item: "botania:infinite_fruit"
 				type: "item"
 			}]
-			x: 12.0d
-			y: 10.0d
+			x: 23.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["50A2D68A83A50F47"]
 			hide_until_deps_visible: false
 			icon_scale: 2.0d
 			id: "780B0A790C6AF9DB"
-			optional: true
 			shape: "none"
 			tasks: [{
 				id: "371A7D51171C67D4"
 				item: "botania:king_key"
 				type: "item"
 			}]
-			x: 13.0d
-			y: 10.0d
+			x: 22.25000000000003d
+			y: 6.690476190476204d
 		}
 		{
 			dependencies: ["50A2D68A83A50F47"]
 			hide_until_deps_visible: false
 			icon_scale: 2.0d
 			id: "16DE70DE2463A5DD"
-			optional: true
 			shape: "none"
 			tasks: [{
 				id: "337F2A21222F5FFC"
 				item: "botania:flugel_eye"
 				type: "item"
 			}]
-			x: 14.0d
-			y: 10.0d
+			x: 21.364285714285742d
+			y: 5.83333333333335d
 		}
 		{
 			dependencies: ["6FBE0BF8A7ADBB26"]
@@ -1453,11 +1447,7 @@
 		}
 		{
 			dependencies: ["0631F054A9B97A40"]
-			description: [
-				"{gto.magic2.quests.705706C604CECF1D.description0}"
-				""
-				"{gto.magic2.quests.705706C604CECF1D.description1}"
-			]
+			description: ["{gto.magic2.quests.705706C604CECF1D.description0}"]
 			id: "705706C604CECF1D"
 			shape: "diamond"
 			tasks: [{
@@ -1881,8 +1871,11 @@
 			y: 10.0d
 		}
 		{
-			dependencies: ["27CD17C4B3613171"]
-			hide_dependency_lines: true
+			dependencies: [
+				"27CD17C4B3613171"
+				"651CA7BF775419A0"
+			]
+			description: ["{gto.magic2.quests.04FD522309595AF4.description0}"]
 			icon_scale: 2.0d
 			id: "04FD522309595AF4"
 			shape: "none"
@@ -1892,12 +1885,11 @@
 				item: "mythicbotany:fimbultyr_tablet"
 				type: "item"
 			}]
-			x: 15.0d
+			x: 14.5d
 			y: 9.0d
 		}
 		{
-			dependencies: ["27CD17C4B3613171"]
-			hide_dependency_lines: true
+			dependencies: ["7278B00DEB2C21E7"]
 			icon_scale: 2.0d
 			id: "376C5A02C14B1303"
 			shape: "none"
@@ -1912,8 +1904,8 @@
 				}
 				type: "item"
 			}]
-			x: 15.0d
-			y: 10.0d
+			x: 23.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["763545268A59C6DE"]
@@ -2025,11 +2017,17 @@
 				}
 				type: "item"
 			}]
-			x: -1.75d
-			y: 1.5d
+			x: -3.0d
+			y: 0.0d
 		}
 		{
-			dependencies: ["0F02FE8BA89BCF34"]
+			dependencies: [
+				"0F02FE8BA89BCF34"
+				"50A2D68A83A50F47"
+			]
+			dependency_requirement: "one_completed"
+			description: ["{gto.magic2.quests.7278B00DEB2C21E7.description0}"]
+			hide_dependent_lines: true
 			id: "7278B00DEB2C21E7"
 			tasks: [{
 				id: "36537D76B6F9DE91"
@@ -2066,6 +2064,204 @@
 			title: "{gto.magic2.quests.7278B00DEB2C21E7.title}"
 			x: 14.5d
 			y: 1.5d
+		}
+		{
+			dependencies: ["705706C604CECF1D"]
+			description: ["{gto.magic2.quests.62C59C7915EF8053.description0}"]
+			id: "62C59C7915EF8053"
+			shape: "diamond"
+			tasks: [{
+				id: "5E9A3B1B9E9BF5FC"
+				item: "gtocore:advanced_mana_distributor"
+				type: "item"
+			}]
+			x: -1.75d
+			y: 1.5d
+		}
+		{
+			dependencies: ["129FF3CBED5CFF05"]
+			id: "348BF6EF32E190B4"
+			tasks: [{
+				id: "72B6D7A1D5BFC3D4"
+				item: "gtocore:me_mana_interface"
+				type: "item"
+			}]
+			x: 19.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2150BFD0D971DF9C"]
+			hide_dependency_lines: true
+			icon_scale: 2.0d
+			id: "20EBA7B0183026E1"
+			shape: "none"
+			size: 1.0d
+			tasks: [{
+				id: "46A2545A880E74EF"
+				item: {
+					Count: 1
+					id: "extrabotany:excalibur"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 24.842857142857156d
+			y: 2.5119047619047734d
+		}
+		{
+			dependencies: ["57038022345C40A6"]
+			icon_scale: 2.0d
+			id: "43B5768452C09DCB"
+			shape: "none"
+			size: 1.0d
+			tasks: [{
+				id: "691C20EB61E0D62F"
+				item: "mythicbotany:mjoellnir"
+				type: "item"
+			}]
+			x: 26.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["18E4BD0C2EDCBDF2"]
+			hide_dependency_lines: true
+			icon_scale: 2.0d
+			id: "15999E72EF43F752"
+			shape: "none"
+			size: 1.0d
+			tasks: [{
+				id: "4A40F3D4D7CB0FA6"
+				item: {
+					Count: 1
+					id: "extrabotany:rhein_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 25.64285714285716d
+			y: 3.3119047619047706d
+		}
+		{
+			dependencies: ["18E4BD0C2EDCBDF2"]
+			hide_dependency_lines: true
+			icon_scale: 2.0d
+			id: "4E38FA88DE955DFF"
+			shape: "none"
+			size: 1.0d
+			tasks: [{
+				id: "6B2D0EC9A032199F"
+				item: {
+					Count: 1
+					id: "extrabotany:achilles_shield"
+					tag: {
+						Damage: 0
+						soulbindUUID: "19d51ab4-577d-4b55-8550-40819c76b173"
+					}
+				}
+				type: "item"
+			}]
+			x: 25.700000000000024d
+			y: 5.711904761904776d
+		}
+		{
+			dependencies: ["18E4BD0C2EDCBDF2"]
+			hide_dependency_lines: true
+			icon_scale: 2.0d
+			id: "0D012258EAB52DF5"
+			shape: "none"
+			size: 1.0d
+			tasks: [{
+				id: "4E09FF0E9D4257D2"
+				item: {
+					Count: 1
+					id: "extrabotany:failnaught"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 24.785714285714285d
+			y: 6.683333333333337d
+		}
+		{
+			dependencies: ["57038022345C40A6"]
+			description: ["{gto.magic2.quests.69B3B50FB64F3BF6.description0}"]
+			hide_dependent_lines: true
+			hide_until_deps_visible: false
+			icon_scale: 2.0d
+			id: "69B3B50FB64F3BF6"
+			shape: "none"
+			tasks: [{
+				id: "622170327A750A1A"
+				item: "mythicbotany:kvasir_mead"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"1EE1EF4695A39876"
+				"0C56CB7815A1355C"
+				"780B0A790C6AF9DB"
+				"6AFC5FE71A80913E"
+				"376C5A02C14B1303"
+				"0D012258EAB52DF5"
+				"20EBA7B0183026E1"
+				"15999E72EF43F752"
+				"43B5768452C09DCB"
+				"4E38FA88DE955DFF"
+				"4E7B1FF823C85AD6"
+				"16DE70DE2463A5DD"
+				"69B3B50FB64F3BF6"
+			]
+			description: [
+				"{gto.magic2.quests.6878C231FB98DBBC.description0}"
+				""
+				"{gto.magic2.quests.6878C231FB98DBBC.description1}"
+			]
+			hide_until_deps_complete: true
+			id: "6878C231FB98DBBC"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "{gto.magic2.quests.6878C231FB98DBBC.subtitle}"
+			tasks: [{
+				dimension: "mythicbotany:alfheim"
+				icon: {
+					Count: 1
+					id: "naturescompass:naturescompass"
+					tag: { }
+				}
+				id: "7E9249A3FF784CB1"
+				title: "{gto.magic2.quests.6878C231FB98DBBC.tasks.7E9249A3FF784CB1.title}"
+				type: "dimension"
+			}]
+			x: 23.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["04FD522309595AF4"]
+			description: ["{gto.magic2.quests.57038022345C40A6.description0}"]
+			hide_dependent_lines: true
+			id: "57038022345C40A6"
+			tasks: [
+				{
+					id: "55AD45A9A9C724B8"
+					item: "mythicbotany:central_rune_holder"
+					type: "item"
+				}
+				{
+					id: "72F8E1844FCCD4D8"
+					item: "mythicbotany:rune_holder"
+					type: "item"
+				}
+			]
+			title: "{gto.magic2.quests.57038022345C40A6.title}"
+			x: 16.0d
+			y: 9.0d
 		}
 	]
 	subtitle: ["{gto.magic2.subtitle0}"]

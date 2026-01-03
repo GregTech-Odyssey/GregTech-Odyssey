@@ -2033,6 +2033,53 @@
 			x: -6.5d
 			y: -8.25d
 		}
+		{
+			dependencies: [
+				"056EC4E6FAF614B7"
+				"5D828A5258BFF11F"
+			]
+			description: ["{gto.hv.quests.7370500E4120BD65.description0}"]
+			hide_until_deps_visible: true
+			icon: "gtceu:cleanroom"
+			id: "7370500E4120BD65"
+			rewards: [
+				{
+					id: "6FDDC16890F1EE76"
+					item: "gtceu:cleanroom"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "6F691A4202BB5E43"
+					item: "gtceu:filter_casing"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "36FE50544142340E"
+				type: "checkmark"
+			}]
+			title: "{gto.hv.quests.7370500E4120BD65.title}"
+			x: -4.75d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7E963A64B5EB7C20"]
+			disable_toast: true
+			hide_dependent_lines: true
+			icon_scale: 0.1d
+			id: "6041423EA806DE41"
+			shape: "none"
+			size: 0.1d
+			tasks: [{
+				id: "341EB87A5768BFA5"
+				stat: "minecraft:jump"
+				type: "stat"
+				value: 1
+			}]
+			x: -7.0d
+			y: 5.5d
+		}
 	]
 	subtitle: ["{gto.hv.subtitle0}"]
 	title: "{gto.hv.title}"

@@ -1848,7 +1848,7 @@
 		}
 		{
 			dependencies: ["1FB1EC5B9CEFC2BC"]
-			description: ["专家模式需要钛才可以开始下单"]
+			description: ["专家模式下，如果魔法没有发展到精灵钢，那么必须要等到EV才可以开始自动化"]
 			hide_until_deps_visible: true
 			id: "16EE71F334BFA71C"
 			subtitle: "前面的区域，EV再探索吧"
@@ -2032,6 +2032,53 @@
 			}]
 			x: -6.5d
 			y: -8.25d
+		}
+		{
+			dependencies: [
+				"056EC4E6FAF614B7"
+				"5D828A5258BFF11F"
+			]
+			description: ["简单模式机器不需要超净环境也能工作，因此我在这里直接送你一份用于过任务"]
+			hide_until_deps_visible: true
+			icon: "gtceu:cleanroom"
+			id: "7370500E4120BD65"
+			rewards: [
+				{
+					id: "6FDDC16890F1EE76"
+					item: "gtceu:cleanroom"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "6F691A4202BB5E43"
+					item: "gtceu:filter_casing"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "36FE50544142340E"
+				type: "checkmark"
+			}]
+			title: "超净间&a（简单）&r"
+			x: -4.75d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7E963A64B5EB7C20"]
+			disable_toast: true
+			hide_dependent_lines: true
+			icon_scale: 0.1d
+			id: "6041423EA806DE41"
+			shape: "none"
+			size: 0.1d
+			tasks: [{
+				id: "341EB87A5768BFA5"
+				stat: "minecraft:jump"
+				type: "stat"
+				value: 1
+			}]
+			x: -7.0d
+			y: 5.5d
 		}
 	]
 	subtitle: ["Tier3-HV"]

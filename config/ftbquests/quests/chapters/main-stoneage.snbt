@@ -338,7 +338,9 @@
 			description: [
 				"它的配方与原版 Minecraft 有着截然不同的差距，你需要用两个&6燧石&r和两个&6原木&r。"
 				""
-				"当然也可以查看EMI来获得合成配方，然后在材料充足的情况下点击加号来自动合成。"
+				"你可以查看EMI来获得合成配方，然后在材料充足的情况下点击加号来自动合成。"
+				""
+				"&o&7简单模式下配方不变，四个木板即可"
 			]
 			icon: "minecraft:crafting_table"
 			id: "561D79DE960A034D"
@@ -1495,7 +1497,7 @@
 		{
 			dependencies: ["12116F27AB89BB58"]
 			description: [
-				"&6简易合成终端&r可以取出相邻容器的物品，当作前期的AE"
+				"&6简易合成终端&r可以与对应容器交互，当作前期的AE"
 				""
 				"但是这个合成终端&c无法链接多个容器&r"
 			]
@@ -1812,7 +1814,7 @@
 			description: [
 				"软锤不仅可以作为合成材料，也可以作为工具"
 				""
-				"&8&o指可以开关机器&r&8&r"
+				"右键机器即可暂停机器工作"
 			]
 			id: "20AE5EDFB6C59021"
 			optional: true
@@ -2249,26 +2251,32 @@
 		{
 			dependencies: ["561D79DE960A034D"]
 			description: [
-				"用熔炉在地上摆放一个&a3x3x3&r形状，就会自动成型为&6Jumbo Furnace熔炉&r（JF炉）"
+				"用熔炉在地上摆放一个&a3x3x3&r形状的立方体，就会自动成型为&6Jumbo Furnace熔炉&r（巨型熔炉）"
 				""
-				"在其原料栏位放入&a27个&r熔炉可以烧制出一个物品JF炉，放入右下的槽位可以增加&e并行&r"
+				"在其原料栏位放入&a27个&r熔炉可以烧制出一个&6巨型熔炉并行升级&r，放入右下的槽位可以增加&e并行&r"
 				""
 				"&o&7它的性价比完爆了蒸汽时代熔炉，64并行足以满足你前期的烧炼需求。它还因为过强险些被删除"
 				""
 				"&o&m&7没有主机的多方块结构不能叫做多方块结构"
 			]
 			id: "24AD2CCEF0E48FD5"
+			rewards: [{
+				id: "03D63ADB5B0C891A"
+				item: "jumbofurnace:jumbo_furnace"
+				type: "item"
+			}]
 			shape: "diamond"
 			subtitle: "你的第一个多方块结构...真的算是吗？"
 			tasks: [{
 				icon: "jumbofurnace:jumbo_furnace"
-				id: "7DDFD5224921B6A1"
+				id: "383550A2A702BCF6"
 				observe_type: 0
 				timer: 0L
+				title: "观察: &a巨型熔炉&r"
 				to_observe: "jumbofurnace:jumbo_furnace"
 				type: "observation"
 			}]
-			title: "大熔炉"
+			title: "巨型熔炉"
 			x: 6.5d
 			y: 2.0d
 		}

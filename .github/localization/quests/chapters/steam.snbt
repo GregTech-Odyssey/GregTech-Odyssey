@@ -105,6 +105,15 @@
 			x: 4.285714285714292d
 			y: 7.0d
 		}
+		{
+			dependency: "056EC4E6FAF614B7"
+			height: 1.0d
+			image: "botania:block/alfheim_portal_swirl"
+			rotation: 45.0d
+			width: 1.0d
+			x: 6.75d
+			y: -2.0d
+		}
 	]
 	order_index: 1
 	quest_links: [
@@ -1949,6 +1958,71 @@
 			title: "{gto.steam.quests.2D630430259F9131.title}"
 			x: -9.0d
 			y: -0.75d
+		}
+		{
+			dependencies: [
+				"298BEC345930429A"
+				"575D68EF05B5BCC3"
+				"056EC4E6FAF614B7"
+			]
+			description: [
+				"[\"\", {\"translate\": \"gto.steam.quests.09D7A6A14D532993.description0.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"5FCFE3D6B36CC409\"}, \"translate\": \"gto.steam.quests.09D7A6A14D532993.description0.rich_text1\"}, {\"translate\": \"gto.steam.quests.09D7A6A14D532993.description0.rich_text2\"}]"
+				""
+				"{gto.steam.quests.09D7A6A14D532993.description1}"
+				""
+				"{gto.steam.quests.09D7A6A14D532993.description2}"
+				""
+				"{gto.steam.quests.09D7A6A14D532993.description3}"
+				""
+				"{gto.steam.quests.09D7A6A14D532993.description4}"
+			]
+			hide_until_deps_visible: true
+			icon: "ae2:energy_acceptor"
+			id: "09D7A6A14D532993"
+			rewards: [{
+				id: "386B745450A4F5A1"
+				item: "ae2:network_tool"
+				team_reward: false
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "{gto.steam.quests.09D7A6A14D532993.subtitle}"
+			tasks: [
+				{
+					id: "137BE452DFCD6905"
+					item: "ae2:energy_acceptor"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3D376F185EAFF268"
+					type: "checkmark"
+				}
+			]
+			title: "{gto.steam.quests.09D7A6A14D532993.title}"
+			x: 6.75d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"298BEC345930429A"
+				"056EC4E6FAF614B7"
+			]
+			disable_toast: true
+			hide_until_deps_visible: true
+			icon_scale: 0.1d
+			id: "575D68EF05B5BCC3"
+			shape: "none"
+			size: 0.1d
+			tasks: [{
+				id: "7B0E57503CAA3ABC"
+				stat: "minecraft:jump"
+				type: "stat"
+				value: 1
+			}]
+			x: 9.0d
+			y: -2.0d
 		}
 	]
 	subtitle: ["{gto.steam.subtitle0}"]

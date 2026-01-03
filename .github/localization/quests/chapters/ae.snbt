@@ -124,7 +124,7 @@
 			image: "xtonesreworked:block/bitt/12"
 			rotation: 0.0d
 			width: 1.1d
-			x: -5.0d
+			x: -3.0d
 			y: 21.5d
 		}
 		{
@@ -134,7 +134,7 @@
 			order: 1
 			rotation: 0.0d
 			width: 1.1d
-			x: -5.0d
+			x: -3.0d
 			y: 21.5d
 		}
 		{
@@ -154,7 +154,7 @@
 			order: 1
 			rotation: 0.0d
 			width: 1.1d
-			x: -5.0d
+			x: -3.0d
 			y: 23.5d
 		}
 		{
@@ -162,7 +162,7 @@
 			image: "xtonesreworked:block/bitt/12"
 			rotation: 0.0d
 			width: 1.1d
-			x: -5.0d
+			x: -3.0d
 			y: 23.5d
 		}
 		{
@@ -460,6 +460,7 @@
 			y: 9.5d
 		}
 		{
+			dependency: "28C9BF5C59F5F723"
 			height: 1.0d
 			image: "gtocore:item/circuit/suprachronal_hv"
 			rotation: 0.0d
@@ -639,8 +640,8 @@
 			image: "xtonesreworked:block/bitt/4"
 			rotation: 0.0d
 			width: 1.1d
-			x: -1.0d
-			y: 9.5d
+			x: -5.0d
+			y: -0.5d
 		}
 		{
 			color: 851730
@@ -650,8 +651,8 @@
 			order: 1
 			rotation: 0.0d
 			width: 1.1d
-			x: -1.0d
-			y: 9.5d
+			x: -5.0d
+			y: -0.5d
 		}
 		{
 			height: 1.1d
@@ -672,6 +673,7 @@
 			y: 3.5d
 		}
 		{
+			dependency: "28C9BF5C59F5F723"
 			height: 1.0d
 			image: "gtocore:item/circuit/suprachronal_hv"
 			rotation: 0.0d
@@ -680,6 +682,7 @@
 			y: 3.5d
 		}
 		{
+			dependency: "28C9BF5C59F5F723"
 			height: 1.0d
 			image: "gtocore:item/circuit/suprachronal_hv"
 			rotation: 0.0d
@@ -714,6 +717,7 @@
 			y: 1.5d
 		}
 		{
+			dependency: "28C9BF5C59F5F723"
 			height: 1.0d
 			image: "gtocore:item/circuit/suprachronal_lv"
 			rotation: 0.0d
@@ -722,6 +726,7 @@
 			y: 1.5d
 		}
 		{
+			dependency: "28C9BF5C59F5F723"
 			height: 1.0d
 			image: "gtocore:item/circuit/suprachronal_ev"
 			rotation: 0.0d
@@ -730,6 +735,7 @@
 			y: 12.5d
 		}
 		{
+			dependency: "28C9BF5C59F5F723"
 			height: 1.0d
 			image: "gtocore:item/circuit/suprachronal_hv"
 			rotation: 0.0d
@@ -738,6 +744,7 @@
 			y: 11.15d
 		}
 		{
+			dependency: "28C9BF5C59F5F723"
 			height: 1.0d
 			image: "gtocore:item/circuit/suprachronal_mv"
 			rotation: 0.0d
@@ -874,6 +881,7 @@
 			y: 7.5d
 		}
 		{
+			dependency: "28C9BF5C59F5F723"
 			height: 1.0d
 			image: "gtocore:item/circuit/suprachronal_hv"
 			rotation: 0.0d
@@ -930,25 +938,17 @@
 			image: "gtocore:item/circuit/suprachronal_ev"
 			rotation: 0.0d
 			width: 1.0d
-			x: -5.5d
+			x: -3.5d
 			y: 21.5d
 		}
 		{
+			dependency: "28C9BF5C59F5F723"
 			height: 2.0d
 			image: "gtocore:item/circuit/suprachronal_lv"
 			rotation: 0.0d
 			width: 2.0d
 			x: -9.5d
 			y: 1.0d
-		}
-		{
-			dependency: "056EC4E6FAF614B7"
-			height: 1.0d
-			image: "gtocore:item/circuit/suprachronal_mv"
-			rotation: 0.0d
-			width: 1.0d
-			x: -1.5d
-			y: 9.5d
 		}
 		{
 			height: 1.0d
@@ -967,6 +967,7 @@
 			y: 21.5d
 		}
 		{
+			dependency: "056EC4E6FAF614B7"
 			height: 1.0d
 			image: "gtocore:item/circuit/suprachronal_hv"
 			rotation: 0.0d
@@ -1042,14 +1043,6 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: -5.7d
-			y: 11.5d
-		}
-		{
-			height: 1.0d
-			image: "gtocore:item/circuit/suprachronal_iv"
-			rotation: 0.0d
-			width: 1.0d
-			x: -1.5d
 			y: 11.5d
 		}
 		{
@@ -1138,6 +1131,68 @@
 			x: -1.7d
 			y: 13.5d
 		}
+		{
+			color: 16711935
+			height: 1.1d
+			image: "ftbquests:block/barrier_open"
+			order: 1
+			rotation: 0.0d
+			width: 1.1d
+			x: -1.0d
+			y: 9.5d
+		}
+		{
+			height: 1.1d
+			image: "xtonesreworked:block/bitt/12"
+			rotation: 0.0d
+			width: 1.1d
+			x: -1.0d
+			y: 9.5d
+		}
+		{
+			dependency: "056EC4E6FAF614B7"
+			height: 1.0d
+			image: "gtocore:item/circuit/suprachronal_mv"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.5d
+			y: -0.5d
+		}
+		{
+			dependency: "056EC4E6FAF614B7"
+			height: 1.0d
+			image: "gtocore:item/circuit/suprachronal_luv"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.7d
+			y: 9.5d
+		}
+		{
+			dependency: "28C9BF5C59F5F723"
+			height: 1.0d
+			image: "gtocore:item/circuit/suprachronal_uhv"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.7d
+			y: 9.5d
+		}
+		{
+			height: 1.0d
+			image: "gtocore:item/circuit/suprachronal_iv"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: 11.5d
+		}
+		{
+			dependency: "28C9BF5C59F5F723"
+			height: 1.0d
+			image: "gtocore:item/circuit/suprachronal_mv"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.5d
+			y: 9.5d
+		}
 	]
 	order_index: 5
 	quest_links: [
@@ -1185,12 +1240,6 @@
 				{
 					id: "603914C7BECB258E"
 					item: "ae2:energy_acceptor"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "40FAF143C8B23F76"
-					item: "ae2:controller"
 					optional_task: true
 					type: "item"
 				}
@@ -1378,7 +1427,7 @@
 			]
 			title: "{gto.ae.quests.50158929D20CC96E.title}"
 			x: -11.0d
-			y: 5.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["22C6DDA438A429F9"]
@@ -1699,12 +1748,22 @@
 				"0BC456B4331C09F5"
 				"256F90AFB461107E"
 			]
+			description: ["{gto.ae.quests.62402E1DBC9CF1B4.description0}"]
+			icon: "gtocore:me_extend_pattern_buffer"
 			id: "62402E1DBC9CF1B4"
-			tasks: [{
-				id: "4CE2A5638E10CE7C"
-				item: "gtocore:me_extend_pattern_buffer"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4CE2A5638E10CE7C"
+					item: "gtocore:me_extend_pattern_buffer"
+					type: "item"
+				}
+				{
+					id: "6D6CBCE36FE39230"
+					item: "gtocore:ex_pattern_buffer_upgrader"
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: -3.0d
 			y: 7.5d
 		}
@@ -1727,6 +1786,8 @@
 			dependencies: [
 				"43974ABFAE99587B"
 				"056EC4E6FAF614B7"
+				"073CEA22FD3EF535"
+				"3237EF5DBFF07740"
 			]
 			description: [
 				"{gto.ae.quests.47506298B1BD1780.description0}"
@@ -1743,8 +1804,8 @@
 				type: "item"
 			}]
 			title: "{gto.ae.quests.47506298B1BD1780.title}"
-			x: -1.0d
-			y: 9.5d
+			x: -5.0d
+			y: -0.5d
 		}
 		{
 			description: [
@@ -1772,7 +1833,6 @@
 		}
 		{
 			dependencies: [
-				"50158929D20CC96E"
 				"5FCFE3D6B36CC409"
 				"44B2AB98840349D2"
 			]
@@ -1800,15 +1860,18 @@
 			y: 4.5d
 		}
 		{
+			dependencies: ["28C9BF5C59F5F723"]
 			description: ["{gto.ae.quests.2695890B68ED84DE.description0}"]
+			hide_until_deps_visible: true
 			id: "2695890B68ED84DE"
 			tasks: [{
 				id: "14B879502532287D"
 				item: "ae2:inscriber"
 				type: "item"
 			}]
+			title: "{gto.ae.quests.2695890B68ED84DE.title}"
 			x: -13.0d
-			y: 3.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["5FCFE3D6B36CC409"]
@@ -2069,7 +2132,11 @@
 				"592D975F3146151E"
 				"7E963A64B5EB7C20"
 			]
-			description: ["{gto.ae.quests.43974ABFAE99587B.description0}"]
+			description: [
+				"{gto.ae.quests.43974ABFAE99587B.description0}"
+				""
+				"{gto.ae.quests.43974ABFAE99587B.description1}"
+			]
 			id: "43974ABFAE99587B"
 			subtitle: "{gto.ae.quests.43974ABFAE99587B.subtitle}"
 			tasks: [{
@@ -2314,7 +2381,11 @@
 		}
 		{
 			dependencies: ["034D579A41F2ED3D"]
-			description: ["{gto.ae.quests.7C9277B717E90328.description0}"]
+			description: [
+				"{gto.ae.quests.7C9277B717E90328.description0}"
+				""
+				"{gto.ae.quests.7C9277B717E90328.description1}"
+			]
 			hide_dependency_lines: true
 			id: "7C9277B717E90328"
 			tasks: [{
@@ -3077,7 +3148,11 @@
 				"7E963A64B5EB7C20"
 			]
 			dependency_requirement: "all_started"
-			description: ["{gto.ae.quests.2F42DE3FEC2C35F9.description0}"]
+			description: [
+				"{gto.ae.quests.2F42DE3FEC2C35F9.description0}"
+				""
+				"{gto.ae.quests.2F42DE3FEC2C35F9.description1}"
+			]
 			hide_dependency_lines: true
 			id: "2F42DE3FEC2C35F9"
 			tasks: [{
@@ -3287,7 +3362,11 @@
 				"0E9F8C57145D61AB"
 				"592D975F3146151E"
 			]
-			description: ["{gto.ae.quests.189F402C87C4AB3A.description0}"]
+			description: [
+				"{gto.ae.quests.189F402C87C4AB3A.description0}"
+				""
+				"{gto.ae.quests.189F402C87C4AB3A.description1}"
+			]
 			id: "189F402C87C4AB3A"
 			subtitle: "{gto.ae.quests.189F402C87C4AB3A.subtitle}"
 			tasks: [{
@@ -3333,7 +3412,13 @@
 		}
 		{
 			dependencies: ["145E176D0807D81C"]
-			description: ["{gto.ae.quests.5B0FFF99CBA89289.description0}"]
+			description: [
+				"{gto.ae.quests.5B0FFF99CBA89289.description0}"
+				""
+				"{gto.ae.quests.5B0FFF99CBA89289.description1}"
+				""
+				"{gto.ae.quests.5B0FFF99CBA89289.description2}"
+			]
 			id: "5B0FFF99CBA89289"
 			tasks: [{
 				id: "5D73F132CF10E44A"
@@ -3368,7 +3453,11 @@
 		}
 		{
 			dependencies: ["0B36C7D7D1594CB7"]
-			description: ["{gto.ae.quests.1DB79F4A3D08D7FB.description0}"]
+			description: [
+				"{gto.ae.quests.1DB79F4A3D08D7FB.description0}"
+				""
+				"{gto.ae.quests.1DB79F4A3D08D7FB.description1}"
+			]
 			id: "1DB79F4A3D08D7FB"
 			tasks: [{
 				id: "3D493FCC444BA6CE"
@@ -3460,7 +3549,9 @@
 				"14DCAAD96CDE280F"
 				"7B47DD1ACCAA3B03"
 				"1B54495D4256F384"
+				"1C3EFBC3AA258CE1"
 			]
+			dependency_requirement: "one_completed"
 			hide_dependency_lines: true
 			id: "594929B55FA2E37E"
 			min_required_dependencies: 2
@@ -3469,8 +3560,8 @@
 				item: "ae2wtlib:wireless_universal_terminal"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 23.5d
+			x: -1.0d
+			y: 21.5d
 		}
 		{
 			dependencies: [
@@ -3486,13 +3577,13 @@
 				item: "gtocore:wireless_me2in1_terminal"
 				type: "item"
 			}]
-			x: -5.0d
+			x: -3.0d
 			y: 23.5d
 		}
 		{
 			dependencies: [
-				"1DB79F4A3D08D7FB"
 				"5B98FF5DDD4B2629"
+				"63BF782D57A7243C"
 			]
 			description: [
 				"{gto.ae.quests.79B00A56EED55DBD.description0}"
@@ -3508,7 +3599,7 @@
 				item: "gtocore:me_2in1_terminal"
 				type: "item"
 			}]
-			x: -5.0d
+			x: -3.0d
 			y: 21.5d
 		}
 		{
@@ -3632,8 +3723,8 @@
 				item: "expatternprovider:caner"
 				type: "item"
 			}]
-			x: -13.0d
-			y: 5.5d
+			x: -1.0d
+			y: 19.5d
 		}
 		{
 			dependencies: [
@@ -4074,6 +4165,7 @@
 				"{gto.ae.quests.5F7635CC667AD219.description3}"
 				"{gto.ae.quests.5F7635CC667AD219.description4}"
 			]
+			icon: "gtocore:me_cpu"
 			id: "5F7635CC667AD219"
 			min_width: 225
 			subtitle: "{gto.ae.quests.5F7635CC667AD219.subtitle}"
@@ -4127,7 +4219,11 @@
 		}
 		{
 			dependencies: ["0C2743077DB8406F"]
-			description: ["{gto.ae.quests.5F96077A62E88635.description0}"]
+			description: [
+				"{gto.ae.quests.5F96077A62E88635.description0}"
+				""
+				"{gto.ae.quests.5F96077A62E88635.description1}"
+			]
 			id: "5F96077A62E88635"
 			tasks: [{
 				id: "0A1291D6E22A2282"
@@ -4251,7 +4347,11 @@
 				"056EC4E6FAF614B7"
 				"5FCFE3D6B36CC409"
 			]
-			description: ["{gto.ae.quests.073CEA22FD3EF535.description0}"]
+			description: [
+				"{gto.ae.quests.073CEA22FD3EF535.description0}"
+				""
+				"{gto.ae.quests.073CEA22FD3EF535.description1}"
+			]
 			hide_until_deps_visible: true
 			icon: "ae2:wireless_terminal"
 			id: "073CEA22FD3EF535"
@@ -4283,7 +4383,12 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["2A893BFDB41B7CFC"]
+			dependencies: [
+				"2A893BFDB41B7CFC"
+				"354F44C38AF0268D"
+				"50158929D20CC96E"
+			]
+			dependency_requirement: "one_completed"
 			id: "44B2AB98840349D2"
 			tasks: [
 				{
@@ -4307,8 +4412,9 @@
 					type: "item"
 				}
 			]
+			title: "{gto.ae.quests.44B2AB98840349D2.title}"
 			x: -11.0d
-			y: 3.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["7797EB75FF74F43F"]
@@ -4317,6 +4423,7 @@
 				""
 				"{gto.ae.quests.4BDC9F94B41543AD.description1}"
 			]
+			icon: "gtocore:me_energy_substation"
 			id: "4BDC9F94B41543AD"
 			subtitle: "{gto.ae.quests.4BDC9F94B41543AD.subtitle}"
 			tasks: [
@@ -4379,6 +4486,186 @@
 			}]
 			x: -11.0d
 			y: 17.5d
+		}
+		{
+			dependencies: [
+				"0BC456B4331C09F5"
+				"056EC4E6FAF614B7"
+				"0C85F6611B7A1FCE"
+			]
+			description: ["{gto.ae.quests.66AA197AB2675421.description0}"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "66AA197AB2675421"
+			tasks: [{
+				id: "78CAA92EDED9B281"
+				item: "gtocore:me_wildcard_pattern_buffer"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["056EC4E6FAF614B7"]
+			description: ["{gto.ae.quests.354F44C38AF0268D.description0}"]
+			hide_until_deps_visible: true
+			id: "354F44C38AF0268D"
+			tasks: [{
+				id: "7D80201B469071C7"
+				item: "ae2:inscriber"
+				type: "item"
+			}]
+			title: "{gto.ae.quests.354F44C38AF0268D.title}"
+			x: -13.0d
+			y: 5.5d
+		}
+		{
+			description: [
+				"{gto.ae.quests.4F7982A57F4830CB.description0}"
+				""
+				"{gto.ae.quests.4F7982A57F4830CB.description1}"
+			]
+			id: "4F7982A57F4830CB"
+			tasks: [{
+				id: "3FA2774189387023"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ae2:certus_quartz_cutting_knife"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "ae2:nether_quartz_cutting_knife"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "{gto.ae.quests.4F7982A57F4830CB.tasks.3FA2774189387023.title}"
+				type: "item"
+			}]
+			x: -23.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"0BC456B4331C09F5"
+				"28C9BF5C59F5F723"
+				"187C5D9C4BFCFD35"
+				"18E4BD0C2EDCBDF2"
+			]
+			description: ["{gto.ae.quests.3826E92A98E87DF1.description0}"]
+			hide_until_deps_visible: true
+			id: "3826E92A98E87DF1"
+			tasks: [{
+				id: "4EF8F52DACFE0560"
+				item: "gtocore:me_wildcard_pattern_buffer"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["1DB79F4A3D08D7FB"]
+			description: ["{gto.ae.quests.63BF782D57A7243C.description0}"]
+			id: "63BF782D57A7243C"
+			tasks: [{
+				id: "4256A974F77E8DE3"
+				item: "expatternprovider:ex_pattern_access_part"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 21.5d
+		}
+		{
+			dependencies: [
+				"63BF782D57A7243C"
+				"23D906A09C3631CB"
+				"65E52B0DB278156A"
+			]
+			description: ["{gto.ae.quests.1C3EFBC3AA258CE1.description0}"]
+			hide_dependency_lines: true
+			id: "1C3EFBC3AA258CE1"
+			tasks: [{
+				id: "2D03C92997940332"
+				item: "expatternprovider:wireless_ex_pat"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 23.5d
+		}
+		{
+			dependencies: [
+				"0A71F8193A3A39AE"
+				"50158929D20CC96E"
+			]
+			description: ["{gto.ae.quests.3DED3C8D0C72214F.description0}"]
+			hide_dependency_lines: true
+			id: "3DED3C8D0C72214F"
+			tasks: [{
+				id: "59E4062C2F269D3B"
+				item: "expatternprovider:circuit_cutter"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"0BC456B4331C09F5"
+				"056EC4E6FAF614B7"
+			]
+			disable_toast: true
+			hide_until_deps_visible: true
+			icon_scale: 0.1d
+			id: "3EC8A50B48BA17A4"
+			shape: "none"
+			size: 0.1d
+			tasks: [{
+				id: "1F485F5886FF13EE"
+				stat: "minecraft:jump"
+				type: "stat"
+				value: 1
+			}]
+			x: -1.0d
+			y: 9.5d
+		}
+		{
+			dependencies: [
+				"5FCFE3D6B36CC409"
+				"1FB1EC5B9CEFC2BC"
+			]
+			description: [
+				"{gto.ae.quests.3697EDE91C2FFC6F.description0}"
+				""
+				"{gto.ae.quests.3697EDE91C2FFC6F.description1}"
+			]
+			hide_until_deps_visible: true
+			icon: "ae2:controller"
+			id: "3697EDE91C2FFC6F"
+			tasks: [
+				{
+					id: "2F3EACFFDC80B809"
+					item: "ae2:controller"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "080F0B59717F17C3"
+					type: "checkmark"
+				}
+			]
+			x: -9.0d
+			y: 9.5d
 		}
 	]
 	subtitle: ["{gto.ae.subtitle0}"]

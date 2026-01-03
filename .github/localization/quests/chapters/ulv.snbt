@@ -39,6 +39,7 @@
 		{
 			id: "4A5A58465AF8F47B"
 			linked_quest: "020E8B707A8CF794"
+			shape: "hexagon"
 			x: 0.0d
 			y: 1.5d
 		}
@@ -544,6 +545,8 @@
 				"{gto.ulv.quests.7CBA1A5CCD21DA69.description0}"
 				""
 				"{gto.ulv.quests.7CBA1A5CCD21DA69.description1}"
+				""
+				"{gto.ulv.quests.7CBA1A5CCD21DA69.description2}"
 			]
 			icon: "gtocore:water_gas_bucket"
 			id: "7CBA1A5CCD21DA69"
@@ -984,8 +987,8 @@
 				}
 			]
 			title: "{gto.ulv.quests.620EF24B5E685E7A.title}"
-			x: 10.5d
-			y: -3.5d
+			x: 8.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["561F5AACF437E7C5"]
@@ -1011,7 +1014,6 @@
 		}
 		{
 			dependencies: [
-				"03A894C7D1178791"
 				"498D24745D509B73"
 				"4E41199ACDB910C1"
 			]
@@ -1149,40 +1151,9 @@
 			y: -5.0d
 		}
 		{
-			dependencies: ["0FBE7318DFBA700E"]
-			description: [
-				"{gto.ulv.quests.62F451C62752F3B7.description0}"
-				""
-				"{gto.ulv.quests.62F451C62752F3B7.description1}"
-				""
-				"{gto.ulv.quests.62F451C62752F3B7.description2}"
-				""
-				"{gto.ulv.quests.62F451C62752F3B7.description3}"
-			]
-			id: "62F451C62752F3B7"
-			optional: true
-			rewards: [{
-				id: "13E1F79C96D46594"
-				item: "farmersdelight:honey_glazed_ham"
-				type: "item"
-			}]
-			tasks: [{
-				id: "313A119A9CB2D43A"
-				item: {
-					Count: 1
-					id: "gtceu:liquid_fuel_jetpack"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: 5.0d
-			y: 2.85d
-		}
-		{
 			dependencies: [
 				"1CDBE91D2ACD9111"
 				"020E8B707A8CF794"
-				"3CAA3A282666590F"
 			]
 			description: [
 				"{gto.ulv.quests.6C328AB57C610EF9.description0}"
@@ -1319,8 +1290,8 @@
 				item: "gtceu:programmed_circuit"
 				type: "item"
 			}]
-			x: 6.5d
-			y: 1.5d
+			x: 5.0d
+			y: 2.85d
 		}
 		{
 			dependencies: ["4678D97346E46529"]
@@ -1450,8 +1421,8 @@
 				type: "checkmark"
 			}]
 			title: "{gto.ulv.quests.35CBD9D27781F929.title}"
-			x: 6.5d
-			y: -1.0d
+			x: 6.0d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -1470,7 +1441,10 @@
 			y: -6.5d
 		}
 		{
-			dependencies: ["4C484BF84C3809FB"]
+			dependencies: [
+				"4C484BF84C3809FB"
+				"03A894C7D1178791"
+			]
 			description: ["{gto.ulv.quests.4E41199ACDB910C1.description0}"]
 			icon: "gtceu:naphtha_bucket"
 			id: "4E41199ACDB910C1"
@@ -1488,8 +1462,8 @@
 				}
 			]
 			title: "{gto.ulv.quests.4E41199ACDB910C1.title}"
-			x: 12.5d
-			y: -2.0d
+			x: 10.5d
+			y: -3.5d
 		}
 		{
 			dependencies: [
@@ -1584,23 +1558,7 @@
 			}]
 			title: "{gto.ulv.quests.2907ABEAAFEF3BC1.title}"
 			x: 6.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["020E8B707A8CF794"]
-			disable_toast: true
-			icon_scale: 0.25d
-			id: "3CAA3A282666590F"
-			shape: "none"
-			size: 0.25d
-			tasks: [{
-				id: "6BB5C6582B682E8A"
-				stat: "minecraft:jump"
-				type: "stat"
-				value: 1
-			}]
-			x: 0.0d
-			y: 1.5d
+			y: 1.0d
 		}
 	]
 	subtitle: ["{gto.ulv.subtitle0}"]
