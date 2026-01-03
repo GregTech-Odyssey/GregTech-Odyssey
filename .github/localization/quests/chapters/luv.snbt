@@ -97,6 +97,26 @@
 			x: 3.5d
 			y: 5.5d
 		}
+		{
+			color: 16711935
+			dependency: "056EC4E6FAF614B7"
+			height: 1.0d
+			image: "ftbquests:block/barrier_open"
+			order: 1
+			rotation: 45.0d
+			width: 1.0d
+			x: 25.5d
+			y: 0.5d
+		}
+		{
+			dependency: "056EC4E6FAF614B7"
+			height: 1.0d
+			image: "xtonesreworked:block/bitt/12"
+			rotation: 45.0d
+			width: 1.0d
+			x: 25.5d
+			y: 0.5d
+		}
 	]
 	order_index: 8
 	quest_links: [
@@ -181,6 +201,13 @@
 			shape: "diamond"
 			x: 3.5d
 			y: 5.5d
+		}
+		{
+			id: "6EC2A2FB3962E0A3"
+			linked_quest: "66AA197AB2675421"
+			shape: "diamond"
+			x: 25.5d
+			y: 0.5d
 		}
 	]
 	quests: [
@@ -1319,7 +1346,10 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["6FFA3DE7A0920B7A"]
+			dependencies: [
+				"6FFA3DE7A0920B7A"
+				"6CD1C787E12CE2CB"
+			]
 			description: ["{gto.luv.quests.7D3AF2F7ED444967.description0}"]
 			id: "7D3AF2F7ED444967"
 			tasks: [{
@@ -1328,7 +1358,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 0.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["1156B92F11DA73B6"]
@@ -1369,6 +1399,26 @@
 			}]
 			x: 17.0d
 			y: 1.0d
+		}
+		{
+			dependencies: [
+				"056EC4E6FAF614B7"
+				"0C85F6611B7A1FCE"
+			]
+			disable_toast: true
+			hide_until_deps_visible: true
+			icon_scale: 0.1d
+			id: "0FFBDD2C1669C5C1"
+			shape: "none"
+			size: 0.1d
+			tasks: [{
+				id: "450BB8B43CCD8B14"
+				stat: "minecraft:jump"
+				type: "stat"
+				value: 1
+			}]
+			x: 25.5d
+			y: 0.5d
 		}
 	]
 	subtitle: ["{gto.luv.subtitle0}"]
