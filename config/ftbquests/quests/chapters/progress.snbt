@@ -68,6 +68,7 @@
 		{
 			description: ["本章节展示所有线圈方块与电路板收集。显示每个阶段制作的电路板。"]
 			id: "29E7BC532470B05E"
+			optional: true
 			subtitle: "里程碑收集"
 			tasks: [{
 				id: "152ED3F2E8640C11"

@@ -23,6 +23,13 @@
 			x: 10.0d
 			y: 4.5d
 		}
+		{
+			id: "6A50E54C7709F718"
+			linked_quest: "2D899AFE07E20FEF"
+			shape: "hexagon"
+			x: -8.0d
+			y: 6.0d
+		}
 	]
 	quests: [
 		{
@@ -414,8 +421,15 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["030007178B83809E"]
-			description: ["许多配方有&e线圈等级&r的要求。有了&6坎塔尔合金线圈&r你才能烧制出&6硅锭&r"]
+			dependencies: [
+				"030007178B83809E"
+				"2D899AFE07E20FEF"
+			]
+			description: [
+				"许多配方有&e线圈等级&r的要求。有了&6坎塔尔合金线圈&r你才能烧制出&6硅锭&r"
+				""
+				"&6液态铜&r是无法通过提取机提取的，如果你还没有&6液化炉&r，是时候造一台了"
+			]
 			id: "58FBD21AFE9272CA"
 			shape: "hexagon"
 			tasks: [{
