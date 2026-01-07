@@ -1851,6 +1851,7 @@
 			description: ["专家模式下，如果魔法没有发展到精灵钢，那么必须要等到EV才可以开始自动化"]
 			hide_until_deps_visible: true
 			id: "16EE71F334BFA71C"
+			optional: true
 			subtitle: "前面的区域，EV再探索吧"
 			tasks: [{
 				id: "15778C79ACA4E657"
@@ -2042,6 +2043,7 @@
 			hide_until_deps_visible: true
 			icon: "gtceu:cleanroom"
 			id: "7370500E4120BD65"
+			optional: true
 			rewards: [
 				{
 					id: "6FDDC16890F1EE76"

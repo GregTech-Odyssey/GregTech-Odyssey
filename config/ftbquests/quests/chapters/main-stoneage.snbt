@@ -2118,6 +2118,7 @@
 			hide_until_deps_visible: true
 			icon: "gtceu:bronze_ingot"
 			id: "41F8B4785DF68920"
+			optional: true
 			rewards: [
 				{
 					count: 320
@@ -2184,6 +2185,7 @@
 			hide_until_deps_visible: true
 			icon: "gtceu:bronze_ingot"
 			id: "3B7A2492AD1F9B85"
+			optional: true
 			rewards: [
 				{
 					count: 128
@@ -2233,6 +2235,7 @@
 			hide_until_deps_visible: true
 			icon: "gtceu:bronze_ingot"
 			id: "6097173C67222EC0"
+			optional: true
 			rewards: [{
 				id: "1F3EFB3D33C6BA0A"
 				item: "gtceu:bronze_ingot"

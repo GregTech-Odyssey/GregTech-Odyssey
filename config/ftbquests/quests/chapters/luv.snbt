@@ -1047,7 +1047,6 @@
 		}
 		{
 			dependencies: [
-				"63773B34911D0234"
 				"742A167FA252AC44"
 				"7EA0644BB352BBB5"
 			]
@@ -1332,7 +1331,7 @@
 		}
 		{
 			dependencies: ["137FFA84C0836E14"]
-			description: ["继续提升蒸汽机器的配方电压，解锁更多次数的超频"]
+			description: ["继续提升蒸汽机器的配方电压一级，解锁更多次数的超频"]
 			id: "66C607FC8185118D"
 			optional: true
 			shape: "diamond"
@@ -1409,6 +1408,7 @@
 			hide_until_deps_visible: true
 			icon_scale: 0.1d
 			id: "0FFBDD2C1669C5C1"
+			optional: true
 			shape: "none"
 			size: 0.1d
 			tasks: [{

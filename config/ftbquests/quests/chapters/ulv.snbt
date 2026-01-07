@@ -1140,6 +1140,7 @@
 				"其中的一个面会与其他的五个面看上去不同，此面为输出端，其余面均为输入端"
 			]
 			id: "1EFAEF7D0E6700A9"
+			optional: true
 			shape: "diamond"
 			subtitle: "万能的转换器"
 			tasks: [{
@@ -1315,6 +1316,7 @@
 			hide_until_deps_visible: true
 			icon: "gtocore:ulv_electric_motor"
 			id: "03E94BB0F0B3ED2E"
+			optional: true
 			rewards: [
 				{
 					count: 16
@@ -1364,6 +1366,7 @@
 			hide_until_deps_visible: true
 			icon: "gtceu:polyethylene_plate"
 			id: "7F95D501ADA3E661"
+			optional: true
 			rewards: [{
 				count: 128
 				id: "3F375135B8844521"
@@ -1386,7 +1389,7 @@
 				""
 				"哪怕是再微弱的电那都是电，所以注意不要被裸露的导线电死了"
 				""
-				"从现在起，你可以开始着手降低材料的造价，或许将&6原始线材轧机&r、&6原始车床&r作为你的新时代新目标是不错的选择？"
+				"从现在起，你可以开始着手降低材料的造价，或许将&6原始线材轧机&r、&6原始车床&r作为你新时代的开端是不错的选择？"
 			]
 			id: "4678D97346E46529"
 			shape: "gear"
@@ -1409,6 +1412,7 @@
 			hide_until_deps_visible: true
 			icon: "gtceu:basic_electronic_circuit"
 			id: "35CBD9D27781F929"
+			optional: true
 			rewards: [{
 				count: 16
 				id: "272BCD53EE7CB4F6"
@@ -1473,6 +1477,7 @@
 			hide_until_deps_visible: true
 			icon: "gtocore:ulv_electric_motor"
 			id: "5ECEF5305E8551FA"
+			optional: true
 			rewards: [
 				{
 					count: 8
@@ -1522,6 +1527,7 @@
 			hide_until_deps_visible: true
 			icon: "gtceu:polyethylene_plate"
 			id: "497726A4A6246369"
+			optional: true
 			rewards: [{
 				count: 24
 				id: "45B19B233BBD5B7D"
@@ -1545,6 +1551,7 @@
 			hide_until_deps_visible: true
 			icon: "gtceu:basic_electronic_circuit"
 			id: "2907ABEAAFEF3BC1"
+			optional: true
 			rewards: [{
 				count: 6
 				id: "09C47351E0D8CF6D"

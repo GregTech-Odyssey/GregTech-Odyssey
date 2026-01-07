@@ -658,7 +658,7 @@
 			icon: "gtceu:crushed_iron_ore"
 			id: "6596611DD4CB5A60"
 			min_required_dependencies: 1
-			subtitle: "gt:crashed_ores"
+			subtitle: "gt:crushed_ores"
 			tasks: [
 				{
 					id: "45B29F9F7327A305"
