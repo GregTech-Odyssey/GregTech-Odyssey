@@ -837,6 +837,14 @@
 				"{gto.tips.quests.782023097C32871D.description1}"
 				""
 				"{gto.tips.quests.782023097C32871D.description2}"
+				""
+				"{gto.tips.quests.782023097C32871D.description3}"
+				"{gto.tips.quests.782023097C32871D.description4}"
+				"{gto.tips.quests.782023097C32871D.description5}"
+				"{gto.tips.quests.782023097C32871D.description6}"
+				"{gto.tips.quests.782023097C32871D.description7}"
+				""
+				"{gto.tips.quests.782023097C32871D.description8}"
 			]
 			hide_until_deps_complete: true
 			icon: "gtocore:luv_power_amplifiers"
@@ -963,7 +971,11 @@
 				"16047F3F79404251"
 				"0B7507528A43F25E"
 			]
-			description: ["{gto.tips.quests.4814DB51E6676235.description0}"]
+			description: [
+				"{gto.tips.quests.4814DB51E6676235.description0}"
+				""
+				"{gto.tips.quests.4814DB51E6676235.description1}"
+			]
 			hide_until_deps_complete: true
 			icon: "gtocore:uv_thread_hatch"
 			id: "4814DB51E6676235"
