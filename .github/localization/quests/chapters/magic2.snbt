@@ -1437,11 +1437,20 @@
 			id: "4167ADF91EF95341"
 			optional: true
 			subtitle: "{gto.magic2.quests.4167ADF91EF95341.subtitle}"
-			tasks: [{
-				id: "7411E8A1C3C7FD56"
-				item: "gtocore:mana_amplifier_hatch"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "7411E8A1C3C7FD56"
+					item: "gtocore:mana_amplifier_hatch"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3BEB9B9EC05C000B"
+					item: "gtocore:me_mana_amplifier_hatch"
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: 19.0d
 			y: 4.5d
 		}

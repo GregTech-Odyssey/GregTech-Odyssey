@@ -1851,6 +1851,7 @@
 			description: ["{gto.hv.quests.16EE71F334BFA71C.description0}"]
 			hide_until_deps_visible: true
 			id: "16EE71F334BFA71C"
+			optional: true
 			subtitle: "{gto.hv.quests.16EE71F334BFA71C.subtitle}"
 			tasks: [{
 				id: "15778C79ACA4E657"
@@ -2042,6 +2043,7 @@
 			hide_until_deps_visible: true
 			icon: "gtceu:cleanroom"
 			id: "7370500E4120BD65"
+			optional: true
 			rewards: [
 				{
 					id: "6FDDC16890F1EE76"

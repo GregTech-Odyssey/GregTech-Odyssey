@@ -1208,6 +1208,24 @@
 			x: -19.0d
 			y: 21.5d
 		}
+		{
+			id: "37016D885C54976F"
+			linked_quest: "354F44C38AF0268D"
+			x: -13.0d
+			y: 5.5d
+		}
+		{
+			id: "5FDFFFB56363EC7B"
+			linked_quest: "66AA197AB2675421"
+			x: -1.0d
+			y: 9.5d
+		}
+		{
+			id: "619E43CE04DD211B"
+			linked_quest: "3826E92A98E87DF1"
+			x: -1.0d
+			y: 9.5d
+		}
 	]
 	quests: [
 		{
@@ -1864,6 +1882,7 @@
 			description: ["{gto.ae.quests.2695890B68ED84DE.description0}"]
 			hide_until_deps_visible: true
 			id: "2695890B68ED84DE"
+			optional: true
 			tasks: [{
 				id: "14B879502532287D"
 				item: "ae2:inscriber"
@@ -1877,6 +1896,7 @@
 			dependencies: ["5FCFE3D6B36CC409"]
 			description: ["{gto.ae.quests.5A61876797165680.description0}"]
 			id: "5A61876797165680"
+			optional: true
 			tasks: [{
 				id: "147F2944745A8545"
 				item: "ae2:vibration_chamber"
@@ -3733,6 +3753,7 @@
 			]
 			description: ["{gto.ae.quests.5A896F97DEB741EB.description0}"]
 			id: "5A896F97DEB741EB"
+			optional: true
 			tasks: [{
 				id: "66F1635B4ED0A5EF"
 				item: "expatternprovider:ex_charger"
@@ -3744,6 +3765,7 @@
 		{
 			description: ["{gto.ae.quests.36064A8DE0784528.description0}"]
 			id: "36064A8DE0784528"
+			optional: true
 			tasks: [{
 				id: "295084B42629CC61"
 				item: "ae2:charger"
@@ -4488,38 +4510,6 @@
 			y: 17.5d
 		}
 		{
-			dependencies: [
-				"0BC456B4331C09F5"
-				"056EC4E6FAF614B7"
-				"0C85F6611B7A1FCE"
-			]
-			description: ["{gto.ae.quests.66AA197AB2675421.description0}"]
-			hide_dependency_lines: true
-			hide_until_deps_visible: true
-			id: "66AA197AB2675421"
-			tasks: [{
-				id: "78CAA92EDED9B281"
-				item: "gtocore:me_wildcard_pattern_buffer"
-				type: "item"
-			}]
-			x: -1.0d
-			y: 9.5d
-		}
-		{
-			dependencies: ["056EC4E6FAF614B7"]
-			description: ["{gto.ae.quests.354F44C38AF0268D.description0}"]
-			hide_until_deps_visible: true
-			id: "354F44C38AF0268D"
-			tasks: [{
-				id: "7D80201B469071C7"
-				item: "ae2:inscriber"
-				type: "item"
-			}]
-			title: "{gto.ae.quests.354F44C38AF0268D.title}"
-			x: -13.0d
-			y: 5.5d
-		}
-		{
 			description: [
 				"{gto.ae.quests.4F7982A57F4830CB.description0}"
 				""
@@ -4555,24 +4545,6 @@
 			}]
 			x: -23.0d
 			y: 1.5d
-		}
-		{
-			dependencies: [
-				"0BC456B4331C09F5"
-				"28C9BF5C59F5F723"
-				"187C5D9C4BFCFD35"
-				"18E4BD0C2EDCBDF2"
-			]
-			description: ["{gto.ae.quests.3826E92A98E87DF1.description0}"]
-			hide_until_deps_visible: true
-			id: "3826E92A98E87DF1"
-			tasks: [{
-				id: "4EF8F52DACFE0560"
-				item: "gtocore:me_wildcard_pattern_buffer"
-				type: "item"
-			}]
-			x: -1.0d
-			y: 9.5d
 		}
 		{
 			dependencies: ["1DB79F4A3D08D7FB"]
@@ -4628,6 +4600,7 @@
 			hide_until_deps_visible: true
 			icon_scale: 0.1d
 			id: "3EC8A50B48BA17A4"
+			optional: true
 			shape: "none"
 			size: 0.1d
 			tasks: [{

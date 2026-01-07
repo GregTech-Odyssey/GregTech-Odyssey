@@ -1140,6 +1140,7 @@
 				"{gto.ulv.quests.1EFAEF7D0E6700A9.description2}"
 			]
 			id: "1EFAEF7D0E6700A9"
+			optional: true
 			shape: "diamond"
 			subtitle: "{gto.ulv.quests.1EFAEF7D0E6700A9.subtitle}"
 			tasks: [{
@@ -1315,6 +1316,7 @@
 			hide_until_deps_visible: true
 			icon: "gtocore:ulv_electric_motor"
 			id: "03E94BB0F0B3ED2E"
+			optional: true
 			rewards: [
 				{
 					count: 16
@@ -1364,6 +1366,7 @@
 			hide_until_deps_visible: true
 			icon: "gtceu:polyethylene_plate"
 			id: "7F95D501ADA3E661"
+			optional: true
 			rewards: [{
 				count: 128
 				id: "3F375135B8844521"
@@ -1409,6 +1412,7 @@
 			hide_until_deps_visible: true
 			icon: "gtceu:basic_electronic_circuit"
 			id: "35CBD9D27781F929"
+			optional: true
 			rewards: [{
 				count: 16
 				id: "272BCD53EE7CB4F6"
@@ -1473,6 +1477,7 @@
 			hide_until_deps_visible: true
 			icon: "gtocore:ulv_electric_motor"
 			id: "5ECEF5305E8551FA"
+			optional: true
 			rewards: [
 				{
 					count: 8
@@ -1522,6 +1527,7 @@
 			hide_until_deps_visible: true
 			icon: "gtceu:polyethylene_plate"
 			id: "497726A4A6246369"
+			optional: true
 			rewards: [{
 				count: 24
 				id: "45B19B233BBD5B7D"
@@ -1545,6 +1551,7 @@
 			hide_until_deps_visible: true
 			icon: "gtceu:basic_electronic_circuit"
 			id: "2907ABEAAFEF3BC1"
+			optional: true
 			rewards: [{
 				count: 6
 				id: "09C47351E0D8CF6D"

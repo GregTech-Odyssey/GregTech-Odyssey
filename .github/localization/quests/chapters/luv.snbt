@@ -1047,7 +1047,6 @@
 		}
 		{
 			dependencies: [
-				"63773B34911D0234"
 				"742A167FA252AC44"
 				"7EA0644BB352BBB5"
 			]
@@ -1409,6 +1408,7 @@
 			hide_until_deps_visible: true
 			icon_scale: 0.1d
 			id: "0FFBDD2C1669C5C1"
+			optional: true
 			shape: "none"
 			size: 0.1d
 			tasks: [{

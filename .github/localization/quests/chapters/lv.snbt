@@ -2304,6 +2304,7 @@
 			hide_until_deps_visible: true
 			icon: "gtceu:good_electronic_circuit"
 			id: "7E42EE42563374BE"
+			optional: true
 			rewards: [{
 				count: 16
 				id: "32A60EABC44F2216"
@@ -2327,6 +2328,7 @@
 			hide_until_deps_visible: true
 			icon: "gtceu:lv_electric_motor"
 			id: "2EE147D398EEC675"
+			optional: true
 			rewards: [
 				{
 					count: 24
@@ -2376,6 +2378,7 @@
 			hide_until_deps_visible: true
 			icon: "gtceu:aluminium_ingot"
 			id: "2C91F5919FE7444D"
+			optional: true
 			rewards: [{
 				count: 320
 				id: "68C6C3974C846D7C"
@@ -2535,6 +2538,7 @@
 			hide_until_deps_visible: true
 			icon: "gtceu:lv_electric_motor"
 			id: "031D403E32636798"
+			optional: true
 			rewards: [
 				{
 					count: 12
@@ -2584,6 +2588,7 @@
 			hide_until_deps_visible: true
 			icon: "gtceu:aluminium_ingot"
 			id: "72844914477AB61B"
+			optional: true
 			rewards: [{
 				count: 56
 				id: "7F61C4E2EF9A79BC"
@@ -2607,6 +2612,7 @@
 			hide_until_deps_visible: true
 			icon: "gtceu:good_electronic_circuit"
 			id: "78D71D97BEE01E8F"
+			optional: true
 			rewards: [{
 				count: 6
 				id: "03D75D08E635470D"
