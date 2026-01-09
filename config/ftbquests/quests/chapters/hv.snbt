@@ -650,34 +650,17 @@
 				"最后着陆前注意提前&e打开助推器减速&r，否则在有不幸的事情发生前就会&4&n有更不幸的事情发生&r&r"
 			]
 			id: "310210D2AD9515E3"
-			rewards: [
-				{
-					id: "606F980D21B6DDAE"
-					item: {
-						Count: 1
-						id: "gtceu:prospector.hv"
-						tag: {
-							Charge: 1600000L
-						}
+			rewards: [{
+				id: "606F980D21B6DDAE"
+				item: {
+					Count: 1
+					id: "gtceu:prospector.hv"
+					tag: {
+						Charge: 1600000L
 					}
-					type: "item"
 				}
-				{
-					id: "679F3B93D7B00914"
-					item: {
-						Count: 1
-						id: "avaritia:infinity_totem"
-						tag: {
-							Damage: 98
-							RepairCost: 0
-							display: {
-								Name: "{\"text\":\"员工生活质量保障证(一次性)\"}"
-							}
-						}
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			shape: "gear"
 			size: 2.0d
 			subtitle: "格雷科技的一大步"
@@ -698,6 +681,8 @@
 				"到达月球后，你第一件事是探矿，找到钛的来源"
 				""
 				"月球上的钛不以单质或简单化合物形式出现，你需要从&6铝土矿&r中提炼出&6金红石&r用来制取钛"
+				""
+				"&o&7铝土矿矿处产出的金红石可比直接电解铝土矿粉多不少"
 			]
 			id: "74349E8491A86E55"
 			tasks: [{
@@ -713,6 +698,7 @@
 				"74349E8491A86E55"
 				"2047831C46210E9C"
 			]
+			dependency_requirement: "one_completed"
 			id: "6FC9EDD193E0BCE7"
 			tasks: [{
 				id: "4FED5CCF723D7B2B"
@@ -1662,9 +1648,11 @@
 				"月球上的钛还有另一种获取方式就是粗钛铁矿"
 				""
 				"在处理粗矿并得到钛铁矿粉之后，需要用碳粉在电力高炉内将其还原回&d金红石粉&r并生成二氧化碳"
+				""
+				"&o&7同样，矿处产出的金红石也有不少，在前期烧制钛锭较慢的时候可以选择不进行钛铁矿粉的后续处理"
 			]
 			id: "2047831C46210E9C"
-			subtitle: "比铝土制钛更慢"
+			subtitle: "比铝土制钛产量高，但慢"
 			tasks: [{
 				id: "4770D7BDF837DDDA"
 				item: "gtceu:raw_ilmenite"
@@ -1841,6 +1829,7 @@
 			]
 			icon: "gtmthings:hv_wireless_energy_receive_cover"
 			id: "1A1DFCA1157441FF"
+			shape: "pentagon"
 			tasks: [{
 				id: "3B6013F3584A59AA"
 				title: "其他维度如何用电"
