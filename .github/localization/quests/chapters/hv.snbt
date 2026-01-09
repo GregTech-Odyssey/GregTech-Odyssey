@@ -502,6 +502,7 @@
 			id: "6DAF9DE9EAC4B63B"
 			shape: "diamond"
 			size: 1.5d
+			subtitle: "{gto.hv.quests.6DAF9DE9EAC4B63B.subtitle}"
 			tasks: [{
 				id: "0117D2837C1AF5FF"
 				item: {
@@ -570,6 +571,8 @@
 				"{gto.hv.quests.7329A824F8F1CDFF.description2}"
 				""
 				"{gto.hv.quests.7329A824F8F1CDFF.description3}"
+				""
+				"{gto.hv.quests.7329A824F8F1CDFF.description4}"
 			]
 			id: "7329A824F8F1CDFF"
 			shape: "hexagon"

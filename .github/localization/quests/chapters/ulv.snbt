@@ -231,6 +231,8 @@
 				"{gto.ulv.quests.561F5AACF437E7C5.description3}"
 				""
 				"{gto.ulv.quests.561F5AACF437E7C5.description4}"
+				""
+				"{gto.ulv.quests.561F5AACF437E7C5.description5}"
 			]
 			icon: "gtocore:primitive_distillation_tower"
 			id: "561F5AACF437E7C5"
@@ -509,8 +511,6 @@
 				"{gto.ulv.quests.79B4A4120B7B4C60.description3}"
 				""
 				"{gto.ulv.quests.79B4A4120B7B4C60.description4}"
-				""
-				"{gto.ulv.quests.79B4A4120B7B4C60.description5}"
 			]
 			icon: "gtocore:coal_slurry_bucket"
 			id: "79B4A4120B7B4C60"
