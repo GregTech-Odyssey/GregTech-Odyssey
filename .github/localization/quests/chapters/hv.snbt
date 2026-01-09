@@ -650,34 +650,17 @@
 				"{gto.hv.quests.310210D2AD9515E3.description3}"
 			]
 			id: "310210D2AD9515E3"
-			rewards: [
-				{
-					id: "606F980D21B6DDAE"
-					item: {
-						Count: 1
-						id: "gtceu:prospector.hv"
-						tag: {
-							Charge: 1600000L
-						}
+			rewards: [{
+				id: "606F980D21B6DDAE"
+				item: {
+					Count: 1
+					id: "gtceu:prospector.hv"
+					tag: {
+						Charge: 1600000L
 					}
-					type: "item"
 				}
-				{
-					id: "679F3B93D7B00914"
-					item: {
-						Count: 1
-						id: "avaritia:infinity_totem"
-						tag: {
-							Damage: 98
-							RepairCost: 0
-							display: {
-								Name: "{\"text\":\"员工生活质量保障证(一次性)\"}"
-							}
-						}
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			shape: "gear"
 			size: 2.0d
 			subtitle: "{gto.hv.quests.310210D2AD9515E3.subtitle}"
@@ -698,6 +681,8 @@
 				"{gto.hv.quests.74349E8491A86E55.description0}"
 				""
 				"{gto.hv.quests.74349E8491A86E55.description1}"
+				""
+				"{gto.hv.quests.74349E8491A86E55.description2}"
 			]
 			id: "74349E8491A86E55"
 			tasks: [{
@@ -713,6 +698,7 @@
 				"74349E8491A86E55"
 				"2047831C46210E9C"
 			]
+			dependency_requirement: "one_completed"
 			id: "6FC9EDD193E0BCE7"
 			tasks: [{
 				id: "4FED5CCF723D7B2B"
@@ -1662,6 +1648,8 @@
 				"{gto.hv.quests.2047831C46210E9C.description0}"
 				""
 				"{gto.hv.quests.2047831C46210E9C.description1}"
+				""
+				"{gto.hv.quests.2047831C46210E9C.description2}"
 			]
 			id: "2047831C46210E9C"
 			subtitle: "{gto.hv.quests.2047831C46210E9C.subtitle}"
@@ -1841,6 +1829,7 @@
 			]
 			icon: "gtmthings:hv_wireless_energy_receive_cover"
 			id: "1A1DFCA1157441FF"
+			shape: "pentagon"
 			tasks: [{
 				id: "3B6013F3584A59AA"
 				title: "{gto.hv.quests.1A1DFCA1157441FF.tasks.3B6013F3584A59AA.title}"
