@@ -1144,8 +1144,6 @@
 				"往&6航天服&r内通入氧气——就把&6航天服&r当成桶，从AE里面舀就行了"
 				""
 				"&2宇&6航&9服&e可&d以&b染&4色&r，不会影响任务提交"
-				""
-				"[\"\",{\"text\": \"前往\",\"color\":\"yellow\"},{\"text\": \"研究的奥秘\",\"color\":\"yellow\",\"underlined\": true,\"clickEvent\": {\"action\": \"change_page\",\"value\": \"07B002E74C48D580\"}},{\"text\": \"以获取更多知识！\",\"color\":\"yellow\"}]"
 			]
 			id: "4331EEF3BA9799FD"
 			shape: "hexagon"
