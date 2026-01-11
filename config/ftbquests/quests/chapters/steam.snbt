@@ -105,6 +105,15 @@
 			x: 4.285714285714292d
 			y: 7.0d
 		}
+		{
+			dependency: "056EC4E6FAF614B7"
+			height: 1.0d
+			image: "botania:block/alfheim_portal_swirl"
+			rotation: 45.0d
+			width: 1.0d
+			x: 6.75d
+			y: -2.0d
+		}
 	]
 	order_index: 1
 	quest_links: [
@@ -166,6 +175,8 @@
 				"以及，不要堵塞&4排气口&r，用你的扳手调整它"
 				""
 				"&416mb/t&r的&6蒸汽&r就足够了"
+				""
+				"&o&7如果你是专家模式，低压机器还有额外50%耗能惩罚"
 			]
 			id: "05F4015974079225"
 			shape: "hexagon"
@@ -312,7 +323,7 @@
 			description: [
 				"如果你觉得你的低压蒸汽熔炉还不够，在此隆重介绍：&6蒸汽熔炼熔炉&r！"
 				""
-				"它有&48并行&r，换而言之就是可以同时运行&58个相同的配方&r，但它并没有&e跨配方&r的功能"
+				"它有&48并行&r，换而言之就是可以同时运行&e8个相同的配方&r，但它并不能同时运行不同的配方"
 				""
 				"即便单个配方的处理时间是小机器的1.5倍，但速度依然&a非常快&r！"
 				""
@@ -1068,7 +1079,7 @@
 				""
 				"蒸汽自动化的关键是提供稳定的燃料来源，以及注意供应足够多的水"
 				""
-				"&6温馨提示：&r基本所有的锅炉&e在温度达到水的沸点且干烧的情况下&r再次通入&b水&r都会&4爆炸&r"
+				"&6温馨提示：&r基本所有的锅炉&e在温度达到水的沸点且干烧&r的情况下通入&b水&r都会&4爆炸&r"
 			]
 			icon: "gtceu:high_pressure_hazard_sign_block"
 			id: "7BCD49717F8FAD65"
@@ -1416,7 +1427,7 @@
 		{
 			dependencies: ["27F4D9739FE33A02"]
 			description: [
-				"有了钢锭，你现在可以制作&a高压蒸汽机器&r，它们的效率是低压版本的&c2倍&r，但同时也消耗更多&6蒸汽&r"
+				"有了钢锭，你现在可以制作&a高压蒸汽机器&r，它们的效率是低压版本的&c2倍&r，但同时每秒也消耗更多&6蒸汽&r"
 				""
 				"而&6高压锅炉&r可以获得比&6普通锅炉&r更高的产出，从2倍到3倍不止，建议查看EMI以及个人基地的&1实际情况&r进行考量"
 			]
@@ -1699,6 +1710,7 @@
 			hide_until_deps_visible: true
 			icon: "ad_astra:steel_ingot"
 			id: "768C5C35D4D80AA8"
+			optional: true
 			rewards: [{
 				count: 640
 				id: "7EBB79C0367AA913"
@@ -1723,6 +1735,7 @@
 			hide_until_deps_visible: true
 			icon: "ad_astra:steel_ingot"
 			id: "67B18FEE6862343A"
+			optional: true
 			rewards: [{
 				count: 192
 				id: "46F770A3703044A4"
@@ -1745,6 +1758,7 @@
 			hide_until_deps_visible: true
 			icon: "minecraft:glass"
 			id: "276CCDB305FFBE2F"
+			optional: true
 			tasks: [
 				{
 					id: "034A9FC1F952CE05"
@@ -1768,6 +1782,7 @@
 			hide_until_deps_visible: true
 			icon: "gtceu:rubber_plate"
 			id: "0D362285B6842681"
+			optional: true
 			rewards: [{
 				count: 128
 				id: "0F7C5A542401D23F"
@@ -1809,6 +1824,7 @@
 			hide_until_deps_visible: true
 			icon: "gtceu:vacuum_tube"
 			id: "22DB1B2207221445"
+			optional: true
 			rewards: [{
 				count: 64
 				id: "6882BC21B2B869A0"
@@ -1859,6 +1875,7 @@
 			hide_until_deps_visible: true
 			icon: "gtceu:wrought_iron_ingot"
 			id: "23CFCF3063B640F4"
+			optional: true
 			rewards: [{
 				count: 192
 				id: "6A882C417EDBCFD5"
@@ -1883,6 +1900,7 @@
 			hide_until_deps_visible: true
 			icon: "gtceu:vacuum_tube"
 			id: "189F5A3799E88B5C"
+			optional: true
 			rewards: [{
 				count: 12
 				id: "38937A3B4C30A419"
@@ -1894,7 +1912,7 @@
 				id: "36D8ED5B3F6252B7"
 				type: "checkmark"
 			}]
-			title: "钢补助&e（普通）&r"
+			title: "真空管补助&e（普通）&r"
 			x: 17.0d
 			y: 0.0d
 		}
@@ -1946,6 +1964,182 @@
 			title: "望泵止渴"
 			x: -9.0d
 			y: -0.75d
+		}
+		{
+			dependencies: [
+				"298BEC345930429A"
+				"575D68EF05B5BCC3"
+				"056EC4E6FAF614B7"
+			]
+			description: [
+				"[\"你可以开始着手发展\",{ \"text\": \"AE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5FCFE3D6B36CC409\" } },\"了！\"]"
+				""
+				"简单模式的AE配方没有魔改，因此请忽略在LV和HV章节的AE相关任务"
+				""
+				"非专家模式默认&c无频道数量限制&r，不需要接入&6ME控制器&r，只需要确保为当前网络提供足够的能量即可"
+				""
+				"可以使用&6ME控制器&r来替代&6能源接收器&r，但后期可能会因为加载过多频道造成额外的延迟，请斟酌使用控制器"
+				""
+				"&o&7如果你还不会AE，请尽快寻找教程快速入门。本包无需精通AE，但至少需要了解基本使用方法。"
+			]
+			hide_until_deps_visible: true
+			icon: "ae2:energy_acceptor"
+			id: "09D7A6A14D532993"
+			optional: true
+			rewards: [{
+				id: "386B745450A4F5A1"
+				item: "ae2:network_tool"
+				team_reward: false
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "没有频道的AE真好"
+			tasks: [
+				{
+					id: "137BE452DFCD6905"
+					item: "ae2:energy_acceptor"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3D376F185EAFF268"
+					type: "checkmark"
+				}
+			]
+			title: "应用能源起步&a（简单）&r"
+			x: 6.75d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"298BEC345930429A"
+				"056EC4E6FAF614B7"
+			]
+			disable_toast: true
+			hide_until_deps_visible: true
+			icon_scale: 0.1d
+			id: "575D68EF05B5BCC3"
+			optional: true
+			shape: "none"
+			size: 0.1d
+			tasks: [{
+				id: "7B0E57503CAA3ABC"
+				stat: "minecraft:jump"
+				type: "stat"
+				value: 1
+			}]
+			x: 9.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["24C53B5FF515ACAC"]
+			description: [
+				"当你准备尝试使用蒸汽多方块机器的时候，别忘了放置对应的仓室！"
+				""
+				"- &6蒸汽流体输入/输出仓&r：用于输入和输出流体"
+				"- &6蒸汽输入/输出总线&r：用于输入和输出物品"
+				""
+				"- &6蒸汽输入仓&r：将蒸汽作为能源输入机器"
+				"- &6蒸汽排气仓&r：排放机器的废气， 仓室前方不能放置方块"
+			]
+			icon: "gtceu:steam_input_bus"
+			id: "4276738FE46AC021"
+			shape: "circle"
+			size: 1.0d
+			tasks: [
+				{
+					id: "63875864EE49FB02"
+					item: "gtocore:steam_fluid_input_hatch"
+					type: "item"
+				}
+				{
+					id: "025636970CE4BECE"
+					item: "gtocore:steam_fluid_output_hatch"
+					type: "item"
+				}
+				{
+					id: "11DB84DB6E053745"
+					item: "gtceu:steam_input_bus"
+					type: "item"
+				}
+				{
+					id: "65623021FDE01672"
+					item: "gtceu:steam_output_bus"
+					type: "item"
+				}
+				{
+					id: "5FB7F0EA71E41996"
+					item: "gtceu:steam_input_hatch"
+					type: "item"
+				}
+				{
+					id: "3245D33598158683"
+					item: "gtocore:steam_vent_hatch"
+					type: "item"
+				}
+			]
+			title: "多方块蒸汽机器仓室指南"
+			x: -11.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["24C53B5FF515ACAC"]
+			description: ["你也可以使用来自pipez的管道来物流"]
+			hide_dependency_lines: true
+			id: "4CE96E5E2F84EBBF"
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "另一种管道"
+			tasks: [{
+				id: "689D8B704C3BFEAD"
+				item: "pipez:item_pipe"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["24C53B5FF515ACAC"]
+			description: ["你也可以使用来自pipez的管道来物流"]
+			hide_dependency_lines: true
+			id: "326B9B0D222A6E3B"
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "另一种管道"
+			tasks: [{
+				id: "0035A70B1F459E33"
+				item: "pipez:fluid_pipe"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["24C53B5FF515ACAC"]
+			description: [
+				"在游戏中，默认情况下2mb蒸汽=1EU，你的蒸汽机器消耗蒸汽以及蒸汽发电都会遵循这个规则"
+				""
+				"低压机器工作所有配方都需要2x耗时，不过每秒消耗的蒸汽会减少50%"
+				""
+				"高压机器回归正常的耗时和耗能，因此低压和高压运行配方需要的蒸汽总量是不变的"
+				""
+				"多方块机器在tooltips中标注的额外耗时同时会让你运行配方需要的蒸汽总量也变多"
+				""
+				"专家模式下低压机器还有额外50%的耗能惩罚"
+			]
+			hide_dependency_lines: true
+			icon: "gtceu:steam_bucket"
+			id: "4673E95F6374C7AC"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [{
+				id: "748F5AD5C79B2FC5"
+				type: "checkmark"
+			}]
+			title: "蒸汽驱动"
+			x: 2.0d
+			y: 0.0d
 		}
 	]
 	subtitle: ["Tier0-Steam"]

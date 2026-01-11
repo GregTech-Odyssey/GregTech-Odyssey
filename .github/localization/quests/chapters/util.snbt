@@ -466,6 +466,77 @@
 			x: 8.5d
 			y: 0.0d
 		}
+		{
+			id: "28C9BF5C59F5F723"
+			invisible: true
+			tasks: [
+				{
+					d: 2
+					id: "5684B78CDFAC0B11"
+					optional_task: true
+					type: "gtocore:gtodifficulty"
+				}
+				{
+					d: 3
+					id: "44C43852590C5A3F"
+					optional_task: true
+					type: "gtocore:gtodifficulty"
+				}
+			]
+			title: "{gto.util.quests.28C9BF5C59F5F723.title}"
+			x: 6.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["056EC4E6FAF614B7"]
+			description: ["{gto.util.quests.354F44C38AF0268D.description0}"]
+			hide_until_deps_visible: true
+			id: "354F44C38AF0268D"
+			tasks: [{
+				id: "7D80201B469071C7"
+				item: "ae2:inscriber"
+				type: "item"
+			}]
+			title: "{gto.util.quests.354F44C38AF0268D.title}"
+			x: -5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"0BC456B4331C09F5"
+				"056EC4E6FAF614B7"
+				"0C85F6611B7A1FCE"
+			]
+			description: ["{gto.util.quests.66AA197AB2675421.description0}"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "66AA197AB2675421"
+			tasks: [{
+				id: "78CAA92EDED9B281"
+				item: "gtocore:me_wildcard_pattern_buffer"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"0BC456B4331C09F5"
+				"28C9BF5C59F5F723"
+				"187C5D9C4BFCFD35"
+				"18E4BD0C2EDCBDF2"
+			]
+			description: ["{gto.util.quests.3826E92A98E87DF1.description0}"]
+			hide_until_deps_visible: true
+			id: "3826E92A98E87DF1"
+			tasks: [{
+				id: "4EF8F52DACFE0560"
+				item: "gtocore:me_wildcard_pattern_buffer"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 6.0d
+		}
 	]
 	title: "{gto.util.title}"
 }

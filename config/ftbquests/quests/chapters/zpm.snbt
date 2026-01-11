@@ -393,7 +393,10 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["19134C6F6A115AEE"]
+			dependencies: [
+				"19134C6F6A115AEE"
+				"2947C7CBDC544496"
+			]
 			description: [
 				"先别急着庆祝，你还有一半的路没走呢"
 				""
@@ -621,7 +624,7 @@
 		{
 			dependencies: ["005535C2AAA38997"]
 			description: [
-				"霜原星的&6羊&r概率掉落，你可以用灵魂瓶抓一只回来刷"
+				"霜原星的&6羊&r概率掉落"
 				""
 				"需要&e倍增&r产线，主要作为&a增殖&r各种细胞的原材料"
 			]
@@ -821,7 +824,11 @@
 				"2CBDC8B5C9C32530"
 			]
 			dependency_requirement: "one_completed"
-			description: ["可以通过&6粒子对撞&r获得，也可以通过&6大型虚空采矿场&r挖取&6凯金化合物&r然后处理获得"]
+			description: [
+				"可以通过&6粒子对撞&r获得，也可以通过&6大型虚空采矿场&r挖取&6凯金化合物&r然后处理获得"
+				""
+				"不过无论如何获得你都需要&6三钛线圈&r"
+			]
 			id: "26167AFECA871925"
 			tasks: [{
 				id: "0DD236AADC72F7E6"
@@ -975,7 +982,6 @@
 			dependencies: ["26167AFECA871925"]
 			description: ["全新的反应堆，仍在测试阶段"]
 			id: "4520F6658FC37F85"
-			optional: true
 			size: 1.0d
 			tasks: [{
 				id: "22B316DD32F2AF97"
@@ -988,7 +994,6 @@
 		{
 			dependencies: ["4520F6658FC37F85"]
 			id: "36A7AE94EDBE45C2"
-			optional: true
 			tasks: [{
 				id: "2AE711CD2EE2EFC4"
 				item: "gtocore:light_emitting_charged_suspicious_waste_dust"
@@ -1001,7 +1006,6 @@
 			dependencies: ["36A7AE94EDBE45C2"]
 			description: ["只在&6终极电容&r和&6空间站高能转换调配仓&r中作为原材料"]
 			id: "49C45F55F5DF8BFC"
-			optional: true
 			tasks: [{
 				id: "7378BC1E4E25C4DC"
 				item: "gtocore:etrium_dust"
@@ -1056,7 +1060,7 @@
 		}
 		{
 			dependencies: ["24F1061AFD1BFEB2"]
-			description: ["占地更大，速度更快的冶炼冷却机器，允许安装&6并行仓&r（终于！）和至多&a8个&r&6能源仓&r"]
+			description: ["占地更大，速度更快的冶炼冷却机器，允许安装&6并行仓&r&o（终于！）&r，&6加速仓&r和至多&a8个&r&6能源仓&r"]
 			icon: "gtocore:orbital_smelting_facility"
 			id: "3AD590B74363891F"
 			tasks: [{

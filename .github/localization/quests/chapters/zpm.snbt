@@ -393,7 +393,10 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["19134C6F6A115AEE"]
+			dependencies: [
+				"19134C6F6A115AEE"
+				"2947C7CBDC544496"
+			]
 			description: [
 				"{gto.zpm.quests.19B07E541BE74686.description0}"
 				""
@@ -821,7 +824,11 @@
 				"2CBDC8B5C9C32530"
 			]
 			dependency_requirement: "one_completed"
-			description: ["{gto.zpm.quests.26167AFECA871925.description0}"]
+			description: [
+				"{gto.zpm.quests.26167AFECA871925.description0}"
+				""
+				"{gto.zpm.quests.26167AFECA871925.description1}"
+			]
 			id: "26167AFECA871925"
 			tasks: [{
 				id: "0DD236AADC72F7E6"
@@ -975,7 +982,6 @@
 			dependencies: ["26167AFECA871925"]
 			description: ["{gto.zpm.quests.4520F6658FC37F85.description0}"]
 			id: "4520F6658FC37F85"
-			optional: true
 			size: 1.0d
 			tasks: [{
 				id: "22B316DD32F2AF97"
@@ -988,7 +994,6 @@
 		{
 			dependencies: ["4520F6658FC37F85"]
 			id: "36A7AE94EDBE45C2"
-			optional: true
 			tasks: [{
 				id: "2AE711CD2EE2EFC4"
 				item: "gtocore:light_emitting_charged_suspicious_waste_dust"
@@ -1001,7 +1006,6 @@
 			dependencies: ["36A7AE94EDBE45C2"]
 			description: ["{gto.zpm.quests.49C45F55F5DF8BFC.description0}"]
 			id: "49C45F55F5DF8BFC"
-			optional: true
 			tasks: [{
 				id: "7378BC1E4E25C4DC"
 				item: "gtocore:etrium_dust"

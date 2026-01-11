@@ -23,6 +23,13 @@
 			x: 10.0d
 			y: 4.5d
 		}
+		{
+			id: "6A50E54C7709F718"
+			linked_quest: "2D899AFE07E20FEF"
+			shape: "hexagon"
+			x: -8.0d
+			y: 6.0d
+		}
 	]
 	quests: [
 		{
@@ -414,8 +421,15 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["030007178B83809E"]
-			description: ["许多配方有&e线圈等级&r的要求。有了&6坎塔尔合金线圈&r你才能烧制出&6硅锭&r"]
+			dependencies: [
+				"030007178B83809E"
+				"2D899AFE07E20FEF"
+			]
+			description: [
+				"许多配方有&e线圈等级&r的要求。有了&6坎塔尔合金线圈&r你才能烧制出&6硅锭&r"
+				""
+				"&6液态铜&r是无法通过提取机提取的，如果你还没有&6液化炉&r，是时候造一台了"
+			]
 			id: "58FBD21AFE9272CA"
 			shape: "hexagon"
 			tasks: [{
@@ -1263,6 +1277,7 @@
 			hide_until_deps_visible: true
 			icon: "gtceu:mv_electric_motor"
 			id: "7DBC3868363B971B"
+			optional: true
 			rewards: [
 				{
 					count: 32
@@ -1313,6 +1328,7 @@
 			hide_until_deps_visible: true
 			icon: "gtceu:advanced_integrated_circuit"
 			id: "06AD4784071F6B2F"
+			optional: true
 			rewards: [
 				{
 					count: 32
@@ -1350,6 +1366,7 @@
 			hide_until_deps_visible: true
 			icon: "gtceu:stainless_steel_ingot"
 			id: "49C87F47E2920611"
+			optional: true
 			rewards: [{
 				count: 320
 				id: "769DA2AA2276DE44"
@@ -1426,6 +1443,7 @@
 			hide_until_deps_visible: true
 			icon: "gtceu:polyethylene_plate"
 			id: "20D2FDD034D5A14E"
+			optional: true
 			rewards: [{
 				count: 256
 				id: "1B5610616F949F8D"
@@ -1460,6 +1478,7 @@
 			hide_until_deps_visible: true
 			icon: "gtceu:mv_electric_motor"
 			id: "1181BA1C31DA3FC8"
+			optional: true
 			rewards: [{
 				count: 24
 				id: "0DA24711EEB1CE4E"
@@ -1483,6 +1502,7 @@
 			hide_until_deps_visible: true
 			icon: "gtceu:stainless_steel_ingot"
 			id: "25EF18650F2C069E"
+			optional: true
 			rewards: [{
 				count: 56
 				id: "172DFB2401419DF3"
@@ -1507,6 +1527,7 @@
 			hide_until_deps_visible: true
 			icon: "gtceu:advanced_integrated_circuit"
 			id: "2E8860AF6354FFE3"
+			optional: true
 			rewards: [
 				{
 					count: 8

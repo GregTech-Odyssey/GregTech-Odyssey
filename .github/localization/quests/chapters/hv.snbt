@@ -502,6 +502,7 @@
 			id: "6DAF9DE9EAC4B63B"
 			shape: "diamond"
 			size: 1.5d
+			subtitle: "{gto.hv.quests.6DAF9DE9EAC4B63B.subtitle}"
 			tasks: [{
 				id: "0117D2837C1AF5FF"
 				item: {
@@ -570,6 +571,8 @@
 				"{gto.hv.quests.7329A824F8F1CDFF.description2}"
 				""
 				"{gto.hv.quests.7329A824F8F1CDFF.description3}"
+				""
+				"{gto.hv.quests.7329A824F8F1CDFF.description4}"
 			]
 			id: "7329A824F8F1CDFF"
 			shape: "hexagon"
@@ -647,34 +650,17 @@
 				"{gto.hv.quests.310210D2AD9515E3.description3}"
 			]
 			id: "310210D2AD9515E3"
-			rewards: [
-				{
-					id: "606F980D21B6DDAE"
-					item: {
-						Count: 1
-						id: "gtceu:prospector.hv"
-						tag: {
-							Charge: 1600000L
-						}
+			rewards: [{
+				id: "606F980D21B6DDAE"
+				item: {
+					Count: 1
+					id: "gtceu:prospector.hv"
+					tag: {
+						Charge: 1600000L
 					}
-					type: "item"
 				}
-				{
-					id: "679F3B93D7B00914"
-					item: {
-						Count: 1
-						id: "avaritia:infinity_totem"
-						tag: {
-							Damage: 98
-							RepairCost: 0
-							display: {
-								Name: "{\"text\":\"员工生活质量保障证(一次性)\"}"
-							}
-						}
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			shape: "gear"
 			size: 2.0d
 			subtitle: "{gto.hv.quests.310210D2AD9515E3.subtitle}"
@@ -695,6 +681,8 @@
 				"{gto.hv.quests.74349E8491A86E55.description0}"
 				""
 				"{gto.hv.quests.74349E8491A86E55.description1}"
+				""
+				"{gto.hv.quests.74349E8491A86E55.description2}"
 			]
 			id: "74349E8491A86E55"
 			tasks: [{
@@ -710,6 +698,7 @@
 				"74349E8491A86E55"
 				"2047831C46210E9C"
 			]
+			dependency_requirement: "one_completed"
 			id: "6FC9EDD193E0BCE7"
 			tasks: [{
 				id: "4FED5CCF723D7B2B"
@@ -1155,8 +1144,6 @@
 				"{gto.hv.quests.4331EEF3BA9799FD.description2}"
 				""
 				"{gto.hv.quests.4331EEF3BA9799FD.description3}"
-				""
-				"[\"\", {\"color\": \"yellow\", \"translate\": \"gto.hv.quests.4331EEF3BA9799FD.description4.rich_text0\"}, {\"color\": \"yellow\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"07B002E74C48D580\"}, \"translate\": \"gto.hv.quests.4331EEF3BA9799FD.description4.rich_text1\"}, {\"color\": \"yellow\", \"translate\": \"gto.hv.quests.4331EEF3BA9799FD.description4.rich_text2\"}]"
 			]
 			id: "4331EEF3BA9799FD"
 			shape: "hexagon"
@@ -1659,6 +1646,8 @@
 				"{gto.hv.quests.2047831C46210E9C.description0}"
 				""
 				"{gto.hv.quests.2047831C46210E9C.description1}"
+				""
+				"{gto.hv.quests.2047831C46210E9C.description2}"
 			]
 			id: "2047831C46210E9C"
 			subtitle: "{gto.hv.quests.2047831C46210E9C.subtitle}"
@@ -1838,6 +1827,7 @@
 			]
 			icon: "gtmthings:hv_wireless_energy_receive_cover"
 			id: "1A1DFCA1157441FF"
+			shape: "pentagon"
 			tasks: [{
 				id: "3B6013F3584A59AA"
 				title: "{gto.hv.quests.1A1DFCA1157441FF.tasks.3B6013F3584A59AA.title}"
@@ -1851,6 +1841,7 @@
 			description: ["{gto.hv.quests.16EE71F334BFA71C.description0}"]
 			hide_until_deps_visible: true
 			id: "16EE71F334BFA71C"
+			optional: true
 			subtitle: "{gto.hv.quests.16EE71F334BFA71C.subtitle}"
 			tasks: [{
 				id: "15778C79ACA4E657"
@@ -2032,6 +2023,54 @@
 			}]
 			x: -6.5d
 			y: -8.25d
+		}
+		{
+			dependencies: [
+				"056EC4E6FAF614B7"
+				"5D828A5258BFF11F"
+			]
+			description: ["{gto.hv.quests.7370500E4120BD65.description0}"]
+			hide_until_deps_visible: true
+			icon: "gtceu:cleanroom"
+			id: "7370500E4120BD65"
+			optional: true
+			rewards: [
+				{
+					id: "6FDDC16890F1EE76"
+					item: "gtceu:cleanroom"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "6F691A4202BB5E43"
+					item: "gtceu:filter_casing"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "36FE50544142340E"
+				type: "checkmark"
+			}]
+			title: "{gto.hv.quests.7370500E4120BD65.title}"
+			x: -4.75d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7E963A64B5EB7C20"]
+			disable_toast: true
+			hide_dependent_lines: true
+			icon_scale: 0.1d
+			id: "6041423EA806DE41"
+			shape: "none"
+			size: 0.1d
+			tasks: [{
+				id: "341EB87A5768BFA5"
+				stat: "minecraft:jump"
+				type: "stat"
+				value: 1
+			}]
+			x: -7.0d
+			y: 5.5d
 		}
 	]
 	subtitle: ["{gto.hv.subtitle0}"]

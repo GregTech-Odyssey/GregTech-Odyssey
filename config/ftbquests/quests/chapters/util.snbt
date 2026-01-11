@@ -466,6 +466,77 @@
 			x: 8.5d
 			y: 0.0d
 		}
+		{
+			id: "28C9BF5C59F5F723"
+			invisible: true
+			tasks: [
+				{
+					d: 2
+					id: "5684B78CDFAC0B11"
+					optional_task: true
+					type: "gtocore:gtodifficulty"
+				}
+				{
+					d: 3
+					id: "44C43852590C5A3F"
+					optional_task: true
+					type: "gtocore:gtodifficulty"
+				}
+			]
+			title: "普通＋专家"
+			x: 6.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["056EC4E6FAF614B7"]
+			description: ["使用压印器压印AE电路板"]
+			hide_until_deps_visible: true
+			id: "354F44C38AF0268D"
+			tasks: [{
+				id: "7D80201B469071C7"
+				item: "ae2:inscriber"
+				type: "item"
+			}]
+			title: "压印器&a（简单）&r"
+			x: -5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"0BC456B4331C09F5"
+				"056EC4E6FAF614B7"
+				"0C85F6611B7A1FCE"
+			]
+			description: ["直接在EMI里搜索\"任何\"就能看到通配符，拖进样板即可。不要漏了虚拟物品！"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "66AA197AB2675421"
+			tasks: [{
+				id: "78CAA92EDED9B281"
+				item: "gtocore:me_wildcard_pattern_buffer"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"0BC456B4331C09F5"
+				"28C9BF5C59F5F723"
+				"187C5D9C4BFCFD35"
+				"18E4BD0C2EDCBDF2"
+			]
+			description: ["直接在EMI里搜索\"任何\"就能看到通配符，拖进样板即可。不要漏了虚拟物品！"]
+			hide_until_deps_visible: true
+			id: "3826E92A98E87DF1"
+			tasks: [{
+				id: "4EF8F52DACFE0560"
+				item: "gtocore:me_wildcard_pattern_buffer"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 6.0d
+		}
 	]
 	title: "辅助章节"
 }

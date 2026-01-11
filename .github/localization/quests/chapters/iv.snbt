@@ -1178,6 +1178,8 @@
 				"{gto.iv.quests.388D743C6BA5D995.description0}"
 				""
 				"{gto.iv.quests.388D743C6BA5D995.description1}"
+				""
+				"{gto.iv.quests.388D743C6BA5D995.description2}"
 			]
 			hide_dependency_lines: true
 			id: "388D743C6BA5D995"
@@ -1248,6 +1250,7 @@
 			hide_until_deps_visible: true
 			icon: "gtceu:assembly_line"
 			id: "72D4F4A7A9BB037F"
+			optional: true
 			subtitle: "{gto.iv.quests.72D4F4A7A9BB037F.subtitle}"
 			tasks: [{
 				id: "618C6DAA95D3235A"
@@ -1317,6 +1320,7 @@
 			hide_until_deps_visible: true
 			icon: "gtceu:assembly_line"
 			id: "3D02255CCA6D5812"
+			optional: true
 			subtitle: "{gto.iv.quests.3D02255CCA6D5812.subtitle}"
 			tasks: [{
 				id: "3BADB98E652EDA7F"

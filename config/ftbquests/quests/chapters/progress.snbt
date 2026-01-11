@@ -67,12 +67,20 @@
 		}
 		{
 			description: ["本章节展示所有线圈方块与电路板收集。显示每个阶段制作的电路板。"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftblibrary:textures/gui/rgbcolorwheel.png"
+				}
+			}
 			id: "29E7BC532470B05E"
+			optional: true
 			subtitle: "里程碑收集"
 			tasks: [{
-				id: "152ED3F2E8640C11"
+				id: "220285F062914EAE"
 				title: "里程碑"
-				type: "custom"
+				type: "checkmark"
 			}]
 			x: -2.5d
 			y: -17.0d

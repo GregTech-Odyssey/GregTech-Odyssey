@@ -1018,7 +1018,7 @@
 		{
 			dependencies: ["2BD46F9D8A842B4A"]
 			description: [
-				"IV时代解锁了大量的&e多方块机器&r，将你的单方块机器升级为大批量加工巨兽吧！"
+				"IV时代解锁了大量的&e多方块机器&r，这些机器可以安装&6并行仓&r，&6加速仓&r和至多&a8个&r&6能源仓&r。将你的单方块机器升级为大批量加工巨兽吧！"
 				""
 				"[ \"详见\", { \"text\": \"大批量加工\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"68C24A1ED361D607\" } }, \"章节\" ]"
 			]
@@ -1178,6 +1178,8 @@
 				"跨维度传无线电"
 				""
 				"注意搭建时需要在&e每个&r需要无线电的维度都搭建一个（除了无线能源塔所在的维度），能够使用的&e最高电压&r取决于其上安装的&6整体框架&r"
+				""
+				"&o&7如果你需要一些哭泣的黑曜石，可以去看看黑曜石的tooltips"
 			]
 			hide_dependency_lines: true
 			id: "388D743C6BA5D995"
@@ -1248,6 +1250,7 @@
 			hide_until_deps_visible: true
 			icon: "gtceu:assembly_line"
 			id: "72D4F4A7A9BB037F"
+			optional: true
 			subtitle: "简单模式下，装配线无需有序输入！"
 			tasks: [{
 				id: "618C6DAA95D3235A"
@@ -1296,7 +1299,7 @@
 		}
 		{
 			dependencies: ["18C15CA29316062F"]
-			description: ["继续提升蒸汽机器的配方电压，解锁更多次数的超频"]
+			description: ["继续提升蒸汽机器的配方电压一级，解锁更多次数的超频"]
 			id: "6B6658EFC9A57BD7"
 			optional: true
 			shape: "diamond"
@@ -1317,6 +1320,7 @@
 			hide_until_deps_visible: true
 			icon: "gtceu:assembly_line"
 			id: "3D02255CCA6D5812"
+			optional: true
 			subtitle: "专家模式下，装配线流体也需要有序输入！"
 			tasks: [{
 				id: "3BADB98E652EDA7F"

@@ -112,6 +112,8 @@
 				"    如果你遇到困难，记得看看它们"
 				"-  &6&l 八边形边框：补助&r&r"
 				"    根据难度赠送的额外奖励"
+				""
+				"此外，还有部分任务为可选任务，你可以根据自己的需求完成"
 			]
 			icon: "ftbquests:book"
 			id: "131CFAF95CFC993E"
@@ -269,7 +271,7 @@
 			description: [
 				"我们的WIKI:"
 				""
-				"{ \"text\": \"https://wiki.gtodyssey.com/\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"open_url\", \"value\": \"https://wiki.gtodyssey.com/\" } }"
+				"{ \"text\": \"https://gtodyssey.com/\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"open_url\", \"value\": \"https://wiki.gtodyssey.com/\" } }"
 				""
 				"你可以在WIKI上查找文档和指南！"
 			]

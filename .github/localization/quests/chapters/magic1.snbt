@@ -4143,7 +4143,7 @@
 				item: "gtocore:manasteel_casing"
 				type: "item"
 			}]
-			x: 12.75d
+			x: 12.25d
 			y: 3.5d
 		}
 		{
@@ -4154,7 +4154,7 @@
 				item: "gtocore:lv_mana_assembler"
 				type: "item"
 			}]
-			x: 12.75d
+			x: 12.25d
 			y: 5.5d
 		}
 		{
@@ -4621,7 +4621,7 @@
 				item: "gtocore:lv_mana_machine_hull"
 				type: "item"
 			}]
-			x: 12.75d
+			x: 12.25d
 			y: 4.5d
 		}
 		{
@@ -4639,6 +4639,18 @@
 			}]
 			x: 18.0d
 			y: -1.5d
+		}
+		{
+			dependencies: ["70C5A902C0D26628"]
+			description: ["{gto.magic1.quests.1A738965BDCBFD19.description0}"]
+			id: "1A738965BDCBFD19"
+			tasks: [{
+				id: "64709B773759CA78"
+				item: "gtocore:exp_obelisk"
+				type: "item"
+			}]
+			x: 13.25d
+			y: 3.5d
 		}
 	]
 	subtitle: ["{gto.magic1.subtitle0}"]

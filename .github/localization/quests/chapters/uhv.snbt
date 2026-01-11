@@ -24,6 +24,26 @@
 			x: -3.5d
 			y: -3.0d
 		}
+		{
+			color: 16711935
+			dependency: "28C9BF5C59F5F723"
+			height: 1.0d
+			image: "ftbquests:block/barrier_open"
+			order: 1
+			rotation: 45.0d
+			width: 1.0d
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependency: "28C9BF5C59F5F723"
+			height: 1.0d
+			image: "xtonesreworked:block/bitt/12"
+			rotation: 45.0d
+			width: 1.0d
+			x: 1.5d
+			y: -3.0d
+		}
 	]
 	order_index: 11
 	quest_links: [
@@ -45,7 +65,7 @@
 		{
 			id: "0D117230D47B6D59"
 			linked_quest: "2F3D8DD85C6D4F74"
-			x: 0.5d
+			x: -0.5d
 			y: -3.0d
 		}
 		{
@@ -78,6 +98,13 @@
 			x: 10.5d
 			y: -1.0d
 		}
+		{
+			id: "721046DD4A75F46F"
+			linked_quest: "3826E92A98E87DF1"
+			shape: "diamond"
+			x: 1.5d
+			y: -3.0d
+		}
 	]
 	quests: [
 		{
@@ -95,7 +122,7 @@
 				item: "gtceu:netherite_dust"
 				type: "item"
 			}]
-			x: 0.5d
+			x: -0.5d
 			y: 2.5d
 		}
 		{
@@ -112,7 +139,7 @@
 				item: "gtocore:energetic_netherite_dust"
 				type: "item"
 			}]
-			x: 0.5d
+			x: -0.5d
 			y: 1.0d
 		}
 		{
@@ -130,7 +157,7 @@
 				item: "gtceu:uhv_energy_input_hatch"
 				type: "item"
 			}]
-			x: 0.5d
+			x: -0.5d
 			y: -1.0d
 		}
 		{
@@ -750,7 +777,7 @@
 				item: "gtocore:integral_framework_uhv"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 5.5d
 			y: -3.0d
 		}
 		{
@@ -765,7 +792,7 @@
 				item: "gtocore:quicksilver_bucket"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 3.5d
 			y: -3.0d
 		}
 		{
@@ -1078,6 +1105,18 @@
 			}]
 			x: -5.5d
 			y: 12.5d
+		}
+		{
+			dependencies: ["08DEEC16D9580930"]
+			id: "2758746D9A154230"
+			shape: "diamond"
+			tasks: [{
+				id: "5613DC0C54EE7ADB"
+				item: "gtocore:mantle_crusher"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 14.5d
 		}
 	]
 	subtitle: ["{gto.uhv.subtitle0}"]

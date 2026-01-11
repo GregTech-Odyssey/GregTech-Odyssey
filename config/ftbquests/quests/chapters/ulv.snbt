@@ -39,6 +39,7 @@
 		{
 			id: "4A5A58465AF8F47B"
 			linked_quest: "020E8B707A8CF794"
+			shape: "hexagon"
 			x: 0.0d
 			y: 1.5d
 		}
@@ -228,6 +229,8 @@
 				"流体校准器可以精确控制输入水的&6速率&r与被覆盖&6容器内流体容量&r，避免降温过快无法&c升温&r"
 				""
 				"热传感器可以检测机器温度阈值发出&c红石信号&r"
+				""
+				"煤炭块加热的速度是煤炭的&a1/4&r，同时加热时间是煤炭的&a4倍&r。它的加热速度（&a1K/s&r）还刚好与机器工作时每秒消耗的热量相同"
 				""
 				"别忘了在EMI查看&e多方块结构&r，点击P可以在&6蒸馏塔&r的&b最小&r和&b最大&r长度之间切换"
 			]
@@ -507,8 +510,6 @@
 				""
 				"若温度过高则在加热器面前放置一个方块防止加热器过热，温度下降到合适的区间之后将该方块移走，这个活可以交给&a粘性活塞&r"
 				""
-				"移走方块之后加热器会重新运行配方，所以会消耗燃料，因此在热量达到你所选择的区间之前最好用一个热值高的燃料&6持续运行&r，然后再换热值低的燃料"
-				""
 				"最后的最后：温度一到达800K就会&4瞬间爆炸&r"
 			]
 			icon: "gtocore:coal_slurry_bucket"
@@ -544,6 +545,8 @@
 				"水煤气需要在1000K以上发生反应"
 				""
 				"你需要将锅炉提前预热"
+				""
+				"在处理水煤气的时候请保持锅炉干烧，锅炉此时不会产出蒸汽，并且在预热后加入水会导致锅炉爆炸"
 			]
 			icon: "gtocore:water_gas_bucket"
 			id: "7CBA1A5CCD21DA69"
@@ -955,7 +958,7 @@
 		}
 		{
 			dependencies: ["561F5AACF437E7C5"]
-			description: ["以目前的生产力处理与存储这些原油产物是比较麻烦的，可以到AE存储出来后进行处理,不会太久"]
+			description: ["以目前的生产力处理与存储这些原油产物是比较麻烦的，可以到AE存储出来后进行处理，不会太久"]
 			id: "620EF24B5E685E7A"
 			subtitle: "并非无用"
 			tasks: [
@@ -984,8 +987,8 @@
 				}
 			]
 			title: "剩下的三个家伙"
-			x: 10.5d
-			y: -3.5d
+			x: 8.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["561F5AACF437E7C5"]
@@ -1011,7 +1014,6 @@
 		}
 		{
 			dependencies: [
-				"03A894C7D1178791"
 				"498D24745D509B73"
 				"4E41199ACDB910C1"
 			]
@@ -1138,6 +1140,7 @@
 				"其中的一个面会与其他的五个面看上去不同，此面为输出端，其余面均为输入端"
 			]
 			id: "1EFAEF7D0E6700A9"
+			optional: true
 			shape: "diamond"
 			subtitle: "万能的转换器"
 			tasks: [{
@@ -1149,40 +1152,9 @@
 			y: -5.0d
 		}
 		{
-			dependencies: ["0FBE7318DFBA700E"]
-			description: [
-				"厌倦了私人飞机的旅行？"
-				""
-				"试试&4Iron&r &eMan&r！"
-				""
-				"&7如何补充燃料：右击你的燃料储存桶&r"
-				""
-				"现阶段你能使用的燃料只有含硫轻燃油"
-			]
-			id: "62F451C62752F3B7"
-			optional: true
-			rewards: [{
-				id: "13E1F79C96D46594"
-				item: "farmersdelight:honey_glazed_ham"
-				type: "item"
-			}]
-			tasks: [{
-				id: "313A119A9CB2D43A"
-				item: {
-					Count: 1
-					id: "gtceu:liquid_fuel_jetpack"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: 5.0d
-			y: 2.85d
-		}
-		{
 			dependencies: [
 				"1CDBE91D2ACD9111"
 				"020E8B707A8CF794"
-				"3CAA3A282666590F"
 			]
 			description: [
 				"如果你还没有造&6蒸汽分离机&r，是时候造一台了"
@@ -1319,8 +1291,8 @@
 				item: "gtceu:programmed_circuit"
 				type: "item"
 			}]
-			x: 6.5d
-			y: 1.5d
+			x: 5.0d
+			y: 2.85d
 		}
 		{
 			dependencies: ["4678D97346E46529"]
@@ -1344,6 +1316,7 @@
 			hide_until_deps_visible: true
 			icon: "gtocore:ulv_electric_motor"
 			id: "03E94BB0F0B3ED2E"
+			optional: true
 			rewards: [
 				{
 					count: 16
@@ -1393,6 +1366,7 @@
 			hide_until_deps_visible: true
 			icon: "gtceu:polyethylene_plate"
 			id: "7F95D501ADA3E661"
+			optional: true
 			rewards: [{
 				count: 128
 				id: "3F375135B8844521"
@@ -1415,7 +1389,7 @@
 				""
 				"哪怕是再微弱的电那都是电，所以注意不要被裸露的导线电死了"
 				""
-				"从现在起，你可以开始着手降低材料的造价，或许将&6原始线材轧机&r、&6原始车床&r作为你的新时代新目标是不错的选择？"
+				"从现在起，你可以开始着手降低材料的造价，或许将&6原始线材轧机&r、&6原始车床&r作为你新时代的开端是不错的选择？"
 			]
 			id: "4678D97346E46529"
 			shape: "gear"
@@ -1438,6 +1412,7 @@
 			hide_until_deps_visible: true
 			icon: "gtceu:basic_electronic_circuit"
 			id: "35CBD9D27781F929"
+			optional: true
 			rewards: [{
 				count: 16
 				id: "272BCD53EE7CB4F6"
@@ -1450,8 +1425,8 @@
 				type: "checkmark"
 			}]
 			title: "芯片补助&a（简单）&r"
-			x: 6.5d
-			y: -1.0d
+			x: 6.0d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -1470,7 +1445,10 @@
 			y: -6.5d
 		}
 		{
-			dependencies: ["4C484BF84C3809FB"]
+			dependencies: [
+				"4C484BF84C3809FB"
+				"03A894C7D1178791"
+			]
 			description: ["目前只能使用化学反应釜，在HV能做&6脱硫机&r来进行脱硫"]
 			icon: "gtceu:naphtha_bucket"
 			id: "4E41199ACDB910C1"
@@ -1488,8 +1466,8 @@
 				}
 			]
 			title: "脱硫时间到"
-			x: 12.5d
-			y: -2.0d
+			x: 10.5d
+			y: -3.5d
 		}
 		{
 			dependencies: [
@@ -1499,6 +1477,7 @@
 			hide_until_deps_visible: true
 			icon: "gtocore:ulv_electric_motor"
 			id: "5ECEF5305E8551FA"
+			optional: true
 			rewards: [
 				{
 					count: 8
@@ -1548,6 +1527,7 @@
 			hide_until_deps_visible: true
 			icon: "gtceu:polyethylene_plate"
 			id: "497726A4A6246369"
+			optional: true
 			rewards: [{
 				count: 24
 				id: "45B19B233BBD5B7D"
@@ -1571,6 +1551,7 @@
 			hide_until_deps_visible: true
 			icon: "gtceu:basic_electronic_circuit"
 			id: "2907ABEAAFEF3BC1"
+			optional: true
 			rewards: [{
 				count: 6
 				id: "09C47351E0D8CF6D"
@@ -1584,23 +1565,7 @@
 			}]
 			title: "芯片补助&e（普通）&r"
 			x: 6.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["020E8B707A8CF794"]
-			disable_toast: true
-			icon_scale: 0.25d
-			id: "3CAA3A282666590F"
-			shape: "none"
-			size: 0.25d
-			tasks: [{
-				id: "6BB5C6582B682E8A"
-				stat: "minecraft:jump"
-				type: "stat"
-				value: 1
-			}]
-			x: 0.0d
-			y: 1.5d
+			y: 1.0d
 		}
 	]
 	subtitle: ["Tier0.5-ULV"]

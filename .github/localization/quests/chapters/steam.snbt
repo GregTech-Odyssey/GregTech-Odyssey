@@ -105,6 +105,15 @@
 			x: 4.285714285714292d
 			y: 7.0d
 		}
+		{
+			dependency: "056EC4E6FAF614B7"
+			height: 1.0d
+			image: "botania:block/alfheim_portal_swirl"
+			rotation: 45.0d
+			width: 1.0d
+			x: 6.75d
+			y: -2.0d
+		}
 	]
 	order_index: 1
 	quest_links: [
@@ -166,6 +175,8 @@
 				"{gto.steam.quests.05F4015974079225.description2}"
 				""
 				"{gto.steam.quests.05F4015974079225.description3}"
+				""
+				"{gto.steam.quests.05F4015974079225.description4}"
 			]
 			id: "05F4015974079225"
 			shape: "hexagon"
@@ -1702,6 +1713,7 @@
 			hide_until_deps_visible: true
 			icon: "ad_astra:steel_ingot"
 			id: "768C5C35D4D80AA8"
+			optional: true
 			rewards: [{
 				count: 640
 				id: "7EBB79C0367AA913"
@@ -1726,6 +1738,7 @@
 			hide_until_deps_visible: true
 			icon: "ad_astra:steel_ingot"
 			id: "67B18FEE6862343A"
+			optional: true
 			rewards: [{
 				count: 192
 				id: "46F770A3703044A4"
@@ -1748,6 +1761,7 @@
 			hide_until_deps_visible: true
 			icon: "minecraft:glass"
 			id: "276CCDB305FFBE2F"
+			optional: true
 			tasks: [
 				{
 					id: "034A9FC1F952CE05"
@@ -1771,6 +1785,7 @@
 			hide_until_deps_visible: true
 			icon: "gtceu:rubber_plate"
 			id: "0D362285B6842681"
+			optional: true
 			rewards: [{
 				count: 128
 				id: "0F7C5A542401D23F"
@@ -1812,6 +1827,7 @@
 			hide_until_deps_visible: true
 			icon: "gtceu:vacuum_tube"
 			id: "22DB1B2207221445"
+			optional: true
 			rewards: [{
 				count: 64
 				id: "6882BC21B2B869A0"
@@ -1862,6 +1878,7 @@
 			hide_until_deps_visible: true
 			icon: "gtceu:wrought_iron_ingot"
 			id: "23CFCF3063B640F4"
+			optional: true
 			rewards: [{
 				count: 192
 				id: "6A882C417EDBCFD5"
@@ -1886,6 +1903,7 @@
 			hide_until_deps_visible: true
 			icon: "gtceu:vacuum_tube"
 			id: "189F5A3799E88B5C"
+			optional: true
 			rewards: [{
 				count: 12
 				id: "38937A3B4C30A419"
@@ -1949,6 +1967,182 @@
 			title: "{gto.steam.quests.2D630430259F9131.title}"
 			x: -9.0d
 			y: -0.75d
+		}
+		{
+			dependencies: [
+				"298BEC345930429A"
+				"575D68EF05B5BCC3"
+				"056EC4E6FAF614B7"
+			]
+			description: [
+				"[\"\", {\"translate\": \"gto.steam.quests.09D7A6A14D532993.description0.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"5FCFE3D6B36CC409\"}, \"translate\": \"gto.steam.quests.09D7A6A14D532993.description0.rich_text1\"}, {\"translate\": \"gto.steam.quests.09D7A6A14D532993.description0.rich_text2\"}]"
+				""
+				"{gto.steam.quests.09D7A6A14D532993.description1}"
+				""
+				"{gto.steam.quests.09D7A6A14D532993.description2}"
+				""
+				"{gto.steam.quests.09D7A6A14D532993.description3}"
+				""
+				"{gto.steam.quests.09D7A6A14D532993.description4}"
+			]
+			hide_until_deps_visible: true
+			icon: "ae2:energy_acceptor"
+			id: "09D7A6A14D532993"
+			optional: true
+			rewards: [{
+				id: "386B745450A4F5A1"
+				item: "ae2:network_tool"
+				team_reward: false
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "{gto.steam.quests.09D7A6A14D532993.subtitle}"
+			tasks: [
+				{
+					id: "137BE452DFCD6905"
+					item: "ae2:energy_acceptor"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3D376F185EAFF268"
+					type: "checkmark"
+				}
+			]
+			title: "{gto.steam.quests.09D7A6A14D532993.title}"
+			x: 6.75d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"298BEC345930429A"
+				"056EC4E6FAF614B7"
+			]
+			disable_toast: true
+			hide_until_deps_visible: true
+			icon_scale: 0.1d
+			id: "575D68EF05B5BCC3"
+			optional: true
+			shape: "none"
+			size: 0.1d
+			tasks: [{
+				id: "7B0E57503CAA3ABC"
+				stat: "minecraft:jump"
+				type: "stat"
+				value: 1
+			}]
+			x: 9.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["24C53B5FF515ACAC"]
+			description: [
+				"{gto.steam.quests.4276738FE46AC021.description0}"
+				""
+				"{gto.steam.quests.4276738FE46AC021.description1}"
+				"{gto.steam.quests.4276738FE46AC021.description2}"
+				""
+				"{gto.steam.quests.4276738FE46AC021.description3}"
+				"{gto.steam.quests.4276738FE46AC021.description4}"
+			]
+			icon: "gtceu:steam_input_bus"
+			id: "4276738FE46AC021"
+			shape: "circle"
+			size: 1.0d
+			tasks: [
+				{
+					id: "63875864EE49FB02"
+					item: "gtocore:steam_fluid_input_hatch"
+					type: "item"
+				}
+				{
+					id: "025636970CE4BECE"
+					item: "gtocore:steam_fluid_output_hatch"
+					type: "item"
+				}
+				{
+					id: "11DB84DB6E053745"
+					item: "gtceu:steam_input_bus"
+					type: "item"
+				}
+				{
+					id: "65623021FDE01672"
+					item: "gtceu:steam_output_bus"
+					type: "item"
+				}
+				{
+					id: "5FB7F0EA71E41996"
+					item: "gtceu:steam_input_hatch"
+					type: "item"
+				}
+				{
+					id: "3245D33598158683"
+					item: "gtocore:steam_vent_hatch"
+					type: "item"
+				}
+			]
+			title: "{gto.steam.quests.4276738FE46AC021.title}"
+			x: -11.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["24C53B5FF515ACAC"]
+			description: ["{gto.steam.quests.4CE96E5E2F84EBBF.description0}"]
+			hide_dependency_lines: true
+			id: "4CE96E5E2F84EBBF"
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "{gto.steam.quests.4CE96E5E2F84EBBF.subtitle}"
+			tasks: [{
+				id: "689D8B704C3BFEAD"
+				item: "pipez:item_pipe"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["24C53B5FF515ACAC"]
+			description: ["{gto.steam.quests.326B9B0D222A6E3B.description0}"]
+			hide_dependency_lines: true
+			id: "326B9B0D222A6E3B"
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "{gto.steam.quests.326B9B0D222A6E3B.subtitle}"
+			tasks: [{
+				id: "0035A70B1F459E33"
+				item: "pipez:fluid_pipe"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["24C53B5FF515ACAC"]
+			description: [
+				"{gto.steam.quests.4673E95F6374C7AC.description0}"
+				""
+				"{gto.steam.quests.4673E95F6374C7AC.description1}"
+				""
+				"{gto.steam.quests.4673E95F6374C7AC.description2}"
+				""
+				"{gto.steam.quests.4673E95F6374C7AC.description3}"
+				""
+				"{gto.steam.quests.4673E95F6374C7AC.description4}"
+			]
+			hide_dependency_lines: true
+			icon: "gtceu:steam_bucket"
+			id: "4673E95F6374C7AC"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [{
+				id: "748F5AD5C79B2FC5"
+				type: "checkmark"
+			}]
+			title: "{gto.steam.quests.4673E95F6374C7AC.title}"
+			x: 2.0d
+			y: 0.0d
 		}
 	]
 	subtitle: ["{gto.steam.subtitle0}"]
