@@ -875,6 +875,10 @@
 				"{gto.lv.quests.58434872C6EC4E32.description1}"
 				""
 				"{gto.lv.quests.58434872C6EC4E32.description2}"
+				""
+				"{gto.lv.quests.58434872C6EC4E32.description3}"
+				""
+				"{gto.lv.quests.58434872C6EC4E32.description4}"
 			]
 			icon: "gtceu:maintenance_hatch"
 			id: "58434872C6EC4E32"
@@ -1891,22 +1895,6 @@
 			}]
 			x: -1.0d
 			y: 6.5d
-		}
-		{
-			dependencies: ["35347DE9C34F2825"]
-			description: ["{gto.lv.quests.0CE8B89D975482A8.description0}"]
-			id: "0CE8B89D975482A8"
-			tasks: [{
-				id: "70E861B7CF91BC34"
-				item: {
-					Count: 1
-					id: "gtceu:nightvision_goggles"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: -3.0d
-			y: -9.5d
 		}
 		{
 			dependencies: ["06534664971F6E68"]

@@ -2283,6 +2283,25 @@
 			x: 6.5d
 			y: 2.0d
 		}
+		{
+			dependencies: ["3BC9246D8FD4B649"]
+			description: ["{gto.main-stoneage.quests.0BBC0B63C2FB2486.description0}"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "gtceu:nightvision_goggles"
+				tag: { }
+			}
+			id: "0BBC0B63C2FB2486"
+			subtitle: "{gto.main-stoneage.quests.0BBC0B63C2FB2486.subtitle}"
+			tasks: [{
+				id: "31E519C621A9793E"
+				type: "checkmark"
+			}]
+			title: "{gto.main-stoneage.quests.0BBC0B63C2FB2486.title}"
+			x: -1.5d
+			y: 1.5d
+		}
 	]
 	subtitle: ["{gto.main-stoneage.subtitle0}"]
 	title: "{gto.main-stoneage.title}"
