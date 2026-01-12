@@ -631,7 +631,7 @@
 				item: "gtocore:precision_steam_mechanism"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 2.0d
 			y: 7.5d
 		}
 		{
@@ -2645,6 +2645,43 @@
 			}]
 			x: 3.0d
 			y: -4.0d
+		}
+		{
+			dependencies: [
+				"056EC4E6FAF614B7"
+				"5D439C42DEFEC912"
+				"0D26129C7015E4D1"
+			]
+			description: [
+				"{gto.lv.quests.6C6C0101F0002AE7.description0}"
+				""
+				"{gto.lv.quests.6C6C0101F0002AE7.description1}"
+				""
+				"{gto.lv.quests.6C6C0101F0002AE7.description2}"
+			]
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:block/nether_portal"
+				}
+			}
+			id: "6C6C0101F0002AE7"
+			optional: true
+			rewards: [{
+				id: "79E0D2B52AD6FEB7"
+				item: "gtocore:void_transporter"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "1A0CEB0558BC53AD"
+				type: "checkmark"
+			}]
+			title: "{gto.lv.quests.6C6C0101F0002AE7.title}"
+			x: 0.5d
+			y: 8.0d
 		}
 	]
 	subtitle: ["{gto.lv.subtitle0}"]

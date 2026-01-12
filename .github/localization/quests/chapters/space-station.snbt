@@ -180,8 +180,8 @@
 				item: "gtocore:orbital_smelting_facility"
 				type: "item"
 			}]
-			x: 10.0d
-			y: -10.5d
+			x: 10.5d
+			y: -10.0d
 		}
 		{
 			dependencies: [
@@ -194,8 +194,8 @@
 				item: "gtocore:orbital_fine_materials_factory"
 				type: "item"
 			}]
-			x: 15.5d
-			y: -6.5d
+			x: 14.5d
+			y: -7.0d
 		}
 		{
 			dependencies: [
@@ -302,6 +302,30 @@
 			}]
 			x: 15.9d
 			y: -9.85d
+		}
+		{
+			dependencies: ["58EC0AFA9742164A"]
+			description: ["{gto.space-station.quests.2B1C70663401671D.description0}"]
+			id: "2B1C70663401671D"
+			shape: "gear"
+			tasks: [{
+				id: "5FFEF315F04A4569"
+				item: "gtocore:space_elevator_connector_module"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["58EC0AFA9742164A"]
+			id: "5CE4BE04445E095E"
+			tasks: [{
+				id: "205868D26B34E64E"
+				item: "gtocore:space_bio_research_module"
+				type: "item"
+			}]
+			x: 16.5d
+			y: -5.5d
 		}
 	]
 	subtitle: ["{gto.space-station.subtitle0}"]

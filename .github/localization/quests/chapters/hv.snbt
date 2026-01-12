@@ -1341,7 +1341,11 @@
 		}
 		{
 			dependencies: ["2FFBF824CC836741"]
-			description: ["{gto.hv.quests.4D1E1C19CF9CD579.description0}"]
+			description: [
+				"{gto.hv.quests.4D1E1C19CF9CD579.description0}"
+				""
+				"{gto.hv.quests.4D1E1C19CF9CD579.description1}"
+			]
 			icon: "minecraft:crying_obsidian"
 			id: "4D1E1C19CF9CD579"
 			shape: "hexagon"

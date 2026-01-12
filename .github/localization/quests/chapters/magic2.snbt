@@ -1102,6 +1102,8 @@
 				"{gto.magic2.quests.26B836339560E939.description0}"
 				""
 				"{gto.magic2.quests.26B836339560E939.description1}"
+				""
+				"{gto.magic2.quests.26B836339560E939.description2}"
 			]
 			id: "26B836339560E939"
 			shape: "octagon"
@@ -2192,8 +2194,8 @@
 				}
 				type: "item"
 			}]
-			x: 24.785714285714285d
-			y: 6.683333333333337d
+			x: 24.89285714285714d
+			y: 6.708333333333336d
 		}
 		{
 			dependencies: ["57038022345C40A6"]
@@ -2271,6 +2273,30 @@
 			title: "{gto.magic2.quests.57038022345C40A6.title}"
 			x: 16.0d
 			y: 9.0d
+		}
+		{
+			dependencies: ["117117BBBF9B4B21"]
+			id: "403FABDABC4FED4C"
+			shape: "diamond"
+			tasks: [{
+				id: "0371CE2D45D0F510"
+				item: "gtocore:cosmic_celestial_spire_of_convergence"
+				type: "item"
+			}]
+			x: 19.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["18E4BD0C2EDCBDF2"]
+			description: ["{gto.magic2.quests.117117BBBF9B4B21.description0}"]
+			id: "117117BBBF9B4B21"
+			tasks: [{
+				id: "102312D3E715EF8E"
+				item: "gtocore:resonance_flower"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 0.0d
 		}
 	]
 	subtitle: ["{gto.magic2.subtitle0}"]

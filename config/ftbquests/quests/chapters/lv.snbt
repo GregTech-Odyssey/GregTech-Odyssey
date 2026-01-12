@@ -631,7 +631,7 @@
 				item: "gtocore:precision_steam_mechanism"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 2.0d
 			y: 7.5d
 		}
 		{
@@ -2642,6 +2642,43 @@
 			}]
 			x: 3.0d
 			y: -4.0d
+		}
+		{
+			dependencies: [
+				"056EC4E6FAF614B7"
+				"5D439C42DEFEC912"
+				"0D26129C7015E4D1"
+			]
+			description: [
+				"在简单模式下，你可以提前进入虚空和超平坦世界"
+				""
+				"虚空传送器没有电压需求，需要充满能量后才可使用。&616ALV能源仓&r刚好满足它的最低功率需求"
+				""
+				"虚空传送器的具体使用方法请参考位于HV章节的虚空传送器任务"
+			]
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:block/nether_portal"
+				}
+			}
+			id: "6C6C0101F0002AE7"
+			optional: true
+			rewards: [{
+				id: "79E0D2B52AD6FEB7"
+				item: "gtocore:void_transporter"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "1A0CEB0558BC53AD"
+				type: "checkmark"
+			}]
+			title: "前往虚空和超平坦世界&a（简单）&r"
+			x: 0.5d
+			y: 8.0d
 		}
 	]
 	subtitle: ["Tier1-LV"]
