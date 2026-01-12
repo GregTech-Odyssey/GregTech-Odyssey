@@ -2464,7 +2464,7 @@ metafile = true
 
 [[files]]
 file = "mods/applied-botanics-addon.pw.toml"
-hash = "02bbd73a916b25f404b28c69fbe3ee113c84563b6306f825f1a3583a0b4a04f3"
+hash = "64ad6dacf8e6d1c70567b2119054ab358ff0556feea8037d51379727cef641db"
 metafile = true
 
 [[files]]
@@ -2489,7 +2489,7 @@ metafile = true
 
 [[files]]
 file = "mods/ars-meteorites.pw.toml"
-hash = "b1271ea9eeeac388076e270488fedaa8a4f14d60cbe6c3ad3e0ae8c381cb6e7a"
+hash = "1c8d506c00cde519088031e8396c0a8a4f2f164af3cdac2793946066f9889993"
 metafile = true
 
 [[files]]
@@ -2529,7 +2529,7 @@ metafile = true
 
 [[files]]
 file = "mods/balm.pw.toml"
-hash = "f8b6ef08945410e1341212a2723477487fb66a2c8fd67dd201433658791d298d"
+hash = "fe46309d954710019e07813bcdc6db2c775b07795f3628cb559610adcb129a9a"
 metafile = true
 
 [[files]]
@@ -2654,7 +2654,7 @@ metafile = true
 
 [[files]]
 file = "mods/doespotatotick.pw.toml"
-hash = "87b4bfae5f599610e8cb92c2184119a986db2ea1e0b9f5c5e8edc5d1d0c4dac0"
+hash = "211791b088bb542c60a98d12652a9ff2b5c236b43e5467aaeb85dfd7209a52c5"
 metafile = true
 
 [[files]]
@@ -2664,7 +2664,7 @@ metafile = true
 
 [[files]]
 file = "mods/duplicationless.pw.toml"
-hash = "5c2a84314b37f7a3d78a7f450db49beacb67befbcc494bab56d89934e07deb70"
+hash = "45d3711ec07503550f793caea24e6e102359b73d1235bae02649ed46d08c1587"
 metafile = true
 
 [[files]]
@@ -2878,8 +2878,8 @@ hash = "de8daafd1d37be086a988d6ff6934c5671dd9747e8edde1439a28f9723bf8217"
 metafile = true
 
 [[files]]
-file = "mods/gtocore-0.5.3.jar"
-hash = "db6f23589fc23d32be51d5ef1223911769871d65600036e10e2cb0162ed99180"
+file = "mods/gtocore-0.5.4.jar"
+hash = "10b7c81371eee66db96a8fcf536c345d6493ab6cc07e9edc1303962262f06995"
 
 [[files]]
 file = "mods/gtonativelib-1.0.jar"
@@ -2927,7 +2927,7 @@ metafile = true
 
 [[files]]
 file = "mods/just-enough-characters.pw.toml"
-hash = "ec80942b1ca265853f32cbc5990d9d79a76cfcf91c9c156b17798c427f618479"
+hash = "37ce2960850671772376066444932b97b50735b0598473b87ff9f6451202e65f"
 metafile = true
 
 [[files]]
@@ -2952,7 +2952,7 @@ metafile = true
 
 [[files]]
 file = "mods/ldlib.pw.toml"
-hash = "9d1a589574928cb35ff9ec5dc2a0ce361220cc2c662c5877699d94f49e373158"
+hash = "4607088e3d3dcfb763cfc6fe3d41ca0240b5a98c59c7263d855a671c222f0f14"
 metafile = true
 
 [[files]]
@@ -3022,7 +3022,7 @@ metafile = true
 
 [[files]]
 file = "mods/no-telemetry.pw.toml"
-hash = "8b64b765a0617e95977195b6366358cf77b08bf943530299878e3a4d93136941"
+hash = "ab7809ae37a8ebfb599a3c823f1bc9b4a87a1643051229b97817756d3fef2436"
 metafile = true
 
 [[files]]
@@ -3127,12 +3127,12 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "93123611f5de9f6c8b25e1fe2e1b7defdcf65810fe3aeb9aa8800e8ecfafa6a3"
+hash = "59531b6845af845357b965d3146a4b7e3510855f068a1ba43deb1bf9a24c4bdb"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "69dd7341ad086e0fa23bef3ba04237c4c74ea76800cf8289050b09eda3268c5c"
+hash = "41695846e6bf0278ea3391bf00ea71a647df5bee4e6a6d36d34186bac99605d0"
 metafile = true
 
 [[files]]
@@ -3153,11 +3153,6 @@ metafile = true
 [[files]]
 file = "mods/terrablender.pw.toml"
 hash = "fde3d3b1607636100e382dce1bba80ab4608ebfa1ef888a37b86bc8c7dcbafe5"
-metafile = true
-
-[[files]]
-file = "mods/terrific-trash-cans.pw.toml"
-hash = "7b96bd6fdf6bbb111a6c24651c64862a1126ccfe3cff861b1c9441389ba5bd42"
 metafile = true
 
 [[files]]
