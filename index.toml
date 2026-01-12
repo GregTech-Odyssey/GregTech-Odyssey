@@ -1306,7 +1306,7 @@ hash = "84254dc1e5a56ea70df6b16a2fb2620040592badae436c255997aaae84996d91"
 
 [[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/en_us.json"
-hash = "1653e6b99f08eec15c7c43b2feaaf5ac119131c63822c09aa22ba59037519136"
+hash = "f9fab9d5a7177528d976fb13b1127e1035d5c64f317fd55529539e2e2faf9ea9"
 
 [[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/ru_ru.json"
@@ -3204,7 +3204,3 @@ metafile = true
 file = "mods/yeetusexperimentus.pw.toml"
 hash = "36ee65c43a693265d23837bc1510a3d11fba343343b5d6e2f349fce5c16fe163"
 metafile = true
-
-[[files]]
-file = "pack.bat"
-hash = "f34f4e0549d1696d8fb5334cd07ac50a10cbe3753e52946968373222e57f616f"
