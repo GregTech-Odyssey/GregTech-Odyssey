@@ -1306,7 +1306,7 @@ hash = "84254dc1e5a56ea70df6b16a2fb2620040592badae436c255997aaae84996d91"
 
 [[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/en_us.json"
-hash = "f9fab9d5a7177528d976fb13b1127e1035d5c64f317fd55529539e2e2faf9ea9"
+hash = "1653e6b99f08eec15c7c43b2feaaf5ac119131c63822c09aa22ba59037519136"
 
 [[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/ru_ru.json"
@@ -2754,7 +2754,7 @@ metafile = true
 
 [[files]]
 file = "mods/fast-recipe-search.pw.toml"
-hash = "0c0cc36296cc7309fe75ca0ac070ef6370e86f8ec6016c2afac039c77cc25354"
+hash = "34bf48ef95977145472318cf9d05dd35d6f5cd89c8c02f687f523f1686537e7d"
 metafile = true
 
 [[files]]
@@ -2879,7 +2879,7 @@ metafile = true
 
 [[files]]
 file = "mods/gtocore-0.5.4.jar"
-hash = "10b7c81371eee66db96a8fcf536c345d6493ab6cc07e9edc1303962262f06995"
+hash = "85edb3cde486f6ff1b8a21f14b558a2557abe1f03a8aa6654702e0c45756ef4a"
 
 [[files]]
 file = "mods/gtonativelib-1.0.jar"
@@ -3204,3 +3204,7 @@ metafile = true
 file = "mods/yeetusexperimentus.pw.toml"
 hash = "36ee65c43a693265d23837bc1510a3d11fba343343b5d6e2f349fce5c16fe163"
 metafile = true
+
+[[files]]
+file = "pack.bat"
+hash = "f34f4e0549d1696d8fb5334cd07ac50a10cbe3753e52946968373222e57f616f"
