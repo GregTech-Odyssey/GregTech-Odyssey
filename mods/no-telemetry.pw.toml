@@ -1,12 +1,13 @@
 name = "No Telemetry"
-filename = "no-telemetry-1.9.0.jar"
+filename = "no-telemetry-1.10.0.jar"
 side = "client"
 
 [download]
 hash-format = "sha1"
-hash = "19545f40c8231fafdc183ea1c675ecbf3ecf025d"
-url = "https://edge.forgecdn.net/files/6201/294/no-telemetry-1.9.0.jar"
+hash = "3d52342f5825d01dda6661ef7116cdbacbe49746"
+mode = "metadata:curseforge"
 
+[update]
 [update.curseforge]
-file-id = 6201294
+file-id = 7436494
 project-id = 530816
