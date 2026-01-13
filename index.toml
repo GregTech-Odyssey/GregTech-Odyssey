@@ -673,6 +673,66 @@ file = "config/fallingleaves-client.toml"
 hash = "2cd017af6632239398b694fadf8191d6073cf39585549876cc682843f521ecb3"
 
 [[files]]
+file = "config/fancymenu/assets/bg.png"
+hash = "57ada7fac5201d06d2c6b518f69dce9b4a29996f97359eda0dafbd6ea63057fe"
+
+[[files]]
+file = "config/fancymenu/assets/button0.png"
+hash = "f99b03ec5a07ee9c28df72df52bb556786d539f2ffea957ada966f974dae6bf8"
+
+[[files]]
+file = "config/fancymenu/assets/button_pressed.png"
+hash = "3b0e4c589683d7dde09c94b36bc6dc9751172097cb7695a2a8a1ef0caf53f045"
+
+[[files]]
+file = "config/fancymenu/assets/logo.png"
+hash = "7eec5b3112a71d625deb6721f4e2d6508e8aaf818aa79e1e6c8c6541c0ec813c"
+
+[[files]]
+file = "config/fancymenu/assets/minecraft_gto.png"
+hash = "606f342e41d5e286591e81428fe4bbd43a3f646f92040dcd9019932ec4d2a8bf"
+
+[[files]]
+file = "config/fancymenu/custom_gui_screens.txt"
+hash = "ff492043eaf454c46e949d5eef32ece90cc5a19feb50a161dd29a43b5732c880"
+
+[[files]]
+file = "config/fancymenu/customizablemenus.txt"
+hash = "9f0ada5a7f0193d2d717d1c1736f545f5235c2597213731493b97488617ebbf2"
+
+[[files]]
+file = "config/fancymenu/customization/title_screen_layout.txt"
+hash = "bb4f995f40db4a01714778987761a313aaf16de21bf06d73caae12c9a5b4284c"
+
+[[files]]
+file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
+hash = "d4e66bc22fcfa56158ca7100017623c71b1437fb4722229b6e064e0a48a5f5de"
+
+[[files]]
+file = "config/fancymenu/legacy_checklist.txt"
+hash = "9a25d3dc708e43eabafce5479a13c02dae15bc7f673afb2745b8b2ba48a97dc0"
+
+[[files]]
+file = "config/fancymenu/normalized_scroll_screens.json"
+hash = "9bdd808b0e3e8a7fa3f0f3b543da5905e53cf20b5bceff2a8eac542d5fec56e1"
+
+[[files]]
+file = "config/fancymenu/options.txt"
+hash = "d400d80bcd1b6f2dfc45e6cec570f1a7742d77de71f020bfa34e694554101f46"
+
+[[files]]
+file = "config/fancymenu/ui_themes/dark.json"
+hash = "3f1263eaf693fdb6a315099b06797ac18830faa66c620916a80337a5082fd850"
+
+[[files]]
+file = "config/fancymenu/ui_themes/light.json"
+hash = "3fcfc5f9957fbb86aea846c9ad49a24f47ca709c523c4018b584668e38b72f41"
+
+[[files]]
+file = "config/fancymenu/user_variables.db"
+hash = "3d7d4cda73d6bde134a568ccbe4e8d2e7fbe701570012b71fa45acdb2258c823"
+
+[[files]]
 file = "config/farmersdelight-client.toml"
 hash = "e5f8f5743c23e6c1e569070d720f91e66495e8da03550a0d37d9a07c6d543014"
 
