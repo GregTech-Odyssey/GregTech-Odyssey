@@ -3946,7 +3946,7 @@
 			y: 15.5d
 		}
 		{
-			dependencies: ["4736D9B3A2EE6AD8"]
+			description: ["{gto.ae.quests.15CB5076FDDCAE6F.description0}"]
 			hide_dependency_lines: true
 			id: "15CB5076FDDCAE6F"
 			tasks: [{

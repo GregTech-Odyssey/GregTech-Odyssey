@@ -1688,7 +1688,7 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["7392F240AD330C1A"]
+			dependencies: ["1369B896AC811F03"]
 			icon: "gtceu:lv_battery_hull"
 			id: "35347DE9C34F2825"
 			tasks: [{
@@ -1703,7 +1703,7 @@
 				title: "{gto.lv.quests.35347DE9C34F2825.tasks.6FDA324398FF0AD2.title}"
 				type: "item"
 			}]
-			x: -1.0d
+			x: -2.5d
 			y: -7.0d
 		}
 		{
@@ -1714,7 +1714,7 @@
 				item: "gtceu:lv_battery_buffer_16x"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -4.5d
 			y: -5.5d
 		}
 		{
@@ -1787,7 +1787,7 @@
 				title: "{gto.lv.quests.45B0831447908EB0.tasks.211920065FF0E4C3.title}"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -4.5d
 			y: -7.5d
 		}
 		{
@@ -1830,7 +1830,7 @@
 				title: "{gto.lv.quests.66F113E14941337E.tasks.6E8F80F45CD1A614.title}"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -4.5d
 			y: -6.5d
 		}
 		{
@@ -1860,7 +1860,7 @@
 				item: "gtceu:prospector.lv"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -4.5d
 			y: -8.5d
 		}
 		{
@@ -2379,8 +2379,8 @@
 				type: "checkmark"
 			}]
 			title: "{gto.lv.quests.2C91F5919FE7444D.title}"
-			x: 6.5d
-			y: 4.0d
+			x: 5.5d
+			y: 4.5d
 		}
 		{
 			dependencies: [
@@ -2589,8 +2589,8 @@
 				type: "checkmark"
 			}]
 			title: "{gto.lv.quests.72844914477AB61B.title}"
-			x: 6.5d
-			y: 2.0d
+			x: 4.5d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -2682,6 +2682,18 @@
 			title: "{gto.lv.quests.6C6C0101F0002AE7.title}"
 			x: 0.5d
 			y: 8.0d
+		}
+		{
+			dependencies: ["7392F240AD330C1A"]
+			id: "1369B896AC811F03"
+			shape: "hexagon"
+			tasks: [{
+				id: "341D54153D54D732"
+				item: "gtceu:lv_canner"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -7.0d
 		}
 	]
 	subtitle: ["{gto.lv.subtitle0}"]
