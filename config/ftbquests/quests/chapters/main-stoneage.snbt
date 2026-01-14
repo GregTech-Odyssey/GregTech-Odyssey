@@ -295,6 +295,7 @@
 			icon: "minecraft:spruce_wood"
 			id: "3CF903DBC993F284"
 			invisible: true
+			optional: true
 			rewards: [
 				{
 					id: "0FD5C706556792C2"
@@ -1687,6 +1688,7 @@
 			icon: "minecraft:oak_sapling"
 			id: "06D038D098B3533F"
 			invisible: true
+			optional: true
 			rewards: [
 				{
 					id: "57915A5E96C6F441"
@@ -1890,7 +1892,11 @@
 		}
 		{
 			dependencies: ["67264EF0565CC030"]
-			description: ["销毁你的垃圾"]
+			description: [
+				"销毁你的垃圾"
+				""
+				"后面还能用来制作物质球和奇点"
+			]
 			id: "36ABEC62B0F6C71D"
 			rewards: [{
 				id: "70C0F724F8EF2B79"
@@ -1898,18 +1904,11 @@
 				type: "item"
 			}]
 			subtitle: "别丢错东西了"
-			tasks: [
-				{
-					id: "5F095539B1E545E4"
-					item: "terrific_trash_cans:fluid_trash_can"
-					type: "item"
-				}
-				{
-					id: "41110CE5D7A6642D"
-					item: "terrific_trash_cans:item_trash_can"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "2BCFF0375CAE346E"
+				item: "ae2:condenser"
+				type: "item"
+			}]
 			title: "垃圾桶"
 			x: 12.5d
 			y: 4.0d
@@ -1940,11 +1939,7 @@
 		}
 		{
 			dependencies: ["114AB458EFA11202"]
-			description: [
-				"你可以使用&e农夫乐事&r模组的&6砧板&r获得它，在这里你不能徒手分解花朵！"
-				""
-				"&o&7&m0.5.2版本可以&r"
-			]
+			description: ["你可以使用&e农夫乐事&r模组的&6砧板&r获得它，在这里你不能徒手分解花朵！"]
 			hide_dependency_lines: true
 			id: "07169625BC595BD3"
 			rewards: [{

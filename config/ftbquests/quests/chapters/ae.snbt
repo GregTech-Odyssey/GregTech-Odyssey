@@ -3946,7 +3946,7 @@
 			y: 15.5d
 		}
 		{
-			dependencies: ["4736D9B3A2EE6AD8"]
+			description: ["也可以当作垃圾桶用"]
 			hide_dependency_lines: true
 			id: "15CB5076FDDCAE6F"
 			tasks: [{
@@ -3973,7 +3973,7 @@
 			description: ["可以放置在&6量子网桥&r和&6无线终端&r中进行跨纬度通信"]
 			hide_dependent_lines: true
 			id: "176C374E1C0EA92F"
-			subtitle: "[-h^2/2m∇^2 + V(x,t)]ψ(x,t) = iht'ψ(x,t)"
+			subtitle: "[-(h^2/2m)∇^2 + V(x,t)]ψ(x,t) = ihψ_t(x,t)"
 			tasks: [{
 				count: 2L
 				id: "12D8D8792CFD04AC"
