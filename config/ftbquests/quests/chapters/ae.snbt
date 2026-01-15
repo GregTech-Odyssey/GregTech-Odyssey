@@ -1924,6 +1924,7 @@
 		}
 		{
 			dependencies: ["0A71F8193A3A39AE"]
+			description: ["它传输AE能量，但不传输AE频道，常用于隔开两个网络"]
 			id: "62583BF8F3AAE290"
 			tasks: [{
 				id: "38CA37F28FCBC3FC"
@@ -3973,7 +3974,7 @@
 			description: ["可以放置在&6量子网桥&r和&6无线终端&r中进行跨纬度通信"]
 			hide_dependent_lines: true
 			id: "176C374E1C0EA92F"
-			subtitle: "[-(h^2/2m)∇^2 + V(x,t)]ψ(x,t) = ihψ_t(x,t)"
+			subtitle: "&l[-(ħ^2/2m)∇^2 + V(r,t)]ψ(r,t) = iħψ_t(r,t)"
 			tasks: [{
 				count: 2L
 				id: "12D8D8792CFD04AC"
