@@ -673,8 +673,16 @@ file = "config/fallingleaves-client.toml"
 hash = "2cd017af6632239398b694fadf8191d6073cf39585549876cc682843f521ecb3"
 
 [[files]]
+file = "config/fancymenu/assets/3f2cd6ae-f4b7-433e-9249-40f059ccaffe.png"
+hash = "a31ea94782c13c78eb9647550c80bbeac5a1878acc44ce0b7e0486f65dc63b1f"
+
+[[files]]
 file = "config/fancymenu/assets/bg.png"
 hash = "57ada7fac5201d06d2c6b518f69dce9b4a29996f97359eda0dafbd6ea63057fe"
+
+[[files]]
+file = "config/fancymenu/assets/button.png"
+hash = "a31ea94782c13c78eb9647550c80bbeac5a1878acc44ce0b7e0486f65dc63b1f"
 
 [[files]]
 file = "config/fancymenu/assets/button0.png"
@@ -685,11 +693,35 @@ file = "config/fancymenu/assets/button_pressed.png"
 hash = "3b0e4c589683d7dde09c94b36bc6dc9751172097cb7695a2a8a1ef0caf53f045"
 
 [[files]]
+file = "config/fancymenu/assets/button_textures-1.png"
+hash = "b0f21b3a39089a6b670313c715b91ee0da399055891c2273f1a23fd3c5ef7393"
+
+[[files]]
+file = "config/fancymenu/assets/gto.png"
+hash = "57ada7fac5201d06d2c6b518f69dce9b4a29996f97359eda0dafbd6ea63057fe"
+
+[[files]]
+file = "config/fancymenu/assets/gto_title.png"
+hash = "47b5ee415e4ecf88ad89700b94b3754127788aed0ee162598006b58674057036"
+
+[[files]]
+file = "config/fancymenu/assets/hovered.png"
+hash = "cb1465584252978eede44377fe9b01e3b7c686c1a112ad4e59a37a6500ea9782"
+
+[[files]]
+file = "config/fancymenu/assets/lcongto.png"
+hash = "7eec5b3112a71d625deb6721f4e2d6508e8aaf818aa79e1e6c8c6541c0ec813c"
+
+[[files]]
 file = "config/fancymenu/assets/logo.png"
 hash = "7eec5b3112a71d625deb6721f4e2d6508e8aaf818aa79e1e6c8c6541c0ec813c"
 
 [[files]]
 file = "config/fancymenu/assets/minecraft_gto.png"
+hash = "606f342e41d5e286591e81428fe4bbd43a3f646f92040dcd9019932ec4d2a8bf"
+
+[[files]]
+file = "config/fancymenu/assets/minecraftgto.png"
 hash = "606f342e41d5e286591e81428fe4bbd43a3f646f92040dcd9019932ec4d2a8bf"
 
 [[files]]
@@ -702,7 +734,7 @@ hash = "a265a7a7ed4e91a1d0f457ae4b204a97f06b002a1bb5f3b48ae201d5b323192e"
 
 [[files]]
 file = "config/fancymenu/customization/title_screen_layout.txt"
-hash = "a750818248b5064c840546f67384556f93e9fd3e27682b1fa46d3361699dea70"
+hash = "7768a57f03651ce2ed6b6fc663574467d2bbc9ffd438a13c4bfcfc4e34d84592"
 
 [[files]]
 file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
@@ -2944,7 +2976,7 @@ metafile = true
 
 [[files]]
 file = "mods/gtocore-0.5.4.jar"
-hash = "7b9b8b8e1eacec7a2ee652b4fa93ed6780e5ab3d8e918bf4d4e46b664d8fde36"
+hash = "f48e4509c948bbfaa788a73a4be268448e2e5191b77dccc909ceefc2cef35234"
 
 [[files]]
 file = "mods/gtonativelib-1.0.jar"
