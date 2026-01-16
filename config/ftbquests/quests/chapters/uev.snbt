@@ -571,6 +571,46 @@
 			x: 6.0d
 			y: 1.0d
 		}
+		{
+			dependencies: ["7B3C0DB7C1F11692"]
+			id: "635BFF4E3FD9999F"
+			rewards: [
+				{
+					id: "6C7D29594A16F5B3"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:f"
+								id: "gtocore:spacetime_continuum"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "64B4F99485DCD02A"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:f"
+								id: "gtocore:dimension_allyshifted_super_fluid"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "03BC803CB275580F"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -6.0d
+		}
 	]
 	subtitle: ["Tier10-UEV"]
 	title: "12. 极超压(UEV)"

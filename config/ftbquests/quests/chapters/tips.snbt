@@ -248,12 +248,22 @@
 			description: [
 				"你可以在创建世界时更改难度，也可在mod配置里切换难度 （游戏菜单 > MOD > 搜索 GTOCore > 配置 > 游戏难度）"
 				""
+				"&a简单难度&r：&d新来的看看这里！&r简单模式专为新人设计：&e更强的发电机，未经修改的原版/AE配方与更弱的怪物&r，带来更轻松舒适的前期体验，助你完美完成入职计划！推荐给格雷科技或科技模组新手。"
+				""
+				"&b普通难度&r：&d正式员工来这里报到！&r普通模式提供最原汁原味的格雷游戏体验： &e正常的发电机和怪物，经过魔改的原版/AE配方&r，享受标准流畅的游戏流程。适合有格雷经验或熟练的科技包玩家，希望你顺利完成阶段考核！"
+				""
+				"&c专家难度&r：&d仅限老员工前来报到！&r专家模式开启更具挑战的征程：&eAE频道限制，更弱的发电机与产量更低的配方&r，充满“制作组诚意”的困难开局等你应战。仅推荐给本包通关玩家或资深挑战者——来证明你是一名优秀的格雷员工吧！"
+				""
+				"&e请注意，本包为&l&6格雷专家包&r&e——即使是简单难度，其挑战性依然高于多数科技整合包。&r"
+				"{@pagebreak}"
 				"难度的影响包括但不限于"
 				""
-				"·不同复杂度的合成配方与任务"
-				"·部分机器和能量单元的数值调整"
+				"·不同复杂度的合成配方"
+				"·部分机器和仓室的数值调整"
+				"·发电机和能量单元的数值调整"
 				"·AE频道限制"
-				"·任务奖励"
+				"·不同的任务指引和任务奖励"
+				"·不同强度的怪物"
 				""
 				"[ \"\", {\"text\":\"详细特性请查看\", \"color\":\"yellow\"}, { \"text\": \"简单普通专家模式特性指南\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"open_url\", \"value\": \"https://gtodyssey.com/zh-hans/整合包教学/官方文档/简单普通专家模式特性指南/\" } }]"
 				""
@@ -284,8 +294,6 @@
 				"&e你将永远处于该模式！&r"
 				""
 				"&o&7点击这个任务的检查标记并不会开启自我约束模式"
-				""
-				"&o&7本包的UEV+流程处于制作中状态，部分物品需要创造获取，若你开启自我约束模式，你最高只能到达UXV"
 			]
 			icon: "ae2:creative_item_cell"
 			id: "6E81629D88D0710E"
@@ -1060,8 +1068,8 @@
 				type: "checkmark"
 			}]
 			title: "遗漏提示？"
-			x: 4.5d
-			y: -8.0d
+			x: 8.0d
+			y: -7.5d
 		}
 		{
 			dependencies: [
@@ -1184,12 +1192,19 @@
 			description: [
 				"下界需要：HV阶段通过下界反应核前往"
 				""
-				"末地需要：通过探险找到十二颗不同的眼睛，详见末地创世mod"
+				"[\"末地需要：末地创世的十二颗不同的眼睛，详见\", { \"text\": \"魔法线\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"502826CBF91585C1\" } } ]"
 				""
 				"超平坦世界与虚空世界：HV阶段通过虚空传送器访问"
 				""
 				"其他星球和空间站：通过游戏进程中发射火箭解锁"
 			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:block/nether_portal"
+				}
+			}
 			id: "32C2735E505AB490"
 			shape: "pentagon"
 			size: 1.5d
@@ -1206,6 +1221,10 @@
 					id: "115F73668157C661"
 					optional_task: true
 					type: "dimension"
+				}
+				{
+					id: "12F564EF973725F2"
+					type: "checkmark"
 				}
 			]
 			title: "下界，末地，和其他维度"
@@ -1473,6 +1492,8 @@
 				"若你&c无法&r将研究数据放入数据访问仓，说明你的数据访问仓需要&e升级&r了。只有&e高级访问仓&r才能放入高级研究数据。"
 				""
 				"使用&6靶仓&r和&6源仓&r传递&e研究数据&r。"
+				"{@pagebreak}"
+				"部分&e维度聚焦激光蚀刻&r配方需要研究，研究需要的材料是&6光学闪存&r和研究物本体。"
 			]
 			hide_dependency_lines: true
 			icon: "gtceu:research_station"
@@ -1668,7 +1689,104 @@
 				type: "checkmark"
 			}]
 			x: 0.0d
-			y: 5.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["72C6B40B38D542BF"]
+			description: [
+				"除了铁傀儡农场，Easy Villagers还有很多好东西来帮助你度过前期"
+				""
+				"&o&7玻璃需要蒸汽时代才能制作"
+			]
+			hide_dependency_lines: true
+			id: "511995F72672A515"
+			tasks: [{
+				id: "6EA590611B4A00A9"
+				item: "easy_villagers:iron_farm"
+				type: "item"
+			}]
+			x: -2.25d
+			y: 4.5d
+		}
+		{
+			dependencies: ["45C8A2DF9C0E5473"]
+			description: ["维护消声仓时可自动调用皮带中的工具"]
+			hide_dependency_lines: true
+			id: "21EA1E3550BC1067"
+			rewards: [{
+				id: "3CE7814F88BCCAC4"
+				item: "toolbelt:pouch"
+				type: "item"
+			}]
+			tasks: [{
+				id: "371D46858FE37566"
+				item: "toolbelt:belt"
+				type: "item"
+			}]
+			x: -0.75d
+			y: 4.5d
+		}
+		{
+			dependencies: ["35347DE9C34F2825"]
+			description: ["吸附掉落物"]
+			icon: "gtceu:lv_item_magnet"
+			id: "044907E5A168CDAD"
+			tasks: [
+				{
+					id: "766BBD6D45DF8922"
+					item: "gtceu:lv_item_magnet"
+					type: "item"
+				}
+				{
+					id: "3DA523BC071995BE"
+					item: "sophisticatedbackpacks:magnet_upgrade"
+					type: "item"
+				}
+			]
+			x: 0.75d
+			y: 4.5d
+		}
+		{
+			dependencies: ["73479CC3BADD15F1"]
+			description: ["用于搬运GT单方块板条箱"]
+			id: "58EF3DA2C2E88C8A"
+			tasks: [{
+				id: "7BE2DC36CF716FDF"
+				item: "gtceu:basic_tape"
+				type: "item"
+			}]
+			x: 3.75d
+			y: 4.5d
+		}
+		{
+			description: ["这里有一些任务没提及的小工具"]
+			id: "067AC6B5D8167A97"
+			tasks: [{
+				id: "3BCF2AF3C340AF24"
+				title: "有用的工具"
+				type: "checkmark"
+			}]
+			x: -3.75d
+			y: 4.5d
+		}
+		{
+			dependencies: ["507807175748245C"]
+			icon: "gtocore:travel_staff"
+			id: "5649427DD8F599CE"
+			tasks: [
+				{
+					id: "7AF9FA442475FC26"
+					item: "gtocore:travel_staff"
+					type: "item"
+				}
+				{
+					id: "7C442891D0BCE5FF"
+					item: "gtocore:travel_anchor"
+					type: "item"
+				}
+			]
+			x: 2.25d
+			y: 4.5d
 		}
 	]
 	subtitle: ["Tips and Tricks"]

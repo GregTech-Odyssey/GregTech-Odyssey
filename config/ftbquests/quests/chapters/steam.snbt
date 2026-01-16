@@ -582,6 +582,7 @@
 			y: 8.5d
 		}
 		{
+			dependencies: ["6E2614839731BF0D"]
 			description: [
 				"&e石英砂&r可以通过研钵在工作台上生产，但&a燧石粉&r就不行了，你必须要在&6研磨机&r内完成"
 				""
@@ -591,6 +592,7 @@
 				""
 				"你的第一份&d玻璃粉&r肯定是工作台配方，而后面你就可以使用&6搅拌机&r来生产玻璃粉了"
 			]
+			hide_dependency_lines: true
 			id: "7F1CF6D7C0CA4DB2"
 			subtitle: "保护你的研钵！！"
 			tasks: [
@@ -1700,7 +1702,7 @@
 				}
 			]
 			x: -11.0d
-			y: 6.5d
+			y: 4.5d
 		}
 		{
 			dependencies: [
@@ -1865,7 +1867,7 @@
 			}]
 			title: "GT管道"
 			x: -11.0d
-			y: 4.5d
+			y: 6.5d
 		}
 		{
 			dependencies: [
@@ -2045,8 +2047,8 @@
 			]
 			icon: "gtceu:steam_input_bus"
 			id: "4276738FE46AC021"
-			shape: "circle"
-			size: 1.0d
+			shape: "pentagon"
+			size: 1.5d
 			tasks: [
 				{
 					id: "63875864EE49FB02"

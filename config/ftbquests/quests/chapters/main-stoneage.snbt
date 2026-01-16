@@ -869,7 +869,7 @@
 				}
 			]
 			title: "其他矿石"
-			x: 13.5d
+			x: 13.0d
 			y: 2.0d
 		}
 		{
@@ -1023,10 +1023,10 @@
 				"07169625BC595BD3"
 			]
 			description: [
-				"扳手：    右键点击可以&9&l设置GT机器的端口&r，而潜行右键点击可以&9&l旋转机器&r，也可以代替镐子破坏机器"
-				"螺丝刀：可以&9&l打开机器覆盖板"
-				"撬棍：     可以&9&l拆下覆盖板&r&r"
-				"剪线钳： 可以&9&l连接线缆"
+				"扳手：    右键点击可以&e&l设置GT机器的端口&r，而潜行右键点击可以&e&l旋转机器&r，也可以代替镐子破坏机器"
+				"螺丝刀：可以&e&l打开机器覆盖板"
+				"撬棍：     可以&e&l拆下覆盖板&r&r"
+				"剪线钳： 可以&e&l连接线缆"
 				""
 				"[ \"你可以查看提示章节的\", { \"text\": \"GT工具使用手册\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1A0EA7A29CFD830D\" } } ]"
 			]
@@ -1910,7 +1910,7 @@
 				type: "item"
 			}]
 			title: "垃圾桶"
-			x: 12.5d
+			x: 13.0d
 			y: 4.0d
 		}
 		{
@@ -1968,7 +1968,7 @@
 				}
 			]
 			title: "需要染料？"
-			x: 12.5d
+			x: 13.0d
 			y: 6.0d
 		}
 		{
@@ -2296,6 +2296,38 @@
 			title: "夜视"
 			x: -1.5d
 			y: 1.5d
+		}
+		{
+			dependencies: [
+				"4CC934314D14A5EA"
+				"30D4CC9142D59DBD"
+			]
+			description: [
+				"清空容器或者机器中的流体，&c不会返还"
+				""
+				"&o&7橡胶需要蒸汽时代才能制作"
+			]
+			id: "084A8DE8B1F5CF3E"
+			optional: true
+			rewards: [{
+				id: "15F0B6F1F8A00969"
+				item: "gtocore:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7FA79D88DAA47846"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:tools/plungers"
+					}
+				}
+				title: "任意搋子"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 8.0d
 		}
 	]
 	subtitle: ["Hello World!"]

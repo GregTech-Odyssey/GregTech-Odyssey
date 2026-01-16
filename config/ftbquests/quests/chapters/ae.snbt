@@ -1613,6 +1613,12 @@
 					optional_task: true
 					type: "item"
 				}
+				{
+					id: "4C04BA58D6FAC889"
+					item: "gtocore:tesseract_target_marker"
+					optional_task: true
+					type: "item"
+				}
 			]
 			title: "超立方效应的应用"
 			x: -19.0d
