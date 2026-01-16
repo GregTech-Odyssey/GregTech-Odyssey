@@ -1613,6 +1613,12 @@
 					optional_task: true
 					type: "item"
 				}
+				{
+					id: "4C04BA58D6FAC889"
+					item: "gtocore:tesseract_target_marker"
+					optional_task: true
+					type: "item"
+				}
 			]
 			title: "{gto.ae.quests.5F522D73AF5F1B2F.title}"
 			x: -19.0d

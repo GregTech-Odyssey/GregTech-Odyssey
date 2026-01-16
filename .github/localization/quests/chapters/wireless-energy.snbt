@@ -5,6 +5,24 @@
 	group: "33C930DBAB246BE3"
 	icon: "gtocore:max_wireless_output_hatch"
 	id: "28A33BAEFFB14C7B"
+	images: [
+		{
+			height: 1.0d
+			image: "gtocore:item/circuit/suprachronal_ev"
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.0d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "gtocore:item/circuit/suprachronal_iv"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 2.5d
+		}
+	]
 	order_index: 2
 	quest_links: [ ]
 	quests: [
@@ -130,9 +148,13 @@
 				"{gto.wireless-energy.quests.20B8E68273D7D0DE.description4}"
 				""
 				"{gto.wireless-energy.quests.20B8E68273D7D0DE.description5}"
+				"{gto.wireless-energy.quests.20B8E68273D7D0DE.description6}"
+				"{gto.wireless-energy.quests.20B8E68273D7D0DE.description7}"
 			]
 			icon: "gtmthings:wireless_energy_binding_tool"
 			id: "20B8E68273D7D0DE"
+			shape: "gear"
+			size: 2.0d
 			tasks: [
 				{
 					id: "271419441861A4D8"
@@ -168,7 +190,7 @@
 			]
 			hide_dependency_lines: false
 			id: "50BD070E09091C9A"
-			shape: "octagon"
+			shape: "gear"
 			size: 2.0d
 			tasks: [{
 				id: "2641F67732098539"
@@ -947,6 +969,27 @@
 			}]
 			x: -10.5d
 			y: 12.5d
+		}
+		{
+			dependencies: ["50BD070E09091C9A"]
+			description: [
+				"{gto.wireless-energy.quests.10D7BCC3E0E404A5.description0}"
+				""
+				"{gto.wireless-energy.quests.10D7BCC3E0E404A5.description1}"
+				""
+				"{gto.wireless-energy.quests.10D7BCC3E0E404A5.description2}"
+			]
+			id: "10D7BCC3E0E404A5"
+			shape: "circle"
+			size: 1.5d
+			subtitle: "{gto.wireless-energy.quests.10D7BCC3E0E404A5.subtitle}"
+			tasks: [{
+				id: "47C30586E08158D9"
+				item: "gtocore:wireless_dimension_repeater"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
 		}
 	]
 	subtitle: ["{gto.wireless-energy.subtitle0}"]

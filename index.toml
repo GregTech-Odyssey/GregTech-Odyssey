@@ -830,7 +830,7 @@ hash = "36edba5bcfbabf479e0ffdf35de56fe0b91b80dd27f1b9706ad420a2e124e068"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ae.snbt"
-hash = "5981dd4ccd5f7dba588c344958318d70fd67b98348737c2c543dca41a8e3589b"
+hash = "49ab143e14bf5f80b5607cdbb4af07308334a663e9c40551f83cc22d8910d605"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/apotheosis.snbt"
@@ -882,7 +882,7 @@ hash = "0673503ebf4b0614d668d1d71e0ebc66e627ced66a361834cf35bd16b37cddad"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/iv.snbt"
-hash = "397c1aa8298d3dd6a16d2d8510e25b7c44fdcbcf2debd1758de9dd71eebfcd52"
+hash = "ac9adc0ee76fefae1923d7f8fbb27255377fe35ffb747f328fe0efe0ed8b4c33"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/luv.snbt"
@@ -890,11 +890,11 @@ hash = "f813d3669e81b5916c9f1413d73ac86609c586dfce019cd86cc032d876ff510a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/lv.snbt"
-hash = "30e22f69347067ad26081b7e3d34ecab079c8bfeae6f05c2dfd370643eb8c966"
+hash = "93081984858c38f5fde2f24e25a2c523be5b824501f9c14d0aba0650dcb72e1c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/magic1.snbt"
-hash = "03046fb1c94fa59d97ab3573d05504d258b686ca8680abe69d8ff044246d16d2"
+hash = "c7031a10f223b8beaa173c46ca7aecdf9fc58cfbd6be1f9d0d95bd4bcddac45f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/magic2.snbt"
@@ -902,7 +902,7 @@ hash = "4f71a181cab717626d977a77925b1478f5d0f5a7e39fc014e6bf553d9f795141"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/main-stoneage.snbt"
-hash = "9fa4484637d8beec76369d7714a94e3afe692b39fd13e58d7461e78f7908d9e8"
+hash = "6a69a641abefae2735802a3f6f02e97d705b903908f92a8f46ea7c83f08313c6"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/massive-manufacturing.snbt"
@@ -946,15 +946,15 @@ hash = "f450188b731f374eb30ebe1252b1acff63860dde4a48c691adc2faa9022fe629"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/steam.snbt"
-hash = "a296f5b9685863267563ab222840970fb26ffcc2df73182cd28587e97a54cd46"
+hash = "9c063993db497982a0e185fae2f58c73de42f1d0f37e05bfffb62de466f7a3cd"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tips.snbt"
-hash = "5608fb169ef5745362ed3b24c0372740d48632919ce900e561b960d5a4355661"
+hash = "1d4638633ba21a87d73304807115c776c0ef83c629d7110aba219bed4fed6cf0"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/uev.snbt"
-hash = "3cacb2c4d23bb8f38d03b644ceb545dc4409a8cd96c241233ada31c21eba9b2f"
+hash = "5ef421a0ca794c28fff9200369935b0fc46bb37e4c6bdbe6b0aeb23a5680850d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/uhv.snbt"
@@ -982,11 +982,11 @@ hash = "7768a34ec928712d62a6246bbcd0625a8d5a1481b861243a788091d186d99370"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/wireless-energy.snbt"
-hash = "1d8e38757b477a2377027a37f43cdcc65907f33987fb16793bb091718cfb3d17"
+hash = "e08fd7fbe6a2d457273fc40dd37e00e8ee1bd3a8a532480c3b833bb1061df532"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/zpm.snbt"
-hash = "081646c1dee75c3a344663a8594cddc5be62890848c7d1f36ecebde89ae60586"
+hash = "0c7ff21c62623df763134fc4ec16c6002051ab17a143820f95b6a4c54bba742b"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -1398,7 +1398,7 @@ hash = "84254dc1e5a56ea70df6b16a2fb2620040592badae436c255997aaae84996d91"
 
 [[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/en_us.json"
-hash = "121a325c8297ca0c6ed21dc8526b52584b0cb38988d60ef18a017f07d9f63ad6"
+hash = "bf94d772f7203bf0c54340b4a121a45813b67a75c519d2bcf7befe6e5a5d8c18"
 
 [[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/ru_ru.json"
@@ -1406,11 +1406,11 @@ hash = "01d02ecf1f0c822673660bb13e1811794c65617b3802c0ba27d08b35cf533c14"
 
 [[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/zh_cn.json"
-hash = "0c181bcf391972d5b27a1514e0039cb13ad066d7d3019f86adc5ca928934afd0"
+hash = "f3770273ea38ae2c1675a531a88b6f6ec3ca3b0a2cc7441e0bf5efbaefecbedc"
 
 [[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/zh_tw.json"
-hash = "c3d40f5e9c461cad26d315ab0c0f082129201eef8e4d2e8cfdf89884cd90c2ec"
+hash = "07c4617b4c8bb57411325e649cfb0dc5a8592ad7c8510714ce2a494d91f41f72"
 
 [[files]]
 file = "config/openloader/resources/quests/pack.mcmeta"

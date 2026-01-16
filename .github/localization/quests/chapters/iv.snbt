@@ -1125,15 +1125,24 @@
 				""
 				"{gto.iv.quests.029CAD5FD378D3E1.description3}"
 			]
+			icon: "gtocore:advanced_tesseract_generator"
 			id: "029CAD5FD378D3E1"
 			optional: true
 			shape: "diamond"
 			subtitle: "{gto.iv.quests.029CAD5FD378D3E1.subtitle}"
-			tasks: [{
-				id: "3CDD1FE8E3131DE2"
-				item: "gtocore:advanced_tesseract_generator"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "3CDD1FE8E3131DE2"
+					item: "gtocore:advanced_tesseract_generator"
+					type: "item"
+				}
+				{
+					id: "1EFF0C03A8A3F85D"
+					item: "gtocore:tesseract_target_marker"
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: 22.0d
 			y: -8.5d
 		}
