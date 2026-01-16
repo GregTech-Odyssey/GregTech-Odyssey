@@ -4968,7 +4968,7 @@
     "gto.wireless-energy.quests.20B8E68273D7D0DE.description3": "- &bSingle Hatch Power Limit&r: &eBattery Buffer / Power Substation",
     "gto.wireless-energy.quests.20B8E68273D7D0DE.description4": "- &bInput Energy&r: &eWireless Power Hatch / Wireless Energy Interface",
     "gto.wireless-energy.quests.20B8E68273D7D0DE.description5": "- &bExporting Energy&r: &eWireless Energy Hatch / Wireless Energy Acceptor",
-    "gto.wireless-energy.quests.20B8E68273D7D0DE.description6": "In simple terms: first place an &6Energy Tower&r, then place a &6Battery Box&r, &efill it with batteries&r, right-click your Battery Box with the &6Wireless Energy Binding Tool&r to set it as the &eTransmission Controller&r. All &6Wireless Power Hatches/Wireless Energy Hatches&r you place will be bound to your Energy Tower by default.",
+    "gto.wireless-energy.quests.20B8E68273D7D0DE.description6": "简单来说：先放一个&6能源塔&r，然后放一个&6电池箱&r，&e装满电池&r，用&6无线能源绑定工具&r右击你的电池箱，将其设为&e传输控制器&r。&r你放置的所有&6无线动力仓/无线能源仓&r都会默认绑定到你的能源塔上。",
     "gto.wireless-energy.quests.20B8E68273D7D0DE.tasks.271419441861A4D8.title": "Wireless Power Grid",
     "gto.wireless-energy.quests.27743BDBF0CBE1A3.description0": "Installed on the Wireless Energy Tower, it sends a redstone signal based on the percentage/absolute value of the grid's power and the set maximum/minimum threshold values, with RS latch function",
     "gto.wireless-energy.quests.2F9D9F9271159654.description0": "Wireless power grid energy storage requires a carrier",
