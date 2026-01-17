@@ -2060,7 +2060,10 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["7E963A64B5EB7C20"]
+			dependencies: [
+				"7E963A64B5EB7C20"
+				"2F42DE3FEC2C35F9"
+			]
 			disable_toast: true
 			hide_dependent_lines: true
 			icon_scale: 0.1d

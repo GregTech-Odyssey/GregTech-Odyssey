@@ -3599,7 +3599,10 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["66E12F82F66FB8CE"]
+			dependencies: [
+				"66E12F82F66FB8CE"
+				"2A5BA479E707034B"
+			]
 			description: [
 				"{gto.magic1.quests.0B61448F01656C1D.description0}"
 				""
@@ -4072,6 +4075,7 @@
 				"{gto.magic1.quests.13ED9023E7486BCD.description2}"
 				"{image:arsmeteorites:textures/gui/direction.png width:100 height:100 align:center}"
 			]
+			hide_dependency_lines: true
 			id: "13ED9023E7486BCD"
 			shape: "diamond"
 			size: 1.0d
@@ -4301,9 +4305,12 @@
 				"4E9804ED6DE64BDF"
 				"3D862A3D3F83CA26"
 			]
-			description: ["{gto.magic1.quests.2A5BA479E707034B.description0}"]
+			description: [
+				"{gto.magic1.quests.2A5BA479E707034B.description0}"
+				""
+				"{gto.magic1.quests.2A5BA479E707034B.description1}"
+			]
 			hide_dependency_lines: true
-			hide_dependent_lines: true
 			id: "2A5BA479E707034B"
 			tasks: [
 				{
@@ -4350,7 +4357,7 @@
 			]
 			title: "{gto.magic1.quests.2A5BA479E707034B.title}"
 			x: 18.0d
-			y: -1.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["28D9ED74EBBC9818"]
@@ -4625,7 +4632,10 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["3D862A3D3F83CA26"]
+			dependencies: [
+				"3D862A3D3F83CA26"
+				"2A5BA479E707034B"
+			]
 			disable_toast: true
 			icon_scale: 0.25d
 			id: "3B20CAA27760A0B2"
@@ -4638,7 +4648,7 @@
 				value: 1
 			}]
 			x: 18.0d
-			y: -1.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["70C5A902C0D26628"]
@@ -4651,6 +4661,25 @@
 			}]
 			x: 13.25d
 			y: 3.5d
+		}
+		{
+			dependencies: [
+				"5FB36C788008C907"
+				"13ED9023E7486BCD"
+			]
+			disable_toast: true
+			icon_scale: 0.25d
+			id: "459E05AA75F232FF"
+			shape: "none"
+			size: 0.25d
+			tasks: [{
+				id: "21E2BF4AACE11E32"
+				stat: "minecraft:jump"
+				type: "stat"
+				value: 1
+			}]
+			x: 14.5d
+			y: 5.5d
 		}
 	]
 	subtitle: ["{gto.magic1.subtitle0}"]

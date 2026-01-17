@@ -206,10 +206,7 @@
 			y: 1.5d
 		}
 		{
-			dependencies: [
-				"65238A6DCDDDFA0D"
-				"2A5BA479E707034B"
-			]
+			dependencies: ["65238A6DCDDDFA0D"]
 			description: [
 				"{gto.magic2.quests.23A2865FBE7831AB.description0}"
 				""
