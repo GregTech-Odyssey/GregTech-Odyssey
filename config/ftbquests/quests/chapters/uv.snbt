@@ -1228,7 +1228,10 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["2CC625C1FFDB9AFF"]
+			dependencies: [
+				"2CC625C1FFDB9AFF"
+				"67050CC889ABB614"
+			]
 			disable_toast: true
 			icon_scale: 0.25d
 			id: "688ABD83133F885A"
