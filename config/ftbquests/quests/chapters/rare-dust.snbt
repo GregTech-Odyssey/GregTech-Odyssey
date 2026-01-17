@@ -52,7 +52,7 @@
 			y: -0.5d
 		}
 	]
-	order_index: 5
+	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{
@@ -878,5 +878,6 @@
 			y: 5.0d
 		}
 	]
+	subtitle: ["Rare Earth"]
 	title: "稀土"
 }
