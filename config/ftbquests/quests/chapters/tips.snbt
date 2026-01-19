@@ -7,7 +7,27 @@
 	icon: "minecraft:writable_book"
 	id: "5C2AA64241610E38"
 	order_index: 1
-	quest_links: [ ]
+	quest_links: [
+		{
+			id: "60CEF11ADC9176D7"
+			linked_quest: "7B47DD1ACCAA3B03"
+			size: 0.0d
+			x: 0.75d
+			y: 6.0d
+		}
+		{
+			id: "1798C89D9211BBF3"
+			linked_quest: "7B47DD1ACCAA3B03"
+			x: 0.75d
+			y: 6.0d
+		}
+		{
+			id: "1603B24981350B37"
+			linked_quest: "7C9277B717E90328"
+			x: 2.25d
+			y: 6.0d
+		}
+	]
 	quests: [
 		{
 			dependencies: ["79646E8E449D8A1A"]
@@ -1692,7 +1712,6 @@
 			y: -8.0d
 		}
 		{
-			dependencies: ["72C6B40B38D542BF"]
 			description: [
 				"除了铁傀儡农场，Easy Villagers还有很多好东西来帮助你度过前期"
 				""
@@ -1709,7 +1728,6 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["45C8A2DF9C0E5473"]
 			description: ["维护消声仓时可自动调用皮带中的工具"]
 			hide_dependency_lines: true
 			id: "21EA1E3550BC1067"
@@ -1747,7 +1765,6 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["73479CC3BADD15F1"]
 			description: ["用于搬运GT单方块板条箱"]
 			id: "58EF3DA2C2E88C8A"
 			tasks: [{
@@ -1771,6 +1788,11 @@
 		}
 		{
 			dependencies: ["507807175748245C"]
+			description: [
+				"从Ender IO移植而来的旅行手杖"
+				""
+				"将样板供应器作为传送锚点的功能可以在Mod-GTOCore配置中关闭"
+			]
 			icon: "gtocore:travel_staff"
 			id: "5649427DD8F599CE"
 			tasks: [
@@ -1787,6 +1809,57 @@
 			]
 			x: 2.25d
 			y: 4.5d
+		}
+		{
+			description: ["模板管理器经过魔改可以放入AE的空白样板，将复制小帮手复制的方块直接存为样板"]
+			icon: "buildinggadgets2:template_manager"
+			id: "67931BF5416F31BA"
+			tasks: [
+				{
+					id: "5DFEF7D9825E5479"
+					item: "buildinggadgets2:template_manager"
+					type: "item"
+				}
+				{
+					id: "6190CBD796BDBB8D"
+					item: {
+						Count: 1
+						id: "buildinggadgets2:gadget_copy_paste"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: -2.25d
+			y: 6.0d
+		}
+		{
+			description: [
+				"你可以将EMI中的物品直接拖入AE终端和EMI的搜索栏"
+				""
+				"EMI的搜索文字也可以存为书签"
+				""
+				"在EMI中尝试取出物品会等效于在无线AE终端中取出物品"
+			]
+			id: "2F1EBC6B20B34792"
+			tasks: [{
+				id: "0EC621993ED07726"
+				title: "EMI"
+				type: "checkmark"
+			}]
+			x: -0.75d
+			y: 6.0d
+		}
+		{
+			description: ["应用能源（AE2）章节左上角有许多小工具，别忘了去看看！"]
+			id: "466185D2D791EC6D"
+			tasks: [{
+				id: "0692ADD68322C2E3"
+				title: "AE小工具"
+				type: "checkmark"
+			}]
+			x: 3.75d
+			y: 6.0d
 		}
 	]
 	subtitle: ["Tips and Tricks"]
