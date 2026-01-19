@@ -1193,6 +1193,15 @@
 			x: -9.5d
 			y: 9.5d
 		}
+		{
+			dependency: "28C9BF5C59F5F723"
+			height: 1.0d
+			image: "gtocore:item/circuit/suprachronal_mv"
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.5d
+			y: 7.5d
+		}
 	]
 	order_index: 0
 	quest_links: [
@@ -3521,6 +3530,16 @@
 				"145E176D0807D81C"
 				"65E52B0DB278156A"
 				"23D906A09C3631CB"
+			]
+			description: [
+				"{gto.ae.quests.7B47DD1ACCAA3B03.description0}"
+				""
+				"{gto.ae.quests.7B47DD1ACCAA3B03.description1}"
+				"{gto.ae.quests.7B47DD1ACCAA3B03.description2}"
+				"{gto.ae.quests.7B47DD1ACCAA3B03.description3}"
+				""
+				"{gto.ae.quests.7B47DD1ACCAA3B03.description4}"
+				"{gto.ae.quests.7B47DD1ACCAA3B03.description5}"
 			]
 			hide_dependency_lines: true
 			id: "7B47DD1ACCAA3B03"

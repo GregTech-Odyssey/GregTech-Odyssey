@@ -7,7 +7,27 @@
 	icon: "minecraft:writable_book"
 	id: "5C2AA64241610E38"
 	order_index: 1
-	quest_links: [ ]
+	quest_links: [
+		{
+			id: "60CEF11ADC9176D7"
+			linked_quest: "7B47DD1ACCAA3B03"
+			size: 0.0d
+			x: 0.75d
+			y: 6.0d
+		}
+		{
+			id: "1798C89D9211BBF3"
+			linked_quest: "7B47DD1ACCAA3B03"
+			x: 0.75d
+			y: 6.0d
+		}
+		{
+			id: "1603B24981350B37"
+			linked_quest: "7C9277B717E90328"
+			x: 2.25d
+			y: 6.0d
+		}
+	]
 	quests: [
 		{
 			dependencies: ["79646E8E449D8A1A"]
@@ -1692,7 +1712,6 @@
 			y: -8.0d
 		}
 		{
-			dependencies: ["72C6B40B38D542BF"]
 			description: [
 				"{gto.tips.quests.511995F72672A515.description0}"
 				""
@@ -1709,7 +1728,6 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["45C8A2DF9C0E5473"]
 			description: ["{gto.tips.quests.21EA1E3550BC1067.description0}"]
 			hide_dependency_lines: true
 			id: "21EA1E3550BC1067"
@@ -1747,7 +1765,6 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["73479CC3BADD15F1"]
 			description: ["{gto.tips.quests.58EF3DA2C2E88C8A.description0}"]
 			id: "58EF3DA2C2E88C8A"
 			tasks: [{
@@ -1771,6 +1788,11 @@
 		}
 		{
 			dependencies: ["507807175748245C"]
+			description: [
+				"{gto.tips.quests.5649427DD8F599CE.description0}"
+				""
+				"{gto.tips.quests.5649427DD8F599CE.description1}"
+			]
 			icon: "gtocore:travel_staff"
 			id: "5649427DD8F599CE"
 			tasks: [
@@ -1787,6 +1809,57 @@
 			]
 			x: 2.25d
 			y: 4.5d
+		}
+		{
+			description: ["{gto.tips.quests.67931BF5416F31BA.description0}"]
+			icon: "buildinggadgets2:template_manager"
+			id: "67931BF5416F31BA"
+			tasks: [
+				{
+					id: "5DFEF7D9825E5479"
+					item: "buildinggadgets2:template_manager"
+					type: "item"
+				}
+				{
+					id: "6190CBD796BDBB8D"
+					item: {
+						Count: 1
+						id: "buildinggadgets2:gadget_copy_paste"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: -2.25d
+			y: 6.0d
+		}
+		{
+			description: [
+				"{gto.tips.quests.2F1EBC6B20B34792.description0}"
+				""
+				"{gto.tips.quests.2F1EBC6B20B34792.description1}"
+				""
+				"{gto.tips.quests.2F1EBC6B20B34792.description2}"
+			]
+			id: "2F1EBC6B20B34792"
+			tasks: [{
+				id: "0EC621993ED07726"
+				title: "{gto.tips.quests.2F1EBC6B20B34792.tasks.0EC621993ED07726.title}"
+				type: "checkmark"
+			}]
+			x: -0.75d
+			y: 6.0d
+		}
+		{
+			description: ["{gto.tips.quests.466185D2D791EC6D.description0}"]
+			id: "466185D2D791EC6D"
+			tasks: [{
+				id: "0692ADD68322C2E3"
+				title: "{gto.tips.quests.466185D2D791EC6D.tasks.0692ADD68322C2E3.title}"
+				type: "checkmark"
+			}]
+			x: 3.75d
+			y: 6.0d
 		}
 	]
 	subtitle: ["{gto.tips.subtitle0}"]
