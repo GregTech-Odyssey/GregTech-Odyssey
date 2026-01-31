@@ -6,6 +6,32 @@
 	group: "2A1218851E38A2EE"
 	icon: "minecraft:grass_block"
 	id: "2F98FBAEECC4F940"
+	images: [
+		{
+			height: 1.75d
+			image: "ftbquests:textures/shapes/pentagon/outline.png"
+			rotation: 0.0d
+			width: 1.75d
+			x: 3.5d
+			y: 11.0d
+		}
+		{
+			height: 1.25d
+			image: "ftbquests:textures/shapes/circle/outline.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 11.0d
+			y: -2.5d
+		}
+		{
+			height: 1.75d
+			image: "ftbquests:textures/shapes/diamond/outline.png"
+			rotation: 0.0d
+			width: 1.75d
+			x: 6.5d
+			y: -2.0d
+		}
+	]
 	order_index: 0
 	quest_links: [
 		{
@@ -2036,6 +2062,8 @@
 				"&2模块搭建：&r仅搭建对应多方块的附属模块"
 				""
 				"&4拆除模式：&r拆除搭建好的多方块"
+				""
+				"注：拆除配合模块搭建可以指定要拆除的部分（模块or本体）"
 			]
 			id: "06FE84E75DBE704A"
 			rewards: [
@@ -2080,11 +2108,11 @@
 			description: [
 				"如果你暂时不想推进主线了，可以看看支线：&b独善其身&r"
 				""
-				"包含魔法，神化，食物以及一些其他东西"
+				"包含AE，魔法，神化，食物以及一些其他东西"
 				""
 				"&e虽然魔法在到达LuV前并不是必选项，但我还是你建议发展魔法。&r发展魔法能够极大的提升你在科技线中的体验，&o沉淀总是有所回报的"
 				"{@pagebreak}"
-				"简单提一下魔法在主线中的应用：HV之前只需魔力池做超导体，HV需要魔力钢做样板更好的配方，需要开精灵门做源质钢做样板供应器更好的配方，LuV需要开门拿精灵玻璃做精灵透镜（必选），后续有部分超导体合成配方；EV做符文可以做下界之星更好的配方，UHV开始需要用到盖亚钢和盖亚魂钢，UEV开始大量使用盖亚魂，准备好盖亚魂循环"
+				"简单提一下魔法在主线中的应用：HV之前只需魔力池做超导体，HV需要魔力钢做样板更好的配方，需要开精灵门做源质钢做样板供应器更好的配方，LuV需要开门拿精灵玻璃做精灵透镜（&6必选&r），后续有部分超导体合成配方；EV做符文可以做下界之星更好的配方，UHV开始需要用到盖亚钢和盖亚魂钢，UEV开始大量使用盖亚魂，准备好盖亚魂循环"
 			]
 			icon: {
 				Count: 1
@@ -2094,6 +2122,11 @@
 				}
 			}
 			id: "1BA9FA9358CBF2E7"
+			rewards: [{
+				id: "31581923088AFF2A"
+				item: "gtocore:copper_coin"
+				type: "item"
+			}]
 			shape: "pentagon"
 			size: 1.5d
 			tasks: [{
@@ -2250,10 +2283,9 @@
 			dependencies: ["561D79DE960A034D"]
 			description: [
 				"用熔炉在地上摆放一个&a3x3x3&r形状的立方体，就会自动成型为&6巨型熔炉&r"
-				""
 				"在其原料栏位放入&a27个&r熔炉可以烧制出一个同样的&6巨型熔炉&r物品，放入右下的槽位可以增加&e1并行&r"
 				""
-				"手持剪刀&eShift+右键&r可以拆除巨型熔炉"
+				"手持剪刀&e[Shift]+[右键]&r可以拆除巨型熔炉"
 				""
 				"&o&7它的性价比完爆了蒸汽时代熔炉，64并行足以满足你前期的烧炼需求。它还因为过强险些被删除"
 				""
@@ -2266,6 +2298,7 @@
 				type: "item"
 			}]
 			shape: "diamond"
+			size: 1.5d
 			subtitle: "你的第一个多方块结构...真的算是吗？"
 			tasks: [{
 				icon: "jumbofurnace:jumbo_furnace"

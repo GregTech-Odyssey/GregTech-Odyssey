@@ -77,6 +77,22 @@
 			x: -8.0d
 			y: 0.0d
 		}
+		{
+			height: 1.25d
+			image: "ftbquests:textures/shapes/hexagon/outline.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			height: 1.25d
+			image: "ftbquests:textures/shapes/hexagon/outline.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 12.0d
+			y: 3.5d
+		}
 	]
 	order_index: 5
 	quest_links: [
@@ -277,6 +293,7 @@
 				"{gto.hv.quests.03E4EA4053212C0B.description1}"
 			]
 			id: "03E4EA4053212C0B"
+			shape: "hexagon"
 			tasks: [{
 				id: "30C41A893C214B92"
 				item: "gtceu:micro_processor_assembly"

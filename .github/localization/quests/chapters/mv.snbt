@@ -6,6 +6,14 @@
 	group: "2A1218851E38A2EE"
 	icon: "gtocore:processing_plant"
 	id: "7C6B0DA4DF5D00E3"
+	images: [{
+		height: 1.75d
+		image: "ftbquests:textures/shapes/gear/outline.png"
+		rotation: 0.0d
+		width: 1.75d
+		x: -6.75d
+		y: -1.75d
+	}]
 	order_index: 4
 	quest_links: [
 		{
@@ -1242,7 +1250,7 @@
 				item: "gtocore:temp_vacuum_interface"
 				type: "item"
 			}]
-			x: -3.500000000000007d
+			x: -3.5d
 			y: -1.75d
 		}
 		{

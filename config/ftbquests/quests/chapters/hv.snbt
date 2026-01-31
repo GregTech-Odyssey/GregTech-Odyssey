@@ -77,6 +77,22 @@
 			x: -8.0d
 			y: 0.0d
 		}
+		{
+			height: 1.25d
+			image: "ftbquests:textures/shapes/hexagon/outline.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			height: 1.25d
+			image: "ftbquests:textures/shapes/hexagon/outline.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 12.0d
+			y: 3.5d
+		}
 	]
 	order_index: 5
 	quest_links: [
@@ -277,6 +293,7 @@
 				"需要超净间环境，是时候给MV电装搬个家了"
 			]
 			id: "03E4EA4053212C0B"
+			shape: "hexagon"
 			tasks: [{
 				id: "30C41A893C214B92"
 				item: "gtceu:micro_processor_assembly"
@@ -971,7 +988,7 @@
 			description: [
 				"高压时代最重要的部件，你会需要很多！"
 				""
-				"[\"你现在可以去\",{ \"text\": \"冯虚御风\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"38A6F2FA481A85E5\" } },\"章节看看了\"]"
+				"[\"你现在可以去\",{ \"text\": \"冯虚御风\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"38A6F2FA481A85E5\" } },\"章节看看了，你的太空之旅将从这里开始\"]"
 			]
 			id: "6F760D81DC93ACFB"
 			shape: "hexagon"
@@ -1139,7 +1156,7 @@
 			description: [
 				"月球&4缺少&r大气环境"
 				""
-				"你必须身着&e充有氧气的&r&6宇航套装&r，&n不然会有不幸的事情发生&r"
+				"你必须身着&e充有氧气的&r&6宇航套装&r，不然会有不幸的事情发生"
 				""
 				"往&6航天服&r内通入氧气——就把&6航天服&r当成桶，从AE里面舀就行了"
 				""
@@ -1554,9 +1571,9 @@
 			description: [
 				"这个比&6宇航服&r更好！"
 				""
-				"&7别问我整合包里为什么加入了一个比宇航服更好的衣服，却还让你在任务流程中制作它们……&r"
-				""
 				"&5EV阶段&r你还能制作&6进阶版的太空纳米胸甲&r"
+				""
+				"&o&7别问我整合包里为什么加入了一个比宇航服更好的衣服，却还让你在任务流程中制作它们……&r"
 			]
 			id: "5808E00A58A9F4EE"
 			optional: true
