@@ -79,6 +79,14 @@
 			x: 6.0d
 			y: 7.0d
 		}
+		{
+			height: 1.25d
+			image: "ftbquests:textures/shapes/circle/outline.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: -2.0d
+			y: 2.0d
+		}
 	]
 	order_index: 6
 	quest_links: [

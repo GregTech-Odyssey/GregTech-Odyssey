@@ -1455,7 +1455,11 @@
 		}
 		{
 			dependencies: ["0631F054A9B97A40"]
-			description: ["{gto.magic2.quests.705706C604CECF1D.description0}"]
+			description: [
+				"{gto.magic2.quests.705706C604CECF1D.description0}"
+				""
+				"{gto.magic2.quests.705706C604CECF1D.description1}"
+			]
 			id: "705706C604CECF1D"
 			shape: "diamond"
 			tasks: [{
@@ -1463,7 +1467,7 @@
 				item: "gtocore:base_mana_distributor"
 				type: "item"
 			}]
-			x: -1.75d
+			x: 0.75d
 			y: 3.0d
 		}
 		{
@@ -2071,19 +2075,6 @@
 			}]
 			title: "{gto.magic2.quests.7278B00DEB2C21E7.title}"
 			x: 14.5d
-			y: 1.5d
-		}
-		{
-			dependencies: ["705706C604CECF1D"]
-			description: ["{gto.magic2.quests.62C59C7915EF8053.description0}"]
-			id: "62C59C7915EF8053"
-			shape: "diamond"
-			tasks: [{
-				id: "5E9A3B1B9E9BF5FC"
-				item: "gtocore:advanced_mana_distributor"
-				type: "item"
-			}]
-			x: -1.75d
 			y: 1.5d
 		}
 		{
