@@ -1,0 +1,13 @@
+name = "MoreMoreLang"
+filename = "moremorelang-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "f969efa11a2eb592fb4a2bb545c7c92ef4119e62"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7528662
+project-id = 1444917
