@@ -3577,7 +3577,7 @@
 			dependencies: ["79BE48D56622542F"]
 			hide_dependency_lines: true
 			id: "16CE6D6560F6B36F"
-			size: 0.5d
+			size: 0.7d
 			subtitle: "有什么用呢"
 			tasks: [{
 				id: "6D4FA9EEEAC68674"
@@ -4677,6 +4677,24 @@
 			}]
 			x: 14.5d
 			y: 5.5d
+		}
+		{
+			description: ["恶魔南瓜头下面放两个铁栏杆可以召唤必掉烈焰粉的烈焰人"]
+			id: "34D3EA68903F3879"
+			tasks: [
+				{
+					id: "1E218809AA6D8DF5"
+					item: "minecraft:blaze_powder"
+					type: "item"
+				}
+				{
+					id: "7D3F1703F2F2BB99"
+					item: "botania:fel_pumpkin"
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 2.0d
 		}
 	]
 	subtitle: ["从百花园走到符文祭坛"]

@@ -3,7 +3,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "beyond-the-stars"
-	group: "33C930DBAB246BE3"
+	group: "5EEE1B83CA094132"
 	icon: {
 		Count: 1
 		id: "ad_astra_rocketed:tier_7_rocket"
@@ -148,7 +148,7 @@
 			y: -5.5d
 		}
 	]
-	order_index: 3
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -2363,7 +2363,6 @@
 				"67A5C9B045EE23B0"
 				"462BE2D4394A2899"
 			]
-			description: ["我认为或许你用魔法制作凛冰燃料会更加方便？"]
 			id: "2A60421E915FF505"
 			shape: "gear"
 			size: 2.0d

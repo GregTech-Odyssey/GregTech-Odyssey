@@ -58,6 +58,30 @@
 			x: 20.0d
 			y: -8.5d
 		}
+		{
+			height: 1.25d
+			image: "ftbquests:textures/shapes/diamond/outline.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 8.5d
+			y: -7.0d
+		}
+		{
+			height: 1.25d
+			image: "ftbquests:textures/shapes/circle/outline.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 18.0d
+			y: -12.5d
+		}
+		{
+			height: 1.25d
+			image: "ftbquests:textures/shapes/circle/outline.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 6.0d
+			y: -7.5d
+		}
 	]
 	order_index: 7
 	quest_links: [
@@ -1350,6 +1374,8 @@
 				""
 				"&o&7不知道你有没有发现赤泥甚至可以在HV不上天的情况下产出钛。二周目的时候你可以试一试..."
 			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
 			icon: "gtocore:red_mud_bucket"
 			id: "4EAFBB80247274E2"
 			optional: true
@@ -1469,6 +1495,8 @@
 				"工业空间站在&3UV&r阶段之前都不是必需品，不过我仍建议你尽早规划建造"
 				""
 				"这里简单列出了你需要的新原料和新机器，但你还需要编写大量的样板&o（真的很多！）"
+				""
+				"[\"别忘了去\",{ \"text\": \"穹宇居所\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"23E859D5CC9E4C8C\" } },\"章节看看你可以制造的仓室\"]"
 			]
 			icon: "gtocore:large_expandable_space_station_core_module"
 			id: "0BFFC7241DFB6A9C"

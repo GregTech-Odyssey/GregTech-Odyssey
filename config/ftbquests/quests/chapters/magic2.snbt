@@ -1446,7 +1446,11 @@
 		}
 		{
 			dependencies: ["0631F054A9B97A40"]
-			description: ["火花的替代品"]
+			description: [
+				"火花的替代品"
+				""
+				"它的进阶版本范围更大，且能开启无线魔力模式。无线魔力网络储量无限！"
+			]
 			id: "705706C604CECF1D"
 			shape: "diamond"
 			tasks: [{
@@ -1454,7 +1458,7 @@
 				item: "gtocore:base_mana_distributor"
 				type: "item"
 			}]
-			x: -1.75d
+			x: 0.75d
 			y: 3.0d
 		}
 		{
@@ -2065,19 +2069,6 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["705706C604CECF1D"]
-			description: ["范围更大，且能开启无线魔力模式。无线魔力网络储量无限！"]
-			id: "62C59C7915EF8053"
-			shape: "diamond"
-			tasks: [{
-				id: "5E9A3B1B9E9BF5FC"
-				item: "gtocore:advanced_mana_distributor"
-				type: "item"
-			}]
-			x: -1.75d
-			y: 1.5d
-		}
-		{
 			dependencies: ["129FF3CBED5CFF05"]
 			id: "348BF6EF32E190B4"
 			tasks: [{
@@ -2220,7 +2211,7 @@
 			description: [
 				"&o迷雾笼罩的&b亚尔夫海姆&r&o即将开放准入 —— 唯有饮下&6「诗之蜜酒」&r&o、集齐 12 件&6远古遗物&r&o的行者，方能踏足这片秘境。任何规避准入规则的偷渡操作均不被允许，空间法则将自动击杀未满足条件的闯入者。"
 				""
-				"满足以上条件，踏入精灵门，你可以进入到精灵维度。在精灵维度中，你可以挖掘魔法线的专属矿石"
+				"满足以上条件，踏入放置在&b主维度&r的&6精灵门&r，你可以进入到精灵维度。在精灵维度中，你可以挖掘魔法线的专属矿石"
 			]
 			hide_until_deps_complete: true
 			id: "6878C231FB98DBBC"
