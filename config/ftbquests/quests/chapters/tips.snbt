@@ -1712,11 +1712,8 @@
 			y: -8.0d
 		}
 		{
-			description: [
-				"除了铁傀儡农场，Easy Villagers还有很多好东西来帮助你度过前期"
-				""
-				"&o&7玻璃需要蒸汽时代才能制作"
-			]
+			dependencies: ["72C6B40B38D542BF"]
+			description: ["除了铁傀儡农场，Easy Villagers还有很多好东西来帮助你度过前期，如刷取村民和自动交易等"]
 			hide_dependency_lines: true
 			id: "511995F72672A515"
 			tasks: [{
@@ -1791,7 +1788,7 @@
 			description: [
 				"从Ender IO移植而来的旅行手杖"
 				""
-				"将样板供应器作为传送锚点的功能可以在Mod-GTOCore配置中关闭"
+				"将样板供应器作为传送锚点的功能可以在（游戏菜单 > MOD > 搜索 GTOCore > 配置）中关闭"
 			]
 			icon: "gtocore:travel_staff"
 			id: "5649427DD8F599CE"

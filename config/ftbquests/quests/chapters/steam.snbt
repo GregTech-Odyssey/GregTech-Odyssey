@@ -1031,8 +1031,6 @@
 				"处理某些矿(如粗红石)时很可能会因为产率过高而阻塞输出口，所以你可以选择设置&a两个&r输出口"
 				""
 				"[ \"前往\", { \"text\": \"资源获取与处理\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"7C1D32B8C9895B40\" } }, \"章节看看矿处流程！\"]"
-				""
-				"&o&7直接点击下划线文本即可跳转"
 			]
 			id: "5660509FA09D2239"
 			shape: "hexagon"
@@ -1995,7 +1993,7 @@
 				""
 				"可以使用&6ME控制器&r来替代&6能源接收器&r，但后期可能会因为加载过多频道造成额外的延迟，请斟酌使用控制器"
 				""
-				"&o&7如果你还不会AE，请尽快寻找教程快速入门。本包无需精通AE，但至少需要了解基本使用方法。"
+				"&o&7如果你还不会AE，请尽快寻找教程快速入门。本包无需精通AE，但至少需要了解如何下单。"
 			]
 			hide_until_deps_visible: true
 			icon: "ae2:energy_acceptor"
@@ -2110,7 +2108,7 @@
 			hide_dependency_lines: true
 			id: "4CE96E5E2F84EBBF"
 			rewards: [{
-				count: 8
+				count: 12
 				id: "2B618FC8076F7BAE"
 				item: "pipez:item_pipe"
 				type: "item"
@@ -2132,7 +2130,7 @@
 			hide_dependency_lines: true
 			id: "326B9B0D222A6E3B"
 			rewards: [{
-				count: 8
+				count: 12
 				id: "6C3858A78582399A"
 				item: "pipez:fluid_pipe"
 				type: "item"
