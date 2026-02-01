@@ -11,3 +11,7 @@ mode = "metadata:curseforge"
 [update.curseforge]
 file-id = 7528662
 project-id = 1444917
+
+[option]
+optional = true
+description = "Add multiple language support to the game"
