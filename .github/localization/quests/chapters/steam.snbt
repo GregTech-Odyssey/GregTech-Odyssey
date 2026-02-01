@@ -1031,8 +1031,6 @@
 				"{gto.steam.quests.5660509FA09D2239.description2}"
 				""
 				"[\"\", {\"translate\": \"gto.steam.quests.5660509FA09D2239.description3.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"7C1D32B8C9895B40\"}, \"translate\": \"gto.steam.quests.5660509FA09D2239.description3.rich_text1\"}, {\"translate\": \"gto.steam.quests.5660509FA09D2239.description3.rich_text2\"}]"
-				""
-				"{gto.steam.quests.5660509FA09D2239.description4}"
 			]
 			id: "5660509FA09D2239"
 			shape: "hexagon"
@@ -2113,7 +2111,7 @@
 			hide_dependency_lines: true
 			id: "4CE96E5E2F84EBBF"
 			rewards: [{
-				count: 8
+				count: 12
 				id: "2B618FC8076F7BAE"
 				item: "pipez:item_pipe"
 				type: "item"
@@ -2135,7 +2133,7 @@
 			hide_dependency_lines: true
 			id: "326B9B0D222A6E3B"
 			rewards: [{
-				count: 8
+				count: 12
 				id: "6C3858A78582399A"
 				item: "pipez:fluid_pipe"
 				type: "item"

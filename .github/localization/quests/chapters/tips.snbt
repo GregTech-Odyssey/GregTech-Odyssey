@@ -1712,11 +1712,8 @@
 			y: -8.0d
 		}
 		{
-			description: [
-				"{gto.tips.quests.511995F72672A515.description0}"
-				""
-				"{gto.tips.quests.511995F72672A515.description1}"
-			]
+			dependencies: ["72C6B40B38D542BF"]
+			description: ["{gto.tips.quests.511995F72672A515.description0}"]
 			hide_dependency_lines: true
 			id: "511995F72672A515"
 			tasks: [{

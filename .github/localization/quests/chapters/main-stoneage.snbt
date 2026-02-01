@@ -405,6 +405,8 @@
 				"{gto.main-stoneage.quests.4DC482C16035F261.description1}"
 				""
 				"[\"\", {\"translate\": \"gto.main-stoneage.quests.4DC482C16035F261.description2.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"1CE34BD4900990C6\"}, \"translate\": \"gto.main-stoneage.quests.4DC482C16035F261.description2.rich_text1\"}, {\"translate\": \"gto.main-stoneage.quests.4DC482C16035F261.description2.rich_text2\"}]"
+				""
+				"{gto.main-stoneage.quests.4DC482C16035F261.description3}"
 			]
 			icon: "sophisticatedbackpacks:backpack"
 			id: "4DC482C16035F261"
