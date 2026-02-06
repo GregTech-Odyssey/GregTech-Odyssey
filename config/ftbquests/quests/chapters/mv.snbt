@@ -4,6 +4,7 @@
 	default_quest_shape: ""
 	filename: "mv"
 	group: "2A1218851E38A2EE"
+	hide_quest_until_deps_visible: true
 	icon: "gtocore:processing_plant"
 	id: "7C6B0DA4DF5D00E3"
 	images: [{

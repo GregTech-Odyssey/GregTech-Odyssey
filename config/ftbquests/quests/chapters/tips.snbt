@@ -4,6 +4,7 @@
 	default_quest_shape: ""
 	filename: "tips"
 	group: ""
+	hide_quest_until_deps_visible: true
 	icon: "minecraft:writable_book"
 	id: "5C2AA64241610E38"
 	order_index: 1
@@ -266,7 +267,7 @@
 		{
 			dependencies: ["79646E8E449D8A1A"]
 			description: [
-				"你可以在创建世界时更改难度，也可在mod配置里切换难度 （游戏菜单 > MOD > 搜索 GTOCore > 配置 > 游戏难度）"
+				"你可以在创建世界时更改难度，也可在mod配置里切换难度 （游戏菜单 > MOD > 搜索 GTOCore > 配置 > 游戏难度）。创建世界后你将无法更改难度！"
 				""
 				"&a简单难度&r：&d新来的看看这里！&r简单模式专为新人设计：&e更强的发电机，未经修改的原版/AE配方与更弱的怪物&r，带来更轻松舒适的前期体验，助你完美完成入职计划！推荐给格雷科技或科技模组新手。"
 				""
@@ -287,7 +288,7 @@
 				""
 				"[ \"\", {\"text\":\"详细特性请查看\", \"color\":\"yellow\"}, { \"text\": \"简单普通专家模式特性指南\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"open_url\", \"value\": \"https://gtodyssey.com/zh-hans/整合包教学/官方文档/简单普通专家模式特性指南/\" } }]"
 				""
-				"&e强烈建议在切换模式后，重启MC，然后再创建世界开始游戏！&r"
+				"&e强烈建议在更改难度后，重启MC，然后再创建新的世界！&r"
 				""
 				"&o&7这个任务完成不了？点左上角小箭头查看前置！"
 			]
@@ -360,7 +361,9 @@
 		{
 			dependencies: ["79646E8E449D8A1A"]
 			description: [
-				"游戏对怪物根据难度进行了血量和攻击力强化"
+				"游戏根据难度对怪物进行了血量和攻击力强化"
+				""
+				"同时还给中立生物添加了仇恨机制，如果你在动物旁边进食同类的肉，会导致动物来攻击你"
 				""
 				"注意安全"
 			]
@@ -372,7 +375,7 @@
 				id: "17A33145F3C67C67"
 				type: "checkmark"
 			}]
-			title: "强化的怪物"
+			title: "强化的生物"
 			x: -3.0d
 			y: -3.75d
 		}

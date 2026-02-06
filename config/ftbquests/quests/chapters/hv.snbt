@@ -4,6 +4,7 @@
 	default_quest_shape: ""
 	filename: "hv"
 	group: "2A1218851E38A2EE"
+	hide_quest_until_deps_visible: true
 	icon: "gtceu:cleanroom"
 	id: "737F81E21C442B4F"
 	images: [

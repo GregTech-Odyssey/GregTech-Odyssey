@@ -4,6 +4,7 @@
 	default_quest_shape: ""
 	filename: "main-stoneage"
 	group: "2A1218851E38A2EE"
+	hide_quest_until_deps_visible: true
 	icon: "minecraft:grass_block"
 	id: "2F98FBAEECC4F940"
 	images: [

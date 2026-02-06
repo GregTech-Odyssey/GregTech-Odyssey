@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "uhv"
 	group: "2A1218851E38A2EE"
+	hide_quest_until_deps_visible: true
 	icon: "gtocore:stellar_forge"
 	id: "552DDE11AB825B8C"
 	images: [
@@ -754,7 +755,9 @@
 			y: 8.5d
 		}
 		{
+			dependencies: ["1612D1DEB3A7BE2D"]
 			description: ["第一颗需要结晶而成"]
+			hide_dependency_lines: true
 			id: "704CF7B3EDDB19B2"
 			tasks: [{
 				id: "333D61C5F4BEC311"

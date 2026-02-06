@@ -4,6 +4,7 @@
 	default_quest_shape: ""
 	filename: "ev"
 	group: "2A1218851E38A2EE"
+	hide_quest_until_deps_visible: true
 	icon: "gtceu:alloy_blast_smelter"
 	id: "54FF22C8E901E6B9"
 	images: [

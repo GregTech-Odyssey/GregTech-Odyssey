@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "uev"
 	group: "2A1218851E38A2EE"
+	hide_quest_until_deps_visible: true
 	icon: "gtocore:sps_crafting"
 	id: "6FF8BEC3E0C25C4C"
 	images: [
@@ -337,12 +338,25 @@
 			y: -2.0d
 		}
 		{
+			icon: "gtocore:max_neutron_compressor"
 			id: "59C507864EF22311"
-			tasks: [{
-				id: "678A776140CA8468"
+			rewards: [{
+				id: "30FD1EEE371451DA"
 				item: "gtocore:neutron_compressor"
 				type: "item"
 			}]
+			tasks: [
+				{
+					id: "6E07670C027AE25C"
+					item: "gtocore:max_neutron_compressor"
+					type: "item"
+				}
+				{
+					id: "56D5AF113F972031"
+					item: "gtocore:infinity_singularity"
+					type: "item"
+				}
+			]
 			x: 2.0d
 			y: -0.5d
 		}
@@ -611,6 +625,28 @@
 			}]
 			x: 2.0d
 			y: -6.0d
+		}
+		{
+			dependencies: ["4BEE8DA7018CD14D"]
+			id: "349D841C3AC757EE"
+			tasks: [{
+				id: "4A693F247715A612"
+				item: "gtocore:swarm_core"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4BEE8DA7018CD14D"]
+			id: "1B03B310BE94A3B3"
+			tasks: [{
+				id: "4A24785F13C32923"
+				item: "gtocore:advanced_mass_fabricator"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
 		}
 	]
 	subtitle: ["Tier10-UEV"]

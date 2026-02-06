@@ -4,6 +4,7 @@
 	default_quest_shape: ""
 	filename: "ulv"
 	group: "2A1218851E38A2EE"
+	hide_quest_until_deps_visible: true
 	icon: "gtocore:primitive_distillation_tower"
 	id: "7EE10B51F068F7FB"
 	order_index: 2
