@@ -136,6 +136,11 @@
 			icon: "minecraft:chain"
 			id: "23D070BB1157701F"
 			min_width: 240
+			rewards: [{
+				id: "5771FE1A9ABFEEF0"
+				item: "gtocore:copper_coin"
+				type: "item"
+			}]
 			shape: "pentagon"
 			size: 1.5d
 			subtitle: "我是打铁匠，这就是锁连"
@@ -267,13 +272,13 @@
 		{
 			dependencies: ["79646E8E449D8A1A"]
 			description: [
-				"你可以在创建世界时更改难度，也可在mod配置里切换难度 （游戏菜单 > MOD > 搜索 GTOCore > 配置 > 游戏难度）。创建世界后你将无法更改难度！"
+				"你可以在创建世界时更改难度，也可在mod配置里切换难度 （游戏菜单 > MOD > 搜索 GTOCore > 配置 > 游戏难度）。创建世界后你将&c无法更改难度&r！"
 				""
 				"&a简单难度&r：&d新来的看看这里！&r简单模式专为新人设计：&e更强的发电机，未经修改的原版/AE配方与更弱的怪物&r，带来更轻松舒适的前期体验，助你完美完成入职计划！推荐给格雷科技或科技模组新手。"
 				""
 				"&b普通难度&r：&d正式员工来这里报到！&r普通模式提供最原汁原味的格雷游戏体验： &e正常的发电机和怪物，经过魔改的原版/AE配方&r，享受标准流畅的游戏流程。适合有格雷经验或熟练的科技包玩家，希望你顺利完成阶段考核！"
 				""
-				"&c专家难度&r：&d仅限老员工前来报到！&r专家模式开启更具挑战的征程：&eAE频道限制，更弱的发电机与产量更低的配方&r，充满“制作组诚意”的困难开局等你应战。仅推荐给本包通关玩家或资深挑战者——来证明你是一名优秀的格雷员工吧！"
+				"&c专家难度&r：&d仅限老员工前来报到！&r专家模式开启更具挑战的征程：&eAE频道限制，更弱的发电机与产量更低的配方&r，充满“制作组诚意”的困难开局等你应战。仅推荐给本包通关玩家或资深挑战者——&c选择此难度前请三思而后行！&r"
 				""
 				"&e请注意，本包为&l&6格雷专家包&r&e——即使是简单难度，其挑战性依然高于多数科技整合包。&r"
 				"{@pagebreak}"
@@ -384,7 +389,9 @@
 			description: [
 				"无论你想建造球形、圆形、柱体或者其他任何你想要的结构，按下&e[Alt]&r并选择对应形状，注意不要一次建造过大的结构，否则会造成FPS灾难"
 				""
-				"&e建筑手杖&r和&e建筑小帮手&r同样可用"
+				"&6建筑手杖&r和&6建筑小帮手&r同样可用"
+				""
+				"本包内添加的&6工业平台展开工具&r通过消耗工业组件，也可快速建造预设平台"
 			]
 			icon: {
 				Count: 1
@@ -419,7 +426,17 @@
 					type: "item"
 				}
 				{
-					id: "7E824E467813F47A"
+					id: "356899C58B5FA0CD"
+					item: "gtocore:industrial_platform_deployment_tools"
+					type: "item"
+				}
+				{
+					id: "7CC6854B8C3833B9"
+					item: "gtocore:standard_industrial_components_small"
+					type: "item"
+				}
+				{
+					id: "6ADC2D0D26DADAFD"
 					type: "checkmark"
 				}
 			]
@@ -643,8 +660,8 @@
 				}
 			]
 			title: "导线的特性"
-			x: 6.0d
-			y: -8.5d
+			x: 7.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["79646E8E449D8A1A"]
@@ -666,8 +683,8 @@
 				type: "checkmark"
 			}]
 			title: "提速的手段"
-			x: 6.0d
-			y: -1.5d
+			x: 7.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["16047F3F79404251"]
@@ -740,8 +757,8 @@
 				}
 			]
 			title: "超频！"
-			x: 8.0d
-			y: -3.0d
+			x: 9.0d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -774,8 +791,8 @@
 				}
 			]
 			title: "升压机制"
-			x: 6.0d
-			y: -3.25d
+			x: 7.0d
+			y: -2.25d
 		}
 		{
 			dependencies: [
@@ -822,8 +839,8 @@
 				}
 			]
 			title: "超损超频！？"
-			x: 10.0d
-			y: -3.0d
+			x: 11.0d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -854,8 +871,8 @@
 				}
 			]
 			title: "超级超频！！！"
-			x: 12.0d
-			y: -3.0d
+			x: 13.0d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -906,8 +923,8 @@
 				}
 			]
 			title: "贴片系列"
-			x: 10.0d
-			y: 0.0d
+			x: 11.0d
+			y: 1.0d
 		}
 		{
 			dependencies: [
@@ -932,8 +949,8 @@
 				}
 			]
 			title: "可配置维护仓"
-			x: 8.0d
-			y: 0.0d
+			x: 9.0d
+			y: 1.0d
 		}
 		{
 			dependencies: [
@@ -964,8 +981,8 @@
 				}
 			]
 			title: "并行仓"
-			x: 10.0d
-			y: -1.5d
+			x: 11.0d
+			y: -0.5d
 		}
 		{
 			dependencies: [
@@ -994,8 +1011,8 @@
 				}
 			]
 			title: "加速仓"
-			x: 8.0d
-			y: -1.5d
+			x: 9.0d
+			y: -0.5d
 		}
 		{
 			dependencies: [
@@ -1024,8 +1041,8 @@
 				}
 			]
 			title: "线程仓"
-			x: 12.0d
-			y: 0.0d
+			x: 13.0d
+			y: 1.0d
 		}
 		{
 			dependencies: [
@@ -1080,8 +1097,8 @@
 				}
 			]
 			title: "线圈/玻璃"
-			x: 12.0d
-			y: -1.5d
+			x: 13.0d
+			y: -0.5d
 		}
 		{
 			description: ["希望贡献更多提示？在qq群/discord/github上留下你的脚印！"]
@@ -1091,8 +1108,8 @@
 				type: "checkmark"
 			}]
 			title: "遗漏提示？"
-			x: 4.0d
-			y: -7.5d
+			x: 5.0d
+			y: -6.5d
 		}
 		{
 			dependencies: [
@@ -1129,8 +1146,8 @@
 				}
 			]
 			title: "功能性方块的电压"
-			x: 6.0d
-			y: 0.25d
+			x: 7.0d
+			y: 1.25d
 		}
 		{
 			dependencies: [
@@ -1155,8 +1172,8 @@
 				type: "checkmark"
 			}]
 			title: "最大功率和最大配方等级"
-			x: 6.0d
-			y: -5.0d
+			x: 7.0d
+			y: -4.0d
 		}
 		{
 			dependencies: [
@@ -1173,8 +1190,8 @@
 				type: "item"
 			}]
 			title: "太空电梯动力模块"
-			x: 14.0d
-			y: -1.5d
+			x: 15.0d
+			y: -0.5d
 		}
 		{
 			dependencies: [
@@ -1207,8 +1224,8 @@
 				}
 			]
 			title: "都变成无线能源仓了"
-			x: 6.0d
-			y: 3.75d
+			x: 7.0d
+			y: 4.75d
 		}
 		{
 			dependencies: ["79646E8E449D8A1A"]
@@ -1383,8 +1400,8 @@
 				type: "checkmark"
 			}]
 			title: "塞不下..."
-			x: 6.0d
-			y: 2.0d
+			x: 7.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["79646E8E449D8A1A"]
@@ -1483,7 +1500,7 @@
 				""
 				"&6超频最小时间&r：用于控制机器&e超频&r可以到达的&b最小时间&r。具体机制请查看本页的超频介绍。"
 				""
-				"&6批处理&r：GTO新加入的机制，当开启之后机器会&c尽可能&r使用输入仓室中的所有材料，并将输出时间&b乘以&r执行的&e配方数量&r。单次批处理上限&a3600&r秒。"
+				"&6批处理&r：GTO新加入的机制，当开启之后机器会&c尽可能&r使用输入仓室中的所有材料，并将输出时间&b乘以&r执行的&e配方数量&r。单次批处理时间有上限。"
 				""
 				"&6更新结构检查&r：GTO为了性能，在多方块搭建完成后&c不会&r立即判断&e是否成型&r。你可以点击此按钮来立刻判断。"
 				""
@@ -1499,8 +1516,8 @@
 				type: "checkmark"
 			}]
 			title: "全是按钮"
-			x: 8.0d
-			y: -5.0d
+			x: 9.0d
+			y: -4.0d
 		}
 		{
 			dependencies: [
@@ -1597,8 +1614,8 @@
 				}
 			]
 			title: "研究的奥秘"
-			x: 6.0d
-			y: 5.5d
+			x: 7.0d
+			y: 6.5d
 		}
 		{
 			dependencies: [
@@ -1629,8 +1646,8 @@
 				}
 			]
 			title: "魔法的无损超频"
-			x: 10.0d
-			y: -4.5d
+			x: 11.0d
+			y: -3.5d
 		}
 		{
 			dependencies: [
@@ -1661,8 +1678,8 @@
 				type: "checkmark"
 			}]
 			title: "单方块配置"
-			x: 6.0d
-			y: -6.75d
+			x: 7.0d
+			y: -5.75d
 		}
 		{
 			description: [
@@ -1859,6 +1876,29 @@
 				type: "checkmark"
 			}]
 			x: 3.75d
+			y: 6.0d
+		}
+		{
+			description: [
+				"从掌上银行获取格雷会员卡"
+				""
+				"目前已知多人游戏有bug，且游戏货币系统不完善，暂时没什么用"
+			]
+			icon: "gtocore:lv_trading_station"
+			id: "415C09EF88BE19B4"
+			tasks: [
+				{
+					id: "56F843B90CFB7953"
+					item: "gtocore:lv_trading_station"
+					type: "item"
+				}
+				{
+					id: "49A50D0C6C3C5660"
+					item: "gtocore:palm_sized_bank"
+					type: "item"
+				}
+			]
+			x: -3.75d
 			y: 6.0d
 		}
 	]

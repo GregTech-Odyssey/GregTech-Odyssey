@@ -57,6 +57,12 @@
 			x: -5.5d
 			y: 0.0d
 		}
+		{
+			id: "737FD2EA3BF85384"
+			linked_quest: "23D070BB1157701F"
+			x: 11.0d
+			y: -3.5d
+		}
 	]
 	quests: [
 		{
@@ -590,7 +596,7 @@
 					type: "item"
 				}
 			]
-			shape: "circle"
+			shape: "hexagon"
 			size: 1.5d
 			subtitle: "该来的还是要来"
 			tasks: [{
@@ -726,7 +732,7 @@
 				}
 			]
 			shape: "hexagon"
-			size: 1.5d
+			size: 1.25d
 			subtitle: "前期特别重要的矿石"
 			tasks: [
 				{
@@ -777,7 +783,7 @@
 				}
 			]
 			title: "史蒂夫去哪儿？"
-			x: 13.5d
+			x: 13.0d
 			y: 0.0d
 		}
 		{
