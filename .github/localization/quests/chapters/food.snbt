@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "food"
 	group: "48D03BA483B3FA87"
+	hide_quest_until_deps_visible: true
 	id: "60BF200EAF8756C2"
 	order_index: 5
 	quest_links: [ ]

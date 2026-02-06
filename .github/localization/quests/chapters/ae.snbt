@@ -4,6 +4,7 @@
 	default_quest_shape: "square"
 	filename: "ae"
 	group: "48D03BA483B3FA87"
+	hide_quest_until_deps_visible: true
 	icon: "ae2:interface"
 	id: "775486FF148AC1FA"
 	images: [
@@ -1581,6 +1582,7 @@
 				"{gto.ae.quests.0BC456B4331C09F5.description0}"
 				""
 				"{gto.ae.quests.0BC456B4331C09F5.description1}"
+				""
 				"{gto.ae.quests.0BC456B4331C09F5.description2}"
 				"{gto.ae.quests.0BC456B4331C09F5.description3}"
 				"{gto.ae.quests.0BC456B4331C09F5.description4}"
@@ -1588,6 +1590,8 @@
 				"{gto.ae.quests.0BC456B4331C09F5.description5}"
 				""
 				"{gto.ae.quests.0BC456B4331C09F5.description6}"
+				""
+				"{gto.ae.quests.0BC456B4331C09F5.description7}"
 			]
 			icon: "gtceu:me_pattern_buffer"
 			id: "0BC456B4331C09F5"

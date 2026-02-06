@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "magic2"
 	group: "48D03BA483B3FA87"
+	hide_quest_until_deps_visible: true
 	icon: "botania:dice"
 	id: "33F2D5FBE1761AA9"
 	order_index: 2
@@ -439,7 +440,6 @@
 				""
 				"{gto.magic2.quests.27CD17C4B3613171.description1}"
 			]
-			hide_until_deps_visible: false
 			id: "27CD17C4B3613171"
 			shape: "gear"
 			size: 2.5d
@@ -550,7 +550,6 @@
 		}
 		{
 			dependencies: ["50A2D68A83A50F47"]
-			hide_until_deps_visible: false
 			icon_scale: 2.0d
 			id: "4E7B1FF823C85AD6"
 			shape: "none"
@@ -564,7 +563,6 @@
 		}
 		{
 			dependencies: ["50A2D68A83A50F47"]
-			hide_until_deps_visible: false
 			icon_scale: 2.0d
 			id: "0C56CB7815A1355C"
 			shape: "none"
@@ -589,7 +587,6 @@
 		}
 		{
 			dependencies: ["50A2D68A83A50F47"]
-			hide_until_deps_visible: false
 			icon_scale: 2.0d
 			id: "1EE1EF4695A39876"
 			shape: "none"
@@ -603,7 +600,6 @@
 		}
 		{
 			dependencies: ["50A2D68A83A50F47"]
-			hide_until_deps_visible: false
 			icon_scale: 2.0d
 			id: "6AFC5FE71A80913E"
 			shape: "none"
@@ -617,7 +613,6 @@
 		}
 		{
 			dependencies: ["50A2D68A83A50F47"]
-			hide_until_deps_visible: false
 			icon_scale: 2.0d
 			id: "780B0A790C6AF9DB"
 			shape: "none"
@@ -631,7 +626,6 @@
 		}
 		{
 			dependencies: ["50A2D68A83A50F47"]
-			hide_until_deps_visible: false
 			icon_scale: 2.0d
 			id: "16DE70DE2463A5DD"
 			shape: "none"
@@ -2190,7 +2184,6 @@
 			dependencies: ["57038022345C40A6"]
 			description: ["{gto.magic2.quests.69B3B50FB64F3BF6.description0}"]
 			hide_dependent_lines: true
-			hide_until_deps_visible: false
 			icon_scale: 2.0d
 			id: "69B3B50FB64F3BF6"
 			shape: "none"

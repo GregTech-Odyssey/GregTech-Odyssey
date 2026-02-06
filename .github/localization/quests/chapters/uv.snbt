@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "uv"
 	group: "2A1218851E38A2EE"
+	hide_quest_until_deps_visible: true
 	icon: "gtocore:space_elevator"
 	id: "366A2FFB50EF9456"
 	images: [
@@ -1176,21 +1177,6 @@
 			}]
 			x: -1.5d
 			y: 10.5d
-		}
-		{
-			disable_toast: true
-			hide_text_until_complete: true
-			icon_scale: 0.2d
-			id: "07D1D0878AFD6400"
-			shape: "none"
-			size: 0.25d
-			tasks: [{
-				id: "4B5B5852173F56A3"
-				item: "gtocore:wetware_soc"
-				type: "item"
-			}]
-			x: 3.0d
-			y: 12.5d
 		}
 		{
 			dependencies: ["0B7A508B2670C9C2"]

@@ -4,6 +4,7 @@
 	default_quest_shape: "square"
 	filename: "space-station"
 	group: "5EEE1B83CA094132"
+	hide_quest_until_deps_visible: true
 	icon: "gtocore:planet_scan_satellite"
 	id: "3BF7BECF0C9F7ED9"
 	images: [

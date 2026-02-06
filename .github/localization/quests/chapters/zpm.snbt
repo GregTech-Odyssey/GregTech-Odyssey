@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "zpm"
 	group: "2A1218851E38A2EE"
+	hide_quest_until_deps_visible: true
 	icon: "gtocore:nano_forge"
 	id: "7D815C5C7CE4821E"
 	images: [

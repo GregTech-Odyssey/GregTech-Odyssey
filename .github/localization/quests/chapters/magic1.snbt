@@ -4,6 +4,7 @@
 	default_quest_shape: ""
 	filename: "magic1"
 	group: "48D03BA483B3FA87"
+	hide_quest_until_deps_visible: true
 	icon: "gtocore:colorful_mystical_flower"
 	id: "1883B79BDB2AAE5D"
 	order_index: 1
@@ -551,7 +552,6 @@
 				""
 				"{gto.magic1.quests.4E02DC8A474A4A2F.description1}"
 			]
-			hide_until_deps_visible: false
 			id: "4E02DC8A474A4A2F"
 			shape: "hexagon"
 			tasks: [{
@@ -607,7 +607,6 @@
 				""
 				"{gto.magic1.quests.7A359C1F5E041C4F.description3}"
 			]
-			hide_until_deps_visible: false
 			id: "7A359C1F5E041C4F"
 			min_width: 300
 			shape: "hexagon"
@@ -638,7 +637,6 @@
 				""
 				"{gto.magic1.quests.70C5A902C0D26628.description1}"
 			]
-			hide_until_deps_visible: false
 			id: "70C5A902C0D26628"
 			shape: "hexagon"
 			size: 1.5d
@@ -1428,7 +1426,6 @@
 				""
 				"{gto.magic1.quests.205BBDFBCA582E3B.description3}"
 			]
-			hide_until_deps_visible: false
 			id: "205BBDFBCA582E3B"
 			shape: "hexagon"
 			size: 1.25d

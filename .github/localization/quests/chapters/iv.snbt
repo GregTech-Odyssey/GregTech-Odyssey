@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "iv"
 	group: "2A1218851E38A2EE"
+	hide_quest_until_deps_visible: true
 	icon: "gtceu:assembly_line"
 	id: "3F8D9D2B382EE265"
 	images: [

@@ -4,6 +4,7 @@
 	default_quest_shape: ""
 	filename: "luv"
 	group: "2A1218851E38A2EE"
+	hide_quest_until_deps_visible: true
 	icon: "gtceu:luv_fusion_reactor"
 	id: "19CB76240F7730C8"
 	images: [

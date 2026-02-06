@@ -46,7 +46,7 @@
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			id: "619EE8C56F705241"
-			invisible_until_tasks: 9999
+			invisible: true
 			progression_mode: "flexible"
 			tasks: [{
 				consume_items: false
@@ -65,6 +65,7 @@
 		}
 		{
 			id: "54869A710D7DC29D"
+			invisible: true
 			tasks: [{
 				id: "2AD96079FB73F89A"
 				item: "gtocore:precision_steam_mechanism"
@@ -351,6 +352,7 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "64642383F67CAA6F"
+			invisible: true
 			tasks: [{
 				id: "6B7BEF097781DFDB"
 				stat: "minecraft:jump"
@@ -455,16 +457,6 @@
 			}]
 			x: 0.5d
 			y: 6.0d
-		}
-		{
-			id: "6ED98823FB8CA8ED"
-			tasks: [{
-				id: "65602D280FA2A4B1"
-				item: "gtceu:astatine_dust"
-				type: "item"
-			}]
-			x: 8.5d
-			y: 0.0d
 		}
 		{
 			id: "28C9BF5C59F5F723"

@@ -300,11 +300,10 @@
 				"{gto.wireless-energy.quests.0828014567C613E1.description1}"
 				""
 				"{gto.wireless-energy.quests.0828014567C613E1.description2}"
-				""
-				"{gto.wireless-energy.quests.0828014567C613E1.description3}"
 			]
 			hide_dependency_lines: false
 			id: "0828014567C613E1"
+			subtitle: "{gto.wireless-energy.quests.0828014567C613E1.subtitle}"
 			tasks: [{
 				id: "31AC0A1F7D0AE71F"
 				title: "{gto.wireless-energy.quests.0828014567C613E1.tasks.31AC0A1F7D0AE71F.title}"
