@@ -2824,11 +2824,6 @@ hash = "02db0c060c27e7dcff0eaf34e399573ae12413bdc74a98cecac445f5e46b1adc"
 metafile = true
 
 [[files]]
-file = "mods/falling-leaves-forge.pw.toml"
-hash = "83b9e0f4fe638d26049712d0e63cb1ab3496ee6d707d547ec886c2ac75e7f992"
-metafile = true
-
-[[files]]
 file = "mods/fancymenu.pw.toml"
 hash = "fa9aa329bdbefc9430cdc17bf44456c278eb3a3632956b472f71f97df6c2f9a4"
 metafile = true
