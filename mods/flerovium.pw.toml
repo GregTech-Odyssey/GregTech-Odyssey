@@ -1,13 +1,13 @@
 name = "Flerovium"
-filename = "flerovium-forge-1.20.1-1.2.17-all.jar"
+filename = "flerovium-forge-1.20.1-1.2.18-all.jar"
 side = "client"
 
 [download]
 hash-format = "sha1"
-hash = "1805429d1a89be8ca045320bc7f989607b8f848a"
+hash = "319af234013d646ef289515efa8bb0c3df2ca34d"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 7530352
+file-id = 7584065
 project-id = 1142875
