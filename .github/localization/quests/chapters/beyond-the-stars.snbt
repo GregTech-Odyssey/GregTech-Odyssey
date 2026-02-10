@@ -3,7 +3,8 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "beyond-the-stars"
-	group: ""
+	group: "5EEE1B83CA094132"
+	hide_quest_until_deps_visible: true
 	icon: {
 		Count: 1
 		id: "ad_astra_rocketed:tier_7_rocket"
@@ -148,7 +149,7 @@
 			y: -5.5d
 		}
 	]
-	order_index: 6
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -2065,10 +2066,7 @@
 			y: 13.0d
 		}
 		{
-			dependencies: [
-				"05C7059BC114AD42"
-				"7DD3E20C1AF38823"
-			]
+			dependencies: ["7DD3E20C1AF38823"]
 			description: ["{gto.beyond-the-stars.quests.72AACC1178BF7586.description0}"]
 			hide_dependency_lines: true
 			id: "72AACC1178BF7586"
@@ -2216,7 +2214,10 @@
 			y: 13.0d
 		}
 		{
-			dependencies: ["72AACC1178BF7586"]
+			dependencies: [
+				"72AACC1178BF7586"
+				"05C7059BC114AD42"
+			]
 			description: [
 				"{gto.beyond-the-stars.quests.6320619CCAE8158F.description0}"
 				"{@pagebreak}"
@@ -2363,7 +2364,6 @@
 				"67A5C9B045EE23B0"
 				"462BE2D4394A2899"
 			]
-			description: ["{gto.beyond-the-stars.quests.2A60421E915FF505.description0}"]
 			id: "2A60421E915FF505"
 			shape: "gear"
 			size: 2.0d
@@ -2702,22 +2702,6 @@
 			title: "{gto.beyond-the-stars.quests.13F025F762A84795.title}"
 			x: -9.0d
 			y: 19.0d
-		}
-		{
-			dependencies: ["05C7059BC114AD42"]
-			disable_toast: true
-			icon_scale: 0.25d
-			id: "3F5615CFF4DB8BB4"
-			shape: "none"
-			size: 0.25d
-			tasks: [{
-				id: "2E7058B13C445547"
-				stat: "minecraft:jump"
-				type: "stat"
-				value: 1
-			}]
-			x: -3.0d
-			y: 16.0d
 		}
 	]
 	subtitle: ["{gto.beyond-the-stars.subtitle0}"]

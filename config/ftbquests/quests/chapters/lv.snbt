@@ -4,6 +4,7 @@
 	default_quest_shape: ""
 	filename: "lv"
 	group: "2A1218851E38A2EE"
+	hide_quest_until_deps_visible: true
 	icon: "gtceu:electric_blast_furnace"
 	id: "4015C56C0D562D25"
 	images: [
@@ -277,7 +278,7 @@
 				""
 				"后面搅拌机会用得非常多，为了避免串配方，整多几个总不是坏事"
 				""
-				"&7 提示：每台机器的左下角都有一个“锁定配方”按钮，点击启用则机器只会执行最近执行过的配方，也可以在一定程度上减少卡顿&r"
+				"&o&7提示：小机器的左下角都有一个“输入限制”按钮，点击启用则一种原材料最多只能占用机器的一个输入槽"
 			]
 			id: "2C9031FA63A5278B"
 			shape: "hexagon"
@@ -301,7 +302,7 @@
 				""
 				"由于熔点过高，&6流体提取机&r无法做到很多事情，需要&6液化炉&r出马"
 				""
-				"等后面的阶段有条件上并行仓了一定记得要补上"
+				"加装附属模块后支持&e并行&r"
 				""
 				"&o&7液化炉取代了提取机的大部分职能导致提取机没什么用了"
 			]
@@ -631,7 +632,7 @@
 				item: "gtocore:precision_steam_mechanism"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 2.0d
 			y: 7.5d
 		}
 		{
@@ -847,6 +848,11 @@
 			]
 			icon: "gtceu:lv_energy_input_hatch"
 			id: "23A116C4BAE96979"
+			rewards: [{
+				id: "27B3BEBE0FC9D1FF"
+				item: "gtocore:gold_coin"
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 1.5d
 			subtitle: "影响机器工作电压和配方的执行速度"
@@ -859,7 +865,7 @@
 				}
 				{
 					id: "06DF196295344F3C"
-					title: "请务必知晓升压规律!"
+					title: "请务必知晓双仓升压!"
 					type: "checkmark"
 				}
 			]
@@ -872,7 +878,7 @@
 			description: [
 				"严禁共用维护仓和消声仓！"
 				""
-				"维护&6维护仓&r时，请将所需工具放在物品栏中，空手点击维修槽位即可。如果放入&6胶带&r，机器会在故障时自动消耗一个胶带进行维护。"
+				"维护&6维护仓&r时，请将所需工具放在&e物品栏/工具皮带&r中，空手点击维修槽位即可。如果放入&6胶带&r，机器会在故障时自动消耗一个胶带进行维护。"
 				""
 				"&6消声仓&r前方3格必须&c无遮挡&r（包括管道）！并且现在消声仓在默认配置、普通以上难度时每秒有一定概率会产生灰烬，灰烬满后也视为&c被遮挡&r，使得机器罢工！"
 				""
@@ -1133,7 +1139,7 @@
 				""
 				"你可以在任何大量用电的地方见识一下它的POWER"
 				""
-				"使用无线电网模式无需放置动力仓"
+				"&e使用无线电网模式无需放置动力仓&r"
 			]
 			hide_dependency_lines: true
 			id: "0F5CFFD0108CC61B"
@@ -1688,7 +1694,7 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["7392F240AD330C1A"]
+			dependencies: ["1369B896AC811F03"]
 			icon: "gtceu:lv_battery_hull"
 			id: "35347DE9C34F2825"
 			tasks: [{
@@ -1703,7 +1709,7 @@
 				title: "小型电池"
 				type: "item"
 			}]
-			x: -1.0d
+			x: -2.5d
 			y: -7.0d
 		}
 		{
@@ -1714,7 +1720,7 @@
 				item: "gtceu:lv_battery_buffer_16x"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -4.5d
 			y: -5.5d
 		}
 		{
@@ -1787,7 +1793,7 @@
 				title: "电钻"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -4.5d
 			y: -7.5d
 		}
 		{
@@ -1830,7 +1836,7 @@
 				title: "链锯"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -4.5d
 			y: -6.5d
 		}
 		{
@@ -1860,7 +1866,7 @@
 				item: "gtceu:prospector.lv"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -4.5d
 			y: -8.5d
 		}
 		{
@@ -1901,9 +1907,11 @@
 			description: [
 				"&l&e附属模块&r&r机制是GTO的特色之一！"
 				""
-				"在你之后获得了更好的资源之后，有一部分机器能加装&e附属模块&r，它们允许机器添加更多&6能源仓&r，甚至有可能是&6加速仓&r或者&6并行仓&r！"
+				"在你之后获得了更好的资源之后，有一部分机器能加装&e附属模块&r，它们允许机器安装新的仓室（如&6加速仓&r，&6并行仓&r，更多的&6输入输出和能源仓&r），部分机器的附属模块本身还提供了&b额外效果&r（如通用工厂）"
 				""
 				"打开EMI多方块预览，点击右侧P可以查看附属模块，需要注意，&e你应当把模块加装到原来机器上，而非拆除原本机器重新建造&r！"
+				""
+				"使用&b高级终端&r可以指定建造附属模块"
 				""
 				"在你进入HV获得&6不锈钢&r时，你可以为电力高炉安装&e附属模块&r"
 			]
@@ -2376,8 +2384,8 @@
 				type: "checkmark"
 			}]
 			title: "铝补助&a（简单）&r"
-			x: 6.5d
-			y: 4.0d
+			x: 5.5d
+			y: 4.5d
 		}
 		{
 			dependencies: [
@@ -2586,8 +2594,8 @@
 				type: "checkmark"
 			}]
 			title: "铝补助&e（普通）&r"
-			x: 6.5d
-			y: 2.0d
+			x: 4.5d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -2642,6 +2650,55 @@
 			}]
 			x: 3.0d
 			y: -4.0d
+		}
+		{
+			dependencies: [
+				"056EC4E6FAF614B7"
+				"5D439C42DEFEC912"
+				"0D26129C7015E4D1"
+			]
+			description: [
+				"在简单模式下，你可以提前进入虚空和超平坦世界"
+				""
+				"虚空传送器没有电压需求，需要充满能量后才可使用。&616安LV能源仓&r刚好满足它的最低功率需求"
+				""
+				"虚空传送器的具体使用方法请参考位于HV章节的虚空传送器任务"
+			]
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:block/nether_portal"
+				}
+			}
+			id: "6C6C0101F0002AE7"
+			optional: true
+			rewards: [{
+				id: "79E0D2B52AD6FEB7"
+				item: "gtocore:void_transporter"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "1A0CEB0558BC53AD"
+				type: "checkmark"
+			}]
+			title: "前往虚空和超平坦世界&a（简单）&r"
+			x: 0.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["7392F240AD330C1A"]
+			id: "1369B896AC811F03"
+			shape: "hexagon"
+			tasks: [{
+				id: "341D54153D54D732"
+				item: "gtceu:lv_canner"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -7.0d
 		}
 	]
 	subtitle: ["Tier1-LV"]

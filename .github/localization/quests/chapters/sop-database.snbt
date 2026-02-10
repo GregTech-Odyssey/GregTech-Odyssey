@@ -138,6 +138,11 @@
 			y: -5.0d
 		}
 		{
+			description: [
+				"{gto.sop-database.quests.012883451014CA67.description0}"
+				""
+				"{gto.sop-database.quests.012883451014CA67.description1}"
+			]
 			id: "012883451014CA67"
 			tasks: [{
 				id: "1374A89A368DAEB7"

@@ -4,6 +4,7 @@
 	default_quest_shape: ""
 	filename: "steam"
 	group: "2A1218851E38A2EE"
+	hide_quest_until_deps_visible: true
 	icon: "gtceu:lp_steam_solid_boiler"
 	id: "1739461D441B48C6"
 	images: [
@@ -113,6 +114,22 @@
 			width: 1.0d
 			x: 6.75d
 			y: -2.0d
+		}
+		{
+			height: 1.75d
+			image: "ftbquests:textures/shapes/hexagon/outline.png"
+			rotation: 0.0d
+			width: 1.75d
+			x: 11.25d
+			y: 4.5d
+		}
+		{
+			height: 1.25d
+			image: "ftbquests:textures/shapes/diamond/outline.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 0.5d
+			y: 6.0d
 		}
 	]
 	order_index: 1
@@ -582,6 +599,7 @@
 			y: 8.5d
 		}
 		{
+			dependencies: ["6E2614839731BF0D"]
 			description: [
 				"{gto.steam.quests.7F1CF6D7C0CA4DB2.description0}"
 				""
@@ -591,6 +609,7 @@
 				""
 				"{gto.steam.quests.7F1CF6D7C0CA4DB2.description3}"
 			]
+			hide_dependency_lines: true
 			id: "7F1CF6D7C0CA4DB2"
 			subtitle: "{gto.steam.quests.7F1CF6D7C0CA4DB2.subtitle}"
 			tasks: [
@@ -747,7 +766,7 @@
 				""
 				"{gto.steam.quests.4F1FEB6CE7C64D14.description2}"
 				""
-				"[\"\", {\"translate\": \"gto.steam.quests.4F1FEB6CE7C64D14.description3.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"1CE2E908034CC401\"}, \"translate\": \"gto.steam.quests.4F1FEB6CE7C64D14.description3.rich_text1\"}, {\"translate\": \"gto.steam.quests.4F1FEB6CE7C64D14.description3.rich_text2\"}]"
+				"[\"\", {\"translate\": \"gto.steam.quests.4F1FEB6CE7C64D14.description3.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"15F751DFB8990D1A\"}, \"translate\": \"gto.steam.quests.4F1FEB6CE7C64D14.description3.rich_text1\"}]"
 				""
 				"{gto.steam.quests.4F1FEB6CE7C64D14.description4}"
 			]
@@ -873,19 +892,17 @@
 			}]
 			title: "{gto.steam.quests.7E046341CF58BB22.title}"
 			x: 15.0d
-			y: 3.0d
+			y: 3.5d
 		}
 		{
 			dependencies: [
 				"7E046341CF58BB22"
-				"21D331D7F4F8862C"
+				"4515F2289516C295"
 			]
 			description: [
 				"{gto.steam.quests.53109F7472C0B443.description0}"
 				""
 				"{gto.steam.quests.53109F7472C0B443.description1}"
-				""
-				"{gto.steam.quests.53109F7472C0B443.description2}"
 			]
 			id: "53109F7472C0B443"
 			rewards: [{
@@ -903,8 +920,8 @@
 				type: "item"
 			}]
 			title: "{gto.steam.quests.53109F7472C0B443.title}"
-			x: 15.000000000000007d
-			y: 0.0d
+			x: 15.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["24C53B5FF515ACAC"]
@@ -925,20 +942,13 @@
 			shape: "hexagon"
 			size: 1.5d
 			subtitle: "{gto.steam.quests.21D331D7F4F8862C.subtitle}"
-			tasks: [
-				{
-					id: "6D9D8E445BD7DAA3"
-					item: "gtocore:lp_steam_vacuum_pump"
-					type: "item"
-				}
-				{
-					id: "3330B352053597A3"
-					item: "gtceu:bronze_huge_fluid_pipe"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "6D9D8E445BD7DAA3"
+				item: "gtocore:lp_steam_vacuum_pump"
+				type: "item"
+			}]
 			title: "{gto.steam.quests.21D331D7F4F8862C.title}"
-			x: 15.000000000000007d
+			x: 15.0d
 			y: -2.0d
 		}
 		{
@@ -1263,6 +1273,10 @@
 				"{gto.steam.quests.15F751DFB8990D1A.description0}"
 				""
 				"[\"\", {\"translate\": \"gto.steam.quests.15F751DFB8990D1A.description1.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"1CE2E908034CC401\"}, \"translate\": \"gto.steam.quests.15F751DFB8990D1A.description1.rich_text1\"}, {\"translate\": \"gto.steam.quests.15F751DFB8990D1A.description1.rich_text2\"}]"
+				""
+				"[\"\", {\"translate\": \"gto.steam.quests.15F751DFB8990D1A.description2.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"3D7C322A6DBCF085\"}, \"translate\": \"gto.steam.quests.15F751DFB8990D1A.description2.rich_text1\"}, {\"translate\": \"gto.steam.quests.15F751DFB8990D1A.description2.rich_text2\"}]"
+				""
+				"{gto.steam.quests.15F751DFB8990D1A.description3}"
 			]
 			id: "15F751DFB8990D1A"
 			optional: true
@@ -1703,7 +1717,7 @@
 				}
 			]
 			x: -11.0d
-			y: 6.5d
+			y: 4.5d
 		}
 		{
 			dependencies: [
@@ -1841,7 +1855,7 @@
 			}]
 			title: "{gto.steam.quests.22DB1B2207221445.title}"
 			x: 17.5d
-			y: 0.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["24C53B5FF515ACAC"]
@@ -1868,7 +1882,7 @@
 			}]
 			title: "{gto.steam.quests.39D96F76911B771E.title}"
 			x: -11.0d
-			y: 4.5d
+			y: 6.5d
 		}
 		{
 			dependencies: [
@@ -1917,7 +1931,7 @@
 			}]
 			title: "{gto.steam.quests.189F5A3799E88B5C.title}"
 			x: 17.0d
-			y: 0.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["10C397237163BFFC"]
@@ -2048,8 +2062,14 @@
 			]
 			icon: "gtceu:steam_input_bus"
 			id: "4276738FE46AC021"
-			shape: "circle"
-			size: 1.0d
+			rewards: [{
+				count: 16
+				id: "10C00EAF76D71ABA"
+				item: "gtocore:copper_coin"
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 1.5d
 			tasks: [
 				{
 					id: "63875864EE49FB02"
@@ -2091,6 +2111,12 @@
 			description: ["{gto.steam.quests.4CE96E5E2F84EBBF.description0}"]
 			hide_dependency_lines: true
 			id: "4CE96E5E2F84EBBF"
+			rewards: [{
+				count: 12
+				id: "2B618FC8076F7BAE"
+				item: "pipez:item_pipe"
+				type: "item"
+			}]
 			shape: "diamond"
 			size: 1.5d
 			subtitle: "{gto.steam.quests.4CE96E5E2F84EBBF.subtitle}"
@@ -2107,6 +2133,12 @@
 			description: ["{gto.steam.quests.326B9B0D222A6E3B.description0}"]
 			hide_dependency_lines: true
 			id: "326B9B0D222A6E3B"
+			rewards: [{
+				count: 12
+				id: "6C3858A78582399A"
+				item: "pipez:fluid_pipe"
+				type: "item"
+			}]
 			shape: "diamond"
 			size: 1.5d
 			subtitle: "{gto.steam.quests.326B9B0D222A6E3B.subtitle}"
@@ -2134,6 +2166,11 @@
 			hide_dependency_lines: true
 			icon: "gtceu:steam_bucket"
 			id: "4673E95F6374C7AC"
+			rewards: [{
+				id: "7856D62DDB58BC72"
+				item: "gtocore:copper_coin"
+				type: "item"
+			}]
 			shape: "pentagon"
 			size: 1.5d
 			tasks: [{
@@ -2143,6 +2180,25 @@
 			title: "{gto.steam.quests.4673E95F6374C7AC.title}"
 			x: 2.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["21D331D7F4F8862C"]
+			description: [
+				"{gto.steam.quests.4515F2289516C295.description0}"
+				""
+				"{gto.steam.quests.4515F2289516C295.description1}"
+				""
+				"{gto.steam.quests.4515F2289516C295.description2}"
+			]
+			id: "4515F2289516C295"
+			tasks: [{
+				id: "220C06C4CB2C301F"
+				item: "gtceu:bronze_huge_fluid_pipe"
+				type: "item"
+			}]
+			title: "{gto.steam.quests.4515F2289516C295.title}"
+			x: 15.0d
+			y: -0.5d
 		}
 	]
 	subtitle: ["{gto.steam.subtitle0}"]

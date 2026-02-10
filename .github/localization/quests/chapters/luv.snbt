@@ -4,6 +4,7 @@
 	default_quest_shape: ""
 	filename: "luv"
 	group: "2A1218851E38A2EE"
+	hide_quest_until_deps_visible: true
 	icon: "gtceu:luv_fusion_reactor"
 	id: "19CB76240F7730C8"
 	images: [
@@ -555,6 +556,7 @@
 		}
 		{
 			dependencies: ["7E1C35C2DE805E6B"]
+			description: ["{gto.luv.quests.05EB6CDF13762280.description0}"]
 			id: "05EB6CDF13762280"
 			tasks: [{
 				id: "658C05C923FE963A"
@@ -1403,6 +1405,7 @@
 			dependencies: [
 				"056EC4E6FAF614B7"
 				"0C85F6611B7A1FCE"
+				"66AA197AB2675421"
 			]
 			disable_toast: true
 			hide_until_deps_visible: true

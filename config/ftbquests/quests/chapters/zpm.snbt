@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "zpm"
 	group: "2A1218851E38A2EE"
+	hide_quest_until_deps_visible: true
 	icon: "gtocore:nano_forge"
 	id: "7D815C5C7CE4821E"
 	images: [
@@ -914,7 +915,7 @@
 		}
 		{
 			dependencies: ["608F56E6A187940C"]
-			description: ["绝对乙醇可以通过乙醇+自循环沸石产生"]
+			description: ["无水乙醇可以通过乙醇+自循环沸石产生"]
 			id: "7E4DBCAC89579784"
 			tasks: [{
 				id: "62233B10FD891347"
@@ -1004,7 +1005,7 @@
 		}
 		{
 			dependencies: ["36A7AE94EDBE45C2"]
-			description: ["只在&6终极电容&r和&6空间站高能转换调配仓&r中作为原材料"]
+			description: ["是&6空间站高能转换调配仓&r和&6太空电梯连接仓&r的材料之一，也用于燃料电池发电"]
 			id: "49C45F55F5DF8BFC"
 			tasks: [{
 				id: "7378BC1E4E25C4DC"

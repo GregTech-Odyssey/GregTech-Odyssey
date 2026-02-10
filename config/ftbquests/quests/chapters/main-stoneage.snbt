@@ -4,8 +4,35 @@
 	default_quest_shape: ""
 	filename: "main-stoneage"
 	group: "2A1218851E38A2EE"
+	hide_quest_until_deps_visible: true
 	icon: "minecraft:grass_block"
 	id: "2F98FBAEECC4F940"
+	images: [
+		{
+			height: 1.75d
+			image: "ftbquests:textures/shapes/pentagon/outline.png"
+			rotation: 0.0d
+			width: 1.75d
+			x: 3.5d
+			y: 11.0d
+		}
+		{
+			height: 1.25d
+			image: "ftbquests:textures/shapes/circle/outline.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 11.0d
+			y: -2.5d
+		}
+		{
+			height: 1.75d
+			image: "ftbquests:textures/shapes/diamond/outline.png"
+			rotation: 0.0d
+			width: 1.75d
+			x: 6.5d
+			y: -2.0d
+		}
+	]
 	order_index: 0
 	quest_links: [
 		{
@@ -29,6 +56,12 @@
 			size: 3.0d
 			x: -5.5d
 			y: 0.0d
+		}
+		{
+			id: "737FD2EA3BF85384"
+			linked_quest: "23D070BB1157701F"
+			x: 11.0d
+			y: -3.5d
 		}
 	]
 	quests: [
@@ -295,6 +328,7 @@
 			icon: "minecraft:spruce_wood"
 			id: "3CF903DBC993F284"
 			invisible: true
+			optional: true
 			rewards: [
 				{
 					id: "0FD5C706556792C2"
@@ -375,9 +409,11 @@
 			description: [
 				"一开始你做的&6基础背包&r装不了多少东西，但也总算拯救了你的物品栏"
 				""
-				"&7Tips：终端成型建造多方块结构的时候可以把装不下的方块仓室什么的放到背包里面&r"
+				"终端成型建造多方块结构的时候可以把装不下的方块仓室什么的放到背包里面"
 				""
 				"[ \"可以在\", { \"text\": \"摩登时代\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1CE34BD4900990C6\" } }, \"章节继续寻找升级的方式\" ]"
+				""
+				"&o&7Tips：带有下划线的文本大多为超链接，可直接点击跳转"
 			]
 			icon: "sophisticatedbackpacks:backpack"
 			id: "4DC482C16035F261"
@@ -560,7 +596,7 @@
 					type: "item"
 				}
 			]
-			shape: "circle"
+			shape: "hexagon"
 			size: 1.5d
 			subtitle: "该来的还是要来"
 			tasks: [{
@@ -696,7 +732,7 @@
 				}
 			]
 			shape: "hexagon"
-			size: 1.5d
+			size: 1.25d
 			subtitle: "前期特别重要的矿石"
 			tasks: [
 				{
@@ -747,7 +783,7 @@
 				}
 			]
 			title: "史蒂夫去哪儿？"
-			x: 13.5d
+			x: 13.0d
 			y: 0.0d
 		}
 		{
@@ -868,7 +904,7 @@
 				}
 			]
 			title: "其他矿石"
-			x: 13.5d
+			x: 13.0d
 			y: 2.0d
 		}
 		{
@@ -1022,10 +1058,10 @@
 				"07169625BC595BD3"
 			]
 			description: [
-				"扳手：    右键点击可以&9&l设置GT机器的端口&r，而潜行右键点击可以&9&l旋转机器&r，也可以代替镐子破坏机器"
-				"螺丝刀：可以&9&l打开机器覆盖板"
-				"撬棍：     可以&9&l拆下覆盖板&r&r"
-				"剪线钳： 可以&9&l连接线缆"
+				"扳手：    右键点击可以&e&l设置GT机器的端口&r，而潜行右键点击可以&e&l旋转机器&r，也可以代替镐子破坏机器"
+				"螺丝刀：可以&e&l打开机器覆盖板"
+				"撬棍：     可以&e&l拆下覆盖板&r&r"
+				"剪线钳： 可以&e&l连接线缆"
 				""
 				"[ \"你可以查看提示章节的\", { \"text\": \"GT工具使用手册\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1A0EA7A29CFD830D\" } } ]"
 			]
@@ -1687,6 +1723,7 @@
 			icon: "minecraft:oak_sapling"
 			id: "06D038D098B3533F"
 			invisible: true
+			optional: true
 			rewards: [
 				{
 					id: "57915A5E96C6F441"
@@ -1890,7 +1927,11 @@
 		}
 		{
 			dependencies: ["67264EF0565CC030"]
-			description: ["销毁你的垃圾"]
+			description: [
+				"销毁你的垃圾"
+				""
+				"后面还能用来制作物质球和奇点"
+			]
 			id: "36ABEC62B0F6C71D"
 			rewards: [{
 				id: "70C0F724F8EF2B79"
@@ -1898,20 +1939,13 @@
 				type: "item"
 			}]
 			subtitle: "别丢错东西了"
-			tasks: [
-				{
-					id: "5F095539B1E545E4"
-					item: "terrific_trash_cans:fluid_trash_can"
-					type: "item"
-				}
-				{
-					id: "41110CE5D7A6642D"
-					item: "terrific_trash_cans:item_trash_can"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "2BCFF0375CAE346E"
+				item: "ae2:condenser"
+				type: "item"
+			}]
 			title: "垃圾桶"
-			x: 12.5d
+			x: 13.0d
 			y: 4.0d
 		}
 		{
@@ -1940,11 +1974,7 @@
 		}
 		{
 			dependencies: ["114AB458EFA11202"]
-			description: [
-				"你可以使用&e农夫乐事&r模组的&6砧板&r获得它，在这里你不能徒手分解花朵！"
-				""
-				"&o&7&m0.5.2版本可以&r"
-			]
+			description: ["你可以使用&e农夫乐事&r模组的&6砧板&r获得它，在这里你不能徒手分解花朵！"]
 			hide_dependency_lines: true
 			id: "07169625BC595BD3"
 			rewards: [{
@@ -1973,7 +2003,7 @@
 				}
 			]
 			title: "需要染料？"
-			x: 12.5d
+			x: 13.0d
 			y: 6.0d
 		}
 		{
@@ -2041,6 +2071,8 @@
 				"&2模块搭建：&r仅搭建对应多方块的附属模块"
 				""
 				"&4拆除模式：&r拆除搭建好的多方块"
+				""
+				"注：拆除配合模块搭建可以指定要拆除的部分（模块or本体）"
 			]
 			id: "06FE84E75DBE704A"
 			rewards: [
@@ -2085,11 +2117,11 @@
 			description: [
 				"如果你暂时不想推进主线了，可以看看支线：&b独善其身&r"
 				""
-				"包含魔法，神化，食物以及一些其他东西"
+				"包含AE，魔法，神化，食物以及一些其他东西"
 				""
 				"&e虽然魔法在到达LuV前并不是必选项，但我还是你建议发展魔法。&r发展魔法能够极大的提升你在科技线中的体验，&o沉淀总是有所回报的"
 				"{@pagebreak}"
-				"简单提一下魔法在主线中的应用：HV之前只需魔力池做超导体，HV需要魔力钢做样板更好的配方，需要开精灵门做源质钢做样板供应器更好的配方，LuV需要开门拿精灵玻璃做精灵透镜（必选），后续有部分超导体合成配方；EV做符文可以做下界之星更好的配方，UHV开始需要用到盖亚钢和盖亚魂钢，UEV开始大量使用盖亚魂，准备好盖亚魂循环"
+				"简单提一下魔法在主线中的应用：HV之前只需魔力池做超导体，HV需要魔力钢做样板更好的配方，需要开精灵门做源质钢做样板供应器更好的配方，LuV需要开门拿精灵玻璃做精灵透镜（&6必选&r），后续有部分超导体合成配方；EV做符文可以做下界之星更好的配方，UHV开始需要用到盖亚钢和盖亚魂钢，UEV开始大量使用盖亚魂，准备好盖亚魂循环"
 			]
 			icon: {
 				Count: 1
@@ -2099,6 +2131,11 @@
 				}
 			}
 			id: "1BA9FA9358CBF2E7"
+			rewards: [{
+				id: "31581923088AFF2A"
+				item: "gtocore:copper_coin"
+				type: "item"
+			}]
 			shape: "pentagon"
 			size: 1.5d
 			tasks: [{
@@ -2254,9 +2291,10 @@
 		{
 			dependencies: ["561D79DE960A034D"]
 			description: [
-				"用熔炉在地上摆放一个&a3x3x3&r形状的立方体，就会自动成型为&6Jumbo Furnace熔炉&r（巨型熔炉）"
+				"用熔炉在地上摆放一个&a3x3x3&r形状的立方体，就会自动成型为&6巨型熔炉&r"
+				"在其原料栏位放入&a27个&r熔炉可以烧制出一个同样的&6巨型熔炉&r物品，放入右下的槽位可以增加&e1并行&r"
 				""
-				"在其原料栏位放入&a27个&r熔炉可以烧制出一个&6巨型熔炉并行升级&r，放入右下的槽位可以增加&e并行&r"
+				"手持剪刀&e[Shift]+[右键]&r可以拆除巨型熔炉"
 				""
 				"&o&7它的性价比完爆了蒸汽时代熔炉，64并行足以满足你前期的烧炼需求。它还因为过强险些被删除"
 				""
@@ -2269,6 +2307,7 @@
 				type: "item"
 			}]
 			shape: "diamond"
+			size: 1.5d
 			subtitle: "你的第一个多方块结构...真的算是吗？"
 			tasks: [{
 				icon: "jumbofurnace:jumbo_furnace"
@@ -2301,6 +2340,38 @@
 			title: "夜视"
 			x: -1.5d
 			y: 1.5d
+		}
+		{
+			dependencies: [
+				"4CC934314D14A5EA"
+				"30D4CC9142D59DBD"
+			]
+			description: [
+				"清空容器或者机器中的流体，&c不会返还"
+				""
+				"&o&7橡胶需要蒸汽时代才能制作"
+			]
+			id: "084A8DE8B1F5CF3E"
+			optional: true
+			rewards: [{
+				id: "15F0B6F1F8A00969"
+				item: "gtocore:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7FA79D88DAA47846"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:tools/plungers"
+					}
+				}
+				title: "任意搋子"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 8.0d
 		}
 	]
 	subtitle: ["Hello World!"]

@@ -4,9 +4,10 @@
 	default_quest_shape: ""
 	filename: "magic1"
 	group: "48D03BA483B3FA87"
+	hide_quest_until_deps_visible: true
 	icon: "gtocore:colorful_mystical_flower"
 	id: "1883B79BDB2AAE5D"
-	order_index: 0
+	order_index: 1
 	progression_mode: "flexible"
 	quest_links: [{
 		id: "1637CAA410A0BDED"
@@ -551,7 +552,6 @@
 				""
 				"{gto.magic1.quests.4E02DC8A474A4A2F.description1}"
 			]
-			hide_until_deps_visible: false
 			id: "4E02DC8A474A4A2F"
 			shape: "hexagon"
 			tasks: [{
@@ -607,7 +607,6 @@
 				""
 				"{gto.magic1.quests.7A359C1F5E041C4F.description3}"
 			]
-			hide_until_deps_visible: false
 			id: "7A359C1F5E041C4F"
 			min_width: 300
 			shape: "hexagon"
@@ -638,7 +637,6 @@
 				""
 				"{gto.magic1.quests.70C5A902C0D26628.description1}"
 			]
-			hide_until_deps_visible: false
 			id: "70C5A902C0D26628"
 			shape: "hexagon"
 			size: 1.5d
@@ -1428,7 +1426,6 @@
 				""
 				"{gto.magic1.quests.205BBDFBCA582E3B.description3}"
 			]
-			hide_until_deps_visible: false
 			id: "205BBDFBCA582E3B"
 			shape: "hexagon"
 			size: 1.25d
@@ -3577,7 +3574,7 @@
 			dependencies: ["79BE48D56622542F"]
 			hide_dependency_lines: true
 			id: "16CE6D6560F6B36F"
-			size: 0.5d
+			size: 0.7d
 			subtitle: "{gto.magic1.quests.16CE6D6560F6B36F.subtitle}"
 			tasks: [{
 				id: "6D4FA9EEEAC68674"
@@ -3599,7 +3596,10 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["66E12F82F66FB8CE"]
+			dependencies: [
+				"66E12F82F66FB8CE"
+				"2A5BA479E707034B"
+			]
 			description: [
 				"{gto.magic1.quests.0B61448F01656C1D.description0}"
 				""
@@ -4072,6 +4072,7 @@
 				"{gto.magic1.quests.13ED9023E7486BCD.description2}"
 				"{image:arsmeteorites:textures/gui/direction.png width:100 height:100 align:center}"
 			]
+			hide_dependency_lines: true
 			id: "13ED9023E7486BCD"
 			shape: "diamond"
 			size: 1.0d
@@ -4301,9 +4302,12 @@
 				"4E9804ED6DE64BDF"
 				"3D862A3D3F83CA26"
 			]
-			description: ["{gto.magic1.quests.2A5BA479E707034B.description0}"]
+			description: [
+				"{gto.magic1.quests.2A5BA479E707034B.description0}"
+				""
+				"{gto.magic1.quests.2A5BA479E707034B.description1}"
+			]
 			hide_dependency_lines: true
-			hide_dependent_lines: true
 			id: "2A5BA479E707034B"
 			tasks: [
 				{
@@ -4350,7 +4354,7 @@
 			]
 			title: "{gto.magic1.quests.2A5BA479E707034B.title}"
 			x: 18.0d
-			y: -1.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["28D9ED74EBBC9818"]
@@ -4625,7 +4629,10 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["3D862A3D3F83CA26"]
+			dependencies: [
+				"3D862A3D3F83CA26"
+				"2A5BA479E707034B"
+			]
 			disable_toast: true
 			icon_scale: 0.25d
 			id: "3B20CAA27760A0B2"
@@ -4638,7 +4645,7 @@
 				value: 1
 			}]
 			x: 18.0d
-			y: -1.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["70C5A902C0D26628"]
@@ -4651,6 +4658,43 @@
 			}]
 			x: 13.25d
 			y: 3.5d
+		}
+		{
+			dependencies: [
+				"5FB36C788008C907"
+				"13ED9023E7486BCD"
+			]
+			disable_toast: true
+			icon_scale: 0.25d
+			id: "459E05AA75F232FF"
+			shape: "none"
+			size: 0.25d
+			tasks: [{
+				id: "21E2BF4AACE11E32"
+				stat: "minecraft:jump"
+				type: "stat"
+				value: 1
+			}]
+			x: 14.5d
+			y: 5.5d
+		}
+		{
+			description: ["{gto.magic1.quests.34D3EA68903F3879.description0}"]
+			id: "34D3EA68903F3879"
+			tasks: [
+				{
+					id: "1E218809AA6D8DF5"
+					item: "minecraft:blaze_powder"
+					type: "item"
+				}
+				{
+					id: "7D3F1703F2F2BB99"
+					item: "botania:fel_pumpkin"
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 2.0d
 		}
 	]
 	subtitle: ["{gto.magic1.subtitle0}"]

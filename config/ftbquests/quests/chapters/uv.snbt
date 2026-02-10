@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "uv"
 	group: "2A1218851E38A2EE"
+	hide_quest_until_deps_visible: true
 	icon: "gtocore:space_elevator"
 	id: "366A2FFB50EF9456"
 	images: [
@@ -216,8 +217,8 @@
 				item: "gtocore:infinity_fluid_drilling_rig"
 				type: "item"
 			}]
-			x: 6.5d
-			y: 0.0d
+			x: 5.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["52DFF4A301A510C8"]
@@ -1178,21 +1179,6 @@
 			y: 10.5d
 		}
 		{
-			disable_toast: true
-			hide_text_until_complete: true
-			icon_scale: 0.2d
-			id: "07D1D0878AFD6400"
-			shape: "none"
-			size: 0.25d
-			tasks: [{
-				id: "4B5B5852173F56A3"
-				item: "gtocore:wetware_soc"
-				type: "item"
-			}]
-			x: 3.0d
-			y: 12.5d
-		}
-		{
 			dependencies: ["0B7A508B2670C9C2"]
 			description: [
 				"极限压阶段仍还有一半的&a生&r&2物&r&a线&r要走"
@@ -1228,7 +1214,10 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["2CC625C1FFDB9AFF"]
+			dependencies: [
+				"2CC625C1FFDB9AFF"
+				"67050CC889ABB614"
+			]
 			disable_toast: true
 			icon_scale: 0.25d
 			id: "688ABD83133F885A"

@@ -4,6 +4,7 @@
 	default_quest_shape: ""
 	filename: "ulv"
 	group: "2A1218851E38A2EE"
+	hide_quest_until_deps_visible: true
 	icon: "gtocore:primitive_distillation_tower"
 	id: "7EE10B51F068F7FB"
 	order_index: 2
@@ -200,7 +201,9 @@
 			description: [
 				"蒸汽裂化机只能处理石化四种主要的中间产物（&6石脑油&r，&6炼油气&r，&6轻燃油&r，&6重燃油&r）"
 				""
-				"产量&b偏低&r，在HV能做&6裂化机&r后尽快换掉它"
+				"产量&c偏低且慢&r，在&7LV&r能制作&b基础化学反应釜&r之后可以换用反应釜配方获得50%的原料效率"
+				""
+				"在&6HV&r能做&b裂化机&r之后可以获得100%的原料效率"
 			]
 			id: "498D24745D509B73"
 			rewards: [{
@@ -681,9 +684,9 @@
 		{
 			dependencies: ["4678D97346E46529"]
 			description: [
-				"电池箱能够为你的电网提供缓存"
+				"&6电池箱&r能够为你的电网提供&e缓存&r"
 				""
-				"虽然你已经可以制作电池箱，但电池你还无法生产"
+				"虽然你已经可以制作电池箱，但&6电池&r你还&c无法生产&r"
 				""
 				"不过在这个阶段，你大概也没有蓄电需求？如果你真的需要蓄电，做一个电池箱会送你一个电容"
 				""
@@ -1296,7 +1299,7 @@
 		}
 		{
 			dependencies: ["4678D97346E46529"]
-			description: ["用于给需要充电的工具或者装备"]
+			description: ["用于给需要充电的工具或者装备&e快速充电&r，比用&6电池箱&r充电快"]
 			id: "37E22F35AE3EF086"
 			optional: true
 			shape: "diamond"

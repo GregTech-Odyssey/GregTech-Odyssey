@@ -3,9 +3,10 @@
 	default_quest_shape: ""
 	filename: "apotheosis"
 	group: "48D03BA483B3FA87"
+	hide_quest_until_deps_visible: true
 	icon: "apotheosis:mythic_material"
 	id: "377B5361DA79AF97"
-	order_index: 2
+	order_index: 3
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [

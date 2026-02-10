@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "uhv"
 	group: "2A1218851E38A2EE"
+	hide_quest_until_deps_visible: true
 	icon: "gtocore:stellar_forge"
 	id: "552DDE11AB825B8C"
 	images: [
@@ -112,7 +113,9 @@
 			description: [
 				"探索&e猪灵堡垒&r和&e地牢&r（如锻造厂）有概率获取下界合金锭...不过显然你不会满足"
 				""
-				"用远古残骸直接制作的&a动能消耗&r远不是你现在所能承受的，你应当选择&e碎片&r配方"
+				"好消息是，你可以使用中子活化器来制作&6下界合金粉&r！用远古残骸直接制作的&a动能消耗&r远不是你现在所能承受的，你应当选择&e碎片&r配方"
+				""
+				"&o&7使用陨星之板能获得很多下界合金块，你也可以选择坠个大的然后慢慢挖"
 			]
 			hide_dependency_lines: true
 			id: "25930ED6EFD93F8B"
@@ -322,7 +325,7 @@
 			description: [
 				"无损超频，但是不能用激光仓，精密配方不支持并行"
 				""
-				"或许你可以考虑做三台，和你的&e焊接&r和&e蚀刻&r说再见吧！"
+				"和你的&e焊接&r和&e蚀刻&r说再见吧！"
 			]
 			id: "73B254D0B6873D89"
 			shape: "hexagon"
@@ -752,7 +755,9 @@
 			y: 8.5d
 		}
 		{
+			dependencies: ["1612D1DEB3A7BE2D"]
 			description: ["第一颗需要结晶而成"]
+			hide_dependency_lines: true
 			id: "704CF7B3EDDB19B2"
 			tasks: [{
 				id: "333D61C5F4BEC311"

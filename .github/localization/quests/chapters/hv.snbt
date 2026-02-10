@@ -4,6 +4,7 @@
 	default_quest_shape: ""
 	filename: "hv"
 	group: "2A1218851E38A2EE"
+	hide_quest_until_deps_visible: true
 	icon: "gtceu:cleanroom"
 	id: "737F81E21C442B4F"
 	images: [
@@ -76,6 +77,22 @@
 			width: 1.0d
 			x: -8.0d
 			y: 0.0d
+		}
+		{
+			height: 1.25d
+			image: "ftbquests:textures/shapes/hexagon/outline.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			height: 1.25d
+			image: "ftbquests:textures/shapes/hexagon/outline.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 12.0d
+			y: 3.5d
 		}
 	]
 	order_index: 5
@@ -277,6 +294,7 @@
 				"{gto.hv.quests.03E4EA4053212C0B.description1}"
 			]
 			id: "03E4EA4053212C0B"
+			shape: "hexagon"
 			tasks: [{
 				id: "30C41A893C214B92"
 				item: "gtceu:micro_processor_assembly"
@@ -1341,7 +1359,11 @@
 		}
 		{
 			dependencies: ["2FFBF824CC836741"]
-			description: ["{gto.hv.quests.4D1E1C19CF9CD579.description0}"]
+			description: [
+				"{gto.hv.quests.4D1E1C19CF9CD579.description0}"
+				""
+				"{gto.hv.quests.4D1E1C19CF9CD579.description1}"
+			]
 			icon: "minecraft:crying_obsidian"
 			id: "4D1E1C19CF9CD579"
 			shape: "hexagon"
@@ -2056,7 +2078,10 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["7E963A64B5EB7C20"]
+			dependencies: [
+				"7E963A64B5EB7C20"
+				"2F42DE3FEC2C35F9"
+			]
 			disable_toast: true
 			hide_dependent_lines: true
 			icon_scale: 0.1d

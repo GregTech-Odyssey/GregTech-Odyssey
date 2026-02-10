@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "iv"
 	group: "2A1218851E38A2EE"
+	hide_quest_until_deps_visible: true
 	icon: "gtceu:assembly_line"
 	id: "3F8D9D2B382EE265"
 	images: [
@@ -57,6 +58,30 @@
 			width: 1.5d
 			x: 20.0d
 			y: -8.5d
+		}
+		{
+			height: 1.25d
+			image: "ftbquests:textures/shapes/diamond/outline.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 8.5d
+			y: -7.0d
+		}
+		{
+			height: 1.25d
+			image: "ftbquests:textures/shapes/circle/outline.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 18.0d
+			y: -12.5d
+		}
+		{
+			height: 1.25d
+			image: "ftbquests:textures/shapes/circle/outline.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 6.0d
+			y: -7.5d
 		}
 	]
 	order_index: 7
@@ -1119,21 +1144,30 @@
 			description: [
 				"你可以用这个来代替过去的存储总线方案"
 				""
-				"进阶版本可同时绑定&b20&r个目标，&6螺丝刀&r点击可&e切换模式&r"
+				"进阶版本可同时绑定&b20&r个目标，可以使用&6坐标标签枪&r批量绑定，&6螺丝刀&r点击可&e切换模式&r"
 				""
 				"&6顺序模式&r：按照放入的信息卡的&e顺序&r作为优先级发送物品"
 				""
 				"&6轮询调度模式&r：往放入的信息卡&e均分&r发送以样板为单位的物品"
 			]
+			icon: "gtocore:advanced_tesseract_generator"
 			id: "029CAD5FD378D3E1"
 			optional: true
 			shape: "diamond"
 			subtitle: "轮椅自动化"
-			tasks: [{
-				id: "3CDD1FE8E3131DE2"
-				item: "gtocore:advanced_tesseract_generator"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "3CDD1FE8E3131DE2"
+					item: "gtocore:advanced_tesseract_generator"
+					type: "item"
+				}
+				{
+					id: "1EFF0C03A8A3F85D"
+					item: "gtocore:tesseract_target_marker"
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: 22.0d
 			y: -8.5d
 		}
@@ -1143,6 +1177,8 @@
 				"催化剂仓允许你重复利用催化剂，每次使用只会减少&b1点&r耐久而非直接消耗"
 				""
 				"注意催化剂仓中只能放入由&6催化剂基底&r合成的催化剂"
+				""
+				"&e如果此类催化剂不放入&l催化剂仓&r&e或者&l催化剂总成&r&e，则每次合成会直接消耗"
 			]
 			id: "09C9709EE53D0022"
 			tasks: [
@@ -1339,6 +1375,8 @@
 				""
 				"&o&7不知道你有没有发现赤泥甚至可以在HV不上天的情况下产出钛。二周目的时候你可以试一试..."
 			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
 			icon: "gtocore:red_mud_bucket"
 			id: "4EAFBB80247274E2"
 			optional: true
@@ -1458,6 +1496,8 @@
 				"工业空间站在&3UV&r阶段之前都不是必需品，不过我仍建议你尽早规划建造"
 				""
 				"这里简单列出了你需要的新原料和新机器，但你还需要编写大量的样板&o（真的很多！）"
+				""
+				"[\"别忘了去\",{ \"text\": \"穹宇居所\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"23E859D5CC9E4C8C\" } },\"章节看看你可以制造的仓室\"]"
 			]
 			icon: "gtocore:large_expandable_space_station_core_module"
 			id: "0BFFC7241DFB6A9C"

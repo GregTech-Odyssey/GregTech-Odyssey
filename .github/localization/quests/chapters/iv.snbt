@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "iv"
 	group: "2A1218851E38A2EE"
+	hide_quest_until_deps_visible: true
 	icon: "gtceu:assembly_line"
 	id: "3F8D9D2B382EE265"
 	images: [
@@ -57,6 +58,30 @@
 			width: 1.5d
 			x: 20.0d
 			y: -8.5d
+		}
+		{
+			height: 1.25d
+			image: "ftbquests:textures/shapes/diamond/outline.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 8.5d
+			y: -7.0d
+		}
+		{
+			height: 1.25d
+			image: "ftbquests:textures/shapes/circle/outline.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 18.0d
+			y: -12.5d
+		}
+		{
+			height: 1.25d
+			image: "ftbquests:textures/shapes/circle/outline.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 6.0d
+			y: -7.5d
 		}
 	]
 	order_index: 7
@@ -1125,15 +1150,24 @@
 				""
 				"{gto.iv.quests.029CAD5FD378D3E1.description3}"
 			]
+			icon: "gtocore:advanced_tesseract_generator"
 			id: "029CAD5FD378D3E1"
 			optional: true
 			shape: "diamond"
 			subtitle: "{gto.iv.quests.029CAD5FD378D3E1.subtitle}"
-			tasks: [{
-				id: "3CDD1FE8E3131DE2"
-				item: "gtocore:advanced_tesseract_generator"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "3CDD1FE8E3131DE2"
+					item: "gtocore:advanced_tesseract_generator"
+					type: "item"
+				}
+				{
+					id: "1EFF0C03A8A3F85D"
+					item: "gtocore:tesseract_target_marker"
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: 22.0d
 			y: -8.5d
 		}
@@ -1143,6 +1177,8 @@
 				"{gto.iv.quests.09C9709EE53D0022.description0}"
 				""
 				"{gto.iv.quests.09C9709EE53D0022.description1}"
+				""
+				"{gto.iv.quests.09C9709EE53D0022.description2}"
 			]
 			id: "09C9709EE53D0022"
 			tasks: [
@@ -1339,6 +1375,8 @@
 				""
 				"{gto.iv.quests.4EAFBB80247274E2.description2}"
 			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
 			icon: "gtocore:red_mud_bucket"
 			id: "4EAFBB80247274E2"
 			optional: true
@@ -1458,6 +1496,8 @@
 				"{gto.iv.quests.0BFFC7241DFB6A9C.description0}"
 				""
 				"{gto.iv.quests.0BFFC7241DFB6A9C.description1}"
+				""
+				"[\"\", {\"translate\": \"gto.iv.quests.0BFFC7241DFB6A9C.description2.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"23E859D5CC9E4C8C\"}, \"translate\": \"gto.iv.quests.0BFFC7241DFB6A9C.description2.rich_text1\"}, {\"translate\": \"gto.iv.quests.0BFFC7241DFB6A9C.description2.rich_text2\"}]"
 			]
 			icon: "gtocore:large_expandable_space_station_core_module"
 			id: "0BFFC7241DFB6A9C"

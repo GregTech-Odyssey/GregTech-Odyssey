@@ -3,9 +3,10 @@
 	default_quest_shape: ""
 	filename: "magic2"
 	group: "48D03BA483B3FA87"
+	hide_quest_until_deps_visible: true
 	icon: "botania:dice"
 	id: "33F2D5FBE1761AA9"
-	order_index: 1
+	order_index: 2
 	quest_links: [{
 		id: "17557E8E51653B12"
 		linked_quest: "0B61448F01656C1D"
@@ -206,10 +207,7 @@
 			y: 1.5d
 		}
 		{
-			dependencies: [
-				"65238A6DCDDDFA0D"
-				"2A5BA479E707034B"
-			]
+			dependencies: ["65238A6DCDDDFA0D"]
 			description: [
 				"{gto.magic2.quests.23A2865FBE7831AB.description0}"
 				""
@@ -442,7 +440,6 @@
 				""
 				"{gto.magic2.quests.27CD17C4B3613171.description1}"
 			]
-			hide_until_deps_visible: false
 			id: "27CD17C4B3613171"
 			shape: "gear"
 			size: 2.5d
@@ -553,7 +550,6 @@
 		}
 		{
 			dependencies: ["50A2D68A83A50F47"]
-			hide_until_deps_visible: false
 			icon_scale: 2.0d
 			id: "4E7B1FF823C85AD6"
 			shape: "none"
@@ -567,7 +563,6 @@
 		}
 		{
 			dependencies: ["50A2D68A83A50F47"]
-			hide_until_deps_visible: false
 			icon_scale: 2.0d
 			id: "0C56CB7815A1355C"
 			shape: "none"
@@ -592,7 +587,6 @@
 		}
 		{
 			dependencies: ["50A2D68A83A50F47"]
-			hide_until_deps_visible: false
 			icon_scale: 2.0d
 			id: "1EE1EF4695A39876"
 			shape: "none"
@@ -606,7 +600,6 @@
 		}
 		{
 			dependencies: ["50A2D68A83A50F47"]
-			hide_until_deps_visible: false
 			icon_scale: 2.0d
 			id: "6AFC5FE71A80913E"
 			shape: "none"
@@ -620,7 +613,6 @@
 		}
 		{
 			dependencies: ["50A2D68A83A50F47"]
-			hide_until_deps_visible: false
 			icon_scale: 2.0d
 			id: "780B0A790C6AF9DB"
 			shape: "none"
@@ -634,7 +626,6 @@
 		}
 		{
 			dependencies: ["50A2D68A83A50F47"]
-			hide_until_deps_visible: false
 			icon_scale: 2.0d
 			id: "16DE70DE2463A5DD"
 			shape: "none"
@@ -1102,6 +1093,8 @@
 				"{gto.magic2.quests.26B836339560E939.description0}"
 				""
 				"{gto.magic2.quests.26B836339560E939.description1}"
+				""
+				"{gto.magic2.quests.26B836339560E939.description2}"
 			]
 			id: "26B836339560E939"
 			shape: "octagon"
@@ -1456,7 +1449,11 @@
 		}
 		{
 			dependencies: ["0631F054A9B97A40"]
-			description: ["{gto.magic2.quests.705706C604CECF1D.description0}"]
+			description: [
+				"{gto.magic2.quests.705706C604CECF1D.description0}"
+				""
+				"{gto.magic2.quests.705706C604CECF1D.description1}"
+			]
 			id: "705706C604CECF1D"
 			shape: "diamond"
 			tasks: [{
@@ -1464,7 +1461,7 @@
 				item: "gtocore:base_mana_distributor"
 				type: "item"
 			}]
-			x: -1.75d
+			x: 0.75d
 			y: 3.0d
 		}
 		{
@@ -1963,6 +1960,7 @@
 				"262B99D8C05C2B28"
 				"4F95427017B9396F"
 			]
+			description: ["{gto.magic2.quests.50591F5900E6FB9A.description0}"]
 			id: "50591F5900E6FB9A"
 			tasks: [
 				{
@@ -2075,19 +2073,6 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["705706C604CECF1D"]
-			description: ["{gto.magic2.quests.62C59C7915EF8053.description0}"]
-			id: "62C59C7915EF8053"
-			shape: "diamond"
-			tasks: [{
-				id: "5E9A3B1B9E9BF5FC"
-				item: "gtocore:advanced_mana_distributor"
-				type: "item"
-			}]
-			x: -1.75d
-			y: 1.5d
-		}
-		{
 			dependencies: ["129FF3CBED5CFF05"]
 			id: "348BF6EF32E190B4"
 			tasks: [{
@@ -2192,14 +2177,13 @@
 				}
 				type: "item"
 			}]
-			x: 24.785714285714285d
-			y: 6.683333333333337d
+			x: 24.89285714285714d
+			y: 6.708333333333336d
 		}
 		{
 			dependencies: ["57038022345C40A6"]
 			description: ["{gto.magic2.quests.69B3B50FB64F3BF6.description0}"]
 			hide_dependent_lines: true
-			hide_until_deps_visible: false
 			icon_scale: 2.0d
 			id: "69B3B50FB64F3BF6"
 			shape: "none"
@@ -2271,6 +2255,33 @@
 			title: "{gto.magic2.quests.57038022345C40A6.title}"
 			x: 16.0d
 			y: 9.0d
+		}
+		{
+			dependencies: [
+				"117117BBBF9B4B21"
+				"2544898A725CC1A3"
+			]
+			id: "403FABDABC4FED4C"
+			shape: "diamond"
+			tasks: [{
+				id: "0371CE2D45D0F510"
+				item: "gtocore:cosmic_celestial_spire_of_convergence"
+				type: "item"
+			}]
+			x: 19.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["18E4BD0C2EDCBDF2"]
+			description: ["{gto.magic2.quests.117117BBBF9B4B21.description0}"]
+			id: "117117BBBF9B4B21"
+			tasks: [{
+				id: "102312D3E715EF8E"
+				item: "gtocore:resonance_flower"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 0.0d
 		}
 	]
 	subtitle: ["{gto.magic2.subtitle0}"]

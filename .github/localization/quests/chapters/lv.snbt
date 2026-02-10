@@ -4,6 +4,7 @@
 	default_quest_shape: ""
 	filename: "lv"
 	group: "2A1218851E38A2EE"
+	hide_quest_until_deps_visible: true
 	icon: "gtceu:electric_blast_furnace"
 	id: "4015C56C0D562D25"
 	images: [
@@ -631,7 +632,7 @@
 				item: "gtocore:precision_steam_mechanism"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 2.0d
 			y: 7.5d
 		}
 		{
@@ -847,6 +848,11 @@
 			]
 			icon: "gtceu:lv_energy_input_hatch"
 			id: "23A116C4BAE96979"
+			rewards: [{
+				id: "27B3BEBE0FC9D1FF"
+				item: "gtocore:gold_coin"
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 1.5d
 			subtitle: "{gto.lv.quests.23A116C4BAE96979.subtitle}"
@@ -1688,7 +1694,7 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["7392F240AD330C1A"]
+			dependencies: ["1369B896AC811F03"]
 			icon: "gtceu:lv_battery_hull"
 			id: "35347DE9C34F2825"
 			tasks: [{
@@ -1703,7 +1709,7 @@
 				title: "{gto.lv.quests.35347DE9C34F2825.tasks.6FDA324398FF0AD2.title}"
 				type: "item"
 			}]
-			x: -1.0d
+			x: -2.5d
 			y: -7.0d
 		}
 		{
@@ -1714,7 +1720,7 @@
 				item: "gtceu:lv_battery_buffer_16x"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -4.5d
 			y: -5.5d
 		}
 		{
@@ -1787,7 +1793,7 @@
 				title: "{gto.lv.quests.45B0831447908EB0.tasks.211920065FF0E4C3.title}"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -4.5d
 			y: -7.5d
 		}
 		{
@@ -1830,7 +1836,7 @@
 				title: "{gto.lv.quests.66F113E14941337E.tasks.6E8F80F45CD1A614.title}"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -4.5d
 			y: -6.5d
 		}
 		{
@@ -1860,7 +1866,7 @@
 				item: "gtceu:prospector.lv"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -4.5d
 			y: -8.5d
 		}
 		{
@@ -1906,6 +1912,8 @@
 				"{gto.lv.quests.39879EA8A9F79913.description2}"
 				""
 				"{gto.lv.quests.39879EA8A9F79913.description3}"
+				""
+				"{gto.lv.quests.39879EA8A9F79913.description4}"
 			]
 			icon: "gtceu:stainless_steel_frame"
 			id: "39879EA8A9F79913"
@@ -2379,8 +2387,8 @@
 				type: "checkmark"
 			}]
 			title: "{gto.lv.quests.2C91F5919FE7444D.title}"
-			x: 6.5d
-			y: 4.0d
+			x: 5.5d
+			y: 4.5d
 		}
 		{
 			dependencies: [
@@ -2589,8 +2597,8 @@
 				type: "checkmark"
 			}]
 			title: "{gto.lv.quests.72844914477AB61B.title}"
-			x: 6.5d
-			y: 2.0d
+			x: 4.5d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -2645,6 +2653,55 @@
 			}]
 			x: 3.0d
 			y: -4.0d
+		}
+		{
+			dependencies: [
+				"056EC4E6FAF614B7"
+				"5D439C42DEFEC912"
+				"0D26129C7015E4D1"
+			]
+			description: [
+				"{gto.lv.quests.6C6C0101F0002AE7.description0}"
+				""
+				"{gto.lv.quests.6C6C0101F0002AE7.description1}"
+				""
+				"{gto.lv.quests.6C6C0101F0002AE7.description2}"
+			]
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:block/nether_portal"
+				}
+			}
+			id: "6C6C0101F0002AE7"
+			optional: true
+			rewards: [{
+				id: "79E0D2B52AD6FEB7"
+				item: "gtocore:void_transporter"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "1A0CEB0558BC53AD"
+				type: "checkmark"
+			}]
+			title: "{gto.lv.quests.6C6C0101F0002AE7.title}"
+			x: 0.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["7392F240AD330C1A"]
+			id: "1369B896AC811F03"
+			shape: "hexagon"
+			tasks: [{
+				id: "341D54153D54D732"
+				item: "gtceu:lv_canner"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -7.0d
 		}
 	]
 	subtitle: ["{gto.lv.subtitle0}"]

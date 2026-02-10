@@ -3,7 +3,8 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: "square"
 	filename: "ae"
-	group: ""
+	group: "48D03BA483B3FA87"
+	hide_quest_until_deps_visible: true
 	icon: "ae2:interface"
 	id: "775486FF148AC1FA"
 	images: [
@@ -1193,8 +1194,17 @@
 			x: -9.5d
 			y: 9.5d
 		}
+		{
+			dependency: "28C9BF5C59F5F723"
+			height: 1.0d
+			image: "gtocore:item/circuit/suprachronal_mv"
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.5d
+			y: 7.5d
+		}
 	]
-	order_index: 5
+	order_index: 0
 	quest_links: [
 		{
 			id: "73C7693D280F6D40"
@@ -1572,9 +1582,12 @@
 				"支持&l&e样板之间的完全隔离&r&r，妈妈再也不用担心我化反串配方了！"
 				""
 				"有特殊的优化，配方处理性能比普通的仓更好："
+				""
 				"- 优化的发配机制，按发配数量自动翻倍内部样板，实现一次性全部发完，大幅降低发配的性能消耗"
 				"- 优化的配方处理机制，使用原生类型，没有二次转换"
 				"- 缓存样板对应的配方，下次查找时直接调用这个配方，而不是重新搜索"
+				""
+				"若无特殊说明，样板总成可以独立于机器设置配方类型，从而实现一台机器运行多种配方类型的配方"
 				""
 				"另外，样板总成被破坏后能够保留其内部所有样板！"
 				""
@@ -1610,6 +1623,12 @@
 				{
 					id: "22717689B487D4E8"
 					item: "gtocore:coordinate_card"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4C04BA58D6FAC889"
+					item: "gtocore:tesseract_target_marker"
 					optional_task: true
 					type: "item"
 				}
@@ -1924,6 +1943,7 @@
 		}
 		{
 			dependencies: ["0A71F8193A3A39AE"]
+			description: ["它传输AE能量，但不传输AE频道，常用于隔开两个网络"]
 			id: "62583BF8F3AAE290"
 			tasks: [{
 				id: "38CA37F28FCBC3FC"
@@ -2402,7 +2422,7 @@
 		{
 			dependencies: ["034D579A41F2ED3D"]
 			description: [
-				"大化反的好朋友"
+				"大化反的好朋友，被动产线的控制器"
 				""
 				"发信器UI经过修改，c和f分别代表向上和向下取整，按住Shift即可从加减调整数量变成乘除调整数量。对下单UI同样有效"
 			]
@@ -3515,6 +3535,16 @@
 				"65E52B0DB278156A"
 				"23D906A09C3631CB"
 			]
+			description: [
+				"无线合成终端多了一个设置按钮，进入可以看到5个选框，功能依次是："
+				""
+				"- 中键点击实体方块可以直接取用ME网络中对应的方块"
+				"- 中键点击实体方块如果缺失且可以合成则自动打开合成页面"
+				"- 自动将AE物品补充至背包并且在物品栏显示库存"
+				""
+				"- 磁铁开关（安装了磁卡的情况下）"
+				"- 是否直接将掉落物存入ME网络"
+			]
 			hide_dependency_lines: true
 			id: "7B47DD1ACCAA3B03"
 			tasks: [{
@@ -3946,7 +3976,7 @@
 			y: 15.5d
 		}
 		{
-			dependencies: ["4736D9B3A2EE6AD8"]
+			description: ["也可以当作垃圾桶用"]
 			hide_dependency_lines: true
 			id: "15CB5076FDDCAE6F"
 			tasks: [{
@@ -3973,7 +4003,7 @@
 			description: ["可以放置在&6量子网桥&r和&6无线终端&r中进行跨纬度通信"]
 			hide_dependent_lines: true
 			id: "176C374E1C0EA92F"
-			subtitle: "[-h^2/2m∇^2 + V(x,t)]ψ(x,t) = iht'ψ(x,t)"
+			subtitle: "&l[-(ħ^2/2m)∇^2 + V(r,t)]ψ(r,t) = iħψ_t(r,t)"
 			tasks: [{
 				count: 2L
 				id: "12D8D8792CFD04AC"
@@ -4341,11 +4371,11 @@
 			description: [
 				"你可以用这个工具染色任意的&6输入/输出仓室&r，包括&6样板总成&r！"
 				""
-				"染色后的输入仓室内部将会&e取消隔离&r。若你染色输入和输出仓室，则输入和输出仓室将会被绑定。"
+				"&e染同色&r的输入仓室内部&e互通&r。若你染色输入和输出仓室，则输入和输出仓室将会被绑定。"
 				""
 				"同色仓室与无色/异色仓室之间会被&e隔离&r。"
 				""
-				"&o&7再说明两种情况：1）如果输入染色，输出不染色，仍然能够正常输出；2）如果一个染色输入被两台机器共用，机器A的输出染色，机器B的输出不染色，两台机器仍然都会工作并输出"
+				"&o&7再说明两种情况：1）如果输入染色，输出不染色，仍然能够正常输出；2）在染色的输入仓室中打开仓室隔离仍然会隔离其他同色仓室"
 			]
 			id: "1BDAC7D9FED887B2"
 			tasks: [{
@@ -4595,6 +4625,7 @@
 			dependencies: [
 				"0BC456B4331C09F5"
 				"056EC4E6FAF614B7"
+				"66AA197AB2675421"
 			]
 			disable_toast: true
 			hide_until_deps_visible: true

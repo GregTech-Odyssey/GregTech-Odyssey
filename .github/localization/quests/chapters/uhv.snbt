@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "uhv"
 	group: "2A1218851E38A2EE"
+	hide_quest_until_deps_visible: true
 	icon: "gtocore:stellar_forge"
 	id: "552DDE11AB825B8C"
 	images: [
@@ -113,6 +114,8 @@
 				"{gto.uhv.quests.25930ED6EFD93F8B.description0}"
 				""
 				"{gto.uhv.quests.25930ED6EFD93F8B.description1}"
+				""
+				"{gto.uhv.quests.25930ED6EFD93F8B.description2}"
 			]
 			hide_dependency_lines: true
 			id: "25930ED6EFD93F8B"
@@ -752,7 +755,9 @@
 			y: 8.5d
 		}
 		{
+			dependencies: ["1612D1DEB3A7BE2D"]
 			description: ["{gto.uhv.quests.704CF7B3EDDB19B2.description0}"]
+			hide_dependency_lines: true
 			id: "704CF7B3EDDB19B2"
 			tasks: [{
 				id: "333D61C5F4BEC311"

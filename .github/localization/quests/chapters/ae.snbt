@@ -3,7 +3,8 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: "square"
 	filename: "ae"
-	group: ""
+	group: "48D03BA483B3FA87"
+	hide_quest_until_deps_visible: true
 	icon: "ae2:interface"
 	id: "775486FF148AC1FA"
 	images: [
@@ -1193,8 +1194,17 @@
 			x: -9.5d
 			y: 9.5d
 		}
+		{
+			dependency: "28C9BF5C59F5F723"
+			height: 1.0d
+			image: "gtocore:item/circuit/suprachronal_mv"
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.5d
+			y: 7.5d
+		}
 	]
-	order_index: 5
+	order_index: 0
 	quest_links: [
 		{
 			id: "73C7693D280F6D40"
@@ -1572,6 +1582,7 @@
 				"{gto.ae.quests.0BC456B4331C09F5.description0}"
 				""
 				"{gto.ae.quests.0BC456B4331C09F5.description1}"
+				""
 				"{gto.ae.quests.0BC456B4331C09F5.description2}"
 				"{gto.ae.quests.0BC456B4331C09F5.description3}"
 				"{gto.ae.quests.0BC456B4331C09F5.description4}"
@@ -1579,6 +1590,8 @@
 				"{gto.ae.quests.0BC456B4331C09F5.description5}"
 				""
 				"{gto.ae.quests.0BC456B4331C09F5.description6}"
+				""
+				"{gto.ae.quests.0BC456B4331C09F5.description7}"
 			]
 			icon: "gtceu:me_pattern_buffer"
 			id: "0BC456B4331C09F5"
@@ -1610,6 +1623,12 @@
 				{
 					id: "22717689B487D4E8"
 					item: "gtocore:coordinate_card"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4C04BA58D6FAC889"
+					item: "gtocore:tesseract_target_marker"
 					optional_task: true
 					type: "item"
 				}
@@ -1924,6 +1943,7 @@
 		}
 		{
 			dependencies: ["0A71F8193A3A39AE"]
+			description: ["{gto.ae.quests.62583BF8F3AAE290.description0}"]
 			id: "62583BF8F3AAE290"
 			tasks: [{
 				id: "38CA37F28FCBC3FC"
@@ -3515,6 +3535,16 @@
 				"65E52B0DB278156A"
 				"23D906A09C3631CB"
 			]
+			description: [
+				"{gto.ae.quests.7B47DD1ACCAA3B03.description0}"
+				""
+				"{gto.ae.quests.7B47DD1ACCAA3B03.description1}"
+				"{gto.ae.quests.7B47DD1ACCAA3B03.description2}"
+				"{gto.ae.quests.7B47DD1ACCAA3B03.description3}"
+				""
+				"{gto.ae.quests.7B47DD1ACCAA3B03.description4}"
+				"{gto.ae.quests.7B47DD1ACCAA3B03.description5}"
+			]
 			hide_dependency_lines: true
 			id: "7B47DD1ACCAA3B03"
 			tasks: [{
@@ -3946,7 +3976,7 @@
 			y: 15.5d
 		}
 		{
-			dependencies: ["4736D9B3A2EE6AD8"]
+			description: ["{gto.ae.quests.15CB5076FDDCAE6F.description0}"]
 			hide_dependency_lines: true
 			id: "15CB5076FDDCAE6F"
 			tasks: [{
@@ -4595,6 +4625,7 @@
 			dependencies: [
 				"0BC456B4331C09F5"
 				"056EC4E6FAF614B7"
+				"66AA197AB2675421"
 			]
 			disable_toast: true
 			hide_until_deps_visible: true

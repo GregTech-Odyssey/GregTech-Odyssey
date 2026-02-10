@@ -4,6 +4,7 @@
 	default_quest_shape: ""
 	filename: "steam"
 	group: "2A1218851E38A2EE"
+	hide_quest_until_deps_visible: true
 	icon: "gtceu:lp_steam_solid_boiler"
 	id: "1739461D441B48C6"
 	images: [
@@ -113,6 +114,22 @@
 			width: 1.0d
 			x: 6.75d
 			y: -2.0d
+		}
+		{
+			height: 1.75d
+			image: "ftbquests:textures/shapes/hexagon/outline.png"
+			rotation: 0.0d
+			width: 1.75d
+			x: 11.25d
+			y: 4.5d
+		}
+		{
+			height: 1.25d
+			image: "ftbquests:textures/shapes/diamond/outline.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 0.5d
+			y: 6.0d
 		}
 	]
 	order_index: 1
@@ -582,6 +599,7 @@
 			y: 8.5d
 		}
 		{
+			dependencies: ["6E2614839731BF0D"]
 			description: [
 				"&e石英砂&r可以通过研钵在工作台上生产，但&a燧石粉&r就不行了，你必须要在&6研磨机&r内完成"
 				""
@@ -591,6 +609,7 @@
 				""
 				"你的第一份&d玻璃粉&r肯定是工作台配方，而后面你就可以使用&6搅拌机&r来生产玻璃粉了"
 			]
+			hide_dependency_lines: true
 			id: "7F1CF6D7C0CA4DB2"
 			subtitle: "保护你的研钵！！"
 			tasks: [
@@ -747,7 +766,7 @@
 				""
 				"右键远古反应核即可前往远古世界"
 				""
-				"[ \"建议带个\", { \"text\": \"飞机\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1CE2E908034CC401\" } } ,\" ，点击查看该章节\"]"
+				"[ \"如果你还不会飞，可以带个\", { \"text\": \"飞机\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"15F751DFB8990D1A\" } } ]"
 				""
 				"&6MAN!&r&m&o别&6坠&r&r&m&5机&r&m了&r&r"
 			]
@@ -873,17 +892,15 @@
 			}]
 			title: "并非电子管"
 			x: 15.0d
-			y: 3.0d
+			y: 3.5d
 		}
 		{
 			dependencies: [
 				"7E046341CF58BB22"
-				"21D331D7F4F8862C"
+				"4515F2289516C295"
 			]
 			description: [
 				"棒极了，这次不用史蒂夫的嘴"
-				""
-				"将&6巨型青铜管道&r放入&6真空泵&r，输入蒸汽，等待其多次抽取真空直到真空等级大于0"
 				""
 				"手持&6粗真空管&r潜行右击&6真空泵&r制造&6真空管&r"
 			]
@@ -903,8 +920,8 @@
 				type: "item"
 			}]
 			title: "原始电路板？"
-			x: 15.000000000000007d
-			y: 0.0d
+			x: 15.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["24C53B5FF515ACAC"]
@@ -925,20 +942,13 @@
 			shape: "hexagon"
 			size: 1.5d
 			subtitle: "真不是吸尘器！"
-			tasks: [
-				{
-					id: "6D9D8E445BD7DAA3"
-					item: "gtocore:lp_steam_vacuum_pump"
-					type: "item"
-				}
-				{
-					id: "3330B352053597A3"
-					item: "gtceu:bronze_huge_fluid_pipe"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "6D9D8E445BD7DAA3"
+				item: "gtocore:lp_steam_vacuum_pump"
+				type: "item"
+			}]
 			title: "能抽真空的小家伙"
-			x: 15.000000000000007d
+			x: 15.0d
 			y: -2.0d
 		}
 		{
@@ -1021,7 +1031,7 @@
 				""
 				"处理某些矿(如粗红石)时很可能会因为产率过高而阻塞输出口，所以你可以选择设置&a两个&r输出口"
 				""
-				"[ \"去\", { \"text\": \"资源获取与处理\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"7C1D32B8C9895B40\" } }, \"看看矿处流程！\"]"
+				"[ \"前往\", { \"text\": \"资源获取与处理\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"7C1D32B8C9895B40\" } }, \"章节看看矿处流程！\"]"
 			]
 			id: "5660509FA09D2239"
 			shape: "hexagon"
@@ -1260,9 +1270,13 @@
 		{
 			dependencies: ["17408BBD93A18AEC"]
 			description: [
-				"飞机核心部件，适合用来前往&6远古世界&r探索"
+				"飞机核心部件，如果你还不会飞，可以用这个在&6远古世界&r探索"
 				""
 				"[ \"前往\", { \"text\": \"沉浸式飞行\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1CE2E908034CC401\" } }, \"章节查看飞机其他零部件\" ]"
+				""
+				"[ \"前往\", { \"text\": \"提示\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3D7C322A6DBCF085\" } }, \"章节查看可以获得飞行的方法\" ]"
+				""
+				"&o&7观赏性大于实用性"
 			]
 			id: "15F751DFB8990D1A"
 			optional: true
@@ -1700,7 +1714,7 @@
 				}
 			]
 			x: -11.0d
-			y: 6.5d
+			y: 4.5d
 		}
 		{
 			dependencies: [
@@ -1838,7 +1852,7 @@
 			}]
 			title: "真空管补助&a（简单）&r"
 			x: 17.5d
-			y: 0.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["24C53B5FF515ACAC"]
@@ -1865,7 +1879,7 @@
 			}]
 			title: "GT管道"
 			x: -11.0d
-			y: 4.5d
+			y: 6.5d
 		}
 		{
 			dependencies: [
@@ -1914,7 +1928,7 @@
 			}]
 			title: "真空管补助&e（普通）&r"
 			x: 17.0d
-			y: 0.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["10C397237163BFFC"]
@@ -1980,7 +1994,7 @@
 				""
 				"可以使用&6ME控制器&r来替代&6能源接收器&r，但后期可能会因为加载过多频道造成额外的延迟，请斟酌使用控制器"
 				""
-				"&o&7如果你还不会AE，请尽快寻找教程快速入门。本包无需精通AE，但至少需要了解基本使用方法。"
+				"&o&7如果你还不会AE，请尽快寻找教程快速入门。本包无需精通AE，但至少需要了解如何下单。"
 			]
 			hide_until_deps_visible: true
 			icon: "ae2:energy_acceptor"
@@ -2035,7 +2049,7 @@
 		{
 			dependencies: ["24C53B5FF515ACAC"]
 			description: [
-				"当你准备尝试使用蒸汽多方块机器的时候，别忘了放置对应的仓室！"
+				"当你准备尝试使用&b蒸汽多方块机器&r的时候，别忘了放置对应的仓室！"
 				""
 				"- &6蒸汽流体输入/输出仓&r：用于输入和输出流体"
 				"- &6蒸汽输入/输出总线&r：用于输入和输出物品"
@@ -2045,8 +2059,14 @@
 			]
 			icon: "gtceu:steam_input_bus"
 			id: "4276738FE46AC021"
-			shape: "circle"
-			size: 1.0d
+			rewards: [{
+				count: 16
+				id: "10C00EAF76D71ABA"
+				item: "gtocore:copper_coin"
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 1.5d
 			tasks: [
 				{
 					id: "63875864EE49FB02"
@@ -2088,6 +2108,12 @@
 			description: ["你也可以使用来自pipez的管道来物流"]
 			hide_dependency_lines: true
 			id: "4CE96E5E2F84EBBF"
+			rewards: [{
+				count: 12
+				id: "2B618FC8076F7BAE"
+				item: "pipez:item_pipe"
+				type: "item"
+			}]
 			shape: "diamond"
 			size: 1.5d
 			subtitle: "另一种管道"
@@ -2104,6 +2130,12 @@
 			description: ["你也可以使用来自pipez的管道来物流"]
 			hide_dependency_lines: true
 			id: "326B9B0D222A6E3B"
+			rewards: [{
+				count: 12
+				id: "6C3858A78582399A"
+				item: "pipez:fluid_pipe"
+				type: "item"
+			}]
 			shape: "diamond"
 			size: 1.5d
 			subtitle: "另一种管道"
@@ -2131,6 +2163,11 @@
 			hide_dependency_lines: true
 			icon: "gtceu:steam_bucket"
 			id: "4673E95F6374C7AC"
+			rewards: [{
+				id: "7856D62DDB58BC72"
+				item: "gtocore:copper_coin"
+				type: "item"
+			}]
 			shape: "pentagon"
 			size: 1.5d
 			tasks: [{
@@ -2140,6 +2177,25 @@
 			title: "蒸汽驱动"
 			x: 2.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["21D331D7F4F8862C"]
+			description: [
+				"为了让泵能够工作，你需要放入一个&e抽取管道&r，等待其多次抽取真空直到真空等级大于0"
+				""
+				"低压和高压蒸汽泵使用&6巨型青铜管道&r并输入蒸汽"
+				""
+				"用电的真空泵需要放置对应电压的&6流体校准器&r"
+			]
+			id: "4515F2289516C295"
+			tasks: [{
+				id: "220C06C4CB2C301F"
+				item: "gtceu:bronze_huge_fluid_pipe"
+				type: "item"
+			}]
+			title: "抽取管道"
+			x: 15.0d
+			y: -0.5d
 		}
 	]
 	subtitle: ["Tier0-Steam"]

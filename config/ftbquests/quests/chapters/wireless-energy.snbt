@@ -5,7 +5,25 @@
 	group: "33C930DBAB246BE3"
 	icon: "gtocore:max_wireless_output_hatch"
 	id: "28A33BAEFFB14C7B"
-	order_index: 2
+	images: [
+		{
+			height: 1.0d
+			image: "gtocore:item/circuit/suprachronal_ev"
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.0d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "gtocore:item/circuit/suprachronal_iv"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 2.5d
+		}
+	]
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -40,7 +58,7 @@
 				""
 				"通过&6无线能源接口&r输入电网的电量有&210%&r的能量损失"
 				""
-				"给那些无法使用无线动力仓的发电设施（比如单方块发电机）提供的"
+				" 只有无法使用无线动力仓的发电设施（比如单方块发电机）才需要使用这个"
 			]
 			hide_dependency_lines: false
 			id: "7110B5380C2104C2"
@@ -121,18 +139,22 @@
 			description: [
 				"得益于GTMThings提供的&e无线能源系统&r，格雷员工不再需要布置意大利面能源网络"
 				""
-				"一个功能完整的无线电网包含三个部分："
+				"一个功能完整的无线电网包含以下部分："
 				""
-				"- &6无线能源塔&r： 电网的&e心脏&r，决定整个网络能&e存储多少电量&r。"
+				"- &b电力储存&r：&e无线能源塔"
 				""
-				"- &6传输控制器&r（电池箱或蓄能变电站）： 电网的&e大脑&r，它为接入点设定&e传输的功率上限&r，&c不存储或消耗电力&r。"
+				"- &b单仓最大功率限制&r：&e电池箱 / 蓄能变电站"
 				""
-				"- &6接入点&r（无线动力仓/无线能源接口/能源仓/覆盖版）： 电网的&e出入口&r，负责将电力输入电网或从电网取电。"
+				"- &b输入能量&r：&e无线动力仓 / 无线能源接口"
 				""
-				"简单来说：先放一个&6能源塔&r，然后放一个&6电池箱&r，装满电池，用&6无线能源绑定工具&r右击你的&6电池箱&r，将其设为&e传输控制器&r，最后放置你的发电和用电终端。&r"
+				"- &b输出能量&r：&e无线能源仓 / 无线能源接收器"
+				""
+				"简单来说：先放一个&6无线能源塔&r，然后放一个&6电池箱&r，&e装满电池&r，用&6无线能源绑定工具&r右击你的电池箱，将其设为&e传输控制器&r。&r你放置的所有&6无线动力仓/无线能源仓&r都会默认绑定到你的能源塔上。"
 			]
 			icon: "gtmthings:wireless_energy_binding_tool"
 			id: "20B8E68273D7D0DE"
+			shape: "gear"
+			size: 2.0d
 			tasks: [
 				{
 					id: "271419441861A4D8"
@@ -168,7 +190,7 @@
 			]
 			hide_dependency_lines: false
 			id: "50BD070E09091C9A"
-			shape: "octagon"
+			shape: "gear"
 			size: 2.0d
 			tasks: [{
 				id: "2641F67732098539"
@@ -275,14 +297,13 @@
 			description: [
 				"&6传输控制器&r为网络中的&e每一个接入点&r设定了独立的传输功率上限。"
 				""
-				"- 对&6发电端&r（如无线动力仓）： 单个接入点每刻注入电网的电量不能超过此上限。"
-				""
-				"- 对&6用电端&r（如无线能源仓）： 单个接入点每刻从电网取出的电量不能超过此上限。"
+				"对于&6发电端&r（如无线动力仓）是单个接入点的输入功率上限，而对于对&6用电端&r（如无线能源仓）是单个接入点的输出功率上限。"
 				""
 				"提醒：传输控制器&c不需要&r真的输入电，它只是一个用于确定&e当前科技等级&r的&6载体&r，而不是一个用电器"
 			]
 			hide_dependency_lines: false
 			id: "0828014567C613E1"
+			subtitle: "不是整个电网的传输上限！！"
 			tasks: [{
 				id: "31AC0A1F7D0AE71F"
 				title: "传输速率上限"
@@ -947,6 +968,27 @@
 			}]
 			x: -10.5d
 			y: 12.5d
+		}
+		{
+			dependencies: ["50BD070E09091C9A"]
+			description: [
+				"跨维度传无线电"
+				""
+				"注意搭建时需要在&e每个&r需要无线电的维度都搭建一个（除了无线能源塔所在的维度），能够使用的&e最高电压&r取决于其上安装的&6整体框架&r"
+				""
+				"&o&7如果你需要一些哭泣的黑曜石，可以去看看黑曜石的tooltips"
+			]
+			id: "10D7BCC3E0E404A5"
+			shape: "circle"
+			size: 1.5d
+			subtitle: "终于不需要在外星放发电机了"
+			tasks: [{
+				id: "47C30586E08158D9"
+				item: "gtocore:wireless_dimension_repeater"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
 		}
 	]
 	subtitle: ["Wireless Energy Net"]

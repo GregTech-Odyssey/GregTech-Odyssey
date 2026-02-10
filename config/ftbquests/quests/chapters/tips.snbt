@@ -4,10 +4,31 @@
 	default_quest_shape: ""
 	filename: "tips"
 	group: ""
+	hide_quest_until_deps_visible: true
 	icon: "minecraft:writable_book"
 	id: "5C2AA64241610E38"
 	order_index: 1
-	quest_links: [ ]
+	quest_links: [
+		{
+			id: "60CEF11ADC9176D7"
+			linked_quest: "7B47DD1ACCAA3B03"
+			size: 0.0d
+			x: 0.75d
+			y: 6.0d
+		}
+		{
+			id: "1798C89D9211BBF3"
+			linked_quest: "7B47DD1ACCAA3B03"
+			x: 0.75d
+			y: 6.0d
+		}
+		{
+			id: "1603B24981350B37"
+			linked_quest: "7C9277B717E90328"
+			x: 2.25d
+			y: 6.0d
+		}
+	]
 	quests: [
 		{
 			dependencies: ["79646E8E449D8A1A"]
@@ -115,6 +136,11 @@
 			icon: "minecraft:chain"
 			id: "23D070BB1157701F"
 			min_width: 240
+			rewards: [{
+				id: "5771FE1A9ABFEEF0"
+				item: "gtocore:copper_coin"
+				type: "item"
+			}]
 			shape: "pentagon"
 			size: 1.5d
 			subtitle: "我是打铁匠，这就是锁连"
@@ -246,18 +272,28 @@
 		{
 			dependencies: ["79646E8E449D8A1A"]
 			description: [
-				"你可以在创建世界时更改难度，也可在mod配置里切换难度 （游戏菜单 > MOD > 搜索 GTOCore > 配置 > 游戏难度）"
+				"你可以在创建世界时更改难度，也可在mod配置里切换难度 （游戏菜单 > MOD > 搜索 GTOCore > 配置 > 游戏难度）。创建世界后你将&c无法更改难度&r！"
 				""
+				"&a简单难度&r：&d新来的看看这里！&r简单模式专为新人设计：&e更强的发电机，未经修改的原版/AE配方与更弱的怪物&r，带来更轻松舒适的前期体验，助你完美完成入职计划！推荐给格雷科技或科技模组新手。"
+				""
+				"&b普通难度&r：&d正式员工来这里报到！&r普通模式提供最原汁原味的格雷游戏体验： &e正常的发电机和怪物，经过魔改的原版/AE配方&r，享受标准流畅的游戏流程。适合有格雷经验或熟练的科技包玩家，希望你顺利完成阶段考核！"
+				""
+				"&c专家难度&r：&d仅限老员工前来报到！&r专家模式开启更具挑战的征程：&eAE频道限制，更弱的发电机与产量更低的配方&r，充满“制作组诚意”的困难开局等你应战。仅推荐给本包通关玩家或资深挑战者——&c选择此难度前请三思而后行！&r"
+				""
+				"&e请注意，本包为&l&6格雷专家包&r&e——即使是简单难度，其挑战性依然高于多数科技整合包。&r"
+				"{@pagebreak}"
 				"难度的影响包括但不限于"
 				""
-				"·不同复杂度的合成配方与任务"
-				"·部分机器和能量单元的数值调整"
+				"·不同复杂度的合成配方"
+				"·部分机器和仓室的数值调整"
+				"·发电机和能量单元的数值调整"
 				"·AE频道限制"
-				"·任务奖励"
+				"·不同的任务指引和任务奖励"
+				"·不同强度的怪物"
 				""
 				"[ \"\", {\"text\":\"详细特性请查看\", \"color\":\"yellow\"}, { \"text\": \"简单普通专家模式特性指南\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"open_url\", \"value\": \"https://gtodyssey.com/zh-hans/整合包教学/官方文档/简单普通专家模式特性指南/\" } }]"
 				""
-				"&e强烈建议在切换模式后，重启MC，然后再创建世界开始游戏！&r"
+				"&e强烈建议在更改难度后，重启MC，然后再创建新的世界！&r"
 				""
 				"&o&7这个任务完成不了？点左上角小箭头查看前置！"
 			]
@@ -284,8 +320,6 @@
 				"&e你将永远处于该模式！&r"
 				""
 				"&o&7点击这个任务的检查标记并不会开启自我约束模式"
-				""
-				"&o&7本包的UEV+流程处于制作中状态，部分物品需要创造获取，若你开启自我约束模式，你最高只能到达UXV"
 			]
 			icon: "ae2:creative_item_cell"
 			id: "6E81629D88D0710E"
@@ -332,7 +366,9 @@
 		{
 			dependencies: ["79646E8E449D8A1A"]
 			description: [
-				"游戏对怪物根据难度进行了血量和攻击力强化"
+				"游戏根据难度对怪物进行了血量和攻击力强化"
+				""
+				"同时还给中立生物添加了仇恨机制，如果你在动物旁边进食同类的肉，会导致动物来攻击你"
 				""
 				"注意安全"
 			]
@@ -344,7 +380,7 @@
 				id: "17A33145F3C67C67"
 				type: "checkmark"
 			}]
-			title: "强化的怪物"
+			title: "强化的生物"
 			x: -3.0d
 			y: -3.75d
 		}
@@ -353,7 +389,9 @@
 			description: [
 				"无论你想建造球形、圆形、柱体或者其他任何你想要的结构，按下&e[Alt]&r并选择对应形状，注意不要一次建造过大的结构，否则会造成FPS灾难"
 				""
-				"&e建筑手杖&r和&e建筑小帮手&r同样可用"
+				"&6建筑手杖&r和&6建筑小帮手&r同样可用"
+				""
+				"本包内添加的&6工业平台展开工具&r通过消耗工业组件，也可快速建造预设平台"
 			]
 			icon: {
 				Count: 1
@@ -388,7 +426,17 @@
 					type: "item"
 				}
 				{
-					id: "7E824E467813F47A"
+					id: "356899C58B5FA0CD"
+					item: "gtocore:industrial_platform_deployment_tools"
+					type: "item"
+				}
+				{
+					id: "7CC6854B8C3833B9"
+					item: "gtocore:standard_industrial_components_small"
+					type: "item"
+				}
+				{
+					id: "6ADC2D0D26DADAFD"
 					type: "checkmark"
 				}
 			]
@@ -612,8 +660,8 @@
 				}
 			]
 			title: "导线的特性"
-			x: 6.0d
-			y: -8.5d
+			x: 7.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["79646E8E449D8A1A"]
@@ -635,8 +683,8 @@
 				type: "checkmark"
 			}]
 			title: "提速的手段"
-			x: 6.0d
-			y: -1.5d
+			x: 7.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["16047F3F79404251"]
@@ -709,8 +757,8 @@
 				}
 			]
 			title: "超频！"
-			x: 8.0d
-			y: -3.0d
+			x: 9.0d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -743,8 +791,8 @@
 				}
 			]
 			title: "升压机制"
-			x: 6.0d
-			y: -3.25d
+			x: 7.0d
+			y: -2.25d
 		}
 		{
 			dependencies: [
@@ -791,8 +839,8 @@
 				}
 			]
 			title: "超损超频！？"
-			x: 10.0d
-			y: -3.0d
+			x: 11.0d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -823,8 +871,8 @@
 				}
 			]
 			title: "超级超频！！！"
-			x: 12.0d
-			y: -3.0d
+			x: 13.0d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -875,8 +923,8 @@
 				}
 			]
 			title: "贴片系列"
-			x: 10.0d
-			y: 0.0d
+			x: 11.0d
+			y: 1.0d
 		}
 		{
 			dependencies: [
@@ -901,8 +949,8 @@
 				}
 			]
 			title: "可配置维护仓"
-			x: 8.0d
-			y: 0.0d
+			x: 9.0d
+			y: 1.0d
 		}
 		{
 			dependencies: [
@@ -933,8 +981,8 @@
 				}
 			]
 			title: "并行仓"
-			x: 10.0d
-			y: -1.5d
+			x: 11.0d
+			y: -0.5d
 		}
 		{
 			dependencies: [
@@ -963,8 +1011,8 @@
 				}
 			]
 			title: "加速仓"
-			x: 8.0d
-			y: -1.5d
+			x: 9.0d
+			y: -0.5d
 		}
 		{
 			dependencies: [
@@ -993,8 +1041,8 @@
 				}
 			]
 			title: "线程仓"
-			x: 12.0d
-			y: 0.0d
+			x: 13.0d
+			y: 1.0d
 		}
 		{
 			dependencies: [
@@ -1049,8 +1097,8 @@
 				}
 			]
 			title: "线圈/玻璃"
-			x: 12.0d
-			y: -1.5d
+			x: 13.0d
+			y: -0.5d
 		}
 		{
 			description: ["希望贡献更多提示？在qq群/discord/github上留下你的脚印！"]
@@ -1060,8 +1108,8 @@
 				type: "checkmark"
 			}]
 			title: "遗漏提示？"
-			x: 4.5d
-			y: -8.0d
+			x: 5.0d
+			y: -6.5d
 		}
 		{
 			dependencies: [
@@ -1098,8 +1146,8 @@
 				}
 			]
 			title: "功能性方块的电压"
-			x: 6.0d
-			y: 0.25d
+			x: 7.0d
+			y: 1.25d
 		}
 		{
 			dependencies: [
@@ -1124,8 +1172,8 @@
 				type: "checkmark"
 			}]
 			title: "最大功率和最大配方等级"
-			x: 6.0d
-			y: -5.0d
+			x: 7.0d
+			y: -4.0d
 		}
 		{
 			dependencies: [
@@ -1142,8 +1190,8 @@
 				type: "item"
 			}]
 			title: "太空电梯动力模块"
-			x: 14.0d
-			y: -1.5d
+			x: 15.0d
+			y: -0.5d
 		}
 		{
 			dependencies: [
@@ -1176,20 +1224,27 @@
 				}
 			]
 			title: "都变成无线能源仓了"
-			x: 6.0d
-			y: 3.75d
+			x: 7.0d
+			y: 4.75d
 		}
 		{
 			dependencies: ["79646E8E449D8A1A"]
 			description: [
 				"下界需要：HV阶段通过下界反应核前往"
 				""
-				"末地需要：通过探险找到十二颗不同的眼睛，详见末地创世mod"
+				"[\"末地需要：末地创世的十二颗不同的眼睛，详见\", { \"text\": \"魔法线\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"502826CBF91585C1\" } } ]"
 				""
 				"超平坦世界与虚空世界：HV阶段通过虚空传送器访问"
 				""
 				"其他星球和空间站：通过游戏进程中发射火箭解锁"
 			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:block/nether_portal"
+				}
+			}
 			id: "32C2735E505AB490"
 			shape: "pentagon"
 			size: 1.5d
@@ -1206,6 +1261,10 @@
 					id: "115F73668157C661"
 					optional_task: true
 					type: "dimension"
+				}
+				{
+					id: "12F564EF973725F2"
+					type: "checkmark"
 				}
 			]
 			title: "下界，末地，和其他维度"
@@ -1341,8 +1400,8 @@
 				type: "checkmark"
 			}]
 			title: "塞不下..."
-			x: 6.0d
-			y: 2.0d
+			x: 7.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["79646E8E449D8A1A"]
@@ -1441,7 +1500,7 @@
 				""
 				"&6超频最小时间&r：用于控制机器&e超频&r可以到达的&b最小时间&r。具体机制请查看本页的超频介绍。"
 				""
-				"&6批处理&r：GTO新加入的机制，当开启之后机器会&c尽可能&r使用输入仓室中的所有材料，并将输出时间&b乘以&r执行的&e配方数量&r。单次批处理上限&a3600&r秒。"
+				"&6批处理&r：GTO新加入的机制，当开启之后机器会&c尽可能&r使用输入仓室中的所有材料，并将输出时间&b乘以&r执行的&e配方数量&r。单次批处理时间有上限。"
 				""
 				"&6更新结构检查&r：GTO为了性能，在多方块搭建完成后&c不会&r立即判断&e是否成型&r。你可以点击此按钮来立刻判断。"
 				""
@@ -1457,8 +1516,8 @@
 				type: "checkmark"
 			}]
 			title: "全是按钮"
-			x: 8.0d
-			y: -5.0d
+			x: 9.0d
+			y: -4.0d
 		}
 		{
 			dependencies: [
@@ -1473,6 +1532,8 @@
 				"若你&c无法&r将研究数据放入数据访问仓，说明你的数据访问仓需要&e升级&r了。只有&e高级访问仓&r才能放入高级研究数据。"
 				""
 				"使用&6靶仓&r和&6源仓&r传递&e研究数据&r。"
+				"{@pagebreak}"
+				"部分&e维度聚焦激光蚀刻&r配方需要研究，研究需要的材料是&6光学闪存&r和研究物本体。"
 			]
 			hide_dependency_lines: true
 			icon: "gtceu:research_station"
@@ -1553,8 +1614,8 @@
 				}
 			]
 			title: "研究的奥秘"
-			x: 6.0d
-			y: 5.5d
+			x: 7.0d
+			y: 6.5d
 		}
 		{
 			dependencies: [
@@ -1585,8 +1646,8 @@
 				}
 			]
 			title: "魔法的无损超频"
-			x: 10.0d
-			y: -4.5d
+			x: 11.0d
+			y: -3.5d
 		}
 		{
 			dependencies: [
@@ -1617,8 +1678,8 @@
 				type: "checkmark"
 			}]
 			title: "单方块配置"
-			x: 6.0d
-			y: -6.75d
+			x: 7.0d
+			y: -5.75d
 		}
 		{
 			description: [
@@ -1668,7 +1729,177 @@
 				type: "checkmark"
 			}]
 			x: 0.0d
-			y: 5.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["72C6B40B38D542BF"]
+			description: ["除了铁傀儡农场，Easy Villagers还有很多好东西来帮助你度过前期，如刷取村民和自动交易等"]
+			hide_dependency_lines: true
+			id: "511995F72672A515"
+			tasks: [{
+				id: "6EA590611B4A00A9"
+				item: "easy_villagers:iron_farm"
+				type: "item"
+			}]
+			x: -2.25d
+			y: 4.5d
+		}
+		{
+			description: ["维护消声仓时可自动调用皮带中的工具"]
+			hide_dependency_lines: true
+			id: "21EA1E3550BC1067"
+			rewards: [{
+				id: "3CE7814F88BCCAC4"
+				item: "toolbelt:pouch"
+				type: "item"
+			}]
+			tasks: [{
+				id: "371D46858FE37566"
+				item: "toolbelt:belt"
+				type: "item"
+			}]
+			x: -0.75d
+			y: 4.5d
+		}
+		{
+			dependencies: ["35347DE9C34F2825"]
+			description: ["吸附掉落物"]
+			icon: "gtceu:lv_item_magnet"
+			id: "044907E5A168CDAD"
+			tasks: [
+				{
+					id: "766BBD6D45DF8922"
+					item: "gtceu:lv_item_magnet"
+					type: "item"
+				}
+				{
+					id: "3DA523BC071995BE"
+					item: "sophisticatedbackpacks:magnet_upgrade"
+					type: "item"
+				}
+			]
+			x: 0.75d
+			y: 4.5d
+		}
+		{
+			description: ["用于搬运GT单方块板条箱"]
+			id: "58EF3DA2C2E88C8A"
+			tasks: [{
+				id: "7BE2DC36CF716FDF"
+				item: "gtceu:basic_tape"
+				type: "item"
+			}]
+			x: 3.75d
+			y: 4.5d
+		}
+		{
+			description: ["这里有一些任务没提及的小工具"]
+			id: "067AC6B5D8167A97"
+			tasks: [{
+				id: "3BCF2AF3C340AF24"
+				title: "有用的工具"
+				type: "checkmark"
+			}]
+			x: -3.75d
+			y: 4.5d
+		}
+		{
+			dependencies: ["507807175748245C"]
+			description: [
+				"从Ender IO移植而来的旅行手杖"
+				""
+				"将样板供应器作为传送锚点的功能可以在（游戏菜单 > MOD > 搜索 GTOCore > 配置）中关闭"
+			]
+			icon: "gtocore:travel_staff"
+			id: "5649427DD8F599CE"
+			tasks: [
+				{
+					id: "7AF9FA442475FC26"
+					item: "gtocore:travel_staff"
+					type: "item"
+				}
+				{
+					id: "7C442891D0BCE5FF"
+					item: "gtocore:travel_anchor"
+					type: "item"
+				}
+			]
+			x: 2.25d
+			y: 4.5d
+		}
+		{
+			description: ["模板管理器经过魔改可以放入AE的空白样板，将复制小帮手复制的方块直接存为样板"]
+			icon: "buildinggadgets2:template_manager"
+			id: "67931BF5416F31BA"
+			tasks: [
+				{
+					id: "5DFEF7D9825E5479"
+					item: "buildinggadgets2:template_manager"
+					type: "item"
+				}
+				{
+					id: "6190CBD796BDBB8D"
+					item: {
+						Count: 1
+						id: "buildinggadgets2:gadget_copy_paste"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: -2.25d
+			y: 6.0d
+		}
+		{
+			description: [
+				"你可以将EMI中的物品直接拖入AE终端和EMI的搜索栏"
+				""
+				"EMI的搜索文字也可以存为书签"
+				""
+				"在EMI中尝试取出物品会等效于在无线AE终端中取出物品"
+			]
+			id: "2F1EBC6B20B34792"
+			tasks: [{
+				id: "0EC621993ED07726"
+				title: "EMI"
+				type: "checkmark"
+			}]
+			x: -0.75d
+			y: 6.0d
+		}
+		{
+			description: ["应用能源（AE2）章节左上角有许多小工具，别忘了去看看！"]
+			id: "466185D2D791EC6D"
+			tasks: [{
+				id: "0692ADD68322C2E3"
+				title: "AE小工具"
+				type: "checkmark"
+			}]
+			x: 3.75d
+			y: 6.0d
+		}
+		{
+			description: [
+				"从掌上银行获取格雷会员卡"
+				""
+				"目前已知多人游戏有bug，且游戏货币系统不完善，暂时没什么用"
+			]
+			icon: "gtocore:lv_trading_station"
+			id: "415C09EF88BE19B4"
+			tasks: [
+				{
+					id: "56F843B90CFB7953"
+					item: "gtocore:lv_trading_station"
+					type: "item"
+				}
+				{
+					id: "49A50D0C6C3C5660"
+					item: "gtocore:palm_sized_bank"
+					type: "item"
+				}
+			]
+			x: -3.75d
+			y: 6.0d
 		}
 	]
 	subtitle: ["Tips and Tricks"]

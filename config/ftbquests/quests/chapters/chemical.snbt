@@ -5,7 +5,7 @@
 	group: "33C930DBAB246BE3"
 	icon: "gtceu:distillation_tower"
 	id: "79B773D45D268B6F"
-	order_index: 4
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
@@ -400,8 +400,6 @@
 				"一桶是rp-1的四倍.  8192000EU"
 				""
 				"也是只要完成木化线路就能简易合成出来的燃料"
-				""
-				"&c不支持火箭燃料装载&r"
 			]
 			id: "7BC5C696C89B17E3"
 			tasks: [{
