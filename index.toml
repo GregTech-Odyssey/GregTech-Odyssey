@@ -1174,19 +1174,19 @@ hash = "b630e660d677e22c694d5b87b5f2da9d8029e2a0ca9cbecbcdb6a774eae6e5c0"
 
 [[files]]
 file = "config/konkrete/locals/de_de.local"
-hash = "9cf580b889772edd244b5ea7cf42439bbae7bf2834bd759b819052d8f147e5fd"
+hash = "79a34cfd15c2d9c06498dc221be79279507d9b57666cd44f8d2c2cf95d3582ef"
 
 [[files]]
 file = "config/konkrete/locals/en_us.local"
-hash = "7e47765e16c56722a24ff7343191913b00ef2c8493b7172c641d61c8b583b0d4"
+hash = "fdf1864fd049b3f1b9af1f8db6c5125a627be7d06a451c778da3329843d3c39a"
 
 [[files]]
 file = "config/konkrete/locals/pl_pl.local"
-hash = "29e0e9f6e599f34ce351814cd4bbfa1bbea884122aff4b5072bff105d94f6862"
+hash = "d38a7776e362e4de6082078d803c1c9358d9d40526edfe4bdfd29c552aef76d8"
 
 [[files]]
 file = "config/konkrete/locals/pt_br.local"
-hash = "d53707bca34d3d11ef17642d819a4444550bf5d1c3557d0d8c19c5d47e46bbc4"
+hash = "dca55a2792451b31424cd5c24037141ec57cdca51955d062dd908fa9ca6a3e9c"
 
 [[files]]
 file = "config/lithium.properties"
@@ -2517,10 +2517,6 @@ file = "defaultconfigs/solcarrot-server.toml"
 hash = "e143bd0b7c1b210cdf4cefa2df0e8dc1164eec3a40345a42c9fc66b102e530ab"
 
 [[files]]
-file = "fancymenu_data/last_world.fmdata"
-hash = "c35359d6cff8e5f689b1eab23a97e455aa260310b3a792400de14ec7a8b24c5c"
-
-[[files]]
 file = "mods/ad-astra-rocketed.pw.toml"
 hash = "f7701471418c363cc5e72f648cd2b29572a0ba858fbf073fbcca50fb70b06c7c"
 metafile = true
@@ -3007,7 +3003,7 @@ metafile = true
 
 [[files]]
 file = "mods/gtocore-0.5.5-pre1.jar"
-hash = "9da031b2c925342a32c8c90e31b7b5370d36edc2eda8811dead4d78d16d53498"
+hash = "54519fe7b1ec582459e032610393b0c49b136e167172ac21c7fa6d552fadc604"
 
 [[files]]
 file = "mods/gtonativelib-1.0.jar"
