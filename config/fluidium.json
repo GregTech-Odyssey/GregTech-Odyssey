@@ -1,0 +1,8 @@
+{
+  "Version": "1",
+  "HorizontalChunkRadius": 2,
+  "VerticalChunkRadius": 1,
+  "FluidTickDelayChance": 0.5,
+  "FluidsThatAlwaysTick(RegistryName)": [],
+  "FluidsThatAlwaysTick(ModID)": []
+}
