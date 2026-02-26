@@ -515,6 +515,11 @@
 					id: "58BBAD50F7E13345"
 					item: "gtocore:rocket_fuel_h8n4c2o4_bucket"
 					type: "item"
+					optional_task: true
+				}
+				{
+					id: "58BBAD50F7E13345_CHECKMARK"
+					type: "checkmark"
 				}
 			]
 			x: 14.0d
@@ -1455,13 +1460,21 @@
 			dependencies: ["0BFFC7241DFB6A9C"]
 			description: ["{gto.iv.quests.7B22A8B66A42157D.description0}"]
 			id: "7B22A8B66A42157D"
-			tasks: [{
-				id: "3872D2093B7E13EA"
-				item: "gtceu:bromine_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "3872D2093B7E13EA"
+					item: "gtceu:bromine_bucket"
+					type: "item"
+					optional_task: true
+				}
+				{
+					id: "3872D2093B7E13EA_CHECKMARK"
+					type: "checkmark"
+				}
+			]
 			x: 17.0d
 			y: -12.0d
+			icon: "gtceu:bromine_bucket"
 		}
 		{
 			dependencies: ["0BFFC7241DFB6A9C"]
