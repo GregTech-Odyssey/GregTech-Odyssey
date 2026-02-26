@@ -435,11 +435,18 @@
 			shape: "gear"
 			size: 2.0d
 			subtitle: "圆梦时刻！"
-			tasks: [{
-				id: "25EE9615BE500843"
-				item: "gtceu:rocket_fuel_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "25EE9615BE500843"
+					item: "gtceu:rocket_fuel_bucket"
+					type: "item"
+					optional_task: true
+				}
+				{
+					id: "25EE9615BE500843_CHECKMARK"
+					type: "checkmark"
+				}
+			]
 			title: "T1火箭燃料：火箭燃料"
 			x: -9.0d
 			y: -2.0d
@@ -2563,11 +2570,18 @@
 			shape: "gear"
 			size: 2.0d
 			subtitle: "黑火药的后继传人"
-			tasks: [{
-				id: "144A747E3B0BBC44"
-				item: "gtocore:rocket_fuel_cn3h7o3_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "144A747E3B0BBC44"
+					item: "gtocore:rocket_fuel_cn3h7o3_bucket"
+					type: "item"
+					optional_task: true
+				}
+				{
+					id: "144A747E3B0BBC44_CHECKMARK"
+					type: "checkmark"
+				}
+			]
 			title: "T4火箭燃料：硝酸甲肼"
 			x: -9.0d
 			y: 7.0d

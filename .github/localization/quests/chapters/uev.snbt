@@ -527,13 +527,21 @@
 				}
 				type: "item"
 			}]
-			tasks: [{
-				id: "378DB566F942202E"
-				item: "gtocore:degassed_water_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "378DB566F942202E"
+					item: "gtocore:degassed_water_bucket"
+					type: "item"
+					optional_task: true
+				}
+				{
+					id: "378DB566F942202E_CHECKMARK"
+					type: "checkmark"
+				}
+			]
 			x: -6.0d
 			y: -2.0d
+			icon: "gtocore:degassed_water_bucket"
 		}
 		{
 			dependencies: ["3448FEC025A0CA9C"]

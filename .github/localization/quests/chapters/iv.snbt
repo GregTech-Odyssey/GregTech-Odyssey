@@ -378,7 +378,6 @@
 					item: "gtocore:ozone_water_bucket"
 					optional_task: true
 					type: "item"
-					optional_task: true
 				}
 				{
 					id: "793BF5CA711507A0"
@@ -892,7 +891,6 @@
 			]
 			x: 1.5d
 			y: -3.0d
-			icon: "gtceu:polyvinyl_butyral_bucket"
 		}
 		{
 			dependencies: ["1CF7845875EEFA3B"]
@@ -925,7 +923,6 @@
 					item: "gtceu:polybenzimidazole_bucket"
 					optional_task: true
 					type: "item"
-					optional_task: true
 				}
 				{
 					id: "2E7DD3DE537C5C84"
@@ -999,7 +996,6 @@
 					item: "gtceu:epoxy_bucket"
 					optional_task: true
 					type: "item"
-					optional_task: true
 				}
 				{
 					id: "7CD4D75C85307F98"
@@ -1464,13 +1460,21 @@
 			dependencies: ["0BFFC7241DFB6A9C"]
 			description: ["{gto.iv.quests.7B22A8B66A42157D.description0}"]
 			id: "7B22A8B66A42157D"
-			tasks: [{
-				id: "3872D2093B7E13EA"
-				item: "gtceu:bromine_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "3872D2093B7E13EA"
+					item: "gtceu:bromine_bucket"
+					type: "item"
+					optional_task: true
+				}
+				{
+					id: "3872D2093B7E13EA_CHECKMARK"
+					type: "checkmark"
+				}
+			]
 			x: 17.0d
 			y: -12.0d
+			icon: "gtceu:bromine_bucket"
 		}
 		{
 			dependencies: ["0BFFC7241DFB6A9C"]

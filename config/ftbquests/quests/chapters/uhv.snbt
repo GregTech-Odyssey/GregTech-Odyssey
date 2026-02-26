@@ -825,11 +825,18 @@
 			]
 			description: ["又是魔法！你可能需要进行盖亚魂循环"]
 			id: "187C5D9C4BFCFD35"
-			tasks: [{
-				id: "0B04723966A464CE"
-				item: "gtocore:quicksilver_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "0B04723966A464CE"
+					item: "gtocore:quicksilver_bucket"
+					type: "item"
+					optional_task: true
+				}
+				{
+					id: "0B04723966A464CE_CHECKMARK"
+					type: "checkmark"
+				}
+			]
 			x: 3.5d
 			y: -3.0d
 			icon: "gtocore:quicksilver_bucket"
@@ -981,13 +988,21 @@
 			dependencies: ["05FC584B28D957EB"]
 			description: ["必须制作盖亚魂循环，请参考魔法线"]
 			id: "5876D6BFFD8AA7F7"
-			tasks: [{
-				id: "32CCF029EA0AA6D4"
-				item: "gtocore:transcending_matter_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "32CCF029EA0AA6D4"
+					item: "gtocore:transcending_matter_bucket"
+					type: "item"
+					optional_task: true
+				}
+				{
+					id: "32CCF029EA0AA6D4_CHECKMARK"
+					type: "checkmark"
+				}
+			]
 			x: -3.5d
 			y: 2.5d
+			icon: "gtocore:transcending_matter_bucket"
 		}
 		{
 			dependencies: ["549A7D66F1D4875F"]

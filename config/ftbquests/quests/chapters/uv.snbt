@@ -533,7 +533,6 @@
 			tasks: [
 				{
 					id: "689554FADE2FEC02"
-					title: "聚酰亚胺"
 					type: "checkmark"
 				}
 				{
@@ -868,6 +867,7 @@
 			]
 			x: 1.0d
 			y: 8.5d
+			icon: "gtocore:ph_neutral_water_bucket"
 		}
 		{
 			dependencies: ["256F90AFB461107E"]
@@ -1252,13 +1252,21 @@
 			dependencies: ["256F90AFB461107E"]
 			hide_dependency_lines: true
 			id: "4873D7E77C2B7EB8"
-			tasks: [{
-				id: "20410913D72136FB"
-				item: "gtocore:cycloparaphenylene_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "20410913D72136FB"
+					item: "gtocore:cycloparaphenylene_bucket"
+					type: "item"
+					optional_task: true
+				}
+				{
+					id: "20410913D72136FB_CHECKMARK"
+					type: "checkmark"
+				}
+			]
 			x: -7.0d
 			y: 8.0d
+			icon: "gtocore:cycloparaphenylene_bucket"
 		}
 		{
 			dependencies: [

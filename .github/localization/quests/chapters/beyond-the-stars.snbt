@@ -435,11 +435,18 @@
 			shape: "gear"
 			size: 2.0d
 			subtitle: "{gto.beyond-the-stars.quests.16B3AB1D455CCB50.subtitle}"
-			tasks: [{
-				id: "25EE9615BE500843"
-				item: "gtceu:rocket_fuel_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "25EE9615BE500843"
+					item: "gtceu:rocket_fuel_bucket"
+					type: "item"
+					optional_task: true
+				}
+				{
+					id: "25EE9615BE500843_CHECKMARK"
+					type: "checkmark"
+				}
+			]
 			title: "{gto.beyond-the-stars.quests.16B3AB1D455CCB50.title}"
 			x: -9.0d
 			y: -2.0d

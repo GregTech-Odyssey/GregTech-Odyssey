@@ -444,11 +444,18 @@
 				tag: { }
 			}
 			id: "17B2FE7B42729497"
-			tasks: [{
-				id: "006702E21F14B623"
-				item: "gtceu:rocket_fuel_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "006702E21F14B623"
+					item: "gtceu:rocket_fuel_bucket"
+					type: "item"
+					optional_task: true
+				}
+				{
+					id: "006702E21F14B623_CHECKMARK"
+					type: "checkmark"
+				}
+			]
 			title: "火箭燃料线路"
 			x: -10.5d
 			y: -2.5d
