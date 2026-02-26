@@ -7,11 +7,12 @@
 	group: ""
 	icon: "gtocore:infinity_coin"
 	id: "39E07AEC9BF826C0"
-	order_index: 3
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
 			can_repeat: true
+			description: ["主线送了一个，如果你丢了可以在这里买"]
 			icon: {
 				Count: 1
 				id: "gtocore:prospector.mana_ulv"
@@ -98,9 +99,9 @@
 				type: "item"
 			}]
 			tasks: [{
-				count: 32L
+				count: 24L
 				id: "1FF0E92D02D011BD"
-				item: { Count: 32, id: "gtocore:copper_coin" }
+				item: "gtocore:copper_coin"
 				type: "item"
 			}]
 			title: "超级缸 I"
@@ -337,6 +338,7 @@
 				"20AC600A32D51156"
 			]
 			dependency_requirement: "one_completed"
+			description: ["不想手动点也可以制作混凝土的无限AE元件"]
 			icon: "minecraft:shulker_box"
 			id: "49FE915485277EA3"
 			rewards: [{
@@ -360,6 +362,7 @@
 				"3B50956CDCD2D04E"
 				"24B0FBD7AAD6C8B1"
 			]
+			description: ["不想手动点也可以制作建筑方块的无限AE元件"]
 			hide_until_deps_visible: true
 			icon: "factory_blocks:factory"
 			id: "1EBE4BC172EFA13E"
@@ -399,6 +402,7 @@
 			y: 5.5d
 		}
 		{
+			description: ["提前造出大蒸汽机器"]
 			icon: "gtocore:precision_steam_mechanism"
 			id: "60F54941B9E0EF4F"
 			rewards: [{
@@ -426,7 +430,7 @@
 				type: "choice"
 			}]
 			tasks: [{
-				count: 20L
+				count: 24L
 				id: "7E070BF50F5560C7"
 				item: "gtocore:copper_coin"
 				type: "item"
@@ -523,9 +527,9 @@
 				type: "all_table"
 			}]
 			tasks: [{
-				count: 32L
+				count: 24L
 				id: "28970BA6DFC1B52F"
-				item: { Count: 32, id: "gtocore:copper_coin" }
+				item: "gtocore:copper_coin"
 				type: "item"
 			}]
 			title: "炼金大师套装"
@@ -542,9 +546,9 @@
 				type: "item"
 			}]
 			tasks: [{
-				count: 8L
+				count: 16L
 				id: "197C8DB4F6DCA346"
-				item: { Count: 8, id: "gtocore:copper_coin" }
+				item: "gtocore:copper_coin"
 				type: "item"
 			}]
 			title: "黏土一组"
@@ -580,9 +584,9 @@
 				type: "choice"
 			}]
 			tasks: [{
-				count: 48L
+				count: 32L
 				id: "2583E7DE25E4A111"
-				item: { Count: 16, id: "gtocore:copper_coin" }
+				item: "gtocore:copper_coin"
 				type: "item"
 			}]
 			title: "神化组合包"
@@ -627,7 +631,7 @@
 			y: 5.5d
 		}
 		{
-			dependencies: ["7A7DC6205DED9BF3"]
+			dependencies: ["310210D2AD9515E3"]
 			hide_until_deps_complete: true
 			icon: {
 				Count: 1

@@ -4,31 +4,51 @@
 	default_quest_shape: ""
 	filename: "lv"
 	group: "2A1218851E38A2EE"
+	hide_quest_until_deps_visible: true
 	icon: "gtceu:electric_blast_furnace"
 	id: "4015C56C0D562D25"
-	images: [{
-		height: 1.0d
-		image: "botania:block/alfheim_portal_swirl"
-		rotation: 45.0d
-		width: 1.0d
-		x: -4.5d
-		y: 4.0d
-	}]
+	images: [
+		{
+			height: 1.0d
+			image: "botania:block/alfheim_portal_swirl"
+			rotation: 45.0d
+			width: 1.0d
+			x: -4.5d
+			y: 4.25d
+		}
+		{
+			height: 1.0d
+			image: "gtocore:block/spacetime_assembly_line_casing"
+			rotation: 45.0d
+			width: 1.0d
+			x: -1.0d
+			y: 8.0d
+		}
+		{
+			height: 1.0d
+			image: "gtocore:block/spacetime_assembly_line_casing"
+			rotation: 45.0d
+			width: 1.0d
+			x: -1.0d
+			y: 6.5d
+		}
+		{
+			height: 1.0d
+			image: "gtocore:block/spacetime_assembly_line_casing"
+			rotation: 45.0d
+			width: 1.0d
+			x: 6.5d
+			y: 8.0d
+		}
+	]
 	order_index: 3
 	quest_links: [
 		{
 			id: "111C9085726F8FA6"
 			linked_quest: "018F46EE6AE97EFD"
-			shape: "square"
-			x: -6.0d
-			y: 4.0d
-		}
-		{
-			id: "24E6A7A2360C8265"
-			linked_quest: "5FCFE3D6B36CC409"
 			shape: "diamond"
-			x: -4.5d
-			y: 4.0d
+			x: -6.0d
+			y: 4.25d
 		}
 		{
 			id: "112AADE317BB4B64"
@@ -37,6 +57,13 @@
 			size: 2.0d
 			x: 8.0d
 			y: 3.0d
+		}
+		{
+			id: "358C97B892DD07EB"
+			linked_quest: "5FCFE3D6B36CC409"
+			shape: "diamond"
+			x: -4.5d
+			y: 4.25d
 		}
 	]
 	quests: [
@@ -114,6 +141,7 @@
 			dependencies: ["1D40D24D6870493D"]
 			description: ["可以抽世界中生成的实体流体比如水和岩浆，当然最推荐抽石油"]
 			id: "03703EA18C3C67A8"
+			shape: "diamond"
 			subtitle: "终于可以不用桶了"
 			tasks: [{
 				id: "0DEB9B2B852B3B6E"
@@ -126,11 +154,9 @@
 		{
 			dependencies: ["5FBCB0C7F914D814"]
 			description: [
-				"用车床可以让你以一个锭的代价生产两个对应的杆"
-				"除此之外车床还可以加工螺栓成螺丝"
-				"加工材料粒成材料滚珠"
-				"加工齿轮成锯片"
-				"加工精致宝石和宝石板成透镜"
+				"用车床可以让你以一个锭的代价生产&b两个&r对应的杆"
+				""
+				"除此之外车床还可以加工螺栓成&6螺丝&r，加工材料粒成材料&6滚珠&r，加工齿轮成&6锯片&r，加工精致宝石和宝石板成&6透镜&r"
 			]
 			id: "0D761DF6EE1B3602"
 			shape: "hexagon"
@@ -252,7 +278,7 @@
 				""
 				"后面搅拌机会用得非常多，为了避免串配方，整多几个总不是坏事"
 				""
-				"&7 提示：每台机器的左下角都有一个“锁定配方”按钮，点击启用则机器只会执行最近执行过的配方，也可以在一定程度上减少卡顿&r"
+				"&o&7提示：小机器的左下角都有一个“输入限制”按钮，点击启用则一种原材料最多只能占用机器的一个输入槽"
 			]
 			id: "2C9031FA63A5278B"
 			shape: "hexagon"
@@ -272,18 +298,20 @@
 				"021F533355CCBABA"
 			]
 			description: [
-				"你可以用这个大家伙将固态物质&e高温液化&r为液态形式"
+				"GTO新增的机器，你可以用这个大家伙将固态物质&e高温液化&r为液态形式"
 				""
 				"由于熔点过高，&6流体提取机&r无法做到很多事情，需要&6液化炉&r出马"
 				""
-				"等后面的阶段有条件上并行仓了一定记得要补上"
+				"加装附属模块后支持&e并行&r"
+				""
+				"&o&7液化炉取代了提取机的大部分职能导致提取机没什么用了"
 			]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			id: "2D899AFE07E20FEF"
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "给流体提取机放个假？"
+			subtitle: "给提取机放个假？"
 			tasks: [{
 				id: "2B32486AC0FC1B45"
 				item: "gtocore:liquefaction_furnace"
@@ -326,12 +354,6 @@
 					disable_toast: true
 					id: "280D0B5D4340A2C2"
 					item: "gtceu:lv_output_bus"
-					type: "item"
-				}
-				{
-					disable_toast: true
-					id: "0613053A038D110B"
-					item: "gtceu:lv_output_hatch"
 					type: "item"
 				}
 				{
@@ -393,7 +415,7 @@
 			]
 			id: "68EFF1609132BDD4"
 			rewards: [{
-				count: 64
+				count: 8
 				id: "5738F37EA29D662F"
 				item: "gtceu:aluminium_ingot"
 				type: "item"
@@ -417,6 +439,7 @@
 			description: ["高级的&6线缆&r都需要在&6过胶机&r内完成，且能帮你省去固化步骤"]
 			hide_dependency_lines: true
 			id: "5B8151CC61AAAE12"
+			shape: "hexagon"
 			subtitle: "给你的导线洗个澡"
 			tasks: [{
 				id: "3727C561E7DC1878"
@@ -477,8 +500,13 @@
 		}
 		{
 			dependencies: ["7392F240AD330C1A"]
-			description: ["绝大多数的化学反应都在这里进行"]
+			description: [
+				"绝大多数的化学反应都在这里进行"
+				""
+				"你需要进行的化学反应不少，强烈建议多做几个"
+			]
 			id: "7E061DC16432D549"
+			shape: "hexagon"
 			subtitle: "伟大，无需多言"
 			tasks: [{
 				id: "0520326A0658F3D5"
@@ -504,7 +532,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: 3.25d
+			y: 3.5d
 		}
 		{
 			dependencies: [
@@ -519,7 +547,7 @@
 			id: "6BB3386725B228D5"
 			rewards: [
 				{
-					count: 8
+					count: 2
 					id: "46E1E95A13B10F6E"
 					item: "gtceu:good_electronic_circuit"
 					type: "item"
@@ -572,7 +600,7 @@
 			tasks: [{
 				count: 8L
 				id: "4269A9E3E5D38BF6"
-				item: "enderio:dark_steel_ingot"
+				item: "gtocore:dark_steel_ingot"
 				type: "item"
 			}]
 			x: 1.5d
@@ -604,7 +632,7 @@
 				item: "gtocore:precision_steam_mechanism"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 2.0d
 			y: 7.5d
 		}
 		{
@@ -639,6 +667,7 @@
 			]
 			hide_dependency_lines: true
 			id: "422259B2C415401D"
+			shape: "hexagon"
 			subtitle: "需要来给你电一下"
 			tasks: [{
 				id: "703EB635E18DD303"
@@ -666,7 +695,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: 6.5d
+			y: 9.5d
 		}
 		{
 			dependencies: [
@@ -679,6 +708,8 @@
 				"你需要做四个来搭建&6工业屠宰场&r。"
 			]
 			id: "29896685477AA469"
+			shape: "hexagon"
+			size: 1.0d
 			subtitle: "最麻烦的部件"
 			tasks: [{
 				id: "3604117704374463"
@@ -686,7 +717,7 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: 5.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["06534664971F6E68"]
@@ -702,8 +733,8 @@
 				item: "gtceu:manganese_phosphide_ingot"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 5.0d
+			x: 4.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["33B01E889EE7E990"]
@@ -713,6 +744,7 @@
 				"&6钢制储罐阀门&r的自动输出需要开口向下，但&6大型蒸汽储罐&r没有地方可以让&6钢制储罐阀门&r向下开口，所以你需要用&6蒸汽泵&r加&e管道&r的形式将蒸汽从储罐内导出。"
 			]
 			id: "4C535A516D8551F5"
+			optional: true
 			subtitle: "你最想要的缓存"
 			tasks: [{
 				id: "47984D9F50F2EB59"
@@ -725,16 +757,12 @@
 		}
 		{
 			dependencies: ["507807175748245C"]
-			description: [
-				"这个是LV阶段的超导材料"
-				""
-				"通过搅拌可以大量制取导电合金粉，没有搅拌机前也可以通过Ender IO的合金炉简单做一些"
-			]
+			description: ["这个是LV阶段的超导材料"]
 			hide_dependency_lines: true
 			id: "0DF27446EE5DB28F"
 			tasks: [{
 				id: "275918DEA077C630"
-				item: "enderio:conductive_alloy_ingot"
+				item: "gtocore:conductive_alloy_ingot"
 				type: "item"
 			}]
 			title: "LV超导"
@@ -747,6 +775,8 @@
 				"用激光焊接机可以自动化并节省你制作各种部件外壳的材料"
 				""
 				"推荐根据你需要的部件外壳种类多做几个"
+				""
+				"除此之外，它也可以制作转子，机械方块和长杆"
 			]
 			id: "2316EB804D47C3A4"
 			shape: "hexagon"
@@ -773,7 +803,7 @@
 				""
 				"·例如：如果你的电力高炉没有放置输出总线，那它就不会为你炼制铝锭！"
 				""
-				"提示：所有的舱室都自带&e自动输入/输出&r，你也可以用软锤关闭舱室以禁用这个功能"
+				"提示：所有的舱室都自带&e自动输入/输出&r，你可以用&6软锤&r右键舱室以开关这个功能"
 			]
 			id: "6465CCE684E0DD3B"
 			subtitle: "关系到你的产物"
@@ -818,6 +848,11 @@
 			]
 			icon: "gtceu:lv_energy_input_hatch"
 			id: "23A116C4BAE96979"
+			rewards: [{
+				id: "27B3BEBE0FC9D1FF"
+				item: "gtocore:gold_coin"
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 1.5d
 			subtitle: "影响机器工作电压和配方的执行速度"
@@ -830,7 +865,7 @@
 				}
 				{
 					id: "06DF196295344F3C"
-					title: "请务必知晓升压规律!"
+					title: "请务必知晓双仓升压!"
 					type: "checkmark"
 				}
 			]
@@ -841,11 +876,15 @@
 		{
 			dependencies: ["33B01E889EE7E990"]
 			description: [
-				"严禁共用维护仓！"
+				"严禁共用维护仓和消声仓！"
 				""
-				"消声仓前方3格必须&e无遮挡&r（包括管道）！并且现在消声仓在默认配置、普通以上难度时每秒有一定概率会产生灰烬，灰烬满后也视为被遮挡，使得机器罢工！其回收概率是&6不产生灰烬&r的概率，越高级的消声仓能抑制更多的污染，从而产生更少的灰烬，同时也有更大的容量，最终减少你每次清理消声仓的频率"
+				"维护&6维护仓&r时，请将所需工具放在&e物品栏/工具皮带&r中，空手点击维修槽位即可。如果放入&6胶带&r，机器会在故障时自动消耗一个胶带进行维护。"
 				""
-				"需要额外注意的是，理论上消声仓&e不能通过除了无人机以外的任何方式来清理灰烬&r，不过除了升级你的消声仓以外，&6空气净化器&r也能大幅减少你清理消声仓的频率，减少一些痛苦……"
+				"&6消声仓&r前方3格必须&c无遮挡&r（包括管道）！并且现在消声仓在默认配置、普通以上难度时每秒有一定概率会产生灰烬，灰烬满后也视为&c被遮挡&r，使得机器罢工！"
+				""
+				"&6消声仓&r的回收概率是&e不产生灰烬的概率&r，越高级的消声仓能抑制更多的污染，从而产生更少的灰烬，同时也有更大的容量，最终减少你每次清理消声仓的频率"
+				""
+				"需要额外注意的是，消声仓&e只能通过无人机来自动清理灰烬&r，不过除了升级你的消声仓以外，&6空气净化器&r也能大幅减少你清理消声仓的频率，减少一些痛苦……"
 			]
 			icon: "gtceu:maintenance_hatch"
 			id: "58434872C6EC4E32"
@@ -975,10 +1014,9 @@
 		{
 			dependencies: [
 				"561F5AACF437E7C5"
-				"7E061DC16432D549"
+				"4020AA9E7A6EDA60"
 			]
 			description: ["早期可以通过&6异丙苯，二氯苯&r等方式制取"]
-			hide_dependency_lines: true
 			icon: "gtceu:phenol_bucket"
 			id: "2FC66D6FAFF73E31"
 			tasks: [
@@ -1019,7 +1057,11 @@
 		}
 		{
 			dependencies: ["7E061DC16432D549"]
-			description: ["多种方式获取，推荐硫粉一路氧化，最后加水"]
+			description: [
+				"多种方式获取，推荐硫粉一路氧化，最后加水"
+				""
+				"你在脱硫中获得的硫化氢也可以制成硫酸"
+			]
 			hide_dependency_lines: true
 			icon: "gtceu:sulfuric_acid_bucket"
 			id: "0EDB058F9C6882FE"
@@ -1078,6 +1120,7 @@
 			description: ["有些昂贵...值得吗？"]
 			hide_dependency_lines: true
 			id: "7FD151D808A41D6C"
+			optional: true
 			shape: "hexagon"
 			size: 1.5d
 			subtitle: "免费能源"
@@ -1096,10 +1139,11 @@
 				""
 				"你可以在任何大量用电的地方见识一下它的POWER"
 				""
-				"使用无线电网模式无需放置动力仓"
+				"&e使用无线电网模式无需放置动力仓&r"
 			]
 			hide_dependency_lines: true
 			id: "0F5CFFD0108CC61B"
+			optional: true
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
@@ -1195,7 +1239,7 @@
 			]
 			id: "7392F240AD330C1A"
 			rewards: [{
-				count: 16
+				count: 8
 				id: "039462C708D5F736"
 				item: "gtceu:lv_electric_motor"
 				type: "item"
@@ -1226,7 +1270,6 @@
 			dependencies: ["2B9062A5F939A843"]
 			id: "5FBCB0C7F914D814"
 			rewards: [{
-				count: 4
 				id: "031B2A1BA362AE0B"
 				item: "gtceu:lv_electric_piston"
 				type: "item"
@@ -1243,7 +1286,6 @@
 			dependencies: ["578B710BA08FD299"]
 			id: "1D40D24D6870493D"
 			rewards: [{
-				count: 4
 				id: "3DC2E68FF3056469"
 				item: "gtceu:lv_electric_pump"
 				type: "item"
@@ -1275,7 +1317,6 @@
 			]
 			id: "2685D515096F5B28"
 			rewards: [{
-				count: 4
 				id: "6B688CFA68EE441D"
 				item: "gtceu:lv_robot_arm"
 				type: "item"
@@ -1292,7 +1333,6 @@
 			dependencies: ["7392F240AD330C1A"]
 			id: "14285E8F662204AE"
 			rewards: [{
-				count: 4
 				id: "2BC08EBF106CECAB"
 				item: "gtceu:lv_conveyor_module"
 				type: "item"
@@ -1436,6 +1476,7 @@
 				"072F7B0A69F0DB7A"
 				"707FE9ADE3861C97"
 				"2BE979586DBE34BC"
+				"4ECCD5C54FE7F706"
 			]
 			description: [
 				"这是低压时代你能制作的无线P2P物流，拥有超模的传输速率"
@@ -1478,7 +1519,7 @@
 				type: "item"
 			}]
 			x: -4.5d
-			y: 2.5d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -1487,14 +1528,13 @@
 			]
 			hide_dependency_lines: true
 			id: "7643029900C2F8B3"
-			shape: "hexagon"
 			tasks: [{
 				id: "3F4DD982D71636FC"
 				item: "gtocore:lv_unpacker"
 				type: "item"
 			}]
 			x: -6.0d
-			y: 2.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["14E5EF3DA1193B6F"]
@@ -1524,7 +1564,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: -5.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["7392F240AD330C1A"]
@@ -1537,7 +1577,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: -4.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["06534664971F6E68"]
@@ -1581,13 +1621,14 @@
 				item: "gtocore:steel_field_generator_casing"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 6.5d
+			x: 6.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["707FE9ADE3861C97"]
 			description: ["你可以在任何时候结束你的手动挖矿生活，为何不是现在？"]
 			id: "24E66A5D4892198F"
+			shape: "diamond"
 			subtitle: "Take it easy"
 			tasks: [{
 				id: "45B79BB705AC0F10"
@@ -1622,7 +1663,7 @@
 				item: "gtceu:lv_energy_output_hatch"
 				type: "item"
 			}]
-			x: -1.0d
+			x: -2.0d
 			y: 6.5d
 		}
 		{
@@ -1631,6 +1672,7 @@
 				"4ECCD5C54FE7F706"
 			]
 			id: "3353A95BCFD955F1"
+			optional: true
 			tasks: [{
 				id: "737B9FF9BCEB1630"
 				item: "gtocore:steam_pump"
@@ -1649,10 +1691,10 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: 5.0d
+			y: 8.0d
 		}
 		{
-			dependencies: ["7392F240AD330C1A"]
+			dependencies: ["1369B896AC811F03"]
 			icon: "gtceu:lv_battery_hull"
 			id: "35347DE9C34F2825"
 			tasks: [{
@@ -1667,7 +1709,7 @@
 				title: "小型电池"
 				type: "item"
 			}]
-			x: -1.0d
+			x: -2.5d
 			y: -7.0d
 		}
 		{
@@ -1678,7 +1720,7 @@
 				item: "gtceu:lv_battery_buffer_16x"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -4.5d
 			y: -5.5d
 		}
 		{
@@ -1751,7 +1793,7 @@
 				title: "电钻"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -4.5d
 			y: -7.5d
 		}
 		{
@@ -1794,7 +1836,7 @@
 				title: "链锯"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -4.5d
 			y: -6.5d
 		}
 		{
@@ -1824,7 +1866,7 @@
 				item: "gtceu:prospector.lv"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -4.5d
 			y: -8.5d
 		}
 		{
@@ -1840,7 +1882,7 @@
 			}]
 			title: "让时间变得快起来"
 			x: 6.5d
-			y: 6.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["6A9DFD965CA33D75"]
@@ -1857,33 +1899,19 @@
 				item: "gtocore:lv_power_amplifiers"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -1.0d
 			y: 6.5d
-		}
-		{
-			dependencies: ["35347DE9C34F2825"]
-			description: ["厌烦了到处插火把？你现在可以制作&6夜视护目镜&r，给予你几乎免费的夜视效果，并且它还可以用于之后合成&6纳米肌体™套装&r的头盔"]
-			id: "0CE8B89D975482A8"
-			tasks: [{
-				id: "70E861B7CF91BC34"
-				item: {
-					Count: 1
-					id: "gtceu:nightvision_goggles"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: -3.0d
-			y: -9.5d
 		}
 		{
 			dependencies: ["06534664971F6E68"]
 			description: [
 				"&l&e附属模块&r&r机制是GTO的特色之一！"
 				""
-				"在你之后获得了更好的资源之后，有一部分机器能加装&e附属模块&r，它们允许机器添加更多&6能源仓&r，甚至有可能是&6加速仓&r或者&6并行仓&r！"
+				"在你之后获得了更好的资源之后，有一部分机器能加装&e附属模块&r，它们允许机器安装新的仓室（如&6加速仓&r，&6并行仓&r，更多的&6输入输出和能源仓&r），部分机器的附属模块本身还提供了&b额外效果&r（如通用工厂）"
 				""
 				"打开EMI多方块预览，点击右侧P可以查看附属模块，需要注意，&e你应当把模块加装到原来机器上，而非拆除原本机器重新建造&r！"
+				""
+				"使用&b高级终端&r可以指定建造附属模块"
 				""
 				"在你进入HV获得&6不锈钢&r时，你可以为电力高炉安装&e附属模块&r"
 			]
@@ -2125,6 +2153,7 @@
 				"这台多方块机器的造价比&6大型青铜锅炉&r更高，但它的运转是免费的，或许这很值得"
 			]
 			id: "7EA226054696AA3F"
+			optional: true
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
@@ -2139,13 +2168,15 @@
 			dependencies: ["4ECCD5C54FE7F706"]
 			description: ["你目前需要拿它制作&6高压氮气&r"]
 			id: "76C7A649B54B9E94"
+			shape: "hexagon"
+			size: 1.5d
 			tasks: [{
 				id: "0FA72DF40756106A"
 				item: "gtocore:gas_compressor"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 6.5d
+			x: 4.0d
+			y: 7.5d
 		}
 		{
 			dependencies: [
@@ -2173,14 +2204,14 @@
 			]
 			title: "1x磷化锰导线"
 			x: 5.0d
-			y: 5.0d
+			y: 6.5d
 		}
 		{
 			dependencies: [
 				"6D268D17B219A9BA"
 				"49122B7DBE422691"
 			]
-			description: ["后续所有线圈都需要用到"]
+			description: ["后续所有线圈都需要用到，值得一条产线"]
 			id: "4ED20058887E8700"
 			tasks: [{
 				id: "62516B9F2044164C"
@@ -2192,7 +2223,7 @@
 		}
 		{
 			dependencies: ["5FBCB0C7F914D814"]
-			description: ["冲压机床的功能不多。你需要它来制作&6云母基板&r"]
+			description: ["冲压机床的功能不多，主要用于制作扇叶。你需要它来制作&6云母基板&r"]
 			hide_dependent_lines: true
 			id: "3AC12CC39F5C777F"
 			tasks: [{
@@ -2266,12 +2297,14 @@
 			hide_until_deps_visible: true
 			icon: "gtceu:good_electronic_circuit"
 			id: "7E42EE42563374BE"
+			optional: true
 			rewards: [{
 				count: 16
 				id: "32A60EABC44F2216"
 				item: "gtceu:good_electronic_circuit"
 				type: "item"
 			}]
+			shape: "octagon"
 			tasks: [{
 				id: "1A502E26BFA7552B"
 				type: "checkmark"
@@ -2288,15 +2321,16 @@
 			hide_until_deps_visible: true
 			icon: "gtceu:lv_electric_motor"
 			id: "2EE147D398EEC675"
+			optional: true
 			rewards: [
 				{
-					count: 32
+					count: 24
 					id: "51200E0DB6D119E3"
 					item: "gtceu:lv_electric_motor"
 					type: "item"
 				}
 				{
-					count: 4
+					count: 8
 					id: "6EF92F41CB7C3408"
 					item: "gtceu:lv_conveyor_module"
 					type: "item"
@@ -2308,12 +2342,19 @@
 					type: "item"
 				}
 				{
-					count: 4
+					count: 8
 					id: "2416D8C40FB24DA3"
 					item: "gtceu:lv_robot_arm"
 					type: "item"
 				}
+				{
+					count: 4
+					id: "3F264C61FFA104EF"
+					item: "gtceu:lv_electric_pump"
+					type: "item"
+				}
 			]
+			shape: "octagon"
 			tasks: [{
 				id: "0F294ACB2B398A14"
 				type: "checkmark"
@@ -2330,19 +2371,334 @@
 			hide_until_deps_visible: true
 			icon: "gtceu:aluminium_ingot"
 			id: "2C91F5919FE7444D"
+			optional: true
 			rewards: [{
 				count: 320
 				id: "68C6C3974C846D7C"
 				item: "gtceu:aluminium_ingot"
 				type: "item"
 			}]
+			shape: "octagon"
 			tasks: [{
 				id: "05BDF541ED0D3735"
 				type: "checkmark"
 			}]
 			title: "铝补助&a（简单）&r"
-			x: 6.5d
-			y: 2.0d
+			x: 5.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"4AF39FF336EA1BF4"
+				"1FCF7BF494F483B4"
+			]
+			description: [
+				"升级模块拿在手上&e潜行右键&r会消耗玩家&c全部&r的经验，然后附加属性（确保玩家有10级以上的经验），可以右键机器来升级，升级效果为永久加成，可覆盖升级。"
+				""
+				"效果比他的兄弟增幅器&e强力非常多&r，因此可以应用模块的机器&c较为有限&r，以下为已知可以使用模块的机器："
+				""
+				"- 所有单方块机器"
+				"- 电力高炉"
+				"- 反应炉"
+				"- &e“大批量加工”&r章节中的机器"
+				"- 巨型真空冷冻机"
+			]
+			id: "389D61CE9E799725"
+			rewards: [{
+				id: "354671ADCF4F585E"
+				item: {
+					Count: 1
+					id: "ae2:portable_item_cell_4k"
+					tag: {
+						internalCurrentPower: 20000.0d
+					}
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "今日手气如何？"
+			tasks: [
+				{
+					id: "5B8F0331ED91AA12"
+					item: "gtocore:speed_upgrade_module"
+					type: "item"
+				}
+				{
+					id: "3845A732B77CD412"
+					item: "gtocore:energy_upgrade_module"
+					type: "item"
+				}
+			]
+			title: "升级模块！加速吧！！！"
+			x: -1.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["29896685477AA469"]
+			description: [
+				"可以给小机器和玩家无线充电，HV之后配合&6无线充能覆盖版&r可以给方块充电"
+				""
+				"[ \"点\", { \"text\": \"这里\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5C62ECF9AC84E023\" } }, \"获取覆盖版用法\"]"
+			]
+			icon: "gtocore:wireless_charger"
+			id: "22A3C58D1FDF2221"
+			shape: "diamond"
+			tasks: [
+				{
+					id: "03051582E135CA6B"
+					item: "gtocore:wireless_charger"
+					type: "item"
+				}
+				{
+					id: "01CA22B63923C6A4"
+					item: "gtocore:wireless_charger_cover"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["29896685477AA469"]
+			description: ["总成可以让你&e同时输入物品和流体&r，这在你后续使用AE下单的时候非常有用"]
+			id: "4C1BD3400EEFEB7C"
+			tasks: [{
+				id: "2354933E12FD361A"
+				item: "gtceu:lv_dual_input_hatch"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["072F7B0A69F0DB7A"]
+			description: [
+				"在此阶段不是必需的机器"
+				""
+				"如果你想发展AE，你需要用到它"
+			]
+			id: "2A893BFDB41B7CFC"
+			tasks: [{
+				id: "3C8AC84213140060"
+				item: "gtceu:lv_laser_engraver"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["745B1AE1F523FD78"]
+			description: ["能够&e限制电流大小&r，避免传输电流过大导致烧毁导线"]
+			id: "48D534B94140861E"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "136953536D7AA08C"
+				item: "gtceu:lv_diode"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7E061DC16432D549"]
+			description: [
+				"聚乙烯的合成只是小打小闹，现在你将迎来你的第一条化工产线--&6酚醛树脂印刷电路基板&r产线"
+				""
+				"准备好你的化学反应釜！"
+				""
+				"若化学反应釜不多，建议每个配方多生产一些，然后切换配方生产下一种产物，避免来回倒腾的麻烦"
+				""
+				"当然我更推荐你为每个配方准备一个化学反应釜，然后用管道将它们串在一起，形成一条自动化生产电路基板的产线！"
+			]
+			hide_dependency_lines: true
+			icon: "gtceu:wetware_printed_circuit_board"
+			id: "4020AA9E7A6EDA60"
+			tasks: [{
+				id: "2474E1F2814C7E56"
+				type: "checkmark"
+			}]
+			title: "准备开始...化工！"
+			x: -9.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"33B01E889EE7E990"
+				"18E057F31DDC4065"
+			]
+			hide_until_deps_visible: true
+			icon: "gtceu:lv_electric_motor"
+			id: "031D403E32636798"
+			optional: true
+			rewards: [
+				{
+					count: 12
+					id: "7D8AEBC89CFF5EFA"
+					item: "gtceu:lv_electric_motor"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "141036F6065046B5"
+					item: "gtceu:lv_conveyor_module"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "42377463BE627DAF"
+					item: "gtceu:lv_electric_piston"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6FC9C1603B2A3D02"
+					item: "gtceu:lv_robot_arm"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1DCD58C377EDC6C5"
+					item: "gtceu:lv_electric_pump"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "208BD19E0CD4E668"
+				type: "checkmark"
+			}]
+			title: "LV部件补助&e（普通）&r"
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"68EFF1609132BDD4"
+				"18E057F31DDC4065"
+			]
+			hide_until_deps_visible: true
+			icon: "gtceu:aluminium_ingot"
+			id: "72844914477AB61B"
+			optional: true
+			rewards: [{
+				count: 56
+				id: "7F61C4E2EF9A79BC"
+				item: "gtceu:aluminium_ingot"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "1193E9ED4CFD963A"
+				type: "checkmark"
+			}]
+			title: "铝补助&e（普通）&r"
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"6BB3386725B228D5"
+				"18E057F31DDC4065"
+			]
+			hide_until_deps_visible: true
+			icon: "gtceu:good_electronic_circuit"
+			id: "78D71D97BEE01E8F"
+			optional: true
+			rewards: [{
+				count: 6
+				id: "03D75D08E635470D"
+				item: "gtceu:good_electronic_circuit"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "32A5824BC822AD5D"
+				type: "checkmark"
+			}]
+			title: "芯片补助&e（普通）&r"
+			x: -4.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["1D40D24D6870493D"]
+			description: [
+				"厌倦了私人飞机的旅行？"
+				""
+				"试试&4Iron&r &eMan&r！"
+				""
+				"&7如何补充燃料：右击你的燃料储存桶&r"
+				""
+				"现阶段你能使用的燃料只有含硫轻燃油"
+			]
+			id: "62F451C62752F3B7"
+			optional: true
+			rewards: [{
+				id: "13E1F79C96D46594"
+				item: "farmersdelight:honey_glazed_ham"
+				type: "item"
+			}]
+			tasks: [{
+				id: "313A119A9CB2D43A"
+				item: {
+					Count: 1
+					id: "gtceu:liquid_fuel_jetpack"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"056EC4E6FAF614B7"
+				"5D439C42DEFEC912"
+				"0D26129C7015E4D1"
+			]
+			description: [
+				"在简单模式下，你可以提前进入虚空和超平坦世界"
+				""
+				"虚空传送器没有电压需求，需要充满能量后才可使用。&616安LV能源仓&r刚好满足它的最低功率需求"
+				""
+				"虚空传送器的具体使用方法请参考位于HV章节的虚空传送器任务"
+			]
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:block/nether_portal"
+				}
+			}
+			id: "6C6C0101F0002AE7"
+			optional: true
+			rewards: [{
+				id: "79E0D2B52AD6FEB7"
+				item: "gtocore:void_transporter"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "1A0CEB0558BC53AD"
+				type: "checkmark"
+			}]
+			title: "前往虚空和超平坦世界&a（简单）&r"
+			x: 0.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["7392F240AD330C1A"]
+			id: "1369B896AC811F03"
+			shape: "hexagon"
+			tasks: [{
+				id: "341D54153D54D732"
+				item: "gtceu:lv_canner"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -7.0d
 		}
 	]
 	subtitle: ["Tier1-LV"]

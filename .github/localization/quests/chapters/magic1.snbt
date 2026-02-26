@@ -4,9 +4,10 @@
 	default_quest_shape: ""
 	filename: "magic1"
 	group: "48D03BA483B3FA87"
+	hide_quest_until_deps_visible: true
 	icon: "gtocore:colorful_mystical_flower"
 	id: "1883B79BDB2AAE5D"
-	order_index: 0
+	order_index: 1
 	progression_mode: "flexible"
 	quest_links: [{
 		id: "1637CAA410A0BDED"
@@ -551,7 +552,6 @@
 				""
 				"{gto.magic1.quests.4E02DC8A474A4A2F.description1}"
 			]
-			hide_until_deps_visible: false
 			id: "4E02DC8A474A4A2F"
 			shape: "hexagon"
 			tasks: [{
@@ -607,7 +607,6 @@
 				""
 				"{gto.magic1.quests.7A359C1F5E041C4F.description3}"
 			]
-			hide_until_deps_visible: false
 			id: "7A359C1F5E041C4F"
 			min_width: 300
 			shape: "hexagon"
@@ -638,7 +637,6 @@
 				""
 				"{gto.magic1.quests.70C5A902C0D26628.description1}"
 			]
-			hide_until_deps_visible: false
 			id: "70C5A902C0D26628"
 			shape: "hexagon"
 			size: 1.5d
@@ -1428,7 +1426,6 @@
 				""
 				"{gto.magic1.quests.205BBDFBCA582E3B.description3}"
 			]
-			hide_until_deps_visible: false
 			id: "205BBDFBCA582E3B"
 			shape: "hexagon"
 			size: 1.25d
@@ -1481,7 +1478,7 @@
 			dependencies: ["66E12F82F66FB8CE"]
 			description: ["{gto.magic1.quests.32DF4BC46620F952.description0}"]
 			id: "32DF4BC46620F952"
-			shape: "square"
+			shape: "hexagon"
 			tasks: [{
 				id: "0B5B67B066E672CD"
 				item: "botania:alchemy_catalyst"
@@ -2730,8 +2727,6 @@
 				"{gto.magic1.quests.5766C8B9E850C186.description1}"
 				""
 				"{gto.magic1.quests.5766C8B9E850C186.description2}"
-				""
-				""
 			]
 			id: "5766C8B9E850C186"
 			shape: "hexagon"
@@ -3122,7 +3117,6 @@
 				"{gto.magic1.quests.5CFBA24B3E0CDEDD.description3}"
 				""
 				"{gto.magic1.quests.5CFBA24B3E0CDEDD.description4}"
-				""
 			]
 			icon: {
 				Count: 1
@@ -3580,7 +3574,7 @@
 			dependencies: ["79BE48D56622542F"]
 			hide_dependency_lines: true
 			id: "16CE6D6560F6B36F"
-			size: 0.5d
+			size: 0.7d
 			subtitle: "{gto.magic1.quests.16CE6D6560F6B36F.subtitle}"
 			tasks: [{
 				id: "6D4FA9EEEAC68674"
@@ -3602,7 +3596,10 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["66E12F82F66FB8CE"]
+			dependencies: [
+				"66E12F82F66FB8CE"
+				"2A5BA479E707034B"
+			]
 			description: [
 				"{gto.magic1.quests.0B61448F01656C1D.description0}"
 				""
@@ -3626,6 +3623,7 @@
 		{
 			dependencies: ["66E12F82F66FB8CE"]
 			id: "31BC72F2F45E70F3"
+			shape: "diamond"
 			subtitle: "{gto.magic1.quests.31BC72F2F45E70F3.subtitle}"
 			tasks: [{
 				id: "6B9EEFC2E7348371"
@@ -4064,7 +4062,6 @@
 		}
 		{
 			dependencies: [
-				"457DE8C154641437"
 				"5FB36C788008C907"
 				"2A5BA479E707034B"
 			]
@@ -4130,6 +4127,7 @@
 			description: ["{gto.magic1.quests.4616B3E583B430A0.description0}"]
 			hide_dependency_lines: true
 			id: "4616B3E583B430A0"
+			shape: "diamond"
 			tasks: [{
 				id: "1BD6C14B79F2804C"
 				item: "gtocore:large_perfusion_device"
@@ -4146,7 +4144,7 @@
 				item: "gtocore:manasteel_casing"
 				type: "item"
 			}]
-			x: 12.75d
+			x: 12.25d
 			y: 3.5d
 		}
 		{
@@ -4157,7 +4155,7 @@
 				item: "gtocore:lv_mana_assembler"
 				type: "item"
 			}]
-			x: 12.75d
+			x: 12.25d
 			y: 5.5d
 		}
 		{
@@ -4171,6 +4169,7 @@
 				{
 					id: "45D039ED5F5FAF15"
 					item: "gtocore:fractal_petal_solvent_bucket"
+					optional_task: true
 					type: "item"
 					optional_task: true
 				}
@@ -4263,30 +4262,35 @@
 				{
 					id: "431E0907CC499B77"
 					item: "gtocore:aether_bucket"
+					optional_task: true
 					type: "item"
 					optional_task: true
 				}
 				{
 					id: "330A2DCF80536248"
 					item: "gtocore:salamander_bucket"
+					optional_task: true
 					type: "item"
 					optional_task: true
 				}
 				{
 					id: "200B16BAE7BE9625"
 					item: "gtocore:undine_bucket"
+					optional_task: true
 					type: "item"
 					optional_task: true
 				}
 				{
 					id: "4F5E8B6DF51F62E4"
 					item: "gtocore:sylph_bucket"
+					optional_task: true
 					type: "item"
 					optional_task: true
 				}
 				{
 					id: "4FE0DE11DAED2B31"
 					item: "gtocore:gnome_bucket"
+					optional_task: true
 					type: "item"
 					optional_task: true
 				}
@@ -4304,8 +4308,12 @@
 				"4E9804ED6DE64BDF"
 				"3D862A3D3F83CA26"
 			]
+			description: [
+				"{gto.magic1.quests.2A5BA479E707034B.description0}"
+				""
+				"{gto.magic1.quests.2A5BA479E707034B.description1}"
+			]
 			hide_dependency_lines: true
-			hide_dependent_lines: true
 			id: "2A5BA479E707034B"
 			tasks: [
 				{
@@ -4316,37 +4324,43 @@
 				{
 					id: "3DE7901084AD7249"
 					item: "ars_nouveau:abjuration_essence"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "415C38734AC66F8D"
 					item: "ars_nouveau:conjuration_essence"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "445F78D67CB423E6"
 					item: "ars_nouveau:earth_essence"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "18DBC4CEC11F6378"
 					item: "ars_nouveau:air_essence"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "0E2EFB2AA62BAADE"
 					item: "ars_nouveau:fire_essence"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "3222538EDFC054BE"
 					item: "ars_nouveau:water_essence"
+					optional_task: true
 					type: "item"
 				}
 			]
 			title: "{gto.magic1.quests.2A5BA479E707034B.title}"
 			x: 18.0d
-			y: -1.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["28D9ED74EBBC9818"]
@@ -4428,6 +4442,8 @@
 			]
 			id: "502826CBF91585C1"
 			min_width: 250
+			shape: "hexagon"
+			size: 1.5d
 			tasks: [{
 				id: "34780BF2AE9956AA"
 				item: {
@@ -4557,10 +4573,7 @@
 			y: -4.5d
 		}
 		{
-			dependencies: [
-				"3100458952FC0673"
-				"2A5BA479E707034B"
-			]
+			dependencies: ["3100458952FC0673"]
 			dependency_requirement: "one_completed"
 			description: [
 				"{gto.magic1.quests.6BE534E3FB9B483B.description0}"
@@ -4626,8 +4639,76 @@
 				item: "gtocore:lv_mana_machine_hull"
 				type: "item"
 			}]
-			x: 12.75d
+			x: 12.25d
 			y: 4.5d
+		}
+		{
+			dependencies: [
+				"3D862A3D3F83CA26"
+				"2A5BA479E707034B"
+			]
+			disable_toast: true
+			icon_scale: 0.25d
+			id: "3B20CAA27760A0B2"
+			shape: "none"
+			size: 0.25d
+			tasks: [{
+				id: "7232C12A4EE3EA2A"
+				stat: "minecraft:jump"
+				type: "stat"
+				value: 1
+			}]
+			x: 18.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["70C5A902C0D26628"]
+			description: ["{gto.magic1.quests.1A738965BDCBFD19.description0}"]
+			id: "1A738965BDCBFD19"
+			tasks: [{
+				id: "64709B773759CA78"
+				item: "gtocore:exp_obelisk"
+				type: "item"
+			}]
+			x: 13.25d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"5FB36C788008C907"
+				"13ED9023E7486BCD"
+			]
+			disable_toast: true
+			icon_scale: 0.25d
+			id: "459E05AA75F232FF"
+			shape: "none"
+			size: 0.25d
+			tasks: [{
+				id: "21E2BF4AACE11E32"
+				stat: "minecraft:jump"
+				type: "stat"
+				value: 1
+			}]
+			x: 14.5d
+			y: 5.5d
+		}
+		{
+			description: ["{gto.magic1.quests.34D3EA68903F3879.description0}"]
+			id: "34D3EA68903F3879"
+			tasks: [
+				{
+					id: "1E218809AA6D8DF5"
+					item: "minecraft:blaze_powder"
+					type: "item"
+				}
+				{
+					id: "7D3F1703F2F2BB99"
+					item: "botania:fel_pumpkin"
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 2.0d
 		}
 	]
 	subtitle: ["{gto.magic1.subtitle0}"]

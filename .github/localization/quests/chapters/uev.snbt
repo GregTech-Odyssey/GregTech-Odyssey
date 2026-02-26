@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "uev"
 	group: "2A1218851E38A2EE"
+	hide_quest_until_deps_visible: true
 	icon: "gtocore:sps_crafting"
 	id: "6FF8BEC3E0C25C4C"
 	images: [
@@ -71,31 +72,6 @@
 			y: -6.0d
 		}
 		{
-			dependencies: ["6C40812AC329D3E3"]
-			id: "0E1C854C0F7FF62F"
-			subtitle: "{gto.uev.quests.0E1C854C0F7FF62F.subtitle}"
-			tasks: [{
-				id: "100E275AB0E6B0D4"
-				item: "gtmthings:creative_laser_hatch"
-				type: "item"
-			}]
-			x: 6.0d
-			y: -4.0d
-		}
-		{
-			dependencies: ["0E1C854C0F7FF62F"]
-			id: "67616091B5362D24"
-			optional: true
-			subtitle: "{gto.uev.quests.67616091B5362D24.subtitle}"
-			tasks: [{
-				id: "69A9FE9156CF2237"
-				item: "avaritia:enhancement_core"
-				type: "item"
-			}]
-			x: 8.0d
-			y: -4.0d
-		}
-		{
 			dependencies: [
 				"154F80E28FA53D99"
 				"7ED709D3291D6B88"
@@ -104,6 +80,8 @@
 				"{gto.uev.quests.4BEE8DA7018CD14D.description0}"
 				""
 				"{gto.uev.quests.4BEE8DA7018CD14D.description1}"
+				""
+				"{gto.uev.quests.4BEE8DA7018CD14D.description2}"
 			]
 			id: "4BEE8DA7018CD14D"
 			tasks: [{
@@ -127,7 +105,6 @@
 			y: -6.0d
 		}
 		{
-			description: ["{gto.uev.quests.79F7E5BB7025ED2D.description0}"]
 			id: "79F7E5BB7025ED2D"
 			subtitle: "{gto.uev.quests.79F7E5BB7025ED2D.subtitle}"
 			tasks: [{
@@ -185,17 +162,6 @@
 			y: -6.0d
 		}
 		{
-			dependencies: ["0DC13F257B0314CC"]
-			id: "6C40812AC329D3E3"
-			tasks: [{
-				id: "059AC9026C52C77D"
-				item: "gtocore:door_of_create"
-				type: "item"
-			}]
-			x: 4.0d
-			y: -4.0d
-		}
-		{
 			dependencies: ["4BEE8DA7018CD14D"]
 			id: "56BEFB6D64D496A1"
 			tasks: [{
@@ -232,14 +198,13 @@
 			dependencies: ["7B3C0DB7C1F11692"]
 			description: ["{gto.uev.quests.284111931F2808B4.description0}"]
 			id: "284111931F2808B4"
-			optional: true
 			tasks: [{
 				id: "67D16B7E9DAB2748"
 				item: "gtocore:suprachronal_circuit_max"
 				type: "item"
 			}]
 			x: 2.0d
-			y: -6.0d
+			y: -4.0d
 		}
 		{
 			id: "6974B0DF6C545133"
@@ -249,21 +214,9 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -2.0d
+			y: -0.5d
 		}
 		{
-			dependencies: ["6C40812AC329D3E3"]
-			description: ["{gto.uev.quests.366ADFB6B1790C39.description0}"]
-			id: "366ADFB6B1790C39"
-			tasks: [{
-				id: "692825417E482701"
-				type: "checkmark"
-			}]
-			x: 4.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["7B3C0DB7C1F11692"]
 			id: "0DC13F257B0314CC"
 			tasks: [{
 				id: "1109E4CD5BBDC47E"
@@ -271,25 +224,6 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -4.0d
-		}
-		{
-			dependencies: ["4BEE8DA7018CD14D"]
-			description: ["{gto.uev.quests.5876D6BFFD8AA7F7.description0}"]
-			id: "5876D6BFFD8AA7F7"
-			tasks: [
-				{
-					id: "32CCF029EA0AA6D4"
-					item: "gtocore:transcending_matter_bucket"
-					type: "item"
-					optional_task: true
-				}
-				{
-					id: "32CCF029EA0AA6D4_CHECKMARK"
-					type: "checkmark"
-				}
-			]
-			x: -6.0d
 			y: -2.0d
 			icon: "gtocore:transcending_matter_bucket"
 		}
@@ -351,7 +285,7 @@
 				item: "gtocore:dyson_sphere_launch_silo"
 				type: "item"
 			}]
-			x: -2.0d
+			x: 0.0d
 			y: 1.0d
 		}
 		{
@@ -362,7 +296,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: 2.5d
+			y: 1.0d
 		}
 		{
 			id: "3C0B952E0CC00F3F"
@@ -382,7 +316,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: 4.0d
+			y: 2.5d
 		}
 		{
 			id: "06162F3F043152C0"
@@ -392,7 +326,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: 5.5d
+			y: 4.0d
 		}
 		{
 			id: "2BCC50558D39DC0F"
@@ -402,17 +336,30 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -0.5d
+			y: -2.0d
 		}
 		{
+			icon: "gtocore:max_neutron_compressor"
 			id: "59C507864EF22311"
-			tasks: [{
-				id: "678A776140CA8468"
+			rewards: [{
+				id: "30FD1EEE371451DA"
 				item: "gtocore:neutron_compressor"
 				type: "item"
 			}]
+			tasks: [
+				{
+					id: "6E07670C027AE25C"
+					item: "gtocore:max_neutron_compressor"
+					type: "item"
+				}
+				{
+					id: "56D5AF113F972031"
+					item: "gtocore:infinity_singularity"
+					type: "item"
+				}
+			]
 			x: 2.0d
-			y: -2.0d
+			y: -0.5d
 		}
 		{
 			id: "632E5DF6035A2575"
@@ -422,7 +369,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -0.5d
+			y: 1.0d
 		}
 		{
 			id: "2E3713C37C705740"
@@ -449,6 +396,258 @@
 			title: "{gto.uev.quests.154F80E28FA53D99.title}"
 			x: -10.0d
 			y: -5.0d
+		}
+		{
+			id: "2455103BECCE9E68"
+			tasks: [{
+				id: "54CAF6DEE7EDE23B"
+				item: "gtocore:advanced_integrated_ore_processor"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 5.5d
+		}
+		{
+			id: "384BA3A6B36A3A64"
+			tasks: [{
+				id: "3CB736D90EEA0327"
+				item: "gtocore:data_center"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 7.0d
+		}
+		{
+			description: ["{gto.uev.quests.33F5E401DDEC813A.description0}"]
+			id: "33F5E401DDEC813A"
+			invisible: true
+			optional: true
+			subtitle: "{gto.uev.quests.33F5E401DDEC813A.subtitle}"
+			tasks: [{
+				id: "1F773C242BE58FB4"
+				item: {
+					Count: 1
+					id: "gtocore:microcosm"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.0d
+		}
+		{
+			id: "32CDF0A73C8721D8"
+			tasks: [{
+				id: "5C37BCE24BB6696E"
+				item: "gtocore:road_of_heaven"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 5.5d
+		}
+		{
+			id: "545F36A19089AC29"
+			tasks: [{
+				id: "09AE8F6FA5FF0A8E"
+				item: "gtocore:element_copying"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["284111931F2808B4"]
+			id: "3B58B1A690176D50"
+			tasks: [{
+				id: "72C102BF407CD493"
+				item: "gtocore:suprachronal_mainframe_complex"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3B58B1A690176D50"]
+			id: "1031C596204267E9"
+			optional: true
+			tasks: [{
+				id: "06E652F88212FD91"
+				item: "gtocore:create_ultimate_battery"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1031C596204267E9"]
+			description: ["{gto.uev.quests.0E1A670099E3C3F2.description0}"]
+			id: "0E1A670099E3C3F2"
+			optional: true
+			rewards: [{
+				count: 64
+				id: "67FFD600E9A7919B"
+				item: "minecraft:chain_command_block"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2AC3F7005F03AB1F"
+				item: "gtocore:chaotic_energy_core"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0E1A670099E3C3F2"]
+			id: "3448FEC025A0CA9C"
+			optional: true
+			subtitle: "{gto.uev.quests.3448FEC025A0CA9C.subtitle}"
+			tasks: [{
+				id: "4578A8C0BB3E0155"
+				item: "gtmthings:creative_laser_hatch"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			description: ["{gto.uev.quests.2EDCB01B9811A79D.description0}"]
+			id: "2EDCB01B9811A79D"
+			rewards: [{
+				id: "073F7587BB4E284F"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:f"
+							id: "gtocore:baryonic_perfection_water"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "378DB566F942202E"
+				item: "gtocore:degassed_water_bucket"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3448FEC025A0CA9C"]
+			description: [
+				"{gto.uev.quests.016825EEC25C1CEF.description0}"
+				""
+				"{gto.uev.quests.016825EEC25C1CEF.description1}"
+				""
+				"{gto.uev.quests.016825EEC25C1CEF.description2}"
+			]
+			hide_until_deps_complete: true
+			id: "016825EEC25C1CEF"
+			optional: true
+			rewards: [
+				{
+					id: "2962E756B2617752"
+					item: "apotheosis:sigil_of_rebirth"
+					type: "item"
+				}
+				{
+					id: "44240DA135B4045A"
+					item: {
+						Count: 1
+						id: "easy_villagers:villager"
+						tag: {
+							villager: {
+								Age: -24000
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6E7CA598B7C4079E"
+					item: "gtocore:fast_neutron_breeder_reactor"
+					type: "item"
+				}
+				{
+					id: "048A6C612D806ED0"
+					item: "minecraft:music_disc_13"
+					type: "item"
+				}
+			]
+			subtitle: "{gto.uev.quests.016825EEC25C1CEF.subtitle}"
+			tasks: [{
+				id: "640A14267FA43F4A"
+				type: "checkmark"
+			}]
+			title: "{gto.uev.quests.016825EEC25C1CEF.title}"
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7B3C0DB7C1F11692"]
+			description: ["{gto.uev.quests.635BFF4E3FD9999F.description0}"]
+			id: "635BFF4E3FD9999F"
+			rewards: [
+				{
+					id: "6C7D29594A16F5B3"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:f"
+								id: "gtocore:spacetime_continuum"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "64B4F99485DCD02A"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:f"
+								id: "gtocore:dimension_allyshifted_super_fluid"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "03BC803CB275580F"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["4BEE8DA7018CD14D"]
+			id: "349D841C3AC757EE"
+			tasks: [{
+				id: "4A693F247715A612"
+				item: "gtocore:swarm_core"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4BEE8DA7018CD14D"]
+			id: "1B03B310BE94A3B3"
+			tasks: [{
+				id: "4A24785F13C32923"
+				item: "gtocore:advanced_mass_fabricator"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
 		}
 	]
 	subtitle: ["{gto.uev.subtitle0}"]

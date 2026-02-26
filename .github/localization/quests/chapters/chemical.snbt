@@ -444,18 +444,11 @@
 				tag: { }
 			}
 			id: "17B2FE7B42729497"
-			tasks: [
-				{
-					id: "109BD137914C5B81"
-					item: "enderio:rocket_fuel_bucket"
-					type: "item"
-					optional_task: true
-				}
-				{
-					id: "109BD137914C5B81_CHECKMARK"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "006702E21F14B623"
+				item: "gtceu:rocket_fuel_bucket"
+				type: "item"
+			}]
 			title: "{gto.chemical.quests.17B2FE7B42729497.title}"
 			x: -10.5d
 			y: -2.5d
@@ -493,8 +486,6 @@
 				"{gto.chemical.quests.7BC5C696C89B17E3.description0}"
 				""
 				"{gto.chemical.quests.7BC5C696C89B17E3.description1}"
-				""
-				"{gto.chemical.quests.7BC5C696C89B17E3.description2}"
 			]
 			id: "7BC5C696C89B17E3"
 			tasks: [

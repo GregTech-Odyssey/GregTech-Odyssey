@@ -1,0 +1,17 @@
+name = "MoreMoreLang"
+filename = "moremorelang-1.0.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "f32856feda835c8ab50131314ea1745de1f07633"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7591180
+project-id = 1444917
+
+[option]
+optional = true
+description = "Add multiple language support to the game"

@@ -7,11 +7,12 @@
 	group: ""
 	icon: "gtocore:infinity_coin"
 	id: "39E07AEC9BF826C0"
-	order_index: 3
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
 			can_repeat: true
+			description: ["{gto.shop.quests.52CBB90352DCD66C.description0}"]
 			icon: {
 				Count: 1
 				id: "gtocore:prospector.mana_ulv"
@@ -101,12 +102,9 @@
 				type: "item"
 			}]
 			tasks: [{
-				count: 32L
+				count: 24L
 				id: "1FF0E92D02D011BD"
-				item: {
-					Count: 32
-					id: "gtocore:copper_coin"
-				}
+				item: "gtocore:copper_coin"
 				type: "item"
 			}]
 			title: "{gto.shop.quests.1582FEAB70E4AADD.title}"
@@ -364,6 +362,7 @@
 				"20AC600A32D51156"
 			]
 			dependency_requirement: "one_completed"
+			description: ["{gto.shop.quests.49FE915485277EA3.description0}"]
 			icon: "minecraft:shulker_box"
 			id: "49FE915485277EA3"
 			rewards: [{
@@ -387,6 +386,7 @@
 				"3B50956CDCD2D04E"
 				"24B0FBD7AAD6C8B1"
 			]
+			description: ["{gto.shop.quests.1EBE4BC172EFA13E.description0}"]
 			hide_until_deps_visible: true
 			icon: "factory_blocks:factory"
 			id: "1EBE4BC172EFA13E"
@@ -426,6 +426,7 @@
 			y: 5.5d
 		}
 		{
+			description: ["{gto.shop.quests.60F54941B9E0EF4F.description0}"]
 			icon: "gtocore:precision_steam_mechanism"
 			id: "60F54941B9E0EF4F"
 			rewards: [{
@@ -456,7 +457,7 @@
 				type: "choice"
 			}]
 			tasks: [{
-				count: 20L
+				count: 24L
 				id: "7E070BF50F5560C7"
 				item: "gtocore:copper_coin"
 				type: "item"
@@ -556,12 +557,9 @@
 				type: "all_table"
 			}]
 			tasks: [{
-				count: 32L
+				count: 24L
 				id: "28970BA6DFC1B52F"
-				item: {
-					Count: 32
-					id: "gtocore:copper_coin"
-				}
+				item: "gtocore:copper_coin"
 				type: "item"
 			}]
 			title: "{gto.shop.quests.0F8A3921C987D1F3.title}"
@@ -578,12 +576,9 @@
 				type: "item"
 			}]
 			tasks: [{
-				count: 8L
+				count: 16L
 				id: "197C8DB4F6DCA346"
-				item: {
-					Count: 8
-					id: "gtocore:copper_coin"
-				}
+				item: "gtocore:copper_coin"
 				type: "item"
 			}]
 			title: "{gto.shop.quests.0C0A2C3CC7BE0749.title}"
@@ -619,12 +614,9 @@
 				type: "choice"
 			}]
 			tasks: [{
-				count: 48L
+				count: 32L
 				id: "2583E7DE25E4A111"
-				item: {
-					Count: 16
-					id: "gtocore:copper_coin"
-				}
+				item: "gtocore:copper_coin"
 				type: "item"
 			}]
 			title: "{gto.shop.quests.044EF1DC83BCCC63.title}"
@@ -672,7 +664,7 @@
 			y: 5.5d
 		}
 		{
-			dependencies: ["7A7DC6205DED9BF3"]
+			dependencies: ["310210D2AD9515E3"]
 			hide_until_deps_complete: true
 			icon: {
 				Count: 1

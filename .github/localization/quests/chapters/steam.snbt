@@ -4,6 +4,7 @@
 	default_quest_shape: ""
 	filename: "steam"
 	group: "2A1218851E38A2EE"
+	hide_quest_until_deps_visible: true
 	icon: "gtceu:lp_steam_solid_boiler"
 	id: "1739461D441B48C6"
 	images: [
@@ -105,6 +106,31 @@
 			x: 4.285714285714292d
 			y: 7.0d
 		}
+		{
+			dependency: "056EC4E6FAF614B7"
+			height: 1.0d
+			image: "botania:block/alfheim_portal_swirl"
+			rotation: 45.0d
+			width: 1.0d
+			x: 6.75d
+			y: -2.0d
+		}
+		{
+			height: 1.75d
+			image: "ftbquests:textures/shapes/hexagon/outline.png"
+			rotation: 0.0d
+			width: 1.75d
+			x: 11.25d
+			y: 4.5d
+		}
+		{
+			height: 1.25d
+			image: "ftbquests:textures/shapes/diamond/outline.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 0.5d
+			y: 6.0d
+		}
 	]
 	order_index: 1
 	quest_links: [
@@ -112,8 +138,8 @@
 			id: "03CBC6BC46EA333F"
 			linked_quest: "7EA226054696AA3F"
 			shape: "diamond"
-			x: -14.0d
-			y: 3.5d
+			x: -3.5d
+			y: 2.5d
 		}
 		{
 			id: "447496A1C3D6E5C4"
@@ -139,7 +165,7 @@
 			icon: "gtceu:bronze_ingot"
 			id: "24C53B5FF515ACAC"
 			rewards: [{
-				count: 64
+				count: 32
 				id: "7180064D9A2AA567"
 				item: "gtceu:bronze_ingot"
 				type: "item"
@@ -157,59 +183,7 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["10C397237163BFFC"]
-			description: [
-				"{gto.steam.quests.2D630430259F9131.description0}"
-				""
-				"{gto.steam.quests.2D630430259F9131.description1}"
-				""
-				"{gto.steam.quests.2D630430259F9131.description2}"
-				""
-				"{gto.steam.quests.2D630430259F9131.description3}"
-				"{@pagebreak}"
-				"{gto.steam.quests.2D630430259F9131.description4}"
-				"{gto.steam.quests.2D630430259F9131.description5}"
-				"{gto.steam.quests.2D630430259F9131.description6}"
-				"{gto.steam.quests.2D630430259F9131.description7}"
-			]
-			icon: "gtceu:primitive_pump"
-			id: "2D630430259F9131"
-			shape: "hexagon"
-			size: 1.5d
-			subtitle: "{gto.steam.quests.2D630430259F9131.subtitle}"
-			tasks: [
-				{
-					id: "6DC00D5FF11E0368"
-					item: "gtceu:primitive_pump"
-					type: "item"
-				}
-				{
-					id: "6C60662C30A7CB38"
-					item: "gtceu:pump_hatch"
-					type: "item"
-				}
-				{
-					count: 10L
-					id: "76EC008967FA4EA0"
-					item: "gtceu:pump_deck"
-					type: "item"
-				}
-				{
-					count: 10L
-					id: "3B593645AABD0EE9"
-					item: "gtceu:treated_wood_frame"
-					type: "item"
-				}
-			]
-			title: "{gto.steam.quests.2D630430259F9131.title}"
-			x: -8.988095238095234d
-			y: 0.08095238095238244d
-		}
-		{
-			dependencies: [
-				"24C53B5FF515ACAC"
-				"4A9E47C3F8DF24A3"
-			]
+			dependencies: ["24C53B5FF515ACAC"]
 			description: [
 				"{gto.steam.quests.05F4015974079225.description0}"
 				""
@@ -218,6 +192,8 @@
 				"{gto.steam.quests.05F4015974079225.description2}"
 				""
 				"{gto.steam.quests.05F4015974079225.description3}"
+				""
+				"{gto.steam.quests.05F4015974079225.description4}"
 			]
 			id: "05F4015974079225"
 			shape: "hexagon"
@@ -231,34 +207,6 @@
 			title: "{gto.steam.quests.05F4015974079225.title}"
 			x: -6.5d
 			y: 4.5d
-		}
-		{
-			dependencies: ["6B2CA9AF06284789"]
-			description: [
-				"{gto.steam.quests.4A9E47C3F8DF24A3.description0}"
-				""
-				"{gto.steam.quests.4A9E47C3F8DF24A3.description1}"
-				""
-				"{gto.steam.quests.4A9E47C3F8DF24A3.description2}"
-			]
-			id: "4A9E47C3F8DF24A3"
-			rewards: [{
-				count: 16
-				id: "6DDB3EC4D4CE9C7E"
-				item: "minecraft:ender_pearl"
-				type: "item"
-			}]
-			shape: "hexagon"
-			size: 1.5d
-			subtitle: "{gto.steam.quests.4A9E47C3F8DF24A3.subtitle}"
-			tasks: [{
-				id: "5701706956B3E4CD"
-				item: "enderio:primitive_alloy_smelter"
-				type: "item"
-			}]
-			title: "{gto.steam.quests.4A9E47C3F8DF24A3.title}"
-			x: -6.5d
-			y: 0.0d
 		}
 		{
 			dependencies: ["05F4015974079225"]
@@ -446,6 +394,7 @@
 			]
 			id: "32A39A427D4A3AC2"
 			rewards: [{
+				count: 4
 				id: "48BB564E8232C86F"
 				item: "minecraft:coal_block"
 				type: "item"
@@ -570,7 +519,7 @@
 			id: "27F4D9739FE33A02"
 			rewards: [
 				{
-					count: 64
+					count: 16
 					id: "2ABC438654CC3D33"
 					item: "ad_astra:steel_ingot"
 					type: "item"
@@ -650,6 +599,7 @@
 			y: 8.5d
 		}
 		{
+			dependencies: ["6E2614839731BF0D"]
 			description: [
 				"{gto.steam.quests.7F1CF6D7C0CA4DB2.description0}"
 				""
@@ -659,6 +609,7 @@
 				""
 				"{gto.steam.quests.7F1CF6D7C0CA4DB2.description3}"
 			]
+			hide_dependency_lines: true
 			id: "7F1CF6D7C0CA4DB2"
 			subtitle: "{gto.steam.quests.7F1CF6D7C0CA4DB2.subtitle}"
 			tasks: [
@@ -805,8 +756,8 @@
 		}
 		{
 			dependencies: [
-				"27F4D9739FE33A02"
 				"0DCA3A96184C9EAC"
+				"27F4D9739FE33A02"
 			]
 			description: [
 				"{gto.steam.quests.4F1FEB6CE7C64D14.description0}"
@@ -815,7 +766,7 @@
 				""
 				"{gto.steam.quests.4F1FEB6CE7C64D14.description2}"
 				""
-				"[\"\", {\"translate\": \"gto.steam.quests.4F1FEB6CE7C64D14.description3.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"1CE2E908034CC401\"}, \"translate\": \"gto.steam.quests.4F1FEB6CE7C64D14.description3.rich_text1\"}, {\"translate\": \"gto.steam.quests.4F1FEB6CE7C64D14.description3.rich_text2\"}]"
+				"[\"\", {\"translate\": \"gto.steam.quests.4F1FEB6CE7C64D14.description3.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"15F751DFB8990D1A\"}, \"translate\": \"gto.steam.quests.4F1FEB6CE7C64D14.description3.rich_text1\"}]"
 				""
 				"{gto.steam.quests.4F1FEB6CE7C64D14.description4}"
 			]
@@ -848,7 +799,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["4A9E47C3F8DF24A3"]
+			dependencies: ["05F4015974079225"]
 			description: [
 				"{gto.steam.quests.0DCA3A96184C9EAC.description0}"
 				""
@@ -856,11 +807,12 @@
 				""
 				"{gto.steam.quests.0DCA3A96184C9EAC.description2}"
 			]
+			hide_dependency_lines: true
 			id: "0DCA3A96184C9EAC"
 			rewards: [{
 				count: 16
 				id: "729CAE88D53DA197"
-				item: "enderio:pulsating_alloy_ingot"
+				item: "gtocore:pulsating_alloy_ingot"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -868,11 +820,11 @@
 			subtitle: "{gto.steam.quests.0DCA3A96184C9EAC.subtitle}"
 			tasks: [{
 				id: "068641109A5FCEAD"
-				item: "enderio:pulsating_alloy_ingot"
+				item: "gtocore:pulsating_alloy_ingot"
 				type: "item"
 			}]
 			title: "{gto.steam.quests.0DCA3A96184C9EAC.title}"
-			x: 2.0d
+			x: 6.75d
 			y: 0.0d
 		}
 		{
@@ -888,7 +840,7 @@
 			rewards: [{
 				count: 32
 				id: "533F7DCFDEB14DE8"
-				item: "enderio:powdered_ender_pearl"
+				item: "gtceu:ender_pearl_dust"
 				type: "item"
 			}]
 			shape: "diamond"
@@ -901,7 +853,7 @@
 			}]
 			title: "{gto.steam.quests.6AB9089FDE595716.title}"
 			x: 11.25d
-			y: 4.5d
+			y: 3.0d
 		}
 		{
 			dependencies: [
@@ -939,24 +891,22 @@
 				type: "item"
 			}]
 			title: "{gto.steam.quests.7E046341CF58BB22.title}"
-			x: 15.000000000000007d
-			y: 2.75d
+			x: 15.0d
+			y: 3.5d
 		}
 		{
 			dependencies: [
 				"7E046341CF58BB22"
-				"21D331D7F4F8862C"
+				"4515F2289516C295"
 			]
 			description: [
 				"{gto.steam.quests.53109F7472C0B443.description0}"
 				""
 				"{gto.steam.quests.53109F7472C0B443.description1}"
-				""
-				"{gto.steam.quests.53109F7472C0B443.description2}"
 			]
 			id: "53109F7472C0B443"
 			rewards: [{
-				count: 16
+				count: 4
 				id: "6DDFC8966506C070"
 				item: "gtceu:vacuum_tube"
 				type: "item"
@@ -970,8 +920,8 @@
 				type: "item"
 			}]
 			title: "{gto.steam.quests.53109F7472C0B443.title}"
-			x: 15.000000000000007d
-			y: 0.0d
+			x: 15.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["24C53B5FF515ACAC"]
@@ -992,20 +942,13 @@
 			shape: "hexagon"
 			size: 1.5d
 			subtitle: "{gto.steam.quests.21D331D7F4F8862C.subtitle}"
-			tasks: [
-				{
-					id: "6D9D8E445BD7DAA3"
-					item: "gtocore:lp_steam_vacuum_pump"
-					type: "item"
-				}
-				{
-					id: "3330B352053597A3"
-					item: "gtceu:bronze_huge_fluid_pipe"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "6D9D8E445BD7DAA3"
+				item: "gtocore:lp_steam_vacuum_pump"
+				type: "item"
+			}]
 			title: "{gto.steam.quests.21D331D7F4F8862C.title}"
-			x: 15.000000000000007d
+			x: 15.0d
 			y: -2.0d
 		}
 		{
@@ -1021,8 +964,9 @@
 				""
 				"{gto.steam.quests.020E8B707A8CF794.description4}"
 			]
+			hide_dependent_lines: true
 			id: "020E8B707A8CF794"
-			shape: "diamond"
+			shape: "hexagon"
 			size: 1.5d
 			subtitle: "{gto.steam.quests.020E8B707A8CF794.subtitle}"
 			tasks: [{
@@ -1031,8 +975,8 @@
 				type: "item"
 			}]
 			title: "{gto.steam.quests.020E8B707A8CF794.title}"
-			x: 7.5d
-			y: 12.5d
+			x: 9.0d
+			y: 13.0d
 		}
 		{
 			dependencies: ["043FCD7B759853EA"]
@@ -1055,7 +999,7 @@
 				type: "item"
 			}]
 			title: "{gto.steam.quests.411686C01CB6045F.title}"
-			x: 9.0d
+			x: 7.5d
 			y: 12.5d
 		}
 		{
@@ -1084,9 +1028,13 @@
 				"{gto.steam.quests.5660509FA09D2239.description0}"
 				""
 				"{gto.steam.quests.5660509FA09D2239.description1}"
+				""
+				"{gto.steam.quests.5660509FA09D2239.description2}"
+				""
+				"[\"\", {\"translate\": \"gto.steam.quests.5660509FA09D2239.description3.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"7C1D32B8C9895B40\"}, \"translate\": \"gto.steam.quests.5660509FA09D2239.description3.rich_text1\"}, {\"translate\": \"gto.steam.quests.5660509FA09D2239.description3.rich_text2\"}]"
 			]
 			id: "5660509FA09D2239"
-			shape: "diamond"
+			shape: "hexagon"
 			size: 1.5d
 			subtitle: "{gto.steam.quests.5660509FA09D2239.subtitle}"
 			tasks: [{
@@ -1096,12 +1044,12 @@
 			}]
 			title: "{gto.steam.quests.5660509FA09D2239.title}"
 			x: 11.25d
-			y: 3.0d
+			y: 4.5d
 		}
 		{
 			dependencies: [
-				"24C53B5FF515ACAC"
 				"2D630430259F9131"
+				"24C53B5FF515ACAC"
 			]
 			description: [
 				"{gto.steam.quests.31BB738542229A88.description0}"
@@ -1132,7 +1080,7 @@
 			}]
 			title: "{gto.steam.quests.31BB738542229A88.title}"
 			x: -9.0d
-			y: 2.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["31BB738542229A88"]
@@ -1156,8 +1104,8 @@
 				title: "{gto.steam.quests.7BCD49717F8FAD65.tasks.512FC1623520AB38.title}"
 				type: "checkmark"
 			}]
-			x: -11.0d
-			y: 2.0d
+			x: -6.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["7BE51B4BC36F8B7B"]
@@ -1295,6 +1243,8 @@
 				"{gto.steam.quests.5859702A2DF96727.description6}"
 				""
 				"{gto.steam.quests.5859702A2DF96727.description7}"
+				""
+				"{gto.steam.quests.5859702A2DF96727.description8}"
 			]
 			id: "5859702A2DF96727"
 			optional: true
@@ -1314,8 +1264,8 @@
 				}
 			]
 			title: "{gto.steam.quests.5859702A2DF96727.title}"
-			x: -11.0d
-			y: 0.5d
+			x: -6.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["17408BBD93A18AEC"]
@@ -1323,6 +1273,10 @@
 				"{gto.steam.quests.15F751DFB8990D1A.description0}"
 				""
 				"[\"\", {\"translate\": \"gto.steam.quests.15F751DFB8990D1A.description1.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"1CE2E908034CC401\"}, \"translate\": \"gto.steam.quests.15F751DFB8990D1A.description1.rich_text1\"}, {\"translate\": \"gto.steam.quests.15F751DFB8990D1A.description1.rich_text2\"}]"
+				""
+				"[\"\", {\"translate\": \"gto.steam.quests.15F751DFB8990D1A.description2.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"3D7C322A6DBCF085\"}, \"translate\": \"gto.steam.quests.15F751DFB8990D1A.description2.rich_text1\"}, {\"translate\": \"gto.steam.quests.15F751DFB8990D1A.description2.rich_text2\"}]"
+				""
+				"{gto.steam.quests.15F751DFB8990D1A.description3}"
 			]
 			id: "15F751DFB8990D1A"
 			optional: true
@@ -1417,121 +1371,6 @@
 			y: 7.5d
 		}
 		{
-			dependencies: [
-				"4A9E47C3F8DF24A3"
-				"72C6B40B38D542BF"
-			]
-			description: [
-				"{gto.steam.quests.3405FBC1B0CD80AD.description0}"
-				""
-				"{gto.steam.quests.3405FBC1B0CD80AD.description1}"
-				""
-				"{gto.steam.quests.3405FBC1B0CD80AD.description2}"
-			]
-			hide_dependency_lines: true
-			icon: "enderio:clear_glass"
-			id: "3405FBC1B0CD80AD"
-			size: 1.0d
-			subtitle: "{gto.steam.quests.3405FBC1B0CD80AD.subtitle}"
-			tasks: [{
-				id: "1B71AF690B18B55C"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "enderio:clear_glass"
-					}
-				}
-				title: "{gto.steam.quests.3405FBC1B0CD80AD.tasks.1B71AF690B18B55C.title}"
-				type: "item"
-			}]
-			title: "{gto.steam.quests.3405FBC1B0CD80AD.title}"
-			x: -2.5d
-			y: 3.0d
-		}
-		{
-			dependencies: ["78F56076EB6961EE"]
-			description: ["{gto.steam.quests.353DB5059C50932E.description0}"]
-			id: "353DB5059C50932E"
-			shape: "diamond"
-			size: 1.5d
-			subtitle: "{gto.steam.quests.353DB5059C50932E.subtitle}"
-			tasks: [{
-				id: "4ECA6BF79C09EDD9"
-				item: "enderio:item_conduit"
-				type: "item"
-			}]
-			title: "{gto.steam.quests.353DB5059C50932E.title}"
-			x: -0.5d
-			y: 1.0d
-		}
-		{
-			dependencies: ["24C53B5FF515ACAC"]
-			description: [
-				"{gto.steam.quests.275F142925816979.description0}"
-				""
-				"{gto.steam.quests.275F142925816979.description1}"
-			]
-			hide_dependency_lines: true
-			id: "275F142925816979"
-			size: 1.0d
-			subtitle: "{gto.steam.quests.275F142925816979.subtitle}"
-			tasks: [{
-				id: "00EC47D9D8B9D99B"
-				item: "enderio:conduit_binder_composite"
-				type: "item"
-			}]
-			title: "{gto.steam.quests.275F142925816979.title}"
-			x: -4.5d
-			y: 1.0d
-		}
-		{
-			dependencies: ["275F142925816979"]
-			description: [
-				"{gto.steam.quests.78F56076EB6961EE.description0}"
-				""
-				"{gto.steam.quests.78F56076EB6961EE.description1}"
-				""
-				"{gto.steam.quests.78F56076EB6961EE.description2}"
-			]
-			id: "78F56076EB6961EE"
-			size: 1.0d
-			subtitle: "{gto.steam.quests.78F56076EB6961EE.subtitle}"
-			tasks: [{
-				id: "028A111FD54A8A95"
-				item: "enderio:conduit_binder"
-				type: "item"
-			}]
-			title: "{gto.steam.quests.78F56076EB6961EE.title}"
-			x: -2.5d
-			y: 1.0d
-		}
-		{
-			dependencies: [
-				"78F56076EB6961EE"
-				"3405FBC1B0CD80AD"
-			]
-			description: [
-				"{gto.steam.quests.23118466181C773C.description0}"
-				""
-				"{gto.steam.quests.23118466181C773C.description1}"
-				""
-				"{gto.steam.quests.23118466181C773C.description2}"
-			]
-			id: "23118466181C773C"
-			shape: "diamond"
-			size: 1.5d
-			subtitle: "{gto.steam.quests.23118466181C773C.subtitle}"
-			tasks: [{
-				id: "0458A0CE873814FC"
-				item: "enderio:fluid_conduit"
-				type: "item"
-			}]
-			title: "{gto.steam.quests.23118466181C773C.title}"
-			x: -0.5d
-			y: 3.0d
-		}
-		{
 			dependencies: ["27F4D9739FE33A02"]
 			description: [
 				"{gto.steam.quests.15C001AF6C76B490.description0}"
@@ -1608,6 +1447,7 @@
 			]
 			id: "524B8340450628A3"
 			shape: "diamond"
+			size: 1.0d
 			subtitle: "{gto.steam.quests.524B8340450628A3.subtitle}"
 			tasks: [{
 				id: "41CA757DDA6AB954"
@@ -1668,27 +1508,7 @@
 			}]
 			title: "{gto.steam.quests.524B8340450628A3.title}"
 			x: 7.5d
-			y: 1.0d
-		}
-		{
-			description: [
-				"{gto.steam.quests.6B2CA9AF06284789.description0}"
-				""
-				"{gto.steam.quests.6B2CA9AF06284789.description1}"
-				"{gto.steam.quests.6B2CA9AF06284789.description2}"
-				""
-				"{gto.steam.quests.6B2CA9AF06284789.description3}"
-			]
-			id: "6B2CA9AF06284789"
-			subtitle: "{gto.steam.quests.6B2CA9AF06284789.subtitle}"
-			tasks: [{
-				id: "11775FE409428F82"
-				item: "enderio:grains_of_infinity"
-				type: "item"
-			}]
-			title: "{gto.steam.quests.6B2CA9AF06284789.title}"
-			x: -6.5d
-			y: -2.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["0019A5EEEE514539"]
@@ -1758,6 +1578,7 @@
 				"{gto.steam.quests.72F99B3B63217418.description3}"
 			]
 			id: "72F99B3B63217418"
+			optional: true
 			shape: "diamond"
 			subtitle: "{gto.steam.quests.72F99B3B63217418.subtitle}"
 			tasks: [{
@@ -1766,21 +1587,22 @@
 				type: "item"
 			}]
 			title: "{gto.steam.quests.72F99B3B63217418.title}"
-			x: -11.0d
-			y: 3.5d
+			x: -6.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["7BCD49717F8FAD65"]
 			description: ["{gto.steam.quests.0BD03513ABDC6A9C.description0}"]
 			id: "0BD03513ABDC6A9C"
+			optional: true
 			shape: "diamond"
 			tasks: [{
 				id: "50AE654E47F127C4"
 				item: "gtceu:hp_steam_solar_boiler"
 				type: "item"
 			}]
-			x: -12.5d
-			y: 3.5d
+			x: -5.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["7BCD49717F8FAD65"]
@@ -1790,19 +1612,21 @@
 				"[\"\", {\"color\": \"yellow\", \"translate\": \"gto.steam.quests.1108939F9923176C.description1.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"3791F49E789E7673\"}, \"translate\": \"gto.steam.quests.1108939F9923176C.description1.rich_text1\"}, {\"color\": \"yellow\", \"translate\": \"gto.steam.quests.1108939F9923176C.description1.rich_text2\"}]"
 			]
 			id: "1108939F9923176C"
+			optional: true
 			shape: "diamond"
 			tasks: [{
 				id: "5EF6AC41E4293D2E"
 				item: "gtceu:lp_steam_liquid_boiler"
 				type: "item"
 			}]
-			x: -12.5d
-			y: 2.0d
+			x: -5.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["7BCD49717F8FAD65"]
 			description: ["{gto.steam.quests.10E17EBACB3697C9.description0}"]
 			id: "10E17EBACB3697C9"
+			optional: true
 			shape: "diamond"
 			subtitle: "{gto.steam.quests.10E17EBACB3697C9.subtitle}"
 			tasks: [{
@@ -1810,8 +1634,8 @@
 				item: "gtceu:hp_steam_liquid_boiler"
 				type: "item"
 			}]
-			x: -14.0d
-			y: 2.0d
+			x: -3.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["7BCD49717F8FAD65"]
@@ -1823,8 +1647,8 @@
 				item: "gtceu:bronze_large_boiler"
 				type: "item"
 			}]
-			x: -14.0d
-			y: 0.5d
+			x: -3.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["7BCD49717F8FAD65"]
@@ -1834,6 +1658,7 @@
 				"{gto.steam.quests.77C71C9A52ADF6A6.description1}"
 			]
 			id: "77C71C9A52ADF6A6"
+			optional: true
 			shape: "diamond"
 			tasks: [{
 				id: "026C5E9B6FB8E5D2"
@@ -1841,35 +1666,8 @@
 				type: "item"
 			}]
 			title: "{gto.steam.quests.77C71C9A52ADF6A6.title}"
-			x: -12.5d
-			y: 0.5d
-		}
-		{
-			dependencies: ["53A8535B07FE3958"]
-			description: ["{gto.steam.quests.05EFB5D7ED8DE2D6.description0}"]
-			id: "05EFB5D7ED8DE2D6"
-			optional: true
-			shape: "pentagon"
-			tasks: [
-				{
-					id: "3E7C553DDFAB3F0B"
-					item: "enderio:alloy_smelter"
-					type: "item"
-				}
-				{
-					id: "1492F1D573E7EE40"
-					item: "enderio:sag_mill"
-					type: "item"
-				}
-				{
-					id: "4627286593B477E0"
-					item: "enderio:soul_binder"
-					type: "item"
-				}
-			]
-			title: "{gto.steam.quests.05EFB5D7ED8DE2D6.title}"
-			x: -5.5d
-			y: 10.5d
+			x: -5.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["0019A5EEEE514539"]
@@ -1919,31 +1717,7 @@
 				}
 			]
 			x: -11.0d
-			y: 6.5d
-		}
-		{
-			dependencies: ["27F4D9739FE33A02"]
-			description: [
-				"{gto.steam.quests.1ACA0000AE7FC80A.description0}"
-				""
-				"{gto.steam.quests.1ACA0000AE7FC80A.description1}"
-			]
-			id: "1ACA0000AE7FC80A"
-			rewards: [{
-				id: "762358C3DBE707D5"
-				item: "gtocore:copper_coin"
-				type: "item"
-			}]
-			shape: "diamond"
-			subtitle: "{gto.steam.quests.1ACA0000AE7FC80A.subtitle}"
-			tasks: [{
-				id: "15C02C37D1266918"
-				item: "avaritia:compressed_chest"
-				type: "item"
-			}]
-			title: "{gto.steam.quests.1ACA0000AE7FC80A.title}"
-			x: 7.5d
-			y: 4.0d
+			y: 4.5d
 		}
 		{
 			dependencies: [
@@ -1953,19 +1727,21 @@
 			hide_until_deps_visible: true
 			icon: "ad_astra:steel_ingot"
 			id: "768C5C35D4D80AA8"
+			optional: true
 			rewards: [{
 				count: 640
 				id: "7EBB79C0367AA913"
 				item: "ad_astra:steel_ingot"
 				type: "item"
 			}]
+			shape: "octagon"
 			subtitle: "{gto.steam.quests.768C5C35D4D80AA8.subtitle}"
 			tasks: [{
 				id: "55BE46E092646D53"
 				type: "checkmark"
 			}]
 			title: "{gto.steam.quests.768C5C35D4D80AA8.title}"
-			x: 7.5d
+			x: 7.0d
 			y: 5.15d
 		}
 		{
@@ -1976,19 +1752,21 @@
 			hide_until_deps_visible: true
 			icon: "ad_astra:steel_ingot"
 			id: "67B18FEE6862343A"
+			optional: true
 			rewards: [{
-				count: 128
+				count: 192
 				id: "46F770A3703044A4"
 				item: "ad_astra:steel_ingot"
 				type: "item"
 			}]
+			shape: "octagon"
 			subtitle: "{gto.steam.quests.67B18FEE6862343A.subtitle}"
 			tasks: [{
 				id: "10E3799903559F25"
 				type: "checkmark"
 			}]
 			title: "{gto.steam.quests.67B18FEE6862343A.title}"
-			x: 7.0d
+			x: 7.5d
 			y: 5.15d
 		}
 		{
@@ -1997,6 +1775,7 @@
 			hide_until_deps_visible: true
 			icon: "minecraft:glass"
 			id: "276CCDB305FFBE2F"
+			optional: true
 			tasks: [
 				{
 					id: "034A9FC1F952CE05"
@@ -2020,12 +1799,14 @@
 			hide_until_deps_visible: true
 			icon: "gtceu:rubber_plate"
 			id: "0D362285B6842681"
+			optional: true
 			rewards: [{
 				count: 128
 				id: "0F7C5A542401D23F"
 				item: "gtceu:rubber_plate"
 				type: "item"
 			}]
+			shape: "octagon"
 			tasks: [{
 				id: "3158D9C543B678C2"
 				type: "checkmark"
@@ -2060,19 +1841,21 @@
 			hide_until_deps_visible: true
 			icon: "gtceu:vacuum_tube"
 			id: "22DB1B2207221445"
+			optional: true
 			rewards: [{
 				count: 64
 				id: "6882BC21B2B869A0"
 				item: "gtceu:vacuum_tube"
 				type: "item"
 			}]
+			shape: "octagon"
 			tasks: [{
 				id: "5D0CD3ACB12536C7"
 				type: "checkmark"
 			}]
 			title: "{gto.steam.quests.22DB1B2207221445.title}"
-			x: 17.0d
-			y: 0.0d
+			x: 17.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["24C53B5FF515ACAC"]
@@ -2082,10 +1865,7 @@
 				"{gto.steam.quests.39D96F76911B771E.description1}"
 				""
 				"{gto.steam.quests.39D96F76911B771E.description2}"
-				""
-				"{gto.steam.quests.39D96F76911B771E.description3}"
 			]
-			hide_dependency_lines: true
 			icon: "gtceu:bronze_normal_fluid_pipe"
 			id: "39D96F76911B771E"
 			rewards: [{
@@ -2101,8 +1881,324 @@
 				type: "checkmark"
 			}]
 			title: "{gto.steam.quests.39D96F76911B771E.title}"
-			x: -4.5d
-			y: 3.0d
+			x: -11.0d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"056EC4E6FAF614B7"
+				"4678D97346E46529"
+			]
+			hide_until_deps_visible: true
+			icon: "gtceu:wrought_iron_ingot"
+			id: "23CFCF3063B640F4"
+			optional: true
+			rewards: [{
+				count: 192
+				id: "6A882C417EDBCFD5"
+				item: "gtceu:wrought_iron_ingot"
+				type: "item"
+			}]
+			shape: "octagon"
+			subtitle: "{gto.steam.quests.23CFCF3063B640F4.subtitle}"
+			tasks: [{
+				id: "051B2593B4748FBB"
+				type: "checkmark"
+			}]
+			title: "{gto.steam.quests.23CFCF3063B640F4.title}"
+			x: -1.0d
+			y: 14.0d
+		}
+		{
+			dependencies: [
+				"18E057F31DDC4065"
+				"53109F7472C0B443"
+			]
+			hide_until_deps_visible: true
+			icon: "gtceu:vacuum_tube"
+			id: "189F5A3799E88B5C"
+			optional: true
+			rewards: [{
+				count: 12
+				id: "38937A3B4C30A419"
+				item: "gtceu:vacuum_tube"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "36D8ED5B3F6252B7"
+				type: "checkmark"
+			}]
+			title: "{gto.steam.quests.189F5A3799E88B5C.title}"
+			x: 17.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["10C397237163BFFC"]
+			description: [
+				"{gto.steam.quests.2D630430259F9131.description0}"
+				""
+				"{gto.steam.quests.2D630430259F9131.description1}"
+				""
+				"{gto.steam.quests.2D630430259F9131.description2}"
+				""
+				"{gto.steam.quests.2D630430259F9131.description3}"
+				"{@pagebreak}"
+				"{gto.steam.quests.2D630430259F9131.description4}"
+				"{gto.steam.quests.2D630430259F9131.description5}"
+				"{gto.steam.quests.2D630430259F9131.description6}"
+				"{gto.steam.quests.2D630430259F9131.description7}"
+			]
+			icon: "gtceu:primitive_pump"
+			id: "2D630430259F9131"
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{gto.steam.quests.2D630430259F9131.subtitle}"
+			tasks: [
+				{
+					id: "6DC00D5FF11E0368"
+					item: "gtceu:primitive_pump"
+					type: "item"
+				}
+				{
+					id: "6C60662C30A7CB38"
+					item: "gtceu:pump_hatch"
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "76EC008967FA4EA0"
+					item: "gtceu:pump_deck"
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "3B593645AABD0EE9"
+					item: "gtceu:treated_wood_frame"
+					type: "item"
+				}
+			]
+			title: "{gto.steam.quests.2D630430259F9131.title}"
+			x: -9.0d
+			y: -0.75d
+		}
+		{
+			dependencies: [
+				"298BEC345930429A"
+				"575D68EF05B5BCC3"
+				"056EC4E6FAF614B7"
+			]
+			description: [
+				"[\"\", {\"translate\": \"gto.steam.quests.09D7A6A14D532993.description0.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"5FCFE3D6B36CC409\"}, \"translate\": \"gto.steam.quests.09D7A6A14D532993.description0.rich_text1\"}, {\"translate\": \"gto.steam.quests.09D7A6A14D532993.description0.rich_text2\"}]"
+				""
+				"{gto.steam.quests.09D7A6A14D532993.description1}"
+				""
+				"{gto.steam.quests.09D7A6A14D532993.description2}"
+				""
+				"{gto.steam.quests.09D7A6A14D532993.description3}"
+				""
+				"{gto.steam.quests.09D7A6A14D532993.description4}"
+			]
+			hide_until_deps_visible: true
+			icon: "ae2:energy_acceptor"
+			id: "09D7A6A14D532993"
+			optional: true
+			rewards: [{
+				id: "386B745450A4F5A1"
+				item: "ae2:network_tool"
+				team_reward: false
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "{gto.steam.quests.09D7A6A14D532993.subtitle}"
+			tasks: [
+				{
+					id: "137BE452DFCD6905"
+					item: "ae2:energy_acceptor"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3D376F185EAFF268"
+					type: "checkmark"
+				}
+			]
+			title: "{gto.steam.quests.09D7A6A14D532993.title}"
+			x: 6.75d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"298BEC345930429A"
+				"056EC4E6FAF614B7"
+			]
+			disable_toast: true
+			hide_until_deps_visible: true
+			icon_scale: 0.1d
+			id: "575D68EF05B5BCC3"
+			optional: true
+			shape: "none"
+			size: 0.1d
+			tasks: [{
+				id: "7B0E57503CAA3ABC"
+				stat: "minecraft:jump"
+				type: "stat"
+				value: 1
+			}]
+			x: 9.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["24C53B5FF515ACAC"]
+			description: [
+				"{gto.steam.quests.4276738FE46AC021.description0}"
+				""
+				"{gto.steam.quests.4276738FE46AC021.description1}"
+				"{gto.steam.quests.4276738FE46AC021.description2}"
+				""
+				"{gto.steam.quests.4276738FE46AC021.description3}"
+				"{gto.steam.quests.4276738FE46AC021.description4}"
+			]
+			icon: "gtceu:steam_input_bus"
+			id: "4276738FE46AC021"
+			rewards: [{
+				count: 16
+				id: "10C00EAF76D71ABA"
+				item: "gtocore:copper_coin"
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "63875864EE49FB02"
+					item: "gtocore:steam_fluid_input_hatch"
+					type: "item"
+				}
+				{
+					id: "025636970CE4BECE"
+					item: "gtocore:steam_fluid_output_hatch"
+					type: "item"
+				}
+				{
+					id: "11DB84DB6E053745"
+					item: "gtceu:steam_input_bus"
+					type: "item"
+				}
+				{
+					id: "65623021FDE01672"
+					item: "gtceu:steam_output_bus"
+					type: "item"
+				}
+				{
+					id: "5FB7F0EA71E41996"
+					item: "gtceu:steam_input_hatch"
+					type: "item"
+				}
+				{
+					id: "3245D33598158683"
+					item: "gtocore:steam_vent_hatch"
+					type: "item"
+				}
+			]
+			title: "{gto.steam.quests.4276738FE46AC021.title}"
+			x: -11.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["24C53B5FF515ACAC"]
+			description: ["{gto.steam.quests.4CE96E5E2F84EBBF.description0}"]
+			hide_dependency_lines: true
+			id: "4CE96E5E2F84EBBF"
+			rewards: [{
+				count: 12
+				id: "2B618FC8076F7BAE"
+				item: "pipez:item_pipe"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "{gto.steam.quests.4CE96E5E2F84EBBF.subtitle}"
+			tasks: [{
+				id: "689D8B704C3BFEAD"
+				item: "pipez:item_pipe"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["24C53B5FF515ACAC"]
+			description: ["{gto.steam.quests.326B9B0D222A6E3B.description0}"]
+			hide_dependency_lines: true
+			id: "326B9B0D222A6E3B"
+			rewards: [{
+				count: 12
+				id: "6C3858A78582399A"
+				item: "pipez:fluid_pipe"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "{gto.steam.quests.326B9B0D222A6E3B.subtitle}"
+			tasks: [{
+				id: "0035A70B1F459E33"
+				item: "pipez:fluid_pipe"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["24C53B5FF515ACAC"]
+			description: [
+				"{gto.steam.quests.4673E95F6374C7AC.description0}"
+				""
+				"{gto.steam.quests.4673E95F6374C7AC.description1}"
+				""
+				"{gto.steam.quests.4673E95F6374C7AC.description2}"
+				""
+				"{gto.steam.quests.4673E95F6374C7AC.description3}"
+				""
+				"{gto.steam.quests.4673E95F6374C7AC.description4}"
+			]
+			hide_dependency_lines: true
+			icon: "gtceu:steam_bucket"
+			id: "4673E95F6374C7AC"
+			rewards: [{
+				id: "7856D62DDB58BC72"
+				item: "gtocore:copper_coin"
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [{
+				id: "748F5AD5C79B2FC5"
+				type: "checkmark"
+			}]
+			title: "{gto.steam.quests.4673E95F6374C7AC.title}"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["21D331D7F4F8862C"]
+			description: [
+				"{gto.steam.quests.4515F2289516C295.description0}"
+				""
+				"{gto.steam.quests.4515F2289516C295.description1}"
+				""
+				"{gto.steam.quests.4515F2289516C295.description2}"
+			]
+			id: "4515F2289516C295"
+			tasks: [{
+				id: "220C06C4CB2C301F"
+				item: "gtceu:bronze_huge_fluid_pipe"
+				type: "item"
+			}]
+			title: "{gto.steam.quests.4515F2289516C295.title}"
+			x: 15.0d
+			y: -0.5d
 		}
 	]
 	subtitle: ["{gto.steam.subtitle0}"]

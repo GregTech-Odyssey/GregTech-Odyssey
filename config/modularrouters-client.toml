@@ -1,0 +1,16 @@
+
+[Misc]
+	#Should module tooltips always show module settings (without needing to hold Shift)?
+	alwaysShowSettings = true
+	#Should module GUI's be tinted according to the module item colour?
+	moduleGuiBackgroundTint = true
+	#Should items being transferred be rendered in-world? Looks good, but many items may incur an FPS hit.
+	renderFlyingItems = true
+	#When holding an Item Router, should nearby camouflaged routers be highlighted?
+	heldRouterShowsCamoRouters = true
+
+[Sound]
+	#Volume of the bleep played when various operations are done with modules/upgrades/etc. such as binding to an inventory, setting camo...
+	#Range: 0.0 ~ 2.0
+	bleepVolume = 0.5
+

@@ -53,7 +53,7 @@
 			description: [
 				"[ \"在砍下第一棵树前建议前往\", { \"text\": \"提示\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"79646E8E449D8A1A\" } }, \"章节查看提示，花几分钟阅读一下对你的游玩之旅大有帮助\" ]"
 				""
-				"以更舒服的姿势体验&4Gregtech:Odyssey&r之旅！"
+				"以更舒服的姿势体验&cGregtech:Odyssey&r之旅！"
 			]
 			icon: "minecraft:writable_book"
 			id: "19EFE14C82DDAB67"
@@ -104,12 +104,16 @@
 				"    如果你到达此处，说明你迈出了关键的一步"
 				"-  &6&l 六边形边框：主线任务&r&r"
 				"    你必须一路跟循才能达成里程碑式的发展"
-				"-  &6&l菱形边框：QoL/产能任务&r&r"
+				"-  &6&l 菱形边框：QoL/产能任务&r&r"
 				"    这些任务虽然与主线无关，但对你的体验有极大帮助"
 				"-  &6&l 圆形边框：普通任务&r&r"
 				"    没什么好说的"
 				"-  &6&l 五边形边框：提示&r&r"
 				"    如果你遇到困难，记得看看它们"
+				"-  &6&l 八边形边框：补助&r&r"
+				"    根据难度赠送的额外奖励"
+				""
+				"此外，还有部分任务为可选任务，你可以根据自己的需求完成"
 			]
 			icon: "ftbquests:book"
 			id: "131CFAF95CFC993E"
@@ -161,7 +165,7 @@
 				"78A681513D681C93"
 			]
 			description: [
-				"欢迎来到&n&4GregTech:Odyssey&r&r！"
+				"欢迎来到&n&cGregTech:Odyssey&r&r！"
 				""
 				"也许可能你从未了解过格雷科技系列，也有可能是格雷科技的资深老登，任务书将深入浅出地引导你体验所有的里程碑阶段。"
 				""
@@ -267,7 +271,7 @@
 			description: [
 				"我们的WIKI:"
 				""
-				"{ \"text\": \"https://wiki.gtodyssey.com/\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"open_url\", \"value\": \"https://wiki.gtodyssey.com/\" } }"
+				"{ \"text\": \"https://gtodyssey.com/\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"open_url\", \"value\": \"https://wiki.gtodyssey.com/\" } }"
 				""
 				"你可以在WIKI上查找文档和指南！"
 			]

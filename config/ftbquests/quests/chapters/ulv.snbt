@@ -4,6 +4,7 @@
 	default_quest_shape: ""
 	filename: "ulv"
 	group: "2A1218851E38A2EE"
+	hide_quest_until_deps_visible: true
 	icon: "gtocore:primitive_distillation_tower"
 	id: "7EE10B51F068F7FB"
 	order_index: 2
@@ -36,12 +37,20 @@
 			x: 17.0d
 			y: -7.0d
 		}
+		{
+			id: "4A5A58465AF8F47B"
+			linked_quest: "020E8B707A8CF794"
+			shape: "hexagon"
+			x: 0.0d
+			y: 1.5d
+		}
 	]
 	quests: [
 		{
 			dependencies: ["0859B24E8AF3303F"]
 			description: [
 				"另一种发电方式，可以让你直接使用石化燃料发电。"
+				""
 				"产能略微比原始热力发电机大。"
 			]
 			id: "3791F49E789E7673"
@@ -192,7 +201,9 @@
 			description: [
 				"蒸汽裂化机只能处理石化四种主要的中间产物（&6石脑油&r，&6炼油气&r，&6轻燃油&r，&6重燃油&r）"
 				""
-				"产量&b偏低&r，在HV能做&6裂化机&r后尽快换掉它"
+				"产量&c偏低且慢&r，在&7LV&r能制作&b基础化学反应釜&r之后可以换用反应釜配方获得50%的原料效率"
+				""
+				"在&6HV&r能做&b裂化机&r之后可以获得100%的原料效率"
 			]
 			id: "498D24745D509B73"
 			rewards: [{
@@ -221,6 +232,8 @@
 				"流体校准器可以精确控制输入水的&6速率&r与被覆盖&6容器内流体容量&r，避免降温过快无法&c升温&r"
 				""
 				"热传感器可以检测机器温度阈值发出&c红石信号&r"
+				""
+				"煤炭块加热的速度是煤炭的&a1/4&r，同时加热时间是煤炭的&a4倍&r。它的加热速度（&a1K/s&r）还刚好与机器工作时每秒消耗的热量相同"
 				""
 				"别忘了在EMI查看&e多方块结构&r，点击P可以在&6蒸馏塔&r的&b最小&r和&b最大&r长度之间切换"
 			]
@@ -308,7 +321,7 @@
 			description: ["在超低压时代先造一些凑活用点，后面电压上去了一定要换其他的机器来制作它"]
 			id: "03BB5A5C084F5194"
 			rewards: [{
-				count: 32
+				count: 8
 				id: "2B4925A037EE1B1A"
 				item: "gtceu:polyethylene_plate"
 				type: "item"
@@ -328,9 +341,9 @@
 		{
 			dependencies: ["27F4D9739FE33A02"]
 			description: [
-				"通风板需要安装在流体容器的任意一个侧面，在这个侧面不被阻挡的情况下可以以200mB/秒的速度抽入空气"
+				"通风板需要安装在&6机器/仓室/流体容器&r等的任意一个侧面，在这个侧面不被阻挡的情况下可以以200mB/秒的速度抽入空气"
 				""
-				"&7可以安装在多个侧面，可并行增加抽入速度&r"
+				"&o&7可以安装在多个侧面并行工作，增加抽入速度&r"
 			]
 			hide_dependency_lines: true
 			id: "1CDBE91D2ACD9111"
@@ -398,7 +411,7 @@
 					type: "item"
 				}
 				{
-					count: 8
+					count: 2
 					id: "7FA716F5153C7B15"
 					item: "gtceu:basic_electronic_circuit"
 					type: "item"
@@ -500,8 +513,6 @@
 				""
 				"若温度过高则在加热器面前放置一个方块防止加热器过热，温度下降到合适的区间之后将该方块移走，这个活可以交给&a粘性活塞&r"
 				""
-				"移走方块之后加热器会重新运行配方，所以会消耗燃料，因此在热量达到你所选择的区间之前最好用一个热值高的燃料&6持续运行&r，然后再换热值低的燃料"
-				""
 				"最后的最后：温度一到达800K就会&4瞬间爆炸&r"
 			]
 			icon: "gtocore:coal_slurry_bucket"
@@ -537,6 +548,8 @@
 				"水煤气需要在1000K以上发生反应"
 				""
 				"你需要将锅炉提前预热"
+				""
+				"在处理水煤气的时候请保持锅炉干烧，锅炉此时不会产出蒸汽，并且在预热后加入水会导致锅炉爆炸"
 			]
 			icon: "gtocore:water_gas_bucket"
 			id: "7CBA1A5CCD21DA69"
@@ -558,7 +571,10 @@
 			y: -5.0d
 		}
 		{
-			dependencies: ["7CBA1A5CCD21DA69"]
+			dependencies: [
+				"7CBA1A5CCD21DA69"
+				"020E8B707A8CF794"
+			]
 			description: [
 				"氢气可以通过离心水煤气制取"
 				""
@@ -617,6 +633,8 @@
 			description: [
 				"&6车床&r是可以将金属锭直接制作为&6杆&r（产量比手搓的翻倍哦！）、将螺栓制作为&6螺丝&r、将齿轮制作为&6锯片&r的机器"
 				""
+				"由于电压过低，目前你还无法加工&6钢&r"
+				""
 				"&7&o我讨厌锉子！&r"
 			]
 			id: "03B5D54A3BB46B18"
@@ -643,6 +661,8 @@
 				"相比徒手制作导线 ，材料产出率整整提高了&b2-3倍&r之多"
 				""
 				"或许是你应该做的第一台ULV机器？"
+				""
+				"由于电压过低，目前你还无法加工&6铜&r"
 			]
 			id: "2EE92A46E52B0565"
 			rewards: [{
@@ -664,9 +684,9 @@
 		{
 			dependencies: ["4678D97346E46529"]
 			description: [
-				"电池箱能够为你的电网提供缓存"
+				"&6电池箱&r能够为你的电网提供&e缓存&r"
 				""
-				"虽然你已经可以制作电池箱，但电池你还无法生产"
+				"虽然你已经可以制作电池箱，但&6电池&r你还&c无法生产&r"
 				""
 				"不过在这个阶段，你大概也没有蓄电需求？如果你真的需要蓄电，做一个电池箱会送你一个电容"
 				""
@@ -734,7 +754,6 @@
 			]
 			id: "1CC2469A8203DE05"
 			rewards: [{
-				count: 4
 				id: "6F3F03FA8FCBC3A4"
 				item: "gtocore:ulv_electric_pump"
 				type: "item"
@@ -759,7 +778,6 @@
 			]
 			id: "68AB0026ACD5103E"
 			rewards: [{
-				count: 4
 				id: "78768C9064C8C06D"
 				item: "gtocore:ulv_conveyor_module"
 				type: "item"
@@ -804,7 +822,6 @@
 			description: ["机械臂的合成就复杂很多了，所以前期的其他工作一定要处理好"]
 			id: "13A73FA0625AC68F"
 			rewards: [{
-				count: 4
 				id: "42D9E5D6A2531FA2"
 				item: "gtocore:ulv_robot_arm"
 				type: "item"
@@ -829,7 +846,7 @@
 			]
 			id: "7D370CF55A0AE36D"
 			rewards: [{
-				count: 16
+				count: 4
 				id: "46DB52559B32A949"
 				item: "gtocore:ulv_electric_motor"
 				type: "item"
@@ -854,7 +871,6 @@
 			]
 			id: "0859B24E8AF3303F"
 			rewards: [{
-				count: 4
 				id: "4E68A5BC2B0E7FCD"
 				item: "gtocore:ulv_electric_piston"
 				type: "item"
@@ -904,6 +920,7 @@
 			]
 			icon: "gtocore:suprachronal_circuit_lv"
 			id: "6E3C93AC06BB6F31"
+			shape: "circle"
 			subtitle: "准备好了吗？"
 			tasks: [{
 				id: "417A3F6AA48CF609"
@@ -944,7 +961,7 @@
 		}
 		{
 			dependencies: ["561F5AACF437E7C5"]
-			description: ["以目前的生产力处理与存储这些原油产物是比较麻烦的，可以到AE存储出来后进行处理,不会太久"]
+			description: ["以目前的生产力处理与存储这些原油产物是比较麻烦的，可以到AE存储出来后进行处理，不会太久"]
 			id: "620EF24B5E685E7A"
 			subtitle: "并非无用"
 			tasks: [
@@ -973,8 +990,8 @@
 				}
 			]
 			title: "剩下的三个家伙"
-			x: 10.5d
-			y: -2.0d
+			x: 8.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["561F5AACF437E7C5"]
@@ -996,15 +1013,18 @@
 			]
 			title: "对，我要的就是你"
 			x: 10.5d
-			y: -3.5d
+			y: -2.0d
 		}
 		{
 			dependencies: [
-				"4C484BF84C3809FB"
-				"03A894C7D1178791"
 				"498D24745D509B73"
+				"4E41199ACDB910C1"
 			]
-			description: ["重度蒸汽裂化石脑油分解更彻底，具有更高的产率"]
+			description: [
+				"你可以选择裂化成任意一种"
+				""
+				"重度蒸汽裂化石脑油分解更彻底，具有更高的产率"
+			]
 			icon: "gtceu:severely_steam_cracked_naphtha_bucket"
 			id: "01C0AEA051760CE5"
 			subtitle: "蒸汽真厉害"
@@ -1033,16 +1053,17 @@
 		{
 			dependencies: ["0FBE7318DFBA700E"]
 			description: [
-				"为了进入LV阶段，在超低压阶段你就需要制作塑料片（&6聚乙烯板&r）来合成LV机器外壳"
+				"与常规GregTech流程不同的是，为了进入&7LV&r阶段，在超低压阶段你就需要制作塑料片（&6聚乙烯板&r）来合成&6LV机器外壳&r"
 				""
-				"你将搭建&7原始&r而&e简单&r的化工产线"
+				"因此，你现在需要搭建一条&7原始&r而&e简单&r的石化产线来获取乙烯"
 				""
-				"在接下来的任务中你会看到&a“检查标记”&r按钮，在你按下这个按钮之后就可以进行下一步的任务了"
+				"&e在接下来的任务中你会看到&r&a“检查标记”&r&e按钮，在你按下这个按钮之后就可以进行下一步的任务了&r"
 				""
 				"&m&8避免出现为了一桶产物倒回去重新运行一次配方的尴尬&r&r"
 			]
 			icon: "immersive_aircraft:industrial_gears"
 			id: "201D44A832961946"
+			shape: "circle"
 			subtitle: "发展的核心"
 			tasks: [{
 				id: "658933619AB97612"
@@ -1122,6 +1143,7 @@
 				"其中的一个面会与其他的五个面看上去不同，此面为输出端，其余面均为输入端"
 			]
 			id: "1EFAEF7D0E6700A9"
+			optional: true
 			shape: "diamond"
 			subtitle: "万能的转换器"
 			tasks: [{
@@ -1133,38 +1155,15 @@
 			y: -5.0d
 		}
 		{
-			dependencies: ["0FBE7318DFBA700E"]
-			description: [
-				"厌倦了私人飞机的旅行？"
-				""
-				"试试&4Iron&r &eMan&r！"
-				""
-				"&7如何补充燃料：右击你的燃料储存桶&r"
-				""
-				"现阶段你能使用的燃料只有含硫轻燃油"
+			dependencies: [
+				"1CDBE91D2ACD9111"
+				"020E8B707A8CF794"
 			]
-			id: "62F451C62752F3B7"
-			optional: true
-			rewards: [{
-				id: "13E1F79C96D46594"
-				item: "farmersdelight:honey_glazed_ham"
-				type: "item"
-			}]
-			tasks: [{
-				id: "313A119A9CB2D43A"
-				item: {
-					Count: 1
-					id: "gtceu:liquid_fuel_jetpack"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: 5.0d
-			y: 2.85d
-		}
-		{
-			dependencies: ["1CDBE91D2ACD9111"]
-			description: ["离心空气获取"]
+			description: [
+				"如果你还没有造&6蒸汽分离机&r，是时候造一台了"
+				""
+				"离心&6空气&r获取氧气"
+			]
 			icon: "ad_astra:oxygen_bucket"
 			id: "6C328AB57C610EF9"
 			subtitle: "你活着都靠它"
@@ -1182,39 +1181,6 @@
 			]
 			x: 0.0d
 			y: 2.85d
-		}
-		{
-			dependencies: ["4AF39FF336EA1BF4"]
-			description: ["升级模块拿在手上&e潜行右键&r会消耗玩家&c全部&r的经验，然后附加属性（确保玩家有10级以上的经验），可以右键小机器和部分多方块来升级，升级效果为永久加成，可覆盖升级。"]
-			id: "389D61CE9E799725"
-			rewards: [{
-				id: "354671ADCF4F585E"
-				item: {
-					Count: 1
-					id: "ae2:portable_item_cell_4k"
-					tag: {
-						internalCurrentPower: 20000.0d
-					}
-				}
-				type: "item"
-			}]
-			shape: "diamond"
-			subtitle: "今日手气如何？"
-			tasks: [
-				{
-					id: "5B8F0331ED91AA12"
-					item: "gtocore:speed_upgrade_module"
-					type: "item"
-				}
-				{
-					id: "3845A732B77CD412"
-					item: "gtocore:energy_upgrade_module"
-					type: "item"
-				}
-			]
-			title: "升级模块！加速吧！！！"
-			x: -3.5d
-			y: 1.5d
 		}
 		{
 			dependencies: ["2EE92A46E52B0565"]
@@ -1328,12 +1294,12 @@
 				item: "gtceu:programmed_circuit"
 				type: "item"
 			}]
-			x: 6.5d
-			y: 1.5d
+			x: 5.0d
+			y: 2.85d
 		}
 		{
 			dependencies: ["4678D97346E46529"]
-			description: ["用于给需要充电的工具或者装备"]
+			description: ["用于给需要充电的工具或者装备&e快速充电&r，比用&6电池箱&r充电快"]
 			id: "37E22F35AE3EF086"
 			optional: true
 			shape: "diamond"
@@ -1353,6 +1319,7 @@
 			hide_until_deps_visible: true
 			icon: "gtocore:ulv_electric_motor"
 			id: "03E94BB0F0B3ED2E"
+			optional: true
 			rewards: [
 				{
 					count: 16
@@ -1378,13 +1345,20 @@
 					item: "gtocore:ulv_robot_arm"
 					type: "item"
 				}
+				{
+					count: 2
+					id: "33F1924315A15A15"
+					item: "gtocore:ulv_electric_pump"
+					type: "item"
+				}
 			]
+			shape: "octagon"
 			tasks: [{
 				id: "158D91949C406FFB"
 				type: "checkmark"
 			}]
 			title: "ULV部件补助&a（简单）&r"
-			x: -0.5d
+			x: -3.5d
 			y: 1.5d
 		}
 		{
@@ -1395,19 +1369,21 @@
 			hide_until_deps_visible: true
 			icon: "gtceu:polyethylene_plate"
 			id: "7F95D501ADA3E661"
+			optional: true
 			rewards: [{
 				count: 128
 				id: "3F375135B8844521"
 				item: "gtceu:polyethylene_plate"
 				type: "item"
 			}]
+			shape: "octagon"
 			tasks: [{
 				id: "20AFC6809A3258AD"
 				type: "checkmark"
 			}]
 			title: "塑料补助&a（简单）&r"
-			x: 13.5d
-			y: -6.0d
+			x: 15.5d
+			y: -8.5d
 		}
 		{
 			dependencies: ["53A8535B07FE3958"]
@@ -1416,7 +1392,7 @@
 				""
 				"哪怕是再微弱的电那都是电，所以注意不要被裸露的导线电死了"
 				""
-				"从现在起，你可以开始着手降低材料的造价，或许将&6原始线材轧机&r、&6原始车床&r作为你的新时代新目标是不错的选择？"
+				"从现在起，你可以开始着手降低材料的造价，或许将&6原始线材轧机&r、&6原始车床&r作为你新时代的开端是不错的选择？"
 			]
 			id: "4678D97346E46529"
 			shape: "gear"
@@ -1439,19 +1415,21 @@
 			hide_until_deps_visible: true
 			icon: "gtceu:basic_electronic_circuit"
 			id: "35CBD9D27781F929"
+			optional: true
 			rewards: [{
 				count: 16
 				id: "272BCD53EE7CB4F6"
 				item: "gtceu:basic_electronic_circuit"
 				type: "item"
 			}]
+			shape: "octagon"
 			tasks: [{
 				id: "0A11CC353F29846B"
 				type: "checkmark"
 			}]
 			title: "芯片补助&a（简单）&r"
 			x: 6.0d
-			y: -1.0d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -1468,6 +1446,129 @@
 			title: "给你的产线搭个天花板&d（专家）&r"
 			x: 0.0d
 			y: -6.5d
+		}
+		{
+			dependencies: [
+				"4C484BF84C3809FB"
+				"03A894C7D1178791"
+			]
+			description: ["目前只能使用化学反应釜，在HV能做&6脱硫机&r来进行脱硫"]
+			icon: "gtceu:naphtha_bucket"
+			id: "4E41199ACDB910C1"
+			subtitle: "副产不要丢，可以做硫酸"
+			tasks: [
+				{
+					id: "038E21B6FE002335"
+					item: "gtceu:naphtha_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5E1B4D7AD8E07504"
+					type: "checkmark"
+				}
+			]
+			title: "脱硫时间到"
+			x: 10.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"1CA6E1AD1909373A"
+				"18E057F31DDC4065"
+			]
+			hide_until_deps_visible: true
+			icon: "gtocore:ulv_electric_motor"
+			id: "5ECEF5305E8551FA"
+			optional: true
+			rewards: [
+				{
+					count: 8
+					id: "4EDC72EBC75321D1"
+					item: "gtocore:ulv_electric_motor"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "32A7151EA25348D6"
+					item: "gtocore:ulv_conveyor_module"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4CDB4C10233F0077"
+					item: "gtocore:ulv_electric_piston"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "5BF68CD7944C1A45"
+					item: "gtocore:ulv_robot_arm"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1D7029127E78BFC6"
+					item: "gtocore:ulv_electric_pump"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "0B679403167F1FE6"
+				type: "checkmark"
+			}]
+			title: "ULV部件补助&e（普通）&r"
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"03BB5A5C084F5194"
+				"18E057F31DDC4065"
+			]
+			hide_until_deps_visible: true
+			icon: "gtceu:polyethylene_plate"
+			id: "497726A4A6246369"
+			optional: true
+			rewards: [{
+				count: 24
+				id: "45B19B233BBD5B7D"
+				item: "gtceu:polyethylene_plate"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "362DF116620798EA"
+				type: "checkmark"
+			}]
+			title: "塑料补助&e（普通）&r"
+			x: 15.5d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"0FBE7318DFBA700E"
+				"18E057F31DDC4065"
+			]
+			hide_until_deps_visible: true
+			icon: "gtceu:basic_electronic_circuit"
+			id: "2907ABEAAFEF3BC1"
+			optional: true
+			rewards: [{
+				count: 6
+				id: "09C47351E0D8CF6D"
+				item: "gtceu:basic_electronic_circuit"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "0572331A03D50238"
+				type: "checkmark"
+			}]
+			title: "芯片补助&e（普通）&r"
+			x: 6.0d
+			y: 1.0d
 		}
 	]
 	subtitle: ["Tier0.5-ULV"]

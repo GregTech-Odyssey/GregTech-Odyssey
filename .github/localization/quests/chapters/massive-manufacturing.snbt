@@ -6,7 +6,15 @@
 	group: "5EEE1B83CA094132"
 	icon: "gtceu:large_autoclave"
 	id: "2FEC174CBFBA1A0F"
-	order_index: 1
+	images: [{
+		height: 2.0d
+		image: "gtocore:item/circuit/suprachronal_iv"
+		rotation: 0.0d
+		width: 2.0d
+		x: -9.54d
+		y: -3.5d
+	}]
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
@@ -18,7 +26,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: -9.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["1CF7845875EEFA3B"]
@@ -28,7 +36,7 @@
 				item: "gtceu:large_arc_smelter"
 				type: "item"
 			}]
-			x: -4.0d
+			x: -2.0d
 			y: -2.0d
 		}
 		{
@@ -40,7 +48,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: -8.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["1CF7845875EEFA3B"]
@@ -51,7 +59,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: -2.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["1CF7845875EEFA3B"]
@@ -62,7 +70,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: -5.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["1CF7845875EEFA3B"]
@@ -73,7 +81,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: -1.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["1CF7845875EEFA3B"]
@@ -85,7 +93,7 @@
 				type: "item"
 			}]
 			x: -5.0d
-			y: -1.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["1CF7845875EEFA3B"]
@@ -96,7 +104,7 @@
 				type: "item"
 			}]
 			x: -5.0d
-			y: -5.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["1CF7845875EEFA3B"]
@@ -107,7 +115,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: -1.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["1CF7845875EEFA3B"]
@@ -129,7 +137,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: -8.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["1CF7845875EEFA3B"]
@@ -140,7 +148,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: -6.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["1CF7845875EEFA3B"]
@@ -163,7 +171,7 @@
 				item: "gtocore:large_pyrolyse_oven"
 				type: "item"
 			}]
-			x: -1.0d
+			x: -13.0d
 			y: -3.0d
 		}
 		{
@@ -179,17 +187,6 @@
 				type: "checkmark"
 			}]
 			x: -10.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["1CF7845875EEFA3B"]
-			id: "7B4B1A90BFC36521"
-			tasks: [{
-				id: "3C7A714F7538C5EB"
-				item: "gtocore:large_cracker"
-				type: "item"
-			}]
-			x: -3.0d
 			y: -3.0d
 		}
 		{
@@ -211,7 +208,7 @@
 				item: "gtocore:large_bender"
 				type: "item"
 			}]
-			x: -7.0d
+			x: -5.0d
 			y: -5.0d
 		}
 		{
@@ -244,8 +241,8 @@
 				item: "gtceu:large_cutter"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 1.0d
+			x: -4.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["1CF7845875EEFA3B"]
@@ -255,8 +252,8 @@
 				item: "gtocore:large_forming"
 				type: "item"
 			}]
-			x: 1.0d
-			y: -5.0d
+			x: -1.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["1CF7845875EEFA3B"]
@@ -267,7 +264,7 @@
 				type: "item"
 			}]
 			x: -7.0d
-			y: -1.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["1CF7845875EEFA3B"]
@@ -278,7 +275,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: -1.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["1CF7845875EEFA3B"]
@@ -288,7 +285,7 @@
 				item: "gtceu:large_centrifuge"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -4.0d
 			y: 0.0d
 		}
 		{
@@ -299,8 +296,8 @@
 				item: "gtceu:large_maceration_tower"
 				type: "item"
 			}]
-			x: -4.0d
-			y: -6.0d
+			x: -5.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["1CF7845875EEFA3B"]
@@ -322,17 +319,61 @@
 				type: "item"
 			}]
 			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1CF7845875EEFA3B"]
+			id: "55061224FFCE8F80"
+			tasks: [{
+				id: "5712DCFE938C1947"
+				item: "gtceu:large_wiremill"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1CF7845875EEFA3B"]
+			id: "249E74B8EBF66D22"
+			tasks: [{
+				id: "5D1A2EA872817959"
+				item: "gtceu:large_sifting_funnel"
+				type: "item"
+			}]
+			x: -2.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["1CF7845875EEFA3B"]
-			id: "1F8CD51855DE9512"
+			id: "6AB05A6FDF9A1CE4"
 			tasks: [{
-				id: "4711395AE11F9FCE"
-				item: "gtocore:large_greenhouse"
+				id: "683F27253A9400FB"
+				item: "gtocore:large_crusher"
 				type: "item"
 			}]
-			x: -5.0d
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1CF7845875EEFA3B"]
+			id: "4411803FE6CA4998"
+			tasks: [{
+				id: "739E2D403EE76F22"
+				item: "gtocore:large_rock_crusher"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["1CF7845875EEFA3B"]
+			id: "30D7B88E23D53A43"
+			tasks: [{
+				id: "5C2091FB5DB89506"
+				item: "gtocore:vacuum_drying_furnace"
+				type: "item"
+			}]
+			x: -15.0d
 			y: -3.0d
 		}
 	]

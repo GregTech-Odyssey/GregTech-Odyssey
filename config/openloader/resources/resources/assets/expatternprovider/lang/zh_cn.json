@@ -1,0 +1,14 @@
+{
+ "item.expatternprovider.precise_storage_bus": "ME精确存储总线",
+ "item.expatternprovider.threshold_export_bus": "ME阈值输出总线",
+ "item.expatternprovider.oversize_interface_part": "ME超大接口",
+ "block.expatternprovider.assembler_matrix_glass": "装配矩阵玻璃",
+ "block.expatternprovider.wireless_hub": "ME无线集线器",
+ 
+ "gui.expatternprovider.precise_storage_bus": "ME精确存储总线",
+ "gui.expatternprovider.threshold_export_bus": "ME阈值输出总线",
+ "gui.expatternprovider.oversize_interface": "ME超大接口",
+ "gui.expatternprovider.threshold_export_bus.greater": "高于阈值时工作",
+ "gui.expatternprovider.threshold_export_bus.lower": "低于阈值时工作"
+
+}

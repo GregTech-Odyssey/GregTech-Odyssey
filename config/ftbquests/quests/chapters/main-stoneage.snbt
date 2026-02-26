@@ -4,8 +4,35 @@
 	default_quest_shape: ""
 	filename: "main-stoneage"
 	group: "2A1218851E38A2EE"
+	hide_quest_until_deps_visible: true
 	icon: "minecraft:grass_block"
 	id: "2F98FBAEECC4F940"
+	images: [
+		{
+			height: 1.75d
+			image: "ftbquests:textures/shapes/pentagon/outline.png"
+			rotation: 0.0d
+			width: 1.75d
+			x: 3.5d
+			y: 11.0d
+		}
+		{
+			height: 1.25d
+			image: "ftbquests:textures/shapes/circle/outline.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 11.0d
+			y: -2.5d
+		}
+		{
+			height: 1.75d
+			image: "ftbquests:textures/shapes/diamond/outline.png"
+			rotation: 0.0d
+			width: 1.75d
+			x: 6.5d
+			y: -2.0d
+		}
+	]
 	order_index: 0
 	quest_links: [
 		{
@@ -29,6 +56,12 @@
 			size: 3.0d
 			x: -5.5d
 			y: 0.0d
+		}
+		{
+			id: "737FD2EA3BF85384"
+			linked_quest: "23D070BB1157701F"
+			x: 11.0d
+			y: -3.5d
 		}
 	]
 	quests: [
@@ -295,6 +328,7 @@
 			icon: "minecraft:spruce_wood"
 			id: "3CF903DBC993F284"
 			invisible: true
+			optional: true
 			rewards: [
 				{
 					id: "0FD5C706556792C2"
@@ -338,7 +372,9 @@
 			description: [
 				"它的配方与原版 Minecraft 有着截然不同的差距，你需要用两个&6燧石&r和两个&6原木&r。"
 				""
-				"当然也可以查看EMI来获得合成配方，然后在材料充足的情况下点击加号来自动合成。"
+				"你可以查看EMI来获得合成配方，然后在材料充足的情况下点击加号来自动合成。"
+				""
+				"&o&7简单模式下配方不变，四个木板即可"
 			]
 			icon: "minecraft:crafting_table"
 			id: "561D79DE960A034D"
@@ -373,9 +409,11 @@
 			description: [
 				"一开始你做的&6基础背包&r装不了多少东西，但也总算拯救了你的物品栏"
 				""
-				"&7Tips：终端成型建造多方块结构的时候可以把装不下的方块仓室什么的放到背包里面&r"
+				"终端成型建造多方块结构的时候可以把装不下的方块仓室什么的放到背包里面"
 				""
 				"[ \"可以在\", { \"text\": \"摩登时代\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1CE34BD4900990C6\" } }, \"章节继续寻找升级的方式\" ]"
+				""
+				"&o&7Tips：带有下划线的文本大多为超链接，可直接点击跳转"
 			]
 			icon: "sophisticatedbackpacks:backpack"
 			id: "4DC482C16035F261"
@@ -383,6 +421,7 @@
 				{
 					id: "34B42898A35F1402"
 					item: "sophisticatedbackpacks:backpack"
+					team_reward: false
 					type: "item"
 				}
 				{
@@ -412,7 +451,7 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["4DC482C16035F261"]
+			dependencies: ["561D79DE960A034D"]
 			description: [
 				"找找看附近有趣的东西，记得用魔力充能嗷！"
 				""
@@ -435,6 +474,7 @@
 						mana: 500000
 					}
 				}
+				team_reward: false
 				type: "item"
 			}]
 			size: 1.0d
@@ -447,8 +487,8 @@
 				type: "item"
 			}]
 			title: "挖穿地心！"
-			x: 6.5d
-			y: -3.5d
+			x: 5.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["30D4CC9142D59DBD"]
@@ -514,8 +554,10 @@
 			]
 			icon: {
 				Count: 1
-				id: "avaritia:infinity_pickaxe"
-				tag: { }
+				id: "minecraft:diamond_pickaxe"
+				tag: {
+					Damage: 0
+				}
 			}
 			id: "45C8A2DF9C0E5473"
 			rewards: [
@@ -544,6 +586,7 @@
 							HideFlags: 2
 						}
 					}
+					team_reward: false
 					type: "item"
 				}
 				{
@@ -553,7 +596,7 @@
 					type: "item"
 				}
 			]
-			shape: "circle"
+			shape: "hexagon"
 			size: 1.5d
 			subtitle: "该来的还是要来"
 			tasks: [{
@@ -678,6 +721,7 @@
 							HideFlags: 2
 						}
 					}
+					team_reward: false
 					type: "item"
 				}
 				{
@@ -688,7 +732,7 @@
 				}
 			]
 			shape: "hexagon"
-			size: 1.5d
+			size: 1.25d
 			subtitle: "前期特别重要的矿石"
 			tasks: [
 				{
@@ -739,7 +783,7 @@
 				}
 			]
 			title: "史蒂夫去哪儿？"
-			x: 13.5d
+			x: 13.0d
 			y: 0.0d
 		}
 		{
@@ -860,7 +904,7 @@
 				}
 			]
 			title: "其他矿石"
-			x: 13.5d
+			x: 13.0d
 			y: 2.0d
 		}
 		{
@@ -906,6 +950,7 @@
 							HideFlags: 2
 						}
 					}
+					team_reward: false
 					type: "item"
 				}
 				{
@@ -931,6 +976,7 @@
 							RepairCost: 1
 						}
 					}
+					team_reward: false
 					type: "item"
 				}
 				{
@@ -948,6 +994,7 @@
 							HideFlags: 2
 						}
 					}
+					team_reward: false
 					type: "item"
 				}
 				{
@@ -1011,10 +1058,10 @@
 				"07169625BC595BD3"
 			]
 			description: [
-				"扳手：    右键点击可以&9&l设置GT机器的端口&r，而潜行右键点击可以&9&l旋转机器&r，也可以代替镐子破坏机器"
-				"螺丝刀：可以&9&l打开机器覆盖板"
-				"撬棍：     可以&9&l拆下覆盖板&r&r"
-				"剪线钳： 可以&9&l连接线缆"
+				"扳手：    右键点击可以&e&l设置GT机器的端口&r，而潜行右键点击可以&e&l旋转机器&r，也可以代替镐子破坏机器"
+				"螺丝刀：可以&e&l打开机器覆盖板"
+				"撬棍：     可以&e&l拆下覆盖板&r&r"
+				"剪线钳： 可以&e&l连接线缆"
 				""
 				"[ \"你可以查看提示章节的\", { \"text\": \"GT工具使用手册\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1A0EA7A29CFD830D\" } } ]"
 			]
@@ -1060,6 +1107,7 @@
 							HideFlags: 2
 						}
 					}
+					team_reward: false
 					type: "item"
 				}
 				{
@@ -1077,6 +1125,7 @@
 							HideFlags: 2
 						}
 					}
+					team_reward: false
 					type: "item"
 				}
 				{
@@ -1100,6 +1149,7 @@
 							HideFlags: 2
 						}
 					}
+					team_reward: false
 					type: "item"
 				}
 				{
@@ -1123,6 +1173,7 @@
 							HideFlags: 2
 						}
 					}
+					team_reward: false
 					type: "item"
 				}
 				{
@@ -1142,6 +1193,7 @@
 							HideFlags: 2
 						}
 					}
+					team_reward: false
 					type: "item"
 				}
 				{
@@ -1161,6 +1213,7 @@
 							HideFlags: 2
 						}
 					}
+					team_reward: false
 					type: "item"
 				}
 				{
@@ -1178,6 +1231,7 @@
 							HideFlags: 2
 						}
 					}
+					team_reward: false
 					type: "item"
 				}
 			]
@@ -1289,7 +1343,7 @@
 			description: [
 				"——就是把他们烧掉"
 				""
-				"现在你没办法获得矿物的副产物"
+				"现在你&c没办法&r&e增产矿物&r，也&c没办法&r获得矿物的&e副产物&r"
 				""
 				"等时机成熟，你会搭建一套简易的矿物处理产线！"
 			]
@@ -1386,12 +1440,12 @@
 				{
 					count: 3L
 					id: "0790B3D16BDAA658"
-					item: "enderio:powdered_copper"
+					item: "gtceu:copper_dust"
 					type: "item"
 				}
 				{
 					id: "581AF7DF0691B41B"
-					item: "enderio:powdered_tin"
+					item: "gtceu:tin_dust"
 					type: "item"
 				}
 			]
@@ -1414,13 +1468,14 @@
 			id: "14A66BA5BC9DB220"
 			rewards: [
 				{
-					id: "69C1838C97BE66E1"
-					item: "avaritia:star_fuel"
+					count: 128
+					id: "5ADC9A7C15A3777C"
+					item: "minecraft:coal"
 					type: "item"
 				}
 				{
 					count: 64
-					id: "23DF2EDECC7E3B4B"
+					id: "588B1D9AB2ECC44D"
 					item: "gtocore:copper_coin"
 					type: "item"
 				}
@@ -1476,12 +1531,9 @@
 			y: -1.5d
 		}
 		{
-			dependencies: [
-				"12116F27AB89BB58"
-				"561D79DE960A034D"
-			]
+			dependencies: ["12116F27AB89BB58"]
 			description: [
-				"&6简易合成终端&r可以取出相邻容器的物品，当作前期的AE"
+				"&6简易合成终端&r可以与对应容器交互，当作前期的AE"
 				""
 				"但是这个合成终端&c无法链接多个容器&r"
 			]
@@ -1502,7 +1554,7 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: 3.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["45C8A2DF9C0E5473"]
@@ -1671,6 +1723,7 @@
 			icon: "minecraft:oak_sapling"
 			id: "06D038D098B3533F"
 			invisible: true
+			optional: true
 			rewards: [
 				{
 					id: "57915A5E96C6F441"
@@ -1798,7 +1851,7 @@
 			description: [
 				"软锤不仅可以作为合成材料，也可以作为工具"
 				""
-				"&8&o指可以开关机器&r&8&r"
+				"右键机器即可暂停机器工作"
 			]
 			id: "20AE5EDFB6C59021"
 			optional: true
@@ -1874,7 +1927,11 @@
 		}
 		{
 			dependencies: ["67264EF0565CC030"]
-			description: ["销毁你的垃圾"]
+			description: [
+				"销毁你的垃圾"
+				""
+				"后面还能用来制作物质球和奇点"
+			]
 			id: "36ABEC62B0F6C71D"
 			rewards: [{
 				id: "70C0F724F8EF2B79"
@@ -1882,20 +1939,13 @@
 				type: "item"
 			}]
 			subtitle: "别丢错东西了"
-			tasks: [
-				{
-					id: "5F095539B1E545E4"
-					item: "terrific_trash_cans:fluid_trash_can"
-					type: "item"
-				}
-				{
-					id: "41110CE5D7A6642D"
-					item: "terrific_trash_cans:item_trash_can"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "2BCFF0375CAE346E"
+				item: "ae2:condenser"
+				type: "item"
+			}]
 			title: "垃圾桶"
-			x: 12.5d
+			x: 13.0d
 			y: 4.0d
 		}
 		{
@@ -1919,7 +1969,7 @@
 				}
 				type: "item"
 			}]
-			x: 8.5d
+			x: 8.0d
 			y: -2.0d
 		}
 		{
@@ -1953,7 +2003,7 @@
 				}
 			]
 			title: "需要染料？"
-			x: 12.5d
+			x: 13.0d
 			y: 6.0d
 		}
 		{
@@ -2021,6 +2071,8 @@
 				"&2模块搭建：&r仅搭建对应多方块的附属模块"
 				""
 				"&4拆除模式：&r拆除搭建好的多方块"
+				""
+				"注：拆除配合模块搭建可以指定要拆除的部分（模块or本体）"
 			]
 			id: "06FE84E75DBE704A"
 			rewards: [
@@ -2065,9 +2117,11 @@
 			description: [
 				"如果你暂时不想推进主线了，可以看看支线：&b独善其身&r"
 				""
-				"包含魔法，神化，食物以及一些其他东西"
+				"包含AE，魔法，神化，食物以及一些其他东西"
 				""
-				"&e魔法在到达UEV前并不是必选项，你只需要准备一个魔力池即可。&r不过发展魔法能够极大的提升你在科技线中的体验，你可以自行选择"
+				"&e虽然魔法在到达LuV前并不是必选项，但我还是你建议发展魔法。&r发展魔法能够极大的提升你在科技线中的体验，&o沉淀总是有所回报的"
+				"{@pagebreak}"
+				"简单提一下魔法在主线中的应用：HV之前只需魔力池做超导体，HV需要魔力钢做样板更好的配方，需要开精灵门做源质钢做样板供应器更好的配方，LuV需要开门拿精灵玻璃做精灵透镜（&6必选&r），后续有部分超导体合成配方；EV做符文可以做下界之星更好的配方，UHV开始需要用到盖亚钢和盖亚魂钢，UEV开始大量使用盖亚魂，准备好盖亚魂循环"
 			]
 			icon: {
 				Count: 1
@@ -2077,6 +2131,11 @@
 				}
 			}
 			id: "1BA9FA9358CBF2E7"
+			rewards: [{
+				id: "31581923088AFF2A"
+				item: "gtocore:copper_coin"
+				type: "item"
+			}]
 			shape: "pentagon"
 			size: 1.5d
 			tasks: [{
@@ -2092,9 +2151,11 @@
 				"24C53B5FF515ACAC"
 				"056EC4E6FAF614B7"
 			]
+			description: ["简单模式下，一些重要节点会赠送大量补助"]
 			hide_until_deps_visible: true
 			icon: "gtceu:bronze_ingot"
 			id: "41F8B4785DF68920"
+			optional: true
 			rewards: [
 				{
 					count: 320
@@ -2142,6 +2203,7 @@
 					type: "item"
 				}
 			]
+			shape: "octagon"
 			subtitle: "简单特供"
 			tasks: [{
 				id: "5972E40DA50C965A"
@@ -2149,16 +2211,18 @@
 			}]
 			title: "青铜补助&a（简单）&r"
 			x: 0.0d
-			y: 10.0d
+			y: 10.5d
 		}
 		{
 			dependencies: [
 				"24C53B5FF515ACAC"
 				"18E057F31DDC4065"
 			]
+			description: ["普通模式下，一些重要节点会赠送一定补助"]
 			hide_until_deps_visible: true
 			icon: "gtceu:bronze_ingot"
 			id: "3B7A2492AD1F9B85"
+			optional: true
 			rewards: [
 				{
 					count: 128
@@ -2175,6 +2239,7 @@
 							Charge: 100000L
 						}
 					}
+					team_reward: false
 					type: "item"
 				}
 				{
@@ -2184,6 +2249,7 @@
 					type: "item"
 				}
 			]
+			shape: "octagon"
 			subtitle: "普通特供"
 			tasks: [{
 				id: "20E4A1BA83F87F1C"
@@ -2191,7 +2257,121 @@
 			}]
 			title: "青铜补助&e（普通）&r"
 			x: 0.0d
-			y: 10.5d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"24C53B5FF515ACAC"
+				"1FB1EC5B9CEFC2BC"
+			]
+			description: [
+				"都玩专家模式了，简单和普通的额外奖励是肯定没有的"
+				""
+				"你只有流程中少得可怜的象征性奖励可以领"
+			]
+			hide_until_deps_visible: true
+			icon: "gtceu:bronze_ingot"
+			id: "6097173C67222EC0"
+			optional: true
+			rewards: [{
+				id: "1F3EFB3D33C6BA0A"
+				item: "gtceu:bronze_ingot"
+				type: "item"
+			}]
+			shape: "octagon"
+			subtitle: "专家没有"
+			tasks: [{
+				id: "25AD90D98C7417AA"
+				type: "checkmark"
+			}]
+			title: "青铜补助&d（专家）&r"
+			x: 0.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["561D79DE960A034D"]
+			description: [
+				"用熔炉在地上摆放一个&a3x3x3&r形状的立方体，就会自动成型为&6巨型熔炉&r"
+				"在其原料栏位放入&a27个&r熔炉可以烧制出一个同样的&6巨型熔炉&r物品，放入右下的槽位可以增加&e1并行&r"
+				""
+				"手持剪刀&e[Shift]+[右键]&r可以拆除巨型熔炉"
+				""
+				"&o&7它的性价比完爆了蒸汽时代熔炉，64并行足以满足你前期的烧炼需求。它还因为过强险些被删除"
+				""
+				"&o&m&7没有主机的多方块结构不能叫做多方块结构"
+			]
+			id: "24AD2CCEF0E48FD5"
+			rewards: [{
+				id: "03D63ADB5B0C891A"
+				item: "jumbofurnace:jumbo_furnace"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "你的第一个多方块结构...真的算是吗？"
+			tasks: [{
+				icon: "jumbofurnace:jumbo_furnace"
+				id: "383550A2A702BCF6"
+				observe_type: 0
+				timer: 0L
+				title: "观察: &a巨型熔炉&r"
+				to_observe: "jumbofurnace:jumbo_furnace"
+				type: "observation"
+			}]
+			title: "巨型熔炉"
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3BC9246D8FD4B649"]
+			description: ["GTO自带了夜视——如果你没有改键位的话，按&e[Z]&r键可以开关夜视效果"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "gtceu:nightvision_goggles"
+				tag: { }
+			}
+			id: "0BBC0B63C2FB2486"
+			subtitle: "无需火把——但是为了避免刷怪还是插上吧"
+			tasks: [{
+				id: "31E519C621A9793E"
+				type: "checkmark"
+			}]
+			title: "夜视"
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"4CC934314D14A5EA"
+				"30D4CC9142D59DBD"
+			]
+			description: [
+				"清空容器或者机器中的流体，&c不会返还"
+				""
+				"&o&7橡胶需要蒸汽时代才能制作"
+			]
+			id: "084A8DE8B1F5CF3E"
+			optional: true
+			rewards: [{
+				id: "15F0B6F1F8A00969"
+				item: "gtocore:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7FA79D88DAA47846"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:tools/plungers"
+					}
+				}
+				title: "任意搋子"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 8.0d
 		}
 	]
 	subtitle: ["Hello World!"]
