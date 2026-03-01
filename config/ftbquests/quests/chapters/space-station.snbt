@@ -109,9 +109,10 @@
 				""
 				"而&a衔接舱&r可以与&e模块舱&r，以及&a衔接舱&r同类相连"
 			]
+			icon_scale: 0.9d
 			id: "58EC0AFA9742164A"
 			shape: "gear"
-			size: 1.0d
+			size: 1.25d
 			subtitle: "太空超净间ProMax"
 			tasks: [{
 				id: "7B1733047E7C39F8"
@@ -205,9 +206,10 @@
 				"49E04C29B878D3A8"
 				"5A9B478B1791A425"
 			]
+			icon_scale: 0.9d
 			id: "7D639CBD69B7AA61"
 			shape: "gear"
-			size: 1.0d
+			size: 1.25d
 			tasks: [{
 				id: "1AA90443D17D614C"
 				item: "gtocore:orbital_nanoprecision_processing_chamber"
@@ -294,8 +296,10 @@
 		{
 			dependencies: ["7D639CBD69B7AA61"]
 			description: ["终于，你可以在空间站中使用激光仓了"]
+			icon_scale: 0.9d
 			id: "7CE4581B262B540F"
 			shape: "gear"
+			size: 1.25d
 			tasks: [{
 				id: "352BFFA5CC095106"
 				item: "gtocore:space_station_energy_conversion_module"
@@ -307,8 +311,10 @@
 		{
 			dependencies: ["58EC0AFA9742164A"]
 			description: ["连接地面与太空"]
+			icon_scale: 0.9d
 			id: "2B1C70663401671D"
 			shape: "gear"
+			size: 1.25d
 			tasks: [{
 				id: "5FFEF315F04A4569"
 				item: "gtocore:space_elevator_connector_module"

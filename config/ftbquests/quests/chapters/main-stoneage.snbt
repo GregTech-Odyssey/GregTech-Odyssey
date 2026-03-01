@@ -775,6 +775,10 @@
 									Count: 1b
 									id: "gtceu:raw_chalcopyrite"
 								}
+								{
+									Count: 1b
+									id: "gtceu:raw_malachite"
+								}
 							]
 						}
 					}
@@ -2202,6 +2206,12 @@
 					item: "gtceu:wrought_iron_ingot"
 					type: "item"
 				}
+				{
+					count: 128
+					id: "3AC13A63A0D7D6A9"
+					item: "gtocore:copper_coin"
+					type: "item"
+				}
 			]
 			shape: "octagon"
 			subtitle: "简单特供"
@@ -2225,7 +2235,7 @@
 			optional: true
 			rewards: [
 				{
-					count: 128
+					count: 64
 					id: "0BCDAC9C08ADBEE7"
 					item: "gtceu:bronze_ingot"
 					type: "item"
@@ -2246,6 +2256,12 @@
 					count: 128
 					id: "309E5607D70D2466"
 					item: "gtceu:wrought_iron_ingot"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "188367E3FFFEEE6E"
+					item: "gtocore:copper_coin"
 					type: "item"
 				}
 			]
@@ -2273,11 +2289,18 @@
 			icon: "gtceu:bronze_ingot"
 			id: "6097173C67222EC0"
 			optional: true
-			rewards: [{
-				id: "1F3EFB3D33C6BA0A"
-				item: "gtceu:bronze_ingot"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "1F3EFB3D33C6BA0A"
+					item: "gtceu:bronze_ingot"
+					type: "item"
+				}
+				{
+					id: "0A27F98E3891A560"
+					item: "gtocore:copper_coin"
+					type: "item"
+				}
+			]
 			shape: "octagon"
 			subtitle: "专家没有"
 			tasks: [{
