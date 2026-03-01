@@ -428,7 +428,6 @@
 			]
 			x: -8.0d
 			y: 3.0d
-			icon: "gtocore:coolant_liquid_bucket"
 		}
 		{
 			dependencies: [
@@ -905,7 +904,6 @@
 			]
 			x: -1.5d
 			y: 0.0d
-			icon: "gtceu:lubricant_bucket"
 		}
 		{
 			dependencies: ["3D1E66868544975F"]

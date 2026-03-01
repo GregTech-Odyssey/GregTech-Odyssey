@@ -58,40 +58,24 @@
 		{
 			dependencies: ["7F85B7596400D9B7"]
 			id: "218DF03160595A6F"
-			tasks: [
-				{
-					id: "0F421B066A2BAB87"
-					item: "gtocore:monazite_rare_earth_turbid_liquid_bucket"
-					type: "item"
-					optional_task: true
-				}
-				{
-					id: "0F421B066A2BAB87_CHECKMARK"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "0F421B066A2BAB87"
+				item: "gtocore:monazite_rare_earth_turbid_liquid_bucket"
+				type: "item"
+			}]
 			x: -7.5d
 			y: -2.0d
-			icon: "gtocore:monazite_rare_earth_turbid_liquid_bucket"
 		}
 		{
 			dependencies: ["218DF03160595A6F"]
 			id: "75FF3EA9CF248DA8"
-			tasks: [
-				{
-					id: "7ED2800CC9158C1F"
-					item: "gtocore:diluted_monazite_slurry_bucket"
-					type: "item"
-					optional_task: true
-				}
-				{
-					id: "7ED2800CC9158C1F_CHECKMARK"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "7ED2800CC9158C1F"
+				item: "gtocore:diluted_monazite_slurry_bucket"
+				type: "item"
+			}]
 			x: -6.5d
 			y: -2.0d
-			icon: "gtocore:diluted_monazite_slurry_bucket"
 		}
 		{
 			dependencies: ["75FF3EA9CF248DA8"]
@@ -121,40 +105,24 @@
 		{
 			dependencies: ["355FF18BC5AECBBF"]
 			id: "3967DE6E4384B756"
-			tasks: [
-				{
-					id: "4D4D368BC1287F2E"
-					item: "gtocore:steam_cracked_fluoro_carbon_lanthanide_slurry_bucket"
-					type: "item"
-					optional_task: true
-				}
-				{
-					id: "4D4D368BC1287F2E_CHECKMARK"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "4D4D368BC1287F2E"
+				item: "gtocore:steam_cracked_fluoro_carbon_lanthanide_slurry_bucket"
+				type: "item"
+			}]
 			x: -6.5d
 			y: 1.0d
-			icon: "gtocore:steam_cracked_fluoro_carbon_lanthanide_slurry_bucket"
 		}
 		{
 			dependencies: ["4F220FB82AB77225"]
 			id: "355FF18BC5AECBBF"
-			tasks: [
-				{
-					id: "330880F4CCC4AB59"
-					item: "gtocore:fluoro_carbon_lanthanide_cerium_solution_bucket"
-					type: "item"
-					optional_task: true
-				}
-				{
-					id: "330880F4CCC4AB59_CHECKMARK"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "330880F4CCC4AB59"
+				item: "gtocore:fluoro_carbon_lanthanide_cerium_solution_bucket"
+				type: "item"
+			}]
 			x: -7.5d
 			y: 1.0d
-			icon: "gtocore:fluoro_carbon_lanthanide_cerium_solution_bucket"
 		}
 		{
 			dependencies: ["75569B5559E011E2"]
@@ -184,21 +152,13 @@
 			dependencies: ["2FD681A788D189E9"]
 			id: "5858E81A332CE35E"
 			shape: "pentagon"
-			tasks: [
-				{
-					id: "0D9E357440B3C1CD"
-					item: "gtocore:concentrated_cerium_chloride_solution_bucket"
-					type: "item"
-					optional_task: true
-				}
-				{
-					id: "0D9E357440B3C1CD_CHECKMARK"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "0D9E357440B3C1CD"
+				item: "gtocore:concentrated_cerium_chloride_solution_bucket"
+				type: "item"
+			}]
 			x: -3.5d
 			y: 3.5d
-			icon: "gtocore:concentrated_cerium_chloride_solution_bucket"
 		}
 		{
 			dependencies: [
@@ -211,21 +171,13 @@
 				"多了钷粉的产出"
 			]
 			id: "72DFAC3212692136"
-			tasks: [
-				{
-					id: "64516808A90E9FB3"
-					item: "gtocore:p507_bucket"
-					type: "item"
-					optional_task: true
-				}
-				{
-					id: "64516808A90E9FB3_CHECKMARK"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "64516808A90E9FB3"
+				item: "gtocore:p507_bucket"
+				type: "item"
+			}]
 			x: -4.0d
 			y: 5.0d
-			icon: "gtocore:p507_bucket"
 		}
 		{
 			dependencies: ["72DFAC3212692136"]
@@ -251,59 +203,35 @@
 				"5858E81A332CE35E"
 			]
 			id: "67111A7C89E5BAA7"
-			tasks: [
-				{
-					id: "64CDC81DF8C2AFE0"
-					item: "gtocore:concentrated_rare_earth_chloride_solution_bucket"
-					type: "item"
-					optional_task: true
-				}
-				{
-					id: "64CDC81DF8C2AFE0_CHECKMARK"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "64CDC81DF8C2AFE0"
+				item: "gtocore:concentrated_rare_earth_chloride_solution_bucket"
+				type: "item"
+			}]
 			x: -2.0d
 			y: 5.0d
-			icon: "gtocore:concentrated_rare_earth_chloride_solution_bucket"
 		}
 		{
 			dependencies: ["67111A7C89E5BAA7"]
 			id: "3EB2D0CA54B2DE40"
-			tasks: [
-				{
-					id: "5053BA6212021968"
-					item: "gtocore:enriched_rare_earth_chloride_solution_bucket"
-					type: "item"
-					optional_task: true
-				}
-				{
-					id: "5053BA6212021968_CHECKMARK"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "5053BA6212021968"
+				item: "gtocore:enriched_rare_earth_chloride_solution_bucket"
+				type: "item"
+			}]
 			x: -1.0d
 			y: 5.0d
-			icon: "gtocore:enriched_rare_earth_chloride_solution_bucket"
 		}
 		{
 			dependencies: ["3EB2D0CA54B2DE40"]
 			id: "5D2C28357AB7D76A"
-			tasks: [
-				{
-					id: "03B57CB515A79148"
-					item: "gtocore:diluted_rare_earth_chloride_solution_bucket"
-					type: "item"
-					optional_task: true
-				}
-				{
-					id: "03B57CB515A79148_CHECKMARK"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "03B57CB515A79148"
+				item: "gtocore:diluted_rare_earth_chloride_solution_bucket"
+				type: "item"
+			}]
 			x: 0.0d
 			y: 5.0d
-			icon: "gtocore:diluted_rare_earth_chloride_solution_bucket"
 		}
 		{
 			dependencies: ["45B6AB3615FF2228"]
@@ -327,21 +255,13 @@
 			dependencies: ["2ED005FB3DC2EAB2"]
 			id: "69C8B1423C6D98F8"
 			shape: "pentagon"
-			tasks: [
-				{
-					id: "7ED1A0AF5EDC3F7C"
-					item: "gtocore:samarium_chloride_concentrate_solution_bucket"
-					type: "item"
-					optional_task: true
-				}
-				{
-					id: "7ED1A0AF5EDC3F7C_CHECKMARK"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "7ED1A0AF5EDC3F7C"
+				item: "gtocore:samarium_chloride_concentrate_solution_bucket"
+				type: "item"
+			}]
 			x: 0.5d
 			y: 3.5d
-			icon: "gtocore:samarium_chloride_concentrate_solution_bucket"
 		}
 		{
 			dependencies: ["68012C0C6C072430"]
@@ -357,40 +277,24 @@
 		{
 			dependencies: ["7FD4EA18599A4C80"]
 			id: "68012C0C6C072430"
-			tasks: [
-				{
-					id: "269E11D2DA3B35B1"
-					item: "gtocore:diluted_fluoro_carbon_lanthanide_slurry_bucket"
-					type: "item"
-					optional_task: true
-				}
-				{
-					id: "269E11D2DA3B35B1_CHECKMARK"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "269E11D2DA3B35B1"
+				item: "gtocore:diluted_fluoro_carbon_lanthanide_slurry_bucket"
+				type: "item"
+			}]
 			x: -2.0d
 			y: 1.0d
-			icon: "gtocore:diluted_fluoro_carbon_lanthanide_slurry_bucket"
 		}
 		{
 			dependencies: ["3967DE6E4384B756"]
 			id: "7FD4EA18599A4C80"
-			tasks: [
-				{
-					id: "36C40CE93CCD8983"
-					item: "gtocore:modulated_fluoro_carbon_lanthanide_slurry_bucket"
-					type: "item"
-					optional_task: true
-				}
-				{
-					id: "36C40CE93CCD8983_CHECKMARK"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "36C40CE93CCD8983"
+				item: "gtocore:modulated_fluoro_carbon_lanthanide_slurry_bucket"
+				type: "item"
+			}]
 			x: -5.5d
 			y: 1.0d
-			icon: "gtocore:modulated_fluoro_carbon_lanthanide_slurry_bucket"
 		}
 		{
 			dependencies: ["161FACD3D460966C"]
@@ -418,21 +322,13 @@
 		{
 			dependencies: ["2ED005FB3DC2EAB2"]
 			id: "161FACD3D460966C"
-			tasks: [
-				{
-					id: "2EF12596605F880E"
-					item: "gtocore:samarium_rare_earth_turbid_liquid_bucket"
-					type: "item"
-					optional_task: true
-				}
-				{
-					id: "2EF12596605F880E_CHECKMARK"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "2EF12596605F880E"
+				item: "gtocore:samarium_rare_earth_turbid_liquid_bucket"
+				type: "item"
+			}]
 			x: -1.0d
 			y: 0.0d
-			icon: "gtocore:samarium_rare_earth_turbid_liquid_bucket"
 		}
 		{
 			dependencies: ["75569B5559E011E2"]
@@ -456,22 +352,14 @@
 			]
 			description: ["增产100%"]
 			id: "08BE4F17331AA62A"
-			tasks: [
-				{
-					count: 2L
-					id: "2F8EEE85FAF3939E"
-					item: "gtocore:nitric_leachate_from_monazite_bucket"
-					type: "item"
-					optional_task: true
-				}
-				{
-					id: "2F8EEE85FAF3939E_CHECKMARK"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				count: 2L
+				id: "2F8EEE85FAF3939E"
+				item: "gtocore:nitric_leachate_from_monazite_bucket"
+				type: "item"
+			}]
 			x: -1.5d
 			y: -2.0d
-			icon: "gtocore:nitric_leachate_from_monazite_bucket"
 		}
 		{
 			dependencies: ["37462EF914F322CF"]
@@ -512,21 +400,13 @@
 		{
 			dependencies: ["3703CE6AC3C7DF99"]
 			id: "51329F6185D2DECE"
-			tasks: [
-				{
-					id: "6C9911E456329F6C"
-					item: "gtocore:nitric_leachate_from_monazite_bucket"
-					type: "item"
-					optional_task: true
-				}
-				{
-					id: "6C9911E456329F6C_CHECKMARK"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "6C9911E456329F6C"
+				item: "gtocore:nitric_leachate_from_monazite_bucket"
+				type: "item"
+			}]
 			x: -1.5d
 			y: -3.0d
-			icon: "gtocore:nitric_leachate_from_monazite_bucket"
 		}
 		{
 			dependencies: ["51329F6185D2DECE"]
@@ -597,21 +477,13 @@
 		{
 			dependencies: ["3678A2BA0642E20A"]
 			id: "15A2F5EFFBB91EDA"
-			tasks: [
-				{
-					id: "7A625C923290EEA2"
-					item: "gtocore:fluoro_carbon_lanthanide_cerium_rare_earth_suspension_bucket"
-					type: "item"
-					optional_task: true
-				}
-				{
-					id: "7A625C923290EEA2_CHECKMARK"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "7A625C923290EEA2"
+				item: "gtocore:fluoro_carbon_lanthanide_cerium_rare_earth_suspension_bucket"
+				type: "item"
+			}]
 			x: 1.5d
 			y: 1.0d
-			icon: "gtocore:fluoro_carbon_lanthanide_cerium_rare_earth_suspension_bucket"
 		}
 		{
 			dependencies: ["15A2F5EFFBB91EDA"]
@@ -888,40 +760,24 @@
 		{
 			dependencies: ["47266DCC05604F99"]
 			id: "229F26695D1FBC3F"
-			tasks: [
-				{
-					id: "0B3673AC3C47812E"
-					item: "gtocore:rare_earth_hydroxides_bucket"
-					type: "item"
-					optional_task: true
-				}
-				{
-					id: "0B3673AC3C47812E_CHECKMARK"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "0B3673AC3C47812E"
+				item: "gtocore:rare_earth_hydroxides_bucket"
+				type: "item"
+			}]
 			x: 4.5d
 			y: 5.0d
-			icon: "gtocore:rare_earth_hydroxides_bucket"
 		}
 		{
 			dependencies: ["229F26695D1FBC3F"]
 			id: "4EF9B854A7D883F3"
-			tasks: [
-				{
-					id: "71378F60B783502C"
-					item: "gtocore:rare_earth_chlorides_bucket"
-					type: "item"
-					optional_task: true
-				}
-				{
-					id: "71378F60B783502C_CHECKMARK"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "71378F60B783502C"
+				item: "gtocore:rare_earth_chlorides_bucket"
+				type: "item"
+			}]
 			x: 6.0d
 			y: 5.0d
-			icon: "gtocore:rare_earth_chlorides_bucket"
 		}
 		{
 			dependencies: ["4EF9B854A7D883F3"]

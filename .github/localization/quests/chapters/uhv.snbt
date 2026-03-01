@@ -180,21 +180,13 @@
 		{
 			dependencies: ["4C998EF199E7C5D0"]
 			id: "3FC0E3B6916ADE1B"
-			tasks: [
-				{
-					id: "5A1C0DC058F2BADE"
-					item: "gtocore:lemurite_bucket"
-					type: "item"
-					optional_task: true
-				}
-				{
-					id: "5A1C0DC058F2BADE_CHECKMARK"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "5A1C0DC058F2BADE"
+				item: "gtocore:lemurite_bucket"
+				type: "item"
+			}]
 			x: 6.0d
 			y: -1.0d
-			icon: "gtocore:lemurite_bucket"
 		}
 		{
 			dependencies: ["3FC0E3B6916ADE1B"]
@@ -423,21 +415,13 @@
 			description: ["{gto.uhv.quests.5CC47F664FB8381E.description0}"]
 			id: "5CC47F664FB8381E"
 			subtitle: "{gto.uhv.quests.5CC47F664FB8381E.subtitle}"
-			tasks: [
-				{
-					id: "386257C058B8DC96"
-					item: "gtocore:electric_equilibrium_water_bucket"
-					type: "item"
-					optional_task: true
-				}
-				{
-					id: "386257C058B8DC96_CHECKMARK"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "386257C058B8DC96"
+				item: "gtocore:electric_equilibrium_water_bucket"
+				type: "item"
+			}]
 			x: 6.5d
 			y: 8.5d
-			icon: "gtocore:electric_equilibrium_water_bucket"
 		}
 		{
 			dependencies: ["5F1C4921713ABF99"]
@@ -478,7 +462,6 @@
 			}]
 			x: 8.5d
 			y: 2.5d
-			icon: "gtocore:kevlar_bucket"
 		}
 		{
 			dependencies: [
@@ -529,21 +512,13 @@
 			dependencies: ["3A91F7CD95B427BF"]
 			hide_dependency_lines: true
 			id: "6850047C2C843F02"
-			tasks: [
-				{
-					id: "0CB3C0C142B7022F"
-					item: "gtceu:bromine_bucket"
-					type: "item"
-					optional_task: true
-				}
-				{
-					id: "0CB3C0C142B7022F_CHECKMARK"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "0CB3C0C142B7022F"
+				item: "gtceu:bromine_bucket"
+				type: "item"
+			}]
 			x: 2.0d
 			y: 1.0d
-			icon: "gtceu:bromine_bucket"
 		}
 		{
 			dependencies: ["5332141C5489CF10"]
@@ -656,21 +631,13 @@
 			dependencies: ["7E480187CA3FE8B2"]
 			hide_dependent_lines: true
 			id: "6BA9D736E067AC17"
-			tasks: [
-				{
-					id: "2E1EA7BDECACBFED"
-					item: "gtocore:uu_amplifier_bucket"
-					type: "item"
-					optional_task: true
-				}
-				{
-					id: "2E1EA7BDECACBFED_CHECKMARK"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "2E1EA7BDECACBFED"
+				item: "gtocore:uu_amplifier_bucket"
+				type: "item"
+			}]
 			x: -1.5d
 			y: 12.5d
-			icon: "gtocore:uu_amplifier_bucket"
 		}
 		{
 			dependencies: ["2F3D8DD85C6D4F74"]
@@ -825,21 +792,13 @@
 			]
 			description: ["{gto.uhv.quests.187C5D9C4BFCFD35.description0}"]
 			id: "187C5D9C4BFCFD35"
-			tasks: [
-				{
-					id: "0B04723966A464CE"
-					item: "gtocore:quicksilver_bucket"
-					type: "item"
-					optional_task: true
-				}
-				{
-					id: "0B04723966A464CE_CHECKMARK"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "0B04723966A464CE"
+				item: "gtocore:quicksilver_bucket"
+				type: "item"
+			}]
 			x: 3.5d
 			y: -3.0d
-			icon: "gtocore:quicksilver_bucket"
 		}
 		{
 			dependencies: ["57729FBB969E8CC6"]
@@ -917,21 +876,13 @@
 			dependencies: ["1612D1DEB3A7BE2D"]
 			hide_dependency_lines: true
 			id: "4CBB58A022DAD89A"
-			tasks: [
-				{
-					id: "56FCBAE9EF22E701"
-					item: "gtocore:liquidcrystalkevlar_bucket"
-					type: "item"
-					optional_task: true
-				}
-				{
-					id: "56FCBAE9EF22E701_CHECKMARK"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "56FCBAE9EF22E701"
+				item: "gtocore:liquidcrystalkevlar_bucket"
+				type: "item"
+			}]
 			x: 8.5d
 			y: 1.0d
-			icon: "gtocore:liquidcrystalkevlar_bucket"
 		}
 		{
 			dependencies: [
@@ -988,21 +939,13 @@
 			dependencies: ["05FC584B28D957EB"]
 			description: ["{gto.uhv.quests.5876D6BFFD8AA7F7.description0}"]
 			id: "5876D6BFFD8AA7F7"
-			tasks: [
-				{
-					id: "32CCF029EA0AA6D4"
-					item: "gtocore:transcending_matter_bucket"
-					type: "item"
-					optional_task: true
-				}
-				{
-					id: "32CCF029EA0AA6D4_CHECKMARK"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "32CCF029EA0AA6D4"
+				item: "gtocore:transcending_matter_bucket"
+				type: "item"
+			}]
 			x: -3.5d
 			y: 2.5d
-			icon: "gtocore:transcending_matter_bucket"
 		}
 		{
 			dependencies: ["549A7D66F1D4875F"]

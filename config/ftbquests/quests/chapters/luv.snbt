@@ -662,11 +662,6 @@
 					id: "38037020787AA5D4"
 					item: "ad_astra:cryo_fuel_bucket"
 					type: "item"
-					optional_task: true
-				}
-				{
-					id: "38037020787AA5D4_CHECKMARK"
-					type: "checkmark"
 				}
 			]
 			x: 1.5d

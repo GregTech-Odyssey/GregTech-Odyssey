@@ -22,21 +22,13 @@
 	quests: [
 		{
 			id: "23E60BBE7A49F66E"
-			tasks: [
-				{
-					id: "44013C2E58A516A2"
-					item: "ad_astra:hydrogen_bucket"
-					type: "item"
-					optional_task: true
-				}
-				{
-					id: "44013C2E58A516A2_CHECKMARK"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "44013C2E58A516A2"
+				item: "ad_astra:hydrogen_bucket"
+				type: "item"
+			}]
 			x: -6.5d
 			y: -4.0d
-			icon: "ad_astra:hydrogen_bucket"
 		}
 		{
 			id: "66E89322DE8499A3"
@@ -490,21 +482,13 @@
 		}
 		{
 			id: "3C39CB34F4926E03"
-			tasks: [
-				{
-					id: "509D4FDF3A61CF72"
-					item: "gtceu:nitrogen_bucket"
-					type: "item"
-					optional_task: true
-				}
-				{
-					id: "509D4FDF3A61CF72_CHECKMARK"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "509D4FDF3A61CF72"
+				item: "gtceu:nitrogen_bucket"
+				type: "item"
+			}]
 			x: 14.5d
 			y: -2.5d
-			icon: "gtceu:nitrogen_bucket"
 		}
 		{
 			id: "39150F96CB9FA8CE"
@@ -548,21 +532,13 @@
 		}
 		{
 			id: "034D7244E46B496D"
-			tasks: [
-				{
-					id: "4570B43DCA0D8B5D"
-					item: "ad_astra:oxygen_bucket"
-					type: "item"
-					optional_task: true
-				}
-				{
-					id: "4570B43DCA0D8B5D_CHECKMARK"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "4570B43DCA0D8B5D"
+				item: "ad_astra:oxygen_bucket"
+				type: "item"
+			}]
 			x: 16.0d
 			y: -2.5d
-			icon: "ad_astra:oxygen_bucket"
 		}
 		{
 			id: "72D99F355C164297"
@@ -606,39 +582,23 @@
 		}
 		{
 			id: "1BAB6994F7CDA875"
-			tasks: [
-				{
-					id: "6BA3747E9DFE431F"
-					item: "gtceu:fluorine_bucket"
-					type: "item"
-					optional_task: true
-				}
-				{
-					id: "6BA3747E9DFE431F_CHECKMARK"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "6BA3747E9DFE431F"
+				item: "gtceu:fluorine_bucket"
+				type: "item"
+			}]
 			x: 17.5d
 			y: -2.5d
-			icon: "gtceu:fluorine_bucket"
 		}
 		{
 			id: "36AD002B13FC8FF4"
-			tasks: [
-				{
-					id: "25424FB3462F9463"
-					item: "gtceu:chlorine_bucket"
-					type: "item"
-					optional_task: true
-				}
-				{
-					id: "25424FB3462F9463_CHECKMARK"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "25424FB3462F9463"
+				item: "gtceu:chlorine_bucket"
+				type: "item"
+			}]
 			x: 17.5d
 			y: -1.0d
-			icon: "gtceu:chlorine_bucket"
 		}
 		{
 			id: "1B19C13BC2E4D93C"
@@ -652,111 +612,63 @@
 		}
 		{
 			id: "4475B95DD62610E3"
-			tasks: [
-				{
-					id: "30CD356AB9361D67"
-					item: "gtceu:helium_bucket"
-					type: "item"
-					optional_task: true
-				}
-				{
-					id: "30CD356AB9361D67_CHECKMARK"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "30CD356AB9361D67"
+				item: "gtceu:helium_bucket"
+				type: "item"
+			}]
 			x: 19.0d
 			y: -4.0d
-			icon: "gtceu:helium_bucket"
 		}
 		{
 			id: "0663F0E8A333D0B0"
-			tasks: [
-				{
-					id: "141BC1C803A13D59"
-					item: "gtceu:neon_bucket"
-					type: "item"
-					optional_task: true
-				}
-				{
-					id: "141BC1C803A13D59_CHECKMARK"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "141BC1C803A13D59"
+				item: "gtceu:neon_bucket"
+				type: "item"
+			}]
 			x: 19.0d
 			y: -2.5d
-			icon: "gtceu:neon_bucket"
 		}
 		{
 			id: "25AF3EE8AA0D911A"
-			tasks: [
-				{
-					id: "155487F5272B40AA"
-					item: "gtceu:argon_bucket"
-					type: "item"
-					optional_task: true
-				}
-				{
-					id: "155487F5272B40AA_CHECKMARK"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "155487F5272B40AA"
+				item: "gtceu:argon_bucket"
+				type: "item"
+			}]
 			x: 19.0d
 			y: -1.0d
-			icon: "gtceu:argon_bucket"
 		}
 		{
 			id: "20FC6A47343C6693"
-			tasks: [
-				{
-					id: "70EEB265154D7FEB"
-					item: "gtceu:krypton_bucket"
-					type: "item"
-					optional_task: true
-				}
-				{
-					id: "70EEB265154D7FEB_CHECKMARK"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "70EEB265154D7FEB"
+				item: "gtceu:krypton_bucket"
+				type: "item"
+			}]
 			x: 19.0d
 			y: 0.5d
-			icon: "gtceu:krypton_bucket"
 		}
 		{
 			id: "567280FEC8C193A3"
-			tasks: [
-				{
-					id: "2DD7DC0A7EFD3024"
-					item: "gtceu:xenon_bucket"
-					type: "item"
-					optional_task: true
-				}
-				{
-					id: "2DD7DC0A7EFD3024_CHECKMARK"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "2DD7DC0A7EFD3024"
+				item: "gtceu:xenon_bucket"
+				type: "item"
+			}]
 			x: 19.0d
 			y: 2.0d
-			icon: "gtceu:xenon_bucket"
 		}
 		{
 			id: "2E5422B5D3EE5049"
-			tasks: [
-				{
-					id: "4E171EB88805FB33"
-					item: "gtceu:radon_bucket"
-					type: "item"
-					optional_task: true
-				}
-				{
-					id: "4E171EB88805FB33_CHECKMARK"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "4E171EB88805FB33"
+				item: "gtceu:radon_bucket"
+				type: "item"
+			}]
 			x: 19.0d
 			y: 3.5d
-			icon: "gtceu:radon_bucket"
 		}
 		{
 			id: "69CF407EFA06623F"
@@ -1100,21 +1012,13 @@
 		}
 		{
 			id: "75E298F072865214"
-			tasks: [
-				{
-					id: "37B7A9C41A0904D0"
-					item: "gtceu:mercury_bucket"
-					type: "item"
-					optional_task: true
-				}
-				{
-					id: "37B7A9C41A0904D0_CHECKMARK"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "37B7A9C41A0904D0"
+				item: "gtceu:mercury_bucket"
+				type: "item"
+			}]
 			x: 10.0d
 			y: 3.5d
-			icon: "gtceu:mercury_bucket"
 		}
 		{
 			id: "53D0B2B73387C7CE"
@@ -1258,21 +1162,13 @@
 		}
 		{
 			id: "052DDE864EDC3DDF"
-			tasks: [
-				{
-					id: "30DC8AC17707DCEE"
-					item: "gtceu:bromine_bucket"
-					type: "item"
-					optional_task: true
-				}
-				{
-					id: "30DC8AC17707DCEE_CHECKMARK"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "30DC8AC17707DCEE"
+				item: "gtceu:bromine_bucket"
+				type: "item"
+			}]
 			x: 17.5d
 			y: 0.5d
-			icon: "gtceu:bromine_bucket"
 		}
 		{
 			id: "55B6423CC74CA428"
