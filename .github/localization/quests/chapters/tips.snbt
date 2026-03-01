@@ -1409,6 +1409,8 @@
 				"{gto.tips.quests.2574E6B85ADAAB88.description0}"
 				""
 				"{gto.tips.quests.2574E6B85ADAAB88.description1}"
+				""
+				"{gto.tips.quests.2574E6B85ADAAB88.description2}"
 			]
 			icon: "solcarrot:food_book"
 			id: "2574E6B85ADAAB88"
@@ -1449,34 +1451,9 @@
 					id: "0F1FFD8C69AD34AA"
 					item: {
 						Count: 1
-						id: "itemfilters:or"
+						id: "itemfilters:tag"
 						tag: {
-							items: [
-								{
-									Count: 1b
-									id: "gtceu:face_mask"
-								}
-								{
-									Count: 1b
-									id: "gtceu:rubber_gloves"
-								}
-								{
-									Count: 1b
-									id: "gtceu:hazmat_headpiece"
-								}
-								{
-									Count: 1b
-									id: "gtceu:hazmat_chestpiece"
-								}
-								{
-									Count: 1b
-									id: "gtceu:hazmat_leggings"
-								}
-								{
-									Count: 1b
-									id: "gtceu:hazmat_boots"
-								}
-							]
+							value: "gtceu:ppe_armor"
 						}
 					}
 					optional_task: true

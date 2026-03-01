@@ -1022,6 +1022,8 @@
 				"{gto.uv.quests.063FEB76DD30E9B3.description2}"
 				""
 				"[\"\", {\"translate\": \"gto.uv.quests.063FEB76DD30E9B3.description3.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"0AD0174C98673F5B\"}, \"translate\": \"gto.uv.quests.063FEB76DD30E9B3.description3.rich_text1\"}]"
+				""
+				"{gto.uv.quests.063FEB76DD30E9B3.description4}"
 			]
 			id: "063FEB76DD30E9B3"
 			shape: "gear"
