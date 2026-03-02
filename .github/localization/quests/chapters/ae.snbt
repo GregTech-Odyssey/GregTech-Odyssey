@@ -935,14 +935,6 @@
 			y: 11.5d
 		}
 		{
-			height: 1.0d
-			image: "gtocore:item/circuit/suprachronal_ev"
-			rotation: 0.0d
-			width: 1.0d
-			x: -3.5d
-			y: 21.5d
-		}
-		{
 			dependency: "28C9BF5C59F5F723"
 			height: 2.0d
 			image: "gtocore:item/circuit/suprachronal_lv"
@@ -1759,6 +1751,12 @@
 				{
 					id: "1949328EC7B7239A"
 					item: "gtocore:me_storage_access_hatch"
+					type: "item"
+				}
+				{
+					id: "72BA992FC8C681C4"
+					item: "gtocore:me_bigint_storage_access_hatch_replacer"
+					optional_task: true
 					type: "item"
 				}
 			]
@@ -4320,8 +4318,8 @@
 			id: "79CA845FB37A8FDC"
 			subtitle: "{gto.ae.quests.79CA845FB37A8FDC.subtitle}"
 			tasks: [{
-				id: "660A9ADB6EF95A29"
-				item: "gtocore:me_pattern_content_sort_machine"
+				id: "5C34096627947ED2"
+				item: "gtocore:pattern_content_access_terminal"
 				type: "item"
 			}]
 			x: -3.0d
@@ -4439,6 +4437,7 @@
 				"2A893BFDB41B7CFC"
 				"354F44C38AF0268D"
 				"50158929D20CC96E"
+				"3DED3C8D0C72214F"
 			]
 			dependency_requirement: "one_completed"
 			id: "44B2AB98840349D2"
@@ -4514,12 +4513,21 @@
 				"430034AB98D8453B"
 			]
 			description: ["{gto.ae.quests.032F201D040AADE2.description0}"]
+			icon: "gtocore:me_io_storage_access_hatch"
 			id: "032F201D040AADE2"
-			tasks: [{
-				id: "170E5C2BA1490DBC"
-				item: "gtocore:me_io_storage_access_hatch"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "170E5C2BA1490DBC"
+					item: "gtocore:me_io_storage_access_hatch"
+					type: "item"
+				}
+				{
+					id: "3059CE1A0D410321"
+					item: "gtocore:me_io_port_storage_access_hatch_replacer"
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: -1.0d
 			y: 13.5d
 		}
@@ -4610,7 +4618,11 @@
 				"0A71F8193A3A39AE"
 				"50158929D20CC96E"
 			]
-			description: ["{gto.ae.quests.3DED3C8D0C72214F.description0}"]
+			description: [
+				"{gto.ae.quests.3DED3C8D0C72214F.description0}"
+				""
+				"{gto.ae.quests.3DED3C8D0C72214F.description1}"
+			]
 			hide_dependency_lines: true
 			id: "3DED3C8D0C72214F"
 			tasks: [{

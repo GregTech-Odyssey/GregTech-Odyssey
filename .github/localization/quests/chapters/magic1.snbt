@@ -4396,6 +4396,7 @@
 		}
 		{
 			dependencies: ["502826CBF91585C1"]
+			description: ["[\"\", {\"translate\": \"gto.magic1.quests.3100458952FC0673.description0.rich_text0\"}, {\"underlined\": \"True\", \"color\": \"yellow\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"4331EEF3BA9799FD\"}, \"translate\": \"gto.magic1.quests.3100458952FC0673.description0.rich_text1\"}, {\"translate\": \"gto.magic1.quests.3100458952FC0673.description0.rich_text2\"}]"]
 			id: "3100458952FC0673"
 			subtitle: "{gto.magic1.quests.3100458952FC0673.subtitle}"
 			tasks: [{
@@ -4425,6 +4426,8 @@
 				"{gto.magic1.quests.502826CBF91585C1.description13}"
 				"{gto.magic1.quests.502826CBF91585C1.description14}"
 				"{gto.magic1.quests.502826CBF91585C1.description15}"
+				""
+				"{gto.magic1.quests.502826CBF91585C1.description16}"
 			]
 			id: "502826CBF91585C1"
 			min_width: 250
@@ -4552,6 +4555,7 @@
 						]
 					}
 				}
+				title: "{gto.magic1.quests.502826CBF91585C1.tasks.34780BF2AE9956AA.title}"
 				type: "item"
 			}]
 			title: "{gto.magic1.quests.502826CBF91585C1.title}"

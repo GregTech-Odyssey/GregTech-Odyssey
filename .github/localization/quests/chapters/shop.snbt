@@ -78,6 +78,7 @@
 						internalCurrentPower: 20000.0d
 					}
 				}
+				team_reward: false
 				type: "item"
 			}]
 			tasks: [{
@@ -232,6 +233,7 @@
 						internalCurrentPower: 20000.0d
 					}
 				}
+				team_reward: false
 				type: "item"
 			}]
 			tasks: [{
@@ -334,11 +336,13 @@
 						}
 					}
 					only_one: true
+					team_reward: false
 					type: "item"
 				}
 				{
 					id: "3C0FBB91ECFD6303"
 					item: "constructionwand:core_angel"
+					team_reward: false
 					type: "item"
 				}
 			]
@@ -530,6 +534,7 @@
 				}
 				id: "563031085CE11738"
 				table_id: 6074492011312888839L
+				team_reward: false
 				title: "{gto.shop.quests.24A1AC1F3A2BD4CB.rewards.563031085CE11738.title}"
 				type: "all_table"
 			}]
@@ -748,6 +753,7 @@
 						RepairCost: 1
 					}
 				}
+				team_reward: false
 				type: "item"
 			}]
 			tasks: [{
@@ -787,6 +793,7 @@
 			description: ["{gto.shop.quests.742D435913111476.description0}"]
 			icon: "gtocore:gto_overseer_coke_lv"
 			id: "742D435913111476"
+			invisible: true
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "795C0F8F43DBBBE7"

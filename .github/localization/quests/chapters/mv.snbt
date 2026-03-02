@@ -941,31 +941,37 @@
 				{
 					id: "7385D5E65ED52B73"
 					item: "gtocore:mv_semi_fluid"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "5BE776F4BA8F62AB"
 					item: "gtocore:mv_thermal_generator"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "32EB43ED4A7F4B0C"
 					item: "gtocore:mv_wind_mill_turbine"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "4CE6900DE345E137"
 					item: "gtceu:mv_combustion"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "2FF817ACC04575E1"
 					item: "gtceu:mv_gas_turbine"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "0D9FF06257B4F397"
 					item: "gtceu:mv_steam_turbine"
+					optional_task: true
 					type: "item"
 				}
 			]

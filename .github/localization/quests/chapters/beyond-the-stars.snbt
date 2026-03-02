@@ -1740,7 +1740,10 @@
 			y: 11.0d
 		}
 		{
-			dependencies: ["1E239C34C36FAD60"]
+			dependencies: [
+				"0C6A00536686D9F5"
+				"251002F2103BDA84"
+			]
 			description: ["{gto.beyond-the-stars.quests.56408F9F9ACD204D.description0}"]
 			hide_dependency_lines: true
 			id: "56408F9F9ACD204D"
