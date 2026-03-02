@@ -4384,12 +4384,20 @@
 		}
 		{
 			dependencies: ["5FB36C788008C907"]
+			icon: "gtocore:wilden_essence_bucket"
 			id: "4CD0D7F570CCE809"
-			tasks: [{
-				id: "08C244239FBF63CA"
-				item: "gtocore:wilden_essence_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "08C244239FBF63CA"
+					item: "gtocore:wilden_essence_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "745FFEDFDDE08EF1"
+					type: "checkmark"
+				}
+			]
 			title: "{gto.magic1.quests.4CD0D7F570CCE809.title}"
 			x: 15.5d
 			y: 5.5d

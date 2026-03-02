@@ -441,13 +441,21 @@
 		}
 		{
 			dependencies: ["06099A423968D6E0"]
+			icon: "gtocore:bacterial_growth_medium_bucket"
 			id: "7A12577E23FC07A1"
 			shape: "hexagon"
-			tasks: [{
-				id: "2D515B6F4FADC217"
-				item: "gtocore:bacterial_growth_medium_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2D515B6F4FADC217"
+					item: "gtocore:bacterial_growth_medium_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "489DB3163CDA095D"
+					type: "checkmark"
+				}
+			]
 			x: -6.0d
 			y: -2.0d
 		}
@@ -523,15 +531,23 @@
 				"747599D690EADE56"
 				"7651697F32169E49"
 			]
+			icon: "gtocore:pluripotency_induction_gene_therapy_fluid_bucket"
 			id: "59864AA3CB69A3CF"
 			shape: "hexagon"
 			size: 1.5d
 			subtitle: "{gto.zpm.quests.59864AA3CB69A3CF.subtitle}"
-			tasks: [{
-				id: "129F506D7D108336"
-				item: "gtocore:pluripotency_induction_gene_therapy_fluid_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "129F506D7D108336"
+					item: "gtocore:pluripotency_induction_gene_therapy_fluid_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "CC3CBE5EE11D101C"
+					type: "checkmark"
+				}
+			]
 			x: -4.0d
 			y: 4.0d
 		}
@@ -542,13 +558,21 @@
 				""
 				"{gto.zpm.quests.2C79D433651D795C.description1}"
 			]
+			icon: "gtceu:sterilized_growth_medium_bucket"
 			id: "2C79D433651D795C"
 			shape: "hexagon"
-			tasks: [{
-				id: "776EC25032BCC4A6"
-				item: "gtceu:sterilized_growth_medium_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "776EC25032BCC4A6"
+					item: "gtceu:sterilized_growth_medium_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "10A8189C15D49F38"
+					type: "checkmark"
+				}
+			]
 			x: -2.0d
 			y: 4.0d
 		}
@@ -953,12 +977,20 @@
 		{
 			dependencies: ["608F56E6A187940C"]
 			hide_dependency_lines: true
+			icon: "gtceu:mutagen_bucket"
 			id: "0099AE8ACBB72951"
-			tasks: [{
-				id: "270877B95A714083"
-				item: "gtceu:mutagen_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "270877B95A714083"
+					item: "gtceu:mutagen_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "E99B704D29FC04D4"
+					type: "checkmark"
+				}
+			]
 			x: -7.0d
 			y: 6.0d
 		}

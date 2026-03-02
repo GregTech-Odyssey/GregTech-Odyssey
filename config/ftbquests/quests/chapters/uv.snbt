@@ -771,12 +771,20 @@
 				"你可能要考虑设计处理循环产线"
 			]
 			hide_dependency_lines: true
+			icon: "gtocore:biohmediumsterilized_bucket"
 			id: "3827DED8E3795712"
-			tasks: [{
-				id: "6412C2554C262EF9"
-				item: "gtocore:biohmediumsterilized_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "6412C2554C262EF9"
+					item: "gtocore:biohmediumsterilized_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "869A9BF94FA9D1C4"
+					type: "checkmark"
+				}
+			]
 			x: 3.0d
 			y: 5.0d
 		}
@@ -799,13 +807,21 @@
 				"788C1B4BAD639A77"
 				"0BC75C09E796F8ED"
 			]
+			icon: "gtocore:extreme_temperature_water_bucket"
 			id: "3B3DC807C949F0D8"
 			subtitle: "生物恒温环境"
-			tasks: [{
-				id: "5BAB7C98C147BE6E"
-				item: "gtocore:extreme_temperature_water_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "5BAB7C98C147BE6E"
+					item: "gtocore:extreme_temperature_water_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "EA3094C15A7606D1"
+					type: "checkmark"
+				}
+			]
 			x: 3.0d
 			y: 8.5d
 		}
@@ -836,13 +852,21 @@
 		}
 		{
 			dependencies: ["39289365D111777C"]
+			icon: "gtocore:ph_neutral_water_bucket"
 			id: "0BC75C09E796F8ED"
 			subtitle: "[H+]=1e-7"
-			tasks: [{
-				id: "46D0A78B469088AC"
-				item: "gtocore:ph_neutral_water_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "46D0A78B469088AC"
+					item: "gtocore:ph_neutral_water_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "38D5C467996756DB"
+					type: "checkmark"
+				}
+			]
 			x: 1.0d
 			y: 8.5d
 		}
@@ -850,12 +874,20 @@
 			dependencies: ["256F90AFB461107E"]
 			description: ["特种工程塑料"]
 			hide_dependency_lines: true
+			icon: "gtocore:polyetheretherketone_bucket"
 			id: "7F87ACCCD8537D94"
-			tasks: [{
-				id: "18986FC52E563AD3"
-				item: "gtocore:polyetheretherketone_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "18986FC52E563AD3"
+					item: "gtocore:polyetheretherketone_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "946293EB738CCFAB"
+					type: "checkmark"
+				}
+			]
 			x: 11.0d
 			y: -0.5d
 		}
@@ -917,12 +949,20 @@
 		{
 			dependencies: ["148FCA7FF10773DE"]
 			hide_dependency_lines: true
+			icon: "gtocore:mutated_living_solder_bucket"
 			id: "70ADA9EF977D0FF7"
-			tasks: [{
-				id: "4127D4DD796D0F97"
-				item: "gtocore:mutated_living_solder_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4127D4DD796D0F97"
+					item: "gtocore:mutated_living_solder_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "BC3AD4AA839D4796"
+					type: "checkmark"
+				}
+			]
 			x: 7.0d
 			y: 12.5d
 		}
@@ -1045,13 +1085,21 @@
 				""
 				"那就给他们洗个澡吧！&b过氧化氢&r的强氧化性和&6硫酸&r的酸性环境能重新激发它们的活力！"
 			]
+			icon: "gtocore:piranha_solution_bucket"
 			id: "66473B14503626FD"
 			subtitle: "洗个澡澡！"
-			tasks: [{
-				id: "4347FE4A735277A9"
-				item: "gtocore:piranha_solution_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4347FE4A735277A9"
+					item: "gtocore:piranha_solution_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "FDCEA030752DD6D8"
+					type: "checkmark"
+				}
+			]
 			x: -5.0d
 			y: 14.5d
 		}
@@ -1206,12 +1254,20 @@
 		{
 			dependencies: ["256F90AFB461107E"]
 			hide_dependency_lines: true
+			icon: "gtocore:cycloparaphenylene_bucket"
 			id: "4873D7E77C2B7EB8"
-			tasks: [{
-				id: "20410913D72136FB"
-				item: "gtocore:cycloparaphenylene_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "20410913D72136FB"
+					item: "gtocore:cycloparaphenylene_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "92F28AA8A3C6A852"
+					type: "checkmark"
+				}
+			]
 			x: -7.0d
 			y: 8.0d
 		}
