@@ -468,7 +468,7 @@
 					type: "item"
 				}
 				{
-					id: "E704679E9CF8A515"
+					id: "1610A24DB82ABF27"
 					type: "checkmark"
 				}
 			]
@@ -490,7 +490,7 @@
 					type: "item"
 				}
 				{
-					id: "FEAEDD9D887E5C03"
+					id: "20B675934CD1B78E"
 					type: "checkmark"
 				}
 			]
@@ -623,7 +623,7 @@
 					type: "item"
 				}
 				{
-					id: "99A9F29815B74405"
+					id: "4F7D4C110B32FF5C"
 					type: "checkmark"
 				}
 			]
@@ -829,7 +829,7 @@
 					type: "item"
 				}
 				{
-					id: "B5EC950B3FFE5338"
+					id: "475FA4803F27F5B3"
 					type: "checkmark"
 				}
 			]
@@ -951,7 +951,7 @@
 					type: "item"
 				}
 				{
-					id: "B38E82EABB5BD07F"
+					id: "2BCC1F883F6CECAB"
 					type: "checkmark"
 				}
 			]
@@ -1125,7 +1125,7 @@
 					type: "item"
 				}
 				{
-					id: "F5080C8167093B63"
+					id: "53336167093E19EE"
 					type: "checkmark"
 				}
 			]
@@ -1143,7 +1143,7 @@
 					type: "item"
 				}
 				{
-					id: "8B6E0883F72E5178"
+					id: "75B6525C718057F1"
 					type: "checkmark"
 				}
 			]
@@ -1354,7 +1354,7 @@
 					type: "item"
 				}
 				{
-					id: "A6258C75693A54BF"
+					id: "03576B3799A340CD"
 					type: "checkmark"
 				}
 			]
@@ -1395,7 +1395,7 @@
 					type: "item"
 				}
 				{
-					id: "E8772957FC85336E"
+					id: "25DAC6A15D829AA7"
 					type: "checkmark"
 				}
 			]
@@ -1414,7 +1414,7 @@
 					type: "item"
 				}
 				{
-					id: "C8FCF61BA4170A61"
+					id: "3433466AAA54D83D"
 					type: "checkmark"
 				}
 			]
@@ -1433,7 +1433,7 @@
 					type: "item"
 				}
 				{
-					id: "BD7086970975535B"
+					id: "4EFF31A368795354"
 					type: "checkmark"
 				}
 			]
@@ -1468,7 +1468,7 @@
 					type: "item"
 				}
 				{
-					id: "829C82D5372F3F34"
+					id: "135DE3697C9C501D"
 					type: "checkmark"
 				}
 			]
@@ -1544,7 +1544,7 @@
 					type: "item"
 				}
 				{
-					id: "F8A4BDDB90596C84"
+					id: "088A8DE0043197AC"
 					type: "checkmark"
 				}
 			]
@@ -1565,7 +1565,7 @@
 					type: "item"
 				}
 				{
-					id: "E6B323F156988C24"
+					id: "27AB38D643413FF2"
 					type: "checkmark"
 				}
 			]
@@ -1719,16 +1719,19 @@
 				{
 					id: "10A049F6B720C0B2"
 					item: "gtceu:neon_bucket"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "671D37985CA97721"
 					item: "gtceu:krypton_bucket"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "1123E9513445EB5C"
 					item: "gtceu:xenon_bucket"
+					optional_task: true
 					type: "item"
 				}
 			]
@@ -1929,7 +1932,7 @@
 					type: "item"
 				}
 				{
-					id: "DA48597898B64EFB"
+					id: "44ED3008271A164A"
 					type: "checkmark"
 				}
 			]
@@ -2039,7 +2042,7 @@
 					type: "item"
 				}
 				{
-					id: "D74B868885C5A4C1"
+					id: "38EA9A1DDBA0968C"
 					type: "checkmark"
 				}
 			]
@@ -2152,11 +2155,13 @@
 				{
 					id: "56C39CCE7E576CC4"
 					item: "gtceu:chlorine_bucket"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "7C8982F27FB60C46"
 					item: "gtceu:fluorine_bucket"
+					optional_task: true
 					type: "item"
 				}
 			]
@@ -2211,16 +2216,19 @@
 				{
 					id: "4068B8C86678C11E"
 					item: "gtceu:charcoal_byproducts_bucket"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "3CE503B87A0B4CD4"
 					item: "gtceu:methane_bucket"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "534D12A19EB1346B"
 					item: "gtceu:benzene_bucket"
+					optional_task: true
 					type: "item"
 				}
 			]
@@ -2596,7 +2604,7 @@
 					type: "item"
 				}
 				{
-					id: "A67C798E94DE2FCD"
+					id: "1325768F83C2B389"
 					type: "checkmark"
 				}
 			]
@@ -2615,7 +2623,7 @@
 					type: "item"
 				}
 				{
-					id: "DC10A1B738778473"
+					id: "492ABEAEDBF35ABE"
 					type: "checkmark"
 				}
 			]
@@ -2660,7 +2668,7 @@
 					type: "item"
 				}
 				{
-					id: "FD1A407C1AC1BA2D"
+					id: "718C90D9B627DBAA"
 					type: "checkmark"
 				}
 			]
@@ -2679,7 +2687,7 @@
 					type: "item"
 				}
 				{
-					id: "E7EF7DD7E712C234"
+					id: "705E1A375390E167"
 					type: "checkmark"
 				}
 			]
@@ -2707,7 +2715,7 @@
 					type: "item"
 				}
 				{
-					id: "B1BA94A13E01919D"
+					id: "2AE17171B4FA1131"
 					type: "checkmark"
 				}
 			]
