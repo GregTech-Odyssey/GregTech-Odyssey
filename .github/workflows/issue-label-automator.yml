@@ -1,0 +1,79 @@
+name: Issue Label Automator
+
+on:
+  issues:
+    types: [opened, edited]
+
+jobs:
+  add-labels:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    steps:
+      - name: Parse issue form and add labels
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const issue = context.payload.issue;
+            const body = issue.body || '';
+
+            // Mod labels mapping
+            const modLabels = {
+              'AE2': 'Mod: AE2',
+              'GTM': 'Mod: GTM',
+              'GTOCore': 'Mod: GTOCore'
+            };
+
+            // Priority label
+            const priorityLabel = '重要 major';
+
+            // Get current labels
+            const currentLabels = issue.labels.map(l => l.name);
+            const labelsToAdd = [];
+            const labelsToRemove = [];
+
+            // Parse mod selection checkboxes
+            for (const [option, label] of Object.entries(modLabels)) {
+              // Check if the checkbox for this mod is checked
+              // Form checkboxes appear as `- [x] OptionLabel` in the body
+              const checkboxRegex = new RegExp(`- \\[x\\]\\s*${option}\\s*$`, 'mi');
+              const isChecked = checkboxRegex.test(body);
+
+              if (isChecked && !currentLabels.includes(label)) {
+                labelsToAdd.push(label);
+              } else if (!isChecked && currentLabels.includes(label)) {
+                labelsToRemove.push(label);
+              }
+            }
+
+            // Parse priority checkbox
+            const priorityRegex = /- \[x\]\s*重要 major/mi;
+            const isPriorityChecked = priorityRegex.test(body);
+
+            if (isPriorityChecked && !currentLabels.includes(priorityLabel)) {
+              labelsToAdd.push(priorityLabel);
+            } else if (!isPriorityChecked && currentLabels.includes(priorityLabel)) {
+              labelsToRemove.push(priorityLabel);
+            }
+
+            // Add labels
+            if (labelsToAdd.length > 0) {
+              await github.rest.issues.addLabels({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issue.number,
+                labels: labelsToAdd
+              });
+            }
+
+            // Remove labels
+            if (labelsToRemove.length > 0) {
+              for (const label of labelsToRemove) {
+                await github.rest.issues.removeLabel({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue_number: issue.number,
+                  name: label
+                });
+              }
+            }
