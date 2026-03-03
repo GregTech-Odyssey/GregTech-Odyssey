@@ -1,1 +1,8 @@
 blank_issues_enabled: true
+contact_links:
+  - name: "Discord Community / Discord 社区"
+    url: https://discord.gg/xxxxx
+    about: "Join our Discord server for community discussions and quick help. / 加入我们的 Discord 服务器进行社区讨论和快速求助。"
+  - name: "FTB Quests Documentation / FTB 任务文档"
+    url: https://ftbwiki.org/FTB_Quests
+    about: "For general FTB Quests related questions. / 适用于一般 FTB 任务相关问题。"
