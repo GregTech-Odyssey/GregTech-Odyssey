@@ -13,6 +13,16 @@ body:
     validations:
       required: true
   - type: "dropdown"
+    id: "priority"
+    attributes:
+      label: "Priority / 优先级"
+      description: "If you are sure this bug seriously affects gameplay (game crash, server explosion, main storyline blocked, etc.), please change the priority here. If you are not sure or unclear, please do not change it. / 如果你确定这个 bug 严重影响游戏（游戏崩溃、炸服、主线无法推进等）请修改这里的优先级。如果不确定或不清楚，请不要更改。"
+      options:
+        - "默认 default"
+        - "重要 major"
+    validations:
+      required: true
+  - type: "dropdown"
     id: "thermos"
     attributes:
       label: "Play Environment / 游戏环境"
@@ -45,16 +55,6 @@ body:
       label: "Suggested Resolution / 建议解决方案"
       description: "Provide a concise description of the issue and a potential solution in one or two sentences. / 用一到两句话简洁描述问题及可能的解决方案。"
       placeholder: "Example: The diamond pickaxe could not be crafted due to an error in the recipe configuration. / 示例：由于配方配置错误，无法制作钻石镐。"
-    validations:
-      required: true
-  - type: "dropdown"
-    id: "priority"
-    attributes:
-      label: "Priority / 优先级"
-      description: "If you are sure this bug seriously affects gameplay (game crash, server explosion, main storyline blocked, etc.), please change the priority here. If you are not sure or unclear, please do not change it. / 如果你确定这个 bug 严重影响游戏（游戏崩溃、炸服、主线无法推进等）请修改这里的优先级。如果不确定或不清楚，请不要更改。"
-      options:
-        - "默认 default"
-        - "重要 major"
     validations:
       required: true
   - type: "checkboxes"
