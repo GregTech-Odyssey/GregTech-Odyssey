@@ -2,7 +2,7 @@ name: Check GTO Version in Bug Reports
 
 on:
   issues:
-    types: [edited, labeled]
+    types: [opened, edited]
 
 permissions:
   contents: read
@@ -213,7 +213,7 @@ jobs:
             }
             
             // 从 issue 正文中提取版本字段
-            const versionRegex = /GTO Pack Version \/ GTO包版本[\s\S]*?([0-9]+\.[0-9]+\.[0-9]+(?:-[a-zA-Z0-9]+)?)/;
+            const versionRegex = /GTO Pack Version \/ GTO ?包版本[\s\S]*?([0-9]+\.[0-9]+\.[0-9]+(?:-[a-zA-Z0-9]+)?)/;
             const match = issueBody.match(versionRegex);
             
             if (!match) {
