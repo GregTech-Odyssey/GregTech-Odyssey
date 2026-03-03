@@ -46,13 +46,15 @@ jobs:
               }
             }
 
-            // Parse priority checkbox
-            const priorityRegex = /- \[x\]\s*重要 major/mi;
-            const isPriorityChecked = priorityRegex.test(body);
+            // Parse priority dropdown
+            // Dropdown appears as `**Priority / 优先级:** 重要 major` or `**Priority / 优先级:** 默认优先级 / Default Priority`
+            const priorityMatch = body.match(/\*\*Priority \/ 优先级：\*\*\s*(.+)/);
+            const priorityValue = priorityMatch ? priorityMatch[1].trim() : '';
+            const isPriorityMajor = priorityValue === '重要 major';
 
-            if (isPriorityChecked && !currentLabels.includes(priorityLabel)) {
+            if (isPriorityMajor && !currentLabels.includes(priorityLabel)) {
               labelsToAdd.push(priorityLabel);
-            } else if (!isPriorityChecked && currentLabels.includes(priorityLabel)) {
+            } else if (!isPriorityMajor && currentLabels.includes(priorityLabel)) {
               labelsToRemove.push(priorityLabel);
             }
 

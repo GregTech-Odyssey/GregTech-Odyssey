@@ -23,23 +23,6 @@ body:
         - "Both / 同时"
     validations:
       required: true
-  - type: "checkboxes"
-    id: "priority"
-    attributes:
-      label: "Priority (Optional) / 优先级（可选）"
-      description: "If you think this bug is important, check the box. If you're not sure or think it's not important, leave it unchecked. / 如果你觉得这个 bug 很重要，请勾选。如果你不确定或认为不重要，则不勾选。"
-      options:
-        - label: "重要 major - 这个 bug 严重影响游戏体验，需要优先处理 / This bug seriously affects gameplay and needs priority attention"
-          required: false
-  - type: "checkboxes"
-    id: "mod_selection"
-    attributes:
-      label: "Related Mod (Optional) / 相关模组（可选）"
-      description: "If you are sure which mod(s) are related to this issue, please select. If you are not sure, you can leave it unchecked. / 如果你确定某个（或多个）模组与这个问题相关，请勾选。如果不确定，可以不勾选。"
-      options:
-        - label: "AE2"
-        - label: "GTM"
-        - label: "GTOCore"
   - type: "textarea"
     id: "expectation"
     attributes:
@@ -64,6 +47,25 @@ body:
       placeholder: "Example: The diamond pickaxe could not be crafted due to an error in the recipe configuration. / 示例：由于配方配置错误，无法制作钻石镐。"
     validations:
       required: true
+  - type: "dropdown"
+    id: "priority"
+    attributes:
+      label: "Priority / 优先级"
+      description: "If you are sure this bug seriously affects gameplay (game crash, server explosion, main storyline blocked, etc.), please change the priority here. If you are not sure or unclear, please do not change it. / 如果你确定这个 bug 严重影响游戏（游戏崩溃、炸服、主线无法推进等）请修改这里的优先级。如果不确定或不清楚，请不要更改。"
+      options:
+        - "默认 default"
+        - "重要 major"
+    validations:
+      required: true
+  - type: "checkboxes"
+    id: "mod_selection"
+    attributes:
+      label: "Related Mod (Optional) / 相关模组（可选）"
+      description: "If you are sure which mod(s) are related to this issue, please check the box. If you are not sure or unclear, please do not check it. / 如果你确定某个（或多个）模组与这个问题相关，请勾选。如果不确定或不清楚，请不要勾选。"
+      options:
+        - label: "AE2"
+        - label: "GTM"
+        - label: "GTOCore"
   - type: "checkboxes"
     id: "final"
     attributes:

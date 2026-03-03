@@ -12,15 +12,6 @@ body:
       placeholder: "Example: 0.0.8 / 示例：0.0.8"
     validations:
       required: true
-  - type: "checkboxes"
-    id: "mod_selection"
-    attributes:
-      label: "Related Mod (Optional) / 相关模组（可选）"
-      description: "If you are sure which mod(s) are related to this balance issue, please select. If you are not sure, you can leave it unchecked. / 如果你确定某个（或多个）模组与这个平衡性问题相关，请勾选。如果不确定，可以不勾选。"
-      options:
-        - label: "AE2"
-        - label: "GTM"
-        - label: "GTOCore"
   - type: "textarea"
     id: "description"
     attributes:
@@ -55,6 +46,15 @@ body:
         3. [impact on player experience]
     validations:
       required: true
+  - type: "checkboxes"
+    id: "mod_selection"
+    attributes:
+      label: "Related Mod (Optional) / 相关模组（可选）"
+      description: "If you are sure which mod(s) are related to this balance issue, please select. If you are not sure, you can leave it unchecked. / 如果你确定某个（或多个）模组与这个平衡性问题相关，请勾选。如果不确定，可以不勾选。"
+      options:
+        - label: "AE2"
+        - label: "GTM"
+        - label: "GTOCore"
   - type: "checkboxes"
     id: "final"
     attributes:
