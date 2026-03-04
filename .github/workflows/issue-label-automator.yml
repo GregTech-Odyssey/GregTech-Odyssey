@@ -46,16 +46,19 @@ jobs:
               }
             }
 
-            // Parse priority dropdown
+            // Parse priority dropdown (only on 'opened' event, not on 'edited')
             // Dropdown appears as `### Priority / 优先级` followed by the selected value on the next line
-            const priorityMatch = body.match(/### Priority \/ 优先级\s*\n*\s*(.+)/);
-            const priorityValue = priorityMatch ? priorityMatch[1].trim() : '';
-            const isPriorityMajor = priorityValue === 'Major / 重要';
+            const action = context.payload.action;
+            if (action === 'opened') {
+              const priorityMatch = body.match(/### Priority \/ 优先级\s*\n*\s*(.+)/);
+              const priorityValue = priorityMatch ? priorityMatch[1].trim() : '';
+              const isPriorityMajor = priorityValue === 'Major / 重要';
 
-            if (isPriorityMajor && !currentLabels.includes(priorityLabel)) {
-              labelsToAdd.push(priorityLabel);
-            } else if (!isPriorityMajor && currentLabels.includes(priorityLabel)) {
-              labelsToRemove.push(priorityLabel);
+              if (isPriorityMajor && !currentLabels.includes(priorityLabel)) {
+                labelsToAdd.push(priorityLabel);
+              } else if (!isPriorityMajor && currentLabels.includes(priorityLabel)) {
+                labelsToRemove.push(priorityLabel);
+              }
             }
 
             // Add labels
