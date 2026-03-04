@@ -1,14 +1,15 @@
-name: "Mod Request"
+name: "Mod Request / 模组请求"
 description: "Submit a request to add a new mod to the modpack. / 提交向模组包添加新模组的请求。"
 labels:
   - "增强 enhancement"
+  - "Status: 待处理 triage"
 body:
   - type: "input"
     id: "version"
     attributes:
-      label: "GTO Pack Version / GTO包版本"
+      label: "GTO Pack Version / GTO 包版本"
       description: "Please specify the version of the pack you are using. / 请指定您使用的包版本。"
-      placeholder: "Example: 0.0.8 / 示例：0.0.8"
+      placeholder: "Example: 0.5.0 / 示例：0.5.0"
     validations:
       required: true
   - type: "input"
@@ -16,7 +17,7 @@ body:
     attributes:
       label: "Mod Name / 模组名称"
       description: "Please provide the name of the mod you want to add. / 请提供您想要添加的模组名称。"
-      placeholder: "Example: Applied Energistics 2 / 示例：应用能源2"
+      placeholder: "Example: Applied Energistics 2 / 示例：应用能源 2"
     validations:
       required: true
   - type: "input"
@@ -74,5 +75,5 @@ body:
           required: true
         - label: "I understand that not all mods can be added due to compatibility, balance, or other concerns. / 我理解由于兼容性、平衡性或其他原因，并非所有模组都能被添加。"
           required: true
-        - label: "I have checked that this mod is compatible with the current Minecraft version. / 我已检查过这个模组与当前Minecraft版本兼容。"
-          required: true 
+        - label: "I have checked that this mod is compatible with the current Minecraft version. / 我已检查过这个模组与当前 Minecraft 版本兼容。"
+          required: true

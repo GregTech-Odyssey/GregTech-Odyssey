@@ -1,0 +1,171 @@
+{
+  "comment": "只是现行标签的一份拷贝,用作记录,与仓库标签并无同步关系",
+  "$schema": "https://raw.githubusercontent.com/marketplace/actions/github-label-sync/label-schema.json",
+  "labels": [
+    {
+      "name": "紧急 critical",
+      "color": "B60205",
+      "description": "最高优先级，严重影响游戏，需要立即处理 | Highest priority, game-breaking, requires immediate attention"
+    },
+    {
+      "name": "重要 major",
+      "color": "D73A4A",
+      "description": "重要问题，需要关注 | Important issue, needs attention"
+    },
+    {
+      "name": "可选 optional",
+      "color": "d4c5f9",
+      "description": "最低优先级，有更好没有也行 | Lowest priority, nice to have"
+    },
+    {
+      "name": "构想 wishlist",
+      "color": "d4c5f9",
+      "description": "尚未纳入当前开发计划的构想 | Ideas not currently planned in the development roadmap"
+    },
+    {
+      "name": "错误 bug",
+      "color": "d73a4a",
+      "description": "不正常工作 | Something isn't working"
+    },
+    {
+      "name": "增强 enhancement",
+      "color": "a2eeef",
+      "description": "新功能或请求 | New feature or request"
+    },
+    {
+      "name": "文档 documentation",
+      "color": "0075ca",
+      "description": "文档的改进或补充 | Documentation improvements"
+    },
+    {
+      "name": "配置 config",
+      "color": "c33fae",
+      "description": "配置改动 | Configuration changes"
+    },
+    {
+      "name": "美工 artwork",
+      "color": "5319e7",
+      "description": "需要美工 | Need artwork"
+    },
+    {
+      "name": "WIKI wiki",
+      "color": "989452",
+      "description": "Wiki 相关 | Related to wiki"
+    },
+    {
+      "name": "Status: 待处理 triage",
+      "color": "E4E669",
+      "description": "等待维护者初步处理 | Awaiting initial review"
+    },
+    {
+      "name": "Status: 待认领 ready for dev",
+      "color": "C2E0C6",
+      "description": "已确认问题，等待认领 | Confirmed, awaiting assignment"
+    },
+    {
+      "name": "Status: 待补充 needs info",
+      "color": "FBCA04",
+      "description": "当前问题缺少必要信息，需要补充后才能处理 | Requires more information before it can be processed"
+    },
+    {
+      "name": "Status: 正在工作 in progress",
+      "color": "0E8A16",
+      "description": "进行中 | Work in progress"
+    },
+    {
+      "name": "Status: 已完成 completed",
+      "color": "c39a52",
+      "description": "已完成 | Completed"
+    },
+    {
+      "name": "Status: 设计如此 by design",
+      "color": "bfd4f2",
+      "description": "设计如此，不是缺陷 | Intended behavior"
+    },
+    {
+      "name": "Status: 永不修复 wontfix",
+      "color": "B60205",
+      "description": "永不修复 | Never fixed"
+    },
+    {
+      "name": "Status: 重复 duplicate",
+      "color": "cfd3d7",
+      "description": "重复的问题或拉取请求 | Duplicate issue or pull request"
+    },
+    {
+      "name": "Status: 无效 invalid",
+      "color": "e4e669",
+      "description": "无效问题 | Invalid issue"
+    },
+    {
+      "name": "不要合并 do not merge",
+      "color": "760E1B",
+      "description": "暂缓合并 | Hold off on merging"
+    },
+    {
+      "name": "随更新合并 wait next update",
+      "color": "532979",
+      "description": "与下一次计划更新一起合并 | Do not merge until next update"
+    },
+    {
+      "name": "问题 question",
+      "color": "d876e3",
+      "description": "当前问题只是关于项目的疑问 | Only a question about the project"
+    },
+    {
+      "name": "新手友好 good first issue",
+      "color": "7057ff",
+      "description": "适合新手解决 | Good for newcomers"
+    },
+    {
+      "name": "no changelog",
+      "color": "890A3D",
+      "description": "当前问题或提交无需加入 Changelog | No changelog needed"
+    },
+    {
+      "name": "版本过时 outdated version",
+      "color": "ededed",
+      "description": "游戏版本已过时 | Outdated version"
+    },
+    {
+      "name": "格式无效 invalid format",
+      "color": "ededed",
+      "description": "格式无效 | Invalid format"
+    },
+    {
+      "name": "PR welcome",
+      "color": "7d48e4",
+      "description": "欢迎提交 PR | PR welcome"
+    },
+    {
+      "name": "需要帮助 help wanted",
+      "color": "008672",
+      "description": "这个问题或拉取请求需要其他贡献者帮助 / Needs help from other contributors"
+    },
+    {
+      "name": "与核心无关 not-core",
+      "color": "e9a7e7",
+      "description": "与核心无关 | Not related to core"
+    },
+    {
+      "name": "Mod: AE2",
+      "color": "96d361",
+      "description": ""
+    },
+    {
+      "name": "Mod: GTM",
+      "color": "96d361",
+      "description": ""
+    },
+    {
+      "name": "Mod: GTOCore",
+      "color": "96d361",
+      "description": ""
+    },
+    {
+      "name": "任务 quest",
+      "color": "f9d0c4",
+      "description": "任务相关 | Related to quest"
+    }
+  ]
+}
