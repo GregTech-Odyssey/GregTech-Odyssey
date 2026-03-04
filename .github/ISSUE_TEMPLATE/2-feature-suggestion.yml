@@ -48,7 +48,7 @@ body:
     id: "mod_selection"
     attributes:
       label: "Related Mod (Optional) / 相关模组（可选）"
-      description: "If you are sure which mod(s) are related to this feature, please select. If you are not sure, you can leave it unchecked. / 如果你确定某个（或多个）模组与这个特性相关，请勾选。如果不确定，可以不勾选。"
+      description: "If you are sure which mod(s) are related to this feature, please check the box. If you are not sure, please do not check it. / 如果你确定某个（或多个）模组与这个特性相关，请勾选。如果不确定或不清楚，请不要勾选。"
       options:
         - label: "AE2"
         - label: "GTM"
