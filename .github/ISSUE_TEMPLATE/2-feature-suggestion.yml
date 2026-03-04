@@ -1,9 +1,19 @@
-name: "New Feature Suggestion"
-description: "Submit a request for a new feature in the modpack. / 提交模组包的新特性请求。"
+name: "Feature Suggestion"
+description: "Submit a request for a new feature or modification to an existing feature. / 提交新特性请求或修改现有特性的请求。"
 labels:
   - "增强 enhancement"
   - "Status: 待处理 triage"
 body:
+  - type: "dropdown"
+    id: "suggestion_type"
+    attributes:
+      label: "Suggestion Type / 建议类型"
+      description: "Please select the type of your suggestion. / 请选择您的建议类型。"
+      options:
+        - "新功能 / New Feature"
+        - "修改现有功能 / Modify Existing Feature"
+    validations:
+      required: true
   - type: "input"
     id: "version"
     attributes:
@@ -15,21 +25,23 @@ body:
   - type: "textarea"
     id: "description"
     attributes:
-      label: "New Feature Description / 新特性描述"
-      description: "Please provide a detailed description of the new feature you want to add and why it would be beneficial. / 请详细描述您想添加的新特性以及为什么它会有益。"
+      label: "Feature Description / 特性描述"
+      description: "For new features: describe the feature you want to add and why it would be beneficial. For modifications: describe the current feature you want to modify and what changes you want to make. / 新功能：描述您想添加的特性以及为什么它会有益。修改：描述您想要修改的当前特性以及想要进行的更改。"
       placeholder: |
-        I suggest adding a new feature that would [describe feature]. This would help players by [benefit].
-        The feature would be useful because [reason].
+        [For New Feature] I suggest adding [describe feature]. This would help players by [benefit].
+
+        [For Modification] The current feature [describe current feature] works by [how it works]. I propose the following changes: [specific changes]. These changes would improve the feature by [benefit].
     validations:
       required: true
   - type: "textarea"
-    id: "implementation"
+    id: "details"
     attributes:
-      label: "Implementation Details / 实现细节"
-      description: "If you have any specific ideas about how to implement this feature, please share them here. / 如果您对如何实现这个特性有具体想法，请在此分享。"
+      label: "Details / 详情"
+      description: "For new features: provide implementation details if you have any. For modifications: analyze how your changes would affect the feature and related systems. / 新功能：提供实现细节（如有）。修改：分析您的更改将如何影响该特性和相关系统。"
       placeholder: |
-        The feature could be implemented by [specific implementation details].
-        It would require [resources/materials] and would work with [existing systems].
+        [For New Feature] The feature could be implemented by [specific implementation details]. It would require [resources/materials].
+
+        [For Modification] These changes would affect the feature in the following ways: 1. [impact on functionality] 2. [impact on user experience] 3. [impact on related systems].
     validations:
       required: true
   - type: "checkboxes"
