@@ -26,7 +26,10 @@ body:
     id: "description"
     attributes:
       label: "Feature Description / 特性描述"
-      description: "For new features: describe the feature you want to add and why it would be beneficial. For modifications: describe the current feature you want to modify and what changes you want to make. / 新功能：描述您想添加的特性以及为什么它会有益。修改：描述您想要修改的当前特性以及想要进行的更改。"
+      description: |
+        **For New Features / 新功能：** Describe the feature you want to add and why it would be beneficial. / 描述您想添加的特性以及为什么它会有益。
+
+        **For Modifications / 修改：** Describe the current feature you want to modify and what changes you want to make. / 描述您想要修改的当前特性以及想要进行的更改。
       placeholder: |
         [For New Feature] I suggest adding [describe feature]. This would help players by [benefit].
 
@@ -37,7 +40,10 @@ body:
     id: "details"
     attributes:
       label: "Details / 详情"
-      description: "For new features: provide implementation details if you have any. For modifications: analyze how your changes would affect the feature and related systems. / 新功能：提供实现细节（如有）。修改：分析您的更改将如何影响该特性和相关系统。"
+      description: |
+        **For New Features / 新功能：** Provide implementation details if you have any. / 提供实现细节（如有）。
+
+        **For Modifications / 修改：** Analyze how your changes would affect the feature and related systems. / 分析您的更改将如何影响该特性和相关系统。
       placeholder: |
         [For New Feature] The feature could be implemented by [specific implementation details]. It would require [resources/materials].
 
