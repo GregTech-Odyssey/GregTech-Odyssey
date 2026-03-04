@@ -26,7 +26,7 @@ body:
     id: "thermos"
     attributes:
       label: "Play Environment / 游戏环境"
-      description: "Please assist in testing the type of game environment where the issue occurred. / 请协助测试发生问题的游戏环境类型。"
+      description: "Please select the game environment type where you encountered this issue. / 请选择您遇到此问题的游戏环境类型。"
       options:
         - "Single Player / 单人游戏"
         - "Multi Player / 多人游戏"
