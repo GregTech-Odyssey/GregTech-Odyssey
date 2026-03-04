@@ -47,10 +47,10 @@ jobs:
             }
 
             // Parse priority dropdown
-            // Dropdown appears as `**Priority / 优先级:** 重要 major` or `**Priority / 优先级:** 默认 default`
-            const priorityMatch = body.match(/\*\*Priority \/ 优先级：\*\*\s*(.+)/);
+            // Dropdown appears as `### Priority / 优先级` followed by the selected value on the next line
+            const priorityMatch = body.match(/### Priority \/ 优先级\s*\n*\s*(.+)/);
             const priorityValue = priorityMatch ? priorityMatch[1].trim() : '';
-            const isPriorityMajor = priorityValue === '重要 major';
+            const isPriorityMajor = priorityValue === 'Major / 重要';
 
             if (isPriorityMajor && !currentLabels.includes(priorityLabel)) {
               labelsToAdd.push(priorityLabel);

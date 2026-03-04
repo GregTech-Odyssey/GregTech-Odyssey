@@ -1,9 +1,17 @@
-name: "Feature Suggestion"
+name: "Feature Suggestion / 特性建议"
 description: "Submit a request for a new feature or modification to an existing feature. / 提交新特性请求或修改现有特性的请求。"
 labels:
   - "增强 enhancement"
   - "Status: 待处理 triage"
 body:
+  - type: "input"
+    id: "version"
+    attributes:
+      label: "GTO Pack Version / GTO 包版本"
+      description: "Please specify the version of the pack you are using. / 请指定您使用的包版本。"
+      placeholder: "Example: 0.5.0 / 示例：0.5.0"
+    validations:
+      required: true
   - type: "dropdown"
     id: "suggestion_type"
     attributes:
@@ -12,14 +20,6 @@ body:
       options:
         - "新功能 / New Feature"
         - "修改现有功能 / Modify Existing Feature"
-    validations:
-      required: true
-  - type: "input"
-    id: "version"
-    attributes:
-      label: "GTO Pack Version / GTO 包版本"
-      description: "Please specify the version of the pack you are using. / 请指定您使用的包版本。"
-      placeholder: "Example: 0.5.0 / 示例：0.5.0"
     validations:
       required: true
   - type: "textarea"

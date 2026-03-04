@@ -1,4 +1,4 @@
-name: "Report Bug"
+name: "Bug Report / 错误报告"
 description: "Submit a report for a bug. / 提交错误报告。"
 labels:
   - "错误 bug"
@@ -18,8 +18,8 @@ body:
       label: "Priority / 优先级"
       description: "If you are sure this bug seriously affects gameplay (game crash, server explosion, main storyline blocked, etc.), please change the priority here. If you are not sure or unclear, please do not change it. / 如果你确定这个 bug 严重影响游戏（游戏崩溃、炸服、主线无法推进等）请修改这里的优先级。如果不确定或不清楚，请不要更改。"
       options:
-        - "默认 default"
-        - "重要 major"
+        - "Default / 默认"
+        - "Major / 重要"
     validations:
       required: true
   - type: "dropdown"
