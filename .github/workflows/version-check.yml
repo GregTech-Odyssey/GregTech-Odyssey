@@ -206,7 +206,7 @@ jobs:
                 owner: context.repo.owner,
                 repo: context.repo.repo,
                 issue_number: issue.number,
-                labels: ['invalid-format']
+                labels: ['格式无效 invalid format']
               });
               
               return;
@@ -237,7 +237,7 @@ jobs:
                 owner: context.repo.owner,
                 repo: context.repo.repo,
                 issue_number: issue.number,
-                labels: ['invalid-format']
+                labels: ['格式无效 invalid format']
               });
               
               return;
@@ -251,16 +251,16 @@ jobs:
               console.log('Version is within allowed range. No action needed.');
               
               // 如果 issue 被标记为过时版本或无效格式，但现在版本正确，移除这些标签并重新打开 issue
-              const hasOutdatedLabel = issue.labels.some(label => label.name === 'outdated-version');
-              const hasInvalidFormatLabel = issue.labels.some(label => label.name === 'invalid-format');
+              const hasOutdatedLabel = issue.labels.some(label => label.name === '版本过时 outdated version');
+              const hasInvalidFormatLabel = issue.labels.some(label => label.name === '格式无效 invalid format');
               
               if (hasOutdatedLabel) {
                 await github.rest.issues.removeLabel({
                   owner: context.repo.owner,
                   repo: context.repo.repo,
                   issue_number: issue.number,
-                  name: 'outdated-version'
-                }).catch(e => console.log('Error removing outdated-version label:', e.message));
+                  name: '版本过时 outdated version'
+                }).catch(e => console.log('Error removing 版本过时 outdated version label:', e.message));
               }
               
               if (hasInvalidFormatLabel) {
@@ -268,8 +268,8 @@ jobs:
                   owner: context.repo.owner,
                   repo: context.repo.repo,
                   issue_number: issue.number,
-                  name: 'invalid-format'
-                }).catch(e => console.log('Error removing invalid-format label:', e.message));
+                  name: '格式无效 invalid format'
+                }).catch(e => console.log('Error removing 格式无效 invalid format label:', e.message));
               }
               
               // 如果 issue 已关闭且有这些标签之一，重新打开
@@ -342,17 +342,17 @@ jobs:
                 owner: context.repo.owner,
                 repo: context.repo.repo,
                 issue_number: issue.number,
-                labels: ['outdated-version']
+                labels: ['版本过时 outdated version']
               });
               
               // 移除无效格式标签（如果有的话）
-              const hasInvalidFormatLabel = issue.labels.some(label => label.name === 'invalid-format');
+              const hasInvalidFormatLabel = issue.labels.some(label => label.name === '格式无效 invalid format');
               if (hasInvalidFormatLabel) {
                 await github.rest.issues.removeLabel({
                   owner: context.repo.owner,
                   repo: context.repo.repo,
                   issue_number: issue.number,
-                  name: 'invalid-format'
-                }).catch(e => console.log('Error removing invalid-format label:', e.message));
+                  name: '格式无效 invalid format'
+                }).catch(e => console.log('Error removing 格式无效 invalid format label:', e.message));
               }
             }

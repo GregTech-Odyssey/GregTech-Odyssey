@@ -18,6 +18,11 @@
       "description": "最低优先级，有更好没有也行 | Lowest priority, nice to have"
     },
     {
+      "name": "构想 wishlist",
+      "color": "d4c5f9",
+      "description": "尚未纳入当前开发计划的构想 | Ideas not currently planned in the development roadmap"
+    },
+    {
       "name": "错误 bug",
       "color": "d73a4a",
       "description": "不正常工作 | Something isn't working"
@@ -75,7 +80,7 @@
     {
       "name": "Status: 设计如此 by design",
       "color": "bfd4f2",
-      "description": "设计意图，不是 bug | This is intended behavior"
+      "description": "设计如此，不是缺陷 | Intended behavior"
     },
     {
       "name": "Status: 永不修复 wontfix",
@@ -105,7 +110,7 @@
     {
       "name": "问题 question",
       "color": "d876e3",
-      "description": "当前问题只是关于项目的疑问 | This issue is a question about the project"
+      "description": "当前问题只是关于项目的疑问 | Only a question about the project"
     },
     {
       "name": "新手友好 good first issue",
@@ -113,17 +118,17 @@
       "description": "适合新手解决 | Good for newcomers"
     },
     {
-      "name": "no-changelog",
+      "name": "no changelog",
       "color": "890A3D",
       "description": "当前问题或提交无需加入 Changelog | No changelog needed"
     },
     {
-      "name": "outdated-version",
+      "name": "版本过时 outdated version",
       "color": "ededed",
       "description": "游戏版本已过时 | Outdated version"
     },
     {
-      "name": "invalid-format",
+      "name": "格式无效 invalid format",
       "color": "ededed",
       "description": "格式无效 | Invalid format"
     },
@@ -138,7 +143,7 @@
       "description": "这个问题或拉取请求需要其他贡献者帮助 / Needs help from other contributors"
     },
     {
-      "name": "非核心 not-core",
+      "name": "与核心无关 not-core",
       "color": "e9a7e7",
       "description": "与核心无关 | Not related to core"
     },
