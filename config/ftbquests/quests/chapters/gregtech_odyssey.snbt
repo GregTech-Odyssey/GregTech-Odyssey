@@ -271,7 +271,7 @@
 			description: [
 				"我们的WIKI:"
 				""
-				"{ \"text\": \"https://gtodyssey.com/\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"open_url\", \"value\": \"https://wiki.gtodyssey.com/\" } }"
+				"{ \"text\": \"https://gtodyssey.com/\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"open_url\", \"value\": \"https://gtodyssey.com/\" } }"
 				""
 				"你可以在WIKI上查找文档和指南！"
 			]
