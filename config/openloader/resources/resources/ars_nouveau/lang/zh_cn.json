@@ -13,10 +13,10 @@
 	"item.ars_nouveau.battlemage_leggings": "战斗法师护腿",
 	"item.ars_nouveau.battlemage_robes": "战斗法师护胸",
 	"block.ars_nouveau.sourcestone_sconce": "魔源石壁灯",
-	"block.ars_nouveau.polished_sconce": "打磨魔源石壁灯",
+	"block.ars_nouveau.polished_sconce": "磨制魔源石壁灯",
 	"block.ars_nouveau.archwood_sconce": "至高木壁灯",
 	"block.ars_nouveau.spell_sensor": "法术感测器",
-	"block.ars_nouveau.redstone_relay": "红石中继器",
+	"block.ars_nouveau.redstone_relay": "红石中转器",
 	"block.ars_nouveau.sourceberry_sack": "魔源浆果块",
 	"item.ars_nouveau.thread_immolation": "献祭",
 	"item.ars_nouveau.thread_amethyst_golem": "紫晶傀儡",
@@ -35,5 +35,6 @@
   "ars_nouveau.glyph_name.wololo": "沃洛洛之魔符",
   "ars_nouveau.ritual_desc.ritual_gravity": "给予附近玩家“重力”效果，使其短时间被强制压向地面。如果玩家已在范围内，该仪式会刷新他们的重力减益效果。每次施加或刷新重力效果时，都会消耗附近魔源罐中的魔力。",
   "ars_nouveau.glyph_desc.glyph_randomize": "随机化部分符文的行为。如果与“放置方块”或“交换”等法术一起使用，会在快捷栏中的方块之间随机选择要放置的方块。"
+
 
 }
