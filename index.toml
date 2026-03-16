@@ -3255,11 +3255,6 @@ hash = "27158aded3c29b5c744e25d5dc0bb801609b177b41b8caa53e624c3f1c47df70"
 metafile = true
 
 [[files]]
-file = "mods/shimmer.pw.toml"
-hash = "b82d14a08ddeaa08df7bb874f7f5efb1368823780bc25713561ce04bea07e1d8"
-metafile = true
-
-[[files]]
 file = "mods/shrink_.pw.toml"
 hash = "e590575830dec5964abf3fadaba242581253831a38249150d9c07b083af1817b"
 metafile = true
