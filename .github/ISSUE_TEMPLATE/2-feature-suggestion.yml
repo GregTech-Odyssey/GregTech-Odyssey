@@ -1,0 +1,73 @@
+name: "Feature Suggestion / 特性建议"
+description: "Submit a request for a new feature or modification to an existing feature. / 提交新特性请求或修改现有特性的请求。"
+labels:
+  - "增强 enhancement"
+  - "Status: 待处理 triage"
+body:
+  - type: "input"
+    id: "version"
+    attributes:
+      label: "GTO Pack Version / GTO 包版本"
+      description: "Please specify the version of the pack you are using. / 请指定您使用的包版本。"
+      placeholder: "Example: 0.5.0 / 示例：0.5.0"
+    validations:
+      required: true
+  - type: "dropdown"
+    id: "suggestion_type"
+    attributes:
+      label: "Suggestion Type / 建议类型"
+      description: "Please select the type of your suggestion. / 请选择您的建议类型。"
+      options:
+        - "新功能 / New Feature"
+        - "修改现有功能 / Modify Existing Feature"
+    validations:
+      required: true
+  - type: "textarea"
+    id: "description"
+    attributes:
+      label: "Feature Description / 特性描述"
+      description: |
+        **For New Features / 新功能：** Describe the feature you want to add and why it would be beneficial. / 描述您想添加的特性以及为什么它会有益。
+
+        **For Modifications / 修改：** Describe the current feature you want to modify and what changes you want to make. / 描述您想要修改的当前特性以及想要进行的更改。
+      placeholder: |
+        [For New Feature] I suggest adding [describe feature]. This would help players by [benefit].
+
+        [For Modification] The current feature [describe current feature] works by [how it works]. I propose the following changes: [specific changes]. These changes would improve the feature by [benefit].
+    validations:
+      required: true
+  - type: "textarea"
+    id: "details"
+    attributes:
+      label: "Details / 详情"
+      description: |
+        **For New Features / 新功能：** Provide implementation details if you have any. / 提供实现细节（如有）。
+
+        **For Modifications / 修改：** Analyze how your changes would affect the feature and related systems. / 分析您的更改将如何影响该特性和相关系统。
+      placeholder: |
+        [For New Feature] The feature could be implemented by [specific implementation details]. It would require [resources/materials].
+
+        [For Modification] These changes would affect the feature in the following ways: 1. [impact on functionality] 2. [impact on user experience] 3. [impact on related systems].
+    validations:
+      required: true
+  - type: "checkboxes"
+    id: "mod_selection"
+    attributes:
+      label: "Related Mod (Optional) / 相关模组（可选）"
+      description: "If you are sure which mod(s) are related to this feature, please check the box. If you are not sure, please do not check it. / 如果你确定某个（或多个）模组与这个特性相关，请勾选。如果不确定或不清楚，请不要勾选。"
+      options:
+        - label: "AE2"
+        - label: "GTM"
+        - label: "GTOCore"
+  - type: "checkboxes"
+    id: "final"
+    attributes:
+      label: "Final Checklist / 最终检查清单"
+      description: "Please confirm the following to help us process your suggestion efficiently. / 请确认以下内容，以帮助我们高效处理您的建议。"
+      options:
+        - label: "I have searched the issue tracker and confirmed that no similar feature request exists. / 我已搜索问题跟踪器，确认不存在类似特性请求。"
+          required: true
+        - label: "My feature suggestion is well thought out and would benefit the modpack. / 我的特性建议经过深思熟虑，将对模组包有益。"
+          required: true
+        - label: "I understand that not all feature requests can be implemented, and I'm open to discussion and compromise. / 我理解并非所有特性请求都能被实现，我愿意进行讨论和妥协。"
+          required: true

@@ -1,21 +1,32 @@
-name: "Report Bug"
+name: "Bug Report / 错误报告"
 description: "Submit a report for a bug. / 提交错误报告。"
 labels:
   - "错误 bug"
+  - "Status: 待处理 triage"
 body:
   - type: "input"
     id: "version"
     attributes:
-      label: "GTO Pack Version / GTO包版本"
+      label: "GTO Pack Version / GTO 包版本"
       description: "Please specify the version of the pack you are using. Bugs reported in older versions may already be resolved in newer releases, so we recommend updating to the latest version before submitting. Thank you! / 请指定您使用的包版本。旧版本中报告的错误可能已在新版本中修复，因此我们建议在提交前更新到最新版本。谢谢！"
-      placeholder: "Example: 0.0.8 / 示例：0.0.8"
+      placeholder: "Example: 0.5.0 / 示例：0.5.0"
+    validations:
+      required: true
+  - type: "dropdown"
+    id: "priority"
+    attributes:
+      label: "Priority / 优先级"
+      description: "If you are sure this bug seriously affects gameplay (game crash, server explosion, main storyline blocked, etc.), please change the priority here. If you are not sure or unclear, please do not change it. / 如果你确定这个 bug 严重影响游戏（游戏崩溃、炸服、主线无法推进等）请修改这里的优先级。如果不确定或不清楚，请不要更改。"
+      options:
+        - "Default / 默认"
+        - "Major / 重要"
     validations:
       required: true
   - type: "dropdown"
     id: "thermos"
     attributes:
       label: "Play Environment / 游戏环境"
-      description: "Please assist in testing the type of game environment where the issue occurred. / 请协助测试发生问题的游戏环境类型。"
+      description: "Please select the game environment type where you encountered this issue. / 请选择您遇到此问题的游戏环境类型。"
       options:
         - "Single Player / 单人游戏"
         - "Multi Player / 多人游戏"
@@ -27,7 +38,7 @@ body:
     attributes:
       label: "Expected Behavior / 预期行为"
       description: "Describe the action you attempted and the outcome you anticipated. Please attach screenshots if applicable. / 描述您尝试的操作以及您预期的结果。如适用，请附上截图。"
-      placeholder: "Example: I attempted to craft a diamond pickaxe in Minecraft by arranging three diamonds across the top row of the crafting table and two sticks in the middle column below, expecting to obtain a diamond pickaxe as the result. / 示例：我尝试在Minecraft中通过在工作台顶部一行放置三个钻石，并在下方中间列放置两根木棍来制作钻石镐，预期会获得一把钻石镐作为结果。"
+      placeholder: "Example: I attempted to craft a diamond pickaxe in Minecraft by arranging three diamonds across the top row of the crafting table and two sticks in the middle column below, expecting to obtain a diamond pickaxe as the result. / 示例：我尝试在 Minecraft 中通过在工作台顶部一行放置三个钻石，并在下方中间列放置两根木棍来制作钻石镐，预期会获得一把钻石镐作为结果。"
     validations:
       required: true
   - type: "textarea"
@@ -47,6 +58,15 @@ body:
     validations:
       required: true
   - type: "checkboxes"
+    id: "mod_selection"
+    attributes:
+      label: "Related Mod (Optional) / 相关模组（可选）"
+      description: "If you are sure which mod(s) are related to this issue, please check the box. If you are not sure or unclear, please do not check it. / 如果你确定某个（或多个）模组与这个问题相关，请勾选。如果不确定或不清楚，请不要勾选。"
+      options:
+        - label: "AE2"
+        - label: "GTM"
+        - label: "GTOCore"
+  - type: "checkboxes"
     id: "final"
     attributes:
       label: "Final Checklist / 最终检查清单"
@@ -58,4 +78,3 @@ body:
           required: true
         - label: "I understand that due to the rapid updates of the integration package, errors in non latest or extremely similar versions are highly likely to have been fixed, and their reports will be closed without investigation. / 我理解因整合包飞速地更新，非最新版本或极其相近的版本的错误极大可能已经修复，其报告将被关闭而不进行调查。"
           required: true
-        
