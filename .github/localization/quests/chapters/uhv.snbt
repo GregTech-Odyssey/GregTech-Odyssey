@@ -45,6 +45,30 @@
 			x: 1.5d
 			y: -3.0d
 		}
+		{
+			height: 1.25d
+			image: "ftbquests:textures/shapes/diamond/outline.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 10.5d
+			y: 1.0d
+		}
+		{
+			height: 1.25d
+			image: "ftbquests:textures/shapes/circle/outline.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: -3.5d
+			y: 2.5d
+		}
+		{
+			height: 1.25d
+			image: "ftbquests:textures/shapes/circle/outline.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 3.5d
+			y: -3.0d
+		}
 	]
 	order_index: 11
 	quest_links: [
@@ -822,7 +846,7 @@
 				"4C998EF199E7C5D0"
 				"27CD17C4B3613171"
 			]
-			description: ["{gto.uhv.quests.187C5D9C4BFCFD35.description0}"]
+			description: ["[\"\", {\"translate\": \"gto.uhv.quests.187C5D9C4BFCFD35.description0.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"05FC584B28D957EB\"}, \"translate\": \"gto.uhv.quests.187C5D9C4BFCFD35.description0.rich_text1\"}]"]
 			icon: "gtocore:quicksilver_bucket"
 			id: "187C5D9C4BFCFD35"
 			tasks: [
@@ -971,7 +995,11 @@
 		}
 		{
 			dependencies: ["154F80E28FA53D99"]
-			description: ["{gto.uhv.quests.26F29F895D5F73D6.description0}"]
+			description: [
+				"{gto.uhv.quests.26F29F895D5F73D6.description0}"
+				""
+				"[\"\", {\"translate\": \"gto.uhv.quests.26F29F895D5F73D6.description1.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"75569B5559E011E2\"}, \"translate\": \"gto.uhv.quests.26F29F895D5F73D6.description1.rich_text1\"}, {\"translate\": \"gto.uhv.quests.26F29F895D5F73D6.description1.rich_text2\"}]"
+			]
 			id: "26F29F895D5F73D6"
 			shape: "diamond"
 			size: 1.0d
@@ -985,7 +1013,7 @@
 		}
 		{
 			dependencies: ["05FC584B28D957EB"]
-			description: ["{gto.uhv.quests.5876D6BFFD8AA7F7.description0}"]
+			description: ["[\"\", {\"translate\": \"gto.uhv.quests.5876D6BFFD8AA7F7.description0.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"05FC584B28D957EB\"}, \"translate\": \"gto.uhv.quests.5876D6BFFD8AA7F7.description0.rich_text1\"}]"]
 			icon: "gtocore:transcending_matter_bucket"
 			id: "5876D6BFFD8AA7F7"
 			tasks: [

@@ -39,6 +39,16 @@
 		}
 	}
 	id: "7F9CB863017BF24A"
+	images: [{
+		color: 16712528
+		dependency: "1FB1EC5B9CEFC2BC"
+		height: 1.5d
+		image: "ftbquests:block/barrier_open"
+		rotation: 0.0d
+		width: 1.5d
+		x: -5.0d
+		y: 1.0d
+	}]
 	order_index: 0
 	quest_links: [{
 		id: "32D234D148B4451C"
@@ -163,6 +173,7 @@
 				"6517DDBE8132FA9B"
 				"278F29092F5721AD"
 				"78A681513D681C93"
+				"6B26B74068A2EF29"
 			]
 			description: [
 				"{gto.gregtech_odyssey.quests.3BC9246D8FD4B649.description0}"
@@ -291,6 +302,69 @@
 			title: "{gto.gregtech_odyssey.quests.78A681513D681C93.title}"
 			x: 1.5d
 			y: -5.3d
+		}
+		{
+			dependencies: ["1FB1EC5B9CEFC2BC"]
+			description: [
+				"{gto.gregtech_odyssey.quests.6BDF1F517DCEBBD8.description0}"
+				""
+				"{gto.gregtech_odyssey.quests.6BDF1F517DCEBBD8.description1}"
+				""
+				"{gto.gregtech_odyssey.quests.6BDF1F517DCEBBD8.description2}"
+				""
+				"{gto.gregtech_odyssey.quests.6BDF1F517DCEBBD8.description3}"
+			]
+			hide_until_deps_visible: true
+			id: "6BDF1F517DCEBBD8"
+			rewards: [
+				{
+					id: "611B1F97B9AD2BB2"
+					item: "minecraft:anvil"
+					type: "item"
+				}
+				{
+					id: "54BDF9BDC05ABB2C"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "2FEC9B0FCD2A03E7"
+					item: "minecraft:paper"
+					type: "item"
+				}
+			]
+			size: 1.0d
+			subtitle: "{gto.gregtech_odyssey.quests.6BDF1F517DCEBBD8.subtitle}"
+			tasks: [{
+				id: "7B2BE6CBD69DB63A"
+				type: "checkmark"
+			}]
+			title: "{gto.gregtech_odyssey.quests.6BDF1F517DCEBBD8.title}"
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			description: ["{gto.gregtech_odyssey.quests.2BBA151F63BB1F2B.description0}"]
+			id: "2BBA151F63BB1F2B"
+			invisible: true
+			subtitle: "{gto.gregtech_odyssey.quests.2BBA151F63BB1F2B.subtitle}"
+			tasks: [{
+				id: "5407BF710CCAB4D3"
+				item: {
+					Count: 1
+					id: "minecraft:paper"
+					tag: {
+						RepairCost: 0
+						display: {
+							Name: "{\"text\":\"AEMVEVME\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "{gto.gregtech_odyssey.quests.2BBA151F63BB1F2B.title}"
+			x: -5.0d
+			y: -4.0d
 		}
 	]
 	subtitle: ["{gto.gregtech_odyssey.subtitle0}"]

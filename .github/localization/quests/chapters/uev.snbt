@@ -217,7 +217,15 @@
 			y: -0.5d
 		}
 		{
+			description: [
+				"{gto.uev.quests.0DC13F257B0314CC.description0}"
+				""
+				"{gto.uev.quests.0DC13F257B0314CC.description1}"
+			]
 			id: "0DC13F257B0314CC"
+			shape: "gear"
+			size: 1.5d
+			subtitle: "{gto.uev.quests.0DC13F257B0314CC.subtitle}"
 			tasks: [{
 				id: "1109E4CD5BBDC47E"
 				item: "gtocore:eye_of_harmony"
