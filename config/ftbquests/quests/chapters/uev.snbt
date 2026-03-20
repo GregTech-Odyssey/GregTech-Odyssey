@@ -217,7 +217,15 @@
 			y: -0.5d
 		}
 		{
+			description: [
+				"我们修改了鸿蒙之眼的机制，目前你无需提升鸿蒙之眼的等级即可制作任意等级的配方"
+				""
+				"&o&7不需要挂机等待它升级"
+			]
 			id: "0DC13F257B0314CC"
+			shape: "gear"
+			size: 1.5d
+			subtitle: "万物大一统"
 			tasks: [{
 				id: "1109E4CD5BBDC47E"
 				item: "gtocore:eye_of_harmony"

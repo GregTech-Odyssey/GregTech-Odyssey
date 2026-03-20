@@ -45,6 +45,30 @@
 			x: 1.5d
 			y: -3.0d
 		}
+		{
+			height: 1.25d
+			image: "ftbquests:textures/shapes/diamond/outline.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 10.5d
+			y: 1.0d
+		}
+		{
+			height: 1.25d
+			image: "ftbquests:textures/shapes/circle/outline.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: -3.5d
+			y: 2.5d
+		}
+		{
+			height: 1.25d
+			image: "ftbquests:textures/shapes/circle/outline.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 3.5d
+			y: -3.0d
+		}
 	]
 	order_index: 11
 	quest_links: [
@@ -822,7 +846,7 @@
 				"4C998EF199E7C5D0"
 				"27CD17C4B3613171"
 			]
-			description: ["又是魔法！你可能需要进行盖亚魂循环"]
+			description: ["[ \"又是魔法！你可能需要进行\", { \"text\": \"盖亚魂循环\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"05FC584B28D957EB\" } }]"]
 			icon: "gtocore:quicksilver_bucket"
 			id: "187C5D9C4BFCFD35"
 			tasks: [
@@ -971,7 +995,11 @@
 		}
 		{
 			dependencies: ["154F80E28FA53D99"]
-			description: ["摆脱冗长的稀土产线，拥抱稀土离心"]
+			description: [
+				"摆脱冗长的稀土产线，拥抱稀土离心"
+				""
+				"[ \"可以进行\", { \"text\": \"稀土\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"75569B5559E011E2\" } }, \"章节余下的处理了\"]"
+			]
 			id: "26F29F895D5F73D6"
 			shape: "diamond"
 			size: 1.0d
@@ -985,7 +1013,7 @@
 		}
 		{
 			dependencies: ["05FC584B28D957EB"]
-			description: ["必须制作盖亚魂循环，请参考魔法线"]
+			description: ["[ \"必须制作盖亚魂循环，请参考\", { \"text\": \"魔法线\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"05FC584B28D957EB\" } }]"]
 			icon: "gtocore:transcending_matter_bucket"
 			id: "5876D6BFFD8AA7F7"
 			tasks: [

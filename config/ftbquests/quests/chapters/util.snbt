@@ -529,6 +529,41 @@
 			x: -5.5d
 			y: 6.0d
 		}
+		{
+			id: "6B26B74068A2EF29"
+			tasks: [
+				{
+					d: 1
+					id: "33E0FDF72101550A"
+					optional_task: true
+					type: "gtocore:gtodifficulty"
+				}
+				{
+					d: 2
+					id: "4C84D8EEF16276D7"
+					optional_task: true
+					type: "gtocore:gtodifficulty"
+				}
+				{
+					id: "77D623771D825069"
+					item: {
+						Count: 1
+						id: "minecraft:paper"
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"AEMVEVME\"}"
+							}
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "专家主线锁"
+			x: 6.5d
+			y: 6.0d
+		}
 	]
 	title: "辅助章节"
 }
