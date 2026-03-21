@@ -849,8 +849,8 @@
 			icon: "gtceu:lv_energy_input_hatch"
 			id: "23A116C4BAE96979"
 			rewards: [{
-				id: "27B3BEBE0FC9D1FF"
-				item: "gtocore:gold_coin"
+				id: "1A0B288DE57AE7EA"
+				item: "gtocore:silver_coin"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -2403,10 +2403,14 @@
 				"{gto.lv.quests.389D61CE9E799725.description1}"
 				""
 				"{gto.lv.quests.389D61CE9E799725.description2}"
+				""
 				"{gto.lv.quests.389D61CE9E799725.description3}"
 				"{gto.lv.quests.389D61CE9E799725.description4}"
 				"{gto.lv.quests.389D61CE9E799725.description5}"
 				"{gto.lv.quests.389D61CE9E799725.description6}"
+				"{gto.lv.quests.389D61CE9E799725.description7}"
+				""
+				"{gto.lv.quests.389D61CE9E799725.description8}"
 			]
 			id: "389D61CE9E799725"
 			rewards: [{

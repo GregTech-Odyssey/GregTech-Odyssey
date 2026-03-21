@@ -235,11 +235,12 @@
 				"{gto.space-station.quests.23E859D5CC9E4C8C.description4}"
 				""
 				"[\"\", {\"translate\": \"gto.space-station.quests.23E859D5CC9E4C8C.description5.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"23E859D5CC9E4C8C\"}, \"translate\": \"gto.space-station.quests.23E859D5CC9E4C8C.description5.rich_text1\"}, {\"translate\": \"gto.space-station.quests.23E859D5CC9E4C8C.description5.rich_text2\"}]"
-				"{@pagebreak}"
-				"{gto.space-station.quests.23E859D5CC9E4C8C.description6}"
-				"{gto.space-station.quests.23E859D5CC9E4C8C.description7}"
 				""
+				"{gto.space-station.quests.23E859D5CC9E4C8C.description6}"
+				"{@pagebreak}"
+				"{gto.space-station.quests.23E859D5CC9E4C8C.description7}"
 				"{gto.space-station.quests.23E859D5CC9E4C8C.description8}"
+				""
 				"{gto.space-station.quests.23E859D5CC9E4C8C.description9}"
 				"{gto.space-station.quests.23E859D5CC9E4C8C.description10}"
 				"{gto.space-station.quests.23E859D5CC9E4C8C.description11}"
@@ -248,6 +249,7 @@
 				"{gto.space-station.quests.23E859D5CC9E4C8C.description14}"
 				"{gto.space-station.quests.23E859D5CC9E4C8C.description15}"
 				"{gto.space-station.quests.23E859D5CC9E4C8C.description16}"
+				"{gto.space-station.quests.23E859D5CC9E4C8C.description17}"
 			]
 			icon: "gtocore:space_probe_mk1"
 			id: "23E859D5CC9E4C8C"
@@ -333,6 +335,29 @@
 			}]
 			x: 16.5d
 			y: -5.5d
+		}
+		{
+			dependencies: ["154F80E28FA53D99"]
+			description: ["{gto.space-station.quests.61810C6EBDC37278.description0}"]
+			id: "61810C6EBDC37278"
+			tasks: [{
+				id: "2289286E7098F2C4"
+				item: "gtocore:space_shield_hatch"
+				type: "item"
+			}]
+			x: 14.816326530612223d
+			y: -10.754081632653055d
+		}
+		{
+			dependencies: ["7D639CBD69B7AA61"]
+			id: "20E82153682FF1DA"
+			tasks: [{
+				id: "4729738DAE8D5517"
+				item: "gtocore:planetary_gas_collector"
+				type: "item"
+			}]
+			x: 17.0d
+			y: -9.0d
 		}
 	]
 	subtitle: ["{gto.space-station.subtitle0}"]

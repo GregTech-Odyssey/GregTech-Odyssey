@@ -898,11 +898,11 @@ hash = "fbbcf708c2f372c770ca65d09f95a5dd67ff95b409e9df10e1a9b330b8049b8a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/lv.snbt"
-hash = "db0f22ee9ee5a89eaab311eba5c54539ab8dfc6179a7c9d09bc8dd979442f384"
+hash = "656a769e8bc95c1eb013a18e5134b1d053be5fa2a907d0250d7e5e333fbc30c8"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/magic1.snbt"
-hash = "4d0dba6829f57bd2ff744d1c7a3ee6a20c655a74546572e39d73854e628ff44b"
+hash = "caa745ead6850071a5d6acdfb3a2cde0015af62a5daa626b909bc6f88ca56678"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/magic2.snbt"
@@ -910,7 +910,7 @@ hash = "e03f602b66e0646f45277532b20ab20e5d441bc76e0ba7e8c3d75fb58c5c3a2e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/main-stoneage.snbt"
-hash = "a833af820b8e90051a337ed31b6375f71a1c3609dfdcc1e2b1dec917a4bd234c"
+hash = "d5ff7c73a5031756d3dbe7cc3b6cfe3a0793a52787c2a14f4f8f15a0e5ac8744"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/massive-manufacturing.snbt"
@@ -926,7 +926,7 @@ hash = "e613a1ca6f28c20f2cc754bfb9e716a7468d7a46e62e61e0443af7581fe904f1"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ore-processing.snbt"
-hash = "3a1b635c30a05d1d1303e65f4046e17af5704b31949322b9fc8274f6c754772a"
+hash = "22d4155d0dea8164ba475fe4012c9417a46fcc69668486a50e2049cf2b2b66ac"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ores.snbt"
@@ -954,23 +954,23 @@ hash = "5988cd67f8957873b6526edf54f82dfaad69f41f8f483d505bfc6dc5389cc7e6"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/space-station.snbt"
-hash = "13b9bb60e15354a66a8f546f7b99154cbd1f90fbfe0bd44bc68bb06555537e77"
+hash = "173a727809348546669c8aa008edcf13ee28b53041b1e061c6d5d824858825bd"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/steam.snbt"
-hash = "7f813b22e4cf6aca2c6b133d58f539eec6a461e72de242dade977bbbb9ac1f92"
+hash = "c0372c21a13fd2e63bb19ae3b9b2ac5feac8c7bcf965a8385168429a81de3ad6"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tips.snbt"
-hash = "9d43d25a927e1a32ae6296f3a68a09a66490a955d323b4ec14d21cbd0796b373"
+hash = "c4a4674ce7fa9054389b5b87dbae1cb5d66831e588b15302c0046ae956304779"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/uev.snbt"
-hash = "3aa79dc4d819fd6c4d85746c493a4f0131aedcf5ed5b9a438dafb6d74a1412c4"
+hash = "c95f65214bfcf8dad1ec7c1b46c82b75b5d28a312550c31e9267ab47e5b0b5d2"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/uhv.snbt"
-hash = "d04ee045a355e91ad4c7f1428093c8f5799c097a1f110d90f3f566e44095a559"
+hash = "882d3f70fc93f01d77b0276b08ff842ad18b3c4e128f66ca3b698293ac658402"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/uiv.snbt"
@@ -978,7 +978,7 @@ hash = "e09c77c1293ca550355d1fe295904952bab94bb7b186339c31ac36f0fea5aad7"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ulv.snbt"
-hash = "c98816890f21af7055bb6843fb64d678cb98b4237ebed7378036fc0740887971"
+hash = "2814e8581611c548b125e7521e8fdbdc12b5f2d4aef9b3d2c62194a3d90a7156"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/util.snbt"
@@ -1394,23 +1394,23 @@ hash = "19697430c4a3627dbde71596b4d0e9c64340499b83725de98538c94633163daa"
 
 [[files]]
 file = "config/openloader/data/data/data/sophisticatedbackpacks/recipes/copper_backpack.json"
-hash = "9680326c3db9492256101dcfb0daa2fe65108a6bfef0a0ff3bf4955a5603e150"
+hash = "a93e2bfbe0f690a1098a8ff418a871aafb97c2ffd4dc30f71430035ef647a682"
 
 [[files]]
 file = "config/openloader/data/data/data/sophisticatedbackpacks/recipes/diamond_backpack.json"
-hash = "2223084f8488f0216326aa80f3d0d65a19db2eaf375d9007a4527c1df5edb830"
+hash = "332a2a31459e6d58a3c7542b2a111a8f4e35c51ebed65af76b764701463f3ff5"
 
 [[files]]
 file = "config/openloader/data/data/data/sophisticatedbackpacks/recipes/gold_backpack.json"
-hash = "4f5b667d16281c282fdab46b3ff0c1e4e4580acc9992b4e5896cd4952feddb18"
+hash = "577617939f7ab77ea003e0bd18d98d9fb8f458b7f300548e1e866a829b026dc6"
 
 [[files]]
 file = "config/openloader/data/data/data/sophisticatedbackpacks/recipes/iron_backpack.json"
-hash = "2880766093ccb3b82538ff646bff637f64e41a61ae3e60014dffd02484e7583b"
+hash = "f35d1e34e31cbcc52222fca8020699a0dda010eeb815c506e34f0a70dcdcf732"
 
 [[files]]
 file = "config/openloader/data/data/data/sophisticatedbackpacks/recipes/iron_backpack_from_copper.json"
-hash = "fadf7ae17b855fc9754376eaed355ae223b7e28d48f1e38f2145edd00d7fd3c1"
+hash = "5e90b444df02a419617c6372013660e2d57dec9f6c2cf1f22e96f17e59bcab11"
 
 [[files]]
 file = "config/openloader/data/data/pack.mcmeta"
@@ -1430,7 +1430,7 @@ hash = "84254dc1e5a56ea70df6b16a2fb2620040592badae436c255997aaae84996d91"
 
 [[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/en_us.json"
-hash = "6cde161061168dbc9a7fa83270f12643f07415e2962f8e1ba2a1236cd01d8216"
+hash = "47f30f7462ea2dce59c67fab669baa262976097b96f92056cc5e732cee74fea5"
 
 [[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/ru_ru.json"
@@ -1438,11 +1438,11 @@ hash = "91da2321057a314549961e4c6a0077f319fa69c45e3687ddcf805a9702afdd9c"
 
 [[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/zh_cn.json"
-hash = "e9613d78d54b108d638f367e2053267a86169e88cb3ec122adfd0cbd9ec3b1bc"
+hash = "2aec27f8f7f7500fe5d7542bebdea33db8b4c6c74b61ac7b2607439c7533bcb2"
 
 [[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/zh_tw.json"
-hash = "fe6d8df91094f8f23c805fb0eb88d91c0e4983917e48cee6b3bdf0adf5ee79e4"
+hash = "3ed55815c26baad0a4986338421b61dcd008e96bb6f41484c774984f459bda0b"
 
 [[files]]
 file = "config/openloader/resources/quests/pack.mcmeta"
@@ -1503,6 +1503,14 @@ hash = "de0b304e23603615ed29d54834d4fdb80c8c891bc200598f7963c205919ae6f9"
 [[files]]
 file = "config/openloader/resources/resources/assets/arseng/lang/zh_cn.json"
 hash = "1539646621c9072dd90aff4e1ef85ea8dc3502e4fd5c53934f0168ae27de256d"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/botania/lang/zh_cn.json"
+hash = "24dbc37915250562aa325594085d9092759519bba4ab3daa0c290b32f1d0d124"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/botania/lang/zh_tw.json"
+hash = "295528eb1ce31b3ad081674cf1f52b560d5458bf4e8bdb29926c8ed5dfcbcd43"
 
 [[files]]
 file = "config/openloader/resources/resources/assets/chisel/lang/zh_cn.json"
