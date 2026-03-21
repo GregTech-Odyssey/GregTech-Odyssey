@@ -508,6 +508,49 @@
 			dependencies: ["0E1A670099E3C3F2"]
 			id: "3448FEC025A0CA9C"
 			optional: true
+			rewards: [
+				{
+					count: 99
+					id: "76C87BCFE6513188"
+					item: "gtceu:creative_chest"
+					type: "item"
+				}
+				{
+					count: 99
+					id: "3A56B8DC94F084BA"
+					item: "gtceu:creative_tank"
+					type: "item"
+				}
+				{
+					count: 99
+					id: "3F05895D7E233270"
+					item: "gtmthings:creative_fluid_input_hatch"
+					type: "item"
+				}
+				{
+					count: 99
+					id: "361398A9B190B025"
+					item: "gtmthings:creative_item_input_bus"
+					type: "item"
+				}
+				{
+					count: 99
+					id: "1C10C6328394AA86"
+					item: "gtmthings:creative_laser_hatch"
+					type: "item"
+				}
+				{
+					count: 99
+					id: "00F5AD10EE11A073"
+					item: "gtceu:creative_computation_provider"
+					type: "item"
+				}
+				{
+					id: "00DBF24CD92A2D1C"
+					item: "gtocore:all_fluids_cell"
+					type: "item"
+				}
+			]
 			subtitle: "毕业了"
 			tasks: [{
 				id: "4578A8C0BB3E0155"
@@ -518,7 +561,7 @@
 			y: 1.0d
 		}
 		{
-			description: ["夸克释放催化剂目前还做不了，所以只要你做出了7级水，就可以直接来这里领取8级水的元件"]
+			description: ["夸克释放催化剂目前还做不了，所以只要你做出了7级水，提交一个装满7级水的元件，就可以直接来这里领取8级水的元件"]
 			id: "2EDCB01B9811A79D"
 			rewards: [{
 				id: "073F7587BB4E284F"
@@ -535,8 +578,22 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "378DB566F942202E"
-				item: "gtocore:degassed_water_bucket"
+				id: "65C95440B571C3A8"
+				item: {
+					Count: 1
+					id: "ae2:fluid_storage_cell_16k"
+					tag: {
+						byte: 16384L
+						type: 1
+						u: [I;
+							1162343746
+							-1788787660
+							-1830848364
+							-273450750
+						]
+					}
+				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: -6.0d

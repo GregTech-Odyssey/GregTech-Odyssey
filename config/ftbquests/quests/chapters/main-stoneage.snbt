@@ -1999,7 +1999,7 @@
 						Count: 1
 						id: "itemfilters:tag"
 						tag: {
-							value: "gt:dyes"
+							value: "c:dyes"
 						}
 					}
 					title: "任意染料"
@@ -2256,12 +2256,6 @@
 					count: 128
 					id: "309E5607D70D2466"
 					item: "gtceu:wrought_iron_ingot"
-					type: "item"
-				}
-				{
-					count: 32
-					id: "188367E3FFFEEE6E"
-					item: "gtocore:copper_coin"
 					type: "item"
 				}
 			]

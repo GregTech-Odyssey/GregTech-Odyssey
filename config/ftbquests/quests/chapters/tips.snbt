@@ -897,6 +897,8 @@
 				"- 反应炉"
 				"- &e“大批量加工”&r章节中的机器"
 				"- 巨型真空冷冻机"
+				""
+				"注意：升级模块会&c直接消耗玩家全部的经验&r，请使用&6经验方尖碑&r存储你多余的经验"
 			]
 			hide_until_deps_complete: true
 			icon: "gtocore:luv_power_amplifiers"

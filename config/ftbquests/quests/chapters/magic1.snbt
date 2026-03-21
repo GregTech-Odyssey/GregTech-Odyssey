@@ -7,6 +7,14 @@
 	hide_quest_until_deps_visible: true
 	icon: "gtocore:colorful_mystical_flower"
 	id: "1883B79BDB2AAE5D"
+	images: [{
+		height: 0.5d
+		image: "minecraft:block/end_portal_frame_top"
+		rotation: 0.0d
+		width: 0.5d
+		x: 14.0d
+		y: -5.0d
+	}]
 	order_index: 1
 	progression_mode: "flexible"
 	quest_links: [{

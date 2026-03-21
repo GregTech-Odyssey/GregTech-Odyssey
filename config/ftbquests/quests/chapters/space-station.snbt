@@ -235,6 +235,8 @@
 				"因此，你需要为机器建造一个&6真正的房子&r来让机器得以正常工作"
 				""
 				"[\"你现在可以去\",{ \"text\": \"穹宇居所\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"23E859D5CC9E4C8C\" } },\"章节看看了\"]"
+				""
+				"&e注意，地球空间站所需的材料相比其他空间站更便宜，你可以通过emi来查看具体需要的材料"
 				"{@pagebreak}"
 				"&d你的第一个空间站（地球）所需材料列表&r"
 				"&8（可在EMI查看每个星球建造空间站所需材料清单）&r"
@@ -333,6 +335,29 @@
 			}]
 			x: 16.5d
 			y: -5.5d
+		}
+		{
+			dependencies: ["154F80E28FA53D99"]
+			description: ["让你的机器可以放在空间站之外"]
+			id: "61810C6EBDC37278"
+			tasks: [{
+				id: "2289286E7098F2C4"
+				item: "gtocore:space_shield_hatch"
+				type: "item"
+			}]
+			x: 14.816326530612223d
+			y: -10.754081632653055d
+		}
+		{
+			dependencies: ["7D639CBD69B7AA61"]
+			id: "20E82153682FF1DA"
+			tasks: [{
+				id: "4729738DAE8D5517"
+				item: "gtocore:planetary_gas_collector"
+				type: "item"
+			}]
+			x: 17.0d
+			y: -9.0d
 		}
 	]
 	subtitle: ["Aerospace Industry"]
