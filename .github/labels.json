@@ -10,7 +10,7 @@
     {
       "name": "重要 major",
       "color": "D73A4A",
-      "description": "重要问题，需要关注 | Important issue, needs attention"
+      "description": "高优先级，需要关注 | High priority, needs attention"
     },
     {
       "name": "可选 optional",
@@ -56,11 +56,6 @@
       "name": "Status: 待处理 triage",
       "color": "E4E669",
       "description": "等待维护者初步处理 | Awaiting initial review"
-    },
-    {
-      "name": "Status: 待认领 ready for dev",
-      "color": "C2E0C6",
-      "description": "已确认问题，等待认领 | Confirmed, awaiting assignment"
     },
     {
       "name": "Status: 待补充 needs info",
@@ -130,7 +125,7 @@
     {
       "name": "格式无效 invalid format",
       "color": "ededed",
-      "description": "格式无效 | Invalid format"
+      "description": "问题格式无效 | Invalid issue format"
     },
     {
       "name": "PR welcome",
