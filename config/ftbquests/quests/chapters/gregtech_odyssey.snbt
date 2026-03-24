@@ -1,5 +1,4 @@
 {
-	autofocus_id: "3BC9246D8FD4B649"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "gregtech_odyssey"
@@ -163,7 +162,7 @@
 				title: "关于内容"
 				type: "checkmark"
 			}]
-			x: 9.0d
+			x: 6.0d
 			y: -1.0d
 		}
 		{

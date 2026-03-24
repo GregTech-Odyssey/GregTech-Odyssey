@@ -1419,7 +1419,11 @@
 			y: 13.5d
 		}
 		{
-			description: ["在外探索看到一个巨坑，挖掉外层的陨石（不要丢），挖掉神秘方块即可获得"]
+			description: [
+				"在外探索看到一个巨坑，挖掉外层的陨石（不要丢），挖掉神秘方块即可获得"
+				""
+				"[\"如果你不知道该怎么寻找，不妨试试\",{ \"text\": \"指南针\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5511502A8AECF505\" } }]"
+			]
 			icon: "ae2:mysterious_cube"
 			id: "50158929D20CC96E"
 			subtitle: "小小的压印模板铸造宏大的自动化网络"

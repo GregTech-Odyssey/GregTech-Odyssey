@@ -4266,7 +4266,7 @@
     "gto.tips.quests.6E81629D88D0710E.description3": "&eYou will be in this mode forever!&r",
     "gto.tips.quests.6E81629D88D0710E.description4": "&o&7Clicking the checkmark of this quest will not enable self-discipline mode.",
     "gto.tips.quests.6E81629D88D0710E.title": "Self-discipline Mode",
-    "gto.tips.quests.71DC44EE0771E731.description0": "&aDual Hatch Overclocking&r: Installing at least &atwo&r&6energy hatches of the same tier&r (current does not need to be the same) on a multiblock machine triggers &6overclocking&r, allowing the machine to execute recipes at &bone voltage tier higher&r.",
+    "gto.tips.quests.71DC44EE0771E731.description0": "&aDual Hatch Boost&r: Installing at least &atwo&r&6energy hatches of the same tier&r (current does not need to be the same) on a multiblock machine triggers &6boost&r, allowing the machine to execute recipes at &bone voltage tier higher&r.",
     "gto.tips.quests.71DC44EE0771E731.description1": "Note that the machine's UI displays two voltages: the &6Maximum Power&r voltage is related to &eOverclocking Count&r, while the &6Maximum Recipe Tier&r indicates the &eRecipe Voltage&r that the machine can handle.",
     "gto.tips.quests.71DC44EE0771E731.description2": "&o&7Boosting does not change the power provided by the energy hatch, it only increases the voltage and reduces the amperage. The reason boosting is always achievable is that even the energy hatch with the lowest amperage can provide at least 2A to the machines, so after dual-hatch boosting, it can definitely provide at least 1A of amperage.",
     "gto.tips.quests.71DC44EE0771E731.subtitle": "How do I make MV recipes at LV?",

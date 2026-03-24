@@ -1719,6 +1719,18 @@
 			description: ["除了铁傀儡农场，Easy Villagers还有很多好东西来帮助你度过前期，如刷取村民和自动交易等"]
 			hide_dependency_lines: true
 			id: "511995F72672A515"
+			rewards: [
+				{
+					id: "05805C50C779BAB1"
+					item: "easy_villagers:farmer"
+					type: "item"
+				}
+				{
+					id: "2D5374DA7EFCD3B7"
+					item: "easy_villagers:trader"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "6EA590611B4A00A9"
 				item: "easy_villagers:iron_farm"
@@ -1778,12 +1790,14 @@
 		{
 			description: ["这里有一些任务没提及的小工具"]
 			id: "067AC6B5D8167A97"
+			shape: "hexagon"
+			size: 1.0d
 			tasks: [{
 				id: "3BCF2AF3C340AF24"
 				title: "有用的工具"
 				type: "checkmark"
 			}]
-			x: -3.75d
+			x: -5.25d
 			y: 4.5d
 		}
 		{
@@ -1883,6 +1897,37 @@
 			]
 			x: -3.75d
 			y: 6.0d
+		}
+		{
+			description: ["前期探险的好帮手"]
+			id: "5511502A8AECF505"
+			rewards: [{
+				id: "772EFE95629C2542"
+				item: "ae2:meteorite_compass"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "550FDAA82D6436D6"
+					item: {
+						Count: 1
+						id: "explorerscompass:explorerscompass"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "7D725642DECF3F4C"
+					item: {
+						Count: 1
+						id: "naturescompass:naturescompass"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: -3.75d
+			y: 4.5d
 		}
 	]
 	subtitle: ["Tips and Tricks"]
