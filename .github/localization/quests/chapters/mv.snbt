@@ -7,14 +7,36 @@
 	hide_quest_until_deps_visible: true
 	icon: "gtocore:processing_plant"
 	id: "7C6B0DA4DF5D00E3"
-	images: [{
-		height: 1.75d
-		image: "ftbquests:textures/shapes/gear/outline.png"
-		rotation: 0.0d
-		width: 1.75d
-		x: -6.75d
-		y: -1.75d
-	}]
+	images: [
+		{
+			height: 1.75d
+			image: "ftbquests:textures/shapes/gear/outline.png"
+			rotation: 0.0d
+			width: 1.75d
+			x: -6.75d
+			y: -1.75d
+		}
+		{
+			color: 16711935
+			dependency: "056EC4E6FAF614B7"
+			height: 1.0d
+			image: "ftbquests:block/barrier_open"
+			order: 1
+			rotation: 45.0d
+			width: 1.0d
+			x: -1.5d
+			y: 6.0d
+		}
+		{
+			dependency: "056EC4E6FAF614B7"
+			height: 1.0d
+			image: "xtonesreworked:block/bitt/12"
+			rotation: 45.0d
+			width: 1.0d
+			x: -1.5d
+			y: 6.0d
+		}
+	]
 	order_index: 4
 	quest_links: [
 		{
@@ -37,6 +59,13 @@
 			linked_quest: "2D899AFE07E20FEF"
 			shape: "hexagon"
 			x: -8.0d
+			y: 6.0d
+		}
+		{
+			id: "28F97A926D99CD20"
+			linked_quest: "47506298B1BD1780"
+			shape: "diamond"
+			x: -1.5d
 			y: 6.0d
 		}
 	]

@@ -1419,7 +1419,11 @@
 			y: 13.5d
 		}
 		{
-			description: ["{gto.ae.quests.50158929D20CC96E.description0}"]
+			description: [
+				"{gto.ae.quests.50158929D20CC96E.description0}"
+				""
+				"[\"\", {\"translate\": \"gto.ae.quests.50158929D20CC96E.description1.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"5511502A8AECF505\"}, \"translate\": \"gto.ae.quests.50158929D20CC96E.description1.rich_text1\"}]"
+			]
 			icon: "ae2:mysterious_cube"
 			id: "50158929D20CC96E"
 			subtitle: "{gto.ae.quests.50158929D20CC96E.subtitle}"

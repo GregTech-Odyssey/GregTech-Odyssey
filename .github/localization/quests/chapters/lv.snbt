@@ -888,6 +888,12 @@
 			]
 			icon: "gtceu:maintenance_hatch"
 			id: "58434872C6EC4E32"
+			rewards: [{
+				count: 5
+				id: "475D85B0BC979E80"
+				item: "gtceu:duct_tape"
+				type: "item"
+			}]
 			subtitle: "{gto.lv.quests.58434872C6EC4E32.subtitle}"
 			tasks: [
 				{
