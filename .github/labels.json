@@ -53,11 +53,6 @@
       "description": "Wiki 相关 | Related to wiki"
     },
     {
-      "name": "Status: 待处理 triage",
-      "color": "E4E669",
-      "description": "等待维护者初步处理 | Awaiting initial review"
-    },
-    {
       "name": "Status: 待补充 needs info",
       "color": "FBCA04",
       "description": "当前问题缺少必要信息，需要补充后才能处理 | Requires more information before it can be processed"

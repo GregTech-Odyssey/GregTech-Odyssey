@@ -17,8 +17,8 @@ body:
       label: "Suggestion Type / 建议类型"
       description: "Please select the type of your suggestion. / 请选择您的建议类型。"
       options:
-        - "新功能 / New Feature"
-        - "修改现有功能 / Modify Existing Feature"
+        - "New Feature / 新功能"
+        - "Modify Existing Feature / 修改现有功能"
     validations:
       required: true
   - type: "textarea"
