@@ -219,10 +219,7 @@
 			y: -9.0d
 		}
 		{
-			dependencies: [
-				"61C37EC8503FFDD9"
-				"310210D2AD9515E3"
-			]
+			dependencies: ["310210D2AD9515E3"]
 			description: [
 				"{gto.space-station.quests.23E859D5CC9E4C8C.description0}"
 				""

@@ -359,6 +359,7 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			title: "{gto.gregtech_odyssey.quests.2BBA151F63BB1F2B.title}"

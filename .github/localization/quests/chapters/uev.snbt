@@ -562,6 +562,8 @@
 		}
 		{
 			description: ["{gto.uev.quests.2EDCB01B9811A79D.description0}"]
+			hide_dependent_lines: true
+			icon: "gtocore:baryonic_perfection_water_bucket"
 			id: "2EDCB01B9811A79D"
 			rewards: [{
 				id: "073F7587BB4E284F"
@@ -577,6 +579,7 @@
 				}
 				type: "item"
 			}]
+			shape: "rsquare"
 			tasks: [{
 				id: "65C95440B571C3A8"
 				item: {
@@ -596,6 +599,7 @@
 				match_nbt: true
 				type: "item"
 			}]
+			title: "{gto.uev.quests.2EDCB01B9811A79D.title}"
 			x: -6.0d
 			y: -2.0d
 		}
@@ -684,6 +688,7 @@
 					type: "item"
 				}
 			]
+			shape: "none"
 			tasks: [{
 				id: "03BC803CB275580F"
 				type: "checkmark"
@@ -710,6 +715,38 @@
 			}]
 			x: 0.0d
 			y: 4.0d
+		}
+		{
+			description: ["{gto.uev.quests.3FBB498BBBA5DBDC.description0}"]
+			icon: "gtocore:virtual_universe_data_access_hatch"
+			id: "3FBB498BBBA5DBDC"
+			rewards: [{
+				id: "78E1DB8A50F52FD7"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:i"
+							id: "gtocore:virtual_universe_data_access_hatch"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "6246B1E9894DC4A4"
+				item: {
+					Count: 1
+					id: "gtocore:obsidian_matrix"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "{gto.uev.quests.3FBB498BBBA5DBDC.title}"
+			x: -8.0d
+			y: -2.0d
 		}
 	]
 	subtitle: ["{gto.uev.subtitle0}"]

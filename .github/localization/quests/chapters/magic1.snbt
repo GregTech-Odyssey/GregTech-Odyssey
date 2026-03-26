@@ -3562,10 +3562,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: [
-				"3D862A3D3F83CA26"
-				"5F5B9F256A751484"
-			]
+			dependencies: ["3D862A3D3F83CA26"]
 			dependency_requirement: "one_completed"
 			description: ["{gto.magic1.quests.5D49D4B0C5EA1F81.description0}"]
 			id: "5D49D4B0C5EA1F81"
