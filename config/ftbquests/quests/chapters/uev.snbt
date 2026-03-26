@@ -562,6 +562,8 @@
 		}
 		{
 			description: ["夸克释放催化剂目前还做不了，所以只要你做出了7级水，提交一个装满7级水的元件，就可以直接来这里领取8级水的元件"]
+			hide_dependent_lines: true
+			icon: "gtocore:baryonic_perfection_water_bucket"
 			id: "2EDCB01B9811A79D"
 			rewards: [{
 				id: "073F7587BB4E284F"
@@ -577,6 +579,7 @@
 				}
 				type: "item"
 			}]
+			shape: "rsquare"
 			tasks: [{
 				id: "65C95440B571C3A8"
 				item: {
@@ -596,6 +599,7 @@
 				match_nbt: true
 				type: "item"
 			}]
+			title: "重子完美水 兑换处"
 			x: -6.0d
 			y: -2.0d
 		}
@@ -684,6 +688,7 @@
 					type: "item"
 				}
 			]
+			shape: "none"
 			tasks: [{
 				id: "03BC803CB275580F"
 				type: "checkmark"
@@ -710,6 +715,38 @@
 			}]
 			x: 0.0d
 			y: 4.0d
+		}
+		{
+			description: ["六级和七级数据载体需要用到这个访问仓，它还暂时做不出来，送你了"]
+			icon: "gtocore:virtual_universe_data_access_hatch"
+			id: "3FBB498BBBA5DBDC"
+			rewards: [{
+				id: "78E1DB8A50F52FD7"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:i"
+							id: "gtocore:virtual_universe_data_access_hatch"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "6246B1E9894DC4A4"
+				item: {
+					Count: 1
+					id: "gtocore:obsidian_matrix"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "虚拟宇宙数据访问仓 兑换处"
+			x: -8.0d
+			y: -2.0d
 		}
 	]
 	subtitle: ["Tier10-UEV"]

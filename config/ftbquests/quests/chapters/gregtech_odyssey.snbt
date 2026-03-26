@@ -359,6 +359,7 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			title: "芝麻开门&d（专家）&r"
