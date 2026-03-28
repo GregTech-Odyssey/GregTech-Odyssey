@@ -591,6 +591,8 @@
 				"{gto.hv.quests.7329A824F8F1CDFF.description3}"
 				""
 				"{gto.hv.quests.7329A824F8F1CDFF.description4}"
+				""
+				"{gto.hv.quests.7329A824F8F1CDFF.description5}"
 			]
 			id: "7329A824F8F1CDFF"
 			shape: "hexagon"
@@ -733,12 +735,20 @@
 				""
 				"{gto.hv.quests.445C071E8F1B1B9E.description1}"
 			]
+			icon: "gtceu:titanium_tetrachloride_bucket"
 			id: "445C071E8F1B1B9E"
-			tasks: [{
-				id: "66D2195D7E1F6883"
-				item: "gtceu:titanium_tetrachloride_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "66D2195D7E1F6883"
+					item: "gtceu:titanium_tetrachloride_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "44921C625B2C7356"
+					type: "checkmark"
+				}
+			]
 			x: 15.0d
 			y: -1.0d
 		}
@@ -1399,6 +1409,8 @@
 				"{gto.hv.quests.48E92833D9A8297B.description1}"
 				""
 				"{gto.hv.quests.48E92833D9A8297B.description2}"
+				""
+				"{gto.hv.quests.48E92833D9A8297B.description3}"
 			]
 			icon: "gtocore:nether_reactor_core"
 			id: "48E92833D9A8297B"

@@ -45,6 +45,30 @@
 			x: 1.5d
 			y: -3.0d
 		}
+		{
+			height: 1.25d
+			image: "ftbquests:textures/shapes/diamond/outline.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 10.5d
+			y: 1.0d
+		}
+		{
+			height: 1.25d
+			image: "ftbquests:textures/shapes/circle/outline.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: -3.5d
+			y: 2.5d
+		}
+		{
+			height: 1.25d
+			image: "ftbquests:textures/shapes/circle/outline.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 3.5d
+			y: -3.0d
+		}
 	]
 	order_index: 11
 	quest_links: [
@@ -105,6 +129,12 @@
 			shape: "diamond"
 			x: 1.5d
 			y: -3.0d
+		}
+		{
+			id: "608AEC7DE3F23B33"
+			linked_quest: "711B491341721F3C"
+			x: -5.5d
+			y: 6.5d
 		}
 	]
 	quests: [
@@ -179,12 +209,20 @@
 		}
 		{
 			dependencies: ["4C998EF199E7C5D0"]
+			icon: "gtocore:lemurite_bucket"
 			id: "3FC0E3B6916ADE1B"
-			tasks: [{
-				id: "5A1C0DC058F2BADE"
-				item: "gtocore:lemurite_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "5A1C0DC058F2BADE"
+					item: "gtocore:lemurite_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4541FE2B951AD519"
+					type: "checkmark"
+				}
+			]
 			x: 6.0d
 			y: -1.0d
 		}
@@ -413,13 +451,21 @@
 		{
 			dependencies: ["175D243F4DF14D9B"]
 			description: ["非常难的自动化"]
+			icon: "gtocore:electric_equilibrium_water_bucket"
 			id: "5CC47F664FB8381E"
 			subtitle: "透镜神力"
-			tasks: [{
-				id: "386257C058B8DC96"
-				item: "gtocore:electric_equilibrium_water_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "386257C058B8DC96"
+					item: "gtocore:electric_equilibrium_water_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3BB65B584FCBF277"
+					type: "checkmark"
+				}
+			]
 			x: 6.5d
 			y: 8.5d
 		}
@@ -511,12 +557,20 @@
 		{
 			dependencies: ["3A91F7CD95B427BF"]
 			hide_dependency_lines: true
+			icon: "gtceu:bromine_bucket"
 			id: "6850047C2C843F02"
-			tasks: [{
-				id: "0CB3C0C142B7022F"
-				item: "gtceu:bromine_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "0CB3C0C142B7022F"
+					item: "gtceu:bromine_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5D9C5C5199721780"
+					type: "checkmark"
+				}
+			]
 			x: 2.0d
 			y: 1.0d
 		}
@@ -564,6 +618,7 @@
 				"0DA9DF55094DF780"
 				"26A8B23E6550CF57"
 				"5876D6BFFD8AA7F7"
+				"711B491341721F3C"
 			]
 			description: [
 				"做出这个意味着你解锁了绝大多数巨构，你即将迎来一次生产力的最终飞跃！"
@@ -630,12 +685,20 @@
 		{
 			dependencies: ["7E480187CA3FE8B2"]
 			hide_dependent_lines: true
+			icon: "gtocore:uu_amplifier_bucket"
 			id: "6BA9D736E067AC17"
-			tasks: [{
-				id: "2E1EA7BDECACBFED"
-				item: "gtocore:uu_amplifier_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2E1EA7BDECACBFED"
+					item: "gtocore:uu_amplifier_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6D168415415F20ED"
+					type: "checkmark"
+				}
+			]
 			x: -1.5d
 			y: 12.5d
 		}
@@ -790,13 +853,21 @@
 				"4C998EF199E7C5D0"
 				"27CD17C4B3613171"
 			]
-			description: ["又是魔法！你可能需要进行盖亚魂循环"]
+			description: ["[ \"又是魔法！你可能需要进行\", { \"text\": \"盖亚魂循环\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"05FC584B28D957EB\" } }]"]
+			icon: "gtocore:quicksilver_bucket"
 			id: "187C5D9C4BFCFD35"
-			tasks: [{
-				id: "0B04723966A464CE"
-				item: "gtocore:quicksilver_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "0B04723966A464CE"
+					item: "gtocore:quicksilver_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5F3C1592621A4BE9"
+					type: "checkmark"
+				}
+			]
 			x: 3.5d
 			y: -3.0d
 		}
@@ -875,12 +946,20 @@
 		{
 			dependencies: ["1612D1DEB3A7BE2D"]
 			hide_dependency_lines: true
+			icon: "gtocore:liquidcrystalkevlar_bucket"
 			id: "4CBB58A022DAD89A"
-			tasks: [{
-				id: "56FCBAE9EF22E701"
-				item: "gtocore:liquidcrystalkevlar_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "56FCBAE9EF22E701"
+					item: "gtocore:liquidcrystalkevlar_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4CA76452FAFD58F5"
+					type: "checkmark"
+				}
+			]
 			x: 8.5d
 			y: 1.0d
 		}
@@ -923,7 +1002,11 @@
 		}
 		{
 			dependencies: ["154F80E28FA53D99"]
-			description: ["摆脱冗长的稀土产线，拥抱稀土离心"]
+			description: [
+				"摆脱冗长的稀土产线，拥抱稀土离心"
+				""
+				"[ \"可以进行\", { \"text\": \"稀土\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"75569B5559E011E2\" } }, \"章节余下的处理了\"]"
+			]
 			id: "26F29F895D5F73D6"
 			shape: "diamond"
 			size: 1.0d
@@ -937,13 +1020,21 @@
 		}
 		{
 			dependencies: ["05FC584B28D957EB"]
-			description: ["必须制作盖亚魂循环，请参考魔法线"]
+			description: ["[ \"必须制作盖亚魂循环，请参考\", { \"text\": \"魔法线\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"05FC584B28D957EB\" } }]"]
+			icon: "gtocore:transcending_matter_bucket"
 			id: "5876D6BFFD8AA7F7"
-			tasks: [{
-				id: "32CCF029EA0AA6D4"
-				item: "gtocore:transcending_matter_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "32CCF029EA0AA6D4"
+					item: "gtocore:transcending_matter_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "24A5FB8EF38B7666"
+					type: "checkmark"
+				}
+			]
 			x: -3.5d
 			y: 2.5d
 		}

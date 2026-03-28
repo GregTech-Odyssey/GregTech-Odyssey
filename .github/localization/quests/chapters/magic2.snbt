@@ -1184,12 +1184,20 @@
 				"3A20210242A1C865"
 				"2AB5A33EC30AEA86"
 			]
+			icon: "gtocore:cycle_of_blossoms_solvent_bucket"
 			id: "331A6633436ED5AA"
-			tasks: [{
-				id: "0646B1B918E954E2"
-				item: "gtocore:cycle_of_blossoms_solvent_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "0646B1B918E954E2"
+					item: "gtocore:cycle_of_blossoms_solvent_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "49EF2E9849549BDE"
+					type: "checkmark"
+				}
+			]
 			x: 6.0d
 			y: 3.0d
 		}
@@ -1263,12 +1271,20 @@
 				"2AB5A33EC30AEA86"
 				"27CD17C4B3613171"
 			]
+			icon: "gtocore:gaia_solvent_bucket"
 			id: "527EBA90163F6108"
-			tasks: [{
-				id: "26A619931D11FA48"
-				item: "gtocore:gaia_solvent_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "26A619931D11FA48"
+					item: "gtocore:gaia_solvent_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0CB834D263E523D6"
+					type: "checkmark"
+				}
+			]
 			x: 14.5d
 			y: 7.5d
 		}
@@ -1395,14 +1411,16 @@
 			]
 			hide_dependency_lines: true
 			id: "041B3B6736C62F82"
+			shape: "hexagon"
+			size: 1.5d
 			subtitle: "{gto.magic2.quests.041B3B6736C62F82.subtitle}"
 			tasks: [{
 				id: "4D062AB9FB3A95D3"
 				item: "gtocore:time_twister"
 				type: "item"
 			}]
-			x: -2.75d
-			y: 6.5d
+			x: -2.25d
+			y: 2.0d
 		}
 		{
 			dependencies: ["0331107259F7B68C"]
@@ -1833,12 +1851,20 @@
 				"30C2F8F769D33023"
 				"651CA7BF775419A0"
 			]
+			icon: "gtocore:animium_bucket"
 			id: "00483549F6D66CCD"
-			tasks: [{
-				id: "6A3D40F8329D13F0"
-				item: "gtocore:animium_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "6A3D40F8329D13F0"
+					item: "gtocore:animium_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3446A313905FC26A"
+					type: "checkmark"
+				}
+			]
 			x: 5.5d
 			y: 10.0d
 		}
@@ -1867,12 +1893,20 @@
 		}
 		{
 			dependencies: ["00483549F6D66CCD"]
+			icon: "gtocore:flowing_ciphers_bucket"
 			id: "4A36545D7F8FDCEA"
-			tasks: [{
-				id: "354873D7580EEBE4"
-				item: "gtocore:flowing_ciphers_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "354873D7580EEBE4"
+					item: "gtocore:flowing_ciphers_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "642E822231D9BF7D"
+					type: "checkmark"
+				}
+			]
 			x: 7.0d
 			y: 10.0d
 		}
@@ -2066,6 +2100,7 @@
 						]
 					}
 				}
+				title: "{gto.magic2.quests.7278B00DEB2C21E7.tasks.36537D76B6F9DE91.title}"
 				type: "item"
 			}]
 			title: "{gto.magic2.quests.7278B00DEB2C21E7.title}"
@@ -2181,7 +2216,10 @@
 			y: 6.708333333333336d
 		}
 		{
-			dependencies: ["57038022345C40A6"]
+			dependencies: [
+				"57038022345C40A6"
+				"0BAB92BEC355120C"
+			]
 			description: ["{gto.magic2.quests.69B3B50FB64F3BF6.description0}"]
 			hide_dependent_lines: true
 			icon_scale: 2.0d
@@ -2192,7 +2230,7 @@
 				item: "mythicbotany:kvasir_mead"
 				type: "item"
 			}]
-			x: 17.5d
+			x: 19.0d
 			y: 9.0d
 		}
 		{
@@ -2216,7 +2254,6 @@
 				""
 				"{gto.magic2.quests.6878C231FB98DBBC.description1}"
 			]
-			hide_until_deps_complete: true
 			id: "6878C231FB98DBBC"
 			shape: "gear"
 			size: 2.0d
@@ -2282,6 +2319,23 @@
 			}]
 			x: 17.5d
 			y: 0.0d
+		}
+		{
+			dependencies: ["57038022345C40A6"]
+			disable_toast: true
+			icon_scale: 0.25d
+			id: "0BAB92BEC355120C"
+			shape: "none"
+			size: 0.25d
+			tasks: [{
+				icon: "minecraft:bamboo_button"
+				id: "68EA6B5CF8BEF422"
+				stat: "minecraft:jump"
+				type: "stat"
+				value: 1
+			}]
+			x: 16.0d
+			y: 9.0d
 		}
 	]
 	subtitle: ["{gto.magic2.subtitle0}"]

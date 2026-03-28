@@ -7,14 +7,36 @@
 	hide_quest_until_deps_visible: true
 	icon: "gtocore:processing_plant"
 	id: "7C6B0DA4DF5D00E3"
-	images: [{
-		height: 1.75d
-		image: "ftbquests:textures/shapes/gear/outline.png"
-		rotation: 0.0d
-		width: 1.75d
-		x: -6.75d
-		y: -1.75d
-	}]
+	images: [
+		{
+			height: 1.75d
+			image: "ftbquests:textures/shapes/gear/outline.png"
+			rotation: 0.0d
+			width: 1.75d
+			x: -6.75d
+			y: -1.75d
+		}
+		{
+			color: 16711935
+			dependency: "056EC4E6FAF614B7"
+			height: 1.0d
+			image: "ftbquests:block/barrier_open"
+			order: 1
+			rotation: 45.0d
+			width: 1.0d
+			x: -1.5d
+			y: 6.0d
+		}
+		{
+			dependency: "056EC4E6FAF614B7"
+			height: 1.0d
+			image: "xtonesreworked:block/bitt/12"
+			rotation: 45.0d
+			width: 1.0d
+			x: -1.5d
+			y: 6.0d
+		}
+	]
 	order_index: 4
 	quest_links: [
 		{
@@ -37,6 +59,13 @@
 			linked_quest: "2D899AFE07E20FEF"
 			shape: "hexagon"
 			x: -8.0d
+			y: 6.0d
+		}
+		{
+			id: "28F97A926D99CD20"
+			linked_quest: "47506298B1BD1780"
+			shape: "diamond"
+			x: -1.5d
 			y: 6.0d
 		}
 	]
@@ -500,9 +529,11 @@
 				""
 				"====="
 				""
-				"&b机制介绍&r：部分多方块机器包含&l&6整体框架&r&r，它会限制你所能运行的&e配方等级&r，其会取能源仓提供电压和整体框架电压的&c最小值&r"
+				"&b机制介绍&r：部分多方块机器包含&l&6整体框架&r&r，它会限制你所能运行的&e配方等级&r，其会取能源仓提供的电压和整体框架电压的&c最小值&r"
 				""
 				"通用工厂在其中还更为特殊，你还需要保证主机中放入的&6小机器&r的电压与&6能源仓&r提供的电压&a相等&r，但不限制功率"
+				""
+				"&e别忘了双仓升压的存在：如果你安装了2个及以上相同电压的能源仓，能源仓提供的电压会提升一级"
 			]
 			hide_dependency_lines: true
 			icon: "gtocore:processing_plant"
@@ -941,31 +972,37 @@
 				{
 					id: "7385D5E65ED52B73"
 					item: "gtocore:mv_semi_fluid"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "5BE776F4BA8F62AB"
 					item: "gtocore:mv_thermal_generator"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "32EB43ED4A7F4B0C"
 					item: "gtocore:mv_wind_mill_turbine"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "4CE6900DE345E137"
 					item: "gtceu:mv_combustion"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "2FF817ACC04575E1"
 					item: "gtceu:mv_gas_turbine"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "0D9FF06257B4F397"
 					item: "gtceu:mv_steam_turbine"
+					optional_task: true
 					type: "item"
 				}
 			]

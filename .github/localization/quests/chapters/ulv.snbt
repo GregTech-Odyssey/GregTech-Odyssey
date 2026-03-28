@@ -345,7 +345,7 @@
 				""
 				"{gto.ulv.quests.1CDBE91D2ACD9111.description1}"
 			]
-			hide_dependency_lines: true
+			hide_dependent_lines: true
 			id: "1CDBE91D2ACD9111"
 			shape: "hexagon"
 			size: 1.2d
@@ -603,6 +603,7 @@
 			dependencies: [
 				"423C010EB03C96E6"
 				"7A7105B0D9CAB320"
+				"1CDBE91D2ACD9111"
 			]
 			description: [
 				"{gto.ulv.quests.0D94DDD0419D85AD.description0}"
@@ -716,14 +717,22 @@
 				""
 				"{gto.ulv.quests.5CFDAB8B03980F9D.description1}"
 			]
+			icon: "gtocore:hp_steam_vacuum_pump"
 			id: "5CFDAB8B03980F9D"
 			shape: "hexagon"
 			subtitle: "{gto.ulv.quests.5CFDAB8B03980F9D.subtitle}"
-			tasks: [{
-				id: "6692EFF7A36E5403"
-				item: "gtocore:hp_steam_vacuum_pump"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "6692EFF7A36E5403"
+					item: "gtocore:hp_steam_vacuum_pump"
+					type: "item"
+				}
+				{
+					id: "6F641EAEA2A0EAAC"
+					item: "gtceu:bronze_huge_fluid_pipe"
+					type: "item"
+				}
+			]
 			title: "{gto.ulv.quests.5CFDAB8B03980F9D.title}"
 			x: 3.5d
 			y: 2.85d
@@ -1158,6 +1167,7 @@
 			dependencies: [
 				"1CDBE91D2ACD9111"
 				"020E8B707A8CF794"
+				"31F0EB6822F9566E"
 			]
 			description: [
 				"{gto.ulv.quests.6C328AB57C610EF9.description0}"
@@ -1242,7 +1252,10 @@
 			y: -8.5d
 		}
 		{
-			dependencies: ["1CDBE91D2ACD9111"]
+			dependencies: [
+				"1CDBE91D2ACD9111"
+				"31F0EB6822F9566E"
+			]
 			description: [
 				"{gto.ulv.quests.380CC80AE197328A.description0}"
 				""
@@ -1370,12 +1383,20 @@
 			icon: "gtceu:polyethylene_plate"
 			id: "7F95D501ADA3E661"
 			optional: true
-			rewards: [{
-				count: 128
-				id: "3F375135B8844521"
-				item: "gtceu:polyethylene_plate"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 128
+					id: "3F375135B8844521"
+					item: "gtceu:polyethylene_plate"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "06C002551DEA55CC"
+					item: "gtocore:copper_coin"
+					type: "item"
+				}
+			]
 			shape: "octagon"
 			tasks: [{
 				id: "20AFC6809A3258AD"
@@ -1416,12 +1437,20 @@
 			icon: "gtceu:basic_electronic_circuit"
 			id: "35CBD9D27781F929"
 			optional: true
-			rewards: [{
-				count: 16
-				id: "272BCD53EE7CB4F6"
-				item: "gtceu:basic_electronic_circuit"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 16
+					id: "272BCD53EE7CB4F6"
+					item: "gtceu:basic_electronic_circuit"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "1F285D2FFAC22CBF"
+					item: "gtocore:copper_coin"
+					type: "item"
+				}
+			]
 			shape: "octagon"
 			tasks: [{
 				id: "0A11CC353F29846B"
@@ -1569,6 +1598,22 @@
 			title: "{gto.ulv.quests.2907ABEAAFEF3BC1.title}"
 			x: 6.0d
 			y: 1.0d
+		}
+		{
+			dependencies: ["1CDBE91D2ACD9111"]
+			disable_toast: true
+			icon_scale: 0.25d
+			id: "31F0EB6822F9566E"
+			shape: "none"
+			size: 0.25d
+			tasks: [{
+				id: "6EA88A0AB6903848"
+				stat: "minecraft:jump"
+				type: "stat"
+				value: 1
+			}]
+			x: -2.0d
+			y: 2.85d
 		}
 	]
 	subtitle: ["{gto.ulv.subtitle0}"]

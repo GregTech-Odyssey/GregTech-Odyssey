@@ -291,7 +291,7 @@
 				"·不同的任务指引和任务奖励"
 				"·不同强度的怪物"
 				""
-				"[ \"\", {\"text\":\"详细特性请查看\", \"color\":\"yellow\"}, { \"text\": \"简单普通专家模式特性指南\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"open_url\", \"value\": \"https://gtodyssey.com/zh-hans/整合包教学/官方文档/简单普通专家模式特性指南/\" } }]"
+				"[ \"\", {\"text\":\"详细特性请查看\", \"color\":\"yellow\"}, { \"text\": \"简单普通专家模式特性指南\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"open_url\", \"value\": \"https://gtodyssey.com/zh-hans/wiki/简单普通专家模式特性指南/\" } }]"
 				""
 				"&e强烈建议在更改难度后，重启MC，然后再创建新的世界！&r"
 				""
@@ -882,17 +882,23 @@
 			description: [
 				"&6增幅器&r的效果和无损超频非常类似，提升功率，降低耗时，总耗能不变。最高级的增幅器&e等效&r于一次无损超频。"
 				""
-				"&6能量模块&r和&6速度模块&r&b无条件&r&e降低配方功率&r和&e提升速度&r,两者最高都是&a0.5x&r。"
+				"&e增幅器的优先级比超频高，因此很多时候会顶掉一次超频，这不是bug，因此不要给无损超频的机器贴&r"
+				""
+				"&c在0次超频的机器上贴增幅器有可能会使机器拉取超过上限的功率，导致机器断电&r"
+				""
+				"翻页查看模块效果"
+				"{@pagebreak}"
+				"&6能量模块&r和&6速度模块&r&b无条件&r&e降低配方功率&r和&e提升速度&r,两者最高都是&a0.5x&r，比增幅器强非常多"
 				""
 				"以下为已知可以使用模块的机器："
 				""
 				"- 所有单方块机器"
-				"- 电力高炉"
+				"- 电力高炉和烈焰高炉"
 				"- 反应炉"
 				"- &e“大批量加工”&r章节中的机器"
 				"- 巨型真空冷冻机"
 				""
-				"&o&7增幅器有可能会拉取超过上限的电流导致机器断电，请谨慎使用"
+				"注意：升级模块会&c直接消耗玩家全部的经验&r，请使用&6经验方尖碑&r存储你多余的经验"
 			]
 			hide_until_deps_complete: true
 			icon: "gtocore:luv_power_amplifiers"
@@ -1406,9 +1412,11 @@
 		{
 			dependencies: ["79646E8E449D8A1A"]
 			description: [
-				"你应该已经发现了，连续吃&a相同&r的食物，给予的饱食度会越来越&c少&r——这是&e膳食均衡&r在发力！"
+				"你应该已经发现了，连续吃&a相同&r的食物，给予的饱食度会越来越&c少&r——这是&e生活调味料&r在发力！"
 				""
-				"你还会发现有时你会&e得病&r，这是因为你的包里装了&c危险物质&r。尽快丢掉他们，或者寻找办法避免生病。"
+				"不过整合包里同样携带了&e生活调味料：胡萝卜版&r，你可以多多尝试不同的食物以获得最多十颗生命上限。"
+				""
+				"你还会发现有时你会&e得病&r，这是因为你的包里装了&c危险物质&r。尽快丢掉他们，或者穿戴一整套&b防护用品&r。你还可以使用&b解毒剂&r来治愈部分长期疾病。"
 			]
 			icon: "solcarrot:food_book"
 			id: "2574E6B85ADAAB88"
@@ -1449,34 +1457,9 @@
 					id: "0F1FFD8C69AD34AA"
 					item: {
 						Count: 1
-						id: "itemfilters:or"
+						id: "itemfilters:tag"
 						tag: {
-							items: [
-								{
-									Count: 1b
-									id: "gtceu:face_mask"
-								}
-								{
-									Count: 1b
-									id: "gtceu:rubber_gloves"
-								}
-								{
-									Count: 1b
-									id: "gtceu:hazmat_headpiece"
-								}
-								{
-									Count: 1b
-									id: "gtceu:hazmat_chestpiece"
-								}
-								{
-									Count: 1b
-									id: "gtceu:hazmat_leggings"
-								}
-								{
-									Count: 1b
-									id: "gtceu:hazmat_boots"
-								}
-							]
+							value: "gtceu:ppe_armor"
 						}
 					}
 					optional_task: true
@@ -1484,7 +1467,7 @@
 					type: "item"
 				}
 			]
-			title: "膳食均衡与生病"
+			title: "进食与生病"
 			x: 0.75d
 			y: 2.25d
 		}
@@ -1736,6 +1719,18 @@
 			description: ["除了铁傀儡农场，Easy Villagers还有很多好东西来帮助你度过前期，如刷取村民和自动交易等"]
 			hide_dependency_lines: true
 			id: "511995F72672A515"
+			rewards: [
+				{
+					id: "05805C50C779BAB1"
+					item: "easy_villagers:farmer"
+					type: "item"
+				}
+				{
+					id: "2D5374DA7EFCD3B7"
+					item: "easy_villagers:trader"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "6EA590611B4A00A9"
 				item: "easy_villagers:iron_farm"
@@ -1795,12 +1790,14 @@
 		{
 			description: ["这里有一些任务没提及的小工具"]
 			id: "067AC6B5D8167A97"
+			shape: "hexagon"
+			size: 1.0d
 			tasks: [{
 				id: "3BCF2AF3C340AF24"
 				title: "有用的工具"
 				type: "checkmark"
 			}]
-			x: -3.75d
+			x: -5.25d
 			y: 4.5d
 		}
 		{
@@ -1900,6 +1897,37 @@
 			]
 			x: -3.75d
 			y: 6.0d
+		}
+		{
+			description: ["前期探险的好帮手"]
+			id: "5511502A8AECF505"
+			rewards: [{
+				id: "772EFE95629C2542"
+				item: "ae2:meteorite_compass"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "550FDAA82D6436D6"
+					item: {
+						Count: 1
+						id: "explorerscompass:explorerscompass"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "7D725642DECF3F4C"
+					item: {
+						Count: 1
+						id: "naturescompass:naturescompass"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: -3.75d
+			y: 4.5d
 		}
 	]
 	subtitle: ["Tips and Tricks"]

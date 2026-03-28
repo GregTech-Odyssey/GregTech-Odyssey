@@ -775,6 +775,10 @@
 									Count: 1b
 									id: "gtceu:raw_chalcopyrite"
 								}
+								{
+									Count: 1b
+									id: "gtceu:raw_malachite"
+								}
 							]
 						}
 					}
@@ -1995,7 +1999,7 @@
 						Count: 1
 						id: "itemfilters:tag"
 						tag: {
-							value: "gt:dyes"
+							value: "c:dyes"
 						}
 					}
 					title: "{gto.main-stoneage.quests.07169625BC595BD3.tasks.377170224E4EC88E.title}"
@@ -2202,6 +2206,12 @@
 					item: "gtceu:wrought_iron_ingot"
 					type: "item"
 				}
+				{
+					count: 128
+					id: "3AC13A63A0D7D6A9"
+					item: "gtocore:copper_coin"
+					type: "item"
+				}
 			]
 			shape: "octagon"
 			subtitle: "{gto.main-stoneage.quests.41F8B4785DF68920.subtitle}"
@@ -2225,7 +2235,7 @@
 			optional: true
 			rewards: [
 				{
-					count: 128
+					count: 64
 					id: "0BCDAC9C08ADBEE7"
 					item: "gtceu:bronze_ingot"
 					type: "item"
@@ -2273,11 +2283,18 @@
 			icon: "gtceu:bronze_ingot"
 			id: "6097173C67222EC0"
 			optional: true
-			rewards: [{
-				id: "1F3EFB3D33C6BA0A"
-				item: "gtceu:bronze_ingot"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "1F3EFB3D33C6BA0A"
+					item: "gtceu:bronze_ingot"
+					type: "item"
+				}
+				{
+					id: "0A27F98E3891A560"
+					item: "gtocore:copper_coin"
+					type: "item"
+				}
+			]
 			shape: "octagon"
 			subtitle: "{gto.main-stoneage.quests.6097173C67222EC0.subtitle}"
 			tasks: [{

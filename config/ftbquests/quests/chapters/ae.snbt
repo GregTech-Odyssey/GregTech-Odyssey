@@ -935,14 +935,6 @@
 			y: 11.5d
 		}
 		{
-			height: 1.0d
-			image: "gtocore:item/circuit/suprachronal_ev"
-			rotation: 0.0d
-			width: 1.0d
-			x: -3.5d
-			y: 21.5d
-		}
-		{
 			dependency: "28C9BF5C59F5F723"
 			height: 2.0d
 			image: "gtocore:item/circuit/suprachronal_lv"
@@ -1427,7 +1419,11 @@
 			y: 13.5d
 		}
 		{
-			description: ["在外探索看到一个巨坑，挖掉外层的陨石（不要丢），挖掉神秘方块即可获得"]
+			description: [
+				"在外探索看到一个巨坑，挖掉外层的陨石（不要丢），挖掉神秘方块即可获得"
+				""
+				"[\"如果你不知道该怎么寻找，不妨试试\",{ \"text\": \"指南针\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5511502A8AECF505\" } }]"
+			]
 			icon: "ae2:mysterious_cube"
 			id: "50158929D20CC96E"
 			subtitle: "小小的压印模板铸造宏大的自动化网络"
@@ -1759,6 +1755,12 @@
 				{
 					id: "1949328EC7B7239A"
 					item: "gtocore:me_storage_access_hatch"
+					type: "item"
+				}
+				{
+					id: "72BA992FC8C681C4"
+					item: "gtocore:me_bigint_storage_access_hatch_replacer"
+					optional_task: true
 					type: "item"
 				}
 			]
@@ -2132,6 +2134,7 @@
 				"0E9F8C57145D61AB"
 			]
 			hide_dependency_lines: true
+			hide_dependent_lines: true
 			id: "11A36F8DB547DF3D"
 			tasks: [{
 				id: "1240FD9A418C00AC"
@@ -3386,7 +3389,7 @@
 			description: [
 				"多用于矿物处理产线设计、热锭的自动输出"
 				""
-				"&8配合库存输入总线搭建子网有奇效&r"
+				"&7&o配合库存输入总线搭建子网有奇效&r"
 			]
 			id: "04E9F0144F4C96C2"
 			tasks: [{
@@ -3768,13 +3771,14 @@
 			]
 			hide_dependency_lines: true
 			id: "55105297CA6014DC"
+			optional: true
 			tasks: [{
 				id: "622ABD823F69A6A0"
 				item: "expatternprovider:caner"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 19.5d
+			x: -17.0d
+			y: 23.5d
 		}
 		{
 			dependencies: [
@@ -4052,8 +4056,9 @@
 			description: [
 				"&6显示元件&r可实现&e选择性显示&r网络的内容物"
 				""
-				"使用元件工作台进行标记，配合&6模糊卡&r、&6反相卡&r可以标记显示或屏蔽一类物品"
-				"&2e.g. 标记水+模糊卡+反相卡=屏蔽全部的流体&r"
+				"使用&6元件工作台&r进行标记，配合&6模糊卡&r、&6反相卡&r可以标记显示或屏蔽一类物品"
+				""
+				"&ae.g. 标记&r&6虚拟物品提供器&r&a+模糊卡+反相卡=屏蔽全部的虚拟物品&r"
 			]
 			icon: "ae2:view_cell"
 			id: "22C6DDA438A429F9"
@@ -4320,8 +4325,8 @@
 			id: "79CA845FB37A8FDC"
 			subtitle: "妙妙工具系列#3"
 			tasks: [{
-				id: "660A9ADB6EF95A29"
-				item: "gtocore:me_pattern_content_sort_machine"
+				id: "5C34096627947ED2"
+				item: "gtocore:pattern_content_access_terminal"
 				type: "item"
 			}]
 			x: -3.0d
@@ -4439,6 +4444,7 @@
 				"2A893BFDB41B7CFC"
 				"354F44C38AF0268D"
 				"50158929D20CC96E"
+				"3DED3C8D0C72214F"
 			]
 			dependency_requirement: "one_completed"
 			id: "44B2AB98840349D2"
@@ -4514,12 +4520,21 @@
 				"430034AB98D8453B"
 			]
 			description: ["存储器专供版本，将物品从ME存储器导入或导出"]
+			icon: "gtocore:me_io_storage_access_hatch"
 			id: "032F201D040AADE2"
-			tasks: [{
-				id: "170E5C2BA1490DBC"
-				item: "gtocore:me_io_storage_access_hatch"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "170E5C2BA1490DBC"
+					item: "gtocore:me_io_storage_access_hatch"
+					type: "item"
+				}
+				{
+					id: "3059CE1A0D410321"
+					item: "gtocore:me_io_port_storage_access_hatch_replacer"
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: -1.0d
 			y: 13.5d
 		}
@@ -4610,7 +4625,11 @@
 				"0A71F8193A3A39AE"
 				"50158929D20CC96E"
 			]
-			description: ["放入水和材料块可以快捷产出9份电路板"]
+			description: [
+				"放入水和材料块可以快捷产出9份电路板"
+				""
+				"特别注意制作硅板使用的硅块是&eExtendedAE&r的硅块，使用赛特斯石英粉即可制作"
+			]
 			hide_dependency_lines: true
 			id: "3DED3C8D0C72214F"
 			tasks: [{
@@ -4670,6 +4689,85 @@
 			]
 			x: -9.0d
 			y: 9.5d
+		}
+		{
+			can_repeat: true
+			icon: "ae2:facility_terminal"
+			id: "1E28BA38DEEB17A9"
+			rewards: [{
+				id: "0098430A76B66C38"
+				item: "ae2:facility_terminal"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2EA85E4E1A0F850A"
+					item: "ae2:facility_terminal"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "11294E1C1AC2C606"
+					type: "checkmark"
+				}
+			]
+			x: -1.0d
+			y: 23.5d
+		}
+		{
+			dependencies: [
+				"11A36F8DB547DF3D"
+				"0B36C7D7D1594CB7"
+			]
+			id: "11542CB33270FB67"
+			tasks: [{
+				id: "6CF86BF5981FAC3F"
+				item: "merequester:requester_terminal"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 23.5d
+		}
+		{
+			dependencies: [
+				"21C0E1FEC1347A3A"
+				"592D975F3146151E"
+			]
+			description: [
+				"&6ME成型面板&r会将正在输入ME网络的物品以方块的形式摆放到面前"
+				""
+				"&6ME破坏面板&r会将面前的方块破坏并输入到ME网络"
+				""
+				"&o&7一个经典应用场合是在方块转换室中达成自动化"
+			]
+			hide_dependency_lines: true
+			id: "577D9717F21B11FC"
+			tasks: [
+				{
+					id: "1124EAA29244ED3B"
+					item: "ae2:formation_plane"
+					type: "item"
+				}
+				{
+					id: "3A4D793FC8695F64"
+					item: "ae2:annihilation_plane"
+					type: "item"
+				}
+			]
+			x: -13.0d
+			y: 21.5d
+		}
+		{
+			dependencies: ["145E176D0807D81C"]
+			hide_dependency_lines: true
+			id: "183FEA180B2B3173"
+			tasks: [{
+				id: "047B9E52605F19CD"
+				item: "expatternprovider:ex_crafting_terminal"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 19.5d
 		}
 	]
 	subtitle: ["Applied Energistics 2"]

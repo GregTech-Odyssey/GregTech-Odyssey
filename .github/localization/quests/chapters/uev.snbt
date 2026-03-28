@@ -217,7 +217,15 @@
 			y: -0.5d
 		}
 		{
+			description: [
+				"{gto.uev.quests.0DC13F257B0314CC.description0}"
+				""
+				"{gto.uev.quests.0DC13F257B0314CC.description1}"
+			]
 			id: "0DC13F257B0314CC"
+			shape: "gear"
+			size: 1.5d
+			subtitle: "{gto.uev.quests.0DC13F257B0314CC.subtitle}"
 			tasks: [{
 				id: "1109E4CD5BBDC47E"
 				item: "gtocore:eye_of_harmony"
@@ -500,6 +508,49 @@
 			dependencies: ["0E1A670099E3C3F2"]
 			id: "3448FEC025A0CA9C"
 			optional: true
+			rewards: [
+				{
+					count: 99
+					id: "76C87BCFE6513188"
+					item: "gtceu:creative_chest"
+					type: "item"
+				}
+				{
+					count: 99
+					id: "3A56B8DC94F084BA"
+					item: "gtceu:creative_tank"
+					type: "item"
+				}
+				{
+					count: 99
+					id: "3F05895D7E233270"
+					item: "gtmthings:creative_fluid_input_hatch"
+					type: "item"
+				}
+				{
+					count: 99
+					id: "361398A9B190B025"
+					item: "gtmthings:creative_item_input_bus"
+					type: "item"
+				}
+				{
+					count: 99
+					id: "1C10C6328394AA86"
+					item: "gtmthings:creative_laser_hatch"
+					type: "item"
+				}
+				{
+					count: 99
+					id: "00F5AD10EE11A073"
+					item: "gtceu:creative_computation_provider"
+					type: "item"
+				}
+				{
+					id: "00DBF24CD92A2D1C"
+					item: "gtocore:all_fluids_cell"
+					type: "item"
+				}
+			]
 			subtitle: "{gto.uev.quests.3448FEC025A0CA9C.subtitle}"
 			tasks: [{
 				id: "4578A8C0BB3E0155"
@@ -511,6 +562,8 @@
 		}
 		{
 			description: ["{gto.uev.quests.2EDCB01B9811A79D.description0}"]
+			hide_dependent_lines: true
+			icon: "gtocore:baryonic_perfection_water_bucket"
 			id: "2EDCB01B9811A79D"
 			rewards: [{
 				id: "073F7587BB4E284F"
@@ -526,11 +579,27 @@
 				}
 				type: "item"
 			}]
+			shape: "rsquare"
 			tasks: [{
-				id: "378DB566F942202E"
-				item: "gtocore:degassed_water_bucket"
+				id: "65C95440B571C3A8"
+				item: {
+					Count: 1
+					id: "ae2:fluid_storage_cell_16k"
+					tag: {
+						byte: 16384L
+						type: 1
+						u: [I;
+							1162343746
+							-1788787660
+							-1830848364
+							-273450750
+						]
+					}
+				}
+				match_nbt: true
 				type: "item"
 			}]
+			title: "{gto.uev.quests.2EDCB01B9811A79D.title}"
 			x: -6.0d
 			y: -2.0d
 		}
@@ -619,6 +688,7 @@
 					type: "item"
 				}
 			]
+			shape: "none"
 			tasks: [{
 				id: "03BC803CB275580F"
 				type: "checkmark"
@@ -627,7 +697,6 @@
 			y: -6.0d
 		}
 		{
-			dependencies: ["4BEE8DA7018CD14D"]
 			id: "349D841C3AC757EE"
 			tasks: [{
 				id: "4A693F247715A612"
@@ -638,7 +707,6 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["4BEE8DA7018CD14D"]
 			id: "1B03B310BE94A3B3"
 			tasks: [{
 				id: "4A24785F13C32923"
@@ -647,6 +715,38 @@
 			}]
 			x: 0.0d
 			y: 4.0d
+		}
+		{
+			description: ["{gto.uev.quests.3FBB498BBBA5DBDC.description0}"]
+			icon: "gtocore:virtual_universe_data_access_hatch"
+			id: "3FBB498BBBA5DBDC"
+			rewards: [{
+				id: "78E1DB8A50F52FD7"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:i"
+							id: "gtocore:virtual_universe_data_access_hatch"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "6246B1E9894DC4A4"
+				item: {
+					Count: 1
+					id: "gtocore:obsidian_matrix"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "{gto.uev.quests.3FBB498BBBA5DBDC.title}"
+			x: -8.0d
+			y: -2.0d
 		}
 	]
 	subtitle: ["{gto.uev.subtitle0}"]

@@ -613,7 +613,7 @@
 			]
 			icon: "minecraft:raw_iron"
 			id: "7DB63DF889DDDEF4"
-			subtitle: "gt:raw_materials"
+			subtitle: "c:raw_materials"
 			tasks: [
 				{
 					id: "12386DFE17521548"
@@ -658,7 +658,7 @@
 			icon: "gtceu:crushed_iron_ore"
 			id: "6596611DD4CB5A60"
 			min_required_dependencies: 1
-			subtitle: "gt:crushed_ores"
+			subtitle: "c:crushed_ores"
 			tasks: [
 				{
 					id: "45B29F9F7327A305"
@@ -680,7 +680,7 @@
 			description: ["粉碎矿石 -> 锻造(快)/研磨(慢)"]
 			icon: "gtceu:impure_iron_dust"
 			id: "05046054F7D65653"
-			subtitle: "gt:impure_dusts"
+			subtitle: "c:impure_dusts"
 			tasks: [
 				{
 					id: "0624FA85DAAB27B4"
@@ -706,7 +706,7 @@
 			]
 			icon: "gtocore:milled_pyrope"
 			id: "3C2B4B80E425A9AD"
-			subtitle: "gt:milleds"
+			subtitle: "c:milleds"
 			tasks: [
 				{
 					id: "3DF923CA2FF25E4D"
@@ -763,7 +763,7 @@
 			]
 			icon: "gtceu:iron_dust"
 			id: "5AEE74DD9B0D511C"
-			subtitle: "gt:dusts"
+			subtitle: "c:dusts"
 			tasks: [
 				{
 					id: "7D58F9B03FA71A1D"
@@ -789,7 +789,7 @@
 			description: ["纯净矿石/粉碎矿石 -> 热离(慢)"]
 			icon: "gtceu:refined_iron_ore"
 			id: "56C020B4F1F7D8D1"
-			subtitle: "gt:refined_ores"
+			subtitle: "c:refined_ores"
 			tasks: [
 				{
 					id: "5822D0C2DAE09A76"
@@ -811,7 +811,7 @@
 			description: ["纯净矿石 -> 锻造(快)/研磨(慢)"]
 			icon: "gtceu:pure_iron_dust"
 			id: "79B98F942F1D8EDC"
-			subtitle: "gt:pure_dusts"
+			subtitle: "c:pure_dusts"
 			tasks: [
 				{
 					id: "0ACEBC9DEDFB3044"
@@ -834,7 +834,7 @@
 			description: ["纯净矿石 -> 筛选(慢)"]
 			icon: "gtceu:flawless_emerald_gem"
 			id: "621C664A94B042C0"
-			subtitle: "gt:flawless_gems / gt:exquisite_gems"
+			subtitle: "c:flawless_gems / c:exquisite_gems"
 			tasks: [
 				{
 					id: "7059009E6175E5EC"
@@ -856,7 +856,7 @@
 			description: ["粉碎矿石 -> 洗矿(快/慢)/浸洗(慢)"]
 			icon: "gtceu:purified_iron_ore"
 			id: "14EE67044597E62A"
-			subtitle: "gt:purified_ores"
+			subtitle: "c:purified_ores"
 			tasks: [
 				{
 					id: "512D19B265445F64"

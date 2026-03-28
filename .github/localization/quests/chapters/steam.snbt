@@ -392,6 +392,7 @@
 				""
 				"{gto.steam.quests.32A39A427D4A3AC2.description3}"
 			]
+			icon: "gtceu:primitive_blast_furnace"
 			id: "32A39A427D4A3AC2"
 			rewards: [{
 				count: 4
@@ -1357,6 +1358,8 @@
 				"{gto.steam.quests.29A2859398D5B252.description3}"
 				""
 				"{gto.steam.quests.29A2859398D5B252.description4}"
+				""
+				"{gto.steam.quests.29A2859398D5B252.description5}"
 			]
 			id: "29A2859398D5B252"
 			shape: "hexagon"
@@ -1728,12 +1731,20 @@
 			icon: "ad_astra:steel_ingot"
 			id: "768C5C35D4D80AA8"
 			optional: true
-			rewards: [{
-				count: 640
-				id: "7EBB79C0367AA913"
-				item: "ad_astra:steel_ingot"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 640
+					id: "7EBB79C0367AA913"
+					item: "ad_astra:steel_ingot"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "1E81D5971C9D9A95"
+					item: "gtocore:copper_coin"
+					type: "item"
+				}
+			]
 			shape: "octagon"
 			subtitle: "{gto.steam.quests.768C5C35D4D80AA8.subtitle}"
 			tasks: [{
@@ -1753,12 +1764,20 @@
 			icon: "ad_astra:steel_ingot"
 			id: "67B18FEE6862343A"
 			optional: true
-			rewards: [{
-				count: 192
-				id: "46F770A3703044A4"
-				item: "ad_astra:steel_ingot"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 192
+					id: "46F770A3703044A4"
+					item: "ad_astra:steel_ingot"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "759577374EA354C5"
+					item: "gtocore:copper_coin"
+					type: "item"
+				}
+			]
 			shape: "octagon"
 			subtitle: "{gto.steam.quests.67B18FEE6862343A.subtitle}"
 			tasks: [{
@@ -1893,12 +1912,20 @@
 			icon: "gtceu:wrought_iron_ingot"
 			id: "23CFCF3063B640F4"
 			optional: true
-			rewards: [{
-				count: 192
-				id: "6A882C417EDBCFD5"
-				item: "gtceu:wrought_iron_ingot"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 192
+					id: "6A882C417EDBCFD5"
+					item: "gtceu:wrought_iron_ingot"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "2FCC65B167E17EA8"
+					item: "gtocore:copper_coin"
+					type: "item"
+				}
+			]
 			shape: "octagon"
 			subtitle: "{gto.steam.quests.23CFCF3063B640F4.subtitle}"
 			tasks: [{

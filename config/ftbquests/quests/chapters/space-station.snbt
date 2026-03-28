@@ -94,7 +94,7 @@
 			description: [
 				"&o为了能在太空展开大规模的科研生产，&3公司&r&o研发了崭新的&6工业空间站&r&o。其内部空间是原来的数倍，同时带有&e拓展舱&r&o。然而，实际使用的员工却哀嚎连天——它需要制作许多为太空特制的新材料！"
 				""
-				"在太空中另找一片位置，将这个空间站放下去"
+				"&e你需要在太空中另找一片位置，将这个空间站放下去"
 				""
 				"内部的空间足以放置&9IV时代&r的&e工业大机器&r"
 				""
@@ -109,9 +109,10 @@
 				""
 				"而&a衔接舱&r可以与&e模块舱&r，以及&a衔接舱&r同类相连"
 			]
+			icon_scale: 0.9d
 			id: "58EC0AFA9742164A"
 			shape: "gear"
-			size: 1.0d
+			size: 1.25d
 			subtitle: "太空超净间ProMax"
 			tasks: [{
 				id: "7B1733047E7C39F8"
@@ -205,9 +206,10 @@
 				"49E04C29B878D3A8"
 				"5A9B478B1791A425"
 			]
+			icon_scale: 0.9d
 			id: "7D639CBD69B7AA61"
 			shape: "gear"
-			size: 1.0d
+			size: 1.25d
 			tasks: [{
 				id: "1AA90443D17D614C"
 				item: "gtocore:orbital_nanoprecision_processing_chamber"
@@ -217,10 +219,7 @@
 			y: -9.0d
 		}
 		{
-			dependencies: [
-				"61C37EC8503FFDD9"
-				"310210D2AD9515E3"
-			]
+			dependencies: ["310210D2AD9515E3"]
 			description: [
 				"漂浮在&6太空&r中，&d几乎为零的重力环境&r能改善一些加工条件，使得某些高级材料的制作成为可能"
 				""
@@ -233,6 +232,8 @@
 				"因此，你需要为机器建造一个&6真正的房子&r来让机器得以正常工作"
 				""
 				"[\"你现在可以去\",{ \"text\": \"穹宇居所\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"23E859D5CC9E4C8C\" } },\"章节看看了\"]"
+				""
+				"&e注意，地球空间站所需的材料相比其他空间站更便宜，你可以通过emi来查看具体需要的材料"
 				"{@pagebreak}"
 				"&d你的第一个空间站（地球）所需材料列表&r"
 				"&8（可在EMI查看每个星球建造空间站所需材料清单）&r"
@@ -244,7 +245,7 @@
 				"铝合金7050支撑机械方块 * 16"
 				"压力容器机械方块 * 16"
 				"过滤器机械方块 * 32"
-				"不锈钢GC-4框架 * 16"
+				"不锈钢-GC4框架 * 16"
 				"航天器密封机械方块 * 16"
 			]
 			icon: "gtocore:space_probe_mk1"
@@ -294,8 +295,10 @@
 		{
 			dependencies: ["7D639CBD69B7AA61"]
 			description: ["终于，你可以在空间站中使用激光仓了"]
+			icon_scale: 0.9d
 			id: "7CE4581B262B540F"
 			shape: "gear"
+			size: 1.25d
 			tasks: [{
 				id: "352BFFA5CC095106"
 				item: "gtocore:space_station_energy_conversion_module"
@@ -307,8 +310,10 @@
 		{
 			dependencies: ["58EC0AFA9742164A"]
 			description: ["连接地面与太空"]
+			icon_scale: 0.9d
 			id: "2B1C70663401671D"
 			shape: "gear"
+			size: 1.25d
 			tasks: [{
 				id: "5FFEF315F04A4569"
 				item: "gtocore:space_elevator_connector_module"
@@ -327,6 +332,29 @@
 			}]
 			x: 16.5d
 			y: -5.5d
+		}
+		{
+			dependencies: ["154F80E28FA53D99"]
+			description: ["让你的机器可以放在空间站之外"]
+			id: "61810C6EBDC37278"
+			tasks: [{
+				id: "2289286E7098F2C4"
+				item: "gtocore:space_shield_hatch"
+				type: "item"
+			}]
+			x: 14.816326530612223d
+			y: -10.754081632653055d
+		}
+		{
+			dependencies: ["7D639CBD69B7AA61"]
+			id: "20E82153682FF1DA"
+			tasks: [{
+				id: "4729738DAE8D5517"
+				item: "gtocore:planetary_gas_collector"
+				type: "item"
+			}]
+			x: 17.0d
+			y: -9.0d
 		}
 	]
 	subtitle: ["Aerospace Industry"]

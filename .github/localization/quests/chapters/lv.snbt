@@ -849,8 +849,8 @@
 			icon: "gtceu:lv_energy_input_hatch"
 			id: "23A116C4BAE96979"
 			rewards: [{
-				id: "27B3BEBE0FC9D1FF"
-				item: "gtocore:gold_coin"
+				id: "1A0B288DE57AE7EA"
+				item: "gtocore:silver_coin"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -888,6 +888,12 @@
 			]
 			icon: "gtceu:maintenance_hatch"
 			id: "58434872C6EC4E32"
+			rewards: [{
+				count: 5
+				id: "475D85B0BC979E80"
+				item: "gtceu:duct_tape"
+				type: "item"
+			}]
 			subtitle: "{gto.lv.quests.58434872C6EC4E32.subtitle}"
 			tasks: [
 				{
@@ -1890,6 +1896,8 @@
 				"{gto.lv.quests.1FCF7BF494F483B4.description0}"
 				""
 				"{gto.lv.quests.1FCF7BF494F483B4.description1}"
+				""
+				"{gto.lv.quests.1FCF7BF494F483B4.description2}"
 			]
 			id: "1FCF7BF494F483B4"
 			shape: "diamond"
@@ -2401,10 +2409,14 @@
 				"{gto.lv.quests.389D61CE9E799725.description1}"
 				""
 				"{gto.lv.quests.389D61CE9E799725.description2}"
+				""
 				"{gto.lv.quests.389D61CE9E799725.description3}"
 				"{gto.lv.quests.389D61CE9E799725.description4}"
 				"{gto.lv.quests.389D61CE9E799725.description5}"
 				"{gto.lv.quests.389D61CE9E799725.description6}"
+				"{gto.lv.quests.389D61CE9E799725.description7}"
+				""
+				"{gto.lv.quests.389D61CE9E799725.description8}"
 			]
 			id: "389D61CE9E799725"
 			rewards: [{

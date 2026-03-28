@@ -392,6 +392,7 @@
 				""
 				"以及，土高炉运作的时候中间那块岩浆是&4有伤害的&r"
 			]
+			icon: "gtceu:primitive_blast_furnace"
 			id: "32A39A427D4A3AC2"
 			rewards: [{
 				count: 4
@@ -1357,6 +1358,8 @@
 				"&o意味着你可以在导线上&a跳&r&6来&r&e跳&r&b去&r"
 				""
 				"当然如果你让超导线接收了过大的电流，它就会&4起火&r并且在一段时间后&4烧毁&r，如果电流远大于承载上限，则会&4直接烧毁&r"
+				""
+				"&e红色合金导线稍微有点特殊，它需要包一层橡胶成为线缆才能超导。其他的超导体制成导线直接就可以使用"
 			]
 			id: "29A2859398D5B252"
 			shape: "hexagon"
@@ -1725,12 +1728,20 @@
 			icon: "ad_astra:steel_ingot"
 			id: "768C5C35D4D80AA8"
 			optional: true
-			rewards: [{
-				count: 640
-				id: "7EBB79C0367AA913"
-				item: "ad_astra:steel_ingot"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 640
+					id: "7EBB79C0367AA913"
+					item: "ad_astra:steel_ingot"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "1E81D5971C9D9A95"
+					item: "gtocore:copper_coin"
+					type: "item"
+				}
+			]
 			shape: "octagon"
 			subtitle: "快进到跃进一号"
 			tasks: [{
@@ -1750,12 +1761,20 @@
 			icon: "ad_astra:steel_ingot"
 			id: "67B18FEE6862343A"
 			optional: true
-			rewards: [{
-				count: 192
-				id: "46F770A3703044A4"
-				item: "ad_astra:steel_ingot"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 192
+					id: "46F770A3703044A4"
+					item: "ad_astra:steel_ingot"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "759577374EA354C5"
+					item: "gtocore:copper_coin"
+					type: "item"
+				}
+			]
 			shape: "octagon"
 			subtitle: "聊胜于无"
 			tasks: [{
@@ -1859,9 +1878,9 @@
 			description: [
 				"GTO中的GT管道经过了魔改："
 				""
-				"-优化tps，流体管道没有缓存，流体从输入直达输出"
+				"- 优化tps，流体管道没有缓存，流体从输入直达输出"
 				""
-				"-能够主动抽取机器/容器中的物品/流体，用扳手控制管道方向的同时也将激活管道的主动抽取功能"
+				"- 能够主动抽取机器/容器中的物品/流体，用扳手控制管道方向的同时也将激活管道的主动抽取功能"
 			]
 			icon: "gtceu:bronze_normal_fluid_pipe"
 			id: "39D96F76911B771E"
@@ -1890,12 +1909,20 @@
 			icon: "gtceu:wrought_iron_ingot"
 			id: "23CFCF3063B640F4"
 			optional: true
-			rewards: [{
-				count: 192
-				id: "6A882C417EDBCFD5"
-				item: "gtceu:wrought_iron_ingot"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 192
+					id: "6A882C417EDBCFD5"
+					item: "gtceu:wrought_iron_ingot"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "2FCC65B167E17EA8"
+					item: "gtocore:copper_coin"
+					type: "item"
+				}
+			]
 			shape: "octagon"
 			subtitle: "下一个阶段的重要材料"
 			tasks: [{

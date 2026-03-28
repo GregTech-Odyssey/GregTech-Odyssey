@@ -935,14 +935,6 @@
 			y: 11.5d
 		}
 		{
-			height: 1.0d
-			image: "gtocore:item/circuit/suprachronal_ev"
-			rotation: 0.0d
-			width: 1.0d
-			x: -3.5d
-			y: 21.5d
-		}
-		{
 			dependency: "28C9BF5C59F5F723"
 			height: 2.0d
 			image: "gtocore:item/circuit/suprachronal_lv"
@@ -1427,7 +1419,11 @@
 			y: 13.5d
 		}
 		{
-			description: ["{gto.ae.quests.50158929D20CC96E.description0}"]
+			description: [
+				"{gto.ae.quests.50158929D20CC96E.description0}"
+				""
+				"[\"\", {\"translate\": \"gto.ae.quests.50158929D20CC96E.description1.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"5511502A8AECF505\"}, \"translate\": \"gto.ae.quests.50158929D20CC96E.description1.rich_text1\"}]"
+			]
 			icon: "ae2:mysterious_cube"
 			id: "50158929D20CC96E"
 			subtitle: "{gto.ae.quests.50158929D20CC96E.subtitle}"
@@ -1759,6 +1755,12 @@
 				{
 					id: "1949328EC7B7239A"
 					item: "gtocore:me_storage_access_hatch"
+					type: "item"
+				}
+				{
+					id: "72BA992FC8C681C4"
+					item: "gtocore:me_bigint_storage_access_hatch_replacer"
+					optional_task: true
 					type: "item"
 				}
 			]
@@ -2132,6 +2134,7 @@
 				"0E9F8C57145D61AB"
 			]
 			hide_dependency_lines: true
+			hide_dependent_lines: true
 			id: "11A36F8DB547DF3D"
 			tasks: [{
 				id: "1240FD9A418C00AC"
@@ -3768,13 +3771,14 @@
 			]
 			hide_dependency_lines: true
 			id: "55105297CA6014DC"
+			optional: true
 			tasks: [{
 				id: "622ABD823F69A6A0"
 				item: "expatternprovider:caner"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 19.5d
+			x: -17.0d
+			y: 23.5d
 		}
 		{
 			dependencies: [
@@ -4053,6 +4057,7 @@
 				"{gto.ae.quests.22C6DDA438A429F9.description0}"
 				""
 				"{gto.ae.quests.22C6DDA438A429F9.description1}"
+				""
 				"{gto.ae.quests.22C6DDA438A429F9.description2}"
 			]
 			icon: "ae2:view_cell"
@@ -4320,8 +4325,8 @@
 			id: "79CA845FB37A8FDC"
 			subtitle: "{gto.ae.quests.79CA845FB37A8FDC.subtitle}"
 			tasks: [{
-				id: "660A9ADB6EF95A29"
-				item: "gtocore:me_pattern_content_sort_machine"
+				id: "5C34096627947ED2"
+				item: "gtocore:pattern_content_access_terminal"
 				type: "item"
 			}]
 			x: -3.0d
@@ -4439,6 +4444,7 @@
 				"2A893BFDB41B7CFC"
 				"354F44C38AF0268D"
 				"50158929D20CC96E"
+				"3DED3C8D0C72214F"
 			]
 			dependency_requirement: "one_completed"
 			id: "44B2AB98840349D2"
@@ -4514,12 +4520,21 @@
 				"430034AB98D8453B"
 			]
 			description: ["{gto.ae.quests.032F201D040AADE2.description0}"]
+			icon: "gtocore:me_io_storage_access_hatch"
 			id: "032F201D040AADE2"
-			tasks: [{
-				id: "170E5C2BA1490DBC"
-				item: "gtocore:me_io_storage_access_hatch"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "170E5C2BA1490DBC"
+					item: "gtocore:me_io_storage_access_hatch"
+					type: "item"
+				}
+				{
+					id: "3059CE1A0D410321"
+					item: "gtocore:me_io_port_storage_access_hatch_replacer"
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: -1.0d
 			y: 13.5d
 		}
@@ -4610,7 +4625,11 @@
 				"0A71F8193A3A39AE"
 				"50158929D20CC96E"
 			]
-			description: ["{gto.ae.quests.3DED3C8D0C72214F.description0}"]
+			description: [
+				"{gto.ae.quests.3DED3C8D0C72214F.description0}"
+				""
+				"{gto.ae.quests.3DED3C8D0C72214F.description1}"
+			]
 			hide_dependency_lines: true
 			id: "3DED3C8D0C72214F"
 			tasks: [{
@@ -4670,6 +4689,85 @@
 			]
 			x: -9.0d
 			y: 9.5d
+		}
+		{
+			can_repeat: true
+			icon: "ae2:facility_terminal"
+			id: "1E28BA38DEEB17A9"
+			rewards: [{
+				id: "0098430A76B66C38"
+				item: "ae2:facility_terminal"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2EA85E4E1A0F850A"
+					item: "ae2:facility_terminal"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "11294E1C1AC2C606"
+					type: "checkmark"
+				}
+			]
+			x: -1.0d
+			y: 23.5d
+		}
+		{
+			dependencies: [
+				"11A36F8DB547DF3D"
+				"0B36C7D7D1594CB7"
+			]
+			id: "11542CB33270FB67"
+			tasks: [{
+				id: "6CF86BF5981FAC3F"
+				item: "merequester:requester_terminal"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 23.5d
+		}
+		{
+			dependencies: [
+				"21C0E1FEC1347A3A"
+				"592D975F3146151E"
+			]
+			description: [
+				"{gto.ae.quests.577D9717F21B11FC.description0}"
+				""
+				"{gto.ae.quests.577D9717F21B11FC.description1}"
+				""
+				"{gto.ae.quests.577D9717F21B11FC.description2}"
+			]
+			hide_dependency_lines: true
+			id: "577D9717F21B11FC"
+			tasks: [
+				{
+					id: "1124EAA29244ED3B"
+					item: "ae2:formation_plane"
+					type: "item"
+				}
+				{
+					id: "3A4D793FC8695F64"
+					item: "ae2:annihilation_plane"
+					type: "item"
+				}
+			]
+			x: -13.0d
+			y: 21.5d
+		}
+		{
+			dependencies: ["145E176D0807D81C"]
+			hide_dependency_lines: true
+			id: "183FEA180B2B3173"
+			tasks: [{
+				id: "047B9E52605F19CD"
+				item: "expatternprovider:ex_crafting_terminal"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 19.5d
 		}
 	]
 	subtitle: ["{gto.ae.subtitle0}"]
