@@ -24,11 +24,13 @@ GregTech-Odyssey is a fully optimized tech-oriented GT modpack designed to offer
 
 ## License
 
-- All content in this series is prohibited for commercial use.
-- This modpack is licensed under [Attribution-NonCommercial-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-nc-sa/4.0/).
-- The [core mod code](https://github.com/GregTech-Odyssey/GTOCore) (`src/main/java/` portion) is licensed under the [GNU GENERAL PUBLIC LICENSE Version 3](https://www.gnu.org/licenses/gpl-3.0.html).
-- Rights to quests (texts) are reserved. Unauthorized use is prohibited.
-- All our original textures follow CC BY-NC-SA 4.0 license
+- This project is released primarily for non-commercial use. Unless otherwise specified, most contents of the project (including the modpack structure, original assets, and texts) may not be used for commercial purposes.
+- The modpack as a whole is licensed under [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+- The [core mod code](https://github.com/GregTech-Odyssey/GTOCore) (original code under the `src/main/java/` of GTOCore) is licensed under [GNU General Public License v3.0 (GPLv3)](https://www.gnu.org/licenses/gpl-3.0.html).
+- Quest texts are All Rights Reserved. Any unauthorized use is prohibited.
+- The [community-contributed localization repository](https://github.com/GregTech-Odyssey/GTO-Translations) is licensed under CC BY-NC-SA 4.0.
+- Original texture assets in this project are licensed under CC BY-NC-SA 4.0.
+- This project includes code and assets integrated from other mods. The copyright of such content belongs to their respective original authors and remains subject to their original licenses. In case of any conflict between those licenses and other parts of this project, the original licenses shall prevail. See details in: [THIRD_PARTY_LICENSES.md](THIRD_PARTY_LICENSES.md).
 
 ## Usage
 

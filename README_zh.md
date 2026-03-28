@@ -24,11 +24,13 @@
 
 ## 协议
 
-- 该系列全部内容禁止商业使用
-- 本整合包使用 [Attribution-NonCommercial-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-nc-sa/4.0/)
-- [核心模组代码](https://github.com/GregTech-Odyssey/GTOCore)（src/main/java/部分）使用 [GNU GENERAL PUBLIC LICENSE Version 3](https://www.gnu.org/licenses/gpl-3.0.html)
-- 任务（文本）保留所有权利。未经授权的使用是被禁止的。
-- 我们所有的原创纹理均遵循 CC BY-NC-SA 4.0 许可协议。
+- 本项目整体以非商业用途为目的发布。除非另有说明，项目中的大多数内容（如整合包结构、原创资源、文本等）均禁止用于商业用途。
+- 本整合包整体采用 [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/)。
+- [核心模组代码](https://github.com/GregTech-Odyssey/GTOCore)（GTOCore `src/main/java/` 目录下的原创代码）采用 [GNU General Public License v3.0 (GPLv3)](https://www.gnu.org/licenses/gpl-3.0.html)。
+- 任务（文本）保留所有权利 (All Rights Reserved)，未经授权的使用是被禁止的。
+- [社区贡献的本地化文本仓库](https://github.com/GregTech-Odyssey/GTO-Translations) 采用 CC BY-NC-SA 4.0。
+- 本项目原创纹理资源采用 CC BY-NC-SA 4.0。
+- 本项目整合了部分来自其他模组的代码与资源文件，这些内容的版权归其原作者所有，并继续遵循其各自的原始许可证。若其许可证与本项目其他部分存在冲突，则以原始许可证为准。详见：[THIRD_PARTY_LICENSES.md](THIRD_PARTY_LICENSES.md)。
 
 ## 使用
 
