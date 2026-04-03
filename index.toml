@@ -1430,7 +1430,7 @@ hash = "84254dc1e5a56ea70df6b16a2fb2620040592badae436c255997aaae84996d91"
 
 [[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/en_us.json"
-hash = "d1e11bd97bcda0436a0d87bf3c39f1980a5fde013b0c545686d932355b9d69b4"
+hash = "8fe29c3a9c8b8cd07329ca98c411d9505eabdd8b3e50592708acaf59988b67f5"
 
 [[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/ru_ru.json"
@@ -2881,7 +2881,7 @@ metafile = true
 
 [[files]]
 file = "mods/fast-nbt.pw.toml"
-hash = "b6c5e825de32382f0602be2a836fff109878b9c8f66d0bee5871a5178bc79ba7"
+hash = "ad7af9705c98ac6b57e08d2b012890535e209db6bf07caf15a8fb0a087cb116a"
 metafile = true
 
 [[files]]
@@ -3010,8 +3010,8 @@ hash = "9157998839812c6bec7ae2f315fe9cb55dc68a1f08a792bcf0fe846a4c6042b6"
 metafile = true
 
 [[files]]
-file = "mods/gtocore-0.5.5-pre2.jar"
-hash = "0fbf5250ca3388657e802cecfb32b768e1a973a16157ccce5ad6d5be39bad472"
+file = "mods/gtocore-0.5.5-pre3.jar"
+hash = "f778212da43d6541fd80bf4181cde050c2bfcbb355c4a9a4c633d626856b00e4"
 
 [[files]]
 file = "mods/gtonativelib-1.0.jar"
@@ -3144,7 +3144,7 @@ metafile = true
 
 [[files]]
 file = "mods/moremorelang.pw.toml"
-hash = "69fa8583fc38df6ecb610fb87017f8a9f931368a03cc610c7e68343db210f1bf"
+hash = "31f658d5ce1418f4bf6bb0507ba2b313ed70b076278cea206728e6d34f90d82d"
 metafile = true
 
 [[files]]
@@ -3189,7 +3189,7 @@ metafile = true
 
 [[files]]
 file = "mods/oh-the-trees-youll-grow.pw.toml"
-hash = "4b4d83e721458f356072f309058dbdcc5ab490dd41b53764ec6305dcf30a6ed6"
+hash = "2a6cecc87fb42098b8b4a6ca813ce1ae362d43841918957c2388dff65149315c"
 metafile = true
 
 [[files]]
@@ -3269,12 +3269,12 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "455398e69eb834dbd972a039b0fa3a2b01b32407e93e637c0533059b13d39541"
+hash = "15348d376fabd3cf6584d97c22d4d191e0f36e5d55f0b4fde7f13bb16f83c2d2"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "496aaf6476d34bcc0d9096d9da0e1bff9702d319d948f488a7425775f7b90d59"
+hash = "cb290ae72b126caed4148800741c6233651107b8c8fbef6e736cd62db0566340"
 metafile = true
 
 [[files]]
@@ -3349,10 +3349,10 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/ae-dark-ui-multi-module.pw.toml"
-hash = "1e65487bf3a05509c3b7c2ba6859c24349cec542ab200763e4a8528cdb2b012c"
+hash = "3a673144480ea23fa9d7d57d47e1cb0bdc3e01206a8ea1e1856b6e9332f8f3eb"
 metafile = true
 
 [[files]]
 file = "resourcepacks/ae-light-ui-multi-module.pw.toml"
-hash = "76b6269069abc542ba61e4b59291ebfa6bba18e8781796f8ed97e87968b2184a"
+hash = "297edef3938041b268cee889d3cc8743e7a28ded4f9fbfbfb14a59354edb9c81"
 metafile = true
