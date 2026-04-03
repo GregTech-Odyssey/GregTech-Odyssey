@@ -548,8 +548,15 @@
 					type: "item"
 				}
 				{
-					id: "7E00F485192A6972"
-					item: "gtocore:integral_framework_lv"
+					id: "39A0B7833083A893"
+					item: {
+						Count: 1
+						id: "itemfilters:id_regex"
+						tag: {
+							value: "gtocore:integral_framework_.+"
+						}
+					}
+					title: "{gto.mv.quests.0D63E5A54480E693.tasks.39A0B7833083A893.title}"
 					type: "item"
 				}
 			]
@@ -711,7 +718,13 @@
 				"49E5CC5873FA226F"
 				"5956E4E095324029"
 			]
-			description: ["{gto.mv.quests.60779EE5AA0761BD.description0}"]
+			description: [
+				"{gto.mv.quests.60779EE5AA0761BD.description0}"
+				""
+				"{gto.mv.quests.60779EE5AA0761BD.description1}"
+				""
+				"{gto.mv.quests.60779EE5AA0761BD.description2}"
+			]
 			hide_dependency_lines: true
 			id: "60779EE5AA0761BD"
 			rewards: [{
@@ -737,7 +750,13 @@
 		}
 		{
 			dependencies: ["752E02060595192D"]
-			description: ["{gto.mv.quests.171118E236848A2E.description0}"]
+			description: [
+				"{gto.mv.quests.171118E236848A2E.description0}"
+				""
+				"{gto.mv.quests.171118E236848A2E.description1}"
+				""
+				"{gto.mv.quests.171118E236848A2E.description2}"
+			]
 			hide_dependency_lines: true
 			id: "171118E236848A2E"
 			shape: "hexagon"
@@ -749,22 +768,6 @@
 			}]
 			x: -6.75d
 			y: -3.25d
-		}
-		{
-			dependencies: ["49E5CC5873FA226F"]
-			description: ["{gto.mv.quests.0A9501C9027AC03D.description0}"]
-			hide_dependency_lines: true
-			id: "0A9501C9027AC03D"
-			shape: "hexagon"
-			size: 1.5d
-			subtitle: "{gto.mv.quests.0A9501C9027AC03D.subtitle}"
-			tasks: [{
-				id: "5D43198A9E3AC42A"
-				item: "gtceu:implosion_compressor"
-				type: "item"
-			}]
-			x: -5.25d
-			y: -0.25d
 		}
 		{
 			dependencies: ["3899164922A734D8"]
@@ -1143,9 +1146,6 @@
 				"{gto.mv.quests.51179D5DAF67715A.description0}"
 				""
 				"{gto.mv.quests.51179D5DAF67715A.description1}"
-				""
-				"{gto.mv.quests.51179D5DAF67715A.description2}"
-				"{gto.mv.quests.51179D5DAF67715A.description3}"
 			]
 			hide_dependency_lines: true
 			id: "51179D5DAF67715A"
@@ -1249,6 +1249,8 @@
 				"{gto.mv.quests.2386117F9423A54E.description0}"
 				""
 				"[\"\", {\"translate\": \"gto.mv.quests.2386117F9423A54E.description1.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"20B8E68273D7D0DE\"}, \"translate\": \"gto.mv.quests.2386117F9423A54E.description1.rich_text1\"}, {\"translate\": \"gto.mv.quests.2386117F9423A54E.description1.rich_text2\"}]"
+				""
+				"{gto.mv.quests.2386117F9423A54E.description2}"
 			]
 			hide_dependency_lines: true
 			icon: "gtocore:mv_wireless_input_hatch"
@@ -1602,6 +1604,23 @@
 			title: "{gto.mv.quests.2E8860AF6354FFE3.title}"
 			x: 9.0d
 			y: -2.5d
+		}
+		{
+			dependencies: ["0EE9737781747575"]
+			description: ["{gto.mv.quests.7FD151D808A41D6C.description0}"]
+			hide_dependency_lines: true
+			id: "7FD151D808A41D6C"
+			optional: true
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{gto.mv.quests.7FD151D808A41D6C.subtitle}"
+			tasks: [{
+				id: "62AE2C2CABA01A4C"
+				item: "gtocore:energetic_photovoltaic_power_station"
+				type: "item"
+			}]
+			x: -5.25d
+			y: -0.25d
 		}
 	]
 	subtitle: ["{gto.mv.subtitle0}"]

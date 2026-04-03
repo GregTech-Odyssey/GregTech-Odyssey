@@ -65,12 +65,21 @@
 			x: -4.5d
 			y: 4.25d
 		}
+		{
+			id: "726FB94A361C384B"
+			linked_quest: "6CC4173B5BF99920"
+			shape: "hexagon"
+			size: 1.5d
+			x: -12.0d
+			y: 3.0d
+		}
 	]
 	quests: [
 		{
 			dependencies: ["507807175748245C"]
 			description: [
 				"{gto.lv.quests.733C4A68EC2FA1ED.description0}"
+				""
 				"{gto.lv.quests.733C4A68EC2FA1ED.description1}"
 			]
 			id: "733C4A68EC2FA1ED"
@@ -984,7 +993,6 @@
 			dependencies: [
 				"2F057F1B67418205"
 				"0EDB058F9C6882FE"
-				"49122B7DBE422691"
 			]
 			id: "683439639A27C86E"
 			tasks: [{
@@ -1117,26 +1125,6 @@
 			}]
 			x: -12.0d
 			y: -3.0d
-		}
-		{
-			dependencies: [
-				"6BB3386725B228D5"
-				"12F3FAEB69397980"
-			]
-			description: ["{gto.lv.quests.7FD151D808A41D6C.description0}"]
-			hide_dependency_lines: true
-			id: "7FD151D808A41D6C"
-			optional: true
-			shape: "hexagon"
-			size: 1.5d
-			subtitle: "{gto.lv.quests.7FD151D808A41D6C.subtitle}"
-			tasks: [{
-				id: "62AE2C2CABA01A4C"
-				item: "gtocore:energetic_photovoltaic_power_station"
-				type: "item"
-			}]
-			x: -10.5d
-			y: 3.0d
 		}
 		{
 			dependencies: ["12F3FAEB69397980"]
@@ -1866,6 +1854,11 @@
 		}
 		{
 			dependencies: ["35347DE9C34F2825"]
+			description: [
+				"{gto.lv.quests.262EB199FFE689FF.description0}"
+				""
+				"{gto.lv.quests.262EB199FFE689FF.description1}"
+			]
 			id: "262EB199FFE689FF"
 			tasks: [{
 				id: "01C8AC4F9FD1ECA9"
@@ -1877,7 +1870,11 @@
 		}
 		{
 			dependencies: ["29896685477AA469"]
-			description: ["{gto.lv.quests.7F65A1C533ED1C3B.description0}"]
+			description: [
+				"{gto.lv.quests.7F65A1C533ED1C3B.description0}"
+				""
+				"{gto.lv.quests.7F65A1C533ED1C3B.description1}"
+			]
 			id: "7F65A1C533ED1C3B"
 			shape: "diamond"
 			subtitle: "{gto.lv.quests.7F65A1C533ED1C3B.subtitle}"
@@ -1911,7 +1908,10 @@
 			y: 6.5d
 		}
 		{
-			dependencies: ["06534664971F6E68"]
+			dependencies: [
+				"06534664971F6E68"
+				"561F5AACF437E7C5"
+			]
 			description: [
 				"{gto.lv.quests.39879EA8A9F79913.description0}"
 				""
@@ -1922,6 +1922,8 @@
 				"{gto.lv.quests.39879EA8A9F79913.description3}"
 				""
 				"{gto.lv.quests.39879EA8A9F79913.description4}"
+				""
+				"{gto.lv.quests.39879EA8A9F79913.description5}"
 			]
 			icon: "gtceu:stainless_steel_frame"
 			id: "39879EA8A9F79913"
@@ -2172,7 +2174,7 @@
 				item: "gtocore:large_steam_solar_boiler"
 				type: "item"
 			}]
-			x: -12.0d
+			x: -10.5d
 			y: 3.0d
 		}
 		{

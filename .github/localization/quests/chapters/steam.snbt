@@ -1332,6 +1332,7 @@
 				"{gto.steam.quests.4CC934314D14A5EA.description0}"
 				""
 				"{gto.steam.quests.4CC934314D14A5EA.description1}"
+				""
 				"[\"\", {\"translate\": \"gto.steam.quests.4CC934314D14A5EA.description2.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"4C94E56A9270EFFB\"}, \"translate\": \"gto.steam.quests.4CC934314D14A5EA.description2.rich_text1\"}, {\"translate\": \"gto.steam.quests.4CC934314D14A5EA.description2.rich_text2\"}]"
 			]
 			id: "4CC934314D14A5EA"
@@ -1764,20 +1765,12 @@
 			icon: "ad_astra:steel_ingot"
 			id: "67B18FEE6862343A"
 			optional: true
-			rewards: [
-				{
-					count: 192
-					id: "46F770A3703044A4"
-					item: "ad_astra:steel_ingot"
-					type: "item"
-				}
-				{
-					count: 32
-					id: "759577374EA354C5"
-					item: "gtocore:copper_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 192
+				id: "46F770A3703044A4"
+				item: "ad_astra:steel_ingot"
+				type: "item"
+			}]
 			shape: "octagon"
 			subtitle: "{gto.steam.quests.67B18FEE6862343A.subtitle}"
 			tasks: [{
@@ -1790,7 +1783,11 @@
 		}
 		{
 			dependencies: ["056EC4E6FAF614B7"]
-			description: ["{gto.steam.quests.276CCDB305FFBE2F.description0}"]
+			description: [
+				"{gto.steam.quests.276CCDB305FFBE2F.description0}"
+				""
+				"{gto.steam.quests.276CCDB305FFBE2F.description1}"
+			]
 			hide_until_deps_visible: true
 			icon: "minecraft:glass"
 			id: "276CCDB305FFBE2F"
@@ -1972,6 +1969,7 @@
 				"{gto.steam.quests.2D630430259F9131.description3}"
 				"{@pagebreak}"
 				"{gto.steam.quests.2D630430259F9131.description4}"
+				""
 				"{gto.steam.quests.2D630430259F9131.description5}"
 				"{gto.steam.quests.2D630430259F9131.description6}"
 				"{gto.steam.quests.2D630430259F9131.description7}"
@@ -2090,7 +2088,7 @@
 			icon: "gtceu:steam_input_bus"
 			id: "4276738FE46AC021"
 			rewards: [{
-				count: 16
+				count: 8
 				id: "10C00EAF76D71ABA"
 				item: "gtocore:copper_coin"
 				type: "item"

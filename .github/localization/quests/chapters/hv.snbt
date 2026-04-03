@@ -98,14 +98,6 @@
 	order_index: 5
 	quest_links: [
 		{
-			id: "0A5AFD1CE76EA8F8"
-			linked_quest: "0A9501C9027AC03D"
-			shape: "hexagon"
-			size: 1.5d
-			x: 3.0d
-			y: 5.5d
-		}
-		{
 			id: "36E98813A7A95723"
 			linked_quest: "05F38A7107CCF2C1"
 			shape: "hexagon"
@@ -242,6 +234,7 @@
 				"{gto.hv.quests.4329DC25522DE09E.description1}"
 				"{@pagebreak}"
 				"{gto.hv.quests.4329DC25522DE09E.description2}"
+				""
 				"{gto.hv.quests.4329DC25522DE09E.description3}"
 				""
 				"{gto.hv.quests.4329DC25522DE09E.description4}"
@@ -1304,7 +1297,11 @@
 		}
 		{
 			dependencies: ["6F760D81DC93ACFB"]
-			description: ["{gto.hv.quests.53A8A0B00211A141.description0}"]
+			description: [
+				"{gto.hv.quests.53A8A0B00211A141.description0}"
+				""
+				"{gto.hv.quests.53A8A0B00211A141.description1}"
+			]
 			id: "53A8A0B00211A141"
 			tasks: [{
 				id: "04FDEDD16AAEB11E"
@@ -2107,6 +2104,22 @@
 				value: 1
 			}]
 			x: -7.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["49E5CC5873FA226F"]
+			description: ["{gto.hv.quests.0A9501C9027AC03D.description0}"]
+			hide_dependency_lines: true
+			id: "0A9501C9027AC03D"
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{gto.hv.quests.0A9501C9027AC03D.subtitle}"
+			tasks: [{
+				id: "5D43198A9E3AC42A"
+				item: "gtceu:implosion_compressor"
+				type: "item"
+			}]
+			x: 3.0d
 			y: 5.5d
 		}
 	]

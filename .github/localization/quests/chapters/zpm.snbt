@@ -1093,7 +1093,11 @@
 		}
 		{
 			dependencies: ["24F1061AFD1BFEB2"]
-			description: ["{gto.zpm.quests.3AD590B74363891F.description0}"]
+			description: [
+				"{gto.zpm.quests.3AD590B74363891F.description0}"
+				""
+				"{gto.zpm.quests.3AD590B74363891F.description1}"
+			]
 			icon: "gtocore:orbital_smelting_facility"
 			id: "3AD590B74363891F"
 			tasks: [{
