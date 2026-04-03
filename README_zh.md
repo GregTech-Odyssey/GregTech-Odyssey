@@ -30,7 +30,7 @@
 - 任务（文本）默认保留所有权利 (All Rights Reserved)。未经授权的使用是被禁止的。对于已明确标注来源的任务内容，版权归其原作者所有，并受其各自的原始许可证约束。
 - [社区贡献的本地化文本仓库](https://github.com/GregTech-Odyssey/GTO-Translations) 采用 CC BY-NC-SA 4.0。
 - 本项目原创纹理资源采用 CC BY-NC-SA 4.0。
-- 本项目整合了部分来自其他模组的代码与资源文件，这些内容的版权归其原作者所有，并受其各自的原始许可证约束。若其许可证与本项目其他部分存在冲突，则以原始许可证为准。详见：[THIRD_PARTY_LICENSES.md](THIRD_PARTY_LICENSES.md)。
+- GTOCore整合了部分来自其他模组的代码与资源文件，这些内容的版权归其原作者所有，并受其各自的原始许可证约束。若其许可证与本项目其他部分存在冲突，则以原始许可证为准。详见：[THIRD_PARTY_LICENSES.md](THIRD_PARTY_LICENSES.md)。
 
 ## 使用
 

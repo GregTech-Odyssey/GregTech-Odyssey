@@ -30,7 +30,7 @@ GregTech-Odyssey is a fully optimized tech-oriented GT modpack designed to offer
 - Quest texts are All Rights Reserved by default. Any unauthorized use is prohibited. For content with clearly indicated sources, copyright remains with their respective original authors and is subject to their respective original licenses.
 - The [community-contributed localization repository](https://github.com/GregTech-Odyssey/GTO-Translations) is licensed under CC BY-NC-SA 4.0.
 - Original texture assets in this project are licensed under CC BY-NC-SA 4.0.
-- This project incorporates code and assets from other mods. The copyright of such content remains with their respective original authors and is subject to their respective original licenses. In case of any conflict between those licenses and other parts of this project, the original licenses shall prevail. See details in: [THIRD_PARTY_LICENSES.md](THIRD_PARTY_LICENSES.md).
+- GTOCore incorporates code and assets from other mods. The copyright of such content remains with their respective original authors and is subject to their respective original licenses. In case of any conflict between those licenses and other parts of this project, the original licenses shall prevail. See details in: [THIRD_PARTY_LICENSES.md](THIRD_PARTY_LICENSES.md).
 
 ## Usage
 
