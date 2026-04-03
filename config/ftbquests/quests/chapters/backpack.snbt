@@ -86,6 +86,7 @@
 			dependencies: ["466924A208AC6C02"]
 			description: [
 				"可以过滤要拿取什么物品"
+				""
 				"但标签模式能设置标签的物品有点少"
 			]
 			id: "05811315012BBCBA"
@@ -177,6 +178,12 @@
 		{
 			dependencies: ["1CE34BD4900990C6"]
 			id: "0C6B3C56798944FB"
+			rewards: [{
+				count: 16
+				id: "65005D6DFFA65F87"
+				item: "gtocore:copper_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3178F8D82400BEA7"
 				item: "sophisticatedbackpacks:upgrade_base"

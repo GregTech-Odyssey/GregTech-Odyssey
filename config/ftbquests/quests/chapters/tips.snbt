@@ -428,11 +428,13 @@
 				{
 					id: "356899C58B5FA0CD"
 					item: "gtocore:industrial_platform_deployment_tools"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "7CC6854B8C3833B9"
 					item: "gtocore:standard_industrial_components_small"
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -474,9 +476,11 @@
 		{
 			dependencies: ["79646E8E449D8A1A"]
 			description: [
-				"欢迎加入GTO寰宇重工集团·Alpha部门：927923997（已满）"
+				"QQ: GTO寰宇重工集团·Alpha部门：927923997（将满）"
 				""
-				"欢迎加入GTO寰宇重工集团·Beta部门：532385262"
+				"QQ: GTO寰宇重工集团·Beta部门：532385262（已满）"
+				""
+				"QQ: GTO寰宇重工集团·Gamma部门：1091812286"
 				""
 				"[ \"\", {\"text\":\"Discord: \"}, { \"text\": \"https://discord.gg/PxruFSbtCn\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"open_url\", \"value\": \"https://discord.gg/PxruFSbtCn\" } }]"
 			]
@@ -896,7 +900,7 @@
 				"- 电力高炉和烈焰高炉"
 				"- 反应炉"
 				"- &e“大批量加工”&r章节中的机器"
-				"- 巨型真空冷冻机"
+				"- 转底炉，巨型合金冶炼炉和巨型真空冷冻机"
 				""
 				"注意：升级模块会&c直接消耗玩家全部的经验&r，请使用&6经验方尖碑&r存储你多余的经验"
 			]

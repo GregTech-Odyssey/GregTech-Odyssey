@@ -1435,6 +1435,18 @@
 			x: 19.0d
 			y: 4.0d
 		}
+		{
+			dependencies: ["4C8549E624A543C5"]
+			description: ["最顶级的探矿仪，极大增加了勘探的范围"]
+			id: "6E10E30B68B63CEA"
+			tasks: [{
+				id: "4647CF860B64224D"
+				item: "gtceu:prospector.luv"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -8.0d
+		}
 	]
 	subtitle: ["Tier6-LuV"]
 	title: "8. 剧差压(LuV)"

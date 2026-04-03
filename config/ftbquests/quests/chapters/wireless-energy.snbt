@@ -22,6 +22,14 @@
 			x: 1.0d
 			y: 2.5d
 		}
+		{
+			height: 2.0d
+			image: "gtocore:item/circuit/suprachronal_mv"
+			rotation: 0.0d
+			width: 2.0d
+			x: -4.0d
+			y: 3.5d
+		}
 	]
 	order_index: 1
 	quest_links: [ ]
@@ -182,7 +190,7 @@
 			description: [
 				"&6无线能源塔&r的&e结构玻璃等级&r决定了其能够生效的&6能量单元&r，务必使用不低于你安装的&6能量单元&r等级的&6结构玻璃&r"
 				""
-				"&2总容量=&n生效的&r&2能量单元容量之和*单元数量/2&r&r"
+				"&e总容量=&a生效的&r&e能量单元容量之和*单元数量/2&r&r"
 				""
 				"&d无线能源塔最高可以容纳30层能量单元&r"
 				""

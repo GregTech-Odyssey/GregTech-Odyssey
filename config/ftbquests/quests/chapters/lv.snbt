@@ -65,12 +65,21 @@
 			x: -4.5d
 			y: 4.25d
 		}
+		{
+			id: "726FB94A361C384B"
+			linked_quest: "6CC4173B5BF99920"
+			shape: "hexagon"
+			size: 1.5d
+			x: -12.0d
+			y: 3.0d
+		}
 	]
 	quests: [
 		{
 			dependencies: ["507807175748245C"]
 			description: [
 				"磁化铁杆可以手动合成，但磁化钢杆起就不行了"
+				""
 				"之后的磁化物质都需要通过它来制作"
 			]
 			id: "733C4A68EC2FA1ED"
@@ -250,7 +259,7 @@
 			description: [
 				"将&6铁粉&r与&6液态锡&r放置在&6搅拌机&r内搅拌即可获得"
 				""
-				"&n注意需要外部热源&r"
+				"&e注意需要外部热源&r"
 			]
 			icon: "gtceu:tin_alloy_bucket"
 			id: "7C0B37FD464985AC"
@@ -298,7 +307,7 @@
 				"021F533355CCBABA"
 			]
 			description: [
-				"GTO新增的机器，你可以用这个大家伙将固态物质&e高温液化&r为液态形式"
+				"GTO新增的机器，&e主线流程中必须制造的机器&r。你可以用这个大家伙将固态物质&e高温液化&r为液态形式"
 				""
 				"由于熔点过高，&6流体提取机&r无法做到很多事情，需要&6液化炉&r出马"
 				""
@@ -984,7 +993,6 @@
 			dependencies: [
 				"2F057F1B67418205"
 				"0EDB058F9C6882FE"
-				"49122B7DBE422691"
 			]
 			id: "683439639A27C86E"
 			tasks: [{
@@ -1117,26 +1125,6 @@
 			}]
 			x: -12.0d
 			y: -3.0d
-		}
-		{
-			dependencies: [
-				"6BB3386725B228D5"
-				"12F3FAEB69397980"
-			]
-			description: ["有些昂贵...值得吗？"]
-			hide_dependency_lines: true
-			id: "7FD151D808A41D6C"
-			optional: true
-			shape: "hexagon"
-			size: 1.5d
-			subtitle: "免费能源"
-			tasks: [{
-				id: "62AE2C2CABA01A4C"
-				item: "gtocore:energetic_photovoltaic_power_station"
-				type: "item"
-			}]
-			x: -10.5d
-			y: 3.0d
 		}
 		{
 			dependencies: ["12F3FAEB69397980"]
@@ -1424,7 +1412,7 @@
 			description: [
 				"多辊式轧机可以让你的单层板变成箔"
 				""
-				"你需要用它来制作&6云母绝缘薄片&r和优质电子电路中需要的&6箔&r"
+				"你需要用它来制作&6云母绝缘薄片&r，以及&e翻倍产出&r优质电子电路中需要的&6箔&r"
 			]
 			hide_dependent_lines: true
 			id: "49122B7DBE422691"
@@ -1850,7 +1838,7 @@
 			description: [
 				"基本就是一台蒸汽水泵"
 				""
-				"输入&6蒸汽&r，它会回报你&n&6等量&r&r的水！"
+				"输入&6蒸汽&r，它会回报你&b等量&r的水！"
 			]
 			hide_dependency_lines: true
 			id: "797A8C4D7840C011"
@@ -1866,6 +1854,11 @@
 		}
 		{
 			dependencies: ["35347DE9C34F2825"]
+			description: [
+				"最低级的探矿仪，只能勘探实体矿脉"
+				""
+				"可以查看探矿仪的EMI来获取矿脉信息"
+			]
 			id: "262EB199FFE689FF"
 			tasks: [{
 				id: "01C8AC4F9FD1ECA9"
@@ -1877,7 +1870,11 @@
 		}
 		{
 			dependencies: ["29896685477AA469"]
-			description: ["按照比例缩短&6多方块机器&r的配方处理时间，当加速仓等级&b低于&r配方等级时，加速效果将&4大幅度&r减弱"]
+			description: [
+				"按照比例无条件缩短&6多方块机器&r的配方处理时间"
+				""
+				"当加速仓等级&b低于&r当前配方的配方等级时，加速效果将&4大幅度&r减弱，每低一级减少20%"
+			]
 			id: "7F65A1C533ED1C3B"
 			shape: "diamond"
 			subtitle: "狠狠地加速！"
@@ -1911,7 +1908,10 @@
 			y: 6.5d
 		}
 		{
-			dependencies: ["06534664971F6E68"]
+			dependencies: [
+				"06534664971F6E68"
+				"561F5AACF437E7C5"
+			]
 			description: [
 				"&l&e附属模块&r&r机制是GTO的特色之一！"
 				""
@@ -1922,6 +1922,8 @@
 				"使用&b高级终端&r可以指定建造附属模块"
 				""
 				"在你进入HV获得&6不锈钢&r时，你可以为电力高炉安装&e附属模块&r"
+				""
+				"你应该也注意到了原始蒸馏塔有附属模块，切换到P: 1即可预览形态。原始蒸馏塔的附属模块安装后可以处理蒸馏水的配方"
 			]
 			icon: "gtceu:stainless_steel_frame"
 			id: "39879EA8A9F79913"
@@ -2169,7 +2171,7 @@
 				item: "gtocore:large_steam_solar_boiler"
 				type: "item"
 			}]
-			x: -12.0d
+			x: -10.5d
 			y: 3.0d
 		}
 		{
@@ -2411,7 +2413,7 @@
 				"- 电力高炉和烈焰高炉"
 				"- 反应炉"
 				"- &e“大批量加工”&r章节中的机器"
-				"- 巨型真空冷冻机"
+				"- 转底炉，巨型合金冶炼炉和巨型真空冷冻机"
 				""
 				"注意：升级模块会&c直接消耗玩家全部的经验&r，请使用&6经验方尖碑&r存储你多余的经验"
 			]

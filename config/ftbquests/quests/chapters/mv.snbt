@@ -548,8 +548,15 @@
 					type: "item"
 				}
 				{
-					id: "7E00F485192A6972"
-					item: "gtocore:integral_framework_lv"
+					id: "39A0B7833083A893"
+					item: {
+						Count: 1
+						id: "itemfilters:id_regex"
+						tag: {
+							value: "gtocore:integral_framework_.+"
+						}
+					}
+					title: "任意整体框架"
 					type: "item"
 				}
 			]
@@ -711,7 +718,13 @@
 				"49E5CC5873FA226F"
 				"5956E4E095324029"
 			]
-			description: ["无限矿石"]
+			description: [
+				"无限矿石"
+				""
+				"你可以用它来挖掘基岩矿脉，在实体矿脉中相对稀少的矿石在基岩矿脉中占比将大大增加（如金矿石）"
+				""
+				"可以查看探矿仪的EMI来查询矿脉信息（基岩矿脉与实体矿脉共享）"
+			]
 			hide_dependency_lines: true
 			id: "60779EE5AA0761BD"
 			rewards: [{
@@ -737,7 +750,13 @@
 		}
 		{
 			dependencies: ["752E02060595192D"]
-			description: ["无限石油"]
+			description: [
+				"无限石油"
+				""
+				"你可以用它来挖掘基岩流体，包括但不限于石油，原油，天然气，稀有气体等"
+				""
+				"可以查看探矿仪的EMI来查询基岩流体信息"
+			]
 			hide_dependency_lines: true
 			id: "171118E236848A2E"
 			shape: "hexagon"
@@ -749,22 +768,6 @@
 			}]
 			x: -6.75d
 			y: -3.25d
-		}
-		{
-			dependencies: ["49E5CC5873FA226F"]
-			description: ["你需要它来制造&6一阶火箭&r和&6火箭装配机&r的材料"]
-			hide_dependency_lines: true
-			id: "0A9501C9027AC03D"
-			shape: "hexagon"
-			size: 1.5d
-			subtitle: "唯一一台你想要爆一爆的机器"
-			tasks: [{
-				id: "5D43198A9E3AC42A"
-				item: "gtceu:implosion_compressor"
-				type: "item"
-			}]
-			x: -5.25d
-			y: -0.25d
 		}
 		{
 			dependencies: ["3899164922A734D8"]
@@ -1143,9 +1146,6 @@
 				"比低压机器更高效的机器"
 				""
 				"可以辊轧&6双层板&r和&6致密板&r"
-				""
-				"最重要的是，有了它你就可以进入无线能源时代"
-				"&7&m（可惜不是无限能源）&r&r"
 			]
 			hide_dependency_lines: true
 			id: "51179D5DAF67715A"
@@ -1249,6 +1249,8 @@
 				"在&b中压&r阶段你可以开始使用&e无线能源&r减轻你的布线负担，再也不用为了一条产线单独搭建一套发电了！"
 				""
 				"[ \"前往\", { \"text\": \"无线电网\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"20B8E68273D7D0DE\" } }, \"章节查看如何搭建你的无线电网系统\" ]"
+				""
+				"&o&m&7可惜不是无限能源时代"
 			]
 			hide_dependency_lines: true
 			icon: "gtocore:mv_wireless_input_hatch"
@@ -1602,6 +1604,23 @@
 			title: "芯片补助&e（普通）&r"
 			x: 9.0d
 			y: -2.5d
+		}
+		{
+			dependencies: ["0EE9737781747575"]
+			description: ["有些昂贵...值得吗？"]
+			hide_dependency_lines: true
+			id: "7FD151D808A41D6C"
+			optional: true
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "免费能源"
+			tasks: [{
+				id: "62AE2C2CABA01A4C"
+				item: "gtocore:energetic_photovoltaic_power_station"
+				type: "item"
+			}]
+			x: -5.25d
+			y: -0.25d
 		}
 	]
 	subtitle: ["Tier2-MV"]

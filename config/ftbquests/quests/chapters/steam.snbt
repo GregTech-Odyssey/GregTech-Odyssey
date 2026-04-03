@@ -1236,7 +1236,7 @@
 				""
 				"锅炉可同时受到多个相邻方块加热，可以让温度上升得更快"
 				""
-				"&n生产蒸汽的时候会消耗温度&r"
+				"&e生产蒸汽的时候会消耗温度&r"
 				""
 				"当满足任一以下条件，机器会发生&4爆炸&r："
 				"1.&6加热器&r的温度达到&2800K&r"
@@ -1762,20 +1762,12 @@
 			icon: "ad_astra:steel_ingot"
 			id: "67B18FEE6862343A"
 			optional: true
-			rewards: [
-				{
-					count: 192
-					id: "46F770A3703044A4"
-					item: "ad_astra:steel_ingot"
-					type: "item"
-				}
-				{
-					count: 32
-					id: "759577374EA354C5"
-					item: "gtocore:copper_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 192
+				id: "46F770A3703044A4"
+				item: "ad_astra:steel_ingot"
+				type: "item"
+			}]
 			shape: "octagon"
 			subtitle: "聊胜于无"
 			tasks: [{
@@ -1788,7 +1780,11 @@
 		}
 		{
 			dependencies: ["056EC4E6FAF614B7"]
-			description: ["简单保留了原版玻璃的合成配方，因此你无需通过石英砂制作玻璃"]
+			description: [
+				"简单保留了原版玻璃的合成配方，因此你无需通过石英砂制作玻璃。直接完成此任务可跳过制备玻璃第一步"
+				""
+				"玻璃粉可以通过锤子敲玻璃获得"
+			]
 			hide_until_deps_visible: true
 			icon: "minecraft:glass"
 			id: "276CCDB305FFBE2F"
@@ -2089,7 +2085,7 @@
 			icon: "gtceu:steam_input_bus"
 			id: "4276738FE46AC021"
 			rewards: [{
-				count: 16
+				count: 8
 				id: "10C00EAF76D71ABA"
 				item: "gtocore:copper_coin"
 				type: "item"
