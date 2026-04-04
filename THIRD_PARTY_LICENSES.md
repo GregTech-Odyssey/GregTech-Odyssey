@@ -50,8 +50,7 @@ in accordance with their original licenses.
 
 ## Darkpuppey's Modded Overhauls!
 
-- **Source
-  **: [Darkpuppey2/darkpuppeys-modded-overhauls](https://www.curseforge.com/minecraft/texture-packs/darkpuppeys-modded-overhauls)
+- **Source**: [Darkpuppey2/darkpuppeys-modded-overhauls](https://www.curseforge.com/minecraft/texture-packs/darkpuppeys-modded-overhauls)
 - **License**: All Rights Reserved (used with permission)
 
 - **Used Content**:
