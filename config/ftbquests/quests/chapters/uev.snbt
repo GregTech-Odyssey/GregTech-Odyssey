@@ -606,11 +606,9 @@
 		{
 			dependencies: ["3448FEC025A0CA9C"]
 			description: [
-				"<0.5.3专属彩蛋>"
+				"<彩蛋>"
 				""
-				"恭喜通关！"
-				""
-				"2026新年快乐！&o&m新的一年也要多多上工哦"
+				"恭喜通关！&m新的一年也要多多上工哦"
 			]
 			hide_until_deps_complete: true
 			id: "016825EEC25C1CEF"
@@ -656,7 +654,7 @@
 		}
 		{
 			dependencies: ["7B3C0DB7C1F11692"]
-			description: ["另两种缺失配方的材料，直接送你了"]
+			description: ["缺失配方的材料，直接送你了"]
 			id: "635BFF4E3FD9999F"
 			rewards: [
 				{
@@ -682,6 +680,34 @@
 							record: {
 								"#c": "ae2:f"
 								id: "gtocore:dimension_allyshifted_super_fluid"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "416FA6C4BEEDE0C1"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtocore:awakened_core"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "74A8BBC5F54A5ECE"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtocore:chaos_infinity_alloy_ingot"
 							}
 						}
 					}
@@ -745,8 +771,8 @@
 				type: "item"
 			}]
 			title: " 虚拟宇宙数据访问仓 兑换处"
-			x: -10.0d
-			y: -0.5d
+			x: -8.0d
+			y: -2.0d
 		}
 		{
 			description: ["神龙能量核心需要用到它们"]
@@ -816,9 +842,37 @@
 				item: "gtocore:infinity_hex_wire"
 				type: "item"
 			}]
-			title: "太阳能板 领取处"
+			title: "太阳能板 兑换处"
 			x: -6.0d
 			y: -0.5d
+		}
+		{
+			description: ["人造恒星需要用到它们"]
+			icon: "gtocore:antimatter_containment_casing"
+			id: "48D0530DAF3ED7C5"
+			rewards: [{
+				id: "35A3EF5D75A4D49F"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:i"
+							id: "gtocore:antimatter_containment_casing"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "11F7B3B6D30BC6D9"
+				item: "gtocore:annihilate_generator"
+				type: "item"
+			}]
+			title: "反物质隔离机械方块 兑换处"
+			x: -6.0d
+			y: -2.0d
 		}
 	]
 	subtitle: ["Tier10-UEV"]
