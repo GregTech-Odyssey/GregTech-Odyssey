@@ -60,9 +60,19 @@
 	quests: [
 		{
 			description: [
-				"[\"\", {\"translate\": \"gto.gregtech_odyssey.quests.19EFE14C82DDAB67.description0.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"79646E8E449D8A1A\"}, \"translate\": \"gto.gregtech_odyssey.quests.19EFE14C82DDAB67.description0.rich_text1\"}, {\"translate\": \"gto.gregtech_odyssey.quests.19EFE14C82DDAB67.description0.rich_text2\"}]"
+				"{gto.gregtech_odyssey.quests.19EFE14C82DDAB67.description0}"
 				""
 				"{gto.gregtech_odyssey.quests.19EFE14C82DDAB67.description1}"
+				""
+				"[\"\", {\"color\": \"yellow\", \"translate\": \"gto.gregtech_odyssey.quests.19EFE14C82DDAB67.description2.rich_text0\"}, {\"underlined\": \"True\", \"color\": \"aqua\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"79646E8E449D8A1A\"}, \"translate\": \"gto.gregtech_odyssey.quests.19EFE14C82DDAB67.description2.rich_text1\"}, {\"color\": \"yellow\", \"translate\": \"gto.gregtech_odyssey.quests.19EFE14C82DDAB67.description2.rich_text2\"}]"
+				""
+				"{gto.gregtech_odyssey.quests.19EFE14C82DDAB67.description3}"
+				""
+				"{gto.gregtech_odyssey.quests.19EFE14C82DDAB67.description4}"
+				""
+				"{gto.gregtech_odyssey.quests.19EFE14C82DDAB67.description5}"
+				""
+				"{gto.gregtech_odyssey.quests.19EFE14C82DDAB67.description6}"
 			]
 			icon: "minecraft:writable_book"
 			id: "19EFE14C82DDAB67"

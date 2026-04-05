@@ -609,8 +609,6 @@
 				"{gto.uev.quests.016825EEC25C1CEF.description0}"
 				""
 				"{gto.uev.quests.016825EEC25C1CEF.description1}"
-				""
-				"{gto.uev.quests.016825EEC25C1CEF.description2}"
 			]
 			hide_until_deps_complete: true
 			id: "016825EEC25C1CEF"
@@ -687,6 +685,34 @@
 					}
 					type: "item"
 				}
+				{
+					id: "416FA6C4BEEDE0C1"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtocore:awakened_core"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "74A8BBC5F54A5ECE"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtocore:chaos_infinity_alloy_ingot"
+							}
+						}
+					}
+					type: "item"
+				}
 			]
 			shape: "circle"
 			tasks: [{
@@ -745,8 +771,8 @@
 				type: "item"
 			}]
 			title: "{gto.uev.quests.3FBB498BBBA5DBDC.title}"
-			x: -10.0d
-			y: -0.5d
+			x: -8.0d
+			y: -2.0d
 		}
 		{
 			description: ["{gto.uev.quests.0573CE1530493B0A.description0}"]
@@ -819,6 +845,34 @@
 			title: "{gto.uev.quests.0573CE1530493B0A.title}"
 			x: -6.0d
 			y: -0.5d
+		}
+		{
+			description: ["{gto.uev.quests.48D0530DAF3ED7C5.description0}"]
+			icon: "gtocore:antimatter_containment_casing"
+			id: "48D0530DAF3ED7C5"
+			rewards: [{
+				id: "35A3EF5D75A4D49F"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:i"
+							id: "gtocore:antimatter_containment_casing"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "11F7B3B6D30BC6D9"
+				item: "gtocore:annihilate_generator"
+				type: "item"
+			}]
+			title: "{gto.uev.quests.48D0530DAF3ED7C5.title}"
+			x: -6.0d
+			y: -2.0d
 		}
 	]
 	subtitle: ["{gto.uev.subtitle0}"]
