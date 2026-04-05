@@ -43,6 +43,7 @@ jobs:
         nix build .#curseforge -o curseforge
         mkdir curseforge-upload
         find -L curseforge -maxdepth 1 -type f -name '*.zip' -exec cp '{}' curseforge-upload/ \;
+        chmod u+w curseforge-upload/*.zip
     - name: Inject latest translation into CurseForge export
       env:
         GH_TOKEN: ${{ github.token }}
