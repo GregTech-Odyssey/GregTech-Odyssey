@@ -45,7 +45,7 @@ jobs:
       run: |
         PACK_VERSION="$(sed -n 's/^version = \"\([^\"]*\)\"$/\1/p' pack.toml)"
         PACK_CORE_VERSION="$(printf '%s' "$PACK_VERSION" | grep -oE '[0-9]+\.[0-9]+\.[0-9]+' | head -n 1 || true)"
-        CURSEFORGE_ZIP="$(find curseforge -maxdepth 1 -type f -name '*.zip' | head -n 1)"
+        CURSEFORGE_ZIP="$(find -L curseforge -maxdepth 1 -type f -name '*.zip' | head -n 1)"
         RELEASE_JSON="$(gh api repos/GregTech-Odyssey/GTO-Translations/releases/latest)"
         RELEASE_TAG="$(printf '%s' "$RELEASE_JSON" | jq -r '.tag_name')"
         ASSET_NAME="$(printf '%s' "$RELEASE_JSON" | jq -r '.assets[] | select(.name | test("^gto-lang-all-locales-.*\\.zip$")) | .name' | head -n 1)"
