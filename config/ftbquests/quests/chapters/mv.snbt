@@ -7,14 +7,36 @@
 	hide_quest_until_deps_visible: true
 	icon: "gtocore:processing_plant"
 	id: "7C6B0DA4DF5D00E3"
-	images: [{
-		height: 1.75d
-		image: "ftbquests:textures/shapes/gear/outline.png"
-		rotation: 0.0d
-		width: 1.75d
-		x: -6.75d
-		y: -1.75d
-	}]
+	images: [
+		{
+			height: 1.75d
+			image: "ftbquests:textures/shapes/gear/outline.png"
+			rotation: 0.0d
+			width: 1.75d
+			x: -6.75d
+			y: -1.75d
+		}
+		{
+			color: 16711935
+			dependency: "056EC4E6FAF614B7"
+			height: 1.0d
+			image: "ftbquests:block/barrier_open"
+			order: 1
+			rotation: 45.0d
+			width: 1.0d
+			x: -1.5d
+			y: 6.0d
+		}
+		{
+			dependency: "056EC4E6FAF614B7"
+			height: 1.0d
+			image: "xtonesreworked:block/bitt/12"
+			rotation: 45.0d
+			width: 1.0d
+			x: -1.5d
+			y: 6.0d
+		}
+	]
 	order_index: 4
 	quest_links: [
 		{
@@ -37,6 +59,13 @@
 			linked_quest: "2D899AFE07E20FEF"
 			shape: "hexagon"
 			x: -8.0d
+			y: 6.0d
+		}
+		{
+			id: "28F97A926D99CD20"
+			linked_quest: "47506298B1BD1780"
+			shape: "diamond"
+			x: -1.5d
 			y: 6.0d
 		}
 	]
@@ -500,9 +529,11 @@
 				""
 				"====="
 				""
-				"&b机制介绍&r：部分多方块机器包含&l&6整体框架&r&r，它会限制你所能运行的&e配方等级&r，其会取能源仓提供电压和整体框架电压的&c最小值&r"
+				"&b机制介绍&r：部分多方块机器包含&l&6整体框架&r&r，它会限制你所能运行的&e配方等级&r，其会取能源仓提供的电压和整体框架电压的&c最小值&r"
 				""
 				"通用工厂在其中还更为特殊，你还需要保证主机中放入的&6小机器&r的电压与&6能源仓&r提供的电压&a相等&r，但不限制功率"
+				""
+				"&e别忘了双仓升压的存在：如果你安装了2个及以上相同电压的能源仓，能源仓提供的电压会提升一级"
 			]
 			hide_dependency_lines: true
 			icon: "gtocore:processing_plant"
@@ -517,8 +548,15 @@
 					type: "item"
 				}
 				{
-					id: "7E00F485192A6972"
-					item: "gtocore:integral_framework_lv"
+					id: "39A0B7833083A893"
+					item: {
+						Count: 1
+						id: "itemfilters:id_regex"
+						tag: {
+							value: "gtocore:integral_framework_.+"
+						}
+					}
+					title: "任意整体框架"
 					type: "item"
 				}
 			]
@@ -680,7 +718,13 @@
 				"49E5CC5873FA226F"
 				"5956E4E095324029"
 			]
-			description: ["无限矿石"]
+			description: [
+				"无限矿石"
+				""
+				"你可以用它来挖掘基岩矿脉，在实体矿脉中相对稀少的矿石在基岩矿脉中占比将大大增加（如金矿石）"
+				""
+				"可以查看探矿仪的EMI来查询矿脉信息（基岩矿脉与实体矿脉共享）"
+			]
 			hide_dependency_lines: true
 			id: "60779EE5AA0761BD"
 			rewards: [{
@@ -706,7 +750,13 @@
 		}
 		{
 			dependencies: ["752E02060595192D"]
-			description: ["无限石油"]
+			description: [
+				"无限石油"
+				""
+				"你可以用它来挖掘基岩流体，包括但不限于石油，原油，天然气，稀有气体等"
+				""
+				"可以查看探矿仪的EMI来查询基岩流体信息"
+			]
 			hide_dependency_lines: true
 			id: "171118E236848A2E"
 			shape: "hexagon"
@@ -718,22 +768,6 @@
 			}]
 			x: -6.75d
 			y: -3.25d
-		}
-		{
-			dependencies: ["49E5CC5873FA226F"]
-			description: ["你需要它来制造&6一阶火箭&r和&6火箭装配机&r的材料"]
-			hide_dependency_lines: true
-			id: "0A9501C9027AC03D"
-			shape: "hexagon"
-			size: 1.5d
-			subtitle: "唯一一台你想要爆一爆的机器"
-			tasks: [{
-				id: "5D43198A9E3AC42A"
-				item: "gtceu:implosion_compressor"
-				type: "item"
-			}]
-			x: -5.25d
-			y: -0.25d
 		}
 		{
 			dependencies: ["3899164922A734D8"]
@@ -941,31 +975,37 @@
 				{
 					id: "7385D5E65ED52B73"
 					item: "gtocore:mv_semi_fluid"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "5BE776F4BA8F62AB"
 					item: "gtocore:mv_thermal_generator"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "32EB43ED4A7F4B0C"
 					item: "gtocore:mv_wind_mill_turbine"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "4CE6900DE345E137"
 					item: "gtceu:mv_combustion"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "2FF817ACC04575E1"
 					item: "gtceu:mv_gas_turbine"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "0D9FF06257B4F397"
 					item: "gtceu:mv_steam_turbine"
+					optional_task: true
 					type: "item"
 				}
 			]
@@ -1106,9 +1146,6 @@
 				"比低压机器更高效的机器"
 				""
 				"可以辊轧&6双层板&r和&6致密板&r"
-				""
-				"最重要的是，有了它你就可以进入无线能源时代"
-				"&7&m（可惜不是无限能源）&r&r"
 			]
 			hide_dependency_lines: true
 			id: "51179D5DAF67715A"
@@ -1212,6 +1249,8 @@
 				"在&b中压&r阶段你可以开始使用&e无线能源&r减轻你的布线负担，再也不用为了一条产线单独搭建一套发电了！"
 				""
 				"[ \"前往\", { \"text\": \"无线电网\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"20B8E68273D7D0DE\" } }, \"章节查看如何搭建你的无线电网系统\" ]"
+				""
+				"&o&m&7可惜不是无限能源时代"
 			]
 			hide_dependency_lines: true
 			icon: "gtocore:mv_wireless_input_hatch"
@@ -1565,6 +1604,23 @@
 			title: "芯片补助&e（普通）&r"
 			x: 9.0d
 			y: -2.5d
+		}
+		{
+			dependencies: ["0EE9737781747575"]
+			description: ["有些昂贵...值得吗？"]
+			hide_dependency_lines: true
+			id: "7FD151D808A41D6C"
+			optional: true
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "免费能源"
+			tasks: [{
+				id: "62AE2C2CABA01A4C"
+				item: "gtocore:energetic_photovoltaic_power_station"
+				type: "item"
+			}]
+			x: -5.25d
+			y: -0.25d
 		}
 	]
 	subtitle: ["Tier2-MV"]

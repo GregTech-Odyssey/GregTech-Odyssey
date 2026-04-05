@@ -1178,12 +1178,20 @@
 				"3A20210242A1C865"
 				"2AB5A33EC30AEA86"
 			]
+			icon: "gtocore:cycle_of_blossoms_solvent_bucket"
 			id: "331A6633436ED5AA"
-			tasks: [{
-				id: "0646B1B918E954E2"
-				item: "gtocore:cycle_of_blossoms_solvent_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "0646B1B918E954E2"
+					item: "gtocore:cycle_of_blossoms_solvent_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "49EF2E9849549BDE"
+					type: "checkmark"
+				}
+			]
 			x: 6.0d
 			y: 3.0d
 		}
@@ -1257,12 +1265,20 @@
 				"2AB5A33EC30AEA86"
 				"27CD17C4B3613171"
 			]
+			icon: "gtocore:gaia_solvent_bucket"
 			id: "527EBA90163F6108"
-			tasks: [{
-				id: "26A619931D11FA48"
-				item: "gtocore:gaia_solvent_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "26A619931D11FA48"
+					item: "gtocore:gaia_solvent_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0CB834D263E523D6"
+					type: "checkmark"
+				}
+			]
 			x: 14.5d
 			y: 7.5d
 		}
@@ -1386,18 +1402,20 @@
 			]
 			hide_dependency_lines: true
 			id: "041B3B6736C62F82"
+			shape: "hexagon"
+			size: 1.5d
 			subtitle: "比床更加黑科技的时间机器"
 			tasks: [{
 				id: "4D062AB9FB3A95D3"
 				item: "gtocore:time_twister"
 				type: "item"
 			}]
-			x: -2.75d
-			y: 6.5d
+			x: -2.25d
+			y: 2.0d
 		}
 		{
 			dependencies: ["0331107259F7B68C"]
-			description: ["火花的更强替代品"]
+			description: ["火花的更强替代品，拥有无线魔力模式。"]
 			id: "5E14716ECDAF9B1C"
 			shape: "diamond"
 			tasks: [{
@@ -1824,12 +1842,20 @@
 				"30C2F8F769D33023"
 				"651CA7BF775419A0"
 			]
+			icon: "gtocore:animium_bucket"
 			id: "00483549F6D66CCD"
-			tasks: [{
-				id: "6A3D40F8329D13F0"
-				item: "gtocore:animium_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "6A3D40F8329D13F0"
+					item: "gtocore:animium_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3446A313905FC26A"
+					type: "checkmark"
+				}
+			]
 			x: 5.5d
 			y: 10.0d
 		}
@@ -1858,12 +1884,20 @@
 		}
 		{
 			dependencies: ["00483549F6D66CCD"]
+			icon: "gtocore:flowing_ciphers_bucket"
 			id: "4A36545D7F8FDCEA"
-			tasks: [{
-				id: "354873D7580EEBE4"
-				item: "gtocore:flowing_ciphers_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "354873D7580EEBE4"
+					item: "gtocore:flowing_ciphers_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "642E822231D9BF7D"
+					type: "checkmark"
+				}
+			]
 			x: 7.0d
 			y: 10.0d
 		}
@@ -2057,6 +2091,7 @@
 						]
 					}
 				}
+				title: "任意奖励袋"
 				type: "item"
 			}]
 			title: "奖励袋"
@@ -2172,7 +2207,10 @@
 			y: 6.708333333333336d
 		}
 		{
-			dependencies: ["57038022345C40A6"]
+			dependencies: [
+				"57038022345C40A6"
+				"0BAB92BEC355120C"
+			]
 			description: ["喝下它，身体似乎会发生奇妙的变化..."]
 			hide_dependent_lines: true
 			icon_scale: 2.0d
@@ -2183,7 +2221,7 @@
 				item: "mythicbotany:kvasir_mead"
 				type: "item"
 			}]
-			x: 17.5d
+			x: 19.0d
 			y: 9.0d
 		}
 		{
@@ -2207,7 +2245,6 @@
 				""
 				"满足以上条件，踏入放置在&b主维度&r的&6精灵门&r，你可以进入到精灵维度。在精灵维度中，你可以挖掘魔法线的专属矿石"
 			]
-			hide_until_deps_complete: true
 			id: "6878C231FB98DBBC"
 			shape: "gear"
 			size: 2.0d
@@ -2273,6 +2310,23 @@
 			}]
 			x: 17.5d
 			y: 0.0d
+		}
+		{
+			dependencies: ["57038022345C40A6"]
+			disable_toast: true
+			icon_scale: 0.25d
+			id: "0BAB92BEC355120C"
+			shape: "none"
+			size: 0.25d
+			tasks: [{
+				icon: "minecraft:bamboo_button"
+				id: "68EA6B5CF8BEF422"
+				stat: "minecraft:jump"
+				type: "stat"
+				value: 1
+			}]
+			x: 16.0d
+			y: 9.0d
 		}
 	]
 	subtitle: ["当魔法遇上格雷"]

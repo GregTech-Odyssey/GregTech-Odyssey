@@ -775,6 +775,10 @@
 									Count: 1b
 									id: "gtceu:raw_chalcopyrite"
 								}
+								{
+									Count: 1b
+									id: "gtceu:raw_malachite"
+								}
 							]
 						}
 					}
@@ -1995,7 +1999,7 @@
 						Count: 1
 						id: "itemfilters:tag"
 						tag: {
-							value: "gt:dyes"
+							value: "c:dyes"
 						}
 					}
 					title: "任意染料"
@@ -2009,10 +2013,10 @@
 		{
 			dependencies: ["12116F27AB89BB58"]
 			description: [
-				"多方块需要手撘？不不不，终端会帮你搞定一切"
+				"多方块机器需要手撘？不不不，终端会帮你搞定一切"
 				""
-				"你只需要确保在背包内有多方块所需要的方块的情况下"
-				"蹲下对着多方块的主机右键即可搭建多方块"
+				"手持终端，确保物品栏或背包中有需要的方块，潜行右键多方块主机即可搭建结构"
+				""
 				"当然多方块的成型判定会有一定延迟"
 				""
 				"&8&o这个任务放在这里是为了提醒你要做这东西，并不是意味着你要在当前阶段就把它搓出来（你也搓不出来）&r&r"
@@ -2061,7 +2065,7 @@
 				"&e无仓室模式：&r在这个模式开启之后，可在该多方块上放置多个的功能性仓室将不会被放置，而唯一的功能性仓室则不受影响。"
 				"eg.在电力高炉上开启该模式后放置时，只会放置消声仓而不会放置输入输出仓等"
 				""
-				"&a替换模式：&r模式开启后，对现有的多方块使用的时候会尝试使用背包或者AE内的符合的等级方块来进行替换"
+				"&a替换模式：&r模式开启后，对现有的多方块使用终端的时候会尝试使用物品栏/背包/AE内的符合的等级方块来进行替换"
 				""
 				"&b使用AE物品：&r顾名思义会使用AE的物品，前提是你身上有终端并且终端通过无线链接到了你的ME存储"
 				"{@pagebreak}"
@@ -2072,7 +2076,7 @@
 				""
 				"&4拆除模式：&r拆除搭建好的多方块"
 				""
-				"注：拆除配合模块搭建可以指定要拆除的部分（模块or本体）"
+				"注：&e拆除模式&r配合&e模块搭建&r可以指定要拆除的部分（模块or本体）"
 			]
 			id: "06FE84E75DBE704A"
 			rewards: [
@@ -2202,6 +2206,12 @@
 					item: "gtceu:wrought_iron_ingot"
 					type: "item"
 				}
+				{
+					count: 128
+					id: "3AC13A63A0D7D6A9"
+					item: "gtocore:copper_coin"
+					type: "item"
+				}
 			]
 			shape: "octagon"
 			subtitle: "简单特供"
@@ -2225,7 +2235,7 @@
 			optional: true
 			rewards: [
 				{
-					count: 128
+					count: 64
 					id: "0BCDAC9C08ADBEE7"
 					item: "gtceu:bronze_ingot"
 					type: "item"
@@ -2273,11 +2283,18 @@
 			icon: "gtceu:bronze_ingot"
 			id: "6097173C67222EC0"
 			optional: true
-			rewards: [{
-				id: "1F3EFB3D33C6BA0A"
-				item: "gtceu:bronze_ingot"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "1F3EFB3D33C6BA0A"
+					item: "gtceu:bronze_ingot"
+					type: "item"
+				}
+				{
+					id: "0A27F98E3891A560"
+					item: "gtocore:copper_coin"
+					type: "item"
+				}
+			]
 			shape: "octagon"
 			subtitle: "专家没有"
 			tasks: [{
@@ -2292,6 +2309,7 @@
 			dependencies: ["561D79DE960A034D"]
 			description: [
 				"用熔炉在地上摆放一个&a3x3x3&r形状的立方体，就会自动成型为&6巨型熔炉&r"
+				""
 				"在其原料栏位放入&a27个&r熔炉可以烧制出一个同样的&6巨型熔炉&r物品，放入右下的槽位可以增加&e1并行&r"
 				""
 				"手持剪刀&e[Shift]+[右键]&r可以拆除巨型熔炉"

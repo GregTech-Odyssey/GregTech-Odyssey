@@ -441,13 +441,21 @@
 		}
 		{
 			dependencies: ["06099A423968D6E0"]
+			icon: "gtocore:bacterial_growth_medium_bucket"
 			id: "7A12577E23FC07A1"
 			shape: "hexagon"
-			tasks: [{
-				id: "2D515B6F4FADC217"
-				item: "gtocore:bacterial_growth_medium_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2D515B6F4FADC217"
+					item: "gtocore:bacterial_growth_medium_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "489DB3163CDA095D"
+					type: "checkmark"
+				}
+			]
 			x: -6.0d
 			y: -2.0d
 		}
@@ -523,15 +531,23 @@
 				"747599D690EADE56"
 				"7651697F32169E49"
 			]
+			icon: "gtocore:pluripotency_induction_gene_therapy_fluid_bucket"
 			id: "59864AA3CB69A3CF"
 			shape: "hexagon"
 			size: 1.5d
 			subtitle: "基因大杂烩"
-			tasks: [{
-				id: "129F506D7D108336"
-				item: "gtocore:pluripotency_induction_gene_therapy_fluid_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "129F506D7D108336"
+					item: "gtocore:pluripotency_induction_gene_therapy_fluid_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "484C41FD395D6FDB"
+					type: "checkmark"
+				}
+			]
 			x: -4.0d
 			y: 4.0d
 		}
@@ -542,13 +558,21 @@
 				""
 				"有更高效的循环产线制作它"
 			]
+			icon: "gtceu:sterilized_growth_medium_bucket"
 			id: "2C79D433651D795C"
 			shape: "hexagon"
-			tasks: [{
-				id: "776EC25032BCC4A6"
-				item: "gtceu:sterilized_growth_medium_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "776EC25032BCC4A6"
+					item: "gtceu:sterilized_growth_medium_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "10A8189C15D49F38"
+					type: "checkmark"
+				}
+			]
 			x: -2.0d
 			y: 4.0d
 		}
@@ -755,7 +779,7 @@
 		{
 			dependencies: ["6DC73D6C2AD17444"]
 			description: [
-				"你注意到类似于&nLuV力场发生器&r之类的配方了吗？它们有两组一样的物品，会给有序的装配线带来困难"
+				"你注意到类似于&6LuV力场发生器&r之类的配方了吗？它们有两组一样的物品，会给有序的装配线带来困难"
 				""
 				"不过别担心！你可以尝试一下&7命名模具&r。把它放在冲压机中即可实现物品的重命名，或许对你有所帮助"
 			]
@@ -871,7 +895,7 @@
 				"351F704B01567BD7"
 				"0099AE8ACBB72951"
 			]
-			description: ["用捕获附魔获取普通蛋，并通过诱导获取外星蛋"]
+			description: ["用神化的&e捕获附魔&r获取普通蛋，并通过生化反应诱导获取外星蛋"]
 			id: "7651697F32169E49"
 			tasks: [
 				{
@@ -953,12 +977,20 @@
 		{
 			dependencies: ["608F56E6A187940C"]
 			hide_dependency_lines: true
+			icon: "gtceu:mutagen_bucket"
 			id: "0099AE8ACBB72951"
-			tasks: [{
-				id: "270877B95A714083"
-				item: "gtceu:mutagen_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "270877B95A714083"
+					item: "gtceu:mutagen_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7042B30465A3697E"
+					type: "checkmark"
+				}
+			]
 			x: -7.0d
 			y: 6.0d
 		}
@@ -1061,7 +1093,11 @@
 		}
 		{
 			dependencies: ["24F1061AFD1BFEB2"]
-			description: ["占地更大，速度更快的冶炼冷却机器，允许安装&6并行仓&r&o（终于！）&r，&6加速仓&r和至多&a8个&r&6能源仓&r"]
+			description: [
+				"占地更大，速度更快的冶炼冷却机器，允许安装&6并行仓&r&o（终于！）&r，&6加速仓&r和至多&a8个&r&6能源仓&r"
+				""
+				"它们也可以贴上升级模块"
+			]
 			icon: "gtocore:orbital_smelting_facility"
 			id: "3AD590B74363891F"
 			tasks: [{

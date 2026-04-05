@@ -117,7 +117,7 @@
 				type: "item"
 			}]
 			x: -8.0d
-			y: -0.5d
+			y: 1.0d
 		}
 		{
 			id: "078689C5C9FABDE7"
@@ -132,7 +132,7 @@
 				type: "item"
 			}]
 			x: -6.0d
-			y: -0.5d
+			y: 1.0d
 		}
 		{
 			id: "7448C7335542B7A5"
@@ -147,7 +147,7 @@
 				type: "item"
 			}]
 			x: -10.0d
-			y: -0.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["597E3AA1CBEE9598"]
@@ -217,7 +217,15 @@
 			y: -0.5d
 		}
 		{
+			description: [
+				"我们修改了鸿蒙之眼的机制，目前你无需提升鸿蒙之眼的等级即可制作任意等级的配方"
+				""
+				"&o&7不需要挂机等待它升级"
+			]
 			id: "0DC13F257B0314CC"
+			shape: "gear"
+			size: 1.5d
+			subtitle: "万物大一统"
 			tasks: [{
 				id: "1109E4CD5BBDC47E"
 				item: "gtocore:eye_of_harmony"
@@ -432,7 +440,7 @@
 				type: "item"
 			}]
 			x: -6.0d
-			y: 1.0d
+			y: 2.5d
 		}
 		{
 			id: "32CDF0A73C8721D8"
@@ -500,6 +508,49 @@
 			dependencies: ["0E1A670099E3C3F2"]
 			id: "3448FEC025A0CA9C"
 			optional: true
+			rewards: [
+				{
+					count: 99
+					id: "76C87BCFE6513188"
+					item: "gtceu:creative_chest"
+					type: "item"
+				}
+				{
+					count: 99
+					id: "3A56B8DC94F084BA"
+					item: "gtceu:creative_tank"
+					type: "item"
+				}
+				{
+					count: 99
+					id: "3F05895D7E233270"
+					item: "gtmthings:creative_fluid_input_hatch"
+					type: "item"
+				}
+				{
+					count: 99
+					id: "361398A9B190B025"
+					item: "gtmthings:creative_item_input_bus"
+					type: "item"
+				}
+				{
+					count: 99
+					id: "1C10C6328394AA86"
+					item: "gtmthings:creative_laser_hatch"
+					type: "item"
+				}
+				{
+					count: 99
+					id: "00F5AD10EE11A073"
+					item: "gtceu:creative_computation_provider"
+					type: "item"
+				}
+				{
+					id: "00DBF24CD92A2D1C"
+					item: "gtocore:all_fluids_cell"
+					type: "item"
+				}
+			]
 			subtitle: "毕业了"
 			tasks: [{
 				id: "4578A8C0BB3E0155"
@@ -510,7 +561,9 @@
 			y: 1.0d
 		}
 		{
-			description: ["夸克释放催化剂目前还做不了，所以只要你做出了7级水，就可以直接来这里领取8级水的元件"]
+			description: ["夸克释放催化剂目前还做不了，所以只要你做出了7级水，提交一个装满7级水的元件，就可以直接来这里领取8级水的元件"]
+			hide_dependent_lines: true
+			icon: "gtocore:baryonic_perfection_water_bucket"
 			id: "2EDCB01B9811A79D"
 			rewards: [{
 				id: "073F7587BB4E284F"
@@ -526,22 +579,36 @@
 				}
 				type: "item"
 			}]
+			shape: "rsquare"
 			tasks: [{
-				id: "378DB566F942202E"
-				item: "gtocore:degassed_water_bucket"
+				id: "65C95440B571C3A8"
+				item: {
+					Count: 1
+					id: "ae2:fluid_storage_cell_16k"
+					tag: {
+						byte: 16384L
+						type: 1
+						u: [I;
+							1162343746
+							-1788787660
+							-1830848364
+							-273450750
+						]
+					}
+				}
+				match_nbt: true
 				type: "item"
 			}]
-			x: -6.0d
-			y: -2.0d
+			title: "重子完美水 兑换处"
+			x: -8.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["3448FEC025A0CA9C"]
 			description: [
-				"<0.5.3专属彩蛋>"
+				"<彩蛋>"
 				""
-				"恭喜通关！"
-				""
-				"2026新年快乐！&o&m新的一年也要多多上工哦"
+				"恭喜通关！&m新的一年也要多多上工哦"
 			]
 			hide_until_deps_complete: true
 			id: "016825EEC25C1CEF"
@@ -587,7 +654,7 @@
 		}
 		{
 			dependencies: ["7B3C0DB7C1F11692"]
-			description: ["另两种缺失配方的材料，直接送你了"]
+			description: ["缺失配方的材料，直接送你了"]
 			id: "635BFF4E3FD9999F"
 			rewards: [
 				{
@@ -618,7 +685,36 @@
 					}
 					type: "item"
 				}
+				{
+					id: "416FA6C4BEEDE0C1"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtocore:awakened_core"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "74A8BBC5F54A5ECE"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtocore:chaos_infinity_alloy_ingot"
+							}
+						}
+					}
+					type: "item"
+				}
 			]
+			shape: "circle"
 			tasks: [{
 				id: "03BC803CB275580F"
 				type: "checkmark"
@@ -627,7 +723,6 @@
 			y: -6.0d
 		}
 		{
-			dependencies: ["4BEE8DA7018CD14D"]
 			id: "349D841C3AC757EE"
 			tasks: [{
 				id: "4A693F247715A612"
@@ -638,7 +733,6 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["4BEE8DA7018CD14D"]
 			id: "1B03B310BE94A3B3"
 			tasks: [{
 				id: "4A24785F13C32923"
@@ -647,6 +741,138 @@
 			}]
 			x: 0.0d
 			y: 4.0d
+		}
+		{
+			description: ["六级和七级数据载体需要用到这个访问仓，它还暂时做不出来，送你了"]
+			icon: "gtocore:virtual_universe_data_access_hatch"
+			id: "3FBB498BBBA5DBDC"
+			rewards: [{
+				id: "78E1DB8A50F52FD7"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:i"
+							id: "gtocore:virtual_universe_data_access_hatch"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "6246B1E9894DC4A4"
+				item: {
+					Count: 1
+					id: "gtocore:obsidian_matrix"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: " 虚拟宇宙数据访问仓 兑换处"
+			x: -8.0d
+			y: -2.0d
+		}
+		{
+			description: ["神龙能量核心需要用到它们"]
+			icon: "gtceu:mv_solar_panel"
+			id: "0573CE1530493B0A"
+			rewards: [
+				{
+					id: "54F87D0C7B5E9A53"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtceu:mv_solar_panel"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6A80C21877430EBF"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtceu:hv_solar_panel"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "552C1292DB375654"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtceu:ev_solar_panel"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "00B1F34DE7D87C7D"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtceu:iv_solar_panel"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "42C01E9863E2356F"
+				item: "gtocore:infinity_hex_wire"
+				type: "item"
+			}]
+			title: "太阳能板 兑换处"
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			description: ["人造恒星需要用到它们"]
+			icon: "gtocore:antimatter_containment_casing"
+			id: "48D0530DAF3ED7C5"
+			rewards: [{
+				id: "35A3EF5D75A4D49F"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:i"
+							id: "gtocore:antimatter_containment_casing"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "11F7B3B6D30BC6D9"
+				item: "gtocore:annihilate_generator"
+				type: "item"
+			}]
+			title: "反物质隔离机械方块 兑换处"
+			x: -6.0d
+			y: -2.0d
 		}
 	]
 	subtitle: ["Tier10-UEV"]
