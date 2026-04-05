@@ -38,14 +38,18 @@ jobs:
         purge-created: 0
         purge-last-accessed: 0
         purge-primary-key: always
-    - run: nix build .#curseforge -o curseforge
+    - name: Build CurseForge export
+      run: |
+        nix build .#curseforge -o curseforge
+        mkdir curseforge-upload
+        find -L curseforge -maxdepth 1 -type f -name '*.zip' -exec cp '{}' curseforge-upload/ \;
     - name: Inject latest translation into CurseForge export
       env:
         GH_TOKEN: ${{ github.token }}
       run: |
         PACK_VERSION="$(sed -n 's/^version = \"\([^\"]*\)\"$/\1/p' pack.toml)"
         PACK_CORE_VERSION="$(printf '%s' "$PACK_VERSION" | grep -oE '[0-9]+\.[0-9]+\.[0-9]+' | head -n 1 || true)"
-        CURSEFORGE_ZIP="$(find -L curseforge -maxdepth 1 -type f -name '*.zip' | head -n 1)"
+        CURSEFORGE_ZIP="$(find curseforge-upload -maxdepth 1 -type f -name '*.zip' | head -n 1)"
         RELEASE_JSON="$(gh api repos/GregTech-Odyssey/GTO-Translations/releases/latest)"
         RELEASE_TAG="$(printf '%s' "$RELEASE_JSON" | jq -r '.tag_name')"
         ASSET_NAME="$(printf '%s' "$RELEASE_JSON" | jq -r '.assets[] | select(.name | test("^gto-lang-all-locales-.*\\.zip$")) | .name' | head -n 1)"
@@ -111,7 +115,7 @@ jobs:
       with:
         name: GregTech-Odyssey
         path: |
-          ./curseforge/**.zip
+          ./curseforge-upload/**.zip
     - name: Upload artifacts
       uses: actions/upload-artifact@v4
       with:
