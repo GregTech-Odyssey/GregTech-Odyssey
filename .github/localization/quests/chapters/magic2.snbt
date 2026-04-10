@@ -2337,6 +2337,123 @@
 			x: 16.0d
 			y: 9.0d
 		}
+		{
+			dependencies: [
+				"056EC4E6FAF614B7"
+				"0B61448F01656C1D"
+			]
+			description: ["{gto.magic2.quests.240A3EF5AD42759A.description0}"]
+			hide_until_deps_visible: true
+			icon: "gtceu:bronze_ingot"
+			id: "240A3EF5AD42759A"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "690F217ADBC426EA"
+					item: "botania:rune_water"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "3361B057369A8096"
+					item: "botania:rune_fire"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "338A675B4A4B60CD"
+					item: "botania:rune_earth"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "259BE22C889FFACA"
+					item: "botania:rune_air"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "6937F1D944F4867E"
+					item: "botania:rune_spring"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "68064C645A7179A8"
+					item: "botania:rune_summer"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "3A5FFBF922778060"
+					item: "botania:rune_autumn"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "17FE06059519F99B"
+					item: "botania:rune_winter"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "6077A7E763FDAE4E"
+					item: "botania:rune_mana"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1556A8C0D7065FC5"
+					item: "botania:rune_lust"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "52F065234DFB0A11"
+					item: "botania:rune_gluttony"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0D93CFB136AA8362"
+					item: "botania:rune_greed"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0D2BDB120F21D9F7"
+					item: "botania:rune_sloth"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "110B3C74BF41AC9D"
+					item: "botania:rune_wrath"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7DA02B1CF4B61B13"
+					item: "botania:rune_envy"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1CFF4C6EEC3EE57A"
+					item: "botania:rune_pride"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "4DCA2101FE3CBD7F"
+				type: "checkmark"
+			}]
+			title: "{gto.magic2.quests.240A3EF5AD42759A.title}"
+			x: -4.0d
+			y: 4.5d
+		}
 	]
 	subtitle: ["{gto.magic2.subtitle0}"]
 	title: "{gto.magic2.title}"

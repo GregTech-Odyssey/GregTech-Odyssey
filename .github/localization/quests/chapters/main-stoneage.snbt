@@ -117,6 +117,7 @@
 				{
 					id: "75FF3B8B0F890C84"
 					item: "minecraft:bread"
+					team_reward: false
 					type: "item"
 				}
 				{
@@ -234,6 +235,7 @@
 					count: 32
 					id: "6413B83906128BBB"
 					item: "minecraft:bread"
+					team_reward: false
 					type: "item"
 				}
 				{
@@ -245,6 +247,7 @@
 							Damage: 0
 						}
 					}
+					team_reward: false
 					type: "item"
 				}
 				{
@@ -301,6 +304,7 @@
 					count: 64
 					id: "646F1FD0A4ED39E2"
 					item: "minecraft:cooked_beef"
+					team_reward: false
 					type: "item"
 				}
 				{
@@ -339,6 +343,7 @@
 							Damage: 0
 						}
 					}
+					team_reward: false
 					type: "item"
 				}
 				{
@@ -383,6 +388,7 @@
 					count: 64
 					id: "07AA65931017D21B"
 					item: "minecraft:torch"
+					team_reward: false
 					type: "item"
 				}
 				{
@@ -625,8 +631,10 @@
 			id: "10C397237163BFFC"
 			rewards: [
 				{
+					count: 2
 					id: "4CAB4AB4963A08F9"
 					item: "gtceu:wood_drum"
+					team_reward: false
 					type: "item"
 				}
 				{
@@ -831,6 +839,7 @@
 							HideFlags: 2
 						}
 					}
+					team_reward: false
 					type: "item"
 				}
 				{

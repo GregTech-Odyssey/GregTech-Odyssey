@@ -1473,6 +1473,7 @@
 			]
 			hide_until_deps_visible: true
 			id: "2F5F08A3D4B89B05"
+			optional: true
 			subtitle: "{gto.ulv.quests.2F5F08A3D4B89B05.subtitle}"
 			tasks: [{
 				id: "1BAF14E7BEC449F7"

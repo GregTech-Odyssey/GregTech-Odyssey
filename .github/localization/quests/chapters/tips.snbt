@@ -367,12 +367,46 @@
 			dependencies: ["79646E8E449D8A1A"]
 			description: [
 				"{gto.tips.quests.1786BB8F04B92CB3.description0}"
-				""
 				"{gto.tips.quests.1786BB8F04B92CB3.description1}"
-				""
 				"{gto.tips.quests.1786BB8F04B92CB3.description2}"
+				"{gto.tips.quests.1786BB8F04B92CB3.description3}"
+				"{gto.tips.quests.1786BB8F04B92CB3.description4}"
+				"{gto.tips.quests.1786BB8F04B92CB3.description5}"
+				"{gto.tips.quests.1786BB8F04B92CB3.description6}"
+				"{gto.tips.quests.1786BB8F04B92CB3.description7}"
+				"{gto.tips.quests.1786BB8F04B92CB3.description8}"
+				"{gto.tips.quests.1786BB8F04B92CB3.description9}"
+				"{gto.tips.quests.1786BB8F04B92CB3.description10}"
+				"{gto.tips.quests.1786BB8F04B92CB3.description11}"
+				"{gto.tips.quests.1786BB8F04B92CB3.description12}"
+				"{gto.tips.quests.1786BB8F04B92CB3.description13}"
+				"{@pagebreak}"
+				"{gto.tips.quests.1786BB8F04B92CB3.description14}"
+				"{gto.tips.quests.1786BB8F04B92CB3.description15}"
+				"{gto.tips.quests.1786BB8F04B92CB3.description16}"
+				"{gto.tips.quests.1786BB8F04B92CB3.description17}"
+				"{@pagebreak}"
+				"{gto.tips.quests.1786BB8F04B92CB3.description18}"
+				"{gto.tips.quests.1786BB8F04B92CB3.description19}"
+				"{gto.tips.quests.1786BB8F04B92CB3.description20}"
+				"{gto.tips.quests.1786BB8F04B92CB3.description21}"
+				"{gto.tips.quests.1786BB8F04B92CB3.description22}"
+				"{gto.tips.quests.1786BB8F04B92CB3.description23}"
+				"{gto.tips.quests.1786BB8F04B92CB3.description24}"
+				"{gto.tips.quests.1786BB8F04B92CB3.description25}"
+				"{gto.tips.quests.1786BB8F04B92CB3.description26}"
+				"{gto.tips.quests.1786BB8F04B92CB3.description27}"
+				"{gto.tips.quests.1786BB8F04B92CB3.description28}"
+				"{gto.tips.quests.1786BB8F04B92CB3.description29}"
+				"{gto.tips.quests.1786BB8F04B92CB3.description30}"
 			]
-			icon: "minecraft:beef"
+			icon: {
+				Count: 1
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "ad_astra:astrodux"
+				}
+			}
 			id: "1786BB8F04B92CB3"
 			shape: "pentagon"
 			size: 1.5d

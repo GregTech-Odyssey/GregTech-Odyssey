@@ -98,6 +98,10 @@
 				"{gto.gregtech_odyssey.quests.6517DDBE8132FA9B.description0}"
 				""
 				"{gto.gregtech_odyssey.quests.6517DDBE8132FA9B.description1}"
+				""
+				"{gto.gregtech_odyssey.quests.6517DDBE8132FA9B.description2}"
+				""
+				"{gto.gregtech_odyssey.quests.6517DDBE8132FA9B.description3}"
 			]
 			icon: "botania:cosmetic_questgiver_mark"
 			id: "6517DDBE8132FA9B"
@@ -324,6 +328,8 @@
 				"{gto.gregtech_odyssey.quests.6BDF1F517DCEBBD8.description3}"
 				""
 				"{gto.gregtech_odyssey.quests.6BDF1F517DCEBBD8.description4}"
+				""
+				"[\"\", {\"color\": \"gray\", \"italic\": true, \"translate\": \"gto.gregtech_odyssey.quests.6BDF1F517DCEBBD8.description5.rich_text0\"}, {\"underlined\": \"True\", \"italic\": true, \"color\": \"gray\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"1786BB8F04B92CB3\"}, \"translate\": \"gto.gregtech_odyssey.quests.6BDF1F517DCEBBD8.description5.rich_text1\"}, {\"color\": \"gray\", \"italic\": true, \"translate\": \"gto.gregtech_odyssey.quests.6BDF1F517DCEBBD8.description5.rich_text2\"}]"
 			]
 			hide_until_deps_visible: true
 			id: "6BDF1F517DCEBBD8"
