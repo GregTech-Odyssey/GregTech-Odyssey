@@ -1866,6 +1866,7 @@
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "47506298B1BD1780"
+			optional: true
 			subtitle: "超前期的样板总成"
 			tasks: [{
 				id: "0E7F69BEAF6D4D5D"
@@ -4474,6 +4475,7 @@
 			hide_until_deps_visible: true
 			icon: "ae2:wireless_terminal"
 			id: "073CEA22FD3EF535"
+			optional: true
 			shape: "pentagon"
 			subtitle: "简单模式下，AE配方未经魔改！"
 			tasks: [{
@@ -4741,6 +4743,7 @@
 			hide_until_deps_visible: true
 			icon: "ae2:controller"
 			id: "3697EDE91C2FFC6F"
+			optional: true
 			tasks: [
 				{
 					id: "2F3EACFFDC80B809"

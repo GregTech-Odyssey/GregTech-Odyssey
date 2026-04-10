@@ -97,7 +97,11 @@
 			description: [
 				"与前作不同，本作的所有生物根据难度得到了不同程度的加强！"
 				""
-				"小心敌对生物"
+				"游戏根据难度对怪物进行了血量和攻击力强化"
+				""
+				"同时还给中立生物添加了仇恨机制，如果你在动物旁边进食同类的肉，会导致动物来攻击你"
+				""
+				"注意安全"
 			]
 			icon: "botania:cosmetic_questgiver_mark"
 			id: "6517DDBE8132FA9B"
@@ -324,6 +328,8 @@
 				"暗号是：&6WIKI上，中文页面的特性指南，专家模式下所有的大写英文字母，按顺序相连"
 				""
 				"&o&7WIKI的链接可以在“难度与模式”任务中找到"
+				""
+				"[\"\",{\"color\":\"gray\",\"italic\": true,\"text\":\"如果访问不了WIKI也可前往\"},{ \"text\": \"内置指南\", \"underlined\": \"true\",\"italic\": true,\"color\":\"gray\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1786BB8F04B92CB3\"}},{\"color\":\"gray\",\"italic\": true,\"text\":\"查看标橙部分\"} ]"
 			]
 			hide_until_deps_visible: true
 			id: "6BDF1F517DCEBBD8"
