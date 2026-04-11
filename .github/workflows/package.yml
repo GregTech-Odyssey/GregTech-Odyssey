@@ -42,7 +42,7 @@ jobs:
       run: |
         nix build .#curseforge -o curseforge
         mkdir curseforge-upload
-        find -L curseforge -maxdepth 1 -type f -name '*.zip' -exec cp '{}' curseforge-upload/ \;
+        cp "$(ls curseforge/*.zip | head -n 1)" "curseforge-upload/$(basename "$(ls curseforge/*.zip | head -n 1)" .zip)-all-locales.zip"
         chmod u+w curseforge-upload/*.zip
     - name: Inject latest translation into CurseForge export
       env:
@@ -115,6 +115,11 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: GregTech-Odyssey
+        path: ./curseforge/*.zip
+    - name: Upload artifacts
+      uses: actions/upload-artifact@v4
+      with:
+        name: GregTech-Odyssey-all-locale
         path: |
           ./curseforge-upload/**.zip
     - name: Upload artifacts
@@ -168,4 +173,4 @@ jobs:
           git push origin :$TAG_NAME || true 
       - name: Publish release
         run: |
-          gh release create $TAG_NAME $PRERELEASE --title "$SUBJECT" --target $GITHUB_SHA GregTech-Odyssey/* GregTech-Odyssey-server-mods/* GregTech-Odyssey-client-mods/* GregTech-Odyssey-server/* 
+          gh release create $TAG_NAME $PRERELEASE --title "$SUBJECT" --notes-file .github/release-notes.md --target $GITHUB_SHA GregTech-Odyssey/* GregTech-Odyssey-all-locale/* GregTech-Odyssey-server-mods/* GregTech-Odyssey-client-mods/* GregTech-Odyssey-server/* 
