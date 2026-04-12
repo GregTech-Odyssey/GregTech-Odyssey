@@ -397,6 +397,7 @@
 			dependencies: [
 				"19134C6F6A115AEE"
 				"2947C7CBDC544496"
+				"0007751813572404"
 			]
 			description: [
 				"{gto.zpm.quests.19B07E541BE74686.description0}"
@@ -805,7 +806,7 @@
 				type: "item"
 			}]
 			x: -9.0d
-			y: 6.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["0985154AE9169549"]
@@ -832,6 +833,7 @@
 				"7C85C4B5A3E64723"
 				"49EECA793E1FF66F"
 			]
+			hide_dependent_lines: true
 			id: "0007751813572404"
 			shape: "hexagon"
 			size: 1.5d
@@ -847,6 +849,7 @@
 			dependencies: [
 				"0007751813572404"
 				"2CBDC8B5C9C32530"
+				"795AD7C014EEE5D3"
 			]
 			dependency_requirement: "one_completed"
 			description: [
@@ -1013,7 +1016,11 @@
 		}
 		{
 			dependencies: ["26167AFECA871925"]
-			description: ["{gto.zpm.quests.4520F6658FC37F85.description0}"]
+			description: [
+				"{gto.zpm.quests.4520F6658FC37F85.description0}"
+				""
+				"{gto.zpm.quests.4520F6658FC37F85.description1}"
+			]
 			id: "4520F6658FC37F85"
 			size: 1.0d
 			tasks: [{
@@ -1026,6 +1033,7 @@
 		}
 		{
 			dependencies: ["4520F6658FC37F85"]
+			description: ["{gto.zpm.quests.36A7AE94EDBE45C2.description0}"]
 			id: "36A7AE94EDBE45C2"
 			tasks: [{
 				id: "2AE711CD2EE2EFC4"
@@ -1185,15 +1193,34 @@
 		}
 		{
 			dependencies: ["19B07E541BE74686"]
+			description: ["{gto.zpm.quests.1585D7EF776E3E9C.description0}"]
 			id: "1585D7EF776E3E9C"
 			shape: "diamond"
+			size: 1.5d
+			subtitle: "{gto.zpm.quests.1585D7EF776E3E9C.subtitle}"
 			tasks: [{
 				id: "5642F3EBE81E7FCE"
 				item: "gtocore:integrated_ore_processor"
 				type: "item"
 			}]
 			x: -9.0d
-			y: 10.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0007751813572404"]
+			disable_toast: true
+			icon_scale: 0.25d
+			id: "795AD7C014EEE5D3"
+			shape: "none"
+			size: 0.25d
+			tasks: [{
+				id: "51ADF52F239A4E08"
+				stat: "minecraft:jump"
+				type: "stat"
+				value: 1
+			}]
+			x: 4.0d
+			y: 2.0d
 		}
 	]
 	subtitle: ["{gto.zpm.subtitle0}"]
