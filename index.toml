@@ -1086,7 +1086,7 @@ hash = "78283647ccc61b98ab1613e80790fa7a603a8badde399df2b40c2d8db86bb450"
 
 [[files]]
 file = "config/invtweaks-client.toml"
-hash = "f840ff4097bd5f4887e079529c35196a0ccdb4357adc07f4bb63a6e554960914"
+hash = "172a6d63ba4f9b399556c577678b1a7f9fe14aaf9f229f6e85b708ced60e93cc"
 
 [[files]]
 file = "config/jade/hide-blocks.json"
@@ -1421,6 +1421,10 @@ file = "config/openloader/resources/quests/pack.mcmeta"
 hash = "74f2d797b0fbd6405998031cd10c30193f4b53bb3ad96d2aa9b31ad5ded26191"
 
 [[files]]
+file = "config/openloader/resources/resources/ars_nouveau/lang/zh_cn.json"
+hash = "3752df5a06939b90e390962c9a6ed7726b01d279bd31112d80bdc97946e8a2c5"
+
+[[files]]
 file = "config/openloader/resources/resources/assets/ad_astra/lang/zh_cn.json"
 hash = "4d9e853d552aeec7dc7d1b0caa5979e88bbd6be0539079b06eaa55302972a8f1"
 
@@ -1498,7 +1502,7 @@ hash = "4dc30d3cff7bcfcf90352ae69ae908bb4480f40400865c39b2c11edb18388995"
 
 [[files]]
 file = "config/openloader/resources/resources/assets/emi/lang/zh_cn.json"
-hash = "b518ca8e321baf941eb799d7d270b209945f60ed1a7b1ae55d3fe91ec16ce22d"
+hash = "47864b982bbb320b78602dcc5a3c3abd968a420a8c2746f839520ad18bcc96e3"
 
 [[files]]
 file = "config/openloader/resources/resources/assets/enderio/lang/en_us.json"
@@ -2307,6 +2311,22 @@ hash = "823b9f7fae4a77c8eae3e0783dcb9666c05dd27c5912a1293c93f00eb25a866f"
 [[files]]
 file = "config/openloader/resources/resources/assets/xaeroworldmap/lang/zh_cn.json"
 hash = "7ed31d109a6cbe82e894eb82431e69a503c8e11fe1e376d2d6dfdc3fffc99214"
+
+[[files]]
+file = "config/openloader/resources/resources/aw2wtlib/lang/zh_cn.json"
+hash = "2934ded30bbd92f9f595462bed299d3a6ec1ec2cc45c3826ffa8f7c15cac1cb0"
+
+[[files]]
+file = "config/openloader/resources/resources/expatternprovider/lang/zh_cn.json"
+hash = "132cb5918a2de767df6fef324f337f8624211d15c07506741cc272f23dd5249e"
+
+[[files]]
+file = "config/openloader/resources/resources/mythicbotany/lang/zh_cn.json"
+hash = "35b7baf9526371643f2e2b5db0049e915d173ae956a221698dfe55a18e871006"
+
+[[files]]
+file = "config/openloader/resources/resources/mythicbotany_lexicon/lang/zh_cn.json"
+hash = "8e5dff415d9f0b30f173547a9f4115d281c01bbf810692980fb5cc35ccb44efa"
 
 [[files]]
 file = "config/openloader/resources/resources/pack.mcmeta"
