@@ -581,22 +581,8 @@
 			}]
 			shape: "rsquare"
 			tasks: [{
-				id: "65C95440B571C3A8"
-				item: {
-					Count: 1
-					id: "ae2:fluid_storage_cell_16k"
-					tag: {
-						byte: 16384L
-						type: 1
-						u: [I;
-							1162343746
-							-1788787660
-							-1830848364
-							-273450750
-						]
-					}
-				}
-				match_nbt: true
+				id: "6F46DEE9DC32ACA2"
+				item: "gtocore:baryonic_perfection_water_bucket"
 				type: "item"
 			}]
 			title: "{gto.uev.quests.2EDCB01B9811A79D.title}"
