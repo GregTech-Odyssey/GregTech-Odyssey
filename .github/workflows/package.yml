@@ -54,6 +54,7 @@ jobs:
         RELEASE_JSON="$(gh api repos/GregTech-Odyssey/GTO-Translations/releases/latest)"
         RELEASE_TAG="$(printf '%s' "$RELEASE_JSON" | jq -r '.tag_name')"
         ASSET_NAME="$(printf '%s' "$RELEASE_JSON" | jq -r '.assets[] | select(.name | test("^gto-lang-all-locales-.*\\.zip$")) | .name' | head -n 1)"
+        Z_ASSET_NAME="z-$ASSET_NAME"
         ASSET_URL="$(printf '%s' "$RELEASE_JSON" | jq -r '.assets[] | select(.name | test("^gto-lang-all-locales-.*\\.zip$")) | .browser_download_url' | head -n 1)"
         RELEASE_CORE_VERSION="$(printf '%s %s' "$RELEASE_TAG" "$ASSET_NAME" | grep -oE '[0-9]+\.[0-9]+\.[0-9]+' | head -n 1 || true)"
 
@@ -82,14 +83,14 @@ jobs:
         curl -L \
           -H "Authorization: Bearer $GH_TOKEN" \
           -H "Accept: application/octet-stream" \
-          -o "$TMP_DIR/overrides/config/openloader/resources/$ASSET_NAME" \
+          -o "$TMP_DIR/overrides/config/openloader/resources/$Z_ASSET_NAME" \
           "$ASSET_URL"
         (
           cd "$TMP_DIR" &&
-          zip -q "$GITHUB_WORKSPACE/$CURSEFORGE_ZIP" "overrides/config/openloader/resources/$ASSET_NAME"
+          zip -q "$GITHUB_WORKSPACE/$CURSEFORGE_ZIP" "overrides/config/openloader/resources/$Z_ASSET_NAME"
         )
         rm -rf "$TMP_DIR"
-        echo "Injected $ASSET_NAME into $CURSEFORGE_ZIP."
+        echo "Injected $Z_ASSET_NAME into $CURSEFORGE_ZIP."
     - name: Build Server Modpack
       run: |
         nix build .#modpack
