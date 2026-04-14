@@ -71,7 +71,9 @@
 			description: [
 				"常回来看看，这里收集了大部分关于游戏机制的技巧与提示！"
 				""
-				"右边单独列出的机制随着游戏进程而解锁，你也可以现在就看一看"
+				"围成一圈的是对&e开始游戏非常有用的提示&r，请务必在开始游玩整合包之前看一遍"
+				""
+				"右边单独列出的机制&6随着游戏进程而解锁&r，所以它们都是锁着的，你也可以现在就看一看"
 			]
 			icon: "minecraft:writable_book"
 			id: "79646E8E449D8A1A"
@@ -291,7 +293,9 @@
 				"·不同的任务指引和任务奖励"
 				"·不同强度的怪物"
 				""
-				"[ \"\", {\"text\":\"详细特性请查看\", \"color\":\"yellow\"}, { \"text\": \"简单、普通、专家模式特性指南\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"open_url\", \"value\": \"https://gtodyssey.com/zh-hans/wiki/简单普通专家模式特性指南/\" } }]"
+				"[ \"\", {\"text\":\"详细特性请查看WIKI：\", \"color\":\"yellow\"}, { \"text\": \"简单、普通、专家模式特性指南\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"open_url\", \"value\": \"https://gtodyssey.com/zh-hans/wiki/简单普通专家模式特性指南/\" } }]"
+				""
+				"[\"\",{\"color\":\"gray\",\"italic\": true,\"text\":\"如果访问不了WIKI也可前往\"},{ \"text\": \"内置指南\", \"underlined\": \"true\",\"italic\": true,\"color\":\"gray\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1786BB8F04B92CB3\"}} ]"
 				""
 				"&e强烈建议在更改难度后，重启MC，然后再创建新的世界！&r"
 				""
@@ -1903,7 +1907,11 @@
 			y: 6.0d
 		}
 		{
-			description: ["应用能源（AE2）章节左上角有许多小工具，别忘了去看看！"]
+			description: [
+				"应用能源（AE2）章节左上角有许多小工具，别忘了去看看！"
+				""
+				"还有许多新终端，别忘了去章节右下角看看"
+			]
 			id: "466185D2D791EC6D"
 			tasks: [{
 				id: "0692ADD68322C2E3"

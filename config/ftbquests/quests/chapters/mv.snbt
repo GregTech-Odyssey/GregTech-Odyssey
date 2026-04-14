@@ -24,7 +24,7 @@
 			order: 1
 			rotation: 45.0d
 			width: 1.0d
-			x: -1.5d
+			x: -6.5d
 			y: 6.0d
 		}
 		{
@@ -33,7 +33,7 @@
 			image: "xtonesreworked:block/bitt/12"
 			rotation: 45.0d
 			width: 1.0d
-			x: -1.5d
+			x: -6.5d
 			y: 6.0d
 		}
 	]
@@ -65,8 +65,15 @@
 			id: "28F97A926D99CD20"
 			linked_quest: "47506298B1BD1780"
 			shape: "diamond"
-			x: -1.5d
+			x: -6.5d
 			y: 6.0d
+		}
+		{
+			id: "15880665AB3DE970"
+			linked_quest: "44B2AB98840349D2"
+			shape: "square"
+			x: -5.0d
+			y: 4.5d
 		}
 	]
 	quests: [
@@ -359,8 +366,8 @@
 				item: "gtceu:vanadium_steel_ingot"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 4.5d
+			x: -3.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["08476EE4F11A0F2E"]

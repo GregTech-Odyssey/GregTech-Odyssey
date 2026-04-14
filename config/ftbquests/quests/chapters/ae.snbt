@@ -1,5 +1,5 @@
 {
-	autofocus_id: "5FCFE3D6B36CC409"
+	autofocus_id: "034D579A41F2ED3D"
 	default_hide_dependency_lines: false
 	default_quest_shape: "square"
 	filename: "ae"
@@ -720,15 +720,6 @@
 		{
 			dependency: "28C9BF5C59F5F723"
 			height: 1.0d
-			image: "gtocore:item/circuit/suprachronal_lv"
-			rotation: 0.0d
-			width: 1.0d
-			x: -7.5d
-			y: 1.5d
-		}
-		{
-			dependency: "28C9BF5C59F5F723"
-			height: 1.0d
 			image: "gtocore:item/circuit/suprachronal_ev"
 			rotation: 0.0d
 			width: 1.0d
@@ -1183,8 +1174,8 @@
 			image: "gtocore:item/circuit/suprachronal_mv"
 			rotation: 0.0d
 			width: 1.0d
-			x: -9.5d
-			y: 9.5d
+			x: -7.5d
+			y: 1.5d
 		}
 		{
 			dependency: "28C9BF5C59F5F723"
@@ -1192,8 +1183,8 @@
 			image: "gtocore:item/circuit/suprachronal_mv"
 			rotation: 0.0d
 			width: 1.0d
-			x: -11.5d
-			y: 7.5d
+			x: -9.5d
+			y: 4.15d
 		}
 	]
 	order_index: 0
@@ -1237,11 +1228,15 @@
 				"2D899AFE07E20FEF"
 			]
 			description: [
-				"[\"你可以开始着手发展\",{ \"text\": \"AE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5FCFE3D6B36CC409\" } },\"了！\"]"
+				"[\"你终于可以制作\",{ \"text\": \"应用能源(AE2)\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5FCFE3D6B36CC409\" } },\"的敲门砖——\",{\"color\":\"gold\",\"text\":\"能源接收器\"},\"了！\"]"
 				""
-				"非专家模式默认&c无频道数量限制&r，不需要接入&6ME控制器&r，只需要确保为当前网络提供足够的能量即可"
+				"&o&b不过先别太激动&r&o&7——可惜的是，在LV时代你能做的AE物品其实就只有这玩意儿（还有其他几个小玩意）……"
+				""
+				"&o&7想要真正在AE上大展拳脚？还是得等到MV才行。"
 				""
 				"AE机器和ME网络都需要AE能量才能工作，使用&6能源接收器&r将GT的电能转化为AE能量"
+				""
+				"非专家模式默认&c无频道数量限制&r，不需要接入&6ME控制器&r，只需要确保为当前网络提供足够的能量即可"
 				""
 				"&o&7如果你还不会AE，请尽快寻找教程快速入门。本包无需精通AE，但至少需要了解如何下单。"
 			]
@@ -1256,18 +1251,11 @@
 			shape: "gear"
 			size: 2.0d
 			subtitle: "没有频道的AE真好"
-			tasks: [
-				{
-					id: "603914C7BECB258E"
-					item: "ae2:energy_acceptor"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "3F08D1D891690E8E"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "603914C7BECB258E"
+				item: "ae2:energy_acceptor"
+				type: "item"
+			}]
 			title: "应用能源起步"
 			x: -9.0d
 			y: 1.5d
@@ -1479,7 +1467,7 @@
 				}
 			]
 			title: "外星科技"
-			x: -11.0d
+			x: -13.0d
 			y: 3.5d
 		}
 		{
@@ -1857,13 +1845,13 @@
 				"056EC4E6FAF614B7"
 				"073CEA22FD3EF535"
 				"3237EF5DBFF07740"
+				"2D899AFE07E20FEF"
 			]
 			description: [
 				"只在简单模式可用！"
 				""
 				"放入样板并连接ME网络以自动发配合成原料，继承了普通样板总成的所有优化特性"
 			]
-			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "47506298B1BD1780"
 			optional: true
@@ -1909,6 +1897,7 @@
 			id: "034D579A41F2ED3D"
 			shape: "hexagon"
 			size: 1.5d
+			subtitle: "AE的科技起步"
 			tasks: [
 				{
 					id: "24CFB5461290BB0A"
@@ -2083,6 +2072,7 @@
 			id: "592D975F3146151E"
 			shape: "hexagon"
 			size: 1.5d
+			subtitle: "AE的工业起步"
 			tasks: [
 				{
 					id: "2EB31741E39CA278"
@@ -2218,13 +2208,17 @@
 			dependencies: [
 				"592D975F3146151E"
 				"7E963A64B5EB7C20"
+				"056EC4E6FAF614B7"
 			]
+			dependency_requirement: "one_completed"
 			description: [
 				"有了它你才可以开始自动合成"
 				""
 				"样板供应器有很多阻挡模式，大部分时候开启&e“非同一样板时阻止插入”&r即可"
 			]
+			hide_dependent_lines: true
 			id: "43974ABFAE99587B"
+			min_required_dependencies: 2
 			subtitle: "自动合成起步"
 			tasks: [{
 				id: "7A86F105A3662E4F"
@@ -2236,7 +2230,10 @@
 			y: 5.5d
 		}
 		{
-			dependencies: ["43974ABFAE99587B"]
+			dependencies: [
+				"43974ABFAE99587B"
+				"03BD203E72FFA1AC"
+			]
 			id: "1EED90EE9774CD7A"
 			tasks: [{
 				id: "55324AC157485C20"
@@ -3233,8 +3230,9 @@
 			dependencies: [
 				"0E9F8C57145D61AB"
 				"7E963A64B5EB7C20"
+				"056EC4E6FAF614B7"
 			]
-			dependency_requirement: "all_started"
+			dependency_requirement: "one_completed"
 			description: [
 				"有了它你才可以开始自动合成"
 				""
@@ -3242,6 +3240,7 @@
 			]
 			hide_dependency_lines: true
 			id: "2F42DE3FEC2C35F9"
+			min_required_dependencies: 2
 			tasks: [{
 				id: "2E3E0866967015F4"
 				item: "ae2:crafting_unit"
@@ -4338,7 +4337,11 @@
 			y: 13.5d
 		}
 		{
-			dependencies: ["0C2743077DB8406F"]
+			dependencies: [
+				"0C2743077DB8406F"
+				"056EC4E6FAF614B7"
+			]
+			dependency_requirement: "one_completed"
 			description: [
 				"有了它你才可以开始自动合成"
 				""
@@ -4468,9 +4471,11 @@
 				"5FCFE3D6B36CC409"
 			]
 			description: [
-				" 在简单模式下，部分任务指引不适用，如&6驱动器&r，&6空白样板&r，&6样板供应器&r，&6合成单元&r等。请&e无视它们的前置要求&r"
+				" 在简单模式下，部分任务指引不适用，如&6驱动器&r，&6空白样板&r，&6样板供应器&r，&6合成单元&r等。请&e无视它们在LV、MV的前置要求&r"
 				""
 				"&e在蒸汽时代，你已经可以使用AE开始自动化&r"
+				""
+				"&o&7也请忽略下“应用能源起步”任务里面写的内容啦，笔者暂时技术力不够，没办法把这个任务藏起来"
 			]
 			hide_until_deps_visible: true
 			icon: "ae2:wireless_terminal"
@@ -4509,13 +4514,13 @@
 		}
 		{
 			dependencies: [
-				"2A893BFDB41B7CFC"
 				"354F44C38AF0268D"
 				"50158929D20CC96E"
-				"3DED3C8D0C72214F"
+				"464BDF98D4BF7B90"
 			]
 			dependency_requirement: "one_completed"
 			id: "44B2AB98840349D2"
+			min_required_dependencies: 2
 			tasks: [
 				{
 					id: "2B7564BACBAEE2E0"
@@ -4540,7 +4545,7 @@
 			]
 			title: "AE电路板"
 			x: -11.0d
-			y: 5.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["7797EB75FF74F43F"]
@@ -4690,26 +4695,6 @@
 		}
 		{
 			dependencies: [
-				"0A71F8193A3A39AE"
-				"50158929D20CC96E"
-			]
-			description: [
-				"放入水和材料块可以快捷产出9份电路板"
-				""
-				"特别注意制作硅板使用的硅块是&eExtendedAE&r的硅块，使用赛特斯石英粉即可制作"
-			]
-			hide_dependency_lines: true
-			id: "3DED3C8D0C72214F"
-			tasks: [{
-				id: "59E4062C2F269D3B"
-				item: "expatternprovider:circuit_cutter"
-				type: "item"
-			}]
-			x: -13.0d
-			y: 3.5d
-		}
-		{
-			dependencies: [
 				"0BC456B4331C09F5"
 				"056EC4E6FAF614B7"
 				"66AA197AB2675421"
@@ -4731,10 +4716,7 @@
 			y: 9.5d
 		}
 		{
-			dependencies: [
-				"5FCFE3D6B36CC409"
-				"1FB1EC5B9CEFC2BC"
-			]
+			dependencies: ["034D579A41F2ED3D"]
 			description: [
 				"非专家模式默认&c无频道数量限制&r，不需要接入&6ME控制器&r，只需要确保为当前网络提供足够的能量即可"
 				""
@@ -4756,8 +4738,8 @@
 					type: "checkmark"
 				}
 			]
-			x: -9.0d
-			y: 9.5d
+			x: -11.0d
+			y: 5.5d
 		}
 		{
 			can_repeat: true
@@ -4863,6 +4845,22 @@
 			title: "源节点和子节点"
 			x: -21.0d
 			y: 7.5d
+		}
+		{
+			dependencies: ["43974ABFAE99587B"]
+			disable_toast: true
+			icon_scale: 0.25d
+			id: "03BD203E72FFA1AC"
+			shape: "none"
+			size: 0.25d
+			tasks: [{
+				id: "73AD4FBFC984F409"
+				stat: "minecraft:jump"
+				type: "stat"
+				value: 1
+			}]
+			x: -7.0d
+			y: 5.5d
 		}
 	]
 	subtitle: ["Applied Energistics 2"]
