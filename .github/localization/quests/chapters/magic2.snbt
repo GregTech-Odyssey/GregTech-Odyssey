@@ -1,4 +1,5 @@
 {
+	autofocus_id: "43F6C9135F5125AC"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "magic2"
@@ -2453,6 +2454,18 @@
 			title: "{gto.magic2.quests.240A3EF5AD42759A.title}"
 			x: -4.0d
 			y: 4.5d
+		}
+		{
+			disable_toast: true
+			id: "43F6C9135F5125AC"
+			invisible: true
+			optional: true
+			tasks: [{
+				id: "6F19784ACCD2E77C"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: 5.0d
 		}
 	]
 	subtitle: ["{gto.magic2.subtitle0}"]
