@@ -1186,6 +1186,30 @@
 			x: -9.5d
 			y: 4.15d
 		}
+		{
+			height: 1.0d
+			image: "gtocore:item/circuit/suprachronal_luv"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.5d
+			y: 19.0d
+		}
+		{
+			height: 1.0d
+			image: "gtocore:item/circuit/suprachronal_iv"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5d
+			y: 19.0d
+		}
+		{
+			height: 1.0d
+			image: "gtocore:item/circuit/suprachronal_iv"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.5d
+			y: 19.0d
+		}
 	]
 	order_index: 0
 	quest_links: [
@@ -4861,6 +4885,48 @@
 			}]
 			x: -7.0d
 			y: 5.5d
+		}
+		{
+			id: "42DAAB34DDDFAEC7"
+			tasks: [{
+				id: "5CCC89F44EA7C835"
+				item: "gtocore:me_input_buffer_part_machine"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 19.5d
+		}
+		{
+			id: "6943ABFB801962BD"
+			tasks: [{
+				id: "7227E354A2B9AC29"
+				item: "gtocore:me_requestable_input_bus_machine"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 19.5d
+		}
+		{
+			id: "3D3279F4C060722D"
+			tasks: [{
+				id: "569E3C91D138C466"
+				item: "gtocore:me_requestable_input_hatch_machine"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 19.5d
+		}
+		{
+			description: ["{gto.ae.quests.40FDBD03A41EFE43.description0}"]
+			id: "40FDBD03A41EFE43"
+			shape: "circle"
+			tasks: [{
+				id: "41F5FE50219072EF"
+				title: "{gto.ae.quests.40FDBD03A41EFE43.tasks.41F5FE50219072EF.title}"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 19.5d
 		}
 	]
 	subtitle: ["{gto.ae.subtitle0}"]
