@@ -3208,11 +3208,6 @@ hash = "51bf17db22eee5fb80da0b2efe87b846f1165bafc67a789782c5fd976c406ffa"
 metafile = true
 
 [[files]]
-file = "mods/oworld2create.pw.toml"
-hash = "5b829f0bd032534e8daedf09afd32149f010f86975122dcf58a14d993de53304"
-metafile = true
-
-[[files]]
 file = "mods/patchouli.pw.toml"
 hash = "b2cb681aaf3e6085148392a06d40899239dc299aaf5ce0adf168fc225d922c97"
 metafile = true
