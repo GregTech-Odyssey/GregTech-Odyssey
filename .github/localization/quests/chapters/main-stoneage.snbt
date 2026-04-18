@@ -117,6 +117,7 @@
 				{
 					id: "75FF3B8B0F890C84"
 					item: "minecraft:bread"
+					team_reward: false
 					type: "item"
 				}
 				{
@@ -234,6 +235,7 @@
 					count: 32
 					id: "6413B83906128BBB"
 					item: "minecraft:bread"
+					team_reward: false
 					type: "item"
 				}
 				{
@@ -245,6 +247,7 @@
 							Damage: 0
 						}
 					}
+					team_reward: false
 					type: "item"
 				}
 				{
@@ -301,6 +304,7 @@
 					count: 64
 					id: "646F1FD0A4ED39E2"
 					item: "minecraft:cooked_beef"
+					team_reward: false
 					type: "item"
 				}
 				{
@@ -339,6 +343,7 @@
 							Damage: 0
 						}
 					}
+					team_reward: false
 					type: "item"
 				}
 				{
@@ -383,6 +388,7 @@
 					count: 64
 					id: "07AA65931017D21B"
 					item: "minecraft:torch"
+					team_reward: false
 					type: "item"
 				}
 				{
@@ -625,8 +631,10 @@
 			id: "10C397237163BFFC"
 			rewards: [
 				{
+					count: 2
 					id: "4CAB4AB4963A08F9"
 					item: "gtceu:wood_drum"
+					team_reward: false
 					type: "item"
 				}
 				{
@@ -775,6 +783,10 @@
 									Count: 1b
 									id: "gtceu:raw_chalcopyrite"
 								}
+								{
+									Count: 1b
+									id: "gtceu:raw_malachite"
+								}
 							]
 						}
 					}
@@ -827,6 +839,7 @@
 							HideFlags: 2
 						}
 					}
+					team_reward: false
 					type: "item"
 				}
 				{
@@ -1995,7 +2008,7 @@
 						Count: 1
 						id: "itemfilters:tag"
 						tag: {
-							value: "gt:dyes"
+							value: "c:dyes"
 						}
 					}
 					title: "{gto.main-stoneage.quests.07169625BC595BD3.tasks.377170224E4EC88E.title}"
@@ -2012,10 +2025,10 @@
 				"{gto.main-stoneage.quests.07C8D75D90114580.description0}"
 				""
 				"{gto.main-stoneage.quests.07C8D75D90114580.description1}"
-				"{gto.main-stoneage.quests.07C8D75D90114580.description2}"
-				"{gto.main-stoneage.quests.07C8D75D90114580.description3}"
 				""
-				"{gto.main-stoneage.quests.07C8D75D90114580.description4}"
+				"{gto.main-stoneage.quests.07C8D75D90114580.description2}"
+				""
+				"{gto.main-stoneage.quests.07C8D75D90114580.description3}"
 			]
 			id: "07C8D75D90114580"
 			rewards: [
@@ -2202,6 +2215,12 @@
 					item: "gtceu:wrought_iron_ingot"
 					type: "item"
 				}
+				{
+					count: 128
+					id: "3AC13A63A0D7D6A9"
+					item: "gtocore:copper_coin"
+					type: "item"
+				}
 			]
 			shape: "octagon"
 			subtitle: "{gto.main-stoneage.quests.41F8B4785DF68920.subtitle}"
@@ -2225,7 +2244,7 @@
 			optional: true
 			rewards: [
 				{
-					count: 128
+					count: 64
 					id: "0BCDAC9C08ADBEE7"
 					item: "gtceu:bronze_ingot"
 					type: "item"
@@ -2273,11 +2292,18 @@
 			icon: "gtceu:bronze_ingot"
 			id: "6097173C67222EC0"
 			optional: true
-			rewards: [{
-				id: "1F3EFB3D33C6BA0A"
-				item: "gtceu:bronze_ingot"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "1F3EFB3D33C6BA0A"
+					item: "gtceu:bronze_ingot"
+					type: "item"
+				}
+				{
+					id: "0A27F98E3891A560"
+					item: "gtocore:copper_coin"
+					type: "item"
+				}
+			]
 			shape: "octagon"
 			subtitle: "{gto.main-stoneage.quests.6097173C67222EC0.subtitle}"
 			tasks: [{
@@ -2292,6 +2318,7 @@
 			dependencies: ["561D79DE960A034D"]
 			description: [
 				"{gto.main-stoneage.quests.24AD2CCEF0E48FD5.description0}"
+				""
 				"{gto.main-stoneage.quests.24AD2CCEF0E48FD5.description1}"
 				""
 				"{gto.main-stoneage.quests.24AD2CCEF0E48FD5.description2}"

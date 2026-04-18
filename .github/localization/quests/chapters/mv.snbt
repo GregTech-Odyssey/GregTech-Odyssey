@@ -7,14 +7,36 @@
 	hide_quest_until_deps_visible: true
 	icon: "gtocore:processing_plant"
 	id: "7C6B0DA4DF5D00E3"
-	images: [{
-		height: 1.75d
-		image: "ftbquests:textures/shapes/gear/outline.png"
-		rotation: 0.0d
-		width: 1.75d
-		x: -6.75d
-		y: -1.75d
-	}]
+	images: [
+		{
+			height: 1.75d
+			image: "ftbquests:textures/shapes/gear/outline.png"
+			rotation: 0.0d
+			width: 1.75d
+			x: -6.75d
+			y: -1.75d
+		}
+		{
+			color: 16711935
+			dependency: "056EC4E6FAF614B7"
+			height: 1.0d
+			image: "ftbquests:block/barrier_open"
+			order: 1
+			rotation: 45.0d
+			width: 1.0d
+			x: -6.5d
+			y: 6.0d
+		}
+		{
+			dependency: "056EC4E6FAF614B7"
+			height: 1.0d
+			image: "xtonesreworked:block/bitt/12"
+			rotation: 45.0d
+			width: 1.0d
+			x: -6.5d
+			y: 6.0d
+		}
+	]
 	order_index: 4
 	quest_links: [
 		{
@@ -38,6 +60,20 @@
 			shape: "hexagon"
 			x: -8.0d
 			y: 6.0d
+		}
+		{
+			id: "28F97A926D99CD20"
+			linked_quest: "47506298B1BD1780"
+			shape: "diamond"
+			x: -6.5d
+			y: 6.0d
+		}
+		{
+			id: "15880665AB3DE970"
+			linked_quest: "44B2AB98840349D2"
+			shape: "square"
+			x: -5.0d
+			y: 4.5d
 		}
 	]
 	quests: [
@@ -330,8 +366,8 @@
 				item: "gtceu:vanadium_steel_ingot"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 4.5d
+			x: -3.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["08476EE4F11A0F2E"]
@@ -503,6 +539,8 @@
 				"{gto.mv.quests.0D63E5A54480E693.description5}"
 				""
 				"{gto.mv.quests.0D63E5A54480E693.description6}"
+				""
+				"{gto.mv.quests.0D63E5A54480E693.description7}"
 			]
 			hide_dependency_lines: true
 			icon: "gtocore:processing_plant"
@@ -517,8 +555,15 @@
 					type: "item"
 				}
 				{
-					id: "7E00F485192A6972"
-					item: "gtocore:integral_framework_lv"
+					id: "39A0B7833083A893"
+					item: {
+						Count: 1
+						id: "itemfilters:id_regex"
+						tag: {
+							value: "gtocore:integral_framework_.+"
+						}
+					}
+					title: "{gto.mv.quests.0D63E5A54480E693.tasks.39A0B7833083A893.title}"
 					type: "item"
 				}
 			]
@@ -680,7 +725,13 @@
 				"49E5CC5873FA226F"
 				"5956E4E095324029"
 			]
-			description: ["{gto.mv.quests.60779EE5AA0761BD.description0}"]
+			description: [
+				"{gto.mv.quests.60779EE5AA0761BD.description0}"
+				""
+				"{gto.mv.quests.60779EE5AA0761BD.description1}"
+				""
+				"{gto.mv.quests.60779EE5AA0761BD.description2}"
+			]
 			hide_dependency_lines: true
 			id: "60779EE5AA0761BD"
 			rewards: [{
@@ -706,7 +757,13 @@
 		}
 		{
 			dependencies: ["752E02060595192D"]
-			description: ["{gto.mv.quests.171118E236848A2E.description0}"]
+			description: [
+				"{gto.mv.quests.171118E236848A2E.description0}"
+				""
+				"{gto.mv.quests.171118E236848A2E.description1}"
+				""
+				"{gto.mv.quests.171118E236848A2E.description2}"
+			]
 			hide_dependency_lines: true
 			id: "171118E236848A2E"
 			shape: "hexagon"
@@ -718,22 +775,6 @@
 			}]
 			x: -6.75d
 			y: -3.25d
-		}
-		{
-			dependencies: ["49E5CC5873FA226F"]
-			description: ["{gto.mv.quests.0A9501C9027AC03D.description0}"]
-			hide_dependency_lines: true
-			id: "0A9501C9027AC03D"
-			shape: "hexagon"
-			size: 1.5d
-			subtitle: "{gto.mv.quests.0A9501C9027AC03D.subtitle}"
-			tasks: [{
-				id: "5D43198A9E3AC42A"
-				item: "gtceu:implosion_compressor"
-				type: "item"
-			}]
-			x: -5.25d
-			y: -0.25d
 		}
 		{
 			dependencies: ["3899164922A734D8"]
@@ -941,31 +982,37 @@
 				{
 					id: "7385D5E65ED52B73"
 					item: "gtocore:mv_semi_fluid"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "5BE776F4BA8F62AB"
 					item: "gtocore:mv_thermal_generator"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "32EB43ED4A7F4B0C"
 					item: "gtocore:mv_wind_mill_turbine"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "4CE6900DE345E137"
 					item: "gtceu:mv_combustion"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "2FF817ACC04575E1"
 					item: "gtceu:mv_gas_turbine"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "0D9FF06257B4F397"
 					item: "gtceu:mv_steam_turbine"
+					optional_task: true
 					type: "item"
 				}
 			]
@@ -1106,9 +1153,6 @@
 				"{gto.mv.quests.51179D5DAF67715A.description0}"
 				""
 				"{gto.mv.quests.51179D5DAF67715A.description1}"
-				""
-				"{gto.mv.quests.51179D5DAF67715A.description2}"
-				"{gto.mv.quests.51179D5DAF67715A.description3}"
 			]
 			hide_dependency_lines: true
 			id: "51179D5DAF67715A"
@@ -1212,6 +1256,8 @@
 				"{gto.mv.quests.2386117F9423A54E.description0}"
 				""
 				"[\"\", {\"translate\": \"gto.mv.quests.2386117F9423A54E.description1.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"20B8E68273D7D0DE\"}, \"translate\": \"gto.mv.quests.2386117F9423A54E.description1.rich_text1\"}, {\"translate\": \"gto.mv.quests.2386117F9423A54E.description1.rich_text2\"}]"
+				""
+				"{gto.mv.quests.2386117F9423A54E.description2}"
 			]
 			hide_dependency_lines: true
 			icon: "gtocore:mv_wireless_input_hatch"
@@ -1565,6 +1611,23 @@
 			title: "{gto.mv.quests.2E8860AF6354FFE3.title}"
 			x: 9.0d
 			y: -2.5d
+		}
+		{
+			dependencies: ["0EE9737781747575"]
+			description: ["{gto.mv.quests.7FD151D808A41D6C.description0}"]
+			hide_dependency_lines: true
+			id: "7FD151D808A41D6C"
+			optional: true
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{gto.mv.quests.7FD151D808A41D6C.subtitle}"
+			tasks: [{
+				id: "62AE2C2CABA01A4C"
+				item: "gtocore:energetic_photovoltaic_power_station"
+				type: "item"
+			}]
+			x: -5.25d
+			y: -0.25d
 		}
 	]
 	subtitle: ["{gto.mv.subtitle0}"]
