@@ -2,7 +2,6 @@ name: "Bug Report / 错误报告"
 description: "Submit a report for a bug. / 提交错误报告。"
 labels:
   - "错误 bug"
-  - "Status: 待处理 triage"
 body:
   - type: "input"
     id: "version"
