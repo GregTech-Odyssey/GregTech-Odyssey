@@ -2,6 +2,7 @@ name: "Mod Request / 模组请求"
 description: "Submit a request to add a new mod to the modpack. / 提交向模组包添加新模组的请求。"
 labels:
   - "增强 enhancement"
+  - "Status: 待处理 triage"
 body:
   - type: "input"
     id: "version"

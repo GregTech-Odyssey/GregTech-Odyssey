@@ -2,6 +2,7 @@ name: "Feature Suggestion / 特性建议"
 description: "Submit a request for a new feature or modification to an existing feature. / 提交新特性请求或修改现有特性的请求。"
 labels:
   - "增强 enhancement"
+  - "Status: 待处理 triage"
 body:
   - type: "input"
     id: "version"
@@ -17,8 +18,8 @@ body:
       label: "Suggestion Type / 建议类型"
       description: "Please select the type of your suggestion. / 请选择您的建议类型。"
       options:
-        - "New Feature / 新功能"
-        - "Modify Existing Feature / 修改现有功能"
+        - "新功能 / New Feature"
+        - "修改现有功能 / Modify Existing Feature"
     validations:
       required: true
   - type: "textarea"
