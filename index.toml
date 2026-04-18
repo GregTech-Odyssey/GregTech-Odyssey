@@ -2690,6 +2690,11 @@ hash = "528a5c2d50126e1b2906b47449b40a996fce3b4a50b9a0460533f2b7b74f5c99"
 metafile = true
 
 [[files]]
+file = "mods/calculatoroverlay.pw.toml"
+hash = "5ea03e8862127fc72ee0dd8877d895d32e025b0fdf763f072e011e6ef8a5b1c3"
+metafile = true
+
+[[files]]
 file = "mods/camera-mod.pw.toml"
 hash = "9490f693735f743558f9a3eb39f961d1bd9acf079e2a4d5efe614dd52d526f4a"
 metafile = true
