@@ -1238,7 +1238,7 @@ hash = "fad9aea710ec3508eab562cd8f2b5f8e2dda6ee1c5fb1fe818f90ce253017f66"
 
 [[files]]
 file = "config/modernfix-mixins.properties"
-hash = "b336c84e224e00c321f09f4375b51b57f77c4452f3bfa0ffa8bb397007882cd8"
+hash = "d1330970d0419b4840382c7776f9dfddc300b6ebda8a5771b6724730900d9c48"
 
 [[files]]
 file = "config/modularrouters-client.toml"
@@ -3010,8 +3010,8 @@ hash = "fb0ca6ee752cc276386ad33dcd78b062d0f70ddb8ff1ffb7a776f28cb60069ea"
 metafile = true
 
 [[files]]
-file = "mods/gtocore-0.5.5-pre3.jar"
-hash = "090fb425882398e4cc6d94a57d4757fc693f10d588b38cbfa818e6b6b054e1ed"
+file = "mods/gtocore-0.5.5-pre4.jar"
+hash = "3457211beff312df471889264da4408790c015e00727ad6e842169718d9063fb"
 
 [[files]]
 file = "mods/gtonativelib-1.0.jar"
@@ -3129,7 +3129,7 @@ metafile = true
 
 [[files]]
 file = "mods/modernfix.pw.toml"
-hash = "2b5461d32972b9295fbe297e2431dbb9213c4cc196821bf30f5b3ce343b8e2aa"
+hash = "17523abe76f282db11e95a033e504c1da3f82ac23a42e169d6b1e4d59b6a18d6"
 metafile = true
 
 [[files]]
@@ -3324,12 +3324,12 @@ metafile = true
 
 [[files]]
 file = "mods/xaeros-minimap.pw.toml"
-hash = "d55d5e9b2ceb866a5a3f7342478d4437230f1b9f177ea23360f1ab7ced0da95b"
+hash = "eb48e8709268d9d4daeaba8d8844fa47e4e42fe2c6767ab39eca10e7852abf1e"
 metafile = true
 
 [[files]]
 file = "mods/xaeros-world-map.pw.toml"
-hash = "53d56895bd15af3b71bc1337d4449584a5abdfd4eaa653fae428ca81fcf3fee7"
+hash = "8c1d85564af53d61caf23b502b60c494d33450a670093fdd3e2f412368682ecc"
 metafile = true
 
 [[files]]
