@@ -63,6 +63,12 @@
 			x: 11.0d
 			y: -3.5d
 		}
+		{
+			id: "40804656354C8F30"
+			linked_quest: "21EA1E3550BC1067"
+			x: 13.0d
+			y: 8.0d
+		}
 	]
 	quests: [
 		{
@@ -554,9 +560,11 @@
 				""
 				"&e地表上会有地表岩石，提示下方的矿脉。&r"
 				""
-				"&o你能连锁的上限取决于你的工具等级，等级越高能连锁的方块也就越多，如果能通电则能连锁更多的方块，详见提示章节"
+				"你能连锁的&a上限&r取决于你的&e工具等级&r，等级越高能连锁的方块也就越多，如果能&e通电&r则能连锁更多的方块，详见提示章节"
 				""
 				"[ \"你现在可以看看\", { \"text\": \"矿石生成\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"23DF7BAC762AF885\" } }, \"章节内主世界矿物的分布了\" ]"
+				""
+				"&o&7别忘了领取前面任务给你发的魔力钢探矿仪"
 			]
 			icon: {
 				Count: 1
@@ -2367,38 +2375,6 @@
 			title: "夜视"
 			x: -1.5d
 			y: 1.5d
-		}
-		{
-			dependencies: [
-				"4CC934314D14A5EA"
-				"30D4CC9142D59DBD"
-			]
-			description: [
-				"清空容器或者机器中的流体，&c不会返还"
-				""
-				"&o&7橡胶需要蒸汽时代才能制作"
-			]
-			id: "084A8DE8B1F5CF3E"
-			optional: true
-			rewards: [{
-				id: "15F0B6F1F8A00969"
-				item: "gtocore:copper_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "7FA79D88DAA47846"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "forge:tools/plungers"
-					}
-				}
-				title: "任意搋子"
-				type: "item"
-			}]
-			x: 13.0d
-			y: 8.0d
 		}
 	]
 	subtitle: ["Hello World!"]

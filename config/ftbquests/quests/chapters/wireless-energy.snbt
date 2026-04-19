@@ -30,6 +30,22 @@
 			x: -4.0d
 			y: 3.5d
 		}
+		{
+			height: 1.0d
+			image: "gtocore:item/circuit/suprachronal_hv"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.25d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "gtocore:item/circuit/suprachronal_hv"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: -0.5d
+		}
 	]
 	order_index: 1
 	quest_links: [ ]
@@ -53,7 +69,7 @@
 						value: "wireless_energy_receive_cover"
 					}
 				}
-				title: "无线能源接收器"
+				title: "任意无线能源接收器"
 				type: "item"
 			}]
 			x: -4.5d
@@ -289,6 +305,8 @@
 				"无线电网的能源储存需要载体"
 				""
 				"&6无线能源塔&r和&6无线能量单元&r提供了相应功能，你只需要一座该结构"
+				""
+				"摆放多座该结构只会以最后一座成型的为准"
 			]
 			hide_dependency_lines: false
 			id: "2F9D9F9271159654"
@@ -652,7 +670,7 @@
 						value: "wireless_output_hatch"
 					}
 				}
-				title: "无线动力仓"
+				title: "任意无线动力仓"
 				type: "item"
 			}]
 			x: -6.0d
@@ -678,7 +696,7 @@
 						value: "wireless_input_hatch"
 					}
 				}
-				title: "无线能源仓"
+				title: "任意无线能源仓"
 				type: "item"
 			}]
 			x: -6.75d
