@@ -1829,7 +1829,7 @@
 			}]
 			title: "{gto.steam.quests.0D362285B6842681.title}"
 			x: 5.5d
-			y: 12.0d
+			y: 11.5d
 		}
 		{
 			dependencies: ["2D9893D2C108754F"]
@@ -2224,6 +2224,31 @@
 			title: "{gto.steam.quests.4515F2289516C295.title}"
 			x: 15.0d
 			y: -0.5d
+		}
+		{
+			dependencies: ["4CC934314D14A5EA"]
+			description: ["{gto.steam.quests.084A8DE8B1F5CF3E.description0}"]
+			id: "084A8DE8B1F5CF3E"
+			optional: true
+			rewards: [{
+				id: "15F0B6F1F8A00969"
+				item: "gtocore:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7FA79D88DAA47846"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:tools/plungers"
+					}
+				}
+				title: "{gto.steam.quests.084A8DE8B1F5CF3E.tasks.7FA79D88DAA47846.title}"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 9.5d
 		}
 	]
 	subtitle: ["{gto.steam.subtitle0}"]

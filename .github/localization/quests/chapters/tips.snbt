@@ -1436,6 +1436,8 @@
 				"{gto.tips.quests.6A32CEF6BE50FA89.description1}"
 				""
 				"{gto.tips.quests.6A32CEF6BE50FA89.description2}"
+				""
+				"{gto.tips.quests.6A32CEF6BE50FA89.description3}"
 			]
 			hide_dependency_lines: true
 			icon: "gtceu:assembly_line"
@@ -1782,8 +1784,14 @@
 			y: 4.5d
 		}
 		{
-			description: ["{gto.tips.quests.21EA1E3550BC1067.description0}"]
-			hide_dependency_lines: true
+			dependencies: ["30D4CC9142D59DBD"]
+			description: [
+				"{gto.tips.quests.21EA1E3550BC1067.description0}"
+				""
+				"{gto.tips.quests.21EA1E3550BC1067.description1}"
+				""
+				"{gto.tips.quests.21EA1E3550BC1067.description2}"
+			]
 			id: "21EA1E3550BC1067"
 			rewards: [{
 				id: "3CE7814F88BCCAC4"

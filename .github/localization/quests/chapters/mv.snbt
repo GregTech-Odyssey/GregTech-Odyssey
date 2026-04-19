@@ -1251,13 +1251,15 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["3D1E66868544975F"]
+			dependencies: ["6015D5CC0A0B4C19"]
 			description: [
 				"{gto.mv.quests.2386117F9423A54E.description0}"
 				""
-				"[\"\", {\"translate\": \"gto.mv.quests.2386117F9423A54E.description1.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"20B8E68273D7D0DE\"}, \"translate\": \"gto.mv.quests.2386117F9423A54E.description1.rich_text1\"}, {\"translate\": \"gto.mv.quests.2386117F9423A54E.description1.rich_text2\"}]"
+				"{gto.mv.quests.2386117F9423A54E.description1}"
 				""
-				"{gto.mv.quests.2386117F9423A54E.description2}"
+				"[\"\", {\"translate\": \"gto.mv.quests.2386117F9423A54E.description2.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"20B8E68273D7D0DE\"}, \"translate\": \"gto.mv.quests.2386117F9423A54E.description2.rich_text1\"}, {\"translate\": \"gto.mv.quests.2386117F9423A54E.description2.rich_text2\"}]"
+				""
+				"{gto.mv.quests.2386117F9423A54E.description3}"
 			]
 			hide_dependency_lines: true
 			icon: "gtocore:mv_wireless_input_hatch"
