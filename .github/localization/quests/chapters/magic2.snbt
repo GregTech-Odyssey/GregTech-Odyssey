@@ -7,6 +7,64 @@
 	hide_quest_until_deps_visible: true
 	icon: "botania:dice"
 	id: "33F2D5FBE1761AA9"
+	images: [
+		{
+			height: 1.0d
+			image: "xtonesreworked:block/bitt/4"
+			rotation: 45.0d
+			width: 1.0d
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "xtonesreworked:block/bitt/4"
+			rotation: 45.0d
+			width: 1.0d
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "xtonesreworked:block/bitt/4"
+			rotation: 45.0d
+			width: 1.0d
+			x: 7.5d
+			y: 6.0d
+		}
+		{
+			height: 1.0d
+			image: "xtonesreworked:block/bitt/4"
+			rotation: 45.0d
+			width: 1.0d
+			x: 7.5d
+			y: 7.5d
+		}
+		{
+			height: 1.0d
+			image: "xtonesreworked:block/bitt/4"
+			rotation: 45.0d
+			width: 1.0d
+			x: 10.5d
+			y: 9.0d
+		}
+		{
+			height: 1.0d
+			image: "xtonesreworked:block/bitt/4"
+			rotation: 45.0d
+			width: 1.0d
+			x: 19.0d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "xtonesreworked:block/bitt/4"
+			rotation: 45.0d
+			width: 1.0d
+			x: 19.0d
+			y: 0.0d
+		}
+	]
 	order_index: 2
 	quest_links: [{
 		id: "17557E8E51653B12"
@@ -1977,7 +2035,7 @@
 				type: "item"
 			}]
 			x: 16.0d
-			y: 1.5d
+			y: 2.25d
 		}
 		{
 			dependencies: ["2150BFD0D971DF9C"]
@@ -2345,7 +2403,7 @@
 			]
 			description: ["{gto.magic2.quests.240A3EF5AD42759A.description0}"]
 			hide_until_deps_visible: true
-			icon: "gtceu:bronze_ingot"
+			icon: "botania:rune_water"
 			id: "240A3EF5AD42759A"
 			optional: true
 			rewards: [
@@ -2452,8 +2510,8 @@
 				type: "checkmark"
 			}]
 			title: "{gto.magic2.quests.240A3EF5AD42759A.title}"
-			x: -4.0d
-			y: 4.5d
+			x: -2.25d
+			y: 6.5d
 		}
 		{
 			disable_toast: true
@@ -2466,6 +2524,24 @@
 			}]
 			x: 6.5d
 			y: 5.0d
+		}
+		{
+			dependencies: ["2150BFD0D971DF9C"]
+			description: ["{gto.magic2.quests.06BE5DF470B975F9.description0}"]
+			id: "06BE5DF470B975F9"
+			tasks: [{
+				id: "258B7469153CA32C"
+				item: {
+					Count: 1
+					id: "gtocore:slot_enhancer"
+					tag: {
+						SelectedSlotIndex: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 16.0d
+			y: 0.0d
 		}
 	]
 	subtitle: ["{gto.magic2.subtitle0}"]
