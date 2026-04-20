@@ -11,3 +11,7 @@ mode = "metadata:curseforge"
 [update.curseforge]
 file-id = 7927621
 project-id = 1514315
+
+[option]
+optional = true
+description = "Adds an overlay calculator to the game"
