@@ -13,42 +13,6 @@
 			image: "xtonesreworked:block/bitt/12"
 			rotation: 45.0d
 			width: 1.0d
-			x: 2.5d
-			y: -12.0d
-		}
-		{
-			color: 16711935
-			height: 1.0d
-			image: "ftbquests:block/barrier_open"
-			order: 1
-			rotation: 45.0d
-			width: 1.0d
-			x: 3.75d
-			y: -12.0d
-		}
-		{
-			height: 1.0d
-			image: "xtonesreworked:block/bitt/12"
-			rotation: 45.0d
-			width: 1.0d
-			x: 3.75d
-			y: -12.0d
-		}
-		{
-			color: 16711935
-			height: 1.0d
-			image: "ftbquests:block/barrier_open"
-			order: 1
-			rotation: 45.0d
-			width: 1.0d
-			x: 2.5d
-			y: -12.0d
-		}
-		{
-			height: 1.0d
-			image: "xtonesreworked:block/bitt/12"
-			rotation: 45.0d
-			width: 1.0d
 			x: 4.0d
 			y: 7.0d
 		}
@@ -106,20 +70,6 @@
 			y: 7.0d
 		}
 		{
-			id: "160EF833BB857B97"
-			linked_quest: "79B00A56EED55DBD"
-			shape: "diamond"
-			x: 2.5d
-			y: -12.0d
-		}
-		{
-			id: "749B7F8089170DB1"
-			linked_quest: "31BA74442F9E953E"
-			shape: "diamond"
-			x: 3.75d
-			y: -12.0d
-		}
-		{
 			id: "52FFEB1F3F4773D7"
 			linked_quest: "23E859D5CC9E4C8C"
 			x: -2.0d
@@ -157,6 +107,8 @@
 				"没有什么能阻挡你再次飞向星辰"
 				""
 				"来一点钛，再来一点\"润滑油泡钢\"..."
+				""
+				"别忘了通过卫星控制中心解锁&d火星&r再上天"
 			]
 			icon: {
 				Count: 1
@@ -1059,7 +1011,7 @@
 				item: "gtocore:gas_mega_turbine"
 				type: "item"
 			}]
-			x: -0.75d
+			x: -1.0d
 			y: -12.0d
 		}
 		{
@@ -1344,7 +1296,7 @@
 				type: "item"
 			}]
 			x: 3.25d
-			y: -13.0d
+			y: -12.5d
 		}
 		{
 			dependencies: ["3C2FA92DB0A38D4D"]

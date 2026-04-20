@@ -6,6 +6,45 @@ INPUT_FILE_PATH = Path('config/openloader/resources/quests/assets/gto/lang/zh_cn
 OUTPUT_FILE_PATH = Path('config/openloader/resources/quests/assets/gto/lang/zh_tw.json')
 
 mapping_table = {}
+ZH_TW_FIXES = {
+    '輸齣': '輸出',
+    '併行': '並行',
+    '開髮': '開發',
+    '髮電': '發電',
+    '髮生器': '發生器',
+    '啟懞': '啟蒙',
+    '繫統': '系統',
+    '繫外': '系外',
+    '星繫': '星系',
+    '關繫': '關係',
+    '泛銀河繫': '泛銀河系',
+    '這裏': '這裡',
+    '那裏': '那裡',
+    '倉庫裏': '倉庫裡',
+    '高爐裏': '高爐裡',
+    '鍋裏': '鍋裡',
+    '裏程碑': '里程碑',
+    '髮送': '發送',
+    '髮現': '發現',
+    '控製': '控制',
+    '集糰': '集團',
+    '髮信': '發信',
+    '怎么': '怎麼',
+    '這么': '這麼',
+    '那么': '那麼',
+    '為什么': '為什麼',
+    '什么': '什麼',
+    '這里': '這裡',
+    '那里': '那裡',
+    '准備': '準備',
+    '標簽': '標籤',
+    '范圍': '範圍',
+    '纔': '才',
+    '精准': '精準',
+    '后續': '後續',
+    '家伙': '傢伙',
+    '綵虹': '彩虹',
+}
 
 def load_mapping_table():
     with open(Path('.github/localization/SimplifiedToTraditional.properties'), 'r', encoding='utf-8') as file:
@@ -18,12 +57,19 @@ def load_mapping_table():
                 mapping_table[key_char] = value_char
 
 
+def fix_traditional_chinese(text):
+    fixed = text
+    for source, target in ZH_TW_FIXES.items():
+        fixed = fixed.replace(source, target)
+    return fixed
+
+
 def convert(text):
     output_text_builder = []
     for character in text:
         converted_char = mapping_table.get(character, character)
         output_text_builder.append(converted_char)
-    return ''.join(output_text_builder)
+    return fix_traditional_chinese(''.join(output_text_builder))
 
 
 def convert_json(input_file_path, output_file_path):

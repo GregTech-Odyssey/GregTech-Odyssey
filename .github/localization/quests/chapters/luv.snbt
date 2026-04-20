@@ -1035,6 +1035,7 @@
 		}
 		{
 			dependencies: ["2F03D93AC7DBE58D"]
+			description: ["{gto.luv.quests.57D5AF62A5ADAF60.description0}"]
 			hide_dependency_lines: true
 			id: "57D5AF62A5ADAF60"
 			shape: "hexagon"
@@ -1434,6 +1435,18 @@
 			}]
 			x: 19.0d
 			y: 4.0d
+		}
+		{
+			dependencies: ["4C8549E624A543C5"]
+			description: ["{gto.luv.quests.6E10E30B68B63CEA.description0}"]
+			id: "6E10E30B68B63CEA"
+			tasks: [{
+				id: "4647CF860B64224D"
+				item: "gtceu:prospector.luv"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -8.0d
 		}
 	]
 	subtitle: ["{gto.luv.subtitle0}"]
