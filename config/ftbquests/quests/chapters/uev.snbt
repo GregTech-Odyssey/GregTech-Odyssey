@@ -563,7 +563,7 @@
 		{
 			description: ["夸克释放催化剂目前还做不了，所以只要你做出了7级水，就可以直接来这里领取8级水的元件"]
 			hide_dependent_lines: true
-			icon: "gtocore:baryonic_perfection_water_bucket"
+			icon: "gtocore:degassed_water_bucket"
 			id: "2EDCB01B9811A79D"
 			rewards: [{
 				id: "073F7587BB4E284F"
@@ -582,7 +582,7 @@
 			shape: "rsquare"
 			tasks: [{
 				id: "6F46DEE9DC32ACA2"
-				item: "gtocore:baryonic_perfection_water_bucket"
+				item: "gtocore:degassed_water_bucket"
 				type: "item"
 			}]
 			title: "重子完美水 兑换处"
