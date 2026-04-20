@@ -44,13 +44,6 @@
 	order_index: 3
 	quest_links: [
 		{
-			id: "111C9085726F8FA6"
-			linked_quest: "018F46EE6AE97EFD"
-			shape: "diamond"
-			x: -6.0d
-			y: 4.25d
-		}
-		{
 			id: "112AADE317BB4B64"
 			linked_quest: "3D1E66868544975F"
 			shape: "gear"
@@ -653,8 +646,9 @@
 				"这个大家伙可以做到&2两倍&r（简单模式四倍）的产出，但它&e只能执行一种配方&r"
 				""
 				"使用前需要&e铭刻&r电路，即在它的输入总线里面放置需求数量的&6电路板&r，然后打开主方块的GUI并且按下铭刻电路即可。"
+				""
+				"你需要到达&bMV&r阶段才能制作它"
 			]
-			hide_dependency_lines: true
 			id: "12FEAB1A9AA1BCA6"
 			shape: "hexagon"
 			size: 1.5d
@@ -2488,9 +2482,13 @@
 		{
 			dependencies: ["072F7B0A69F0DB7A"]
 			description: [
-				"在此阶段不是必需的机器"
+				"&6激光焊接器&r在此阶段并不是必需的机器"
 				""
-				"如果你想发展AE，你需要用到它"
+				"它主要用于制作晶圆，以及无暇/精致宝石"
+				""
+				"在普通/专家模式下，&bMV&r阶段还需要用它制作AE电路板"
+				""
+				"&o&7此处仅用于介绍激光焊接器这一机器类型，不代表必须制作LV版本"
 			]
 			id: "2A893BFDB41B7CFC"
 			tasks: [{

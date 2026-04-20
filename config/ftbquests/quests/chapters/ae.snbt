@@ -1169,15 +1169,6 @@
 			y: 11.5d
 		}
 		{
-			dependency: "1FB1EC5B9CEFC2BC"
-			height: 1.0d
-			image: "gtocore:item/circuit/suprachronal_mv"
-			rotation: 0.0d
-			width: 1.0d
-			x: -7.5d
-			y: 1.5d
-		}
-		{
 			dependency: "28C9BF5C59F5F723"
 			height: 1.0d
 			image: "gtocore:item/circuit/suprachronal_mv"
@@ -1287,9 +1278,10 @@
 		{
 			dependencies: [
 				"0E9F8C57145D61AB"
-				"6BB3386725B228D5"
 				"752E02060595192D"
+				"056EC4E6FAF614B7"
 			]
+			dependency_requirement: "one_completed"
 			description: [
 				"放入&6存储元件&r，ME网络几乎可以存储任何东西"
 				""
@@ -1297,6 +1289,7 @@
 			]
 			icon: "ae2:drive"
 			id: "041ABD90CDDE00AA"
+			min_required_dependencies: 2
 			shape: "hexagon"
 			size: 1.5d
 			subtitle: "你的网络存储~扩容区"
@@ -1917,6 +1910,7 @@
 			dependencies: [
 				"5FCFE3D6B36CC409"
 				"44B2AB98840349D2"
+				"035EA7506BF7CD3F"
 			]
 			id: "034D579A41F2ED3D"
 			shape: "hexagon"
@@ -4319,12 +4313,12 @@
 		{
 			dependencies: [
 				"592D975F3146151E"
-				"5FCFE3D6B36CC409"
+				"3B64850282F3FF1F"
 			]
 			description: [
-				"最开始用来制造&6大型蒸汽电路组装机&r"
+				"配合&6样板供应器&r进行自动化合成，虽然在&bMV&r阶段你就可以制造它，但你至少需要达到&6HV&r阶段才可以建立自动合成系统"
 				""
-				"配合&6样板供应器&r进行自动化合成，虽然在&8LV&r阶段你就可以制造它，但在普通/专家难度你需要达到&6HV&r阶段才可以建立自动合成系统"
+				"它也是&6大型蒸汽电路组装机&r的原材料之一"
 			]
 			icon: "ae2:molecular_assembler"
 			id: "018F46EE6AE97EFD"
@@ -4495,11 +4489,11 @@
 				"5FCFE3D6B36CC409"
 			]
 			description: [
-				" 在简单模式下，部分任务指引不适用，如&6驱动器&r，&6空白样板&r，&6样板供应器&r，&6合成单元&r等。请&e无视它们在LV、MV的前置要求&r"
+				"在简单模式下，部分任务指引不适用，如&6驱动器&r，&6空白样板&r，&6样板供应器&r，&6合成单元&r，&6分子装配室&r等。请&e无视它们在LV、MV的前置要求&r"
 				""
 				"&e在蒸汽时代，你已经可以使用AE开始自动化&r"
 				""
-				"&o&7也请忽略下“应用能源起步”任务里面写的内容啦，笔者暂时技术力不够，没办法把这个任务藏起来"
+				"&o&7也请忽略下“应用能源起步”任务里面电压限制相关内容啦，笔者暂时技术力不够，没办法把这个任务藏起来"
 			]
 			hide_until_deps_visible: true
 			icon: "ae2:wireless_terminal"
@@ -4543,6 +4537,7 @@
 				"464BDF98D4BF7B90"
 			]
 			dependency_requirement: "one_completed"
+			hide_dependent_lines: true
 			id: "44B2AB98840349D2"
 			min_required_dependencies: 2
 			tasks: [
@@ -4927,6 +4922,23 @@
 			}]
 			x: 1.5d
 			y: 19.5d
+		}
+		{
+			dependencies: ["44B2AB98840349D2"]
+			disable_toast: true
+			icon_scale: 0.25d
+			id: "035EA7506BF7CD3F"
+			shape: "none"
+			size: 0.25d
+			tasks: [{
+				id: "01D0685AD4843247"
+				stat: "minecraft:jump"
+				type: "stat"
+				value: 1
+			}]
+			title: " "
+			x: -11.0d
+			y: 3.5d
 		}
 	]
 	subtitle: ["Applied Energistics 2"]

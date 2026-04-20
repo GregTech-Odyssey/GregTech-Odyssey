@@ -36,6 +36,22 @@
 			x: -6.5d
 			y: 6.0d
 		}
+		{
+			height: 1.1d
+			image: "botania:block/alfheim_portal_swirl"
+			rotation: 0.0d
+			width: 1.1d
+			x: -5.0d
+			y: 4.5d
+		}
+		{
+			height: 1.1d
+			image: "botania:block/alfheim_portal_swirl"
+			rotation: 0.0d
+			width: 1.1d
+			x: -3.5d
+			y: 7.5d
+		}
 	]
 	order_index: 4
 	quest_links: [
@@ -43,16 +59,16 @@
 			id: "05BAA962B8E745D8"
 			linked_quest: "041ABD90CDDE00AA"
 			shape: "square"
-			x: -5.0d
-			y: 6.0d
+			x: -3.5d
+			y: 7.5d
 		}
 		{
 			id: "0BFC1070D6EEEEC7"
 			linked_quest: "5D828A5258BFF11F"
 			shape: "gear"
 			size: 2.0d
-			x: 10.0d
-			y: 4.5d
+			x: 7.5d
+			y: 7.5d
 		}
 		{
 			id: "6A50E54C7709F718"
@@ -69,11 +85,17 @@
 			y: 6.0d
 		}
 		{
-			id: "15880665AB3DE970"
-			linked_quest: "44B2AB98840349D2"
-			shape: "square"
+			id: "6F453E36251E3944"
+			linked_quest: "12FEAB1A9AA1BCA6"
+			shape: "hexagon"
 			x: -5.0d
-			y: 4.5d
+			y: 7.5d
+		}
+		{
+			id: "6A3BA1A6A4DA6366"
+			linked_quest: "018F46EE6AE97EFD"
+			x: -5.0d
+			y: 6.0d
 		}
 	]
 	quests: [
@@ -311,8 +333,8 @@
 					type: "checkmark"
 				}
 			]
-			x: 6.5d
-			y: 6.0d
+			x: 4.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["21457B1122F97F88"]
@@ -490,7 +512,10 @@
 				"58FBD21AFE9272CA"
 				"4353D16B457D84CF"
 			]
+			description: ["硅是非常重要的单质之一，你需要它制作各种晶圆，同时它也正式开启了AE章节"]
 			id: "464BDF98D4BF7B90"
+			shape: "hexagon"
+			size: 1.0d
 			tasks: [{
 				id: "199CCB4F71FBC6E2"
 				item: "gtceu:silicon_ingot"
@@ -1436,8 +1461,8 @@
 				type: "checkmark"
 			}]
 			title: "不锈钢补助&a（简单）&r"
-			x: 9.0d
-			y: 3.0d
+			x: 9.5d
+			y: 4.5d
 		}
 		{
 			dependencies: [
@@ -1524,8 +1549,8 @@
 				item: "gtceu:polyvinyl_chloride_plate"
 				type: "item"
 			}]
-			x: 8.5d
-			y: 6.0d
+			x: 5.5d
+			y: 7.5d
 		}
 		{
 			dependencies: [
@@ -1572,8 +1597,8 @@
 				type: "checkmark"
 			}]
 			title: "不锈钢补助&e（普通）&r"
-			x: 8.5d
-			y: 3.0d
+			x: 9.0d
+			y: 4.5d
 		}
 		{
 			dependencies: [
@@ -1630,6 +1655,38 @@
 			}]
 			x: -5.25d
 			y: -0.25d
+		}
+		{
+			dependencies: ["464BDF98D4BF7B90"]
+			dependency_requirement: "one_completed"
+			description: ["[\"AE之路真正的开始，别忘了去\",{ \"text\": \"应用能源\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"44B2AB98840349D2\" } },\"章节看看你现在能做什么\"]"]
+			id: "3B64850282F3FF1F"
+			shape: "square"
+			tasks: [
+				{
+					id: "4327E229BF0D4D74"
+					item: "ae2:printed_silicon"
+					type: "item"
+				}
+				{
+					id: "6C45FCE00C6358C5"
+					item: "ae2:printed_calculation_processor"
+					type: "item"
+				}
+				{
+					id: "21BA965BF18A0981"
+					item: "ae2:printed_engineering_processor"
+					type: "item"
+				}
+				{
+					id: "44C746BF7711F9DC"
+					item: "ae2:printed_logic_processor"
+					type: "item"
+				}
+			]
+			title: "AE电路板"
+			x: -5.0d
+			y: 4.5d
 		}
 	]
 	subtitle: ["Tier2-MV"]

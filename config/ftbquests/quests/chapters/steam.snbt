@@ -2224,9 +2224,7 @@
 		}
 		{
 			dependencies: ["4CC934314D14A5EA"]
-			description: [
-				"清空容器或者机器中的流体，&c不会返还&r"
-			]
+			description: ["清空容器或者机器中的流体，&c不会返还&r"]
 			id: "084A8DE8B1F5CF3E"
 			optional: true
 			rewards: [{
