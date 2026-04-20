@@ -1169,15 +1169,6 @@
 			y: 11.5d
 		}
 		{
-			dependency: "1FB1EC5B9CEFC2BC"
-			height: 1.0d
-			image: "gtocore:item/circuit/suprachronal_mv"
-			rotation: 0.0d
-			width: 1.0d
-			x: -7.5d
-			y: 1.5d
-		}
-		{
 			dependency: "28C9BF5C59F5F723"
 			height: 1.0d
 			image: "gtocore:item/circuit/suprachronal_mv"
@@ -1287,9 +1278,10 @@
 		{
 			dependencies: [
 				"0E9F8C57145D61AB"
-				"6BB3386725B228D5"
 				"752E02060595192D"
+				"056EC4E6FAF614B7"
 			]
+			dependency_requirement: "one_completed"
 			description: [
 				"{gto.ae.quests.041ABD90CDDE00AA.description0}"
 				""
@@ -1297,6 +1289,7 @@
 			]
 			icon: "ae2:drive"
 			id: "041ABD90CDDE00AA"
+			min_required_dependencies: 2
 			shape: "hexagon"
 			size: 1.5d
 			subtitle: "{gto.ae.quests.041ABD90CDDE00AA.subtitle}"
@@ -1917,6 +1910,7 @@
 			dependencies: [
 				"5FCFE3D6B36CC409"
 				"44B2AB98840349D2"
+				"035EA7506BF7CD3F"
 			]
 			id: "034D579A41F2ED3D"
 			shape: "hexagon"
@@ -4319,7 +4313,7 @@
 		{
 			dependencies: [
 				"592D975F3146151E"
-				"5FCFE3D6B36CC409"
+				"3B64850282F3FF1F"
 			]
 			description: [
 				"{gto.ae.quests.018F46EE6AE97EFD.description0}"
@@ -4543,6 +4537,7 @@
 				"464BDF98D4BF7B90"
 			]
 			dependency_requirement: "one_completed"
+			hide_dependent_lines: true
 			id: "44B2AB98840349D2"
 			min_required_dependencies: 2
 			tasks: [
@@ -4927,6 +4922,23 @@
 			}]
 			x: 1.5d
 			y: 19.5d
+		}
+		{
+			dependencies: ["44B2AB98840349D2"]
+			disable_toast: true
+			icon_scale: 0.25d
+			id: "035EA7506BF7CD3F"
+			shape: "none"
+			size: 0.25d
+			tasks: [{
+				id: "01D0685AD4843247"
+				stat: "minecraft:jump"
+				type: "stat"
+				value: 1
+			}]
+			title: "{gto.ae.quests.035EA7506BF7CD3F.title}"
+			x: -11.0d
+			y: 3.5d
 		}
 	]
 	subtitle: ["{gto.ae.subtitle0}"]
