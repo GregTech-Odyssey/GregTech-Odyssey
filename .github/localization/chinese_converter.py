@@ -32,6 +32,8 @@ ZH_TW_FIXES = {
     "鍋裏": "鍋裡",
     "末影人": "終界使者",
     "末影": "終界",
+    "烈焰人": "烈焰使者",
+    "凋靈": "凋零怪"
 }
 
 def fix_traditional_chinese(text):
