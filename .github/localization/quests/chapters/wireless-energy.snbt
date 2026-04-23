@@ -22,6 +22,30 @@
 			x: 1.0d
 			y: 2.5d
 		}
+		{
+			height: 2.0d
+			image: "gtocore:item/circuit/suprachronal_mv"
+			rotation: 0.0d
+			width: 2.0d
+			x: -4.0d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "gtocore:item/circuit/suprachronal_hv"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.25d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "gtocore:item/circuit/suprachronal_hv"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: -0.5d
+		}
 	]
 	order_index: 1
 	quest_links: [ ]
@@ -281,6 +305,8 @@
 				"{gto.wireless-energy.quests.2F9D9F9271159654.description0}"
 				""
 				"{gto.wireless-energy.quests.2F9D9F9271159654.description1}"
+				""
+				"{gto.wireless-energy.quests.2F9D9F9271159654.description2}"
 			]
 			hide_dependency_lines: false
 			id: "2F9D9F9271159654"

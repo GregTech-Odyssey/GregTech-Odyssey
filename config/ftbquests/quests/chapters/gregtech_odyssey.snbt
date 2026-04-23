@@ -1,5 +1,4 @@
 {
-	autofocus_id: "3BC9246D8FD4B649"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "gregtech_odyssey"
@@ -39,6 +38,16 @@
 		}
 	}
 	id: "7F9CB863017BF24A"
+	images: [{
+		color: 16712528
+		dependency: "1FB1EC5B9CEFC2BC"
+		height: 1.5d
+		image: "ftbquests:block/barrier_open"
+		rotation: 0.0d
+		width: 1.5d
+		x: -5.0d
+		y: 1.0d
+	}]
 	order_index: 0
 	quest_links: [{
 		id: "32D234D148B4451C"
@@ -51,9 +60,21 @@
 	quests: [
 		{
 			description: [
-				"[ \"在砍下第一棵树前建议前往\", { \"text\": \"提示\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"79646E8E449D8A1A\" } }, \"章节查看提示，花几分钟阅读一下对你的游玩之旅大有帮助\" ]"
+				"&a看到有这么多章节，不知道从何入手？"
+				""
+				"&a以下是推荐阅读优先级："
+				""
+				"[\"\",{\"color\":\"yellow\",\"text\":\"⭐在砍下第一棵树前建议前往\"},{ \"text\": \"提示\", \"underlined\": \"true\",\"color\":\"aqua\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"79646E8E449D8A1A\"} },{\"color\":\"yellow\",\"text\":\"章节查看提示，花几分钟阅读一下对你的游玩之旅大有帮助\"}]"
+				""
+				"&e⭐沿着&b主线&r&e推进科技"
+				""
+				"&b应用能源&r以及&b魔法线（魔力导论\\&英雄之路）&r是两个比较重要的支线，你可以等主线需要它们，或想提升体验时查看"
+				""
+				"其他支线如神化、化工、矿物处理、食物等，按任务需求或个人兴趣穿插阅读即可"
 				""
 				"以更舒服的姿势体验&cGregtech:Odyssey&r之旅！"
+				""
+				"&o&7Tips：带有下划线的文本大多为超链接，可直接点击跳转"
 			]
 			icon: "minecraft:writable_book"
 			id: "19EFE14C82DDAB67"
@@ -78,7 +99,11 @@
 			description: [
 				"与前作不同，本作的所有生物根据难度得到了不同程度的加强！"
 				""
-				"小心敌对生物"
+				"游戏根据难度对怪物进行了血量和攻击力强化"
+				""
+				"同时还给中立生物添加了仇恨机制，如果你在动物旁边进食同类的肉，会导致动物来攻击你"
+				""
+				"注意安全"
 			]
 			icon: "botania:cosmetic_questgiver_mark"
 			id: "6517DDBE8132FA9B"
@@ -153,7 +178,7 @@
 				title: "关于内容"
 				type: "checkmark"
 			}]
-			x: 9.0d
+			x: 6.0d
 			y: -1.0d
 		}
 		{
@@ -163,6 +188,7 @@
 				"6517DDBE8132FA9B"
 				"278F29092F5721AD"
 				"78A681513D681C93"
+				"6B26B74068A2EF29"
 			]
 			description: [
 				"欢迎来到&n&cGregTech:Odyssey&r&r！"
@@ -271,7 +297,7 @@
 			description: [
 				"我们的WIKI:"
 				""
-				"{ \"text\": \"https://gtodyssey.com/\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"open_url\", \"value\": \"https://wiki.gtodyssey.com/\" } }"
+				"{ \"text\": \"https://gtodyssey.com/\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"open_url\", \"value\": \"https://gtodyssey.com/\" } }"
 				""
 				"你可以在WIKI上查找文档和指南！"
 			]
@@ -291,6 +317,74 @@
 			title: "WIKI"
 			x: 1.5d
 			y: -5.3d
+		}
+		{
+			dependencies: ["1FB1EC5B9CEFC2BC"]
+			description: [
+				"再次提示：&c创建世界后你将无法更改难度！&r"
+				""
+				"&e请务必了解所有专家特性后，再选择游玩此难度"
+				""
+				"&e为了确保你已经了解过专家特性，你需要使用铁砧将纸正确命名为暗号后，方可开始游戏"
+				""
+				"暗号是：&6WIKI上，中文页面的特性指南，专家模式（不包含标题）下所有的大写英文字母，按顺序相连"
+				""
+				"&o&7WIKI的链接可以在“难度与模式”任务中找到"
+				""
+				"[\"\",{\"color\":\"gray\",\"italic\": true,\"text\":\"如果访问不了WIKI也可前往\"},{ \"text\": \"内置指南\", \"underlined\": \"true\",\"italic\": true,\"color\":\"gray\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1786BB8F04B92CB3\"}},{\"color\":\"gray\",\"italic\": true,\"text\":\"查看标橙部分\"} ]"
+			]
+			hide_until_deps_visible: true
+			id: "6BDF1F517DCEBBD8"
+			rewards: [
+				{
+					id: "611B1F97B9AD2BB2"
+					item: "minecraft:anvil"
+					type: "item"
+				}
+				{
+					id: "54BDF9BDC05ABB2C"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "2FEC9B0FCD2A03E7"
+					item: "minecraft:paper"
+					type: "item"
+				}
+			]
+			size: 1.0d
+			subtitle: "主线任务已上锁"
+			tasks: [{
+				id: "7B2BE6CBD69DB63A"
+				type: "checkmark"
+			}]
+			title: "三思而后行&d（专家）&r"
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			description: ["既然做好准备了，欢迎你，挑战者！"]
+			id: "2BBA151F63BB1F2B"
+			invisible: true
+			subtitle: "主线任务已解锁"
+			tasks: [{
+				id: "5407BF710CCAB4D3"
+				item: {
+					Count: 1
+					id: "minecraft:paper"
+					tag: {
+						RepairCost: 0
+						display: {
+							Name: "{\"text\":\"AEMVEVME\"}"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "芝麻开门&d（专家）&r"
+			x: -5.0d
+			y: -4.0d
 		}
 	]
 	subtitle: ["Hello World!"]

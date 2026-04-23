@@ -1035,6 +1035,7 @@
 		}
 		{
 			dependencies: ["2F03D93AC7DBE58D"]
+			description: ["我强烈推荐你一上来就建造最高层的拉丝塔，它能极大加速拉丝速度"]
 			hide_dependency_lines: true
 			id: "57D5AF62A5ADAF60"
 			shape: "hexagon"
@@ -1205,7 +1206,7 @@
 			description: [
 				"你需要想办法在这个机器内部设计一套自动放置和挖掘方块的自动化"
 				""
-				"如果不知道从何下手，不妨看看AE的面板"
+				"如果不知道从何下手，不妨在AE章节找找思路"
 				""
 				"&o&7在UEV阶段你可以使用方块总线和转换模拟卡模拟这个流程"
 			]
@@ -1434,6 +1435,18 @@
 			}]
 			x: 19.0d
 			y: 4.0d
+		}
+		{
+			dependencies: ["4C8549E624A543C5"]
+			description: ["最顶级的探矿仪，极大增加了勘探的范围"]
+			id: "6E10E30B68B63CEA"
+			tasks: [{
+				id: "4647CF860B64224D"
+				item: "gtceu:prospector.luv"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -8.0d
 		}
 	]
 	subtitle: ["Tier6-LuV"]

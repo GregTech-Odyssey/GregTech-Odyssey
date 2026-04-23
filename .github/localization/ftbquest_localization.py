@@ -127,6 +127,15 @@ def _convert(data: Compound, lang_key: str):
                         data[key][i] = snbt.String(f'{{{lk}}}')
 
 
+def unescape_json_string(text: str) -> str:
+    """
+    反转 escape_string 对 JSON 不友好的转义
+    """
+    # 将 \" 还原为 " （json.dump 会重新转义）
+    text = text.replace(r'\"', '"')
+    return text
+
+
 def sync_language_files_incremental(source_keys: dict, source_language: str, target_language: str):
     """
     增量更新 en_us.json：只更新发生变动的 key，其余内容不变。
@@ -211,8 +220,11 @@ def main():
                 with open(localized_path, 'w', encoding='utf-8') as f:
                     snbt.dump(localized_data, f)
 
+    # 写入 JSON 前还原转义，让 json.dump 处理正确的转义
+    json_safe_keys = {k: unescape_json_string(v) for k, v in SOURCE_KEYS.items()}
+
     with open(LANG_FILE_PATH / f'{SOURCE_LANGUAGE}.json', 'w', encoding='utf-8') as f:
-        json.dump(dict(sorted(SOURCE_KEYS.items())), f, ensure_ascii=False, indent=4)
+        json.dump(dict(sorted(json_safe_keys.items())), f, ensure_ascii=False, indent=4)
 
     sync_language_files_incremental(SOURCE_KEYS, SOURCE_LANGUAGE, TARGET_LANGUAGE)
 
