@@ -1,11 +1,11 @@
 import json
 import os
 from pathlib import Path
+import opencc
 
 INPUT_FILE_PATH = Path('config/openloader/resources/quests/assets/gto/lang/zh_cn.json')
 OUTPUT_FILE_PATH = Path('config/openloader/resources/quests/assets/gto/lang/zh_tw.json')
-
-mapping_table = {}
+CONVERTER = opencc.OpenCC('s2tw.json')
 ZH_TW_FIXES = {
     '纔': '才',
     '瞭': '了',
@@ -55,17 +55,6 @@ ZH_TW_FIXES = {
     '活石花葯台': '活石花藥台',
 }
 
-def load_mapping_table():
-    with open(Path('.github/localization/SimplifiedToTraditional.properties'), 'r', encoding='utf-8') as file:
-        for line in file:
-            line = line.strip()
-            if line and '=' in line:
-                key, value = line.split('=')
-                key_char = key.encode('utf-8').decode('unicode_escape')
-                value_char = value.encode('utf-8').decode('unicode_escape')
-                mapping_table[key_char] = value_char
-
-
 def fix_traditional_chinese(text):
     fixed = text
     for source, target in ZH_TW_FIXES.items():
@@ -74,11 +63,7 @@ def fix_traditional_chinese(text):
 
 
 def convert(text):
-    output_text_builder = []
-    for character in text:
-        converted_char = mapping_table.get(character, character)
-        output_text_builder.append(converted_char)
-    return fix_traditional_chinese(''.join(output_text_builder))
+    return fix_traditional_chinese(CONVERTER.convert(text))
 
 
 def convert_json(input_file_path, output_file_path):
@@ -99,9 +84,6 @@ def convert_json(input_file_path, output_file_path):
 
     with open(output_file_path, 'w', encoding='utf-8') as file:
         json.dump(converted_data, file, ensure_ascii=False, indent=4)
-
-
-load_mapping_table()
 
 if __name__ == "__main__":
     if not os.path.exists(os.path.dirname(OUTPUT_FILE_PATH)):
