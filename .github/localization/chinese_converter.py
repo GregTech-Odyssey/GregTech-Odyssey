@@ -7,9 +7,31 @@ INPUT_FILE_PATH = Path('config/openloader/resources/quests/assets/gto/lang/zh_cn
 OUTPUT_FILE_PATH = Path('config/openloader/resources/quests/assets/gto/lang/zh_tw.json')
 CONVERTER = opencc.OpenCC('s2tw.json')
 ZH_TW_FIXES = {
-    '瞭': '了',
-    '併行': '並行',
-    '併為': '並為',
+    "硅巖": "矽岩",
+    "處理器集羣": "處理器叢集",
+    "處理器超級計算機": "處理器超級電腦",
+    "瞭": "了",
+    "硅": "矽",
+    "羣": "群",
+    "杆": "桿",
+    "臺": "台",
+    "纔": "才",
+    "併行": "並行",
+    "併為": "並為",
+    "超淨間": "無塵室",
+    "超淨": "無塵",
+    "纳米": "奈米",
+    "末地": "終界",
+    "下界合金": "獄髓",
+    "下界": "地獄",
+    "信標": "烽火台",
+    "這裏": "這裡",
+    "那裏": "那裡",
+    "倉庫裏": "倉庫裡",
+    "高爐裏": "高爐裡",
+    "鍋裏": "鍋裡",
+    "末影人": "終界使者",
+    "末影": "終界",
 }
 
 def fix_traditional_chinese(text):
