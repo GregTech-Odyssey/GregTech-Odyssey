@@ -1947,7 +1947,7 @@
 				item: "ae2:inscriber"
 				type: "item"
 			}]
-			title: "压印器&e（普通+）&r"
+			title: "压印器（&e普通&r \\& &d专家&r）"
 			x: -13.0d
 			y: 5.5d
 		}
@@ -2237,6 +2237,19 @@
 			hide_dependent_lines: true
 			id: "43974ABFAE99587B"
 			min_required_dependencies: 2
+			rewards: [
+				{
+					id: "0049779380092B5E"
+					item: "ae2:pattern_provider"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "75C1BF0D29E278AD"
+					item: "ae2:fluix_glass_cable"
+					type: "item"
+				}
+			]
 			subtitle: "自动合成起步"
 			tasks: [{
 				id: "7A86F105A3662E4F"
@@ -3259,6 +3272,11 @@
 			hide_dependency_lines: true
 			id: "2F42DE3FEC2C35F9"
 			min_required_dependencies: 2
+			rewards: [{
+				id: "54FA657D95191880"
+				item: "ae2:crafting_unit"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2E3E0866967015F4"
 				item: "ae2:crafting_unit"
@@ -4366,6 +4384,20 @@
 				"下单UI经过修改，c和f分别代表向上和向下取整，按住Shift即可从加减调整数量变成乘除调整数量。对发信器UI同样有效"
 			]
 			id: "5F96077A62E88635"
+			rewards: [
+				{
+					count: 4
+					id: "2513F29A990E04C4"
+					item: "ae2:blank_pattern"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "133C97DC429EB2B6"
+					item: "ae2:fluix_glass_cable"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "0A1291D6E22A2282"
 				item: "ae2:blank_pattern"
@@ -4861,7 +4893,7 @@
 				id: "028CE8EF13600EED"
 				type: "checkmark"
 			}]
-			title: "源节点和子节点"
+			title: "源节点和子节点&d（专家）&r"
 			x: -21.0d
 			y: 7.5d
 		}

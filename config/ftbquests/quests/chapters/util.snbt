@@ -564,6 +564,26 @@
 			x: 6.5d
 			y: 6.0d
 		}
+		{
+			id: "12D5479B3944EA92"
+			tasks: [
+				{
+					d: 1
+					id: "6A59FCDCCBB2D734"
+					optional_task: true
+					type: "gtocore:gtodifficulty"
+				}
+				{
+					d: 2
+					id: "72C39C805FB5425C"
+					optional_task: true
+					type: "gtocore:gtodifficulty"
+				}
+			]
+			title: "简单＋普通"
+			x: 4.5d
+			y: 6.0d
+		}
 	]
 	title: "辅助章节"
 }

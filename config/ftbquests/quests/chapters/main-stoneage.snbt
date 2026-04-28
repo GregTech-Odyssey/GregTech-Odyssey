@@ -13,8 +13,8 @@
 			image: "ftbquests:textures/shapes/pentagon/outline.png"
 			rotation: 0.0d
 			width: 1.75d
-			x: 3.5d
-			y: 11.0d
+			x: -3.0d
+			y: 8.0d
 		}
 		{
 			height: 1.25d
@@ -66,7 +66,7 @@
 		{
 			id: "40804656354C8F30"
 			linked_quest: "21EA1E3550BC1067"
-			x: 13.0d
+			x: 11.0d
 			y: 8.0d
 		}
 	]
@@ -424,8 +424,6 @@
 				"终端成型建造多方块结构的时候可以把装不下的方块仓室什么的放到背包里面"
 				""
 				"[ \"可以在\", { \"text\": \"摩登时代\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1CE34BD4900990C6\" } }, \"章节继续寻找升级的方式\" ]"
-				""
-				"&o&7Tips：带有下划线的文本大多为超链接，可直接点击跳转"
 			]
 			icon: "sophisticatedbackpacks:backpack"
 			id: "4DC482C16035F261"
@@ -471,9 +469,9 @@
 			]
 			icon: {
 				Count: 1
-				id: "minecraft:stone_pickaxe"
+				id: "gtocore:prospector.mana_ulv"
 				tag: {
-					Damage: 0
+					mana: 500000
 				}
 			}
 			id: "2403CDCD080D34B1"
@@ -501,57 +499,6 @@
 			title: "挖穿地心！"
 			x: 5.0d
 			y: -2.0d
-		}
-		{
-			dependencies: ["30D4CC9142D59DBD"]
-			description: [
-				"好吧，你现在需要去搞点黏土了"
-				""
-				"你需要一些黏土去制作后面几个大家伙"
-				""
-				"[ \"那么黏土去哪找呢？去河流边上，或者直接点，繁茂洞穴，或者再直接点，\", { \"text\": \"去买点\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0C0A2C3CC7BE0749\" } } ]"
-			]
-			hide_dependency_lines: true
-			icon: "minecraft:clay_ball"
-			id: "664BDC18052B54FC"
-			rewards: [
-				{
-					count: 64
-					id: "3F0876A57E3A4664"
-					item: "minecraft:clay"
-					type: "item"
-				}
-				{
-					id: "09448634A78D9845"
-					item: "gtocore:copper_coin"
-					type: "item"
-				}
-			]
-			subtitle: "只不过是轻轻动了动黏土而已"
-			tasks: [
-				{
-					count: 64L
-					id: "677A831E0B32880F"
-					item: "minecraft:clay_ball"
-					type: "item"
-				}
-				{
-					icon: "minecraft:sand"
-					id: "273B6A72B93BFB2C"
-					item: {
-						Count: 1
-						id: "itemfilters:tag"
-						tag: {
-							value: "forge:sand"
-						}
-					}
-					title: "沙子"
-					type: "item"
-				}
-			]
-			title: "洞穴毁灭者"
-			x: 9.0d
-			y: 8.0d
 		}
 		{
 			dependencies: ["561D79DE960A034D"]
@@ -621,56 +568,6 @@
 			title: "下矿时间到！"
 			x: 11.0d
 			y: 0.0d
-		}
-		{
-			dependencies: ["39A6C5524A2490C5"]
-			description: [
-				"焦炉是个3x3x3的中空多方块结构，记得中间一定要留空"
-				""
-				"预留好输出的&6焦炉仓&r，要不然你还得来回舀"
-				""
-				"焦炉产出的焦煤是正常煤炭燃烧时间的两倍，同时产出的杂酚油用来制作蒸汽时代的设备"
-				""
-				"[ \"还在傻傻手搭多方块吗？我建议你用\", { \"text\": \"终端\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"07C8D75D90114580\" } }, \"来辅助搭建\"]"
-				""
-				"&o&8一定要多堆点焦炉，要炼钢一台可不够。"
-			]
-			icon: "gtceu:coke_oven"
-			id: "10C397237163BFFC"
-			rewards: [
-				{
-					count: 2
-					id: "4CAB4AB4963A08F9"
-					item: "gtceu:wood_drum"
-					team_reward: false
-					type: "item"
-				}
-				{
-					count: 16
-					id: "09E70832F1FEE647"
-					item: "gtocore:copper_coin"
-					type: "item"
-				}
-			]
-			shape: "hexagon"
-			size: 2.0d
-			subtitle: "你的第一个多方块结构"
-			tasks: [
-				{
-					id: "0B82C2B805642447"
-					item: "gtceu:coke_oven"
-					type: "item"
-				}
-				{
-					count: 25L
-					id: "738C2A549009E615"
-					item: "gtceu:coke_oven_bricks"
-					type: "item"
-				}
-			]
-			title: "焦炉"
-			x: 6.5d
-			y: 10.0d
 		}
 		{
 			dependencies: ["45C8A2DF9C0E5473"]
@@ -1557,6 +1454,8 @@
 				"&6简易合成终端&r可以与对应容器交互，当作前期的AE"
 				""
 				"但是这个合成终端&c无法链接多个容器&r"
+				""
+				"&o&7提示：你可以直接把物品从EMI中拖到终端的搜索栏上来快速搜索"
 			]
 			hide_dependency_lines: false
 			id: "2E05753AF03C5608"
@@ -1691,52 +1590,6 @@
 			}]
 			x: 1.5d
 			y: 0.0d
-		}
-		{
-			dependencies: ["6D4B71E543059C19"]
-			description: ["你需要合成焦炉砖块，当然手搓是更快的"]
-			id: "39A6C5524A2490C5"
-			rewards: [{
-				id: "2E3290F368E29335"
-				item: "gtocore:copper_coin"
-				type: "item"
-			}]
-			subtitle: "需要点火"
-			tasks: [{
-				consume_items: false
-				id: "4A7356E1096054EF"
-				item: "gtceu:coke_oven_brick"
-				type: "item"
-			}]
-			x: 9.0d
-			y: 10.0d
-		}
-		{
-			dependencies: [
-				"664BDC18052B54FC"
-				"4920255C0FDE6187"
-			]
-			description: [
-				"你需要116x&6焦炉砖&r以搭建一个最简可用焦炉"
-				""
-				"所以你需要搓116个压缩&6焦黏土&r"
-				""
-				"对的，专家模式下会更难"
-			]
-			id: "6D4B71E543059C19"
-			rewards: [{
-				id: "2EF86F324481E26B"
-				item: "gtocore:copper_coin"
-				type: "item"
-			}]
-			subtitle: "然后我们需要把这堆东西挤进来"
-			tasks: [{
-				id: "24EA2D701E78667F"
-				item: "gtceu:compressed_coke_clay"
-				type: "item"
-			}]
-			x: 11.0d
-			y: 10.0d
 		}
 		{
 			dependencies: ["7D6FCF32575CB7DA"]
@@ -1903,73 +1756,6 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["30D4CC9142D59DBD"]
-			description: ["这东西在接下来的合成中是可以重复利用的，所以造一个就好了"]
-			id: "4920255C0FDE6187"
-			rewards: [{
-				id: "260460DB71687420"
-				item: "gtocore:copper_coin"
-				type: "item"
-			}]
-			subtitle: "可重复"
-			tasks: [{
-				id: "3D98DFA0F224B508"
-				item: "gtceu:brick_wooden_form"
-				type: "item"
-			}]
-			x: 11.0d
-			y: 8.0d
-		}
-		{
-			dependencies: ["10C397237163BFFC"]
-			description: [
-				"焦炉仓可以同时作为输入和输出，它&e不会&r自动抽取物品，但可以&e自动从输出口输出&r物品和流体"
-				""
-				"所以实现自动化你可能需要一个漏斗"
-				""
-				"焦炉仓与主方块共享内容物"
-			]
-			id: "6BA5DA36E8163809"
-			rewards: [{
-				count: 8
-				id: "5AAD8C51892D560C"
-				item: "gtocore:copper_coin"
-				type: "item"
-			}]
-			shape: "diamond"
-			subtitle: "我们需要自动化！"
-			tasks: [{
-				id: "54186B8884FF0220"
-				item: "gtceu:coke_oven_hatch"
-				type: "item"
-			}]
-			x: 6.5d
-			y: 12.0d
-		}
-		{
-			dependencies: ["67264EF0565CC030"]
-			description: [
-				"销毁你的垃圾"
-				""
-				"后面还能用来制作物质球和奇点"
-			]
-			id: "36ABEC62B0F6C71D"
-			rewards: [{
-				id: "70C0F724F8EF2B79"
-				item: "gtocore:copper_coin"
-				type: "item"
-			}]
-			subtitle: "别丢错东西了"
-			tasks: [{
-				id: "2BCFF0375CAE346E"
-				item: "ae2:condenser"
-				type: "item"
-			}]
-			title: "垃圾桶"
-			x: 13.0d
-			y: 4.0d
-		}
-		{
 			dependencies: ["561D79DE960A034D"]
 			description: ["右击&6草&r极大概率掉落小麦种子，有小概率掉落胡萝卜等农作物"]
 			id: "3E80C257F74352D0"
@@ -2134,7 +1920,7 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["14A66BA5BC9DB220"]
+			dependencies: ["24C53B5FF515ACAC"]
 			description: [
 				"如果你暂时不想推进主线了，可以看看支线：&b独善其身&r"
 				""
@@ -2164,8 +1950,8 @@
 				title: "看看支线？"
 				type: "checkmark"
 			}]
-			x: 3.5d
-			y: 11.0d
+			x: -3.0d
+			y: 8.0d
 		}
 		{
 			dependencies: [
@@ -2375,6 +2161,36 @@
 			title: "夜视"
 			x: -1.5d
 			y: 1.5d
+		}
+		{
+			dependencies: ["67264EF0565CC030"]
+			description: [
+				"销毁你的垃圾"
+				""
+				"后面还能用来制作物质球和奇点"
+			]
+			icon: "ae2:condenser"
+			id: "36ABEC62B0F6C71D"
+			rewards: [
+				{
+					id: "1863813E5B745256"
+					item: "ae2:condenser"
+					type: "item"
+				}
+				{
+					id: "70C0F724F8EF2B79"
+					item: "gtocore:copper_coin"
+					type: "item"
+				}
+			]
+			subtitle: "别丢错东西了"
+			tasks: [{
+				id: "25AA8859F1282B4E"
+				type: "checkmark"
+			}]
+			title: "垃圾桶"
+			x: 13.0d
+			y: 4.0d
 		}
 	]
 	subtitle: ["Hello World!"]

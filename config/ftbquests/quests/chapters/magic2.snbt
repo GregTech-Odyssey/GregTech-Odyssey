@@ -66,14 +66,23 @@
 		}
 	]
 	order_index: 2
-	quest_links: [{
-		id: "17557E8E51653B12"
-		linked_quest: "0B61448F01656C1D"
-		shape: "gear"
-		size: 2.5d
-		x: -2.25d
-		y: 4.5d
-	}]
+	quest_links: [
+		{
+			id: "17557E8E51653B12"
+			linked_quest: "0B61448F01656C1D"
+			shape: "gear"
+			size: 2.5d
+			x: -2.25d
+			y: 4.5d
+		}
+		{
+			id: "57FBFB1CE338B746"
+			linked_quest: "782E6E5239AA5283"
+			shape: "hexagon"
+			x: 17.5d
+			y: 7.5d
+		}
+	]
 	quests: [
 		{
 			dependencies: ["0631F054A9B97A40"]
@@ -1713,6 +1722,8 @@
 		{
 			dependencies: ["2DE9C9AD00450987"]
 			id: "0F02FE8BA89BCF34"
+			shape: "hexagon"
+			size: 1.5d
 			subtitle: "你需要 &e英雄般的力量&r"
 			tasks: [{
 				id: "525B948D01EFFF84"
@@ -2043,6 +2054,7 @@
 			dependencies: [
 				"262B99D8C05C2B28"
 				"4F95427017B9396F"
+				"782E6E5239AA5283"
 			]
 			description: ["刻印精粹需要用到神化中的&6源初重构仪&r"]
 			id: "50591F5900E6FB9A"

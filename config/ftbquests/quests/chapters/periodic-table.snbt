@@ -5,20 +5,7 @@
 	group: "1DADB97F0E99795F"
 	id: "0EEF2230F5DD56C3"
 	order_index: 1
-	quest_links: [
-		{
-			id: "4BB5BF98E5C3C2EA"
-			linked_quest: "6E6E8E4BA9B4D2FC"
-			x: -3.5d
-			y: 3.5d
-		}
-		{
-			id: "77F30CD8E0CF8C54"
-			linked_quest: "1279431AB8DAAF72"
-			x: -3.5d
-			y: 5.0d
-		}
-	]
+	quest_links: [ ]
 	quests: [
 		{
 			id: "23E60BBE7A49F66E"
@@ -1358,7 +1345,7 @@
 				type: "item"
 			}]
 			x: 19.0d
-			y: 10.5d
+			y: 12.0d
 		}
 		{
 			id: "5B97DF64562D93DF"
@@ -1369,6 +1356,102 @@
 			}]
 			x: 10.0d
 			y: 10.5d
+		}
+		{
+			id: "00C299563C7AB77A"
+			tasks: [{
+				id: "0487D96BD4E984F8"
+				item: "gtocore:amprosium_dust"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 12.0d
+		}
+		{
+			id: "4ADC8A912BBF8061"
+			tasks: [{
+				id: "7FC06C57BD0B0DBE"
+				item: "gtceu:neutronium_dust"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 12.0d
+		}
+		{
+			id: "6D3634A07978F5E6"
+			tasks: [{
+				id: "104D6C5E5D00C158"
+				item: "gtocore:cosmic_neutronium_dust"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 12.0d
+		}
+		{
+			id: "66DF9BD140F80107"
+			tasks: [{
+				id: "0815517345DD64B7"
+				item: "gtocore:infinity_dust"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 12.0d
+		}
+		{
+			id: "23BB590143FB191F"
+			tasks: [{
+				id: "0273E86AC51CAABB"
+				item: "gtocore:chaos_infinity_alloy_dust"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 12.0d
+		}
+		{
+			id: "2F91D08C72446934"
+			tasks: [{
+				id: "0460C20793B71275"
+				item: "gtocore:eternity_dust"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 12.0d
+		}
+		{
+			id: "2306A785A658D899"
+			tasks: [{
+				id: "170DA436EDF119C1"
+				item: "gtocore:hypogen_dust"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 10.5d
+		}
+		{
+			disable_toast: true
+			id: "4E2E062F797BE2B2"
+			shape: "rsquare"
+			tasks: [{
+				id: "3069F1D3ED01276A"
+				item: "gtceu:lanthanum_dust"
+				type: "item"
+			}]
+			title: "镧系"
+			x: -3.5d
+			y: 3.5d
+		}
+		{
+			disable_toast: true
+			id: "1A1FA534CC0A8261"
+			shape: "rsquare"
+			tasks: [{
+				id: "6A57BBAEA970DD43"
+				item: "gtceu:actinium_dust"
+				type: "item"
+			}]
+			title: "锕系"
+			x: -3.5d
+			y: 5.0d
 		}
 	]
 	subtitle: ["Periodic Table"]

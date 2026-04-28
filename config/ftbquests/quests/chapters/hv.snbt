@@ -179,18 +179,25 @@
 			y: -8.25d
 		}
 		{
-			id: "44A0FE462E0C3A64"
-			linked_quest: "2C986BC7ECC4E1ED"
-			shape: "hexagon"
-			size: 1.5d
-			x: 7.0d
-			y: 5.5d
-		}
-		{
 			id: "3FE169F2680CFCBA"
 			linked_quest: "204F134A09B60140"
 			x: 5.0d
 			y: 5.5d
+		}
+		{
+			id: "723A96005E8ACBC6"
+			linked_quest: "1D57ED21E8AD1A26"
+			shape: "hexagon"
+			size: 1.5d
+			x: 10.5d
+			y: 2.0d
+		}
+		{
+			id: "1F971C770E451FFE"
+			linked_quest: "7FE2763143958129"
+			shape: "hexagon"
+			x: 10.5d
+			y: 0.5d
 		}
 	]
 	quests: [
@@ -476,6 +483,8 @@
 				"每次操作有几秒的冷却时间，并且消耗无人机少量的电"
 				""
 				"放入更多无人机可同时进行多项工作"
+				""
+				"[ \"EV以后配合\", { \"text\": \"无线充能器\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"22A3C58D1FDF2221\" } },\"可以直接给无人机仓的无人机充电\" ]"
 			]
 			hide_dependency_lines: true
 			id: "27BE49A3FEA64B59"
@@ -530,6 +539,7 @@
 			dependencies: [
 				"23A3A8F6E6738331"
 				"2C986BC7ECC4E1ED"
+				"7F98C4099F848BCA"
 			]
 			description: [
 				"&6T1火箭&r是你目前为止见到的最复杂的东西"
@@ -650,8 +660,8 @@
 			dependencies: [
 				"7A7DC6205DED9BF3"
 				"4AED8DE6D6175D97"
-				"4331EEF3BA9799FD"
-				"06E8CF5F701850A1"
+				"1D57ED21E8AD1A26"
+				"7FE2763143958129"
 			]
 			description: [
 				"现在，朝着亲爱的月球进发？不不不，还有几件事需要你&c再确认一下&r："
@@ -814,7 +824,10 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["5F5B9F256A751484"]
+			dependencies: [
+				"5F5B9F256A751484"
+				"566FDA63FAA2C115"
+			]
 			id: "768BCE7842E31597"
 			tasks: [{
 				id: "7FEED9BB9102DC99"
@@ -850,6 +863,7 @@
 				""
 				"&7不要思考这句话的深意，只是增加游戏沉浸感&r"
 			]
+			hide_dependent_lines: true
 			id: "566FDA63FAA2C115"
 			shape: "hexagon"
 			size: 1.5d
@@ -1154,70 +1168,6 @@
 			}]
 			x: -6.0d
 			y: -5.25d
-		}
-		{
-			dependencies: ["7A7DC6205DED9BF3"]
-			description: [
-				"月球&4缺少&r大气环境"
-				""
-				"你必须身着&e充有氧气的&r&6宇航套装&r，不然会有不幸的事情发生"
-				""
-				"往&6航天服&r内通入氧气——就把&6航天服&r当成桶，从AE里面舀就行了"
-				""
-				"&2宇&6航&9服&e可&d以&b染&4色&r，不会影响任务提交"
-			]
-			id: "4331EEF3BA9799FD"
-			shape: "hexagon"
-			subtitle: "史蒂夫的一小步"
-			tasks: [
-				{
-					id: "5447D8AF38334E84"
-					item: {
-						Count: 1
-						id: "ad_astra:space_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "025CCF62DA440827"
-					item: {
-						Count: 1
-						id: "ad_astra:space_suit"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "2CBEB3704E230616"
-					item: {
-						Count: 1
-						id: "ad_astra:space_pants"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "63DE8CCC243FE06D"
-					item: {
-						Count: 1
-						id: "ad_astra:space_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "基础宇航套装"
-			x: 10.5d
-			y: 0.5d
 		}
 		{
 			dependencies: [
@@ -1599,77 +1549,6 @@
 			}]
 			x: 2.5d
 			y: -1.0d
-		}
-		{
-			dependencies: ["7A7DC6205DED9BF3"]
-			description: [
-				"你需要把你的身体的各个&6器官&r都强化到&e标准级&r之后才能抵御&d星际乱流&r的影响"
-				""
-				"用&6器官修改器&r来把各个&6器官部件&r装进你的身体里面"
-				""
-				"当然以后你每去一个新地方都需要查看自己身上的&6器官&r是不是已经强化到对应的阶级了"
-				""
-				"&o&8自己给自己在清醒时做手术，可真的是有点惊悚呢&r&r"
-			]
-			id: "06E8CF5F701850A1"
-			rewards: [{
-				id: "0B901E3B9C37558A"
-				item: "gtocore:organ_modifier"
-				type: "item"
-			}]
-			shape: "hexagon"
-			size: 1.5d
-			subtitle: "我们终将决定我们自己的进化道路"
-			tasks: [
-				{
-					id: "1527CD1ED0E171F7"
-					item: "gtocore:tier_1_eye"
-					type: "item"
-				}
-				{
-					id: "02DACE16540F3950"
-					item: "gtocore:tier_1_spine"
-					type: "item"
-				}
-				{
-					id: "4D0B02A57E230452"
-					item: "gtocore:tier_1_lung"
-					type: "item"
-				}
-				{
-					id: "300387F47666DD1B"
-					item: "gtocore:tier_1_liver"
-					type: "item"
-				}
-				{
-					id: "4C7C34B4D8A9810C"
-					item: "gtocore:tier_1_heart"
-					type: "item"
-				}
-				{
-					id: "0C3B32392E9028AE"
-					item: "gtocore:tier_1_left_arm"
-					type: "item"
-				}
-				{
-					id: "0C59D037800BD887"
-					item: "gtocore:tier_1_right_arm"
-					type: "item"
-				}
-				{
-					id: "41F1043CBE279630"
-					item: "gtocore:tier_1_left_leg"
-					type: "item"
-				}
-				{
-					id: "26211367AB393E8D"
-					item: "gtocore:tier_1_right_leg"
-					type: "item"
-				}
-			]
-			title: "血肉苦弱，机械飞升！"
-			x: 10.5d
-			y: 2.0d
 		}
 		{
 			dependencies: ["310210D2AD9515E3"]
@@ -2120,6 +1999,45 @@
 				type: "item"
 			}]
 			x: 3.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"5D828A5258BFF11F"
+				"056EC4E6FAF614B7"
+			]
+			description: ["从HV开始，简单不再有额外补助。用自己的双手创造一切吧！"]
+			hide_until_deps_visible: true
+			id: "185F8183775BD727"
+			optional: true
+			shape: "octagon"
+			tasks: [{
+				count: 32L
+				id: "3D43B3BB905110DD"
+				item: { Count: 32, id: "gtceu:hv_electric_motor" }
+				type: "item"
+			}]
+			title: "HV部件补助&a（简单）&r"
+			x: -8.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["204F134A09B60140"]
+			description: [
+				"所有的火箭（除了7阶火箭）都从此诞生"
+				""
+				"结构有点大，但实际做出来的火箭并不大"
+			]
+			id: "7F98C4099F848BCA"
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "我的火箭老家"
+			tasks: [{
+				id: "053E9211EBD41BEA"
+				item: "gtocore:rocket_assembler"
+				type: "item"
+			}]
+			x: 7.0d
 			y: 5.5d
 		}
 	]

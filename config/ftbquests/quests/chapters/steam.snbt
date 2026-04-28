@@ -138,8 +138,8 @@
 			id: "03CBC6BC46EA333F"
 			linked_quest: "7EA226054696AA3F"
 			shape: "diamond"
-			x: -3.5d
-			y: 2.5d
+			x: 4.0d
+			y: 1.0d
 		}
 		{
 			id: "447496A1C3D6E5C4"
@@ -507,8 +507,8 @@
 				type: "item"
 			}]
 			title: "这可不是液压机"
-			x: 2.0d
-			y: 2.5d
+			x: 2.047619047619044d
+			y: 2.488095238095248d
 		}
 		{
 			dependencies: ["32A39A427D4A3AC2"]
@@ -904,6 +904,8 @@
 				"棒极了，这次不用史蒂夫的嘴"
 				""
 				"手持&6粗真空管&r潜行右击&6真空泵&r制造&6真空管&r"
+				""
+				"&o&7做出原始组装机后，你就可以直接在组装机里制造真空管了"
 			]
 			id: "53109F7472C0B443"
 			rewards: [{
@@ -959,9 +961,9 @@
 				""
 				"你需要拿它来离心各种你想要的东西，还是&e矿物处理&r的一环"
 				""
-				"你在ULV阶段马上就要用到它离心&6空气&r和&6水煤气&r"
+				"你马上就要用到它离心&6黏性树脂&r，&6空气&r和&6水煤气&r"
 				""
-				"&6蒸汽流体输入仓&r只能支持&b16B&r的流体输入，在有钢后你就可以制作&6无限进气仓&r来利用满机器的并行去离心空气"
+				"&6蒸汽流体输入仓&r只能支持&b16B&r的流体输入，你可以制作&6无限进气仓&r来利用满机器的并行去离心空气"
 				""
 				"&o&7如果遇到执行不了的配方记得看看EMI，看看你的输入输出仓是不是比配方要求和产出的量小，或者是不是装少了仓室"
 			]
@@ -1048,10 +1050,7 @@
 			y: 4.5d
 		}
 		{
-			dependencies: [
-				"2D630430259F9131"
-				"24C53B5FF515ACAC"
-			]
+			dependencies: ["2D630430259F9131"]
 			description: [
 				"一块焦煤能支持一个低压锅炉或一个加热器&61280秒&r，意味着手动填燃料不失为中策"
 				""
@@ -1080,8 +1079,8 @@
 				type: "checkmark"
 			}]
 			title: "半自动化"
-			x: -9.0d
-			y: 1.0d
+			x: -1.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["31BB738542229A88"]
@@ -1105,8 +1104,8 @@
 				title: "蒸汽自动化"
 				type: "checkmark"
 			}]
-			x: -6.5d
-			y: 1.0d
+			x: 1.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["7BE51B4BC36F8B7B"]
@@ -1180,7 +1179,7 @@
 				type: "item"
 			}]
 			title: "看上去有点麻烦的材料"
-			x: 4.5d
+			x: 4.0d
 			y: 4.5d
 		}
 		{
@@ -1265,8 +1264,8 @@
 				}
 			]
 			title: "另辟蹊径"
-			x: -6.5d
-			y: -0.5d
+			x: 1.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["17408BBD93A18AEC"]
@@ -1591,8 +1590,8 @@
 				type: "item"
 			}]
 			title: "太阳能锅炉"
-			x: -6.5d
-			y: 2.5d
+			x: 1.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["7BCD49717F8FAD65"]
@@ -1605,8 +1604,8 @@
 				item: "gtceu:hp_steam_solar_boiler"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 2.5d
+			x: 2.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["7BCD49717F8FAD65"]
@@ -1623,8 +1622,8 @@
 				item: "gtceu:lp_steam_liquid_boiler"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 1.0d
+			x: 2.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["7BCD49717F8FAD65"]
@@ -1638,8 +1637,8 @@
 				item: "gtceu:hp_steam_liquid_boiler"
 				type: "item"
 			}]
-			x: -3.5d
-			y: 1.0d
+			x: 4.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["7BCD49717F8FAD65"]
@@ -1651,8 +1650,8 @@
 				item: "gtceu:bronze_large_boiler"
 				type: "item"
 			}]
-			x: -3.5d
-			y: -0.5d
+			x: 4.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["7BCD49717F8FAD65"]
@@ -1670,8 +1669,8 @@
 				type: "item"
 			}]
 			title: "蒸汽扩产"
-			x: -5.0d
-			y: -0.5d
+			x: 2.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["0019A5EEEE514539"]
@@ -1769,7 +1768,7 @@
 				type: "item"
 			}]
 			shape: "octagon"
-			subtitle: "聊胜于无"
+			subtitle: "快进到多方块板条箱"
 			tasks: [{
 				id: "10E3799903559F25"
 				type: "checkmark"
@@ -1973,6 +1972,12 @@
 			]
 			icon: "gtceu:primitive_pump"
 			id: "2D630430259F9131"
+			rewards: [{
+				count: 8
+				id: "2A842549247F800B"
+				item: "gtocore:copper_coin"
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 1.5d
 			subtitle: "所处皆为井"
@@ -2001,8 +2006,8 @@
 				}
 			]
 			title: "望泵止渴"
-			x: -9.0d
-			y: -0.75d
+			x: -1.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -2147,8 +2152,8 @@
 				item: "pipez:item_pipe"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 0.0d
+			x: -7.5d
+			y: 9.75d
 		}
 		{
 			dependencies: ["24C53B5FF515ACAC"]
@@ -2169,8 +2174,8 @@
 				item: "pipez:fluid_pipe"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 2.0d
+			x: -10.5d
+			y: 9.75d
 		}
 		{
 			dependencies: ["24C53B5FF515ACAC"]
@@ -2200,8 +2205,8 @@
 				type: "checkmark"
 			}]
 			title: "蒸汽驱动"
-			x: 2.0d
-			y: 0.0d
+			x: -9.0d
+			y: 11.25d
 		}
 		{
 			dependencies: ["21D331D7F4F8862C"]
@@ -2246,6 +2251,204 @@
 			}]
 			x: 5.5d
 			y: 9.5d
+		}
+		{
+			dependencies: ["39A6C5524A2490C5"]
+			description: [
+				"焦炉是个3x3x3的中空多方块结构，记得中间一定要留空"
+				""
+				"预留好输出的&6焦炉仓&r，要不然你还得来回舀"
+				""
+				"焦炉产出的焦煤是正常煤炭燃烧时间的两倍，同时产出的杂酚油用来制作蒸汽时代的设备"
+				""
+				"[ \"还在傻傻手搭多方块吗？我建议你用\", { \"text\": \"终端\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"07C8D75D90114580\" } }, \"来辅助搭建\"]"
+				""
+				"&o&8一定要多堆点焦炉，要炼钢一台可不够。"
+			]
+			icon: "gtceu:coke_oven"
+			id: "10C397237163BFFC"
+			rewards: [
+				{
+					count: 2
+					id: "4CAB4AB4963A08F9"
+					item: "gtceu:wood_drum"
+					team_reward: false
+					type: "item"
+				}
+				{
+					count: 16
+					id: "09E70832F1FEE647"
+					item: "gtocore:copper_coin"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "你的第一个多方块结构"
+			tasks: [
+				{
+					id: "0B82C2B805642447"
+					item: "gtceu:coke_oven"
+					type: "item"
+				}
+				{
+					count: 25L
+					id: "738C2A549009E615"
+					item: "gtceu:coke_oven_bricks"
+					type: "item"
+				}
+			]
+			title: "焦炉"
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["10C397237163BFFC"]
+			description: [
+				"焦炉仓可以同时作为输入和输出，它&e不会&r自动抽取物品，但可以&e自动从输出口输出&r物品和流体"
+				""
+				"所以实现自动化你可能需要一个漏斗"
+				""
+				"焦炉仓与主方块共享内容物"
+			]
+			id: "6BA5DA36E8163809"
+			rewards: [{
+				count: 8
+				id: "5AAD8C51892D560C"
+				item: "gtocore:copper_coin"
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "我们需要自动化！"
+			tasks: [{
+				id: "54186B8884FF0220"
+				item: "gtceu:coke_oven_hatch"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6D4B71E543059C19"
+				"05F4015974079225"
+				"664BDC18052B54FC"
+			]
+			dependency_requirement: "one_completed"
+			description: ["你有两个选择制作焦炉砖块，使用耗材较多，无需等待的手搓配方；或是耗材较少，但是需要等待的合金炉配方"]
+			id: "39A6C5524A2490C5"
+			min_required_dependencies: 2
+			rewards: [{
+				id: "2E3290F368E29335"
+				item: "gtocore:copper_coin"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.2d
+			subtitle: "需要点火"
+			tasks: [{
+				consume_items: false
+				id: "4A7356E1096054EF"
+				item: "gtceu:coke_oven_brick"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["30D4CC9142D59DBD"]
+			description: [
+				"好吧，你现在需要去搞点黏土了"
+				""
+				"你需要一些黏土去制作后面几个大家伙"
+				""
+				"[ \"那么黏土去哪找呢？去河流边上，或者直接点，繁茂洞穴，或者再直接点，\", { \"text\": \"去买点\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0C0A2C3CC7BE0749\" } } ]"
+			]
+			hide_dependency_lines: true
+			icon: "minecraft:clay_ball"
+			id: "664BDC18052B54FC"
+			rewards: [
+				{
+					count: 64
+					id: "3F0876A57E3A4664"
+					item: "minecraft:clay"
+					type: "item"
+				}
+				{
+					id: "09448634A78D9845"
+					item: "gtocore:copper_coin"
+					type: "item"
+				}
+			]
+			subtitle: "只不过是轻轻动了动黏土而已"
+			tasks: [
+				{
+					count: 64L
+					id: "677A831E0B32880F"
+					item: "minecraft:clay_ball"
+					type: "item"
+				}
+				{
+					icon: "minecraft:sand"
+					id: "273B6A72B93BFB2C"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:sand"
+						}
+					}
+					title: "沙子"
+					type: "item"
+				}
+			]
+			title: "洞穴毁灭者"
+			x: -8.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4920255C0FDE6187"]
+			description: [
+				"你需要116x&6焦炉砖&r以搭建一个最简可用焦炉"
+				""
+				"所以你需要搓116个压缩&6焦黏土&r"
+				""
+				"或者选择合金炉配方"
+				""
+				"对的，专家模式下会更难"
+			]
+			id: "6D4B71E543059C19"
+			rewards: [{
+				id: "2EF86F324481E26B"
+				item: "gtocore:copper_coin"
+				type: "item"
+			}]
+			subtitle: "然后我们需要把这堆东西挤进来"
+			tasks: [{
+				id: "24EA2D701E78667F"
+				item: "gtceu:compressed_coke_clay"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["30D4CC9142D59DBD"]
+			description: ["这东西在接下来的合成中是可以重复利用的，所以造一个就好了"]
+			id: "4920255C0FDE6187"
+			rewards: [{
+				id: "260460DB71687420"
+				item: "gtocore:copper_coin"
+				type: "item"
+			}]
+			subtitle: "可重复"
+			tasks: [{
+				id: "3D98DFA0F224B508"
+				item: "gtceu:brick_wooden_form"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 0.0d
 		}
 	]
 	subtitle: ["Tier0-Steam"]

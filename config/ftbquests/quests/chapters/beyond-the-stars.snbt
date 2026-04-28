@@ -165,14 +165,14 @@
 				""
 				"&8&o上述惩罚从未执行过也不会执行&r"
 			]
+			icon: "ad_astra:nasa_workbench"
 			id: "38A6F2FA481A85E5"
 			shape: "gear"
 			size: 3.0d
 			subtitle: "冲上云霄！"
 			tasks: [{
-				id: "2557FB35308E5251"
-				item: "ad_astra:nasa_workbench"
-				type: "item"
+				id: "3F7D2D3991A85DAC"
+				type: "checkmark"
 			}]
 			title: "仰望星空"
 			x: -4.5d
@@ -188,6 +188,7 @@
 				""
 				"结构有点大，但实际做出来的火箭并不大"
 			]
+			disable_toast: true
 			id: "2C986BC7ECC4E1ED"
 			shape: "gear"
 			size: 2.0d
@@ -212,6 +213,7 @@
 				""
 				"以及大量的TNT，你以后会要很多的"
 			]
+			disable_toast: true
 			id: "204F134A09B60140"
 			subtitle: "火箭的新衣"
 			tasks: [{
@@ -322,6 +324,7 @@
 				""
 				"&c警告&r&e：此芯片为单一副本，是规划地外任务的核心。遗失或损坏将导致整个扫描任务失效。&r"
 			]
+			disable_toast: true
 			id: "15D4145A9704592D"
 			tasks: [{
 				id: "5BFF34DC9FEC7384"
@@ -342,6 +345,7 @@
 				""
 				"&c警告&r&e：任何跨维度太空任务，在未收到该卫星传回的完整行星扫描数据前，&r&c均被视为自杀行为&r"
 			]
+			disable_toast: true
 			id: "67D7CD83E40F6471"
 			tasks: [{
 				id: "77279C0E61724405"
@@ -632,6 +636,7 @@
 			y: -3.5d
 		}
 		{
+			dependencies: ["7A7DC6205DED9BF3"]
 			description: [
 				"月球&4缺少&r大气环境"
 				""
@@ -696,6 +701,7 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["7A7DC6205DED9BF3"]
 			description: [
 				"你需要把你的身体的各个&6器官&r都强化到&e标准级&r之后才能抵御&d星际乱流&r的影响"
 				""
@@ -706,6 +712,11 @@
 				"&o&8自己给自己在清醒时做手术，可真的是有点惊悚呢&r&r"
 			]
 			id: "1D57ED21E8AD1A26"
+			rewards: [{
+				id: "2DA51D5EB0D398A2"
+				item: "gtocore:organ_modifier"
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 2.0d
 			subtitle: "我们终将决定我们自己的进化道路"
