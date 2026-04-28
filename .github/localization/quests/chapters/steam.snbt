@@ -392,6 +392,7 @@
 				""
 				"{gto.steam.quests.32A39A427D4A3AC2.description3}"
 			]
+			icon: "gtceu:primitive_blast_furnace"
 			id: "32A39A427D4A3AC2"
 			rewards: [{
 				count: 4
@@ -1331,6 +1332,7 @@
 				"{gto.steam.quests.4CC934314D14A5EA.description0}"
 				""
 				"{gto.steam.quests.4CC934314D14A5EA.description1}"
+				""
 				"[\"\", {\"translate\": \"gto.steam.quests.4CC934314D14A5EA.description2.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"4C94E56A9270EFFB\"}, \"translate\": \"gto.steam.quests.4CC934314D14A5EA.description2.rich_text1\"}, {\"translate\": \"gto.steam.quests.4CC934314D14A5EA.description2.rich_text2\"}]"
 			]
 			id: "4CC934314D14A5EA"
@@ -1357,6 +1359,8 @@
 				"{gto.steam.quests.29A2859398D5B252.description3}"
 				""
 				"{gto.steam.quests.29A2859398D5B252.description4}"
+				""
+				"{gto.steam.quests.29A2859398D5B252.description5}"
 			]
 			id: "29A2859398D5B252"
 			shape: "hexagon"
@@ -1728,12 +1732,20 @@
 			icon: "ad_astra:steel_ingot"
 			id: "768C5C35D4D80AA8"
 			optional: true
-			rewards: [{
-				count: 640
-				id: "7EBB79C0367AA913"
-				item: "ad_astra:steel_ingot"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 640
+					id: "7EBB79C0367AA913"
+					item: "ad_astra:steel_ingot"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "1E81D5971C9D9A95"
+					item: "gtocore:copper_coin"
+					type: "item"
+				}
+			]
 			shape: "octagon"
 			subtitle: "{gto.steam.quests.768C5C35D4D80AA8.subtitle}"
 			tasks: [{
@@ -1771,7 +1783,11 @@
 		}
 		{
 			dependencies: ["056EC4E6FAF614B7"]
-			description: ["{gto.steam.quests.276CCDB305FFBE2F.description0}"]
+			description: [
+				"{gto.steam.quests.276CCDB305FFBE2F.description0}"
+				""
+				"{gto.steam.quests.276CCDB305FFBE2F.description1}"
+			]
 			hide_until_deps_visible: true
 			icon: "minecraft:glass"
 			id: "276CCDB305FFBE2F"
@@ -1813,7 +1829,7 @@
 			}]
 			title: "{gto.steam.quests.0D362285B6842681.title}"
 			x: 5.5d
-			y: 12.0d
+			y: 11.5d
 		}
 		{
 			dependencies: ["2D9893D2C108754F"]
@@ -1893,12 +1909,20 @@
 			icon: "gtceu:wrought_iron_ingot"
 			id: "23CFCF3063B640F4"
 			optional: true
-			rewards: [{
-				count: 192
-				id: "6A882C417EDBCFD5"
-				item: "gtceu:wrought_iron_ingot"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 192
+					id: "6A882C417EDBCFD5"
+					item: "gtceu:wrought_iron_ingot"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "2FCC65B167E17EA8"
+					item: "gtocore:copper_coin"
+					type: "item"
+				}
+			]
 			shape: "octagon"
 			subtitle: "{gto.steam.quests.23CFCF3063B640F4.subtitle}"
 			tasks: [{
@@ -1945,6 +1969,7 @@
 				"{gto.steam.quests.2D630430259F9131.description3}"
 				"{@pagebreak}"
 				"{gto.steam.quests.2D630430259F9131.description4}"
+				""
 				"{gto.steam.quests.2D630430259F9131.description5}"
 				"{gto.steam.quests.2D630430259F9131.description6}"
 				"{gto.steam.quests.2D630430259F9131.description7}"
@@ -1989,7 +2014,7 @@
 				"056EC4E6FAF614B7"
 			]
 			description: [
-				"[\"\", {\"translate\": \"gto.steam.quests.09D7A6A14D532993.description0.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"5FCFE3D6B36CC409\"}, \"translate\": \"gto.steam.quests.09D7A6A14D532993.description0.rich_text1\"}, {\"translate\": \"gto.steam.quests.09D7A6A14D532993.description0.rich_text2\"}]"
+				"[\"\", {\"translate\": \"gto.steam.quests.09D7A6A14D532993.description0.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"5FCFE3D6B36CC409\"}, \"translate\": \"gto.steam.quests.09D7A6A14D532993.description0.rich_text1\"}, {\"translate\": \"gto.steam.quests.09D7A6A14D532993.description0.rich_text2\"}, {\"color\": \"gold\", \"translate\": \"gto.steam.quests.09D7A6A14D532993.description0.rich_text3\"}, {\"translate\": \"gto.steam.quests.09D7A6A14D532993.description0.rich_text4\"}]"
 				""
 				"{gto.steam.quests.09D7A6A14D532993.description1}"
 				""
@@ -2063,7 +2088,7 @@
 			icon: "gtceu:steam_input_bus"
 			id: "4276738FE46AC021"
 			rewards: [{
-				count: 16
+				count: 8
 				id: "10C00EAF76D71ABA"
 				item: "gtocore:copper_coin"
 				type: "item"
@@ -2199,6 +2224,31 @@
 			title: "{gto.steam.quests.4515F2289516C295.title}"
 			x: 15.0d
 			y: -0.5d
+		}
+		{
+			dependencies: ["4CC934314D14A5EA"]
+			description: ["{gto.steam.quests.084A8DE8B1F5CF3E.description0}"]
+			id: "084A8DE8B1F5CF3E"
+			optional: true
+			rewards: [{
+				id: "15F0B6F1F8A00969"
+				item: "gtocore:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7FA79D88DAA47846"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:tools/plungers"
+					}
+				}
+				title: "{gto.steam.quests.084A8DE8B1F5CF3E.tasks.7FA79D88DAA47846.title}"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 9.5d
 		}
 	]
 	subtitle: ["{gto.steam.subtitle0}"]

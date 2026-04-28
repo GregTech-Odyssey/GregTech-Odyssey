@@ -392,6 +392,7 @@
 				""
 				"以及，土高炉运作的时候中间那块岩浆是&4有伤害的&r"
 			]
+			icon: "gtceu:primitive_blast_furnace"
 			id: "32A39A427D4A3AC2"
 			rewards: [{
 				count: 4
@@ -958,11 +959,11 @@
 				""
 				"你需要拿它来离心各种你想要的东西，还是&e矿物处理&r的一环"
 				""
-				"你在下个阶段马上就要用到它离心&6空气&r&a->&r&6氧气&r，离心&6水煤气&r&a->&r&6氢气&r，顺便一提&6氮气&r可以用于电力高炉&e加速金属冶炼&r"
+				"你在ULV阶段马上就要用到它离心&6空气&r和&6水煤气&r"
 				""
-				"有些配方无法执行的话记得看看EMI，看看配方要求和产出的量是不是比你的输入输出仓小"
+				"&6蒸汽流体输入仓&r只能支持&b16B&r的流体输入，在有钢后你就可以制作&6无限进气仓&r来利用满机器的并行去离心空气"
 				""
-				"&6蒸汽流体输入仓&r只能支持&b16B&r的流体输入，在有钢后你就可以制作&6无限进气仓&r来利用满机器的并行"
+				"&o&7如果遇到执行不了的配方记得看看EMI，看看你的输入输出仓是不是比配方要求和产出的量小，或者是不是装少了仓室"
 			]
 			hide_dependent_lines: true
 			id: "020E8B707A8CF794"
@@ -1235,7 +1236,7 @@
 				""
 				"锅炉可同时受到多个相邻方块加热，可以让温度上升得更快"
 				""
-				"&n生产蒸汽的时候会消耗温度&r"
+				"&e生产蒸汽的时候会消耗温度&r"
 				""
 				"当满足任一以下条件，机器会发生&4爆炸&r："
 				"1.&6加热器&r的温度达到&2800K&r"
@@ -1331,6 +1332,7 @@
 				"用&6合金炉&r和&6板模具&r将&6橡胶条&r塑形为&6橡胶片&r"
 				""
 				"很明显的这是&6合金炉&r的配方，你肯定需要多一台&6合金炉&r"
+				""
 				"[ \"或者一个\", { \"text\": \"多方块合金炉\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4C94E56A9270EFFB\" } }, \"的\" ]"
 			]
 			id: "4CC934314D14A5EA"
@@ -1357,6 +1359,8 @@
 				"&o意味着你可以在导线上&a跳&r&6来&r&e跳&r&b去&r"
 				""
 				"当然如果你让超导线接收了过大的电流，它就会&4起火&r并且在一段时间后&4烧毁&r，如果电流远大于承载上限，则会&4直接烧毁&r"
+				""
+				"&e红色合金导线稍微有点特殊，它需要包一层橡胶成为线缆才能超导。其他的超导体制成导线直接就可以使用"
 			]
 			id: "29A2859398D5B252"
 			shape: "hexagon"
@@ -1725,12 +1729,20 @@
 			icon: "ad_astra:steel_ingot"
 			id: "768C5C35D4D80AA8"
 			optional: true
-			rewards: [{
-				count: 640
-				id: "7EBB79C0367AA913"
-				item: "ad_astra:steel_ingot"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 640
+					id: "7EBB79C0367AA913"
+					item: "ad_astra:steel_ingot"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "1E81D5971C9D9A95"
+					item: "gtocore:copper_coin"
+					type: "item"
+				}
+			]
 			shape: "octagon"
 			subtitle: "快进到跃进一号"
 			tasks: [{
@@ -1768,7 +1780,11 @@
 		}
 		{
 			dependencies: ["056EC4E6FAF614B7"]
-			description: ["简单保留了原版玻璃的合成配方，因此你无需通过石英砂制作玻璃"]
+			description: [
+				"简单保留了原版玻璃的合成配方，因此你无需通过石英砂制作玻璃。直接完成此任务可跳过制备玻璃第一步"
+				""
+				"玻璃粉可以通过锤子敲玻璃获得"
+			]
 			hide_until_deps_visible: true
 			icon: "minecraft:glass"
 			id: "276CCDB305FFBE2F"
@@ -1810,7 +1826,7 @@
 			}]
 			title: "橡胶补助&a（简单）&r"
 			x: 5.5d
-			y: 12.0d
+			y: 11.5d
 		}
 		{
 			dependencies: ["2D9893D2C108754F"]
@@ -1859,9 +1875,9 @@
 			description: [
 				"GTO中的GT管道经过了魔改："
 				""
-				"-优化tps，流体管道没有缓存，流体从输入直达输出"
+				"- 优化tps，流体管道没有缓存，流体从输入直达输出"
 				""
-				"-能够主动抽取机器/容器中的物品/流体，用扳手控制管道方向的同时也将激活管道的主动抽取功能"
+				"- 能够主动抽取机器/容器中的物品/流体，用扳手控制管道方向的同时也将激活管道的主动抽取功能"
 			]
 			icon: "gtceu:bronze_normal_fluid_pipe"
 			id: "39D96F76911B771E"
@@ -1890,12 +1906,20 @@
 			icon: "gtceu:wrought_iron_ingot"
 			id: "23CFCF3063B640F4"
 			optional: true
-			rewards: [{
-				count: 192
-				id: "6A882C417EDBCFD5"
-				item: "gtceu:wrought_iron_ingot"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 192
+					id: "6A882C417EDBCFD5"
+					item: "gtceu:wrought_iron_ingot"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "2FCC65B167E17EA8"
+					item: "gtocore:copper_coin"
+					type: "item"
+				}
+			]
 			shape: "octagon"
 			subtitle: "下一个阶段的重要材料"
 			tasks: [{
@@ -1942,6 +1966,7 @@
 				"用&6任意流体管道&r来运输流体，但是注意&6木制管道&r不能运输&6蒸汽&r"
 				"{@pagebreak}"
 				"将原始水泵放置在不同的群系内会获得不同的产出速率，这里提供部分数据："
+				""
 				"海洋/河流群系：1000mb/s"
 				"沼泽：800mb/s"
 				"平原/森林：250mb/s"
@@ -1986,13 +2011,13 @@
 				"056EC4E6FAF614B7"
 			]
 			description: [
-				"[\"你可以开始着手发展\",{ \"text\": \"AE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5FCFE3D6B36CC409\" } },\"了！\"]"
+				"[\"你可以开始制作\",{ \"text\": \"应用能源(AE2)\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5FCFE3D6B36CC409\" } },\"的敲门砖——\",{\"color\":\"gold\",\"text\":\"能源接收器\"},\"了！\"]"
 				""
-				"简单模式的AE配方没有魔改，因此请忽略在LV和HV章节的AE相关任务"
+				"&e简单模式的AE配方没有魔改，因此请忽略在LV和HV章节的AE相关任务"
+				""
+				"AE机器和ME网络都需要AE能量才能工作，使用&6能源接收器&r将GT的电能转化为AE能量"
 				""
 				"非专家模式默认&c无频道数量限制&r，不需要接入&6ME控制器&r，只需要确保为当前网络提供足够的能量即可"
-				""
-				"可以使用&6ME控制器&r来替代&6能源接收器&r，但后期可能会因为加载过多频道造成额外的延迟，请斟酌使用控制器"
 				""
 				"&o&7如果你还不会AE，请尽快寻找教程快速入门。本包无需精通AE，但至少需要了解如何下单。"
 			]
@@ -2060,7 +2085,7 @@
 			icon: "gtceu:steam_input_bus"
 			id: "4276738FE46AC021"
 			rewards: [{
-				count: 16
+				count: 8
 				id: "10C00EAF76D71ABA"
 				item: "gtocore:copper_coin"
 				type: "item"
@@ -2196,6 +2221,31 @@
 			title: "抽取管道"
 			x: 15.0d
 			y: -0.5d
+		}
+		{
+			dependencies: ["4CC934314D14A5EA"]
+			description: ["清空容器或者机器中的流体，&c不会返还&r"]
+			id: "084A8DE8B1F5CF3E"
+			optional: true
+			rewards: [{
+				id: "15F0B6F1F8A00969"
+				item: "gtocore:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7FA79D88DAA47846"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:tools/plungers"
+					}
+				}
+				title: "任意搋子"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 9.5d
 		}
 	]
 	subtitle: ["Tier0-Steam"]
