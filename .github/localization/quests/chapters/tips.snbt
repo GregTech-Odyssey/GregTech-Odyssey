@@ -72,6 +72,8 @@
 				"{gto.tips.quests.79646E8E449D8A1A.description0}"
 				""
 				"{gto.tips.quests.79646E8E449D8A1A.description1}"
+				""
+				"{gto.tips.quests.79646E8E449D8A1A.description2}"
 			]
 			icon: "minecraft:writable_book"
 			id: "79646E8E449D8A1A"
@@ -291,11 +293,13 @@
 				"{gto.tips.quests.5183DB6A793BB3C6.description10}"
 				"{gto.tips.quests.5183DB6A793BB3C6.description11}"
 				""
-				"[\"\", {\"color\": \"yellow\", \"translate\": \"gto.tips.quests.5183DB6A793BB3C6.description12.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"open_url\", \"value\": \"https://gtodyssey.com/zh-hans/整合包教学/官方文档/简单普通专家模式特性指南/\"}, \"translate\": \"gto.tips.quests.5183DB6A793BB3C6.description12.rich_text1\"}]"
+				"[\"\", {\"color\": \"yellow\", \"translate\": \"gto.tips.quests.5183DB6A793BB3C6.description12.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"open_url\", \"value\": \"https://gtodyssey.com/zh-hans/wiki/简单普通专家模式特性指南/\"}, \"translate\": \"gto.tips.quests.5183DB6A793BB3C6.description12.rich_text1\"}]"
 				""
-				"{gto.tips.quests.5183DB6A793BB3C6.description13}"
+				"[\"\", {\"color\": \"gray\", \"italic\": true, \"translate\": \"gto.tips.quests.5183DB6A793BB3C6.description13.rich_text0\"}, {\"underlined\": \"True\", \"italic\": true, \"color\": \"gray\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"1786BB8F04B92CB3\"}, \"translate\": \"gto.tips.quests.5183DB6A793BB3C6.description13.rich_text1\"}]"
 				""
 				"{gto.tips.quests.5183DB6A793BB3C6.description14}"
+				""
+				"{gto.tips.quests.5183DB6A793BB3C6.description15}"
 			]
 			icon: "minecraft:compass"
 			id: "5183DB6A793BB3C6"
@@ -367,12 +371,46 @@
 			dependencies: ["79646E8E449D8A1A"]
 			description: [
 				"{gto.tips.quests.1786BB8F04B92CB3.description0}"
-				""
 				"{gto.tips.quests.1786BB8F04B92CB3.description1}"
-				""
 				"{gto.tips.quests.1786BB8F04B92CB3.description2}"
+				"{gto.tips.quests.1786BB8F04B92CB3.description3}"
+				"{gto.tips.quests.1786BB8F04B92CB3.description4}"
+				"{gto.tips.quests.1786BB8F04B92CB3.description5}"
+				"{gto.tips.quests.1786BB8F04B92CB3.description6}"
+				"{gto.tips.quests.1786BB8F04B92CB3.description7}"
+				"{gto.tips.quests.1786BB8F04B92CB3.description8}"
+				"{gto.tips.quests.1786BB8F04B92CB3.description9}"
+				"{gto.tips.quests.1786BB8F04B92CB3.description10}"
+				"{gto.tips.quests.1786BB8F04B92CB3.description11}"
+				"{gto.tips.quests.1786BB8F04B92CB3.description12}"
+				"{gto.tips.quests.1786BB8F04B92CB3.description13}"
+				"{@pagebreak}"
+				"{gto.tips.quests.1786BB8F04B92CB3.description14}"
+				"{gto.tips.quests.1786BB8F04B92CB3.description15}"
+				"{gto.tips.quests.1786BB8F04B92CB3.description16}"
+				"{gto.tips.quests.1786BB8F04B92CB3.description17}"
+				"{@pagebreak}"
+				"{gto.tips.quests.1786BB8F04B92CB3.description18}"
+				"{gto.tips.quests.1786BB8F04B92CB3.description19}"
+				"{gto.tips.quests.1786BB8F04B92CB3.description20}"
+				"{gto.tips.quests.1786BB8F04B92CB3.description21}"
+				"{gto.tips.quests.1786BB8F04B92CB3.description22}"
+				"{gto.tips.quests.1786BB8F04B92CB3.description23}"
+				"{gto.tips.quests.1786BB8F04B92CB3.description24}"
+				"{gto.tips.quests.1786BB8F04B92CB3.description25}"
+				"{gto.tips.quests.1786BB8F04B92CB3.description26}"
+				"{gto.tips.quests.1786BB8F04B92CB3.description27}"
+				"{gto.tips.quests.1786BB8F04B92CB3.description28}"
+				"{gto.tips.quests.1786BB8F04B92CB3.description29}"
+				"{gto.tips.quests.1786BB8F04B92CB3.description30}"
 			]
-			icon: "minecraft:beef"
+			icon: {
+				Count: 1
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "ad_astra:astrodux"
+				}
+			}
 			id: "1786BB8F04B92CB3"
 			shape: "pentagon"
 			size: 1.5d
@@ -428,11 +466,13 @@
 				{
 					id: "356899C58B5FA0CD"
 					item: "gtocore:industrial_platform_deployment_tools"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "7CC6854B8C3833B9"
 					item: "gtocore:standard_industrial_components_small"
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -478,7 +518,9 @@
 				""
 				"{gto.tips.quests.14BCF41FB8DAD531.description1}"
 				""
-				"[\"\", {\"translate\": \"gto.tips.quests.14BCF41FB8DAD531.description2.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"open_url\", \"value\": \"https://discord.gg/PxruFSbtCn\"}, \"translate\": \"gto.tips.quests.14BCF41FB8DAD531.description2.rich_text1\"}]"
+				"{gto.tips.quests.14BCF41FB8DAD531.description2}"
+				""
+				"[\"\", {\"translate\": \"gto.tips.quests.14BCF41FB8DAD531.description3.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"open_url\", \"value\": \"https://discord.gg/PxruFSbtCn\"}, \"translate\": \"gto.tips.quests.14BCF41FB8DAD531.description3.rich_text1\"}]"
 			]
 			icon: "gtocore:max_integrated_control_core"
 			id: "14BCF41FB8DAD531"
@@ -887,12 +929,18 @@
 				"{gto.tips.quests.782023097C32871D.description2}"
 				""
 				"{gto.tips.quests.782023097C32871D.description3}"
+				"{@pagebreak}"
 				"{gto.tips.quests.782023097C32871D.description4}"
+				""
 				"{gto.tips.quests.782023097C32871D.description5}"
+				""
 				"{gto.tips.quests.782023097C32871D.description6}"
 				"{gto.tips.quests.782023097C32871D.description7}"
-				""
 				"{gto.tips.quests.782023097C32871D.description8}"
+				"{gto.tips.quests.782023097C32871D.description9}"
+				"{gto.tips.quests.782023097C32871D.description10}"
+				""
+				"{gto.tips.quests.782023097C32871D.description11}"
 			]
 			hide_until_deps_complete: true
 			icon: "gtocore:luv_power_amplifiers"
@@ -1388,6 +1436,8 @@
 				"{gto.tips.quests.6A32CEF6BE50FA89.description1}"
 				""
 				"{gto.tips.quests.6A32CEF6BE50FA89.description2}"
+				""
+				"{gto.tips.quests.6A32CEF6BE50FA89.description3}"
 			]
 			hide_dependency_lines: true
 			icon: "gtceu:assembly_line"
@@ -1409,6 +1459,8 @@
 				"{gto.tips.quests.2574E6B85ADAAB88.description0}"
 				""
 				"{gto.tips.quests.2574E6B85ADAAB88.description1}"
+				""
+				"{gto.tips.quests.2574E6B85ADAAB88.description2}"
 			]
 			icon: "solcarrot:food_book"
 			id: "2574E6B85ADAAB88"
@@ -1449,34 +1501,9 @@
 					id: "0F1FFD8C69AD34AA"
 					item: {
 						Count: 1
-						id: "itemfilters:or"
+						id: "itemfilters:tag"
 						tag: {
-							items: [
-								{
-									Count: 1b
-									id: "gtceu:face_mask"
-								}
-								{
-									Count: 1b
-									id: "gtceu:rubber_gloves"
-								}
-								{
-									Count: 1b
-									id: "gtceu:hazmat_headpiece"
-								}
-								{
-									Count: 1b
-									id: "gtceu:hazmat_chestpiece"
-								}
-								{
-									Count: 1b
-									id: "gtceu:hazmat_leggings"
-								}
-								{
-									Count: 1b
-									id: "gtceu:hazmat_boots"
-								}
-							]
+							value: "gtceu:ppe_armor"
 						}
 					}
 					optional_task: true
@@ -1736,6 +1763,18 @@
 			description: ["{gto.tips.quests.511995F72672A515.description0}"]
 			hide_dependency_lines: true
 			id: "511995F72672A515"
+			rewards: [
+				{
+					id: "05805C50C779BAB1"
+					item: "easy_villagers:farmer"
+					type: "item"
+				}
+				{
+					id: "2D5374DA7EFCD3B7"
+					item: "easy_villagers:trader"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "6EA590611B4A00A9"
 				item: "easy_villagers:iron_farm"
@@ -1745,8 +1784,14 @@
 			y: 4.5d
 		}
 		{
-			description: ["{gto.tips.quests.21EA1E3550BC1067.description0}"]
-			hide_dependency_lines: true
+			dependencies: ["30D4CC9142D59DBD"]
+			description: [
+				"{gto.tips.quests.21EA1E3550BC1067.description0}"
+				""
+				"{gto.tips.quests.21EA1E3550BC1067.description1}"
+				""
+				"{gto.tips.quests.21EA1E3550BC1067.description2}"
+			]
 			id: "21EA1E3550BC1067"
 			rewards: [{
 				id: "3CE7814F88BCCAC4"
@@ -1795,12 +1840,14 @@
 		{
 			description: ["{gto.tips.quests.067AC6B5D8167A97.description0}"]
 			id: "067AC6B5D8167A97"
+			shape: "hexagon"
+			size: 1.0d
 			tasks: [{
 				id: "3BCF2AF3C340AF24"
 				title: "{gto.tips.quests.067AC6B5D8167A97.tasks.3BCF2AF3C340AF24.title}"
 				type: "checkmark"
 			}]
-			x: -3.75d
+			x: -5.25d
 			y: 4.5d
 		}
 		{
@@ -1868,7 +1915,11 @@
 			y: 6.0d
 		}
 		{
-			description: ["{gto.tips.quests.466185D2D791EC6D.description0}"]
+			description: [
+				"{gto.tips.quests.466185D2D791EC6D.description0}"
+				""
+				"{gto.tips.quests.466185D2D791EC6D.description1}"
+			]
 			id: "466185D2D791EC6D"
 			tasks: [{
 				id: "0692ADD68322C2E3"
@@ -1900,6 +1951,37 @@
 			]
 			x: -3.75d
 			y: 6.0d
+		}
+		{
+			description: ["{gto.tips.quests.5511502A8AECF505.description0}"]
+			id: "5511502A8AECF505"
+			rewards: [{
+				id: "772EFE95629C2542"
+				item: "ae2:meteorite_compass"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "550FDAA82D6436D6"
+					item: {
+						Count: 1
+						id: "explorerscompass:explorerscompass"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "7D725642DECF3F4C"
+					item: {
+						Count: 1
+						id: "naturescompass:naturescompass"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: -3.75d
+			y: 4.5d
 		}
 	]
 	subtitle: ["{gto.tips.subtitle0}"]

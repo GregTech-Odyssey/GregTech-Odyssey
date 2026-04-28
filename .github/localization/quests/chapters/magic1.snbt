@@ -7,6 +7,32 @@
 	hide_quest_until_deps_visible: true
 	icon: "gtocore:colorful_mystical_flower"
 	id: "1883B79BDB2AAE5D"
+	images: [
+		{
+			height: 0.5d
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 0.0d
+			width: 0.5d
+			x: 14.0d
+			y: -5.0d
+		}
+		{
+			height: 1.0d
+			image: "xtonesreworked:block/bitt/4"
+			rotation: 45.0d
+			width: 1.0d
+			x: 19.5d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "xtonesreworked:block/bitt/4"
+			rotation: 45.0d
+			width: 1.0d
+			x: 19.5d
+			y: 1.5d
+		}
+	]
 	order_index: 1
 	progression_mode: "flexible"
 	quest_links: [{
@@ -3554,10 +3580,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: [
-				"3D862A3D3F83CA26"
-				"5F5B9F256A751484"
-			]
+			dependencies: ["3D862A3D3F83CA26"]
 			dependency_requirement: "one_completed"
 			description: ["{gto.magic1.quests.5D49D4B0C5EA1F81.description0}"]
 			id: "5D49D4B0C5EA1F81"
@@ -4384,18 +4407,27 @@
 		}
 		{
 			dependencies: ["5FB36C788008C907"]
+			icon: "gtocore:wilden_essence_bucket"
 			id: "4CD0D7F570CCE809"
-			tasks: [{
-				id: "08C244239FBF63CA"
-				item: "gtocore:wilden_essence_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "08C244239FBF63CA"
+					item: "gtocore:wilden_essence_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "745FFEDFDDE08EF1"
+					type: "checkmark"
+				}
+			]
 			title: "{gto.magic1.quests.4CD0D7F570CCE809.title}"
 			x: 15.5d
 			y: 5.5d
 		}
 		{
 			dependencies: ["502826CBF91585C1"]
+			description: ["[\"\", {\"translate\": \"gto.magic1.quests.3100458952FC0673.description0.rich_text0\"}, {\"underlined\": \"True\", \"color\": \"yellow\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"4331EEF3BA9799FD\"}, \"translate\": \"gto.magic1.quests.3100458952FC0673.description0.rich_text1\"}, {\"translate\": \"gto.magic1.quests.3100458952FC0673.description0.rich_text2\"}]"]
 			id: "3100458952FC0673"
 			subtitle: "{gto.magic1.quests.3100458952FC0673.subtitle}"
 			tasks: [{
@@ -4425,6 +4457,8 @@
 				"{gto.magic1.quests.502826CBF91585C1.description13}"
 				"{gto.magic1.quests.502826CBF91585C1.description14}"
 				"{gto.magic1.quests.502826CBF91585C1.description15}"
+				""
+				"{gto.magic1.quests.502826CBF91585C1.description16}"
 			]
 			id: "502826CBF91585C1"
 			min_width: 250
@@ -4552,6 +4586,7 @@
 						]
 					}
 				}
+				title: "{gto.magic1.quests.502826CBF91585C1.tasks.34780BF2AE9956AA.title}"
 				type: "item"
 			}]
 			title: "{gto.magic1.quests.502826CBF91585C1.title}"
