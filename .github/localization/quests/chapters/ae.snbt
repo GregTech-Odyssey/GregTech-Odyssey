@@ -2237,6 +2237,19 @@
 			hide_dependent_lines: true
 			id: "43974ABFAE99587B"
 			min_required_dependencies: 2
+			rewards: [
+				{
+					id: "0049779380092B5E"
+					item: "ae2:pattern_provider"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "75C1BF0D29E278AD"
+					item: "ae2:fluix_glass_cable"
+					type: "item"
+				}
+			]
 			subtitle: "{gto.ae.quests.43974ABFAE99587B.subtitle}"
 			tasks: [{
 				id: "7A86F105A3662E4F"
@@ -3259,6 +3272,11 @@
 			hide_dependency_lines: true
 			id: "2F42DE3FEC2C35F9"
 			min_required_dependencies: 2
+			rewards: [{
+				id: "54FA657D95191880"
+				item: "ae2:crafting_unit"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2E3E0866967015F4"
 				item: "ae2:crafting_unit"
@@ -4366,6 +4384,20 @@
 				"{gto.ae.quests.5F96077A62E88635.description1}"
 			]
 			id: "5F96077A62E88635"
+			rewards: [
+				{
+					count: 4
+					id: "2513F29A990E04C4"
+					item: "ae2:blank_pattern"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "133C97DC429EB2B6"
+					item: "ae2:fluix_glass_cable"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "0A1291D6E22A2282"
 				item: "ae2:blank_pattern"

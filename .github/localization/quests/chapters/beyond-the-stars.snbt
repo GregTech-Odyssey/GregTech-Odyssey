@@ -165,14 +165,14 @@
 				""
 				"{gto.beyond-the-stars.quests.38A6F2FA481A85E5.description4}"
 			]
+			icon: "ad_astra:nasa_workbench"
 			id: "38A6F2FA481A85E5"
 			shape: "gear"
 			size: 3.0d
 			subtitle: "{gto.beyond-the-stars.quests.38A6F2FA481A85E5.subtitle}"
 			tasks: [{
-				id: "2557FB35308E5251"
-				item: "ad_astra:nasa_workbench"
-				type: "item"
+				id: "3F7D2D3991A85DAC"
+				type: "checkmark"
 			}]
 			title: "{gto.beyond-the-stars.quests.38A6F2FA481A85E5.title}"
 			x: -4.5d
@@ -188,6 +188,7 @@
 				""
 				"{gto.beyond-the-stars.quests.2C986BC7ECC4E1ED.description1}"
 			]
+			disable_toast: true
 			id: "2C986BC7ECC4E1ED"
 			shape: "gear"
 			size: 2.0d
@@ -212,6 +213,7 @@
 				""
 				"{gto.beyond-the-stars.quests.204F134A09B60140.description5}"
 			]
+			disable_toast: true
 			id: "204F134A09B60140"
 			subtitle: "{gto.beyond-the-stars.quests.204F134A09B60140.subtitle}"
 			tasks: [{
@@ -322,6 +324,7 @@
 				""
 				"{gto.beyond-the-stars.quests.15D4145A9704592D.description2}"
 			]
+			disable_toast: true
 			id: "15D4145A9704592D"
 			tasks: [{
 				id: "5BFF34DC9FEC7384"
@@ -342,6 +345,7 @@
 				""
 				"{gto.beyond-the-stars.quests.67D7CD83E40F6471.description3}"
 			]
+			disable_toast: true
 			id: "67D7CD83E40F6471"
 			tasks: [{
 				id: "77279C0E61724405"
@@ -632,6 +636,7 @@
 			y: -3.5d
 		}
 		{
+			dependencies: ["7A7DC6205DED9BF3"]
 			description: [
 				"{gto.beyond-the-stars.quests.7FE2763143958129.description0}"
 				""
@@ -696,6 +701,7 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["7A7DC6205DED9BF3"]
 			description: [
 				"{gto.beyond-the-stars.quests.1D57ED21E8AD1A26.description0}"
 				""
@@ -706,6 +712,11 @@
 				"{gto.beyond-the-stars.quests.1D57ED21E8AD1A26.description3}"
 			]
 			id: "1D57ED21E8AD1A26"
+			rewards: [{
+				id: "2DA51D5EB0D398A2"
+				item: "gtocore:organ_modifier"
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 2.0d
 			subtitle: "{gto.beyond-the-stars.quests.1D57ED21E8AD1A26.subtitle}"

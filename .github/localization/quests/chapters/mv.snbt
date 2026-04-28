@@ -342,6 +342,8 @@
 				"{gto.mv.quests.26484E626E859718.description0}"
 				""
 				"{gto.mv.quests.26484E626E859718.description1}"
+				""
+				"{gto.mv.quests.26484E626E859718.description2}"
 			]
 			id: "26484E626E859718"
 			rewards: [{
@@ -564,8 +566,6 @@
 				"{gto.mv.quests.0D63E5A54480E693.description5}"
 				""
 				"{gto.mv.quests.0D63E5A54480E693.description6}"
-				""
-				"{gto.mv.quests.0D63E5A54480E693.description7}"
 			]
 			hide_dependency_lines: true
 			icon: "gtocore:processing_plant"
@@ -724,11 +724,18 @@
 				"{gto.mv.quests.61A40570FE41BC2D.description0}"
 				""
 				"{gto.mv.quests.61A40570FE41BC2D.description1}"
+				""
+				"{gto.mv.quests.61A40570FE41BC2D.description2}"
+				""
+				"{gto.mv.quests.61A40570FE41BC2D.description3}"
+				""
+				"{gto.mv.quests.61A40570FE41BC2D.description4}"
+				""
+				"{gto.mv.quests.61A40570FE41BC2D.description5}"
 			]
 			id: "61A40570FE41BC2D"
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "{gto.mv.quests.61A40570FE41BC2D.subtitle}"
 			tasks: [
 				{
 					id: "78D4507856BEC002"
@@ -1406,7 +1413,6 @@
 				"056EC4E6FAF614B7"
 				"49E5CC5873FA226F"
 			]
-			description: ["{gto.mv.quests.06AD4784071F6B2F.description0}"]
 			hide_until_deps_visible: true
 			icon: "gtceu:advanced_integrated_circuit"
 			id: "06AD4784071F6B2F"
@@ -1687,6 +1693,37 @@
 			title: "{gto.mv.quests.3B64850282F3FF1F.title}"
 			x: -5.0d
 			y: 4.5d
+		}
+		{
+			dependencies: ["3D1E66868544975F"]
+			description: [
+				"{gto.mv.quests.12A2E4A2905D84DE.description0}"
+				""
+				"{gto.mv.quests.12A2E4A2905D84DE.description1}"
+				""
+				"{gto.mv.quests.12A2E4A2905D84DE.description2}"
+				""
+				"{gto.mv.quests.12A2E4A2905D84DE.description3}"
+			]
+			hide_dependency_lines: true
+			icon: "gtceu:diorite_dust"
+			id: "12A2E4A2905D84DE"
+			shape: "pentagon"
+			size: 1.2d
+			tasks: [
+				{
+					id: "5883201F902B045F"
+					type: "checkmark"
+				}
+				{
+					id: "1DFDEA2D9BB94043"
+					item: "gtceu:diorite_dust"
+					type: "item"
+				}
+			]
+			title: "{gto.mv.quests.12A2E4A2905D84DE.title}"
+			x: -10.0d
+			y: 7.5d
 		}
 	]
 	subtitle: ["{gto.mv.subtitle0}"]

@@ -13,8 +13,8 @@
 			image: "ftbquests:textures/shapes/pentagon/outline.png"
 			rotation: 0.0d
 			width: 1.75d
-			x: 3.5d
-			y: 11.0d
+			x: -3.0d
+			y: 8.0d
 		}
 		{
 			height: 1.25d
@@ -66,7 +66,7 @@
 		{
 			id: "40804656354C8F30"
 			linked_quest: "21EA1E3550BC1067"
-			x: 13.0d
+			x: 11.0d
 			y: 8.0d
 		}
 	]
@@ -424,8 +424,6 @@
 				"{gto.main-stoneage.quests.4DC482C16035F261.description1}"
 				""
 				"[\"\", {\"translate\": \"gto.main-stoneage.quests.4DC482C16035F261.description2.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"1CE34BD4900990C6\"}, \"translate\": \"gto.main-stoneage.quests.4DC482C16035F261.description2.rich_text1\"}, {\"translate\": \"gto.main-stoneage.quests.4DC482C16035F261.description2.rich_text2\"}]"
-				""
-				"{gto.main-stoneage.quests.4DC482C16035F261.description3}"
 			]
 			icon: "sophisticatedbackpacks:backpack"
 			id: "4DC482C16035F261"
@@ -471,9 +469,9 @@
 			]
 			icon: {
 				Count: 1
-				id: "minecraft:stone_pickaxe"
+				id: "gtocore:prospector.mana_ulv"
 				tag: {
-					Damage: 0
+					mana: 500000
 				}
 			}
 			id: "2403CDCD080D34B1"
@@ -501,57 +499,6 @@
 			title: "{gto.main-stoneage.quests.2403CDCD080D34B1.title}"
 			x: 5.0d
 			y: -2.0d
-		}
-		{
-			dependencies: ["30D4CC9142D59DBD"]
-			description: [
-				"{gto.main-stoneage.quests.664BDC18052B54FC.description0}"
-				""
-				"{gto.main-stoneage.quests.664BDC18052B54FC.description1}"
-				""
-				"[\"\", {\"translate\": \"gto.main-stoneage.quests.664BDC18052B54FC.description2.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"0C0A2C3CC7BE0749\"}, \"translate\": \"gto.main-stoneage.quests.664BDC18052B54FC.description2.rich_text1\"}]"
-			]
-			hide_dependency_lines: true
-			icon: "minecraft:clay_ball"
-			id: "664BDC18052B54FC"
-			rewards: [
-				{
-					count: 64
-					id: "3F0876A57E3A4664"
-					item: "minecraft:clay"
-					type: "item"
-				}
-				{
-					id: "09448634A78D9845"
-					item: "gtocore:copper_coin"
-					type: "item"
-				}
-			]
-			subtitle: "{gto.main-stoneage.quests.664BDC18052B54FC.subtitle}"
-			tasks: [
-				{
-					count: 64L
-					id: "677A831E0B32880F"
-					item: "minecraft:clay_ball"
-					type: "item"
-				}
-				{
-					icon: "minecraft:sand"
-					id: "273B6A72B93BFB2C"
-					item: {
-						Count: 1
-						id: "itemfilters:tag"
-						tag: {
-							value: "forge:sand"
-						}
-					}
-					title: "{gto.main-stoneage.quests.664BDC18052B54FC.tasks.273B6A72B93BFB2C.title}"
-					type: "item"
-				}
-			]
-			title: "{gto.main-stoneage.quests.664BDC18052B54FC.title}"
-			x: 9.0d
-			y: 8.0d
 		}
 		{
 			dependencies: ["561D79DE960A034D"]
@@ -621,56 +568,6 @@
 			title: "{gto.main-stoneage.quests.45C8A2DF9C0E5473.title}"
 			x: 11.0d
 			y: 0.0d
-		}
-		{
-			dependencies: ["39A6C5524A2490C5"]
-			description: [
-				"{gto.main-stoneage.quests.10C397237163BFFC.description0}"
-				""
-				"{gto.main-stoneage.quests.10C397237163BFFC.description1}"
-				""
-				"{gto.main-stoneage.quests.10C397237163BFFC.description2}"
-				""
-				"[\"\", {\"translate\": \"gto.main-stoneage.quests.10C397237163BFFC.description3.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"07C8D75D90114580\"}, \"translate\": \"gto.main-stoneage.quests.10C397237163BFFC.description3.rich_text1\"}, {\"translate\": \"gto.main-stoneage.quests.10C397237163BFFC.description3.rich_text2\"}]"
-				""
-				"{gto.main-stoneage.quests.10C397237163BFFC.description4}"
-			]
-			icon: "gtceu:coke_oven"
-			id: "10C397237163BFFC"
-			rewards: [
-				{
-					count: 2
-					id: "4CAB4AB4963A08F9"
-					item: "gtceu:wood_drum"
-					team_reward: false
-					type: "item"
-				}
-				{
-					count: 16
-					id: "09E70832F1FEE647"
-					item: "gtocore:copper_coin"
-					type: "item"
-				}
-			]
-			shape: "hexagon"
-			size: 2.0d
-			subtitle: "{gto.main-stoneage.quests.10C397237163BFFC.subtitle}"
-			tasks: [
-				{
-					id: "0B82C2B805642447"
-					item: "gtceu:coke_oven"
-					type: "item"
-				}
-				{
-					count: 25L
-					id: "738C2A549009E615"
-					item: "gtceu:coke_oven_bricks"
-					type: "item"
-				}
-			]
-			title: "{gto.main-stoneage.quests.10C397237163BFFC.title}"
-			x: 6.5d
-			y: 10.0d
 		}
 		{
 			dependencies: ["45C8A2DF9C0E5473"]
@@ -1557,6 +1454,8 @@
 				"{gto.main-stoneage.quests.2E05753AF03C5608.description0}"
 				""
 				"{gto.main-stoneage.quests.2E05753AF03C5608.description1}"
+				""
+				"{gto.main-stoneage.quests.2E05753AF03C5608.description2}"
 			]
 			hide_dependency_lines: false
 			id: "2E05753AF03C5608"
@@ -1691,52 +1590,6 @@
 			}]
 			x: 1.5d
 			y: 0.0d
-		}
-		{
-			dependencies: ["6D4B71E543059C19"]
-			description: ["{gto.main-stoneage.quests.39A6C5524A2490C5.description0}"]
-			id: "39A6C5524A2490C5"
-			rewards: [{
-				id: "2E3290F368E29335"
-				item: "gtocore:copper_coin"
-				type: "item"
-			}]
-			subtitle: "{gto.main-stoneage.quests.39A6C5524A2490C5.subtitle}"
-			tasks: [{
-				consume_items: false
-				id: "4A7356E1096054EF"
-				item: "gtceu:coke_oven_brick"
-				type: "item"
-			}]
-			x: 9.0d
-			y: 10.0d
-		}
-		{
-			dependencies: [
-				"664BDC18052B54FC"
-				"4920255C0FDE6187"
-			]
-			description: [
-				"{gto.main-stoneage.quests.6D4B71E543059C19.description0}"
-				""
-				"{gto.main-stoneage.quests.6D4B71E543059C19.description1}"
-				""
-				"{gto.main-stoneage.quests.6D4B71E543059C19.description2}"
-			]
-			id: "6D4B71E543059C19"
-			rewards: [{
-				id: "2EF86F324481E26B"
-				item: "gtocore:copper_coin"
-				type: "item"
-			}]
-			subtitle: "{gto.main-stoneage.quests.6D4B71E543059C19.subtitle}"
-			tasks: [{
-				id: "24EA2D701E78667F"
-				item: "gtceu:compressed_coke_clay"
-				type: "item"
-			}]
-			x: 11.0d
-			y: 10.0d
 		}
 		{
 			dependencies: ["7D6FCF32575CB7DA"]
@@ -1903,73 +1756,6 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["30D4CC9142D59DBD"]
-			description: ["{gto.main-stoneage.quests.4920255C0FDE6187.description0}"]
-			id: "4920255C0FDE6187"
-			rewards: [{
-				id: "260460DB71687420"
-				item: "gtocore:copper_coin"
-				type: "item"
-			}]
-			subtitle: "{gto.main-stoneage.quests.4920255C0FDE6187.subtitle}"
-			tasks: [{
-				id: "3D98DFA0F224B508"
-				item: "gtceu:brick_wooden_form"
-				type: "item"
-			}]
-			x: 11.0d
-			y: 8.0d
-		}
-		{
-			dependencies: ["10C397237163BFFC"]
-			description: [
-				"{gto.main-stoneage.quests.6BA5DA36E8163809.description0}"
-				""
-				"{gto.main-stoneage.quests.6BA5DA36E8163809.description1}"
-				""
-				"{gto.main-stoneage.quests.6BA5DA36E8163809.description2}"
-			]
-			id: "6BA5DA36E8163809"
-			rewards: [{
-				count: 8
-				id: "5AAD8C51892D560C"
-				item: "gtocore:copper_coin"
-				type: "item"
-			}]
-			shape: "diamond"
-			subtitle: "{gto.main-stoneage.quests.6BA5DA36E8163809.subtitle}"
-			tasks: [{
-				id: "54186B8884FF0220"
-				item: "gtceu:coke_oven_hatch"
-				type: "item"
-			}]
-			x: 6.5d
-			y: 12.0d
-		}
-		{
-			dependencies: ["67264EF0565CC030"]
-			description: [
-				"{gto.main-stoneage.quests.36ABEC62B0F6C71D.description0}"
-				""
-				"{gto.main-stoneage.quests.36ABEC62B0F6C71D.description1}"
-			]
-			id: "36ABEC62B0F6C71D"
-			rewards: [{
-				id: "70C0F724F8EF2B79"
-				item: "gtocore:copper_coin"
-				type: "item"
-			}]
-			subtitle: "{gto.main-stoneage.quests.36ABEC62B0F6C71D.subtitle}"
-			tasks: [{
-				id: "2BCFF0375CAE346E"
-				item: "ae2:condenser"
-				type: "item"
-			}]
-			title: "{gto.main-stoneage.quests.36ABEC62B0F6C71D.title}"
-			x: 13.0d
-			y: 4.0d
-		}
-		{
 			dependencies: ["561D79DE960A034D"]
 			description: ["{gto.main-stoneage.quests.3E80C257F74352D0.description0}"]
 			id: "3E80C257F74352D0"
@@ -2134,7 +1920,7 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["14A66BA5BC9DB220"]
+			dependencies: ["24C53B5FF515ACAC"]
 			description: [
 				"{gto.main-stoneage.quests.1BA9FA9358CBF2E7.description0}"
 				""
@@ -2164,8 +1950,8 @@
 				title: "{gto.main-stoneage.quests.1BA9FA9358CBF2E7.tasks.3BE63FE63D8503C7.title}"
 				type: "checkmark"
 			}]
-			x: 3.5d
-			y: 11.0d
+			x: -3.0d
+			y: 8.0d
 		}
 		{
 			dependencies: [
@@ -2375,6 +2161,36 @@
 			title: "{gto.main-stoneage.quests.0BBC0B63C2FB2486.title}"
 			x: -1.5d
 			y: 1.5d
+		}
+		{
+			dependencies: ["67264EF0565CC030"]
+			description: [
+				"{gto.main-stoneage.quests.36ABEC62B0F6C71D.description0}"
+				""
+				"{gto.main-stoneage.quests.36ABEC62B0F6C71D.description1}"
+			]
+			icon: "ae2:condenser"
+			id: "36ABEC62B0F6C71D"
+			rewards: [
+				{
+					id: "1863813E5B745256"
+					item: "ae2:condenser"
+					type: "item"
+				}
+				{
+					id: "70C0F724F8EF2B79"
+					item: "gtocore:copper_coin"
+					type: "item"
+				}
+			]
+			subtitle: "{gto.main-stoneage.quests.36ABEC62B0F6C71D.subtitle}"
+			tasks: [{
+				id: "25AA8859F1282B4E"
+				type: "checkmark"
+			}]
+			title: "{gto.main-stoneage.quests.36ABEC62B0F6C71D.title}"
+			x: 13.0d
+			y: 4.0d
 		}
 	]
 	subtitle: ["{gto.main-stoneage.subtitle0}"]

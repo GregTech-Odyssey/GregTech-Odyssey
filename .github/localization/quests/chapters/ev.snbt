@@ -748,6 +748,7 @@
 		}
 		{
 			dependencies: ["04C8A65088BA2229"]
+			hide_dependent_lines: true
 			icon: "gtceu:radon_bucket"
 			id: "038C1E186FAF47D6"
 			tasks: [

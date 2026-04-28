@@ -27,7 +27,12 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["3FF20BED9516EBD2"]
+			dependencies: [
+				"3FF20BED9516EBD2"
+				"0C6B3C56798944FB"
+			]
+			dependency_requirement: "one_completed"
+			hide_dependency_lines: true
 			id: "52DBA834CE27B527"
 			size: 2.0d
 			tasks: [{

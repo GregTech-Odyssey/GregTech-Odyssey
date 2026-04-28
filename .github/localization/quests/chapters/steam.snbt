@@ -138,8 +138,8 @@
 			id: "03CBC6BC46EA333F"
 			linked_quest: "7EA226054696AA3F"
 			shape: "diamond"
-			x: -3.5d
-			y: 2.5d
+			x: 4.0d
+			y: 1.0d
 		}
 		{
 			id: "447496A1C3D6E5C4"
@@ -507,8 +507,8 @@
 				type: "item"
 			}]
 			title: "{gto.steam.quests.3841BCAE03DB0E94.title}"
-			x: 2.0d
-			y: 2.5d
+			x: 2.047619047619044d
+			y: 2.488095238095248d
 		}
 		{
 			dependencies: ["32A39A427D4A3AC2"]
@@ -904,6 +904,8 @@
 				"{gto.steam.quests.53109F7472C0B443.description0}"
 				""
 				"{gto.steam.quests.53109F7472C0B443.description1}"
+				""
+				"{gto.steam.quests.53109F7472C0B443.description2}"
 			]
 			id: "53109F7472C0B443"
 			rewards: [{
@@ -1048,10 +1050,7 @@
 			y: 4.5d
 		}
 		{
-			dependencies: [
-				"2D630430259F9131"
-				"24C53B5FF515ACAC"
-			]
+			dependencies: ["2D630430259F9131"]
 			description: [
 				"{gto.steam.quests.31BB738542229A88.description0}"
 				""
@@ -1080,8 +1079,8 @@
 				type: "checkmark"
 			}]
 			title: "{gto.steam.quests.31BB738542229A88.title}"
-			x: -9.0d
-			y: 1.0d
+			x: -1.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["31BB738542229A88"]
@@ -1105,8 +1104,8 @@
 				title: "{gto.steam.quests.7BCD49717F8FAD65.tasks.512FC1623520AB38.title}"
 				type: "checkmark"
 			}]
-			x: -6.5d
-			y: 1.0d
+			x: 1.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["7BE51B4BC36F8B7B"]
@@ -1180,7 +1179,7 @@
 				type: "item"
 			}]
 			title: "{gto.steam.quests.55AAF11E1101F10F.title}"
-			x: 4.5d
+			x: 4.0d
 			y: 4.5d
 		}
 		{
@@ -1265,8 +1264,8 @@
 				}
 			]
 			title: "{gto.steam.quests.5859702A2DF96727.title}"
-			x: -6.5d
-			y: -0.5d
+			x: 1.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["17408BBD93A18AEC"]
@@ -1591,8 +1590,8 @@
 				type: "item"
 			}]
 			title: "{gto.steam.quests.72F99B3B63217418.title}"
-			x: -6.5d
-			y: 2.5d
+			x: 1.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["7BCD49717F8FAD65"]
@@ -1605,8 +1604,8 @@
 				item: "gtceu:hp_steam_solar_boiler"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 2.5d
+			x: 2.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["7BCD49717F8FAD65"]
@@ -1623,8 +1622,8 @@
 				item: "gtceu:lp_steam_liquid_boiler"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 1.0d
+			x: 2.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["7BCD49717F8FAD65"]
@@ -1638,8 +1637,8 @@
 				item: "gtceu:hp_steam_liquid_boiler"
 				type: "item"
 			}]
-			x: -3.5d
-			y: 1.0d
+			x: 4.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["7BCD49717F8FAD65"]
@@ -1651,8 +1650,8 @@
 				item: "gtceu:bronze_large_boiler"
 				type: "item"
 			}]
-			x: -3.5d
-			y: -0.5d
+			x: 4.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["7BCD49717F8FAD65"]
@@ -1670,8 +1669,8 @@
 				type: "item"
 			}]
 			title: "{gto.steam.quests.77C71C9A52ADF6A6.title}"
-			x: -5.0d
-			y: -0.5d
+			x: 2.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["0019A5EEEE514539"]
@@ -1976,6 +1975,12 @@
 			]
 			icon: "gtceu:primitive_pump"
 			id: "2D630430259F9131"
+			rewards: [{
+				count: 8
+				id: "2A842549247F800B"
+				item: "gtocore:copper_coin"
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 1.5d
 			subtitle: "{gto.steam.quests.2D630430259F9131.subtitle}"
@@ -2004,8 +2009,8 @@
 				}
 			]
 			title: "{gto.steam.quests.2D630430259F9131.title}"
-			x: -9.0d
-			y: -0.75d
+			x: -1.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -2150,8 +2155,8 @@
 				item: "pipez:item_pipe"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 0.0d
+			x: -7.5d
+			y: 9.75d
 		}
 		{
 			dependencies: ["24C53B5FF515ACAC"]
@@ -2172,8 +2177,8 @@
 				item: "pipez:fluid_pipe"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 2.0d
+			x: -10.5d
+			y: 9.75d
 		}
 		{
 			dependencies: ["24C53B5FF515ACAC"]
@@ -2203,8 +2208,8 @@
 				type: "checkmark"
 			}]
 			title: "{gto.steam.quests.4673E95F6374C7AC.title}"
-			x: 2.0d
-			y: 0.0d
+			x: -9.0d
+			y: 11.25d
 		}
 		{
 			dependencies: ["21D331D7F4F8862C"]
@@ -2249,6 +2254,204 @@
 			}]
 			x: 5.5d
 			y: 9.5d
+		}
+		{
+			dependencies: ["39A6C5524A2490C5"]
+			description: [
+				"{gto.steam.quests.10C397237163BFFC.description0}"
+				""
+				"{gto.steam.quests.10C397237163BFFC.description1}"
+				""
+				"{gto.steam.quests.10C397237163BFFC.description2}"
+				""
+				"[\"\", {\"translate\": \"gto.steam.quests.10C397237163BFFC.description3.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"07C8D75D90114580\"}, \"translate\": \"gto.steam.quests.10C397237163BFFC.description3.rich_text1\"}, {\"translate\": \"gto.steam.quests.10C397237163BFFC.description3.rich_text2\"}]"
+				""
+				"{gto.steam.quests.10C397237163BFFC.description4}"
+			]
+			icon: "gtceu:coke_oven"
+			id: "10C397237163BFFC"
+			rewards: [
+				{
+					count: 2
+					id: "4CAB4AB4963A08F9"
+					item: "gtceu:wood_drum"
+					team_reward: false
+					type: "item"
+				}
+				{
+					count: 16
+					id: "09E70832F1FEE647"
+					item: "gtocore:copper_coin"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "{gto.steam.quests.10C397237163BFFC.subtitle}"
+			tasks: [
+				{
+					id: "0B82C2B805642447"
+					item: "gtceu:coke_oven"
+					type: "item"
+				}
+				{
+					count: 25L
+					id: "738C2A549009E615"
+					item: "gtceu:coke_oven_bricks"
+					type: "item"
+				}
+			]
+			title: "{gto.steam.quests.10C397237163BFFC.title}"
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["10C397237163BFFC"]
+			description: [
+				"{gto.steam.quests.6BA5DA36E8163809.description0}"
+				""
+				"{gto.steam.quests.6BA5DA36E8163809.description1}"
+				""
+				"{gto.steam.quests.6BA5DA36E8163809.description2}"
+			]
+			id: "6BA5DA36E8163809"
+			rewards: [{
+				count: 8
+				id: "5AAD8C51892D560C"
+				item: "gtocore:copper_coin"
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "{gto.steam.quests.6BA5DA36E8163809.subtitle}"
+			tasks: [{
+				id: "54186B8884FF0220"
+				item: "gtceu:coke_oven_hatch"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6D4B71E543059C19"
+				"05F4015974079225"
+				"664BDC18052B54FC"
+			]
+			dependency_requirement: "one_completed"
+			description: ["{gto.steam.quests.39A6C5524A2490C5.description0}"]
+			id: "39A6C5524A2490C5"
+			min_required_dependencies: 2
+			rewards: [{
+				id: "2E3290F368E29335"
+				item: "gtocore:copper_coin"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.2d
+			subtitle: "{gto.steam.quests.39A6C5524A2490C5.subtitle}"
+			tasks: [{
+				consume_items: false
+				id: "4A7356E1096054EF"
+				item: "gtceu:coke_oven_brick"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["30D4CC9142D59DBD"]
+			description: [
+				"{gto.steam.quests.664BDC18052B54FC.description0}"
+				""
+				"{gto.steam.quests.664BDC18052B54FC.description1}"
+				""
+				"[\"\", {\"translate\": \"gto.steam.quests.664BDC18052B54FC.description2.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"0C0A2C3CC7BE0749\"}, \"translate\": \"gto.steam.quests.664BDC18052B54FC.description2.rich_text1\"}]"
+			]
+			hide_dependency_lines: true
+			icon: "minecraft:clay_ball"
+			id: "664BDC18052B54FC"
+			rewards: [
+				{
+					count: 64
+					id: "3F0876A57E3A4664"
+					item: "minecraft:clay"
+					type: "item"
+				}
+				{
+					id: "09448634A78D9845"
+					item: "gtocore:copper_coin"
+					type: "item"
+				}
+			]
+			subtitle: "{gto.steam.quests.664BDC18052B54FC.subtitle}"
+			tasks: [
+				{
+					count: 64L
+					id: "677A831E0B32880F"
+					item: "minecraft:clay_ball"
+					type: "item"
+				}
+				{
+					icon: "minecraft:sand"
+					id: "273B6A72B93BFB2C"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:sand"
+						}
+					}
+					title: "{gto.steam.quests.664BDC18052B54FC.tasks.273B6A72B93BFB2C.title}"
+					type: "item"
+				}
+			]
+			title: "{gto.steam.quests.664BDC18052B54FC.title}"
+			x: -8.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4920255C0FDE6187"]
+			description: [
+				"{gto.steam.quests.6D4B71E543059C19.description0}"
+				""
+				"{gto.steam.quests.6D4B71E543059C19.description1}"
+				""
+				"{gto.steam.quests.6D4B71E543059C19.description2}"
+				""
+				"{gto.steam.quests.6D4B71E543059C19.description3}"
+			]
+			id: "6D4B71E543059C19"
+			rewards: [{
+				id: "2EF86F324481E26B"
+				item: "gtocore:copper_coin"
+				type: "item"
+			}]
+			subtitle: "{gto.steam.quests.6D4B71E543059C19.subtitle}"
+			tasks: [{
+				id: "24EA2D701E78667F"
+				item: "gtceu:compressed_coke_clay"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["30D4CC9142D59DBD"]
+			description: ["{gto.steam.quests.4920255C0FDE6187.description0}"]
+			id: "4920255C0FDE6187"
+			rewards: [{
+				id: "260460DB71687420"
+				item: "gtocore:copper_coin"
+				type: "item"
+			}]
+			subtitle: "{gto.steam.quests.4920255C0FDE6187.subtitle}"
+			tasks: [{
+				id: "3D98DFA0F224B508"
+				item: "gtceu:brick_wooden_form"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 0.0d
 		}
 	]
 	subtitle: ["{gto.steam.subtitle0}"]
