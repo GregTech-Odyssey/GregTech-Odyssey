@@ -19,17 +19,19 @@ Visit the website to view [How to Play](https://gtodyssey.com/en-us/start)
 
 ## Introduction
 
-Visit our website to view [Home](https://gtodyssey.com/en-us/home)
+Visit our website to view [Home](https://gtodyssey.com/en-us/)
 
 GregTech-Odyssey is a fully optimized tech-oriented GT modpack designed to offer players a diverse and challenging experience based on GregTech Modern. Here's Costom mechanical machines, varaity of useful functional hatches to ultimately boost your machines, magic mods such as Botania, which providing a balanced blend of technology and magic, and also implemented additional blocking modes for ME Pattern Providers, cross-recipe parallelism, and multithreading optimization, give players a comfortable and smooth gaming experience in the late game.
 
 ## License
 
-- All content in this series is prohibited for commercial use.
-- This modpack is licensed under [Attribution-NonCommercial-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-nc-sa/4.0/).
-- The [core mod code](https://github.com/GregTech-Odyssey/GTOCore) (`src/main/java/` portion) is licensed under the [GNU GENERAL PUBLIC LICENSE Version 3](https://www.gnu.org/licenses/gpl-3.0.html).
-- Rights to quests (texts) are reserved. Unauthorized use is prohibited.
-- All our original textures follow CC BY-NC-SA 4.0 license
+- This project is released primarily for non-commercial use. Unless otherwise specified, most contents of the project (including the modpack structure, original assets, and texts) may not be used for commercial purposes.
+- The modpack as a whole is licensed under [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+- The [core mod code](https://github.com/GregTech-Odyssey/GTOCore) (original code under the `src/main/java/` of GTOCore) is licensed under [GNU General Public License v3.0 (GPLv3)](https://www.gnu.org/licenses/gpl-3.0.html).
+- Quest texts are All Rights Reserved by default. Any unauthorized use is prohibited. For content with clearly indicated sources, copyright remains with their respective original authors and is subject to their respective original licenses.
+- The [community-contributed localization repository](https://github.com/GregTech-Odyssey/GTO-Translations) is licensed under CC BY-NC-SA 4.0.
+- Original texture assets in this project are licensed under CC BY-NC-SA 4.0.
+- GTOCore incorporates code and assets from other mods. The copyright of such content remains with their respective original authors and is subject to their respective original licenses. In case of any conflict between those licenses and other parts of this project, the original licenses shall prevail. See details in: [THIRD_PARTY_LICENSES.md](THIRD_PARTY_LICENSES.md).
 
 ## Usage
 

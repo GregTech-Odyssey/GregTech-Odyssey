@@ -1,12 +1,13 @@
 name = "Tool Belt"
-filename = "ToolBelt-1.20.1-1.20.02.jar"
+filename = "ToolBelt-1.20.1-1.20.03.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "3e4e2d2e3ee9486de4c6b64bcf8f25d87d55fc92"
-url = "https://edge.forgecdn.net/files/5929/061/ToolBelt-1.20.1-1.20.02.jar"
+hash = "486038e2b0e075c48f325a7665ad0f3149f7632c"
+mode = "metadata:curseforge"
 
+[update]
 [update.curseforge]
-file-id = 5929061
+file-id = 7906260
 project-id = 260262
