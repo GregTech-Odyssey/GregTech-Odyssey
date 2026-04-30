@@ -38,7 +38,59 @@ jobs:
         purge-created: 0
         purge-last-accessed: 0
         purge-primary-key: always
-    - run: nix build .#curseforge -o curseforge
+    - name: Build CurseForge export
+      run: |
+        nix build .#curseforge -o curseforge
+        mkdir curseforge-upload
+        cp "$(ls curseforge/*.zip | head -n 1)" "curseforge-upload/$(basename "$(ls curseforge/*.zip | head -n 1)" .zip)-all-locales.zip"
+        chmod u+w curseforge-upload/*.zip
+    - name: Inject latest translation into CurseForge export
+      env:
+        GH_TOKEN: ${{ github.token }}
+      run: |
+        PACK_VERSION="$(sed -n 's/^version = \"\([^\"]*\)\"$/\1/p' pack.toml)"
+        PACK_CORE_VERSION="$(printf '%s' "$PACK_VERSION" | grep -oE '[0-9]+\.[0-9]+\.[0-9]+' | head -n 1 || true)"
+        CURSEFORGE_ZIP="$(find curseforge-upload -maxdepth 1 -type f -name '*.zip' | head -n 1)"
+        RELEASE_JSON="$(gh api repos/GregTech-Odyssey/GTO-Translations/releases/latest)"
+        RELEASE_TAG="$(printf '%s' "$RELEASE_JSON" | jq -r '.tag_name')"
+        ASSET_NAME="$(printf '%s' "$RELEASE_JSON" | jq -r '.assets[] | select(.name | test("^gto-lang-all-locales-.*\\.zip$")) | .name' | head -n 1)"
+        Z_ASSET_NAME="z-$ASSET_NAME"
+        ASSET_URL="$(printf '%s' "$RELEASE_JSON" | jq -r '.assets[] | select(.name | test("^gto-lang-all-locales-.*\\.zip$")) | .browser_download_url' | head -n 1)"
+        RELEASE_CORE_VERSION="$(printf '%s %s' "$RELEASE_TAG" "$ASSET_NAME" | grep -oE '[0-9]+\.[0-9]+\.[0-9]+' | head -n 1 || true)"
+
+        if [ -z "$CURSEFORGE_ZIP" ]; then
+          echo "::warning::Could not find the built CurseForge export zip, skipping translation injection."
+          exit 0
+        fi
+
+        if [ -z "$PACK_CORE_VERSION" ]; then
+          echo "::warning::Could not extract a numeric GTO version from pack version '$PACK_VERSION', skipping translation injection."
+          exit 0
+        fi
+
+        if [ -z "$ASSET_NAME" ] || [ -z "$ASSET_URL" ]; then
+          echo "::warning::Latest translation release '$RELEASE_TAG' has no gto-lang-all-locales archive, skipping translation injection."
+          exit 0
+        fi
+
+        if [ "$PACK_CORE_VERSION" != "$RELEASE_CORE_VERSION" ]; then
+          echo "::warning::Translation version mismatch: pack '$PACK_VERSION' -> $PACK_CORE_VERSION, latest translation '$ASSET_NAME' -> ${RELEASE_CORE_VERSION:-unknown}. The translation archive will not be added to the CurseForge export."
+          exit 0
+        fi
+
+        TMP_DIR="$(mktemp -d)"
+        mkdir -p "$TMP_DIR/overrides/config/openloader/resources"
+        curl -L \
+          -H "Authorization: Bearer $GH_TOKEN" \
+          -H "Accept: application/octet-stream" \
+          -o "$TMP_DIR/overrides/config/openloader/resources/$Z_ASSET_NAME" \
+          "$ASSET_URL"
+        (
+          cd "$TMP_DIR" &&
+          zip -q "$GITHUB_WORKSPACE/$CURSEFORGE_ZIP" "overrides/config/openloader/resources/$Z_ASSET_NAME"
+        )
+        rm -rf "$TMP_DIR"
+        echo "Injected $Z_ASSET_NAME into $CURSEFORGE_ZIP."
     - name: Build Server Modpack
       run: |
         nix build .#modpack
@@ -64,8 +116,13 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: GregTech-Odyssey
+        path: ./curseforge/*.zip
+    - name: Upload artifacts
+      uses: actions/upload-artifact@v4
+      with:
+        name: GregTech-Odyssey-all-locale
         path: |
-          ./curseforge/**.zip
+          ./curseforge-upload/**.zip
     - name: Upload artifacts
       uses: actions/upload-artifact@v4
       with:
@@ -117,4 +174,4 @@ jobs:
           git push origin :$TAG_NAME || true 
       - name: Publish release
         run: |
-          gh release create $TAG_NAME $PRERELEASE --title "$SUBJECT" --target $GITHUB_SHA GregTech-Odyssey/* GregTech-Odyssey-server-mods/* GregTech-Odyssey-client-mods/* GregTech-Odyssey-server/* 
+          gh release create $TAG_NAME $PRERELEASE --title "$SUBJECT" --notes-file .github/release-notes.md --target $GITHUB_SHA GregTech-Odyssey/* GregTech-Odyssey-all-locale/* GregTech-Odyssey-server-mods/* GregTech-Odyssey-client-mods/* GregTech-Odyssey-server/* 
