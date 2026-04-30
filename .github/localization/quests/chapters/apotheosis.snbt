@@ -1541,10 +1541,14 @@
 				"42A4D1CE6C047992"
 				"6B1AEF55BB23CA53"
 				"6B4E1CD13BB19BE5"
-				"043E9E791712A441"
 				"17C114C2879A280E"
+				"651CA7BF775419A0"
 			]
-			description: ["{gto.apotheosis.quests.782E6E5239AA5283.description0}"]
+			description: [
+				"{gto.apotheosis.quests.782E6E5239AA5283.description0}"
+				""
+				"{gto.apotheosis.quests.782E6E5239AA5283.description1}"
+			]
 			id: "782E6E5239AA5283"
 			rewards: [{
 				id: "44B7ED30DC530344"

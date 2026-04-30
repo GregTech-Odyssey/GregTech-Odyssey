@@ -44,13 +44,6 @@
 	order_index: 3
 	quest_links: [
 		{
-			id: "111C9085726F8FA6"
-			linked_quest: "018F46EE6AE97EFD"
-			shape: "diamond"
-			x: -6.0d
-			y: 4.25d
-		}
-		{
 			id: "112AADE317BB4B64"
 			linked_quest: "3D1E66868544975F"
 			shape: "gear"
@@ -65,14 +58,24 @@
 			x: -4.5d
 			y: 4.25d
 		}
+		{
+			id: "726FB94A361C384B"
+			linked_quest: "6CC4173B5BF99920"
+			shape: "hexagon"
+			size: 1.5d
+			x: -12.0d
+			y: 3.0d
+		}
 	]
 	quests: [
 		{
 			dependencies: ["507807175748245C"]
 			description: [
 				"{gto.lv.quests.733C4A68EC2FA1ED.description0}"
+				""
 				"{gto.lv.quests.733C4A68EC2FA1ED.description1}"
 			]
+			hide_dependent_lines: true
 			id: "733C4A68EC2FA1ED"
 			subtitle: "{gto.lv.quests.733C4A68EC2FA1ED.subtitle}"
 			tasks: [{
@@ -221,7 +224,11 @@
 		}
 		{
 			dependencies: ["24DABF4CEA8A4C86"]
-			description: ["{gto.lv.quests.460804A73862A336.description0}"]
+			description: [
+				"{gto.lv.quests.460804A73862A336.description0}"
+				""
+				"{gto.lv.quests.460804A73862A336.description1}"
+			]
 			icon: "gtceu:tin_bucket"
 			id: "460804A73862A336"
 			subtitle: "{gto.lv.quests.460804A73862A336.subtitle}"
@@ -303,8 +310,6 @@
 				"{gto.lv.quests.2D899AFE07E20FEF.description1}"
 				""
 				"{gto.lv.quests.2D899AFE07E20FEF.description2}"
-				""
-				"{gto.lv.quests.2D899AFE07E20FEF.description3}"
 			]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
@@ -331,6 +336,8 @@
 				"{gto.lv.quests.06534664971F6E68.description0}"
 				""
 				"{gto.lv.quests.06534664971F6E68.description1}"
+				""
+				"{gto.lv.quests.06534664971F6E68.description2}"
 			]
 			icon: "gtceu:electric_blast_furnace"
 			id: "06534664971F6E68"
@@ -410,8 +417,6 @@
 				"{gto.lv.quests.68EFF1609132BDD4.description1}"
 				""
 				"{gto.lv.quests.68EFF1609132BDD4.description2}"
-				""
-				"{gto.lv.quests.68EFF1609132BDD4.description3}"
 			]
 			id: "68EFF1609132BDD4"
 			rewards: [{
@@ -454,6 +459,7 @@
 			dependencies: [
 				"5B8151CC61AAAE12"
 				"7A1442B2BADD8D46"
+				"374AAA39740AB6A7"
 			]
 			description: ["[\"\", {\"translate\": \"gto.lv.quests.2D5A5D2DE390665C.description0.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"0DF27446EE5DB28F\"}, \"translate\": \"gto.lv.quests.2D5A5D2DE390665C.description0.rich_text1\"}, {\"translate\": \"gto.lv.quests.2D5A5D2DE390665C.description0.rich_text2\"}]"]
 			id: "2D5A5D2DE390665C"
@@ -480,6 +486,7 @@
 				""
 				"{gto.lv.quests.7A1442B2BADD8D46.description1}"
 			]
+			hide_dependent_lines: true
 			icon: "gtceu:rubber_bucket"
 			id: "7A1442B2BADD8D46"
 			subtitle: "{gto.lv.quests.7A1442B2BADD8D46.subtitle}"
@@ -644,8 +651,9 @@
 				"{gto.lv.quests.12FEAB1A9AA1BCA6.description0}"
 				""
 				"{gto.lv.quests.12FEAB1A9AA1BCA6.description1}"
+				""
+				"{gto.lv.quests.12FEAB1A9AA1BCA6.description2}"
 			]
-			hide_dependency_lines: true
 			id: "12FEAB1A9AA1BCA6"
 			shape: "hexagon"
 			size: 1.5d
@@ -840,17 +848,21 @@
 				""
 				"{gto.lv.quests.23A116C4BAE96979.description1}"
 				""
-				"[\"\", {\"italic\": true, \"color\": \"gray\", \"translate\": \"gto.lv.quests.23A116C4BAE96979.description2.rich_text0\"}, {\"color\": \"gray\", \"italic\": true, \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"7F65A1C533ED1C3B\"}, \"translate\": \"gto.lv.quests.23A116C4BAE96979.description2.rich_text1\"}, {\"italic\": true, \"color\": \"gray\", \"translate\": \"gto.lv.quests.23A116C4BAE96979.description2.rich_text2\"}, {\"color\": \"gray\", \"italic\": true, \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"16047F3F79404251\"}, \"translate\": \"gto.lv.quests.23A116C4BAE96979.description2.rich_text3\"}, {\"italic\": true, \"color\": \"gray\", \"translate\": \"gto.lv.quests.23A116C4BAE96979.description2.rich_text4\"}]"
+				"{gto.lv.quests.23A116C4BAE96979.description2}"
 				""
-				"{gto.lv.quests.23A116C4BAE96979.description3}"
+				"[\"\", {\"italic\": true, \"color\": \"gray\", \"translate\": \"gto.lv.quests.23A116C4BAE96979.description3.rich_text0\"}, {\"color\": \"gray\", \"italic\": true, \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"7F65A1C533ED1C3B\"}, \"translate\": \"gto.lv.quests.23A116C4BAE96979.description3.rich_text1\"}, {\"italic\": true, \"color\": \"gray\", \"translate\": \"gto.lv.quests.23A116C4BAE96979.description3.rich_text2\"}, {\"color\": \"gray\", \"italic\": true, \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"16047F3F79404251\"}, \"translate\": \"gto.lv.quests.23A116C4BAE96979.description3.rich_text3\"}, {\"italic\": true, \"color\": \"gray\", \"translate\": \"gto.lv.quests.23A116C4BAE96979.description3.rich_text4\"}]"
 				""
 				"{gto.lv.quests.23A116C4BAE96979.description4}"
+				""
+				"{gto.lv.quests.23A116C4BAE96979.description5}"
+				""
+				"{gto.lv.quests.23A116C4BAE96979.description6}"
 			]
 			icon: "gtceu:lv_energy_input_hatch"
 			id: "23A116C4BAE96979"
 			rewards: [{
-				id: "27B3BEBE0FC9D1FF"
-				item: "gtocore:gold_coin"
+				id: "1A0B288DE57AE7EA"
+				item: "gtocore:silver_coin"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -888,6 +900,12 @@
 			]
 			icon: "gtceu:maintenance_hatch"
 			id: "58434872C6EC4E32"
+			rewards: [{
+				count: 5
+				id: "475D85B0BC979E80"
+				item: "gtceu:duct_tape"
+				type: "item"
+			}]
 			subtitle: "{gto.lv.quests.58434872C6EC4E32.subtitle}"
 			tasks: [
 				{
@@ -909,6 +927,11 @@
 			dependencies: [
 				"5FBCB0C7F914D814"
 				"1D40D24D6870493D"
+			]
+			description: [
+				"{gto.lv.quests.24DABF4CEA8A4C86.description0}"
+				""
+				"{gto.lv.quests.24DABF4CEA8A4C86.description1}"
 			]
 			hide_dependency_lines: true
 			id: "24DABF4CEA8A4C86"
@@ -978,7 +1001,6 @@
 			dependencies: [
 				"2F057F1B67418205"
 				"0EDB058F9C6882FE"
-				"49122B7DBE422691"
 			]
 			id: "683439639A27C86E"
 			tasks: [{
@@ -1082,7 +1104,11 @@
 		}
 		{
 			dependencies: ["5FBCB0C7F914D814"]
-			description: ["{gto.lv.quests.5623C36D02012C3B.description0}"]
+			description: [
+				"{gto.lv.quests.5623C36D02012C3B.description0}"
+				""
+				"{gto.lv.quests.5623C36D02012C3B.description1}"
+			]
 			id: "5623C36D02012C3B"
 			shape: "hexagon"
 			tasks: [{
@@ -1111,26 +1137,6 @@
 			}]
 			x: -12.0d
 			y: -3.0d
-		}
-		{
-			dependencies: [
-				"6BB3386725B228D5"
-				"12F3FAEB69397980"
-			]
-			description: ["{gto.lv.quests.7FD151D808A41D6C.description0}"]
-			hide_dependency_lines: true
-			id: "7FD151D808A41D6C"
-			optional: true
-			shape: "hexagon"
-			size: 1.5d
-			subtitle: "{gto.lv.quests.7FD151D808A41D6C.subtitle}"
-			tasks: [{
-				id: "62AE2C2CABA01A4C"
-				item: "gtocore:energetic_photovoltaic_power_station"
-				type: "item"
-			}]
-			x: -10.5d
-			y: 3.0d
 		}
 		{
 			dependencies: ["12F3FAEB69397980"]
@@ -1164,6 +1170,8 @@
 				"{gto.lv.quests.7BAA2D31EC72AEDB.description0}"
 				""
 				"{gto.lv.quests.7BAA2D31EC72AEDB.description1}"
+				""
+				"[\"\", {\"translate\": \"gto.lv.quests.7BAA2D31EC72AEDB.description2.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"22A3C58D1FDF2221\"}, \"translate\": \"gto.lv.quests.7BAA2D31EC72AEDB.description2.rich_text1\"}, {\"translate\": \"gto.lv.quests.7BAA2D31EC72AEDB.description2.rich_text2\"}]"
 			]
 			hide_dependency_lines: true
 			id: "7BAA2D31EC72AEDB"
@@ -1231,7 +1239,10 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["48B7848EAF919782"]
+			dependencies: [
+				"48B7848EAF919782"
+				"733C4A68EC2FA1ED"
+			]
 			description: [
 				"{gto.lv.quests.7392F240AD330C1A.description0}"
 				""
@@ -1330,7 +1341,10 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["7392F240AD330C1A"]
+			dependencies: [
+				"7392F240AD330C1A"
+				"7A1442B2BADD8D46"
+			]
 			id: "14285E8F662204AE"
 			rewards: [{
 				id: "2BC08EBF106CECAB"
@@ -1477,6 +1491,7 @@
 				"707FE9ADE3861C97"
 				"2BE979586DBE34BC"
 				"4ECCD5C54FE7F706"
+				"058D423F0418A0A9"
 			]
 			description: [
 				"{gto.lv.quests.35FD16B1992A2576.description0}"
@@ -1543,6 +1558,7 @@
 				""
 				"{gto.lv.quests.2BE979586DBE34BC.description1}"
 			]
+			hide_dependent_lines: true
 			id: "2BE979586DBE34BC"
 			subtitle: "{gto.lv.quests.2BE979586DBE34BC.subtitle}"
 			tasks: [{
@@ -1580,7 +1596,10 @@
 			y: -5.5d
 		}
 		{
-			dependencies: ["06534664971F6E68"]
+			dependencies: [
+				"06534664971F6E68"
+				"2BE979586DBE34BC"
+			]
 			description: [
 				"{gto.lv.quests.4FC3EC9C6C25633F.description0}"
 				""
@@ -1860,6 +1879,11 @@
 		}
 		{
 			dependencies: ["35347DE9C34F2825"]
+			description: [
+				"{gto.lv.quests.262EB199FFE689FF.description0}"
+				""
+				"{gto.lv.quests.262EB199FFE689FF.description1}"
+			]
 			id: "262EB199FFE689FF"
 			tasks: [{
 				id: "01C8AC4F9FD1ECA9"
@@ -1871,7 +1895,11 @@
 		}
 		{
 			dependencies: ["29896685477AA469"]
-			description: ["{gto.lv.quests.7F65A1C533ED1C3B.description0}"]
+			description: [
+				"{gto.lv.quests.7F65A1C533ED1C3B.description0}"
+				""
+				"{gto.lv.quests.7F65A1C533ED1C3B.description1}"
+			]
 			id: "7F65A1C533ED1C3B"
 			shape: "diamond"
 			subtitle: "{gto.lv.quests.7F65A1C533ED1C3B.subtitle}"
@@ -1890,6 +1918,8 @@
 				"{gto.lv.quests.1FCF7BF494F483B4.description0}"
 				""
 				"{gto.lv.quests.1FCF7BF494F483B4.description1}"
+				""
+				"{gto.lv.quests.1FCF7BF494F483B4.description2}"
 			]
 			id: "1FCF7BF494F483B4"
 			shape: "diamond"
@@ -1903,7 +1933,10 @@
 			y: 6.5d
 		}
 		{
-			dependencies: ["06534664971F6E68"]
+			dependencies: [
+				"06534664971F6E68"
+				"561F5AACF437E7C5"
+			]
 			description: [
 				"{gto.lv.quests.39879EA8A9F79913.description0}"
 				""
@@ -1914,6 +1947,8 @@
 				"{gto.lv.quests.39879EA8A9F79913.description3}"
 				""
 				"{gto.lv.quests.39879EA8A9F79913.description4}"
+				""
+				"{gto.lv.quests.39879EA8A9F79913.description5}"
 			]
 			icon: "gtceu:stainless_steel_frame"
 			id: "39879EA8A9F79913"
@@ -2164,7 +2199,7 @@
 				item: "gtocore:large_steam_solar_boiler"
 				type: "item"
 			}]
-			x: -12.0d
+			x: -10.5d
 			y: 3.0d
 		}
 		{
@@ -2401,10 +2436,14 @@
 				"{gto.lv.quests.389D61CE9E799725.description1}"
 				""
 				"{gto.lv.quests.389D61CE9E799725.description2}"
+				""
 				"{gto.lv.quests.389D61CE9E799725.description3}"
 				"{gto.lv.quests.389D61CE9E799725.description4}"
 				"{gto.lv.quests.389D61CE9E799725.description5}"
 				"{gto.lv.quests.389D61CE9E799725.description6}"
+				"{gto.lv.quests.389D61CE9E799725.description7}"
+				""
+				"{gto.lv.quests.389D61CE9E799725.description8}"
 			]
 			id: "389D61CE9E799725"
 			rewards: [{
@@ -2480,6 +2519,10 @@
 				"{gto.lv.quests.2A893BFDB41B7CFC.description0}"
 				""
 				"{gto.lv.quests.2A893BFDB41B7CFC.description1}"
+				""
+				"{gto.lv.quests.2A893BFDB41B7CFC.description2}"
+				""
+				"{gto.lv.quests.2A893BFDB41B7CFC.description3}"
 			]
 			id: "2A893BFDB41B7CFC"
 			tasks: [{
@@ -2702,6 +2745,38 @@
 			}]
 			x: -1.0d
 			y: -7.0d
+		}
+		{
+			dependencies: ["7A1442B2BADD8D46"]
+			disable_toast: true
+			icon_scale: 0.25d
+			id: "374AAA39740AB6A7"
+			shape: "none"
+			size: 0.25d
+			tasks: [{
+				id: "1EA95F3E410E8A35"
+				stat: "minecraft:jump"
+				type: "stat"
+				value: 1
+			}]
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2BE979586DBE34BC"]
+			disable_toast: true
+			icon_scale: 0.25d
+			id: "058D423F0418A0A9"
+			shape: "none"
+			size: 0.25d
+			tasks: [{
+				id: "3E46A11F3465C6DF"
+				stat: "minecraft:jump"
+				type: "stat"
+				value: 1
+			}]
+			x: 7.0d
+			y: -4.0d
 		}
 	]
 	subtitle: ["{gto.lv.subtitle0}"]

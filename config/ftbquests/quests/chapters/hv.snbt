@@ -98,14 +98,6 @@
 	order_index: 5
 	quest_links: [
 		{
-			id: "0A5AFD1CE76EA8F8"
-			linked_quest: "0A9501C9027AC03D"
-			shape: "hexagon"
-			size: 1.5d
-			x: 3.0d
-			y: 5.5d
-		}
-		{
 			id: "36E98813A7A95723"
 			linked_quest: "05F38A7107CCF2C1"
 			shape: "hexagon"
@@ -187,18 +179,25 @@
 			y: -8.25d
 		}
 		{
-			id: "44A0FE462E0C3A64"
-			linked_quest: "2C986BC7ECC4E1ED"
-			shape: "hexagon"
-			size: 1.5d
-			x: 7.0d
-			y: 5.5d
-		}
-		{
 			id: "3FE169F2680CFCBA"
 			linked_quest: "204F134A09B60140"
 			x: 5.0d
 			y: 5.5d
+		}
+		{
+			id: "723A96005E8ACBC6"
+			linked_quest: "1D57ED21E8AD1A26"
+			shape: "hexagon"
+			size: 1.5d
+			x: 10.5d
+			y: 2.0d
+		}
+		{
+			id: "1F971C770E451FFE"
+			linked_quest: "7FE2763143958129"
+			shape: "hexagon"
+			x: 10.5d
+			y: 0.5d
 		}
 	]
 	quests: [
@@ -207,7 +206,7 @@
 				"5D828A5258BFF11F"
 				"49E5CC5873FA226F"
 			]
-			description: ["给&e透镜&r染色，制作&e末影之眼&r"]
+			description: ["给&e透镜&r染色， 大幅降低&e末影之眼&r的造价"]
 			id: "198304056173E631"
 			shape: "hexagon"
 			size: 1.5d
@@ -242,17 +241,18 @@
 				"如果你对&6超净间&r不够熟悉，在EMI看看多方块结构，你也可以查看下一页的指引"
 				"{@pagebreak}"
 				"&eCredit: GTNH(部分修改)&r "
+				""
 				"更加先进的芯片、电路都需要在更加洁净的环境中才能制作，这就是为什么我们需要超净间"
 				""
 				"这是一个有趣的多方块结构，你能在它内部放置各种单方块机器，提供执行配方所需要的&e超净条件&r！"
 				""
 				"超净间是整体大小在5x5x5到15x15x15之间的中空多方块结构.超净间的底部并不需要是正方形,长方形也可以.顶层由&6过滤器机械方块&r构成,除了边缘,它是&6塑料混凝土&r方块.&6控制器&r必须位于顶层的中心.如果超净间的长或宽是双数,那么控制器可以放在中心两块(或四块)中的任意一块.结构的其余部分均由塑料混凝土方块搭建而成."
 				"{@pagebreak}"
-				"&e&n非顶层&r的方块都可以用任意数量的方块代替：&r"
+				"&e非顶层&r的方块都可以用任意数量的方块代替：&r"
 				""
 				"一扇&6铁门&r可以让你进出无尘室.请确保门是关着的,否则超净间会迅速失去洁净度.&6旅行锚&r和&6电梯&r也可以使用,如果需要,甚至可以将它们&e嵌入地板中&r."
 				""
-				"你可以使用&6二极管、物品通行仓、流体通行仓或机器外壳&r,来自动通过墙壁输送电力和材料.但是在为你的内部机器更新换代时你要万分小心.务必拆下旧的机器外壳和线缆二级管,然后用新的更高电压的替换,否则你一定会很伤心的.如果只是用于传输材料,那就不用管等级的事."
+				"你可以使用&6二极管或机器外壳&r,来自动通过墙壁输送&e电力和AE信号&r.但是在为你的内部机器更新换代时你要万分小心.务必拆下旧的机器外壳和线缆二级管,然后用新的更高电压的替换,否则你一定会很伤心的.如果只是用于传输材料,那就不用管等级的事."
 				"{@pagebreak}"
 				"如果你想看到内部,可以使用&6超净间玻璃&r.如果你喜欢，甚至可以用&6超净间玻璃&r替代所有非顶层的&6塑料混凝土方块&r使它看上去就像白色海景房.这个多方块结构的耗电量有点不同寻常,一开始是30EU/t,然后逐渐降低.但即使是在使用30EU/t的情况下,要给它足够的电,单个LV能源仓就足够了,你往往会用MV电的.请记住,这只适用于超净间,并不是一个普适规则."
 				""
@@ -483,6 +483,8 @@
 				"每次操作有几秒的冷却时间，并且消耗无人机少量的电"
 				""
 				"放入更多无人机可同时进行多项工作"
+				""
+				"[ \"EV以后配合\", { \"text\": \"无线充能器\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"22A3C58D1FDF2221\" } },\"可以直接给无人机仓的无人机充电\" ]"
 			]
 			hide_dependency_lines: true
 			id: "27BE49A3FEA64B59"
@@ -513,7 +515,7 @@
 				""
 				"建造一座&6无人机控制中心&r，派出你的&6无人机"
 				""
-				"&n记得给这些小家伙充电&r"
+				"&e记得给这些小家伙充电&r"
 				""
 				"[ \"前往查看\", { \"text\": \"无人机控制中心\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"27BE49A3FEA64B59\" } } ]"
 			]
@@ -537,6 +539,7 @@
 			dependencies: [
 				"23A3A8F6E6738331"
 				"2C986BC7ECC4E1ED"
+				"7F98C4099F848BCA"
 			]
 			description: [
 				"&6T1火箭&r是你目前为止见到的最复杂的东西"
@@ -568,7 +571,7 @@
 				""
 				"由高精度HV传感器阵列、高扭矩HV机械臂与高效光伏板材构成，该卫星能在极端环境中稳定运行。其核心的电力推进器确保了其能被准确送入环月轨道，并对月球地表进行全面光谱分析与矿物分布测绘。"
 				""
-				"&4警告&r：任何跨维度太空任务，在未收到该卫星传回的完整行星扫描数据前，&n均被视为自杀行为&r"
+				"&c警告&r&e：任何跨维度太空任务，在未收到该卫星传回的完整行星扫描数据前，&r&c均被视为自杀行为&r"
 			]
 			id: "39A7B09F3213E0C8"
 			tasks: [{
@@ -589,6 +592,8 @@
 				"其中向&e月球&r发射携带&6星球数据芯片&r的&6行星扫描卫星&r是基础性战略步骤，无人探月工程能系统性获取地月空间环境参数、月球重力场数据、辐射剂量谱分布等关键信息，为后续载人登月提供数据支撑。"
 				""
 				"你必须先向&e月球&r发射&6卫星&r以拿到&6月球数据&r"
+				""
+				"&e所有的星球，你都需要先解锁才能登陆"
 				""
 				"顺带一提，卫星控制中心UI左下角的HUD控制是控制航天服的氧气显示的"
 			]
@@ -655,17 +660,17 @@
 			dependencies: [
 				"7A7DC6205DED9BF3"
 				"4AED8DE6D6175D97"
-				"4331EEF3BA9799FD"
-				"06E8CF5F701850A1"
+				"1D57ED21E8AD1A26"
+				"7FE2763143958129"
 			]
 			description: [
-				"现在，朝着亲爱的月球进发？不不不，还有几件事需要你&4再确认一下&r："
+				"现在，朝着亲爱的月球进发？不不不，还有几件事需要你&c再确认一下&r："
 				""
 				"首先在出发之前，要穿戴好&6宇航套装&r，以及把你身上的&6器官&r都强化到&e标准级&r"
 				""
 				"其次把你的背包腾出一定的空间，记住&2公司&r派你去月球是去&e挖矿&r的，不是去&e旅游&r的"
 				""
-				"最后着陆前注意提前&e打开助推器减速&r，否则在有不幸的事情发生前就会&4&n有更不幸的事情发生&r&r"
+				"最后着陆前注意提前&e打开助推器减速&r，否则在有不幸的事情发生前就会有&4更不幸的事情发生&r"
 			]
 			id: "310210D2AD9515E3"
 			rewards: [{
@@ -733,12 +738,20 @@
 				""
 				"四氯化钛也可用于催化聚合"
 			]
+			icon: "gtceu:titanium_tetrachloride_bucket"
 			id: "445C071E8F1B1B9E"
-			tasks: [{
-				id: "66D2195D7E1F6883"
-				item: "gtceu:titanium_tetrachloride_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "66D2195D7E1F6883"
+					item: "gtceu:titanium_tetrachloride_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "44921C625B2C7356"
+					type: "checkmark"
+				}
+			]
 			x: 15.0d
 			y: -1.0d
 		}
@@ -811,7 +824,10 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["5F5B9F256A751484"]
+			dependencies: [
+				"5F5B9F256A751484"
+				"566FDA63FAA2C115"
+			]
 			id: "768BCE7842E31597"
 			tasks: [{
 				id: "7FEED9BB9102DC99"
@@ -847,6 +863,7 @@
 				""
 				"&7不要思考这句话的深意，只是增加游戏沉浸感&r"
 			]
+			hide_dependent_lines: true
 			id: "566FDA63FAA2C115"
 			shape: "hexagon"
 			size: 1.5d
@@ -1051,7 +1068,7 @@
 				""
 				"此芯片是&e「行星扫描」&r任务的最终产物，内部以非易失性存储方式，记录了目标天体（如月球）的完整重力场图、光谱矿物分布、地形高程模型及潜在着陆点危险评估数据。"
 				""
-				"&4警告：&r此芯片为单一副本，是规划地外任务的核心。遗失或损坏将导致整个扫描任务失效。"
+				"&c警告&r&e：此芯片为单一副本，是规划地外任务的核心。遗失或损坏将导致整个扫描任务失效。&r"
 			]
 			id: "2A9088FA11D26BDD"
 			tasks: [{
@@ -1153,70 +1170,6 @@
 			y: -5.25d
 		}
 		{
-			dependencies: ["7A7DC6205DED9BF3"]
-			description: [
-				"月球&4缺少&r大气环境"
-				""
-				"你必须身着&e充有氧气的&r&6宇航套装&r，不然会有不幸的事情发生"
-				""
-				"往&6航天服&r内通入氧气——就把&6航天服&r当成桶，从AE里面舀就行了"
-				""
-				"&2宇&6航&9服&e可&d以&b染&4色&r，不会影响任务提交"
-			]
-			id: "4331EEF3BA9799FD"
-			shape: "hexagon"
-			subtitle: "史蒂夫的一小步"
-			tasks: [
-				{
-					id: "5447D8AF38334E84"
-					item: {
-						Count: 1
-						id: "ad_astra:space_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "025CCF62DA440827"
-					item: {
-						Count: 1
-						id: "ad_astra:space_suit"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "2CBEB3704E230616"
-					item: {
-						Count: 1
-						id: "ad_astra:space_pants"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "63DE8CCC243FE06D"
-					item: {
-						Count: 1
-						id: "ad_astra:space_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "基础宇航套装"
-			x: 10.5d
-			y: 0.5d
-		}
-		{
 			dependencies: [
 				"6A8869A6275ECA3E"
 				"422ECD74F050124C"
@@ -1229,7 +1182,7 @@
 				"·&6可编程仓&r"
 				""
 				"如何使用："
-				"1. &e供应机接入ME网络&r后，将物品放入供应机，它会自动转换成虚拟物品"
+				"1. &e供应机接入ME网络&r，将物品放入供应机，它会自动转换成虚拟物品"
 				"2. 打开EMI，对你想编写的配方，使用&eCtrl快速填充&r；或者直接将&e虚拟物品&r从AE终端拖入样板编码区"
 				"3. 将样板放入&e贴在可编程仓上&r的&6样板供应器&r"
 			]
@@ -1294,7 +1247,11 @@
 		}
 		{
 			dependencies: ["6F760D81DC93ACFB"]
-			description: ["HV阶段你可以做出更高一级的探矿仪"]
+			description: [
+				"HV阶段你可以做出更高一级的探矿仪，可以勘探实体矿脉，基岩矿脉和基岩流体"
+				""
+				"可以查看探矿仪的EMI来获取矿脉和流体信息"
+			]
 			id: "53A8A0B00211A141"
 			tasks: [{
 				id: "04FDEDD16AAEB11E"
@@ -1397,6 +1354,8 @@
 				"在&e超平坦世界&r使用世界信息扫描仪得到&6下界维度数据&r，搭建&6下界反应核结构&r"
 				""
 				"与虚空传送器一样，&6下界反应核&r需要充满能量才能进行传送"
+				""
+				"下界缺少氧气且需要防火，你需要穿戴&e纳米肌体套装+纳米太空胸甲&r或者更高级的套装才能在下界存活"
 				""
 				"&o&7其实只要给够功率就可以啦"
 			]
@@ -1590,77 +1549,6 @@
 			}]
 			x: 2.5d
 			y: -1.0d
-		}
-		{
-			dependencies: ["7A7DC6205DED9BF3"]
-			description: [
-				"你需要把你的身体的各个&6器官&r都强化到&e标准级&r之后才能抵御&d星际乱流&r的影响"
-				""
-				"用&6器官修改器&r来把各个&6器官部件&r装进你的身体里面"
-				""
-				"当然以后你每去一个新地方都需要查看自己身上的&6器官&r是不是已经强化到对应的阶级了"
-				""
-				"&o&8自己给自己在清醒时做手术，可真的是有点惊悚呢&r&r"
-			]
-			id: "06E8CF5F701850A1"
-			rewards: [{
-				id: "0B901E3B9C37558A"
-				item: "gtocore:organ_modifier"
-				type: "item"
-			}]
-			shape: "hexagon"
-			size: 1.5d
-			subtitle: "我们终将决定我们自己的进化道路"
-			tasks: [
-				{
-					id: "1527CD1ED0E171F7"
-					item: "gtocore:tier_1_eye"
-					type: "item"
-				}
-				{
-					id: "02DACE16540F3950"
-					item: "gtocore:tier_1_spine"
-					type: "item"
-				}
-				{
-					id: "4D0B02A57E230452"
-					item: "gtocore:tier_1_lung"
-					type: "item"
-				}
-				{
-					id: "300387F47666DD1B"
-					item: "gtocore:tier_1_liver"
-					type: "item"
-				}
-				{
-					id: "4C7C34B4D8A9810C"
-					item: "gtocore:tier_1_heart"
-					type: "item"
-				}
-				{
-					id: "0C3B32392E9028AE"
-					item: "gtocore:tier_1_left_arm"
-					type: "item"
-				}
-				{
-					id: "0C59D037800BD887"
-					item: "gtocore:tier_1_right_arm"
-					type: "item"
-				}
-				{
-					id: "41F1043CBE279630"
-					item: "gtocore:tier_1_left_leg"
-					type: "item"
-				}
-				{
-					id: "26211367AB393E8D"
-					item: "gtocore:tier_1_right_leg"
-					type: "item"
-				}
-			]
-			title: "血肉苦弱，机械飞升！"
-			x: 10.5d
-			y: 2.0d
 		}
 		{
 			dependencies: ["310210D2AD9515E3"]
@@ -2095,6 +1983,61 @@
 				value: 1
 			}]
 			x: -7.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["49E5CC5873FA226F"]
+			description: ["你需要它来制造&6一阶火箭&r和&6火箭装配机&r的材料"]
+			hide_dependency_lines: true
+			id: "0A9501C9027AC03D"
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "唯一一台你想要爆一爆的机器"
+			tasks: [{
+				id: "5D43198A9E3AC42A"
+				item: "gtceu:implosion_compressor"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"5D828A5258BFF11F"
+				"056EC4E6FAF614B7"
+			]
+			description: ["从HV开始，简单不再有额外补助。用自己的双手创造一切吧！"]
+			hide_until_deps_visible: true
+			id: "185F8183775BD727"
+			optional: true
+			shape: "octagon"
+			tasks: [{
+				count: 32L
+				id: "3D43B3BB905110DD"
+				item: { Count: 32, id: "gtceu:hv_electric_motor" }
+				type: "item"
+			}]
+			title: "HV部件补助&a（简单）&r"
+			x: -8.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["204F134A09B60140"]
+			description: [
+				"所有的火箭（除了7阶火箭）都从此诞生"
+				""
+				"结构有点大，但实际做出来的火箭并不大"
+			]
+			id: "7F98C4099F848BCA"
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "我的火箭老家"
+			tasks: [{
+				id: "053E9211EBD41BEA"
+				item: "gtocore:rocket_assembler"
+				type: "item"
+			}]
+			x: 7.0d
 			y: 5.5d
 		}
 	]

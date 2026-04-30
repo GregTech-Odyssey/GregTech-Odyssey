@@ -397,6 +397,7 @@
 			dependencies: [
 				"19134C6F6A115AEE"
 				"2947C7CBDC544496"
+				"0007751813572404"
 			]
 			description: [
 				"先别急着庆祝，你还有一半的路没走呢"
@@ -441,13 +442,21 @@
 		}
 		{
 			dependencies: ["06099A423968D6E0"]
+			icon: "gtocore:bacterial_growth_medium_bucket"
 			id: "7A12577E23FC07A1"
 			shape: "hexagon"
-			tasks: [{
-				id: "2D515B6F4FADC217"
-				item: "gtocore:bacterial_growth_medium_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2D515B6F4FADC217"
+					item: "gtocore:bacterial_growth_medium_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "489DB3163CDA095D"
+					type: "checkmark"
+				}
+			]
 			x: -6.0d
 			y: -2.0d
 		}
@@ -523,15 +532,23 @@
 				"747599D690EADE56"
 				"7651697F32169E49"
 			]
+			icon: "gtocore:pluripotency_induction_gene_therapy_fluid_bucket"
 			id: "59864AA3CB69A3CF"
 			shape: "hexagon"
 			size: 1.5d
 			subtitle: "基因大杂烩"
-			tasks: [{
-				id: "129F506D7D108336"
-				item: "gtocore:pluripotency_induction_gene_therapy_fluid_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "129F506D7D108336"
+					item: "gtocore:pluripotency_induction_gene_therapy_fluid_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "484C41FD395D6FDB"
+					type: "checkmark"
+				}
+			]
 			x: -4.0d
 			y: 4.0d
 		}
@@ -542,13 +559,21 @@
 				""
 				"有更高效的循环产线制作它"
 			]
+			icon: "gtceu:sterilized_growth_medium_bucket"
 			id: "2C79D433651D795C"
 			shape: "hexagon"
-			tasks: [{
-				id: "776EC25032BCC4A6"
-				item: "gtceu:sterilized_growth_medium_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "776EC25032BCC4A6"
+					item: "gtceu:sterilized_growth_medium_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "10A8189C15D49F38"
+					type: "checkmark"
+				}
+			]
 			x: -2.0d
 			y: 4.0d
 		}
@@ -738,7 +763,7 @@
 				""
 				"进阶装配线是装配线的并行版本，可以用&b巨型输入总线&r，而且可以上&e激光仓&r"
 				""
-				"需要注意，盲目超频不可取，因为进阶装配线是&c超损超频&r的！换言之，&a4倍&r的功率只能让配方耗时变为&c0.75&r倍，但是并行可以正常结算"
+				"需要注意，盲目超频不可取，因为进阶装配线是&c超损超频&r的！换言之，&a4倍&r的功率只能让配方耗时变为&c0.65&r倍，但是并行可以正常结算"
 			]
 			id: "6DC73D6C2AD17444"
 			shape: "diamond"
@@ -755,7 +780,7 @@
 		{
 			dependencies: ["6DC73D6C2AD17444"]
 			description: [
-				"你注意到类似于&nLuV力场发生器&r之类的配方了吗？它们有两组一样的物品，会给有序的装配线带来困难"
+				"你注意到类似于&6LuV力场发生器&r之类的配方了吗？它们有两组一样的物品，会给有序的装配线带来困难"
 				""
 				"不过别担心！你可以尝试一下&7命名模具&r。把它放在冲压机中即可实现物品的重命名，或许对你有所帮助"
 			]
@@ -781,7 +806,7 @@
 				type: "item"
 			}]
 			x: -9.0d
-			y: 6.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["0985154AE9169549"]
@@ -808,6 +833,7 @@
 				"7C85C4B5A3E64723"
 				"49EECA793E1FF66F"
 			]
+			hide_dependent_lines: true
 			id: "0007751813572404"
 			shape: "hexagon"
 			size: 1.5d
@@ -823,6 +849,7 @@
 			dependencies: [
 				"0007751813572404"
 				"2CBDC8B5C9C32530"
+				"795AD7C014EEE5D3"
 			]
 			dependency_requirement: "one_completed"
 			description: [
@@ -871,7 +898,7 @@
 				"351F704B01567BD7"
 				"0099AE8ACBB72951"
 			]
-			description: ["用捕获附魔获取普通蛋，并通过诱导获取外星蛋"]
+			description: ["用神化的&e捕获附魔&r获取普通蛋，并通过生化反应诱导获取外星蛋"]
 			id: "7651697F32169E49"
 			tasks: [
 				{
@@ -953,12 +980,20 @@
 		{
 			dependencies: ["608F56E6A187940C"]
 			hide_dependency_lines: true
+			icon: "gtceu:mutagen_bucket"
 			id: "0099AE8ACBB72951"
-			tasks: [{
-				id: "270877B95A714083"
-				item: "gtceu:mutagen_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "270877B95A714083"
+					item: "gtceu:mutagen_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7042B30465A3697E"
+					type: "checkmark"
+				}
+			]
 			x: -7.0d
 			y: 6.0d
 		}
@@ -981,7 +1016,11 @@
 		}
 		{
 			dependencies: ["26167AFECA871925"]
-			description: ["全新的反应堆，仍在测试阶段"]
+			description: [
+				"全新的反应堆，仍在测试阶段"
+				""
+				"提示：你只需要知道如何定性控制机器即可，无需真的看懂公式"
+			]
 			id: "4520F6658FC37F85"
 			size: 1.0d
 			tasks: [{
@@ -994,6 +1033,7 @@
 		}
 		{
 			dependencies: ["4520F6658FC37F85"]
+			description: ["EMI里面部分配方废料粉是第七个产物所以没空间显示了，实际上是有的"]
 			id: "36A7AE94EDBE45C2"
 			tasks: [{
 				id: "2AE711CD2EE2EFC4"
@@ -1061,7 +1101,11 @@
 		}
 		{
 			dependencies: ["24F1061AFD1BFEB2"]
-			description: ["占地更大，速度更快的冶炼冷却机器，允许安装&6并行仓&r&o（终于！）&r，&6加速仓&r和至多&a8个&r&6能源仓&r"]
+			description: [
+				"占地更大，速度更快的冶炼冷却机器，允许安装&6并行控制仓&r&o（终于！）&r，&6加速仓&r和至多&a8个&r&6能源仓&r"
+				""
+				"它们也可以贴上升级模块"
+			]
 			icon: "gtocore:orbital_smelting_facility"
 			id: "3AD590B74363891F"
 			tasks: [{
@@ -1149,15 +1193,34 @@
 		}
 		{
 			dependencies: ["19B07E541BE74686"]
+			description: ["虽说一步处理，但部分矿物处理存在特殊步骤，仍需单独隔离处理"]
 			id: "1585D7EF776E3E9C"
 			shape: "diamond"
+			size: 1.5d
+			subtitle: "矿石的一步处理"
 			tasks: [{
 				id: "5642F3EBE81E7FCE"
 				item: "gtocore:integrated_ore_processor"
 				type: "item"
 			}]
 			x: -9.0d
-			y: 10.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0007751813572404"]
+			disable_toast: true
+			icon_scale: 0.25d
+			id: "795AD7C014EEE5D3"
+			shape: "none"
+			size: 0.25d
+			tasks: [{
+				id: "51ADF52F239A4E08"
+				stat: "minecraft:jump"
+				type: "stat"
+				value: 1
+			}]
+			x: 4.0d
+			y: 2.0d
 		}
 	]
 	subtitle: ["Tier7-ZPM"]

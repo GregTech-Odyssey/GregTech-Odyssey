@@ -1,0 +1,17 @@
+name = "AE-Light-UI Multi-module"
+filename = "AE-Light-UI-1.20.1-v3.5.6.zip"
+side = "client"
+
+[download]
+hash-format = "sha1"
+hash = "230554dbfefc4cfd7cd50b7cacb23fa227038a22"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8009560
+project-id = 1477320
+
+[option]
+optional = true
+description = "Community AE2 Light UI Resource Pack"

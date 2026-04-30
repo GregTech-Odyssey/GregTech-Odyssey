@@ -97,6 +97,7 @@
 		}
 		{
 			id: "7BE3F5B2495D04B4"
+			shape: "diamond"
 			subtitle: "晶体管的第一次紧密排列"
 			tasks: [{
 				id: "18EB41184F015305"
@@ -1111,6 +1112,17 @@
 			}]
 			x: -13.5d
 			y: -11.5d
+		}
+		{
+			id: "7C450E5E29DBD283"
+			shape: "diamond"
+			tasks: [{
+				id: "1D602BECEE3E6560"
+				item: "gtceu:nand_chip"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -19.5d
 		}
 	]
 	subtitle: ["Milestone"]

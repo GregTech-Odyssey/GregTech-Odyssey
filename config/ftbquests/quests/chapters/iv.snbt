@@ -418,6 +418,8 @@
 				"装配线最长17格，你可以切换EMI多方块结构中的P:0，P:1来查看最小和最大的装配线"
 				""
 				"装配线需要&e有序&r输入物品，你必须按照配方顺序给每个格子填充原料，离装配线主机&b最近&r的&6输入总线&r为配方中第一个材料"
+				""
+				"&o&7流体无需有序"
 			]
 			id: "251002F2103BDA84"
 			shape: "gear"
@@ -477,7 +479,7 @@
 			description: [
 				"你现在能够前往T5星球"
 				""
-				"别忘了穿上&bT3&r器官"
+				"别忘了穿上&bT3&r器官，它需要你使用&6装配线&r制作&eLuV部件&r来合成"
 			]
 			icon: {
 				Count: 1
@@ -867,7 +869,7 @@
 			y: -8.5d
 		}
 		{
-			dependencies: ["1CF7845875EEFA3B"]
+			dependencies: ["768633CC1F8644DE"]
 			description: ["夹层玻璃所需"]
 			hide_dependency_lines: true
 			icon: "gtceu:polyvinyl_butyral_bucket"
@@ -1043,7 +1045,7 @@
 		{
 			dependencies: ["2BD46F9D8A842B4A"]
 			description: [
-				"IV时代解锁了大量的&e多方块机器&r，这些机器可以安装&6并行仓&r，&6加速仓&r和至多&a8个&r&6能源仓&r。将你的单方块机器升级为大批量加工巨兽吧！"
+				"IV时代解锁了大量的&e多方块机器&r，这些机器可以安装&6并行控制仓&r，&6加速仓&r和至多&a8个&r&6能源仓&r。将你的单方块机器升级为大批量加工巨兽吧！"
 				""
 				"[ \"详见\", { \"text\": \"大批量加工\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"68C24A1ED361D607\" } }, \"章节\" ]"
 			]
@@ -1293,8 +1295,8 @@
 				type: "checkmark"
 			}]
 			title: "装配线&a（简单）&r"
-			x: 19.0d
-			y: -5.5d
+			x: 18.75d
+			y: -7.5d
 		}
 		{
 			dependencies: ["135B35F7619D288E"]
@@ -1303,7 +1305,7 @@
 				""
 				"在获取IV马达之后，你应该将基地里的通用工厂逐步替换成真正的&e多方块机器&r。你需要大量的&6钨钢&r来制作机器，因此开始发展该阶段前确保你有持续的&6钨&r产出"
 				""
-				"好消息是，不是所有东西都需要IV马达，在取得&aEV能源仓&r后你就可以制作&6IV并行仓&r和&6寒冰冷冻机&r等机器！"
+				"好消息是，不是所有东西都需要IV马达，在取得&aEV能源仓&r后你就可以制作&6IV并行控制仓&r和&6寒冰冷冻机&r等机器！"
 			]
 			id: "1CF7845875EEFA3B"
 			shape: "gear"
@@ -1454,12 +1456,20 @@
 		{
 			dependencies: ["0BFFC7241DFB6A9C"]
 			description: ["盐水提纯"]
+			icon: "gtceu:bromine_bucket"
 			id: "7B22A8B66A42157D"
-			tasks: [{
-				id: "3872D2093B7E13EA"
-				item: "gtceu:bromine_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "3872D2093B7E13EA"
+					item: "gtceu:bromine_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "234F6F4B944C317E"
+					type: "checkmark"
+				}
+			]
 			x: 17.0d
 			y: -12.0d
 		}

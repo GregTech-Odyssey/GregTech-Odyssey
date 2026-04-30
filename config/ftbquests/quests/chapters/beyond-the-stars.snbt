@@ -165,14 +165,14 @@
 				""
 				"&8&o上述惩罚从未执行过也不会执行&r"
 			]
+			icon: "ad_astra:nasa_workbench"
 			id: "38A6F2FA481A85E5"
 			shape: "gear"
 			size: 3.0d
 			subtitle: "冲上云霄！"
 			tasks: [{
-				id: "2557FB35308E5251"
-				item: "ad_astra:nasa_workbench"
-				type: "item"
+				id: "3F7D2D3991A85DAC"
+				type: "checkmark"
 			}]
 			title: "仰望星空"
 			x: -4.5d
@@ -188,6 +188,7 @@
 				""
 				"结构有点大，但实际做出来的火箭并不大"
 			]
+			disable_toast: true
 			id: "2C986BC7ECC4E1ED"
 			shape: "gear"
 			size: 2.0d
@@ -212,6 +213,7 @@
 				""
 				"以及大量的TNT，你以后会要很多的"
 			]
+			disable_toast: true
 			id: "204F134A09B60140"
 			subtitle: "火箭的新衣"
 			tasks: [{
@@ -320,8 +322,9 @@
 				""
 				"此芯片是&e「行星扫描」&r任务的最终产物，内部以非易失性存储方式，记录了目标天体（如月球）的完整重力场图、光谱矿物分布、地形高程模型及潜在着陆点危险评估数据。"
 				""
-				"&4警告：&r此芯片为单一副本，是规划地外任务的核心。遗失或损坏将导致整个扫描任务失效。"
+				"&c警告&r&e：此芯片为单一副本，是规划地外任务的核心。遗失或损坏将导致整个扫描任务失效。&r"
 			]
+			disable_toast: true
 			id: "15D4145A9704592D"
 			tasks: [{
 				id: "5BFF34DC9FEC7384"
@@ -340,8 +343,9 @@
 				""
 				"由高精度HV传感器阵列、高扭矩HV机械臂与高效光伏板材构成，该卫星能在极端环境中稳定运行。其核心的电力推进器确保了其能被准确送入环月轨道，并对月球地表进行全面光谱分析与矿物分布测绘。"
 				""
-				"&4警告&r：任何跨维度太空任务，在未收到该卫星传回的完整行星扫描数据前，&n均被视为自杀行为&r"
+				"&c警告&r&e：任何跨维度太空任务，在未收到该卫星传回的完整行星扫描数据前，&r&c均被视为自杀行为&r"
 			]
+			disable_toast: true
 			id: "67D7CD83E40F6471"
 			tasks: [{
 				id: "77279C0E61724405"
@@ -407,8 +411,9 @@
 		{
 			dependencies: ["38A6F2FA481A85E5"]
 			description: [
-				"火箭燃料一来可以供给&4火箭&r使用，二来可以用于&6发电&r，三来可以用于&d太空采矿&r和&5太空钻井&r。"
-				"用于火箭时，更高级的火箭燃料可以兼容更低级的火箭，反之不然；而发电和太空采矿/钻井的最佳选择一般是用&2偏二甲肼-四氧化二氮&r"
+				"火箭燃料一来可以供给&4火箭&r使用，二来可以用于&6发电&r，三来可以用于&d太空采矿&r和&5太空钻井&r。&e各级火箭燃料之间不通用&r"
+				""
+				"发电和太空采矿/钻井的最佳选择一般是用&2偏二甲肼-四氧化二氮&r（也就是俗称的绿油）"
 			]
 			icon: "ad_astra:etrionic_core"
 			id: "40536B32E6A432CD"
@@ -431,15 +436,23 @@
 				""
 				"显而易见的是你需要很多很多的氯，你可以从盐矿中获取它们"
 			]
+			icon: "gtceu:rocket_fuel_bucket"
 			id: "16B3AB1D455CCB50"
 			shape: "gear"
 			size: 2.0d
 			subtitle: "圆梦时刻！"
-			tasks: [{
-				id: "25EE9615BE500843"
-				item: "gtceu:rocket_fuel_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "25EE9615BE500843"
+					item: "gtceu:rocket_fuel_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2146A859B08DF354"
+					type: "checkmark"
+				}
+			]
 			title: "T1火箭燃料：火箭燃料"
 			x: -9.0d
 			y: -2.0d
@@ -450,12 +463,20 @@
 				"7C3A3C69E79DB794"
 				"0C63F8EC1AFEDE55"
 			]
+			icon: "gtceu:dimethylhydrazine_bucket"
 			id: "7F6CB9F67636C565"
-			tasks: [{
-				id: "6A3864F8DDF3E827"
-				item: "gtceu:dimethylhydrazine_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "6A3864F8DDF3E827"
+					item: "gtceu:dimethylhydrazine_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1610A24DB82ABF27"
+					type: "checkmark"
+				}
+			]
 			x: -11.0d
 			y: -2.0d
 		}
@@ -464,12 +485,20 @@
 				"6B7CAB754F778C09"
 				"1934F6B99DC0A294"
 			]
+			icon: "gtceu:ammonia_bucket"
 			id: "0C63F8EC1AFEDE55"
-			tasks: [{
-				id: "46AA82A401522D04"
-				item: "gtceu:ammonia_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "46AA82A401522D04"
+					item: "gtceu:ammonia_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "20B675934CD1B78E"
+					type: "checkmark"
+				}
+			]
 			x: -10.0d
 			y: -3.5d
 		}
@@ -478,12 +507,20 @@
 				"1934F6B99DC0A294"
 				"31617336D062DBDE"
 			]
+			icon: "gtceu:methanol_bucket"
 			id: "762B4A5D34A3A4B1"
-			tasks: [{
-				id: "20D9E59974B3956E"
-				item: "gtceu:methanol_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "20D9E59974B3956E"
+					item: "gtceu:methanol_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "18A52FD8775EE7A6"
+					type: "checkmark"
+				}
+			]
 			x: -12.0d
 			y: -3.5d
 		}
@@ -492,32 +529,56 @@
 				"1979ACE02FD1FFEA"
 				"0BA4AFD79925EF42"
 			]
+			icon: "gtceu:hypochlorous_acid_bucket"
 			id: "7C3A3C69E79DB794"
-			tasks: [{
-				id: "7E5F50DA3CC7326A"
-				item: "gtceu:hypochlorous_acid_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "7E5F50DA3CC7326A"
+					item: "gtceu:hypochlorous_acid_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "64210EC405D8EBDB"
+					type: "checkmark"
+				}
+			]
 			x: -13.0d
 			y: -2.0d
 		}
 		{
+			icon: "ad_astra:hydrogen_bucket"
 			id: "1934F6B99DC0A294"
-			tasks: [{
-				id: "12D4E5C7754DA3DD"
-				item: "ad_astra:hydrogen_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "12D4E5C7754DA3DD"
+					item: "ad_astra:hydrogen_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "38C553A13354EB66"
+					type: "checkmark"
+				}
+			]
 			x: -11.0d
 			y: -5.0d
 		}
 		{
+			icon: "gtceu:nitrogen_bucket"
 			id: "6B7CAB754F778C09"
-			tasks: [{
-				id: "333A0E37B3BD8D56"
-				item: "gtceu:nitrogen_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "333A0E37B3BD8D56"
+					item: "gtceu:nitrogen_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "612AE03E650FCC6F"
+					type: "checkmark"
+				}
+			]
 			x: -9.0d
 			y: -5.0d
 		}
@@ -539,30 +600,47 @@
 			y: -5.0d
 		}
 		{
+			icon: "gtceu:chlorine_bucket"
 			id: "0BA4AFD79925EF42"
-			tasks: [{
-				id: "028CDD8407DB2F3C"
-				item: "gtceu:chlorine_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "028CDD8407DB2F3C"
+					item: "gtceu:chlorine_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7037725BBAB06BD0"
+					type: "checkmark"
+				}
+			]
 			x: -15.0d
 			y: -2.0d
 		}
 		{
+			icon: "gtceu:mercury_bucket"
 			id: "1979ACE02FD1FFEA"
-			tasks: [{
-				id: "78FE9410241C9917"
-				item: "gtceu:mercury_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "78FE9410241C9917"
+					item: "gtceu:mercury_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4F7D4C110B32FF5C"
+					type: "checkmark"
+				}
+			]
 			x: -14.0d
 			y: -3.5d
 		}
 		{
+			dependencies: ["7A7DC6205DED9BF3"]
 			description: [
 				"月球&4缺少&r大气环境"
 				""
-				"你必须身着&e充有氧气的&r&6宇航套装&r，&n不然会有不幸的事情发生&r"
+				"你必须身着&e充有氧气的&r&6宇航套装&r，不然会有不幸的事情发生"
 				""
 				"往&6航天服&r内通入氧气——就把&6航天服&r当成桶，从AE里面舀就行了"
 				""
@@ -623,6 +701,7 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["7A7DC6205DED9BF3"]
 			description: [
 				"你需要把你的身体的各个&6器官&r都强化到&e标准级&r之后才能抵御&d星际乱流&r的影响"
 				""
@@ -633,6 +712,11 @@
 				"&o&8自己给自己在清醒时做手术，可真的是有点惊悚呢&r&r"
 			]
 			id: "1D57ED21E8AD1A26"
+			rewards: [{
+				id: "2DA51D5EB0D398A2"
+				item: "gtocore:organ_modifier"
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 2.0d
 			subtitle: "我们终将决定我们自己的进化道路"
@@ -695,13 +779,13 @@
 				"1BD5CACCF07947C7"
 			]
 			description: [
-				"现在，朝着亲爱的月球进发？不不不，还有几件事需要你&4再确认一下&r："
+				"现在，朝着亲爱的月球进发？不不不，还有几件事需要你&c再确认一下&r："
 				""
 				"首先在出发之前，要穿戴好&6宇航套装&r，以及把你身上的&6器官&r都强化到&e标准级"
 				""
 				"&r其次把你的背包腾出一定的空间，记住&2公司&r派你去月球是去&e挖矿&r的，不是去&e旅游&r的"
 				""
-				"最后着陆前注意提前&e打开助推器减速&r，否则在有不幸的事情发生前就会&4&n有更不幸的事情发生&r&r"
+				"最后着陆前注意提前&e打开助推器减速&r，否则在有不幸的事情发生前就会&4有更不幸的事情发生&r"
 				"{@pagebreak}"
 				"以下是矿石资源分布报告："
 				""
@@ -744,15 +828,23 @@
 				""
 				"你需要搭建一条前期的木化产线来满足你的燃料生产需求"
 			]
+			icon: "gtocore:rocket_fuel_rp_1_bucket"
 			id: "6C645FDD0CF3C52A"
 			shape: "gear"
 			size: 2.0d
 			subtitle: "让我们把东方一号送上天"
-			tasks: [{
-				id: "7C924195EC353447"
-				item: "gtocore:rocket_fuel_rp_1_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "7C924195EC353447"
+					item: "gtocore:rocket_fuel_rp_1_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "475FA4803F27F5B3"
+					type: "checkmark"
+				}
+			]
 			title: "T2火箭燃料：火箭燃料RP-1"
 			x: -9.0d
 			y: 1.0d
@@ -860,13 +952,21 @@
 				""
 				"当你的硅岩产线缺乏&d氡&r的时候，记得回趟火星"
 			]
+			icon: "gtceu:radon_bucket"
 			id: "7662AEC801BD79CC"
 			subtitle: "气态氡"
-			tasks: [{
-				id: "5AE2A4204E137F9F"
-				item: "gtceu:radon_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "5AE2A4204E137F9F"
+					item: "gtceu:radon_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2BCC1F883F6CECAB"
+					type: "checkmark"
+				}
+			]
 			title: "流体特产：火星"
 			x: 17.5d
 			y: -1.0d
@@ -1027,43 +1127,75 @@
 		}
 		{
 			dependencies: ["34391A7A0D1E8CB6"]
+			icon: "gtocore:rp_1_bucket"
 			id: "21F34E0000FD10CC"
-			tasks: [{
-				id: "6A176F61DE3F18B9"
-				item: "gtocore:rp_1_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "6A176F61DE3F18B9"
+					item: "gtocore:rp_1_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "53336167093E19EE"
+					type: "checkmark"
+				}
+			]
 			x: -11.0d
 			y: 1.0d
 		}
 		{
+			icon: "gtocore:kerosene_bucket"
 			id: "34391A7A0D1E8CB6"
-			tasks: [{
-				id: "0AFD72B5DCEE5DC8"
-				item: "gtocore:kerosene_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "0AFD72B5DCEE5DC8"
+					item: "gtocore:kerosene_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "75B6525C718057F1"
+					type: "checkmark"
+				}
+			]
 			x: -13.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["63CCBDEBF0E99D29"]
+			icon: "gtceu:liquid_oxygen_bucket"
 			id: "16B6F1CEA28F2D42"
-			tasks: [{
-				id: "1263A65B7E9EF28A"
-				item: "gtceu:liquid_oxygen_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "1263A65B7E9EF28A"
+					item: "gtceu:liquid_oxygen_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "059AC3DA6F139670"
+					type: "checkmark"
+				}
+			]
 			x: -10.0d
 			y: -0.5d
 		}
 		{
+			icon: "gtocore:high_pressure_oxygen_bucket"
 			id: "63CCBDEBF0E99D29"
-			tasks: [{
-				id: "7DEE739A71B6EE4C"
-				item: "gtocore:high_pressure_oxygen_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "7DEE739A71B6EE4C"
+					item: "gtocore:high_pressure_oxygen_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2F47E7D215427131"
+					type: "checkmark"
+				}
+			]
 			x: -12.0d
 			y: -0.5d
 		}
@@ -1170,13 +1302,21 @@
 		{
 			dependencies: ["27771E52B49806B6"]
 			description: ["&e氘&r是后期聚变反应的重要材料，现在你可能没有太多需求，可以以后再来抽"]
+			icon: "gtceu:deuterium_bucket"
 			id: "0D47C721AD61B0D6"
 			subtitle: "气态氘"
-			tasks: [{
-				id: "1A2AE269F29745D8"
-				item: "gtceu:deuterium_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "1A2AE269F29745D8"
+					item: "gtceu:deuterium_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2DE3FDDBD136DCF2"
+					type: "checkmark"
+				}
+			]
 			title: "流体特产：水星"
 			x: 20.5d
 			y: 8.0d
@@ -1193,27 +1333,43 @@
 				""
 				"你在后面会见到更多催化剂的"
 			]
+			icon: "gtocore:dense_hydrazine_fuel_mixture_bucket"
 			id: "637E8174DF8EA186"
 			shape: "gear"
 			size: 2.0d
 			subtitle: "土星五号的光辉"
-			tasks: [{
-				id: "7EEC6C0D854EE625"
-				item: "gtocore:dense_hydrazine_fuel_mixture_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "7EEC6C0D854EE625"
+					item: "gtocore:dense_hydrazine_fuel_mixture_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6D5320A649713A72"
+					type: "checkmark"
+				}
+			]
 			title: "T3火箭燃料：浓缩肼混合燃料"
 			x: -9.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["68063150194F78B2"]
+			icon: "gtocore:hydrazine_bucket"
 			id: "17324D4DD97218DA"
-			tasks: [{
-				id: "791F544007F5C44B"
-				item: "gtocore:hydrazine_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "791F544007F5C44B"
+					item: "gtocore:hydrazine_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "03576B3799A340CD"
+					type: "checkmark"
+				}
+			]
 			x: -11.0d
 			y: 4.0d
 		}
@@ -1223,44 +1379,76 @@
 				"6924A3A7911E2F3B"
 			]
 			description: ["记得回收中间相关产物"]
+			icon: "gtceu:hydrogen_peroxide_bucket"
 			id: "68063150194F78B2"
-			tasks: [{
-				id: "53864576DBC33BC3"
-				item: "gtceu:hydrogen_peroxide_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "53864576DBC33BC3"
+					item: "gtceu:hydrogen_peroxide_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4ADC03197631F178"
+					type: "checkmark"
+				}
+			]
 			x: -12.5d
 			y: 4.0d
 		}
 		{
+			icon: "gtocore:anthracene_bucket"
 			id: "73C01EC9D0386D60"
-			tasks: [{
-				id: "2499D6CA9DC93682"
-				item: "gtocore:anthracene_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2499D6CA9DC93682"
+					item: "gtocore:anthracene_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "25DAC6A15D829AA7"
+					type: "checkmark"
+				}
+			]
 			x: -12.5d
 			y: 2.5d
 		}
 		{
 			dependencies: ["7171DE9F90EA9B98"]
+			icon: "gtocore:ethylanthrahydroquinone_bucket"
 			id: "6924A3A7911E2F3B"
-			tasks: [{
-				id: "2D10548B6DBD2F40"
-				item: "gtocore:ethylanthrahydroquinone_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2D10548B6DBD2F40"
+					item: "gtocore:ethylanthrahydroquinone_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3433466AAA54D83D"
+					type: "checkmark"
+				}
+			]
 			x: -14.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["32ECB55F2F81A733"]
+			icon: "gtocore:ethylanthraquinone_bucket"
 			id: "7171DE9F90EA9B98"
-			tasks: [{
-				id: "394B23E00FE9E216"
-				item: "gtocore:ethylanthraquinone_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "394B23E00FE9E216"
+					item: "gtocore:ethylanthraquinone_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4EFF31A368795354"
+					type: "checkmark"
+				}
+			]
 			x: -15.5d
 			y: 4.0d
 		}
@@ -1282,12 +1470,20 @@
 			]
 			dependency_requirement: "one_completed"
 			description: ["选择一种方法制备即可"]
+			icon: "gtceu:phthalic_acid_bucket"
 			id: "0722FCD257F887E1"
-			tasks: [{
-				id: "4990E4E42B5DEF42"
-				item: "gtceu:phthalic_acid_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4990E4E42B5DEF42"
+					item: "gtceu:phthalic_acid_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "135DE3697C9C501D"
+					type: "checkmark"
+				}
+			]
 			x: -18.5d
 			y: 4.0d
 		}
@@ -1317,12 +1513,20 @@
 			y: 2.5d
 		}
 		{
+			icon: "gtceu:dimethylbenzene_bucket"
 			id: "0C60C5B1FE950A2D"
-			tasks: [{
-				id: "433E5F7660DB579B"
-				item: "gtceu:dimethylbenzene_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "433E5F7660DB579B"
+					item: "gtceu:dimethylbenzene_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0AE744EC447A45A2"
+					type: "checkmark"
+				}
+			]
 			x: -17.5d
 			y: 1.0d
 		}
@@ -1342,36 +1546,60 @@
 			y: 4.0d
 		}
 		{
+			icon: "gtceu:naphthalene_bucket"
 			id: "336C48E022910CC6"
-			tasks: [{
-				id: "14A75B587CEE2F56"
-				item: "gtceu:naphthalene_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "14A75B587CEE2F56"
+					item: "gtceu:naphthalene_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "088A8DE0043197AC"
+					type: "checkmark"
+				}
+			]
 			x: -21.5d
 			y: 5.0d
 		}
 		{
 			dependencies: ["0FA017F31EF08F19"]
 			description: ["三种基础酸之一，你最好能从各个星球上抽取出来，减少前期的压力"]
+			icon: "gtceu:sulfuric_acid_bucket"
 			id: "28F541BD5C97C37D"
 			subtitle: "硫酸"
-			tasks: [{
-				id: "1C462AD9877FF1C4"
-				item: "gtceu:sulfuric_acid_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "1C462AD9877FF1C4"
+					item: "gtceu:sulfuric_acid_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "27AB38D643413FF2"
+					type: "checkmark"
+				}
+			]
 			title: "流体特产：金星"
 			x: 25.0d
 			y: 3.0d
 		}
 		{
+			icon: "gtceu:sulfuric_acid_bucket"
 			id: "17E01888FDA360DD"
-			tasks: [{
-				id: "1B5FF575C5E1AAB9"
-				item: "gtceu:sulfuric_acid_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "1B5FF575C5E1AAB9"
+					item: "gtceu:sulfuric_acid_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6CFA0DA26132D320"
+					type: "checkmark"
+				}
+			]
 			x: -21.5d
 			y: 3.0d
 		}
@@ -1503,16 +1731,19 @@
 				{
 					id: "10A049F6B720C0B2"
 					item: "gtceu:neon_bucket"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "671D37985CA97721"
 					item: "gtceu:krypton_bucket"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "1123E9513445EB5C"
 					item: "gtceu:xenon_bucket"
+					optional_task: true
 					type: "item"
 				}
 			]
@@ -1702,13 +1933,21 @@
 				""
 				"&8&m现在都改成天然气了当然点不着&r&r"
 			]
+			icon: "gtceu:coal_gas_bucket"
 			id: "0A4D00F9F44C97DB"
 			subtitle: "煤气"
-			tasks: [{
-				id: "269637B80C1CC38F"
-				item: "gtceu:coal_gas_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "269637B80C1CC38F"
+					item: "gtceu:coal_gas_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "44ED3008271A164A"
+					type: "checkmark"
+				}
+			]
 			title: "流体特产：木卫一"
 			x: 18.0d
 			y: 11.0d
@@ -1740,7 +1979,10 @@
 			y: 11.0d
 		}
 		{
-			dependencies: ["1E239C34C36FAD60"]
+			dependencies: [
+				"0C6A00536686D9F5"
+				"251002F2103BDA84"
+			]
 			description: ["这里是Tier3器官，它可以带你去&c木卫一&r、&1木卫三&r、&5土卫二&r、&9土卫六&r、&d冥王星&r和&2霜原星&r"]
 			hide_dependency_lines: true
 			id: "56408F9F9ACD204D"
@@ -1801,13 +2043,21 @@
 		{
 			dependencies: ["27541258B94B2A11"]
 			description: ["三种基础酸之一，你会发现到处都需要它，以及可以大大减轻&3氯&r的压力"]
+			icon: "gtceu:hydrochloric_acid_bucket"
 			id: "5A9B6F823ED2477C"
 			subtitle: "盐酸"
-			tasks: [{
-				id: "4A497D4C5BF483F7"
-				item: "gtceu:hydrochloric_acid_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4A497D4C5BF483F7"
+					item: "gtceu:hydrochloric_acid_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "38EA9A1DDBA0968C"
+					type: "checkmark"
+				}
+			]
 			title: "流体特产：木卫三"
 			x: 21.5d
 			y: 17.0d
@@ -1917,11 +2167,13 @@
 				{
 					id: "56C39CCE7E576CC4"
 					item: "gtceu:chlorine_bucket"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "7C8982F27FB60C46"
 					item: "gtceu:fluorine_bucket"
+					optional_task: true
 					type: "item"
 				}
 			]
@@ -1976,16 +2228,19 @@
 				{
 					id: "4068B8C86678C11E"
 					item: "gtceu:charcoal_byproducts_bucket"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "3CE503B87A0B4CD4"
 					item: "gtceu:methane_bucket"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "534D12A19EB1346B"
 					item: "gtceu:benzene_bucket"
+					optional_task: true
 					type: "item"
 				}
 			]
@@ -2034,13 +2289,21 @@
 				""
 				"&8&o反正你就抽吧，一抽一个不吱声&r&r"
 			]
+			icon: "gtceu:nitric_acid_bucket"
 			id: "6C8CFC519E3813AC"
 			subtitle: "硝酸"
-			tasks: [{
-				id: "658085A3B7E95095"
-				item: "gtceu:nitric_acid_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "658085A3B7E95095"
+					item: "gtceu:nitric_acid_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "33379790D8E00DA1"
+					type: "checkmark"
+				}
+			]
 			title: "流体特产：冥王星"
 			x: 6.0d
 			y: 14.5d
@@ -2288,26 +2551,42 @@
 				""
 				"&o&8所以本质上你就是坐着炸药上天的呢）"
 			]
+			icon: "gtocore:rocket_fuel_cn3h7o3_bucket"
 			id: "5CA2359D7B952655"
 			shape: "gear"
 			size: 2.0d
 			subtitle: "黑火药的后继传人"
-			tasks: [{
-				id: "144A747E3B0BBC44"
-				item: "gtocore:rocket_fuel_cn3h7o3_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "144A747E3B0BBC44"
+					item: "gtocore:rocket_fuel_cn3h7o3_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3154A3006515E81D"
+					type: "checkmark"
+				}
+			]
 			title: "T4火箭燃料：硝酸甲肼"
 			x: -9.0d
 			y: 7.0d
 		}
 		{
+			icon: "gtocore:monomethylhydrazine_bucket"
 			id: "3AA02FCCAFB82E87"
-			tasks: [{
-				id: "4F351B531D0224A4"
-				item: "gtocore:monomethylhydrazine_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4F351B531D0224A4"
+					item: "gtocore:monomethylhydrazine_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4A694C65CE293367"
+					type: "checkmark"
+				}
+			]
 			x: -11.0d
 			y: 7.0d
 		}
@@ -2324,36 +2603,60 @@
 				""
 				"中国的“神箭”：长征-2F就是用的偏二甲肼-四氧化二氮作为燃料"
 			]
+			icon: "gtocore:rocket_fuel_h8n4c2o4_bucket"
 			id: "4A3E57669091C8A0"
 			shape: "gear"
 			size: 2.0d
 			subtitle: "重走长征路"
-			tasks: [{
-				id: "750F536A3AF98C27"
-				item: "gtocore:rocket_fuel_h8n4c2o4_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "750F536A3AF98C27"
+					item: "gtocore:rocket_fuel_h8n4c2o4_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1325768F83C2B389"
+					type: "checkmark"
+				}
+			]
 			title: "T5火箭燃料：偏二甲肼-四氧化二氮"
 			x: -9.0d
 			y: 10.0d
 		}
 		{
+			icon: "gtceu:dimethylhydrazine_bucket"
 			id: "726D63623917AEFF"
-			tasks: [{
-				id: "3C47A545034DAFF5"
-				item: "gtceu:dimethylhydrazine_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "3C47A545034DAFF5"
+					item: "gtceu:dimethylhydrazine_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "492ABEAEDBF35ABE"
+					type: "checkmark"
+				}
+			]
 			x: -11.0d
 			y: 10.5d
 		}
 		{
+			icon: "gtceu:dinitrogen_tetroxide_bucket"
 			id: "618BFD8A6FC90B86"
-			tasks: [{
-				id: "68844B5F07613780"
-				item: "gtceu:dinitrogen_tetroxide_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "68844B5F07613780"
+					item: "gtceu:dinitrogen_tetroxide_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "78BB41DA3AA9B4E6"
+					type: "checkmark"
+				}
+			]
 			x: -11.0d
 			y: 9.0d
 		}
@@ -2364,26 +2667,42 @@
 				"67A5C9B045EE23B0"
 				"462BE2D4394A2899"
 			]
+			icon: "ad_astra:cryo_fuel_bucket"
 			id: "2A60421E915FF505"
 			shape: "gear"
 			size: 2.0d
 			subtitle: "低温发射！"
-			tasks: [{
-				id: "06DB0648CC6329ED"
-				item: "ad_astra:cryo_fuel_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "06DB0648CC6329ED"
+					item: "ad_astra:cryo_fuel_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "718C90D9B627DBAA"
+					type: "checkmark"
+				}
+			]
 			title: "T6火箭燃料：凛冰燃料"
 			x: -9.0d
 			y: 13.0d
 		}
 		{
+			icon: "gtocore:explosivehydrazine_bucket"
 			id: "462BE2D4394A2899"
-			tasks: [{
-				id: "5CC6A7DE21C2E580"
-				item: "gtocore:explosivehydrazine_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "5CC6A7DE21C2E580"
+					item: "gtocore:explosivehydrazine_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "705E1A375390E167"
+					type: "checkmark"
+				}
+			]
 			x: -11.0d
 			y: 14.0d
 		}
@@ -2398,12 +2717,20 @@
 			y: 12.0d
 		}
 		{
+			icon: "gtceu:cetane_boosted_diesel_bucket"
 			id: "67A5C9B045EE23B0"
-			tasks: [{
-				id: "670C999BAD383253"
-				item: "gtceu:cetane_boosted_diesel_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "670C999BAD383253"
+					item: "gtceu:cetane_boosted_diesel_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2AE17171B4FA1131"
+					type: "checkmark"
+				}
+			]
 			x: -11.5d
 			y: 13.0d
 		}
@@ -2413,15 +2740,23 @@
 				"2A60421E915FF505"
 			]
 			description: ["最后的集大成者，当然产量也非常堪忧"]
+			icon: "gtocore:stellar_energy_rocket_fuel_bucket"
 			id: "3581343F25D5B03F"
 			shape: "gear"
 			size: 2.0d
 			subtitle: "恒星之力，借我一用！"
-			tasks: [{
-				id: "5DC2AE50E6E29B17"
-				item: "gtocore:stellar_energy_rocket_fuel_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "5DC2AE50E6E29B17"
+					item: "gtocore:stellar_energy_rocket_fuel_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "68211DF09FE8F976"
+					type: "checkmark"
+				}
+			]
 			title: "T7火箭燃料：星能火箭燃料"
 			x: -9.0d
 			y: 16.0d
@@ -2532,7 +2867,7 @@
 				"525F86A7BBB260AD"
 			]
 			description: [
-				"这个比&6宇航服&r更好！"
+				"这个比&6宇航服&r更好！太空纳米胸甲相比普通纳米胸甲来说多了一个氧气槽位"
 				""
 				"&7别问我整合包里为什么加入了一个比宇航服更好的衣服，却还让你在任务流程中制作它们……&r"
 				""

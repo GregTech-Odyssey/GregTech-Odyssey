@@ -1,4 +1,5 @@
 {
+	autofocus_id: "3D4EDD8BE3A2AA8E"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "wireless-energy"
@@ -21,6 +22,30 @@
 			width: 1.0d
 			x: 1.0d
 			y: 2.5d
+		}
+		{
+			height: 2.0d
+			image: "gtocore:item/circuit/suprachronal_mv"
+			rotation: 0.0d
+			width: 2.0d
+			x: -4.0d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "gtocore:item/circuit/suprachronal_hv"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.25d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "gtocore:item/circuit/suprachronal_hv"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: -0.5d
 		}
 	]
 	order_index: 1
@@ -45,7 +70,7 @@
 						value: "wireless_energy_receive_cover"
 					}
 				}
-				title: "无线能源接收器"
+				title: "任意无线能源接收器"
 				type: "item"
 			}]
 			x: -4.5d
@@ -182,7 +207,7 @@
 			description: [
 				"&6无线能源塔&r的&e结构玻璃等级&r决定了其能够生效的&6能量单元&r，务必使用不低于你安装的&6能量单元&r等级的&6结构玻璃&r"
 				""
-				"&2总容量=&n生效的&r&2能量单元容量之和*单元数量/2&r&r"
+				"&e总容量=&a生效的&r&e能量单元容量之和*单元数量/2&r&r"
 				""
 				"&d无线能源塔最高可以容纳30层能量单元&r"
 				""
@@ -281,6 +306,8 @@
 				"无线电网的能源储存需要载体"
 				""
 				"&6无线能源塔&r和&6无线能量单元&r提供了相应功能，你只需要一座该结构"
+				""
+				"摆放多座该结构只会以最后一座成型的为准"
 			]
 			hide_dependency_lines: false
 			id: "2F9D9F9271159654"
@@ -644,7 +671,7 @@
 						value: "wireless_output_hatch"
 					}
 				}
-				title: "无线动力仓"
+				title: "任意无线动力仓"
 				type: "item"
 			}]
 			x: -6.0d
@@ -670,7 +697,7 @@
 						value: "wireless_input_hatch"
 					}
 				}
-				title: "无线能源仓"
+				title: "任意无线能源仓"
 				type: "item"
 			}]
 			x: -6.75d
