@@ -2676,7 +2676,7 @@ metafile = true
 
 [[files]]
 file = "mods/botania.pw.toml"
-hash = "31862fa4fcae1cd40268e143d166327274d76b365fd1f1fb78e9fae4fdc34cb1"
+hash = "3527ccd8867741dfe6d21c4b6bac9e87ce1f6373e5b98c5f2cc1ea52681bd687"
 metafile = true
 
 [[files]]
@@ -2761,7 +2761,7 @@ metafile = true
 
 [[files]]
 file = "mods/creativecore.pw.toml"
-hash = "ba80cc37957ed8c7f6766ea09fa2c0d4364e22d977a3d79cf1d95b0cec63e04d"
+hash = "44245e405666e878f41403e50d2a941b86b6db2aaef8ddb8fc2089fca5134483"
 metafile = true
 
 [[files]]
@@ -2801,7 +2801,7 @@ metafile = true
 
 [[files]]
 file = "mods/duplicationless.pw.toml"
-hash = "b343e236011fab55d275a969ba5f6db6b77e08de45f4d5491af779703fa48b4c"
+hash = "8421350563d3ae212a0a6198d36e6a3a43c0047ef00f5057322aa99a5934fc51"
 metafile = true
 
 [[files]]
@@ -2841,7 +2841,7 @@ metafile = true
 
 [[files]]
 file = "mods/ex-pattern-provider.pw.toml"
-hash = "8f03ebfa2cc437a9d2484f7cd9487d697d682c6d8453dac841bd7237b133e733"
+hash = "1710bdc01ee77fcc6d36de14ef3d77fae162d98f99855a51a78d0b3ef29f9992"
 metafile = true
 
 [[files]]
@@ -2871,7 +2871,7 @@ metafile = true
 
 [[files]]
 file = "mods/farmers-delight.pw.toml"
-hash = "1f621129a3088055d0f1ff7dd0bddc603aafd4b9bed68d75dd3561e78638e673"
+hash = "21ba13b128e773c2b603af4f9142975a6059affb5b2241c9db69943c3e7aabf6"
 metafile = true
 
 [[files]]
@@ -2960,11 +2960,6 @@ hash = "c0bba64eb3be067e8f002c1e6c4a0ad2feb78d15e61e003e8f34cd5a909ada39"
 metafile = true
 
 [[files]]
-file = "mods/ftb-chunks-forge.pw.toml"
-hash = "6c6893267694003c8fc8a2c1a89e961d28add27991a26b60abedda1eafb0eb57"
-metafile = true
-
-[[files]]
 file = "mods/ftb-essentials.pw.toml"
 hash = "8a185af41fb24e83e4497c9362943723b6afee585cf8a3bf280ac155d29bf593"
 metafile = true
@@ -3020,8 +3015,8 @@ hash = "fb0ca6ee752cc276386ad33dcd78b062d0f70ddb8ff1ffb7a776f28cb60069ea"
 metafile = true
 
 [[files]]
-file = "mods/gtocore-0.5.5-pre4.jar"
-hash = "f3e4f3262fd973f00b1bdec7cc8298324128832c0eef132ec04e20d755fd567c"
+file = "mods/gtocore-0.5.5.jar"
+hash = "2be41f64aecbe0ce9673bb775e70db5bc66aaeb3daa54cf33d193f7435b488fb"
 
 [[files]]
 file = "mods/gtonativelib-1.0.jar"
@@ -3209,7 +3204,7 @@ metafile = true
 
 [[files]]
 file = "mods/open-parties-and-claims.pw.toml"
-hash = "7c28442cd0ed14c96da1f331be121d754f8ced6afa7bfae709ba66988f5d8ceb"
+hash = "aaa56ccc7cd76183177724d7dcd3b4aa4f07024a4e6935a5681343d5717f4cac"
 metafile = true
 
 [[files]]
@@ -3274,12 +3269,12 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "2561f8494640e66d11d22fa064a9ef9eff44d4e2a614ead87ad6c5ed887383c6"
+hash = "1bfa19460d300dc5fd535e57633923f3a7b73fa80f4ed74769fffcb9559891e0"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "228b67d1e0c562f646503405e0494df09f13f25e5df307876a85064efb85103d"
+hash = "9851307ef7dc5b583e0883f1a4b5a0b001753c02adac9eddc278b4af0be76997"
 metafile = true
 
 [[files]]
@@ -3359,5 +3354,5 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/ae-light-ui-multi-module.pw.toml"
-hash = "297edef3938041b268cee889d3cc8743e7a28ded4f9fbfbfb14a59354edb9c81"
+hash = "65ed1dfdb77b2ba9481153330165b2e3dda48e43db265603e1dd4e922885da08"
 metafile = true
