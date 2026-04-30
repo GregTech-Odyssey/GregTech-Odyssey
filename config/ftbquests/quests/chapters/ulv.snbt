@@ -235,7 +235,7 @@
 				""
 				"煤炭块加热的速度是煤炭的&a1/4&r，同时加热时间是煤炭的&a4倍&r。它的加热速度（&a1K/s&r）还刚好与机器工作时每秒消耗的热量相同"
 				""
-				"别忘了在EMI查看&e多方块结构&r，点击P可以在&6蒸馏塔&r的&b最小&r和&b最大&r长度之间切换"
+				"原始蒸馏塔可以加高，最高&a13&r层。&e每一层都输出且&c仅能&r&e输出一种产物&r，如果层数不够，则会吞掉靠上的产物"
 			]
 			icon: "gtocore:primitive_distillation_tower"
 			id: "561F5AACF437E7C5"
@@ -267,6 +267,7 @@
 			dependencies: ["7D370CF55A0AE36D"]
 			description: [
 				"由于电压过低，实际上也只能处理那么几个配方。"
+				""
 				"聚乙烯是你必须要处理的配方。"
 			]
 			id: "35926F43AF33BB41"
@@ -345,7 +346,7 @@
 				""
 				"&o&7可以安装在多个侧面并行工作，增加抽入速度&r"
 			]
-			hide_dependency_lines: true
+			hide_dependent_lines: true
 			id: "1CDBE91D2ACD9111"
 			shape: "hexagon"
 			size: 1.2d
@@ -603,6 +604,7 @@
 			dependencies: [
 				"423C010EB03C96E6"
 				"7A7105B0D9CAB320"
+				"1CDBE91D2ACD9111"
 			]
 			description: [
 				"聚乙烯是唯一能在&6化学反应釜&r合成的简单有机聚合物，更高级的聚合物都需要在专门的&6聚合器&r完成反应"
@@ -716,14 +718,22 @@
 				""
 				"&e注意：真空泵不能位于机器的正上方或正下方&r"
 			]
+			icon: "gtocore:hp_steam_vacuum_pump"
 			id: "5CFDAB8B03980F9D"
 			shape: "hexagon"
 			subtitle: "喜欢贴贴"
-			tasks: [{
-				id: "6692EFF7A36E5403"
-				item: "gtocore:hp_steam_vacuum_pump"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "6692EFF7A36E5403"
+					item: "gtocore:hp_steam_vacuum_pump"
+					type: "item"
+				}
+				{
+					id: "6F641EAEA2A0EAAC"
+					item: "gtceu:bronze_huge_fluid_pipe"
+					type: "item"
+				}
+			]
 			title: "更大更强的真空"
 			x: 3.5d
 			y: 2.85d
@@ -936,7 +946,7 @@
 			description: [
 				"当然蒸馏塔的使用需要&5严格遵循&rEMI的配方指引"
 				""
-				"如果运行的配方有&e11&r种产出，则需要搭建&a12层高&r的蒸馏塔(第一层只能放置输出总线输出固体产物)"
+				"如果运行的配方有&a11&r种产出，则需要搭建&a12&r层高的蒸馏塔(第一层只能放置输出总线输出固体产物)"
 				""
 				"以及还是那个问题，注意别让原始蒸馏塔&4爆炸了&r"
 			]
@@ -1055,7 +1065,7 @@
 			description: [
 				"与常规GregTech流程不同的是，为了进入&7LV&r阶段，在超低压阶段你就需要制作塑料片（&6聚乙烯板&r）来合成&6LV机器外壳&r"
 				""
-				"因此，你现在需要搭建一条&7原始&r而&e简单&r的石化产线来获取乙烯"
+				"因此，你现在需要搭建一条&7原始&r的石化产线来获取乙烯。这对于仍在&8ULV&r阶段的你是一个不小的考验"
 				""
 				"&e在接下来的任务中你会看到&r&a“检查标记”&r&e按钮，在你按下这个按钮之后就可以进行下一步的任务了&r"
 				""
@@ -1098,10 +1108,12 @@
 				"仔细翻看EMI，不要遗漏它的两个配方！"
 				""
 				"你现在做不出退火铜，所以你必须使用&7铜导线&r"
+				""
+				"目前获取碳粉的途径有两个：石墨矿破碎，或者土高炉的副产物"
 			]
 			id: "206990570B2743AE"
 			shape: "circle"
-			subtitle: "你应该也有不少存货"
+			subtitle: "你接触的第一个电子元件"
 			tasks: [{
 				id: "0ED08CFF140E39C1"
 				item: "gtceu:resistor"
@@ -1118,8 +1130,9 @@
 				"5CFDAB8B03980F9D"
 			]
 			description: [
-				"制造这个宝贝需要你的组装机达到&4真空2级&r的条件，希望"
-				"[\"\",{\"text\":\"你已经准备好了\"},{\"text\":\"高压蒸汽真空泵\",\"color\":\"red\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5CFDAB8B03980F9D\"} }]"
+				"制造这个宝贝需要你的组装机达到&4真空2级&r的条件"
+				""
+				"希望你已经准备好了&6高压蒸汽真空泵&r"
 			]
 			id: "2D5EB54D9AC2F900"
 			shape: "circle"
@@ -1158,11 +1171,14 @@
 			dependencies: [
 				"1CDBE91D2ACD9111"
 				"020E8B707A8CF794"
+				"31F0EB6822F9566E"
 			]
 			description: [
 				"如果你还没有造&6蒸汽分离机&r，是时候造一台了"
 				""
 				"离心&6空气&r获取氧气"
+				""
+				"&o&7提示：你需要安装至少两个蒸汽流体输出仓才可以执行离心空气的配方（因为这个配方有两个流体产物）"
 			]
 			icon: "ad_astra:oxygen_bucket"
 			id: "6C328AB57C610EF9"
@@ -1187,7 +1203,7 @@
 			description: [
 				"&6织布机&r是可以将导线制作为多重导线的机器"
 				""
-				"比压缩机效率更高，但实际上更大的高A导线还是需要织布机完成合成"
+				"比压缩机效率更高，后续的高A导线都必须使用织布机合成"
 			]
 			id: "3BE44DC31F4047B9"
 			shape: "hexagon"
@@ -1242,7 +1258,10 @@
 			y: -8.5d
 		}
 		{
-			dependencies: ["1CDBE91D2ACD9111"]
+			dependencies: [
+				"1CDBE91D2ACD9111"
+				"31F0EB6822F9566E"
+			]
 			description: [
 				"可以往多方块里面塞&4无限&r的空气参与合成"
 				""
@@ -1262,9 +1281,11 @@
 		{
 			dependencies: ["0FBE7318DFBA700E"]
 			description: [
-				"如果觉得造价太高可以先用单方块采矿机，等你产能上来了再做"
+				"仍然只能挖掘实体矿脉，机器的电压等级取整体框架和能源仓提供电压的最小值"
 				""
-				"你在LV阶段就可以解锁用电的单方块矿机，速度比蒸汽矿机快了不少，至少能用了"
+				"如果觉得造价太高可以先用单方块矿机，等你产能上来了再做"
+				""
+				"&o&7LV阶段可以解锁用电的单方块矿机，速度比蒸汽矿机快了不少，至少能用了"
 			]
 			id: "6CC4173B5BF99920"
 			shape: "diamond"
@@ -1370,12 +1391,20 @@
 			icon: "gtceu:polyethylene_plate"
 			id: "7F95D501ADA3E661"
 			optional: true
-			rewards: [{
-				count: 128
-				id: "3F375135B8844521"
-				item: "gtceu:polyethylene_plate"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 128
+					id: "3F375135B8844521"
+					item: "gtceu:polyethylene_plate"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "06C002551DEA55CC"
+					item: "gtocore:copper_coin"
+					type: "item"
+				}
+			]
 			shape: "octagon"
 			tasks: [{
 				id: "20AFC6809A3258AD"
@@ -1416,12 +1445,20 @@
 			icon: "gtceu:basic_electronic_circuit"
 			id: "35CBD9D27781F929"
 			optional: true
-			rewards: [{
-				count: 16
-				id: "272BCD53EE7CB4F6"
-				item: "gtceu:basic_electronic_circuit"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 16
+					id: "272BCD53EE7CB4F6"
+					item: "gtceu:basic_electronic_circuit"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "1F285D2FFAC22CBF"
+					item: "gtocore:copper_coin"
+					type: "item"
+				}
+			]
 			shape: "octagon"
 			tasks: [{
 				id: "0A11CC353F29846B"
@@ -1438,6 +1475,7 @@
 			]
 			hide_until_deps_visible: true
 			id: "2F5F08A3D4B89B05"
+			optional: true
 			subtitle: "机器淋雨会爆炸！"
 			tasks: [{
 				id: "1BAF14E7BEC449F7"
@@ -1569,6 +1607,22 @@
 			title: "芯片补助&e（普通）&r"
 			x: 6.0d
 			y: 1.0d
+		}
+		{
+			dependencies: ["1CDBE91D2ACD9111"]
+			disable_toast: true
+			icon_scale: 0.25d
+			id: "31F0EB6822F9566E"
+			shape: "none"
+			size: 0.25d
+			tasks: [{
+				id: "6EA88A0AB6903848"
+				stat: "minecraft:jump"
+				type: "stat"
+				value: 1
+			}]
+			x: -2.0d
+			y: 2.85d
 		}
 	]
 	subtitle: ["Tier0.5-ULV"]

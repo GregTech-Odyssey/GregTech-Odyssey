@@ -44,13 +44,6 @@
 	order_index: 3
 	quest_links: [
 		{
-			id: "111C9085726F8FA6"
-			linked_quest: "018F46EE6AE97EFD"
-			shape: "diamond"
-			x: -6.0d
-			y: 4.25d
-		}
-		{
 			id: "112AADE317BB4B64"
 			linked_quest: "3D1E66868544975F"
 			shape: "gear"
@@ -65,14 +58,24 @@
 			x: -4.5d
 			y: 4.25d
 		}
+		{
+			id: "726FB94A361C384B"
+			linked_quest: "6CC4173B5BF99920"
+			shape: "hexagon"
+			size: 1.5d
+			x: -12.0d
+			y: 3.0d
+		}
 	]
 	quests: [
 		{
 			dependencies: ["507807175748245C"]
 			description: [
 				"磁化铁杆可以手动合成，但磁化钢杆起就不行了"
+				""
 				"之后的磁化物质都需要通过它来制作"
 			]
+			hide_dependent_lines: true
 			id: "733C4A68EC2FA1ED"
 			subtitle: "拯救你的红石"
 			tasks: [{
@@ -221,7 +224,11 @@
 		}
 		{
 			dependencies: ["24DABF4CEA8A4C86"]
-			description: ["你的第一桶液态锡来源于锡锭高温提取。"]
+			description: [
+				"你的第一桶液态锡来源于锡锭高温提取"
+				""
+				"&e注意需要外部热源&r"
+			]
 			icon: "gtceu:tin_bucket"
 			id: "460804A73862A336"
 			subtitle: "你的第一桶液态金属"
@@ -250,7 +257,7 @@
 			description: [
 				"将&6铁粉&r与&6液态锡&r放置在&6搅拌机&r内搅拌即可获得"
 				""
-				"&n注意需要外部热源&r"
+				"&e需要的温度更高，你需要一台电力加热器&r"
 			]
 			icon: "gtceu:tin_alloy_bucket"
 			id: "7C0B37FD464985AC"
@@ -298,13 +305,11 @@
 				"021F533355CCBABA"
 			]
 			description: [
-				"GTO新增的机器，你可以用这个大家伙将固态物质&e高温液化&r为液态形式"
+				"GTO新增的机器，&e主线流程中必须制造的机器&r。你可以用这个大家伙将固态物质&e高温液化&r为液态形式"
 				""
 				"由于熔点过高，&6流体提取机&r无法做到很多事情，需要&6液化炉&r出马"
 				""
 				"加装附属模块后支持&e并行&r"
-				""
-				"&o&7液化炉取代了提取机的大部分职能导致提取机没什么用了"
 			]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
@@ -331,6 +336,8 @@
 				"上面列出了你完成一个完整的电力高炉所需要的全部材料。"
 				""
 				"随着游戏进程的发展，你会制造更为强大的机器，但他们的基础材料来源都是电力高炉。"
+				""
+				"&b再次提醒&r：你需要给&6高炉&r安装&a两个&r&6LV能源仓&r来升压到MV来满足铝的&e电压要求&r，直到你可以制作更高级的能源仓"
 			]
 			icon: "gtceu:electric_blast_furnace"
 			id: "06534664971F6E68"
@@ -409,8 +416,6 @@
 				""
 				"恭喜你得到了MV阶段的重要金属材料！"
 				""
-				"再次提醒：在目前，你需要给&6高炉&r安装&a两个&r&6LV能源仓&r来升压到MV来满足铝的&e电压要求&r，直到你可以制作更高级的能源仓"
-				""
 				"&e在进入下个阶段之前，最好检查你是否拥有足够的发电量或发电潜力&r"
 			]
 			id: "68EFF1609132BDD4"
@@ -454,6 +459,7 @@
 			dependencies: [
 				"5B8151CC61AAAE12"
 				"7A1442B2BADD8D46"
+				"374AAA39740AB6A7"
 			]
 			description: ["[ \"铜线缆的作用也仅仅只是合成罢了，为什么不去看看这个阶段的\", { \"text\": \"超导体\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0DF27446EE5DB28F\" } }, \"呢？\" ]"]
 			id: "2D5A5D2DE390665C"
@@ -480,6 +486,7 @@
 				""
 				"在化学反应釜里完成它吧"
 			]
+			hide_dependent_lines: true
 			icon: "gtceu:rubber_bucket"
 			id: "7A1442B2BADD8D46"
 			subtitle: "线缆的重要组成部分"
@@ -644,8 +651,9 @@
 				"这个大家伙可以做到&2两倍&r（简单模式四倍）的产出，但它&e只能执行一种配方&r"
 				""
 				"使用前需要&e铭刻&r电路，即在它的输入总线里面放置需求数量的&6电路板&r，然后打开主方块的GUI并且按下铭刻电路即可。"
+				""
+				"你需要到达&bMV&r阶段才能制作它"
 			]
-			hide_dependency_lines: true
 			id: "12FEAB1A9AA1BCA6"
 			shape: "hexagon"
 			size: 1.5d
@@ -741,7 +749,7 @@
 			description: [
 				"这个大家伙的输入和输出都只能通过&6钢制储罐阀门&r来进行。"
 				""
-				"&6钢制储罐阀门&r的自动输出需要开口向下，但&6大型蒸汽储罐&r没有地方可以让&6钢制储罐阀门&r向下开口，所以你需要用&6蒸汽泵&r加&e管道&r的形式将蒸汽从储罐内导出。"
+				"&6钢制储罐阀门&r的自动输出需要开口向下，但大型蒸汽储罐没有地方可以让钢制储罐阀门向下开口，所以你需要用&6管道&r的&b主动抽取功能&r将蒸汽导出，或者使用&6蒸汽泵&r。"
 			]
 			id: "4C535A516D8551F5"
 			optional: true
@@ -836,21 +844,25 @@
 		{
 			dependencies: ["6A9DFD965CA33D75"]
 			description: [
-				"本质上多方块机器的工作速度取决于能源仓所能提供的&6总功率&r"
+				"多方块机器的工作速度本质上取决于能源仓所能提供的&6总功率&r"
 				""
 				"所以想加快处理速度有两个&b通用&r办法：增加&e电压&r和增加&e电流&r"
 				""
+				"能源仓还影响多方块机器的&e配方等级&r，机器的配方等级必须&a大于等于&r配方的电压等级才会工作"
+				""
 				"[\"\",{\"text\": \"想要加速机器还有很多其他方式，本章中的\",\"italic\": true,\"color\":\"gray\"}, {\"text\": \"加速仓\",\"color\":\"gray\",\"italic\": true,\"underlined\": true,\"clickEvent\": {\"action\": \"change_page\",\"value\": \"7F65A1C533ED1C3B\"}},{\"text\": \"也是其中之一。完整加速方法请前往\",\"italic\": true,\"color\":\"gray\"},{\"text\": \"提示\",\"color\":\"gray\",\"italic\": true,\"underlined\": true,\"clickEvent\": {\"action\": \"change_page\",\"value\": \"16047F3F79404251\"}},{\"text\": \"查看\",\"italic\": true,\"color\":\"gray\"}]"
 				""
-				"另外，在一台多方块机器上安装至少&a两个&r&6同等级能源仓&r（无需电流相同）可以触发机器&6升压&r，机器升压后可以执行&b高一级电压&r的配方"
+				"====="
+				""
+				"&b机制介绍<双仓升压>&r：在一台多方块机器上安装至少&a两个&r&6同等级能源仓&r（无需电流相同）可以触发机器&6升压&r，机器升压后可以执行&d高一级电压&r的配方"
 				""
 				"在刚开始，你需要给&6高炉&r安装&a两个&r&6LV能源仓&r来升压到MV来满足铝的&e电压要求&r"
 			]
 			icon: "gtceu:lv_energy_input_hatch"
 			id: "23A116C4BAE96979"
 			rewards: [{
-				id: "27B3BEBE0FC9D1FF"
-				item: "gtocore:gold_coin"
+				id: "1A0B288DE57AE7EA"
+				item: "gtocore:silver_coin"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -888,6 +900,12 @@
 			]
 			icon: "gtceu:maintenance_hatch"
 			id: "58434872C6EC4E32"
+			rewards: [{
+				count: 5
+				id: "475D85B0BC979E80"
+				item: "gtceu:duct_tape"
+				type: "item"
+			}]
 			subtitle: "最后要交代的琐碎话"
 			tasks: [
 				{
@@ -909,6 +927,11 @@
 			dependencies: [
 				"5FBCB0C7F914D814"
 				"1D40D24D6870493D"
+			]
+			description: [
+				"&6提取机&r可以用于提取液态锡，生橡胶末和染料"
+				""
+				"与原版GT不同的是，&6提取机&r的大部分职能被&6液化炉&r取代了，导致提取机其实没什么用"
 			]
 			hide_dependency_lines: true
 			id: "24DABF4CEA8A4C86"
@@ -978,7 +1001,6 @@
 			dependencies: [
 				"2F057F1B67418205"
 				"0EDB058F9C6882FE"
-				"49122B7DBE422691"
 			]
 			id: "683439639A27C86E"
 			tasks: [{
@@ -1082,7 +1104,11 @@
 		}
 		{
 			dependencies: ["5FBCB0C7F914D814"]
-			description: ["现阶段可以压部分管道，螺栓"]
+			description: [
+				"&6压模器&r大部分的配方都需要更高的电压"
+				""
+				"现阶段可以压部分管道，螺栓"
+			]
 			id: "5623C36D02012C3B"
 			shape: "hexagon"
 			tasks: [{
@@ -1111,26 +1137,6 @@
 			}]
 			x: -12.0d
 			y: -3.0d
-		}
-		{
-			dependencies: [
-				"6BB3386725B228D5"
-				"12F3FAEB69397980"
-			]
-			description: ["有些昂贵...值得吗？"]
-			hide_dependency_lines: true
-			id: "7FD151D808A41D6C"
-			optional: true
-			shape: "hexagon"
-			size: 1.5d
-			subtitle: "免费能源"
-			tasks: [{
-				id: "62AE2C2CABA01A4C"
-				item: "gtocore:energetic_photovoltaic_power_station"
-				type: "item"
-			}]
-			x: -10.5d
-			y: 3.0d
 		}
 		{
 			dependencies: ["12F3FAEB69397980"]
@@ -1164,6 +1170,8 @@
 				"注意需要安装伐木工具"
 				""
 				"安装斧头消耗耐久，安装链锯消耗电量"
+				""
+				"[\"EV以后配合\", { \"text\": \"无线充能器\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"22A3C58D1FDF2221\" } },\"可以直接给主机里的链锯充电\" ]"
 			]
 			hide_dependency_lines: true
 			id: "7BAA2D31EC72AEDB"
@@ -1231,7 +1239,10 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["48B7848EAF919782"]
+			dependencies: [
+				"48B7848EAF919782"
+				"733C4A68EC2FA1ED"
+			]
 			description: [
 				"从低压时代开始，各种部件和材料大多都需要用特定的机器制作，而不能手动合成"
 				""
@@ -1330,7 +1341,10 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["7392F240AD330C1A"]
+			dependencies: [
+				"7392F240AD330C1A"
+				"7A1442B2BADD8D46"
+			]
 			id: "14285E8F662204AE"
 			rewards: [{
 				id: "2BC08EBF106CECAB"
@@ -1399,7 +1413,7 @@
 			description: [
 				"通过调整电路，辊轧机可以高效率地让你的锭变成单层板或者双层板"
 				""
-				"&e可以将锭1：1变成单层板，大幅节省材料&r"
+				"&e可以将锭1:1变成单层板，大幅节省材料&r"
 			]
 			id: "41579A15F57773B0"
 			shape: "gear"
@@ -1418,7 +1432,7 @@
 			description: [
 				"多辊式轧机可以让你的单层板变成箔"
 				""
-				"你需要用它来制作&6云母绝缘薄片&r和优质电子电路中需要的&6箔&r"
+				"你需要用它来制作&6云母绝缘薄片&r，以及&e翻倍产出&r优质电子电路中需要的&6箔&r"
 			]
 			hide_dependent_lines: true
 			id: "49122B7DBE422691"
@@ -1477,6 +1491,7 @@
 				"707FE9ADE3861C97"
 				"2BE979586DBE34BC"
 				"4ECCD5C54FE7F706"
+				"058D423F0418A0A9"
 			]
 			description: [
 				"这是低压时代你能制作的无线P2P物流，拥有超模的传输速率"
@@ -1543,6 +1558,7 @@
 				""
 				"但也许你可以把它当自动菜刀用"
 			]
+			hide_dependent_lines: true
 			id: "2BE979586DBE34BC"
 			subtitle: "电动菜刀"
 			tasks: [{
@@ -1580,9 +1596,12 @@
 			y: -5.5d
 		}
 		{
-			dependencies: ["06534664971F6E68"]
+			dependencies: [
+				"06534664971F6E68"
+				"2BE979586DBE34BC"
+			]
 			description: [
-				"&6基础空气净化器&r能净化周围&216&r格内的空气，使消声仓产生灰烬的概率降低&233%&r"
+				"&6基础空气净化器&r能净化周围&216&r格内的空气，使消声仓产生灰烬的概率降低&250%&r"
 				""
 				"&6空气净化器&r的净化能力和净化范围都会随等级提升"
 				""
@@ -1844,7 +1863,7 @@
 			description: [
 				"基本就是一台蒸汽水泵"
 				""
-				"输入&6蒸汽&r，它会回报你&n&6等量&r&r的水！"
+				"输入&6蒸汽&r，它会回报你&b等量&r的水！"
 			]
 			hide_dependency_lines: true
 			id: "797A8C4D7840C011"
@@ -1860,6 +1879,11 @@
 		}
 		{
 			dependencies: ["35347DE9C34F2825"]
+			description: [
+				"最低级的探矿仪，只能勘探实体矿脉"
+				""
+				"可以查看探矿仪的EMI来获取矿脉信息"
+			]
 			id: "262EB199FFE689FF"
 			tasks: [{
 				id: "01C8AC4F9FD1ECA9"
@@ -1871,7 +1895,11 @@
 		}
 		{
 			dependencies: ["29896685477AA469"]
-			description: ["按照比例缩短&6多方块机器&r的配方处理时间，当加速仓等级&b低于&r配方等级时，加速效果将&4大幅度&r减弱"]
+			description: [
+				"按照比例无条件缩短&6多方块机器&r的配方处理时间"
+				""
+				"当加速仓等级&b低于&r当前配方的配方等级时，加速效果将&4大幅度&r减弱，每低一级减少20%"
+			]
 			id: "7F65A1C533ED1C3B"
 			shape: "diamond"
 			subtitle: "狠狠地加速！"
@@ -1887,9 +1915,11 @@
 		{
 			dependencies: ["6A9DFD965CA33D75"]
 			description: [
-				"可以安装在任意单方块机器和大部分多方块机器上，以额外的功率为代价换取更低的配方耗时，总能耗不变"
+				"可以安装在任意单方块机器和几乎所有多方块机器上，以额外的功率为代价换取更低的配方耗时，总能耗不变"
 				""
-				"&e注意增幅器有可能会使机器功率超过能源仓的上限，导致机器无法正常工作&r"
+				"&e增幅器的优先级比超频高，因此很多时候会顶掉一次超频，这不是bug，因此不要给无损超频的机器贴&r"
+				""
+				"&c在0次超频的机器上贴增幅器有可能会使机器拉取超过上限的功率，导致机器断电&r"
 			]
 			id: "1FCF7BF494F483B4"
 			shape: "diamond"
@@ -1903,17 +1933,22 @@
 			y: 6.5d
 		}
 		{
-			dependencies: ["06534664971F6E68"]
+			dependencies: [
+				"06534664971F6E68"
+				"561F5AACF437E7C5"
+			]
 			description: [
 				"&l&e附属模块&r&r机制是GTO的特色之一！"
 				""
-				"在你之后获得了更好的资源之后，有一部分机器能加装&e附属模块&r，它们允许机器安装新的仓室（如&6加速仓&r，&6并行仓&r，更多的&6输入输出和能源仓&r），部分机器的附属模块本身还提供了&b额外效果&r（如通用工厂）"
+				"在你之后获得了更好的资源之后，有一部分机器能加装&e附属模块&r，它们允许机器安装新的仓室（如&6加速仓&r，&6并行控制仓&r，更多的&6输入输出和能源仓&r），部分机器的附属模块本身还提供了&b额外效果&r（如通用工厂）"
 				""
 				"打开EMI多方块预览，点击右侧P可以查看附属模块，需要注意，&e你应当把模块加装到原来机器上，而非拆除原本机器重新建造&r！"
 				""
 				"使用&b高级终端&r可以指定建造附属模块"
 				""
 				"在你进入HV获得&6不锈钢&r时，你可以为电力高炉安装&e附属模块&r"
+				""
+				"你应该也注意到了原始蒸馏塔有附属模块，切换到P: 1即可预览形态。原始蒸馏塔的附属模块安装后可以处理蒸馏水的配方"
 			]
 			icon: "gtceu:stainless_steel_frame"
 			id: "39879EA8A9F79913"
@@ -2161,7 +2196,7 @@
 				item: "gtocore:large_steam_solar_boiler"
 				type: "item"
 			}]
-			x: -12.0d
+			x: -10.5d
 			y: 3.0d
 		}
 		{
@@ -2393,15 +2428,19 @@
 				"1FCF7BF494F483B4"
 			]
 			description: [
-				"升级模块拿在手上&e潜行右键&r会消耗玩家&c全部&r的经验，然后附加属性（确保玩家有10级以上的经验），可以右键机器来升级，升级效果为永久加成，可覆盖升级。"
+				"升级模块拿在手上&e潜行右键&r会消耗玩家&c全部&r的经验来获取附加属性。玩家至少需要拥有10级经验，当消耗100级经验时附加属性几率达到最大值"
 				""
-				"效果比他的兄弟增幅器&e强力非常多&r，因此可以应用模块的机器&c较为有限&r，以下为已知可以使用模块的机器："
+				"升级模块可以右键机器来升级，升级效果为永久加成，可覆盖升级"
+				""
+				"升级模块可以无条件给机器提供两个乘区，效果比他的兄弟增幅器&e强力非常多&r，因此可以应用模块的机器&c较为有限&r，以下为已知可以使用模块的机器："
 				""
 				"- 所有单方块机器"
-				"- 电力高炉"
+				"- 电力高炉和烈焰高炉"
 				"- 反应炉"
 				"- &e“大批量加工”&r章节中的机器"
-				"- 巨型真空冷冻机"
+				"- 转底炉，巨型合金冶炼炉和巨型真空冷冻机"
+				""
+				"注意：升级模块会&c直接消耗玩家全部的经验&r，请使用&6经验方尖碑&r存储你多余的经验"
 			]
 			id: "389D61CE9E799725"
 			rewards: [{
@@ -2436,7 +2475,7 @@
 		{
 			dependencies: ["29896685477AA469"]
 			description: [
-				"可以给小机器和玩家无线充电，HV之后配合&6无线充能覆盖版&r可以给方块充电"
+				"可以给小机器和玩家无线充电，放入&bHV力场发生器&r之后配合&6无线充能覆盖版&r可以给方块充电"
 				""
 				"[ \"点\", { \"text\": \"这里\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5C62ECF9AC84E023\" } }, \"获取覆盖版用法\"]"
 			]
@@ -2474,9 +2513,13 @@
 		{
 			dependencies: ["072F7B0A69F0DB7A"]
 			description: [
-				"在此阶段不是必需的机器"
+				"&6激光焊接器&r在此阶段并不是必需的机器"
 				""
-				"如果你想发展AE，你需要用到它"
+				"它主要用于制作晶圆，以及无暇/精致宝石"
+				""
+				"在普通/专家模式下，&bMV&r阶段还需要用它制作AE电路板"
+				""
+				"&o&7此处仅用于介绍激光焊接器这一机器类型，不代表必须制作LV版本"
 			]
 			id: "2A893BFDB41B7CFC"
 			tasks: [{
@@ -2630,7 +2673,7 @@
 				""
 				"&7如何补充燃料：右击你的燃料储存桶&r"
 				""
-				"现阶段你能使用的燃料只有含硫轻燃油"
+				"含硫轻燃油获取方便，可作为其燃料之一"
 			]
 			id: "62F451C62752F3B7"
 			optional: true
@@ -2699,6 +2742,38 @@
 			}]
 			x: -1.0d
 			y: -7.0d
+		}
+		{
+			dependencies: ["7A1442B2BADD8D46"]
+			disable_toast: true
+			icon_scale: 0.25d
+			id: "374AAA39740AB6A7"
+			shape: "none"
+			size: 0.25d
+			tasks: [{
+				id: "1EA95F3E410E8A35"
+				stat: "minecraft:jump"
+				type: "stat"
+				value: 1
+			}]
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2BE979586DBE34BC"]
+			disable_toast: true
+			icon_scale: 0.25d
+			id: "058D423F0418A0A9"
+			shape: "none"
+			size: 0.25d
+			tasks: [{
+				id: "3E46A11F3465C6DF"
+				stat: "minecraft:jump"
+				type: "stat"
+				value: 1
+			}]
+			x: 7.0d
+			y: -4.0d
 		}
 	]
 	subtitle: ["Tier1-LV"]

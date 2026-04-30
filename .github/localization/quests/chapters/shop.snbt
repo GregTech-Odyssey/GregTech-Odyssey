@@ -7,6 +7,35 @@
 	group: ""
 	icon: "gtocore:infinity_coin"
 	id: "39E07AEC9BF826C0"
+	images: [
+		{
+			dependency: "12D5479B3944EA92"
+			height: 1.0d
+			image: "gtocore:item/circuit/suprachronal_hv"
+			rotation: 0.0d
+			width: 1.0d
+			x: -12.0d
+			y: 7.5d
+		}
+		{
+			dependency: "12D5479B3944EA92"
+			height: 1.0d
+			image: "gtocore:item/circuit/suprachronal_hv"
+			rotation: 0.0d
+			width: 1.0d
+			x: -10.0d
+			y: 7.5d
+		}
+		{
+			dependency: "12D5479B3944EA92"
+			height: 1.0d
+			image: "gtocore:item/circuit/suprachronal_hv"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.0d
+			y: 7.5d
+		}
+	]
 	order_index: 4
 	quest_links: [ ]
 	quests: [
@@ -43,24 +72,6 @@
 			y: 3.5d
 		}
 		{
-			icon: "functionalstorage:fluid_1"
-			id: "3EA452F60E60C8F6"
-			rewards: [{
-				id: "5715A73ACD094B0B"
-				item: "functionalstorage:fluid_1"
-				type: "item"
-			}]
-			tasks: [{
-				count: 16L
-				id: "7A4575C33160DD34"
-				item: "gtocore:copper_coin"
-				type: "item"
-			}]
-			title: "{gto.shop.quests.3EA452F60E60C8F6.title}"
-			x: -9.5d
-			y: 3.5d
-		}
-		{
 			icon: {
 				Count: 1
 				id: "ae2:portable_item_cell_16k"
@@ -78,6 +89,7 @@
 						internalCurrentPower: 20000.0d
 					}
 				}
+				team_reward: false
 				type: "item"
 			}]
 			tasks: [{
@@ -90,10 +102,11 @@
 				type: "item"
 			}]
 			title: "{gto.shop.quests.37BDC691AE637B25.title}"
-			x: -7.5d
+			x: -9.5d
 			y: 3.5d
 		}
 		{
+			description: ["{gto.shop.quests.1582FEAB70E4AADD.description0}"]
 			icon: "gtceu:lv_super_tank"
 			id: "1582FEAB70E4AADD"
 			rewards: [{
@@ -108,7 +121,7 @@
 				type: "item"
 			}]
 			title: "{gto.shop.quests.1582FEAB70E4AADD.title}"
-			x: -3.5d
+			x: 0.5d
 			y: 3.5d
 		}
 		{
@@ -162,17 +175,14 @@
 				type: "random"
 			}]
 			tasks: [{
-				count: 16L
+				count: 8L
 				id: "662FE8DFA0279A77"
-				item: {
-					Count: 16
-					id: "gtocore:copper_coin"
-				}
+				item: "gtocore:copper_coin"
 				type: "item"
 			}]
 			title: "{gto.shop.quests.77D7AF6D8806AFBF.title}"
-			x: -1.5d
-			y: 3.5d
+			x: 6.5d
+			y: 5.5d
 		}
 		{
 			can_repeat: false
@@ -211,7 +221,7 @@
 				type: "checkmark"
 			}]
 			title: "{gto.shop.quests.1CF16D3C2338C2D2.title}"
-			x: -1.5d
+			x: -0.5d
 			y: 0.0d
 		}
 		{
@@ -232,6 +242,7 @@
 						internalCurrentPower: 20000.0d
 					}
 				}
+				team_reward: false
 				type: "item"
 			}]
 			tasks: [{
@@ -244,7 +255,7 @@
 				type: "item"
 			}]
 			title: "{gto.shop.quests.5348790CE93A1BD0.title}"
-			x: -5.5d
+			x: -7.5d
 			y: 3.5d
 		}
 		{
@@ -267,7 +278,7 @@
 			}]
 			title: "{gto.shop.quests.3DCF45A0081D0CD6.title}"
 			x: 0.5d
-			y: 3.5d
+			y: 5.5d
 		}
 		{
 			icon: "botania:green_mystical_flower"
@@ -279,17 +290,14 @@
 				type: "choice"
 			}]
 			tasks: [{
-				count: 32L
+				count: 16L
 				id: "24CB932A768F839C"
-				item: {
-					Count: 32
-					id: "gtocore:copper_coin"
-				}
+				item: "gtocore:copper_coin"
 				type: "item"
 			}]
 			title: "{gto.shop.quests.40C9BD72468AF243.title}"
 			x: 2.5d
-			y: 3.5d
+			y: 5.5d
 		}
 		{
 			id: "7245205D2C902DFC"
@@ -334,11 +342,13 @@
 						}
 					}
 					only_one: true
+					team_reward: false
 					type: "item"
 				}
 				{
 					id: "3C0FBB91ECFD6303"
 					item: "constructionwand:core_angel"
+					team_reward: false
 					type: "item"
 				}
 			]
@@ -416,7 +426,7 @@
 				type: "item"
 			}]
 			tasks: [{
-				count: 16L
+				count: 10L
 				id: "40BD3FFB46185729"
 				item: "gtocore:copper_coin"
 				type: "item"
@@ -530,6 +540,7 @@
 				}
 				id: "563031085CE11738"
 				table_id: 6074492011312888839L
+				team_reward: false
 				title: "{gto.shop.quests.24A1AC1F3A2BD4CB.rewards.563031085CE11738.title}"
 				type: "all_table"
 			}]
@@ -543,7 +554,7 @@
 				type: "item"
 			}]
 			title: "{gto.shop.quests.24A1AC1F3A2BD4CB.title}"
-			x: 4.5d
+			x: 6.5d
 			y: 3.5d
 		}
 		{
@@ -563,7 +574,7 @@
 				type: "item"
 			}]
 			title: "{gto.shop.quests.0F8A3921C987D1F3.title}"
-			x: 6.5d
+			x: 2.5d
 			y: 3.5d
 		}
 		{
@@ -620,8 +631,8 @@
 				type: "item"
 			}]
 			title: "{gto.shop.quests.044EF1DC83BCCC63.title}"
-			x: 14.5d
-			y: 3.5d
+			x: 4.5d
+			y: 5.5d
 		}
 		{
 			can_repeat: true
@@ -698,7 +709,7 @@
 				type: "item"
 			}]
 			title: "{gto.shop.quests.7A42D55E1F746624.title}"
-			x: -11.5d
+			x: -13.5d
 			y: 7.5d
 		}
 		{
@@ -748,6 +759,7 @@
 						RepairCost: 1
 					}
 				}
+				team_reward: false
 				type: "item"
 			}]
 			tasks: [{
@@ -787,6 +799,7 @@
 			description: ["{gto.shop.quests.742D435913111476.description0}"]
 			icon: "gtocore:gto_overseer_coke_lv"
 			id: "742D435913111476"
+			invisible: true
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "795C0F8F43DBBBE7"
@@ -802,8 +815,8 @@
 				type: "item"
 			}]
 			title: "{gto.shop.quests.742D435913111476.title}"
-			x: 0.5d
-			y: 5.5d
+			x: 12.5d
+			y: 7.5d
 		}
 		{
 			dependencies: [
@@ -823,6 +836,254 @@
 				value: 1
 			}]
 			x: 10.5d
+			y: 3.5d
+		}
+		{
+			can_repeat: false
+			dependencies: ["12D5479B3944EA92"]
+			description: [
+				"{gto.shop.quests.44C07B159CF2D5E5.description0}"
+				""
+				"{gto.shop.quests.44C07B159CF2D5E5.description1}"
+			]
+			hide_until_deps_visible: true
+			icon: "ae2:blank_pattern"
+			id: "44C07B159CF2D5E5"
+			rewards: [
+				{
+					count: 2
+					id: "39AAA184F63804F5"
+					item: "ae2:1k_crafting_storage"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "7211B2BA5BCE03ED"
+					item: "ae2:pattern_provider"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "437CC65A63AEAF9D"
+					item: "ae2:interface"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "223EFE35D9F8AF4D"
+					item: "ae2:blank_pattern"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "58A03732B4B8565C"
+					item: "ae2:fluix_glass_cable"
+					type: "item"
+				}
+				{
+					id: "6D9FEB11FB7127B3"
+					item: {
+						Count: 1
+						id: "ae2:item_storage_cell_16k"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "4C54BB9BC66342A3"
+					item: {
+						Count: 1
+						id: "ae2:fluid_storage_cell_16k"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{gto.shop.quests.44C07B159CF2D5E5.subtitle}"
+			tasks: [
+				{
+					count: 32L
+					id: "788C487620FB8749"
+					item: "gtceu:nand_memory_chip"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4B09464FE6184C49"
+					item: {
+						Count: 4
+						id: "gtocore:universal_circuit_hv"
+					}
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "1AA2C98EC22C96E6"
+					item: "gtocore:copper_coin"
+					type: "item"
+				}
+			]
+			title: "{gto.shop.quests.44C07B159CF2D5E5.title}"
+			x: -11.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["12D5479B3944EA92"]
+			description: [
+				"{gto.shop.quests.3F94A1D9F39467DE.description0}"
+				""
+				"{gto.shop.quests.3F94A1D9F39467DE.description1}"
+			]
+			hide_until_deps_visible: true
+			icon: "gtceu:titanium_ingot"
+			id: "3F94A1D9F39467DE"
+			rewards: [{
+				count: 4
+				id: "033CCF1192E9E177"
+				item: "gtceu:titanium_ingot"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 16L
+					id: "4DD981F5F54FE9EA"
+					item: "gtceu:nichrome_ingot"
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "5AA7441B4C89C745"
+					item: {
+						Count: 32
+						id: "gtocore:copper_coin"
+					}
+					type: "item"
+				}
+			]
+			title: "{gto.shop.quests.3F94A1D9F39467DE.title}"
+			x: -9.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["12D5479B3944EA92"]
+			description: [
+				"{gto.shop.quests.14B493A3C1E8AAA2.description0}"
+				""
+				"{gto.shop.quests.14B493A3C1E8AAA2.description1}"
+			]
+			hide_until_deps_visible: true
+			icon: "gtceu:hv_field_generator"
+			id: "14B493A3C1E8AAA2"
+			rewards: [{
+				id: "45A710F1E5C92C67"
+				item: "gtceu:hv_field_generator"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 4L
+					id: "50ECFEA89313E2E5"
+					item: "gtceu:mv_field_generator"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "574AA297A3C830DF"
+					item: {
+						Count: 32
+						id: "gtocore:copper_coin"
+					}
+					type: "item"
+				}
+			]
+			title: "{gto.shop.quests.14B493A3C1E8AAA2.title}"
+			x: -7.5d
+			y: 7.5d
+		}
+		{
+			description: ["{gto.shop.quests.129BDBB537BEA6EB.description0}"]
+			icon: "gtceu:lv_super_chest"
+			id: "129BDBB537BEA6EB"
+			rewards: [{
+				id: "517A1DDD7F1659F0"
+				item: "gtceu:lv_super_chest"
+				type: "item"
+			}]
+			tasks: [{
+				count: 32L
+				id: "58A1B54091E35B18"
+				item: {
+					Count: 32
+					id: "gtocore:copper_coin"
+				}
+				type: "item"
+			}]
+			title: "{gto.shop.quests.129BDBB537BEA6EB.title}"
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			description: ["{gto.shop.quests.7565A1383F654160.description0}"]
+			icon: "gtceu:stainless_steel_crate"
+			id: "7565A1383F654160"
+			rewards: [{
+				id: "37DD5E5244F47849"
+				item: "gtceu:stainless_steel_crate"
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				id: "54155930921B60A3"
+				item: "gtocore:copper_coin"
+				type: "item"
+			}]
+			title: "{gto.shop.quests.7565A1383F654160.title}"
+			x: -5.5d
+			y: 3.5d
+		}
+		{
+			description: ["{gto.shop.quests.2884E1FC35FC3965.description0}"]
+			icon: "gtceu:stainless_steel_drum"
+			id: "2884E1FC35FC3965"
+			rewards: [{
+				id: "0B1840DA611E734B"
+				item: "gtceu:stainless_steel_drum"
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "6A2992094483FC72"
+				item: "gtocore:copper_coin"
+				type: "item"
+			}]
+			title: "{gto.shop.quests.2884E1FC35FC3965.title}"
+			x: -3.5d
+			y: 3.5d
+		}
+		{
+			can_repeat: false
+			description: ["{gto.shop.quests.01F810D239D46FD2.description0}"]
+			icon: "botania:mana_cookie"
+			id: "01F810D239D46FD2"
+			rewards: [{
+				count: 64
+				id: "308D7FE4AD026784"
+				item: "botania:mana_cookie"
+				team_reward: false
+				type: "item"
+			}]
+			subtitle: "{gto.shop.quests.01F810D239D46FD2.subtitle}"
+			tasks: [{
+				count: 32L
+				id: "7371A530006E1F28"
+				item: {
+					Count: 16
+					id: "gtocore:copper_coin"
+				}
+				type: "item"
+			}]
+			title: "{gto.shop.quests.01F810D239D46FD2.title}"
+			x: 4.5d
 			y: 3.5d
 		}
 	]

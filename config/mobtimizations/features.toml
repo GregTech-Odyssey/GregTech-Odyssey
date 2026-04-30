@@ -15,4 +15,6 @@
 	optimizationMonsterHazardAvoidingPathfollowing = true
 	#If true, wander pathfinding and enemy targeting attempts will be further reduced when far away from players
 	playerProximityReducedRate = true
+	#Stops expensive overhead added to adding potion effects for non players on the server side
+	mod_ArmorSetBonuses_fixServerEffectImmunityCheckingOnNonPlayers = true
 

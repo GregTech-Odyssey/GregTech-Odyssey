@@ -1,4 +1,5 @@
 {
+	autofocus_id: "43F6C9135F5125AC"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "magic2"
@@ -6,15 +7,82 @@
 	hide_quest_until_deps_visible: true
 	icon: "botania:dice"
 	id: "33F2D5FBE1761AA9"
+	images: [
+		{
+			height: 1.0d
+			image: "xtonesreworked:block/bitt/4"
+			rotation: 45.0d
+			width: 1.0d
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "xtonesreworked:block/bitt/4"
+			rotation: 45.0d
+			width: 1.0d
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "xtonesreworked:block/bitt/4"
+			rotation: 45.0d
+			width: 1.0d
+			x: 7.5d
+			y: 6.0d
+		}
+		{
+			height: 1.0d
+			image: "xtonesreworked:block/bitt/4"
+			rotation: 45.0d
+			width: 1.0d
+			x: 7.5d
+			y: 7.5d
+		}
+		{
+			height: 1.0d
+			image: "xtonesreworked:block/bitt/4"
+			rotation: 45.0d
+			width: 1.0d
+			x: 10.5d
+			y: 9.0d
+		}
+		{
+			height: 1.0d
+			image: "xtonesreworked:block/bitt/4"
+			rotation: 45.0d
+			width: 1.0d
+			x: 19.0d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "xtonesreworked:block/bitt/4"
+			rotation: 45.0d
+			width: 1.0d
+			x: 19.0d
+			y: 0.0d
+		}
+	]
 	order_index: 2
-	quest_links: [{
-		id: "17557E8E51653B12"
-		linked_quest: "0B61448F01656C1D"
-		shape: "gear"
-		size: 2.5d
-		x: -2.25d
-		y: 4.5d
-	}]
+	quest_links: [
+		{
+			id: "17557E8E51653B12"
+			linked_quest: "0B61448F01656C1D"
+			shape: "gear"
+			size: 2.5d
+			x: -2.25d
+			y: 4.5d
+		}
+		{
+			id: "57FBFB1CE338B746"
+			linked_quest: "782E6E5239AA5283"
+			shape: "hexagon"
+			x: 17.5d
+			y: 7.5d
+		}
+	]
 	quests: [
 		{
 			dependencies: ["0631F054A9B97A40"]
@@ -1184,12 +1252,20 @@
 				"3A20210242A1C865"
 				"2AB5A33EC30AEA86"
 			]
+			icon: "gtocore:cycle_of_blossoms_solvent_bucket"
 			id: "331A6633436ED5AA"
-			tasks: [{
-				id: "0646B1B918E954E2"
-				item: "gtocore:cycle_of_blossoms_solvent_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "0646B1B918E954E2"
+					item: "gtocore:cycle_of_blossoms_solvent_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "49EF2E9849549BDE"
+					type: "checkmark"
+				}
+			]
 			x: 6.0d
 			y: 3.0d
 		}
@@ -1263,12 +1339,20 @@
 				"2AB5A33EC30AEA86"
 				"27CD17C4B3613171"
 			]
+			icon: "gtocore:gaia_solvent_bucket"
 			id: "527EBA90163F6108"
-			tasks: [{
-				id: "26A619931D11FA48"
-				item: "gtocore:gaia_solvent_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "26A619931D11FA48"
+					item: "gtocore:gaia_solvent_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0CB834D263E523D6"
+					type: "checkmark"
+				}
+			]
 			x: 14.5d
 			y: 7.5d
 		}
@@ -1395,14 +1479,16 @@
 			]
 			hide_dependency_lines: true
 			id: "041B3B6736C62F82"
+			shape: "hexagon"
+			size: 1.5d
 			subtitle: "{gto.magic2.quests.041B3B6736C62F82.subtitle}"
 			tasks: [{
 				id: "4D062AB9FB3A95D3"
 				item: "gtocore:time_twister"
 				type: "item"
 			}]
-			x: -2.75d
-			y: 6.5d
+			x: -2.25d
+			y: 2.0d
 		}
 		{
 			dependencies: ["0331107259F7B68C"]
@@ -1645,6 +1731,8 @@
 		{
 			dependencies: ["2DE9C9AD00450987"]
 			id: "0F02FE8BA89BCF34"
+			shape: "hexagon"
+			size: 1.5d
 			subtitle: "{gto.magic2.quests.0F02FE8BA89BCF34.subtitle}"
 			tasks: [{
 				id: "525B948D01EFFF84"
@@ -1833,12 +1921,20 @@
 				"30C2F8F769D33023"
 				"651CA7BF775419A0"
 			]
+			icon: "gtocore:animium_bucket"
 			id: "00483549F6D66CCD"
-			tasks: [{
-				id: "6A3D40F8329D13F0"
-				item: "gtocore:animium_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "6A3D40F8329D13F0"
+					item: "gtocore:animium_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3446A313905FC26A"
+					type: "checkmark"
+				}
+			]
 			x: 5.5d
 			y: 10.0d
 		}
@@ -1867,12 +1963,20 @@
 		}
 		{
 			dependencies: ["00483549F6D66CCD"]
+			icon: "gtocore:flowing_ciphers_bucket"
 			id: "4A36545D7F8FDCEA"
-			tasks: [{
-				id: "354873D7580EEBE4"
-				item: "gtocore:flowing_ciphers_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "354873D7580EEBE4"
+					item: "gtocore:flowing_ciphers_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "642E822231D9BF7D"
+					type: "checkmark"
+				}
+			]
 			x: 7.0d
 			y: 10.0d
 		}
@@ -1942,7 +2046,7 @@
 				type: "item"
 			}]
 			x: 16.0d
-			y: 1.5d
+			y: 2.25d
 		}
 		{
 			dependencies: ["2150BFD0D971DF9C"]
@@ -1959,6 +2063,7 @@
 			dependencies: [
 				"262B99D8C05C2B28"
 				"4F95427017B9396F"
+				"782E6E5239AA5283"
 			]
 			description: ["{gto.magic2.quests.50591F5900E6FB9A.description0}"]
 			id: "50591F5900E6FB9A"
@@ -2066,6 +2171,7 @@
 						]
 					}
 				}
+				title: "{gto.magic2.quests.7278B00DEB2C21E7.tasks.36537D76B6F9DE91.title}"
 				type: "item"
 			}]
 			title: "{gto.magic2.quests.7278B00DEB2C21E7.title}"
@@ -2181,7 +2287,10 @@
 			y: 6.708333333333336d
 		}
 		{
-			dependencies: ["57038022345C40A6"]
+			dependencies: [
+				"57038022345C40A6"
+				"0BAB92BEC355120C"
+			]
 			description: ["{gto.magic2.quests.69B3B50FB64F3BF6.description0}"]
 			hide_dependent_lines: true
 			icon_scale: 2.0d
@@ -2192,7 +2301,7 @@
 				item: "mythicbotany:kvasir_mead"
 				type: "item"
 			}]
-			x: 17.5d
+			x: 19.0d
 			y: 9.0d
 		}
 		{
@@ -2216,7 +2325,6 @@
 				""
 				"{gto.magic2.quests.6878C231FB98DBBC.description1}"
 			]
-			hide_until_deps_complete: true
 			id: "6878C231FB98DBBC"
 			shape: "gear"
 			size: 2.0d
@@ -2281,6 +2389,170 @@
 				type: "item"
 			}]
 			x: 17.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["57038022345C40A6"]
+			disable_toast: true
+			icon_scale: 0.25d
+			id: "0BAB92BEC355120C"
+			shape: "none"
+			size: 0.25d
+			tasks: [{
+				icon: "minecraft:bamboo_button"
+				id: "68EA6B5CF8BEF422"
+				stat: "minecraft:jump"
+				type: "stat"
+				value: 1
+			}]
+			x: 16.0d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"056EC4E6FAF614B7"
+				"0B61448F01656C1D"
+			]
+			description: ["{gto.magic2.quests.240A3EF5AD42759A.description0}"]
+			hide_until_deps_visible: true
+			icon: "botania:rune_water"
+			id: "240A3EF5AD42759A"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "690F217ADBC426EA"
+					item: "botania:rune_water"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "3361B057369A8096"
+					item: "botania:rune_fire"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "338A675B4A4B60CD"
+					item: "botania:rune_earth"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "259BE22C889FFACA"
+					item: "botania:rune_air"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "6937F1D944F4867E"
+					item: "botania:rune_spring"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "68064C645A7179A8"
+					item: "botania:rune_summer"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "3A5FFBF922778060"
+					item: "botania:rune_autumn"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "17FE06059519F99B"
+					item: "botania:rune_winter"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "6077A7E763FDAE4E"
+					item: "botania:rune_mana"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1556A8C0D7065FC5"
+					item: "botania:rune_lust"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "52F065234DFB0A11"
+					item: "botania:rune_gluttony"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0D93CFB136AA8362"
+					item: "botania:rune_greed"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0D2BDB120F21D9F7"
+					item: "botania:rune_sloth"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "110B3C74BF41AC9D"
+					item: "botania:rune_wrath"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7DA02B1CF4B61B13"
+					item: "botania:rune_envy"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1CFF4C6EEC3EE57A"
+					item: "botania:rune_pride"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "4DCA2101FE3CBD7F"
+				type: "checkmark"
+			}]
+			title: "{gto.magic2.quests.240A3EF5AD42759A.title}"
+			x: -2.25d
+			y: 6.5d
+		}
+		{
+			disable_toast: true
+			id: "43F6C9135F5125AC"
+			invisible: true
+			optional: true
+			tasks: [{
+				id: "6F19784ACCD2E77C"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2150BFD0D971DF9C"]
+			description: ["{gto.magic2.quests.06BE5DF470B975F9.description0}"]
+			id: "06BE5DF470B975F9"
+			tasks: [{
+				id: "258B7469153CA32C"
+				item: {
+					Count: 1
+					id: "gtocore:slot_enhancer"
+					tag: {
+						SelectedSlotIndex: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 16.0d
 			y: 0.0d
 		}
 	]

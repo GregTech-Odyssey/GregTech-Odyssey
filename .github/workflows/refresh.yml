@@ -31,6 +31,9 @@ jobs:
       - name: Install python deps
         run: pip install -r .github/localization/requirements.txt
 
+      - name: Process Bucket Quests
+        run: python .github/localization/fluid_checkmark.py
+
       - name: Generate Translate Keys (Push)
         if: github.event_name == 'push'
         run: python .github/localization/ftbquest_localization.py push "${{ github.event.before }}"

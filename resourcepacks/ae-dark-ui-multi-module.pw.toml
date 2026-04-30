@@ -1,0 +1,17 @@
+name = "AE-Dark-UI Multi-module"
+filename = "AE-Dark-UI-1.20.1-v3.5.5.zip"
+side = "client"
+
+[download]
+hash-format = "sha1"
+hash = "c8ac1aab33f5421b75b935a999ab2bb0e51421fb"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7866468
+project-id = 1477322
+
+[option]
+optional = true
+description = "Community AE2 Dark UI Resource Pack"
