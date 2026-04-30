@@ -699,6 +699,20 @@
 					}
 					type: "item"
 				}
+				{
+					id: "75706DF60202D47D"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtocore:chaotic_core"
+							}
+						}
+					}
+					type: "item"
+				}
 			]
 			shape: "circle"
 			tasks: [{
