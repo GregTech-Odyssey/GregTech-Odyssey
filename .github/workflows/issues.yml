@@ -18,14 +18,17 @@ jobs:
       uses: actions/github-script@v6
       with:
         script: |
-          const issues = await github.rest.issues.listForRepo({
+          const params = {
             owner: context.repo.owner,
             repo: context.repo.repo,
             state: 'open',
             labels: 'Status: 已完成 completed'
-          });
+          };
 
-          for (const issue of issues.data) {
+          // Use the Octokit pagination helper to fetch all pages
+          const issues = await github.paginate(github.rest.issues.listForRepo, params);
+
+          for (const issue of issues) {
             await github.rest.issues.update({
               owner: context.repo.owner,
               repo: context.repo.repo,
