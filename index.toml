@@ -2960,6 +2960,11 @@ hash = "c0bba64eb3be067e8f002c1e6c4a0ad2feb78d15e61e003e8f34cd5a909ada39"
 metafile = true
 
 [[files]]
+file = "mods/ftb-chunks-forge.pw.toml"
+hash = "6c6893267694003c8fc8a2c1a89e961d28add27991a26b60abedda1eafb0eb57"
+metafile = true
+
+[[files]]
 file = "mods/ftb-essentials.pw.toml"
 hash = "8a185af41fb24e83e4497c9362943723b6afee585cf8a3bf280ac155d29bf593"
 metafile = true
