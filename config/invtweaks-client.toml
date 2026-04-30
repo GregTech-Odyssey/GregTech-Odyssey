@@ -64,6 +64,10 @@
 		containerClass = "com.gtolib.api.ae2.me2in1.*"
 		sortRange = ""
 
+	[[sorting.containerOverrides]]
+		containerClass = ".*PatternContentAccessTerminalScreen"
+		sortRange = ""
+
 	#Categor(y/ies) for sorting
 	#
 	#name: the name of the category
