@@ -22,17 +22,22 @@ jobs:
             owner: context.repo.owner,
             repo: context.repo.repo,
             state: 'open',
-            labels: 'Status: 已完成 completed'
+            labels: 'Status: 已完成 completed',
+            per_page: 100
           };
 
-          // Use the Octokit pagination helper to fetch all pages
-          const issues = await github.paginate(github.rest.issues.listForRepo, params);
+          let closedCount = 0;
 
-          for (const issue of issues) {
-            await github.rest.issues.update({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              issue_number: issue.number,
-              state: 'closed'
-            });
+          for await (const { data: issues } of github.paginate.iterator(github.rest.issues.listForRepo, params)) {
+            for (const issue of issues) {
+              await github.rest.issues.update({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issue.number,
+                state: 'closed'
+              });
+              closedCount++;
+            }
           }
+
+          console.log(`Closed ${closedCount} completed issue(s).`);
