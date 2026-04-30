@@ -200,12 +200,6 @@
 					type: "item"
 				}
 				{
-					count: 64
-					id: "071922CBF4DF5B00"
-					item: "gtocore:copper_coin"
-					type: "item"
-				}
-				{
 					auto: "invisible"
 					command: "/function firework:launch"
 					id: "6DC58298580CE0CC"
@@ -323,6 +317,11 @@
 			y: 3.5d
 		}
 		{
+			dependencies: [
+				"64B89F2CCF8BC36C"
+				"12D5479B3944EA92"
+			]
+			dependency_requirement: "one_completed"
 			icon: {
 				Count: 1
 				id: "constructionwand:infinity_wand"
@@ -908,16 +907,13 @@
 					type: "item"
 				}
 				{
-					count: 4L
+					count: 8L
 					id: "4B09464FE6184C49"
-					item: {
-						Count: 4
-						id: "gtocore:universal_circuit_hv"
-					}
+					item: "gtocore:universal_circuit_hv"
 					type: "item"
 				}
 				{
-					count: 64L
+					count: 128L
 					id: "1AA2C98EC22C96E6"
 					item: "gtocore:copper_coin"
 					type: "item"
@@ -938,14 +934,14 @@
 			icon: "gtceu:titanium_ingot"
 			id: "3F94A1D9F39467DE"
 			rewards: [{
-				count: 4
+				count: 3
 				id: "033CCF1192E9E177"
 				item: "gtceu:titanium_ingot"
 				type: "item"
 			}]
 			tasks: [
 				{
-					count: 16L
+					count: 32L
 					id: "4DD981F5F54FE9EA"
 					item: "gtceu:nichrome_ingot"
 					type: "item"
@@ -987,12 +983,9 @@
 					type: "item"
 				}
 				{
-					count: 32L
+					count: 64L
 					id: "574AA297A3C830DF"
-					item: {
-						Count: 32
-						id: "gtocore:copper_coin"
-					}
+					item: "gtocore:copper_coin"
 					type: "item"
 				}
 			]
@@ -1085,6 +1078,56 @@
 			title: "{gto.shop.quests.01F810D239D46FD2.title}"
 			x: 4.5d
 			y: 3.5d
+		}
+		{
+			can_repeat: false
+			dependencies: [
+				"1CF16D3C2338C2D2"
+				"12D5479B3944EA92"
+			]
+			hide_until_deps_visible: true
+			icon: "gtocore:copper_coin"
+			id: "6162EFE63BC94745"
+			optional: true
+			rewards: [{
+				count: 64
+				id: "303FF51AFB44C270"
+				item: "gtocore:copper_coin"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "2F5C610F3BEB5229"
+				type: "checkmark"
+			}]
+			title: "{gto.shop.quests.6162EFE63BC94745.title}"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: false
+			dependencies: [
+				"1CF16D3C2338C2D2"
+				"1FB1EC5B9CEFC2BC"
+			]
+			hide_dependent_lines: true
+			hide_until_deps_visible: true
+			icon: "gtocore:copper_coin"
+			id: "64B89F2CCF8BC36C"
+			optional: true
+			shape: "hexagon"
+			tasks: [{
+				count: 64L
+				id: "6C22767FF4F947CA"
+				item: {
+					Count: 64
+					id: "gtocore:copper_coin"
+				}
+				type: "item"
+			}]
+			title: "{gto.shop.quests.64B89F2CCF8BC36C.title}"
+			x: 3.0d
+			y: 0.0d
 		}
 	]
 	subtitle: ["{gto.shop.subtitle0}"]
