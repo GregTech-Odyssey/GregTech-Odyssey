@@ -1,15 +1,15 @@
 name = "CalculatorOverlay"
-filename = "calculatoroverlay-1.0.1.jar"
+filename = "calculatoroverlay-1.0.2.jar"
 side = "client"
 
 [download]
 hash-format = "sha1"
-hash = "710cd6ff56e81572b07cc045c18f5e2d9428e5d9"
+hash = "844c184801108d4d69d6bc3fe8caca6f1eb60300"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 7953745
+file-id = 8019013
 project-id = 1514315
 
 [option]
