@@ -1,0 +1,17 @@
+name = "CalculatorOverlay"
+filename = "calculatoroverlay-1.0.2.jar"
+side = "client"
+
+[download]
+hash-format = "sha1"
+hash = "844c184801108d4d69d6bc3fe8caca6f1eb60300"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8019013
+project-id = 1514315
+
+[option]
+optional = true
+description = "Adds an overlay calculator to the game"

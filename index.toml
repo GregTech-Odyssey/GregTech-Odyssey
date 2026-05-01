@@ -2710,6 +2710,11 @@ hash = "528a5c2d50126e1b2906b47449b40a996fce3b4a50b9a0460533f2b7b74f5c99"
 metafile = true
 
 [[files]]
+file = "mods/calculatoroverlay.pw.toml"
+hash = "2bd95e62f27d37b366a506d6d0d91ae7eb5982e071be2ff682646db0f7dc4598"
+metafile = true
+
+[[files]]
 file = "mods/camera-mod.pw.toml"
 hash = "9490f693735f743558f9a3eb39f961d1bd9acf079e2a4d5efe614dd52d526f4a"
 metafile = true
@@ -2771,7 +2776,7 @@ metafile = true
 
 [[files]]
 file = "mods/crafting-tweaks.pw.toml"
-hash = "6a18fc2c584371e5f5fe6b621980e3ae4695bff2c5e90d7758c4acbf099743b0"
+hash = "fbd9aa57290eab3802b187f1baa9939dee9db2676653d923e31061b8deef0645"
 metafile = true
 
 [[files]]
@@ -3026,7 +3031,7 @@ metafile = true
 
 [[files]]
 file = "mods/gnetum.pw.toml"
-hash = "fb0ca6ee752cc276386ad33dcd78b062d0f70ddb8ff1ffb7a776f28cb60069ea"
+hash = "ff8ff6464c5ae034d03f17f58ef6748b62f05eaca3feecde68f41d3930055174"
 metafile = true
 
 [[files]]
@@ -3054,7 +3059,7 @@ metafile = true
 
 [[files]]
 file = "mods/inventory-essentials.pw.toml"
-hash = "aec1d5abcb5222888c8940e498e05fae0cdc54da2df49da8485ee2ad217ddf0d"
+hash = "6285b496a4236a5e591572bc206f81c9f35c8e5d692f057521babe4b87767d77"
 metafile = true
 
 [[files]]
@@ -3149,7 +3154,7 @@ metafile = true
 
 [[files]]
 file = "mods/modernfix.pw.toml"
-hash = "17523abe76f282db11e95a033e504c1da3f82ac23a42e169d6b1e4d59b6a18d6"
+hash = "36d5ec114d7e6fee2de9d26e80980ce72cfad39061e67dc15f1e456f613a0bf0"
 metafile = true
 
 [[files]]
@@ -3344,12 +3349,12 @@ metafile = true
 
 [[files]]
 file = "mods/xaeros-minimap.pw.toml"
-hash = "eb48e8709268d9d4daeaba8d8844fa47e4e42fe2c6767ab39eca10e7852abf1e"
+hash = "d55d5e9b2ceb866a5a3f7342478d4437230f1b9f177ea23360f1ab7ced0da95b"
 metafile = true
 
 [[files]]
 file = "mods/xaeros-world-map.pw.toml"
-hash = "8c1d85564af53d61caf23b502b60c494d33450a670093fdd3e2f412368682ecc"
+hash = "53d56895bd15af3b71bc1337d4449584a5abdfd4eaa653fae428ca81fcf3fee7"
 metafile = true
 
 [[files]]
@@ -3361,6 +3366,10 @@ metafile = true
 file = "mods/yeetusexperimentus.pw.toml"
 hash = "36ee65c43a693265d23837bc1510a3d11fba343343b5d6e2f349fce5c16fe163"
 metafile = true
+
+[[files]]
+file = "pack.bat"
+hash = "f34f4e0549d1696d8fb5334cd07ac50a10cbe3753e52946968373222e57f616f"
 
 [[files]]
 file = "resourcepacks/ae-dark-ui-multi-module.pw.toml"
