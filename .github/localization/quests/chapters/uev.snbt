@@ -601,31 +601,25 @@
 			optional: true
 			rewards: [
 				{
-					id: "2962E756B2617752"
-					item: "apotheosis:sigil_of_rebirth"
-					type: "item"
-				}
-				{
-					id: "44240DA135B4045A"
+					id: "258A07134C01C874"
 					item: {
 						Count: 1
-						id: "easy_villagers:villager"
+						id: "apotheosis:potion_charm"
 						tag: {
-							villager: {
-								Age: -24000
-							}
+							Damage: 0
+							Potion: "apotheosis:fatigue"
 						}
 					}
 					type: "item"
 				}
 				{
-					id: "6E7CA598B7C4079E"
-					item: "gtocore:fast_neutron_breeder_reactor"
+					id: "733410F4BB5DD9F1"
+					item: "minecraft:powered_rail"
 					type: "item"
 				}
 				{
-					id: "048A6C612D806ED0"
-					item: "minecraft:music_disc_13"
+					id: "56D3B595211365E9"
+					item: "ars_nouveau:ring_of_greater_discount"
 					type: "item"
 				}
 			]

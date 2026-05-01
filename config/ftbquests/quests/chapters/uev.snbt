@@ -592,40 +592,34 @@
 		{
 			dependencies: ["3448FEC025A0CA9C"]
 			description: [
-				"<彩蛋>"
+				"<0.5.5彩蛋>"
 				""
-				"恭喜通关！&m新的一年也要多多上工哦"
+				"恭喜通关！&o&7劳动最光荣"
 			]
 			hide_until_deps_complete: true
 			id: "016825EEC25C1CEF"
 			optional: true
 			rewards: [
 				{
-					id: "2962E756B2617752"
-					item: "apotheosis:sigil_of_rebirth"
-					type: "item"
-				}
-				{
-					id: "44240DA135B4045A"
+					id: "258A07134C01C874"
 					item: {
 						Count: 1
-						id: "easy_villagers:villager"
+						id: "apotheosis:potion_charm"
 						tag: {
-							villager: {
-								Age: -24000
-							}
+							Damage: 0
+							Potion: "apotheosis:fatigue"
 						}
 					}
 					type: "item"
 				}
 				{
-					id: "6E7CA598B7C4079E"
-					item: "gtocore:fast_neutron_breeder_reactor"
+					id: "733410F4BB5DD9F1"
+					item: "minecraft:powered_rail"
 					type: "item"
 				}
 				{
-					id: "048A6C612D806ED0"
-					item: "minecraft:music_disc_13"
+					id: "56D3B595211365E9"
+					item: "ars_nouveau:ring_of_greater_discount"
 					type: "item"
 				}
 			]
@@ -634,7 +628,7 @@
 				id: "640A14267FA43F4A"
 				type: "checkmark"
 			}]
-			title: "新年快乐！"
+			title: "劳动节快乐！"
 			x: 6.0d
 			y: 1.0d
 		}
