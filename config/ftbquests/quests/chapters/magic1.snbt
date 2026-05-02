@@ -4424,7 +4424,7 @@
 		}
 		{
 			dependencies: ["502826CBF91585C1"]
-			description: ["[\"末地缺少氧气，你需要穿戴\", { \"text\": \"航天套装\", \"underlined\": \"true\",\"color\":\"yellow\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4331EEF3BA9799FD\" } },\"或者更高级的宇航套装才能在末地存活，否则将一直受到窒息伤害\" ]"]
+			description: ["[\"末地缺少氧气，你需要穿戴\", { \"text\": \"航天套装\", \"underlined\": \"true\",\"color\":\"yellow\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1F971C770E451FFE\" } },\"或者更高级的宇航套装才能在末地存活，否则将一直受到窒息伤害\" ]"]
 			id: "3100458952FC0673"
 			subtitle: "找到十二颗不同的眼睛打开末地之门"
 			tasks: [{

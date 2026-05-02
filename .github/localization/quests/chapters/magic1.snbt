@@ -4427,7 +4427,7 @@
 		}
 		{
 			dependencies: ["502826CBF91585C1"]
-			description: ["[\"\", {\"translate\": \"gto.magic1.quests.3100458952FC0673.description0.rich_text0\"}, {\"underlined\": \"True\", \"color\": \"yellow\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"4331EEF3BA9799FD\"}, \"translate\": \"gto.magic1.quests.3100458952FC0673.description0.rich_text1\"}, {\"translate\": \"gto.magic1.quests.3100458952FC0673.description0.rich_text2\"}]"]
+			description: ["[\"\", {\"translate\": \"gto.magic1.quests.3100458952FC0673.description0.rich_text0\"}, {\"underlined\": \"True\", \"color\": \"yellow\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"1F971C770E451FFE\"}, \"translate\": \"gto.magic1.quests.3100458952FC0673.description0.rich_text1\"}, {\"translate\": \"gto.magic1.quests.3100458952FC0673.description0.rich_text2\"}]"]
 			id: "3100458952FC0673"
 			subtitle: "{gto.magic1.quests.3100458952FC0673.subtitle}"
 			tasks: [{
