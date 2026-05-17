@@ -3035,8 +3035,8 @@ hash = "ff8ff6464c5ae034d03f17f58ef6748b62f05eaca3feecde68f41d3930055174"
 metafile = true
 
 [[files]]
-file = "mods/gtocore-0.5.5.jar"
-hash = "212712ad2f5b364863ed82c612e6bae842cf2f4dd0b42e5d1e99fb0dcc7046ba"
+file = "mods/gtocore-0.5.6-pre1.jar"
+hash = "d3f189975aded9115f3cf3ef2b9751f8a47ea8e55d3d3d7f69d2a514612af71c"
 
 [[files]]
 file = "mods/gtonativelib-1.0.jar"
@@ -3154,7 +3154,7 @@ metafile = true
 
 [[files]]
 file = "mods/modernfix.pw.toml"
-hash = "fcb27d111bee02677bd43a57680fda0b592487a492174dc3b07833cf5b2180b2"
+hash = "17523abe76f282db11e95a033e504c1da3f82ac23a42e169d6b1e4d59b6a18d6"
 metafile = true
 
 [[files]]
@@ -3349,12 +3349,12 @@ metafile = true
 
 [[files]]
 file = "mods/xaeros-minimap.pw.toml"
-hash = "bf8edb8df8ec3804522e688c8ffbc351559821488d7faef2b7e90b13cee0109b"
+hash = "eb48e8709268d9d4daeaba8d8844fa47e4e42fe2c6767ab39eca10e7852abf1e"
 metafile = true
 
 [[files]]
 file = "mods/xaeros-world-map.pw.toml"
-hash = "a6c4f857d620b6cefac579b443435020801befa64a7e6a356a8cf9520572f986"
+hash = "8c1d85564af53d61caf23b502b60c494d33450a670093fdd3e2f412368682ecc"
 metafile = true
 
 [[files]]
