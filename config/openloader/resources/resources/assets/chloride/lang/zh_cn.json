@@ -6,30 +6,20 @@
   "chloride.performance.fastbeds.desc": "使用简化模型替代原版床。可能会影响其他模组添加的床的显示效果。",
 
   "chloride.general.screen.desc": "窗口化 - 以普通窗口运行游戏\n无边框 - 以“无边框窗口”模式运行，画面直接缩放填充屏幕\n全屏 - 使用系统原生全屏模式，遵循游戏的全屏相关设置",
-  "chloride.general.screen.fullscreen": "全屏",
-  "chloride.general.screen.borderless": "无边框",
-  "chloride.general.screen.windowed": "窗口化",
 
   "chloride.interface": "界面设置",
   "chloride.interface.fps.title": "帧率显示",
   "chloride.interface.fps.desc": "在屏幕上显示帧率（FPS）信息。高级模式会缩小字体并显示最近30秒的平均帧率，便于评估性能表现。",
 
   "chloride.interface.fps.mode.off": "关闭",
-  "chloride.interface.fps.mode.simple": "简易",
-  "chloride.interface.fps.mode.advanced": "高级",
 
   "chloride.interface.fps.system.title": "显示系统状态",
   "chloride.interface.fps.system.desc": "在帧率信息后追加显示显卡与内存使用情况。",
   "chloride.interface.fps.system.off": "关闭",
-  "chloride.interface.fps.system.gpu_only": "仅显卡",
-  "chloride.interface.fps.system.ram_only": "仅内存",
   "chloride.interface.fps.system.all": "全部",
 
   "chloride.interface.fps": "FPS",
-  "chloride.interface.fps.min": "最低",
-  "chloride.interface.fps.avg": "平均",
   "chloride.interface.fps.gpu": "GPU",
-  "chloride.interface.fps.mem": "内存",
 
   "chloride.interface.fps.align_x.title": "帧率水平位置",
   "chloride.interface.fps.align_x.desc": "设置帧率显示区域在水平方向的位置。",
@@ -57,10 +47,8 @@
   "chloride.interface.borderless.f11.title": "F11 切换无边框模式",
   "chloride.interface.borderless.f11.desc": "添加 - 在全屏与窗口化之间循环时加入无边框选项\n替换 - 将 F11 的全屏功能直接替换为无边框模式\n关闭 - 不影响 F11 原有行为",
   "chloride.interface.borderless.f11.attach": "添加",
-  "chloride.interface.borderless.f11.replace": "替换",
   "chloride.interface.borderless.f11.off": "关闭",
 
-  "chloride.interface.font.shadow.title": "字体阴影",
   "chloride.interface.font.shadow.desc": "关闭后，所有界面文字将变为无阴影的扁平样式。\n在大量文本场景下可小幅提升帧率，对 BetterF3 等模组效果尤为明显。",
 
   "chloride.interface.jei.title": "搜索前隐藏 JEI/REI/EMI",
@@ -85,7 +73,6 @@
   "chloride.world.custom_fog.shape.cylinder": "圆柱形",
   "chloride.world.custom_fog.shape.sphere": "球形",
 
-  "chloride.world.clouds.height.title": "云层高度",
   "chloride.world.clouds.height.desc": "提高云层的显示高度。\n注意：该设置对“乐魂”（Luminous End）等特殊维度无效。",
 
   "chloride.world.leaves_culling.title": "树叶面剔除",
@@ -107,7 +94,6 @@
   "chloride.darkness.level.darkness": "深暗",
   "chloride.darkness.level.dark": "暗色",
   "chloride.darkness.level.dim": "昏暗",
-  "chloride.darkness.level.vanilla": "原版",
 
   "chloride.darkness.others.title": "在其他维度启用",
   "chloride.darkness.others.desc": "启用后，黑暗效果将应用于所有非主世界维度。\n\n[警告] 此选项未来将被更精细的维度控制取代。",
@@ -121,13 +107,11 @@
   "chloride.darkness.nether.title": "在下界启用",
   "chloride.darkness.nether.desc": "启用后，黑暗效果将作用于下界。",
 
-  "chloride.darkness.nether.brightness.title": "下界迷雾亮度",
   "chloride.darkness.nether.brightness.desc": "当黑暗效果启用时，调整下界迷雾的整体亮度。",
 
   "chloride.darkness.end.title": "在末地启用",
   "chloride.darkness.end.desc": "启用后，黑暗效果将作用于末地。",
 
-  "chloride.darkness.end.brightness.title": "末地迷雾亮度",
   "chloride.darkness.end.brightness.desc": "当黑暗效果启用时，调整末地迷雾的整体亮度。",
 
   "chloride.darkness.blocklightonly.title": "仅保留方块光源",
@@ -142,7 +126,6 @@
   "chloride.darkness.moonphase.full.title": "满月亮度（最高）",
   "chloride.darkness.moonphase.full.desc": "设置满月时的最高环境亮度。",
 
-  "chloride.particles": "粒子效果",
   "chloride.particles.rain.title": "雨滴粒子",
   "chloride.particles.rain.desc": "启用下落过程中的雨滴粒子效果。",
 
@@ -159,7 +142,6 @@
   "chloride.particles.provider": "粒子来源：§6§l%s",
 
   "chloride.entities": "实体剔除",
-  "chloride.entities.nametag.players.title": "玩家名称标签",
   "chloride.entities.nametag.players.desc": "关闭后将隐藏所有玩家头顶的名称标签。",
 
   "chloride.entities.nametag.entities.title": "生物名称标签",

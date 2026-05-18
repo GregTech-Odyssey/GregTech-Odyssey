@@ -1,18 +1,8 @@
 {
 	"itemGroup.morered": "More Red",
 	"gui.morered.category.soldering": "焊接",
-	"block.morered.diode": "二极管",
-	"block.morered.not_gate": "非门",
-	"block.morered.nor_gate": "或非门",
-	"block.morered.nand_gate": "与非门",
-	"block.morered.or_gate": "或门",
-	"block.morered.and_gate": "与门",
-	"block.morered.and_2_gate": "双输入与门",
-	"block.morered.nand_2_gate": "双输入与非门",
-	"block.morered.xor_gate": "异或门",
 	"block.morered.xnor_gate": "同或门",
 	"block.morered.multiplexer": "多路复用器",
-	"block.morered.latch": "锁存器",
 	"block.morered.pulse_gate": "脉冲门",
 	"block.morered.stone_plate": "石底板",
 	"block.morered.soldering_table": "焊接台",
@@ -46,7 +36,6 @@
 	"block.morered.bitwise_and_gate": "按位与门",
 	"block.morered.bitwise_xor_gate": "按位异或门",
 	"block.morered.bitwise_xnor_gate": "按位同或门",
-	"item.morered.redwire_spool": "红石线轴",
 	"item.morered.bundled_cable_spool": "束缚线缆线轴"
 }
 
