@@ -2911,6 +2911,11 @@ hash = "fbd2910076270d5444c9f18e877a40d180fe4eb2aa77c9328b459e8e5b1a551e"
 metafile = true
 
 [[files]]
+file = "mods/fast-tag.pw.toml"
+hash = "38714414d2eb08d5fe63ec16a1cab0acbfd31f5b04ca248aa3a7d39a2e21e490"
+metafile = true
+
+[[files]]
 file = "mods/fastfurnace.pw.toml"
 hash = "9a748a2bfac6e79e42d49380148594b706371172e9137889663c214cfceaa973"
 metafile = true
