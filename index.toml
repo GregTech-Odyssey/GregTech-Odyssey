@@ -866,7 +866,7 @@ hash = "6f2c63215ceb94b2839c0d7f3add99cbc1a3197da7f2a18cf9df838018187656"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/food.snbt"
-hash = "960c6911ba87a29ff7b54e669326d5808d0ac079f7cde5d29e6c0096caf27e83"
+hash = "77d2b898418ae76741a6a256e717928372651e51d5cd00a0a115c051aa2684ca"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/generator.snbt"
@@ -874,7 +874,7 @@ hash = "b7c89abb5ea52a55f4c1c906e6ed86c4278f6cd728abe598ed5e199453c46cb2"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/gregtech_odyssey.snbt"
-hash = "109db12158c46af3af7f383d6f00d8b2cd838f046c1d4ef5d4cd0194dbd70cc0"
+hash = "68559c4a8795001abd1a7c604c86483412033f662b23c7f43ae705bf8d68b7d5"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/hi-end-manufaturing.snbt"
@@ -902,7 +902,7 @@ hash = "cd19b7bf24141b4159456d83e5d39ba02a0ed2574626a31a175fdadf79f19f72"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/magic1.snbt"
-hash = "a77154b28bad366b5b3955cd2c9ad7ae8a57cd6fd0656647f25659598803b2a2"
+hash = "b2f42901e4c0417fab4c15c7c7fe87ce09632fc557f17374db3a5691774d7359"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/magic2.snbt"
@@ -966,7 +966,7 @@ hash = "e72d6309b27e8a7f7bb3380d96d0a2ffe25f1fb55c5b496acdc7fa48b9c53630"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/uev.snbt"
-hash = "0af16620a3b10edf4470ff71f0e9125eb12250aaf5696f29e2187bb7a44d2caa"
+hash = "122d979aa9de554dbfd8219bddaeec87ec77f453e6ea6df15977d5ce6002e936"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/uhv.snbt"
@@ -1430,7 +1430,7 @@ hash = "84254dc1e5a56ea70df6b16a2fb2620040592badae436c255997aaae84996d91"
 
 [[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/en_us.json"
-hash = "5345cbf0de060eee962d709b2aaccc37dc9c802b9e253c51dfe7e5741e2a379b"
+hash = "ffac1ada1d7bfd69209c39e3aef7d751fc37c0ba9ad0b5d55abd0bb720ccf323"
 
 [[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/ru_ru.json"
@@ -1438,11 +1438,11 @@ hash = "f6d87442360e4006b971ebb3187b37375577bc9271b6776d65de2e6dc1f7de0e"
 
 [[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/zh_cn.json"
-hash = "aa268f9aeebf515bf2beb7780991abd4ab10d4bab11dc8a161af78af45902566"
+hash = "0cdd49ac0966989c6efe5aeb1145832ce4c28969309d9d8716373eb3f038977c"
 
 [[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/zh_tw.json"
-hash = "e28ed295f3d909d4747826d1414392d15fac30234399cc0a62c8f373b9b18fd1"
+hash = "2458136e6511eab47cc1fd4c421a00cf86ed9986db33f1fcd0bdf20ced9ff0ac"
 
 [[files]]
 file = "config/openloader/resources/quests/pack.mcmeta"
@@ -1522,7 +1522,7 @@ hash = "aad5dc200645865874bffeddd56c2bf18efef3e2a5501ec927598eed2bd1a21e"
 
 [[files]]
 file = "config/openloader/resources/resources/assets/chloride/lang/zh_cn.json"
-hash = "e20b2995eb382afd5f1d5eaaa89ea462efeb4153baca0951a24a1791fa8807a6"
+hash = "a8be895225bc936141c1f3f965409b988d90304da4a4e361d82b023e3d2d5409"
 
 [[files]]
 file = "config/openloader/resources/resources/assets/craftingstation/lang/zh_cn.json"
@@ -1546,15 +1546,11 @@ hash = "f220fa4cb6bf6ea3248fe36b02bd00c7612b44f0e394ee82a082e4a73bfda100"
 
 [[files]]
 file = "config/openloader/resources/resources/assets/endrem/lang/zh_cn.json"
-hash = "1ba9f06f6273c2e0986a372bc257b67ca6ebfe7434d51b886e01435d2f8caa34"
-
-[[files]]
-file = "config/openloader/resources/resources/assets/expatternprovider/lang/zh_cn.json"
-hash = "41fd2a9a3fe9c22329a891a2909a2050d75c9aad2969c2876f9fe89641a81a1e"
+hash = "5a662810953dd29db350fc3003f71ddab79bfba68ef202312f7e7a70b035a743"
 
 [[files]]
 file = "config/openloader/resources/resources/assets/explorerscompass/lang/zh_cn.json"
-hash = "518a5cf1bfd4613c43dc94ae6291ffb302e7a2915f1bc1455b6d0943f7283123"
+hash = "288ed052d6bdbb96847f26db10570cf5fdceea606974784b6d7d9e9f162d47b1"
 
 [[files]]
 file = "config/openloader/resources/resources/assets/factory_blocks/lang/zh_cn.json"
@@ -1566,7 +1562,7 @@ hash = "4a8b7ee900e7d4711c3cc21b1dc415d6efadf7e8a9c6d6c81c9e22443dc18f82"
 
 [[files]]
 file = "config/openloader/resources/resources/assets/framedblocks/lang/zh_cn.json"
-hash = "8498baf115a32b7a7a7284268290369bd8b8e07d8bf01fb29627435bec6ef10c"
+hash = "d0f5de8edb6987e22fa5df6c957491a9c99dff534224233a8eea2c902ca3adbc"
 
 [[files]]
 file = "config/openloader/resources/resources/assets/ftbessentials/lang/zh_cn.json"
@@ -1574,7 +1570,7 @@ hash = "a2fa9b89d49442b31303160be265568b7f303c63ee7b7a32db6cf00048c046c0"
 
 [[files]]
 file = "config/openloader/resources/resources/assets/ftblibrary/lang/zh_cn.json"
-hash = "d37389ba31e5256929f09bf150daad42356e6156131052dd3b96baeaabd72b64"
+hash = "f9c759d16f7a36552319cc8a8ad8e0da3904e862620bb6206ee913cec6b1099b"
 
 [[files]]
 file = "config/openloader/resources/resources/assets/ftbquests/ftb_quests_theme.txt"
@@ -1582,7 +1578,7 @@ hash = "e84a6e8c546a1c359a97826053df50a4dbfbbf00d7203869b2a8bf7222624d59"
 
 [[files]]
 file = "config/openloader/resources/resources/assets/ftbquests/lang/zh_cn.json"
-hash = "09625ebc4a61e9840f88654a797894f259053fe9ebb936a17b7843474ca655b5"
+hash = "97534a4880463c5862e017a99f13db7d60ef1deb8e8efbe8fd06bcd31dd92bda"
 
 [[files]]
 file = "config/openloader/resources/resources/assets/ftbquests/textures/beyondstars.png"
@@ -2314,7 +2310,7 @@ hash = "bbf53b95cf08483e2fcf7f90f1e606713d70c5a514f67f9dab76975053a8941a"
 
 [[files]]
 file = "config/openloader/resources/resources/assets/morered/lang/zh_cn.json"
-hash = "df4bedae5742795910c18cdb3a7fcfff9c6830323d949d956e1d32415f3fee40"
+hash = "6d99e856bc86ee58995387e742a7ecd3111d6cd3e80a4403e7295446ea21b447"
 
 [[files]]
 file = "config/openloader/resources/resources/assets/naturescompass/lang/zh_cn.json"
