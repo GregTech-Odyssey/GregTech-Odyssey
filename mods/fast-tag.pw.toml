@@ -1,0 +1,13 @@
+name = "Fast Tag"
+filename = "fasttag-1.20-26.1-forge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "2607fb587af43f8accae57f5296c53f67b62f8d2"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8097646
+project-id = 1542745
