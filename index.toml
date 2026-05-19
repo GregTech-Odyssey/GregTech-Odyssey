@@ -730,11 +730,11 @@ hash = "ff492043eaf454c46e949d5eef32ece90cc5a19feb50a161dd29a43b5732c880"
 
 [[files]]
 file = "config/fancymenu/customizablemenus.txt"
-hash = "a265a7a7ed4e91a1d0f457ae4b204a97f06b002a1bb5f3b48ae201d5b323192e"
+hash = "d4e6e2f15846c0a6159e0df45bc85966cfbcc043a426c1b52e1ad465f7848c56"
 
 [[files]]
 file = "config/fancymenu/customization/title_screen_layout.txt"
-hash = "7768a57f03651ce2ed6b6fc663574467d2bbc9ffd438a13c4bfcfc4e34d84592"
+hash = "03447a42ba552151fde40124dd03985f41f3b82a0812c9fcb1d518595b20afa1"
 
 [[files]]
 file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
@@ -750,15 +750,43 @@ hash = "9bdd808b0e3e8a7fa3f0f3b543da5905e53cf20b5bceff2a8eac542d5fec56e1"
 
 [[files]]
 file = "config/fancymenu/options.txt"
-hash = "d400d80bcd1b6f2dfc45e6cec570f1a7742d77de71f020bfa34e694554101f46"
+hash = "75d44ca329bf5996cd3dbe096025cfe9ae19d2cb169cc989c9d59ba566ecfec8"
+
+[[files]]
+file = "config/fancymenu/ui_themes/cherry_blossom.json"
+hash = "993c16664fe2d1b9e8ad107bf1c19c1dbb244729c403ed058ca2e54616dc5452"
+
+[[files]]
+file = "config/fancymenu/ui_themes/cozy_campfire.json"
+hash = "1e7505231b9d99e6315845043ce810dfc7004ce1d8f5a4ceddb4ecb96c03ac50"
 
 [[files]]
 file = "config/fancymenu/ui_themes/dark.json"
-hash = "3f1263eaf693fdb6a315099b06797ac18830faa66c620916a80337a5082fd850"
+hash = "01e2a3b5d250c0259a7f97f0d353785bfeab6d7ee2e147c16bb910f1d23e9498"
+
+[[files]]
+file = "config/fancymenu/ui_themes/dark_high_contrast.json"
+hash = "54316a2b309ddb472b9133f8ccb8694dce9b57be6ebcfb3c2e9d1bbfdade3f26"
 
 [[files]]
 file = "config/fancymenu/ui_themes/light.json"
-hash = "3fcfc5f9957fbb86aea846c9ad49a24f47ca709c523c4018b584668e38b72f41"
+hash = "a05e95f7b62f338049fe0045d9a6a50060d3aba52d5ab83ac1ed6ff55cac1153"
+
+[[files]]
+file = "config/fancymenu/ui_themes/light_high_contrast.json"
+hash = "7c96ba2f2cb4d59d20eaf88960de7a9308ce8a3460c4e1757e07c42e174ea65a"
+
+[[files]]
+file = "config/fancymenu/ui_themes/pumpkin_soup.json"
+hash = "7c6a5d5b19e53ca2f88371c2e867f51339b045697aab29864df5877a6bba9311"
+
+[[files]]
+file = "config/fancymenu/ui_themes/purple_void.json"
+hash = "fa63577441fd576ebac90ecf06b7ded376cbf80ca5103d398bc9a73a25c6c2c0"
+
+[[files]]
+file = "config/fancymenu/ui_themes/spooky_season.json"
+hash = "cfa46554bbb027efe3c2184a073ee652000acac2500cd5136764f901355ec0cd"
 
 [[files]]
 file = "config/fancymenu/user_variables.db"
