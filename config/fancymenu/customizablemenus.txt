@@ -9,3 +9,9 @@ net.minecraft.client.gui.screens.ConnectScreen {
 net.minecraft.client.gui.screens.ReceivingLevelScreen {
 }
 
+net.minecraft.client.gui.screens.GenericDirtMessageScreen {
+}
+
+net.minecraft.client.gui.screens.LevelLoadingScreen {
+}
+

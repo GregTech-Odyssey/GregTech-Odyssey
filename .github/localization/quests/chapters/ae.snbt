@@ -3713,10 +3713,7 @@
 			y: 23.5d
 		}
 		{
-			dependencies: [
-				"5B98FF5DDD4B2629"
-				"63BF782D57A7243C"
-			]
+			dependencies: ["63BF782D57A7243C"]
 			description: [
 				"{gto.ae.quests.79B00A56EED55DBD.description0}"
 				""

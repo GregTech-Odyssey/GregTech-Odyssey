@@ -331,6 +331,7 @@
 			]
 			hide_until_deps_visible: true
 			id: "6BDF1F517DCEBBD8"
+			optional: true
 			rewards: [
 				{
 					id: "611B1F97B9AD2BB2"
@@ -362,6 +363,7 @@
 			description: ["既然做好准备了，欢迎你，挑战者！"]
 			id: "2BBA151F63BB1F2B"
 			invisible: true
+			optional: true
 			subtitle: "主线任务已解锁"
 			tasks: [{
 				id: "5407BF710CCAB4D3"

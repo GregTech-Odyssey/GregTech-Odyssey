@@ -331,6 +331,7 @@
 			]
 			hide_until_deps_visible: true
 			id: "6BDF1F517DCEBBD8"
+			optional: true
 			rewards: [
 				{
 					id: "611B1F97B9AD2BB2"
@@ -362,6 +363,7 @@
 			description: ["{gto.gregtech_odyssey.quests.2BBA151F63BB1F2B.description0}"]
 			id: "2BBA151F63BB1F2B"
 			invisible: true
+			optional: true
 			subtitle: "{gto.gregtech_odyssey.quests.2BBA151F63BB1F2B.subtitle}"
 			tasks: [{
 				id: "5407BF710CCAB4D3"

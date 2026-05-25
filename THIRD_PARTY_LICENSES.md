@@ -21,6 +21,7 @@ in accordance with their original licenses.
 | Mystical Agriculture   | MIT                                  | Textures       |
 | Draconic Evolution     | "Don't Be a Jerk" License            | Code, Textures |
 | GT New Horizons        | CC BY-NC-SA 4.0                      | Code, Textures |
+| Astral Sorcery         | ARR                                  | Textures       |
 
 ---
 
@@ -95,3 +96,18 @@ in accordance with their original licenses.
 
 - **Usage Description**:
     - Selected items and textures were extracted and integrated into GTOCore
+
+## Astral Sorcery
+
+- **Source**: [HellFirePvP/AstralSorcery](https://github.com/HellFirePvP/AstralSorcery)
+- **License**: All Rights Reserved (used with permission)
+
+- **Used Content**:
+  - Textures
+
+- **Usage Description**:
+  - Selected items and textures (including resonating gem and liquid starlight) were extracted and integrated into GTOCore
+
+- **Permission**:
+  - Explicit permission obtained from the author
+  - Proof: [licenses/AstralSorcery.md](licenses/AstralSorcery.md)
