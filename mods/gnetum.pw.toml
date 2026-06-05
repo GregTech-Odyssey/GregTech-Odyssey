@@ -1,13 +1,13 @@
 name = "Gnetum"
-filename = "gnetum-2.4.3.jar"
+filename = "gnetum-2.4.5.jar"
 side = "client"
 
 [download]
 hash-format = "sha1"
-hash = "930ad50535a52210cf4d742ac01e7e623ada3e3c"
+hash = "2c576beb45b8a04d617f3673e2b1963908af6d66"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8021295
+file-id = 8140634
 project-id = 1220460
