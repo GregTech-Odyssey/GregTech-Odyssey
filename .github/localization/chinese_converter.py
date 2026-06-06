@@ -6,7 +6,7 @@ import opencc
 INPUT_FILE_PATH = Path('config/openloader/resources/quests/assets/gto/lang/zh_cn.json')
 OUTPUT_FILE_PATH = Path('config/openloader/resources/quests/assets/gto/lang/zh_tw.json')
 CONVERTER = opencc.OpenCC('s2tw.json')
-// 在opencc基础上上仍需要调整的词，与gtolib的调整同步
+# 在opencc基础上上仍需要调整的词，与gtolib的调整同步
 ZH_TW_FIXES = {
     "硅巖": "矽岩",
     "處理器集羣": "處理器叢集",
