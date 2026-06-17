@@ -30,7 +30,7 @@
 		#示例：minecraft, sophisticatedbackpacks:backpack
 		#Items or ModIDs that gaia ignore to check when spawn
 		#e.g. minecraft, sophisticatedbackpacks:backpack
-		gaiaSpawnUnCheckList = ["minecraft", "botania", "extrabotany"]
+		gaiaSpawnUnCheckList = ["minecraft", "botania", "extrabotany", "mythicbotany"]
 
 	[server.fakePlayer]
 		#假玩家ID（用于权限配置）
