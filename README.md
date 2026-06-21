@@ -2,7 +2,7 @@
 
 <h1 align="center">
     <a href="https://discord.gg/PxruFSbtCn"><img src="https://discordapp.com/api/guilds/1361351361257672876/widget.png" alt="加入Discord服务器 | Join Discord Server"></a>
-    <a href="https://qm.qq.com/q/dLIEOowqE8"><img src="https://img.shields.io/badge/QQ-Alpha Dept.(Full)-12B7F5?logo=qq&logoColor=white" alt="加入Alpha部门 | Join QQ Alpha Dept.">
+    <a href="https://qm.qq.com/q/dLIEOowqE8"><img src="https://img.shields.io/badge/QQ-Alpha Dept.-12B7F5?logo=qq&logoColor=white" alt="加入Alpha部门 | Join QQ Alpha Dept.">
     <a href="https://qm.qq.com/q/gIWx9iUxck"><img src="https://img.shields.io/badge/QQ-Beta Dept.(Full)-12B7F5?logo=qq&logoColor=white" alt="加入Beta部门 | Join QQ Beta Dept."></a>
     <a href="https://qm.qq.com/q/Pm3WkA85qw"><img src="https://img.shields.io/badge/QQ-Gamma Dept.-12B7F5?logo=qq&logoColor=white" alt="加入Gamma部门 | Join QQ Gamma Dept."></a>
 </h1>
@@ -19,7 +19,7 @@ Visit the website to view [How to Play](https://gtodyssey.com/en-us/start)
 
 ## Introduction
 
-Visit our website to view [Home](https://gtodyssey.com/en-us/)
+Visit our website to view [Home](https://gtodyssey.com/)
 
 GregTech-Odyssey is a fully optimized tech-oriented GT modpack designed to offer players a diverse and challenging experience based on GregTech Modern. Here's Costom mechanical machines, varaity of useful functional hatches to ultimately boost your machines, magic mods such as Botania, which providing a balanced blend of technology and magic, and also implemented additional blocking modes for ME Pattern Providers, cross-recipe parallelism, and multithreading optimization, give players a comfortable and smooth gaming experience in the late game.
 
