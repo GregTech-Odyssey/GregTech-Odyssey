@@ -1448,6 +1448,19 @@
 			x: 4.5d
 			y: -8.0d
 		}
+		{
+			dependencies: ["228B283B5477879B"]
+			id: "48ABDB8C4DC61738"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "6F3A38C112D47801"
+				item: "gtocore:virtual_coin_miner"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 0.0d
+		}
 	]
 	subtitle: ["Tier6-LuV"]
 	title: "8. 剧差压(LuV)"

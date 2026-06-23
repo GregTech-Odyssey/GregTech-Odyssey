@@ -159,7 +159,11 @@
 			y: 2.0d
 		}
 		{
-			description: ["喝了可乐之后在小机器上跳来跳去可以加速小机器工作"]
+			description: [
+				"喝了可乐之后在小机器上跳来跳去可以加速小机器工作"
+				""
+				"可乐等级/机械之神附身的等级代表其最高能加速的小机器的等级"
+			]
 			icon: "gtocore:gto_overseer_coke_ulv"
 			id: "77D7AF6D8806AFBF"
 			rewards: [{
@@ -820,19 +824,19 @@
 					type: "item"
 				}
 				{
-					count: 8
+					count: 4
 					id: "7211B2BA5BCE03ED"
 					item: "ae2:pattern_provider"
 					type: "item"
 				}
 				{
-					count: 16
+					count: 8
 					id: "437CC65A63AEAF9D"
 					item: "ae2:interface"
 					type: "item"
 				}
 				{
-					count: 32
+					count: 24
 					id: "223EFE35D9F8AF4D"
 					item: "ae2:blank_pattern"
 					type: "item"
@@ -871,7 +875,7 @@
 					type: "item"
 				}
 				{
-					count: 8L
+					count: 4L
 					id: "4B09464FE6184C49"
 					item: "gtocore:universal_circuit_hv"
 					type: "item"
@@ -938,7 +942,7 @@
 			}]
 			tasks: [
 				{
-					count: 4L
+					count: 8L
 					id: "50ECFEA89313E2E5"
 					item: "gtceu:mv_field_generator"
 					type: "item"

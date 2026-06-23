@@ -4728,6 +4728,23 @@
 			x: 7.0d
 			y: 2.0d
 		}
+		{
+			dependencies: ["70C5A902C0D26628"]
+			description: ["它可以用来运输魔力或魔源，&e并可在两者间自由转换&r"]
+			id: "7DB4B6390DB628FF"
+			rewards: [{
+				id: "790703426DBDB4B5"
+				item: "gtocore:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "79F66F0F62F7A756"
+				item: "gtocore:normal_mana_pipe"
+				type: "item"
+			}]
+			x: 13.6d
+			y: 0.94d
+		}
 	]
 	subtitle: ["从百花园走到符文祭坛"]
 	title: "魔力导论"

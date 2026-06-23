@@ -149,6 +149,13 @@
 			x: -3.5d
 			y: 14.0d
 		}
+		{
+			id: "17F069BECAF825C1"
+			linked_quest: "06DB49EDBF5A5499"
+			shape: "pentagon"
+			x: -1.0d
+			y: -2.0d
+		}
 	]
 	quests: [
 		{
@@ -187,11 +194,13 @@
 			description: [
 				"合金炉，将&6三铜一锡&r熔铸四个&6青铜锭&r，现在能够高效生产各种能在LV制造的合金锭"
 				""
-				"尽管如此，低压版本的蒸汽单方块的效率依然不能满足你的后续发展需要，你应该尽快升级到&6蒸汽铸造炉&r、"
+				"尽管如此，低压版本的蒸汽单方块的效率依然不能满足你的后续发展需要，你应该尽快升级到&6蒸汽铸造炉&r"
 				""
-				"以及，不要堵塞&4排气口&r，用你的扳手调整它"
+				"以及，不要堵塞&c排气口&r，用你的扳手调整它"
 				""
-				"&416mb/t&r的&6蒸汽&r就足够了"
+				"&a16mb/t&r的&6蒸汽&r就足够了"
+				""
+				"[ \"什么，你问我怎么调整排气口的位置？那你肯定是没仔细看\", { \"text\": \"使用手册\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1A0EA7A29CFD830D\" } } ]"
 				""
 				"&o&7如果你是专家模式，低压机器还有额外50%耗能惩罚"
 			]
@@ -325,6 +334,7 @@
 				"[ \"什么，你问我怎么调整排气口的位置？那你肯定是没仔细看\", { \"text\": \"使用手册\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1A0EA7A29CFD830D\" } } ]"
 			]
 			id: "7E8B76C8CC341F51"
+			optional: true
 			subtitle: "最大程度节省你的燃料"
 			tasks: [{
 				id: "43EF8564E06F93FE"
@@ -349,6 +359,7 @@
 				"&8&m记得大幅度提升你的蒸汽产能先&r&r"
 			]
 			id: "70166E7FA6559076"
+			optional: true
 			shape: "diamond"
 			size: 1.5d
 			subtitle: "作用可不止大了一点"
@@ -1229,7 +1240,10 @@
 			y: 8.5d
 		}
 		{
-			dependencies: ["7BCD49717F8FAD65"]
+			dependencies: [
+				"7BCD49717F8FAD65"
+				"06DB49EDBF5A5499"
+			]
 			description: [
 				"&6锅炉&r与&6加热器&r相邻放置，为&6加热器&r提供燃料，再将水输入&6锅炉&r，当温度达到&e水的沸点&r时即可产出蒸汽"
 				""
@@ -2418,6 +2432,7 @@
 				"对的，专家模式下会更难"
 			]
 			id: "6D4B71E543059C19"
+			optional: true
 			rewards: [{
 				id: "2EF86F324481E26B"
 				item: "gtocore:copper_coin"
@@ -2436,6 +2451,7 @@
 			dependencies: ["30D4CC9142D59DBD"]
 			description: ["这东西在接下来的合成中是可以重复利用的，所以造一个就好了"]
 			id: "4920255C0FDE6187"
+			optional: true
 			rewards: [{
 				id: "260460DB71687420"
 				item: "gtocore:copper_coin"

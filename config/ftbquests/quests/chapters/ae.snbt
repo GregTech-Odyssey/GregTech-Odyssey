@@ -526,24 +526,6 @@
 			y: 12.5d
 		}
 		{
-			height: 1.1d
-			image: "xtonesreworked:block/bitt/12"
-			rotation: 0.0d
-			width: 1.1d
-			x: -9.0d
-			y: 21.5d
-		}
-		{
-			color: 16711935
-			height: 1.1d
-			image: "ftbquests:block/barrier_open"
-			order: 1
-			rotation: 0.0d
-			width: 1.1d
-			x: -9.0d
-			y: 21.5d
-		}
-		{
 			height: 1.0d
 			image: "gtocore:item/circuit/suprachronal_mv"
 			rotation: 0.0d
@@ -1078,16 +1060,16 @@
 			image: "gtocore:item/circuit/suprachronal_luv"
 			rotation: 0.0d
 			width: 1.0d
-			x: -1.7d
-			y: 17.5d
+			x: 0.7d
+			y: 19.5d
 		}
 		{
 			height: 1.1d
 			image: "xtonesreworked:block/agon/agon_block_1_yellow"
 			rotation: 0.0d
 			width: 1.1d
-			x: -1.0d
-			y: 17.5d
+			x: 1.5d
+			y: 19.5d
 		}
 		{
 			color: 16711935
@@ -1182,15 +1164,7 @@
 			image: "gtocore:item/circuit/suprachronal_luv"
 			rotation: 0.0d
 			width: 1.0d
-			x: 7.5d
-			y: 19.0d
-		}
-		{
-			height: 1.0d
-			image: "gtocore:item/circuit/suprachronal_iv"
-			rotation: 0.0d
-			width: 1.0d
-			x: 3.5d
+			x: 9.5d
 			y: 19.0d
 		}
 		{
@@ -1199,6 +1173,14 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: 5.5d
+			y: 19.0d
+		}
+		{
+			height: 1.0d
+			image: "gtocore:item/circuit/suprachronal_iv"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.5d
 			y: 19.0d
 		}
 	]
@@ -1671,15 +1653,18 @@
 		{
 			dependencies: ["7C9277B717E90328"]
 			description: [
-				"&6机器覆盖版&r和&6发信器&r互相配合，利用&e红石信号&r做到ME网络&b特定&r物品或流体的&e库存维持&r"
+				"&6机器控制覆盖版&r和&6发信器&r互相配合，利用&e红石信号&r做到ME网络&b特定&r物品或流体的&e库存维持&r（各种ME仓室也原生支持红石控制，你也可以直接让发信器控制ME仓室）"
 				""
 				"比如和&e大化反&r搭配就可以自动合成&e硫酸&r等常用的化工材料，这样下单合成就不必因产能问题成为合成瓶颈"
 				""
 				"&6ME请求器&r也可以做到这点，但其属于自动下单，会占用到&eCPU&r进行合成"
+				""
+				"&o&7也许你还知道可以用触发总线与发信器配合，但我们不建议你这么做。触发总线的频繁开关会导致频繁重建网络拓扑，大量使用会导致TPS大幅下降"
 			]
 			icon: "gtceu:large_chemical_reactor"
 			id: "44487970FC3FBAED"
 			shape: "pentagon"
+			size: 1.2d
 			subtitle: "不要总使用样板下单，你的时间很宝贵"
 			tasks: [
 				{
@@ -2497,7 +2482,7 @@
 		{
 			dependencies: ["034D579A41F2ED3D"]
 			description: [
-				"大化反的好朋友，被动产线的控制器"
+				"大化反的好朋友，被动产线的控制器，强烈建议与&6机器覆盖版&r搭配使用，&7而不是触发总线"
 				""
 				"发信器UI经过修改，c和f分别代表向上和向下取整，按住Shift即可从加减调整数量变成乘除调整数量。对下单UI同样有效"
 			]
@@ -3273,15 +3258,50 @@
 			id: "2F42DE3FEC2C35F9"
 			min_required_dependencies: 2
 			rewards: [{
-				id: "54FA657D95191880"
-				item: "ae2:crafting_unit"
+				id: "27454BBC28BBC20F"
+				item: "ae2:crafting_accelerator"
 				type: "item"
 			}]
-			tasks: [{
-				id: "2E3E0866967015F4"
-				item: "ae2:crafting_unit"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2E3E0866967015F4"
+					item: "ae2:crafting_unit"
+					type: "item"
+				}
+				{
+					id: "681AE973B937A288"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "ae2:1k_crafting_storage"
+								}
+								{
+									Count: 1b
+									id: "ae2:4k_crafting_storage"
+								}
+								{
+									Count: 1b
+									id: "ae2:16k_crafting_storage"
+								}
+								{
+									Count: 1b
+									id: "ae2:64k_crafting_storage"
+								}
+								{
+									Count: 1b
+									id: "ae2:256k_crafting_storage"
+								}
+							]
+						}
+					}
+					title: "任意合成存储器"
+					type: "item"
+				}
+			]
 			title: "自动合成系统的第二块拼图"
 			x: 1.5d
 			y: 10.5d
@@ -3682,17 +3702,28 @@
 				"7B47DD1ACCAA3B03"
 				"1B54495D4256F384"
 				"1C3EFBC3AA258CE1"
+				"6358F1016C5F173D"
+				"78F5E78C89A3C117"
 			]
 			dependency_requirement: "one_completed"
+			description: [
+				"将两个无线终端拼合在一起获得"
+				""
+				"通用终端可以继续拼接其余的无线终端"
+				""
+				"开启GTOCore设置中的&b“AE 终端页面切换样式重做”&r选项后，“切换到下一个终端”按钮将变为展开一个候选终端列表，玩家需要手动选择跳转的终端"
+			]
 			hide_dependency_lines: true
 			id: "594929B55FA2E37E"
 			min_required_dependencies: 2
+			shape: "square"
+			size: 1.0d
 			tasks: [{
 				id: "6E983494C54091BA"
 				item: "ae2wtlib:wireless_universal_terminal"
 				type: "item"
 			}]
-			x: -1.0d
+			x: 1.5d
 			y: 21.5d
 		}
 		{
@@ -3717,11 +3748,15 @@
 			description: [
 				"2合1终端整合了样板管理和样板编码的功能，能够批量编码一系列同种类的样板，支持一键填充配方！"
 				""
-				"- 同时显示三个终端显示的所有面板"
+				"- 同时显示两个终端显示的所有面板"
+				""
 				"- 对着样板撰写面板中的物品中键可以重命名样板物品（方便装配线的样板编写）"
-				"- 可以快速将样板填充入样板供应器和样板输入总成（点击样板管理终端面板的左侧按钮开启此功能）"
+				""
+				"- 可以快速将样板填充入样板供应器和样板总成（点击样板管理终端面板的左侧按钮开启此功能）"
+				""
 				"- 在EMI中查看压缩机，压膜机，车床等有批量编码需求的配方可以使用Alt+左键打开批量编码页面"
-				"- 拖曳任意面板的右下角可调整其大小"
+				""
+				"- &6拖曳任意面板的右下角可调整其大小&r"
 			]
 			id: "79B00A56EED55DBD"
 			tasks: [{
@@ -4633,8 +4668,8 @@
 				item: "gtocore:me_muffler_hatch"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 17.5d
+			x: 1.5d
+			y: 19.5d
 		}
 		{
 			dependencies: [
@@ -4791,42 +4826,34 @@
 			y: 5.5d
 		}
 		{
-			can_repeat: true
+			dependencies: ["0B36C7D7D1594CB7"]
+			description: ["用于管理各类ME输入和输出仓室，附带流量监控、搜索和定位功能"]
+			hide_dependency_lines: true
 			icon: "ae2:facility_terminal"
 			id: "1E28BA38DEEB17A9"
-			rewards: [{
-				id: "0098430A76B66C38"
+			tasks: [{
+				id: "2EA85E4E1A0F850A"
 				item: "ae2:facility_terminal"
 				type: "item"
 			}]
-			tasks: [
-				{
-					id: "2EA85E4E1A0F850A"
-					item: "ae2:facility_terminal"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "11294E1C1AC2C606"
-					type: "checkmark"
-				}
-			]
 			x: -1.0d
-			y: 23.5d
+			y: 21.5d
 		}
 		{
 			dependencies: [
 				"11A36F8DB547DF3D"
 				"0B36C7D7D1594CB7"
 			]
+			description: ["管理连接至ME网络的ME请求器，附带搜索功能"]
+			icon: "merequester:requester_terminal"
 			id: "11542CB33270FB67"
 			tasks: [{
 				id: "6CF86BF5981FAC3F"
 				item: "merequester:requester_terminal"
 				type: "item"
 			}]
-			x: -9.0d
-			y: 23.5d
+			x: -1.0d
+			y: 17.5d
 		}
 		{
 			dependencies: [
@@ -4866,8 +4893,8 @@
 				item: "expatternprovider:ex_crafting_terminal"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 19.5d
+			x: -9.0d
+			y: 23.5d
 		}
 		{
 			dependencies: [
@@ -4918,7 +4945,7 @@
 				item: "gtocore:me_input_buffer_part_machine"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 9.5d
 			y: 19.5d
 		}
 		{
@@ -4928,7 +4955,7 @@
 				item: "gtocore:me_requestable_input_bus_machine"
 				type: "item"
 			}]
-			x: 3.5d
+			x: 5.5d
 			y: 19.5d
 		}
 		{
@@ -4938,7 +4965,7 @@
 				item: "gtocore:me_requestable_input_hatch_machine"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 7.5d
 			y: 19.5d
 		}
 		{
@@ -4950,7 +4977,7 @@
 				title: "新加入的仓室→"
 				type: "checkmark"
 			}]
-			x: 1.5d
+			x: 3.5d
 			y: 19.5d
 		}
 		{
@@ -4969,6 +4996,26 @@
 			title: " "
 			x: -11.0d
 			y: 3.5d
+		}
+		{
+			id: "6358F1016C5F173D"
+			tasks: [{
+				id: "4908542A36775060"
+				item: "gtocore:wireless_facility_management_terminal"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 23.5d
+		}
+		{
+			id: "78F5E78C89A3C117"
+			tasks: [{
+				id: "20CE247639C48112"
+				item: "gtocore:wireless_requester_terminal"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 19.5d
 		}
 	]
 	subtitle: ["Applied Energistics 2"]

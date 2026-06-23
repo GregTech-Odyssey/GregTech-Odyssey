@@ -1136,7 +1136,7 @@
 				type: "item"
 			}]
 			x: -12.0d
-			y: -3.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["12F3FAEB69397980"]
@@ -1242,7 +1242,6 @@
 			dependencies: [
 				"48B7848EAF919782"
 				"733C4A68EC2FA1ED"
-				"3BE44DC31F4047B9"
 			]
 			description: [
 				"从低压时代开始，各种部件和材料大多都需要用特定的机器制作，而不能手动合成"
@@ -1900,6 +1899,8 @@
 				"按照比例无条件缩短&6多方块机器&r的配方处理时间"
 				""
 				"当加速仓等级&b低于&r当前配方的配方等级时，加速效果将&4大幅度&r减弱，每低一级减少20%"
+				""
+				"&o&7无条件就是指总耗能也变少了"
 			]
 			id: "7F65A1C533ED1C3B"
 			shape: "diamond"
@@ -2775,6 +2776,18 @@
 			}]
 			x: 7.0d
 			y: -4.0d
+		}
+		{
+			id: "217AD9FDA35D32A3"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "22CA2E05E94F6367"
+				item: "gtocore:large_steam_forge_hammer"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -3.0d
 		}
 	]
 	subtitle: ["Tier1-LV"]

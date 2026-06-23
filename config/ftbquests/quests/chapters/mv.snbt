@@ -760,21 +760,15 @@
 			description: [
 				"无限矿石"
 				""
-				"你可以用它来挖掘基岩矿脉，在实体矿脉中相对稀少的矿石在基岩矿脉中占比将大大增加（如金矿石）"
+				"你可以用它来挖掘基岩矿脉，在实体矿脉中相对稀少的矿石在基岩矿脉中占比将&6大大增加&r（如金矿石）"
 				""
 				"可以查看探矿仪的EMI来查询矿脉信息（基岩矿脉与实体矿脉共享）"
 			]
 			hide_dependency_lines: true
 			id: "60779EE5AA0761BD"
 			rewards: [{
-				id: "1B8E2D442B01B894"
-				item: {
-					Count: 1
-					id: "gtceu:prospector.hv"
-					tag: {
-						Charge: 1592320L
-					}
-				}
+				id: "06D80D3C3BA54653"
+				item: "gtocore:copper_coin"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -798,6 +792,11 @@
 			]
 			hide_dependency_lines: true
 			id: "171118E236848A2E"
+			rewards: [{
+				id: "15BC0126B246462F"
+				item: "gtocore:copper_coin"
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
@@ -1322,13 +1321,17 @@
 		}
 		{
 			dependencies: ["0D63E5A54480E693"]
-			description: ["将能提供温度/真空的小机器贴着接口放即可"]
+			description: [
+				"将能提供真空的小机器贴着接口放即可"
+				""
+				"&o&7你问如何给多方块机器提供热量？你前面一定已经用过了"
+			]
 			id: "3C7271A1D09BEE0F"
 			optional: true
 			subtitle: "也许你有抽真空的需求..."
 			tasks: [{
-				id: "3C706C00F26CF7C1"
-				item: "gtocore:temp_vacuum_interface"
+				id: "045F4920EB8B05C0"
+				item: "gtocore:vacuum_interface"
 				type: "item"
 			}]
 			x: -3.5d
@@ -1718,6 +1721,7 @@
 				{
 					id: "1DFDEA2D9BB94043"
 					item: "gtceu:diorite_dust"
+					optional_task: true
 					type: "item"
 				}
 			]
