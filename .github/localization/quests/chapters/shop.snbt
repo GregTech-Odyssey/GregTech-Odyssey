@@ -165,7 +165,11 @@
 			y: 2.0d
 		}
 		{
-			description: ["{gto.shop.quests.77D7AF6D8806AFBF.description0}"]
+			description: [
+				"{gto.shop.quests.77D7AF6D8806AFBF.description0}"
+				""
+				"{gto.shop.quests.77D7AF6D8806AFBF.description1}"
+			]
 			icon: "gtocore:gto_overseer_coke_ulv"
 			id: "77D7AF6D8806AFBF"
 			rewards: [{
@@ -856,19 +860,19 @@
 					type: "item"
 				}
 				{
-					count: 8
+					count: 4
 					id: "7211B2BA5BCE03ED"
 					item: "ae2:pattern_provider"
 					type: "item"
 				}
 				{
-					count: 16
+					count: 8
 					id: "437CC65A63AEAF9D"
 					item: "ae2:interface"
 					type: "item"
 				}
 				{
-					count: 32
+					count: 24
 					id: "223EFE35D9F8AF4D"
 					item: "ae2:blank_pattern"
 					type: "item"
@@ -907,7 +911,7 @@
 					type: "item"
 				}
 				{
-					count: 8L
+					count: 4L
 					id: "4B09464FE6184C49"
 					item: "gtocore:universal_circuit_hv"
 					type: "item"
@@ -977,7 +981,7 @@
 			}]
 			tasks: [
 				{
-					count: 4L
+					count: 8L
 					id: "50ECFEA89313E2E5"
 					item: "gtceu:mv_field_generator"
 					type: "item"

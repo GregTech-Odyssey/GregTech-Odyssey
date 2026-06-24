@@ -767,14 +767,8 @@
 			hide_dependency_lines: true
 			id: "60779EE5AA0761BD"
 			rewards: [{
-				id: "1B8E2D442B01B894"
-				item: {
-					Count: 1
-					id: "gtceu:prospector.hv"
-					tag: {
-						Charge: 1592320L
-					}
-				}
+				id: "06D80D3C3BA54653"
+				item: "gtocore:copper_coin"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -798,6 +792,11 @@
 			]
 			hide_dependency_lines: true
 			id: "171118E236848A2E"
+			rewards: [{
+				id: "15BC0126B246462F"
+				item: "gtocore:copper_coin"
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
@@ -1322,13 +1321,17 @@
 		}
 		{
 			dependencies: ["0D63E5A54480E693"]
-			description: ["{gto.mv.quests.3C7271A1D09BEE0F.description0}"]
+			description: [
+				"{gto.mv.quests.3C7271A1D09BEE0F.description0}"
+				""
+				"{gto.mv.quests.3C7271A1D09BEE0F.description1}"
+			]
 			id: "3C7271A1D09BEE0F"
 			optional: true
 			subtitle: "{gto.mv.quests.3C7271A1D09BEE0F.subtitle}"
 			tasks: [{
-				id: "3C706C00F26CF7C1"
-				item: "gtocore:temp_vacuum_interface"
+				id: "045F4920EB8B05C0"
+				item: "gtocore:vacuum_interface"
 				type: "item"
 			}]
 			x: -3.5d
@@ -1718,6 +1721,7 @@
 				{
 					id: "1DFDEA2D9BB94043"
 					item: "gtceu:diorite_dust"
+					optional_task: true
 					type: "item"
 				}
 			]

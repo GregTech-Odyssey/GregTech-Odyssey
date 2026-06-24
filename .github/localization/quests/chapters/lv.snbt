@@ -1136,7 +1136,7 @@
 				type: "item"
 			}]
 			x: -12.0d
-			y: -3.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["12F3FAEB69397980"]
@@ -1242,7 +1242,6 @@
 			dependencies: [
 				"48B7848EAF919782"
 				"733C4A68EC2FA1ED"
-				"3BE44DC31F4047B9"
 			]
 			description: [
 				"{gto.lv.quests.7392F240AD330C1A.description0}"
@@ -1900,6 +1899,8 @@
 				"{gto.lv.quests.7F65A1C533ED1C3B.description0}"
 				""
 				"{gto.lv.quests.7F65A1C533ED1C3B.description1}"
+				""
+				"{gto.lv.quests.7F65A1C533ED1C3B.description2}"
 			]
 			id: "7F65A1C533ED1C3B"
 			shape: "diamond"
@@ -2778,6 +2779,18 @@
 			}]
 			x: 7.0d
 			y: -4.0d
+		}
+		{
+			id: "217AD9FDA35D32A3"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "22CA2E05E94F6367"
+				item: "gtocore:large_steam_forge_hammer"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -3.0d
 		}
 	]
 	subtitle: ["{gto.lv.subtitle0}"]

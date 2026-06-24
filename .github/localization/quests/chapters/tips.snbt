@@ -19,13 +19,19 @@
 		{
 			id: "1798C89D9211BBF3"
 			linked_quest: "7B47DD1ACCAA3B03"
-			x: 0.75d
+			x: -2.25d
 			y: 6.0d
 		}
 		{
 			id: "1603B24981350B37"
 			linked_quest: "7C9277B717E90328"
-			x: 2.25d
+			x: 0.75d
+			y: 6.0d
+		}
+		{
+			id: "253AB3A05EC32C87"
+			linked_quest: "79B00A56EED55DBD"
+			x: -0.75d
 			y: 6.0d
 		}
 	]
@@ -165,6 +171,7 @@
 				"{gto.tips.quests.3AC0703D45900817.description2}"
 				"{gto.tips.quests.3AC0703D45900817.description3}"
 				"{gto.tips.quests.3AC0703D45900817.description4}"
+				"{gto.tips.quests.3AC0703D45900817.description5}"
 			]
 			icon: "ad_astra:glacian_button"
 			icon_scale: 2.0d
@@ -895,6 +902,8 @@
 				"{gto.tips.quests.55CC8C2FD72F7E8B.description1}"
 				""
 				"{gto.tips.quests.55CC8C2FD72F7E8B.description2}"
+				""
+				"{gto.tips.quests.55CC8C2FD72F7E8B.description3}"
 			]
 			hide_until_deps_complete: true
 			icon: "gtocore:uv_overclock_hatch"
@@ -1750,6 +1759,7 @@
 			]
 			id: "7B11F10A218CD42C"
 			invisible: true
+			optional: true
 			shape: "pentagon"
 			size: 2.0d
 			tasks: [{
@@ -1825,19 +1835,8 @@
 					type: "item"
 				}
 			]
-			x: 0.75d
-			y: 4.5d
-		}
-		{
-			description: ["{gto.tips.quests.58EF3DA2C2E88C8A.description0}"]
-			id: "58EF3DA2C2E88C8A"
-			tasks: [{
-				id: "7BE2DC36CF716FDF"
-				item: "gtceu:basic_tape"
-				type: "item"
-			}]
 			x: 3.75d
-			y: 4.5d
+			y: 6.0d
 		}
 		{
 			description: ["{gto.tips.quests.067AC6B5D8167A97.description0}"]
@@ -1873,7 +1872,7 @@
 					type: "item"
 				}
 			]
-			x: 2.25d
+			x: 0.75d
 			y: 4.5d
 		}
 		{
@@ -1896,8 +1895,8 @@
 					type: "item"
 				}
 			]
-			x: -2.25d
-			y: 6.0d
+			x: 3.75d
+			y: 4.5d
 		}
 		{
 			description: [
@@ -1915,7 +1914,7 @@
 				title: "{gto.tips.quests.2F1EBC6B20B34792.tasks.0EC621993ED07726.title}"
 				type: "checkmark"
 			}]
-			x: -0.75d
+			x: -3.75d
 			y: 6.0d
 		}
 		{
@@ -1930,7 +1929,7 @@
 				title: "{gto.tips.quests.466185D2D791EC6D.tasks.0692ADD68322C2E3.title}"
 				type: "checkmark"
 			}]
-			x: 3.75d
+			x: 2.25d
 			y: 6.0d
 		}
 		{
@@ -1953,17 +1952,16 @@
 					type: "item"
 				}
 			]
-			x: -5.25d
-			y: 6.0d
+			x: -3.75d
+			y: 8.0d
 		}
 		{
-			description: ["{gto.tips.quests.5511502A8AECF505.description0}"]
+			description: [
+				"{gto.tips.quests.5511502A8AECF505.description0}"
+				""
+				"{gto.tips.quests.5511502A8AECF505.description1}"
+			]
 			id: "5511502A8AECF505"
-			rewards: [{
-				id: "772EFE95629C2542"
-				item: "ae2:meteorite_compass"
-				type: "item"
-			}]
 			tasks: [
 				{
 					id: "550FDAA82D6436D6"
@@ -1981,6 +1979,11 @@
 						id: "naturescompass:naturescompass"
 						tag: { }
 					}
+					type: "item"
+				}
+				{
+					id: "11111C87916B90A2"
+					item: "ae2:meteorite_compass"
 					type: "item"
 				}
 			]
@@ -2001,8 +2004,19 @@
 				}
 				type: "item"
 			}]
-			x: -3.75d
-			y: 6.0d
+			x: 2.25d
+			y: 4.5d
+		}
+		{
+			dependencies: ["592A2B7BC51C32B4"]
+			id: "2E0B3D83726E5084"
+			tasks: [{
+				id: "538EAA8DB017347B"
+				item: "gtocore:village_trading_station"
+				type: "item"
+			}]
+			x: -2.25d
+			y: 8.0d
 		}
 	]
 	subtitle: ["{gto.tips.subtitle0}"]

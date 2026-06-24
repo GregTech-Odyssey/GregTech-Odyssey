@@ -223,7 +223,10 @@
 			y: -5.0d
 		}
 		{
-			dependencies: ["0861FADA4103BCA5"]
+			dependencies: [
+				"0861FADA4103BCA5"
+				"06DB49EDBF5A5499"
+			]
 			description: [
 				"{gto.ulv.quests.561F5AACF437E7C5.description0}"
 				""
@@ -246,6 +249,7 @@
 				type: "item"
 			}]
 			shape: "hexagon"
+			size: 1.0d
 			subtitle: "{gto.ulv.quests.561F5AACF437E7C5.subtitle}"
 			tasks: [
 				{
@@ -256,6 +260,11 @@
 				{
 					id: "0FBD21C1E0F2FE40"
 					item: "gtocore:heat_sensor"
+					type: "item"
+				}
+				{
+					id: "010273747AB41456"
+					item: "gtocore:heat_hatch"
 					type: "item"
 				}
 			]
@@ -1000,8 +1009,8 @@
 				}
 			]
 			title: "{gto.ulv.quests.620EF24B5E685E7A.title}"
-			x: 8.5d
-			y: -0.5d
+			x: 10.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["561F5AACF437E7C5"]
@@ -1289,15 +1298,15 @@
 			]
 			id: "6CC4173B5BF99920"
 			shape: "diamond"
-			size: 1.5d
+			size: 1.0d
 			subtitle: "{gto.ulv.quests.6CC4173B5BF99920.subtitle}"
 			tasks: [{
 				id: "74099FBE9992D542"
 				item: "gtocore:digital_miner"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 0.0d
+			x: 5.0d
+			y: 2.85d
 		}
 		{
 			dependencies: ["0FBE7318DFBA700E"]
@@ -1315,8 +1324,8 @@
 				item: "gtceu:programmed_circuit"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 2.85d
+			x: 6.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["4678D97346E46529"]
@@ -1465,7 +1474,7 @@
 				type: "checkmark"
 			}]
 			title: "{gto.ulv.quests.35CBD9D27781F929.title}"
-			x: 6.0d
+			x: 6.5d
 			y: 1.5d
 		}
 		{
@@ -1606,7 +1615,7 @@
 			}]
 			title: "{gto.ulv.quests.2907ABEAAFEF3BC1.title}"
 			x: 6.0d
-			y: 1.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["1CDBE91D2ACD9111"]
@@ -1623,6 +1632,69 @@
 			}]
 			x: -2.0d
 			y: 2.85d
+		}
+		{
+			dependencies: ["12116F27AB89BB58"]
+			description: [
+				"{gto.ulv.quests.06DB49EDBF5A5499.description0}"
+				""
+				"{gto.ulv.quests.06DB49EDBF5A5499.description1}"
+				""
+				"{gto.ulv.quests.06DB49EDBF5A5499.description2}"
+				""
+				"{gto.ulv.quests.06DB49EDBF5A5499.description3}"
+				""
+				"{gto.ulv.quests.06DB49EDBF5A5499.description4}"
+				""
+				"{gto.ulv.quests.06DB49EDBF5A5499.description5}"
+				""
+				"{gto.ulv.quests.06DB49EDBF5A5499.description6}"
+				""
+				"{gto.ulv.quests.06DB49EDBF5A5499.description7}"
+			]
+			icon: "gtocore:heater"
+			id: "06DB49EDBF5A5499"
+			rewards: [{
+				id: "572EE53DAAC1DB7B"
+				item: "gtocore:copper_coin"
+				type: "item"
+			}]
+			shape: "pentagon"
+			subtitle: "{gto.ulv.quests.06DB49EDBF5A5499.subtitle}"
+			tasks: [
+				{
+					id: "1DFCC23B81338569"
+					item: "gtocore:heater"
+					type: "item"
+				}
+				{
+					id: "7EBB35B1BB0093D6"
+					item: "gtocore:cooler"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2AB5890062809223"
+					item: "gtocore:electric_heater"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6D72789527D15A16"
+					item: "gtocore:normal_heat_pipe"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "21793BFF03964617"
+					item: "gtocore:heat_detector_cover"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "{gto.ulv.quests.06DB49EDBF5A5499.title}"
+			x: 8.5d
+			y: 0.0d
 		}
 	]
 	subtitle: ["{gto.ulv.subtitle0}"]

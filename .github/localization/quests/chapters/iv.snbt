@@ -778,10 +778,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: [
-				"509269850A10116F"
-				"78988A24B63C1D8A"
-			]
+			dependencies: ["509269850A10116F"]
 			id: "1E239C34C36FAD60"
 			tasks: [
 				{
@@ -1306,6 +1303,8 @@
 				"{gto.iv.quests.1CF7845875EEFA3B.description1}"
 				""
 				"{gto.iv.quests.1CF7845875EEFA3B.description2}"
+				""
+				"{gto.iv.quests.1CF7845875EEFA3B.description3}"
 			]
 			id: "1CF7845875EEFA3B"
 			shape: "gear"

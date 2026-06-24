@@ -4731,6 +4731,23 @@
 			x: 7.0d
 			y: 2.0d
 		}
+		{
+			dependencies: ["70C5A902C0D26628"]
+			description: ["{gto.magic1.quests.7DB4B6390DB628FF.description0}"]
+			id: "7DB4B6390DB628FF"
+			rewards: [{
+				id: "790703426DBDB4B5"
+				item: "gtocore:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "79F66F0F62F7A756"
+				item: "gtocore:normal_mana_pipe"
+				type: "item"
+			}]
+			x: 13.6d
+			y: 0.94d
+		}
 	]
 	subtitle: ["{gto.magic1.subtitle0}"]
 	title: "{gto.magic1.title}"

@@ -149,6 +149,13 @@
 			x: -3.5d
 			y: 14.0d
 		}
+		{
+			id: "17F069BECAF825C1"
+			linked_quest: "06DB49EDBF5A5499"
+			shape: "pentagon"
+			x: -1.0d
+			y: -2.0d
+		}
 	]
 	quests: [
 		{
@@ -193,7 +200,9 @@
 				""
 				"{gto.steam.quests.05F4015974079225.description3}"
 				""
-				"{gto.steam.quests.05F4015974079225.description4}"
+				"[\"\", {\"translate\": \"gto.steam.quests.05F4015974079225.description4.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"1A0EA7A29CFD830D\"}, \"translate\": \"gto.steam.quests.05F4015974079225.description4.rich_text1\"}]"
+				""
+				"{gto.steam.quests.05F4015974079225.description5}"
 			]
 			id: "05F4015974079225"
 			shape: "hexagon"
@@ -325,6 +334,7 @@
 				"[\"\", {\"translate\": \"gto.steam.quests.7E8B76C8CC341F51.description1.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"1A0EA7A29CFD830D\"}, \"translate\": \"gto.steam.quests.7E8B76C8CC341F51.description1.rich_text1\"}]"
 			]
 			id: "7E8B76C8CC341F51"
+			optional: true
 			subtitle: "{gto.steam.quests.7E8B76C8CC341F51.subtitle}"
 			tasks: [{
 				id: "43EF8564E06F93FE"
@@ -349,6 +359,7 @@
 				"{gto.steam.quests.70166E7FA6559076.description4}"
 			]
 			id: "70166E7FA6559076"
+			optional: true
 			shape: "diamond"
 			size: 1.5d
 			subtitle: "{gto.steam.quests.70166E7FA6559076.subtitle}"
@@ -1229,7 +1240,10 @@
 			y: 8.5d
 		}
 		{
-			dependencies: ["7BCD49717F8FAD65"]
+			dependencies: [
+				"7BCD49717F8FAD65"
+				"06DB49EDBF5A5499"
+			]
 			description: [
 				"{gto.steam.quests.5859702A2DF96727.description0}"
 				""
@@ -2421,6 +2435,7 @@
 				"{gto.steam.quests.6D4B71E543059C19.description3}"
 			]
 			id: "6D4B71E543059C19"
+			optional: true
 			rewards: [{
 				id: "2EF86F324481E26B"
 				item: "gtocore:copper_coin"
@@ -2439,6 +2454,7 @@
 			dependencies: ["30D4CC9142D59DBD"]
 			description: ["{gto.steam.quests.4920255C0FDE6187.description0}"]
 			id: "4920255C0FDE6187"
+			optional: true
 			rewards: [{
 				id: "260460DB71687420"
 				item: "gtocore:copper_coin"

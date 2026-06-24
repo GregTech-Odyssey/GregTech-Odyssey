@@ -526,24 +526,6 @@
 			y: 12.5d
 		}
 		{
-			height: 1.1d
-			image: "xtonesreworked:block/bitt/12"
-			rotation: 0.0d
-			width: 1.1d
-			x: -9.0d
-			y: 21.5d
-		}
-		{
-			color: 16711935
-			height: 1.1d
-			image: "ftbquests:block/barrier_open"
-			order: 1
-			rotation: 0.0d
-			width: 1.1d
-			x: -9.0d
-			y: 21.5d
-		}
-		{
 			height: 1.0d
 			image: "gtocore:item/circuit/suprachronal_mv"
 			rotation: 0.0d
@@ -1078,16 +1060,16 @@
 			image: "gtocore:item/circuit/suprachronal_luv"
 			rotation: 0.0d
 			width: 1.0d
-			x: -1.7d
-			y: 17.5d
+			x: 0.7d
+			y: 19.5d
 		}
 		{
 			height: 1.1d
 			image: "xtonesreworked:block/agon/agon_block_1_yellow"
 			rotation: 0.0d
 			width: 1.1d
-			x: -1.0d
-			y: 17.5d
+			x: 1.5d
+			y: 19.5d
 		}
 		{
 			color: 16711935
@@ -1182,15 +1164,7 @@
 			image: "gtocore:item/circuit/suprachronal_luv"
 			rotation: 0.0d
 			width: 1.0d
-			x: 7.5d
-			y: 19.0d
-		}
-		{
-			height: 1.0d
-			image: "gtocore:item/circuit/suprachronal_iv"
-			rotation: 0.0d
-			width: 1.0d
-			x: 3.5d
+			x: 9.5d
 			y: 19.0d
 		}
 		{
@@ -1199,6 +1173,14 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: 5.5d
+			y: 19.0d
+		}
+		{
+			height: 1.0d
+			image: "gtocore:item/circuit/suprachronal_iv"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.5d
 			y: 19.0d
 		}
 	]
@@ -1676,10 +1658,13 @@
 				"{gto.ae.quests.44487970FC3FBAED.description1}"
 				""
 				"{gto.ae.quests.44487970FC3FBAED.description2}"
+				""
+				"{gto.ae.quests.44487970FC3FBAED.description3}"
 			]
 			icon: "gtceu:large_chemical_reactor"
 			id: "44487970FC3FBAED"
 			shape: "pentagon"
+			size: 1.2d
 			subtitle: "{gto.ae.quests.44487970FC3FBAED.subtitle}"
 			tasks: [
 				{
@@ -3273,15 +3258,50 @@
 			id: "2F42DE3FEC2C35F9"
 			min_required_dependencies: 2
 			rewards: [{
-				id: "54FA657D95191880"
-				item: "ae2:crafting_unit"
+				id: "27454BBC28BBC20F"
+				item: "ae2:crafting_accelerator"
 				type: "item"
 			}]
-			tasks: [{
-				id: "2E3E0866967015F4"
-				item: "ae2:crafting_unit"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2E3E0866967015F4"
+					item: "ae2:crafting_unit"
+					type: "item"
+				}
+				{
+					id: "681AE973B937A288"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "ae2:1k_crafting_storage"
+								}
+								{
+									Count: 1b
+									id: "ae2:4k_crafting_storage"
+								}
+								{
+									Count: 1b
+									id: "ae2:16k_crafting_storage"
+								}
+								{
+									Count: 1b
+									id: "ae2:64k_crafting_storage"
+								}
+								{
+									Count: 1b
+									id: "ae2:256k_crafting_storage"
+								}
+							]
+						}
+					}
+					title: "{gto.ae.quests.2F42DE3FEC2C35F9.tasks.681AE973B937A288.title}"
+					type: "item"
+				}
+			]
 			title: "{gto.ae.quests.2F42DE3FEC2C35F9.title}"
 			x: 1.5d
 			y: 10.5d
@@ -3682,17 +3702,28 @@
 				"7B47DD1ACCAA3B03"
 				"1B54495D4256F384"
 				"1C3EFBC3AA258CE1"
+				"6358F1016C5F173D"
+				"78F5E78C89A3C117"
 			]
 			dependency_requirement: "one_completed"
+			description: [
+				"{gto.ae.quests.594929B55FA2E37E.description0}"
+				""
+				"{gto.ae.quests.594929B55FA2E37E.description1}"
+				""
+				"{gto.ae.quests.594929B55FA2E37E.description2}"
+			]
 			hide_dependency_lines: true
 			id: "594929B55FA2E37E"
 			min_required_dependencies: 2
+			shape: "square"
+			size: 1.0d
 			tasks: [{
 				id: "6E983494C54091BA"
 				item: "ae2wtlib:wireless_universal_terminal"
 				type: "item"
 			}]
-			x: -1.0d
+			x: 1.5d
 			y: 21.5d
 		}
 		{
@@ -3718,9 +3749,13 @@
 				"{gto.ae.quests.79B00A56EED55DBD.description0}"
 				""
 				"{gto.ae.quests.79B00A56EED55DBD.description1}"
+				""
 				"{gto.ae.quests.79B00A56EED55DBD.description2}"
+				""
 				"{gto.ae.quests.79B00A56EED55DBD.description3}"
+				""
 				"{gto.ae.quests.79B00A56EED55DBD.description4}"
+				""
 				"{gto.ae.quests.79B00A56EED55DBD.description5}"
 			]
 			id: "79B00A56EED55DBD"
@@ -4633,8 +4668,8 @@
 				item: "gtocore:me_muffler_hatch"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 17.5d
+			x: 1.5d
+			y: 19.5d
 		}
 		{
 			dependencies: [
@@ -4791,42 +4826,34 @@
 			y: 5.5d
 		}
 		{
-			can_repeat: true
+			dependencies: ["0B36C7D7D1594CB7"]
+			description: ["{gto.ae.quests.1E28BA38DEEB17A9.description0}"]
+			hide_dependency_lines: true
 			icon: "ae2:facility_terminal"
 			id: "1E28BA38DEEB17A9"
-			rewards: [{
-				id: "0098430A76B66C38"
+			tasks: [{
+				id: "2EA85E4E1A0F850A"
 				item: "ae2:facility_terminal"
 				type: "item"
 			}]
-			tasks: [
-				{
-					id: "2EA85E4E1A0F850A"
-					item: "ae2:facility_terminal"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "11294E1C1AC2C606"
-					type: "checkmark"
-				}
-			]
 			x: -1.0d
-			y: 23.5d
+			y: 21.5d
 		}
 		{
 			dependencies: [
 				"11A36F8DB547DF3D"
 				"0B36C7D7D1594CB7"
 			]
+			description: ["{gto.ae.quests.11542CB33270FB67.description0}"]
+			icon: "merequester:requester_terminal"
 			id: "11542CB33270FB67"
 			tasks: [{
 				id: "6CF86BF5981FAC3F"
 				item: "merequester:requester_terminal"
 				type: "item"
 			}]
-			x: -9.0d
-			y: 23.5d
+			x: -1.0d
+			y: 17.5d
 		}
 		{
 			dependencies: [
@@ -4866,8 +4893,8 @@
 				item: "expatternprovider:ex_crafting_terminal"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 19.5d
+			x: -9.0d
+			y: 23.5d
 		}
 		{
 			dependencies: [
@@ -4918,7 +4945,7 @@
 				item: "gtocore:me_input_buffer_part_machine"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 9.5d
 			y: 19.5d
 		}
 		{
@@ -4928,7 +4955,7 @@
 				item: "gtocore:me_requestable_input_bus_machine"
 				type: "item"
 			}]
-			x: 3.5d
+			x: 5.5d
 			y: 19.5d
 		}
 		{
@@ -4938,7 +4965,7 @@
 				item: "gtocore:me_requestable_input_hatch_machine"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 7.5d
 			y: 19.5d
 		}
 		{
@@ -4950,7 +4977,7 @@
 				title: "{gto.ae.quests.40FDBD03A41EFE43.tasks.41F5FE50219072EF.title}"
 				type: "checkmark"
 			}]
-			x: 1.5d
+			x: 3.5d
 			y: 19.5d
 		}
 		{
@@ -4969,6 +4996,26 @@
 			title: "{gto.ae.quests.035EA7506BF7CD3F.title}"
 			x: -11.0d
 			y: 3.5d
+		}
+		{
+			id: "6358F1016C5F173D"
+			tasks: [{
+				id: "4908542A36775060"
+				item: "gtocore:wireless_facility_management_terminal"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 23.5d
+		}
+		{
+			id: "78F5E78C89A3C117"
+			tasks: [{
+				id: "20CE247639C48112"
+				item: "gtocore:wireless_requester_terminal"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 19.5d
 		}
 	]
 	subtitle: ["{gto.ae.subtitle0}"]
