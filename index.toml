@@ -2561,22 +2561,6 @@ file = "defaultconfigs/solcarrot-server.toml"
 hash = "e143bd0b7c1b210cdf4cefa2df0e8dc1164eec3a40345a42c9fc66b102e530ab"
 
 [[files]]
-file = "docs/AstralSorcery-1.png"
-hash = "658acdf399d93fa63f8cd599c1e9c3d692067f813db638a1358cac5a5da78a96"
-
-[[files]]
-file = "docs/AstralSorcery-2.png"
-hash = "2afcaa7b433121b96b5cb78b56411aa71f524038f87f320d24084267aded224d"
-
-[[files]]
-file = "docs/AstralSorcery.md"
-hash = "a736e71ee58868e27567649601f9ceac4561e8231f5d23e4e3d2307cf6b4b8a2"
-
-[[files]]
-file = "docs/darkpuppey.png"
-hash = "7fdd4177b36d116f33f34b492359daf9bb7f35815a1ae9cc5f0e8a072abde54b"
-
-[[files]]
 file = "mods/ad-astra-rocketed.pw.toml"
 hash = "f7701471418c363cc5e72f648cd2b29572a0ba858fbf073fbcca50fb70b06c7c"
 metafile = true
