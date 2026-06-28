@@ -1453,18 +1453,25 @@
 			description: [
 				"&6简易合成终端&r可以与对应容器交互，当作前期的AE"
 				""
-				"但是这个合成终端&c无法链接多个容器&r，因此我强烈建议你去商店买一个&6不锈钢板条箱&r作为临时存储"
+				"但是这个合成终端&c只能链接单个容器&r"
 				""
 				"&o&7提示：你可以直接把物品从EMI中拖到终端的搜索栏上来快速搜索"
 			]
 			hide_dependency_lines: false
 			id: "2E05753AF03C5608"
-			rewards: [{
-				count: 8
-				id: "024BEB1CD9253176"
-				item: "gtocore:copper_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 8
+					id: "024BEB1CD9253176"
+					item: "gtocore:copper_coin"
+					type: "item"
+				}
+				{
+					id: "5F68F9562A5C6791"
+					item: "gtceu:steel_crate"
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			size: 1.5d
 			subtitle: "合成站"
@@ -2158,6 +2165,7 @@
 				item: "torchmaster:megatorch"
 				type: "item"
 			}]
+			shape: "pentagon"
 			subtitle: "无需火把——但是为了避免刷怪还是插上吧"
 			tasks: [{
 				id: "31E519C621A9793E"

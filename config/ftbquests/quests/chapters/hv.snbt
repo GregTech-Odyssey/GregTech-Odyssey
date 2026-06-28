@@ -1192,7 +1192,7 @@
 				"1. 任何物品都可以是虚拟的（电路、透镜、模具等）"
 				"2. 请注意对应设备的&e虚拟物品槽&r的数量，样板写入过多虚拟物品是无法工作的"
 			]
-			icon: "gtocore:hv_programmablec_hatch"
+			icon: "gtocore:virtual_item_supply_machine"
 			id: "19B006CEA837B6B4"
 			min_width: 250
 			shape: "diamond"
@@ -1207,6 +1207,7 @@
 				{
 					id: "326EF714045254DB"
 					item: "gtocore:mv_programmablec_hatch"
+					optional_task: true
 					type: "item"
 				}
 			]
@@ -1720,7 +1721,11 @@
 		}
 		{
 			dependencies: ["19B006CEA837B6B4"]
-			description: ["将&6可编程覆盖版&r贴到&b单方块机器&r上，可为其添加&e虚拟物品槽&r"]
+			description: [
+				"将&6可编程覆盖版&r贴到&b单方块机器&r上，可为其添加&e虚拟物品槽&r"
+				""
+				"没有&e虚拟物品槽&r的机器是&c无法接受&r虚拟物品的"
+			]
 			id: "0362FE44C232A1CE"
 			shape: "diamond"
 			tasks: [{

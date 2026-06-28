@@ -596,7 +596,7 @@
 		}
 		{
 			dependencies: ["3EDC674F36EDC52E"]
-			description: ["净化水机器并行需要调至1000的整数倍才会运行，并行数决定了一次周期内制作多少水和耗电量"]
+			description: ["净化水机器并行需要调至&a1000&r的整数倍才会运行，并行数决定了一次周期内制作多少水和耗电量"]
 			id: "677752F0A4CB47CB"
 			shape: "hexagon"
 			size: 1.5d
