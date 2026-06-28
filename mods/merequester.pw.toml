@@ -1,12 +1,13 @@
 name = "ME Requester"
-filename = "merequester-forge-1.20.1-1.1.5.jar"
+filename = "merequester-forge-1.20.1-1.2.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "24e6611df470afd957eafd16c43890b7214e3da9"
-url = "https://edge.forgecdn.net/files/5689/932/merequester-forge-1.20.1-1.1.5.jar"
+hash = "ae47625db6e72241a4a3791dfdd5bcd5cf2dc05c"
+mode = "metadata:curseforge"
 
+[update]
 [update.curseforge]
-file-id = 5689932
+file-id = 8298547
 project-id = 688367

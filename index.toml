@@ -2453,14 +2453,6 @@ file = "config/sophisticatedcore-common.toml"
 hash = "c21182fe66eec745c8521d2e9e7ec09a661af65dc5918039b01e86d271116eb4"
 
 [[files]]
-file = "config/staaaaaaaaaaaack-client.toml"
-hash = "3eb651403defd70eca13ed3bf75b88acba04315175ae92c430892c0e83a93de2"
-
-[[files]]
-file = "config/staaaaaaaaaaaack-common.toml"
-hash = "837aeae27af7f9fa07f041a16d21ee070c251a87a7aa63cc0353b6e30a05fbee"
-
-[[files]]
 file = "config/storagedrawers-client.toml"
 hash = "9278e868cee8fe35e0c0bae950a26329d85580d91841b42ea1b0d04fb4d0ad2f"
 
@@ -2797,7 +2789,7 @@ metafile = true
 
 [[files]]
 file = "mods/creativecore.pw.toml"
-hash = "c6db31a666f48f3c80dd3ba1dd6e253e3785adfed19b782956a3469fb796d97c"
+hash = "47736af1584283072d721e4f2700929a0fabe67b36e2175fc48b0964db70ab8b"
 metafile = true
 
 [[files]]
@@ -2822,7 +2814,7 @@ metafile = true
 
 [[files]]
 file = "mods/default-options.pw.toml"
-hash = "aaf9de07b98813922b2125dcaffd827aa7ccab618ea54edeb92d9689f82bf049"
+hash = "4dd29a42972a5ab03609a0ee76156f005f7a7d3bd332bcdf57b25edd9e1310f9"
 metafile = true
 
 [[files]]
@@ -2877,7 +2869,7 @@ metafile = true
 
 [[files]]
 file = "mods/ex-pattern-provider.pw.toml"
-hash = "7a5252d11f15554cf3c93ae0b152fe64c78bc668b25c79362672660980c10308"
+hash = "b03708e6de0c0afd4a1b202d7da5b258d60e7e5a10a171aef42c6d35935f4859"
 metafile = true
 
 [[files]]
@@ -2902,7 +2894,7 @@ metafile = true
 
 [[files]]
 file = "mods/fancymenu.pw.toml"
-hash = "a8d8e4a67c9c8ec746337fe59edf463c7345d418100882b5fa5f1cc7f3247988"
+hash = "efdd0f176de771c33fe59af3dada25bfa36266cd7ba74a4fab9115c005422b34"
 metafile = true
 
 [[files]]
@@ -2977,7 +2969,7 @@ metafile = true
 
 [[files]]
 file = "mods/flerovium.pw.toml"
-hash = "c8cf9ae4c4fe249534d3a072b6329d559477f2aa4004447bb3ff7f1f9987e15d"
+hash = "f1f01ee0e38b4efbfbf34b08a6a963328db75c54c7217c75308396369101f5f7"
 metafile = true
 
 [[files]]
@@ -3007,7 +2999,7 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-library-forge.pw.toml"
-hash = "48e2fa3089beed20a23ff2d171259768b2080ab0ff196841a18eb93c38e1c8b2"
+hash = "efa75ee4aae90dea11316b6e61aecaf9433eeb3d0821f78b4eca41acbbd73e8f"
 metafile = true
 
 [[files]]
@@ -3037,7 +3029,7 @@ metafile = true
 
 [[files]]
 file = "mods/geckolib.pw.toml"
-hash = "a1dba016bfd85fbabc5ff7c78f0302d3dd5b20026842231d6422947a7bb5f6f0"
+hash = "898fd2704dd260ae8f3dc20b4416439751f0a9e76367c4f0bbdac886b6987802"
 metafile = true
 
 [[files]]
@@ -3052,12 +3044,13 @@ metafile = true
 
 [[files]]
 file = "mods/gnetum.pw.toml"
-hash = "7daf1a0d1eb789b83f3fcbe93cdff186d25b05453a96a7fa9d87ea04e3a8f578"
+hash = "e7c2e315734eb207a517afc3dd7901f95e11b0642bf8d4a37db35f3af4a80b3e"
 metafile = true
 
 [[files]]
-file = "mods/gtocore-0.5.6-pre2.jar"
-hash = "ce7cc782a1f0479cb3ef800be4a12ebd2d3941d44014a52b131f8e3b9c6c5083"
+file = "mods/gtocore.pw.toml"
+hash = "8a2ec7d08e28901f04b3ddda7e89b33267d0dbc41fcfc231af5a30a32d07ed7b"
+metafile = true
 
 [[files]]
 file = "mods/gtonativelib-1.0.jar"
@@ -3075,12 +3068,12 @@ metafile = true
 
 [[files]]
 file = "mods/immersive-aircraft.pw.toml"
-hash = "82f389d06c0e19d2ffcd75d5d85e0d9f09ec17178b8dd3e5afe9350a271e0443"
+hash = "39398f1d161e96a6de60e9899184991d643323dde64b8f26072a1908269e9ff7"
 metafile = true
 
 [[files]]
 file = "mods/inventory-essentials.pw.toml"
-hash = "6285b496a4236a5e591572bc206f81c9f35c8e5d692f057521babe4b87767d77"
+hash = "d17ed4acfcecdf4a8bf344d75166cfc2fe75007bb9e55880aed8a274d9d119d0"
 metafile = true
 
 [[files]]
@@ -3100,7 +3093,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "7462fac47d19eab330cdf24eb07c65a5c421ded2d94675fb8ef21cdbbb034c13"
+hash = "2ca4af8ff09938ac870652fa8b47e2c1ae127decc2365a0a2fc9c8afbf25e38d"
 metafile = true
 
 [[files]]
@@ -3155,7 +3148,7 @@ metafile = true
 
 [[files]]
 file = "mods/merequester.pw.toml"
-hash = "2c9001005ee35d2ef3161948def5f65c283e8946604ec1473e327d0828214dad"
+hash = "edd3084dd2c10ae697ace9bb2c6a249c6a9d4d92a6d02247169fdab60e55b286"
 metafile = true
 
 [[files]]
@@ -3230,12 +3223,12 @@ metafile = true
 
 [[files]]
 file = "mods/oh-the-biomes-weve-gone.pw.toml"
-hash = "910bf8541d58020d34c119cd3b35bd3d4fc3954db80ba22f2db98849a1b40357"
+hash = "a85df37d5c0afc3b2fdae7e43b7bf145d0ef06de6a55fd223901f09fbc514ccc"
 metafile = true
 
 [[files]]
 file = "mods/oh-the-trees-youll-grow.pw.toml"
-hash = "2a6cecc87fb42098b8b4a6ca813ce1ae362d43841918957c2388dff65149315c"
+hash = "01905832e0cbe05983fb45fd2f353dbf8fbf9b4a27a867e8bc731c0f52090260"
 metafile = true
 
 [[files]]
@@ -3310,22 +3303,17 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "438ef2d6c42d361509ffadeab25e87c88db9d6f396b508f093b983368b7760c2"
+hash = "2e72d1c4db42473f8b7166f2fc8ff368b319ff2e367d8fade05f0a1c5b0e4979"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "a017d5d3fe7758e0122f19251d978d3a1d08010e5f1a2229f9c4a9b7f6a7b666"
+hash = "db7617e6478e6e3885f20f08a4604daa1cada5d8755bc52dceba0b1239c4ef40"
 metafile = true
 
 [[files]]
 file = "mods/spice-of-life-carrot-edition.pw.toml"
 hash = "c2eac86256a3ecd45f6706976af120e0464b135c2b39471b9d93bcd8b5426a8b"
-metafile = true
-
-[[files]]
-file = "mods/staaaaaaaaaaaack.pw.toml"
-hash = "aa15f807d2a5f088e79460b5a98ea1f9dbfc5a25fcc97da41c9152d82930e0f8"
 metafile = true
 
 [[files]]
