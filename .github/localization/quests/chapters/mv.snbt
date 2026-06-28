@@ -52,6 +52,26 @@
 			x: -3.5d
 			y: 7.5d
 		}
+		{
+			color: 16711935
+			dependency: "056EC4E6FAF614B7"
+			height: 1.0d
+			image: "ftbquests:block/barrier_open"
+			order: 1
+			rotation: 45.0d
+			width: 1.0d
+			x: -6.5d
+			y: 7.5d
+		}
+		{
+			dependency: "056EC4E6FAF614B7"
+			height: 1.0d
+			image: "xtonesreworked:block/bitt/12"
+			rotation: 45.0d
+			width: 1.0d
+			x: -6.5d
+			y: 7.5d
+		}
 	]
 	order_index: 4
 	quest_links: [
@@ -1727,6 +1747,49 @@
 			]
 			title: "{gto.mv.quests.12A2E4A2905D84DE.title}"
 			x: -10.0d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"49E5CC5873FA226F"
+				"056EC4E6FAF614B7"
+			]
+			description: [
+				"{gto.mv.quests.37AA29B1A84241FA.description0}"
+				""
+				"{gto.mv.quests.37AA29B1A84241FA.description1}"
+				""
+				"{gto.mv.quests.37AA29B1A84241FA.description2}"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			icon: "gtocore:virtual_item_supply_machine"
+			id: "37AA29B1A84241FA"
+			min_width: 250
+			optional: true
+			shape: "diamond"
+			size: 1.0d
+			tasks: [
+				{
+					id: "6359CBCDF29670D9"
+					item: "gtocore:virtual_item_supply_machine"
+					type: "item"
+				}
+				{
+					id: "12A259E3E3B7B2C1"
+					item: "gtocore:mv_programmablec_hatch"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "01DD207AAA4AD98E"
+					item: "gtmthings:programmable_cover"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "{gto.mv.quests.37AA29B1A84241FA.title}"
+			x: -6.5d
 			y: 7.5d
 		}
 	]

@@ -332,6 +332,8 @@
 				"{gto.steam.quests.7E8B76C8CC341F51.description0}"
 				""
 				"[\"\", {\"translate\": \"gto.steam.quests.7E8B76C8CC341F51.description1.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"1A0EA7A29CFD830D\"}, \"translate\": \"gto.steam.quests.7E8B76C8CC341F51.description1.rich_text1\"}]"
+				""
+				"{gto.steam.quests.7E8B76C8CC341F51.description2}"
 			]
 			id: "7E8B76C8CC341F51"
 			optional: true
@@ -1570,16 +1572,47 @@
 				"{gto.steam.quests.2D9893D2C108754F.description0}"
 				""
 				"{gto.steam.quests.2D9893D2C108754F.description1}"
+				""
+				"{gto.steam.quests.2D9893D2C108754F.description2}"
+				""
+				"{gto.steam.quests.2D9893D2C108754F.description3}"
 			]
+			icon: "gtocore:item_vault"
 			id: "2D9893D2C108754F"
-			shape: "diamond"
-			size: 1.5d
-			subtitle: "{gto.steam.quests.2D9893D2C108754F.subtitle}"
-			tasks: [{
-				id: "3275A7DEDC7837C1"
-				item: "gtocore:multiblock_crate"
+			rewards: [{
+				id: "4E0591816EB6C92C"
+				item: "gtocore:ulv_hermetic_casing"
 				type: "item"
 			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{gto.steam.quests.2D9893D2C108754F.subtitle}"
+			tasks: [
+				{
+					id: "58154EB1A0DA8492"
+					item: "gtocore:item_vault"
+					type: "item"
+				}
+				{
+					id: "0AFD95693DDDC13A"
+					item: "gtocore:fluid_vault"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6B5A9E6EF82084E7"
+					item: "gtocore:general_vault"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0B67534F5F1488D8"
+					item: "gtocore:vault_hatch"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "{gto.steam.quests.2D9893D2C108754F.title}"
 			x: 11.25d
 			y: -1.5d
 		}
@@ -1843,24 +1876,6 @@
 			title: "{gto.steam.quests.0D362285B6842681.title}"
 			x: 5.5d
 			y: 11.5d
-		}
-		{
-			dependencies: ["2D9893D2C108754F"]
-			description: [
-				"{gto.steam.quests.665B3D944CE2EB86.description0}"
-				""
-				"{gto.steam.quests.665B3D944CE2EB86.description1}"
-			]
-			id: "665B3D944CE2EB86"
-			optional: true
-			shape: "diamond"
-			tasks: [{
-				id: "25583B71585C4F43"
-				item: "ars_nouveau:storage_lectern"
-				type: "item"
-			}]
-			x: 13.0d
-			y: -1.5d
 		}
 		{
 			dependencies: [

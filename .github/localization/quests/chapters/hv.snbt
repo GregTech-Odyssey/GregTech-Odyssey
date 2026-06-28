@@ -1192,7 +1192,7 @@
 				"{gto.hv.quests.19B006CEA837B6B4.description9}"
 				"{gto.hv.quests.19B006CEA837B6B4.description10}"
 			]
-			icon: "gtocore:hv_programmablec_hatch"
+			icon: "gtocore:virtual_item_supply_machine"
 			id: "19B006CEA837B6B4"
 			min_width: 250
 			shape: "diamond"
@@ -1207,6 +1207,7 @@
 				{
 					id: "326EF714045254DB"
 					item: "gtocore:mv_programmablec_hatch"
+					optional_task: true
 					type: "item"
 				}
 			]
@@ -1720,7 +1721,11 @@
 		}
 		{
 			dependencies: ["19B006CEA837B6B4"]
-			description: ["{gto.hv.quests.0362FE44C232A1CE.description0}"]
+			description: [
+				"{gto.hv.quests.0362FE44C232A1CE.description0}"
+				""
+				"{gto.hv.quests.0362FE44C232A1CE.description1}"
+			]
 			id: "0362FE44C232A1CE"
 			shape: "diamond"
 			tasks: [{

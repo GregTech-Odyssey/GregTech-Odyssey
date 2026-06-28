@@ -1792,7 +1792,11 @@
 				"0BC456B4331C09F5"
 				"7DD3E20C1AF38823"
 			]
-			description: ["{gto.ae.quests.6F43BA73FE817566.description0}"]
+			description: [
+				"{gto.ae.quests.6F43BA73FE817566.description0}"
+				""
+				"{gto.ae.quests.6F43BA73FE817566.description1}"
+			]
 			id: "6F43BA73FE817566"
 			tasks: [{
 				id: "00521BD2414BD997"
@@ -3255,6 +3259,7 @@
 				"{gto.ae.quests.2F42DE3FEC2C35F9.description1}"
 			]
 			hide_dependency_lines: true
+			icon: "ae2:crafting_unit"
 			id: "2F42DE3FEC2C35F9"
 			min_required_dependencies: 2
 			rewards: [{

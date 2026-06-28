@@ -64,7 +64,7 @@
 			shape: "hexagon"
 			size: 1.5d
 			x: -12.0d
-			y: 3.0d
+			y: 6.0d
 		}
 	]
 	quests: [
@@ -1136,7 +1136,7 @@
 				type: "item"
 			}]
 			x: -12.0d
-			y: 6.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["12F3FAEB69397980"]
@@ -1949,8 +1949,6 @@
 				"{gto.lv.quests.39879EA8A9F79913.description3}"
 				""
 				"{gto.lv.quests.39879EA8A9F79913.description4}"
-				""
-				"{gto.lv.quests.39879EA8A9F79913.description5}"
 			]
 			icon: "gtceu:stainless_steel_frame"
 			id: "39879EA8A9F79913"
@@ -2781,6 +2779,7 @@
 			y: -4.0d
 		}
 		{
+			dependencies: ["7AEE9F9ADE58612F"]
 			id: "217AD9FDA35D32A3"
 			shape: "hexagon"
 			size: 1.5d
