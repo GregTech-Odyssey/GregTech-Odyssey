@@ -33,7 +33,7 @@
             phases = [ "unpackPhase" "buildPhase" "installPhase" ];
             buildPhase = ''
               ${patchFilesCommon}
-              packwiz cf export
+              packwiz cf export --cache "$TMPDIR/packwiz-cache"
             '';
             installPhase = ''
               mkdir $out
