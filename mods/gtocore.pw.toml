@@ -1,8 +1,0 @@
-name = "GTOCore"
-filename = "gtocore-forge-1.20.1-0.5.6-alpha.jar"
-side = "both"
-
-[download]
-url = "https://maven.gtodyssey.com/releases/com/gto/gtocore-forge-1.20.1/0.5.6-alpha/gtocore-forge-1.20.1-0.5.6-alpha.jar"
-hash-format = "sha256"
-hash = "4a8f57bdd7bed846afb8733afa44432dbf886e1cec9bb3fa0e716391be7fda6a"
