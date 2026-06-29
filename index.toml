@@ -1470,7 +1470,7 @@ hash = "4c828a58bc86bcc31c01384f203b8bcad704dbf01e42d67fefb415ecf1e62a41"
 
 [[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/zh_tw.json"
-hash = "42e091925a1f1b15362e17d0ecff0516893454fdbcf41b428709be4cc2f8599e"
+hash = "4524ecec9da22804473fb21b6f35ce6884559478c427b94673468dfce1f7ebe5"
 
 [[files]]
 file = "config/openloader/resources/quests/pack.mcmeta"
@@ -3049,7 +3049,7 @@ metafile = true
 
 [[files]]
 file = "mods/gtocore-forge-1.20.1-0.5.6-alpha.jar"
-hash = "69c3245b0edbf2b286de60a68aef6ea9370b399dee0413dd31f0228957e018c3"
+hash = "16ab4735e8306e9a52342030725fc3f4d59c99486de0bfcc9c14dd41e3db0dcd"
 
 [[files]]
 file = "mods/gtonativelib-1.0.jar"
