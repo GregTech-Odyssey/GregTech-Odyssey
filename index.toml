@@ -866,7 +866,7 @@ hash = "3504b307772ef02a918a8624f50003e0c8200173e99d4f93033641cdc96ee985"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ae.snbt"
-hash = "7afe6bc87d5b805fcb84514c6bda1efd3c7acdc903ab0a3c051d06c7d21a091b"
+hash = "f96b93e2ba0ef813943d5d6fd0d75bb17232afd2f826220f8e6ac156176b09e4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/apotheosis.snbt"
@@ -926,7 +926,7 @@ hash = "0b73cba624f5ed51e00198ac3aa455dac2830c31ccb0b23d1ad036d1d4542a6b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/lv.snbt"
-hash = "918730e3cb057c36257e064a853a4eb2042c1b7d448d7dfdd80ed9f15d62e03e"
+hash = "bf6ba1b7d4f6d00654983dd6e1dc0b1c678db56e2537dda8923be6a063245439"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/magic1.snbt"
@@ -934,7 +934,7 @@ hash = "cdbfab00c072c2e63ac894264d46accca049c3d162af0ffc41c35562945c5fa5"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/magic2.snbt"
-hash = "af7d3dd726eb4302ee60b2736ce153a0f0b838809e02b0166cd4231b2f2db33c"
+hash = "a0b93e4da306f13dc0b3312b30e20d7225c3febcc926cecc30a7cb94f927214c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/main-stoneage.snbt"
@@ -1006,7 +1006,7 @@ hash = "e09c77c1293ca550355d1fe295904952bab94bb7b186339c31ac36f0fea5aad7"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ulv.snbt"
-hash = "e2d2520c5823ffb8686276ddf2502fc4adb2b0f50a8dc9878d5f7e962dc42a49"
+hash = "eda469d90d3521a0635280a1cf7def0c3c5bb69b2f2697087160092ebe50f038"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/util.snbt"
@@ -1458,7 +1458,7 @@ hash = "84254dc1e5a56ea70df6b16a2fb2620040592badae436c255997aaae84996d91"
 
 [[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/en_us.json"
-hash = "6b6ee4d0411f7dd1484bdb3e2aa2789014b19d6273c34bbc63a23c1bd0ab912d"
+hash = "8f2b6e475420334858aa5c8137663489a7f67c3a6bca3dc0992bbfa2cb438f33"
 
 [[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/ru_ru.json"
@@ -1466,11 +1466,11 @@ hash = "0c64eb64a2dcfde9540eafb6495c1bf53c0266e08bea9d5941e754518f4004ff"
 
 [[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/zh_cn.json"
-hash = "4c828a58bc86bcc31c01384f203b8bcad704dbf01e42d67fefb415ecf1e62a41"
+hash = "0dfbf2ff20bf4071f02a2a8af13f139563477a60c1f99959f24955cc0ec341c9"
 
 [[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/zh_tw.json"
-hash = "761e309b6f35398aacb70c221040df2dd9397a77127200515c237cc07c7e4d0d"
+hash = "b6c170d0379261b45d6fda8adf7485402f9bbc837b89e39774cbc5f2c678955b"
 
 [[files]]
 file = "config/openloader/resources/quests/pack.mcmeta"
@@ -3065,7 +3065,7 @@ metafile = true
 
 [[files]]
 file = "mods/gtocore-forge-1.20.1-0.5.6-alpha.jar"
-hash = "16ab4735e8306e9a52342030725fc3f4d59c99486de0bfcc9c14dd41e3db0dcd"
+hash = "9831118e25f4920fc1564e31fa8008ee20b192b9d3f1bb7b3536b96c10843606"
 
 [[files]]
 file = "mods/gtonativelib-1.0.jar"

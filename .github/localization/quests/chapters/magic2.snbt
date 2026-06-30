@@ -2629,6 +2629,24 @@
 			x: 16.0d
 			y: 0.0d
 		}
+		{
+			dependencies: ["23A2865FBE7831AB"]
+			description: [
+				"{gto.magic2.quests.3F449D766BBDDBED.description0}"
+				""
+				"{gto.magic2.quests.3F449D766BBDDBED.description1}"
+			]
+			hide_dependency_lines: true
+			id: "3F449D766BBDDBED"
+			subtitle: "{gto.magic2.quests.3F449D766BBDDBED.subtitle}"
+			tasks: [{
+				id: "193C15F7EA440A0D"
+				item: "gtocore:pulse_machine_maintenance_pedestal"
+				type: "item"
+			}]
+			x: -2.25d
+			y: 8.0d
+		}
 	]
 	subtitle: ["{gto.magic2.subtitle0}"]
 	title: "{gto.magic2.title}"

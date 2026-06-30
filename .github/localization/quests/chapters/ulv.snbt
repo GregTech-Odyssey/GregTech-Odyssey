@@ -237,8 +237,6 @@
 				"{gto.ulv.quests.561F5AACF437E7C5.description3}"
 				""
 				"{gto.ulv.quests.561F5AACF437E7C5.description4}"
-				""
-				"{gto.ulv.quests.561F5AACF437E7C5.description5}"
 			]
 			icon: "gtocore:primitive_distillation_tower"
 			id: "561F5AACF437E7C5"
@@ -255,11 +253,6 @@
 				{
 					id: "1E546B913C7F7A60"
 					item: "gtocore:primitive_distillation_tower"
-					type: "item"
-				}
-				{
-					id: "0FBD21C1E0F2FE40"
-					item: "gtocore:heat_sensor"
 					type: "item"
 				}
 				{
@@ -619,20 +612,22 @@
 				"{gto.ulv.quests.0D94DDD0419D85AD.description0}"
 				""
 				"{gto.ulv.quests.0D94DDD0419D85AD.description1}"
+				""
+				"{gto.ulv.quests.0D94DDD0419D85AD.description2}"
 			]
 			icon: "gtceu:polyethylene_bucket"
 			id: "0D94DDD0419D85AD"
 			subtitle: "{gto.ulv.quests.0D94DDD0419D85AD.subtitle}"
 			tasks: [
 				{
-					id: "29C4756721A734ED"
-					item: "gtceu:polyethylene_bucket"
-					optional_task: true
+					id: "1E7B9EE0111A594C"
+					item: "gtocore:heat_interface"
 					type: "item"
 				}
 				{
-					id: "77C9814F12F06664"
-					type: "checkmark"
+					id: "29C4756721A734ED"
+					item: "gtceu:polyethylene_bucket"
+					type: "item"
 				}
 			]
 			title: "{gto.ulv.quests.0D94DDD0419D85AD.title}"
@@ -1680,14 +1675,26 @@
 					type: "item"
 				}
 				{
+					id: "106A0120D2D0A772"
+					item: "gtocore:mana_heater"
+					optional_task: true
+					type: "item"
+				}
+				{
 					id: "6D72789527D15A16"
 					item: "gtocore:normal_heat_pipe"
 					optional_task: true
 					type: "item"
 				}
 				{
-					id: "21793BFF03964617"
+					id: "5A730236E11C39C4"
 					item: "gtocore:heat_detector_cover"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "12EDE07037185737"
+					item: "gtocore:heat_interface"
 					optional_task: true
 					type: "item"
 				}

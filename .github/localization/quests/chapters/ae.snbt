@@ -4902,10 +4902,7 @@
 			y: 23.5d
 		}
 		{
-			dependencies: [
-				"1FB1EC5B9CEFC2BC"
-				"44D98ACF7C6D783F"
-			]
+			dependencies: ["44D98ACF7C6D783F"]
 			description: [
 				"{gto.ae.quests.09C8F1CDF0E553A3.description0}"
 				""
@@ -4914,6 +4911,8 @@
 				"{gto.ae.quests.09C8F1CDF0E553A3.description2}"
 				""
 				"{gto.ae.quests.09C8F1CDF0E553A3.description3}"
+				"{gto.ae.quests.09C8F1CDF0E553A3.description4}"
+				"{gto.ae.quests.09C8F1CDF0E553A3.description5}"
 			]
 			hide_until_deps_visible: true
 			icon: "ae2:network_tool"
