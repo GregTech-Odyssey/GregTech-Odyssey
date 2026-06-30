@@ -1470,7 +1470,7 @@ hash = "4c828a58bc86bcc31c01384f203b8bcad704dbf01e42d67fefb415ecf1e62a41"
 
 [[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/zh_tw.json"
-hash = "4524ecec9da22804473fb21b6f35ce6884559478c427b94673468dfce1f7ebe5"
+hash = "761e309b6f35398aacb70c221040df2dd9397a77127200515c237cc07c7e4d0d"
 
 [[files]]
 file = "config/openloader/resources/quests/pack.mcmeta"
@@ -1521,6 +1521,10 @@ file = "config/openloader/resources/resources/assets/ae2insertexportcard/lang/zh
 hash = "e8dc9bc1a7b939c79953c452d7f20f89c11dc530ea89c80ae46ca7f74148d92d"
 
 [[files]]
+file = "config/openloader/resources/resources/assets/apotheosis/lang/zh_tw.json"
+hash = "f068fbe1d63c3643c8a73b605185f61005b9651a9d1f8cb44b9231999a33b6bc"
+
+[[files]]
 file = "config/openloader/resources/resources/assets/appbot/lang/zh_cn.json"
 hash = "0471ace0b329b7cae31a1368e4da91e843b772d8a06ece914da66041c579bb90"
 
@@ -1535,6 +1539,10 @@ hash = "1539646621c9072dd90aff4e1ef85ea8dc3502e4fd5c53934f0168ae27de256d"
 [[files]]
 file = "config/openloader/resources/resources/assets/aw2wtlib/lang/zh_cn.json"
 hash = "2934ded30bbd92f9f595462bed299d3a6ec1ec2cc45c3826ffa8f7c15cac1cb0"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/biomeswevegone/lang/zh_tw.json"
+hash = "a49d669d0a318c713ac2873153c4e1ea9116e8b47e9a4c0fa070298b3adacd2e"
 
 [[files]]
 file = "config/openloader/resources/resources/assets/botania/lang/zh_cn.json"
@@ -1579,6 +1587,10 @@ hash = "132cb5918a2de767df6fef324f337f8624211d15c07506741cc272f23dd5249e"
 [[files]]
 file = "config/openloader/resources/resources/assets/explorerscompass/lang/zh_cn.json"
 hash = "288ed052d6bdbb96847f26db10570cf5fdceea606974784b6d7d9e9f162d47b1"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/extendedae/lang/zh_tw.json"
+hash = "666749f05840011dfe8dae05d25c58d7bcd1068b74642d6d85f6a3457bb80867"
 
 [[files]]
 file = "config/openloader/resources/resources/assets/factory_blocks/lang/zh_cn.json"
@@ -1827,6 +1839,10 @@ hash = "53e312b7c9153105b72c1e3d016bcdc29a810aa8f5a6d2df3c9d41ab0f662531"
 [[files]]
 file = "config/openloader/resources/resources/assets/mae2/lang/zh_cn.json"
 hash = "c193b484b7a5dc83fd3399f944f8858eb02272b22dff2fc9e9720e7eae6bdc09"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/merequester/lang/zh_tw.json"
+hash = "a4c35af24eefa8774f6dbe69bfea7c74702a58d36de5188b4b8e196c5e9c7dd4"
 
 [[files]]
 file = "config/openloader/resources/resources/assets/minecraft/blockstates/black_stained_glass.json"
