@@ -236,8 +236,6 @@
 				""
 				"目前你还只能使用&6加热器&r来加热，使用&6冷却器&r来散热。进入LV之后你可以使用更高效的&6电力加热器&r"
 				""
-				"热传感器可以检测机器温度阈值发出&c红石信号&r"
-				""
 				"&o&7注意：最下面那一层是输出物品的，流体从第二层开始输出"
 			]
 			icon: "gtocore:primitive_distillation_tower"
@@ -255,11 +253,6 @@
 				{
 					id: "1E546B913C7F7A60"
 					item: "gtocore:primitive_distillation_tower"
-					type: "item"
-				}
-				{
-					id: "0FBD21C1E0F2FE40"
-					item: "gtocore:heat_sensor"
 					type: "item"
 				}
 				{
@@ -619,20 +612,22 @@
 				"聚乙烯是唯一能在&6化学反应釜&r合成的简单有机聚合物，更高级的聚合物都需要在专门的&6聚合器&r完成反应"
 				""
 				"在此阶段，你需要放一个&6加热器&r来提供外部热源，并且只能在&6红宝石杆&r的催化下进行&6空气&r聚合"
+				""
+				"在&bJade 提示框HUD&r上&c没有温度属性&r的机器，需要额外贴一个&6导热接口&r来赋予其温度属性，且导热接口需要贴在加热的那一面"
 			]
 			icon: "gtceu:polyethylene_bucket"
 			id: "0D94DDD0419D85AD"
 			subtitle: "不要尝试去测定它的分子量"
 			tasks: [
 				{
-					id: "29C4756721A734ED"
-					item: "gtceu:polyethylene_bucket"
-					optional_task: true
+					id: "1E7B9EE0111A594C"
+					item: "gtocore:heat_interface"
 					type: "item"
 				}
 				{
-					id: "77C9814F12F06664"
-					type: "checkmark"
+					id: "29C4756721A734ED"
+					item: "gtceu:polyethylene_bucket"
+					type: "item"
 				}
 			]
 			title: "乙烯，合体！"
@@ -1680,14 +1675,26 @@
 					type: "item"
 				}
 				{
+					id: "106A0120D2D0A772"
+					item: "gtocore:mana_heater"
+					optional_task: true
+					type: "item"
+				}
+				{
 					id: "6D72789527D15A16"
 					item: "gtocore:normal_heat_pipe"
 					optional_task: true
 					type: "item"
 				}
 				{
-					id: "21793BFF03964617"
+					id: "5A730236E11C39C4"
 					item: "gtocore:heat_detector_cover"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "12EDE07037185737"
+					item: "gtocore:heat_interface"
 					optional_task: true
 					type: "item"
 				}

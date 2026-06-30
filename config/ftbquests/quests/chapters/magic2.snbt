@@ -2620,6 +2620,24 @@
 			x: 16.0d
 			y: 0.0d
 		}
+		{
+			dependencies: ["23A2865FBE7831AB"]
+			description: [
+				"如果你的前期发展了魔法，不妨考虑一下用它来自动化维护和清灰"
+				""
+				"HV阶段你可以解锁科技线提供的自动维护和掏灰机器，也就用不上它了"
+			]
+			hide_dependency_lines: true
+			id: "3F449D766BBDDBED"
+			subtitle: "魔法的维护和清灰"
+			tasks: [{
+				id: "193C15F7EA440A0D"
+				item: "gtocore:pulse_machine_maintenance_pedestal"
+				type: "item"
+			}]
+			x: -2.25d
+			y: 8.0d
+		}
 	]
 	subtitle: ["当魔法遇上格雷"]
 	title: "英雄之路"
