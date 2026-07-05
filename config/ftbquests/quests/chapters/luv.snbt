@@ -1232,6 +1232,14 @@
 				"你的首要目标是制作&6核聚变&r"
 			]
 			id: "2F03D93AC7DBE58D"
+			rewards: [{
+				auto: "invisible"
+				command: "/playsound minecraft:ui.toast.challenge_complete master @s ~ ~ ~ 1"
+				elevate_perms: true
+				id: "FD00FAD964414270"
+				silent: true
+				type: "command"
+			}]
 			shape: "gear"
 			size: 2.0d
 			subtitle: "&d你需要天马行空般的想象力"

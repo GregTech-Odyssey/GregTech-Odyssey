@@ -1,0 +1,525 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	disable_toast: true
+	filename: "titles"
+	group: "1DADB97F0E99795F"
+	icon: "minecraft:name_tag"
+	id: "54D63406F75855DE"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			dependencies: ["585839393F729DE5"]
+			description: [
+				"为所有玩家初始化称号系统，多人游戏里只需点击一次即可"
+				""
+				"初始化称号系统后才可取得称号"
+			]
+			id: "34416AA3302A1224"
+			rewards: [{
+				auto: "no_toast"
+				command: "/function titles:setup"
+				elevate_perms: true
+				id: "46279FF679AB7B7C"
+				silent: true
+				type: "command"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "6C057A62DA08936B"
+				title: "称号系统初始化"
+				type: "checkmark"
+			}]
+			title: "称号系统初始化"
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["585839393F729DE5"]
+			description: [
+				"&c删除称号系统，所有玩家的称号都会被删除，同时不能取得新的称号&r"
+				""
+				"必须拥有作弊权限才可执行"
+				""
+				"[ \"如果只是想清除自己的称号，请点击\", { \"text\": \"此任务\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4E6CF4DFC10A5773\" } } ]"
+			]
+			id: "21AE401C73C21004"
+			rewards: [{
+				auto: "no_toast"
+				command: "/function titles:remove"
+				id: "3E8B4A18EB3969B8"
+				silent: true
+				type: "command"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "5FBAB1A76430E813"
+				title: "称号系统队伍删除"
+				type: "checkmark"
+			}]
+			title: "称号系统删除"
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"3BC9246D8FD4B649"
+				"585839393F729DE5"
+			]
+			description: [
+				"[ \"前往\", { \"text\": \"称号\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"585839393F729DE5\" } }, \"章节解锁称号系统\" ]"
+				""
+				"这是一个可选系统，只是让你的名字多出一个电压前缀"
+			]
+			icon: "minecraft:cobblestone"
+			id: "499437893CEB8AC4"
+			rewards: [{
+				auto: "no_toast"
+				command: "/team join STONE @s"
+				elevate_perms: true
+				id: "194BA88295B2DA8D"
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				id: "7455EC5B9B76047D"
+				title: "获得称号:\"石器时代\""
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"585839393F729DE5"
+				"24C53B5FF515ACAC"
+			]
+			icon: "gtceu:bronze_ingot"
+			id: "3BE8790F0BA1BA93"
+			rewards: [{
+				auto: "no_toast"
+				command: "/team join STEAM @s"
+				elevate_perms: true
+				id: "186772E30E70799E"
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				id: "677FBFEFED592602"
+				title: "获得称号:\"蒸汽时代\""
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"585839393F729DE5"
+				"4678D97346E46529"
+			]
+			icon: "gtceu:ulv_machine_hull"
+			id: "16D11BE472A94B26"
+			rewards: [{
+				auto: "no_toast"
+				command: "/team join ULV @s"
+				elevate_perms: true
+				id: "3D5E1768FDCA80DF"
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				id: "509E1968AA568403"
+				title: "获得称号:\"超低压时代\""
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"585839393F729DE5"
+				"507807175748245C"
+			]
+			icon: "gtceu:lv_machine_hull"
+			id: "1B1C35B5EACDFAD4"
+			rewards: [{
+				auto: "no_toast"
+				command: "/team join LV @s"
+				elevate_perms: true
+				id: "1223EB0E640A7277"
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				id: "435D0AF142AC5CEC"
+				title: "获得称号:\"低压时代\""
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"585839393F729DE5"
+				"3D1E66868544975F"
+			]
+			icon: "gtceu:mv_machine_hull"
+			id: "6D9F90AE39A260E6"
+			rewards: [{
+				auto: "no_toast"
+				command: "/team join MV @s"
+				elevate_perms: true
+				id: "71B4A03BC7F04FBE"
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				id: "4E28A121A1C15277"
+				title: "获得称号:\"中压时代\""
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"585839393F729DE5"
+				"5D828A5258BFF11F"
+			]
+			icon: "gtceu:hv_machine_hull"
+			id: "0B7B94114F375E01"
+			rewards: [{
+				auto: "no_toast"
+				command: "/team join HV @s"
+				elevate_perms: true
+				id: "3BE42B26BBC9D372"
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				id: "3B3BEA6D66858FBF"
+				title: "获得称号:\"高压时代\""
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"585839393F729DE5"
+				"2F6C81E3B10365E8"
+			]
+			icon: "gtceu:ev_machine_hull"
+			id: "1518B60CA77CB088"
+			rewards: [{
+				auto: "no_toast"
+				command: "/team join EV @s"
+				elevate_perms: true
+				id: "55785BAC881533E3"
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				id: "56C4A9B4C457164C"
+				title: "获得称号:\"超高压时代\""
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"585839393F729DE5"
+				"1CF7845875EEFA3B"
+			]
+			icon: "gtceu:iv_machine_hull"
+			id: "2E53D51557B75097"
+			rewards: [{
+				auto: "no_toast"
+				command: "/team join IV @s"
+				elevate_perms: true
+				id: "127B043872268B35"
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				id: "21E662F15EB525AF"
+				title: "获得称号:\"强导压时代\""
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"585839393F729DE5"
+				"2F03D93AC7DBE58D"
+			]
+			icon: "gtceu:luv_machine_hull"
+			id: "2060E87F01B0733C"
+			rewards: [{
+				auto: "no_toast"
+				command: "/team join LUV @s"
+				elevate_perms: true
+				id: "604E9463FBC972E4"
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				id: "110A9716EB4B2E19"
+				title: "获得称号:\"剧差压时代\""
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"585839393F729DE5"
+				"3490AACD4AA62C5D"
+			]
+			icon: "gtceu:zpm_machine_hull"
+			id: "6E3401718AF31B50"
+			rewards: [{
+				auto: "no_toast"
+				command: "/team join ZPM @s"
+				elevate_perms: true
+				id: "4AD7044F8BCAE88F"
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				id: "224934D6A51135E8"
+				title: "获得称号:\"零点压时代\""
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"585839393F729DE5"
+				"256F90AFB461107E"
+			]
+			icon: "gtceu:uv_machine_hull"
+			id: "4B27A75853ED8FBD"
+			rewards: [{
+				auto: "no_toast"
+				command: "/team join UV @s"
+				elevate_perms: true
+				id: "6C745C8C11D2AF42"
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				id: "345AF8CACB35D323"
+				title: "获得称号:\"极限压时代\""
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"585839393F729DE5"
+				"1612D1DEB3A7BE2D"
+			]
+			icon: "gtceu:uhv_machine_hull"
+			id: "4AE5EC18818AE56C"
+			rewards: [{
+				auto: "no_toast"
+				command: "/team join UHV @s"
+				elevate_perms: true
+				id: "7C5E37B63D30F406"
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				id: "0C38B660F0DC852B"
+				title: "获得称号:\"极高压时代\""
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"585839393F729DE5"
+				"154F80E28FA53D99"
+			]
+			icon: "gtceu:uev_machine_hull"
+			id: "7D60930D1AE20581"
+			rewards: [{
+				auto: "no_toast"
+				command: "/team join UEV @s"
+				elevate_perms: true
+				id: "7A955229BD962EC6"
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				id: "329597F273F45C01"
+				title: "获得称号:\"极超压时代\""
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"585839393F729DE5"
+				"56BEFB6D64D496A1"
+			]
+			icon: "gtceu:uiv_machine_hull"
+			id: "77001F4CEA66323E"
+			rewards: [{
+				auto: "no_toast"
+				command: "/team join UIV @s"
+				elevate_perms: true
+				id: "3D9A3DA8FC70D402"
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				id: "18CE938B294CC7A8"
+				title: "获得称号:\"极巨压时代\""
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"585839393F729DE5"
+				"4AF94B83FBDD2E54"
+			]
+			icon: "gtceu:uxv_machine_hull"
+			id: "182E5E6B2E52B39B"
+			rewards: [{
+				auto: "no_toast"
+				command: "/team join UXV @s"
+				elevate_perms: true
+				id: "11EE16EF5FB4C475"
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				id: "35580623CD78D06B"
+				title: "获得称号:\"极顶压时代\""
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"585839393F729DE5"
+				"7B3C0DB7C1F11692"
+			]
+			icon: "gtceu:opv_machine_hull"
+			id: "62D2B7F6B48A7A9D"
+			rewards: [{
+				auto: "no_toast"
+				command: "/team join OPV @s"
+				elevate_perms: true
+				id: "72C9985545877237"
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				id: "718CD4572272D9BE"
+				title: "获得称号:\"过载压时代\""
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"585839393F729DE5"
+				"284111931F2808B4"
+			]
+			icon: "gtceu:max_machine_hull"
+			id: "3BCF277DDB3D4987"
+			rewards: [{
+				auto: "no_toast"
+				command: "/team join MAX @s"
+				elevate_perms: true
+				id: "0AAACF49A2F43892"
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				id: "39DA8E9E17C34B90"
+				title: "获得称号:\"上限压时代\""
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			description: [
+				"每当你到达新的游戏阶段，都会自动解锁对应阶段电压的称号（不过你需要手动在本章节点击切换）"
+				""
+				"你可以佩戴这些称号，它们会在聊天栏里作为名字的前缀出现"
+				""
+				"&o&7致谢：来自玩家 @xiaokuc666 提供的蓝图"
+			]
+			hide_dependent_lines: true
+			id: "585839393F729DE5"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "1D723E3A85F6D9C3"
+				type: "checkmark"
+			}]
+			title: "称号系统"
+			x: -6.5d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["585839393F729DE5"]
+			description: ["清除自己的称号"]
+			id: "4E6CF4DFC10A5773"
+			rewards: [{
+				auto: "no_toast"
+				command: "/team leave @s"
+				elevate_perms: true
+				id: "7A2A2317C3A59F55"
+				silent: true
+				type: "command"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "49FC1DCCBAA3CE23"
+				title: "清除自己的称号"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+	]
+	subtitle: ["Titles"]
+	title: "称号"
+}

@@ -1111,9 +1111,9 @@
 			description: [
 				"仔细翻看EMI，不要遗漏它的两个配方！"
 				""
-				"你现在做不出退火铜，所以你必须使用&7铜导线&r"
+				"你现在做不出退火铜，所以你必须使用&6铜导线&r"
 				""
-				"目前获取碳粉的途径有两个：石墨矿破碎，或者土高炉的副产物"
+				"目前获取碳粉的途径有两个：处理&6滑石/石墨矿&r，或者离心&6黑色灰烬&r（炼钢副产物）"
 			]
 			id: "206990570B2743AE"
 			shape: "circle"
@@ -1428,6 +1428,14 @@
 				"从现在起，你可以开始着手降低材料的造价，或许将&6原始线材轧机&r、&6原始车床&r作为你新时代的开端是不错的选择？"
 			]
 			id: "4678D97346E46529"
+			rewards: [{
+				auto: "invisible"
+				command: "/playsound minecraft:ui.toast.challenge_complete master @s ~ ~ ~ 1"
+				elevate_perms: true
+				id: "05D8B6F2AD5E8E21"
+				silent: true
+				type: "command"
+			}]
 			shape: "gear"
 			size: 2.0d
 			subtitle: "&7你需要天马行空般的想象力"

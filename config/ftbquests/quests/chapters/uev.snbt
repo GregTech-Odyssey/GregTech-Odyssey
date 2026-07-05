@@ -392,6 +392,14 @@
 			dependencies: ["4DC386826E075D1E"]
 			description: ["未完待续..."]
 			id: "154F80E28FA53D99"
+			rewards: [{
+				auto: "invisible"
+				command: "/playsound minecraft:ui.toast.challenge_complete master @s ~ ~ ~ 1"
+				elevate_perms: true
+				id: "3955E1979155448B"
+				silent: true
+				type: "command"
+			}]
 			shape: "gear"
 			size: 2.0d
 			subtitle: "&2你需要天马行空般的想象力"

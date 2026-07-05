@@ -1782,6 +1782,14 @@
 				"&o&7不要忘了发展AE与无线电网，它们同样是你这个阶段的重要目标"
 			]
 			id: "5D828A5258BFF11F"
+			rewards: [{
+				auto: "invisible"
+				command: "/playsound minecraft:ui.toast.challenge_complete master @s ~ ~ ~ 1"
+				elevate_perms: true
+				id: "1659F1F8575A4468"
+				silent: true
+				type: "command"
+			}]
 			shape: "gear"
 			size: 2.0d
 			subtitle: "&6你需要天马行空般的想象力"

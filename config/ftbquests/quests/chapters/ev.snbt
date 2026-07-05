@@ -1329,6 +1329,14 @@
 				"&o&7希望你喜欢这个任务“火箭”"
 			]
 			id: "2F6C81E3B10365E8"
+			rewards: [{
+				auto: "invisible"
+				command: "/playsound minecraft:ui.toast.challenge_complete master @s ~ ~ ~ 1"
+				elevate_perms: true
+				id: "955F7450BA904E72"
+				silent: true
+				type: "command"
+			}]
 			shape: "gear"
 			size: 2.0d
 			subtitle: "&5你需要天马行空般的想象力"

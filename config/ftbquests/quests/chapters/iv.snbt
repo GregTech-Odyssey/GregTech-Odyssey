@@ -1307,6 +1307,14 @@
 				"好消息是，不是所有东西都需要IV马达，在取得&aEV能源仓&r后你就可以制作&6IV并行控制仓&r和&6寒冰冷冻机&r等机器！"
 			]
 			id: "1CF7845875EEFA3B"
+			rewards: [{
+				auto: "invisible"
+				command: "/playsound minecraft:ui.toast.challenge_complete master @s ~ ~ ~ 1"
+				elevate_perms: true
+				id: "6F8AEB8D38AE4A86"
+				silent: true
+				type: "command"
+			}]
 			shape: "gear"
 			size: 2.0d
 			subtitle: "&9你需要天马行空般的想象力"
