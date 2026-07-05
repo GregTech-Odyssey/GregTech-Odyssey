@@ -1236,7 +1236,7 @@
 				auto: "invisible"
 				command: "/playsound minecraft:ui.toast.challenge_complete master @s ~ ~ ~ 1"
 				elevate_perms: true
-				id: "FD00FAD964414270"
+				id: "4BE4704C013FE1E0"
 				silent: true
 				type: "command"
 			}]

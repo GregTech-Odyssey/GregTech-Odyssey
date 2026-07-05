@@ -606,49 +606,6 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["3448FEC025A0CA9C"]
-			description: [
-				"<0.5.5彩蛋>"
-				""
-				"恭喜通关！&o&7劳动最光荣"
-			]
-			hide_until_deps_complete: true
-			id: "016825EEC25C1CEF"
-			optional: true
-			rewards: [
-				{
-					id: "258A07134C01C874"
-					item: {
-						Count: 1
-						id: "apotheosis:potion_charm"
-						tag: {
-							Damage: 0
-							Potion: "apotheosis:fatigue"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "733410F4BB5DD9F1"
-					item: "minecraft:powered_rail"
-					type: "item"
-				}
-				{
-					id: "56D3B595211365E9"
-					item: "ars_nouveau:ring_of_greater_discount"
-					type: "item"
-				}
-			]
-			subtitle: "毕业彩蛋"
-			tasks: [{
-				id: "640A14267FA43F4A"
-				type: "checkmark"
-			}]
-			title: "劳动节快乐！"
-			x: 6.0d
-			y: 1.0d
-		}
-		{
 			dependencies: ["7B3C0DB7C1F11692"]
 			description: ["缺失配方的材料，直接送你了"]
 			id: "635BFF4E3FD9999F"
