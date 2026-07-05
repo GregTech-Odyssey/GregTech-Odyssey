@@ -32,6 +32,14 @@
 			x: 6.5d
 			y: -2.0d
 		}
+		{
+			height: 1.25d
+			image: "ftbquests:textures/shapes/circle/outline.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: -3.0d
+			y: 1.5d
+		}
 	]
 	order_index: 0
 	quest_links: [
@@ -68,6 +76,12 @@
 			linked_quest: "21EA1E3550BC1067"
 			x: 11.0d
 			y: 8.0d
+		}
+		{
+			id: "7D57B79E9E8DABC8"
+			linked_quest: "499437893CEB8AC4"
+			x: -3.0d
+			y: 1.5d
 		}
 	]
 	quests: [
@@ -1397,6 +1411,14 @@
 					item: "gtocore:copper_coin"
 					type: "item"
 				}
+				{
+					auto: "invisible"
+					command: "/playsound minecraft:ui.toast.challenge_complete master @s ~ ~ ~ 1"
+					elevate_perms: true
+					id: "317182535D672696"
+					silent: true
+					type: "command"
+				}
 			]
 			shape: "gear"
 			size: 3.0d
@@ -1832,21 +1854,12 @@
 				"{gto.main-stoneage.quests.07C8D75D90114580.description3}"
 			]
 			id: "07C8D75D90114580"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/playsound minecraft:ui.toast.challenge_complete master @s ~ ~ ~ 1"
-					id: "5C3B510CCF25EDF5"
-					silent: true
-					type: "command"
-				}
-				{
-					count: 4
-					id: "3DAAB7C66E02580F"
-					item: "gtocore:copper_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 4
+				id: "3DAAB7C66E02580F"
+				item: "gtocore:copper_coin"
+				type: "item"
+			}]
 			shape: "pentagon"
 			size: 2.0d
 			subtitle: "{gto.main-stoneage.quests.07C8D75D90114580.subtitle}"
@@ -1889,21 +1902,12 @@
 				"{gto.main-stoneage.quests.06FE84E75DBE704A.description11}"
 			]
 			id: "06FE84E75DBE704A"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/playsound minecraft:ui.toast.challenge_complete master @s ~ ~ ~ 1"
-					id: "06E74F392DC76DCC"
-					silent: true
-					type: "command"
-				}
-				{
-					count: 4
-					id: "7512A0EC8A616C48"
-					item: "gtocore:copper_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 4
+				id: "7512A0EC8A616C48"
+				item: "gtocore:copper_coin"
+				type: "item"
+			}]
 			shape: "pentagon"
 			size: 2.0d
 			subtitle: "{gto.main-stoneage.quests.06FE84E75DBE704A.subtitle}"

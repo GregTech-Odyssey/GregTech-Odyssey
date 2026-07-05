@@ -1369,6 +1369,14 @@
 				"{gto.mv.quests.3D1E66868544975F.description3}"
 			]
 			id: "3D1E66868544975F"
+			rewards: [{
+				auto: "invisible"
+				command: "/playsound minecraft:ui.toast.challenge_complete master @s ~ ~ ~ 1"
+				elevate_perms: true
+				id: "2022DB25817746EA"
+				silent: true
+				type: "command"
+			}]
 			shape: "gear"
 			size: 2.0d
 			subtitle: "{gto.mv.quests.3D1E66868544975F.subtitle}"

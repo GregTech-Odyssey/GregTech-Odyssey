@@ -1181,24 +1181,39 @@
 			]
 			hide_dependency_lines: true
 			id: "7BAA2D31EC72AEDB"
-			rewards: [{
-				id: "61B9D0C4CD7C969B"
-				item: {
-					Count: 1
-					id: "gtceu:lv_iron_chainsaw"
-					tag: {
-						Charge: 100000L
-						DisallowContainerItem: 0b
-						GT.Behaviours: { }
-						GT.Tool: {
-							Damage: 0
+			rewards: [
+				{
+					id: "1990AF83AA5E4C2F"
+					item: {
+						Count: 1
+						id: "gtocore:elementium_axe"
+						tag: {
+							GT.Tool: {
+								Damage: 0
+							}
 						}
-						HideFlags: 2
-						MaxCharge: 100000L
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "61B9D0C4CD7C969B"
+					item: {
+						Count: 1
+						id: "gtceu:lv_iron_chainsaw"
+						tag: {
+							Charge: 100000L
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								Damage: 0
+							}
+							HideFlags: 2
+							MaxCharge: 100000L
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "hexagon"
 			size: 1.5d
 			subtitle: "{gto.lv.quests.7BAA2D31EC72AEDB.subtitle}"
@@ -2315,12 +2330,22 @@
 			]
 			icon: "gtceu:lv_machine_hull"
 			id: "507807175748245C"
-			rewards: [{
-				count: 2
-				id: "6604B23595690CFE"
-				item: "farmersdelight:grilled_salmon"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 2
+					id: "6604B23595690CFE"
+					item: "farmersdelight:grilled_salmon"
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					command: "/playsound minecraft:ui.toast.challenge_complete master @s ~ ~ ~ 1"
+					elevate_perms: true
+					id: "4222B96AFDF94375"
+					silent: true
+					type: "command"
+				}
+			]
 			shape: "gear"
 			size: 2.0d
 			subtitle: "{gto.lv.quests.507807175748245C.subtitle}"

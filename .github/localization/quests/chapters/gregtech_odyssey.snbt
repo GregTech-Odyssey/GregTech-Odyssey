@@ -163,6 +163,7 @@
 			id: "5C4137F64F9ADA50"
 			invisible: true
 			min_width: 350
+			optional: true
 			rewards: [{
 				id: "3CDBF3DDD07DC90A"
 				item: "botania:mana_cookie"
@@ -229,6 +230,7 @@
 					command: "/function firework:stonelaunch"
 					elevate_perms: true
 					id: "7599F8899D9783E6"
+					silent: true
 					type: "command"
 				}
 				{

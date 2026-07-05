@@ -1,0 +1,525 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	disable_toast: true
+	filename: "titles"
+	group: "1DADB97F0E99795F"
+	icon: "minecraft:name_tag"
+	id: "54D63406F75855DE"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			dependencies: ["585839393F729DE5"]
+			description: [
+				"{gto.titles.quests.34416AA3302A1224.description0}"
+				""
+				"{gto.titles.quests.34416AA3302A1224.description1}"
+			]
+			id: "34416AA3302A1224"
+			rewards: [{
+				auto: "no_toast"
+				command: "/function titles:setup"
+				elevate_perms: true
+				id: "46279FF679AB7B7C"
+				silent: true
+				type: "command"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "6C057A62DA08936B"
+				title: "{gto.titles.quests.34416AA3302A1224.tasks.6C057A62DA08936B.title}"
+				type: "checkmark"
+			}]
+			title: "{gto.titles.quests.34416AA3302A1224.title}"
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["585839393F729DE5"]
+			description: [
+				"{gto.titles.quests.21AE401C73C21004.description0}"
+				""
+				"{gto.titles.quests.21AE401C73C21004.description1}"
+				""
+				"[\"\", {\"translate\": \"gto.titles.quests.21AE401C73C21004.description2.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"4E6CF4DFC10A5773\"}, \"translate\": \"gto.titles.quests.21AE401C73C21004.description2.rich_text1\"}]"
+			]
+			id: "21AE401C73C21004"
+			rewards: [{
+				auto: "no_toast"
+				command: "/function titles:remove"
+				id: "3E8B4A18EB3969B8"
+				silent: true
+				type: "command"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "5FBAB1A76430E813"
+				title: "{gto.titles.quests.21AE401C73C21004.tasks.5FBAB1A76430E813.title}"
+				type: "checkmark"
+			}]
+			title: "{gto.titles.quests.21AE401C73C21004.title}"
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"3BC9246D8FD4B649"
+				"585839393F729DE5"
+			]
+			description: [
+				"[\"\", {\"translate\": \"gto.titles.quests.499437893CEB8AC4.description0.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"585839393F729DE5\"}, \"translate\": \"gto.titles.quests.499437893CEB8AC4.description0.rich_text1\"}, {\"translate\": \"gto.titles.quests.499437893CEB8AC4.description0.rich_text2\"}]"
+				""
+				"{gto.titles.quests.499437893CEB8AC4.description1}"
+			]
+			icon: "minecraft:cobblestone"
+			id: "499437893CEB8AC4"
+			rewards: [{
+				auto: "no_toast"
+				command: "/team join STONE @s"
+				elevate_perms: true
+				id: "194BA88295B2DA8D"
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				id: "7455EC5B9B76047D"
+				title: "{gto.titles.quests.499437893CEB8AC4.tasks.7455EC5B9B76047D.title}"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"585839393F729DE5"
+				"24C53B5FF515ACAC"
+			]
+			icon: "gtceu:bronze_ingot"
+			id: "3BE8790F0BA1BA93"
+			rewards: [{
+				auto: "no_toast"
+				command: "/team join STEAM @s"
+				elevate_perms: true
+				id: "186772E30E70799E"
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				id: "677FBFEFED592602"
+				title: "{gto.titles.quests.3BE8790F0BA1BA93.tasks.677FBFEFED592602.title}"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"585839393F729DE5"
+				"4678D97346E46529"
+			]
+			icon: "gtceu:ulv_machine_hull"
+			id: "16D11BE472A94B26"
+			rewards: [{
+				auto: "no_toast"
+				command: "/team join ULV @s"
+				elevate_perms: true
+				id: "3D5E1768FDCA80DF"
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				id: "509E1968AA568403"
+				title: "{gto.titles.quests.16D11BE472A94B26.tasks.509E1968AA568403.title}"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"585839393F729DE5"
+				"507807175748245C"
+			]
+			icon: "gtceu:lv_machine_hull"
+			id: "1B1C35B5EACDFAD4"
+			rewards: [{
+				auto: "no_toast"
+				command: "/team join LV @s"
+				elevate_perms: true
+				id: "1223EB0E640A7277"
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				id: "435D0AF142AC5CEC"
+				title: "{gto.titles.quests.1B1C35B5EACDFAD4.tasks.435D0AF142AC5CEC.title}"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"585839393F729DE5"
+				"3D1E66868544975F"
+			]
+			icon: "gtceu:mv_machine_hull"
+			id: "6D9F90AE39A260E6"
+			rewards: [{
+				auto: "no_toast"
+				command: "/team join MV @s"
+				elevate_perms: true
+				id: "71B4A03BC7F04FBE"
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				id: "4E28A121A1C15277"
+				title: "{gto.titles.quests.6D9F90AE39A260E6.tasks.4E28A121A1C15277.title}"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"585839393F729DE5"
+				"5D828A5258BFF11F"
+			]
+			icon: "gtceu:hv_machine_hull"
+			id: "0B7B94114F375E01"
+			rewards: [{
+				auto: "no_toast"
+				command: "/team join HV @s"
+				elevate_perms: true
+				id: "3BE42B26BBC9D372"
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				id: "3B3BEA6D66858FBF"
+				title: "{gto.titles.quests.0B7B94114F375E01.tasks.3B3BEA6D66858FBF.title}"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"585839393F729DE5"
+				"2F6C81E3B10365E8"
+			]
+			icon: "gtceu:ev_machine_hull"
+			id: "1518B60CA77CB088"
+			rewards: [{
+				auto: "no_toast"
+				command: "/team join EV @s"
+				elevate_perms: true
+				id: "55785BAC881533E3"
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				id: "56C4A9B4C457164C"
+				title: "{gto.titles.quests.1518B60CA77CB088.tasks.56C4A9B4C457164C.title}"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"585839393F729DE5"
+				"1CF7845875EEFA3B"
+			]
+			icon: "gtceu:iv_machine_hull"
+			id: "2E53D51557B75097"
+			rewards: [{
+				auto: "no_toast"
+				command: "/team join IV @s"
+				elevate_perms: true
+				id: "127B043872268B35"
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				id: "21E662F15EB525AF"
+				title: "{gto.titles.quests.2E53D51557B75097.tasks.21E662F15EB525AF.title}"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"585839393F729DE5"
+				"2F03D93AC7DBE58D"
+			]
+			icon: "gtceu:luv_machine_hull"
+			id: "2060E87F01B0733C"
+			rewards: [{
+				auto: "no_toast"
+				command: "/team join LUV @s"
+				elevate_perms: true
+				id: "604E9463FBC972E4"
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				id: "110A9716EB4B2E19"
+				title: "{gto.titles.quests.2060E87F01B0733C.tasks.110A9716EB4B2E19.title}"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"585839393F729DE5"
+				"3490AACD4AA62C5D"
+			]
+			icon: "gtceu:zpm_machine_hull"
+			id: "6E3401718AF31B50"
+			rewards: [{
+				auto: "no_toast"
+				command: "/team join ZPM @s"
+				elevate_perms: true
+				id: "4AD7044F8BCAE88F"
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				id: "224934D6A51135E8"
+				title: "{gto.titles.quests.6E3401718AF31B50.tasks.224934D6A51135E8.title}"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"585839393F729DE5"
+				"256F90AFB461107E"
+			]
+			icon: "gtceu:uv_machine_hull"
+			id: "4B27A75853ED8FBD"
+			rewards: [{
+				auto: "no_toast"
+				command: "/team join UV @s"
+				elevate_perms: true
+				id: "6C745C8C11D2AF42"
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				id: "345AF8CACB35D323"
+				title: "{gto.titles.quests.4B27A75853ED8FBD.tasks.345AF8CACB35D323.title}"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"585839393F729DE5"
+				"1612D1DEB3A7BE2D"
+			]
+			icon: "gtceu:uhv_machine_hull"
+			id: "4AE5EC18818AE56C"
+			rewards: [{
+				auto: "no_toast"
+				command: "/team join UHV @s"
+				elevate_perms: true
+				id: "7C5E37B63D30F406"
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				id: "0C38B660F0DC852B"
+				title: "{gto.titles.quests.4AE5EC18818AE56C.tasks.0C38B660F0DC852B.title}"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"585839393F729DE5"
+				"154F80E28FA53D99"
+			]
+			icon: "gtceu:uev_machine_hull"
+			id: "7D60930D1AE20581"
+			rewards: [{
+				auto: "no_toast"
+				command: "/team join UEV @s"
+				elevate_perms: true
+				id: "7A955229BD962EC6"
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				id: "329597F273F45C01"
+				title: "{gto.titles.quests.7D60930D1AE20581.tasks.329597F273F45C01.title}"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"585839393F729DE5"
+				"56BEFB6D64D496A1"
+			]
+			icon: "gtceu:uiv_machine_hull"
+			id: "77001F4CEA66323E"
+			rewards: [{
+				auto: "no_toast"
+				command: "/team join UIV @s"
+				elevate_perms: true
+				id: "3D9A3DA8FC70D402"
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				id: "18CE938B294CC7A8"
+				title: "{gto.titles.quests.77001F4CEA66323E.tasks.18CE938B294CC7A8.title}"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"585839393F729DE5"
+				"4AF94B83FBDD2E54"
+			]
+			icon: "gtceu:uxv_machine_hull"
+			id: "182E5E6B2E52B39B"
+			rewards: [{
+				auto: "no_toast"
+				command: "/team join UXV @s"
+				elevate_perms: true
+				id: "11EE16EF5FB4C475"
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				id: "35580623CD78D06B"
+				title: "{gto.titles.quests.182E5E6B2E52B39B.tasks.35580623CD78D06B.title}"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"585839393F729DE5"
+				"7B3C0DB7C1F11692"
+			]
+			icon: "gtceu:opv_machine_hull"
+			id: "62D2B7F6B48A7A9D"
+			rewards: [{
+				auto: "no_toast"
+				command: "/team join OPV @s"
+				elevate_perms: true
+				id: "72C9985545877237"
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				id: "718CD4572272D9BE"
+				title: "{gto.titles.quests.62D2B7F6B48A7A9D.tasks.718CD4572272D9BE.title}"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"585839393F729DE5"
+				"284111931F2808B4"
+			]
+			icon: "gtceu:max_machine_hull"
+			id: "3BCF277DDB3D4987"
+			rewards: [{
+				auto: "no_toast"
+				command: "/team join MAX @s"
+				elevate_perms: true
+				id: "0AAACF49A2F43892"
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				id: "39DA8E9E17C34B90"
+				title: "{gto.titles.quests.3BCF277DDB3D4987.tasks.39DA8E9E17C34B90.title}"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			description: [
+				"{gto.titles.quests.585839393F729DE5.description0}"
+				""
+				"{gto.titles.quests.585839393F729DE5.description1}"
+				""
+				"{gto.titles.quests.585839393F729DE5.description2}"
+			]
+			hide_dependent_lines: true
+			id: "585839393F729DE5"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "1D723E3A85F6D9C3"
+				type: "checkmark"
+			}]
+			title: "{gto.titles.quests.585839393F729DE5.title}"
+			x: -6.5d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["585839393F729DE5"]
+			description: ["{gto.titles.quests.4E6CF4DFC10A5773.description0}"]
+			id: "4E6CF4DFC10A5773"
+			rewards: [{
+				auto: "no_toast"
+				command: "/team leave @s"
+				elevate_perms: true
+				id: "7A2A2317C3A59F55"
+				silent: true
+				type: "command"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "49FC1DCCBAA3CE23"
+				title: "{gto.titles.quests.4E6CF4DFC10A5773.tasks.49FC1DCCBAA3CE23.title}"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+	]
+	subtitle: ["{gto.titles.subtitle0}"]
+	title: "{gto.titles.title}"
+}
