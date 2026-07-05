@@ -1,13 +1,13 @@
 name = "Botania"
-filename = "Botania-1.20.1-453-FORGE.jar"
+filename = "Botania-1.20.1-454-FORGE.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "38e2edbf0fa91c573cbbbf3f8bb88a07e220aa8d"
+hash = "7e167de1c70738fd9f29a00556f1c5ebb1daf34d"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8138523
+file-id = 8370023
 project-id = 225643
