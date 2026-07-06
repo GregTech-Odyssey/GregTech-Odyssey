@@ -902,7 +902,7 @@ hash = "b7c89abb5ea52a55f4c1c906e6ed86c4278f6cd728abe598ed5e199453c46cb2"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/gregtech_odyssey.snbt"
-hash = "9558ed6ec129a7b74edddd47591b44002507229e129f4d1b3624723e3074150d"
+hash = "fa8e2b2b5838e9f4b541e8c24b0c47dcb80c132a9357526e659abbfe5c3b2797"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/hi-end-manufaturing.snbt"
@@ -974,7 +974,7 @@ hash = "d5e3fabe98568c593f020f18f424ac85bd7b03a50a53868810041ef122f2f0f3"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/shop.snbt"
-hash = "5d84d879454b92a84cc6aa122a1b9e0cc5a6f66b2628b43454512f46495d9960"
+hash = "11a996e5cd3e136ad2d53f2277d9281aa5f01b94c62ec657a5c1e2b317e57b57"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/sop-database.snbt"
@@ -990,11 +990,11 @@ hash = "d613d7d54dff3e3309ef91db7f47a3354e8119630f538c0590d241a13affe706"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tips.snbt"
-hash = "dd2c1872788fc567a0dde50f97d69a23a9f865f2ef4d3cbf34be37f57f9d9266"
+hash = "d40177f89c8f4e12e44dcf5b312a24fceb07afca21f0b441a76bb4977bf08678"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/titles.snbt"
-hash = "753377bd6bb15b0ba3117bf6766e685a400ba05512409b9ccc4ecd53230083d5"
+hash = "5f02d6e52c4cb41ce4286e7624a9e5c8f2769cb3959a7297d1d255d8e406486f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/uev.snbt"
@@ -1014,7 +1014,7 @@ hash = "0b448cce6c55f2777972019eaaaa506c09a53c9ef2c97675f0dfbdf53bf821a5"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/util.snbt"
-hash = "8a6c88b938db09a2c9871d682577aaff43a91205796f806142e3046c6d3ccff5"
+hash = "691d9a7d6dbcfd1d53ab00b6359341d41f47049972294c4f5307872a48ccc005"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/uv.snbt"
@@ -1386,7 +1386,7 @@ hash = "f5fbe28afacacbe94c9aee7dcee7da11effc80d7983a9d562c5edde83d056ffd"
 
 [[files]]
 file = "config/openloader/data/data/data/firework/functions/stonelaunch.mcfunction"
-hash = "97d157c66f6d3ffe41f50984896cea66bf2f0b5decf82aeb32a678f955d5d74e"
+hash = "11bbfb17c622fe836dc02728a4eef62c997f5307df0787672edfb866b2ec8f48"
 
 [[files]]
 file = "config/openloader/data/data/data/forge/tags/items/dough.json"
@@ -1470,7 +1470,7 @@ hash = "84254dc1e5a56ea70df6b16a2fb2620040592badae436c255997aaae84996d91"
 
 [[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/en_us.json"
-hash = "2cd1417f5556c53b1a40d7edf6b889dba9e4eaae59c6f32134b6c6d15ce09dfb"
+hash = "3dc7e6125648562023ed455f88deddd63dc46b27c56898c28742c533e84c2385"
 
 [[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/ru_ru.json"
@@ -1478,11 +1478,11 @@ hash = "0c64eb64a2dcfde9540eafb6495c1bf53c0266e08bea9d5941e754518f4004ff"
 
 [[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/zh_cn.json"
-hash = "f2843cf810df354f82b0352f2e21a4ed9236f3354339dd3ab5e2b5c13086bcba"
+hash = "ff0bcc0be10cb9bbfe7e7818bebd170354813b7612f22013bb4aad9f5b4349ba"
 
 [[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/zh_tw.json"
-hash = "a337f47dee98de896fc255f0c807b9babe7308f5c07ed4d4747cd45d63359d7e"
+hash = "8e01fb3aef198f34f4d69568d987314f0f40b288f1692b5addf9489f1de4f811"
 
 [[files]]
 file = "config/openloader/resources/quests/pack.mcmeta"

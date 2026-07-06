@@ -378,6 +378,7 @@
 			dependencies: ["79646E8E449D8A1A"]
 			description: [
 				"{gto.tips.quests.1786BB8F04B92CB3.description0}"
+				""
 				"{gto.tips.quests.1786BB8F04B92CB3.description1}"
 				"{gto.tips.quests.1786BB8F04B92CB3.description2}"
 				"{gto.tips.quests.1786BB8F04B92CB3.description3}"
@@ -391,15 +392,17 @@
 				"{gto.tips.quests.1786BB8F04B92CB3.description11}"
 				"{gto.tips.quests.1786BB8F04B92CB3.description12}"
 				"{gto.tips.quests.1786BB8F04B92CB3.description13}"
-				"{@pagebreak}"
 				"{gto.tips.quests.1786BB8F04B92CB3.description14}"
+				"{@pagebreak}"
 				"{gto.tips.quests.1786BB8F04B92CB3.description15}"
+				""
 				"{gto.tips.quests.1786BB8F04B92CB3.description16}"
 				"{gto.tips.quests.1786BB8F04B92CB3.description17}"
-				"{@pagebreak}"
 				"{gto.tips.quests.1786BB8F04B92CB3.description18}"
 				"{gto.tips.quests.1786BB8F04B92CB3.description19}"
+				"{@pagebreak}"
 				"{gto.tips.quests.1786BB8F04B92CB3.description20}"
+				""
 				"{gto.tips.quests.1786BB8F04B92CB3.description21}"
 				"{gto.tips.quests.1786BB8F04B92CB3.description22}"
 				"{gto.tips.quests.1786BB8F04B92CB3.description23}"
@@ -410,6 +413,9 @@
 				"{gto.tips.quests.1786BB8F04B92CB3.description28}"
 				"{gto.tips.quests.1786BB8F04B92CB3.description29}"
 				"{gto.tips.quests.1786BB8F04B92CB3.description30}"
+				"{gto.tips.quests.1786BB8F04B92CB3.description31}"
+				"{gto.tips.quests.1786BB8F04B92CB3.description32}"
+				"{gto.tips.quests.1786BB8F04B92CB3.description33}"
 			]
 			icon: {
 				Count: 1
@@ -421,6 +427,7 @@
 			id: "1786BB8F04B92CB3"
 			shape: "pentagon"
 			size: 1.5d
+			subtitle: "{gto.tips.quests.1786BB8F04B92CB3.subtitle}"
 			tasks: [{
 				id: "17A33145F3C67C67"
 				type: "checkmark"

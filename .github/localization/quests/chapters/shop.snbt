@@ -218,20 +218,11 @@
 			]
 			icon: "botania:mana_cookie"
 			id: "1CF16D3C2338C2D2"
-			rewards: [
-				{
-					id: "1663DF63C03A11C4"
-					item: "botania:mana_cookie"
-					type: "item"
-				}
-				{
-					auto: "invisible"
-					command: "/function firework:launch"
-					id: "6DC58298580CE0CC"
-					silent: true
-					type: "command"
-				}
-			]
+			rewards: [{
+				id: "1663DF63C03A11C4"
+				item: "botania:mana_cookie"
+				type: "item"
+			}]
 			size: 3.0d
 			subtitle: "{gto.shop.quests.1CF16D3C2338C2D2.subtitle}"
 			tasks: [{
@@ -1044,7 +1035,11 @@
 		}
 		{
 			can_repeat: false
-			description: ["{gto.shop.quests.01F810D239D46FD2.description0}"]
+			description: [
+				"{gto.shop.quests.01F810D239D46FD2.description0}"
+				""
+				"{gto.shop.quests.01F810D239D46FD2.description1}"
+			]
 			icon: "botania:mana_cookie"
 			id: "01F810D239D46FD2"
 			rewards: [{
