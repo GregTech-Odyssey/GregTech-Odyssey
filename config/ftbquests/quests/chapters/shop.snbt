@@ -212,20 +212,11 @@
 			]
 			icon: "botania:mana_cookie"
 			id: "1CF16D3C2338C2D2"
-			rewards: [
-				{
-					id: "1663DF63C03A11C4"
-					item: "botania:mana_cookie"
-					type: "item"
-				}
-				{
-					auto: "invisible"
-					command: "/function firework:launch"
-					id: "6DC58298580CE0CC"
-					silent: true
-					type: "command"
-				}
-			]
+			rewards: [{
+				id: "1663DF63C03A11C4"
+				item: "botania:mana_cookie"
+				type: "item"
+			}]
 			size: 3.0d
 			subtitle: "希望你喜欢"
 			tasks: [{
@@ -1005,7 +996,11 @@
 		}
 		{
 			can_repeat: false
-			description: ["给你一组曲奇，愿你熬过这个冬天"]
+			description: [
+				"给你一组曲奇，愿你熬过这个冬天"
+				""
+				"它有神奇的魔力，能瞬间补满你的饱食度"
+			]
 			icon: "botania:mana_cookie"
 			id: "01F810D239D46FD2"
 			rewards: [{

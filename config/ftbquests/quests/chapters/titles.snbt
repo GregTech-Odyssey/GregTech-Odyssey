@@ -73,7 +73,7 @@
 			description: [
 				"[ \"前往\", { \"text\": \"称号\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"585839393F729DE5\" } }, \"章节解锁称号系统\" ]"
 				""
-				"这是一个可选系统，只是让你的名字多出一个电压前缀"
+				"这是一个可选系统，会让你的名字多出一个电压前缀"
 			]
 			icon: "minecraft:cobblestone"
 			id: "499437893CEB8AC4"
