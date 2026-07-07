@@ -2692,7 +2692,7 @@ metafile = true
 
 [[files]]
 file = "mods/asyncparticles.pw.toml"
-hash = "d04cc13e649823e9d43567c1e9ab494cf89285eb006e2f6416d701b7281e2502"
+hash = "c544150d12c05ffee6139af4e115ae2a411478c927123b67eb7f106d0d97fcee"
 metafile = true
 
 [[files]]
@@ -3076,8 +3076,8 @@ hash = "e7c2e315734eb207a517afc3dd7901f95e11b0642bf8d4a37db35f3af4a80b3e"
 metafile = true
 
 [[files]]
-file = "mods/gtocore-forge-1.20.1-0.5.6-alpha-25.jar"
-hash = "5a71d7a0ef70c91f9314c71279ca887905b69b5ac90bc38aab27363aa7c990f7"
+file = "mods/gtocore-forge-1.20.1-26.7.4-alpha.jar"
+hash = "d14d8d678b1f47ade10513a057f0c932a7b9a6aaa16771794d1f3405e6cc96bd"
 
 [[files]]
 file = "mods/gtonativelib-1.0.jar"
@@ -3350,7 +3350,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "70a3e5ee8d2bdfa2315402b4cef1a6ec1bef42510a4aae7f3c11d215e9d0aa3c"
+hash = "933560dcc63aad7aca8f6ca66f59b559fbe04cac5cf3f1c9fad5fda36eb1e2d7"
 metafile = true
 
 [[files]]
