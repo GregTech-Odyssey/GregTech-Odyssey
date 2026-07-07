@@ -119,6 +119,11 @@
 			]
 			icon: "ad_astra:gravity_normalizer"
 			id: "567EBE02182A8505"
+			rewards: [{
+				id: "7343F919B87B084A"
+				item: "gtocore:copper_coin"
+				type: "item"
+			}]
 			shape: "pentagon"
 			size: 1.5d
 			subtitle: "集大成者"
@@ -145,6 +150,7 @@
 			id: "23D070BB1157701F"
 			min_width: 240
 			rewards: [{
+				count: 8
 				id: "5771FE1A9ABFEEF0"
 				item: "gtocore:copper_coin"
 				type: "item"
@@ -251,6 +257,11 @@
 				}
 			}
 			id: "1A0EA7A29CFD830D"
+			rewards: [{
+				id: "3D6D3D10773DA9E2"
+				item: "gtocore:copper_coin"
+				type: "item"
+			}]
 			shape: "pentagon"
 			size: 1.5d
 			subtitle: "使用说明书"
@@ -268,6 +279,11 @@
 			description: ["许多周期性检测事件的检测周期得到了不同程度的延长，如管道与线缆的连接检测、多方块机器自动成型检测。这属于正常现象，这使得在超大量多方块的存档中依然保持良好的TPS"]
 			icon: "gtocore:spacetime_huge_fluid_pipe"
 			id: "0853003F6BB9C758"
+			rewards: [{
+				id: "1360BEDA804C4327"
+				item: "gtocore:copper_coin"
+				type: "item"
+			}]
 			shape: "pentagon"
 			size: 1.5d
 			tasks: [{
@@ -334,6 +350,11 @@
 			]
 			icon: "ae2:creative_item_cell"
 			id: "6E81629D88D0710E"
+			rewards: [{
+				id: "6319145AB4AA250B"
+				item: "gtocore:copper_coin"
+				type: "item"
+			}]
 			shape: "pentagon"
 			size: 1.5d
 			tasks: [{
@@ -358,6 +379,7 @@
 			icon: "gtceu:gold_indicator"
 			id: "20BC48DF78F11B24"
 			rewards: [{
+				count: 8
 				id: "6CA75B35251901DF"
 				item: "gtocore:copper_coin"
 				type: "item"
@@ -425,6 +447,11 @@
 				}
 			}
 			id: "1786BB8F04B92CB3"
+			rewards: [{
+				id: "2A81135680A305C2"
+				item: "gtocore:copper_coin"
+				type: "item"
+			}]
 			shape: "pentagon"
 			size: 1.5d
 			subtitle: "&c难度不影响游戏流程或内容，只影响挑战性！&r"
@@ -454,10 +481,19 @@
 				}
 			}
 			id: "7CAB9E890F8F91C4"
+			rewards: [{
+				id: "172E3DAADF02B6FA"
+				item: "gtocore:copper_coin"
+				type: "item"
+			}]
 			shape: "pentagon"
 			size: 1.5d
 			subtitle: "Effortless Building"
 			tasks: [
+				{
+					id: "6ADC2D0D26DADAFD"
+					type: "checkmark"
+				}
 				{
 					id: "564E6D109A99B6EF"
 					item: {
@@ -489,10 +525,6 @@
 					optional_task: true
 					type: "item"
 				}
-				{
-					id: "6ADC2D0D26DADAFD"
-					type: "checkmark"
-				}
 			]
 			title: "建造提示"
 			x: -3.75d
@@ -515,6 +547,11 @@
 				}
 			}
 			id: "113BFE54E70D14D4"
+			rewards: [{
+				id: "3DAC7CB3D704A206"
+				item: "gtocore:copper_coin"
+				type: "item"
+			}]
 			shape: "pentagon"
 			size: 1.5d
 			tasks: [{
@@ -583,8 +620,7 @@
 			icon: "gtocore:wireless_charger_cover"
 			id: "5C62ECF9AC84E023"
 			rewards: [{
-				count: 64
-				id: "09063634654E3057"
+				id: "73E43B2D68BBF8C4"
 				item: "gtocore:copper_coin"
 				type: "item"
 			}]
@@ -661,6 +697,11 @@
 			]
 			icon: "ad_astra:etrionic_blast_furnace"
 			id: "0B472475D703DE42"
+			rewards: [{
+				id: "143CCF3DC814EA19"
+				item: "gtocore:copper_coin"
+				type: "item"
+			}]
 			shape: "pentagon"
 			tasks: [{
 				id: "3267200EAF6EC86E"
@@ -1312,10 +1353,19 @@
 				}
 			}
 			id: "32C2735E505AB490"
+			rewards: [{
+				id: "5EF9B9E6C1D29332"
+				item: "gtocore:copper_coin"
+				type: "item"
+			}]
 			shape: "pentagon"
 			size: 1.5d
 			subtitle: "原版MC的方法去不了"
 			tasks: [
+				{
+					id: "12F564EF973725F2"
+					type: "checkmark"
+				}
 				{
 					dimension: "minecraft:the_nether"
 					id: "164D6190097B6B07"
@@ -1327,10 +1377,6 @@
 					id: "115F73668157C661"
 					optional_task: true
 					type: "dimension"
-				}
-				{
-					id: "12F564EF973725F2"
-					type: "checkmark"
 				}
 			]
 			title: "下界，末地，和其他维度"
@@ -1484,6 +1530,11 @@
 			]
 			icon: "solcarrot:food_book"
 			id: "2574E6B85ADAAB88"
+			rewards: [{
+				id: "388DDDC0CE295DCE"
+				item: "gtocore:copper_coin"
+				type: "item"
+			}]
 			shape: "pentagon"
 			size: 1.5d
 			tasks: [

@@ -354,7 +354,11 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["0D4645862BFD304D"]
+			dependencies: [
+				"0D4645862BFD304D"
+				"2FB0FE84527A0FF9"
+			]
+			dependency_requirement: "one_completed"
 			id: "36A929547651032B"
 			tasks: [{
 				id: "73B360ACAABBB3D2"
@@ -1522,6 +1526,28 @@
 			}]
 			x: 7.0d
 			y: -12.0d
+		}
+		{
+			dependencies: [
+				"056EC4E6FAF614B7"
+				"135B35F7619D288E"
+			]
+			description: [
+				"简单模式陶瓷无需压制成型"
+				""
+				"&o&7史蒂夫的手可以解决一切"
+			]
+			hide_until_deps_visible: true
+			icon: "gtocore:isostatic_press"
+			id: "2FB0FE84527A0FF9"
+			optional: true
+			tasks: [{
+				id: "1D8FE52B3F09A2CF"
+				type: "checkmark"
+			}]
+			title: "大力出奇迹&a（简单）&r"
+			x: 4.18d
+			y: -2.82d
 		}
 	]
 	subtitle: ["Tier4-EV"]

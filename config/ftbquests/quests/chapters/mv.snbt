@@ -923,7 +923,11 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["2422B7ED59D31DBB"]
+			dependencies: [
+				"2422B7ED59D31DBB"
+				"2F425A6C60A19728"
+			]
+			dependency_requirement: "one_completed"
 			description: [
 				"现阶段你可以临时起一台&6电力高炉&r"
 				""
@@ -1799,6 +1803,28 @@
 			title: "&e可编程仓室&r&a（简单）&r"
 			x: -6.5d
 			y: 7.5d
+		}
+		{
+			dependencies: [
+				"5F2F920BA347AAEA"
+				"056EC4E6FAF614B7"
+			]
+			description: [
+				"简单模式陶瓷无需压制成型"
+				""
+				"&o&7史蒂夫的手可以解决一切"
+			]
+			hide_until_deps_visible: true
+			icon: "gtocore:isostatic_press"
+			id: "2F425A6C60A19728"
+			optional: true
+			tasks: [{
+				id: "14199E779BE81B61"
+				type: "checkmark"
+			}]
+			title: "大力出奇迹&a（简单）&r"
+			x: 0.0d
+			y: -5.5d
 		}
 	]
 	subtitle: ["Tier2-MV"]
