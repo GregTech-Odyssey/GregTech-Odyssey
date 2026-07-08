@@ -890,7 +890,7 @@ hash = "d4f555f1457e2ad2edd1bfa4cff1696193bd590950225253feaabb8af55f69c0"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ev.snbt"
-hash = "13e150aeb5d11bd9992bdb1f0e402801dd7c0fd56ca744ff73f1584c7096a5d2"
+hash = "137f49f67b60060defcd2607ccf6290e34f98d3b255a15434179cc5edc9e4a38"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/food.snbt"
@@ -946,7 +946,7 @@ hash = "8a27cbe9da68d07c4c0717b3eb37299195543b715df1cbea7ee02a516d1c8d7a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mv.snbt"
-hash = "838810dfb7fb2c0ca3c246a2e81f7be7778b8c0d67bc119317cf4402408145b4"
+hash = "00df577bc1e96bae3f836b70c1a66ac5f8e3209fd2c62deed810bff4ea955d3d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/opv.snbt"
@@ -990,7 +990,7 @@ hash = "d613d7d54dff3e3309ef91db7f47a3354e8119630f538c0590d241a13affe706"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tips.snbt"
-hash = "d40177f89c8f4e12e44dcf5b312a24fceb07afca21f0b441a76bb4977bf08678"
+hash = "79297f50577a23fc1fb22a24368b665a768a2eb1adfde898568bbfac0ff2259a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/titles.snbt"
@@ -1470,7 +1470,7 @@ hash = "84254dc1e5a56ea70df6b16a2fb2620040592badae436c255997aaae84996d91"
 
 [[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/en_us.json"
-hash = "c41012d82aa3ce9bfb65a117a9ba845126941ad21baab0f1984b6ad7e39d7664"
+hash = "4e38ecb9f5c7321d4efed886e3df0c07f6f05403d8f5d456ec52373cdb5f4a71"
 
 [[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/ru_ru.json"
@@ -1478,11 +1478,11 @@ hash = "0c64eb64a2dcfde9540eafb6495c1bf53c0266e08bea9d5941e754518f4004ff"
 
 [[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/zh_cn.json"
-hash = "929ba1ed81d682b0c9c1c107bd017abd0c9a431ef34ee6228c6e78d8d6500306"
+hash = "e362ba8a82c3e1adbcef554e5f6baba9c99cbd22c9d84a6f986f2127695ca390"
 
 [[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/zh_tw.json"
-hash = "3fb684771ed12442a5016121839da0159a1b246d7df9941a444094cd1a071156"
+hash = "defa9587b020320951b78488b05328792b210bbc675a896d128223e11cc7f510"
 
 [[files]]
 file = "config/openloader/resources/quests/pack.mcmeta"
