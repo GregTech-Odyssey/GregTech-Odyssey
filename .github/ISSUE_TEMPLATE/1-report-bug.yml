@@ -60,7 +60,7 @@ body:
     id: "mod_selection"
     attributes:
       label: "Related Mod (Optional) / 相关模组（可选）"
-      description: "If you are sure which mod(s) are related to this issue, please check the box. If you are not sure or unclear, please do not check it. / 如果你确定某个（或多个）模组与这个问题相关，请勾选。如果不确定或不清楚，请不要勾选。"
+      description: "Only check mods that the bug directly belongs to. If unsure, leave it unchecked; under-selecting is preferred. / 只勾选 bug 直接归属的模组。如果不确定就不勾，宁可少勾，不要多勾。"
       options:
         - label: "AE2"
         - label: "GTM"
