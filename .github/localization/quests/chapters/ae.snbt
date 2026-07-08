@@ -4806,27 +4806,16 @@
 		}
 		{
 			dependencies: ["034D579A41F2ED3D"]
-			description: [
-				"{gto.ae.quests.3697EDE91C2FFC6F.description0}"
-				""
-				"{gto.ae.quests.3697EDE91C2FFC6F.description1}"
-			]
+			description: ["{gto.ae.quests.3697EDE91C2FFC6F.description0}"]
 			hide_until_deps_visible: true
 			icon: "ae2:controller"
 			id: "3697EDE91C2FFC6F"
 			optional: true
-			tasks: [
-				{
-					id: "2F3EACFFDC80B809"
-					item: "ae2:controller"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "080F0B59717F17C3"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "2F3EACFFDC80B809"
+				item: "ae2:controller"
+				type: "item"
+			}]
 			x: -11.0d
 			y: 5.5d
 		}
