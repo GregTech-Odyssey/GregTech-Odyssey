@@ -1470,11 +1470,11 @@ hash = "84254dc1e5a56ea70df6b16a2fb2620040592badae436c255997aaae84996d91"
 
 [[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/en_us.json"
-hash = "53eef11cdcdb3b166316d0108e5918fb69c66b6f7e5cf40e0660f8a035d3bee1"
+hash = "98c75a7d6d5463e59bd5428888ea0c9c30c44107f00392fcc2681376ff37081f"
 
 [[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/ru_ru.json"
-hash = "0c64eb64a2dcfde9540eafb6495c1bf53c0266e08bea9d5941e754518f4004ff"
+hash = "d50beef9864257f5aebb51cf6ed86845676ec1ec1a69e6ae6aa515af6285a1e0"
 
 [[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/zh_cn.json"
@@ -2692,7 +2692,7 @@ metafile = true
 
 [[files]]
 file = "mods/asyncparticles.pw.toml"
-hash = "c544150d12c05ffee6139af4e115ae2a411478c927123b67eb7f106d0d97fcee"
+hash = "7d30b580cf60ab52993954889b4d9acbab1ae555f2d2b7c479526e12a80c0da7"
 metafile = true
 
 [[files]]
@@ -3076,12 +3076,12 @@ hash = "e7c2e315734eb207a517afc3dd7901f95e11b0642bf8d4a37db35f3af4a80b3e"
 metafile = true
 
 [[files]]
-file = "mods/gtocore-forge-1.20.1-26.7.4-alpha.jar"
-hash = "d14d8d678b1f47ade10513a057f0c932a7b9a6aaa16771794d1f3405e6cc96bd"
+file = "mods/gtocore-forge-1.20.1-0.5.6-beta.jar"
+hash = "2d4b69105fc36764c6626fdbb0a602e2dc611b6d213ad13f75ebc154d0dae50f"
 
 [[files]]
 file = "mods/gtonativelib-1.0.jar"
-hash = "c26d675a163bf600bcbd9075551bf8627c45caaa912f65c51612405163ec5c4f"
+hash = "1ae9c9160598253c4cc903d2149e4fadc2317b36741d254e5bfe23dc7f64bc03"
 
 [[files]]
 file = "mods/guideme.pw.toml"
@@ -3350,7 +3350,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "933560dcc63aad7aca8f6ca66f59b559fbe04cac5cf3f1c9fad5fda36eb1e2d7"
+hash = "685435a6321ef795d3542d0aac7feb58224d8c902930bbed9c2cf5158409ee8b"
 metafile = true
 
 [[files]]
@@ -3400,12 +3400,12 @@ metafile = true
 
 [[files]]
 file = "mods/xaeros-minimap.pw.toml"
-hash = "9f2108437048cf5f8bab2cbb386ba6db9476e9ae98e3a04b46b2d92efd2ea989"
+hash = "4f3da01a5a8a9cbe6cfb1cf2ab556119e9f6253f1dba0a21f6f53b283fa5c0a7"
 metafile = true
 
 [[files]]
 file = "mods/xaeros-world-map.pw.toml"
-hash = "294cb9e0859ced405836f168ad0dab487b898f5f6dea1b94987eeb6971e4401d"
+hash = "9f85daa0f20a2c017eaa7c79ddf97a92182d6a067fe7763fa17bfb62fe24c182"
 metafile = true
 
 [[files]]
