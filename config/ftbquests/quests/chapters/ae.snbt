@@ -1233,7 +1233,7 @@
 				""
 				"AE机器和ME网络都需要AE能量才能工作，使用&6能源接收器&r将GT的电能转化为AE能量"
 				""
-				"GTO默认&c无频道数量限制&r，无需&6ME控制器&r&o&7（你也做不出来）&r，只需要确保为当前网络提供足够的能量即可"
+				"GTO的AE默认&a无限频道&r，无需&6ME控制器&r，只需要确保为当前网络提供足够的能量即可"
 				""
 				"&o&7如果你还不会AE，请尽快寻找教程快速入门。本包无需精通AE，但至少需要了解如何下单。"
 			]
@@ -4806,27 +4806,16 @@
 		}
 		{
 			dependencies: ["034D579A41F2ED3D"]
-			description: [
-				"非专家模式默认&c无频道数量限制&r，不需要接入&6ME控制器&r，只需要确保为当前网络提供足够的能量即可"
-				""
-				"可以使用&6ME控制器&r来替代&6能源接收器&r，但后期可能会因为加载过多频道造成额外的延迟，请斟酌使用控制器"
-			]
+			description: ["因为AE已经无限频道了，这个东西只是一个装饰品"]
 			hide_until_deps_visible: true
 			icon: "ae2:controller"
 			id: "3697EDE91C2FFC6F"
 			optional: true
-			tasks: [
-				{
-					id: "2F3EACFFDC80B809"
-					item: "ae2:controller"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "080F0B59717F17C3"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "2F3EACFFDC80B809"
+				item: "ae2:controller"
+				type: "item"
+			}]
 			x: -11.0d
 			y: 5.5d
 		}

@@ -601,7 +601,7 @@
 			id: "5A3B1B492A49AB29"
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "更便宜的LuV级电路"
+			subtitle: "更便宜的ZPM级电路"
 			tasks: [{
 				id: "2282CEEDB7F4134E"
 				item: "gtceu:crystal_processor_computer"
@@ -1407,8 +1407,8 @@
 				item: "gtceu:advanced_data_access_hatch"
 				type: "item"
 			}]
-			x: 17.0d
-			y: 1.0d
+			x: 16.5d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -1466,8 +1466,25 @@
 				item: "gtocore:virtual_coin_miner"
 				type: "item"
 			}]
-			x: 17.0d
-			y: 0.0d
+			x: 14.5d
+			y: 1.5d
+		}
+		{
+			description: [
+				"欢迎玩家给LuV章节设计更好看的布线！"
+				""
+				"如您希望帮助我们设计布线，请将您设计好的LuV和其他涉及到的任务书文件一并投稿至我们的github issue#89"
+				""
+				"如采纳，我们将会把您一并加入co-author"
+			]
+			id: "36AEA58753FA2814"
+			tasks: [{
+				id: "1D07B8EE846D4ED3"
+				type: "checkmark"
+			}]
+			title: "征集设计"
+			x: 23.5d
+			y: -7.0d
 		}
 	]
 	subtitle: ["Tier6-LuV"]
