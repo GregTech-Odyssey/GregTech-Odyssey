@@ -8,7 +8,7 @@ body:
     attributes:
       label: "GTO Pack Version / GTO 包版本"
       description: "Please specify the version of the pack you are using. / 请指定您使用的包版本。"
-      placeholder: "Example: 0.5.0 / 示例：0.5.0"
+      placeholder: "Example: 0.5.6-beta-266d67 / 示例：0.5.6-beta-266d67"
     validations:
       required: true
   - type: "input"
