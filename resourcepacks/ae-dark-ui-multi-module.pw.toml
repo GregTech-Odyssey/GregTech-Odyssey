@@ -1,15 +1,15 @@
 name = "AE-Dark-UI Multi-module"
-filename = "AE-Dark-UI-1.20.1-v3.5.5.zip"
+filename = "AE-Dark-UI-GTO-v0.5.6.0.zip"
 side = "client"
 
 [download]
 hash-format = "sha1"
-hash = "c8ac1aab33f5421b75b935a999ab2bb0e51421fb"
+hash = "3ef67dff855505ca9e09ff356dbf9552c518368c"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 7866468
+file-id = 8201851
 project-id = 1477322
 
 [option]

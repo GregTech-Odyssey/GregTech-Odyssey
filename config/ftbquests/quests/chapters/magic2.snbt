@@ -64,6 +64,22 @@
 			x: 19.0d
 			y: 0.0d
 		}
+		{
+			height: 1.0d
+			image: "gtocore:item/circuit/suprachronal_luv"
+			rotation: 0.0d
+			width: 1.0d
+			x: 18.5d
+			y: 9.0d
+		}
+		{
+			height: 1.0d
+			image: "gtocore:item/circuit/suprachronal_luv"
+			rotation: 0.0d
+			width: 1.0d
+			x: 15.5d
+			y: -0.2d
+		}
 	]
 	order_index: 2
 	quest_links: [
@@ -305,11 +321,11 @@
 			description: [
 				"借助精灵材料,可使用&d增强核心&r升级火花.手持增强核心&a右键点击&f火花即可升级.潜行状态下&a右键点击&f火花可&a清除&f增强效果."
 				""
-				"扩散增强:使火花从其储罐抽取魔力,为附近玩家充能魔力容器."
+				"扩散增强:将自身储罐魔力分配给附近非增强型或逸散型火花."
 				""
 				"聚集增强:强制吸收非增强型火花储罐中的魔力."
 				""
-				"弥散增强:将自身储罐魔力分配给附近非增强型或逸散型火花."
+				"弥散增强:使火花从其储罐抽取魔力,为附近玩家充能魔力容器."
 				""
 				"隔绝增强:阻止该火花与支配/隐性增强型火花交互."
 			]
@@ -2031,6 +2047,7 @@
 			id: "2150BFD0D971DF9C"
 			shape: "none"
 			size: 2.0d
+			subtitle: "荣光的印记 无畏的象征"
 			tasks: [{
 				id: "59FC2852B7A890F1"
 				item: "extrabotany:hero_medal"
@@ -2042,6 +2059,7 @@
 		{
 			dependencies: ["2150BFD0D971DF9C"]
 			id: "262B99D8C05C2B28"
+			subtitle: "不灭英灵"
 			tasks: [{
 				id: "38ADF9DEE5C96B44"
 				item: "gtocore:heros_soul"
@@ -2281,12 +2299,14 @@
 			dependencies: [
 				"57038022345C40A6"
 				"0BAB92BEC355120C"
+				"39CF7F20BB7C9C48"
 			]
 			description: ["喝下它，身体似乎会发生奇妙的变化..."]
 			hide_dependent_lines: true
 			icon_scale: 2.0d
 			id: "69B3B50FB64F3BF6"
 			shape: "none"
+			subtitle: "精灵诗人的不传之秘"
 			tasks: [{
 				id: "622170327A750A1A"
 				item: "mythicbotany:kvasir_mead"
@@ -2362,6 +2382,7 @@
 			]
 			id: "403FABDABC4FED4C"
 			shape: "diamond"
+			subtitle: "凝聚群星 倒转虚空"
 			tasks: [{
 				id: "0371CE2D45D0F510"
 				item: "gtocore:cosmic_celestial_spire_of_convergence"
@@ -2371,16 +2392,20 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["18E4BD0C2EDCBDF2"]
+			dependencies: [
+				"18E4BD0C2EDCBDF2"
+				"39CF7F20BB7C9C48"
+			]
 			description: ["利用元素共鸣，处理&b亚尔夫海姆&r的珍贵矿物"]
 			id: "117117BBBF9B4B21"
+			subtitle: "诞生于虚空之中的共鸣之花"
 			tasks: [{
 				id: "102312D3E715EF8E"
 				item: "gtocore:resonance_flower"
 				type: "item"
 			}]
-			x: 17.5d
-			y: 0.0d
+			x: 19.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["57038022345C40A6"]
@@ -2529,7 +2554,10 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["2150BFD0D971DF9C"]
+			dependencies: [
+				"39CF7F20BB7C9C48"
+				"4F1717E6AA6A2EA8"
+			]
 			description: ["可以用来扩展饰品槽"]
 			id: "06BE5DF470B975F9"
 			tasks: [{
@@ -2543,8 +2571,72 @@
 				}
 				type: "item"
 			}]
+			x: 14.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"39CF7F20BB7C9C48"
+				"4F1717E6AA6A2EA8"
+			]
+			id: "3E73A0CD5B3A6100"
+			shape: "hexagon"
+			tasks: [{
+				id: "4BD70AA6427EA7B5"
+				item: "gtocore:transmutation_catalyst"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2150BFD0D971DF9C"]
+			description: ["注意配方消耗的魔力，必须使用&d导师&r以上等级的魔力输入仓才可以提供足够的魔力"]
+			hide_dependent_lines: true
+			id: "39CF7F20BB7C9C48"
+			subtitle: "先祖知识凝聚而成的结晶"
+			tasks: [{
+				id: "7EB7409A7ADA4FEB"
+				item: "gtocore:philosophers_stone"
+				type: "item"
+			}]
 			x: 16.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["39CF7F20BB7C9C48"]
+			disable_toast: true
+			icon_scale: 0.25d
+			id: "4F1717E6AA6A2EA8"
+			shape: "none"
+			size: 0.25d
+			tasks: [{
+				id: "01547FF92E7F9B23"
+				stat: "minecraft:jump"
+				type: "stat"
+				value: 1
+			}]
+			title: " "
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["23A2865FBE7831AB"]
+			description: [
+				"如果你的前期发展了魔法，不妨考虑一下用它来自动化维护和清灰"
+				""
+				"HV阶段你可以解锁科技线提供的自动维护和掏灰机器，也就用不上它了"
+			]
+			hide_dependency_lines: true
+			id: "3F449D766BBDDBED"
+			subtitle: "魔法的维护和清灰"
+			tasks: [{
+				id: "193C15F7EA440A0D"
+				item: "gtocore:pulse_machine_maintenance_pedestal"
+				type: "item"
+			}]
+			x: -2.25d
+			y: 8.0d
 		}
 	]
 	subtitle: ["当魔法遇上格雷"]

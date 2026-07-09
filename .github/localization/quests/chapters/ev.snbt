@@ -354,7 +354,11 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["0D4645862BFD304D"]
+			dependencies: [
+				"0D4645862BFD304D"
+				"2FB0FE84527A0FF9"
+			]
+			dependency_requirement: "one_completed"
 			id: "36A929547651032B"
 			tasks: [{
 				id: "73B360ACAABBB3D2"
@@ -1329,6 +1333,14 @@
 				"{gto.ev.quests.2F6C81E3B10365E8.description3}"
 			]
 			id: "2F6C81E3B10365E8"
+			rewards: [{
+				auto: "invisible"
+				command: "/playsound minecraft:ui.toast.challenge_complete master @s ~ ~ ~ 1"
+				elevate_perms: true
+				id: "313EC5976C16A8BD"
+				silent: true
+				type: "command"
+			}]
 			shape: "gear"
 			size: 2.0d
 			subtitle: "{gto.ev.quests.2F6C81E3B10365E8.subtitle}"
@@ -1514,6 +1526,28 @@
 			}]
 			x: 7.0d
 			y: -12.0d
+		}
+		{
+			dependencies: [
+				"056EC4E6FAF614B7"
+				"135B35F7619D288E"
+			]
+			description: [
+				"{gto.ev.quests.2FB0FE84527A0FF9.description0}"
+				""
+				"{gto.ev.quests.2FB0FE84527A0FF9.description1}"
+			]
+			hide_until_deps_visible: true
+			icon: "gtocore:isostatic_press"
+			id: "2FB0FE84527A0FF9"
+			optional: true
+			tasks: [{
+				id: "1D8FE52B3F09A2CF"
+				type: "checkmark"
+			}]
+			title: "{gto.ev.quests.2FB0FE84527A0FF9.title}"
+			x: 4.18d
+			y: -2.82d
 		}
 	]
 	subtitle: ["{gto.ev.subtitle0}"]

@@ -151,8 +151,8 @@
 			id: "25930ED6EFD93F8B"
 			subtitle: "{gto.uhv.quests.25930ED6EFD93F8B.subtitle}"
 			tasks: [{
-				id: "34806EB4B5EA3A40"
-				item: "gtceu:netherite_dust"
+				id: "42A72249D671B3D2"
+				item: "minecraft:netherite_ingot"
 				type: "item"
 			}]
 			x: -0.5d
@@ -976,6 +976,14 @@
 				"{gto.uhv.quests.1612D1DEB3A7BE2D.description2}"
 			]
 			id: "1612D1DEB3A7BE2D"
+			rewards: [{
+				auto: "invisible"
+				command: "/playsound minecraft:ui.toast.challenge_complete master @s ~ ~ ~ 1"
+				elevate_perms: true
+				id: "4EA64D0DB2B7084C"
+				silent: true
+				type: "command"
+			}]
 			shape: "gear"
 			size: 2.0d
 			subtitle: "{gto.uhv.quests.1612D1DEB3A7BE2D.subtitle}"

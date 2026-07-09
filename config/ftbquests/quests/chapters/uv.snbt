@@ -1239,6 +1239,14 @@
 			]
 			hide_dependency_lines: false
 			id: "256F90AFB461107E"
+			rewards: [{
+				auto: "invisible"
+				command: "/playsound minecraft:ui.toast.challenge_complete master @s ~ ~ ~ 1"
+				elevate_perms: true
+				id: "22F238DCEDF74806"
+				silent: true
+				type: "command"
+			}]
 			shape: "gear"
 			size: 2.0d
 			subtitle: "&3你需要天马行空般的想象力"

@@ -6,7 +6,25 @@ import opencc
 INPUT_FILE_PATH = Path('config/openloader/resources/quests/assets/gto/lang/zh_cn.json')
 OUTPUT_FILE_PATH = Path('config/openloader/resources/quests/assets/gto/lang/zh_tw.json')
 CONVERTER = opencc.OpenCC('s2tw.json')
+# 在opencc基础上上仍需要调整的词，与gtolib的调整同步
 ZH_TW_FIXES = {
+    "服務器": "伺服器",
+    "鼠標": "滑鼠",
+    "默認": "預設",
+    "創建": "建立",
+    "設置": "設定",
+    "鏈接": "連結",
+    "網絡": "網路",
+    "信息": "資訊",
+    "圖標": "圖示",
+    "文件": "檔案",
+    "激活": "啟用",
+    "空閒": "閒置",
+    "導出": "匯出",
+    "導入": "匯入",
+    "概率": "機率",
+    "界面": "介面",
+
     "硅巖": "矽岩",
     "處理器集羣": "處理器叢集",
     "處理器超級計算機": "處理器超級電腦",
@@ -14,6 +32,7 @@ ZH_TW_FIXES = {
     "硅": "矽",
     "杆": "桿",
     "臺": "台",
+    "巖": "岩",
     "併行": "並行",
     "併為": "並為",
     "超淨間": "無塵室",
@@ -26,7 +45,8 @@ ZH_TW_FIXES = {
     "末影人": "終界使者",
     "末影": "終界",
     "烈焰人": "烈焰使者",
-    "凋靈": "凋零怪"
+    "凋靈": "凋零",
+    "納米": "奈米"
 }
 
 def fix_traditional_chinese(text):

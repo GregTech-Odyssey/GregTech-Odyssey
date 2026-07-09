@@ -478,15 +478,18 @@
 		{
 			dependencies: ["6DAF9DE9EAC4B63B"]
 			description: [
-				"根据无人机范围，自动掏出消声仓的灰烬（灰烬通过该机器的输出总线输出），同时自动修复维护仓的维护问题"
+				"根据无人机范围，&e在消声仓将满的时候自动掏出消声仓的灰烬&r（灰烬通过该机器的输出总线输出），同时&e自动修复维护仓的维护问题&r"
 				""
 				"每次操作有几秒的冷却时间，并且消耗无人机少量的电"
 				""
 				"放入更多无人机可同时进行多项工作"
 				""
 				"[ \"EV以后配合\", { \"text\": \"无线充能器\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"22A3C58D1FDF2221\" } },\"可以直接给无人机仓的无人机充电\" ]"
+				""
+				"&o&7别再问为什么无人机不工作啦，也许是你的机器还没有到需要它们工作的时候呢"
 			]
 			hide_dependency_lines: true
+			icon: "gtocore:drone_control_center"
 			id: "27BE49A3FEA64B59"
 			shape: "hexagon"
 			size: 1.5d
@@ -538,7 +541,6 @@
 		{
 			dependencies: [
 				"23A3A8F6E6738331"
-				"2C986BC7ECC4E1ED"
 				"7F98C4099F848BCA"
 			]
 			description: [
@@ -1182,11 +1184,15 @@
 				"·&6可编程仓&r"
 				""
 				"如何使用："
-				"1. &e供应机接入ME网络&r，将物品放入供应机，它会自动转换成虚拟物品"
-				"2. 打开EMI，对你想编写的配方，使用&eCtrl快速填充&r；或者直接将&e虚拟物品&r从AE终端拖入样板编码区"
+				"1. &e在供应机接入ME网络后&r，把想要虚拟化的物品放入供应机，它会自动转换成虚拟物品显示在ME网络中"
+				"2. 打开EMI，对你想编写的配方，使用&e[Ctrl]+[左键]&r快速填充；或者直接将&b带有黄色边框的虚拟物品&r从AE终端拖入样板编码区"
 				"3. 将样板放入&e贴在可编程仓上&r的&6样板供应器&r"
+				""
+				"&d提示：&r"
+				"1. 任何物品都可以是虚拟的（电路、透镜、模具等）"
+				"2. 请注意对应设备的&e虚拟物品槽&r的数量，样板写入过多虚拟物品是无法工作的"
 			]
-			icon: "gtocore:hv_programmablec_hatch"
+			icon: "gtocore:virtual_item_supply_machine"
 			id: "19B006CEA837B6B4"
 			min_width: 250
 			shape: "diamond"
@@ -1201,6 +1207,7 @@
 				{
 					id: "326EF714045254DB"
 					item: "gtocore:mv_programmablec_hatch"
+					optional_task: true
 					type: "item"
 				}
 			]
@@ -1251,6 +1258,8 @@
 				"HV阶段你可以做出更高一级的探矿仪，可以勘探实体矿脉，基岩矿脉和基岩流体"
 				""
 				"可以查看探矿仪的EMI来获取矿脉和流体信息"
+				""
+				"&o&7登上月球后会送你一个"
 			]
 			id: "53A8A0B00211A141"
 			tasks: [{
@@ -1713,12 +1722,11 @@
 		{
 			dependencies: ["19B006CEA837B6B4"]
 			description: [
-				"单方块机器也可以使用覆盖版来编程，样板写法相同"
+				"将&6可编程覆盖版&r贴到&b单方块机器&r上，可为其添加&e虚拟物品槽&r"
 				""
-				"先将&6覆盖版&r贴到单方块机器上，然后将&6样板&r放入贴在单方块机器上的&6样板供应器&r即可"
+				"没有&e虚拟物品槽&r的机器是&c无法接受&r虚拟物品的"
 			]
 			id: "0362FE44C232A1CE"
-			optional: true
 			shape: "diamond"
 			tasks: [{
 				id: "2ACF74C420F25666"
@@ -1731,7 +1739,7 @@
 		{
 			dependencies: ["310210D2AD9515E3"]
 			description: [
-				"以你目前的科技水平，无线电网无法覆盖其他维度。万幸的是，你可以跨纬度传输物品，因此你可以传输燃料到其他维度进行发电，或者铺设太阳能。"
+				"以你目前的科技水平，无线电网无法覆盖其他维度。万幸的是，你可以跨维度传输物品，因此你可以传输燃料到其他维度进行发电，或者铺设太阳能。"
 				""
 				"[\"在IV阶段，你将解锁\",{ \"text\": \"无线电网维度中继器\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"388D743C6BA5D995\" }},\"，它建造在哪个维度，哪个维度就会共用基地的无线电网。\"]"
 			]
@@ -1774,6 +1782,14 @@
 				"&o&7不要忘了发展AE与无线电网，它们同样是你这个阶段的重要目标"
 			]
 			id: "5D828A5258BFF11F"
+			rewards: [{
+				auto: "invisible"
+				command: "/playsound minecraft:ui.toast.challenge_complete master @s ~ ~ ~ 1"
+				elevate_perms: true
+				id: "1659F1F8575A4468"
+				silent: true
+				type: "command"
+			}]
 			shape: "gear"
 			size: 2.0d
 			subtitle: "&6你需要天马行空般的想象力"
@@ -2008,14 +2024,19 @@
 			]
 			description: ["从HV开始，简单不再有额外补助。用自己的双手创造一切吧！"]
 			hide_until_deps_visible: true
+			icon: "gtceu:hv_electric_motor"
 			id: "185F8183775BD727"
 			optional: true
+			rewards: [{
+				count: 32
+				id: "46DF9CB4B7D02F77"
+				item: "gtceu:hv_electric_motor"
+				type: "item"
+			}]
 			shape: "octagon"
 			tasks: [{
-				count: 32L
-				id: "3D43B3BB905110DD"
-				item: { Count: 32, id: "gtceu:hv_electric_motor" }
-				type: "item"
+				id: "47682E6549AFCC7B"
+				type: "checkmark"
 			}]
 			title: "HV部件补助&a（简单）&r"
 			x: -8.0d

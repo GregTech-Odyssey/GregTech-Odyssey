@@ -223,19 +223,20 @@
 			y: -5.0d
 		}
 		{
-			dependencies: ["0861FADA4103BCA5"]
+			dependencies: [
+				"0861FADA4103BCA5"
+				"06DB49EDBF5A5499"
+			]
 			description: [
 				"原始人对蒸馏塔的仿制版本，由于机体材料受限，温度过高会导致内部压力超出容限从而发生&4爆炸&r"
 				""
-				"你需要用&e煤炭/煤粉/煤炭块&r来给机器加热，还要用水给机器降温，&4你不会想知道它的威力的&r"
+				"&6原始蒸馏塔&r可以加高，最高&a13&r层。&e每一层都输出且&d仅能&r&e输出一种产物&r，如果层数不够，则会&c吞掉&r靠上的产物"
 				""
-				"流体校准器可以精确控制输入水的&6速率&r与被覆盖&6容器内流体容量&r，避免降温过快无法&c升温&r"
+				"它还需要安装两个&6导热仓&r，&e底部输入热量，顶部排出热量&r。底部温度越高，顶部温度越低，蒸馏塔的工作效率也就越高"
 				""
-				"热传感器可以检测机器温度阈值发出&c红石信号&r"
+				"目前你还只能使用&6加热器&r来加热，使用&6冷却器&r来散热。进入LV之后你可以使用更高效的&6电力加热器&r"
 				""
-				"煤炭块加热的速度是煤炭的&a1/4&r，同时加热时间是煤炭的&a4倍&r。它的加热速度（&a1K/s&r）还刚好与机器工作时每秒消耗的热量相同"
-				""
-				"原始蒸馏塔可以加高，最高&a13&r层。&e每一层都输出且&c仅能&r&e输出一种产物&r，如果层数不够，则会吞掉靠上的产物"
+				"&o&7注意：最下面那一层是输出物品的，流体从第二层开始输出"
 			]
 			icon: "gtocore:primitive_distillation_tower"
 			id: "561F5AACF437E7C5"
@@ -246,6 +247,7 @@
 				type: "item"
 			}]
 			shape: "hexagon"
+			size: 1.0d
 			subtitle: "原始蒸馏塔"
 			tasks: [
 				{
@@ -254,8 +256,8 @@
 					type: "item"
 				}
 				{
-					id: "0FBD21C1E0F2FE40"
-					item: "gtocore:heat_sensor"
+					id: "010273747AB41456"
+					item: "gtocore:heat_hatch"
 					type: "item"
 				}
 			]
@@ -610,20 +612,22 @@
 				"聚乙烯是唯一能在&6化学反应釜&r合成的简单有机聚合物，更高级的聚合物都需要在专门的&6聚合器&r完成反应"
 				""
 				"在此阶段，你需要放一个&6加热器&r来提供外部热源，并且只能在&6红宝石杆&r的催化下进行&6空气&r聚合"
+				""
+				"在&bJade 提示框HUD&r上&c没有温度属性&r的机器，需要额外贴一个&6导热接口&r来赋予其温度属性，且导热接口需要贴在加热的那一面"
 			]
 			icon: "gtceu:polyethylene_bucket"
 			id: "0D94DDD0419D85AD"
 			subtitle: "不要尝试去测定它的分子量"
 			tasks: [
 				{
-					id: "29C4756721A734ED"
-					item: "gtceu:polyethylene_bucket"
-					optional_task: true
+					id: "1E7B9EE0111A594C"
+					item: "gtocore:heat_interface"
 					type: "item"
 				}
 				{
-					id: "77C9814F12F06664"
-					type: "checkmark"
+					id: "29C4756721A734ED"
+					item: "gtceu:polyethylene_bucket"
+					type: "item"
 				}
 			]
 			title: "乙烯，合体！"
@@ -1000,8 +1004,8 @@
 				}
 			]
 			title: "剩下的三个家伙"
-			x: 8.5d
-			y: -0.5d
+			x: 10.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["561F5AACF437E7C5"]
@@ -1107,9 +1111,9 @@
 			description: [
 				"仔细翻看EMI，不要遗漏它的两个配方！"
 				""
-				"你现在做不出退火铜，所以你必须使用&7铜导线&r"
+				"你现在做不出退火铜，所以你必须使用&6铜导线&r"
 				""
-				"目前获取碳粉的途径有两个：石墨矿破碎，或者土高炉的副产物"
+				"目前获取碳粉的途径有两个：处理&6滑石/石墨矿&r，或者离心&6黑色灰烬&r（炼钢副产物）"
 			]
 			id: "206990570B2743AE"
 			shape: "circle"
@@ -1289,15 +1293,15 @@
 			]
 			id: "6CC4173B5BF99920"
 			shape: "diamond"
-			size: 1.5d
+			size: 1.0d
 			subtitle: "解放双手"
 			tasks: [{
 				id: "74099FBE9992D542"
 				item: "gtocore:digital_miner"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 0.0d
+			x: 5.0d
+			y: 2.85d
 		}
 		{
 			dependencies: ["0FBE7318DFBA700E"]
@@ -1315,8 +1319,8 @@
 				item: "gtceu:programmed_circuit"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 2.85d
+			x: 6.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["4678D97346E46529"]
@@ -1424,6 +1428,14 @@
 				"从现在起，你可以开始着手降低材料的造价，或许将&6原始线材轧机&r、&6原始车床&r作为你新时代的开端是不错的选择？"
 			]
 			id: "4678D97346E46529"
+			rewards: [{
+				auto: "invisible"
+				command: "/playsound minecraft:ui.toast.challenge_complete master @s ~ ~ ~ 1"
+				elevate_perms: true
+				id: "05D8B6F2AD5E8E21"
+				silent: true
+				type: "command"
+			}]
 			shape: "gear"
 			size: 2.0d
 			subtitle: "&7你需要天马行空般的想象力"
@@ -1465,7 +1477,7 @@
 				type: "checkmark"
 			}]
 			title: "芯片补助&a（简单）&r"
-			x: 6.0d
+			x: 6.5d
 			y: 1.5d
 		}
 		{
@@ -1606,7 +1618,7 @@
 			}]
 			title: "芯片补助&e（普通）&r"
 			x: 6.0d
-			y: 1.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["1CDBE91D2ACD9111"]
@@ -1623,6 +1635,81 @@
 			}]
 			x: -2.0d
 			y: 2.85d
+		}
+		{
+			dependencies: ["12116F27AB89BB58"]
+			description: [
+				"为了拓展机制，GTO加入了一种新的能量系统：&b热量（HU）&r！"
+				""
+				"标着&e需要外部热源&r的配方，你需要给工作机器供给热量，配方才会运行"
+				""
+				"还有一些机器拥有和热量相关联的特殊机制（如&6原始蒸馏塔&r）"
+				""
+				"&e制造一台加热器以完成此任务&r"
+				""
+				"==="
+				""
+				"&6热容&r：温度 = 热量 / 热容，热容越高，机器越不容易升温"
+				""
+				"&6传热速度&r：机器与相邻机器交换热量的能力，ΔT 是两者温差。温差越大，每 tick 传递的热量越多"
+				""
+				"&6自然冷却速度&r：表示机器自行向环境散热的能力，√ΔT 是机器与环境之间的温差的平方根"
+			]
+			icon: "gtocore:heater"
+			id: "06DB49EDBF5A5499"
+			rewards: [{
+				id: "572EE53DAAC1DB7B"
+				item: "gtocore:copper_coin"
+				type: "item"
+			}]
+			shape: "pentagon"
+			subtitle: "锟斤拷烫烫烫"
+			tasks: [
+				{
+					id: "1DFCC23B81338569"
+					item: "gtocore:heater"
+					type: "item"
+				}
+				{
+					id: "7EBB35B1BB0093D6"
+					item: "gtocore:cooler"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2AB5890062809223"
+					item: "gtocore:electric_heater"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "106A0120D2D0A772"
+					item: "gtocore:mana_heater"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6D72789527D15A16"
+					item: "gtocore:normal_heat_pipe"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5A730236E11C39C4"
+					item: "gtocore:heat_detector_cover"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "12EDE07037185737"
+					item: "gtocore:heat_interface"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "全新的能量系统：热量！"
+			x: 8.5d
+			y: 0.0d
 		}
 	]
 	subtitle: ["Tier0.5-ULV"]

@@ -151,8 +151,8 @@
 			id: "25930ED6EFD93F8B"
 			subtitle: "并没有原版那么简单！"
 			tasks: [{
-				id: "34806EB4B5EA3A40"
-				item: "gtceu:netherite_dust"
+				id: "42A72249D671B3D2"
+				item: "minecraft:netherite_ingot"
 				type: "item"
 			}]
 			x: -0.5d
@@ -163,7 +163,7 @@
 			description: [
 				"很可惜... 你只能暂时用下界合金块去合成！"
 				""
-				"&o&7前两个UHV能源仓肯定是属于两极磁化机的"
+				"&o&7超导电磁工厂可以使用双UHV能源仓到达UEV电压来大幅降低造价"
 			]
 			id: "6E9E73D8F464EF08"
 			subtitle: "电压！电压！"
@@ -976,6 +976,14 @@
 				"简而言之，就是漫长的自动化样板过程..."
 			]
 			id: "1612D1DEB3A7BE2D"
+			rewards: [{
+				auto: "invisible"
+				command: "/playsound minecraft:ui.toast.challenge_complete master @s ~ ~ ~ 1"
+				elevate_perms: true
+				id: "4EA64D0DB2B7084C"
+				silent: true
+				type: "command"
+			}]
 			shape: "gear"
 			size: 2.0d
 			subtitle: "&4你需要天马行空般的想象力"

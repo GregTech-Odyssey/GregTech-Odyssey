@@ -64,7 +64,13 @@
 			shape: "hexagon"
 			size: 1.5d
 			x: -12.0d
-			y: 3.0d
+			y: 6.0d
+		}
+		{
+			id: "79CE9430D0ACB844"
+			linked_quest: "3F449D766BBDDBED"
+			x: -6.0d
+			y: 3.5d
 		}
 	]
 	quests: [
@@ -1136,7 +1142,7 @@
 				type: "item"
 			}]
 			x: -12.0d
-			y: -3.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["12F3FAEB69397980"]
@@ -1175,24 +1181,39 @@
 			]
 			hide_dependency_lines: true
 			id: "7BAA2D31EC72AEDB"
-			rewards: [{
-				id: "61B9D0C4CD7C969B"
-				item: {
-					Count: 1
-					id: "gtceu:lv_iron_chainsaw"
-					tag: {
-						Charge: 100000L
-						DisallowContainerItem: 0b
-						GT.Behaviours: { }
-						GT.Tool: {
-							Damage: 0
+			rewards: [
+				{
+					id: "1990AF83AA5E4C2F"
+					item: {
+						Count: 1
+						id: "gtocore:elementium_axe"
+						tag: {
+							GT.Tool: {
+								Damage: 0
+							}
 						}
-						HideFlags: 2
-						MaxCharge: 100000L
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "61B9D0C4CD7C969B"
+					item: {
+						Count: 1
+						id: "gtceu:lv_iron_chainsaw"
+						tag: {
+							Charge: 100000L
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								Damage: 0
+							}
+							HideFlags: 2
+							MaxCharge: 100000L
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "hexagon"
 			size: 1.5d
 			subtitle: "无限木材"
@@ -1242,7 +1263,6 @@
 			dependencies: [
 				"48B7848EAF919782"
 				"733C4A68EC2FA1ED"
-				"3BE44DC31F4047B9"
 			]
 			description: [
 				"从低压时代开始，各种部件和材料大多都需要用特定的机器制作，而不能手动合成"
@@ -1900,6 +1920,8 @@
 				"按照比例无条件缩短&6多方块机器&r的配方处理时间"
 				""
 				"当加速仓等级&b低于&r当前配方的配方等级时，加速效果将&4大幅度&r减弱，每低一级减少20%"
+				""
+				"&o&7无条件就是指总耗能也变少了"
 			]
 			id: "7F65A1C533ED1C3B"
 			shape: "diamond"
@@ -1948,8 +1970,6 @@
 				"使用&b高级终端&r可以指定建造附属模块"
 				""
 				"在你进入HV获得&6不锈钢&r时，你可以为电力高炉安装&e附属模块&r"
-				""
-				"你应该也注意到了原始蒸馏塔有附属模块，切换到P: 1即可预览形态。原始蒸馏塔的附属模块安装后可以处理蒸馏水的配方"
 			]
 			icon: "gtceu:stainless_steel_frame"
 			id: "39879EA8A9F79913"
@@ -2307,12 +2327,22 @@
 			]
 			icon: "gtceu:lv_machine_hull"
 			id: "507807175748245C"
-			rewards: [{
-				count: 2
-				id: "6604B23595690CFE"
-				item: "farmersdelight:grilled_salmon"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 2
+					id: "6604B23595690CFE"
+					item: "farmersdelight:grilled_salmon"
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					command: "/playsound minecraft:ui.toast.challenge_complete master @s ~ ~ ~ 1"
+					elevate_perms: true
+					id: "4222B96AFDF94375"
+					silent: true
+					type: "command"
+				}
+			]
 			shape: "gear"
 			size: 2.0d
 			subtitle: "&7你需要天马行空般的想象力"
@@ -2429,19 +2459,19 @@
 				"1FCF7BF494F483B4"
 			]
 			description: [
-				"升级模块拿在手上&e潜行右键&r会消耗玩家&c全部&r的经验来获取附加属性。玩家至少需要拥有10级经验，当消耗100级经验时附加属性几率达到最大值"
+				"&e右键&r可使用模块的机器会消耗玩家最多&a30970点&r（即&a100级&r）&r的经验来获取附加属性。玩家至少需要拥有10级经验，当消耗100级经验时附加属性几率达到最大值"
 				""
-				"升级模块可以右键机器来升级，升级效果为永久加成，可覆盖升级"
+				"升级效果为永久加成，&e可重复升级&r。重复升级时会综合叠加新乘数和旧乘数"
 				""
-				"升级模块可以无条件给机器提供两个乘区，效果比他的兄弟增幅器&e强力非常多&r，因此可以应用模块的机器&c较为有限&r，以下为已知可以使用模块的机器："
+				"&6升级模块&r可以无条件给机器提供两个乘区，效果比他的兄弟增幅器&e强力非常多&r，因此可以应用模块的机器&c较为有限&r，以下为已知可以使用模块的机器："
 				""
 				"- 所有单方块机器"
-				"- 电力高炉和烈焰高炉"
-				"- 反应炉"
+				"- 电力高炉，反应炉，真空冷冻机和合金冶炼炉"
+				"- 烈焰高炉和寒冰冷冻机"
 				"- &e“大批量加工”&r章节中的机器"
 				"- 转底炉，巨型合金冶炼炉和巨型真空冷冻机"
 				""
-				"注意：升级模块会&c直接消耗玩家全部的经验&r，请使用&6经验方尖碑&r存储你多余的经验"
+				"&c注意：拆除机器主机会直接清空机器主机上的升级！&r"
 			]
 			id: "389D61CE9E799725"
 			rewards: [{
@@ -2514,13 +2544,13 @@
 		{
 			dependencies: ["072F7B0A69F0DB7A"]
 			description: [
-				"&6激光焊接器&r在此阶段并不是必需的机器"
+				"&6激光蚀刻机&r在此阶段并不是必需的机器"
 				""
 				"它主要用于制作晶圆，以及无暇/精致宝石"
 				""
 				"在普通/专家模式下，&bMV&r阶段还需要用它制作AE电路板"
 				""
-				"&o&7此处仅用于介绍激光焊接器这一机器类型，不代表必须制作LV版本"
+				"&o&7此处仅用于介绍激光蚀刻机这一机器类型，不代表必须制作LV版本"
 			]
 			id: "2A893BFDB41B7CFC"
 			tasks: [{
@@ -2775,6 +2805,19 @@
 			}]
 			x: 7.0d
 			y: -4.0d
+		}
+		{
+			dependencies: ["7AEE9F9ADE58612F"]
+			id: "217AD9FDA35D32A3"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "22CA2E05E94F6367"
+				item: "gtocore:large_steam_forge_hammer"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -3.0d
 		}
 	]
 	subtitle: ["Tier1-LV"]

@@ -354,7 +354,11 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["0D4645862BFD304D"]
+			dependencies: [
+				"0D4645862BFD304D"
+				"2FB0FE84527A0FF9"
+			]
+			dependency_requirement: "one_completed"
 			id: "36A929547651032B"
 			tasks: [{
 				id: "73B360ACAABBB3D2"
@@ -596,7 +600,7 @@
 		}
 		{
 			dependencies: ["3EDC674F36EDC52E"]
-			description: ["净化水机器并行需要调至1000的整数倍才会运行，并行数决定了一次周期内制作多少水和耗电量"]
+			description: ["净化水机器并行需要调至&a1000&r的整数倍才会运行，并行数决定了一次周期内制作多少水和耗电量"]
 			id: "677752F0A4CB47CB"
 			shape: "hexagon"
 			size: 1.5d
@@ -1329,6 +1333,14 @@
 				"&o&7希望你喜欢这个任务“火箭”"
 			]
 			id: "2F6C81E3B10365E8"
+			rewards: [{
+				auto: "invisible"
+				command: "/playsound minecraft:ui.toast.challenge_complete master @s ~ ~ ~ 1"
+				elevate_perms: true
+				id: "313EC5976C16A8BD"
+				silent: true
+				type: "command"
+			}]
 			shape: "gear"
 			size: 2.0d
 			subtitle: "&5你需要天马行空般的想象力"
@@ -1380,7 +1392,7 @@
 		}
 		{
 			dependencies: ["033815C0756BAE1F"]
-			description: ["你无需经过复杂的矿泥处理也可以获取"]
+			description: ["无需经过复杂的矿泥处理也可以获取"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			id: "0CDF5979167EDEAB"
@@ -1394,7 +1406,7 @@
 		}
 		{
 			dependencies: ["033815C0756BAE1F"]
-			description: ["你无需经过复杂的矿泥处理也可以获取"]
+			description: ["无需经过复杂的矿泥处理也可以获取"]
 			hide_dependency_lines: true
 			id: "626D09E9899F9936"
 			tasks: [{
@@ -1514,6 +1526,28 @@
 			}]
 			x: 7.0d
 			y: -12.0d
+		}
+		{
+			dependencies: [
+				"056EC4E6FAF614B7"
+				"135B35F7619D288E"
+			]
+			description: [
+				"简单模式陶瓷无需压制成型"
+				""
+				"&o&7史蒂夫的手可以解决一切"
+			]
+			hide_until_deps_visible: true
+			icon: "gtocore:isostatic_press"
+			id: "2FB0FE84527A0FF9"
+			optional: true
+			tasks: [{
+				id: "1D8FE52B3F09A2CF"
+				type: "checkmark"
+			}]
+			title: "大力出奇迹&a（简单）&r"
+			x: 4.18d
+			y: -2.82d
 		}
 	]
 	subtitle: ["Tier4-EV"]

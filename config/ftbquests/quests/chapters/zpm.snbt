@@ -101,7 +101,7 @@
 			size: 2.0d
 			subtitle: "生命自此繁衍"
 			tasks: [{
-				count: 16L
+				count: 32L
 				id: "5B9E76FBAF95732F"
 				item: "gtceu:stem_cells"
 				type: "item"
@@ -177,20 +177,6 @@
 			]
 			description: ["在机器中养殖动物获取需要的原料"]
 			id: "502F7DD0C930D5BF"
-			rewards: [{
-				id: "39FD30D214813A1C"
-				item: {
-					Count: 1
-					id: "minecraft:enchanted_book"
-					tag: {
-						StoredEnchantments: [{
-							id: "apotheosis:capturing"
-							lvl: 3s
-						}]
-					}
-				}
-				type: "item"
-			}]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
@@ -1087,6 +1073,14 @@
 				"你的目标是制作并&a增&r&2殖&r&6干细胞&r"
 			]
 			id: "3490AACD4AA62C5D"
+			rewards: [{
+				auto: "invisible"
+				command: "/playsound minecraft:ui.toast.challenge_complete master @s ~ ~ ~ 1"
+				elevate_perms: true
+				id: "4E00CDA022134B31"
+				silent: true
+				type: "command"
+			}]
 			shape: "gear"
 			size: 2.0d
 			subtitle: "&c你需要天马行空般的想象力"

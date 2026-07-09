@@ -1,13 +1,13 @@
 name = "Oh The Trees You'll Grow"
-filename = "Oh-The-Trees-Youll-Grow-forge-1.20.1-1.6.0.jar"
+filename = "Oh-The-Trees-Youll-Grow-forge-1.20.1-1.7.0.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "fdb62f927153a827f5605474e25759e485480e46"
+hash = "d110dd6c11216d44e704862db8c107f83eda79fb"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 7864095
+file-id = 8282239
 project-id = 962544

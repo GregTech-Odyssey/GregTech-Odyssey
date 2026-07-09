@@ -1,15 +1,15 @@
 name = "AE-Light-UI Multi-module"
-filename = "AE-Light-UI-1.20.1-v3.5.6.zip"
+filename = "AE-Light-UI-GTO-v0.5.6.0.zip"
 side = "client"
 
 [download]
 hash-format = "sha1"
-hash = "230554dbfefc4cfd7cd50b7cacb23fa227038a22"
+hash = "773ae1ce4396c5a2e391e7761e34889317656865"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8009560
+file-id = 8201169
 project-id = 1477320
 
 [option]

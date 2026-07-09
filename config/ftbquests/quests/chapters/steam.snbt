@@ -149,6 +149,13 @@
 			x: -3.5d
 			y: 14.0d
 		}
+		{
+			id: "17F069BECAF825C1"
+			linked_quest: "06DB49EDBF5A5499"
+			shape: "pentagon"
+			x: -1.0d
+			y: -2.0d
+		}
 	]
 	quests: [
 		{
@@ -187,11 +194,13 @@
 			description: [
 				"合金炉，将&6三铜一锡&r熔铸四个&6青铜锭&r，现在能够高效生产各种能在LV制造的合金锭"
 				""
-				"尽管如此，低压版本的蒸汽单方块的效率依然不能满足你的后续发展需要，你应该尽快升级到&6蒸汽铸造炉&r、"
+				"尽管如此，低压版本的蒸汽单方块的效率依然不能满足你的后续发展需要，你应该尽快升级到&6蒸汽铸造炉&r"
 				""
-				"以及，不要堵塞&4排气口&r，用你的扳手调整它"
+				"以及，不要堵塞&c排气口&r，用你的扳手调整它"
 				""
-				"&416mb/t&r的&6蒸汽&r就足够了"
+				"&a16mb/t&r的&6蒸汽&r就足够了"
+				""
+				"[ \"什么，你问我怎么调整排气口的位置？那你肯定是没仔细看\", { \"text\": \"使用手册\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1A0EA7A29CFD830D\" } } ]"
 				""
 				"&o&7如果你是专家模式，低压机器还有额外50%耗能惩罚"
 			]
@@ -323,8 +332,11 @@
 				"小蒸汽机器必须通入&6蒸汽&r才能运转，而且&2排气口&r&4不能&r被阻挡（包括管道）"
 				""
 				"[ \"什么，你问我怎么调整排气口的位置？那你肯定是没仔细看\", { \"text\": \"使用手册\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1A0EA7A29CFD830D\" } } ]"
+				""
+				"由于巨型熔炉的存在，蒸汽熔炉系列是可选的"
 			]
 			id: "7E8B76C8CC341F51"
+			optional: true
 			subtitle: "最大程度节省你的燃料"
 			tasks: [{
 				id: "43EF8564E06F93FE"
@@ -349,6 +361,7 @@
 				"&8&m记得大幅度提升你的蒸汽产能先&r&r"
 			]
 			id: "70166E7FA6559076"
+			optional: true
 			shape: "diamond"
 			size: 1.5d
 			subtitle: "作用可不止大了一点"
@@ -513,9 +526,9 @@
 		{
 			dependencies: ["32A39A427D4A3AC2"]
 			description: [
-				"在这个阶段，我建议你使用&a煤炭块&r来生产钢。因为这种方式下生产的副产物可以生成&e碳粉&r，是碳粉前期的获取途径之一"
+				"在这个阶段，我建议你使用&a木炭/煤炭块&r来生产钢。因为这种方式下生产的副产物可以生成&e碳粉&r，是碳粉前期的获取途径之一"
 				""
-				"&o&7另一种方法是石墨矿破碎"
+				"&o&7另一种方法是处理滑石/石墨矿"
 			]
 			id: "27F4D9739FE33A02"
 			rewards: [
@@ -831,7 +844,7 @@
 		{
 			dependencies: ["27F4D9739FE33A02"]
 			description: [
-				"榨汁机，哦不，是&6搅拌机&r，会帮你把多种粉进行&a混合&r，常见于&b制造合金&r等"
+				"&6搅拌机&r会帮你把多种粉进行&a混合&r，常见于&b制造合金&r等"
 				""
 				"当然配方可能会串，遇到多种相似原料的一定要&d谨慎输入&r"
 				""
@@ -1229,7 +1242,10 @@
 			y: 8.5d
 		}
 		{
-			dependencies: ["7BCD49717F8FAD65"]
+			dependencies: [
+				"7BCD49717F8FAD65"
+				"06DB49EDBF5A5499"
+			]
 			description: [
 				"&6锅炉&r与&6加热器&r相邻放置，为&6加热器&r提供燃料，再将水输入&6锅炉&r，当温度达到&e水的沸点&r时即可产出蒸汽"
 				""
@@ -1553,19 +1569,50 @@
 				"27F4D9739FE33A02"
 			]
 			description: [
+				"GTO专门为游戏的前期设计了用于存储物品的&6保险库&r"
+				""
 				"这是你拥有AE存储前能够使用的最大的存储容器了"
+				""
+				"&b容量&r由&e密封机械方块数量和等级&r共同决定，保险库内部要填满密封机械方块才会成型"
 				""
 				"建议配合&6简易合成终端&r使用"
 			]
+			icon: "gtocore:item_vault"
 			id: "2D9893D2C108754F"
-			shape: "diamond"
-			size: 1.5d
-			subtitle: "箱子装不下了"
-			tasks: [{
-				id: "3275A7DEDC7837C1"
-				item: "gtocore:multiblock_crate"
+			rewards: [{
+				id: "4E0591816EB6C92C"
+				item: "gtocore:ulv_hermetic_casing"
 				type: "item"
 			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "箱子装不下了"
+			tasks: [
+				{
+					id: "58154EB1A0DA8492"
+					item: "gtocore:item_vault"
+					type: "item"
+				}
+				{
+					id: "0AFD95693DDDC13A"
+					item: "gtocore:fluid_vault"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6B5A9E6EF82084E7"
+					item: "gtocore:general_vault"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0B67534F5F1488D8"
+					item: "gtocore:vault_hatch"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "保险库们"
 			x: 11.25d
 			y: -1.5d
 		}
@@ -1828,24 +1875,6 @@
 			y: 11.5d
 		}
 		{
-			dependencies: ["2D9893D2C108754F"]
-			description: [
-				"如果觉得多方块板条箱还是不够大，可以使用&6书龙&r和&6存储讲台&r将多个板条箱串联到一起，然后在存储讲台上贴&6简易合成终端&r"
-				""
-				"&o&7具体方法请参阅魔法线-新生魔艺"
-			]
-			id: "665B3D944CE2EB86"
-			optional: true
-			shape: "diamond"
-			tasks: [{
-				id: "25583B71585C4F43"
-				item: "ars_nouveau:storage_lectern"
-				type: "item"
-			}]
-			x: 13.0d
-			y: -1.5d
-		}
-		{
 			dependencies: [
 				"056EC4E6FAF614B7"
 				"53109F7472C0B443"
@@ -2018,11 +2047,11 @@
 			description: [
 				"[\"你可以开始制作\",{ \"text\": \"应用能源(AE2)\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5FCFE3D6B36CC409\" } },\"的敲门砖——\",{\"color\":\"gold\",\"text\":\"能源接收器\"},\"了！\"]"
 				""
-				"&e简单模式的AE配方没有魔改，因此请忽略在LV和HV章节的AE相关任务"
+				"&e&l简单模式的AE配方没有魔改，因此请忽略在LV，MV和HV章节的AE相关任务"
 				""
 				"AE机器和ME网络都需要AE能量才能工作，使用&6能源接收器&r将GT的电能转化为AE能量"
 				""
-				"非专家模式默认&c无频道数量限制&r，不需要接入&6ME控制器&r，只需要确保为当前网络提供足够的能量即可"
+				"GTO的AE默认&a无限频道&r，无需&6ME控制器&r，只需要确保为当前网络提供足够的能量即可"
 				""
 				"&o&7如果你还不会AE，请尽快寻找教程快速入门。本包无需精通AE，但至少需要了解如何下单。"
 			]
@@ -2418,6 +2447,7 @@
 				"对的，专家模式下会更难"
 			]
 			id: "6D4B71E543059C19"
+			optional: true
 			rewards: [{
 				id: "2EF86F324481E26B"
 				item: "gtocore:copper_coin"
@@ -2436,6 +2466,7 @@
 			dependencies: ["30D4CC9142D59DBD"]
 			description: ["这东西在接下来的合成中是可以重复利用的，所以造一个就好了"]
 			id: "4920255C0FDE6187"
+			optional: true
 			rewards: [{
 				id: "260460DB71687420"
 				item: "gtocore:copper_coin"

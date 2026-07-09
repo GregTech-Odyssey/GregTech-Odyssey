@@ -19,13 +19,19 @@
 		{
 			id: "1798C89D9211BBF3"
 			linked_quest: "7B47DD1ACCAA3B03"
-			x: 0.75d
+			x: -2.25d
 			y: 6.0d
 		}
 		{
 			id: "1603B24981350B37"
 			linked_quest: "7C9277B717E90328"
-			x: 2.25d
+			x: 0.75d
+			y: 6.0d
+		}
+		{
+			id: "253AB3A05EC32C87"
+			linked_quest: "79B00A56EED55DBD"
+			x: -0.75d
 			y: 6.0d
 		}
 	]
@@ -113,6 +119,11 @@
 			]
 			icon: "ad_astra:gravity_normalizer"
 			id: "567EBE02182A8505"
+			rewards: [{
+				id: "7343F919B87B084A"
+				item: "gtocore:copper_coin"
+				type: "item"
+			}]
 			shape: "pentagon"
 			size: 1.5d
 			subtitle: "{gto.tips.quests.567EBE02182A8505.subtitle}"
@@ -139,6 +150,7 @@
 			id: "23D070BB1157701F"
 			min_width: 240
 			rewards: [{
+				count: 8
 				id: "5771FE1A9ABFEEF0"
 				item: "gtocore:copper_coin"
 				type: "item"
@@ -165,6 +177,7 @@
 				"{gto.tips.quests.3AC0703D45900817.description2}"
 				"{gto.tips.quests.3AC0703D45900817.description3}"
 				"{gto.tips.quests.3AC0703D45900817.description4}"
+				"{gto.tips.quests.3AC0703D45900817.description5}"
 			]
 			icon: "ad_astra:glacian_button"
 			icon_scale: 2.0d
@@ -244,6 +257,11 @@
 				}
 			}
 			id: "1A0EA7A29CFD830D"
+			rewards: [{
+				id: "3D6D3D10773DA9E2"
+				item: "gtocore:copper_coin"
+				type: "item"
+			}]
 			shape: "pentagon"
 			size: 1.5d
 			subtitle: "{gto.tips.quests.1A0EA7A29CFD830D.subtitle}"
@@ -261,6 +279,11 @@
 			description: ["{gto.tips.quests.0853003F6BB9C758.description0}"]
 			icon: "gtocore:spacetime_huge_fluid_pipe"
 			id: "0853003F6BB9C758"
+			rewards: [{
+				id: "1360BEDA804C4327"
+				item: "gtocore:copper_coin"
+				type: "item"
+			}]
 			shape: "pentagon"
 			size: 1.5d
 			tasks: [{
@@ -327,6 +350,11 @@
 			]
 			icon: "ae2:creative_item_cell"
 			id: "6E81629D88D0710E"
+			rewards: [{
+				id: "6319145AB4AA250B"
+				item: "gtocore:copper_coin"
+				type: "item"
+			}]
 			shape: "pentagon"
 			size: 1.5d
 			tasks: [{
@@ -351,6 +379,7 @@
 			icon: "gtceu:gold_indicator"
 			id: "20BC48DF78F11B24"
 			rewards: [{
+				count: 8
 				id: "6CA75B35251901DF"
 				item: "gtocore:copper_coin"
 				type: "item"
@@ -371,6 +400,7 @@
 			dependencies: ["79646E8E449D8A1A"]
 			description: [
 				"{gto.tips.quests.1786BB8F04B92CB3.description0}"
+				""
 				"{gto.tips.quests.1786BB8F04B92CB3.description1}"
 				"{gto.tips.quests.1786BB8F04B92CB3.description2}"
 				"{gto.tips.quests.1786BB8F04B92CB3.description3}"
@@ -384,15 +414,17 @@
 				"{gto.tips.quests.1786BB8F04B92CB3.description11}"
 				"{gto.tips.quests.1786BB8F04B92CB3.description12}"
 				"{gto.tips.quests.1786BB8F04B92CB3.description13}"
-				"{@pagebreak}"
 				"{gto.tips.quests.1786BB8F04B92CB3.description14}"
+				"{@pagebreak}"
 				"{gto.tips.quests.1786BB8F04B92CB3.description15}"
+				""
 				"{gto.tips.quests.1786BB8F04B92CB3.description16}"
 				"{gto.tips.quests.1786BB8F04B92CB3.description17}"
-				"{@pagebreak}"
 				"{gto.tips.quests.1786BB8F04B92CB3.description18}"
 				"{gto.tips.quests.1786BB8F04B92CB3.description19}"
+				"{@pagebreak}"
 				"{gto.tips.quests.1786BB8F04B92CB3.description20}"
+				""
 				"{gto.tips.quests.1786BB8F04B92CB3.description21}"
 				"{gto.tips.quests.1786BB8F04B92CB3.description22}"
 				"{gto.tips.quests.1786BB8F04B92CB3.description23}"
@@ -403,6 +435,9 @@
 				"{gto.tips.quests.1786BB8F04B92CB3.description28}"
 				"{gto.tips.quests.1786BB8F04B92CB3.description29}"
 				"{gto.tips.quests.1786BB8F04B92CB3.description30}"
+				"{gto.tips.quests.1786BB8F04B92CB3.description31}"
+				"{gto.tips.quests.1786BB8F04B92CB3.description32}"
+				"{gto.tips.quests.1786BB8F04B92CB3.description33}"
 			]
 			icon: {
 				Count: 1
@@ -412,8 +447,14 @@
 				}
 			}
 			id: "1786BB8F04B92CB3"
+			rewards: [{
+				id: "2A81135680A305C2"
+				item: "gtocore:copper_coin"
+				type: "item"
+			}]
 			shape: "pentagon"
 			size: 1.5d
+			subtitle: "{gto.tips.quests.1786BB8F04B92CB3.subtitle}"
 			tasks: [{
 				id: "17A33145F3C67C67"
 				type: "checkmark"
@@ -440,10 +481,19 @@
 				}
 			}
 			id: "7CAB9E890F8F91C4"
+			rewards: [{
+				id: "172E3DAADF02B6FA"
+				item: "gtocore:copper_coin"
+				type: "item"
+			}]
 			shape: "pentagon"
 			size: 1.5d
 			subtitle: "{gto.tips.quests.7CAB9E890F8F91C4.subtitle}"
 			tasks: [
+				{
+					id: "6ADC2D0D26DADAFD"
+					type: "checkmark"
+				}
 				{
 					id: "564E6D109A99B6EF"
 					item: {
@@ -475,10 +525,6 @@
 					optional_task: true
 					type: "item"
 				}
-				{
-					id: "6ADC2D0D26DADAFD"
-					type: "checkmark"
-				}
 			]
 			title: "{gto.tips.quests.7CAB9E890F8F91C4.title}"
 			x: -3.75d
@@ -501,6 +547,11 @@
 				}
 			}
 			id: "113BFE54E70D14D4"
+			rewards: [{
+				id: "3DAC7CB3D704A206"
+				item: "gtocore:copper_coin"
+				type: "item"
+			}]
 			shape: "pentagon"
 			size: 1.5d
 			tasks: [{
@@ -569,8 +620,7 @@
 			icon: "gtocore:wireless_charger_cover"
 			id: "5C62ECF9AC84E023"
 			rewards: [{
-				count: 64
-				id: "09063634654E3057"
+				id: "73E43B2D68BBF8C4"
 				item: "gtocore:copper_coin"
 				type: "item"
 			}]
@@ -647,6 +697,11 @@
 			]
 			icon: "ad_astra:etrionic_blast_furnace"
 			id: "0B472475D703DE42"
+			rewards: [{
+				id: "143CCF3DC814EA19"
+				item: "gtocore:copper_coin"
+				type: "item"
+			}]
 			shape: "pentagon"
 			tasks: [{
 				id: "3267200EAF6EC86E"
@@ -895,6 +950,8 @@
 				"{gto.tips.quests.55CC8C2FD72F7E8B.description1}"
 				""
 				"{gto.tips.quests.55CC8C2FD72F7E8B.description2}"
+				""
+				"{gto.tips.quests.55CC8C2FD72F7E8B.description3}"
 			]
 			hide_until_deps_complete: true
 			icon: "gtocore:uv_overclock_hatch"
@@ -935,12 +992,14 @@
 				"{gto.tips.quests.782023097C32871D.description5}"
 				""
 				"{gto.tips.quests.782023097C32871D.description6}"
+				""
 				"{gto.tips.quests.782023097C32871D.description7}"
 				"{gto.tips.quests.782023097C32871D.description8}"
 				"{gto.tips.quests.782023097C32871D.description9}"
 				"{gto.tips.quests.782023097C32871D.description10}"
-				""
 				"{gto.tips.quests.782023097C32871D.description11}"
+				""
+				"{gto.tips.quests.782023097C32871D.description12}"
 			]
 			hide_until_deps_complete: true
 			icon: "gtocore:luv_power_amplifiers"
@@ -1294,10 +1353,19 @@
 				}
 			}
 			id: "32C2735E505AB490"
+			rewards: [{
+				id: "5EF9B9E6C1D29332"
+				item: "gtocore:copper_coin"
+				type: "item"
+			}]
 			shape: "pentagon"
 			size: 1.5d
 			subtitle: "{gto.tips.quests.32C2735E505AB490.subtitle}"
 			tasks: [
+				{
+					id: "12F564EF973725F2"
+					type: "checkmark"
+				}
 				{
 					dimension: "minecraft:the_nether"
 					id: "164D6190097B6B07"
@@ -1309,10 +1377,6 @@
 					id: "115F73668157C661"
 					optional_task: true
 					type: "dimension"
-				}
-				{
-					id: "12F564EF973725F2"
-					type: "checkmark"
 				}
 			]
 			title: "{gto.tips.quests.32C2735E505AB490.title}"
@@ -1466,6 +1530,11 @@
 			]
 			icon: "solcarrot:food_book"
 			id: "2574E6B85ADAAB88"
+			rewards: [{
+				id: "388DDDC0CE295DCE"
+				item: "gtocore:copper_coin"
+				type: "item"
+			}]
 			shape: "pentagon"
 			size: 1.5d
 			tasks: [
@@ -1750,6 +1819,7 @@
 			]
 			id: "7B11F10A218CD42C"
 			invisible: true
+			optional: true
 			shape: "pentagon"
 			size: 2.0d
 			tasks: [{
@@ -1825,19 +1895,8 @@
 					type: "item"
 				}
 			]
-			x: 0.75d
-			y: 4.5d
-		}
-		{
-			description: ["{gto.tips.quests.58EF3DA2C2E88C8A.description0}"]
-			id: "58EF3DA2C2E88C8A"
-			tasks: [{
-				id: "7BE2DC36CF716FDF"
-				item: "gtceu:basic_tape"
-				type: "item"
-			}]
 			x: 3.75d
-			y: 4.5d
+			y: 6.0d
 		}
 		{
 			description: ["{gto.tips.quests.067AC6B5D8167A97.description0}"]
@@ -1873,7 +1932,7 @@
 					type: "item"
 				}
 			]
-			x: 2.25d
+			x: 0.75d
 			y: 4.5d
 		}
 		{
@@ -1896,8 +1955,8 @@
 					type: "item"
 				}
 			]
-			x: -2.25d
-			y: 6.0d
+			x: 3.75d
+			y: 4.5d
 		}
 		{
 			description: [
@@ -1915,7 +1974,7 @@
 				title: "{gto.tips.quests.2F1EBC6B20B34792.tasks.0EC621993ED07726.title}"
 				type: "checkmark"
 			}]
-			x: -0.75d
+			x: -3.75d
 			y: 6.0d
 		}
 		{
@@ -1930,7 +1989,7 @@
 				title: "{gto.tips.quests.466185D2D791EC6D.tasks.0692ADD68322C2E3.title}"
 				type: "checkmark"
 			}]
-			x: 3.75d
+			x: 2.25d
 			y: 6.0d
 		}
 		{
@@ -1953,17 +2012,16 @@
 					type: "item"
 				}
 			]
-			x: -5.25d
-			y: 6.0d
+			x: -3.75d
+			y: 8.0d
 		}
 		{
-			description: ["{gto.tips.quests.5511502A8AECF505.description0}"]
+			description: [
+				"{gto.tips.quests.5511502A8AECF505.description0}"
+				""
+				"{gto.tips.quests.5511502A8AECF505.description1}"
+			]
 			id: "5511502A8AECF505"
-			rewards: [{
-				id: "772EFE95629C2542"
-				item: "ae2:meteorite_compass"
-				type: "item"
-			}]
 			tasks: [
 				{
 					id: "550FDAA82D6436D6"
@@ -1981,6 +2039,11 @@
 						id: "naturescompass:naturescompass"
 						tag: { }
 					}
+					type: "item"
+				}
+				{
+					id: "11111C87916B90A2"
+					item: "ae2:meteorite_compass"
 					type: "item"
 				}
 			]
@@ -2001,8 +2064,19 @@
 				}
 				type: "item"
 			}]
-			x: -3.75d
-			y: 6.0d
+			x: 2.25d
+			y: 4.5d
+		}
+		{
+			dependencies: ["592A2B7BC51C32B4"]
+			id: "2E0B3D83726E5084"
+			tasks: [{
+				id: "538EAA8DB017347B"
+				item: "gtocore:village_trading_station"
+				type: "item"
+			}]
+			x: -2.25d
+			y: 8.0d
 		}
 	]
 	subtitle: ["{gto.tips.subtitle0}"]

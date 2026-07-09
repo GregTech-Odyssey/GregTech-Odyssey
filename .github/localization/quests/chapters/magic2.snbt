@@ -64,6 +64,22 @@
 			x: 19.0d
 			y: 0.0d
 		}
+		{
+			height: 1.0d
+			image: "gtocore:item/circuit/suprachronal_luv"
+			rotation: 0.0d
+			width: 1.0d
+			x: 18.5d
+			y: 9.0d
+		}
+		{
+			height: 1.0d
+			image: "gtocore:item/circuit/suprachronal_luv"
+			rotation: 0.0d
+			width: 1.0d
+			x: 15.5d
+			y: -0.2d
+		}
 	]
 	order_index: 2
 	quest_links: [
@@ -2040,6 +2056,7 @@
 			id: "2150BFD0D971DF9C"
 			shape: "none"
 			size: 2.0d
+			subtitle: "{gto.magic2.quests.2150BFD0D971DF9C.subtitle}"
 			tasks: [{
 				id: "59FC2852B7A890F1"
 				item: "extrabotany:hero_medal"
@@ -2051,6 +2068,7 @@
 		{
 			dependencies: ["2150BFD0D971DF9C"]
 			id: "262B99D8C05C2B28"
+			subtitle: "{gto.magic2.quests.262B99D8C05C2B28.subtitle}"
 			tasks: [{
 				id: "38ADF9DEE5C96B44"
 				item: "gtocore:heros_soul"
@@ -2290,12 +2308,14 @@
 			dependencies: [
 				"57038022345C40A6"
 				"0BAB92BEC355120C"
+				"39CF7F20BB7C9C48"
 			]
 			description: ["{gto.magic2.quests.69B3B50FB64F3BF6.description0}"]
 			hide_dependent_lines: true
 			icon_scale: 2.0d
 			id: "69B3B50FB64F3BF6"
 			shape: "none"
+			subtitle: "{gto.magic2.quests.69B3B50FB64F3BF6.subtitle}"
 			tasks: [{
 				id: "622170327A750A1A"
 				item: "mythicbotany:kvasir_mead"
@@ -2371,6 +2391,7 @@
 			]
 			id: "403FABDABC4FED4C"
 			shape: "diamond"
+			subtitle: "{gto.magic2.quests.403FABDABC4FED4C.subtitle}"
 			tasks: [{
 				id: "0371CE2D45D0F510"
 				item: "gtocore:cosmic_celestial_spire_of_convergence"
@@ -2380,16 +2401,20 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["18E4BD0C2EDCBDF2"]
+			dependencies: [
+				"18E4BD0C2EDCBDF2"
+				"39CF7F20BB7C9C48"
+			]
 			description: ["{gto.magic2.quests.117117BBBF9B4B21.description0}"]
 			id: "117117BBBF9B4B21"
+			subtitle: "{gto.magic2.quests.117117BBBF9B4B21.subtitle}"
 			tasks: [{
 				id: "102312D3E715EF8E"
 				item: "gtocore:resonance_flower"
 				type: "item"
 			}]
-			x: 17.5d
-			y: 0.0d
+			x: 19.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["57038022345C40A6"]
@@ -2538,7 +2563,10 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["2150BFD0D971DF9C"]
+			dependencies: [
+				"39CF7F20BB7C9C48"
+				"4F1717E6AA6A2EA8"
+			]
 			description: ["{gto.magic2.quests.06BE5DF470B975F9.description0}"]
 			id: "06BE5DF470B975F9"
 			tasks: [{
@@ -2552,8 +2580,72 @@
 				}
 				type: "item"
 			}]
+			x: 14.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"39CF7F20BB7C9C48"
+				"4F1717E6AA6A2EA8"
+			]
+			id: "3E73A0CD5B3A6100"
+			shape: "hexagon"
+			tasks: [{
+				id: "4BD70AA6427EA7B5"
+				item: "gtocore:transmutation_catalyst"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2150BFD0D971DF9C"]
+			description: ["{gto.magic2.quests.39CF7F20BB7C9C48.description0}"]
+			hide_dependent_lines: true
+			id: "39CF7F20BB7C9C48"
+			subtitle: "{gto.magic2.quests.39CF7F20BB7C9C48.subtitle}"
+			tasks: [{
+				id: "7EB7409A7ADA4FEB"
+				item: "gtocore:philosophers_stone"
+				type: "item"
+			}]
 			x: 16.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["39CF7F20BB7C9C48"]
+			disable_toast: true
+			icon_scale: 0.25d
+			id: "4F1717E6AA6A2EA8"
+			shape: "none"
+			size: 0.25d
+			tasks: [{
+				id: "01547FF92E7F9B23"
+				stat: "minecraft:jump"
+				type: "stat"
+				value: 1
+			}]
+			title: "{gto.magic2.quests.4F1717E6AA6A2EA8.title}"
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["23A2865FBE7831AB"]
+			description: [
+				"{gto.magic2.quests.3F449D766BBDDBED.description0}"
+				""
+				"{gto.magic2.quests.3F449D766BBDDBED.description1}"
+			]
+			hide_dependency_lines: true
+			id: "3F449D766BBDDBED"
+			subtitle: "{gto.magic2.quests.3F449D766BBDDBED.subtitle}"
+			tasks: [{
+				id: "193C15F7EA440A0D"
+				item: "gtocore:pulse_machine_maintenance_pedestal"
+				type: "item"
+			}]
+			x: -2.25d
+			y: 8.0d
 		}
 	]
 	subtitle: ["{gto.magic2.subtitle0}"]

@@ -149,6 +149,13 @@
 			x: -3.5d
 			y: 14.0d
 		}
+		{
+			id: "17F069BECAF825C1"
+			linked_quest: "06DB49EDBF5A5499"
+			shape: "pentagon"
+			x: -1.0d
+			y: -2.0d
+		}
 	]
 	quests: [
 		{
@@ -193,7 +200,9 @@
 				""
 				"{gto.steam.quests.05F4015974079225.description3}"
 				""
-				"{gto.steam.quests.05F4015974079225.description4}"
+				"[\"\", {\"translate\": \"gto.steam.quests.05F4015974079225.description4.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"1A0EA7A29CFD830D\"}, \"translate\": \"gto.steam.quests.05F4015974079225.description4.rich_text1\"}]"
+				""
+				"{gto.steam.quests.05F4015974079225.description5}"
 			]
 			id: "05F4015974079225"
 			shape: "hexagon"
@@ -323,8 +332,11 @@
 				"{gto.steam.quests.7E8B76C8CC341F51.description0}"
 				""
 				"[\"\", {\"translate\": \"gto.steam.quests.7E8B76C8CC341F51.description1.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"1A0EA7A29CFD830D\"}, \"translate\": \"gto.steam.quests.7E8B76C8CC341F51.description1.rich_text1\"}]"
+				""
+				"{gto.steam.quests.7E8B76C8CC341F51.description2}"
 			]
 			id: "7E8B76C8CC341F51"
+			optional: true
 			subtitle: "{gto.steam.quests.7E8B76C8CC341F51.subtitle}"
 			tasks: [{
 				id: "43EF8564E06F93FE"
@@ -349,6 +361,7 @@
 				"{gto.steam.quests.70166E7FA6559076.description4}"
 			]
 			id: "70166E7FA6559076"
+			optional: true
 			shape: "diamond"
 			size: 1.5d
 			subtitle: "{gto.steam.quests.70166E7FA6559076.subtitle}"
@@ -1229,7 +1242,10 @@
 			y: 8.5d
 		}
 		{
-			dependencies: ["7BCD49717F8FAD65"]
+			dependencies: [
+				"7BCD49717F8FAD65"
+				"06DB49EDBF5A5499"
+			]
 			description: [
 				"{gto.steam.quests.5859702A2DF96727.description0}"
 				""
@@ -1556,16 +1572,47 @@
 				"{gto.steam.quests.2D9893D2C108754F.description0}"
 				""
 				"{gto.steam.quests.2D9893D2C108754F.description1}"
+				""
+				"{gto.steam.quests.2D9893D2C108754F.description2}"
+				""
+				"{gto.steam.quests.2D9893D2C108754F.description3}"
 			]
+			icon: "gtocore:item_vault"
 			id: "2D9893D2C108754F"
-			shape: "diamond"
-			size: 1.5d
-			subtitle: "{gto.steam.quests.2D9893D2C108754F.subtitle}"
-			tasks: [{
-				id: "3275A7DEDC7837C1"
-				item: "gtocore:multiblock_crate"
+			rewards: [{
+				id: "4E0591816EB6C92C"
+				item: "gtocore:ulv_hermetic_casing"
 				type: "item"
 			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{gto.steam.quests.2D9893D2C108754F.subtitle}"
+			tasks: [
+				{
+					id: "58154EB1A0DA8492"
+					item: "gtocore:item_vault"
+					type: "item"
+				}
+				{
+					id: "0AFD95693DDDC13A"
+					item: "gtocore:fluid_vault"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6B5A9E6EF82084E7"
+					item: "gtocore:general_vault"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0B67534F5F1488D8"
+					item: "gtocore:vault_hatch"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "{gto.steam.quests.2D9893D2C108754F.title}"
 			x: 11.25d
 			y: -1.5d
 		}
@@ -1829,24 +1876,6 @@
 			title: "{gto.steam.quests.0D362285B6842681.title}"
 			x: 5.5d
 			y: 11.5d
-		}
-		{
-			dependencies: ["2D9893D2C108754F"]
-			description: [
-				"{gto.steam.quests.665B3D944CE2EB86.description0}"
-				""
-				"{gto.steam.quests.665B3D944CE2EB86.description1}"
-			]
-			id: "665B3D944CE2EB86"
-			optional: true
-			shape: "diamond"
-			tasks: [{
-				id: "25583B71585C4F43"
-				item: "ars_nouveau:storage_lectern"
-				type: "item"
-			}]
-			x: 13.0d
-			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -2421,6 +2450,7 @@
 				"{gto.steam.quests.6D4B71E543059C19.description3}"
 			]
 			id: "6D4B71E543059C19"
+			optional: true
 			rewards: [{
 				id: "2EF86F324481E26B"
 				item: "gtocore:copper_coin"
@@ -2439,6 +2469,7 @@
 			dependencies: ["30D4CC9142D59DBD"]
 			description: ["{gto.steam.quests.4920255C0FDE6187.description0}"]
 			id: "4920255C0FDE6187"
+			optional: true
 			rewards: [{
 				id: "260460DB71687420"
 				item: "gtocore:copper_coin"

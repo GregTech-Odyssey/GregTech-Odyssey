@@ -32,6 +32,14 @@
 			x: 6.5d
 			y: -2.0d
 		}
+		{
+			height: 1.25d
+			image: "ftbquests:textures/shapes/circle/outline.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: -3.0d
+			y: 1.5d
+		}
 	]
 	order_index: 0
 	quest_links: [
@@ -68,6 +76,12 @@
 			linked_quest: "21EA1E3550BC1067"
 			x: 11.0d
 			y: 8.0d
+		}
+		{
+			id: "7D57B79E9E8DABC8"
+			linked_quest: "499437893CEB8AC4"
+			x: -3.0d
+			y: 1.5d
 		}
 	]
 	quests: [
@@ -505,7 +519,7 @@
 			description: [
 				"格雷科技的矿石都是以矿脉形式生成的，每个矿脉都有特定的矿石，&e按U可查看矿脉生成信息&r"
 				""
-				"&e地表上会有地表岩石，提示下方的矿脉。&r"
+				"你可以使用&6探矿仪&r扫描来寻找矿脉，也可以观察地表，地表上会有地表岩石，指示下方有什么矿脉"
 				""
 				"你能连锁的&a上限&r取决于你的&e工具等级&r，等级越高能连锁的方块也就越多，如果能&e通电&r则能连锁更多的方块，详见提示章节"
 				""
@@ -1397,6 +1411,14 @@
 					item: "gtocore:copper_coin"
 					type: "item"
 				}
+				{
+					auto: "invisible"
+					command: "/playsound minecraft:ui.toast.challenge_complete master @s ~ ~ ~ 1"
+					elevate_perms: true
+					id: "317182535D672696"
+					silent: true
+					type: "command"
+				}
 			]
 			shape: "gear"
 			size: 3.0d
@@ -1453,18 +1475,25 @@
 			description: [
 				"&6简易合成终端&r可以与对应容器交互，当作前期的AE"
 				""
-				"但是这个合成终端&c无法链接多个容器&r"
+				"但是这个合成终端&c只能链接单个容器&r"
 				""
 				"&o&7提示：你可以直接把物品从EMI中拖到终端的搜索栏上来快速搜索"
 			]
 			hide_dependency_lines: false
 			id: "2E05753AF03C5608"
-			rewards: [{
-				count: 8
-				id: "024BEB1CD9253176"
-				item: "gtocore:copper_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 8
+					id: "024BEB1CD9253176"
+					item: "gtocore:copper_coin"
+					type: "item"
+				}
+				{
+					id: "5F68F9562A5C6791"
+					item: "gtceu:steel_crate"
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			size: 1.5d
 			subtitle: "合成站"
@@ -1725,7 +1754,7 @@
 			description: [
 				"软锤不仅可以作为合成材料，也可以作为工具"
 				""
-				"右键机器即可暂停机器工作"
+				"&b右键&r机器即可暂停机器工作，&b潜行右键&r机器可以让机器在&e运行完当前配方之后&r再暂停工作"
 			]
 			id: "20AE5EDFB6C59021"
 			optional: true
@@ -1825,21 +1854,12 @@
 				"&8&o这个任务放在这里是为了提醒你要做这东西，并不是意味着你要在当前阶段就把它搓出来（你也搓不出来）&r&r"
 			]
 			id: "07C8D75D90114580"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/playsound minecraft:ui.toast.challenge_complete master @s ~ ~ ~ 1"
-					id: "5C3B510CCF25EDF5"
-					silent: true
-					type: "command"
-				}
-				{
-					count: 4
-					id: "3DAAB7C66E02580F"
-					item: "gtocore:copper_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 4
+				id: "3DAAB7C66E02580F"
+				item: "gtocore:copper_coin"
+				type: "item"
+			}]
 			shape: "pentagon"
 			size: 2.0d
 			subtitle: "你会需要它的"
@@ -1882,21 +1902,12 @@
 				"注：&e拆除模式&r配合&e模块搭建&r可以指定要拆除的部分（模块or本体）"
 			]
 			id: "06FE84E75DBE704A"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/playsound minecraft:ui.toast.challenge_complete master @s ~ ~ ~ 1"
-					id: "06E74F392DC76DCC"
-					silent: true
-					type: "command"
-				}
-				{
-					count: 4
-					id: "7512A0EC8A616C48"
-					item: "gtocore:copper_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 4
+				id: "7512A0EC8A616C48"
+				item: "gtocore:copper_coin"
+				type: "item"
+			}]
 			shape: "pentagon"
 			size: 2.0d
 			subtitle: "Ter-100-EX全能型终端"
@@ -2145,7 +2156,7 @@
 		}
 		{
 			dependencies: ["3BC9246D8FD4B649"]
-			description: ["GTO自带了夜视——如果你没有改键位的话，按&e[Z]&r键可以开关夜视效果"]
+			description: ["GTO自带了夜视——如果你没有改键位的话，按住&e[Z]&r键可以进入HUD编辑状态，然后点击右上角“+”号唤出&b“玩家实时属性”&r窗口，编辑各种属性，包括夜视！"]
 			hide_dependency_lines: true
 			icon: {
 				Count: 1
@@ -2153,6 +2164,12 @@
 				tag: { }
 			}
 			id: "0BBC0B63C2FB2486"
+			rewards: [{
+				id: "31F23AE65E9C8257"
+				item: "torchmaster:megatorch"
+				type: "item"
+			}]
+			shape: "pentagon"
 			subtitle: "无需火把——但是为了避免刷怪还是插上吧"
 			tasks: [{
 				id: "31E519C621A9793E"

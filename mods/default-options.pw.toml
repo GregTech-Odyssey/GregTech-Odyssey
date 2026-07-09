@@ -1,13 +1,13 @@
 name = "Default Options"
-filename = "defaultoptions-forge-1.20.1-18.0.4.jar"
+filename = "defaultoptions-forge-1.20.1-18.0.5.jar"
 side = "client"
 
 [download]
 hash-format = "sha1"
-hash = "37ef64d3ae7fda292c882ee949a0280bf6c7f033"
+hash = "dddab6a5ff092b4535e9fdfb01e1e011afb90e57"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6972483
+file-id = 8286304
 project-id = 232131

@@ -1232,6 +1232,14 @@
 				"{gto.luv.quests.2F03D93AC7DBE58D.description2}"
 			]
 			id: "2F03D93AC7DBE58D"
+			rewards: [{
+				auto: "invisible"
+				command: "/playsound minecraft:ui.toast.challenge_complete master @s ~ ~ ~ 1"
+				elevate_perms: true
+				id: "4BE4704C013FE1E0"
+				silent: true
+				type: "command"
+			}]
 			shape: "gear"
 			size: 2.0d
 			subtitle: "{gto.luv.quests.2F03D93AC7DBE58D.subtitle}"
@@ -1399,8 +1407,8 @@
 				item: "gtceu:advanced_data_access_hatch"
 				type: "item"
 			}]
-			x: 17.0d
-			y: 1.0d
+			x: 16.5d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -1447,6 +1455,36 @@
 			}]
 			x: 4.5d
 			y: -8.0d
+		}
+		{
+			dependencies: ["228B283B5477879B"]
+			id: "48ABDB8C4DC61738"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "6F3A38C112D47801"
+				item: "gtocore:virtual_coin_miner"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 1.5d
+		}
+		{
+			description: [
+				"{gto.luv.quests.36AEA58753FA2814.description0}"
+				""
+				"{gto.luv.quests.36AEA58753FA2814.description1}"
+				""
+				"{gto.luv.quests.36AEA58753FA2814.description2}"
+			]
+			id: "36AEA58753FA2814"
+			tasks: [{
+				id: "1D07B8EE846D4ED3"
+				type: "checkmark"
+			}]
+			title: "{gto.luv.quests.36AEA58753FA2814.title}"
+			x: 23.5d
+			y: -7.0d
 		}
 	]
 	subtitle: ["{gto.luv.subtitle0}"]

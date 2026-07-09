@@ -1,0 +1,17 @@
+team remove STONE
+team remove STEAM
+team remove ULV
+team remove LV
+team remove MV
+team remove HV
+team remove EV
+team remove IV
+team remove LUV
+team remove ZPM
+team remove UV
+team remove UHV
+team remove UEV
+team remove UIV
+team remove UXV
+team remove OPV
+team remove MAX

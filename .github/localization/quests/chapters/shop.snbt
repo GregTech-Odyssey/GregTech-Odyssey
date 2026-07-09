@@ -15,7 +15,7 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: -12.0d
-			y: 7.5d
+			y: 9.5d
 		}
 		{
 			dependency: "12D5479B3944EA92"
@@ -24,7 +24,7 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: -10.0d
-			y: 7.5d
+			y: 9.5d
 		}
 		{
 			dependency: "12D5479B3944EA92"
@@ -33,6 +33,22 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: -8.0d
+			y: 9.5d
+		}
+		{
+			height: 1.0d
+			image: "gtocore:item/circuit/suprachronal_ulv"
+			rotation: 0.0d
+			width: 1.0d
+			x: -12.2d
+			y: 7.5d
+		}
+		{
+			height: 1.0d
+			image: "gtocore:item/circuit/suprachronal_lv"
+			rotation: 0.0d
+			width: 1.0d
+			x: -10.0d
 			y: 7.5d
 		}
 	]
@@ -106,7 +122,12 @@
 			y: 3.5d
 		}
 		{
-			description: ["{gto.shop.quests.1582FEAB70E4AADD.description0}"]
+			dependencies: ["33B01E889EE7E990"]
+			description: [
+				"[\"\", {\"translate\": \"gto.shop.quests.1582FEAB70E4AADD.description0.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"33B01E889EE7E990\"}, \"translate\": \"gto.shop.quests.1582FEAB70E4AADD.description0.rich_text1\"}, {\"translate\": \"gto.shop.quests.1582FEAB70E4AADD.description0.rich_text2\"}]"
+				""
+				"{gto.shop.quests.1582FEAB70E4AADD.description1}"
+			]
 			icon: "gtceu:lv_super_tank"
 			id: "1582FEAB70E4AADD"
 			rewards: [{
@@ -121,8 +142,8 @@
 				type: "item"
 			}]
 			title: "{gto.shop.quests.1582FEAB70E4AADD.title}"
-			x: 0.5d
-			y: 3.5d
+			x: -9.5d
+			y: 7.5d
 		}
 		{
 			description: ["{gto.shop.quests.2C7AD7D1D548EB0E.description0}"]
@@ -165,7 +186,11 @@
 			y: 2.0d
 		}
 		{
-			description: ["{gto.shop.quests.77D7AF6D8806AFBF.description0}"]
+			description: [
+				"{gto.shop.quests.77D7AF6D8806AFBF.description0}"
+				""
+				"{gto.shop.quests.77D7AF6D8806AFBF.description1}"
+			]
 			icon: "gtocore:gto_overseer_coke_ulv"
 			id: "77D7AF6D8806AFBF"
 			rewards: [{
@@ -181,7 +206,7 @@
 				type: "item"
 			}]
 			title: "{gto.shop.quests.77D7AF6D8806AFBF.title}"
-			x: 6.5d
+			x: -1.5d
 			y: 5.5d
 		}
 		{
@@ -193,20 +218,11 @@
 			]
 			icon: "botania:mana_cookie"
 			id: "1CF16D3C2338C2D2"
-			rewards: [
-				{
-					id: "1663DF63C03A11C4"
-					item: "botania:mana_cookie"
-					type: "item"
-				}
-				{
-					auto: "invisible"
-					command: "/function firework:launch"
-					id: "6DC58298580CE0CC"
-					silent: true
-					type: "command"
-				}
-			]
+			rewards: [{
+				id: "1663DF63C03A11C4"
+				item: "botania:mana_cookie"
+				type: "item"
+			}]
 			size: 3.0d
 			subtitle: "{gto.shop.quests.1CF16D3C2338C2D2.subtitle}"
 			tasks: [{
@@ -271,7 +287,7 @@
 				type: "item"
 			}]
 			title: "{gto.shop.quests.3DCF45A0081D0CD6.title}"
-			x: 0.5d
+			x: -9.5d
 			y: 5.5d
 		}
 		{
@@ -290,7 +306,7 @@
 				type: "item"
 			}]
 			title: "{gto.shop.quests.40C9BD72468AF243.title}"
-			x: 2.5d
+			x: -5.5d
 			y: 5.5d
 		}
 		{
@@ -431,8 +447,8 @@
 				type: "item"
 			}]
 			title: "{gto.shop.quests.50259ED5714DCF72.title}"
-			x: -11.5d
-			y: 5.5d
+			x: 4.5d
+			y: 3.5d
 		}
 		{
 			description: ["{gto.shop.quests.60F54941B9E0EF4F.description0}"]
@@ -453,7 +469,7 @@
 				type: "item"
 			}]
 			title: "{gto.shop.quests.60F54941B9E0EF4F.title}"
-			x: -9.5d
+			x: -11.5d
 			y: 5.5d
 		}
 		{
@@ -472,7 +488,7 @@
 				type: "item"
 			}]
 			title: "{gto.shop.quests.49EC161973D2DDF9.title}"
-			x: 8.5d
+			x: 12.5d
 			y: 3.5d
 		}
 		{
@@ -573,7 +589,7 @@
 				type: "item"
 			}]
 			title: "{gto.shop.quests.0F8A3921C987D1F3.title}"
-			x: 2.5d
+			x: -3.5d
 			y: 3.5d
 		}
 		{
@@ -592,7 +608,7 @@
 				type: "item"
 			}]
 			title: "{gto.shop.quests.0C0A2C3CC7BE0749.title}"
-			x: 12.5d
+			x: 2.5d
 			y: 3.5d
 		}
 		{
@@ -611,8 +627,8 @@
 				type: "item"
 			}]
 			title: "{gto.shop.quests.68F6E43F473E9C78.title}"
-			x: -7.5d
-			y: 5.5d
+			x: 0.5d
+			y: 3.5d
 		}
 		{
 			icon: "apotheosis:gem_dust"
@@ -630,7 +646,7 @@
 				type: "item"
 			}]
 			title: "{gto.shop.quests.044EF1DC83BCCC63.title}"
-			x: 4.5d
+			x: -3.5d
 			y: 5.5d
 		}
 		{
@@ -670,7 +686,7 @@
 				type: "item"
 			}]
 			title: "{gto.shop.quests.3E5BB7F1AA9D1DA8.title}"
-			x: -5.5d
+			x: -7.5d
 			y: 5.5d
 		}
 		{
@@ -709,7 +725,7 @@
 			}]
 			title: "{gto.shop.quests.7A42D55E1F746624.title}"
 			x: -13.5d
-			y: 7.5d
+			y: 9.5d
 		}
 		{
 			description: ["{gto.shop.quests.1937F682654E088E.description0}"]
@@ -771,8 +787,8 @@
 				type: "item"
 			}]
 			title: "{gto.shop.quests.1937F682654E088E.title}"
-			x: -3.5d
-			y: 5.5d
+			x: -5.5d
+			y: 3.5d
 		}
 		{
 			description: ["{gto.shop.quests.4DD2F6248773AC53.description0}"]
@@ -791,8 +807,8 @@
 				type: "item"
 			}]
 			title: "{gto.shop.quests.4DD2F6248773AC53.title}"
-			x: -1.5d
-			y: 5.5d
+			x: 8.5d
+			y: 3.5d
 		}
 		{
 			description: ["{gto.shop.quests.742D435913111476.description0}"]
@@ -856,19 +872,19 @@
 					type: "item"
 				}
 				{
-					count: 8
+					count: 4
 					id: "7211B2BA5BCE03ED"
 					item: "ae2:pattern_provider"
 					type: "item"
 				}
 				{
-					count: 16
+					count: 8
 					id: "437CC65A63AEAF9D"
 					item: "ae2:interface"
 					type: "item"
 				}
 				{
-					count: 32
+					count: 24
 					id: "223EFE35D9F8AF4D"
 					item: "ae2:blank_pattern"
 					type: "item"
@@ -907,7 +923,7 @@
 					type: "item"
 				}
 				{
-					count: 8L
+					count: 4L
 					id: "4B09464FE6184C49"
 					item: "gtocore:universal_circuit_hv"
 					type: "item"
@@ -921,7 +937,7 @@
 			]
 			title: "{gto.shop.quests.44C07B159CF2D5E5.title}"
 			x: -11.5d
-			y: 7.5d
+			y: 9.5d
 		}
 		{
 			dependencies: ["12D5479B3944EA92"]
@@ -958,7 +974,7 @@
 			]
 			title: "{gto.shop.quests.3F94A1D9F39467DE.title}"
 			x: -9.5d
-			y: 7.5d
+			y: 9.5d
 		}
 		{
 			dependencies: ["12D5479B3944EA92"]
@@ -977,7 +993,7 @@
 			}]
 			tasks: [
 				{
-					count: 4L
+					count: 8L
 					id: "50ECFEA89313E2E5"
 					item: "gtceu:mv_field_generator"
 					type: "item"
@@ -991,10 +1007,15 @@
 			]
 			title: "{gto.shop.quests.14B493A3C1E8AAA2.title}"
 			x: -7.5d
-			y: 7.5d
+			y: 9.5d
 		}
 		{
-			description: ["{gto.shop.quests.129BDBB537BEA6EB.description0}"]
+			dependencies: ["0FBE7318DFBA700E"]
+			description: [
+				"[\"\", {\"translate\": \"gto.shop.quests.129BDBB537BEA6EB.description0.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"0FBE7318DFBA700E\"}, \"translate\": \"gto.shop.quests.129BDBB537BEA6EB.description0.rich_text1\"}, {\"translate\": \"gto.shop.quests.129BDBB537BEA6EB.description0.rich_text2\"}]"
+				""
+				"{gto.shop.quests.129BDBB537BEA6EB.description1}"
+			]
 			icon: "gtceu:lv_super_chest"
 			id: "129BDBB537BEA6EB"
 			rewards: [{
@@ -1003,59 +1024,22 @@
 				type: "item"
 			}]
 			tasks: [{
-				count: 32L
+				count: 16L
 				id: "58A1B54091E35B18"
-				item: {
-					Count: 32
-					id: "gtocore:copper_coin"
-				}
+				item: "gtocore:copper_coin"
 				type: "item"
 			}]
 			title: "{gto.shop.quests.129BDBB537BEA6EB.title}"
-			x: -1.5d
-			y: 3.5d
-		}
-		{
-			description: ["{gto.shop.quests.7565A1383F654160.description0}"]
-			icon: "gtceu:stainless_steel_crate"
-			id: "7565A1383F654160"
-			rewards: [{
-				id: "37DD5E5244F47849"
-				item: "gtceu:stainless_steel_crate"
-				type: "item"
-			}]
-			tasks: [{
-				count: 16L
-				id: "54155930921B60A3"
-				item: "gtocore:copper_coin"
-				type: "item"
-			}]
-			title: "{gto.shop.quests.7565A1383F654160.title}"
-			x: -5.5d
-			y: 3.5d
-		}
-		{
-			description: ["{gto.shop.quests.2884E1FC35FC3965.description0}"]
-			icon: "gtceu:stainless_steel_drum"
-			id: "2884E1FC35FC3965"
-			rewards: [{
-				id: "0B1840DA611E734B"
-				item: "gtceu:stainless_steel_drum"
-				type: "item"
-			}]
-			tasks: [{
-				count: 8L
-				id: "6A2992094483FC72"
-				item: "gtocore:copper_coin"
-				type: "item"
-			}]
-			title: "{gto.shop.quests.2884E1FC35FC3965.title}"
-			x: -3.5d
-			y: 3.5d
+			x: -11.5d
+			y: 7.5d
 		}
 		{
 			can_repeat: false
-			description: ["{gto.shop.quests.01F810D239D46FD2.description0}"]
+			description: [
+				"{gto.shop.quests.01F810D239D46FD2.description0}"
+				""
+				"{gto.shop.quests.01F810D239D46FD2.description1}"
+			]
 			icon: "botania:mana_cookie"
 			id: "01F810D239D46FD2"
 			rewards: [{
@@ -1076,7 +1060,7 @@
 				type: "item"
 			}]
 			title: "{gto.shop.quests.01F810D239D46FD2.title}"
-			x: 4.5d
+			x: -1.5d
 			y: 3.5d
 		}
 		{

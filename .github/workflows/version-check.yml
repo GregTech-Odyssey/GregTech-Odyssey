@@ -11,8 +11,8 @@ permissions:
 jobs:
   check-version:
     if: |
-      github.event_name == 'issues' && 
-      (github.event.action == 'opened' || 
+      github.event_name == 'issues' &&
+      (github.event.action == 'opened' ||
       (github.event.action == 'edited' && github.event.changes.body))
     runs-on: ubuntu-latest
     steps:
@@ -25,21 +25,22 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
             const issue = context.payload.issue;
-            
+
             // 配置区域
-            const VERSION_GAP = 0; // 允许的版本差距：0=必须最新，1=允许差一个小版本
+            const VERSION_GAP = 0; // 允许的核心版本差距：0=必须当前或更新，1=允许差一个小版本
             const HARDCODED_VERSION = "0.0.9-beta"; // 备用硬编码版本号
-            
+            const REQUIRED_VERSION_REGEX = /^[0-9]+\.[0-9]+\.[0-9]+(?:-[A-Za-z][A-Za-z0-9]*)?-[A-Fa-f0-9]{6}$/;
+
             // 检查是否有错误 bug 标签
-            const hasBugLabel = issue.labels.some(label => 
+            const hasBugLabel = issue.labels.some(label =>
               label.name === '错误 bug' || label.name === 'bug' || label.name === '错误'
             );
-            
+
             if (!hasBugLabel) {
               console.log('This issue does not have a bug label. Skipping version check.');
               return;
             }
-            
+
             // 从仓库中读取 pack.toml 文件
             const fs = require('fs');
             let currentVersion;
@@ -59,131 +60,143 @@ jobs:
               currentVersion = HARDCODED_VERSION;
               console.log(`Using hardcoded current version: ${currentVersion}`);
             }
-            
-            // 版本比较函数
-            function compareVersions(version1, version2) {
-              function parseVersion(versionStr) {
-                const parts = versionStr.split('-');
-                const versionParts = parts[0].split('.').map(Number);
-                return {
-                  major: versionParts[0] || 0,
-                  minor: versionParts[1] || 0,
-                  patch: versionParts[2] || 0,
-                  suffix: parts[1] || '',
-                  full: versionStr
-                };
+
+            function parseCoreVersion(versionStr) {
+              const match = versionStr.match(/^([0-9]+)\.([0-9]+)\.([0-9]+)/);
+              if (!match) {
+                throw new Error(`Could not parse core version from "${versionStr}"`);
               }
-              
-              const v1 = parseVersion(version1);
-              const v2 = parseVersion(version2);
-              
+
+              return {
+                major: Number(match[1]) || 0,
+                minor: Number(match[2]) || 0,
+                patch: Number(match[3]) || 0,
+                full: `${match[1]}.${match[2]}.${match[3]}`
+              };
+            }
+
+            function getReleaseChannel(versionStr) {
+              const match = versionStr.match(/^[0-9]+\.[0-9]+\.[0-9]+-([A-Za-z][A-Za-z0-9]*)$/);
+              return match ? match[1] : '';
+            }
+
+            function addVersionFormat(versions, coreVersion, channel) {
+              if (channel) {
+                versions.push(`${coreVersion}-${channel}-xxxxxx`);
+              }
+              versions.push(`${coreVersion}-xxxxxx`);
+            }
+
+            // 版本比较函数：只比较 major.minor.patch，运行时后缀不参与新旧判断
+            function compareVersions(version1, version2) {
+              const v1 = parseCoreVersion(version1);
+              const v2 = parseCoreVersion(version2);
+
               if (v1.major !== v2.major) return v1.major - v2.major;
               if (v1.minor !== v2.minor) return v1.minor - v2.minor;
               if (v1.patch !== v2.patch) return v1.patch - v2.patch;
-              
-              // 处理后缀比较（beta < 正式版）
-              if (v1.suffix && !v2.suffix) return -1;
-              if (!v1.suffix && v2.suffix) return 1;
-              if (v1.suffix && v2.suffix) return v1.suffix.localeCompare(v2.suffix);
-              
+
               return 0;
             }
-            
-            // 检查版本是否比当前版本更新
+
+            // 检查版本核心号是否比当前版本更新
             function isNewerVersion(reportedVer, currentVer) {
               return compareVersions(reportedVer, currentVer) > 0;
             }
-            
-            // 获取允许的版本号列表函数（仅用于显示支持的版本）
-            function getAllowedVersions(currentVer, gap) {
-              function parseVersion(versionStr) {
-                const parts = versionStr.split('-');
-                const versionParts = parts[0].split('.').map(Number);
-                return {
-                  major: versionParts[0] || 0,
-                  minor: versionParts[1] || 0,
-                  patch: versionParts[2] || 0,
-                  suffix: parts[1] || '',
-                  full: versionStr
-                };
-              }
-              
-              const currVer = parseVersion(currentVer);
-              const allowedVersions = [currentVer]; // 始终包含当前版本
-              
-              // 添加当前版本的其他形式（有/无后缀）
-              if (currVer.suffix) {
-                allowedVersions.push(`${currVer.major}.${currVer.minor}.${currVer.patch}`);
-              }
-              
-              // 添加允许的较早版本
-              for (let i = 1; i <= gap; i++) {
-                let patchVersion = currVer.patch - i;
-                let minorVersion = currVer.minor;
-                let majorVersion = currVer.major;
-                
-                // 处理版本号借位
-                if (patchVersion < 0) {
-                  patchVersion = 9;
-                  minorVersion--;
-                  
-                  if (minorVersion < 0) {
-                    minorVersion = 9;
-                    majorVersion--;
-                    
-                    if (majorVersion < 0) {
-                      break;
-                    }
+
+            function getPreviousCoreVersion(coreVer, gap) {
+              let patchVersion = coreVer.patch - gap;
+              let minorVersion = coreVer.minor;
+              let majorVersion = coreVer.major;
+
+              // 处理版本号借位
+              if (patchVersion < 0) {
+                patchVersion = 9;
+                minorVersion--;
+
+                if (minorVersion < 0) {
+                  minorVersion = 9;
+                  majorVersion--;
+
+                  if (majorVersion < 0) {
+                    return null;
                   }
                 }
-                
-                // 添加无后缀版本
-                allowedVersions.push(`${majorVersion}.${minorVersion}.${patchVersion}`);
-                // 添加带beta后缀版本
-                allowedVersions.push(`${majorVersion}.${minorVersion}.${patchVersion}-beta`);
               }
-              
+
+              return `${majorVersion}.${minorVersion}.${patchVersion}`;
+            }
+
+            // 获取允许的版本号列表函数（仅用于显示支持的版本格式）
+            function getAllowedVersions(currentVer, gap) {
+              const currVer = parseCoreVersion(currentVer);
+              const currentChannel = getReleaseChannel(currentVer);
+              const allowedVersions = [];
+              addVersionFormat(allowedVersions, currVer.full, currentChannel);
+
+              // 添加允许的较早版本
+              for (let i = 1; i <= gap; i++) {
+                const previousCoreVersion = getPreviousCoreVersion(currVer, i);
+                if (!previousCoreVersion) {
+                  break;
+                }
+
+                addVersionFormat(allowedVersions, previousCoreVersion, currentChannel);
+              }
+
               return allowedVersions;
             }
-            
-            // 检查版本是否在允许范围内（包括当前版本、较早版本和更新版本）
+
+            function getVersionFormatHint(currentVer) {
+              const examples = getAllowedVersions(currentVer, 0).map(v => `\`${v}\``);
+              return examples.length > 1 ? `${examples[0]} 或 ${examples[1]}` : examples[0];
+            }
+
+            // 检查版本是否在允许范围内（包括当前核心版本、较早核心版本和更新核心版本）
             function isVersionAllowed(reportedVer, currentVer, gap) {
-              const allowedVersions = getAllowedVersions(currentVer, gap);
-              
-              // 检查是否在允许的版本列表中
-              if (allowedVersions.includes(reportedVer)) {
+              const compareResult = compareVersions(reportedVer, currentVer);
+
+              if (compareResult >= 0) {
+                if (compareResult > 0) {
+                  console.log(`Version ${reportedVer} has a newer core version than current ${currentVer}, allowing it.`);
+                }
                 return true;
               }
-              
-              // 检查是否是更新的版本
-              if (isNewerVersion(reportedVer, currentVer)) {
-                console.log(`Version ${reportedVer} is newer than current ${currentVer}, allowing it.`);
-                return true;
+
+              const reportedCoreVersion = parseCoreVersion(reportedVer).full;
+              const currentCoreVersion = parseCoreVersion(currentVer);
+              for (let i = 1; i <= gap; i++) {
+                const allowedOlderCoreVersion = getPreviousCoreVersion(currentCoreVersion, i);
+                if (allowedOlderCoreVersion && reportedCoreVersion === allowedOlderCoreVersion) {
+                  console.log(`Version ${reportedVer} is within the allowed older core version gap.`);
+                  return true;
+                }
               }
-              
+
               return false;
             }
-            
+
             // 格式化允许版本号的列表（仅显示支持的版本，不包括未来版本）
             const allowedVersions = getAllowedVersions(currentVersion, VERSION_GAP);
             const formattedAllowedVersions = allowedVersions.map(v => `\`${v}\``).join(', ');
+            const versionFormatHint = getVersionFormatHint(currentVersion);
             console.log(`Displayed allowed versions: ${JSON.stringify(allowedVersions)}`);
-            
+
             // 获取所有 bot 之前的评论
             const comments = await github.rest.issues.listComments({
               owner: context.repo.owner,
               repo: context.repo.repo,
               issue_number: issue.number,
             });
-            
+
             // 查找本机器人之前的警告信息评论
             const botComments = comments.data.filter(comment => {
-              return comment.user.type === 'Bot' && 
-                    (comment.body.includes('温馨提示：版本信息格式问题') || 
-                     comment.body.includes('温馨提示：缺少版本信息') || 
+              return comment.user.type === 'Bot' &&
+                    (comment.body.includes('温馨提示：版本信息格式问题') ||
+                     comment.body.includes('温馨提示：缺少版本信息') ||
                      comment.body.includes('温馨提示：版本需要更新'));
             });
-            
+
             const issueBody = issue.body;
             if (!issueBody) {
               console.log('Issue body is empty. Closing issue due to invalid format.');
@@ -191,9 +204,9 @@ jobs:
                 owner: context.repo.owner,
                 repo: context.repo.repo,
                 issue_number: issue.number,
-                body: `## 温馨提示：缺少版本信息 / Friendly Notice: Missing Version Information\n\n感谢您向我们提交问题报告！不过我们注意到您的报告中似乎缺少 GTO 包版本信息。这些信息对我们解决问题非常重要。\n\n**推荐使用的版本:** ${formattedAllowedVersions}\n\n为了更好地为您服务，我们建议您使用官方模板，并填写完整的版本信息。当您更新报告后，系统将自动重新打开此问题，我们的团队将尽快处理您的反馈。\n\n感谢您的理解与支持！\n\n---\n\nThank you for submitting your report! However, we noticed that the GTO pack version information appears to be missing from your report. This information is crucial for us to effectively address your concerns.\n\n**Recommended versions:** ${formattedAllowedVersions}\n\nTo better assist you, we suggest using the official template and providing complete version information. Once you update your report, the system will automatically reopen this issue, and our team will address your feedback as soon as possible.\n\nWe appreciate your understanding and support!`
+                body: `## 温馨提示：缺少版本信息 / Friendly Notice: Missing Version Information\n\n感谢您向我们提交问题报告！不过我们注意到您的报告中似乎缺少 GTO 包版本信息。这些信息对我们解决问题非常重要。\n\n**推荐使用的版本格式:** ${formattedAllowedVersions}\n\n为了更好地为您服务，我们建议您使用官方模板，并填写完整的游戏内版本信息。当您更新报告后，系统将自动重新打开此问题，我们的团队将尽快处理您的反馈。\n\n感谢您的理解与支持！\n\n---\n\nThank you for submitting your report! However, we noticed that the GTO pack version information appears to be missing from your report. This information is crucial for us to effectively address your concerns.\n\n**Recommended version format:** ${formattedAllowedVersions}\n\nTo better assist you, we suggest using the official template and providing the complete in-game version information. Once you update your report, the system will automatically reopen this issue, and our team will address your feedback as soon as possible.\n\nWe appreciate your understanding and support!`
               });
-              
+
               await github.rest.issues.update({
                 owner: context.repo.owner,
                 repo: context.repo.repo,
@@ -201,30 +214,47 @@ jobs:
                 state: 'closed',
                 state_reason: 'not_planned'
               });
-              
+
               await github.rest.issues.addLabels({
                 owner: context.repo.owner,
                 repo: context.repo.repo,
                 issue_number: issue.number,
                 labels: ['格式无效 invalid format']
               });
-              
+
               return;
             }
-            
+
             // 从 issue 正文中提取版本字段
-            const versionRegex = /GTO Pack Version \/ GTO ?包版本[\s\S]*?([0-9]+\.[0-9]+\.[0-9]+(?:-[a-zA-Z0-9]+)?)/;
-            const match = issueBody.match(versionRegex);
-            
-            if (!match) {
-              console.log('Could not extract version from issue body. Closing issue.');
+            const versionSectionRegex = /###\s*GTO Pack Version\s*\/\s*GTO ?包版本\s*\r?\n+([\s\S]*?)(?=\r?\n###\s|$)/i;
+            const versionSectionMatch = issueBody.match(versionSectionRegex);
+            let versionFieldValue = null;
+            let reportedVersion = null;
+
+            if (versionSectionMatch) {
+              versionFieldValue = versionSectionMatch[1]
+                .split(/\r?\n/)
+                .map(line => line.trim())
+                .find(line => line && line !== '_No response_');
+
+              if (versionFieldValue) {
+                versionFieldValue = versionFieldValue.replace(/^`([^`]+)`$/, '$1').trim();
+                if (REQUIRED_VERSION_REGEX.test(versionFieldValue)) {
+                  reportedVersion = versionFieldValue;
+                }
+              }
+            }
+
+            if (!reportedVersion) {
+              const invalidFormatReason = `请填写游戏窗口左上角标题栏中，GregTech Odyssey 后面显示的完整版本号。`;
+              console.log(`Could not extract version from issue body. ${invalidFormatReason}`);
               await github.rest.issues.createComment({
                 owner: context.repo.owner,
                 repo: context.repo.repo,
                 issue_number: issue.number,
-                body: `## 温馨提示：版本信息格式问题 / Friendly Notice: Version Format Issue\n\n感谢您向我们提交问题报告！我们非常重视您的反馈，但系统未能从您的描述中识别出有效的 GTO 包版本信息。\n\n**推荐使用的版本:** ${formattedAllowedVersions}\n\n为了让我们能更好地解决您遇到的问题，烦请您使用最新版本的官方模板，并确保版本号格式正确（如：\`${currentVersion}\`）。当您更新报告后，系统将自动重新打开此问题。\n\n感谢您的配合与耐心！\n\n---\n\nThank you for your bug report! We highly value your feedback, but our system couldn't identify a valid GTO pack version from your description.\n\n**Recommended versions:** ${formattedAllowedVersions}\n\nTo help us better address your issue, please use the official template from the latest version and ensure the version number is in the correct format (e.g., \`${currentVersion}\`). Once you update your report, the system will automatically reopen this issue.\n\nThank you for your cooperation and patience!`
+                body: `## 温馨提示：版本信息格式问题 / Friendly Notice: Version Format Issue\n\n感谢您向我们提交问题报告！我们非常重视您的反馈，但系统未能从您的描述中识别出有效的 GTO 包版本信息。\n\n${invalidFormatReason}\n\n**推荐使用的版本格式:** ${formattedAllowedVersions}\n\n为了让我们能更好地解决您遇到的问题，烦请您使用最新版本的官方模板，并确保版本号格式正确。当您更新报告后，系统将自动重新打开此问题。\n\n感谢您的配合与耐心！\n\n---\n\nThank you for your bug report! We highly value your feedback, but our system couldn't identify a valid GTO pack version from your description.\n\nPlease provide the full version shown after GregTech Odyssey in the game window title bar.\n\n**Recommended version format:** ${formattedAllowedVersions}\n\nTo help us better address your issue, please use the official template from the latest version and ensure the version number is in the correct format. Once you update your report, the system will automatically reopen this issue.\n\nThank you for your cooperation and patience!`
               });
-              
+
               await github.rest.issues.update({
                 owner: context.repo.owner,
                 repo: context.repo.repo,
@@ -232,28 +262,27 @@ jobs:
                 state: 'closed',
                 state_reason: 'not_planned'
               });
-              
+
               await github.rest.issues.addLabels({
                 owner: context.repo.owner,
                 repo: context.repo.repo,
                 issue_number: issue.number,
                 labels: ['格式无效 invalid format']
               });
-              
+
               return;
             }
-            
-            const reportedVersion = match[1];
+
             console.log(`Reported version: ${reportedVersion}`);
-            
+
             // 检查版本是否在允许的范围内（包括更新版本）
             if (isVersionAllowed(reportedVersion, currentVersion, VERSION_GAP)) {
               console.log('Version is within allowed range. No action needed.');
-              
+
               // 如果 issue 被标记为过时版本或无效格式，但现在版本正确，移除这些标签并重新打开 issue
               const hasOutdatedLabel = issue.labels.some(label => label.name === '版本过时 outdated version');
               const hasInvalidFormatLabel = issue.labels.some(label => label.name === '格式无效 invalid format');
-              
+
               if (hasOutdatedLabel) {
                 await github.rest.issues.removeLabel({
                   owner: context.repo.owner,
@@ -262,7 +291,7 @@ jobs:
                   name: '版本过时 outdated version'
                 }).catch(e => console.log('Error removing 版本过时 outdated version label:', e.message));
               }
-              
+
               if (hasInvalidFormatLabel) {
                 await github.rest.issues.removeLabel({
                   owner: context.repo.owner,
@@ -271,7 +300,7 @@ jobs:
                   name: '格式无效 invalid format'
                 }).catch(e => console.log('Error removing 格式无效 invalid format label:', e.message));
               }
-              
+
               // 如果 issue 已关闭且有这些标签之一，重新打开
               if (issue.state === 'closed' && (hasOutdatedLabel || hasInvalidFormatLabel)) {
                 await github.rest.issues.update({
@@ -280,12 +309,12 @@ jobs:
                   issue_number: issue.number,
                   state: 'open'
                 });
-                
+
                 // 为更新版本添加特殊提示
                 const isNewer = isNewerVersion(reportedVersion, currentVersion);
-                const versionNote = isNewer ? 
+                const versionNote = isNewer ?
                   `\n\n**注意:** 您使用的版本 (\`${reportedVersion}\`) 比当前仓库版本更新，我们已接受此报告。\n\n**Note:** You're using a version (\`${reportedVersion}\`) that's newer than the current repository version, and we've accepted this report.` : '';
-                
+
                 await github.rest.issues.createComment({
                   owner: context.repo.owner,
                   repo: context.repo.repo,
@@ -293,7 +322,7 @@ jobs:
                   body: `## 版本验证通过，问题已重新打开 / Version Verified, Issue Reopened\n\n非常感谢您更新了问题报告！您现在使用的版本 (\`${reportedVersion}\`) 是受支持的版本，我们已自动重新打开这个问题。我们的团队将尽快查看并处理您的反馈。${versionNote}\n\n感谢您对 GTO 项目的支持与贡献！\n\n---\n\nThank you for updating your report! The version you're using now (\`${reportedVersion}\`) is supported, and we've automatically reopened this issue. Our team will review and address your feedback as soon as possible.${versionNote}\n\nWe appreciate your support and contributions to the GTO project!`
                 });
               }
-              
+
               // 隐藏之前的机器人警告信息
               if (botComments.length > 0) {
                 for (const comment of botComments) {
@@ -303,10 +332,10 @@ jobs:
                     if (line.trim() === '') return '';
                     return `~~${line}~~`;
                   }).join('\n');
-                  
+
                   // 更新评论 - 移除了之前的"已解决"文本行
                   const updatedBody = `<details>\n<summary><b>已解决的版本问题 (点击展开) / Resolved Version Issue (Click to expand)</b></summary>\n\n${processedLines}\n</details>`;
-                  
+
                   await github.rest.issues.updateComment({
                     owner: context.repo.owner,
                     repo: context.repo.repo,
@@ -315,19 +344,19 @@ jobs:
                   });
                 }
               }
-              
+
               return;
             } else {
               console.log('Version is outside allowed range. Closing issue.');
-              
+
               // 添加评论解释为什么关闭
               await github.rest.issues.createComment({
                 owner: context.repo.owner,
                 repo: context.repo.repo,
                 issue_number: issue.number,
-                body: `## 温馨提示：版本需要更新 / Friendly Notice: Version Update Needed\n\n感谢您的问题报告！我们注意到您正在使用的 GTO 包版本 (\`${reportedVersion}\`) 已不在当前支持的版本范围内。\n\n**当前支持的版本:** ${formattedAllowedVersions}\n\n**若此BUG也存在于最新版本:** 使用右上角的Edit功能修改版本为上述版本\n\n为了给您提供更好的支持，我们建议您先更新到最新版本，并确认问题是否仍然存在。如果更新后问题依然存在，请使用支持的版本号重新提交报告。当您更新报告后，系统将自动重新打开此问题。\n\n感谢您的理解与配合，您的反馈对我们非常宝贵！\n\n---\n\nThank you for your bug report! We noticed that the GTO pack version you're using (\`${reportedVersion}\`) is no longer within our currently supported version range.\n\n**Currently supported versions:** ${formattedAllowedVersions}\n\n**If this bug also exists in the latest version:** Use the Edit function in the upper right corner to modify the version to the above version\n\nTo provide you with the best support, we recommend updating to the latest version and checking if the issue persists. If the problem continues after updating, please resubmit your report using one of the supported versions. Once you update your report, the system will automatically reopen this issue.\n\nWe appreciate your understanding and cooperation. Your feedback is valuable to us!`
+                body: `## 温馨提示：版本需要更新 / Friendly Notice: Version Update Needed\n\n感谢您的问题报告！我们注意到您正在使用的 GTO 包版本 (\`${reportedVersion}\`) 已不在当前支持的版本范围内。\n\n**当前支持的版本格式:** ${formattedAllowedVersions}\n\n**若此 BUG 也存在于最新版本:** 使用右上角的 Edit 功能修改版本为完整游戏内版本。\n\n为了给您提供更好的支持，我们建议您先更新到最新版本，并确认问题是否仍然存在。如果更新后问题依然存在，请使用支持的版本号重新提交报告。当您更新报告后，系统将自动重新打开此问题。\n\n感谢您的理解与配合，您的反馈对我们非常宝贵！\n\n---\n\nThank you for your bug report! We noticed that the GTO pack version you're using (\`${reportedVersion}\`) is no longer within our currently supported version range.\n\n**Currently supported version format:** ${formattedAllowedVersions}\n\n**If this bug also exists in the latest version:** Use the Edit function in the upper right corner to change the version to the complete in-game version.\n\nTo provide you with the best support, we recommend updating to the latest version and checking if the issue persists. If the problem continues after updating, please resubmit your report using one of the supported versions. Once you update your report, the system will automatically reopen this issue.\n\nWe appreciate your understanding and cooperation. Your feedback is valuable to us!`
               });
-              
+
               // 关闭 issue 并标记为 "not planned"
               await github.rest.issues.update({
                 owner: context.repo.owner,
@@ -336,7 +365,7 @@ jobs:
                 state: 'closed',
                 state_reason: 'not_planned'
               });
-              
+
               // 添加过时版本标签
               await github.rest.issues.addLabels({
                 owner: context.repo.owner,
@@ -344,7 +373,7 @@ jobs:
                 issue_number: issue.number,
                 labels: ['版本过时 outdated version']
               });
-              
+
               // 移除无效格式标签（如果有的话）
               const hasInvalidFormatLabel = issue.labels.some(label => label.name === '格式无效 invalid format');
               if (hasInvalidFormatLabel) {

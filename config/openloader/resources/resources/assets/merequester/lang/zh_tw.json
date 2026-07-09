@@ -1,0 +1,33 @@
+{
+  "merequester.comment": "复制来源：https://github.com/AlmostReliable/merequester/blob/1.21.1/src/main/resources/assets/merequester/lang/zh_cn.json",
+  "itemGroup.merequester": "ME 請求器",
+
+  "item.merequester.requester_terminal": "ME 請求終端",
+  "block.merequester.requester": "ME 請求器",
+
+  "gui.merequester.requester_terminal": "ME 請求終端",
+  "gui.merequester.no_requesters": "冇有找到 ME 請求器",
+
+  "tooltip.merequester.requester_desc": "在需要時，通過請求合成，自動保持物品和液體的庫存。必須連接到ME網絡，並且可以從 ME 請求終端 進行訪問。斷開後將失去其配置。可以使用內存卡複製設置。",
+
+  "tooltip.merequester.shift_for_more": "按下 %s 獲取更多信息",
+  "tooltip.merequester.enter_to_submit": "按下 %s 來提交更改",
+
+  "tooltip.merequester.whole_number": "必須是整數！",
+  "tooltip.merequester.locked": "已鎖定！請求正在進行！",
+
+  "tooltip.merequester.toggle": "請求開關",
+  "tooltip.merequester.amount": "庫存容量",
+  "tooltip.merequester.batch": "並行大小",
+  "tooltip.merequester.submit": "提交更改",
+  "tooltip.merequester.status": "請求狀態",
+
+  "tooltip.merequester.idle": "空閒",
+  "tooltip.merequester.idle_desc": "當已經達到要求的數量或冇有該物品或液體的合成樣闆時，請求器處於空閒狀態。",
+  "tooltip.merequester.missing": "缺少材料",
+  "tooltip.merequester.missing_desc": "係統缺少製作所需物品或液體的原料。當原料可用時，該過程將繼續。",
+  "tooltip.merequester.link": "合成中",
+  "tooltip.merequester.link_desc": "係統當前正在合成所請求的物品或液體。",
+  "tooltip.merequester.export": "導出中",
+  "tooltip.merequester.export_desc": "請求器正試圖將合成結果導出到係統中。如果請求器長時間處於這種狀態，則網絡冇有可用於導出的空間。"
+}

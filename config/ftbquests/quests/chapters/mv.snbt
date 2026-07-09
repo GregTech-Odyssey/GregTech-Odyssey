@@ -52,6 +52,26 @@
 			x: -3.5d
 			y: 7.5d
 		}
+		{
+			color: 16711935
+			dependency: "056EC4E6FAF614B7"
+			height: 1.0d
+			image: "ftbquests:block/barrier_open"
+			order: 1
+			rotation: 45.0d
+			width: 1.0d
+			x: -6.5d
+			y: 7.5d
+		}
+		{
+			dependency: "056EC4E6FAF614B7"
+			height: 1.0d
+			image: "xtonesreworked:block/bitt/12"
+			rotation: 45.0d
+			width: 1.0d
+			x: -6.5d
+			y: 7.5d
+		}
 	]
 	order_index: 4
 	quest_links: [
@@ -760,21 +780,15 @@
 			description: [
 				"无限矿石"
 				""
-				"你可以用它来挖掘基岩矿脉，在实体矿脉中相对稀少的矿石在基岩矿脉中占比将大大增加（如金矿石）"
+				"你可以用它来挖掘基岩矿脉，在实体矿脉中相对稀少的矿石在基岩矿脉中占比将&6大大增加&r（如金矿石）"
 				""
 				"可以查看探矿仪的EMI来查询矿脉信息（基岩矿脉与实体矿脉共享）"
 			]
 			hide_dependency_lines: true
 			id: "60779EE5AA0761BD"
 			rewards: [{
-				id: "1B8E2D442B01B894"
-				item: {
-					Count: 1
-					id: "gtceu:prospector.hv"
-					tag: {
-						Charge: 1592320L
-					}
-				}
+				id: "06D80D3C3BA54653"
+				item: "gtocore:copper_coin"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -798,6 +812,11 @@
 			]
 			hide_dependency_lines: true
 			id: "171118E236848A2E"
+			rewards: [{
+				id: "15BC0126B246462F"
+				item: "gtocore:copper_coin"
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
@@ -904,7 +923,11 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["2422B7ED59D31DBB"]
+			dependencies: [
+				"2422B7ED59D31DBB"
+				"2F425A6C60A19728"
+			]
+			dependency_requirement: "one_completed"
 			description: [
 				"现阶段你可以临时起一台&6电力高炉&r"
 				""
@@ -1322,13 +1345,17 @@
 		}
 		{
 			dependencies: ["0D63E5A54480E693"]
-			description: ["将能提供温度/真空的小机器贴着接口放即可"]
+			description: [
+				"将能提供真空的小机器贴着接口放即可"
+				""
+				"&o&7你问如何给多方块机器提供热量？你前面一定已经用过了"
+			]
 			id: "3C7271A1D09BEE0F"
 			optional: true
 			subtitle: "也许你有抽真空的需求..."
 			tasks: [{
-				id: "3C706C00F26CF7C1"
-				item: "gtocore:temp_vacuum_interface"
+				id: "045F4920EB8B05C0"
+				item: "gtocore:vacuum_interface"
 				type: "item"
 			}]
 			x: -3.5d
@@ -1346,6 +1373,14 @@
 				"&6进阶集成电路&r是你这个阶段的最终目标"
 			]
 			id: "3D1E66868544975F"
+			rewards: [{
+				auto: "invisible"
+				command: "/playsound minecraft:ui.toast.challenge_complete master @s ~ ~ ~ 1"
+				elevate_perms: true
+				id: "2022DB25817746EA"
+				silent: true
+				type: "command"
+			}]
 			shape: "gear"
 			size: 2.0d
 			subtitle: "&b你需要天马行空般的想象力"
@@ -1718,12 +1753,78 @@
 				{
 					id: "1DFDEA2D9BB94043"
 					item: "gtceu:diorite_dust"
+					optional_task: true
 					type: "item"
 				}
 			]
 			title: "无中生有"
 			x: -10.0d
 			y: 7.5d
+		}
+		{
+			dependencies: [
+				"49E5CC5873FA226F"
+				"056EC4E6FAF614B7"
+			]
+			description: [
+				"[ \"其具体用途请前往\", { \"text\": \"HV阶段同名任务\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"19B006CEA837B6B4\" } }, \"查看\" ]"
+				""
+				"简单难度下，虚拟物品的解锁条件提前"
+				""
+				"请无视HV阶段的解锁条件"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			icon: "gtocore:virtual_item_supply_machine"
+			id: "37AA29B1A84241FA"
+			min_width: 250
+			optional: true
+			shape: "diamond"
+			size: 1.0d
+			tasks: [
+				{
+					id: "6359CBCDF29670D9"
+					item: "gtocore:virtual_item_supply_machine"
+					type: "item"
+				}
+				{
+					id: "12A259E3E3B7B2C1"
+					item: "gtocore:mv_programmablec_hatch"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "01DD207AAA4AD98E"
+					item: "gtmthings:programmable_cover"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "&e可编程仓室&r&a（简单）&r"
+			x: -6.5d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"5F2F920BA347AAEA"
+				"056EC4E6FAF614B7"
+			]
+			description: [
+				"简单模式陶瓷无需压制成型"
+				""
+				"&o&7史蒂夫的手可以解决一切"
+			]
+			hide_until_deps_visible: true
+			icon: "gtocore:isostatic_press"
+			id: "2F425A6C60A19728"
+			optional: true
+			tasks: [{
+				id: "14199E779BE81B61"
+				type: "checkmark"
+			}]
+			title: "大力出奇迹&a（简单）&r"
+			x: 0.0d
+			y: -5.5d
 		}
 	]
 	subtitle: ["Tier2-MV"]

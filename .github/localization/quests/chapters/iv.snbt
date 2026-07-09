@@ -778,10 +778,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: [
-				"509269850A10116F"
-				"78988A24B63C1D8A"
-			]
+			dependencies: ["509269850A10116F"]
 			id: "1E239C34C36FAD60"
 			tasks: [
 				{
@@ -1306,8 +1303,18 @@
 				"{gto.iv.quests.1CF7845875EEFA3B.description1}"
 				""
 				"{gto.iv.quests.1CF7845875EEFA3B.description2}"
+				""
+				"{gto.iv.quests.1CF7845875EEFA3B.description3}"
 			]
 			id: "1CF7845875EEFA3B"
+			rewards: [{
+				auto: "invisible"
+				command: "/playsound minecraft:ui.toast.challenge_complete master @s ~ ~ ~ 1"
+				elevate_perms: true
+				id: "6F8AEB8D38AE4A86"
+				silent: true
+				type: "command"
+			}]
 			shape: "gear"
 			size: 2.0d
 			subtitle: "{gto.iv.quests.1CF7845875EEFA3B.subtitle}"

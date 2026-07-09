@@ -101,7 +101,7 @@
 			size: 2.0d
 			subtitle: "{gto.zpm.quests.5B5C82819DC2D27A.subtitle}"
 			tasks: [{
-				count: 16L
+				count: 32L
 				id: "5B9E76FBAF95732F"
 				item: "gtceu:stem_cells"
 				type: "item"
@@ -177,20 +177,6 @@
 			]
 			description: ["{gto.zpm.quests.502F7DD0C930D5BF.description0}"]
 			id: "502F7DD0C930D5BF"
-			rewards: [{
-				id: "39FD30D214813A1C"
-				item: {
-					Count: 1
-					id: "minecraft:enchanted_book"
-					tag: {
-						StoredEnchantments: [{
-							id: "apotheosis:capturing"
-							lvl: 3s
-						}]
-					}
-				}
-				type: "item"
-			}]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
@@ -1087,6 +1073,14 @@
 				"{gto.zpm.quests.3490AACD4AA62C5D.description3}"
 			]
 			id: "3490AACD4AA62C5D"
+			rewards: [{
+				auto: "invisible"
+				command: "/playsound minecraft:ui.toast.challenge_complete master @s ~ ~ ~ 1"
+				elevate_perms: true
+				id: "4E00CDA022134B31"
+				silent: true
+				type: "command"
+			}]
 			shape: "gear"
 			size: 2.0d
 			subtitle: "{gto.zpm.quests.3490AACD4AA62C5D.subtitle}"

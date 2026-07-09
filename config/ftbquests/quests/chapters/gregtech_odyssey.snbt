@@ -95,7 +95,7 @@
 		}
 		{
 			description: [
-				"与前作不同，本作的所有生物根据难度对怪物进行了血量和攻击力强化"
+				"GTO的所有生物根据难度对怪物进行了血量和攻击力强化"
 				""
 				"同时还给中立生物添加了仇恨机制，如果你在动物旁边进食同类的肉，会引来动物攻击你"
 				""
@@ -135,6 +135,8 @@
 				"    根据难度赠送的额外奖励"
 				""
 				"此外，还有部分任务为可选任务，你可以根据自己的需求完成"
+				""
+				"你应该还会注意到有些任务还有额外的装饰框，通常他们代表了一些特殊的含义，不要错过这些任务"
 			]
 			icon: "ftbquests:book"
 			id: "131CFAF95CFC993E"
@@ -161,6 +163,7 @@
 			id: "5C4137F64F9ADA50"
 			invisible: true
 			min_width: 350
+			optional: true
 			rewards: [{
 				id: "3CDBF3DDD07DC90A"
 				item: "botania:mana_cookie"
@@ -227,6 +230,7 @@
 					command: "/function firework:stonelaunch"
 					elevate_perms: true
 					id: "7599F8899D9783E6"
+					silent: true
 					type: "command"
 				}
 				{
@@ -331,6 +335,7 @@
 			]
 			hide_until_deps_visible: true
 			id: "6BDF1F517DCEBBD8"
+			optional: true
 			rewards: [
 				{
 					id: "611B1F97B9AD2BB2"
@@ -362,6 +367,7 @@
 			description: ["既然做好准备了，欢迎你，挑战者！"]
 			id: "2BBA151F63BB1F2B"
 			invisible: true
+			optional: true
 			subtitle: "主线任务已解锁"
 			tasks: [{
 				id: "5407BF710CCAB4D3"
@@ -371,7 +377,7 @@
 					tag: {
 						RepairCost: 0
 						display: {
-							Name: "{\"text\":\"AEMVEVME\"}"
+							Name: "{\"text\":\"AEMVEV\"}"
 						}
 					}
 				}

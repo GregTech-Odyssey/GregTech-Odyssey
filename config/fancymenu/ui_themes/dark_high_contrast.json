@@ -1,0 +1,374 @@
+{
+  "identifier": "dark_high_contrast",
+  "display_name": "fancymenu.ui.themes.dark_high_contrast",
+  "allow_blur": false,
+  "allow_animations": false,
+  "interface_corner_rounding_radius": 0.0,
+  "widget_corner_rounding_radius": 0.0,
+  "ui_blur_icon_button_hover_color": {
+    "hex": "#FFFFFF0D"
+  },
+  "ui_blur_icon_texture_color": {
+    "hex": "#FFFFFFFF"
+  },
+  "ui_blur_overlay_background_tint": {
+    "hex": "#000000DC"
+  },
+  "ui_blur_overlay_border_color": {
+    "hex": "#FFFFFFDC"
+  },
+  "ui_blur_interface_background_tint": {
+    "hex": "#000000DC"
+  },
+  "ui_blur_interface_border_color": {
+    "hex": "#FFFFFFDC"
+  },
+  "ui_blur_interface_title_bar_tint": {
+    "hex": "#0C0C0CDC"
+  },
+  "ui_blur_interface_area_background_color_type_1": {
+    "hex": "#080808DC"
+  },
+  "ui_blur_interface_area_background_color_type_2": {
+    "hex": "#000000DC"
+  },
+  "ui_blur_interface_area_border_color": {
+    "hex": "#FFFFFFDC"
+  },
+  "ui_blur_interface_area_entry_selected_color": {
+    "hex": "#FFAA0078"
+  },
+  "ui_blur_interface_widget_background_color_normal_type_1": {
+    "hex": "#080808DC"
+  },
+  "ui_blur_interface_widget_background_color_normal_type_2": {
+    "hex": "#FFAA00C8"
+  },
+  "ui_blur_interface_widget_background_color_hover_type_1": {
+    "hex": "#1E1E1EDC"
+  },
+  "ui_blur_interface_widget_background_color_hover_type_2": {
+    "hex": "#FFD200DC"
+  },
+  "ui_blur_interface_widget_border_color": {
+    "hex": "#FFFFFFDC"
+  },
+  "ui_blur_interface_widget_label_color_normal": {
+    "hex": "#FFFFFFFF"
+  },
+  "ui_blur_interface_widget_label_color_inactive": {
+    "hex": "#BEBEBEFF"
+  },
+  "ui_blur_interface_input_field_background_color": {
+    "hex": "#000000DC"
+  },
+  "ui_blur_interface_input_field_border_color_normal": {
+    "hex": "#FFFFFFDC"
+  },
+  "ui_blur_interface_input_field_border_color_focused": {
+    "hex": "#FFAA00DC"
+  },
+  "ui_blur_interface_input_field_text_color_normal": {
+    "hex": "#FFFFFFFF"
+  },
+  "ui_blur_interface_input_field_text_color_uneditable": {
+    "hex": "#BEBEBEFF"
+  },
+  "ui_blur_interface_input_field_suggestion_text_color": {
+    "hex": "#C8C8C8FF"
+  },
+  "ui_blur_interface_generic_text_color": {
+    "hex": "#FFFFFFFF"
+  },
+  "ui_blur_tooltip_background_tint": {
+    "hex": "#000000E6"
+  },
+  "ui_icon_button_hover_color": {
+    "hex": "#FFFFFF0D"
+  },
+  "ui_icon_texture_color": {
+    "hex": "#FFFFFFFF"
+  },
+  "ui_overlay_background_color": {
+    "hex": "#000000FF"
+  },
+  "ui_overlay_border_color": {
+    "hex": "#FFFFFFFF"
+  },
+  "ui_interface_background_color": {
+    "hex": "#000000FF"
+  },
+  "ui_interface_border_color": {
+    "hex": "#FFFFFFFF"
+  },
+  "ui_interface_title_bar_color": {
+    "hex": "#0C0C0CFF"
+  },
+  "ui_interface_area_background_color_type_1": {
+    "hex": "#080808FF"
+  },
+  "ui_interface_area_background_color_type_2": {
+    "hex": "#000000FF"
+  },
+  "ui_interface_area_border_color": {
+    "hex": "#FFFFFFFF"
+  },
+  "ui_interface_area_entry_selected_color": {
+    "hex": "#FFAA00FF"
+  },
+  "ui_interface_widget_background_color_normal_type_1": {
+    "hex": "#080808FF"
+  },
+  "ui_interface_widget_background_color_normal_type_2": {
+    "hex": "#FFAA00FF"
+  },
+  "ui_interface_widget_background_color_hover_type_1": {
+    "hex": "#1E1E1EFF"
+  },
+  "ui_interface_widget_border_color": {
+    "hex": "#FFFFFFFF"
+  },
+  "ui_interface_widget_label_color_normal": {
+    "hex": "#FFFFFFFF"
+  },
+  "ui_interface_widget_label_color_inactive": {
+    "hex": "#BEBEBEFF"
+  },
+  "ui_interface_input_field_background_color": {
+    "hex": "#000000FF"
+  },
+  "ui_interface_input_field_border_color_normal": {
+    "hex": "#FFFFFFFF"
+  },
+  "ui_interface_input_field_border_color_focused": {
+    "hex": "#FFAA00FF"
+  },
+  "ui_interface_input_field_text_color_normal": {
+    "hex": "#FFFFFFFF"
+  },
+  "ui_interface_input_field_text_color_uneditable": {
+    "hex": "#BEBEBEFF"
+  },
+  "ui_interface_input_field_suggestion_text_color": {
+    "hex": "#C8C8C8FF"
+  },
+  "ui_interface_generic_text_color": {
+    "hex": "#FFFFFFFF"
+  },
+  "ui_tooltip_background_color": {
+    "hex": "#000000FF"
+  },
+  "info_color": {
+    "hex": "#0381FFFF"
+  },
+  "success_color": {
+    "hex": "#00FF80FF"
+  },
+  "error_color": {
+    "hex": "#FF4040FF"
+  },
+  "warning_color": {
+    "hex": "#FFD000FF"
+  },
+  "layout_editor_mouse_selection_rectangle_color": {
+    "hex": "#FFAA00FF"
+  },
+  "layout_editor_grid_color_normal": {
+    "hex": "#FFFFFF8C"
+  },
+  "layout_editor_grid_color_center": {
+    "hex": "#FFAA00B4"
+  },
+  "layout_editor_element_border_color_normal": {
+    "hex": "#FFFFFFFF"
+  },
+  "layout_editor_element_border_color_selected": {
+    "hex": "#FFAA00FF"
+  },
+  "layout_editor_element_border_rotation_controls_color": {
+    "hex": "#00C8FFFF"
+  },
+  "layout_editor_element_border_vertical_tilting_controls_color": {
+    "hex": "#FFD000FF"
+  },
+  "layout_editor_element_border_horizontal_tilting_controls_color": {
+    "hex": "#00FF80FF"
+  },
+  "layout_editor_element_dragging_not_allowed_color": {
+    "hex": "#FF4040DC"
+  },
+  "layout_editor_element_border_display_line_background_color": {
+    "hex": "#000000B4"
+  },
+  "layout_editor_element_border_display_line_text_color": {
+    "hex": "#FFFFFFFF"
+  },
+  "layout_editor_anchor_point_overlay_color_base": {
+    "hex": "#00FFB4FF"
+  },
+  "layout_editor_anchor_point_overlay_color_border": {
+    "hex": "#00966EFF"
+  },
+  "menu_bar_close_icon_color": {
+    "hex": "#FF4040FF"
+  },
+  "pip_docking_overlay_color": {
+    "hex": "#FFAA0078"
+  },
+  "pip_docking_overlay_border_color": {
+    "hex": "#FFAA00DC"
+  },
+  "pip_input_blocked_overlay_color": {
+    "hex": "#FFFFFF3C"
+  },
+  "scroll_grabber_color_normal": {
+    "hex": "#FFFFFF8C"
+  },
+  "scroll_grabber_color_hover": {
+    "hex": "#FFAA00C8"
+  },
+  "actions_entry_background_color_action": {
+    "hex": "#0F0F0FFF"
+  },
+  "actions_entry_background_color_action_hover": {
+    "hex": "#1E1E1EFF"
+  },
+  "actions_entry_background_color_if": {
+    "hex": "#001E3CFF"
+  },
+  "actions_entry_background_color_if_hover": {
+    "hex": "#002D5AFF"
+  },
+  "actions_entry_background_color_else_if": {
+    "hex": "#23003CFF"
+  },
+  "actions_entry_background_color_else_if_hover": {
+    "hex": "#37005AFF"
+  },
+  "actions_entry_background_color_else": {
+    "hex": "#3C2300FF"
+  },
+  "actions_entry_background_color_else_hover": {
+    "hex": "#5A3700FF"
+  },
+  "actions_entry_background_color_while": {
+    "hex": "#002D28FF"
+  },
+  "actions_entry_background_color_while_hover": {
+    "hex": "#00413AFF"
+  },
+  "actions_entry_background_color_delay": {
+    "hex": "#3C3200FF"
+  },
+  "actions_entry_background_color_delay_hover": {
+    "hex": "#554600FF"
+  },
+  "actions_entry_background_color_execute_later": {
+    "hex": "#001E46FF"
+  },
+  "actions_entry_background_color_execute_later_hover": {
+    "hex": "#002D64FF"
+  },
+  "actions_entry_background_color_folder": {
+    "hex": "#3C001EFF"
+  },
+  "actions_entry_background_color_folder_hover": {
+    "hex": "#55002DFF"
+  },
+  "actions_entry_background_color_generic_block": {
+    "hex": "#141414FF"
+  },
+  "actions_entry_background_color_generic_block_hover": {
+    "hex": "#232323FF"
+  },
+  "actions_chain_indicator_color": {
+    "hex": "#FFFFFFB4"
+  },
+  "actions_chain_indicator_hovered_color": {
+    "hex": "#FFAA00DC"
+  },
+  "actions_chain_indicator_selected_color": {
+    "hex": "#FFD000F0"
+  },
+  "actions_minimap_background_color": {
+    "hex": "#000000DC"
+  },
+  "actions_minimap_border_color": {
+    "hex": "#FFFFFFDC"
+  },
+  "actions_minimap_viewport_color": {
+    "hex": "#FFFFFF28"
+  },
+  "actions_minimap_viewport_border_color": {
+    "hex": "#FFAA008C"
+  },
+  "actions_minimap_tooltip_border_color": {
+    "hex": "#FFAA00DC"
+  },
+  "bullet_list_dot_color_1": {
+    "hex": "#FFAA00FF"
+  },
+  "bullet_list_dot_color_2": {
+    "hex": "#00C8FFFF"
+  },
+  "bullet_list_dot_color_3": {
+    "hex": "#00FF80FF"
+  },
+  "input_field_suggestions_background_color": {
+    "hex": "#000000FF"
+  },
+  "input_field_suggestions_text_color_normal": {
+    "hex": "#FFFFFFFF"
+  },
+  "input_field_suggestions_text_color_selected": {
+    "hex": "#FFAA00FF"
+  },
+  "text_editor_line_number_text_color_normal": {
+    "hex": "#C8C8C8FF"
+  },
+  "text_editor_line_number_text_color_selected": {
+    "hex": "#FFFFFFFF"
+  },
+  "text_editor_text_color": {
+    "hex": "#FFFFFFFF"
+  },
+  "text_editor_text_formatting_nested_text_color_1": {
+    "hex": "#FF4040FF"
+  },
+  "text_editor_text_formatting_nested_text_color_2": {
+    "hex": "#FFD000FF"
+  },
+  "text_editor_text_formatting_nested_text_color_3": {
+    "hex": "#00FF80FF"
+  },
+  "text_editor_text_formatting_nested_text_color_4": {
+    "hex": "#00C8FFFF"
+  },
+  "text_editor_text_formatting_nested_text_color_5": {
+    "hex": "#78B4FFFF"
+  },
+  "text_editor_text_formatting_nested_text_color_6": {
+    "hex": "#C878FFFF"
+  },
+  "text_editor_text_formatting_nested_text_color_7": {
+    "hex": "#FF78C8FF"
+  },
+  "text_editor_text_formatting_nested_text_color_8": {
+    "hex": "#FF6464FF"
+  },
+  "text_editor_text_formatting_nested_text_color_9": {
+    "hex": "#FFAA00FF"
+  },
+  "text_editor_text_formatting_nested_text_color_10": {
+    "hex": "#FFE650FF"
+  },
+  "text_editor_text_formatting_nested_text_color_11": {
+    "hex": "#00FFA0FF"
+  },
+  "text_editor_text_formatting_nested_text_color_12": {
+    "hex": "#00DCC8FF"
+  },
+  "text_editor_text_formatting_brackets_color": {
+    "hex": "#FFD000FF"
+  }
+}

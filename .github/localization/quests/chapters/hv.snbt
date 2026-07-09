@@ -485,8 +485,11 @@
 				"{gto.hv.quests.27BE49A3FEA64B59.description2}"
 				""
 				"[\"\", {\"translate\": \"gto.hv.quests.27BE49A3FEA64B59.description3.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"22A3C58D1FDF2221\"}, \"translate\": \"gto.hv.quests.27BE49A3FEA64B59.description3.rich_text1\"}, {\"translate\": \"gto.hv.quests.27BE49A3FEA64B59.description3.rich_text2\"}]"
+				""
+				"{gto.hv.quests.27BE49A3FEA64B59.description4}"
 			]
 			hide_dependency_lines: true
+			icon: "gtocore:drone_control_center"
 			id: "27BE49A3FEA64B59"
 			shape: "hexagon"
 			size: 1.5d
@@ -538,7 +541,6 @@
 		{
 			dependencies: [
 				"23A3A8F6E6738331"
-				"2C986BC7ECC4E1ED"
 				"7F98C4099F848BCA"
 			]
 			description: [
@@ -1185,8 +1187,12 @@
 				"{gto.hv.quests.19B006CEA837B6B4.description5}"
 				"{gto.hv.quests.19B006CEA837B6B4.description6}"
 				"{gto.hv.quests.19B006CEA837B6B4.description7}"
+				""
+				"{gto.hv.quests.19B006CEA837B6B4.description8}"
+				"{gto.hv.quests.19B006CEA837B6B4.description9}"
+				"{gto.hv.quests.19B006CEA837B6B4.description10}"
 			]
-			icon: "gtocore:hv_programmablec_hatch"
+			icon: "gtocore:virtual_item_supply_machine"
 			id: "19B006CEA837B6B4"
 			min_width: 250
 			shape: "diamond"
@@ -1201,6 +1207,7 @@
 				{
 					id: "326EF714045254DB"
 					item: "gtocore:mv_programmablec_hatch"
+					optional_task: true
 					type: "item"
 				}
 			]
@@ -1251,6 +1258,8 @@
 				"{gto.hv.quests.53A8A0B00211A141.description0}"
 				""
 				"{gto.hv.quests.53A8A0B00211A141.description1}"
+				""
+				"{gto.hv.quests.53A8A0B00211A141.description2}"
 			]
 			id: "53A8A0B00211A141"
 			tasks: [{
@@ -1718,7 +1727,6 @@
 				"{gto.hv.quests.0362FE44C232A1CE.description1}"
 			]
 			id: "0362FE44C232A1CE"
-			optional: true
 			shape: "diamond"
 			tasks: [{
 				id: "2ACF74C420F25666"
@@ -1774,6 +1782,14 @@
 				"{gto.hv.quests.5D828A5258BFF11F.description2}"
 			]
 			id: "5D828A5258BFF11F"
+			rewards: [{
+				auto: "invisible"
+				command: "/playsound minecraft:ui.toast.challenge_complete master @s ~ ~ ~ 1"
+				elevate_perms: true
+				id: "1659F1F8575A4468"
+				silent: true
+				type: "command"
+			}]
 			shape: "gear"
 			size: 2.0d
 			subtitle: "{gto.hv.quests.5D828A5258BFF11F.subtitle}"
@@ -2008,17 +2024,19 @@
 			]
 			description: ["{gto.hv.quests.185F8183775BD727.description0}"]
 			hide_until_deps_visible: true
+			icon: "gtceu:hv_electric_motor"
 			id: "185F8183775BD727"
 			optional: true
+			rewards: [{
+				count: 32
+				id: "46DF9CB4B7D02F77"
+				item: "gtceu:hv_electric_motor"
+				type: "item"
+			}]
 			shape: "octagon"
 			tasks: [{
-				count: 32L
-				id: "3D43B3BB905110DD"
-				item: {
-					Count: 32
-					id: "gtceu:hv_electric_motor"
-				}
-				type: "item"
+				id: "47682E6549AFCC7B"
+				type: "checkmark"
 			}]
 			title: "{gto.hv.quests.185F8183775BD727.title}"
 			x: -8.0d

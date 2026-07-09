@@ -21,6 +21,8 @@ in accordance with their original licenses.
 | Mystical Agriculture   | MIT                                  | Textures       |
 | Draconic Evolution     | "Don't Be a Jerk" License            | Code, Textures |
 | GT New Horizons        | CC BY-NC-SA 4.0                      | Code, Textures |
+| Astral Sorcery         | ARR                                  | Textures       |
+| GT-Not-Leisure         | LGPLv3                               | Code           |
 
 ---
 
@@ -33,7 +35,7 @@ in accordance with their original licenses.
     - Code & Textures
 
 - **Usage Description**:
-    - Selected items (e.g. alloys, fluids, crystals, travel staff) were extracted and integrated into GTOCore
+    - Selected items (e.g. alloys, fluids, crystals, travel staff) are extracted and integrated into GTOCore
 
 ## Re:Avaritia
 
@@ -46,7 +48,7 @@ in accordance with their original licenses.
     - Code & Textures
 
 - **Usage Description**:
-    - Selected items (e.g. ingots, singularities) were extracted and integrated into GTOCore
+    - Selected items (e.g. ingots, singularities) are extracted and integrated into GTOCore
 
 ## Darkpuppey's Modded Overhauls!
 
@@ -57,11 +59,11 @@ in accordance with their original licenses.
     - Textures
 
 - **Usage Description**:
-    - Selected textures (including variants designed for Draconic Evolution) were extracted and integrated into GTOCore
+    - Selected textures (including variants designed for Draconic Evolution) are extracted and integrated into GTOCore
 
 - **Permission**:
     - Explicit permission obtained from the author
-    - Proof: [licenses/darkpuppey.png](licenses/darkpuppey.png)
+    - Proof: [licenses/darkpuppey.png](docs/darkpuppey.png)
 
 ## Mystical Agriculture
 
@@ -72,7 +74,7 @@ in accordance with their original licenses.
     - Textures
 
 - **Usage Description**:
-    - Selected textures (including fertilized essence) were extracted and integrated into GTOCore
+    - Selected textures (including fertilized essence) are extracted and integrated into GTOCore
 
 ## Draconic-Evolution
 
@@ -83,7 +85,7 @@ in accordance with their original licenses.
     - Code & Textures
 
 - **Usage Description**:
-    - Selected items (e.g. blocks, cores) were extracted and integrated into GTOCore
+    - Selected items (e.g. blocks, cores) are extracted and integrated into GTOCore
 
 ## GT New Horizons
 
@@ -94,4 +96,30 @@ in accordance with their original licenses.
     - Code & Textures
 
 - **Usage Description**:
-    - Selected items and textures were extracted and integrated into GTOCore
+    - Selected items and textures are extracted and integrated into GTOCore
+
+## Astral Sorcery
+
+- **Source**: [HellFirePvP/AstralSorcery](https://github.com/HellFirePvP/AstralSorcery)
+- **License**: All Rights Reserved (used with permission)
+
+- **Used Content**:
+  - Textures
+
+- **Usage Description**:
+  - Selected items and textures (including resonating gem and liquid starlight) are extracted and integrated into GTOCore
+
+- **Permission**:
+  - Explicit permission obtained from the author
+  - Proof: [licenses/AstralSorcery.md](docs/AstralSorcery.md)
+
+## GT-Not-Leisure
+
+- **Source**: [ABKQPO/GT-Not-Leisure](https://github.com/ABKQPO/GT-Not-Leisure)
+- **License**: LGPLv3
+
+- **Used Content**:
+  - Animation Code
+
+- **Usage Description**:
+  - Selected animations are integrated and recreated into GTOCore

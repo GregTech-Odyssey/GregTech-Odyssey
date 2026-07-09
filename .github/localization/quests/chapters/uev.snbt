@@ -392,6 +392,14 @@
 			dependencies: ["4DC386826E075D1E"]
 			description: ["{gto.uev.quests.154F80E28FA53D99.description0}"]
 			id: "154F80E28FA53D99"
+			rewards: [{
+				auto: "invisible"
+				command: "/playsound minecraft:ui.toast.challenge_complete master @s ~ ~ ~ 1"
+				elevate_perms: true
+				id: "3955E1979155448B"
+				silent: true
+				type: "command"
+			}]
 			shape: "gear"
 			size: 2.0d
 			subtitle: "{gto.uev.quests.154F80E28FA53D99.subtitle}"
@@ -491,9 +499,17 @@
 			id: "0E1A670099E3C3F2"
 			optional: true
 			rewards: [{
-				count: 64
-				id: "67FFD600E9A7919B"
-				item: "minecraft:chain_command_block"
+				id: "76038097AC2AC3D9"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:i"
+							id: "minecraft:chain_command_block"
+						}
+					}
+				}
 				type: "item"
 			}]
 			tasks: [{
@@ -588,49 +604,6 @@
 			title: "{gto.uev.quests.2EDCB01B9811A79D.title}"
 			x: -8.0d
 			y: -0.5d
-		}
-		{
-			dependencies: ["3448FEC025A0CA9C"]
-			description: [
-				"{gto.uev.quests.016825EEC25C1CEF.description0}"
-				""
-				"{gto.uev.quests.016825EEC25C1CEF.description1}"
-			]
-			hide_until_deps_complete: true
-			id: "016825EEC25C1CEF"
-			optional: true
-			rewards: [
-				{
-					id: "258A07134C01C874"
-					item: {
-						Count: 1
-						id: "apotheosis:potion_charm"
-						tag: {
-							Damage: 0
-							Potion: "apotheosis:fatigue"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "733410F4BB5DD9F1"
-					item: "minecraft:powered_rail"
-					type: "item"
-				}
-				{
-					id: "56D3B595211365E9"
-					item: "ars_nouveau:ring_of_greater_discount"
-					type: "item"
-				}
-			]
-			subtitle: "{gto.uev.quests.016825EEC25C1CEF.subtitle}"
-			tasks: [{
-				id: "640A14267FA43F4A"
-				type: "checkmark"
-			}]
-			title: "{gto.uev.quests.016825EEC25C1CEF.title}"
-			x: 6.0d
-			y: 1.0d
 		}
 		{
 			dependencies: ["7B3C0DB7C1F11692"]
@@ -765,78 +738,6 @@
 				type: "item"
 			}]
 			title: "{gto.uev.quests.3FBB498BBBA5DBDC.title}"
-			x: -8.0d
-			y: -2.0d
-		}
-		{
-			description: ["{gto.uev.quests.0573CE1530493B0A.description0}"]
-			icon: "gtceu:mv_solar_panel"
-			id: "0573CE1530493B0A"
-			rewards: [
-				{
-					id: "54F87D0C7B5E9A53"
-					item: {
-						Count: 1
-						id: "expatternprovider:infinity_cell"
-						tag: {
-							record: {
-								"#c": "ae2:i"
-								id: "gtceu:mv_solar_panel"
-							}
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "6A80C21877430EBF"
-					item: {
-						Count: 1
-						id: "expatternprovider:infinity_cell"
-						tag: {
-							record: {
-								"#c": "ae2:i"
-								id: "gtceu:hv_solar_panel"
-							}
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "552C1292DB375654"
-					item: {
-						Count: 1
-						id: "expatternprovider:infinity_cell"
-						tag: {
-							record: {
-								"#c": "ae2:i"
-								id: "gtceu:ev_solar_panel"
-							}
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "00B1F34DE7D87C7D"
-					item: {
-						Count: 1
-						id: "expatternprovider:infinity_cell"
-						tag: {
-							record: {
-								"#c": "ae2:i"
-								id: "gtceu:iv_solar_panel"
-							}
-						}
-					}
-					type: "item"
-				}
-			]
-			shape: "rsquare"
-			tasks: [{
-				id: "42C01E9863E2356F"
-				item: "gtocore:infinity_hex_wire"
-				type: "item"
-			}]
-			title: "{gto.uev.quests.0573CE1530493B0A.title}"
 			x: -6.0d
 			y: -0.5d
 		}
