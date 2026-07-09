@@ -7,7 +7,7 @@ body:
     id: "version"
     attributes:
       label: "GTO Pack Version / GTO 包版本"
-      description: "Please specify the full version shown after GregTech Odyssey in the game window title bar. Bugs reported in older versions may already be resolved in newer releases, so we recommend updating to the latest version before submitting. Thank you! / 请填写游戏窗口左上角标题栏中 GregTech Odyssey 后面显示的完整版本号。旧版本中报告的错误可能已在新版本中修复，因此我们建议在提交前更新到最新版本。谢谢！"
+      description: "Please specify the version of the pack you are using. Bugs reported in older versions may already be resolved in newer releases, so we recommend updating to the latest version before submitting. Thank you! / 请指定您使用的包版本。旧版本中报告的错误可能已在新版本中修复，因此我们建议在提交前更新到最新版本。谢谢！"
       placeholder: "Example: 0.5.6-beta-266d67 / 示例：0.5.6-beta-266d67"
     validations:
       required: true
