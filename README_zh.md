@@ -23,15 +23,15 @@
 
 - GregTech-Odyssey 是一个经过极致性能优化的科技导向的格雷整合包, 致力于在现代格雷的基础上为玩家提供多样的, 有挑战性的体验. 游戏中包含复杂又有趣的各种自定义机制机器，以及能够带来巨大产能提升的的功能仓室。同时也包含了魔法模组, 各种辅助模组和优化模组提升游戏体验. 此整合包所使用的独特Mod - GTOCore不仅包含更多定制化的游戏流程内容, 还实现了例如ME样板供应器的增强阻挡模式, 机器的跨配方并行和多线程优化，以进一步优化游戏体验.
 
-## 协议
+## 许可证
 
-- 本项目整体以非商业用途为目的发布。除非另有说明，项目中的大多数内容（如整合包结构、原创资源、文本等）均禁止用于商业用途。
-- 本整合包整体采用 [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/)。
+- 本项目整体以非商业用途为目的发布。除非另有说明，项目中的原创内容（如整合包结构、原创资源、文本等）均禁止用于商业用途。
+- 本项目对整合包内容所作的原创选择与编排，除非另有说明，均采用 [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0)。第三方模组、代码、资源以及依据单独授权使用的内容不在该许可证的适用范围内，仍分别适用其原始许可证或授权条款。
 - [核心模组代码](https://github.com/GregTech-Odyssey/GTOCore)（GTOCore `src/main/java/` 目录下的原创代码）采用 [GNU General Public License v3.0 (GPLv3)](https://www.gnu.org/licenses/gpl-3.0.html)。
+  - GTOCore 整合了部分来自其他模组的代码与资源文件，这些内容的版权归其原作者所有，并受其各自的原始许可证约束。详见：[THIRD_PARTY_LICENSES.md](THIRD_PARTY_LICENSES.md)。
 - 任务（文本）默认保留所有权利 (All Rights Reserved)。未经授权的使用是被禁止的。对于已明确标注来源的任务内容，版权归其原作者所有，并受其各自的原始许可证约束。
-- [社区贡献的本地化文本仓库](https://github.com/GregTech-Odyssey/GTO-Translations) 采用 CC BY-NC-SA 4.0。
+- [社区贡献的本地化文本仓库](https://github.com/GregTech-Odyssey/GTO-Translations) 中的翻译内容采用 CC BY-NC-SA 4.0。
 - 本项目原创纹理资源采用 CC BY-NC-SA 4.0。
-- GTOCore整合了部分来自其他模组的代码与资源文件，这些内容的版权归其原作者所有，并受其各自的原始许可证约束。若其许可证与本项目其他部分存在冲突，则以原始许可证为准。详见：[THIRD_PARTY_LICENSES.md](THIRD_PARTY_LICENSES.md)。
 
 ## 使用
 
