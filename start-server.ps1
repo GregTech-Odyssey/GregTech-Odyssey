@@ -2,6 +2,10 @@ $ErrorActionPreference = "Stop"
 $baseDir = Split-Path -Parent $MyInvocation.MyCommand.Path
 Set-Location $baseDir
 
+# Fix Chinese path issues
+[Console]::OutputEncoding = [System.Text.Encoding]::UTF8
+$OutputEncoding = [System.Text.Encoding]::UTF8
+
 Write-Host "[INFO] GregTech Odyssey Server Launcher" -ForegroundColor Green
 Write-Host "[INFO] =================================" -ForegroundColor Green
 Write-Host ""
@@ -77,7 +81,7 @@ Write-Host "[INFO] Using Java: $javaCmd" -ForegroundColor Green
 Write-Host ""
 
 # ============ Install Forge if not present ============
-if (-not (Test-Path "libraries\net\minecraftforge\forge\$FORGE_VERSION")) {
+if (-not (Test-Path "unix_args.txt") -and !(Get-ChildItem -Path "libraries" -Recurse -Filter "unix_args.txt" -ErrorAction SilentlyContinue)) {
     Write-Host "[INFO] Forge not installed. Downloading..." -ForegroundColor Yellow
 
     # Download Forge installer
@@ -174,6 +178,15 @@ foreach ($toml in $pwTomls) {
             Invoke-WebRequest -Uri $url -OutFile "mods\$filename" -UseBasicParsing -Headers @{
                 'User-Agent' = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
                 'Referer' = 'https://www.curseforge.com/'
+            }
+            # Validate download
+            $file = Get-Item "mods\$filename" -ErrorAction SilentlyContinue
+            if (-not $file -or $file.Length -lt 1024) {
+                Remove-Item "mods\$filename" -Force -ErrorAction SilentlyContinue
+                Write-Host "[ERROR] Invalid download for $filename (file too small or empty)" -ForegroundColor Red
+                Write-Host "[ERROR] URL: $url" -ForegroundColor Red
+                pause
+                exit 1
             }
             $downloaded++
         } catch {
