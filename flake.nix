@@ -131,6 +131,10 @@
               cp ${./mods/gtocore-forge-1.20.1-0.5.6-beta.jar} $out/mods/
               cp ${./mods/gtonativelib-1.0.jar} $out/mods/
 
+              for f in ${./mods}/*.pw.toml; do
+                cp "$f" $out/mods/ 2>/dev/null || true
+              done
+
               cp ${./start-server.sh} $out/start-server.sh
               cp ${./start-server.bat} $out/start-server.bat
               chmod +x $out/start-server.sh
