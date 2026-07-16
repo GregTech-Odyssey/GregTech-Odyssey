@@ -1,6 +1,6 @@
 name = "Render Blender"
 filename = "renderblender-1.1.1.jar"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"
