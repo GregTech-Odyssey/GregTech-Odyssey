@@ -119,6 +119,7 @@
               mkdir -p $out
 
               cp -r ${forge}/* $out/
+              chmod -R +w $out/
               rm -f $out/run.sh $out/run.bat
 
               cp -r ${modpack}/config $out/ 2>/dev/null || true
