@@ -151,6 +151,16 @@ if (Test-Path "user_jvm_args.txt") {
 $jvmArgs = (Get-Content $argsFile -Raw) -replace "`r`n", " " -replace "`n", " "
 $jvmArgs = ($jvmArgs -split '\s+') | Where-Object { $_ -ne "" }
 
+# On Windows, replace : with ; in classpath/module-path arguments
+if ($IsWindows -or $env:OS -eq "Windows_NT") {
+    $jvmArgs = $jvmArgs | ForEach-Object {
+        if ($_ -match '^-p\s') { $_ }
+        elseif ($_ -match '^[a-zA-Z]:\\') { $_ }
+        elseif ($_ -match ':') { $_ -replace ':', ';' }
+        else { $_ }
+    }
+}
+
 & $javaCmd $userArgs $jvmArgs nogui
 
 pause
