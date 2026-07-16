@@ -133,6 +133,7 @@ if (-not (Test-Path "unix_args.txt") -and !(Get-ChildItem -Path "libraries" -Rec
 
     # Cleanup
     Remove-Item $installerPath -Force -ErrorAction SilentlyContinue
+    Remove-Item "$installerPath.log" -Force -ErrorAction SilentlyContinue
     Remove-Item "run.sh", "run.bat" -Force -ErrorAction SilentlyContinue
     Remove-Item "$env:TEMP\forge-install.log", "$env:TEMP\forge-install-err.log" -Force -ErrorAction SilentlyContinue
     Write-Host "[INFO] Forge installed successfully" -ForegroundColor Green
