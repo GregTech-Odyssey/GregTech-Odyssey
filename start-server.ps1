@@ -123,6 +123,16 @@ foreach ($toml in $pwTomls) {
 Write-Host "[INFO] Downloaded: $downloaded, Skipped: $skipped" -ForegroundColor Green
 Write-Host ""
 
+# Cleanup .pw.toml files after download
+if ($downloaded -gt 0) {
+    $pwTomls = Get-ChildItem -Path "mods" -Filter "*.pw.toml" -ErrorAction SilentlyContinue
+    foreach ($toml in $pwTomls) {
+        Remove-Item $toml.FullName -Force -ErrorAction SilentlyContinue
+    }
+    Write-Host "[INFO] Cleaned up metadata files" -ForegroundColor Green
+    Write-Host ""
+}
+
 # Start server - read unix_args.txt and launch Java directly
 Write-Host "[INFO] Starting GregTech Odyssey server..." -ForegroundColor Green
 Write-Host ""

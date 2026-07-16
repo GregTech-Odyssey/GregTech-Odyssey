@@ -101,6 +101,12 @@ download_mods() {
     done
     
     info "Downloaded: $downloaded, Skipped: $skipped"
+    
+    # Cleanup .pw.toml files after download
+    if [ "$downloaded" -gt 0 ]; then
+        rm -f mods/*pw.toml 2>/dev/null
+        info "Cleaned up metadata files"
+    fi
 }
 
 start_server() {
