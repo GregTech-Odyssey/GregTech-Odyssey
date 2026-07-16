@@ -127,16 +127,30 @@ Write-Host ""
 Write-Host "[INFO] Starting GregTech Odyssey server..." -ForegroundColor Green
 Write-Host ""
 
-$argsFile = "unix_args.txt"
-if (-not (Test-Path $argsFile)) {
-    Write-Host "[ERROR] $argsFile not found" -ForegroundColor Red
+# Find unix_args.txt
+$argsFile = $null
+if (Test-Path "unix_args.txt") {
+    $argsFile = "unix_args.txt"
+} else {
+    $found = Get-ChildItem -Path "libraries" -Recurse -Filter "unix_args.txt" -ErrorAction SilentlyContinue | Select-Object -First 1
+    if ($found) { $argsFile = $found.FullName }
+}
+
+if (-not $argsFile) {
+    Write-Host "[ERROR] unix_args.txt not found" -ForegroundColor Red
     pause
     exit 1
+}
+
+# Read user_jvm_args.txt if exists
+$userArgs = @()
+if (Test-Path "user_jvm_args.txt") {
+    $userArgs = (Get-Content "user_jvm_args.txt" | Where-Object { $_ -notmatch '^\s*#' -and $_.Trim() -ne "" }) -split '\s+'
 }
 
 $jvmArgs = (Get-Content $argsFile -Raw) -replace "`r`n", " " -replace "`n", " "
 $jvmArgs = ($jvmArgs -split '\s+') | Where-Object { $_ -ne "" }
 
-& $javaCmd $jvmArgs nogui
+& $javaCmd $userArgs $jvmArgs nogui
 
 pause

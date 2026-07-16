@@ -105,13 +105,24 @@ download_mods() {
 
 start_server() {
     info "Starting GregTech Odyssey server..."
+    
+    ARGS_FILE=""
     if [ -f "unix_args.txt" ]; then
-        $JAVA_CMD $(cat unix_args.txt) nogui "$@"
-    elif [ -f "run.sh" ]; then
-        ./run.sh nogui "$@"
+        ARGS_FILE="unix_args.txt"
     else
-        error "No server launcher found (unix_args.txt or run.sh missing)"
+        ARGS_FILE=$(find libraries -name "unix_args.txt" 2>/dev/null | head -1)
     fi
+    
+    if [ -z "$ARGS_FILE" ]; then
+        error "unix_args.txt not found"
+    fi
+    
+    USER_ARGS=""
+    if [ -f "user_jvm_args.txt" ]; then
+        USER_ARGS=$(grep -v '^\s*#' user_jvm_args.txt | grep -v '^\s*$' | tr '\n' ' ')
+    fi
+    
+    $JAVA_CMD $USER_ARGS $(cat "$ARGS_FILE") nogui "$@"
 }
 
 main() {
