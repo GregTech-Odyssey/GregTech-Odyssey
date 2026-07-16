@@ -102,13 +102,12 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: GregTech-Odyssey
-        path: ./curseforge-upload/*.zip
+        path: ./curseforge/*.zip
     - name: Upload artifacts
       uses: actions/upload-artifact@v4
       with:
         name: GregTech-Odyssey-all-locale
-        path: |
-          ./curseforge-upload/**.zip
+        path: ./curseforge-upload/
     - name: Upload artifacts
       uses: actions/upload-artifact@v4
       with:
