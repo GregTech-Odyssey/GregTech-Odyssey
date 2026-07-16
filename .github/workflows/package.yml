@@ -91,13 +91,13 @@ jobs:
         )
         rm -rf "$TMP_DIR"
         echo "Injected $Z_ASSET_NAME into $CURSEFORGE_ZIP."
-    - name: Build Server Packwiz
+    - name: Build Server
       run: |
         nix build .#server-packwiz
-        mkdir server-packwiz
-        cp -r result/* server-packwiz/
-        chmod -R +w server-packwiz/config/ server-packwiz/defaultconfigs/ 2>/dev/null || true
-        zip -r GregTech-Odyssey-server-packwiz.zip server-packwiz/*
+        mkdir server
+        cp -r result/* server/
+        chmod -R +w server/config/ server/defaultconfigs/ 2>/dev/null || true
+        zip -r GregTech-Odyssey-server.zip server/*
     - name: Upload artifacts
       uses: actions/upload-artifact@v4
       with:
@@ -111,8 +111,8 @@ jobs:
     - name: Upload artifacts
       uses: actions/upload-artifact@v4
       with:
-        name: GregTech-Odyssey-server-packwiz
-        path: ./GregTech-Odyssey-server-packwiz.zip
+        name: GregTech-Odyssey-server
+        path: ./GregTech-Odyssey-server.zip
 
   publish:
     needs: [package]
@@ -148,4 +148,4 @@ jobs:
           git push origin :$TAG_NAME || true 
       - name: Publish release
         run: |
-          gh release create $TAG_NAME $PRERELEASE --title "$SUBJECT" --notes-file .github/release-notes.md --target $GITHUB_SHA GregTech-Odyssey/* GregTech-Odyssey-all-locale/* GregTech-Odyssey-server-packwiz/*
+          gh release create $TAG_NAME $PRERELEASE --title "$SUBJECT" --notes-file .github/release-notes.md --target $GITHUB_SHA GregTech-Odyssey/* GregTech-Odyssey-all-locale/* GregTech-Odyssey-server/*
