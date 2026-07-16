@@ -6,16 +6,48 @@ Write-Host "[INFO] GregTech Odyssey Server Launcher" -ForegroundColor Green
 Write-Host "[INFO] =================================" -ForegroundColor Green
 Write-Host ""
 
-# Check Java
+# Check Java 21+
 $javaCmd = $null
-if (Get-Command java -ErrorAction SilentlyContinue) {
-    $javaCmd = "java"
-} elseif (Test-Path ".\jdk\bin\java.exe") {
-    $javaCmd = ".\jdk\bin\java.exe"
-} elseif (Test-Path ".\jre\bin\java.exe") {
-    $javaCmd = ".\jre\bin\java.exe"
-} else {
-    Write-Host "[ERROR] Java not found. Please install Java 17 or later." -ForegroundColor Red
+
+# Check JAVA_HOME first
+if ($env:JAVA_HOME -and (Test-Path "$env:JAVA_HOME\bin\java.exe")) {
+    $version = & "$env:JAVA_HOME\bin\java.exe" -version 2>&1 | Select-String 'version "(\d+)' | ForEach-Object { $_.Matches.Groups[1].Value }
+    if ([int]$version -ge 21) {
+        $javaCmd = "$env:JAVA_HOME\bin\java.exe"
+    }
+}
+
+# Check common Java 21+ locations
+if (-not $javaCmd) {
+    $javaPaths = @(
+        ".\jdk-21*\bin\java.exe",
+        ".\jdk\bin\java.exe",
+        ".\jre\bin\java.exe",
+        "C:\Program Files\Java\jdk-21*\bin\java.exe",
+        "C:\Program Files\Eclipse Adoptium\jdk-21*.*/bin/java.exe"
+    )
+    foreach ($pattern in $javaPaths) {
+        $found = Get-Item $pattern -ErrorAction SilentlyContinue | Select-Object -First 1
+        if ($found) {
+            $version = & $found.FullName -version 2>&1 | Select-String 'version "(\d+)' | ForEach-Object { $_.Matches.Groups[1].Value }
+            if ([int]$version -ge 21) {
+                $javaCmd = $found.FullName
+                break
+            }
+        }
+    }
+}
+
+# Fallback: any java in PATH
+if (-not $javaCmd -and (Get-Command java -ErrorAction SilentlyContinue)) {
+    $version = & java -version 2>&1 | Select-String 'version "(\d+)' | ForEach-Object { $_.Matches.Groups[1].Value }
+    if ([int]$version -ge 21) {
+        $javaCmd = "java"
+    }
+}
+
+if (-not $javaCmd) {
+    Write-Host "[ERROR] Java 21 or later not found. Please install Java 21+." -ForegroundColor Red
     pause
     exit 1
 }

@@ -12,14 +12,39 @@ info() { echo -e "${GREEN}[INFO]${NC} $1"; }
 error() { echo -e "${RED}[ERROR]${NC} $1"; exit 1; }
 
 check_java() {
-    if command -v java &> /dev/null; then
-        JAVA_CMD="java"
-    elif [ -f "./jdk/bin/java" ]; then
-        JAVA_CMD="./jdk/bin/java"
-    elif [ -f "./jre/bin/java" ]; then
-        JAVA_CMD="./jre/bin/java"
-    else
-        error "Java not found. Please install Java 17 or later."
+    JAVA_CMD=""
+    
+    # Check JAVA_HOME first
+    if [ -n "$JAVA_HOME" ] && [ -x "$JAVA_HOME/bin/java" ]; then
+        version=$("$JAVA_HOME/bin/java" -version 2>&1 | head -1 | grep -oE '[0-9]+' | head -1)
+        if [ "$version" -ge 21 ] 2>/dev/null; then
+            JAVA_CMD="$JAVA_HOME/bin/java"
+        fi
+    fi
+    
+    # Check local jdk-21+
+    if [ -z "$JAVA_CMD" ]; then
+        for d in ./jdk-21* ./jdk ./jre; do
+            if [ -x "$d/bin/java" ]; then
+                version=$("$d/bin/java" -version 2>&1 | head -1 | grep -oE '[0-9]+' | head -1)
+                if [ "$version" -ge 21 ] 2>/dev/null; then
+                    JAVA_CMD="$d/bin/java"
+                    break
+                fi
+            fi
+        done
+    fi
+    
+    # Fallback: any java in PATH
+    if [ -z "$JAVA_CMD" ] && command -v java &> /dev/null; then
+        version=$(java -version 2>&1 | head -1 | grep -oE '[0-9]+' | head -1)
+        if [ "$version" -ge 21 ] 2>/dev/null; then
+            JAVA_CMD="java"
+        fi
+    fi
+    
+    if [ -z "$JAVA_CMD" ]; then
+        error "Java 21 or later not found. Please install Java 21+."
     fi
     info "Using Java: $JAVA_CMD"
 }
