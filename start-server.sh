@@ -16,6 +16,13 @@ info() { echo -e "${GREEN}[INFO]${NC} $1"; }
 warn() { echo -e "${YELLOW}[WARN]${NC} $1"; }
 error() { echo -e "${RED}[ERROR]${NC} $1"; exit 1; }
 
+cleanup() {
+    if [ -n "$PACKWIZ_PID" ]; then
+        kill $PACKWIZ_PID 2>/dev/null || true
+    fi
+}
+trap cleanup EXIT
+
 check_java() {
     if command -v java &> /dev/null; then
         JAVA_CMD="java"
@@ -29,34 +36,42 @@ check_java() {
     info "Using Java: $JAVA_CMD"
 }
 
-ensure_packwiz() {
+install_mods() {
+    if ls mods/*.jar 1> /dev/null 2>&1; then
+        info "Mods already installed, skipping..."
+        return
+    fi
+
+    if [ ! -f "./packwiz-bin/packwiz-installer-bootstrap.jar" ]; then
+        error "packwiz-installer-bootstrap.jar not found in packwiz-bin/
+Please re-download the server pack."
+    fi
+
     PACKWIZ_CMD=""
     OS="$(uname -s)"
     
-    if [ -f "./packwiz" ] && [ -x "./packwiz" ]; then
-        PACKWIZ_CMD="./packwiz"
-        info "packwiz found"
-        return
-    fi
-    
-    if [ -f "./packwiz-bin/packwiz-linux" ] && [ -x "./packwiz-bin/packwiz-linux" ] && [ "$OS" = "Linux" ]; then
+    if [ "$OS" = "Linux" ] && [ -f "./packwiz-bin/packwiz-linux" ] && [ -x "./packwiz-bin/packwiz-linux" ]; then
         PACKWIZ_CMD="./packwiz-bin/packwiz-linux"
-        info "packwiz found"
-        return
-    fi
-    
-    if [ -f "./packwiz-bin/packwiz-macos" ] && [ -x "./packwiz-bin/packwiz-macos" ] && [ "$OS" = "Darwin" ]; then
+    elif [ "$OS" = "Darwin" ] && [ -f "./packwiz-bin/packwiz-macos" ] && [ -x "./packwiz-bin/packwiz-macos" ]; then
         PACKWIZ_CMD="./packwiz-bin/packwiz-macos"
-        info "packwiz found"
-        return
+    elif [ -f "./packwiz" ] && [ -x "./packwiz" ]; then
+        PACKWIZ_CMD="./packwiz"
     fi
 
-    error "packwiz not found. Please re-download the server pack."
-}
+    if [ -z "$PACKWIZ_CMD" ]; then
+        error "packwiz CLI not found for your platform"
+    fi
 
-install_mods() {
-    info "Installing mods via packwiz..."
-    $PACKWIZ_CMD install --all
+    info "Starting packwiz server in background..."
+    $PACKWIZ_CMD serve &>/dev/null &
+    PACKWIZ_PID=$!
+    sleep 2
+
+    info "Installing mods via packwiz-installer..."
+    if ! $JAVA_CMD -jar packwiz-bin/packwiz-installer-bootstrap.jar -g -s server http://localhost:8080/pack.toml; then
+        error "Failed to install mods"
+    fi
+
     info "All mods installed"
 }
 
@@ -75,7 +90,6 @@ main() {
     info "GregTech Odyssey Server Launcher"
     info "================================="
     check_java
-    ensure_packwiz
     install_mods
     start_server "$@"
 }

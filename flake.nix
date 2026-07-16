@@ -135,6 +135,7 @@
               cp ${./packwiz-bin/packwiz-linux} $out/packwiz-bin/packwiz-linux
               cp ${./packwiz-bin/packwiz-macos} $out/packwiz-bin/packwiz-macos
               cp ${./packwiz-bin/packwiz-windows.exe} $out/packwiz-bin/packwiz-windows.exe
+              cp ${./packwiz-bin/packwiz-installer-bootstrap.jar} $out/packwiz-bin/packwiz-installer-bootstrap.jar
               chmod +x $out/packwiz-bin/packwiz-linux $out/packwiz-bin/packwiz-macos
 
               cp ${./start-server.sh} $out/start-server.sh

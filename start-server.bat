@@ -35,40 +35,58 @@ exit /b 1
 echo [INFO] Using Java: %JAVA_CMD%
 echo.
 
-set "PACKWIZ_CMD="
-
-if exist ".\packwiz.exe" (
-    set "PACKWIZ_CMD=.\packwiz.exe"
-    echo [INFO] packwiz found
-    goto :packwiz_found
+REM Check if mods already installed
+if exist ".\mods\*.jar" (
+    echo [INFO] Mods already installed, skipping...
+    goto :start_server
 )
 
-if exist ".\packwiz-bin\packwiz-windows.exe" (
-    set "PACKWIZ_CMD=.\packwiz-bin\packwiz-windows.exe"
-    echo [INFO] packwiz found
-    goto :packwiz_found
-)
-
-echo [ERROR] packwiz not found. Please re-download the server pack.
-echo.
-pause
-exit /b 1
-
-:packwiz_found
-echo [INFO] Installing mods via packwiz...
-echo.
-%PACKWIZ_CMD% install --all
-if %ERRORLEVEL% NEQ 0 (
-    echo.
-    echo [ERROR] Failed to install mods
+REM Check if packwiz installer exists
+if not exist ".\packwiz-bin\packwiz-installer-bootstrap.jar" (
+    echo [ERROR] packwiz-installer-bootstrap.jar not found in packwiz-bin/
+    echo Please re-download the server pack.
     echo.
     pause
     exit /b 1
 )
-echo.
+
+REM Check if packwiz CLI exists
+set "PACKWIZ_CMD="
+if exist ".\packwiz-bin\packwiz-windows.exe" (
+    set "PACKWIZ_CMD=.\packwiz-bin\packwiz-windows.exe"
+) else if exist ".\packwiz.exe" (
+    set "PACKWIZ_CMD=.\packwiz.exe"
+)
+
+if "!PACKWIZ_CMD!"=="" (
+    echo [ERROR] packwiz CLI not found
+    echo.
+    pause
+    exit /b 1
+)
+
+echo [INFO] Starting packwiz server in background...
+start /b "" !PACKWIZ_CMD! serve >nul 2>&1
+timeout /t 2 /nobreak >nul
+
+echo [INFO] Installing mods via packwiz-installer...
+%JAVA_CMD% -jar packwiz-bin\packwiz-installer-bootstrap.jar -g -s server http://localhost:8080/pack.toml
+if %ERRORLEVEL% NEQ 0 (
+    echo.
+    echo [ERROR] Failed to install mods
+    echo.
+    taskkill /f /im packwiz.exe >nul 2>&1
+    pause
+    exit /b 1
+)
+
+echo [INFO] Stopping packwiz server...
+taskkill /f /im packwiz.exe >nul 2>&1
+
 echo [INFO] All mods installed
 echo.
 
+:start_server
 echo [INFO] Starting GregTech Odyssey server...
 echo.
 if exist ".\run.bat" (
