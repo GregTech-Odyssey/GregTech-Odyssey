@@ -9,10 +9,19 @@ Write-Host ""
 # Check Java 21+
 $javaCmd = $null
 
+function Get-JavaVersion {
+    param([string]$Path)
+    try {
+        $output = & cmd /c "`"$Path`" -version 2>&1"
+        $match = [regex]::Match($output, 'version "(\d+)')
+        if ($match.Success) { return [int]$match.Groups[1].Value }
+    } catch {}
+    return 0
+}
+
 # Check JAVA_HOME first
 if ($env:JAVA_HOME -and (Test-Path "$env:JAVA_HOME\bin\java.exe")) {
-    $version = & "$env:JAVA_HOME\bin\java.exe" -version 2>&1 | Select-String 'version "(\d+)' | ForEach-Object { $_.Matches.Groups[1].Value }
-    if ([int]$version -ge 21) {
+    if ((Get-JavaVersion "$env:JAVA_HOME\bin\java.exe") -ge 21) {
         $javaCmd = "$env:JAVA_HOME\bin\java.exe"
     }
 }
@@ -28,20 +37,16 @@ if (-not $javaCmd) {
     )
     foreach ($pattern in $javaPaths) {
         $found = Get-Item $pattern -ErrorAction SilentlyContinue | Select-Object -First 1
-        if ($found) {
-            $version = & $found.FullName -version 2>&1 | Select-String 'version "(\d+)' | ForEach-Object { $_.Matches.Groups[1].Value }
-            if ([int]$version -ge 21) {
-                $javaCmd = $found.FullName
-                break
-            }
+        if ($found -and (Get-JavaVersion $found.FullName) -ge 21) {
+            $javaCmd = $found.FullName
+            break
         }
     }
 }
 
 # Fallback: any java in PATH
 if (-not $javaCmd -and (Get-Command java -ErrorAction SilentlyContinue)) {
-    $version = & java -version 2>&1 | Select-String 'version "(\d+)' | ForEach-Object { $_.Matches.Groups[1].Value }
-    if ([int]$version -ge 21) {
+    if ((Get-JavaVersion "java") -ge 21) {
         $javaCmd = "java"
     }
 }
