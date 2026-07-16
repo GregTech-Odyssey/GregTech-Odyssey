@@ -35,37 +35,73 @@ exit /b 1
 echo [INFO] Using Java: %JAVA_CMD%
 echo.
 
+set "PACKWIZ_CMD="
+
+where packwiz >nul 2>nul
+if %ERRORLEVEL% EQU 0 (
+    set "PACKWIZ_CMD=packwiz"
+    echo [INFO] packwiz found in PATH
+    goto :packwiz_found
+)
+
 if exist ".\packwiz.exe" (
+    set "PACKWIZ_CMD=.\packwiz.exe"
     echo [INFO] packwiz found
     goto :packwiz_found
 )
 
-echo [INFO] Downloading packwiz...
-curl -fsSL "https://nightly.link/packwiz/packwiz/workflows/go/main/packwiz-windows-amd64.zip" -o packwiz.zip
-if %ERRORLEVEL% NEQ 0 (
-    echo [ERROR] Failed to download packwiz
-    echo.
-    pause
-    exit /b 1
+echo [INFO] Installing packwiz...
+
+where go >nul 2>nul
+if %ERRORLEVEL% EQU 0 (
+    echo [INFO] Go found, installing packwiz via go install...
+    go install github.com/packwiz/packwiz@latest
+    if %ERRORLEVEL% EQU 0 (
+        set "PACKWIZ_CMD=%USERPROFILE%\go\bin\packwiz.exe"
+        if exist "!PACKWIZ_CMD!" (
+            echo [INFO] packwiz installed successfully
+            goto :packwiz_found
+        )
+    )
 )
 
-echo [INFO] Extracting packwiz...
-tar -xf packwiz.zip
-del packwiz.zip
-
-if not exist ".\packwiz.exe" (
-    echo [ERROR] Failed to extract packwiz
-    echo.
-    pause
-    exit /b 1
+where scoop >nul 2>nul
+if %ERRORLEVEL% EQU 0 (
+    echo [INFO] Installing packwiz via scoop...
+    scoop install packwiz
+    if %ERRORLEVEL% EQU 0 (
+        set "PACKWIZ_CMD=packwiz"
+        echo [INFO] packwiz installed successfully
+        goto :packwiz_found
+    )
 )
-echo [INFO] packwiz installed successfully
+
+where choco >nul 2>nul
+if %ERRORLEVEL% EQU 0 (
+    echo [INFO] Installing packwiz via chocolatey...
+    choco install packwiz -y
+    if %ERRORLEVEL% EQU 0 (
+        set "PACKWIZ_CMD=packwiz"
+        echo [INFO] packwiz installed successfully
+        goto :packwiz_found
+    )
+)
+
 echo.
+echo [ERROR] Could not install packwiz automatically.
+echo Please install packwiz manually using one of these methods:
+echo   1. Go: go install github.com/packwiz/packwiz@latest
+echo   2. Scoop: scoop install packwiz
+echo   3. Chocolatey: choco install packwiz
+echo   4. Download from: https://nightly.link/packwiz/packwiz/workflows/go/main
+echo.
+pause
+exit /b 1
 
 :packwiz_found
 echo [INFO] Installing mods via packwiz...
 echo.
-.\packwiz.exe install --all
+%PACKWIZ_CMD% install --all
 if %ERRORLEVEL% NEQ 0 (
     echo.
     echo [ERROR] Failed to install mods

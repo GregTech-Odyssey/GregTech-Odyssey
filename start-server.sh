@@ -30,50 +30,61 @@ check_java() {
 }
 
 ensure_packwiz() {
+    PACKWIZ_CMD=""
+    
+    if command -v packwiz &> /dev/null; then
+        PACKWIZ_CMD="packwiz"
+        info "packwiz found in PATH"
+        return
+    fi
+    
     if [ -f "./packwiz" ] && [ -x "./packwiz" ]; then
+        PACKWIZ_CMD="./packwiz"
         info "packwiz found"
         return
     fi
 
-    info "Downloading packwiz..."
-    OS="$(uname -s)"
-    ARCH="$(uname -m)"
+    info "Installing packwiz..."
     
-    case "$OS" in
-        Linux*)
-            if [ "$ARCH" = "x86_64" ]; then
-                PACKWIZ_URL="https://nightly.link/packwiz/packwiz/workflows/go/main/packwiz-linux-amd64.zip"
-            elif [ "$ARCH" = "aarch64" ]; then
-                PACKWIZ_URL="https://nightly.link/packwiz/packwiz/workflows/go/main/packwiz-linux-arm64.zip"
-            else
-                error "Unsupported architecture: $ARCH"
+    if command -v go &> /dev/null; then
+        info "Go found, installing packwiz via go install..."
+        if go install github.com/packwiz/packwiz@latest; then
+            PACKWIZ_CMD="$HOME/go/bin/packwiz"
+            if [ -f "$PACKWIZ_CMD" ] && [ -x "$PACKWIZ_CMD" ]; then
+                info "packwiz installed successfully"
+                return
             fi
-            ;;
-        Darwin*)
-            if [ "$ARCH" = "x86_64" ]; then
-                PACKWIZ_URL="https://nightly.link/packwiz/packwiz/workflows/go/main/packwiz-darwin-amd64.zip"
-            elif [ "$ARCH" = "arm64" ]; then
-                PACKWIZ_URL="https://nightly.link/packwiz/packwiz/workflows/go/main/packwiz-darwin-arm64.zip"
-            else
-                error "Unsupported architecture: $ARCH"
-            fi
-            ;;
-        *)
-            error "Unsupported OS: $OS. Use start-server.bat on Windows."
-            ;;
-    esac
+        fi
+    fi
     
-    rm -f ./packwiz ./packwiz.exe
-    curl -fsSL "$PACKWIZ_URL" -o packwiz.zip
-    unzip -o packwiz.zip -d .
-    rm -f packwiz.zip
-    chmod +x packwiz
-    info "packwiz installed successfully"
+    if command -v brew &> /dev/null; then
+        info "Installing packwiz via brew..."
+        if brew install packwiz; then
+            PACKWIZ_CMD="packwiz"
+            info "packwiz installed successfully"
+            return
+        fi
+    fi
+    
+    if command -v scoop &> /dev/null; then
+        info "Installing packwiz via scoop..."
+        if scoop install packwiz; then
+            PACKWIZ_CMD="packwiz"
+            info "packwiz installed successfully"
+            return
+        fi
+    fi
+    
+    error "Could not install packwiz automatically.
+Please install packwiz manually:
+  1. Go: go install github.com/packwiz/packwiz@latest
+  2. Homebrew: brew install packwiz
+  3. Scoop: scoop install packwiz"
 }
 
 install_mods() {
     info "Installing mods via packwiz..."
-    ./packwiz install --all
+    $PACKWIZ_CMD install --all
     info "All mods installed"
 }
 
