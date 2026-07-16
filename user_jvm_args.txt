@@ -4,6 +4,6 @@
 # For example, to set the maximum to 3GB: -Xmx3G
 # To set the minimum to 2.5GB: -Xms2500M
 
-# Set maximum to 8GB, minimum to 4GB
+# Set maximum to 8GB, minimum to 8GB
 -Xmx8G
--Xms4G
+-Xms8G
