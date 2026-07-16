@@ -49,19 +49,24 @@ server-packwiz/
 ├── mods/                    # Downloaded mod JARs + metadata
 ├── config/                  # Mod configurations
 ├── defaultconfigs/          # Default configurations
+├── libraries/               # Minecraft and Forge libraries
+├── unix_args.txt            # Java JVM arguments
 ├── pack.toml                # Modpack metadata
 ├── index.toml               # File index
 ├── start-server.bat         # Windows launcher (calls PowerShell)
 ├── start-server.ps1         # Windows PowerShell script
 ├── start-server.sh          # Linux/macOS launcher
-├── run.sh                   # Forge server script (Linux/macOS)
-├── run.bat                  # Forge server script (Windows)
-└── libraries/               # Minecraft and Forge libraries
+└── README.md                # This file
 ```
 
 ## Updating Mods
 
 Delete the `mods/` folder and re-run the launcher to re-download all mods with latest versions.
+
+## Stopping the Server
+
+- **Windows**: Press `Ctrl+C` in the console window
+- **Linux/macOS**: Press `Ctrl+C` in the terminal
 
 ## Troubleshooting
 
@@ -127,19 +132,24 @@ server-packwiz/
 ├── mods/                    # 下载的 Mod JAR 文件 + 元数据
 ├── config/                  # Mod 配置文件
 ├── defaultconfigs/          # 默认配置
+├── libraries/               # Minecraft 和 Forge 库文件
+├── unix_args.txt            # Java JVM 参数
 ├── pack.toml                # 整合包元数据
 ├── index.toml               # 文件索引
 ├── start-server.bat         # Windows 启动器（调用 PowerShell）
 ├── start-server.ps1         # Windows PowerShell 脚本
 ├── start-server.sh          # Linux/macOS 启动器
-├── run.sh                   # Forge 服务器脚本（Linux/macOS）
-├── run.bat                  # Forge 服务器脚本（Windows）
-└── libraries/               # Minecraft 和 Forge 库文件
+└── README.md                # 本文件
 ```
 
 ## 更新 Mod
 
 删除 `mods/` 文件夹后重新运行启动器，即可重新下载最新版本的 Mod。
+
+## 停止服务器
+
+- **Windows**: 在控制台窗口按 `Ctrl+C`
+- **Linux/macOS**: 在终端按 `Ctrl+C`
 
 ## 常见问题
 
