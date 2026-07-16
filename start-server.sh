@@ -14,9 +14,17 @@ warn() { echo -e "${YELLOW}[WARN]${NC} $1"; }
 error() { echo -e "${RED}[ERROR]${NC} $1"; exit 1; }
 
 # ============ Configuration ============
-MC_VERSION="1.20.1"
-FORGE_VERSION="1.20.1-47.4.20"
+# Read versions from pack.toml
+MC_VERSION=$(grep 'minecraft' pack.toml | head -1 | sed 's/.*= *"\([^"]*\)".*/\1/')
+FORGE_VERSION_NUM=$(grep 'forge' pack.toml | head -1 | sed 's/.*= *"\([^"]*\)".*/\1/')
+FORGE_VERSION="${MC_VERSION}-${FORGE_VERSION_NUM}"
 FORGE_MAVEN="https://maven.minecraftforge.net/net/minecraftforge/forge/${FORGE_VERSION}/forge-${FORGE_VERSION}-installer.jar"
+
+if [ -z "$MC_VERSION" ] || [ -z "$FORGE_VERSION_NUM" ]; then
+    error "Cannot read versions from pack.toml"
+fi
+
+info "Minecraft: $MC_VERSION, Forge: $FORGE_VERSION_NUM"
 
 # ============ Check Java 21+ ============
 check_java() {

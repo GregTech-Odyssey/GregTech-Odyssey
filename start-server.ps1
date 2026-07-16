@@ -7,9 +7,24 @@ Write-Host "[INFO] =================================" -ForegroundColor Green
 Write-Host ""
 
 # ============ Configuration ============
-$MC_VERSION = "1.20.1"
-$FORGE_VERSION = "1.20.1-47.4.20"
+# Read versions from pack.toml
+$packToml = Get-Content "pack.toml" -Raw
+$mcMatch = [regex]::Match($packToml, 'minecraft\s*=\s*"([^"]*)"')
+$forgeMatch = [regex]::Match($packToml, 'forge\s*=\s*"([^"]*)"')
+
+if (-not $mcMatch.Success -or -not $forgeMatch.Success) {
+    Write-Host "[ERROR] Cannot read versions from pack.toml" -ForegroundColor Red
+    pause
+    exit 1
+}
+
+$MC_VERSION = $mcMatch.Groups[1].Value
+$FORGE_VERSION_NUM = $forgeMatch.Groups[1].Value
+$FORGE_VERSION = "$MC_VERSION-$FORGE_VERSION_NUM"
 $FORGE_MAVEN = "https://maven.minecraftforge.net/net/minecraftforge/forge/$FORGE_VERSION/forge-$FORGE_VERSION-installer.jar"
+
+Write-Host "[INFO] Minecraft: $MC_VERSION, Forge: $FORGE_VERSION_NUM" -ForegroundColor Green
+Write-Host ""
 
 # ============ Check Java 21+ ============
 $javaCmd = $null
