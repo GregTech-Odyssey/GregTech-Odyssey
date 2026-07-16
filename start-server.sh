@@ -72,7 +72,7 @@ download_mods() {
         
         if [ -n "$url" ]; then
             info "Downloading $filename..."
-            if curl -fsSL -L -o "mods/$filename" "$url"; then
+            if curl -fsSL -L -A "Mozilla/5.0" -o "mods/$filename" "$url"; then
                 downloaded=$((downloaded + 1))
             else
                 error "Failed to download $filename"

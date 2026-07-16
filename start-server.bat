@@ -76,7 +76,7 @@ for %%F in (mods\*pw.toml) do (
             
             if not "!URL!"=="" (
                 echo [INFO] Downloading !FILENAME!...
-                curl -fsSL -L -o "mods\!FILENAME!" "!URL!"
+                curl -fsSL -L -A "Mozilla/5.0" -o "mods\!FILENAME!" "!URL!"
                 if !ERRORLEVEL! EQU 0 (
                     set /a DOWNLOADED+=1
                 ) else (
