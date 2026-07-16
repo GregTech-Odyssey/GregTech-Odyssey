@@ -66,17 +66,14 @@ for %%F in (mods\*pw.toml) do (
                 if not "!FILE_ID!"=="" (
                     set "PREFIX=!FILE_ID:~0,4!"
                     set "SUFFIX=!FILE_ID:~4!"
-                    set "ENCODED=!FILENAME: =%%20!"
-                    set "ENCODED=!ENCODED:+=%%2B!"
-                    set "ENCODED=!ENCODED:&=%%26!"
-                    set "ENCODED=!ENCODED:#=%%23!"
-                    set "URL=https://edge.forgecdn.net/files/!PREFIX!/!SUFFIX!/!ENCODED!"
+                    powershell -Command "$u='https://edge.forgecdn.net/files/!PREFIX!/!SUFFIX!/' + [uri]::EscapeDataString('!FILENAME!'); $u" > "%TEMP%\url.txt" 2>nul
+                    set /p URL=<"%TEMP%\url.txt"
                 )
             )
             
             if not "!URL!"=="" (
                 echo [INFO] Downloading !FILENAME!...
-                curl -fsSL -L -A "Mozilla/5.0" -o "mods\!FILENAME!" "!URL!"
+                powershell -Command "try { $ProgressPreference='SilentlyContinue'; Invoke-WebRequest -Uri '!URL!' -OutFile 'mods\!FILENAME!' -UseBasicParsing -Headers @{'User-Agent'='Mozilla/5.0'; 'Referer'='https://www.curseforge.com/'}; exit 0 } catch { exit 1 }"
                 if !ERRORLEVEL! EQU 0 (
                     set /a DOWNLOADED+=1
                 ) else (
