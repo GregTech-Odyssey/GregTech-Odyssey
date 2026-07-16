@@ -25,7 +25,7 @@ check_java() {
 }
 
 url_encode() {
-    echo "$1" | sed 's/ /%20/g; s/+/%2B/g; s/&/%26/g; s/#/%23/g'
+    echo "$1" | sed 's/ /%20/g; s/+/%2B/g; s/&/%26/g; s/#/%23/g; s/\!/%21/g; s/\$/%24/g; s\'/'/%27/g; s\*/%2A/g'
 }
 
 get_curseforge_url() {
@@ -72,7 +72,7 @@ download_mods() {
         
         if [ -n "$url" ]; then
             info "Downloading $filename..."
-            if curl -fsSL -o "mods/$filename" "$url"; then
+            if curl -fsSL -L -o "mods/$filename" "$url"; then
                 downloaded=$((downloaded + 1))
             else
                 error "Failed to download $filename"

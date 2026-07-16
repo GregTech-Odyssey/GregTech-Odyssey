@@ -67,13 +67,16 @@ for %%F in (mods\*pw.toml) do (
                     set "PREFIX=!FILE_ID:~0,4!"
                     set "SUFFIX=!FILE_ID:~4!"
                     set "ENCODED=!FILENAME: =%%20!"
+                    set "ENCODED=!ENCODED:+=%%2B!"
+                    set "ENCODED=!ENCODED:&=%%26!"
+                    set "ENCODED=!ENCODED:#=%%23!"
                     set "URL=https://edge.forgecdn.net/files/!PREFIX!/!SUFFIX!/!ENCODED!"
                 )
             )
             
             if not "!URL!"=="" (
                 echo [INFO] Downloading !FILENAME!...
-                curl -fsSL -o "mods\!FILENAME!" "!URL!"
+                curl -fsSL -L -o "mods\!FILENAME!" "!URL!"
                 if !ERRORLEVEL! EQU 0 (
                     set /a DOWNLOADED+=1
                 ) else (
