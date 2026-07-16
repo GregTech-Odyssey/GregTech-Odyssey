@@ -46,34 +46,51 @@ for /f "tokens=2 delims== " %%A in ('findstr /b "file = " index.toml') do (
     set "FILE=!FILE:"=!"
     
     if "!FILE:~0,5!"=="mods\" (
-        if "!FILE:~-8!"==".pw.toml" (
-            if exist "!FILE!" (
-                set "SKIP=0"
-                for /f "tokens=2 delims== " %%B in ('findstr /b "side = " "!FILE!" 2^>nul') do (
-                    set "SIDE=%%~B"
-                    set "SIDE=!SIDE:"=!"
-                    if "!SIDE!"=="client" set "SKIP=1"
-                )
-                
-                if "!SKIP!"=="0" (
-                    for /f "tokens=2 delims== " %%C in ('findstr /b "download.url = " "!FILE!" 2^>nul') do (
-                        set "URL=%%~C"
+        if exist "!FILE!" (
+            set "SKIP=0"
+            set "URL="
+            set "FILENAME="
+            set "FILE_ID="
+            
+            for /f "tokens=2 delims== " %%B in ('findstr /b "side = " "!FILE!" 2^>nul') do (
+                set "SIDE=%%~B"
+                set "SIDE=!SIDE:"=!"
+                if "!SIDE!"=="client" set "SKIP=1"
+            )
+            
+            for /f "tokens=2 delims== " %%C in ('findstr /b "filename = " "!FILE!" 2^>nul') do (
+                set "FILENAME=%%~C"
+                set "FILENAME=!FILENAME:"=!"
+            )
+            
+            if "!SKIP!"=="0" if not "!FILENAME!"=="" (
+                if exist "mods\!FILENAME!" (
+                    set "SKIP=1"
+                ) else (
+                    for /f "tokens=2 delims== " %%D in ('findstr /b "url = " "!FILE!" 2^>nul') do (
+                        set "URL=%%~D"
                         set "URL=!URL:"=!"
-                        
-                        for /f "tokens=2 delims== " %%D in ('findstr /b "filename = " "!FILE!" 2^>nul') do (
-                            set "FILENAME=%%~D"
-                            set "FILENAME=!FILENAME:"=!"
-                            
-                            if not exist "mods\!FILENAME!" (
-                                echo [INFO] Downloading !FILENAME!...
-                                curl -fsSL -o "mods\!FILENAME!" "!URL!"
-                                if !ERRORLEVEL! NEQ 0 (
-                                    echo [ERROR] Failed to download !FILENAME!
-                                    echo.
-                                    pause
-                                    exit /b 1
-                                )
-                            )
+                    )
+                    
+                    if "!URL!"=="" (
+                        for /f "tokens=2 delims== " %%E in ('findstr /b "file-id = " "!FILE!" 2^>nul') do (
+                            set "FILE_ID=%%~E"
+                        )
+                        if not "!FILE_ID!"=="" (
+                            set "PREFIX=!FILE_ID:~0,4!"
+                            set "SUFFIX=!FILE_ID:~4!"
+                            set "URL=https://edge.forgecdn.net/files/!PREFIX!/!SUFFIX!/!FILENAME!"
+                        )
+                    )
+                    
+                    if not "!URL!"=="" (
+                        echo [INFO] Downloading !FILENAME!...
+                        curl -fsSL -o "mods\!FILENAME!" "!URL!"
+                        if !ERRORLEVEL! NEQ 0 (
+                            echo [ERROR] Failed to download !FILENAME!
+                            echo.
+                            pause
+                            exit /b 1
                         )
                     )
                 )

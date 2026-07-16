@@ -24,6 +24,14 @@ check_java() {
     info "Using Java: $JAVA_CMD"
 }
 
+get_curseforge_url() {
+    local file_id=$1
+    local filename=$2
+    local prefix=${file_id:0:4}
+    local suffix=${file_id:4}
+    echo "https://edge.forgecdn.net/files/${prefix}/${suffix}/${filename}"
+}
+
 download_mods() {
     if ls mods/*.jar 1> /dev/null 2>&1; then
         info "Mods already installed, skipping..."
@@ -35,36 +43,63 @@ download_mods() {
     fi
 
     info "Downloading server mods..."
-    
     mkdir -p mods
+    
+    local total=0
+    local downloaded=0
+    local skipped=0
     
     while IFS= read -r line; do
         file=$(echo "$line" | sed 's/file = "//;s/"//')
+        
         if [[ "$file" == mods/*.pw.toml ]]; then
             mod_toml="$file"
             if [ -f "$mod_toml" ]; then
-                side=$(grep -E '^side = ' "$mod_toml" 2>/dev/null | head -1 | sed 's/side = "//;s/"//')
+                total=$((total + 1))
                 
+                side=$(grep -E '^side = ' "$mod_toml" 2>/dev/null | head -1 | sed 's/side = "//;s/"//')
                 if [ "$side" = "client" ]; then
+                    skipped=$((skipped + 1))
                     continue
                 fi
                 
-                url=$(grep -E '^download\.url = ' "$mod_toml" 2>/dev/null | head -1 | sed 's/download\.url = "//;s/"//')
                 filename=$(grep -E '^filename = ' "$mod_toml" 2>/dev/null | head -1 | sed 's/filename = "//;s/"//')
+                if [ -z "$filename" ]; then
+                    skipped=$((skipped + 1))
+                    continue
+                fi
                 
-                if [ -n "$url" ] && [ -n "$filename" ]; then
-                    if [ ! -f "mods/$filename" ]; then
-                        info "Downloading $filename..."
-                        if ! curl -fsSL -o "mods/$filename" "$url"; then
-                            error "Failed to download $filename"
-                        fi
+                if [ -f "mods/$filename" ]; then
+                    skipped=$((skipped + 1))
+                    continue
+                fi
+                
+                url=$(grep -E '^url = ' "$mod_toml" 2>/dev/null | head -1 | sed 's/url = "//;s/"//')
+                
+                if [ -z "$url" ]; then
+                    file_id=$(grep -E 'file-id = ' "$mod_toml" 2>/dev/null | head -1 | sed 's/.*file-id = //')
+                    if [ -n "$file_id" ]; then
+                        url=$(get_curseforge_url "$file_id" "$filename")
                     fi
                 fi
+                
+                if [ -n "$url" ]; then
+                    info "Downloading $filename..."
+                    if curl -fsSL -o "mods/$filename" "$url"; then
+                        downloaded=$((downloaded + 1))
+                    else
+                        error "Failed to download $filename"
+                    fi
+                else
+                    skipped=$((skipped + 1))
+                fi
             fi
+        elif [[ "$file" == mods/*.jar ]]; then
+            skipped=$((skipped + 1))
         fi
     done < <(grep -E '^file = ' index.toml)
     
-    info "All mods downloaded"
+    info "Downloaded: $downloaded, Skipped: $skipped"
 }
 
 start_server() {
