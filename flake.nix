@@ -136,7 +136,6 @@
               done
 
               cp ${./start-server.sh} $out/start-server.sh
-              cp ${./start-server.bat} $out/start-server.bat
               cp ${./start-server.ps1} $out/start-server.ps1
               chmod +x $out/start-server.sh
 
