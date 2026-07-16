@@ -133,7 +133,7 @@ if (-not (Test-Path "unix_args.txt") -and !(Get-ChildItem -Path "libraries" -Rec
 
     # Cleanup
     Remove-Item $installerPath -Force -ErrorAction SilentlyContinue
-    Remove-Item "$installerPath.log" -Force -ErrorAction SilentlyContinue
+    Get-ChildItem -Path "." -Filter "forge-*.log" -ErrorAction SilentlyContinue | Remove-Item -Force -ErrorAction SilentlyContinue
     Remove-Item "run.sh", "run.bat" -Force -ErrorAction SilentlyContinue
     Remove-Item "$env:TEMP\forge-install.log", "$env:TEMP\forge-install-err.log" -Force -ErrorAction SilentlyContinue
     Write-Host "[INFO] Forge installed successfully" -ForegroundColor Green
@@ -221,14 +221,13 @@ foreach ($toml in $pwTomls) {
 Write-Host "[INFO] Downloaded: $downloaded, Skipped: $skipped" -ForegroundColor Green
 Write-Host ""
 
-# Cleanup downloaded .pw.toml files
-if ($downloadedTomls.Count -gt 0) {
-    foreach ($tomlPath in $downloadedTomls) {
-        Remove-Item $tomlPath -Force -ErrorAction SilentlyContinue
-    }
-    Write-Host "[INFO] Cleaned up metadata files" -ForegroundColor Green
-    Write-Host ""
+# Cleanup all .pw.toml files
+$pwTomls = Get-ChildItem -Path "mods" -Filter "*.pw.toml" -ErrorAction SilentlyContinue
+foreach ($toml in $pwTomls) {
+    Remove-Item $toml.FullName -Force -ErrorAction SilentlyContinue
 }
+Write-Host "[INFO] Cleaned up metadata files" -ForegroundColor Green
+Write-Host ""
 
 # ============ Start server ============
 Write-Host "[INFO] Starting GregTech Odyssey server..." -ForegroundColor Green
