@@ -36,7 +36,7 @@ $javaCmd = $null
 function Get-JavaVersion {
     param([string]$Path)
     try {
-        $output = & cmd /c "`"$Path`" -version 2>&1"
+        $output = & $Path -version 2>&1
         $match = [regex]::Match($output, 'version "(\d+)')
         if ($match.Success) { return [int]$match.Groups[1].Value }
     } catch {}
