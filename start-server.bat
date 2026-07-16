@@ -41,9 +41,20 @@ if exist ".\packwiz.exe" (
 )
 
 echo [INFO] Downloading packwiz...
-curl -fsSL "https://github.com/packwiz/packwiz/releases/latest/download/packwiz-windows-amd64.exe" -o packwiz.exe
+curl -fsSL "https://nightly.link/packwiz/packwiz/workflows/go/main/packwiz-windows-amd64.zip" -o packwiz.zip
 if %ERRORLEVEL% NEQ 0 (
     echo [ERROR] Failed to download packwiz
+    echo.
+    pause
+    exit /b 1
+)
+
+echo [INFO] Extracting packwiz...
+tar -xf packwiz.zip
+del packwiz.zip
+
+if not exist ".\packwiz.exe" (
+    echo [ERROR] Failed to extract packwiz
     echo.
     pause
     exit /b 1

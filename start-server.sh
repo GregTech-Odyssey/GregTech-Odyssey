@@ -30,7 +30,7 @@ check_java() {
 }
 
 ensure_packwiz() {
-    if [ -f "./packwiz" ] && file "./packwiz" | grep -q "executable"; then
+    if [ -f "./packwiz" ] && [ -x "./packwiz" ]; then
         info "packwiz found"
         return
     fi
@@ -42,32 +42,31 @@ ensure_packwiz() {
     case "$OS" in
         Linux*)
             if [ "$ARCH" = "x86_64" ]; then
-                PACKWIZ_URL="https://github.com/packwiz/packwiz/releases/latest/download/packwiz-linux-amd64"
+                PACKWIZ_URL="https://nightly.link/packwiz/packwiz/workflows/go/main/packwiz-linux-amd64.zip"
             elif [ "$ARCH" = "aarch64" ]; then
-                PACKWIZ_URL="https://github.com/packwiz/packwiz/releases/latest/download/packwiz-linux-arm64"
+                PACKWIZ_URL="https://nightly.link/packwiz/packwiz/workflows/go/main/packwiz-linux-arm64.zip"
             else
                 error "Unsupported architecture: $ARCH"
             fi
             ;;
         Darwin*)
             if [ "$ARCH" = "x86_64" ]; then
-                PACKWIZ_URL="https://github.com/packwiz/packwiz/releases/latest/download/packwiz-darwin-amd64"
+                PACKWIZ_URL="https://nightly.link/packwiz/packwiz/workflows/go/main/packwiz-darwin-amd64.zip"
             elif [ "$ARCH" = "arm64" ]; then
-                PACKWIZ_URL="https://github.com/packwiz/packwiz/releases/latest/download/packwiz-darwin-arm64"
+                PACKWIZ_URL="https://nightly.link/packwiz/packwiz/workflows/go/main/packwiz-darwin-arm64.zip"
             else
                 error "Unsupported architecture: $ARCH"
             fi
             ;;
-        MINGW*|MSYS*|CYGWIN*)
-            PACKWIZ_URL="https://github.com/packwiz/packwiz/releases/latest/download/packwiz-windows-amd64.exe"
-            ;;
         *)
-            error "Unsupported OS: $OS"
+            error "Unsupported OS: $OS. Use start-server.bat on Windows."
             ;;
     esac
     
     rm -f ./packwiz ./packwiz.exe
-    curl -fsSL "$PACKWIZ_URL" -o packwiz
+    curl -fsSL "$PACKWIZ_URL" -o packwiz.zip
+    unzip -o packwiz.zip -d .
+    rm -f packwiz.zip
     chmod +x packwiz
     info "packwiz installed successfully"
 }
