@@ -104,6 +104,44 @@
               sed -i 's/\(win_args.txt\) \(%\*\)/\1 nogui \2/' $out/run.bat
             '';
           };
+
+          server-packwiz = let inherit (self.packages.${system}) forge modpack;
+          in pkgs.stdenvNoCC.mkDerivation {
+            inherit (pack) version;
+            pname = "gregtech-odyssey-server-packwiz";
+            src = ./.;
+
+            dontUnpack = true;
+            dontConfigure = true;
+            dontFixup = true;
+
+            installPhase = ''
+              mkdir -p $out
+
+              cp -r ${forge}/* $out/
+              chmod +w $out/run.sh $out/run.bat 2>/dev/null || true
+
+              cp -r ${modpack}/config $out/ 2>/dev/null || true
+              cp -r ${modpack}/defaultconfigs $out/ 2>/dev/null || true
+
+              mkdir -p $out/mods
+              cp -r ${modpack}/mods/* $out/mods/ 2>/dev/null || true
+              cp ${modpack}/pack.toml $out/ 2>/dev/null || true
+              cp ${modpack}/index.toml $out/ 2>/dev/null || true
+
+              find $out -name "*.jar" -path "*/mods/*" -delete 2>/dev/null || true
+
+              cp ${pkgs.packwiz}/bin/packwiz $out/packwiz
+              chmod +x $out/packwiz
+
+              cp ${./start-server.sh} $out/start-server.sh
+              cp ${./start-server.bat} $out/start-server.bat
+              chmod +x $out/start-server.sh
+
+              sed -i 's/\(unix_args.txt\) \("\$@"\)/\1 nogui \2/' $out/run.sh
+              sed -i 's/\(win_args.txt\) \(%\*\)/\1 nogui \2/' $out/run.bat
+            '';
+          };
         };
       });
 }
