@@ -11,13 +11,6 @@ NC='\033[0m'
 info() { echo -e "${GREEN}[INFO]${NC} $1"; }
 error() { echo -e "${RED}[ERROR]${NC} $1"; exit 1; }
 
-cleanup() {
-    if [ -n "$PACKWIZ_PID" ]; then
-        kill $PACKWIZ_PID 2>/dev/null || true
-    fi
-}
-trap cleanup EXIT
-
 check_java() {
     if command -v java &> /dev/null; then
         JAVA_CMD="java"
@@ -31,50 +24,42 @@ check_java() {
     info "Using Java: $JAVA_CMD"
 }
 
-install_mods() {
+download_mods() {
     if ls mods/*.jar 1> /dev/null 2>&1; then
         info "Mods already installed, skipping..."
         return
     fi
 
-    if [ ! -f "pack.toml" ] || [ ! -f "index.toml" ]; then
-        error "pack.toml or index.toml not found"
+    if [ ! -f "index.toml" ]; then
+        error "index.toml not found"
     fi
 
-    PACKWIZ_CMD=""
-    OS="$(uname -s)"
+    info "Downloading mods from index.toml..."
     
-    if [ "$OS" = "Linux" ] && [ -x "./packwiz-bin/packwiz-linux" ]; then
-        PACKWIZ_CMD="./packwiz-bin/packwiz-linux"
-    elif [ "$OS" = "Darwin" ] && [ -x "./packwiz-bin/packwiz-macos" ]; then
-        PACKWIZ_CMD="./packwiz-bin/packwiz-macos"
-    fi
-
-    if [ -z "$PACKWIZ_CMD" ]; then
-        error "packwiz not found for your platform"
-    fi
-
-    info "Starting packwiz server in $PWD..."
-    $PACKWIZ_CMD serve &
-    PACKWIZ_PID=$!
-
-    info "Waiting for server to start..."
-    sleep 3
-
-    for i in {1..10}; do
-        if curl -s http://localhost:8080/pack.toml > /dev/null 2>&1; then
-            info "Server is ready"
-            break
+    mkdir -p mods
+    
+    grep -E '^file = ' index.toml | while read -r line; do
+        file=$(echo "$line" | sed 's/file = "//;s/"//')
+        if [[ "$file" == mods/*.pw.toml ]]; then
+            mod_toml="$file"
+            if [ -f "$mod_toml" ]; then
+                url=$(grep -E '^download\.url = ' "$mod_toml" 2>/dev/null | head -1 | sed 's/download\.url = "//;s/"//')
+                filename=$(grep -E '^filename = ' "$mod_toml" 2>/dev/null | head -1 | sed 's/filename = "//;s/"//')
+                
+                if [ -n "$url" ] && [ -n "$filename" ]; then
+                    if [ ! -f "mods/$filename" ]; then
+                        info "Downloading $filename..."
+                        curl -fsSL -o "mods/$filename" "$url"
+                        if [ $? -ne 0 ]; then
+                            error "Failed to download $filename"
+                        fi
+                    fi
+                fi
+            fi
         fi
-        sleep 1
     done
-
-    info "Installing mods..."
-    if ! $JAVA_CMD -jar packwiz-bin/packwiz-installer-bootstrap.jar -g -s server http://localhost:8080/pack.toml; then
-        error "Failed to install mods"
-    fi
-
-    info "All mods installed"
+    
+    info "All mods downloaded"
 }
 
 start_server() {
@@ -92,8 +77,9 @@ main() {
     info "GregTech Odyssey Server Launcher"
     info "================================="
     check_java
-    install_mods
+    download_mods
     start_server "$@"
 }
 
 main "$@"
+read -p "Press Enter to continue..."

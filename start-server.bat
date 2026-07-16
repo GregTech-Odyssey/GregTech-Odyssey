@@ -1,5 +1,5 @@
 @echo off
-REM GregTech Odyssey Server Launcher (Windows)
+REM GregTech Odyssey Server Launcher
 
 setlocal enabledelayedexpansion
 
@@ -32,73 +32,50 @@ if exist ".\mods\*.jar" (
     goto :start_server
 )
 
-REM Check required files
-if not exist "pack.toml" (
-    echo [ERROR] pack.toml not found. Please re-download the server pack.
-    echo.
-    pause
-    exit /b 1
-)
-
 if not exist "index.toml" (
-    echo [ERROR] index.toml not found. Please re-download the server pack.
+    echo [ERROR] index.toml not found
     echo.
     pause
     exit /b 1
 )
 
-set "PACKWIZ_CMD="
-if exist ".\packwiz-bin\packwiz-windows.exe" ( set "PACKWIZ_CMD=%~dp0packwiz-bin\packwiz-windows.exe" )
-if "!PACKWIZ_CMD!"=="" (
-    echo [ERROR] packwiz not found
-    echo.
-    pause
-    exit /b 1
-)
+echo [INFO] Downloading mods from index.toml...
+mkdir mods 2>nul
 
-echo [INFO] Starting packwiz server in %~dp0...
-cd /d "%~dp0"
-start "packwiz-serve" /min cmd /c "cd /d "%~dp0" && "!PACKWIZ_CMD!" serve"
-
-echo [INFO] Waiting for server to start...
-timeout /t 3 /nobreak >nul
-
-REM Test connection
-set "READY=0"
-for /l %%i in (1,1,10) do (
-    if !READY! EQU 0 (
-        curl -s http://localhost:8080/pack.toml >nul 2>nul
-        if !ERRORLEVEL! EQU 0 (
-            set "READY=1"
-            echo [INFO] Server is ready
-        ) else (
-            timeout /t 1 /nobreak >nul
+for /f "tokens=2 delims== " %%A in ('findstr /b "file = " index.toml') do (
+    set "FILE=%%~A"
+    set "FILE=!FILE:"=!"
+    
+    if "!FILE:~0,5!"=="mods\" (
+        if "!FILE:~-8!"==".pw.toml" (
+            if exist "!FILE!" (
+                for /f "tokens=2 delims== " %%B in ('findstr /b "download.url = " "!FILE!" 2^>nul') do (
+                    set "URL=%%~B"
+                    set "URL=!URL:"=!"
+                    
+                    for /f "tokens=2 delims== " %%C in ('findstr /b "filename = " "!FILE!" 2^>nul') do (
+                        set "FILENAME=%%~C"
+                        set "FILENAME=!FILENAME:"=!"
+                        
+                        if not exist "mods\!FILENAME!" (
+                            echo [INFO] Downloading !FILENAME!...
+                            curl -fsSL -o "mods\!FILENAME!" "!URL!"
+                            if !ERRORLEVEL! NEQ 0 (
+                                echo [ERROR] Failed to download !FILENAME!
+                                echo.
+                                pause
+                                exit /b 1
+                            )
+                        )
+                    )
+                )
+            )
         )
     )
 )
 
-if !READY! EQU 0 (
-    echo [WARN] Server might not be responding, trying anyway...
-)
-
-echo [INFO] Installing mods...
-java -jar "%~dp0packwiz-bin\packwiz-installer-bootstrap.jar" -g -s server http://localhost:8080/pack.toml
-set "INSTALL_RESULT=!ERRORLEVEL!"
-
-echo [INFO] Stopping packwiz server...
-taskkill /f /fi "WINDOWTITLE eq packwiz-serve" >nul 2>&1
-taskkill /f /im packwiz.exe >nul 2>&1
-
-if !INSTALL_RESULT! NEQ 0 (
-    echo.
-    echo [ERROR] Failed to install mods
-    echo.
-    pause
-    exit /b 1
-)
-
 echo.
-echo [INFO] All mods installed
+echo [INFO] All mods downloaded
 echo.
 
 :start_server
