@@ -33,30 +33,23 @@ get_curseforge_url() {
 }
 
 download_mods() {
-    if ls mods/*.jar 1> /dev/null 2>&1; then
-        info "Mods already installed, skipping..."
-        return
-    fi
-
     if [ ! -f "index.toml" ]; then
         error "index.toml not found"
     fi
 
-    info "Downloading server mods..."
-    mkdir -p mods
-    
     local total=0
     local downloaded=0
     local skipped=0
+    local needed=0
     
     while IFS= read -r line; do
         file=$(echo "$line" | sed 's/file = "//;s/"//')
         
         if [[ "$file" == mods/*.pw.toml ]]; then
+            total=$((total + 1))
             mod_toml="$file"
+            
             if [ -f "$mod_toml" ]; then
-                total=$((total + 1))
-                
                 side=$(grep -E '^side = ' "$mod_toml" 2>/dev/null | head -1 | sed 's/side = "//;s/"//')
                 if [ "$side" = "client" ]; then
                     skipped=$((skipped + 1))
@@ -68,6 +61,8 @@ download_mods() {
                     skipped=$((skipped + 1))
                     continue
                 fi
+                
+                needed=$((needed + 1))
                 
                 if [ -f "mods/$filename" ]; then
                     skipped=$((skipped + 1))
@@ -94,12 +89,15 @@ download_mods() {
                     skipped=$((skipped + 1))
                 fi
             fi
-        elif [[ "$file" == mods/*.jar ]]; then
-            skipped=$((skipped + 1))
         fi
     done < <(grep -E '^file = ' index.toml)
     
-    info "Downloaded: $downloaded, Skipped: $skipped"
+    local installed=$(ls mods/*.jar 2>/dev/null | wc -l)
+    info "Total mods: $total, Needed: $needed, Downloaded: $downloaded, Skipped: $skipped, Installed: $installed"
+    
+    if [ "$installed" -lt 2 ]; then
+        error "Not enough mods installed. Expected at least 2 (gtocore + gtonativelib), got $installed"
+    fi
 }
 
 start_server() {

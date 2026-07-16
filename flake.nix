@@ -129,7 +129,7 @@
               cp ${./pack.toml} $out/pack.toml
               cp ${./index.toml} $out/index.toml
 
-              find $out -name "*.jar" -path "*/mods/*" -delete 2>/dev/null || true
+              find $out -name "*.pw.toml" -path "*/mods/*" -delete 2>/dev/null || true
 
               cp ${./start-server.sh} $out/start-server.sh
               cp ${./start-server.bat} $out/start-server.bat
