@@ -1,19 +1,14 @@
 #!/bin/bash
 # GregTech Odyssey Server Launcher
-# Automatically installs packwiz and downloads all required mods
-
-set -e
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 cd "$SCRIPT_DIR"
 
 RED='\033[0;31m'
 GREEN='\033[0;32m'
-YELLOW='\033[1;33m'
 NC='\033[0m'
 
 info() { echo -e "${GREEN}[INFO]${NC} $1"; }
-warn() { echo -e "${YELLOW}[WARN]${NC} $1"; }
 error() { echo -e "${RED}[ERROR]${NC} $1"; exit 1; }
 
 cleanup() {
@@ -42,33 +37,39 @@ install_mods() {
         return
     fi
 
-    if [ ! -f "./packwiz-bin/packwiz-installer-bootstrap.jar" ]; then
-        error "packwiz-installer-bootstrap.jar not found"
+    if [ ! -f "pack.toml" ] || [ ! -f "index.toml" ]; then
+        error "pack.toml or index.toml not found"
     fi
 
     PACKWIZ_CMD=""
     OS="$(uname -s)"
     
-    if [ "$OS" = "Linux" ] && [ -f "./packwiz-bin/packwiz-linux" ] && [ -x "./packwiz-bin/packwiz-linux" ]; then
+    if [ "$OS" = "Linux" ] && [ -x "./packwiz-bin/packwiz-linux" ]; then
         PACKWIZ_CMD="./packwiz-bin/packwiz-linux"
-    elif [ "$OS" = "Darwin" ] && [ -f "./packwiz-bin/packwiz-macos" ] && [ -x "./packwiz-bin/packwiz-macos" ]; then
+    elif [ "$OS" = "Darwin" ] && [ -x "./packwiz-bin/packwiz-macos" ]; then
         PACKWIZ_CMD="./packwiz-bin/packwiz-macos"
-    elif [ -f "./packwiz" ] && [ -x "./packwiz" ]; then
-        PACKWIZ_CMD="./packwiz"
     fi
 
     if [ -z "$PACKWIZ_CMD" ]; then
-        error "packwiz CLI not found for your platform"
+        error "packwiz not found for your platform"
     fi
 
-    info "Starting packwiz server..."
+    info "Starting packwiz server in $PWD..."
     $PACKWIZ_CMD serve &
     PACKWIZ_PID=$!
-    
-    info "Waiting for packwiz server to start..."
-    sleep 5
 
-    info "Installing mods via packwiz-installer..."
+    info "Waiting for server to start..."
+    sleep 3
+
+    for i in {1..10}; do
+        if curl -s http://localhost:8080/pack.toml > /dev/null 2>&1; then
+            info "Server is ready"
+            break
+        fi
+        sleep 1
+    done
+
+    info "Installing mods..."
     if ! $JAVA_CMD -jar packwiz-bin/packwiz-installer-bootstrap.jar -g -s server http://localhost:8080/pack.toml; then
         error "Failed to install mods"
     fi
