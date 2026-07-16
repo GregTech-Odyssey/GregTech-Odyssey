@@ -33,15 +33,19 @@ ensure_packwiz() {
     PACKWIZ_CMD=""
     
     if command -v packwiz &> /dev/null; then
-        PACKWIZ_CMD="packwiz"
-        info "packwiz found in PATH"
-        return
+        if packwiz version &> /dev/null; then
+            PACKWIZ_CMD="packwiz"
+            info "packwiz found in PATH"
+            return
+        fi
     fi
     
     if [ -f "./packwiz" ] && [ -x "./packwiz" ]; then
-        PACKWIZ_CMD="./packwiz"
-        info "packwiz found"
-        return
+        if ./packwiz version &> /dev/null; then
+            PACKWIZ_CMD="./packwiz"
+            info "packwiz found"
+            return
+        fi
     fi
 
     info "Installing packwiz..."

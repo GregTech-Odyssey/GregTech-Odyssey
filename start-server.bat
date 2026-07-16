@@ -37,17 +37,24 @@ echo.
 
 set "PACKWIZ_CMD="
 
+REM Test if packwiz in PATH actually works
 where packwiz >nul 2>nul
 if %ERRORLEVEL% EQU 0 (
-    set "PACKWIZ_CMD=packwiz"
-    echo [INFO] packwiz found in PATH
-    goto :packwiz_found
+    packwiz version >nul 2>nul
+    if !ERRORLEVEL! EQU 0 (
+        set "PACKWIZ_CMD=packwiz"
+        echo [INFO] packwiz found in PATH
+        goto :packwiz_found
+    )
 )
 
 if exist ".\packwiz.exe" (
-    set "PACKWIZ_CMD=.\packwiz.exe"
-    echo [INFO] packwiz found
-    goto :packwiz_found
+    .\packwiz.exe version >nul 2>nul
+    if !ERRORLEVEL! EQU 0 (
+        set "PACKWIZ_CMD=.\packwiz.exe"
+        echo [INFO] packwiz found
+        goto :packwiz_found
+    )
 )
 
 echo [INFO] Installing packwiz...
@@ -59,8 +66,11 @@ if %ERRORLEVEL% EQU 0 (
     if %ERRORLEVEL% EQU 0 (
         set "PACKWIZ_CMD=%USERPROFILE%\go\bin\packwiz.exe"
         if exist "!PACKWIZ_CMD!" (
-            echo [INFO] packwiz installed successfully
-            goto :packwiz_found
+            "!PACKWIZ_CMD!" version >nul 2>nul
+            if !ERRORLEVEL! EQU 0 (
+                echo [INFO] packwiz installed successfully
+                goto :packwiz_found
+            )
         )
     )
 )
@@ -93,7 +103,6 @@ echo Please install packwiz manually using one of these methods:
 echo   1. Go: go install github.com/packwiz/packwiz@latest
 echo   2. Scoop: scoop install packwiz
 echo   3. Chocolatey: choco install packwiz
-echo   4. Download from: https://nightly.link/packwiz/packwiz/workflows/go/main
 echo.
 pause
 exit /b 1
