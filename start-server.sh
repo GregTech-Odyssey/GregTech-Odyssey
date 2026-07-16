@@ -112,10 +112,10 @@ download_mods() {
 
 start_server() {
     info "Starting GregTech Odyssey server..."
-    if [ -f "./run.sh" ]; then
+    if [ -f "./forge.jar" ]; then
+        $JAVA_CMD @unix_args.txt nogui "$@"
+    elif [ -f "./run.sh" ]; then
         ./run.sh nogui "$@"
-    elif [ -f "./forge.jar" ]; then
-        $JAVA_CMD -jar forge.jar nogui "$@"
     else
         error "No server launcher found"
     fi

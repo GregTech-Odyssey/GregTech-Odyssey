@@ -124,10 +124,19 @@ Write-Host ""
 # Start server
 Write-Host "[INFO] Starting GregTech Odyssey server..." -ForegroundColor Green
 Write-Host ""
-if (Test-Path "run.bat") {
-    & .\run.bat nogui @args
-} elseif (Test-Path "forge.jar") {
-    & $javaCmd -jar forge.jar nogui @args
+
+# Directly run Java instead of run.bat to keep server in same window
+$serverJar = $null
+if (Test-Path "forge.jar") {
+    $serverJar = "forge.jar"
+} elseif (Test-Path "libraries\net\minecraftforge\forge\*\forge-*.jar") {
+    $serverJar = (Get-Item "libraries\net\minecraftforge\forge\*\forge-*.jar" | Select-Object -First 1).FullName
+}
+
+if ($serverJar) {
+    & $javaCmd @((Get-Content "unix_args.txt" -ErrorAction SilentlyContinue) -split '\s+') -jar $serverJar nogui @args
+} elseif (Test-Path "run.bat") {
+    & cmd /c "run.bat nogui" @args
 } else {
     Write-Host "[ERROR] No server launcher found" -ForegroundColor Red
     pause
