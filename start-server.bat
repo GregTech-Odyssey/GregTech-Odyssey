@@ -35,22 +35,18 @@ exit /b 1
 echo [INFO] Using Java: %JAVA_CMD%
 echo.
 
-REM Check if mods already installed
 if exist ".\mods\*.jar" (
     echo [INFO] Mods already installed, skipping...
     goto :start_server
 )
 
-REM Check if packwiz installer exists
 if not exist ".\packwiz-bin\packwiz-installer-bootstrap.jar" (
-    echo [ERROR] packwiz-installer-bootstrap.jar not found in packwiz-bin/
-    echo Please re-download the server pack.
+    echo [ERROR] packwiz-installer-bootstrap.jar not found
     echo.
     pause
     exit /b 1
 )
 
-REM Check if packwiz CLI exists
 set "PACKWIZ_CMD="
 if exist ".\packwiz-bin\packwiz-windows.exe" (
     set "PACKWIZ_CMD=.\packwiz-bin\packwiz-windows.exe"
@@ -65,16 +61,24 @@ if "!PACKWIZ_CMD!"=="" (
     exit /b 1
 )
 
-echo [INFO] Starting packwiz server in background...
-start /b "" !PACKWIZ_CMD! serve >nul 2>&1
-timeout /t 2 /nobreak >nul
+echo [INFO] Starting packwiz server...
+start "packwiz-serve" /b cmd /c "!PACKWIZ_CMD!" serve
+
+echo [INFO] Waiting for packwiz server to start...
+timeout /t 5 /nobreak >nul
+
+echo [INFO] Testing packwiz server connection...
+curl -s http://localhost:8080/pack.toml >nul 2>&1
+if %ERRORLEVEL% NEQ 0 (
+    echo [WARN] Server might not be ready, waiting longer...
+    timeout /t 5 /nobreak >nul
+)
 
 echo [INFO] Installing mods via packwiz-installer...
 %JAVA_CMD% -jar packwiz-bin\packwiz-installer-bootstrap.jar -g -s server http://localhost:8080/pack.toml
 if %ERRORLEVEL% NEQ 0 (
     echo.
     echo [ERROR] Failed to install mods
-    echo.
     taskkill /f /im packwiz.exe >nul 2>&1
     pause
     exit /b 1

@@ -43,8 +43,7 @@ install_mods() {
     fi
 
     if [ ! -f "./packwiz-bin/packwiz-installer-bootstrap.jar" ]; then
-        error "packwiz-installer-bootstrap.jar not found in packwiz-bin/
-Please re-download the server pack."
+        error "packwiz-installer-bootstrap.jar not found"
     fi
 
     PACKWIZ_CMD=""
@@ -62,10 +61,12 @@ Please re-download the server pack."
         error "packwiz CLI not found for your platform"
     fi
 
-    info "Starting packwiz server in background..."
-    $PACKWIZ_CMD serve &>/dev/null &
+    info "Starting packwiz server..."
+    $PACKWIZ_CMD serve &
     PACKWIZ_PID=$!
-    sleep 2
+    
+    info "Waiting for packwiz server to start..."
+    sleep 5
 
     info "Installing mods via packwiz-installer..."
     if ! $JAVA_CMD -jar packwiz-bin/packwiz-installer-bootstrap.jar -g -s server http://localhost:8080/pack.toml; then
