@@ -66,7 +66,8 @@ for %%F in (mods\*pw.toml) do (
                 if not "!FILE_ID!"=="" (
                     set "PREFIX=!FILE_ID:~0,4!"
                     set "SUFFIX=!FILE_ID:~4!"
-                    set "URL=https://edge.forgecdn.net/files/!PREFIX!/!SUFFIX!/!FILENAME!"
+                    set "ENCODED=!FILENAME: =%%20!"
+                    set "URL=https://edge.forgecdn.net/files/!PREFIX!/!SUFFIX!/!ENCODED!"
                 )
             )
             

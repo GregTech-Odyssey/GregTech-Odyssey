@@ -24,12 +24,17 @@ check_java() {
     info "Using Java: $JAVA_CMD"
 }
 
+url_encode() {
+    echo "$1" | sed 's/ /%20/g; s/+/%2B/g; s/&/%26/g; s/#/%23/g'
+}
+
 get_curseforge_url() {
     local file_id=$1
     local filename=$2
     local prefix=${file_id:0:4}
     local suffix=${file_id:4}
-    echo "https://edge.forgecdn.net/files/${prefix}/${suffix}/${filename}"
+    local encoded_filename=$(url_encode "$filename")
+    echo "https://edge.forgecdn.net/files/${prefix}/${suffix}/${encoded_filename}"
 }
 
 download_mods() {
