@@ -34,30 +34,35 @@ download_mods() {
         error "index.toml not found"
     fi
 
-    info "Downloading mods from index.toml..."
+    info "Downloading server mods..."
     
     mkdir -p mods
     
-    grep -E '^file = ' index.toml | while read -r line; do
+    while IFS= read -r line; do
         file=$(echo "$line" | sed 's/file = "//;s/"//')
         if [[ "$file" == mods/*.pw.toml ]]; then
             mod_toml="$file"
             if [ -f "$mod_toml" ]; then
+                side=$(grep -E '^side = ' "$mod_toml" 2>/dev/null | head -1 | sed 's/side = "//;s/"//')
+                
+                if [ "$side" = "client" ]; then
+                    continue
+                fi
+                
                 url=$(grep -E '^download\.url = ' "$mod_toml" 2>/dev/null | head -1 | sed 's/download\.url = "//;s/"//')
                 filename=$(grep -E '^filename = ' "$mod_toml" 2>/dev/null | head -1 | sed 's/filename = "//;s/"//')
                 
                 if [ -n "$url" ] && [ -n "$filename" ]; then
                     if [ ! -f "mods/$filename" ]; then
                         info "Downloading $filename..."
-                        curl -fsSL -o "mods/$filename" "$url"
-                        if [ $? -ne 0 ]; then
+                        if ! curl -fsSL -o "mods/$filename" "$url"; then
                             error "Failed to download $filename"
                         fi
                     fi
                 fi
             fi
         fi
-    done
+    done < <(grep -E '^file = ' index.toml)
     
     info "All mods downloaded"
 }

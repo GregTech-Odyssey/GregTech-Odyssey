@@ -26,7 +26,6 @@ exit /b 1
 echo [INFO] Using Java: %JAVA_CMD%
 echo.
 
-REM Skip if mods already installed
 if exist ".\mods\*.jar" (
     echo [INFO] Mods already installed, skipping...
     goto :start_server
@@ -39,7 +38,7 @@ if not exist "index.toml" (
     exit /b 1
 )
 
-echo [INFO] Downloading mods from index.toml...
+echo [INFO] Downloading server mods...
 mkdir mods 2>nul
 
 for /f "tokens=2 delims== " %%A in ('findstr /b "file = " index.toml') do (
@@ -49,22 +48,31 @@ for /f "tokens=2 delims== " %%A in ('findstr /b "file = " index.toml') do (
     if "!FILE:~0,5!"=="mods\" (
         if "!FILE:~-8!"==".pw.toml" (
             if exist "!FILE!" (
-                for /f "tokens=2 delims== " %%B in ('findstr /b "download.url = " "!FILE!" 2^>nul') do (
-                    set "URL=%%~B"
-                    set "URL=!URL:"=!"
-                    
-                    for /f "tokens=2 delims== " %%C in ('findstr /b "filename = " "!FILE!" 2^>nul') do (
-                        set "FILENAME=%%~C"
-                        set "FILENAME=!FILENAME:"=!"
+                set "SKIP=0"
+                for /f "tokens=2 delims== " %%B in ('findstr /b "side = " "!FILE!" 2^>nul') do (
+                    set "SIDE=%%~B"
+                    set "SIDE=!SIDE:"=!"
+                    if "!SIDE!"=="client" set "SKIP=1"
+                )
+                
+                if "!SKIP!"=="0" (
+                    for /f "tokens=2 delims== " %%C in ('findstr /b "download.url = " "!FILE!" 2^>nul') do (
+                        set "URL=%%~C"
+                        set "URL=!URL:"=!"
                         
-                        if not exist "mods\!FILENAME!" (
-                            echo [INFO] Downloading !FILENAME!...
-                            curl -fsSL -o "mods\!FILENAME!" "!URL!"
-                            if !ERRORLEVEL! NEQ 0 (
-                                echo [ERROR] Failed to download !FILENAME!
-                                echo.
-                                pause
-                                exit /b 1
+                        for /f "tokens=2 delims== " %%D in ('findstr /b "filename = " "!FILE!" 2^>nul') do (
+                            set "FILENAME=%%~D"
+                            set "FILENAME=!FILENAME:"=!"
+                            
+                            if not exist "mods\!FILENAME!" (
+                                echo [INFO] Downloading !FILENAME!...
+                                curl -fsSL -o "mods\!FILENAME!" "!URL!"
+                                if !ERRORLEVEL! NEQ 0 (
+                                    echo [ERROR] Failed to download !FILENAME!
+                                    echo.
+                                    pause
+                                    exit /b 1
+                                )
                             )
                         )
                     )
