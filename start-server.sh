@@ -30,7 +30,7 @@ check_java() {
 }
 
 ensure_packwiz() {
-    if [ -f "./packwiz" ] || [ -f "./packwiz.exe" ]; then
+    if [ -f "./packwiz" ] && file "./packwiz" | grep -q "executable"; then
         info "packwiz found"
         return
     fi
@@ -66,6 +66,7 @@ ensure_packwiz() {
             ;;
     esac
     
+    rm -f ./packwiz ./packwiz.exe
     curl -fsSL "$PACKWIZ_URL" -o packwiz
     chmod +x packwiz
     info "packwiz installed successfully"

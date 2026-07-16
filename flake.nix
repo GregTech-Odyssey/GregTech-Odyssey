@@ -131,9 +131,6 @@
 
               find $out -name "*.jar" -path "*/mods/*" -delete 2>/dev/null || true
 
-              cp ${pkgs.packwiz}/bin/packwiz $out/packwiz
-              chmod +x $out/packwiz
-
               cp ${./start-server.sh} $out/start-server.sh
               cp ${./start-server.bat} $out/start-server.bat
               chmod +x $out/start-server.sh
