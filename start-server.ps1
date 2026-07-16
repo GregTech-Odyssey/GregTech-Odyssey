@@ -19,14 +19,12 @@ function Get-JavaVersion {
     return 0
 }
 
-# Check JAVA_HOME first
 if ($env:JAVA_HOME -and (Test-Path "$env:JAVA_HOME\bin\java.exe")) {
     if ((Get-JavaVersion "$env:JAVA_HOME\bin\java.exe") -ge 21) {
         $javaCmd = "$env:JAVA_HOME\bin\java.exe"
     }
 }
 
-# Check common Java 21+ locations
 if (-not $javaCmd) {
     $javaPaths = @(
         ".\jdk-21*\bin\java.exe",
@@ -44,7 +42,6 @@ if (-not $javaCmd) {
     }
 }
 
-# Fallback: any java in PATH
 if (-not $javaCmd -and (Get-Command java -ErrorAction SilentlyContinue)) {
     if ((Get-JavaVersion "java") -ge 21) {
         $javaCmd = "java"
@@ -126,25 +123,20 @@ foreach ($toml in $pwTomls) {
 Write-Host "[INFO] Downloaded: $downloaded, Skipped: $skipped" -ForegroundColor Green
 Write-Host ""
 
-# Start server
+# Start server - read unix_args.txt and launch Java directly
 Write-Host "[INFO] Starting GregTech Odyssey server..." -ForegroundColor Green
 Write-Host ""
 
-# Try run.bat first (most reliable)
-if (Test-Path "run.bat") {
-    $psi = New-Object System.Diagnostics.ProcessStartInfo
-    $psi.FileName = "cmd.exe"
-    $psi.Arguments = "/c run.bat nogui"
-    $psi.UseShellExecute = $false
-    $psi.RedirectStandardInput = $false
-    $proc = [System.Diagnostics.Process]::Start($psi)
-    $proc.WaitForExit()
-} elseif (Test-Path "run.sh") {
-    & bash ./run.sh nogui @args
-} else {
-    Write-Host "[ERROR] No server launcher found" -ForegroundColor Red
+$argsFile = "unix_args.txt"
+if (-not (Test-Path $argsFile)) {
+    Write-Host "[ERROR] $argsFile not found" -ForegroundColor Red
     pause
     exit 1
 }
+
+$jvmArgs = (Get-Content $argsFile -Raw) -replace "`r`n", " " -replace "`n", " "
+$jvmArgs = ($jvmArgs -split '\s+') | Where-Object { $_ -ne "" }
+
+& $javaCmd $jvmArgs nogui
 
 pause

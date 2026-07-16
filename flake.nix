@@ -119,7 +119,7 @@
               mkdir -p $out
 
               cp -r ${forge}/* $out/
-              chmod +w $out/run.sh $out/run.bat 2>/dev/null || true
+              rm -f $out/run.sh $out/run.bat
 
               cp -r ${modpack}/config $out/ 2>/dev/null || true
               cp -r ${modpack}/defaultconfigs $out/ 2>/dev/null || true
@@ -128,8 +128,8 @@
               cp ${./pack.toml} $out/pack.toml
               cp ${./index.toml} $out/index.toml
 
-              cp --no-preserve=mode ${./mods/gtocore-forge-1.20.1-0.5.6-beta.jar} $out/mods/gtocore-forge-1.20.1-0.5.6-beta.jar
-              cp --no-preserve=mode ${./mods/gtonativelib-1.0.jar} $out/mods/gtonativelib-1.0.jar
+              cp ${./mods/gtocore-forge-1.20.1-0.5.6-beta.jar} $out/mods/gtocore-forge-1.20.1-0.5.6-beta.jar
+              cp ${./mods/gtonativelib-1.0.jar} $out/mods/gtonativelib-1.0.jar
 
               for f in ${./mods}/*.pw.toml; do
                 cp --no-preserve=mode "$f" $out/mods/ 2>/dev/null || true
@@ -140,9 +140,6 @@
               cp ${./start-server.ps1} $out/start-server.ps1
               cp ${./README-server.md} $out/README.md
               chmod +x $out/start-server.sh
-
-              sed -i 's/\(unix_args.txt\) \("\$@"\)/\1 nogui \2/' $out/run.sh
-              sed -i 's/\(win_args.txt\) \(%\*\)/\1 nogui \2/' $out/run.bat
             '';
           };
         };

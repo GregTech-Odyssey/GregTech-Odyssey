@@ -14,7 +14,6 @@ error() { echo -e "${RED}[ERROR]${NC} $1"; exit 1; }
 check_java() {
     JAVA_CMD=""
     
-    # Check JAVA_HOME first
     if [ -n "$JAVA_HOME" ] && [ -x "$JAVA_HOME/bin/java" ]; then
         version=$("$JAVA_HOME/bin/java" -version 2>&1 | head -1 | grep -oE '[0-9]+' | head -1)
         if [ "$version" -ge 21 ] 2>/dev/null; then
@@ -22,7 +21,6 @@ check_java() {
         fi
     fi
     
-    # Check local jdk-21+
     if [ -z "$JAVA_CMD" ]; then
         for d in ./jdk-21* ./jdk ./jre; do
             if [ -x "$d/bin/java" ]; then
@@ -35,7 +33,6 @@ check_java() {
         done
     fi
     
-    # Fallback: any java in PATH
     if [ -z "$JAVA_CMD" ] && command -v java &> /dev/null; then
         version=$(java -version 2>&1 | head -1 | grep -oE '[0-9]+' | head -1)
         if [ "$version" -ge 21 ] 2>/dev/null; then
@@ -49,16 +46,12 @@ check_java() {
     info "Using Java: $JAVA_CMD"
 }
 
-url_encode() {
-    echo "$1" | sed 's/ /%20/g; s/+/%2B/g; s/&/%26/g; s/#/%23/g; s/\!/%21/g; s/\$/%24/g; s\'/'/%27/g; s\*/%2A/g'
-}
-
 get_curseforge_url() {
     local file_id=$1
     local filename=$2
     local prefix=${file_id:0:4}
     local suffix=${file_id:4}
-    local encoded_filename=$(url_encode "$filename")
+    local encoded_filename=$(echo "$filename" | sed 's/ /%20/g; s/+/%2B/g; s/&/%26/g; s/#/%23/g')
     echo "https://edge.forgecdn.net/files/${prefix}/${suffix}/${encoded_filename}"
 }
 
@@ -112,12 +105,12 @@ download_mods() {
 
 start_server() {
     info "Starting GregTech Odyssey server..."
-    if [ -f "./run.sh" ]; then
+    if [ -f "unix_args.txt" ]; then
+        $JAVA_CMD $(cat unix_args.txt) nogui "$@"
+    elif [ -f "run.sh" ]; then
         ./run.sh nogui "$@"
-    elif [ -f "./forge.jar" ]; then
-        $JAVA_CMD -jar forge.jar nogui "$@"
     else
-        error "No server launcher found"
+        error "No server launcher found (unix_args.txt or run.sh missing)"
     fi
 }
 
@@ -130,4 +123,3 @@ main() {
 }
 
 main "$@"
-read -p "Press Enter to continue..."
