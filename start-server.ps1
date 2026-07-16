@@ -36,8 +36,17 @@ $javaCmd = $null
 function Get-JavaVersion {
     param([string]$Path)
     try {
-        $output = & $Path -version 2>&1
-        $match = [regex]::Match($output, 'version "(\d+)')
+        $p = New-Object System.Diagnostics.Process
+        $p.StartInfo.FileName = $Path
+        $p.StartInfo.Arguments = "-version"
+        $p.StartInfo.RedirectStandardError = $true
+        $p.StartInfo.RedirectStandardOutput = $true
+        $p.StartInfo.UseShellExecute = $false
+        $p.StartInfo.CreateNoWindow = $true
+        $p.Start() | Out-Null
+        $stderr = $p.StandardError.ReadToEnd()
+        $p.WaitForExit()
+        $match = [regex]::Match($stderr, 'version "(\d+)')
         if ($match.Success) { return [int]$match.Groups[1].Value }
     } catch {}
     return 0
