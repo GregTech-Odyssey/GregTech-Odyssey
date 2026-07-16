@@ -129,7 +129,9 @@
               cp ${./mods/gtonativelib-1.0.jar} $out/mods/gtonativelib-1.0.jar
 
               for f in ${./mods}/*.pw.toml; do
-                cp --no-preserve=mode "$f" $out/mods/ 2>/dev/null || true
+                if ! grep -q 'side = "client"' "$f" 2>/dev/null; then
+                  cp --no-preserve=mode "$f" $out/mods/ 2>/dev/null || true
+                fi
               done
 
               cp ${./start-server.sh} $out/start-server.sh
