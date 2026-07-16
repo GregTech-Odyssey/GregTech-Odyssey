@@ -75,7 +75,6 @@ Delete the `mods/` folder and re-run the launcher to re-download all mods with l
 ## Links
 
 - Modpack Repository: [GregTech-Odyssey/GregTech-Odyssey](https://github.com/GregTech-Odyssey/GregTech-Odyssey)
-- CurseForge: [GregTech Odyssey](https://www.curseforge.com/minecraft/modpacks/gregtech-odyssey)
 
 ---
 
@@ -154,4 +153,3 @@ server-packwiz/
 ## 相关链接
 
 - 整合包仓库：[GregTech-Odyssey/GregTech-Odyssey](https://github.com/GregTech-Odyssey/GregTech-Odyssey)
-- CurseForge：[GregTech Odyssey](https://www.curseforge.com/minecraft/modpacks/gregtech-odyssey)
