@@ -105,10 +105,10 @@
             '';
           };
 
-          server-packwiz = let inherit (self.packages.${system}) forge modpack;
+          server-packwiz = let inherit (pack);
           in pkgs.stdenvNoCC.mkDerivation {
             inherit (pack) version;
-            pname = "gregtech-odyssey-server-packwiz";
+            pname = "gregtech-odyssey-server";
             src = ./.;
 
             dontUnpack = true;
@@ -118,12 +118,8 @@
             installPhase = ''
               mkdir -p $out
 
-              cp -r ${forge}/* $out/
-              chmod -R +w $out/
-              rm -f $out/run.sh $out/run.bat
-
-              cp -r ${modpack}/config $out/ 2>/dev/null || true
-              cp -r ${modpack}/defaultconfigs $out/ 2>/dev/null || true
+              cp -r ${./config} $out/config 2>/dev/null || true
+              cp -r ${./defaultconfigs} $out/defaultconfigs 2>/dev/null || true
 
               mkdir -p $out/mods
               cp ${./pack.toml} $out/pack.toml

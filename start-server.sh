@@ -6,11 +6,19 @@ cd "$SCRIPT_DIR"
 
 RED='\033[0;31m'
 GREEN='\033[0;32m'
+YELLOW='\033[1;33m'
 NC='\033[0m'
 
 info() { echo -e "${GREEN}[INFO]${NC} $1"; }
+warn() { echo -e "${YELLOW}[WARN]${NC} $1"; }
 error() { echo -e "${RED}[ERROR]${NC} $1"; exit 1; }
 
+# ============ Configuration ============
+MC_VERSION="1.20.1"
+FORGE_VERSION="1.20.1-47.4.20"
+FORGE_MAVEN="https://maven.minecraftforge.net/net/minecraftforge/forge/${FORGE_VERSION}/forge-${FORGE_VERSION}-installer.jar"
+
+# ============ Check Java 21+ ============
 check_java() {
     JAVA_CMD=""
     
@@ -46,6 +54,33 @@ check_java() {
     info "Using Java: $JAVA_CMD"
 }
 
+# ============ Install Forge ============
+install_forge() {
+    if [ -d "libraries/net/minecraftforge/forge/$FORGE_VERSION" ]; then
+        info "Forge already installed"
+        return
+    fi
+
+    info "Forge not installed. Downloading..."
+
+    INSTALLER="forge-${FORGE_VERSION}-installer.jar"
+    if [ ! -f "$INSTALLER" ]; then
+        info "Downloading Forge installer..."
+        if ! curl -fsSL -o "$INSTALLER" "$FORGE_MAVEN"; then
+            error "Failed to download Forge installer"
+        fi
+    fi
+
+    info "Installing Forge (this may take a few minutes)..."
+    if ! $JAVA_CMD -jar "$INSTALLER" --installServer; then
+        error "Forge installation failed"
+    fi
+
+    rm -f "$INSTALLER" run.sh run.bat
+    info "Forge installed successfully"
+}
+
+# ============ Download mods ============
 get_curseforge_url() {
     local file_id=$1
     local filename=$2
@@ -102,13 +137,13 @@ download_mods() {
     
     info "Downloaded: $downloaded, Skipped: $skipped"
     
-    # Cleanup .pw.toml files after download
     if [ "$downloaded" -gt 0 ]; then
         rm -f mods/*pw.toml 2>/dev/null
         info "Cleaned up metadata files"
     fi
 }
 
+# ============ Start server ============
 start_server() {
     info "Starting GregTech Odyssey server..."
     
@@ -131,10 +166,12 @@ start_server() {
     $JAVA_CMD $USER_ARGS $(cat "$ARGS_FILE") nogui "$@"
 }
 
+# ============ Main ============
 main() {
     info "GregTech Odyssey Server Launcher"
     info "================================="
     check_java
+    install_forge
     download_mods
     start_server "$@"
 }

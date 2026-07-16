@@ -6,7 +6,12 @@ Write-Host "[INFO] GregTech Odyssey Server Launcher" -ForegroundColor Green
 Write-Host "[INFO] =================================" -ForegroundColor Green
 Write-Host ""
 
-# Check Java 21+
+# ============ Configuration ============
+$MC_VERSION = "1.20.1"
+$FORGE_VERSION = "1.20.1-47.4.20"
+$FORGE_MAVEN = "https://maven.minecraftforge.net/net/minecraftforge/forge/$FORGE_VERSION/forge-$FORGE_VERSION-installer.jar"
+
+# ============ Check Java 21+ ============
 $javaCmd = $null
 
 function Get-JavaVersion {
@@ -56,7 +61,46 @@ if (-not $javaCmd) {
 Write-Host "[INFO] Using Java: $javaCmd" -ForegroundColor Green
 Write-Host ""
 
-# Download mods
+# ============ Install Forge if not present ============
+if (-not (Test-Path "libraries\net\minecraftforge\forge\$FORGE_VERSION")) {
+    Write-Host "[INFO] Forge not installed. Downloading..." -ForegroundColor Yellow
+
+    # Download Forge installer
+    $installerPath = "forge-$FORGE_VERSION-installer.jar"
+    if (-not (Test-Path $installerPath)) {
+        Write-Host "[INFO] Downloading Forge installer..." -ForegroundColor Green
+        try {
+            $ProgressPreference = 'SilentlyContinue'
+            Invoke-WebRequest -Uri $FORGE_MAVEN -OutFile $installerPath -UseBasicParsing -Headers @{
+                'User-Agent' = 'Mozilla/5.0'
+            }
+        } catch {
+            Write-Host "[ERROR] Failed to download Forge installer" -ForegroundColor Red
+            pause
+            exit 1
+        }
+    }
+
+    # Install Forge
+    Write-Host "[INFO] Installing Forge (this may take a few minutes)..." -ForegroundColor Green
+    & $javaCmd -jar $installerPath --installServer
+    if ($LASTEXITCODE -ne 0) {
+        Write-Host "[ERROR] Forge installation failed" -ForegroundColor Red
+        pause
+        exit 1
+    }
+
+    # Cleanup
+    Remove-Item $installerPath -Force -ErrorAction SilentlyContinue
+    Remove-Item "run.sh", "run.bat" -Force -ErrorAction SilentlyContinue
+    Write-Host "[INFO] Forge installed successfully" -ForegroundColor Green
+    Write-Host ""
+} else {
+    Write-Host "[INFO] Forge already installed" -ForegroundColor Green
+    Write-Host ""
+}
+
+# ============ Download mods ============
 $downloaded = 0
 $skipped = 0
 
@@ -133,11 +177,11 @@ if ($downloaded -gt 0) {
     Write-Host ""
 }
 
-# Start server - read unix_args.txt and launch Java directly
+# ============ Start server ============
 Write-Host "[INFO] Starting GregTech Odyssey server..." -ForegroundColor Green
 Write-Host ""
 
-# Find unix_args.txt
+# Find args file
 $argsFile = $null
 if (Test-Path "unix_args.txt") {
     $argsFile = "unix_args.txt"
