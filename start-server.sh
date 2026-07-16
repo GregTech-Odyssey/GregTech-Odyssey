@@ -155,6 +155,12 @@ download_mods() {
 start_server() {
     info "Starting GregTech Odyssey server..."
     
+    # Auto agree EULA
+    if [ ! -f "eula.txt" ] || ! grep -q "eula=true" "eula.txt" 2>/dev/null; then
+        echo "eula=true" > eula.txt
+        info "EULA accepted"
+    fi
+    
     ARGS_FILE=""
     if [ -f "unix_args.txt" ]; then
         ARGS_FILE="unix_args.txt"

@@ -204,6 +204,12 @@ if ($downloaded -gt 0) {
 Write-Host "[INFO] Starting GregTech Odyssey server..." -ForegroundColor Green
 Write-Host ""
 
+# Auto agree EULA
+if (-not (Test-Path "eula.txt") -or (Get-Content "eula.txt" -Raw) -notmatch "eula=true") {
+    Set-Content -Path "eula.txt" -Value "eula=true"
+    Write-Host "[INFO] EULA accepted" -ForegroundColor Green
+}
+
 # Find args file
 $argsFile = $null
 if (Test-Path "unix_args.txt") {
