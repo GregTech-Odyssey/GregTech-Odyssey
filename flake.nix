@@ -126,8 +126,8 @@
 
               mkdir -p $out/mods
               cp -r ${modpack}/mods/* $out/mods/ 2>/dev/null || true
-              cp ${modpack}/pack.toml $out/ 2>/dev/null || true
-              cp ${modpack}/index.toml $out/ 2>/dev/null || true
+              cp ${./pack.toml} $out/pack.toml
+              cp ${./index.toml} $out/index.toml
 
               find $out -name "*.jar" -path "*/mods/*" -delete 2>/dev/null || true
 
