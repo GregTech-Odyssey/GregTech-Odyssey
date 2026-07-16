@@ -79,8 +79,8 @@ install_forge() {
         fi
     fi
 
-    info "Installing Forge (this may take a few minutes)..."
-    if ! $JAVA_CMD -jar "$INSTALLER" --installServer; then
+    info "Installing Forge..."
+    if ! $JAVA_CMD -jar "$INSTALLER" --installServer > /dev/null 2>&1; then
         error "Forge installation failed"
     fi
 

@@ -97,10 +97,17 @@ if (-not (Test-Path "libraries\net\minecraftforge\forge\$FORGE_VERSION")) {
     }
 
     # Install Forge
-    Write-Host "[INFO] Installing Forge (this may take a few minutes)..." -ForegroundColor Green
-    & $javaCmd -jar $installerPath --installServer
-    if ($LASTEXITCODE -ne 0) {
+    Write-Host "[INFO] Installing Forge..." -ForegroundColor Green
+    Write-Progress -Activity "Installing Forge" -Status "Running installer, please wait..." -PercentComplete 50
+    
+    $process = Start-Process -FilePath $javaCmd -ArgumentList "-jar", $installerPath, "--installServer" -NoNewWindow -Wait -PassThru -RedirectStandardOutput "$env:TEMP\forge-install.log" -RedirectStandardError "$env:TEMP\forge-install-err.log"
+    
+    Write-Progress -Activity "Installing Forge" -Completed
+    
+    if ($process.ExitCode -ne 0) {
         Write-Host "[ERROR] Forge installation failed" -ForegroundColor Red
+        $errorLog = Get-Content "$env:TEMP\forge-install-err.log" -Tail 5
+        Write-Host "[ERROR] $errorLog" -ForegroundColor Red
         pause
         exit 1
     }
@@ -108,6 +115,7 @@ if (-not (Test-Path "libraries\net\minecraftforge\forge\$FORGE_VERSION")) {
     # Cleanup
     Remove-Item $installerPath -Force -ErrorAction SilentlyContinue
     Remove-Item "run.sh", "run.bat" -Force -ErrorAction SilentlyContinue
+    Remove-Item "$env:TEMP\forge-install.log", "$env:TEMP\forge-install-err.log" -Force -ErrorAction SilentlyContinue
     Write-Host "[INFO] Forge installed successfully" -ForegroundColor Green
     Write-Host ""
 } else {
