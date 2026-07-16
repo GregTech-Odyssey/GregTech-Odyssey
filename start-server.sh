@@ -47,47 +47,64 @@ download_mods() {
         
         if [[ "$file" == mods/*.pw.toml ]]; then
             total=$((total + 1))
-            mod_toml="$file"
             
-            if [ -f "$mod_toml" ]; then
-                side=$(grep -E '^side = ' "$mod_toml" 2>/dev/null | head -1 | sed 's/side = "//;s/"//')
-                if [ "$side" = "client" ]; then
-                    skipped=$((skipped + 1))
-                    continue
-                fi
-                
-                filename=$(grep -E '^filename = ' "$mod_toml" 2>/dev/null | head -1 | sed 's/filename = "//;s/"//')
-                if [ -z "$filename" ]; then
-                    skipped=$((skipped + 1))
-                    continue
-                fi
-                
-                needed=$((needed + 1))
-                
-                if [ -f "mods/$filename" ]; then
-                    skipped=$((skipped + 1))
-                    continue
-                fi
-                
-                url=$(grep -E '^url = ' "$mod_toml" 2>/dev/null | head -1 | sed 's/url = "//;s/"//')
-                
-                if [ -z "$url" ]; then
-                    file_id=$(grep -E 'file-id = ' "$mod_toml" 2>/dev/null | head -1 | sed 's/.*file-id = //')
-                    if [ -n "$file_id" ]; then
-                        url=$(get_curseforge_url "$file_id" "$filename")
+            # Find the actual .pw.toml file (might have hash prefix)
+            local found_toml=""
+            for f in mods/*pw.toml; do
+                if [ -f "$f" ]; then
+                    local basename=$(basename "$f")
+                    local target_basename=$(basename "$file")
+                    if [[ "$basename" == *"$target_basename"* ]] || [[ "$target_basename" == *"$basename"* ]]; then
+                        found_toml="$f"
+                        break
                     fi
                 fi
-                
-                if [ -n "$url" ]; then
-                    info "Downloading $filename..."
-                    if curl -fsSL -o "mods/$filename" "$url"; then
-                        downloaded=$((downloaded + 1))
-                    else
-                        error "Failed to download $filename"
-                    fi
+            done
+            
+            if [ -z "$found_toml" ]; then
+                skipped=$((skipped + 1))
+                continue
+            fi
+            
+            mod_toml="$found_toml"
+            
+            side=$(grep -E '^side = ' "$mod_toml" 2>/dev/null | head -1 | sed 's/side = "//;s/"//')
+            if [ "$side" = "client" ]; then
+                skipped=$((skipped + 1))
+                continue
+            fi
+            
+            filename=$(grep -E '^filename = ' "$mod_toml" 2>/dev/null | head -1 | sed 's/filename = "//;s/"//')
+            if [ -z "$filename" ]; then
+                skipped=$((skipped + 1))
+                continue
+            fi
+            
+            needed=$((needed + 1))
+            
+            if [ -f "mods/$filename" ] && [ -s "mods/$filename" ]; then
+                skipped=$((skipped + 1))
+                continue
+            fi
+            
+            url=$(grep -E '^url = ' "$mod_toml" 2>/dev/null | head -1 | sed 's/url = "//;s/"//')
+            
+            if [ -z "$url" ]; then
+                file_id=$(grep -E 'file-id = ' "$mod_toml" 2>/dev/null | head -1 | sed 's/.*file-id = //')
+                if [ -n "$file_id" ]; then
+                    url=$(get_curseforge_url "$file_id" "$filename")
+                fi
+            fi
+            
+            if [ -n "$url" ]; then
+                info "Downloading $filename..."
+                if curl -fsSL -o "mods/$filename" "$url"; then
+                    downloaded=$((downloaded + 1))
                 else
-                    skipped=$((skipped + 1))
+                    error "Failed to download $filename"
                 fi
+            else
+                skipped=$((skipped + 1))
             fi
         fi
     done < <(grep -E '^file = ' index.toml)

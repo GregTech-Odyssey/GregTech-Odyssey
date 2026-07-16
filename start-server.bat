@@ -45,19 +45,28 @@ for /f "tokens=2 delims== " %%A in ('findstr /b "file = " index.toml') do (
     
     if "!FILE:~0,5!"=="mods\" (
         if "!FILE:~-8!"==".pw.toml" (
-            if exist "!FILE!" (
+            set "FOUND_TOML="
+            for %%F in (mods\*pw.toml) do (
+                set "FNAME=%%~nxF"
+                set "TARGET=%%~A"
+                set "TARGET=!TARGET:mods\=!"
+                if "!FNAME!"=="!TARGET!" set "FOUND_TOML=%%F"
+                if "!FNAME:~0,6!"=="!TARGET:~0,6!" if "!FOUND_TOML!"=="" set "FOUND_TOML=%%F"
+            )
+            
+            if not "!FOUND_TOML!"=="" (
                 set "SKIP=0"
                 set "URL="
                 set "FILENAME="
                 set "FILE_ID="
                 
-                for /f "tokens=2 delims== " %%B in ('findstr /b "side = " "!FILE!" 2^>nul') do (
+                for /f "tokens=2 delims== " %%B in ('findstr /b "side = " "!FOUND_TOML!" 2^>nul') do (
                     set "SIDE=%%~B"
                     set "SIDE=!SIDE:"=!"
                     if "!SIDE!"=="client" set "SKIP=1"
                 )
                 
-                for /f "tokens=2 delims== " %%C in ('findstr /b "filename = " "!FILE!" 2^>nul') do (
+                for /f "tokens=2 delims== " %%C in ('findstr /b "filename = " "!FOUND_TOML!" 2^>nul') do (
                     set "FILENAME=%%~C"
                     set "FILENAME=!FILENAME:"=!"
                 )
@@ -66,13 +75,13 @@ for /f "tokens=2 delims== " %%A in ('findstr /b "file = " index.toml') do (
                     if exist "mods\!FILENAME!" (
                         set /a SKIPPED+=1
                     ) else (
-                        for /f "tokens=2 delims== " %%D in ('findstr /b "url = " "!FILE!" 2^>nul') do (
+                        for /f "tokens=2 delims== " %%D in ('findstr /b "url = " "!FOUND_TOML!" 2^>nul') do (
                             set "URL=%%~D"
                             set "URL=!URL:"=!"
                         )
                         
                         if "!URL!"=="" (
-                            for /f "tokens=2 delims== " %%E in ('findstr /b "file-id = " "!FILE!" 2^>nul') do (
+                            for /f "tokens=2 delims== " %%E in ('findstr /b "file-id = " "!FOUND_TOML!" 2^>nul') do (
                                 set "FILE_ID=%%~E"
                             )
                             if not "!FILE_ID!"=="" (
