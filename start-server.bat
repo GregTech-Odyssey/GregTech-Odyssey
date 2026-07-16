@@ -35,12 +35,16 @@ exit /b 1
 echo [INFO] Using Java: %JAVA_CMD%
 echo.
 
+set "PACKWIZ_CMD="
+
 if exist ".\packwiz.exe" (
+    set "PACKWIZ_CMD=.\packwiz.exe"
     echo [INFO] packwiz found
     goto :packwiz_found
 )
 
 if exist ".\packwiz" (
+    set "PACKWIZ_CMD=.\packwiz"
     echo [INFO] packwiz found
     goto :packwiz_found
 )
@@ -53,13 +57,14 @@ if %ERRORLEVEL% NEQ 0 (
     pause
     exit /b 1
 )
+set "PACKWIZ_CMD=.\packwiz.exe"
 echo [INFO] packwiz installed successfully
 echo.
 
 :packwiz_found
 echo [INFO] Installing mods via packwiz...
 echo.
-.\packwiz.exe install --all
+%PACKWIZ_CMD% install --all
 if %ERRORLEVEL% NEQ 0 (
     echo.
     echo [ERROR] Failed to install mods
