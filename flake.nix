@@ -125,11 +125,11 @@
               cp -r ${modpack}/defaultconfigs $out/ 2>/dev/null || true
 
               mkdir -p $out/mods
-              cp -r ${modpack}/mods/* $out/mods/ 2>/dev/null || true
               cp ${./pack.toml} $out/pack.toml
               cp ${./index.toml} $out/index.toml
 
-              find $out -name "*.pw.toml" -path "*/mods/*" -delete 2>/dev/null || true
+              cp ${./mods/gtocore-forge-1.20.1-0.5.6-beta.jar} $out/mods/
+              cp ${./mods/gtonativelib-1.0.jar} $out/mods/
 
               cp ${./start-server.sh} $out/start-server.sh
               cp ${./start-server.bat} $out/start-server.bat
