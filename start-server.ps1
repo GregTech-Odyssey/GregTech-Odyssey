@@ -120,7 +120,6 @@ if (-not (Test-Path "unix_args.txt") -and !(Get-ChildItem -Path "libraries" -Rec
 
     # Install Forge
     Write-Host "[INFO] Installing Forge..." -ForegroundColor Green
-    Write-Host "[INFO] This may take a few minutes on first run..." -ForegroundColor Yellow
     
     $process = Start-Process -FilePath $javaCmd -ArgumentList "-jar", $installerPath, "--installServer" -NoNewWindow -Wait -PassThru -RedirectStandardOutput "$env:TEMP\forge-install.log" -RedirectStandardError "$env:TEMP\forge-install-err.log"
     
