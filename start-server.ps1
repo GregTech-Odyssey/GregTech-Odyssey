@@ -55,7 +55,7 @@ if (-not $javaCmd) {
         ".\jdk\bin\java.exe",
         ".\jre\bin\java.exe",
         "C:\Program Files\Java\jdk-21*\bin\java.exe",
-        "C:\Program Files\Eclipse Adoptium\jdk-21*.*/bin/java.exe"
+        "C:\Program Files\Eclipse Adoptium\jdk-21*\bin\java.exe"
     )
     foreach ($pattern in $javaPaths) {
         $found = Get-Item $pattern -ErrorAction SilentlyContinue | Select-Object -First 1
@@ -84,17 +84,26 @@ Write-Host ""
 if (-not (Test-Path "unix_args.txt") -and !(Get-ChildItem -Path "libraries" -Recurse -Filter "unix_args.txt" -ErrorAction SilentlyContinue)) {
     Write-Host "[INFO] Forge not installed. Downloading..." -ForegroundColor Yellow
 
-    # Download Forge installer
+    # Download Forge installer with retry
     $installerPath = "forge-$FORGE_VERSION-installer.jar"
     if (-not (Test-Path $installerPath)) {
         Write-Host "[INFO] Downloading Forge installer..." -ForegroundColor Green
-        try {
-            $ProgressPreference = 'SilentlyContinue'
-            Invoke-WebRequest -Uri $FORGE_MAVEN -OutFile $installerPath -UseBasicParsing -Headers @{
-                'User-Agent' = 'Mozilla/5.0'
+        $success = $false
+        for ($i = 1; $i -le 3; $i++) {
+            try {
+                $ProgressPreference = 'SilentlyContinue'
+                Invoke-WebRequest -Uri $FORGE_MAVEN -OutFile $installerPath -UseBasicParsing -Headers @{
+                    'User-Agent' = 'Mozilla/5.0'
+                }
+                $success = $true
+                break
+            } catch {
+                Write-Host "[WARN] Download attempt $i/3 failed, retrying..." -ForegroundColor Yellow
+                Start-Sleep -Seconds 3
             }
-        } catch {
-            Write-Host "[ERROR] Failed to download Forge installer" -ForegroundColor Red
+        }
+        if (-not $success) {
+            Write-Host "[ERROR] Failed to download Forge installer after 3 attempts" -ForegroundColor Red
             pause
             exit 1
         }
@@ -130,6 +139,7 @@ if (-not (Test-Path "unix_args.txt") -and !(Get-ChildItem -Path "libraries" -Rec
 # ============ Download mods ============
 $downloaded = 0
 $skipped = 0
+$downloadedTomls = @()
 
 $pwTomls = Get-ChildItem -Path "mods" -Filter "*.pw.toml" -ErrorAction SilentlyContinue
 
@@ -189,6 +199,7 @@ foreach ($toml in $pwTomls) {
                 exit 1
             }
             $downloaded++
+            $downloadedTomls += $toml.FullName
         } catch {
             Write-Host "[ERROR] Failed to download $filename" -ForegroundColor Red
             Write-Host "[ERROR] URL: $url" -ForegroundColor Red
@@ -203,11 +214,10 @@ foreach ($toml in $pwTomls) {
 Write-Host "[INFO] Downloaded: $downloaded, Skipped: $skipped" -ForegroundColor Green
 Write-Host ""
 
-# Cleanup .pw.toml files after download
-if ($downloaded -gt 0) {
-    $pwTomls = Get-ChildItem -Path "mods" -Filter "*.pw.toml" -ErrorAction SilentlyContinue
-    foreach ($toml in $pwTomls) {
-        Remove-Item $toml.FullName -Force -ErrorAction SilentlyContinue
+# Cleanup downloaded .pw.toml files
+if ($downloadedTomls.Count -gt 0) {
+    foreach ($tomlPath in $downloadedTomls) {
+        Remove-Item $tomlPath -Force -ErrorAction SilentlyContinue
     }
     Write-Host "[INFO] Cleaned up metadata files" -ForegroundColor Green
     Write-Host ""
