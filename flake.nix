@@ -128,8 +128,8 @@
               cp ${./pack.toml} $out/pack.toml
               cp ${./index.toml} $out/index.toml
 
-              cp ${./mods/gtocore-forge-1.20.1-0.5.6-beta.jar} $out/mods/
-              cp ${./mods/gtonativelib-1.0.jar} $out/mods/
+              cp ${./mods/gtocore-forge-1.20.1-0.5.6-beta.jar} $out/mods/gtocore-forge-1.20.1-0.5.6-beta.jar
+              cp ${./mods/gtonativelib-1.0.jar} $out/mods/gtonativelib-1.0.jar
 
               for f in ${./mods}/*.pw.toml; do
                 cp "$f" $out/mods/ 2>/dev/null || true
