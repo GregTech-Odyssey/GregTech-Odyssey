@@ -130,18 +130,17 @@ Write-Host ""
 Write-Host "[INFO] Starting GregTech Odyssey server..." -ForegroundColor Green
 Write-Host ""
 
-# Directly run Java instead of run.bat to keep server in same window
-$serverJar = $null
-if (Test-Path "forge.jar") {
-    $serverJar = "forge.jar"
-} elseif (Test-Path "libraries\net\minecraftforge\forge\*\forge-*.jar") {
-    $serverJar = (Get-Item "libraries\net\minecraftforge\forge\*\forge-*.jar" | Select-Object -First 1).FullName
-}
-
-if ($serverJar) {
-    & $javaCmd @((Get-Content "unix_args.txt" -ErrorAction SilentlyContinue) -split '\s+') -jar $serverJar nogui @args
-} elseif (Test-Path "run.bat") {
-    & cmd /c "run.bat nogui" @args
+# Try run.bat first (most reliable)
+if (Test-Path "run.bat") {
+    $psi = New-Object System.Diagnostics.ProcessStartInfo
+    $psi.FileName = "cmd.exe"
+    $psi.Arguments = "/c run.bat nogui"
+    $psi.UseShellExecute = $false
+    $psi.RedirectStandardInput = $false
+    $proc = [System.Diagnostics.Process]::Start($psi)
+    $proc.WaitForExit()
+} elseif (Test-Path "run.sh") {
+    & bash ./run.sh nogui @args
 } else {
     Write-Host "[ERROR] No server launcher found" -ForegroundColor Red
     pause
