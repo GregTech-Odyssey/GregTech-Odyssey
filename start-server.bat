@@ -37,7 +37,15 @@ echo.
 
 set "PACKWIZ_CMD="
 
-REM Test if packwiz in PATH actually works
+if exist ".\packwiz.exe" (
+    .\packwiz.exe version >nul 2>nul
+    if !ERRORLEVEL! EQU 0 (
+        set "PACKWIZ_CMD=.\packwiz.exe"
+        echo [INFO] packwiz found
+        goto :packwiz_found
+    )
+)
+
 where packwiz >nul 2>nul
 if %ERRORLEVEL% EQU 0 (
     packwiz version >nul 2>nul
@@ -48,64 +56,54 @@ if %ERRORLEVEL% EQU 0 (
     )
 )
 
-if exist ".\packwiz.exe" (
-    .\packwiz.exe version >nul 2>nul
+echo [INFO] Downloading packwiz...
+
+where gh >nul 2>nul
+if %ERRORLEVEL% EQU 0 (
+    echo [INFO] Using gh to download packwiz...
+    gh api repos/packwiz/packwiz/actions/artifacts/8109648450/zip -q . > packwiz.zip 2>nul
     if !ERRORLEVEL! EQU 0 (
-        set "PACKWIZ_CMD=.\packwiz.exe"
-        echo [INFO] packwiz found
-        goto :packwiz_found
+        goto :extract_packwiz
     )
 )
 
-echo [INFO] Installing packwiz...
-
-where go >nul 2>nul
+echo [INFO] Trying direct download...
+curl -fsSL -H "Accept: application/octet-stream" "https://api.github.com/repos/packwiz/packwiz/actions/artifacts/8109648450/zip" -o packwiz.zip 2>nul
 if %ERRORLEVEL% EQU 0 (
-    echo [INFO] Go found, installing packwiz via go install...
-    go install github.com/packwiz/packwiz@latest
-    if %ERRORLEVEL% EQU 0 (
-        set "PACKWIZ_CMD=%USERPROFILE%\go\bin\packwiz.exe"
-        if exist "!PACKWIZ_CMD!" (
-            "!PACKWIZ_CMD!" version >nul 2>nul
-            if !ERRORLEVEL! EQU 0 (
-                echo [INFO] packwiz installed successfully
-                goto :packwiz_found
-            )
+    goto :extract_packwiz
+)
+
+echo [ERROR] Failed to download packwiz.
+echo Please download manually from:
+echo https://github.com/packwiz/packwiz/actions/runs/28793198419
+echo Then extract packwiz.exe to this folder.
+echo.
+pause
+exit /b 1
+
+:extract_packwiz
+echo [INFO] Extracting packwiz...
+tar -xf packwiz.zip
+del packwiz.zip
+
+if not exist ".\packwiz.exe" (
+    REM Check in subdirectory
+    for /d %%D in (*) do (
+        if exist "%%D\packwiz.exe" (
+            move "%%D\packwiz.exe" .
+            rmdir "%%D" 2>nul
         )
     )
 )
 
-where scoop >nul 2>nul
-if %ERRORLEVEL% EQU 0 (
-    echo [INFO] Installing packwiz via scoop...
-    scoop install packwiz
-    if %ERRORLEVEL% EQU 0 (
-        set "PACKWIZ_CMD=packwiz"
-        echo [INFO] packwiz installed successfully
-        goto :packwiz_found
-    )
+if not exist ".\packwiz.exe" (
+    echo [ERROR] Failed to extract packwiz.exe
+    echo.
+    pause
+    exit /b 1
 )
-
-where choco >nul 2>nul
-if %ERRORLEVEL% EQU 0 (
-    echo [INFO] Installing packwiz via chocolatey...
-    choco install packwiz -y
-    if %ERRORLEVEL% EQU 0 (
-        set "PACKWIZ_CMD=packwiz"
-        echo [INFO] packwiz installed successfully
-        goto :packwiz_found
-    )
-)
-
+echo [INFO] packwiz installed successfully
 echo.
-echo [ERROR] Could not install packwiz automatically.
-echo Please install packwiz manually using one of these methods:
-echo   1. Go: go install github.com/packwiz/packwiz@latest
-echo   2. Scoop: scoop install packwiz
-echo   3. Chocolatey: choco install packwiz
-echo.
-pause
-exit /b 1
 
 :packwiz_found
 echo [INFO] Installing mods via packwiz...

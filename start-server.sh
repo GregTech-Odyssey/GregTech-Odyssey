@@ -32,14 +32,6 @@ check_java() {
 ensure_packwiz() {
     PACKWIZ_CMD=""
     
-    if command -v packwiz &> /dev/null; then
-        if packwiz version &> /dev/null; then
-            PACKWIZ_CMD="packwiz"
-            info "packwiz found in PATH"
-            return
-        fi
-    fi
-    
     if [ -f "./packwiz" ] && [ -x "./packwiz" ]; then
         if ./packwiz version &> /dev/null; then
             PACKWIZ_CMD="./packwiz"
@@ -47,43 +39,69 @@ ensure_packwiz() {
             return
         fi
     fi
-
-    info "Installing packwiz..."
     
-    if command -v go &> /dev/null; then
-        info "Go found, installing packwiz via go install..."
-        if go install github.com/packwiz/packwiz@latest; then
-            PACKWIZ_CMD="$HOME/go/bin/packwiz"
-            if [ -f "$PACKWIZ_CMD" ] && [ -x "$PACKWIZ_CMD" ]; then
+    if command -v packwiz &> /dev/null; then
+        if packwiz version &> /dev/null; then
+            PACKWIZ_CMD="packwiz"
+            info "packwiz found in PATH"
+            return
+        fi
+    fi
+
+    info "Downloading packwiz..."
+    OS="$(uname -s)"
+    ARCH="$(uname -m)"
+    
+    ARTIFACT_ID=""
+    case "$OS" in
+        Linux*)
+            if [ "$ARCH" = "x86_64" ]; then
+                ARTIFACT_ID="8109649028"
+            elif [ "$ARCH" = "aarch64" ]; then
+                ARTIFACT_ID="8109649028"
+            fi
+            ;;
+        Darwin*)
+            ARTIFACT_ID="8109649761"
+            ;;
+    esac
+    
+    if [ -z "$ARTIFACT_ID" ]; then
+        error "Unsupported OS: $OS. Use start-server.bat on Windows."
+    fi
+    
+    if command -v gh &> /dev/null; then
+        info "Using gh to download packwiz..."
+        if gh api "repos/packwiz/packwiz/actions/artifacts/$ARTIFACT_ID/zip" > packwiz.zip 2>/dev/null; then
+            unzip -o packwiz.zip -d .
+            rm -f packwiz.zip
+            chmod +x packwiz
+            if [ -f "./packwiz" ] && ./packwiz version &> /dev/null; then
+                PACKWIZ_CMD="./packwiz"
                 info "packwiz installed successfully"
                 return
             fi
         fi
     fi
     
-    if command -v brew &> /dev/null; then
-        info "Installing packwiz via brew..."
-        if brew install packwiz; then
-            PACKWIZ_CMD="packwiz"
+    info "Trying direct download..."
+    if curl -fsSL -H "Accept: application/octet-stream" \
+        "https://api.github.com/repos/packwiz/packwiz/actions/artifacts/$ARTIFACT_ID/zip" \
+        -o packwiz.zip 2>/dev/null; then
+        unzip -o packwiz.zip -d .
+        rm -f packwiz.zip
+        chmod +x packwiz
+        if [ -f "./packwiz" ] && ./packwiz version &> /dev/null; then
+            PACKWIZ_CMD="./packwiz"
             info "packwiz installed successfully"
             return
         fi
     fi
     
-    if command -v scoop &> /dev/null; then
-        info "Installing packwiz via scoop..."
-        if scoop install packwiz; then
-            PACKWIZ_CMD="packwiz"
-            info "packwiz installed successfully"
-            return
-        fi
-    fi
-    
-    error "Could not install packwiz automatically.
-Please install packwiz manually:
-  1. Go: go install github.com/packwiz/packwiz@latest
-  2. Homebrew: brew install packwiz
-  3. Scoop: scoop install packwiz"
+    error "Could not download packwiz.
+Please download manually from:
+https://github.com/packwiz/packwiz/actions/runs/28793198419
+Then extract packwiz to this folder."
 }
 
 install_mods() {
