@@ -138,6 +138,7 @@
               cp ${./start-server.sh} $out/start-server.sh
               cp ${./start-server.bat} $out/start-server.bat
               cp ${./start-server.ps1} $out/start-server.ps1
+              cp ${./README-server.md} $out/README.md
               chmod +x $out/start-server.sh
 
               sed -i 's/\(unix_args.txt\) \("\$@"\)/\1 nogui \2/' $out/run.sh
