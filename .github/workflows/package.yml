@@ -115,6 +115,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: actions/download-artifact@v4
+        with:
+          name: GregTech-Odyssey-all-locale
+          path: GregTech-Odyssey-all-locale
       - if: github.event_name == 'workflow_dispatch'
         name: Generate tag name
         run: echo "TAG_NAME=${{ github.event.inputs.tag_name }}" >> $GITHUB_ENV
@@ -137,4 +140,4 @@ jobs:
           git push origin :$TAG_NAME || true 
       - name: Publish release
         run: |
-          gh release create $TAG_NAME $PRERELEASE --title "$SUBJECT" --notes-file .github/release-notes.md --target $GITHUB_SHA GregTech-Odyssey/* GregTech-Odyssey-all-locale/* 
+          gh release create $TAG_NAME $PRERELEASE --title "$SUBJECT" --notes-file .github/release-notes.md --target $GITHUB_SHA GregTech-Odyssey-all-locale/*
