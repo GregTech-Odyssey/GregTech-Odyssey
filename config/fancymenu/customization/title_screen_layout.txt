@@ -387,8 +387,8 @@ element {
   anchor_point_element = cf619a10-3e39-4548-afdc-296d5d9d76a0-1768309612865
   advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}/16*2","decimal":"false"}}
   advanced_posy = {"placeholder":"elementposy","values":{"id":"cf619a10-3e39-4548-afdc-296d5d9d76a0-1768309612865"}}
-  advanced_width = {"placeholder":"elementheight","values":{"id":"cf619a10-3e39-4548-afdc-296d5d9d76a0-1768309612865"}}
-  advanced_height = {"placeholder":"elementheight","values":{"id":"cf619a10-3e39-4548-afdc-296d5d9d76a0-1768309612865"}}
+  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"}/4.5+1","decimal":"false"}}
+  advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"}/4.5+1","decimal":"false"}}
   x = -189
   y = 4
   width = 50
@@ -439,8 +439,8 @@ element {
   sticky_anchor = true
   anchor_point = mid-centered
   advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"} /10","decimal":"false"}}
-  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"} /4.5/355*1024","decimal":"false"}}
-  advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"} /4.5","decimal":"false"}}
+  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"}/4.5/355*1024+1","decimal":"false"}}
+  advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"}/4.5+1","decimal":"false"}}
   x = 0
   y = -56
   width = 50
@@ -1102,9 +1102,9 @@ vanilla_button {
   sticky_anchor = false
   anchor_point = bottom-left
   x = 2
-  y = -21
-  width = 101
-  height = 19
+  y = -70
+  width = 360
+  height = 70
   stretch_x = false
   stretch_y = false
   stay_on_screen = true
@@ -1124,7 +1124,7 @@ vanilla_button {
   advanced_vertical_tilt_mode = false
   horizontal_tilt_degrees = 0.0
   advanced_horizontal_tilt_mode = false
-  is_hidden = false
+  is_hidden = true
   automated_button_clicks = 0
   parallax_intensity_x = 0.5
   parallax_intensity_y = 0.5
