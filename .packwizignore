@@ -70,3 +70,10 @@ CONTRIBUTING.md
 
 !gtocore-*.jar
 !gtonativelib-*.jar
+
+# Server-only files (packaged via flake server-packwiz, not client/CF overrides)
+start-server.bat
+start-server.ps1
+start-server.sh
+user_jvm_args.txt
+README-server.md
