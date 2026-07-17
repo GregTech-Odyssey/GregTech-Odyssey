@@ -1,9 +1,0 @@
-
-[client]
-	#设为 true 来开启二刺螈模式
-	#（将会启用一些浓度较高、发癫的文本显示）
-	#
-	#Set true to enable Otaku Mode.
-	#(Enables otaku-style text display)
-	otakuMode = false
-
