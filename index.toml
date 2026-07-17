@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "README-server.md"
+hash = "8213274e907eb928abc4ba3dd47082b1cb416ed6049ccf1ebe3d1514049ae702"
+
+[[files]]
 file = "config/AdvancedBackups-client.properties"
 hash = "0ccf7084062f696c9c2c8255dc74994327a71512cb290f9e2e2b7ff502850b5e"
 
@@ -3427,3 +3431,19 @@ metafile = true
 file = "resourcepacks/ae-light-ui-multi-module.pw.toml"
 hash = "bfb0fef1d27ae39cb39a429cc901107487b99b2b2f84105f61e3abe81a663c94"
 metafile = true
+
+[[files]]
+file = "start-server.bat"
+hash = "27d963441a1603a075f63711d8eac4b2a7c82232a6eee38defb3d79b79e1d550"
+
+[[files]]
+file = "start-server.ps1"
+hash = "4806dab5e076a8f1f8914606552617ba25c5220a90600c951d192b2a9d99daac"
+
+[[files]]
+file = "start-server.sh"
+hash = "fa4e68a8662c7ff98f24f2828675c2144282cfee4d28b2181c5df5416a1526c7"
+
+[[files]]
+file = "user_jvm_args.txt"
+hash = "fdd54dd3aac3245a53c0056d7a55a7b2b35cdb8b3c60e9d80630bbe89feb7fca"
