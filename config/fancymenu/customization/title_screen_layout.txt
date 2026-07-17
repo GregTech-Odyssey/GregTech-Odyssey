@@ -1102,9 +1102,9 @@ vanilla_button {
   sticky_anchor = false
   anchor_point = bottom-left
   x = 2
-  y = -21
-  width = 101
-  height = 19
+  y = -70
+  width = 360
+  height = 70
   stretch_x = false
   stretch_y = false
   stay_on_screen = true
@@ -1124,7 +1124,7 @@ vanilla_button {
   advanced_vertical_tilt_mode = false
   horizontal_tilt_degrees = 0.0
   advanced_horizontal_tilt_mode = false
-  is_hidden = false
+  is_hidden = true
   automated_button_clicks = 0
   parallax_intensity_x = 0.5
   parallax_intensity_y = 0.5
