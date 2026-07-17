@@ -42,7 +42,7 @@ jobs:
       run: |
         nix build .#curseforge -o curseforge
         mkdir curseforge-upload
-        cp "$(ls curseforge/*.zip | head -n 1)" "curseforge-upload/$(basename "$(ls curseforge/*.zip | head -n 1)" .zip)-all-locales.zip"
+        cp "$(ls curseforge/*.zip | head -n 1)" "curseforge-upload/$(basename "$(ls curseforge/*.zip | head -n 1)" .zip | tr ' ' '-')-all-locales.zip"
         chmod u+w curseforge-upload/*.zip
     - name: Inject latest translation into CurseForge export
       env:
