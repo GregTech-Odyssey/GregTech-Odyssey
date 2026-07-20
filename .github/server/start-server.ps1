@@ -52,6 +52,47 @@ function Get-JavaVersion {
     return 0
 }
 
+function Write-DownloadFailureHint {
+    param(
+        [string]$What,
+        [string]$Url,
+        [string]$Reason = "",
+        [string]$Extra = ""
+    )
+    Write-Host ""
+    Write-Host "[ERROR] ========== Download failed / 下载失败 ==========" -ForegroundColor Red
+    Write-Host "[ERROR] Target / 目标: $What" -ForegroundColor Red
+    if ($Url) {
+        Write-Host "[ERROR] URL: $Url" -ForegroundColor Red
+    }
+    if ($Reason) {
+        Write-Host "[ERROR] Reason / 原因: $Reason" -ForegroundColor Red
+    }
+    if ($Extra) {
+        Write-Host "[ERROR] $Extra" -ForegroundColor Red
+    }
+    Write-Host ""
+    Write-Host "[HINT] Common causes (especially in mainland China) / 常见原因（中国大陆网络尤为常见）:" -ForegroundColor Yellow
+    Write-Host "  1. Cannot reach CurseForge CDN or Forge Maven (blocked / unstable / DNS)." -ForegroundColor Yellow
+    Write-Host "     无法访问 CurseForge CDN 或 Forge Maven（屏蔽 / 不稳定 / DNS 污染）。" -ForegroundColor Yellow
+    Write-Host "  2. TLS/proxy/firewall interrupted the connection." -ForegroundColor Yellow
+    Write-Host "     TLS、代理或防火墙中断了连接。" -ForegroundColor Yellow
+    Write-Host "  3. Timeout or partial download due to slow/unstable network." -ForegroundColor Yellow
+    Write-Host "     网络慢或不稳定导致超时、文件不完整。" -ForegroundColor Yellow
+    Write-Host ""
+    Write-Host "[HINT] What to try / 建议处理:" -ForegroundColor Yellow
+    Write-Host "  - Use a reliable proxy/VPN, then re-run this script (metadata is kept for retry)." -ForegroundColor Yellow
+    Write-Host "    使用稳定的代理/VPN 后重新运行本脚本（元数据会保留以便重试）。" -ForegroundColor Yellow
+    Write-Host "  - Switch DNS (e.g. 223.5.5.5 / 1.1.1.1) and retry." -ForegroundColor Yellow
+    Write-Host "    更换 DNS（如 223.5.5.5 / 1.1.1.1）后重试。" -ForegroundColor Yellow
+    Write-Host "  - Delete only the failed partial JAR under mods\, then re-run." -ForegroundColor Yellow
+    Write-Host "    仅删除 mods\ 下失败的不完整 JAR，再重新运行。" -ForegroundColor Yellow
+    Write-Host "  - Do NOT delete gtocore-forge-*.jar / gtonativelib-*.jar (bundled core mods)." -ForegroundColor Yellow
+    Write-Host "    不要删除 gtocore-forge-*.jar / gtonativelib-*.jar（随包核心 mod）。" -ForegroundColor Yellow
+    Write-Host "[ERROR] ==================================================" -ForegroundColor Red
+    Write-Host ""
+}
+
 if ($env:JAVA_HOME -and (Test-Path "$env:JAVA_HOME\bin\java.exe")) {
     if ((Get-JavaVersion "$env:JAVA_HOME\bin\java.exe") -ge 21) {
         $javaCmd = "$env:JAVA_HOME\bin\java.exe"
@@ -119,6 +160,7 @@ if (-not (Test-ForgeInstalled)) {
     if (-not (Test-Path $installerPath)) {
         Write-Host "[INFO] Downloading Forge installer..." -ForegroundColor Green
         $success = $false
+        $lastError = ""
         for ($i = 1; $i -le 3; $i++) {
             try {
                 $ProgressPreference = 'SilentlyContinue'
@@ -128,12 +170,18 @@ if (-not (Test-ForgeInstalled)) {
                 $success = $true
                 break
             } catch {
-                Write-Host "[WARN] Download attempt $i/3 failed, retrying..." -ForegroundColor Yellow
+                $lastError = $_.Exception.Message
+                if ($_.Exception.InnerException) {
+                    $lastError = "$lastError | $($_.Exception.InnerException.Message)"
+                }
+                Write-Host "[WARN] Download attempt $i/3 failed: $lastError" -ForegroundColor Yellow
                 Start-Sleep -Seconds 3
             }
         }
         if (-not $success) {
-            Write-Host "[ERROR] Failed to download Forge installer after 3 attempts" -ForegroundColor Red
+            Remove-Item $installerPath -Force -ErrorAction SilentlyContinue
+            Write-DownloadFailureHint -What "Forge installer" -Url $FORGE_MAVEN -Reason $lastError `
+                -Extra "Source: maven.minecraftforge.net (Forge official Maven)"
             pause
             exit 1
         }
@@ -145,9 +193,19 @@ if (-not (Test-ForgeInstalled)) {
     $process = Start-Process -FilePath $javaCmd -ArgumentList "-jar", $installerPath, "--installServer" -NoNewWindow -Wait -PassThru -RedirectStandardOutput "$env:TEMP\forge-install.log" -RedirectStandardError "$env:TEMP\forge-install-err.log"
     
     if ($process.ExitCode -ne 0) {
-        Write-Host "[ERROR] Forge installation failed" -ForegroundColor Red
-        $errorLog = Get-Content "$env:TEMP\forge-install-err.log" -Tail 5
-        Write-Host "[ERROR] $errorLog" -ForegroundColor Red
+        Write-Host "[ERROR] Forge installation failed (installer exit code: $($process.ExitCode))" -ForegroundColor Red
+        if (Test-Path "$env:TEMP\forge-install-err.log") {
+            $errorLog = Get-Content "$env:TEMP\forge-install-err.log" -Tail 10 -ErrorAction SilentlyContinue
+            if ($errorLog) {
+                Write-Host "[ERROR] Installer stderr (tail):" -ForegroundColor Red
+                $errorLog | ForEach-Object { Write-Host "[ERROR]   $_" -ForegroundColor Red }
+            }
+        }
+        Write-Host ""
+        Write-Host "[HINT] Installer may fail if libraries cannot be downloaded from Maven (network)." -ForegroundColor Yellow
+        Write-Host "       安装器若无法从 Maven 拉取 libraries，也会因网络失败。" -ForegroundColor Yellow
+        Write-Host "       Use proxy/VPN and re-run; partial downloads can be cleaned then retried." -ForegroundColor Yellow
+        Write-Host "       请使用代理/VPN 后重试；不完整文件可清理后再跑。" -ForegroundColor Yellow
         pause
         exit 1
     }
@@ -225,9 +283,9 @@ foreach ($toml in $pwTomls) {
             $file = Get-Item "mods\$filename" -ErrorAction SilentlyContinue
             if (-not $file -or $file.Length -lt 1024) {
                 Remove-Item "mods\$filename" -Force -ErrorAction SilentlyContinue
-                Write-Host "[ERROR] Invalid download for $filename (file too small or empty)" -ForegroundColor Red
-                Write-Host "[ERROR] URL: $url" -ForegroundColor Red
-                Write-Host "[ERROR] Metadata kept for retry: $($toml.Name)" -ForegroundColor Red
+                Write-DownloadFailureHint -What $filename -Url $url `
+                    -Reason "Invalid download (file too small or empty / 文件过小或为空)" `
+                    -Extra "Metadata kept for retry: $($toml.Name)"
                 pause
                 exit 1
             }
@@ -237,9 +295,15 @@ foreach ($toml in $pwTomls) {
             $downloaded++
         } catch {
             Remove-Item "mods\$filename" -Force -ErrorAction SilentlyContinue
-            Write-Host "[ERROR] Failed to download $filename" -ForegroundColor Red
-            Write-Host "[ERROR] URL: $url" -ForegroundColor Red
-            Write-Host "[ERROR] Metadata kept for retry: $($toml.Name)" -ForegroundColor Red
+            $reason = $_.Exception.Message
+            if ($_.Exception.InnerException) {
+                $reason = "$reason | $($_.Exception.InnerException.Message)"
+            }
+            if ($_.Exception.Response -and $_.Exception.Response.StatusCode) {
+                $reason = "HTTP $($_.Exception.Response.StatusCode.value__) $reason"
+            }
+            Write-DownloadFailureHint -What $filename -Url $url -Reason $reason `
+                -Extra "Metadata kept for retry: $($toml.Name) | Source: CurseForge CDN (edge.forgecdn.net)"
             pause
             exit 1
         }

@@ -13,6 +13,62 @@ info() { echo -e "${GREEN}[INFO]${NC} $1"; }
 warn() { echo -e "${YELLOW}[WARN]${NC} $1"; }
 error() { echo -e "${RED}[ERROR]${NC} $1"; exit 1; }
 
+# Print bilingual download-failure hints (network issues common in CN).
+# Usage: download_failure_hint <what> <url> <reason> [extra]
+download_failure_hint() {
+    local what="$1"
+    local url="$2"
+    local reason="$3"
+    local extra="${4:-}"
+    echo ""
+    echo -e "${RED}[ERROR] ========== Download failed / 下载失败 ==========${NC}"
+    echo -e "${RED}[ERROR] Target / 目标: ${what}${NC}"
+    if [ -n "$url" ]; then
+        echo -e "${RED}[ERROR] URL: ${url}${NC}"
+    fi
+    if [ -n "$reason" ]; then
+        echo -e "${RED}[ERROR] Reason / 原因: ${reason}${NC}"
+    fi
+    if [ -n "$extra" ]; then
+        echo -e "${RED}[ERROR] ${extra}${NC}"
+    fi
+    echo ""
+    echo -e "${YELLOW}[HINT] Common causes (especially in mainland China) / 常见原因（中国大陆网络尤为常见）:${NC}"
+    echo -e "${YELLOW}  1. Cannot reach CurseForge CDN or Forge Maven (blocked / unstable / DNS).${NC}"
+    echo -e "${YELLOW}     无法访问 CurseForge CDN 或 Forge Maven（屏蔽 / 不稳定 / DNS 污染）。${NC}"
+    echo -e "${YELLOW}  2. TLS/proxy/firewall interrupted the connection.${NC}"
+    echo -e "${YELLOW}     TLS、代理或防火墙中断了连接。${NC}"
+    echo -e "${YELLOW}  3. Timeout or partial download due to slow/unstable network.${NC}"
+    echo -e "${YELLOW}     网络慢或不稳定导致超时、文件不完整。${NC}"
+    echo ""
+    echo -e "${YELLOW}[HINT] What to try / 建议处理:${NC}"
+    echo -e "${YELLOW}  - Use a reliable proxy/VPN, then re-run this script (metadata is kept for retry).${NC}"
+    echo -e "${YELLOW}    使用稳定的代理/VPN 后重新运行本脚本（元数据会保留以便重试）。${NC}"
+    echo -e "${YELLOW}  - Switch DNS (e.g. 223.5.5.5 / 1.1.1.1) and retry.${NC}"
+    echo -e "${YELLOW}    更换 DNS（如 223.5.5.5 / 1.1.1.1）后重试。${NC}"
+    echo -e "${YELLOW}  - Delete only the failed partial JAR under mods/, then re-run.${NC}"
+    echo -e "${YELLOW}    仅删除 mods/ 下失败的不完整 JAR，再重新运行。${NC}"
+    echo -e "${YELLOW}  - Do NOT delete gtocore-forge-*.jar / gtonativelib-*.jar (bundled core mods).${NC}"
+    echo -e "${YELLOW}    不要删除 gtocore-forge-*.jar / gtonativelib-*.jar（随包核心 mod）。${NC}"
+    echo -e "${RED}[ERROR] ==================================================${NC}"
+    echo ""
+}
+
+# Map curl exit code to a short human-readable reason.
+curl_fail_reason() {
+    local code="$1"
+    case "$code" in
+        6)  echo "curl exit 6: Could not resolve host (DNS failure / 无法解析主机名)" ;;
+        7)  echo "curl exit 7: Failed to connect to host (network blocked or unreachable / 无法连接主机)" ;;
+        22) echo "curl exit 22: HTTP error (404/403/5xx etc. / HTTP 状态错误)" ;;
+        28) echo "curl exit 28: Operation timeout (slow or unstable network / 下载超时)" ;;
+        35) echo "curl exit 35: SSL/TLS connect error (proxy or MITM / TLS 握手失败)" ;;
+        56) echo "curl exit 56: Failure in receiving network data (connection reset / 接收数据失败)" ;;
+        60) echo "curl exit 60: SSL certificate problem (proxy/cert / 证书校验失败)" ;;
+        *)  echo "curl exit $code: see https://curl.se/libcurl/c/libcurl-errors.html" ;;
+    esac
+}
+
 # ============ Configuration ============
 # Read versions from pack.toml
 MC_VERSION=$(grep 'minecraft' pack.toml | head -1 | sed 's/.*= *"\([^"]*\)".*/\1/')
@@ -87,14 +143,29 @@ install_forge() {
     INSTALLER="forge-${FORGE_VERSION}-installer.jar"
     if [ ! -f "$INSTALLER" ]; then
         info "Downloading Forge installer..."
-        if ! curl -fsSL -o "$INSTALLER" "$FORGE_MAVEN"; then
-            error "Failed to download Forge installer"
+        CURL_ERR=$(mktemp)
+        if ! curl -fsSL --retry 2 --retry-delay 2 -o "$INSTALLER" "$FORGE_MAVEN" 2>"$CURL_ERR"; then
+            code=$?
+            detail=$(tr '\n' ' ' <"$CURL_ERR" | sed 's/[[:space:]]\+/ /g')
+            rm -f "$CURL_ERR" "$INSTALLER"
+            download_failure_hint "Forge installer" "$FORGE_MAVEN" \
+                "$(curl_fail_reason "$code")${detail:+ | $detail}" \
+                "Source: maven.minecraftforge.net (Forge official Maven)"
+            exit 1
         fi
+        rm -f "$CURL_ERR"
     fi
 
     info "Installing Forge..."
     if ! $JAVA_CMD -jar "$INSTALLER" --installServer; then
-        error "Forge installation failed (exit code: $?)"
+        install_code=$?
+        echo ""
+        echo -e "${RED}[ERROR] Forge installation failed (installer exit code: ${install_code})${NC}"
+        echo -e "${YELLOW}[HINT] Installer may fail if libraries cannot be downloaded from Maven (network).${NC}"
+        echo -e "${YELLOW}       安装器若无法从 Maven 拉取 libraries，也会因网络失败。${NC}"
+        echo -e "${YELLOW}       Use proxy/VPN and re-run; partial downloads can be cleaned then retried.${NC}"
+        echo -e "${YELLOW}       请使用代理/VPN 后重试；不完整文件可清理后再跑。${NC}"
+        exit 1
     fi
 
     rm -f "$INSTALLER" run.sh run.bat
@@ -165,19 +236,28 @@ download_mods() {
         
         if [ -n "$url" ]; then
             info "Downloading $filename..."
-            if curl -fsSL -L -A "Mozilla/5.0" -o "mods/$filename" "$url"; then
+            CURL_ERR=$(mktemp)
+            if curl -fsSL -L --retry 2 --retry-delay 2 -A "Mozilla/5.0" -o "mods/$filename" "$url" 2>"$CURL_ERR"; then
                 # Basic size check; keep metadata if download looks invalid
                 size=$(wc -c < "mods/$filename" 2>/dev/null | tr -d ' ')
                 if [ -z "$size" ] || [ "$size" -lt 1024 ]; then
-                    rm -f "mods/$filename"
-                    error "Invalid download for $filename (file too small); metadata kept: $toml"
+                    rm -f "mods/$filename" "$CURL_ERR"
+                    download_failure_hint "$filename" "$url" \
+                        "Invalid download (file too small or empty / 文件过小或为空)" \
+                        "Metadata kept for retry: $toml"
+                    exit 1
                 fi
-                rm -f "$toml"
+                rm -f "$toml" "$CURL_ERR"
                 cleaned_meta=$((cleaned_meta + 1))
                 downloaded=$((downloaded + 1))
             else
-                rm -f "mods/$filename"
-                error "Failed to download $filename (metadata kept: $toml)"
+                code=$?
+                detail=$(tr '\n' ' ' <"$CURL_ERR" | sed 's/[[:space:]]\+/ /g')
+                rm -f "mods/$filename" "$CURL_ERR"
+                download_failure_hint "$filename" "$url" \
+                    "$(curl_fail_reason "$code")${detail:+ | $detail}" \
+                    "Metadata kept for retry: $toml | Source: CurseForge CDN (edge.forgecdn.net)"
+                exit 1
             fi
         else
             warn "No download URL for $filename — keeping $toml for retry"

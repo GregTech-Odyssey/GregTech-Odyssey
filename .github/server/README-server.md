@@ -105,7 +105,7 @@ chmod +x start-server.sh
 | 问题 | 处理 |
 |------|------|
 | `Java 21 or later not found` | 安装 Java 21+，或设置 `JAVA_HOME` 指向 JDK/JRE 根目录 |
-| `Failed to download …` / 下载中断 | 检查网络与防火墙，稍后重试；可只删失败的 JAR 后重跑 |
+| `Download failed / 下载失败`（Forge 或 mod） | 脚本会打印 **原因**（HTTP/DNS/超时等）与 URL。中国大陆访问 CurseForge CDN（`edge.forgecdn.net`）与 Forge Maven（`maven.minecraftforge.net`）经常失败：请使用 **稳定代理/VPN**，或更换 DNS 后重试；元数据会保留。仅删除失败的不完整 JAR，**不要**删除两个核心 JAR |
 | PowerShell 无法运行脚本 | `Set-ExecutionPolicy -Scope CurrentUser RemoteSigned` |
 | 解压后找不到 `start-server.bat` | 进入 zip 内的 `server/` 子目录 |
 | 启动即崩溃 | 查看 `logs/latest.log`；确认核心 JAR 仍在 `mods/` |
@@ -222,7 +222,7 @@ Press **Ctrl+C** in the launcher console, or type `stop` at the server prompt.
 | Problem | What to try |
 |---------|-------------|
 | `Java 21 or later not found` | Install Java 21+ or set `JAVA_HOME` |
-| Download failures | Check network; delete only the failed JAR and retry |
+| `Download failed` (Forge or mods) | The launcher prints the **reason** (HTTP/DNS/timeout) and URL. CurseForge CDN (`edge.forgecdn.net`) and Forge Maven are often unreachable from mainland China — use a proxy/VPN or switch DNS, then re-run. Metadata is kept for retry; delete only failed partial JARs, not the two core JARs |
 | PowerShell execution policy | `Set-ExecutionPolicy -Scope CurrentUser RemoteSigned` |
 | Cannot find `start-server.bat` | Enter the nested `server/` directory from the zip |
 | Crash on start | Check `logs/latest.log`; ensure core JARs remain under `mods/` |
