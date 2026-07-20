@@ -134,6 +134,131 @@ check_java() {
     info "Using Java: $JAVA_CMD"
 }
 
+# Map official library URLs to BMCLAPI mirrors (https://bmclapidoc.bangbang93.com/)
+bmclapi_mirror_url() {
+    local url="$1"
+    case "$url" in
+        https://maven.minecraftforge.net/*)
+            echo "https://bmclapi2.bangbang93.com/maven/${url#https://maven.minecraftforge.net/}"
+            ;;
+        https://maven.creeperhost.net/*)
+            echo "https://bmclapi2.bangbang93.com/maven/${url#https://maven.creeperhost.net/}"
+            ;;
+        https://libraries.minecraft.net/*)
+            echo "https://bmclapi2.bangbang93.com/${url#https://libraries.minecraft.net/}"
+            ;;
+        https://launcher.mojang.com/*)
+            echo "https://bmclapi2.bangbang93.com/${url#https://launcher.mojang.com/}"
+            ;;
+        https://piston-data.mojang.com/*)
+            echo "https://bmclapi2.bangbang93.com/${url#https://piston-data.mojang.com/}"
+            ;;
+        https://piston-meta.mojang.com/*)
+            echo "https://bmclapi2.bangbang93.com/${url#https://piston-meta.mojang.com/}"
+            ;;
+        *)
+            echo ""
+            ;;
+    esac
+}
+
+# Prefetch libraries listed in installer JSONs (official then BMCLAPI).
+prefetch_forge_libraries() {
+    local installer="$1"
+    local tmpdir list_file path url dest mirror
+    if ! command -v unzip >/dev/null 2>&1; then
+        warn "unzip not found; skip library prefetch"
+        return 0
+    fi
+    if ! command -v python3 >/dev/null 2>&1 && ! command -v python >/dev/null 2>&1; then
+        warn "python not found; skip library prefetch (installer will download libraries itself)"
+        return 0
+    fi
+    local py=python3
+    command -v python3 >/dev/null 2>&1 || py=python
+
+    tmpdir=$(mktemp -d)
+    list_file="$tmpdir/libs.tsv"
+    for json_name in install_profile.json version.json; do
+        unzip -p "$installer" "$json_name" >"$tmpdir/$json_name" 2>/dev/null || continue
+        "$py" - "$tmpdir/$json_name" >>"$list_file" <<'PY'
+import json, sys
+data = json.load(open(sys.argv[1], encoding="utf-8"))
+for lib in data.get("libraries") or []:
+    art = (lib.get("downloads") or {}).get("artifact") or {}
+    path, url, sha1 = art.get("path"), art.get("url"), art.get("sha1") or ""
+    if path and url:
+        print(f"{path}\t{url}\t{sha1}")
+PY
+    done
+
+    if [ ! -s "$list_file" ]; then
+        warn "No library list in installer; skip prefetch"
+        rm -rf "$tmpdir"
+        return 0
+    fi
+
+    # unique by path
+    sort -u -t $'\t' -k1,1 "$list_file" -o "$list_file"
+    local total
+    total=$(wc -l <"$list_file" | tr -d ' ')
+    info "Prefetching $total Forge libraries (official then BMCLAPI)..."
+    info "预下载 Forge 依赖库（先官方，失败再 BMCLAPI）；随后安装器会输出实时日志。"
+
+    local i=0 ok=0 skip=0 fail=0
+    while IFS=$'\t' read -r path url sha1; do
+        [ -n "$path" ] || continue
+        i=$((i + 1))
+        dest="libraries/$path"
+        if [ -f "$dest" ] && [ -s "$dest" ]; then
+            if [ -n "$sha1" ] && command -v sha1sum >/dev/null 2>&1; then
+                actual=$(sha1sum "$dest" | awk '{print $1}')
+                if [ "$actual" = "$sha1" ]; then
+                    skip=$((skip + 1))
+                    continue
+                fi
+            else
+                skip=$((skip + 1))
+                continue
+            fi
+        fi
+        info "[$i/$total] $(basename "$path")"
+        mkdir -p "$(dirname "$dest")"
+        got=0
+        for try_url_name in "official|$url" "BMCLAPI|$(bmclapi_mirror_url "$url")"; do
+            try_name="${try_url_name%%|*}"
+            try_url="${try_url_name#*|}"
+            [ -n "$try_url" ] || continue
+            info "  try $try_name: $try_url"
+            if curl -fsSL --retry 2 --retry-delay 1 --connect-timeout 20 --max-time 90 \
+                -A "Mozilla/5.0" -o "$dest.part" "$try_url"; then
+                if [ -n "$sha1" ] && command -v sha1sum >/dev/null 2>&1; then
+                    actual=$(sha1sum "$dest.part" | awk '{print $1}')
+                    if [ "$actual" != "$sha1" ]; then
+                        rm -f "$dest.part"
+                        warn "  $try_name SHA1 mismatch"
+                        continue
+                    fi
+                fi
+                mv -f "$dest.part" "$dest"
+                info "  ok via $try_name"
+                got=1
+                ok=$((ok + 1))
+                break
+            fi
+            rm -f "$dest.part"
+            warn "  $try_name failed"
+        done
+        if [ "$got" -ne 1 ]; then
+            fail=$((fail + 1))
+            warn "Prefetch failed for $(basename "$path") (installer will retry)"
+        fi
+    done <"$list_file"
+
+    info "Prefetch done: downloaded=$ok skipped=$skip failed=$fail"
+    rm -rf "$tmpdir"
+}
+
 # ============ Install Forge ============
 install_forge() {
     if [ -d "libraries/net/minecraftforge/forge/$FORGE_VERSION" ]; then
@@ -189,16 +314,25 @@ install_forge() {
         fi
     fi
 
-    info "Installing Forge..."
-    if ! $JAVA_CMD -jar "$INSTALLER" --installServer; then
-        install_code=$?
+    # Prefetch libs so installer is less likely to hang on Maven timeouts
+    prefetch_forge_libraries "$INSTALLER" || warn "Library prefetch had errors; continuing"
+
+    info "Installing Forge (live log below; may take several minutes)..."
+    info "正在安装 Forge（下方为实时日志；拉依赖可能需数分钟，请勿关闭）..."
+    set +e
+    set -o pipefail
+    $JAVA_CMD -jar "$INSTALLER" --installServer 2>&1 | tee forge-install-server.log
+    install_code=${PIPESTATUS[0]}
+    set +o pipefail
+
+    if [ "$install_code" -ne 0 ] || { [ ! -d "libraries/net/minecraftforge/forge/$FORGE_VERSION" ] && [ ! -f "unix_args.txt" ] && [ ! -f "win_args.txt" ]; }; then
         echo ""
-        echo -e "${RED}[ERROR] Forge installation failed (installer exit code: ${install_code})${NC}"
-        echo -e "${YELLOW}[HINT] Installer may fail if libraries cannot be downloaded from Maven (network).${NC}"
-        echo -e "${YELLOW}       安装器若无法从 Maven 拉取 libraries，也会因网络失败。${NC}"
-        echo -e "${YELLOW}       BMCLAPI only mirrors the installer JAR; libraries still need network/proxy.${NC}"
-        echo -e "${YELLOW}       Use proxy/VPN and re-run; partial downloads can be cleaned then retried.${NC}"
-        echo -e "${YELLOW}       请使用代理/VPN 后重试；不完整文件可清理后再跑。${NC}"
+        echo -e "${RED}[ERROR] Forge installation failed (exit code: ${install_code})${NC}"
+        echo -e "${YELLOW}[HINT] Installer downloads many libraries; CN networks often time out on Maven/creeperhost.${NC}"
+        echo -e "${YELLOW}       安装器会下载大量 libraries；国内访问 Maven 超时很常见。${NC}"
+        echo -e "${YELLOW}       Script already tried BMCLAPI prefetch; remaining failures usually need proxy/VPN.${NC}"
+        echo -e "${YELLOW}       脚本已尝试 BMCLAPI 预下载；仍失败时请开代理/VPN 后重试。${NC}"
+        echo -e "${YELLOW}       Full log: forge-install-server.log — or delete incomplete libraries/ and re-run.${NC}"
         exit 1
     fi
 

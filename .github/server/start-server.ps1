@@ -182,6 +182,216 @@ function Find-ForgeArgsFile {
     return $null
 }
 
+function Get-FileSha1Hex {
+    param([string]$FilePath)
+    $sha1 = [System.Security.Cryptography.SHA1]::Create()
+    $fs = [System.IO.File]::OpenRead($FilePath)
+    try {
+        $hash = $sha1.ComputeHash($fs)
+        return (-join ($hash | ForEach-Object { $_.ToString('x2') }))
+    } finally {
+        $fs.Dispose()
+        $sha1.Dispose()
+    }
+}
+
+function Get-BmclapiMirrorUrl {
+    param([string]$Url)
+    if ([string]::IsNullOrWhiteSpace($Url)) { return $null }
+    # BMCLAPI maven mirror: https://bmclapidoc.bangbang93.com/
+    if ($Url -match '^https?://maven\.minecraftforge\.net/(.+)$') {
+        return 'https://bmclapi2.bangbang93.com/maven/' + $Matches[1]
+    }
+    if ($Url -match '^https?://maven\.creeperhost\.net/(.+)$') {
+        return 'https://bmclapi2.bangbang93.com/maven/' + $Matches[1]
+    }
+    if ($Url -match '^https?://libraries\.minecraft\.net/(.+)$') {
+        return 'https://bmclapi2.bangbang93.com/' + $Matches[1]
+    }
+    if ($Url -match '^https?://launcher\.mojang\.com/(.+)$') {
+        return 'https://bmclapi2.bangbang93.com/' + $Matches[1]
+    }
+    if ($Url -match '^https?://piston-data\.mojang\.com/(.+)$') {
+        return 'https://bmclapi2.bangbang93.com/' + $Matches[1]
+    }
+    if ($Url -match '^https?://piston-meta\.mojang\.com/(.+)$') {
+        return 'https://bmclapi2.bangbang93.com/' + $Matches[1]
+    }
+    return $null
+}
+
+function Get-RemoteFileTimed {
+    param(
+        [string]$Url,
+        [string]$OutFile,
+        [int]$TimeoutSec = 60
+    )
+    $dir = Split-Path -Parent $OutFile
+    if ($dir -and -not (Test-Path $dir)) {
+        New-Item -ItemType Directory -Force -Path $dir | Out-Null
+    }
+    $tmp = $OutFile + '.part'
+    Remove-Item -LiteralPath $tmp -Force -ErrorAction SilentlyContinue
+
+    # Prefer curl.exe (Win10+) for reliable timeouts; fallback to HttpWebRequest.
+    $curl = Get-Command curl.exe -ErrorAction SilentlyContinue
+    if ($curl) {
+        $args = @(
+            '-fL', '--retry', '2', '--retry-delay', '1',
+            '--connect-timeout', '20', '--max-time', ([string]$TimeoutSec),
+            '-A', 'Mozilla/5.0',
+            '-o', $tmp, $Url
+        )
+        $p = Start-Process -FilePath $curl.Source -ArgumentList $args -NoNewWindow -Wait -PassThru
+        if ($p.ExitCode -ne 0) {
+            Remove-Item -LiteralPath $tmp -Force -ErrorAction SilentlyContinue
+            throw ('curl exit ' + $p.ExitCode + ' for ' + $Url)
+        }
+    } else {
+        $req = [System.Net.HttpWebRequest]::Create($Url)
+        $req.Method = 'GET'
+        $req.Timeout = $TimeoutSec * 1000
+        $req.ReadWriteTimeout = $TimeoutSec * 1000
+        $req.UserAgent = 'Mozilla/5.0'
+        $req.AllowAutoRedirect = $true
+        $resp = $null
+        $stream = $null
+        $fs = $null
+        try {
+            $resp = $req.GetResponse()
+            $stream = $resp.GetResponseStream()
+            $fs = [System.IO.File]::Open($tmp, [System.IO.FileMode]::Create, [System.IO.FileAccess]::Write)
+            $stream.CopyTo($fs)
+        } finally {
+            if ($fs) { $fs.Dispose() }
+            if ($stream) { $stream.Dispose() }
+            if ($resp) { $resp.Dispose() }
+        }
+    }
+
+    $file = Get-Item -LiteralPath $tmp -ErrorAction SilentlyContinue
+    if (-not $file -or $file.Length -lt 64) {
+        Remove-Item -LiteralPath $tmp -Force -ErrorAction SilentlyContinue
+        throw 'Downloaded file too small or empty'
+    }
+    Move-Item -LiteralPath $tmp -Destination $OutFile -Force
+}
+
+function Get-InstallerJsonText {
+    param(
+        [string]$InstallerJar,
+        [string]$EntryName
+    )
+    Add-Type -AssemblyName System.IO.Compression.FileSystem -ErrorAction SilentlyContinue
+    $zip = [System.IO.Compression.ZipFile]::OpenRead((Resolve-Path $InstallerJar).Path)
+    try {
+        $entry = $zip.Entries | Where-Object { $_.FullName -eq $EntryName } | Select-Object -First 1
+        if (-not $entry) { return $null }
+        $reader = New-Object System.IO.StreamReader($entry.Open())
+        try { return $reader.ReadToEnd() } finally { $reader.Dispose() }
+    } finally {
+        $zip.Dispose()
+    }
+}
+
+function Get-ForgeLibraryArtifacts {
+    param([string]$InstallerJar)
+    $items = New-Object System.Collections.Generic.List[object]
+    foreach ($name in @('install_profile.json', 'version.json')) {
+        $raw = Get-InstallerJsonText -InstallerJar $InstallerJar -EntryName $name
+        if (-not $raw) { continue }
+        $json = $raw | ConvertFrom-Json
+        if (-not $json.libraries) { continue }
+        foreach ($lib in $json.libraries) {
+            $art = $lib.downloads.artifact
+            if (-not $art -or -not $art.path -or -not $art.url) { continue }
+            $items.Add([pscustomobject]@{
+                Path = [string]$art.path
+                Url  = [string]$art.url
+                Sha1 = [string]$art.sha1
+            })
+        }
+    }
+    return @($items | Sort-Object Path -Unique)
+}
+
+function Install-ForgeLibrariesPrefetch {
+    param(
+        [string]$InstallerJar,
+        [string]$LibrariesRoot = 'libraries'
+    )
+    $artifacts = @(Get-ForgeLibraryArtifacts -InstallerJar $InstallerJar)
+    if ($artifacts.Count -eq 0) {
+        Write-Host '[WARN] No library list found in installer; skipping prefetch.' -ForegroundColor Yellow
+        return
+    }
+
+    Write-Host ('[INFO] Prefetching ' + $artifacts.Count + ' Forge libraries (official then BMCLAPI)...') -ForegroundColor Green
+    Write-Host '[INFO] 预下载 Forge 依赖库（先官方，失败再 BMCLAPI）；安装阶段会显示实时日志。' -ForegroundColor Green
+
+    $ok = 0
+    $skip = 0
+    $fail = 0
+    $i = 0
+    foreach ($art in $artifacts) {
+        $i++
+        $dest = Join-Path $LibrariesRoot ($art.Path -replace '/', [IO.Path]::DirectorySeparatorChar)
+        $need = $true
+        if (Test-Path -LiteralPath $dest) {
+            if ($art.Sha1) {
+                try {
+                    if ((Get-FileSha1Hex -FilePath $dest) -eq $art.Sha1.ToLowerInvariant()) {
+                        $need = $false
+                    }
+                } catch { $need = $true }
+            } else {
+                if ((Get-Item -LiteralPath $dest).Length -gt 64) { $need = $false }
+            }
+        }
+        if (-not $need) {
+            $skip++
+            continue
+        }
+
+        $name = Split-Path $art.Path -Leaf
+        Write-Host ('[INFO] [' + $i + '/' + $artifacts.Count + '] ' + $name) -ForegroundColor Cyan
+
+        $candidates = New-Object System.Collections.Generic.List[object]
+        $candidates.Add([pscustomobject]@{ Name = 'official'; Url = $art.Url })
+        $mirror = Get-BmclapiMirrorUrl -Url $art.Url
+        if ($mirror) {
+            $candidates.Add([pscustomobject]@{ Name = 'BMCLAPI'; Url = $mirror })
+        }
+
+        $got = $false
+        foreach ($c in $candidates) {
+            try {
+                Write-Host ('[INFO]   try ' + $c.Name + ': ' + $c.Url) -ForegroundColor DarkGray
+                Get-RemoteFileTimed -Url $c.Url -OutFile $dest -TimeoutSec 90
+                if ($art.Sha1) {
+                    $actual = Get-FileSha1Hex -FilePath $dest
+                    if ($actual -ne $art.Sha1.ToLowerInvariant()) {
+                        Remove-Item -LiteralPath $dest -Force -ErrorAction SilentlyContinue
+                        throw ('SHA1 mismatch: expected ' + $art.Sha1 + ' got ' + $actual)
+                    }
+                }
+                Write-Host ('[INFO]   ok via ' + $c.Name) -ForegroundColor Green
+                $got = $true
+                $ok++
+                break
+            } catch {
+                Write-Host ('[WARN]   ' + $c.Name + ' failed: ' + $_.Exception.Message) -ForegroundColor Yellow
+                Remove-Item -LiteralPath $dest -Force -ErrorAction SilentlyContinue
+            }
+        }
+        if (-not $got) {
+            $fail++
+            Write-Host ('[WARN] Prefetch failed for ' + $name + ' (installer will retry)') -ForegroundColor Yellow
+        }
+    }
+    Write-Host ('[INFO] Prefetch done: downloaded=' + $ok + ' skipped=' + $skip + ' failed=' + $fail) -ForegroundColor Green
+}
+
 # ============ Install Forge if not present ============
 if (-not (Test-ForgeInstalled)) {
     Write-Host '[INFO] Forge not installed. Downloading...' -ForegroundColor Yellow
@@ -231,26 +441,91 @@ if (-not (Test-ForgeInstalled)) {
         }
     }
 
-    Write-Host '[INFO] Installing Forge...' -ForegroundColor Green
+    # Prefetch libraries via official + BMCLAPI so installer does not hang silently on Maven timeouts
+    try {
+        Install-ForgeLibrariesPrefetch -InstallerJar $installerPath -LibrariesRoot 'libraries'
+    } catch {
+        Write-Host ('[WARN] Library prefetch error: ' + $_.Exception.Message) -ForegroundColor Yellow
+        Write-Host '[WARN] Continuing with Forge installer anyway...' -ForegroundColor Yellow
+    }
 
-    $process = Start-Process -FilePath $javaCmd -ArgumentList '-jar', $installerPath, '--installServer' -NoNewWindow -Wait -PassThru -RedirectStandardOutput ($env:TEMP + '\forge-install.log') -RedirectStandardError ($env:TEMP + '\forge-install-err.log')
+    Write-Host ''
+    Write-Host '[INFO] Installing Forge (live log below; library download may take several minutes)...' -ForegroundColor Green
+    Write-Host '[INFO] 正在安装 Forge（下方为实时日志；拉依赖可能需数分钟，请勿关闭窗口）...' -ForegroundColor Green
+    Write-Host ''
 
-    if ($process.ExitCode -ne 0) {
-        Write-Host ('[ERROR] Forge installation failed (installer exit code: ' + $process.ExitCode + ')') -ForegroundColor Red
-        $errLogPath = $env:TEMP + '\forge-install-err.log'
-        if (Test-Path $errLogPath) {
-            $errorLog = Get-Content $errLogPath -Tail 10 -ErrorAction SilentlyContinue
-            if ($errorLog) {
-                Write-Host '[ERROR] Installer stderr (tail):' -ForegroundColor Red
-                $errorLog | ForEach-Object { Write-Host ('[ERROR]   ' + $_) -ForegroundColor Red }
+    $installLog = Join-Path $PWD 'forge-install-server.log'
+    $installErr = Join-Path $PWD 'forge-install-server.err.log'
+    Remove-Item -LiteralPath $installLog, $installErr -Force -ErrorAction SilentlyContinue
+
+    # Redirect to files but stream new lines + heartbeat so the console never looks frozen
+    $proc = Start-Process -FilePath $javaCmd -ArgumentList @('-jar', $installerPath, '--installServer') `
+        -NoNewWindow -PassThru -RedirectStandardOutput $installLog -RedirectStandardError $installErr
+
+    $shownOut = 0
+    $shownErr = 0
+    $lastActivity = Get-Date
+    $lastHeartbeat = Get-Date
+    while (-not $proc.HasExited) {
+        Start-Sleep -Milliseconds 800
+        foreach ($pair in @(
+            @{ Path = $installLog; Shown = [ref]$shownOut },
+            @{ Path = $installErr; Shown = [ref]$shownErr }
+        )) {
+            if (-not (Test-Path -LiteralPath $pair.Path)) { continue }
+            $lines = @(Get-Content -LiteralPath $pair.Path -ErrorAction SilentlyContinue)
+            if ($lines.Count -gt $pair.Shown.Value) {
+                for ($li = $pair.Shown.Value; $li -lt $lines.Count; $li++) {
+                    Write-Host $lines[$li]
+                }
+                $pair.Shown.Value = $lines.Count
+                $lastActivity = Get-Date
+            }
+        }
+        if (((Get-Date) - $lastActivity).TotalSeconds -ge 20 -and ((Get-Date) - $lastHeartbeat).TotalSeconds -ge 20) {
+            $libCount = 0
+            if (Test-Path 'libraries') {
+                $libCount = @(Get-ChildItem 'libraries' -Recurse -File -ErrorAction SilentlyContinue).Count
+            }
+            Write-Host ('[INFO] Still installing Forge... libraries files so far: ' + $libCount + ' (network may be slow)') -ForegroundColor Yellow
+            Write-Host ('[INFO] 仍在安装 Forge… 当前 libraries 文件数: ' + $libCount + '（网络慢时属正常，请耐心等待）') -ForegroundColor Yellow
+            $lastHeartbeat = Get-Date
+        }
+    }
+    $proc.WaitForExit()
+    $installExit = $proc.ExitCode
+
+    # Flush any remaining log lines
+    foreach ($pair in @(
+        @{ Path = $installLog; Shown = [ref]$shownOut },
+        @{ Path = $installErr; Shown = [ref]$shownErr }
+    )) {
+        if (-not (Test-Path -LiteralPath $pair.Path)) { continue }
+        $lines = @(Get-Content -LiteralPath $pair.Path -ErrorAction SilentlyContinue)
+        if ($lines.Count -gt $pair.Shown.Value) {
+            for ($li = $pair.Shown.Value; $li -lt $lines.Count; $li++) {
+                Write-Host $lines[$li]
+            }
+        }
+    }
+
+    if ($installExit -ne 0 -or -not (Test-ForgeInstalled)) {
+        Write-Host ''
+        Write-Host ('[ERROR] Forge installation failed (exit code: ' + $installExit + ')') -ForegroundColor Red
+        if (Test-Path -LiteralPath $installLog) {
+            Write-Host '[ERROR] Last log lines:' -ForegroundColor Red
+            Get-Content -LiteralPath $installLog -Tail 25 -ErrorAction SilentlyContinue | ForEach-Object {
+                Write-Host ('[ERROR]   ' + $_) -ForegroundColor Red
             }
         }
         Write-Host ''
-        Write-Host '[HINT] Installer may fail if libraries cannot be downloaded from Maven (network).' -ForegroundColor Yellow
-        Write-Host ('       安装器若无法从 Maven 拉取 libraries，也会因网络失败。') -ForegroundColor Yellow
-        Write-Host '       BMCLAPI only mirrors the installer JAR; libraries still need network/proxy.' -ForegroundColor Yellow
-        Write-Host '       Use proxy/VPN and re-run; partial downloads can be cleaned then retried.' -ForegroundColor Yellow
-        Write-Host ('       请使用代理/VPN 后重试；不完整文件可清理后再跑。') -ForegroundColor Yellow
+        Write-Host '[HINT] Installer downloads many libraries (Maven / creeperhost). Timeouts are common in CN networks.' -ForegroundColor Yellow
+        Write-Host '       安装器会下载大量 libraries；国内访问 Maven 超时很常见。' -ForegroundColor Yellow
+        Write-Host '       Script already tried BMCLAPI prefetch; remaining failures usually need proxy/VPN.' -ForegroundColor Yellow
+        Write-Host '       脚本已尝试 BMCLAPI 预下载；仍失败时请开代理/VPN 后重试。' -ForegroundColor Yellow
+        Write-Host '       Full log: forge-install-server.log' -ForegroundColor Yellow
+        Write-Host '       You may delete incomplete libraries\ folder and re-run.' -ForegroundColor Yellow
+        Write-Host '       可删除不完整的 libraries\ 目录后重新运行。' -ForegroundColor Yellow
         pause
         exit 1
     }
@@ -258,7 +533,6 @@ if (-not (Test-ForgeInstalled)) {
     Remove-Item $installerPath -Force -ErrorAction SilentlyContinue
     Get-ChildItem -Path '.' -Filter 'forge-*.log' -ErrorAction SilentlyContinue | Remove-Item -Force -ErrorAction SilentlyContinue
     Remove-Item 'run.sh', 'run.bat' -Force -ErrorAction SilentlyContinue
-    Remove-Item ($env:TEMP + '\forge-install.log'), ($env:TEMP + '\forge-install-err.log') -Force -ErrorAction SilentlyContinue
     Write-Host '[INFO] Forge installed successfully' -ForegroundColor Green
     Write-Host ''
 } else {

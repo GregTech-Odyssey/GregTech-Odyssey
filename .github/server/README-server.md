@@ -50,7 +50,7 @@ chmod +x start-server.sh
 ## 首次运行流程
 
 1. **检测 Java 21+**
-2. **安装 Forge**（从 `pack.toml` 读取版本；安装器 JAR 先下官方 Maven，失败再试 BMCLAPI；随后 installer 仍需拉取 libraries）
+2. **安装 Forge**（安装器 JAR：官方 Maven → BMCLAPI；**libraries 预下载**同样官方 → BMCLAPI；安装过程输出实时日志，慢网下可能数分钟）
 3. **按 `mods/*.pw.toml` 下载** 服务端兼容 mod 到 `mods/`
 4. **确认 Minecraft EULA**（未同意时交互询问；拒绝则不会启动。链接：https://aka.ms/MinecraftEULA）
 5. **启动** Minecraft Forge 服务端（`nogui`）
@@ -169,7 +169,7 @@ chmod +x start-server.sh
 ## First-run flow
 
 1. Detect **Java 21+**
-2. Install **Forge** (versions from `pack.toml`; installer JAR: official Maven then BMCLAPI; libraries still fetched by the installer)
+2. Install **Forge** (installer JAR + library prefetch: official then BMCLAPI; live install log; may take minutes on slow networks)
 3. Download server mods from `mods/*.pw.toml`
 4. Prompt for **Minecraft EULA** consent if not already accepted (https://aka.ms/MinecraftEULA); decline aborts start
 5. Start the Forge server (`nogui`)
