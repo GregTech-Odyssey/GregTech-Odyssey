@@ -31,9 +31,20 @@ if (-not $mcMatch.Success -or -not $forgeMatch.Success) {
 $MC_VERSION = $mcMatch.Groups[1].Value
 $FORGE_VERSION_NUM = $forgeMatch.Groups[1].Value
 $FORGE_VERSION = $MC_VERSION + '-' + $FORGE_VERSION_NUM
-$FORGE_MAVEN = 'https://maven.minecraftforge.net/net/minecraftforge/forge/' + $FORGE_VERSION + '/forge-' + $FORGE_VERSION + '-installer.jar'
+# Official first, then BMCLAPI (https://bmclapidoc.bangbang93.com/)
+$FORGE_INSTALLER_SOURCES = @(
+    [pscustomobject]@{
+        Name = 'Forge official Maven'
+        Url  = 'https://maven.minecraftforge.net/net/minecraftforge/forge/' + $FORGE_VERSION + '/forge-' + $FORGE_VERSION + '-installer.jar'
+    },
+    [pscustomobject]@{
+        Name = 'BMCLAPI'
+        Url  = 'https://bmclapi2.bangbang93.com/maven/net/minecraftforge/forge/' + $FORGE_VERSION + '/forge-' + $FORGE_VERSION + '-installer.jar'
+    }
+)
 
 Write-Host ('[INFO] Minecraft: ' + $MC_VERSION + ', Forge: ' + $FORGE_VERSION_NUM) -ForegroundColor Green
+Write-Host ('[INFO] Forge installer: 先尝试官方 Maven，失败后回退 BMCLAPI 镜像') -ForegroundColor Green
 Write-Host ''
 
 # ============ Check Java 21+ ============
@@ -66,7 +77,7 @@ function Write-DownloadFailureHint {
         [string]$Extra = ''
     )
     Write-Host ''
-    Write-Host '[ERROR] ========== Download failed / 下载失败 ==========' -ForegroundColor Red
+    Write-Host ('[ERROR] ========== Download failed / 下载失败 ==========') -ForegroundColor Red
     Write-Host ('[ERROR] Target / 目标: ' + $What) -ForegroundColor Red
     if ($Url) {
         Write-Host ('[ERROR] URL: ' + $Url) -ForegroundColor Red
@@ -78,25 +89,40 @@ function Write-DownloadFailureHint {
         Write-Host ('[ERROR] ' + $Extra) -ForegroundColor Red
     }
     Write-Host ''
-    Write-Host '[HINT] Common causes (especially in mainland China) / 常见原因（中国大陆网络尤为常见）:' -ForegroundColor Yellow
+    Write-Host ('[HINT] Common causes (especially in mainland China) / 常见原因（中国大陆网络尤为常见）:') -ForegroundColor Yellow
     Write-Host '  1. Cannot reach CurseForge CDN or Forge Maven (blocked / unstable / DNS).' -ForegroundColor Yellow
-    Write-Host '     无法访问 CurseForge CDN 或 Forge Maven（屏蔽 / 不稳定 / DNS 污染）。' -ForegroundColor Yellow
+    Write-Host ('     无法访问 CurseForge CDN / Forge Maven' + ' (屏蔽 / 不稳定 / DNS 污染).') -ForegroundColor Yellow
     Write-Host '  2. TLS/proxy/firewall interrupted the connection.' -ForegroundColor Yellow
-    Write-Host '     TLS、代理或防火墙中断了连接。' -ForegroundColor Yellow
+    Write-Host ('     TLS、代理或防火墙中断了连接。') -ForegroundColor Yellow
     Write-Host '  3. Timeout or partial download due to slow/unstable network.' -ForegroundColor Yellow
-    Write-Host '     网络慢或不稳定导致超时、文件不完整。' -ForegroundColor Yellow
+    Write-Host ('     网络慢或不稳定导致超时、文件不完整。') -ForegroundColor Yellow
     Write-Host ''
-    Write-Host '[HINT] What to try / 建议处理:' -ForegroundColor Yellow
+    Write-Host ('[HINT] What to try / 建议处理:') -ForegroundColor Yellow
     Write-Host '  - Use a reliable proxy/VPN, then re-run this script (metadata is kept for retry).' -ForegroundColor Yellow
-    Write-Host '    使用稳定的代理/VPN 后重新运行本脚本（元数据会保留以便重试）。' -ForegroundColor Yellow
+    Write-Host ('    使用稳定的代理/VPN 后重新运行本脚本（元数据会保留以便重试）。') -ForegroundColor Yellow
     Write-Host '  - Switch DNS (e.g. 223.5.5.5 / 1.1.1.1) and retry.' -ForegroundColor Yellow
-    Write-Host '    更换 DNS（如 223.5.5.5 / 1.1.1.1）后重试。' -ForegroundColor Yellow
+    Write-Host ('    更换 DNS（如 223.5.5.5 / 1.1.1.1）后重试。') -ForegroundColor Yellow
     Write-Host '  - Delete only the failed partial JAR under mods\, then re-run.' -ForegroundColor Yellow
-    Write-Host '    仅删除 mods\ 下失败的不完整 JAR，再重新运行。' -ForegroundColor Yellow
+    Write-Host ('    仅删除 mods\ 下失败的不完整 JAR，再重新运行。') -ForegroundColor Yellow
     Write-Host '  - Do NOT delete gtocore-forge-*.jar / gtonativelib-*.jar (bundled core mods).' -ForegroundColor Yellow
-    Write-Host '    不要删除 gtocore-forge-*.jar / gtonativelib-*.jar（随包核心 mod）。' -ForegroundColor Yellow
+    Write-Host ('    不要删除 gtocore-forge-*.jar / gtonativelib-*.jar（随包核心 mod）。') -ForegroundColor Yellow
     Write-Host '[ERROR] ==================================================' -ForegroundColor Red
     Write-Host ''
+}
+
+function Get-RemoteFile {
+    param(
+        [string]$Url,
+        [string]$OutFile
+    )
+    $ProgressPreference = 'SilentlyContinue'
+    Invoke-WebRequest -Uri $Url -OutFile $OutFile -UseBasicParsing -Headers @{
+        'User-Agent' = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
+    }
+    $file = Get-Item -LiteralPath $OutFile -ErrorAction SilentlyContinue
+    if (-not $file -or $file.Length -lt 1024) {
+        throw 'Downloaded file too small or empty / 文件过小或为空'
+    }
 }
 
 if ($env:JAVA_HOME -and (Test-Path ($env:JAVA_HOME + '\bin\java.exe'))) {
@@ -165,27 +191,41 @@ if (-not (Test-ForgeInstalled)) {
         Write-Host '[INFO] Downloading Forge installer...' -ForegroundColor Green
         $success = $false
         $lastError = ''
-        for ($i = 1; $i -le 3; $i++) {
-            try {
-                $ProgressPreference = 'SilentlyContinue'
-                Invoke-WebRequest -Uri $FORGE_MAVEN -OutFile $installerPath -UseBasicParsing -Headers @{
-                    'User-Agent' = 'Mozilla/5.0'
+        $lastUrl = ''
+        $triedLines = New-Object System.Collections.Generic.List[string]
+
+        foreach ($src in $FORGE_INSTALLER_SOURCES) {
+            Write-Host ('[INFO] Trying source: ' + $src.Name) -ForegroundColor Green
+            Write-Host ('[INFO]   ' + $src.Url) -ForegroundColor DarkGray
+            $srcOk = $false
+            for ($i = 1; $i -le 2; $i++) {
+                try {
+                    Remove-Item -LiteralPath $installerPath -Force -ErrorAction SilentlyContinue
+                    Get-RemoteFile -Url $src.Url -OutFile $installerPath
+                    $srcOk = $true
+                    $success = $true
+                    $lastUrl = $src.Url
+                    Write-Host ('[INFO] 已从 ' + $src.Name + ' 下载') -ForegroundColor Green
+                    break
+                } catch {
+                    $lastError = $_.Exception.Message
+                    if ($_.Exception.InnerException) {
+                        $lastError = $lastError + ' | ' + $_.Exception.InnerException.Message
+                    }
+                    $lastUrl = $src.Url
+                    Write-Host ('[WARN] ' + $src.Name + ' attempt ' + $i + '/2 failed: ' + $lastError) -ForegroundColor Yellow
+                    Start-Sleep -Seconds 2
                 }
-                $success = $true
-                break
-            } catch {
-                $lastError = $_.Exception.Message
-                if ($_.Exception.InnerException) {
-                    $lastError = $lastError + ' | ' + $_.Exception.InnerException.Message
-                }
-                Write-Host ('[WARN] Download attempt ' + $i + '/3 failed: ' + $lastError) -ForegroundColor Yellow
-                Start-Sleep -Seconds 3
             }
+            if ($srcOk) { break }
+            $triedLines.Add($src.Name + ' -> ' + $src.Url + ' :: ' + $lastError)
+            Write-Host ('[WARN] Source failed, trying next if any: ' + $src.Name) -ForegroundColor Yellow
         }
+
         if (-not $success) {
-            Remove-Item $installerPath -Force -ErrorAction SilentlyContinue
-            Write-DownloadFailureHint -What 'Forge installer' -Url $FORGE_MAVEN -Reason $lastError `
-                -Extra 'Source: maven.minecraftforge.net (Forge official Maven)'
+            Remove-Item -LiteralPath $installerPath -Force -ErrorAction SilentlyContinue
+            $extra = 'Tried: official Maven then BMCLAPI (https://bmclapidoc.bangbang93.com/). ' + [string]::Join(' | ', $triedLines)
+            Write-DownloadFailureHint -What 'Forge installer' -Url $lastUrl -Reason $lastError -Extra $extra
             pause
             exit 1
         }
@@ -207,9 +247,10 @@ if (-not (Test-ForgeInstalled)) {
         }
         Write-Host ''
         Write-Host '[HINT] Installer may fail if libraries cannot be downloaded from Maven (network).' -ForegroundColor Yellow
-        Write-Host '       安装器若无法从 Maven 拉取 libraries，也会因网络失败。' -ForegroundColor Yellow
+        Write-Host ('       安装器若无法从 Maven 拉取 libraries，也会因网络失败。') -ForegroundColor Yellow
+        Write-Host '       BMCLAPI only mirrors the installer JAR; libraries still need network/proxy.' -ForegroundColor Yellow
         Write-Host '       Use proxy/VPN and re-run; partial downloads can be cleaned then retried.' -ForegroundColor Yellow
-        Write-Host '       请使用代理/VPN 后重试；不完整文件可清理后再跑。' -ForegroundColor Yellow
+        Write-Host ('       请使用代理/VPN 后重试；不完整文件可清理后再跑。') -ForegroundColor Yellow
         pause
         exit 1
     }
@@ -277,20 +318,7 @@ foreach ($toml in $pwTomls) {
     if ($url) {
         Write-Host ('[INFO] Downloading ' + $filename + '...') -ForegroundColor Green
         try {
-            $ProgressPreference = 'SilentlyContinue'
-            Invoke-WebRequest -Uri $url -OutFile $jarPath -UseBasicParsing -Headers @{
-                'User-Agent' = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
-                'Referer' = 'https://www.curseforge.com/'
-            }
-            $file = Get-Item $jarPath -ErrorAction SilentlyContinue
-            if (-not $file -or $file.Length -lt 1024) {
-                Remove-Item $jarPath -Force -ErrorAction SilentlyContinue
-                Write-DownloadFailureHint -What $filename -Url $url `
-                    -Reason 'Invalid download (file too small or empty / 文件过小或为空)' `
-                    -Extra ('Metadata kept for retry: ' + $toml.Name)
-                pause
-                exit 1
-            }
+            Get-RemoteFile -Url $url -OutFile $jarPath
             Remove-Item $toml.FullName -Force -ErrorAction SilentlyContinue
             $cleanedMeta++
             $downloaded++
@@ -303,7 +331,7 @@ foreach ($toml in $pwTomls) {
             if ($_.Exception.Response -and $_.Exception.Response.StatusCode) {
                 $reason = 'HTTP ' + [int]$_.Exception.Response.StatusCode + ' ' + $reason
             }
-            Write-DownloadFailureHint -What $filename -Url $url -Reason $reason `
+            Write-DownloadFailureHint -What $filename -Url $url -Reason $reason 
                 -Extra ('Metadata kept for retry: ' + $toml.Name + ' | Source: CurseForge CDN (edge.forgecdn.net)')
             pause
             exit 1

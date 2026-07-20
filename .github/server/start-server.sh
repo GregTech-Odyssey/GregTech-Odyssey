@@ -74,13 +74,16 @@ curl_fail_reason() {
 MC_VERSION=$(grep 'minecraft' pack.toml | head -1 | sed 's/.*= *"\([^"]*\)".*/\1/')
 FORGE_VERSION_NUM=$(grep 'forge' pack.toml | head -1 | sed 's/.*= *"\([^"]*\)".*/\1/')
 FORGE_VERSION="${MC_VERSION}-${FORGE_VERSION_NUM}"
-FORGE_MAVEN="https://maven.minecraftforge.net/net/minecraftforge/forge/${FORGE_VERSION}/forge-${FORGE_VERSION}-installer.jar"
+# Official Maven first, then BMCLAPI (https://bmclapidoc.bangbang93.com/)
+FORGE_INSTALLER_OFFICIAL="https://maven.minecraftforge.net/net/minecraftforge/forge/${FORGE_VERSION}/forge-${FORGE_VERSION}-installer.jar"
+FORGE_INSTALLER_BMCLAPI="https://bmclapi2.bangbang93.com/maven/net/minecraftforge/forge/${FORGE_VERSION}/forge-${FORGE_VERSION}-installer.jar"
 
 if [ -z "$MC_VERSION" ] || [ -z "$FORGE_VERSION_NUM" ]; then
     error "Cannot read versions from pack.toml"
 fi
 
 info "Minecraft: $MC_VERSION, Forge: $FORGE_VERSION_NUM"
+info "Forge installer: try official Maven, then BMCLAPI mirror"
 
 # ============ Check Java 21+ ============
 check_java() {
@@ -143,17 +146,47 @@ install_forge() {
     INSTALLER="forge-${FORGE_VERSION}-installer.jar"
     if [ ! -f "$INSTALLER" ]; then
         info "Downloading Forge installer..."
-        CURL_ERR=$(mktemp)
-        if ! curl -fsSL --retry 2 --retry-delay 2 -o "$INSTALLER" "$FORGE_MAVEN" 2>"$CURL_ERR"; then
-            code=$?
-            detail=$(tr '\n' ' ' <"$CURL_ERR" | sed 's/[[:space:]]\+/ /g')
+        success=0
+        last_url=""
+        last_reason=""
+        tried_summary=""
+
+        # name|url pairs — official first, BMCLAPI fallback
+        for entry in \
+            "Forge official Maven|${FORGE_INSTALLER_OFFICIAL}" \
+            "BMCLAPI|${FORGE_INSTALLER_BMCLAPI}"
+        do
+            src_name="${entry%%|*}"
+            src_url="${entry#*|}"
+            info "Trying source: $src_name"
+            info "  $src_url"
+            CURL_ERR=$(mktemp)
+            if curl -fsSL --retry 2 --retry-delay 2 -A "Mozilla/5.0" -o "$INSTALLER" "$src_url" 2>"$CURL_ERR"; then
+                size=$(wc -c < "$INSTALLER" 2>/dev/null | tr -d ' ')
+                if [ -n "$size" ] && [ "$size" -ge 1024 ]; then
+                    rm -f "$CURL_ERR"
+                    success=1
+                    last_url="$src_url"
+                    info "Downloaded from $src_name"
+                    break
+                fi
+                last_reason="Invalid download (file too small or empty / 文件过小或为空)"
+            else
+                code=$?
+                detail=$(tr '\n' ' ' <"$CURL_ERR" | sed 's/[[:space:]]\+/ /g')
+                last_reason="$(curl_fail_reason "$code")${detail:+ | $detail}"
+            fi
+            last_url="$src_url"
+            tried_summary="${tried_summary}${tried_summary:+; }${src_name} -> ${src_url} :: ${last_reason}"
             rm -f "$CURL_ERR" "$INSTALLER"
-            download_failure_hint "Forge installer" "$FORGE_MAVEN" \
-                "$(curl_fail_reason "$code")${detail:+ | $detail}" \
-                "Source: maven.minecraftforge.net (Forge official Maven)"
+            warn "Source failed, trying next if any: $src_name"
+        done
+
+        if [ "$success" -ne 1 ]; then
+            download_failure_hint "Forge installer" "$last_url" "$last_reason" \
+                "Tried: official Maven then BMCLAPI (https://bmclapidoc.bangbang93.com/). ${tried_summary}"
             exit 1
         fi
-        rm -f "$CURL_ERR"
     fi
 
     info "Installing Forge..."
@@ -163,6 +196,7 @@ install_forge() {
         echo -e "${RED}[ERROR] Forge installation failed (installer exit code: ${install_code})${NC}"
         echo -e "${YELLOW}[HINT] Installer may fail if libraries cannot be downloaded from Maven (network).${NC}"
         echo -e "${YELLOW}       安装器若无法从 Maven 拉取 libraries，也会因网络失败。${NC}"
+        echo -e "${YELLOW}       BMCLAPI only mirrors the installer JAR; libraries still need network/proxy.${NC}"
         echo -e "${YELLOW}       Use proxy/VPN and re-run; partial downloads can be cleaned then retried.${NC}"
         echo -e "${YELLOW}       请使用代理/VPN 后重试；不完整文件可清理后再跑。${NC}"
         exit 1

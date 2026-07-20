@@ -11,7 +11,8 @@
 ## 系统要求
 
 - **Java 21+**（JDK 或 JRE；推荐 [Eclipse Temurin 21](https://adoptium.net/)）
-- 可访问 CurseForge / Maven 的网络（首次安装 Forge 与下载 mod）
+- 可访问 CurseForge / Maven 的网络（首次安装 Forge 与下载 mod）  
+  - Forge 安装器：**先官方 Maven**，失败后自动回退 **[BMCLAPI](https://bmclapidoc.bangbang93.com/)** 镜像
 - Windows 10/11 或 Windows Server 2016+（`start-server.bat` / `start-server.ps1`）
 - Linux 或 macOS（`start-server.sh`）
 - 建议可用内存 **8GB+**（默认 JVM：`-Xms8G -Xmx8G`，见 `user_jvm_args.txt`）
@@ -49,7 +50,7 @@ chmod +x start-server.sh
 ## 首次运行流程
 
 1. **检测 Java 21+**
-2. **安装 Forge**（从 `pack.toml` 读取 Minecraft / Forge 版本；写入 `libraries/` 等）
+2. **安装 Forge**（从 `pack.toml` 读取版本；安装器 JAR 先下官方 Maven，失败再试 BMCLAPI；随后 installer 仍需拉取 libraries）
 3. **按 `mods/*.pw.toml` 下载** 服务端兼容 mod 到 `mods/`
 4. **启动** Minecraft Forge 服务端（`nogui`）
 
@@ -105,7 +106,7 @@ chmod +x start-server.sh
 | 问题 | 处理 |
 |------|------|
 | `Java 21 or later not found` | 安装 Java 21+，或设置 `JAVA_HOME` 指向 JDK/JRE 根目录 |
-| `Download failed / 下载失败`（Forge 或 mod） | 脚本会打印 **原因**（HTTP/DNS/超时等）与 URL。中国大陆访问 CurseForge CDN（`edge.forgecdn.net`）与 Forge Maven（`maven.minecraftforge.net`）经常失败：请使用 **稳定代理/VPN**，或更换 DNS 后重试；元数据会保留。仅删除失败的不完整 JAR，**不要**删除两个核心 JAR |
+| `Download failed / 下载失败`（Forge 或 mod） | 脚本会打印 **原因** 与 URL。Forge 安装器会依次尝试 **官方 Maven → BMCLAPI**；若 installer 已下完但安装失败，多半是 libraries 仍需直连 Maven（镜像只管 installer JAR）。Mod 仍走 CurseForge CDN。大陆网络建议代理/VPN 或换 DNS；仅删失败的不完整 JAR，**勿**删两个核心 JAR |
 | PowerShell 无法运行脚本 | `Set-ExecutionPolicy -Scope CurrentUser RemoteSigned` |
 | 解压后找不到 `start-server.bat` | 进入 zip 内的 `server/` 子目录 |
 | 启动即崩溃 | 查看 `logs/latest.log`；确认核心 JAR 仍在 `mods/` |
@@ -129,7 +130,8 @@ Release artifact name: **`GregTech-Odyssey-server.zip`** (matches GitHub Release
 ## Requirements
 
 - **Java 21+** (JDK or JRE; [Eclipse Temurin 21](https://adoptium.net/) recommended)
-- Network access to CurseForge / Maven (first-run Forge install and mod downloads)
+- Network access to CurseForge / Maven (first-run Forge install and mod downloads)  
+  - Forge installer: **official Maven first**, then **[BMCLAPI](https://bmclapidoc.bangbang93.com/)** fallback
 - Windows 10/11 or Windows Server 2016+ (`.bat` / `.ps1`), or Linux / macOS (`.sh`)
 - **8GB+** RAM recommended (default JVM: `-Xms8G -Xmx8G` in `user_jvm_args.txt`)
 
@@ -166,7 +168,7 @@ chmod +x start-server.sh
 ## First-run flow
 
 1. Detect **Java 21+**
-2. Install **Forge** (versions from `pack.toml`)
+2. Install **Forge** (versions from `pack.toml`; installer JAR: official Maven then BMCLAPI; libraries still fetched by the installer)
 3. Download server mods from `mods/*.pw.toml`
 4. Start the Forge server (`nogui`)
 
@@ -222,7 +224,7 @@ Press **Ctrl+C** in the launcher console, or type `stop` at the server prompt.
 | Problem | What to try |
 |---------|-------------|
 | `Java 21 or later not found` | Install Java 21+ or set `JAVA_HOME` |
-| `Download failed` (Forge or mods) | The launcher prints the **reason** (HTTP/DNS/timeout) and URL. CurseForge CDN (`edge.forgecdn.net`) and Forge Maven are often unreachable from mainland China — use a proxy/VPN or switch DNS, then re-run. Metadata is kept for retry; delete only failed partial JARs, not the two core JARs |
+| `Download failed` (Forge or mods) | The launcher prints the **reason** and URL. Forge installer tries **official Maven → BMCLAPI**; if the installer runs but fails, libraries still need direct Maven access (mirror covers the installer JAR only). Mods use CurseForge CDN. Use proxy/VPN or switch DNS; delete only failed partial JARs, not the two core JARs |
 | PowerShell execution policy | `Set-ExecutionPolicy -Scope CurrentUser RemoteSigned` |
 | Cannot find `start-server.bat` | Enter the nested `server/` directory from the zip |
 | Crash on start | Check `logs/latest.log`; ensure core JARs remain under `mods/` |
