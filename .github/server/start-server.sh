@@ -309,10 +309,31 @@ download_mods() {
 start_server() {
     info "Starting GregTech Odyssey server..."
     
-    # Auto agree EULA
+    # Minecraft EULA: https://aka.ms/MinecraftEULA — require explicit consent
     if [ ! -f "eula.txt" ] || ! grep -q "eula=true" "eula.txt" 2>/dev/null; then
-        echo "eula=true" > eula.txt
-        info "EULA accepted"
+        echo ""
+        echo -e "${YELLOW}[EULA] By running this server you must agree to the Minecraft EULA:${NC}"
+        echo -e "${YELLOW}[EULA] https://aka.ms/MinecraftEULA${NC}"
+        echo -e "${YELLOW}[EULA] 运行此服务端即表示你必须同意 Minecraft EULA（见上方链接）。${NC}"
+        echo ""
+        printf "Do you agree to the Minecraft EULA? [y/N] / 是否同意 Minecraft EULA？[y/N] "
+        read -r answer
+        case "$answer" in
+            y|Y|yes|YES) ;;
+            *)
+                echo -e "${RED}[ERROR] EULA not accepted. Server will not start. / 未同意 EULA，服务端不会启动。${NC}"
+                if [ ! -f "eula.txt" ]; then
+                    printf '%s\n' \
+                        '#By changing the setting below to TRUE you are indicating your agreement to our EULA (https://aka.ms/MinecraftEULA).' \
+                        'eula=false' > eula.txt
+                fi
+                exit 1
+                ;;
+        esac
+        printf '%s\n' \
+            '#By changing the setting below to TRUE you are indicating your agreement to our EULA (https://aka.ms/MinecraftEULA).' \
+            'eula=true' > eula.txt
+        info "EULA accepted / 已同意 EULA"
     fi
     
     # Prefer unix_args on Unix; win_args is a last resort

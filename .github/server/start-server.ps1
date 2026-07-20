@@ -352,9 +352,24 @@ Write-Host ''
 Write-Host '[INFO] Starting GregTech Odyssey server...' -ForegroundColor Green
 Write-Host ''
 
-if (-not (Test-Path 'eula.txt') -or ((Get-Content 'eula.txt' -Raw) -notmatch 'eula=true')) {
-    Set-Content -Path 'eula.txt' -Value 'eula=true' -Encoding ASCII
-    Write-Host '[INFO] EULA accepted' -ForegroundColor Green
+# Minecraft EULA: https://aka.ms/MinecraftEULA — require explicit consent
+if (-not (Test-Path 'eula.txt') -or ((Get-Content 'eula.txt' -Raw -ErrorAction SilentlyContinue) -notmatch 'eula=true')) {
+    Write-Host ''
+    Write-Host '[EULA] By running this server you must agree to the Minecraft EULA:' -ForegroundColor Yellow
+    Write-Host '[EULA] https://aka.ms/MinecraftEULA' -ForegroundColor Yellow
+    Write-Host '[EULA] 运行此服务端即表示你必须同意 Minecraft EULA（见上方链接）。' -ForegroundColor Yellow
+    Write-Host ''
+    $answer = Read-Host 'Do you agree to the Minecraft EULA? [y/N] / 是否同意 Minecraft EULA？[y/N]'
+    if ($answer -notmatch '^(y|Y|yes|YES)$') {
+        Write-Host '[ERROR] EULA not accepted. Server will not start. / 未同意 EULA，服务端不会启动。' -ForegroundColor Red
+        if (-not (Test-Path 'eula.txt')) {
+            Set-Content -Path 'eula.txt' -Value "#By changing the setting below to TRUE you are indicating your agreement to our EULA (https://aka.ms/MinecraftEULA).`r`neula=false" -Encoding ASCII
+        }
+        pause
+        exit 1
+    }
+    Set-Content -Path 'eula.txt' -Value "#By changing the setting below to TRUE you are indicating your agreement to our EULA (https://aka.ms/MinecraftEULA).`r`neula=true" -Encoding ASCII
+    Write-Host '[INFO] EULA accepted / 已同意 EULA' -ForegroundColor Green
 }
 
 $argsFile = Find-ForgeArgsFile

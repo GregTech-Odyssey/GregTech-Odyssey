@@ -26,7 +26,7 @@
 3. 双击 `start-server.bat`  
    - 若 PowerShell 提示执行策略限制，在 PowerShell 中执行：  
      `Set-ExecutionPolicy -Scope CurrentUser RemoteSigned`
-4. 首次运行会安装 Forge 并下载 mod（视网络约数分钟到十余分钟），完成后自动启动服务端
+4. 首次运行会安装 Forge 并下载 mod（视网络约数分钟到十余分钟），并在启动前询问是否同意 [Minecraft EULA](https://aka.ms/MinecraftEULA)
 
 ### Linux / macOS
 
@@ -52,7 +52,8 @@ chmod +x start-server.sh
 1. **检测 Java 21+**
 2. **安装 Forge**（从 `pack.toml` 读取版本；安装器 JAR 先下官方 Maven，失败再试 BMCLAPI；随后 installer 仍需拉取 libraries）
 3. **按 `mods/*.pw.toml` 下载** 服务端兼容 mod 到 `mods/`
-4. **启动** Minecraft Forge 服务端（`nogui`）
+4. **确认 Minecraft EULA**（未同意时交互询问；拒绝则不会启动。链接：https://aka.ms/MinecraftEULA）
+5. **启动** Minecraft Forge 服务端（`nogui`）
 
 之后再次运行：已有 Forge 与已下载的 JAR 会跳过对应步骤。
 
@@ -144,7 +145,7 @@ Release artifact name: **`GregTech-Odyssey-server.zip`** (matches GitHub Release
 3. Double-click `start-server.bat`  
    - If PowerShell blocks scripts:  
      `Set-ExecutionPolicy -Scope CurrentUser RemoteSigned`
-4. First run installs Forge and downloads mods, then starts the server
+4. First run installs Forge and downloads mods, prompts for [Minecraft EULA](https://aka.ms/MinecraftEULA) consent, then starts the server
 
 ### Linux / macOS
 
@@ -170,7 +171,8 @@ chmod +x start-server.sh
 1. Detect **Java 21+**
 2. Install **Forge** (versions from `pack.toml`; installer JAR: official Maven then BMCLAPI; libraries still fetched by the installer)
 3. Download server mods from `mods/*.pw.toml`
-4. Start the Forge server (`nogui`)
+4. Prompt for **Minecraft EULA** consent if not already accepted (https://aka.ms/MinecraftEULA); decline aborts start
+5. Start the Forge server (`nogui`)
 
 Later runs skip steps that are already done.
 
