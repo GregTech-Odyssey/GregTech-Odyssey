@@ -164,10 +164,28 @@ Write-Host ''
 
 # ============ Helpers ============
 function Test-ForgeInstalled {
+    # Modern Forge may only place args under libraries/net/minecraftforge/forge/<ver>/
+    if ($FORGE_VERSION -and (Test-Path -LiteralPath ('libraries/net/minecraftforge/forge/' + $FORGE_VERSION))) {
+        return $true
+    }
     if (Test-Path 'win_args.txt') { return $true }
     if (Test-Path 'unix_args.txt') { return $true }
-    if (Get-ChildItem -Path 'libraries' -Recurse -Filter 'win_args.txt' -ErrorAction SilentlyContinue | Select-Object -First 1) { return $true }
-    if (Get-ChildItem -Path 'libraries' -Recurse -Filter 'unix_args.txt' -ErrorAction SilentlyContinue | Select-Object -First 1) { return $true }
+    if (Test-Path 'libraries') {
+        if (Get-ChildItem -Path 'libraries' -Recurse -Filter 'win_args.txt' -ErrorAction SilentlyContinue | Select-Object -First 1) { return $true }
+        if (Get-ChildItem -Path 'libraries' -Recurse -Filter 'unix_args.txt' -ErrorAction SilentlyContinue | Select-Object -First 1) { return $true }
+        if (Get-ChildItem -Path 'libraries' -Recurse -Filter 'forge-*-server.jar' -ErrorAction SilentlyContinue | Select-Object -First 1) { return $true }
+    }
+    return $false
+}
+
+function Test-ForgeInstallLogSuccess {
+    param([string[]]$LogPaths)
+    foreach ($p in $LogPaths) {
+        if (-not $p -or -not (Test-Path -LiteralPath $p)) { continue }
+        if (Select-String -LiteralPath $p -Pattern 'The server installed successfully|You can delete this installer file now' -Quiet -ErrorAction SilentlyContinue) {
+            return $true
+        }
+    }
     return $false
 }
 
@@ -493,7 +511,12 @@ if (-not (Test-ForgeInstalled)) {
         }
     }
     $proc.WaitForExit()
+    try { $proc.Refresh() } catch {}
+    # ExitCode can be $null briefly / in some hosts; $null -ne 0 is $true in PowerShell and caused false failures
     $installExit = $proc.ExitCode
+    if ($null -eq $installExit) {
+        $installExit = -1
+    }
 
     # Flush any remaining log lines
     foreach ($pair in @(
@@ -509,12 +532,17 @@ if (-not (Test-ForgeInstalled)) {
         }
     }
 
-    if ($installExit -ne 0 -or -not (Test-ForgeInstalled)) {
+    $filesOk = Test-ForgeInstalled
+    $logOk = Test-ForgeInstallLogSuccess -LogPaths @($installLog, $installErr)
+    $installOk = $filesOk -or $logOk
+
+    if (-not $installOk) {
         Write-Host ''
         Write-Host ('[ERROR] Forge installation failed (exit code: ' + $installExit + ')') -ForegroundColor Red
-        if (Test-Path -LiteralPath $installLog) {
-            Write-Host '[ERROR] Last log lines:' -ForegroundColor Red
-            Get-Content -LiteralPath $installLog -Tail 25 -ErrorAction SilentlyContinue | ForEach-Object {
+        foreach ($lp in @($installLog, $installErr)) {
+            if (-not (Test-Path -LiteralPath $lp)) { continue }
+            Write-Host ('[ERROR] Last lines of ' + (Split-Path $lp -Leaf) + ':') -ForegroundColor Red
+            Get-Content -LiteralPath $lp -Tail 25 -ErrorAction SilentlyContinue | ForEach-Object {
                 Write-Host ('[ERROR]   ' + $_) -ForegroundColor Red
             }
         }
@@ -528,6 +556,12 @@ if (-not (Test-ForgeInstalled)) {
         Write-Host '       可删除不完整的 libraries\ 目录后重新运行。' -ForegroundColor Yellow
         pause
         exit 1
+    }
+
+    if (($installExit -ne 0) -and ($installExit -ne -1) -and $installOk) {
+        Write-Host ('[WARN] Installer exit code was ' + $installExit + ' but install markers/log indicate success; continuing.') -ForegroundColor Yellow
+    } elseif ($logOk -and -not $filesOk) {
+        Write-Host '[WARN] Installer log says success but expected files not detected; continuing carefully.' -ForegroundColor Yellow
     }
 
     Remove-Item $installerPath -Force -ErrorAction SilentlyContinue

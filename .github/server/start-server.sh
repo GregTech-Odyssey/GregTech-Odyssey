@@ -259,9 +259,25 @@ PY
     rm -rf "$tmpdir"
 }
 
+forge_install_ok() {
+    if [ -d "libraries/net/minecraftforge/forge/$FORGE_VERSION" ]; then
+        return 0
+    fi
+    if [ -f "unix_args.txt" ] || [ -f "win_args.txt" ]; then
+        return 0
+    fi
+    if [ -f "forge-install-server.log" ] && grep -q "The server installed successfully" "forge-install-server.log" 2>/dev/null; then
+        return 0
+    fi
+    if find libraries -name 'win_args.txt' -o -name 'unix_args.txt' -o -name 'forge-*-server.jar' 2>/dev/null | head -1 | grep -q .; then
+        return 0
+    fi
+    return 1
+}
+
 # ============ Install Forge ============
 install_forge() {
-    if [ -d "libraries/net/minecraftforge/forge/$FORGE_VERSION" ]; then
+    if forge_install_ok; then
         info "Forge already installed"
         return
     fi
@@ -325,7 +341,11 @@ install_forge() {
     install_code=${PIPESTATUS[0]}
     set +o pipefail
 
-    if [ "$install_code" -ne 0 ] || { [ ! -d "libraries/net/minecraftforge/forge/$FORGE_VERSION" ] && [ ! -f "unix_args.txt" ] && [ ! -f "win_args.txt" ]; }; then
+    if forge_install_ok; then
+        if [ "$install_code" != "0" ] && [ -n "$install_code" ]; then
+            warn "Installer exit code was ${install_code} but install markers/log indicate success; continuing."
+        fi
+    else
         echo ""
         echo -e "${RED}[ERROR] Forge installation failed (exit code: ${install_code})${NC}"
         echo -e "${YELLOW}[HINT] Installer downloads many libraries; CN networks often time out on Maven/creeperhost.${NC}"
