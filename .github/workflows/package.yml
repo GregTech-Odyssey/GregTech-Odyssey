@@ -48,10 +48,15 @@ jobs:
       env:
         GH_TOKEN: ${{ github.token }}
       run: |
+        set +e
         PACK_VERSION="$(sed -n 's/^version = \"\([^\"]*\)\"$/\1/p' pack.toml)"
         PACK_CORE_VERSION="$(printf '%s' "$PACK_VERSION" | grep -oE '[0-9]+\.[0-9]+\.[0-9]+' | head -n 1 || true)"
         CURSEFORGE_ZIP="$(find curseforge-upload -maxdepth 1 -type f -name '*.zip' | head -n 1)"
-        RELEASE_JSON="$(gh api repos/GregTech-Odyssey/GTO-Translations/releases/latest)"
+        RELEASE_JSON="$(gh api repos/GregTech-Odyssey/GTO-Translations/releases/latest 2>/dev/null)"
+        if [ $? -ne 0 ] || [ -z "$RELEASE_JSON" ]; then
+          echo "::warning::Could not fetch translation release (API may be unavailable), skipping translation injection."
+          exit 0
+        fi
         RELEASE_TAG="$(printf '%s' "$RELEASE_JSON" | jq -r '.tag_name')"
         ASSET_NAME="$(printf '%s' "$RELEASE_JSON" | jq -r '.assets[] | select(.name | test("^gto-lang-all-locales-.*\\.zip$")) | .name' | head -n 1)"
         Z_ASSET_NAME="z-$ASSET_NAME"
@@ -91,17 +96,28 @@ jobs:
         )
         rm -rf "$TMP_DIR"
         echo "Injected $Z_ASSET_NAME into $CURSEFORGE_ZIP."
+    - name: Build Server
+      run: |
+        nix build .#server-packwiz
+        mkdir server
+        cp -r result/* server/
+        chmod -R +w server/ 2>/dev/null || true
+        zip -r GregTech-Odyssey-server.zip server/*
     - name: Upload artifacts
       uses: actions/upload-artifact@v4
       with:
         name: GregTech-Odyssey
-        path: ./curseforge-upload/*.zip
+        path: ./curseforge/*.zip
     - name: Upload artifacts
       uses: actions/upload-artifact@v4
       with:
         name: GregTech-Odyssey-all-locale
-        path: |
-          ./curseforge-upload/**.zip
+        path: ./curseforge-upload/
+    - name: Upload artifacts
+      uses: actions/upload-artifact@v4
+      with:
+        name: GregTech-Odyssey-server
+        path: ./GregTech-Odyssey-server.zip
 
   publish:
     needs: [package]
@@ -137,4 +153,4 @@ jobs:
           git push origin :$TAG_NAME || true 
       - name: Publish release
         run: |
-          gh release create $TAG_NAME $PRERELEASE --title "$SUBJECT" --notes-file .github/release-notes.md --target $GITHUB_SHA GregTech-Odyssey/* GregTech-Odyssey-all-locale/* 
+          gh release create $TAG_NAME $PRERELEASE --title "$SUBJECT" --notes-file .github/release-notes.md --target $GITHUB_SHA GregTech-Odyssey/* GregTech-Odyssey-all-locale/* GregTech-Odyssey-server/*

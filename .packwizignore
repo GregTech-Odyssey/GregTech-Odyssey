@@ -70,3 +70,11 @@ CONTRIBUTING.md
 
 !gtocore-*.jar
 !gtonativelib-*.jar
+
+# Server-only files live under .github/server/ (packaged via flake server-packwiz).
+# /.github is already ignored above; keep explicit names in case paths change.
+start-server.bat
+start-server.ps1
+start-server.sh
+user_jvm_args.txt
+README-server.md

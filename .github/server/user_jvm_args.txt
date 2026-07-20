@@ -1,0 +1,9 @@
+# Xmx and Xms set the maximum and minimum RAM usage, respectively.
+# They can take any number, followed by an M or a G.
+# M means Megabyte, G means Gigabyte.
+# For example, to set the maximum to 3GB: -Xmx3G
+# To set the minimum to 2.5GB: -Xms2500M
+
+# Set maximum to 8GB, minimum to 8GB
+-Xmx8G
+-Xms8G

@@ -104,6 +104,53 @@
               sed -i 's/\(win_args.txt\) \(%\*\)/\1 nogui \2/' $out/run.bat
             '';
           };
+
+          server-packwiz = let inherit (pack);
+          in pkgs.stdenvNoCC.mkDerivation {
+            inherit (pack) version;
+            pname = "gregtech-odyssey-server";
+            src = ./.;
+
+            dontUnpack = true;
+            dontConfigure = true;
+            dontFixup = true;
+
+            installPhase = ''
+              mkdir -p $out
+
+              cp -r ${./config} $out/config 2>/dev/null || true
+              cp -r ${./defaultconfigs} $out/defaultconfigs 2>/dev/null || true
+
+              mkdir -p $out/mods
+              cp ${./pack.toml} $out/pack.toml
+              cp ${./index.toml} $out/index.toml
+
+              # Local core JARs are not on CurseForge and must ship in the pack.
+              # Glob by prefix so version bumps (e.g. 0.5.6-beta -> 0.5.7) do not break the flake.
+              if ! cp --no-preserve=mode ${./mods}/gtocore-forge-*.jar $out/mods/; then
+                echo "error: expected at least one mods/gtocore-forge-*.jar" >&2
+                exit 1
+              fi
+              if ! cp --no-preserve=mode ${./mods}/gtonativelib-*.jar $out/mods/; then
+                echo "error: expected at least one mods/gtonativelib-*.jar" >&2
+                exit 1
+              fi
+
+              for f in ${./mods}/*.pw.toml; do
+                if ! grep -q 'side = "client"' "$f" 2>/dev/null; then
+                  cp --no-preserve=mode "$f" $out/mods/ 2>/dev/null || true
+                fi
+              done
+
+              # Server launch scripts live under .github/server (not pack root / CF overrides)
+              cp ${./.github/server/start-server.sh} $out/start-server.sh
+              cp ${./.github/server/start-server.bat} $out/start-server.bat
+              cp ${./.github/server/start-server.ps1} $out/start-server.ps1
+              cp ${./.github/server/user_jvm_args.txt} $out/user_jvm_args.txt
+              cp ${./.github/server/README-server.md} $out/README.md
+              chmod +x $out/start-server.sh
+            '';
+          };
         };
       });
 }
