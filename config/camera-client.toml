@@ -1,9 +1,0 @@
-#The format the date will be displayed on the image
-image_date_format = "MM/dd/yyyy HH:mm"
-last_image_path = ""
-#If the image item should render the actual image
-render_image_item = true
-#The opacity of the resize image frame GUI
-#Range: 0.0 ~ 1.0
-resize_gui_opacity = 1.0
-

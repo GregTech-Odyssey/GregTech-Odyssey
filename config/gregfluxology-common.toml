@@ -1,3 +1,0 @@
-#Ignoring the max input amperage of a CEu cable/wire, burning them during energy overflow. (like in base CEu)
-ignoreCableCapacity = false
-
