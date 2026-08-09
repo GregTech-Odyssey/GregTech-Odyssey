@@ -34,34 +34,10 @@
         "type": "github"
       }
     },
-    "packwiz2nix": {
-      "inputs": {
-        "flake-utils": [
-          "flake-utils"
-        ],
-        "nixpkgs": [
-          "nixpkgs"
-        ]
-      },
-      "locked": {
-        "lastModified": 1754902806,
-        "narHash": "sha256-cBiVIENMo/lqIgPncHZz+JPTsSZ2i/Nu2P5AW+ZIKHM=",
-        "owner": "snylonue",
-        "repo": "packwiz2nix",
-        "rev": "55ca5ff0bd35359560907546f26a0eae3a977618",
-        "type": "github"
-      },
-      "original": {
-        "owner": "snylonue",
-        "repo": "packwiz2nix",
-        "type": "github"
-      }
-    },
     "root": {
       "inputs": {
         "flake-utils": "flake-utils",
-        "nixpkgs": "nixpkgs",
-        "packwiz2nix": "packwiz2nix"
+        "nixpkgs": "nixpkgs"
       }
     },
     "systems": {

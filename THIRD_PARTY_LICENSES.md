@@ -1,8 +1,11 @@
 # Third Party Licenses
 
-GTOCore includes code and assets from third-party mods and resource packs.
-All such content remains the property of their respective authors and is used
-in accordance with their original licenses.
+GTOCore includes third-party code and assets from mods and resource packs.
+Copyright in such material remains with the respective rightsholders.
+The LGPLv3 license applied to GTOCore's original code does not by itself
+relicense or supersede any third-party material. Each item remains governed
+by the original license or project-specific permission identified below.
+Inclusion in GTOCore does not grant rights beyond those terms.
 
 > This document is intended to provide attribution and license information for third-party content used in GTOCore.
 > While we strive to ensure its completeness, it may not be exhaustive.

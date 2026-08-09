@@ -45,6 +45,10 @@ file = "config/apotheosis/names.cfg"
 hash = "60bdb417a70f13677d6c8613b4948b4fcb237b00d622b661d79932b979360671"
 
 [[files]]
+file = "config/arsmeteorites-ritual.toml"
+hash = "a834eb73e5abb4a724d419eb0f6a4d3f27ade50fdd1ddb636c94aa3f4dc46c3c"
+
+[[files]]
 file = "config/asyncparticles/asyncparticles.json"
 hash = "79452ada826109f2ae43fa5511e4a40431362ad5f81acef4db1c9856e75c5aa1"
 
@@ -146,7 +150,7 @@ hash = "d4e6e2f15846c0a6159e0df45bc85966cfbcc043a426c1b52e1ad465f7848c56"
 
 [[files]]
 file = "config/fancymenu/customization/title_screen_layout.txt"
-hash = "03447a42ba552151fde40124dd03985f41f3b82a0812c9fcb1d518595b20afa1"
+hash = "274478c04cc28c4c7f0a316616b753a83be0fee8ac45c7a6b60fcceda83e716f"
 
 [[files]]
 file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
@@ -207,6 +211,14 @@ hash = "3d7d4cda73d6bde134a568ccbe4e8d2e7fbe701570012b71fa45acdb2258c823"
 [[files]]
 file = "config/fast_recipe_search.properties"
 hash = "20c1664590da836b88e9bb686d51633188802a32bb27542667fb91eae2377f84"
+
+[[files]]
+file = "config/fastbench.cfg"
+hash = "76a5d47ca4e918446d37edf7d09196af462f7e78aff8c2aa507d2b151117356b"
+
+[[files]]
+file = "config/fastquit.toml"
+hash = "3f09c54f4e26efceb4fa77deff752e33c5ea4710f01bbd7cdb55af1a154065f2"
 
 [[files]]
 file = "config/fml.toml"
@@ -511,6 +523,10 @@ hash = "bf98e96ed34f59ce6c00b47fb3e593d38a8b8d197e6d7a0762f45150449dff8f"
 [[files]]
 file = "config/naturescompass-common.toml"
 hash = "eebe4b4c01047b3d8cbf1106fcfe8af8e912ca62dfbb5258f46b36623b535fa2"
+
+[[files]]
+file = "config/nolijium.json5"
+hash = "ed6ad308dad11ca293e861e1f50ca41fcfd46a301f9d5c1f428b030010ae2a55"
 
 [[files]]
 file = "config/openloader/advanced_options.json"

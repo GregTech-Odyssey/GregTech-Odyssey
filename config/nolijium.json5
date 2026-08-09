@@ -1,0 +1,185 @@
+{
+	// Show an overlay on blocks if the block light level above them is below 8 (red for light level 0, yellow for light level 1 - 7).
+	// Exclusive to NeoForge 21+.
+	// DEFAULT: `false`
+	"enableLightLevelOverlay": false,
+	// Changes the number of messages kept in chat history (100 in vanilla).
+	// DEFAULT: `100`
+	"maxChatHistory": 100,
+	// If enabled, the chat history will not be cleared when you leave a server, and instead only be cleared when Minecraft is closed.
+	// DEFAULT: `false`
+	"keepChatHistory": false,
+	// If enabled, the server will be ignored if it instructs the client to close the chat bar (for example, if the player is teleported).
+	// DEFAULT: `false`
+	"keepChatBarOpen": false,
+	// Controls what happens to the unsent contents of the chat bar if it is closed by clicking escape or by the server.
+	// OPTIONS:
+	// 	`UNTIL_SENT`: Will always remember the unsent message/command unless the message was sent.
+	// 	`UNTIL_USER_CLOSED`: Will only remember the unsent message/command if the chat bar was closed by the server.
+	// 	`NEVER`: Will never remember the unsent message/command (same as vanilla).
+	// DEFAULT: `UNTIL_ESCAPED`
+	"rememberChatBarContents": "UNTIL_USER_CLOSED",
+	// If enabled, useful information will be shown in the tooltips of links and clickable text in chat and other UIs.
+	// DEFAULT: `false`
+	"enableToolTipInfo": false,
+	// Overrides the number of stars rendered.
+	// DEFAULT: `1500`
+	"starCount": 1500,
+	// Overrides the scale of stars.
+	// DEFAULT: `0.1`
+	"starScale": 0.1,
+	// Overrides the brightness of stars.
+	// DEFAULT: `0.5`
+	"starBrightness": 0.5,
+	// If enabled, terrain fog will not be rendered.
+	// DEFAULT: `false`
+	"disableFog": false,
+	// If set, this option explicitly overrides the fog distance (in chunks).
+	// DEFAULT: `0`
+	"fogOverride": 0,
+	// If set, fog distance is multiplied by this option.
+	// DEFAULT: `1.0`
+	"fogMultiplier": 1.0,
+	// If set, fog start distance is multiplied by this option.
+	// DEFAULT: `1.0`
+	"fogStartMultiplier": 1.0,
+	// If enabled, light level 0 will render as pitch black.
+	// DEFAULT: `false`
+	"enablePureDarkness": false,
+	// Determines the minimum sky light level (0.2 in vanilla).
+	// DEFAULT: `0.2`
+	"minimumSkyLightLevel": 0.2,
+	// If enabled, a HUD will be drawn on the screen showing useful performance statistics.
+	// DEFAULT: `false`
+	"hudEnabled": false,
+	// The horizontal alignment of the HUD.
+	// OPTIONS: `LEFT`, `RIGHT`
+	// DEFAULT: `LEFT`
+	"hudAlignmentX": "LEFT",
+	// The vertical alignment of the HUD.
+	// OPTIONS: `TOP`, `BOTTOM`
+	// DEFAULT: `TOP`
+	"hudAlignmentY": "TOP",
+	// The HUD will be offset this many pixels horizontally from the screen edge.
+	// DEFAULT: `5`
+	"hudMarginX": 5,
+	// The HUD will be offset this many pixels vertically from the screen edge.
+	// DEFAULT: `5`
+	"hudMarginY": 5,
+	// If enabled, a background will be drawn behind HUD text.
+	// DEFAULT: `true`
+	"hudBackground": true,
+	// If enabled, HUD text will be drawn with a shadow.
+	// DEFAULT: `true`
+	"hudShadow": true,
+	// The HUD refresh rate (in ticks). `0` will refresh it every frame.
+	// Lower values may reduce performance.
+	// DEFAULT: `1`
+	"hudRefreshRateTicks": 1,
+	// Determines much information about FPS should be displayed in the HUD.
+	// OPTIONS:
+	// 	`NONE`: No FPS information will be displayed in the HUD.
+	// 	`SIMPLE`: HUD will display a simple, accurate FPS value.
+	// 	`EXTENDED`: HUD will display FPS, as well as a MIN (0.1% low), MAX (high), and AVG (average) FPS value.
+	// DEFAULT: `SIMPLE`
+	"hudShowFPS": "SIMPLE",
+	// The amount of frame time history to keep (in seconds).
+	// Larger values will result in smoother average values, at the cost of higher memory usage if average FPS is very high.
+	// Only applicable if `hudShowFPS` is set to `EXTENDED`.
+	// DEFAULT: `10.0`
+	"hudFrameTimeBufferSize": 10.0,
+	// If enabled, the HUD will show CPU usage.
+	// DEFAULT: `false`
+	"hudShowCPU": false,
+	// If enabled, the HUD will show Memory usage.
+	// DEFAULT: `false`
+	"hudShowMemory": false,
+	// If enabled, the HUD will show the player's coordinates.
+	// DEFAULT: `false`
+	"hudShowCoordinates": false,
+	// Reverts the fix for MC-26678.
+	// DEFAULT: `false`
+	"revertDamageCameraTilt": false,
+	// Restores potions effects to their original form.
+	// Re-joining the server in multiplayer or closing and opening the world in singleplayer may be necessary to affect particles.
+	// DEFAULT: `false`
+	"revertPotions": false,
+	// Removes transparency from block outlines.
+	// DEFAULT: `false`
+	"enableOpaqueBlockOutlines": true,
+	// Disables block light flickering.
+	// DEFAULT: `false`
+	"disableBlockLightFlicker": false,
+	// Disables animations for water, lava, fire, etc.
+	// DEFAULT: `false`
+	"disableTextureAnimations": false,
+	// Disables sky rendering.
+	// DEFAULT: `false`
+	"disableSky": false,
+	// Disables weather rendering.
+	// DEFAULT: `false`
+	"disableWeatherRendering": false,
+	// Disables weather entirely.
+	// DEFAULT: `false`
+	"disableWeatherTicking": false,
+	// Disables font shadows.
+	// DEFAULT: `false`
+	"disableFontShadows": false,
+	// Disables all toast messages.
+	// DEFAULT: `false`
+	"hideAllToasts": false,
+	// Disables toast messages for receiving Advancements.
+	// DEFAULT: `false`
+	"hideAdvancementToasts": true,
+	// Disables toast messages for unlocking Recipes.
+	// DEFAULT: `false`
+	"hideRecipeToasts": true,
+	// Disables toasts for System messages.
+	// DEFAULT: `false`
+	"hideSystemToasts": false,
+	// Disables the Tutorial.
+	// DEFAULT: `false`
+	"hideTutorialToasts": true,
+	// Prevents all particles from rendering.
+	// DEFAULT: `false`
+	"hideParticles": false,
+	// Prevents specific particles from rendering based on their ID. For example, `minecraft:block`.
+	// Also supports modded particles.
+	// DEFAULT: `[ ]`
+	"hideParticlesByID": [  ],
+	// Higher values cycle faster. Lower values cycle slower.
+	// DEFAULT: `0.5`
+	"chromaSpeed": 1.0,
+	// Enable Chroma on block outlines.
+	// DEFAULT: `false`
+	"enableChromaBlockOutlines": false,
+	// If set, a chroma overlay will be drawn on block surfaces with the specified value used for transparency.
+	// May look buggy on some blocks when `Fabulous!` rendering is enabled.
+	// Set to `0` to disable.
+	// DEFAULT: `0`
+	"chromaBlockShapeOverlay": 0.0,
+	// Enable Chroma on tooltip outlines.
+	// DEFAULT: `false`
+	"enableChromaToolTips": false,
+	// Enable Chroma on HUD text.
+	// DEFAULT: `false`
+	"enableChromaHUD": false,
+	// Removes darkness and all client-side lighting calculations, resulting in a decent performance boost on some systems.
+	// May cause issues with shaders, dynamic lighting, and light level overlays (the light level overlay in Nolijium has some mitigations for this, but still expect some weird behaviour).
+	// DEFAULT: `false`
+	"enableGamma": false,
+	// Intended for advanced users and developers only. Colour format is 0xAARRGGBB.
+	// DEFAULT: `false`
+	"tooltipColourOverride": false,
+	"tooltipBorderStart": 0,
+	"tooltipBorderEnd": 0,
+	"tooltipBackgroundStart": 0,
+	"tooltipBackgroundEnd": 0,
+	// Intended for advanced users and developers only. Colour format is 0xAARRGGBB.
+	// Alpha will only be applied to block faces. Outline will always be fully opaque when enabled.
+	// A value of `0` disables this setting.
+	// DEFAULT: `0`
+	"blockShapeOverlayOverride": 0,
+	// Used internally. Don't modify this.
+	"configVersion": 1
+}

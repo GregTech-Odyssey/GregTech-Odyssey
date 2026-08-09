@@ -2,9 +2,10 @@
 
 <h1 align="center">
     <a href="https://discord.gg/PxruFSbtCn"><img src="https://discordapp.com/api/guilds/1361351361257672876/widget.png" alt="加入Discord服务器 | Join Discord Server"></a>
-    <a href="https://qm.qq.com/q/dLIEOowqE8"><img src="https://img.shields.io/badge/QQ-Alpha Dept.-12B7F5?logo=qq&logoColor=white" alt="加入Alpha部门 | Join QQ Alpha Dept.">
+    <a href="https://qm.qq.com/q/dLIEOowqE8"><img src="https://img.shields.io/badge/QQ-Alpha Dept.(Full)-12B7F5?logo=qq&logoColor=white" alt="加入Alpha部门 | Join QQ Alpha Dept."></a>
     <a href="https://qm.qq.com/q/gIWx9iUxck"><img src="https://img.shields.io/badge/QQ-Beta Dept.(Full)-12B7F5?logo=qq&logoColor=white" alt="加入Beta部门 | Join QQ Beta Dept."></a>
-    <a href="https://qm.qq.com/q/Pm3WkA85qw"><img src="https://img.shields.io/badge/QQ-Gamma Dept.-12B7F5?logo=qq&logoColor=white" alt="加入Gamma部门 | Join QQ Gamma Dept."></a>
+    <a href="https://qm.qq.com/q/Pm3WkA85qw"><img src="https://img.shields.io/badge/QQ-Gamma Dept.(Full)-12B7F5?logo=qq&logoColor=white" alt="加入Gamma部门 | Join QQ Gamma Dept."></a>
+    <a href="https://qm.qq.com/q/tXFd03HMki"><img src="https://img.shields.io/badge/QQ-Delta Dept.-12B7F5?logo=qq&logoColor=white" alt="加入Delta部门 | Join QQ Delta Dept."></a>
 </h1>
 
 <div >
@@ -25,13 +26,13 @@ GregTech-Odyssey is a fully optimized tech-oriented GT modpack designed to offer
 
 ## License
 
-- This project is released primarily for non-commercial use. Unless otherwise specified, most contents of the project (including the modpack structure, original assets, and texts) may not be used for commercial purposes.
-- The modpack as a whole is licensed under [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/).
-- The [core mod code](https://github.com/GregTech-Odyssey/GTOCore) (original code under the `src/main/java/` of GTOCore) is licensed under [GNU General Public License v3.0 (GPLv3)](https://www.gnu.org/licenses/gpl-3.0.html).
-- Quest texts are All Rights Reserved by default. Any unauthorized use is prohibited. For content with clearly indicated sources, copyright remains with their respective original authors and is subject to their respective original licenses.
-- The [community-contributed localization repository](https://github.com/GregTech-Odyssey/GTO-Translations) is licensed under CC BY-NC-SA 4.0.
+- This project is released primarily for non-commercial purposes. Unless otherwise stated, original contents of this project (including the modpack structure, original assets, and texts) may not be used for commercial purposes.
+- Unless otherwise stated, this project's original selection and arrangement of the modpack contents are licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/). Third-party mods, code, assets, and content used under separate permissions are excluded from this license and remain subject to their respective original licenses or permission terms.
+- The [core mod code](https://github.com/GregTech-Odyssey/GTOCore) (original code under the `src/main/java/` of GTOCore) is licensed under the [GNU Lesser General Public License v3.0 (LGPLv3)](https://www.gnu.org/licenses/lgpl-3.0.html).
+    - GTOCore incorporates code and assets from other mods. Copyright in such content remains with the respective original authors, and the content remains subject to its respective original licenses. See [THIRD_PARTY_LICENSES.md](THIRD_PARTY_LICENSES.md) for details.
+- Quest texts are All Rights Reserved by default. Any unauthorized use is prohibited. For quest content with clearly indicated sources, copyright remains with the respective original authors, and the content remains subject to its respective original licenses.
+- Translation content in the [community-contributed localization repository](https://github.com/GregTech-Odyssey/GTO-Translations) is licensed under CC BY-NC-SA 4.0.
 - Original texture assets in this project are licensed under CC BY-NC-SA 4.0.
-- GTOCore incorporates code and assets from other mods. The copyright of such content remains with their respective original authors and is subject to their respective original licenses. In case of any conflict between those licenses and other parts of this project, the original licenses shall prevail. See details in: [THIRD_PARTY_LICENSES.md](THIRD_PARTY_LICENSES.md).
 
 ## Usage
 
