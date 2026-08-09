@@ -18,7 +18,7 @@ if [ "$language_choice" = "2" ]; then
   msg_forge_failed="Forge installation failed."
   msg_mods_installing="Downloading and updating server mods..."
   msg_mods_failed="Mod installation failed."
-  msg_complete="Installation completed successfully."
+  msg_complete="Installation completed successfully. Run bash run.sh to start the server."
   msg_missing_files="Installer files are missing. Extract the complete server package and try again."
 else
   msg_java_missing="未找到 Java。请安装 Java 21 或更高版本后重试。"
@@ -29,7 +29,7 @@ else
   msg_forge_failed="Forge 安装失败。"
   msg_mods_installing="正在下载并更新服务端模组……"
   msg_mods_failed="模组安装失败。"
-  msg_complete="安装已成功完成。"
+  msg_complete="安装已成功完成。请运行 bash run.sh 启动服务端。"
   msg_missing_files="安装器文件缺失。请完整解压服务端包后重试。"
 fi
 
