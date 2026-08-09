@@ -105,14 +105,14 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: GregTech-Odyssey
-        path: ./curseforge-upload/*.zip
+        path: ./curseforge/*.zip
     - name: Upload artifacts
       uses: actions/upload-artifact@v4
       with:
         name: GregTech-Odyssey-all-locale
         path: |
           ./curseforge-upload/**.zip
-    - name: Upload server artifact
+    - name: Upload server artifacts
       uses: actions/upload-artifact@v4
       with:
         name: GregTech-Odyssey-server
