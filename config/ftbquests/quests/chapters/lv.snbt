@@ -395,7 +395,7 @@
 					type: "item"
 				}
 				{
-					count: 9L
+					count: 10L
 					id: "4048820E2CF19011"
 					item: "gtceu:heatproof_machine_casing"
 					type: "item"
@@ -669,8 +669,8 @@
 				item: "gtocore:large_steam_circuit_assembler"
 				type: "item"
 			}]
-			x: -11.25d
-			y: -1.5d
+			x: -12.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["507807175748245C"]
@@ -2816,8 +2816,8 @@
 				item: "gtocore:large_steam_forge_hammer"
 				type: "item"
 			}]
-			x: -12.0d
-			y: -3.0d
+			x: -11.25d
+			y: -1.5d
 		}
 	]
 	subtitle: ["Tier1-LV"]
