@@ -61,6 +61,7 @@ packwiz
 fixup.sh
 /.github
 /result
+.codex-tmp
 config/flywheel-client.toml
 config/embeddium-options.json
 README_zh.md

@@ -1850,7 +1850,6 @@
 				"43974ABFAE99587B"
 				"056EC4E6FAF614B7"
 				"073CEA22FD3EF535"
-				"3237EF5DBFF07740"
 				"2D899AFE07E20FEF"
 			]
 			description: [
@@ -3326,9 +3325,12 @@
 			dependencies: [
 				"2C7608B4F5962E55"
 				"6A8869A6275ECA3E"
+				"056EC4E6FAF614B7"
 			]
+			dependency_requirement: "one_completed"
 			description: ["没有什么实际用处，只作为合成材料使用"]
 			id: "23D906A09C3631CB"
+			min_required_dependencies: 2
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
@@ -4487,7 +4489,10 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["083934744ECD19FB"]
+			dependencies: [
+				"083934744ECD19FB"
+				"6A8869A6275ECA3E"
+			]
 			description: [
 				"真正的无线ME网络，能够&e跨维度传输&r"
 				""

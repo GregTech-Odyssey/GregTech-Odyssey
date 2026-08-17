@@ -52,6 +52,7 @@
 /packwiz
 .direnv
 .envrc
+.codex-tmp
 /*.zip
 /*.mrpack
 /result
