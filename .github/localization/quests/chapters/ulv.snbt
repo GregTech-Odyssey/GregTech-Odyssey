@@ -1650,10 +1650,12 @@
 				"{gto.ulv.quests.06DB49EDBF5A5499.description4}"
 				""
 				"{gto.ulv.quests.06DB49EDBF5A5499.description5}"
-				""
+				"{@pagebreak}"
 				"{gto.ulv.quests.06DB49EDBF5A5499.description6}"
 				""
 				"{gto.ulv.quests.06DB49EDBF5A5499.description7}"
+				""
+				"{gto.ulv.quests.06DB49EDBF5A5499.description8}"
 			]
 			icon: "gtocore:heater"
 			id: "06DB49EDBF5A5499"
