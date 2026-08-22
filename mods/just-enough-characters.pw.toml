@@ -1,13 +1,13 @@
 name = "Just Enough Characters"
-filename = "jecharacters-1.20.1-forge-4.6.4.jar"
+filename = "jecharacters-1.20.1-forge-4.6.9.jar"
 side = "client"
 
 [download]
 hash-format = "sha1"
-hash = "38367ae9f513bb2e82bd925df454f2e30ad1e801"
+hash = "bff03818baa0fc17d1f086ceee21872f6b6e9f12"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8117466
+file-id = 8583972
 project-id = 250702

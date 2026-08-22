@@ -1,13 +1,13 @@
 name = "Balm"
-filename = "balm-forge-1.20.1-7.3.39-all.jar"
+filename = "balm-forge-1.20.1-7.3.42.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "8746afe54616cad01514e6f1c6a16dc0839ea5c4"
+hash = "d22394596e9f845c0a9a6e45575dbfbfec6b25d9"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8362090
+file-id = 8545415
 project-id = 531761

@@ -1,0 +1,13 @@
+name = "Data Sync Lib"
+filename = "datasynclib-forge-1.20.1-26.8.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "06ac0ccd7fdcb54497a8f54518787ca0a328d0c6"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8661832
+project-id = 1620790
