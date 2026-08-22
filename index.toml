@@ -361,6 +361,10 @@ file = "config/ftbquests/quests/chapters/steam.snbt"
 hash = "3b5ddda4b80a83c1b3207262f1c88d12a0636d74bee219a0218df4ba5befc58d"
 
 [[files]]
+file = "config/ftbquests/quests/chapters/techtree.snbt"
+hash = "34f6f7874d966819568949f8f305a63287072e4047f87cc413b5fea58042a5e4"
+
+[[files]]
 file = "config/ftbquests/quests/chapters/tips.snbt"
 hash = "65d131d25025e577b0d1ec5fa7644312923aa8d204952ddb8329bdcdb68c49fb"
 
@@ -690,7 +694,7 @@ hash = "84254dc1e5a56ea70df6b16a2fb2620040592badae436c255997aaae84996d91"
 
 [[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/en_us.json"
-hash = "addeed3a7374d98bfef12e7b95351daa060223db68e036ff7de78dcb965f097d"
+hash = "cb93e4d592964e3b62937ab7bc45609a3640aa26af0cc52957f291a028a8a2d4"
 
 [[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/ru_ru.json"
@@ -698,11 +702,11 @@ hash = "d50beef9864257f5aebb51cf6ed86845676ec1ec1a69e6ae6aa515af6285a1e0"
 
 [[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/zh_cn.json"
-hash = "c38abc81968f631645d9e811bff27ffe86ac9479631b7f6f6e659c744701eea4"
+hash = "a06642655a68bc8195cad1d255075c662824bb90b19bd58d5b81b7f0b5f77c4f"
 
 [[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/zh_tw.json"
-hash = "6d60ee5544f43507c4ee16db8d345af36ad861de2f6f671b12fdfffc43ecd2cf"
+hash = "0304bba744870839c603d2a80e5881e2cc949f455a636b1a8aecaee88fb3038c"
 
 [[files]]
 file = "config/openloader/resources/quests/pack.mcmeta"
@@ -2225,8 +2229,8 @@ hash = "6e684fd47c5ec5a28d3be00e6ecb0e5491f764f15e138e3d8fe8bd7a1da04b55"
 metafile = true
 
 [[files]]
-file = "mods/gtocore-forge-1.20.1-0.5.6-beta.jar"
-hash = "fb5b563d98eed58a81e978113895057a09e05aedfcc7f1ed9925126593836b3c"
+file = "mods/gtocore-forge-1.20.1-26.8.2-techtree.jar"
+hash = "8beb3763bc5aec54defda2c81cda4be62a271208d6503090eea5126302e5c0e8"
 
 [[files]]
 file = "mods/gtonativelib-1.0.jar"
@@ -2354,7 +2358,7 @@ metafile = true
 
 [[files]]
 file = "mods/modernfix.pw.toml"
-hash = "c7ffa2d9d6ffe6cc471e293baece3e8543ee3cadd7acf2c0c2c9bef0dc876a56"
+hash = "17523abe76f282db11e95a033e504c1da3f82ac23a42e169d6b1e4d59b6a18d6"
 metafile = true
 
 [[files]]

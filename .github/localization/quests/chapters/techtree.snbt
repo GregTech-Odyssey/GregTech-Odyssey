@@ -1,0 +1,935 @@
+{
+	autofocus_id: "112FC03136F231BC"
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "techtree"
+	group: ""
+	id: "4E2C959E286891F5"
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"{gto.techtree.quests.112FC03136F231BC.description0}"
+				"{gto.techtree.quests.112FC03136F231BC.description1}"
+				"{gto.techtree.quests.112FC03136F231BC.description2}"
+			]
+			id: "112FC03136F231BC"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "0BB2386D37AE134A"
+				item: "gtceu:iv_scanner"
+				type: "item"
+			}]
+			title: "{gto.techtree.quests.112FC03136F231BC.title}"
+			x: -8.0d
+			y: -4.0d
+		}
+		{
+			description: [
+				"{gto.techtree.quests.68213A518B1BAE4E.description0}"
+				"{gto.techtree.quests.68213A518B1BAE4E.description1}"
+				"{gto.techtree.quests.68213A518B1BAE4E.description2}"
+			]
+			id: "68213A518B1BAE4E"
+			shape: "pentagon"
+			size: 2.0d
+			tasks: [{
+				id: "39B5E85ADFF1F7F1"
+				type: "checkmark"
+			}]
+			title: "{gto.techtree.quests.68213A518B1BAE4E.title}"
+			x: -8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["112FC03136F231BC"]
+			description: [
+				"{gto.techtree.quests.5D182610DA157E66.description0}"
+				"{gto.techtree.quests.5D182610DA157E66.description1}"
+				"{gto.techtree.quests.5D182610DA157E66.description2}"
+			]
+			id: "5D182610DA157E66"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "3C49D75824DE57B1"
+				item: "gtceu:iv_scanner"
+				type: "item"
+			}]
+			title: "{gto.techtree.quests.5D182610DA157E66.title}"
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5D182610DA157E66"]
+			description: [
+				"{gto.techtree.quests.2E41B9522F285629.description0}"
+				"{gto.techtree.quests.2E41B9522F285629.description1}"
+				"{gto.techtree.quests.2E41B9522F285629.description2}"
+			]
+			id: "2E41B9522F285629"
+			shape: "circle"
+			size: 2.0d
+			tasks: [{
+				id: "5F2396D13071A546"
+				title: "{gto.techtree.quests.2E41B9522F285629.tasks.5F2396D13071A546.title}"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["5D182610DA157E66"]
+			description: [
+				"{gto.techtree.quests.33FA6B01196B104F.description0}"
+				"{gto.techtree.quests.33FA6B01196B104F.description1}"
+				"{gto.techtree.quests.33FA6B01196B104F.description2}"
+			]
+			id: "33FA6B01196B104F"
+			shape: "circle"
+			size: 2.0d
+			tasks: [{
+				id: "71A0E449AA1D0148"
+				item: "gtocore:data_crystal_mk1"
+				type: "item"
+			}]
+			title: "{gto.techtree.quests.33FA6B01196B104F.title}"
+			x: -2.0d
+			y: -9.0d
+		}
+		{
+			dependencies: [
+				"2F45AE4F20001FD8"
+				"6E72DDA534829D02"
+			]
+			description: [
+				"{gto.techtree.quests.71AB0F7023FDC914.description0}"
+				"{gto.techtree.quests.71AB0F7023FDC914.description1}"
+				"{gto.techtree.quests.71AB0F7023FDC914.description2}"
+			]
+			id: "71AB0F7023FDC914"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "49397A466CD2E349"
+				item: "gtocore:dataunit_scanning_station"
+				type: "item"
+			}]
+			title: "{gto.techtree.quests.71AB0F7023FDC914.title}"
+			x: 12.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["5D182610DA157E66"]
+			description: [
+				"{gto.techtree.quests.0A4FD8FD32FBC0EF.description0}"
+				"{gto.techtree.quests.0A4FD8FD32FBC0EF.description1}"
+				"{gto.techtree.quests.0A4FD8FD32FBC0EF.description2}"
+			]
+			id: "0A4FD8FD32FBC0EF"
+			shape: "pentagon"
+			size: 2.0d
+			tasks: [{
+				id: "0B56270E53E94060"
+				title: "{gto.techtree.quests.0A4FD8FD32FBC0EF.tasks.0B56270E53E94060.title}"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["094AF354546B3C55"]
+			description: [
+				"{gto.techtree.quests.0A2271687C48AFD3.description0}"
+				"{gto.techtree.quests.0A2271687C48AFD3.description1}"
+				"{gto.techtree.quests.0A2271687C48AFD3.description2}"
+			]
+			id: "0A2271687C48AFD3"
+			shape: "pentagon"
+			size: 2.0d
+			tasks: [{
+				id: "4B160D4AABC54651"
+				title: "{gto.techtree.quests.0A2271687C48AFD3.tasks.4B160D4AABC54651.title}"
+				type: "checkmark"
+			}]
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"{gto.techtree.quests.0F425AE27FF0C27D.description0}"
+				"{gto.techtree.quests.0F425AE27FF0C27D.description1}"
+				"{gto.techtree.quests.0F425AE27FF0C27D.description2}"
+				"{gto.techtree.quests.0F425AE27FF0C27D.description3}"
+			]
+			hide_dependency_lines: true
+			id: "0F425AE27FF0C27D"
+			shape: "circle"
+			size: 2.0d
+			tasks: [{
+				id: "4F35D2914A9EBB6B"
+				title: "{gto.techtree.quests.0F425AE27FF0C27D.tasks.4F35D2914A9EBB6B.title}"
+				type: "checkmark"
+			}]
+			title: "{gto.techtree.quests.0F425AE27FF0C27D.title}"
+			x: 5.0d
+			y: 8.0d
+		}
+		{
+			description: [
+				"{gto.techtree.quests.70763186413473A1.description0}"
+				"{gto.techtree.quests.70763186413473A1.description1}"
+				"{gto.techtree.quests.70763186413473A1.description2}"
+				"{gto.techtree.quests.70763186413473A1.description3}"
+			]
+			id: "70763186413473A1"
+			shape: "circle"
+			size: 2.0d
+			tasks: [{
+				id: "5095277BB93F3596"
+				title: "{gto.techtree.quests.70763186413473A1.tasks.5095277BB93F3596.title}"
+				type: "checkmark"
+			}]
+			title: "{gto.techtree.quests.70763186413473A1.title}"
+			x: 7.0d
+			y: 8.0d
+		}
+		{
+			description: [
+				"{gto.techtree.quests.554100B92B044EEA.description0}"
+				"{gto.techtree.quests.554100B92B044EEA.description1}"
+				"{gto.techtree.quests.554100B92B044EEA.description2}"
+				"{gto.techtree.quests.554100B92B044EEA.description3}"
+			]
+			id: "554100B92B044EEA"
+			shape: "circle"
+			size: 2.0d
+			tasks: [{
+				id: "6424D5EADD025E92"
+				title: "{gto.techtree.quests.554100B92B044EEA.tasks.6424D5EADD025E92.title}"
+				type: "checkmark"
+			}]
+			title: "{gto.techtree.quests.554100B92B044EEA.title}"
+			x: 9.0d
+			y: 8.0d
+		}
+		{
+			description: [
+				"{gto.techtree.quests.3EB8A458EDC71302.description0}"
+				"{gto.techtree.quests.3EB8A458EDC71302.description1}"
+				"{gto.techtree.quests.3EB8A458EDC71302.description2}"
+				"{gto.techtree.quests.3EB8A458EDC71302.description3}"
+			]
+			id: "3EB8A458EDC71302"
+			shape: "circle"
+			size: 2.0d
+			tasks: [{
+				id: "75CF1D25BEEC5B67"
+				title: "{gto.techtree.quests.3EB8A458EDC71302.tasks.75CF1D25BEEC5B67.title}"
+				type: "checkmark"
+			}]
+			title: "{gto.techtree.quests.3EB8A458EDC71302.title}"
+			x: 11.0d
+			y: 8.0d
+		}
+		{
+			description: [
+				"{gto.techtree.quests.46370C4721B765B9.description0}"
+				"{gto.techtree.quests.46370C4721B765B9.description1}"
+				"{gto.techtree.quests.46370C4721B765B9.description2}"
+				"{gto.techtree.quests.46370C4721B765B9.description3}"
+			]
+			id: "46370C4721B765B9"
+			shape: "circle"
+			size: 2.0d
+			tasks: [{
+				id: "33E71A4B90E31CF7"
+				title: "{gto.techtree.quests.46370C4721B765B9.tasks.33E71A4B90E31CF7.title}"
+				type: "checkmark"
+			}]
+			title: "{gto.techtree.quests.46370C4721B765B9.title}"
+			x: 13.0d
+			y: 8.0d
+		}
+		{
+			description: [
+				"{gto.techtree.quests.635018E896E21ABE.description0}"
+				"{gto.techtree.quests.635018E896E21ABE.description1}"
+				"{gto.techtree.quests.635018E896E21ABE.description2}"
+				"{gto.techtree.quests.635018E896E21ABE.description3}"
+			]
+			id: "635018E896E21ABE"
+			shape: "circle"
+			size: 2.0d
+			tasks: [{
+				id: "6F2F7B235EFF4052"
+				title: "{gto.techtree.quests.635018E896E21ABE.tasks.6F2F7B235EFF4052.title}"
+				type: "checkmark"
+			}]
+			title: "{gto.techtree.quests.635018E896E21ABE.title}"
+			x: 15.0d
+			y: 8.0d
+		}
+		{
+			description: [
+				"{gto.techtree.quests.4E12983A04D1F148.description0}"
+				"{gto.techtree.quests.4E12983A04D1F148.description1}"
+				"{gto.techtree.quests.4E12983A04D1F148.description2}"
+				"{gto.techtree.quests.4E12983A04D1F148.description3}"
+			]
+			id: "4E12983A04D1F148"
+			shape: "circle"
+			size: 2.0d
+			tasks: [{
+				id: "58ADB8FB59E26278"
+				title: "{gto.techtree.quests.4E12983A04D1F148.tasks.58ADB8FB59E26278.title}"
+				type: "checkmark"
+			}]
+			title: "{gto.techtree.quests.4E12983A04D1F148.title}"
+			x: 17.0d
+			y: 8.0d
+		}
+		{
+			description: [
+				"{gto.techtree.quests.02963400079793EE.description0}"
+				"{gto.techtree.quests.02963400079793EE.description1}"
+				"{gto.techtree.quests.02963400079793EE.description2}"
+				"{gto.techtree.quests.02963400079793EE.description3}"
+			]
+			id: "02963400079793EE"
+			shape: "circle"
+			size: 2.0d
+			tasks: [{
+				id: "31CCC2CD9C6CDD7A"
+				title: "{gto.techtree.quests.02963400079793EE.tasks.31CCC2CD9C6CDD7A.title}"
+				type: "checkmark"
+			}]
+			title: "{gto.techtree.quests.02963400079793EE.title}"
+			x: 19.0d
+			y: 8.0d
+		}
+		{
+			description: [
+				"{gto.techtree.quests.2C77D8990F124852.description0}"
+				"{gto.techtree.quests.2C77D8990F124852.description1}"
+				"{gto.techtree.quests.2C77D8990F124852.description2}"
+				"{gto.techtree.quests.2C77D8990F124852.description3}"
+			]
+			hide_dependency_lines: true
+			id: "2C77D8990F124852"
+			shape: "circle"
+			size: 2.0d
+			tasks: [{
+				id: "5A6E8C4F3C0D9C86"
+				title: "{gto.techtree.quests.2C77D8990F124852.tasks.5A6E8C4F3C0D9C86.title}"
+				type: "checkmark"
+			}]
+			title: "{gto.techtree.quests.2C77D8990F124852.title}"
+			x: 5.0d
+			y: 10.0d
+		}
+		{
+			description: [
+				"{gto.techtree.quests.1CD85CAE69A0D72F.description0}"
+				"{gto.techtree.quests.1CD85CAE69A0D72F.description1}"
+				"{gto.techtree.quests.1CD85CAE69A0D72F.description2}"
+				"{gto.techtree.quests.1CD85CAE69A0D72F.description3}"
+			]
+			id: "1CD85CAE69A0D72F"
+			shape: "circle"
+			size: 2.0d
+			tasks: [{
+				id: "2DBD1A98D98CCE22"
+				title: "{gto.techtree.quests.1CD85CAE69A0D72F.tasks.2DBD1A98D98CCE22.title}"
+				type: "checkmark"
+			}]
+			title: "{gto.techtree.quests.1CD85CAE69A0D72F.title}"
+			x: 7.0d
+			y: 10.0d
+		}
+		{
+			description: [
+				"{gto.techtree.quests.497561B852BAFE00.description0}"
+				"{gto.techtree.quests.497561B852BAFE00.description1}"
+				"{gto.techtree.quests.497561B852BAFE00.description2}"
+			]
+			id: "497561B852BAFE00"
+			shape: "circle"
+			size: 2.0d
+			tasks: [{
+				id: "737453E7304F4679"
+				title: "{gto.techtree.quests.497561B852BAFE00.tasks.737453E7304F4679.title}"
+				type: "checkmark"
+			}]
+			title: "{gto.techtree.quests.497561B852BAFE00.title}"
+			x: 9.0d
+			y: 10.0d
+		}
+		{
+			description: [
+				"{gto.techtree.quests.0163AF398F9E7A47.description0}"
+				"{gto.techtree.quests.0163AF398F9E7A47.description1}"
+				"{gto.techtree.quests.0163AF398F9E7A47.description2}"
+				"{gto.techtree.quests.0163AF398F9E7A47.description3}"
+			]
+			id: "0163AF398F9E7A47"
+			shape: "circle"
+			size: 2.0d
+			tasks: [{
+				id: "5B8B3FE9A3A14548"
+				title: "{gto.techtree.quests.0163AF398F9E7A47.tasks.5B8B3FE9A3A14548.title}"
+				type: "checkmark"
+			}]
+			title: "{gto.techtree.quests.0163AF398F9E7A47.title}"
+			x: 11.0d
+			y: 10.0d
+		}
+		{
+			description: [
+				"{gto.techtree.quests.67E6EF7BBB246DA1.description0}"
+				"{gto.techtree.quests.67E6EF7BBB246DA1.description1}"
+				"{gto.techtree.quests.67E6EF7BBB246DA1.description2}"
+				"{gto.techtree.quests.67E6EF7BBB246DA1.description3}"
+			]
+			id: "67E6EF7BBB246DA1"
+			shape: "circle"
+			size: 2.0d
+			tasks: [{
+				id: "22DDEBE16BFECC02"
+				title: "{gto.techtree.quests.67E6EF7BBB246DA1.tasks.22DDEBE16BFECC02.title}"
+				type: "checkmark"
+			}]
+			title: "{gto.techtree.quests.67E6EF7BBB246DA1.title}"
+			x: 13.0d
+			y: 10.0d
+		}
+		{
+			description: [
+				"{gto.techtree.quests.4B48A95D954E3548.description0}"
+				"{gto.techtree.quests.4B48A95D954E3548.description1}"
+				"{gto.techtree.quests.4B48A95D954E3548.description2}"
+			]
+			id: "4B48A95D954E3548"
+			shape: "circle"
+			size: 2.0d
+			tasks: [{
+				id: "1ADFF91E63E2BE2F"
+				title: "{gto.techtree.quests.4B48A95D954E3548.tasks.1ADFF91E63E2BE2F.title}"
+				type: "checkmark"
+			}]
+			title: "{gto.techtree.quests.4B48A95D954E3548.title}"
+			x: 15.0d
+			y: 10.0d
+		}
+		{
+			description: [
+				"{gto.techtree.quests.692F56B278DAAE48.description0}"
+				"{gto.techtree.quests.692F56B278DAAE48.description1}"
+				"{gto.techtree.quests.692F56B278DAAE48.description2}"
+				"{gto.techtree.quests.692F56B278DAAE48.description3}"
+			]
+			id: "692F56B278DAAE48"
+			shape: "circle"
+			size: 2.0d
+			tasks: [{
+				id: "48077F0396277214"
+				title: "{gto.techtree.quests.692F56B278DAAE48.tasks.48077F0396277214.title}"
+				type: "checkmark"
+			}]
+			title: "{gto.techtree.quests.692F56B278DAAE48.title}"
+			x: 17.0d
+			y: 10.0d
+		}
+		{
+			description: [
+				"{gto.techtree.quests.6F4A78ACA54CBE16.description0}"
+				"{gto.techtree.quests.6F4A78ACA54CBE16.description1}"
+				"{gto.techtree.quests.6F4A78ACA54CBE16.description2}"
+				"{gto.techtree.quests.6F4A78ACA54CBE16.description3}"
+			]
+			id: "6F4A78ACA54CBE16"
+			shape: "circle"
+			size: 2.0d
+			tasks: [{
+				id: "31EA87606AD8FCD5"
+				title: "{gto.techtree.quests.6F4A78ACA54CBE16.tasks.31EA87606AD8FCD5.title}"
+				type: "checkmark"
+			}]
+			title: "{gto.techtree.quests.6F4A78ACA54CBE16.title}"
+			x: 19.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"094AF354546B3C55"
+				"71AB0F7023FDC914"
+				"255AA657C2B181FD"
+			]
+			description: [
+				"{gto.techtree.quests.32E7C0814F462068.description0}"
+				"{gto.techtree.quests.32E7C0814F462068.description1}"
+				"{gto.techtree.quests.32E7C0814F462068.description2}"
+				"{gto.techtree.quests.32E7C0814F462068.description3}"
+			]
+			id: "32E7C0814F462068"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "67E6256EAA1A321F"
+				node: [B;
+					13b
+					2b
+					12b
+					9b
+					109b
+					97b
+					105b
+					110b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					16b
+					100b
+					97b
+					116b
+					97b
+					95b
+					105b
+					110b
+					95b
+					114b
+					101b
+					115b
+					101b
+					97b
+					114b
+					99b
+					104b
+				]
+				type: "gtocore:technode"
+			}]
+			title: "{gto.techtree.quests.32E7C0814F462068.title}"
+			x: 14.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["32E7C0814F462068"]
+			description: [
+				"{gto.techtree.quests.2CB2DFC21EC7809F.description0}"
+				"{gto.techtree.quests.2CB2DFC21EC7809F.description1}"
+				"{gto.techtree.quests.2CB2DFC21EC7809F.description2}"
+			]
+			id: "2CB2DFC21EC7809F"
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "7E765627A849ECD7"
+				title: "{gto.techtree.quests.2CB2DFC21EC7809F.tasks.7E765627A849ECD7.title}"
+				type: "checkmark"
+			}]
+			x: 19.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5D182610DA157E66"]
+			description: [
+				"{gto.techtree.quests.094AF354546B3C55.description0}"
+				"{gto.techtree.quests.094AF354546B3C55.description1}"
+				"{gto.techtree.quests.094AF354546B3C55.description2}"
+			]
+			id: "094AF354546B3C55"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "39C96F3B053CD531"
+				title: "{gto.techtree.quests.094AF354546B3C55.tasks.39C96F3B053CD531.title}"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["094AF354546B3C55"]
+			description: [
+				"{gto.techtree.quests.648F30FF65FF6658.description0}"
+				"{gto.techtree.quests.648F30FF65FF6658.description1}"
+				"{gto.techtree.quests.648F30FF65FF6658.description2}"
+			]
+			id: "648F30FF65FF6658"
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "7DC78FB69532E852"
+				item: "gtocore:data_export_machine"
+				type: "item"
+			}]
+			title: "{gto.techtree.quests.648F30FF65FF6658.title}"
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"{gto.techtree.quests.4B0E53FF21B62567.description0}"
+				"{gto.techtree.quests.4B0E53FF21B62567.description1}"
+				"{gto.techtree.quests.4B0E53FF21B62567.description2}"
+			]
+			hide_dependency_lines: true
+			id: "4B0E53FF21B62567"
+			shape: "pentagon"
+			size: 2.0d
+			tasks: [{
+				id: "39C5F20FEEC8B7A2"
+				item: "minecraft:command_block"
+				type: "item"
+			}]
+			title: "{gto.techtree.quests.4B0E53FF21B62567.title}"
+			x: -8.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["5D182610DA157E66"]
+			description: [
+				"{gto.techtree.quests.4CB5C446BB38935D.description0}"
+				"{gto.techtree.quests.4CB5C446BB38935D.description1}"
+				"{gto.techtree.quests.4CB5C446BB38935D.description2}"
+				"{@pagebreak}"
+				"{gto.techtree.quests.4CB5C446BB38935D.description3}"
+				"{gto.techtree.quests.4CB5C446BB38935D.description4}"
+				"{gto.techtree.quests.4CB5C446BB38935D.description5}"
+			]
+			id: "4CB5C446BB38935D"
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "391E75356D3786E8"
+				item: "gtocore:intelligent_scanning_management_platform"
+				type: "item"
+			}]
+			title: "{gto.techtree.quests.4CB5C446BB38935D.title}"
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0A2271687C48AFD3"]
+			description: [
+				"{gto.techtree.quests.255AA657C2B181FD.description0}"
+				"{gto.techtree.quests.255AA657C2B181FD.description1}"
+			]
+			id: "255AA657C2B181FD"
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "3431388676415C85"
+				item: "gtocore:computational_data_holder"
+				type: "item"
+			}]
+			title: "{gto.techtree.quests.255AA657C2B181FD.title}"
+			x: 12.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0A2271687C48AFD3"]
+			description: [
+				"{gto.techtree.quests.32C50DF529A45666.description0}"
+				"{gto.techtree.quests.32C50DF529A45666.description1}"
+				"{gto.techtree.quests.32C50DF529A45666.description2}"
+			]
+			id: "32C50DF529A45666"
+			shape: "pentagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "3888262A77D06912"
+					item: "gtocore:computational_data_holder"
+					type: "item"
+				}
+				{
+					id: "268983BA8B06A8C7"
+					item: "gtocore:catalysis_data_holder"
+					type: "item"
+				}
+				{
+					id: "4FA3741AEF772D2F"
+					item: "gtocore:thermodynamic_data_holder"
+					type: "item"
+				}
+				{
+					id: "1977399C8140A5C9"
+					item: "gtocore:interstellar_engineering_data_holder"
+					type: "item"
+				}
+				{
+					id: "26361565F4FA8AE1"
+					item: "gtocore:energy_data_holder"
+					type: "item"
+				}
+				{
+					id: "40F01E647D38CDE8"
+					item: "gtocore:storage_data_holder"
+					type: "item"
+				}
+				{
+					id: "7962DD5AD3FD4429"
+					item: "gtocore:biology_data_holder"
+					type: "item"
+				}
+				{
+					id: "745FFDDCCB506125"
+					item: "gtocore:optical_data_holder"
+					type: "item"
+				}
+			]
+			title: "{gto.techtree.quests.32C50DF529A45666.title}"
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"{gto.techtree.quests.4D2E195484413613.description0}"
+				"{gto.techtree.quests.4D2E195484413613.description1}"
+				"{gto.techtree.quests.4D2E195484413613.description2}"
+			]
+			id: "4D2E195484413613"
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "7F7C9DB77130FADA"
+				title: "{gto.techtree.quests.4D2E195484413613.tasks.7F7C9DB77130FADA.title}"
+				type: "checkmark"
+			}]
+			x: 13.0d
+			y: 12.0d
+		}
+		{
+			description: [
+				"{gto.techtree.quests.2E2EA0A83995E646.description0}"
+				"{gto.techtree.quests.2E2EA0A83995E646.description1}"
+			]
+			id: "2E2EA0A83995E646"
+			shape: "pentagon"
+			size: 2.0d
+			tasks: [{
+				id: "73C03DDB7A765714"
+				title: "{gto.techtree.quests.2E2EA0A83995E646.tasks.73C03DDB7A765714.title}"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 10.0d
+		}
+		{
+			description: [
+				"{gto.techtree.quests.6AA45141857C34BC.description0}"
+				"{gto.techtree.quests.6AA45141857C34BC.description1}"
+			]
+			hide_dependency_lines: true
+			id: "6AA45141857C34BC"
+			shape: "pentagon"
+			size: 2.0d
+			tasks: [{
+				id: "44A25DC67AFC8964"
+				item: "gtocore:me_muffler_hatch"
+				type: "item"
+			}]
+			title: "{gto.techtree.quests.6AA45141857C34BC.title}"
+			x: -8.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["6AA45141857C34BC"]
+			description: [
+				"{gto.techtree.quests.1A6BA4C09514AAA9.description0}"
+				"{gto.techtree.quests.1A6BA4C09514AAA9.description1}"
+				"{gto.techtree.quests.1A6BA4C09514AAA9.description2}"
+			]
+			id: "1A6BA4C09514AAA9"
+			shape: "circle"
+			size: 2.0d
+			tasks: [{
+				id: "6573A7E910045E2E"
+				title: "{gto.techtree.quests.1A6BA4C09514AAA9.tasks.6573A7E910045E2E.title}"
+				type: "checkmark"
+			}]
+			title: "{gto.techtree.quests.1A6BA4C09514AAA9.title}"
+			x: -6.0d
+			y: 8.0d
+		}
+		{
+			description: [
+				"{gto.techtree.quests.15A727418CADF53D.description0}"
+				"{gto.techtree.quests.15A727418CADF53D.description1}"
+				"{gto.techtree.quests.15A727418CADF53D.description2}"
+			]
+			id: "15A727418CADF53D"
+			shape: "circle"
+			size: 2.0d
+			tasks: [{
+				id: "04DC8B2208D8C61B"
+				title: "{gto.techtree.quests.15A727418CADF53D.tasks.04DC8B2208D8C61B.title}"
+				type: "checkmark"
+			}]
+			title: "{gto.techtree.quests.15A727418CADF53D.title}"
+			x: -2.0d
+			y: 8.0d
+		}
+		{
+			description: [
+				"{gto.techtree.quests.4C99BD45BE8AE105.description0}"
+				"{gto.techtree.quests.4C99BD45BE8AE105.description1}"
+				"{gto.techtree.quests.4C99BD45BE8AE105.description2}"
+			]
+			id: "4C99BD45BE8AE105"
+			shape: "circle"
+			size: 2.0d
+			tasks: [{
+				id: "3F208B9303783C84"
+				title: "{gto.techtree.quests.4C99BD45BE8AE105.tasks.3F208B9303783C84.title}"
+				type: "checkmark"
+			}]
+			title: "{gto.techtree.quests.4C99BD45BE8AE105.title}"
+			x: -4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["5D182610DA157E66"]
+			description: [
+				"{gto.techtree.quests.1BBC822EED674661.description0}"
+				"{gto.techtree.quests.1BBC822EED674661.description1}"
+			]
+			id: "1BBC822EED674661"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "7E7238B402173A3F"
+				node: [B;
+					13b
+					2b
+					12b
+					9b
+					109b
+					97b
+					105b
+					110b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					9b
+					100b
+					97b
+					116b
+					97b
+					95b
+					98b
+					97b
+					115b
+					101b
+				]
+				type: "gtocore:technode"
+			}]
+			title: "{gto.techtree.quests.1BBC822EED674661.title}"
+			x: 0.0d
+			y: -9.0d
+		}
+		{
+			description: ["{gto.techtree.quests.2F45AE4F20001FD8.description0}"]
+			id: "2F45AE4F20001FD8"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "3759477B7A550411"
+				node: [B;
+					13b
+					2b
+					12b
+					9b
+					109b
+					97b
+					105b
+					110b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					17b
+					99b
+					111b
+					109b
+					112b
+					117b
+					116b
+					97b
+					116b
+					105b
+					111b
+					110b
+					95b
+					97b
+					114b
+					114b
+					97b
+					121b
+				]
+				type: "gtocore:technode"
+			}]
+			title: "{gto.techtree.quests.2F45AE4F20001FD8.title}"
+			x: 12.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["094AF354546B3C55"]
+			description: [
+				"{gto.techtree.quests.6E72DDA534829D02.description0}"
+				"{gto.techtree.quests.6E72DDA534829D02.description1}"
+			]
+			id: "6E72DDA534829D02"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "419AA3D39A7A5090"
+				node: [B;
+					13b
+					2b
+					12b
+					9b
+					109b
+					97b
+					105b
+					110b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					12b
+					115b
+					99b
+					97b
+					110b
+					95b
+					115b
+					116b
+					97b
+					116b
+					105b
+					111b
+					110b
+				]
+				type: "gtocore:technode"
+			}]
+			title: "{gto.techtree.quests.6E72DDA534829D02.title}"
+			x: 8.0d
+			y: -7.0d
+		}
+	]
+	title: "{gto.techtree.title}"
+}
