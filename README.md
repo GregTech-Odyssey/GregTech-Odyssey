@@ -103,6 +103,13 @@ Update mods with `packwiz update [mod]`.
 
 To update all mods: `packwiz update --all`.
 
+**DO NOT** auto update the following mods:
+
+- ModernFix
+- Open Parties and Claims
+- Xaero's World Map
+- Xaero's Minimap
+
 #### Directly Provided JAR Files
 
 Handle them the same way as managing modpack files.

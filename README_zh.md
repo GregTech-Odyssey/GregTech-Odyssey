@@ -103,6 +103,13 @@ packwiz modrinth install https://modrinth.com/mod/appleskin
 
 更新全部模组: `packwiz update --all`
 
+**请勿**自动更新以下模组：
+
+- ModernFix
+- Open Parties and Claims
+- Xaero's World Map
+- Xaero's Minimap
+
 #### 直接提供 jar
 
 同管理整合包文件
