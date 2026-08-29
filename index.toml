@@ -2229,8 +2229,8 @@ hash = "6e684fd47c5ec5a28d3be00e6ecb0e5491f764f15e138e3d8fe8bd7a1da04b55"
 metafile = true
 
 [[files]]
-file = "mods/gtocore-forge-1.20.1-26.8.2-techtree.jar"
-hash = "8beb3763bc5aec54defda2c81cda4be62a271208d6503090eea5126302e5c0e8"
+file = "mods/gtocore-forge-1.20.1-26.8.3-techtree.jar"
+hash = "7cfeb2eb3fbf8abd40ece51bab7867d490e768e1b29ba5cf6372a9fb68e848f6"
 
 [[files]]
 file = "mods/gtonativelib-1.0.jar"
@@ -2358,7 +2358,7 @@ metafile = true
 
 [[files]]
 file = "mods/modernfix.pw.toml"
-hash = "c7ffa2d9d6ffe6cc471e293baece3e8543ee3cadd7acf2c0c2c9bef0dc876a56"
+hash = "17523abe76f282db11e95a033e504c1da3f82ac23a42e169d6b1e4d59b6a18d6"
 metafile = true
 
 [[files]]
