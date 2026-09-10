@@ -219,8 +219,16 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["198304056173E631"]
-			description: ["拥有神秘的力量"]
+			dependencies: [
+				"198304056173E631"
+				"5BC2AA71DA2CE20F"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"拥有神秘的力量"
+				""
+				"如果你不知道怎么搞到烈焰粉，不妨看看魔法线的任务"
+			]
 			id: "4FC754BAFAB7C79F"
 			tasks: [{
 				id: "45215FCD19639F2B"

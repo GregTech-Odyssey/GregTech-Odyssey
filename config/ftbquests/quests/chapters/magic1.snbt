@@ -4713,24 +4713,30 @@
 		{
 			description: ["恶魔南瓜头下面放两个铁栏杆可以召唤必掉烈焰粉的烈焰人"]
 			id: "34D3EA68903F3879"
+			rewards: [{
+				count: 4
+				id: "467D7FF4428EF77F"
+				item: "minecraft:blaze_powder"
+				type: "item"
+			}]
 			tasks: [
-				{
-					id: "1E218809AA6D8DF5"
-					item: "minecraft:blaze_powder"
-					type: "item"
-				}
 				{
 					id: "7D3F1703F2F2BB99"
 					item: "botania:fel_pumpkin"
 					type: "item"
 				}
+				{
+					id: "35A6CAC1346BE107"
+					item: "minecraft:blaze_powder"
+					type: "item"
+				}
 			]
-			x: 7.0d
-			y: 2.0d
+			x: 1.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["70C5A902C0D26628"]
-			description: ["它可以用来运输魔力或魔源，&e并可在两者间自由转换&r"]
+			description: ["它可以用来运输魔力或魔源，&e但无法转换两者&r"]
 			id: "7DB4B6390DB628FF"
 			rewards: [{
 				id: "790703426DBDB4B5"

@@ -586,6 +586,17 @@
 			x: 4.5d
 			y: 6.0d
 		}
+		{
+			id: "5BC2AA71DA2CE20F"
+			invisible: true
+			tasks: [{
+				id: "621D6486E9AE34E4"
+				item: "minecraft:ender_eye"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
 	]
 	title: "辅助章节"
 }
