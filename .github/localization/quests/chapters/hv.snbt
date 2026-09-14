@@ -219,8 +219,16 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["198304056173E631"]
-			description: ["{gto.hv.quests.4FC754BAFAB7C79F.description0}"]
+			dependencies: [
+				"198304056173E631"
+				"5BC2AA71DA2CE20F"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"{gto.hv.quests.4FC754BAFAB7C79F.description0}"
+				""
+				"{gto.hv.quests.4FC754BAFAB7C79F.description1}"
+			]
 			id: "4FC754BAFAB7C79F"
 			tasks: [{
 				id: "45215FCD19639F2B"
