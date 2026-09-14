@@ -62,7 +62,7 @@ hash = "50bd6fb779a216ba87254a6cec89d648eefffeb415321350a4b497d1b73baaba"
 
 [[files]]
 file = "config/chloride-client.toml"
-hash = "11c1e9dafba3961e121c1bfa4923414879ecad915f617e17cc6b1fad028161c6"
+hash = "f5bf3e5861eaba33589492d32c94a7aba08639f9bd44911ab386dce676fa54b1"
 
 [[files]]
 file = "config/defaultoptions/keybindings.txt"
@@ -1731,7 +1731,7 @@ metafile = true
 
 [[files]]
 file = "mods/ad-astra.pw.toml"
-hash = "efc01c72c3eadb9be4f4176cdc585ad86422d42223e37f18eb65fb73332ba8ee"
+hash = "16b7ba68b0de49eea2511bdb20d85ef694644e5e58d27865250d89c4c11e51f3"
 metafile = true
 
 [[files]]
@@ -1771,7 +1771,7 @@ metafile = true
 
 [[files]]
 file = "mods/alltheleaks.pw.toml"
-hash = "40bab1828ae2b4d755db64f1c887a2fe06171fad6ab54d4a1863ca5c30ff9b55"
+hash = "7b112d9281dc3bf615e7f2eac0fac8f42688b3239c2ddd5e448c9588638b0a09"
 metafile = true
 
 [[files]]
@@ -1836,7 +1836,7 @@ metafile = true
 
 [[files]]
 file = "mods/asyncparticles.pw.toml"
-hash = "d4db1e4abf3eff36e8fe1216270f4b3487b121238aec1710fdfe0a3bc5480752"
+hash = "8af9534277ad97353540c365fff35780f348f93557bf8caaf4f7392038fc7727"
 metafile = true
 
 [[files]]
@@ -1861,7 +1861,7 @@ metafile = true
 
 [[files]]
 file = "mods/balm.pw.toml"
-hash = "ddff810b39bb8873325aa34230c2a174073ad9bbf002e04a66835735550a1b7b"
+hash = "f18220cf1209a410821c742e9e5ee3fa54bebaf07db340557990a4b20664a357"
 metafile = true
 
 [[files]]
@@ -2046,7 +2046,7 @@ metafile = true
 
 [[files]]
 file = "mods/ex-pattern-provider.pw.toml"
-hash = "945b821d82d9558ed6e026cf4bb5d57d8c794aee95799cdd8061c2c56ffa6815"
+hash = "9157cfa2e0d9e4c5fe1ea1b4225d5bd49a5fbd48f4959c359986450dbe3345e0"
 metafile = true
 
 [[files]]
@@ -2076,7 +2076,7 @@ metafile = true
 
 [[files]]
 file = "mods/farmers-delight.pw.toml"
-hash = "d753e79a5ac72386b753289212d61a1808dcbf64787b860f7ac93de34a063719"
+hash = "349c06c50fa315e9eb618d115f7d1391062706021c645e14f86afae3109d4662"
 metafile = true
 
 [[files]]
@@ -2111,7 +2111,7 @@ metafile = true
 
 [[files]]
 file = "mods/fastquit-forge.pw.toml"
-hash = "78a7ba5fece17b4afd6c267a13a259092d4ca85d10acd73162ca025889827895"
+hash = "495f82dfe932b49143e0a77631ca3cd19b17d8213feba2d3037deac00d9c2db0"
 metafile = true
 
 [[files]]
@@ -2161,7 +2161,7 @@ metafile = true
 
 [[files]]
 file = "mods/foodvariations.pw.toml"
-hash = "160ebd02d698d24228a085b062cb5a99b7993629eb76f0619905bd9ea54bef56"
+hash = "4db9ae559fde9623a7d30cd3511ea783e49b90ef4e0b414c0b0d75dbad935254"
 metafile = true
 
 [[files]]
@@ -2249,7 +2249,7 @@ metafile = true
 
 [[files]]
 file = "mods/immersive-aircraft.pw.toml"
-hash = "39398f1d161e96a6de60e9899184991d643323dde64b8f26072a1908269e9ff7"
+hash = "e410d61a7906f69a6d617ec8c05b92bf0139a537a44d6664a6516c8a19ad6e77"
 metafile = true
 
 [[files]]
@@ -2274,12 +2274,12 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "4b8627a78d4af0faed2f938a6061ccb7e1edb235d0759f2992abfa4c511559cb"
+hash = "025ced1035517e7be32b0a6c1119344951fd399dab629c93bbdf37fd414ba4e3"
 metafile = true
 
 [[files]]
 file = "mods/just-enough-characters.pw.toml"
-hash = "5bcab9c217fa55ebb795af266a880693d81ad0ab73691741212d41c22c1f832e"
+hash = "2268b7130931209ebb59a833a70cf131916a2ff48c5d7b0ffcc2bf83c445863b"
 metafile = true
 
 [[files]]
@@ -2309,7 +2309,7 @@ metafile = true
 
 [[files]]
 file = "mods/ldlib.pw.toml"
-hash = "63408de8460c82b82c04efb529252d76a9b13c8079e1a1e885398d7241aec8a7"
+hash = "8f100c7527759b5c79c0a305c39f94717d1ac1373338254f5d3c078abfd4b2a6"
 metafile = true
 
 [[files]]
@@ -2494,12 +2494,12 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "67f25c4e667e3aa0264bf738ad10a342db234ac1396f8397baa5d64c35d83481"
+hash = "cfb0764ead0cc94a7d4e23aaf061f4c4a497fc09c85fa54a51d5d4e05940d87e"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "b45a8099d4302af4707f6db58779dbe39898d186e999366e64f16653398a9d63"
+hash = "161e11d3d81652206236f91256e0189c20b2193ab046e4a90358f84036f11ca6"
 metafile = true
 
 [[files]]
@@ -2565,14 +2565,4 @@ metafile = true
 [[files]]
 file = "mods/yeetusexperimentus.pw.toml"
 hash = "36ee65c43a693265d23837bc1510a3d11fba343343b5d6e2f349fce5c16fe163"
-metafile = true
-
-[[files]]
-file = "resourcepacks/ae-dark-ui-multi-module.pw.toml"
-hash = "f844ea031f28f0d16de21b432212cf0c195ee02cec8c038d392983e317563872"
-metafile = true
-
-[[files]]
-file = "resourcepacks/ae-light-ui-multi-module.pw.toml"
-hash = "bfb0fef1d27ae39cb39a429cc901107487b99b2b2f84105f61e3abe81a663c94"
 metafile = true

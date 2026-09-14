@@ -1,13 +1,13 @@
 name = "Spice of Life: Classic Edition"
-filename = "spiceoflife_classic-forge-2.11.jar"
+filename = "spiceoflife_classic-forge-2.13.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "cb4e977a9db9bb1e641003cd7042e77b5c3abcd6"
+hash = "d0ed921636aba3c8a235e14187747dce8300f88c"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 7779893
+file-id = 8832188
 project-id = 1109288
