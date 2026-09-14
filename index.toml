@@ -1661,24 +1661,36 @@ file = "config/titanium/titanium-tags.toml"
 hash = "8fadd07a5dde860f414cd731c04147c4c4f11c30aa87274eb53e0c287081db29"
 
 [[files]]
-file = "config/xaerominimap-common.txt"
-hash = "4f26b9cca5338a5dc063178e2498c9691dc3f1c221da1445b9046826fe882f2c"
+file = "config/xaero/lib/common.cfg"
+hash = "82b008e200d962d65caa845b3c9c4b9319adffac66a6568145f58f3a0a7ab32f"
 
 [[files]]
-file = "config/xaerominimap.txt"
-hash = "b76713833a541a17880cee2880885dae68e0126f131d031d0c6f2e553e7e16c8"
+file = "config/xaero/minimap/client.cfg"
+hash = "80c77d2c2882d29b5ae19be7588b19fd6e9ef6ef1a9b66feda121bde76943263"
 
 [[files]]
-file = "config/xaeropatreon.txt"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+file = "config/xaero/minimap/common.cfg"
+hash = "3d797674c3b040f73ddfc00926f0e00fbee0fd8ce310b36a5623b858210f70d3"
 
 [[files]]
-file = "config/xaeroworldmap-common.txt"
-hash = "8abee45d798c29c051e19945ea5c0868a7f492423526c18db4aa80cc0e151acb"
+file = "config/xaero/minimap/profiles/default.cfg"
+hash = "ed109b78a6fd2620ab2a439f974d188180e1de64e93e4297f80398ee9ca892ec"
 
 [[files]]
-file = "config/xaeroworldmap.txt"
-hash = "88a98eba9c51c27ff62a5746bb6c2b0320d3153a6620342cd79815cb9972706c"
+file = "config/xaero/world-map/client.cfg"
+hash = "33bcf15d5706daf090323b03c16e357c44bdb8e5f29a2f65ef839316b6e94c5f"
+
+[[files]]
+file = "config/xaero/world-map/common.cfg"
+hash = "e9bc7f87e112872f3d9043a8094c2dbed47ce5adcc0f7fb9d70aebd361e2e131"
+
+[[files]]
+file = "config/xaero/world-map/profiles/default.cfg"
+hash = "5a0ce3ed4abd3c692291d13a07a9ec8b919c9bf1c656d3d9229696ae78419cf6"
+
+[[files]]
+file = "config/xaerohud.txt"
+hash = "7c058c11719bb4109a8e9d467581fce690abeca203b6aa89e576bdf7de45697e"
 
 [[files]]
 file = "defaultconfigs/champions-entities.toml"
