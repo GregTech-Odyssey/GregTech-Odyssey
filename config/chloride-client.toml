@@ -1,0 +1,193 @@
+# Chloride client settings, organized by feature
+# Hides non-performance pages and options from the Sodium settings screen (for modpack makers)
+modpackMode = true
+
+[fullscreen]
+  # Fullscreen and borderless window behavior
+  # Window mode applied at boot and by the fullscreen option
+  # Accepted values are: [WINDOWED, BORDERLESS, FULLSCREEN]
+  mode = "WINDOWED"
+
+  # Adds 1px to the borderless window height, avoiding driver-level exclusive fullscreen optimizations
+  disableBorderlessOptimizations = false
+
+  # Which window modes the F11 key cycles through
+  # Accepted values are: [ATTACH, REPLACE, OFF]
+  attachModeF11 = "ATTACH"
+
+[fpsDisplay]
+  # FPS and system details overlay
+  # Accepted values are: [OFF, SIMPLE, ADVANCED]
+  mode = "ADVANCED"
+
+  # Accepted values are: [LEFT, CENTER, RIGHT]
+  align = "LEFT"
+
+  # Accepted values are: [TOP, CENTER, BOTTOM]
+  verticalAlign = "TOP"
+
+  # Accepted values are: [OFF, ALL, GPU_ONLY, RAM_ONLY]
+  systemDetails = "OFF"
+
+  # Value must be greater than 0
+  margin = 12
+
+  # Value must be greater than 0
+  verticalMargin = 12
+  shadow = false
+
+[fog]
+  # Fog rendering and the sky blue band
+  enabled = true
+  onOverworld = true
+  onNether = true
+  onEnd = true
+  blueBand = true
+
+  # Overrides vanilla fog with the start/end/shape values below
+  custom = false
+
+  # Value must be less than '1000' and greater than '-1000'
+  start = 0
+
+  # Value must be less than '10000' and greater than '100'
+  end = 192
+
+  # Accepted values are: [SPHERE, CYLINDER]
+  shape = "CYLINDER"
+
+[world]
+  # World rendering tweaks
+  # Value must be less than '364' and greater than '64'
+  cloudsHeight = 192
+
+  # Accepted values are: [OFF, FAST, SLOW]
+  chunkFadeSpeed = "SLOW"
+
+  # Accepted values are: [ALL, OFF]
+  leavesCulling = "ALL"
+
+  # Y level where the dark below-horizon void plane starts rendering; 63 keeps vanilla behavior, lower it to remove the dark sky band at low heights
+  # Value must be less than '256' and greater than '-64'
+  lowerVoidHorizon = 63
+
+  # Keeps the skybox from clipping on very low render distances by enforcing a minimum sky far-plane
+  farSkybox = true
+
+[nametags]
+  # Nametag rendering toggles
+  entities = true
+  players = true
+  items = true
+
+[darkness]
+  # True darkness feature
+  # Accepted values are: [VANILLA, DIM, DARK, DARKNESS, BLACK, BLACKNESS]
+  mode = "VANILLA"
+  onOverworld = true
+  onNether = false
+
+  # Value must be less than '1.0' and greater than '0.0'
+  netherFogBright = 0.5
+  onEnd = false
+
+  # Value must be less than '1.0' and greater than '0.0'
+  endFogBright = 0.5
+
+  # Apply darkness on modded dimensions not present in the whitelist below
+  byDefault = false
+
+  # Allows empty arrays
+  # Array size must be greater 2147483647
+  dimensionWhitelist = []
+  onNoSkyLight = false
+  blockLightOnly = false
+  affectedByMoonPhase = true
+
+  # Value must be less than '1.0' and greater than '0.0'
+  newMoonBright = 0.0
+
+  # Value must be less than '1.0' and greater than '0.0'
+  fullMoonBright = 0.25
+
+[interface]
+  # Interface and HUD tweaks
+  # Hides the JEI/REI/EMI ingredient overlay until the search field is focused
+  hideJREMI = false
+  hideJREMIHint = false
+  fontShadows = true
+  fastLanguageReload = true
+
+[fastBlocks]
+  # Renders chests and beds as simple static block models
+  chests = false
+  beds = false
+
+[particles]
+  # Particle toggles
+  rain = true
+  rainDrops = true
+  blockCracking = true
+  blockDestroyed = true
+
+  # Particle ids fully disabled; 'modid:all' disables a whole namespace
+  # Allows empty arrays
+  # Array size must be greater 2147483647
+  disabled = []
+
+[culling]
+  # Entity and tile-entity distance culling
+  tileEntities = true
+
+  # Squared horizontal distance in blocks
+  # Value must be less than '16384' and greater than '0'
+  tileEntityDistanceX = 4096
+
+  # Value must be less than '256' and greater than '0'
+  tileEntityDistanceY = 32
+  entities = true
+
+  # Maximum rendered entities; 512 disables the limit
+  # Value must be less than '512' and greater than '0'
+  entityLimit = 512
+
+  # Squared horizontal distance in blocks
+  # Value must be less than '16384' and greater than '0'
+  entityDistanceX = 4096
+
+  # Value must be less than '256' and greater than '0'
+  entityDistanceY = 32
+  monsters = true
+
+  # Squared horizontal distance in blocks
+  # Value must be less than '16384' and greater than '0'
+  monsterDistanceX = 16384
+
+  # Value must be less than '256' and greater than '0'
+  monsterDistanceY = 64
+
+  # Entities never culled; 'modid:all' matches a whole namespace
+  # Allows empty arrays
+  # Array size must be greater 2147483647
+  entityWhitelist = [
+    "minecraft:ghast",
+    "minecraft:ender_dragon"
+  ]
+
+  # Allows empty arrays
+  # Array size must be greater 2147483647
+  monsterWhitelist = [
+    "minecraft:ghast",
+    "minecraft:ender_dragon"
+  ]
+
+  # Allows empty arrays
+  # Array size must be greater 2147483647
+  tileEntityWhitelist = []
+
+[zoom]
+  # Zoom keybind
+  enabled = false
+
+  # Value must be less than '100.0' and greater than '1.0'
+  max = 50.0

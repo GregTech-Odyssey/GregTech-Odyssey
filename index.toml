@@ -61,12 +61,8 @@ file = "config/badoptimizations.txt"
 hash = "50bd6fb779a216ba87254a6cec89d648eefffeb415321350a4b497d1b73baaba"
 
 [[files]]
-file = "config/biomeswevegone/world_generation.json5"
-hash = "75705e2d31f41e63a5cad551ce9cb88c30e80fdbbba0fd9034e6449e91da9132"
-
-[[files]]
-file = "config/chloride-client.json"
-hash = "cf73eaf4c623f1328d463df6255e6753c4aeafbb27e04479088d09a1f264ba05"
+file = "config/chloride-client.toml"
+hash = "11c1e9dafba3961e121c1bfa4923414879ecad915f617e17cc6b1fad028161c6"
 
 [[files]]
 file = "config/defaultoptions/keybindings.txt"
@@ -209,8 +205,8 @@ file = "config/fancymenu/user_variables.db"
 hash = "3d7d4cda73d6bde134a568ccbe4e8d2e7fbe701570012b71fa45acdb2258c823"
 
 [[files]]
-file = "config/fast_recipe_search.properties"
-hash = "20c1664590da836b88e9bb686d51633188802a32bb27542667fb91eae2377f84"
+file = "config/fast_recipe_search.toml"
+hash = "b7e326f3da688ba28e5110628b9db9f434810b85c08d913a45c5099778c70550"
 
 [[files]]
 file = "config/fastbench.cfg"
@@ -2229,12 +2225,12 @@ hash = "6e684fd47c5ec5a28d3be00e6ecb0e5491f764f15e138e3d8fe8bd7a1da04b55"
 metafile = true
 
 [[files]]
-file = "mods/gtocore-forge-1.20.1-26.8.3-techtree.jar"
-hash = "7cfeb2eb3fbf8abd40ece51bab7867d490e768e1b29ba5cf6372a9fb68e848f6"
+file = "mods/gto-seal-runtime-1.0.jar"
+hash = "3f24879367a544203226d311f7bc0eb6996268a25fbea8871b87f0c1b00e90d3"
 
 [[files]]
-file = "mods/gtonativelib-1.0.jar"
-hash = "1ae9c9160598253c4cc903d2149e4fadc2317b36741d254e5bfe23dc7f64bc03"
+file = "mods/gtocore-forge-1.20.1-26.8.3-techtree.jar"
+hash = "3dc9958399ea58ba2d59f0a4f144ad69a448b53a5dbd8b833b8fc59d4e7ca1e9"
 
 [[files]]
 file = "mods/guideme.pw.toml"

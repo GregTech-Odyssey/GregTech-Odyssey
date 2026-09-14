@@ -67,7 +67,7 @@
               rm -rf "$out/config/ftbquests/quests"
               cp -r .github/localization/quests "$out/config/ftbquests/quests"
 
-              cp mods/gtocore-*.jar mods/gtonativelib-*.jar "$out/mods"
+              cp mods/gtocore-*.jar mods/gto-seal-runtime-*.jar "$out/mods"
               cp LICENSE.txt .github/server/README-SERVER.md \
                 .github/server/install-mods.bat "$out"
               cp .github/server/install-mods.sh "$out/install-mods.sh"

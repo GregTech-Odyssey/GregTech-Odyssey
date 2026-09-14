@@ -1,0 +1,27 @@
+# Master switch for this mod's optimizations.
+## When disabled, the mod functions as a library without game modifications.
+enable = true
+# Optimizes ingredient synchronization to improve client-side search performance.
+## May be incompatible with some mods.
+ingredient_sync = true
+
+[optimize_type]
+	# Scope of recipe types to optimize: all | vanilla | whitelist | blacklist
+	## all: Optimize all recipe types
+	## vanilla: Only optimize vanilla recipe types (crafting table, furnace, etc.)
+	## whitelist: Only optimize the recipe types listed in optimize_type.whitelist
+	## blacklist: Optimize all recipe types except those listed in optimize_type.blacklist
+	mode = "all"
+	# Recipe type ids, e.g. "minecraft:crafting"
+	whitelist = []
+	# Recipe type ids, e.g. "some_mod:custom_type"
+	blacklist = []
+
+[recipe_class]
+	# Scope of recipe classes to index: all | vanilla | whitelist | blacklist
+	## Vanilla classes (net.minecraft.world.item.crafting.*) are never filtered unless blacklisted.
+	mode = "all"
+	# Class names, or package prefixes ending with '.'
+	whitelist = []
+	# Class names, or package prefixes ending with '.'
+	blacklist = []
