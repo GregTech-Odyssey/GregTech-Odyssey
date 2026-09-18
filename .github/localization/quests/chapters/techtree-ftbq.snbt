@@ -1,0 +1,2894 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "techtree-ftbq"
+	group: ""
+	hide_quest_until_deps_complete: true
+	id: "1323D8DA6C6E131C"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			id: "684CFDBD5CD0E697"
+			tasks: [{
+				id: "38776D43F5BB61CD"
+				item: "gtceu:active_transformer"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			id: "2520DA0D16318893"
+			tasks: [{
+				id: "58C60A0D2A3E5DB7"
+				item: "gtceu:data_bank"
+				type: "item"
+			}]
+			x: 2.58d
+			y: -3.05d
+		}
+		{
+			dependencies: ["2520DA0D16318893"]
+			id: "729E3D5197E96648"
+			tasks: [
+				{
+					id: "416D19589AD91E80"
+					item: "gtceu:high_performance_computation_array"
+					type: "item"
+				}
+				{
+					id: "17D73E8889D77CCF"
+					item: "gtceu:network_switch"
+					type: "item"
+				}
+				{
+					id: "6E122E7971538EC7"
+					item: "gtocore:computational_data_holder"
+					type: "item"
+				}
+			]
+			x: 5.41d
+			y: -5.25d
+		}
+		{
+			id: "3A8F5DDC4A83ED9B"
+			tasks: [{
+				id: "5040190F5BA5F88C"
+				item: "gtocore:neutron_irradiation_hatch"
+				type: "item"
+			}]
+			x: -3.05d
+			y: -4.14d
+		}
+		{
+			dependencies: ["2520DA0D16318893"]
+			id: "2CC17D465C837163"
+			tasks: [
+				{
+					id: "0FD4ABFB50B40162"
+					item: "gtceu:advanced_data_access_hatch"
+					type: "item"
+				}
+				{
+					id: "1D7ACF2CD995F05F"
+					item: "gtocore:data_center"
+					type: "item"
+				}
+			]
+			x: 3.52d
+			y: -4.7d
+		}
+		{
+			id: "443C8E95BA53B37D"
+			tasks: [
+				{
+					id: "106E124FDA41B646"
+					item: "gtocore:enriched_naquadah_trinium_europium_duranide_superconductor_base"
+					type: "item"
+				}
+				{
+					id: "7FFAE69C04CB5304"
+					item: "gtocore:ruthenium_trinium_americium_neutronate_superconductor_base"
+					type: "item"
+				}
+				{
+					id: "17C3854EACEFCF99"
+					item: "gtocore:uranium_rhodium_dinaquadide_superconductor_base"
+					type: "item"
+				}
+			]
+			x: -2.34d
+			y: -2.38d
+		}
+		{
+			dependencies: [
+				"3A8F5DDC4A83ED9B"
+				"443C8E95BA53B37D"
+			]
+			id: "058FF67593A3C675"
+			tasks: [{
+				id: "1CB48093BF3F3A19"
+				item: "gtceu:luv_fusion_reactor"
+				type: "item"
+			}]
+			x: -4.71d
+			y: -3.15d
+		}
+		{
+			dependencies: ["684CFDBD5CD0E697"]
+			id: "1F2CEF8BC0A0EA35"
+			tasks: [
+				{
+					id: "0FDB277AD29D7E22"
+					item: "gtceu:object_holder"
+					type: "item"
+				}
+				{
+					id: "173CA4EC33A4A685"
+					item: "gtocore:dataunit_scanning_station"
+					type: "item"
+				}
+				{
+					id: "6FE8E1D1CE1F89AA"
+					item: "gtocore:research_holder"
+					type: "item"
+				}
+				{
+					id: "332FC5B7050C6B37"
+					item: "gtceu:research_station"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -4.5d
+		}
+		{
+			id: "29AC50D0D2F038CE"
+			tasks: [
+				{
+					id: "4B0E705FE9ED99B3"
+					item: "gtocore:thermodynamic_data_holder"
+					type: "item"
+				}
+				{
+					id: "1799A5257EB14B3A"
+					item: "gtocore:thermodynamic_analysis_platform"
+					type: "item"
+				}
+			]
+			x: -9.51d
+			y: 10.51d
+		}
+		{
+			id: "57C1AE22A57A3A67"
+			tasks: [
+				{
+					id: "43D1616F9B5C3692"
+					item: "gtceu:me_pattern_buffer"
+					type: "item"
+				}
+				{
+					id: "2343DB12F1CA5CA9"
+					item: "gtceu:me_pattern_buffer_proxy"
+					type: "item"
+				}
+				{
+					id: "00E42D83E032BDE9"
+					item: "gtocore:me_requestable_input_hatch_machine"
+					type: "item"
+				}
+				{
+					id: "5479145A03CFD363"
+					item: "gtocore:me_requestable_input_bus_machine"
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 2.11d
+		}
+		{
+			dependencies: ["57C1AE22A57A3A67"]
+			id: "198C6AFFDB9CFAD1"
+			tasks: [
+				{
+					id: "3F92D5263C2BBCC8"
+					item: "gtocore:me_craft_pattern_part_machine"
+					type: "item"
+				}
+				{
+					id: "3A543C75720CA19D"
+					item: "gtocore:super_molecular_assembler"
+					type: "item"
+				}
+			]
+			x: -4.35d
+			y: 3.44d
+		}
+		{
+			dependencies: ["57C1AE22A57A3A67"]
+			id: "7373A5C5010AB304"
+			tasks: [
+				{
+					id: "2A011D68B0D6BEF0"
+					item: "gtocore:me_extend_pattern_buffer"
+					type: "item"
+				}
+				{
+					id: "3C1033201F85D0C9"
+					item: "gtocore:me_extend_pattern_buffer_ultra"
+					type: "item"
+				}
+			]
+			x: -8.06d
+			y: 4.58d
+		}
+		{
+			dependencies: ["57C1AE22A57A3A67"]
+			id: "419F15C71440490A"
+			tasks: [{
+				id: "6D3DF05DD5ABD5BB"
+				item: "gtocore:me_catalyst_pattern_buffer"
+				type: "item"
+			}]
+			x: -5.78d
+			y: 2.2d
+		}
+		{
+			dependencies: ["57C1AE22A57A3A67"]
+			id: "4366D19B40BAEDCD"
+			tasks: [
+				{
+					id: "05FB34AF13391C7A"
+					item: "gtocore:me_input_buffer_part_machine"
+					type: "item"
+				}
+				{
+					id: "22EA2A3AD7BA156C"
+					item: "gtocore:me_wildcard_pattern_buffer"
+					type: "item"
+				}
+			]
+			x: -7.6d
+			y: 2.66d
+		}
+		{
+			dependencies: ["57C1AE22A57A3A67"]
+			id: "3AB1851C5C23D481"
+			tasks: [{
+				id: "77590C8FC6D4B875"
+				item: "gtocore:me_muffler_hatch"
+				type: "item"
+			}]
+			x: -6.15d
+			y: 4.1d
+		}
+		{
+			id: "7E7C109E50023B4E"
+			tasks: [
+				{
+					id: "4CAB16BDC4A72B83"
+					item: "gtceu:luv_electric_motor"
+					type: "item"
+				}
+				{
+					id: "349ADE1D8037591E"
+					item: "gtceu:luv_electric_pump"
+					type: "item"
+				}
+				{
+					id: "370DDBA3DC901905"
+					item: "gtceu:luv_fluid_regulator"
+					type: "item"
+				}
+				{
+					id: "7649C1726F1BDDA4"
+					item: "gtceu:luv_conveyor_module"
+					type: "item"
+				}
+				{
+					id: "0A940D11459D68A9"
+					item: "gtceu:luv_electric_piston"
+					type: "item"
+				}
+				{
+					id: "7AD3F2CBE98B6111"
+					item: "gtceu:luv_robot_arm"
+					type: "item"
+				}
+				{
+					id: "4BA07254C7EA94A7"
+					item: "gtceu:luv_field_generator"
+					type: "item"
+				}
+				{
+					id: "7C0E5438B925C1BE"
+					item: "gtceu:luv_emitter"
+					type: "item"
+				}
+				{
+					id: "1552713EF5D4D652"
+					item: "gtceu:luv_sensor"
+					type: "item"
+				}
+			]
+			x: 3.25d
+			y: -1.24d
+		}
+		{
+			dependencies: ["7E7C109E50023B4E"]
+			id: "37DF18FA349243A6"
+			tasks: [{
+				id: "0F4EC875A9138F0C"
+				item: "gtocore:component_assembly_line_casing_luv"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7E7C109E50023B4E"]
+			id: "0CAC73E45040D307"
+			tasks: [
+				{
+					id: "5A76DC0E6480D872"
+					item: "gtceu:zpm_electric_motor"
+					type: "item"
+				}
+				{
+					id: "234C9A163C61487E"
+					item: "gtceu:zpm_electric_pump"
+					type: "item"
+				}
+				{
+					id: "17222457610B28FF"
+					item: "gtceu:zpm_fluid_regulator"
+					type: "item"
+				}
+				{
+					id: "7EBE7397B3543C63"
+					item: "gtceu:zpm_conveyor_module"
+					type: "item"
+				}
+				{
+					id: "3B2458914DBE5CE8"
+					item: "gtceu:zpm_electric_piston"
+					type: "item"
+				}
+				{
+					id: "0285CD513837A122"
+					item: "gtceu:zpm_robot_arm"
+					type: "item"
+				}
+				{
+					id: "65F767FDDA4CA0F7"
+					item: "gtceu:zpm_field_generator"
+					type: "item"
+				}
+				{
+					id: "75F3673D82E9AED3"
+					item: "gtceu:zpm_emitter"
+					type: "item"
+				}
+				{
+					id: "7A1088D91139F490"
+					item: "gtceu:zpm_sensor"
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"37DF18FA349243A6"
+				"0CAC73E45040D307"
+			]
+			id: "795FB6AF953380A2"
+			tasks: [{
+				id: "4896F73B2E3BE894"
+				item: "gtocore:component_assembly_line_casing_zpm"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0CAC73E45040D307"]
+			id: "22DB281AF5D5744F"
+			tasks: [
+				{
+					id: "78FC34ABFE5AF48D"
+					item: "gtceu:uv_electric_motor"
+					type: "item"
+				}
+				{
+					id: "3F6A204965010A9C"
+					item: "gtceu:uv_electric_pump"
+					type: "item"
+				}
+				{
+					id: "249F020E502D1A55"
+					item: "gtceu:uv_fluid_regulator"
+					type: "item"
+				}
+				{
+					id: "611C87A384A09091"
+					item: "gtceu:uv_conveyor_module"
+					type: "item"
+				}
+				{
+					id: "2179EA4DCACDA244"
+					item: "gtceu:uv_electric_piston"
+					type: "item"
+				}
+				{
+					id: "22B8946C9C87A711"
+					item: "gtceu:uv_robot_arm"
+					type: "item"
+				}
+				{
+					id: "44C6DCE2937FE361"
+					item: "gtceu:uv_field_generator"
+					type: "item"
+				}
+				{
+					id: "0CA075A7C4A49FFE"
+					item: "gtceu:uv_emitter"
+					type: "item"
+				}
+				{
+					id: "0626C496599C481B"
+					item: "gtceu:uv_sensor"
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"795FB6AF953380A2"
+				"22DB281AF5D5744F"
+			]
+			id: "0A4577535AFF0838"
+			tasks: [{
+				id: "3C175768FB322314"
+				item: "gtocore:component_assembly_line_casing_uv"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["22DB281AF5D5744F"]
+			id: "5E7993AB88148981"
+			tasks: [
+				{
+					id: "3C61D0D57A8D9D1F"
+					item: "gtceu:uhv_electric_motor"
+					type: "item"
+				}
+				{
+					id: "06926F09D42A8D41"
+					item: "gtceu:uhv_electric_pump"
+					type: "item"
+				}
+				{
+					id: "79069C5EE71EF061"
+					item: "gtceu:uhv_fluid_regulator"
+					type: "item"
+				}
+				{
+					id: "7FFE54EBAF0E11C9"
+					item: "gtceu:uhv_conveyor_module"
+					type: "item"
+				}
+				{
+					id: "2766AF9030AD650E"
+					item: "gtceu:uhv_electric_piston"
+					type: "item"
+				}
+				{
+					id: "2078BE6B56C3E7BB"
+					item: "gtceu:uhv_robot_arm"
+					type: "item"
+				}
+				{
+					id: "08C7455E5F9355D9"
+					item: "gtceu:uhv_field_generator"
+					type: "item"
+				}
+				{
+					id: "22CA7F7F05492719"
+					item: "gtceu:uhv_emitter"
+					type: "item"
+				}
+				{
+					id: "331DB3F1699DB27A"
+					item: "gtceu:uhv_sensor"
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"5E7993AB88148981"
+				"0A4577535AFF0838"
+			]
+			id: "5A7BC63330F441E1"
+			tasks: [{
+				id: "3E0A7355C242774F"
+				item: "gtocore:component_assembly_line_casing_uhv"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5E7993AB88148981"]
+			id: "13B6A52854C5CD98"
+			tasks: [
+				{
+					id: "22BDD7C66765800C"
+					item: "gtceu:uev_electric_motor"
+					type: "item"
+				}
+				{
+					id: "64948D1844A74A9A"
+					item: "gtceu:uev_electric_pump"
+					type: "item"
+				}
+				{
+					id: "0A5BEFF740AF20CD"
+					item: "gtceu:uev_fluid_regulator"
+					type: "item"
+				}
+				{
+					id: "6667FA7ABA1DAECE"
+					item: "gtceu:uev_conveyor_module"
+					type: "item"
+				}
+				{
+					id: "4B0B0D21FF47C81E"
+					item: "gtceu:uev_electric_piston"
+					type: "item"
+				}
+				{
+					id: "061165B1B1AC9614"
+					item: "gtceu:uev_robot_arm"
+					type: "item"
+				}
+				{
+					id: "4E76D30EB184F2AE"
+					item: "gtceu:uev_field_generator"
+					type: "item"
+				}
+				{
+					id: "6A7F99EA1CFD14D1"
+					item: "gtceu:uev_emitter"
+					type: "item"
+				}
+				{
+					id: "58DAB48A4E35F566"
+					item: "gtceu:uev_sensor"
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"5A7BC63330F441E1"
+				"13B6A52854C5CD98"
+			]
+			id: "1E45FC2448974E49"
+			tasks: [{
+				id: "14C7EDAC529A209A"
+				item: "gtocore:component_assembly_line_casing_uev"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["13B6A52854C5CD98"]
+			id: "4745B81A8C766397"
+			tasks: [
+				{
+					id: "35408C0E48C20B54"
+					item: "gtceu:uiv_electric_motor"
+					type: "item"
+				}
+				{
+					id: "500B4FAF39E68796"
+					item: "gtceu:uiv_electric_pump"
+					type: "item"
+				}
+				{
+					id: "7C9ED9DC1392D9F9"
+					item: "gtceu:uiv_fluid_regulator"
+					type: "item"
+				}
+				{
+					id: "115A085117CA026C"
+					item: "gtceu:uiv_conveyor_module"
+					type: "item"
+				}
+				{
+					id: "2DB13063F406840C"
+					item: "gtceu:uiv_electric_piston"
+					type: "item"
+				}
+				{
+					id: "61F5554388F0C1AA"
+					item: "gtceu:uiv_robot_arm"
+					type: "item"
+				}
+				{
+					id: "09B08B5B5F742B7F"
+					item: "gtceu:uiv_field_generator"
+					type: "item"
+				}
+				{
+					id: "49FDBF7A144D05E9"
+					item: "gtceu:uiv_emitter"
+					type: "item"
+				}
+				{
+					id: "2C69431618B58AD5"
+					item: "gtceu:uiv_sensor"
+					type: "item"
+				}
+			]
+			x: 13.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"4745B81A8C766397"
+				"1E45FC2448974E49"
+			]
+			id: "177F6B00103A312E"
+			tasks: [{
+				id: "395AC50E00410EAB"
+				item: "gtocore:component_assembly_line_casing_uiv"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4745B81A8C766397"]
+			id: "336255D511A19CF5"
+			tasks: [
+				{
+					id: "5EEEF865D09C4898"
+					item: "gtceu:uxv_electric_motor"
+					type: "item"
+				}
+				{
+					id: "1AF0ECBFC57F7DB0"
+					item: "gtceu:uxv_electric_pump"
+					type: "item"
+				}
+				{
+					id: "314C4D5B9EAFB43A"
+					item: "gtceu:uxv_fluid_regulator"
+					type: "item"
+				}
+				{
+					id: "45E0CEF2321297A7"
+					item: "gtceu:uxv_conveyor_module"
+					type: "item"
+				}
+				{
+					id: "628D41465E910071"
+					item: "gtceu:uxv_electric_piston"
+					type: "item"
+				}
+				{
+					id: "1C9A15290D825AD7"
+					item: "gtceu:uxv_robot_arm"
+					type: "item"
+				}
+				{
+					id: "04C0C8363B03CB83"
+					item: "gtceu:uxv_field_generator"
+					type: "item"
+				}
+				{
+					id: "1F19B1FC6AAC6AE6"
+					item: "gtceu:uxv_emitter"
+					type: "item"
+				}
+				{
+					id: "3D66DF1C578B61CA"
+					item: "gtceu:uxv_sensor"
+					type: "item"
+				}
+			]
+			x: 15.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"336255D511A19CF5"
+				"177F6B00103A312E"
+			]
+			id: "6BD80ADF597602EF"
+			tasks: [{
+				id: "6C075129EA9973F0"
+				item: "gtocore:component_assembly_line_casing_uxv"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["336255D511A19CF5"]
+			id: "283FED1A80405DF7"
+			tasks: [
+				{
+					id: "163AADB9ED3F37AD"
+					item: "gtceu:opv_electric_motor"
+					type: "item"
+				}
+				{
+					id: "01780753EB2E7E19"
+					item: "gtceu:opv_electric_pump"
+					type: "item"
+				}
+				{
+					id: "4E8F1D25CA77747D"
+					item: "gtceu:opv_fluid_regulator"
+					type: "item"
+				}
+				{
+					id: "1127C3F312027885"
+					item: "gtceu:opv_conveyor_module"
+					type: "item"
+				}
+				{
+					id: "1CE4B5993332A990"
+					item: "gtceu:opv_electric_piston"
+					type: "item"
+				}
+				{
+					id: "656971CFE17681FF"
+					item: "gtceu:opv_robot_arm"
+					type: "item"
+				}
+				{
+					id: "5E23C2FF171D1A3E"
+					item: "gtceu:opv_field_generator"
+					type: "item"
+				}
+				{
+					id: "320EF8CE5EEF313F"
+					item: "gtceu:opv_emitter"
+					type: "item"
+				}
+				{
+					id: "19240EE777551962"
+					item: "gtceu:opv_sensor"
+					type: "item"
+				}
+			]
+			x: 16.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["283FED1A80405DF7"]
+			id: "6CB54116B8E5EDB2"
+			tasks: [
+				{
+					id: "7AC5EC133C429929"
+					item: "gtocore:max_electric_motor"
+					type: "item"
+				}
+				{
+					id: "30978CF1379EAD52"
+					item: "gtocore:max_electric_pump"
+					type: "item"
+				}
+				{
+					id: "7967DA695AAEFA96"
+					item: "gtocore:max_conveyor_module"
+					type: "item"
+				}
+				{
+					id: "3C6F2A0A5AD57F89"
+					item: "gtocore:max_robot_arm"
+					type: "item"
+				}
+				{
+					id: "5C307BF30CBE70FE"
+					item: "gtocore:max_field_generator"
+					type: "item"
+				}
+				{
+					id: "234B392553E2CD22"
+					item: "gtocore:max_emitter"
+					type: "item"
+				}
+				{
+					id: "66923B919942C869"
+					item: "gtocore:max_sensor"
+					type: "item"
+				}
+				{
+					id: "449E22DDE6ACC90D"
+					item: "gtocore:max_electric_piston"
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"6BD80ADF597602EF"
+				"283FED1A80405DF7"
+			]
+			id: "1BA15A376FC7DEC5"
+			tasks: [{
+				id: "26C479824E3E3F8B"
+				item: "gtocore:component_assembly_line_casing_opv"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"6CB54116B8E5EDB2"
+				"1BA15A376FC7DEC5"
+			]
+			id: "623247C3FE8E00FA"
+			tasks: [{
+				id: "5558DC3AF24494A7"
+				item: "gtocore:component_assembly_line_casing_max"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7E7C109E50023B4E"]
+			id: "4D25ED77C4092086"
+			tasks: [{
+				id: "3E2DABCD596A2F17"
+				item: "gtceu:crystal_processor_mainframe"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["729E3D5197E96648"]
+			id: "6861B937637878A1"
+			tasks: [
+				{
+					id: "2AAA09771828A524"
+					item: "gtocore:data_form_testing_me_interface"
+					type: "item"
+				}
+				{
+					id: "4ED39D3D46A31364"
+					item: "gtocore:data_form_testing_plant"
+					type: "item"
+				}
+				{
+					id: "336C6C528ACC03D9"
+					item: "gtocore:storage_data_holder"
+					type: "item"
+				}
+			]
+			x: 4.29d
+			y: -6.86d
+		}
+		{
+			id: "0AAAA50B311CC383"
+			tasks: [
+				{
+					id: "20421028B3443660"
+					item: "gtocore:large_void_miner"
+					type: "item"
+				}
+				{
+					id: "3C0D229FB4926270"
+					item: "gtocore:void_fluid_drilling_rig"
+					type: "item"
+				}
+			]
+			x: -1.14d
+			y: -3.85d
+		}
+		{
+			dependencies: ["058FF67593A3C675"]
+			id: "64BCC130B8E83D5E"
+			tasks: [{
+				id: "76A740021335726A"
+				item: "gtceu:zpm_fusion_reactor"
+				type: "item"
+			}]
+			x: -5.94d
+			y: -4.75d
+		}
+		{
+			id: "6DB481BE85624542"
+			tasks: [
+				{
+					id: "521017BD6FE7FCF2"
+					item: "gtceu:wetware_processor_computer"
+					type: "item"
+				}
+				{
+					id: "1A169E41DE7E1CB1"
+					item: "gtceu:wetware_processor_mainframe"
+					type: "item"
+				}
+			]
+			x: -3.64d
+			y: -1.01d
+		}
+		{
+			dependencies: ["729E3D5197E96648"]
+			id: "21D520AC6F31B705"
+			tasks: [{
+				id: "5035FBCAA8ECEA8C"
+				item: "gtocore:virtual_coin_miner"
+				type: "item"
+			}]
+			x: 7.15d
+			y: -4.53d
+		}
+		{
+			dependencies: ["684CFDBD5CD0E697"]
+			id: "29DAE8B638A089A5"
+			tasks: [
+				{
+					id: "7A013D1174E822D9"
+					item: "gtocore:adjustable_semi_reflector"
+					type: "item"
+				}
+				{
+					id: "2688CBA4B5D53387"
+					item: "gtocore:beam_access_hatch"
+					type: "item"
+				}
+				{
+					id: "1A9CF26F3C4D1585"
+					item: "gtocore:beam_redirector"
+					type: "item"
+				}
+				{
+					id: "6EFF944F961DB789"
+					item: "gtocore:excitation_crystal"
+					type: "item"
+				}
+				{
+					id: "277D7D1BC5F3F906"
+					item: "gtocore:laser_computation_testing_platform"
+					type: "item"
+				}
+				{
+					id: "6D87AC58BC37CE21"
+					item: "gtocore:optical_data_holder"
+					type: "item"
+				}
+				{
+					id: "2A745B0ECBA7DBB1"
+					item: "gtocore:ray_beam_polarizer"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["684CFDBD5CD0E697"]
+			id: "34AD686C0F6DB296"
+			tasks: [{
+				id: "77E36BEC18D920F9"
+				item: "gtocore:engraving_laser_plant"
+				type: "item"
+			}]
+			x: -1.86d
+			y: -0.3d
+		}
+		{
+			dependencies: ["6DB481BE85624542"]
+			id: "19A419145D7F4B3D"
+			tasks: [{
+				id: "335CB6B0111049FC"
+				item: "gtocore:bioware_processing_core"
+				type: "item"
+			}]
+			x: -5.56d
+			y: -1.42d
+		}
+		{
+			dependencies: ["3A8F5DDC4A83ED9B"]
+			id: "79CEAB4F2366EE36"
+			tasks: [
+				{
+					id: "37707CDC46A90AD9"
+					item: "gtocore:decay_hastener"
+					type: "item"
+				}
+				{
+					id: "15116538ADFDB45A"
+					item: "gtocore:super_particle_collider"
+					type: "item"
+				}
+			]
+			x: -4.22d
+			y: -5.64d
+		}
+		{
+			dependencies: ["729E3D5197E96648"]
+			id: "59CCDCD684419A75"
+			tasks: [{
+				id: "0654AA523FE2C4C4"
+				item: "gtocore:supercomputing_center"
+				type: "item"
+			}]
+			x: 5.75d
+			y: -8.18d
+		}
+		{
+			dependencies: ["19A419145D7F4B3D"]
+			id: "6434DB454A536B2B"
+			tasks: [{
+				id: "56A9249D43CAC07E"
+				item: "gtocore:bio_data_access_hatch"
+				type: "item"
+			}]
+			x: -8.16d
+			y: 0.84d
+		}
+		{
+			dependencies: ["64BCC130B8E83D5E"]
+			id: "18355A8D3E54EC9B"
+			tasks: [{
+				id: "04DE16EDB6427E4C"
+				item: "gtceu:uv_fusion_reactor"
+				type: "item"
+			}]
+			x: -7.88d
+			y: -4.46d
+		}
+		{
+			id: "20AFB02153616161"
+			tasks: [
+				{
+					id: "6FF71713D93B2B31"
+					item: "gtocore:chemical_plant"
+					type: "item"
+				}
+				{
+					id: "611D8FC19F586EE3"
+					item: "gtocore:catalysis_data_holder"
+					type: "item"
+				}
+			]
+			x: -7.69d
+			y: 11.4d
+		}
+		{
+			dependencies: ["7E7C109E50023B4E"]
+			id: "3560A988DEA48ED8"
+			tasks: [
+				{
+					id: "63EE103A33CC0390"
+					item: "gtocore:auto_configuration_maintenance_hatch"
+					type: "item"
+				}
+				{
+					id: "2D1E12E5C9A283C4"
+					item: "gtocore:modular_configuration_maintenance_hatch"
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: -2.97d
+		}
+		{
+			id: "45A1384CDC827E49"
+			tasks: [{
+				id: "411AFE440ADE0388"
+				item: "gtocore:iridium_casing"
+				type: "item"
+			}]
+			x: 1.84d
+			y: 0.54d
+		}
+		{
+			dependencies: ["7E7C109E50023B4E"]
+			id: "6C6F3DD71E695693"
+			tasks: [
+				{
+					id: "5B80F5CAA8EC6FBA"
+					item: "gtocore:isa_mill"
+					type: "item"
+				}
+				{
+					id: "68C289EE546BA1F5"
+					item: "gtocore:industrial_flotation_cell"
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["20AFB02153616161"]
+			id: "0D5457C83105CCBB"
+			tasks: [{
+				id: "5332BDBA22B784A9"
+				item: "gtocore:fuel_refining_complex"
+				type: "item"
+			}]
+			x: -7.56d
+			y: 13.7d
+		}
+		{
+			dependencies: ["45A1384CDC827E49"]
+			id: "7A57BCF8D94033DC"
+			tasks: [
+				{
+					id: "64D3F5D4E2A057BD"
+					item: "gtocore:containment_field_generator"
+					type: "item"
+				}
+				{
+					id: "486CD5EB4C7EBB89"
+					item: "gtocore:hollow_casing"
+					type: "item"
+				}
+				{
+					id: "2290689932B50322"
+					item: "gtocore:molecular_coil"
+					type: "item"
+				}
+			]
+			x: 2.2d
+			y: 3.96d
+		}
+		{
+			dependencies: ["7E7C109E50023B4E"]
+			id: "46F8421439073633"
+			tasks: [{
+				id: "138026F89C3BB7FE"
+				item: "gtocore:precision_assembler"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["46F8421439073633"]
+			id: "69D9C35021228C01"
+			tasks: [{
+				id: "3F63394DF22B2920"
+				item: "gtocore:advanced_assembly_line"
+				type: "item"
+			}]
+			x: 12.11d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"684CFDBD5CD0E697"
+				"45A1384CDC827E49"
+				"29DAE8B638A089A5"
+			]
+			id: "479044A4613E8CD0"
+			tasks: [{
+				id: "713B23B36E033A9E"
+				title: "{gto.techtree-ftbq.quests.479044A4613E8CD0.tasks.713B23B36E033A9E.title}"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["479044A4613E8CD0"]
+			id: "1662A58CAC6754AC"
+			tasks: [
+				{
+					id: "384E9ADD33BD9A8D"
+					item: "gtocore:hand_of_arachne"
+					type: "item"
+				}
+				{
+					id: "5F7F332BB4E15F31"
+					item: "gtocore:nanites_circuit_assembly_factory"
+					type: "item"
+				}
+				{
+					id: "6099888F8BAE5E92"
+					item: "gtocore:precision_assembly_center"
+					type: "item"
+				}
+				{
+					id: "30A3099C383497AE"
+					item: "gtocore:integrated_assembler"
+					type: "item"
+				}
+			]
+			x: -4.68d
+			y: 5.34d
+		}
+		{
+			dependencies: ["479044A4613E8CD0"]
+			id: "59DF6F7BF9B27802"
+			tasks: [
+				{
+					id: "0AAB383C8A58A6B4"
+					item: "gtocore:holy_separator"
+					type: "item"
+				}
+				{
+					id: "21F8353B79224A5D"
+					item: "gtocore:kerr_newman_homogenizer"
+					type: "item"
+				}
+				{
+					id: "338C057F2630015A"
+					item: "gtocore:mantle_crusher"
+					type: "item"
+				}
+				{
+					id: "2FB5B69F880F79A8"
+					item: "gtocore:molecular_oscillation_dehydrator"
+					type: "item"
+				}
+				{
+					id: "51EE902A00F86CF1"
+					item: "gtocore:nano_phagocytosis_plant"
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 3.96d
+		}
+		{
+			dependencies: ["479044A4613E8CD0"]
+			id: "49C2DE462DF727DD"
+			tasks: [
+				{
+					id: "54BEA2A96501EF8C"
+					item: "gtocore:high_energy_laser_lathe"
+					type: "item"
+				}
+				{
+					id: "288774897B758F56"
+					item: "gtocore:mega_wiremill"
+					type: "item"
+				}
+				{
+					id: "56A97A14BED85013"
+					item: "gtocore:neutronium_wire_cutting"
+					type: "item"
+				}
+			]
+			x: -3.05d
+			y: 6.31d
+		}
+		{
+			dependencies: ["479044A4613E8CD0"]
+			id: "3812256080BAD2D6"
+			tasks: [
+				{
+					id: "2C06AFF41CC8F9ED"
+					item: "gtocore:lightning_rod"
+					type: "item"
+				}
+				{
+					id: "4185493EB3DB89F6"
+					item: "gtocore:magnetic_energy_reaction_furnace"
+					type: "item"
+				}
+				{
+					id: "2CFD30DCE4B82050"
+					item: "gtocore:superconducting_magnetic_presser"
+					type: "item"
+				}
+			]
+			x: 0.12d
+			y: 6.75d
+		}
+		{
+			dependencies: ["479044A4613E8CD0"]
+			id: "0E68AACCC126CB23"
+			tasks: [
+				{
+					id: "6B05BAE8480A2429"
+					item: "gtocore:chemical_complex"
+					type: "item"
+				}
+				{
+					id: "18F18F70D7F64CEE"
+					item: "gtocore:compound_distillation_fractionator"
+					type: "item"
+				}
+				{
+					id: "01661EA1C510E5F7"
+					item: "gtocore:crystal_builder"
+					type: "item"
+				}
+				{
+					id: "7B39EFC3D36071B3"
+					item: "gtocore:dissolution_core"
+					type: "item"
+				}
+				{
+					id: "7681EF0BFAEB6181"
+					item: "gtocore:giant_electrochemical_workstation"
+					type: "item"
+				}
+				{
+					id: "28AE4F1E2BD05769"
+					item: "gtocore:giant_flotation_tank"
+					type: "item"
+				}
+				{
+					id: "5FF8C441C45B41D7"
+					item: "gtocore:high_temperature_reaction_hub"
+					type: "item"
+				}
+				{
+					id: "4E73420A863A7F3D"
+					item: "gtocore:mega_bath_tank"
+					type: "item"
+				}
+				{
+					id: "0BC5EB06BB5B053F"
+					item: "gtocore:mega_brewer"
+					type: "item"
+				}
+				{
+					id: "31EE9EE4A988BB4E"
+					item: "gtocore:phase_change_cube"
+					type: "item"
+				}
+			]
+			x: -1.34d
+			y: 5.53d
+		}
+		{
+			dependencies: ["479044A4613E8CD0"]
+			id: "738C89A2E64FAD3D"
+			tasks: [
+				{
+					id: "7EFAB0FC6BED895A"
+					item: "gtocore:cracker_hub"
+					type: "item"
+				}
+				{
+					id: "17AA018FADA289AA"
+					item: "gtocore:extreme_electric_furnace"
+					type: "item"
+				}
+				{
+					id: "759487FBEFC01DA5"
+					item: "gtocore:giant_sintering_array"
+					type: "item"
+				}
+				{
+					id: "769887FE663F1BA2"
+					item: "gtocore:mega_vacuum_drying_furnace"
+					type: "item"
+				}
+				{
+					id: "752C17F559FB8160"
+					item: "gtocore:molten_core"
+					type: "item"
+				}
+				{
+					id: "39E1A58C83875C8F"
+					item: "gtocore:super_blast_smelter"
+					type: "item"
+				}
+			]
+			x: 0.49d
+			y: 4.85d
+		}
+		{
+			dependencies: ["479044A4613E8CD0"]
+			id: "57908B52AAF48BB9"
+			tasks: [
+				{
+					id: "39100F9124A0536B"
+					item: "gtocore:gemini_containment_system"
+					type: "item"
+				}
+				{
+					id: "60061C801EA07BDE"
+					item: "gtocore:particle_stream_matrix_filling_machine"
+					type: "item"
+				}
+				{
+					id: "6ACC6A8952F5533E"
+					item: "gtocore:smart_siftering_hub"
+					type: "item"
+				}
+			]
+			x: 2.07d
+			y: 5.86d
+		}
+		{
+			dependencies: ["479044A4613E8CD0"]
+			id: "0D96E73BB0077280"
+			tasks: [
+				{
+					id: "17758E88691C4B76"
+					item: "gtocore:extreme_compressor"
+					type: "item"
+				}
+				{
+					id: "2E037F4ACD8273B8"
+					item: "gtocore:field_extruder_factory"
+					type: "item"
+				}
+				{
+					id: "5160067DDDD564AE"
+					item: "gtocore:gravity_bending_device"
+					type: "item"
+				}
+				{
+					id: "777FC916B553B9CF"
+					item: "gtocore:heavy_rolling"
+					type: "item"
+				}
+				{
+					id: "683615239C98F146"
+					item: "gtocore:neutron_forging_anvil"
+					type: "item"
+				}
+				{
+					id: "2652235756DFBF5B"
+					item: "gtocore:superconducting_magnetic_presser"
+					type: "item"
+				}
+			]
+			x: -0.72d
+			y: 3.29d
+		}
+		{
+			dependencies: ["7A57BCF8D94033DC"]
+			id: "064E7EBFA71781AE"
+			tasks: [
+				{
+					id: "054D7593305941C4"
+					item: "gtocore:dimension_injection_casing"
+					type: "item"
+				}
+				{
+					id: "47909DD97E14802B"
+					item: "gtocore:dimensional_bridge_casing"
+					type: "item"
+				}
+				{
+					id: "3F6802EFBA47224F"
+					item: "gtocore:quark_pipe"
+					type: "item"
+				}
+				{
+					id: "373A9F55D5CB5AD1"
+					item: "gtocore:restraint_device"
+					type: "item"
+				}
+				{
+					id: "23509268C5CF8685"
+					item: "gtocore:spacetime_assembly_line_unit"
+					type: "item"
+				}
+			]
+			x: 2.55d
+			y: 7.74d
+		}
+		{
+			dependencies: ["479044A4613E8CD0"]
+			id: "7421B5995E64FFBD"
+			tasks: [{
+				id: "3DFA013DA1B4FA3A"
+				item: "gtocore:plasma_condenser"
+				type: "item"
+			}]
+			x: 0.78d
+			y: 8.51d
+		}
+		{
+			dependencies: ["479044A4613E8CD0"]
+			id: "2E587832F749074D"
+			tasks: [{
+				id: "10253DF9B062F11F"
+				item: "gtocore:neutron_vortex"
+				type: "item"
+			}]
+			x: -1.59d
+			y: 7.52d
+		}
+		{
+			dependencies: ["1662A58CAC6754AC"]
+			id: "3DA75883725CFBFA"
+			tasks: [{
+				id: "474163D42AB7C11B"
+				item: "gtocore:component_assembly_line"
+				type: "item"
+			}]
+			x: -4.96d
+			y: 7.21d
+		}
+		{
+			dependencies: ["1662A58CAC6754AC"]
+			id: "5466D50C5C9EEB17"
+			tasks: [{
+				id: "7BC71C9FADD590AC"
+				item: "gtocore:magneto_resonatic_circuit_uhv"
+				type: "item"
+			}]
+			x: -3.38d
+			y: 8.25d
+		}
+		{
+			dependencies: ["3DA75883725CFBFA"]
+			id: "61FEB5B145A4FE72"
+			tasks: [{
+				id: "4AFF65B39DCDCA73"
+				item: "gtocore:compound_extreme_cooling_unit"
+				type: "item"
+			}]
+			x: -5.26d
+			y: 9.09d
+		}
+		{
+			dependencies: ["479044A4613E8CD0"]
+			id: "42D81D72A89B0FC7"
+			tasks: [
+				{
+					id: "419B9AA75289BDC6"
+					item: "gtocore:life_forge"
+					type: "item"
+				}
+				{
+					id: "0A63AB26CD99907F"
+					item: "gtocore:microorganism_master"
+					type: "item"
+				}
+				{
+					id: "03C6496277A0C908"
+					item: "gtocore:transliminal_oasis"
+					type: "item"
+				}
+			]
+			x: -1.06d
+			y: 9.36d
+		}
+		{
+			dependencies: ["479044A4613E8CD0"]
+			id: "46AFDCB7376DC74B"
+			tasks: [
+				{
+					id: "6857D6BA01636952"
+					item: "gtocore:planetary_gas_collector"
+					type: "item"
+				}
+				{
+					id: "64C9BA7018E990AE"
+					item: "gtocore:space_3d_printer"
+					type: "item"
+				}
+				{
+					id: "10C07F8D508B91E2"
+					item: "gtocore:space_station_energy_conversion_module"
+					type: "item"
+				}
+			]
+			x: -2.92d
+			y: 10.08d
+		}
+		{
+			dependencies: ["0AAAA50B311CC383"]
+			id: "245645EF330399B1"
+			tasks: [{
+				id: "4AFD27EE113A4837"
+				item: "gtocore:comprehensive_tombarthite_processing_facility"
+				type: "item"
+			}]
+			x: -2.2d
+			y: -5.84d
+		}
+		{
+			dependencies: ["1662A58CAC6754AC"]
+			id: "0CA954B28720F890"
+			tasks: [{
+				id: "7BDBB1AA90CB24C7"
+				item: "gtocore:nyarlathoteps_tentacle"
+				type: "item"
+			}]
+			x: -6.59d
+			y: 5.95d
+		}
+		{
+			dependencies: ["064E7EBFA71781AE"]
+			id: "166C74C7400B7D90"
+			tasks: [
+				{
+					id: "2E1C1AF762BFC6B0"
+					item: "gtocore:dyson_control_toroid"
+					type: "item"
+				}
+				{
+					id: "47DB5775D8EFA060"
+					item: "gtocore:dyson_deployment_core"
+					type: "item"
+				}
+				{
+					id: "671B53599961C71B"
+					item: "gtocore:dyson_deployment_casing"
+					type: "item"
+				}
+			]
+			x: 2.15d
+			y: 11.57d
+		}
+		{
+			dependencies: ["064E7EBFA71781AE"]
+			id: "7D9565DFDE9CFBAE"
+			tasks: [{
+				id: "52CADD2A27912B91"
+				item: "gtocore:magnetic_confinement_dimensionality_shock_device"
+				type: "item"
+			}]
+			x: 0.55d
+			y: 10.4d
+		}
+		{
+			dependencies: ["064E7EBFA71781AE"]
+			id: "6B0FBEA7634E8D69"
+			tasks: [
+				{
+					id: "522C18E4D4B2C32F"
+					item: "gtocore:quantum_force_transformer_coil"
+					type: "item"
+				}
+				{
+					id: "4169026CA191AA20"
+					item: "gtocore:spacetime_continuum_ripper"
+					type: "item"
+				}
+				{
+					id: "030551A97BE706EF"
+					item: "gtocore:spacetime_bending_core"
+					type: "item"
+				}
+			]
+			x: 0.16d
+			y: 12.29d
+		}
+		{
+			dependencies: ["064E7EBFA71781AE"]
+			id: "111D1E6D2121D1EA"
+			tasks: [
+				{
+					id: "2C441265339203D9"
+					item: "gtocore:dimensional_stability_casing"
+					type: "item"
+				}
+				{
+					id: "2CCD7CC275508BF1"
+					item: "gtocore:dimension_creation_casing"
+					type: "item"
+				}
+				{
+					id: "7B05DAB77C4E4CF8"
+					item: "gtocore:spacetime_compression_field_generator"
+					type: "item"
+				}
+			]
+			x: 2.33d
+			y: 9.65d
+		}
+		{
+			dependencies: ["6B0FBEA7634E8D69"]
+			id: "686788C28D9D1107"
+			tasks: [{
+				id: "1DB41C7CE09A464C"
+				item: "gtocore:quantum_force_transformer"
+				type: "item"
+			}]
+			x: 1.55d
+			y: 13.7d
+		}
+		{
+			dependencies: ["7A57BCF8D94033DC"]
+			id: "612ACBC73C1B6503"
+			tasks: [{
+				id: "055FEED8788927FF"
+				item: "gtocore:stellar_forge"
+				type: "item"
+			}]
+			x: 3.94d
+			y: 6.19d
+		}
+		{
+			dependencies: ["0AAAA50B311CC383"]
+			id: "719B5C134D6A6282"
+			tasks: [{
+				id: "4FCBAAA590E3307D"
+				item: "gtocore:bedrock_drilling_rig"
+				type: "item"
+			}]
+			x: -0.46d
+			y: -6.62d
+		}
+		{
+			dependencies: ["34AD686C0F6DB296"]
+			id: "6D925269781D5E0C"
+			tasks: [{
+				id: "5E1610AAE91C3ED3"
+				item: "gtocore:dimensional_focus_engraving_array"
+				type: "item"
+			}]
+			x: -4.39d
+			y: 0.81d
+		}
+		{
+			dependencies: ["19A419145D7F4B3D"]
+			id: "5BD5F0349E5CD3AC"
+			tasks: [{
+				id: "07A0A497D74CD74B"
+				item: "gtocore:optical_processing_core"
+				type: "item"
+			}]
+			x: -7.44d
+			y: -1.19d
+		}
+		{
+			dependencies: ["19A419145D7F4B3D"]
+			id: "29965D54F5F14116"
+			tasks: [
+				{
+					id: "7828B69C54E835B5"
+					item: "gtocore:nich_empty_component"
+					type: "item"
+				}
+				{
+					id: "0489322699D4187F"
+					item: "gtocore:nich_computing_components"
+					type: "item"
+				}
+				{
+					id: "134AD4F34D7C664E"
+					item: "gtocore:nich_cooling_components"
+					type: "item"
+				}
+				{
+					id: "3972569B66CB33BE"
+					item: "gtocore:nich_bridge_component"
+					type: "item"
+				}
+			]
+			x: -9.5d
+			y: 3.19d
+		}
+		{
+			dependencies: ["1F2CEF8BC0A0EA35"]
+			id: "1EA702876364A28E"
+			tasks: [
+				{
+					id: "428A6E0DE9F4202A"
+					item: "gtocore:intelligent_scanning_me_proxy"
+					type: "item"
+				}
+				{
+					id: "4240E82385E98D23"
+					item: "gtocore:intelligent_scanning_management_platform"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["79CEAB4F2366EE36"]
+			id: "07E38E2F5BE915B5"
+			tasks: [{
+				id: "206248CDD8CB3576"
+				item: "gtocore:matter_fabricator"
+				type: "item"
+			}]
+			x: -4.47d
+			y: -7.54d
+		}
+		{
+			dependencies: ["6434DB454A536B2B"]
+			id: "40FD69BCAAAF387A"
+			tasks: [{
+				id: "69CAB8019807162D"
+				item: "gtocore:black_hole_data_access_hatch"
+				type: "item"
+			}]
+			x: -10.01d
+			y: 1.29d
+		}
+		{
+			dependencies: ["18355A8D3E54EC9B"]
+			id: "1A229268A3402F42"
+			tasks: [{
+				id: "5157A32A2DDAB4C2"
+				item: "gtocore:uhv_fusion_reactor"
+				type: "item"
+			}]
+			x: -9.16d
+			y: -5.85d
+		}
+		{
+			dependencies: ["612ACBC73C1B6503"]
+			id: "5336192D4BEA0D73"
+			tasks: [{
+				id: "4231AB3C2FCF8BE9"
+				item: "gtocore:leptonic_charge"
+				type: "item"
+			}]
+			x: 6.35d
+			y: 7.9d
+		}
+		{
+			dependencies: ["0AAAA50B311CC383"]
+			id: "0B7F1885D1C22FBF"
+			tasks: [
+				{
+					id: "28B512786276B019"
+					item: "gtocore:advanced_infinite_driller"
+					type: "item"
+				}
+				{
+					id: "1B72A37E8CBE37C0"
+					item: "gtocore:planet_core_drilling"
+					type: "item"
+				}
+			]
+			x: -1.93d
+			y: -7.89d
+		}
+		{
+			dependencies: ["79CEAB4F2366EE36"]
+			id: "543C622F77A893E3"
+			tasks: [{
+				id: "139F8ADBC72C83E8"
+				item: "gtocore:entropy_flux_engine"
+				type: "item"
+			}]
+			x: -5.98d
+			y: -8.75d
+		}
+		{
+			dependencies: ["59CCDCD684419A75"]
+			id: "4F7A0E2E894E0ED7"
+			tasks: [
+				{
+					id: "2FF681CFEA2AAAC5"
+					item: "gtocore:gwca_empty_component"
+					type: "item"
+				}
+				{
+					id: "6529C1784D31FC9D"
+					item: "gtocore:gwca_computing_components"
+					type: "item"
+				}
+				{
+					id: "49535B36223332B1"
+					item: "gtocore:gwca_cooling_components"
+					type: "item"
+				}
+			]
+			x: 6.84d
+			y: -9.76d
+		}
+		{
+			dependencies: ["40FD69BCAAAF387A"]
+			id: "4D9725218B5920ED"
+			tasks: [{
+				id: "4E6A5C9C31FC0266"
+				item: "gtocore:virtual_universe_data_access_hatch"
+				type: "item"
+			}]
+			x: -11.91d
+			y: 1.54d
+		}
+		{
+			dependencies: ["1A229268A3402F42"]
+			id: "2E0C4983C0C197F6"
+			tasks: [{
+				id: "07D7E45E4BA21EFA"
+				item: "gtocore:uev_fusion_reactor"
+				type: "item"
+			}]
+			x: -10.53d
+			y: -7.16d
+		}
+		{
+			dependencies: ["1A229268A3402F42"]
+			id: "24E76C1011FF182D"
+			tasks: [{
+				id: "407D8F77718A83F4"
+				item: "gtocore:sps_crafting"
+				type: "item"
+			}]
+			x: -9.96d
+			y: -4.07d
+		}
+		{
+			dependencies: ["24E76C1011FF182D"]
+			id: "4E89F41F1EB939ED"
+			tasks: [{
+				id: "571ED9AD4008EDC3"
+				item: "gtocore:atomic_energy_excitation_plant"
+				type: "item"
+			}]
+			x: -12.09d
+			y: -3.54d
+		}
+		{
+			dependencies: ["24E76C1011FF182D"]
+			id: "52703834891407AD"
+			tasks: [
+				{
+					id: "77BFD453BBA9203F"
+					item: "gtocore:advanced_sps_crafting"
+					type: "item"
+				}
+				{
+					id: "7014B1EC851D60EB"
+					item: "gtocore:time_dilation_containment_unit"
+					type: "item"
+				}
+			]
+			x: -8.61d
+			y: -2.65d
+		}
+		{
+			dependencies: ["24E76C1011FF182D"]
+			id: "6CAD4BE646B7C5E7"
+			tasks: [{
+				id: "0BE6A5ECB7886E02"
+				item: "gtocore:mass_fabricator"
+				type: "item"
+			}]
+			x: -11.38d
+			y: -5.4d
+		}
+		{
+			dependencies: [
+				"24E76C1011FF182D"
+				"443C8E95BA53B37D"
+			]
+			id: "6F3895216B3628D1"
+			tasks: [
+				{
+					id: "4D8E40405EF0D19F"
+					item: "gtocore:awakened_draconium_superconductor_base"
+					type: "item"
+				}
+				{
+					id: "358A5E5C764F4CBB"
+					item: "gtocore:echoite_superconductor_base"
+					type: "item"
+				}
+				{
+					id: "0B4C93E0B166DE48"
+					item: "gtocore:enderite_superconductor_base"
+					type: "item"
+				}
+				{
+					id: "1736C799E36D768C"
+					item: "gtocore:legendarium_superconductor_base"
+					type: "item"
+				}
+			]
+			x: -6.7d
+			y: -2.96d
+		}
+		{
+			dependencies: [
+				"5BD5F0349E5CD3AC"
+				"52703834891407AD"
+			]
+			id: "58545230D9F467E5"
+			tasks: [{
+				id: "5557553E91F00246"
+				item: "gtocore:exotic_processing_core"
+				type: "item"
+			}]
+			x: -9.3d
+			y: -0.74d
+		}
+		{
+			dependencies: ["58545230D9F467E5"]
+			id: "6B0F1D0C766305C6"
+			tasks: [{
+				id: "05C3F69E25EE2ADC"
+				item: "gtocore:cosmic_processing_core"
+				type: "item"
+			}]
+			x: -11.14d
+			y: -0.25d
+		}
+		{
+			dependencies: ["7421B5995E64FFBD"]
+			id: "58ACD0AE6B76A4F5"
+			tasks: [{
+				id: "29095C6B309E432F"
+				item: "gtocore:extremely_durable_plasma_cell"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 11.3d
+		}
+		{
+			dependencies: ["612ACBC73C1B6503"]
+			id: "279C8EADA10C556A"
+			tasks: [{
+				id: "59FBB6FF52112410"
+				item: "gtocore:hyperdimensional_plasma_fusion_core"
+				type: "item"
+			}]
+			x: 4.4d
+			y: 8.12d
+		}
+		{
+			dependencies: ["612ACBC73C1B6503"]
+			id: "5E16B26979510614"
+			tasks: [{
+				id: "3711D5A517759C41"
+				item: "gtocore:star_ultimate_material_forge_factory"
+				type: "item"
+			}]
+			x: 3.98d
+			y: 10.6d
+		}
+		{
+			dependencies: ["279C8EADA10C556A"]
+			id: "75DF1527FF13C07A"
+			tasks: [
+				{
+					id: "0CDEC1BBCD8D4FE7"
+					item: "gtocore:infinity_coil_block"
+					type: "item"
+				}
+				{
+					id: "64F624B6EFE9BCD8"
+					item: "gtocore:hypogen_coil_block"
+					type: "item"
+				}
+				{
+					id: "190EF7FFB583F67B"
+					item: "gtocore:eternity_coil_block"
+					type: "item"
+				}
+			]
+			x: 5.71d
+			y: 9.72d
+		}
+		{
+			dependencies: ["5336192D4BEA0D73"]
+			id: "24FCA629BF0D1386"
+			tasks: [{
+				id: "6743D4151B5FA116"
+				item: "gtocore:quantum_chromodynamic_charge"
+				type: "item"
+			}]
+			x: 7.61d
+			y: 9.34d
+		}
+		{
+			dependencies: ["6CAD4BE646B7C5E7"]
+			id: "4DDF47BB03636672"
+			tasks: [{
+				id: "19DC9A1130672A1B"
+				item: "gtocore:advanced_mass_fabricator"
+				type: "item"
+			}]
+			x: -11.97d
+			y: -8.36d
+		}
+		{
+			dependencies: ["6CAD4BE646B7C5E7"]
+			id: "2E11E7E366DB8D82"
+			tasks: [{
+				id: "486ED74501A9FE14"
+				item: "gtocore:element_copying"
+				type: "item"
+			}]
+			x: -12.81d
+			y: -6.67d
+		}
+		{
+			dependencies: ["58545230D9F467E5"]
+			id: "6734740253C29482"
+			tasks: [{
+				id: "0C85A3F191341C95"
+				item: "gtocore:manifold_oscillatory_power_cell"
+				type: "item"
+			}]
+			x: -10.45d
+			y: -2.24d
+		}
+		{
+			dependencies: ["6B0F1D0C766305C6"]
+			id: "2D29988EBB5E73A4"
+			tasks: [{
+				id: "51AC7142732FDF1C"
+				item: "gtocore:supracausal_processing_core"
+				type: "item"
+			}]
+			x: -12.75d
+			y: -1.23d
+		}
+		{
+			dependencies: ["2D29988EBB5E73A4"]
+			id: "0EFB1BCC1C233A7A"
+			tasks: [{
+				id: "121B3BBF590FB30E"
+				item: "gtocore:wyvern_core"
+				type: "item"
+			}]
+			x: -14.36d
+			y: -0.26d
+		}
+		{
+			dependencies: ["4D9725218B5920ED"]
+			id: "37A0ECB2A5CC9610"
+			tasks: [{
+				id: "6D37DC4CBEAE036B"
+				item: "gtocore:eye_of_harmony"
+				type: "item"
+			}]
+			x: -13.8d
+			y: 1.64d
+		}
+		{
+			dependencies: ["0EFB1BCC1C233A7A"]
+			id: "1485F319563D5C98"
+			tasks: [
+				{
+					id: "526AFDE4CBFC6B1F"
+					item: "gtocore:awakened_core"
+					type: "item"
+				}
+				{
+					id: "23E8BE223C95F7D1"
+					item: "gtocore:draconic_energy_core"
+					type: "item"
+				}
+			]
+			x: -16.24d
+			y: -0.41d
+		}
+		{
+			dependencies: ["0CA954B28720F890"]
+			id: "7D2DA091597D52C3"
+			tasks: [{
+				id: "3BC531473626B63A"
+				item: {
+					Count: 1
+					id: "gtocore:hyperdimensional_drone"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -6.83d
+			y: 7.84d
+		}
+		{
+			dependencies: ["7D2DA091597D52C3"]
+			id: "2833A158384741E2"
+			tasks: [
+				{
+					id: "5DCF71F491A541C0"
+					item: "gtocore:suprachronal_circuit_ulv"
+					type: "item"
+				}
+				{
+					id: "475C5C7F20AC7915"
+					item: "gtocore:suprachronal_circuit_lv"
+					type: "item"
+				}
+				{
+					id: "2CCB463945EF2704"
+					item: "gtocore:suprachronal_circuit_mv"
+					type: "item"
+				}
+				{
+					id: "35E4DC91E701E206"
+					item: "gtocore:suprachronal_circuit_hv"
+					type: "item"
+				}
+				{
+					id: "3D237FA79479272A"
+					item: "gtocore:suprachronal_circuit_ev"
+					type: "item"
+				}
+				{
+					id: "606256E3BE884EBF"
+					item: "gtocore:suprachronal_circuit_iv"
+					type: "item"
+				}
+				{
+					id: "1B8C80CED5D72125"
+					item: "gtocore:suprachronal_circuit_luv"
+					type: "item"
+				}
+				{
+					id: "334C68FB19A06270"
+					item: "gtocore:suprachronal_circuit_zpm"
+					type: "item"
+				}
+				{
+					id: "77FF0186AECC5B59"
+					item: "gtocore:suprachronal_circuit_uv"
+					type: "item"
+				}
+				{
+					id: "5B6182DF5D836200"
+					item: "gtocore:suprachronal_circuit_uhv"
+					type: "item"
+				}
+				{
+					id: "11C8DFCE1C0FD2DF"
+					item: "gtocore:suprachronal_circuit_uev"
+					type: "item"
+				}
+				{
+					id: "74084A4D97178618"
+					item: "gtocore:suprachronal_circuit_uiv"
+					type: "item"
+				}
+				{
+					id: "0487BB8199BECD7B"
+					item: "gtocore:suprachronal_circuit_uxv"
+					type: "item"
+				}
+				{
+					id: "2B63FD32777BBA5D"
+					item: "gtocore:suprachronal_circuit_opv"
+					type: "item"
+				}
+				{
+					id: "32B4AA5E12871507"
+					item: "gtocore:suprachronal_circuit_max"
+					type: "item"
+				}
+			]
+			x: -7.97d
+			y: 9.38d
+		}
+		{
+			dependencies: ["1485F319563D5C98"]
+			id: "2B8A06B13FC14116"
+			tasks: [
+				{
+					id: "4BEE66C6E03F8AE8"
+					item: "gtocore:chaotic_core"
+					type: "item"
+				}
+				{
+					id: "5583AC361B8AE980"
+					item: "gtocore:chaotic_energy_core"
+					type: "item"
+				}
+			]
+			x: -18.14d
+			y: -0.38d
+		}
+		{
+			dependencies: ["2B8A06B13FC14116"]
+			id: "4B146776502D567A"
+			tasks: [
+				{
+					id: "53B6A7EC1A81EA55"
+					item: "gtocore:create_aggregatione_core"
+					type: "item"
+				}
+				{
+					id: "77FAA110DD367768"
+					item: "gtocore:create_ultimate_battery"
+					type: "item"
+				}
+				{
+					id: "342769270B2E30FA"
+					item: "gtocore:suprachronal_mainframe_complex"
+					type: "item"
+				}
+			]
+			x: -20.11d
+			y: -0.38d
+		}
+		{
+			id: "7B708BC2E1D4C9DA"
+			tasks: [
+				{
+					id: "530555C1DBB5050F"
+					item: "gtceu:luv_energy_input_hatch"
+					type: "item"
+				}
+				{
+					id: "1D63F852BC871844"
+					item: "gtceu:luv_energy_output_hatch"
+					type: "item"
+				}
+				{
+					id: "7D194808BA0DE980"
+					item: "gtocore:luv_wireless_energy_unit"
+					type: "item"
+				}
+			]
+			x: 3.9d
+			y: 0.58d
+		}
+		{
+			id: "334428A1D60BFA6B"
+			tasks: [
+				{
+					id: "28CE99713391FE4A"
+					item: "gtceu:lapotronic_energy_orb_cluster"
+					type: "item"
+				}
+				{
+					id: "2887CD79C98F7CF2"
+					item: "gtceu:energy_module"
+					type: "item"
+				}
+				{
+					id: "51EE24EF077B1112"
+					item: "gtceu:energy_cluster"
+					type: "item"
+				}
+			]
+			x: 2.84d
+			y: 2.19d
+		}
+		{
+			dependencies: ["7B708BC2E1D4C9DA"]
+			id: "3AE5E6EEE3FF8F23"
+			tasks: [
+				{
+					id: "600F6ECBA1A4E5A9"
+					item: "gtceu:zpm_energy_input_hatch"
+					type: "item"
+				}
+				{
+					id: "3C7F6858D87D59DF"
+					item: "gtceu:zpm_energy_output_hatch"
+					type: "item"
+				}
+				{
+					id: "481233DD2606B2AB"
+					item: "gtocore:zpm_wireless_energy_unit"
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["334428A1D60BFA6B"]
+			id: "38225E85B5DFDD15"
+			tasks: [{
+				id: "3C89EC3E4C936DAC"
+				item: "gtocore:energy_data_holder"
+				type: "item"
+			}]
+			x: 5.96d
+			y: 4.16d
+		}
+		{
+			dependencies: ["19A419145D7F4B3D"]
+			id: "7FFB79C161CF95C3"
+			tasks: [
+				{
+					id: "1FA95B40B3B2D6EB"
+					item: "gtocore:bio_oscillation_generator"
+					type: "item"
+				}
+				{
+					id: "58AEC3CE3D01E1A9"
+					item: "gtocore:bio_oscillation_electric_stimulator"
+					type: "item"
+				}
+			]
+			x: -6.31d
+			y: 0.34d
+		}
+		{
+			id: "5A12A8D44FC0195F"
+			tasks: [{
+				id: "3D39A84D0E0F4393"
+				item: "gtocore:large_naquadah_reactor"
+				type: "item"
+			}]
+			x: -14.07d
+			y: -3.01d
+		}
+		{
+			dependencies: ["334428A1D60BFA6B"]
+			id: "3FCB55AFEC52115D"
+			tasks: [{
+				id: "1E19EC7978B8BC74"
+				item: "gtceu:max_battery"
+				type: "item"
+			}]
+			x: 4.07d
+			y: 4.22d
+		}
+		{
+			dependencies: ["3AE5E6EEE3FF8F23"]
+			id: "7C26A960302A122C"
+			tasks: [
+				{
+					id: "1E065C91498A5FA4"
+					item: "gtceu:uv_energy_input_hatch"
+					type: "item"
+				}
+				{
+					id: "30B1D6E94D9518A5"
+					item: "gtceu:uv_energy_output_hatch"
+					type: "item"
+				}
+				{
+					id: "5B58C7E82DF29F81"
+					item: "gtocore:uv_wireless_energy_unit"
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7C26A960302A122C"]
+			id: "0DFEFCC84563808C"
+			tasks: [
+				{
+					id: "75BB2F6FE68135F0"
+					item: "gtceu:uhv_energy_input_hatch"
+					type: "item"
+				}
+				{
+					id: "40D39C6FA15228E5"
+					item: "gtceu:uhv_energy_output_hatch"
+					type: "item"
+				}
+				{
+					id: "5E3C0D26A5352BCF"
+					item: "gtocore:uhv_wireless_energy_unit"
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3FCB55AFEC52115D"]
+			id: "0A6AAD70E79FCE4E"
+			tasks: [{
+				id: "6B43FEE7EB39DBEC"
+				item: "gtocore:really_max_battery"
+				type: "item"
+			}]
+			x: 5.84d
+			y: 6.06d
+		}
+		{
+			dependencies: ["0DFEFCC84563808C"]
+			id: "7C32112B423C55DC"
+			tasks: [
+				{
+					id: "472B17A88B560EEB"
+					item: "gtceu:uev_energy_input_hatch"
+					type: "item"
+				}
+				{
+					id: "255CEC0CC910D770"
+					item: "gtceu:uev_energy_output_hatch"
+					type: "item"
+				}
+				{
+					id: "0DAFB2CA324A0220"
+					item: "gtocore:uev_wireless_energy_unit"
+					type: "item"
+				}
+			]
+			x: 9.76d
+			y: 4.31d
+		}
+		{
+			dependencies: ["7C32112B423C55DC"]
+			id: "1BDBF2D3F5B36410"
+			tasks: [
+				{
+					id: "33875CC7857F91B7"
+					item: "gtceu:uiv_energy_input_hatch"
+					type: "item"
+				}
+				{
+					id: "79D6D3CCFFC2CC62"
+					item: "gtceu:uiv_energy_output_hatch"
+					type: "item"
+				}
+				{
+					id: "12740542AFB4BEE6"
+					item: "gtocore:uiv_wireless_energy_unit"
+					type: "item"
+				}
+			]
+			x: 11.36d
+			y: 5.36d
+		}
+		{
+			dependencies: ["166C74C7400B7D90"]
+			id: "7B4BA16E6E60EF46"
+			tasks: [
+				{
+					id: "0711EE93A28AF265"
+					item: "gtocore:dyson_sphere_launch_silo"
+					type: "item"
+				}
+				{
+					id: "05EE321B90E02858"
+					item: "gtocore:dyson_sphere_receiving_station"
+					type: "item"
+				}
+			]
+			x: 3.36d
+			y: 13.03d
+		}
+		{
+			dependencies: [
+				"5A12A8D44FC0195F"
+				"4E89F41F1EB939ED"
+			]
+			id: "3C03CAC641686B5A"
+			tasks: [{
+				id: "3DFEC554CD8A1DFF"
+				item: "gtocore:hyper_reactor"
+				type: "item"
+			}]
+			x: -13.62d
+			y: -4.85d
+		}
+		{
+			dependencies: ["3C03CAC641686B5A"]
+			id: "5EED49AD9C756762"
+			tasks: [{
+				id: "33CA0327961A0F71"
+				item: "gtocore:advanced_hyper_reactor"
+				type: "item"
+			}]
+			x: -15.36d
+			y: -5.59d
+		}
+		{
+			dependencies: ["0A6AAD70E79FCE4E"]
+			id: "10F661D67F4F6754"
+			tasks: [{
+				id: "21B8BDFD59FCD878"
+				item: "gtocore:transcendent_max_battery"
+				type: "item"
+			}]
+			x: 7.74d
+			y: 6.38d
+		}
+		{
+			dependencies: ["1BDBF2D3F5B36410"]
+			id: "68E10B6B294A87D5"
+			tasks: [
+				{
+					id: "646B665712D70D92"
+					item: "gtceu:uxv_energy_input_hatch"
+					type: "item"
+				}
+				{
+					id: "4AA0D5F5EA36A1EF"
+					item: "gtceu:uxv_energy_output_hatch"
+					type: "item"
+				}
+				{
+					id: "68D7987BE3442F64"
+					item: "gtocore:uxv_wireless_energy_unit"
+					type: "item"
+				}
+			]
+			x: 13.12d
+			y: 6.11d
+		}
+		{
+			dependencies: ["4DDF47BB03636672"]
+			id: "72E9956C4145F0A1"
+			tasks: [{
+				id: "2522F4D17AE618B5"
+				item: "gtocore:annihilate_generator"
+				type: "item"
+			}]
+			x: -13.73d
+			y: -9.25d
+		}
+		{
+			dependencies: ["10F661D67F4F6754"]
+			id: "182543B83EF28C02"
+			tasks: [{
+				id: "6BB365D8DE0C9458"
+				item: "gtocore:extremely_max_battery"
+				type: "item"
+			}]
+			x: 8.88d
+			y: 7.88d
+		}
+		{
+			dependencies: ["68E10B6B294A87D5"]
+			id: "7066A3E26856FAE2"
+			tasks: [
+				{
+					id: "732A45A0E385B156"
+					item: "gtceu:opv_energy_input_hatch"
+					type: "item"
+				}
+				{
+					id: "6730100ABEFA30DB"
+					item: "gtceu:opv_energy_output_hatch"
+					type: "item"
+				}
+				{
+					id: "40D991510E95637E"
+					item: "gtocore:opv_wireless_energy_unit"
+					type: "item"
+				}
+			]
+			x: 14.85d
+			y: 6.92d
+		}
+		{
+			dependencies: ["182543B83EF28C02"]
+			id: "3699AD7D6829869A"
+			tasks: [{
+				id: "0F7365EF0F109B95"
+				item: "gtocore:insanely_max_battery"
+				type: "item"
+			}]
+			x: 9.81d
+			y: 9.55d
+		}
+		{
+			dependencies: ["3699AD7D6829869A"]
+			id: "254F323F2CE1D384"
+			tasks: [{
+				id: "3520F9A899967DA2"
+				item: "gtocore:mega_max_battery"
+				type: "item"
+			}]
+			x: 11.24d
+			y: 10.84d
+		}
+		{
+			dependencies: ["7066A3E26856FAE2"]
+			id: "4482EA407357F83C"
+			tasks: [
+				{
+					id: "552DF5ECCE0C4F92"
+					item: "gtceu:max_energy_input_hatch"
+					type: "item"
+				}
+				{
+					id: "510B761204AC9DCC"
+					item: "gtceu:max_energy_output_hatch"
+					type: "item"
+				}
+				{
+					id: "3B3BC8C4B487DEE8"
+					item: "gtocore:max_wireless_energy_unit"
+					type: "item"
+				}
+			]
+			x: 16.57d
+			y: 7.74d
+		}
+		{
+			dependencies: ["20AFB02153616161"]
+			id: "1CCFA6551D41CBDC"
+			tasks: [
+				{
+					id: "7E116D8311D8497F"
+					item: "gtocore:carbon_nanites"
+					type: "item"
+				}
+				{
+					id: "7EFC7978D4B2BEF6"
+					item: "gtocore:nano_forge"
+					type: "item"
+				}
+			]
+			x: -9.19d
+			y: 12.68d
+		}
+		{
+			dependencies: ["1CCFA6551D41CBDC"]
+			id: "5F31469C2DA998B4"
+			tasks: [
+				{
+					id: "025B433856DAF0CC"
+					item: "gtocore:circuit_assembly_line"
+					type: "item"
+				}
+				{
+					id: "1EE7EB96424BC4EA"
+					item: "gtocore:pcb_factory"
+					type: "item"
+				}
+			]
+			x: -9.74d
+			y: 14.55d
+		}
+		{
+			dependencies: ["1CCFA6551D41CBDC"]
+			id: "2934C656D006F1C6"
+			tasks: [
+				{
+					id: "3661760B081C2780"
+					item: "gtocore:bioengineering_module"
+					type: "item"
+				}
+				{
+					id: "3B740CDE29B26F9A"
+					item: "gtocore:nanites_integrated_processing_center"
+					type: "item"
+				}
+				{
+					id: "4A7AE4CCD4EF0921"
+					item: "gtocore:ore_extraction_module"
+					type: "item"
+				}
+				{
+					id: "405D379E525A9546"
+					item: "gtocore:polymer_twisting_module"
+					type: "item"
+				}
+			]
+			x: -11.07d
+			y: 11.61d
+		}
+		{
+			dependencies: ["1CCFA6551D41CBDC"]
+			id: "3A5BF2AF9FACBEA6"
+			tasks: [{
+				id: "49A98AEFAEE9834A"
+				item: "gtocore:swarm_core"
+				type: "item"
+			}]
+			x: -11.33d
+			y: 13.49d
+		}
+		{
+			id: "1E5B40B6E2484494"
+			tasks: [{
+				id: "3770536964971546"
+				item: {
+					Count: 1
+					id: "ad_astra_rocketed:tier_7_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.69d
+			y: -3.33d
+		}
+		{
+			dependencies: ["1E5B40B6E2484494"]
+			id: "2DE2016E7A5C0B9D"
+			tasks: [
+				{
+					id: "0EA63E43008503E9"
+					item: "gtocore:space_elevator"
+					type: "item"
+				}
+				{
+					id: "7ACA774FE0B1C666"
+					item: "gtocore:assembler_module"
+					type: "item"
+				}
+				{
+					id: "068B3168ADF2A355"
+					item: "gtocore:resource_collection_module"
+					type: "item"
+				}
+				{
+					id: "270F905773081551"
+					item: "gtocore:engineered_data_module"
+					type: "item"
+				}
+				{
+					id: "1D2C4C30F6836903"
+					item: "gtocore:interstellar_engineering_data_holder"
+					type: "item"
+				}
+				{
+					id: "35A2BFCC5AFB3080"
+					item: "gtocore:space_elevator_power_module_1"
+					type: "item"
+				}
+			]
+			x: 0.78d
+			y: -5.21d
+		}
+		{
+			dependencies: ["2DE2016E7A5C0B9D"]
+			id: "51BADB1A65CB14DF"
+			tasks: [{
+				id: "5EE2F9F4C58F0213"
+				item: "gtocore:space_elevator_power_module_2"
+				type: "item"
+			}]
+			x: 1.57d
+			y: -7.03d
+		}
+		{
+			dependencies: ["51BADB1A65CB14DF"]
+			id: "51B66AAF357F9976"
+			tasks: [{
+				id: "186F4D34AA0BBD83"
+				item: "gtocore:space_elevator_power_module_3"
+				type: "item"
+			}]
+			x: 0.2d
+			y: -8.39d
+		}
+		{
+			dependencies: ["51B66AAF357F9976"]
+			id: "008913715AEEED68"
+			tasks: [{
+				id: "622C277FB8BC646A"
+				item: "gtocore:space_elevator_power_module_4"
+				type: "item"
+			}]
+			x: 0.4d
+			y: -10.26d
+		}
+		{
+			dependencies: ["008913715AEEED68"]
+			id: "4C48C84351C30025"
+			tasks: [
+				{
+					id: "297411FF98DDFDF4"
+					item: "gtocore:road_of_heaven"
+					type: "item"
+				}
+				{
+					id: "3FAD8CDFEBB76683"
+					item: "gtocore:space_elevator_power_module_5"
+					type: "item"
+				}
+			]
+			x: 0.38d
+			y: -12.18d
+		}
+		{
+			dependencies: ["4C48C84351C30025"]
+			id: "3B9181976A283243"
+			tasks: [{
+				id: "00D39E262A2C4BAE"
+				item: "gtocore:space_probe_surface_reception"
+				type: "item"
+			}]
+			x: 0.38d
+			y: -14.09d
+		}
+	]
+	title: "{gto.techtree-ftbq.title}"
+}

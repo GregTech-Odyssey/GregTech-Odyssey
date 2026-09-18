@@ -357,6 +357,10 @@ file = "config/ftbquests/quests/chapters/steam.snbt"
 hash = "18a203558261c01acd0c9ce538446761ef5a950da6cb7843e4492a7cf61c374c"
 
 [[files]]
+file = "config/ftbquests/quests/chapters/techtree-ftbq.snbt"
+hash = "ec22e0e0aaf31dcd126513c0be84cda127dbd36dbfc9533cd7fce13a2aeae70a"
+
+[[files]]
 file = "config/ftbquests/quests/chapters/techtree.snbt"
 hash = "576f4dbe4c16c730aa9f37a6d96ca8f4ea166b4c67600231e6fc7566bc94014e"
 
@@ -690,7 +694,7 @@ hash = "84254dc1e5a56ea70df6b16a2fb2620040592badae436c255997aaae84996d91"
 
 [[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/en_us.json"
-hash = "ad6a529e6abd3dea09e0fe7e5e9927eda343382d9940b5f9625b740edbcf2b87"
+hash = "430c62a1ea7c5259134ba0551af001c1a4b05b1e6af63f849464b96ae3b479da"
 
 [[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/ru_ru.json"
@@ -698,11 +702,11 @@ hash = "d50beef9864257f5aebb51cf6ed86845676ec1ec1a69e6ae6aa515af6285a1e0"
 
 [[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/zh_cn.json"
-hash = "24baf7fa8d1ac6d329cf27ad3870ae7fdbdd9d3be55ec22993016a61b21c4be6"
+hash = "a7d2ffd08473b9b876a35f6744ba190f41e6bf0ae5d7a8263c3ba80757c9edf4"
 
 [[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/zh_tw.json"
-hash = "71c0bdab0a6115ab7a8b2733346687c970337c8801fbd07e92a709af93a7c027"
+hash = "80e15d957d3821ebc90494bc7f837ef7272ec5d64654eba00e4d1e7ce104d26d"
 
 [[files]]
 file = "config/openloader/resources/quests/pack.mcmeta"
