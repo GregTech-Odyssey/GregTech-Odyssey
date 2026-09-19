@@ -4,5 +4,8 @@ background: ftbquests:textures/beyondstars.png; color=#555555
 [3BF7BECF0C9F7ED9]
 background: ftbquests:textures/space.png; color=#555555
 
+[1220AE3314F35BAF]
+background: ftbquests:textures/techtree-node.png; color=#555555
+
 tasks_text_color:                   #FFFFFF
 dependency_line_selected_speed:     2.0
