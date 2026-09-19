@@ -505,6 +505,10 @@ file = "config/jei/ingredient-list-type-sort-order.ini"
 hash = "ca6f0515891afed86c30c9d3d8ad1496a7d03de9ea532ab431f2ec1d3968826b"
 
 [[files]]
+file = "config/jei/jei-client.ini"
+hash = "df63b491d8fe61656b9187997dd4135644a48121caf2f3ed1d3bc711540488c4"
+
+[[files]]
 file = "config/jei/recipe-category-sort-order.ini"
 hash = "435ba94eee13e22214e46e1fb24d331150fb95cd74436069ce83592b9a346ea9"
 
