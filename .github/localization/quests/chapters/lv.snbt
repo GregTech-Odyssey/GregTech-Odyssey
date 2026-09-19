@@ -2739,7 +2739,7 @@
 				""
 				"{gto.lv.quests.6C6C0101F0002AE7.description1}"
 				""
-				"{gto.lv.quests.6C6C0101F0002AE7.description2}"
+				"[\"\", {\"translate\": \"gto.lv.quests.6C6C0101F0002AE7.description2.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"2FFBF824CC836741\"}, \"translate\": \"gto.lv.quests.6C6C0101F0002AE7.description2.rich_text1\"}, {\"translate\": \"gto.lv.quests.6C6C0101F0002AE7.description2.rich_text2\"}]"
 			]
 			hide_until_deps_visible: true
 			icon: {

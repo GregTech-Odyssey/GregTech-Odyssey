@@ -459,15 +459,12 @@
 			size: 1.5d
 			subtitle: "{gto.main-stoneage.quests.4DC482C16035F261.subtitle}"
 			tasks: [{
-				id: "43315D2EEA370DCC"
+				count: 4L
+				id: "3C986AD014DAD0CB"
 				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "curios:back"
-					}
+					Count: 4
+					id: "minecraft:leather"
 				}
-				title: "{gto.main-stoneage.quests.4DC482C16035F261.tasks.43315D2EEA370DCC.title}"
 				type: "item"
 			}]
 			title: "{gto.main-stoneage.quests.4DC482C16035F261.title}"

@@ -14,6 +14,7 @@
 		{
 			dependency_requirement: "one_started"
 			description: ["{gto.util.quests.528BD3F48D7742DF.description0}"]
+			disable_toast: true
 			icon: "minecraft:white_bed"
 			id: "528BD3F48D7742DF"
 			invisible: true
@@ -64,6 +65,7 @@
 			y: 0.0d
 		}
 		{
+			disable_toast: true
 			id: "54869A710D7DC29D"
 			invisible: true
 			tasks: [{
@@ -351,6 +353,7 @@
 				"4AF39FF336EA1BF4"
 			]
 			dependency_requirement: "one_completed"
+			disable_toast: true
 			id: "64642383F67CAA6F"
 			invisible: true
 			tasks: [{
@@ -587,6 +590,7 @@
 			y: 6.0d
 		}
 		{
+			disable_toast: true
 			id: "5BC2AA71DA2CE20F"
 			invisible: true
 			tasks: [{
