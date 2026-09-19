@@ -1906,11 +1906,6 @@ hash = "528a5c2d50126e1b2906b47449b40a996fce3b4a50b9a0460533f2b7b74f5c99"
 metafile = true
 
 [[files]]
-file = "mods/calculatoroverlay.pw.toml"
-hash = "a8bc94238b43b7f6d356ed8281fa1868b68ebfbe83c3900fd66dea7518b8d456"
-metafile = true
-
-[[files]]
 file = "mods/camera-mod.pw.toml"
 hash = "9490f693735f743558f9a3eb39f961d1bd9acf079e2a4d5efe614dd52d526f4a"
 metafile = true
@@ -1963,11 +1958,6 @@ metafile = true
 [[files]]
 file = "mods/corpse.pw.toml"
 hash = "d62480bc696affd0a714d4cd74b5dc64a072b9d67d505b52df87ebcdf9650a79"
-metafile = true
-
-[[files]]
-file = "mods/cosmetic-armor-reworked.pw.toml"
-hash = "d08fd987ef286e74a4666cc5359c3adfdd6f86335ae321251997419bd920f93d"
 metafile = true
 
 [[files]]
@@ -2101,11 +2091,6 @@ hash = "8f1623993ecf4a87a36c12fd964fcff81f7481e43338cffec1c9cd544fd9c579"
 metafile = true
 
 [[files]]
-file = "mods/fast-leaf-decay.pw.toml"
-hash = "93ff3f9cf6bf3487c37762a19ce014ae381560311f53bfa887d54459590b521a"
-metafile = true
-
-[[files]]
 file = "mods/fast-nbt.pw.toml"
 hash = "ad7af9705c98ac6b57e08d2b012890535e209db6bf07caf15a8fb0a087cb116a"
 metafile = true
@@ -2123,11 +2108,6 @@ metafile = true
 [[files]]
 file = "mods/fastfurnace.pw.toml"
 hash = "9a748a2bfac6e79e42d49380148594b706371172e9137889663c214cfceaa973"
-metafile = true
-
-[[files]]
-file = "mods/fastquit-forge.pw.toml"
-hash = "495f82dfe932b49143e0a77631ca3cd19b17d8213feba2d3037deac00d9c2db0"
 metafile = true
 
 [[files]]
@@ -2181,11 +2161,6 @@ hash = "4db9ae559fde9623a7d30cd3511ea783e49b90ef4e0b414c0b0d75dbad935254"
 metafile = true
 
 [[files]]
-file = "mods/framedblocks.pw.toml"
-hash = "c0bba64eb3be067e8f002c1e6c4a0ad2feb78d15e61e003e8f34cd5a909ada39"
-metafile = true
-
-[[files]]
 file = "mods/ftb-essentials.pw.toml"
 hash = "8a185af41fb24e83e4497c9362943723b6afee585cf8a3bf280ac155d29bf593"
 metafile = true
@@ -2223,11 +2198,6 @@ metafile = true
 [[files]]
 file = "mods/geckolib.pw.toml"
 hash = "898fd2704dd260ae8f3dc20b4416439751f0a9e76367c4f0bbdac886b6987802"
-metafile = true
-
-[[files]]
-file = "mods/glitchcore.pw.toml"
-hash = "afb5817172d1c450e6418ef3b8aa0d301f0046393d2383a4c2b3e4853b5a3fb9"
 metafile = true
 
 [[files]]
@@ -2304,11 +2274,6 @@ hash = "e571816e2487046d3f1c2697f03166b47d6343dbd4480d9e72cc1b2b4a0062f1"
 metafile = true
 
 [[files]]
-file = "mods/kleeslabs.pw.toml"
-hash = "0827a6d60afc3b9d5ae5046e125e4d8ab51ce0d83fde33423762488ece126489"
-metafile = true
-
-[[files]]
 file = "mods/konkrete.pw.toml"
 hash = "143102be700d30cf68d0988bc9f1b523545e37b7074ee786faac56a388e6f0e9"
 metafile = true
@@ -2331,11 +2296,6 @@ metafile = true
 [[files]]
 file = "mods/libx.pw.toml"
 hash = "47920e8acfee11346d53419c38ad5101ac519eaf466b887defd7767efd70d215"
-metafile = true
-
-[[files]]
-file = "mods/littletiles.pw.toml"
-hash = "2175a89ad0858d8fb9c33cd15f502dc5362e8eeccc300f200a0d1f842d12cfb0"
 metafile = true
 
 [[files]]
@@ -2461,11 +2421,6 @@ metafile = true
 [[files]]
 file = "mods/placebo.pw.toml"
 hash = "f82487ea2594501af6b793a7ffa8ee0bba7b669de2bf0f8b6d069bac3c7e367b"
-metafile = true
-
-[[files]]
-file = "mods/pretty-rain.pw.toml"
-hash = "576c13afa64ff9e8d97c1f0624a49b46cbf97b213f463d850f05ba5d0cea77b4"
 metafile = true
 
 [[files]]
