@@ -590,6 +590,11 @@
 			hide_dependency_lines: true
 			icon: "gtocore:processing_plant"
 			id: "0D63E5A54480E693"
+			rewards: [{
+				id: "356695F2D8A0565C"
+				item: "gtocore:lv_accelerate_hatch"
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 1.5d
 			subtitle: "百分之一亿的贵得要死#2"

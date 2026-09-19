@@ -459,15 +459,9 @@
 			size: 1.5d
 			subtitle: "精妙背包"
 			tasks: [{
-				id: "43315D2EEA370DCC"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "curios:back"
-					}
-				}
-				title: "背包"
+				count: 4L
+				id: "3C986AD014DAD0CB"
+				item: { Count: 4, id: "minecraft:leather" }
 				type: "item"
 			}]
 			title: "背背背起了行囊"
