@@ -1,0 +1,7586 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "technode"
+	group: ""
+	hide_quest_until_deps_complete: true
+	icon: "gtocore:dimensional_stability_casing"
+	id: "1220AE3314F35BAF"
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			id: "5D50B1FC74B8543D"
+			tasks: [{
+				id: "30100F61BE42ABBA"
+				node: [B;
+					13b
+					2b
+					12b
+					9b
+					109b
+					97b
+					105b
+					110b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					17b
+					108b
+					97b
+					115b
+					101b
+					114b
+					95b
+					102b
+					111b
+					117b
+					110b
+					100b
+					97b
+					116b
+					105b
+					111b
+					110b
+					115b
+				]
+				type: "gtocore:technode"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5D50B1FC74B8543D"]
+			id: "4F5FFA9846652C13"
+			tasks: [{
+				id: "141834B544B267E8"
+				node: [B;
+					13b
+					2b
+					12b
+					9b
+					109b
+					97b
+					105b
+					110b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					14b
+					108b
+					97b
+					115b
+					101b
+					114b
+					95b
+					101b
+					110b
+					103b
+					114b
+					97b
+					118b
+					101b
+					114b
+				]
+				type: "gtocore:technode"
+			}]
+			x: 2.132d
+			y: 0.281d
+		}
+		{
+			id: "2FCE35333B13B627"
+			tasks: [{
+				id: "6247B2F2CEBD6BCB"
+				node: [B;
+					13b
+					2b
+					12b
+					9b
+					109b
+					97b
+					105b
+					110b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					9b
+					100b
+					97b
+					116b
+					97b
+					95b
+					98b
+					97b
+					115b
+					101b
+				]
+				type: "gtocore:technode"
+			}]
+			x: -0.123d
+			y: -4.698d
+		}
+		{
+			id: "597D68383EB370B9"
+			tasks: [{
+				id: "3F6BD7A152F5F354"
+				node: [B;
+					13b
+					2b
+					12b
+					9b
+					109b
+					97b
+					105b
+					110b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					15b
+					110b
+					117b
+					99b
+					108b
+					101b
+					97b
+					114b
+					95b
+					112b
+					104b
+					121b
+					115b
+					105b
+					99b
+					115b
+				]
+				type: "gtocore:technode"
+			}]
+			x: -3.653d
+			y: -2.958d
+		}
+		{
+			id: "6EABD7AE2CB6A73F"
+			tasks: [{
+				id: "254CAEC96A5AFBBC"
+				node: [B;
+					13b
+					2b
+					12b
+					9b
+					109b
+					97b
+					105b
+					110b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					34b
+					115b
+					117b
+					112b
+					101b
+					114b
+					95b
+					99b
+					111b
+					110b
+					100b
+					117b
+					99b
+					116b
+					105b
+					110b
+					103b
+					95b
+					109b
+					97b
+					116b
+					101b
+					114b
+					105b
+					97b
+					108b
+					95b
+					114b
+					101b
+					115b
+					101b
+					97b
+					114b
+					99b
+					104b
+				]
+				type: "gtocore:technode"
+			}]
+			x: -4.58d
+			y: -1.057d
+		}
+		{
+			id: "20E938ED63D08544"
+			tasks: [{
+				id: "68DA5553266176D7"
+				node: [B;
+					13b
+					2b
+					12b
+					9b
+					109b
+					97b
+					105b
+					110b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					34b
+					115b
+					117b
+					112b
+					101b
+					114b
+					99b
+					114b
+					105b
+					116b
+					105b
+					99b
+					97b
+					108b
+					95b
+					112b
+					104b
+					97b
+					115b
+					101b
+					95b
+					98b
+					97b
+					115b
+					105b
+					99b
+					95b
+					114b
+					101b
+					115b
+					101b
+					97b
+					114b
+					99b
+					104b
+				]
+				type: "gtocore:technode"
+			}]
+			x: 4.05d
+			y: 2.385d
+		}
+		{
+			id: "45CE3A4CB4BE6EF4"
+			tasks: [{
+				id: "40F33D32F3089FFB"
+				node: [B;
+					13b
+					2b
+					12b
+					9b
+					109b
+					97b
+					105b
+					110b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					14b
+					116b
+					104b
+					101b
+					114b
+					109b
+					111b
+					100b
+					121b
+					110b
+					97b
+					109b
+					105b
+					99b
+					115b
+				]
+				type: "gtocore:technode"
+			}]
+			x: 3.052d
+			y: 3.574d
+		}
+		{
+			id: "09CB6A12BF63D0FA"
+			tasks: [{
+				id: "0BA3C14A1025A809"
+				node: [B;
+					13b
+					2b
+					12b
+					14b
+					99b
+					111b
+					109b
+					112b
+					111b
+					110b
+					101b
+					110b
+					116b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					26b
+					99b
+					111b
+					109b
+					112b
+					111b
+					110b
+					101b
+					110b
+					116b
+					95b
+					105b
+					110b
+					95b
+					97b
+					115b
+					115b
+					101b
+					109b
+					98b
+					108b
+					121b
+					95b
+					108b
+					105b
+					110b
+					101b
+				]
+				type: "gtocore:technode"
+			}]
+			x: -4.402d
+			y: 1.646d
+		}
+		{
+			id: "5A4F9A89E6E87307"
+			tasks: [{
+				id: "5FB15A86CBCA9062"
+				node: [B;
+					13b
+					2b
+					12b
+					13b
+					109b
+					97b
+					99b
+					104b
+					105b
+					110b
+					101b
+					115b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					25b
+					105b
+					114b
+					105b
+					100b
+					105b
+					117b
+					109b
+					95b
+					99b
+					97b
+					115b
+					105b
+					110b
+					103b
+					95b
+					112b
+					114b
+					111b
+					100b
+					117b
+					99b
+					116b
+					105b
+					111b
+					110b
+				]
+				type: "gtocore:technode"
+			}]
+			x: 4.388d
+			y: -1.684d
+		}
+		{
+			id: "43073831B0F5D18D"
+			tasks: [{
+				id: "439284CEA6EEB732"
+				node: [B;
+					13b
+					2b
+					12b
+					7b
+					97b
+					101b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					16b
+					98b
+					97b
+					115b
+					101b
+					95b
+					109b
+					101b
+					95b
+					109b
+					97b
+					99b
+					104b
+					105b
+					110b
+					101b
+					115b
+				]
+				type: "gtocore:technode"
+			}]
+			x: 1.491d
+			y: -4.457d
+		}
+		{
+			id: "02B8A0FD561D0A75"
+			tasks: [{
+				id: "57EE4AE0F48AAB3E"
+				node: [B;
+					13b
+					2b
+					12b
+					11b
+					101b
+					110b
+					101b
+					114b
+					103b
+					121b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					10b
+					101b
+					110b
+					101b
+					114b
+					103b
+					121b
+					95b
+					105b
+					111b
+					54b
+				]
+				type: "gtocore:technode"
+			}]
+			x: 1.646d
+			y: 4.402d
+		}
+		{
+			id: "207A2FD2C7BCA822"
+			tasks: [{
+				id: "00B9216FDD97FBD4"
+				node: [B;
+					13b
+					2b
+					12b
+					11b
+					101b
+					110b
+					101b
+					114b
+					103b
+					121b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					27b
+					104b
+					105b
+					103b
+					104b
+					95b
+					100b
+					101b
+					110b
+					115b
+					105b
+					116b
+					121b
+					95b
+					101b
+					110b
+					101b
+					114b
+					103b
+					121b
+					95b
+					115b
+					116b
+					111b
+					114b
+					97b
+					103b
+					101b
+				]
+				type: "gtocore:technode"
+			}]
+			x: 0.041d
+			y: 4.7d
+		}
+		{
+			id: "363097F9B264CB68"
+			tasks: [{
+				id: "5EEDB15E9C0CB032"
+				node: [B;
+					13b
+					2b
+					12b
+					10b
+					115b
+					112b
+					97b
+					99b
+					101b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					17b
+					115b
+					117b
+					112b
+					101b
+					114b
+					95b
+					114b
+					111b
+					99b
+					107b
+					101b
+					116b
+					95b
+					116b
+					101b
+					99b
+					104b
+				]
+				type: "gtocore:technode"
+			}]
+			x: -1.53d
+			y: 4.444d
+		}
+		{
+			id: "298FF02A83EA9D26"
+			tasks: [{
+				id: "3DD799176124F737"
+				node: [B;
+					13b
+					2b
+					12b
+					9b
+					109b
+					97b
+					105b
+					110b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					14b
+					116b
+					104b
+					101b
+					114b
+					109b
+					111b
+					100b
+					121b
+					110b
+					97b
+					109b
+					105b
+					99b
+					115b
+				]
+				type: "gtocore:technode"
+			}]
+			x: 2.861d
+			y: -3.729d
+		}
+		{
+			id: "0F6932F6C4706F10"
+			tasks: [{
+				id: "3CD47EF7FDD92E37"
+				node: [B;
+					13b
+					2b
+					12b
+					13b
+					109b
+					97b
+					99b
+					104b
+					105b
+					110b
+					101b
+					115b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					34b
+					99b
+					104b
+					101b
+					109b
+					105b
+					99b
+					97b
+					108b
+					95b
+					112b
+					108b
+					97b
+					110b
+					116b
+					95b
+					101b
+					110b
+					118b
+					105b
+					114b
+					111b
+					110b
+					109b
+					101b
+					110b
+					116b
+					95b
+					99b
+					111b
+					110b
+					116b
+					114b
+					111b
+					108b
+				]
+				type: "gtocore:technode"
+			}]
+			x: -2.958d
+			y: 3.653d
+		}
+		{
+			dependencies: [
+				"156FFF2D2916DF18"
+				"5666DB834585E50F"
+			]
+			id: "245BEB9DEBFF19F1"
+			tasks: [{
+				id: "0BBBD5DFBF74F92B"
+				node: [B;
+					13b
+					2b
+					12b
+					14b
+					99b
+					111b
+					109b
+					112b
+					111b
+					110b
+					101b
+					110b
+					116b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					17b
+					99b
+					111b
+					109b
+					112b
+					111b
+					110b
+					101b
+					110b
+					116b
+					95b
+					99b
+					97b
+					115b
+					105b
+					110b
+					103b
+					55b
+				]
+				type: "gtocore:technode"
+			}]
+			x: -7.662d
+			y: 2.249d
+		}
+		{
+			dependencies: ["09CB6A12BF63D0FA"]
+			id: "156FFF2D2916DF18"
+			tasks: [{
+				id: "6D19984CD79900A9"
+				node: [B;
+					13b
+					2b
+					12b
+					14b
+					99b
+					111b
+					109b
+					112b
+					111b
+					110b
+					101b
+					110b
+					116b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					17b
+					99b
+					111b
+					109b
+					112b
+					111b
+					110b
+					101b
+					110b
+					116b
+					95b
+					99b
+					97b
+					115b
+					105b
+					110b
+					103b
+					54b
+				]
+				type: "gtocore:technode"
+			}]
+			x: -6.048d
+			y: 1.957d
+		}
+		{
+			dependencies: ["09CB6A12BF63D0FA"]
+			id: "5666DB834585E50F"
+			tasks: [{
+				id: "78E2578F799594EF"
+				node: [B;
+					13b
+					2b
+					12b
+					14b
+					99b
+					111b
+					109b
+					112b
+					111b
+					110b
+					101b
+					110b
+					116b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					27b
+					99b
+					111b
+					109b
+					112b
+					111b
+					110b
+					101b
+					110b
+					116b
+					95b
+					105b
+					110b
+					95b
+					97b
+					115b
+					115b
+					101b
+					109b
+					98b
+					108b
+					121b
+					95b
+					108b
+					105b
+					110b
+					101b
+					49b
+				]
+				type: "gtocore:technode"
+			}]
+			x: -6.351d
+			y: 0.285d
+		}
+		{
+			dependencies: [
+				"245BEB9DEBFF19F1"
+				"59FDF009AFE32A94"
+			]
+			id: "17B1A47A6C11B09F"
+			tasks: [{
+				id: "2E6AE1CAE5A7E166"
+				node: [B;
+					13b
+					2b
+					12b
+					14b
+					99b
+					111b
+					109b
+					112b
+					111b
+					110b
+					101b
+					110b
+					116b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					17b
+					99b
+					111b
+					109b
+					112b
+					111b
+					110b
+					101b
+					110b
+					116b
+					95b
+					99b
+					97b
+					115b
+					105b
+					110b
+					103b
+					56b
+				]
+				type: "gtocore:technode"
+			}]
+			x: -9.276d
+			y: 2.541d
+		}
+		{
+			dependencies: ["5666DB834585E50F"]
+			id: "59FDF009AFE32A94"
+			tasks: [{
+				id: "386B34FF574BC416"
+				node: [B;
+					13b
+					2b
+					12b
+					14b
+					99b
+					111b
+					109b
+					112b
+					111b
+					110b
+					101b
+					110b
+					116b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					27b
+					99b
+					111b
+					109b
+					112b
+					111b
+					110b
+					101b
+					110b
+					116b
+					95b
+					105b
+					110b
+					95b
+					97b
+					115b
+					115b
+					101b
+					109b
+					98b
+					108b
+					121b
+					95b
+					108b
+					105b
+					110b
+					101b
+					50b
+				]
+				type: "gtocore:technode"
+			}]
+			x: -7.965d
+			y: 0.576d
+		}
+		{
+			dependencies: [
+				"17B1A47A6C11B09F"
+				"6DFC0B5C6087A0B0"
+			]
+			id: "69807CF026CF706B"
+			tasks: [{
+				id: "641242E4FA3F0BCB"
+				node: [B;
+					13b
+					2b
+					12b
+					14b
+					99b
+					111b
+					109b
+					112b
+					111b
+					110b
+					101b
+					110b
+					116b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					17b
+					99b
+					111b
+					109b
+					112b
+					111b
+					110b
+					101b
+					110b
+					116b
+					95b
+					99b
+					97b
+					115b
+					105b
+					110b
+					103b
+					57b
+				]
+				type: "gtocore:technode"
+			}]
+			x: -10.89d
+			y: 2.833d
+		}
+		{
+			dependencies: ["59FDF009AFE32A94"]
+			id: "6DFC0B5C6087A0B0"
+			tasks: [{
+				id: "4E62A6103CE41DB3"
+				node: [B;
+					13b
+					2b
+					12b
+					14b
+					99b
+					111b
+					109b
+					112b
+					111b
+					110b
+					101b
+					110b
+					116b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					27b
+					99b
+					111b
+					109b
+					112b
+					111b
+					110b
+					101b
+					110b
+					116b
+					95b
+					105b
+					110b
+					95b
+					97b
+					115b
+					115b
+					101b
+					109b
+					98b
+					108b
+					121b
+					95b
+					108b
+					105b
+					110b
+					101b
+					51b
+				]
+				type: "gtocore:technode"
+			}]
+			x: -9.578d
+			y: 0.868d
+		}
+		{
+			dependencies: ["6DFC0B5C6087A0B0"]
+			id: "0E2018B94CF37E17"
+			tasks: [{
+				id: "3D14374EA356C4B9"
+				node: [B;
+					13b
+					2b
+					12b
+					14b
+					99b
+					111b
+					109b
+					112b
+					111b
+					110b
+					101b
+					110b
+					116b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					27b
+					99b
+					111b
+					109b
+					112b
+					111b
+					110b
+					101b
+					110b
+					116b
+					95b
+					105b
+					110b
+					95b
+					97b
+					115b
+					115b
+					101b
+					109b
+					98b
+					108b
+					121b
+					95b
+					108b
+					105b
+					110b
+					101b
+					52b
+				]
+				type: "gtocore:technode"
+			}]
+			x: -11.192d
+			y: 1.16d
+		}
+		{
+			dependencies: ["0E2018B94CF37E17"]
+			id: "3CFD5DD1B58951E6"
+			tasks: [{
+				id: "440841D34757A5A0"
+				node: [B;
+					13b
+					2b
+					12b
+					14b
+					99b
+					111b
+					109b
+					112b
+					111b
+					110b
+					101b
+					110b
+					116b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					27b
+					99b
+					111b
+					109b
+					112b
+					111b
+					110b
+					101b
+					110b
+					116b
+					95b
+					105b
+					110b
+					95b
+					97b
+					115b
+					115b
+					101b
+					109b
+					98b
+					108b
+					121b
+					95b
+					108b
+					105b
+					110b
+					101b
+					53b
+				]
+				type: "gtocore:technode"
+			}]
+			x: -12.806d
+			y: 1.452d
+		}
+		{
+			dependencies: ["3CFD5DD1B58951E6"]
+			id: "7F0BF644915ED4E5"
+			tasks: [{
+				id: "64ADEA14E29B0414"
+				node: [B;
+					13b
+					2b
+					12b
+					14b
+					99b
+					111b
+					109b
+					112b
+					111b
+					110b
+					101b
+					110b
+					116b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					27b
+					99b
+					111b
+					109b
+					112b
+					111b
+					110b
+					101b
+					110b
+					116b
+					95b
+					105b
+					110b
+					95b
+					97b
+					115b
+					115b
+					101b
+					109b
+					98b
+					108b
+					121b
+					95b
+					108b
+					105b
+					110b
+					101b
+					54b
+				]
+				type: "gtocore:technode"
+			}]
+			x: -14.42d
+			y: 1.744d
+		}
+		{
+			dependencies: ["7F0BF644915ED4E5"]
+			id: "5CDB32DA19D80B5C"
+			tasks: [{
+				id: "0DA63A8C6859D7DA"
+				node: [B;
+					13b
+					2b
+					12b
+					14b
+					99b
+					111b
+					109b
+					112b
+					111b
+					110b
+					101b
+					110b
+					116b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					27b
+					99b
+					111b
+					109b
+					112b
+					111b
+					110b
+					101b
+					110b
+					116b
+					95b
+					105b
+					110b
+					95b
+					97b
+					115b
+					115b
+					101b
+					109b
+					98b
+					108b
+					121b
+					95b
+					108b
+					105b
+					110b
+					101b
+					55b
+				]
+				type: "gtocore:technode"
+			}]
+			x: -16.034d
+			y: 2.036d
+		}
+		{
+			dependencies: ["5CDB32DA19D80B5C"]
+			id: "511226320C86DF4D"
+			tasks: [{
+				id: "6499D0EBF2831164"
+				node: [B;
+					13b
+					2b
+					12b
+					14b
+					99b
+					111b
+					109b
+					112b
+					111b
+					110b
+					101b
+					110b
+					116b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					27b
+					99b
+					111b
+					109b
+					112b
+					111b
+					110b
+					101b
+					110b
+					116b
+					95b
+					105b
+					110b
+					95b
+					97b
+					115b
+					115b
+					101b
+					109b
+					98b
+					108b
+					121b
+					95b
+					108b
+					105b
+					110b
+					101b
+					56b
+				]
+				type: "gtocore:technode"
+			}]
+			x: -17.647d
+			y: 2.327d
+		}
+		{
+			dependencies: [
+				"69807CF026CF706B"
+				"0E2018B94CF37E17"
+			]
+			id: "6A86A628062B708D"
+			tasks: [{
+				id: "34D821DB87950BD6"
+				node: [B;
+					13b
+					2b
+					12b
+					14b
+					99b
+					111b
+					109b
+					112b
+					111b
+					110b
+					101b
+					110b
+					116b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					18b
+					99b
+					111b
+					109b
+					112b
+					111b
+					110b
+					101b
+					110b
+					116b
+					95b
+					99b
+					97b
+					115b
+					105b
+					110b
+					103b
+					49b
+					48b
+				]
+				type: "gtocore:technode"
+			}]
+			x: -12.504d
+			y: 3.125d
+		}
+		{
+			dependencies: [
+				"6A86A628062B708D"
+				"3CFD5DD1B58951E6"
+			]
+			id: "24063AF9F9B4FA73"
+			tasks: [{
+				id: "52743D6F7D1273AA"
+				node: [B;
+					13b
+					2b
+					12b
+					14b
+					99b
+					111b
+					109b
+					112b
+					111b
+					110b
+					101b
+					110b
+					116b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					18b
+					99b
+					111b
+					109b
+					112b
+					111b
+					110b
+					101b
+					110b
+					116b
+					95b
+					99b
+					97b
+					115b
+					105b
+					110b
+					103b
+					49b
+					49b
+				]
+				type: "gtocore:technode"
+			}]
+			x: -14.117d
+			y: 3.417d
+		}
+		{
+			dependencies: [
+				"24063AF9F9B4FA73"
+				"7F0BF644915ED4E5"
+			]
+			id: "525D5E93212EAF21"
+			tasks: [{
+				id: "413AB238638856AA"
+				node: [B;
+					13b
+					2b
+					12b
+					14b
+					99b
+					111b
+					109b
+					112b
+					111b
+					110b
+					101b
+					110b
+					116b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					18b
+					99b
+					111b
+					109b
+					112b
+					111b
+					110b
+					101b
+					110b
+					116b
+					95b
+					99b
+					97b
+					115b
+					105b
+					110b
+					103b
+					49b
+					50b
+				]
+				type: "gtocore:technode"
+			}]
+			x: -15.731d
+			y: 3.708d
+		}
+		{
+			dependencies: [
+				"525D5E93212EAF21"
+				"5CDB32DA19D80B5C"
+			]
+			id: "281AD78D63E66058"
+			tasks: [{
+				id: "2E81E380F6E2A560"
+				node: [B;
+					13b
+					2b
+					12b
+					14b
+					99b
+					111b
+					109b
+					112b
+					111b
+					110b
+					101b
+					110b
+					116b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					18b
+					99b
+					111b
+					109b
+					112b
+					111b
+					110b
+					101b
+					110b
+					116b
+					95b
+					99b
+					97b
+					115b
+					105b
+					110b
+					103b
+					49b
+					51b
+				]
+				type: "gtocore:technode"
+			}]
+			x: -17.345d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"281AD78D63E66058"
+				"511226320C86DF4D"
+			]
+			id: "1EA3CE4839C6F790"
+			tasks: [{
+				id: "26A44E761CD67E26"
+				node: [B;
+					13b
+					2b
+					12b
+					14b
+					99b
+					111b
+					109b
+					112b
+					111b
+					110b
+					101b
+					110b
+					116b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					18b
+					99b
+					111b
+					109b
+					112b
+					111b
+					110b
+					101b
+					110b
+					116b
+					95b
+					99b
+					97b
+					115b
+					105b
+					110b
+					103b
+					49b
+					52b
+				]
+				type: "gtocore:technode"
+			}]
+			x: -18.959d
+			y: 4.292d
+		}
+		{
+			id: "7BC5934E2C8B3DE8"
+			tasks: [{
+				id: "48A2A196B8802279"
+				node: [B;
+					13b
+					2b
+					12b
+					9b
+					109b
+					97b
+					105b
+					110b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					12b
+					119b
+					101b
+					116b
+					119b
+					97b
+					114b
+					101b
+					95b
+					116b
+					101b
+					99b
+					104b
+				]
+				type: "gtocore:technode"
+			}]
+			x: -1.986d
+			y: -4.26d
+		}
+		{
+			dependencies: ["43073831B0F5D18D"]
+			id: "3D2461570B8614FD"
+			tasks: [{
+				id: "2CC43E09B2418061"
+				node: [B;
+					13b
+					2b
+					12b
+					7b
+					97b
+					101b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					20b
+					109b
+					101b
+					95b
+					97b
+					100b
+					118b
+					97b
+					110b
+					99b
+					101b
+					100b
+					95b
+					97b
+					115b
+					115b
+					101b
+					109b
+					98b
+					108b
+					121b
+				]
+				type: "gtocore:technode"
+			}]
+			x: 1.3d
+			y: -6.102d
+		}
+		{
+			dependencies: ["43073831B0F5D18D"]
+			id: "59B29099F7B6C35C"
+			tasks: [{
+				id: "2CC44A3FDB0BA8A7"
+				node: [B;
+					13b
+					2b
+					12b
+					7b
+					97b
+					101b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					21b
+					109b
+					101b
+					95b
+					99b
+					97b
+					112b
+					97b
+					99b
+					105b
+					116b
+					121b
+					95b
+					101b
+					120b
+					112b
+					97b
+					110b
+					115b
+					105b
+					111b
+					110b
+				]
+				type: "gtocore:technode"
+			}]
+			x: 2.543d
+			y: -7.188d
+		}
+		{
+			dependencies: ["43073831B0F5D18D"]
+			id: "53591E9C26577786"
+			tasks: [{
+				id: "2CBD8421F66C0BEB"
+				node: [B;
+					13b
+					2b
+					12b
+					7b
+					97b
+					101b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					21b
+					109b
+					101b
+					95b
+					99b
+					97b
+					116b
+					97b
+					108b
+					121b
+					115b
+					116b
+					95b
+					115b
+					117b
+					112b
+					112b
+					108b
+					121b
+					105b
+					110b
+					103b
+				]
+				type: "gtocore:technode"
+			}]
+			x: 2.998d
+			y: -8.961d
+		}
+		{
+			dependencies: ["43073831B0F5D18D"]
+			id: "77B12AC038B82928"
+			tasks: [{
+				id: "121A7930F08A80F2"
+				node: [B;
+					13b
+					2b
+					12b
+					7b
+					97b
+					101b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					26b
+					109b
+					101b
+					95b
+					115b
+					109b
+					97b
+					114b
+					116b
+					95b
+					103b
+					97b
+					116b
+					105b
+					110b
+					103b
+					95b
+					99b
+					108b
+					117b
+					115b
+					116b
+					101b
+					114b
+					105b
+					110b
+					103b
+				]
+				type: "gtocore:technode"
+			}]
+			x: 4.136d
+			y: -10.085d
+		}
+		{
+			dependencies: ["43073831B0F5D18D"]
+			id: "215F9BC96BCF00D4"
+			tasks: [{
+				id: "44A78958DE4F4FF6"
+				node: [B;
+					13b
+					2b
+					12b
+					7b
+					97b
+					101b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					18b
+					109b
+					101b
+					95b
+					119b
+					97b
+					115b
+					116b
+					101b
+					95b
+					114b
+					101b
+					99b
+					121b
+					99b
+					108b
+					105b
+					110b
+					103b
+				]
+				type: "gtocore:technode"
+			}]
+			x: 2.786d
+			y: -5.637d
+		}
+		{
+			dependencies: ["363097F9B264CB68"]
+			id: "68DE55863B4EC15B"
+			tasks: [{
+				id: "43E86BDA6891B0C7"
+				node: [B;
+					13b
+					2b
+					12b
+					10b
+					115b
+					112b
+					97b
+					99b
+					101b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					14b
+					115b
+					112b
+					97b
+					99b
+					101b
+					95b
+					101b
+					108b
+					101b
+					118b
+					97b
+					116b
+					111b
+					114b
+				]
+				type: "gtocore:technode"
+			}]
+			x: -1.424d
+			y: 6.061d
+		}
+		{
+			dependencies: ["68DE55863B4EC15B"]
+			id: "0EC5430CB642FC6D"
+			tasks: [{
+				id: "2F015AC63F1CEC80"
+				node: [B;
+					13b
+					2b
+					12b
+					10b
+					115b
+					112b
+					97b
+					99b
+					101b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					15b
+					115b
+					112b
+					97b
+					99b
+					101b
+					95b
+					101b
+					108b
+					101b
+					118b
+					97b
+					116b
+					111b
+					114b
+					50b
+				]
+				type: "gtocore:technode"
+			}]
+			x: -2.218d
+			y: 7.893d
+		}
+		{
+			dependencies: ["0EC5430CB642FC6D"]
+			id: "6E14548EDBEA0794"
+			tasks: [{
+				id: "24731DBDEC89175E"
+				node: [B;
+					13b
+					2b
+					12b
+					10b
+					115b
+					112b
+					97b
+					99b
+					101b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					15b
+					115b
+					112b
+					97b
+					99b
+					101b
+					95b
+					101b
+					108b
+					101b
+					118b
+					97b
+					116b
+					111b
+					114b
+					51b
+				]
+				type: "gtocore:technode"
+			}]
+			x: -2.617d
+			y: 9.444d
+		}
+		{
+			dependencies: ["6E14548EDBEA0794"]
+			id: "3051F684D45B392B"
+			tasks: [{
+				id: "0744C2841B28402F"
+				node: [B;
+					13b
+					2b
+					12b
+					10b
+					115b
+					112b
+					97b
+					99b
+					101b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					15b
+					115b
+					112b
+					97b
+					99b
+					101b
+					95b
+					101b
+					108b
+					101b
+					118b
+					97b
+					116b
+					111b
+					114b
+					52b
+				]
+				type: "gtocore:technode"
+			}]
+			x: -3.822d
+			y: 10.793d
+		}
+		{
+			dependencies: ["3051F684D45B392B"]
+			id: "75C3E3D865F9B359"
+			tasks: [{
+				id: "449085178E713555"
+				node: [B;
+					13b
+					2b
+					12b
+					10b
+					115b
+					112b
+					97b
+					99b
+					101b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					15b
+					115b
+					112b
+					97b
+					99b
+					101b
+					95b
+					101b
+					108b
+					101b
+					118b
+					97b
+					116b
+					111b
+					114b
+					53b
+				]
+				type: "gtocore:technode"
+			}]
+			x: -5.453d
+			y: 11.966d
+		}
+		{
+			dependencies: ["75C3E3D865F9B359"]
+			id: "10021F22DA214267"
+			tasks: [{
+				id: "3C8F32099728E400"
+				node: [B;
+					13b
+					2b
+					12b
+					10b
+					115b
+					112b
+					97b
+					99b
+					101b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					29b
+					115b
+					112b
+					97b
+					99b
+					101b
+					95b
+					112b
+					114b
+					111b
+					98b
+					101b
+					95b
+					115b
+					117b
+					114b
+					102b
+					97b
+					99b
+					101b
+					95b
+					114b
+					101b
+					99b
+					101b
+					112b
+					116b
+					105b
+					111b
+					110b
+				]
+				type: "gtocore:technode"
+			}]
+			x: -7.425d
+			y: 12.86d
+		}
+		{
+			dependencies: ["02B8A0FD561D0A75"]
+			id: "1AAF2D45D79DB2D0"
+			tasks: [{
+				id: "3503134CC014E09F"
+				node: [B;
+					13b
+					2b
+					12b
+					11b
+					101b
+					110b
+					101b
+					114b
+					103b
+					121b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					10b
+					101b
+					110b
+					101b
+					114b
+					103b
+					121b
+					95b
+					105b
+					111b
+					55b
+				]
+				type: "gtocore:technode"
+			}]
+			x: 3.236d
+			y: 5.292d
+		}
+		{
+			dependencies: ["1AAF2D45D79DB2D0"]
+			id: "224FE23063A19848"
+			tasks: [{
+				id: "449667FB25C6DC6D"
+				node: [B;
+					13b
+					2b
+					12b
+					11b
+					101b
+					110b
+					101b
+					114b
+					103b
+					121b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					10b
+					101b
+					110b
+					101b
+					114b
+					103b
+					121b
+					95b
+					105b
+					111b
+					56b
+				]
+				type: "gtocore:technode"
+			}]
+			x: 4.454d
+			y: 6.81d
+		}
+		{
+			dependencies: ["224FE23063A19848"]
+			id: "6980F212CDDA7A38"
+			tasks: [{
+				id: "577B97030337BD25"
+				node: [B;
+					13b
+					2b
+					12b
+					11b
+					101b
+					110b
+					101b
+					114b
+					103b
+					121b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					10b
+					101b
+					110b
+					101b
+					114b
+					103b
+					121b
+					95b
+					105b
+					111b
+					57b
+				]
+				type: "gtocore:technode"
+			}]
+			x: 4.824d
+			y: 8.442d
+		}
+		{
+			dependencies: ["6980F212CDDA7A38"]
+			id: "6BE0C3A7FF8C063A"
+			tasks: [{
+				id: "62C9A1552A84F346"
+				node: [B;
+					13b
+					2b
+					12b
+					11b
+					101b
+					110b
+					101b
+					114b
+					103b
+					121b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					11b
+					101b
+					110b
+					101b
+					114b
+					103b
+					121b
+					95b
+					105b
+					111b
+					49b
+					48b
+				]
+				type: "gtocore:technode"
+			}]
+			x: 5.532d
+			y: 10.154d
+		}
+		{
+			dependencies: ["6BE0C3A7FF8C063A"]
+			id: "77FE6F0094568F7E"
+			tasks: [{
+				id: "40D9DF5A3F2178BB"
+				node: [B;
+					13b
+					2b
+					12b
+					11b
+					101b
+					110b
+					101b
+					114b
+					103b
+					121b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					11b
+					101b
+					110b
+					101b
+					114b
+					103b
+					121b
+					95b
+					105b
+					111b
+					49b
+					49b
+				]
+				type: "gtocore:technode"
+			}]
+			x: 5.489d
+			y: 11.696d
+		}
+		{
+			dependencies: ["77FE6F0094568F7E"]
+			id: "43B265EA0BEAD8CF"
+			tasks: [{
+				id: "072579E4641F38FC"
+				node: [B;
+					13b
+					2b
+					12b
+					11b
+					101b
+					110b
+					101b
+					114b
+					103b
+					121b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					11b
+					101b
+					110b
+					101b
+					114b
+					103b
+					121b
+					95b
+					105b
+					111b
+					49b
+					50b
+				]
+				type: "gtocore:technode"
+			}]
+			x: 5.538d
+			y: 13.781d
+		}
+		{
+			dependencies: ["43B265EA0BEAD8CF"]
+			id: "6D2F041BEA4FD825"
+			tasks: [{
+				id: "2B3EF6E434662E4D"
+				node: [B;
+					13b
+					2b
+					12b
+					11b
+					101b
+					110b
+					101b
+					114b
+					103b
+					121b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					11b
+					101b
+					110b
+					101b
+					114b
+					103b
+					121b
+					95b
+					105b
+					111b
+					49b
+					51b
+				]
+				type: "gtocore:technode"
+			}]
+			x: 3.651d
+			y: 15.677d
+		}
+		{
+			dependencies: ["6D2F041BEA4FD825"]
+			id: "5B116F9C27F65324"
+			tasks: [{
+				id: "0793E7CC8FA407ED"
+				node: [B;
+					13b
+					2b
+					12b
+					11b
+					101b
+					110b
+					101b
+					114b
+					103b
+					121b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					11b
+					101b
+					110b
+					101b
+					114b
+					103b
+					121b
+					95b
+					105b
+					111b
+					49b
+					52b
+				]
+				type: "gtocore:technode"
+			}]
+			x: 3.346d
+			y: 17.331d
+		}
+		{
+			dependencies: ["207A2FD2C7BCA822"]
+			id: "1496699E97ADAEED"
+			tasks: [{
+				id: "515E64CE988C40FB"
+				node: [B;
+					13b
+					2b
+					12b
+					11b
+					101b
+					110b
+					101b
+					114b
+					103b
+					121b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					20b
+					101b
+					110b
+					101b
+					114b
+					103b
+					121b
+					95b
+					102b
+					108b
+					117b
+					120b
+					95b
+					97b
+					110b
+					97b
+					108b
+					121b
+					115b
+					105b
+					115b
+				]
+				type: "gtocore:technode"
+			}]
+			x: -0.644d
+			y: 7.395d
+		}
+		{
+			dependencies: ["207A2FD2C7BCA822"]
+			id: "59010F1B39FBAC53"
+			tasks: [{
+				id: "4A510B1A560F9A6E"
+				node: [B;
+					13b
+					2b
+					12b
+					11b
+					101b
+					110b
+					101b
+					114b
+					103b
+					121b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					23b
+					117b
+					108b
+					116b
+					105b
+					109b
+					97b
+					116b
+					101b
+					95b
+					101b
+					110b
+					101b
+					114b
+					103b
+					121b
+					95b
+					115b
+					116b
+					111b
+					114b
+					97b
+					103b
+					101b
+				]
+				type: "gtocore:technode"
+			}]
+			x: 0.439d
+			y: 6.229d
+		}
+		{
+			dependencies: ["59010F1B39FBAC53"]
+			id: "73211B9D3CEDBB86"
+			tasks: [{
+				id: "4383DE4413071E22"
+				node: [B;
+					13b
+					2b
+					12b
+					11b
+					101b
+					110b
+					101b
+					114b
+					103b
+					121b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					17b
+					117b
+					108b
+					116b
+					105b
+					109b
+					97b
+					116b
+					101b
+					95b
+					98b
+					97b
+					116b
+					116b
+					101b
+					114b
+					121b
+					50b
+				]
+				type: "gtocore:technode"
+			}]
+			x: 0.673d
+			y: 8.345d
+		}
+		{
+			dependencies: ["73211B9D3CEDBB86"]
+			id: "171F53DEA44B1F9F"
+			tasks: [{
+				id: "0DCB5C5AA9CBAC50"
+				node: [B;
+					13b
+					2b
+					12b
+					11b
+					101b
+					110b
+					101b
+					114b
+					103b
+					121b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					17b
+					117b
+					108b
+					116b
+					105b
+					109b
+					97b
+					116b
+					101b
+					95b
+					98b
+					97b
+					116b
+					116b
+					101b
+					114b
+					121b
+					51b
+				]
+				type: "gtocore:technode"
+			}]
+			x: -0.425d
+			y: 9.741d
+		}
+		{
+			dependencies: ["171F53DEA44B1F9F"]
+			id: "0BA00C648E9D20BF"
+			tasks: [{
+				id: "7ECF0497B93A92D4"
+				node: [B;
+					13b
+					2b
+					12b
+					11b
+					101b
+					110b
+					101b
+					114b
+					103b
+					121b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					17b
+					117b
+					108b
+					116b
+					105b
+					109b
+					97b
+					116b
+					101b
+					95b
+					98b
+					97b
+					116b
+					116b
+					101b
+					114b
+					121b
+					52b
+				]
+				type: "gtocore:technode"
+			}]
+			x: -1.202d
+			y: 11.437d
+		}
+		{
+			dependencies: ["0BA00C648E9D20BF"]
+			id: "6E4378EEA22D1731"
+			tasks: [{
+				id: "3AF86120510212D1"
+				node: [B;
+					13b
+					2b
+					12b
+					11b
+					101b
+					110b
+					101b
+					114b
+					103b
+					121b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					17b
+					117b
+					108b
+					116b
+					105b
+					109b
+					97b
+					116b
+					101b
+					95b
+					98b
+					97b
+					116b
+					116b
+					101b
+					114b
+					121b
+					53b
+				]
+				type: "gtocore:technode"
+			}]
+			x: -2.073d
+			y: 13.087d
+		}
+		{
+			dependencies: ["6E4378EEA22D1731"]
+			id: "6E65EF48EC653A84"
+			tasks: [{
+				id: "2D3705138D86DEC7"
+				node: [B;
+					13b
+					2b
+					12b
+					11b
+					101b
+					110b
+					101b
+					114b
+					103b
+					121b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					17b
+					117b
+					108b
+					116b
+					105b
+					109b
+					97b
+					116b
+					101b
+					95b
+					98b
+					97b
+					116b
+					116b
+					101b
+					114b
+					121b
+					54b
+				]
+				type: "gtocore:technode"
+			}]
+			x: -3.108d
+			y: 14.623d
+		}
+		{
+			dependencies: ["14FB5F2D041F821B"]
+			id: "65AC13587B286499"
+			tasks: [{
+				id: "3503225C760B4876"
+				node: [B;
+					13b
+					2b
+					12b
+					11b
+					101b
+					110b
+					101b
+					114b
+					103b
+					121b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					21b
+					98b
+					105b
+					111b
+					95b
+					101b
+					110b
+					101b
+					114b
+					103b
+					121b
+					95b
+					99b
+					111b
+					110b
+					118b
+					101b
+					114b
+					115b
+					105b
+					111b
+					110b
+				]
+				type: "gtocore:technode"
+			}]
+			x: -3.922d
+			y: -6.677d
+		}
+		{
+			dependencies: ["7BC5934E2C8B3DE8"]
+			id: "14FB5F2D041F821B"
+			tasks: [{
+				id: "54FF9AC3B835B4E7"
+				node: [B;
+					13b
+					2b
+					12b
+					9b
+					109b
+					97b
+					105b
+					110b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					12b
+					98b
+					105b
+					111b
+					119b
+					97b
+					114b
+					101b
+					95b
+					116b
+					101b
+					99b
+					104b
+				]
+				type: "gtocore:technode"
+			}]
+			x: -2.654d
+			y: -5.824d
+		}
+		{
+			dependencies: ["59FDF009AFE32A94"]
+			id: "75F7590126B83E0D"
+			tasks: [{
+				id: "0AB3C8ADD555B1C3"
+				node: [B;
+					13b
+					2b
+					12b
+					11b
+					101b
+					110b
+					101b
+					114b
+					103b
+					121b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					22b
+					108b
+					97b
+					114b
+					103b
+					101b
+					95b
+					110b
+					97b
+					113b
+					117b
+					97b
+					100b
+					97b
+					104b
+					95b
+					114b
+					101b
+					97b
+					99b
+					116b
+					111b
+					114b
+				]
+				type: "gtocore:technode"
+			}]
+			x: -19.699d
+			y: 2.001d
+		}
+		{
+			dependencies: ["0F6932F6C4706F10"]
+			id: "139D5B6F5145A2D2"
+			tasks: [{
+				id: "3858011B1192E49A"
+				node: [B;
+					13b
+					2b
+					12b
+					12b
+					110b
+					97b
+					110b
+					105b
+					116b
+					101b
+					115b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					12b
+					110b
+					97b
+					110b
+					105b
+					116b
+					101b
+					115b
+					95b
+					116b
+					101b
+					99b
+					104b
+				]
+				type: "gtocore:technode"
+			}]
+			x: -3.759d
+			y: 5.08d
+		}
+		{
+			dependencies: ["139D5B6F5145A2D2"]
+			id: "392DFB0E815B5BD8"
+			tasks: [{
+				id: "6AA9BDEFF6C80289"
+				node: [B;
+					13b
+					2b
+					12b
+					12b
+					110b
+					97b
+					110b
+					105b
+					116b
+					101b
+					115b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					21b
+					99b
+					105b
+					114b
+					99b
+					117b
+					105b
+					116b
+					95b
+					97b
+					115b
+					115b
+					101b
+					109b
+					98b
+					108b
+					121b
+					95b
+					108b
+					105b
+					110b
+					101b
+				]
+				type: "gtocore:technode"
+			}]
+			x: -4.149d
+			y: 6.77d
+		}
+		{
+			dependencies: ["139D5B6F5145A2D2"]
+			id: "4308CF54921DAC73"
+			tasks: [{
+				id: "451C18247383314D"
+				node: [B;
+					13b
+					2b
+					12b
+					12b
+					110b
+					97b
+					110b
+					105b
+					116b
+					101b
+					115b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					23b
+					110b
+					97b
+					110b
+					105b
+					116b
+					101b
+					115b
+					95b
+					112b
+					114b
+					111b
+					100b
+					117b
+					99b
+					116b
+					105b
+					111b
+					110b
+					95b
+					108b
+					105b
+					110b
+					101b
+				]
+				type: "gtocore:technode"
+			}]
+			x: -5.572d
+			y: 7.531d
+		}
+		{
+			dependencies: ["139D5B6F5145A2D2"]
+			id: "6DEE6A7F996A0DEB"
+			tasks: [{
+				id: "6EA013C142586C11"
+				node: [B;
+					13b
+					2b
+					12b
+					12b
+					110b
+					97b
+					110b
+					105b
+					116b
+					101b
+					115b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					26b
+					110b
+					97b
+					110b
+					105b
+					116b
+					101b
+					115b
+					95b
+					109b
+					97b
+					115b
+					115b
+					105b
+					118b
+					101b
+					95b
+					112b
+					114b
+					111b
+					100b
+					117b
+					99b
+					116b
+					105b
+					111b
+					110b
+				]
+				type: "gtocore:technode"
+			}]
+			x: -7.119d
+			y: 8.047d
+		}
+		{
+			dependencies: ["2FCE35333B13B627"]
+			id: "37F2B6492A605CD2"
+			tasks: [{
+				id: "0960CF8872E77041"
+				node: [B;
+					13b
+					2b
+					12b
+					9b
+					109b
+					97b
+					105b
+					110b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					17b
+					99b
+					111b
+					109b
+					112b
+					117b
+					116b
+					97b
+					116b
+					105b
+					111b
+					110b
+					95b
+					97b
+					114b
+					114b
+					97b
+					121b
+				]
+				type: "gtocore:technode"
+			}]
+			x: -0.981d
+			y: -5.965d
+		}
+		{
+			dependencies: ["2FCE35333B13B627"]
+			id: "2DC3D1220AE4CB53"
+			tasks: [{
+				id: "70D3C7C497C6FEB0"
+				node: [B;
+					13b
+					2b
+					12b
+					9b
+					109b
+					97b
+					105b
+					110b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					16b
+					100b
+					97b
+					116b
+					97b
+					95b
+					105b
+					110b
+					95b
+					114b
+					101b
+					115b
+					101b
+					97b
+					114b
+					99b
+					104b
+				]
+				type: "gtocore:technode"
+			}]
+			x: 0.188d
+			y: -7.21d
+		}
+		{
+			dependencies: [
+				"6EABD7AE2CB6A73F"
+				"597D68383EB370B9"
+			]
+			id: "49F4B7EBBB2ED422"
+			tasks: [{
+				id: "01F7524C3C68D0EE"
+				node: [B;
+					13b
+					2b
+					12b
+					9b
+					109b
+					97b
+					105b
+					110b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					22b
+					116b
+					111b
+					107b
+					97b
+					109b
+					97b
+					107b
+					95b
+					102b
+					117b
+					115b
+					105b
+					111b
+					110b
+					95b
+					114b
+					101b
+					97b
+					99b
+					116b
+					111b
+					114b
+				]
+				type: "gtocore:technode"
+			}]
+			x: -5.867d
+			y: -2.798d
+		}
+		{
+			dependencies: ["2FCE35333B13B627"]
+			id: "22D46DA4A17F4573"
+			tasks: [{
+				id: "09B53275A8B54546"
+				node: [B;
+					13b
+					2b
+					12b
+					9b
+					109b
+					97b
+					105b
+					110b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					12b
+					115b
+					99b
+					97b
+					110b
+					95b
+					115b
+					116b
+					97b
+					116b
+					105b
+					111b
+					110b
+				]
+				type: "gtocore:technode"
+			}]
+			x: 1.185d
+			y: -9.796d
+		}
+		{
+			dependencies: ["09CB6A12BF63D0FA"]
+			id: "0F7BD54231986EA8"
+			tasks: [{
+				id: "76A105D26D640F67"
+				node: [B;
+					13b
+					2b
+					12b
+					9b
+					109b
+					97b
+					105b
+					110b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					22b
+					99b
+					114b
+					121b
+					115b
+					116b
+					97b
+					108b
+					95b
+					116b
+					101b
+					99b
+					104b
+					95b
+					109b
+					97b
+					105b
+					110b
+					102b
+					114b
+					97b
+					109b
+					101b
+				]
+				type: "gtocore:technode"
+			}]
+			x: -7.5d
+			y: 3.5d
+		}
+		{
+			id: "333062B047CDB2FD"
+			tasks: [{
+				id: "22A984AB7B709891"
+				node: [B;
+					13b
+					2b
+					12b
+					9b
+					109b
+					97b
+					105b
+					110b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					10b
+					118b
+					111b
+					105b
+					100b
+					95b
+					109b
+					105b
+					110b
+					101b
+					114b
+				]
+				type: "gtocore:technode"
+			}]
+			x: 4.614d
+			y: 0.897d
+		}
+		{
+			dependencies: ["37F2B6492A605CD2"]
+			id: "042534D82F27A753"
+			tasks: [{
+				id: "67105344F78BBC74"
+				node: [B;
+					13b
+					2b
+					12b
+					9b
+					109b
+					97b
+					105b
+					110b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					22b
+					100b
+					97b
+					116b
+					97b
+					95b
+					115b
+					116b
+					111b
+					114b
+					97b
+					103b
+					101b
+					95b
+					105b
+					116b
+					101b
+					114b
+					97b
+					116b
+					105b
+					111b
+					110b
+				]
+				type: "gtocore:technode"
+			}]
+			x: -1.3d
+			y: -7.465d
+		}
+		{
+			dependencies: ["49F4B7EBBB2ED422"]
+			id: "6D80CF40FA8AEE77"
+			tasks: [{
+				id: "2F3FDF385C0DE79A"
+				node: [B;
+					13b
+					2b
+					12b
+					9b
+					109b
+					97b
+					105b
+					110b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					23b
+					116b
+					111b
+					107b
+					97b
+					109b
+					97b
+					107b
+					95b
+					102b
+					117b
+					115b
+					105b
+					111b
+					110b
+					95b
+					114b
+					101b
+					97b
+					99b
+					116b
+					111b
+					114b
+					50b
+				]
+				type: "gtocore:technode"
+			}]
+			x: -7.37d
+			y: -3.595d
+		}
+		{
+			dependencies: ["37F2B6492A605CD2"]
+			id: "699FDC8F8D13EA75"
+			tasks: [{
+				id: "1C9B7AD03A9CEF88"
+				node: [B;
+					13b
+					2b
+					12b
+					9b
+					109b
+					97b
+					105b
+					110b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					21b
+					118b
+					105b
+					114b
+					116b
+					117b
+					97b
+					108b
+					95b
+					99b
+					111b
+					105b
+					110b
+					95b
+					99b
+					117b
+					114b
+					114b
+					101b
+					110b
+					99b
+					121b
+				]
+				type: "gtocore:technode"
+			}]
+			x: -0.34d
+			y: -9.319d
+		}
+		{
+			dependencies: ["5D50B1FC74B8543D"]
+			id: "1AFF3548EC506AB8"
+			tasks: [{
+				id: "4E172996874E4ACA"
+				node: [B;
+					13b
+					2b
+					12b
+					9b
+					109b
+					97b
+					105b
+					110b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					24b
+					101b
+					120b
+					99b
+					105b
+					116b
+					97b
+					116b
+					105b
+					111b
+					110b
+					95b
+					99b
+					114b
+					121b
+					115b
+					116b
+					97b
+					108b
+					95b
+					108b
+					97b
+					115b
+					101b
+					114b
+				]
+				type: "gtocore:technode"
+			}]
+			x: -1.324d
+			y: -1.694d
+		}
+		{
+			dependencies: ["597D68383EB370B9"]
+			id: "32DF481074B445F5"
+			tasks: [{
+				id: "23CF39EE40306A3E"
+				node: [B;
+					13b
+					2b
+					12b
+					9b
+					109b
+					97b
+					105b
+					110b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					20b
+					112b
+					97b
+					114b
+					116b
+					105b
+					99b
+					108b
+					101b
+					95b
+					97b
+					99b
+					99b
+					101b
+					108b
+					101b
+					114b
+					97b
+					116b
+					111b
+					114b
+				]
+				type: "gtocore:technode"
+			}]
+			x: -4.422d
+			y: -4.346d
+		}
+		{
+			dependencies: ["37F2B6492A605CD2"]
+			id: "1776D660698D0514"
+			tasks: [{
+				id: "2C351A741F35BA7A"
+				node: [B;
+					13b
+					2b
+					12b
+					9b
+					109b
+					97b
+					105b
+					110b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					20b
+					115b
+					117b
+					112b
+					101b
+					114b
+					95b
+					99b
+					111b
+					109b
+					112b
+					117b
+					116b
+					105b
+					110b
+					103b
+					95b
+					116b
+					101b
+					99b
+					104b
+				]
+				type: "gtocore:technode"
+			}]
+			x: -0.285d
+			y: -10.893d
+		}
+		{
+			dependencies: ["14FB5F2D041F821B"]
+			id: "653973E1D15F5564"
+			tasks: [{
+				id: "356215684D14CD62"
+				node: [B;
+					13b
+					2b
+					12b
+					9b
+					109b
+					97b
+					105b
+					110b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					20b
+					98b
+					105b
+					111b
+					119b
+					97b
+					114b
+					101b
+					95b
+					100b
+					97b
+					116b
+					97b
+					95b
+					115b
+					116b
+					111b
+					114b
+					97b
+					103b
+					101b
+				]
+				type: "gtocore:technode"
+			}]
+			x: -3.728d
+			y: -8.194d
+		}
+		{
+			dependencies: ["6D80CF40FA8AEE77"]
+			id: "5574503B22C90928"
+			tasks: [{
+				id: "1C61D265A151FB78"
+				node: [B;
+					13b
+					2b
+					12b
+					9b
+					109b
+					97b
+					105b
+					110b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					23b
+					116b
+					111b
+					107b
+					97b
+					109b
+					97b
+					107b
+					95b
+					102b
+					117b
+					115b
+					105b
+					111b
+					110b
+					95b
+					114b
+					101b
+					97b
+					99b
+					116b
+					111b
+					114b
+					51b
+				]
+				type: "gtocore:technode"
+			}]
+			x: -8.86d
+			y: -4.417d
+		}
+		{
+			dependencies: ["09CB6A12BF63D0FA"]
+			id: "08E78C0BD5ECF187"
+			tasks: [{
+				id: "2A43F97AA2A96E06"
+				node: [B;
+					13b
+					2b
+					12b
+					13b
+					109b
+					97b
+					99b
+					104b
+					105b
+					110b
+					101b
+					115b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					23b
+					115b
+					101b
+					108b
+					102b
+					95b
+					109b
+					97b
+					105b
+					110b
+					116b
+					101b
+					110b
+					97b
+					110b
+					99b
+					101b
+					95b
+					115b
+					121b
+					115b
+					116b
+					101b
+					109b
+				]
+				type: "gtocore:technode"
+			}]
+			x: -0.328d
+			y: 2.76d
+		}
+		{
+			dependencies: ["09CB6A12BF63D0FA"]
+			id: "26FEA3A95CB607EE"
+			tasks: [{
+				id: "02A8FF455B1019BA"
+				node: [B;
+					13b
+					2b
+					12b
+					13b
+					109b
+					97b
+					99b
+					104b
+					105b
+					110b
+					101b
+					115b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					19b
+					105b
+					115b
+					97b
+					95b
+					109b
+					105b
+					108b
+					108b
+					105b
+					110b
+					103b
+					95b
+					109b
+					97b
+					99b
+					104b
+					105b
+					110b
+					101b
+				]
+				type: "gtocore:technode"
+			}]
+			x: -8.851d
+			y: 6.777d
+		}
+		{
+			dependencies: ["09CB6A12BF63D0FA"]
+			id: "2835CF873CBA96FF"
+			tasks: [{
+				id: "090CFEC33CAD55C4"
+				node: [B;
+					13b
+					2b
+					12b
+					13b
+					109b
+					97b
+					99b
+					104b
+					105b
+					110b
+					101b
+					115b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					26b
+					112b
+					114b
+					101b
+					99b
+					105b
+					115b
+					101b
+					95b
+					109b
+					97b
+					110b
+					117b
+					102b
+					97b
+					99b
+					116b
+					117b
+					114b
+					105b
+					110b
+					103b
+					95b
+					116b
+					101b
+					99b
+					104b
+				]
+				type: "gtocore:technode"
+			}]
+			x: -8.53d
+			y: 10.508d
+		}
+		{
+			dependencies: ["0F6932F6C4706F10"]
+			id: "244FD36B395D6C52"
+			tasks: [{
+				id: "393F4A373C73810C"
+				node: [B;
+					13b
+					2b
+					12b
+					13b
+					109b
+					97b
+					99b
+					104b
+					105b
+					110b
+					101b
+					115b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					21b
+					102b
+					117b
+					101b
+					108b
+					95b
+					114b
+					101b
+					102b
+					105b
+					110b
+					101b
+					114b
+					121b
+					95b
+					99b
+					111b
+					109b
+					112b
+					108b
+					101b
+					120b
+				]
+				type: "gtocore:technode"
+			}]
+			x: -5.368d
+			y: 5.094d
+		}
+		{
+			dependencies: ["5A4F9A89E6E87307"]
+			id: "2263CDE6D05E8C09"
+			tasks: [{
+				id: "4553BE5EA72AFA0B"
+				node: [B;
+					13b
+					2b
+					12b
+					13b
+					109b
+					97b
+					99b
+					104b
+					105b
+					110b
+					101b
+					115b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					24b
+					109b
+					111b
+					108b
+					101b
+					99b
+					117b
+					108b
+					97b
+					114b
+					95b
+					115b
+					101b
+					114b
+					105b
+					101b
+					115b
+					95b
+					99b
+					97b
+					115b
+					105b
+					110b
+					103b
+					115b
+				]
+				type: "gtocore:technode"
+			}]
+			x: 6.313d
+			y: -1.566d
+		}
+		{
+			dependencies: ["2835CF873CBA96FF"]
+			id: "416C294952C74442"
+			tasks: [{
+				id: "5049B434F64F6A2C"
+				node: [B;
+					13b
+					2b
+					12b
+					13b
+					109b
+					97b
+					99b
+					104b
+					105b
+					110b
+					101b
+					115b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					30b
+					97b
+					100b
+					118b
+					97b
+					110b
+					99b
+					101b
+					100b
+					95b
+					97b
+					115b
+					115b
+					101b
+					109b
+					98b
+					108b
+					121b
+					95b
+					108b
+					105b
+					110b
+					101b
+					95b
+					109b
+					97b
+					99b
+					104b
+					105b
+					110b
+					101b
+				]
+				type: "gtocore:technode"
+			}]
+			x: -13.835d
+			y: 11.808d
+		}
+		{
+			dependencies: [
+				"5A4F9A89E6E87307"
+				"5D50B1FC74B8543D"
+			]
+			id: "1936FD577F19D86F"
+			tasks: [{
+				id: "421ED9D8F231D56B"
+				node: [B;
+					13b
+					2b
+					12b
+					13b
+					109b
+					97b
+					99b
+					104b
+					105b
+					110b
+					101b
+					115b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					28b
+					108b
+					97b
+					115b
+					101b
+					114b
+					95b
+					98b
+					97b
+					116b
+					99b
+					104b
+					95b
+					112b
+					114b
+					111b
+					100b
+					117b
+					99b
+					116b
+					105b
+					111b
+					110b
+					95b
+					112b
+					114b
+					111b
+					116b
+					111b
+				]
+				type: "gtocore:technode"
+			}]
+			x: 2.529d
+			y: -1.706d
+		}
+		{
+			dependencies: ["1936FD577F19D86F"]
+			id: "55505AD90B0FD191"
+			tasks: [{
+				id: "1118AA884B3B8FFD"
+				node: [B;
+					13b
+					2b
+					12b
+					13b
+					109b
+					97b
+					99b
+					104b
+					105b
+					110b
+					101b
+					115b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					25b
+					108b
+					97b
+					115b
+					101b
+					114b
+					95b
+					97b
+					115b
+					115b
+					101b
+					109b
+					98b
+					108b
+					121b
+					95b
+					112b
+					114b
+					111b
+					99b
+					101b
+					115b
+					115b
+					105b
+					110b
+					103b
+				]
+				type: "gtocore:technode"
+			}]
+			x: 5.796d
+			y: -6.387d
+		}
+		{
+			dependencies: ["1936FD577F19D86F"]
+			id: "278E92F805843098"
+			tasks: [{
+				id: "4AAB386636283EC8"
+				node: [B;
+					13b
+					2b
+					12b
+					13b
+					109b
+					97b
+					99b
+					104b
+					105b
+					110b
+					101b
+					115b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					23b
+					108b
+					97b
+					115b
+					101b
+					114b
+					95b
+					99b
+					114b
+					117b
+					115b
+					104b
+					105b
+					110b
+					103b
+					95b
+					114b
+					111b
+					116b
+					97b
+					116b
+					105b
+					110b
+					103b
+				]
+				type: "gtocore:technode"
+			}]
+			x: 4.296d
+			y: -3.228d
+		}
+		{
+			dependencies: ["1936FD577F19D86F"]
+			id: "113B8030119F1568"
+			tasks: [{
+				id: "66A3B182AE0514EB"
+				node: [B;
+					13b
+					2b
+					12b
+					13b
+					109b
+					97b
+					99b
+					104b
+					105b
+					110b
+					101b
+					115b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					21b
+					108b
+					97b
+					115b
+					101b
+					114b
+					95b
+					99b
+					117b
+					116b
+					116b
+					105b
+					110b
+					103b
+					95b
+					108b
+					97b
+					116b
+					104b
+					105b
+					110b
+					103b
+				]
+				type: "gtocore:technode"
+			}]
+			x: 4.008d
+			y: -4.746d
+		}
+		{
+			dependencies: ["1936FD577F19D86F"]
+			id: "2609C8DD572E48FB"
+			tasks: [{
+				id: "58D7D0FB117BE27D"
+				node: [B;
+					13b
+					2b
+					12b
+					13b
+					109b
+					97b
+					99b
+					104b
+					105b
+					110b
+					101b
+					115b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					32b
+					108b
+					97b
+					115b
+					101b
+					114b
+					95b
+					101b
+					108b
+					101b
+					99b
+					116b
+					114b
+					111b
+					109b
+					97b
+					103b
+					110b
+					101b
+					116b
+					105b
+					99b
+					95b
+					112b
+					114b
+					111b
+					99b
+					101b
+					115b
+					115b
+					105b
+					110b
+					103b
+				]
+				type: "gtocore:technode"
+			}]
+			x: 4.167d
+			y: -6.393d
+		}
+		{
+			dependencies: ["1936FD577F19D86F"]
+			id: "41D819814A4DB3B3"
+			tasks: [{
+				id: "27828E1B72C5CBC2"
+				node: [B;
+					13b
+					2b
+					12b
+					13b
+					109b
+					97b
+					99b
+					104b
+					105b
+					110b
+					101b
+					115b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					23b
+					108b
+					97b
+					115b
+					101b
+					114b
+					95b
+					114b
+					101b
+					97b
+					99b
+					116b
+					105b
+					111b
+					110b
+					95b
+					97b
+					100b
+					106b
+					117b
+					115b
+					116b
+					101b
+					114b
+				]
+				type: "gtocore:technode"
+			}]
+			x: 7.421d
+			y: -2.622d
+		}
+		{
+			dependencies: ["1936FD577F19D86F"]
+			id: "051C4AD9B1BCFA83"
+			tasks: [{
+				id: "36C638874B7B978F"
+				node: [B;
+					13b
+					2b
+					12b
+					13b
+					109b
+					97b
+					99b
+					104b
+					105b
+					110b
+					101b
+					115b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					34b
+					108b
+					97b
+					115b
+					101b
+					114b
+					95b
+					104b
+					105b
+					103b
+					104b
+					95b
+					116b
+					101b
+					109b
+					112b
+					95b
+					116b
+					104b
+					101b
+					114b
+					109b
+					97b
+					108b
+					95b
+					112b
+					114b
+					111b
+					99b
+					101b
+					115b
+					115b
+					105b
+					110b
+					103b
+				]
+				type: "gtocore:technode"
+			}]
+			x: 5.605d
+			y: -4.685d
+		}
+		{
+			dependencies: ["1936FD577F19D86F"]
+			id: "2EE0C8337F89B85A"
+			tasks: [{
+				id: "04965C6A5553C908"
+				node: [B;
+					13b
+					2b
+					12b
+					13b
+					109b
+					97b
+					99b
+					104b
+					105b
+					110b
+					101b
+					115b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					14b
+					108b
+					97b
+					115b
+					101b
+					114b
+					95b
+					112b
+					97b
+					99b
+					107b
+					97b
+					103b
+					101b
+					114b
+				]
+				type: "gtocore:technode"
+			}]
+			x: 5.664d
+			y: -0.182d
+		}
+		{
+			dependencies: ["1936FD577F19D86F"]
+			id: "6AE724566393B2D0"
+			tasks: [{
+				id: "2CD6EB35DF4FDFA6"
+				node: [B;
+					13b
+					2b
+					12b
+					13b
+					109b
+					97b
+					99b
+					104b
+					105b
+					110b
+					101b
+					115b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					22b
+					108b
+					97b
+					115b
+					101b
+					114b
+					95b
+					114b
+					111b
+					108b
+					108b
+					105b
+					110b
+					103b
+					95b
+					112b
+					114b
+					101b
+					115b
+					115b
+					105b
+					110b
+					103b
+				]
+				type: "gtocore:technode"
+			}]
+			x: 5.896d
+			y: -3.041d
+		}
+		{
+			dependencies: ["2263CDE6D05E8C09"]
+			id: "3A3E5EED40C7DEEB"
+			tasks: [{
+				id: "5C244BE8296DF3F6"
+				node: [B;
+					13b
+					2b
+					12b
+					13b
+					109b
+					97b
+					99b
+					104b
+					105b
+					110b
+					101b
+					115b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					24b
+					100b
+					105b
+					109b
+					101b
+					110b
+					115b
+					105b
+					111b
+					110b
+					95b
+					115b
+					101b
+					114b
+					105b
+					101b
+					115b
+					95b
+					99b
+					97b
+					115b
+					105b
+					110b
+					103b
+					115b
+				]
+				type: "gtocore:technode"
+			}]
+			x: 9.235d
+			y: 0.047d
+		}
+		{
+			dependencies: ["1936FD577F19D86F"]
+			id: "509B3CE3C85B7B79"
+			tasks: [{
+				id: "3FE5683D91B5E585"
+				node: [B;
+					13b
+					2b
+					12b
+					13b
+					109b
+					97b
+					99b
+					104b
+					105b
+					110b
+					101b
+					115b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					22b
+					108b
+					97b
+					115b
+					101b
+					114b
+					95b
+					112b
+					108b
+					97b
+					115b
+					109b
+					97b
+					95b
+					99b
+					111b
+					110b
+					100b
+					101b
+					110b
+					115b
+					101b
+					114b
+				]
+				type: "gtocore:technode"
+			}]
+			x: 7.235d
+			y: -4.465d
+		}
+		{
+			dependencies: ["1936FD577F19D86F"]
+			id: "6BD8994F74AD3DFD"
+			tasks: [{
+				id: "22AED9387ADC939D"
+				node: [B;
+					13b
+					2b
+					12b
+					13b
+					109b
+					97b
+					99b
+					104b
+					105b
+					110b
+					101b
+					115b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					31b
+					110b
+					101b
+					117b
+					116b
+					114b
+					111b
+					110b
+					95b
+					97b
+					99b
+					116b
+					105b
+					118b
+					97b
+					116b
+					111b
+					114b
+					95b
+					115b
+					101b
+					108b
+					102b
+					95b
+					97b
+					100b
+					111b
+					112b
+					116b
+					105b
+					111b
+					110b
+				]
+				type: "gtocore:technode"
+			}]
+			x: 7.571d
+			y: -0.747d
+		}
+		{
+			dependencies: ["55505AD90B0FD191"]
+			id: "57AE175F0AD4CB22"
+			tasks: [{
+				id: "61FCB3713C839B05"
+				node: [B;
+					13b
+					2b
+					12b
+					13b
+					109b
+					97b
+					99b
+					104b
+					105b
+					110b
+					101b
+					115b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					32b
+					99b
+					111b
+					109b
+					112b
+					111b
+					110b
+					101b
+					110b
+					116b
+					95b
+					112b
+					114b
+					111b
+					100b
+					117b
+					99b
+					116b
+					105b
+					111b
+					110b
+					95b
+					101b
+					110b
+					104b
+					97b
+					110b
+					99b
+					101b
+					109b
+					101b
+					110b
+					116b
+				]
+				type: "gtocore:technode"
+			}]
+			x: 7.214d
+			y: -7.57d
+		}
+		{
+			dependencies: ["55505AD90B0FD191"]
+			id: "331CAE7F218B86AC"
+			tasks: [{
+				id: "2519FC67AC472888"
+				node: [B;
+					13b
+					2b
+					12b
+					13b
+					109b
+					97b
+					99b
+					104b
+					105b
+					110b
+					101b
+					115b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					33b
+					109b
+					97b
+					103b
+					110b
+					101b
+					116b
+					111b
+					95b
+					114b
+					101b
+					115b
+					111b
+					110b
+					97b
+					116b
+					105b
+					99b
+					95b
+					99b
+					105b
+					114b
+					99b
+					117b
+					105b
+					116b
+					95b
+					117b
+					112b
+					103b
+					114b
+					97b
+					100b
+					101b
+				]
+				type: "gtocore:technode"
+			}]
+			x: 8.658d
+			y: -8.602d
+		}
+		{
+			dependencies: ["509B3CE3C85B7B79"]
+			id: "6D725C2FEC5AF61F"
+			tasks: [{
+				id: "71DFCE5647884065"
+				node: [B;
+					13b
+					2b
+					12b
+					13b
+					109b
+					97b
+					99b
+					104b
+					105b
+					110b
+					101b
+					115b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					33b
+					99b
+					111b
+					109b
+					112b
+					111b
+					117b
+					110b
+					100b
+					95b
+					101b
+					120b
+					116b
+					114b
+					101b
+					109b
+					101b
+					95b
+					112b
+					108b
+					97b
+					115b
+					109b
+					97b
+					95b
+					99b
+					111b
+					110b
+					100b
+					101b
+					110b
+					115b
+					101b
+					114b
+				]
+				type: "gtocore:technode"
+			}]
+			x: 7.864d
+			y: -5.85d
+		}
+		{
+			dependencies: ["41D819814A4DB3B3"]
+			id: "37A6685C2620DDCF"
+			tasks: [{
+				id: "432E0AA2B4D9BDFA"
+				node: [B;
+					13b
+					2b
+					12b
+					13b
+					109b
+					97b
+					99b
+					104b
+					105b
+					110b
+					101b
+					115b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					27b
+					104b
+					105b
+					103b
+					104b
+					95b
+					101b
+					110b
+					101b
+					114b
+					103b
+					121b
+					95b
+					98b
+					105b
+					111b
+					95b
+					101b
+					110b
+					103b
+					105b
+					110b
+					101b
+					101b
+					114b
+					105b
+					110b
+					103b
+				]
+				type: "gtocore:technode"
+			}]
+			x: 9.731d
+			y: -4.85d
+		}
+		{
+			dependencies: ["41D819814A4DB3B3"]
+			id: "66691CE35519DD10"
+			tasks: [{
+				id: "3DACD7841239B9D8"
+				node: [B;
+					13b
+					2b
+					12b
+					13b
+					109b
+					97b
+					99b
+					104b
+					105b
+					110b
+					101b
+					115b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					23b
+					108b
+					97b
+					115b
+					101b
+					114b
+					95b
+					115b
+					112b
+					97b
+					99b
+					101b
+					95b
+					101b
+					110b
+					103b
+					105b
+					110b
+					101b
+					101b
+					114b
+					105b
+					110b
+					103b
+				]
+				type: "gtocore:technode"
+			}]
+			x: 12.385d
+			y: -6.434d
+		}
+		{
+			dependencies: ["333062B047CDB2FD"]
+			id: "416097043C1CC2B3"
+			tasks: [{
+				id: "3777EF8000C34E9A"
+				node: [B;
+					13b
+					2b
+					12b
+					13b
+					109b
+					97b
+					99b
+					104b
+					105b
+					110b
+					101b
+					115b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					21b
+					114b
+					97b
+					114b
+					101b
+					95b
+					101b
+					97b
+					114b
+					116b
+					104b
+					95b
+					112b
+					114b
+					111b
+					99b
+					101b
+					115b
+					115b
+					105b
+					110b
+					103b
+				]
+				type: "gtocore:technode"
+			}]
+			x: 5.938d
+			y: 2.644d
+		}
+		{
+			dependencies: ["55505AD90B0FD191"]
+			id: "789D3D3750751C3E"
+			tasks: [{
+				id: "1B6409D95E7FD9C7"
+				node: [B;
+					13b
+					2b
+					12b
+					13b
+					109b
+					97b
+					99b
+					104b
+					105b
+					110b
+					101b
+					115b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					26b
+					115b
+					117b
+					112b
+					114b
+					97b
+					99b
+					104b
+					114b
+					111b
+					110b
+					97b
+					108b
+					95b
+					97b
+					115b
+					115b
+					101b
+					109b
+					98b
+					108b
+					121b
+					95b
+					108b
+					105b
+					110b
+					101b
+				]
+				type: "gtocore:technode"
+			}]
+			x: 9.128d
+			y: -10.787d
+		}
+		{
+			dependencies: ["3A3E5EED40C7DEEB"]
+			id: "2242BF7CC52114C4"
+			tasks: [{
+				id: "41DA6E3E5579CE7A"
+				node: [B;
+					13b
+					2b
+					12b
+					13b
+					109b
+					97b
+					99b
+					104b
+					105b
+					110b
+					101b
+					115b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					26b
+					100b
+					121b
+					115b
+					111b
+					110b
+					95b
+					115b
+					112b
+					104b
+					101b
+					114b
+					101b
+					95b
+					115b
+					101b
+					114b
+					105b
+					101b
+					115b
+					95b
+					99b
+					97b
+					115b
+					105b
+					110b
+					103b
+				]
+				type: "gtocore:technode"
+			}]
+			x: 12.564d
+			y: 0.602d
+		}
+		{
+			dependencies: ["3A3E5EED40C7DEEB"]
+			id: "4193D02FFCC37FED"
+			tasks: [{
+				id: "0B9C7E36124A9797"
+				node: [B;
+					13b
+					2b
+					12b
+					13b
+					109b
+					97b
+					99b
+					104b
+					105b
+					110b
+					101b
+					115b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					48b
+					109b
+					97b
+					103b
+					110b
+					101b
+					116b
+					105b
+					99b
+					95b
+					99b
+					111b
+					110b
+					102b
+					105b
+					110b
+					101b
+					109b
+					101b
+					110b
+					116b
+					95b
+					100b
+					105b
+					109b
+					101b
+					110b
+					115b
+					105b
+					111b
+					110b
+					97b
+					108b
+					108b
+					121b
+					95b
+					115b
+					104b
+					111b
+					99b
+					107b
+					95b
+					112b
+					114b
+					111b
+					99b
+					101b
+					115b
+					115b
+				]
+				type: "gtocore:technode"
+			}]
+			x: 10.479d
+			y: -0.917d
+		}
+		{
+			dependencies: ["3A3E5EED40C7DEEB"]
+			id: "2D9813F488AADF1D"
+			tasks: [{
+				id: "2BDEC98826FC5612"
+				node: [B;
+					13b
+					2b
+					12b
+					13b
+					109b
+					97b
+					99b
+					104b
+					105b
+					110b
+					101b
+					115b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					17b
+					113b
+					102b
+					116b
+					95b
+					115b
+					101b
+					114b
+					105b
+					101b
+					115b
+					95b
+					99b
+					97b
+					115b
+					105b
+					110b
+					103b
+				]
+				type: "gtocore:technode"
+			}]
+			x: 12.763d
+			y: -1.065d
+		}
+		{
+			dependencies: ["3A3E5EED40C7DEEB"]
+			id: "774271D1F5F7128B"
+			tasks: [{
+				id: "3A25EEC74F82ADCD"
+				node: [B;
+					13b
+					2b
+					12b
+					13b
+					109b
+					97b
+					99b
+					104b
+					105b
+					110b
+					101b
+					115b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					37b
+					116b
+					105b
+					109b
+					101b
+					95b
+					100b
+					105b
+					108b
+					97b
+					116b
+					105b
+					111b
+					110b
+					95b
+					100b
+					105b
+					109b
+					101b
+					110b
+					115b
+					105b
+					111b
+					110b
+					95b
+					115b
+					101b
+					114b
+					105b
+					101b
+					115b
+					95b
+					99b
+					97b
+					115b
+					105b
+					110b
+					103b
+				]
+				type: "gtocore:technode"
+			}]
+			x: 10.85d
+			y: 0.809d
+		}
+		{
+			dependencies: ["2D9813F488AADF1D"]
+			id: "3DBD2746966D5CFB"
+			tasks: [{
+				id: "2C6DBA53A047607E"
+				node: [B;
+					13b
+					2b
+					12b
+					13b
+					109b
+					97b
+					99b
+					104b
+					105b
+					110b
+					101b
+					115b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					15b
+					113b
+					102b
+					116b
+					95b
+					109b
+					97b
+					110b
+					105b
+					112b
+					117b
+					108b
+					97b
+					116b
+					111b
+					114b
+				]
+				type: "gtocore:technode"
+			}]
+			x: 14.231d
+			y: -2.189d
+		}
+		{
+			dependencies: ["2263CDE6D05E8C09"]
+			id: "09C68CF6A5017A8A"
+			tasks: [{
+				id: "521F88B287105E73"
+				node: [B;
+					13b
+					2b
+					12b
+					9b
+					109b
+					97b
+					105b
+					110b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					13b
+					115b
+					116b
+					101b
+					108b
+					108b
+					97b
+					114b
+					95b
+					102b
+					111b
+					114b
+					103b
+					101b
+				]
+				type: "gtocore:technode"
+			}]
+			x: 9.131d
+			y: -1.925d
+		}
+		{
+			dependencies: ["333062B047CDB2FD"]
+			id: "1C877D1C71969220"
+			tasks: [{
+				id: "234B08E612D40DED"
+				node: [B;
+					13b
+					2b
+					12b
+					9b
+					109b
+					97b
+					105b
+					110b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					18b
+					98b
+					101b
+					100b
+					114b
+					111b
+					99b
+					107b
+					95b
+					112b
+					114b
+					111b
+					100b
+					117b
+					99b
+					116b
+					105b
+					111b
+					110b
+				]
+				type: "gtocore:technode"
+			}]
+			x: 7.217d
+			y: 3.677d
+		}
+		{
+			dependencies: ["4F5FFA9846652C13"]
+			id: "701DC6620CB4D8F6"
+			tasks: [{
+				id: "2617BB0E38E436AC"
+				node: [B;
+					13b
+					2b
+					12b
+					9b
+					109b
+					97b
+					105b
+					110b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					15b
+					108b
+					97b
+					115b
+					101b
+					114b
+					95b
+					101b
+					110b
+					103b
+					114b
+					97b
+					118b
+					101b
+					114b
+					50b
+				]
+				type: "gtocore:technode"
+			}]
+			x: 3.639d
+			y: -0.286d
+		}
+		{
+			dependencies: ["14FB5F2D041F821B"]
+			id: "05B05F330B3A98D6"
+			tasks: [{
+				id: "05B01FA88963F52A"
+				node: [B;
+					13b
+					2b
+					12b
+					9b
+					109b
+					97b
+					105b
+					110b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					12b
+					111b
+					112b
+					116b
+					105b
+					99b
+					97b
+					108b
+					95b
+					116b
+					101b
+					99b
+					104b
+				]
+				type: "gtocore:technode"
+			}]
+			x: -5.564d
+			y: -7.946d
+		}
+		{
+			dependencies: ["14FB5F2D041F821B"]
+			id: "1B251D8FCAA7ADFD"
+			tasks: [{
+				id: "568D2EA9A96640A8"
+				node: [B;
+					13b
+					2b
+					12b
+					9b
+					109b
+					97b
+					105b
+					110b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					22b
+					98b
+					105b
+					111b
+					119b
+					97b
+					114b
+					101b
+					95b
+					115b
+					117b
+					112b
+					101b
+					114b
+					99b
+					111b
+					109b
+					112b
+					117b
+					116b
+					105b
+					110b
+					103b
+				]
+				type: "gtocore:technode"
+			}]
+			x: -3.316d
+			y: -10.524d
+		}
+		{
+			dependencies: ["22D46DA4A17F4573"]
+			id: "693BDD61B2C91AF4"
+			tasks: [{
+				id: "20293D0D3022E903"
+				node: [B;
+					13b
+					2b
+					12b
+					9b
+					109b
+					97b
+					105b
+					110b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					18b
+					115b
+					99b
+					97b
+					110b
+					110b
+					101b
+					114b
+					95b
+					105b
+					110b
+					110b
+					111b
+					118b
+					97b
+					116b
+					105b
+					111b
+					110b
+				]
+				type: "gtocore:technode"
+			}]
+			x: 1.348d
+			y: -8.231d
+		}
+		{
+			dependencies: ["32DF481074B445F5"]
+			id: "756E71E7B7EFC0EA"
+			tasks: [{
+				id: "5FFDC1932DCC1921"
+				node: [B;
+					13b
+					2b
+					12b
+					9b
+					109b
+					97b
+					105b
+					110b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					17b
+					109b
+					97b
+					116b
+					116b
+					101b
+					114b
+					95b
+					102b
+					97b
+					98b
+					114b
+					105b
+					99b
+					97b
+					116b
+					111b
+					114b
+				]
+				type: "gtocore:technode"
+			}]
+			x: -5.314d
+			y: -6.113d
+		}
+		{
+			dependencies: ["653973E1D15F5564"]
+			id: "1CAB9ED21AC112E5"
+			tasks: [{
+				id: "71D7F8BE9DCCE478"
+				node: [B;
+					13b
+					2b
+					12b
+					9b
+					109b
+					97b
+					105b
+					110b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					22b
+					98b
+					108b
+					111b
+					99b
+					107b
+					104b
+					111b
+					108b
+					101b
+					95b
+					100b
+					97b
+					116b
+					97b
+					95b
+					115b
+					116b
+					111b
+					114b
+					97b
+					103b
+					101b
+				]
+				type: "gtocore:technode"
+			}]
+			x: -4.482d
+			y: -9.493d
+		}
+		{
+			dependencies: ["1B251D8FCAA7ADFD"]
+			id: "463ACBDAD8F6E836"
+			tasks: [{
+				id: "6D768D6EE9F3CB20"
+				node: [B;
+					13b
+					2b
+					12b
+					9b
+					109b
+					97b
+					105b
+					110b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					24b
+					100b
+					97b
+					116b
+					97b
+					95b
+					99b
+					101b
+					110b
+					116b
+					101b
+					114b
+					95b
+					111b
+					118b
+					101b
+					114b
+					99b
+					108b
+					111b
+					99b
+					107b
+					105b
+					110b
+					103b
+				]
+				type: "gtocore:technode"
+			}]
+			x: -2.247d
+			y: -8.66d
+		}
+		{
+			dependencies: ["5574503B22C90928"]
+			id: "2EB78BF9C5C39F76"
+			tasks: [{
+				id: "47F9487C68346487"
+				node: [B;
+					13b
+					2b
+					12b
+					9b
+					109b
+					97b
+					105b
+					110b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					23b
+					116b
+					111b
+					107b
+					97b
+					109b
+					97b
+					107b
+					95b
+					102b
+					117b
+					115b
+					105b
+					111b
+					110b
+					95b
+					114b
+					101b
+					97b
+					99b
+					116b
+					111b
+					114b
+					52b
+				]
+				type: "gtocore:technode"
+			}]
+			x: -10.336d
+			y: -5.266d
+		}
+		{
+			dependencies: ["09C68CF6A5017A8A"]
+			id: "0BDC925ACCBBAEEA"
+			tasks: [{
+				id: "4848C354871BA9C9"
+				node: [B;
+					13b
+					2b
+					12b
+					9b
+					109b
+					97b
+					105b
+					110b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					15b
+					108b
+					101b
+					112b
+					116b
+					111b
+					110b
+					105b
+					99b
+					95b
+					99b
+					104b
+					97b
+					114b
+					103b
+					101b
+				]
+				type: "gtocore:technode"
+			}]
+			x: 8.91d
+			y: -3.435d
+		}
+		{
+			dependencies: ["333062B047CDB2FD"]
+			id: "21E07F1877A0CAB5"
+			tasks: [{
+				id: "3476F9B4F3849428"
+				node: [B;
+					13b
+					2b
+					12b
+					9b
+					109b
+					97b
+					105b
+					110b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					22b
+					112b
+					108b
+					97b
+					110b
+					101b
+					116b
+					95b
+					99b
+					111b
+					114b
+					101b
+					95b
+					101b
+					120b
+					116b
+					114b
+					97b
+					99b
+					116b
+					105b
+					111b
+					110b
+				]
+				type: "gtocore:technode"
+			}]
+			x: 8.4d
+			y: 4.85d
+		}
+		{
+			dependencies: ["32DF481074B445F5"]
+			id: "51FAE88900E4A616"
+			tasks: [{
+				id: "11561D5F00D6CD7A"
+				node: [B;
+					13b
+					2b
+					12b
+					9b
+					109b
+					97b
+					105b
+					110b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					28b
+					101b
+					110b
+					101b
+					114b
+					103b
+					121b
+					95b
+					105b
+					110b
+					106b
+					101b
+					99b
+					116b
+					101b
+					100b
+					95b
+					102b
+					105b
+					115b
+					115b
+					105b
+					111b
+					110b
+					95b
+					116b
+					101b
+					99b
+					104b
+				]
+				type: "gtocore:technode"
+			}]
+			x: -6.592d
+			y: -4.878d
+		}
+		{
+			dependencies: ["042534D82F27A753"]
+			id: "2F750E528EC076C3"
+			tasks: [{
+				id: "5FFC3EBE87954184"
+				node: [B;
+					13b
+					2b
+					12b
+					9b
+					109b
+					97b
+					105b
+					110b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					19b
+					103b
+					119b
+					99b
+					97b
+					95b
+					99b
+					111b
+					109b
+					112b
+					117b
+					116b
+					105b
+					110b
+					103b
+					95b
+					116b
+					101b
+					99b
+					104b
+				]
+				type: "gtocore:technode"
+			}]
+			x: -1.702d
+			y: -10.064d
+		}
+		{
+			dependencies: ["1CAB9ED21AC112E5"]
+			id: "3BAF7AE73F1DEA9B"
+			tasks: [{
+				id: "3D2D559003AAB848"
+				node: [B;
+					13b
+					2b
+					12b
+					9b
+					109b
+					97b
+					105b
+					110b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					29b
+					118b
+					105b
+					114b
+					116b
+					117b
+					97b
+					108b
+					95b
+					117b
+					110b
+					105b
+					118b
+					101b
+					114b
+					115b
+					101b
+					95b
+					100b
+					97b
+					116b
+					97b
+					95b
+					115b
+					116b
+					111b
+					114b
+					97b
+					103b
+					101b
+				]
+				type: "gtocore:technode"
+			}]
+			x: -5.026d
+			y: -10.921d
+		}
+		{
+			dependencies: ["2EB78BF9C5C39F76"]
+			id: "53105BCEB2CA33AA"
+			tasks: [{
+				id: "79C20B12546F4FB5"
+				node: [B;
+					13b
+					2b
+					12b
+					9b
+					109b
+					97b
+					105b
+					110b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					23b
+					116b
+					111b
+					107b
+					97b
+					109b
+					97b
+					107b
+					95b
+					102b
+					117b
+					115b
+					105b
+					111b
+					110b
+					95b
+					114b
+					101b
+					97b
+					99b
+					116b
+					111b
+					114b
+					53b
+				]
+				type: "gtocore:technode"
+			}]
+			x: -10.517d
+			y: -7.641d
+		}
+		{
+			dependencies: ["2EB78BF9C5C39F76"]
+			id: "5C135A3E3F353974"
+			tasks: [{
+				id: "4B0FF73054F31E3B"
+				node: [B;
+					13b
+					2b
+					12b
+					9b
+					109b
+					97b
+					105b
+					110b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					8b
+					115b
+					112b
+					115b
+					95b
+					116b
+					101b
+					99b
+					104b
+				]
+				type: "gtocore:technode"
+			}]
+			x: -12.575d
+			y: -4.33d
+		}
+		{
+			dependencies: ["5C135A3E3F353974"]
+			id: "6730D7E2319E06C8"
+			tasks: [{
+				id: "64714D706F2F601F"
+				node: [B;
+					13b
+					2b
+					12b
+					9b
+					109b
+					97b
+					105b
+					110b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					22b
+					97b
+					116b
+					111b
+					109b
+					105b
+					99b
+					95b
+					101b
+					110b
+					101b
+					114b
+					103b
+					121b
+					95b
+					101b
+					120b
+					99b
+					105b
+					116b
+					105b
+					110b
+					103b
+				]
+				type: "gtocore:technode"
+			}]
+			x: -14.575d
+			y: -2.57d
+		}
+		{
+			dependencies: ["5C135A3E3F353974"]
+			id: "7EF899F92AA890FA"
+			tasks: [{
+				id: "59E63CB7450D5030"
+				node: [B;
+					13b
+					2b
+					12b
+					9b
+					109b
+					97b
+					105b
+					110b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					18b
+					116b
+					105b
+					109b
+					101b
+					95b
+					100b
+					105b
+					108b
+					97b
+					116b
+					105b
+					111b
+					110b
+					95b
+					116b
+					101b
+					99b
+					104b
+				]
+				type: "gtocore:technode"
+			}]
+			x: -11.019d
+			y: -9.578d
+		}
+		{
+			dependencies: ["5C135A3E3F353974"]
+			id: "2DAC36EBCDC03EC6"
+			tasks: [{
+				id: "1DDABAE1E028C8A7"
+				node: [B;
+					13b
+					2b
+					12b
+					9b
+					109b
+					97b
+					105b
+					110b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					27b
+					109b
+					97b
+					115b
+					115b
+					95b
+					101b
+					110b
+					101b
+					114b
+					103b
+					121b
+					95b
+					99b
+					111b
+					110b
+					118b
+					101b
+					114b
+					115b
+					105b
+					111b
+					110b
+					95b
+					116b
+					101b
+					99b
+					104b
+				]
+				type: "gtocore:technode"
+			}]
+			x: -13.837d
+			y: -7.203d
+		}
+		{
+			dependencies: [
+				"5C135A3E3F353974"
+				"6EABD7AE2CB6A73F"
+			]
+			id: "33DA31DAAACEB44E"
+			tasks: [{
+				id: "2940252B1942B477"
+				node: [B;
+					13b
+					2b
+					12b
+					9b
+					109b
+					97b
+					105b
+					110b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					30b
+					99b
+					114b
+					121b
+					111b
+					116b
+					104b
+					101b
+					117b
+					109b
+					95b
+					115b
+					117b
+					112b
+					101b
+					114b
+					99b
+					111b
+					110b
+					100b
+					117b
+					99b
+					116b
+					105b
+					110b
+					103b
+					95b
+					116b
+					101b
+					99b
+					104b
+				]
+				type: "gtocore:technode"
+			}]
+			x: -13.449d
+			y: -1.177d
+		}
+		{
+			dependencies: [
+				"05B05F330B3A98D6"
+				"7EF899F92AA890FA"
+			]
+			id: "4F7314B2634AAF8F"
+			tasks: [{
+				id: "16EDC59981170C43"
+				node: [B;
+					13b
+					2b
+					12b
+					9b
+					109b
+					97b
+					105b
+					110b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					17b
+					101b
+					120b
+					111b
+					116b
+					105b
+					99b
+					95b
+					116b
+					101b
+					99b
+					104b
+					110b
+					111b
+					108b
+					111b
+					103b
+					121b
+				]
+				type: "gtocore:technode"
+			}]
+			x: -7.427d
+			y: -9.679d
+		}
+		{
+			dependencies: ["4F7314B2634AAF8F"]
+			id: "376B4F91F20E9B9B"
+			tasks: [{
+				id: "231BB6E940AB7515"
+				node: [B;
+					13b
+					2b
+					12b
+					9b
+					109b
+					97b
+					105b
+					110b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					17b
+					99b
+					111b
+					115b
+					109b
+					105b
+					99b
+					95b
+					116b
+					101b
+					99b
+					104b
+					110b
+					111b
+					108b
+					111b
+					103b
+					121b
+				]
+				type: "gtocore:technode"
+			}]
+			x: -7.712d
+			y: -11.564d
+		}
+		{
+			dependencies: ["509B3CE3C85B7B79"]
+			id: "7246C9A53983FDC0"
+			tasks: [{
+				id: "5E90A02129750FF0"
+				node: [B;
+					13b
+					2b
+					12b
+					9b
+					109b
+					97b
+					105b
+					110b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					27b
+					101b
+					120b
+					95b
+					100b
+					117b
+					114b
+					97b
+					98b
+					108b
+					101b
+					95b
+					112b
+					108b
+					97b
+					115b
+					109b
+					97b
+					95b
+					99b
+					111b
+					110b
+					116b
+					97b
+					105b
+					110b
+					101b
+					114b
+				]
+				type: "gtocore:technode"
+			}]
+			x: 9.624d
+			y: -6.707d
+		}
+		{
+			dependencies: ["09C68CF6A5017A8A"]
+			id: "6098835D018563DD"
+			tasks: [{
+				id: "5D522A25F750897C"
+				node: [B;
+					13b
+					2b
+					12b
+					9b
+					109b
+					97b
+					105b
+					110b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					23b
+					104b
+					121b
+					112b
+					101b
+					114b
+					95b
+					100b
+					105b
+					109b
+					101b
+					110b
+					115b
+					105b
+					111b
+					110b
+					97b
+					108b
+					95b
+					102b
+					111b
+					114b
+					103b
+					101b
+				]
+				type: "gtocore:technode"
+			}]
+			x: 11.905d
+			y: -3.298d
+		}
+		{
+			dependencies: ["09C68CF6A5017A8A"]
+			id: "3D91C810EA89474D"
+			tasks: [{
+				id: "16160C43F9A02CFD"
+				node: [B;
+					13b
+					2b
+					12b
+					9b
+					109b
+					97b
+					105b
+					110b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					22b
+					115b
+					116b
+					101b
+					108b
+					108b
+					97b
+					114b
+					95b
+					117b
+					108b
+					116b
+					105b
+					109b
+					97b
+					116b
+					101b
+					95b
+					102b
+					111b
+					114b
+					103b
+					101b
+				]
+				type: "gtocore:technode"
+			}]
+			x: 10.376d
+			y: -2.896d
+		}
+		{
+			dependencies: ["6098835D018563DD"]
+			id: "4621068FBEAF712F"
+			tasks: [{
+				id: "0A9447180853840F"
+				node: [B;
+					13b
+					2b
+					12b
+					9b
+					109b
+					97b
+					105b
+					110b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					28b
+					104b
+					121b
+					112b
+					101b
+					114b
+					95b
+					100b
+					105b
+					109b
+					101b
+					110b
+					115b
+					105b
+					111b
+					110b
+					97b
+					108b
+					95b
+					102b
+					111b
+					114b
+					103b
+					101b
+					95b
+					99b
+					111b
+					105b
+					108b
+				]
+				type: "gtocore:technode"
+			}]
+			x: 13.438d
+			y: -3.689d
+		}
+		{
+			dependencies: ["0BDC925ACCBBAEEA"]
+			id: "592B87D047018043"
+			tasks: [{
+				id: "7FB9231BAC085394"
+				node: [B;
+					13b
+					2b
+					12b
+					9b
+					109b
+					97b
+					105b
+					110b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					28b
+					113b
+					117b
+					97b
+					110b
+					116b
+					117b
+					109b
+					95b
+					99b
+					104b
+					114b
+					111b
+					109b
+					111b
+					100b
+					121b
+					110b
+					97b
+					109b
+					105b
+					99b
+					95b
+					99b
+					104b
+					97b
+					114b
+					103b
+					101b
+				]
+				type: "gtocore:technode"
+			}]
+			x: 11.298d
+			y: -4.794d
+		}
+		{
+			dependencies: ["2DAC36EBCDC03EC6"]
+			id: "38D3C34918F1E641"
+			tasks: [{
+				id: "645CEC03AAED89F7"
+				node: [B;
+					13b
+					2b
+					12b
+					9b
+					109b
+					97b
+					105b
+					110b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					30b
+					97b
+					100b
+					118b
+					97b
+					110b
+					99b
+					101b
+					100b
+					95b
+					109b
+					97b
+					115b
+					115b
+					95b
+					102b
+					97b
+					98b
+					114b
+					105b
+					99b
+					97b
+					116b
+					105b
+					111b
+					110b
+					95b
+					116b
+					101b
+					99b
+					104b
+				]
+				type: "gtocore:technode"
+			}]
+			x: -14.906d
+			y: -8.78d
+		}
+		{
+			dependencies: ["2DAC36EBCDC03EC6"]
+			id: "434E6324B9E6E619"
+			tasks: [{
+				id: "4110E03564E7382A"
+				node: [B;
+					13b
+					2b
+					12b
+					9b
+					109b
+					97b
+					105b
+					110b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					24b
+					101b
+					108b
+					101b
+					109b
+					101b
+					110b
+					116b
+					95b
+					102b
+					97b
+					98b
+					114b
+					105b
+					99b
+					97b
+					116b
+					105b
+					111b
+					110b
+					95b
+					116b
+					101b
+					99b
+					104b
+				]
+				type: "gtocore:technode"
+			}]
+			x: -15.742d
+			y: -7.174d
+		}
+		{
+			dependencies: ["376B4F91F20E9B9B"]
+			id: "5A49E311DB34A9B0"
+			tasks: [{
+				id: "4E14793F92FBC010"
+				node: [B;
+					13b
+					2b
+					12b
+					9b
+					109b
+					97b
+					105b
+					110b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					20b
+					109b
+					97b
+					110b
+					105b
+					102b
+					111b
+					108b
+					100b
+					95b
+					111b
+					115b
+					99b
+					105b
+					108b
+					108b
+					97b
+					116b
+					111b
+					114b
+					121b
+				]
+				type: "gtocore:technode"
+			}]
+			x: -7.727d
+			y: -13.437d
+		}
+		{
+			dependencies: ["5A49E311DB34A9B0"]
+			id: "6C2FF924DD858474"
+			tasks: [{
+				id: "5CF729A3884CDF9F"
+				node: [B;
+					13b
+					2b
+					12b
+					9b
+					109b
+					97b
+					105b
+					110b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					16b
+					115b
+					117b
+					112b
+					114b
+					97b
+					99b
+					97b
+					117b
+					115b
+					97b
+					108b
+					95b
+					116b
+					101b
+					99b
+					104b
+				]
+				type: "gtocore:technode"
+			}]
+			x: -7.479d
+			y: -15.266d
+		}
+		{
+			dependencies: ["6C2FF924DD858474"]
+			id: "41270E758C031B94"
+			tasks: [{
+				id: "78DC714D3B765C5C"
+				node: [B;
+					13b
+					2b
+					12b
+					9b
+					109b
+					97b
+					105b
+					110b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					11b
+					100b
+					114b
+					97b
+					103b
+					111b
+					110b
+					95b
+					99b
+					111b
+					114b
+					101b
+				]
+				type: "gtocore:technode"
+			}]
+			x: -6.982d
+			y: -17.024d
+		}
+		{
+			dependencies: ["41270E758C031B94"]
+			id: "4D5739A49FF4BA63"
+			tasks: [{
+				id: "6B62AD299922DF5B"
+				node: [B;
+					13b
+					2b
+					12b
+					9b
+					109b
+					97b
+					105b
+					110b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					19b
+					117b
+					110b
+					105b
+					118b
+					101b
+					114b
+					115b
+					101b
+					95b
+					115b
+					105b
+					109b
+					117b
+					108b
+					97b
+					116b
+					105b
+					111b
+					110b
+				]
+				type: "gtocore:technode"
+			}]
+			x: -6.251d
+			y: -18.682d
+		}
+		{
+			dependencies: ["4D5739A49FF4BA63"]
+			id: "2C5835B7752B1609"
+			tasks: [{
+				id: "75B7EAF76905BCD1"
+				node: [B;
+					13b
+					2b
+					12b
+					9b
+					109b
+					97b
+					105b
+					110b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					13b
+					97b
+					119b
+					97b
+					107b
+					101b
+					110b
+					101b
+					100b
+					95b
+					99b
+					111b
+					114b
+					101b
+				]
+				type: "gtocore:technode"
+			}]
+			x: -5.304d
+			y: -20.216d
+		}
+		{
+			dependencies: ["2C5835B7752B1609"]
+			id: "53EA6AB298551FE9"
+			tasks: [{
+				id: "374E4F19DEE8564F"
+				node: [B;
+					13b
+					2b
+					12b
+					9b
+					109b
+					97b
+					105b
+					110b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					18b
+					115b
+					117b
+					112b
+					114b
+					97b
+					99b
+					104b
+					114b
+					111b
+					110b
+					97b
+					108b
+					95b
+					100b
+					114b
+					111b
+					110b
+					101b
+				]
+				type: "gtocore:technode"
+			}]
+			x: -4.198d
+			y: -21.596d
+		}
+		{
+			dependencies: ["53EA6AB298551FE9"]
+			id: "64BD9BFEECB7ED2A"
+			tasks: [{
+				id: "15C3B931272B57A1"
+				node: [B;
+					13b
+					2b
+					12b
+					9b
+					109b
+					97b
+					105b
+					110b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					21b
+					115b
+					117b
+					112b
+					114b
+					97b
+					99b
+					104b
+					114b
+					111b
+					110b
+					97b
+					108b
+					95b
+					99b
+					105b
+					114b
+					99b
+					117b
+					105b
+					116b
+					115b
+				]
+				type: "gtocore:technode"
+			}]
+			x: -2.922d
+			y: -22.814d
+		}
+		{
+			dependencies: ["64BD9BFEECB7ED2A"]
+			id: "53C7D07CF23BA6F5"
+			tasks: [{
+				id: "3E0D9D4BACD1460A"
+				node: [B;
+					13b
+					2b
+					12b
+					9b
+					109b
+					97b
+					105b
+					110b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					10b
+					99b
+					104b
+					97b
+					111b
+					115b
+					95b
+					99b
+					111b
+					114b
+					101b
+				]
+				type: "gtocore:technode"
+			}]
+			x: -1.501d
+			y: -23.853d
+		}
+		{
+			dependencies: ["53C7D07CF23BA6F5"]
+			id: "286117A1EB61E790"
+			tasks: [{
+				id: "1A4AAD5D13D1AF7F"
+				node: [B;
+					13b
+					2b
+					12b
+					9b
+					109b
+					97b
+					105b
+					110b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					6b
+					99b
+					114b
+					101b
+					97b
+					116b
+					101b
+				]
+				type: "gtocore:technode"
+			}]
+			x: 0.043d
+			y: -24.7d
+		}
+		{
+			dependencies: ["2242BF7CC52114C4"]
+			id: "3C9B2B372CCD9321"
+			tasks: [{
+				id: "556F49C262398780"
+				node: [B;
+					13b
+					2b
+					12b
+					11b
+					101b
+					110b
+					101b
+					114b
+					103b
+					121b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					12b
+					100b
+					121b
+					115b
+					111b
+					110b
+					95b
+					115b
+					112b
+					104b
+					101b
+					114b
+					101b
+				]
+				type: "gtocore:technode"
+			}]
+			x: 14.454d
+			y: 0.581d
+		}
+		{
+			dependencies: [
+				"6730D7E2319E06C8"
+				"75F7590126B83E0D"
+			]
+			id: "08F5753466662377"
+			tasks: [{
+				id: "737734FAA8F496BD"
+				node: [B;
+					13b
+					2b
+					12b
+					11b
+					101b
+					110b
+					101b
+					114b
+					103b
+					121b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					13b
+					104b
+					121b
+					112b
+					101b
+					114b
+					95b
+					114b
+					101b
+					97b
+					99b
+					116b
+					111b
+					114b
+				]
+				type: "gtocore:technode"
+			}]
+			x: -16.169d
+			y: -3.29d
+		}
+		{
+			dependencies: ["08F5753466662377"]
+			id: "429A9E7D39F23BF0"
+			tasks: [{
+				id: "169F6F80B719DB4E"
+				node: [B;
+					13b
+					2b
+					12b
+					11b
+					101b
+					110b
+					101b
+					114b
+					103b
+					121b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					22b
+					97b
+					100b
+					118b
+					97b
+					110b
+					99b
+					101b
+					100b
+					95b
+					104b
+					121b
+					112b
+					101b
+					114b
+					95b
+					114b
+					101b
+					97b
+					99b
+					116b
+					111b
+					114b
+				]
+				type: "gtocore:technode"
+			}]
+			x: -17.924d
+			y: -2.519d
+		}
+		{
+			dependencies: ["429A9E7D39F23BF0"]
+			id: "61955039DF51BFC9"
+			tasks: [{
+				id: "1DCDB76436767DD7"
+				node: [B;
+					13b
+					2b
+					12b
+					11b
+					101b
+					110b
+					101b
+					114b
+					103b
+					121b
+					95b
+					116b
+					114b
+					101b
+					101b
+					12b
+					22b
+					97b
+					110b
+					110b
+					105b
+					104b
+					105b
+					108b
+					97b
+					116b
+					105b
+					111b
+					110b
+					95b
+					103b
+					101b
+					110b
+					101b
+					114b
+					97b
+					116b
+					111b
+					114b
+				]
+				type: "gtocore:technode"
+			}]
+			x: -19.353d
+			y: -1.353d
+		}
+	]
+	title: "{gto.technode.title}"
+}

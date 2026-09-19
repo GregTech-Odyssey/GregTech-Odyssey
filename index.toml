@@ -357,6 +357,10 @@ file = "config/ftbquests/quests/chapters/steam.snbt"
 hash = "18a203558261c01acd0c9ce538446761ef5a950da6cb7843e4492a7cf61c374c"
 
 [[files]]
+file = "config/ftbquests/quests/chapters/technode.snbt"
+hash = "a7cbd6365c90521316c304ad7594183c3613cc3c235156123b94c7ff2dfc68ec"
+
+[[files]]
 file = "config/ftbquests/quests/chapters/techtree-ftbq.snbt"
 hash = "ec22e0e0aaf31dcd126513c0be84cda127dbd36dbfc9533cd7fce13a2aeae70a"
 
@@ -694,7 +698,7 @@ hash = "84254dc1e5a56ea70df6b16a2fb2620040592badae436c255997aaae84996d91"
 
 [[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/en_us.json"
-hash = "e4fb76cadb2b467a9cb9b1adeab18b6ec345da6059af5574278feaf26abfb18c"
+hash = "ae48376f4f9c4a4fd9ec80e85a29616bbbac71278274741679a87821d459a7c9"
 
 [[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/ru_ru.json"
@@ -702,11 +706,11 @@ hash = "d50beef9864257f5aebb51cf6ed86845676ec1ec1a69e6ae6aa515af6285a1e0"
 
 [[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/zh_cn.json"
-hash = "8f74cedf78c02ad742ba6025be24d8f8138f546c2d1c716dcf6c961c90357a76"
+hash = "1750739d21fdd78eec44cb50d86f0deb257788c2c6152141db45be629e8d5ceb"
 
 [[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/zh_tw.json"
-hash = "36fc703bd09b4c28376d6e22ec281c9ec191b2ef869f3cc008b267c8cc3aa616"
+hash = "67050fd241a072e61873982fff2bc16ffb77f9d1766847f35621df54eb867417"
 
 [[files]]
 file = "config/openloader/resources/quests/pack.mcmeta"
@@ -850,7 +854,7 @@ hash = "f9c759d16f7a36552319cc8a8ad8e0da3904e862620bb6206ee913cec6b1099b"
 
 [[files]]
 file = "config/openloader/resources/resources/assets/ftbquests/ftb_quests_theme.txt"
-hash = "e84a6e8c546a1c359a97826053df50a4dbfbbf00d7203869b2a8bf7222624d59"
+hash = "7e7ae2a057580a393c48bf8fdc2913263ff01f07f27ed8ffbe1c527ed0c54156"
 
 [[files]]
 file = "config/openloader/resources/resources/assets/ftbquests/lang/zh_cn.json"
@@ -871,6 +875,10 @@ hash = "096ad199abb765fd1b1afc4d71f3db896a85c173e3d4f69419132cc8d779ca70"
 [[files]]
 file = "config/openloader/resources/resources/assets/ftbquests/textures/station-1.png"
 hash = "7a4cc097da824fe1ce671d53ad40858b81dcd2a10edea50c1eda7ac6b5c7206f"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/ftbquests/textures/techtree-node.png"
+hash = "0542c2d642651134fc30cf2646456a345a3ad9201eb596e16875fdf814082902"
 
 [[files]]
 file = "config/openloader/resources/resources/assets/ftbteams/lang/zh_cn.json"
