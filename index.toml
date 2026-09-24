@@ -1979,7 +1979,7 @@ metafile = true
 
 [[files]]
 file = "mods/creativecore.pw.toml"
-hash = "47736af1584283072d721e4f2700929a0fabe67b36e2175fc48b0964db70ab8b"
+hash = "23ee78721a3b10820048c827c4fdc2be3275c8f79463a8bc8e90096af2640654"
 metafile = true
 
 [[files]]
@@ -2104,7 +2104,7 @@ metafile = true
 
 [[files]]
 file = "mods/fast-nbt.pw.toml"
-hash = "ad7af9705c98ac6b57e08d2b012890535e209db6bf07caf15a8fb0a087cb116a"
+hash = "6a0de7514993a5431e0d42c60d946ce36f8ee7f4ba4a7cc3edf5eab72668c87d"
 metafile = true
 
 [[files]]
@@ -2227,8 +2227,8 @@ file = "mods/gto-seal-runtime-1.0.jar"
 hash = "ec07a9a421316207e3d8b2eb6c845406f3c44b6f85807202d8d145c10486976f"
 
 [[files]]
-file = "mods/gtocore-forge-1.20.1-26.9.1.jar"
-hash = "e1183a4cb8811642030a5b99a860caa7ede3bdd6177312e426821ad78eb1d594"
+file = "mods/gtocore-forge-1.20.1-26.9.2.jar"
+hash = "7d1a80171c4aed2637dd16460dc42ec3f158d4ab15b7ed6f5a84e592c17d22c1"
 
 [[files]]
 file = "mods/guideme.pw.toml"
@@ -2272,7 +2272,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "bb4a521b67a2f8a3d55d30d4065d0bb8a35705524cefa082f81149361de8f87f"
+hash = "6f7429473e25970b935f90ce7bbe93496128cb72d3e4c94d1dc6ee2e70104d6a"
 metafile = true
 
 [[files]]
