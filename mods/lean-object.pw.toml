@@ -1,0 +1,13 @@
+name = "Lean Object"
+filename = "leanobject-1.20-26.9.2-forge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "287ca8b52960d5a2fcfbe4a91f2a7a26e8db9c8c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8929333
+project-id = 1703183

@@ -513,6 +513,10 @@ file = "config/jei/recipe-category-sort-order.ini"
 hash = "435ba94eee13e22214e46e1fb24d331150fb95cd74436069ce83592b9a346ea9"
 
 [[files]]
+file = "config/leanobject.toml"
+hash = "1094ff0f529fbb284ab1167871356b6ff0eb8259cfe7b2b5fd8f4d36789139dd"
+
+[[files]]
 file = "config/lithium.properties"
 hash = "db142780f1a6f79c67bd50c015ae47252d957249973071dd069b2f7d23ecf504"
 
@@ -2113,11 +2117,6 @@ hash = "61d75de00881b7bf446af674d71a6c81d065149b90b86da66135333571004a73"
 metafile = true
 
 [[files]]
-file = "mods/fast-tag.pw.toml"
-hash = "38714414d2eb08d5fe63ec16a1cab0acbfd31f5b04ca248aa3a7d39a2e21e490"
-metafile = true
-
-[[files]]
 file = "mods/fastfurnace.pw.toml"
 hash = "9a748a2bfac6e79e42d49380148594b706371172e9137889663c214cfceaa973"
 metafile = true
@@ -2303,6 +2302,11 @@ metafile = true
 [[files]]
 file = "mods/ldlib.pw.toml"
 hash = "8f100c7527759b5c79c0a305c39f94717d1ac1373338254f5d3c078abfd4b2a6"
+metafile = true
+
+[[files]]
+file = "mods/lean-object.pw.toml"
+hash = "21fb12932655c41985952aa68091c1e43d74c6c6db6b75919f4b69cd4efb5388"
 metafile = true
 
 [[files]]

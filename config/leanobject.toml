@@ -1,0 +1,58 @@
+#Internal config schema version - do not change
+configVersion = 3
+#On world join, force a GC and log heap usage (MB) for memory debugging
+loggingInGC = false
+#Master switch for every LeanObject optimization
+enabled = true
+
+[features]
+
+	#Fast NBT Collection
+	[features.nbt]
+		#Replace the container inside the container NBT with a faster one.
+		enabled = true
+
+	#Ingredient Deduplication
+	[features.ingredient]
+		#For some methods, the Ingredient will return the same instance, improving speed and reducing memory usage.
+		enabled = true
+
+	#ResourceKey Deduplication
+	[features.resourceKey]
+		#Injection strategy:
+		#  false = @Overwrite - faster, fully replaces the target method
+		#  true  = @Inject    - more compatible, wraps the original method
+		#Enable only when another mod conflicts with the overwrite path
+		safeMode = false
+		#Replaces vanilla ResourceKey interning to cut allocations and speed up creation
+		enabled = true
+
+	#Simplify Model Objects
+	[features.model]
+		#Replace the internal containers of some model objects with more streamlined ones to reduce memory usage.
+		enabled = true
+
+	#Farmer's Delight Ingredient Caching
+	[features.farmersDelight]
+		#Deduplicates ToolActionIngredient instances parsed from recipe JSON and network packets.
+		enabled = true
+
+	#TagKey Deduplication & Identity Mode
+	[features.tagKey]
+		#Injection strategy:
+		#  false = @Overwrite - faster, fully replaces the target method
+		#  true  = @Inject    - more compatible, wraps the original method
+		#Enable only when another mod conflicts with the overwrite path
+		safeMode = false
+		#Faster TagKey creation via custom interning; equals/hashCode use identity semantics for cheaper HashMap lookups (items, fluids, entities, worlds, etc.)
+		enabled = true
+
+	#ResourceLocation String Interning
+	[features.resourceLocation]
+		#Interns namespace/path/variant strings to shrink the ResourceLocation memory footprint, May increase CPU usage.
+		enabled = true
+
+	#AEKey Deduplication & Identity Mode
+	[features.aeKey]
+		#Similar to TagKey's deduplication handling, improving performance and reducing memory usage.
+		enabled = false
