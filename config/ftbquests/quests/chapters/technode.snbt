@@ -1,12 +1,25 @@
 {
+	autofocus_id: "5D50B1FC74B8543D"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "technode"
-	group: ""
+	group: "153E37BBC798F106"
 	hide_quest_until_deps_complete: true
-	icon: "gtocore:dimensional_stability_casing"
+	icon: {
+		Count: 1
+		id: "gtocore:data_crystal_mk4"
+		tag: { }
+	}
 	id: "1220AE3314F35BAF"
-	order_index: 7
+	images: [{
+		height: 2.0d
+		image: "gtocore:item/circuit/suprachronal_iv"
+		rotation: 0.0d
+		width: 2.0d
+		x: -0.5d
+		y: -2.5d
+	}]
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -3652,8 +3665,8 @@
 				]
 				type: "gtocore:technode"
 			}]
-			x: -1.324d
-			y: -1.694d
+			x: -2.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["597D68383EB370B9"]
@@ -7581,6 +7594,22 @@
 			x: -19.353d
 			y: -1.353d
 		}
+		{
+			description: [
+				"此章节为EMI中展示的科技树的复刻版本，隐去了当前暂未解锁的科技节点。"
+				""
+				"可以从这里挑选自己的研究目标。"
+			]
+			id: "07D69A7ABA1A360B"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "0B3451CC5A167873"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
 	]
-	title: "研究节点大全"
+	title: "科技节点大全"
 }

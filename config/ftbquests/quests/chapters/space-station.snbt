@@ -304,7 +304,11 @@
 		}
 		{
 			dependencies: ["7D639CBD69B7AA61"]
-			description: ["终于，你可以在空间站中使用激光仓了"]
+			description: [
+				"&m终于，你可以在空间站中使用激光仓了&r"
+				""
+				"激光仓和高级仓室们需要 科技节点 激光太空工程 解锁，当然也会顺带解锁空间站高能转换调配仓"
+			]
 			icon_scale: 0.9d
 			id: "7CE4581B262B540F"
 			shape: "gear"

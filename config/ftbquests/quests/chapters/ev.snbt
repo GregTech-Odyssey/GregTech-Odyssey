@@ -569,7 +569,12 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["4D36C61E2AF3205F"]
+			dependencies: [
+				"4D36C61E2AF3205F"
+				"38876E6558E7659F"
+			]
+			dependency_requirement: "one_completed"
+			description: ["如果你从其他地方弄到了一定数量也可以直接完成此任务"]
 			id: "4E330B245DD74D33"
 			tasks: [{
 				id: "2D4A22E6CD1B2012"

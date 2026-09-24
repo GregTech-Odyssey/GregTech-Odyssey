@@ -32,6 +32,14 @@
 			x: 19.5d
 			y: 1.5d
 		}
+		{
+			height: 1.0d
+			image: "botania:block/blaze_block"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 2.5d
+		}
 	]
 	order_index: 1
 	progression_mode: "flexible"
@@ -646,6 +654,7 @@
 				{
 					id: "1E0404137C6BB0CF"
 					item: "botania:endoflame"
+					optional_task: true
 					type: "item"
 				}
 			]
@@ -4202,7 +4211,11 @@
 		}
 		{
 			dependencies: ["45C8A2DF9C0E5473"]
-			description: ["如何你真的找不到矿脉，可以采用异构花加活石转化"]
+			description: [
+				"如何你真的找不到矿脉，可以采用异构花加活石转化"
+				""
+				"获取混沌魔晶即可完成此任务"
+			]
 			id: "3D6CC306F06FEF34"
 			tasks: [
 				{
@@ -4213,21 +4226,25 @@
 				{
 					id: "6BA0BD15906BDFF2"
 					item: "gtocore:raw_gnome_crystal"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "459FF8B2B3361B28"
 					item: "gtocore:raw_sylph_crystal"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "6027756CDC966D45"
 					item: "gtocore:raw_undine_crystal"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "1EA32F5B250C05EB"
 					item: "gtocore:raw_salamander_crystal"
+					optional_task: true
 					type: "item"
 				}
 			]
@@ -4237,6 +4254,7 @@
 		}
 		{
 			dependencies: ["3D6CC306F06FEF34"]
+			description: ["获取混沌魔晶粉即可完成此任务"]
 			id: "171A10E6B65F087D"
 			tasks: [
 				{
@@ -4247,21 +4265,25 @@
 				{
 					id: "021B07B6A0321A72"
 					item: "gtocore:gnome_crystal_dust"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "556A7861D41AC23C"
 					item: "gtocore:sylph_crystal_dust"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "0AFB45BC07FE5647"
 					item: "gtocore:undine_crystal_dust"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "012CDB15C03767F8"
 					item: "gtocore:salamander_crystal_dust"
+					optional_task: true
 					type: "item"
 				}
 			]
@@ -4719,6 +4741,7 @@
 				item: "minecraft:blaze_powder"
 				type: "item"
 			}]
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "7D3F1703F2F2BB99"

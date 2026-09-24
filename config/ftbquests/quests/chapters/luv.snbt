@@ -1299,7 +1299,11 @@
 				"2F03D93AC7DBE58D"
 				"251002F2103BDA84"
 			]
-			description: ["这个阶段开始的部件需要装配线制作"]
+			description: [
+				"这个阶段开始的部件需要装配线制作，并且需要解锁对应的科技节点"
+				""
+				"[\"\",{\"text\": \"前往\",\"color\":\"yellow\"}, {\"text\": \"科技树\",\"color\":\"yellow\",\"underlined\": true,\"clickEvent\": {\"action\": \"change_page\",\"value\": \"112FC03136F231BC\"}},{\"text\": \"章节组来查看全新的研究线！\",\"color\":\"yellow\"}]"
+			]
 			id: "4C8549E624A543C5"
 			tasks: [{
 				id: "745200744B0F7695"
