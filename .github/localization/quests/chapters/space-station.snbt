@@ -304,7 +304,11 @@
 		}
 		{
 			dependencies: ["7D639CBD69B7AA61"]
-			description: ["{gto.space-station.quests.7CE4581B262B540F.description0}"]
+			description: [
+				"{gto.space-station.quests.7CE4581B262B540F.description0}"
+				""
+				"{gto.space-station.quests.7CE4581B262B540F.description1}"
+			]
 			icon_scale: 0.9d
 			id: "7CE4581B262B540F"
 			shape: "gear"

@@ -3,15 +3,30 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: "circle"
 	filename: "techtree"
-	group: ""
+	group: "153E37BBC798F106"
+	icon: {
+		Count: 1
+		id: "gtocore:data_crystal_mk1"
+		tag: { }
+	}
 	id: "4E2C959E286891F5"
-	order_index: 5
+	images: [{
+		height: 2.0d
+		image: "gtocore:item/circuit/suprachronal_iv"
+		rotation: 0.0d
+		width: 2.0d
+		x: -8.5d
+		y: -4.5d
+	}]
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
 			description: [
 				"{gto.techtree.quests.112FC03136F231BC.description0}"
+				""
 				"{gto.techtree.quests.112FC03136F231BC.description1}"
+				""
 				"{gto.techtree.quests.112FC03136F231BC.description2}"
 			]
 			id: "112FC03136F231BC"
@@ -47,7 +62,9 @@
 			dependencies: ["112FC03136F231BC"]
 			description: [
 				"{gto.techtree.quests.5D182610DA157E66.description0}"
+				""
 				"{gto.techtree.quests.5D182610DA157E66.description1}"
+				""
 				"{gto.techtree.quests.5D182610DA157E66.description2}"
 			]
 			id: "5D182610DA157E66"
@@ -541,10 +558,19 @@
 				"{gto.techtree.quests.094AF354546B3C55.description0}"
 				"{gto.techtree.quests.094AF354546B3C55.description1}"
 				"{gto.techtree.quests.094AF354546B3C55.description2}"
+				""
+				"{gto.techtree.quests.094AF354546B3C55.description3}"
+				""
+				"{gto.techtree.quests.094AF354546B3C55.description4}"
+				""
+				"{gto.techtree.quests.094AF354546B3C55.description5}"
+				""
+				"[\"\", {\"translate\": \"gto.techtree.quests.094AF354546B3C55.description6.rich_text0\"}, {\"underlined\": \"True\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"09CB6A12BF63D0FA\"}, \"translate\": \"gto.techtree.quests.094AF354546B3C55.description6.rich_text1\"}, {\"translate\": \"gto.techtree.quests.094AF354546B3C55.description6.rich_text2\"}]"
 			]
+			icon: "gtceu:luv_field_generator"
 			id: "094AF354546B3C55"
-			shape: "hexagon"
-			size: 2.0d
+			shape: "gear"
+			size: 2.5d
 			tasks: [{
 				id: "39C96F3B053CD531"
 				title: "{gto.techtree.quests.094AF354546B3C55.tasks.39C96F3B053CD531.title}"
@@ -557,11 +583,13 @@
 			dependencies: ["094AF354546B3C55"]
 			description: [
 				"{gto.techtree.quests.648F30FF65FF6658.description0}"
+				""
 				"{gto.techtree.quests.648F30FF65FF6658.description1}"
+				""
 				"{gto.techtree.quests.648F30FF65FF6658.description2}"
 			]
 			id: "648F30FF65FF6658"
-			shape: "diamond"
+			shape: "gear"
 			size: 2.0d
 			tasks: [{
 				id: "7DC78FB69532E852"
@@ -928,6 +956,19 @@
 			}]
 			title: "{gto.techtree.quests.6E72DDA534829D02.title}"
 			x: 8.0d
+			y: -7.0d
+		}
+		{
+			description: ["{gto.techtree.quests.0F66B0E1ADDE0398.description0}"]
+			id: "0F66B0E1ADDE0398"
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "3E6636D1B9D53ACB"
+				type: "checkmark"
+			}]
+			title: "{gto.techtree.quests.0F66B0E1ADDE0398.title}"
+			x: -10.5d
 			y: -7.0d
 		}
 	]

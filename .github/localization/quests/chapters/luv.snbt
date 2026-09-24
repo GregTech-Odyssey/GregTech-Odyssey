@@ -1299,7 +1299,11 @@
 				"2F03D93AC7DBE58D"
 				"251002F2103BDA84"
 			]
-			description: ["{gto.luv.quests.4C8549E624A543C5.description0}"]
+			description: [
+				"{gto.luv.quests.4C8549E624A543C5.description0}"
+				""
+				"[\"\", {\"color\": \"yellow\", \"translate\": \"gto.luv.quests.4C8549E624A543C5.description1.rich_text0\"}, {\"color\": \"yellow\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"112FC03136F231BC\"}, \"translate\": \"gto.luv.quests.4C8549E624A543C5.description1.rich_text1\"}, {\"color\": \"yellow\", \"translate\": \"gto.luv.quests.4C8549E624A543C5.description1.rich_text2\"}]"
+			]
 			id: "4C8549E624A543C5"
 			tasks: [{
 				id: "745200744B0F7695"

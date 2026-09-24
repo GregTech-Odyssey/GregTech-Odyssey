@@ -1063,11 +1063,13 @@
 				"5B98FF5DDD4B2629"
 			]
 			description: [
-				"{gto.iv.quests.2964D4005BFFFADF.description0}"
+				"[\"\", {\"color\": \"yellow\", \"translate\": \"gto.iv.quests.2964D4005BFFFADF.description0.rich_text0\"}, {\"color\": \"yellow\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"112FC03136F231BC\"}, \"translate\": \"gto.iv.quests.2964D4005BFFFADF.description0.rich_text1\"}, {\"color\": \"yellow\", \"translate\": \"gto.iv.quests.2964D4005BFFFADF.description0.rich_text2\"}]"
 				""
 				"{gto.iv.quests.2964D4005BFFFADF.description1}"
 				""
 				"{gto.iv.quests.2964D4005BFFFADF.description2}"
+				""
+				"{gto.iv.quests.2964D4005BFFFADF.description3}"
 			]
 			icon: {
 				Count: 1

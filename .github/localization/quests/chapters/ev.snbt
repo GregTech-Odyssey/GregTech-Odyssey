@@ -569,7 +569,12 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["4D36C61E2AF3205F"]
+			dependencies: [
+				"4D36C61E2AF3205F"
+				"38876E6558E7659F"
+			]
+			dependency_requirement: "one_completed"
+			description: ["{gto.ev.quests.4E330B245DD74D33.description0}"]
 			id: "4E330B245DD74D33"
 			tasks: [{
 				id: "2D4A22E6CD1B2012"

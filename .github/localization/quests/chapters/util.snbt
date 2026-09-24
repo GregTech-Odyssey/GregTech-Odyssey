@@ -601,6 +601,19 @@
 			x: -1.5d
 			y: 0.0d
 		}
+		{
+			disable_toast: true
+			id: "38876E6558E7659F"
+			invisible: true
+			tasks: [{
+				count: 20L
+				id: "401BF1C10C828E41"
+				item: "ad_astra:raw_desh"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.0d
+		}
 	]
 	title: "{gto.util.title}"
 }
