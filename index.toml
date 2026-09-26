@@ -1777,11 +1777,6 @@ hash = "e4564f276b8b791dc88790d5edd7654b649e50e2be59bc264986b38d70118b79"
 metafile = true
 
 [[files]]
-file = "mods/ae2-crafting-tree.pw.toml"
-hash = "810f804314506f9cb248a13f41ae7ef1e50679bfd9dcb0888d50ae70da4a4181"
-metafile = true
-
-[[files]]
 file = "mods/ae2-import-export-card.pw.toml"
 hash = "bcd1578731c0bd30fc4dfb807b42ffb2e9440820cda258a4b2600b29b71faf21"
 metafile = true
@@ -2226,8 +2221,8 @@ file = "mods/gto-seal-runtime-1.0.jar"
 hash = "ec07a9a421316207e3d8b2eb6c845406f3c44b6f85807202d8d145c10486976f"
 
 [[files]]
-file = "mods/gtocore-forge-1.20.1-26.9.2.jar"
-hash = "e00086dbaaaabfb3ba7616f35b89b77390cb58a481eeca634d6dc0691f86479c"
+file = "mods/gtocore-forge-1.20.1-26.9.3.jar"
+hash = "747ede6a4abd9276e8228b0e8d67e9e6b5b6a2f843c5af8058197f40b0c0cb6c"
 
 [[files]]
 file = "mods/guideme.pw.toml"
