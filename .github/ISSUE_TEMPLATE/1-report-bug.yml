@@ -32,6 +32,18 @@ body:
         - "Both / 同时"
     validations:
       required: true
+  - type: "dropdown"
+    id: "difficulty"
+    attributes:
+      label: "Game Difficulty / 游戏难度"
+      description: "Please select the GTO difficulty of the world where you encountered this issue. / 请选择遇到此问题的存档所用的 GTO 难度。"
+      options:
+        - "Easy / 简单"
+        - "Normal / 普通"
+        - "Expert / 专家"
+        - "Custom / 自定义"
+    validations:
+      required: true
   - type: "textarea"
     id: "expectation"
     attributes:
@@ -54,6 +66,21 @@ body:
       label: "Suggested Resolution / 建议解决方案"
       description: "Provide a concise description of the issue and a potential solution in one or two sentences. / 用一到两句话简洁描述问题及可能的解决方案。"
       placeholder: "Example: The diamond pickaxe could not be crafted due to an error in the recipe configuration. / 示例：由于配方配置错误，无法制作钻石镐。"
+    validations:
+      required: true
+  - type: "textarea"
+    id: "logs"
+    attributes:
+      label: "Logs / 日志"
+      description: |
+        **Logs are required.** Drag and drop the log files into this box to upload them. Upload `logs/latest.log` from the game directory; if the game crashed, also upload the newest file in `crash-reports/`. Reports without logs may be closed.
+
+        **If you play on a server, you must upload BOTH the client log and the server log.** The server log is `logs/latest.log` in the server directory; if you cannot access it, ask the server administrator for it.
+
+        **必须上传日志。** 将日志文件直接拖入此框即可上传。请上传游戏目录下的 `logs/latest.log`；如果游戏崩溃，还需上传 `crash-reports/` 中最新的崩溃报告。未附日志的报告可能被关闭。
+
+        **如果在服务器中游玩，必须同时上传客户端和服务端的双端日志。** 服务端日志位于服务器目录下的 `logs/latest.log`；如果无法获取，请向服务器管理员索取。
+      placeholder: "Drag and drop log files here. / 将日志文件拖到这里。"
     validations:
       required: true
   - type: "checkboxes"
