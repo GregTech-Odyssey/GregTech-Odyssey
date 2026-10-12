@@ -1997,9 +1997,8 @@ hash = "1315cd56b0b4a5b3d53374cebf4f1f3cd0546b05058740847bd226c1d1ccab39"
 metafile = true
 
 [[files]]
-file = "mods/data-sync-lib.pw.toml"
-hash = "2cbf4070b3a493958cd46fa38c31adcab9f9fd7dcbbfbb36932300102196199f"
-metafile = true
+file = "mods/datasynclib-forge-1.20.1-26.10.9.jar"
+hash = "fe01530c7cd909e3ef88b63d99f6064e378e8903ccd82692affa9660b15b7ffe"
 
 [[files]]
 file = "mods/deeperdarker.pw.toml"
@@ -2221,8 +2220,8 @@ file = "mods/gto-seal-runtime-1.0.jar"
 hash = "ec07a9a421316207e3d8b2eb6c845406f3c44b6f85807202d8d145c10486976f"
 
 [[files]]
-file = "mods/gtocore-forge-1.20.1-26.10.2.jar"
-hash = "751f338eb0a65d2b637bccb22e81a017a04b2da22dc2fea59b91ec340508dc89"
+file = "mods/gtocore-forge-1.20.1-26.10.3.jar"
+hash = "218cb40a51d39a144a8c5f44b12f42b560fcceb25b8e2565b79ade846ac5f7e7"
 
 [[files]]
 file = "mods/guideme.pw.toml"
