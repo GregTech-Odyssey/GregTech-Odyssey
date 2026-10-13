@@ -1872,11 +1872,6 @@ hash = "eae86f68fa3b5ca3ff1b22cbfc4efc0517c062100f32666d46b396fdb972e316"
 metafile = true
 
 [[files]]
-file = "mods/attack-through-grass.pw.toml"
-hash = "b3fb99fe9c9f273ac860188cc78d655c1b955477600a5148ad56b8feeb45836e"
-metafile = true
-
-[[files]]
 file = "mods/attributefix.pw.toml"
 hash = "828d571a91296e2ee3be1ec509619ea01f6a61a03958461fbe543bd377daa194"
 metafile = true
