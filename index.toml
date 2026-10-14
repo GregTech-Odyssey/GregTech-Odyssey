@@ -761,6 +761,18 @@ file = "config/openloader/resources/resources/assets/ad_astra_rocketed/lang/zh_c
 hash = "daaf259ba7aa25bc17970646bd8239791baf3a6ba0ad6658285f9e992b907693"
 
 [[files]]
+file = "config/openloader/resources/resources/assets/ae2/lang/en_us.json"
+hash = "75695d36fa5b26ae8c611a17970b2f15b946a5828019b49f1e2fe1116ab08082"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/ae2/lang/zh_cn.json"
+hash = "6eb54e3081d59be2574b7134fb9913b4dab1df3669930ce7002bfbf74c2e21be"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/ae2/lang/zh_tw.json"
+hash = "a4cebbfbdbdd480f2d818165148c93f6e1a71de57c5c3203f58ea06cce30a6da"
+
+[[files]]
 file = "config/openloader/resources/resources/assets/ae2/textures/guis/pattern_modes.png"
 hash = "de819a4207ff5c67cb6b3d74b7614529fed4fc9f5b274b92e27b9e601065e726"
 
