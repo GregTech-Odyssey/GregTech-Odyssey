@@ -662,6 +662,9 @@
 						Count: 1
 						id: "itemfilters:or"
 						tag: {
+							display: {
+								Name: "{\"text\":\"任意粗锡矿\"}"
+							}
 							items: [
 								{
 									Count: 1b
@@ -678,7 +681,6 @@
 							]
 						}
 					}
-					title: "任意粗锡矿"
 					type: "item"
 				}
 				{
@@ -687,6 +689,9 @@
 						Count: 1
 						id: "itemfilters:or"
 						tag: {
+							display: {
+								Name: "{\"text\":\"任意粗铜矿\"}"
+							}
 							items: [
 								{
 									Count: 1b
@@ -703,7 +708,6 @@
 							]
 						}
 					}
-					title: "任意粗铜矿"
 					type: "item"
 				}
 			]

@@ -1003,7 +1003,7 @@
 		{
 			dependencies: ["26167AFECA871925"]
 			description: [
-				"全新的反应堆，仍在测试阶段"
+				"全新的反应堆"
 				""
 				"提示：你只需要知道如何定性控制机器即可，无需真的看懂公式"
 			]
@@ -1019,7 +1019,6 @@
 		}
 		{
 			dependencies: ["4520F6658FC37F85"]
-			description: ["EMI里面部分配方废料粉是第七个产物所以没空间显示了，实际上是有的"]
 			id: "36A7AE94EDBE45C2"
 			tasks: [{
 				id: "2AE711CD2EE2EFC4"

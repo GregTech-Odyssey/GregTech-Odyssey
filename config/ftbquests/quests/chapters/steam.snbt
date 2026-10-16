@@ -1906,15 +1906,24 @@
 				"- 优化tps，流体管道没有缓存，流体从输入直达输出"
 				""
 				"- 能够主动抽取机器/容器中的物品/流体，用扳手控制管道方向的同时也将激活管道的主动抽取功能"
+				""
+				"- &e额外新增了通用GT管道"
 			]
 			icon: "gtceu:bronze_normal_fluid_pipe"
 			id: "39D96F76911B771E"
-			rewards: [{
-				count: 8
-				id: "69CD67409F548770"
-				item: "gtceu:bronze_normal_fluid_pipe"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 8
+					id: "69CD67409F548770"
+					item: "gtceu:bronze_normal_fluid_pipe"
+					type: "item"
+				}
+				{
+					id: "43404F6946966E59"
+					item: "gtocore:manganese_universal_pipe"
+					type: "item"
+				}
+			]
 			shape: "pentagon"
 			size: 1.5d
 			tasks: [{
@@ -2209,7 +2218,7 @@
 		{
 			dependencies: ["24C53B5FF515ACAC"]
 			description: [
-				"在游戏中，默认情况下2mb蒸汽=1EU，你的蒸汽机器消耗蒸汽以及蒸汽发电都会遵循这个规则"
+				"在游戏中，默认情况下&b2mb 蒸汽=1 EU&r，你的蒸汽机器消耗蒸汽以及蒸汽发电都会遵循这个规则"
 				""
 				"低压机器工作所有配方都需要2x耗时，不过每秒消耗的蒸汽会减少50%"
 				""
@@ -2480,6 +2489,19 @@
 			}]
 			x: -8.5d
 			y: 0.0d
+		}
+		{
+			dependencies: ["27F4D9739FE33A02"]
+			id: "1094F892F8182CA9"
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "667EA4821950A3D4"
+				item: "gtocore:drawer_storage"
+				type: "item"
+			}]
+			x: 11.25d
+			y: -3.0d
 		}
 	]
 	subtitle: ["Tier0-Steam"]
