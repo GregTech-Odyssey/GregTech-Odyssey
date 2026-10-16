@@ -1,11 +1,11 @@
 name = "GregTech Odyssey"
-version = "0.6.0-dev15"
+version = "0.6.0-dev17"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "984738786f2d5b68fc2265b6e7f85fe06c9fb69d2efe4baca54f179b882021a2"
+hash = "f5563711f9a823a01bfb3b3b74fc3eb8ca70b0322411fc37567d4bf893e3d36d"
 
 [versions]
 forge = "47.4.20"
