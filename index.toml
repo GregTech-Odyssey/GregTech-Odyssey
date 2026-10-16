@@ -85,126 +85,6 @@ file = "config/extrabotany-common.toml"
 hash = "2a598eaec313c9d752dbcc25dfda06f8e5770f9c24e31939411f67724f918614"
 
 [[files]]
-file = "config/fancymenu/assets/3f2cd6ae-f4b7-433e-9249-40f059ccaffe.png"
-hash = "a31ea94782c13c78eb9647550c80bbeac5a1878acc44ce0b7e0486f65dc63b1f"
-
-[[files]]
-file = "config/fancymenu/assets/bg.png"
-hash = "57ada7fac5201d06d2c6b518f69dce9b4a29996f97359eda0dafbd6ea63057fe"
-
-[[files]]
-file = "config/fancymenu/assets/button.png"
-hash = "a31ea94782c13c78eb9647550c80bbeac5a1878acc44ce0b7e0486f65dc63b1f"
-
-[[files]]
-file = "config/fancymenu/assets/button0.png"
-hash = "f99b03ec5a07ee9c28df72df52bb556786d539f2ffea957ada966f974dae6bf8"
-
-[[files]]
-file = "config/fancymenu/assets/button_pressed.png"
-hash = "3b0e4c589683d7dde09c94b36bc6dc9751172097cb7695a2a8a1ef0caf53f045"
-
-[[files]]
-file = "config/fancymenu/assets/button_textures-1.png"
-hash = "b0f21b3a39089a6b670313c715b91ee0da399055891c2273f1a23fd3c5ef7393"
-
-[[files]]
-file = "config/fancymenu/assets/gto.png"
-hash = "57ada7fac5201d06d2c6b518f69dce9b4a29996f97359eda0dafbd6ea63057fe"
-
-[[files]]
-file = "config/fancymenu/assets/gto_title.png"
-hash = "47b5ee415e4ecf88ad89700b94b3754127788aed0ee162598006b58674057036"
-
-[[files]]
-file = "config/fancymenu/assets/hovered.png"
-hash = "cb1465584252978eede44377fe9b01e3b7c686c1a112ad4e59a37a6500ea9782"
-
-[[files]]
-file = "config/fancymenu/assets/lcongto.png"
-hash = "7eec5b3112a71d625deb6721f4e2d6508e8aaf818aa79e1e6c8c6541c0ec813c"
-
-[[files]]
-file = "config/fancymenu/assets/logo.png"
-hash = "7eec5b3112a71d625deb6721f4e2d6508e8aaf818aa79e1e6c8c6541c0ec813c"
-
-[[files]]
-file = "config/fancymenu/assets/minecraft_gto.png"
-hash = "606f342e41d5e286591e81428fe4bbd43a3f646f92040dcd9019932ec4d2a8bf"
-
-[[files]]
-file = "config/fancymenu/assets/minecraftgto.png"
-hash = "606f342e41d5e286591e81428fe4bbd43a3f646f92040dcd9019932ec4d2a8bf"
-
-[[files]]
-file = "config/fancymenu/custom_gui_screens.txt"
-hash = "ff492043eaf454c46e949d5eef32ece90cc5a19feb50a161dd29a43b5732c880"
-
-[[files]]
-file = "config/fancymenu/customizablemenus.txt"
-hash = "d4e6e2f15846c0a6159e0df45bc85966cfbcc043a426c1b52e1ad465f7848c56"
-
-[[files]]
-file = "config/fancymenu/customization/title_screen_layout.txt"
-hash = "274478c04cc28c4c7f0a316616b753a83be0fee8ac45c7a6b60fcceda83e716f"
-
-[[files]]
-file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
-hash = "d4e66bc22fcfa56158ca7100017623c71b1437fb4722229b6e064e0a48a5f5de"
-
-[[files]]
-file = "config/fancymenu/legacy_checklist.txt"
-hash = "9a25d3dc708e43eabafce5479a13c02dae15bc7f673afb2745b8b2ba48a97dc0"
-
-[[files]]
-file = "config/fancymenu/normalized_scroll_screens.json"
-hash = "9bdd808b0e3e8a7fa3f0f3b543da5905e53cf20b5bceff2a8eac542d5fec56e1"
-
-[[files]]
-file = "config/fancymenu/options.txt"
-hash = "75d44ca329bf5996cd3dbe096025cfe9ae19d2cb169cc989c9d59ba566ecfec8"
-
-[[files]]
-file = "config/fancymenu/ui_themes/cherry_blossom.json"
-hash = "993c16664fe2d1b9e8ad107bf1c19c1dbb244729c403ed058ca2e54616dc5452"
-
-[[files]]
-file = "config/fancymenu/ui_themes/cozy_campfire.json"
-hash = "1e7505231b9d99e6315845043ce810dfc7004ce1d8f5a4ceddb4ecb96c03ac50"
-
-[[files]]
-file = "config/fancymenu/ui_themes/dark.json"
-hash = "01e2a3b5d250c0259a7f97f0d353785bfeab6d7ee2e147c16bb910f1d23e9498"
-
-[[files]]
-file = "config/fancymenu/ui_themes/dark_high_contrast.json"
-hash = "54316a2b309ddb472b9133f8ccb8694dce9b57be6ebcfb3c2e9d1bbfdade3f26"
-
-[[files]]
-file = "config/fancymenu/ui_themes/light.json"
-hash = "a05e95f7b62f338049fe0045d9a6a50060d3aba52d5ab83ac1ed6ff55cac1153"
-
-[[files]]
-file = "config/fancymenu/ui_themes/light_high_contrast.json"
-hash = "7c96ba2f2cb4d59d20eaf88960de7a9308ce8a3460c4e1757e07c42e174ea65a"
-
-[[files]]
-file = "config/fancymenu/ui_themes/pumpkin_soup.json"
-hash = "7c6a5d5b19e53ca2f88371c2e867f51339b045697aab29864df5877a6bba9311"
-
-[[files]]
-file = "config/fancymenu/ui_themes/purple_void.json"
-hash = "fa63577441fd576ebac90ecf06b7ded376cbf80ca5103d398bc9a73a25c6c2c0"
-
-[[files]]
-file = "config/fancymenu/ui_themes/spooky_season.json"
-hash = "cfa46554bbb027efe3c2184a073ee652000acac2500cd5136764f901355ec0cd"
-
-[[files]]
-file = "config/fancymenu/user_variables.db"
-hash = "3d7d4cda73d6bde134a568ccbe4e8d2e7fbe701570012b71fa45acdb2258c823"
-
-[[files]]
 file = "config/fast_recipe_search.toml"
 hash = "b7e326f3da688ba28e5110628b9db9f434810b85c08d913a45c5099778c70550"
 
@@ -2089,11 +1969,6 @@ hash = "02db0c060c27e7dcff0eaf34e399573ae12413bdc74a98cecac445f5e46b1adc"
 metafile = true
 
 [[files]]
-file = "mods/fancymenu.pw.toml"
-hash = "370722ca218b4c15f46c68feae9ee71aeafb56e8227df1385668423fcd4ebe77"
-metafile = true
-
-[[files]]
 file = "mods/farmers-delight.pw.toml"
 hash = "349c06c50fa315e9eb618d115f7d1391062706021c645e14f86afae3109d4662"
 metafile = true
@@ -2287,11 +2162,6 @@ hash = "e571816e2487046d3f1c2697f03166b47d6343dbd4480d9e72cc1b2b4a0062f1"
 metafile = true
 
 [[files]]
-file = "mods/konkrete.pw.toml"
-hash = "143102be700d30cf68d0988bc9f1b523545e37b7074ee786faac56a388e6f0e9"
-metafile = true
-
-[[files]]
 file = "mods/kotlin-for-forge.pw.toml"
 hash = "1678327ac50408273c1828b631929128d3fdfd54cda7b2e823ce9352495a68ff"
 metafile = true
@@ -2319,11 +2189,6 @@ metafile = true
 [[files]]
 file = "mods/measurements.pw.toml"
 hash = "bc7751a3a297b04dc87a9a3ae845e6248e72597252103307731cc1e205682213"
-metafile = true
-
-[[files]]
-file = "mods/melody.pw.toml"
-hash = "0b9cc190139b0eb2d5f0153f05717ed53edd499ad2a3eeee99ea75d22fd0ef1c"
 metafile = true
 
 [[files]]
