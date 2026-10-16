@@ -1,13 +1,13 @@
 name = "Ars Meteorites"
-filename = "arsmeteorites-1.20.1-1.1.8.jar"
+filename = "arsmeteorites-1.20.1-1.2.0.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "5a639aea790d93a2bdbe954505a1783dab0b0f3c"
+hash = "62c36a20faeddfce7f2a5b12b923da50a44f5d7b"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 7657876
+file-id = 9047209
 project-id = 1278083

@@ -1,13 +1,13 @@
 name = "CorgiLib"
-filename = "Corgilib-Forge-1.20.1-4.0.3.5.jar"
+filename = "Corgilib-Forge-1.20.1-4.0.3.6.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "ef71df3c9a3d22432d63957a8db00645353bfe36"
+hash = "dc26327631fa34c25139e2d3c95b3274e8978336"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8591767
+file-id = 9113598
 project-id = 693313
