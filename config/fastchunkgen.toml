@@ -1,0 +1,36 @@
+version = 3
+
+[ioSystem]
+gcFreeChunkSerializer = false
+recoverFromErrors = false
+optimizations = true
+replaceImpl = true
+async = true
+fireForgeChunkDataEvents = true
+forgeChunkDataEventsOnMainThread = true
+serializeBlockEntitiesOnMainThread = true
+
+[generalOptimizations]
+reduceAllocations = true
+overrideModernFixWorldGenAllocations = true
+optimizeAsyncChunkRequest = true
+optimizeNoiseSampling = true
+optimizeScheduling = true
+
+[threadedWorldGen]
+enabled = true
+allowThreadedFeatures = true
+allowGenerationCancellation = false
+asyncScheduling = false
+
+[threadedLighting]
+enabled = true
+
+[fixes]
+chunkIoThreadingIssues = true
+generalThreadingIssues = true
+worldGenThreadingIssues = true
+vanillaWorldGenBugs = true
+
+[vanillaWorldGenOptimizations]
+enabled = true

@@ -213,6 +213,10 @@ file = "config/fastbench.cfg"
 hash = "76a5d47ca4e918446d37edf7d09196af462f7e78aff8c2aa507d2b151117356b"
 
 [[files]]
+file = "config/fastchunkgen.toml"
+hash = "7cbf8a0c3ac821dfe04561c23a50cc58a2c756534baf923dff11fde894c3750b"
+
+[[files]]
 file = "config/fastquit.toml"
 hash = "3f09c54f4e26efceb4fa77deff752e33c5ea4710f01bbd7cdb55af1a154065f2"
 
@@ -526,7 +530,7 @@ hash = "a4acca133f826d4bf190522ff073b5766cb9f6941e494699274999ed778e9ada"
 
 [[files]]
 file = "config/modernfix-mixins.properties"
-hash = "fa002df077f4d80f9ef7ddc2327a629aa0e6c7092c36abe3e5ef534087cd7726"
+hash = "ff9ea015a5ca0b59a91a0770e549ae3aed26a76b176bc0bf2c530b2ee5a9789a"
 
 [[files]]
 file = "config/modularrouters-common.toml"
@@ -2107,6 +2111,11 @@ metafile = true
 [[files]]
 file = "mods/fast-recipe-search.pw.toml"
 hash = "61d75de00881b7bf446af674d71a6c81d065149b90b86da66135333571004a73"
+metafile = true
+
+[[files]]
+file = "mods/fastchunkgen.pw.toml"
+hash = "5b03d20212496cee383c2fa6a8683813e04152e3ff87586e6070775794129a02"
 metafile = true
 
 [[files]]
