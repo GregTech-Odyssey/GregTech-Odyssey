@@ -665,6 +665,9 @@
 						Count: 1
 						id: "itemfilters:or"
 						tag: {
+							display: {
+								Name: "{\"text\":\"任意粗锡矿\"}"
+							}
 							items: [
 								{
 									Count: 1b
@@ -681,7 +684,6 @@
 							]
 						}
 					}
-					title: "{gto.main-stoneage.quests.0EFC6C245CC001CB.tasks.2F3877D66CFEDD91.title}"
 					type: "item"
 				}
 				{
@@ -690,6 +692,9 @@
 						Count: 1
 						id: "itemfilters:or"
 						tag: {
+							display: {
+								Name: "{\"text\":\"任意粗铜矿\"}"
+							}
 							items: [
 								{
 									Count: 1b
@@ -706,7 +711,6 @@
 							]
 						}
 					}
-					title: "{gto.main-stoneage.quests.0EFC6C245CC001CB.tasks.0570186823481BED.title}"
 					type: "item"
 				}
 			]

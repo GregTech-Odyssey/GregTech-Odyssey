@@ -146,7 +146,7 @@
 			rotation: 0.0d
 			width: 1.1d
 			x: -5.0d
-			y: 11.5d
+			y: 12.0d
 		}
 		{
 			color: 16711935
@@ -1009,7 +1009,7 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: -5.7d
-			y: 11.5d
+			y: 12.0d
 		}
 		{
 			height: 1.1d
@@ -1017,7 +1017,7 @@
 			rotation: 0.0d
 			width: 1.1d
 			x: -5.0d
-			y: 11.5d
+			y: 12.0d
 		}
 		{
 			color: 4265213
@@ -1182,6 +1182,32 @@
 			width: 1.0d
 			x: 7.5d
 			y: 19.0d
+		}
+		{
+			height: 1.0d
+			image: "gtocore:item/circuit/suprachronal_hv"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.5d
+			y: 11.0d
+		}
+		{
+			color: 4265213
+			height: 1.1d
+			image: "ftbquests:block/barrier"
+			order: 1
+			rotation: 0.0d
+			width: 1.1d
+			x: -5.0d
+			y: 11.0d
+		}
+		{
+			height: 1.1d
+			image: "gtocore:block/multiblock/dimensionally_transcendent_plasma_forge/overlay_top"
+			rotation: 0.0d
+			width: 1.1d
+			x: -5.0d
+			y: 11.0d
 		}
 	]
 	order_index: 0
@@ -1785,7 +1811,7 @@
 				}
 			]
 			x: -5.0d
-			y: 11.5d
+			y: 12.0d
 		}
 		{
 			dependencies: [
@@ -2186,10 +2212,11 @@
 		}
 		{
 			dependencies: [
-				"041ABD90CDDE00AA"
 				"0E9F8C57145D61AB"
+				"041ABD90CDDE00AA"
 			]
 			description: ["{gto.ae.quests.514BAD02F6BB76B8.description0}"]
+			hide_dependency_lines: true
 			id: "514BAD02F6BB76B8"
 			tasks: [{
 				id: "0F6CA931F28F1791"
@@ -2305,7 +2332,7 @@
 				type: "item"
 			}]
 			x: -7.0d
-			y: 11.5d
+			y: 12.0d
 		}
 		{
 			dependencies: ["727CCA6FB49E142D"]
@@ -5016,6 +5043,28 @@
 			}]
 			x: -1.0d
 			y: 19.5d
+		}
+		{
+			dependencies: ["041ABD90CDDE00AA"]
+			id: "41851FB3BEB2D12D"
+			tasks: [{
+				id: "7E3070AF04F95D56"
+				item: "gtocore:me_disk_box"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["41851FB3BEB2D12D"]
+			id: "149FA66A60148544"
+			tasks: [{
+				id: "1E91777F506FE30E"
+				item: "gtocore:me_disk_storage"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 11.0d
 		}
 	]
 	subtitle: ["{gto.ae.subtitle0}"]

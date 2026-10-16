@@ -564,13 +564,14 @@
 				"{gto.magic2.quests.4ECFB1256BD6A7AA.description2}"
 			]
 			id: "4ECFB1256BD6A7AA"
+			optional: true
 			tasks: [{
 				id: "27FBB10E434FBD29"
 				item: "botania:corporea_funnel"
 				type: "item"
 			}]
 			x: 3.5d
-			y: 8.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["3A20210242A1C865"]
@@ -583,6 +584,7 @@
 			]
 			id: "634E71DBAE81D197"
 			min_width: 300
+			optional: true
 			tasks: [
 				{
 					id: "5F0667A0930319F8"
@@ -597,7 +599,7 @@
 			]
 			title: "{gto.magic2.quests.634E71DBAE81D197.title}"
 			x: 4.0d
-			y: 7.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["634E71DBAE81D197"]
@@ -609,15 +611,16 @@
 				"{gto.magic2.quests.7DF7F9CD9A795E69.description2}"
 			]
 			id: "7DF7F9CD9A795E69"
+			optional: true
 			shape: "pentagon"
-			size: 1.5d
+			size: 1.0d
 			tasks: [{
 				id: "3611F94A69522BA9"
 				item: "botania:corporea_index"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 7.5d
+			x: 3.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["634E71DBAE81D197"]
@@ -630,7 +633,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 8.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["50A2D68A83A50F47"]
@@ -2119,6 +2122,7 @@
 			]
 			hide_dependency_lines: true
 			id: "0D792F0480DB7110"
+			optional: true
 			tasks: [{
 				id: "334D3B891CBF6B64"
 				item: {
@@ -2138,6 +2142,7 @@
 			]
 			hide_dependency_lines: true
 			id: "6551540F41376474"
+			optional: true
 			tasks: [{
 				id: "4C46A96B6CF32848"
 				item: {

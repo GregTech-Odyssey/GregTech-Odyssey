@@ -4770,8 +4770,38 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "79F66F0F62F7A756"
-				item: "gtocore:normal_mana_pipe"
+				id: "1233381D7E7F9C78"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						display: {
+							Name: "{\"text\":\"任意魔力管道\"}"
+						}
+						items: [
+							{
+								Count: 1b
+								id: "gtocore:manasteel_mana_pipe"
+							}
+							{
+								Count: 1b
+								id: "gtocore:terrasteel_mana_pipe"
+							}
+							{
+								Count: 1b
+								id: "gtocore:elementium_mana_pipe"
+							}
+							{
+								Count: 1b
+								id: "gtocore:alfsteel_mana_pipe"
+							}
+							{
+								Count: 1b
+								id: "gtocore:gaiasteel_mana_pipe"
+							}
+						]
+					}
+				}
 				type: "item"
 			}]
 			x: 13.6d

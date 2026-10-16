@@ -495,39 +495,8 @@
 			size: 2.0d
 			tasks: [{
 				id: "67E6256EAA1A321F"
-				node: [B;
-					13b
-					2b
-					12b
-					9b
-					109b
-					97b
-					105b
-					110b
-					95b
-					116b
-					114b
-					101b
-					101b
-					12b
-					16b
-					100b
-					97b
-					116b
-					97b
-					95b
-					105b
-					110b
-					95b
-					114b
-					101b
-					115b
-					101b
-					97b
-					114b
-					99b
-					104b
-				]
+				nodeName: "data_in_research"
+				treeId: "main_tree"
 				type: "gtocore:technode"
 			}]
 			title: "{gto.techtree.quests.32E7C0814F462068.title}"
@@ -833,32 +802,8 @@
 			size: 2.0d
 			tasks: [{
 				id: "7E7238B402173A3F"
-				node: [B;
-					13b
-					2b
-					12b
-					9b
-					109b
-					97b
-					105b
-					110b
-					95b
-					116b
-					114b
-					101b
-					101b
-					12b
-					9b
-					100b
-					97b
-					116b
-					97b
-					95b
-					98b
-					97b
-					115b
-					101b
-				]
+				nodeName: "data_base"
+				treeId: "main_tree"
 				type: "gtocore:technode"
 			}]
 			title: "{gto.techtree.quests.1BBC822EED674661.title}"
@@ -872,40 +817,8 @@
 			size: 2.0d
 			tasks: [{
 				id: "3759477B7A550411"
-				node: [B;
-					13b
-					2b
-					12b
-					9b
-					109b
-					97b
-					105b
-					110b
-					95b
-					116b
-					114b
-					101b
-					101b
-					12b
-					17b
-					99b
-					111b
-					109b
-					112b
-					117b
-					116b
-					97b
-					116b
-					105b
-					111b
-					110b
-					95b
-					97b
-					114b
-					114b
-					97b
-					121b
-				]
+				nodeName: "computation_array"
+				treeId: "main_tree"
 				type: "gtocore:technode"
 			}]
 			title: "{gto.techtree.quests.2F45AE4F20001FD8.title}"
@@ -923,35 +836,8 @@
 			size: 2.0d
 			tasks: [{
 				id: "419AA3D39A7A5090"
-				node: [B;
-					13b
-					2b
-					12b
-					9b
-					109b
-					97b
-					105b
-					110b
-					95b
-					116b
-					114b
-					101b
-					101b
-					12b
-					12b
-					115b
-					99b
-					97b
-					110b
-					95b
-					115b
-					116b
-					97b
-					116b
-					105b
-					111b
-					110b
-				]
+				nodeName: "scan_station"
+				treeId: "main_tree"
 				type: "gtocore:technode"
 			}]
 			title: "{gto.techtree.quests.6E72DDA534829D02.title}"
