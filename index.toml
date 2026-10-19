@@ -1785,11 +1785,6 @@ hash = "83b90ad8de8562a7b950081d044a17491292caec6e3561fcdb6f2972c3c16e6b"
 metafile = true
 
 [[files]]
-file = "mods/botania.pw.toml"
-hash = "d90321c5b93cac899c833140d215b98dcd30504e4807e56b05a9f677fd1c3fff"
-metafile = true
-
-[[files]]
 file = "mods/botarium.pw.toml"
 hash = "81396ea6d4c0289ed4140fc9a0bd7029ff4f9d1a202d7d0a2bb5ddf993a2e543"
 metafile = true
