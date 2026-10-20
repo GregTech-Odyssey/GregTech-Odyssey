@@ -1,130 +1,102 @@
-![gregtech_odyssey_title](https://github.com/user-attachments/assets/89f48741-a6ab-4f45-9dd6-e3669fd49cde)
+![GregTech Odyssey](https://github.com/user-attachments/assets/89f48741-a6ab-4f45-9dd6-e3669fd49cde)
 
-<h1 align="center">
-    <a href="https://discord.gg/PxruFSbtCn"><img src="https://discordapp.com/api/guilds/1361351361257672876/widget.png" alt="加入Discord服务器 | Join Discord Server"></a>
-    <a href="https://qm.qq.com/q/dLIEOowqE8"><img src="https://img.shields.io/badge/QQ-Alpha部门(已满)-12B7F5?logo=qq&logoColor=white" alt="加入Alpha部门 | Join QQ Alpha Dept."></a>
-    <a href="https://qm.qq.com/q/gIWx9iUxck"><img src="https://img.shields.io/badge/QQ-Beta部门(已满)-12B7F5?logo=qq&logoColor=white" alt="加入Beta部门 | Join QQ Beta Dept."></a>
-    <a href="https://qm.qq.com/q/Pm3WkA85qw"><img src="https://img.shields.io/badge/QQ-Gamma部门(已满)-12B7F5?logo=qq&logoColor=white" alt="加入Gamma部门 | Join QQ Gamma Dept."></a>
-    <a href="https://qm.qq.com/q/tXFd03HMki"><img src="https://img.shields.io/badge/QQ-Delta部门-12B7F5?logo=qq&logoColor=white" alt="加入Delta部门 | Join QQ Delta Dept."></a>
-</h1>
+<p align="center">
+  <a href="https://gtodyssey.com/">官方网站</a> ·
+  <a href="https://gtodyssey.com/zh-hans/start/">开始游玩</a> ·
+  <a href="https://github.com/GregTech-Odyssey/GregTech-Odyssey/releases">下载</a> ·
+  <a href="https://github.com/GregTech-Odyssey/GregTech-Odyssey/issues">反馈问题</a>
+</p>
 
-<div >
+<p align="center">
+  <a href="https://discord.gg/PxruFSbtCn"><img src="https://discordapp.com/api/guilds/1361351361257672876/widget.png" alt="Discord"></a>
+  <a href="https://qm.qq.com/q/tXFd03HMki"><img src="https://img.shields.io/badge/QQ-Delta部门-12B7F5?logo=qq&logoColor=white" alt="QQ Delta部门"></a>
+  <a href="https://qm.qq.com/q/dLIEOowqE8"><img src="https://img.shields.io/badge/QQ-Alpha部门(已满)-lightgrey?logo=qq&logoColor=white" alt="QQ Alpha部门（已满）"></a>
+  <a href="https://qm.qq.com/q/gIWx9iUxck"><img src="https://img.shields.io/badge/QQ-Beta部门(已满)-lightgrey?logo=qq&logoColor=white" alt="QQ Beta部门（已满）"></a>
+  <a href="https://qm.qq.com/q/Pm3WkA85qw"><img src="https://img.shields.io/badge/QQ-Gamma部门(已满)-lightgrey?logo=qq&logoColor=white" alt="QQ Gamma部门（已满）"></a>
+</p>
 
-[English](README.md) | **简体中文**
+<p align="center">
+  <a href="README.md">English</a> | <strong>简体中文</strong>
+</p>
 
-</div>
+## 简介
 
-## 如何游玩
+GregTech Odyssey（GTO）是一个以现代格雷（GregTech Modern）为核心的科技向整合包，经过深度性能优化，致力于提供多样且富有挑战的游戏体验。
 
-查看官方网站介绍 [开始游玩GTO](https://gtodyssey.com/zh-hans/start/)
+- **自定义机器**：大量机制复杂而有趣的机器，以及能大幅提升产能的功能仓室。
+- **科技与魔法**：收录植物魔法等魔法模组，以及提升体验的辅助模组与优化模组。
+- **核心模组 GTOCore**：更多定制化的游戏流程，并实现了 ME 样板供应器的增强阻挡模式、机器跨配方并行、多线程优化等功能。
 
-## 介绍
+## 开始游玩
 
-查看官方网站 [主页](https://gtodyssey.com/)
+新手入门请看官网的 [开始游玩 GTO](https://gtodyssey.com/zh-hans/start/)。
 
-- GregTech-Odyssey 是一个经过极致性能优化的科技导向的格雷整合包, 致力于在现代格雷的基础上为玩家提供多样的, 有挑战性的体验. 游戏中包含复杂又有趣的各种自定义机制机器，以及能够带来巨大产能提升的的功能仓室。同时也包含了魔法模组, 各种辅助模组和优化模组提升游戏体验. 此整合包所使用的独特Mod - GTOCore不仅包含更多定制化的游戏流程内容, 还实现了例如ME样板供应器的增强阻挡模式, 机器的跨配方并行和多线程优化，以进一步优化游戏体验.
+### 从 Releases 下载（推荐）
+
+在 [Releases](https://github.com/GregTech-Odyssey/GregTech-Odyssey/releases) 页面下载。标有 Latest 的是正式版，标有 Pre-release 的是开发测试版。
+
+| 文件 | 说明 |
+|---|---|
+| `GregTech.Odyssey-<版本>.zip` | 客户端整合包，可导入 CurseForge 等启动器 |
+| `GregTech.Odyssey-<版本>-all-locales.zip` | 同上，额外附带最新的全部社区翻译（部分版本提供） |
+| `GregTech-Odyssey-server.zip` | 服务端包，按包内 `README-SERVER.md` 运行安装脚本 |
+
+### 其他方式
+
+- **GitHub Actions**：`main` 分支的模组或配置有改动时会自动构建，可在 [Actions](https://github.com/GregTech-Odyssey/GregTech-Odyssey/actions) 中下载构建产物（需登录 GitHub）。
+- **packwiz-installer**：可以直接安装并更新 packwiz 整合包，见 [packwiz-installer 教程](https://packwiz.infra.link/tutorials/installing/packwiz-installer/)。
+- **Nix (flake)**：`flake.nix` 中提供了客户端整合包与服务端包的构建。
+
+## 参与开发
+
+整合包的内容取舍、数值平衡与版本节奏需要整体把控，因此改动目前统一由开发团队完成。如果你想帮助 GTO 变得更好，最有效的方式是到 [Issues](https://github.com/GregTech-Odyssey/GregTech-Odyssey/issues) 提出：
+
+- **遇到 Bug**：写明整合包版本、复现步骤、实际结果与预期结果，并附上日志或崩溃报告。
+- **有想法或建议**：写明想解决的问题，以及你推荐的做法。
+
+描述越详细，我们越能快速定位和落实。每一条 Issue 我们都会认真阅读，合适的内容会由维护者整理进后续版本。
 
 ## 许可证
 
-- 本项目整体以非商业用途为目的发布。除非另有说明，项目中的原创内容（如整合包结构、原创资源、文本等）均禁止用于商业用途。
-- 本项目对整合包内容所作的原创选择与编排，除非另有说明，均采用 [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0)。第三方模组、代码、资源以及依据单独授权使用的内容不在该许可证的适用范围内，仍分别适用其原始许可证或授权条款。
-- [核心模组代码](https://github.com/GregTech-Odyssey/GTOCore)（GTOCore `src/main/java/` 目录下的原创代码）采用 [GNU Lesser General Public License v3.0（LGPLv3）](https://www.gnu.org/licenses/lgpl-3.0.html)。
-  - GTOCore 整合了部分来自其他模组的代码与资源文件，这些内容的版权归其原作者所有，并受其各自的原始许可证约束。详见：[THIRD_PARTY_LICENSES.md](THIRD_PARTY_LICENSES.md)。
-- 任务（文本）默认保留所有权利 (All Rights Reserved)。未经授权的使用是被禁止的。对于已明确标注来源的任务内容，版权归其原作者所有，并受其各自的原始许可证约束。
-- [社区贡献的本地化文本仓库](https://github.com/GregTech-Odyssey/GTO-Translations) 中的翻译内容采用 CC BY-NC-SA 4.0。
-- 本项目原创纹理资源采用 CC BY-NC-SA 4.0。
+本章是本整合包及 GTOCore 模组的统一许可证说明。
 
-## 使用
+本项目整体以非商业用途为目的发布。除第三方内容外，本项目的任何部分均不得用于商业用途。
 
-### (推荐) 从 release 下载
+### 各部分许可
 
-[Releases](https://github.com/GregTech-Odyssey/GregTech-Odyssey/releases)
+| 内容 | 许可 |
+|---|---|
+| 整合包（本仓库：模组选择、配置、脚本与整体编排） | 保留所有权利（All Rights Reserved） |
+| [GTOCore](https://github.com/GregTech-Odyssey/GTOCore-Main) 代码 | [PolyForm Noncommercial 1.0.0](https://polyformproject.org/licenses/noncommercial/1.0.0/) |
+| GTOCore 非代码资源（原创纹理、模型、文本等） | [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) |
+| GTOCore 任务数据 | 保留所有权利（All Rights Reserved） |
+| GTOCore 监控器系统 | 保留所有权利（All Rights Reserved） |
+| gtolib | 闭源，保留所有权利（All Rights Reserved） |
+| [社区翻译](https://github.com/GregTech-Odyssey/GTO-Translations) | CC BY-NC-SA 4.0 |
+| 第三方内容 | 各自的原始许可证或授权条款，见[第三方内容](#第三方内容) |
 
-nightly release 包含最新的构建版本
+- 你可以通过官方发布渠道下载、安装和游玩本整合包，包括开设服务器；超出这一范围的复制、修改与再发布，需事先取得我们的授权。
+- GTOCore 任务数据包括：`src/main/java/com/gtocore/data/quest/` 下的全部文件、`assets/gtocore/textures/quest/`、`assets/gtocore/textures/gui/quest_icons.png`、`assets/gtocore/ui/questbook.json`，以及语言文件中以 `gtocore.quest.` 开头的文本。已明确标注来源的任务内容，版权归其原作者所有。
+- GTOCore 监控器系统指 `com.gtocore.common.machine.monitor` 包。
+- 使用 GTOCore 代码须保留其中的版权声明与 `Required Notice` 行。
 
-- `GregTech-Odyssey-client-mods.zip` 包含客户端所需模组和配置文件
-- `GregTech-Odyssey-server-mods.zip` 包含服务端所需模组和配置文件
-- `GregTech-Odyssey-server.zip` 包含服务端所需模组、配置文件和安装好的 forge
-- `GregTech.Odyssey-<version>.zip` 是客户端 curseforge 安装包
+### 第三方内容
 
-### 导出 Curseforge 整合包
+GTOCore 包含来自其他模组与资源包的代码和素材，其版权归各自的权利人所有。GTOCore 自身的许可证不会改变这些内容的许可，收录进 GTOCore 也不授予超出其原始条款的权利。本表力求完整，但可能有遗漏；无论是否列出，第三方内容都适用其原始许可证，发现遗漏会及时补上。
 
-- 安装 [packwiz](https://github.com/packwiz/packwiz)
-- 克隆该仓库
-```
-git clone https://github.com/GregTech-Odyssey/GregTech-Odyssey.git
-```
-- 使用 packwiz 导出
-```
-packwiz cf export
-```
+| 项目 | 许可 | 使用内容 |
+|---|---|---|
+| [Ender IO](https://github.com/Team-EnderIO/EnderIO) | CC0 1.0 | 代码、纹理：部分物品（合金、流体、水晶、传送杖等） |
+| [Re:Avaritia](https://github.com/Nova-Committee/Re-Avaritia) | 代码 MIT，资源 CC BY-NC-SA 4.0 | 代码、纹理：部分物品（锭、奇点等） |
+| [Darkpuppey's Modded Overhauls!](https://www.curseforge.com/minecraft/texture-packs/darkpuppeys-modded-overhauls) | 保留所有权利，经作者授权使用（[凭证](docs/darkpuppey.png)） | 纹理：部分纹理（含为龙之进化设计的变体） |
+| [Mystical Agriculture](https://github.com/BlakeBr0/MysticalAgriculture) | MIT | 纹理：部分纹理（含受精精华） |
+| [Draconic Evolution](https://github.com/Draconic-Inc/Draconic-Evolution) | "Don't Be a Jerk" License | 代码、纹理：部分物品（方块、核心等） |
+| [GT New Horizons](https://github.com/GTNewHorizons/GT-New-Horizons-Modpack) | CC BY-NC-SA 4.0 | 代码、纹理：部分物品与纹理 |
+| [Astral Sorcery](https://github.com/HellFirePvP/AstralSorcery) | 保留所有权利，经作者授权使用（[凭证](docs/AstralSorcery.md)） | 纹理：部分物品与纹理（含共鸣宝石、液态星能） |
+| [GT-Not-Leisure](https://github.com/ABKQPO/GT-Not-Leisure) | LGPLv3 | 代码：部分动画 |
+| [Ars Énergistique](https://github.com/62832/ArsEnergistique) | LGPLv3 | 代码：抄写台从 ME 网络取物 |
+| [SuperFactoryManager](https://github.com/TeamDman/SuperFactoryManager) | MPL-2.0 | 代码：容器槽位调试工具 |
 
-### 下载 github actions 自动构建的整合包
-
-[Actions](https://github.com/GregTech-Odyssey/GregTech-Odyssey/actions)
-
-### 使用 packwiz-installer
-
-[packwiz-installer 可以直接安装和更新 packwiz 整合包](https://packwiz.infra.link/tutorials/installing/packwiz-installer/)
-
-### Nix (flake) 用户
-
-见 `flake.nix` 中打包的 forge 和整合包
-
-## 开发
-
-详细用法见 <https://packwiz.infra.link/tutorials/creating/getting-started/>
-
-安装 [packwiz](https://github.com/packwiz/packwiz)
-
-### 管理整合包文件
-
-- 将文件复制至所需的文件夹 (如 `config/ftbquests/quests`)
-- 执行 `packwiz refresh`
-- 用 git 提交更改
-
-### 管理模组
-
-#### CurseForge 或 Modrinth 模组
-
-使用以下命令安装:
-```
-packwiz curseforge install https://www.curseforge.com/minecraft/mc-mods/ex-pattern-provider
-packwiz modrinth install https://modrinth.com/mod/appleskin
-```
-
-会在 `mods` 文件夹下生成 `.pw.toml` 文件记录 mod 信息，其中 `side` 声明了该 mod 是否应该存在于客户端或服务端，可取值 `both, client, server`
-
-(可选) 添加 curseforge 模组后运行 `fixup.sh` 生成下载链接，须安装 [yq](https://github.com/mikefarah/yq)，脚本来自 [Misterio77/Modpack](https://github.com/Misterio77/Modpack)
-
-使用 `packwiz update [mod]` 更新
-
-- 如更新 `mods/applied-energistics-2.pw.toml`: `packwiz update applied-energistics-2`
-
-更新全部模组: `packwiz update --all`
-
-#### 直接提供 jar
-
-同管理整合包文件
-
-#### 提供其他下载地址
-
-需要手写 .pw.toml 文件，提供文件名，下载地址和 hash
-
-示例:
-```toml
-name = "Flamingo"
-filename = "flamingo.jar"
-side = "both"
-
-[download]
-url = "https://example.com/flamingo.jar"
-
-# A number of tools can generate the hash for you, including 7-zip and sha256sum
-# packwiz supports a number of hashes, including sha256, sha512, sha1 and md5
-hash-format = "sha256"
-hash = "b22d1d8fe5752533954028172c9bf3ac01b57f40c82946a3e7b1eaff389e2b87"
-```
 ## Star 历史
 
 [![Star History Chart](https://api.star-history.com/svg?repos=GregTech-Odyssey/GregTech-Odyssey&type=Date)](https://www.star-history.com/#GregTech-Odyssey/GregTech-Odyssey&Date)

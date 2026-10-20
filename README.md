@@ -1,130 +1,102 @@
-![gregtech_odyssey_title](https://github.com/user-attachments/assets/89f48741-a6ab-4f45-9dd6-e3669fd49cde)
+![GregTech Odyssey](https://github.com/user-attachments/assets/89f48741-a6ab-4f45-9dd6-e3669fd49cde)
 
-<h1 align="center">
-    <a href="https://discord.gg/PxruFSbtCn"><img src="https://discordapp.com/api/guilds/1361351361257672876/widget.png" alt="加入Discord服务器 | Join Discord Server"></a>
-    <a href="https://qm.qq.com/q/dLIEOowqE8"><img src="https://img.shields.io/badge/QQ-Alpha Dept.(Full)-12B7F5?logo=qq&logoColor=white" alt="加入Alpha部门 | Join QQ Alpha Dept."></a>
-    <a href="https://qm.qq.com/q/gIWx9iUxck"><img src="https://img.shields.io/badge/QQ-Beta Dept.(Full)-12B7F5?logo=qq&logoColor=white" alt="加入Beta部门 | Join QQ Beta Dept."></a>
-    <a href="https://qm.qq.com/q/Pm3WkA85qw"><img src="https://img.shields.io/badge/QQ-Gamma Dept.(Full)-12B7F5?logo=qq&logoColor=white" alt="加入Gamma部门 | Join QQ Gamma Dept."></a>
-    <a href="https://qm.qq.com/q/tXFd03HMki"><img src="https://img.shields.io/badge/QQ-Delta Dept.-12B7F5?logo=qq&logoColor=white" alt="加入Delta部门 | Join QQ Delta Dept."></a>
-</h1>
+<p align="center">
+  <a href="https://gtodyssey.com/">Website</a> ·
+  <a href="https://gtodyssey.com/en-us/start">How to Play</a> ·
+  <a href="https://github.com/GregTech-Odyssey/GregTech-Odyssey/releases">Download</a> ·
+  <a href="https://github.com/GregTech-Odyssey/GregTech-Odyssey/issues">Report an Issue</a>
+</p>
 
-<div >
+<p align="center">
+  <a href="https://discord.gg/PxruFSbtCn"><img src="https://discordapp.com/api/guilds/1361351361257672876/widget.png" alt="Discord"></a>
+  <a href="https://qm.qq.com/q/tXFd03HMki"><img src="https://img.shields.io/badge/QQ-Delta%20Dept.-12B7F5?logo=qq&logoColor=white" alt="QQ Delta Dept."></a>
+  <a href="https://qm.qq.com/q/dLIEOowqE8"><img src="https://img.shields.io/badge/QQ-Alpha%20Dept.%20(Full)-lightgrey?logo=qq&logoColor=white" alt="QQ Alpha Dept. (Full)"></a>
+  <a href="https://qm.qq.com/q/gIWx9iUxck"><img src="https://img.shields.io/badge/QQ-Beta%20Dept.%20(Full)-lightgrey?logo=qq&logoColor=white" alt="QQ Beta Dept. (Full)"></a>
+  <a href="https://qm.qq.com/q/Pm3WkA85qw"><img src="https://img.shields.io/badge/QQ-Gamma%20Dept.%20(Full)-lightgrey?logo=qq&logoColor=white" alt="QQ Gamma Dept. (Full)"></a>
+</p>
 
-**English** | [简体中文](README_zh.md)
-
-</div>
-
-## How to Play
-
-Visit the website to view [How to Play](https://gtodyssey.com/en-us/start)
+<p align="center">
+  <strong>English</strong> | <a href="README_zh.md">简体中文</a>
+</p>
 
 ## Introduction
 
-Visit our website to view [Home](https://gtodyssey.com/)
+GregTech Odyssey (GTO) is a tech-oriented modpack built around GregTech Modern. It is heavily optimized for performance and aims to offer a diverse and challenging experience.
 
-GregTech-Odyssey is a fully optimized tech-oriented GT modpack designed to offer players a diverse and challenging experience based on GregTech Modern. Here's Costom mechanical machines, varaity of useful functional hatches to ultimately boost your machines, magic mods such as Botania, which providing a balanced blend of technology and magic, and also implemented additional blocking modes for ME Pattern Providers, cross-recipe parallelism, and multithreading optimization, give players a comfortable and smooth gaming experience in the late game.
+- **Custom machines**: many machines with intricate, engaging mechanics, plus functional hatches that greatly boost production.
+- **Technology and magic**: magic mods such as Botania, along with quality-of-life and optimization mods.
+- **GTOCore, the core mod**: more tailored progression, an enhanced blocking mode for ME Pattern Providers, cross-recipe parallelism, multithreading optimizations, and more.
+
+## Getting Started
+
+New players should start with [How to Play](https://gtodyssey.com/en-us/start) on our website.
+
+### Download from Releases (Recommended)
+
+Download from the [Releases](https://github.com/GregTech-Odyssey/GregTech-Odyssey/releases) page. Releases marked Latest are stable versions; releases marked Pre-release are development builds.
+
+| File | Description |
+|---|---|
+| `GregTech.Odyssey-<version>.zip` | Client modpack, can be imported into CurseForge and other launchers |
+| `GregTech.Odyssey-<version>-all-locales.zip` | Same as above, bundled with the latest community translations (available for some versions) |
+| `GregTech-Odyssey-server.zip` | Server package; run the installer as described in the bundled `README-SERVER.md` |
+
+### Other Options
+
+- **GitHub Actions**: changes to mods or configs on the `main` branch are built automatically. Download the artifacts from [Actions](https://github.com/GregTech-Odyssey/GregTech-Odyssey/actions) (requires a GitHub account).
+- **packwiz-installer**: installs and updates packwiz modpacks directly. See the [packwiz-installer guide](https://packwiz.infra.link/tutorials/installing/packwiz-installer/).
+- **Nix (flake)**: `flake.nix` builds both the client modpack and the server package.
+
+## Contributing
+
+Content choices, balancing, and release planning for the modpack need to be coordinated as a whole, so changes are currently made by the development team. If you would like to help make GTO better, the most effective way is to open an [Issue](https://github.com/GregTech-Odyssey/GregTech-Odyssey/issues):
+
+- **Found a bug**: include the modpack version, steps to reproduce, the actual and expected results, and attach logs or crash reports.
+- **Have an idea or suggestion**: describe the problem you want to solve and the approach you recommend.
+
+The more detail you give, the faster we can track it down and act on it. We read every Issue carefully, and suitable ones are picked up by the maintainers for future releases.
 
 ## License
 
-- This project is released primarily for non-commercial purposes. Unless otherwise stated, original contents of this project (including the modpack structure, original assets, and texts) may not be used for commercial purposes.
-- Unless otherwise stated, this project's original selection and arrangement of the modpack contents are licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/). Third-party mods, code, assets, and content used under separate permissions are excluded from this license and remain subject to their respective original licenses or permission terms.
-- The [core mod code](https://github.com/GregTech-Odyssey/GTOCore) (original code under the `src/main/java/` of GTOCore) is licensed under the [GNU Lesser General Public License v3.0 (LGPLv3)](https://www.gnu.org/licenses/lgpl-3.0.html).
-    - GTOCore incorporates code and assets from other mods. Copyright in such content remains with the respective original authors, and the content remains subject to its respective original licenses. See [THIRD_PARTY_LICENSES.md](THIRD_PARTY_LICENSES.md) for details.
-- Quest texts are All Rights Reserved by default. Any unauthorized use is prohibited. For quest content with clearly indicated sources, copyright remains with the respective original authors, and the content remains subject to its respective original licenses.
-- Translation content in the [community-contributed localization repository](https://github.com/GregTech-Odyssey/GTO-Translations) is licensed under CC BY-NC-SA 4.0.
-- Original texture assets in this project are licensed under CC BY-NC-SA 4.0.
+This section is the unified licensing statement for this modpack and the GTOCore mod.
 
-## Usage
+This project is released for non-commercial purposes. Except for third-party content, no part of this project may be used for commercial purposes.
 
-### (Recommend) Download from Release
+### Licenses by Component
 
-[Releases](https://github.com/GregTech-Odyssey/GregTech-Odyssey/releases)
+| Content | License |
+|---|---|
+| The modpack (this repository: mod selection, configuration, scripts, and overall arrangement) | All Rights Reserved |
+| [GTOCore](https://github.com/GregTech-Odyssey/GTOCore-Main) code | [PolyForm Noncommercial 1.0.0](https://polyformproject.org/licenses/noncommercial/1.0.0/) |
+| GTOCore non-code assets (original textures, models, texts, etc.) | [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) |
+| GTOCore quest data | All Rights Reserved |
+| GTOCore monitor system | All Rights Reserved |
+| gtolib | Closed source, All Rights Reserved |
+| [Community translations](https://github.com/GregTech-Odyssey/GTO-Translations) | CC BY-NC-SA 4.0 |
+| Third-party content | Their respective original licenses or permission terms, see [Third-Party Content](#third-party-content) |
 
-The nightly release contains the latest builds.
+- You may download, install, and play this modpack from the official release channels, including running a server for it. Any other copying, modification, or redistribution requires our prior permission.
+- GTOCore quest data consists of: all files under `src/main/java/com/gtocore/data/quest/`, `assets/gtocore/textures/quest/`, `assets/gtocore/textures/gui/quest_icons.png`, `assets/gtocore/ui/questbook.json`, and language entries whose keys start with `gtocore.quest.`. Quest content with clearly indicated sources remains the copyright of its original authors.
+- The GTOCore monitor system refers to the `com.gtocore.common.machine.monitor` package.
+- Any use of GTOCore code must keep its copyright notices and `Required Notice` lines.
 
-- `GregTech-Odyssey-client-mods.zip` contains mods for client and config files
-- `GregTech-Odyssey-server-mods.zip` contains mods for server and config files
-- `GregTech-Odyssey-server.zip` contains mods for server, config files and forge installation
-- `GregTech.Odyssey-<version>.zip` is CurseForge pack for client.
+### Third-Party Content
 
-### Exporting the CurseForge Modpack
+GTOCore includes code and assets from other mods and resource packs. Copyright in such material remains with the respective rightsholders. GTOCore's own licenses do not relicense this material, and its inclusion in GTOCore grants no rights beyond its original terms. This list aims to be complete but may not be exhaustive; all third-party content, listed or not, remains subject to its original license, and omissions will be corrected as they are found.
 
-1. Install [packwiz](https://github.com/packwiz/packwiz).
-2. Clone this repository:
-```
-git clone https://github.com/GregTech-Odyssey/GregTech-Odyssey.git
-```
-3. Export with packwiz:
-```
-packwiz cf export
-```
+| Project | License | Used Content |
+|---|---|---|
+| [Ender IO](https://github.com/Team-EnderIO/EnderIO) | CC0 1.0 | Code, textures: selected items (alloys, fluids, crystals, travel staff, etc.) |
+| [Re:Avaritia](https://github.com/Nova-Committee/Re-Avaritia) | Code MIT, assets CC BY-NC-SA 4.0 | Code, textures: selected items (ingots, singularities, etc.) |
+| [Darkpuppey's Modded Overhauls!](https://www.curseforge.com/minecraft/texture-packs/darkpuppeys-modded-overhauls) | All Rights Reserved, used with the author's permission ([proof](docs/darkpuppey.png)) | Textures: selected textures (including variants designed for Draconic Evolution) |
+| [Mystical Agriculture](https://github.com/BlakeBr0/MysticalAgriculture) | MIT | Textures: selected textures (including fertilized essence) |
+| [Draconic Evolution](https://github.com/Draconic-Inc/Draconic-Evolution) | "Don't Be a Jerk" License | Code, textures: selected items (blocks, cores, etc.) |
+| [GT New Horizons](https://github.com/GTNewHorizons/GT-New-Horizons-Modpack) | CC BY-NC-SA 4.0 | Code, textures: selected items and textures |
+| [Astral Sorcery](https://github.com/HellFirePvP/AstralSorcery) | All Rights Reserved, used with the author's permission ([proof](docs/AstralSorcery.md)) | Textures: selected items and textures (including resonating gem and liquid starlight) |
+| [GT-Not-Leisure](https://github.com/ABKQPO/GT-Not-Leisure) | LGPLv3 | Code: selected animations |
+| [Ars Énergistique](https://github.com/62832/ArsEnergistique) | LGPLv3 | Code: scribe's table extraction from ME networks |
+| [SuperFactoryManager](https://github.com/TeamDman/SuperFactoryManager) | MPL-2.0 | Code: container slot debug inspector |
 
-### Downloading Modpacks Built with GitHub Actions
-
-[Actions](https://github.com/GregTech-Odyssey/GregTech-Odyssey/actions)
-
-### Use packwiz-installer
-
-[packwiz-installer allows you to install and update a packwiz modpack](https://packwiz.infra.link/tutorials/installing/packwiz-installer/)
-
-### Nix (flake) users
-
-see packaged forge and modpack in `flake.nix`
-
-## Development
-
-See detailed usage at <https://packwiz.infra.link/tutorials/creating/getting-started/>.
-
-Install [packwiz](https://github.com/packwiz/packwiz)
-
-### Managing Modpack Files
-
-- Copy files to the desired folder (e.g., `config/ftbquests/quests`).
-- Execute `packwiz refresh`.
-- Commit changes with Git.
-
-### Managing Mods
-
-#### Mods from CurseForge or Modrinth
-
-Install mods with:
-```
-packwiz curseforge install https://www.curseforge.com/minecraft/mc-mods/<mod id>
-packwiz modrinth install https://modrinth.com/mod/<mod id>
-```
-
-This generates a `.pw.toml` file in the `mods` folder to record mod information. The `side` field specifies whether the mod is for the client, server, or both (`both, client, server`).
-
-(Optional) After adding CurseForge mods, run `fixup.sh` to generate download links. This requires [yq](https://github.com/mikefarah/yq). The script is sourced from [Misterio77/Modpack](https://github.com/Misterio77/Modpack).
-
-Update mods with `packwiz update [mod]`.
-
-- For example, to update `mods/applied-energistics-2.pw.toml`: `packwiz update applied-energistics-2`
-
-To update all mods: `packwiz update --all`.
-
-#### Directly Provided JAR Files
-
-Handle them the same way as managing modpack files.
-
-#### Providing Alternative Download Links
-
-Manually write a `.pw.toml` file with the file name, download URL, and hash.
-
-Example:
-```toml
-name = "Flamingo"
-filename = "flamingo.jar"
-side = "both"
-
-[download]
-url = "https://example.com/flamingo.jar"
-
-# A number of tools can generate the hash for you, including 7-zip and sha256sum
-# packwiz supports a number of hashes, including sha256, sha512, sha1 and md5
-hash-format = "sha256"
-hash = "b22d1d8fe5752533954028172c9bf3ac01b57f40c82946a3e7b1eaff389e2b87"
-```
 ## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=GregTech-Odyssey/GregTech-Odyssey&type=Date)](https://www.star-history.com/#GregTech-Odyssey/GregTech-Odyssey&Date)
