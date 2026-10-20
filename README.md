@@ -67,7 +67,7 @@ This project is released for non-commercial purposes. Except for third-party con
 | Content | License |
 |---|---|
 | The modpack (this repository: mod selection, configuration, scripts, and overall arrangement) | All Rights Reserved |
-| [GTOCore](https://github.com/GregTech-Odyssey/GTOCore-Main) code | [PolyForm Noncommercial 1.0.0](https://polyformproject.org/licenses/noncommercial/1.0.0/) |
+| [GTOCore](https://github.com/GregTech-Odyssey/GTOCore-Main) code | [PolyForm Noncommercial 1.0.0](https://polyformproject.org/licenses/noncommercial/1.0.0) |
 | GTOCore non-code assets (original textures, models, texts, etc.) | [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) |
 | GTOCore quest data | All Rights Reserved |
 | GTOCore monitor system | All Rights Reserved |

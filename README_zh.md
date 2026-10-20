@@ -67,7 +67,7 @@ GregTech Odyssey（GTO）是一个以现代格雷（GregTech Modern）为核心�
 | 内容 | 许可 |
 |---|---|
 | 整合包（本仓库：模组选择、配置、脚本与整体编排） | 保留所有权利（All Rights Reserved） |
-| [GTOCore](https://github.com/GregTech-Odyssey/GTOCore-Main) 代码 | [PolyForm Noncommercial 1.0.0](https://polyformproject.org/licenses/noncommercial/1.0.0/) |
+| [GTOCore](https://github.com/GregTech-Odyssey/GTOCore-Main) 代码 | [PolyForm Noncommercial 1.0.0](https://polyformproject.org/licenses/noncommercial/1.0.0) |
 | GTOCore 非代码资源（原创纹理、模型、文本等） | [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) |
 | GTOCore 任务数据 | 保留所有权利（All Rights Reserved） |
 | GTOCore 监控器系统 | 保留所有权利（All Rights Reserved） |
