@@ -86,16 +86,16 @@ GTOCore includes code and assets from other mods and resource packs. Copyright i
 
 | Project | License | Used Content |
 |---|---|---|
-| [Ender IO](https://github.com/Team-EnderIO/EnderIO) | CC0 1.0 | Code, textures: selected items (alloys, fluids, crystals, travel staff, etc.) |
-| [Re:Avaritia](https://github.com/Nova-Committee/Re-Avaritia) | Code MIT, assets CC BY-NC-SA 4.0 | Code, textures: selected items (ingots, singularities, etc.) |
-| [Darkpuppey's Modded Overhauls!](https://www.curseforge.com/minecraft/texture-packs/darkpuppeys-modded-overhauls) | All Rights Reserved, used with the author's permission ([proof](docs/darkpuppey.png)) | Textures: selected textures (including variants designed for Draconic Evolution) |
-| [Mystical Agriculture](https://github.com/BlakeBr0/MysticalAgriculture) | MIT | Textures: selected textures (including fertilized essence) |
-| [Draconic Evolution](https://github.com/Draconic-Inc/Draconic-Evolution) | "Don't Be a Jerk" License | Code, textures: selected items (blocks, cores, etc.) |
-| [GT New Horizons](https://github.com/GTNewHorizons/GT-New-Horizons-Modpack) | CC BY-NC-SA 4.0 | Code, textures: selected items and textures |
-| [Astral Sorcery](https://github.com/HellFirePvP/AstralSorcery) | All Rights Reserved, used with the author's permission ([proof](docs/AstralSorcery.md)) | Textures: selected items and textures (including resonating gem and liquid starlight) |
-| [GT-Not-Leisure](https://github.com/ABKQPO/GT-Not-Leisure) | LGPLv3 | Code: selected animations |
-| [Ars Énergistique](https://github.com/62832/ArsEnergistique) | LGPLv3 | Code: scribe's table extraction from ME networks |
-| [SuperFactoryManager](https://github.com/TeamDman/SuperFactoryManager) | MPL-2.0 | Code: container slot debug inspector |
+| [Ender IO](https://github.com/Team-EnderIO/EnderIO) | CC0 1.0 | Code, textures |
+| [Re:Avaritia](https://github.com/Nova-Committee/Re-Avaritia) | Code MIT, assets CC BY-NC-SA 4.0 | Code, textures |
+| [Darkpuppey's Modded Overhauls!](https://www.curseforge.com/minecraft/texture-packs/darkpuppeys-modded-overhauls) | All Rights Reserved, used with the author's permission ([proof](docs/darkpuppey.png)) | Textures |
+| [Mystical Agriculture](https://github.com/BlakeBr0/MysticalAgriculture) | MIT | Textures |
+| [Draconic Evolution](https://github.com/Draconic-Inc/Draconic-Evolution) | "Don't Be a Jerk" License | Code, textures |
+| [GT New Horizons](https://github.com/GTNewHorizons/GT-New-Horizons-Modpack) | CC BY-NC-SA 4.0 | Code, textures |
+| [Astral Sorcery](https://github.com/HellFirePvP/AstralSorcery) | All Rights Reserved, used with the author's permission ([proof](docs/AstralSorcery.md)) | Textures |
+| [GT-Not-Leisure](https://github.com/ABKQPO/GT-Not-Leisure) | LGPLv3 | Code |
+| [Ars Énergistique](https://github.com/62832/ArsEnergistique) | LGPLv3 | Code |
+| [SuperFactoryManager](https://github.com/TeamDman/SuperFactoryManager) | MPL-2.0 | Code |
 
 ## Star History
 

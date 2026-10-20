@@ -86,16 +86,16 @@ GTOCore 包含来自其他模组与资源包的代码和素材，其版权归各
 
 | 项目 | 许可 | 使用内容 |
 |---|---|---|
-| [Ender IO](https://github.com/Team-EnderIO/EnderIO) | CC0 1.0 | 代码、纹理：部分物品（合金、流体、水晶、传送杖等） |
-| [Re:Avaritia](https://github.com/Nova-Committee/Re-Avaritia) | 代码 MIT，资源 CC BY-NC-SA 4.0 | 代码、纹理：部分物品（锭、奇点等） |
-| [Darkpuppey's Modded Overhauls!](https://www.curseforge.com/minecraft/texture-packs/darkpuppeys-modded-overhauls) | 保留所有权利，经作者授权使用（[凭证](docs/darkpuppey.png)） | 纹理：部分纹理（含为龙之进化设计的变体） |
-| [Mystical Agriculture](https://github.com/BlakeBr0/MysticalAgriculture) | MIT | 纹理：部分纹理（含受精精华） |
-| [Draconic Evolution](https://github.com/Draconic-Inc/Draconic-Evolution) | "Don't Be a Jerk" License | 代码、纹理：部分物品（方块、核心等） |
-| [GT New Horizons](https://github.com/GTNewHorizons/GT-New-Horizons-Modpack) | CC BY-NC-SA 4.0 | 代码、纹理：部分物品与纹理 |
-| [Astral Sorcery](https://github.com/HellFirePvP/AstralSorcery) | 保留所有权利，经作者授权使用（[凭证](docs/AstralSorcery.md)） | 纹理：部分物品与纹理（含共鸣宝石、液态星能） |
-| [GT-Not-Leisure](https://github.com/ABKQPO/GT-Not-Leisure) | LGPLv3 | 代码：部分动画 |
-| [Ars Énergistique](https://github.com/62832/ArsEnergistique) | LGPLv3 | 代码：抄写台从 ME 网络取物 |
-| [SuperFactoryManager](https://github.com/TeamDman/SuperFactoryManager) | MPL-2.0 | 代码：容器槽位调试工具 |
+| [Ender IO](https://github.com/Team-EnderIO/EnderIO) | CC0 1.0 | 代码、纹理 |
+| [Re:Avaritia](https://github.com/Nova-Committee/Re-Avaritia) | 代码 MIT，资源 CC BY-NC-SA 4.0 | 代码、纹理 |
+| [Darkpuppey's Modded Overhauls!](https://www.curseforge.com/minecraft/texture-packs/darkpuppeys-modded-overhauls) | 保留所有权利，经作者授权使用（[凭证](docs/darkpuppey.png)） | 纹理 |
+| [Mystical Agriculture](https://github.com/BlakeBr0/MysticalAgriculture) | MIT | 纹理 |
+| [Draconic Evolution](https://github.com/Draconic-Inc/Draconic-Evolution) | "Don't Be a Jerk" License | 代码、纹理 |
+| [GT New Horizons](https://github.com/GTNewHorizons/GT-New-Horizons-Modpack) | CC BY-NC-SA 4.0 | 代码、纹理 |
+| [Astral Sorcery](https://github.com/HellFirePvP/AstralSorcery) | 保留所有权利，经作者授权使用（[凭证](docs/AstralSorcery.md)） | 纹理 |
+| [GT-Not-Leisure](https://github.com/ABKQPO/GT-Not-Leisure) | LGPLv3 | 代码 |
+| [Ars Énergistique](https://github.com/62832/ArsEnergistique) | LGPLv3 | 代码 |
+| [SuperFactoryManager](https://github.com/TeamDman/SuperFactoryManager) | MPL-2.0 | 代码 |
 
 ## Star 历史
 
