@@ -733,6 +733,14 @@ file = "config/openloader/resources/resources/assets/factory_blocks/lang/zh_cn.j
 hash = "b868579684fa2988f8da485d62c42953824489c5765391baad400b061fe430df"
 
 [[files]]
+file = "config/openloader/resources/resources/assets/farmersdelight/textures/block/cooking_pot_tray_side.png"
+hash = "e1d0cd97627089d6b62df501e11addff1649d25e8b241202ba14d4bff4c0ec8f"
+
+[[files]]
+file = "config/openloader/resources/resources/assets/farmersdelight/textures/block/cooking_pot_tray_top.png"
+hash = "48baf0e2f5911116ac9f9d6cb67f8b57f1903b8efd673f5534efc720c6b016e2"
+
+[[files]]
 file = "config/openloader/resources/resources/assets/farmersrespite/lang/zh_cn.json"
 hash = "4a8b7ee900e7d4711c3cc21b1dc415d6efadf7e8a9c6d6c81c9e22443dc18f82"
 
