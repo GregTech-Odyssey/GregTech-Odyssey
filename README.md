@@ -43,9 +43,7 @@ Download from the [Releases](https://github.com/GregTech-Odyssey/GregTech-Odysse
 
 ### Other Options
 
-- **GitHub Actions**: changes to mods or configs on the `main` branch are built automatically. Download the artifacts from [Actions](https://github.com/GregTech-Odyssey/GregTech-Odyssey/actions) (requires a GitHub account).
 - **packwiz-installer**: installs and updates packwiz modpacks directly. See the [packwiz-installer guide](https://packwiz.infra.link/tutorials/installing/packwiz-installer/).
-- **Nix (flake)**: `flake.nix` builds both the client modpack and the server package.
 
 ## Contributing
 
@@ -58,7 +56,7 @@ The more detail you give, the faster we can track it down and act on it. We read
 
 ## License
 
-This section is the unified licensing statement for this modpack and the GTOCore mod.
+This section is the unified licensing statement for this modpack and the related mods in its repository (such as GTOCore).
 
 This project is released for non-commercial purposes. Except for third-party content, no part of this project may be used for commercial purposes.
 
@@ -82,7 +80,7 @@ This project is released for non-commercial purposes. Except for third-party con
 
 ### Third-Party Content
 
-GTOCore includes code and assets from other mods and resource packs. Copyright in such material remains with the respective rightsholders. GTOCore's own licenses do not relicense this material, and its inclusion in GTOCore grants no rights beyond its original terms. This list aims to be complete but may not be exhaustive; all third-party content, listed or not, remains subject to its original license, and omissions will be corrected as they are found.
+This modpack and the related mods in its repository (such as GTOCore) include code and assets from other mods and resource packs. Copyright in such material remains with the respective rightsholders. This project's own licenses do not relicense this material, and its inclusion in the modpack or those mods grants no rights beyond its original terms. This list aims to be complete but may not be exhaustive; all third-party content, listed or not, remains subject to its original license, and omissions will be corrected as they are found.
 
 | Project | License | Used Content |
 |---|---|---|

@@ -43,9 +43,7 @@ GregTech Odyssey（GTO）是一个以现代格雷（GregTech Modern）为核心�
 
 ### 其他方式
 
-- **GitHub Actions**：`main` 分支的模组或配置有改动时会自动构建，可在 [Actions](https://github.com/GregTech-Odyssey/GregTech-Odyssey/actions) 中下载构建产物（需登录 GitHub）。
 - **packwiz-installer**：可以直接安装并更新 packwiz 整合包，见 [packwiz-installer 教程](https://packwiz.infra.link/tutorials/installing/packwiz-installer/)。
-- **Nix (flake)**：`flake.nix` 中提供了客户端整合包与服务端包的构建。
 
 ## 参与开发
 
@@ -58,7 +56,7 @@ GregTech Odyssey（GTO）是一个以现代格雷（GregTech Modern）为核心�
 
 ## 许可证
 
-本章是本整合包及 GTOCore 模组的统一许可证说明。
+本章是本整合包及整合包仓库内相关模组（如 GTOCore）的统一许可证说明。
 
 本项目整体以非商业用途为目的发布。除第三方内容外，本项目的任何部分均不得用于商业用途。
 
@@ -82,7 +80,7 @@ GregTech Odyssey（GTO）是一个以现代格雷（GregTech Modern）为核心�
 
 ### 第三方内容
 
-GTOCore 包含来自其他模组与资源包的代码和素材，其版权归各自的权利人所有。GTOCore 自身的许可证不会改变这些内容的许可，收录进 GTOCore 也不授予超出其原始条款的权利。本表力求完整，但可能有遗漏；无论是否列出，第三方内容都适用其原始许可证，发现遗漏会及时补上。
+本整合包及整合包仓库内的相关模组（如 GTOCore）包含来自其他模组与资源包的代码和素材，其版权归各自的权利人所有。本项目自身的许可证不会改变这些内容的许可，收录进本整合包或相关模组也不授予超出其原始条款的权利。本表力求完整，但可能有遗漏；无论是否列出，第三方内容都适用其原始许可证，发现遗漏会及时补上。
 
 | 项目 | 许可 | 使用内容 |
 |---|---|---|
