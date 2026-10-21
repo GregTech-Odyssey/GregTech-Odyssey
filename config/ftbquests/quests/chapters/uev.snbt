@@ -106,6 +106,11 @@
 		}
 		{
 			id: "79F7E5BB7025ED2D"
+			rewards: [{
+				id: "50B85DB09C662F35"
+				item: "gtocore:infinity_coin"
+				type: "item"
+			}]
 			subtitle: "六级数据载体"
 			tasks: [{
 				id: "4D04F650E3823FC9"
@@ -116,12 +121,17 @@
 				}
 				type: "item"
 			}]
-			x: -8.0d
-			y: 1.0d
+			x: -6.0d
+			y: -0.5d
 		}
 		{
 			id: "078689C5C9FABDE7"
-			subtitle: "七级数据载体(最高级)"
+			rewards: [{
+				id: "63452DB9204E533F"
+				item: "gtocore:neutron_coin"
+				type: "item"
+			}]
+			subtitle: "七级数据载体"
 			tasks: [{
 				id: "1BD09C364BE0EEDF"
 				item: {
@@ -131,11 +141,16 @@
 				}
 				type: "item"
 			}]
-			x: -6.0d
+			x: -8.0d
 			y: 1.0d
 		}
 		{
 			id: "7448C7335542B7A5"
+			rewards: [{
+				id: "7F843FDEA359E094"
+				item: "gtocore:adamantine_coin"
+				type: "item"
+			}]
 			subtitle: "五级数据载体"
 			tasks: [{
 				id: "25565AFB6E00D585"
@@ -146,8 +161,8 @@
 				}
 				type: "item"
 			}]
-			x: -10.0d
-			y: 1.0d
+			x: -8.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["597E3AA1CBEE9598"]
@@ -433,11 +448,14 @@
 			y: 7.0d
 		}
 		{
-			description: ["你不该发现的"]
+			description: ["宇宙向你打开了最后的大门"]
 			id: "33F5E401DDEC813A"
-			invisible: true
-			optional: true
-			subtitle: "??级数据载体"
+			rewards: [{
+				id: "7D1497C775110F2F"
+				item: "gtocore:giga_chad"
+				type: "item"
+			}]
+			subtitle: "八级数据载体(最高级)"
 			tasks: [{
 				id: "1F773C242BE58FB4"
 				item: {
@@ -448,7 +466,7 @@
 				type: "item"
 			}]
 			x: -6.0d
-			y: 2.5d
+			y: 1.0d
 		}
 		{
 			id: "32CDF0A73C8721D8"
@@ -495,26 +513,11 @@
 		}
 		{
 			dependencies: ["1031C596204267E9"]
-			description: ["创造之门以及后面的东西都没了，所以直接送你命令方块"]
 			id: "0E1A670099E3C3F2"
 			optional: true
-			rewards: [{
-				id: "76038097AC2AC3D9"
-				item: {
-					Count: 1
-					id: "expatternprovider:infinity_cell"
-					tag: {
-						record: {
-							"#c": "ae2:i"
-							id: "minecraft:chain_command_block"
-						}
-					}
-				}
-				type: "item"
-			}]
 			tasks: [{
-				id: "2AC3F7005F03AB1F"
-				item: "gtocore:chaotic_energy_core"
+				id: "11468D577C92A3C9"
+				item: "gtocore:happy_water_god_core"
 				type: "item"
 			}]
 			x: 4.0d
@@ -569,8 +572,8 @@
 			]
 			subtitle: "毕业了"
 			tasks: [{
-				id: "4578A8C0BB3E0155"
-				item: "gtmthings:creative_laser_hatch"
+				id: "263824D7429D5E58"
+				item: "gtocore:happy_water_god_statue"
 				type: "item"
 			}]
 			x: 4.0d
@@ -602,92 +605,8 @@
 				type: "item"
 			}]
 			title: "重子完美水 兑换处"
-			x: -8.0d
-			y: -0.5d
-		}
-		{
-			dependencies: ["7B3C0DB7C1F11692"]
-			description: ["缺失配方的材料，直接送你了"]
-			id: "635BFF4E3FD9999F"
-			rewards: [
-				{
-					id: "6C7D29594A16F5B3"
-					item: {
-						Count: 1
-						id: "expatternprovider:infinity_cell"
-						tag: {
-							record: {
-								"#c": "ae2:f"
-								id: "gtocore:spacetime_continuum"
-							}
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "64B4F99485DCD02A"
-					item: {
-						Count: 1
-						id: "expatternprovider:infinity_cell"
-						tag: {
-							record: {
-								"#c": "ae2:f"
-								id: "gtocore:dimension_allyshifted_super_fluid"
-							}
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "416FA6C4BEEDE0C1"
-					item: {
-						Count: 1
-						id: "expatternprovider:infinity_cell"
-						tag: {
-							record: {
-								"#c": "ae2:i"
-								id: "gtocore:awakened_core"
-							}
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "74A8BBC5F54A5ECE"
-					item: {
-						Count: 1
-						id: "expatternprovider:infinity_cell"
-						tag: {
-							record: {
-								"#c": "ae2:i"
-								id: "gtocore:chaos_infinity_alloy_ingot"
-							}
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "75706DF60202D47D"
-					item: {
-						Count: 1
-						id: "expatternprovider:infinity_cell"
-						tag: {
-							record: {
-								"#c": "ae2:i"
-								id: "gtocore:chaotic_core"
-							}
-						}
-					}
-					type: "item"
-				}
-			]
-			shape: "circle"
-			tasks: [{
-				id: "03BC803CB275580F"
-				type: "checkmark"
-			}]
-			x: 2.0d
-			y: -6.0d
+			x: -6.0d
+			y: -2.0d
 		}
 		{
 			id: "349D841C3AC757EE"
@@ -708,66 +627,6 @@
 			}]
 			x: 0.0d
 			y: 4.0d
-		}
-		{
-			description: ["六级和七级数据载体需要用到这个访问仓，它还暂时做不出来，送你了"]
-			icon: "gtocore:virtual_universe_data_access_hatch"
-			id: "3FBB498BBBA5DBDC"
-			rewards: [{
-				id: "78E1DB8A50F52FD7"
-				item: {
-					Count: 1
-					id: "expatternprovider:infinity_cell"
-					tag: {
-						record: {
-							"#c": "ae2:i"
-							id: "gtocore:virtual_universe_data_access_hatch"
-						}
-					}
-				}
-				type: "item"
-			}]
-			shape: "rsquare"
-			tasks: [{
-				id: "6246B1E9894DC4A4"
-				item: {
-					Count: 1
-					id: "gtocore:obsidian_matrix"
-					tag: { }
-				}
-				type: "item"
-			}]
-			title: " 虚拟宇宙数据访问仓 兑换处"
-			x: -6.0d
-			y: -0.5d
-		}
-		{
-			description: ["人造恒星需要用到它们"]
-			icon: "gtocore:antimatter_containment_casing"
-			id: "48D0530DAF3ED7C5"
-			rewards: [{
-				id: "35A3EF5D75A4D49F"
-				item: {
-					Count: 1
-					id: "expatternprovider:infinity_cell"
-					tag: {
-						record: {
-							"#c": "ae2:i"
-							id: "gtocore:antimatter_containment_casing"
-						}
-					}
-				}
-				type: "item"
-			}]
-			shape: "rsquare"
-			tasks: [{
-				id: "11F7B3B6D30BC6D9"
-				item: "gtocore:annihilate_generator"
-				type: "item"
-			}]
-			title: "反物质隔离机械方块 兑换处"
-			x: -6.0d
-			y: -2.0d
 		}
 	]
 	subtitle: ["Tier10-UEV"]
