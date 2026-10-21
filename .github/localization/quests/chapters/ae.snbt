@@ -2777,7 +2777,7 @@
 			id: "791D9065B1BE3B36"
 			tasks: [{
 				id: "4B4728A85FBD1A48"
-				item: "arseng:source_cell_housing"
+				item: "ars_nouveau:source_cell_housing"
 				type: "item"
 			}]
 			x: 1.5d
@@ -2801,7 +2801,7 @@
 			id: "73EA6D7DC100BFF0"
 			tasks: [{
 				id: "0605FBFEF70B670B"
-				item: "appbot:mana_cell_housing"
+				item: "botania:mana_cell_housing"
 				type: "item"
 			}]
 			x: 1.5d
@@ -2964,7 +2964,7 @@
 				id: "4F52008BFD200046"
 				item: {
 					Count: 1
-					id: "arseng:source_storage_cell_1k"
+					id: "ars_nouveau:source_storage_cell_1k"
 					tag: { }
 				}
 				type: "item"
@@ -2979,7 +2979,7 @@
 				id: "5DAED532F44713E7"
 				item: {
 					Count: 1
-					id: "arseng:source_storage_cell_4k"
+					id: "ars_nouveau:source_storage_cell_4k"
 					tag: { }
 				}
 				type: "item"
@@ -2994,7 +2994,7 @@
 				id: "7EF5DBD695D82111"
 				item: {
 					Count: 1
-					id: "arseng:source_storage_cell_16k"
+					id: "ars_nouveau:source_storage_cell_16k"
 					tag: { }
 				}
 				type: "item"
@@ -3009,7 +3009,7 @@
 				id: "559A5AD50B7F6DA6"
 				item: {
 					Count: 1
-					id: "arseng:source_storage_cell_64k"
+					id: "ars_nouveau:source_storage_cell_64k"
 					tag: { }
 				}
 				type: "item"
@@ -3024,7 +3024,7 @@
 				id: "66C61C01C73F452B"
 				item: {
 					Count: 1
-					id: "arseng:source_storage_cell_256k"
+					id: "ars_nouveau:source_storage_cell_256k"
 					tag: { }
 				}
 				type: "item"
@@ -3039,7 +3039,7 @@
 				id: "4A3E373DFBC14F72"
 				item: {
 					Count: 1
-					id: "appbot:mana_storage_cell_1k"
+					id: "botania:mana_storage_cell_1k"
 					tag: { }
 				}
 				type: "item"
@@ -3054,7 +3054,7 @@
 				id: "1A74EDC47AD33210"
 				item: {
 					Count: 1
-					id: "appbot:mana_storage_cell_4k"
+					id: "botania:mana_storage_cell_4k"
 					tag: { }
 				}
 				type: "item"
@@ -3069,7 +3069,7 @@
 				id: "55A920ABAEB62668"
 				item: {
 					Count: 1
-					id: "appbot:mana_storage_cell_16k"
+					id: "botania:mana_storage_cell_16k"
 					tag: { }
 				}
 				type: "item"
@@ -3084,7 +3084,7 @@
 				id: "47E18B92294F1739"
 				item: {
 					Count: 1
-					id: "appbot:mana_storage_cell_64k"
+					id: "botania:mana_storage_cell_64k"
 					tag: { }
 				}
 				type: "item"
@@ -3099,7 +3099,7 @@
 				id: "03DA73CFBB5D694B"
 				item: {
 					Count: 1
-					id: "appbot:mana_storage_cell_256k"
+					id: "botania:mana_storage_cell_256k"
 					tag: { }
 				}
 				type: "item"

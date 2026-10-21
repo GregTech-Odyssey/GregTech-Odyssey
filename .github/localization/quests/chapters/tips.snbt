@@ -2078,6 +2078,36 @@
 			x: -2.25d
 			y: 8.0d
 		}
+		{
+			id: "72832DC545AA3AB0"
+			tasks: [{
+				id: "4B7296D7545B6EE1"
+				item: "gtocore:just_get_10_game_machine"
+				type: "item"
+			}]
+			x: 0.75d
+			y: 8.0d
+		}
+		{
+			id: "4755E6EC34E1FB4E"
+			tasks: [{
+				id: "0EA3B256BD7F0947"
+				item: "gtocore:game_2048_machine"
+				type: "item"
+			}]
+			x: 2.25d
+			y: 8.0d
+		}
+		{
+			id: "7AEFE787568342CF"
+			tasks: [{
+				id: "2E260A1EF75B7CF7"
+				item: "gtocore:game_24_machine"
+				type: "item"
+			}]
+			x: 3.75d
+			y: 8.0d
+		}
 	]
 	subtitle: ["{gto.tips.subtitle0}"]
 	title: "{gto.tips.title}"
