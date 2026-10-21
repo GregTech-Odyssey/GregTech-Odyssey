@@ -7,12 +7,15 @@ on:
 permissions:
   issues: write
 
+# Issues the GTO Team site files for players (a GitHub App, label "QQ 反馈") are skipped: the site
+# checks the version with this same pattern before the report can be submitted, and has an AI review.
 jobs:
   check-version:
     if: |
       github.event_name == 'issues' &&
       (github.event.action == 'opened' ||
-      (github.event.action == 'edited' && github.event.changes.body))
+      (github.event.action == 'edited' && github.event.changes.body)) &&
+      !(github.event.issue.user.type == 'Bot' && contains(github.event.issue.labels.*.name, 'QQ 反馈'))
     runs-on: ubuntu-latest
     steps:
       - name: Check Issue and Version
