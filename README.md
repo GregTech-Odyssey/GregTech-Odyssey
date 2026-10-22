@@ -47,7 +47,7 @@ Download from the [Releases](https://github.com/GregTech-Odyssey/GregTech-Odysse
 
 ## Contributing
 
-The development team coordinates content choices, balancing, and release planning for the modpack. See the [Contributing Guide](CONTRIBUTING.md) for development setup, maintenance rules, and pull request requirements, the [Contribution Policy](docs/CONTRIBUTION_POLICY.md) for contributor responsibilities and AI usage rules, and the [Contributor License Agreement](CLA.md), which the CLA bot asks you to sign on your first pull request.
+The development team coordinates content choices, balancing, and release planning for the modpack. See the [Contributing Guide](CONTRIBUTING.md) for development setup, maintenance rules, and pull request requirements, the [Contribution Policy](docs/CONTRIBUTION_POLICY.md) for contributor responsibilities and AI usage rules, and the [Contributor License Agreement](https://github.com/GregTech-Odyssey/CLA/blob/main/CLA.md), which the CLA bot asks you to sign on your first pull request.
 
 To report a problem or suggest an improvement, open an [Issue](https://github.com/GregTech-Odyssey/GregTech-Odyssey/issues):
 

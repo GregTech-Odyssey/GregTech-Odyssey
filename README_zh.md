@@ -47,7 +47,7 @@ GregTech Odyssey（GTO）是一个以现代格雷（GregTech Modern）为核心�
 
 ## 参与开发
 
-整合包的内容取舍、数值平衡与版本节奏由开发团队统筹。开发环境、维护规则与 PR 提交要求见[贡献指南](CONTRIBUTING.md)；贡献者责任与 AI 使用规范见[贡献政策](docs/CONTRIBUTION_POLICY.md)；提交 PR 前请阅读[贡献者许可协议（CLA）](CLA.md)，首次提交时按机器人提示签署。
+整合包的内容取舍、数值平衡与版本节奏由开发团队统筹。开发环境、维护规则与 PR 提交要求见[贡献指南](CONTRIBUTING.md)；贡献者责任与 AI 使用规范见[贡献政策](docs/CONTRIBUTION_POLICY.md)；提交 PR 前请阅读[贡献者许可协议（CLA）](https://github.com/GregTech-Odyssey/CLA/blob/main/CLA.md)，首次提交时按机器人提示签署。
 
 报告问题或提出改进建议，请到 [Issues](https://github.com/GregTech-Odyssey/GregTech-Odyssey/issues)：
 
