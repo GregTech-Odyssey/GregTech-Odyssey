@@ -4,7 +4,7 @@
 
 本文件适用于向**本项目下任何仓库**提交 Pull Request 的贡献者。  
 
-提交贡献前，请阅读[贡献者许可协议（CLA）](CLA.md)。提交 Pull Request 即表示你同意该协议。
+提交贡献前，请阅读[贡献者许可协议（CLA）](https://github.com/GregTech-Odyssey/CLA/blob/main/CLA.md)。提交 Pull Request 即表示你同意该协议。
 
 如果你只是提出问题或建议，请前往 [Issues](https://github.com/GregTech-Odyssey/GregTech-Odyssey/issues)。
 
