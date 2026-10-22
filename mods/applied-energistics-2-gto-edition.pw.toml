@@ -1,0 +1,13 @@
+name = "Applied Energistics 2 GTO Edition"
+filename = "appliedenergistics2-forge-1.20.1-15.2610.28.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "aa6b57c9ab8a2ff4ed5db97c40602397af9daa27"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9274428
+project-id = 1756988

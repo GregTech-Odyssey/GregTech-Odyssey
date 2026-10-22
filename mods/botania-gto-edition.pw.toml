@@ -1,0 +1,13 @@
+name = "Botania GTO Edition"
+filename = "Botania-forge-1.20.1-457.2610.17.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "07ff33170585de059bef261010f80d057ac97d15"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9273140
+project-id = 1754410

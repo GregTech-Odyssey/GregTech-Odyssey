@@ -1,0 +1,13 @@
+name = "Ars Nouveau GTO Edition"
+filename = "ars_nouveau-1.20.1-forge-1.20.1-4.12.19.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "473bafa74cad10f44f760a07d435d6dd8f7c3685"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9274360
+project-id = 1755416

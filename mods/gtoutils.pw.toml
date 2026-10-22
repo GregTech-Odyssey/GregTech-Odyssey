@@ -1,0 +1,13 @@
+name = "GTOUtils"
+filename = "gtoutils-forge-1.20.1-26.10.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "5bf3b75ddf573b2eb1fe5da8c66af8f5fdd8891d"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9272634
+project-id = 1755759

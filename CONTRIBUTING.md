@@ -4,6 +4,8 @@
 
 本文件适用于向**本项目下任何仓库**提交 Pull Request 的贡献者。  
 
+提交贡献前，请阅读[贡献者许可协议（CLA）](CLA.md)。提交 Pull Request 即表示你同意该协议。
+
 如果你只是提出问题或建议，请前往 [Issues](https://github.com/GregTech-Odyssey/GregTech-Odyssey/issues)。
 
 > 本指南参考了对应仓库的 AI 使用政策： https://github.com/ghostty-org/ghostty/blob/main/AI_POLICY.md 和 https://github.com/GTNewHorizons/GTNH-Dev-Doc/blob/master/AI_POLICY.md

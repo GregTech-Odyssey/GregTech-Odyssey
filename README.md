@@ -59,17 +59,9 @@ git clone https://github.com/GregTech-Odyssey/GregTech-Odyssey.git
 packwiz cf export
 ```
 
-### Downloading Modpacks Built with GitHub Actions
-
-[Actions](https://github.com/GregTech-Odyssey/GregTech-Odyssey/actions)
-
 ### Use packwiz-installer
 
 [packwiz-installer allows you to install and update a packwiz modpack](https://packwiz.infra.link/tutorials/installing/packwiz-installer/)
-
-### Nix (flake) users
-
-see packaged forge and modpack in `flake.nix`
 
 ## Development
 

@@ -78,7 +78,7 @@ hash = "f8f43d6e59323558378c6143afb1693d4bd7db78f023aac0ead3db1d7968541c"
 
 [[files]]
 file = "config/expatternprovider-common.toml"
-hash = "4ee6ff458da622b173e841068d832bd5421d097a99de5678673b5af4b16a252d"
+hash = "00f926c99f05b7eb8ffb99426bd6510b7ea2a9a5ed7a97d6bca3c77b3adbfaba"
 
 [[files]]
 file = "config/extrabotany-common.toml"
@@ -669,16 +669,8 @@ file = "config/openloader/resources/resources/assets/apotheosis/lang/zh_tw.json"
 hash = "f068fbe1d63c3643c8a73b605185f61005b9651a9d1f8cb44b9231999a33b6bc"
 
 [[files]]
-file = "config/openloader/resources/resources/assets/appbot/lang/zh_cn.json"
-hash = "0471ace0b329b7cae31a1368e4da91e843b772d8a06ece914da66041c579bb90"
-
-[[files]]
 file = "config/openloader/resources/resources/assets/ars_nouveau/lang/zh_cn.json"
 hash = "c8a6fdf1601b57d0a7cedfef80ecf77b40bc50d5a591702c4302a9f5b1100d54"
-
-[[files]]
-file = "config/openloader/resources/resources/assets/arseng/lang/zh_cn.json"
-hash = "1539646621c9072dd90aff4e1ef85ea8dc3502e4fd5c53934f0168ae27de256d"
 
 [[files]]
 file = "config/openloader/resources/resources/assets/aw2wtlib/lang/zh_cn.json"
@@ -1718,8 +1710,8 @@ hash = "8b3c12a1f89957d60644c3c1252b51508940dab0f7464c7866448645caac326a"
 metafile = true
 
 [[files]]
-file = "mods/applied-botanics-addon.pw.toml"
-hash = "64ad6dacf8e6d1c70567b2119054ab358ff0556feea8037d51379727cef641db"
+file = "mods/applied-energistics-2-gto-edition.pw.toml"
+hash = "4efd62b66f072aa3c282c352bfb903f31f953de68880c64356190f3d7ce15cd8"
 metafile = true
 
 [[files]]
@@ -1738,18 +1730,13 @@ hash = "e4bbeb6da63fd1e12dc0860e755884de1ea34961c5996f14d482d705c63dc5ab"
 metafile = true
 
 [[files]]
-file = "mods/ars-energistique.pw.toml"
-hash = "fe693ae80d95c3b06c0c91285417bf58d13e1e1d69496d35224dbf0002d54476"
-metafile = true
-
-[[files]]
 file = "mods/ars-meteorites.pw.toml"
 hash = "fa583471810d6565799cb7b229c2e1f86aea4834691146ab596d5d533d729a04"
 metafile = true
 
 [[files]]
-file = "mods/ars-nouveau.pw.toml"
-hash = "44505ec6c8d7ac5948b3f192cff3db191b07c4d39d501ce3af916006cda3c5a6"
+file = "mods/ars-nouveau-gto-edition.pw.toml"
+hash = "78dc9a5f38fce91cb60e79d39c9787708686e83125e74d11c81c967f880f8332"
 metafile = true
 
 [[files]]
@@ -1790,6 +1777,11 @@ metafile = true
 [[files]]
 file = "mods/bocchium.pw.toml"
 hash = "83b90ad8de8562a7b950081d044a17491292caec6e3561fcdb6f2972c3c16e6b"
+metafile = true
+
+[[files]]
+file = "mods/botania-gto-edition.pw.toml"
+hash = "40ea054dc32de4c9dc513551ad252f3cfcb9ff47e73b15bb0389bb953a8226a7"
 metafile = true
 
 [[files]]
@@ -1924,16 +1916,6 @@ metafile = true
 [[files]]
 file = "mods/embeddium.pw.toml"
 hash = "3d4755a531c732d548d24ae50a5dd27c6bbdad0443cc1d538c0f86f9fd20e267"
-metafile = true
-
-[[files]]
-file = "mods/emi-trades-villager-trading-emi-plugin.pw.toml"
-hash = "68b1826390dcee682030863480bb13a8ded65ebb70325a9010ba1616f03bd0b2"
-metafile = true
-
-[[files]]
-file = "mods/emi.pw.toml"
-hash = "09455e81afb0af9383c906f8b48854c1a037ccd26cf7edcecc9685ebb8233e39"
 metafile = true
 
 [[files]]
@@ -2097,12 +2079,28 @@ hash = "cbc09537cc4899b24477add64d778478b9e69723893dad02e61c2ad20deedd68"
 metafile = true
 
 [[files]]
-file = "mods/gto-seal-runtime-1.0.jar"
-hash = "ec07a9a421316207e3d8b2eb6c845406f3c44b6f85807202d8d145c10486976f"
+file = "mods/gregtech-modern-gto-edition.pw.toml"
+hash = "273ed44c8ecc542b8ca4d7de96153afc0a21c34ae0854032c816c0505aa2e0b9"
+metafile = true
+
+[[files]]
+file = "mods/gto-seal-runtime.pw.toml"
+hash = "397371066b559584941e596dadf73a07203990a3ef61a634c4e6b358aecefc94"
+metafile = true
 
 [[files]]
 file = "mods/gtocore-forge-1.20.1-26.10.5.jar"
 hash = "6bf82119d4fd0ee7420806d0c4f21c3ccf606eb54904164612be1e4f9c0ce436"
+
+[[files]]
+file = "mods/gtorender.pw.toml"
+hash = "c432fb24508db1633a97d17a6b129c0efdbf3f67d5717add0e17e65034421418"
+metafile = true
+
+[[files]]
+file = "mods/gtoutils.pw.toml"
+hash = "0c3d1c807305348b4d043884c2f11b92e5bf36e09037b9acdc0b89b905c01979"
+metafile = true
 
 [[files]]
 file = "mods/guideme.pw.toml"

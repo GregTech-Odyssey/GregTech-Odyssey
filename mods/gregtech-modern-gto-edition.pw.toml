@@ -1,0 +1,13 @@
+name = "GregTech Modern GTO Edition"
+filename = "gtceu-1.20.1-forge-1.20.1-26.10.70.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "518a98f1ba40653a79c8d0e19541e068b5d32df2"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9273126
+project-id = 1756975

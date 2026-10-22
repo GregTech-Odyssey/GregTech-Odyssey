@@ -19,7 +19,7 @@ disableItemRender = false
 	#Range: 2 ~ 4096
 	oversize_interface_multiplier = 4096
 	#Set multiplier for specific AEKeyType in oversize interface
-	custom_oversize_interface_multiplier = ["appbot:mana 2", "appflux:flux 4"]
+	custom_oversize_interface_multiplier = ["botania:mana 2", "appflux:flux 4"]
 	#The max size of Assembler Matrix
 	#Range: 3 ~ 16
 	assembler_matrix_max_size = 16

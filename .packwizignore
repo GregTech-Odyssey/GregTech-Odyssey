@@ -66,10 +66,10 @@ config/embeddium-options.json
 README_zh.md
 THIRD_PARTY_LICENSES.md
 CONTRIBUTING.md
+CLA.md
 /docs/
 
 !gtocore-*.jar
-!gto-seal-runtime-*.jar
 !datasynclib-*.jar
 
 /resourcepacks

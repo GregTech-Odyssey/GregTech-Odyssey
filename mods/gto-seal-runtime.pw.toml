@@ -1,0 +1,13 @@
+name = "GTO Seal Runtime"
+filename = "gto-seal-runtime-1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "2bcc6c3b008bff049cffafb01962a969a16d5aab"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9273000
+project-id = 1757040

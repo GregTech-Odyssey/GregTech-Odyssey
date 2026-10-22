@@ -59,17 +59,9 @@ git clone https://github.com/GregTech-Odyssey/GregTech-Odyssey.git
 packwiz cf export
 ```
 
-### 下载 github actions 自动构建的整合包
-
-[Actions](https://github.com/GregTech-Odyssey/GregTech-Odyssey/actions)
-
 ### 使用 packwiz-installer
 
 [packwiz-installer 可以直接安装和更新 packwiz 整合包](https://packwiz.infra.link/tutorials/installing/packwiz-installer/)
-
-### Nix (flake) 用户
-
-见 `flake.nix` 中打包的 forge 和整合包
 
 ## 开发
 
