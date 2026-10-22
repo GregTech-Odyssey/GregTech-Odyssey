@@ -47,7 +47,9 @@ Download from the [Releases](https://github.com/GregTech-Odyssey/GregTech-Odysse
 
 ## Contributing
 
-Content choices, balancing, and release planning for the modpack need to be coordinated as a whole, so changes are currently made by the development team. If you would like to help make GTO better, the most effective way is to open an [Issue](https://github.com/GregTech-Odyssey/GregTech-Odyssey/issues):
+The development team coordinates content choices, balancing, and release planning for the modpack. See the [Contributing Guide](CONTRIBUTING.md) for development setup, maintenance rules, and pull request requirements, and the [Contribution Policy](docs/CONTRIBUTION_POLICY.md) for contributor responsibilities and AI usage rules.
+
+To report a problem or suggest an improvement, open an [Issue](https://github.com/GregTech-Odyssey/GregTech-Odyssey/issues):
 
 - **Found a bug**: include the modpack version, steps to reproduce, the actual and expected results, and attach logs or crash reports.
 - **Have an idea or suggestion**: describe the problem you want to solve and the approach you recommend.
