@@ -1746,7 +1746,7 @@
 						value: "gtceu:batteries/lv"
 					}
 				}
-				title: "小型电池"
+				title: "任意小型电池"
 				type: "item"
 			}]
 			x: -2.5d
@@ -1830,7 +1830,7 @@
 						value: "forge:tools/drills"
 					}
 				}
-				title: "电钻"
+				title: "任意电钻"
 				type: "item"
 			}]
 			x: -4.5d
@@ -1873,7 +1873,7 @@
 						value: "forge:tools/chainsaws"
 					}
 				}
-				title: "链锯"
+				title: "任意链锯"
 				type: "item"
 			}]
 			x: -4.5d

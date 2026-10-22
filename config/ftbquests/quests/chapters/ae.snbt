@@ -1410,6 +1410,9 @@
 						Count: 1
 						id: "itemfilters:or"
 						tag: {
+							display: {
+								Name: "{\"text\":\"任意赛特斯石英母岩\"}"
+							}
 							items: [
 								{
 									Count: 1b
@@ -1431,7 +1434,6 @@
 						}
 					}
 					optional_task: true
-					title: "任意赛特斯石英母岩"
 					type: "item"
 				}
 			]
@@ -3305,6 +3307,9 @@
 						Count: 1
 						id: "itemfilters:or"
 						tag: {
+							display: {
+								Name: "{\"text\":\"任意合成存储器\"}"
+							}
 							items: [
 								{
 									Count: 1b
@@ -3329,7 +3334,6 @@
 							]
 						}
 					}
-					title: "任意合成存储器"
 					type: "item"
 				}
 			]
@@ -4290,6 +4294,9 @@
 					Count: 1
 					id: "itemfilters:or"
 					tag: {
+						display: {
+							Name: "{\"text\":\"任意光通染色球\"}"
+						}
 						items: [
 							{
 								Count: 1b
@@ -4354,7 +4361,6 @@
 						]
 					}
 				}
-				title: "任意光通染色球"
 				type: "item"
 			}]
 			title: "光通染色球"
@@ -4761,6 +4767,9 @@
 					Count: 1
 					id: "itemfilters:or"
 					tag: {
+						display: {
+							Name: "{\"text\":\"任意石英切割刀\"}"
+						}
 						items: [
 							{
 								Count: 1b
@@ -4779,7 +4788,6 @@
 						]
 					}
 				}
-				title: "任意石英切割刀"
 				type: "item"
 			}]
 			x: -23.0d

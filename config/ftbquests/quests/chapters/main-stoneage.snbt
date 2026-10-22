@@ -811,6 +811,9 @@
 						Count: 1
 						id: "itemfilters:or"
 						tag: {
+							display: {
+								Name: "{\"text\":\"任意粗铅矿\"}"
+							}
 							items: [
 								{
 									Count: 1b
@@ -823,7 +826,6 @@
 							]
 						}
 					}
-					title: "任意粗铅矿"
 					type: "item"
 				}
 				{
@@ -1714,7 +1716,7 @@
 						value: "forge:tools/butchery_knives"
 					}
 				}
-				title: "屠刀"
+				title: "任意屠刀"
 				type: "item"
 			}]
 			x: 2.5d

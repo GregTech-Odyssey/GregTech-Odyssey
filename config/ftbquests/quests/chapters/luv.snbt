@@ -870,6 +870,9 @@
 					Count: 1
 					id: "itemfilters:or"
 					tag: {
+						display: {
+							Name: "{\"text\":\"磁共振电路系列\"}"
+						}
 						items: [
 							{
 								Count: 1b
@@ -918,7 +921,6 @@
 						]
 					}
 				}
-				title: "磁共振电路系列"
 				type: "item"
 			}]
 			title: "磁共振电路系列"

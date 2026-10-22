@@ -5,6 +5,7 @@ import shutil
 import subprocess
 import sys
 import ast
+import re
 import ftb_snbt_lib as snbt
 from ftb_snbt_lib.tag import Compound, List, String
 
@@ -22,6 +23,8 @@ TARGET_LANGUAGE = 'en_us'
 PACK_SHORT_KEY = "gto"
 SOURCE_KEYS = {}
 TARGET_KEYS = {}
+COLORED_FILTER_NAME_KEYS = set()
+FILTER_NAME_LEGACY_KEYS = {}
 
 ESCAPE_SUBS = {
     r'%': r'%%',
@@ -87,7 +90,36 @@ def convert(file_path: Path) -> Compound:
     return data
 
 
+def convert_filter_name(data: Compound, lang_key: str):
+    if '.tasks.' not in lang_key or data.get('type') != 'item':
+        return
+    item = data.get('item')
+    if not isinstance(item, Compound) or not str(item.get('id', '')).startswith('itemfilters:'):
+        return
+    display = item.get('tag', {}).get('display', {})
+    name = display.get('Name')
+    if not isinstance(name, String):
+        return
+    try:
+        component = json.loads(name)
+    except json.JSONDecodeError:
+        return
+    if not isinstance(component, dict) or not isinstance(component.get('text'), str):
+        return
+    if not text_filter(component['text']):
+        return
+
+    key = f'{lang_key}.name'
+    SOURCE_KEYS[key] = escape_string(component.pop('text'))
+    FILTER_NAME_LEGACY_KEYS[key] = f'{lang_key}.title'
+    component['translate'] = key
+    if 'color' in component:
+        COLORED_FILTER_NAME_KEYS.add(key)
+    display['Name'] = String(json.dumps(component, ensure_ascii=False))
+
+
 def _convert(data: Compound, lang_key: str):
+    convert_filter_name(data, lang_key)
     for key in filter(lambda x: data[x], data):
         if isinstance(data[key], Compound):
             _convert(data[key], f'{lang_key}.{key}')
@@ -162,6 +194,28 @@ def sync_language_files_incremental(source_keys: dict, source_language: str, tar
             en_us = json.load(f)
     except Exception:
         en_us = {}
+
+    # NBT text components carry color separately from the translated text.
+    for key in COLORED_FILTER_NAME_KEYS:
+        if key in old_zh_cn:
+            old_zh_cn[key] = re.sub(r'(?i)[&§][0-9a-fk-or]', '', old_zh_cn[key])
+        if key in en_us:
+            en_us[key] = re.sub(r'(?i)[&§][0-9a-fk-or]', '', en_us[key])
+
+    # Only inherit a legacy title translation when it describes the same text.
+    for key, legacy_key in FILTER_NAME_LEGACY_KEYS.items():
+        if key in old_zh_cn or key not in new_zh_cn or legacy_key not in old_zh_cn:
+            continue
+        legacy_source = old_zh_cn[legacy_key]
+        legacy_translation = en_us.get(legacy_key)
+        if key in COLORED_FILTER_NAME_KEYS:
+            legacy_source = re.sub(r'(?i)[&§][0-9a-fk-or]', '', legacy_source)
+            if legacy_translation is not None:
+                legacy_translation = re.sub(r'(?i)[&§][0-9a-fk-or]', '', legacy_translation)
+        if legacy_source == new_zh_cn[key]:
+            old_zh_cn[key] = legacy_source
+            if key not in en_us and legacy_translation is not None:
+                en_us[key] = legacy_translation
 
     # 增量更新
     if old_zh_cn and MODE == 'push':

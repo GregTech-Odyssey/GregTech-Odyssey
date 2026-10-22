@@ -1548,6 +1548,9 @@
 						Count: 1
 						id: "itemfilters:or"
 						tag: {
+							display: {
+								Name: "{\"text\":\"解毒剂\"}"
+							}
 							items: [
 								{
 									Count: 1b
@@ -1565,7 +1568,6 @@
 						}
 					}
 					optional_task: true
-					title: "解毒剂"
 					type: "item"
 				}
 				{
@@ -2012,7 +2014,7 @@
 					type: "item"
 				}
 			]
-			x: -3.75d
+			x: -2.25d
 			y: 8.0d
 		}
 		{
@@ -2075,7 +2077,7 @@
 				item: "gtocore:village_trading_station"
 				type: "item"
 			}]
-			x: -2.25d
+			x: -3.75d
 			y: 8.0d
 		}
 		{
@@ -2106,6 +2108,49 @@
 				type: "item"
 			}]
 			x: 3.75d
+			y: 8.0d
+		}
+		{
+			id: "022CB9946D31B62F"
+			tasks: [{
+				id: "32F2D843303A807C"
+				item: "gtocore:slot_machine"
+				type: "item"
+			}]
+			x: 0.75d
+			y: 9.5d
+		}
+		{
+			id: "10278815F7C3F2B5"
+			tasks: [{
+				id: "67FF38F423D5D387"
+				item: "gtocore:wide_slot_machine"
+				type: "item"
+			}]
+			x: 2.25d
+			y: 9.5d
+		}
+		{
+			id: "056024944F0F445D"
+			tasks: [{
+				id: "254DD6F303CA0F36"
+				item: "gtocore:minesweeper_core"
+				type: "item"
+			}]
+			x: 3.75d
+			y: 9.5d
+		}
+		{
+			dependencies: ["415C09EF88BE19B4"]
+			description: ["格雷科技销售部会员区还售卖游戏机，你可以在无聊的时候玩玩小游戏"]
+			id: "33BBC4856BB25F9A"
+			tasks: [{
+				id: "4BC89C618E8AD799"
+				title: "AE小工具"
+				type: "checkmark"
+			}]
+			title: "闲暇一刻"
+			x: -0.75d
 			y: 8.0d
 		}
 	]

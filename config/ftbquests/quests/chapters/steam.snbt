@@ -1474,6 +1474,9 @@
 					Count: 1
 					id: "itemfilters:or"
 					tag: {
+						display: {
+							Name: "{\"text\":\"任意高压蒸汽机器\"}"
+						}
 						items: [
 							{
 								Count: 1b
@@ -1522,7 +1525,6 @@
 						]
 					}
 				}
-				title: "高压蒸汽机器"
 				type: "item"
 			}]
 			title: "更猛的机器们"
@@ -2436,7 +2438,7 @@
 							value: "forge:sand"
 						}
 					}
-					title: "沙子"
+					title: "任意沙子"
 					type: "item"
 				}
 			]

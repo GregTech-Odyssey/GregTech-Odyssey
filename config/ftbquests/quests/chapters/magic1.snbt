@@ -1414,6 +1414,9 @@
 					Count: 1
 					id: "itemfilters:or"
 					tag: {
+						display: {
+							Name: "{\"text\":\"黑莲花\",\"color\":\"green\"}"
+						}
 						items: [
 							{
 								Count: 1b
@@ -1426,7 +1429,6 @@
 						]
 					}
 				}
-				title: "&a黑莲花&f"
 				type: "item"
 			}]
 			title: "神秘的魔力莲花"
@@ -2788,7 +2790,7 @@
 						value: "forge:logs/archwood"
 					}
 				}
-				title: "至高木"
+				title: "任意至高木"
 				type: "item"
 			}]
 			title: "至高木"
@@ -4489,6 +4491,9 @@
 					Count: 1
 					id: "itemfilters:or"
 					tag: {
+						display: {
+							Name: "{\"text\":\"任意眼睛\"}"
+						}
 						items: [
 							{
 								Count: 1b
@@ -4605,7 +4610,6 @@
 						]
 					}
 				}
-				title: "任意眼睛"
 				type: "item"
 			}]
 			title: "末地：创世"
@@ -4759,7 +4763,7 @@
 		}
 		{
 			dependencies: ["70C5A902C0D26628"]
-			description: ["它可以用来运输魔力或魔源，&e但无法转换两者&r"]
+			description: ["它可以用来运输魔力或魔源，&e并且可以自动转换两者&r"]
 			id: "7DB4B6390DB628FF"
 			rewards: [{
 				id: "790703426DBDB4B5"

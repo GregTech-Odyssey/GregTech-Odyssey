@@ -337,6 +337,9 @@
 					Count: 1
 					id: "itemfilters:or"
 					tag: {
+						display: {
+							Name: "{\"text\":\"任意火花增幅器\"}"
+						}
 						items: [
 							{
 								Count: 1b
@@ -357,7 +360,6 @@
 						]
 					}
 				}
-				title: "火花增幅器"
 				type: "item"
 			}]
 			title: "火花增强"
@@ -1107,6 +1109,9 @@
 					Count: 1
 					id: "itemfilters:or"
 					tag: {
+						display: {
+							Name: "{\"text\":\"任意盖亚饰品\"}"
+						}
 						items: [
 							{
 								Count: 1b
@@ -1167,7 +1172,6 @@
 						]
 					}
 				}
-				title: "盖亚饰品"
 				type: "item"
 			}]
 			title: "&a盖亚装备与饰品&r"
@@ -2161,6 +2165,9 @@
 					Count: 1
 					id: "itemfilters:or"
 					tag: {
+						display: {
+							Name: "{\"text\":\"任意奖励袋\"}"
+						}
 						items: [
 							{
 								Count: 1b
@@ -2185,7 +2192,6 @@
 						]
 					}
 				}
-				title: "任意奖励袋"
 				type: "item"
 			}]
 			title: "奖励袋"
