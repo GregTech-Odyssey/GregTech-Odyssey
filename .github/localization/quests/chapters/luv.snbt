@@ -870,6 +870,9 @@
 					Count: 1
 					id: "itemfilters:or"
 					tag: {
+						display: {
+							Name: "{\"translate\": \"gto.luv.quests.68A3CE3A60F11C88.tasks.2A4EA12F2A1A397D.name\"}"
+						}
 						items: [
 							{
 								Count: 1b
@@ -918,7 +921,6 @@
 						]
 					}
 				}
-				title: "{gto.luv.quests.68A3CE3A60F11C88.tasks.2A4EA12F2A1A397D.title}"
 				type: "item"
 			}]
 			title: "{gto.luv.quests.68A3CE3A60F11C88.title}"

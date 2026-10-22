@@ -1474,6 +1474,9 @@
 					Count: 1
 					id: "itemfilters:or"
 					tag: {
+						display: {
+							Name: "{\"translate\": \"gto.steam.quests.524B8340450628A3.tasks.41CA757DDA6AB954.name\"}"
+						}
 						items: [
 							{
 								Count: 1b
@@ -1522,7 +1525,6 @@
 						]
 					}
 				}
-				title: "{gto.steam.quests.524B8340450628A3.tasks.41CA757DDA6AB954.title}"
 				type: "item"
 			}]
 			title: "{gto.steam.quests.524B8340450628A3.title}"

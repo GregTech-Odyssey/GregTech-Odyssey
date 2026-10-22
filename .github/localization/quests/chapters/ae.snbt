@@ -1410,6 +1410,9 @@
 						Count: 1
 						id: "itemfilters:or"
 						tag: {
+							display: {
+								Name: "{\"translate\": \"gto.ae.quests.3ACFA6C39D38154C.tasks.148D4082FB8FEE2B.name\"}"
+							}
 							items: [
 								{
 									Count: 1b
@@ -1431,7 +1434,6 @@
 						}
 					}
 					optional_task: true
-					title: "{gto.ae.quests.3ACFA6C39D38154C.tasks.148D4082FB8FEE2B.title}"
 					type: "item"
 				}
 			]
@@ -3305,6 +3307,9 @@
 						Count: 1
 						id: "itemfilters:or"
 						tag: {
+							display: {
+								Name: "{\"translate\": \"gto.ae.quests.2F42DE3FEC2C35F9.tasks.681AE973B937A288.name\"}"
+							}
 							items: [
 								{
 									Count: 1b
@@ -3329,7 +3334,6 @@
 							]
 						}
 					}
-					title: "{gto.ae.quests.2F42DE3FEC2C35F9.tasks.681AE973B937A288.title}"
 					type: "item"
 				}
 			]
@@ -4290,6 +4294,9 @@
 					Count: 1
 					id: "itemfilters:or"
 					tag: {
+						display: {
+							Name: "{\"translate\": \"gto.ae.quests.393B722AB2CA65BF.tasks.56CC5B28019585D4.name\"}"
+						}
 						items: [
 							{
 								Count: 1b
@@ -4354,7 +4361,6 @@
 						]
 					}
 				}
-				title: "{gto.ae.quests.393B722AB2CA65BF.tasks.56CC5B28019585D4.title}"
 				type: "item"
 			}]
 			title: "{gto.ae.quests.393B722AB2CA65BF.title}"
@@ -4761,6 +4767,9 @@
 					Count: 1
 					id: "itemfilters:or"
 					tag: {
+						display: {
+							Name: "{\"translate\": \"gto.ae.quests.4F7982A57F4830CB.tasks.3FA2774189387023.name\"}"
+						}
 						items: [
 							{
 								Count: 1b
@@ -4779,7 +4788,6 @@
 						]
 					}
 				}
-				title: "{gto.ae.quests.4F7982A57F4830CB.tasks.3FA2774189387023.title}"
 				type: "item"
 			}]
 			x: -23.0d

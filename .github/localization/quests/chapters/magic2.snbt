@@ -337,6 +337,9 @@
 					Count: 1
 					id: "itemfilters:or"
 					tag: {
+						display: {
+							Name: "{\"translate\": \"gto.magic2.quests.5CB5F4CD521F6361.tasks.28B797392467C851.name\"}"
+						}
 						items: [
 							{
 								Count: 1b
@@ -357,7 +360,6 @@
 						]
 					}
 				}
-				title: "{gto.magic2.quests.5CB5F4CD521F6361.tasks.28B797392467C851.title}"
 				type: "item"
 			}]
 			title: "{gto.magic2.quests.5CB5F4CD521F6361.title}"
@@ -1107,6 +1109,9 @@
 					Count: 1
 					id: "itemfilters:or"
 					tag: {
+						display: {
+							Name: "{\"translate\": \"gto.magic2.quests.66F1609053B5407C.tasks.44A3CDE54F2A5149.name\"}"
+						}
 						items: [
 							{
 								Count: 1b
@@ -1167,7 +1172,6 @@
 						]
 					}
 				}
-				title: "{gto.magic2.quests.66F1609053B5407C.tasks.44A3CDE54F2A5149.title}"
 				type: "item"
 			}]
 			title: "{gto.magic2.quests.66F1609053B5407C.title}"
@@ -2170,6 +2174,9 @@
 					Count: 1
 					id: "itemfilters:or"
 					tag: {
+						display: {
+							Name: "{\"translate\": \"gto.magic2.quests.7278B00DEB2C21E7.tasks.36537D76B6F9DE91.name\"}"
+						}
 						items: [
 							{
 								Count: 1b
@@ -2194,7 +2201,6 @@
 						]
 					}
 				}
-				title: "{gto.magic2.quests.7278B00DEB2C21E7.tasks.36537D76B6F9DE91.title}"
 				type: "item"
 			}]
 			title: "{gto.magic2.quests.7278B00DEB2C21E7.title}"

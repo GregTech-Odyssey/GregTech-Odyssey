@@ -666,7 +666,7 @@
 						id: "itemfilters:or"
 						tag: {
 							display: {
-								Name: "{\"text\":\"任意粗锡矿\"}"
+								Name: "{\"translate\": \"gto.main-stoneage.quests.0EFC6C245CC001CB.tasks.2F3877D66CFEDD91.name\"}"
 							}
 							items: [
 								{
@@ -693,7 +693,7 @@
 						id: "itemfilters:or"
 						tag: {
 							display: {
-								Name: "{\"text\":\"任意粗铜矿\"}"
+								Name: "{\"translate\": \"gto.main-stoneage.quests.0EFC6C245CC001CB.tasks.0570186823481BED.name\"}"
 							}
 							items: [
 								{
@@ -814,6 +814,9 @@
 						Count: 1
 						id: "itemfilters:or"
 						tag: {
+							display: {
+								Name: "{\"translate\": \"gto.main-stoneage.quests.4993AFF5280AC837.tasks.570AAF6384F7ADE8.name\"}"
+							}
 							items: [
 								{
 									Count: 1b
@@ -826,7 +829,6 @@
 							]
 						}
 					}
-					title: "{gto.main-stoneage.quests.4993AFF5280AC837.tasks.570AAF6384F7ADE8.title}"
 					type: "item"
 				}
 				{

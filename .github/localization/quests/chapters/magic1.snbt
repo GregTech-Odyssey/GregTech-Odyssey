@@ -1414,6 +1414,9 @@
 					Count: 1
 					id: "itemfilters:or"
 					tag: {
+						display: {
+							Name: "{\"color\": \"green\", \"translate\": \"gto.magic1.quests.5E2AA5695D1F21D7.tasks.490EAAA3703A576F.name\"}"
+						}
 						items: [
 							{
 								Count: 1b
@@ -1426,7 +1429,6 @@
 						]
 					}
 				}
-				title: "{gto.magic1.quests.5E2AA5695D1F21D7.tasks.490EAAA3703A576F.title}"
 				type: "item"
 			}]
 			title: "{gto.magic1.quests.5E2AA5695D1F21D7.title}"
@@ -4492,6 +4494,9 @@
 					Count: 1
 					id: "itemfilters:or"
 					tag: {
+						display: {
+							Name: "{\"translate\": \"gto.magic1.quests.502826CBF91585C1.tasks.34780BF2AE9956AA.name\"}"
+						}
 						items: [
 							{
 								Count: 1b
@@ -4608,7 +4613,6 @@
 						]
 					}
 				}
-				title: "{gto.magic1.quests.502826CBF91585C1.tasks.34780BF2AE9956AA.title}"
 				type: "item"
 			}]
 			title: "{gto.magic1.quests.502826CBF91585C1.title}"
@@ -4776,7 +4780,7 @@
 					id: "itemfilters:or"
 					tag: {
 						display: {
-							Name: "{\"text\":\"任意魔力管道\"}"
+							Name: "{\"translate\": \"gto.magic1.quests.7DB4B6390DB628FF.tasks.1233381D7E7F9C78.name\"}"
 						}
 						items: [
 							{
