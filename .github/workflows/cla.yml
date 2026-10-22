@@ -7,30 +7,11 @@ on:
 
 permissions:
   actions: write
-  contents: write
+  contents: read
   pull-requests: write
   statuses: write
 
 jobs:
-  CLAAssistant:
-    runs-on: ubuntu-latest
-    if: >-
-      github.event_name == 'pull_request_target' ||
-      (github.event.issue.pull_request &&
-        (github.event.comment.body == 'recheck' ||
-         github.event.comment.body == 'I have read the CLA Document and I hereby sign the CLA'))
-    steps:
-      - name: "CLA Assistant"
-        uses: contributor-assistant/github-action@v2.6.1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          path-to-document: 'https://github.com/GregTech-Odyssey/GregTech-Odyssey/blob/main/CLA.md'
-          path-to-signatures: 'signatures/version1/cla.json'
-          branch: 'cla-signatures'
-          allowlist: 'xinxinsuried,*[bot]'
-          lock-pullrequest-aftermerge: false
-          custom-notsigned-prcomment: '感谢你的贡献！合并前，请阅读并签署 [贡献者许可协议（CLA）](https://github.com/GregTech-Odyssey/GregTech-Odyssey/blob/main/CLA.md)：在本 PR 下发一条评论，内容与下方完全一致。<br/>Thank you for your contribution! Before we can merge it, please read and sign our [Contributor License Agreement](https://github.com/GregTech-Odyssey/GregTech-Odyssey/blob/main/CLA.md) by posting a comment with exactly the text below.<br/>'
-          custom-allsigned-prcomment: '所有贡献者都已签署 CLA。All contributors have signed the CLA. ✅'
-          create-file-commit-message: 'chore: 创建 CLA 签名记录'
-          signed-commit-message: 'chore: $contributorName 在 #$pullRequestNo 签署了 CLA'
+  cla:
+    uses: GregTech-Odyssey/CLA/.github/workflows/cla.yml@main
+    secrets: inherit
