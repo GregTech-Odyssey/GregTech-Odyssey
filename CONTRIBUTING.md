@@ -6,6 +6,8 @@
 
 参与贡献前，请阅读[贡献政策](docs/CONTRIBUTION_POLICY.md)。该政策适用于 **GregTech Odyssey 项目下所有仓库**，统一说明贡献者责任和 AI 使用规范。
 
+提交 Pull Request 即表示你同意[贡献者许可协议（CLA）](CLA.md)，该协议同样适用于项目下所有仓库。
+
 如果只是报告问题或提出建议，请前往 [Issues](https://github.com/GregTech-Odyssey/GregTech-Odyssey/issues)。
 
 ## 开发环境

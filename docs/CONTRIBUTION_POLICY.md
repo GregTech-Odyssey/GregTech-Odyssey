@@ -4,6 +4,8 @@
 
 本文件适用于向**本项目下任何仓库**提交 Pull Request 的贡献者。
 
+提交贡献前，请阅读[贡献者许可协议（CLA）](../CLA.md)。提交 Pull Request 即表示你同意该协议。
+
 本整合包的开发流程、维护要求及 PR 提交说明，见[贡献指南](../CONTRIBUTING.md)。
 
 如果你只是提出问题或建议，请前往 [Issues](https://github.com/GregTech-Odyssey/GregTech-Odyssey/issues)。
