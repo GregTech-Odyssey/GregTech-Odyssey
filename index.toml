@@ -1964,6 +1964,11 @@ hash = "8f1623993ecf4a87a36c12fd964fcff81f7481e43338cffec1c9cd544fd9c579"
 metafile = true
 
 [[files]]
+file = "mods/fast-events.pw.toml"
+hash = "224709ddabe0b780b133a8c5fec8dc189f4ec2d06ea447a572bb1347c87c78ef"
+metafile = true
+
+[[files]]
 file = "mods/fast-nbt.pw.toml"
 hash = "6a0de7514993a5431e0d42c60d946ce36f8ee7f4ba4a7cc3edf5eab72668c87d"
 metafile = true
