@@ -1,0 +1,12 @@
+name: "PR Description Check"
+on:
+  pull_request_target:
+    types: [opened, reopened, edited]
+
+permissions:
+  issues: write
+  pull-requests: write
+
+jobs:
+  pr-body:
+    uses: GregTech-Odyssey/CLA/.github/workflows/pr-body.yml@main
