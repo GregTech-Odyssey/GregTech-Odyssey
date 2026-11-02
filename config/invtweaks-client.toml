@@ -41,7 +41,7 @@
 		sortRange = ""
 
 	[[sorting.containerOverrides]]
-		containerClass = "com.glodblock.github.extendedae.client.gui.*"
+		containerClass = "com.glodblock.github.extendedae.*"
 		sortRange = ""
 
 	[[sorting.containerOverrides]]
