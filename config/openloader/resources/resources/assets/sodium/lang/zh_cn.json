@@ -53,7 +53,7 @@
   "sodium.options.use_no_error_context.tooltip": "启用后，将创建 OpenGL 上下文并禁用错误检查。可略微提高渲染性能，但会使调试不明原因的突然崩溃时变得更加困难。",
   "sodium.options.buttons.undo": "撤销",
   "sodium.options.buttons.apply": "应用",
-  "sodium.options.buttons.donate": "赞助我们！",
+  "sodium.options.buttons.donate": "赞助 Sodium 作者",
   "sodium.console.game_restart": "游戏需要重启来应用这些更改！",
   "sodium.console.broken_nvidia_driver": "您的NVIDIA驱动程序过旧。\n  *如果继续使用Sodium，这将产生严重的性能问题或导致崩溃。\n  *请将您的NVIDIA驱动程序更新到版本536.23或更新版本。",
   "sodium.console.pojav_launcher": "Sodium不支持PojavLauncher。\n  *如果您继续使用Sodium，您很可能会遇到严重的性能问题、渲染错误和崩溃。\n  *请您自行决定是否继续——我们不会帮助您解决任何问题！",

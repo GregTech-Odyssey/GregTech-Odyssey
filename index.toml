@@ -541,14 +541,6 @@ file = "config/openloader/data/data/data/ad_astra/loot_tables/chests/village/moo
 hash = "5d005008cbed36ad538f57d0bf268868a165635b125ba7bf9094b8542a7ffb23"
 
 [[files]]
-file = "config/openloader/data/data/data/ad_astra/planets/glacio.json"
-hash = "26325b84f5ca48a958866aa5b5dafa2d127dd642e54af0552ba53fe9798d76b0"
-
-[[files]]
-file = "config/openloader/data/data/data/ad_astra/planets/glacio_orbit.json"
-hash = "bcad6519500c494e53b4d4d0bd2a758a951377ebc7d91692b7f4441c85ef0ef4"
-
-[[files]]
 file = "config/openloader/data/data/data/ad_astra/tags/fluids/efficient_fuel.json"
 hash = "33975eff3c2c6cf9000bce7825e1256f756eb8a353be7e9b7011bb4298f97a65"
 
@@ -1610,7 +1602,7 @@ hash = "bccd49f38f55b3d5665e310aca3ea72486213ec2f0e33066b1b01a90d3752e9a"
 
 [[files]]
 file = "config/openloader/resources/resources/assets/sodium/lang/zh_cn.json"
-hash = "196c8fd93363111eaeaec61867b77f9a1e60cf7050622b59076ece107bbbe5c5"
+hash = "7395c5ee5b702e47dcddafa2b655e46ffc57726dc08853e3fa48e1c405bea2db"
 
 [[files]]
 file = "config/openloader/resources/resources/assets/solclassic/lang/zh_cn.json"
