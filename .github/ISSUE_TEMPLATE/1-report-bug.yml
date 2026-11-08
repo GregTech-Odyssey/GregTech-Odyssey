@@ -98,8 +98,6 @@ body:
       label: "Final Checklist / 最终检查清单"
       description: "Please confirm the following to help us process your report efficiently. / 请确认以下内容，以帮助我们高效处理您的报告。"
       options:
-        - label: "I have searched the issue tracker and confirmed that no similar report exists. If the bug persists, commenting on a closed issue will prompt us to investigate and, if verified, reopen the issue. / 我已搜索问题跟踪器，确认不存在类似报告。如果错误仍然存在，在已关闭的问题上评论将促使我们调查，并经核实后重新开启该问题。"
-          required: true
         - label: "I can consistently reproduce this issue by following the steps outlined above, or reproduction is not applicable (e.g., a recipe exploit). / 我可以通过遵循上述步骤持续重现此问题，或无需重现（例如，配方漏洞）。"
           required: true
         - label: "I understand that due to the rapid updates of the integration package, errors in non latest or extremely similar versions are highly likely to have been fixed, and their reports will be closed without investigation. / 我理解因整合包飞速地更新，非最新版本或极其相近的版本的错误极大可能已经修复，其报告将被关闭而不进行调查。"

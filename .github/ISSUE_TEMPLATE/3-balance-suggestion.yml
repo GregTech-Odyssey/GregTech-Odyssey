@@ -60,8 +60,6 @@ body:
       label: "Final Checklist / 最终检查清单"
       description: "Please confirm the following to help us process your suggestion efficiently. / 请确认以下内容，以帮助我们高效处理您的建议。"
       options:
-        - label: "I have searched the issue tracker and confirmed that no similar balance suggestion exists. / 我已搜索问题跟踪器，确认不存在类似平衡性建议。"
-          required: true
         - label: "I have tested my suggested changes in-game or have a good understanding of the current balance. / 我已在游戏中测试过我的建议更改，或对当前平衡性有很好的理解。"
           required: true
         - label: "I understand that balance changes need to consider the overall game progression and other mods. / 我理解平衡性更改需要考虑整体游戏进程和其他模组。"

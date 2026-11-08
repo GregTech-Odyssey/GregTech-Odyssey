@@ -64,8 +64,6 @@ body:
       label: "Final Checklist / 最终检查清单"
       description: "Please confirm the following to help us process your suggestion efficiently. / 请确认以下内容，以帮助我们高效处理您的建议。"
       options:
-        - label: "I have searched the issue tracker and confirmed that no similar feature request exists. / 我已搜索问题跟踪器，确认不存在类似特性请求。"
-          required: true
         - label: "My feature suggestion is well thought out and would benefit the modpack. / 我的特性建议经过深思熟虑，将对模组包有益。"
           required: true
         - label: "I understand that not all feature requests can be implemented, and I'm open to discussion and compromise. / 我理解并非所有特性请求都能被实现，我愿意进行讨论和妥协。"

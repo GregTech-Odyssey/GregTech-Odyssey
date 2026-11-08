@@ -68,8 +68,6 @@ body:
       label: "Final Checklist / 最终检查清单"
       description: "Please confirm the following to help us process your request efficiently. / 请确认以下内容，以帮助我们高效处理您的请求。"
       options:
-        - label: "I have searched the issue tracker and confirmed that no similar mod request exists. / 我已搜索问题跟踪器，确认不存在类似模组请求。"
-          required: true
         - label: "I have tested this mod in a similar modpack or environment. / 我已在类似的模组包或环境中测试过这个模组。"
           required: true
         - label: "I understand that not all mods can be added due to compatibility, balance, or other concerns. / 我理解由于兼容性、平衡性或其他原因，并非所有模组都能被添加。"
