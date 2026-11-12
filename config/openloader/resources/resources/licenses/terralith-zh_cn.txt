@@ -1,0 +1,19 @@
+Terralith Simplified Chinese biome names
+
+Translation: CFPAOrg / Minecraft-Mod-Language-Package contributors
+Source revision: 80ab947d2d5818fa1f70c90532903ea3c6e97648
+Source files:
+https://github.com/CFPAOrg/Minecraft-Mod-Language-Package/blob/80ab947d2d5818fa1f70c90532903ea3c6e97648/projects/assets/terralith/1.21/terralith/lang/zh_cn.json
+https://github.com/CFPAOrg/Minecraft-Mod-Language-Package/blob/80ab947d2d5818fa1f70c90532903ea3c6e97648/projects/assets/terralith/1.21/terralith/lang/zh_cn-fixup.json
+
+License: Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+https://creativecommons.org/licenses/by-nc-sa/4.0/
+Source license:
+https://github.com/CFPAOrg/Minecraft-Mod-Language-Package/blob/80ab947d2d5818fa1f70c90532903ea3c6e97648/LICENSE
+
+Changes by GregTech Odyssey: selected the 99 biome names present in Terralith
+1.20.x v2.5.4 and their 14 dotted cave-key aliases; included the upstream
+Skylands fixup. Translation values are unchanged. Upstream's 1.20 packer
+policy reuses these 1.21 translation files.
+
+This material remains under CC BY-NC-SA 4.0 and is provided without warranties.

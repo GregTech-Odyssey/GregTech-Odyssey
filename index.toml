@@ -1521,6 +1521,10 @@ file = "config/openloader/resources/resources/assets/solclassic/lang/zh_cn.json"
 hash = "93b61440e55ebbbb93ed7816863077798f3c816501faa08c171bc364e8c18920"
 
 [[files]]
+file = "config/openloader/resources/resources/assets/terralith/lang/zh_cn.json"
+hash = "4948bea56d27c9012169fbde641897ed93d67fc97b79c7dcdefd9322af894642"
+
+[[files]]
 file = "config/openloader/resources/resources/assets/terrific_trash_cans/lang/zh_cn.json"
 hash = "45348b0eb9757ed7808bb5d41a0acb32fe90d91d2f57fbcb489ca3198aabe853"
 
@@ -1531,6 +1535,10 @@ hash = "823b9f7fae4a77c8eae3e0783dcb9666c05dd27c5912a1293c93f00eb25a866f"
 [[files]]
 file = "config/openloader/resources/resources/assets/xaeroworldmap/lang/zh_cn.json"
 hash = "7ed31d109a6cbe82e894eb82431e69a503c8e11fe1e376d2d6dfdc3fffc99214"
+
+[[files]]
+file = "config/openloader/resources/resources/licenses/terralith-zh_cn.txt"
+hash = "f80b6a34d1984a00a68e0439d14c47c798dd77d5b83b7da6cbc0152b28e8040a"
 
 [[files]]
 file = "config/openloader/resources/resources/pack.mcmeta"
