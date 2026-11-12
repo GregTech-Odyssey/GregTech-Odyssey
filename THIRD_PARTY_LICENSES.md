@@ -26,7 +26,7 @@ Inclusion in GTOCore does not grant rights beyond those terms.
 | GT New Horizons        | CC BY-NC-SA 4.0                      | Code, Textures |
 | Astral Sorcery         | ARR                                  | Textures       |
 | GT-Not-Leisure         | LGPLv3                               | Code           |
-| CFPA Minecraft Mod Language Package | CC BY-NC-SA 4.0 | Terralith Biome Translations |
+| CFPA Minecraft Mod Language Package | CC BY-NC-SA 4.0 | Terralith Biome & Structure Translations |
 
 ---
 
@@ -133,6 +133,6 @@ Inclusion in GTOCore does not grant rights beyond those terms.
 - **Source**: [CFPAOrg/Minecraft-Mod-Language-Package](https://github.com/CFPAOrg/Minecraft-Mod-Language-Package/tree/80ab947d2d5818fa1f70c90532903ea3c6e97648/projects/assets/terralith)
 - **Authors**: CFPAOrg / Minecraft-Mod-Language-Package contributors
 - **License**: [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
-- **Used Content**: Simplified Chinese biome names in the modpack's OpenLoader resources.
-- **Changes**: Selected Terralith 1.20.x v2.5.4 biome keys and dotted cave aliases, including the upstream Skylands fixup; translation values are unchanged.
+- **Used Content**: Simplified Chinese biome and structure names in the modpack's OpenLoader resources.
+- **Changes**: Selected Terralith 1.20.x v2.5.4 biome and structure keys, including the upstream Skylands fixup; reused structure names for legacy IDs and added dotted cave/underground aliases. Selected upstream translation values are unchanged. GregTech Odyssey supplied the remaining structure and structure-group names under CC BY-NC-SA 4.0.
 - **Packaged attribution**: [terralith-zh_cn.txt](config/openloader/resources/resources/licenses/terralith-zh_cn.txt)
