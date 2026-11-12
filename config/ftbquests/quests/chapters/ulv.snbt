@@ -208,7 +208,7 @@
 			id: "498D24745D509B73"
 			rewards: [{
 				id: "4C50916429573FD8"
-				item: "biomeswevegone:green_apple_pie"
+				item: "minecraft:pumpkin_pie"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -243,7 +243,7 @@
 			rewards: [{
 				count: 3
 				id: "2584F708C3B522AE"
-				item: "biomeswevegone:blueberry_pie"
+				item: "minecraft:pumpkin_pie"
 				type: "item"
 			}]
 			shape: "hexagon"

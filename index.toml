@@ -274,7 +274,7 @@ hash = "e09c77c1293ca550355d1fe295904952bab94bb7b186339c31ac36f0fea5aad7"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ulv.snbt"
-hash = "33f4cf3ed6790ba52ed225e7a72dd3317ebc15c087201be73081a26fd4b3d5bd"
+hash = "839ebe63cd8226f8af8242b270d62af1a78293c378a366ce70cbaf8a46058a93"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/util.snbt"
@@ -677,10 +677,6 @@ file = "config/openloader/resources/resources/assets/aw2wtlib/lang/zh_cn.json"
 hash = "2934ded30bbd92f9f595462bed299d3a6ec1ec2cc45c3826ffa8f7c15cac1cb0"
 
 [[files]]
-file = "config/openloader/resources/resources/assets/biomeswevegone/lang/zh_tw.json"
-hash = "a49d669d0a318c713ac2873153c4e1ea9116e8b47e9a4c0fa070298b3adacd2e"
-
-[[files]]
 file = "config/openloader/resources/resources/assets/chisel/lang/zh_cn.json"
 hash = "aad5dc200645865874bffeddd56c2bf18efef3e2a5501ec927598eed2bd1a21e"
 
@@ -714,7 +710,7 @@ hash = "132cb5918a2de767df6fef324f337f8624211d15c07506741cc272f23dd5249e"
 
 [[files]]
 file = "config/openloader/resources/resources/assets/explorerscompass/lang/zh_cn.json"
-hash = "288ed052d6bdbb96847f26db10570cf5fdceea606974784b6d7d9e9f162d47b1"
+hash = "e93a9a25f8053a1865938c0f191b6ba5ec8953323e8af2a764811e3846299667"
 
 [[files]]
 file = "config/openloader/resources/resources/assets/extendedae/lang/zh_tw.json"
@@ -1506,7 +1502,7 @@ hash = "8e5dff415d9f0b30f173547a9f4115d281c01bbf810692980fb5cc35ccb44efa"
 
 [[files]]
 file = "config/openloader/resources/resources/assets/naturescompass/lang/zh_cn.json"
-hash = "fa822c78a4ddc97a02609f72424c8c31434e75d49212dcf36bb809cc1c2d0327"
+hash = "c2c6d8661c16628980ae685414000a333a67fd8d87317b5410c7a9f059f64275"
 
 [[files]]
 file = "config/openloader/resources/resources/assets/openpartiesandclaims/lang/zh_cn.json"
@@ -1832,11 +1828,6 @@ metafile = true
 [[files]]
 file = "mods/controlling.pw.toml"
 hash = "9bff2c1bbde39e095ed71025191ae0ae837b3467175bd4e3b8698c82e172cd8e"
-metafile = true
-
-[[files]]
-file = "mods/corgilib.pw.toml"
-hash = "aee69b2371df6a915ddf731db3a84065f05c754b66a18416f55522067103244d"
 metafile = true
 
 [[files]]
@@ -2268,16 +2259,6 @@ hash = "7ac54f74e57d4649fc96ac601e5d2d38e634bfd214b615d021a230da72b4ac54"
 metafile = true
 
 [[files]]
-file = "mods/oh-the-biomes-weve-gone.pw.toml"
-hash = "50b73d93c38d5462894228d3b8b2f6dc1a579af6705465654ad0334497226594"
-metafile = true
-
-[[files]]
-file = "mods/oh-the-trees-youll-grow.pw.toml"
-hash = "567be8e3e15ff0a01fc448d0b8215fc84dce243e6f6e928a9e3850a8a113599e"
-metafile = true
-
-[[files]]
 file = "mods/open-loader.pw.toml"
 hash = "a773f5a00bfad575c0f830ed0f67edbd6b99fa5c29a51d27d7cfcfef02b3dccb"
 metafile = true
@@ -2368,8 +2349,8 @@ hash = "4b2933a18390fe4fc0efef26556413372a96a0f5ed639c713643ed8e49649c58"
 metafile = true
 
 [[files]]
-file = "mods/terrablender.pw.toml"
-hash = "fde3d3b1607636100e382dce1bba80ab4608ebfa1ef888a37b86bc8c7dcbafe5"
+file = "mods/terralith.pw.toml"
+hash = "b0978cb7ae7b79c5be89b323ca1bd038f693ff6d11c43dfcbd63953964149af2"
 metafile = true
 
 [[files]]
