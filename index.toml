@@ -2107,11 +2107,6 @@ hash = "0c3d1c807305348b4d043884c2f11b92e5bf36e09037b9acdc0b89b905c01979"
 metafile = true
 
 [[files]]
-file = "mods/guideme.pw.toml"
-hash = "606e38058a2913795ecebcd9b407a453d8fc24cfd3409a9eb431ff56e10bcfe8"
-metafile = true
-
-[[files]]
 file = "mods/hang-glider.pw.toml"
 hash = "86d704f7374cabab6900a9de7cfc581f6acdb0182494d710fea548ed873d5d87"
 metafile = true
