@@ -1,0 +1,23 @@
+Terralith Simplified Chinese biome and structure names
+
+Translation: CFPAOrg / Minecraft-Mod-Language-Package contributors
+Source revision: 80ab947d2d5818fa1f70c90532903ea3c6e97648
+Source files:
+https://github.com/CFPAOrg/Minecraft-Mod-Language-Package/blob/80ab947d2d5818fa1f70c90532903ea3c6e97648/projects/assets/terralith/1.21/terralith/lang/zh_cn.json
+https://github.com/CFPAOrg/Minecraft-Mod-Language-Package/blob/80ab947d2d5818fa1f70c90532903ea3c6e97648/projects/assets/terralith/1.21/terralith/lang/zh_cn-fixup.json
+
+License: Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+https://creativecommons.org/licenses/by-nc-sa/4.0/
+Source license:
+https://github.com/CFPAOrg/Minecraft-Mod-Language-Package/blob/80ab947d2d5818fa1f70c90532903ea3c6e97648/LICENSE
+
+Changes by GregTech Odyssey: selected the 99 biome names present in Terralith
+1.20.x v2.5.4 and their 14 dotted cave-key aliases; included the upstream
+Skylands fixup. Upstream's 1.20 packer policy reuses these 1.21 translation files.
+Also selected the 11 available structure translations, reused Oak Cabin and
+Witch Hut for their legacy structure IDs, and added dotted aliases for the
+seven underground structure paths used by Explorer's Compass. Selected upstream
+translation values are unchanged. GregTech Odyssey supplied the remaining
+15 structure names and seven structure-group names under CC BY-NC-SA 4.0.
+
+This material remains under CC BY-NC-SA 4.0 and is provided without warranties.
