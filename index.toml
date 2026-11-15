@@ -825,6 +825,10 @@ file = "config/openloader/resources/resources/assets/gtocore/lang/en_us.json"
 hash = "3a73e47a36ebcebcdbb2b9dcae11122c881ba27a110e9c54517178eee611f734"
 
 [[files]]
+file = "config/openloader/resources/resources/assets/gtocore/lang/zh_cn.json"
+hash = "32ed8306b9a628c42193b103a35d8f557130e3771c9a373e6ca18f6483e660dd"
+
+[[files]]
 file = "config/openloader/resources/resources/assets/gtocore/textures/item/tier/t0.png"
 hash = "c32d62cd03c0bade517d1c4a018cde6dbeb0203be4dd2a83f0ff71943cac59f2"
 
