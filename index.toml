@@ -670,7 +670,7 @@ hash = "f068fbe1d63c3643c8a73b605185f61005b9651a9d1f8cb44b9231999a33b6bc"
 
 [[files]]
 file = "config/openloader/resources/resources/assets/ars_nouveau/lang/zh_cn.json"
-hash = "c8a6fdf1601b57d0a7cedfef80ecf77b40bc50d5a591702c4302a9f5b1100d54"
+hash = "a1390fd34f333d0e82fae250ecf95959d3968f8f05e83bc1d9210f5cf0883cf6"
 
 [[files]]
 file = "config/openloader/resources/resources/assets/aw2wtlib/lang/zh_cn.json"
@@ -682,7 +682,7 @@ hash = "aad5dc200645865874bffeddd56c2bf18efef3e2a5501ec927598eed2bd1a21e"
 
 [[files]]
 file = "config/openloader/resources/resources/assets/chloride/lang/zh_cn.json"
-hash = "a8be895225bc936141c1f3f965409b988d90304da4a4e361d82b023e3d2d5409"
+hash = "7ee109407b561ac404705a19ef43c207bd3e5916adf0b0de4b5339625fa8c1b3"
 
 [[files]]
 file = "config/openloader/resources/resources/assets/craftingstation/lang/zh_cn.json"
@@ -1510,7 +1510,7 @@ hash = "c2c6d8661c16628980ae685414000a333a67fd8d87317b5410c7a9f059f64275"
 
 [[files]]
 file = "config/openloader/resources/resources/assets/openpartiesandclaims/lang/zh_cn.json"
-hash = "d41a5129477d6cebd1d47b2335ca15fa172e8f28474114ceedaed016a0ee9b54"
+hash = "04218472c3c5b459ce59dbc8350e3365c2baf6a01af4d598f65d62f8b08335b5"
 
 [[files]]
 file = "config/openloader/resources/resources/assets/shrink/lang/zh_cn.json"
@@ -1538,11 +1538,19 @@ hash = "823b9f7fae4a77c8eae3e0783dcb9666c05dd27c5912a1293c93f00eb25a866f"
 
 [[files]]
 file = "config/openloader/resources/resources/assets/xaeroworldmap/lang/zh_cn.json"
-hash = "7ed31d109a6cbe82e894eb82431e69a503c8e11fe1e376d2d6dfdc3fffc99214"
+hash = "2bfd88260c63328b8550e56bf148cfb51dc425eef9aff0574ac72f79510fea5a"
+
+[[files]]
+file = "config/openloader/resources/resources/licenses/openpartiesandclaims-zh_cn.txt"
+hash = "015544e0020dd49566575fcb866d8f83410d7bf9764efaba35328fafa3234224"
 
 [[files]]
 file = "config/openloader/resources/resources/licenses/terralith-zh_cn.txt"
 hash = "85e999fc98465de2e6ff6072db0507f09428aeefb89d8f9800ebfba54a72c20c"
+
+[[files]]
+file = "config/openloader/resources/resources/licenses/xaeroworldmap-zh_cn.txt"
+hash = "b185762e0bea5bb14fa285df63e31261f15235c07eca9836a91412ef69a2c963"
 
 [[files]]
 file = "config/openloader/resources/resources/pack.mcmeta"
