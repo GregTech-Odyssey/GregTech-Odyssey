@@ -35,8 +35,6 @@ key_key.hotbar.9:key.keyboard.9:NONE
 key_key.modernfix.config:key.keyboard.unknown:NONE
 key_key.shrink.shrink:key.keyboard.unknown:NONE
 key_key.apotheosis.toggle_radial_mining:key.keyboard.unknown:NONE
-key_key.shetiphiancore.tool.next:key.keyboard.unknown:NONE
-key_key.shetiphiancore.tool.previous:key.keyboard.unknown:NONE
 key_key.botania_corporea_request:key.keyboard.unknown:NONE
 key_key.curios.open.desc:key.keyboard.unknown:NONE
 key_key.clienttweaks.hideOffhandItem:key.keyboard.unknown:NONE
@@ -77,8 +75,6 @@ key_key.invtweaks_sort_player.desc:key.keyboard.r:NONE
 key_key.invtweaks_sort_inventory.desc:key.keyboard.grave.accent:NONE
 key_key.invtweaks_sort_either.desc:key.mouse.middle:NONE
 key_ponder.keyinfo.ponder:key.keyboard.unknown:NONE
-key_framedblocks.key.update_cull:key.keyboard.unknown:NONE
-key_framedblocks.key.wipe_cache:key.keyboard.unknown:NONE
 key_gui.xaero_minimap_settings:key.keyboard.unknown:NONE
 key_gui.xaero_zoom_in:key.keyboard.unknown:NONE
 key_gui.xaero_zoom_out:key.keyboard.unknown:NONE
@@ -200,9 +196,6 @@ key_key.ae2.portable_fluid_cell:key.keyboard.unknown:NONE
 key_key.ae2.wireless_pattern_encoding_terminal:key.keyboard.unknown:NONE
 key_key.ae2.wireless_terminal:key.keyboard.unknown:NONE
 key_key.epp.viewpattern:key.keyboard.p:NONE
-key_keybinding.enderio.probe_mode:key.keyboard.unknown:NONE
-key_key.diet.open.desc:key.keyboard.unknown:NONE
-key_shimmer.key.pickColor:key.keyboard.v:NONE
 key_key.buildinggadgets2.settings_menu:key.keyboard.g:NONE
 key_key.buildinggadgets2.undo:key.keyboard.u:NONE
 key_key.buildinggadgets2.anchor:key.keyboard.h:NONE

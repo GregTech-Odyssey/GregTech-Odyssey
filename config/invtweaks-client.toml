@@ -53,10 +53,6 @@
 		sortRange = ""
 
 	[[sorting.containerOverrides]]
-		containerClass = "tfar.craftingstation.client.CraftingStationScreen"
-		sortRange = ""
-
-	[[sorting.containerOverrides]]
 		containerClass = "com.lowdragmc.lowdraglib.gui.modular.ModularUIGuiContainer"
 		sortRange = ""
 
