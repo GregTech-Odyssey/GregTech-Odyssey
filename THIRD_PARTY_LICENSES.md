@@ -26,6 +26,9 @@ Inclusion in GTOCore does not grant rights beyond those terms.
 | GT New Horizons        | CC BY-NC-SA 4.0                      | Code, Textures |
 | Astral Sorcery         | ARR                                  | Textures       |
 | GT-Not-Leisure         | LGPLv3                               | Code           |
+| CFPA Minecraft Mod Language Package | CC BY-NC-SA 4.0 | Terralith Biome & Structure Translations |
+| Open Parties and Claims CN Localization | MIT | Open Parties and Claims Simplified Chinese Translations |
+| XaerosWorldMapChinese | Apache-2.0 | Xaero's World Map Simplified Chinese Translations |
 
 ---
 
@@ -126,3 +129,30 @@ Inclusion in GTOCore does not grant rights beyond those terms.
 
 - **Usage Description**:
   - Selected animations are integrated and recreated into GTOCore
+
+## CFPA Minecraft Mod Language Package
+
+- **Source**: [CFPAOrg/Minecraft-Mod-Language-Package](https://github.com/CFPAOrg/Minecraft-Mod-Language-Package/tree/80ab947d2d5818fa1f70c90532903ea3c6e97648/projects/assets/terralith)
+- **Authors**: CFPAOrg / Minecraft-Mod-Language-Package contributors
+- **License**: [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+- **Used Content**: Simplified Chinese biome and structure names in the modpack's OpenLoader resources.
+- **Changes**: Selected Terralith 1.20.x v2.5.4 biome and structure keys, including the upstream Skylands fixup; reused structure names for legacy IDs and added dotted cave/underground aliases. Selected upstream translation values are unchanged. GregTech Odyssey supplied the remaining structure and structure-group names under CC BY-NC-SA 4.0.
+- **Packaged attribution**: [terralith-zh_cn.txt](config/openloader/resources/resources/licenses/terralith-zh_cn.txt)
+
+## Open Parties and Claims CN Localization
+
+- **Source**: [jssda/Open-Parties-and-Claims-CN-Localization](https://github.com/jssda/Open-Parties-and-Claims-CN-Localization/tree/db8e87b1bb29689b16d334ab1ede9f1204130f59)
+- **Author**: jssd and contributors
+- **License**: MIT
+- **Used Content**: Selected Simplified Chinese translations in the modpack's OpenLoader resources.
+- **Changes**: Adapted to Open Parties and Claims 0.30.3 on Minecraft 1.20.1. Rewrote protection exception labels and tooltips against the matching upstream source, corrected changed messages and missing placeholders, and preserved existing modpack translations.
+- **Packaged attribution and license**: [openpartiesandclaims-zh_cn.txt](config/openloader/resources/resources/licenses/openpartiesandclaims-zh_cn.txt)
+
+## XaerosWorldMapChinese
+
+- **Source**: [dboycht/XaerosWorldMapChinese](https://github.com/dboycht/XaerosWorldMapChinese/tree/1b9b659)
+- **Author**: dboycht and contributors
+- **License**: Apache-2.0
+- **Used Content**: Simplified Chinese translations used as the basis for missing Xaero's World Map strings in the modpack's OpenLoader resources.
+- **Changes**: Adapted and revised the added translations for Xaero's World Map 1.45.0, preserved placeholders and literal folder names, and translated the remaining missing strings.
+- **Packaged attribution and license**: [xaeroworldmap-zh_cn.txt](config/openloader/resources/resources/licenses/xaeroworldmap-zh_cn.txt)

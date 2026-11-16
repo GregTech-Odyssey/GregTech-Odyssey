@@ -59,6 +59,7 @@ packwiz
 /*.lock
 fixup.sh
 /.github
+/.codegraph/
 /result
 .codex-tmp
 config/flywheel-client.toml
