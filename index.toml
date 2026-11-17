@@ -553,6 +553,30 @@ file = "config/openloader/data/data/data/sophisticatedbackpacks/recipes/iron_bac
 hash = "5e90b444df02a419617c6372013660e2d57dec9f6c2cf1f22e96f17e59bcab11"
 
 [[files]]
+file = "config/openloader/data/data/data/terralith/recipes/cobblestone_from_stone_slab.json"
+hash = "1967590db613d7845f25ff22f0b4b6d4527e0f00c84ee3c8623c31d41682aaf9"
+
+[[files]]
+file = "config/openloader/data/data/data/terralith/recipes/dispenser_alt.json"
+hash = "1967590db613d7845f25ff22f0b4b6d4527e0f00c84ee3c8623c31d41682aaf9"
+
+[[files]]
+file = "config/openloader/data/data/data/terralith/recipes/dropper_alt.json"
+hash = "1967590db613d7845f25ff22f0b4b6d4527e0f00c84ee3c8623c31d41682aaf9"
+
+[[files]]
+file = "config/openloader/data/data/data/terralith/recipes/lever_alt.json"
+hash = "1967590db613d7845f25ff22f0b4b6d4527e0f00c84ee3c8623c31d41682aaf9"
+
+[[files]]
+file = "config/openloader/data/data/data/terralith/recipes/observer_alt.json"
+hash = "1967590db613d7845f25ff22f0b4b6d4527e0f00c84ee3c8623c31d41682aaf9"
+
+[[files]]
+file = "config/openloader/data/data/data/terralith/recipes/piston_alt.json"
+hash = "1967590db613d7845f25ff22f0b4b6d4527e0f00c84ee3c8623c31d41682aaf9"
+
+[[files]]
 file = "config/openloader/data/data/data/titles/functions/remove.mcfunction"
 hash = "7e1b960dc47cbc2e52cd99c409dd1f037ae6953a5e41a3f91779d716d56a00dc"
 
