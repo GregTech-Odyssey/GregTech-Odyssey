@@ -52,12 +52,12 @@ if [ "$java_major" -lt 21 ]; then
   fail "$msg_java_old $java_version"
 fi
 
-forge_installer="$server_root/gto-installer/tools/forge-1.20.1-47.4.20-installer.jar"
+forge_installer="$server_root/gto-installer/tools/forge-1.20.1-47.4.29-installer.jar"
 packwiz_installer="$server_root/gto-installer/tools/packwiz-installer-v0.5.14.jar"
 pack_file="$server_root/gto-installer/pack/pack.toml"
-forge_library="$server_root/libraries/net/minecraftforge/forge/1.20.1-47.4.20/forge-1.20.1-47.4.20-universal.jar"
-forge_unix_args="$server_root/libraries/net/minecraftforge/forge/1.20.1-47.4.20/unix_args.txt"
-forge_win_args="$server_root/libraries/net/minecraftforge/forge/1.20.1-47.4.20/win_args.txt"
+forge_library="$server_root/libraries/net/minecraftforge/forge/1.20.1-47.4.29/forge-1.20.1-47.4.29-universal.jar"
+forge_unix_args="$server_root/libraries/net/minecraftforge/forge/1.20.1-47.4.29/unix_args.txt"
+forge_win_args="$server_root/libraries/net/minecraftforge/forge/1.20.1-47.4.29/win_args.txt"
 minecraft_server="$server_root/libraries/net/minecraft/server/1.20.1/server-1.20.1.jar"
 
 if [ ! -f "$forge_installer" ] || [ ! -f "$packwiz_installer" ] || [ ! -f "$pack_file" ]; then

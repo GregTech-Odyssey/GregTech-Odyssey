@@ -1,13 +1,13 @@
 name = "Lean Object"
-filename = "leanobject-1.20-26.9.2-forge.jar"
+filename = "leanobject-1.20-26.11.1-forge.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "287ca8b52960d5a2fcfbe4a91f2a7a26e8db9c8c"
+hash = "ac6494a257097248cc4cb21e8b1a336fd94f1668"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8929333
+file-id = 9457253
 project-id = 1703183
