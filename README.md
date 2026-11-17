@@ -96,6 +96,13 @@ This modpack and the related mods in its repository (such as GTOCore) include co
 | [GT-Not-Leisure](https://github.com/ABKQPO/GT-Not-Leisure) | LGPLv3 | Code |
 | [Ars Énergistique](https://github.com/62832/ArsEnergistique) | LGPLv3 | Code |
 | [SuperFactoryManager](https://github.com/TeamDman/SuperFactoryManager) | MPL-2.0 | Code |
+| [Apotheosis](https://github.com/Shadows-of-Fire/Apotheosis) (by Shadows_of_Fire) | MIT | Code (JEI integration rewritten as EMI recipe pages) |
+| [Just Enough Resources](https://github.com/way2muchnoise/JustEnoughResources) (by way2muchnoise) | "Don't Be a Jerk" License | Code, texts (mob, chest and plant drop pages rewritten as EMI pages) |
+| [MythicBotany](https://github.com/noeppi-noeppi/MythicBotany) (by noeppi_noeppi) | Apache-2.0 | Code (JEI integration rewritten as EMI recipe pages) |
+| [Ars Nouveau](https://github.com/baileyholl/Ars-Nouveau) (by Bailey Hollingsworth) | LGPLv3 | Code (JEI integration rewritten as EMI recipe pages) |
+| [Farmer's Respite](https://www.curseforge.com/minecraft/mc-mods/farmers-respite) (by Umpaz, Probleyes) | Marked MIT in the mod file, All Rights Reserved on its release pages | Layout of the kettle brewing recipe page (code written independently, no code from the mod is used) |
+| [Jade](https://github.com/Snownee/Jade) (by Snownee) | CC BY-NC-SA 4.0 | EMI hookup for its recipe lookup keys (code written independently, no code from the mod is used) |
+| [FTB Quests](https://github.com/FTBTeam/FTB-Quests), [FTB XMod Compat](https://github.com/FTBTeam/FTB-XMod-Compat) (by FTB Team) | All Rights Reserved | EMI hookup for quest recipe lookup (code written independently, no code from the mods is used) |
 
 ## Star History
 

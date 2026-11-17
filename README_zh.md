@@ -96,6 +96,13 @@ GregTech Odyssey（GTO）是一个以现代格雷（GregTech Modern）为核心�
 | [GT-Not-Leisure](https://github.com/ABKQPO/GT-Not-Leisure) | LGPLv3 | 代码 |
 | [Ars Énergistique](https://github.com/62832/ArsEnergistique) | LGPLv3 | 代码 |
 | [SuperFactoryManager](https://github.com/TeamDman/SuperFactoryManager) | MPL-2.0 | 代码 |
+| [Apotheosis](https://github.com/Shadows-of-Fire/Apotheosis)（作者 Shadows_of_Fire） | MIT | 代码（JEI 集成改写为 EMI 配方页） |
+| [Just Enough Resources](https://github.com/way2muchnoise/JustEnoughResources)（作者 way2muchnoise） | "Don't Be a Jerk" License | 代码、文本（生物、箱子、植物掉落页改写为 EMI 页面） |
+| [MythicBotany](https://github.com/noeppi-noeppi/MythicBotany)（作者 noeppi_noeppi） | Apache-2.0 | 代码（JEI 集成改写为 EMI 配方页） |
+| [Ars Nouveau](https://github.com/baileyholl/Ars-Nouveau)（作者 Bailey Hollingsworth） | LGPLv3 | 代码（JEI 集成改写为 EMI 配方页） |
+| [Farmer's Respite](https://www.curseforge.com/minecraft/mc-mods/farmers-respite)（作者 Umpaz、Probleyes） | 模组文件标注 MIT，发布页标注保留所有权利 | 水壶冲泡配方页的布局（代码独立编写，未使用原模组代码） |
+| [Jade](https://github.com/Snownee/Jade)（作者 Snownee） | CC BY-NC-SA 4.0 | 配方查看按键的 EMI 接入（代码独立编写，未使用原模组代码） |
+| [FTB Quests](https://github.com/FTBTeam/FTB-Quests)、[FTB XMod Compat](https://github.com/FTBTeam/FTB-XMod-Compat)（作者 FTB Team） | 保留所有权利 | 任务配方查看的 EMI 接入（代码独立编写，未使用原模组代码） |
 
 ## Star 历史
 
