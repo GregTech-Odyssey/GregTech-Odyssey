@@ -1826,11 +1826,6 @@ hash = "fbd9aa57290eab3802b187f1baa9939dee9db2676653d923e31061b8deef0645"
 metafile = true
 
 [[files]]
-file = "mods/creativecore.pw.toml"
-hash = "c4f845dcc7d28b16f4dcb9c501c2266d36d90bd312f022f93925c061fde5756d"
-metafile = true
-
-[[files]]
 file = "mods/cryonicconfig.pw.toml"
 hash = "429a759dfd7022f63dd263e9021cf61b777e3849cd6530b20fc2d33d33639767"
 metafile = true
