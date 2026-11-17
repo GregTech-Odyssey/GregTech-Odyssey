@@ -369,22 +369,6 @@ file = "config/jade/sort-order.json"
 hash = "75822ff348645d0fa4de5aefe5d41f46e7f0a01bab2c3cc0be5e5fa4566699dd"
 
 [[files]]
-file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "1a63291047bf85f4681dea3eedef3c0deecc526b191ed76e8272a65bcdbcdda5"
-
-[[files]]
-file = "config/jei/ingredient-list-type-sort-order.ini"
-hash = "ca6f0515891afed86c30c9d3d8ad1496a7d03de9ea532ab431f2ec1d3968826b"
-
-[[files]]
-file = "config/jei/jei-client.ini"
-hash = "df63b491d8fe61656b9187997dd4135644a48121caf2f3ed1d3bc711540488c4"
-
-[[files]]
-file = "config/jei/recipe-category-sort-order.ini"
-hash = "435ba94eee13e22214e46e1fb24d331150fb95cd74436069ce83592b9a346ea9"
-
-[[files]]
 file = "config/leanobject.toml"
 hash = "1094ff0f529fbb284ab1167871356b6ff0eb8259cfe7b2b5fd8f4d36789139dd"
 
@@ -951,10 +935,6 @@ hash = "f85848f7a6f710aa7d32d301fc25a367370080d2e3e2861ddd49f5d93de8b74b"
 [[files]]
 file = "config/openloader/resources/resources/assets/gtocore/textures/item/tier/t9.png.mcmeta"
 hash = "3b6f31d9e9f1643595730b16a527fd168c1bd5d212c9005a0fa35b060bfd4bfd"
-
-[[files]]
-file = "config/openloader/resources/resources/assets/jei/textures/jei/gui/gui_vanilla.png"
-hash = "1705843c5b5d822addb4728cab1b2325e3fd005e643565e8ba3e7e7ff0470e5a"
 
 [[files]]
 file = "config/openloader/resources/resources/assets/merequester/lang/zh_tw.json"
@@ -2109,18 +2089,8 @@ hash = "a2277a000bcab08a8e0939dae7c8ef3b1db5327e2fa7bd37919e4e2f1b3c174d"
 metafile = true
 
 [[files]]
-file = "mods/jei.pw.toml"
-hash = "bb4a521b67a2f8a3d55d30d4065d0bb8a35705524cefa082f81149361de8f87f"
-metafile = true
-
-[[files]]
 file = "mods/just-enough-characters.pw.toml"
 hash = "5f93c54ccc39902bb2ee2ee9d1d10cfda7aa16380efe3e629b59ff57f430bba7"
-metafile = true
-
-[[files]]
-file = "mods/just-enough-resources-jer.pw.toml"
-hash = "e571816e2487046d3f1c2697f03166b47d6343dbd4480d9e72cc1b2b4a0062f1"
 metafile = true
 
 [[files]]
