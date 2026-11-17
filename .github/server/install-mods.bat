@@ -52,12 +52,12 @@ if not defined JAVA_MAJOR goto java_unknown
 for /f "delims=0123456789" %%V in ("%JAVA_MAJOR%") do goto java_unknown
 if %JAVA_MAJOR% LSS 21 goto java_too_old
 
-set "FORGE_INSTALLER=%CD%\gto-installer\tools\forge-1.20.1-47.4.20-installer.jar"
+set "FORGE_INSTALLER=%CD%\gto-installer\tools\forge-1.20.1-47.4.29-installer.jar"
 set "PACKWIZ_INSTALLER=%CD%\gto-installer\tools\packwiz-installer-v0.5.14.jar"
 set "PACK_FILE=%CD%\gto-installer\pack\pack.toml"
-set "FORGE_LIBRARY=%CD%\libraries\net\minecraftforge\forge\1.20.1-47.4.20\forge-1.20.1-47.4.20-universal.jar"
-set "FORGE_UNIX_ARGS=%CD%\libraries\net\minecraftforge\forge\1.20.1-47.4.20\unix_args.txt"
-set "FORGE_WIN_ARGS=%CD%\libraries\net\minecraftforge\forge\1.20.1-47.4.20\win_args.txt"
+set "FORGE_LIBRARY=%CD%\libraries\net\minecraftforge\forge\1.20.1-47.4.29\forge-1.20.1-47.4.29-universal.jar"
+set "FORGE_UNIX_ARGS=%CD%\libraries\net\minecraftforge\forge\1.20.1-47.4.29\unix_args.txt"
+set "FORGE_WIN_ARGS=%CD%\libraries\net\minecraftforge\forge\1.20.1-47.4.29\win_args.txt"
 set "MINECRAFT_SERVER=%CD%\libraries\net\minecraft\server\1.20.1\server-1.20.1.jar"
 
 if not exist "%FORGE_INSTALLER%" goto missing_files
