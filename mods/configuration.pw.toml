@@ -1,13 +1,13 @@
 name = "Configuration"
-filename = "configuration-forge-1.20.1-3.1.0.jar"
+filename = "configuration-forge-3.1.1-1.20.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "8757a9f1d47f48463765d1d202cdadc41c84f6b0"
+hash = "f27a1d1da0f9be72c5ff6ad588081c9491d8c366"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 5840405
+file-id = 9425510
 project-id = 444699
